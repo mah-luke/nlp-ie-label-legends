@@ -1,0 +1,24 @@
+# text = [URL] Women want equality until equality comes knocking their ass out.
+# sent_id = 100155
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+4	Women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=6|end_char=11
+5	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=12|end_char=16
+6	equality	equality	NOUN	NN	Number=Sing	5	_	_	start_char=17|end_char=25
+7	until	until	SCONJ	IN	_	6	_	_	start_char=26|end_char=31
+8	equality	equality	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=40
+9	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=41|end_char=46
+10	knocking	knock	VERB	VBG	VerbForm=Ger	9	_	_	start_char=47|end_char=55
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=56|end_char=61
+12	ass	ass	NOUN	NN	Number=Sing	11	_	_	start_char=62|end_char=65
+13	out	out	ADP	RP	_	12	_	_	start_char=66|end_char=69|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=69|end_char=70
+
+# text = #Feminism #DamnPatriarchy
+# sent_id = 100156
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=71|end_char=72|SpaceAfter=No
+2	Feminism	feminism	NOUN	NN	Number=Sing	1	_	_	start_char=72|end_char=80
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=81|end_char=82|SpaceAfter=No
+4	DamnPatriarchy	damnpatriarchy	NOUN	NN	Number=Sing	3	_	_	start_char=82|end_char=96|SpaceAfter=No
+

@@ -1,0 +1,53 @@
+# text = [USER]
+# sent_id = 17393
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = It is tyranny.
+# sent_id = 17394
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=9
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=12
+3	tyranny	tyranny	NOUN	NN	Number=Sing	2	_	_	start_char=13|end_char=20|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=20|end_char=21
+
+# text = If she is elected I fear for my nation.
+# sent_id = 17395
+1	If	if	SCONJ	IN	_	0	_	_	start_char=22|end_char=24
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=25|end_char=28
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=29|end_char=31
+4	elected	elect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=32|end_char=39
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=40|end_char=41
+6	fear	fear	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=42|end_char=46
+7	for	for	ADP	IN	_	6	_	_	start_char=47|end_char=50
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	_	_	start_char=51|end_char=53
+9	nation	nation	NOUN	NN	Number=Sing	8	_	_	start_char=54|end_char=60|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=60|end_char=61
+
+# text = With Obama I knew disaster and problems but believed America could make it through.,
+# sent_id = 17396
+1	With	with	ADP	IN	_	0	_	_	start_char=62|end_char=66
+2	Obama	Obama	PROPN	NNP	Number=Sing	1	_	_	start_char=67|end_char=72
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=73|end_char=74
+4	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=75|end_char=79
+5	disaster	disaster	NOUN	NN	Number=Sing	4	_	_	start_char=80|end_char=88
+6	and	and	CCONJ	CC	_	5	_	_	start_char=89|end_char=92
+7	problems	problem	NOUN	NNS	Number=Plur	6	_	_	start_char=93|end_char=101
+8	but	but	CCONJ	CC	_	7	_	_	start_char=102|end_char=105
+9	believed	believe	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	_	_	start_char=106|end_char=114
+10	America	America	PROPN	NNP	Number=Sing	9	_	_	start_char=115|end_char=122
+11	could	could	AUX	MD	VerbForm=Fin	10	_	_	start_char=123|end_char=128
+12	make	make	VERB	VB	VerbForm=Inf	11	_	_	start_char=129|end_char=133
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=134|end_char=136
+14	through	through	ADP	RP	_	13	_	_	start_char=137|end_char=144|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=144|end_char=145|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=145|end_char=146
+
+# text = Not so with Hillary.
+# sent_id = 17397
+1	Not	not	PART	RB	_	0	_	_	start_char=147|end_char=150
+2	so	so	ADV	RB	_	1	_	_	start_char=151|end_char=153
+3	with	with	ADP	IN	_	2	_	_	start_char=154|end_char=158
+4	Hillary	Hillary	PROPN	NNP	Number=Sing	3	_	_	start_char=159|end_char=166|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=166|end_char=167|SpaceAfter=No
+

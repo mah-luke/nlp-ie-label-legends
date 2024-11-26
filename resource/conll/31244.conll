@@ -1,0 +1,58 @@
+# text = Well, so spend a bunch of money on expensive clothes.
+# sent_id = 66988
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	so	so	ADV	RB	_	2	_	_	start_char=6|end_char=8
+4	spend	spend	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=9|end_char=14
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=15|end_char=16
+6	bunch	bunch	NOUN	NN	Number=Sing	5	_	_	start_char=17|end_char=22
+7	of	of	ADP	IN	_	6	_	_	start_char=23|end_char=25
+8	money	money	NOUN	NN	Number=Sing	7	_	_	start_char=26|end_char=31
+9	on	on	ADP	IN	_	8	_	_	start_char=32|end_char=34
+10	expensive	expensive	ADJ	JJ	Degree=Pos	9	_	_	start_char=35|end_char=44
+11	clothes	clothes	NOUN	NNS	Number=Plur	10	_	_	start_char=45|end_char=52|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=52|end_char=53
+
+# text = Women notice.
+# sent_id = 66989
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=54|end_char=59
+2	notice	notice	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=60|end_char=66|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=66|end_char=67
+
+# text = To an annoying degree.
+# sent_id = 66990
+1	To	to	ADP	IN	_	0	_	_	start_char=68|end_char=70
+2	an	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=71|end_char=73
+3	annoying	annoying	ADJ	JJ	Degree=Pos	2	_	_	start_char=74|end_char=82
+4	degree	degree	NOUN	NN	Number=Sing	3	_	_	start_char=83|end_char=89|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=89|end_char=90
+
+# text = Throw on some makeup!
+# sent_id = 66991
+1	Throw	throw	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=91|end_char=96
+2	on	on	ADP	RP	_	1	_	_	start_char=97|end_char=99
+3	some	some	DET	DT	_	2	_	_	start_char=100|end_char=104
+4	makeup	makeup	NOUN	NN	Number=Sing	3	_	_	start_char=105|end_char=111|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=111|end_char=112
+
+# text = Guys will think you're a fag but a fair number of women will respond positively.
+# sent_id = 66992
+1	Guys	guy	NOUN	NNS	Number=Plur	0	_	_	start_char=113|end_char=117
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=118|end_char=122
+3	think	think	VERB	VB	VerbForm=Inf	2	_	_	start_char=123|end_char=128
+4-5	you're	_	_	_	_	_	_	_	start_char=129|end_char=135
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=129|end_char=132
+5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=132|end_char=135
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=136|end_char=137
+7	fag	fag	NOUN	NN	Number=Sing	6	_	_	start_char=138|end_char=141
+8	but	but	CCONJ	CC	_	7	_	_	start_char=142|end_char=145
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=146|end_char=147
+10	fair	fair	ADJ	JJ	Degree=Pos	9	_	_	start_char=148|end_char=152
+11	number	number	NOUN	NN	Number=Sing	10	_	_	start_char=153|end_char=159
+12	of	of	ADP	IN	_	11	_	_	start_char=160|end_char=162
+13	women	woman	NOUN	NNS	Number=Plur	12	_	_	start_char=163|end_char=168
+14	will	will	AUX	MD	VerbForm=Fin	13	_	_	start_char=169|end_char=173
+15	respond	respond	VERB	VB	VerbForm=Inf	14	_	_	start_char=174|end_char=181
+16	positively	positively	ADV	RB	_	15	_	_	start_char=182|end_char=192|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=192|end_char=193|SpaceAfter=No
+

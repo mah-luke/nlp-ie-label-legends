@@ -1,0 +1,51 @@
+# text = She’s toying with you bud, probably showing her friends how “funny” she is.
+# sent_id = 95670
+1-2	She’s	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	toying	toy	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=6|end_char=12
+4	with	with	ADP	IN	_	3	_	_	start_char=13|end_char=17
+5	you	you	PRON	PRP$	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=18|end_char=21
+6	bud	bud	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=25|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=25|end_char=26
+8	probably	probably	ADV	RB	_	7	_	_	start_char=27|end_char=35
+9	showing	show	VERB	VBG	VerbForm=Ger	8	_	_	start_char=36|end_char=43
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=44|end_char=47
+11	friends	friend	NOUN	NNS	Number=Plur	10	_	_	start_char=48|end_char=55
+12	how	how	ADV	WRB	PronType=Int	11	_	_	start_char=56|end_char=59
+13	“	''	PUNCT	``	_	12	_	_	start_char=60|end_char=61|SpaceAfter=No
+14	funny	funny	ADJ	JJ	Degree=Pos	13	_	_	start_char=61|end_char=66|SpaceAfter=No
+15	”	''	PUNCT	''	_	14	_	_	start_char=66|end_char=67
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=68|end_char=71
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=72|end_char=74|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=74|end_char=75
+
+# text = Don’t get butthurt, just leave it at that and don’t continue the conversation.
+# sent_id = 95671
+1-2	Don’t	_	_	_	_	_	_	_	start_char=76|end_char=81
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=76|end_char=78
+2	n’t	not	PART	RB	_	1	_	_	start_char=78|end_char=81
+3	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=82|end_char=85
+4	butthurt	butthurt	ADJ	JJ	Degree=Pos	3	_	_	start_char=86|end_char=94|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=94|end_char=95
+6	just	just	ADV	RB	_	5	_	_	start_char=96|end_char=100
+7	leave	leave	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=101|end_char=106
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=107|end_char=109
+9	at	at	ADP	IN	_	8	_	_	start_char=110|end_char=112
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	9	_	_	start_char=113|end_char=117
+11	and	and	CCONJ	CC	_	10	_	_	start_char=118|end_char=121
+12-13	don’t	_	_	_	_	_	_	_	start_char=122|end_char=127
+12	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	11	_	_	start_char=122|end_char=124
+13	n’t	not	PART	RB	_	12	_	_	start_char=124|end_char=127
+14	continue	continue	VERB	VB	Mood=Imp|VerbForm=Fin	13	_	_	start_char=128|end_char=136
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=137|end_char=140
+16	conversation	conversation	NOUN	NN	Number=Sing	15	_	_	start_char=141|end_char=153|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=153|end_char=154
+
+# text = And hit the gym
+# sent_id = 95672
+1	And	and	CCONJ	CC	_	0	_	_	start_char=155|end_char=158
+2	hit	hit	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	1	_	_	start_char=159|end_char=162
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=163|end_char=166
+4	gym	gym	NOUN	NN	Number=Sing	3	_	_	start_char=167|end_char=170|SpaceAfter=No
+

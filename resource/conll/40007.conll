@@ -1,0 +1,34 @@
+# text = Wait, I misread the question.
+# sent_id = 85506
+1	Wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4	misread	misread	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=15
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=16|end_char=19
+6	question	question	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=28|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = I don’t hate women.
+# sent_id = 85507
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=30|end_char=31
+2-3	don’t	_	_	_	_	_	_	_	start_char=32|end_char=37
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=34
+3	n’t	not	PART	RB	_	2	_	_	start_char=34|end_char=37
+4	hate	hate	VERB	VB	VerbForm=Inf	3	_	_	start_char=38|end_char=42
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=43|end_char=48|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=48|end_char=49
+
+# text = I identified as an incel because of A and B.
+# sent_id = 85508
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=50|end_char=51
+2	identified	identify	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=52|end_char=62
+3	as	as	ADP	IN	_	2	_	_	start_char=63|end_char=65
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=66|end_char=68
+5	incel	incel	NOUN	NN	Number=Sing	4	_	_	start_char=69|end_char=74
+6	because	because	ADP	IN	_	5	_	_	start_char=75|end_char=82
+7	of	of	ADP	IN	_	6	_	_	start_char=83|end_char=85
+8	A	A	PROPN	NNP	Number=Sing	7	_	_	start_char=86|end_char=87
+9	and	and	CCONJ	CC	_	8	_	_	start_char=88|end_char=91
+10	B	B	NOUN	NN	Number=Sing	9	_	_	start_char=92|end_char=93|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=93|end_char=94|SpaceAfter=No
+

@@ -1,0 +1,31 @@
+# text = Why can't women be Catholic priests?
+# sent_id = 118730
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2-3	can't	_	_	_	_	_	_	_	start_char=4|end_char=9
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	n't	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=10|end_char=15
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=16|end_char=18
+6	Catholic	Catholic	ADJ	JJ	Degree=Pos	5	_	_	start_char=19|end_char=27
+7	priests	priest	NOUN	NNS	Number=Plur	6	_	_	start_char=28|end_char=35|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=35|end_char=36
+
+# text = Because you can't shove a vagina up a little boy's arse.
+# sent_id = 118731
+1	Because	because	SCONJ	IN	_	0	_	_	start_char=37|end_char=44
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=45|end_char=48
+3-4	can't	_	_	_	_	_	_	_	start_char=49|end_char=54
+3	ca	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=49|end_char=51
+4	n't	not	PART	RB	_	3	_	_	start_char=51|end_char=54
+5	shove	shove	VERB	VB	VerbForm=Inf	4	_	_	start_char=55|end_char=60
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=61|end_char=62
+7	vagina	vagina	NOUN	NN	Number=Sing	6	_	_	start_char=63|end_char=69
+8	up	up	ADP	RP	_	7	_	_	start_char=70|end_char=72
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=73|end_char=74
+10	little	little	ADJ	JJ	Degree=Pos	9	_	_	start_char=75|end_char=81
+11-12	boy's	_	_	_	_	_	_	_	start_char=82|end_char=87
+11	boy	boy	NOUN	NN	Number=Sing	10	_	_	start_char=82|end_char=85
+12	's	's	PART	POS	_	11	_	_	start_char=85|end_char=87
+13	arse	arse	NOUN	NN	Number=Sing	12	_	_	start_char=88|end_char=92|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=92|end_char=93|SpaceAfter=No
+

@@ -1,0 +1,67 @@
+# text = What an awful story!
+# sent_id = 78940
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	an	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=7
+3	awful	awful	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=13
+4	story	story	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=19|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=19|end_char=20
+
+# text = The state and his cheating wife really screwed him.
+# sent_id = 78941
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=21|end_char=24
+2	state	state	NOUN	NN	Number=Sing	1	_	_	start_char=25|end_char=30
+3	and	and	CCONJ	CC	_	2	_	_	start_char=31|end_char=34
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=35|end_char=38
+5	cheating	cheating	NOUN	NN	Number=Sing	4	_	_	start_char=39|end_char=47
+6	wife	wife	NOUN	NN	Number=Sing	5	_	_	start_char=48|end_char=52
+7	really	really	ADV	RB	_	6	_	_	start_char=53|end_char=59
+8	screwed	screw	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=60|end_char=67
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=68|end_char=71|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=71|end_char=72
+
+# text = > ...however I beat the shit out of him, I broke his jaw in five places, I broke his arm and leg...
+# sent_id = 78942
+1	>	>	PUNCT	NFP	_	0	_	_	start_char=73|end_char=74
+2	...	...	PUNCT	,	_	1	_	_	start_char=75|end_char=78|SpaceAfter=No
+3	however	however	ADV	RB	_	2	_	_	start_char=78|end_char=85
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=86|end_char=87
+5	beat	beat	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=88|end_char=92
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=93|end_char=96
+7	shit	shit	NOUN	NN	Number=Sing	6	_	_	start_char=97|end_char=101
+8	out	out	ADP	IN	_	7	_	_	start_char=102|end_char=105
+9	of	of	ADP	IN	_	8	_	_	start_char=106|end_char=108
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=109|end_char=112|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=112|end_char=113
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=114|end_char=115
+13	broke	break	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	_	_	start_char=116|end_char=121
+14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=122|end_char=125
+15	jaw	jaw	NOUN	NN	Number=Sing	14	_	_	start_char=126|end_char=129
+16	in	in	ADP	IN	_	15	_	_	start_char=130|end_char=132
+17	five	five	NUM	CD	NumForm=Word|NumType=Card	16	_	_	start_char=133|end_char=137
+18	places	place	NOUN	NNS	Number=Plur	17	_	_	start_char=138|end_char=144|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=144|end_char=145
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	_	_	start_char=146|end_char=147
+21	broke	break	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	_	_	start_char=148|end_char=153
+22	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	_	_	start_char=154|end_char=157
+23	arm	arm	NOUN	NN	Number=Sing	22	_	_	start_char=158|end_char=161
+24	and	and	CCONJ	CC	_	23	_	_	start_char=162|end_char=165
+25	leg	leg	NOUN	NN	Number=Sing	24	_	_	start_char=166|end_char=169|SpaceAfter=No
+26	...	...	PUNCT	.	_	25	_	_	start_char=169|end_char=172
+
+# text = Holy shit!
+# sent_id = 78943
+1	Holy	Holy	ADJ	JJ	Degree=Pos	0	_	_	start_char=173|end_char=177
+2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=178|end_char=182|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=182|end_char=183
+
+# text = I hadn't seen that coming.
+# sent_id = 78944
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=184|end_char=185
+2-3	hadn't	_	_	_	_	_	_	_	start_char=186|end_char=192
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=186|end_char=189
+3	n't	not	PART	RB	_	2	_	_	start_char=189|end_char=192
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=193|end_char=197
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=198|end_char=202
+6	coming	come	VERB	VBG	VerbForm=Ger	5	_	_	start_char=203|end_char=209|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=209|end_char=210|SpaceAfter=No
+

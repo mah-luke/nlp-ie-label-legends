@@ -1,0 +1,29 @@
+# text = I don't trust any woman.
+# sent_id = 66363
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	don't	_	_	_	_	_	_	_	start_char=2|end_char=7
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	n't	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	trust	trust	VERB	VB	VerbForm=Inf	3	_	_	start_char=8|end_char=13
+5	any	any	DET	DT	_	4	_	_	start_char=14|end_char=17
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=23|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=23|end_char=24
+
+# text = No closed door mettings, shared travel, etc.
+# sent_id = 66364
+1	No	no	DET	DT	_	0	_	_	start_char=25|end_char=27
+2	closed	close	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=28|end_char=34
+3	door	door	NOUN	NN	Number=Sing	2	_	_	start_char=35|end_char=39
+4	mettings	metting	NOUN	NNS	Number=Plur	3	_	_	start_char=40|end_char=48|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=48|end_char=49
+6	shared	share	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=50|end_char=56
+7	travel	travel	NOUN	NN	Number=Sing	6	_	_	start_char=57|end_char=63|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=63|end_char=64
+9	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	8	_	_	start_char=65|end_char=68|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=68|end_char=69
+
+# text = Ever.
+# sent_id = 66365
+1	Ever	ever	ADV	RB	_	0	_	_	start_char=70|end_char=74|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=74|end_char=75|SpaceAfter=No
+

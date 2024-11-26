@@ -1,0 +1,55 @@
+# text = Thanks
+# sent_id = 88374
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=6
+
+# text = Kelly, I can totally testify to the eyebrows thing guys.
+# sent_id = 88375
+1	Kelly	Kelly	PROPN	NNP	Number=Sing	0	_	_	start_char=7|end_char=12|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=12|end_char=13
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=14|end_char=15
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=16|end_char=19
+5	totally	totally	ADV	RB	_	4	_	_	start_char=20|end_char=27
+6	testify	testify	VERB	VB	VerbForm=Inf	5	_	_	start_char=28|end_char=35
+7	to	to	ADP	IN	_	6	_	_	start_char=36|end_char=38
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=39|end_char=42
+9	eyebrows	eyebrow	NOUN	NNS	Number=Plur	8	_	_	start_char=43|end_char=51
+10	thing	thing	NOUN	NN	Number=Sing	9	_	_	start_char=52|end_char=57
+11	guys	guy	NOUN	NNS	Number=Plur	10	_	_	start_char=58|end_char=62|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=62|end_char=63
+
+# text = I'm german that has lived in america for the last 7 years but I get my eyebrows threaded, dudes thinks it's gay, chick thinks its sexy!
+# sent_id = 88376
+1-2	I'm	_	_	_	_	_	_	_	start_char=64|end_char=67
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=64|end_char=65
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=65|end_char=67
+3	german	german	ADJ	JJ	Degree=Pos	2	_	_	start_char=68|end_char=74
+4	that	that	PRON	WDT	PronType=Rel	3	_	_	start_char=75|end_char=79
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=80|end_char=83
+6	lived	live	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=84|end_char=89
+7	in	in	ADP	IN	_	6	_	_	start_char=90|end_char=92
+8	america	America	PROPN	NNP	Number=Sing	7	_	_	start_char=93|end_char=100
+9	for	for	ADP	IN	_	8	_	_	start_char=101|end_char=104
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=105|end_char=108
+11	last	last	ADJ	JJ	Degree=Pos	10	_	_	start_char=109|end_char=113
+12	7	7	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=114|end_char=115
+13	years	year	NOUN	NNS	Number=Plur	12	_	_	start_char=116|end_char=121
+14	but	but	CCONJ	CC	_	13	_	_	start_char=122|end_char=125
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=126|end_char=127
+16	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	start_char=128|end_char=131
+17	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	_	_	start_char=132|end_char=134
+18	eyebrows	eyebrow	NOUN	NNS	Number=Plur	17	_	_	start_char=135|end_char=143
+19	threaded	thread	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=144|end_char=152|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=152|end_char=153
+21	dudes	dude	NOUN	NNS	Number=Plur	20	_	_	start_char=154|end_char=159
+22	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=160|end_char=166
+23-24	it's	_	_	_	_	_	_	_	start_char=167|end_char=171
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=167|end_char=169
+24	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=169|end_char=171
+25	gay	gay	ADJ	JJ	Degree=Pos	24	_	_	start_char=172|end_char=175|SpaceAfter=No
+26	,	,	PUNCT	,	_	25	_	_	start_char=175|end_char=176
+27	chick	chick	NOUN	NN	Number=Sing	26	_	_	start_char=177|end_char=182
+28	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	_	_	start_char=183|end_char=189
+29	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	28	_	_	start_char=190|end_char=193
+30	sexy	sexy	ADJ	JJ	Degree=Pos	29	_	_	start_char=194|end_char=198|SpaceAfter=No
+31	!	!	PUNCT	.	_	30	_	_	start_char=198|end_char=199|SpaceAfter=No
+

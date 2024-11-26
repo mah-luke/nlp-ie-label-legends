@@ -1,0 +1,73 @@
+# text = Pathetic.
+# sent_id = 47128
+1	Pathetic	Pathetic	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=8|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=8|end_char=9
+
+# text = I'd return the favor with a note that simply says "eat shit."
+# sent_id = 47129
+1-2	I'd	_	_	_	_	_	_	_	start_char=10|end_char=13
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=10|end_char=11
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=11|end_char=13
+3	return	return	VERB	VB	VerbForm=Inf	2	_	_	start_char=14|end_char=20
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=21|end_char=24
+5	favor	favor	NOUN	NN	Number=Sing	4	_	_	start_char=25|end_char=30
+6	with	with	ADP	IN	_	5	_	_	start_char=31|end_char=35
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=36|end_char=37
+8	note	note	NOUN	NN	Number=Sing	7	_	_	start_char=38|end_char=42
+9	that	that	PRON	WDT	PronType=Rel	8	_	_	start_char=43|end_char=47
+10	simply	simply	ADV	RB	_	9	_	_	start_char=48|end_char=54
+11	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=55|end_char=59
+12	"	"	PUNCT	``	_	11	_	_	start_char=60|end_char=61|SpaceAfter=No
+13	eat	eat	VERB	VB	VerbForm=Inf	12	_	_	start_char=61|end_char=64
+14	shit	shit	NOUN	NN	Number=Sing	13	_	_	start_char=65|end_char=69|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=69|end_char=70|SpaceAfter=No
+16	"	"	PUNCT	''	_	15	_	_	start_char=70|end_char=71
+
+# text = Most of this list is stuff she should be doing anyway, such as shopping.
+# sent_id = 47130
+1	Most	most	ADJ	JJS	Degree=Sup	0	_	_	start_char=72|end_char=76
+2	of	of	ADP	IN	_	1	_	_	start_char=77|end_char=79
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=80|end_char=84
+4	list	list	NOUN	NN	Number=Sing	3	_	_	start_char=85|end_char=89
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=90|end_char=92
+6	stuff	stuff	NOUN	NN	Number=Sing	5	_	_	start_char=93|end_char=98
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=99|end_char=102
+8	should	should	AUX	MD	VerbForm=Fin	7	_	_	start_char=103|end_char=109
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=110|end_char=112
+10	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=113|end_char=118
+11	anyway	anyway	ADV	RB	_	10	_	_	start_char=119|end_char=125|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=125|end_char=126
+13	such	such	ADJ	JJ	Degree=Pos	12	_	_	start_char=127|end_char=131
+14	as	as	ADP	IN	_	13	_	_	start_char=132|end_char=134
+15	shopping	shopping	NOUN	NN	Number=Sing	14	_	_	start_char=135|end_char=143|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=143|end_char=144
+
+# text = Damn, bitches, know your place and buy some groceries and chef it up.
+# sent_id = 47131
+1	Damn	damn	INTJ	UH	_	0	_	_	start_char=145|end_char=149|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=149|end_char=150
+3	bitches	bitch	NOUN	NNS	Number=Plur	2	_	_	start_char=151|end_char=158|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=158|end_char=159
+5	know	know	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=160|end_char=164
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=165|end_char=169
+7	place	place	NOUN	NN	Number=Sing	6	_	_	start_char=170|end_char=175
+8	and	and	CCONJ	CC	_	7	_	_	start_char=176|end_char=179
+9	buy	buy	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=180|end_char=183
+10	some	some	DET	DT	_	9	_	_	start_char=184|end_char=188
+11	groceries	grocery	NOUN	NNS	Number=Plur	10	_	_	start_char=189|end_char=198
+12	and	and	CCONJ	CC	_	11	_	_	start_char=199|end_char=202
+13	chef	chef	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=203|end_char=207
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=208|end_char=210
+15	up	up	ADP	RP	_	14	_	_	start_char=211|end_char=213|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=213|end_char=214
+
+# text = Clean the goddamned house, too.
+# sent_id = 47132
+1	Clean	clean	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=215|end_char=220
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=221|end_char=224
+3	goddamned	goddamned	ADJ	JJ	Degree=Pos	2	_	_	start_char=225|end_char=234
+4	house	house	NOUN	NN	Number=Sing	3	_	_	start_char=235|end_char=240|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=240|end_char=241
+6	too	too	ADV	RB	_	5	_	_	start_char=242|end_char=245|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=245|end_char=246|SpaceAfter=No
+

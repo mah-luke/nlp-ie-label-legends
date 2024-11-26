@@ -1,0 +1,44 @@
+# text = Indeed.
+# sent_id = 95627
+1	Indeed	indeed	ADV	RB	_	0	_	_	start_char=0|end_char=6|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=6|end_char=7
+
+# text = Now you understand my regret.
+# sent_id = 95628
+1	Now	now	ADV	RB	_	0	_	_	start_char=8|end_char=11
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=12|end_char=15
+3	understand	understand	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=16|end_char=26
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=27|end_char=29
+5	regret	regret	NOUN	NN	Number=Sing	4	_	_	start_char=30|end_char=36|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=36|end_char=37
+
+# text = Ack!
+# sent_id = 95629
+1	Ack	ack	NOUN	NN	Number=Sing	0	_	_	start_char=38|end_char=41|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=41|end_char=42
+
+# text = Did I just say that?
+# sent_id = 95630
+1	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=43|end_char=46
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=47|end_char=48
+3	just	just	ADV	RB	_	2	_	_	start_char=49|end_char=53
+4	say	say	VERB	VB	VerbForm=Inf	3	_	_	start_char=54|end_char=57
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=58|end_char=62|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=62|end_char=63
+
+# text = [USER] [USER] because losing twice would kill her.
+# sent_id = 95631
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=64|end_char=65|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=65|end_char=69|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=69|end_char=70
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=71|end_char=72|SpaceAfter=No
+5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=72|end_char=76|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=76|end_char=77
+7	because	because	SCONJ	IN	_	6	_	_	start_char=78|end_char=85
+8	losing	lose	VERB	VBG	VerbForm=Ger	7	_	_	start_char=86|end_char=92
+9	twice	twice	ADV	RB	NumType=Mult	8	_	_	start_char=93|end_char=98
+10	would	would	AUX	MD	VerbForm=Fin	9	_	_	start_char=99|end_char=104
+11	kill	kill	VERB	VB	VerbForm=Inf	10	_	_	start_char=105|end_char=109
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=110|end_char=113|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=113|end_char=114|SpaceAfter=No
+

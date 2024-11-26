@@ -1,0 +1,25 @@
+# text = That bitch is stupid and dangerous.
+# sent_id = 52838
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	bitch	bitch	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	stupid	stupid	ADJ	JJ	Degree=Pos	3	_	_	start_char=14|end_char=20
+5	and	and	CCONJ	CC	_	4	_	_	start_char=21|end_char=24
+6	dangerous	dangerous	ADJ	JJ	Degree=Pos	5	_	_	start_char=25|end_char=34|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=34|end_char=35
+
+# text = She’s a parasite, she only knows death and destruction
+# sent_id = 52839
+1-2	She’s	_	_	_	_	_	_	_	start_char=36|end_char=41
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=36|end_char=39
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=39|end_char=41
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=42|end_char=43
+4	parasite	parasite	NOUN	NN	Number=Sing	3	_	_	start_char=44|end_char=52|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=52|end_char=53
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=54|end_char=57
+7	only	only	ADV	RB	_	6	_	_	start_char=58|end_char=62
+8	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=63|end_char=68
+9	death	death	NOUN	NN	Number=Sing	8	_	_	start_char=69|end_char=74
+10	and	and	CCONJ	CC	_	9	_	_	start_char=75|end_char=78
+11	destruction	destruction	NOUN	NN	Number=Sing	10	_	_	start_char=79|end_char=90|SpaceAfter=No
+

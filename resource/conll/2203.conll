@@ -1,0 +1,54 @@
+# text = [USER]
+# sent_id = 4660
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = It's phallic, Chauvinistic power... I ASSUME.
+# sent_id = 4661
+1-2	It's	_	_	_	_	_	_	_	start_char=7|end_char=11
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=9
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=11
+3	phallic	phallic	ADJ	JJ	Degree=Pos	2	_	_	start_char=12|end_char=19|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=19|end_char=20
+5	Chauvinistic	Chauvinistic	ADJ	JJ	Degree=Pos	4	_	_	start_char=21|end_char=33
+6	power	power	NOUN	NN	Number=Sing	5	_	_	start_char=34|end_char=39|SpaceAfter=No
+7	...	...	PUNCT	,	_	6	_	_	start_char=39|end_char=42
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=43|end_char=44
+9	ASSUME	assume	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=45|end_char=51|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=51|end_char=52
+
+# text = (I never said it made sense)
+# sent_id = 4662
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=53|end_char=54|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=54|end_char=55
+3	never	never	ADV	RB	_	2	_	_	start_char=56|end_char=61
+4	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=62|end_char=66
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=67|end_char=69
+6	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=70|end_char=74
+7	sense	sense	NOUN	NN	Number=Sing	6	_	_	start_char=75|end_char=80|SpaceAfter=No
+8	)	)	PUNCT	-RRB-	_	7	_	_	start_char=80|end_char=81
+
+# text = Although one could argue for women to have the "right" to be modified with a silencer attachment...
+# sent_id = 4663
+1	Although	although	SCONJ	IN	_	0	_	_	start_char=82|end_char=90
+2	one	one	PRON	PRP	Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=91|end_char=94
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=95|end_char=100
+4	argue	argue	VERB	VB	VerbForm=Inf	3	_	_	start_char=101|end_char=106
+5	for	for	SCONJ	IN	_	4	_	_	start_char=107|end_char=110
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=111|end_char=116
+7	to	to	PART	TO	_	6	_	_	start_char=117|end_char=119
+8	have	have	VERB	VB	VerbForm=Inf	7	_	_	start_char=120|end_char=124
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=125|end_char=128
+10	"	"	PUNCT	``	_	9	_	_	start_char=129|end_char=130|SpaceAfter=No
+11	right	right	NOUN	NN	Number=Sing	10	_	_	start_char=130|end_char=135|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=135|end_char=136
+13	to	to	PART	TO	_	12	_	_	start_char=137|end_char=139
+14	be	be	AUX	VB	VerbForm=Inf	13	_	_	start_char=140|end_char=142
+15	modified	modify	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	_	_	start_char=143|end_char=151
+16	with	with	ADP	IN	_	15	_	_	start_char=152|end_char=156
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=157|end_char=158
+18	silencer	silencer	NOUN	NN	Number=Sing	17	_	_	start_char=159|end_char=167
+19	attachment	attachment	NOUN	NN	Number=Sing	18	_	_	start_char=168|end_char=178|SpaceAfter=No
+20	...	...	PUNCT	.	_	19	_	_	start_char=178|end_char=181|SpaceAfter=No
+

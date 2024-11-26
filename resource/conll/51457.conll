@@ -1,0 +1,51 @@
+# text = Old lady who questions the holocaust labeled Nazi Grandma & sent to prison.
+# sent_id = 109981
+1	Old	Old	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=3
+2	lady	lady	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=8
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=9|end_char=12
+4	questions	question	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=22
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=23|end_char=26
+6	holocaust	holocaust	NOUN	NN	Number=Sing	5	_	_	start_char=27|end_char=36
+7	labeled	label	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=37|end_char=44
+8	Nazi	Nazi	PROPN	NNP	Number=Sing	7	_	_	start_char=45|end_char=49
+9	Grandma	Grandma	PROPN	NNP	Number=Sing	8	_	_	start_char=50|end_char=57
+10	&	&	CCONJ	CC	_	9	_	_	start_char=58|end_char=59
+11	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=60|end_char=64
+12	to	to	ADP	IN	_	11	_	_	start_char=65|end_char=67
+13	prison	prison	NOUN	NN	Number=Sing	12	_	_	start_char=68|end_char=74|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=74|end_char=75
+
+# text = Disgusting attack on this woman.
+# sent_id = 109982
+1	Disgusting	disgusting	ADJ	JJ	Degree=Pos	0	_	_	start_char=76|end_char=86
+2	attack	attack	NOUN	NN	Number=Sing	1	_	_	start_char=87|end_char=93
+3	on	on	ADP	IN	_	2	_	_	start_char=94|end_char=96
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=97|end_char=101
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=102|end_char=107|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=107|end_char=108
+
+# text = If the holocaust was true then why does it have to be protected by law?
+# sent_id = 109983
+1	If	if	SCONJ	IN	_	0	_	_	start_char=109|end_char=111
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=112|end_char=115
+3	holocaust	holocaust	NOUN	NN	Number=Sing	2	_	_	start_char=116|end_char=125
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=126|end_char=129
+5	true	true	ADJ	JJ	Degree=Pos	4	_	_	start_char=130|end_char=134
+6	then	then	ADV	RB	PronType=Dem	5	_	_	start_char=135|end_char=139
+7	why	why	ADV	WRB	PronType=Int	6	_	_	start_char=140|end_char=143
+8	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=144|end_char=148
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=149|end_char=151
+10	have	have	VERB	VB	VerbForm=Inf	9	_	_	start_char=152|end_char=156
+11	to	to	PART	TO	_	10	_	_	start_char=157|end_char=159
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	start_char=160|end_char=162
+13	protected	protect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=163|end_char=172
+14	by	by	ADP	IN	_	13	_	_	start_char=173|end_char=175
+15	law	law	NOUN	NN	Number=Sing	14	_	_	start_char=176|end_char=179|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=179|end_char=180
+
+# text = [URL]
+# sent_id = 109984
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=181|end_char=182|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=182|end_char=185|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=185|end_char=186|SpaceAfter=No
+

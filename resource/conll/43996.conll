@@ -1,0 +1,68 @@
+# text = [URL]
+# sent_id = 94003
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+
+# text = Only talking about the picture: I would like to meet that girl, fall in love with her, marry her and have lots of children with her.
+# sent_id = 94004
+1	Only	only	ADV	RB	_	0	_	_	start_char=6|end_char=10
+2	talking	talk	VERB	VBG	VerbForm=Ger	1	_	_	start_char=11|end_char=18
+3	about	about	ADP	IN	_	2	_	_	start_char=19|end_char=24
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=25|end_char=28
+5	picture	picture	NOUN	NN	Number=Sing	4	_	_	start_char=29|end_char=36|SpaceAfter=No
+6	:	:	PUNCT	:	_	5	_	_	start_char=36|end_char=37
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=38|end_char=39
+8	would	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=40|end_char=45
+9	like	like	VERB	VB	VerbForm=Inf	8	_	_	start_char=46|end_char=50
+10	to	to	PART	TO	_	9	_	_	start_char=51|end_char=53
+11	meet	meet	VERB	VB	VerbForm=Inf	10	_	_	start_char=54|end_char=58
+12	that	that	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=59|end_char=63
+13	girl	girl	NOUN	NN	Number=Sing	12	_	_	start_char=64|end_char=68|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=68|end_char=69
+15	fall	fall	VERB	VB	VerbForm=Inf	14	_	_	start_char=70|end_char=74
+16	in	in	ADP	IN	_	15	_	_	start_char=75|end_char=77
+17	love	love	NOUN	NN	Number=Sing	16	_	_	start_char=78|end_char=82
+18	with	with	ADP	IN	_	17	_	_	start_char=83|end_char=87
+19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=88|end_char=91|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=91|end_char=92
+21	marry	marry	VERB	VB	VerbForm=Inf	20	_	_	start_char=93|end_char=98
+22	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=99|end_char=102
+23	and	and	CCONJ	CC	_	22	_	_	start_char=103|end_char=106
+24	have	have	VERB	VB	VerbForm=Inf	23	_	_	start_char=107|end_char=111
+25	lots	lot	NOUN	NNS	Number=Plur	24	_	_	start_char=112|end_char=116
+26	of	of	ADP	IN	_	25	_	_	start_char=117|end_char=119
+27	children	child	NOUN	NNS	Number=Plur	26	_	_	start_char=120|end_char=128
+28	with	with	ADP	IN	_	27	_	_	start_char=129|end_char=133
+29	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	_	_	start_char=134|end_char=137|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	start_char=137|end_char=138
+
+# text = But before all that, she will be gangraped and killed by all the blacks in that boat.
+# sent_id = 94005
+1	But	but	CCONJ	CC	_	0	_	_	start_char=139|end_char=142
+2	before	before	ADP	IN	_	1	_	_	start_char=143|end_char=149
+3	all	all	DET	PDT	_	2	_	_	start_char=150|end_char=153
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=154|end_char=158|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=158|end_char=159
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=160|end_char=163
+7	will	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=164|end_char=168
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=169|end_char=171
+9	gangraped	gangrape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=172|end_char=181
+10	and	and	CCONJ	CC	_	9	_	_	start_char=182|end_char=185
+11	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=186|end_char=192
+12	by	by	ADP	IN	_	11	_	_	start_char=193|end_char=195
+13	all	all	DET	PDT	_	12	_	_	start_char=196|end_char=199
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=200|end_char=203
+15	blacks	black	NOUN	NNS	Number=Plur	14	_	_	start_char=204|end_char=210
+16	in	in	ADP	IN	_	15	_	_	start_char=211|end_char=213
+17	that	that	DET	DT	Number=Sing|PronType=Dem	16	_	_	start_char=214|end_char=218
+18	boat	boat	NOUN	NN	Number=Sing	17	_	_	start_char=219|end_char=223|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=223|end_char=224
+
+# text = I could cry.
+# sent_id = 94006
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=225|end_char=226
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=227|end_char=232
+3	cry	cry	VERB	VB	VerbForm=Inf	2	_	_	start_char=233|end_char=236|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=236|end_char=237|SpaceAfter=No
+

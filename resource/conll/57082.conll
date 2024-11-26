@@ -1,0 +1,37 @@
+# text = Women label men who insult them or harm them as trash.
+# sent_id = 122000
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=5
+2	label	label	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=11
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=12|end_char=15
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=16|end_char=19
+5	insult	insult	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=20|end_char=26
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=27|end_char=31
+7	or	or	CCONJ	CC	_	6	_	_	start_char=32|end_char=34
+8	harm	harm	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=35|end_char=39
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=40|end_char=44
+10	as	as	ADP	IN	_	9	_	_	start_char=45|end_char=47
+11	trash	trash	NOUN	NN	Number=Sing	10	_	_	start_char=48|end_char=53|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=53|end_char=54
+
+# text = A man who isn't handsome isn't trash, he's just not handsome.
+# sent_id = 122001
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=55|end_char=56
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=57|end_char=60
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=61|end_char=64
+4-5	isn't	_	_	_	_	_	_	_	start_char=65|end_char=70
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=65|end_char=67
+5	n't	not	PART	RB	_	4	_	_	start_char=67|end_char=70
+6	handsome	handsome	ADJ	JJ	Degree=Pos	5	_	_	start_char=71|end_char=79
+7-8	isn't	_	_	_	_	_	_	_	start_char=80|end_char=85
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=80|end_char=82
+8	n't	not	PART	RB	_	7	_	_	start_char=82|end_char=85
+9	trash	trash	NOUN	NN	Number=Sing	8	_	_	start_char=86|end_char=91|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=91|end_char=92
+11-12	he's	_	_	_	_	_	_	_	start_char=93|end_char=97
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=93|end_char=95
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=95|end_char=97
+13	just	just	ADV	RB	_	12	_	_	start_char=98|end_char=102
+14	not	not	PART	RB	_	13	_	_	start_char=103|end_char=106
+15	handsome	handsome	ADJ	JJ	Degree=Pos	14	_	_	start_char=107|end_char=115|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=115|end_char=116|SpaceAfter=No
+

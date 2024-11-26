@@ -1,0 +1,59 @@
+# text = I'm a dyke.
+# sent_id = 19413
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=4|end_char=5
+4	dyke	dyke	NOUN	NN	Number=Sing	3	_	_	start_char=6|end_char=10|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=10|end_char=11
+
+# text = Far from a pick me as you can get.
+# sent_id = 19414
+1	Far	far	ADV	RB	Degree=Pos	0	_	_	start_char=12|end_char=15
+2	from	from	ADP	IN	_	1	_	_	start_char=16|end_char=20
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=21|end_char=22
+4	pick	pick	VERB	VB	VerbForm=Inf	3	_	_	start_char=23|end_char=27
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=28|end_char=30
+6	as	as	SCONJ	IN	_	5	_	_	start_char=31|end_char=33
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=34|end_char=37
+8	can	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=38|end_char=41
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=42|end_char=45|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=45|end_char=46
+
+# text = Obviously there are women out there who are coerced into fucking for a paycheck.
+# sent_id = 19415
+1	Obviously	obviously	ADV	RB	_	0	_	_	start_char=47|end_char=56
+2	there	there	PRON	EX	_	1	_	_	start_char=57|end_char=62
+3	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=63|end_char=66
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=67|end_char=72
+5	out	out	ADV	RB	_	4	_	_	start_char=73|end_char=76
+6	there	there	ADV	RB	PronType=Dem	5	_	_	start_char=77|end_char=82
+7	who	who	PRON	WP	PronType=Rel	6	_	_	start_char=83|end_char=86
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=87|end_char=90
+9	coerced	coerce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=91|end_char=98
+10	into	into	SCONJ	IN	_	9	_	_	start_char=99|end_char=103
+11	fucking	fuck	VERB	VBG	VerbForm=Ger	10	_	_	start_char=104|end_char=111
+12	for	for	ADP	IN	_	11	_	_	start_char=112|end_char=115
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=116|end_char=117
+14	paycheck	paycheck	NOUN	NN	Number=Sing	13	_	_	start_char=118|end_char=126|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=126|end_char=127
+
+# text = That is not what I think women who create porn for other women should do.
+# sent_id = 19416
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=128|end_char=132
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=133|end_char=135
+3	not	not	PART	RB	_	2	_	_	start_char=136|end_char=139
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=140|end_char=144
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=145|end_char=146
+6	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=147|end_char=152
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=153|end_char=158
+8	who	who	PRON	WP	PronType=Rel	7	_	_	start_char=159|end_char=162
+9	create	create	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=163|end_char=169
+10	porn	porn	NOUN	NN	Number=Sing	9	_	_	start_char=170|end_char=174
+11	for	for	ADP	IN	_	10	_	_	start_char=175|end_char=178
+12	other	other	ADJ	JJ	Degree=Pos	11	_	_	start_char=179|end_char=184
+13	women	woman	NOUN	NNS	Number=Plur	12	_	_	start_char=185|end_char=190
+14	should	should	AUX	MD	VerbForm=Fin	13	_	_	start_char=191|end_char=197
+15	do	do	VERB	VB	VerbForm=Inf	14	_	_	start_char=198|end_char=200|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=200|end_char=201|SpaceAfter=No
+

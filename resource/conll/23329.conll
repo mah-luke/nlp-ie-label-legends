@@ -1,0 +1,60 @@
+# text = oh yeah, he's totally pussy whipped.
+# sent_id = 50084
+1	oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	yeah	yeah	INTJ	UH	_	1	_	_	start_char=3|end_char=7|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=7|end_char=8
+4-5	he's	_	_	_	_	_	_	_	start_char=9|end_char=13
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=9|end_char=11
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=11|end_char=13
+6	totally	totally	ADV	RB	_	5	_	_	start_char=14|end_char=21
+7	pussy	pussy	ADV	RB	_	6	_	_	start_char=22|end_char=27
+8	whipped	whip	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=28|end_char=35|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = its weird though because he's basically her bitch, and acts like a complete wimp around her, but when she isnt there he's a badman who thinks he's better than everyone else.
+# sent_id = 50085
+1-2	its	_	_	_	_	_	_	_	start_char=37|end_char=40
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=37|end_char=39
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=39|end_char=40
+3	weird	weird	ADJ	JJ	Degree=Pos	2	_	_	start_char=41|end_char=46
+4	though	though	ADV	RB	_	3	_	_	start_char=47|end_char=53
+5	because	because	SCONJ	IN	_	4	_	_	start_char=54|end_char=61
+6-7	he's	_	_	_	_	_	_	_	start_char=62|end_char=66
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=62|end_char=64
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=64|end_char=66
+8	basically	basically	ADV	RB	_	7	_	_	start_char=67|end_char=76
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=77|end_char=80
+10	bitch	bitch	NOUN	NN	Number=Sing	9	_	_	start_char=81|end_char=86|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=86|end_char=87
+12	and	and	CCONJ	CC	_	11	_	_	start_char=88|end_char=91
+13	acts	act	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=92|end_char=96
+14	like	like	ADP	IN	_	13	_	_	start_char=97|end_char=101
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=102|end_char=103
+16	complete	complete	ADJ	JJ	Degree=Pos	15	_	_	start_char=104|end_char=112
+17	wimp	wimp	NOUN	NN	Number=Sing	16	_	_	start_char=113|end_char=117
+18	around	around	ADP	IN	_	17	_	_	start_char=118|end_char=124
+19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=125|end_char=128|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=128|end_char=129
+21	but	but	CCONJ	CC	_	20	_	_	start_char=130|end_char=133
+22	when	when	ADV	WRB	PronType=Int	21	_	_	start_char=134|end_char=138
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=139|end_char=142
+24-25	isnt	_	_	_	_	_	_	_	start_char=143|end_char=147
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=143|end_char=145
+25	nt	not	PART	RB	_	24	_	_	start_char=145|end_char=147
+26	there	there	ADV	RB	PronType=Dem	25	_	_	start_char=148|end_char=153
+27-28	he's	_	_	_	_	_	_	_	start_char=154|end_char=158
+27	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	_	_	start_char=154|end_char=156
+28	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	_	_	start_char=156|end_char=158
+29	a	a	DET	DT	Definite=Ind|PronType=Art	28	_	_	start_char=159|end_char=160
+30	badman	badman	NOUN	NN	Number=Sing	29	_	_	start_char=161|end_char=167
+31	who	who	PRON	WP	PronType=Rel	30	_	_	start_char=168|end_char=171
+32	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	_	_	start_char=172|end_char=178
+33-34	he's	_	_	_	_	_	_	_	start_char=179|end_char=183
+33	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	32	_	_	start_char=179|end_char=181
+34	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	_	_	start_char=181|end_char=183
+35	better	good	ADJ	JJR	Degree=Cmp	34	_	_	start_char=184|end_char=190
+36	than	than	ADP	IN	_	35	_	_	start_char=191|end_char=195
+37	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	36	_	_	start_char=196|end_char=204
+38	else	else	ADJ	JJ	Degree=Pos	37	_	_	start_char=205|end_char=209|SpaceAfter=No
+39	.	.	PUNCT	.	_	38	_	_	start_char=209|end_char=210|SpaceAfter=No
+

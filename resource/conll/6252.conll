@@ -1,0 +1,40 @@
+# text = Our education system is a reverse cuckoo’s egg.
+# sent_id = 13032
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	education	education	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=13
+3	system	system	NOUN	NN	Number=Sing	2	_	_	start_char=14|end_char=20
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=21|end_char=23
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=24|end_char=25
+6	reverse	reverse	ADJ	JJ	Degree=Pos	5	_	_	start_char=26|end_char=33
+7-8	cuckoo’s	_	_	_	_	_	_	_	start_char=34|end_char=42
+7	cuckoo	cuckoo	NOUN	NN	Number=Sing	6	_	_	start_char=34|end_char=40
+8	’s	's	PART	POS	_	7	_	_	start_char=40|end_char=42
+9	egg	egg	NOUN	NN	Number=Sing	8	_	_	start_char=43|end_char=46|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=46|end_char=47
+
+# text = We have the children, but they train them to be theirs.
+# sent_id = 13033
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=48|end_char=50
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=55
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=56|end_char=59
+4	children	child	NOUN	NNS	Number=Plur	3	_	_	start_char=60|end_char=68|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=68|end_char=69
+6	but	but	CCONJ	CC	_	5	_	_	start_char=70|end_char=73
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=74|end_char=78
+8	train	train	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=79|end_char=84
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=85|end_char=89
+10	to	to	PART	TO	_	9	_	_	start_char=90|end_char=92
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=93|end_char=95
+12	theirs	theirs	PRON	PRP	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=96|end_char=102|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=102|end_char=103
+
+# text = Get out if you possibly can.
+# sent_id = 13034
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=104|end_char=107
+2	out	out	ADP	RP	_	1	_	_	start_char=108|end_char=111
+3	if	if	SCONJ	IN	_	2	_	_	start_char=112|end_char=114
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=115|end_char=118
+5	possibly	possibly	ADV	RB	_	4	_	_	start_char=119|end_char=127
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=128|end_char=131|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=131|end_char=132|SpaceAfter=No
+

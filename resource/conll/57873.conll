@@ -1,0 +1,49 @@
+# text = LOL.
+# sent_id = 123627
+1	LOL	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = Come on man.
+# sent_id = 123628
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=5|end_char=9
+2	on	on	ADP	IN	_	1	_	_	start_char=10|end_char=12
+3	man	man	NOUN	NN	Number=Sing	2	_	_	start_char=13|end_char=16|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=16|end_char=17
+
+# text = You have been had.
+# sent_id = 123629
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=18|end_char=21
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=26
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=27|end_char=31
+4	had	have	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=32|end_char=35|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=35|end_char=36
+
+# text = You want to play a game?
+# sent_id = 123630
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=37|end_char=40
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=41|end_char=45
+3	to	to	PART	TO	_	2	_	_	start_char=46|end_char=48
+4	play	play	VERB	VB	VerbForm=Inf	3	_	_	start_char=49|end_char=53
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=54|end_char=55
+6	game	game	NOUN	NN	Number=Sing	5	_	_	start_char=56|end_char=60|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=60|end_char=61
+
+# text = You want to learn what q is.
+# sent_id = 123631
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=62|end_char=65
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=66|end_char=70
+3	to	to	PART	TO	_	2	_	_	start_char=71|end_char=73
+4	learn	learn	VERB	VB	VerbForm=Inf	3	_	_	start_char=74|end_char=79
+5	what	what	PRON	WP	PronType=Rel	4	_	_	start_char=80|end_char=84
+6	q	q	PROPN	NNP	Number=Sing	5	_	_	start_char=85|end_char=86
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=87|end_char=89|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=89|end_char=90
+
+# text = You start with #Cicada3301
+# sent_id = 123632
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=91|end_char=94
+2	start	start	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=95|end_char=100
+3	with	with	ADP	IN	_	2	_	_	start_char=101|end_char=105
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=106|end_char=107|SpaceAfter=No
+5	Cicada3301	Cicada3301	PROPN	NNP	Number=Sing	4	_	_	start_char=107|end_char=117|SpaceAfter=No
+

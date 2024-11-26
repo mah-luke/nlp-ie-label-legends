@@ -1,0 +1,38 @@
+# text = Today's adventure: first trip ever to Ikea.
+# sent_id = 53745
+1-2	Today's	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	Today	today	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5
+2	's	's	PART	POS	_	1	_	_	start_char=5|end_char=7
+3	adventure	adventure	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=17|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=17|end_char=18
+5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	_	_	start_char=19|end_char=24
+6	trip	trip	NOUN	NN	Number=Sing	5	_	_	start_char=25|end_char=29
+7	ever	ever	ADV	RB	_	6	_	_	start_char=30|end_char=34
+8	to	to	ADP	IN	_	7	_	_	start_char=35|end_char=37
+9	Ikea	Ikea	PROPN	NNP	Number=Sing	8	_	_	start_char=38|end_char=42|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=42|end_char=43
+
+# text = I thought they were a Swedish store.
+# sent_id = 53746
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=44|end_char=45
+2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=46|end_char=53
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=54|end_char=58
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=59|end_char=63
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=64|end_char=65
+6	Swedish	Swedish	ADJ	JJ	Degree=Pos	5	_	_	start_char=66|end_char=73
+7	store	store	NOUN	NN	Number=Sing	6	_	_	start_char=74|end_char=79|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=79|end_char=80
+
+# text = I didn't see a single hookah anywhere.
+# sent_id = 53747
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=81|end_char=82
+2-3	didn't	_	_	_	_	_	_	_	start_char=83|end_char=89
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=83|end_char=86
+3	n't	not	PART	RB	_	2	_	_	start_char=86|end_char=89
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	start_char=90|end_char=93
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=94|end_char=95
+6	single	single	ADJ	JJ	Degree=Pos	5	_	_	start_char=96|end_char=102
+7	hookah	hookah	NOUN	NN	Number=Sing	6	_	_	start_char=103|end_char=109
+8	anywhere	anywhere	ADV	RB	_	7	_	_	start_char=110|end_char=118|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=118|end_char=119|SpaceAfter=No
+

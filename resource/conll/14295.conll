@@ -1,0 +1,44 @@
+# text = [USER]
+# sent_id = 30486
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = No kidding!
+# sent_id = 30487
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=7|end_char=9
+2	kidding	kid	VERB	VBG	VerbForm=Ger	1	_	_	start_char=10|end_char=17|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=17|end_char=18
+
+# text = I recently bought my filipina wife a new rice cooker and she seems more delighted with that little appliance than anything else I've gotten for her.
+# sent_id = 30488
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=19|end_char=20
+2	recently	recently	ADV	RB	_	1	_	_	start_char=21|end_char=29
+3	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=30|end_char=36
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=37|end_char=39
+5	filipina	filipina	NOUN	NN	Number=Sing	4	_	_	start_char=40|end_char=48
+6	wife	wife	NOUN	NN	Number=Sing	5	_	_	start_char=49|end_char=53
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=54|end_char=55
+8	new	new	ADJ	JJ	Degree=Pos	7	_	_	start_char=56|end_char=59
+9	rice	rice	NOUN	NN	Number=Sing	8	_	_	start_char=60|end_char=64
+10	cooker	cooker	NOUN	NN	Number=Sing	9	_	_	start_char=65|end_char=71
+11	and	and	CCONJ	CC	_	10	_	_	start_char=72|end_char=75
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=76|end_char=79
+13	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=80|end_char=85
+14	more	more	ADV	RBR	Degree=Cmp	13	_	_	start_char=86|end_char=90
+15	delighted	delighted	ADJ	JJ	Degree=Pos	14	_	_	start_char=91|end_char=100
+16	with	with	ADP	IN	_	15	_	_	start_char=101|end_char=105
+17	that	that	DET	DT	Number=Sing|PronType=Dem	16	_	_	start_char=106|end_char=110
+18	little	little	ADJ	JJ	Degree=Pos	17	_	_	start_char=111|end_char=117
+19	appliance	appliance	NOUN	NN	Number=Sing	18	_	_	start_char=118|end_char=127
+20	than	than	ADP	IN	_	19	_	_	start_char=128|end_char=132
+21	anything	anything	PRON	NN	Number=Sing|PronType=Ind	20	_	_	start_char=133|end_char=141
+22	else	else	ADJ	JJ	Degree=Pos	21	_	_	start_char=142|end_char=146
+23-24	I've	_	_	_	_	_	_	_	start_char=147|end_char=151
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	_	_	start_char=147|end_char=148
+24	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	_	_	start_char=148|end_char=151
+25	gotten	get	VERB	VBN	Tense=Past|VerbForm=Part	24	_	_	start_char=152|end_char=158
+26	for	for	ADP	IN	_	25	_	_	start_char=159|end_char=162
+27	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	_	_	start_char=163|end_char=166|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=166|end_char=167|SpaceAfter=No
+

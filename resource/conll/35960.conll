@@ -1,0 +1,23 @@
+# text = Things could be worse Gentlemen: You could be married.
+# sent_id = 76942
+1	Things	thing	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=6
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=7|end_char=12
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=13|end_char=15
+4	worse	bad	ADJ	JJR	Degree=Cmp	3	_	_	start_char=16|end_char=21
+5	Gentlemen	Gentlemen	NOUN	NNS	Number=Plur	4	_	_	start_char=22|end_char=31|SpaceAfter=No
+6	:	:	PUNCT	:	_	5	_	_	start_char=31|end_char=32
+7	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=33|end_char=36
+8	could	could	AUX	MD	VerbForm=Fin	7	_	_	start_char=37|end_char=42
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=43|end_char=45
+10	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=46|end_char=53|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=53|end_char=54
+
+# text = ~~to this woman~~
+# sent_id = 76943
+1	~~	~~	SYM	SYM	_	0	_	_	start_char=55|end_char=57|SpaceAfter=No
+2	to	to	ADP	IN	_	1	_	_	start_char=57|end_char=59
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=60|end_char=64
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=65|end_char=70|SpaceAfter=No
+5	~	~	SYM	SYM	_	4	_	_	start_char=70|end_char=71|SpaceAfter=No
+6	~	~	SYM	NFP	_	5	_	_	start_char=71|end_char=72|SpaceAfter=No
+

@@ -1,0 +1,50 @@
+# text = Yeah
+# sent_id = 81453
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+
+# text = Im sure people bashing Ghostbusters 2016 had nothing to do with the fact that it was a terrible movie.
+# sent_id = 81454
+1-2	Im	_	_	_	_	_	_	_	start_char=5|end_char=7
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=5|end_char=6
+2	m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=7
+3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=12
+4	people	person	NOUN	NNS	Number=Plur	3	_	_	start_char=13|end_char=19
+5	bashing	bashing	VERB	VBG	VerbForm=Ger	4	_	_	start_char=20|end_char=27
+6	Ghostbusters	Ghostbusters	PROPN	NNPS	Number=Plur	5	_	_	start_char=28|end_char=40
+7	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=41|end_char=45
+8	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=46|end_char=49
+9	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	8	_	_	start_char=50|end_char=57
+10	to	to	PART	TO	_	9	_	_	start_char=58|end_char=60
+11	do	do	VERB	VB	VerbForm=Inf	10	_	_	start_char=61|end_char=63
+12	with	with	ADP	IN	_	11	_	_	start_char=64|end_char=68
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=69|end_char=72
+14	fact	fact	NOUN	NN	Number=Sing	13	_	_	start_char=73|end_char=77
+15	that	that	SCONJ	IN	_	14	_	_	start_char=78|end_char=82
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=83|end_char=85
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=86|end_char=89
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=90|end_char=91
+19	terrible	terrible	ADJ	JJ	Degree=Pos	18	_	_	start_char=92|end_char=100
+20	movie	movie	NOUN	NN	Number=Sing	19	_	_	start_char=101|end_char=106|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=106|end_char=107
+
+# text = Also funny how Wonder Woman was well received by both male and female audiences #hmmm [URL]
+# sent_id = 81455
+1	Also	also	ADV	RB	_	0	_	_	start_char=108|end_char=112
+2	funny	funny	ADJ	JJ	Degree=Pos	1	_	_	start_char=113|end_char=118
+3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=119|end_char=122
+4	Wonder	wonder	PROPN	NNP	Number=Sing	3	_	_	start_char=123|end_char=129
+5	Woman	Woman	PROPN	NNP	Number=Sing	4	_	_	start_char=130|end_char=135
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=136|end_char=139
+7	well	well	ADV	RB	Degree=Pos	6	_	_	start_char=140|end_char=144
+8	received	receive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=145|end_char=153
+9	by	by	ADP	IN	_	8	_	_	start_char=154|end_char=156
+10	both	both	CCONJ	CC	_	9	_	_	start_char=157|end_char=161
+11	male	male	ADJ	JJ	Degree=Pos	10	_	_	start_char=162|end_char=166
+12	and	and	CCONJ	CC	_	11	_	_	start_char=167|end_char=170
+13	female	female	ADJ	JJ	Degree=Pos	12	_	_	start_char=171|end_char=177
+14	audiences	audience	NOUN	NNS	Number=Plur	13	_	_	start_char=178|end_char=187
+15	#hmmm	#hmmm	PROPN	NNP	Number=Sing	14	_	_	start_char=188|end_char=193
+16	[	[	PUNCT	-LRB-	_	15	_	_	start_char=194|end_char=195|SpaceAfter=No
+17	URL	URL	PROPN	NNP	Number=Sing	16	_	_	start_char=195|end_char=198|SpaceAfter=No
+18	]	]	PUNCT	-RRB-	_	17	_	_	start_char=198|end_char=199|SpaceAfter=No
+

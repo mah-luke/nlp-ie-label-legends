@@ -1,0 +1,50 @@
+# text = Man kills woman - “That monster!” Woman kills man - “I wonder what he did to her?”
+# sent_id = 93189
+1	Man	man	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3
+2	kills	kill	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=9
+3	woman	woman	NOUN	NN	Number=Sing	2	_	_	start_char=10|end_char=15
+4	-	-	PUNCT	:	_	3	_	_	start_char=16|end_char=17
+5	“	''	PUNCT	``	_	4	_	_	start_char=18|end_char=19|SpaceAfter=No
+6	That	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=19|end_char=23
+7	monster	monster	NOUN	NN	Number=Sing	6	_	_	start_char=24|end_char=31|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=31|end_char=32|SpaceAfter=No
+9	”	''	PUNCT	''	_	8	_	_	start_char=32|end_char=33
+10	Woman	woman	NOUN	NN	Number=Sing	9	_	_	start_char=34|end_char=39
+11	kills	kill	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=40|end_char=45
+12	man	man	NOUN	NN	Number=Sing	11	_	_	start_char=46|end_char=49
+13	-	-	PUNCT	,	_	12	_	_	start_char=50|end_char=51
+14	“	''	PUNCT	``	_	13	_	_	start_char=52|end_char=53|SpaceAfter=No
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=53|end_char=54
+16	wonder	wonder	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	start_char=55|end_char=61
+17	what	what	PRON	WP	PronType=Rel	16	_	_	start_char=62|end_char=66
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=67|end_char=69
+19	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	_	_	start_char=70|end_char=73
+20	to	to	ADP	IN	_	19	_	_	start_char=74|end_char=76
+21	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=77|end_char=80|SpaceAfter=No
+22	?	?	PUNCT	.	_	21	_	_	start_char=80|end_char=81|SpaceAfter=No
+23	”	''	PUNCT	''	_	22	_	_	start_char=81|end_char=82
+
+# text = Imagine if we responded the same way.
+# sent_id = 93190
+1	Imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=83|end_char=90
+2	if	if	SCONJ	IN	_	1	_	_	start_char=91|end_char=93
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=94|end_char=96
+4	responded	respond	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=97|end_char=106
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=107|end_char=110
+6	same	same	ADJ	JJ	Degree=Pos	5	_	_	start_char=111|end_char=115
+7	way	way	NOUN	NN	Number=Sing	6	_	_	start_char=116|end_char=119|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=119|end_char=120
+
+# text = “I wonder what she did to him?”
+# sent_id = 93191
+1	“	''	PUNCT	``	_	0	_	_	start_char=121|end_char=122|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=122|end_char=123
+3	wonder	wonder	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=124|end_char=130
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=131|end_char=135
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=136|end_char=139
+6	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=140|end_char=143
+7	to	to	ADP	IN	_	6	_	_	start_char=144|end_char=146
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=147|end_char=150|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=150|end_char=151|SpaceAfter=No
+10	”	''	PUNCT	''	_	9	_	_	start_char=151|end_char=152|SpaceAfter=No
+

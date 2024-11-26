@@ -1,0 +1,59 @@
+# text = Why would he put himself in a position where for someone to succeed he needs to fail?
+# sent_id = 64551
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=9
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=12
+4	put	put	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=16
+5	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	_	_	start_char=17|end_char=24
+6	in	in	ADP	IN	_	5	_	_	start_char=25|end_char=27
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=28|end_char=29
+8	position	position	NOUN	NN	Number=Sing	7	_	_	start_char=30|end_char=38
+9	where	where	ADV	WRB	PronType=Int	8	_	_	start_char=39|end_char=44
+10	for	for	ADP	IN	_	9	_	_	start_char=45|end_char=48
+11	someone	someone	PRON	NN	Number=Sing|PronType=Ind	10	_	_	start_char=49|end_char=56
+12	to	to	PART	TO	_	11	_	_	start_char=57|end_char=59
+13	succeed	succeed	VERB	VB	VerbForm=Inf	12	_	_	start_char=60|end_char=67
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=68|end_char=70
+15	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=71|end_char=76
+16	to	to	PART	TO	_	15	_	_	start_char=77|end_char=79
+17	fail	fail	VERB	VB	VerbForm=Inf	16	_	_	start_char=80|end_char=84|SpaceAfter=No
+18	?	?	PUNCT	.	_	17	_	_	start_char=84|end_char=85
+
+# text = That's why they loved the post so much.
+# sent_id = 64552
+1-2	That's	_	_	_	_	_	_	_	start_char=86|end_char=92
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=86|end_char=90
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=90|end_char=92
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=93|end_char=96
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=97|end_char=101
+5	loved	love	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=102|end_char=107
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=108|end_char=111
+7	post	post	NOUN	NN	Number=Sing	6	_	_	start_char=112|end_char=116
+8	so	so	ADV	RB	_	7	_	_	start_char=117|end_char=119
+9	much	much	ADV	RB	_	8	_	_	start_char=120|end_char=124|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=124|end_char=125
+
+# text = A woman being 'strong' and overcoming her 'illness' and using it to punish a white man.
+# sent_id = 64553
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=126|end_char=127
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=128|end_char=133
+3	being	be	AUX	VBG	VerbForm=Ger	2	_	_	start_char=134|end_char=139
+4	'	'	PUNCT	``	_	3	_	_	start_char=140|end_char=141|SpaceAfter=No
+5	strong	strong	ADJ	JJ	Degree=Pos	4	_	_	start_char=141|end_char=147|SpaceAfter=No
+6	'	'	PUNCT	''	_	5	_	_	start_char=147|end_char=148
+7	and	and	CCONJ	CC	_	6	_	_	start_char=149|end_char=152
+8	overcoming	overcome	VERB	VBG	VerbForm=Ger	7	_	_	start_char=153|end_char=163
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=164|end_char=167
+10	'	'	PUNCT	``	_	9	_	_	start_char=168|end_char=169|SpaceAfter=No
+11	illness	illness	NOUN	NN	Number=Sing	10	_	_	start_char=169|end_char=176|SpaceAfter=No
+12	'	'	PUNCT	''	_	11	_	_	start_char=176|end_char=177
+13	and	and	CCONJ	CC	_	12	_	_	start_char=178|end_char=181
+14	using	use	VERB	VBG	VerbForm=Ger	13	_	_	start_char=182|end_char=187
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=188|end_char=190
+16	to	to	PART	TO	_	15	_	_	start_char=191|end_char=193
+17	punish	punish	VERB	VB	VerbForm=Inf	16	_	_	start_char=194|end_char=200
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=201|end_char=202
+19	white	white	ADJ	JJ	Degree=Pos	18	_	_	start_char=203|end_char=208
+20	man	man	NOUN	NN	Number=Sing	19	_	_	start_char=209|end_char=212|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=212|end_char=213|SpaceAfter=No
+

@@ -1,0 +1,30 @@
+# text = Good to know.
+# sent_id = 107899
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	to	to	PART	TO	_	1	_	_	start_char=5|end_char=7
+3	know	know	VERB	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=12|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=12|end_char=13
+
+# text = I like her so much.
+# sent_id = 107900
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=14|end_char=15
+2	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=16|end_char=20
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=21|end_char=24
+4	so	so	ADV	RB	_	3	_	_	start_char=25|end_char=27
+5	much	much	ADV	RB	Degree=Pos	4	_	_	start_char=28|end_char=32|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=32|end_char=33
+
+# text = Give me a strong woman.
+# sent_id = 107901
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=34|end_char=38
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=39|end_char=41
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=42|end_char=43
+4	strong	strong	ADJ	JJ	Degree=Pos	3	_	_	start_char=44|end_char=50
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=51|end_char=56|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=56|end_char=57
+
+# text = Always.
+# sent_id = 107902
+1	Always	Always	ADV	RB	_	0	_	_	start_char=58|end_char=64|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=64|end_char=65|SpaceAfter=No
+

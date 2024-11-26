@@ -1,0 +1,32 @@
+# text = The better shall be replaced with the worse ?
+# sent_id = 60705
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	better	good	ADJ	JJR	Degree=Cmp	1	_	_	start_char=4|end_char=10
+3	shall	shall	AUX	MD	VerbForm=Fin	2	_	_	start_char=11|end_char=16
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=17|end_char=19
+5	replaced	replace	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=20|end_char=28
+6	with	with	ADP	IN	_	5	_	_	start_char=29|end_char=33
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=34|end_char=37
+8	worse	bad	ADJ	JJR	Degree=Cmp	7	_	_	start_char=38|end_char=43
+9	?	?	PUNCT	.	_	8	_	_	start_char=44|end_char=45
+
+# text = - Because a malicious insane woman likes it ?!
+# sent_id = 60706
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=46|end_char=47
+2	Because	because	SCONJ	IN	_	1	_	_	start_char=48|end_char=55
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=56|end_char=57
+4	malicious	malicious	ADJ	JJ	Degree=Pos	3	_	_	start_char=58|end_char=67
+5	insane	insane	ADJ	JJ	Degree=Pos	4	_	_	start_char=68|end_char=74
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=75|end_char=80
+7	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=81|end_char=86
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=87|end_char=89
+9	?!	?!	PUNCT	.	_	8	_	_	start_char=90|end_char=92
+
+# text = Everywhere the same insanity!
+# sent_id = 60707
+1	Everywhere	everywhere	ADV	RB	_	0	_	_	start_char=93|end_char=103
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=104|end_char=107
+3	same	same	ADJ	JJ	Degree=Pos	2	_	_	start_char=108|end_char=112
+4	insanity	insanity	NOUN	NN	Number=Sing	3	_	_	start_char=113|end_char=121|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=121|end_char=122|SpaceAfter=No
+

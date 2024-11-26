@@ -1,0 +1,67 @@
+# text = Exactly.
+# sent_id = 62578
+1	Exactly	exactly	ADV	RB	_	0	_	_	start_char=0|end_char=7|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=7|end_char=8
+
+# text = I'm not a great fan of her's , nor do I think some of the criticism is un-warranted, but the over-the-top.
+# sent_id = 62579
+1-2	I'm	_	_	_	_	_	_	_	start_char=9|end_char=12
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=9|end_char=10
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=12
+3	not	not	PART	RB	_	2	_	_	start_char=13|end_char=16
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=17|end_char=18
+5	great	great	ADJ	JJ	Degree=Pos	4	_	_	start_char=19|end_char=24
+6	fan	fan	NOUN	NN	Number=Sing	5	_	_	start_char=25|end_char=28
+7	of	of	ADP	IN	_	6	_	_	start_char=29|end_char=31
+8-9	her's	_	_	_	_	_	_	_	start_char=32|end_char=37
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=32|end_char=35
+9	's	's	PART	POS	_	8	_	_	start_char=35|end_char=37
+10	,	,	PUNCT	,	_	9	_	_	start_char=38|end_char=39
+11	nor	nor	CCONJ	CC	_	10	_	_	start_char=40|end_char=43
+12	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=44|end_char=46
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=47|end_char=48
+14	think	think	VERB	VB	VerbForm=Inf	13	_	_	start_char=49|end_char=54
+15	some	some	DET	DT	_	14	_	_	start_char=55|end_char=59
+16	of	of	ADP	IN	_	15	_	_	start_char=60|end_char=62
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=63|end_char=66
+18	criticism	criticism	NOUN	NN	Number=Sing	17	_	_	start_char=67|end_char=76
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=77|end_char=79
+20	un	un	ADV	RB	_	19	_	_	start_char=80|end_char=82|SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	20	_	_	start_char=82|end_char=83|SpaceAfter=No
+22	warranted	warrant	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	_	_	start_char=83|end_char=92|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	start_char=92|end_char=93
+24	but	but	CCONJ	CC	_	23	_	_	start_char=94|end_char=97
+25	the	the	DET	DT	Definite=Def|PronType=Art	24	_	_	start_char=98|end_char=101
+26	over	over	ADV	RB	_	25	_	_	start_char=102|end_char=106|SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	26	_	_	start_char=106|end_char=107|SpaceAfter=No
+28	the	the	DET	DT	Definite=Def|PronType=Art	27	_	_	start_char=107|end_char=110|SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	28	_	_	start_char=110|end_char=111|SpaceAfter=No
+30	top	top	NOUN	NN	Number=Sing	29	_	_	start_char=111|end_char=114|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	start_char=114|end_char=115
+
+# text = "OMG she dated a non-white guy when she was 18, reeeee" stuff?
+# sent_id = 62580
+1	"	"	PUNCT	``	_	0	_	_	start_char=116|end_char=117|SpaceAfter=No
+2	OMG	omg	INTJ	UH	_	1	_	_	start_char=117|end_char=120
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=121|end_char=124
+4	dated	date	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=125|end_char=130
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=131|end_char=132
+6	non	non	ADV	AFX	_	5	_	_	start_char=133|end_char=136|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	_	_	start_char=136|end_char=137|SpaceAfter=No
+8	white	white	ADJ	JJ	Degree=Pos	7	_	_	start_char=137|end_char=142
+9	guy	guy	NOUN	NN	Number=Sing	8	_	_	start_char=143|end_char=146
+10	when	when	ADV	WRB	PronType=Int	9	_	_	start_char=147|end_char=151
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=152|end_char=155
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=156|end_char=159
+13	18	18	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=160|end_char=162|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=162|end_char=163
+15	reeeee	reeeee	VERB	VB	VerbForm=Inf	14	_	_	start_char=164|end_char=170|SpaceAfter=No
+16	"	"	PUNCT	''	_	15	_	_	start_char=170|end_char=171
+17	stuff	stuff	NOUN	NN	Number=Sing	16	_	_	start_char=172|end_char=177|SpaceAfter=No
+18	?	?	PUNCT	.	_	17	_	_	start_char=177|end_char=178
+
+# text = sheesh.
+# sent_id = 62581
+1	sheesh	sheesh	INTJ	UH	_	0	_	_	start_char=179|end_char=185|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=185|end_char=186|SpaceAfter=No
+

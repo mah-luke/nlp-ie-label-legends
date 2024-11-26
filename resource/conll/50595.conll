@@ -1,0 +1,37 @@
+# text = HLD did?
+# sent_id = 108150
+1	HLD	HLD	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=7|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=7|end_char=8
+
+# text = That's super amusing since they are doing a crossover with Kingdom Death.
+# sent_id = 108151
+1-2	That's	_	_	_	_	_	_	_	start_char=9|end_char=15
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=9|end_char=13
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=13|end_char=15
+3	super	super	ADV	RB	_	2	_	_	start_char=16|end_char=21
+4	amusing	amusing	ADJ	JJ	Degree=Pos	3	_	_	start_char=22|end_char=29
+5	since	since	SCONJ	IN	_	4	_	_	start_char=30|end_char=35
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=36|end_char=40
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=41|end_char=44
+8	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=45|end_char=50
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=51|end_char=52
+10	crossover	crossover	NOUN	NN	Number=Sing	9	_	_	start_char=53|end_char=62
+11	with	with	ADP	IN	_	10	_	_	start_char=63|end_char=67
+12	Kingdom	Kingdom	PROPN	NNP	Number=Sing	11	_	_	start_char=68|end_char=75
+13	Death	death	PROPN	NNP	Number=Sing	12	_	_	start_char=76|end_char=81|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=81|end_char=82
+
+# text = If Anita ever saw it she would go apoplectic.
+# sent_id = 108152
+1	If	if	SCONJ	IN	_	0	_	_	start_char=83|end_char=85
+2	Anita	Anita	PROPN	NNP	Number=Sing	1	_	_	start_char=86|end_char=91
+3	ever	ever	ADV	RB	_	2	_	_	start_char=92|end_char=96
+4	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=97|end_char=100
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=101|end_char=103
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=104|end_char=107
+7	would	would	AUX	MD	VerbForm=Fin	6	_	_	start_char=108|end_char=113
+8	go	go	VERB	VB	VerbForm=Inf	7	_	_	start_char=114|end_char=116
+9	apoplectic	apoplectic	ADJ	JJ	Degree=Pos	8	_	_	start_char=117|end_char=127|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=127|end_char=128|SpaceAfter=No
+

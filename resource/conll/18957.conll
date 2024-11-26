@@ -1,0 +1,30 @@
+# text = whats trm? and anyways they're high tier beckies.
+# sent_id = 40662
+1	whats	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=5
+2	trm	trm	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=9|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+4	and	and	CCONJ	CC	_	3	_	_	start_char=11|end_char=14
+5	anyways	anyways	ADV	RB	_	4	_	_	start_char=15|end_char=22
+6-7	they're	_	_	_	_	_	_	_	start_char=23|end_char=30
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=23|end_char=27
+7	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=27|end_char=30
+8	high	high	ADJ	JJ	Degree=Pos	7	_	_	start_char=31|end_char=35
+9	tier	tier	NOUN	NN	Number=Sing	8	_	_	start_char=36|end_char=40
+10	beckies	becky	NOUN	NNS	Number=Plur	9	_	_	start_char=41|end_char=48|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=48|end_char=49
+
+# text = cant be stacylite with those faces, regardless of their body.
+# sent_id = 40663
+1	cant	cant	AUX	MD	VerbForm=Fin	0	_	_	start_char=50|end_char=54
+2	be	be	AUX	VB	VerbForm=Inf	1	_	_	start_char=55|end_char=57
+3	stacylite	stacylite	ADJ	JJ	Degree=Pos	2	_	_	start_char=58|end_char=67
+4	with	with	ADP	IN	_	3	_	_	start_char=68|end_char=72
+5	those	that	DET	DT	Number=Plur|PronType=Dem	4	_	_	start_char=73|end_char=78
+6	faces	face	NOUN	NNS	Number=Plur	5	_	_	start_char=79|end_char=84|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=84|end_char=85
+8	regardless	regardless	ADV	RB	_	7	_	_	start_char=86|end_char=96
+9	of	of	ADP	IN	_	8	_	_	start_char=97|end_char=99
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=100|end_char=105
+11	body	body	NOUN	NN	Number=Sing	10	_	_	start_char=106|end_char=110|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=110|end_char=111|SpaceAfter=No
+

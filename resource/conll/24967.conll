@@ -1,0 +1,43 @@
+# text = I was thinking about this quote the other day.
+# sent_id = 53496
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=6|end_char=14
+4	about	about	ADP	IN	_	3	_	_	start_char=15|end_char=20
+5	this	this	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=21|end_char=25
+6	quote	quote	NOUN	NN	Number=Sing	5	_	_	start_char=26|end_char=31
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=32|end_char=35
+8	other	other	ADJ	JJ	Degree=Pos	7	_	_	start_char=36|end_char=41
+9	day	day	NOUN	NN	Number=Sing	8	_	_	start_char=42|end_char=45|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=45|end_char=46
+
+# text = I think it’s the single dumbest sentence I’ve ever heard uttered.
+# sent_id = 53497
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=47|end_char=48
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=49|end_char=54
+3-4	it’s	_	_	_	_	_	_	_	start_char=55|end_char=59
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=55|end_char=57
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=57|end_char=59
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=60|end_char=63
+6	single	single	ADJ	JJ	Degree=Pos	5	_	_	start_char=64|end_char=70
+7	dumbest	dumb	ADJ	JJS	Degree=Sup	6	_	_	start_char=71|end_char=78
+8	sentence	sentence	NOUN	NN	Number=Sing	7	_	_	start_char=79|end_char=87
+9-10	I’ve	_	_	_	_	_	_	_	start_char=88|end_char=92
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=88|end_char=89
+10	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=89|end_char=92
+11	ever	ever	ADV	RB	_	10	_	_	start_char=93|end_char=97
+12	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=98|end_char=103
+13	uttered	utter	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=104|end_char=111|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=111|end_char=112
+
+# text = Can you believe she was almost president?
+# sent_id = 53498
+1	Can	can	AUX	MD	VerbForm=Fin	0	_	_	start_char=113|end_char=116
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=117|end_char=120
+3	believe	believe	VERB	VB	VerbForm=Inf	2	_	_	start_char=121|end_char=128
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=129|end_char=132
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=133|end_char=136
+6	almost	almost	ADV	RB	_	5	_	_	start_char=137|end_char=143
+7	president	president	NOUN	NN	Number=Sing	6	_	_	start_char=144|end_char=153|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=153|end_char=154|SpaceAfter=No
+

@@ -1,0 +1,55 @@
+# text = Wow, if you're smiling to a girl and she smiles back that's a ticket to you and go and approach her.
+# sent_id = 44051
+1	Wow	wow	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	if	if	SCONJ	IN	_	2	_	_	start_char=5|end_char=7
+4-5	you're	_	_	_	_	_	_	_	start_char=8|end_char=14
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=8|end_char=11
+5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=11|end_char=14
+6	smiling	smile	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=15|end_char=22
+7	to	to	ADP	IN	_	6	_	_	start_char=23|end_char=25
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=26|end_char=27
+9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=28|end_char=32
+10	and	and	CCONJ	CC	_	9	_	_	start_char=33|end_char=36
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=37|end_char=40
+12	smiles	smile	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=41|end_char=47
+13	back	back	ADV	RB	_	12	_	_	start_char=48|end_char=52
+14-15	that's	_	_	_	_	_	_	_	start_char=53|end_char=59
+14	that	that	PRON	DT	Number=Sing|PronType=Dem	13	_	_	start_char=53|end_char=57
+15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=57|end_char=59
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=60|end_char=61
+17	ticket	ticket	NOUN	NN	Number=Sing	16	_	_	start_char=62|end_char=68
+18	to	to	ADP	IN	_	17	_	_	start_char=69|end_char=71
+19	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	18	_	_	start_char=72|end_char=75
+20	and	and	CCONJ	CC	_	19	_	_	start_char=76|end_char=79
+21	go	go	VERB	VB	Mood=Ind|VerbForm=Fin	20	_	_	start_char=80|end_char=82
+22	and	and	CCONJ	CC	_	21	_	_	start_char=83|end_char=86
+23	approach	approach	VERB	VB	VerbForm=Inf	22	_	_	start_char=87|end_char=95
+24	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=96|end_char=99|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=99|end_char=100
+
+# text = How do you expect a girl to approach you if you don't even have the balls to do it.
+# sent_id = 44052
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=101|end_char=104
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=105|end_char=107
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=108|end_char=111
+4	expect	expect	VERB	VB	VerbForm=Inf	3	_	_	start_char=112|end_char=118
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=119|end_char=120
+6	girl	girl	NOUN	NN	Number=Sing	5	_	_	start_char=121|end_char=125
+7	to	to	PART	TO	_	6	_	_	start_char=126|end_char=128
+8	approach	approach	VERB	VB	VerbForm=Inf	7	_	_	start_char=129|end_char=137
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=138|end_char=141
+10	if	if	SCONJ	IN	_	9	_	_	start_char=142|end_char=144
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=145|end_char=148
+12-13	don't	_	_	_	_	_	_	_	start_char=149|end_char=154
+12	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=149|end_char=151
+13	n't	not	PART	RB	_	12	_	_	start_char=151|end_char=154
+14	even	even	ADV	RB	_	13	_	_	start_char=155|end_char=159
+15	have	have	VERB	VB	VerbForm=Inf	14	_	_	start_char=160|end_char=164
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=165|end_char=168
+17	balls	ball	NOUN	NNS	Number=Plur	16	_	_	start_char=169|end_char=174
+18	to	to	PART	TO	_	17	_	_	start_char=175|end_char=177
+19	do	do	VERB	VB	VerbForm=Inf	18	_	_	start_char=178|end_char=180
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=181|end_char=183|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=183|end_char=184|SpaceAfter=No
+

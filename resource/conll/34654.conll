@@ -1,0 +1,24 @@
+# text = Look at what they're wearing!
+# sent_id = 74195
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	at	at	ADP	IN	_	1	_	_	start_char=5|end_char=7
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=8|end_char=12
+4-5	they're	_	_	_	_	_	_	_	start_char=13|end_char=20
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=13|end_char=17
+5	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=17|end_char=20
+6	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=21|end_char=28|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = If taxes are paying for that it is outrageous!
+# sent_id = 74196
+1	If	if	SCONJ	IN	_	0	_	_	start_char=30|end_char=32
+2	taxes	tax	NOUN	NNS	Number=Plur	1	_	_	start_char=33|end_char=38
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=39|end_char=42
+4	paying	pay	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=43|end_char=49
+5	for	for	ADP	IN	_	4	_	_	start_char=50|end_char=53
+6	that	that	SCONJ	IN	_	5	_	_	start_char=54|end_char=58
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=59|end_char=61
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=62|end_char=64
+9	outrageous	outrageous	ADJ	JJ	Degree=Pos	8	_	_	start_char=65|end_char=75|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=75|end_char=76|SpaceAfter=No
+

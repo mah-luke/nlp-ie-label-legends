@@ -1,0 +1,53 @@
+# text = oh I like this one.
+# sent_id = 16260
+1	oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=3|end_char=4
+3	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=5|end_char=9
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=10|end_char=14
+5	one	one	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=18|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=18|end_char=19
+
+# text = putting it in back pocket.
+# sent_id = 16261
+1	putting	put	VERB	VBG	VerbForm=Ger	0	_	_	start_char=20|end_char=27
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=28|end_char=30
+3	in	in	ADP	IN	_	2	_	_	start_char=31|end_char=33
+4	back	back	NOUN	NN	Number=Sing	3	_	_	start_char=34|end_char=38
+5	pocket	pocket	NOUN	NN	Number=Sing	4	_	_	start_char=39|end_char=45|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=45|end_char=46
+
+# text = they would work well back to back too, like "I only date smart girls... idk though you might be a climate denier *or some generic tease*"
+# sent_id = 16262
+1	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=47|end_char=51
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=52|end_char=57
+3	work	work	VERB	VB	VerbForm=Inf	2	_	_	start_char=58|end_char=62
+4	well	well	ADV	RB	Degree=Pos	3	_	_	start_char=63|end_char=67
+5	back	back	ADV	RB	_	4	_	_	start_char=68|end_char=72
+6	to	to	ADP	IN	_	5	_	_	start_char=73|end_char=75
+7	back	back	ADV	RB	_	6	_	_	start_char=76|end_char=80
+8	too	too	ADV	RB	_	7	_	_	start_char=81|end_char=84|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=84|end_char=85
+10	like	like	ADP	IN	_	9	_	_	start_char=86|end_char=90
+11	"	"	PUNCT	``	_	10	_	_	start_char=91|end_char=92|SpaceAfter=No
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=92|end_char=93
+13	only	only	ADV	RB	_	12	_	_	start_char=94|end_char=98
+14	date	date	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=99|end_char=103
+15	smart	smart	ADJ	JJ	Degree=Pos	14	_	_	start_char=104|end_char=109
+16	girls	girl	NOUN	NNS	Number=Plur	15	_	_	start_char=110|end_char=115|SpaceAfter=No
+17	...	...	PUNCT	,	_	16	_	_	start_char=115|end_char=118
+18	idk	idk	INTJ	UH	_	17	_	_	start_char=119|end_char=122
+19	though	though	SCONJ	IN	_	18	_	_	start_char=123|end_char=129
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	_	_	start_char=130|end_char=133
+21	might	might	AUX	MD	VerbForm=Fin	20	_	_	start_char=134|end_char=139
+22	be	be	AUX	VB	VerbForm=Inf	21	_	_	start_char=140|end_char=142
+23	a	a	DET	DT	Definite=Ind|PronType=Art	22	_	_	start_char=143|end_char=144
+24	climate	climate	NOUN	NN	Number=Sing	23	_	_	start_char=145|end_char=152
+25	denier	denier	NOUN	NN	Number=Sing	24	_	_	start_char=153|end_char=159
+26	*	*	PUNCT	NFP	_	25	_	_	start_char=160|end_char=161|SpaceAfter=No
+27	or	or	CCONJ	CC	_	26	_	_	start_char=161|end_char=163
+28	some	some	DET	DT	_	27	_	_	start_char=164|end_char=168
+29	generic	generic	ADJ	JJ	Degree=Pos	28	_	_	start_char=169|end_char=176
+30	tease	tease	NOUN	NN	Number=Sing	29	_	_	start_char=177|end_char=182|SpaceAfter=No
+31	*	*	PUNCT	NFP	_	30	_	_	start_char=182|end_char=183|SpaceAfter=No
+32	"	"	PUNCT	''	_	31	_	_	start_char=183|end_char=184|SpaceAfter=No
+

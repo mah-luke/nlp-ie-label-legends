@@ -1,0 +1,45 @@
+# text = Well you still haven't because she's not the rapist.
+# sent_id = 32061
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=5|end_char=8
+3	still	still	ADV	RB	_	2	_	_	start_char=9|end_char=14
+4-5	haven't	_	_	_	_	_	_	_	start_char=15|end_char=22
+4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=19
+5	n't	not	PART	RB	_	4	_	_	start_char=19|end_char=22
+6	because	because	SCONJ	IN	_	5	_	_	start_char=23|end_char=30
+7-8	she's	_	_	_	_	_	_	_	start_char=31|end_char=36
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=31|end_char=34
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=34|end_char=36
+9	not	not	PART	RB	_	8	_	_	start_char=37|end_char=40
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=41|end_char=44
+11	rapist	rapist	NOUN	NN	Number=Sing	10	_	_	start_char=45|end_char=51|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=51|end_char=52
+
+# text = She had videos of the child being raped by a man.
+# sent_id = 32062
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=53|end_char=56
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=57|end_char=60
+3	videos	video	NOUN	NNS	Number=Plur	2	_	_	start_char=61|end_char=67
+4	of	of	ADP	IN	_	3	_	_	start_char=68|end_char=70
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=71|end_char=74
+6	child	child	NOUN	NN	Number=Sing	5	_	_	start_char=75|end_char=80
+7	being	be	AUX	VBG	VerbForm=Ger	6	_	_	start_char=81|end_char=86
+8	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=87|end_char=92
+9	by	by	ADP	IN	_	8	_	_	start_char=93|end_char=95
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=96|end_char=97
+11	man	man	NOUN	NN	Number=Sing	10	_	_	start_char=98|end_char=101|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=101|end_char=102
+
+# text = That's why she's in prison.
+# sent_id = 32063
+1-2	That's	_	_	_	_	_	_	_	start_char=103|end_char=109
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=103|end_char=107
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=107|end_char=109
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=110|end_char=113
+4-5	she's	_	_	_	_	_	_	_	start_char=114|end_char=119
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=114|end_char=117
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=117|end_char=119
+6	in	in	ADP	IN	_	5	_	_	start_char=120|end_char=122
+7	prison	prison	NOUN	NN	Number=Sing	6	_	_	start_char=123|end_char=129|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=129|end_char=130|SpaceAfter=No
+

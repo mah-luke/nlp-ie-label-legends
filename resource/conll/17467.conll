@@ -1,0 +1,54 @@
+# text = Geez what a freak.
+# sent_id = 37525
+1	Geez	geez	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=5|end_char=9
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=10|end_char=11
+4	freak	freak	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = Excuses his wife said to not have sex with him?
+# sent_id = 37526
+1	Excuses	excuse	NOUN	NNS	Number=Plur	0	_	_	start_char=19|end_char=26
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=27|end_char=30
+3	wife	wife	NOUN	NN	Number=Sing	2	_	_	start_char=31|end_char=35
+4	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=36|end_char=40
+5	to	to	PART	TO	_	4	_	_	start_char=41|end_char=43
+6	not	not	PART	RB	_	5	_	_	start_char=44|end_char=47
+7	have	have	VERB	VB	VerbForm=Inf	6	_	_	start_char=48|end_char=52
+8	sex	sex	NOUN	NN	Number=Sing	7	_	_	start_char=53|end_char=56
+9	with	with	ADP	IN	_	8	_	_	start_char=57|end_char=61
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=62|end_char=65|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=65|end_char=66
+
+# text = Girls don't OWE you sex.
+# sent_id = 37527
+1	Girls	Girls	NOUN	NNS	Number=Plur	0	_	_	start_char=67|end_char=72
+2-3	don't	_	_	_	_	_	_	_	start_char=73|end_char=78
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=73|end_char=75
+3	n't	not	PART	RB	_	2	_	_	start_char=75|end_char=78
+4	OWE	owe	VERB	VB	VerbForm=Inf	3	_	_	start_char=79|end_char=82
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=83|end_char=86
+6	sex	sex	NOUN	NN	Number=Sing	5	_	_	start_char=87|end_char=90|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=90|end_char=91
+
+# text = If she literally said "I don't want to today" that should be enough.
+# sent_id = 37528
+1	If	if	SCONJ	IN	_	0	_	_	start_char=92|end_char=94
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=95|end_char=98
+3	literally	literally	ADV	RB	_	2	_	_	start_char=99|end_char=108
+4	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=109|end_char=113
+5	"	"	PUNCT	``	_	4	_	_	start_char=114|end_char=115|SpaceAfter=No
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=115|end_char=116
+7-8	don't	_	_	_	_	_	_	_	start_char=117|end_char=122
+7	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=117|end_char=119
+8	n't	not	PART	RB	_	7	_	_	start_char=119|end_char=122
+9	want	want	VERB	VB	VerbForm=Inf	8	_	_	start_char=123|end_char=127
+10	to	to	PART	TO	_	9	_	_	start_char=128|end_char=130
+11	today	today	NOUN	NN	Number=Sing	10	_	_	start_char=131|end_char=136|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=136|end_char=137
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	12	_	_	start_char=138|end_char=142
+14	should	should	AUX	MD	VerbForm=Fin	13	_	_	start_char=143|end_char=149
+15	be	be	AUX	VB	VerbForm=Inf	14	_	_	start_char=150|end_char=152
+16	enough	enough	ADJ	JJ	Degree=Pos	15	_	_	start_char=153|end_char=159|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=159|end_char=160|SpaceAfter=No
+

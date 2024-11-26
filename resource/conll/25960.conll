@@ -1,0 +1,41 @@
+# text = You're below-average intellectually, physically with zero to little earning power.
+# sent_id = 55709
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	below	below	ADV	RB	_	2	_	_	start_char=7|end_char=12|SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	_	_	start_char=12|end_char=13|SpaceAfter=No
+5	average	average	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=20
+6	intellectually	intellectually	ADV	RB	_	5	_	_	start_char=21|end_char=35|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=35|end_char=36
+8	physically	physically	ADV	RB	_	7	_	_	start_char=37|end_char=47
+9	with	with	ADP	IN	_	8	_	_	start_char=48|end_char=52
+10	zero	zero	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=53|end_char=57
+11	to	to	ADP	IN	_	10	_	_	start_char=58|end_char=60
+12	little	little	ADJ	JJ	Degree=Pos	11	_	_	start_char=61|end_char=67
+13	earning	earning	NOUN	NN	Number=Sing	12	_	_	start_char=68|end_char=75
+14	power	power	NOUN	NN	Number=Sing	13	_	_	start_char=76|end_char=81|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=81|end_char=82
+
+# text = Crawl back under your rock Rearden until your mommy says you can go out and collect soda cans.
+# sent_id = 55710
+1	Crawl	crawl	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=83|end_char=88
+2	back	back	ADV	RB	_	1	_	_	start_char=89|end_char=93
+3	under	under	ADP	IN	_	2	_	_	start_char=94|end_char=99
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=100|end_char=104
+5	rock	rock	NOUN	NN	Number=Sing	4	_	_	start_char=105|end_char=109
+6	Rearden	Rearden	PROPN	NNP	Number=Sing	5	_	_	start_char=110|end_char=117
+7	until	until	SCONJ	IN	_	6	_	_	start_char=118|end_char=123
+8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	_	_	start_char=124|end_char=128
+9	mommy	mommy	NOUN	NN	Number=Sing	8	_	_	start_char=129|end_char=134
+10	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=135|end_char=139
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=140|end_char=143
+12	can	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=144|end_char=147
+13	go	go	VERB	VB	VerbForm=Inf	12	_	_	start_char=148|end_char=150
+14	out	out	ADV	RB	_	13	_	_	start_char=151|end_char=154
+15	and	and	CCONJ	CC	_	14	_	_	start_char=155|end_char=158
+16	collect	collect	VERB	VB	VerbForm=Inf	15	_	_	start_char=159|end_char=166
+17	soda	soda	NOUN	NN	Number=Sing	16	_	_	start_char=167|end_char=171
+18	cans	can	NOUN	NNS	Number=Plur	17	_	_	start_char=172|end_char=176|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=176|end_char=177|SpaceAfter=No
+

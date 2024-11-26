@@ -1,0 +1,52 @@
+# text = "Show me a “successful woman,” and I’ll show you a dick that’s been sucked."
+# sent_id = 9698
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Show	show	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=1|end_char=5
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=8
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=9|end_char=10
+5	“	''	PUNCT	``	_	4	_	_	start_char=11|end_char=12|SpaceAfter=No
+6	successful	successful	ADJ	JJ	Degree=Pos	5	_	_	start_char=12|end_char=22
+7	woman	woman	NOUN	NN	Number=Sing	6	_	_	start_char=23|end_char=28|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=28|end_char=29|SpaceAfter=No
+9	”	''	PUNCT	''	_	8	_	_	start_char=29|end_char=30
+10	and	and	CCONJ	CC	_	9	_	_	start_char=31|end_char=34
+11-12	I’ll	_	_	_	_	_	_	_	start_char=35|end_char=39
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=35|end_char=36
+12	’ll	will	AUX	MD	VerbForm=Fin	11	_	_	start_char=36|end_char=39
+13	show	show	VERB	VB	VerbForm=Inf	12	_	_	start_char=40|end_char=44
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	_	_	start_char=45|end_char=48
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=49|end_char=50
+16	dick	dick	NOUN	NN	Number=Sing	15	_	_	start_char=51|end_char=55
+17-18	that’s	_	_	_	_	_	_	_	start_char=56|end_char=62
+17	that	that	PRON	WDT	PronType=Rel	16	_	_	start_char=56|end_char=60
+18	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=60|end_char=62
+19	been	be	AUX	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=63|end_char=67
+20	sucked	suck	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	_	_	start_char=68|end_char=74|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=74|end_char=75|SpaceAfter=No
+22	"	"	PUNCT	''	_	21	_	_	start_char=75|end_char=76
+
+# text = Andrew Anglin[USER]
+# sent_id = 9699
+1	Andrew	Andrew	PROPN	NNP	Number=Sing	0	_	_	start_char=77|end_char=83
+2	Anglin	Anglin	PROPN	NNP	Number=Sing	1	_	_	start_char=84|end_char=90|SpaceAfter=No
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=90|end_char=91|SpaceAfter=No
+4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=91|end_char=95|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=95|end_char=96
+
+# text = One of Andrew's better articles!
+# sent_id = 9700
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=97|end_char=100
+2	of	of	ADP	IN	_	1	_	_	start_char=101|end_char=103
+3-4	Andrew's	_	_	_	_	_	_	_	start_char=104|end_char=112
+3	Andrew	Andrew	PROPN	NNP	Number=Sing	2	_	_	start_char=104|end_char=110
+4	's	's	PART	POS	_	3	_	_	start_char=110|end_char=112
+5	better	good	ADJ	JJR	Degree=Cmp	4	_	_	start_char=113|end_char=119
+6	articles	article	NOUN	NNS	Number=Plur	5	_	_	start_char=120|end_char=128|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=128|end_char=129
+
+# text = [URL]
+# sent_id = 9701
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=130|end_char=131|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=131|end_char=134|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=134|end_char=135|SpaceAfter=No
+

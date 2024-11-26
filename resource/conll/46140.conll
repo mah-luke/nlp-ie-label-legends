@@ -1,0 +1,40 @@
+# text = What's even funnier is she left me a TRUST and left my sister with nothing.
+# sent_id = 98577
+1-2	What's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	even	even	ADV	RB	_	2	_	_	start_char=7|end_char=11
+4	funnier	funnier	ADJ	JJR	Degree=Cmp	3	_	_	start_char=12|end_char=19
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=20|end_char=22
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=23|end_char=26
+7	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=27|end_char=31
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=32|end_char=34
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=35|end_char=36
+10	TRUST	trust	NOUN	NN	Number=Sing	9	_	_	start_char=37|end_char=42
+11	and	and	CCONJ	CC	_	10	_	_	start_char=43|end_char=46
+12	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=47|end_char=51
+13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	_	_	start_char=52|end_char=54
+14	sister	sister	NOUN	NN	Number=Sing	13	_	_	start_char=55|end_char=61
+15	with	with	ADP	IN	_	14	_	_	start_char=62|end_char=66
+16	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	15	_	_	start_char=67|end_char=74|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=74|end_char=75
+
+# text = I don't think she liked other women very much, including her kin.
+# sent_id = 98578
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=76|end_char=77
+2-3	don't	_	_	_	_	_	_	_	start_char=78|end_char=83
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=78|end_char=80
+3	n't	not	PART	RB	_	2	_	_	start_char=80|end_char=83
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=84|end_char=89
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=90|end_char=93
+6	liked	like	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=94|end_char=99
+7	other	other	ADJ	JJ	Degree=Pos	6	_	_	start_char=100|end_char=105
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=106|end_char=111
+9	very	very	ADV	RB	_	8	_	_	start_char=112|end_char=116
+10	much	much	ADV	RB	_	9	_	_	start_char=117|end_char=121|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=121|end_char=122
+12	including	include	VERB	VBG	VerbForm=Ger	11	_	_	start_char=123|end_char=132
+13	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=133|end_char=136
+14	kin	kin	NOUN	NN	Number=Sing	13	_	_	start_char=137|end_char=140|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=140|end_char=141|SpaceAfter=No
+

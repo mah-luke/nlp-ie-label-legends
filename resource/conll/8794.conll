@@ -1,0 +1,25 @@
+# text = [USER] Ewwwwwwww....
+# sent_id = 18503
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	Ewwwwwwww	Ewwwwwwww	PROPN	NNP	Number=Sing	3	_	_	start_char=7|end_char=16|SpaceAfter=No
+5	....	....	PUNCT	.	_	4	_	_	start_char=16|end_char=20
+
+# text = I'm sure she's carrying some diseases we thought were dead
+# sent_id = 18504
+1-2	I'm	_	_	_	_	_	_	_	start_char=21|end_char=24
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=21|end_char=22
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=24
+3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=25|end_char=29
+4-5	she's	_	_	_	_	_	_	_	start_char=30|end_char=35
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=30|end_char=33
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=33|end_char=35
+6	carrying	carry	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=36|end_char=44
+7	some	some	DET	DT	_	6	_	_	start_char=45|end_char=49
+8	diseases	disease	NOUN	NNS	Number=Plur	7	_	_	start_char=50|end_char=58
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	_	_	start_char=59|end_char=61
+10	thought	think	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	9	_	_	start_char=62|end_char=69
+11	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=70|end_char=74
+12	dead	dead	ADJ	JJ	Degree=Pos	11	_	_	start_char=75|end_char=79|SpaceAfter=No
+

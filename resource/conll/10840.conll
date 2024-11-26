@@ -1,0 +1,49 @@
+# text = Hahaha that story totally cracked me up.
+# sent_id = 22945
+1	Hahaha	Hahaha	INTJ	UH	_	0	_	_	start_char=0|end_char=6
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=7|end_char=11
+3	story	story	NOUN	NN	Number=Sing	2	_	_	start_char=12|end_char=17
+4	totally	totally	ADV	RB	_	3	_	_	start_char=18|end_char=25
+5	cracked	crack	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=26|end_char=33
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=34|end_char=36
+7	up	up	ADP	RP	_	6	_	_	start_char=37|end_char=39|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=39|end_char=40
+
+# text = Fuck that chick.
+# sent_id = 22946
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=41|end_char=45
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=46|end_char=50
+3	chick	chick	NOUN	NN	Number=Sing	2	_	_	start_char=51|end_char=56|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=56|end_char=57
+
+# text = She’s a social media drug addict then.
+# sent_id = 22947
+1-2	She’s	_	_	_	_	_	_	_	start_char=58|end_char=63
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=58|end_char=61
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=61|end_char=63
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=64|end_char=65
+4	social	social	ADJ	JJ	Degree=Pos	3	_	_	start_char=66|end_char=72
+5	media	media	NOUN	NN	Number=Sing	4	_	_	start_char=73|end_char=78
+6	drug	drug	NOUN	NN	Number=Sing	5	_	_	start_char=79|end_char=83
+7	addict	addict	NOUN	NN	Number=Sing	6	_	_	start_char=84|end_char=90
+8	then	then	ADV	RB	PronType=Dem	7	_	_	start_char=91|end_char=95|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=95|end_char=96
+
+# text = When the going gets tough she aint gonna have shit IRL
+# sent_id = 22948
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=97|end_char=101
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=102|end_char=105
+3	going	go	NOUN	NN	Number=Sing	2	_	_	start_char=106|end_char=111
+4	gets	get	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=112|end_char=116
+5	tough	tough	ADJ	JJ	Degree=Pos	4	_	_	start_char=117|end_char=122
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=123|end_char=126
+7-8	aint	_	_	_	_	_	_	_	start_char=127|end_char=131
+7	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=127|end_char=129
+8	nt	not	PART	RB	_	7	_	_	start_char=129|end_char=131
+9-10	gonna	_	_	_	_	_	_	_	start_char=132|end_char=137
+9	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=132|end_char=135
+10	na	to	PART	TO	_	9	_	_	start_char=135|end_char=137
+11	have	have	VERB	VB	VerbForm=Inf	10	_	_	start_char=138|end_char=142
+12	shit	shit	NOUN	NN	Number=Sing	11	_	_	start_char=143|end_char=147
+13	IRL	IRL	PROPN	NNP	Number=Sing	12	_	_	start_char=148|end_char=151|SpaceAfter=No
+

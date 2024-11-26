@@ -1,0 +1,57 @@
+# text = Why are there so many down votes here.
+# sent_id = 78948
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	there	there	PRON	EX	_	2	_	_	start_char=8|end_char=13
+4	so	so	ADV	RB	_	3	_	_	start_char=14|end_char=16
+5	many	many	ADJ	JJ	Degree=Pos	4	_	_	start_char=17|end_char=21
+6	down	down	ADP	RP	_	5	_	_	start_char=22|end_char=26
+7	votes	vote	NOUN	NNS	Number=Plur	6	_	_	start_char=27|end_char=32
+8	here	here	ADV	RB	PronType=Dem	7	_	_	start_char=33|end_char=37|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=37|end_char=38
+
+# text = I'm being rejected by guys on my face and body level by women who are 4'11 just because the guy is 6'3.
+# sent_id = 78949
+1-2	I'm	_	_	_	_	_	_	_	start_char=39|end_char=42
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=39|end_char=40
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=40|end_char=42
+3	being	be	AUX	VBG	VerbForm=Ger	2	_	_	start_char=43|end_char=48
+4	rejected	reject	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=49|end_char=57
+5	by	by	ADP	IN	_	4	_	_	start_char=58|end_char=60
+6	guys	guy	NOUN	NNS	Number=Plur	5	_	_	start_char=61|end_char=65
+7	on	on	ADP	IN	_	6	_	_	start_char=66|end_char=68
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	_	_	start_char=69|end_char=71
+9	face	face	NOUN	NN	Number=Sing	8	_	_	start_char=72|end_char=76
+10	and	and	CCONJ	CC	_	9	_	_	start_char=77|end_char=80
+11	body	body	NOUN	NN	Number=Sing	10	_	_	start_char=81|end_char=85
+12	level	level	NOUN	NN	Number=Sing	11	_	_	start_char=86|end_char=91
+13	by	by	ADP	IN	_	12	_	_	start_char=92|end_char=94
+14	women	woman	NOUN	NNS	Number=Plur	13	_	_	start_char=95|end_char=100
+15	who	who	PRON	WP	PronType=Rel	14	_	_	start_char=101|end_char=104
+16	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=105|end_char=108
+17	4	4	NUM	CD	NumForm=Digit|NumType=Card	16	_	_	start_char=109|end_char=110|SpaceAfter=No
+18	'	'	NOUN	NNS	Number=Plur	17	_	_	start_char=110|end_char=111|SpaceAfter=No
+19	11	11	NUM	CD	NumForm=Digit|NumType=Card	18	_	_	start_char=111|end_char=113
+20	just	just	ADV	RB	_	19	_	_	start_char=114|end_char=118
+21	because	because	SCONJ	IN	_	20	_	_	start_char=119|end_char=126
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=127|end_char=130
+23	guy	guy	NOUN	NN	Number=Sing	22	_	_	start_char=131|end_char=134
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=135|end_char=137
+25	6	6	NUM	CD	NumForm=Digit|NumType=Card	24	_	_	start_char=138|end_char=139|SpaceAfter=No
+26	'	'	NOUN	NNS	Number=Plur	25	_	_	start_char=139|end_char=140|SpaceAfter=No
+27	3	3	NUM	CD	NumForm=Digit|NumType=Card	26	_	_	start_char=140|end_char=141|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=141|end_char=142
+
+# text = Why else would you think I'd be here
+# sent_id = 78950
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=143|end_char=146
+2	else	else	ADV	RB	_	1	_	_	start_char=147|end_char=151
+3	would	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=152|end_char=157
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=158|end_char=161
+5	think	think	VERB	VB	VerbForm=Inf	4	_	_	start_char=162|end_char=167
+6-7	I'd	_	_	_	_	_	_	_	start_char=168|end_char=171
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=168|end_char=169
+7	'd	would	AUX	MD	VerbForm=Fin	6	_	_	start_char=169|end_char=171
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=172|end_char=174
+9	here	here	ADV	RB	PronType=Dem	8	_	_	start_char=175|end_char=179|SpaceAfter=No
+

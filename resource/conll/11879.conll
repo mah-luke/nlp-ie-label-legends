@@ -1,0 +1,67 @@
+# text = It's part of the reason I can't watch the latest girl power movies from Hollywood.
+# sent_id = 25166
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	part	part	NOUN	NN	Number=Sing	2	_	_	start_char=5|end_char=9
+4	of	of	ADP	IN	_	3	_	_	start_char=10|end_char=12
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=13|end_char=16
+6	reason	reason	NOUN	NN	Number=Sing	5	_	_	start_char=17|end_char=23
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=24|end_char=25
+8-9	can't	_	_	_	_	_	_	_	start_char=26|end_char=31
+8	ca	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=26|end_char=28
+9	n't	not	PART	RB	_	8	_	_	start_char=28|end_char=31
+10	watch	watch	VERB	VB	VerbForm=Inf	9	_	_	start_char=32|end_char=37
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=38|end_char=41
+12	latest	late	ADJ	JJS	Degree=Sup	11	_	_	start_char=42|end_char=48
+13	girl	girl	NOUN	NN	Number=Sing	12	_	_	start_char=49|end_char=53
+14	power	power	NOUN	NN	Number=Sing	13	_	_	start_char=54|end_char=59
+15	movies	movie	NOUN	NNS	Number=Plur	14	_	_	start_char=60|end_char=66
+16	from	from	ADP	IN	_	15	_	_	start_char=67|end_char=71
+17	Hollywood	Hollywood	PROPN	NNP	Number=Sing	16	_	_	start_char=72|end_char=81|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=81|end_char=82
+
+# text = In the movies, one woman can kick the ass of 1,000 men.
+# sent_id = 25167
+1	In	in	ADP	IN	_	0	_	_	start_char=83|end_char=85
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=86|end_char=89
+3	movies	movie	NOUN	NNS	Number=Plur	2	_	_	start_char=90|end_char=96|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=96|end_char=97
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=98|end_char=101
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=102|end_char=107
+7	can	can	AUX	MD	VerbForm=Fin	6	_	_	start_char=108|end_char=111
+8	kick	kick	VERB	VB	VerbForm=Inf	7	_	_	start_char=112|end_char=116
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=117|end_char=120
+10	ass	ass	NOUN	NN	Number=Sing	9	_	_	start_char=121|end_char=124
+11	of	of	ADP	IN	_	10	_	_	start_char=125|end_char=127
+12	1,000	1000	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=128|end_char=133
+13	men	man	NOUN	NNS	Number=Plur	12	_	_	start_char=134|end_char=137|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=137|end_char=138
+
+# text = Without any training.
+# sent_id = 25168
+1	Without	without	ADP	IN	_	0	_	_	start_char=139|end_char=146
+2	any	any	DET	DT	_	1	_	_	start_char=147|end_char=150
+3	training	training	NOUN	NN	Number=Sing	2	_	_	start_char=151|end_char=159|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=159|end_char=160
+
+# text = In real life, if a woman is about to get raped she cries for help.
+# sent_id = 25169
+1	In	in	ADP	IN	_	0	_	_	start_char=161|end_char=163
+2	real	real	ADJ	JJ	Degree=Pos	1	_	_	start_char=164|end_char=168
+3	life	life	NOUN	NN	Number=Sing	2	_	_	start_char=169|end_char=173|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=173|end_char=174
+5	if	if	SCONJ	IN	_	4	_	_	start_char=175|end_char=177
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=178|end_char=179
+7	woman	woman	NOUN	NN	Number=Sing	6	_	_	start_char=180|end_char=185
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=186|end_char=188
+9	about	about	ADJ	JJ	Degree=Pos	8	_	_	start_char=189|end_char=194
+10	to	to	PART	TO	_	9	_	_	start_char=195|end_char=197
+11	get	get	AUX	VB	VerbForm=Inf	10	_	_	start_char=198|end_char=201
+12	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=202|end_char=207
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=208|end_char=211
+14	cries	cry	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=212|end_char=217
+15	for	for	ADP	IN	_	14	_	_	start_char=218|end_char=221
+16	help	help	NOUN	NN	Number=Sing	15	_	_	start_char=222|end_char=226|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=226|end_char=227|SpaceAfter=No
+

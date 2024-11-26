@@ -1,0 +1,41 @@
+# text = Same here they wont take the free English classes.
+# sent_id = 127997
+1	Same	same	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	here	here	ADV	RB	PronType=Dem	1	_	_	start_char=5|end_char=9
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=14
+4-5	wont	_	_	_	_	_	_	_	start_char=15|end_char=19
+4	wo	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=15|end_char=17
+5	nt	not	PART	RB	_	4	_	_	start_char=17|end_char=19
+6	take	take	VERB	VB	VerbForm=Inf	5	_	_	start_char=20|end_char=24
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=25|end_char=28
+8	free	free	ADJ	JJ	Degree=Pos	7	_	_	start_char=29|end_char=33
+9	English	English	ADJ	JJ	Degree=Pos	8	_	_	start_char=34|end_char=41
+10	classes	class	NOUN	NNS	Number=Plur	9	_	_	start_char=42|end_char=49|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=49|end_char=50
+
+# text = LMAO!
+# sent_id = 127998
+1	LMAO	lmao	INTJ	UH	_	0	_	_	start_char=51|end_char=55|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=55|end_char=56
+
+# text = I love your sisters humor.
+# sent_id = 127999
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=57|end_char=58
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=63
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=64|end_char=68
+4	sisters	sister	NOUN	NNS	Number=Plur	3	_	_	start_char=69|end_char=76
+5	humor	humor	NOUN	NN	Number=Sing	4	_	_	start_char=77|end_char=82|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=82|end_char=83
+
+# text = That will offend a few muzzies for sure..
+# sent_id = 128000
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=84|end_char=88
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=89|end_char=93
+3	offend	offend	VERB	VB	VerbForm=Inf	2	_	_	start_char=94|end_char=100
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=101|end_char=102
+5	few	few	ADJ	JJ	Degree=Pos	4	_	_	start_char=103|end_char=106
+6	muzzies	muzzy	NOUN	NNS	Number=Plur	5	_	_	start_char=107|end_char=114
+7	for	for	ADP	IN	_	6	_	_	start_char=115|end_char=118
+8	sure	sure	ADJ	JJ	Degree=Pos	7	_	_	start_char=119|end_char=123|SpaceAfter=No
+9	..	..	PUNCT	.	_	8	_	_	start_char=123|end_char=125|SpaceAfter=No
+

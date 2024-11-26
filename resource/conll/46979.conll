@@ -1,0 +1,58 @@
+# text = Gun control hell moves closer.
+# sent_id = 100435
+1	Gun	gun	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3
+2	control	control	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=11
+3	hell	hell	NOUN	NN	Number=Sing	2	_	_	start_char=12|end_char=16
+4	moves	move	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=17|end_char=22
+5	closer	close	ADV	RBR	Degree=Cmp	4	_	_	start_char=23|end_char=29|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=29|end_char=30
+
+# text = Would be zero guns with democrats.
+# sent_id = 100436
+1	Would	would	AUX	MD	VerbForm=Fin	0	_	_	start_char=31|end_char=36
+2	be	be	AUX	VB	VerbForm=Inf	1	_	_	start_char=37|end_char=39
+3	zero	zero	NUM	CD	NumForm=Word|NumType=Card	2	_	_	start_char=40|end_char=44
+4	guns	gun	NOUN	NNS	Number=Plur	3	_	_	start_char=45|end_char=49
+5	with	with	ADP	IN	_	4	_	_	start_char=50|end_char=54
+6	democrats	Democrat	PROPN	NNPS	Number=Plur	5	_	_	start_char=55|end_char=64|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=64|end_char=65
+
+# text = WTH is Comprehensive Background Checks & MentalHealth?
+# sent_id = 100437
+1	WTH	wth	NOUN	NN	Number=Sing	0	_	_	start_char=66|end_char=69
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=70|end_char=72
+3	Comprehensive	comprehensive	ADJ	JJ	Degree=Pos	2	_	_	start_char=73|end_char=86
+4	Background	background	NOUN	NN	Number=Sing	3	_	_	start_char=87|end_char=97
+5	Checks	check	NOUN	NNS	Number=Plur	4	_	_	start_char=98|end_char=104
+6	&	&	CCONJ	CC	_	5	_	_	start_char=105|end_char=106
+7	MentalHealth	MentalHealth	PROPN	NNP	Number=Sing	6	_	_	start_char=107|end_char=119|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=119|end_char=120
+
+# text = Who is empowered to dictate mental health?
+# sent_id = 100438
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=121|end_char=124
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=125|end_char=127
+3	empowered	empower	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=128|end_char=137
+4	to	to	PART	TO	_	3	_	_	start_char=138|end_char=140
+5	dictate	dictate	VERB	VB	VerbForm=Inf	4	_	_	start_char=141|end_char=148
+6	mental	mental	ADJ	JJ	Degree=Pos	5	_	_	start_char=149|end_char=155
+7	health	health	NOUN	NN	Number=Sing	6	_	_	start_char=156|end_char=162|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=162|end_char=163
+
+# text = Church Neighbor Quack Exspouse girl/boyfriend OfficePolitics BLM Antifa? [URL]
+# sent_id = 100439
+1	Church	Church	PROPN	NNP	Number=Sing	0	_	_	start_char=164|end_char=170
+2	Neighbor	Neighbor	PROPN	NNP	Number=Sing	1	_	_	start_char=171|end_char=179
+3	Quack	Quack	PROPN	NNP	Number=Sing	2	_	_	start_char=180|end_char=185
+4	Exspouse	Exspouse	PROPN	NNP	Number=Sing	3	_	_	start_char=186|end_char=194
+5	girl	girl	NOUN	NN	Number=Sing	4	_	_	start_char=195|end_char=199|SpaceAfter=No
+6	/	/	SYM	,	_	5	_	_	start_char=199|end_char=200|SpaceAfter=No
+7	boyfriend	boyfriend	NOUN	NN	Number=Sing	6	_	_	start_char=200|end_char=209
+8	OfficePolitics	OfficePolitics	PROPN	NNP	Number=Sing	7	_	_	start_char=210|end_char=224
+9	BLM	BLM	PROPN	NNP	Number=Sing	8	_	_	start_char=225|end_char=228
+10	Antifa	Antifa	PROPN	NNP	Number=Sing	9	_	_	start_char=229|end_char=235|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=235|end_char=236
+12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=237|end_char=238|SpaceAfter=No
+13	URL	URL	PROPN	NNP	Number=Sing	12	_	_	start_char=238|end_char=241|SpaceAfter=No
+14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=241|end_char=242|SpaceAfter=No
+

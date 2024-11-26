@@ -1,0 +1,19 @@
+# text = What's baked every day and sells itself?
+# sent_id = 116647
+1-2	What's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	baked	bake	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=7|end_char=12
+4	every	every	DET	DT	_	3	_	_	start_char=13|end_char=18
+5	day	day	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=22
+6	and	and	CCONJ	CC	_	5	_	_	start_char=23|end_char=26
+7	sells	sell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=27|end_char=32
+8	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	7	_	_	start_char=33|end_char=39|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=39|end_char=40
+
+# text = My sister.
+# sent_id = 116648
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=41|end_char=43
+2	sister	sister	NOUN	NN	Number=Sing	1	_	_	start_char=44|end_char=50|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=50|end_char=51|SpaceAfter=No
+

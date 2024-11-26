@@ -1,0 +1,44 @@
+# text = I know right?
+# sent_id = 66470
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	right	right	ADV	RB	_	2	_	_	start_char=7|end_char=12|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=12|end_char=13
+
+# text = And here they are hating us!
+# sent_id = 66471
+1	And	and	CCONJ	CC	_	0	_	_	start_char=14|end_char=17
+2	here	here	ADV	RB	PronType=Dem	1	_	_	start_char=18|end_char=22
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=23|end_char=27
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=28|end_char=31
+5	hating	hate	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=32|end_char=38
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=39|end_char=41|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=41|end_char=42
+
+# text = We're all for women to get complete freedom.
+# sent_id = 66472
+1-2	We're	_	_	_	_	_	_	_	start_char=43|end_char=48
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=43|end_char=45
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=45|end_char=48
+3	all	all	ADV	RB	_	2	_	_	start_char=49|end_char=52
+4	for	for	SCONJ	IN	_	3	_	_	start_char=53|end_char=56
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=57|end_char=62
+6	to	to	PART	TO	_	5	_	_	start_char=63|end_char=65
+7	get	get	VERB	VB	VerbForm=Inf	6	_	_	start_char=66|end_char=69
+8	complete	complete	ADJ	JJ	Degree=Pos	7	_	_	start_char=70|end_char=78
+9	freedom	freedom	NOUN	NN	Number=Sing	8	_	_	start_char=79|end_char=86|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=86|end_char=87
+
+# text = We want to see shit get fucked up faster.
+# sent_id = 66473
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=88|end_char=90
+2	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=91|end_char=95
+3	to	to	PART	TO	_	2	_	_	start_char=96|end_char=98
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	start_char=99|end_char=102
+5	shit	shit	NOUN	NN	Number=Sing	4	_	_	start_char=103|end_char=107
+6	get	get	AUX	VB	VerbForm=Inf	5	_	_	start_char=108|end_char=111
+7	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=112|end_char=118
+8	up	up	ADP	RP	_	7	_	_	start_char=119|end_char=121
+9	faster	fast	ADJ	JJR	Degree=Cmp	8	_	_	start_char=122|end_char=128|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=128|end_char=129|SpaceAfter=No
+

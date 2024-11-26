@@ -1,0 +1,56 @@
+# text = Topic, not group, I’m not a paid member.
+# sent_id = 109137
+1	Topic	topic	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3	not	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	group	group	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=16|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=16|end_char=17
+6-7	I’m	_	_	_	_	_	_	_	start_char=18|end_char=21
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=18|end_char=19
+7	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=19|end_char=21
+8	not	not	PART	RB	_	7	_	_	start_char=22|end_char=25
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=26|end_char=27
+10	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=28|end_char=32
+11	member	member	NOUN	NN	Number=Sing	10	_	_	start_char=33|end_char=39|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=39|end_char=40
+
+# text = I do like to make Topics though, I made one about Hitler being transgender once I heard that he was taking female hormones.
+# sent_id = 109138
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=41|end_char=42
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=43|end_char=45
+3	like	like	VERB	VB	VerbForm=Inf	2	_	_	start_char=46|end_char=50
+4	to	to	PART	TO	_	3	_	_	start_char=51|end_char=53
+5	make	make	VERB	VB	VerbForm=Inf	4	_	_	start_char=54|end_char=58
+6	Topics	topic	NOUN	NNS	Number=Plur	5	_	_	start_char=59|end_char=65
+7	though	though	ADV	RB	_	6	_	_	start_char=66|end_char=72|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=72|end_char=73
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=74|end_char=75
+10	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	_	_	start_char=76|end_char=80
+11	one	one	NUM	CD	NumForm=Word|NumType=Card	10	_	_	start_char=81|end_char=84
+12	about	about	SCONJ	IN	_	11	_	_	start_char=85|end_char=90
+13	Hitler	Hitler	PROPN	NNP	Number=Sing	12	_	_	start_char=91|end_char=97
+14	being	be	AUX	VBG	VerbForm=Ger	13	_	_	start_char=98|end_char=103
+15	transgender	transgender	ADJ	JJ	Degree=Pos	14	_	_	start_char=104|end_char=115
+16	once	once	SCONJ	IN	_	15	_	_	start_char=116|end_char=120
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=121|end_char=122
+18	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	17	_	_	start_char=123|end_char=128
+19	that	that	SCONJ	IN	_	18	_	_	start_char=129|end_char=133
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=134|end_char=136
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	_	_	start_char=137|end_char=140
+22	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	21	_	_	start_char=141|end_char=147
+23	female	female	ADJ	JJ	Degree=Pos	22	_	_	start_char=148|end_char=154
+24	hormones	hormone	NOUN	NNS	Number=Plur	23	_	_	start_char=155|end_char=163|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=163|end_char=164
+
+# text = The nazis got very upset at me lol.
+# sent_id = 109139
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=165|end_char=168
+2	nazis	nazis	NOUN	NNS	Number=Plur	1	_	_	start_char=169|end_char=174
+3	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=175|end_char=178
+4	very	very	ADV	RB	_	3	_	_	start_char=179|end_char=183
+5	upset	upset	ADJ	JJ	Degree=Pos	4	_	_	start_char=184|end_char=189
+6	at	at	ADP	IN	_	5	_	_	start_char=190|end_char=192
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=193|end_char=195
+8	lol	lol	INTJ	UH	_	7	_	_	start_char=196|end_char=199|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=199|end_char=200|SpaceAfter=No
+

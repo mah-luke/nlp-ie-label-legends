@@ -1,0 +1,103 @@
+# text = Her: Can I bring my friend?
+# sent_id = 39502
+1	Her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=3|end_char=4
+3	Can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=5|end_char=8
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=9|end_char=10
+5	bring	bring	VERB	VB	VerbForm=Inf	4	_	_	start_char=11|end_char=16
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=17|end_char=19
+7	friend	friend	NOUN	NN	Number=Sing	6	_	_	start_char=20|end_char=26|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=26|end_char=27
+
+# text = You: Is she hot?
+# sent_id = 39503
+1	You	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	0	_	_	start_char=28|end_char=31|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=31|end_char=32
+3	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=33|end_char=35
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=36|end_char=39
+5	hot	hot	ADJ	JJ	Degree=Pos	4	_	_	start_char=40|end_char=43|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=43|end_char=44
+
+# text = Her: Well.....
+# sent_id = 39504
+1	Her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=45|end_char=48|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=48|end_char=49
+3	Well	well	INTJ	UH	_	2	_	_	start_char=50|end_char=54|SpaceAfter=No
+4	.....	.....	PUNCT	.	_	3	_	_	start_char=54|end_char=59
+
+# text = You: No. (smile if in person, smiley face if texting).
+# sent_id = 39505
+1	You	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	0	_	_	start_char=60|end_char=63|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=63|end_char=64
+3	No.	no.	NOUN	NN	Abbr=Yes|Number=Sing	2	_	_	start_char=65|end_char=68
+4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=69|end_char=70|SpaceAfter=No
+5	smile	smile	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=70|end_char=75
+6	if	if	SCONJ	IN	_	5	_	_	start_char=76|end_char=78
+7	in	in	ADP	IN	_	6	_	_	start_char=79|end_char=81
+8	person	person	NOUN	NN	Number=Sing	7	_	_	start_char=82|end_char=88|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=88|end_char=89
+10	smiley	smiley	NOUN	NN	Number=Sing	9	_	_	start_char=90|end_char=96
+11	face	face	NOUN	NN	Number=Sing	10	_	_	start_char=97|end_char=101
+12	if	if	SCONJ	IN	_	11	_	_	start_char=102|end_char=104
+13	texting	texting	NOUN	NN	Number=Sing	12	_	_	start_char=105|end_char=112|SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	13	_	_	start_char=112|end_char=113|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=113|end_char=114
+
+# text = ALTERNATE
+# sent_id = 39506
+1	ALTERNATE	alternate	ADJ	JJ	Degree=Pos	0	_	_	start_char=115|end_char=124
+
+# text = You:
+# sent_id = 39507
+1	You	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	0	_	_	start_char=125|end_char=128|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=128|end_char=129
+
+# text = Is she hot?
+# sent_id = 39508
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=130|end_char=132
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=133|end_char=136
+3	hot	hot	ADJ	JJ	Degree=Pos	2	_	_	start_char=137|end_char=140|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=140|end_char=141
+
+# text = Her: Yes You: Cool.
+# sent_id = 39509
+1	Her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=142|end_char=145|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=145|end_char=146
+3	Yes	yes	INTJ	UH	_	2	_	_	start_char=147|end_char=150
+4	You	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=151|end_char=154|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=154|end_char=155
+6	Cool	cool	ADJ	JJ	Degree=Pos	5	_	_	start_char=156|end_char=160|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=160|end_char=161
+
+# text = I'll tell my buddy to come, too.
+# sent_id = 39510
+1-2	I'll	_	_	_	_	_	_	_	start_char=162|end_char=166
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=162|end_char=163
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=163|end_char=166
+3	tell	tell	VERB	VB	VerbForm=Inf	2	_	_	start_char=167|end_char=171
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=172|end_char=174
+5	buddy	buddy	NOUN	NN	Number=Sing	4	_	_	start_char=175|end_char=180
+6	to	to	PART	TO	_	5	_	_	start_char=181|end_char=183
+7	come	come	VERB	VB	VerbForm=Inf	6	_	_	start_char=184|end_char=188|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=188|end_char=189
+9	too	too	ADV	RB	_	8	_	_	start_char=190|end_char=193|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=193|end_char=194
+
+# text = OR
+# sent_id = 39511
+1	OR	or	CCONJ	CC	_	0	_	_	start_char=195|end_char=197
+
+# text = Is she ok with threesomes (not for amateurs).
+# sent_id = 39512
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=198|end_char=200
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=201|end_char=204
+3	ok	ok	ADJ	JJ	Degree=Pos	2	_	_	start_char=205|end_char=207
+4	with	with	ADP	IN	_	3	_	_	start_char=208|end_char=212
+5	threesomes	threesome	NOUN	NNS	Number=Plur	4	_	_	start_char=213|end_char=223
+6	(	(	PUNCT	-LRB-	_	5	_	_	start_char=224|end_char=225|SpaceAfter=No
+7	not	not	PART	RB	_	6	_	_	start_char=225|end_char=228
+8	for	for	ADP	IN	_	7	_	_	start_char=229|end_char=232
+9	amateurs	amateur	NOUN	NNS	Number=Plur	8	_	_	start_char=233|end_char=241|SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	_	_	start_char=241|end_char=242|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=242|end_char=243|SpaceAfter=No
+

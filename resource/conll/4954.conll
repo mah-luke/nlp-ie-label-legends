@@ -1,0 +1,38 @@
+# text = For sure.
+# sent_id = 10485
+1	For	for	ADP	IN	_	0	_	_	start_char=0|end_char=3
+2	sure	sure	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=8|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=8|end_char=9
+
+# text = I need to keep it up and this was a great start!
+# sent_id = 10486
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=10|end_char=11
+2	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=12|end_char=16
+3	to	to	PART	TO	_	2	_	_	start_char=17|end_char=19
+4	keep	keep	VERB	VB	VerbForm=Inf	3	_	_	start_char=20|end_char=24
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=25|end_char=27
+6	up	up	ADP	RP	_	5	_	_	start_char=28|end_char=30
+7	and	and	CCONJ	CC	_	6	_	_	start_char=31|end_char=34
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=35|end_char=39
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=40|end_char=43
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=44|end_char=45
+11	great	great	ADJ	JJ	Degree=Pos	10	_	_	start_char=46|end_char=51
+12	start	start	NOUN	NN	Number=Sing	11	_	_	start_char=52|end_char=57|SpaceAfter=No
+13	!	!	PUNCT	.	_	12	_	_	start_char=57|end_char=58
+
+# text = I need to work on not getting hung up on a girl though
+# sent_id = 10487
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=59|end_char=60
+2	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=61|end_char=65
+3	to	to	PART	TO	_	2	_	_	start_char=66|end_char=68
+4	work	work	VERB	VB	VerbForm=Inf	3	_	_	start_char=69|end_char=73
+5	on	on	SCONJ	IN	_	4	_	_	start_char=74|end_char=76
+6	not	not	PART	RB	_	5	_	_	start_char=77|end_char=80
+7	getting	get	AUX	VBG	VerbForm=Ger	6	_	_	start_char=81|end_char=88
+8	hung	hang	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=89|end_char=93
+9	up	up	ADP	RP	_	8	_	_	start_char=94|end_char=96
+10	on	on	ADP	IN	_	9	_	_	start_char=97|end_char=99
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=100|end_char=101
+12	girl	girl	NOUN	NN	Number=Sing	11	_	_	start_char=102|end_char=106
+13	though	though	ADV	RB	_	12	_	_	start_char=107|end_char=113|SpaceAfter=No
+

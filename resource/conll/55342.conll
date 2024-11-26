@@ -1,0 +1,28 @@
+# text = Fine, we'll ship 'em to Paris, though Ms. Le Pen might take exception to that after she takes office...heh
+# sent_id = 118228
+1	Fine	Fine	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3-4	we'll	_	_	_	_	_	_	_	start_char=6|end_char=11
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=8
+4	'll	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=8|end_char=11
+5	ship	ship	VERB	VB	VerbForm=Inf	4	_	_	start_char=12|end_char=16
+6	'em	they	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs	5	_	_	start_char=17|end_char=20
+7	to	to	ADP	IN	_	6	_	_	start_char=21|end_char=23
+8	Paris	Paris	PROPN	NNP	Number=Sing	7	_	_	start_char=24|end_char=29|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=29|end_char=30
+10	though	though	SCONJ	IN	_	9	_	_	start_char=31|end_char=37
+11	Ms.	Ms.	PROPN	NNP	Number=Sing	10	_	_	start_char=38|end_char=41
+12	Le	Le	PROPN	NNP	Number=Sing	11	_	_	start_char=42|end_char=44
+13	Pen	Pen	PROPN	NNP	Number=Sing	12	_	_	start_char=45|end_char=48
+14	might	might	AUX	MD	VerbForm=Fin	13	_	_	start_char=49|end_char=54
+15	take	take	VERB	VB	VerbForm=Inf	14	_	_	start_char=55|end_char=59
+16	exception	exception	NOUN	NN	Number=Sing	15	_	_	start_char=60|end_char=69
+17	to	to	ADP	IN	_	16	_	_	start_char=70|end_char=72
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	17	_	_	start_char=73|end_char=77
+19	after	after	SCONJ	IN	_	18	_	_	start_char=78|end_char=83
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=84|end_char=87
+21	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=88|end_char=93
+22	office	office	NOUN	NN	Number=Sing	21	_	_	start_char=94|end_char=100|SpaceAfter=No
+23	...	...	PUNCT	,	_	22	_	_	start_char=100|end_char=103|SpaceAfter=No
+24	heh	heh	INTJ	UH	_	23	_	_	start_char=103|end_char=106|SpaceAfter=No
+

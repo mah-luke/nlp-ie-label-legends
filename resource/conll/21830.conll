@@ -1,0 +1,51 @@
+# text = Well, if they're American, it shouldn't be any different from any other group of girls.
+# sent_id = 46861
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	if	if	SCONJ	IN	_	2	_	_	start_char=6|end_char=8
+4-5	they're	_	_	_	_	_	_	_	start_char=9|end_char=16
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=9|end_char=13
+5	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=13|end_char=16
+6	American	American	ADJ	JJ	Degree=Pos	5	_	_	start_char=17|end_char=25|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=25|end_char=26
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=27|end_char=29
+9-10	shouldn't	_	_	_	_	_	_	_	start_char=30|end_char=39
+9	should	should	AUX	MD	VerbForm=Fin	8	_	_	start_char=30|end_char=36
+10	n't	not	PART	RB	_	9	_	_	start_char=36|end_char=39
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=40|end_char=42
+12	any	any	DET	DT	_	11	_	_	start_char=43|end_char=46
+13	different	different	ADJ	JJ	Degree=Pos	12	_	_	start_char=47|end_char=56
+14	from	from	ADP	IN	_	13	_	_	start_char=57|end_char=61
+15	any	any	DET	DT	_	14	_	_	start_char=62|end_char=65
+16	other	other	ADJ	JJ	Degree=Pos	15	_	_	start_char=66|end_char=71
+17	group	group	NOUN	NN	Number=Sing	16	_	_	start_char=72|end_char=77
+18	of	of	ADP	IN	_	17	_	_	start_char=78|end_char=80
+19	girls	girl	NOUN	NNS	Number=Plur	18	_	_	start_char=81|end_char=86|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=86|end_char=87
+
+# text = Unsure if naive, sarcastic or just plane ign'ant because that claim is absolutely ridiculous (especially if you are American).
+# sent_id = 46862
+1	Unsure	unsure	ADV	RB	_	0	_	_	start_char=88|end_char=94
+2	if	if	SCONJ	IN	_	1	_	_	start_char=95|end_char=97
+3	naive	naive	ADJ	JJ	Degree=Pos	2	_	_	start_char=98|end_char=103|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=103|end_char=104
+5	sarcastic	sarcastic	ADJ	JJ	Degree=Pos	4	_	_	start_char=105|end_char=114
+6	or	or	CCONJ	CC	_	5	_	_	start_char=115|end_char=117
+7	just	just	ADV	RB	_	6	_	_	start_char=118|end_char=122
+8	plane	plane	NOUN	NN	Number=Sing	7	_	_	start_char=123|end_char=128
+9	ign'ant	ign'ant	NOUN	NN	Number=Sing	8	_	_	start_char=129|end_char=136
+10	because	because	SCONJ	IN	_	9	_	_	start_char=137|end_char=144
+11	that	that	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=145|end_char=149
+12	claim	claim	NOUN	NN	Number=Sing	11	_	_	start_char=150|end_char=155
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=156|end_char=158
+14	absolutely	absolutely	ADV	RB	_	13	_	_	start_char=159|end_char=169
+15	ridiculous	ridiculous	ADJ	JJ	Degree=Pos	14	_	_	start_char=170|end_char=180
+16	(	(	PUNCT	-LRB-	_	15	_	_	start_char=181|end_char=182|SpaceAfter=No
+17	especially	especially	ADV	RB	_	16	_	_	start_char=182|end_char=192
+18	if	if	SCONJ	IN	_	17	_	_	start_char=193|end_char=195
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	_	_	start_char=196|end_char=199
+20	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	_	_	start_char=200|end_char=203
+21	American	American	ADJ	JJ	Degree=Pos	20	_	_	start_char=204|end_char=212|SpaceAfter=No
+22	)	)	PUNCT	-RRB-	_	21	_	_	start_char=212|end_char=213|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=213|end_char=214|SpaceAfter=No
+

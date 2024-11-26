@@ -1,0 +1,63 @@
+# text = It's a double-edged sword.
+# sent_id = 107641
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=5|end_char=6
+4	double	double	ADJ	JJ	Degree=Pos	3	_	_	start_char=7|end_char=13|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	_	_	start_char=13|end_char=14|SpaceAfter=No
+6	edged	edged	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=14|end_char=19
+7	sword	sword	NOUN	NN	Number=Sing	6	_	_	start_char=20|end_char=25|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=25|end_char=26
+
+# text = You give a fuck about women, they don't care, you stop giving a fuck about women, they suddenly care, and now that you have their attention, you give a fuck about women, but then they don't care etc
+# sent_id = 107642
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=27|end_char=30
+2	give	give	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=35
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=36|end_char=37
+4	fuck	fuck	NOUN	NN	Number=Sing	3	_	_	start_char=38|end_char=42
+5	about	about	ADP	IN	_	4	_	_	start_char=43|end_char=48
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=49|end_char=54|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=54|end_char=55
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=56|end_char=60
+9-10	don't	_	_	_	_	_	_	_	start_char=61|end_char=66
+9	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=61|end_char=63
+10	n't	not	PART	RB	_	9	_	_	start_char=63|end_char=66
+11	care	care	VERB	VB	VerbForm=Inf	10	_	_	start_char=67|end_char=71|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=71|end_char=72
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=73|end_char=76
+14	stop	stop	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	_	_	start_char=77|end_char=81
+15	giving	give	VERB	VBG	VerbForm=Ger	14	_	_	start_char=82|end_char=88
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=89|end_char=90
+17	fuck	fuck	NOUN	NN	Number=Sing	16	_	_	start_char=91|end_char=95
+18	about	about	ADP	IN	_	17	_	_	start_char=96|end_char=101
+19	women	woman	NOUN	NNS	Number=Plur	18	_	_	start_char=102|end_char=107|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=107|end_char=108
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	_	_	start_char=109|end_char=113
+22	suddenly	suddenly	ADV	RB	_	21	_	_	start_char=114|end_char=122
+23	care	care	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=123|end_char=127|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	_	_	start_char=127|end_char=128
+25	and	and	CCONJ	CC	_	24	_	_	start_char=129|end_char=132
+26	now	now	ADV	RB	_	25	_	_	start_char=133|end_char=136
+27	that	that	SCONJ	IN	_	26	_	_	start_char=137|end_char=141
+28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	_	_	start_char=142|end_char=145
+29	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	28	_	_	start_char=146|end_char=150
+30	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	29	_	_	start_char=151|end_char=156
+31	attention	attention	NOUN	NN	Number=Sing	30	_	_	start_char=157|end_char=166|SpaceAfter=No
+32	,	,	PUNCT	,	_	31	_	_	start_char=166|end_char=167
+33	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	_	_	start_char=168|end_char=171
+34	give	give	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	33	_	_	start_char=172|end_char=176
+35	a	a	DET	DT	Definite=Ind|PronType=Art	34	_	_	start_char=177|end_char=178
+36	fuck	fuck	NOUN	NN	Number=Sing	35	_	_	start_char=179|end_char=183
+37	about	about	ADP	IN	_	36	_	_	start_char=184|end_char=189
+38	women	woman	NOUN	NNS	Number=Plur	37	_	_	start_char=190|end_char=195|SpaceAfter=No
+39	,	,	PUNCT	,	_	38	_	_	start_char=195|end_char=196
+40	but	but	CCONJ	CC	_	39	_	_	start_char=197|end_char=200
+41	then	then	ADV	RB	PronType=Dem	40	_	_	start_char=201|end_char=205
+42	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	41	_	_	start_char=206|end_char=210
+43-44	don't	_	_	_	_	_	_	_	start_char=211|end_char=216
+43	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	42	_	_	start_char=211|end_char=213
+44	n't	not	PART	RB	_	43	_	_	start_char=213|end_char=216
+45	care	care	VERB	VB	VerbForm=Inf	44	_	_	start_char=217|end_char=221
+46	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	45	_	_	start_char=222|end_char=225|SpaceAfter=No
+

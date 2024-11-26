@@ -1,0 +1,58 @@
+# text = You're wrong.
+# sent_id = 99606
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	wrong	wrong	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=12|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=12|end_char=13
+
+# text = The only thing that matters is being cared for and loved, and shown affection by someone you have developed an extreme oneitis for.
+# sent_id = 99607
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=14|end_char=17
+2	only	only	ADJ	JJ	Degree=Pos	1	_	_	start_char=18|end_char=22
+3	thing	thing	NOUN	NN	Number=Sing	2	_	_	start_char=23|end_char=28
+4	that	that	PRON	WDT	PronType=Rel	3	_	_	start_char=29|end_char=33
+5	matters	matter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=34|end_char=41
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=42|end_char=44
+7	being	be	AUX	VBG	VerbForm=Ger	6	_	_	start_char=45|end_char=50
+8	cared	care	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=51|end_char=56
+9	for	for	ADP	IN	_	8	_	_	start_char=57|end_char=60
+10	and	and	CCONJ	CC	_	9	_	_	start_char=61|end_char=64
+11	loved	love	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=65|end_char=70|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=70|end_char=71
+13	and	and	CCONJ	CC	_	12	_	_	start_char=72|end_char=75
+14	shown	show	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=76|end_char=81
+15	affection	affection	NOUN	NN	Number=Sing	14	_	_	start_char=82|end_char=91
+16	by	by	ADP	IN	_	15	_	_	start_char=92|end_char=94
+17	someone	someone	PRON	NN	Number=Sing|PronType=Ind	16	_	_	start_char=95|end_char=102
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	_	_	start_char=103|end_char=106
+19	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	_	_	start_char=107|end_char=111
+20	developed	develop	VERB	VBN	Tense=Past|VerbForm=Part	19	_	_	start_char=112|end_char=121
+21	an	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=122|end_char=124
+22	extreme	extreme	ADJ	JJ	Degree=Pos	21	_	_	start_char=125|end_char=132
+23	oneitis	oneitis	NOUN	NN	Number=Sing	22	_	_	start_char=133|end_char=140
+24	for	for	ADP	IN	_	23	_	_	start_char=141|end_char=144|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=144|end_char=145
+
+# text = A career means nothing when a 6'5 homeless chad can take your girl in an instant.
+# sent_id = 99608
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=146|end_char=147
+2	career	career	NOUN	NN	Number=Sing	1	_	_	start_char=148|end_char=154
+3	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=155|end_char=160
+4	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	3	_	_	start_char=161|end_char=168
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=169|end_char=173
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=174|end_char=175
+7	6	6	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=176|end_char=177|SpaceAfter=No
+8	'	'	NOUN	NNS	Number=Plur	7	_	_	start_char=177|end_char=178|SpaceAfter=No
+9	5	5	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=178|end_char=179
+10	homeless	homeless	ADJ	JJ	Degree=Pos	9	_	_	start_char=180|end_char=188
+11	chad	chad	NOUN	NN	Number=Sing	10	_	_	start_char=189|end_char=193
+12	can	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=194|end_char=197
+13	take	take	VERB	VB	VerbForm=Inf	12	_	_	start_char=198|end_char=202
+14	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	13	_	_	start_char=203|end_char=207
+15	girl	girl	NOUN	NN	Number=Sing	14	_	_	start_char=208|end_char=212
+16	in	in	ADP	IN	_	15	_	_	start_char=213|end_char=215
+17	an	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=216|end_char=218
+18	instant	instant	NOUN	NN	Number=Sing	17	_	_	start_char=219|end_char=226|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=226|end_char=227|SpaceAfter=No
+

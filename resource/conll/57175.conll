@@ -1,0 +1,57 @@
+# text = Once a sleaze, always a sleaze!
+# sent_id = 122174
+1	Once	once	ADV	RB	NumType=Mult	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	sleaze	sleaze	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=13|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=13|end_char=14
+5	always	always	ADV	RB	_	4	_	_	start_char=15|end_char=21
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=22|end_char=23
+7	sleaze	sleaze	NOUN	NN	Number=Sing	6	_	_	start_char=24|end_char=30|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=30|end_char=31
+
+# text = Bill Clinton insists he doesn't owe Monica Lewinsky an apology for hijacking her life by taking advantage of her while president – and says HE'S a victim because he left the White House deeply in debt [URL]
+# sent_id = 122175
+1	Bill	Bill	PROPN	NNP	Number=Sing	0	_	_	start_char=32|end_char=36
+2	Clinton	Clinton	PROPN	NNP	Number=Sing	1	_	_	start_char=37|end_char=44
+3	insists	insist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=45|end_char=52
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=53|end_char=55
+5-6	doesn't	_	_	_	_	_	_	_	start_char=56|end_char=63
+5	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=56|end_char=60
+6	n't	not	PART	RB	_	5	_	_	start_char=60|end_char=63
+7	owe	owe	VERB	VB	VerbForm=Inf	6	_	_	start_char=64|end_char=67
+8	Monica	Monica	PROPN	NNP	Number=Sing	7	_	_	start_char=68|end_char=74
+9	Lewinsky	Lewinsky	PROPN	NNP	Number=Sing	8	_	_	start_char=75|end_char=83
+10	an	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=84|end_char=86
+11	apology	apology	NOUN	NN	Number=Sing	10	_	_	start_char=87|end_char=94
+12	for	for	SCONJ	IN	_	11	_	_	start_char=95|end_char=98
+13	hijacking	hijack	VERB	VBG	VerbForm=Ger	12	_	_	start_char=99|end_char=108
+14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=109|end_char=112
+15	life	life	NOUN	NN	Number=Sing	14	_	_	start_char=113|end_char=117
+16	by	by	SCONJ	IN	_	15	_	_	start_char=118|end_char=120
+17	taking	take	VERB	VBG	VerbForm=Ger	16	_	_	start_char=121|end_char=127
+18	advantage	advantage	NOUN	NN	Number=Sing	17	_	_	start_char=128|end_char=137
+19	of	of	ADP	IN	_	18	_	_	start_char=138|end_char=140
+20	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=141|end_char=144
+21	while	while	SCONJ	IN	_	20	_	_	start_char=145|end_char=150
+22	president	president	NOUN	NN	Number=Sing	21	_	_	start_char=151|end_char=160
+23	–	-	PUNCT	:	_	22	_	_	start_char=161|end_char=162
+24	and	and	CCONJ	CC	_	23	_	_	start_char=163|end_char=166
+25	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	_	_	start_char=167|end_char=171
+26-27	HE'S	_	_	_	_	_	_	_	start_char=172|end_char=176
+26	HE	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	_	_	start_char=172|end_char=174
+27	'S	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	_	_	start_char=174|end_char=176
+28	a	a	DET	DT	Definite=Ind|PronType=Art	27	_	_	start_char=177|end_char=178
+29	victim	victim	NOUN	NN	Number=Sing	28	_	_	start_char=179|end_char=185
+30	because	because	SCONJ	IN	_	29	_	_	start_char=186|end_char=193
+31	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	30	_	_	start_char=194|end_char=196
+32	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	_	_	start_char=197|end_char=201
+33	the	the	DET	DT	Definite=Def|PronType=Art	32	_	_	start_char=202|end_char=205
+34	White	White	ADJ	NNP	Degree=Pos	33	_	_	start_char=206|end_char=211
+35	House	House	PROPN	NNP	Number=Sing	34	_	_	start_char=212|end_char=217
+36	deeply	deeply	ADV	RB	_	35	_	_	start_char=218|end_char=224
+37	in	in	ADP	IN	_	36	_	_	start_char=225|end_char=227
+38	debt	debt	NOUN	NN	Number=Sing	37	_	_	start_char=228|end_char=232
+39	[	[	PUNCT	-LRB-	_	38	_	_	start_char=233|end_char=234|SpaceAfter=No
+40	URL	URL	PROPN	NNP	Number=Sing	39	_	_	start_char=234|end_char=237|SpaceAfter=No
+41	]	]	PUNCT	-RRB-	_	40	_	_	start_char=237|end_char=238|SpaceAfter=No
+

@@ -1,0 +1,78 @@
+# text = I saw a four year old girl sat on her own today.
+# sent_id = 19203
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=6|end_char=7
+4	four	four	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=8|end_char=12
+5	year	year	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=17
+6	old	old	ADJ	JJ	Degree=Pos	5	_	_	start_char=18|end_char=21
+7	girl	girl	NOUN	NN	Number=Sing	6	_	_	start_char=22|end_char=26
+8	sat	sit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=27|end_char=30
+9	on	on	ADP	IN	_	8	_	_	start_char=31|end_char=33
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=34|end_char=37
+11	own	own	ADJ	JJ	Degree=Pos	10	_	_	start_char=38|end_char=41
+12	today	today	NOUN	NN	Number=Sing	11	_	_	start_char=42|end_char=47|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=47|end_char=48
+
+# text = No signs of anyone near.
+# sent_id = 19204
+1	No	no	DET	DT	_	0	_	_	start_char=49|end_char=51
+2	signs	sign	NOUN	NNS	Number=Plur	1	_	_	start_char=52|end_char=57
+3	of	of	ADP	IN	_	2	_	_	start_char=58|end_char=60
+4	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=61|end_char=67
+5	near	near	ADV	RB	_	4	_	_	start_char=68|end_char=72|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=72|end_char=73
+
+# text = "Are you okay?" I said to her.
+# sent_id = 19205
+1	"	"	PUNCT	``	_	0	_	_	start_char=74|end_char=75|SpaceAfter=No
+2	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=75|end_char=78
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=79|end_char=82
+4	okay	okay	ADJ	JJ	Degree=Pos	3	_	_	start_char=83|end_char=87|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=87|end_char=88|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=88|end_char=89
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=90|end_char=91
+8	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	_	_	start_char=92|end_char=96
+9	to	to	ADP	IN	_	8	_	_	start_char=97|end_char=99
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=100|end_char=103|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=103|end_char=104
+
+# text = "Do you know where your Mummy or Daddy is?"
+# sent_id = 19206
+1	"	"	PUNCT	``	_	0	_	_	start_char=105|end_char=106|SpaceAfter=No
+2	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=106|end_char=108
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=109|end_char=112
+4	know	know	VERB	VB	VerbForm=Inf	3	_	_	start_char=113|end_char=117
+5	where	where	ADV	WRB	PronType=Int	4	_	_	start_char=118|end_char=123
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=124|end_char=128
+7	Mummy	mummy	NOUN	NN	Number=Sing	6	_	_	start_char=129|end_char=134
+8	or	or	CCONJ	CC	_	7	_	_	start_char=135|end_char=137
+9	Daddy	Daddy	PROPN	NNP	Number=Sing	8	_	_	start_char=138|end_char=143
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=144|end_char=146|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=146|end_char=147|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=147|end_char=148
+
+# text = "No," she sobbed.
+# sent_id = 19207
+1	"	"	PUNCT	``	_	0	_	_	start_char=149|end_char=150|SpaceAfter=No
+2	No	no	INTJ	UH	Polarity=Neg	1	_	_	start_char=150|end_char=152|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=152|end_char=153|SpaceAfter=No
+4	"	"	PUNCT	''	_	3	_	_	start_char=153|end_char=154
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=155|end_char=158
+6	sobbed	sobb	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=159|end_char=165|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=165|end_char=166
+
+# text = We know how to have a laugh at the orphanage.
+# sent_id = 19208
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=167|end_char=169
+2	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=170|end_char=174
+3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=175|end_char=178
+4	to	to	PART	TO	_	3	_	_	start_char=179|end_char=181
+5	have	have	VERB	VB	VerbForm=Inf	4	_	_	start_char=182|end_char=186
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=187|end_char=188
+7	laugh	laugh	NOUN	NN	Number=Sing	6	_	_	start_char=189|end_char=194
+8	at	at	ADP	IN	_	7	_	_	start_char=195|end_char=197
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=198|end_char=201
+10	orphanage	orphanage	NOUN	NN	Number=Sing	9	_	_	start_char=202|end_char=211|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=211|end_char=212|SpaceAfter=No
+

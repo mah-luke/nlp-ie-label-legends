@@ -1,0 +1,83 @@
+# text = Ok?
+# sent_id = 17592
+1	Ok	ok	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=2|end_char=3
+
+# text = So do you want to see him again?
+# sent_id = 17593
+1	So	so	ADV	RB	_	0	_	_	start_char=4|end_char=6
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7|end_char=9
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=10|end_char=13
+4	want	want	VERB	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=18
+5	to	to	PART	TO	_	4	_	_	start_char=19|end_char=21
+6	see	see	VERB	VB	VerbForm=Inf	5	_	_	start_char=22|end_char=25
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=26|end_char=29
+8	again	again	ADV	RB	_	7	_	_	start_char=30|end_char=35|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = If so, ask him out to coffee or something.
+# sent_id = 17594
+1	If	if	SCONJ	IN	_	0	_	_	start_char=37|end_char=39
+2	so	so	ADV	RB	_	1	_	_	start_char=40|end_char=42|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=42|end_char=43
+4	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=44|end_char=47
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=48|end_char=51
+6	out	out	ADP	RP	_	5	_	_	start_char=52|end_char=55
+7	to	to	ADP	IN	_	6	_	_	start_char=56|end_char=58
+8	coffee	coffee	NOUN	NN	Number=Sing	7	_	_	start_char=59|end_char=65
+9	or	or	CCONJ	CC	_	8	_	_	start_char=66|end_char=68
+10	something	something	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=69|end_char=78|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=78|end_char=79
+
+# text = Maybe he has a girlfriend.
+# sent_id = 17595
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=80|end_char=85
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=86|end_char=88
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=89|end_char=92
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=93|end_char=94
+5	girlfriend	girlfriend	NOUN	NN	Number=Sing	4	_	_	start_char=95|end_char=105|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=105|end_char=106
+
+# text = Maybe he’s gay.
+# sent_id = 17596
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=107|end_char=112
+2-3	he’s	_	_	_	_	_	_	_	start_char=113|end_char=117
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=113|end_char=115
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=115|end_char=117
+4	gay	gay	ADJ	JJ	Degree=Pos	3	_	_	start_char=118|end_char=121|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=121|end_char=122
+
+# text = Maybe he thought you were hot and is shy.
+# sent_id = 17597
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=123|end_char=128
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=129|end_char=131
+3	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=132|end_char=139
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=140|end_char=143
+5	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	4	_	_	start_char=144|end_char=148
+6	hot	hot	ADJ	JJ	Degree=Pos	5	_	_	start_char=149|end_char=152
+7	and	and	CCONJ	CC	_	6	_	_	start_char=153|end_char=156
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=157|end_char=159
+9	shy	shy	ADJ	JJ	Degree=Pos	8	_	_	start_char=160|end_char=163|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=163|end_char=164
+
+# text = Who knows.
+# sent_id = 17598
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=165|end_char=168
+2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=169|end_char=174|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=174|end_char=175
+
+# text = Contact him and ask him out and you’ll know.
+# sent_id = 17599
+1	Contact	contact	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=176|end_char=183
+2	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=184|end_char=187
+3	and	and	CCONJ	CC	_	2	_	_	start_char=188|end_char=191
+4	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=192|end_char=195
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=196|end_char=199
+6	out	out	ADP	RP	_	5	_	_	start_char=200|end_char=203
+7	and	and	CCONJ	CC	_	6	_	_	start_char=204|end_char=207
+8-9	you’ll	_	_	_	_	_	_	_	start_char=208|end_char=214
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=208|end_char=211
+9	’ll	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=211|end_char=214
+10	know	know	VERB	VB	VerbForm=Inf	9	_	_	start_char=215|end_char=219|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=219|end_char=220|SpaceAfter=No
+

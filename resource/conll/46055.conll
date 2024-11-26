@@ -1,0 +1,19 @@
+# text = She's a female in 2019.
+# sent_id = 98392
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=6|end_char=7
+4	female	female	NOUN	NN	Number=Sing	3	_	_	start_char=8|end_char=14
+5	in	in	ADP	IN	_	4	_	_	start_char=15|end_char=17
+6	2019	2019	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=18|end_char=22|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=22|end_char=23
+
+# text = She is high value.
+# sent_id = 98393
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=24|end_char=27
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=28|end_char=30
+3	high	high	ADJ	JJ	Degree=Pos	2	_	_	start_char=31|end_char=35
+4	value	value	NOUN	NN	Number=Sing	3	_	_	start_char=36|end_char=41|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=41|end_char=42|SpaceAfter=No
+

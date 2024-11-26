@@ -1,0 +1,23 @@
+# text = Nah mate.
+# sent_id = 8145
+1	Nah	nah	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	mate	mate	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=4|end_char=8|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=8|end_char=9
+
+# text = My girl doesn’t touch my money, that’s mine.
+# sent_id = 8146
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=10|end_char=12
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=13|end_char=17
+3-4	doesn’t	_	_	_	_	_	_	_	start_char=18|end_char=25
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=18|end_char=22
+4	n’t	not	PART	RB	_	3	_	_	start_char=22|end_char=25
+5	touch	touch	VERB	VB	VerbForm=Inf	4	_	_	start_char=26|end_char=31
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=32|end_char=34
+7	money	money	NOUN	NN	Number=Sing	6	_	_	start_char=35|end_char=40|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=40|end_char=41
+9-10	that’s	_	_	_	_	_	_	_	start_char=42|end_char=48
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=42|end_char=46
+10	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=46|end_char=48
+11	mine	mine	PRON	PRP	Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=49|end_char=53|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=53|end_char=54|SpaceAfter=No
+

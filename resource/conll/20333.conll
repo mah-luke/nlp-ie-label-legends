@@ -1,0 +1,38 @@
+# text = From a girl - this is SOLID AS.
+# sent_id = 43644
+1	From	from	ADP	IN	_	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	girl	girl	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=11
+4	-	-	PUNCT	,	_	3	_	_	start_char=12|end_char=13
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=14|end_char=18
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=19|end_char=21
+7	SOLID	solid	ADJ	JJ	Degree=Pos	6	_	_	start_char=22|end_char=27
+8	AS	as	ADV	RB	_	7	_	_	start_char=28|end_char=30|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=30|end_char=31
+
+# text = Recently had a guy who did most of this soooo well...
+# sent_id = 43645
+1	Recently	recently	ADV	RB	_	0	_	_	start_char=32|end_char=40
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=41|end_char=44
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=45|end_char=46
+4	guy	guy	NOUN	NN	Number=Sing	3	_	_	start_char=47|end_char=50
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=51|end_char=54
+6	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=55|end_char=58
+7	most	most	ADJ	JJS	Degree=Sup	6	_	_	start_char=59|end_char=63
+8	of	of	ADP	IN	_	7	_	_	start_char=64|end_char=66
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=67|end_char=71
+10	soooo	soooo	ADV	RB	_	9	_	_	start_char=72|end_char=77
+11	well	well	ADV	RB	Degree=Pos	10	_	_	start_char=78|end_char=82|SpaceAfter=No
+12	...	...	PUNCT	.	_	11	_	_	start_char=82|end_char=85
+
+# text = But he recently got a new gf damnit
+# sent_id = 43646
+1	But	but	CCONJ	CC	_	0	_	_	start_char=86|end_char=89
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=90|end_char=92
+3	recently	recently	ADV	RB	_	2	_	_	start_char=93|end_char=101
+4	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=102|end_char=105
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=106|end_char=107
+6	new	new	ADJ	JJ	Degree=Pos	5	_	_	start_char=108|end_char=111
+7	gf	gf	NOUN	NN	Number=Sing	6	_	_	start_char=112|end_char=114
+8	damnit	damnit	NOUN	NN	Number=Sing	7	_	_	start_char=115|end_char=121|SpaceAfter=No
+

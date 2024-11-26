@@ -1,0 +1,55 @@
+# text = Every Black kid I knew in Detroit came from a family.
+# sent_id = 98860
+1	Every	every	DET	DT	_	0	_	_	start_char=0|end_char=5
+2	Black	Black	ADJ	JJ	Degree=Pos	1	_	_	start_char=6|end_char=11
+3	kid	kid	NOUN	NN	Number=Sing	2	_	_	start_char=12|end_char=15
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=16|end_char=17
+5	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=18|end_char=22
+6	in	in	ADP	IN	_	5	_	_	start_char=23|end_char=25
+7	Detroit	Detroit	PROPN	NNP	Number=Sing	6	_	_	start_char=26|end_char=33
+8	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=34|end_char=38
+9	from	from	ADP	IN	_	8	_	_	start_char=39|end_char=43
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=44|end_char=45
+11	family	family	NOUN	NN	Number=Sing	10	_	_	start_char=46|end_char=52|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=52|end_char=53
+
+# text = I was a poor White kid from a broken home.
+# sent_id = 98861
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=54|end_char=55
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=56|end_char=59
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=60|end_char=61
+4	poor	poor	ADJ	JJ	Degree=Pos	3	_	_	start_char=62|end_char=66
+5	White	White	ADJ	JJ	Degree=Pos	4	_	_	start_char=67|end_char=72
+6	kid	kid	NOUN	NN	Number=Sing	5	_	_	start_char=73|end_char=76
+7	from	from	ADP	IN	_	6	_	_	start_char=77|end_char=81
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=82|end_char=83
+9	broken	break	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=84|end_char=90
+10	home	home	NOUN	NN	Number=Sing	9	_	_	start_char=91|end_char=95|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=95|end_char=96
+
+# text = My mother was an OG “Me First” Man Hater and my dad was a communist.
+# sent_id = 98862
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=97|end_char=99
+2	mother	mother	NOUN	NN	Number=Sing	1	_	_	start_char=100|end_char=106
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=107|end_char=110
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=111|end_char=113
+5	OG	og	NOUN	NN	Number=Sing	4	_	_	start_char=114|end_char=116
+6	“	''	PUNCT	``	_	5	_	_	start_char=117|end_char=118|SpaceAfter=No
+7	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=118|end_char=120
+8	First	first	ADJ	NNP	Degree=Pos|NumType=Ord	7	_	_	start_char=121|end_char=126|SpaceAfter=No
+9	”	''	PUNCT	''	_	8	_	_	start_char=126|end_char=127
+10	Man	Man	PROPN	NNP	Number=Sing	9	_	_	start_char=128|end_char=131
+11	Hater	Hater	PROPN	NNP	Number=Sing	10	_	_	start_char=132|end_char=137
+12	and	and	CCONJ	CC	_	11	_	_	start_char=138|end_char=141
+13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	_	_	start_char=142|end_char=144
+14	dad	dad	NOUN	NN	Number=Sing	13	_	_	start_char=145|end_char=148
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=149|end_char=152
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=153|end_char=154
+17	communist	communist	NOUN	NN	Number=Sing	16	_	_	start_char=155|end_char=164|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=164|end_char=165
+
+# text = 1985.
+# sent_id = 98863
+1	1985	1985	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=166|end_char=170|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=170|end_char=171|SpaceAfter=No
+

@@ -1,0 +1,27 @@
+# text = Id tell her I feel wierd about it and id prefer she don't go.
+# sent_id = 80052
+1	Id	id	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=2
+2	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=3|end_char=7
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=8|end_char=11
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=12|end_char=13
+5	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=14|end_char=18
+6	wierd	weird	ADJ	JJ	Degree=Pos	5	_	_	start_char=19|end_char=24
+7	about	about	ADP	IN	_	6	_	_	start_char=25|end_char=30
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=31|end_char=33
+9	and	and	CCONJ	CC	_	8	_	_	start_char=34|end_char=37
+10	id	id	NOUN	NN	Number=Sing	9	_	_	start_char=38|end_char=40
+11	prefer	prefer	VERB	VB	VerbForm=Inf	10	_	_	start_char=41|end_char=47
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=48|end_char=51
+13-14	don't	_	_	_	_	_	_	_	start_char=52|end_char=57
+13	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=52|end_char=54
+14	n't	not	PART	RB	_	13	_	_	start_char=54|end_char=57
+15	go	go	VERB	VB	VerbForm=Inf	14	_	_	start_char=58|end_char=60|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=60|end_char=61
+
+# text = Its fucking wierd dude
+# sent_id = 80053
+1	Its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=62|end_char=65
+2	fucking	fuck	ADJ	JJ	Degree=Pos	1	_	_	start_char=66|end_char=73
+3	wierd	weird	ADJ	JJ	Degree=Pos	2	_	_	start_char=74|end_char=79
+4	dude	dude	NOUN	NN	Number=Sing	3	_	_	start_char=80|end_char=84|SpaceAfter=No
+

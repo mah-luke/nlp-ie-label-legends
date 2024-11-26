@@ -1,0 +1,32 @@
+# text = [USER]
+# sent_id = 78693
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Idk, maybe it won't even hurt at this point.
+# sent_id = 78694
+1	Idk	idk	INTJ	UH	_	0	_	_	start_char=7|end_char=10|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=10|end_char=11
+3	maybe	maybe	ADV	RB	_	2	_	_	start_char=12|end_char=17
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=18|end_char=20
+5-6	won't	_	_	_	_	_	_	_	start_char=21|end_char=26
+5	wo	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=21|end_char=23
+6	n't	not	PART	RB	_	5	_	_	start_char=23|end_char=26
+7	even	even	ADV	RB	_	6	_	_	start_char=27|end_char=31
+8	hurt	hurt	VERB	VB	VerbForm=Inf	7	_	_	start_char=32|end_char=36
+9	at	at	ADP	IN	_	8	_	_	start_char=37|end_char=39
+10	this	this	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=40|end_char=44
+11	point	point	NOUN	NN	Number=Sing	10	_	_	start_char=45|end_char=50|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=50|end_char=51
+
+# text = I am just afraid for my contracts
+# sent_id = 78695
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=52|end_char=53
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=54|end_char=56
+3	just	just	ADV	RB	_	2	_	_	start_char=57|end_char=61
+4	afraid	afraid	ADJ	JJ	Degree=Pos	3	_	_	start_char=62|end_char=68
+5	for	for	ADP	IN	_	4	_	_	start_char=69|end_char=72
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=73|end_char=75
+7	contracts	contract	NOUN	NNS	Number=Plur	6	_	_	start_char=76|end_char=85|SpaceAfter=No
+

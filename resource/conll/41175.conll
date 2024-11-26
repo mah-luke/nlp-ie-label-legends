@@ -1,0 +1,54 @@
+# text = Two years ago Julie Swetnik had massive debts
+# sent_id = 88110
+1	Two	two	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=0|end_char=3
+2	years	year	NOUN	NNS	Number=Plur	1	_	_	start_char=4|end_char=9
+3	ago	ago	ADV	RB	_	2	_	_	start_char=10|end_char=13
+4	Julie	Julie	PROPN	NNP	Number=Sing	3	_	_	start_char=14|end_char=19
+5	Swetnik	Swetnik	PROPN	NNP	Number=Sing	4	_	_	start_char=20|end_char=27
+6	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=28|end_char=31
+7	massive	massive	ADJ	JJ	Degree=Pos	6	_	_	start_char=32|end_char=39
+8	debts	debt	NOUN	NNS	Number=Plur	7	_	_	start_char=40|end_char=45
+
+# text = This year she’s living in CityCenter, one of the priciest complexes in DC Social media scrubbed Sweet fake victim Julie wouldn't do anything nefarious for the money, right?
+# sent_id = 88111
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=46|end_char=50
+2	year	year	NOUN	NN	Number=Sing	1	_	_	start_char=51|end_char=55
+3-4	she’s	_	_	_	_	_	_	_	start_char=56|end_char=61
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=56|end_char=59
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=59|end_char=61
+5	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=62|end_char=68
+6	in	in	ADP	IN	_	5	_	_	start_char=69|end_char=71
+7	CityCenter	CityCenter	PROPN	NNP	Number=Sing	6	_	_	start_char=72|end_char=82|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=82|end_char=83
+9	one	one	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=84|end_char=87
+10	of	of	ADP	IN	_	9	_	_	start_char=88|end_char=90
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=91|end_char=94
+12	priciest	pricy	ADJ	JJS	Degree=Sup	11	_	_	start_char=95|end_char=103
+13	complexes	complex	NOUN	NNS	Number=Plur	12	_	_	start_char=104|end_char=113
+14	in	in	ADP	IN	_	13	_	_	start_char=114|end_char=116
+15	DC	DC	PROPN	NNP	Number=Sing	14	_	_	start_char=117|end_char=119
+16	Social	Social	ADJ	JJ	Degree=Pos	15	_	_	start_char=120|end_char=126
+17	media	media	NOUN	NN	Number=Sing	16	_	_	start_char=127|end_char=132
+18	scrubbed	scrubb	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=133|end_char=141
+19	Sweet	Sweet	ADJ	JJ	Degree=Pos	18	_	_	start_char=142|end_char=147
+20	fake	fake	ADJ	JJ	Degree=Pos	19	_	_	start_char=148|end_char=152
+21	victim	victim	NOUN	NN	Number=Sing	20	_	_	start_char=153|end_char=159
+22	Julie	Julie	PROPN	NNP	Number=Sing	21	_	_	start_char=160|end_char=165
+23-24	wouldn't	_	_	_	_	_	_	_	start_char=166|end_char=174
+23	would	would	AUX	MD	VerbForm=Fin	22	_	_	start_char=166|end_char=171
+24	n't	not	PART	RB	_	23	_	_	start_char=171|end_char=174
+25	do	do	VERB	VB	VerbForm=Inf	24	_	_	start_char=175|end_char=177
+26	anything	anything	PRON	NN	Number=Sing|PronType=Ind	25	_	_	start_char=178|end_char=186
+27	nefarious	nefarious	ADJ	JJ	Degree=Pos	26	_	_	start_char=187|end_char=196
+28	for	for	ADP	IN	_	27	_	_	start_char=197|end_char=200
+29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	start_char=201|end_char=204
+30	money	money	NOUN	NN	Number=Sing	29	_	_	start_char=205|end_char=210|SpaceAfter=No
+31	,	,	PUNCT	,	_	30	_	_	start_char=210|end_char=211
+32	right	right	ADJ	JJ	Degree=Pos	31	_	_	start_char=212|end_char=217|SpaceAfter=No
+33	?	?	PUNCT	.	_	32	_	_	start_char=217|end_char=218
+
+# text = #ConfirmKavanaugh
+# sent_id = 88112
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=219|end_char=220|SpaceAfter=No
+2	ConfirmKavanaugh	confirmkavanaugh	NOUN	NN	Number=Sing	1	_	_	start_char=220|end_char=236|SpaceAfter=No
+

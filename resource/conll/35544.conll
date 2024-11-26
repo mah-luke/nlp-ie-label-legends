@@ -1,0 +1,64 @@
+# text = I say go.
+# sent_id = 76077
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	go	go	VERB	VB	VerbForm=Inf	2	_	_	start_char=6|end_char=8|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=8|end_char=9
+
+# text = Don't have expectations as you said.
+# sent_id = 76078
+1-2	Don't	_	_	_	_	_	_	_	start_char=10|end_char=15
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=10|end_char=12
+2	n't	not	PART	RB	_	1	_	_	start_char=12|end_char=15
+3	have	have	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=16|end_char=20
+4	expectations	expectation	NOUN	NNS	Number=Plur	3	_	_	start_char=21|end_char=33
+5	as	as	SCONJ	IN	_	4	_	_	start_char=34|end_char=36
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=37|end_char=40
+7	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	_	_	start_char=41|end_char=45|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=45|end_char=46
+
+# text = If it becomes clear she wants you to fuck her then it's up to you.
+# sent_id = 76079
+1	If	if	SCONJ	IN	_	0	_	_	start_char=47|end_char=49
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=50|end_char=52
+3	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=53|end_char=60
+4	clear	clear	ADJ	JJ	Degree=Pos	3	_	_	start_char=61|end_char=66
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=67|end_char=70
+6	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=71|end_char=76
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=77|end_char=80
+8	to	to	PART	TO	_	7	_	_	start_char=81|end_char=83
+9	fuck	fuck	VERB	VB	VerbForm=Inf	8	_	_	start_char=84|end_char=88
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=89|end_char=92
+11	then	then	ADV	RB	PronType=Dem	10	_	_	start_char=93|end_char=97
+12-13	it's	_	_	_	_	_	_	_	start_char=98|end_char=102
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=98|end_char=100
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=100|end_char=102
+14	up	up	ADV	RB	_	13	_	_	start_char=103|end_char=105
+15	to	to	ADP	IN	_	14	_	_	start_char=106|end_char=108
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	_	_	start_char=109|end_char=112|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=112|end_char=113
+
+# text = Try to figure out if she really has an exclusive boyfriend beforehand though or you may get your ass kicked later
+# sent_id = 76080
+1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=114|end_char=117
+2	to	to	PART	TO	_	1	_	_	start_char=118|end_char=120
+3	figure	figure	VERB	VB	VerbForm=Inf	2	_	_	start_char=121|end_char=127
+4	out	out	ADP	RP	_	3	_	_	start_char=128|end_char=131
+5	if	if	SCONJ	IN	_	4	_	_	start_char=132|end_char=134
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=135|end_char=138
+7	really	really	ADV	RB	_	6	_	_	start_char=139|end_char=145
+8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=146|end_char=149
+9	an	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=150|end_char=152
+10	exclusive	exclusive	ADJ	JJ	Degree=Pos	9	_	_	start_char=153|end_char=162
+11	boyfriend	boyfriend	NOUN	NN	Number=Sing	10	_	_	start_char=163|end_char=172
+12	beforehand	beforehand	ADV	RB	_	11	_	_	start_char=173|end_char=183
+13	though	though	ADV	RB	_	12	_	_	start_char=184|end_char=190
+14	or	or	CCONJ	CC	_	13	_	_	start_char=191|end_char=193
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	_	_	start_char=194|end_char=197
+16	may	may	AUX	MD	VerbForm=Fin	15	_	_	start_char=198|end_char=201
+17	get	get	VERB	VB	VerbForm=Inf	16	_	_	start_char=202|end_char=205
+18	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	17	_	_	start_char=206|end_char=210
+19	ass	ass	NOUN	NN	Number=Sing	18	_	_	start_char=211|end_char=214
+20	kicked	kick	VERB	VBN	Tense=Past|VerbForm=Part	19	_	_	start_char=215|end_char=221
+21	later	late	ADV	RBR	Degree=Cmp	20	_	_	start_char=222|end_char=227|SpaceAfter=No
+

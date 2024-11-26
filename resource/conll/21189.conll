@@ -1,0 +1,37 @@
+# text = I'm glad that I can be of service.
+# sent_id = 45507
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	glad	glad	ADJ	JJ	Degree=Pos	2	_	_	start_char=4|end_char=8
+4	that	that	SCONJ	IN	_	3	_	_	start_char=9|end_char=13
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=14|end_char=15
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=16|end_char=19
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=20|end_char=22
+8	of	of	ADP	IN	_	7	_	_	start_char=23|end_char=25
+9	service	service	NOUN	NN	Number=Sing	8	_	_	start_char=26|end_char=33|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=33|end_char=34
+
+# text = As long as you realise that you're lost without women, at least in some capacity. ;)
+# sent_id = 45508
+1	As	as	ADV	RB	_	0	_	_	start_char=35|end_char=37
+2	long	long	ADV	RB	Degree=Pos	1	_	_	start_char=38|end_char=42
+3	as	as	SCONJ	IN	_	2	_	_	start_char=43|end_char=45
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=46|end_char=49
+5	realise	realise	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=50|end_char=57
+6	that	that	SCONJ	IN	_	5	_	_	start_char=58|end_char=62
+7-8	you're	_	_	_	_	_	_	_	start_char=63|end_char=69
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=63|end_char=66
+8	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=66|end_char=69
+9	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=70|end_char=74
+10	without	without	ADP	IN	_	9	_	_	start_char=75|end_char=82
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=83|end_char=88|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=88|end_char=89
+13	at	at	ADP	IN	ExtPos=ADV	12	_	_	start_char=90|end_char=92
+14	least	least	ADJ	JJS	Degree=Sup	13	_	_	start_char=93|end_char=98
+15	in	in	ADP	IN	_	14	_	_	start_char=99|end_char=101
+16	some	some	DET	DT	_	15	_	_	start_char=102|end_char=106
+17	capacity	capacity	NOUN	NN	Number=Sing	16	_	_	start_char=107|end_char=115|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=115|end_char=116
+19	;)	;)	SYM	NFP	_	18	_	_	start_char=117|end_char=119|SpaceAfter=No
+

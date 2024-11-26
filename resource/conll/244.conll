@@ -1,0 +1,37 @@
+# text = No, I insist on staying on topic.
+# sent_id = 524
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=4|end_char=5
+4	insist	insist	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=6|end_char=12
+5	on	on	SCONJ	IN	_	4	_	_	start_char=13|end_char=15
+6	staying	stay	VERB	VBG	VerbForm=Ger	5	_	_	start_char=16|end_char=23
+7	on	on	ADP	IN	_	6	_	_	start_char=24|end_char=26
+8	topic	topic	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=32|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=32|end_char=33
+
+# text = Maybe so, but as of now, they are stuck in the past and way more anti-woman than the left.
+# sent_id = 525
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=34|end_char=39
+2	so	so	ADV	RB	_	1	_	_	start_char=40|end_char=42|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=42|end_char=43
+4	but	but	CCONJ	CC	_	3	_	_	start_char=44|end_char=47
+5	as	as	ADP	IN	_	4	_	_	start_char=48|end_char=50
+6	of	of	ADP	IN	_	5	_	_	start_char=51|end_char=53
+7	now	now	ADV	RB	_	6	_	_	start_char=54|end_char=57|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=57|end_char=58
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=59|end_char=63
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=64|end_char=67
+11	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=68|end_char=73
+12	in	in	ADP	IN	_	11	_	_	start_char=74|end_char=76
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=77|end_char=80
+14	past	past	NOUN	NN	Number=Sing	13	_	_	start_char=81|end_char=85
+15	and	and	CCONJ	CC	_	14	_	_	start_char=86|end_char=89
+16	way	way	ADV	RB	_	15	_	_	start_char=90|end_char=93
+17	more	more	ADV	RBR	Degree=Cmp	16	_	_	start_char=94|end_char=98
+18	anti-woman	anti-woman	ADJ	JJ	Degree=Pos	17	_	_	start_char=99|end_char=109
+19	than	than	ADP	IN	_	18	_	_	start_char=110|end_char=114
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=115|end_char=118
+21	left	left	NOUN	NN	Number=Sing	20	_	_	start_char=119|end_char=123|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=123|end_char=124|SpaceAfter=No
+

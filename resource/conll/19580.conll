@@ -1,0 +1,23 @@
+# text = Always Pits...
+# sent_id = 42040
+1	Always	Always	ADV	RB	_	0	_	_	start_char=0|end_char=6
+2	Pits	pit	NOUN	NNS	Number=Plur	1	_	_	start_char=7|end_char=11|SpaceAfter=No
+3	...	...	PUNCT	.	_	2	_	_	start_char=11|end_char=14
+
+# text = Pit bull fatally stabbed by pregnant Florida woman - CBS News [URL]
+# sent_id = 42041
+1	Pit	pit	NOUN	NN	Number=Sing	0	_	_	start_char=15|end_char=18
+2	bull	bull	NOUN	NN	Number=Sing	1	_	_	start_char=19|end_char=23
+3	fatally	fatally	ADV	RB	_	2	_	_	start_char=24|end_char=31
+4	stabbed	stab	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=32|end_char=39
+5	by	by	ADP	IN	_	4	_	_	start_char=40|end_char=42
+6	pregnant	pregnant	ADJ	JJ	Degree=Pos	5	_	_	start_char=43|end_char=51
+7	Florida	Florida	PROPN	NNP	Number=Sing	6	_	_	start_char=52|end_char=59
+8	woman	woman	NOUN	NN	Number=Sing	7	_	_	start_char=60|end_char=65
+9	-	-	PUNCT	HYPH	_	8	_	_	start_char=66|end_char=67
+10	CBS	CBS	PROPN	NNP	Number=Sing	9	_	_	start_char=68|end_char=71
+11	News	News	PROPN	NNP	Number=Sing	10	_	_	start_char=72|end_char=76
+12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=77|end_char=78|SpaceAfter=No
+13	URL	URL	PROPN	NNP	Number=Sing	12	_	_	start_char=78|end_char=81|SpaceAfter=No
+14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=81|end_char=82|SpaceAfter=No
+

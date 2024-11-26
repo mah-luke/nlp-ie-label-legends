@@ -1,0 +1,22 @@
+# text = [USER]
+# sent_id = 9213
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = That or I think the mother put his religion down as Muslim.
+# sent_id = 9214
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=7|end_char=11
+2	or	or	CCONJ	CC	_	1	_	_	start_char=12|end_char=14
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=15|end_char=16
+4	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=17|end_char=22
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=23|end_char=26
+6	mother	mother	NOUN	NN	Number=Sing	5	_	_	start_char=27|end_char=33
+7	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=34|end_char=37
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=38|end_char=41
+9	religion	religion	NOUN	NN	Number=Sing	8	_	_	start_char=42|end_char=50
+10	down	down	ADP	RP	_	9	_	_	start_char=51|end_char=55
+11	as	as	ADP	IN	_	10	_	_	start_char=56|end_char=58
+12	Muslim	Muslim	PROPN	NNP	Number=Sing	11	_	_	start_char=59|end_char=65|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=65|end_char=66|SpaceAfter=No
+

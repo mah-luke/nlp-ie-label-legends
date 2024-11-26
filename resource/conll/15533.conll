@@ -1,0 +1,46 @@
+# text = Cleric is probably rapist himself.
+# sent_id = 33207
+1	Cleric	Cleric	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7|end_char=9
+3	probably	probably	ADV	RB	_	2	_	_	start_char=10|end_char=18
+4	rapist	rapist	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=25
+5	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	_	_	start_char=26|end_char=33|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=33|end_char=34
+
+# text = Daughter needs to flee before she gets raped.
+# sent_id = 33208
+1	Daughter	daughter	NOUN	NN	Number=Sing	0	_	_	start_char=35|end_char=43
+2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=44|end_char=49
+3	to	to	PART	TO	_	2	_	_	start_char=50|end_char=52
+4	flee	flee	VERB	VB	VerbForm=Inf	3	_	_	start_char=53|end_char=57
+5	before	before	SCONJ	IN	_	4	_	_	start_char=58|end_char=64
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=65|end_char=68
+7	gets	get	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=69|end_char=73
+8	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=74|end_char=79|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=79|end_char=80
+
+# text = Pray that she will find a shelter that will keep her safe and will help educate and minister to to her needs
+# sent_id = 33209
+1	Pray	pray	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=81|end_char=85
+2	that	that	SCONJ	IN	_	1	_	_	start_char=86|end_char=90
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=91|end_char=94
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=95|end_char=99
+5	find	find	VERB	VB	VerbForm=Inf	4	_	_	start_char=100|end_char=104
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=105|end_char=106
+7	shelter	shelter	NOUN	NN	Number=Sing	6	_	_	start_char=107|end_char=114
+8	that	that	PRON	WDT	PronType=Rel	7	_	_	start_char=115|end_char=119
+9	will	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=120|end_char=124
+10	keep	keep	VERB	VB	VerbForm=Inf	9	_	_	start_char=125|end_char=129
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=130|end_char=133
+12	safe	safe	ADJ	JJ	Degree=Pos	11	_	_	start_char=134|end_char=138
+13	and	and	CCONJ	CC	_	12	_	_	start_char=139|end_char=142
+14	will	will	AUX	MD	VerbForm=Fin	13	_	_	start_char=143|end_char=147
+15	help	help	VERB	VB	VerbForm=Inf	14	_	_	start_char=148|end_char=152
+16	educate	educate	VERB	VB	VerbForm=Inf	15	_	_	start_char=153|end_char=160
+17	and	and	CCONJ	CC	_	16	_	_	start_char=161|end_char=164
+18	minister	minister	NOUN	NN	Number=Sing	17	_	_	start_char=165|end_char=173
+19	to	to	ADP	IN	_	18	_	_	start_char=174|end_char=176
+20	to	to	ADP	IN	_	19	_	_	start_char=177|end_char=179
+21	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	_	_	start_char=180|end_char=183
+22	needs	need	NOUN	NNS	Number=Plur	21	_	_	start_char=184|end_char=189|SpaceAfter=No
+

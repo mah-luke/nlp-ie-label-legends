@@ -1,0 +1,26 @@
+# text = At $1,000 USD per introduction, it's 3-D prostitution where driven is short for driven to poverty.
+# sent_id = 4473
+1	At	at	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	$	$	SYM	$	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
+3	1,000	1000	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=4|end_char=9
+4	USD	usd	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	3	_	_	start_char=10|end_char=13
+5	per	per	ADP	IN	_	4	_	_	start_char=14|end_char=17
+6	introduction	introduction	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=30|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=30|end_char=31
+8-9	it's	_	_	_	_	_	_	_	start_char=32|end_char=36
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=32|end_char=34
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=34|end_char=36
+10	3	3	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=37|end_char=38|SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	10	_	_	start_char=38|end_char=39|SpaceAfter=No
+12	D	D	NOUN	NN	Number=Sing	11	_	_	start_char=39|end_char=40
+13	prostitution	prostitution	NOUN	NN	Number=Sing	12	_	_	start_char=41|end_char=53
+14	where	where	ADV	WRB	PronType=Rel	13	_	_	start_char=54|end_char=59
+15	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=60|end_char=66
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=67|end_char=69
+17	short	short	ADJ	JJ	Degree=Pos	16	_	_	start_char=70|end_char=75
+18	for	for	SCONJ	IN	_	17	_	_	start_char=76|end_char=79
+19	driven	drive	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=80|end_char=86
+20	to	to	ADP	IN	_	19	_	_	start_char=87|end_char=89
+21	poverty	poverty	NOUN	NN	Number=Sing	20	_	_	start_char=90|end_char=97|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=97|end_char=98|SpaceAfter=No
+

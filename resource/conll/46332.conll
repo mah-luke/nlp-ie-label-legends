@@ -1,0 +1,74 @@
+# text = RT [USER]: [USER] [USER] [USER]
+# sent_id = 98940
+1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
+3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=8|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=8|end_char=9|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=9|end_char=10
+6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=11|end_char=12|SpaceAfter=No
+7	USER	user	NOUN	NN	Number=Sing	6	_	_	start_char=12|end_char=16|SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=16|end_char=17
+9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=18|end_char=19|SpaceAfter=No
+10	USER	user	NOUN	NN	Number=Sing	9	_	_	start_char=19|end_char=23|SpaceAfter=No
+11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=23|end_char=24
+12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=25|end_char=26|SpaceAfter=No
+13	USER	user	NOUN	NN	Number=Sing	12	_	_	start_char=26|end_char=30|SpaceAfter=No
+14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=30|end_char=31
+
+# text = “But less than 48 hours before Avenatti released her sworn statement on Twitter, the same woman told NBC News a different story.”
+# sent_id = 98941
+1	“	''	PUNCT	``	_	0	_	_	start_char=32|end_char=33|SpaceAfter=No
+2	But	but	CCONJ	CC	_	1	_	_	start_char=33|end_char=36
+3	less	less	ADJ	JJR	Degree=Cmp	2	_	_	start_char=37|end_char=41
+4	than	than	ADP	IN	_	3	_	_	start_char=42|end_char=46
+5	48	48	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=47|end_char=49
+6	hours	hour	NOUN	NNS	Number=Plur	5	_	_	start_char=50|end_char=55
+7	before	before	SCONJ	IN	_	6	_	_	start_char=56|end_char=62
+8	Avenatti	Avenatti	PROPN	NNP	Number=Sing	7	_	_	start_char=63|end_char=71
+9	released	release	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=72|end_char=80
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=81|end_char=84
+11	sworn	swear	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=85|end_char=90
+12	statement	statement	NOUN	NN	Number=Sing	11	_	_	start_char=91|end_char=100
+13	on	on	ADP	IN	_	12	_	_	start_char=101|end_char=103
+14	Twitter	Twitter	PROPN	NNP	Number=Sing	13	_	_	start_char=104|end_char=111|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=111|end_char=112
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=113|end_char=116
+17	same	same	ADJ	JJ	Degree=Pos	16	_	_	start_char=117|end_char=121
+18	woman	woman	NOUN	NN	Number=Sing	17	_	_	start_char=122|end_char=127
+19	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	_	_	start_char=128|end_char=132
+20	NBC	NBC	PROPN	NNP	Abbr=Yes|Number=Sing	19	_	_	start_char=133|end_char=136
+21	News	News	PROPN	NNP	Number=Sing	20	_	_	start_char=137|end_char=141
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	start_char=142|end_char=143
+23	different	different	ADJ	JJ	Degree=Pos	22	_	_	start_char=144|end_char=153
+24	story	story	NOUN	NN	Number=Sing	23	_	_	start_char=154|end_char=159|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=159|end_char=160|SpaceAfter=No
+26	”	''	PUNCT	''	_	25	_	_	start_char=160|end_char=161
+
+# text = Ok so why did NBC not report it then?
+# sent_id = 98942
+1	Ok	ok	INTJ	UH	_	0	_	_	start_char=162|end_char=164
+2	so	so	ADV	RB	_	1	_	_	start_char=165|end_char=167
+3	why	why	ADV	WRB	PronType=Int	2	_	_	start_char=168|end_char=171
+4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=172|end_char=175
+5	NBC	NBC	PROPN	NNP	Number=Sing	4	_	_	start_char=176|end_char=179
+6	not	not	PART	RB	_	5	_	_	start_char=180|end_char=183
+7	report	report	VERB	VB	VerbForm=Inf	6	_	_	start_char=184|end_char=190
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=191|end_char=193
+9	then	then	ADV	RB	PronType=Dem	8	_	_	start_char=194|end_char=198|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=198|end_char=199
+
+# text = Where was this item weeks ago?
+# sent_id = 98943
+1	Where	where	ADV	WRB	PronType=Int	0	_	_	start_char=200|end_char=205
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=206|end_char=209
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=210|end_char=214
+4	item	item	NOUN	NN	Number=Sing	3	_	_	start_char=215|end_char=219
+5	weeks	week	NOUN	NNS	Number=Plur	4	_	_	start_char=220|end_char=225
+6	ago	ago	ADV	RB	_	5	_	_	start_char=226|end_char=229|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=229|end_char=230
+
+# text = Frauds!
+# sent_id = 98944
+1	Frauds	fraud	NOUN	NNS	Number=Plur	0	_	_	start_char=231|end_char=237|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=237|end_char=238|SpaceAfter=No
+

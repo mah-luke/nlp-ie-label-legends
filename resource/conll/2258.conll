@@ -1,0 +1,50 @@
+# text = Block/delete her from your phone and all social media.
+# sent_id = 4784
+1	Block	Block	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	/	/	SYM	,	_	1	_	_	start_char=5|end_char=6|SpaceAfter=No
+3	delete	delete	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=12
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=13|end_char=16
+5	from	from	ADP	IN	_	4	_	_	start_char=17|end_char=21
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=22|end_char=26
+7	phone	phone	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=32
+8	and	and	CCONJ	CC	_	7	_	_	start_char=33|end_char=36
+9	all	all	DET	DT	_	8	_	_	start_char=37|end_char=40
+10	social	social	ADJ	JJ	Degree=Pos	9	_	_	start_char=41|end_char=47
+11	media	media	NOUN	NN	Number=Sing	10	_	_	start_char=48|end_char=53|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=53|end_char=54
+
+# text = If you see her in public, ignore her.
+# sent_id = 4785
+1	If	if	SCONJ	IN	_	0	_	_	start_char=55|end_char=57
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=58|end_char=61
+3	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=62|end_char=65
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=66|end_char=69
+5	in	in	ADP	IN	_	4	_	_	start_char=70|end_char=72
+6	public	public	NOUN	NN	Number=Sing	5	_	_	start_char=73|end_char=79|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=79|end_char=80
+8	ignore	ignore	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	7	_	_	start_char=81|end_char=87
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=88|end_char=91|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=91|end_char=92
+
+# text = If she visits you, ignore her.
+# sent_id = 4786
+1	If	if	SCONJ	IN	_	0	_	_	start_char=93|end_char=95
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=96|end_char=99
+3	visits	visit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=100|end_char=106
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=107|end_char=110|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=110|end_char=111
+6	ignore	ignore	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=112|end_char=118
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=119|end_char=122|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=122|end_char=123
+
+# text = This won't do anything tbh.
+# sent_id = 4787
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=124|end_char=128
+2-3	won't	_	_	_	_	_	_	_	start_char=129|end_char=134
+2	wo	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=129|end_char=131
+3	n't	not	PART	RB	_	2	_	_	start_char=131|end_char=134
+4	do	do	VERB	VB	VerbForm=Inf	3	_	_	start_char=135|end_char=137
+5	anything	anything	PRON	NN	Number=Sing|PronType=Ind	4	_	_	start_char=138|end_char=146
+6	tbh	tbh	ADV	RB	_	5	_	_	start_char=147|end_char=150|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=150|end_char=151|SpaceAfter=No
+

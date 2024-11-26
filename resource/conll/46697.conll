@@ -1,0 +1,29 @@
+# text = We gotta' get Congress to pass a bill to get all the crazy Democrats some medication.
+# sent_id = 99787
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=2
+2-3	gotta	_	_	_	_	_	_	_	start_char=3|end_char=8|SpaceAfter=No
+2	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	ta	to	PART	TO	_	2	_	_	start_char=6|end_char=8
+4	'	'	PUNCT	``	_	3	_	_	start_char=8|end_char=9
+5	get	get	VERB	VB	VerbForm=Inf	4	_	_	start_char=10|end_char=13
+6	Congress	Congress	PROPN	NNP	Number=Sing	5	_	_	start_char=14|end_char=22
+7	to	to	PART	TO	_	6	_	_	start_char=23|end_char=25
+8	pass	pass	VERB	VB	VerbForm=Inf	7	_	_	start_char=26|end_char=30
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=31|end_char=32
+10	bill	bill	NOUN	NN	Number=Sing	9	_	_	start_char=33|end_char=37
+11	to	to	PART	TO	_	10	_	_	start_char=38|end_char=40
+12	get	get	VERB	VB	VerbForm=Inf	11	_	_	start_char=41|end_char=44
+13	all	all	DET	PDT	_	12	_	_	start_char=45|end_char=48
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=49|end_char=52
+15	crazy	crazy	ADJ	JJ	Degree=Pos	14	_	_	start_char=53|end_char=58
+16	Democrats	Democrat	PROPN	NNPS	Number=Plur	15	_	_	start_char=59|end_char=68
+17	some	some	DET	DT	_	16	_	_	start_char=69|end_char=73
+18	medication	medication	NOUN	NN	Number=Sing	17	_	_	start_char=74|end_char=84|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=84|end_char=85
+
+# text = [URL]
+# sent_id = 99788
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=86|end_char=87|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=87|end_char=90|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=90|end_char=91|SpaceAfter=No
+

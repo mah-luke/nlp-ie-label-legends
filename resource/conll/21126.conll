@@ -1,0 +1,72 @@
+# text = Look, I don't know her, you don't know her, he doesn't know her.
+# sent_id = 45372
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4-5	don't	_	_	_	_	_	_	_	start_char=8|end_char=13
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=10
+5	n't	not	PART	RB	_	4	_	_	start_char=10|end_char=13
+6	know	know	VERB	VB	VerbForm=Inf	5	_	_	start_char=14|end_char=18
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=19|end_char=22|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=22|end_char=23
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=24|end_char=27
+10-11	don't	_	_	_	_	_	_	_	start_char=28|end_char=33
+10	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=28|end_char=30
+11	n't	not	PART	RB	_	10	_	_	start_char=30|end_char=33
+12	know	know	VERB	VB	VerbForm=Inf	11	_	_	start_char=34|end_char=38
+13	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=39|end_char=42|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=42|end_char=43
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=44|end_char=46
+16-17	doesn't	_	_	_	_	_	_	_	start_char=47|end_char=54
+16	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=47|end_char=51
+17	n't	not	PART	RB	_	16	_	_	start_char=51|end_char=54
+18	know	know	VERB	VB	VerbForm=Inf	17	_	_	start_char=55|end_char=59
+19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=60|end_char=63|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=63|end_char=64
+
+# text = But I do know for absolute fact that being a POW doesn't exclude you from from being a bitch.
+# sent_id = 45373
+1	But	but	CCONJ	CC	_	0	_	_	start_char=65|end_char=68
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=69|end_char=70
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=71|end_char=73
+4	know	know	VERB	VB	VerbForm=Inf	3	_	_	start_char=74|end_char=78
+5	for	for	ADP	IN	_	4	_	_	start_char=79|end_char=82
+6	absolute	absolute	ADJ	JJ	Degree=Pos	5	_	_	start_char=83|end_char=91
+7	fact	fact	NOUN	NN	Number=Sing	6	_	_	start_char=92|end_char=96
+8	that	that	SCONJ	IN	_	7	_	_	start_char=97|end_char=101
+9	being	be	AUX	VBG	VerbForm=Ger	8	_	_	start_char=102|end_char=107
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=108|end_char=109
+11	POW	pow	NOUN	NN	Number=Sing	10	_	_	start_char=110|end_char=113
+12-13	doesn't	_	_	_	_	_	_	_	start_char=114|end_char=121
+12	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=114|end_char=118
+13	n't	not	PART	RB	_	12	_	_	start_char=118|end_char=121
+14	exclude	exclude	VERB	VB	VerbForm=Inf	13	_	_	start_char=122|end_char=129
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	_	_	start_char=130|end_char=133
+16	from	from	ADP	IN	_	15	_	_	start_char=134|end_char=138
+17	from	from	SCONJ	IN	_	16	_	_	start_char=139|end_char=143
+18	being	be	AUX	VBG	VerbForm=Ger	17	_	_	start_char=144|end_char=149
+19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=150|end_char=151
+20	bitch	bitch	NOUN	NN	Number=Sing	19	_	_	start_char=152|end_char=157|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=157|end_char=158
+
+# text = My great uncle was a POW, he was the worst cunt I've ever met.
+# sent_id = 45374
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=159|end_char=161
+2	great	great	ADJ	JJ	Degree=Pos	1	_	_	start_char=162|end_char=167
+3	uncle	uncle	NOUN	NN	Number=Sing	2	_	_	start_char=168|end_char=173
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=174|end_char=177
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=178|end_char=179
+6	POW	pow	NOUN	NN	Number=Sing	5	_	_	start_char=180|end_char=183|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=183|end_char=184
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=185|end_char=187
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=188|end_char=191
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=192|end_char=195
+11	worst	bad	ADJ	JJS	Degree=Sup	10	_	_	start_char=196|end_char=201
+12	cunt	cunt	NOUN	NN	Number=Sing	11	_	_	start_char=202|end_char=206
+13-14	I've	_	_	_	_	_	_	_	start_char=207|end_char=211
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=207|end_char=208
+14	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=208|end_char=211
+15	ever	ever	ADV	RB	_	14	_	_	start_char=212|end_char=216
+16	met	meet	VERB	VBN	Tense=Past|VerbForm=Part	15	_	_	start_char=217|end_char=220|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=220|end_char=221|SpaceAfter=No
+

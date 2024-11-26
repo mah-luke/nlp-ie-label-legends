@@ -1,0 +1,52 @@
+# text = #GabFam we need help need this spread.
+# sent_id = 95724
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	GabFam	GabFam	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=7
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=8|end_char=10
+4	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=15
+5	help	help	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=20
+6	need	need	VERB	VB	VerbForm=Inf	5	_	_	start_char=21|end_char=25
+7	this	this	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=26|end_char=30
+8	spread	spread	NOUN	NN	Number=Sing	7	_	_	start_char=31|end_char=37|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=37|end_char=38
+
+# text = Need 2support this woman.
+# sent_id = 95725
+1	Need	need	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=39|end_char=43
+2	2	2	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=44|end_char=45|SpaceAfter=No
+3	support	support	NOUN	NN	Number=Sing	2	_	_	start_char=45|end_char=52
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=53|end_char=57
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=58|end_char=63|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=63|end_char=64
+
+# text = #pedogate #maga #houseofcards "Woman was billionaire Jeffrey Epstein’s sex slave wants to haul the sex-offender into federal court" [URL]
+# sent_id = 95726
+1	#pedogate	#pedogate	PROPN	NNP	Number=Sing	0	_	_	start_char=65|end_char=74
+2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=75|end_char=76|SpaceAfter=No
+3	maga	maga	PROPN	NNP	Number=Sing	2	_	_	start_char=76|end_char=80
+4	#houseofcards	#houseofcard	PROPN	NNP	Number=Sing	3	_	_	start_char=81|end_char=94
+5	"	"	PUNCT	``	_	4	_	_	start_char=95|end_char=96|SpaceAfter=No
+6	Woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=96|end_char=101
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=102|end_char=105
+8	billionaire	billionaire	NOUN	NN	Number=Sing	7	_	_	start_char=106|end_char=117
+9	Jeffrey	Jeffrey	PROPN	NNP	Number=Sing	8	_	_	start_char=118|end_char=125
+10-11	Epstein’s	_	_	_	_	_	_	_	start_char=126|end_char=135
+10	Epstein	Epstein	PROPN	NNP	Number=Sing	9	_	_	start_char=126|end_char=133
+11	’s	's	PART	POS	_	10	_	_	start_char=133|end_char=135
+12	sex	sex	NOUN	NN	Number=Sing	11	_	_	start_char=136|end_char=139
+13	slave	slave	NOUN	NN	Number=Sing	12	_	_	start_char=140|end_char=145
+14	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=146|end_char=151
+15	to	to	PART	TO	_	14	_	_	start_char=152|end_char=154
+16	haul	haul	VERB	VB	VerbForm=Inf	15	_	_	start_char=155|end_char=159
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=160|end_char=163
+18	sex	sex	NOUN	NN	Number=Sing	17	_	_	start_char=164|end_char=167|SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	18	_	_	start_char=167|end_char=168|SpaceAfter=No
+20	offender	offender	NOUN	NN	Number=Sing	19	_	_	start_char=168|end_char=176
+21	into	into	ADP	IN	_	20	_	_	start_char=177|end_char=181
+22	federal	federal	ADJ	JJ	Degree=Pos	21	_	_	start_char=182|end_char=189
+23	court	court	NOUN	NN	Number=Sing	22	_	_	start_char=190|end_char=195|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	_	_	start_char=195|end_char=196
+25	[	[	PUNCT	-LRB-	_	24	_	_	start_char=197|end_char=198|SpaceAfter=No
+26	URL	URL	PROPN	NNP	Number=Sing	25	_	_	start_char=198|end_char=201|SpaceAfter=No
+27	]	]	PUNCT	-RRB-	_	26	_	_	start_char=201|end_char=202|SpaceAfter=No
+

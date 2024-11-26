@@ -1,0 +1,27 @@
+# text = Classic Bill Clinton.
+# sent_id = 49293
+1	Classic	classic	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=7
+2	Bill	Bill	PROPN	NNP	Number=Sing	1	_	_	start_char=8|end_char=12
+3	Clinton	Clinton	PROPN	NNP	Number=Sing	2	_	_	start_char=13|end_char=20|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=20|end_char=21
+
+# text = Hell my wife was ogling her.
+# sent_id = 49294
+1	Hell	Hell	PROPN	NNP	Number=Sing	0	_	_	start_char=22|end_char=26
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=27|end_char=29
+3	wife	wife	NOUN	NN	Number=Sing	2	_	_	start_char=30|end_char=34
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=35|end_char=38
+5	ogling	ogle	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=39|end_char=45
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=46|end_char=49|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=49|end_char=50
+
+# text = #Inauguration #MAGA [URL]
+# sent_id = 49295
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=51|end_char=52|SpaceAfter=No
+2	Inauguration	inauguration	NOUN	NN	Number=Sing	1	_	_	start_char=52|end_char=64
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=65|end_char=66|SpaceAfter=No
+4	MAGA	maga	NOUN	NN	Number=Sing	3	_	_	start_char=66|end_char=70
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=71|end_char=72|SpaceAfter=No
+6	URL	URL	NOUN	NN	Number=Sing	5	_	_	start_char=72|end_char=75|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=75|end_char=76|SpaceAfter=No
+

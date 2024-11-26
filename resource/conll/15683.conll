@@ -1,0 +1,36 @@
+# text = I'm an Incel too.
+# sent_id = 33540
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=4|end_char=6
+4	Incel	Incel	PROPN	NNP	Number=Sing	3	_	_	start_char=7|end_char=12
+5	too	too	ADV	RB	_	4	_	_	start_char=13|end_char=16|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=16|end_char=17
+
+# text = I'd pay for sex and affection if I had the money.
+# sent_id = 33541
+1-2	I'd	_	_	_	_	_	_	_	start_char=18|end_char=21
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=18|end_char=19
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=19|end_char=21
+3	pay	pay	VERB	VB	VerbForm=Inf	2	_	_	start_char=22|end_char=25
+4	for	for	ADP	IN	_	3	_	_	start_char=26|end_char=29
+5	sex	sex	NOUN	NN	Number=Sing	4	_	_	start_char=30|end_char=33
+6	and	and	CCONJ	CC	_	5	_	_	start_char=34|end_char=37
+7	affection	affection	NOUN	NN	Number=Sing	6	_	_	start_char=38|end_char=47
+8	if	if	SCONJ	IN	_	7	_	_	start_char=48|end_char=50
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=51|end_char=52
+10	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	_	_	start_char=53|end_char=56
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=57|end_char=60
+12	money	money	NOUN	NN	Number=Sing	11	_	_	start_char=61|end_char=66|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=66|end_char=67
+
+# text = Gotta cope somehow.
+# sent_id = 33542
+1-2	Gotta	_	_	_	_	_	_	_	start_char=68|end_char=73
+1	Got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=68|end_char=71
+2	ta	to	PART	TO	_	1	_	_	start_char=71|end_char=73
+3	cope	cope	VERB	VB	VerbForm=Inf	2	_	_	start_char=74|end_char=78
+4	somehow	somehow	ADV	RB	_	3	_	_	start_char=79|end_char=86|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=86|end_char=87|SpaceAfter=No
+

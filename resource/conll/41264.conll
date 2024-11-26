@@ -1,0 +1,20 @@
+# text = if you live with a single mom -- ...you're AN ***IDIOT.*** --
+# sent_id = 88298
+1	if	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	live	live	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=11
+4	with	with	ADP	IN	_	3	_	_	start_char=12|end_char=16
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=17|end_char=18
+6	single	single	ADJ	JJ	Degree=Pos	5	_	_	start_char=19|end_char=25
+7	mom	mom	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=29
+8	--	--	PUNCT	,	_	7	_	_	start_char=30|end_char=32
+9	...	...	PUNCT	,	_	8	_	_	start_char=33|end_char=36|SpaceAfter=No
+10-11	you're	_	_	_	_	_	_	_	start_char=36|end_char=42
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=36|end_char=39
+11	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=39|end_char=42
+12	AN	a	NOUN	NN	Number=Sing	11	_	_	start_char=43|end_char=45
+13	***	***	PUNCT	NFP	_	12	_	_	start_char=46|end_char=49|SpaceAfter=No
+14	IDIOT	idiot	NOUN	NN	Number=Sing	13	_	_	start_char=49|end_char=54|SpaceAfter=No
+15	.***	.***	PUNCT	NFP	_	14	_	_	start_char=54|end_char=58
+16	--	--	PUNCT	,	_	15	_	_	start_char=59|end_char=61|SpaceAfter=No
+

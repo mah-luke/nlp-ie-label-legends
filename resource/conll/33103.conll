@@ -1,0 +1,58 @@
+# text = Why won't you describe yourself (and women) as slaves?
+# sent_id = 70890
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2-3	won't	_	_	_	_	_	_	_	start_char=4|end_char=9
+2	wo	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	n't	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=10|end_char=13
+5	describe	describe	VERB	VB	VerbForm=Inf	4	_	_	start_char=14|end_char=22
+6	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	5	_	_	start_char=23|end_char=31
+7	(	(	PUNCT	-LRB-	_	6	_	_	start_char=32|end_char=33|SpaceAfter=No
+8	and	and	CCONJ	CC	_	7	_	_	start_char=33|end_char=36
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=37|end_char=42|SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	_	_	start_char=42|end_char=43
+11	as	as	ADP	IN	_	10	_	_	start_char=44|end_char=46
+12	slaves	slave	NOUN	NNS	Number=Plur	11	_	_	start_char=47|end_char=53|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=53|end_char=54
+
+# text = Are you too good for that?
+# sent_id = 70891
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=55|end_char=58
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=59|end_char=62
+3	too	too	ADV	RB	_	2	_	_	start_char=63|end_char=66
+4	good	good	ADJ	JJ	Degree=Pos	3	_	_	start_char=67|end_char=71
+5	for	for	ADP	IN	_	4	_	_	start_char=72|end_char=75
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=76|end_char=80|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=80|end_char=81
+
+# text = #Catholic #Christian #Bible #Christ #Jesus #CatholicGab #ChristianGab #Anglican #LDS #Mormon #Baptist #KJV #WomansPlace #Mormon
+# sent_id = 70892
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=82|end_char=83|SpaceAfter=No
+2	Catholic	Catholic	ADJ	JJ	Degree=Pos	1	_	_	start_char=83|end_char=91
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=92|end_char=93|SpaceAfter=No
+4	Christian	Christian	PROPN	NNP	Number=Sing	3	_	_	start_char=93|end_char=102
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=103|end_char=104|SpaceAfter=No
+6	Bible	Bible	PROPN	NNP	Number=Sing	5	_	_	start_char=104|end_char=109
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=110|end_char=111|SpaceAfter=No
+8	Christ	Christ	PROPN	NNP	Number=Sing	7	_	_	start_char=111|end_char=117
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=118|end_char=119|SpaceAfter=No
+10	Jesus	Jesus	PROPN	NNP	Number=Sing	9	_	_	start_char=119|end_char=124
+11	#	#	SYM	NN	Number=Sing	10	_	_	start_char=125|end_char=126|SpaceAfter=No
+12	CatholicGab	CatholicGab	PROPN	NNP	Number=Sing	11	_	_	start_char=126|end_char=137
+13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=138|end_char=139|SpaceAfter=No
+14	ChristianGab	ChristianGab	PROPN	NNP	Number=Sing	13	_	_	start_char=139|end_char=151
+15	#	#	SYM	NN	Number=Sing	14	_	_	start_char=152|end_char=153|SpaceAfter=No
+16	Anglican	Anglican	PROPN	NNP	Number=Sing	15	_	_	start_char=153|end_char=161
+17	#	#	SYM	NN	Number=Sing	16	_	_	start_char=162|end_char=163|SpaceAfter=No
+18	LDS	LDS	PROPN	NNP	Number=Sing	17	_	_	start_char=163|end_char=166
+19	#	#	SYM	NN	Number=Sing	18	_	_	start_char=167|end_char=168|SpaceAfter=No
+20	Mormon	mormon	PROPN	NNP	Number=Sing	19	_	_	start_char=168|end_char=174
+21	#	#	SYM	NN	Number=Sing	20	_	_	start_char=175|end_char=176|SpaceAfter=No
+22	Baptist	Baptist	PROPN	NNP	Number=Sing	21	_	_	start_char=176|end_char=183
+23	#	#	SYM	NN	Number=Sing	22	_	_	start_char=184|end_char=185|SpaceAfter=No
+24	KJV	KJV	PROPN	NNP	Number=Sing	23	_	_	start_char=185|end_char=188
+25	#	#	SYM	NN	Number=Sing	24	_	_	start_char=189|end_char=190|SpaceAfter=No
+26	WomansPlace	WomansPlace	PROPN	NNP	Number=Sing	25	_	_	start_char=190|end_char=201
+27	#	#	SYM	NN	Number=Sing	26	_	_	start_char=202|end_char=203|SpaceAfter=No
+28	Mormon	mormon	PROPN	NNP	Number=Sing	27	_	_	start_char=203|end_char=209|SpaceAfter=No
+

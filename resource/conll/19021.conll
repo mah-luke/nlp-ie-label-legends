@@ -1,0 +1,66 @@
+# text = This is why i wont marry.
+# sent_id = 40795
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=8|end_char=11
+4	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=12|end_char=13
+5-6	wont	_	_	_	_	_	_	_	start_char=14|end_char=18
+5	wo	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=14|end_char=16
+6	nt	not	PART	RB	_	5	_	_	start_char=16|end_char=18
+7	marry	marry	VERB	VB	VerbForm=Inf	6	_	_	start_char=19|end_char=24|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=24|end_char=25
+
+# text = This happens to all women.
+# sent_id = 40796
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=26|end_char=30
+2	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=38
+3	to	to	ADP	IN	_	2	_	_	start_char=39|end_char=41
+4	all	all	DET	DT	_	3	_	_	start_char=42|end_char=45
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=46|end_char=51|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=51|end_char=52
+
+# text = None of them are fuckable like this.
+# sent_id = 40797
+1	None	none	NOUN	NN	Number=Sing	0	_	_	start_char=53|end_char=57
+2	of	of	ADP	IN	_	1	_	_	start_char=58|end_char=60
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=61|end_char=65
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=66|end_char=69
+5	fuckable	fuckable	ADJ	JJ	Degree=Pos	4	_	_	start_char=70|end_char=78
+6	like	like	ADP	IN	_	5	_	_	start_char=79|end_char=83
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=84|end_char=88|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=88|end_char=89
+
+# text = Whats the point of paying for someone who offers only one thing but loses that ability at age 35 yet you have to take care of her until you die.
+# sent_id = 40798
+1	Whats	what	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=90|end_char=95
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=96|end_char=99
+3	point	point	NOUN	NN	Number=Sing	2	_	_	start_char=100|end_char=105
+4	of	of	SCONJ	IN	_	3	_	_	start_char=106|end_char=108
+5	paying	pay	VERB	VBG	VerbForm=Ger	4	_	_	start_char=109|end_char=115
+6	for	for	ADP	IN	_	5	_	_	start_char=116|end_char=119
+7	someone	someone	PRON	NN	Number=Sing|PronType=Ind	6	_	_	start_char=120|end_char=127
+8	who	who	PRON	WP	PronType=Rel	7	_	_	start_char=128|end_char=131
+9	offers	offer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=132|end_char=138
+10	only	only	ADV	RB	_	9	_	_	start_char=139|end_char=143
+11	one	one	NUM	CD	NumForm=Word|NumType=Card	10	_	_	start_char=144|end_char=147
+12	thing	thing	NOUN	NN	Number=Sing	11	_	_	start_char=148|end_char=153
+13	but	but	CCONJ	CC	_	12	_	_	start_char=154|end_char=157
+14	loses	lose	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=158|end_char=163
+15	that	that	DET	DT	Number=Sing|PronType=Dem	14	_	_	start_char=164|end_char=168
+16	ability	ability	NOUN	NN	Number=Sing	15	_	_	start_char=169|end_char=176
+17	at	at	ADP	IN	_	16	_	_	start_char=177|end_char=179
+18	age	age	NOUN	NN	Number=Sing	17	_	_	start_char=180|end_char=183
+19	35	35	NUM	CD	NumForm=Digit|NumType=Card	18	_	_	start_char=184|end_char=186
+20	yet	yet	ADV	RB	_	19	_	_	start_char=187|end_char=190
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	_	_	start_char=191|end_char=194
+22	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	_	_	start_char=195|end_char=199
+23	to	to	PART	TO	_	22	_	_	start_char=200|end_char=202
+24	take	take	VERB	VB	VerbForm=Inf	23	_	_	start_char=203|end_char=207
+25	care	care	NOUN	NN	Number=Sing	24	_	_	start_char=208|end_char=212
+26	of	of	ADP	IN	_	25	_	_	start_char=213|end_char=215
+27	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	_	_	start_char=216|end_char=219
+28	until	until	SCONJ	IN	_	27	_	_	start_char=220|end_char=225
+29	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	28	_	_	start_char=226|end_char=229
+30	die	die	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	29	_	_	start_char=230|end_char=233|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	start_char=233|end_char=234|SpaceAfter=No
+

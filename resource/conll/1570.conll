@@ -1,0 +1,49 @@
+# text = I've already slept with 1 girl from my work, and there's been no drama or problems.
+# sent_id = 3284
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	already	already	ADV	RB	_	2	_	_	start_char=5|end_char=12
+4	slept	sleep	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=13|end_char=18
+5	with	with	ADP	IN	_	4	_	_	start_char=19|end_char=23
+6	1	1	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=24|end_char=25
+7	girl	girl	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=30
+8	from	from	ADP	IN	_	7	_	_	start_char=31|end_char=35
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=36|end_char=38
+10	work	work	NOUN	NN	Number=Sing	9	_	_	start_char=39|end_char=43|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=43|end_char=44
+12	and	and	CCONJ	CC	_	11	_	_	start_char=45|end_char=48
+13-14	there's	_	_	_	_	_	_	_	start_char=49|end_char=56
+13	there	there	PRON	EX	_	12	_	_	start_char=49|end_char=54
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=54|end_char=56
+15	been	be	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=57|end_char=61
+16	no	no	DET	DT	_	15	_	_	start_char=62|end_char=64
+17	drama	drama	NOUN	NN	Number=Sing	16	_	_	start_char=65|end_char=70
+18	or	or	CCONJ	CC	_	17	_	_	start_char=71|end_char=73
+19	problems	problem	NOUN	NNS	Number=Plur	18	_	_	start_char=74|end_char=82|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=82|end_char=83
+
+# text = As long as your on a good page with them, there's no reason for there to be.
+# sent_id = 3285
+1	As	as	ADV	RB	_	0	_	_	start_char=84|end_char=86
+2	long	long	ADV	RB	Degree=Pos	1	_	_	start_char=87|end_char=91
+3	as	as	ADP	IN	_	2	_	_	start_char=92|end_char=94
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=95|end_char=99
+5	on	on	ADP	IN	_	4	_	_	start_char=100|end_char=102
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=103|end_char=104
+7	good	good	ADJ	JJ	Degree=Pos	6	_	_	start_char=105|end_char=109
+8	page	page	NOUN	NN	Number=Sing	7	_	_	start_char=110|end_char=114
+9	with	with	ADP	IN	_	8	_	_	start_char=115|end_char=119
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=120|end_char=124|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=124|end_char=125
+12-13	there's	_	_	_	_	_	_	_	start_char=126|end_char=133
+12	there	there	PRON	EX	_	11	_	_	start_char=126|end_char=131
+13	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=131|end_char=133
+14	no	no	DET	DT	_	13	_	_	start_char=134|end_char=136
+15	reason	reason	NOUN	NN	Number=Sing	14	_	_	start_char=137|end_char=143
+16	for	for	SCONJ	IN	_	15	_	_	start_char=144|end_char=147
+17	there	there	ADV	RB	PronType=Dem	16	_	_	start_char=148|end_char=153
+18	to	to	PART	TO	_	17	_	_	start_char=154|end_char=156
+19	be	be	AUX	VB	VerbForm=Inf	18	_	_	start_char=157|end_char=159|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=159|end_char=160|SpaceAfter=No
+

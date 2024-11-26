@@ -1,0 +1,26 @@
+# text = "Men take care of women, women take care of children."
+# sent_id = 50212
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Men	man	NOUN	NNS	Number=Plur	1	_	_	start_char=1|end_char=4
+3	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=5|end_char=9
+4	care	care	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=14
+5	of	of	ADP	IN	_	4	_	_	start_char=15|end_char=17
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=18|end_char=23|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=23|end_char=24
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=25|end_char=30
+9	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=31|end_char=35
+10	care	care	NOUN	NN	Number=Sing	9	_	_	start_char=36|end_char=40
+11	of	of	ADP	IN	_	10	_	_	start_char=41|end_char=43
+12	children	child	NOUN	NNS	Number=Plur	11	_	_	start_char=44|end_char=52|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=52|end_char=53|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=53|end_char=54
+
+# text = Damn what a good quote.
+# sent_id = 50213
+1	Damn	damn	INTJ	UH	_	0	_	_	start_char=55|end_char=59
+2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=60|end_char=64
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=65|end_char=66
+4	good	good	ADJ	JJ	Degree=Pos	3	_	_	start_char=67|end_char=71
+5	quote	quote	NOUN	NN	Number=Sing	4	_	_	start_char=72|end_char=77|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=77|end_char=78|SpaceAfter=No
+

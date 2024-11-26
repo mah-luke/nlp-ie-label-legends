@@ -1,0 +1,51 @@
+# text = I wish all women would carry guns.
+# sent_id = 53363
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	wish	wish	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	all	all	DET	DT	_	2	_	_	start_char=7|end_char=10
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=11|end_char=16
+5	would	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=17|end_char=22
+6	carry	carry	VERB	VB	VerbForm=Inf	5	_	_	start_char=23|end_char=28
+7	guns	gun	NOUN	NNS	Number=Plur	6	_	_	start_char=29|end_char=33|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=33|end_char=34
+
+# text = My daughter is 14 and she is getting a gun for her 18th birthday.
+# sent_id = 53364
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=35|end_char=37
+2	daughter	daughter	NOUN	NN	Number=Sing	1	_	_	start_char=38|end_char=46
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=47|end_char=49
+4	14	14	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=50|end_char=52
+5	and	and	CCONJ	CC	_	4	_	_	start_char=53|end_char=56
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=57|end_char=60
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=61|end_char=63
+8	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=64|end_char=71
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=72|end_char=73
+10	gun	gun	NOUN	NN	Number=Sing	9	_	_	start_char=74|end_char=77
+11	for	for	ADP	IN	_	10	_	_	start_char=78|end_char=81
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=82|end_char=85
+13	18th	18th	ADJ	JJ	Degree=Pos|NumType=Ord	12	_	_	start_char=86|end_char=90
+14	birthday	birthday	NOUN	NN	Number=Sing	13	_	_	start_char=91|end_char=99|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=99|end_char=100
+
+# text = WV you can conceal carry no license.
+# sent_id = 53365
+1	WV	WV	PROPN	NNP	Number=Sing	0	_	_	start_char=101|end_char=103
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=104|end_char=107
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=108|end_char=111
+4	conceal	conceal	VERB	VB	VerbForm=Inf	3	_	_	start_char=112|end_char=119
+5	carry	carry	VERB	VB	VerbForm=Inf	4	_	_	start_char=120|end_char=125
+6	no	no	DET	DT	_	5	_	_	start_char=126|end_char=128
+7	license	license	NOUN	NN	Number=Sing	6	_	_	start_char=129|end_char=136|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=136|end_char=137
+
+# text = We're all very polite here.
+# sent_id = 53366
+1-2	We're	_	_	_	_	_	_	_	start_char=138|end_char=143
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=138|end_char=140
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=140|end_char=143
+3	all	all	ADV	RB	_	2	_	_	start_char=144|end_char=147
+4	very	very	ADV	RB	_	3	_	_	start_char=148|end_char=152
+5	polite	polite	ADJ	JJ	Degree=Pos	4	_	_	start_char=153|end_char=159
+6	here	here	ADV	RB	PronType=Dem	5	_	_	start_char=160|end_char=164|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=164|end_char=165|SpaceAfter=No
+

@@ -1,0 +1,31 @@
+# text = [USER]
+# sent_id = 112479
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = My take: Landlord should mind their own fuckin' business.
+# sent_id = 112480
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=7|end_char=9
+2	take	take	NOUN	NN	Number=Sing	1	_	_	start_char=10|end_char=14|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=14|end_char=15
+4	Landlord	landlord	NOUN	NN	Number=Sing	3	_	_	start_char=16|end_char=24
+5	should	should	AUX	MD	VerbForm=Fin	4	_	_	start_char=25|end_char=31
+6	mind	mind	VERB	VB	VerbForm=Inf	5	_	_	start_char=32|end_char=36
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=37|end_char=42
+8	own	own	ADJ	JJ	Degree=Pos	7	_	_	start_char=43|end_char=46
+9	fuckin'	fuckin'	NOUN	NN	Number=Sing	8	_	_	start_char=47|end_char=54
+10	business	business	NOUN	NN	Number=Sing	9	_	_	start_char=55|end_char=63|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=63|end_char=64
+
+# text = Bring more women just to make sure.
+# sent_id = 112481
+1	Bring	bring	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=65|end_char=70
+2	more	more	ADJ	JJR	Degree=Cmp	1	_	_	start_char=71|end_char=75
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=76|end_char=81
+4	just	just	ADV	RB	_	3	_	_	start_char=82|end_char=86
+5	to	to	PART	TO	_	4	_	_	start_char=87|end_char=89
+6	make	make	VERB	VB	VerbForm=Inf	5	_	_	start_char=90|end_char=94
+7	sure	sure	ADJ	JJ	Degree=Pos	6	_	_	start_char=95|end_char=99|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=99|end_char=100|SpaceAfter=No
+

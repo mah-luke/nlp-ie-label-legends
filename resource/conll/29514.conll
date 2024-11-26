@@ -1,0 +1,44 @@
+# text = [USER]
+# sent_id = 63288
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = They look horrible.
+# sent_id = 63289
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=11
+2	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=12|end_char=16
+3	horrible	horrible	ADJ	JJ	Degree=Pos	2	_	_	start_char=17|end_char=25|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=25|end_char=26
+
+# text = Doesn't Melania have her own fashion line?
+# sent_id = 63290
+1-2	Doesn't	_	_	_	_	_	_	_	start_char=27|end_char=34
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=27|end_char=31
+2	n't	not	PART	RB	_	1	_	_	start_char=31|end_char=34
+3	Melania	Melania	PROPN	NNP	Number=Sing	2	_	_	start_char=35|end_char=42
+4	have	have	VERB	VB	VerbForm=Inf	3	_	_	start_char=43|end_char=47
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=48|end_char=51
+6	own	own	ADJ	JJ	Degree=Pos	5	_	_	start_char=52|end_char=55
+7	fashion	fashion	NOUN	NN	Number=Sing	6	_	_	start_char=56|end_char=63
+8	line	line	NOUN	NN	Number=Sing	7	_	_	start_char=64|end_char=68|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=68|end_char=69
+
+# text = I'm sure they are 1000 times better than anything the Obamas could afford
+# sent_id = 63291
+1-2	I'm	_	_	_	_	_	_	_	start_char=70|end_char=73
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=70|end_char=71
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=71|end_char=73
+3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=74|end_char=78
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=79|end_char=83
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=84|end_char=87
+6	1000	1000	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=88|end_char=92
+7	times	time	NOUN	NNS	Number=Plur	6	_	_	start_char=93|end_char=98
+8	better	good	ADJ	JJR	Degree=Cmp	7	_	_	start_char=99|end_char=105
+9	than	than	ADP	IN	_	8	_	_	start_char=106|end_char=110
+10	anything	anything	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=111|end_char=119
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=120|end_char=123
+12	Obamas	Obamas	PROPN	NNPS	Number=Plur	11	_	_	start_char=124|end_char=130
+13	could	could	AUX	MD	VerbForm=Fin	12	_	_	start_char=131|end_char=136
+14	afford	afford	VERB	VB	VerbForm=Inf	13	_	_	start_char=137|end_char=143|SpaceAfter=No
+

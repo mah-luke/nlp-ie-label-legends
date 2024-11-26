@@ -1,0 +1,18 @@
+# text = Well, maybe Ms. Archer.
+# sent_id = 111281
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	maybe	maybe	ADV	RB	_	2	_	_	start_char=6|end_char=11
+4	Ms.	Ms.	PROPN	NNP	Number=Sing	3	_	_	start_char=12|end_char=15
+5	Archer	Archer	PROPN	NNP	Number=Sing	4	_	_	start_char=16|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = But that bitch is scary!
+# sent_id = 111282
+1	But	but	CCONJ	CC	_	0	_	_	start_char=24|end_char=27
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=28|end_char=32
+3	bitch	bitch	NOUN	NN	Number=Sing	2	_	_	start_char=33|end_char=38
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=39|end_char=41
+5	scary	scary	ADJ	JJ	Degree=Pos	4	_	_	start_char=42|end_char=47|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=47|end_char=48|SpaceAfter=No
+

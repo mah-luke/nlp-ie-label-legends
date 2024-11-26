@@ -1,0 +1,72 @@
+# text = It's also a "not happening to me" thing.
+# sent_id = 9393
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	also	also	ADV	RB	_	2	_	_	start_char=5|end_char=9
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=10|end_char=11
+5	"	"	PUNCT	``	_	4	_	_	start_char=12|end_char=13|SpaceAfter=No
+6	not	not	PART	RB	_	5	_	_	start_char=13|end_char=16
+7	happening	happen	VERB	VBG	VerbForm=Ger	6	_	_	start_char=17|end_char=26
+8	to	to	ADP	IN	_	7	_	_	start_char=27|end_char=29
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=30|end_char=32|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=32|end_char=33
+11	thing	thing	NOUN	NN	Number=Sing	10	_	_	start_char=34|end_char=39|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=39|end_char=40
+
+# text = The Normie sees Tyrone raped and murdered a white girl, doesn't affect him (unless a relative or something), but now it's "I can't believe MY team is doing this!!"
+# sent_id = 9394
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=41|end_char=44
+2	Normie	Normie	PROPN	NNP	Number=Sing	1	_	_	start_char=45|end_char=51
+3	sees	see	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=52|end_char=56
+4	Tyrone	Tyrone	PROPN	NNP	Number=Sing	3	_	_	start_char=57|end_char=63
+5	raped	rape	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=64|end_char=69
+6	and	and	CCONJ	CC	_	5	_	_	start_char=70|end_char=73
+7	murdered	murder	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=74|end_char=82
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=83|end_char=84
+9	white	white	ADJ	JJ	Degree=Pos	8	_	_	start_char=85|end_char=90
+10	girl	girl	NOUN	NN	Number=Sing	9	_	_	start_char=91|end_char=95|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=95|end_char=96
+12-13	doesn't	_	_	_	_	_	_	_	start_char=97|end_char=104
+12	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=97|end_char=101
+13	n't	not	PART	RB	_	12	_	_	start_char=101|end_char=104
+14	affect	affect	VERB	VB	VerbForm=Inf	13	_	_	start_char=105|end_char=111
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=112|end_char=115
+16	(	(	PUNCT	-LRB-	_	15	_	_	start_char=116|end_char=117|SpaceAfter=No
+17	unless	unless	SCONJ	IN	_	16	_	_	start_char=117|end_char=123
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=124|end_char=125
+19	relative	relative	NOUN	NN	Number=Sing	18	_	_	start_char=126|end_char=134
+20	or	or	CCONJ	CC	_	19	_	_	start_char=135|end_char=137
+21	something	something	PRON	NN	Number=Sing|PronType=Ind	20	_	_	start_char=138|end_char=147|SpaceAfter=No
+22	)	)	PUNCT	-RRB-	_	21	_	_	start_char=147|end_char=148|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	start_char=148|end_char=149
+24	but	but	CCONJ	CC	_	23	_	_	start_char=150|end_char=153
+25	now	now	ADV	RB	_	24	_	_	start_char=154|end_char=157
+26-27	it's	_	_	_	_	_	_	_	start_char=158|end_char=162
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	_	_	start_char=158|end_char=160
+27	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	_	_	start_char=160|end_char=162
+28	"	"	PUNCT	``	_	27	_	_	start_char=163|end_char=164|SpaceAfter=No
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	_	_	start_char=164|end_char=165
+30-31	can't	_	_	_	_	_	_	_	start_char=166|end_char=171
+30	ca	can	AUX	MD	VerbForm=Fin	29	_	_	start_char=166|end_char=168
+31	n't	not	PART	RB	_	30	_	_	start_char=168|end_char=171
+32	believe	believe	VERB	VB	VerbForm=Inf	31	_	_	start_char=172|end_char=179
+33	MY	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	32	_	_	start_char=180|end_char=182
+34	team	team	NOUN	NN	Number=Sing	33	_	_	start_char=183|end_char=187
+35	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	_	_	start_char=188|end_char=190
+36	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	35	_	_	start_char=191|end_char=196
+37	this	this	PRON	DT	Number=Sing|PronType=Dem	36	_	_	start_char=197|end_char=201|SpaceAfter=No
+38	!!	!!	PUNCT	.	_	37	_	_	start_char=201|end_char=203|SpaceAfter=No
+39	"	"	PUNCT	''	_	38	_	_	start_char=203|end_char=204
+
+# text = If this what works, good I guess
+# sent_id = 9395
+1	If	if	SCONJ	IN	_	0	_	_	start_char=205|end_char=207
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=208|end_char=212
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=213|end_char=217
+4	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=218|end_char=223|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=223|end_char=224
+6	good	good	ADJ	JJ	Degree=Pos	5	_	_	start_char=225|end_char=229
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=230|end_char=231
+8	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=232|end_char=237|SpaceAfter=No
+

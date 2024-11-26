@@ -1,0 +1,48 @@
+# text = Always one in the crowd, see those two little white specs right of the shack, dead birds.
+# sent_id = 7150
+1	Always	Always	ADV	RB	_	0	_	_	start_char=0|end_char=6
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=7|end_char=10
+3	in	in	ADP	IN	_	2	_	_	start_char=11|end_char=13
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=14|end_char=17
+5	crowd	crowd	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=23|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=23|end_char=24
+7	see	see	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=25|end_char=28
+8	those	that	DET	DT	Number=Plur|PronType=Dem	7	_	_	start_char=29|end_char=34
+9	two	two	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=35|end_char=38
+10	little	little	ADJ	JJ	Degree=Pos	9	_	_	start_char=39|end_char=45
+11	white	white	ADJ	JJ	Degree=Pos	10	_	_	start_char=46|end_char=51
+12	specs	spec	NOUN	NNS	Number=Plur	11	_	_	start_char=52|end_char=57
+13	right	right	ADV	RB	_	12	_	_	start_char=58|end_char=63
+14	of	of	ADP	IN	_	13	_	_	start_char=64|end_char=66
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=67|end_char=70
+16	shack	shack	NOUN	NN	Number=Sing	15	_	_	start_char=71|end_char=76|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=76|end_char=77
+18	dead	dead	ADJ	JJ	Degree=Pos	17	_	_	start_char=78|end_char=82
+19	birds	bird	NOUN	NNS	Number=Plur	18	_	_	start_char=83|end_char=88|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=88|end_char=89
+
+# text = Generating juice at the expense of wild life, and it's not even a pitcher of juice at that.
+# sent_id = 7151
+1	Generating	generate	VERB	VBG	VerbForm=Ger	0	_	_	start_char=90|end_char=100
+2	juice	juice	NOUN	NN	Number=Sing	1	_	_	start_char=101|end_char=106
+3	at	at	ADP	IN	_	2	_	_	start_char=107|end_char=109
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=110|end_char=113
+5	expense	expense	NOUN	NN	Number=Sing	4	_	_	start_char=114|end_char=121
+6	of	of	ADP	IN	_	5	_	_	start_char=122|end_char=124
+7	wild	wild	ADJ	JJ	Degree=Pos	6	_	_	start_char=125|end_char=129
+8	life	life	NOUN	NN	Number=Sing	7	_	_	start_char=130|end_char=134|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=134|end_char=135
+10	and	and	CCONJ	CC	_	9	_	_	start_char=136|end_char=139
+11-12	it's	_	_	_	_	_	_	_	start_char=140|end_char=144
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=140|end_char=142
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=142|end_char=144
+13	not	not	PART	RB	_	12	_	_	start_char=145|end_char=148
+14	even	even	ADV	RB	_	13	_	_	start_char=149|end_char=153
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=154|end_char=155
+16	pitcher	pitcher	NOUN	NN	Number=Sing	15	_	_	start_char=156|end_char=163
+17	of	of	ADP	IN	_	16	_	_	start_char=164|end_char=166
+18	juice	juice	NOUN	NN	Number=Sing	17	_	_	start_char=167|end_char=172
+19	at	at	ADP	IN	_	18	_	_	start_char=173|end_char=175
+20	that	that	PRON	DT	Number=Sing|PronType=Dem	19	_	_	start_char=176|end_char=180|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=180|end_char=181|SpaceAfter=No
+

@@ -1,0 +1,33 @@
+# text = Granny Cankles sent out that creeper Podesta.
+# sent_id = 1959
+1	Granny	Granny	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	Cankles	Cankles	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=14
+3	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=15|end_char=19
+4	out	out	ADP	RP	_	3	_	_	start_char=20|end_char=23
+5	that	that	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=24|end_char=28
+6	creeper	creeper	NOUN	NN	Number=Sing	5	_	_	start_char=29|end_char=36
+7	Podesta	Podesta	PROPN	NNP	Number=Sing	6	_	_	start_char=37|end_char=44|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=44|end_char=45
+
+# text = She's probably too inebriated to come out herself.
+# sent_id = 1960
+1-2	She's	_	_	_	_	_	_	_	start_char=46|end_char=51
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=46|end_char=49
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=49|end_char=51
+3	probably	probably	ADV	RB	_	2	_	_	start_char=52|end_char=60
+4	too	too	ADV	RB	_	3	_	_	start_char=61|end_char=64
+5	inebriated	inebriated	ADJ	JJ	Degree=Pos	4	_	_	start_char=65|end_char=75
+6	to	to	PART	TO	_	5	_	_	start_char=76|end_char=78
+7	come	come	VERB	VB	VerbForm=Inf	6	_	_	start_char=79|end_char=83
+8	out	out	ADP	RP	_	7	_	_	start_char=84|end_char=87
+9	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	8	_	_	start_char=88|end_char=95|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=95|end_char=96
+
+# text = #MAGA #vote #DonaldTrump
+# sent_id = 1961
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=97|end_char=98|SpaceAfter=No
+2	MAGA	maga	NOUN	GW	Number=Sing	1	_	_	start_char=98|end_char=102
+3	#vote	#vote	X	GW	_	2	_	_	start_char=103|end_char=108
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=109|end_char=110|SpaceAfter=No
+5	DonaldTrump	donaldtrump	NOUN	NN	Number=Sing	4	_	_	start_char=110|end_char=121|SpaceAfter=No
+

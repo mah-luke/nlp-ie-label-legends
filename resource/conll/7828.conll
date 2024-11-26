@@ -1,0 +1,39 @@
+# text = [USER]
+# sent_id = 16437
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = I think it's assumed that they're losers.
+# sent_id = 16438
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=14
+3-4	it's	_	_	_	_	_	_	_	start_char=15|end_char=19
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=15|end_char=17
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=17|end_char=19
+5	assumed	assume	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=20|end_char=27
+6	that	that	SCONJ	IN	_	5	_	_	start_char=28|end_char=32
+7-8	they're	_	_	_	_	_	_	_	start_char=33|end_char=40
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=33|end_char=37
+8	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=37|end_char=40
+9	losers	loser	NOUN	NNS	Number=Plur	8	_	_	start_char=41|end_char=47|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=47|end_char=48
+
+# text = The whole thing is a bunch of misandrist loser women LARPing about being relevant.
+# sent_id = 16439
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=49|end_char=52
+2	whole	whole	ADJ	JJ	Degree=Pos	1	_	_	start_char=53|end_char=58
+3	thing	thing	NOUN	NN	Number=Sing	2	_	_	start_char=59|end_char=64
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=65|end_char=67
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=68|end_char=69
+6	bunch	bunch	NOUN	NN	Number=Sing	5	_	_	start_char=70|end_char=75
+7	of	of	ADP	IN	_	6	_	_	start_char=76|end_char=78
+8	misandrist	misandrist	NOUN	NN	Number=Sing	7	_	_	start_char=79|end_char=89
+9	loser	loser	NOUN	NN	Number=Sing	8	_	_	start_char=90|end_char=95
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=96|end_char=101
+11	LARPing	LARPing	PROPN	NNP	Number=Sing	10	_	_	start_char=102|end_char=109
+12	about	about	SCONJ	IN	_	11	_	_	start_char=110|end_char=115
+13	being	be	AUX	VBG	VerbForm=Ger	12	_	_	start_char=116|end_char=121
+14	relevant	relevant	ADJ	JJ	Degree=Pos	13	_	_	start_char=122|end_char=130|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=130|end_char=131|SpaceAfter=No
+

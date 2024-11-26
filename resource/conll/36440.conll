@@ -1,0 +1,47 @@
+# text = In Greeley, CO they're tribes, one woman hit a pregnant praying woman with a meat hook and hard hat?
+# sent_id = 77925
+1	In	in	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	Greeley	Greeley	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=10|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=10|end_char=11
+4	CO	CO	PROPN	NNP	Number=Sing	3	_	_	start_char=12|end_char=14
+5-6	they're	_	_	_	_	_	_	_	start_char=15|end_char=22
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=15|end_char=19
+6	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=19|end_char=22
+7	tribes	tribe	NOUN	NNS	Number=Plur	6	_	_	start_char=23|end_char=29|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=29|end_char=30
+9	one	one	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=31|end_char=34
+10	woman	woman	NOUN	NN	Number=Sing	9	_	_	start_char=35|end_char=40
+11	hit	hit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=41|end_char=44
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=45|end_char=46
+13	pregnant	pregnant	ADJ	JJ	Degree=Pos	12	_	_	start_char=47|end_char=55
+14	praying	praying	NOUN	NN	Number=Sing	13	_	_	start_char=56|end_char=63
+15	woman	woman	NOUN	NN	Number=Sing	14	_	_	start_char=64|end_char=69
+16	with	with	ADP	IN	_	15	_	_	start_char=70|end_char=74
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=75|end_char=76
+18	meat	meat	NOUN	NN	Number=Sing	17	_	_	start_char=77|end_char=81
+19	hook	hook	NOUN	NN	Number=Sing	18	_	_	start_char=82|end_char=86
+20	and	and	CCONJ	CC	_	19	_	_	start_char=87|end_char=90
+21	hard	hard	ADJ	JJ	Degree=Pos	20	_	_	start_char=91|end_char=95
+22	hat	hat	NOUN	NN	Number=Sing	21	_	_	start_char=96|end_char=99|SpaceAfter=No
+23	?	?	PUNCT	.	_	22	_	_	start_char=99|end_char=100
+
+# text = Let them kill each other off!
+# sent_id = 77926
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=101|end_char=104
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=105|end_char=109
+3	kill	kill	VERB	VB	VerbForm=Inf	2	_	_	start_char=110|end_char=114
+4	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	3	_	_	start_char=115|end_char=119
+5	other	other	ADJ	JJ	Degree=Pos	4	_	_	start_char=120|end_char=125
+6	off	off	ADP	RP	_	5	_	_	start_char=126|end_char=129|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=129|end_char=130
+
+# text = Don't eat those foods!
+# sent_id = 77927
+1-2	Don't	_	_	_	_	_	_	_	start_char=131|end_char=136
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=131|end_char=133
+2	n't	not	PART	RB	_	1	_	_	start_char=133|end_char=136
+3	eat	eat	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=137|end_char=140
+4	those	that	DET	DT	Number=Plur|PronType=Dem	3	_	_	start_char=141|end_char=146
+5	foods	food	NOUN	NNS	Number=Plur	4	_	_	start_char=147|end_char=152|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=152|end_char=153|SpaceAfter=No
+

@@ -1,0 +1,43 @@
+# text = good for her!
+# sent_id = 36144
+1	good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	for	for	ADP	IN	_	1	_	_	start_char=5|end_char=8
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=12|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=12|end_char=13
+
+# text = none of us are getting out alive so you might as well live like you wanna.
+# sent_id = 36145
+1	none	none	NOUN	NN	Number=Sing	0	_	_	start_char=14|end_char=18
+2	of	of	ADP	IN	_	1	_	_	start_char=19|end_char=21
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=22|end_char=24
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=25|end_char=28
+5	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=29|end_char=36
+6	out	out	ADV	RB	_	5	_	_	start_char=37|end_char=40
+7	alive	alive	ADJ	JJ	Degree=Pos	6	_	_	start_char=41|end_char=46
+8	so	so	ADV	RB	_	7	_	_	start_char=47|end_char=49
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=50|end_char=53
+10	might	might	AUX	MD	VerbForm=Fin	9	_	_	start_char=54|end_char=59
+11	as	as	ADV	RB	_	10	_	_	start_char=60|end_char=62
+12	well	well	ADV	RB	Degree=Pos	11	_	_	start_char=63|end_char=67
+13	live	live	VERB	VB	VerbForm=Inf	12	_	_	start_char=68|end_char=72
+14	like	like	SCONJ	IN	_	13	_	_	start_char=73|end_char=77
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	_	_	start_char=78|end_char=81
+16-17	wanna	_	_	_	_	_	_	_	start_char=82|end_char=87|SpaceAfter=No
+16	wan	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	_	_	start_char=82|end_char=85
+17	na	to	PART	TO	_	16	_	_	start_char=85|end_char=87
+18	.	.	PUNCT	.	_	17	_	_	start_char=87|end_char=88
+
+# text = my mom's tipple is dewar's straight.
+# sent_id = 36146
+1	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=89|end_char=91
+2-3	mom's	_	_	_	_	_	_	_	start_char=92|end_char=97
+2	mom	mom	NOUN	NN	Number=Sing	1	_	_	start_char=92|end_char=95
+3	's	's	PART	POS	_	2	_	_	start_char=95|end_char=97
+4	tipple	tipple	NOUN	NN	Number=Sing	3	_	_	start_char=98|end_char=104
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=105|end_char=107
+6-7	dewar's	_	_	_	_	_	_	_	start_char=108|end_char=115
+6	dewar	dewar	NOUN	NN	Number=Sing	5	_	_	start_char=108|end_char=113
+7	's	's	PART	POS	_	6	_	_	start_char=113|end_char=115
+8	straight	straight	ADJ	JJ	Degree=Pos	7	_	_	start_char=116|end_char=124|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=124|end_char=125|SpaceAfter=No
+

@@ -1,0 +1,54 @@
+# text = It's wild he thinks a woman's life is a constant fuckparty.
+# sent_id = 22651
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	wild	wild	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=9
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=10|end_char=12
+5	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=13|end_char=19
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=20|end_char=21
+7-8	woman's	_	_	_	_	_	_	_	start_char=22|end_char=29
+7	woman	woman	NOUN	NN	Number=Sing	6	_	_	start_char=22|end_char=27
+8	's	's	PART	POS	_	7	_	_	start_char=27|end_char=29
+9	life	life	NOUN	NN	Number=Sing	8	_	_	start_char=30|end_char=34
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=35|end_char=37
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=38|end_char=39
+12	constant	constant	ADJ	JJ	Degree=Pos	11	_	_	start_char=40|end_char=48
+13	fuckparty	fuckparty	NOUN	NN	Number=Sing	12	_	_	start_char=49|end_char=58|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=58|end_char=59
+
+# text = Like, hell, I wish I could spend all day with my man but I have to work to earn a living like every other fucking adult regardless of gender.
+# sent_id = 22652
+1	Like	like	INTJ	UH	_	0	_	_	start_char=60|end_char=64|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=64|end_char=65
+3	hell	hell	INTJ	UH	_	2	_	_	start_char=66|end_char=70|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=70|end_char=71
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=72|end_char=73
+6	wish	wish	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=74|end_char=78
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=79|end_char=80
+8	could	could	AUX	MD	VerbForm=Fin	7	_	_	start_char=81|end_char=86
+9	spend	spend	VERB	VB	VerbForm=Inf	8	_	_	start_char=87|end_char=92
+10	all	all	DET	DT	_	9	_	_	start_char=93|end_char=96
+11	day	day	NOUN	NN	Number=Sing	10	_	_	start_char=97|end_char=100
+12	with	with	ADP	IN	_	11	_	_	start_char=101|end_char=105
+13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	_	_	start_char=106|end_char=108
+14	man	man	NOUN	NN	Number=Sing	13	_	_	start_char=109|end_char=112
+15	but	but	CCONJ	CC	_	14	_	_	start_char=113|end_char=116
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=117|end_char=118
+17	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	_	_	start_char=119|end_char=123
+18	to	to	PART	TO	_	17	_	_	start_char=124|end_char=126
+19	work	work	VERB	VB	VerbForm=Inf	18	_	_	start_char=127|end_char=131
+20	to	to	PART	TO	_	19	_	_	start_char=132|end_char=134
+21	earn	earn	VERB	VB	VerbForm=Inf	20	_	_	start_char=135|end_char=139
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	start_char=140|end_char=141
+23	living	living	NOUN	NN	Number=Sing	22	_	_	start_char=142|end_char=148
+24	like	like	ADP	IN	_	23	_	_	start_char=149|end_char=153
+25	every	every	DET	DT	_	24	_	_	start_char=154|end_char=159
+26	other	other	ADJ	JJ	Degree=Pos	25	_	_	start_char=160|end_char=165
+27	fucking	fuck	NOUN	NN	Number=Sing	26	_	_	start_char=166|end_char=173
+28	adult	adult	NOUN	NN	Number=Sing	27	_	_	start_char=174|end_char=179
+29	regardless	regardless	ADV	RB	_	28	_	_	start_char=180|end_char=190
+30	of	of	ADP	IN	_	29	_	_	start_char=191|end_char=193
+31	gender	gender	NOUN	NN	Number=Sing	30	_	_	start_char=194|end_char=200|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	start_char=200|end_char=201|SpaceAfter=No
+

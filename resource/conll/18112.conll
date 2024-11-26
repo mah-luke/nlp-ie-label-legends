@@ -1,0 +1,48 @@
+# text = You what that left out.
+# sent_id = 38895
+1	You	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	what	what	PRON	WP	PronType=Rel	1	_	_	start_char=4|end_char=8
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=9|end_char=13
+4	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=14|end_char=18
+5	out	out	ADP	RP	_	4	_	_	start_char=19|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = If you God ok's raping and beating women you might be a muslim.
+# sent_id = 38896
+1	If	if	SCONJ	IN	_	0	_	_	start_char=24|end_char=26
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=27|end_char=30
+3	God	God	PROPN	NNP	Number=Sing	2	_	_	start_char=31|end_char=34
+4-5	ok's	_	_	_	_	_	_	_	start_char=35|end_char=39
+4	ok	ok	ADJ	JJ	Degree=Pos	3	_	_	start_char=35|end_char=37
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=37|end_char=39
+6	raping	rape	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=40|end_char=46
+7	and	and	CCONJ	CC	_	6	_	_	start_char=47|end_char=50
+8	beating	beat	VERB	VBG	VerbForm=Ger	7	_	_	start_char=51|end_char=58
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=59|end_char=64
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=65|end_char=68
+11	might	might	AUX	MD	VerbForm=Fin	10	_	_	start_char=69|end_char=74
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	start_char=75|end_char=77
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=78|end_char=79
+14	muslim	muslim	NOUN	NN	Number=Sing	13	_	_	start_char=80|end_char=86|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=86|end_char=87
+
+# text = If your god ok's thighing (molesting) infants you might be a muslim.
+# sent_id = 38897
+1	If	if	SCONJ	IN	_	0	_	_	start_char=88|end_char=90
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=91|end_char=95
+3	god	god	NOUN	NN	Number=Sing	2	_	_	start_char=96|end_char=99
+4-5	ok's	_	_	_	_	_	_	_	start_char=100|end_char=104
+4	ok	ok	ADJ	JJ	Degree=Pos	3	_	_	start_char=100|end_char=102
+5	's	's	PART	POS	_	4	_	_	start_char=102|end_char=104
+6	thighing	thighing	NOUN	NN	Number=Sing	5	_	_	start_char=105|end_char=113
+7	(	(	PUNCT	-LRB-	_	6	_	_	start_char=114|end_char=115|SpaceAfter=No
+8	molesting	molest	VERB	VBG	VerbForm=Ger	7	_	_	start_char=115|end_char=124|SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	8	_	_	start_char=124|end_char=125
+10	infants	infant	NOUN	NNS	Number=Plur	9	_	_	start_char=126|end_char=133
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=134|end_char=137
+12	might	might	AUX	MD	VerbForm=Fin	11	_	_	start_char=138|end_char=143
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=144|end_char=146
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=147|end_char=148
+15	muslim	muslim	NOUN	NN	Number=Sing	14	_	_	start_char=149|end_char=155|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=155|end_char=156|SpaceAfter=No
+

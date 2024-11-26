@@ -1,0 +1,27 @@
+# text = To answer your question:
+# sent_id = 91060
+1	To	to	PART	TO	_	0	_	_	start_char=0|end_char=2
+2	answer	answer	VERB	VB	VerbForm=Inf	1	_	_	start_char=3|end_char=9
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=10|end_char=14
+4	question	question	NOUN	NN	Number=Sing	3	_	_	start_char=15|end_char=23|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=23|end_char=24
+
+# text = No, I don’t hate all women, only the tumblr feminist ones.
+# sent_id = 91061
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=25|end_char=27|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=27|end_char=28
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=29|end_char=30
+4-5	don’t	_	_	_	_	_	_	_	start_char=31|end_char=36
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=31|end_char=33
+5	n’t	not	PART	RB	_	4	_	_	start_char=33|end_char=36
+6	hate	hate	VERB	VB	VerbForm=Inf	5	_	_	start_char=37|end_char=41
+7	all	all	DET	DT	_	6	_	_	start_char=42|end_char=45
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=46|end_char=51|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=51|end_char=52
+10	only	only	ADV	RB	_	9	_	_	start_char=53|end_char=57
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=58|end_char=61
+12	tumblr	tumblr	NOUN	NN	Number=Sing	11	_	_	start_char=62|end_char=68
+13	feminist	feminist	ADJ	JJ	Degree=Pos	12	_	_	start_char=69|end_char=77
+14	ones	one	NOUN	NNS	Number=Plur	13	_	_	start_char=78|end_char=82|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=82|end_char=83|SpaceAfter=No
+

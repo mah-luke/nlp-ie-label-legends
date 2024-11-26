@@ -1,0 +1,50 @@
+# text = I've been getting turned onto Rugby by my youngest son.
+# sent_id = 123735
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=9
+4	getting	get	AUX	VBG	VerbForm=Ger	3	_	_	start_char=10|end_char=17
+5	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=18|end_char=24
+6	onto	onto	ADP	IN	_	5	_	_	start_char=25|end_char=29
+7	Rugby	rugby	PROPN	NNP	Number=Sing	6	_	_	start_char=30|end_char=35
+8	by	by	ADP	IN	_	7	_	_	start_char=36|end_char=38
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=39|end_char=41
+10	youngest	young	ADJ	JJS	Degree=Sup	9	_	_	start_char=42|end_char=50
+11	son	son	NOUN	NN	Number=Sing	10	_	_	start_char=51|end_char=54|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=54|end_char=55
+
+# text = I'm a total noob but I like it.
+# sent_id = 123736
+1-2	I'm	_	_	_	_	_	_	_	start_char=56|end_char=59
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=56|end_char=57
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=57|end_char=59
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=60|end_char=61
+4	total	total	ADJ	JJ	Degree=Pos	3	_	_	start_char=62|end_char=67
+5	noob	noob	NOUN	NN	Number=Sing	4	_	_	start_char=68|end_char=72
+6	but	but	CCONJ	CC	_	5	_	_	start_char=73|end_char=76
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=77|end_char=78
+8	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=79|end_char=83
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=84|end_char=86|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=86|end_char=87
+
+# text = I've yet to see anyone take a knee to impress their new muslim girlfriend.
+# sent_id = 123737
+1-2	I've	_	_	_	_	_	_	_	start_char=88|end_char=92
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=88|end_char=89
+2	've	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=89|end_char=92
+3	yet	yet	ADV	RB	_	2	_	_	start_char=93|end_char=96
+4	to	to	PART	TO	_	3	_	_	start_char=97|end_char=99
+5	see	see	VERB	VB	VerbForm=Inf	4	_	_	start_char=100|end_char=103
+6	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	5	_	_	start_char=104|end_char=110
+7	take	take	VERB	VB	VerbForm=Inf	6	_	_	start_char=111|end_char=115
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=116|end_char=117
+9	knee	knee	NOUN	NN	Number=Sing	8	_	_	start_char=118|end_char=122
+10	to	to	PART	TO	_	9	_	_	start_char=123|end_char=125
+11	impress	impress	VERB	VB	VerbForm=Inf	10	_	_	start_char=126|end_char=133
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=134|end_char=139
+13	new	new	ADJ	JJ	Degree=Pos	12	_	_	start_char=140|end_char=143
+14	muslim	muslim	ADJ	JJ	Degree=Pos	13	_	_	start_char=144|end_char=150
+15	girlfriend	girlfriend	NOUN	NN	Number=Sing	14	_	_	start_char=151|end_char=161|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=161|end_char=162|SpaceAfter=No
+

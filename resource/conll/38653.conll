@@ -1,0 +1,45 @@
+# text = [USER]
+# sent_id = 82645
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = I'd let the dems pay me to vote for Hillary.
+# sent_id = 82646
+1-2	I'd	_	_	_	_	_	_	_	start_char=7|end_char=10
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=8|end_char=10
+3	let	let	VERB	VB	VerbForm=Inf	2	_	_	start_char=11|end_char=14
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=15|end_char=18
+5	dems	dem	NOUN	NNS	Number=Plur	4	_	_	start_char=19|end_char=23
+6	pay	pay	VERB	VB	VerbForm=Inf	5	_	_	start_char=24|end_char=27
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=28|end_char=30
+8	to	to	PART	TO	_	7	_	_	start_char=31|end_char=33
+9	vote	vote	VERB	VB	VerbForm=Inf	8	_	_	start_char=34|end_char=38
+10	for	for	ADP	IN	_	9	_	_	start_char=39|end_char=42
+11	Hillary	Hillary	PROPN	NNP	Number=Sing	10	_	_	start_char=43|end_char=50|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=50|end_char=51
+
+# text = I wouldn't actually vote for her.
+# sent_id = 82647
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=52|end_char=53
+2-3	wouldn't	_	_	_	_	_	_	_	start_char=54|end_char=62
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=54|end_char=59
+3	n't	not	PART	RB	_	2	_	_	start_char=59|end_char=62
+4	actually	actually	ADV	RB	_	3	_	_	start_char=63|end_char=71
+5	vote	vote	VERB	VB	VerbForm=Inf	4	_	_	start_char=72|end_char=76
+6	for	for	ADP	IN	_	5	_	_	start_char=77|end_char=80
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=81|end_char=84|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=84|end_char=85
+
+# text = But I'd take their money.
+# sent_id = 82648
+1	But	but	CCONJ	CC	_	0	_	_	start_char=86|end_char=89
+2-3	I'd	_	_	_	_	_	_	_	start_char=90|end_char=93
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=90|end_char=91
+3	'd	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=91|end_char=93
+4	take	take	VERB	VB	VerbForm=Inf	3	_	_	start_char=94|end_char=98
+5	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=99|end_char=104
+6	money	money	NOUN	NN	Number=Sing	5	_	_	start_char=105|end_char=110|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=110|end_char=111|SpaceAfter=No
+

@@ -1,0 +1,36 @@
+# text = what was her reaction?
+# sent_id = 23075
+1	what	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	reaction	reaction	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=21|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=21|end_char=22
+
+# text = did you kiss her neck?
+# sent_id = 23076
+1	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	_	_	start_char=23|end_char=26
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=27|end_char=30
+3	kiss	kiss	VERB	VB	VerbForm=Inf	2	_	_	start_char=31|end_char=35
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=36|end_char=39
+5	neck	neck	NOUN	NN	Number=Sing	4	_	_	start_char=40|end_char=44|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=44|end_char=45
+
+# text = grab the tits?
+# sent_id = 23077
+1	grab	grab	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=46|end_char=50
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=51|end_char=54
+3	tits	tit	NOUN	NNS	Number=Plur	2	_	_	start_char=55|end_char=59|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=59|end_char=60
+
+# text = that's sort of staple spooning fare.
+# sent_id = 23078
+1-2	that's	_	_	_	_	_	_	_	start_char=61|end_char=67
+1	that	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=61|end_char=65
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=65|end_char=67
+3	sort	sort	NOUN	NN	Number=Sing	2	_	_	start_char=68|end_char=72
+4	of	of	ADP	IN	_	3	_	_	start_char=73|end_char=75
+5	staple	staple	NOUN	NN	Number=Sing	4	_	_	start_char=76|end_char=82
+6	spooning	spooning	NOUN	NN	Number=Sing	5	_	_	start_char=83|end_char=91
+7	fare	fare	NOUN	NN	Number=Sing	6	_	_	start_char=92|end_char=96|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=96|end_char=97|SpaceAfter=No
+

@@ -1,0 +1,76 @@
+# text = [USER]
+# sent_id = 42852
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Oh that's why they had to use celebrities.
+# sent_id = 42853
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=7|end_char=9
+2-3	that's	_	_	_	_	_	_	_	start_char=10|end_char=16
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=10|end_char=14
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=14|end_char=16
+4	why	why	ADV	WRB	PronType=Rel	3	_	_	start_char=17|end_char=20
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=21|end_char=25
+6	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=26|end_char=29
+7	to	to	PART	TO	_	6	_	_	start_char=30|end_char=32
+8	use	use	VERB	VB	VerbForm=Inf	7	_	_	start_char=33|end_char=36
+9	celebrities	celebrity	NOUN	NNS	Number=Plur	8	_	_	start_char=37|end_char=48|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=48|end_char=49
+
+# text = No way they could find such an innocent little girl in Hollywood these days.
+# sent_id = 42854
+1	No	no	DET	DT	_	0	_	_	start_char=50|end_char=52
+2	way	way	NOUN	NN	Number=Sing	1	_	_	start_char=53|end_char=56
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=57|end_char=61
+4	could	could	AUX	MD	VerbForm=Fin	3	_	_	start_char=62|end_char=67
+5	find	find	VERB	VB	VerbForm=Inf	4	_	_	start_char=68|end_char=72
+6	such	such	DET	PDT	_	5	_	_	start_char=73|end_char=77
+7	an	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=78|end_char=80
+8	innocent	innocent	ADJ	JJ	Degree=Pos	7	_	_	start_char=81|end_char=89
+9	little	little	ADJ	JJ	Degree=Pos	8	_	_	start_char=90|end_char=96
+10	girl	girl	NOUN	NN	Number=Sing	9	_	_	start_char=97|end_char=101
+11	in	in	ADP	IN	_	10	_	_	start_char=102|end_char=104
+12	Hollywood	Hollywood	PROPN	NNP	Number=Sing	11	_	_	start_char=105|end_char=114
+13	these	this	DET	DT	Number=Plur|PronType=Dem	12	_	_	start_char=115|end_char=120
+14	days	day	NOUN	NNS	Number=Plur	13	_	_	start_char=121|end_char=125|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=125|end_char=126
+
+# text = 😛
+# sent_id = 42855
+1	😛	😛	PUNCT	NFP	_	0	_	_	start_char=127|end_char=128
+
+# text = Nice find and a big TY for the share.
+# sent_id = 42856
+1	Nice	nice	ADJ	JJ	Degree=Pos	0	_	_	start_char=129|end_char=133
+2	find	find	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=134|end_char=138
+3	and	and	CCONJ	CC	_	2	_	_	start_char=139|end_char=142
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=143|end_char=144
+5	big	big	ADJ	JJ	Degree=Pos	4	_	_	start_char=145|end_char=148
+6	TY	ty	NOUN	NN	Number=Sing	5	_	_	start_char=149|end_char=151
+7	for	for	ADP	IN	_	6	_	_	start_char=152|end_char=155
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=156|end_char=159
+9	share	share	NOUN	NN	Number=Sing	8	_	_	start_char=160|end_char=165|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=165|end_char=166
+
+# text = Never seen it before and it's some hard core advertising, especially for the time.
+# sent_id = 42857
+1	Never	never	ADV	RB	_	0	_	_	start_char=167|end_char=172
+2	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=173|end_char=177
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=178|end_char=180
+4	before	before	ADV	RB	_	3	_	_	start_char=181|end_char=187
+5	and	and	CCONJ	CC	_	4	_	_	start_char=188|end_char=191
+6-7	it's	_	_	_	_	_	_	_	start_char=192|end_char=196
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=192|end_char=194
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=194|end_char=196
+8	some	some	DET	DT	_	7	_	_	start_char=197|end_char=201
+9	hard	hard	ADJ	JJ	Degree=Pos	8	_	_	start_char=202|end_char=206
+10	core	core	NOUN	NN	Number=Sing	9	_	_	start_char=207|end_char=211
+11	advertising	advertising	NOUN	NN	Number=Sing	10	_	_	start_char=212|end_char=223|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=223|end_char=224
+13	especially	especially	ADV	RB	_	12	_	_	start_char=225|end_char=235
+14	for	for	ADP	IN	_	13	_	_	start_char=236|end_char=239
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=240|end_char=243
+16	time	time	NOUN	NN	Number=Sing	15	_	_	start_char=244|end_char=248|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=248|end_char=249|SpaceAfter=No
+

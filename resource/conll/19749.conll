@@ -1,0 +1,80 @@
+# text = I'm ironing clothes for the daddy-daughter dance.
+# sent_id = 42393
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	ironing	iron	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=4|end_char=11
+4	clothes	clothes	NOUN	NNS	Number=Plur	3	_	_	start_char=12|end_char=19
+5	for	for	ADP	IN	_	4	_	_	start_char=20|end_char=23
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=24|end_char=27
+7	daddy	daddy	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=33|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	_	_	start_char=33|end_char=34|SpaceAfter=No
+9	daughter	daughter	NOUN	NN	Number=Sing	8	_	_	start_char=34|end_char=42
+10	dance	dance	NOUN	NN	Number=Sing	9	_	_	start_char=43|end_char=48|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=48|end_char=49
+
+# text = It'll be my daughter Danica's first dance.
+# sent_id = 42394
+1-2	It'll	_	_	_	_	_	_	_	start_char=50|end_char=55
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=50|end_char=52
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=52|end_char=55
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=56|end_char=58
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=59|end_char=61
+5	daughter	daughter	NOUN	NN	Number=Sing	4	_	_	start_char=62|end_char=70
+6-7	Danica's	_	_	_	_	_	_	_	start_char=71|end_char=79
+6	Danica	Danica	PROPN	NNP	Number=Sing	5	_	_	start_char=71|end_char=77
+7	's	's	PART	POS	_	6	_	_	start_char=77|end_char=79
+8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	_	_	start_char=80|end_char=85
+9	dance	dance	NOUN	NN	Number=Sing	8	_	_	start_char=86|end_char=91|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=91|end_char=92
+
+# text = I got a spa day all ready for her here at home.
+# sent_id = 42395
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=93|end_char=94
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=95|end_char=98
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=99|end_char=100
+4	spa	spa	NOUN	NN	Number=Sing	3	_	_	start_char=101|end_char=104
+5	day	day	NOUN	NN	Number=Sing	4	_	_	start_char=105|end_char=108
+6	all	all	ADV	RB	_	5	_	_	start_char=109|end_char=112
+7	ready	ready	ADJ	JJ	Degree=Pos	6	_	_	start_char=113|end_char=118
+8	for	for	ADP	IN	_	7	_	_	start_char=119|end_char=122
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=123|end_char=126
+10	here	here	ADV	RB	PronType=Dem	9	_	_	start_char=127|end_char=131
+11	at	at	ADP	IN	_	10	_	_	start_char=132|end_char=134
+12	home	home	NOUN	NN	Number=Sing	11	_	_	start_char=135|end_char=139|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=139|end_char=140
+
+# text = HAIR MAKEUP MANIS AND PEDIS
+# sent_id = 42396
+1	HAIR	hair	NOUN	NN	Number=Sing	0	_	_	start_char=141|end_char=145
+2	MAKEUP	makeup	NOUN	NN	Number=Sing	1	_	_	start_char=146|end_char=152
+3	MANIS	manis	NOUN	NN	Number=Sing	2	_	_	start_char=153|end_char=158
+4	AND	and	CCONJ	CC	_	3	_	_	start_char=159|end_char=162
+5	PEDIS	pedis	NOUN	NN	Number=Sing	4	_	_	start_char=163|end_char=168
+
+# text = She's going to be taking her big brother Julius!
+# sent_id = 42397
+1-2	She's	_	_	_	_	_	_	_	start_char=169|end_char=174
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=169|end_char=172
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=172|end_char=174
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=175|end_char=180
+4	to	to	PART	TO	_	3	_	_	start_char=181|end_char=183
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=184|end_char=186
+6	taking	take	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=187|end_char=193
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=194|end_char=197
+8	big	big	ADJ	JJ	Degree=Pos	7	_	_	start_char=198|end_char=201
+9	brother	brother	NOUN	NN	Number=Sing	8	_	_	start_char=202|end_char=209
+10	Julius	Julius	PROPN	NNP	Number=Sing	9	_	_	start_char=210|end_char=216|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=216|end_char=217
+
+# text = and I'll have pics coming soon
+# sent_id = 42398
+1	and	and	CCONJ	CC	_	0	_	_	start_char=218|end_char=221
+2-3	I'll	_	_	_	_	_	_	_	start_char=222|end_char=226
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=222|end_char=223
+3	'll	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=223|end_char=226
+4	have	have	VERB	VB	VerbForm=Inf	3	_	_	start_char=227|end_char=231
+5	pics	pic	NOUN	NNS	Number=Plur	4	_	_	start_char=232|end_char=236
+6	coming	come	VERB	VBG	VerbForm=Ger	5	_	_	start_char=237|end_char=243
+7	soon	soon	ADV	RB	Degree=Pos	6	_	_	start_char=244|end_char=248|SpaceAfter=No
+

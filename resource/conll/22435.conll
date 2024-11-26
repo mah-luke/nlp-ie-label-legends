@@ -1,0 +1,28 @@
+# text = Gasp!
+# sent_id = 48186
+1	Gasp	gasp	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = You're telling me women only want money?
+# sent_id = 48187
+1-2	You're	_	_	_	_	_	_	_	start_char=6|end_char=12
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=6|end_char=9
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=12
+3	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=13|end_char=20
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=21|end_char=23
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=24|end_char=29
+6	only	only	ADV	RB	_	5	_	_	start_char=30|end_char=34
+7	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=35|end_char=39
+8	money	money	NOUN	NN	Number=Sing	7	_	_	start_char=40|end_char=45|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=45|end_char=46
+
+# text = Haha jkjkjk on the real though.
+# sent_id = 48188
+1	Haha	haha	INTJ	UH	_	0	_	_	start_char=47|end_char=51
+2	jkjkjk	jkjkjk	INTJ	UH	_	1	_	_	start_char=52|end_char=58
+3	on	on	ADP	IN	_	2	_	_	start_char=59|end_char=61
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=62|end_char=65
+5	real	real	ADJ	JJ	Degree=Pos	4	_	_	start_char=66|end_char=70
+6	though	though	ADV	RB	_	5	_	_	start_char=71|end_char=77|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=77|end_char=78|SpaceAfter=No
+

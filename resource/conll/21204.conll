@@ -1,0 +1,48 @@
+# text = Some kinda do, it depends on their criterias.
+# sent_id = 45546
+1	Some	some	DET	DT	_	0	_	_	start_char=0|end_char=4
+2	kinda	kinda	ADV	RB	_	1	_	_	start_char=5|end_char=10
+3	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=13|end_char=14
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=15|end_char=17
+6	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=18|end_char=25
+7	on	on	ADP	IN	_	6	_	_	start_char=26|end_char=28
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=29|end_char=34
+9	criterias	criterio	NOUN	NNS	Number=Plur	8	_	_	start_char=35|end_char=44|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=44|end_char=45
+
+# text = If you are ugly af, why would she give it to you ?
+# sent_id = 45547
+1	If	if	SCONJ	IN	_	0	_	_	start_char=46|end_char=48
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=49|end_char=52
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=53|end_char=56
+4	ugly	ugly	ADJ	JJ	Degree=Pos	3	_	_	start_char=57|end_char=61
+5	af	af	ADP	IN	_	4	_	_	start_char=62|end_char=64|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=64|end_char=65
+7	why	why	ADV	WRB	PronType=Int	6	_	_	start_char=66|end_char=69
+8	would	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=70|end_char=75
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=76|end_char=79
+10	give	give	VERB	VB	VerbForm=Inf	9	_	_	start_char=80|end_char=84
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=85|end_char=87
+12	to	to	ADP	IN	_	11	_	_	start_char=88|end_char=90
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	_	_	start_char=91|end_char=94
+14	?	?	PUNCT	.	_	13	_	_	start_char=95|end_char=96
+
+# text = It will be a bad experience for her, and will have no benefit.
+# sent_id = 45548
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=97|end_char=99
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=100|end_char=104
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=105|end_char=107
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=108|end_char=109
+5	bad	bad	ADJ	JJ	Degree=Pos	4	_	_	start_char=110|end_char=113
+6	experience	experience	NOUN	NN	Number=Sing	5	_	_	start_char=114|end_char=124
+7	for	for	ADP	IN	_	6	_	_	start_char=125|end_char=128
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=129|end_char=132|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=132|end_char=133
+10	and	and	CCONJ	CC	_	9	_	_	start_char=134|end_char=137
+11	will	will	AUX	MD	VerbForm=Fin	10	_	_	start_char=138|end_char=142
+12	have	have	VERB	VB	VerbForm=Inf	11	_	_	start_char=143|end_char=147
+13	no	no	DET	DT	_	12	_	_	start_char=148|end_char=150
+14	benefit	benefit	NOUN	NN	Number=Sing	13	_	_	start_char=151|end_char=158|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=158|end_char=159|SpaceAfter=No
+

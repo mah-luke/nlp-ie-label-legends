@@ -1,0 +1,33 @@
+# text = I'm sure she's just an expensive prostitute, hunting for rich men.
+# sent_id = 114657
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=4|end_char=8
+4-5	she's	_	_	_	_	_	_	_	start_char=9|end_char=14
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=9|end_char=12
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=12|end_char=14
+6	just	just	ADV	RB	_	5	_	_	start_char=15|end_char=19
+7	an	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=20|end_char=22
+8	expensive	expensive	ADJ	JJ	Degree=Pos	7	_	_	start_char=23|end_char=32
+9	prostitute	prostitute	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=43|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=43|end_char=44
+11	hunting	hunt	VERB	VBG	VerbForm=Ger	10	_	_	start_char=45|end_char=52
+12	for	for	ADP	IN	_	11	_	_	start_char=53|end_char=56
+13	rich	rich	ADJ	JJ	Degree=Pos	12	_	_	start_char=57|end_char=61
+14	men	man	NOUN	NNS	Number=Plur	13	_	_	start_char=62|end_char=65|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=65|end_char=66
+
+# text = Business trip and husband thing is to increase SMV.
+# sent_id = 114658
+1	Business	business	NOUN	NN	Number=Sing	0	_	_	start_char=67|end_char=75
+2	trip	trip	NOUN	NN	Number=Sing	1	_	_	start_char=76|end_char=80
+3	and	and	CCONJ	CC	_	2	_	_	start_char=81|end_char=84
+4	husband	husband	NOUN	NN	Number=Sing	3	_	_	start_char=85|end_char=92
+5	thing	thing	NOUN	NN	Number=Sing	4	_	_	start_char=93|end_char=98
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=99|end_char=101
+7	to	to	PART	TO	_	6	_	_	start_char=102|end_char=104
+8	increase	increase	VERB	VB	VerbForm=Inf	7	_	_	start_char=105|end_char=113
+9	SMV	SMV	PROPN	NNP	Number=Sing	8	_	_	start_char=114|end_char=117|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=117|end_char=118|SpaceAfter=No
+

@@ -1,0 +1,42 @@
+# text = What does it matter?
+# sent_id = 28351
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=12
+4	matter	matter	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=19|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=19|end_char=20
+
+# text = Just meet up and see what she wants.
+# sent_id = 28352
+1	Just	just	ADV	RB	_	0	_	_	start_char=21|end_char=25
+2	meet	meet	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=26|end_char=30
+3	up	up	ADP	RP	_	2	_	_	start_char=31|end_char=33
+4	and	and	CCONJ	CC	_	3	_	_	start_char=34|end_char=37
+5	see	see	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=38|end_char=41
+6	what	what	PRON	WP	PronType=Rel	5	_	_	start_char=42|end_char=46
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=47|end_char=50
+8	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=51|end_char=56|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=56|end_char=57
+
+# text = Worst case you spend an afternoon with a lovely person.
+# sent_id = 28353
+1	Worst	bad	ADJ	JJS	Degree=Sup	0	_	_	start_char=58|end_char=63
+2	case	case	NOUN	NN	Number=Sing	1	_	_	start_char=64|end_char=68
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=69|end_char=72
+4	spend	spend	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=73|end_char=78
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=79|end_char=81
+6	afternoon	afternoon	NOUN	NN	Number=Sing	5	_	_	start_char=82|end_char=91
+7	with	with	ADP	IN	_	6	_	_	start_char=92|end_char=96
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=97|end_char=98
+9	lovely	lovely	ADJ	JJ	Degree=Pos	8	_	_	start_char=99|end_char=105
+10	person	person	NOUN	NN	Number=Sing	9	_	_	start_char=106|end_char=112|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=112|end_char=113
+
+# text = Best case you smash.
+# sent_id = 28354
+1	Best	good	ADJ	JJS	Degree=Sup	0	_	_	start_char=114|end_char=118
+2	case	case	NOUN	NN	Number=Sing	1	_	_	start_char=119|end_char=123
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=124|end_char=127
+4	smash	smash	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=128|end_char=133|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=133|end_char=134|SpaceAfter=No
+

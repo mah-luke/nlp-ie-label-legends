@@ -1,0 +1,41 @@
+# text = [USER].
+# sent_id = 6874
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=6|end_char=7
+
+# text = [URL]
+# sent_id = 6875
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=8|end_char=9|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=9|end_char=12|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=12|end_char=13
+
+# text = Great show-audio cut outs and weird music literally!
+# sent_id = 6876
+1	Great	great	ADJ	JJ	Degree=Pos	0	_	_	start_char=14|end_char=19
+2	show	show	NOUN	NN	Number=Sing	1	_	_	start_char=20|end_char=24|SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	_	_	start_char=24|end_char=25|SpaceAfter=No
+4	audio	audio	NOUN	NN	Number=Sing	3	_	_	start_char=25|end_char=30
+5	cut	cut	NOUN	NN	Number=Sing	4	_	_	start_char=31|end_char=34
+6	outs	out	NOUN	NNS	Number=Plur	5	_	_	start_char=35|end_char=39
+7	and	and	CCONJ	CC	_	6	_	_	start_char=40|end_char=43
+8	weird	weird	ADJ	JJ	Degree=Pos	7	_	_	start_char=44|end_char=49
+9	music	music	NOUN	NN	Number=Sing	8	_	_	start_char=50|end_char=55
+10	literally	literally	ADV	RB	_	9	_	_	start_char=56|end_char=65|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=65|end_char=66
+
+# text = starts playing.. also, I started it from the beginning
+# sent_id = 6877
+1	starts	start	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=67|end_char=73
+2	playing	play	VERB	VBG	VerbForm=Ger	1	_	_	start_char=74|end_char=81|SpaceAfter=No
+3	..	..	PUNCT	,	_	2	_	_	start_char=81|end_char=83
+4	also	also	ADV	RB	_	3	_	_	start_char=84|end_char=88|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=88|end_char=89
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=90|end_char=91
+7	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	_	_	start_char=92|end_char=99
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=100|end_char=102
+9	from	from	ADP	IN	_	8	_	_	start_char=103|end_char=107
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=108|end_char=111
+11	beginning	beginning	NOUN	NN	Number=Sing	10	_	_	start_char=112|end_char=121|SpaceAfter=No
+

@@ -1,0 +1,48 @@
+# text = It's either a Specsavers advert or a Head and Shoulders advert..
+# sent_id = 90614
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	either	either	CCONJ	CC	_	2	_	_	start_char=5|end_char=11
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=12|end_char=13
+5	Specsavers	Specsavers	PROPN	NNP	Number=Sing	4	_	_	start_char=14|end_char=24
+6	advert	advert	NOUN	NN	Number=Sing	5	_	_	start_char=25|end_char=31
+7	or	or	CCONJ	CC	_	6	_	_	start_char=32|end_char=34
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=35|end_char=36
+9	Head	Head	NOUN	NN	Number=Sing	8	_	_	start_char=37|end_char=41
+10	and	and	CCONJ	CC	_	9	_	_	start_char=42|end_char=45
+11	Shoulders	shoulder	NOUN	NNS	Number=Plur	10	_	_	start_char=46|end_char=55
+12	advert	advert	NOUN	NN	Number=Sing	11	_	_	start_char=56|end_char=62|SpaceAfter=No
+13	..	..	PUNCT	.	_	12	_	_	start_char=62|end_char=64
+
+# text = No, sorry, I am wrong..
+# sent_id = 90615
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=65|end_char=67|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=67|end_char=68
+3	sorry	sorry	INTJ	UH	_	2	_	_	start_char=69|end_char=74|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=74|end_char=75
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=76|end_char=77
+6	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=78|end_char=80
+7	wrong	wrong	ADJ	JJ	Degree=Pos	6	_	_	start_char=81|end_char=86|SpaceAfter=No
+8	..	..	PUNCT	.	_	7	_	_	start_char=86|end_char=88
+
+# text = It's both.
+# sent_id = 90616
+1-2	It's	_	_	_	_	_	_	_	start_char=89|end_char=93
+1	It	it	PRON	PRP	Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=89|end_char=91
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=91|end_char=93
+3	both	both	DET	DT	PronType=Art	2	_	_	start_char=94|end_char=98|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=98|end_char=99
+
+# text = (Claudia hasn't aged well has she/he/it/ze/zu/e/wtf?)
+# sent_id = 90617
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=100|end_char=101|SpaceAfter=No
+2	Claudia	Claudia	PROPN	NNP	Number=Sing	1	_	_	start_char=101|end_char=108
+3-4	hasn't	_	_	_	_	_	_	_	start_char=109|end_char=115
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=109|end_char=112
+4	n't	not	PART	RB	_	3	_	_	start_char=112|end_char=115
+5	aged	aged	ADJ	JJ	Degree=Pos	4	_	_	start_char=116|end_char=120
+6	well	well	ADV	RB	Degree=Pos	5	_	_	start_char=121|end_char=125
+7	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=126|end_char=129
+8	she/he/it/ze/zu/e/wtf?)	she/he/it/ze/zu/e/wtf?)	NOUN	NN	Number=Sing	7	_	_	start_char=130|end_char=153|SpaceAfter=No
+

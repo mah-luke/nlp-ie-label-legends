@@ -1,0 +1,70 @@
+# text = Oh heck, I'm not arguing bout anything.
+# sent_id = 126912
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	heck	heck	INTJ	UH	_	1	_	_	start_char=3|end_char=7|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=7|end_char=8
+4-5	I'm	_	_	_	_	_	_	_	start_char=9|end_char=12
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=9|end_char=10
+5	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=10|end_char=12
+6	not	not	PART	RB	_	5	_	_	start_char=13|end_char=16
+7	arguing	argue	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=17|end_char=24
+8	bout	bout	VERB	VB	VerbForm=Inf	7	_	_	start_char=25|end_char=29
+9	anything	anything	PRON	NN	Number=Sing|PronType=Ind	8	_	_	start_char=30|end_char=38|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=38|end_char=39
+
+# text = We both know Hillary is a witch.
+# sent_id = 126913
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=40|end_char=42
+2	both	both	DET	DT	_	1	_	_	start_char=43|end_char=47
+3	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=48|end_char=52
+4	Hillary	Hillary	PROPN	NNP	Number=Sing	3	_	_	start_char=53|end_char=60
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=61|end_char=63
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=64|end_char=65
+7	witch	witch	NOUN	NN	Number=Sing	6	_	_	start_char=66|end_char=71|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=71|end_char=72
+
+# text = Let's just let it stay at that.
+# sent_id = 126914
+1-2	Let's	_	_	_	_	_	_	_	start_char=73|end_char=78
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=73|end_char=76
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=76|end_char=78
+3	just	just	ADV	RB	_	2	_	_	start_char=79|end_char=83
+4	let	let	VERB	VB	VerbForm=Inf	3	_	_	start_char=84|end_char=87
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=88|end_char=90
+6	stay	stay	VERB	VB	VerbForm=Inf	5	_	_	start_char=91|end_char=95
+7	at	at	ADP	IN	_	6	_	_	start_char=96|end_char=98
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=99|end_char=103|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=103|end_char=104
+
+# text = We cld go back & forth on details.
+# sent_id = 126915
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=105|end_char=107
+2	cld	cod	AUX	MD	VerbForm=Fin	1	_	_	start_char=108|end_char=111
+3	go	go	VERB	VB	VerbForm=Inf	2	_	_	start_char=112|end_char=114
+4	back	back	ADV	RB	_	3	_	_	start_char=115|end_char=119
+5	&	&	CCONJ	CC	_	4	_	_	start_char=120|end_char=121
+6	forth	forth	ADV	RB	_	5	_	_	start_char=122|end_char=127
+7	on	on	ADP	IN	_	6	_	_	start_char=128|end_char=130
+8	details	detail	NOUN	NNS	Number=Plur	7	_	_	start_char=131|end_char=138|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=138|end_char=139
+
+# text = Let's just agree to be Gabfam.
+# sent_id = 126916
+1-2	Let's	_	_	_	_	_	_	_	start_char=140|end_char=145
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=140|end_char=143
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=143|end_char=145
+3	just	just	ADV	RB	_	2	_	_	start_char=146|end_char=150
+4	agree	agree	VERB	VB	VerbForm=Inf	3	_	_	start_char=151|end_char=156
+5	to	to	PART	TO	_	4	_	_	start_char=157|end_char=159
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=160|end_char=162
+7	Gabfam	Gabfam	PROPN	NNP	Number=Sing	6	_	_	start_char=163|end_char=169|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=169|end_char=170
+
+# text = How's that.
+# sent_id = 126917
+1-2	How's	_	_	_	_	_	_	_	start_char=171|end_char=176
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=171|end_char=174
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=174|end_char=176
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=177|end_char=181|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=181|end_char=182|SpaceAfter=No
+

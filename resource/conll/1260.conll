@@ -1,0 +1,40 @@
+# text = Wrong.
+# sent_id = 2664
+1	Wrong	wrong	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=5|end_char=6
+
+# text = most women are in it for the attention and nothing more (the prolonged stare thing).
+# sent_id = 2665
+1	most	most	ADJ	JJS	Degree=Sup	0	_	_	start_char=7|end_char=11
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=12|end_char=17
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=18|end_char=21
+4	in	in	ADP	IN	_	3	_	_	start_char=22|end_char=24
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=25|end_char=27
+6	for	for	ADP	IN	_	5	_	_	start_char=28|end_char=31
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=32|end_char=35
+8	attention	attention	NOUN	NN	Number=Sing	7	_	_	start_char=36|end_char=45
+9	and	and	CCONJ	CC	_	8	_	_	start_char=46|end_char=49
+10	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	9	_	_	start_char=50|end_char=57
+11	more	more	ADJ	JJR	Degree=Cmp	10	_	_	start_char=58|end_char=62
+12	(	(	PUNCT	-LRB-	_	11	_	_	start_char=63|end_char=64|SpaceAfter=No
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=64|end_char=67
+14	prolonged	prolonged	ADJ	JJ	Degree=Pos	13	_	_	start_char=68|end_char=77
+15	stare	stare	NOUN	NN	Number=Sing	14	_	_	start_char=78|end_char=83
+16	thing	thing	NOUN	NN	Number=Sing	15	_	_	start_char=84|end_char=89|SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	16	_	_	start_char=89|end_char=90|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=90|end_char=91
+
+# text = I've done my fair share of experiments with this
+# sent_id = 2666
+1-2	I've	_	_	_	_	_	_	_	start_char=92|end_char=96
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=92|end_char=93
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=93|end_char=96
+3	done	do	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=97|end_char=101
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=102|end_char=104
+5	fair	fair	ADJ	JJ	Degree=Pos	4	_	_	start_char=105|end_char=109
+6	share	share	NOUN	NN	Number=Sing	5	_	_	start_char=110|end_char=115
+7	of	of	ADP	IN	_	6	_	_	start_char=116|end_char=118
+8	experiments	experiment	NOUN	NNS	Number=Plur	7	_	_	start_char=119|end_char=130
+9	with	with	ADP	IN	_	8	_	_	start_char=131|end_char=135
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	9	_	_	start_char=136|end_char=140|SpaceAfter=No
+

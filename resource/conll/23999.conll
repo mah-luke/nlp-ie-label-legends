@@ -1,0 +1,25 @@
+# text = I’ve said it before.
+# sent_id = 51463
+1-2	I’ve	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	said	say	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=9
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=10|end_char=12
+5	before	before	ADV	RB	_	4	_	_	start_char=13|end_char=19|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = True mastery is when you can comfortably treat women like cats.
+# sent_id = 51464
+1	True	true	ADJ	JJ	Degree=Pos	0	_	_	start_char=21|end_char=25
+2	mastery	mastery	NOUN	NN	Number=Sing	1	_	_	start_char=26|end_char=33
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=34|end_char=36
+4	when	when	ADV	WRB	PronType=Int	3	_	_	start_char=37|end_char=41
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=42|end_char=45
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=46|end_char=49
+7	comfortably	comfortably	ADV	RB	_	6	_	_	start_char=50|end_char=61
+8	treat	treat	VERB	VB	VerbForm=Inf	7	_	_	start_char=62|end_char=67
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=68|end_char=73
+10	like	like	ADP	IN	_	9	_	_	start_char=74|end_char=78
+11	cats	cat	NOUN	NNS	Number=Plur	10	_	_	start_char=79|end_char=83|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=83|end_char=84|SpaceAfter=No
+

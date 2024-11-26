@@ -1,0 +1,66 @@
+# text = Logic!
+# sent_id = 77114
+1	Logic	logic	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=5|end_char=6
+
+# text = But I guarantee she'll say some shit like "oh my god!
+# sent_id = 77115
+1	But	but	CCONJ	CC	_	0	_	_	start_char=7|end_char=10
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=11|end_char=12
+3	guarantee	guarantee	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=22
+4-5	she'll	_	_	_	_	_	_	_	start_char=23|end_char=29
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=23|end_char=26
+5	'll	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=26|end_char=29
+6	say	say	VERB	VB	VerbForm=Inf	5	_	_	start_char=30|end_char=33
+7	some	some	DET	DT	_	6	_	_	start_char=34|end_char=38
+8	shit	shit	NOUN	NN	Number=Sing	7	_	_	start_char=39|end_char=43
+9	like	like	ADP	IN	_	8	_	_	start_char=44|end_char=48
+10	"	"	PUNCT	``	_	9	_	_	start_char=49|end_char=50|SpaceAfter=No
+11	oh	oh	INTJ	UH	_	10	_	_	start_char=50|end_char=52
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	_	_	start_char=53|end_char=55
+13	god	god	NOUN	NN	Number=Sing	12	_	_	start_char=56|end_char=59|SpaceAfter=No
+14	!	!	PUNCT	.	_	13	_	_	start_char=59|end_char=60
+
+# text = You fucking asshole, you totally know that chloe used this one a few weeks ago and you're like fucking her aren't you?"
+# sent_id = 77116
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=61|end_char=64
+2	fucking	fuck	VERB	VBG	VerbForm=Ger	1	_	_	start_char=65|end_char=72
+3	asshole	asshole	NOUN	NN	Number=Sing	2	_	_	start_char=73|end_char=80|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=80|end_char=81
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=82|end_char=85
+6	totally	totally	ADV	RB	_	5	_	_	start_char=86|end_char=93
+7	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=94|end_char=98
+8	that	that	SCONJ	IN	_	7	_	_	start_char=99|end_char=103
+9	chloe	chloe	PROPN	NNP	Number=Sing	8	_	_	start_char=104|end_char=109
+10	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=110|end_char=114
+11	this	this	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=115|end_char=119
+12	one	one	NOUN	NN	Number=Sing	11	_	_	start_char=120|end_char=123
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=124|end_char=125
+14	few	few	ADJ	JJ	Degree=Pos	13	_	_	start_char=126|end_char=129
+15	weeks	week	NOUN	NNS	Number=Plur	14	_	_	start_char=130|end_char=135
+16	ago	ago	ADV	RB	_	15	_	_	start_char=136|end_char=139
+17	and	and	CCONJ	CC	_	16	_	_	start_char=140|end_char=143
+18-19	you're	_	_	_	_	_	_	_	start_char=144|end_char=150
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	_	_	start_char=144|end_char=147
+19	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	_	_	start_char=147|end_char=150
+20	like	like	ADP	RP	_	19	_	_	start_char=151|end_char=155
+21	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	20	_	_	start_char=156|end_char=163
+22	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=164|end_char=167
+23-24	aren't	_	_	_	_	_	_	_	start_char=168|end_char=174
+23	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	_	_	start_char=168|end_char=171
+24	n't	not	PART	RB	_	23	_	_	start_char=171|end_char=174
+25	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	24	_	_	start_char=175|end_char=178|SpaceAfter=No
+26	?	?	PUNCT	.	_	25	_	_	start_char=178|end_char=179|SpaceAfter=No
+27	"	"	PUNCT	''	_	26	_	_	start_char=179|end_char=180
+
+# text = Wimmen, they are / be crazy.
+# sent_id = 77117
+1	Wimmen	Wimmen	PROPN	NNP	Number=Sing	0	_	_	start_char=181|end_char=187|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=187|end_char=188
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=189|end_char=193
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=194|end_char=197
+5	/	/	SYM	,	_	4	_	_	start_char=198|end_char=199
+6	be	be	AUX	VB	VerbForm=Fin	5	_	_	start_char=200|end_char=202
+7	crazy	crazy	ADJ	JJ	Degree=Pos	6	_	_	start_char=203|end_char=208|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=208|end_char=209|SpaceAfter=No
+

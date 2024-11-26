@@ -1,0 +1,13 @@
+# text = She's stuffing her emails in his jacket.
+# sent_id = 97089
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	stuffing	stuff	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=6|end_char=14
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=15|end_char=18
+5	emails	email	NOUN	NNS	Number=Plur	4	_	_	start_char=19|end_char=25
+6	in	in	ADP	IN	_	5	_	_	start_char=26|end_char=28
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=29|end_char=32
+8	jacket	jacket	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=39|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=39|end_char=40|SpaceAfter=No
+

@@ -1,0 +1,58 @@
+# text = With all due respect, I think it sounds like you're now in Shelly's frame.
+# sent_id = 94194
+1	With	with	ADP	IN	_	0	_	_	start_char=0|end_char=4
+2	all	all	DET	DT	_	1	_	_	start_char=5|end_char=8
+3	due	due	ADJ	JJ	Degree=Pos	2	_	_	start_char=9|end_char=12
+4	respect	respect	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=20|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=20|end_char=21
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=22|end_char=23
+7	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=24|end_char=29
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=30|end_char=32
+9	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=33|end_char=39
+10	like	like	SCONJ	IN	_	9	_	_	start_char=40|end_char=44
+11-12	you're	_	_	_	_	_	_	_	start_char=45|end_char=51
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=45|end_char=48
+12	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=48|end_char=51
+13	now	now	ADV	RB	_	12	_	_	start_char=52|end_char=55
+14	in	in	ADP	IN	_	13	_	_	start_char=56|end_char=58
+15-16	Shelly's	_	_	_	_	_	_	_	start_char=59|end_char=67
+15	Shelly	Shelly	PROPN	NNP	Number=Sing	14	_	_	start_char=59|end_char=65
+16	's	's	PART	POS	_	15	_	_	start_char=65|end_char=67
+17	frame	frame	NOUN	NN	Number=Sing	16	_	_	start_char=68|end_char=73|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=73|end_char=74
+
+# text = She's branch swinging... what are *you* going to do about that?
+# sent_id = 94195
+1-2	She's	_	_	_	_	_	_	_	start_char=75|end_char=80
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=75|end_char=78
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=78|end_char=80
+3	branch	branch	NOUN	NN	Number=Sing	2	_	_	start_char=81|end_char=87
+4	swinging	swing	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=88|end_char=96|SpaceAfter=No
+5	...	...	PUNCT	,	_	4	_	_	start_char=96|end_char=99
+6	what	what	PRON	WP	PronType=Int	5	_	_	start_char=100|end_char=104
+7	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=105|end_char=108
+8	*	*	PUNCT	NFP	_	7	_	_	start_char=109|end_char=110|SpaceAfter=No
+9	you*	you*	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	_	_	start_char=110|end_char=114
+10	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=115|end_char=120
+11	to	to	PART	TO	_	10	_	_	start_char=121|end_char=123
+12	do	do	VERB	VB	VerbForm=Inf	11	_	_	start_char=124|end_char=126
+13	about	about	ADP	IN	_	12	_	_	start_char=127|end_char=132
+14	that	that	PRON	DT	Number=Sing|PronType=Dem	13	_	_	start_char=133|end_char=137|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=137|end_char=138
+
+# text = Wife her up?
+# sent_id = 94196
+1	Wife	wife	NOUN	NN	Number=Sing	0	_	_	start_char=139|end_char=143
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=144|end_char=147
+3	up	up	ADP	RP	_	2	_	_	start_char=148|end_char=150|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=150|end_char=151
+
+# text = Make her your new ONE?
+# sent_id = 94197
+1	Make	make	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=152|end_char=156
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=157|end_char=160
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=161|end_char=165
+4	new	new	ADJ	JJ	Degree=Pos	3	_	_	start_char=166|end_char=169
+5	ONE	one	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=170|end_char=173|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=173|end_char=174|SpaceAfter=No
+

@@ -1,0 +1,66 @@
+# text = [USER]
+# sent_id = 56035
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = So WHO got pissed when they found out that Ann used to be a boy?
+# sent_id = 56036
+1	So	so	ADV	RB	_	0	_	_	start_char=7|end_char=9
+2	WHO	who	PRON	WP	PronType=Rel	1	_	_	start_char=10|end_char=13
+3	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=14|end_char=17
+4	pissed	piss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=18|end_char=24
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=25|end_char=29
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=30|end_char=34
+7	found	find	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=35|end_char=40
+8	out	out	ADP	RP	_	7	_	_	start_char=41|end_char=44
+9	that	that	SCONJ	IN	_	8	_	_	start_char=45|end_char=49
+10	Ann	Ann	PROPN	NNP	Number=Sing	9	_	_	start_char=50|end_char=53
+11	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=54|end_char=58
+12	to	to	PART	TO	_	11	_	_	start_char=59|end_char=61
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=62|end_char=64
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=65|end_char=66
+15	boy	boy	NOUN	NN	Number=Sing	14	_	_	start_char=67|end_char=70|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=70|end_char=71
+
+# text = I mean, she's HOT, no matter WHAT she's got!!
+# sent_id = 56037
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=72|end_char=73
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=74|end_char=78|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=78|end_char=79
+4-5	she's	_	_	_	_	_	_	_	start_char=80|end_char=85
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=80|end_char=83
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=83|end_char=85
+6	HOT	hot	ADJ	JJ	Degree=Pos	5	_	_	start_char=86|end_char=89|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=89|end_char=90
+8	no	no	DET	DT	_	7	_	_	start_char=91|end_char=93
+9	matter	matter	NOUN	NN	Number=Sing	8	_	_	start_char=94|end_char=100
+10	WHAT	what	PRON	WP	PronType=Rel	9	_	_	start_char=101|end_char=105
+11-12	she's	_	_	_	_	_	_	_	start_char=106|end_char=111
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=106|end_char=109
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=109|end_char=111
+13	got	get	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=112|end_char=115|SpaceAfter=No
+14	!!	!!	PUNCT	.	_	13	_	_	start_char=115|end_char=117
+
+# text = [JOKING HERE, PEOPLE!!]
+# sent_id = 56038
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=118|end_char=119|SpaceAfter=No
+2	JOKING	joking	VERB	VBG	VerbForm=Ger	1	_	_	start_char=119|end_char=125
+3	HERE	here	ADV	RB	PronType=Dem	2	_	_	start_char=126|end_char=130|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=130|end_char=131
+5	PEOPLE	people	NOUN	NNS	Number=Plur	4	_	_	start_char=132|end_char=138|SpaceAfter=No
+6	!!	!!	PUNCT	.	_	5	_	_	start_char=138|end_char=140|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=140|end_char=141
+
+# text = I AM an actual FAN of Ann Coulter.
+# sent_id = 56039
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=142|end_char=143
+2	AM	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=144|end_char=146
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=147|end_char=149
+4	actual	actual	ADJ	JJ	Degree=Pos	3	_	_	start_char=150|end_char=156
+5	FAN	fan	NOUN	NN	Number=Sing	4	_	_	start_char=157|end_char=160
+6	of	of	ADP	IN	_	5	_	_	start_char=161|end_char=163
+7	Ann	Ann	PROPN	NNP	Number=Sing	6	_	_	start_char=164|end_char=167
+8	Coulter	Coulter	PROPN	NNP	Number=Sing	7	_	_	start_char=168|end_char=175|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=175|end_char=176|SpaceAfter=No
+

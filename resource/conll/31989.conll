@@ -1,0 +1,31 @@
+# text = Fuck that cunt.
+# sent_id = 68556
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=5|end_char=9
+3	cunt	cunt	NOUN	NN	Number=Sing	2	_	_	start_char=10|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = She's in hell alright.
+# sent_id = 68557
+1-2	She's	_	_	_	_	_	_	_	start_char=16|end_char=21
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=16|end_char=19
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=19|end_char=21
+3	in	in	ADP	IN	_	2	_	_	start_char=22|end_char=24
+4	hell	hell	NOUN	NN	Number=Sing	3	_	_	start_char=25|end_char=29
+5	alright	alright	INTJ	UH	_	4	_	_	start_char=30|end_char=37|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=37|end_char=38
+
+# text = Ill pray she's suffering for eternity.
+# sent_id = 68558
+1-2	Ill	_	_	_	_	_	_	_	start_char=39|end_char=42
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=39|end_char=40
+2	ll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=40|end_char=42
+3	pray	pray	VERB	VB	VerbForm=Inf	2	_	_	start_char=43|end_char=47
+4-5	she's	_	_	_	_	_	_	_	start_char=48|end_char=53
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=48|end_char=51
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=51|end_char=53
+6	suffering	suffer	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=54|end_char=63
+7	for	for	ADP	IN	_	6	_	_	start_char=64|end_char=67
+8	eternity	eternity	NOUN	NN	Number=Sing	7	_	_	start_char=68|end_char=76|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=76|end_char=77|SpaceAfter=No
+

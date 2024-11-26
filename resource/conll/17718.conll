@@ -1,0 +1,40 @@
+# text = lolol!!!
+# sent_id = 38076
+1	lolol	lolol	INTJ	UH	_	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	!!!	!!!	PUNCT	.	_	1	_	_	start_char=5|end_char=8
+
+# text = This is a good mother... didn't beat the crap out of the kid... gave him a taste of his own medicine.
+# sent_id = 38077
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=9|end_char=13
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=14|end_char=16
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=17|end_char=18
+4	good	good	ADJ	JJ	Degree=Pos	3	_	_	start_char=19|end_char=23
+5	mother	mother	NOUN	NN	Number=Sing	4	_	_	start_char=24|end_char=30|SpaceAfter=No
+6	...	...	PUNCT	,	_	5	_	_	start_char=30|end_char=33
+7-8	didn't	_	_	_	_	_	_	_	start_char=34|end_char=40
+7	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=34|end_char=37
+8	n't	not	PART	RB	_	7	_	_	start_char=37|end_char=40
+9	beat	beat	VERB	VB	VerbForm=Inf	8	_	_	start_char=41|end_char=45
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=46|end_char=49
+11	crap	crap	NOUN	NN	Number=Sing	10	_	_	start_char=50|end_char=54
+12	out	out	ADP	IN	_	11	_	_	start_char=55|end_char=58
+13	of	of	ADP	IN	_	12	_	_	start_char=59|end_char=61
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=62|end_char=65
+15	kid	kid	NOUN	NN	Number=Sing	14	_	_	start_char=66|end_char=69|SpaceAfter=No
+16	...	...	PUNCT	,	_	15	_	_	start_char=69|end_char=72
+17	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=73|end_char=77
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=78|end_char=81
+19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=82|end_char=83
+20	taste	taste	NOUN	NN	Number=Sing	19	_	_	start_char=84|end_char=89
+21	of	of	ADP	IN	_	20	_	_	start_char=90|end_char=92
+22	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	_	_	start_char=93|end_char=96
+23	own	own	ADJ	JJ	Degree=Pos	22	_	_	start_char=97|end_char=100
+24	medicine	medicine	NOUN	NN	Number=Sing	23	_	_	start_char=101|end_char=109|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=109|end_char=110
+
+# text = [URL]
+# sent_id = 38078
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=111|end_char=112|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=112|end_char=115|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=115|end_char=116|SpaceAfter=No
+

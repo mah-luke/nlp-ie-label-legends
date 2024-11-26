@@ -1,0 +1,74 @@
+# text = Queen sings to her bees right after she is born.
+# sent_id = 57180
+1	Queen	Queen	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	sings	sing	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=11
+3	to	to	ADP	IN	_	2	_	_	start_char=12|end_char=14
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=15|end_char=18
+5	bees	bee	NOUN	NNS	Number=Plur	4	_	_	start_char=19|end_char=23
+6	right	right	ADV	RB	_	5	_	_	start_char=24|end_char=29
+7	after	after	SCONJ	IN	_	6	_	_	start_char=30|end_char=35
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=36|end_char=39
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=40|end_char=42
+10	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=43|end_char=47|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=47|end_char=48
+
+# text = [URL]
+# sent_id = 57181
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=49|end_char=50|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=50|end_char=53|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=53|end_char=54
+
+# text = Here she is being born, then running around while the bees feed her and make sure everything is hunky dory.
+# sent_id = 57182
+1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=55|end_char=59
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=60|end_char=63
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=64|end_char=66
+4	being	be	AUX	VBG	VerbForm=Ger	3	_	_	start_char=67|end_char=72
+5	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=73|end_char=77|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=77|end_char=78
+7	then	then	ADV	RB	PronType=Dem	6	_	_	start_char=79|end_char=83
+8	running	run	VERB	VBG	VerbForm=Ger	7	_	_	start_char=84|end_char=91
+9	around	around	ADV	RB	_	8	_	_	start_char=92|end_char=98
+10	while	while	SCONJ	IN	_	9	_	_	start_char=99|end_char=104
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=105|end_char=108
+12	bees	bee	NOUN	NNS	Number=Plur	11	_	_	start_char=109|end_char=113
+13	feed	feed	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=114|end_char=118
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=119|end_char=122
+15	and	and	CCONJ	CC	_	14	_	_	start_char=123|end_char=126
+16	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=127|end_char=131
+17	sure	sure	ADJ	JJ	Degree=Pos	16	_	_	start_char=132|end_char=136
+18	everything	everything	PRON	NN	Number=Sing|PronType=Tot	17	_	_	start_char=137|end_char=147
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=148|end_char=150
+20	hunky	hunky	ADJ	JJ	Degree=Pos	19	_	_	start_char=151|end_char=156
+21	dory	dory	ADJ	JJ	Degree=Pos	20	_	_	start_char=157|end_char=161|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=161|end_char=162
+
+# text = [URL]
+# sent_id = 57183
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=163|end_char=164|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=164|end_char=167|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=167|end_char=168
+
+# text = In the next life I wanna be a #QueenBee.
+# sent_id = 57184
+1	In	in	ADP	IN	_	0	_	_	start_char=169|end_char=171
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=172|end_char=175
+3	next	next	ADJ	JJ	Degree=Pos	2	_	_	start_char=176|end_char=180
+4	life	life	NOUN	NN	Number=Sing	3	_	_	start_char=181|end_char=185
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=186|end_char=187
+6-7	wanna	_	_	_	_	_	_	_	start_char=188|end_char=193
+6	wan	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=188|end_char=191
+7	na	to	PART	TO	_	6	_	_	start_char=191|end_char=193
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=194|end_char=196
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=197|end_char=198
+10	#	#	SYM	NN	Number=Sing	9	_	_	start_char=199|end_char=200|SpaceAfter=No
+11	QueenBee	QueenBee	PROPN	NNP	Number=Sing	10	_	_	start_char=200|end_char=208|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=208|end_char=209
+
+# text = #NDHoney #WhiteFarmers
+# sent_id = 57185
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=210|end_char=211|SpaceAfter=No
+2	NDHoney	ndhoney	NOUN	GW	Number=Sing	1	_	_	start_char=211|end_char=218
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=219|end_char=220|SpaceAfter=No
+4	WhiteFarmers	whitefarmer	NOUN	NN	Number=Sing	3	_	_	start_char=220|end_char=232|SpaceAfter=No
+

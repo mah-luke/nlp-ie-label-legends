@@ -1,0 +1,61 @@
+# text = ..or she'll next you, simply because you were enough of a sucker to actually fix her stuff.
+# sent_id = 65107
+1	..	..	PUNCT	,	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	or	or	CCONJ	CC	_	1	_	_	start_char=2|end_char=4
+3-4	she'll	_	_	_	_	_	_	_	start_char=5|end_char=11
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=5|end_char=8
+4	'll	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=8|end_char=11
+5	next	next	VERB	VB	VerbForm=Inf	4	_	_	start_char=12|end_char=16
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=17|end_char=20|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=20|end_char=21
+8	simply	simply	ADV	RB	_	7	_	_	start_char=22|end_char=28
+9	because	because	SCONJ	IN	_	8	_	_	start_char=29|end_char=36
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=37|end_char=40
+11	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	10	_	_	start_char=41|end_char=45
+12	enough	enough	ADJ	JJ	Degree=Pos	11	_	_	start_char=46|end_char=52
+13	of	of	ADP	IN	_	12	_	_	start_char=53|end_char=55
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=56|end_char=57
+15	sucker	sucker	NOUN	NN	Number=Sing	14	_	_	start_char=58|end_char=64
+16	to	to	PART	TO	_	15	_	_	start_char=65|end_char=67
+17	actually	actually	ADV	RB	_	16	_	_	start_char=68|end_char=76
+18	fix	fix	VERB	VB	VerbForm=Inf	17	_	_	start_char=77|end_char=80
+19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=81|end_char=84
+20	stuff	stuff	NOUN	NN	Number=Sing	19	_	_	start_char=85|end_char=90|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=90|end_char=91
+
+# text = She'll see you as the doormat you are and kick you to the curb...and get Chad to come over and fuck her on her newly-fixed dishwasher.
+# sent_id = 65108
+1-2	She'll	_	_	_	_	_	_	_	start_char=92|end_char=98
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=92|end_char=95
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=95|end_char=98
+3	see	see	VERB	VB	VerbForm=Inf	2	_	_	start_char=99|end_char=102
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=103|end_char=106
+5	as	as	ADP	IN	_	4	_	_	start_char=107|end_char=109
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=110|end_char=113
+7	doormat	doormat	NOUN	NN	Number=Sing	6	_	_	start_char=114|end_char=121
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=122|end_char=125
+9	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=126|end_char=129
+10	and	and	CCONJ	CC	_	9	_	_	start_char=130|end_char=133
+11	kick	kick	VERB	VB	VerbForm=Inf	10	_	_	start_char=134|end_char=138
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	_	_	start_char=139|end_char=142
+13	to	to	ADP	IN	_	12	_	_	start_char=143|end_char=145
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=146|end_char=149
+15	curb	curb	NOUN	NN	Number=Sing	14	_	_	start_char=150|end_char=154|SpaceAfter=No
+16	...	...	PUNCT	,	_	15	_	_	start_char=154|end_char=157|SpaceAfter=No
+17	and	and	CCONJ	CC	_	16	_	_	start_char=157|end_char=160
+18	get	get	VERB	VB	VerbForm=Inf	17	_	_	start_char=161|end_char=164
+19	Chad	Chad	PROPN	NNP	Number=Sing	18	_	_	start_char=165|end_char=169
+20	to	to	PART	TO	_	19	_	_	start_char=170|end_char=172
+21	come	come	VERB	VB	VerbForm=Inf	20	_	_	start_char=173|end_char=177
+22	over	over	ADV	RB	_	21	_	_	start_char=178|end_char=182
+23	and	and	CCONJ	CC	_	22	_	_	start_char=183|end_char=186
+24	fuck	fuck	VERB	VB	VerbForm=Inf	23	_	_	start_char=187|end_char=191
+25	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	_	_	start_char=192|end_char=195
+26	on	on	ADP	IN	_	25	_	_	start_char=196|end_char=198
+27	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	_	_	start_char=199|end_char=202
+28	newly	newly	ADV	RB	_	27	_	_	start_char=203|end_char=208|SpaceAfter=No
+29	-	-	PUNCT	HYPH	_	28	_	_	start_char=208|end_char=209|SpaceAfter=No
+30	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	29	_	_	start_char=209|end_char=214
+31	dishwasher	dishwasher	NOUN	NN	Number=Sing	30	_	_	start_char=215|end_char=225|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	start_char=225|end_char=226|SpaceAfter=No
+

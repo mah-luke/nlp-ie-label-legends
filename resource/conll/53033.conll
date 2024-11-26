@@ -1,0 +1,66 @@
+# text = Yep.
+# sent_id = 113333
+1	Yep	yep	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = I'm not one for violence but I think an 'Old Yeller' solution would be the kindest thing.
+# sent_id = 113334
+1-2	I'm	_	_	_	_	_	_	_	start_char=5|end_char=8
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=5|end_char=6
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=8
+3	not	not	PART	RB	_	2	_	_	start_char=9|end_char=12
+4	one	one	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=13|end_char=16
+5	for	for	ADP	IN	_	4	_	_	start_char=17|end_char=20
+6	violence	violence	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=29
+7	but	but	CCONJ	CC	_	6	_	_	start_char=30|end_char=33
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=34|end_char=35
+9	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=36|end_char=41
+10	an	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=42|end_char=44
+11	'	'	PUNCT	``	_	10	_	_	start_char=45|end_char=46|SpaceAfter=No
+12	Old	Old	ADJ	JJ	Degree=Pos	11	_	_	start_char=46|end_char=49
+13	Yeller	yeller	NOUN	NN	Number=Sing	12	_	_	start_char=50|end_char=56|SpaceAfter=No
+14	'	'	PUNCT	''	_	13	_	_	start_char=56|end_char=57
+15	solution	solution	NOUN	NN	Number=Sing	14	_	_	start_char=58|end_char=66
+16	would	would	AUX	MD	VerbForm=Fin	15	_	_	start_char=67|end_char=72
+17	be	be	AUX	VB	VerbForm=Inf	16	_	_	start_char=73|end_char=75
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=76|end_char=79
+19	kindest	kind	ADJ	JJS	Degree=Sup	18	_	_	start_char=80|end_char=87
+20	thing	thing	NOUN	NN	Number=Sing	19	_	_	start_char=88|end_char=93|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=93|end_char=94
+
+# text = Take her out into a pasture, let her run around a bit, rub her belly and then put the bitch down with a 12-Bore.
+# sent_id = 113335
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=95|end_char=99
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=100|end_char=103
+3	out	out	ADP	RP	_	2	_	_	start_char=104|end_char=107
+4	into	into	ADP	IN	_	3	_	_	start_char=108|end_char=112
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=113|end_char=114
+6	pasture	pasture	NOUN	NN	Number=Sing	5	_	_	start_char=115|end_char=122|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=122|end_char=123
+8	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=124|end_char=127
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=128|end_char=131
+10	run	run	VERB	VB	VerbForm=Inf	9	_	_	start_char=132|end_char=135
+11	around	around	ADV	RB	_	10	_	_	start_char=136|end_char=142
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=143|end_char=144
+13	bit	bit	NOUN	NN	Number=Sing	12	_	_	start_char=145|end_char=148|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=148|end_char=149
+15	rub	rub	VERB	VB	Mood=Imp|VerbForm=Fin	14	_	_	start_char=150|end_char=153
+16	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=154|end_char=157
+17	belly	belly	NOUN	NN	Number=Sing	16	_	_	start_char=158|end_char=163
+18	and	and	CCONJ	CC	_	17	_	_	start_char=164|end_char=167
+19	then	then	ADV	RB	PronType=Dem	18	_	_	start_char=168|end_char=172
+20	put	put	VERB	VB	Mood=Imp|VerbForm=Fin	19	_	_	start_char=173|end_char=176
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=177|end_char=180
+22	bitch	bitch	NOUN	NN	Number=Sing	21	_	_	start_char=181|end_char=186
+23	down	down	ADP	RP	_	22	_	_	start_char=187|end_char=191
+24	with	with	ADP	IN	_	23	_	_	start_char=192|end_char=196
+25	a	a	DET	DT	Definite=Ind|PronType=Art	24	_	_	start_char=197|end_char=198
+26	12	12	NUM	CD	NumForm=Digit|NumType=Card	25	_	_	start_char=199|end_char=201|SpaceAfter=No
+27	-	-	PUNCT	HYPH	_	26	_	_	start_char=201|end_char=202|SpaceAfter=No
+28	Bore	bore	NOUN	NN	Number=Sing	27	_	_	start_char=202|end_char=206|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=206|end_char=207
+
+# text = LOL
+# sent_id = 113336
+1	LOL	lol	INTJ	UH	_	0	_	_	start_char=208|end_char=211|SpaceAfter=No
+

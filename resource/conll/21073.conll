@@ -1,0 +1,70 @@
+# text = [USER] sweet kids.
+# sent_id = 45252
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	sweet	sweet	ADJ	JJ	Degree=Pos	3	_	_	start_char=7|end_char=12
+5	kids	kid	NOUN	NNS	Number=Plur	4	_	_	start_char=13|end_char=17|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=17|end_char=18
+
+# text = 😳
+# sent_id = 45253
+1	😳	😳	PUNCT	NFP	_	0	_	_	start_char=19|end_char=20
+
+# text = It's because I had the audacity to talk back to this lil homeschooled cunt.
+# sent_id = 45254
+1-2	It's	_	_	_	_	_	_	_	start_char=21|end_char=25
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=21|end_char=23
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=23|end_char=25
+3	because	because	SCONJ	IN	_	2	_	_	start_char=26|end_char=33
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=34|end_char=35
+5	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=36|end_char=39
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=40|end_char=43
+7	audacity	audacity	NOUN	NN	Number=Sing	6	_	_	start_char=44|end_char=52
+8	to	to	PART	TO	_	7	_	_	start_char=53|end_char=55
+9	talk	talk	VERB	VB	VerbForm=Inf	8	_	_	start_char=56|end_char=60
+10	back	back	ADV	RB	_	9	_	_	start_char=61|end_char=65
+11	to	to	ADP	IN	_	10	_	_	start_char=66|end_char=68
+12	this	this	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=69|end_char=73
+13	lil	little	ADV	RB	_	12	_	_	start_char=74|end_char=77
+14	homeschooled	homeschool	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=78|end_char=90
+15	cunt	cunt	NOUN	NN	Number=Sing	14	_	_	start_char=91|end_char=95|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=95|end_char=96
+
+# text = She wouldn't last 5 minutes through anything adults have ever endured.
+# sent_id = 45255
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=97|end_char=100
+2-3	wouldn't	_	_	_	_	_	_	_	start_char=101|end_char=109
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=101|end_char=106
+3	n't	not	PART	RB	_	2	_	_	start_char=106|end_char=109
+4	last	last	VERB	VB	VerbForm=Inf	3	_	_	start_char=110|end_char=114
+5	5	5	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=115|end_char=116
+6	minutes	minute	NOUN	NNS	Number=Plur	5	_	_	start_char=117|end_char=124
+7	through	through	ADP	IN	_	6	_	_	start_char=125|end_char=132
+8	anything	anything	PRON	NN	Number=Sing|PronType=Ind	7	_	_	start_char=133|end_char=141
+9	adults	adult	NOUN	NNS	Number=Plur	8	_	_	start_char=142|end_char=148
+10	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=149|end_char=153
+11	ever	ever	ADV	RB	_	10	_	_	start_char=154|end_char=158
+12	endured	endure	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=159|end_char=166|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=166|end_char=167
+
+# text = Social media is her only life/outlet.
+# sent_id = 45256
+1	Social	Social	ADJ	JJ	Degree=Pos	0	_	_	start_char=168|end_char=174
+2	media	media	NOUN	NN	Number=Sing	1	_	_	start_char=175|end_char=180
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=181|end_char=183
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=184|end_char=187
+5	only	only	ADJ	JJ	Degree=Pos	4	_	_	start_char=188|end_char=192
+6	life	life	NOUN	NN	Number=Sing	5	_	_	start_char=193|end_char=197|SpaceAfter=No
+7	/	/	SYM	,	_	6	_	_	start_char=197|end_char=198|SpaceAfter=No
+8	outlet	outlet	NOUN	NN	Number=Sing	7	_	_	start_char=198|end_char=204|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=204|end_char=205
+
+# text = She can have it.
+# sent_id = 45257
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=206|end_char=209
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=210|end_char=213
+3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=214|end_char=218
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=219|end_char=221|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=221|end_char=222|SpaceAfter=No
+

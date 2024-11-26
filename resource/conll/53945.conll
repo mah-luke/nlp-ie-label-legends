@@ -1,0 +1,42 @@
+# text = Of course she's a fraud.
+# sent_id = 115305
+1	Of	of	ADV	IN	_	0	_	_	start_char=0|end_char=2
+2	course	course	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=9
+3-4	she's	_	_	_	_	_	_	_	start_char=10|end_char=15
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=13
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=15
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=16|end_char=17
+6	fraud	fraud	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=23|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=23|end_char=24
+
+# text = She just found the way to get back at Hillary and it's hilarious.
+# sent_id = 115306
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=25|end_char=28
+2	just	just	ADV	RB	_	1	_	_	start_char=29|end_char=33
+3	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=34|end_char=39
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=40|end_char=43
+5	way	way	NOUN	NN	Number=Sing	4	_	_	start_char=44|end_char=47
+6	to	to	PART	TO	_	5	_	_	start_char=48|end_char=50
+7	get	get	VERB	VB	VerbForm=Inf	6	_	_	start_char=51|end_char=54
+8	back	back	ADV	RB	_	7	_	_	start_char=55|end_char=59
+9	at	at	ADP	IN	_	8	_	_	start_char=60|end_char=62
+10	Hillary	Hillary	PROPN	NNP	Number=Sing	9	_	_	start_char=63|end_char=70
+11	and	and	CCONJ	CC	_	10	_	_	start_char=71|end_char=74
+12-13	it's	_	_	_	_	_	_	_	start_char=75|end_char=79
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=75|end_char=77
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=77|end_char=79
+14	hilarious	hilarious	ADJ	JJ	Degree=Pos	13	_	_	start_char=80|end_char=89|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=89|end_char=90
+
+# text = The Revenge of the Brain Dead Buffalo. 😂
+# sent_id = 115307
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=91|end_char=94
+2	Revenge	Revenge	PROPN	NNP	Number=Sing	1	_	_	start_char=95|end_char=102
+3	of	of	ADP	IN	_	2	_	_	start_char=103|end_char=105
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=106|end_char=109
+5	Brain	Brain	PROPN	NNP	Number=Sing	4	_	_	start_char=110|end_char=115
+6	Dead	Dead	ADJ	NNP	Degree=Pos	5	_	_	start_char=116|end_char=120
+7	Buffalo	Buffalo	PROPN	NNP	Number=Sing	6	_	_	start_char=121|end_char=128|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=128|end_char=129
+9	😂	😂	PUNCT	NFP	_	8	_	_	start_char=130|end_char=131|SpaceAfter=No
+

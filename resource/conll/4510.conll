@@ -1,0 +1,44 @@
+# text = ALL women have boyfriends Wrong!
+# sent_id = 9438
+1	ALL	all	DET	DT	_	0	_	_	start_char=0|end_char=3
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=4|end_char=9
+3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=14
+4	boyfriends	boyfriend	NOUN	NNS	Number=Plur	3	_	_	start_char=15|end_char=25
+5	Wrong	wrong	ADJ	JJ	Degree=Pos	4	_	_	start_char=26|end_char=31|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=31|end_char=32
+
+# text = Not all women are straight.
+# sent_id = 9439
+1	Not	not	PART	RB	_	0	_	_	start_char=33|end_char=36
+2	all	all	DET	DT	_	1	_	_	start_char=37|end_char=40
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=41|end_char=46
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=47|end_char=50
+5	straight	straight	ADJ	JJ	Degree=Pos	4	_	_	start_char=51|end_char=59|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=59|end_char=60
+
+# text = Oh yea, i forgot lesbians are only lesbians because they "can't get Chad to fuck them" /s.
+# sent_id = 9440
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=61|end_char=63
+2	yea	yea	INTJ	UH	_	1	_	_	start_char=64|end_char=67|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=67|end_char=68
+4	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=69|end_char=70
+5	forgot	forget	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=71|end_char=77
+6	lesbians	lesbian	NOUN	NNS	Number=Plur	5	_	_	start_char=78|end_char=86
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=87|end_char=90
+8	only	only	ADV	RB	_	7	_	_	start_char=91|end_char=95
+9	lesbians	lesbian	NOUN	NNS	Number=Plur	8	_	_	start_char=96|end_char=104
+10	because	because	SCONJ	IN	_	9	_	_	start_char=105|end_char=112
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=113|end_char=117
+12	"	"	PUNCT	``	_	11	_	_	start_char=118|end_char=119|SpaceAfter=No
+13-14	can't	_	_	_	_	_	_	_	start_char=119|end_char=124
+13	ca	can	AUX	MD	VerbForm=Fin	12	_	_	start_char=119|end_char=121
+14	n't	not	PART	RB	_	13	_	_	start_char=121|end_char=124
+15	get	get	VERB	VB	VerbForm=Inf	14	_	_	start_char=125|end_char=128
+16	Chad	Chad	PROPN	NNP	Number=Sing	15	_	_	start_char=129|end_char=133
+17	to	to	PART	TO	_	16	_	_	start_char=134|end_char=136
+18	fuck	fuck	VERB	VB	VerbForm=Inf	17	_	_	start_char=137|end_char=141
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	_	_	start_char=142|end_char=146|SpaceAfter=No
+20	"	"	PUNCT	''	_	19	_	_	start_char=146|end_char=147
+21	/s	/s	ADV	RB	_	20	_	_	start_char=148|end_char=150|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=150|end_char=151|SpaceAfter=No
+

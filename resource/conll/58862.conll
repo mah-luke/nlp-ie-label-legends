@@ -1,0 +1,66 @@
+# text = While still terrible, that's a little different.
+# sent_id = 125657
+1	While	while	SCONJ	IN	_	0	_	_	start_char=0|end_char=5
+2	still	still	ADV	RB	_	1	_	_	start_char=6|end_char=11
+3	terrible	terrible	ADJ	JJ	Degree=Pos	2	_	_	start_char=12|end_char=20|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=20|end_char=21
+5-6	that's	_	_	_	_	_	_	_	start_char=22|end_char=28
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=22|end_char=26
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=26|end_char=28
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=29|end_char=30
+8	little	little	ADJ	JJ	Degree=Pos	7	_	_	start_char=31|end_char=37
+9	different	different	ADJ	JJ	Degree=Pos	8	_	_	start_char=38|end_char=47|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=47|end_char=48
+
+# text = It was his passenger who willingly went for the drive while also fucked up.
+# sent_id = 125658
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=49|end_char=51
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=52|end_char=55
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=56|end_char=59
+4	passenger	passenger	NOUN	NN	Number=Sing	3	_	_	start_char=60|end_char=69
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=70|end_char=73
+6	willingly	willingly	ADV	RB	_	5	_	_	start_char=74|end_char=83
+7	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=84|end_char=88
+8	for	for	ADP	IN	_	7	_	_	start_char=89|end_char=92
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=93|end_char=96
+10	drive	drive	NOUN	NN	Number=Sing	9	_	_	start_char=97|end_char=102
+11	while	while	SCONJ	IN	_	10	_	_	start_char=103|end_char=108
+12	also	also	ADV	RB	_	11	_	_	start_char=109|end_char=113
+13	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=114|end_char=120
+14	up	up	ADP	RP	_	13	_	_	start_char=121|end_char=123|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=123|end_char=124
+
+# text = If he killed the people he hit I think he would have done more time for sure.
+# sent_id = 125659
+1	If	if	SCONJ	IN	_	0	_	_	start_char=125|end_char=127
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=128|end_char=130
+3	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=131|end_char=137
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=138|end_char=141
+5	people	person	NOUN	NNS	Number=Plur	4	_	_	start_char=142|end_char=148
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=149|end_char=151
+7	hit	hit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=152|end_char=155
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=156|end_char=157
+9	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=158|end_char=163
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=164|end_char=166
+11	would	would	AUX	MD	VerbForm=Fin	10	_	_	start_char=167|end_char=172
+12	have	have	AUX	VB	VerbForm=Inf	11	_	_	start_char=173|end_char=177
+13	done	do	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=178|end_char=182
+14	more	more	ADJ	JJR	Degree=Cmp	13	_	_	start_char=183|end_char=187
+15	time	time	NOUN	NN	Number=Sing	14	_	_	start_char=188|end_char=192
+16	for	for	ADP	IN	_	15	_	_	start_char=193|end_char=196
+17	sure	sure	ADJ	JJ	Degree=Pos	16	_	_	start_char=197|end_char=201|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=201|end_char=202
+
+# text = He did 18 days of a 30 day sentence.
+# sent_id = 125660
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=203|end_char=205
+2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=206|end_char=209
+3	18	18	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=210|end_char=212
+4	days	day	NOUN	NNS	Number=Plur	3	_	_	start_char=213|end_char=217
+5	of	of	ADP	IN	_	4	_	_	start_char=218|end_char=220
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=221|end_char=222
+7	30	30	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=223|end_char=225
+8	day	day	NOUN	NN	Number=Sing	7	_	_	start_char=226|end_char=229
+9	sentence	sentence	NOUN	NN	Number=Sing	8	_	_	start_char=230|end_char=238|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=238|end_char=239|SpaceAfter=No
+

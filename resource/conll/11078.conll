@@ -1,0 +1,49 @@
+# text = And, nothing will happen!
+# sent_id = 23478
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	2	_	_	start_char=5|end_char=12
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=13|end_char=17
+5	happen	happen	VERB	VB	VerbForm=Inf	4	_	_	start_char=18|end_char=24|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=24|end_char=25
+
+# text = Not 1 god dam thing.
+# sent_id = 23479
+1	Not	not	PART	RB	_	0	_	_	start_char=26|end_char=29
+2	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=30|end_char=31
+3	god	god	NOUN	NN	Number=Sing	2	_	_	start_char=32|end_char=35
+4	dam	dam	NOUN	NN	Number=Sing	3	_	_	start_char=36|end_char=39
+5	thing	thing	NOUN	NN	Number=Sing	4	_	_	start_char=40|end_char=45|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=45|end_char=46
+
+# text = Hillary could walk down the street with a bloody sack of babies heads and the media will say aww, see how much she cares about children!
+# sent_id = 23480
+1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=47|end_char=54
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=55|end_char=60
+3	walk	walk	VERB	VB	VerbForm=Inf	2	_	_	start_char=61|end_char=65
+4	down	down	ADP	IN	_	3	_	_	start_char=66|end_char=70
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=71|end_char=74
+6	street	street	NOUN	NN	Number=Sing	5	_	_	start_char=75|end_char=81
+7	with	with	ADP	IN	_	6	_	_	start_char=82|end_char=86
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=87|end_char=88
+9	bloody	bloody	ADJ	JJ	Degree=Pos	8	_	_	start_char=89|end_char=95
+10	sack	sack	NOUN	NN	Number=Sing	9	_	_	start_char=96|end_char=100
+11	of	of	ADP	IN	_	10	_	_	start_char=101|end_char=103
+12	babies	baby	NOUN	NNS	Number=Plur	11	_	_	start_char=104|end_char=110
+13	heads	head	NOUN	NNS	Number=Plur	12	_	_	start_char=111|end_char=116
+14	and	and	CCONJ	CC	_	13	_	_	start_char=117|end_char=120
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=121|end_char=124
+16	media	media	NOUN	NN	Number=Sing	15	_	_	start_char=125|end_char=130
+17	will	will	AUX	MD	VerbForm=Fin	16	_	_	start_char=131|end_char=135
+18	say	say	VERB	VB	VerbForm=Inf	17	_	_	start_char=136|end_char=139
+19	aww	aww	INTJ	UH	_	18	_	_	start_char=140|end_char=143|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=143|end_char=144
+21	see	see	VERB	VB	VerbForm=Inf	20	_	_	start_char=145|end_char=148
+22	how	how	ADV	WRB	PronType=Int	21	_	_	start_char=149|end_char=152
+23	much	much	ADJ	JJ	Degree=Pos	22	_	_	start_char=153|end_char=157
+24	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=158|end_char=161
+25	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	_	_	start_char=162|end_char=167
+26	about	about	ADP	IN	_	25	_	_	start_char=168|end_char=173
+27	children	child	NOUN	NNS	Number=Plur	26	_	_	start_char=174|end_char=182|SpaceAfter=No
+28	!	!	PUNCT	.	_	27	_	_	start_char=182|end_char=183|SpaceAfter=No
+

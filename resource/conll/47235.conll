@@ -1,0 +1,66 @@
+# text = That’s what I’m thinking.
+# sent_id = 100944
+1-2	That’s	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=7|end_char=11
+4-5	I’m	_	_	_	_	_	_	_	start_char=12|end_char=15
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=12|end_char=13
+5	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=13|end_char=15
+6	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=16|end_char=24|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=24|end_char=25
+
+# text = I’m an ultimate beta, I can get manipulated, I can’t act like a man cause I’m soft.
+# sent_id = 100945
+1-2	I’m	_	_	_	_	_	_	_	start_char=26|end_char=29
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=26|end_char=27
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=30|end_char=32
+4	ultimate	ultimate	ADJ	JJ	Degree=Pos	3	_	_	start_char=33|end_char=41
+5	beta	beta	NOUN	NN	Number=Sing	4	_	_	start_char=42|end_char=46|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=46|end_char=47
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=48|end_char=49
+8	can	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=50|end_char=53
+9	get	get	AUX	VB	VerbForm=Inf	8	_	_	start_char=54|end_char=57
+10	manipulated	manipulate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=58|end_char=69|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=69|end_char=70
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=71|end_char=72
+13-14	can’t	_	_	_	_	_	_	_	start_char=73|end_char=78
+13	ca	can	AUX	MD	VerbForm=Fin	12	_	_	start_char=73|end_char=75
+14	n’t	not	PART	RB	_	13	_	_	start_char=75|end_char=78
+15	act	act	VERB	VB	VerbForm=Inf	14	_	_	start_char=79|end_char=82
+16	like	like	ADP	IN	_	15	_	_	start_char=83|end_char=87
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=88|end_char=89
+18	man	man	NOUN	NN	Number=Sing	17	_	_	start_char=90|end_char=93
+19	cause	cause	SCONJ	IN	_	18	_	_	start_char=94|end_char=99
+20-21	I’m	_	_	_	_	_	_	_	start_char=100|end_char=103
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	_	_	start_char=100|end_char=101
+21	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	_	_	start_char=101|end_char=103
+22	soft	soft	ADJ	JJ	Degree=Pos	21	_	_	start_char=104|end_char=108|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=108|end_char=109
+
+# text = That’s exactly why I don’t want to marry.
+# sent_id = 100946
+1-2	That’s	_	_	_	_	_	_	_	start_char=110|end_char=116
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=110|end_char=114
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=114|end_char=116
+3	exactly	exactly	ADV	RB	_	2	_	_	start_char=117|end_char=124
+4	why	why	ADV	WRB	PronType=Rel	3	_	_	start_char=125|end_char=128
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=129|end_char=130
+6-7	don’t	_	_	_	_	_	_	_	start_char=131|end_char=136
+6	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=131|end_char=133
+7	n’t	not	PART	RB	_	6	_	_	start_char=133|end_char=136
+8	want	want	VERB	VB	VerbForm=Inf	7	_	_	start_char=137|end_char=141
+9	to	to	PART	TO	_	8	_	_	start_char=142|end_char=144
+10	marry	marry	VERB	VB	VerbForm=Inf	9	_	_	start_char=145|end_char=150|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=150|end_char=151
+
+# text = I’m too insecure.
+# sent_id = 100947
+1-2	I’m	_	_	_	_	_	_	_	start_char=152|end_char=155
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=152|end_char=153
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=153|end_char=155
+3	too	too	ADV	RB	_	2	_	_	start_char=156|end_char=159
+4	insecure	insecure	ADJ	JJ	Degree=Pos	3	_	_	start_char=160|end_char=168|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=168|end_char=169|SpaceAfter=No
+

@@ -1,0 +1,23 @@
+# text = "Hi sir, would you please come over and fuck my wife?"
+# sent_id = 81756
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Hi	hi	INTJ	UH	_	1	_	_	start_char=1|end_char=3
+3	sir	sir	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=7|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=7|end_char=8
+5	would	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=9|end_char=14
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=15|end_char=18
+7	please	please	INTJ	UH	_	6	_	_	start_char=19|end_char=25
+8	come	come	VERB	VB	VerbForm=Inf	7	_	_	start_char=26|end_char=30
+9	over	over	ADV	RB	_	8	_	_	start_char=31|end_char=35
+10	and	and	CCONJ	CC	_	9	_	_	start_char=36|end_char=39
+11	fuck	fuck	VERB	VB	VerbForm=Inf	10	_	_	start_char=40|end_char=44
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	_	_	start_char=45|end_char=47
+13	wife	wife	NOUN	NN	Number=Sing	12	_	_	start_char=48|end_char=52|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=52|end_char=53|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=53|end_char=54
+
+# text = #ZuckTheCuck
+# sent_id = 81757
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=55|end_char=56|SpaceAfter=No
+2	ZuckTheCuck	ZuckTheCuck	PROPN	NNP	Number=Sing	1	_	_	start_char=56|end_char=67|SpaceAfter=No
+

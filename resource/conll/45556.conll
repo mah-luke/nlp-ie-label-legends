@@ -1,0 +1,30 @@
+# text = It’s unhealthy to be a fat ass.
+# sent_id = 97229
+1-2	It’s	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	unhealthy	unhealthy	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=14
+4	to	to	PART	TO	_	3	_	_	start_char=15|end_char=17
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=18|end_char=20
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=21|end_char=22
+7	fat	fat	ADJ	JJ	Degree=Pos	6	_	_	start_char=23|end_char=26
+8	ass	ass	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=30|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=30|end_char=31
+
+# text = No ones expecting her to be pencil thin but we need some realistic boundaries
+# sent_id = 97230
+1	No	no	DET	DT	_	0	_	_	start_char=32|end_char=34
+2	ones	one	NOUN	NNS	Number=Plur	1	_	_	start_char=35|end_char=39
+3	expecting	expect	VERB	VBG	VerbForm=Ger	2	_	_	start_char=40|end_char=49
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=50|end_char=53
+5	to	to	PART	TO	_	4	_	_	start_char=54|end_char=56
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=57|end_char=59
+7	pencil	pencil	ADJ	JJ	Degree=Pos	6	_	_	start_char=60|end_char=66
+8	thin	thin	ADJ	JJ	Degree=Pos	7	_	_	start_char=67|end_char=71
+9	but	but	CCONJ	CC	_	8	_	_	start_char=72|end_char=75
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	_	_	start_char=76|end_char=78
+11	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=79|end_char=83
+12	some	some	DET	DT	_	11	_	_	start_char=84|end_char=88
+13	realistic	realistic	ADJ	JJ	Degree=Pos	12	_	_	start_char=89|end_char=98
+14	boundaries	boundary	NOUN	NNS	Number=Plur	13	_	_	start_char=99|end_char=109|SpaceAfter=No
+

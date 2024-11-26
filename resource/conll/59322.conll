@@ -1,0 +1,31 @@
+# text = You're allowed to have problems.
+# sent_id = 126612
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=7|end_char=14
+4	to	to	PART	TO	_	3	_	_	start_char=15|end_char=17
+5	have	have	VERB	VB	VerbForm=Inf	4	_	_	start_char=18|end_char=22
+6	problems	problem	NOUN	NNS	Number=Plur	5	_	_	start_char=23|end_char=31|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=31|end_char=32
+
+# text = You're not allowed to simultaneously bitch about those problems while digging your own hole.
+# sent_id = 126613
+1-2	You're	_	_	_	_	_	_	_	start_char=33|end_char=39
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=33|end_char=36
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=39
+3	not	not	PART	RB	_	2	_	_	start_char=40|end_char=43
+4	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=44|end_char=51
+5	to	to	PART	TO	_	4	_	_	start_char=52|end_char=54
+6	simultaneously	simultaneously	ADV	RB	_	5	_	_	start_char=55|end_char=69
+7	bitch	bitch	VERB	VB	VerbForm=Inf	6	_	_	start_char=70|end_char=75
+8	about	about	ADP	IN	_	7	_	_	start_char=76|end_char=81
+9	those	that	DET	DT	Number=Plur|PronType=Dem	8	_	_	start_char=82|end_char=87
+10	problems	problem	NOUN	NNS	Number=Plur	9	_	_	start_char=88|end_char=96
+11	while	while	SCONJ	IN	_	10	_	_	start_char=97|end_char=102
+12	digging	dig	VERB	VBG	VerbForm=Ger	11	_	_	start_char=103|end_char=110
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=111|end_char=115
+14	own	own	ADJ	JJ	Degree=Pos	13	_	_	start_char=116|end_char=119
+15	hole	hole	NOUN	NN	Number=Sing	14	_	_	start_char=120|end_char=124|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=124|end_char=125|SpaceAfter=No
+

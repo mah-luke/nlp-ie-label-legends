@@ -1,0 +1,29 @@
+# text = Is she never going to the gym again?
+# sent_id = 95784
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	never	never	ADV	RB	_	2	_	_	start_char=7|end_char=12
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=13|end_char=18
+5	to	to	ADP	IN	_	4	_	_	start_char=19|end_char=21
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=22|end_char=25
+7	gym	gym	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=29
+8	again	again	ADV	RB	_	7	_	_	start_char=30|end_char=35|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = You'll definitely see her again man don't beat yourself up
+# sent_id = 95785
+1-2	You'll	_	_	_	_	_	_	_	start_char=37|end_char=43
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=37|end_char=40
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=40|end_char=43
+3	definitely	definitely	ADV	RB	_	2	_	_	start_char=44|end_char=54
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	start_char=55|end_char=58
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=59|end_char=62
+6	again	again	ADV	RB	_	5	_	_	start_char=63|end_char=68
+7	man	man	NOUN	NN	Number=Sing	6	_	_	start_char=69|end_char=72
+8-9	don't	_	_	_	_	_	_	_	start_char=73|end_char=78
+8	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=73|end_char=75
+9	n't	not	PART	RB	_	8	_	_	start_char=75|end_char=78
+10	beat	beat	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=79|end_char=83
+11	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	10	_	_	start_char=84|end_char=92
+12	up	up	ADP	RP	_	11	_	_	start_char=93|end_char=95|SpaceAfter=No
+

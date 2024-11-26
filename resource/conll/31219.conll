@@ -1,0 +1,58 @@
+# text = she's not doing that for other people.
+# sent_id = 66918
+1-2	she's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	not	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=10|end_char=15
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=16|end_char=20
+6	for	for	ADP	IN	_	5	_	_	start_char=21|end_char=24
+7	other	other	ADJ	JJ	Degree=Pos	6	_	_	start_char=25|end_char=30
+8	people	person	NOUN	NNS	Number=Plur	7	_	_	start_char=31|end_char=37|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=37|end_char=38
+
+# text = she's doing it for attention.
+# sent_id = 66919
+1-2	she's	_	_	_	_	_	_	_	start_char=39|end_char=44
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=39|end_char=42
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=44
+3	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=45|end_char=50
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=51|end_char=53
+5	for	for	ADP	IN	_	4	_	_	start_char=54|end_char=57
+6	attention	attention	NOUN	NN	Number=Sing	5	_	_	start_char=58|end_char=67|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=67|end_char=68
+
+# text = "boo hoo look at me i dated men that looked like they had good personalities boo hoo now im ready to settle down with some timid balding beta teehee"
+# sent_id = 66920
+1	"	"	PUNCT	``	_	0	_	_	start_char=69|end_char=70|SpaceAfter=No
+2	boo	boo	INTJ	UH	_	1	_	_	start_char=70|end_char=73
+3	hoo	hoo	INTJ	UH	_	2	_	_	start_char=74|end_char=77
+4	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=78|end_char=82
+5	at	at	ADP	IN	_	4	_	_	start_char=83|end_char=85
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=86|end_char=88
+7	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=89|end_char=90
+8	dated	date	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	_	_	start_char=91|end_char=96
+9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=97|end_char=100
+10	that	that	PRON	WDT	PronType=Rel	9	_	_	start_char=101|end_char=105
+11	looked	look	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=106|end_char=112
+12	like	like	SCONJ	IN	_	11	_	_	start_char=113|end_char=117
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=118|end_char=122
+14	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=123|end_char=126
+15	good	good	ADJ	JJ	Degree=Pos	14	_	_	start_char=127|end_char=131
+16	personalities	personality	NOUN	NNS	Number=Plur	15	_	_	start_char=132|end_char=145
+17	boo	boo	NOUN	NN	Number=Sing	16	_	_	start_char=146|end_char=149
+18	hoo	hoo	INTJ	UH	_	17	_	_	start_char=150|end_char=153
+19	now	now	ADV	RB	_	18	_	_	start_char=154|end_char=157
+20	im	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	_	_	start_char=158|end_char=160
+21	ready	ready	ADJ	JJ	Degree=Pos	20	_	_	start_char=161|end_char=166
+22	to	to	PART	TO	_	21	_	_	start_char=167|end_char=169
+23	settle	settle	VERB	VB	VerbForm=Inf	22	_	_	start_char=170|end_char=176
+24	down	down	ADP	RP	_	23	_	_	start_char=177|end_char=181
+25	with	with	ADP	IN	_	24	_	_	start_char=182|end_char=186
+26	some	some	DET	DT	_	25	_	_	start_char=187|end_char=191
+27	timid	timid	ADJ	JJ	Degree=Pos	26	_	_	start_char=192|end_char=197
+28	balding	bald	NOUN	NN	Number=Sing	27	_	_	start_char=198|end_char=205
+29	beta	beta	NOUN	NN	Number=Sing	28	_	_	start_char=206|end_char=210
+30	teehee	teehee	NOUN	NN	Number=Sing	29	_	_	start_char=211|end_char=217|SpaceAfter=No
+31	"	"	PUNCT	''	_	30	_	_	start_char=217|end_char=218|SpaceAfter=No
+

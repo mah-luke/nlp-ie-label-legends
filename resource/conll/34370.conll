@@ -1,0 +1,18 @@
+# text = Uh huh!
+# sent_id = 73564
+1	Uh	uh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	huh	huh	INTJ	UH	_	1	_	_	start_char=3|end_char=6|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=6|end_char=7
+
+# text = She should’ve had it stripped after Benghazi
+# sent_id = 73565
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=8|end_char=11
+2-3	should’ve	_	_	_	_	_	_	_	start_char=12|end_char=21
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=12|end_char=18
+3	’ve	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=18|end_char=21
+4	had	have	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=22|end_char=25
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=26|end_char=28
+6	stripped	strip	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=29|end_char=37
+7	after	after	ADP	IN	_	6	_	_	start_char=38|end_char=43
+8	Benghazi	Benghazi	PROPN	NNP	Number=Sing	7	_	_	start_char=44|end_char=52|SpaceAfter=No
+

@@ -1,0 +1,34 @@
+# text = OMG what the hell!
+# sent_id = 109452
+1	OMG	omg	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=4|end_char=8
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=9|end_char=12
+4	hell	hell	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=17|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = I have a friend who lives in Germany and she says that their way of life is dead! :( [USER]
+# sent_id = 109453
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=19|end_char=20
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=21|end_char=25
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=26|end_char=27
+4	friend	friend	NOUN	NN	Number=Sing	3	_	_	start_char=28|end_char=34
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=35|end_char=38
+6	lives	live	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=39|end_char=44
+7	in	in	ADP	IN	_	6	_	_	start_char=45|end_char=47
+8	Germany	Germany	PROPN	NNP	Number=Sing	7	_	_	start_char=48|end_char=55
+9	and	and	CCONJ	CC	_	8	_	_	start_char=56|end_char=59
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=60|end_char=63
+11	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=64|end_char=68
+12	that	that	SCONJ	IN	_	11	_	_	start_char=69|end_char=73
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=74|end_char=79
+14	way	way	NOUN	NN	Number=Sing	13	_	_	start_char=80|end_char=83
+15	of	of	ADP	IN	_	14	_	_	start_char=84|end_char=86
+16	life	life	NOUN	NN	Number=Sing	15	_	_	start_char=87|end_char=91
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=92|end_char=94
+18	dead	dead	ADJ	JJ	Degree=Pos	17	_	_	start_char=95|end_char=99|SpaceAfter=No
+19	!	!	PUNCT	.	_	18	_	_	start_char=99|end_char=100
+20	:(	:(	SYM	NFP	_	19	_	_	start_char=101|end_char=103
+21	[	[	PUNCT	-LRB-	_	20	_	_	start_char=104|end_char=105|SpaceAfter=No
+22	USER	user	NOUN	NN	Number=Sing	21	_	_	start_char=105|end_char=109|SpaceAfter=No
+23	]	]	PUNCT	-RRB-	_	22	_	_	start_char=109|end_char=110|SpaceAfter=No
+

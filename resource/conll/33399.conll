@@ -1,0 +1,36 @@
+# text = They’ll protect her at all costs.
+# sent_id = 71499
+1-2	They’ll	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=4
+2	’ll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	protect	protect	VERB	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=15
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=16|end_char=19
+5	at	at	ADP	IN	_	4	_	_	start_char=20|end_char=22
+6	all	all	DET	DT	_	5	_	_	start_char=23|end_char=26
+7	costs	cost	NOUN	NNS	Number=Plur	6	_	_	start_char=27|end_char=32|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=32|end_char=33
+
+# text = Not because she’s a zipperhead per se, but because she’s, well, not white.
+# sent_id = 71500
+1	Not	not	PART	RB	_	0	_	_	start_char=34|end_char=37
+2	because	because	SCONJ	IN	_	1	_	_	start_char=38|end_char=45
+3-4	she’s	_	_	_	_	_	_	_	start_char=46|end_char=51
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=46|end_char=49
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=49|end_char=51
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=52|end_char=53
+6	zipperhead	zipperhead	NOUN	NN	Number=Sing	5	_	_	start_char=54|end_char=64
+7	per	per	ADP	IN	_	6	_	_	start_char=65|end_char=68
+8	se	se	NOUN	NN	Number=Sing	7	_	_	start_char=69|end_char=71|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=71|end_char=72
+10	but	but	CCONJ	CC	_	9	_	_	start_char=73|end_char=76
+11	because	because	SCONJ	IN	_	10	_	_	start_char=77|end_char=84
+12-13	she’s	_	_	_	_	_	_	_	start_char=85|end_char=90|SpaceAfter=No
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=85|end_char=88
+13	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=88|end_char=90
+14	,	,	PUNCT	,	_	13	_	_	start_char=90|end_char=91
+15	well	well	INTJ	UH	_	14	_	_	start_char=92|end_char=96|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=96|end_char=97
+17	not	not	PART	RB	_	16	_	_	start_char=98|end_char=101
+18	white	white	ADJ	JJ	Degree=Pos	17	_	_	start_char=102|end_char=107|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=107|end_char=108|SpaceAfter=No
+

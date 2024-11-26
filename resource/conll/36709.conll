@@ -1,0 +1,27 @@
+# text = Who's cock is she sucking?
+# sent_id = 78491
+1-2	Who's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	cock	cock	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=10
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=14|end_char=17
+6	sucking	suck	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=18|end_char=25|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=25|end_char=26
+
+# text = If it's not yours she is not interested, period.
+# sent_id = 78492
+1	If	if	SCONJ	IN	_	0	_	_	start_char=27|end_char=29
+2-3	it's	_	_	_	_	_	_	_	start_char=30|end_char=34
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=30|end_char=32
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=32|end_char=34
+4	not	not	PART	RB	_	3	_	_	start_char=35|end_char=38
+5	yours	yours	PRON	PRP	Gender=Neut|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=39|end_char=44
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=45|end_char=48
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=49|end_char=51
+8	not	not	PART	RB	_	7	_	_	start_char=52|end_char=55
+9	interested	interested	ADJ	JJ	Degree=Pos	8	_	_	start_char=56|end_char=66|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=66|end_char=67
+11	period	period	NOUN	NN	Number=Sing	10	_	_	start_char=68|end_char=74|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=74|end_char=75|SpaceAfter=No
+

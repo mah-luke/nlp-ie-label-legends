@@ -1,0 +1,58 @@
+# text = I've never seen anything like it.
+# sent_id = 97980
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	never	never	ADV	RB	_	2	_	_	start_char=5|end_char=10
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=11|end_char=15
+5	anything	anything	PRON	NN	Number=Sing|PronType=Ind	4	_	_	start_char=16|end_char=24
+6	like	like	ADP	IN	_	5	_	_	start_char=25|end_char=29
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=30|end_char=32|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=32|end_char=33
+
+# text = At first, i was puzzled.
+# sent_id = 97981
+1	At	at	ADP	IN	_	0	_	_	start_char=34|end_char=36
+2	first	first	ADV	RB	NumType=Ord	1	_	_	start_char=37|end_char=42|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=42|end_char=43
+4	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=44|end_char=45
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=46|end_char=49
+6	puzzled	puzzle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=50|end_char=57|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=57|end_char=58
+
+# text = Then I realized that she is going to nudge him to the left.
+# sent_id = 97982
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=59|end_char=63
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=64|end_char=65
+3	realized	realize	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=66|end_char=74
+4	that	that	SCONJ	IN	_	3	_	_	start_char=75|end_char=79
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=80|end_char=83
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=84|end_char=86
+7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=87|end_char=92
+8	to	to	PART	TO	_	7	_	_	start_char=93|end_char=95
+9	nudge	nudge	VERB	VB	VerbForm=Inf	8	_	_	start_char=96|end_char=101
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=102|end_char=105
+11	to	to	ADP	IN	_	10	_	_	start_char=106|end_char=108
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=109|end_char=112
+13	left	left	NOUN	NN	Number=Sing	12	_	_	start_char=113|end_char=117|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=117|end_char=118
+
+# text = She is not qualified to advise the president on anything except maybe choice of ties.
+# sent_id = 97983
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=119|end_char=122
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=123|end_char=125
+3	not	not	PART	RB	_	2	_	_	start_char=126|end_char=129
+4	qualified	qualified	ADJ	JJ	Degree=Pos	3	_	_	start_char=130|end_char=139
+5	to	to	PART	TO	_	4	_	_	start_char=140|end_char=142
+6	advise	advise	VERB	VB	VerbForm=Inf	5	_	_	start_char=143|end_char=149
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=150|end_char=153
+8	president	president	NOUN	NN	Number=Sing	7	_	_	start_char=154|end_char=163
+9	on	on	ADP	IN	_	8	_	_	start_char=164|end_char=166
+10	anything	anything	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=167|end_char=175
+11	except	except	ADP	IN	_	10	_	_	start_char=176|end_char=182
+12	maybe	maybe	ADV	RB	_	11	_	_	start_char=183|end_char=188
+13	choice	choice	NOUN	NN	Number=Sing	12	_	_	start_char=189|end_char=195
+14	of	of	ADP	IN	_	13	_	_	start_char=196|end_char=198
+15	ties	tie	NOUN	NNS	Number=Plur	14	_	_	start_char=199|end_char=203|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=203|end_char=204|SpaceAfter=No
+

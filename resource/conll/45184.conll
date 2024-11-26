@@ -1,0 +1,68 @@
+# text = This picture brings back some of my good ole days.
+# sent_id = 96415
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	picture	picture	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=12
+3	brings	bring	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=19
+4	back	back	ADP	RP	_	3	_	_	start_char=20|end_char=24
+5	some	some	DET	DT	_	4	_	_	start_char=25|end_char=29
+6	of	of	ADP	IN	_	5	_	_	start_char=30|end_char=32
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=33|end_char=35
+8	good	good	ADJ	JJ	Degree=Pos	7	_	_	start_char=36|end_char=40
+9	ole	ole	NOUN	NN	Number=Sing	8	_	_	start_char=41|end_char=44
+10	days	day	NOUN	NNS	Number=Plur	9	_	_	start_char=45|end_char=49|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=49|end_char=50
+
+# text = That could e my mom one of my sister's my brother and my self.
+# sent_id = 96416
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=51|end_char=55
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=56|end_char=61
+3	e	e	VERB	VB	VerbForm=Inf	2	_	_	start_char=62|end_char=63
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=64|end_char=66
+5	mom	mom	NOUN	NN	Number=Sing	4	_	_	start_char=67|end_char=70
+6	one	one	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=71|end_char=74
+7	of	of	ADP	IN	_	6	_	_	start_char=75|end_char=77
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	_	_	start_char=78|end_char=80
+9-10	sister's	_	_	_	_	_	_	_	start_char=81|end_char=89
+9	sister	sister	NOUN	NN	Number=Sing	8	_	_	start_char=81|end_char=87
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=87|end_char=89
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=90|end_char=92
+12	brother	brother	NOUN	NN	Number=Sing	11	_	_	start_char=93|end_char=100
+13	and	and	CCONJ	CC	_	12	_	_	start_char=101|end_char=104
+14	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	_	_	start_char=105|end_char=107
+15	self	self	NOUN	NN	Number=Sing	14	_	_	start_char=108|end_char=112|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=112|end_char=113
+
+# text = There were times I dressed just like these kids.
+# sent_id = 96417
+1	There	there	PRON	EX	_	0	_	_	start_char=114|end_char=119
+2	were	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=120|end_char=124
+3	times	time	NOUN	NNS	Number=Plur	2	_	_	start_char=125|end_char=130
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=131|end_char=132
+5	dressed	dress	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=133|end_char=140
+6	just	just	ADV	RB	_	5	_	_	start_char=141|end_char=145
+7	like	like	ADP	IN	_	6	_	_	start_char=146|end_char=150
+8	these	this	DET	DT	Number=Plur|PronType=Dem	7	_	_	start_char=151|end_char=156
+9	kids	kid	NOUN	NNS	Number=Plur	8	_	_	start_char=157|end_char=161|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=161|end_char=162
+
+# text = But I'm happy to say my mom always did good and was a great Mother.
+# sent_id = 96418
+1	But	but	CCONJ	CC	_	0	_	_	start_char=163|end_char=166
+2-3	I'm	_	_	_	_	_	_	_	start_char=167|end_char=170
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=167|end_char=168
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=168|end_char=170
+4	happy	happy	ADJ	JJ	Degree=Pos	3	_	_	start_char=171|end_char=176
+5	to	to	PART	TO	_	4	_	_	start_char=177|end_char=179
+6	say	say	VERB	VB	VerbForm=Inf	5	_	_	start_char=180|end_char=183
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=184|end_char=186
+8	mom	mom	NOUN	NN	Number=Sing	7	_	_	start_char=187|end_char=190
+9	always	always	ADV	RB	_	8	_	_	start_char=191|end_char=197
+10	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=198|end_char=201
+11	good	good	ADJ	JJ	Degree=Pos	10	_	_	start_char=202|end_char=206
+12	and	and	CCONJ	CC	_	11	_	_	start_char=207|end_char=210
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=211|end_char=214
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=215|end_char=216
+15	great	great	ADJ	JJ	Degree=Pos	14	_	_	start_char=217|end_char=222
+16	Mother	mother	NOUN	NN	Number=Sing	15	_	_	start_char=223|end_char=229|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=229|end_char=230|SpaceAfter=No
+

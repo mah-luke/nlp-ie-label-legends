@@ -1,0 +1,70 @@
+# text = Not an asshole.
+# sent_id = 101127
+1	Not	not	PART	RB	_	0	_	_	start_char=0|end_char=3
+2	an	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=4|end_char=6
+3	asshole	asshole	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = I feel disgusted too.
+# sent_id = 101128
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=16|end_char=17
+2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=18|end_char=22
+3	disgusted	disgusted	ADJ	JJ	Degree=Pos	2	_	_	start_char=23|end_char=32
+4	too	too	ADV	RB	_	3	_	_	start_char=33|end_char=36|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=36|end_char=37
+
+# text = We're such a pc society that they've posted photos of the kid when he was little and calling him a "girl."
+# sent_id = 101129
+1-2	We're	_	_	_	_	_	_	_	start_char=38|end_char=43
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=38|end_char=40
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=40|end_char=43
+3	such	such	DET	PDT	_	2	_	_	start_char=44|end_char=48
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=49|end_char=50
+5	pc	pc	NOUN	NN	Number=Sing	4	_	_	start_char=51|end_char=53
+6	society	society	NOUN	NN	Number=Sing	5	_	_	start_char=54|end_char=61
+7	that	that	SCONJ	IN	_	6	_	_	start_char=62|end_char=66
+8-9	they've	_	_	_	_	_	_	_	start_char=67|end_char=74
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=67|end_char=71
+9	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=71|end_char=74
+10	posted	post	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=75|end_char=81
+11	photos	photo	NOUN	NNS	Number=Plur	10	_	_	start_char=82|end_char=88
+12	of	of	ADP	IN	_	11	_	_	start_char=89|end_char=91
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=92|end_char=95
+14	kid	kid	NOUN	NN	Number=Sing	13	_	_	start_char=96|end_char=99
+15	when	when	ADV	WRB	PronType=Int	14	_	_	start_char=100|end_char=104
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=105|end_char=107
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=108|end_char=111
+18	little	little	ADJ	JJ	Degree=Pos	17	_	_	start_char=112|end_char=118
+19	and	and	CCONJ	CC	_	18	_	_	start_char=119|end_char=122
+20	calling	call	VERB	VBG	Tense=Pres|VerbForm=Part	19	_	_	start_char=123|end_char=130
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=131|end_char=134
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	start_char=135|end_char=136
+23	"	"	PUNCT	``	_	22	_	_	start_char=137|end_char=138|SpaceAfter=No
+24	girl	girl	NOUN	NN	Number=Sing	23	_	_	start_char=138|end_char=142|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=142|end_char=143|SpaceAfter=No
+26	"	"	PUNCT	''	_	25	_	_	start_char=143|end_char=144
+
+# text = They are so afraid to have him face the truth about his biology and gender.
+# sent_id = 101130
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=145|end_char=149
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=150|end_char=153
+3	so	so	ADV	RB	_	2	_	_	start_char=154|end_char=156
+4	afraid	afraid	ADJ	JJ	Degree=Pos	3	_	_	start_char=157|end_char=163
+5	to	to	PART	TO	_	4	_	_	start_char=164|end_char=166
+6	have	have	VERB	VB	VerbForm=Inf	5	_	_	start_char=167|end_char=171
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=172|end_char=175
+8	face	face	VERB	VB	VerbForm=Inf	7	_	_	start_char=176|end_char=180
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=181|end_char=184
+10	truth	truth	NOUN	NN	Number=Sing	9	_	_	start_char=185|end_char=190
+11	about	about	ADP	IN	_	10	_	_	start_char=191|end_char=196
+12	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=197|end_char=200
+13	biology	biology	NOUN	NN	Number=Sing	12	_	_	start_char=201|end_char=208
+14	and	and	CCONJ	CC	_	13	_	_	start_char=209|end_char=212
+15	gender	gender	NOUN	NN	Number=Sing	14	_	_	start_char=213|end_char=219|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=219|end_char=220
+
+# text = Sickening.
+# sent_id = 101131
+1	Sickening	Sickening	ADJ	JJ	Degree=Pos	0	_	_	start_char=221|end_char=230|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=230|end_char=231|SpaceAfter=No
+

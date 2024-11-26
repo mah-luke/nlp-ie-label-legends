@@ -1,0 +1,24 @@
+# text = At least she's being reasonable.
+# sent_id = 112194
+1	At	at	ADP	IN	ExtPos=ADV	0	_	_	start_char=0|end_char=2
+2	least	least	ADJ	JJS	Degree=Sup	1	_	_	start_char=3|end_char=8
+3-4	she's	_	_	_	_	_	_	_	start_char=9|end_char=14
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=12|end_char=14
+5	being	be	AUX	VBG	VerbForm=Ger	4	_	_	start_char=15|end_char=20
+6	reasonable	reasonable	ADJ	JJ	Degree=Pos	5	_	_	start_char=21|end_char=31|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=31|end_char=32
+
+# text = Man shut the fuck up with these soylent remarks.
+# sent_id = 112195
+1	Man	man	NOUN	NN	Number=Sing	0	_	_	start_char=33|end_char=36
+2	shut	shut	VERB	VB	Mood=Ind|Number=Sing|VerbForm=Fin	1	_	_	start_char=37|end_char=41
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=42|end_char=45
+4	fuck	fuck	NOUN	NN	Number=Sing	3	_	_	start_char=46|end_char=50
+5	up	up	ADP	RP	_	4	_	_	start_char=51|end_char=53
+6	with	with	ADP	IN	_	5	_	_	start_char=54|end_char=58
+7	these	this	DET	DT	Number=Plur|PronType=Dem	6	_	_	start_char=59|end_char=64
+8	soylent	soylent	ADJ	JJ	Degree=Pos	7	_	_	start_char=65|end_char=72
+9	remarks	remark	NOUN	NNS	Number=Plur	8	_	_	start_char=73|end_char=80|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=80|end_char=81|SpaceAfter=No
+

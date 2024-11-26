@@ -1,0 +1,39 @@
+# text = THIS!!!
+# sent_id = 51573
+1	THIS	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	!!!	!!!	PUNCT	.	_	1	_	_	start_char=4|end_char=7
+
+# text = She’s FP (fatty potential) — what an IDIOT!
+# sent_id = 51574
+1-2	She’s	_	_	_	_	_	_	_	start_char=8|end_char=13
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=8|end_char=11
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=11|end_char=13
+3	FP	fp	NOUN	NN	Number=Sing	2	_	_	start_char=14|end_char=16
+4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=17|end_char=18|SpaceAfter=No
+5	fatty	fatty	ADJ	JJ	Degree=Pos	4	_	_	start_char=18|end_char=23
+6	potential	potential	NOUN	NN	Number=Sing	5	_	_	start_char=24|end_char=33|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=33|end_char=34
+8	—	—	PUNCT	:	_	7	_	_	start_char=35|end_char=36
+9	what	what	PRON	WP	PronType=Int	8	_	_	start_char=37|end_char=41
+10	an	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=42|end_char=44
+11	IDIOT	idiot	NOUN	NN	Number=Sing	10	_	_	start_char=45|end_char=50|SpaceAfter=No
+12	!	!	PUNCT	.	_	11	_	_	start_char=50|end_char=51
+
+# text = In her physical prime she’s not even winning her lifelong battle with obesity
+# sent_id = 51575
+1	In	in	ADP	IN	_	0	_	_	start_char=52|end_char=54
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=55|end_char=58
+3	physical	physical	ADJ	JJ	Degree=Pos	2	_	_	start_char=59|end_char=67
+4	prime	prime	NOUN	NN	Number=Sing	3	_	_	start_char=68|end_char=73
+5-6	she’s	_	_	_	_	_	_	_	start_char=74|end_char=79
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=74|end_char=77
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=77|end_char=79
+7	not	not	PART	RB	_	6	_	_	start_char=80|end_char=83
+8	even	even	ADV	RB	_	7	_	_	start_char=84|end_char=88
+9	winning	win	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=89|end_char=96
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=97|end_char=100
+11	lifelong	lifelong	ADJ	JJ	Degree=Pos	10	_	_	start_char=101|end_char=109
+12	battle	battle	NOUN	NN	Number=Sing	11	_	_	start_char=110|end_char=116
+13	with	with	ADP	IN	_	12	_	_	start_char=117|end_char=121
+14	obesity	obesity	NOUN	NN	Number=Sing	13	_	_	start_char=122|end_char=129|SpaceAfter=No
+

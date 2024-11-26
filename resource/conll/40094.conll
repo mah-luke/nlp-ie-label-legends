@@ -1,0 +1,32 @@
+# text = I mean I'm poor as shit tho.
+# sent_id = 85675
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3-4	I'm	_	_	_	_	_	_	_	start_char=7|end_char=10
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=7|end_char=8
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=10
+5	poor	poor	ADJ	JJ	Degree=Pos	4	_	_	start_char=11|end_char=15
+6	as	as	ADP	IN	_	5	_	_	start_char=16|end_char=18
+7	shit	shit	NOUN	NN	Number=Sing	6	_	_	start_char=19|end_char=23
+8	tho	though	INTJ	UH	_	7	_	_	start_char=24|end_char=27|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=27|end_char=28
+
+# text = 12'' 2figure 7'10'' i guess no women will love me :(
+# sent_id = 85676
+1	12	12	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=29|end_char=31|SpaceAfter=No
+2	''	''	PUNCT	``	_	1	_	_	start_char=31|end_char=33
+3	2	2	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=34|end_char=35|SpaceAfter=No
+4	figure	figure	NOUN	NN	Number=Sing	3	_	_	start_char=35|end_char=41
+5	7	7	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=42|end_char=43|SpaceAfter=No
+6	'	'	PUNCT	``	_	5	_	_	start_char=43|end_char=44|SpaceAfter=No
+7	10	10	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=44|end_char=46|SpaceAfter=No
+8	''	''	PUNCT	''	_	7	_	_	start_char=46|end_char=48
+9	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=49|end_char=50
+10	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=51|end_char=56
+11	no	no	DET	DT	_	10	_	_	start_char=57|end_char=59
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=60|end_char=65
+13	will	will	AUX	MD	VerbForm=Fin	12	_	_	start_char=66|end_char=70
+14	love	love	VERB	VB	VerbForm=Inf	13	_	_	start_char=71|end_char=75
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=76|end_char=78
+16	:(	:(	SYM	NFP	_	15	_	_	start_char=79|end_char=81|SpaceAfter=No
+

@@ -1,0 +1,48 @@
+# text = Hey now...
+# sent_id = 55680
+1	Hey	hey	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	now	now	ADV	RB	_	1	_	_	start_char=4|end_char=7|SpaceAfter=No
+3	...	...	PUNCT	.	_	2	_	_	start_char=7|end_char=10
+
+# text = Those wild mailboxes can get pretty mean if you don't keep your eye on them.
+# sent_id = 55681
+1	Those	that	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=11|end_char=16
+2	wild	wild	ADJ	JJ	Degree=Pos	1	_	_	start_char=17|end_char=21
+3	mailboxes	mailbox	NOUN	NNS	Number=Plur	2	_	_	start_char=22|end_char=31
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=32|end_char=35
+5	get	get	VERB	VB	VerbForm=Inf	4	_	_	start_char=36|end_char=39
+6	pretty	pretty	ADV	RB	_	5	_	_	start_char=40|end_char=46
+7	mean	mean	ADJ	JJ	Degree=Pos	6	_	_	start_char=47|end_char=51
+8	if	if	SCONJ	IN	_	7	_	_	start_char=52|end_char=54
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=55|end_char=58
+10-11	don't	_	_	_	_	_	_	_	start_char=59|end_char=64
+10	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=59|end_char=61
+11	n't	not	PART	RB	_	10	_	_	start_char=61|end_char=64
+12	keep	keep	VERB	VB	VerbForm=Inf	11	_	_	start_char=65|end_char=69
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=70|end_char=74
+14	eye	eye	NOUN	NN	Number=Sing	13	_	_	start_char=75|end_char=78
+15	on	on	ADP	IN	_	14	_	_	start_char=79|end_char=81
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	_	_	start_char=82|end_char=86|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=86|end_char=87
+
+# text = I've been known to take one or two of them out back in my day...
+# sent_id = 55682
+1-2	I've	_	_	_	_	_	_	_	start_char=88|end_char=92
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=88|end_char=89
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=89|end_char=92
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=93|end_char=97
+4	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=98|end_char=103
+5	to	to	PART	TO	_	4	_	_	start_char=104|end_char=106
+6	take	take	VERB	VB	VerbForm=Inf	5	_	_	start_char=107|end_char=111
+7	one	one	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=112|end_char=115
+8	or	or	CCONJ	CC	_	7	_	_	start_char=116|end_char=118
+9	two	two	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=119|end_char=122
+10	of	of	ADP	IN	_	9	_	_	start_char=123|end_char=125
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=126|end_char=130
+12	out	out	ADV	RB	_	11	_	_	start_char=131|end_char=134
+13	back	back	ADV	RB	_	12	_	_	start_char=135|end_char=139
+14	in	in	ADP	IN	_	13	_	_	start_char=140|end_char=142
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	_	_	start_char=143|end_char=145
+16	day	day	NOUN	NN	Number=Sing	15	_	_	start_char=146|end_char=149|SpaceAfter=No
+17	...	...	PUNCT	.	_	16	_	_	start_char=149|end_char=152|SpaceAfter=No
+

@@ -1,0 +1,52 @@
+# text = I'm so damn sick of Germany right now..
+# sent_id = 69098
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	so	so	ADV	RB	_	2	_	_	start_char=4|end_char=6
+4	damn	damn	ADV	RB	_	3	_	_	start_char=7|end_char=11
+5	sick	sick	ADJ	JJ	Degree=Pos	4	_	_	start_char=12|end_char=16
+6	of	of	ADP	IN	_	5	_	_	start_char=17|end_char=19
+7	Germany	Germany	PROPN	NNP	Number=Sing	6	_	_	start_char=20|end_char=27
+8	right	right	ADV	RB	_	7	_	_	start_char=28|end_char=33
+9	now	now	ADV	RB	_	8	_	_	start_char=34|end_char=37|SpaceAfter=No
+10	..	..	PUNCT	.	_	9	_	_	start_char=37|end_char=39
+
+# text = They have a major problem.... Merkel.
+# sent_id = 69099
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=40|end_char=44
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=45|end_char=49
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=50|end_char=51
+4	major	major	ADJ	JJ	Degree=Pos	3	_	_	start_char=52|end_char=57
+5	problem	problem	NOUN	NN	Number=Sing	4	_	_	start_char=58|end_char=65|SpaceAfter=No
+6	....	....	PUNCT	,	_	5	_	_	start_char=65|end_char=69
+7	Merkel	Merkel	PROPN	NNP	Number=Sing	6	_	_	start_char=70|end_char=76|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=76|end_char=77
+
+# text = Get rid if her, you can work the rest out.
+# sent_id = 69100
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=78|end_char=81
+2	rid	rid	ADJ	JJ	Degree=Pos	1	_	_	start_char=82|end_char=85
+3	if	if	SCONJ	IN	_	2	_	_	start_char=86|end_char=88
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=89|end_char=92|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=92|end_char=93
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=94|end_char=97
+7	can	can	AUX	MD	VerbForm=Fin	6	_	_	start_char=98|end_char=101
+8	work	work	VERB	VB	VerbForm=Inf	7	_	_	start_char=102|end_char=106
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=107|end_char=110
+10	rest	rest	NOUN	NN	Number=Sing	9	_	_	start_char=111|end_char=115
+11	out	out	ADP	RP	_	10	_	_	start_char=116|end_char=119|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=119|end_char=120
+
+# text = Now, do it & quit fucking around.
+# sent_id = 69101
+1	Now	now	ADV	RB	_	0	_	_	start_char=121|end_char=124|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=124|end_char=125
+3	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=126|end_char=128
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=129|end_char=131
+5	&	&	CCONJ	CC	_	4	_	_	start_char=132|end_char=133
+6	quit	quit	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=134|end_char=138
+7	fucking	fuck	VERB	VBG	VerbForm=Ger	6	_	_	start_char=139|end_char=146
+8	around	around	ADV	RB	_	7	_	_	start_char=147|end_char=153|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=153|end_char=154|SpaceAfter=No
+

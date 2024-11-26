@@ -1,0 +1,30 @@
+# text = Indeed they do.
+# sent_id = 17910
+1	Indeed	indeed	ADV	RB	_	0	_	_	start_char=0|end_char=6
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=7|end_char=11
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = Personally I'm more of a dog person.
+# sent_id = 17911
+1	Personally	personally	ADV	RB	_	0	_	_	start_char=16|end_char=26
+2-3	I'm	_	_	_	_	_	_	_	start_char=27|end_char=30
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=27|end_char=28
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=28|end_char=30
+4	more	more	ADJ	JJR	Degree=Cmp	3	_	_	start_char=31|end_char=35
+5	of	of	ADP	IN	_	4	_	_	start_char=36|end_char=38
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=39|end_char=40
+7	dog	dog	NOUN	NN	Number=Sing	6	_	_	start_char=41|end_char=44
+8	person	person	NOUN	NN	Number=Sing	7	_	_	start_char=45|end_char=51|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=51|end_char=52
+
+# text = So dog girls would be great.
+# sent_id = 17912
+1	So	so	ADV	RB	_	0	_	_	start_char=53|end_char=55
+2	dog	dog	NOUN	NN	Number=Sing	1	_	_	start_char=56|end_char=59
+3	girls	girl	NOUN	NNS	Number=Plur	2	_	_	start_char=60|end_char=65
+4	would	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=66|end_char=71
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=72|end_char=74
+6	great	great	ADJ	JJ	Degree=Pos	5	_	_	start_char=75|end_char=80|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=80|end_char=81|SpaceAfter=No
+

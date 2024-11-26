@@ -1,0 +1,81 @@
+# text = Agree.
+# sent_id = 15680
+1	Agree	agree	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=5|end_char=6
+
+# text = I've made the six figure income.
+# sent_id = 15681
+1-2	I've	_	_	_	_	_	_	_	start_char=7|end_char=11
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=11
+3	made	make	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=12|end_char=16
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=17|end_char=20
+5	six	six	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=21|end_char=24
+6	figure	figure	NOUN	NN	Number=Sing	5	_	_	start_char=25|end_char=31
+7	income	income	NOUN	NN	Number=Sing	6	_	_	start_char=32|end_char=38|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=38|end_char=39
+
+# text = Although I had to work 80 hours a week to do it.
+# sent_id = 15682
+1	Although	although	SCONJ	IN	_	0	_	_	start_char=40|end_char=48
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=49|end_char=50
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=51|end_char=54
+4	to	to	PART	TO	_	3	_	_	start_char=55|end_char=57
+5	work	work	VERB	VB	VerbForm=Inf	4	_	_	start_char=58|end_char=62
+6	80	80	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=63|end_char=65
+7	hours	hour	NOUN	NNS	Number=Plur	6	_	_	start_char=66|end_char=71
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=72|end_char=73
+9	week	week	NOUN	NN	Number=Sing	8	_	_	start_char=74|end_char=78
+10	to	to	PART	TO	_	9	_	_	start_char=79|end_char=81
+11	do	do	VERB	VB	VerbForm=Inf	10	_	_	start_char=82|end_char=84
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=85|end_char=87|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=87|end_char=88
+
+# text = Women don't give a fuck.
+# sent_id = 15683
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=89|end_char=94
+2-3	don't	_	_	_	_	_	_	_	start_char=95|end_char=100
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=95|end_char=97
+3	n't	not	PART	RB	_	2	_	_	start_char=97|end_char=100
+4	give	give	VERB	VB	VerbForm=Inf	3	_	_	start_char=101|end_char=105
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=106|end_char=107
+6	fuck	fuck	NOUN	NN	Number=Sing	5	_	_	start_char=108|end_char=112|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=112|end_char=113
+
+# text = They'd rather fuck broke chad, nothing makes up for lack of physical attraction.
+# sent_id = 15684
+1-2	They'd	_	_	_	_	_	_	_	start_char=114|end_char=120
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=114|end_char=118
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=118|end_char=120
+3	rather	rather	ADV	RB	_	2	_	_	start_char=121|end_char=127
+4	fuck	fuck	VERB	VB	VerbForm=Inf	3	_	_	start_char=128|end_char=132
+5	broke	break	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=133|end_char=138
+6	chad	chad	NOUN	NN	Number=Sing	5	_	_	start_char=139|end_char=143|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=143|end_char=144
+8	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	7	_	_	start_char=145|end_char=152
+9	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=153|end_char=158
+10	up	up	ADP	RP	_	9	_	_	start_char=159|end_char=161
+11	for	for	ADP	IN	_	10	_	_	start_char=162|end_char=165
+12	lack	lack	NOUN	NN	Number=Sing	11	_	_	start_char=166|end_char=170
+13	of	of	ADP	IN	_	12	_	_	start_char=171|end_char=173
+14	physical	physical	ADJ	JJ	Degree=Pos	13	_	_	start_char=174|end_char=182
+15	attraction	attraction	NOUN	NN	Number=Sing	14	_	_	start_char=183|end_char=193|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=193|end_char=194
+
+# text = Nothing.
+# sent_id = 15685
+1	Nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=195|end_char=202|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=202|end_char=203
+
+# text = The women that fake it are using you.
+# sent_id = 15686
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=204|end_char=207
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=208|end_char=213
+3	that	that	PRON	WDT	PronType=Rel	2	_	_	start_char=214|end_char=218
+4	fake	fake	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=219|end_char=223
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=224|end_char=226
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=227|end_char=230
+7	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=231|end_char=236
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	_	_	start_char=237|end_char=240|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=240|end_char=241|SpaceAfter=No
+

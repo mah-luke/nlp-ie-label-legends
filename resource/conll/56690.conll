@@ -1,0 +1,31 @@
+# text = Who's the pussy ass faggot that downvoted this?
+# sent_id = 121182
+1-2	Who's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=6|end_char=9
+4	pussy	pussy	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=15
+5	ass	ass	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=19
+6	faggot	faggot	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=26
+7	that	that	PRON	WDT	PronType=Rel	6	_	_	start_char=27|end_char=31
+8	downvoted	downvote	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=32|end_char=41
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=42|end_char=46|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=46|end_char=47
+
+# text = 5.56 hurt your little bitch ass shoulder too?
+# sent_id = 121183
+1	5.56	5.56	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=48|end_char=52
+2	hurt	hurt	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=53|end_char=57
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=58|end_char=62
+4	little	little	ADJ	JJ	Degree=Pos	3	_	_	start_char=63|end_char=69
+5	bitch	bitch	NOUN	NN	Number=Sing	4	_	_	start_char=70|end_char=75
+6	ass	ass	NOUN	NN	Number=Sing	5	_	_	start_char=76|end_char=79
+7	shoulder	shoulder	NOUN	NN	Number=Sing	6	_	_	start_char=80|end_char=88
+8	too	too	ADV	RB	_	7	_	_	start_char=89|end_char=92|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=92|end_char=93
+
+# text = cunt.
+# sent_id = 121184
+1	cunt	cunt	NOUN	NN	Number=Sing	0	_	_	start_char=94|end_char=98|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=98|end_char=99|SpaceAfter=No
+

@@ -1,0 +1,60 @@
+# text = [USER]
+# sent_id = 48597
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Science will have to invent a new form of math just to quantify her ego.
+# sent_id = 48598
+1	Science	science	NOUN	NN	Number=Sing	0	_	_	start_char=7|end_char=14
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=15|end_char=19
+3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=20|end_char=24
+4	to	to	PART	TO	_	3	_	_	start_char=25|end_char=27
+5	invent	invent	VERB	VB	VerbForm=Inf	4	_	_	start_char=28|end_char=34
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=35|end_char=36
+7	new	new	ADJ	JJ	Degree=Pos	6	_	_	start_char=37|end_char=40
+8	form	form	NOUN	NN	Number=Sing	7	_	_	start_char=41|end_char=45
+9	of	of	ADP	IN	_	8	_	_	start_char=46|end_char=48
+10	math	math	NOUN	NN	Number=Sing	9	_	_	start_char=49|end_char=53
+11	just	just	ADV	RB	_	10	_	_	start_char=54|end_char=58
+12	to	to	PART	TO	_	11	_	_	start_char=59|end_char=61
+13	quantify	quantify	VERB	VB	VerbForm=Inf	12	_	_	start_char=62|end_char=70
+14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=71|end_char=74
+15	ego	ego	NOUN	NN	Number=Sing	14	_	_	start_char=75|end_char=78|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=78|end_char=79
+
+# text = Maybe under a president Trump the only place she'll be leaving to is a prison.
+# sent_id = 48599
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=80|end_char=85
+2	under	under	ADP	IN	_	1	_	_	start_char=86|end_char=91
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=92|end_char=93
+4	president	president	NOUN	NN	Number=Sing	3	_	_	start_char=94|end_char=103
+5	Trump	Trump	PROPN	NNP	Number=Sing	4	_	_	start_char=104|end_char=109
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=110|end_char=113
+7	only	only	ADJ	JJ	Degree=Pos	6	_	_	start_char=114|end_char=118
+8	place	place	NOUN	NN	Number=Sing	7	_	_	start_char=119|end_char=124
+9-10	she'll	_	_	_	_	_	_	_	start_char=125|end_char=131
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=125|end_char=128
+10	'll	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=128|end_char=131
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=132|end_char=134
+12	leaving	leave	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=135|end_char=142
+13	to	to	ADP	IN	_	12	_	_	start_char=143|end_char=145
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=146|end_char=148
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=149|end_char=150
+16	prison	prison	NOUN	NN	Number=Sing	15	_	_	start_char=151|end_char=157|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=157|end_char=158
+
+# text = Let her bitch about the patriarchy from cell block C.
+# sent_id = 48600
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=159|end_char=162
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=163|end_char=166
+3	bitch	bitch	VERB	VB	VerbForm=Inf	2	_	_	start_char=167|end_char=172
+4	about	about	ADP	IN	_	3	_	_	start_char=173|end_char=178
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=179|end_char=182
+6	patriarchy	patriarchy	NOUN	NN	Number=Sing	5	_	_	start_char=183|end_char=193
+7	from	from	ADP	IN	_	6	_	_	start_char=194|end_char=198
+8	cell	cell	NOUN	NN	Number=Sing	7	_	_	start_char=199|end_char=203
+9	block	block	NOUN	NN	Number=Sing	8	_	_	start_char=204|end_char=209
+10	C	C	PROPN	NNP	Number=Sing	9	_	_	start_char=210|end_char=211|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=211|end_char=212|SpaceAfter=No
+

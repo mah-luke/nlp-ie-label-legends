@@ -1,0 +1,71 @@
+# text = Hahaha, what a cuckold.
+# sent_id = 23806
+1	Hahaha	Hahaha	INTJ	UH	_	0	_	_	start_char=0|end_char=6|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=6|end_char=7
+3	what	what	PRON	WP	PronType=Int	2	_	_	start_char=8|end_char=12
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=13|end_char=14
+5	cuckold	cuckold	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = I would've just ghosted her.
+# sent_id = 23807
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=24|end_char=25
+2-3	would've	_	_	_	_	_	_	_	start_char=26|end_char=34
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=26|end_char=31
+3	've	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=31|end_char=34
+4	just	just	ADV	RB	_	3	_	_	start_char=35|end_char=39
+5	ghosted	ghost	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=40|end_char=47
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=48|end_char=51|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=51|end_char=52
+
+# text = "I will not tell her what to do" YOU ARE IN A RELATIONSHIP WITH HER, ITS YOUR DUTY TO TELL HER WHAT TO DO.
+# sent_id = 23808
+1	"	"	PUNCT	``	_	0	_	_	start_char=53|end_char=54|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=54|end_char=55
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=56|end_char=60
+4	not	not	PART	RB	_	3	_	_	start_char=61|end_char=64
+5	tell	tell	VERB	VB	VerbForm=Inf	4	_	_	start_char=65|end_char=69
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=70|end_char=73
+7	what	what	PRON	WP	PronType=Int	6	_	_	start_char=74|end_char=78
+8	to	to	PART	TO	_	7	_	_	start_char=79|end_char=81
+9	do	do	VERB	VB	VerbForm=Inf	8	_	_	start_char=82|end_char=84|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=84|end_char=85
+11	YOU	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=86|end_char=89
+12	ARE	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=90|end_char=93
+13	IN	in	ADP	IN	_	12	_	_	start_char=94|end_char=96
+14	A	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=97|end_char=98
+15	RELATIONSHIP	relationship	NOUN	NN	Number=Sing	14	_	_	start_char=99|end_char=111
+16	WITH	with	ADP	IN	_	15	_	_	start_char=112|end_char=116
+17	HER	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=117|end_char=120|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=120|end_char=121
+19	ITS	its	PRON	PRP	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=122|end_char=125
+20	YOUR	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	19	_	_	start_char=126|end_char=130
+21	DUTY	duty	NOUN	NN	Number=Sing	20	_	_	start_char=131|end_char=135
+22	TO	to	PART	TO	_	21	_	_	start_char=136|end_char=138
+23	TELL	tell	VERB	VB	VerbForm=Inf	22	_	_	start_char=139|end_char=143
+24	HER	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=144|end_char=147
+25	WHAT	what	PRON	WP	PronType=Rel	24	_	_	start_char=148|end_char=152
+26	TO	to	PART	TO	_	25	_	_	start_char=153|end_char=155
+27	DO	do	VERB	VB	VerbForm=Inf	26	_	_	start_char=156|end_char=158|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=158|end_char=159
+
+# text = Cuckold motherfucker.
+# sent_id = 23809
+1	Cuckold	cuckold	NOUN	NN	Number=Sing	0	_	_	start_char=160|end_char=167
+2	motherfucker	motherfucker	NOUN	NN	Number=Sing	1	_	_	start_char=168|end_char=180|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=180|end_char=181
+
+# text = Now it's too late, dump the bitch.
+# sent_id = 23810
+1	Now	now	ADV	RB	_	0	_	_	start_char=182|end_char=185
+2-3	it's	_	_	_	_	_	_	_	start_char=186|end_char=190
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=186|end_char=188
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=188|end_char=190
+4	too	too	ADV	RB	_	3	_	_	start_char=191|end_char=194
+5	late	late	ADJ	JJ	Degree=Pos	4	_	_	start_char=195|end_char=199|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=199|end_char=200
+7	dump	dump	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=201|end_char=205
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=206|end_char=209
+9	bitch	bitch	NOUN	NN	Number=Sing	8	_	_	start_char=210|end_char=215|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=215|end_char=216|SpaceAfter=No
+

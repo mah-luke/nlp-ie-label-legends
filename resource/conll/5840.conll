@@ -1,0 +1,29 @@
+# text = [USER] -- have you seen this?
+# sent_id = 12217
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	--	--	PUNCT	,	_	3	_	_	start_char=7|end_char=9
+5	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=10|end_char=14
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=15|end_char=18
+7	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=19|end_char=23
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=24|end_char=28|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=28|end_char=29
+
+# text = There is also this Canadian woman with the same story ([URL]
+# sent_id = 12218
+1	There	there	PRON	EX	_	0	_	_	start_char=30|end_char=35
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=38
+3	also	also	ADV	RB	_	2	_	_	start_char=39|end_char=43
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=44|end_char=48
+5	Canadian	Canadian	ADJ	JJ	Degree=Pos	4	_	_	start_char=49|end_char=57
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=58|end_char=63
+7	with	with	ADP	IN	_	6	_	_	start_char=64|end_char=68
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=69|end_char=72
+9	same	same	ADJ	JJ	Degree=Pos	8	_	_	start_char=73|end_char=77
+10	story	story	NOUN	NN	Number=Sing	9	_	_	start_char=78|end_char=83
+11	(	(	PUNCT	-LRB-	_	10	_	_	start_char=84|end_char=85|SpaceAfter=No
+12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=85|end_char=86|SpaceAfter=No
+13	URL	URL	PROPN	NNP	Number=Sing	12	_	_	start_char=86|end_char=89|SpaceAfter=No
+14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=89|end_char=90|SpaceAfter=No
+

@@ -1,0 +1,29 @@
+# text = Someone who's taken control over the relationship in an emotionally abusive manner.
+# sent_id = 57044
+1	Someone	someone	PRON	NN	Number=Sing|PronType=Ind	0	_	_	start_char=0|end_char=7
+2-3	who's	_	_	_	_	_	_	_	start_char=8|end_char=13
+2	who	who	PRON	WP	PronType=Rel	1	_	_	start_char=8|end_char=11
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=14|end_char=19
+5	control	control	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=27
+6	over	over	ADP	IN	_	5	_	_	start_char=28|end_char=32
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=33|end_char=36
+8	relationship	relationship	NOUN	NN	Number=Sing	7	_	_	start_char=37|end_char=49
+9	in	in	ADP	IN	_	8	_	_	start_char=50|end_char=52
+10	an	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=53|end_char=55
+11	emotionally	emotionally	ADV	RB	_	10	_	_	start_char=56|end_char=67
+12	abusive	abusive	ADJ	JJ	Degree=Pos	11	_	_	start_char=68|end_char=75
+13	manner	manner	NOUN	NN	Number=Sing	12	_	_	start_char=76|end_char=82|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=82|end_char=83
+
+# text = I feel so bad for her husband.
+# sent_id = 57045
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=84|end_char=85
+2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=86|end_char=90
+3	so	so	ADV	RB	_	2	_	_	start_char=91|end_char=93
+4	bad	bad	ADJ	JJ	Degree=Pos	3	_	_	start_char=94|end_char=97
+5	for	for	ADP	IN	_	4	_	_	start_char=98|end_char=101
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=102|end_char=105
+7	husband	husband	NOUN	NN	Number=Sing	6	_	_	start_char=106|end_char=113|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=113|end_char=114|SpaceAfter=No
+

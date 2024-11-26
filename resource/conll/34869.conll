@@ -1,0 +1,69 @@
+# text = "...he cried and couldn't sleep for 24 hours then he apologized, deleted it, and begged forgiveness from the Racism Gods."
+# sent_id = 74604
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	...	...	PUNCT	,	_	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=4|end_char=6
+4	cried	cry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=7|end_char=12
+5	and	and	CCONJ	CC	_	4	_	_	start_char=13|end_char=16
+6-7	couldn't	_	_	_	_	_	_	_	start_char=17|end_char=25
+6	could	could	AUX	MD	VerbForm=Fin	5	_	_	start_char=17|end_char=22
+7	n't	not	PART	RB	_	6	_	_	start_char=22|end_char=25
+8	sleep	sleep	VERB	VB	VerbForm=Inf	7	_	_	start_char=26|end_char=31
+9	for	for	ADP	IN	_	8	_	_	start_char=32|end_char=35
+10	24	24	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=36|end_char=38
+11	hours	hour	NOUN	NNS	Number=Plur	10	_	_	start_char=39|end_char=44
+12	then	then	ADV	RB	PronType=Dem	11	_	_	start_char=45|end_char=49
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=50|end_char=52
+14	apologized	apologize	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=53|end_char=63|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=63|end_char=64
+16	deleted	delete	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=65|end_char=72
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=73|end_char=75|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=75|end_char=76
+19	and	and	CCONJ	CC	_	18	_	_	start_char=77|end_char=80
+20	begged	beg	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=81|end_char=87
+21	forgiveness	forgiveness	NOUN	NN	Number=Sing	20	_	_	start_char=88|end_char=99
+22	from	from	ADP	IN	_	21	_	_	start_char=100|end_char=104
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=105|end_char=108
+24	Racism	Racism	PROPN	NNP	Number=Sing	23	_	_	start_char=109|end_char=115
+25	Gods	Gods	PROPN	NNPS	Number=Plur	24	_	_	start_char=116|end_char=120|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=120|end_char=121|SpaceAfter=No
+27	"	"	PUNCT	''	_	26	_	_	start_char=121|end_char=122
+
+# text = Yeah everyone's got to be a Goddamn drama queen these days.
+# sent_id = 74605
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=123|end_char=127
+2-3	everyone's	_	_	_	_	_	_	_	start_char=128|end_char=138
+2	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	1	_	_	start_char=128|end_char=136
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=136|end_char=138
+4	got	get	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=139|end_char=142
+5	to	to	PART	TO	_	4	_	_	start_char=143|end_char=145
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=146|end_char=148
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=149|end_char=150
+8	Goddamn	Goddamn	ADJ	JJ	Degree=Pos	7	_	_	start_char=151|end_char=158
+9	drama	drama	NOUN	NN	Number=Sing	8	_	_	start_char=159|end_char=164
+10	queen	queen	NOUN	NN	Number=Sing	9	_	_	start_char=165|end_char=170
+11	these	this	DET	DT	Number=Plur|PronType=Dem	10	_	_	start_char=171|end_char=176
+12	days	day	NOUN	NNS	Number=Plur	11	_	_	start_char=177|end_char=181|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=181|end_char=182
+
+# text = I saw the video a few days ago -- I didn't cry or lose sleep.
+# sent_id = 74606
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=183|end_char=184
+2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=185|end_char=188
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=189|end_char=192
+4	video	video	NOUN	NN	Number=Sing	3	_	_	start_char=193|end_char=198
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=199|end_char=200
+6	few	few	ADJ	JJ	Degree=Pos	5	_	_	start_char=201|end_char=204
+7	days	day	NOUN	NNS	Number=Plur	6	_	_	start_char=205|end_char=209
+8	ago	ago	ADV	RB	_	7	_	_	start_char=210|end_char=213
+9	--	--	PUNCT	,	_	8	_	_	start_char=214|end_char=216
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=217|end_char=218
+11-12	didn't	_	_	_	_	_	_	_	start_char=219|end_char=225
+11	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	_	_	start_char=219|end_char=222
+12	n't	not	PART	RB	_	11	_	_	start_char=222|end_char=225
+13	cry	cry	VERB	VB	VerbForm=Inf	12	_	_	start_char=226|end_char=229
+14	or	or	CCONJ	CC	_	13	_	_	start_char=230|end_char=232
+15	lose	lose	VERB	VB	VerbForm=Inf	14	_	_	start_char=233|end_char=237
+16	sleep	sleep	NOUN	NN	Number=Sing	15	_	_	start_char=238|end_char=243|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=243|end_char=244|SpaceAfter=No
+

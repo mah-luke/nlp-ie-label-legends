@@ -1,0 +1,25 @@
+# text = [USER] very legitimately has mental disease.
+# sent_id = 88822
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	very	very	ADV	RB	_	3	_	_	start_char=7|end_char=11
+5	legitimately	legitimately	ADV	RB	_	4	_	_	start_char=12|end_char=24
+6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=25|end_char=28
+7	mental	mental	ADJ	JJ	Degree=Pos	6	_	_	start_char=29|end_char=35
+8	disease	disease	NOUN	NN	Number=Sing	7	_	_	start_char=36|end_char=43|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=43|end_char=44
+
+# text = This is supposed to be a woman mind u.
+# sent_id = 88823
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=45|end_char=49
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=50|end_char=52
+3	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=53|end_char=61
+4	to	to	PART	TO	_	3	_	_	start_char=62|end_char=64
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=65|end_char=67
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=68|end_char=69
+7	woman	woman	NOUN	NN	Number=Sing	6	_	_	start_char=70|end_char=75
+8	mind	mind	NOUN	NN	Number=Sing	7	_	_	start_char=76|end_char=80
+9	u	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	_	_	start_char=81|end_char=82|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=82|end_char=83|SpaceAfter=No
+

@@ -1,0 +1,30 @@
+# text = Lefties love DeNiro.
+# sent_id = 66880
+1	Lefties	lefty	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=7
+2	love	love	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=12
+3	DeNiro	DeNiro	PROPN	NNP	Number=Sing	2	_	_	start_char=13|end_char=19|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=19|end_char=20
+
+# text = Maybe tell him (or her) (or it) "Fuck you, you fucking fuck!"
+# sent_id = 66881
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=21|end_char=26
+2	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=27|end_char=31
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=32|end_char=35
+4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=36|end_char=37|SpaceAfter=No
+5	or	or	CCONJ	CC	_	4	_	_	start_char=37|end_char=39
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=40|end_char=43|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=43|end_char=44
+8	(	(	PUNCT	-LRB-	_	7	_	_	start_char=45|end_char=46|SpaceAfter=No
+9	or	or	CCONJ	CC	_	8	_	_	start_char=46|end_char=48
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=49|end_char=51|SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	_	_	start_char=51|end_char=52
+12	"	"	PUNCT	``	_	11	_	_	start_char=53|end_char=54|SpaceAfter=No
+13	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=54|end_char=58
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	_	_	start_char=59|end_char=62|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=62|end_char=63
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	_	_	start_char=64|end_char=67
+17	fucking	fucking	ADV	RB	_	16	_	_	start_char=68|end_char=75
+18	fuck	fuck	NOUN	NN	Number=Sing	17	_	_	start_char=76|end_char=80|SpaceAfter=No
+19	!	!	PUNCT	.	_	18	_	_	start_char=80|end_char=81|SpaceAfter=No
+20	"	"	PUNCT	''	_	19	_	_	start_char=81|end_char=82|SpaceAfter=No
+

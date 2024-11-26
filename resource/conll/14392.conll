@@ -1,0 +1,43 @@
+# text = [URL]
+# sent_id = 30692
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+
+# text = These contaminates have been shown to attack testosterone levels ... thereby making young men more feminine from a genetic stand-point... a lead on the population explosion in the LGBTQ community .
+# sent_id = 30693
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=6|end_char=11
+2	contaminates	contaminate	NOUN	NNS	Number=Plur	1	_	_	start_char=12|end_char=24
+3	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=25|end_char=29
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=30|end_char=34
+5	shown	show	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=35|end_char=40
+6	to	to	PART	TO	_	5	_	_	start_char=41|end_char=43
+7	attack	attack	VERB	VB	VerbForm=Inf	6	_	_	start_char=44|end_char=50
+8	testosterone	testosterone	NOUN	NN	Number=Sing	7	_	_	start_char=51|end_char=63
+9	levels	level	NOUN	NNS	Number=Plur	8	_	_	start_char=64|end_char=70
+10	...	...	PUNCT	,	_	9	_	_	start_char=71|end_char=74
+11	thereby	thereby	ADV	RB	_	10	_	_	start_char=75|end_char=82
+12	making	make	VERB	VBG	VerbForm=Ger	11	_	_	start_char=83|end_char=89
+13	young	young	ADJ	JJ	Degree=Pos	12	_	_	start_char=90|end_char=95
+14	men	man	NOUN	NNS	Number=Plur	13	_	_	start_char=96|end_char=99
+15	more	more	ADV	RBR	Degree=Cmp	14	_	_	start_char=100|end_char=104
+16	feminine	feminine	ADJ	JJ	Degree=Pos	15	_	_	start_char=105|end_char=113
+17	from	from	ADP	IN	_	16	_	_	start_char=114|end_char=118
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=119|end_char=120
+19	genetic	genetic	ADJ	JJ	Degree=Pos	18	_	_	start_char=121|end_char=128
+20	stand	stand	NOUN	NN	Number=Sing	19	_	_	start_char=129|end_char=134|SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	20	_	_	start_char=134|end_char=135|SpaceAfter=No
+22	point	point	NOUN	NN	Number=Sing	21	_	_	start_char=135|end_char=140|SpaceAfter=No
+23	...	...	PUNCT	,	_	22	_	_	start_char=140|end_char=143
+24	a	a	DET	DT	Definite=Ind|PronType=Art	23	_	_	start_char=144|end_char=145
+25	lead	lead	NOUN	NN	Number=Sing	24	_	_	start_char=146|end_char=150
+26	on	on	ADP	IN	_	25	_	_	start_char=151|end_char=153
+27	the	the	DET	DT	Definite=Def|PronType=Art	26	_	_	start_char=154|end_char=157
+28	population	population	NOUN	NN	Number=Sing	27	_	_	start_char=158|end_char=168
+29	explosion	explosion	NOUN	NN	Number=Sing	28	_	_	start_char=169|end_char=178
+30	in	in	ADP	IN	_	29	_	_	start_char=179|end_char=181
+31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	start_char=182|end_char=185
+32	LGBTQ	LGBTQ	PROPN	NNP	Number=Sing	31	_	_	start_char=186|end_char=191
+33	community	community	NOUN	NN	Number=Sing	32	_	_	start_char=192|end_char=201
+34	.	.	PUNCT	.	_	33	_	_	start_char=202|end_char=203|SpaceAfter=No
+

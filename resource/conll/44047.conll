@@ -1,0 +1,26 @@
+# text = "Germans are not planning to stop protesting against Angela Merkel and her migration policy."
+# sent_id = 94103
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Germans	German	PROPN	NNPS	Number=Plur	1	_	_	start_char=1|end_char=8
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=12
+4	not	not	PART	RB	_	3	_	_	start_char=13|end_char=16
+5	planning	plan	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=17|end_char=25
+6	to	to	PART	TO	_	5	_	_	start_char=26|end_char=28
+7	stop	stop	VERB	VB	VerbForm=Inf	6	_	_	start_char=29|end_char=33
+8	protesting	protest	VERB	VBG	VerbForm=Ger	7	_	_	start_char=34|end_char=44
+9	against	against	ADP	IN	_	8	_	_	start_char=45|end_char=52
+10	Angela	Angela	PROPN	NNP	Number=Sing	9	_	_	start_char=53|end_char=59
+11	Merkel	Merkel	PROPN	NNP	Number=Sing	10	_	_	start_char=60|end_char=66
+12	and	and	CCONJ	CC	_	11	_	_	start_char=67|end_char=70
+13	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=71|end_char=74
+14	migration	migration	NOUN	NN	Number=Sing	13	_	_	start_char=75|end_char=84
+15	policy	policy	NOUN	NN	Number=Sing	14	_	_	start_char=85|end_char=91|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=91|end_char=92|SpaceAfter=No
+17	"	"	PUNCT	''	_	16	_	_	start_char=92|end_char=93
+
+# text = [URL]
+# sent_id = 94104
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=94|end_char=95|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=95|end_char=98|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=98|end_char=99|SpaceAfter=No
+

@@ -1,0 +1,33 @@
+# text = Stop doing it.
+# sent_id = 2436
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	doing	do	VERB	VBG	VerbForm=Ger	1	_	_	start_char=5|end_char=10
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=11|end_char=13|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=13|end_char=14
+
+# text = Get women to meet you in person.
+# sent_id = 2437
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=15|end_char=18
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=19|end_char=24
+3	to	to	PART	TO	_	2	_	_	start_char=25|end_char=27
+4	meet	meet	VERB	VB	VerbForm=Inf	3	_	_	start_char=28|end_char=32
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=33|end_char=36
+6	in	in	ADP	IN	_	5	_	_	start_char=37|end_char=39
+7	person	person	NOUN	NN	Number=Sing	6	_	_	start_char=40|end_char=46|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=46|end_char=47
+
+# text = If they won't they don't want you.
+# sent_id = 2438
+1	If	if	SCONJ	IN	_	0	_	_	start_char=48|end_char=50
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=51|end_char=55
+3-4	won't	_	_	_	_	_	_	_	start_char=56|end_char=61
+3	wo	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=56|end_char=58
+4	n't	not	PART	RB	_	3	_	_	start_char=58|end_char=61
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=62|end_char=66
+6-7	don't	_	_	_	_	_	_	_	start_char=67|end_char=72
+6	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=67|end_char=69
+7	n't	not	PART	RB	_	6	_	_	start_char=69|end_char=72
+8	want	want	VERB	VB	VerbForm=Inf	7	_	_	start_char=73|end_char=77
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=78|end_char=81|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=81|end_char=82|SpaceAfter=No
+

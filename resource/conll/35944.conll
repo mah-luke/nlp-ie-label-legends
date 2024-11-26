@@ -1,0 +1,49 @@
+# text = I showed this site to a female relative.
+# sent_id = 76914
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=8
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=9|end_char=13
+4	site	site	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=18
+5	to	to	ADP	IN	_	4	_	_	start_char=19|end_char=21
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=22|end_char=23
+7	female	female	ADJ	JJ	Degree=Pos	6	_	_	start_char=24|end_char=30
+8	relative	relative	NOUN	NN	Number=Sing	7	_	_	start_char=31|end_char=39|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=39|end_char=40
+
+# text = She told me the studies don't count because men conceived and directed such studies.
+# sent_id = 76915
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=41|end_char=44
+2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=45|end_char=49
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=50|end_char=52
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=53|end_char=56
+5	studies	study	NOUN	NNS	Number=Plur	4	_	_	start_char=57|end_char=64
+6-7	don't	_	_	_	_	_	_	_	start_char=65|end_char=70
+6	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=65|end_char=67
+7	n't	not	PART	RB	_	6	_	_	start_char=67|end_char=70
+8	count	count	VERB	VB	VerbForm=Inf	7	_	_	start_char=71|end_char=76
+9	because	because	SCONJ	IN	_	8	_	_	start_char=77|end_char=84
+10	men	man	NOUN	NNS	Number=Plur	9	_	_	start_char=85|end_char=88
+11	conceived	conceive	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=89|end_char=98
+12	and	and	CCONJ	CC	_	11	_	_	start_char=99|end_char=102
+13	directed	direct	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=103|end_char=111
+14	such	such	ADJ	JJ	Degree=Pos	13	_	_	start_char=112|end_char=116
+15	studies	study	NOUN	NNS	Number=Plur	14	_	_	start_char=117|end_char=124|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=124|end_char=125
+
+# text = She says science can't be trusted because most scientists are men.
+# sent_id = 76916
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=126|end_char=129
+2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=130|end_char=134
+3	science	science	NOUN	NN	Number=Sing	2	_	_	start_char=135|end_char=142
+4-5	can't	_	_	_	_	_	_	_	start_char=143|end_char=148
+4	ca	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=143|end_char=145
+5	n't	not	PART	RB	_	4	_	_	start_char=145|end_char=148
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=149|end_char=151
+7	trusted	trust	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=152|end_char=159
+8	because	because	SCONJ	IN	_	7	_	_	start_char=160|end_char=167
+9	most	most	ADJ	JJS	Degree=Sup	8	_	_	start_char=168|end_char=172
+10	scientists	scientist	NOUN	NNS	Number=Plur	9	_	_	start_char=173|end_char=183
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=184|end_char=187
+12	men	man	NOUN	NNS	Number=Plur	11	_	_	start_char=188|end_char=191|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=191|end_char=192|SpaceAfter=No
+

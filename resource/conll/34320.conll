@@ -1,0 +1,59 @@
+# text = Again!
+# sent_id = 73455
+1	Again	again	ADV	RB	_	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=5|end_char=6
+
+# text = Sweden, you are fucked.
+# sent_id = 73456
+1	Sweden	Sweden	PROPN	NNP	Number=Sing	0	_	_	start_char=7|end_char=13|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=13|end_char=14
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=15|end_char=18
+4	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=19|end_char=22
+5	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=23|end_char=29|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=29|end_char=30
+
+# text = Gita Nabavi one of the leaders of Sweden’s Feminist Initiative party, is a supporter of increased migration to Sweden and of zero deportations.
+# sent_id = 73457
+1	Gita	Gita	PROPN	NNP	Number=Sing	0	_	_	start_char=31|end_char=35
+2	Nabavi	Nabavi	PROPN	NNP	Number=Sing	1	_	_	start_char=36|end_char=42
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	2	_	_	start_char=43|end_char=46
+4	of	of	ADP	IN	_	3	_	_	start_char=47|end_char=49
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=50|end_char=53
+6	leaders	leader	NOUN	NNS	Number=Plur	5	_	_	start_char=54|end_char=61
+7	of	of	ADP	IN	_	6	_	_	start_char=62|end_char=64
+8-9	Sweden’s	_	_	_	_	_	_	_	start_char=65|end_char=73
+8	Sweden	Sweden	PROPN	NNP	Number=Sing	7	_	_	start_char=65|end_char=71
+9	’s	's	PART	POS	_	8	_	_	start_char=71|end_char=73
+10	Feminist	Feminist	ADJ	NNP	Degree=Pos	9	_	_	start_char=74|end_char=82
+11	Initiative	Initiative	PROPN	NNP	Number=Sing	10	_	_	start_char=83|end_char=93
+12	party	party	PROPN	NNP	Number=Sing	11	_	_	start_char=94|end_char=99|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=99|end_char=100
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=101|end_char=103
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=104|end_char=105
+16	supporter	supporter	NOUN	NN	Number=Sing	15	_	_	start_char=106|end_char=115
+17	of	of	ADP	IN	_	16	_	_	start_char=116|end_char=118
+18	increased	increase	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=119|end_char=128
+19	migration	migration	NOUN	NN	Number=Sing	18	_	_	start_char=129|end_char=138
+20	to	to	ADP	IN	_	19	_	_	start_char=139|end_char=141
+21	Sweden	Sweden	PROPN	NNP	Number=Sing	20	_	_	start_char=142|end_char=148
+22	and	and	CCONJ	CC	_	21	_	_	start_char=149|end_char=152
+23	of	of	ADP	IN	_	22	_	_	start_char=153|end_char=155
+24	zero	zero	NUM	CD	NumForm=Word|NumType=Card	23	_	_	start_char=156|end_char=160
+25	deportations	deportation	NOUN	NNS	Number=Plur	24	_	_	start_char=161|end_char=173|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=173|end_char=174
+
+# text = She obviously hasn't been gang-raped...Yet!
+# sent_id = 73458
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=175|end_char=178
+2	obviously	obviously	ADV	RB	_	1	_	_	start_char=179|end_char=188
+3-4	hasn't	_	_	_	_	_	_	_	start_char=189|end_char=195
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=189|end_char=192
+4	n't	not	PART	RB	_	3	_	_	start_char=192|end_char=195
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=196|end_char=200
+6	gang	gang	NOUN	NN	Number=Sing	5	_	_	start_char=201|end_char=205|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	_	_	start_char=205|end_char=206|SpaceAfter=No
+8	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=206|end_char=211|SpaceAfter=No
+9	...	...	PUNCT	,	_	8	_	_	start_char=211|end_char=214|SpaceAfter=No
+10	Yet	yet	CCONJ	CC	_	9	_	_	start_char=214|end_char=217|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=217|end_char=218|SpaceAfter=No
+

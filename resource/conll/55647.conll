@@ -1,0 +1,31 @@
+# text = Is he from that part of California?
+# sent_id = 118896
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	from	from	ADP	IN	_	2	_	_	start_char=6|end_char=10
+4	that	that	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=11|end_char=15
+5	part	part	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=20
+6	of	of	ADP	IN	_	5	_	_	start_char=21|end_char=23
+7	California	California	PROPN	NNP	Number=Sing	6	_	_	start_char=24|end_char=34|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=34|end_char=35
+
+# text = They prefer hummus and avocado with their hats when they're forced to eat them ;)
+# sent_id = 118897
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=36|end_char=40
+2	prefer	prefer	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=41|end_char=47
+3	hummus	hummus	NOUN	NN	Number=Sing	2	_	_	start_char=48|end_char=54
+4	and	and	CCONJ	CC	_	3	_	_	start_char=55|end_char=58
+5	avocado	avocado	NOUN	NN	Number=Sing	4	_	_	start_char=59|end_char=66
+6	with	with	ADP	IN	_	5	_	_	start_char=67|end_char=71
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=72|end_char=77
+8	hats	hat	NOUN	NNS	Number=Plur	7	_	_	start_char=78|end_char=82
+9	when	when	ADV	WRB	PronType=Int	8	_	_	start_char=83|end_char=87
+10-11	they're	_	_	_	_	_	_	_	start_char=88|end_char=95
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=88|end_char=92
+11	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=92|end_char=95
+12	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=96|end_char=102
+13	to	to	PART	TO	_	12	_	_	start_char=103|end_char=105
+14	eat	eat	VERB	VB	VerbForm=Inf	13	_	_	start_char=106|end_char=109
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	_	_	start_char=110|end_char=114
+16	;)	;)	SYM	NFP	_	15	_	_	start_char=115|end_char=117|SpaceAfter=No
+

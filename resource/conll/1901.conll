@@ -1,0 +1,68 @@
+# text = You can always be straightforward and confident.
+# sent_id = 4001
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	always	always	ADV	RB	_	2	_	_	start_char=8|end_char=14
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=15|end_char=17
+5	straightforward	straightforward	ADJ	JJ	Degree=Pos	4	_	_	start_char=18|end_char=33
+6	and	and	CCONJ	CC	_	5	_	_	start_char=34|end_char=37
+7	confident	confident	ADJ	JJ	Degree=Pos	6	_	_	start_char=38|end_char=47|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=47|end_char=48
+
+# text = "You seem like fun, play this game with me I want to get to know you."
+# sent_id = 4002
+1	"	"	PUNCT	``	_	0	_	_	start_char=49|end_char=50|SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	_	_	start_char=50|end_char=53
+3	seem	seem	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=54|end_char=58
+4	like	like	ADP	IN	_	3	_	_	start_char=59|end_char=63
+5	fun	fun	NOUN	NN	Number=Sing	4	_	_	start_char=64|end_char=67|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=67|end_char=68
+7	play	play	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=69|end_char=73
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=74|end_char=78
+9	game	game	NOUN	NN	Number=Sing	8	_	_	start_char=79|end_char=83
+10	with	with	ADP	IN	_	9	_	_	start_char=84|end_char=88
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=89|end_char=91
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=92|end_char=93
+13	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=94|end_char=98
+14	to	to	PART	TO	_	13	_	_	start_char=99|end_char=101
+15	get	get	VERB	VB	VerbForm=Inf	14	_	_	start_char=102|end_char=105
+16	to	to	PART	TO	_	15	_	_	start_char=106|end_char=108
+17	know	know	VERB	VB	VerbForm=Inf	16	_	_	start_char=109|end_char=113
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	_	_	start_char=114|end_char=117|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=117|end_char=118|SpaceAfter=No
+20	"	"	PUNCT	''	_	19	_	_	start_char=118|end_char=119
+
+# text = Very few girls will say no even if they have no interest in you.
+# sent_id = 4003
+1	Very	very	ADV	RB	_	0	_	_	start_char=120|end_char=124
+2	few	few	ADJ	JJ	Degree=Pos	1	_	_	start_char=125|end_char=128
+3	girls	girl	NOUN	NNS	Number=Plur	2	_	_	start_char=129|end_char=134
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=135|end_char=139
+5	say	say	VERB	VB	VerbForm=Inf	4	_	_	start_char=140|end_char=143
+6	no	no	INTJ	UH	_	5	_	_	start_char=144|end_char=146
+7	even	even	ADV	RB	_	6	_	_	start_char=147|end_char=151
+8	if	if	SCONJ	IN	_	7	_	_	start_char=152|end_char=154
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=155|end_char=159
+10	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=160|end_char=164
+11	no	no	DET	DT	_	10	_	_	start_char=165|end_char=167
+12	interest	interest	NOUN	NN	Number=Sing	11	_	_	start_char=168|end_char=176
+13	in	in	ADP	IN	_	12	_	_	start_char=177|end_char=179
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	_	_	start_char=180|end_char=183|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=183|end_char=184
+
+# text = After all, what is the harm in getting to know someone?
+# sent_id = 4004
+1	After	after	ADP	IN	_	0	_	_	start_char=185|end_char=190
+2	all	all	DET	DT	_	1	_	_	start_char=191|end_char=194|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=194|end_char=195
+4	what	what	PRON	WP	PronType=Int	3	_	_	start_char=196|end_char=200
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=201|end_char=203
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=204|end_char=207
+7	harm	harm	NOUN	NN	Number=Sing	6	_	_	start_char=208|end_char=212
+8	in	in	SCONJ	IN	_	7	_	_	start_char=213|end_char=215
+9	getting	get	VERB	VBG	VerbForm=Ger	8	_	_	start_char=216|end_char=223
+10	to	to	PART	TO	_	9	_	_	start_char=224|end_char=226
+11	know	know	VERB	VB	VerbForm=Inf	10	_	_	start_char=227|end_char=231
+12	someone	someone	PRON	NN	Number=Sing|PronType=Ind	11	_	_	start_char=232|end_char=239|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=239|end_char=240|SpaceAfter=No
+

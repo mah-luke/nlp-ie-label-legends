@@ -1,0 +1,62 @@
+# text = buddy, you should see half the kinks people have.
+# sent_id = 99570
+1	buddy	buddy	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=7|end_char=10
+4	should	should	AUX	MD	VerbForm=Fin	3	_	_	start_char=11|end_char=17
+5	see	see	VERB	VB	VerbForm=Inf	4	_	_	start_char=18|end_char=21
+6	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	5	_	_	start_char=22|end_char=26
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=27|end_char=30
+8	kinks	kink	NOUN	NNS	Number=Plur	7	_	_	start_char=31|end_char=36
+9	people	person	NOUN	NNS	Number=Plur	8	_	_	start_char=37|end_char=43
+10	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=44|end_char=48|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=48|end_char=49
+
+# text = i don't agree with most of them, but it's a free country.
+# sent_id = 99571
+1	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=50|end_char=51
+2-3	don't	_	_	_	_	_	_	_	start_char=52|end_char=57
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=52|end_char=54
+3	n't	not	PART	RB	_	2	_	_	start_char=54|end_char=57
+4	agree	agree	VERB	VB	VerbForm=Inf	3	_	_	start_char=58|end_char=63
+5	with	with	ADP	IN	_	4	_	_	start_char=64|end_char=68
+6	most	most	ADJ	JJS	Degree=Sup	5	_	_	start_char=69|end_char=73
+7	of	of	ADP	IN	_	6	_	_	start_char=74|end_char=76
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=77|end_char=81|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=81|end_char=82
+10	but	but	CCONJ	CC	_	9	_	_	start_char=83|end_char=86
+11-12	it's	_	_	_	_	_	_	_	start_char=87|end_char=91
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=87|end_char=89
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=89|end_char=91
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=92|end_char=93
+14	free	free	ADJ	JJ	Degree=Pos	13	_	_	start_char=94|end_char=98
+15	country	country	NOUN	NN	Number=Sing	14	_	_	start_char=99|end_char=106|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=106|end_char=107
+
+# text = let them be girls or dogs or beach balls or dragons, just make sure they're safe and no kids are involved
+# sent_id = 99572
+1	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=108|end_char=111
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=112|end_char=116
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=117|end_char=119
+4	girls	girl	NOUN	NNS	Number=Plur	3	_	_	start_char=120|end_char=125
+5	or	or	CCONJ	CC	_	4	_	_	start_char=126|end_char=128
+6	dogs	dog	NOUN	NNS	Number=Plur	5	_	_	start_char=129|end_char=133
+7	or	or	CCONJ	CC	_	6	_	_	start_char=134|end_char=136
+8	beach	beach	NOUN	NN	Number=Sing	7	_	_	start_char=137|end_char=142
+9	balls	ball	NOUN	NNS	Number=Plur	8	_	_	start_char=143|end_char=148
+10	or	or	CCONJ	CC	_	9	_	_	start_char=149|end_char=151
+11	dragons	dragon	NOUN	NNS	Number=Plur	10	_	_	start_char=152|end_char=159|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=159|end_char=160
+13	just	just	ADV	RB	_	12	_	_	start_char=161|end_char=165
+14	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	13	_	_	start_char=166|end_char=170
+15	sure	sure	ADJ	JJ	Degree=Pos	14	_	_	start_char=171|end_char=175
+16-17	they're	_	_	_	_	_	_	_	start_char=176|end_char=183
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	_	_	start_char=176|end_char=180
+17	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=180|end_char=183
+18	safe	safe	ADJ	JJ	Degree=Pos	17	_	_	start_char=184|end_char=188
+19	and	and	CCONJ	CC	_	18	_	_	start_char=189|end_char=192
+20	no	no	DET	DT	_	19	_	_	start_char=193|end_char=195
+21	kids	kid	NOUN	NNS	Number=Plur	20	_	_	start_char=196|end_char=200
+22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=201|end_char=204
+23	involved	involve	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	_	_	start_char=205|end_char=213|SpaceAfter=No
+

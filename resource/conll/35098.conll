@@ -1,0 +1,27 @@
+# text = You've never seen a girl pay half the bill?
+# sent_id = 75122
+1-2	You've	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	never	never	ADV	RB	_	2	_	_	start_char=7|end_char=12
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=13|end_char=17
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=18|end_char=19
+6	girl	girl	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=24
+7	pay	pay	VERB	VB	VerbForm=Inf	6	_	_	start_char=25|end_char=28
+8	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	7	_	_	start_char=29|end_char=33
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=34|end_char=37
+10	bill	bill	NOUN	NN	Number=Sing	9	_	_	start_char=38|end_char=42|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=42|end_char=43
+
+# text = I assure you, it happens a lot.
+# sent_id = 75123
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=44|end_char=45
+2	assure	assure	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=46|end_char=52
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=53|end_char=56|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=56|end_char=57
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=58|end_char=60
+6	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=61|end_char=68
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=69|end_char=70
+8	lot	lot	NOUN	NN	Number=Sing	7	_	_	start_char=71|end_char=74|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=74|end_char=75|SpaceAfter=No
+

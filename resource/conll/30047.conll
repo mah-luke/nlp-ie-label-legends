@@ -1,0 +1,63 @@
+# text = I'm 26 and still struggling.
+# sent_id = 64354
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	26	26	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=4|end_char=6
+4	and	and	CCONJ	CC	_	3	_	_	start_char=7|end_char=10
+5	still	still	ADV	RB	_	4	_	_	start_char=11|end_char=16
+6	struggling	struggle	VERB	VBG	VerbForm=Ger	5	_	_	start_char=17|end_char=27|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=27|end_char=28
+
+# text = It's a different issue for me though.
+# sent_id = 64355
+1-2	It's	_	_	_	_	_	_	_	start_char=29|end_char=33
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=29|end_char=31
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=33
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=34|end_char=35
+4	different	different	ADJ	JJ	Degree=Pos	3	_	_	start_char=36|end_char=45
+5	issue	issue	NOUN	NN	Number=Sing	4	_	_	start_char=46|end_char=51
+6	for	for	ADP	IN	_	5	_	_	start_char=52|end_char=55
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=56|end_char=58
+8	though	though	ADV	RB	_	7	_	_	start_char=59|end_char=65|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=65|end_char=66
+
+# text = Talking and approaching is not a problem.
+# sent_id = 64356
+1	Talking	Talk	VERB	VBG	VerbForm=Ger	0	_	_	start_char=67|end_char=74
+2	and	and	CCONJ	CC	_	1	_	_	start_char=75|end_char=78
+3	approaching	approach	VERB	VBG	VerbForm=Ger	2	_	_	start_char=79|end_char=90
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=91|end_char=93
+5	not	not	PART	RB	_	4	_	_	start_char=94|end_char=97
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=98|end_char=99
+7	problem	problem	NOUN	NN	Number=Sing	6	_	_	start_char=100|end_char=107|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=107|end_char=108
+
+# text = I boiled it down to me feeling like I don't deserve a good looking women.
+# sent_id = 64357
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=109|end_char=110
+2	boiled	boil	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=111|end_char=117
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=118|end_char=120
+4	down	down	ADP	RP	_	3	_	_	start_char=121|end_char=125
+5	to	to	ADP	IN	_	4	_	_	start_char=126|end_char=128
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=129|end_char=131
+7	feeling	feel	VERB	VBG	VerbForm=Ger	6	_	_	start_char=132|end_char=139
+8	like	like	SCONJ	IN	_	7	_	_	start_char=140|end_char=144
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=145|end_char=146
+10-11	don't	_	_	_	_	_	_	_	start_char=147|end_char=152
+10	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=147|end_char=149
+11	n't	not	PART	RB	_	10	_	_	start_char=149|end_char=152
+12	deserve	deserve	VERB	VB	VerbForm=Inf	11	_	_	start_char=153|end_char=160
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=161|end_char=162
+14	good	good	ADJ	JJ	Degree=Pos	13	_	_	start_char=163|end_char=167
+15	looking	look	VERB	VBG	VerbForm=Ger	14	_	_	start_char=168|end_char=175
+16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=176|end_char=181|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=181|end_char=182
+
+# text = Not sure why.
+# sent_id = 64358
+1	Not	not	PART	RB	_	0	_	_	start_char=183|end_char=186
+2	sure	sure	ADJ	JJ	Degree=Pos	1	_	_	start_char=187|end_char=191
+3	why	why	ADV	WRB	PronType=Int	2	_	_	start_char=192|end_char=195|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=195|end_char=196|SpaceAfter=No
+

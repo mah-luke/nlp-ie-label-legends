@@ -1,0 +1,33 @@
+# text = [USER]
+# sent_id = 3792
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Good advice, although the women depicted - well, are several of them hiding inside each of the feminazis marching on DC?
+# sent_id = 3793
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=7|end_char=11
+2	advice	advice	NOUN	NN	Number=Sing	1	_	_	start_char=12|end_char=18|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=18|end_char=19
+4	although	although	SCONJ	IN	_	3	_	_	start_char=20|end_char=28
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=29|end_char=32
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=33|end_char=38
+7	depicted	depict	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=39|end_char=47
+8	-	-	PUNCT	HYPH	_	7	_	_	start_char=48|end_char=49
+9	well	well	INTJ	UH	_	8	_	_	start_char=50|end_char=54|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=54|end_char=55
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=56|end_char=59
+12	several	several	ADJ	JJ	Degree=Pos	11	_	_	start_char=60|end_char=67
+13	of	of	ADP	IN	_	12	_	_	start_char=68|end_char=70
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=71|end_char=75
+15	hiding	hide	VERB	VBG	VerbForm=Ger	14	_	_	start_char=76|end_char=82
+16	inside	inside	ADP	IN	_	15	_	_	start_char=83|end_char=89
+17	each	each	DET	DT	_	16	_	_	start_char=90|end_char=94
+18	of	of	ADP	IN	_	17	_	_	start_char=95|end_char=97
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=98|end_char=101
+20	feminazis	feminazi	NOUN	NNS	Number=Plur	19	_	_	start_char=102|end_char=111
+21	marching	marching	NOUN	NN	Number=Sing	20	_	_	start_char=112|end_char=120
+22	on	on	ADP	IN	_	21	_	_	start_char=121|end_char=123
+23	DC	DC	PROPN	NNP	Number=Sing	22	_	_	start_char=124|end_char=126|SpaceAfter=No
+24	?	?	PUNCT	.	_	23	_	_	start_char=126|end_char=127|SpaceAfter=No
+

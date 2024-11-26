@@ -1,0 +1,42 @@
+# text = I'm not.
+# sent_id = 71643
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	not	not	PART	RB	_	2	_	_	start_char=4|end_char=7|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=7|end_char=8
+
+# text = I'm going slow and trying to flirt with her a little and maybe do something online with her over the weekend.
+# sent_id = 71644
+1-2	I'm	_	_	_	_	_	_	_	start_char=9|end_char=12
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=9|end_char=10
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=12
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=13|end_char=18
+4	slow	slow	ADJ	JJ	Degree=Pos	3	_	_	start_char=19|end_char=23
+5	and	and	CCONJ	CC	_	4	_	_	start_char=24|end_char=27
+6	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=28|end_char=34
+7	to	to	PART	TO	_	6	_	_	start_char=35|end_char=37
+8	flirt	flirt	VERB	VB	VerbForm=Inf	7	_	_	start_char=38|end_char=43
+9	with	with	ADP	IN	_	8	_	_	start_char=44|end_char=48
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=49|end_char=52
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=53|end_char=54
+12	little	little	ADJ	JJ	Degree=Pos	11	_	_	start_char=55|end_char=61
+13	and	and	CCONJ	CC	_	12	_	_	start_char=62|end_char=65
+14	maybe	maybe	ADV	RB	_	13	_	_	start_char=66|end_char=71
+15	do	do	VERB	VB	VerbForm=Inf	14	_	_	start_char=72|end_char=74
+16	something	something	PRON	NN	Number=Sing|PronType=Ind	15	_	_	start_char=75|end_char=84
+17	online	online	ADV	RB	_	16	_	_	start_char=85|end_char=91
+18	with	with	ADP	IN	_	17	_	_	start_char=92|end_char=96
+19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=97|end_char=100
+20	over	over	ADP	IN	_	19	_	_	start_char=101|end_char=105
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=106|end_char=109
+22	weekend	weekend	NOUN	NN	Number=Sing	21	_	_	start_char=110|end_char=117|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=117|end_char=118
+
+# text = Need to ask first
+# sent_id = 71645
+1	Need	need	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=119|end_char=123
+2	to	to	PART	TO	_	1	_	_	start_char=124|end_char=126
+3	ask	ask	VERB	VB	VerbForm=Inf	2	_	_	start_char=127|end_char=130
+4	first	first	ADV	RB	NumType=Ord	3	_	_	start_char=131|end_char=136|SpaceAfter=No
+

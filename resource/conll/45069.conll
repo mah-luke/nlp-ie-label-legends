@@ -1,0 +1,40 @@
+# text = So this is where we are.
+# sent_id = 96204
+1	So	so	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=3|end_char=7
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=10
+4	where	where	ADV	WRB	PronType=Rel	3	_	_	start_char=11|end_char=16
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=17|end_char=19
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=20|end_char=23|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=23|end_char=24
+
+# text = It's not PC to refer to women anymore - so now we have this "anyone with a cervix" shite: [URL]
+# sent_id = 96205
+1-2	It's	_	_	_	_	_	_	_	start_char=25|end_char=29
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=25|end_char=27
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
+3	not	not	PART	RB	_	2	_	_	start_char=30|end_char=33
+4	PC	PC	NOUN	NN	Number=Sing	3	_	_	start_char=34|end_char=36
+5	to	to	PART	TO	_	4	_	_	start_char=37|end_char=39
+6	refer	refer	VERB	VB	VerbForm=Inf	5	_	_	start_char=40|end_char=45
+7	to	to	ADP	IN	_	6	_	_	start_char=46|end_char=48
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=49|end_char=54
+9	anymore	anymore	ADV	RB	_	8	_	_	start_char=55|end_char=62
+10	-	-	PUNCT	,	_	9	_	_	start_char=63|end_char=64
+11	so	so	ADV	RB	_	10	_	_	start_char=65|end_char=67
+12	now	now	ADV	RB	_	11	_	_	start_char=68|end_char=71
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	_	_	start_char=72|end_char=74
+14	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=75|end_char=79
+15	this	this	PRON	DT	Number=Sing|PronType=Dem	14	_	_	start_char=80|end_char=84
+16	"	"	PUNCT	``	_	15	_	_	start_char=85|end_char=86|SpaceAfter=No
+17	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	16	_	_	start_char=86|end_char=92
+18	with	with	ADP	IN	_	17	_	_	start_char=93|end_char=97
+19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=98|end_char=99
+20	cervix	cervix	NOUN	NN	Number=Sing	19	_	_	start_char=100|end_char=106|SpaceAfter=No
+21	"	"	PUNCT	''	_	20	_	_	start_char=106|end_char=107
+22	shite	shite	NOUN	NN	Number=Sing	21	_	_	start_char=108|end_char=113|SpaceAfter=No
+23	:	:	PUNCT	:	_	22	_	_	start_char=113|end_char=114
+24	[	[	PUNCT	-LRB-	_	23	_	_	start_char=115|end_char=116|SpaceAfter=No
+25	URL	URL	PROPN	NNP	Number=Sing	24	_	_	start_char=116|end_char=119|SpaceAfter=No
+26	]	]	PUNCT	-RRB-	_	25	_	_	start_char=119|end_char=120|SpaceAfter=No
+

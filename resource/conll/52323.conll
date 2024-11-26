@@ -1,0 +1,48 @@
+# text = This FUCKING cunt!
+# sent_id = 111885
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	FUCKING	fucking	ADV	RB	_	1	_	_	start_char=5|end_char=12
+3	cunt	cunt	NOUN	NN	Number=Sing	2	_	_	start_char=13|end_char=17|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=17|end_char=18
+
+# text = And she has the gall to let the name of the most holy be polluted by her venomous lips... I hope she burns in hell.
+# sent_id = 111886
+1	And	and	CCONJ	CC	_	0	_	_	start_char=19|end_char=22
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=23|end_char=26
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=27|end_char=30
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=31|end_char=34
+5	gall	gall	NOUN	NN	Number=Sing	4	_	_	start_char=35|end_char=39
+6	to	to	PART	TO	_	5	_	_	start_char=40|end_char=42
+7	let	let	VERB	VB	VerbForm=Inf	6	_	_	start_char=43|end_char=46
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=47|end_char=50
+9	name	name	NOUN	NN	Number=Sing	8	_	_	start_char=51|end_char=55
+10	of	of	ADP	IN	_	9	_	_	start_char=56|end_char=58
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=59|end_char=62
+12	most	most	ADV	RBS	Degree=Sup	11	_	_	start_char=63|end_char=67
+13	holy	holy	ADJ	JJ	Degree=Pos	12	_	_	start_char=68|end_char=72
+14	be	be	AUX	VB	VerbForm=Inf	13	_	_	start_char=73|end_char=75
+15	polluted	pollute	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	_	_	start_char=76|end_char=84
+16	by	by	ADP	IN	_	15	_	_	start_char=85|end_char=87
+17	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=88|end_char=91
+18	venomous	venomous	ADJ	JJ	Degree=Pos	17	_	_	start_char=92|end_char=100
+19	lips	lip	NOUN	NNS	Number=Plur	18	_	_	start_char=101|end_char=105|SpaceAfter=No
+20	...	...	PUNCT	,	_	19	_	_	start_char=105|end_char=108
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	_	_	start_char=109|end_char=110
+22	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	_	_	start_char=111|end_char=115
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=116|end_char=119
+24	burns	burn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=120|end_char=125
+25	in	in	ADP	IN	_	24	_	_	start_char=126|end_char=128
+26	hell	hell	NOUN	NN	Number=Sing	25	_	_	start_char=129|end_char=133|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=133|end_char=134
+
+# text = disgusting!
+# sent_id = 111887
+1	disgusting	disgusting	ADJ	JJ	Degree=Pos	0	_	_	start_char=135|end_char=145|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=145|end_char=146
+
+# text = [URL]
+# sent_id = 111888
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=147|end_char=148|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=148|end_char=151|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=151|end_char=152|SpaceAfter=No
+

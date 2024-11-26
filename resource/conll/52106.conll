@@ -1,0 +1,40 @@
+# text = [USER] - Exactly.
+# sent_id = 111400
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	-	-	PUNCT	:	_	3	_	_	start_char=7|end_char=8
+5	Exactly	exactly	ADV	RB	_	4	_	_	start_char=9|end_char=16|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=16|end_char=17
+
+# text = Forget about those Irish "hurleys" (wooden sticks)-- remove that fag's flouncy dress, then find the nearest tall building a.s.a.p.
+# sent_id = 111401
+1	Forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=18|end_char=24
+2	about	about	ADP	IN	_	1	_	_	start_char=25|end_char=30
+3	those	that	DET	DT	Number=Plur|PronType=Dem	2	_	_	start_char=31|end_char=36
+4	Irish	Irish	ADJ	JJ	Degree=Pos	3	_	_	start_char=37|end_char=42
+5	"	"	PUNCT	``	_	4	_	_	start_char=43|end_char=44|SpaceAfter=No
+6	hurleys	hurley	NOUN	NNS	Number=Plur	5	_	_	start_char=44|end_char=51|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=51|end_char=52
+8	(	(	PUNCT	-LRB-	_	7	_	_	start_char=53|end_char=54|SpaceAfter=No
+9	wooden	wooden	ADJ	JJ	Degree=Pos	8	_	_	start_char=54|end_char=60
+10	sticks	stick	NOUN	NNS	Number=Plur	9	_	_	start_char=61|end_char=67|SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	_	_	start_char=67|end_char=68|SpaceAfter=No
+12	--	--	PUNCT	,	_	11	_	_	start_char=68|end_char=70
+13	remove	remove	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=71|end_char=77
+14	that	that	DET	DT	Number=Sing|PronType=Dem	13	_	_	start_char=78|end_char=82
+15-16	fag's	_	_	_	_	_	_	_	start_char=83|end_char=88
+15	fag	fag	NOUN	NN	Number=Sing	14	_	_	start_char=83|end_char=86
+16	's	's	PART	POS	_	15	_	_	start_char=86|end_char=88
+17	flouncy	flouncy	NOUN	NN	Number=Sing	16	_	_	start_char=89|end_char=96
+18	dress	dress	NOUN	NN	Number=Sing	17	_	_	start_char=97|end_char=102|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=102|end_char=103
+20	then	then	ADV	RB	PronType=Dem	19	_	_	start_char=104|end_char=108
+21	find	find	VERB	VB	Mood=Imp|VerbForm=Fin	20	_	_	start_char=109|end_char=113
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=114|end_char=117
+23	nearest	near	ADJ	JJS	Degree=Sup	22	_	_	start_char=118|end_char=125
+24	tall	tall	ADJ	JJ	Degree=Pos	23	_	_	start_char=126|end_char=130
+25	building	building	NOUN	NN	Number=Sing	24	_	_	start_char=131|end_char=139
+26	a.s.a.p	a.s.a.p	NOUN	NN	Number=Sing	25	_	_	start_char=140|end_char=147|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=147|end_char=148|SpaceAfter=No
+

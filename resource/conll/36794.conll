@@ -1,0 +1,43 @@
+# text = When I see the word “deserve” then I nope the fuck out.
+# sent_id = 78663
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=4
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=5|end_char=6
+3	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=10
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=11|end_char=14
+5	word	word	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=19
+6	“	''	PUNCT	``	_	5	_	_	start_char=20|end_char=21|SpaceAfter=No
+7	deserve	deserve	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=21|end_char=28|SpaceAfter=No
+8	”	''	PUNCT	''	_	7	_	_	start_char=28|end_char=29
+9	then	then	ADV	RB	PronType=Dem	8	_	_	start_char=30|end_char=34
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=35|end_char=36
+11	nope	nope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=37|end_char=41
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=42|end_char=45
+13	fuck	fuck	NOUN	NN	Number=Sing	12	_	_	start_char=46|end_char=50
+14	out	out	ADP	RP	_	13	_	_	start_char=51|end_char=54|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=54|end_char=55
+
+# text = A thoughtful man is not an entitlement.
+# sent_id = 78664
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=56|end_char=57
+2	thoughtful	thoughtful	ADJ	JJ	Degree=Pos	1	_	_	start_char=58|end_char=68
+3	man	man	NOUN	NN	Number=Sing	2	_	_	start_char=69|end_char=72
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=73|end_char=75
+5	not	not	PART	RB	_	4	_	_	start_char=76|end_char=79
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=80|end_char=82
+7	entitlement	entitlement	NOUN	NN	Number=Sing	6	_	_	start_char=83|end_char=94|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=94|end_char=95
+
+# text = Woe betide the poor soul that conforms to her will.
+# sent_id = 78665
+1	Woe	woe	PRON	WP	Number=Sing|PronType=Prs	0	_	_	start_char=96|end_char=99
+2	betide	betide	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=100|end_char=106
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=107|end_char=110
+4	poor	poor	ADJ	JJ	Degree=Pos	3	_	_	start_char=111|end_char=115
+5	soul	soul	NOUN	NN	Number=Sing	4	_	_	start_char=116|end_char=120
+6	that	that	PRON	WDT	PronType=Rel	5	_	_	start_char=121|end_char=125
+7	conforms	conform	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=126|end_char=134
+8	to	to	ADP	IN	_	7	_	_	start_char=135|end_char=137
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=138|end_char=141
+10	will	will	NOUN	NN	Number=Sing	9	_	_	start_char=142|end_char=146|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=146|end_char=147|SpaceAfter=No
+

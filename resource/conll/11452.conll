@@ -1,0 +1,35 @@
+# text = Whenever me and the wife fall out, she has this little trick to make everything better.
+# sent_id = 24227
+1	Whenever	whenever	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=8
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=9|end_char=11
+3	and	and	CCONJ	CC	_	2	_	_	start_char=12|end_char=15
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=16|end_char=19
+5	wife	wife	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=24
+6	fall	fall	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=25|end_char=29
+7	out	out	ADV	RB	_	6	_	_	start_char=30|end_char=33|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=33|end_char=34
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=35|end_char=38
+10	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=39|end_char=42
+11	this	this	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=43|end_char=47
+12	little	little	ADJ	JJ	Degree=Pos	11	_	_	start_char=48|end_char=54
+13	trick	trick	NOUN	NN	Number=Sing	12	_	_	start_char=55|end_char=60
+14	to	to	PART	TO	_	13	_	_	start_char=61|end_char=63
+15	make	make	VERB	VB	VerbForm=Inf	14	_	_	start_char=64|end_char=68
+16	everything	everything	PRON	NN	Number=Sing|PronType=Tot	15	_	_	start_char=69|end_char=79
+17	better	good	ADJ	JJR	Degree=Cmp	16	_	_	start_char=80|end_char=86|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=86|end_char=87
+
+# text = Fucks off to her mum's for a week.
+# sent_id = 24228
+1	Fucks	fuck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=88|end_char=93
+2	off	off	ADP	RP	_	1	_	_	start_char=94|end_char=97
+3	to	to	ADP	IN	_	2	_	_	start_char=98|end_char=100
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=101|end_char=104
+5-6	mum's	_	_	_	_	_	_	_	start_char=105|end_char=110
+5	mum	mum	NOUN	NN	Number=Sing	4	_	_	start_char=105|end_char=108
+6	's	's	PART	POS	_	5	_	_	start_char=108|end_char=110
+7	for	for	ADP	IN	_	6	_	_	start_char=111|end_char=114
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=115|end_char=116
+9	week	week	NOUN	NN	Number=Sing	8	_	_	start_char=117|end_char=121|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=121|end_char=122|SpaceAfter=No
+

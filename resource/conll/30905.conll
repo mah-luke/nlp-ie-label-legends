@@ -1,0 +1,41 @@
+# text = Poor Kamala Harris.
+# sent_id = 66267
+1	Poor	poor	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	Kamala	Kamala	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=11
+3	Harris	Harris	PROPN	NNP	Number=Sing	2	_	_	start_char=12|end_char=18|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=18|end_char=19
+
+# text = Isn't there another politician she can fuck to help her out of this one?
+# sent_id = 66268
+1-2	Isn't	_	_	_	_	_	_	_	start_char=20|end_char=25
+1	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=20|end_char=22
+2	n't	not	PART	RB	_	1	_	_	start_char=22|end_char=25
+3	there	there	PRON	EX	_	2	_	_	start_char=26|end_char=31
+4	another	another	DET	DT	_	3	_	_	start_char=32|end_char=39
+5	politician	politician	NOUN	NN	Number=Sing	4	_	_	start_char=40|end_char=50
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=51|end_char=54
+7	can	can	AUX	MD	VerbForm=Fin	6	_	_	start_char=55|end_char=58
+8	fuck	fuck	VERB	VB	VerbForm=Inf	7	_	_	start_char=59|end_char=63
+9	to	to	PART	TO	_	8	_	_	start_char=64|end_char=66
+10	help	help	VERB	VB	VerbForm=Inf	9	_	_	start_char=67|end_char=71
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=72|end_char=75
+12	out	out	ADP	IN	_	11	_	_	start_char=76|end_char=79
+13	of	of	ADP	IN	_	12	_	_	start_char=80|end_char=82
+14	this	this	DET	DT	Number=Sing|PronType=Dem	13	_	_	start_char=83|end_char=87
+15	one	one	NOUN	NN	Number=Sing	14	_	_	start_char=88|end_char=91|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=91|end_char=92
+
+# text = #WillieBrown #SpeakFreely #MAGA #GabFam [URL]
+# sent_id = 66269
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=93|end_char=94|SpaceAfter=No
+2	WillieBrown	williebrown	X	GW	_	1	_	_	start_char=94|end_char=105
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=106|end_char=107|SpaceAfter=No
+4	SpeakFreely	SpeakFreely	X	GW	_	3	_	_	start_char=107|end_char=118
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=119|end_char=120|SpaceAfter=No
+6	MAGA	maga	X	GW	_	5	_	_	start_char=120|end_char=124
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=125|end_char=126|SpaceAfter=No
+8	GabFam	gabfam	X	NN	_	7	_	_	start_char=126|end_char=132
+9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=133|end_char=134|SpaceAfter=No
+10	URL	URL	NOUN	NN	Number=Sing	9	_	_	start_char=134|end_char=137|SpaceAfter=No
+11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=137|end_char=138|SpaceAfter=No
+

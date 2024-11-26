@@ -1,0 +1,59 @@
+# text = My wife walked in on me wearing her clothes today...
+# sent_id = 46268
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=7
+3	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=8|end_char=14
+4	in	in	ADV	RB	_	3	_	_	start_char=15|end_char=17
+5	on	on	ADP	IN	_	4	_	_	start_char=18|end_char=20
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=21|end_char=23
+7	wearing	wear	VERB	VBG	VerbForm=Ger	6	_	_	start_char=24|end_char=31
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=32|end_char=35
+9	clothes	clothes	NOUN	NNS	Number=Plur	8	_	_	start_char=36|end_char=43
+10	today	today	NOUN	NN	Number=Sing	9	_	_	start_char=44|end_char=49|SpaceAfter=No
+11	...	...	PUNCT	.	_	10	_	_	start_char=49|end_char=52
+
+# text = She was horrified and confused at first, until I reassured her by saying, "For fuck's sake love, you're never going to pass your driving test if you have to take it yourself !!"
+# sent_id = 46269
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=53|end_char=56
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=57|end_char=60
+3	horrified	horrify	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=61|end_char=70
+4	and	and	CCONJ	CC	_	3	_	_	start_char=71|end_char=74
+5	confused	confused	ADJ	JJ	Degree=Pos	4	_	_	start_char=75|end_char=83
+6	at	at	ADP	IN	_	5	_	_	start_char=84|end_char=86
+7	first	first	ADV	RB	NumType=Ord	6	_	_	start_char=87|end_char=92|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=92|end_char=93
+9	until	until	SCONJ	IN	_	8	_	_	start_char=94|end_char=99
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=100|end_char=101
+11	reassured	reassure	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	_	_	start_char=102|end_char=111
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=112|end_char=115
+13	by	by	SCONJ	IN	_	12	_	_	start_char=116|end_char=118
+14	saying	say	VERB	VBG	VerbForm=Ger	13	_	_	start_char=119|end_char=125|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=125|end_char=126
+16	"	"	PUNCT	``	_	15	_	_	start_char=127|end_char=128|SpaceAfter=No
+17	For	for	ADP	IN	_	16	_	_	start_char=128|end_char=131
+18-19	fuck's	_	_	_	_	_	_	_	start_char=132|end_char=138
+18	fuck	fuck	NOUN	NN	Number=Sing	17	_	_	start_char=132|end_char=136
+19	's	's	PART	POS	_	18	_	_	start_char=136|end_char=138
+20	sake	sake	NOUN	NN	Number=Sing	19	_	_	start_char=139|end_char=143
+21	love	love	NOUN	NN	Number=Sing	20	_	_	start_char=144|end_char=148|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=148|end_char=149
+23-24	you're	_	_	_	_	_	_	_	start_char=150|end_char=156
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	_	_	start_char=150|end_char=153
+24	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	_	_	start_char=153|end_char=156
+25	never	never	ADV	RB	_	24	_	_	start_char=157|end_char=162
+26	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	25	_	_	start_char=163|end_char=168
+27	to	to	PART	TO	_	26	_	_	start_char=169|end_char=171
+28	pass	pass	VERB	VB	VerbForm=Inf	27	_	_	start_char=172|end_char=176
+29	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	28	_	_	start_char=177|end_char=181
+30	driving	driving	NOUN	NN	Number=Sing	29	_	_	start_char=182|end_char=189
+31	test	test	NOUN	NN	Number=Sing	30	_	_	start_char=190|end_char=194
+32	if	if	SCONJ	IN	_	31	_	_	start_char=195|end_char=197
+33	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	_	_	start_char=198|end_char=201
+34	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	33	_	_	start_char=202|end_char=206
+35	to	to	PART	TO	_	34	_	_	start_char=207|end_char=209
+36	take	take	VERB	VB	VerbForm=Inf	35	_	_	start_char=210|end_char=214
+37	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	_	_	start_char=215|end_char=217
+38	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	37	_	_	start_char=218|end_char=226
+39	!!	!!	PUNCT	.	_	38	_	_	start_char=227|end_char=229|SpaceAfter=No
+40	"	"	PUNCT	''	_	39	_	_	start_char=229|end_char=230|SpaceAfter=No
+

@@ -1,0 +1,30 @@
+# text = Yep, pure evil, no remorse.
+# sent_id = 111477
+1	Yep	yep	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	pure	pure	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=9
+4	evil	evil	ADJ	JJ	Degree=Pos	3	_	_	start_char=10|end_char=14|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=14|end_char=15
+6	no	no	DET	DT	_	5	_	_	start_char=16|end_char=18
+7	remorse	remorse	NOUN	NN	Number=Sing	6	_	_	start_char=19|end_char=26|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=26|end_char=27
+
+# text = Coincidentally, I actually also knew both of the other two girls whom he murdered.
+# sent_id = 111478
+1	Coincidentally	coincidentally	ADV	RB	_	0	_	_	start_char=28|end_char=42|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=42|end_char=43
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=44|end_char=45
+4	actually	actually	ADV	RB	_	3	_	_	start_char=46|end_char=54
+5	also	also	ADV	RB	_	4	_	_	start_char=55|end_char=59
+6	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=60|end_char=64
+7	both	both	DET	DT	_	6	_	_	start_char=65|end_char=69
+8	of	of	ADP	IN	_	7	_	_	start_char=70|end_char=72
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=73|end_char=76
+10	other	other	ADJ	JJ	Degree=Pos	9	_	_	start_char=77|end_char=82
+11	two	two	NUM	CD	NumForm=Word|NumType=Card	10	_	_	start_char=83|end_char=86
+12	girls	girl	NOUN	NNS	Number=Plur	11	_	_	start_char=87|end_char=92
+13	whom	whom	PRON	WP	PronType=Rel	12	_	_	start_char=93|end_char=97
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=98|end_char=100
+15	murdered	murder	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=101|end_char=109|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=109|end_char=110|SpaceAfter=No
+

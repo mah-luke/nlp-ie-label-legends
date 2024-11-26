@@ -1,0 +1,36 @@
+# text = She's a Jew tool just like her White boyfriend.
+# sent_id = 73380
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=6|end_char=7
+4	Jew	Jew	NOUN	NN	Number=Sing	3	_	_	start_char=8|end_char=11
+5	tool	tool	NOUN	NN	Number=Sing	4	_	_	start_char=12|end_char=16
+6	just	just	ADV	RB	_	5	_	_	start_char=17|end_char=21
+7	like	like	ADP	IN	_	6	_	_	start_char=22|end_char=26
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=27|end_char=30
+9	White	White	ADJ	JJ	Degree=Pos	8	_	_	start_char=31|end_char=36
+10	boyfriend	boyfriend	NOUN	NN	Number=Sing	9	_	_	start_char=37|end_char=46|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=46|end_char=47
+
+# text = She really connects well with blacks!
+# sent_id = 73381
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=48|end_char=51
+2	really	really	ADV	RB	_	1	_	_	start_char=52|end_char=58
+3	connects	connect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=59|end_char=67
+4	well	well	ADV	RB	Degree=Pos	3	_	_	start_char=68|end_char=72
+5	with	with	ADP	IN	_	4	_	_	start_char=73|end_char=77
+6	blacks	black	NOUN	NNS	Number=Plur	5	_	_	start_char=78|end_char=84|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=84|end_char=85
+
+# text = LOL #GabFam #NameTheJew [URL]
+# sent_id = 73382
+1	LOL	lol	INTJ	UH	_	0	_	_	start_char=86|end_char=89
+2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=90|end_char=91|SpaceAfter=No
+3	GabFam	GabFam	PROPN	NNP	Number=Sing	2	_	_	start_char=91|end_char=97
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=98|end_char=99|SpaceAfter=No
+5	NameTheJew	NameTheJew	PROPN	NNP	Number=Sing	4	_	_	start_char=99|end_char=109
+6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=110|end_char=111|SpaceAfter=No
+7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=111|end_char=114|SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=114|end_char=115|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = Good Morning Gabbers.......Coffee's Hot...... wife is in a Good Mood.......Sun is up......No rain......Trump is Still my President......
+# sent_id = 75652
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	Morning	Morning	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=12
+3	Gabbers	gabber	NOUN	NNS	Number=Plur	2	_	_	start_char=13|end_char=20|SpaceAfter=No
+4	.......	.......	PUNCT	,	_	3	_	_	start_char=20|end_char=27|SpaceAfter=No
+5-6	Coffee's	_	_	_	_	_	_	_	start_char=27|end_char=35
+5	Coffee	coffee	NOUN	NN	Number=Sing	4	_	_	start_char=27|end_char=33
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=33|end_char=35
+7	Hot	hot	ADJ	JJ	Degree=Pos	6	_	_	start_char=36|end_char=39|SpaceAfter=No
+8	......	......	PUNCT	,	_	7	_	_	start_char=39|end_char=45
+9	wife	wife	NOUN	NN	Number=Sing	8	_	_	start_char=46|end_char=50
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=51|end_char=53
+11	in	in	ADP	IN	_	10	_	_	start_char=54|end_char=56
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=57|end_char=58
+13	Good	good	ADJ	JJ	Degree=Pos	12	_	_	start_char=59|end_char=63
+14	Mood	mood	NOUN	NN	Number=Sing	13	_	_	start_char=64|end_char=68|SpaceAfter=No
+15	.......	.......	PUNCT	,	_	14	_	_	start_char=68|end_char=75|SpaceAfter=No
+16	Sun	Sun	PROPN	NNP	Number=Sing	15	_	_	start_char=75|end_char=78
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=79|end_char=81
+18	up	up	ADV	RB	_	17	_	_	start_char=82|end_char=84|SpaceAfter=No
+19	......	......	PUNCT	,	_	18	_	_	start_char=84|end_char=90|SpaceAfter=No
+20	No	no	DET	DT	_	19	_	_	start_char=90|end_char=92
+21	rain	rain	NOUN	NN	Number=Sing	20	_	_	start_char=93|end_char=97|SpaceAfter=No
+22	......	......	PUNCT	,	_	21	_	_	start_char=97|end_char=103|SpaceAfter=No
+23	Trump	Trump	PROPN	NNP	Number=Sing	22	_	_	start_char=103|end_char=108
+24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=109|end_char=111
+25	Still	still	ADV	RB	_	24	_	_	start_char=112|end_char=117
+26	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	_	_	start_char=118|end_char=120
+27	President	President	PROPN	NNP	Number=Sing	26	_	_	start_char=121|end_char=130|SpaceAfter=No
+28	......	......	PUNCT	.	_	27	_	_	start_char=130|end_char=136|SpaceAfter=No
+
+# text = Can't ask for more than THAT......
+# sent_id = 75653
+1-2	Can't	_	_	_	_	_	_	_	start_char=136|end_char=141
+1	Ca	can	AUX	MD	VerbForm=Fin	0	_	_	start_char=136|end_char=138
+2	n't	not	PART	RB	_	1	_	_	start_char=138|end_char=141
+3	ask	ask	VERB	VB	VerbForm=Inf	2	_	_	start_char=142|end_char=145
+4	for	for	ADP	IN	_	3	_	_	start_char=146|end_char=149
+5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=150|end_char=154
+6	than	than	ADP	IN	_	5	_	_	start_char=155|end_char=159
+7	THAT	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=160|end_char=164|SpaceAfter=No
+8	......	......	PUNCT	.	_	7	_	_	start_char=164|end_char=170|SpaceAfter=No
+

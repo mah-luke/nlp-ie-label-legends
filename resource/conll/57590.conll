@@ -1,0 +1,62 @@
+# text = I just mean really hot girls.
+# sent_id = 123063
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	just	just	ADV	RB	_	1	_	_	start_char=2|end_char=6
+3	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=11
+4	really	really	ADV	RB	_	3	_	_	start_char=12|end_char=18
+5	hot	hot	ADJ	JJ	Degree=Pos	4	_	_	start_char=19|end_char=22
+6	girls	girl	NOUN	NNS	Number=Plur	5	_	_	start_char=23|end_char=28|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = That's my ''type'.
+# sent_id = 123064
+1-2	That's	_	_	_	_	_	_	_	start_char=30|end_char=36
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=30|end_char=34
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=34|end_char=36
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=37|end_char=39
+4	'	'	PUNCT	``	_	3	_	_	start_char=40|end_char=41|SpaceAfter=No
+5	'	'	PUNCT	``	_	4	_	_	start_char=41|end_char=42|SpaceAfter=No
+6	type	type	NOUN	NN	Number=Sing	5	_	_	start_char=42|end_char=46|SpaceAfter=No
+7	'	'	PUNCT	''	_	6	_	_	start_char=46|end_char=47|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=47|end_char=48
+
+# text = They don't all look identical or anything, but typically young, slim, nice bodies, pretty faces with nice bone structure with bright green/blue/grey eyes, long hair etc
+# sent_id = 123065
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=49|end_char=53
+2-3	don't	_	_	_	_	_	_	_	start_char=54|end_char=59
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=54|end_char=56
+3	n't	not	PART	RB	_	2	_	_	start_char=56|end_char=59
+4	all	all	ADV	RB	_	3	_	_	start_char=60|end_char=63
+5	look	look	VERB	VB	VerbForm=Inf	4	_	_	start_char=64|end_char=68
+6	identical	identical	ADJ	JJ	Degree=Pos	5	_	_	start_char=69|end_char=78
+7	or	or	CCONJ	CC	_	6	_	_	start_char=79|end_char=81
+8	anything	anything	PRON	NN	Number=Sing|PronType=Ind	7	_	_	start_char=82|end_char=90|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=90|end_char=91
+10	but	but	CCONJ	CC	_	9	_	_	start_char=92|end_char=95
+11	typically	typically	ADV	RB	_	10	_	_	start_char=96|end_char=105
+12	young	young	ADJ	JJ	Degree=Pos	11	_	_	start_char=106|end_char=111|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=111|end_char=112
+14	slim	slim	ADJ	JJ	Degree=Pos	13	_	_	start_char=113|end_char=117|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=117|end_char=118
+16	nice	nice	ADJ	JJ	Degree=Pos	15	_	_	start_char=119|end_char=123
+17	bodies	body	NOUN	NNS	Number=Plur	16	_	_	start_char=124|end_char=130|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=130|end_char=131
+19	pretty	pretty	ADJ	JJ	Degree=Pos	18	_	_	start_char=132|end_char=138
+20	faces	face	NOUN	NNS	Number=Plur	19	_	_	start_char=139|end_char=144
+21	with	with	ADP	IN	_	20	_	_	start_char=145|end_char=149
+22	nice	nice	ADJ	JJ	Degree=Pos	21	_	_	start_char=150|end_char=154
+23	bone	bone	NOUN	NN	Number=Sing	22	_	_	start_char=155|end_char=159
+24	structure	structure	NOUN	NN	Number=Sing	23	_	_	start_char=160|end_char=169
+25	with	with	ADP	IN	_	24	_	_	start_char=170|end_char=174
+26	bright	bright	ADJ	JJ	Degree=Pos	25	_	_	start_char=175|end_char=181
+27	green	green	ADJ	JJ	Degree=Pos	26	_	_	start_char=182|end_char=187|SpaceAfter=No
+28	/	/	SYM	,	_	27	_	_	start_char=187|end_char=188|SpaceAfter=No
+29	blue	blue	ADJ	JJ	Degree=Pos	28	_	_	start_char=188|end_char=192|SpaceAfter=No
+30	/	/	SYM	,	_	29	_	_	start_char=192|end_char=193|SpaceAfter=No
+31	grey	grey	ADJ	JJ	Degree=Pos	30	_	_	start_char=193|end_char=197
+32	eyes	eye	NOUN	NNS	Number=Plur	31	_	_	start_char=198|end_char=202|SpaceAfter=No
+33	,	,	PUNCT	,	_	32	_	_	start_char=202|end_char=203
+34	long	long	ADJ	JJ	Degree=Pos	33	_	_	start_char=204|end_char=208
+35	hair	hair	NOUN	NN	Number=Sing	34	_	_	start_char=209|end_char=213
+36	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	35	_	_	start_char=214|end_char=217|SpaceAfter=No
+

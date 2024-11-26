@@ -1,0 +1,20 @@
+# text = Dindu nuffin!
+# sent_id = 93138
+1	Dindu	Dindu	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	nuffin	nuffin	X	FW	_	1	_	_	start_char=6|end_char=12|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=12|end_char=13
+
+# text = Fuck whitey!
+# sent_id = 93139
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=14|end_char=18
+2	whitey	whitey	NOUN	NN	Number=Sing	1	_	_	start_char=19|end_char=25|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=25|end_char=26
+
+# text = When's lunch?
+# sent_id = 93140
+1-2	When's	_	_	_	_	_	_	_	start_char=27|end_char=33
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=27|end_char=31
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=33
+3	lunch	lunch	NOUN	NN	Number=Sing	2	_	_	start_char=34|end_char=39|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=39|end_char=40|SpaceAfter=No
+

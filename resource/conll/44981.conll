@@ -1,0 +1,53 @@
+# text = I love it!
+# sent_id = 96036
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=7|end_char=9|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=9|end_char=10
+
+# text = AHAHA I've been waiting for this to get a few more episodes in.
+# sent_id = 96037
+1	AHAHA	ahaha	INTJ	UH	_	0	_	_	start_char=11|end_char=16
+2-3	I've	_	_	_	_	_	_	_	start_char=17|end_char=21
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=17|end_char=18
+3	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=18|end_char=21
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=22|end_char=26
+5	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=27|end_char=34
+6	for	for	SCONJ	IN	_	5	_	_	start_char=35|end_char=38
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=39|end_char=43
+8	to	to	PART	TO	_	7	_	_	start_char=44|end_char=46
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=47|end_char=50
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=51|end_char=52
+11	few	few	ADJ	JJ	Degree=Pos	10	_	_	start_char=53|end_char=56
+12	more	more	ADJ	JJR	Degree=Cmp	11	_	_	start_char=57|end_char=61
+13	episodes	episode	NOUN	NNS	Number=Plur	12	_	_	start_char=62|end_char=70
+14	in	in	ADP	IN	_	13	_	_	start_char=71|end_char=73|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=73|end_char=74
+
+# text = This bitch is asking for it With the leve strength that he has, he would kill her if he goes full strength.
+# sent_id = 96038
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=75|end_char=79
+2	bitch	bitch	NOUN	NN	Number=Sing	1	_	_	start_char=80|end_char=85
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=86|end_char=88
+4	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=89|end_char=95
+5	for	for	ADP	IN	_	4	_	_	start_char=96|end_char=99
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=100|end_char=102
+7	With	with	ADP	IN	_	6	_	_	start_char=103|end_char=107
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=108|end_char=111
+9	leve	leve	NOUN	NN	Number=Sing	8	_	_	start_char=112|end_char=116
+10	strength	strength	NOUN	NN	Number=Sing	9	_	_	start_char=117|end_char=125
+11	that	that	PRON	WDT	PronType=Rel	10	_	_	start_char=126|end_char=130
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=131|end_char=133
+13	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=134|end_char=137|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=137|end_char=138
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=139|end_char=141
+16	would	would	AUX	MD	VerbForm=Fin	15	_	_	start_char=142|end_char=147
+17	kill	kill	VERB	VB	VerbForm=Inf	16	_	_	start_char=148|end_char=152
+18	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=153|end_char=156
+19	if	if	SCONJ	IN	_	18	_	_	start_char=157|end_char=159
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=160|end_char=162
+21	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=163|end_char=167
+22	full	full	ADJ	JJ	Degree=Pos	21	_	_	start_char=168|end_char=172
+23	strength	strength	NOUN	NN	Number=Sing	22	_	_	start_char=173|end_char=181|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=181|end_char=182|SpaceAfter=No
+

@@ -1,0 +1,58 @@
+# text = I eventually found the pot.
+# sent_id = 120201
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	eventually	eventually	ADV	RB	_	1	_	_	start_char=2|end_char=12
+3	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=13|end_char=18
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=19|end_char=22
+5	pot	pot	NOUN	NN	Number=Sing	4	_	_	start_char=23|end_char=26|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=26|end_char=27
+
+# text = It was hiding behind a roll of paper towels in the bathroom where I thought my wife would never look.
+# sent_id = 120202
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=28|end_char=30
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=31|end_char=34
+3	hiding	hide	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=35|end_char=41
+4	behind	behind	ADP	IN	_	3	_	_	start_char=42|end_char=48
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=49|end_char=50
+6	roll	roll	NOUN	NN	Number=Sing	5	_	_	start_char=51|end_char=55
+7	of	of	ADP	IN	_	6	_	_	start_char=56|end_char=58
+8	paper	paper	NOUN	NN	Number=Sing	7	_	_	start_char=59|end_char=64
+9	towels	towel	NOUN	NNS	Number=Plur	8	_	_	start_char=65|end_char=71
+10	in	in	ADP	IN	_	9	_	_	start_char=72|end_char=74
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=75|end_char=78
+12	bathroom	bathroom	NOUN	NN	Number=Sing	11	_	_	start_char=79|end_char=87
+13	where	where	ADV	WRB	PronType=Rel	12	_	_	start_char=88|end_char=93
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=94|end_char=95
+15	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	14	_	_	start_char=96|end_char=103
+16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	_	_	start_char=104|end_char=106
+17	wife	wife	NOUN	NN	Number=Sing	16	_	_	start_char=107|end_char=111
+18	would	would	AUX	MD	VerbForm=Fin	17	_	_	start_char=112|end_char=117
+19	never	never	ADV	RB	_	18	_	_	start_char=118|end_char=123
+20	look	look	VERB	VB	VerbForm=Inf	19	_	_	start_char=124|end_char=128|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=128|end_char=129
+
+# text = Apparently it was a good spot because even I, at first, didn't even think to look there.
+# sent_id = 120203
+1	Apparently	apparently	ADV	RB	_	0	_	_	start_char=130|end_char=140
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=141|end_char=143
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=144|end_char=147
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=148|end_char=149
+5	good	good	ADJ	JJ	Degree=Pos	4	_	_	start_char=150|end_char=154
+6	spot	spot	NOUN	NN	Number=Sing	5	_	_	start_char=155|end_char=159
+7	because	because	SCONJ	IN	_	6	_	_	start_char=160|end_char=167
+8	even	even	ADV	RB	_	7	_	_	start_char=168|end_char=172
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=173|end_char=174|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=174|end_char=175
+11	at	at	ADP	IN	_	10	_	_	start_char=176|end_char=178
+12	first	first	ADV	RB	NumType=Ord	11	_	_	start_char=179|end_char=184|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=184|end_char=185
+14-15	didn't	_	_	_	_	_	_	_	start_char=186|end_char=192
+14	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	_	_	start_char=186|end_char=189
+15	n't	not	PART	RB	_	14	_	_	start_char=189|end_char=192
+16	even	even	ADV	RB	_	15	_	_	start_char=193|end_char=197
+17	think	think	VERB	VB	VerbForm=Inf	16	_	_	start_char=198|end_char=203
+18	to	to	PART	TO	_	17	_	_	start_char=204|end_char=206
+19	look	look	VERB	VB	VerbForm=Inf	18	_	_	start_char=207|end_char=211
+20	there	there	ADV	RB	PronType=Dem	19	_	_	start_char=212|end_char=217|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=217|end_char=218|SpaceAfter=No
+

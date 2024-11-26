@@ -1,0 +1,79 @@
+# text = Hit her up.
+# sent_id = 79271
+1	Hit	hit	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=4|end_char=7
+3	up	up	ADP	RP	_	2	_	_	start_char=8|end_char=10|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=10|end_char=11
+
+# text = Don’t be too pushy tho.
+# sent_id = 79272
+1-2	Don’t	_	_	_	_	_	_	_	start_char=12|end_char=17
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=12|end_char=14
+2	n’t	not	PART	RB	_	1	_	_	start_char=14|end_char=17
+3	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=18|end_char=20
+4	too	too	ADV	RB	_	3	_	_	start_char=21|end_char=24
+5	pushy	pushy	ADJ	JJ	Degree=Pos	4	_	_	start_char=25|end_char=30
+6	tho	though	ADV	RB	_	5	_	_	start_char=31|end_char=34|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=34|end_char=35
+
+# text = It’s a marathon not a race.
+# sent_id = 79273
+1-2	It’s	_	_	_	_	_	_	_	start_char=36|end_char=40
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=36|end_char=38
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=38|end_char=40
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=41|end_char=42
+4	marathon	marathon	NOUN	NN	Number=Sing	3	_	_	start_char=43|end_char=51
+5	not	not	PART	RB	_	4	_	_	start_char=52|end_char=55
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=56|end_char=57
+7	race	race	NOUN	NN	Number=Sing	6	_	_	start_char=58|end_char=62|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=62|end_char=63
+
+# text = Could be a few weeks before she’d even consider hanging out with you.
+# sent_id = 79274
+1	Could	could	AUX	MD	VerbForm=Fin	0	_	_	start_char=64|end_char=69
+2	be	be	AUX	VB	VerbForm=Inf	1	_	_	start_char=70|end_char=72
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=73|end_char=74
+4	few	few	ADJ	JJ	Degree=Pos	3	_	_	start_char=75|end_char=78
+5	weeks	week	NOUN	NNS	Number=Plur	4	_	_	start_char=79|end_char=84
+6	before	before	SCONJ	IN	_	5	_	_	start_char=85|end_char=91
+7-8	she’d	_	_	_	_	_	_	_	start_char=92|end_char=97
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=92|end_char=95
+8	’d	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=95|end_char=97
+9	even	even	ADV	RB	_	8	_	_	start_char=98|end_char=102
+10	consider	consider	VERB	VB	VerbForm=Inf	9	_	_	start_char=103|end_char=111
+11	hanging	hang	VERB	VBG	VerbForm=Ger	10	_	_	start_char=112|end_char=119
+12	out	out	ADP	RP	_	11	_	_	start_char=120|end_char=123
+13	with	with	ADP	IN	_	12	_	_	start_char=124|end_char=128
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	_	_	start_char=129|end_char=132|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=132|end_char=133
+
+# text = You don’t even need to talk to her everyday right away.
+# sent_id = 79275
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=134|end_char=137
+2-3	don’t	_	_	_	_	_	_	_	start_char=138|end_char=143
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=138|end_char=140
+3	n’t	not	PART	RB	_	2	_	_	start_char=140|end_char=143
+4	even	even	ADV	RB	_	3	_	_	start_char=144|end_char=148
+5	need	need	VERB	VB	VerbForm=Inf	4	_	_	start_char=149|end_char=153
+6	to	to	PART	TO	_	5	_	_	start_char=154|end_char=156
+7	talk	talk	VERB	VB	VerbForm=Inf	6	_	_	start_char=157|end_char=161
+8	to	to	ADP	IN	_	7	_	_	start_char=162|end_char=164
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=165|end_char=168
+10	everyday	everyday	ADV	RB	_	9	_	_	start_char=169|end_char=177
+11	right	right	ADV	RB	_	10	_	_	start_char=178|end_char=183
+12	away	away	ADV	RB	_	11	_	_	start_char=184|end_char=188|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=188|end_char=189
+
+# text = Ease into it.
+# sent_id = 79276
+1	Ease	ease	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=190|end_char=194
+2	into	into	ADP	IN	_	1	_	_	start_char=195|end_char=199
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=200|end_char=202|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=202|end_char=203
+
+# text = Best of luck
+# sent_id = 79277
+1	Best	good	ADJ	JJS	Degree=Sup	0	_	_	start_char=204|end_char=208
+2	of	of	ADP	IN	_	1	_	_	start_char=209|end_char=211
+3	luck	luck	NOUN	NN	Number=Sing	2	_	_	start_char=212|end_char=216|SpaceAfter=No
+

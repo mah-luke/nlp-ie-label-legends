@@ -1,0 +1,67 @@
+# text = They lie though lol.
+# sent_id = 44275
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=4
+2	lie	lie	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	though	though	ADV	RB	_	2	_	_	start_char=9|end_char=15
+4	lol	lol	INTJ	UH	_	3	_	_	start_char=16|end_char=19|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=19|end_char=20
+
+# text = They'll make it seem like the guy's an orbiter and then you meet him and he mogs you.
+# sent_id = 44276
+1-2	They'll	_	_	_	_	_	_	_	start_char=21|end_char=28
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=21|end_char=25
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=25|end_char=28
+3	make	make	VERB	VB	VerbForm=Inf	2	_	_	start_char=29|end_char=33
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=34|end_char=36
+5	seem	seem	VERB	VB	VerbForm=Inf	4	_	_	start_char=37|end_char=41
+6	like	like	SCONJ	IN	_	5	_	_	start_char=42|end_char=46
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=47|end_char=50
+8-9	guy's	_	_	_	_	_	_	_	start_char=51|end_char=56
+8	guy	guy	NOUN	NN	Number=Sing	7	_	_	start_char=51|end_char=54
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=54|end_char=56
+10	an	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=57|end_char=59
+11	orbiter	orbiter	NOUN	NN	Number=Sing	10	_	_	start_char=60|end_char=67
+12	and	and	CCONJ	CC	_	11	_	_	start_char=68|end_char=71
+13	then	then	ADV	RB	PronType=Dem	12	_	_	start_char=72|end_char=76
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	_	_	start_char=77|end_char=80
+15	meet	meet	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	_	_	start_char=81|end_char=85
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=86|end_char=89
+17	and	and	CCONJ	CC	_	16	_	_	start_char=90|end_char=93
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=94|end_char=96
+19	mogs	mog	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=97|end_char=101
+20	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	19	_	_	start_char=102|end_char=105|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=105|end_char=106
+
+# text = I lost my college bf to a guy who was "listening" to her about the "problems" in our relationship.
+# sent_id = 44277
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=107|end_char=108
+2	lost	lose	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=109|end_char=113
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=114|end_char=116
+4	college	college	NOUN	NN	Number=Sing	3	_	_	start_char=117|end_char=124
+5	bf	bilometer	NOUN	NN	Number=Sing	4	_	_	start_char=125|end_char=127
+6	to	to	ADP	IN	_	5	_	_	start_char=128|end_char=130
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=131|end_char=132
+8	guy	guy	NOUN	NN	Number=Sing	7	_	_	start_char=133|end_char=136
+9	who	who	PRON	WP	PronType=Rel	8	_	_	start_char=137|end_char=140
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=141|end_char=144
+11	"	"	PUNCT	``	_	10	_	_	start_char=145|end_char=146|SpaceAfter=No
+12	listening	listen	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=146|end_char=155|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=155|end_char=156
+14	to	to	ADP	IN	_	13	_	_	start_char=157|end_char=159
+15	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=160|end_char=163
+16	about	about	ADP	IN	_	15	_	_	start_char=164|end_char=169
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=170|end_char=173
+18	"	"	PUNCT	``	_	17	_	_	start_char=174|end_char=175|SpaceAfter=No
+19	problems	problem	NOUN	NNS	Number=Plur	18	_	_	start_char=175|end_char=183|SpaceAfter=No
+20	"	"	PUNCT	''	_	19	_	_	start_char=183|end_char=184
+21	in	in	ADP	IN	_	20	_	_	start_char=185|end_char=187
+22	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	21	_	_	start_char=188|end_char=191
+23	relationship	relationship	NOUN	NN	Number=Sing	22	_	_	start_char=192|end_char=204|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=204|end_char=205
+
+# text = Stupid fucking slut
+# sent_id = 44278
+1	Stupid	Stupid	ADJ	JJ	Degree=Pos	0	_	_	start_char=206|end_char=212
+2	fucking	fuck	ADJ	JJ	Degree=Pos	1	_	_	start_char=213|end_char=220
+3	slut	slut	NOUN	NN	Number=Sing	2	_	_	start_char=221|end_char=225|SpaceAfter=No
+

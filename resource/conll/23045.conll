@@ -1,0 +1,53 @@
+# text = I’d be upfront with her if she asks what you two are.
+# sent_id = 49449
+1-2	I’d	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	’d	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=4|end_char=6
+4	upfront	upfront	ADJ	JJ	Degree=Pos	3	_	_	start_char=7|end_char=14
+5	with	with	ADP	IN	_	4	_	_	start_char=15|end_char=19
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=20|end_char=23
+7	if	if	SCONJ	IN	_	6	_	_	start_char=24|end_char=26
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=27|end_char=30
+9	asks	ask	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=31|end_char=35
+10	what	what	PRON	WP	PronType=Rel	9	_	_	start_char=36|end_char=40
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=41|end_char=44
+12	two	two	NUM	CD	NumForm=Word|NumType=Card	11	_	_	start_char=45|end_char=48
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=49|end_char=52|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=52|end_char=53
+
+# text = State that you enjoy her & her company, but that’s all it’s going to be.
+# sent_id = 49450
+1	State	state	NOUN	NN	Number=Sing	0	_	_	start_char=54|end_char=59
+2	that	that	PRON	WDT	PronType=Rel	1	_	_	start_char=60|end_char=64
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=65|end_char=68
+4	enjoy	enjoy	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=69|end_char=74
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=75|end_char=78
+6	&	&	CCONJ	CC	_	5	_	_	start_char=79|end_char=80
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=81|end_char=84
+8	company	company	NOUN	NN	Number=Sing	7	_	_	start_char=85|end_char=92|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=92|end_char=93
+10	but	but	CCONJ	CC	_	9	_	_	start_char=94|end_char=97
+11-12	that’s	_	_	_	_	_	_	_	start_char=98|end_char=104
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	10	_	_	start_char=98|end_char=102
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=102|end_char=104
+13	all	all	DET	DT	_	12	_	_	start_char=105|end_char=108
+14-15	it’s	_	_	_	_	_	_	_	start_char=109|end_char=113
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=109|end_char=111
+15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=111|end_char=113
+16	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	15	_	_	start_char=114|end_char=119
+17	to	to	PART	TO	_	16	_	_	start_char=120|end_char=122
+18	be	be	AUX	VB	VerbForm=Inf	17	_	_	start_char=123|end_char=125|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=125|end_char=126
+
+# text = Big chicks need to quit deluding themselves.
+# sent_id = 49451
+1	Big	Big	ADJ	JJ	Degree=Pos	0	_	_	start_char=127|end_char=130
+2	chicks	chick	NOUN	NNS	Number=Plur	1	_	_	start_char=131|end_char=137
+3	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=138|end_char=142
+4	to	to	PART	TO	_	3	_	_	start_char=143|end_char=145
+5	quit	quit	VERB	VB	VerbForm=Inf	4	_	_	start_char=146|end_char=150
+6	deluding	delude	VERB	VBG	VerbForm=Ger	5	_	_	start_char=151|end_char=159
+7	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	6	_	_	start_char=160|end_char=170|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=170|end_char=171|SpaceAfter=No
+

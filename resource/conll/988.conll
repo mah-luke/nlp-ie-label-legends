@@ -1,0 +1,70 @@
+# text = You need serious help.
+# sent_id = 2098
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	serious	serious	ADJ	JJ	Degree=Pos	2	_	_	start_char=9|end_char=16
+4	help	help	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=21|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=21|end_char=22
+
+# text = You are delusional.
+# sent_id = 2099
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=23|end_char=26
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=30
+3	delusional	delusional	ADJ	JJ	Degree=Pos	2	_	_	start_char=31|end_char=41|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=41|end_char=42
+
+# text = Only a brainwashed idiot believes that the EOC wrote the Bible.
+# sent_id = 2100
+1	Only	only	ADV	RB	_	0	_	_	start_char=43|end_char=47
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=48|end_char=49
+3	brainwashed	brainwash	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=50|end_char=61
+4	idiot	idiot	NOUN	NN	Number=Sing	3	_	_	start_char=62|end_char=67
+5	believes	believe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=68|end_char=76
+6	that	that	SCONJ	IN	_	5	_	_	start_char=77|end_char=81
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=82|end_char=85
+8	EOC	EOC	PROPN	NNP	Number=Sing	7	_	_	start_char=86|end_char=89
+9	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=90|end_char=95
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=96|end_char=99
+11	Bible	Bible	PROPN	NNP	Number=Sing	10	_	_	start_char=100|end_char=105|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=105|end_char=106
+
+# text = It's really sad.
+# sent_id = 2101
+1-2	It's	_	_	_	_	_	_	_	start_char=107|end_char=111
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=107|end_char=109
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=109|end_char=111
+3	really	really	ADV	RB	_	2	_	_	start_char=112|end_char=118
+4	sad	sad	ADJ	JJ	Degree=Pos	3	_	_	start_char=119|end_char=122|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=122|end_char=123
+
+# text = My great aunt's husband had schizophrenia too.
+# sent_id = 2102
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=124|end_char=126
+2	great	great	ADJ	JJ	Degree=Pos	1	_	_	start_char=127|end_char=132
+3-4	aunt's	_	_	_	_	_	_	_	start_char=133|end_char=139
+3	aunt	aunt	NOUN	NN	Number=Sing	2	_	_	start_char=133|end_char=137
+4	's	's	PART	POS	_	3	_	_	start_char=137|end_char=139
+5	husband	husband	NOUN	NN	Number=Sing	4	_	_	start_char=140|end_char=147
+6	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=148|end_char=151
+7	schizophrenia	schizophrenia	NOUN	NN	Number=Sing	6	_	_	start_char=152|end_char=165
+8	too	too	ADV	RB	_	7	_	_	start_char=166|end_char=169|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=169|end_char=170
+
+# text = It's tragic, but treatable.
+# sent_id = 2103
+1-2	It's	_	_	_	_	_	_	_	start_char=171|end_char=175
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=171|end_char=173
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=173|end_char=175
+3	tragic	tragic	ADJ	JJ	Degree=Pos	2	_	_	start_char=176|end_char=182|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=182|end_char=183
+5	but	but	CCONJ	CC	_	4	_	_	start_char=184|end_char=187
+6	treatable	treatable	ADJ	JJ	Degree=Pos	5	_	_	start_char=188|end_char=197|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=197|end_char=198
+
+# text = Praying for you.
+# sent_id = 2104
+1	Praying	pray	VERB	VBG	VerbForm=Ger	0	_	_	start_char=199|end_char=206
+2	for	for	ADP	IN	_	1	_	_	start_char=207|end_char=210
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=211|end_char=214|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=214|end_char=215|SpaceAfter=No
+

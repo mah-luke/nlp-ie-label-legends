@@ -1,0 +1,23 @@
+# text = Well he didn't kill her or cause permanent damage.
+# sent_id = 86243
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=5|end_char=7
+3-4	didn't	_	_	_	_	_	_	_	start_char=8|end_char=14
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=8|end_char=11
+4	n't	not	PART	RB	_	3	_	_	start_char=11|end_char=14
+5	kill	kill	VERB	VB	VerbForm=Inf	4	_	_	start_char=15|end_char=19
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=20|end_char=23
+7	or	or	CCONJ	CC	_	6	_	_	start_char=24|end_char=26
+8	cause	cause	VERB	VB	VerbForm=Inf	7	_	_	start_char=27|end_char=32
+9	permanent	permanent	ADJ	JJ	Degree=Pos	8	_	_	start_char=33|end_char=42
+10	damage	damage	NOUN	NN	Number=Sing	9	_	_	start_char=43|end_char=49|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=49|end_char=50
+
+# text = There is no argument.
+# sent_id = 86244
+1	There	there	PRON	EX	_	0	_	_	start_char=51|end_char=56
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=57|end_char=59
+3	no	no	DET	DT	_	2	_	_	start_char=60|end_char=62
+4	argument	argument	NOUN	NN	Number=Sing	3	_	_	start_char=63|end_char=71|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=71|end_char=72|SpaceAfter=No
+

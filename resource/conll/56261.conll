@@ -1,0 +1,37 @@
+# text = Its a divorce where she takes your brand new vw and aparently all but empty room.
+# sent_id = 120280
+1-2	Its	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=3
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=4|end_char=5
+4	divorce	divorce	NOUN	NN	Number=Sing	3	_	_	start_char=6|end_char=13
+5	where	where	ADV	WRB	PronType=Rel	4	_	_	start_char=14|end_char=19
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=20|end_char=23
+7	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=24|end_char=29
+8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	_	_	start_char=30|end_char=34
+9	brand	brand	NOUN	NN	Number=Sing	8	_	_	start_char=35|end_char=40
+10	new	new	ADJ	JJ	Degree=Pos	9	_	_	start_char=41|end_char=44
+11	vw	vw	NOUN	NN	Number=Sing	10	_	_	start_char=45|end_char=47
+12	and	and	CCONJ	CC	_	11	_	_	start_char=48|end_char=51
+13	aparently	aparently	ADV	RB	_	12	_	_	start_char=52|end_char=61
+14	all	all	DET	DT	_	13	_	_	start_char=62|end_char=65
+15	but	but	CCONJ	CC	_	14	_	_	start_char=66|end_char=69
+16	empty	empty	ADJ	JJ	Degree=Pos	15	_	_	start_char=70|end_char=75
+17	room	room	NOUN	NN	Number=Sing	16	_	_	start_char=76|end_char=80|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=80|end_char=81
+
+# text = its not ridiculous, its standard procedure :(
+# sent_id = 120281
+1-2	its	_	_	_	_	_	_	_	start_char=82|end_char=85
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=82|end_char=84
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=84|end_char=85
+3	not	not	PART	RB	_	2	_	_	start_char=86|end_char=89
+4	ridiculous	ridiculous	ADJ	JJ	Degree=Pos	3	_	_	start_char=90|end_char=100|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=100|end_char=101
+6-7	its	_	_	_	_	_	_	_	start_char=102|end_char=105
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=102|end_char=104
+7	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=104|end_char=105
+8	standard	standard	ADJ	JJ	Degree=Pos	7	_	_	start_char=106|end_char=114
+9	procedure	procedure	NOUN	NN	Number=Sing	8	_	_	start_char=115|end_char=124
+10	:(	:(	SYM	NFP	_	9	_	_	start_char=125|end_char=127|SpaceAfter=No
+

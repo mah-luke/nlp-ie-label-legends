@@ -1,0 +1,53 @@
+# text = [USER]
+# sent_id = 91545
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = The Mayor of NYC is an idiot.... but those who voted for him are worse than he is.
+# sent_id = 91546
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=7|end_char=10
+2	Mayor	Mayor	PROPN	NNP	Number=Sing	1	_	_	start_char=11|end_char=16
+3	of	of	ADP	IN	_	2	_	_	start_char=17|end_char=19
+4	NYC	NYC	PROPN	NNP	Number=Sing	3	_	_	start_char=20|end_char=23
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=24|end_char=26
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=27|end_char=29
+7	idiot	idiot	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=35|SpaceAfter=No
+8	....	....	PUNCT	,	_	7	_	_	start_char=35|end_char=39
+9	but	but	CCONJ	CC	_	8	_	_	start_char=40|end_char=43
+10	those	that	PRON	DT	Number=Plur|PronType=Dem	9	_	_	start_char=44|end_char=49
+11	who	who	PRON	WP	PronType=Rel	10	_	_	start_char=50|end_char=53
+12	voted	vote	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=54|end_char=59
+13	for	for	ADP	IN	_	12	_	_	start_char=60|end_char=63
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=64|end_char=67
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=68|end_char=71
+16	worse	bad	ADJ	JJR	Degree=Cmp	15	_	_	start_char=72|end_char=77
+17	than	than	SCONJ	IN	_	16	_	_	start_char=78|end_char=82
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=83|end_char=85
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=86|end_char=88|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=88|end_char=89
+
+# text = The Citizens get what they deserve in their leadership.
+# sent_id = 91547
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=90|end_char=93
+2	Citizens	citizen	NOUN	NNS	Number=Plur	1	_	_	start_char=94|end_char=102
+3	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=103|end_char=106
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=107|end_char=111
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=112|end_char=116
+6	deserve	deserve	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=117|end_char=124
+7	in	in	ADP	IN	_	6	_	_	start_char=125|end_char=127
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=128|end_char=133
+9	leadership	leadership	NOUN	NN	Number=Sing	8	_	_	start_char=134|end_char=144|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=144|end_char=145
+
+# text = They get just what they voted for.
+# sent_id = 91548
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=146|end_char=150
+2	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=151|end_char=154
+3	just	just	ADV	RB	_	2	_	_	start_char=155|end_char=159
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=160|end_char=164
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=165|end_char=169
+6	voted	vote	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=170|end_char=175
+7	for	for	ADP	IN	_	6	_	_	start_char=176|end_char=179|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=179|end_char=180|SpaceAfter=No
+

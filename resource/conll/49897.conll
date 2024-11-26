@@ -1,0 +1,61 @@
+# text = "Cheating is a great way of having that balance.
+# sent_id = 106645
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Cheating	cheating	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=9
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=13|end_char=14
+5	great	great	ADJ	JJ	Degree=Pos	4	_	_	start_char=15|end_char=20
+6	way	way	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=24
+7	of	of	SCONJ	IN	_	6	_	_	start_char=25|end_char=27
+8	having	have	VERB	VBG	VerbForm=Ger	7	_	_	start_char=28|end_char=34
+9	that	that	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=35|end_char=39
+10	balance	balance	NOUN	NN	Number=Sing	9	_	_	start_char=40|end_char=47|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=47|end_char=48
+
+# text = [I know someone] who is married with young children who goes out dancing, picks up guys and cheats.
+# sent_id = 106646
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=49|end_char=50|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=50|end_char=51
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=52|end_char=56
+4	someone	someone	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=57|end_char=64|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=64|end_char=65
+6	who	who	PRON	WP	PronType=Rel	5	_	_	start_char=66|end_char=69
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=70|end_char=72
+8	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=73|end_char=80
+9	with	with	ADP	IN	_	8	_	_	start_char=81|end_char=85
+10	young	young	ADJ	JJ	Degree=Pos	9	_	_	start_char=86|end_char=91
+11	children	child	NOUN	NNS	Number=Plur	10	_	_	start_char=92|end_char=100
+12	who	who	PRON	WP	PronType=Rel	11	_	_	start_char=101|end_char=104
+13	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=105|end_char=109
+14	out	out	ADV	RB	_	13	_	_	start_char=110|end_char=113
+15	dancing	dance	VERB	VBG	VerbForm=Ger	14	_	_	start_char=114|end_char=121|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=121|end_char=122
+17	picks	pick	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=123|end_char=128
+18	up	up	ADP	RP	_	17	_	_	start_char=129|end_char=131
+19	guys	guy	NOUN	NNS	Number=Plur	18	_	_	start_char=132|end_char=136
+20	and	and	CCONJ	CC	_	19	_	_	start_char=137|end_char=140
+21	cheats	cheat	NOUN	NNS	Number=Plur	20	_	_	start_char=141|end_char=147|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=147|end_char=148
+
+# text = "
+# sent_id = 106647
+1	"	"	PUNCT	``	_	0	_	_	start_char=149|end_char=150
+
+# text = Her husband is throwing his life away being stuck with such a loser wife.
+# sent_id = 106648
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=151|end_char=154
+2	husband	husband	NOUN	NN	Number=Sing	1	_	_	start_char=155|end_char=162
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=163|end_char=165
+4	throwing	throw	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=166|end_char=174
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=175|end_char=178
+6	life	life	NOUN	NN	Number=Sing	5	_	_	start_char=179|end_char=183
+7	away	away	ADV	RB	_	6	_	_	start_char=184|end_char=188
+8	being	be	AUX	VBG	VerbForm=Ger	7	_	_	start_char=189|end_char=194
+9	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=195|end_char=200
+10	with	with	ADP	IN	_	9	_	_	start_char=201|end_char=205
+11	such	such	DET	PDT	_	10	_	_	start_char=206|end_char=210
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=211|end_char=212
+13	loser	loser	NOUN	NN	Number=Sing	12	_	_	start_char=213|end_char=218
+14	wife	wife	NOUN	NN	Number=Sing	13	_	_	start_char=219|end_char=223|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=223|end_char=224|SpaceAfter=No
+

@@ -1,0 +1,33 @@
+# text = What a stupid question!
+# sent_id = 64223
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	stupid	stupid	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=13
+4	question	question	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=22|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=22|end_char=23
+
+# text = NO MAN...would humiliate himself with such a disgusting display for a few dollars...we aren't women.
+# sent_id = 64224
+1	NO	no	DET	DT	_	0	_	_	start_char=24|end_char=26
+2	MAN	man	NOUN	NN	Number=Sing	1	_	_	start_char=27|end_char=30|SpaceAfter=No
+3	...	...	PUNCT	,	_	2	_	_	start_char=30|end_char=33|SpaceAfter=No
+4	would	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=33|end_char=38
+5	humiliate	humiliate	VERB	VB	VerbForm=Inf	4	_	_	start_char=39|end_char=48
+6	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	_	_	start_char=49|end_char=56
+7	with	with	ADP	IN	_	6	_	_	start_char=57|end_char=61
+8	such	such	DET	PDT	_	7	_	_	start_char=62|end_char=66
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=67|end_char=68
+10	disgusting	disgusting	ADJ	JJ	Degree=Pos	9	_	_	start_char=69|end_char=79
+11	display	display	NOUN	NN	Number=Sing	10	_	_	start_char=80|end_char=87
+12	for	for	ADP	IN	_	11	_	_	start_char=88|end_char=91
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=92|end_char=93
+14	few	few	ADJ	JJ	Degree=Pos	13	_	_	start_char=94|end_char=97
+15	dollars	dollar	NOUN	NNS	Number=Plur	14	_	_	start_char=98|end_char=105|SpaceAfter=No
+16	...	...	PUNCT	,	_	15	_	_	start_char=105|end_char=108|SpaceAfter=No
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	_	_	start_char=108|end_char=110
+18-19	aren't	_	_	_	_	_	_	_	start_char=111|end_char=117
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=111|end_char=114
+19	n't	not	PART	RB	_	18	_	_	start_char=114|end_char=117
+20	women	woman	NOUN	NNS	Number=Plur	19	_	_	start_char=118|end_char=123|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=123|end_char=124|SpaceAfter=No
+

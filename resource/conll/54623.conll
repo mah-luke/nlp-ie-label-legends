@@ -1,0 +1,59 @@
+# text = No necessarily my friends.
+# sent_id = 116753
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2
+2	necessarily	necessarily	ADV	RB	_	1	_	_	start_char=3|end_char=14
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=15|end_char=17
+4	friends	friend	NOUN	NNS	Number=Plur	3	_	_	start_char=18|end_char=25|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=25|end_char=26
+
+# text = But if we are both saay... 25?
+# sent_id = 116754
+1	But	but	CCONJ	CC	_	0	_	_	start_char=27|end_char=30
+2	if	if	SCONJ	IN	_	1	_	_	start_char=31|end_char=33
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=34|end_char=36
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=37|end_char=40
+5	both	both	ADV	RB	_	4	_	_	start_char=41|end_char=45
+6	saay	saay	ADJ	JJ	Degree=Pos	5	_	_	start_char=46|end_char=50|SpaceAfter=No
+7	...	...	PUNCT	,	_	6	_	_	start_char=50|end_char=53
+8	25	25	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=54|end_char=56|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=56|end_char=57
+
+# text = Then I would be okay if she had 2-3 guys she slept with.
+# sent_id = 116755
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=58|end_char=62
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=63|end_char=64
+3	would	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=65|end_char=70
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=71|end_char=73
+5	okay	okay	ADJ	JJ	Degree=Pos	4	_	_	start_char=74|end_char=78
+6	if	if	SCONJ	IN	_	5	_	_	start_char=79|end_char=81
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=82|end_char=85
+8	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=86|end_char=89
+9	2	2	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=90|end_char=91|SpaceAfter=No
+10	-	-	SYM	SYM	_	9	_	_	start_char=91|end_char=92|SpaceAfter=No
+11	3	3	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=92|end_char=93
+12	guys	guy	NOUN	NNS	Number=Plur	11	_	_	start_char=94|end_char=98
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=99|end_char=102
+14	slept	sleep	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=103|end_char=108
+15	with	with	ADP	IN	_	14	_	_	start_char=109|end_char=113|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=113|end_char=114
+
+# text = It's normal for her not to save her V card for idk how long.
+# sent_id = 116756
+1-2	It's	_	_	_	_	_	_	_	start_char=115|end_char=119
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=115|end_char=117
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=117|end_char=119
+3	normal	normal	ADJ	JJ	Degree=Pos	2	_	_	start_char=120|end_char=126
+4	for	for	SCONJ	IN	_	3	_	_	start_char=127|end_char=130
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=131|end_char=134
+6	not	not	PART	RB	_	5	_	_	start_char=135|end_char=138
+7	to	to	PART	TO	_	6	_	_	start_char=139|end_char=141
+8	save	save	VERB	VB	VerbForm=Inf	7	_	_	start_char=142|end_char=146
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=147|end_char=150
+10	V	V	NOUN	NN	Number=Sing	9	_	_	start_char=151|end_char=152
+11	card	card	NOUN	NN	Number=Sing	10	_	_	start_char=153|end_char=157
+12	for	for	ADP	IN	_	11	_	_	start_char=158|end_char=161
+13	idk	idk	NOUN	NN	Number=Sing	12	_	_	start_char=162|end_char=165
+14	how	how	ADV	WRB	PronType=Int	13	_	_	start_char=166|end_char=169
+15	long	long	ADV	RB	Degree=Pos	14	_	_	start_char=170|end_char=174|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=174|end_char=175|SpaceAfter=No
+

@@ -1,0 +1,41 @@
+# text = [USER]
+# sent_id = 105514
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = I hadn't thought about it like that, although my jaw hit the floor when I'd seen what she looked like giving that speech after the election.
+# sent_id = 105515
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
+2-3	hadn't	_	_	_	_	_	_	_	start_char=9|end_char=15
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=9|end_char=12
+3	n't	not	PART	RB	_	2	_	_	start_char=12|end_char=15
+4	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=16|end_char=23
+5	about	about	ADP	IN	_	4	_	_	start_char=24|end_char=29
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=30|end_char=32
+7	like	like	ADP	IN	_	6	_	_	start_char=33|end_char=37
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=38|end_char=42|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=42|end_char=43
+10	although	although	SCONJ	IN	_	9	_	_	start_char=44|end_char=52
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=53|end_char=55
+12	jaw	jaw	NOUN	NN	Number=Sing	11	_	_	start_char=56|end_char=59
+13	hit	hit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=60|end_char=63
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=64|end_char=67
+15	floor	floor	NOUN	NN	Number=Sing	14	_	_	start_char=68|end_char=73
+16	when	when	ADV	WRB	PronType=Int	15	_	_	start_char=74|end_char=78
+17-18	I'd	_	_	_	_	_	_	_	start_char=79|end_char=82
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=79|end_char=80
+18	'd	would	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	17	_	_	start_char=80|end_char=82
+19	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=83|end_char=87
+20	what	what	PRON	WP	PronType=Rel	19	_	_	start_char=88|end_char=92
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=93|end_char=96
+22	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	_	_	start_char=97|end_char=103
+23	like	like	SCONJ	IN	_	22	_	_	start_char=104|end_char=108
+24	giving	give	VERB	VBG	VerbForm=Ger	23	_	_	start_char=109|end_char=115
+25	that	that	DET	DT	Number=Sing|PronType=Dem	24	_	_	start_char=116|end_char=120
+26	speech	speech	NOUN	NN	Number=Sing	25	_	_	start_char=121|end_char=127
+27	after	after	ADP	IN	_	26	_	_	start_char=128|end_char=133
+28	the	the	DET	DT	Definite=Def|PronType=Art	27	_	_	start_char=134|end_char=137
+29	election	election	NOUN	NN	Number=Sing	28	_	_	start_char=138|end_char=146|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	start_char=146|end_char=147|SpaceAfter=No
+

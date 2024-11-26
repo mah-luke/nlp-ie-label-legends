@@ -1,0 +1,33 @@
+# text = Wow.
+# sent_id = 86312
+1	Wow	wow	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = Just wow.
+# sent_id = 86313
+1	Just	just	ADV	RB	_	0	_	_	start_char=5|end_char=9
+2	wow	wow	INTJ	UH	_	1	_	_	start_char=10|end_char=13|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=13|end_char=14
+
+# text = Poor Kellyanne will never be able to show her face in public again.
+# sent_id = 86314
+1	Poor	poor	ADJ	JJ	Degree=Pos	0	_	_	start_char=15|end_char=19
+2	Kellyanne	Kellyanne	PROPN	NNP	Number=Sing	1	_	_	start_char=20|end_char=29
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=30|end_char=34
+4	never	never	ADV	RB	_	3	_	_	start_char=35|end_char=40
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=41|end_char=43
+6	able	able	ADJ	JJ	Degree=Pos	5	_	_	start_char=44|end_char=48
+7	to	to	PART	TO	_	6	_	_	start_char=49|end_char=51
+8	show	show	VERB	VB	VerbForm=Inf	7	_	_	start_char=52|end_char=56
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=57|end_char=60
+10	face	face	NOUN	NN	Number=Sing	9	_	_	start_char=61|end_char=65
+11	in	in	ADP	IN	_	10	_	_	start_char=66|end_char=68
+12	public	public	NOUN	NN	Number=Sing	11	_	_	start_char=69|end_char=75
+13	again	again	ADV	RB	_	12	_	_	start_char=76|end_char=81|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=81|end_char=82
+
+# text = #YouWinLeftiesYouWin
+# sent_id = 86315
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=83|end_char=84|SpaceAfter=No
+2	YouWinLeftiesYouWin	youwinleftiesyouwin	X	ADD	_	1	_	_	start_char=84|end_char=103|SpaceAfter=No
+

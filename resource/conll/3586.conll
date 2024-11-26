@@ -1,0 +1,49 @@
+# text = I learned the hard way myself.
+# sent_id = 7575
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	learned	learn	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=9
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=10|end_char=13
+4	hard	hard	ADJ	JJ	Degree=Pos	3	_	_	start_char=14|end_char=18
+5	way	way	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=22
+6	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	_	_	start_char=23|end_char=29|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=29|end_char=30
+
+# text = If she'll cheat on and abuse her first husband, she'll do the same to you.
+# sent_id = 7576
+1	If	if	SCONJ	IN	_	0	_	_	start_char=31|end_char=33
+2-3	she'll	_	_	_	_	_	_	_	start_char=34|end_char=40
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=34|end_char=37
+3	'll	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=37|end_char=40
+4	cheat	cheat	VERB	VB	VerbForm=Inf	3	_	_	start_char=41|end_char=46
+5	on	on	ADP	RP	_	4	_	_	start_char=47|end_char=49
+6	and	and	CCONJ	CC	_	5	_	_	start_char=50|end_char=53
+7	abuse	abuse	VERB	VB	VerbForm=Inf	6	_	_	start_char=54|end_char=59
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=60|end_char=63
+9	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	8	_	_	start_char=64|end_char=69
+10	husband	husband	NOUN	NN	Number=Sing	9	_	_	start_char=70|end_char=77|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=77|end_char=78
+12-13	she'll	_	_	_	_	_	_	_	start_char=79|end_char=85
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=79|end_char=82
+13	'll	will	AUX	MD	VerbForm=Fin	12	_	_	start_char=82|end_char=85
+14	do	do	VERB	VB	VerbForm=Inf	13	_	_	start_char=86|end_char=88
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=89|end_char=92
+16	same	same	ADJ	JJ	Degree=Pos	15	_	_	start_char=93|end_char=97
+17	to	to	ADP	IN	_	16	_	_	start_char=98|end_char=100
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	_	_	start_char=101|end_char=104|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=104|end_char=105
+
+# text = Won't be making that mistake again in this lifetime.
+# sent_id = 7577
+1-2	Won't	_	_	_	_	_	_	_	start_char=106|end_char=111
+1	Wo	will	AUX	MD	VerbForm=Fin	0	_	_	start_char=106|end_char=108
+2	n't	not	PART	RB	_	1	_	_	start_char=108|end_char=111
+3	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=112|end_char=114
+4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=115|end_char=121
+5	that	that	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=122|end_char=126
+6	mistake	mistake	NOUN	NN	Number=Sing	5	_	_	start_char=127|end_char=134
+7	again	again	ADV	RB	_	6	_	_	start_char=135|end_char=140
+8	in	in	ADP	IN	_	7	_	_	start_char=141|end_char=143
+9	this	this	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=144|end_char=148
+10	lifetime	lifetime	NOUN	NN	Number=Sing	9	_	_	start_char=149|end_char=157|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=157|end_char=158|SpaceAfter=No
+

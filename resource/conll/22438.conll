@@ -1,0 +1,33 @@
+# text = Agghhh!
+# sent_id = 48196
+1	Agghhh	agghhh	INTJ	UH	_	0	_	_	start_char=0|end_char=6|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=6|end_char=7
+
+# text = Try not to use he/she.
+# sent_id = 48197
+1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=8|end_char=11
+2	not	not	PART	RB	_	1	_	_	start_char=12|end_char=15
+3	to	to	PART	TO	_	2	_	_	start_char=16|end_char=18
+4	use	use	VERB	VB	VerbForm=Inf	3	_	_	start_char=19|end_char=22
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=23|end_char=25|SpaceAfter=No
+6	/	/	SYM	,	_	5	_	_	start_char=25|end_char=26|SpaceAfter=No
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=26|end_char=29|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=29|end_char=30
+
+# text = Please!
+# sent_id = 48198
+1	Please	please	INTJ	UH	_	0	_	_	start_char=31|end_char=37|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=37|end_char=38
+
+# text = That's the feminist politically correct bullshit.
+# sent_id = 48199
+1-2	That's	_	_	_	_	_	_	_	start_char=39|end_char=45
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=39|end_char=43
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=43|end_char=45
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=46|end_char=49
+4	feminist	feminist	ADJ	JJ	Degree=Pos	3	_	_	start_char=50|end_char=58
+5	politically	politically	ADV	RB	_	4	_	_	start_char=59|end_char=70
+6	correct	correct	ADJ	JJ	Degree=Pos	5	_	_	start_char=71|end_char=78
+7	bullshit	bullshit	NOUN	NN	Number=Sing	6	_	_	start_char=79|end_char=87|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=87|end_char=88|SpaceAfter=No
+

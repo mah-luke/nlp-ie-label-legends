@@ -1,0 +1,29 @@
+# text = How should I feel about this?
+# sent_id = 60318
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=10
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=11|end_char=12
+4	feel	feel	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=17
+5	about	about	ADP	IN	_	4	_	_	start_char=18|end_char=23
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=24|end_char=28|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = Ideally you should feel nothing, >!
+# sent_id = 60319
+1	Ideally	ideally	ADV	RB	_	0	_	_	start_char=30|end_char=37
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=38|end_char=41
+3	should	should	AUX	MD	VerbForm=Fin	2	_	_	start_char=42|end_char=48
+4	feel	feel	VERB	VB	VerbForm=Inf	3	_	_	start_char=49|end_char=53
+5	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	4	_	_	start_char=54|end_char=61|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=61|end_char=62
+7	>!	>!	PUNCT	.	_	6	_	_	start_char=63|end_char=65|SpaceAfter=No
+
+# text = and dump the disloyal ho.
+# sent_id = 60320
+1	and	and	CCONJ	CC	_	0	_	_	start_char=65|end_char=68
+2	dump	dump	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=69|end_char=73
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=74|end_char=77
+4	disloyal	disloyal	ADJ	JJ	Degree=Pos	3	_	_	start_char=78|end_char=86
+5	ho	ho	INTJ	UH	_	4	_	_	start_char=87|end_char=89|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=89|end_char=90|SpaceAfter=No
+

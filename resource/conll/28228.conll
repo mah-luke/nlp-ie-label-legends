@@ -1,0 +1,43 @@
+# text = My oldest daughter started Kindergarten today...
+# sent_id = 60600
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	oldest	old	ADJ	JJS	Degree=Sup	1	_	_	start_char=3|end_char=9
+3	daughter	daughter	NOUN	NN	Number=Sing	2	_	_	start_char=10|end_char=18
+4	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=19|end_char=26
+5	Kindergarten	Kindergarten	PROPN	NNP	Number=Sing	4	_	_	start_char=27|end_char=39
+6	today	today	NOUN	NN	Number=Sing	5	_	_	start_char=40|end_char=45|SpaceAfter=No
+7	...	...	PUNCT	.	_	6	_	_	start_char=45|end_char=48
+
+# text = Somehow, saying this on all the various social networks isn't helping me cope.
+# sent_id = 60601
+1	Somehow	somehow	ADV	RB	_	0	_	_	start_char=49|end_char=56|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=56|end_char=57
+3	saying	say	VERB	VBG	VerbForm=Ger	2	_	_	start_char=58|end_char=64
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=65|end_char=69
+5	on	on	ADP	IN	_	4	_	_	start_char=70|end_char=72
+6	all	all	DET	PDT	_	5	_	_	start_char=73|end_char=76
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=77|end_char=80
+8	various	various	ADJ	JJ	Degree=Pos	7	_	_	start_char=81|end_char=88
+9	social	social	ADJ	JJ	Degree=Pos	8	_	_	start_char=89|end_char=95
+10	networks	network	NOUN	NNS	Number=Plur	9	_	_	start_char=96|end_char=104
+11-12	isn't	_	_	_	_	_	_	_	start_char=105|end_char=110
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=105|end_char=107
+12	n't	not	PART	RB	_	11	_	_	start_char=107|end_char=110
+13	helping	help	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=111|end_char=118
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=119|end_char=121
+15	cope	cope	VERB	VB	VerbForm=Inf	14	_	_	start_char=122|end_char=126|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=126|end_char=127
+
+# text = Thought I'd at least make an attempt.
+# sent_id = 60602
+1	Thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=128|end_char=135
+2-3	I'd	_	_	_	_	_	_	_	start_char=136|end_char=139
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=136|end_char=137
+3	'd	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=137|end_char=139
+4	at	at	ADP	IN	ExtPos=ADV	3	_	_	start_char=140|end_char=142
+5	least	least	ADJ	JJS	Degree=Sup	4	_	_	start_char=143|end_char=148
+6	make	make	VERB	VB	VerbForm=Inf	5	_	_	start_char=149|end_char=153
+7	an	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=154|end_char=156
+8	attempt	attempt	NOUN	NN	Number=Sing	7	_	_	start_char=157|end_char=164|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=164|end_char=165|SpaceAfter=No
+

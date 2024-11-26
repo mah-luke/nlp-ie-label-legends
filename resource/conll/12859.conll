@@ -1,0 +1,39 @@
+# text = Its not that he didnt build up enough attraction.
+# sent_id = 27282
+1-2	Its	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=3
+3	not	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	that	that	SCONJ	IN	_	3	_	_	start_char=8|end_char=12
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=13|end_char=15
+6-7	didnt	_	_	_	_	_	_	_	start_char=16|end_char=21
+6	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=16|end_char=19
+7	nt	not	PART	RB	_	6	_	_	start_char=19|end_char=21
+8	build	build	VERB	VB	VerbForm=Inf	7	_	_	start_char=22|end_char=27
+9	up	up	ADP	RP	_	8	_	_	start_char=28|end_char=30
+10	enough	enough	ADJ	JJ	Degree=Pos	9	_	_	start_char=31|end_char=37
+11	attraction	attraction	NOUN	NN	Number=Sing	10	_	_	start_char=38|end_char=48|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=48|end_char=49
+
+# text = Its more like shes not interested.
+# sent_id = 27283
+1	Its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=50|end_char=53
+2	more	more	ADV	RBR	Degree=Cmp	1	_	_	start_char=54|end_char=58
+3	like	like	ADP	IN	_	2	_	_	start_char=59|end_char=63
+4	shes	she	NOUN	NNS	Number=Plur	3	_	_	start_char=64|end_char=68
+5	not	not	PART	RB	_	4	_	_	start_char=69|end_char=72
+6	interested	interested	ADJ	JJ	Degree=Pos	5	_	_	start_char=73|end_char=83|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=83|end_char=84
+
+# text = Cant force someone to be attracted to you.
+# sent_id = 27284
+1	Cant	cant	AUX	MD	VerbForm=Fin	0	_	_	start_char=85|end_char=89
+2	force	force	VERB	VB	VerbForm=Inf	1	_	_	start_char=90|end_char=95
+3	someone	someone	PRON	NN	Number=Sing|PronType=Ind	2	_	_	start_char=96|end_char=103
+4	to	to	PART	TO	_	3	_	_	start_char=104|end_char=106
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=107|end_char=109
+6	attracted	attract	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=110|end_char=119
+7	to	to	ADP	IN	_	6	_	_	start_char=120|end_char=122
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	_	_	start_char=123|end_char=126|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=126|end_char=127|SpaceAfter=No
+

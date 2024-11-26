@@ -1,0 +1,31 @@
+# text = The shit tests never stop...until they do.
+# sent_id = 83384
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=8
+3	tests	test	NOUN	NNS	Number=Plur	2	_	_	start_char=9|end_char=14
+4	never	never	ADV	RB	_	3	_	_	start_char=15|end_char=20
+5	stop	stop	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=21|end_char=25|SpaceAfter=No
+6	...	...	PUNCT	,	_	5	_	_	start_char=25|end_char=28|SpaceAfter=No
+7	until	until	SCONJ	IN	_	6	_	_	start_char=28|end_char=33
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=34|end_char=38
+9	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=39|end_char=41|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=41|end_char=42
+
+# text = When they do, she's monkey-branched to the next dude.
+# sent_id = 83385
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=43|end_char=47
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=48|end_char=52
+3	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=53|end_char=55|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=55|end_char=56
+5-6	she's	_	_	_	_	_	_	_	start_char=57|end_char=62
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=57|end_char=60
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=60|end_char=62
+7	monkey	monkey	NOUN	NN	Number=Sing	6	_	_	start_char=63|end_char=69|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	_	_	start_char=69|end_char=70|SpaceAfter=No
+9	branched	branch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=70|end_char=78
+10	to	to	ADP	IN	_	9	_	_	start_char=79|end_char=81
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=82|end_char=85
+12	next	next	ADJ	JJ	Degree=Pos	11	_	_	start_char=86|end_char=90
+13	dude	dude	NOUN	NN	Number=Sing	12	_	_	start_char=91|end_char=95|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=95|end_char=96|SpaceAfter=No
+

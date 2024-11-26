@@ -1,0 +1,24 @@
+# text = Lmao middle eastern girls?
+# sent_id = 90636
+1	Lmao	Lmao	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	middle	middle	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=11
+3	eastern	eastern	ADJ	JJ	Degree=Pos	2	_	_	start_char=12|end_char=19
+4	girls	girl	NOUN	NNS	Number=Plur	3	_	_	start_char=20|end_char=25|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=25|end_char=26
+
+# text = Dude if you aint arab or white looking then its over
+# sent_id = 90637
+1	Dude	dude	NOUN	NN	Number=Sing	0	_	_	start_char=27|end_char=31
+2	if	if	SCONJ	IN	_	1	_	_	start_char=32|end_char=34
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=35|end_char=38
+4-5	aint	_	_	_	_	_	_	_	start_char=39|end_char=43
+4	ai	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=39|end_char=41
+5	nt	not	PART	RB	_	4	_	_	start_char=41|end_char=43
+6	arab	arab	ADJ	JJ	Degree=Pos	5	_	_	start_char=44|end_char=48
+7	or	or	CCONJ	CC	_	6	_	_	start_char=49|end_char=51
+8	white	white	ADJ	JJ	Degree=Pos	7	_	_	start_char=52|end_char=57
+9	looking	look	VERB	VBG	VerbForm=Ger	8	_	_	start_char=58|end_char=65
+10	then	then	ADV	RB	PronType=Dem	9	_	_	start_char=66|end_char=70
+11	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=71|end_char=74
+12	over	over	ADV	RB	_	11	_	_	start_char=75|end_char=79|SpaceAfter=No
+

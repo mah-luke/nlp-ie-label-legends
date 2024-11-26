@@ -1,0 +1,60 @@
+# text = That’s all she told you.
+# sent_id = 53706
+1-2	That’s	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	all	all	DET	DT	_	2	_	_	start_char=7|end_char=10
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=15|end_char=19
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=20|end_char=23|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=23|end_char=24
+
+# text = Stop believing what women say.
+# sent_id = 53707
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=25|end_char=29
+2	believing	believe	VERB	VBG	VerbForm=Ger	1	_	_	start_char=30|end_char=39
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=40|end_char=44
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=45|end_char=50
+5	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=51|end_char=54|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=54|end_char=55
+
+# text = Focus on your purpose and more women will come around and you’ll be out of this situation indefinitely because you truly won’t gaf about any of the women you’re with.
+# sent_id = 53708
+1	Focus	focus	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=56|end_char=61
+2	on	on	ADP	IN	_	1	_	_	start_char=62|end_char=64
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=65|end_char=69
+4	purpose	purpose	NOUN	NN	Number=Sing	3	_	_	start_char=70|end_char=77
+5	and	and	CCONJ	CC	_	4	_	_	start_char=78|end_char=81
+6	more	more	ADJ	JJR	Degree=Cmp	5	_	_	start_char=82|end_char=86
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=87|end_char=92
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=93|end_char=97
+9	come	come	VERB	VB	VerbForm=Inf	8	_	_	start_char=98|end_char=102
+10	around	around	ADV	RB	_	9	_	_	start_char=103|end_char=109
+11	and	and	CCONJ	CC	_	10	_	_	start_char=110|end_char=113
+12-13	you’ll	_	_	_	_	_	_	_	start_char=114|end_char=120
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=114|end_char=117
+13	’ll	will	AUX	MD	VerbForm=Fin	12	_	_	start_char=117|end_char=120
+14	be	be	AUX	VB	VerbForm=Inf	13	_	_	start_char=121|end_char=123
+15	out	out	ADP	IN	_	14	_	_	start_char=124|end_char=127
+16	of	of	ADP	IN	_	15	_	_	start_char=128|end_char=130
+17	this	this	DET	DT	Number=Sing|PronType=Dem	16	_	_	start_char=131|end_char=135
+18	situation	situation	NOUN	NN	Number=Sing	17	_	_	start_char=136|end_char=145
+19	indefinitely	indefinitely	ADV	RB	_	18	_	_	start_char=146|end_char=158
+20	because	because	SCONJ	IN	_	19	_	_	start_char=159|end_char=166
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	_	_	start_char=167|end_char=170
+22	truly	truly	ADV	RB	_	21	_	_	start_char=171|end_char=176
+23-24	won’t	_	_	_	_	_	_	_	start_char=177|end_char=182
+23	wo	will	AUX	MD	VerbForm=Fin	22	_	_	start_char=177|end_char=179
+24	n’t	not	PART	RB	_	23	_	_	start_char=179|end_char=182
+25	gaf	go	VERB	VB	VerbForm=Inf	24	_	_	start_char=183|end_char=186
+26	about	about	ADP	IN	_	25	_	_	start_char=187|end_char=192
+27	any	any	DET	DT	_	26	_	_	start_char=193|end_char=196
+28	of	of	ADP	IN	_	27	_	_	start_char=197|end_char=199
+29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	start_char=200|end_char=203
+30	women	woman	NOUN	NNS	Number=Plur	29	_	_	start_char=204|end_char=209
+31-32	you’re	_	_	_	_	_	_	_	start_char=210|end_char=216
+31	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	30	_	_	start_char=210|end_char=213
+32	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	31	_	_	start_char=213|end_char=216
+33	with	with	ADP	IN	_	32	_	_	start_char=217|end_char=221|SpaceAfter=No
+34	.	.	PUNCT	.	_	33	_	_	start_char=221|end_char=222|SpaceAfter=No
+

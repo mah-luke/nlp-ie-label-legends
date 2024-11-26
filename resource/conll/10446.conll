@@ -1,0 +1,53 @@
+# text = Yeah if online isn’t working for you.
+# sent_id = 22023
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	if	if	SCONJ	IN	_	1	_	_	start_char=5|end_char=7
+3	online	online	ADV	RB	_	2	_	_	start_char=8|end_char=14
+4-5	isn’t	_	_	_	_	_	_	_	start_char=15|end_char=20
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=17
+5	n’t	not	PART	RB	_	4	_	_	start_char=17|end_char=20
+6	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=21|end_char=28
+7	for	for	ADP	IN	_	6	_	_	start_char=29|end_char=32
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	_	_	start_char=33|end_char=36|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=36|end_char=37
+
+# text = And you don’t like louder social places
+# sent_id = 22024
+1	And	and	CCONJ	CC	_	0	_	_	start_char=38|end_char=41
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	_	_	start_char=42|end_char=45
+3-4	don’t	_	_	_	_	_	_	_	start_char=46|end_char=51
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=46|end_char=48
+4	n’t	not	PART	RB	_	3	_	_	start_char=48|end_char=51
+5	like	like	VERB	VB	VerbForm=Inf	4	_	_	start_char=52|end_char=56
+6	louder	loud	ADJ	JJR	Degree=Cmp	5	_	_	start_char=57|end_char=63
+7	social	social	ADJ	JJ	Degree=Pos	6	_	_	start_char=64|end_char=70
+8	places	place	NOUN	NNS	Number=Plur	7	_	_	start_char=71|end_char=77
+
+# text = You’ll need to get into some hobbies.
+# sent_id = 22025
+1-2	You’ll	_	_	_	_	_	_	_	start_char=78|end_char=84
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=78|end_char=81
+2	’ll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=81|end_char=84
+3	need	need	VERB	VB	VerbForm=Inf	2	_	_	start_char=85|end_char=89
+4	to	to	PART	TO	_	3	_	_	start_char=90|end_char=92
+5	get	get	VERB	VB	VerbForm=Inf	4	_	_	start_char=93|end_char=96
+6	into	into	ADP	IN	_	5	_	_	start_char=97|end_char=101
+7	some	some	DET	DT	_	6	_	_	start_char=102|end_char=106
+8	hobbies	hobby	NOUN	NNS	Number=Plur	7	_	_	start_char=107|end_char=114|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=114|end_char=115
+
+# text = My sister started playing coed sports and meeting people that way.
+# sent_id = 22026
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=116|end_char=118
+2	sister	sister	NOUN	NN	Number=Sing	1	_	_	start_char=119|end_char=125
+3	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=126|end_char=133
+4	playing	play	VERB	VBG	VerbForm=Ger	3	_	_	start_char=134|end_char=141
+5	coed	coed	ADJ	JJ	Degree=Pos	4	_	_	start_char=142|end_char=146
+6	sports	sport	NOUN	NNS	Number=Plur	5	_	_	start_char=147|end_char=153
+7	and	and	CCONJ	CC	_	6	_	_	start_char=154|end_char=157
+8	meeting	meet	VERB	VBG	VerbForm=Ger	7	_	_	start_char=158|end_char=165
+9	people	person	NOUN	NNS	Number=Plur	8	_	_	start_char=166|end_char=172
+10	that	that	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=173|end_char=177
+11	way	way	NOUN	NN	Number=Sing	10	_	_	start_char=178|end_char=181|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=181|end_char=182|SpaceAfter=No
+

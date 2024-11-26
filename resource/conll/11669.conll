@@ -1,0 +1,57 @@
+# text = Lol I dunno who you’re fooling but it’s not me🤣
+# sent_id = 24699
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=4|end_char=5
+3-5	dunno	_	_	_	_	_	_	_	start_char=6|end_char=11
+3	du	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=6|end_char=8
+4	n	not	PART	RB	_	3	_	_	start_char=8|end_char=9
+5	no	no	INTJ	UH	_	4	_	_	start_char=9|end_char=11
+6	who	who	PRON	WP	PronType=Rel	5	_	_	start_char=12|end_char=15
+7-8	you’re	_	_	_	_	_	_	_	start_char=16|end_char=22
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=16|end_char=19
+8	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=19|end_char=22
+9	fooling	fool	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=23|end_char=30
+10	but	but	CCONJ	CC	_	9	_	_	start_char=31|end_char=34
+11-12	it’s	_	_	_	_	_	_	_	start_char=35|end_char=39
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=35|end_char=37
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=37|end_char=39
+13	not	not	PART	RB	_	12	_	_	start_char=40|end_char=43
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=44|end_char=46|SpaceAfter=No
+15	🤣	🤣	PUNCT	.	_	14	_	_	start_char=46|end_char=47
+
+# text = Celebs are higher social status than billionaires.
+# sent_id = 24700
+1	Celebs	celeb	NOUN	NNS	Number=Plur	0	_	_	start_char=48|end_char=54
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=55|end_char=58
+3	higher	high	ADJ	JJR	Degree=Cmp	2	_	_	start_char=59|end_char=65
+4	social	social	ADJ	JJ	Degree=Pos	3	_	_	start_char=66|end_char=72
+5	status	status	NOUN	NN	Number=Sing	4	_	_	start_char=73|end_char=79
+6	than	than	ADP	IN	_	5	_	_	start_char=80|end_char=84
+7	billionaires	billionaire	NOUN	NNS	Number=Plur	6	_	_	start_char=85|end_char=97|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=97|end_char=98
+
+# text = No woman is screaming and throwing their knickers at Jeff Bezoz, so that less attractive statement is for the birds.
+# sent_id = 24701
+1	No	no	DET	DT	_	0	_	_	start_char=99|end_char=101
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=102|end_char=107
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=108|end_char=110
+4	screaming	scream	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=111|end_char=120
+5	and	and	CCONJ	CC	_	4	_	_	start_char=121|end_char=124
+6	throwing	throw	VERB	VBG	VerbForm=Ger	5	_	_	start_char=125|end_char=133
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=134|end_char=139
+8	knickers	knicker	NOUN	NNS	Number=Plur	7	_	_	start_char=140|end_char=148
+9	at	at	ADP	IN	_	8	_	_	start_char=149|end_char=151
+10	Jeff	Jeff	PROPN	NNP	Number=Sing	9	_	_	start_char=152|end_char=156
+11	Bezoz	Bezoz	PROPN	NNP	Number=Sing	10	_	_	start_char=157|end_char=162|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=162|end_char=163
+13	so	so	ADV	RB	_	12	_	_	start_char=164|end_char=166
+14	that	that	SCONJ	IN	_	13	_	_	start_char=167|end_char=171
+15	less	less	ADV	RBR	Degree=Cmp	14	_	_	start_char=172|end_char=176
+16	attractive	attractive	ADJ	JJ	Degree=Pos	15	_	_	start_char=177|end_char=187
+17	statement	statement	NOUN	NN	Number=Sing	16	_	_	start_char=188|end_char=197
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=198|end_char=200
+19	for	for	ADP	IN	_	18	_	_	start_char=201|end_char=204
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=205|end_char=208
+21	birds	bird	NOUN	NNS	Number=Plur	20	_	_	start_char=209|end_char=214|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=214|end_char=215|SpaceAfter=No
+

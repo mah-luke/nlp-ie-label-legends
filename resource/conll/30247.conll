@@ -1,0 +1,58 @@
+# text = 𝐓𝐡𝐢𝐬 𝐢𝐬 𝐭𝐡𝐞 𝐡𝐞𝐚𝐝𝐥𝐢𝐧𝐞 𝐈'𝐯𝐞 𝐛𝐞𝐞𝐧 𝐰𝐚𝐢𝐭𝐢𝐧𝐠 𝐟𝐨𝐫.
+# sent_id = 64809
+1	𝐓𝐡𝐢𝐬	𝐓𝐡𝐢𝐬	PUNCT	``	_	0	_	_	start_char=0|end_char=4
+2	𝐢𝐬	𝐢𝐬	PUNCT	:	_	1	_	_	start_char=5|end_char=7
+3	𝐭𝐡𝐞	𝐭𝐡𝐞	PUNCT	:	_	2	_	_	start_char=8|end_char=11
+4	𝐡𝐞𝐚𝐝𝐥𝐢𝐧	𝐡𝐞𝐚𝐝𝐥𝐢𝐧	PUNCT	:	_	3	_	_	start_char=12|end_char=19|SpaceAfter=No
+5	𝐞	𝐞	PUNCT	:	_	4	_	_	start_char=19|end_char=20
+6-7	𝐈'𝐯𝐞	_	_	_	_	_	_	_	start_char=21|end_char=25
+6	𝐈	𝐈	PUNCT	:	_	5	_	_	start_char=21|end_char=22
+7	'𝐯𝐞	'𝐯𝐞	PUNCT	''	_	6	_	_	start_char=22|end_char=25
+8	𝐛𝐞𝐞𝐧	𝐛𝐞𝐞𝐧	PUNCT	:	_	7	_	_	start_char=26|end_char=30
+9	𝐰𝐚𝐢𝐭𝐢𝐧𝐠	𝐰𝐚𝐢𝐭𝐢𝐧𝐠	PUNCT	``	_	8	_	_	start_char=31|end_char=38
+10	𝐟𝐨𝐫	𝐟𝐨𝐫	INTJ	UH	_	9	_	_	start_char=39|end_char=42|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=42|end_char=43
+
+# text = Takiyah Fatima Thompson was shocked - shocked - when officers arrested her and booked her on charges of felony participation in a riot with property damage, and 𝐟𝐞𝐥𝐨𝐧𝐲 incitement of a riot.
+# sent_id = 64810
+1	Takiyah	Takiyah	PROPN	NNP	Number=Sing	0	_	_	start_char=44|end_char=51
+2	Fatima	Fatima	PROPN	NNP	Number=Sing	1	_	_	start_char=52|end_char=58
+3	Thompson	Thompson	PROPN	NNP	Number=Sing	2	_	_	start_char=59|end_char=67
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=68|end_char=71
+5	shocked	shocked	ADJ	JJ	Degree=Pos	4	_	_	start_char=72|end_char=79
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=80|end_char=81
+7	shocked	shocked	ADJ	JJ	Degree=Pos	6	_	_	start_char=82|end_char=89
+8	-	-	PUNCT	,	_	7	_	_	start_char=90|end_char=91
+9	when	when	ADV	WRB	PronType=Int	8	_	_	start_char=92|end_char=96
+10	officers	officer	NOUN	NNS	Number=Plur	9	_	_	start_char=97|end_char=105
+11	arrested	arrest	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=106|end_char=114
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=115|end_char=118
+13	and	and	CCONJ	CC	_	12	_	_	start_char=119|end_char=122
+14	booked	book	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=123|end_char=129
+15	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=130|end_char=133
+16	on	on	ADP	IN	_	15	_	_	start_char=134|end_char=136
+17	charges	charge	NOUN	NNS	Number=Plur	16	_	_	start_char=137|end_char=144
+18	of	of	ADP	IN	_	17	_	_	start_char=145|end_char=147
+19	felony	felony	ADJ	JJ	Degree=Pos	18	_	_	start_char=148|end_char=154
+20	participation	participation	NOUN	NN	Number=Sing	19	_	_	start_char=155|end_char=168
+21	in	in	ADP	IN	_	20	_	_	start_char=169|end_char=171
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	start_char=172|end_char=173
+23	riot	riot	NOUN	NN	Number=Sing	22	_	_	start_char=174|end_char=178
+24	with	with	ADP	IN	_	23	_	_	start_char=179|end_char=183
+25	property	property	NOUN	NN	Number=Sing	24	_	_	start_char=184|end_char=192
+26	damage	damage	NOUN	NN	Number=Sing	25	_	_	start_char=193|end_char=199|SpaceAfter=No
+27	,	,	PUNCT	,	_	26	_	_	start_char=199|end_char=200
+28	and	and	CCONJ	CC	_	27	_	_	start_char=201|end_char=204
+29	𝐟𝐞𝐥𝐨𝐧𝐲	𝐟𝐞𝐥𝐨𝐧𝐲	DET	DT	PronType=Art	28	_	_	start_char=205|end_char=211
+30	incitement	incitement	NOUN	NN	Number=Sing	29	_	_	start_char=212|end_char=222
+31	of	of	ADP	IN	_	30	_	_	start_char=223|end_char=225
+32	a	a	DET	DT	Definite=Ind|PronType=Art	31	_	_	start_char=226|end_char=227
+33	riot	riot	NOUN	NN	Number=Sing	32	_	_	start_char=228|end_char=232|SpaceAfter=No
+34	.	.	PUNCT	.	_	33	_	_	start_char=232|end_char=233
+
+# text = [URL]
+# sent_id = 64811
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=234|end_char=235|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=235|end_char=238|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=238|end_char=239|SpaceAfter=No
+

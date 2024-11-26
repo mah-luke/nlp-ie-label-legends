@@ -1,0 +1,63 @@
+# text = ah, those are actresses speaking words written for them -- with the exception of diller who said she wrote 75% of her act -- without men writing for them, they're not funny.
+# sent_id = 102402
+1	ah	ah	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	those	that	PRON	DT	Number=Plur|PronType=Dem	2	_	_	start_char=4|end_char=9
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=10|end_char=13
+5	actresses	actress	NOUN	NNS	Number=Plur	4	_	_	start_char=14|end_char=23
+6	speaking	speak	VERB	VBG	VerbForm=Ger	5	_	_	start_char=24|end_char=32
+7	words	word	NOUN	NNS	Number=Plur	6	_	_	start_char=33|end_char=38
+8	written	write	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=39|end_char=46
+9	for	for	ADP	IN	_	8	_	_	start_char=47|end_char=50
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=51|end_char=55
+11	--	--	PUNCT	,	_	10	_	_	start_char=56|end_char=58
+12	with	with	ADP	IN	_	11	_	_	start_char=59|end_char=63
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=64|end_char=67
+14	exception	exception	NOUN	NN	Number=Sing	13	_	_	start_char=68|end_char=77
+15	of	of	ADP	IN	_	14	_	_	start_char=78|end_char=80
+16	diller	diller	NOUN	NN	Number=Sing	15	_	_	start_char=81|end_char=87
+17	who	who	PRON	WP	PronType=Rel	16	_	_	start_char=88|end_char=91
+18	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=92|end_char=96
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=97|end_char=100
+20	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=101|end_char=106
+21	75	75	NUM	CD	NumForm=Digit|NumType=Card	20	_	_	start_char=107|end_char=109|SpaceAfter=No
+22	%	%	SYM	NN	Number=Sing	21	_	_	start_char=109|end_char=110
+23	of	of	ADP	IN	_	22	_	_	start_char=111|end_char=113
+24	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	_	_	start_char=114|end_char=117
+25	act	act	NOUN	NN	Number=Sing	24	_	_	start_char=118|end_char=121
+26	--	--	PUNCT	,	_	25	_	_	start_char=122|end_char=124
+27	without	without	ADP	IN	_	26	_	_	start_char=125|end_char=132
+28	men	man	NOUN	NNS	Number=Plur	27	_	_	start_char=133|end_char=136
+29	writing	write	VERB	VBG	VerbForm=Ger	28	_	_	start_char=137|end_char=144
+30	for	for	ADP	IN	_	29	_	_	start_char=145|end_char=148
+31	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	30	_	_	start_char=149|end_char=153|SpaceAfter=No
+32	,	,	PUNCT	,	_	31	_	_	start_char=153|end_char=154
+33-34	they're	_	_	_	_	_	_	_	start_char=155|end_char=162
+33	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	_	_	start_char=155|end_char=159
+34	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	_	_	start_char=159|end_char=162
+35	not	not	PART	RB	_	34	_	_	start_char=163|end_char=166
+36	funny	funny	ADJ	JJ	Degree=Pos	35	_	_	start_char=167|end_char=172|SpaceAfter=No
+37	.	.	PUNCT	.	_	36	_	_	start_char=172|end_char=173
+
+# text = case in point: roseanne.
+# sent_id = 102403
+1	case	case	NOUN	NN	Number=Sing	0	_	_	start_char=174|end_char=178
+2	in	in	ADP	IN	_	1	_	_	start_char=179|end_char=181
+3	point	point	NOUN	NN	Number=Sing	2	_	_	start_char=182|end_char=187|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=187|end_char=188
+5	roseanne	Roseanne	PROPN	NNP	Number=Sing	4	_	_	start_char=189|end_char=197|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=197|end_char=198
+
+# text = can't act and can't write.
+# sent_id = 102404
+1-2	can't	_	_	_	_	_	_	_	start_char=199|end_char=204
+1	ca	can	AUX	MD	VerbForm=Fin	0	_	_	start_char=199|end_char=201
+2	n't	not	PART	RB	_	1	_	_	start_char=201|end_char=204
+3	act	act	VERB	VB	VerbForm=Inf	2	_	_	start_char=205|end_char=208
+4	and	and	CCONJ	CC	_	3	_	_	start_char=209|end_char=212
+5-6	can't	_	_	_	_	_	_	_	start_char=213|end_char=218
+5	ca	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=213|end_char=215
+6	n't	not	PART	RB	_	5	_	_	start_char=215|end_char=218
+7	write	write	VERB	VB	VerbForm=Inf	6	_	_	start_char=219|end_char=224|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=224|end_char=225|SpaceAfter=No
+

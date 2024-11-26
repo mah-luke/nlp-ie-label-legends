@@ -1,0 +1,43 @@
+# text = Barack Obama is a homo!
+# sent_id = 106337
+1	Barack	Barack	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	Obama	Obama	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=12
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=15
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=16|end_char=17
+5	homo	homo	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=22|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = His wife Big Mike has a penis.
+# sent_id = 106338
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=24|end_char=27
+2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=28|end_char=32
+3	Big	Big	ADJ	NNP	Degree=Pos	2	_	_	start_char=33|end_char=36
+4	Mike	Mike	PROPN	NNP	Number=Sing	3	_	_	start_char=37|end_char=41
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=42|end_char=45
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=46|end_char=47
+7	penis	penis	NOUN	NN	Number=Sing	6	_	_	start_char=48|end_char=53|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=53|end_char=54
+
+# text = That's why Obama wears the mom jeans.
+# sent_id = 106339
+1-2	That's	_	_	_	_	_	_	_	start_char=55|end_char=61
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=55|end_char=59
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=61
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=62|end_char=65
+4	Obama	Obama	PROPN	NNP	Number=Sing	3	_	_	start_char=66|end_char=71
+5	wears	wear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=72|end_char=77
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=78|end_char=81
+7	mom	mom	NOUN	NN	Number=Sing	6	_	_	start_char=82|end_char=85
+8	jeans	jeans	NOUN	NNS	Number=Plur	7	_	_	start_char=86|end_char=91|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=91|end_char=92
+
+# text = He's the butt bitch!!!!
+# sent_id = 106340
+1-2	He's	_	_	_	_	_	_	_	start_char=93|end_char=97
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=93|end_char=95
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=95|end_char=97
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=98|end_char=101
+4	butt	butt	NOUN	NN	Number=Sing	3	_	_	start_char=102|end_char=106
+5	bitch	bitch	NOUN	NN	Number=Sing	4	_	_	start_char=107|end_char=112|SpaceAfter=No
+6	!!!!	!!!!	PUNCT	.	_	5	_	_	start_char=112|end_char=116|SpaceAfter=No
+

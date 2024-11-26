@@ -1,0 +1,30 @@
+# text = The USA doesn't have **Guaranteed** maternity leave.
+# sent_id = 2748
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	USA	USA	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=7
+3-4	doesn't	_	_	_	_	_	_	_	start_char=8|end_char=15
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=12
+4	n't	not	PART	RB	_	3	_	_	start_char=12|end_char=15
+5	have	have	VERB	VB	VerbForm=Inf	4	_	_	start_char=16|end_char=20
+6	**	**	PUNCT	NFP	_	5	_	_	start_char=21|end_char=23|SpaceAfter=No
+7	Guaranteed	guarantee	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=23|end_char=33|SpaceAfter=No
+8	**	**	PUNCT	NFP	_	7	_	_	start_char=33|end_char=35
+9	maternity	maternity	NOUN	NN	Number=Sing	8	_	_	start_char=36|end_char=45
+10	leave	leave	NOUN	NN	Number=Sing	9	_	_	start_char=46|end_char=51|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=51|end_char=52
+
+# text = Of course 99.99% of companies do it independently anyway though.
+# sent_id = 2749
+1	Of	of	ADV	IN	_	0	_	_	start_char=53|end_char=55
+2	course	course	NOUN	NN	Number=Sing	1	_	_	start_char=56|end_char=62
+3	99.99	99.99	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=63|end_char=68|SpaceAfter=No
+4	%	%	SYM	NN	Number=Sing	3	_	_	start_char=68|end_char=69
+5	of	of	ADP	IN	_	4	_	_	start_char=70|end_char=72
+6	companies	company	NOUN	NNS	Number=Plur	5	_	_	start_char=73|end_char=82
+7	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=83|end_char=85
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=86|end_char=88
+9	independently	independently	ADV	RB	_	8	_	_	start_char=89|end_char=102
+10	anyway	anyway	ADV	RB	_	9	_	_	start_char=103|end_char=109
+11	though	though	ADV	RB	_	10	_	_	start_char=110|end_char=116|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=116|end_char=117|SpaceAfter=No
+

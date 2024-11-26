@@ -1,0 +1,63 @@
+# text = two convictions here in Texas; one in Dallas area, the other on the border.
+# sent_id = 99414
+1	two	two	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=0|end_char=3
+2	convictions	conviction	NOUN	NNS	Number=Plur	1	_	_	start_char=4|end_char=15
+3	here	here	ADV	RB	PronType=Dem	2	_	_	start_char=16|end_char=20
+4	in	in	ADP	IN	_	3	_	_	start_char=21|end_char=23
+5	Texas	Texas	PROPN	NNP	Number=Sing	4	_	_	start_char=24|end_char=29|SpaceAfter=No
+6	;	;	PUNCT	:	_	5	_	_	start_char=29|end_char=30
+7	one	one	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=31|end_char=34
+8	in	in	ADP	IN	_	7	_	_	start_char=35|end_char=37
+9	Dallas	Dallas	PROPN	NNP	Number=Sing	8	_	_	start_char=38|end_char=44
+10	area	area	NOUN	NN	Number=Sing	9	_	_	start_char=45|end_char=49|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=49|end_char=50
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=51|end_char=54
+13	other	other	ADJ	JJ	Degree=Pos	12	_	_	start_char=55|end_char=60
+14	on	on	ADP	IN	_	13	_	_	start_char=61|end_char=63
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=64|end_char=67
+16	border	border	NOUN	NN	Number=Sing	15	_	_	start_char=68|end_char=74|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=74|end_char=75
+
+# text = Both women got 8 years in jail.
+# sent_id = 99415
+1	Both	both	DET	DT	_	0	_	_	start_char=76|end_char=80
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=81|end_char=86
+3	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=87|end_char=90
+4	8	8	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=91|end_char=92
+5	years	year	NOUN	NNS	Number=Plur	4	_	_	start_char=93|end_char=98
+6	in	in	ADP	IN	_	5	_	_	start_char=99|end_char=101
+7	jail	jail	NOUN	NN	Number=Sing	6	_	_	start_char=102|end_char=106|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=106|end_char=107
+
+# text = That sends a strong signal.
+# sent_id = 99416
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=108|end_char=112
+2	sends	send	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=113|end_char=118
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=119|end_char=120
+4	strong	strong	ADJ	JJ	Degree=Pos	3	_	_	start_char=121|end_char=127
+5	signal	signal	NOUN	NN	Number=Sing	4	_	_	start_char=128|end_char=134|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=134|end_char=135
+
+# text = The illegal alien community talks among themselves.
+# sent_id = 99417
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=136|end_char=139
+2	illegal	illegal	ADJ	JJ	Degree=Pos	1	_	_	start_char=140|end_char=147
+3	alien	alien	NOUN	NN	Number=Sing	2	_	_	start_char=148|end_char=153
+4	community	community	NOUN	NN	Number=Sing	3	_	_	start_char=154|end_char=163
+5	talks	talk	NOUN	NNS	Number=Plur	4	_	_	start_char=164|end_char=169
+6	among	among	ADP	IN	_	5	_	_	start_char=170|end_char=175
+7	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	6	_	_	start_char=176|end_char=186|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=186|end_char=187
+
+# text = Yes, California might still be a problem.
+# sent_id = 99418
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=188|end_char=191|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=191|end_char=192
+3	California	California	PROPN	NNP	Number=Sing	2	_	_	start_char=193|end_char=203
+4	might	might	AUX	MD	VerbForm=Fin	3	_	_	start_char=204|end_char=209
+5	still	still	ADV	RB	_	4	_	_	start_char=210|end_char=215
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=216|end_char=218
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=219|end_char=220
+8	problem	problem	NOUN	NN	Number=Sing	7	_	_	start_char=221|end_char=228|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=228|end_char=229|SpaceAfter=No
+

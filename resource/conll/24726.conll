@@ -1,0 +1,23 @@
+# text = There's not enough alcohol in the world to make her attractive.
+# sent_id = 52980
+1-2	There's	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	There	there	PRON	EX	_	0	_	_	start_char=0|end_char=5
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	not	not	PART	RB	_	2	_	_	start_char=8|end_char=11
+4	enough	enough	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=18
+5	alcohol	alcohol	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=26
+6	in	in	ADP	IN	_	5	_	_	start_char=27|end_char=29
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=30|end_char=33
+8	world	world	NOUN	NN	Number=Sing	7	_	_	start_char=34|end_char=39
+9	to	to	PART	TO	_	8	_	_	start_char=40|end_char=42
+10	make	make	VERB	VB	VerbForm=Inf	9	_	_	start_char=43|end_char=47
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=48|end_char=51
+12	attractive	attractive	ADJ	JJ	Degree=Pos	11	_	_	start_char=52|end_char=62|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=62|end_char=63
+
+# text = Lying skank.
+# sent_id = 52981
+1	Lying	ly	VERB	VBG	VerbForm=Ger	0	_	_	start_char=64|end_char=69
+2	skank	skank	NOUN	NN	Number=Sing	1	_	_	start_char=70|end_char=75|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=75|end_char=76|SpaceAfter=No
+

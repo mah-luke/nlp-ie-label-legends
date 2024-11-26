@@ -1,0 +1,46 @@
+# text = Wife?
+# sent_id = 51096
+1	Wife	wife	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = don't you mean husband, unless, unless she is a carpet muncher.
+# sent_id = 51097
+1-2	don't	_	_	_	_	_	_	_	start_char=6|end_char=11
+1	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=6|end_char=8
+2	n't	not	PART	RB	_	1	_	_	start_char=8|end_char=11
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=12|end_char=15
+4	mean	mean	VERB	VB	VerbForm=Inf	3	_	_	start_char=16|end_char=20
+5	husband	husband	NOUN	NN	Number=Sing	4	_	_	start_char=21|end_char=28|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=28|end_char=29
+7	unless	unless	SCONJ	IN	_	6	_	_	start_char=30|end_char=36|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=36|end_char=37
+9	unless	unless	SCONJ	IN	_	8	_	_	start_char=38|end_char=44
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=45|end_char=48
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=49|end_char=51
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=52|end_char=53
+13	carpet	carpet	NOUN	NN	Number=Sing	12	_	_	start_char=54|end_char=60
+14	muncher	muncher	NOUN	NN	Number=Sing	13	_	_	start_char=61|end_char=68|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=68|end_char=69
+
+# text = Our Politicians are miscreants, knaves, degenerates, reprobates, misfits, scoundrels, sellouts and traitors.
+# sent_id = 51098
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=70|end_char=73
+2	Politicians	politician	NOUN	NNS	Number=Plur	1	_	_	start_char=74|end_char=85
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=86|end_char=89
+4	miscreants	miscreant	NOUN	NNS	Number=Plur	3	_	_	start_char=90|end_char=100|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=100|end_char=101
+6	knaves	knave	NOUN	NNS	Number=Plur	5	_	_	start_char=102|end_char=108|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=108|end_char=109
+8	degenerates	degenerate	NOUN	NNS	Number=Plur	7	_	_	start_char=110|end_char=121|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=121|end_char=122
+10	reprobates	reprobate	NOUN	NNS	Number=Plur	9	_	_	start_char=123|end_char=133|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=133|end_char=134
+12	misfits	misfit	NOUN	NNS	Number=Plur	11	_	_	start_char=135|end_char=142|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=142|end_char=143
+14	scoundrels	scoundrel	NOUN	NNS	Number=Plur	13	_	_	start_char=144|end_char=154|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=154|end_char=155
+16	sellouts	sellout	NOUN	NNS	Number=Plur	15	_	_	start_char=156|end_char=164
+17	and	and	CCONJ	CC	_	16	_	_	start_char=165|end_char=168
+18	traitors	traitor	NOUN	NNS	Number=Plur	17	_	_	start_char=169|end_char=177|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=177|end_char=178|SpaceAfter=No
+

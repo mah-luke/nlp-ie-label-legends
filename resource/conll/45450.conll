@@ -1,0 +1,16 @@
+# text = what did she say?
+# sent_id = 97050
+1	what	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	say	say	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=16|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=16|end_char=17
+
+# text = you remind me of?
+# sent_id = 97051
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=18|end_char=21
+2	remind	remind	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=28
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=29|end_char=31
+4	of	of	ADP	IN	_	3	_	_	start_char=32|end_char=34|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=34|end_char=35|SpaceAfter=No
+

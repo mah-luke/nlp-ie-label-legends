@@ -1,0 +1,62 @@
+# text = Got to be in Worcester by 9:15 tomorrow and it's 3 hours away.
+# sent_id = 102322
+1	Got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=0|end_char=3
+2	to	to	PART	TO	_	1	_	_	start_char=4|end_char=6
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=7|end_char=9
+4	in	in	ADP	IN	_	3	_	_	start_char=10|end_char=12
+5	Worcester	Worcester	PROPN	NNP	Number=Sing	4	_	_	start_char=13|end_char=22
+6	by	by	ADP	IN	_	5	_	_	start_char=23|end_char=25
+7	9:15	9:15	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=26|end_char=30
+8	tomorrow	tomorrow	NOUN	NN	Number=Sing	7	_	_	start_char=31|end_char=39
+9	and	and	CCONJ	CC	_	8	_	_	start_char=40|end_char=43
+10-11	it's	_	_	_	_	_	_	_	start_char=44|end_char=48
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=44|end_char=46
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=46|end_char=48
+12	3	3	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=49|end_char=50
+13	hours	hour	NOUN	NNS	Number=Plur	12	_	_	start_char=51|end_char=56
+14	away	away	ADV	RB	_	13	_	_	start_char=57|end_char=61|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=61|end_char=62
+
+# text = It's for my daughter and had to take holiday.
+# sent_id = 102323
+1-2	It's	_	_	_	_	_	_	_	start_char=63|end_char=67
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=63|end_char=65
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=65|end_char=67
+3	for	for	ADP	IN	_	2	_	_	start_char=68|end_char=71
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=72|end_char=74
+5	daughter	daughter	NOUN	NN	Number=Sing	4	_	_	start_char=75|end_char=83
+6	and	and	CCONJ	CC	_	5	_	_	start_char=84|end_char=87
+7	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=88|end_char=91
+8	to	to	PART	TO	_	7	_	_	start_char=92|end_char=94
+9	take	take	VERB	VB	VerbForm=Inf	8	_	_	start_char=95|end_char=99
+10	holiday	holiday	NOUN	NN	Number=Sing	9	_	_	start_char=100|end_char=107|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=107|end_char=108
+
+# text = Doesn't feel like a holiday.
+# sent_id = 102324
+1-2	Doesn't	_	_	_	_	_	_	_	start_char=109|end_char=116
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=109|end_char=113
+2	n't	not	PART	RB	_	1	_	_	start_char=113|end_char=116
+3	feel	feel	VERB	VB	VerbForm=Inf	2	_	_	start_char=117|end_char=121
+4	like	like	ADP	IN	_	3	_	_	start_char=122|end_char=126
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=127|end_char=128
+6	holiday	holiday	NOUN	NN	Number=Sing	5	_	_	start_char=129|end_char=136|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=136|end_char=137
+
+# text = On the upside looking forward to seeing the new movie Dunkirk this weekend.
+# sent_id = 102325
+1	On	on	ADP	IN	_	0	_	_	start_char=138|end_char=140
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=141|end_char=144
+3	upside	upside	NOUN	NN	Number=Sing	2	_	_	start_char=145|end_char=151
+4	looking	look	VERB	VBG	VerbForm=Ger	3	_	_	start_char=152|end_char=159
+5	forward	forward	ADV	RB	_	4	_	_	start_char=160|end_char=167
+6	to	to	SCONJ	IN	_	5	_	_	start_char=168|end_char=170
+7	seeing	see	VERB	VBG	VerbForm=Ger	6	_	_	start_char=171|end_char=177
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=178|end_char=181
+9	new	new	ADJ	JJ	Degree=Pos	8	_	_	start_char=182|end_char=185
+10	movie	movie	NOUN	NN	Number=Sing	9	_	_	start_char=186|end_char=191
+11	Dunkirk	Dunkirk	PROPN	NNP	Number=Sing	10	_	_	start_char=192|end_char=199
+12	this	this	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=200|end_char=204
+13	weekend	weekend	NOUN	NN	Number=Sing	12	_	_	start_char=205|end_char=212|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=212|end_char=213|SpaceAfter=No
+

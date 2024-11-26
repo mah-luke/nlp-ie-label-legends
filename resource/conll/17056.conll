@@ -1,0 +1,33 @@
+# text = [USER]
+# sent_id = 36672
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = I sing that to my daughter and now I ruined it.
+# sent_id = 36673
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
+2	sing	sing	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=13
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=14|end_char=18
+4	to	to	ADP	IN	_	3	_	_	start_char=19|end_char=21
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=22|end_char=24
+6	daughter	daughter	NOUN	NN	Number=Sing	5	_	_	start_char=25|end_char=33
+7	and	and	CCONJ	CC	_	6	_	_	start_char=34|end_char=37
+8	now	now	ADV	RB	_	7	_	_	start_char=38|end_char=41
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=42|end_char=43
+10	ruined	ruin	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	_	_	start_char=44|end_char=50
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=51|end_char=53|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=53|end_char=54
+
+# text = I'll think of that damn speedo.
+# sent_id = 36674
+1-2	I'll	_	_	_	_	_	_	_	start_char=55|end_char=59
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=55|end_char=56
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=56|end_char=59
+3	think	think	VERB	VB	VerbForm=Inf	2	_	_	start_char=60|end_char=65
+4	of	of	ADP	IN	_	3	_	_	start_char=66|end_char=68
+5	that	that	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=69|end_char=73
+6	damn	damn	ADJ	JJ	Degree=Pos	5	_	_	start_char=74|end_char=78
+7	speedo	speedo	NOUN	NN	Number=Sing	6	_	_	start_char=79|end_char=85|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=85|end_char=86|SpaceAfter=No
+

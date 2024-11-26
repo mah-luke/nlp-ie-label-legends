@@ -1,0 +1,25 @@
+# text = I take she's an antisemite from her comments.
+# sent_id = 2387
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	take	take	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3-4	she's	_	_	_	_	_	_	_	start_char=7|end_char=12
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=7|end_char=10
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=10|end_char=12
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=13|end_char=15
+6	antisemite	antisemite	NOUN	NN	Number=Sing	5	_	_	start_char=16|end_char=26
+7	from	from	ADP	IN	_	6	_	_	start_char=27|end_char=31
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=32|end_char=35
+9	comments	comment	NOUN	NNS	Number=Plur	8	_	_	start_char=36|end_char=44|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=44|end_char=45
+
+# text = Looks like I was oblivious, huh.
+# sent_id = 2388
+1	Looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=46|end_char=51
+2	like	like	SCONJ	IN	_	1	_	_	start_char=52|end_char=56
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=57|end_char=58
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=59|end_char=62
+5	oblivious	oblivious	ADJ	JJ	Degree=Pos	4	_	_	start_char=63|end_char=72|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=72|end_char=73
+7	huh	huh	INTJ	UH	_	6	_	_	start_char=74|end_char=77|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=77|end_char=78|SpaceAfter=No
+

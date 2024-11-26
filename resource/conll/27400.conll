@@ -1,0 +1,27 @@
+# text = Cuck Adams, ladies and gentlemen.
+# sent_id = 58817
+1	Cuck	Cuck	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	Adams	Adams	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=10|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=10|end_char=11
+4	ladies	lady	NOUN	NNS	Number=Plur	3	_	_	start_char=12|end_char=18
+5	and	and	CCONJ	CC	_	4	_	_	start_char=19|end_char=22
+6	gentlemen	gentleman	NOUN	NNS	Number=Plur	5	_	_	start_char=23|end_char=32|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=32|end_char=33
+
+# text = Please proceed to give him more of your money on the way out.
+# sent_id = 58818
+1	Please	please	INTJ	UH	_	0	_	_	start_char=34|end_char=40
+2	proceed	proceed	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=41|end_char=48
+3	to	to	PART	TO	_	2	_	_	start_char=49|end_char=51
+4	give	give	VERB	VB	VerbForm=Inf	3	_	_	start_char=52|end_char=56
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=57|end_char=60
+6	more	more	ADJ	JJR	Degree=Cmp	5	_	_	start_char=61|end_char=65
+7	of	of	ADP	IN	_	6	_	_	start_char=66|end_char=68
+8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	_	_	start_char=69|end_char=73
+9	money	money	NOUN	NN	Number=Sing	8	_	_	start_char=74|end_char=79
+10	on	on	ADP	IN	_	9	_	_	start_char=80|end_char=82
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=83|end_char=86
+12	way	way	NOUN	NN	Number=Sing	11	_	_	start_char=87|end_char=90
+13	out	out	ADP	RP	_	12	_	_	start_char=91|end_char=94|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=94|end_char=95|SpaceAfter=No
+

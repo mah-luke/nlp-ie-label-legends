@@ -1,0 +1,36 @@
+# text = 1929, the Soviet Union established gun control.
+# sent_id = 36298
+1	1929	1929	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=6|end_char=9
+4	Soviet	Soviet	PROPN	NNP	Number=Sing	3	_	_	start_char=10|end_char=16
+5	Union	Union	PROPN	NNP	Number=Sing	4	_	_	start_char=17|end_char=22
+6	established	establish	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=23|end_char=34
+7	gun	gun	NOUN	NN	Number=Sing	6	_	_	start_char=35|end_char=38
+8	control	control	NOUN	NN	Number=Sing	7	_	_	start_char=39|end_char=46|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=46|end_char=47
+
+# text = From 1929 to 1953, about 20 million dissidents, unable to defend themselves, were rounded up and exterminated.
+# sent_id = 36299
+1	From	from	ADP	IN	_	0	_	_	start_char=48|end_char=52
+2	1929	1929	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=53|end_char=57
+3	to	to	ADP	IN	_	2	_	_	start_char=58|end_char=60
+4	1953	1953	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=61|end_char=65|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=65|end_char=66
+6	about	about	ADV	RB	_	5	_	_	start_char=67|end_char=72
+7	20	20	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=73|end_char=75
+8	million	million	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=76|end_char=83
+9	dissidents	dissident	NOUN	NNS	Number=Plur	8	_	_	start_char=84|end_char=94|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=94|end_char=95
+11	unable	unable	ADJ	JJ	Degree=Pos	10	_	_	start_char=96|end_char=102
+12	to	to	PART	TO	_	11	_	_	start_char=103|end_char=105
+13	defend	defend	VERB	VB	VerbForm=Inf	12	_	_	start_char=106|end_char=112
+14	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	13	_	_	start_char=113|end_char=123|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=123|end_char=124
+16	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=125|end_char=129
+17	rounded	round	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=130|end_char=137
+18	up	up	ADP	RP	_	17	_	_	start_char=138|end_char=140
+19	and	and	CCONJ	CC	_	18	_	_	start_char=141|end_char=144
+20	exterminated	exterminate	VERB	VBN	Tense=Past|VerbForm=Part	19	_	_	start_char=145|end_char=157|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=157|end_char=158|SpaceAfter=No
+

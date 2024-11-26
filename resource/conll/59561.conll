@@ -1,0 +1,23 @@
+# text = My mate's got a shirt and tie tattooed on his backside.
+# sent_id = 127141
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2-3	mate's	_	_	_	_	_	_	_	start_char=3|end_char=9
+2	mate	mate	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=7
+3	's	's	PART	POS	_	2	_	_	start_char=7|end_char=9
+4	got	get	VERB	VBD	Tense=Past|VerbForm=Part	3	_	_	start_char=10|end_char=13
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=14|end_char=15
+6	shirt	shirt	NOUN	NN	Number=Sing	5	_	_	start_char=16|end_char=21
+7	and	and	CCONJ	CC	_	6	_	_	start_char=22|end_char=25
+8	tie	tie	NOUN	NN	Number=Sing	7	_	_	start_char=26|end_char=29
+9	tattooed	tattooe	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=30|end_char=38
+10	on	on	ADP	IN	_	9	_	_	start_char=39|end_char=41
+11	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=42|end_char=45
+12	backside	backside	NOUN	NN	Number=Sing	11	_	_	start_char=46|end_char=54|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=54|end_char=55
+
+# text = Smart arse.
+# sent_id = 127142
+1	Smart	smart	ADJ	JJ	Degree=Pos	0	_	_	start_char=56|end_char=61
+2	arse	arse	NOUN	NN	Number=Sing	1	_	_	start_char=62|end_char=66|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=66|end_char=67|SpaceAfter=No
+

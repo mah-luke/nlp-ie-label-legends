@@ -1,0 +1,21 @@
+# text = Pfff, "woman".
+# sent_id = 3918
+1	Pfff	Pfff	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	"	"	PUNCT	``	_	2	_	_	start_char=6|end_char=7|SpaceAfter=No
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=12|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=12|end_char=13|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=13|end_char=14
+
+# text = "Female bonobo" is more like it.
+# sent_id = 3919
+1	"	"	PUNCT	``	_	0	_	_	start_char=15|end_char=16|SpaceAfter=No
+2	Female	Female	ADJ	JJ	Degree=Pos	1	_	_	start_char=16|end_char=22
+3	bonobo	bonobo	NOUN	NN	Number=Sing	2	_	_	start_char=23|end_char=29|SpaceAfter=No
+4	"	"	PUNCT	''	_	3	_	_	start_char=29|end_char=30
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=31|end_char=33
+6	more	more	ADV	RBR	Degree=Cmp	5	_	_	start_char=34|end_char=38
+7	like	like	ADP	IN	_	6	_	_	start_char=39|end_char=43
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=44|end_char=46|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=46|end_char=47|SpaceAfter=No
+

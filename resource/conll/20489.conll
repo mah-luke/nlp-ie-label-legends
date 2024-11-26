@@ -1,0 +1,60 @@
+# text = [USER]
+# sent_id = 43974
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Because she is NOT going to steal anything and #PizzaGate just got hotter than ever before.
+# sent_id = 43975
+1	Because	because	SCONJ	IN	_	0	_	_	start_char=7|end_char=14
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=15|end_char=18
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=19|end_char=21
+4	NOT	not	PART	RB	_	3	_	_	start_char=22|end_char=25
+5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=26|end_char=31
+6	to	to	PART	TO	_	5	_	_	start_char=32|end_char=34
+7	steal	steal	VERB	VB	VerbForm=Inf	6	_	_	start_char=35|end_char=40
+8	anything	anything	PRON	NN	Number=Sing|PronType=Ind	7	_	_	start_char=41|end_char=49
+9	and	and	CCONJ	CC	_	8	_	_	start_char=50|end_char=53
+10	#	#	SYM	NN	Number=Sing	9	_	_	start_char=54|end_char=55|SpaceAfter=No
+11	PizzaGate	PizzaGate	PROPN	NNP	Number=Sing	10	_	_	start_char=55|end_char=64
+12	just	just	ADV	RB	_	11	_	_	start_char=65|end_char=69
+13	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=70|end_char=73
+14	hotter	hot	ADJ	JJR	Degree=Cmp	13	_	_	start_char=74|end_char=80
+15	than	than	ADP	IN	_	14	_	_	start_char=81|end_char=85
+16	ever	ever	ADV	RB	_	15	_	_	start_char=86|end_char=90
+17	before	before	ADV	RB	_	16	_	_	start_char=91|end_char=97|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=97|end_char=98
+
+# text = REALLY.
+# sent_id = 43976
+1	REALLY	really	ADV	RB	_	0	_	_	start_char=99|end_char=105|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=105|end_char=106
+
+# text = HOT.
+# sent_id = 43977
+1	HOT	hot	ADJ	JJ	Degree=Pos	0	_	_	start_char=107|end_char=110|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=110|end_char=111
+
+# text = Stay tuned for my next article.
+# sent_id = 43978
+1	Stay	stay	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=112|end_char=116
+2	tuned	tune	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=117|end_char=122
+3	for	for	ADP	IN	_	2	_	_	start_char=123|end_char=126
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=127|end_char=129
+5	next	next	ADJ	JJ	Degree=Pos	4	_	_	start_char=130|end_char=134
+6	article	article	NOUN	NN	Number=Sing	5	_	_	start_char=135|end_char=142|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=142|end_char=143
+
+# text = #PedoFiles #SpiritCooking #HumanTrafficking #OrganTrafficking #Benghazi
+# sent_id = 43979
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=144|end_char=145|SpaceAfter=No
+2	PedoFiles	pedofile	NOUN	GW	Number=Sing	1	_	_	start_char=145|end_char=154
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=155|end_char=156|SpaceAfter=No
+4	SpiritCooking	spiritcooking	NOUN	GW	Number=Sing	3	_	_	start_char=156|end_char=169
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=170|end_char=171|SpaceAfter=No
+6	HumanTrafficking	humantrafficking	NOUN	NN	Number=Sing	5	_	_	start_char=171|end_char=187
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=188|end_char=189|SpaceAfter=No
+8	OrganTrafficking	organtrafficking	NOUN	NN	Number=Sing	7	_	_	start_char=189|end_char=205
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=206|end_char=207|SpaceAfter=No
+10	Benghazi	Benghazi	X	FW	_	9	_	_	start_char=207|end_char=215|SpaceAfter=No
+

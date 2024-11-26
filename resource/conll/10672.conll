@@ -1,0 +1,39 @@
+# text = And here we go again ... Voltaire would love this woman.
+# sent_id = 22572
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	here	here	ADV	RB	PronType=Dem	1	_	_	start_char=4|end_char=8
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=9|end_char=11
+4	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=12|end_char=14
+5	again	again	ADV	RB	_	4	_	_	start_char=15|end_char=20
+6	...	...	PUNCT	,	_	5	_	_	start_char=21|end_char=24
+7	Voltaire	Voltaire	PROPN	NNP	Number=Sing	6	_	_	start_char=25|end_char=33
+8	would	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=34|end_char=39
+9	love	love	VERB	VB	VerbForm=Inf	8	_	_	start_char=40|end_char=44
+10	this	this	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=45|end_char=49
+11	woman	woman	NOUN	NN	Number=Sing	10	_	_	start_char=50|end_char=55|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=55|end_char=56
+
+# text = She is definitely challenging the Status Quo about 'racial diversity and equality'.
+# sent_id = 22573
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=57|end_char=60
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=61|end_char=63
+3	definitely	definitely	ADV	RB	_	2	_	_	start_char=64|end_char=74
+4	challenging	challenge	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=75|end_char=86
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=87|end_char=90
+6	Status	Status	PROPN	NNP	Number=Sing	5	_	_	start_char=91|end_char=97
+7	Quo	Quo	PROPN	NNP	Number=Sing	6	_	_	start_char=98|end_char=101
+8	about	about	ADP	IN	_	7	_	_	start_char=102|end_char=107
+9	'	'	PUNCT	``	_	8	_	_	start_char=108|end_char=109|SpaceAfter=No
+10	racial	racial	ADJ	JJ	Degree=Pos	9	_	_	start_char=109|end_char=115
+11	diversity	diversity	NOUN	NN	Number=Sing	10	_	_	start_char=116|end_char=125
+12	and	and	CCONJ	CC	_	11	_	_	start_char=126|end_char=129
+13	equality	equality	NOUN	NN	Number=Sing	12	_	_	start_char=130|end_char=138|SpaceAfter=No
+14	'	'	PUNCT	''	_	13	_	_	start_char=138|end_char=139|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=139|end_char=140
+
+# text = [URL]
+# sent_id = 22574
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=141|end_char=142|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=142|end_char=145|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=145|end_char=146|SpaceAfter=No
+

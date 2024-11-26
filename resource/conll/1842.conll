@@ -1,0 +1,54 @@
+# text = 700 law enforcement officers were present from 42 agencies.
+# sent_id = 3876
+1	700	700	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=3
+2	law	law	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=7
+3	enforcement	enforcement	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=19
+4	officers	officer	NOUN	NNS	Number=Plur	3	_	_	start_char=20|end_char=28
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=29|end_char=33
+6	present	present	ADJ	JJ	Degree=Pos	5	_	_	start_char=34|end_char=41
+7	from	from	ADP	IN	_	6	_	_	start_char=42|end_char=46
+8	42	42	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=47|end_char=49
+9	agencies	agency	NOUN	NNS	Number=Plur	8	_	_	start_char=50|end_char=58|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=58|end_char=59
+
+# text = Sounds reasonable.
+# sent_id = 3877
+1	Sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=60|end_char=66
+2	reasonable	reasonable	ADJ	JJ	Degree=Pos	1	_	_	start_char=67|end_char=77|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=77|end_char=78
+
+# text = Jeff was critical of skinny jeans, but nothing is funnier than watching my brother try to put on his wife's skinny jeans.
+# sent_id = 3878
+1	Jeff	Jeff	PROPN	NNP	Number=Sing	0	_	_	start_char=79|end_char=83
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=84|end_char=87
+3	critical	critical	ADJ	JJ	Degree=Pos	2	_	_	start_char=88|end_char=96
+4	of	of	ADP	IN	_	3	_	_	start_char=97|end_char=99
+5	skinny	skinny	ADJ	JJ	Degree=Pos	4	_	_	start_char=100|end_char=106
+6	jeans	jeans	NOUN	NNS	Number=Plur	5	_	_	start_char=107|end_char=112|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=112|end_char=113
+8	but	but	CCONJ	CC	_	7	_	_	start_char=114|end_char=117
+9	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	8	_	_	start_char=118|end_char=125
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=126|end_char=128
+11	funnier	funnier	ADJ	JJR	Degree=Cmp	10	_	_	start_char=129|end_char=136
+12	than	than	SCONJ	IN	_	11	_	_	start_char=137|end_char=141
+13	watching	watch	VERB	VBG	VerbForm=Ger	12	_	_	start_char=142|end_char=150
+14	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	_	_	start_char=151|end_char=153
+15	brother	brother	NOUN	NN	Number=Sing	14	_	_	start_char=154|end_char=161
+16	try	try	VERB	VB	VerbForm=Inf	15	_	_	start_char=162|end_char=165
+17	to	to	PART	TO	_	16	_	_	start_char=166|end_char=168
+18	put	put	VERB	VB	VerbForm=Inf	17	_	_	start_char=169|end_char=172
+19	on	on	ADP	IN	_	18	_	_	start_char=173|end_char=175
+20	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	_	_	start_char=176|end_char=179
+21-22	wife's	_	_	_	_	_	_	_	start_char=180|end_char=186
+21	wife	wife	NOUN	NN	Number=Sing	20	_	_	start_char=180|end_char=184
+22	's	's	PART	POS	_	21	_	_	start_char=184|end_char=186
+23	skinny	skinny	ADJ	JJ	Degree=Pos	22	_	_	start_char=187|end_char=193
+24	jeans	jeans	NOUN	NNS	Number=Plur	23	_	_	start_char=194|end_char=199|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=199|end_char=200
+
+# text = [URL]
+# sent_id = 3879
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=201|end_char=202|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=202|end_char=205|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=205|end_char=206|SpaceAfter=No
+

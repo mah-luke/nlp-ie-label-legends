@@ -1,0 +1,34 @@
+# text = (Serious) Someone explain to me how she has student debt when she was in the army.
+# sent_id = 15590
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Serious	serious	ADJ	JJ	Degree=Pos	1	_	_	start_char=1|end_char=8|SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	2	_	_	start_char=8|end_char=9
+4	Someone	someone	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=10|end_char=17
+5	explain	explain	VERB	VBP	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=18|end_char=25
+6	to	to	ADP	IN	_	5	_	_	start_char=26|end_char=28
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=29|end_char=31
+8	how	how	ADV	WRB	PronType=Int	7	_	_	start_char=32|end_char=35
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=36|end_char=39
+10	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=40|end_char=43
+11	student	student	NOUN	NN	Number=Sing	10	_	_	start_char=44|end_char=51
+12	debt	debt	NOUN	NN	Number=Sing	11	_	_	start_char=52|end_char=56
+13	when	when	ADV	WRB	PronType=Int	12	_	_	start_char=57|end_char=61
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=62|end_char=65
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=66|end_char=69
+16	in	in	ADP	IN	_	15	_	_	start_char=70|end_char=72
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=73|end_char=76
+18	army	army	NOUN	NN	Number=Sing	17	_	_	start_char=77|end_char=81|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=81|end_char=82
+
+# text = I thought GI bill covered college/tuition.
+# sent_id = 15591
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=83|end_char=84
+2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=85|end_char=92
+3	GI	GI	PROPN	NNP	Number=Sing	2	_	_	start_char=93|end_char=95
+4	bill	bill	NOUN	NN	Number=Sing	3	_	_	start_char=96|end_char=100
+5	covered	cover	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=101|end_char=108
+6	college	college	NOUN	NN	Number=Sing	5	_	_	start_char=109|end_char=116|SpaceAfter=No
+7	/	/	SYM	,	_	6	_	_	start_char=116|end_char=117|SpaceAfter=No
+8	tuition	tuition	NOUN	NN	Number=Sing	7	_	_	start_char=117|end_char=124|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=124|end_char=125|SpaceAfter=No
+

@@ -1,0 +1,48 @@
+# text = What are you even asking?
+# sent_id = 42261
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	even	even	ADV	RB	_	3	_	_	start_char=13|end_char=17
+5	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=18|end_char=24|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=24|end_char=25
+
+# text = What question?
+# sent_id = 42262
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=26|end_char=30
+2	question	question	NOUN	NN	Number=Sing	1	_	_	start_char=31|end_char=39|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=39|end_char=40
+
+# text = I already answer you with "those females are hoes and sluts" those are my answer so what other "answer" do you want me to say?
+# sent_id = 42263
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=41|end_char=42
+2	already	already	ADV	RB	_	1	_	_	start_char=43|end_char=50
+3	answer	answer	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=51|end_char=57
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=58|end_char=61
+5	with	with	ADP	IN	_	4	_	_	start_char=62|end_char=66
+6	"	"	PUNCT	``	_	5	_	_	start_char=67|end_char=68|SpaceAfter=No
+7	those	that	DET	DT	Number=Plur|PronType=Dem	6	_	_	start_char=68|end_char=73
+8	females	female	NOUN	NNS	Number=Plur	7	_	_	start_char=74|end_char=81
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=82|end_char=85
+10	hoes	hoe	NOUN	NNS	Number=Plur	9	_	_	start_char=86|end_char=90
+11	and	and	CCONJ	CC	_	10	_	_	start_char=91|end_char=94
+12	sluts	slut	NOUN	NNS	Number=Plur	11	_	_	start_char=95|end_char=100|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=100|end_char=101
+14	those	that	PRON	DT	Number=Plur|PronType=Dem	13	_	_	start_char=102|end_char=107
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=108|end_char=111
+16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	_	_	start_char=112|end_char=114
+17	answer	answer	NOUN	NN	Number=Sing	16	_	_	start_char=115|end_char=121
+18	so	so	ADV	RB	_	17	_	_	start_char=122|end_char=124
+19	what	what	DET	WDT	PronType=Int	18	_	_	start_char=125|end_char=129
+20	other	other	ADJ	JJ	Degree=Pos	19	_	_	start_char=130|end_char=135
+21	"	"	PUNCT	``	_	20	_	_	start_char=136|end_char=137|SpaceAfter=No
+22	answer	answer	NOUN	NN	Number=Sing	21	_	_	start_char=137|end_char=143|SpaceAfter=No
+23	"	"	PUNCT	''	_	22	_	_	start_char=143|end_char=144
+24	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	_	_	start_char=145|end_char=147
+25	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	24	_	_	start_char=148|end_char=151
+26	want	want	VERB	VB	VerbForm=Inf	25	_	_	start_char=152|end_char=156
+27	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	26	_	_	start_char=157|end_char=159
+28	to	to	PART	TO	_	27	_	_	start_char=160|end_char=162
+29	say	say	VERB	VB	VerbForm=Inf	28	_	_	start_char=163|end_char=166|SpaceAfter=No
+30	?	?	PUNCT	.	_	29	_	_	start_char=166|end_char=167|SpaceAfter=No
+

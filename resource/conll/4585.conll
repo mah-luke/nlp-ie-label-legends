@@ -1,0 +1,34 @@
+# text = I blame creepy desperate old men.
+# sent_id = 9621
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	blame	blame	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=7
+3	creepy	creepy	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=14
+4	desperate	desperate	ADJ	JJ	Degree=Pos	3	_	_	start_char=15|end_char=24
+5	old	old	ADJ	JJ	Degree=Pos	4	_	_	start_char=25|end_char=28
+6	men	man	NOUN	NNS	Number=Plur	5	_	_	start_char=29|end_char=32|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=32|end_char=33
+
+# text = Because if their desperate attitude modern women are entitled trash.
+# sent_id = 9622
+1	Because	because	SCONJ	IN	_	0	_	_	start_char=34|end_char=41
+2	if	if	SCONJ	IN	_	1	_	_	start_char=42|end_char=44
+3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=45|end_char=50
+4	desperate	desperate	ADJ	JJ	Degree=Pos	3	_	_	start_char=51|end_char=60
+5	attitude	attitude	NOUN	NN	Number=Sing	4	_	_	start_char=61|end_char=69
+6	modern	modern	ADJ	JJ	Degree=Pos	5	_	_	start_char=70|end_char=76
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=77|end_char=82
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=83|end_char=86
+9	entitled	entitle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=87|end_char=95
+10	trash	trash	NOUN	NN	Number=Sing	9	_	_	start_char=96|end_char=101|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=101|end_char=102
+
+# text = It’s men’s fault
+# sent_id = 9623
+1-2	It’s	_	_	_	_	_	_	_	start_char=103|end_char=107
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=103|end_char=105
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=105|end_char=107
+3-4	men’s	_	_	_	_	_	_	_	start_char=108|end_char=113
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=108|end_char=111
+4	’s	's	PART	POS	_	3	_	_	start_char=111|end_char=113
+5	fault	fault	NOUN	NN	Number=Sing	4	_	_	start_char=114|end_char=119|SpaceAfter=No
+

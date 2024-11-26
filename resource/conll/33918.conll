@@ -1,0 +1,39 @@
+# text = When I read shit like this it gets me so angry!
+# sent_id = 72549
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=4
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=5|end_char=6
+3	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=7|end_char=11
+4	shit	shit	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=16
+5	like	like	ADP	IN	_	4	_	_	start_char=17|end_char=21
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=22|end_char=26
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=27|end_char=29
+8	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=30|end_char=34
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=35|end_char=37
+10	so	so	ADV	RB	_	9	_	_	start_char=38|end_char=40
+11	angry	angry	ADJ	JJ	Degree=Pos	10	_	_	start_char=41|end_char=46|SpaceAfter=No
+12	!	!	PUNCT	.	_	11	_	_	start_char=46|end_char=47
+
+# text = That why I can stand this religion and others that support this diabolical behavior!!
+# sent_id = 72550
+1	That	that	SCONJ	IN	_	0	_	_	start_char=48|end_char=52
+2	why	why	ADV	WRB	PronType=Rel	1	_	_	start_char=53|end_char=56
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=57|end_char=58
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=59|end_char=62
+5	stand	stand	VERB	VB	VerbForm=Inf	4	_	_	start_char=63|end_char=68
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=69|end_char=73
+7	religion	religion	NOUN	NN	Number=Sing	6	_	_	start_char=74|end_char=82
+8	and	and	CCONJ	CC	_	7	_	_	start_char=83|end_char=86
+9	others	other	NOUN	NNS	Number=Plur	8	_	_	start_char=87|end_char=93
+10	that	that	PRON	WDT	PronType=Rel	9	_	_	start_char=94|end_char=98
+11	support	support	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=99|end_char=106
+12	this	this	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=107|end_char=111
+13	diabolical	diabolical	ADJ	JJ	Degree=Pos	12	_	_	start_char=112|end_char=122
+14	behavior	behavior	NOUN	NN	Number=Sing	13	_	_	start_char=123|end_char=131|SpaceAfter=No
+15	!!	!!	PUNCT	.	_	14	_	_	start_char=131|end_char=133
+
+# text = [URL]
+# sent_id = 72551
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=134|end_char=135|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=135|end_char=138|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=138|end_char=139|SpaceAfter=No
+

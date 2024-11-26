@@ -1,0 +1,39 @@
+# text = I have yet to see a female garbage person.
+# sent_id = 7107
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	yet	yet	ADV	RB	_	2	_	_	start_char=7|end_char=10
+4	to	to	PART	TO	_	3	_	_	start_char=11|end_char=13
+5	see	see	VERB	VB	VerbForm=Inf	4	_	_	start_char=14|end_char=17
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=18|end_char=19
+7	female	female	ADJ	JJ	Degree=Pos	6	_	_	start_char=20|end_char=26
+8	garbage	garbage	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=34
+9	person	person	NOUN	NN	Number=Sing	8	_	_	start_char=35|end_char=41|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=41|end_char=42
+
+# text = Had to correct myself from saying "female garbage-*man*" because the cultural-norm is so concrete.
+# sent_id = 7108
+1	Had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=43|end_char=46
+2	to	to	PART	TO	_	1	_	_	start_char=47|end_char=49
+3	correct	correct	VERB	VB	VerbForm=Inf	2	_	_	start_char=50|end_char=57
+4	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	_	_	start_char=58|end_char=64
+5	from	from	SCONJ	IN	_	4	_	_	start_char=65|end_char=69
+6	saying	say	VERB	VBG	VerbForm=Ger	5	_	_	start_char=70|end_char=76
+7	"	"	PUNCT	``	_	6	_	_	start_char=77|end_char=78|SpaceAfter=No
+8	female	female	ADJ	JJ	Degree=Pos	7	_	_	start_char=78|end_char=84
+9	garbage	garbage	NOUN	NN	Number=Sing	8	_	_	start_char=85|end_char=92|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	_	_	start_char=92|end_char=93|SpaceAfter=No
+11	*	*	PUNCT	NFP	_	10	_	_	start_char=93|end_char=94|SpaceAfter=No
+12	man	man	NOUN	NN	Number=Sing	11	_	_	start_char=94|end_char=97|SpaceAfter=No
+13	*	*	PUNCT	NFP	_	12	_	_	start_char=97|end_char=98|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=98|end_char=99
+15	because	because	SCONJ	IN	_	14	_	_	start_char=100|end_char=107
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=108|end_char=111
+17	cultural	cultural	ADJ	JJ	Degree=Pos	16	_	_	start_char=112|end_char=120|SpaceAfter=No
+18	-	-	PUNCT	HYPH	_	17	_	_	start_char=120|end_char=121|SpaceAfter=No
+19	norm	norm	NOUN	NN	Number=Sing	18	_	_	start_char=121|end_char=125
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=126|end_char=128
+21	so	so	ADV	RB	_	20	_	_	start_char=129|end_char=131
+22	concrete	concrete	ADJ	JJ	Degree=Pos	21	_	_	start_char=132|end_char=140|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=140|end_char=141|SpaceAfter=No
+

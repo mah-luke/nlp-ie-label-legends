@@ -1,0 +1,29 @@
+# text = Fuck no!
+# sent_id = 32705
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	no	no	INTJ	UH	_	1	_	_	start_char=5|end_char=7|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=7|end_char=8
+
+# text = He’s an incel - he’d be a virgin loser with, or without my height.
+# sent_id = 32706
+1-2	He’s	_	_	_	_	_	_	_	start_char=9|end_char=13
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=9|end_char=11
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=11|end_char=13
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=14|end_char=16
+4	incel	incel	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=22
+5	-	-	PUNCT	,	_	4	_	_	start_char=23|end_char=24
+6-7	he’d	_	_	_	_	_	_	_	start_char=25|end_char=29
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=25|end_char=27
+7	’d	would	AUX	MD	VerbForm=Fin	6	_	_	start_char=27|end_char=29
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=30|end_char=32
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=33|end_char=34
+10	virgin	virgin	ADJ	JJ	Degree=Pos	9	_	_	start_char=35|end_char=41
+11	loser	loser	NOUN	NN	Number=Sing	10	_	_	start_char=42|end_char=47
+12	with	with	ADP	IN	_	11	_	_	start_char=48|end_char=52|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=52|end_char=53
+14	or	or	CCONJ	CC	_	13	_	_	start_char=54|end_char=56
+15	without	without	ADP	IN	_	14	_	_	start_char=57|end_char=64
+16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	_	_	start_char=65|end_char=67
+17	height	height	NOUN	NN	Number=Sing	16	_	_	start_char=68|end_char=74|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=74|end_char=75|SpaceAfter=No
+

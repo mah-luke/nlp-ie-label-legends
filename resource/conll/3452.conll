@@ -1,0 +1,75 @@
+# text = Got a friend who stutters.
+# sent_id = 7288
+1	Got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=4|end_char=5
+3	friend	friend	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=12
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=13|end_char=16
+5	stutters	stutter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=17|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=25|end_char=26
+
+# text = He's moving to the USA after he met a yank woman, they hit it off when he spent time in Boston.
+# sent_id = 7289
+1-2	He's	_	_	_	_	_	_	_	start_char=27|end_char=31
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=27|end_char=29
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=29|end_char=31
+3	moving	move	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=32|end_char=38
+4	to	to	ADP	IN	_	3	_	_	start_char=39|end_char=41
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=42|end_char=45
+6	USA	USA	PROPN	NNP	Number=Sing	5	_	_	start_char=46|end_char=49
+7	after	after	SCONJ	IN	_	6	_	_	start_char=50|end_char=55
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=56|end_char=58
+9	met	meet	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=59|end_char=62
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=63|end_char=64
+11	yank	yank	NOUN	NN	Number=Sing	10	_	_	start_char=65|end_char=69
+12	woman	woman	NOUN	NN	Number=Sing	11	_	_	start_char=70|end_char=75|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=75|end_char=76
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=77|end_char=81
+15	hit	hit	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=82|end_char=85
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=86|end_char=88
+17	off	off	ADP	RP	_	16	_	_	start_char=89|end_char=92
+18	when	when	ADV	WRB	PronType=Int	17	_	_	start_char=93|end_char=97
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=98|end_char=100
+20	spent	spend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=101|end_char=106
+21	time	time	NOUN	NN	Number=Sing	20	_	_	start_char=107|end_char=111
+22	in	in	ADP	IN	_	21	_	_	start_char=112|end_char=114
+23	Boston	Boston	PROPN	NNP	Number=Sing	22	_	_	start_char=115|end_char=121|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=121|end_char=122
+
+# text = Been chatting via the internet after his visit.
+# sent_id = 7290
+1	Been	be	AUX	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=123|end_char=127
+2	chatting	chat	VERB	VBG	Tense=Pres|VerbForm=Part	1	_	_	start_char=128|end_char=136
+3	via	via	ADP	IN	_	2	_	_	start_char=137|end_char=140
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=141|end_char=144
+5	internet	internet	NOUN	NN	Number=Sing	4	_	_	start_char=145|end_char=153
+6	after	after	ADP	IN	_	5	_	_	start_char=154|end_char=159
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=160|end_char=163
+8	visit	visit	NOUN	NN	Number=Sing	7	_	_	start_char=164|end_char=169|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=169|end_char=170
+
+# text = He's a bit younger than me (41).
+# sent_id = 7291
+1-2	He's	_	_	_	_	_	_	_	start_char=171|end_char=175
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=171|end_char=173
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=173|end_char=175
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=176|end_char=177
+4	bit	bit	NOUN	NN	Number=Sing	3	_	_	start_char=178|end_char=181
+5	younger	young	ADJ	JJR	Degree=Cmp	4	_	_	start_char=182|end_char=189
+6	than	than	ADP	IN	_	5	_	_	start_char=190|end_char=194
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=195|end_char=197
+8	(	(	PUNCT	-LRB-	_	7	_	_	start_char=198|end_char=199|SpaceAfter=No
+9	41	41	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=199|end_char=201|SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	_	_	start_char=201|end_char=202|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=202|end_char=203
+
+# text = So, you can't say never
+# sent_id = 7292
+1	So	so	ADV	RB	_	0	_	_	start_char=204|end_char=206|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=206|end_char=207
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=208|end_char=211
+4-5	can't	_	_	_	_	_	_	_	start_char=212|end_char=217
+4	ca	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=212|end_char=214
+5	n't	not	PART	RB	_	4	_	_	start_char=214|end_char=217
+6	say	say	VERB	VB	VerbForm=Inf	5	_	_	start_char=218|end_char=221
+7	never	never	ADV	RB	_	6	_	_	start_char=222|end_char=227|SpaceAfter=No
+

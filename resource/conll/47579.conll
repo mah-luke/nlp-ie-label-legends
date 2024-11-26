@@ -1,0 +1,36 @@
+# text = Douggie boy has been at women hating since 2010 or further back.
+# sent_id = 101679
+1	Douggie	Douggie	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	boy	boy	NOUN	NN	Number=Sing	1	_	_	start_char=8|end_char=11
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=15
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=16|end_char=20
+5	at	at	ADP	IN	_	4	_	_	start_char=21|end_char=23
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=24|end_char=29
+7	hating	hate	VERB	VBG	VerbForm=Ger	6	_	_	start_char=30|end_char=36
+8	since	since	ADP	IN	_	7	_	_	start_char=37|end_char=42
+9	2010	2010	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=43|end_char=47
+10	or	or	CCONJ	CC	_	9	_	_	start_char=48|end_char=50
+11	further	further	ADV	RBR	Degree=Cmp	10	_	_	start_char=51|end_char=58
+12	back	back	ADV	RB	_	11	_	_	start_char=59|end_char=63|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=63|end_char=64
+
+# text = He/she has a blogspot site for hating women.
+# sent_id = 101680
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=65|end_char=67|SpaceAfter=No
+2	/	/	SYM	,	_	1	_	_	start_char=67|end_char=68|SpaceAfter=No
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=68|end_char=71
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=72|end_char=75
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=76|end_char=77
+6	blogspot	blogspot	NOUN	NN	Number=Sing	5	_	_	start_char=78|end_char=86
+7	site	site	NOUN	NN	Number=Sing	6	_	_	start_char=87|end_char=91
+8	for	for	SCONJ	IN	_	7	_	_	start_char=92|end_char=95
+9	hating	hate	VERB	VBG	VerbForm=Ger	8	_	_	start_char=96|end_char=102
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=103|end_char=108|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=108|end_char=109
+
+# text = [USER]
+# sent_id = 101681
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=110|end_char=111|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=111|end_char=115|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=115|end_char=116|SpaceAfter=No
+

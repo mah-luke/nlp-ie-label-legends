@@ -1,0 +1,57 @@
+# text = Frank Field MP quits party whip in Parliament.
+# sent_id = 30530
+1	Frank	Frank	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	Field	Field	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=11
+3	MP	MP	PROPN	NNP	Number=Sing	2	_	_	start_char=12|end_char=14
+4	quits	quit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=20
+5	party	party	NOUN	NN	Number=Sing	4	_	_	start_char=21|end_char=26
+6	whip	whip	NOUN	NN	Number=Sing	5	_	_	start_char=27|end_char=31
+7	in	in	ADP	IN	_	6	_	_	start_char=32|end_char=34
+8	Parliament	Parliament	PROPN	NNP	Number=Sing	7	_	_	start_char=35|end_char=45|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=45|end_char=46
+
+# text = BREXIT supporter, MP for 40 years.
+# sent_id = 30531
+1	BREXIT	Brexit	PROPN	NNP	Number=Sing	0	_	_	start_char=47|end_char=53
+2	supporter	supporter	NOUN	NN	Number=Sing	1	_	_	start_char=54|end_char=63|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=63|end_char=64
+4	MP	mp	NOUN	NN	Number=Sing	3	_	_	start_char=65|end_char=67
+5	for	for	ADP	IN	_	4	_	_	start_char=68|end_char=71
+6	40	40	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=72|end_char=74
+7	years	year	NOUN	NNS	Number=Plur	6	_	_	start_char=75|end_char=80|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=80|end_char=81
+
+# text = He is still a member of Labour but is now really an independent in Parliament.
+# sent_id = 30532
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=82|end_char=84
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=85|end_char=87
+3	still	still	ADV	RB	_	2	_	_	start_char=88|end_char=93
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=94|end_char=95
+5	member	member	NOUN	NN	Number=Sing	4	_	_	start_char=96|end_char=102
+6	of	of	ADP	IN	_	5	_	_	start_char=103|end_char=105
+7	Labour	Labour	PROPN	NNP	Number=Sing	6	_	_	start_char=106|end_char=112
+8	but	but	CCONJ	CC	_	7	_	_	start_char=113|end_char=116
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=117|end_char=119
+10	now	now	ADV	RB	_	9	_	_	start_char=120|end_char=123
+11	really	really	ADV	RB	_	10	_	_	start_char=124|end_char=130
+12	an	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=131|end_char=133
+13	independent	independent	NOUN	NN	Number=Sing	12	_	_	start_char=134|end_char=145
+14	in	in	ADP	IN	_	13	_	_	start_char=146|end_char=148
+15	Parliament	Parliament	PROPN	NNP	Number=Sing	14	_	_	start_char=149|end_char=159|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=159|end_char=160
+
+# text = Hopefully Labour is falling apart.
+# sent_id = 30533
+1	Hopefully	hopefully	ADV	RB	_	0	_	_	start_char=161|end_char=170
+2	Labour	Labour	PROPN	NNP	Number=Sing	1	_	_	start_char=171|end_char=177
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=178|end_char=180
+4	falling	fall	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=181|end_char=188
+5	apart	apart	ADV	RB	_	4	_	_	start_char=189|end_char=194|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=194|end_char=195
+
+# text = [URL]
+# sent_id = 30534
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=196|end_char=197|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=197|end_char=200|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=200|end_char=201|SpaceAfter=No
+

@@ -1,0 +1,39 @@
+# text = Some time ago I was talking to a girl and it went well.
+# sent_id = 125223
+1	Some	some	DET	DT	_	0	_	_	start_char=0|end_char=4
+2	time	time	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9
+3	ago	ago	ADV	RB	_	2	_	_	start_char=10|end_char=13
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=14|end_char=15
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=16|end_char=19
+6	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=20|end_char=27
+7	to	to	ADP	IN	_	6	_	_	start_char=28|end_char=30
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=31|end_char=32
+9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=37
+10	and	and	CCONJ	CC	_	9	_	_	start_char=38|end_char=41
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=42|end_char=44
+12	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=45|end_char=49
+13	well	well	ADV	RB	Degree=Pos	12	_	_	start_char=50|end_char=54|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=54|end_char=55
+
+# text = She was talking about her hoe phase and I instantly ghosted her.
+# sent_id = 125224
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=56|end_char=59
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=60|end_char=63
+3	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=64|end_char=71
+4	about	about	ADP	IN	_	3	_	_	start_char=72|end_char=77
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=78|end_char=81
+6	hoe	hoe	NOUN	NN	Number=Sing	5	_	_	start_char=82|end_char=85
+7	phase	phase	NOUN	NN	Number=Sing	6	_	_	start_char=86|end_char=91
+8	and	and	CCONJ	CC	_	7	_	_	start_char=92|end_char=95
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=96|end_char=97
+10	instantly	instantly	ADV	RB	_	9	_	_	start_char=98|end_char=107
+11	ghosted	ghost	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	_	_	start_char=108|end_char=115
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=116|end_char=119|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=119|end_char=120
+
+# text = Fuck that.
+# sent_id = 125225
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=121|end_char=125
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=126|end_char=130|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=130|end_char=131|SpaceAfter=No
+

@@ -1,0 +1,27 @@
+# text = My uncle sent a picture of his cock to my phone.
+# sent_id = 49096
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	uncle	uncle	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=8
+3	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=9|end_char=13
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=14|end_char=15
+5	picture	picture	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=23
+6	of	of	ADP	IN	_	5	_	_	start_char=24|end_char=26
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=27|end_char=30
+8	cock	cock	NOUN	NN	Number=Sing	7	_	_	start_char=31|end_char=35
+9	to	to	ADP	IN	_	8	_	_	start_char=36|end_char=38
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=39|end_char=41
+11	phone	phone	NOUN	NN	Number=Sing	10	_	_	start_char=42|end_char=47|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=47|end_char=48
+
+# text = I feel like I've been molexted.
+# sent_id = 49097
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=49|end_char=50
+2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=55
+3	like	like	SCONJ	IN	_	2	_	_	start_char=56|end_char=60
+4-5	I've	_	_	_	_	_	_	_	start_char=61|end_char=65
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=61|end_char=62
+5	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=62|end_char=65
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=66|end_char=70
+7	molexted	molext	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=71|end_char=79|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=79|end_char=80|SpaceAfter=No
+

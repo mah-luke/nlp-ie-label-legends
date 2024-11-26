@@ -1,0 +1,39 @@
+# text = It’s your duty FORD TO REPORT IT TO POLICE .
+# sent_id = 27619
+1-2	It’s	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=5|end_char=9
+4	duty	duty	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=14
+5	FORD	FORD	PROPN	NNP	Number=Sing	4	_	_	start_char=15|end_char=19
+6	TO	to	PART	TO	_	5	_	_	start_char=20|end_char=22
+7	REPORT	report	VERB	VB	VerbForm=Inf	6	_	_	start_char=23|end_char=29
+8	IT	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=30|end_char=32
+9	TO	to	PART	TO	_	8	_	_	start_char=33|end_char=35
+10	POLICE	police	NOUN	NN	Number=Sing	9	_	_	start_char=36|end_char=42
+11	.	.	PUNCT	.	_	10	_	_	start_char=43|end_char=44
+
+# text = As a female my first duty is to myself and second to make sure no other woman gets sexually assaults!
+# sent_id = 27620
+1	As	as	ADP	IN	_	0	_	_	start_char=45|end_char=47
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=48|end_char=49
+3	female	female	NOUN	NN	Number=Sing	2	_	_	start_char=50|end_char=56
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=57|end_char=59
+5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	_	_	start_char=60|end_char=65
+6	duty	duty	NOUN	NN	Number=Sing	5	_	_	start_char=66|end_char=70
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=71|end_char=73
+8	to	to	ADP	IN	_	7	_	_	start_char=74|end_char=76
+9	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	8	_	_	start_char=77|end_char=83
+10	and	and	CCONJ	CC	_	9	_	_	start_char=84|end_char=87
+11	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	10	_	_	start_char=88|end_char=94
+12	to	to	PART	TO	_	11	_	_	start_char=95|end_char=97
+13	make	make	VERB	VB	VerbForm=Inf	12	_	_	start_char=98|end_char=102
+14	sure	sure	ADJ	JJ	Degree=Pos	13	_	_	start_char=103|end_char=107
+15	no	no	DET	DT	_	14	_	_	start_char=108|end_char=110
+16	other	other	ADJ	JJ	Degree=Pos	15	_	_	start_char=111|end_char=116
+17	woman	woman	NOUN	NN	Number=Sing	16	_	_	start_char=117|end_char=122
+18	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=123|end_char=127
+19	sexually	sexually	ADV	RB	_	18	_	_	start_char=128|end_char=136
+20	assaults	assault	NOUN	NNS	Number=Plur	19	_	_	start_char=137|end_char=145|SpaceAfter=No
+21	!	!	PUNCT	.	_	20	_	_	start_char=145|end_char=146|SpaceAfter=No
+

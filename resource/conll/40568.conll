@@ -1,0 +1,33 @@
+# text = Legally, it'd be wrong to kill the ones who did this to the poor girl.
+# sent_id = 86788
+1	Legally	legally	ADV	RB	_	0	_	_	start_char=0|end_char=7|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=7|end_char=8
+3-4	it'd	_	_	_	_	_	_	_	start_char=9|end_char=13
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=11
+4	'd	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=14|end_char=16
+6	wrong	wrong	ADJ	JJ	Degree=Pos	5	_	_	start_char=17|end_char=22
+7	to	to	PART	TO	_	6	_	_	start_char=23|end_char=25
+8	kill	kill	VERB	VB	VerbForm=Inf	7	_	_	start_char=26|end_char=30
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=31|end_char=34
+10	ones	one	NOUN	NNS	Number=Plur	9	_	_	start_char=35|end_char=39
+11	who	who	PRON	WP	PronType=Rel	10	_	_	start_char=40|end_char=43
+12	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=44|end_char=47
+13	this	this	PRON	DT	Number=Sing|PronType=Dem	12	_	_	start_char=48|end_char=52
+14	to	to	ADP	IN	_	13	_	_	start_char=53|end_char=55
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=56|end_char=59
+16	poor	poor	ADJ	JJ	Degree=Pos	15	_	_	start_char=60|end_char=64
+17	girl	girl	NOUN	NN	Number=Sing	16	_	_	start_char=65|end_char=69|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=69|end_char=70
+
+# text = Morally, I believe they deserve death.
+# sent_id = 86789
+1	Morally	morally	ADV	RB	_	0	_	_	start_char=71|end_char=78|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=78|end_char=79
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=80|end_char=81
+4	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=82|end_char=89
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=90|end_char=94
+6	deserve	deserve	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=95|end_char=102
+7	death	death	NOUN	NN	Number=Sing	6	_	_	start_char=103|end_char=108|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=108|end_char=109|SpaceAfter=No
+

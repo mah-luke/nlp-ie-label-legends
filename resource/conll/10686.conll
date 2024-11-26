@@ -1,0 +1,44 @@
+# text = Every feminist should be behind this 100%.
+# sent_id = 22602
+1	Every	every	DET	DT	_	0	_	_	start_char=0|end_char=5
+2	feminist	feminist	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=14
+3	should	should	AUX	MD	VerbForm=Fin	2	_	_	start_char=15|end_char=21
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=22|end_char=24
+5	behind	behind	ADP	IN	_	4	_	_	start_char=25|end_char=31
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=32|end_char=36
+7	100	100	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=37|end_char=40|SpaceAfter=No
+8	%	%	SYM	NN	Number=Sing	7	_	_	start_char=40|end_char=41|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=41|end_char=42
+
+# text = "Gender is just a social construct."
+# sent_id = 22603
+1	"	"	PUNCT	``	_	0	_	_	start_char=43|end_char=44|SpaceAfter=No
+2	Gender	gender	NOUN	NN	Number=Sing	1	_	_	start_char=44|end_char=50
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=51|end_char=53
+4	just	just	ADV	RB	_	3	_	_	start_char=54|end_char=58
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=59|end_char=60
+6	social	social	ADJ	JJ	Degree=Pos	5	_	_	start_char=61|end_char=67
+7	construct	construct	NOUN	NN	Number=Sing	6	_	_	start_char=68|end_char=77|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=77|end_char=78|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=78|end_char=79
+
+# text = "I am woman hear me roar."
+# sent_id = 22604
+1	"	"	PUNCT	``	_	0	_	_	start_char=80|end_char=81|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=81|end_char=82
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=83|end_char=85
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=86|end_char=91
+5	hear	hear	VERB	VB	VerbForm=Inf	4	_	_	start_char=92|end_char=96
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=97|end_char=99
+7	roar	roar	NOUN	NN	Number=Sing	6	_	_	start_char=100|end_char=104|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=104|end_char=105|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=105|end_char=106
+
+# text = #News [URL]
+# sent_id = 22605
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=107|end_char=108|SpaceAfter=No
+2	News	news	NOUN	NN	Number=Sing	1	_	_	start_char=108|end_char=112
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=113|end_char=114|SpaceAfter=No
+4	URL	URL	NOUN	NN	Number=Sing	3	_	_	start_char=114|end_char=117|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=117|end_char=118|SpaceAfter=No
+

@@ -1,0 +1,46 @@
+# text = I am a 17yo.
+# sent_id = 6018
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=5|end_char=6
+4	17yo	17yo	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=11|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=11|end_char=12
+
+# text = This is how it is perceived by us.
+# sent_id = 6019
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=13|end_char=17
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=18|end_char=20
+3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=21|end_char=24
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=25|end_char=27
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=28|end_char=30
+6	perceived	perceive	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=31|end_char=40
+7	by	by	ADP	IN	_	6	_	_	start_char=41|end_char=43
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	_	_	start_char=44|end_char=46|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=46|end_char=47
+
+# text = 18-19 Senior girl dating college boy OK Senior girl dating post college working man -> creepy man, whore girl.
+# sent_id = 6020
+1	18	18	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=48|end_char=50|SpaceAfter=No
+2	-	-	PUNCT	:	_	1	_	_	start_char=50|end_char=51|SpaceAfter=No
+3	19	19	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=51|end_char=53
+4	Senior	senior	ADJ	JJ	Degree=Pos	3	_	_	start_char=54|end_char=60
+5	girl	girl	NOUN	NN	Number=Sing	4	_	_	start_char=61|end_char=65
+6	dating	dating	NOUN	NN	Number=Sing	5	_	_	start_char=66|end_char=72
+7	college	college	NOUN	NN	Number=Sing	6	_	_	start_char=73|end_char=80
+8	boy	boy	NOUN	NN	Number=Sing	7	_	_	start_char=81|end_char=84
+9	OK	ok	ADJ	JJ	Degree=Pos	8	_	_	start_char=85|end_char=87
+10	Senior	senior	ADJ	JJ	Degree=Pos	9	_	_	start_char=88|end_char=94
+11	girl	girl	NOUN	NN	Number=Sing	10	_	_	start_char=95|end_char=99
+12	dating	dating	NOUN	NN	Number=Sing	11	_	_	start_char=100|end_char=106
+13	post	post	NOUN	NN	Number=Sing	12	_	_	start_char=107|end_char=111
+14	college	college	NOUN	NN	Number=Sing	13	_	_	start_char=112|end_char=119
+15	working	working	NOUN	NN	Number=Sing	14	_	_	start_char=120|end_char=127
+16	man	man	NOUN	NN	Number=Sing	15	_	_	start_char=128|end_char=131
+17	->	->	SYM	SYM	_	16	_	_	start_char=132|end_char=134
+18	creepy	creepy	ADJ	JJ	Degree=Pos	17	_	_	start_char=135|end_char=141
+19	man	man	NOUN	NN	Number=Sing	18	_	_	start_char=142|end_char=145|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=145|end_char=146
+21	whore	whore	NOUN	NN	Number=Sing	20	_	_	start_char=147|end_char=152
+22	girl	girl	NOUN	NN	Number=Sing	21	_	_	start_char=153|end_char=157|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=157|end_char=158|SpaceAfter=No
+

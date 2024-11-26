@@ -1,0 +1,35 @@
+# text = Ya if I was her I'd say fuck that guy.
+# sent_id = 13309
+1	Ya	you	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	if	if	SCONJ	IN	_	1	_	_	start_char=3|end_char=5
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=8|end_char=11
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=12|end_char=15
+6-7	I'd	_	_	_	_	_	_	_	start_char=16|end_char=19
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=16|end_char=17
+7	'd	would	AUX	MD	VerbForm=Fin	6	_	_	start_char=17|end_char=19
+8	say	say	VERB	VB	VerbForm=Inf	7	_	_	start_char=20|end_char=23
+9	fuck	fuck	VERB	VB	VerbForm=Inf	8	_	_	start_char=24|end_char=28
+10	that	that	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=29|end_char=33
+11	guy	guy	NOUN	NN	Number=Sing	10	_	_	start_char=34|end_char=37|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=37|end_char=38
+
+# text = Annnd she got fake boobs, she's going for the big leagues now.
+# sent_id = 13310
+1	Annnd	Annnd	PROPN	NNP	Number=Sing	0	_	_	start_char=39|end_char=44
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=45|end_char=48
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=49|end_char=52
+4	fake	fake	ADJ	JJ	Degree=Pos	3	_	_	start_char=53|end_char=57
+5	boobs	boob	NOUN	NNS	Number=Plur	4	_	_	start_char=58|end_char=63|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=63|end_char=64
+7-8	she's	_	_	_	_	_	_	_	start_char=65|end_char=70
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=65|end_char=68
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=68|end_char=70
+9	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=71|end_char=76
+10	for	for	ADP	IN	_	9	_	_	start_char=77|end_char=80
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=81|end_char=84
+12	big	big	ADJ	JJ	Degree=Pos	11	_	_	start_char=85|end_char=88
+13	leagues	league	NOUN	NNS	Number=Plur	12	_	_	start_char=89|end_char=96
+14	now	now	ADV	RB	_	13	_	_	start_char=97|end_char=100|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=100|end_char=101|SpaceAfter=No
+

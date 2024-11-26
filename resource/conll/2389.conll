@@ -1,0 +1,52 @@
+# text = Then I could finally be betabux for a 4/10 female.
+# sent_id = 5089
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=0|end_char=4
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=5|end_char=6
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=7|end_char=12
+4	finally	finally	ADV	RB	_	3	_	_	start_char=13|end_char=20
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=21|end_char=23
+6	betabux	betabux	ADJ	JJ	Degree=Pos	5	_	_	start_char=24|end_char=31
+7	for	for	ADP	IN	_	6	_	_	start_char=32|end_char=35
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=36|end_char=37
+9	4	4	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=38|end_char=39|SpaceAfter=No
+10	/	/	PUNCT	HYPH	_	9	_	_	start_char=39|end_char=40|SpaceAfter=No
+11	10	10	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=40|end_char=42
+12	female	female	NOUN	NN	Number=Sing	11	_	_	start_char=43|end_char=49|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=49|end_char=50
+
+# text = Nah JK
+# sent_id = 5090
+1	Nah	nah	INTJ	UH	_	0	_	_	start_char=51|end_char=54
+2	JK	JK	PROPN	NNP	Number=Sing	1	_	_	start_char=55|end_char=57
+
+# text = I would start slaying all day every day.
+# sent_id = 5091
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=58|end_char=59
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=60|end_char=65
+3	start	start	VERB	VB	VerbForm=Inf	2	_	_	start_char=66|end_char=71
+4	slaying	slay	VERB	VBG	VerbForm=Ger	3	_	_	start_char=72|end_char=79
+5	all	all	DET	DT	_	4	_	_	start_char=80|end_char=83
+6	day	day	NOUN	NN	Number=Sing	5	_	_	start_char=84|end_char=87
+7	every	every	DET	DT	PronType=Tot	6	_	_	start_char=88|end_char=93
+8	day	day	NOUN	NN	Number=Sing	7	_	_	start_char=94|end_char=97|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=97|end_char=98
+
+# text = I would literally do nothing but fuck women and collect my modeling money all day.
+# sent_id = 5092
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=99|end_char=100
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=101|end_char=106
+3	literally	literally	ADV	RB	_	2	_	_	start_char=107|end_char=116
+4	do	do	VERB	VB	VerbForm=Inf	3	_	_	start_char=117|end_char=119
+5	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	4	_	_	start_char=120|end_char=127
+6	but	but	CCONJ	CC	_	5	_	_	start_char=128|end_char=131
+7	fuck	fuck	VERB	VB	VerbForm=Inf	6	_	_	start_char=132|end_char=136
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=137|end_char=142
+9	and	and	CCONJ	CC	_	8	_	_	start_char=143|end_char=146
+10	collect	collect	VERB	VB	VerbForm=Inf	9	_	_	start_char=147|end_char=154
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=155|end_char=157
+12	modeling	modeling	NOUN	NN	Number=Sing	11	_	_	start_char=158|end_char=166
+13	money	money	NOUN	NN	Number=Sing	12	_	_	start_char=167|end_char=172
+14	all	all	DET	DT	_	13	_	_	start_char=173|end_char=176
+15	day	day	NOUN	NN	Number=Sing	14	_	_	start_char=177|end_char=180|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=180|end_char=181|SpaceAfter=No
+

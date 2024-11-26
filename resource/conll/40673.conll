@@ -1,0 +1,51 @@
+# text = So, you have that fat white chick with Muslim dude thing going on over there, too?
+# sent_id = 87039
+1	So	so	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	_	_	start_char=4|end_char=7
+4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=12
+5	that	that	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=13|end_char=17
+6	fat	fat	ADJ	JJ	Degree=Pos	5	_	_	start_char=18|end_char=21
+7	white	white	ADJ	JJ	Degree=Pos	6	_	_	start_char=22|end_char=27
+8	chick	chick	NOUN	NN	Number=Sing	7	_	_	start_char=28|end_char=33
+9	with	with	ADP	IN	_	8	_	_	start_char=34|end_char=38
+10	Muslim	Muslim	ADJ	JJ	Degree=Pos	9	_	_	start_char=39|end_char=45
+11	dude	dude	NOUN	NN	Number=Sing	10	_	_	start_char=46|end_char=50
+12	thing	thing	NOUN	NN	Number=Sing	11	_	_	start_char=51|end_char=56
+13	going	go	VERB	VBG	VerbForm=Ger	12	_	_	start_char=57|end_char=62
+14	on	on	ADP	RP	_	13	_	_	start_char=63|end_char=65
+15	over	over	ADP	IN	_	14	_	_	start_char=66|end_char=70
+16	there	there	ADV	RB	PronType=Dem	15	_	_	start_char=71|end_char=76|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=76|end_char=77
+18	too	too	ADV	RB	_	17	_	_	start_char=78|end_char=81|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=81|end_char=82
+
+# text = It's never black, Hispanic, or Asian (except Indonesian) women.
+# sent_id = 87040
+1-2	It's	_	_	_	_	_	_	_	start_char=83|end_char=87
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=83|end_char=85
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=85|end_char=87
+3	never	never	ADV	RB	_	2	_	_	start_char=88|end_char=93
+4	black	black	ADJ	JJ	Degree=Pos	3	_	_	start_char=94|end_char=99|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=99|end_char=100
+6	Hispanic	Hispanic	ADJ	JJ	Degree=Pos	5	_	_	start_char=101|end_char=109|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=109|end_char=110
+8	or	or	CCONJ	CC	_	7	_	_	start_char=111|end_char=113
+9	Asian	Asian	ADJ	JJ	Degree=Pos	8	_	_	start_char=114|end_char=119
+10	(	(	PUNCT	-LRB-	_	9	_	_	start_char=120|end_char=121|SpaceAfter=No
+11	except	except	ADP	IN	_	10	_	_	start_char=121|end_char=127
+12	Indonesian	Indonesian	ADJ	JJ	Degree=Pos	11	_	_	start_char=128|end_char=138|SpaceAfter=No
+13	)	)	PUNCT	-RRB-	_	12	_	_	start_char=138|end_char=139
+14	women	woman	NOUN	NNS	Number=Plur	13	_	_	start_char=140|end_char=145|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=145|end_char=146
+
+# text = What's that all about?
+# sent_id = 87041
+1-2	What's	_	_	_	_	_	_	_	start_char=147|end_char=153
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=147|end_char=151
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=151|end_char=153
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=154|end_char=158
+4	all	all	ADV	RB	_	3	_	_	start_char=159|end_char=162
+5	about	about	ADP	IN	_	4	_	_	start_char=163|end_char=168|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=168|end_char=169|SpaceAfter=No
+

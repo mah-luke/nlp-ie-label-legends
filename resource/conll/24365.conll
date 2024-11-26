@@ -1,0 +1,38 @@
+# text = [USER]:
+# sent_id = 52234
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=6|end_char=7
+
+# text = This baby’s reaction to seeing his mother clearly for the first time will make your heart skip a beat: [URL] [URL]
+# sent_id = 52235
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=8|end_char=12
+2-3	baby’s	_	_	_	_	_	_	_	start_char=13|end_char=19
+2	baby	baby	NOUN	NN	Number=Sing	1	_	_	start_char=13|end_char=17
+3	’s	's	PART	POS	_	2	_	_	start_char=17|end_char=19
+4	reaction	reaction	NOUN	NN	Number=Sing	3	_	_	start_char=20|end_char=28
+5	to	to	SCONJ	IN	_	4	_	_	start_char=29|end_char=31
+6	seeing	see	VERB	VBG	VerbForm=Ger	5	_	_	start_char=32|end_char=38
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=39|end_char=42
+8	mother	mother	NOUN	NN	Number=Sing	7	_	_	start_char=43|end_char=49
+9	clearly	clearly	ADV	RB	_	8	_	_	start_char=50|end_char=57
+10	for	for	ADP	IN	_	9	_	_	start_char=58|end_char=61
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=62|end_char=65
+12	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	11	_	_	start_char=66|end_char=71
+13	time	time	NOUN	NN	Number=Sing	12	_	_	start_char=72|end_char=76
+14	will	will	AUX	MD	VerbForm=Fin	13	_	_	start_char=77|end_char=81
+15	make	make	VERB	VB	VerbForm=Inf	14	_	_	start_char=82|end_char=86
+16	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	15	_	_	start_char=87|end_char=91
+17	heart	heart	NOUN	NN	Number=Sing	16	_	_	start_char=92|end_char=97
+18	skip	skip	VERB	VB	VerbForm=Inf	17	_	_	start_char=98|end_char=102
+19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=103|end_char=104
+20	beat	beat	NOUN	NN	Number=Sing	19	_	_	start_char=105|end_char=109|SpaceAfter=No
+21	:	:	PUNCT	:	_	20	_	_	start_char=109|end_char=110
+22	[	[	PUNCT	-LRB-	_	21	_	_	start_char=111|end_char=112|SpaceAfter=No
+23	URL	URL	PROPN	NNP	Number=Sing	22	_	_	start_char=112|end_char=115|SpaceAfter=No
+24	]	]	PUNCT	-RRB-	_	23	_	_	start_char=115|end_char=116
+25	[	[	PUNCT	-LRB-	_	24	_	_	start_char=117|end_char=118|SpaceAfter=No
+26	URL	URL	PROPN	NNP	Number=Sing	25	_	_	start_char=118|end_char=121|SpaceAfter=No
+27	]	]	PUNCT	-RRB-	_	26	_	_	start_char=121|end_char=122|SpaceAfter=No
+

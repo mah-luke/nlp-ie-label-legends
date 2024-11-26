@@ -1,0 +1,66 @@
+# text = You just had to post that!
+# sent_id = 83199
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	just	just	ADV	RB	_	1	_	_	start_char=4|end_char=8
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	_	_	start_char=9|end_char=12
+4	to	to	PART	TO	_	3	_	_	start_char=13|end_char=15
+5	post	post	VERB	VB	VerbForm=Inf	4	_	_	start_char=16|end_char=20
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=21|end_char=25|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=25|end_char=26
+
+# text = Gorgeous woman.
+# sent_id = 83200
+1	Gorgeous	Gorgeous	ADJ	JJ	Degree=Pos	0	_	_	start_char=27|end_char=35
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=36|end_char=41|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=41|end_char=42
+
+# text = Ive heard that she's a sweetheart in the real world.
+# sent_id = 83201
+1-2	Ive	_	_	_	_	_	_	_	start_char=43|end_char=46
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=43|end_char=44
+2	ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=44|end_char=46
+3	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=47|end_char=52
+4	that	that	SCONJ	IN	_	3	_	_	start_char=53|end_char=57
+5-6	she's	_	_	_	_	_	_	_	start_char=58|end_char=63
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=58|end_char=61
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=61|end_char=63
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=64|end_char=65
+8	sweetheart	sweetheart	NOUN	NN	Number=Sing	7	_	_	start_char=66|end_char=76
+9	in	in	ADP	IN	_	8	_	_	start_char=77|end_char=79
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=80|end_char=83
+11	real	real	ADJ	JJ	Degree=Pos	10	_	_	start_char=84|end_char=88
+12	world	world	NOUN	NN	Number=Sing	11	_	_	start_char=89|end_char=94|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=94|end_char=95
+
+# text = Damn, I'm all fired up now.
+# sent_id = 83202
+1	Damn	damn	INTJ	UH	_	0	_	_	start_char=96|end_char=100|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=100|end_char=101
+3-4	I'm	_	_	_	_	_	_	_	start_char=102|end_char=105
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=102|end_char=103
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=103|end_char=105
+5	all	all	ADV	RB	_	4	_	_	start_char=106|end_char=109
+6	fired	fire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=110|end_char=115
+7	up	up	ADP	RP	_	6	_	_	start_char=116|end_char=118
+8	now	now	ADV	RB	_	7	_	_	start_char=119|end_char=122|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=122|end_char=123
+
+# text = Hopefully the boy will go to bed early tonight and the wife home early lmao.
+# sent_id = 83203
+1	Hopefully	hopefully	ADV	RB	_	0	_	_	start_char=124|end_char=133
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=134|end_char=137
+3	boy	boy	NOUN	NN	Number=Sing	2	_	_	start_char=138|end_char=141
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=142|end_char=146
+5	go	go	VERB	VB	VerbForm=Inf	4	_	_	start_char=147|end_char=149
+6	to	to	ADP	IN	_	5	_	_	start_char=150|end_char=152
+7	bed	bed	NOUN	NN	Number=Sing	6	_	_	start_char=153|end_char=156
+8	early	early	ADV	RB	Degree=Pos	7	_	_	start_char=157|end_char=162
+9	tonight	tonight	NOUN	NN	Number=Sing	8	_	_	start_char=163|end_char=170
+10	and	and	CCONJ	CC	_	9	_	_	start_char=171|end_char=174
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=175|end_char=178
+12	wife	wife	NOUN	NN	Number=Sing	11	_	_	start_char=179|end_char=183
+13	home	home	NOUN	NN	Number=Sing	12	_	_	start_char=184|end_char=188
+14	early	early	ADJ	JJ	Degree=Pos	13	_	_	start_char=189|end_char=194
+15	lmao	lmao	NOUN	NN	Number=Sing	14	_	_	start_char=195|end_char=199|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=199|end_char=200|SpaceAfter=No
+

@@ -1,0 +1,37 @@
+# text = Fail.
+# sent_id = 65394
+1	Fail	fail	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = Try harder pedo.
+# sent_id = 65395
+1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=6|end_char=9
+2	harder	hard	ADJ	JJR	Degree=Cmp	1	_	_	start_char=10|end_char=16
+3	pedo	pedo	NOUN	NN	Number=Sing	2	_	_	start_char=17|end_char=21|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=21|end_char=22
+
+# text = Love the logic.
+# sent_id = 65396
+1	Love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	start_char=23|end_char=27
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=28|end_char=31
+3	logic	logic	NOUN	NN	Number=Sing	2	_	_	start_char=32|end_char=37|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=37|end_char=38
+
+# text = " America has hate groups, so lets bring in more hate groups" #liblogic
+# sent_id = 65397
+1	"	"	PUNCT	``	_	0	_	_	start_char=39|end_char=40
+2	America	America	PROPN	NNP	Number=Sing	1	_	_	start_char=41|end_char=48
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=49|end_char=52
+4	hate	hate	ADJ	JJ	Degree=Pos	3	_	_	start_char=53|end_char=57
+5	groups	group	NOUN	NNS	Number=Plur	4	_	_	start_char=58|end_char=64|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=64|end_char=65
+7	so	so	ADV	RB	_	6	_	_	start_char=66|end_char=68
+8	lets	let	NOUN	NNS	Number=Plur	7	_	_	start_char=69|end_char=73
+9	bring	bring	VERB	VB	VerbForm=Inf	8	_	_	start_char=74|end_char=79
+10	in	in	ADP	RP	_	9	_	_	start_char=80|end_char=82
+11	more	more	ADJ	JJR	Degree=Cmp	10	_	_	start_char=83|end_char=87
+12	hate	hate	NOUN	NN	Number=Sing	11	_	_	start_char=88|end_char=92
+13	groups	group	NOUN	NNS	Number=Plur	12	_	_	start_char=93|end_char=99|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=99|end_char=100
+15	#liblogic	#liblogic	PROPN	NNP	Number=Sing	14	_	_	start_char=101|end_char=110|SpaceAfter=No
+

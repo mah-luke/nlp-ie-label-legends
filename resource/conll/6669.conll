@@ -1,0 +1,55 @@
+# text = I do not try to hard.
+# sent_id = 13926
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	not	not	PART	RB	_	2	_	_	start_char=5|end_char=8
+4	try	try	VERB	VB	VerbForm=Inf	3	_	_	start_char=9|end_char=12
+5	to	to	PART	TO	_	4	_	_	start_char=13|end_char=15
+6	hard	hard	ADV	RB	Degree=Pos	5	_	_	start_char=16|end_char=20|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=20|end_char=21
+
+# text = I do what guys who get with girls do, according to those guys (many if my friends).
+# sent_id = 13927
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=22|end_char=23
+2	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=24|end_char=26
+3	what	what	DET	WDT	PronType=Int	2	_	_	start_char=27|end_char=31
+4	guys	guy	NOUN	NNS	Number=Plur	3	_	_	start_char=32|end_char=36
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=37|end_char=40
+6	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=41|end_char=44
+7	with	with	ADP	IN	_	6	_	_	start_char=45|end_char=49
+8	girls	girl	NOUN	NNS	Number=Plur	7	_	_	start_char=50|end_char=55
+9	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=56|end_char=58|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=58|end_char=59
+11	according	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	10	_	_	start_char=60|end_char=69
+12	to	to	ADP	IN	_	11	_	_	start_char=70|end_char=72
+13	those	that	DET	DT	Number=Plur|PronType=Dem	12	_	_	start_char=73|end_char=78
+14	guys	guy	NOUN	NNS	Number=Plur	13	_	_	start_char=79|end_char=83
+15	(	(	PUNCT	-LRB-	_	14	_	_	start_char=84|end_char=85|SpaceAfter=No
+16	many	many	ADJ	JJ	Degree=Pos	15	_	_	start_char=85|end_char=89
+17	if	if	SCONJ	IN	_	16	_	_	start_char=90|end_char=92
+18	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	_	_	start_char=93|end_char=95
+19	friends	friend	NOUN	NNS	Number=Plur	18	_	_	start_char=96|end_char=103|SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	19	_	_	start_char=103|end_char=104|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=104|end_char=105
+
+# text = I also have female friends.
+# sent_id = 13928
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=106|end_char=107
+2	also	also	ADV	RB	_	1	_	_	start_char=108|end_char=112
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=113|end_char=117
+4	female	female	ADJ	JJ	Degree=Pos	3	_	_	start_char=118|end_char=124
+5	friends	friend	NOUN	NNS	Number=Plur	4	_	_	start_char=125|end_char=132|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=132|end_char=133
+
+# text = To be Asian is to be asexual to women
+# sent_id = 13929
+1	To	to	PART	TO	_	0	_	_	start_char=134|end_char=136
+2	be	be	AUX	VB	VerbForm=Inf	1	_	_	start_char=137|end_char=139
+3	Asian	Asian	ADJ	JJ	Degree=Pos	2	_	_	start_char=140|end_char=145
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=146|end_char=148
+5	to	to	PART	TO	_	4	_	_	start_char=149|end_char=151
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=152|end_char=154
+7	asexual	asexual	ADJ	JJ	Degree=Pos	6	_	_	start_char=155|end_char=162
+8	to	to	ADP	IN	_	7	_	_	start_char=163|end_char=165
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=166|end_char=171|SpaceAfter=No
+

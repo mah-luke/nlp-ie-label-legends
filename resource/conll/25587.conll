@@ -1,0 +1,26 @@
+# text = maybe Germany too.
+# sent_id = 54849
+1	maybe	maybe	ADV	RB	_	0	_	_	start_char=0|end_char=5
+2	Germany	Germany	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=13
+3	too	too	ADV	RB	_	2	_	_	start_char=14|end_char=17|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=17|end_char=18
+
+# text = Merkel is not on top in the polls....defeat her make Germany good again.....
+# sent_id = 54850
+1	Merkel	Merkel	PROPN	NNP	Number=Sing	0	_	_	start_char=19|end_char=25
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=26|end_char=28
+3	not	not	PART	RB	_	2	_	_	start_char=29|end_char=32
+4	on	on	ADP	IN	_	3	_	_	start_char=33|end_char=35
+5	top	top	NOUN	NN	Number=Sing	4	_	_	start_char=36|end_char=39
+6	in	in	ADP	IN	_	5	_	_	start_char=40|end_char=42
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=43|end_char=46
+8	polls	poll	NOUN	NNS	Number=Plur	7	_	_	start_char=47|end_char=52|SpaceAfter=No
+9	....	....	PUNCT	,	_	8	_	_	start_char=52|end_char=56|SpaceAfter=No
+10	defeat	defeat	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=56|end_char=62
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=63|end_char=66
+12	make	make	VERB	VB	VerbForm=Inf	11	_	_	start_char=67|end_char=71
+13	Germany	Germany	PROPN	NNP	Number=Sing	12	_	_	start_char=72|end_char=79
+14	good	good	ADJ	JJ	Degree=Pos	13	_	_	start_char=80|end_char=84
+15	again	again	ADV	RB	_	14	_	_	start_char=85|end_char=90|SpaceAfter=No
+16	.....	.....	PUNCT	.	_	15	_	_	start_char=90|end_char=95|SpaceAfter=No
+

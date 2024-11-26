@@ -1,0 +1,37 @@
+# text = No, I would not be but TY.
+# sent_id = 59676
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=4|end_char=5
+4	would	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=6|end_char=11
+5	not	not	PART	RB	_	4	_	_	start_char=12|end_char=15
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=16|end_char=18
+7	but	but	ADP	IN	_	6	_	_	start_char=19|end_char=22
+8	TY	ty	NOUN	NN	Number=Sing	7	_	_	start_char=23|end_char=25|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=25|end_char=26
+
+# text = I am female.
+# sent_id = 59677
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=27|end_char=28
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=29|end_char=31
+3	female	female	ADJ	JJ	Degree=Pos	2	_	_	start_char=32|end_char=38|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=38|end_char=39
+
+# text = I am absolutely aware of my limitations and I’m ok with that 👌
+# sent_id = 59678
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=40|end_char=41
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=44
+3	absolutely	absolutely	ADV	RB	_	2	_	_	start_char=45|end_char=55
+4	aware	aware	ADJ	JJ	Degree=Pos	3	_	_	start_char=56|end_char=61
+5	of	of	ADP	IN	_	4	_	_	start_char=62|end_char=64
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=65|end_char=67
+7	limitations	limitation	NOUN	NNS	Number=Plur	6	_	_	start_char=68|end_char=79
+8	and	and	CCONJ	CC	_	7	_	_	start_char=80|end_char=83
+9-10	I’m	_	_	_	_	_	_	_	start_char=84|end_char=87
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=84|end_char=85
+10	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=85|end_char=87
+11	ok	ok	ADJ	JJ	Degree=Pos	10	_	_	start_char=88|end_char=90
+12	with	with	ADP	IN	_	11	_	_	start_char=91|end_char=95
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	12	_	_	start_char=96|end_char=100
+14	👌	👌	PUNCT	.	_	13	_	_	start_char=101|end_char=102|SpaceAfter=No
+

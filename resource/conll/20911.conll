@@ -1,0 +1,53 @@
+# text = 1. "You really suck *insert long pause*..."
+# sent_id = 44888
+1	1.	1.	X	LS	_	0	_	_	start_char=0|end_char=2
+2	"	"	PUNCT	``	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
+3	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=4|end_char=7
+4	really	really	ADV	RB	_	3	_	_	start_char=8|end_char=14
+5	suck	suck	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=15|end_char=19
+6	*	*	PUNCT	NFP	_	5	_	_	start_char=20|end_char=21|SpaceAfter=No
+7	insert	insert	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=21|end_char=27
+8	long	long	ADJ	JJ	Degree=Pos	7	_	_	start_char=28|end_char=32
+9	pause	pause	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=38|SpaceAfter=No
+10	*...	*...	PUNCT	.	_	9	_	_	start_char=38|end_char=42|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=42|end_char=43
+
+# text = 2. Judge response 3. Exit set/Close set Play the game with the ball in her court if you want to gauge interest Play with the ball in your court to create interest
+# sent_id = 44889
+1	2	2	NUM	LS	_	0	_	_	start_char=44|end_char=45|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=45|end_char=46
+3	Judge	judge	NOUN	NN	Number=Sing	2	_	_	start_char=47|end_char=52
+4	response	response	NOUN	NN	Number=Sing	3	_	_	start_char=53|end_char=61
+5	3	3	NUM	LS	_	4	_	_	start_char=62|end_char=63|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=63|end_char=64
+7	Exit	exit	NOUN	NN	Number=Sing	6	_	_	start_char=65|end_char=69
+8	set	set	NOUN	NN	Number=Sing	7	_	_	start_char=70|end_char=73|SpaceAfter=No
+9	/	/	SYM	,	_	8	_	_	start_char=73|end_char=74|SpaceAfter=No
+10	Close	close	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=74|end_char=79
+11	set	set	NOUN	NN	Number=Sing	10	_	_	start_char=80|end_char=83
+12	Play	play	VERB	VB	Mood=Imp|VerbForm=Fin	11	_	_	start_char=84|end_char=88
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=89|end_char=92
+14	game	game	NOUN	NN	Number=Sing	13	_	_	start_char=93|end_char=97
+15	with	with	ADP	IN	_	14	_	_	start_char=98|end_char=102
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=103|end_char=106
+17	ball	ball	NOUN	NN	Number=Sing	16	_	_	start_char=107|end_char=111
+18	in	in	ADP	IN	_	17	_	_	start_char=112|end_char=114
+19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=115|end_char=118
+20	court	court	NOUN	NN	Number=Sing	19	_	_	start_char=119|end_char=124
+21	if	if	SCONJ	IN	_	20	_	_	start_char=125|end_char=127
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	_	_	start_char=128|end_char=131
+23	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	_	_	start_char=132|end_char=136
+24	to	to	PART	TO	_	23	_	_	start_char=137|end_char=139
+25	gauge	gauge	VERB	VB	VerbForm=Inf	24	_	_	start_char=140|end_char=145
+26	interest	interest	NOUN	NN	Number=Sing	25	_	_	start_char=146|end_char=154
+27	Play	play	NOUN	NN	Number=Sing	26	_	_	start_char=155|end_char=159
+28	with	with	ADP	IN	_	27	_	_	start_char=160|end_char=164
+29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	start_char=165|end_char=168
+30	ball	ball	NOUN	NN	Number=Sing	29	_	_	start_char=169|end_char=173
+31	in	in	ADP	IN	_	30	_	_	start_char=174|end_char=176
+32	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	31	_	_	start_char=177|end_char=181
+33	court	court	NOUN	NN	Number=Sing	32	_	_	start_char=182|end_char=187
+34	to	to	PART	TO	_	33	_	_	start_char=188|end_char=190
+35	create	create	VERB	VB	VerbForm=Inf	34	_	_	start_char=191|end_char=197
+36	interest	interest	NOUN	NN	Number=Sing	35	_	_	start_char=198|end_char=206|SpaceAfter=No
+

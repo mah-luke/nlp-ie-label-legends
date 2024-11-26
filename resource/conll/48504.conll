@@ -1,0 +1,42 @@
+# text = Wait what?
+# sent_id = 103692
+1	Wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = Did she abandon you out in the desert to die or something??
+# sent_id = 103693
+1	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=11|end_char=14
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=15|end_char=18
+3	abandon	abandon	VERB	VB	VerbForm=Inf	2	_	_	start_char=19|end_char=26
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=27|end_char=30
+5	out	out	ADP	RP	_	4	_	_	start_char=31|end_char=34
+6	in	in	ADP	IN	_	5	_	_	start_char=35|end_char=37
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=38|end_char=41
+8	desert	desert	NOUN	NN	Number=Sing	7	_	_	start_char=42|end_char=48
+9	to	to	PART	TO	_	8	_	_	start_char=49|end_char=51
+10	die	die	VERB	VB	VerbForm=Inf	9	_	_	start_char=52|end_char=55
+11	or	or	CCONJ	CC	_	10	_	_	start_char=56|end_char=58
+12	something	something	PRON	NN	Number=Sing|PronType=Ind	11	_	_	start_char=59|end_char=68|SpaceAfter=No
+13	??	??	PUNCT	.	_	12	_	_	start_char=68|end_char=70
+
+# text = And where tf is that?
+# sent_id = 103694
+1	And	and	CCONJ	CC	_	0	_	_	start_char=71|end_char=74
+2	where	where	ADV	WRB	PronType=Int	1	_	_	start_char=75|end_char=80
+3	tf	tf	INTJ	UH	_	2	_	_	start_char=81|end_char=83
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=84|end_char=86
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=87|end_char=91|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=91|end_char=92
+
+# text = Looks like the southern Cali high desert..
+# sent_id = 103695
+1	Looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=93|end_char=98
+2	like	like	ADP	IN	_	1	_	_	start_char=99|end_char=103
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=104|end_char=107
+4	southern	southern	ADJ	JJ	Degree=Pos	3	_	_	start_char=108|end_char=116
+5	Cali	Cali	PROPN	NNP	Number=Sing	4	_	_	start_char=117|end_char=121
+6	high	high	ADJ	JJ	Degree=Pos	5	_	_	start_char=122|end_char=126
+7	desert	desert	NOUN	NN	Number=Sing	6	_	_	start_char=127|end_char=133|SpaceAfter=No
+8	..	..	PUNCT	.	_	7	_	_	start_char=133|end_char=135|SpaceAfter=No
+

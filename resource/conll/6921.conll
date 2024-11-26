@@ -1,0 +1,42 @@
+# text = Yes go have sex with her.
+# sent_id = 14463
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	have	have	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=7|end_char=11
+4	sex	sex	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=15
+5	with	with	ADP	IN	_	4	_	_	start_char=16|end_char=20
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=21|end_char=24|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=24|end_char=25
+
+# text = Who cares if you fucked a slut?
+# sent_id = 14464
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=26|end_char=29
+2	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=30|end_char=35
+3	if	if	SCONJ	IN	_	2	_	_	start_char=36|end_char=38
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=39|end_char=42
+5	fucked	fuck	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	4	_	_	start_char=43|end_char=49
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=50|end_char=51
+7	slut	slut	NOUN	NN	Number=Sing	6	_	_	start_char=52|end_char=56|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=56|end_char=57
+
+# text = The only people that care are the ones who aren't having sex in their life.
+# sent_id = 14465
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=58|end_char=61
+2	only	only	ADJ	JJ	Degree=Pos	1	_	_	start_char=62|end_char=66
+3	people	person	NOUN	NNS	Number=Plur	2	_	_	start_char=67|end_char=73
+4	that	that	PRON	WDT	PronType=Rel	3	_	_	start_char=74|end_char=78
+5	care	care	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=79|end_char=83
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=84|end_char=87
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=88|end_char=91
+8	ones	one	NOUN	NNS	Number=Plur	7	_	_	start_char=92|end_char=96
+9	who	who	PRON	WP	PronType=Rel	8	_	_	start_char=97|end_char=100
+10-11	aren't	_	_	_	_	_	_	_	start_char=101|end_char=107
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=101|end_char=104
+11	n't	not	PART	RB	_	10	_	_	start_char=104|end_char=107
+12	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=108|end_char=114
+13	sex	sex	NOUN	NN	Number=Sing	12	_	_	start_char=115|end_char=118
+14	in	in	ADP	IN	_	13	_	_	start_char=119|end_char=121
+15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=122|end_char=127
+16	life	life	NOUN	NN	Number=Sing	15	_	_	start_char=128|end_char=132|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=132|end_char=133|SpaceAfter=No
+

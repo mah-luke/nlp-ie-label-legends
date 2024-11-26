@@ -1,0 +1,58 @@
+# text = That's funny, I do the same thing with my wife.
+# sent_id = 3731
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	funny	funny	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=12|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=12|end_char=13
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=14|end_char=15
+6	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=16|end_char=18
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=19|end_char=22
+8	same	same	ADJ	JJ	Degree=Pos	7	_	_	start_char=23|end_char=27
+9	thing	thing	NOUN	NN	Number=Sing	8	_	_	start_char=28|end_char=33
+10	with	with	ADP	IN	_	9	_	_	start_char=34|end_char=38
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=39|end_char=41
+12	wife	wife	NOUN	NN	Number=Sing	11	_	_	start_char=42|end_char=46|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=46|end_char=47
+
+# text = She calls it Male Feminine hygiene dyslexia.
+# sent_id = 3732
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=48|end_char=51
+2	calls	call	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=52|end_char=57
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=58|end_char=60
+4	Male	male	ADJ	JJ	Degree=Pos	3	_	_	start_char=61|end_char=65
+5	Feminine	feminine	ADJ	JJ	Degree=Pos	4	_	_	start_char=66|end_char=74
+6	hygiene	hygiene	NOUN	NN	Number=Sing	5	_	_	start_char=75|end_char=82
+7	dyslexia	dyslexia	NOUN	NN	Number=Sing	6	_	_	start_char=83|end_char=91|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=91|end_char=92
+
+# text = I always offer to cut them down to size for her.
+# sent_id = 3733
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=93|end_char=94
+2	always	always	ADV	RB	_	1	_	_	start_char=95|end_char=101
+3	offer	offer	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=102|end_char=107
+4	to	to	PART	TO	_	3	_	_	start_char=108|end_char=110
+5	cut	cut	VERB	VB	VerbForm=Inf	4	_	_	start_char=111|end_char=114
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=115|end_char=119
+7	down	down	ADP	RP	_	6	_	_	start_char=120|end_char=124
+8	to	to	ADP	IN	_	7	_	_	start_char=125|end_char=127
+9	size	size	NOUN	NN	Number=Sing	8	_	_	start_char=128|end_char=132
+10	for	for	ADP	IN	_	9	_	_	start_char=133|end_char=136
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=137|end_char=140|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=140|end_char=141
+
+# text = One day a closet full of pads will come in handy.
+# sent_id = 3734
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=142|end_char=145
+2	day	day	NOUN	NN	Number=Sing	1	_	_	start_char=146|end_char=149
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=150|end_char=151
+4	closet	closet	NOUN	NN	Number=Sing	3	_	_	start_char=152|end_char=158
+5	full	full	ADJ	JJ	Degree=Pos	4	_	_	start_char=159|end_char=163
+6	of	of	ADP	IN	_	5	_	_	start_char=164|end_char=166
+7	pads	pad	NOUN	NNS	Number=Plur	6	_	_	start_char=167|end_char=171
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=172|end_char=176
+9	come	come	VERB	VB	VerbForm=Inf	8	_	_	start_char=177|end_char=181
+10	in	in	ADV	RB	_	9	_	_	start_char=182|end_char=184
+11	handy	handy	ADJ	JJ	Degree=Pos	10	_	_	start_char=185|end_char=190|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=190|end_char=191|SpaceAfter=No
+

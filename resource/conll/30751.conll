@@ -1,0 +1,57 @@
+# text = Totally different.
+# sent_id = 65889
+1	Totally	totally	ADV	RB	_	0	_	_	start_char=0|end_char=7
+2	different	different	ADJ	JJ	Degree=Pos	1	_	_	start_char=8|end_char=17|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=17|end_char=18
+
+# text = The liberals actually DID assault women.
+# sent_id = 65890
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=19|end_char=22
+2	liberals	liberal	NOUN	NNS	Number=Plur	1	_	_	start_char=23|end_char=31
+3	actually	actually	ADV	RB	_	2	_	_	start_char=32|end_char=40
+4	DID	did	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=41|end_char=44
+5	assault	assault	NOUN	NN	Number=Sing	4	_	_	start_char=45|end_char=52
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=53|end_char=58|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=58|end_char=59
+
+# text = Pence is saying he wouldn't be alone with a woman not because he'd rape her but because he knows lots of women are just money grubbers who will ACCUSE men of being rapists.
+# sent_id = 65891
+1	Pence	Pence	PROPN	NNP	Number=Sing	0	_	_	start_char=60|end_char=65
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=66|end_char=68
+3	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=69|end_char=75
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=76|end_char=78
+5-6	wouldn't	_	_	_	_	_	_	_	start_char=79|end_char=87
+5	would	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=79|end_char=84
+6	n't	not	PART	RB	_	5	_	_	start_char=84|end_char=87
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=88|end_char=90
+8	alone	alone	ADJ	JJ	Degree=Pos	7	_	_	start_char=91|end_char=96
+9	with	with	ADP	IN	_	8	_	_	start_char=97|end_char=101
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=102|end_char=103
+11	woman	woman	NOUN	NN	Number=Sing	10	_	_	start_char=104|end_char=109
+12	not	not	PART	RB	_	11	_	_	start_char=110|end_char=113
+13	because	because	SCONJ	IN	_	12	_	_	start_char=114|end_char=121
+14-15	he'd	_	_	_	_	_	_	_	start_char=122|end_char=126
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=122|end_char=124
+15	'd	would	AUX	MD	VerbForm=Fin	14	_	_	start_char=124|end_char=126
+16	rape	rape	VERB	VB	VerbForm=Inf	15	_	_	start_char=127|end_char=131
+17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=132|end_char=135
+18	but	but	CCONJ	CC	_	17	_	_	start_char=136|end_char=139
+19	because	because	SCONJ	IN	_	18	_	_	start_char=140|end_char=147
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=148|end_char=150
+21	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=151|end_char=156
+22	lots	lot	NOUN	NNS	Number=Plur	21	_	_	start_char=157|end_char=161
+23	of	of	ADP	IN	_	22	_	_	start_char=162|end_char=164
+24	women	woman	NOUN	NNS	Number=Plur	23	_	_	start_char=165|end_char=170
+25	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	_	_	start_char=171|end_char=174
+26	just	just	ADV	RB	_	25	_	_	start_char=175|end_char=179
+27	money	money	NOUN	NN	Number=Sing	26	_	_	start_char=180|end_char=185
+28	grubbers	grubber	NOUN	NNS	Number=Plur	27	_	_	start_char=186|end_char=194
+29	who	who	PRON	WP	PronType=Rel	28	_	_	start_char=195|end_char=198
+30	will	will	AUX	MD	VerbForm=Fin	29	_	_	start_char=199|end_char=203
+31	ACCUSE	accuse	VERB	VB	VerbForm=Inf	30	_	_	start_char=204|end_char=210
+32	men	man	NOUN	NNS	Number=Plur	31	_	_	start_char=211|end_char=214
+33	of	of	SCONJ	IN	_	32	_	_	start_char=215|end_char=217
+34	being	be	AUX	VBG	VerbForm=Ger	33	_	_	start_char=218|end_char=223
+35	rapists	rapist	NOUN	NNS	Number=Plur	34	_	_	start_char=224|end_char=231|SpaceAfter=No
+36	.	.	PUNCT	.	_	35	_	_	start_char=231|end_char=232|SpaceAfter=No
+

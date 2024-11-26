@@ -1,0 +1,60 @@
+# text = I have them too.
+# sent_id = 73350
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=7|end_char=11
+4	too	too	ADV	RB	_	3	_	_	start_char=12|end_char=15|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=15|end_char=16
+
+# text = I never realized this was a thing and I've never had a girl be anything less than enthusiastic with my dick.
+# sent_id = 73351
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=17|end_char=18
+2	never	never	ADV	RB	_	1	_	_	start_char=19|end_char=24
+3	realized	realize	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=25|end_char=33
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=34|end_char=38
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=39|end_char=42
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=43|end_char=44
+7	thing	thing	NOUN	NN	Number=Sing	6	_	_	start_char=45|end_char=50
+8	and	and	CCONJ	CC	_	7	_	_	start_char=51|end_char=54
+9-10	I've	_	_	_	_	_	_	_	start_char=55|end_char=59
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=55|end_char=56
+10	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=56|end_char=59
+11	never	never	ADV	RB	_	10	_	_	start_char=60|end_char=65
+12	had	have	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=66|end_char=69
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=70|end_char=71
+14	girl	girl	NOUN	NN	Number=Sing	13	_	_	start_char=72|end_char=76
+15	be	be	AUX	VB	VerbForm=Inf	14	_	_	start_char=77|end_char=79
+16	anything	anything	PRON	NN	Number=Sing|PronType=Ind	15	_	_	start_char=80|end_char=88
+17	less	less	ADJ	JJR	Degree=Cmp	16	_	_	start_char=89|end_char=93
+18	than	than	ADP	IN	_	17	_	_	start_char=94|end_char=98
+19	enthusiastic	enthusiastic	ADJ	JJ	Degree=Pos	18	_	_	start_char=99|end_char=111
+20	with	with	ADP	IN	_	19	_	_	start_char=112|end_char=116
+21	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	_	_	start_char=117|end_char=119
+22	dick	dick	NOUN	NN	Number=Sing	21	_	_	start_char=120|end_char=124|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=124|end_char=125
+
+# text = tl;dr: Get over it.
+# sent_id = 73352
+1	tl	tl	INTJ	UH	_	0	_	_	start_char=126|end_char=128|SpaceAfter=No
+2	;	;	PUNCT	:	_	1	_	_	start_char=128|end_char=129|SpaceAfter=No
+3	dr	dr	PROPN	NNP	Number=Sing	2	_	_	start_char=129|end_char=131|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=131|end_char=132
+5	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=133|end_char=136
+6	over	over	ADP	IN	_	5	_	_	start_char=137|end_char=141
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=142|end_char=144|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=144|end_char=145
+
+# text = You're healthy.
+# sent_id = 73353
+1-2	You're	_	_	_	_	_	_	_	start_char=146|end_char=152
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=146|end_char=149
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=149|end_char=152
+3	healthy	healthy	ADJ	JJ	Degree=Pos	2	_	_	start_char=153|end_char=160|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=160|end_char=161
+
+# text = Get laid.
+# sent_id = 73354
+1	Get	get	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=162|end_char=165
+2	laid	lay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	_	_	start_char=166|end_char=170|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=170|end_char=171|SpaceAfter=No
+

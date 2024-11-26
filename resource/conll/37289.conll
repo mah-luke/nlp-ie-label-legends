@@ -1,0 +1,54 @@
+# text = I've been with a very aggressive and abusive guy before.
+# sent_id = 79718
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=9
+4	with	with	ADP	IN	_	3	_	_	start_char=10|end_char=14
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=15|end_char=16
+6	very	very	ADV	RB	_	5	_	_	start_char=17|end_char=21
+7	aggressive	aggressive	ADJ	JJ	Degree=Pos	6	_	_	start_char=22|end_char=32
+8	and	and	CCONJ	CC	_	7	_	_	start_char=33|end_char=36
+9	abusive	abusive	ADJ	JJ	Degree=Pos	8	_	_	start_char=37|end_char=44
+10	guy	guy	NOUN	NN	Number=Sing	9	_	_	start_char=45|end_char=48
+11	before	before	ADV	RB	_	10	_	_	start_char=49|end_char=55|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=55|end_char=56
+
+# text = I *hate* people with tempers.
+# sent_id = 79719
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=57|end_char=58
+2	*	*	PUNCT	NFP	_	1	_	_	start_char=59|end_char=60|SpaceAfter=No
+3	hate*	hate*	VERB	VBP	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	2	_	_	start_char=60|end_char=65
+4	people	person	NOUN	NNS	Number=Plur	3	_	_	start_char=66|end_char=72
+5	with	with	ADP	IN	_	4	_	_	start_char=73|end_char=77
+6	tempers	temper	NOUN	NNS	Number=Plur	5	_	_	start_char=78|end_char=85|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=85|end_char=86
+
+# text = There's nothing appealing about it.
+# sent_id = 79720
+1-2	There's	_	_	_	_	_	_	_	start_char=87|end_char=94
+1	There	there	PRON	EX	_	0	_	_	start_char=87|end_char=92
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=92|end_char=94
+3	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	2	_	_	start_char=95|end_char=102
+4	appealing	appealing	ADJ	JJ	Degree=Pos	3	_	_	start_char=103|end_char=112
+5	about	about	ADP	IN	_	4	_	_	start_char=113|end_char=118
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=119|end_char=121|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=121|end_char=122
+
+# text = The guy I'm with now is docile and I love it.
+# sent_id = 79721
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=123|end_char=126
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=127|end_char=130
+3-4	I'm	_	_	_	_	_	_	_	start_char=131|end_char=134
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=131|end_char=132
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=132|end_char=134
+5	with	with	ADP	IN	_	4	_	_	start_char=135|end_char=139
+6	now	now	ADV	RB	_	5	_	_	start_char=140|end_char=143
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=144|end_char=146
+8	docile	docile	ADJ	JJ	Degree=Pos	7	_	_	start_char=147|end_char=153
+9	and	and	CCONJ	CC	_	8	_	_	start_char=154|end_char=157
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=158|end_char=159
+11	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=160|end_char=164
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=165|end_char=167|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=167|end_char=168|SpaceAfter=No
+

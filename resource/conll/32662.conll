@@ -1,0 +1,37 @@
+# text = #WWE #Roadblock They're officially John Cena-ing Charlotte.
+# sent_id = 69969
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	WWE	wwe	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=4
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=5|end_char=6|SpaceAfter=No
+4	Roadblock	roadblock	NOUN	NN	Number=Sing	3	_	_	start_char=6|end_char=15
+5-6	They're	_	_	_	_	_	_	_	start_char=16|end_char=23
+5	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=16|end_char=20
+6	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=20|end_char=23
+7	officially	officially	ADV	RB	_	6	_	_	start_char=24|end_char=34
+8	John	John	PROPN	NNP	Number=Sing	7	_	_	start_char=35|end_char=39
+9	Cena-	Cena-	PROPN	NNP	Number=Sing	8	_	_	start_char=40|end_char=45|SpaceAfter=No
+10	ing	ing	PROPN	NNP	Number=Sing	9	_	_	start_char=45|end_char=48
+11	Charlotte	Charlotte	PROPN	NNP	Number=Sing	10	_	_	start_char=49|end_char=58|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=58|end_char=59
+
+# text = Jamming her down the audience's throat until everyone hates her.
+# sent_id = 69970
+1	Jamming	jamm	VERB	VBG	VerbForm=Ger	0	_	_	start_char=60|end_char=67
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=68|end_char=71
+3	down	down	ADP	IN	_	2	_	_	start_char=72|end_char=76
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=77|end_char=80
+5-6	audience's	_	_	_	_	_	_	_	start_char=81|end_char=91
+5	audience	audience	NOUN	NN	Number=Sing	4	_	_	start_char=81|end_char=89
+6	's	's	PART	POS	_	5	_	_	start_char=89|end_char=91
+7	throat	throat	NOUN	NN	Number=Sing	6	_	_	start_char=92|end_char=98
+8	until	until	SCONJ	IN	_	7	_	_	start_char=99|end_char=104
+9	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	8	_	_	start_char=105|end_char=113
+10	hates	hate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=114|end_char=119
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=120|end_char=123|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=123|end_char=124
+
+# text = #GabFam
+# sent_id = 69971
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=125|end_char=126|SpaceAfter=No
+2	GabFam	gabfam	NOUN	NN	Number=Sing	1	_	_	start_char=126|end_char=132|SpaceAfter=No
+

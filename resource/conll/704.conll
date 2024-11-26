@@ -1,0 +1,53 @@
+# text = google it?
+# sent_id = 1481
+1	google	google	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=6
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=7|end_char=9|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = i have no idea kid.
+# sent_id = 1482
+1	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=11|end_char=12
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=13|end_char=17
+3	no	no	DET	DT	_	2	_	_	start_char=18|end_char=20
+4	idea	idea	NOUN	NN	Number=Sing	3	_	_	start_char=21|end_char=25
+5	kid	kid	NOUN	NN	Number=Sing	4	_	_	start_char=26|end_char=29|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=29|end_char=30
+
+# text = but its nice and sunny where i am but a bit to hot even for the time of year.
+# sent_id = 1483
+1	but	but	CCONJ	CC	_	0	_	_	start_char=31|end_char=34
+2-3	its	_	_	_	_	_	_	_	start_char=35|end_char=38
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=35|end_char=37
+3	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=37|end_char=38
+4	nice	nice	ADJ	JJ	Degree=Pos	3	_	_	start_char=39|end_char=43
+5	and	and	CCONJ	CC	_	4	_	_	start_char=44|end_char=47
+6	sunny	sunny	ADJ	JJ	Degree=Pos	5	_	_	start_char=48|end_char=53
+7	where	where	ADV	WRB	PronType=Rel	6	_	_	start_char=54|end_char=59
+8	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=60|end_char=61
+9	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=62|end_char=64
+10	but	but	CCONJ	CC	_	9	_	_	start_char=65|end_char=68
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=69|end_char=70
+12	bit	bit	NOUN	NN	Number=Sing	11	_	_	start_char=71|end_char=74
+13	to	to	PART	TO	_	12	_	_	start_char=75|end_char=77
+14	hot	hot	ADJ	JJ	Degree=Pos	13	_	_	start_char=78|end_char=81
+15	even	even	ADV	RB	_	14	_	_	start_char=82|end_char=86
+16	for	for	ADP	IN	_	15	_	_	start_char=87|end_char=90
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=91|end_char=94
+18	time	time	NOUN	NN	Number=Sing	17	_	_	start_char=95|end_char=99
+19	of	of	ADP	IN	_	18	_	_	start_char=100|end_char=102
+20	year	year	NOUN	NN	Number=Sing	19	_	_	start_char=103|end_char=107|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=107|end_char=108
+
+# text = now was muhammad a pedophile for fucking little girls?
+# sent_id = 1484
+1	now	now	ADV	RB	_	0	_	_	start_char=109|end_char=112
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=113|end_char=116
+3	muhammad	mushmmad	PROPN	NNP	Number=Sing	2	_	_	start_char=117|end_char=125
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=126|end_char=127
+5	pedophile	pedophile	NOUN	NN	Number=Sing	4	_	_	start_char=128|end_char=137
+6	for	for	SCONJ	IN	_	5	_	_	start_char=138|end_char=141
+7	fucking	fuck	VERB	VBG	VerbForm=Ger	6	_	_	start_char=142|end_char=149
+8	little	little	ADJ	JJ	Degree=Pos	7	_	_	start_char=150|end_char=156
+9	girls	girl	NOUN	NNS	Number=Plur	8	_	_	start_char=157|end_char=162|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=162|end_char=163|SpaceAfter=No
+

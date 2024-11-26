@@ -1,0 +1,41 @@
+# text = yes. 20xx?!!
+# sent_id = 65430
+1	yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+3	20xx	20xx	NOUN	NN	Number=Sing	2	_	_	start_char=5|end_char=9|SpaceAfter=No
+4	?!!	?!!	PUNCT	.	_	3	_	_	start_char=9|end_char=12
+
+# text = just do what makes her happy.
+# sent_id = 65431
+1	just	just	ADV	RB	_	0	_	_	start_char=13|end_char=17
+2	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=18|end_char=20
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=21|end_char=25
+4	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=26|end_char=31
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=32|end_char=35
+6	happy	happy	ADJ	JJ	Degree=Pos	5	_	_	start_char=36|end_char=41|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=41|end_char=42
+
+# text = if she doesnt notice and do the same for your end in future, you do not want her
+# sent_id = 65432
+1	if	if	SCONJ	IN	_	0	_	_	start_char=43|end_char=45
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=46|end_char=49
+3-4	doesnt	_	_	_	_	_	_	_	start_char=50|end_char=56
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=50|end_char=54
+4	nt	not	PART	RB	_	3	_	_	start_char=54|end_char=56
+5	notice	notice	VERB	VB	VerbForm=Inf	4	_	_	start_char=57|end_char=63
+6	and	and	CCONJ	CC	_	5	_	_	start_char=64|end_char=67
+7	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=68|end_char=70
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=71|end_char=74
+9	same	same	ADJ	JJ	Degree=Pos	8	_	_	start_char=75|end_char=79
+10	for	for	ADP	IN	_	9	_	_	start_char=80|end_char=83
+11	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	10	_	_	start_char=84|end_char=88
+12	end	end	NOUN	NN	Number=Sing	11	_	_	start_char=89|end_char=92
+13	in	in	ADP	IN	_	12	_	_	start_char=93|end_char=95
+14	future	future	NOUN	NN	Number=Sing	13	_	_	start_char=96|end_char=102|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=102|end_char=103
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	_	_	start_char=104|end_char=107
+17	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	_	_	start_char=108|end_char=110
+18	not	not	PART	RB	_	17	_	_	start_char=111|end_char=114
+19	want	want	VERB	VB	VerbForm=Inf	18	_	_	start_char=115|end_char=119
+20	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=120|end_char=123|SpaceAfter=No
+

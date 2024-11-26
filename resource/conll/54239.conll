@@ -1,0 +1,38 @@
+# text = What on earth did Lisa Page see in this pathological pos?
+# sent_id = 115956
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	on	on	ADP	IN	_	1	_	_	start_char=5|end_char=7
+3	earth	earth	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=13
+4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=14|end_char=17
+5	Lisa	Lisa	PROPN	NNP	Number=Sing	4	_	_	start_char=18|end_char=22
+6	Page	Page	PROPN	NNP	Number=Sing	5	_	_	start_char=23|end_char=27
+7	see	see	VERB	VB	VerbForm=Inf	6	_	_	start_char=28|end_char=31
+8	in	in	ADP	IN	_	7	_	_	start_char=32|end_char=34
+9	this	this	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=35|end_char=39
+10	pathological	pathological	ADJ	JJ	Degree=Pos	9	_	_	start_char=40|end_char=52
+11	pos	po	NOUN	NN	Number=Sing	10	_	_	start_char=53|end_char=56|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=56|end_char=57
+
+# text = Or is she as mentally unstable as him?
+# sent_id = 115957
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=58|end_char=60
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=61|end_char=63
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=64|end_char=67
+4	as	as	ADV	RB	_	3	_	_	start_char=68|end_char=70
+5	mentally	mentally	ADV	RB	_	4	_	_	start_char=71|end_char=79
+6	unstable	unstable	ADJ	JJ	Degree=Pos	5	_	_	start_char=80|end_char=88
+7	as	as	ADP	IN	_	6	_	_	start_char=89|end_char=91
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=92|end_char=95|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=95|end_char=96
+
+# text = Oh yeah, they're Democrats...
+# sent_id = 115958
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=97|end_char=99
+2	yeah	yeah	INTJ	UH	_	1	_	_	start_char=100|end_char=104|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=104|end_char=105
+4-5	they're	_	_	_	_	_	_	_	start_char=106|end_char=113
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=106|end_char=110
+5	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=110|end_char=113
+6	Democrats	Democrat	PROPN	NNPS	Number=Plur	5	_	_	start_char=114|end_char=123|SpaceAfter=No
+7	...	...	PUNCT	.	_	6	_	_	start_char=123|end_char=126|SpaceAfter=No
+

@@ -1,0 +1,62 @@
+# text = That's a good spot to be in dude.
+# sent_id = 9577
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=8
+4	good	good	ADJ	JJ	Degree=Pos	3	_	_	start_char=9|end_char=13
+5	spot	spot	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=18
+6	to	to	PART	TO	_	5	_	_	start_char=19|end_char=21
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=22|end_char=24
+8	in	in	ADP	IN	_	7	_	_	start_char=25|end_char=27
+9	dude	dude	NOUN	NN	Number=Sing	8	_	_	start_char=28|end_char=32|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=32|end_char=33
+
+# text = Shes basically presenting.
+# sent_id = 9578
+1	Shes	shes	NOUN	NN	Number=Sing	0	_	_	start_char=34|end_char=38
+2	basically	basically	ADV	RB	_	1	_	_	start_char=39|end_char=48
+3	presenting	present	VERB	VBG	VerbForm=Ger	2	_	_	start_char=49|end_char=59|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=59|end_char=60
+
+# text = She's reaching out to you at her most honest / transparent.
+# sent_id = 9579
+1-2	She's	_	_	_	_	_	_	_	start_char=61|end_char=66
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=61|end_char=64
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=64|end_char=66
+3	reaching	reach	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=67|end_char=75
+4	out	out	ADP	RP	_	3	_	_	start_char=76|end_char=79
+5	to	to	ADP	IN	_	4	_	_	start_char=80|end_char=82
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=83|end_char=86
+7	at	at	ADP	IN	_	6	_	_	start_char=87|end_char=89
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=90|end_char=93
+9	most	most	ADV	RBS	Degree=Sup	8	_	_	start_char=94|end_char=98
+10	honest	honest	ADJ	JJ	Degree=Pos	9	_	_	start_char=99|end_char=105
+11	/	/	SYM	,	_	10	_	_	start_char=106|end_char=107
+12	transparent	transparent	ADJ	JJ	Degree=Pos	11	_	_	start_char=108|end_char=119|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=119|end_char=120
+
+# text = Also if you ask to return things to "like it was before" you've already fucked up.
+# sent_id = 9580
+1	Also	also	ADV	RB	_	0	_	_	start_char=121|end_char=125
+2	if	if	SCONJ	IN	_	1	_	_	start_char=126|end_char=128
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=129|end_char=132
+4	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=133|end_char=136
+5	to	to	PART	TO	_	4	_	_	start_char=137|end_char=139
+6	return	return	VERB	VB	VerbForm=Inf	5	_	_	start_char=140|end_char=146
+7	things	thing	NOUN	NNS	Number=Plur	6	_	_	start_char=147|end_char=153
+8	to	to	ADP	IN	_	7	_	_	start_char=154|end_char=156
+9	"	"	PUNCT	``	_	8	_	_	start_char=157|end_char=158|SpaceAfter=No
+10	like	like	INTJ	UH	_	9	_	_	start_char=158|end_char=162
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=163|end_char=165
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=166|end_char=169
+13	before	before	ADV	RB	_	12	_	_	start_char=170|end_char=176|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=176|end_char=177
+15-16	you've	_	_	_	_	_	_	_	start_char=178|end_char=184
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	_	_	start_char=178|end_char=181
+16	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	_	_	start_char=181|end_char=184
+17	already	already	ADV	RB	_	16	_	_	start_char=185|end_char=192
+18	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=193|end_char=199
+19	up	up	ADP	RP	_	18	_	_	start_char=200|end_char=202|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=202|end_char=203|SpaceAfter=No
+

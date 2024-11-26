@@ -1,0 +1,66 @@
+# text = I did not know that.
+# sent_id = 33560
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	not	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	know	know	VERB	VB	VerbForm=Inf	3	_	_	start_char=10|end_char=14
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=15|end_char=19|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = I wonder about asian females in the US and how they did.
+# sent_id = 33561
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=21|end_char=22
+2	wonder	wonder	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=23|end_char=29
+3	about	about	ADP	IN	_	2	_	_	start_char=30|end_char=35
+4	asian	Asian	ADJ	JJ	Degree=Pos	3	_	_	start_char=36|end_char=41
+5	females	female	NOUN	NNS	Number=Plur	4	_	_	start_char=42|end_char=49
+6	in	in	ADP	IN	_	5	_	_	start_char=50|end_char=52
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=53|end_char=56
+8	US	US	PROPN	NNP	Number=Sing	7	_	_	start_char=57|end_char=59
+9	and	and	CCONJ	CC	_	8	_	_	start_char=60|end_char=63
+10	how	how	ADV	WRB	PronType=Int	9	_	_	start_char=64|end_char=67
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=68|end_char=72
+12	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=73|end_char=76|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=76|end_char=77
+
+# text = I am all for having a "fair" test but sometimes you just gotta let shit fall where it will.
+# sent_id = 33562
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=78|end_char=79
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=80|end_char=82
+3	all	all	ADV	RB	_	2	_	_	start_char=83|end_char=86
+4	for	for	SCONJ	IN	_	3	_	_	start_char=87|end_char=90
+5	having	have	VERB	VBG	VerbForm=Ger	4	_	_	start_char=91|end_char=97
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=98|end_char=99
+7	"	"	PUNCT	``	_	6	_	_	start_char=100|end_char=101|SpaceAfter=No
+8	fair	fair	ADJ	JJ	Degree=Pos	7	_	_	start_char=101|end_char=105|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=105|end_char=106
+10	test	test	NOUN	NN	Number=Sing	9	_	_	start_char=107|end_char=111
+11	but	but	CCONJ	CC	_	10	_	_	start_char=112|end_char=115
+12	sometimes	sometimes	ADV	RB	_	11	_	_	start_char=116|end_char=125
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=126|end_char=129
+14	just	just	ADV	RB	_	13	_	_	start_char=130|end_char=134
+15-16	gotta	_	_	_	_	_	_	_	start_char=135|end_char=140
+15	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	14	_	_	start_char=135|end_char=138
+16	ta	to	PART	TO	_	15	_	_	start_char=138|end_char=140
+17	let	let	VERB	VB	VerbForm=Inf	16	_	_	start_char=141|end_char=144
+18	shit	shit	NOUN	NN	Number=Sing	17	_	_	start_char=145|end_char=149
+19	fall	fall	VERB	VB	VerbForm=Inf	18	_	_	start_char=150|end_char=154
+20	where	where	ADV	WRB	PronType=Int	19	_	_	start_char=155|end_char=160
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=161|end_char=163
+22	will	will	AUX	MD	VerbForm=Fin	21	_	_	start_char=164|end_char=168|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=168|end_char=169
+
+# text = People will rise to the occasion or they will not.
+# sent_id = 33563
+1	People	person	NOUN	NNS	Number=Plur	0	_	_	start_char=170|end_char=176
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=177|end_char=181
+3	rise	rise	VERB	VB	VerbForm=Inf	2	_	_	start_char=182|end_char=186
+4	to	to	ADP	IN	_	3	_	_	start_char=187|end_char=189
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=190|end_char=193
+6	occasion	occasion	NOUN	NN	Number=Sing	5	_	_	start_char=194|end_char=202
+7	or	or	CCONJ	CC	_	6	_	_	start_char=203|end_char=205
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=206|end_char=210
+9	will	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=211|end_char=215
+10	not	not	PART	RB	_	9	_	_	start_char=216|end_char=219|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=219|end_char=220|SpaceAfter=No
+

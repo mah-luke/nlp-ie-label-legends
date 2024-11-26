@@ -1,0 +1,30 @@
+# text = probably 0$, then she's going to ask for more money to support her 'child'.
+# sent_id = 12959
+1	probably	probably	ADV	RB	_	0	_	_	start_char=0|end_char=8
+2	0$	0$	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=9|end_char=11|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=11|end_char=12
+4	then	then	ADV	RB	PronType=Dem	3	_	_	start_char=13|end_char=17
+5-6	she's	_	_	_	_	_	_	_	start_char=18|end_char=23
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=18|end_char=21
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=21|end_char=23
+7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=24|end_char=29
+8	to	to	PART	TO	_	7	_	_	start_char=30|end_char=32
+9	ask	ask	VERB	VB	VerbForm=Inf	8	_	_	start_char=33|end_char=36
+10	for	for	ADP	IN	_	9	_	_	start_char=37|end_char=40
+11	more	more	ADJ	JJR	Degree=Cmp	10	_	_	start_char=41|end_char=45
+12	money	money	NOUN	NN	Number=Sing	11	_	_	start_char=46|end_char=51
+13	to	to	PART	TO	_	12	_	_	start_char=52|end_char=54
+14	support	support	VERB	VB	VerbForm=Inf	13	_	_	start_char=55|end_char=62
+15	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=63|end_char=66
+16	'	'	PUNCT	``	_	15	_	_	start_char=67|end_char=68|SpaceAfter=No
+17	child	child	NOUN	NN	Number=Sing	16	_	_	start_char=68|end_char=73|SpaceAfter=No
+18	'	'	PUNCT	''	_	17	_	_	start_char=73|end_char=74|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=74|end_char=75
+
+# text = Fucking useless women...
+# sent_id = 12960
+1	Fucking	fucking	ADV	RB	_	0	_	_	start_char=76|end_char=83
+2	useless	useless	ADJ	JJ	Degree=Pos	1	_	_	start_char=84|end_char=91
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=92|end_char=97|SpaceAfter=No
+4	...	...	PUNCT	.	_	3	_	_	start_char=97|end_char=100|SpaceAfter=No
+

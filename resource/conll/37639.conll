@@ -1,0 +1,67 @@
+# text = And it's inherently racist.
+# sent_id = 80449
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2-3	it's	_	_	_	_	_	_	_	start_char=4|end_char=8
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=4|end_char=6
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=6|end_char=8
+4	inherently	inherently	ADV	RB	_	3	_	_	start_char=9|end_char=19
+5	racist	racist	ADJ	JJ	Degree=Pos	4	_	_	start_char=20|end_char=26|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=26|end_char=27
+
+# text = Black guys can get away with 10 times worse than this.
+# sent_id = 80450
+1	Black	Black	ADJ	JJ	Degree=Pos	0	_	_	start_char=28|end_char=33
+2	guys	guy	NOUN	NNS	Number=Plur	1	_	_	start_char=34|end_char=38
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=39|end_char=42
+4	get	get	VERB	VB	VerbForm=Inf	3	_	_	start_char=43|end_char=46
+5	away	away	ADV	RB	_	4	_	_	start_char=47|end_char=51
+6	with	with	ADP	IN	_	5	_	_	start_char=52|end_char=56
+7	10	10	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=57|end_char=59
+8	times	time	NOUN	NNS	Number=Plur	7	_	_	start_char=60|end_char=65
+9	worse	bad	ADJ	JJR	Degree=Cmp	8	_	_	start_char=66|end_char=71
+10	than	than	ADP	IN	_	9	_	_	start_char=72|end_char=76
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	10	_	_	start_char=77|end_char=81|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=81|end_char=82
+
+# text = They can punch a chic, literally rape them, and nothing is said.
+# sent_id = 80451
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=83|end_char=87
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=88|end_char=91
+3	punch	punch	VERB	VB	VerbForm=Inf	2	_	_	start_char=92|end_char=97
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=98|end_char=99
+5	chic	chic	NOUN	NN	Number=Sing	4	_	_	start_char=100|end_char=104|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=104|end_char=105
+7	literally	literally	ADV	RB	_	6	_	_	start_char=106|end_char=115
+8	rape	rape	VERB	VB	VerbForm=Inf	7	_	_	start_char=116|end_char=120
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=121|end_char=125|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=125|end_char=126
+11	and	and	CCONJ	CC	_	10	_	_	start_char=127|end_char=130
+12	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	11	_	_	start_char=131|end_char=138
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=139|end_char=141
+14	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=142|end_char=146|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=146|end_char=147
+
+# text = A white guy makes an awkward pass at a woman his own age and it's "assault."
+# sent_id = 80452
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=148|end_char=149
+2	white	white	ADJ	JJ	Degree=Pos	1	_	_	start_char=150|end_char=155
+3	guy	guy	NOUN	NN	Number=Sing	2	_	_	start_char=156|end_char=159
+4	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=160|end_char=165
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=166|end_char=168
+6	awkward	awkward	ADJ	JJ	Degree=Pos	5	_	_	start_char=169|end_char=176
+7	pass	pass	NOUN	NN	Number=Sing	6	_	_	start_char=177|end_char=181
+8	at	at	ADP	IN	_	7	_	_	start_char=182|end_char=184
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=185|end_char=186
+10	woman	woman	NOUN	NN	Number=Sing	9	_	_	start_char=187|end_char=192
+11	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=193|end_char=196
+12	own	own	ADJ	JJ	Degree=Pos	11	_	_	start_char=197|end_char=200
+13	age	age	NOUN	NN	Number=Sing	12	_	_	start_char=201|end_char=204
+14	and	and	CCONJ	CC	_	13	_	_	start_char=205|end_char=208
+15-16	it's	_	_	_	_	_	_	_	start_char=209|end_char=213
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=209|end_char=211
+16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=211|end_char=213
+17	"	"	PUNCT	``	_	16	_	_	start_char=214|end_char=215|SpaceAfter=No
+18	assault	assault	NOUN	NN	Number=Sing	17	_	_	start_char=215|end_char=222|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=222|end_char=223|SpaceAfter=No
+20	"	"	PUNCT	''	_	19	_	_	start_char=223|end_char=224|SpaceAfter=No
+

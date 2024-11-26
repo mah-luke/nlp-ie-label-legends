@@ -1,0 +1,36 @@
+# text = Watch:
+# sent_id = 100095
+1	Watch	watch	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=5|end_char=6
+
+# text = Two women confront Sen. Jeff Flake with their stories of sexual assault before the Senate Judiciary Committee meeting on Judge Kavanaugh.
+# sent_id = 100096
+1	Two	two	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=7|end_char=10
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=11|end_char=16
+3	confront	confront	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=17|end_char=25
+4	Sen.	Sen.	PROPN	NNP	Number=Sing	3	_	_	start_char=26|end_char=30
+5	Jeff	Jeff	PROPN	NNP	Number=Sing	4	_	_	start_char=31|end_char=35
+6	Flake	Flake	PROPN	NNP	Number=Sing	5	_	_	start_char=36|end_char=41
+7	with	with	ADP	IN	_	6	_	_	start_char=42|end_char=46
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=47|end_char=52
+9	stories	story	NOUN	NNS	Number=Plur	8	_	_	start_char=53|end_char=60
+10	of	of	ADP	IN	_	9	_	_	start_char=61|end_char=63
+11	sexual	sexual	ADJ	JJ	Degree=Pos	10	_	_	start_char=64|end_char=70
+12	assault	assault	NOUN	NN	Number=Sing	11	_	_	start_char=71|end_char=78
+13	before	before	ADP	IN	_	12	_	_	start_char=79|end_char=85
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=86|end_char=89
+15	Senate	Senate	PROPN	NNP	Number=Sing	14	_	_	start_char=90|end_char=96
+16	Judiciary	Judiciary	ADJ	NNP	Degree=Pos	15	_	_	start_char=97|end_char=106
+17	Committee	Committee	PROPN	NNP	Number=Sing	16	_	_	start_char=107|end_char=116
+18	meeting	meeting	NOUN	NN	Number=Sing	17	_	_	start_char=117|end_char=124
+19	on	on	ADP	IN	_	18	_	_	start_char=125|end_char=127
+20	Judge	Judge	PROPN	NNP	Number=Sing	19	_	_	start_char=128|end_char=133
+21	Kavanaugh	Kavanaugh	PROPN	NNP	Number=Sing	20	_	_	start_char=134|end_char=143|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=143|end_char=144
+
+# text = [URL]
+# sent_id = 100097
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=145|end_char=146|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=146|end_char=149|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=149|end_char=150|SpaceAfter=No
+

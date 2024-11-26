@@ -1,0 +1,43 @@
+# text = Good question.
+# sent_id = 115312
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	question	question	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=13|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=13|end_char=14
+
+# text = In my opinion, she's a feminist in NAWALT sheep's clothing.
+# sent_id = 115313
+1	In	in	ADP	IN	_	0	_	_	start_char=15|end_char=17
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=18|end_char=20
+3	opinion	opinion	NOUN	NN	Number=Sing	2	_	_	start_char=21|end_char=28|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=28|end_char=29
+5-6	she's	_	_	_	_	_	_	_	start_char=30|end_char=35
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=30|end_char=33
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=33|end_char=35
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=36|end_char=37
+8	feminist	feminist	NOUN	NN	Number=Sing	7	_	_	start_char=38|end_char=46
+9	in	in	ADP	IN	_	8	_	_	start_char=47|end_char=49
+10	NAWALT	Nawalt	PROPN	NNP	Number=Sing	9	_	_	start_char=50|end_char=56
+11-12	sheep's	_	_	_	_	_	_	_	start_char=57|end_char=64
+11	sheep	sheep	NOUN	NN	Number=Sing	10	_	_	start_char=57|end_char=62
+12	's	's	PART	POS	_	11	_	_	start_char=62|end_char=64
+13	clothing	clothing	NOUN	NN	Number=Sing	12	_	_	start_char=65|end_char=73|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=73|end_char=74
+
+# text = Check it out for yourself.
+# sent_id = 115314
+1	Check	check	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=75|end_char=80
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=81|end_char=83
+3	out	out	ADP	RP	_	2	_	_	start_char=84|end_char=87
+4	for	for	ADP	IN	_	3	_	_	start_char=88|end_char=91
+5	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	4	_	_	start_char=92|end_char=100|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=100|end_char=101
+
+# text = Give her your own thotchop.
+# sent_id = 115315
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=102|end_char=106
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=107|end_char=110
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=111|end_char=115
+4	own	own	ADJ	JJ	Degree=Pos	3	_	_	start_char=116|end_char=119
+5	thotchop	thotchop	NOUN	NN	Number=Sing	4	_	_	start_char=120|end_char=128|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=128|end_char=129|SpaceAfter=No
+

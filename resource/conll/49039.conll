@@ -1,0 +1,24 @@
+# text = Malta is run by the Mafia.
+# sent_id = 104850
+1	Malta	Malta	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=8
+3	run	run	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=9|end_char=12
+4	by	by	ADP	IN	_	3	_	_	start_char=13|end_char=15
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=16|end_char=19
+6	Mafia	Mafia	PROPN	NNP	Number=Sing	5	_	_	start_char=20|end_char=25|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=25|end_char=26
+
+# text = They proved her right.
+# sent_id = 104851
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=27|end_char=31
+2	proved	prove	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=32|end_char=38
+3	her	her	PRON	PRP$	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=39|end_char=42
+4	right	right	NOUN	NN	Number=Sing	3	_	_	start_char=43|end_char=48|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=48|end_char=49
+
+# text = [URL]
+# sent_id = 104852
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=50|end_char=51|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=51|end_char=54|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=54|end_char=55|SpaceAfter=No
+

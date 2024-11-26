@@ -1,0 +1,25 @@
+# text = [USER]
+# sent_id = 105312
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Your first lady is hot as hell.
+# sent_id = 105313
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=7|end_char=11
+2	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	1	_	_	start_char=12|end_char=17
+3	lady	lady	NOUN	NN	Number=Sing	2	_	_	start_char=18|end_char=22
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=23|end_char=25
+5	hot	hot	ADJ	JJ	Degree=Pos	4	_	_	start_char=26|end_char=29
+6	as	as	ADP	IN	_	5	_	_	start_char=30|end_char=32
+7	hell	hell	NOUN	NN	Number=Sing	6	_	_	start_char=33|end_char=37|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=37|end_char=38
+
+# text = You lucky american guys!
+# sent_id = 105314
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=39|end_char=42
+2	lucky	lucky	ADJ	JJ	Degree=Pos	1	_	_	start_char=43|end_char=48
+3	american	American	ADJ	JJ	Degree=Pos	2	_	_	start_char=49|end_char=57
+4	guys	guy	NOUN	NNS	Number=Plur	3	_	_	start_char=58|end_char=62|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=62|end_char=63|SpaceAfter=No
+

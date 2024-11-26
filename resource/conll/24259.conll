@@ -1,0 +1,69 @@
+# text = Sorry, but you're an idiot.
+# sent_id = 51980
+1	Sorry	sorry	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3	but	but	CCONJ	CC	_	2	_	_	start_char=7|end_char=10
+4-5	you're	_	_	_	_	_	_	_	start_char=11|end_char=17
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=14|end_char=17
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=18|end_char=20
+7	idiot	idiot	NOUN	NN	Number=Sing	6	_	_	start_char=21|end_char=26|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=26|end_char=27
+
+# text = Maybe a well intentioned one, I don't know.
+# sent_id = 51981
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=28|end_char=33
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=34|end_char=35
+3	well	well	ADV	RB	Degree=Pos	2	_	_	start_char=36|end_char=40
+4	intentioned	intentioned	ADJ	JJ	Degree=Pos	3	_	_	start_char=41|end_char=52
+5	one	one	NOUN	NN	Number=Sing	4	_	_	start_char=53|end_char=56|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=56|end_char=57
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=58|end_char=59
+8-9	don't	_	_	_	_	_	_	_	start_char=60|end_char=65
+8	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=60|end_char=62
+9	n't	not	PART	RB	_	8	_	_	start_char=62|end_char=65
+10	know	know	VERB	VB	VerbForm=Inf	9	_	_	start_char=66|end_char=70|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=70|end_char=71
+
+# text = Maybe its just lack of knowledge about the subject you are debating.
+# sent_id = 51982
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=72|end_char=77
+2	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=78|end_char=81
+3	just	just	ADV	RB	_	2	_	_	start_char=82|end_char=86
+4	lack	lack	NOUN	NN	Number=Sing	3	_	_	start_char=87|end_char=91
+5	of	of	ADP	IN	_	4	_	_	start_char=92|end_char=94
+6	knowledge	knowledge	NOUN	NN	Number=Sing	5	_	_	start_char=95|end_char=104
+7	about	about	ADP	IN	_	6	_	_	start_char=105|end_char=110
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=111|end_char=114
+9	subject	subject	NOUN	NN	Number=Sing	8	_	_	start_char=115|end_char=122
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=123|end_char=126
+11	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=127|end_char=130
+12	debating	debate	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=131|end_char=139|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=139|end_char=140
+
+# text = But it is what it is.
+# sent_id = 51983
+1	But	but	CCONJ	CC	_	0	_	_	start_char=141|end_char=144
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=145|end_char=147
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=148|end_char=150
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=151|end_char=155
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=156|end_char=158
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=159|end_char=161|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=161|end_char=162
+
+# text = You wanna be taken seriously, do some research first.
+# sent_id = 51984
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=163|end_char=166
+2-3	wanna	_	_	_	_	_	_	_	start_char=167|end_char=172
+2	wan	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=167|end_char=170
+3	na	to	PART	TO	_	2	_	_	start_char=170|end_char=172
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=173|end_char=175
+5	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=176|end_char=181
+6	seriously	seriously	ADV	RB	_	5	_	_	start_char=182|end_char=191|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=191|end_char=192
+8	do	do	VERB	VB	VerbForm=Inf	7	_	_	start_char=193|end_char=195
+9	some	some	DET	DT	_	8	_	_	start_char=196|end_char=200
+10	research	research	NOUN	NN	Number=Sing	9	_	_	start_char=201|end_char=209
+11	first	first	ADV	RB	NumType=Ord	10	_	_	start_char=210|end_char=215|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=215|end_char=216|SpaceAfter=No
+

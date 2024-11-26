@@ -1,0 +1,25 @@
+# text = [USER]
+# sent_id = 30915
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Sad but true.
+# sent_id = 30916
+1	Sad	Sad	ADJ	JJ	Degree=Pos	0	_	_	start_char=7|end_char=10
+2	but	but	CCONJ	CC	_	1	_	_	start_char=11|end_char=14
+3	true	true	ADJ	JJ	Degree=Pos	2	_	_	start_char=15|end_char=19|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=19|end_char=20
+
+# text = The wife watches it, I endure it :)
+# sent_id = 30917
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=21|end_char=24
+2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=25|end_char=29
+3	watches	watch	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=30|end_char=37
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=38|end_char=40|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=40|end_char=41
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=42|end_char=43
+7	endure	endure	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=44|end_char=50
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=51|end_char=53
+9	:)	:)	SYM	NFP	_	8	_	_	start_char=54|end_char=56|SpaceAfter=No
+

@@ -1,0 +1,21 @@
+# text = Nice job man.
+# sent_id = 127458
+1	Nice	nice	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	job	job	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=8
+3	man	man	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=12|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=12|end_char=13
+
+# text = Remember whatever you do don't kill yourself... :)
+# sent_id = 127459
+1	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=14|end_char=22
+2	whatever	whatever	PRON	WP	PronType=Rel	1	_	_	start_char=23|end_char=31
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=32|end_char=35
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=36|end_char=38
+5-6	don't	_	_	_	_	_	_	_	start_char=39|end_char=44
+5	do	do	AUX	VB	VerbForm=Inf	4	_	_	start_char=39|end_char=41
+6	n't	not	PART	RB	_	5	_	_	start_char=41|end_char=44
+7	kill	kill	VERB	VB	VerbForm=Inf	6	_	_	start_char=45|end_char=49
+8	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	7	_	_	start_char=50|end_char=58|SpaceAfter=No
+9	...	...	PUNCT	.	_	8	_	_	start_char=58|end_char=61
+10	:)	:)	SYM	NFP	_	9	_	_	start_char=62|end_char=64|SpaceAfter=No
+

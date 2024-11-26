@@ -1,0 +1,28 @@
+# text = Maybe she is making a salad on a table that has one leg shorter than the other.
+# sent_id = 48580
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=0|end_char=5
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=6|end_char=9
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=13|end_char=19
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=20|end_char=21
+6	salad	salad	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=27
+7	on	on	ADP	IN	_	6	_	_	start_char=28|end_char=30
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=31|end_char=32
+9	table	table	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=38
+10	that	that	PRON	WDT	PronType=Rel	9	_	_	start_char=39|end_char=43
+11	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=44|end_char=47
+12	one	one	NUM	CD	NumForm=Word|NumType=Card	11	_	_	start_char=48|end_char=51
+13	leg	leg	NOUN	NN	Number=Sing	12	_	_	start_char=52|end_char=55
+14	shorter	short	ADJ	JJR	Degree=Cmp	13	_	_	start_char=56|end_char=63
+15	than	than	ADP	IN	_	14	_	_	start_char=64|end_char=68
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=69|end_char=72
+17	other	other	ADJ	JJ	Degree=Pos	16	_	_	start_char=73|end_char=78|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=78|end_char=79
+
+# text = OK maybe not.
+# sent_id = 48581
+1	OK	ok	INTJ	UH	_	0	_	_	start_char=80|end_char=82
+2	maybe	maybe	ADV	RB	_	1	_	_	start_char=83|end_char=88
+3	not	not	PART	RB	_	2	_	_	start_char=89|end_char=92|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=92|end_char=93|SpaceAfter=No
+

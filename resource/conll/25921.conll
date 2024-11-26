@@ -1,0 +1,62 @@
+# text = Off topic, but he was a helluva villain in Mission Impossible.
+# sent_id = 55600
+1	Off	off	ADP	IN	_	0	_	_	start_char=0|end_char=3
+2	topic	topic	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
+4	but	but	CCONJ	CC	_	3	_	_	start_char=11|end_char=14
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=15|end_char=17
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=18|end_char=21
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=22|end_char=23
+8	helluva	helluva	ADJ	JJ	Degree=Pos	7	_	_	start_char=24|end_char=31
+9	villain	villain	NOUN	NN	Number=Sing	8	_	_	start_char=32|end_char=39
+10	in	in	ADP	IN	_	9	_	_	start_char=40|end_char=42
+11	Mission	Mission	PROPN	NNP	Number=Sing	10	_	_	start_char=43|end_char=50
+12	Impossible	impossible	ADJ	JJ	Degree=Pos	11	_	_	start_char=51|end_char=61|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=61|end_char=62
+
+# text = I heard they were also trying to turn 007 into a woman's role.
+# sent_id = 55601
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=63|end_char=64
+2	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=65|end_char=70
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=71|end_char=75
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=76|end_char=80
+5	also	also	ADV	RB	_	4	_	_	start_char=81|end_char=85
+6	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=86|end_char=92
+7	to	to	PART	TO	_	6	_	_	start_char=93|end_char=95
+8	turn	turn	VERB	VB	VerbForm=Inf	7	_	_	start_char=96|end_char=100
+9	007	007	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=101|end_char=104
+10	into	into	ADP	IN	_	9	_	_	start_char=105|end_char=109
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=110|end_char=111
+12-13	woman's	_	_	_	_	_	_	_	start_char=112|end_char=119
+12	woman	woman	NOUN	NN	Number=Sing	11	_	_	start_char=112|end_char=117
+13	's	's	PART	POS	_	12	_	_	start_char=117|end_char=119
+14	role	role	NOUN	NN	Number=Sing	13	_	_	start_char=120|end_char=124|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=124|end_char=125
+
+# text = I mean WTF....can't these degenerates leave us alone?
+# sent_id = 55602
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=126|end_char=127
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=128|end_char=132
+3	WTF	WTF	PROPN	NNP	Number=Sing	2	_	_	start_char=133|end_char=136|SpaceAfter=No
+4	....	....	PUNCT	,	_	3	_	_	start_char=136|end_char=140|SpaceAfter=No
+5-6	can't	_	_	_	_	_	_	_	start_char=140|end_char=145
+5	ca	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=140|end_char=142
+6	n't	not	PART	RB	_	5	_	_	start_char=142|end_char=145
+7	these	this	DET	DT	Number=Plur|PronType=Dem	6	_	_	start_char=146|end_char=151
+8	degenerates	degenerate	NOUN	NNS	Number=Plur	7	_	_	start_char=152|end_char=163
+9	leave	leave	VERB	VB	VerbForm=Inf	8	_	_	start_char=164|end_char=169
+10	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	9	_	_	start_char=170|end_char=172
+11	alone	alone	ADV	RB	_	10	_	_	start_char=173|end_char=178|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=178|end_char=179
+
+# text = We know the answer to that one.
+# sent_id = 55603
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=180|end_char=182
+2	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=183|end_char=187
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=188|end_char=191
+4	answer	answer	NOUN	NN	Number=Sing	3	_	_	start_char=192|end_char=198
+5	to	to	ADP	IN	_	4	_	_	start_char=199|end_char=201
+6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=202|end_char=206
+7	one	one	NOUN	NN	Number=Sing	6	_	_	start_char=207|end_char=210|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=210|end_char=211|SpaceAfter=No
+

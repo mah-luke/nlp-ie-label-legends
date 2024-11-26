@@ -1,0 +1,42 @@
+# text = There's a reason for gender roles.
+# sent_id = 23964
+1-2	There's	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	There	there	PRON	EX	_	0	_	_	start_char=0|end_char=5
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=8|end_char=9
+4	reason	reason	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=16
+5	for	for	ADP	IN	_	4	_	_	start_char=17|end_char=20
+6	gender	gender	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=27
+7	roles	role	NOUN	NNS	Number=Plur	6	_	_	start_char=28|end_char=33|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=33|end_char=34
+
+# text = Men don't lust over butch girls, and women don't want soft, metrosexual hipsters.
+# sent_id = 23965
+1	Men	man	NOUN	NNS	Number=Plur	0	_	_	start_char=35|end_char=38
+2-3	don't	_	_	_	_	_	_	_	start_char=39|end_char=44
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=39|end_char=41
+3	n't	not	PART	RB	_	2	_	_	start_char=41|end_char=44
+4	lust	lust	VERB	VB	VerbForm=Inf	3	_	_	start_char=45|end_char=49
+5	over	over	ADP	IN	_	4	_	_	start_char=50|end_char=54
+6	butch	butch	NOUN	NN	Number=Sing	5	_	_	start_char=55|end_char=60
+7	girls	girl	NOUN	NNS	Number=Plur	6	_	_	start_char=61|end_char=66|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=66|end_char=67
+9	and	and	CCONJ	CC	_	8	_	_	start_char=68|end_char=71
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=72|end_char=77
+11-12	don't	_	_	_	_	_	_	_	start_char=78|end_char=83
+11	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=78|end_char=80
+12	n't	not	PART	RB	_	11	_	_	start_char=80|end_char=83
+13	want	want	VERB	VB	VerbForm=Inf	12	_	_	start_char=84|end_char=88
+14	soft	soft	ADJ	JJ	Degree=Pos	13	_	_	start_char=89|end_char=93|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=93|end_char=94
+16	metrosexual	metrosexual	ADJ	JJ	Degree=Pos	15	_	_	start_char=95|end_char=106
+17	hipsters	hipster	NOUN	NNS	Number=Plur	16	_	_	start_char=107|end_char=115|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=115|end_char=116
+
+# text = I totally agree.
+# sent_id = 23966
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=117|end_char=118
+2	totally	totally	ADV	RB	_	1	_	_	start_char=119|end_char=126
+3	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=127|end_char=132|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=132|end_char=133|SpaceAfter=No
+

@@ -1,0 +1,46 @@
+# text = And Don't forget!
+# sent_id = 58322
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2-3	Don't	_	_	_	_	_	_	_	start_char=4|end_char=9
+2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	n't	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=10|end_char=16|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=16|end_char=17
+
+# text = When the State is your mommy and daddy, there is no such thing as Child Protective Services nor any emergency police to call when they abuse you and.leave you to die.
+# sent_id = 58323
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=18|end_char=22
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=23|end_char=26
+3	State	State	PROPN	NNP	Number=Sing	2	_	_	start_char=27|end_char=32
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=33|end_char=35
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=36|end_char=40
+6	mommy	mommy	NOUN	NN	Number=Sing	5	_	_	start_char=41|end_char=46
+7	and	and	CCONJ	CC	_	6	_	_	start_char=47|end_char=50
+8	daddy	daddy	NOUN	NN	Number=Sing	7	_	_	start_char=51|end_char=56|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=56|end_char=57
+10	there	there	PRON	EX	_	9	_	_	start_char=58|end_char=63
+11	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=64|end_char=66
+12	no	no	DET	DT	_	11	_	_	start_char=67|end_char=69
+13	such	such	ADJ	JJ	Degree=Pos	12	_	_	start_char=70|end_char=74
+14	thing	thing	NOUN	NN	Number=Sing	13	_	_	start_char=75|end_char=80
+15	as	as	ADP	IN	_	14	_	_	start_char=81|end_char=83
+16	Child	child	NOUN	NN	Number=Sing	15	_	_	start_char=84|end_char=89
+17	Protective	protective	NOUN	NN	Number=Sing	16	_	_	start_char=90|end_char=100
+18	Services	service	NOUN	NNS	Number=Plur	17	_	_	start_char=101|end_char=109
+19	nor	nor	CCONJ	CC	_	18	_	_	start_char=110|end_char=113
+20	any	any	DET	DT	_	19	_	_	start_char=114|end_char=117
+21	emergency	emergency	NOUN	NN	Number=Sing	20	_	_	start_char=118|end_char=127
+22	police	police	NOUN	NN	Number=Sing	21	_	_	start_char=128|end_char=134
+23	to	to	PART	TO	_	22	_	_	start_char=135|end_char=137
+24	call	call	VERB	VB	VerbForm=Inf	23	_	_	start_char=138|end_char=142
+25	when	when	ADV	WRB	PronType=Int	24	_	_	start_char=143|end_char=147
+26	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	25	_	_	start_char=148|end_char=152
+27	abuse	abuse	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	_	_	start_char=153|end_char=158
+28	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	27	_	_	start_char=159|end_char=162
+29	and	and	CCONJ	CC	_	28	_	_	start_char=163|end_char=166|SpaceAfter=No
+30	.leave	.leave	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	29	_	_	start_char=166|end_char=172
+31	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	30	_	_	start_char=173|end_char=176
+32	to	to	PART	TO	_	31	_	_	start_char=177|end_char=179
+33	die	die	VERB	VB	VerbForm=Inf	32	_	_	start_char=180|end_char=183|SpaceAfter=No
+34	.	.	PUNCT	.	_	33	_	_	start_char=183|end_char=184|SpaceAfter=No
+

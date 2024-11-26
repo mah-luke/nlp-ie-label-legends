@@ -1,0 +1,40 @@
+# text = John Kerry belongs in jail.
+# sent_id = 7443
+1	John	John	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	Kerry	Kerry	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=10
+3	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=18
+4	in	in	ADP	IN	_	3	_	_	start_char=19|end_char=21
+5	jail	jail	NOUN	NN	Number=Sing	4	_	_	start_char=22|end_char=26|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=26|end_char=27
+
+# text = Why hasn’t he been arrested???
+# sent_id = 7444
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=28|end_char=31
+2-3	hasn’t	_	_	_	_	_	_	_	start_char=32|end_char=38
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=35
+3	n’t	not	PART	RB	_	2	_	_	start_char=35|end_char=38
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=39|end_char=41
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=42|end_char=46
+6	arrested	arrest	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=47|end_char=55|SpaceAfter=No
+7	???	???	PUNCT	.	_	6	_	_	start_char=55|end_char=58
+
+# text = Why hasn’t anything been done about Hillary laundering $84 MILLION through her campaign?!
+# sent_id = 7445
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=59|end_char=62
+2-3	hasn’t	_	_	_	_	_	_	_	start_char=63|end_char=69
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=66
+3	n’t	not	PART	RB	_	2	_	_	start_char=66|end_char=69
+4	anything	anything	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=70|end_char=78
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=79|end_char=83
+6	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=84|end_char=88
+7	about	about	ADP	IN	_	6	_	_	start_char=89|end_char=94
+8	Hillary	Hillary	PROPN	NNP	Number=Sing	7	_	_	start_char=95|end_char=102
+9	laundering	launder	VERB	VBG	VerbForm=Ger	8	_	_	start_char=103|end_char=113
+10	$	$	SYM	$	_	9	_	_	start_char=114|end_char=115|SpaceAfter=No
+11	84	84	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=115|end_char=117
+12	MILLION	million	NUM	CD	NumForm=Word|NumType=Card	11	_	_	start_char=118|end_char=125
+13	through	through	ADP	IN	_	12	_	_	start_char=126|end_char=133
+14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=134|end_char=137
+15	campaign	campaign	NOUN	NN	Number=Sing	14	_	_	start_char=138|end_char=146|SpaceAfter=No
+16	?!	?!	PUNCT	.	_	15	_	_	start_char=146|end_char=148|SpaceAfter=No
+

@@ -1,0 +1,23 @@
+# text = Ok so I need to buy a tractor now to get women.
+# sent_id = 112456
+1	Ok	ok	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	so	so	ADV	RB	_	1	_	_	start_char=3|end_char=5
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=12
+5	to	to	PART	TO	_	4	_	_	start_char=13|end_char=15
+6	buy	buy	VERB	VB	VerbForm=Inf	5	_	_	start_char=16|end_char=19
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=20|end_char=21
+8	tractor	tractor	NOUN	NN	Number=Sing	7	_	_	start_char=22|end_char=29
+9	now	now	ADV	RB	_	8	_	_	start_char=30|end_char=33
+10	to	to	PART	TO	_	9	_	_	start_char=34|end_char=36
+11	get	get	VERB	VB	VerbForm=Inf	10	_	_	start_char=37|end_char=40
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=41|end_char=46|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=46|end_char=47
+
+# text = Times have changed.
+# sent_id = 112457
+1	Times	time	NOUN	NNS	Number=Plur	0	_	_	start_char=48|end_char=53
+2	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=54|end_char=58
+3	changed	change	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=59|end_char=66|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=66|end_char=67|SpaceAfter=No
+

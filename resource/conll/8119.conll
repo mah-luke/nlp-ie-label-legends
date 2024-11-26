@@ -1,0 +1,32 @@
+# text = LOL.
+# sent_id = 17040
+1	LOL	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = Charlie Daniels had it right.
+# sent_id = 17041
+1	Charlie	Charlie	PROPN	NNP	Number=Sing	0	_	_	start_char=5|end_char=12
+2	Daniels	Daniels	PROPN	NNP	Number=Sing	1	_	_	start_char=13|end_char=20
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=21|end_char=24
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=25|end_char=27
+5	right	right	ADV	RB	_	4	_	_	start_char=28|end_char=33|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=33|end_char=34
+
+# text = You gotta talk shit and spit in the eye of heathen deities.
+# sent_id = 17042
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=35|end_char=38
+2-3	gotta	_	_	_	_	_	_	_	start_char=39|end_char=44
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=39|end_char=42
+3	ta	to	PART	TO	_	2	_	_	start_char=42|end_char=44
+4	talk	talk	VERB	VB	VerbForm=Inf	3	_	_	start_char=45|end_char=49
+5	shit	shit	NOUN	NN	Number=Sing	4	_	_	start_char=50|end_char=54
+6	and	and	CCONJ	CC	_	5	_	_	start_char=55|end_char=58
+7	spit	spit	VERB	VB	VerbForm=Inf	6	_	_	start_char=59|end_char=63
+8	in	in	ADP	IN	_	7	_	_	start_char=64|end_char=66
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=67|end_char=70
+10	eye	eye	NOUN	NN	Number=Sing	9	_	_	start_char=71|end_char=74
+11	of	of	ADP	IN	_	10	_	_	start_char=75|end_char=77
+12	heathen	heathen	ADJ	JJ	Degree=Pos	11	_	_	start_char=78|end_char=85
+13	deities	deity	NOUN	NNS	Number=Plur	12	_	_	start_char=86|end_char=93|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=93|end_char=94|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = $50 tip wow man and she even called them weirdos for getting that much free money.
+# sent_id = 44496
+1	$	$	SYM	$	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	50	50	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=1|end_char=3
+3	tip	tip	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=7
+4	wow	wow	INTJ	UH	_	3	_	_	start_char=8|end_char=11
+5	man	man	NOUN	NN	Number=Sing	4	_	_	start_char=12|end_char=15
+6	and	and	CCONJ	CC	_	5	_	_	start_char=16|end_char=19
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=20|end_char=23
+8	even	even	ADV	RB	_	7	_	_	start_char=24|end_char=28
+9	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=29|end_char=35
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=36|end_char=40
+11	weirdos	weirdo	NOUN	NNS	Number=Plur	10	_	_	start_char=41|end_char=48
+12	for	for	SCONJ	IN	_	11	_	_	start_char=49|end_char=52
+13	getting	get	VERB	VBG	VerbForm=Ger	12	_	_	start_char=53|end_char=60
+14	that	that	ADV	RB	_	13	_	_	start_char=61|end_char=65
+15	much	much	ADJ	JJ	Degree=Pos	14	_	_	start_char=66|end_char=70
+16	free	free	ADJ	JJ	Degree=Pos	15	_	_	start_char=71|end_char=75
+17	money	money	NOUN	NN	Number=Sing	16	_	_	start_char=76|end_char=81|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=81|end_char=82
+
+# text = US tipping culture is really fucking retarded.
+# sent_id = 44497
+1	US	US	PROPN	NNP	Number=Sing	0	_	_	start_char=83|end_char=85
+2	tipping	tipping	NOUN	NN	Number=Sing	1	_	_	start_char=86|end_char=93
+3	culture	culture	NOUN	NN	Number=Sing	2	_	_	start_char=94|end_char=101
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=102|end_char=104
+5	really	really	ADV	RB	_	4	_	_	start_char=105|end_char=111
+6	fucking	fucking	ADV	RB	_	5	_	_	start_char=112|end_char=119
+7	retarded	retarded	ADJ	JJ	Degree=Pos	6	_	_	start_char=120|end_char=128|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=128|end_char=129
+
+# text = No idea why it still exists in 2018...
+# sent_id = 44498
+1	No	no	DET	DT	_	0	_	_	start_char=130|end_char=132
+2	idea	idea	NOUN	NN	Number=Sing	1	_	_	start_char=133|end_char=137
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=138|end_char=141
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=142|end_char=144
+5	still	still	ADV	RB	_	4	_	_	start_char=145|end_char=150
+6	exists	exist	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=151|end_char=157
+7	in	in	ADP	IN	_	6	_	_	start_char=158|end_char=160
+8	2018	2018	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=161|end_char=165|SpaceAfter=No
+9	...	...	PUNCT	.	_	8	_	_	start_char=165|end_char=168|SpaceAfter=No
+

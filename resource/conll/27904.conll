@@ -1,0 +1,33 @@
+# text = That's not a woman, that's a basic female.
+# sent_id = 59945
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	not	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=11|end_char=12
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=18|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=18|end_char=19
+7-8	that's	_	_	_	_	_	_	_	start_char=20|end_char=26
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=20|end_char=24
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=24|end_char=26
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=27|end_char=28
+10	basic	basic	ADJ	JJ	Degree=Pos	9	_	_	start_char=29|end_char=34
+11	female	female	NOUN	NN	Number=Sing	10	_	_	start_char=35|end_char=41|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=41|end_char=42
+
+# text = And, yup, it only takes one person to wreak havoc.
+# sent_id = 59946
+1	And	and	CCONJ	CC	_	0	_	_	start_char=43|end_char=46|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=46|end_char=47
+3	yup	yup	INTJ	UH	_	2	_	_	start_char=48|end_char=51|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=51|end_char=52
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=53|end_char=55
+6	only	only	ADV	RB	_	5	_	_	start_char=56|end_char=60
+7	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=61|end_char=66
+8	one	one	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=67|end_char=70
+9	person	person	NOUN	NN	Number=Sing	8	_	_	start_char=71|end_char=77
+10	to	to	PART	TO	_	9	_	_	start_char=78|end_char=80
+11	wreak	wreak	VERB	VB	VerbForm=Inf	10	_	_	start_char=81|end_char=86
+12	havoc	havoc	NOUN	NN	Number=Sing	11	_	_	start_char=87|end_char=92|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=92|end_char=93|SpaceAfter=No
+

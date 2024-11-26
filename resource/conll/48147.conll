@@ -1,0 +1,53 @@
+# text = "Listen I'm not shaming people for their looks, but I am though.
+# sent_id = 102918
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=1|end_char=7
+3-4	I'm	_	_	_	_	_	_	_	start_char=8|end_char=11
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=8|end_char=9
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=9|end_char=11
+5	not	not	PART	RB	_	4	_	_	start_char=12|end_char=15
+6	shaming	shame	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=16|end_char=23
+7	people	person	NOUN	NNS	Number=Plur	6	_	_	start_char=24|end_char=30
+8	for	for	ADP	IN	_	7	_	_	start_char=31|end_char=34
+9	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=35|end_char=40
+10	looks	look	NOUN	NNS	Number=Plur	9	_	_	start_char=41|end_char=46|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=46|end_char=47
+12	but	but	CCONJ	CC	_	11	_	_	start_char=48|end_char=51
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=52|end_char=53
+14	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=54|end_char=56
+15	though	though	ADV	RB	_	14	_	_	start_char=57|end_char=63|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=63|end_char=64
+
+# text = Give an ugly guy a chance, he thinks he rules the world" I know this is not very Christian but her head would look nicely on a spike
+# sent_id = 102919
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=65|end_char=69
+2	an	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=70|end_char=72
+3	ugly	ugly	ADJ	JJ	Degree=Pos	2	_	_	start_char=73|end_char=77
+4	guy	guy	NOUN	NN	Number=Sing	3	_	_	start_char=78|end_char=81
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=82|end_char=83
+6	chance	chance	NOUN	NN	Number=Sing	5	_	_	start_char=84|end_char=90|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=90|end_char=91
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=92|end_char=94
+9	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=95|end_char=101
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=102|end_char=104
+11	rules	rule	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=105|end_char=110
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=111|end_char=114
+13	world	world	NOUN	NN	Number=Sing	12	_	_	start_char=115|end_char=120|SpaceAfter=No
+14	"	"	PUNCT	``	_	13	_	_	start_char=120|end_char=121
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=122|end_char=123
+16	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	start_char=124|end_char=128
+17	this	this	PRON	DT	Number=Sing|PronType=Dem	16	_	_	start_char=129|end_char=133
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=134|end_char=136
+19	not	not	PART	RB	_	18	_	_	start_char=137|end_char=140
+20	very	very	ADV	RB	_	19	_	_	start_char=141|end_char=145
+21	Christian	Christian	ADJ	JJ	Degree=Pos	20	_	_	start_char=146|end_char=155
+22	but	but	CCONJ	CC	_	21	_	_	start_char=156|end_char=159
+23	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	_	_	start_char=160|end_char=163
+24	head	head	NOUN	NN	Number=Sing	23	_	_	start_char=164|end_char=168
+25	would	would	AUX	MD	VerbForm=Fin	24	_	_	start_char=169|end_char=174
+26	look	look	VERB	VB	VerbForm=Inf	25	_	_	start_char=175|end_char=179
+27	nicely	nicely	ADV	RB	_	26	_	_	start_char=180|end_char=186
+28	on	on	ADP	IN	_	27	_	_	start_char=187|end_char=189
+29	a	a	DET	DT	Definite=Ind|PronType=Art	28	_	_	start_char=190|end_char=191
+30	spike	spike	NOUN	NN	Number=Sing	29	_	_	start_char=192|end_char=197|SpaceAfter=No
+

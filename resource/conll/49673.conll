@@ -1,0 +1,46 @@
+# text = "19-year-old Sudanese woman has been sentenced to death for fatally stabbing the man she was forced to marry, who she says raped her as his relatives held her down."
+# sent_id = 106144
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	19	19	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=1|end_char=3|SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	_	_	start_char=3|end_char=4|SpaceAfter=No
+4	year	year	NOUN	NN	Number=Sing	3	_	_	start_char=4|end_char=8|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	_	_	start_char=8|end_char=9|SpaceAfter=No
+6	old	old	ADJ	JJ	Degree=Pos	5	_	_	start_char=9|end_char=12
+7	Sudanese	Sudanese	ADJ	JJ	Degree=Pos	6	_	_	start_char=13|end_char=21
+8	woman	woman	NOUN	NN	Number=Sing	7	_	_	start_char=22|end_char=27
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=28|end_char=31
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=32|end_char=36
+11	sentenced	sentence	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=37|end_char=46
+12	to	to	ADP	IN	_	11	_	_	start_char=47|end_char=49
+13	death	death	NOUN	NN	Number=Sing	12	_	_	start_char=50|end_char=55
+14	for	for	SCONJ	IN	_	13	_	_	start_char=56|end_char=59
+15	fatally	fatally	ADV	RB	_	14	_	_	start_char=60|end_char=67
+16	stabbing	stabbing	VERB	VBG	VerbForm=Ger	15	_	_	start_char=68|end_char=76
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=77|end_char=80
+18	man	man	NOUN	NN	Number=Sing	17	_	_	start_char=81|end_char=84
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=85|end_char=88
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=89|end_char=92
+21	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	_	_	start_char=93|end_char=99
+22	to	to	PART	TO	_	21	_	_	start_char=100|end_char=102
+23	marry	marry	VERB	VB	VerbForm=Inf	22	_	_	start_char=103|end_char=108|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	_	_	start_char=108|end_char=109
+25	who	who	PRON	WP	PronType=Rel	24	_	_	start_char=110|end_char=113
+26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	_	_	start_char=114|end_char=117
+27	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	_	_	start_char=118|end_char=122
+28	raped	rape	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	_	_	start_char=123|end_char=128
+29	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	_	_	start_char=129|end_char=132
+30	as	as	SCONJ	IN	_	29	_	_	start_char=133|end_char=135
+31	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	30	_	_	start_char=136|end_char=139
+32	relatives	relative	NOUN	NNS	Number=Plur	31	_	_	start_char=140|end_char=149
+33	held	hold	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	32	_	_	start_char=150|end_char=154
+34	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	33	_	_	start_char=155|end_char=158
+35	down	down	ADP	RP	_	34	_	_	start_char=159|end_char=163|SpaceAfter=No
+36	.	.	PUNCT	.	_	35	_	_	start_char=163|end_char=164|SpaceAfter=No
+37	"	"	PUNCT	''	_	36	_	_	start_char=164|end_char=165
+
+# text = [URL]
+# sent_id = 106145
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=166|end_char=167|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=167|end_char=170|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=170|end_char=171|SpaceAfter=No
+

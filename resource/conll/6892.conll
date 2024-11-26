@@ -1,0 +1,63 @@
+# text = Definately pay.
+# sent_id = 14387
+1	Definately	definately	ADV	RB	_	0	_	_	start_char=0|end_char=10
+2	pay	pay	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=11|end_char=14|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=14|end_char=15
+
+# text = You're the man lol.
+# sent_id = 14388
+1-2	You're	_	_	_	_	_	_	_	start_char=16|end_char=22
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=16|end_char=19
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=19|end_char=22
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=23|end_char=26
+4	man	man	NOUN	NN	Number=Sing	3	_	_	start_char=27|end_char=30
+5	lol	lol	INTJ	UH	_	4	_	_	start_char=31|end_char=34|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=34|end_char=35
+
+# text = As far as mini-golf seduction, go with this: *"Wanna hold my balls?"*
+# sent_id = 14389
+1	As	as	ADV	RB	_	0	_	_	start_char=36|end_char=38
+2	far	far	ADV	RB	Degree=Pos	1	_	_	start_char=39|end_char=42
+3	as	as	ADP	IN	_	2	_	_	start_char=43|end_char=45
+4	mini-	mini-	INTJ	UH	_	3	_	_	start_char=46|end_char=51|SpaceAfter=No
+5	golf	golf	NOUN	NN	Number=Sing	4	_	_	start_char=51|end_char=55
+6	seduction	seduction	NOUN	NN	Number=Sing	5	_	_	start_char=56|end_char=65|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=65|end_char=66
+8	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=67|end_char=69
+9	with	with	ADP	IN	_	8	_	_	start_char=70|end_char=74
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	9	_	_	start_char=75|end_char=79|SpaceAfter=No
+11	:	:	PUNCT	:	_	10	_	_	start_char=79|end_char=80
+12	*	*	PUNCT	NFP	_	11	_	_	start_char=81|end_char=82|SpaceAfter=No
+13	"	"	PUNCT	``	_	12	_	_	start_char=82|end_char=83|SpaceAfter=No
+14-15	Wanna	_	_	_	_	_	_	_	start_char=83|end_char=88
+14	Wan	Wan	VERB	VB	Mood=Imp|VerbForm=Fin	13	_	_	start_char=83|end_char=86
+15	na	to	PART	TO	_	14	_	_	start_char=86|end_char=88
+16	hold	hold	VERB	VB	VerbForm=Inf	15	_	_	start_char=89|end_char=93
+17	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	_	_	start_char=94|end_char=96
+18	balls	ball	NOUN	NNS	Number=Plur	17	_	_	start_char=97|end_char=102|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=102|end_char=103|SpaceAfter=No
+20	"	"	PUNCT	''	_	19	_	_	start_char=103|end_char=104|SpaceAfter=No
+21	*	*	PUNCT	NFP	_	20	_	_	start_char=104|end_char=105
+
+# text = -as you hand her the golf balls.
+# sent_id = 14390
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=106|end_char=107|SpaceAfter=No
+2	as	as	SCONJ	IN	_	1	_	_	start_char=107|end_char=109
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=110|end_char=113
+4	hand	hand	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=114|end_char=118
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=119|end_char=122
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=123|end_char=126
+7	golf	golf	NOUN	NN	Number=Sing	6	_	_	start_char=127|end_char=131
+8	balls	ball	NOUN	NNS	Number=Plur	7	_	_	start_char=132|end_char=137|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=137|end_char=138
+
+# text = .....dont do that.
+# sent_id = 14391
+1	.....	.....	PUNCT	,	_	0	_	_	start_char=139|end_char=144|SpaceAfter=No
+2-3	dont	_	_	_	_	_	_	_	start_char=144|end_char=148
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=144|end_char=146
+3	nt	not	PART	RB	_	2	_	_	start_char=146|end_char=148
+4	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=149|end_char=151
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=152|end_char=156|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=156|end_char=157|SpaceAfter=No
+

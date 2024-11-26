@@ -1,0 +1,26 @@
+# text = I have a 2 week break now.
+# sent_id = 120716
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=8
+4	2	2	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=9|end_char=10
+5	week	week	NOUN	NN	Number=Sing	4	_	_	start_char=11|end_char=15
+6	break	break	NOUN	NN	Number=Sing	5	_	_	start_char=16|end_char=21
+7	now	now	ADV	RB	_	6	_	_	start_char=22|end_char=25|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=25|end_char=26
+
+# text = Would it be too late to approach her after the break?
+# sent_id = 120717
+1	Would	would	AUX	MD	VerbForm=Fin	0	_	_	start_char=27|end_char=32
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=33|end_char=35
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=36|end_char=38
+4	too	too	ADV	RB	_	3	_	_	start_char=39|end_char=42
+5	late	late	ADJ	JJ	Degree=Pos	4	_	_	start_char=43|end_char=47
+6	to	to	PART	TO	_	5	_	_	start_char=48|end_char=50
+7	approach	approach	VERB	VB	VerbForm=Inf	6	_	_	start_char=51|end_char=59
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=60|end_char=63
+9	after	after	ADP	IN	_	8	_	_	start_char=64|end_char=69
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=70|end_char=73
+11	break	break	NOUN	NN	Number=Sing	10	_	_	start_char=74|end_char=79|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=79|end_char=80|SpaceAfter=No
+

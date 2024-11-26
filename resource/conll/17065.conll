@@ -1,0 +1,40 @@
+# text = How is she "using her gender as a handicap or an excuse to act like an asshole".
+# sent_id = 36689
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=7|end_char=10
+4	"	"	PUNCT	``	_	3	_	_	start_char=11|end_char=12|SpaceAfter=No
+5	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=12|end_char=17
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=18|end_char=21
+7	gender	gender	NOUN	NN	Number=Sing	6	_	_	start_char=22|end_char=28
+8	as	as	ADP	IN	_	7	_	_	start_char=29|end_char=31
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=32|end_char=33
+10	handicap	handicap	NOUN	NN	Number=Sing	9	_	_	start_char=34|end_char=42
+11	or	or	CCONJ	CC	_	10	_	_	start_char=43|end_char=45
+12	an	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=46|end_char=48
+13	excuse	excuse	NOUN	NN	Number=Sing	12	_	_	start_char=49|end_char=55
+14	to	to	PART	TO	_	13	_	_	start_char=56|end_char=58
+15	act	act	VERB	VB	VerbForm=Inf	14	_	_	start_char=59|end_char=62
+16	like	like	ADP	IN	_	15	_	_	start_char=63|end_char=67
+17	an	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=68|end_char=70
+18	asshole	asshole	NOUN	NN	Number=Sing	17	_	_	start_char=71|end_char=78|SpaceAfter=No
+19	"	"	PUNCT	''	_	18	_	_	start_char=78|end_char=79|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=79|end_char=80
+
+# text = She's stupid and wrong, but this isn't PPD.
+# sent_id = 36690
+1-2	She's	_	_	_	_	_	_	_	start_char=81|end_char=86
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=81|end_char=84
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=84|end_char=86
+3	stupid	stupid	ADJ	JJ	Degree=Pos	2	_	_	start_char=87|end_char=93
+4	and	and	CCONJ	CC	_	3	_	_	start_char=94|end_char=97
+5	wrong	wrong	ADJ	JJ	Degree=Pos	4	_	_	start_char=98|end_char=103|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=103|end_char=104
+7	but	but	CCONJ	CC	_	6	_	_	start_char=105|end_char=108
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=109|end_char=113
+9-10	isn't	_	_	_	_	_	_	_	start_char=114|end_char=119
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=114|end_char=116
+10	n't	not	PART	RB	_	9	_	_	start_char=116|end_char=119
+11	PPD	PPD	PROPN	NNP	Number=Sing	10	_	_	start_char=120|end_char=123|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=123|end_char=124|SpaceAfter=No
+

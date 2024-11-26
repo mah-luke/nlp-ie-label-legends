@@ -1,0 +1,61 @@
+# text = I'd trust your gut on this one, hard next.
+# sent_id = 64496
+1-2	I'd	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	trust	trust	VERB	VB	VerbForm=Inf	2	_	_	start_char=4|end_char=9
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=10|end_char=14
+5	gut	gut	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=18
+6	on	on	ADP	IN	_	5	_	_	start_char=19|end_char=21
+7	this	this	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=22|end_char=26
+8	one	one	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=30|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=30|end_char=31
+10	hard	hard	ADV	RB	Degree=Pos	9	_	_	start_char=32|end_char=36
+11	next	next	ADV	RB	_	10	_	_	start_char=37|end_char=41|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=41|end_char=42
+
+# text = If you have the stones ghost her and don't explain, let her slowly be consumed with guilt and eventually she'll probably confess but even if she doesn't she's no longer your problem.
+# sent_id = 64497
+1	If	if	SCONJ	IN	_	0	_	_	start_char=43|end_char=45
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=46|end_char=49
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=50|end_char=54
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=55|end_char=58
+5	stones	stone	NOUN	NNS	Number=Plur	4	_	_	start_char=59|end_char=65
+6	ghost	ghost	VERB	VB	VerbForm=Inf	5	_	_	start_char=66|end_char=71
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=72|end_char=75
+8	and	and	CCONJ	CC	_	7	_	_	start_char=76|end_char=79
+9-10	don't	_	_	_	_	_	_	_	start_char=80|end_char=85
+9	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=80|end_char=82
+10	n't	not	PART	RB	_	9	_	_	start_char=82|end_char=85
+11	explain	explain	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=86|end_char=93|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=93|end_char=94
+13	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=95|end_char=98
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=99|end_char=102
+15	slowly	slowly	ADV	RB	_	14	_	_	start_char=103|end_char=109
+16	be	be	AUX	VB	VerbForm=Inf	15	_	_	start_char=110|end_char=112
+17	consumed	consume	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=113|end_char=121
+18	with	with	ADP	IN	_	17	_	_	start_char=122|end_char=126
+19	guilt	guilt	NOUN	NN	Number=Sing	18	_	_	start_char=127|end_char=132
+20	and	and	CCONJ	CC	_	19	_	_	start_char=133|end_char=136
+21	eventually	eventually	ADV	RB	_	20	_	_	start_char=137|end_char=147
+22-23	she'll	_	_	_	_	_	_	_	start_char=148|end_char=154
+22	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=148|end_char=151
+23	'll	will	AUX	MD	VerbForm=Fin	22	_	_	start_char=151|end_char=154
+24	probably	probably	ADV	RB	_	23	_	_	start_char=155|end_char=163
+25	confess	confess	VERB	VB	VerbForm=Inf	24	_	_	start_char=164|end_char=171
+26	but	but	CCONJ	CC	_	25	_	_	start_char=172|end_char=175
+27	even	even	ADV	RB	_	26	_	_	start_char=176|end_char=180
+28	if	if	SCONJ	IN	_	27	_	_	start_char=181|end_char=183
+29	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	_	_	start_char=184|end_char=187
+30-31	doesn't	_	_	_	_	_	_	_	start_char=188|end_char=195
+30	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	_	_	start_char=188|end_char=192
+31	n't	not	PART	RB	_	30	_	_	start_char=192|end_char=195
+32-33	she's	_	_	_	_	_	_	_	start_char=196|end_char=201
+32	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	_	_	start_char=196|end_char=199
+33	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	_	_	start_char=199|end_char=201
+34	no	no	ADV	RB	_	33	_	_	start_char=202|end_char=204
+35	longer	long	ADV	RBR	Degree=Cmp	34	_	_	start_char=205|end_char=211
+36	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	35	_	_	start_char=212|end_char=216
+37	problem	problem	NOUN	NN	Number=Sing	36	_	_	start_char=217|end_char=224|SpaceAfter=No
+38	.	.	PUNCT	.	_	37	_	_	start_char=224|end_char=225|SpaceAfter=No
+

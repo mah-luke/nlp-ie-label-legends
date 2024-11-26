@@ -1,0 +1,60 @@
+# text = That is completely different.
+# sent_id = 102336
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	completely	completely	ADV	RB	_	2	_	_	start_char=8|end_char=18
+4	different	different	ADJ	JJ	Degree=Pos	3	_	_	start_char=19|end_char=28|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=28|end_char=29
+
+# text = A man is not losing his value by not being exclusive.
+# sent_id = 102337
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=30|end_char=31
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=32|end_char=35
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=36|end_char=38
+4	not	not	PART	RB	_	3	_	_	start_char=39|end_char=42
+5	losing	lose	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=43|end_char=49
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=50|end_char=53
+7	value	value	NOUN	NN	Number=Sing	6	_	_	start_char=54|end_char=59
+8	by	by	SCONJ	IN	_	7	_	_	start_char=60|end_char=62
+9	not	not	PART	RB	_	8	_	_	start_char=63|end_char=66
+10	being	be	AUX	VBG	VerbForm=Ger	9	_	_	start_char=67|end_char=72
+11	exclusive	exclusive	ADJ	JJ	Degree=Pos	10	_	_	start_char=73|end_char=82|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=82|end_char=83
+
+# text = In fact it's the opposite.
+# sent_id = 102338
+1	In	in	ADP	IN	_	0	_	_	start_char=84|end_char=86
+2	fact	fact	NOUN	NN	Number=Sing	1	_	_	start_char=87|end_char=91
+3-4	it's	_	_	_	_	_	_	_	start_char=92|end_char=96
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=92|end_char=94
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=94|end_char=96
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=97|end_char=100
+6	opposite	opposite	NOUN	NN	Number=Sing	5	_	_	start_char=101|end_char=109|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=109|end_char=110
+
+# text = The herd animals women are, they will see a man fucking another women as more desirable than if he was single.
+# sent_id = 102339
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=111|end_char=114
+2	herd	herd	NOUN	NN	Number=Sing	1	_	_	start_char=115|end_char=119
+3	animals	animal	NOUN	NNS	Number=Plur	2	_	_	start_char=120|end_char=127
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=128|end_char=133
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=134|end_char=137|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=137|end_char=138
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=139|end_char=143
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=144|end_char=148
+9	see	see	VERB	VB	VerbForm=Inf	8	_	_	start_char=149|end_char=152
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=153|end_char=154
+11	man	man	NOUN	NN	Number=Sing	10	_	_	start_char=155|end_char=158
+12	fucking	fuck	VERB	VBG	VerbForm=Ger	11	_	_	start_char=159|end_char=166
+13	another	another	DET	DT	_	12	_	_	start_char=167|end_char=174
+14	women	woman	NOUN	NNS	Number=Plur	13	_	_	start_char=175|end_char=180
+15	as	as	ADV	RB	_	14	_	_	start_char=181|end_char=183
+16	more	more	ADV	RBR	Degree=Cmp	15	_	_	start_char=184|end_char=188
+17	desirable	desirable	ADJ	JJ	Degree=Pos	16	_	_	start_char=189|end_char=198
+18	than	than	SCONJ	IN	_	17	_	_	start_char=199|end_char=203
+19	if	if	SCONJ	IN	_	18	_	_	start_char=204|end_char=206
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=207|end_char=209
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	_	_	start_char=210|end_char=213
+22	single	single	ADJ	JJ	Degree=Pos	21	_	_	start_char=214|end_char=220|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=220|end_char=221|SpaceAfter=No
+

@@ -1,0 +1,30 @@
+# text = My gf makes more than me...
+# sent_id = 20740
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	gf	gf	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=5
+3	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=6|end_char=11
+4	more	more	ADJ	JJR	Degree=Cmp	3	_	_	start_char=12|end_char=16
+5	than	than	ADP	IN	_	4	_	_	start_char=17|end_char=21
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=22|end_char=24|SpaceAfter=No
+7	...	...	PUNCT	.	_	6	_	_	start_char=24|end_char=27
+
+# text = I better mansplain her true nature to herself bc she’s clearly not behaving accordingly!
+# sent_id = 20741
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=28|end_char=29
+2	better	well	ADV	RBR	Degree=Cmp	1	_	_	start_char=30|end_char=36
+3	mansplain	mansplain	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=37|end_char=46
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=47|end_char=50
+5	true	true	ADJ	JJ	Degree=Pos	4	_	_	start_char=51|end_char=55
+6	nature	nature	NOUN	NN	Number=Sing	5	_	_	start_char=56|end_char=62
+7	to	to	ADP	IN	_	6	_	_	start_char=63|end_char=65
+8	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	_	_	start_char=66|end_char=73
+9	bc	bc	ADV	RB	_	8	_	_	start_char=74|end_char=76
+10-11	she’s	_	_	_	_	_	_	_	start_char=77|end_char=82
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=77|end_char=80
+11	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=80|end_char=82
+12	clearly	clearly	ADV	RB	_	11	_	_	start_char=83|end_char=90
+13	not	not	PART	RB	_	12	_	_	start_char=91|end_char=94
+14	behaving	behave	VERB	VBG	Tense=Pres|VerbForm=Part	13	_	_	start_char=95|end_char=103
+15	accordingly	accordingly	ADV	RB	_	14	_	_	start_char=104|end_char=115|SpaceAfter=No
+16	!	!	PUNCT	.	_	15	_	_	start_char=115|end_char=116|SpaceAfter=No
+

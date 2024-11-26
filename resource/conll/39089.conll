@@ -1,0 +1,28 @@
+# text = Why does she want to be Jewish?
+# sent_id = 83557
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	want	want	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=17
+5	to	to	PART	TO	_	4	_	_	start_char=18|end_char=20
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=21|end_char=23
+7	Jewish	Jewish	ADJ	JJ	Degree=Pos	6	_	_	start_char=24|end_char=30|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=30|end_char=31
+
+# text = According to the NT, one IS a Jew if they believe in Jesus
+# sent_id = 83558
+1	According	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	0	_	_	start_char=32|end_char=41
+2	to	to	ADP	IN	_	1	_	_	start_char=42|end_char=44
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=45|end_char=48
+4	NT	not	NOUN	NN	Number=Sing	3	_	_	start_char=49|end_char=51|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=51|end_char=52
+6	one	one	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=53|end_char=56
+7	IS	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=57|end_char=59
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=60|end_char=61
+9	Jew	Jew	NOUN	NN	Number=Sing	8	_	_	start_char=62|end_char=65
+10	if	if	SCONJ	IN	_	9	_	_	start_char=66|end_char=68
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=69|end_char=73
+12	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=74|end_char=81
+13	in	in	ADP	IN	_	12	_	_	start_char=82|end_char=84
+14	Jesus	Jesus	PROPN	NNP	Number=Sing	13	_	_	start_char=85|end_char=90|SpaceAfter=No
+

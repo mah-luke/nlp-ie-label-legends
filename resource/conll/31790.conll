@@ -1,0 +1,56 @@
+# text = [URL] I'm very sympathetic to the iranian people!
+# sent_id = 68110
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+4-5	I'm	_	_	_	_	_	_	_	start_char=6|end_char=9
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=6|end_char=7
+5	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=7|end_char=9
+6	very	very	ADV	RB	_	5	_	_	start_char=10|end_char=14
+7	sympathetic	sympathetic	ADJ	JJ	Degree=Pos	6	_	_	start_char=15|end_char=26
+8	to	to	ADP	IN	_	7	_	_	start_char=27|end_char=29
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=30|end_char=33
+10	iranian	Iranian	ADJ	JJ	Degree=Pos	9	_	_	start_char=34|end_char=41
+11	people	person	NOUN	NNS	Number=Plur	10	_	_	start_char=42|end_char=48|SpaceAfter=No
+12	!	!	PUNCT	.	_	11	_	_	start_char=48|end_char=49
+
+# text = Wanting to take down the terrible anti women, anti gay dictatorship is understandeble..I just can support another western intervention & i dont believe a civil war would benefit the iranian people.
+# sent_id = 68111
+1	Wanting	want	VERB	VBG	VerbForm=Ger	0	_	_	start_char=50|end_char=57
+2	to	to	PART	TO	_	1	_	_	start_char=58|end_char=60
+3	take	take	VERB	VB	VerbForm=Inf	2	_	_	start_char=61|end_char=65
+4	down	down	ADP	RP	_	3	_	_	start_char=66|end_char=70
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=71|end_char=74
+6	terrible	terrible	ADJ	JJ	Degree=Pos	5	_	_	start_char=75|end_char=83
+7	anti	anti	ADJ	JJ	Degree=Pos	6	_	_	start_char=84|end_char=88
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=89|end_char=94|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=94|end_char=95
+10	anti	anti	ADJ	JJ	Degree=Pos	9	_	_	start_char=96|end_char=100
+11	gay	gay	ADJ	JJ	Degree=Pos	10	_	_	start_char=101|end_char=104
+12	dictatorship	dictatorship	NOUN	NN	Number=Sing	11	_	_	start_char=105|end_char=117
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=118|end_char=120
+14	understandeble	understandeble	ADJ	JJ	Degree=Pos	13	_	_	start_char=121|end_char=135|SpaceAfter=No
+15	..	..	PUNCT	,	_	14	_	_	start_char=135|end_char=137|SpaceAfter=No
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=137|end_char=138
+17	just	just	ADV	RB	_	16	_	_	start_char=139|end_char=143
+18	can	can	AUX	MD	VerbForm=Fin	17	_	_	start_char=144|end_char=147
+19	support	support	VERB	VB	VerbForm=Inf	18	_	_	start_char=148|end_char=155
+20	another	another	DET	DT	_	19	_	_	start_char=156|end_char=163
+21	western	western	ADJ	JJ	Degree=Pos	20	_	_	start_char=164|end_char=171
+22	intervention	intervention	NOUN	NN	Number=Sing	21	_	_	start_char=172|end_char=184
+23	&	&	CCONJ	CC	_	22	_	_	start_char=185|end_char=186
+24	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	_	_	start_char=187|end_char=188
+25-26	dont	_	_	_	_	_	_	_	start_char=189|end_char=193
+25	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	_	_	start_char=189|end_char=191
+26	nt	not	PART	RB	_	25	_	_	start_char=191|end_char=193
+27	believe	believe	VERB	VB	VerbForm=Inf	26	_	_	start_char=194|end_char=201
+28	a	a	DET	DT	Definite=Ind|PronType=Art	27	_	_	start_char=202|end_char=203
+29	civil	civil	ADJ	JJ	Degree=Pos	28	_	_	start_char=204|end_char=209
+30	war	war	NOUN	NN	Number=Sing	29	_	_	start_char=210|end_char=213
+31	would	would	AUX	MD	VerbForm=Fin	30	_	_	start_char=214|end_char=219
+32	benefit	benefit	VERB	VB	VerbForm=Inf	31	_	_	start_char=220|end_char=227
+33	the	the	DET	DT	Definite=Def|PronType=Art	32	_	_	start_char=228|end_char=231
+34	iranian	Iranian	ADJ	JJ	Degree=Pos	33	_	_	start_char=232|end_char=239
+35	people	person	NOUN	NNS	Number=Plur	34	_	_	start_char=240|end_char=246|SpaceAfter=No
+36	.	.	PUNCT	.	_	35	_	_	start_char=246|end_char=247|SpaceAfter=No
+

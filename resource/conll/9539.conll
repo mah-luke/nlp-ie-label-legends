@@ -1,0 +1,42 @@
+# text = I rest my case.
+# sent_id = 20158
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	rest	rest	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=7|end_char=9
+4	case	case	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=14|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=14|end_char=15
+
+# text = Clyde, I’ll give you half a can of peaches if you sit on her long enough to fix that damn foot... /cc [USER]‍
+# sent_id = 20159
+1	Clyde	Clyde	PROPN	NNP	Number=Sing	0	_	_	start_char=16|end_char=21|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=21|end_char=22
+3-4	I’ll	_	_	_	_	_	_	_	start_char=23|end_char=27
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=23|end_char=24
+4	’ll	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=24|end_char=27
+5	give	give	VERB	VB	VerbForm=Inf	4	_	_	start_char=28|end_char=32
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=33|end_char=36
+7	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	6	_	_	start_char=37|end_char=41
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=42|end_char=43
+9	can	can	NOUN	NN	Number=Sing	8	_	_	start_char=44|end_char=47
+10	of	of	ADP	IN	_	9	_	_	start_char=48|end_char=50
+11	peaches	peach	NOUN	NNS	Number=Plur	10	_	_	start_char=51|end_char=58
+12	if	if	SCONJ	IN	_	11	_	_	start_char=59|end_char=61
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=62|end_char=65
+14	sit	sit	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	_	_	start_char=66|end_char=69
+15	on	on	ADP	IN	_	14	_	_	start_char=70|end_char=72
+16	her	her	PRON	PRP$	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=73|end_char=76
+17	long	long	ADJ	JJ	Degree=Pos	16	_	_	start_char=77|end_char=81
+18	enough	enough	ADV	RB	_	17	_	_	start_char=82|end_char=88
+19	to	to	PART	TO	_	18	_	_	start_char=89|end_char=91
+20	fix	fix	VERB	VB	VerbForm=Inf	19	_	_	start_char=92|end_char=95
+21	that	that	DET	DT	Number=Sing|PronType=Dem	20	_	_	start_char=96|end_char=100
+22	damn	damn	ADJ	JJ	Degree=Pos	21	_	_	start_char=101|end_char=105
+23	foot	foot	NOUN	NN	Number=Sing	22	_	_	start_char=106|end_char=110|SpaceAfter=No
+24	...	...	PUNCT	,	_	23	_	_	start_char=110|end_char=113
+25	/	/	SYM	,	_	24	_	_	start_char=114|end_char=115|SpaceAfter=No
+26	cc	cc	NOUN	NN	Number=Sing	25	_	_	start_char=115|end_char=117
+27	[	[	PUNCT	-LRB-	_	26	_	_	start_char=118|end_char=119|SpaceAfter=No
+28	USER	user	NOUN	NN	Number=Sing	27	_	_	start_char=119|end_char=123|SpaceAfter=No
+29	]	]	PUNCT	-RRB-	_	28	_	_	start_char=123|end_char=124|SpaceAfter=No
+30	‍	‍	PUNCT	.	_	29	_	_	start_char=124|end_char=125|SpaceAfter=No
+

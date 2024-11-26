@@ -1,0 +1,61 @@
+# text = Oooh ooh the first one, I've met these guys before!
+# sent_id = 43785
+1	Oooh	oooh	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	ooh	ooh	INTJ	UH	_	1	_	_	start_char=5|end_char=8
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=9|end_char=12
+4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	_	_	start_char=13|end_char=18
+5	one	one	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=22|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=22|end_char=23
+7-8	I've	_	_	_	_	_	_	_	start_char=24|end_char=28
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=24|end_char=25
+8	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=25|end_char=28
+9	met	meet	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=29|end_char=32
+10	these	this	DET	DT	Number=Plur|PronType=Dem	9	_	_	start_char=33|end_char=38
+11	guys	guy	NOUN	NNS	Number=Plur	10	_	_	start_char=39|end_char=43
+12	before	before	ADV	RB	_	11	_	_	start_char=44|end_char=50|SpaceAfter=No
+13	!	!	PUNCT	.	_	12	_	_	start_char=50|end_char=51
+
+# text = The awful thing is she probably wasn't even trying to deceive him.
+# sent_id = 43786
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=52|end_char=55
+2	awful	awful	ADJ	JJ	Degree=Pos	1	_	_	start_char=56|end_char=61
+3	thing	thing	NOUN	NN	Number=Sing	2	_	_	start_char=62|end_char=67
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=68|end_char=70
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=71|end_char=74
+6	probably	probably	ADV	RB	_	5	_	_	start_char=75|end_char=83
+7-8	wasn't	_	_	_	_	_	_	_	start_char=84|end_char=90
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=84|end_char=87
+8	n't	not	PART	RB	_	7	_	_	start_char=87|end_char=90
+9	even	even	ADV	RB	_	8	_	_	start_char=91|end_char=95
+10	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=96|end_char=102
+11	to	to	PART	TO	_	10	_	_	start_char=103|end_char=105
+12	deceive	deceive	VERB	VB	VerbForm=Inf	11	_	_	start_char=106|end_char=113
+13	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=114|end_char=117|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=117|end_char=118
+
+# text = *woman emits steady low-level vocalisation throughout sex act* male: so, how many times did you come?
+# sent_id = 43787
+1	*	*	PUNCT	NFP	_	0	_	_	start_char=119|end_char=120|SpaceAfter=No
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=120|end_char=125
+3	emits	emit	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=126|end_char=131
+4	steady	steady	ADJ	JJ	Degree=Pos	3	_	_	start_char=132|end_char=138
+5	low	low	ADJ	JJ	Degree=Pos	4	_	_	start_char=139|end_char=142|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=142|end_char=143|SpaceAfter=No
+7	level	level	NOUN	NN	Number=Sing	6	_	_	start_char=143|end_char=148
+8	vocalisation	vocalisation	NOUN	NN	Number=Sing	7	_	_	start_char=149|end_char=161
+9	throughout	throughout	ADP	IN	_	8	_	_	start_char=162|end_char=172
+10	sex	sex	NOUN	NN	Number=Sing	9	_	_	start_char=173|end_char=176
+11	act	act	NOUN	NN	Number=Sing	10	_	_	start_char=177|end_char=180|SpaceAfter=No
+12	*	*	PUNCT	NFP	_	11	_	_	start_char=180|end_char=181
+13	male	male	NOUN	NN	Number=Sing	12	_	_	start_char=182|end_char=186|SpaceAfter=No
+14	:	:	PUNCT	:	_	13	_	_	start_char=186|end_char=187
+15	so	so	ADV	RB	_	14	_	_	start_char=188|end_char=190|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=190|end_char=191
+17	how	how	ADV	WRB	PronType=Int	16	_	_	start_char=192|end_char=195
+18	many	many	ADJ	JJ	Degree=Pos	17	_	_	start_char=196|end_char=200
+19	times	time	NOUN	NNS	Number=Plur	18	_	_	start_char=201|end_char=206
+20	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	19	_	_	start_char=207|end_char=210
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	_	_	start_char=211|end_char=214
+22	come	come	VERB	VB	VerbForm=Inf	21	_	_	start_char=215|end_char=219|SpaceAfter=No
+23	?	?	PUNCT	.	_	22	_	_	start_char=219|end_char=220|SpaceAfter=No
+

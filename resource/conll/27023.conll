@@ -1,0 +1,20 @@
+# text = I'm convinced.
+# sent_id = 58054
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	convinced	convinced	ADJ	JJ	Degree=Pos	2	_	_	start_char=4|end_char=13|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=13|end_char=14
+
+# text = That pretty girl is ~140 years old.
+# sent_id = 58055
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=15|end_char=19
+2	pretty	pretty	ADJ	JJ	Degree=Pos	1	_	_	start_char=20|end_char=26
+3	girl	girl	NOUN	NN	Number=Sing	2	_	_	start_char=27|end_char=31
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=32|end_char=34
+5	~	~	SYM	SYM	_	4	_	_	start_char=35|end_char=36|SpaceAfter=No
+6	140	140	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=36|end_char=39
+7	years	year	NOUN	NNS	Number=Plur	6	_	_	start_char=40|end_char=45
+8	old	old	ADJ	JJ	Degree=Pos	7	_	_	start_char=46|end_char=49|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=49|end_char=50|SpaceAfter=No
+

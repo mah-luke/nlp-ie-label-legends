@@ -1,0 +1,68 @@
+# text = Who in the world signs their name 'Dave Smith - White guy'??
+# sent_id = 91036
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=3
+2	in	in	ADP	IN	_	1	_	_	start_char=4|end_char=6
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7|end_char=10
+4	world	world	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=16
+5	signs	sign	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=17|end_char=22
+6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=23|end_char=28
+7	name	name	NOUN	NN	Number=Sing	6	_	_	start_char=29|end_char=33
+8	'	'	PUNCT	``	_	7	_	_	start_char=34|end_char=35|SpaceAfter=No
+9	Dave	Dave	PROPN	NNP	Number=Sing	8	_	_	start_char=35|end_char=39
+10	Smith	Smith	PROPN	NNP	Number=Sing	9	_	_	start_char=40|end_char=45
+11	-	-	PUNCT	HYPH	_	10	_	_	start_char=46|end_char=47
+12	White	White	ADJ	JJ	Degree=Pos	11	_	_	start_char=48|end_char=53
+13	guy	guy	NOUN	NN	Number=Sing	12	_	_	start_char=54|end_char=57|SpaceAfter=No
+14	'	'	PUNCT	''	_	13	_	_	start_char=57|end_char=58|SpaceAfter=No
+15	??	??	PUNCT	.	_	14	_	_	start_char=58|end_char=60
+
+# text = But that's what we have here with Picohontas.
+# sent_id = 91037
+1	But	but	CCONJ	CC	_	0	_	_	start_char=61|end_char=64
+2-3	that's	_	_	_	_	_	_	_	start_char=65|end_char=71
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=65|end_char=69
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=69|end_char=71
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=72|end_char=76
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=77|end_char=79
+6	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=80|end_char=84
+7	here	here	ADV	RB	PronType=Dem	6	_	_	start_char=85|end_char=89
+8	with	with	ADP	IN	_	7	_	_	start_char=90|end_char=94
+9	Picohontas	Picohontas	PROPN	NNP	Number=Sing	8	_	_	start_char=95|end_char=105|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=105|end_char=106
+
+# text = .
+# sent_id = 91038
+1	.	.	PUNCT	.	_	0	_	_	start_char=107|end_char=108
+
+# text = 5. Warren submitted multiple recipes for the Indian cookbook “Pow Wow Chow” and signed her name, “Elizabeth Warren - Cherokee” [URL]
+# sent_id = 91039
+1	5	5	NUM	LS	_	0	_	_	start_char=109|end_char=110|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=110|end_char=111
+3	Warren	Warren	PROPN	NNP	Number=Sing	2	_	_	start_char=112|end_char=118
+4	submitted	submit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=119|end_char=128
+5	multiple	multiple	ADJ	JJ	Degree=Pos	4	_	_	start_char=129|end_char=137
+6	recipes	recipe	NOUN	NNS	Number=Plur	5	_	_	start_char=138|end_char=145
+7	for	for	ADP	IN	_	6	_	_	start_char=146|end_char=149
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=150|end_char=153
+9	Indian	Indian	ADJ	JJ	Degree=Pos	8	_	_	start_char=154|end_char=160
+10	cookbook	cookbook	NOUN	NN	Number=Sing	9	_	_	start_char=161|end_char=169
+11	“	''	PUNCT	``	_	10	_	_	start_char=170|end_char=171|SpaceAfter=No
+12	Pow	Pow	PROPN	NNP	Number=Sing	11	_	_	start_char=171|end_char=174
+13	Wow	wow	PROPN	NNP	Number=Sing	12	_	_	start_char=175|end_char=178
+14	Chow	Chow	PROPN	NNP	Number=Sing	13	_	_	start_char=179|end_char=183|SpaceAfter=No
+15	”	''	PUNCT	''	_	14	_	_	start_char=183|end_char=184
+16	and	and	CCONJ	CC	_	15	_	_	start_char=185|end_char=188
+17	signed	sign	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=189|end_char=195
+18	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=196|end_char=199
+19	name	name	NOUN	NN	Number=Sing	18	_	_	start_char=200|end_char=204|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=204|end_char=205
+21	“	''	PUNCT	``	_	20	_	_	start_char=206|end_char=207|SpaceAfter=No
+22	Elizabeth	Elizabeth	PROPN	NNP	Number=Sing	21	_	_	start_char=207|end_char=216
+23	Warren	Warren	PROPN	NNP	Number=Sing	22	_	_	start_char=217|end_char=223
+24	-	-	PUNCT	HYPH	_	23	_	_	start_char=224|end_char=225
+25	Cherokee	Cherokee	PROPN	NNP	Number=Sing	24	_	_	start_char=226|end_char=234|SpaceAfter=No
+26	”	''	PUNCT	''	_	25	_	_	start_char=234|end_char=235
+27	[	[	PUNCT	-LRB-	_	26	_	_	start_char=236|end_char=237|SpaceAfter=No
+28	URL	URL	PROPN	NNP	Number=Sing	27	_	_	start_char=237|end_char=240|SpaceAfter=No
+29	]	]	PUNCT	-RRB-	_	28	_	_	start_char=240|end_char=241|SpaceAfter=No
+

@@ -1,0 +1,55 @@
+# text = The're definitely are.
+# sent_id = 27972
+1-2	The're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	definitely	definitely	ADV	RB	_	2	_	_	start_char=7|end_char=17
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=18|end_char=21|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=21|end_char=22
+
+# text = Now way there's 12k+
+# sent_id = 27973
+1	Now	now	ADV	RB	_	0	_	_	start_char=23|end_char=26
+2	way	way	NOUN	NN	Number=Sing	1	_	_	start_char=27|end_char=30
+3-4	there's	_	_	_	_	_	_	_	start_char=31|end_char=38
+3	there	there	PRON	EX	_	2	_	_	start_char=31|end_char=36
+4	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=36|end_char=38
+5	12	12	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=39|end_char=41|SpaceAfter=No
+6	k	thousand	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	5	_	_	start_char=41|end_char=42|SpaceAfter=No
+7	+	+	SYM	SYM	_	6	_	_	start_char=42|end_char=43
+
+# text = Incels, also given that normie posts are upvoted like crazy.
+# sent_id = 27974
+1	Incels	incel	NOUN	NNS	Number=Sing	0	_	_	start_char=44|end_char=50|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=50|end_char=51
+3	also	also	ADV	RB	_	2	_	_	start_char=52|end_char=56
+4	given	give	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=57|end_char=62
+5	that	that	SCONJ	IN	_	4	_	_	start_char=63|end_char=67
+6	normie	normie	NOUN	NN	Number=Sing	5	_	_	start_char=68|end_char=74
+7	posts	post	NOUN	NNS	Number=Plur	6	_	_	start_char=75|end_char=80
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=81|end_char=84
+9	upvoted	upvote	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=85|end_char=92
+10	like	like	ADP	IN	_	9	_	_	start_char=93|end_char=97
+11	crazy	crazy	ADJ	JJ	Degree=Pos	10	_	_	start_char=98|end_char=103|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=103|end_char=104
+
+# text = That's why we have to report them to the mods to have them removed.
+# sent_id = 27975
+1-2	That's	_	_	_	_	_	_	_	start_char=105|end_char=111
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=105|end_char=109
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=109|end_char=111
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=112|end_char=115
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=116|end_char=118
+5	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=119|end_char=123
+6	to	to	PART	TO	_	5	_	_	start_char=124|end_char=126
+7	report	report	VERB	VB	VerbForm=Inf	6	_	_	start_char=127|end_char=133
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=134|end_char=138
+9	to	to	ADP	IN	_	8	_	_	start_char=139|end_char=141
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=142|end_char=145
+11	mods	mod	NOUN	NNS	Number=Plur	10	_	_	start_char=146|end_char=150
+12	to	to	PART	TO	_	11	_	_	start_char=151|end_char=153
+13	have	have	VERB	VB	VerbForm=Inf	12	_	_	start_char=154|end_char=158
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=159|end_char=163
+15	removed	remove	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=164|end_char=171|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=171|end_char=172|SpaceAfter=No
+

@@ -1,0 +1,23 @@
+# text = Miley Cyrus reveals she's pregnant... with a pizza baby.
+# sent_id = 42778
+1	Miley	Miley	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	Cyrus	Cyrus	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=11
+3	reveals	reveal	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=19
+4-5	she's	_	_	_	_	_	_	_	start_char=20|end_char=25
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=20|end_char=23
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=23|end_char=25
+6	pregnant	pregnant	ADJ	JJ	Degree=Pos	5	_	_	start_char=26|end_char=34|SpaceAfter=No
+7	...	...	PUNCT	,	_	6	_	_	start_char=34|end_char=37
+8	with	with	ADP	IN	_	7	_	_	start_char=38|end_char=42
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=43|end_char=44
+10	pizza	pizza	NOUN	NN	Number=Sing	9	_	_	start_char=45|end_char=50
+11	baby	baby	NOUN	NN	Number=Sing	10	_	_	start_char=51|end_char=55|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=55|end_char=56
+
+# text = [URL] #pizzagate
+# sent_id = 42779
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=57|end_char=58|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=58|end_char=61|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=61|end_char=62
+4	#pizzagate	#pizzagate	PROPN	NNP	Number=Sing	3	_	_	start_char=63|end_char=73|SpaceAfter=No
+

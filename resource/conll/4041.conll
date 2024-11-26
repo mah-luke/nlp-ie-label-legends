@@ -1,0 +1,14 @@
+# text = [URL]
+# sent_id = 8502
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+
+# text = Obviously written by an incel
+# sent_id = 8503
+1	Obviously	obviously	ADV	RB	_	0	_	_	start_char=6|end_char=15
+2	written	write	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=16|end_char=23
+3	by	by	ADP	IN	_	2	_	_	start_char=24|end_char=26
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=27|end_char=29
+5	incel	incel	NOUN	NN	Number=Sing	4	_	_	start_char=30|end_char=35|SpaceAfter=No
+

@@ -1,0 +1,65 @@
+# text = One woman's "freedom fighter" is another man's "terrorist".
+# sent_id = 10750
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=0|end_char=3
+2-3	woman's	_	_	_	_	_	_	_	start_char=4|end_char=11
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=9
+3	's	's	PART	POS	_	2	_	_	start_char=9|end_char=11
+4	"	"	PUNCT	``	_	3	_	_	start_char=12|end_char=13|SpaceAfter=No
+5	freedom	freedom	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=20
+6	fighter	fighter	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=28|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=28|end_char=29
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=30|end_char=32
+9	another	another	DET	DT	_	8	_	_	start_char=33|end_char=40
+10-11	man's	_	_	_	_	_	_	_	start_char=41|end_char=46
+10	man	man	NOUN	NN	Number=Sing	9	_	_	start_char=41|end_char=44
+11	's	's	PART	POS	_	10	_	_	start_char=44|end_char=46
+12	"	"	PUNCT	``	_	11	_	_	start_char=47|end_char=48|SpaceAfter=No
+13	terrorist	terrorist	NOUN	NN	Number=Sing	12	_	_	start_char=48|end_char=57|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=57|end_char=58|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=58|end_char=59
+
+# text = Depends on what side you are standing on.
+# sent_id = 10751
+1	Depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=60|end_char=67
+2	on	on	ADP	IN	_	1	_	_	start_char=68|end_char=70
+3	what	what	DET	WDT	PronType=Int	2	_	_	start_char=71|end_char=75
+4	side	side	NOUN	NN	Number=Sing	3	_	_	start_char=76|end_char=80
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=81|end_char=84
+6	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=85|end_char=88
+7	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=89|end_char=97
+8	on	on	ADP	IN	_	7	_	_	start_char=98|end_char=100|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=100|end_char=101
+
+# text = Unfortunately, we are standing on the wrong side of this firing line.
+# sent_id = 10752
+1	Unfortunately	unfortunately	ADV	RB	_	0	_	_	start_char=102|end_char=115|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=115|end_char=116
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=117|end_char=119
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=120|end_char=123
+5	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=124|end_char=132
+6	on	on	ADP	IN	_	5	_	_	start_char=133|end_char=135
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=136|end_char=139
+8	wrong	wrong	ADJ	JJ	Degree=Pos	7	_	_	start_char=140|end_char=145
+9	side	side	NOUN	NN	Number=Sing	8	_	_	start_char=146|end_char=150
+10	of	of	ADP	IN	_	9	_	_	start_char=151|end_char=153
+11	this	this	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=154|end_char=158
+12	firing	fire	NOUN	NN	Number=Sing	11	_	_	start_char=159|end_char=165
+13	line	line	NOUN	NN	Number=Sing	12	_	_	start_char=166|end_char=170|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=170|end_char=171
+
+# text = Keep your head down, it's going to get ugly.
+# sent_id = 10753
+1	Keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=172|end_char=176
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=177|end_char=181
+3	head	head	NOUN	NN	Number=Sing	2	_	_	start_char=182|end_char=186
+4	down	down	ADP	RP	_	3	_	_	start_char=187|end_char=191|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=191|end_char=192
+6-7	it's	_	_	_	_	_	_	_	start_char=193|end_char=197
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=193|end_char=195
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=195|end_char=197
+8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=198|end_char=203
+9	to	to	PART	TO	_	8	_	_	start_char=204|end_char=206
+10	get	get	VERB	VB	VerbForm=Inf	9	_	_	start_char=207|end_char=210
+11	ugly	ugly	ADJ	JJ	Degree=Pos	10	_	_	start_char=211|end_char=215|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=215|end_char=216|SpaceAfter=No
+

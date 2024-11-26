@@ -1,0 +1,27 @@
+# text = Hey
+# sent_id = 27354
+1	Hey	hey	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+
+# text = So glad to hear from you.
+# sent_id = 27355
+1	So	so	ADV	RB	_	0	_	_	start_char=4|end_char=6
+2	glad	glad	ADJ	JJ	Degree=Pos	1	_	_	start_char=7|end_char=11
+3	to	to	PART	TO	_	2	_	_	start_char=12|end_char=14
+4	hear	hear	VERB	VB	VerbForm=Inf	3	_	_	start_char=15|end_char=19
+5	from	from	ADP	IN	_	4	_	_	start_char=20|end_char=24
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=25|end_char=28|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = I will try and figure this GABBING THING OUT⚖️🇺🇸🤗😘
+# sent_id = 27356
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=30|end_char=31
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=32|end_char=36
+3	try	try	VERB	VB	VerbForm=Inf	2	_	_	start_char=37|end_char=40
+4	and	and	CCONJ	CC	_	3	_	_	start_char=41|end_char=44
+5	figure	figure	VERB	VB	VerbForm=Inf	4	_	_	start_char=45|end_char=51
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=52|end_char=56
+7	GABBING	gabbing	ADJ	JJ	Degree=Pos	6	_	_	start_char=57|end_char=64
+8	THING	thing	NOUN	NN	Number=Sing	7	_	_	start_char=65|end_char=70
+9	OUT⚖️🇺🇸🤗	out⚖️🇺🇸🤗	ADV	RB	_	8	_	_	start_char=71|end_char=79|SpaceAfter=No
+10	😘	😘	PUNCT	.	_	9	_	_	start_char=79|end_char=80|SpaceAfter=No
+

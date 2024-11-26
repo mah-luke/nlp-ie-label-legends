@@ -1,0 +1,34 @@
+# text = Sorry but not sorry for the guy.
+# sent_id = 62439
+1	Sorry	sorry	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5
+2	but	but	CCONJ	CC	_	1	_	_	start_char=6|end_char=9
+3	not	not	PART	RB	_	2	_	_	start_char=10|end_char=13
+4	sorry	sorry	ADJ	JJ	Degree=Pos	3	_	_	start_char=14|end_char=19
+5	for	for	ADP	IN	_	4	_	_	start_char=20|end_char=23
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=24|end_char=27
+7	guy	guy	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=31|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=31|end_char=32
+
+# text = She cheated and he still kept her?
+# sent_id = 62440
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=33|end_char=36
+2	cheated	cheat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=37|end_char=44
+3	and	and	CCONJ	CC	_	2	_	_	start_char=45|end_char=48
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=49|end_char=51
+5	still	still	ADV	RB	_	4	_	_	start_char=52|end_char=57
+6	kept	keep	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=58|end_char=62
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=63|end_char=66|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=66|end_char=67
+
+# text = What the fuck is wrong with that guy?
+# sent_id = 62441
+1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=68|end_char=72
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=73|end_char=76
+3	fuck	fuck	NOUN	NN	Number=Sing	2	_	_	start_char=77|end_char=81
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=82|end_char=84
+5	wrong	wrong	ADJ	JJ	Degree=Pos	4	_	_	start_char=85|end_char=90
+6	with	with	ADP	IN	_	5	_	_	start_char=91|end_char=95
+7	that	that	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=96|end_char=100
+8	guy	guy	NOUN	NN	Number=Sing	7	_	_	start_char=101|end_char=104|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=104|end_char=105|SpaceAfter=No
+

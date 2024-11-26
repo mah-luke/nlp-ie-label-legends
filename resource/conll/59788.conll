@@ -1,0 +1,42 @@
+# text = Don’t misunderstand me, I love my mother to death.
+# sent_id = 127580
+1-2	Don’t	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n’t	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	misunderstand	misunderstand	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=19
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=20|end_char=22|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=22|end_char=23
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=24|end_char=25
+7	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=26|end_char=30
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	_	_	start_char=31|end_char=33
+9	mother	mother	NOUN	NN	Number=Sing	8	_	_	start_char=34|end_char=40
+10	to	to	ADP	IN	_	9	_	_	start_char=41|end_char=43
+11	death	death	NOUN	NN	Number=Sing	10	_	_	start_char=44|end_char=49|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=49|end_char=50
+
+# text = At the same time, I would also like to give her a few slaps due to her meddling in my affairs.
+# sent_id = 127581
+1	At	at	ADP	IN	_	0	_	_	start_char=51|end_char=53
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=54|end_char=57
+3	same	same	ADJ	JJ	Degree=Pos	2	_	_	start_char=58|end_char=62
+4	time	time	NOUN	NN	Number=Sing	3	_	_	start_char=63|end_char=67|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=67|end_char=68
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=69|end_char=70
+7	would	would	AUX	MD	VerbForm=Fin	6	_	_	start_char=71|end_char=76
+8	also	also	ADV	RB	_	7	_	_	start_char=77|end_char=81
+9	like	like	VERB	VB	VerbForm=Inf	8	_	_	start_char=82|end_char=86
+10	to	to	PART	TO	_	9	_	_	start_char=87|end_char=89
+11	give	give	VERB	VB	VerbForm=Inf	10	_	_	start_char=90|end_char=94
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=95|end_char=98
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=99|end_char=100
+14	few	few	ADJ	JJ	Degree=Pos	13	_	_	start_char=101|end_char=104
+15	slaps	slap	NOUN	NNS	Number=Plur	14	_	_	start_char=105|end_char=110
+16	due	due	ADP	IN	_	15	_	_	start_char=111|end_char=114
+17	to	to	ADP	IN	_	16	_	_	start_char=115|end_char=117
+18	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=118|end_char=121
+19	meddling	meddling	NOUN	NN	Number=Sing	18	_	_	start_char=122|end_char=130
+20	in	in	ADP	IN	_	19	_	_	start_char=131|end_char=133
+21	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	_	_	start_char=134|end_char=136
+22	affairs	affair	NOUN	NNS	Number=Plur	21	_	_	start_char=137|end_char=144|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=144|end_char=145|SpaceAfter=No
+

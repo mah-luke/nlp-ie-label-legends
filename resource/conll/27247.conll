@@ -1,0 +1,22 @@
+# text = She’s not talking to you.
+# sent_id = 58484
+1-2	She’s	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	not	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=10|end_char=17
+5	to	to	ADP	IN	_	4	_	_	start_char=18|end_char=20
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=21|end_char=24|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=24|end_char=25
+
+# text = She’s talking to her followers.
+# sent_id = 58485
+1-2	She’s	_	_	_	_	_	_	_	start_char=26|end_char=31
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=26|end_char=29
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=29|end_char=31
+3	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=32|end_char=39
+4	to	to	ADP	IN	_	3	_	_	start_char=40|end_char=42
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=43|end_char=46
+6	followers	follower	NOUN	NNS	Number=Plur	5	_	_	start_char=47|end_char=56|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=56|end_char=57|SpaceAfter=No
+

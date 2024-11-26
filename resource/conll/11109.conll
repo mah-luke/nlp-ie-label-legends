@@ -1,0 +1,30 @@
+# text = Damn!
+# sent_id = 23541
+1	Damn	damn	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = Good thing you got out of that shit.
+# sent_id = 23542
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=6|end_char=10
+2	thing	thing	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=16
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=17|end_char=20
+4	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	_	_	start_char=21|end_char=24
+5	out	out	ADP	IN	_	4	_	_	start_char=25|end_char=28
+6	of	of	ADP	IN	_	5	_	_	start_char=29|end_char=31
+7	that	that	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=32|end_char=36
+8	shit	shit	NOUN	NN	Number=Sing	7	_	_	start_char=37|end_char=41|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=41|end_char=42
+
+# text = "Raising her children" eww...just eww!
+# sent_id = 23543
+1	"	"	PUNCT	``	_	0	_	_	start_char=43|end_char=44|SpaceAfter=No
+2	Raising	raise	VERB	VBG	VerbForm=Ger	1	_	_	start_char=44|end_char=51
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=52|end_char=55
+4	children	child	NOUN	NNS	Number=Plur	3	_	_	start_char=56|end_char=64|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=64|end_char=65
+6	eww	eww	INTJ	UH	_	5	_	_	start_char=66|end_char=69|SpaceAfter=No
+7	...	...	PUNCT	,	_	6	_	_	start_char=69|end_char=72|SpaceAfter=No
+8	just	just	ADV	RB	_	7	_	_	start_char=72|end_char=76
+9	eww	eww	INTJ	UH	_	8	_	_	start_char=77|end_char=80|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=80|end_char=81|SpaceAfter=No
+

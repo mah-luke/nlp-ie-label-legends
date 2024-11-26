@@ -1,0 +1,22 @@
+# text = And won’t.
+# sent_id = 42528
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2-3	won’t	_	_	_	_	_	_	_	start_char=4|end_char=9|SpaceAfter=No
+2	wo	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	n’t	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	.	.	PUNCT	.	_	3	_	_	start_char=9|end_char=10
+
+# text = Just like she has no will to challenge her programming.
+# sent_id = 42529
+1	Just	just	ADV	RB	_	0	_	_	start_char=11|end_char=15
+2	like	like	SCONJ	IN	_	1	_	_	start_char=16|end_char=20
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=21|end_char=24
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=25|end_char=28
+5	no	no	DET	DT	_	4	_	_	start_char=29|end_char=31
+6	will	will	NOUN	NN	Number=Sing	5	_	_	start_char=32|end_char=36
+7	to	to	PART	TO	_	6	_	_	start_char=37|end_char=39
+8	challenge	challenge	VERB	VB	VerbForm=Inf	7	_	_	start_char=40|end_char=49
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=50|end_char=53
+10	programming	programming	NOUN	NN	Number=Sing	9	_	_	start_char=54|end_char=65|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=65|end_char=66|SpaceAfter=No
+

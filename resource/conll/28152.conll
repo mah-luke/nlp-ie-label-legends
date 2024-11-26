@@ -1,0 +1,31 @@
+# text = I’ve seen “why would women lie about something as serious as rape?”
+# sent_id = 60429
+1-2	I’ve	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=9
+4	“	''	PUNCT	``	_	3	_	_	start_char=10|end_char=11|SpaceAfter=No
+5	why	why	ADV	WRB	PronType=Int	4	_	_	start_char=11|end_char=14
+6	would	would	AUX	MD	VerbForm=Fin	5	_	_	start_char=15|end_char=20
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=21|end_char=26
+8	lie	lie	VERB	VB	VerbForm=Inf	7	_	_	start_char=27|end_char=30
+9	about	about	ADP	IN	_	8	_	_	start_char=31|end_char=36
+10	something	something	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=37|end_char=46
+11	as	as	ADV	RB	_	10	_	_	start_char=47|end_char=49
+12	serious	serious	ADJ	JJ	Degree=Pos	11	_	_	start_char=50|end_char=57
+13	as	as	ADP	IN	_	12	_	_	start_char=58|end_char=60
+14	rape	rape	NOUN	NN	Number=Sing	13	_	_	start_char=61|end_char=65|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=65|end_char=66|SpaceAfter=No
+16	”	''	PUNCT	''	_	15	_	_	start_char=66|end_char=67
+
+# text = Literally makes 0 sense as an argument.
+# sent_id = 60430
+1	Literally	literally	ADV	RB	_	0	_	_	start_char=68|end_char=77
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=78|end_char=83
+3	0	0	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=84|end_char=85
+4	sense	sense	NOUN	NN	Number=Sing	3	_	_	start_char=86|end_char=91
+5	as	as	ADP	IN	_	4	_	_	start_char=92|end_char=94
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=95|end_char=97
+7	argument	argument	NOUN	NN	Number=Sing	6	_	_	start_char=98|end_char=106|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=106|end_char=107|SpaceAfter=No
+

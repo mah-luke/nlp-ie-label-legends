@@ -1,0 +1,63 @@
+# text = Exactly my point.
+# sent_id = 120984
+1	Exactly	exactly	ADV	RB	_	0	_	_	start_char=0|end_char=7
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=8|end_char=10
+3	point	point	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=16|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=16|end_char=17
+
+# text = If you're a woman it's practically stupid not to capitalize as much as possible on the situation.
+# sent_id = 120985
+1	If	if	SCONJ	IN	_	0	_	_	start_char=18|end_char=20
+2-3	you're	_	_	_	_	_	_	_	start_char=21|end_char=27
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=21|end_char=24
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=24|end_char=27
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=28|end_char=29
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=30|end_char=35
+6-7	it's	_	_	_	_	_	_	_	start_char=36|end_char=40
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=36|end_char=38
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=38|end_char=40
+8	practically	practically	ADV	RB	_	7	_	_	start_char=41|end_char=52
+9	stupid	stupid	ADJ	JJ	Degree=Pos	8	_	_	start_char=53|end_char=59
+10	not	not	PART	RB	_	9	_	_	start_char=60|end_char=63
+11	to	to	PART	TO	_	10	_	_	start_char=64|end_char=66
+12	capitalize	capitalize	VERB	VB	VerbForm=Inf	11	_	_	start_char=67|end_char=77
+13	as	as	ADV	RB	_	12	_	_	start_char=78|end_char=80
+14	much	much	ADV	RB	Degree=Pos	13	_	_	start_char=81|end_char=85
+15	as	as	SCONJ	IN	_	14	_	_	start_char=86|end_char=88
+16	possible	possible	ADJ	JJ	Degree=Pos	15	_	_	start_char=89|end_char=97
+17	on	on	ADP	IN	_	16	_	_	start_char=98|end_char=100
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=101|end_char=104
+19	situation	situation	NOUN	NN	Number=Sing	18	_	_	start_char=105|end_char=114|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=114|end_char=115
+
+# text = You're encouraged to destroy your own family, take your kids away from the father and try to catch another beta as fast as possible.
+# sent_id = 120986
+1-2	You're	_	_	_	_	_	_	_	start_char=116|end_char=122
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=116|end_char=119
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=119|end_char=122
+3	encouraged	encourage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=123|end_char=133
+4	to	to	PART	TO	_	3	_	_	start_char=134|end_char=136
+5	destroy	destroy	VERB	VB	VerbForm=Inf	4	_	_	start_char=137|end_char=144
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=145|end_char=149
+7	own	own	ADJ	JJ	Degree=Pos	6	_	_	start_char=150|end_char=153
+8	family	family	NOUN	NN	Number=Sing	7	_	_	start_char=154|end_char=160|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=160|end_char=161
+10	take	take	VERB	VB	VerbForm=Inf	9	_	_	start_char=162|end_char=166
+11	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	10	_	_	start_char=167|end_char=171
+12	kids	kid	NOUN	NNS	Number=Plur	11	_	_	start_char=172|end_char=176
+13	away	away	ADV	RB	_	12	_	_	start_char=177|end_char=181
+14	from	from	ADP	IN	_	13	_	_	start_char=182|end_char=186
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=187|end_char=190
+16	father	father	NOUN	NN	Number=Sing	15	_	_	start_char=191|end_char=197
+17	and	and	CCONJ	CC	_	16	_	_	start_char=198|end_char=201
+18	try	try	VERB	VB	VerbForm=Inf	17	_	_	start_char=202|end_char=205
+19	to	to	PART	TO	_	18	_	_	start_char=206|end_char=208
+20	catch	catch	VERB	VB	VerbForm=Inf	19	_	_	start_char=209|end_char=214
+21	another	another	DET	DT	_	20	_	_	start_char=215|end_char=222
+22	beta	beta	NOUN	NN	Number=Sing	21	_	_	start_char=223|end_char=227
+23	as	as	ADV	RB	_	22	_	_	start_char=228|end_char=230
+24	fast	fast	ADV	RB	Degree=Pos	23	_	_	start_char=231|end_char=235
+25	as	as	SCONJ	IN	_	24	_	_	start_char=236|end_char=238
+26	possible	possible	ADJ	JJ	Degree=Pos	25	_	_	start_char=239|end_char=247|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=247|end_char=248|SpaceAfter=No
+

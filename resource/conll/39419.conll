@@ -1,0 +1,50 @@
+# text = Ain't our fault all the hotties are on our side.
+# sent_id = 84287
+1-2	Ain't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=6|end_char=9
+4	fault	fault	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=15
+5	all	all	DET	PDT	_	4	_	_	start_char=16|end_char=19
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=20|end_char=23
+7	hotties	hotty	NOUN	NNS	Number=Plur	6	_	_	start_char=24|end_char=31
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=32|end_char=35
+9	on	on	ADP	IN	_	8	_	_	start_char=36|end_char=38
+10	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=39|end_char=42
+11	side	side	NOUN	NN	Number=Sing	10	_	_	start_char=43|end_char=47|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=47|end_char=48
+
+# text = I mean, have you seen what feminism can do to a woman?
+# sent_id = 84288
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=49|end_char=50
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=55|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=55|end_char=56
+4	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=57|end_char=61
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=62|end_char=65
+6	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=66|end_char=70
+7	what	what	DET	WDT	PronType=Int	6	_	_	start_char=71|end_char=75
+8	feminism	feminism	NOUN	NN	Number=Sing	7	_	_	start_char=76|end_char=84
+9	can	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=85|end_char=88
+10	do	do	VERB	VB	VerbForm=Inf	9	_	_	start_char=89|end_char=91
+11	to	to	ADP	IN	_	10	_	_	start_char=92|end_char=94
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=95|end_char=96
+13	woman	woman	NOUN	NN	Number=Sing	12	_	_	start_char=97|end_char=102|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=102|end_char=103
+
+# text = Or to a man?
+# sent_id = 84289
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=104|end_char=106
+2	to	to	ADP	IN	_	1	_	_	start_char=107|end_char=109
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=110|end_char=111
+4	man	man	NOUN	NN	Number=Sing	3	_	_	start_char=112|end_char=115|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=115|end_char=116
+
+# text = #MAGA #TRUMP [URL]
+# sent_id = 84290
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=117|end_char=118|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=118|end_char=122
+3	#TRUMP	#trump	NOUN	NN	Number=Sing	2	_	_	start_char=123|end_char=129
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=130|end_char=131|SpaceAfter=No
+5	URL	URL	NOUN	NN	Number=Sing	4	_	_	start_char=131|end_char=134|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=134|end_char=135|SpaceAfter=No
+

@@ -1,0 +1,35 @@
+# text = He's "overly flirty with women all the time" and "he did nothing" in the same sentence.
+# sent_id = 84968
+1-2	He's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	"	"	PUNCT	``	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
+4	overly	overly	ADV	RB	_	3	_	_	start_char=6|end_char=12
+5	flirty	flirty	ADJ	JJ	Degree=Pos	4	_	_	start_char=13|end_char=19
+6	with	with	ADP	IN	_	5	_	_	start_char=20|end_char=24
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=25|end_char=30
+8	all	all	DET	PDT	_	7	_	_	start_char=31|end_char=34
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=35|end_char=38
+10	time	time	NOUN	NN	Number=Sing	9	_	_	start_char=39|end_char=43|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=43|end_char=44
+12	and	and	CCONJ	CC	_	11	_	_	start_char=45|end_char=48
+13	"	"	PUNCT	``	_	12	_	_	start_char=49|end_char=50|SpaceAfter=No
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=50|end_char=52
+15	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=53|end_char=56
+16	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	15	_	_	start_char=57|end_char=64|SpaceAfter=No
+17	"	"	PUNCT	''	_	16	_	_	start_char=64|end_char=65
+18	in	in	ADP	IN	_	17	_	_	start_char=66|end_char=68
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=69|end_char=72
+20	same	same	ADJ	JJ	Degree=Pos	19	_	_	start_char=73|end_char=77
+21	sentence	sentence	NOUN	NN	Number=Sing	20	_	_	start_char=78|end_char=86|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=86|end_char=87
+
+# text = So... what is it?
+# sent_id = 84969
+1	So	so	ADV	RB	_	0	_	_	start_char=88|end_char=90|SpaceAfter=No
+2	...	...	PUNCT	,	_	1	_	_	start_char=90|end_char=93
+3	what	what	PRON	WP	PronType=Int	2	_	_	start_char=94|end_char=98
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=99|end_char=101
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=102|end_char=104|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=104|end_char=105|SpaceAfter=No
+

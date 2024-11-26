@@ -1,0 +1,31 @@
+# text = I'm sorry to say, you are indeed quite ugly.
+# sent_id = 72809
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	sorry	sorry	ADJ	JJ	Degree=Pos	2	_	_	start_char=4|end_char=9
+4	to	to	PART	TO	_	3	_	_	start_char=10|end_char=12
+5	say	say	VERB	VB	VerbForm=Inf	4	_	_	start_char=13|end_char=16|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=16|end_char=17
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=18|end_char=21
+8	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=22|end_char=25
+9	indeed	indeed	ADV	RB	_	8	_	_	start_char=26|end_char=32
+10	quite	quite	ADV	RB	_	9	_	_	start_char=33|end_char=38
+11	ugly	ugly	ADJ	JJ	Degree=Pos	10	_	_	start_char=39|end_char=43|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=43|end_char=44
+
+# text = 99.99% of females would find you to be quite repulsive.
+# sent_id = 72810
+1	99.99	99.99	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=45|end_char=50|SpaceAfter=No
+2	%	%	SYM	NN	Number=Sing	1	_	_	start_char=50|end_char=51
+3	of	of	ADP	IN	_	2	_	_	start_char=52|end_char=54
+4	females	female	NOUN	NNS	Number=Plur	3	_	_	start_char=55|end_char=62
+5	would	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=63|end_char=68
+6	find	find	VERB	VB	VerbForm=Inf	5	_	_	start_char=69|end_char=73
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=74|end_char=77
+8	to	to	PART	TO	_	7	_	_	start_char=78|end_char=80
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=81|end_char=83
+10	quite	quite	ADV	RB	_	9	_	_	start_char=84|end_char=89
+11	repulsive	repulsive	ADJ	JJ	Degree=Pos	10	_	_	start_char=90|end_char=99|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=99|end_char=100|SpaceAfter=No
+

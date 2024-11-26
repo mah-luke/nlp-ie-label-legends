@@ -1,0 +1,61 @@
+# text = I don't understand.
+# sent_id = 24818
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	don't	_	_	_	_	_	_	_	start_char=2|end_char=7
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	n't	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	understand	understand	VERB	VB	VerbForm=Inf	3	_	_	start_char=8|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = Everyone understands "don't hit a girl" so when a guy finally does hit a girl it must be because he felt forced into it.
+# sent_id = 24819
+1	Everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	0	_	_	start_char=20|end_char=28
+2	understands	understand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=29|end_char=40
+3	"	"	PUNCT	``	_	2	_	_	start_char=41|end_char=42|SpaceAfter=No
+4-5	don't	_	_	_	_	_	_	_	start_char=42|end_char=47
+4	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=42|end_char=44
+5	n't	not	PART	RB	_	4	_	_	start_char=44|end_char=47
+6	hit	hit	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=48|end_char=51
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=52|end_char=53
+8	girl	girl	NOUN	NN	Number=Sing	7	_	_	start_char=54|end_char=58|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=58|end_char=59
+10	so	so	ADV	RB	_	9	_	_	start_char=60|end_char=62
+11	when	when	ADV	WRB	PronType=Int	10	_	_	start_char=63|end_char=67
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=68|end_char=69
+13	guy	guy	NOUN	NN	Number=Sing	12	_	_	start_char=70|end_char=73
+14	finally	finally	ADV	RB	_	13	_	_	start_char=74|end_char=81
+15	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=82|end_char=86
+16	hit	hit	VERB	VB	VerbForm=Inf	15	_	_	start_char=87|end_char=90
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=91|end_char=92
+18	girl	girl	NOUN	NN	Number=Sing	17	_	_	start_char=93|end_char=97
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=98|end_char=100
+20	must	must	AUX	MD	VerbForm=Fin	19	_	_	start_char=101|end_char=105
+21	be	be	AUX	VB	VerbForm=Inf	20	_	_	start_char=106|end_char=108
+22	because	because	SCONJ	IN	_	21	_	_	start_char=109|end_char=116
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=117|end_char=119
+24	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	_	_	start_char=120|end_char=124
+25	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	_	_	start_char=125|end_char=131
+26	into	into	ADP	IN	_	25	_	_	start_char=132|end_char=136
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	_	_	start_char=137|end_char=139|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=139|end_char=140
+
+# text = This is my line of logic anyways.
+# sent_id = 24820
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=141|end_char=145
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=146|end_char=148
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=149|end_char=151
+4	line	line	NOUN	NN	Number=Sing	3	_	_	start_char=152|end_char=156
+5	of	of	ADP	IN	_	4	_	_	start_char=157|end_char=159
+6	logic	logic	NOUN	NN	Number=Sing	5	_	_	start_char=160|end_char=165
+7	anyways	anyways	ADV	RB	_	6	_	_	start_char=166|end_char=173|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=173|end_char=174
+
+# text = Why defend a random girl?
+# sent_id = 24821
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=175|end_char=178
+2	defend	defend	VERB	VB	VerbForm=Inf	1	_	_	start_char=179|end_char=185
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=186|end_char=187
+4	random	random	ADJ	JJ	Degree=Pos	3	_	_	start_char=188|end_char=194
+5	girl	girl	NOUN	NN	Number=Sing	4	_	_	start_char=195|end_char=199|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=199|end_char=200|SpaceAfter=No
+

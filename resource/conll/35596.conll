@@ -1,0 +1,65 @@
+# text = What?!
+# sent_id = 76183
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	?!	?!	PUNCT	.	_	1	_	_	start_char=4|end_char=6
+
+# text = Nia is a cunt!
+# sent_id = 76184
+1	Nia	Nia	PROPN	NNP	Number=Sing	0	_	_	start_char=7|end_char=10
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=11|end_char=13
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=14|end_char=15
+4	cunt	cunt	NOUN	NN	Number=Sing	3	_	_	start_char=16|end_char=20|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=20|end_char=21
+
+# text = She made bill get rid of his drums, his dog (which SHE adopted without telling him) , wont let him take flying lessons he wanted to.
+# sent_id = 76185
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=22|end_char=25
+2	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=26|end_char=30
+3	bill	bill	NOUN	NN	Number=Sing	2	_	_	start_char=31|end_char=35
+4	get	get	VERB	VB	VerbForm=Inf	3	_	_	start_char=36|end_char=39
+5	rid	rid	ADJ	JJ	Degree=Pos	4	_	_	start_char=40|end_char=43
+6	of	of	ADP	IN	_	5	_	_	start_char=44|end_char=46
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=47|end_char=50
+8	drums	drum	NOUN	NNS	Number=Plur	7	_	_	start_char=51|end_char=56|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=56|end_char=57
+10	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=58|end_char=61
+11	dog	dog	NOUN	NN	Number=Sing	10	_	_	start_char=62|end_char=65
+12	(	(	PUNCT	-LRB-	_	11	_	_	start_char=66|end_char=67|SpaceAfter=No
+13	which	which	PRON	WDT	PronType=Rel	12	_	_	start_char=67|end_char=72
+14	SHE	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=73|end_char=76
+15	adopted	adopt	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=77|end_char=84
+16	without	without	SCONJ	IN	_	15	_	_	start_char=85|end_char=92
+17	telling	tell	VERB	VBG	VerbForm=Ger	16	_	_	start_char=93|end_char=100
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=101|end_char=104|SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	18	_	_	start_char=104|end_char=105
+20	,	,	PUNCT	,	_	19	_	_	start_char=106|end_char=107
+21-22	wont	_	_	_	_	_	_	_	start_char=108|end_char=112
+21	wo	will	AUX	MD	VerbForm=Fin	20	_	_	start_char=108|end_char=110
+22	nt	not	PART	RB	_	21	_	_	start_char=110|end_char=112
+23	let	let	VERB	VB	VerbForm=Inf	22	_	_	start_char=113|end_char=116
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=117|end_char=120
+25	take	take	VERB	VB	VerbForm=Inf	24	_	_	start_char=121|end_char=125
+26	flying	fly	VERB	VBG	VerbForm=Ger	25	_	_	start_char=126|end_char=132
+27	lessons	lesson	NOUN	NNS	Number=Plur	26	_	_	start_char=133|end_char=140
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	_	_	start_char=141|end_char=143
+29	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	_	_	start_char=144|end_char=150
+30	to	to	PART	TO	_	29	_	_	start_char=151|end_char=153|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	start_char=153|end_char=154
+
+# text = Shes such a bitch to him and he couldve done so much better.
+# sent_id = 76186
+1	Shes	shes	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=155|end_char=159
+2	such	such	DET	PDT	_	1	_	_	start_char=160|end_char=164
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=165|end_char=166
+4	bitch	bitch	NOUN	NN	Number=Sing	3	_	_	start_char=167|end_char=172
+5	to	to	ADP	IN	_	4	_	_	start_char=173|end_char=175
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=176|end_char=179
+7	and	and	CCONJ	CC	_	6	_	_	start_char=180|end_char=183
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=184|end_char=186
+9	couldve	couldve	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=187|end_char=194
+10	done	do	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=195|end_char=199
+11	so	so	ADV	RB	_	10	_	_	start_char=200|end_char=202
+12	much	much	ADV	RB	_	11	_	_	start_char=203|end_char=207
+13	better	well	ADV	RBR	Degree=Cmp	12	_	_	start_char=208|end_char=214|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=214|end_char=215|SpaceAfter=No
+

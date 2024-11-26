@@ -1,0 +1,24 @@
+# text = Oh lord... someone whiter than me?
+# sent_id = 124200
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	lord	lord	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=7|SpaceAfter=No
+3	...	...	PUNCT	,	_	2	_	_	start_char=7|end_char=10
+4	someone	someone	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=11|end_char=18
+5	whiter	whiter	ADJ	JJR	Degree=Cmp	4	_	_	start_char=19|end_char=25
+6	than	than	ADP	IN	_	5	_	_	start_char=26|end_char=30
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=31|end_char=33|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=33|end_char=34
+
+# text = I feel sorry for her!
+# sent_id = 124201
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=35|end_char=36
+2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=37|end_char=41
+3	sorry	sorry	ADJ	JJ	Degree=Pos	2	_	_	start_char=42|end_char=47
+4	for	for	ADP	IN	_	3	_	_	start_char=48|end_char=51
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=52|end_char=55|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=55|end_char=56
+
+# text = LOL
+# sent_id = 124202
+1	LOL	lol	INTJ	UH	_	0	_	_	start_char=57|end_char=60|SpaceAfter=No
+

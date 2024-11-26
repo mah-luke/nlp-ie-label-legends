@@ -1,0 +1,27 @@
+# text = Maybe we should share some age old knowledge with him..maybe her...
+# sent_id = 40264
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=0|end_char=5
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=6|end_char=8
+3	should	should	AUX	MD	VerbForm=Fin	2	_	_	start_char=9|end_char=15
+4	share	share	VERB	VB	VerbForm=Inf	3	_	_	start_char=16|end_char=21
+5	some	some	DET	DT	_	4	_	_	start_char=22|end_char=26
+6	age	age	NOUN	NN	Number=Sing	5	_	_	start_char=27|end_char=30
+7	old	old	ADJ	JJ	Degree=Pos	6	_	_	start_char=31|end_char=34
+8	knowledge	knowledge	NOUN	NN	Number=Sing	7	_	_	start_char=35|end_char=44
+9	with	with	ADP	IN	_	8	_	_	start_char=45|end_char=49
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=50|end_char=53|SpaceAfter=No
+11	..	..	PUNCT	,	_	10	_	_	start_char=53|end_char=55|SpaceAfter=No
+12	maybe	maybe	ADV	RB	_	11	_	_	start_char=55|end_char=60
+13	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=61|end_char=64|SpaceAfter=No
+14	...	...	PUNCT	.	_	13	_	_	start_char=64|end_char=67
+
+# text = Hell I dunno.
+# sent_id = 40265
+1	Hell	Hell	PROPN	NNP	Number=Sing	0	_	_	start_char=68|end_char=72
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=73|end_char=74
+3-5	dunno	_	_	_	_	_	_	_	start_char=75|end_char=80|SpaceAfter=No
+3	du	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=75|end_char=77
+4	n	not	PART	RB	_	3	_	_	start_char=77|end_char=78
+5	no	no	INTJ	UH	_	4	_	_	start_char=78|end_char=80
+6	.	.	PUNCT	.	_	5	_	_	start_char=80|end_char=81|SpaceAfter=No
+

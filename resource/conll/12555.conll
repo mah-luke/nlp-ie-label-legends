@@ -1,0 +1,32 @@
+# text = Let's discuss the fact that she brought her boyfriend over FOR THE QUARANTINE.
+# sent_id = 26631
+1-2	Let's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	discuss	discuss	VERB	VB	VerbForm=Inf	2	_	_	start_char=6|end_char=13
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=14|end_char=17
+5	fact	fact	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=22
+6	that	that	SCONJ	IN	_	5	_	_	start_char=23|end_char=27
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=28|end_char=31
+8	brought	bring	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=32|end_char=39
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=40|end_char=43
+10	boyfriend	boyfriend	NOUN	NN	Number=Sing	9	_	_	start_char=44|end_char=53
+11	over	over	ADP	RP	_	10	_	_	start_char=54|end_char=58
+12	FOR	for	ADP	IN	_	11	_	_	start_char=59|end_char=62
+13	THE	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=63|end_char=66
+14	QUARANTINE	quarantine	NOUN	NN	Number=Sing	13	_	_	start_char=67|end_char=77|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=77|end_char=78
+
+# text = He better be QUARANTINED there, as in NOT LEAVING
+# sent_id = 26632
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=79|end_char=81
+2	better	well	ADV	RBR	Degree=Cmp	1	_	_	start_char=82|end_char=88
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=89|end_char=91
+4	QUARANTINED	quarantined	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=92|end_char=103
+5	there	there	ADV	RB	PronType=Dem	4	_	_	start_char=104|end_char=109|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=109|end_char=110
+7	as	as	SCONJ	IN	_	6	_	_	start_char=111|end_char=113
+8	in	in	SCONJ	IN	_	7	_	_	start_char=114|end_char=116
+9	NOT	not	PART	RB	_	8	_	_	start_char=117|end_char=120
+10	LEAVING	leave	VERB	VBG	VerbForm=Ger	9	_	_	start_char=121|end_char=128|SpaceAfter=No
+

@@ -1,0 +1,30 @@
+# text = That's a porn star for ya.
+# sent_id = 18246
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=8
+4	porn	porn	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=13
+5	star	star	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=18
+6	for	for	ADP	IN	_	5	_	_	start_char=19|end_char=22
+7	ya	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	6	_	_	start_char=23|end_char=25|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=25|end_char=26
+
+# text = They don't stop screwing you until the director yells 'cut'.
+# sent_id = 18247
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=27|end_char=31
+2-3	don't	_	_	_	_	_	_	_	start_char=32|end_char=37
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=34
+3	n't	not	PART	RB	_	2	_	_	start_char=34|end_char=37
+4	stop	stop	VERB	VB	VerbForm=Inf	3	_	_	start_char=38|end_char=42
+5	screwing	screw	VERB	VBG	VerbForm=Ger	4	_	_	start_char=43|end_char=51
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=52|end_char=55
+7	until	until	SCONJ	IN	_	6	_	_	start_char=56|end_char=61
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=62|end_char=65
+9	director	director	NOUN	NN	Number=Sing	8	_	_	start_char=66|end_char=74
+10	yells	yell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=75|end_char=80
+11	'	'	PUNCT	``	_	10	_	_	start_char=81|end_char=82|SpaceAfter=No
+12	cut	cut	NOUN	NN	Number=Sing	11	_	_	start_char=82|end_char=85|SpaceAfter=No
+13	'	'	PUNCT	''	_	12	_	_	start_char=85|end_char=86|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=86|end_char=87|SpaceAfter=No
+

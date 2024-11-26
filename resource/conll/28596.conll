@@ -1,0 +1,33 @@
+# text = How about: "The unworthy non-victims of non-rape" Hell, let's just go completely feminist-approved.
+# sent_id = 61380
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	about	about	ADP	IN	_	1	_	_	start_char=4|end_char=9|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=9|end_char=10
+4	"	"	PUNCT	``	_	3	_	_	start_char=11|end_char=12|SpaceAfter=No
+5	The	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=12|end_char=15
+6	unworthy	unworthy	ADJ	JJ	Degree=Pos	5	_	_	start_char=16|end_char=24
+7	non-victims	non-victim	NOUN	NNS	Number=Plur	6	_	_	start_char=25|end_char=36
+8	of	of	ADP	IN	_	7	_	_	start_char=37|end_char=39
+9	non-rape	non-rape	NOUN	NN	Number=Sing	8	_	_	start_char=40|end_char=48|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=48|end_char=49
+11	Hell	Hell	PROPN	NNP	Number=Sing	10	_	_	start_char=50|end_char=54|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=54|end_char=55
+13-14	let's	_	_	_	_	_	_	_	start_char=56|end_char=61
+13	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=56|end_char=59
+14	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	_	_	start_char=59|end_char=61
+15	just	just	ADV	RB	_	14	_	_	start_char=62|end_char=66
+16	go	go	VERB	VB	VerbForm=Inf	15	_	_	start_char=67|end_char=69
+17	completely	completely	ADV	RB	_	16	_	_	start_char=70|end_char=80
+18	feminist	feminist	NOUN	NN	Number=Sing	17	_	_	start_char=81|end_char=89|SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	18	_	_	start_char=89|end_char=90|SpaceAfter=No
+20	approved	approve	VERB	VBN	Tense=Past|VerbForm=Part	19	_	_	start_char=90|end_char=98|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=98|end_char=99
+
+# text = "The Unworthy".
+# sent_id = 61381
+1	"	"	PUNCT	``	_	0	_	_	start_char=100|end_char=101|SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=101|end_char=104
+3	Unworthy	Unworthy	PROPN	NNP	Number=Sing	2	_	_	start_char=105|end_char=113|SpaceAfter=No
+4	"	"	PUNCT	''	_	3	_	_	start_char=113|end_char=114|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=114|end_char=115|SpaceAfter=No
+

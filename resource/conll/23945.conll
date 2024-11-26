@@ -1,0 +1,53 @@
+# text = What a stupid strawman argument.
+# sent_id = 51359
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	stupid	stupid	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=13
+4	strawman	strawman	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=22
+5	argument	argument	NOUN	NN	Number=Sing	4	_	_	start_char=23|end_char=31|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=31|end_char=32
+
+# text = Nobody expects you to get up for women.
+# sent_id = 51360
+1	Nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=33|end_char=39
+2	expects	expect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=40|end_char=47
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=48|end_char=51
+4	to	to	PART	TO	_	3	_	_	start_char=52|end_char=54
+5	get	get	VERB	VB	VerbForm=Inf	4	_	_	start_char=55|end_char=58
+6	up	up	ADP	RP	_	5	_	_	start_char=59|end_char=61
+7	for	for	ADP	IN	_	6	_	_	start_char=62|end_char=65
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=66|end_char=71|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=71|end_char=72
+
+# text = Only for pregnant women, women carrying a child, old people and disabled people.
+# sent_id = 51361
+1	Only	only	ADV	RB	_	0	_	_	start_char=73|end_char=77
+2	for	for	ADP	IN	_	1	_	_	start_char=78|end_char=81
+3	pregnant	pregnant	ADJ	JJ	Degree=Pos	2	_	_	start_char=82|end_char=90
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=91|end_char=96|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=96|end_char=97
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=98|end_char=103
+7	carrying	carry	VERB	VBG	VerbForm=Ger	6	_	_	start_char=104|end_char=112
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=113|end_char=114
+9	child	child	NOUN	NN	Number=Sing	8	_	_	start_char=115|end_char=120|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=120|end_char=121
+11	old	old	ADJ	JJ	Degree=Pos	10	_	_	start_char=122|end_char=125
+12	people	person	NOUN	NNS	Number=Plur	11	_	_	start_char=126|end_char=132
+13	and	and	CCONJ	CC	_	12	_	_	start_char=133|end_char=136
+14	disabled	disabled	ADJ	JJ	Degree=Pos	13	_	_	start_char=137|end_char=145
+15	people	person	NOUN	NNS	Number=Plur	14	_	_	start_char=146|end_char=152|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=152|end_char=153
+
+# text = Don't get worked up about imaginary injustice!
+# sent_id = 51362
+1-2	Don't	_	_	_	_	_	_	_	start_char=154|end_char=159
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=154|end_char=156
+2	n't	not	PART	RB	_	1	_	_	start_char=156|end_char=159
+3	get	get	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=160|end_char=163
+4	worked	work	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=164|end_char=170
+5	up	up	ADP	RP	_	4	_	_	start_char=171|end_char=173
+6	about	about	ADP	IN	_	5	_	_	start_char=174|end_char=179
+7	imaginary	imaginary	ADJ	JJ	Degree=Pos	6	_	_	start_char=180|end_char=189
+8	injustice	injustice	NOUN	NN	Number=Sing	7	_	_	start_char=190|end_char=199|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=199|end_char=200|SpaceAfter=No
+

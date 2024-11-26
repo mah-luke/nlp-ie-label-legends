@@ -1,0 +1,48 @@
+# text = "Oh fuck off with that libertarian bullshit.
+# sent_id = 80092
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Oh	oh	INTJ	UH	_	1	_	_	start_char=1|end_char=3
+3	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=4|end_char=8
+4	off	off	ADP	RP	_	3	_	_	start_char=9|end_char=12
+5	with	with	ADP	IN	_	4	_	_	start_char=13|end_char=17
+6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=18|end_char=22
+7	libertarian	libertarian	ADJ	JJ	Degree=Pos	6	_	_	start_char=23|end_char=34
+8	bullshit	bullshit	NOUN	NN	Number=Sing	7	_	_	start_char=35|end_char=43|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=43|end_char=44
+
+# text = Taxes are the price of civilisation.
+# sent_id = 80093
+1	Taxes	taxe	NOUN	NNS	Number=Plur	0	_	_	start_char=45|end_char=50
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=54
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=55|end_char=58
+4	price	price	NOUN	NN	Number=Sing	3	_	_	start_char=59|end_char=64
+5	of	of	ADP	IN	_	4	_	_	start_char=65|end_char=67
+6	civilisation	civilisation	NOUN	NN	Number=Sing	5	_	_	start_char=68|end_char=80|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=80|end_char=81
+
+# text = If you think everything can be run “user pays” you are a moron."
+# sent_id = 80094
+1	If	if	SCONJ	IN	_	0	_	_	start_char=82|end_char=84
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=85|end_char=88
+3	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=89|end_char=94
+4	everything	everything	PRON	NN	Number=Sing|PronType=Tot	3	_	_	start_char=95|end_char=105
+5	can	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=106|end_char=109
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=110|end_char=112
+7	run	run	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=113|end_char=116
+8	“	''	PUNCT	``	_	7	_	_	start_char=117|end_char=118|SpaceAfter=No
+9	user	user	NOUN	NN	Number=Sing	8	_	_	start_char=118|end_char=122
+10	pays	pay	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=123|end_char=127|SpaceAfter=No
+11	”	''	PUNCT	''	_	10	_	_	start_char=127|end_char=128
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=129|end_char=132
+13	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=133|end_char=136
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=137|end_char=138
+15	moron	moron	NOUN	NN	Number=Sing	14	_	_	start_char=139|end_char=144|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=144|end_char=145|SpaceAfter=No
+17	"	"	PUNCT	''	_	16	_	_	start_char=145|end_char=146
+
+# text = [URL]
+# sent_id = 80095
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=147|end_char=148|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=148|end_char=151|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=151|end_char=152|SpaceAfter=No
+

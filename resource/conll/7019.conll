@@ -1,0 +1,68 @@
+# text = Too funny though.
+# sent_id = 14684
+1	Too	too	ADV	RB	_	0	_	_	start_char=0|end_char=3
+2	funny	funny	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=9
+3	though	though	ADV	RB	_	2	_	_	start_char=10|end_char=16|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=16|end_char=17
+
+# text = She's currently 69% "no" votes at this point, by far the widest margin of negative/positive on that list.
+# sent_id = 14685
+1-2	She's	_	_	_	_	_	_	_	start_char=18|end_char=23
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=18|end_char=21
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=21|end_char=23
+3	currently	currently	ADV	RB	_	2	_	_	start_char=24|end_char=33
+4	69	69	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=34|end_char=36|SpaceAfter=No
+5	%	%	SYM	NN	Number=Sing	4	_	_	start_char=36|end_char=37
+6	"	"	PUNCT	``	_	5	_	_	start_char=38|end_char=39|SpaceAfter=No
+7	no	no	DET	DT	PronType=Art	6	_	_	start_char=39|end_char=41|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=41|end_char=42
+9	votes	vote	NOUN	NNS	Number=Plur	8	_	_	start_char=43|end_char=48
+10	at	at	ADP	IN	_	9	_	_	start_char=49|end_char=51
+11	this	this	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=52|end_char=56
+12	point	point	NOUN	NN	Number=Sing	11	_	_	start_char=57|end_char=62|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=62|end_char=63
+14	by	by	ADP	IN	_	13	_	_	start_char=64|end_char=66
+15	far	far	ADV	RB	Degree=Pos	14	_	_	start_char=67|end_char=70
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=71|end_char=74
+17	widest	wide	ADJ	JJS	Degree=Sup	16	_	_	start_char=75|end_char=81
+18	margin	margin	NOUN	NN	Number=Sing	17	_	_	start_char=82|end_char=88
+19	of	of	ADP	IN	_	18	_	_	start_char=89|end_char=91
+20	negative	negative	ADJ	JJ	Degree=Pos	19	_	_	start_char=92|end_char=100|SpaceAfter=No
+21	/	/	SYM	SYM	_	20	_	_	start_char=100|end_char=101|SpaceAfter=No
+22	positive	positive	ADJ	JJ	Degree=Pos	21	_	_	start_char=101|end_char=109
+23	on	on	ADP	IN	_	22	_	_	start_char=110|end_char=112
+24	that	that	DET	DT	Number=Sing|PronType=Dem	23	_	_	start_char=113|end_char=117
+25	list	list	NOUN	NN	Number=Sing	24	_	_	start_char=118|end_char=122|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=122|end_char=123
+
+# text = My prediction: She gets it anyway.
+# sent_id = 14686
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=124|end_char=126
+2	prediction	prediction	NOUN	NN	Number=Sing	1	_	_	start_char=127|end_char=137|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=137|end_char=138
+4	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=139|end_char=142
+5	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=143|end_char=147
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=148|end_char=150
+7	anyway	anyway	ADV	RB	_	6	_	_	start_char=151|end_char=157|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=157|end_char=158
+
+# text = This poll means nothing, she might even get it *despite* abysmally low score.
+# sent_id = 14687
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=159|end_char=163
+2	poll	poll	NOUN	NN	Number=Sing	1	_	_	start_char=164|end_char=168
+3	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=169|end_char=174
+4	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	3	_	_	start_char=175|end_char=182|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=182|end_char=183
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=184|end_char=187
+7	might	might	AUX	MD	VerbForm=Fin	6	_	_	start_char=188|end_char=193
+8	even	even	ADV	RB	_	7	_	_	start_char=194|end_char=198
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=199|end_char=202
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=203|end_char=205
+11	*	*	PUNCT	NFP	_	10	_	_	start_char=206|end_char=207|SpaceAfter=No
+12	despite	despite	ADP	IN	_	11	_	_	start_char=207|end_char=214|SpaceAfter=No
+13	*	*	PUNCT	NFP	_	12	_	_	start_char=214|end_char=215
+14	abysmally	abysmally	ADV	RB	_	13	_	_	start_char=216|end_char=225
+15	low	low	ADJ	JJ	Degree=Pos	14	_	_	start_char=226|end_char=229
+16	score	score	NOUN	NN	Number=Sing	15	_	_	start_char=230|end_char=235|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=235|end_char=236|SpaceAfter=No
+

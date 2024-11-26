@@ -1,0 +1,41 @@
+# text = If you think what she did was "nasty"...oh boy.
+# sent_id = 88335
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=12
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=13|end_char=17
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=18|end_char=21
+6	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=22|end_char=25
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=26|end_char=29
+8	"	"	PUNCT	``	_	7	_	_	start_char=30|end_char=31|SpaceAfter=No
+9	nasty	nasty	ADJ	JJ	Degree=Pos	8	_	_	start_char=31|end_char=36|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=36|end_char=37|SpaceAfter=No
+11	...	...	PUNCT	,	_	10	_	_	start_char=37|end_char=40|SpaceAfter=No
+12	oh	oh	INTJ	UH	_	11	_	_	start_char=40|end_char=42
+13	boy	boy	INTJ	UH	_	12	_	_	start_char=43|end_char=46|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=46|end_char=47
+
+# text = It was an attempt at a bad joke at best.
+# sent_id = 88336
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=48|end_char=50
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=51|end_char=54
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=55|end_char=57
+4	attempt	attempt	NOUN	NN	Number=Sing	3	_	_	start_char=58|end_char=65
+5	at	at	ADP	IN	_	4	_	_	start_char=66|end_char=68
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=69|end_char=70
+7	bad	bad	ADJ	JJ	Degree=Pos	6	_	_	start_char=71|end_char=74
+8	joke	joke	NOUN	NN	Number=Sing	7	_	_	start_char=75|end_char=79
+9	at	at	ADP	IN	_	8	_	_	start_char=80|end_char=82
+10	best	good	ADJ	JJS	Degree=Sup	9	_	_	start_char=83|end_char=87|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=87|end_char=88
+
+# text = Again, she's 14.
+# sent_id = 88337
+1	Again	again	ADV	RB	_	0	_	_	start_char=89|end_char=94|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=94|end_char=95
+3-4	she's	_	_	_	_	_	_	_	start_char=96|end_char=101
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=96|end_char=99
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=99|end_char=101
+5	14	14	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=102|end_char=104|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=104|end_char=105|SpaceAfter=No
+

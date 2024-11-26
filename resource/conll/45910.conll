@@ -1,0 +1,43 @@
+# text = [USER]
+# sent_id = 98053
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = This attack destroys Merkel.
+# sent_id = 98054
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=7|end_char=11
+2	attack	attack	NOUN	NN	Number=Sing	1	_	_	start_char=12|end_char=18
+3	destroys	destroy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=19|end_char=27
+4	Merkel	Merkel	PROPN	NNP	Number=Sing	3	_	_	start_char=28|end_char=34|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=34|end_char=35
+
+# text = There is no way she isn't going to fiddle with the official narrative
+# sent_id = 98055
+1	There	there	PRON	EX	_	0	_	_	start_char=36|end_char=41
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=44
+3	no	no	DET	DT	_	2	_	_	start_char=45|end_char=47
+4	way	way	NOUN	NN	Number=Sing	3	_	_	start_char=48|end_char=51
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=52|end_char=55
+6-7	isn't	_	_	_	_	_	_	_	start_char=56|end_char=61
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=56|end_char=58
+7	n't	not	PART	RB	_	6	_	_	start_char=58|end_char=61
+8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=62|end_char=67
+9	to	to	PART	TO	_	8	_	_	start_char=68|end_char=70
+10	fiddle	fiddle	VERB	VB	VerbForm=Inf	9	_	_	start_char=71|end_char=77
+11	with	with	ADP	IN	_	10	_	_	start_char=78|end_char=82
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=83|end_char=86
+13	official	official	ADJ	JJ	Degree=Pos	12	_	_	start_char=87|end_char=95
+14	narrative	narrative	NOUN	NN	Number=Sing	13	_	_	start_char=96|end_char=105
+
+# text = She is just like Obama with that shit
+# sent_id = 98056
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=106|end_char=109
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=110|end_char=112
+3	just	just	ADV	RB	_	2	_	_	start_char=113|end_char=117
+4	like	like	ADP	IN	_	3	_	_	start_char=118|end_char=122
+5	Obama	Obama	PROPN	NNP	Number=Sing	4	_	_	start_char=123|end_char=128
+6	with	with	ADP	IN	_	5	_	_	start_char=129|end_char=133
+7	that	that	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=134|end_char=138
+8	shit	shit	NOUN	NN	Number=Sing	7	_	_	start_char=139|end_char=143|SpaceAfter=No
+

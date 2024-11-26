@@ -1,0 +1,35 @@
+# text = WMAF have infested everywhere.
+# sent_id = 110862
+1	WMAF	WMAF	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	infested	infest	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=10|end_char=18
+4	everywhere	everywhere	ADV	RB	_	3	_	_	start_char=19|end_char=29|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=29|end_char=30
+
+# text = I'm predicting more Buckners in the future.
+# sent_id = 110863
+1-2	I'm	_	_	_	_	_	_	_	start_char=31|end_char=34
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=31|end_char=32
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=34
+3	predicting	predict	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=35|end_char=45
+4	more	more	ADJ	JJR	Degree=Cmp	3	_	_	start_char=46|end_char=50
+5	Buckners	buckner	NOUN	NNS	Number=Plur	4	_	_	start_char=51|end_char=59
+6	in	in	ADP	IN	_	5	_	_	start_char=60|end_char=62
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=63|end_char=66
+8	future	future	NOUN	NN	Number=Sing	7	_	_	start_char=67|end_char=73|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=73|end_char=74
+
+# text = How many would you say you see per day though?
+# sent_id = 110864
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=75|end_char=78
+2	many	many	ADJ	JJ	Degree=Pos	1	_	_	start_char=79|end_char=83
+3	would	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=84|end_char=89
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=90|end_char=93
+5	say	say	VERB	VB	VerbForm=Inf	4	_	_	start_char=94|end_char=97
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=98|end_char=101
+7	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=102|end_char=105
+8	per	per	ADP	IN	_	7	_	_	start_char=106|end_char=109
+9	day	day	NOUN	NN	Number=Sing	8	_	_	start_char=110|end_char=113
+10	though	though	ADV	RB	_	9	_	_	start_char=114|end_char=120|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=120|end_char=121|SpaceAfter=No
+

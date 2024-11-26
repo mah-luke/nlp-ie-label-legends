@@ -1,0 +1,52 @@
+# text = This is pretty true.
+# sent_id = 101856
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	pretty	pretty	ADV	RB	_	2	_	_	start_char=8|end_char=14
+4	true	true	ADJ	JJ	Degree=Pos	3	_	_	start_char=15|end_char=19|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=19|end_char=20
+
+# text = Same with if you're having fun, she's having fun.
+# sent_id = 101857
+1	Same	same	ADJ	JJ	Degree=Pos	0	_	_	start_char=21|end_char=25
+2	with	with	ADP	IN	_	1	_	_	start_char=26|end_char=30
+3	if	if	SCONJ	IN	_	2	_	_	start_char=31|end_char=33
+4-5	you're	_	_	_	_	_	_	_	start_char=34|end_char=40
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=34|end_char=37
+5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=37|end_char=40
+6	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=41|end_char=47
+7	fun	fun	NOUN	NN	Number=Sing	6	_	_	start_char=48|end_char=51|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=51|end_char=52
+9-10	she's	_	_	_	_	_	_	_	start_char=53|end_char=58
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=53|end_char=56
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=56|end_char=58
+11	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=59|end_char=65
+12	fun	fun	NOUN	NN	Number=Sing	11	_	_	start_char=66|end_char=69|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=69|end_char=70
+
+# text = What you feel, she feels, etc. but sometimes the girls are just fucking boring and that's inevitable.
+# sent_id = 101858
+1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=71|end_char=75
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=76|end_char=79
+3	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=80|end_char=84|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=84|end_char=85
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=86|end_char=89
+6	feels	feel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=90|end_char=95|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=95|end_char=96
+8	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	7	_	_	start_char=97|end_char=100|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=100|end_char=101
+10	but	but	CCONJ	CC	_	9	_	_	start_char=102|end_char=105
+11	sometimes	sometimes	ADV	RB	_	10	_	_	start_char=106|end_char=115
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=116|end_char=119
+13	girls	girl	NOUN	NNS	Number=Plur	12	_	_	start_char=120|end_char=125
+14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=126|end_char=129
+15	just	just	ADV	RB	_	14	_	_	start_char=130|end_char=134
+16	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	15	_	_	start_char=135|end_char=142
+17	boring	boring	ADJ	JJ	Degree=Pos	16	_	_	start_char=143|end_char=149
+18	and	and	CCONJ	CC	_	17	_	_	start_char=150|end_char=153
+19-20	that's	_	_	_	_	_	_	_	start_char=154|end_char=160
+19	that	that	PRON	DT	Number=Sing|PronType=Dem	18	_	_	start_char=154|end_char=158
+20	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=158|end_char=160
+21	inevitable	inevitable	ADJ	JJ	Degree=Pos	20	_	_	start_char=161|end_char=171|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=171|end_char=172|SpaceAfter=No
+

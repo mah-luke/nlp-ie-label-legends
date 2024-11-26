@@ -1,0 +1,39 @@
+# text = In a bar in San Antonio Texas in 80s, British chic asked if I had hair spray.
+# sent_id = 50028
+1	In	in	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=3|end_char=4
+3	bar	bar	NOUN	NN	Number=Sing	2	_	_	start_char=5|end_char=8
+4	in	in	ADP	IN	_	3	_	_	start_char=9|end_char=11
+5	San	San	PROPN	NNP	Number=Sing	4	_	_	start_char=12|end_char=15
+6	Antonio	Antonio	PROPN	NNP	Number=Sing	5	_	_	start_char=16|end_char=23
+7	Texas	Texas	PROPN	NNP	Number=Sing	6	_	_	start_char=24|end_char=29
+8	in	in	ADP	IN	_	7	_	_	start_char=30|end_char=32
+9	80s	80s	NOUN	NNS	Number=Plur	8	_	_	start_char=33|end_char=36|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=36|end_char=37
+11	British	British	ADJ	JJ	Degree=Pos	10	_	_	start_char=38|end_char=45
+12	chic	chic	NOUN	NN	Number=Sing	11	_	_	start_char=46|end_char=50
+13	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=51|end_char=56
+14	if	if	SCONJ	IN	_	13	_	_	start_char=57|end_char=59
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=60|end_char=61
+16	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	_	_	start_char=62|end_char=65
+17	hair	hair	NOUN	NN	Number=Sing	16	_	_	start_char=66|end_char=70
+18	spray	spray	NOUN	NN	Number=Sing	17	_	_	start_char=71|end_char=76|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=76|end_char=77
+
+# text = For the braided hair under her arms.
+# sent_id = 50029
+1	For	for	ADP	IN	_	0	_	_	start_char=78|end_char=81
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=82|end_char=85
+3	braided	braid	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=86|end_char=93
+4	hair	hair	NOUN	NN	Number=Sing	3	_	_	start_char=94|end_char=98
+5	under	under	ADP	IN	_	4	_	_	start_char=99|end_char=104
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=105|end_char=108
+7	arms	arm	NOUN	NNS	Number=Plur	6	_	_	start_char=109|end_char=113|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=113|end_char=114
+
+# text = <gag>....🤤🤤
+# sent_id = 50030
+1	<	<	PUNCT	-LRB-	_	0	_	_	start_char=115|end_char=116|SpaceAfter=No
+2	gag	gag	NOUN	NN	Number=Sing	1	_	_	start_char=116|end_char=119|SpaceAfter=No
+3	>....🤤🤤	>....🤤🤤	PUNCT	-RRB-	_	2	_	_	start_char=119|end_char=126|SpaceAfter=No
+

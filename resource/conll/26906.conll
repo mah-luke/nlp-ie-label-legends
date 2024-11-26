@@ -1,0 +1,64 @@
+# text = Maybe this is being asked from a business perspective.
+# sent_id = 57815
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=0|end_char=5
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=6|end_char=10
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	being	be	AUX	VBG	VerbForm=Ger	3	_	_	start_char=14|end_char=19
+5	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=20|end_char=25
+6	from	from	ADP	IN	_	5	_	_	start_char=26|end_char=30
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=31|end_char=32
+8	business	business	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=41
+9	perspective	perspective	NOUN	NN	Number=Sing	8	_	_	start_char=42|end_char=53|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=53|end_char=54
+
+# text = "How do we get more women into the community?"
+# sent_id = 57816
+1	"	"	PUNCT	``	_	0	_	_	start_char=55|end_char=56|SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	1	_	_	start_char=56|end_char=59
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=60|end_char=62
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=63|end_char=65
+5	get	get	VERB	VB	VerbForm=Inf	4	_	_	start_char=66|end_char=69
+6	more	more	ADJ	JJR	Degree=Cmp	5	_	_	start_char=70|end_char=74
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=75|end_char=80
+8	into	into	ADP	IN	_	7	_	_	start_char=81|end_char=85
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=86|end_char=89
+10	community	community	NOUN	NN	Number=Sing	9	_	_	start_char=90|end_char=99|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=99|end_char=100|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=100|end_char=101
+
+# text = It's hard to tell the context from this...
+# sent_id = 57817
+1-2	It's	_	_	_	_	_	_	_	start_char=102|end_char=106
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=102|end_char=104
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=104|end_char=106
+3	hard	hard	ADJ	JJ	Degree=Pos	2	_	_	start_char=107|end_char=111
+4	to	to	PART	TO	_	3	_	_	start_char=112|end_char=114
+5	tell	tell	VERB	VB	VerbForm=Inf	4	_	_	start_char=115|end_char=119
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=120|end_char=123
+7	context	context	NOUN	NN	Number=Sing	6	_	_	start_char=124|end_char=131
+8	from	from	ADP	IN	_	7	_	_	start_char=132|end_char=136
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=137|end_char=141|SpaceAfter=No
+10	...	...	PUNCT	.	_	9	_	_	start_char=141|end_char=144
+
+# text = Edit: His last comment does make him sound like he might be SJW, but still unsure...
+# sent_id = 57818
+1	Edit	edit	NOUN	NN	Number=Sing	0	_	_	start_char=145|end_char=149|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=149|end_char=150
+3	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=151|end_char=154
+4	last	last	ADJ	JJ	Degree=Pos	3	_	_	start_char=155|end_char=159
+5	comment	comment	NOUN	NN	Number=Sing	4	_	_	start_char=160|end_char=167
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=168|end_char=172
+7	make	make	VERB	VB	VerbForm=Inf	6	_	_	start_char=173|end_char=177
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=178|end_char=181
+9	sound	sound	VERB	VB	VerbForm=Inf	8	_	_	start_char=182|end_char=187
+10	like	like	SCONJ	IN	_	9	_	_	start_char=188|end_char=192
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=193|end_char=195
+12	might	might	AUX	MD	VerbForm=Fin	11	_	_	start_char=196|end_char=201
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=202|end_char=204
+14	SJW	SJW	PROPN	NNP	Number=Sing	13	_	_	start_char=205|end_char=208|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=208|end_char=209
+16	but	but	CCONJ	CC	_	15	_	_	start_char=210|end_char=213
+17	still	still	ADV	RB	_	16	_	_	start_char=214|end_char=219
+18	unsure	unsure	ADJ	JJ	Degree=Pos	17	_	_	start_char=220|end_char=226|SpaceAfter=No
+19	...	...	PUNCT	.	_	18	_	_	start_char=226|end_char=229|SpaceAfter=No
+

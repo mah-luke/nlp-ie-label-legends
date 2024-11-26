@@ -1,0 +1,37 @@
+# text = I will block anyone who attacks me or anyone I care about personaly!
+# sent_id = 104022
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	block	block	VERB	VB	VerbForm=Inf	2	_	_	start_char=7|end_char=12
+4	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=13|end_char=19
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=20|end_char=23
+6	attacks	attack	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=24|end_char=31
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=32|end_char=34
+8	or	or	CCONJ	CC	_	7	_	_	start_char=35|end_char=37
+9	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	8	_	_	start_char=38|end_char=44
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=45|end_char=46
+11	care	care	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=47|end_char=51
+12	about	about	ADP	IN	_	11	_	_	start_char=52|end_char=57
+13	personaly	personally	ADV	RB	_	12	_	_	start_char=58|end_char=67|SpaceAfter=No
+14	!	!	PUNCT	.	_	13	_	_	start_char=67|end_char=68
+
+# text = Otherwise, I am open minded...that's why I voted and support Trump!
+# sent_id = 104023
+1	Otherwise	otherwise	ADV	RB	_	0	_	_	start_char=69|end_char=78|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=78|end_char=79
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=80|end_char=81
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=82|end_char=84
+5	open	open	ADJ	JJ	Degree=Pos	4	_	_	start_char=85|end_char=89
+6	minded	minded	ADJ	JJ	Degree=Pos	5	_	_	start_char=90|end_char=96|SpaceAfter=No
+7	...	...	PUNCT	,	_	6	_	_	start_char=96|end_char=99|SpaceAfter=No
+8-9	that's	_	_	_	_	_	_	_	start_char=99|end_char=105
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=99|end_char=103
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=103|end_char=105
+10	why	why	ADV	WRB	PronType=Rel	9	_	_	start_char=106|end_char=109
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=110|end_char=111
+12	voted	vote	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	_	_	start_char=112|end_char=117
+13	and	and	CCONJ	CC	_	12	_	_	start_char=118|end_char=121
+14	support	support	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=122|end_char=129
+15	Trump	Trump	PROPN	NNP	Number=Sing	14	_	_	start_char=130|end_char=135|SpaceAfter=No
+16	!	!	PUNCT	.	_	15	_	_	start_char=135|end_char=136|SpaceAfter=No
+

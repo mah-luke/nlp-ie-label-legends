@@ -1,0 +1,27 @@
+# text = FROM GOOLAG: corporate censorship.
+# sent_id = 25869
+1	FROM	from	ADP	IN	_	0	_	_	start_char=0|end_char=4
+2	GOOLAG	goolag	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=11|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=11|end_char=12
+4	corporate	corporate	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=22
+5	censorship	censorship	NOUN	NN	Number=Sing	4	_	_	start_char=23|end_char=33|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=33|end_char=34
+
+# text = you try to defend your nation from extermination.
+# sent_id = 25870
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=35|end_char=38
+2	try	try	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=39|end_char=42
+3	to	to	PART	TO	_	2	_	_	start_char=43|end_char=45
+4	defend	defend	VERB	VB	VerbForm=Inf	3	_	_	start_char=46|end_char=52
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=53|end_char=57
+6	nation	nation	NOUN	NN	Number=Sing	5	_	_	start_char=58|end_char=64
+7	from	from	ADP	IN	_	6	_	_	start_char=65|end_char=69
+8	extermination	extermination	NOUN	NN	Number=Sing	7	_	_	start_char=70|end_char=83|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=83|end_char=84
+
+# text = PayPal bans you
+# sent_id = 25871
+1	PayPal	PayPal	PROPN	NNP	Number=Sing	0	_	_	start_char=85|end_char=91
+2	bans	ban	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=92|end_char=96
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=97|end_char=100|SpaceAfter=No
+

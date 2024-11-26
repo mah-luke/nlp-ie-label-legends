@@ -1,0 +1,40 @@
+# text = Oh, never mind then.
+# sent_id = 34005
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	never	never	ADV	RB	_	2	_	_	start_char=4|end_char=9
+4	mind	mind	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=10|end_char=14
+5	then	then	ADV	RB	PronType=Dem	4	_	_	start_char=15|end_char=19|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = I thought you wanted right leaning female youtubers in general.
+# sent_id = 34006
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=21|end_char=22
+2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=23|end_char=30
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=31|end_char=34
+4	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	_	_	start_char=35|end_char=41
+5	right	right	ADV	RB	_	4	_	_	start_char=42|end_char=47
+6	leaning	lean	VERB	VBG	VerbForm=Ger	5	_	_	start_char=48|end_char=55
+7	female	female	ADJ	JJ	Degree=Pos	6	_	_	start_char=56|end_char=62
+8	youtubers	youtuber	NOUN	NNS	Number=Plur	7	_	_	start_char=63|end_char=72
+9	in	in	ADP	IN	_	8	_	_	start_char=73|end_char=75
+10	general	general	ADJ	JJ	Degree=Pos	9	_	_	start_char=76|end_char=83|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=83|end_char=84
+
+# text = Shoe on head would be best for what you're looking for.
+# sent_id = 34007
+1	Shoe	shoe	NOUN	NN	Number=Sing	0	_	_	start_char=85|end_char=89
+2	on	on	ADP	IN	_	1	_	_	start_char=90|end_char=92
+3	head	head	NOUN	NN	Number=Sing	2	_	_	start_char=93|end_char=97
+4	would	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=98|end_char=103
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=104|end_char=106
+6	best	good	ADJ	JJS	Degree=Sup	5	_	_	start_char=107|end_char=111
+7	for	for	ADP	IN	_	6	_	_	start_char=112|end_char=115
+8	what	what	PRON	WP	PronType=Rel	7	_	_	start_char=116|end_char=120
+9-10	you're	_	_	_	_	_	_	_	start_char=121|end_char=127
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=121|end_char=124
+10	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=124|end_char=127
+11	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=128|end_char=135
+12	for	for	ADP	IN	_	11	_	_	start_char=136|end_char=139|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=139|end_char=140|SpaceAfter=No
+

@@ -1,0 +1,58 @@
+# text = Thanks bro.
+# sent_id = 38925
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=6
+2	bro	bro	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=10|end_char=11
+
+# text = I'm from Denmark.
+# sent_id = 38926
+1-2	I'm	_	_	_	_	_	_	_	start_char=12|end_char=15
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=12|end_char=13
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=13|end_char=15
+3	from	from	ADP	IN	_	2	_	_	start_char=16|end_char=20
+4	Denmark	Denmark	PROPN	NNP	Number=Sing	3	_	_	start_char=21|end_char=28|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=28|end_char=29
+
+# text = My biggest insecurity since forever has always been if a girl would turn me down for my race (experienced racist bullying when i was a kid), so my Tinder experience has been quite the eye opener.
+# sent_id = 38927
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=30|end_char=32
+2	biggest	big	ADJ	JJS	Degree=Sup	1	_	_	start_char=33|end_char=40
+3	insecurity	insecurity	NOUN	NN	Number=Sing	2	_	_	start_char=41|end_char=51
+4	since	since	SCONJ	IN	_	3	_	_	start_char=52|end_char=57
+5	forever	forever	ADV	RB	_	4	_	_	start_char=58|end_char=65
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=66|end_char=69
+7	always	always	ADV	RB	_	6	_	_	start_char=70|end_char=76
+8	been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=77|end_char=81
+9	if	if	SCONJ	IN	_	8	_	_	start_char=82|end_char=84
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=85|end_char=86
+11	girl	girl	NOUN	NN	Number=Sing	10	_	_	start_char=87|end_char=91
+12	would	would	AUX	MD	VerbForm=Fin	11	_	_	start_char=92|end_char=97
+13	turn	turn	VERB	VB	VerbForm=Inf	12	_	_	start_char=98|end_char=102
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=103|end_char=105
+15	down	down	ADP	RP	_	14	_	_	start_char=106|end_char=110
+16	for	for	ADP	IN	_	15	_	_	start_char=111|end_char=114
+17	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	_	_	start_char=115|end_char=117
+18	race	race	NOUN	NN	Number=Sing	17	_	_	start_char=118|end_char=122
+19	(	(	PUNCT	-LRB-	_	18	_	_	start_char=123|end_char=124|SpaceAfter=No
+20	experienced	experience	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=124|end_char=135
+21	racist	racist	ADJ	JJ	Degree=Pos	20	_	_	start_char=136|end_char=142
+22	bullying	bullying	NOUN	NN	Number=Sing	21	_	_	start_char=143|end_char=151
+23	when	when	ADV	WRB	PronType=Int	22	_	_	start_char=152|end_char=156
+24	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	_	_	start_char=157|end_char=158
+25	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	_	_	start_char=159|end_char=162
+26	a	a	DET	DT	Definite=Ind|PronType=Art	25	_	_	start_char=163|end_char=164
+27	kid	kid	NOUN	NN	Number=Sing	26	_	_	start_char=165|end_char=168|SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	27	_	_	start_char=168|end_char=169|SpaceAfter=No
+29	,	,	PUNCT	,	_	28	_	_	start_char=169|end_char=170
+30	so	so	ADV	RB	_	29	_	_	start_char=171|end_char=173
+31	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	30	_	_	start_char=174|end_char=176
+32	Tinder	Tinder	PROPN	NNP	Number=Sing	31	_	_	start_char=177|end_char=183
+33	experience	experience	NOUN	NN	Number=Sing	32	_	_	start_char=184|end_char=194
+34	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	_	_	start_char=195|end_char=198
+35	been	be	AUX	VBN	Tense=Past|VerbForm=Part	34	_	_	start_char=199|end_char=203
+36	quite	quite	DET	PDT	_	35	_	_	start_char=204|end_char=209
+37	the	the	DET	DT	Definite=Def|PronType=Art	36	_	_	start_char=210|end_char=213
+38	eye	eye	NOUN	NN	Number=Sing	37	_	_	start_char=214|end_char=217
+39	opener	opener	NOUN	NN	Number=Sing	38	_	_	start_char=218|end_char=224|SpaceAfter=No
+40	.	.	PUNCT	.	_	39	_	_	start_char=224|end_char=225|SpaceAfter=No
+

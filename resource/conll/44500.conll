@@ -1,0 +1,25 @@
+# text = They're looking forward to harassing and molesting USA women.
+# sent_id = 95003
+1-2	They're	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=4
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=8|end_char=15
+4	forward	forward	ADV	RB	_	3	_	_	start_char=16|end_char=23
+5	to	to	SCONJ	IN	_	4	_	_	start_char=24|end_char=26
+6	harassing	harass	VERB	VBG	VerbForm=Ger	5	_	_	start_char=27|end_char=36
+7	and	and	CCONJ	CC	_	6	_	_	start_char=37|end_char=40
+8	molesting	molest	VERB	VBG	VerbForm=Ger	7	_	_	start_char=41|end_char=50
+9	USA	USA	PROPN	NNP	Number=Sing	8	_	_	start_char=51|end_char=54
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=55|end_char=60|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=60|end_char=61
+
+# text = Why take your wife or girlfriend?
+# sent_id = 95004
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=62|end_char=65
+2	take	take	VERB	VB	VerbForm=Fin	1	_	_	start_char=66|end_char=70
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=71|end_char=75
+4	wife	wife	NOUN	NN	Number=Sing	3	_	_	start_char=76|end_char=80
+5	or	or	CCONJ	CC	_	4	_	_	start_char=81|end_char=83
+6	girlfriend	girlfriend	NOUN	NN	Number=Sing	5	_	_	start_char=84|end_char=94|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=94|end_char=95|SpaceAfter=No
+

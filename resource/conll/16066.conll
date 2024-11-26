@@ -1,0 +1,25 @@
+# text = * Jerk off before work.
+# sent_id = 34377
+1	*	*	PUNCT	NFP	_	0	_	_	start_char=0|end_char=1
+2	Jerk	jerk	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	off	off	ADP	RP	_	2	_	_	start_char=7|end_char=10
+4	before	before	ADP	IN	_	3	_	_	start_char=11|end_char=17
+5	work	work	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = *
+# sent_id = 34378
+1	*	*	PUNCT	NFP	_	0	_	_	start_char=24|end_char=25
+
+# text = See if you're less infatuated with her
+# sent_id = 34379
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=26|end_char=29
+2	if	if	SCONJ	IN	_	1	_	_	start_char=30|end_char=32
+3-4	you're	_	_	_	_	_	_	_	start_char=33|end_char=39
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=33|end_char=36
+4	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=36|end_char=39
+5	less	less	ADV	RBR	Degree=Cmp	4	_	_	start_char=40|end_char=44
+6	infatuated	infatuated	ADJ	JJ	Degree=Pos	5	_	_	start_char=45|end_char=55
+7	with	with	ADP	IN	_	6	_	_	start_char=56|end_char=60
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=61|end_char=64|SpaceAfter=No
+

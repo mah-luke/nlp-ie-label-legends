@@ -1,0 +1,29 @@
+# text = Why is she hanging out with another man if she's married?
+# sent_id = 81272
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=7|end_char=10
+4	hanging	hang	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=11|end_char=18
+5	out	out	ADP	RP	_	4	_	_	start_char=19|end_char=22
+6	with	with	ADP	IN	_	5	_	_	start_char=23|end_char=27
+7	another	another	DET	DT	_	6	_	_	start_char=28|end_char=35
+8	man	man	NOUN	NN	Number=Sing	7	_	_	start_char=36|end_char=39
+9	if	if	SCONJ	IN	_	8	_	_	start_char=40|end_char=42
+10-11	she's	_	_	_	_	_	_	_	start_char=43|end_char=48
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=43|end_char=46
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=46|end_char=48
+12	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=49|end_char=56|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=56|end_char=57
+
+# text = From coffee--->dick sucking--->hardcore pounding.
+# sent_id = 81273
+1	From	from	ADP	IN	_	0	_	_	start_char=58|end_char=62
+2	coffee	coffee	NOUN	NN	Number=Sing	1	_	_	start_char=63|end_char=69|SpaceAfter=No
+3	--->	--->	PUNCT	,	_	2	_	_	start_char=69|end_char=73|SpaceAfter=No
+4	dick	dick	NOUN	NN	Number=Sing	3	_	_	start_char=73|end_char=77
+5	sucking	suck	VERB	VBG	VerbForm=Ger	4	_	_	start_char=78|end_char=85|SpaceAfter=No
+6	--->	--->	PUNCT	,	_	5	_	_	start_char=85|end_char=89|SpaceAfter=No
+7	hardcore	hardcore	ADJ	JJ	Degree=Pos	6	_	_	start_char=89|end_char=97
+8	pounding	pounding	NOUN	NN	Number=Sing	7	_	_	start_char=98|end_char=106|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=106|end_char=107|SpaceAfter=No
+

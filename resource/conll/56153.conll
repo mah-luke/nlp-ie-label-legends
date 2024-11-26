@@ -1,0 +1,33 @@
+# text = If you're not ignorant than yes.
+# sent_id = 120061
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2-3	you're	_	_	_	_	_	_	_	start_char=3|end_char=9
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=6|end_char=9
+4	not	not	PART	RB	_	3	_	_	start_char=10|end_char=13
+5	ignorant	ignorant	ADJ	JJ	Degree=Pos	4	_	_	start_char=14|end_char=22
+6	than	than	ADP	IN	_	5	_	_	start_char=23|end_char=27
+7	yes	yes	INTJ	UH	_	6	_	_	start_char=28|end_char=31|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=31|end_char=32
+
+# text = I live in Asia and can easily tell the difference between Chinese/Japanese/Korean girls.
+# sent_id = 120062
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=33|end_char=34
+2	live	live	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=35|end_char=39
+3	in	in	ADP	IN	_	2	_	_	start_char=40|end_char=42
+4	Asia	Asia	PROPN	NNP	Number=Sing	3	_	_	start_char=43|end_char=47
+5	and	and	CCONJ	CC	_	4	_	_	start_char=48|end_char=51
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=52|end_char=55
+7	easily	easily	ADV	RB	_	6	_	_	start_char=56|end_char=62
+8	tell	tell	VERB	VB	VerbForm=Inf	7	_	_	start_char=63|end_char=67
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=68|end_char=71
+10	difference	difference	NOUN	NN	Number=Sing	9	_	_	start_char=72|end_char=82
+11	between	between	ADP	IN	_	10	_	_	start_char=83|end_char=90
+12	Chinese	Chinese	ADJ	JJ	Degree=Pos	11	_	_	start_char=91|end_char=98|SpaceAfter=No
+13	/	/	SYM	,	_	12	_	_	start_char=98|end_char=99|SpaceAfter=No
+14	Japanese	Japanese	ADJ	JJ	Degree=Pos	13	_	_	start_char=99|end_char=107|SpaceAfter=No
+15	/	/	SYM	,	_	14	_	_	start_char=107|end_char=108|SpaceAfter=No
+16	Korean	Korean	ADJ	JJ	Degree=Pos	15	_	_	start_char=108|end_char=114
+17	girls	girl	NOUN	NNS	Number=Plur	16	_	_	start_char=115|end_char=120|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=120|end_char=121|SpaceAfter=No
+

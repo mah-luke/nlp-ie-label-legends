@@ -1,0 +1,19 @@
+# text = Whatever.
+# sent_id = 24184
+1	Whatever	whatever	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=8|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=8|end_char=9
+
+# text = All of that moose knuckle isn't by accident.
+# sent_id = 24185
+1	All	all	DET	DT	_	0	_	_	start_char=10|end_char=13
+2	of	of	ADP	IN	_	1	_	_	start_char=14|end_char=16
+3	that	that	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=17|end_char=21
+4	moose	moose	NOUN	NN	Number=Sing	3	_	_	start_char=22|end_char=27
+5	knuckle	knuckle	NOUN	NN	Number=Sing	4	_	_	start_char=28|end_char=35
+6-7	isn't	_	_	_	_	_	_	_	start_char=36|end_char=41
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=36|end_char=38
+7	n't	not	PART	RB	_	6	_	_	start_char=38|end_char=41
+8	by	by	ADP	IN	_	7	_	_	start_char=42|end_char=44
+9	accident	accident	NOUN	NN	Number=Sing	8	_	_	start_char=45|end_char=53|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=53|end_char=54|SpaceAfter=No
+

@@ -1,0 +1,66 @@
+# text = She's always been a phoney IMO.
+# sent_id = 4073
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	always	always	ADV	RB	_	2	_	_	start_char=6|end_char=12
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=13|end_char=17
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=18|end_char=19
+6	phoney	phoney	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=26
+7	IMO	imo	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=30|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=30|end_char=31
+
+# text = Never trusted a single thing she said.
+# sent_id = 4074
+1	Never	never	ADV	RB	_	0	_	_	start_char=32|end_char=37
+2	trusted	trust	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=38|end_char=45
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=46|end_char=47
+4	single	single	ADJ	JJ	Degree=Pos	3	_	_	start_char=48|end_char=54
+5	thing	thing	NOUN	NN	Number=Sing	4	_	_	start_char=55|end_char=60
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=61|end_char=64
+7	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=65|end_char=69|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=69|end_char=70
+
+# text = The last straw for me was when I heard her say 'old white people just need to die'.
+# sent_id = 4075
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=71|end_char=74
+2	last	last	ADJ	JJ	Degree=Pos	1	_	_	start_char=75|end_char=79
+3	straw	straw	NOUN	NN	Number=Sing	2	_	_	start_char=80|end_char=85
+4	for	for	ADP	IN	_	3	_	_	start_char=86|end_char=89
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=90|end_char=92
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=93|end_char=96
+7	when	when	ADV	WRB	PronType=Int	6	_	_	start_char=97|end_char=101
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=102|end_char=103
+9	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	_	_	start_char=104|end_char=109
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=110|end_char=113
+11	say	say	VERB	VB	VerbForm=Inf	10	_	_	start_char=114|end_char=117
+12	'	'	PUNCT	``	_	11	_	_	start_char=118|end_char=119|SpaceAfter=No
+13	old	old	ADJ	JJ	Degree=Pos	12	_	_	start_char=119|end_char=122
+14	white	white	ADJ	JJ	Degree=Pos	13	_	_	start_char=123|end_char=128
+15	people	person	NOUN	NNS	Number=Plur	14	_	_	start_char=129|end_char=135
+16	just	just	ADV	RB	_	15	_	_	start_char=136|end_char=140
+17	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=141|end_char=145
+18	to	to	PART	TO	_	17	_	_	start_char=146|end_char=148
+19	die	die	VERB	VB	VerbForm=Inf	18	_	_	start_char=149|end_char=152|SpaceAfter=No
+20	'	'	PUNCT	''	_	19	_	_	start_char=152|end_char=153|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=153|end_char=154
+
+# text = Replace 'old white' with 'Jewish' and you've got Hitler.
+# sent_id = 4076
+1	Replace	replace	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=155|end_char=162
+2	'	'	PUNCT	``	_	1	_	_	start_char=163|end_char=164|SpaceAfter=No
+3	old	old	ADJ	JJ	Degree=Pos	2	_	_	start_char=164|end_char=167
+4	white	white	ADJ	JJ	Degree=Pos	3	_	_	start_char=168|end_char=173|SpaceAfter=No
+5	'	'	PUNCT	''	_	4	_	_	start_char=173|end_char=174
+6	with	with	ADP	IN	_	5	_	_	start_char=175|end_char=179
+7	'	'	PUNCT	``	_	6	_	_	start_char=180|end_char=181|SpaceAfter=No
+8	Jewish	Jewish	ADJ	JJ	Degree=Pos	7	_	_	start_char=181|end_char=187|SpaceAfter=No
+9	'	'	PUNCT	''	_	8	_	_	start_char=187|end_char=188
+10	and	and	CCONJ	CC	_	9	_	_	start_char=189|end_char=192
+11-12	you've	_	_	_	_	_	_	_	start_char=193|end_char=199
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=193|end_char=196
+12	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=196|end_char=199
+13	got	get	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=200|end_char=203
+14	Hitler	Hitler	PROPN	NNP	Number=Sing	13	_	_	start_char=204|end_char=210|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=210|end_char=211|SpaceAfter=No
+

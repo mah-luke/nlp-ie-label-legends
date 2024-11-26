@@ -1,0 +1,24 @@
+# text = Low IQ.
+# sent_id = 25999
+1	Low	lo	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=3
+2	IQ	IQ	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=6|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=6|end_char=7
+
+# text = Incel = {Male | Male ∈ Virgin ∩ N_Maxxed ∩ Heterosexual ∩ Desires_Sex}
+# sent_id = 26000
+1	Incel	Incel	PROPN	NNP	Number=Sing	0	_	_	start_char=8|end_char=13
+2	=	=	SYM	SYM	_	1	_	_	start_char=14|end_char=15
+3	{	{	PUNCT	NFP	_	2	_	_	start_char=16|end_char=17|SpaceAfter=No
+4	Male	male	ADJ	JJ	Degree=Pos	3	_	_	start_char=17|end_char=21
+5	|	|	PUNCT	:	_	4	_	_	start_char=22|end_char=23
+6	Male	male	ADJ	JJ	Degree=Pos	5	_	_	start_char=24|end_char=28
+7	∈	∈	NOUN	NN	Number=Sing	6	_	_	start_char=29|end_char=30
+8	Virgin	Virgin	PROPN	NNP	Number=Sing	7	_	_	start_char=31|end_char=37
+9	∩	∩	NOUN	NN	Number=Sing	8	_	_	start_char=38|end_char=39
+10	N_Maxxed	N_Maxxed	PROPN	NNP	Number=Sing	9	_	_	start_char=40|end_char=48
+11	∩	∩	NOUN	NN	Number=Sing	10	_	_	start_char=49|end_char=50
+12	Heterosexual	heterosexual	ADJ	JJ	Degree=Pos	11	_	_	start_char=51|end_char=63
+13	∩	∩	NOUN	NN	Number=Sing	12	_	_	start_char=64|end_char=65
+14	Desires_Sex	Desires_Sex	PROPN	NNP	Number=Sing	13	_	_	start_char=66|end_char=77|SpaceAfter=No
+15	}	}	PUNCT	-RRB-	_	14	_	_	start_char=77|end_char=78|SpaceAfter=No
+

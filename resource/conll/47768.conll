@@ -1,0 +1,69 @@
+# text = Dear Ms Amber Tamblin,
+# sent_id = 102103
+1	Dear	dear	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	Ms	Ms	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=7
+3	Amber	Amber	PROPN	NNP	Number=Sing	2	_	_	start_char=8|end_char=13
+4	Tamblin	Tamblin	PROPN	NNP	Number=Sing	3	_	_	start_char=14|end_char=21|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=21|end_char=22
+
+# text = So sorry to hear you were victim to rape.
+# sent_id = 102104
+1	So	so	ADV	RB	_	0	_	_	start_char=23|end_char=25
+2	sorry	sorry	ADJ	JJ	Degree=Pos	1	_	_	start_char=26|end_char=31
+3	to	to	PART	TO	_	2	_	_	start_char=32|end_char=34
+4	hear	hear	VERB	VB	VerbForm=Inf	3	_	_	start_char=35|end_char=39
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=40|end_char=43
+6	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	_	_	start_char=44|end_char=48
+7	victim	victim	NOUN	NN	Number=Sing	6	_	_	start_char=49|end_char=55
+8	to	to	PART	TO	_	7	_	_	start_char=56|end_char=58
+9	rape	rape	VERB	VB	VerbForm=Inf	8	_	_	start_char=59|end_char=63|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=63|end_char=64
+
+# text = Honestly.
+# sent_id = 102105
+1	Honestly	honestly	ADV	RB	_	0	_	_	start_char=65|end_char=73|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=73|end_char=74
+
+# text = But if you react this viscerally to WORDS.......you might want to seek counseling when you learn your candidate not only gets rapist out of jail, she's married to 1.
+# sent_id = 102106
+1	But	but	CCONJ	CC	_	0	_	_	start_char=75|end_char=78
+2	if	if	SCONJ	IN	_	1	_	_	start_char=79|end_char=81
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=82|end_char=85
+4	react	react	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=86|end_char=91
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=92|end_char=96
+6	viscerally	viscerally	ADV	RB	_	5	_	_	start_char=97|end_char=107
+7	to	to	ADP	IN	_	6	_	_	start_char=108|end_char=110
+8	WORDS	word	NOUN	NNS	Number=Plur	7	_	_	start_char=111|end_char=116|SpaceAfter=No
+9	.......	.......	PUNCT	,	_	8	_	_	start_char=116|end_char=123|SpaceAfter=No
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=123|end_char=126
+11	might	might	AUX	MD	VerbForm=Fin	10	_	_	start_char=127|end_char=132
+12	want	want	VERB	VB	VerbForm=Inf	11	_	_	start_char=133|end_char=137
+13	to	to	PART	TO	_	12	_	_	start_char=138|end_char=140
+14	seek	seek	VERB	VB	VerbForm=Inf	13	_	_	start_char=141|end_char=145
+15	counseling	counseling	NOUN	NN	Number=Sing	14	_	_	start_char=146|end_char=156
+16	when	when	ADV	WRB	PronType=Int	15	_	_	start_char=157|end_char=161
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	_	_	start_char=162|end_char=165
+18	learn	learn	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	_	_	start_char=166|end_char=171
+19	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	18	_	_	start_char=172|end_char=176
+20	candidate	candidate	NOUN	NN	Number=Sing	19	_	_	start_char=177|end_char=186
+21	not	not	PART	RB	_	20	_	_	start_char=187|end_char=190
+22	only	only	ADV	RB	_	21	_	_	start_char=191|end_char=195
+23	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=196|end_char=200
+24	rapist	rapist	NOUN	NN	Number=Sing	23	_	_	start_char=201|end_char=207
+25	out	out	ADP	IN	_	24	_	_	start_char=208|end_char=211
+26	of	of	ADP	IN	_	25	_	_	start_char=212|end_char=214
+27	jail	jail	NOUN	NN	Number=Sing	26	_	_	start_char=215|end_char=219|SpaceAfter=No
+28	,	,	PUNCT	,	_	27	_	_	start_char=219|end_char=220
+29-30	she's	_	_	_	_	_	_	_	start_char=221|end_char=226
+29	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	28	_	_	start_char=221|end_char=224
+30	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	_	_	start_char=224|end_char=226
+31	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	30	_	_	start_char=227|end_char=234
+32	to	to	ADP	IN	_	31	_	_	start_char=235|end_char=237
+33	1	1	NUM	CD	NumForm=Digit|NumType=Card	32	_	_	start_char=238|end_char=239|SpaceAfter=No
+34	.	.	PUNCT	.	_	33	_	_	start_char=239|end_char=240
+
+# text = #Caring
+# sent_id = 102107
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=241|end_char=242|SpaceAfter=No
+2	Caring	care	NOUN	NN	Number=Sing	1	_	_	start_char=242|end_char=248|SpaceAfter=No
+

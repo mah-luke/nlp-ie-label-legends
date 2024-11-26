@@ -1,0 +1,22 @@
+# text = She's a brave woman who understands history.
+# sent_id = 92315
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=6|end_char=7
+4	brave	brave	ADJ	JJ	Degree=Pos	3	_	_	start_char=8|end_char=13
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=19
+6	who	who	PRON	WP	PronType=Rel	5	_	_	start_char=20|end_char=23
+7	understands	understand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=24|end_char=35
+8	history	history	NOUN	NN	Number=Sing	7	_	_	start_char=36|end_char=43|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=43|end_char=44
+
+# text = She has my greatest respect.
+# sent_id = 92316
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=45|end_char=48
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=49|end_char=52
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=53|end_char=55
+4	greatest	great	ADJ	JJS	Degree=Sup	3	_	_	start_char=56|end_char=64
+5	respect	respect	NOUN	NN	Number=Sing	4	_	_	start_char=65|end_char=72|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=72|end_char=73|SpaceAfter=No
+

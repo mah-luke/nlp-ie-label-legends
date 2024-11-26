@@ -1,0 +1,58 @@
+# text = I'm not saying we need to force girls to have sex with us.
+# sent_id = 44805
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	not	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=8|end_char=14
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=15|end_char=17
+6	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=18|end_char=22
+7	to	to	PART	TO	_	6	_	_	start_char=23|end_char=25
+8	force	force	VERB	VB	VerbForm=Inf	7	_	_	start_char=26|end_char=31
+9	girls	girl	NOUN	NNS	Number=Plur	8	_	_	start_char=32|end_char=37
+10	to	to	PART	TO	_	9	_	_	start_char=38|end_char=40
+11	have	have	VERB	VB	VerbForm=Inf	10	_	_	start_char=41|end_char=45
+12	sex	sex	NOUN	NN	Number=Sing	11	_	_	start_char=46|end_char=49
+13	with	with	ADP	IN	_	12	_	_	start_char=50|end_char=54
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	_	_	start_char=55|end_char=57|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=57|end_char=58
+
+# text = But rather, we don't let Chad have sex.
+# sent_id = 44806
+1	But	but	CCONJ	CC	_	0	_	_	start_char=59|end_char=62
+2	rather	rather	ADV	RB	_	1	_	_	start_char=63|end_char=69|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=69|end_char=70
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=71|end_char=73
+5-6	don't	_	_	_	_	_	_	_	start_char=74|end_char=79
+5	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=74|end_char=76
+6	n't	not	PART	RB	_	5	_	_	start_char=76|end_char=79
+7	let	let	VERB	VB	VerbForm=Inf	6	_	_	start_char=80|end_char=83
+8	Chad	Chad	PROPN	NNP	Number=Sing	7	_	_	start_char=84|end_char=88
+9	have	have	VERB	VB	VerbForm=Inf	8	_	_	start_char=89|end_char=93
+10	sex	sex	NOUN	NN	Number=Sing	9	_	_	start_char=94|end_char=97|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=97|end_char=98
+
+# text = If people complain about this, the answer is very clear: "YOU ARE NOT ENTITLED TO SEX!"
+# sent_id = 44807
+1	If	if	SCONJ	IN	_	0	_	_	start_char=99|end_char=101
+2	people	person	NOUN	NNS	Number=Plur	1	_	_	start_char=102|end_char=108
+3	complain	complain	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=109|end_char=117
+4	about	about	ADP	IN	_	3	_	_	start_char=118|end_char=123
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=124|end_char=128|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=128|end_char=129
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=130|end_char=133
+8	answer	answer	NOUN	NN	Number=Sing	7	_	_	start_char=134|end_char=140
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=141|end_char=143
+10	very	very	ADV	RB	_	9	_	_	start_char=144|end_char=148
+11	clear	clear	ADJ	JJ	Degree=Pos	10	_	_	start_char=149|end_char=154|SpaceAfter=No
+12	:	:	PUNCT	:	_	11	_	_	start_char=154|end_char=155
+13	"	"	PUNCT	``	_	12	_	_	start_char=156|end_char=157|SpaceAfter=No
+14	YOU	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	_	_	start_char=157|end_char=160
+15	ARE	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	_	_	start_char=161|end_char=164
+16	NOT	not	PART	RB	_	15	_	_	start_char=165|end_char=168
+17	ENTITLED	entitle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=169|end_char=177
+18	TO	to	PART	TO	_	17	_	_	start_char=178|end_char=180
+19	SEX	sex	NOUN	NN	Number=Sing	18	_	_	start_char=181|end_char=184|SpaceAfter=No
+20	!	!	PUNCT	.	_	19	_	_	start_char=184|end_char=185|SpaceAfter=No
+21	"	"	PUNCT	''	_	20	_	_	start_char=185|end_char=186|SpaceAfter=No
+

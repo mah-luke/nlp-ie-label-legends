@@ -1,0 +1,40 @@
+# text = dammit - that's a great line.
+# sent_id = 49578
+1	dammit	dammit	INTJ	UH	_	0	_	_	start_char=0|end_char=6
+2	-	-	PUNCT	,	_	1	_	_	start_char=7|end_char=8
+3-4	that's	_	_	_	_	_	_	_	start_char=9|end_char=15
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=9|end_char=13
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=15
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=16|end_char=17
+6	great	great	ADJ	JJ	Degree=Pos	5	_	_	start_char=18|end_char=23
+7	line	line	NOUN	NN	Number=Sing	6	_	_	start_char=24|end_char=28|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=28|end_char=29
+
+# text = In most of my life I'm able to crack the wit.
+# sent_id = 49579
+1	In	in	ADP	IN	_	0	_	_	start_char=30|end_char=32
+2	most	most	ADJ	JJS	Degree=Sup	1	_	_	start_char=33|end_char=37
+3	of	of	ADP	IN	_	2	_	_	start_char=38|end_char=40
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=41|end_char=43
+5	life	life	NOUN	NN	Number=Sing	4	_	_	start_char=44|end_char=48
+6-7	I'm	_	_	_	_	_	_	_	start_char=49|end_char=52
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=49|end_char=50
+7	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=50|end_char=52
+8	able	able	ADJ	JJ	Degree=Pos	7	_	_	start_char=53|end_char=57
+9	to	to	PART	TO	_	8	_	_	start_char=58|end_char=60
+10	crack	crack	VERB	VB	VerbForm=Inf	9	_	_	start_char=61|end_char=66
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=67|end_char=70
+12	wit	wit	NOUN	NN	Number=Sing	11	_	_	start_char=71|end_char=74|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=74|end_char=75
+
+# text = But when it comes to girls... nothing
+# sent_id = 49580
+1	But	but	CCONJ	CC	_	0	_	_	start_char=76|end_char=79
+2	when	when	ADV	WRB	PronType=Int	1	_	_	start_char=80|end_char=84
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=85|end_char=87
+4	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=88|end_char=93
+5	to	to	ADP	IN	_	4	_	_	start_char=94|end_char=96
+6	girls	girl	NOUN	NNS	Number=Plur	5	_	_	start_char=97|end_char=102|SpaceAfter=No
+7	...	...	PUNCT	,	_	6	_	_	start_char=102|end_char=105
+8	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	7	_	_	start_char=106|end_char=113|SpaceAfter=No
+

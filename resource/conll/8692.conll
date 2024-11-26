@@ -1,0 +1,70 @@
+# text = Thats kind of how I feel.
+# sent_id = 18285
+1-2	Thats	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=5
+3	kind	kind	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=10
+4	of	of	ADP	IN	_	3	_	_	start_char=11|end_char=13
+5	how	how	ADV	WRB	PronType=Int	4	_	_	start_char=14|end_char=17
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=18|end_char=19
+7	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=20|end_char=24|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=24|end_char=25
+
+# text = But like I said earlier, what would be a good re-approach to reask about a coffee date as friends?
+# sent_id = 18286
+1	But	but	CCONJ	CC	_	0	_	_	start_char=26|end_char=29
+2	like	like	SCONJ	IN	_	1	_	_	start_char=30|end_char=34
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=35|end_char=36
+4	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=37|end_char=41
+5	earlier	early	ADV	RBR	Degree=Cmp	4	_	_	start_char=42|end_char=49|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=49|end_char=50
+7	what	what	PRON	WP	PronType=Int	6	_	_	start_char=51|end_char=55
+8	would	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=56|end_char=61
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=62|end_char=64
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=65|end_char=66
+11	good	good	ADJ	JJ	Degree=Pos	10	_	_	start_char=67|end_char=71
+12	re-approach	re-approach	NOUN	NN	Number=Sing	11	_	_	start_char=72|end_char=83
+13	to	to	PART	TO	_	12	_	_	start_char=84|end_char=86
+14	reask	reask	VERB	VB	VerbForm=Inf	13	_	_	start_char=87|end_char=92
+15	about	about	ADP	IN	_	14	_	_	start_char=93|end_char=98
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=99|end_char=100
+17	coffee	coffee	NOUN	NN	Number=Sing	16	_	_	start_char=101|end_char=107
+18	date	date	NOUN	NN	Number=Sing	17	_	_	start_char=108|end_char=112
+19	as	as	ADP	IN	_	18	_	_	start_char=113|end_char=115
+20	friends	friend	NOUN	NNS	Number=Plur	19	_	_	start_char=116|end_char=123|SpaceAfter=No
+21	?	?	PUNCT	.	_	20	_	_	start_char=123|end_char=124
+
+# text = From the get go, this girl was never a "I wanna sleep with her" more of a "I need to know this women" lol
+# sent_id = 18287
+1	From	from	ADP	IN	_	0	_	_	start_char=125|end_char=129
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=130|end_char=133
+3	get	get	AUX	VB	VerbForm=Inf	2	_	_	start_char=134|end_char=137
+4	go	go	VERB	VB	VerbForm=Inf	3	_	_	start_char=138|end_char=140|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=140|end_char=141
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=142|end_char=146
+7	girl	girl	NOUN	NN	Number=Sing	6	_	_	start_char=147|end_char=151
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=152|end_char=155
+9	never	never	ADV	RB	_	8	_	_	start_char=156|end_char=161
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=162|end_char=163
+11	"	"	PUNCT	``	_	10	_	_	start_char=164|end_char=165|SpaceAfter=No
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=165|end_char=166
+13-14	wanna	_	_	_	_	_	_	_	start_char=167|end_char=172
+13	wan	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=167|end_char=170
+14	na	to	PART	TO	_	13	_	_	start_char=170|end_char=172
+15	sleep	sleep	VERB	VB	VerbForm=Inf	14	_	_	start_char=173|end_char=178
+16	with	with	ADP	IN	_	15	_	_	start_char=179|end_char=183
+17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=184|end_char=187|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=187|end_char=188
+19	more	more	ADJ	JJR	Degree=Cmp	18	_	_	start_char=189|end_char=193
+20	of	of	ADP	IN	_	19	_	_	start_char=194|end_char=196
+21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=197|end_char=198
+22	"	"	PUNCT	``	_	21	_	_	start_char=199|end_char=200|SpaceAfter=No
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	_	_	start_char=200|end_char=201
+24	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	_	_	start_char=202|end_char=206
+25	to	to	PART	TO	_	24	_	_	start_char=207|end_char=209
+26	know	know	VERB	VB	VerbForm=Inf	25	_	_	start_char=210|end_char=214
+27	this	this	DET	DT	Number=Sing|PronType=Dem	26	_	_	start_char=215|end_char=219
+28	women	woman	NOUN	NNS	Number=Plur	27	_	_	start_char=220|end_char=225|SpaceAfter=No
+29	"	"	PUNCT	''	_	28	_	_	start_char=225|end_char=226
+30	lol	lol	INTJ	UH	_	29	_	_	start_char=227|end_char=230|SpaceAfter=No
+

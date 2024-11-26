@@ -1,0 +1,62 @@
+# text = Wanted to get happily married.
+# sent_id = 20108
+1	Wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=0|end_char=6
+2	to	to	PART	TO	_	1	_	_	start_char=7|end_char=9
+3	get	get	VERB	VB	VerbForm=Inf	2	_	_	start_char=10|end_char=13
+4	happily	happily	ADV	RB	_	3	_	_	start_char=14|end_char=21
+5	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=22|end_char=29|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=29|end_char=30
+
+# text = >
+# sent_id = 20109
+1	>	>	PUNCT	-RRB-	_	0	_	_	start_char=31|end_char=32
+
+# text = Then no-fault divorce came around.
+# sent_id = 20110
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=33|end_char=37
+2	no	no	DET	DT	_	1	_	_	start_char=38|end_char=40|SpaceAfter=No
+3	-fault	-fault	NOUN	NN	Number=Sing	2	_	_	start_char=40|end_char=46
+4	divorce	divorce	NOUN	NN	Number=Sing	3	_	_	start_char=47|end_char=54
+5	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=55|end_char=59
+6	around	around	ADV	RB	_	5	_	_	start_char=60|end_char=66|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=66|end_char=67
+
+# text = >
+# sent_id = 20111
+1	>	>	PUNCT	-RRB-	_	0	_	_	start_char=68|end_char=69
+
+# text = Well, shit, guess I better get a pre-nup.
+# sent_id = 20112
+1	Well	well	INTJ	UH	_	0	_	_	start_char=70|end_char=74|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=74|end_char=75
+3	shit	shit	INTJ	UH	_	2	_	_	start_char=76|end_char=80|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=80|end_char=81
+5	guess	guess	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=82|end_char=87
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=88|end_char=89
+7	better	well	ADV	RBR	Degree=Cmp	6	_	_	start_char=90|end_char=96
+8	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=97|end_char=100
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=101|end_char=102
+10	pre-nup	pre-nup	NOUN	NN	Number=Sing	9	_	_	start_char=103|end_char=110|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=110|end_char=111
+
+# text = >
+# sent_id = 20113
+1	>	>	PUNCT	-RRB-	_	0	_	_	start_char=112|end_char=113
+
+# text = Pre-nups didn't mean shit anymore and family courts became rape dungeons.
+# sent_id = 20114
+1	Pre-nups	pre-nup	NOUN	NNS	Number=Plur	0	_	_	start_char=114|end_char=122
+2-3	didn't	_	_	_	_	_	_	_	start_char=123|end_char=129
+2	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=123|end_char=126
+3	n't	not	PART	RB	_	2	_	_	start_char=126|end_char=129
+4	mean	mean	VERB	VB	VerbForm=Inf	3	_	_	start_char=130|end_char=134
+5	shit	shit	NOUN	NN	Number=Sing	4	_	_	start_char=135|end_char=139
+6	anymore	anymore	ADV	RB	_	5	_	_	start_char=140|end_char=147
+7	and	and	CCONJ	CC	_	6	_	_	start_char=148|end_char=151
+8	family	family	NOUN	NN	Number=Sing	7	_	_	start_char=152|end_char=158
+9	courts	court	NOUN	NNS	Number=Plur	8	_	_	start_char=159|end_char=165
+10	became	become	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=166|end_char=172
+11	rape	rape	NOUN	NN	Number=Sing	10	_	_	start_char=173|end_char=177
+12	dungeons	dungeon	NOUN	NNS	Number=Plur	11	_	_	start_char=178|end_char=186|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=186|end_char=187|SpaceAfter=No
+

@@ -1,0 +1,53 @@
+# text = I get matches.
+# sent_id = 62228
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	matches	match	NOUN	NNS	Number=Plur	2	_	_	start_char=6|end_char=13|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=13|end_char=14
+
+# text = They are either bots or fat single mom's who don't respond/block me.
+# sent_id = 62229
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=15|end_char=19
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=20|end_char=23
+3	either	either	CCONJ	CC	_	2	_	_	start_char=24|end_char=30
+4	bots	bot	NOUN	NNS	Number=Plur	3	_	_	start_char=31|end_char=35
+5	or	or	CCONJ	CC	_	4	_	_	start_char=36|end_char=38
+6	fat	fat	ADJ	JJ	Degree=Pos	5	_	_	start_char=39|end_char=42
+7	single	single	ADJ	JJ	Degree=Pos	6	_	_	start_char=43|end_char=49
+8-9	mom's	_	_	_	_	_	_	_	start_char=50|end_char=55
+8	mom	mom	NOUN	NN	Number=Sing	7	_	_	start_char=50|end_char=53
+9	's	's	PART	POS	_	8	_	_	start_char=53|end_char=55
+10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=56|end_char=59
+11-12	don't	_	_	_	_	_	_	_	start_char=60|end_char=65
+11	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=60|end_char=62
+12	n't	not	PART	RB	_	11	_	_	start_char=62|end_char=65
+13	respond	respond	VERB	VB	VerbForm=Inf	12	_	_	start_char=66|end_char=73|SpaceAfter=No
+14	/	/	SYM	,	_	13	_	_	start_char=73|end_char=74|SpaceAfter=No
+15	block	block	VERB	VB	VerbForm=Inf	14	_	_	start_char=74|end_char=79
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=80|end_char=82|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=82|end_char=83
+
+# text = Been on tinder since launch.
+# sent_id = 62230
+1	Been	be	AUX	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=84|end_char=88
+2	on	on	ADP	IN	_	1	_	_	start_char=89|end_char=91
+3	tinder	tinder	NOUN	NN	Number=Sing	2	_	_	start_char=92|end_char=98
+4	since	since	ADP	IN	_	3	_	_	start_char=99|end_char=104
+5	launch	launch	NOUN	NN	Number=Sing	4	_	_	start_char=105|end_char=111|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=111|end_char=112
+
+# text = Point countered, rekt and op shit on massively elephant style.
+# sent_id = 62231
+1	Point	point	NOUN	NN	Number=Sing	0	_	_	start_char=113|end_char=118
+2	countered	counter	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin	1	_	_	start_char=119|end_char=128|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=128|end_char=129
+4	rekt	rekt	ADJ	JJ	Degree=Pos	3	_	_	start_char=130|end_char=134
+5	and	and	CCONJ	CC	_	4	_	_	start_char=135|end_char=138
+6	op	op	NOUN	NN	Number=Sing	5	_	_	start_char=139|end_char=141
+7	shit	shit	NOUN	NN	Number=Sing	6	_	_	start_char=142|end_char=146
+8	on	on	ADP	IN	_	7	_	_	start_char=147|end_char=149
+9	massively	massively	ADV	RB	_	8	_	_	start_char=150|end_char=159
+10	elephant	elephant	NOUN	NN	Number=Sing	9	_	_	start_char=160|end_char=168
+11	style	style	NOUN	NN	Number=Sing	10	_	_	start_char=169|end_char=174|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=174|end_char=175|SpaceAfter=No
+

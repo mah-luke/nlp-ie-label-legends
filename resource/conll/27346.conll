@@ -1,0 +1,75 @@
+# text = Just after he had made the shot.
+# sent_id = 58694
+1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	after	after	SCONJ	IN	_	1	_	_	start_char=5|end_char=10
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=11|end_char=13
+4	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=14|end_char=17
+5	made	make	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=18|end_char=22
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=23|end_char=26
+7	shot	shot	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=31|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=31|end_char=32
+
+# text = He smiled.
+# sent_id = 58695
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=33|end_char=35
+2	smiled	smile	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=36|end_char=42|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=42|end_char=43
+
+# text = She killed him.
+# sent_id = 58696
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=44|end_char=47
+2	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=48|end_char=54
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=55|end_char=58|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=58|end_char=59
+
+# text = That is what women are capable of.
+# sent_id = 58697
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=60|end_char=64
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=65|end_char=67
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=68|end_char=72
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=73|end_char=78
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=79|end_char=82
+6	capable	capable	ADJ	JJ	Degree=Pos	5	_	_	start_char=83|end_char=90
+7	of	of	ADP	IN	_	6	_	_	start_char=91|end_char=93|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=93|end_char=94
+
+# text = Never trust a woman.
+# sent_id = 58698
+1	Never	never	ADV	RB	_	0	_	_	start_char=95|end_char=100
+2	trust	trust	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=101|end_char=106
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=107|end_char=108
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=109|end_char=114|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=114|end_char=115
+
+# text = Never.
+# sent_id = 58699
+1	Never	never	ADV	RB	_	0	_	_	start_char=116|end_char=121|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=121|end_char=122
+
+# text = They will kill you, one way or another.
+# sent_id = 58700
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=123|end_char=127
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=128|end_char=132
+3	kill	kill	VERB	VB	VerbForm=Inf	2	_	_	start_char=133|end_char=137
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=138|end_char=141|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=141|end_char=142
+6	one	one	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=143|end_char=146
+7	way	way	NOUN	NN	Number=Sing	6	_	_	start_char=147|end_char=150
+8	or	or	CCONJ	CC	_	7	_	_	start_char=151|end_char=153
+9	another	another	DET	DT	_	8	_	_	start_char=154|end_char=161|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=161|end_char=162
+
+# text = Quickly, with a bullet, or bleed you out.
+# sent_id = 58701
+1	Quickly	quickly	ADV	RB	_	0	_	_	start_char=163|end_char=170|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=170|end_char=171
+3	with	with	ADP	IN	_	2	_	_	start_char=172|end_char=176
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=177|end_char=178
+5	bullet	bullet	NOUN	NN	Number=Sing	4	_	_	start_char=179|end_char=185|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=185|end_char=186
+7	or	or	CCONJ	CC	_	6	_	_	start_char=187|end_char=189
+8	bleed	bleed	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=190|end_char=195
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=196|end_char=199
+10	out	out	ADP	RP	_	9	_	_	start_char=200|end_char=203|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=203|end_char=204|SpaceAfter=No
+

@@ -1,0 +1,50 @@
+# text = I'm considered below average in looks and I'm extremely short.
+# sent_id = 84504
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=4|end_char=14
+4	below	below	ADP	IN	_	3	_	_	start_char=15|end_char=20
+5	average	average	NOUN	NN	Number=Sing	4	_	_	start_char=21|end_char=28
+6	in	in	ADP	IN	_	5	_	_	start_char=29|end_char=31
+7	looks	look	NOUN	NNS	Number=Plur	6	_	_	start_char=32|end_char=37
+8	and	and	CCONJ	CC	_	7	_	_	start_char=38|end_char=41
+9-10	I'm	_	_	_	_	_	_	_	start_char=42|end_char=45
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=42|end_char=43
+10	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=43|end_char=45
+11	extremely	extremely	ADV	RB	_	10	_	_	start_char=46|end_char=55
+12	short	short	ADJ	JJ	Degree=Pos	11	_	_	start_char=56|end_char=61|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=61|end_char=62
+
+# text = My voice is high pitched and I'm pale as fuck but I'm confident and able to talk to girls without being annoying about it.
+# sent_id = 84505
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=63|end_char=65
+2	voice	voice	NOUN	NN	Number=Sing	1	_	_	start_char=66|end_char=71
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=72|end_char=74
+4	high	high	ADJ	JJ	Degree=Pos	3	_	_	start_char=75|end_char=79
+5	pitched	pitch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=80|end_char=87
+6	and	and	CCONJ	CC	_	5	_	_	start_char=88|end_char=91
+7-8	I'm	_	_	_	_	_	_	_	start_char=92|end_char=95
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=92|end_char=93
+8	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=93|end_char=95
+9	pale	pale	ADJ	JJ	Degree=Pos	8	_	_	start_char=96|end_char=100
+10	as	as	ADP	IN	_	9	_	_	start_char=101|end_char=103
+11	fuck	fuck	NOUN	NN	Number=Sing	10	_	_	start_char=104|end_char=108
+12	but	but	CCONJ	CC	_	11	_	_	start_char=109|end_char=112
+13-14	I'm	_	_	_	_	_	_	_	start_char=113|end_char=116
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=113|end_char=114
+14	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=114|end_char=116
+15	confident	confident	ADJ	JJ	Degree=Pos	14	_	_	start_char=117|end_char=126
+16	and	and	CCONJ	CC	_	15	_	_	start_char=127|end_char=130
+17	able	able	ADJ	JJ	Degree=Pos	16	_	_	start_char=131|end_char=135
+18	to	to	PART	TO	_	17	_	_	start_char=136|end_char=138
+19	talk	talk	VERB	VB	VerbForm=Inf	18	_	_	start_char=139|end_char=143
+20	to	to	ADP	IN	_	19	_	_	start_char=144|end_char=146
+21	girls	girl	NOUN	NNS	Number=Plur	20	_	_	start_char=147|end_char=152
+22	without	without	SCONJ	IN	_	21	_	_	start_char=153|end_char=160
+23	being	be	AUX	VBG	VerbForm=Ger	22	_	_	start_char=161|end_char=166
+24	annoying	annoying	ADJ	JJ	Degree=Pos	23	_	_	start_char=167|end_char=175
+25	about	about	ADP	IN	_	24	_	_	start_char=176|end_char=181
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	_	_	start_char=182|end_char=184|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=184|end_char=185|SpaceAfter=No
+

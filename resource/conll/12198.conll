@@ -1,0 +1,23 @@
+# text = Damn white people and their protesting against the president whom we also hate!
+# sent_id = 25848
+1	Damn	Damn	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	white	white	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=10
+3	people	person	NOUN	NNS	Number=Plur	2	_	_	start_char=11|end_char=17
+4	and	and	CCONJ	CC	_	3	_	_	start_char=18|end_char=21
+5	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=22|end_char=27
+6	protesting	protest	NOUN	NN	Number=Sing	5	_	_	start_char=28|end_char=38
+7	against	against	ADP	IN	_	6	_	_	start_char=39|end_char=46
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=47|end_char=50
+9	president	president	NOUN	NN	Number=Sing	8	_	_	start_char=51|end_char=60
+10	whom	whom	PRON	WP	PronType=Rel	9	_	_	start_char=61|end_char=65
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	_	_	start_char=66|end_char=68
+12	also	also	ADV	RB	_	11	_	_	start_char=69|end_char=73
+13	hate	hate	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=74|end_char=78|SpaceAfter=No
+14	!	!	PUNCT	.	_	13	_	_	start_char=78|end_char=79
+
+# text = [URL]
+# sent_id = 25849
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=80|end_char=81|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=81|end_char=84|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=84|end_char=85|SpaceAfter=No
+

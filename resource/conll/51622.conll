@@ -1,0 +1,52 @@
+# text = The last time I visited San Fran, it was a 2003 vacation with my wife.
+# sent_id = 110326
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	last	last	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=8
+3	time	time	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=13
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=14|end_char=15
+5	visited	visit	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=16|end_char=23
+6	San	San	PROPN	NNP	Number=Sing	5	_	_	start_char=24|end_char=27
+7	Fran	Fran	PROPN	NNP	Number=Sing	6	_	_	start_char=28|end_char=32|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=32|end_char=33
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=34|end_char=36
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=37|end_char=40
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=41|end_char=42
+12	2003	2003	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=43|end_char=47
+13	vacation	vacation	NOUN	NN	Number=Sing	12	_	_	start_char=48|end_char=56
+14	with	with	ADP	IN	_	13	_	_	start_char=57|end_char=61
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	_	_	start_char=62|end_char=64
+16	wife	wife	NOUN	NN	Number=Sing	15	_	_	start_char=65|end_char=69|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=69|end_char=70
+
+# text = Even then, I saw the downturn of a once great city.
+# sent_id = 110327
+1	Even	even	ADV	RB	_	0	_	_	start_char=71|end_char=75
+2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=76|end_char=80|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=80|end_char=81
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=82|end_char=83
+5	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=84|end_char=87
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=88|end_char=91
+7	downturn	downturn	NOUN	NN	Number=Sing	6	_	_	start_char=92|end_char=100
+8	of	of	ADP	IN	_	7	_	_	start_char=101|end_char=103
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=104|end_char=105
+10	once	once	ADV	RB	NumType=Mult	9	_	_	start_char=106|end_char=110
+11	great	great	ADJ	JJ	Degree=Pos	10	_	_	start_char=111|end_char=116
+12	city	city	NOUN	NN	Number=Sing	11	_	_	start_char=117|end_char=121|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=121|end_char=122
+
+# text = #Leftist #Democrats Ruin Everything.
+# sent_id = 110328
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=123|end_char=124|SpaceAfter=No
+2	Leftist	leftist	NOUN	NN	Number=Sing	1	_	_	start_char=124|end_char=131
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=132|end_char=133|SpaceAfter=No
+4	Democrats	Democrat	PROPN	NNPS	Number=Plur	3	_	_	start_char=133|end_char=142
+5	Ruin	ruin	VERB	VB	Mood=Ind|VerbForm=Fin	4	_	_	start_char=143|end_char=147
+6	Everything	everything	PRON	NN	Number=Sing|PronType=Tot	5	_	_	start_char=148|end_char=158|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=158|end_char=159
+
+# text = [URL]
+# sent_id = 110329
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=160|end_char=161|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=161|end_char=164|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=164|end_char=165|SpaceAfter=No
+

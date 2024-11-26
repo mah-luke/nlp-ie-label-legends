@@ -1,0 +1,34 @@
+# text = It sickens me that the media call that relationship dating.
+# sent_id = 23400
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	sickens	sicken	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=10
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=11|end_char=13
+4	that	that	SCONJ	IN	_	3	_	_	start_char=14|end_char=18
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=19|end_char=22
+6	media	media	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=28
+7	call	call	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=29|end_char=33
+8	that	that	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=34|end_char=38
+9	relationship	relationship	NOUN	NN	Number=Sing	8	_	_	start_char=39|end_char=51
+10	dating	dating	NOUN	NN	Number=Sing	9	_	_	start_char=52|end_char=58|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=58|end_char=59
+
+# text = She was a rapist.
+# sent_id = 23401
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=60|end_char=63
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=64|end_char=67
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=68|end_char=69
+4	rapist	rapist	NOUN	NN	Number=Sing	3	_	_	start_char=70|end_char=76|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=76|end_char=77
+
+# text = Don't act like it was anything else
+# sent_id = 23402
+1-2	Don't	_	_	_	_	_	_	_	start_char=78|end_char=83
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=78|end_char=80
+2	n't	not	PART	RB	_	1	_	_	start_char=80|end_char=83
+3	act	act	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=84|end_char=87
+4	like	like	SCONJ	IN	_	3	_	_	start_char=88|end_char=92
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=93|end_char=95
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=96|end_char=99
+7	anything	anything	PRON	NN	Number=Sing|PronType=Ind	6	_	_	start_char=100|end_char=108
+8	else	else	ADJ	JJ	Degree=Pos	7	_	_	start_char=109|end_char=113|SpaceAfter=No
+

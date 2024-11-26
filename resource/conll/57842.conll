@@ -1,0 +1,61 @@
+# text = Hard next!
+# sent_id = 123563
+1	Hard	hard	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	next	next	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = Block her on social media and delete her phone number ASAP
+# sent_id = 123564
+1	Block	Block	VERB	VB	Mood=Imp|VerbForm=Inf	0	_	_	start_char=11|end_char=16
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=17|end_char=20
+3	on	on	ADP	IN	_	2	_	_	start_char=21|end_char=23
+4	social	social	ADJ	JJ	Degree=Pos	3	_	_	start_char=24|end_char=30
+5	media	media	NOUN	NN	Number=Sing	4	_	_	start_char=31|end_char=36
+6	and	and	CCONJ	CC	_	5	_	_	start_char=37|end_char=40
+7	delete	delete	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=41|end_char=47
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=48|end_char=51
+9	phone	phone	NOUN	NN	Number=Sing	8	_	_	start_char=52|end_char=57
+10	number	number	NOUN	NN	Number=Sing	9	_	_	start_char=58|end_char=64
+11	ASAP	ASAP	ADV	RB	_	10	_	_	start_char=65|end_char=69
+
+# text = Don't sit still, motion creates emotion, do bodyweight exercises and learn new skill at home.
+# sent_id = 123565
+1-2	Don't	_	_	_	_	_	_	_	start_char=70|end_char=75
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=70|end_char=72
+2	n't	not	PART	RB	_	1	_	_	start_char=72|end_char=75
+3	sit	sit	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=76|end_char=79
+4	still	still	ADV	RB	_	3	_	_	start_char=80|end_char=85|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=85|end_char=86
+6	motion	motion	NOUN	NN	Number=Sing	5	_	_	start_char=87|end_char=93
+7	creates	create	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=94|end_char=101
+8	emotion	emotion	NOUN	NN	Number=Sing	7	_	_	start_char=102|end_char=109|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=109|end_char=110
+10	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=111|end_char=113
+11	bodyweight	bodyweight	NOUN	NN	Number=Sing	10	_	_	start_char=114|end_char=124
+12	exercises	exercise	NOUN	NNS	Number=Plur	11	_	_	start_char=125|end_char=134
+13	and	and	CCONJ	CC	_	12	_	_	start_char=135|end_char=138
+14	learn	learn	VERB	VB	Mood=Imp|VerbForm=Fin	13	_	_	start_char=139|end_char=144
+15	new	new	ADJ	JJ	Degree=Pos	14	_	_	start_char=145|end_char=148
+16	skill	skill	NOUN	NN	Number=Sing	15	_	_	start_char=149|end_char=154
+17	at	at	ADP	IN	_	16	_	_	start_char=155|end_char=157
+18	home	home	NOUN	NN	Number=Sing	17	_	_	start_char=158|end_char=162|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=162|end_char=163
+
+# text = I've seen people lose their shit over simple things due to the quarantine
+# sent_id = 123566
+1-2	I've	_	_	_	_	_	_	_	start_char=164|end_char=168
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=164|end_char=165
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=165|end_char=168
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=169|end_char=173
+4	people	person	NOUN	NNS	Number=Plur	3	_	_	start_char=174|end_char=180
+5	lose	lose	VERB	VB	VerbForm=Inf	4	_	_	start_char=181|end_char=185
+6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=186|end_char=191
+7	shit	shit	NOUN	NN	Number=Sing	6	_	_	start_char=192|end_char=196
+8	over	over	ADP	IN	_	7	_	_	start_char=197|end_char=201
+9	simple	simple	ADJ	JJ	Degree=Pos	8	_	_	start_char=202|end_char=208
+10	things	thing	NOUN	NNS	Number=Plur	9	_	_	start_char=209|end_char=215
+11	due	due	ADP	IN	_	10	_	_	start_char=216|end_char=219
+12	to	to	ADP	IN	_	11	_	_	start_char=220|end_char=222
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=223|end_char=226
+14	quarantine	quarantine	NOUN	NN	Number=Sing	13	_	_	start_char=227|end_char=237|SpaceAfter=No
+

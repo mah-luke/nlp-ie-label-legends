@@ -1,0 +1,53 @@
+# text = ^This!
+# sent_id = 12560
+1	^	^	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	This	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=5|end_char=6
+
+# text = Use texting only to set up dates.
+# sent_id = 12561
+1	Use	use	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	_	_	start_char=7|end_char=10
+2	texting	texting	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=18
+3	only	only	ADV	RB	_	2	_	_	start_char=19|end_char=23
+4	to	to	PART	TO	_	3	_	_	start_char=24|end_char=26
+5	set	set	VERB	VB	VerbForm=Inf	4	_	_	start_char=27|end_char=30
+6	up	up	ADP	RP	_	5	_	_	start_char=31|end_char=33
+7	dates	date	NOUN	NNS	Number=Plur	6	_	_	start_char=34|end_char=39|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=39|end_char=40
+
+# text = If she gives you the runaround, don't be afraid to withdraw your attention.
+# sent_id = 12562
+1	If	if	SCONJ	IN	_	0	_	_	start_char=41|end_char=43
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=44|end_char=47
+3	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=48|end_char=53
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=54|end_char=57
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=58|end_char=61
+6	runaround	runaround	NOUN	NN	Number=Sing	5	_	_	start_char=62|end_char=71|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=71|end_char=72
+8-9	don't	_	_	_	_	_	_	_	start_char=73|end_char=78
+8	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=73|end_char=75
+9	n't	not	PART	RB	_	8	_	_	start_char=75|end_char=78
+10	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=79|end_char=81
+11	afraid	afraid	ADJ	JJ	Degree=Pos	10	_	_	start_char=82|end_char=88
+12	to	to	PART	TO	_	11	_	_	start_char=89|end_char=91
+13	withdraw	withdraw	VERB	VB	VerbForm=Inf	12	_	_	start_char=92|end_char=100
+14	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	13	_	_	start_char=101|end_char=105
+15	attention	attention	NOUN	NN	Number=Sing	14	_	_	start_char=106|end_char=115|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=115|end_char=116
+
+# text = That's how you can better dictate the course of action.
+# sent_id = 12563
+1-2	That's	_	_	_	_	_	_	_	start_char=117|end_char=123
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=117|end_char=121
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=121|end_char=123
+3	how	how	ADV	WRB	PronType=Rel	2	_	_	start_char=124|end_char=127
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=128|end_char=131
+5	can	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=132|end_char=135
+6	better	well	ADV	RBR	Degree=Cmp	5	_	_	start_char=136|end_char=142
+7	dictate	dictate	VERB	VB	VerbForm=Inf	6	_	_	start_char=143|end_char=150
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=151|end_char=154
+9	course	course	NOUN	NN	Number=Sing	8	_	_	start_char=155|end_char=161
+10	of	of	ADP	IN	_	9	_	_	start_char=162|end_char=164
+11	action	action	NOUN	NN	Number=Sing	10	_	_	start_char=165|end_char=171|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=171|end_char=172|SpaceAfter=No
+

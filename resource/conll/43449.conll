@@ -1,0 +1,53 @@
+# text = Lol nice.
+# sent_id = 92880
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	nice	nice	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=8|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=8|end_char=9
+
+# text = The Gateway Pundit has written an article 'denouncing' her 'disgusting tweet' but includes essentially the entire Unz article in excerpts.
+# sent_id = 92881
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=10|end_char=13
+2	Gateway	Gateway	PROPN	NNP	Number=Sing	1	_	_	start_char=14|end_char=21
+3	Pundit	Pundit	PROPN	NNP	Number=Sing	2	_	_	start_char=22|end_char=28
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=29|end_char=32
+5	written	write	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=33|end_char=40
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=41|end_char=43
+7	article	article	NOUN	NN	Number=Sing	6	_	_	start_char=44|end_char=51
+8	'	'	PUNCT	``	_	7	_	_	start_char=52|end_char=53|SpaceAfter=No
+9	denouncing	denounce	VERB	VBG	VerbForm=Ger	8	_	_	start_char=53|end_char=63|SpaceAfter=No
+10	'	'	PUNCT	''	_	9	_	_	start_char=63|end_char=64
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=65|end_char=68
+12	'	'	PUNCT	``	_	11	_	_	start_char=69|end_char=70|SpaceAfter=No
+13	disgusting	disgusting	ADJ	JJ	Degree=Pos	12	_	_	start_char=70|end_char=80
+14	tweet	tweet	NOUN	NN	Number=Sing	13	_	_	start_char=81|end_char=86|SpaceAfter=No
+15	'	'	PUNCT	''	_	14	_	_	start_char=86|end_char=87
+16	but	but	CCONJ	CC	_	15	_	_	start_char=88|end_char=91
+17	includes	include	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=92|end_char=100
+18	essentially	essentially	ADV	RB	_	17	_	_	start_char=101|end_char=112
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=113|end_char=116
+20	entire	entire	ADJ	JJ	Degree=Pos	19	_	_	start_char=117|end_char=123
+21	Unz	Unz	PROPN	NNP	Number=Sing	20	_	_	start_char=124|end_char=127
+22	article	article	NOUN	NN	Number=Sing	21	_	_	start_char=128|end_char=135
+23	in	in	ADP	IN	_	22	_	_	start_char=136|end_char=138
+24	excerpts	excerpt	NOUN	NNS	Number=Plur	23	_	_	start_char=139|end_char=147|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=147|end_char=148
+
+# text = Lmao, that's one way to get em, Jim. [URL]
+# sent_id = 92882
+1	Lmao	Lmao	INTJ	UH	_	0	_	_	start_char=149|end_char=153|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=153|end_char=154
+3-4	that's	_	_	_	_	_	_	_	start_char=155|end_char=161
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=155|end_char=159
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=159|end_char=161
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=162|end_char=165
+6	way	way	NOUN	NN	Number=Sing	5	_	_	start_char=166|end_char=169
+7	to	to	PART	TO	_	6	_	_	start_char=170|end_char=172
+8	get	get	VERB	VB	VerbForm=Inf	7	_	_	start_char=173|end_char=176
+9	em	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=177|end_char=179|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=179|end_char=180
+11	Jim	Jim	PROPN	NNP	Number=Sing	10	_	_	start_char=181|end_char=184|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=184|end_char=185
+13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=186|end_char=187|SpaceAfter=No
+14	URL	URL	PROPN	NNP	Number=Sing	13	_	_	start_char=187|end_char=190|SpaceAfter=No
+15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=190|end_char=191|SpaceAfter=No
+

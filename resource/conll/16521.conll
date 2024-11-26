@@ -1,0 +1,35 @@
+# text = Screw that.
+# sent_id = 35442
+1	Screw	screw	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=5
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=6|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=10|end_char=11
+
+# text = Should just go arrest them.
+# sent_id = 35443
+1	Should	should	AUX	MD	VerbForm=Fin	0	_	_	start_char=12|end_char=18
+2	just	just	ADV	RB	_	1	_	_	start_char=19|end_char=23
+3	go	go	VERB	VB	VerbForm=Inf	2	_	_	start_char=24|end_char=26
+4	arrest	arrest	VERB	VB	VerbForm=Inf	3	_	_	start_char=27|end_char=33
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=34|end_char=38|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=38|end_char=39
+
+# text = If I can get arrested for failure to yield, they can be arrested for yielding.
+# sent_id = 35444
+1	If	if	SCONJ	IN	_	0	_	_	start_char=40|end_char=42
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=43|end_char=44
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=45|end_char=48
+4	get	get	AUX	VB	VerbForm=Inf	3	_	_	start_char=49|end_char=52
+5	arrested	arrest	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=53|end_char=61
+6	for	for	ADP	IN	_	5	_	_	start_char=62|end_char=65
+7	failure	failure	NOUN	NN	Number=Sing	6	_	_	start_char=66|end_char=73
+8	to	to	PART	TO	_	7	_	_	start_char=74|end_char=76
+9	yield	yield	VERB	VB	VerbForm=Inf	8	_	_	start_char=77|end_char=82|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=82|end_char=83
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=84|end_char=88
+12	can	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=89|end_char=92
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=93|end_char=95
+14	arrested	arrest	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=96|end_char=104
+15	for	for	SCONJ	IN	_	14	_	_	start_char=105|end_char=108
+16	yielding	yield	VERB	VBG	VerbForm=Ger	15	_	_	start_char=109|end_char=117|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=117|end_char=118|SpaceAfter=No
+

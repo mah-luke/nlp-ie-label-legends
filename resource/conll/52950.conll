@@ -1,0 +1,24 @@
+# text = "for fucks sake!
+# sent_id = 113160
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	for	for	ADP	IN	_	1	_	_	start_char=1|end_char=4
+3	fucks	fuck	NOUN	NNS	Number=Plur	2	_	_	start_char=5|end_char=10
+4	sake	sake	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=15|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=15|end_char=16
+
+# text = all the founders were racists just like deray says they were!!"
+# sent_id = 113161
+1	all	all	DET	PDT	_	0	_	_	start_char=17|end_char=20
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=21|end_char=24
+3	founders	founder	NOUN	NNS	Number=Plur	2	_	_	start_char=25|end_char=33
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=34|end_char=38
+5	racists	racist	NOUN	NNS	Number=Plur	4	_	_	start_char=39|end_char=46
+6	just	just	ADV	RB	_	5	_	_	start_char=47|end_char=51
+7	like	like	ADP	IN	_	6	_	_	start_char=52|end_char=56
+8	deray	deray	PROPN	NNP	Number=Sing	7	_	_	start_char=57|end_char=62
+9	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=63|end_char=67
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=68|end_char=72
+11	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=73|end_char=77|SpaceAfter=No
+12	!!	!!	PUNCT	.	_	11	_	_	start_char=77|end_char=79|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=79|end_char=80|SpaceAfter=No
+

@@ -1,0 +1,35 @@
+# text = That little bitch hates a great man who runs a powerful nation.
+# sent_id = 121701
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	little	little	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=11
+3	bitch	bitch	NOUN	NN	Number=Sing	2	_	_	start_char=12|end_char=17
+4	hates	hate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=18|end_char=23
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=24|end_char=25
+6	great	great	ADJ	JJ	Degree=Pos	5	_	_	start_char=26|end_char=31
+7	man	man	NOUN	NN	Number=Sing	6	_	_	start_char=32|end_char=35
+8	who	who	PRON	WP	PronType=Rel	7	_	_	start_char=36|end_char=39
+9	runs	run	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=40|end_char=44
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=45|end_char=46
+11	powerful	powerful	ADJ	JJ	Degree=Pos	10	_	_	start_char=47|end_char=55
+12	nation	nation	NOUN	NN	Number=Sing	11	_	_	start_char=56|end_char=62|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=62|end_char=63
+
+# text = '**He took her childhood away!'**
+# sent_id = 121702
+1	'**	'**	PUNCT	NFP	_	0	_	_	start_char=64|end_char=67|SpaceAfter=No
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=67|end_char=69
+3	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=70|end_char=74
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=75|end_char=78
+5	childhood	childhood	NOUN	NN	Number=Sing	4	_	_	start_char=79|end_char=88
+6	away	away	ADV	RB	_	5	_	_	start_char=89|end_char=93|SpaceAfter=No
+7	!'**	!'**	SYM	NFP	_	6	_	_	start_char=93|end_char=97
+
+# text = **'How dare he!'**
+# sent_id = 121703
+1	**'	**'	PUNCT	NFP	_	0	_	_	start_char=98|end_char=101|SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	1	_	_	start_char=101|end_char=104
+3	dare	dare	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=105|end_char=109
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=110|end_char=112|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=112|end_char=113|SpaceAfter=No
+6	'**	'**	PUNCT	''	_	5	_	_	start_char=113|end_char=116|SpaceAfter=No
+

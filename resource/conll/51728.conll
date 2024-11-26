@@ -1,0 +1,57 @@
+# text = I want to industrialize this.
+# sent_id = 110593
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	to	to	PART	TO	_	2	_	_	start_char=7|end_char=9
+4	industrialize	industrialize	VERB	VB	VerbForm=Inf	3	_	_	start_char=10|end_char=23
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=24|end_char=28|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=28|end_char=29
+
+# text = We sell bath water.. used tampons, toothbrushes, etc... of young girls in Walmarts.
+# sent_id = 110594
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=30|end_char=32
+2	sell	sell	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=33|end_char=37
+3	bath	bath	NOUN	NN	Number=Sing	2	_	_	start_char=38|end_char=42
+4	water	water	NOUN	NN	Number=Sing	3	_	_	start_char=43|end_char=48|SpaceAfter=No
+5	..	..	PUNCT	,	_	4	_	_	start_char=48|end_char=50
+6	used	use	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=51|end_char=55
+7	tampons	tampon	NOUN	NNS	Number=Plur	6	_	_	start_char=56|end_char=63|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=63|end_char=64
+9	toothbrushes	toothbrush	NOUN	NNS	Number=Plur	8	_	_	start_char=65|end_char=77|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=77|end_char=78
+11	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	10	_	_	start_char=79|end_char=82|SpaceAfter=No
+12	...	...	PUNCT	,	_	11	_	_	start_char=82|end_char=85
+13	of	of	ADP	IN	_	12	_	_	start_char=86|end_char=88
+14	young	young	ADJ	JJ	Degree=Pos	13	_	_	start_char=89|end_char=94
+15	girls	girl	NOUN	NNS	Number=Plur	14	_	_	start_char=95|end_char=100
+16	in	in	ADP	IN	_	15	_	_	start_char=101|end_char=103
+17	Walmarts	Walmarts	PROPN	NNPS	Number=Plur	16	_	_	start_char=104|end_char=112|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=112|end_char=113
+
+# text = Half the proceeds go to scholarships for girls.
+# sent_id = 110595
+1	Half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	0	_	_	start_char=114|end_char=118
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=119|end_char=122
+3	proceeds	proceed	NOUN	NNS	Number=Plur	2	_	_	start_char=123|end_char=131
+4	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=132|end_char=134
+5	to	to	ADP	IN	_	4	_	_	start_char=135|end_char=137
+6	scholarships	scholarship	NOUN	NNS	Number=Plur	5	_	_	start_char=138|end_char=150
+7	for	for	ADP	IN	_	6	_	_	start_char=151|end_char=154
+8	girls	girl	NOUN	NNS	Number=Plur	7	_	_	start_char=155|end_char=160|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=160|end_char=161
+
+# text = I keep the other half.
+# sent_id = 110596
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=162|end_char=163
+2	keep	keep	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=164|end_char=168
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=169|end_char=172
+4	other	other	ADJ	JJ	Degree=Pos	3	_	_	start_char=173|end_char=178
+5	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	4	_	_	start_char=179|end_char=183|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=183|end_char=184
+
+# text = No returns.
+# sent_id = 110597
+1	No	no	DET	DT	_	0	_	_	start_char=185|end_char=187
+2	returns	return	NOUN	NNS	Number=Plur	1	_	_	start_char=188|end_char=195|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=195|end_char=196|SpaceAfter=No
+

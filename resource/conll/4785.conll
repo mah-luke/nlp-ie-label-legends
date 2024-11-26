@@ -1,0 +1,83 @@
+# text = Why is this not at all surprising?
+# sent_id = 10104
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=7|end_char=11
+4	not	not	PART	RB	_	3	_	_	start_char=12|end_char=15
+5	at	at	ADP	IN	_	4	_	_	start_char=16|end_char=18
+6	all	all	DET	DT	_	5	_	_	start_char=19|end_char=22
+7	surprising	surprising	ADJ	JJ	Degree=Pos	6	_	_	start_char=23|end_char=33|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=33|end_char=34
+
+# text = >Live in girlfriend
+# sent_id = 10105
+1	>	>	PUNCT	NFP	_	0	_	_	start_char=35|end_char=36|SpaceAfter=No
+2	Live	live	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=36|end_char=40
+3	in	in	ADP	IN	_	2	_	_	start_char=41|end_char=43
+4	girlfriend	girlfriend	NOUN	NN	Number=Sing	3	_	_	start_char=44|end_char=54
+
+# text = Why do men allow this ever?
+# sent_id = 10106
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=55|end_char=58
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=61
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=62|end_char=65
+4	allow	allow	VERB	VB	VerbForm=Inf	3	_	_	start_char=66|end_char=71
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=72|end_char=76
+6	ever	ever	ADV	RB	_	5	_	_	start_char=77|end_char=81|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=81|end_char=82
+
+# text = Why?
+# sent_id = 10107
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=83|end_char=86|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=86|end_char=87
+
+# text = Why?
+# sent_id = 10108
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=88|end_char=91|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=91|end_char=92
+
+# text = Why?
+# sent_id = 10109
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=93|end_char=96|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=96|end_char=97
+
+# text = Why?
+# sent_id = 10110
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=98|end_char=101|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=101|end_char=102
+
+# text = Why?
+# sent_id = 10111
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=103|end_char=106|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=106|end_char=107
+
+# text = Why?
+# sent_id = 10112
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=108|end_char=111|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=111|end_char=112
+
+# text = I'm now a woman.
+# sent_id = 10113
+1-2	I'm	_	_	_	_	_	_	_	start_char=113|end_char=116
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=113|end_char=114
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=114|end_char=116
+3	now	now	ADV	RB	_	2	_	_	start_char=117|end_char=120
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=121|end_char=122
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=123|end_char=128|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=128|end_char=129
+
+# text = Give me free room and food.
+# sent_id = 10114
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=130|end_char=134
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=135|end_char=137
+3	free	free	ADJ	JJ	Degree=Pos	2	_	_	start_char=138|end_char=142
+4	room	room	NOUN	NN	Number=Sing	3	_	_	start_char=143|end_char=147
+5	and	and	CCONJ	CC	_	4	_	_	start_char=148|end_char=151
+6	food	food	NOUN	NN	Number=Sing	5	_	_	start_char=152|end_char=156|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=156|end_char=157
+
+# text = Amidoingitrite?
+# sent_id = 10115
+1	Amidoingitrite	Amidoingitrite	PROPN	NNP	Number=Sing	0	_	_	start_char=158|end_char=172|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=172|end_char=173|SpaceAfter=No
+

@@ -1,0 +1,32 @@
+# text = #GirlsAndGuns #EDC #ArmYourWomen #2A_CivilRight #Guns #2A #GunRoom
+# sent_id = 45234
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	GirlsAndGuns	girlsandin	NOUN	GW	Number=Sing	1	_	_	start_char=1|end_char=13
+3	#EDC	#edc	X	GW	_	2	_	_	start_char=14|end_char=18
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=19|end_char=20|SpaceAfter=No
+5	ArmYourWomen	anmyocrwomen	X	GW	_	4	_	_	start_char=20|end_char=32
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=33|end_char=34|SpaceAfter=No
+7	2A_CivilRight	2a_civilright	NOUN	NN	Number=Sing	6	_	_	start_char=34|end_char=47
+8	#	#	SYM	NN	Number=Sing	7	_	_	start_char=48|end_char=49|SpaceAfter=No
+9	Guns	gun	NOUN	NNS	Number=Plur	8	_	_	start_char=49|end_char=53
+10	#	#	SYM	NN	Number=Sing	9	_	_	start_char=54|end_char=55|SpaceAfter=No
+11	2A	2a	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=55|end_char=57
+12	#	#	SYM	NN	Number=Sing	11	_	_	start_char=58|end_char=59|SpaceAfter=No
+13	GunRoom	gunroom	NOUN	NN	Number=Sing	12	_	_	start_char=59|end_char=66
+
+# text = Go ahead and run asshole, you'll just die tired.
+# sent_id = 45235
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=67|end_char=69
+2	ahead	ahead	ADV	RB	_	1	_	_	start_char=70|end_char=75
+3	and	and	CCONJ	CC	_	2	_	_	start_char=76|end_char=79
+4	run	run	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=80|end_char=83
+5	asshole	asshole	NOUN	NN	Number=Sing	4	_	_	start_char=84|end_char=91|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=91|end_char=92
+7-8	you'll	_	_	_	_	_	_	_	start_char=93|end_char=99
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=93|end_char=96
+8	'll	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=96|end_char=99
+9	just	just	ADV	RB	_	8	_	_	start_char=100|end_char=104
+10	die	die	VERB	VB	VerbForm=Inf	9	_	_	start_char=105|end_char=108
+11	tired	tired	ADJ	JJ	Degree=Pos	10	_	_	start_char=109|end_char=114|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=114|end_char=115|SpaceAfter=No
+

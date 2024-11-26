@@ -1,0 +1,32 @@
+# text = ONLY white middle class.
+# sent_id = 945
+1	ONLY	only	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	white	white	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=10
+3	middle	middle	ADJ	JJ	Degree=Pos	2	_	_	start_char=11|end_char=17
+4	class	class	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=23|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=23|end_char=24
+
+# text = Muslims can have 4 wives & as many children as possible.
+# sent_id = 946
+1	Muslims	Muslim	PROPN	NNPS	Number=Plur	0	_	_	start_char=25|end_char=32
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=33|end_char=36
+3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=37|end_char=41
+4	4	4	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=42|end_char=43
+5	wives	wife	NOUN	NNS	Number=Plur	4	_	_	start_char=44|end_char=49
+6	&	&	CCONJ	CC	_	5	_	_	start_char=50|end_char=51
+7	as	as	ADV	RB	_	6	_	_	start_char=52|end_char=54
+8	many	many	ADJ	JJ	Degree=Pos	7	_	_	start_char=55|end_char=59
+9	children	child	NOUN	NNS	Number=Plur	8	_	_	start_char=60|end_char=68
+10	as	as	SCONJ	IN	_	9	_	_	start_char=69|end_char=71
+11	possible	possible	ADJ	JJ	Degree=Pos	10	_	_	start_char=72|end_char=80|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=80|end_char=81
+
+# text = And they keep importing them.
+# sent_id = 947
+1	And	and	CCONJ	CC	_	0	_	_	start_char=82|end_char=85
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=86|end_char=90
+3	keep	keep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=91|end_char=95
+4	importing	import	VERB	VBG	VerbForm=Ger	3	_	_	start_char=96|end_char=105
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=106|end_char=110|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=110|end_char=111|SpaceAfter=No
+

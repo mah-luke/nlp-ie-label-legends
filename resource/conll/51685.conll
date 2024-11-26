@@ -1,0 +1,48 @@
+# text = Not even close to true.
+# sent_id = 110472
+1	Not	not	PART	RB	_	0	_	_	start_char=0|end_char=3
+2	even	even	ADV	RB	_	1	_	_	start_char=4|end_char=8
+3	close	close	ADV	RB	Degree=Pos	2	_	_	start_char=9|end_char=14
+4	to	to	ADP	IN	_	3	_	_	start_char=15|end_char=17
+5	true	true	ADJ	JJ	Degree=Pos	4	_	_	start_char=18|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = My old roommate got good looking women all the time and he was fucking ugly.
+# sent_id = 110473
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=24|end_char=26
+2	old	old	ADJ	JJ	Degree=Pos	1	_	_	start_char=27|end_char=30
+3	roommate	roommate	NOUN	NN	Number=Sing	2	_	_	start_char=31|end_char=39
+4	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=40|end_char=43
+5	good	good	ADJ	JJ	Degree=Pos	4	_	_	start_char=44|end_char=48
+6	looking	look	VERB	VBG	VerbForm=Ger	5	_	_	start_char=49|end_char=56
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=57|end_char=62
+8	all	all	DET	PDT	_	7	_	_	start_char=63|end_char=66
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=67|end_char=70
+10	time	time	NOUN	NN	Number=Sing	9	_	_	start_char=71|end_char=75
+11	and	and	CCONJ	CC	_	10	_	_	start_char=76|end_char=79
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=80|end_char=82
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=83|end_char=86
+14	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	13	_	_	start_char=87|end_char=94
+15	ugly	ugly	ADJ	JJ	Degree=Pos	14	_	_	start_char=95|end_char=99|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=99|end_char=100
+
+# text = Imagine James Harden, but a skinny Mexican instead, and only like 5'7"
+# sent_id = 110474
+1	Imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=101|end_char=108
+2	James	James	PROPN	NNP	Number=Sing	1	_	_	start_char=109|end_char=114
+3	Harden	Harden	PROPN	NNP	Number=Sing	2	_	_	start_char=115|end_char=121|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=121|end_char=122
+5	but	but	CCONJ	CC	_	4	_	_	start_char=123|end_char=126
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=127|end_char=128
+7	skinny	skinny	ADJ	JJ	Degree=Pos	6	_	_	start_char=129|end_char=135
+8	Mexican	Mexican	ADJ	JJ	Degree=Pos	7	_	_	start_char=136|end_char=143
+9	instead	instead	ADV	RB	_	8	_	_	start_char=144|end_char=151|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=151|end_char=152
+11	and	and	CCONJ	CC	_	10	_	_	start_char=153|end_char=156
+12	only	only	ADV	RB	_	11	_	_	start_char=157|end_char=161
+13	like	like	ADP	IN	_	12	_	_	start_char=162|end_char=166
+14	5	5	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	start_char=167|end_char=168|SpaceAfter=No
+15	'	'	NOUN	NNS	Number=Plur	14	_	_	start_char=168|end_char=169|SpaceAfter=No
+16	7	7	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=169|end_char=170|SpaceAfter=No
+17	"	"	PUNCT	''	_	16	_	_	start_char=170|end_char=171|SpaceAfter=No
+

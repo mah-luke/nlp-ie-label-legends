@@ -1,0 +1,49 @@
+# text = So, Fox News has relaxed its dress code.
+# sent_id = 32832
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	Fox	Fox	PROPN	NNP	Number=Sing	2	_	_	start_char=4|end_char=7
+4	News	News	PROPN	NNP	Number=Sing	3	_	_	start_char=8|end_char=12
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=13|end_char=16
+6	relaxed	relax	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=17|end_char=24
+7	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=25|end_char=28
+8	dress	dress	NOUN	NN	Number=Sing	7	_	_	start_char=29|end_char=34
+9	code	code	NOUN	NN	Number=Sing	8	_	_	start_char=35|end_char=39|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=39|end_char=40
+
+# text = What next, sweat shirts or no shirts for the men?
+# sent_id = 32833
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=41|end_char=45
+2	next	next	ADJ	JJ	Degree=Pos	1	_	_	start_char=46|end_char=50|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=50|end_char=51
+4	sweat	sweat	NOUN	NN	Number=Sing	3	_	_	start_char=52|end_char=57
+5	shirts	shirt	NOUN	NNS	Number=Plur	4	_	_	start_char=58|end_char=64
+6	or	or	CCONJ	CC	_	5	_	_	start_char=65|end_char=67
+7	no	no	DET	DT	_	6	_	_	start_char=68|end_char=70
+8	shirts	shirt	NOUN	NNS	Number=Plur	7	_	_	start_char=71|end_char=77
+9	for	for	ADP	IN	_	8	_	_	start_char=78|end_char=81
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=82|end_char=85
+11	men	man	NOUN	NNS	Number=Plur	10	_	_	start_char=86|end_char=89|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=89|end_char=90
+
+# text = Hey, if women are going to wear the pants, let the men be themselves too.
+# sent_id = 32834
+1	Hey	hey	INTJ	UH	_	0	_	_	start_char=91|end_char=94|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=94|end_char=95
+3	if	if	SCONJ	IN	_	2	_	_	start_char=96|end_char=98
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=99|end_char=104
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=105|end_char=108
+6	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=109|end_char=114
+7	to	to	PART	TO	_	6	_	_	start_char=115|end_char=117
+8	wear	wear	VERB	VB	VerbForm=Inf	7	_	_	start_char=118|end_char=122
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=123|end_char=126
+10	pants	pant	NOUN	NNS	Number=Plur	9	_	_	start_char=127|end_char=132|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=132|end_char=133
+12	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	11	_	_	start_char=134|end_char=137
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=138|end_char=141
+14	men	man	NOUN	NNS	Number=Plur	13	_	_	start_char=142|end_char=145
+15	be	be	AUX	VB	VerbForm=Inf	14	_	_	start_char=146|end_char=148
+16	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	15	_	_	start_char=149|end_char=159
+17	too	too	ADV	RB	_	16	_	_	start_char=160|end_char=163|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=163|end_char=164|SpaceAfter=No
+

@@ -1,0 +1,70 @@
+# text = I'm not that good.
+# sent_id = 125212
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	not	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	that	that	ADV	RB	_	3	_	_	start_char=8|end_char=12
+5	good	good	ADJ	JJ	Degree=Pos	4	_	_	start_char=13|end_char=17|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=17|end_char=18
+
+# text = A joke I'm sure you've heard of: A woman thanked the pastor for a good sermon.
+# sent_id = 125213
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=19|end_char=20
+2	joke	joke	NOUN	NN	Number=Sing	1	_	_	start_char=21|end_char=25
+3-4	I'm	_	_	_	_	_	_	_	start_char=26|end_char=29
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=26|end_char=27
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=27|end_char=29
+5	sure	sure	ADJ	JJ	Degree=Pos	4	_	_	start_char=30|end_char=34
+6-7	you've	_	_	_	_	_	_	_	start_char=35|end_char=41
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=35|end_char=38
+7	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=38|end_char=41
+8	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=42|end_char=47
+9	of	of	ADP	IN	_	8	_	_	start_char=48|end_char=50|SpaceAfter=No
+10	:	:	PUNCT	:	_	9	_	_	start_char=50|end_char=51
+11	A	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=52|end_char=53
+12	woman	woman	NOUN	NN	Number=Sing	11	_	_	start_char=54|end_char=59
+13	thanked	thank	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=60|end_char=67
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=68|end_char=71
+15	pastor	pastor	NOUN	NN	Number=Sing	14	_	_	start_char=72|end_char=78
+16	for	for	ADP	IN	_	15	_	_	start_char=79|end_char=82
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=83|end_char=84
+18	good	good	ADJ	JJ	Degree=Pos	17	_	_	start_char=85|end_char=89
+19	sermon	sermon	NOUN	NN	Number=Sing	18	_	_	start_char=90|end_char=96|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=96|end_char=97
+
+# text = He: Don't thank me, thank the Lord.
+# sent_id = 125214
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=98|end_char=100|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=100|end_char=101
+3-4	Don't	_	_	_	_	_	_	_	start_char=102|end_char=107
+3	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=102|end_char=104
+4	n't	not	PART	RB	_	3	_	_	start_char=104|end_char=107
+5	thank	thank	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=108|end_char=113
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=114|end_char=116|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=116|end_char=117
+8	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=118|end_char=123
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=124|end_char=127
+10	Lord	Lord	PROPN	NNP	Number=Sing	9	_	_	start_char=128|end_char=132|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=132|end_char=133
+
+# text = She: I've thought of that, but it wasn't that good.
+# sent_id = 125215
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=134|end_char=137|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=137|end_char=138
+3-4	I've	_	_	_	_	_	_	_	start_char=139|end_char=143
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=139|end_char=140
+4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=140|end_char=143
+5	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=144|end_char=151
+6	of	of	ADP	IN	_	5	_	_	start_char=152|end_char=154
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=155|end_char=159|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=159|end_char=160
+9	but	but	CCONJ	CC	_	8	_	_	start_char=161|end_char=164
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=165|end_char=167
+11-12	wasn't	_	_	_	_	_	_	_	start_char=168|end_char=174
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=168|end_char=171
+12	n't	not	PART	RB	_	11	_	_	start_char=171|end_char=174
+13	that	that	ADV	RB	_	12	_	_	start_char=175|end_char=179
+14	good	good	ADJ	JJ	Degree=Pos	13	_	_	start_char=180|end_char=184|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=184|end_char=185|SpaceAfter=No
+

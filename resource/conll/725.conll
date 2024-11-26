@@ -1,0 +1,19 @@
+# text = Dude, you're making us black men look bad.
+# sent_id = 1534
+1	Dude	dude	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3-4	you're	_	_	_	_	_	_	_	start_char=6|end_char=12
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=6|end_char=9
+4	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=9|end_char=12
+5	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=13|end_char=19
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=20|end_char=22
+7	black	black	ADJ	JJ	Degree=Pos	6	_	_	start_char=23|end_char=28
+8	men	man	NOUN	NNS	Number=Plur	7	_	_	start_char=29|end_char=32
+9	look	look	VERB	VB	VerbForm=Inf	8	_	_	start_char=33|end_char=37
+10	bad	bad	ADJ	JJ	Degree=Pos	9	_	_	start_char=38|end_char=41|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=41|end_char=42
+
+# text = STAAAHP
+# sent_id = 1535
+1	STAAAHP	STAAAHP	PROPN	NNP	Number=Sing	0	_	_	start_char=43|end_char=50|SpaceAfter=No
+

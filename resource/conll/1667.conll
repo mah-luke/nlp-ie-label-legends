@@ -1,0 +1,49 @@
+# text = No matter.
+# sent_id = 3516
+1	No	no	DET	DT	_	0	_	_	start_char=0|end_char=2
+2	matter	matter	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=9|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = All it takes is a female co worker to say “I feel threatened, he said GUN!”
+# sent_id = 3517
+1	All	all	DET	DT	_	0	_	_	start_char=11|end_char=14
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=15|end_char=17
+3	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=18|end_char=23
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=24|end_char=26
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=27|end_char=28
+6	female	female	ADJ	JJ	Degree=Pos	5	_	_	start_char=29|end_char=35
+7	co	co	NOUN	NN	Number=Sing	6	_	_	start_char=36|end_char=38
+8	worker	worker	NOUN	NN	Number=Sing	7	_	_	start_char=39|end_char=45
+9	to	to	PART	TO	_	8	_	_	start_char=46|end_char=48
+10	say	say	VERB	VB	VerbForm=Inf	9	_	_	start_char=49|end_char=52
+11	“	''	PUNCT	``	_	10	_	_	start_char=53|end_char=54|SpaceAfter=No
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=54|end_char=55
+13	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=56|end_char=60
+14	threatened	threaten	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=61|end_char=71|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=71|end_char=72
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=73|end_char=75
+17	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=76|end_char=80
+18	GUN	GUN	NOUN	NN	Number=Sing	17	_	_	start_char=81|end_char=84|SpaceAfter=No
+19	!	!	PUNCT	.	_	18	_	_	start_char=84|end_char=85|SpaceAfter=No
+20	”	''	PUNCT	''	_	19	_	_	start_char=85|end_char=86
+
+# text = No proof req. you will be ordered to turn in your gun within 48 hrs.
+# sent_id = 3518
+1	No	no	DET	DT	_	0	_	_	start_char=87|end_char=89
+2	proof	proof	NOUN	NN	Number=Sing	1	_	_	start_char=90|end_char=95
+3	req	req	NOUN	NN	Number=Sing	2	_	_	start_char=96|end_char=99|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=99|end_char=100
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=101|end_char=104
+6	will	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=105|end_char=109
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=110|end_char=112
+8	ordered	order	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=113|end_char=120
+9	to	to	PART	TO	_	8	_	_	start_char=121|end_char=123
+10	turn	turn	VERB	VB	VerbForm=Inf	9	_	_	start_char=124|end_char=128
+11	in	in	ADP	RP	_	10	_	_	start_char=129|end_char=131
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	_	_	start_char=132|end_char=136
+13	gun	gun	NOUN	NN	Number=Sing	12	_	_	start_char=137|end_char=140
+14	within	within	ADP	IN	_	13	_	_	start_char=141|end_char=147
+15	48	48	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=148|end_char=150
+16	hrs	hour	NOUN	NNS	Number=Plur	15	_	_	start_char=151|end_char=154|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=154|end_char=155|SpaceAfter=No
+

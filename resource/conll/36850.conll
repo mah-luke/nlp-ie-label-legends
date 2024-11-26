@@ -1,0 +1,59 @@
+# text = Women are attracted by the same thing, whether it's male or female I'd say.
+# sent_id = 78777
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=5
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=9
+3	attracted	attract	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=10|end_char=19
+4	by	by	ADP	IN	_	3	_	_	start_char=20|end_char=22
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=23|end_char=26
+6	same	same	ADJ	JJ	Degree=Pos	5	_	_	start_char=27|end_char=31
+7	thing	thing	NOUN	NN	Number=Sing	6	_	_	start_char=32|end_char=37|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=37|end_char=38
+9	whether	whether	SCONJ	IN	_	8	_	_	start_char=39|end_char=46
+10-11	it's	_	_	_	_	_	_	_	start_char=47|end_char=51
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=47|end_char=49
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=49|end_char=51
+12	male	male	ADJ	JJ	Degree=Pos	11	_	_	start_char=52|end_char=56
+13	or	or	CCONJ	CC	_	12	_	_	start_char=57|end_char=59
+14	female	female	NOUN	NN	Number=Sing	13	_	_	start_char=60|end_char=66
+15-16	I'd	_	_	_	_	_	_	_	start_char=67|end_char=70
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=67|end_char=68
+16	'd	would	AUX	MD	VerbForm=Fin	15	_	_	start_char=68|end_char=70
+17	say	say	VERB	VB	VerbForm=Inf	16	_	_	start_char=71|end_char=74|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=74|end_char=75
+
+# text = I'm no expert on the question but that seems like common sense to me.
+# sent_id = 78778
+1-2	I'm	_	_	_	_	_	_	_	start_char=76|end_char=79
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=76|end_char=77
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=77|end_char=79
+3	no	no	DET	DT	_	2	_	_	start_char=80|end_char=82
+4	expert	expert	NOUN	NN	Number=Sing	3	_	_	start_char=83|end_char=89
+5	on	on	ADP	IN	_	4	_	_	start_char=90|end_char=92
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=93|end_char=96
+7	question	question	NOUN	NN	Number=Sing	6	_	_	start_char=97|end_char=105
+8	but	but	CCONJ	CC	_	7	_	_	start_char=106|end_char=109
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=110|end_char=114
+10	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=115|end_char=120
+11	like	like	ADP	IN	_	10	_	_	start_char=121|end_char=125
+12	common	common	ADJ	JJ	Degree=Pos	11	_	_	start_char=126|end_char=132
+13	sense	sense	NOUN	NN	Number=Sing	12	_	_	start_char=133|end_char=138
+14	to	to	ADP	IN	_	13	_	_	start_char=139|end_char=141
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=142|end_char=144|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=144|end_char=145
+
+# text = Do your homework, watch youtube videos about how to pick up girls
+# sent_id = 78779
+1	Do	do	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=146|end_char=148
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=149|end_char=153
+3	homework	homework	NOUN	NN	Number=Sing	2	_	_	start_char=154|end_char=162|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=162|end_char=163
+5	watch	watch	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=164|end_char=169
+6	youtube	youtube	PROPN	NNP	Number=Sing	5	_	_	start_char=170|end_char=177
+7	videos	video	NOUN	NNS	Number=Plur	6	_	_	start_char=178|end_char=184
+8	about	about	ADP	IN	_	7	_	_	start_char=185|end_char=190
+9	how	how	ADV	WRB	PronType=Int	8	_	_	start_char=191|end_char=194
+10	to	to	PART	TO	_	9	_	_	start_char=195|end_char=197
+11	pick	pick	VERB	VB	VerbForm=Inf	10	_	_	start_char=198|end_char=202
+12	up	up	ADP	RP	_	11	_	_	start_char=203|end_char=205
+13	girls	girl	NOUN	NNS	Number=Plur	12	_	_	start_char=206|end_char=211|SpaceAfter=No
+

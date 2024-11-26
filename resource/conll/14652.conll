@@ -1,0 +1,69 @@
+# text = “It’s a literal health problem” lmao!
+# sent_id = 31209
+1	“	''	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2-3	It’s	_	_	_	_	_	_	_	start_char=1|end_char=5
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=1|end_char=3
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=3|end_char=5
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=6|end_char=7
+5	literal	literal	ADJ	JJ	Degree=Pos	4	_	_	start_char=8|end_char=15
+6	health	health	NOUN	NN	Number=Sing	5	_	_	start_char=16|end_char=22
+7	problem	problem	NOUN	NN	Number=Sing	6	_	_	start_char=23|end_char=30|SpaceAfter=No
+8	”	''	PUNCT	''	_	7	_	_	start_char=30|end_char=31
+9	lmao	lmao	X	FW	_	8	_	_	start_char=32|end_char=36|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=36|end_char=37
+
+# text = But yeah, sex can be *really* bad and unenjoyable for women so we don’t just sleep with whoever.
+# sent_id = 31210
+1	But	but	CCONJ	CC	_	0	_	_	start_char=38|end_char=41
+2	yeah	yeah	INTJ	UH	_	1	_	_	start_char=42|end_char=46|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=46|end_char=47
+4	sex	sex	NOUN	NN	Number=Sing	3	_	_	start_char=48|end_char=51
+5	can	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=52|end_char=55
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=56|end_char=58
+7	*	*	PUNCT	NFP	_	6	_	_	start_char=59|end_char=60|SpaceAfter=No
+8	really	really	ADV	RB	_	7	_	_	start_char=60|end_char=66|SpaceAfter=No
+9	*	*	PUNCT	NFP	_	8	_	_	start_char=66|end_char=67
+10	bad	bad	ADJ	JJ	Degree=Pos	9	_	_	start_char=68|end_char=71
+11	and	and	CCONJ	CC	_	10	_	_	start_char=72|end_char=75
+12	unenjoyable	unenjoyable	ADJ	JJ	Degree=Pos	11	_	_	start_char=76|end_char=87
+13	for	for	ADP	IN	_	12	_	_	start_char=88|end_char=91
+14	women	woman	NOUN	NNS	Number=Plur	13	_	_	start_char=92|end_char=97
+15	so	so	ADV	RB	_	14	_	_	start_char=98|end_char=100
+16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	_	_	start_char=101|end_char=103
+17-18	don’t	_	_	_	_	_	_	_	start_char=104|end_char=109
+17	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	_	_	start_char=104|end_char=106
+18	n’t	not	PART	RB	_	17	_	_	start_char=106|end_char=109
+19	just	just	ADV	RB	_	18	_	_	start_char=110|end_char=114
+20	sleep	sleep	VERB	VB	VerbForm=Inf	19	_	_	start_char=115|end_char=120
+21	with	with	ADP	IN	_	20	_	_	start_char=121|end_char=125
+22	whoever	whoever	PRON	WP	PronType=Rel	21	_	_	start_char=126|end_char=133|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=133|end_char=134
+
+# text = That and the social stigma and also safety, so we can’t just take anyone.
+# sent_id = 31211
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=135|end_char=139
+2	and	and	CCONJ	CC	_	1	_	_	start_char=140|end_char=143
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=144|end_char=147
+4	social	social	ADJ	JJ	Degree=Pos	3	_	_	start_char=148|end_char=154
+5	stigma	stigma	NOUN	NN	Number=Sing	4	_	_	start_char=155|end_char=161
+6	and	and	CCONJ	CC	_	5	_	_	start_char=162|end_char=165
+7	also	also	ADV	RB	_	6	_	_	start_char=166|end_char=170
+8	safety	safety	NOUN	NN	Number=Sing	7	_	_	start_char=171|end_char=177|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=177|end_char=178
+10	so	so	ADV	RB	_	9	_	_	start_char=179|end_char=181
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	_	_	start_char=182|end_char=184
+12-13	can’t	_	_	_	_	_	_	_	start_char=185|end_char=190
+12	ca	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=185|end_char=187
+13	n’t	not	PART	RB	_	12	_	_	start_char=187|end_char=190
+14	just	just	ADV	RB	_	13	_	_	start_char=191|end_char=195
+15	take	take	VERB	VB	VerbForm=Inf	14	_	_	start_char=196|end_char=200
+16	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	15	_	_	start_char=201|end_char=207|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=207|end_char=208
+
+# text = It sucks tbh.
+# sent_id = 31212
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=209|end_char=211
+2	sucks	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=212|end_char=217
+3	tbh	tbh	INTJ	UH	_	2	_	_	start_char=218|end_char=221|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=221|end_char=222|SpaceAfter=No
+

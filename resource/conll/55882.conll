@@ -1,0 +1,37 @@
+# text = you funny!
+# sent_id = 119433
+1	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	funny	funny	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=9|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = also nicely self-referential.
+# sent_id = 119434
+1	also	also	ADV	RB	_	0	_	_	start_char=11|end_char=15
+2	nicely	nicely	ADV	RB	_	1	_	_	start_char=16|end_char=22
+3	self	self	NOUN	NN	Number=Sing	2	_	_	start_char=23|end_char=27|SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	_	_	start_char=27|end_char=28|SpaceAfter=No
+5	referential	referential	ADJ	JJ	Degree=Pos	4	_	_	start_char=28|end_char=39|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=39|end_char=40
+
+# text = I spose you know what Pastiness of the Ductus signifies...and where to dispose of used conundrums?
+# sent_id = 119435
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=41|end_char=42
+2	spose	spease	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=43|end_char=48
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=49|end_char=52
+4	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=53|end_char=57
+5	what	what	PRON	WP	PronType=Rel	4	_	_	start_char=58|end_char=62
+6	Pastiness	Pastiness	PROPN	NNP	Number=Sing	5	_	_	start_char=63|end_char=72
+7	of	of	ADP	IN	_	6	_	_	start_char=73|end_char=75
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=76|end_char=79
+9	Ductus	Ductus	PROPN	NNP	Number=Sing	8	_	_	start_char=80|end_char=86
+10	signifies	signify	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=87|end_char=96|SpaceAfter=No
+11	...	...	PUNCT	,	_	10	_	_	start_char=96|end_char=99|SpaceAfter=No
+12	and	and	CCONJ	CC	_	11	_	_	start_char=99|end_char=102
+13	where	where	ADV	WRB	PronType=Int	12	_	_	start_char=103|end_char=108
+14	to	to	PART	TO	_	13	_	_	start_char=109|end_char=111
+15	dispose	dispose	VERB	VB	VerbForm=Inf	14	_	_	start_char=112|end_char=119
+16	of	of	ADP	IN	_	15	_	_	start_char=120|end_char=122
+17	used	use	VERB	VBN	Tense=Past|VerbForm=Part	16	_	_	start_char=123|end_char=127
+18	conundrums	conundrum	NOUN	NNS	Number=Plur	17	_	_	start_char=128|end_char=138|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=138|end_char=139|SpaceAfter=No
+

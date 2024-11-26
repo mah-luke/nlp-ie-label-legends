@@ -1,0 +1,36 @@
+# text = See a therapist.
+# sent_id = 92693
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=4|end_char=5
+3	therapist	therapist	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=15|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=15|end_char=16
+
+# text = But make sure it's not female, or one that goes "You just haven't found the right person yet."
+# sent_id = 92694
+1	But	but	CCONJ	CC	_	0	_	_	start_char=17|end_char=20
+2	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=21|end_char=25
+3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=26|end_char=30
+4-5	it's	_	_	_	_	_	_	_	start_char=31|end_char=35
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=31|end_char=33
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=33|end_char=35
+6	not	not	PART	RB	_	5	_	_	start_char=36|end_char=39
+7	female	female	ADJ	JJ	Degree=Pos	6	_	_	start_char=40|end_char=46|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=46|end_char=47
+9	or	or	CCONJ	CC	_	8	_	_	start_char=48|end_char=50
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=51|end_char=54
+11	that	that	PRON	WDT	PronType=Rel	10	_	_	start_char=55|end_char=59
+12	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=60|end_char=64
+13	"	"	PUNCT	``	_	12	_	_	start_char=65|end_char=66|SpaceAfter=No
+14	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	_	_	start_char=66|end_char=69
+15	just	just	ADV	RB	_	14	_	_	start_char=70|end_char=74
+16-17	haven't	_	_	_	_	_	_	_	start_char=75|end_char=82
+16	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	_	_	start_char=75|end_char=79
+17	n't	not	PART	RB	_	16	_	_	start_char=79|end_char=82
+18	found	find	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=83|end_char=88
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=89|end_char=92
+20	right	right	ADJ	JJ	Degree=Pos	19	_	_	start_char=93|end_char=98
+21	person	person	NOUN	NN	Number=Sing	20	_	_	start_char=99|end_char=105
+22	yet	yet	ADV	RB	_	21	_	_	start_char=106|end_char=109|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=109|end_char=110|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	_	_	start_char=110|end_char=111|SpaceAfter=No
+

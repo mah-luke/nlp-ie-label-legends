@@ -1,0 +1,31 @@
+# text = I feel horrible for the injured.
+# sent_id = 96327
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	horrible	horrible	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=15
+4	for	for	ADP	IN	_	3	_	_	start_char=16|end_char=19
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=20|end_char=23
+6	injured	injure	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=24|end_char=31|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=31|end_char=32
+
+# text = Hopefully no deaths.
+# sent_id = 96328
+1	Hopefully	hopefully	ADV	RB	_	0	_	_	start_char=33|end_char=42
+2	no	no	DET	DT	_	1	_	_	start_char=43|end_char=45
+3	deaths	death	NOUN	NNS	Number=Plur	2	_	_	start_char=46|end_char=52|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=52|end_char=53
+
+# text = But yes I hope she would be mired in lawsuits.
+# sent_id = 96329
+1	But	but	CCONJ	CC	_	0	_	_	start_char=54|end_char=57
+2	yes	yes	INTJ	UH	_	1	_	_	start_char=58|end_char=61
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=62|end_char=63
+4	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=64|end_char=68
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=69|end_char=72
+6	would	would	AUX	MD	VerbForm=Fin	5	_	_	start_char=73|end_char=78
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=79|end_char=81
+8	mired	mire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=82|end_char=87
+9	in	in	ADP	IN	_	8	_	_	start_char=88|end_char=90
+10	lawsuits	lawsuit	NOUN	NNS	Number=Plur	9	_	_	start_char=91|end_char=99|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=99|end_char=100|SpaceAfter=No
+

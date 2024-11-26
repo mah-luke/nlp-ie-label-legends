@@ -1,0 +1,27 @@
+# text = Nah I like white girls.
+# sent_id = 97339
+1	Nah	nah	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=4|end_char=5
+3	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=6|end_char=10
+4	white	white	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=16
+5	girls	girl	NOUN	NNS	Number=Plur	4	_	_	start_char=17|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = I'm just not interested in white trash degenerate coke heads like you...
+# sent_id = 97340
+1-2	I'm	_	_	_	_	_	_	_	start_char=24|end_char=27
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=24|end_char=25
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=27
+3	just	just	ADV	RB	_	2	_	_	start_char=28|end_char=32
+4	not	not	PART	RB	_	3	_	_	start_char=33|end_char=36
+5	interested	interested	ADJ	JJ	Degree=Pos	4	_	_	start_char=37|end_char=47
+6	in	in	ADP	IN	_	5	_	_	start_char=48|end_char=50
+7	white	white	ADJ	JJ	Degree=Pos	6	_	_	start_char=51|end_char=56
+8	trash	trash	NOUN	NN	Number=Sing	7	_	_	start_char=57|end_char=62
+9	degenerate	degenerate	ADJ	JJ	Degree=Pos	8	_	_	start_char=63|end_char=73
+10	coke	coke	NOUN	NN	Number=Sing	9	_	_	start_char=74|end_char=78
+11	heads	head	NOUN	NNS	Number=Plur	10	_	_	start_char=79|end_char=84
+12	like	like	ADP	IN	_	11	_	_	start_char=85|end_char=89
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	_	_	start_char=90|end_char=93|SpaceAfter=No
+14	...	...	PUNCT	.	_	13	_	_	start_char=93|end_char=96|SpaceAfter=No
+

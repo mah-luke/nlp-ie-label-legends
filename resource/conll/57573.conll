@@ -1,0 +1,47 @@
+# text = and negotiate Yup.
+# sent_id = 123021
+1	and	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	negotiate	negotiate	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=4|end_char=13
+3	Yup	Yup	PROPN	NNP	Number=Sing	2	_	_	start_char=14|end_char=17|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=17|end_char=18
+
+# text = They are guys who cannot/will not pull out of the "bargaining-phase" of loss.
+# sent_id = 123022
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=19|end_char=23
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=24|end_char=27
+3	guys	guy	NOUN	NNS	Number=Plur	2	_	_	start_char=28|end_char=32
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=33|end_char=36
+5-6	cannot	_	_	_	_	_	_	_	start_char=37|end_char=43|SpaceAfter=No
+5	can	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=37|end_char=40
+6	not	not	PART	RB	_	5	_	_	start_char=40|end_char=43
+7	/	/	SYM	,	_	6	_	_	start_char=43|end_char=44|SpaceAfter=No
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=44|end_char=48
+9	not	not	PART	RB	_	8	_	_	start_char=49|end_char=52
+10	pull	pull	VERB	VB	VerbForm=Inf	9	_	_	start_char=53|end_char=57
+11	out	out	ADP	IN	_	10	_	_	start_char=58|end_char=61
+12	of	of	ADP	IN	_	11	_	_	start_char=62|end_char=64
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=65|end_char=68
+14	"	"	PUNCT	``	_	13	_	_	start_char=69|end_char=70|SpaceAfter=No
+15	bargaining	bargain	NOUN	NN	Number=Sing	14	_	_	start_char=70|end_char=80|SpaceAfter=No
+16	-	-	PUNCT	HYPH	_	15	_	_	start_char=80|end_char=81|SpaceAfter=No
+17	phase	phase	NOUN	NN	Number=Sing	16	_	_	start_char=81|end_char=86|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=86|end_char=87
+19	of	of	ADP	IN	_	18	_	_	start_char=88|end_char=90
+20	loss	loss	NOUN	NN	Number=Sing	19	_	_	start_char=91|end_char=95|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=95|end_char=96
+
+# text = They *need* validation, especially *female*- validation.
+# sent_id = 123023
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=97|end_char=101
+2	*	*	PUNCT	NFP	_	1	_	_	start_char=102|end_char=103|SpaceAfter=No
+3	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=103|end_char=107|SpaceAfter=No
+4	*	*	PUNCT	NFP	_	3	_	_	start_char=107|end_char=108
+5	validation	validation	NOUN	NN	Number=Sing	4	_	_	start_char=109|end_char=119|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=119|end_char=120
+7	especially	especially	ADV	RB	_	6	_	_	start_char=121|end_char=131
+8	*	*	PUNCT	NFP	_	7	_	_	start_char=132|end_char=133|SpaceAfter=No
+9	female	female	ADJ	JJ	Degree=Pos	8	_	_	start_char=133|end_char=139|SpaceAfter=No
+10	*-	*-	SYM	SYM	_	9	_	_	start_char=139|end_char=141
+11	validation	validation	NOUN	NN	Number=Sing	10	_	_	start_char=142|end_char=152|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=152|end_char=153|SpaceAfter=No
+

@@ -1,0 +1,46 @@
+# text = [USER] <= I would like to point out her donation schemes have been going on for a long time.
+# sent_id = 65565
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	<=	<=	PUNCT	,	_	3	_	_	start_char=7|end_char=9
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=10|end_char=11
+6	would	would	AUX	MD	VerbForm=Fin	5	_	_	start_char=12|end_char=17
+7	like	like	VERB	VB	VerbForm=Inf	6	_	_	start_char=18|end_char=22
+8	to	to	PART	TO	_	7	_	_	start_char=23|end_char=25
+9	point	point	VERB	VB	VerbForm=Inf	8	_	_	start_char=26|end_char=31
+10	out	out	ADP	RP	_	9	_	_	start_char=32|end_char=35
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=36|end_char=39
+12	donation	donation	NOUN	NN	Number=Sing	11	_	_	start_char=40|end_char=48
+13	schemes	scheme	NOUN	NNS	Number=Plur	12	_	_	start_char=49|end_char=56
+14	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=57|end_char=61
+15	been	be	AUX	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=62|end_char=66
+16	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	15	_	_	start_char=67|end_char=72
+17	on	on	ADP	RP	_	16	_	_	start_char=73|end_char=75
+18	for	for	ADP	IN	_	17	_	_	start_char=76|end_char=79
+19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=80|end_char=81
+20	long	long	ADJ	JJ	Degree=Pos	19	_	_	start_char=82|end_char=86
+21	time	time	NOUN	NN	Number=Sing	20	_	_	start_char=87|end_char=91|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=91|end_char=92
+
+# text = Here's a blast from the past =>
+# sent_id = 65566
+1-2	Here's	_	_	_	_	_	_	_	start_char=93|end_char=99
+1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=93|end_char=97
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=97|end_char=99
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=100|end_char=101
+4	blast	blast	NOUN	NN	Number=Sing	3	_	_	start_char=102|end_char=107
+5	from	from	ADP	IN	_	4	_	_	start_char=108|end_char=112
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=113|end_char=116
+7	past	past	NOUN	NN	Number=Sing	6	_	_	start_char=117|end_char=121
+8	=>	=>	SYM	NFP	_	7	_	_	start_char=122|end_char=124
+
+# text = MUST READ => [URL]
+# sent_id = 65567
+1	MUST	must	AUX	MD	VerbForm=Fin	0	_	_	start_char=125|end_char=129
+2	READ	read	VERB	VB	VerbForm=Inf	1	_	_	start_char=130|end_char=134
+3	=>	=>	SYM	SYM	_	2	_	_	start_char=135|end_char=137
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=138|end_char=139|SpaceAfter=No
+5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=139|end_char=142|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=142|end_char=143|SpaceAfter=No
+

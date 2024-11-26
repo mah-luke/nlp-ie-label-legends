@@ -1,0 +1,49 @@
+# text = [USER] Sorry Lisa, not at my best today.
+# sent_id = 15270
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	Sorry	sorry	ADJ	JJ	Degree=Pos	3	_	_	start_char=7|end_char=12
+5	Lisa	Lisa	PROPN	NNP	Number=Sing	4	_	_	start_char=13|end_char=17|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=17|end_char=18
+7	not	not	PART	RB	_	6	_	_	start_char=19|end_char=22
+8	at	at	ADP	IN	_	7	_	_	start_char=23|end_char=25
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=26|end_char=28
+10	best	good	ADJ	JJS	Degree=Sup	9	_	_	start_char=29|end_char=33
+11	today	today	NOUN	NN	Number=Sing	10	_	_	start_char=34|end_char=39|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=39|end_char=40
+
+# text = Lack of sleep, no coffee, dog ate my shoe, and my wife ran off with the milk man.
+# sent_id = 15271
+1	Lack	lack	NOUN	NN	Number=Sing	0	_	_	start_char=41|end_char=45
+2	of	of	ADP	IN	_	1	_	_	start_char=46|end_char=48
+3	sleep	sleep	NOUN	NN	Number=Sing	2	_	_	start_char=49|end_char=54|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=54|end_char=55
+5	no	no	DET	DT	_	4	_	_	start_char=56|end_char=58
+6	coffee	coffee	NOUN	NN	Number=Sing	5	_	_	start_char=59|end_char=65|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=65|end_char=66
+8	dog	dog	NOUN	NN	Number=Sing	7	_	_	start_char=67|end_char=70
+9	ate	eat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=71|end_char=74
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=75|end_char=77
+11	shoe	shoe	NOUN	NN	Number=Sing	10	_	_	start_char=78|end_char=82|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=82|end_char=83
+13	and	and	CCONJ	CC	_	12	_	_	start_char=84|end_char=87
+14	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	_	_	start_char=88|end_char=90
+15	wife	wife	NOUN	NN	Number=Sing	14	_	_	start_char=91|end_char=95
+16	ran	run	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=96|end_char=99
+17	off	off	ADP	RP	_	16	_	_	start_char=100|end_char=103
+18	with	with	ADP	IN	_	17	_	_	start_char=104|end_char=108
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=109|end_char=112
+20	milk	milk	NOUN	NN	Number=Sing	19	_	_	start_char=113|end_char=117
+21	man	man	NOUN	NN	Number=Sing	20	_	_	start_char=118|end_char=121|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=121|end_char=122
+
+# text = Just one of those days.
+# sent_id = 15272
+1	Just	just	ADV	RB	_	0	_	_	start_char=123|end_char=127
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=128|end_char=131
+3	of	of	ADP	IN	_	2	_	_	start_char=132|end_char=134
+4	those	that	DET	DT	Number=Plur|PronType=Dem	3	_	_	start_char=135|end_char=140
+5	days	day	NOUN	NNS	Number=Plur	4	_	_	start_char=141|end_char=145|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=145|end_char=146|SpaceAfter=No
+

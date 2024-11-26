@@ -1,0 +1,46 @@
+# text = Yeah.
+# sent_id = 114810
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = Pretty much the simplest way to do it.
+# sent_id = 114811
+1	Pretty	pretty	ADV	RB	_	0	_	_	start_char=6|end_char=12
+2	much	much	ADV	RB	_	1	_	_	start_char=13|end_char=17
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=18|end_char=21
+4	simplest	simple	ADJ	JJS	Degree=Sup	3	_	_	start_char=22|end_char=30
+5	way	way	NOUN	NN	Number=Sing	4	_	_	start_char=31|end_char=34
+6	to	to	PART	TO	_	5	_	_	start_char=35|end_char=37
+7	do	do	VERB	VB	VerbForm=Inf	6	_	_	start_char=38|end_char=40
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=41|end_char=43|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=43|end_char=44
+
+# text = It works in the reverse with "you're probably like this" and then she tries to prove she is or is not.
+# sent_id = 114812
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=45|end_char=47
+2	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=48|end_char=53
+3	in	in	ADP	IN	_	2	_	_	start_char=54|end_char=56
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=57|end_char=60
+5	reverse	reverse	NOUN	NN	Number=Sing	4	_	_	start_char=61|end_char=68
+6	with	with	ADP	IN	_	5	_	_	start_char=69|end_char=73
+7	"	"	PUNCT	``	_	6	_	_	start_char=74|end_char=75|SpaceAfter=No
+8-9	you're	_	_	_	_	_	_	_	start_char=75|end_char=81
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=75|end_char=78
+9	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=78|end_char=81
+10	probably	probably	ADV	RB	_	9	_	_	start_char=82|end_char=90
+11	like	like	ADP	IN	_	10	_	_	start_char=91|end_char=95
+12	this	this	PRON	DT	Number=Sing|PronType=Dem	11	_	_	start_char=96|end_char=100|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=100|end_char=101
+14	and	and	CCONJ	CC	_	13	_	_	start_char=102|end_char=105
+15	then	then	ADV	RB	PronType=Dem	14	_	_	start_char=106|end_char=110
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=111|end_char=114
+17	tries	try	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=115|end_char=120
+18	to	to	PART	TO	_	17	_	_	start_char=121|end_char=123
+19	prove	prove	VERB	VB	VerbForm=Inf	18	_	_	start_char=124|end_char=129
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=130|end_char=133
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=134|end_char=136
+22	or	or	CCONJ	CC	_	21	_	_	start_char=137|end_char=139
+23	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=140|end_char=142
+24	not	not	PART	RB	_	23	_	_	start_char=143|end_char=146|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=146|end_char=147|SpaceAfter=No
+

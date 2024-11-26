@@ -1,0 +1,72 @@
+# text = if possible, even the elect.
+# sent_id = 94821
+1	if	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	possible	possible	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=11|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=11|end_char=12
+4	even	even	ADV	RB	_	3	_	_	start_char=13|end_char=17
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=18|end_char=21
+6	elect	elect	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=27|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=27|end_char=28|SpaceAfter=No
+
+# text = See, I have told you ahead of time.
+# sent_id = 94822
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=28|end_char=31|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=31|end_char=32
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=33|end_char=34
+4	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=35|end_char=39
+5	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=40|end_char=44
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=45|end_char=48
+7	ahead	ahead	ADV	RB	_	6	_	_	start_char=49|end_char=54
+8	of	of	ADP	IN	_	7	_	_	start_char=55|end_char=57
+9	time	time	NOUN	NN	Number=Sing	8	_	_	start_char=58|end_char=62|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=62|end_char=63|SpaceAfter=No
+
+# text = “So if anyone tells you, ‘There he is, out in the wilderness,’ do not go out; or, ‘Here he is, in the inner rooms,’ do not believe it.
+# sent_id = 94823
+1	“	''	PUNCT	``	_	0	_	_	start_char=63|end_char=64|SpaceAfter=No
+2	So	so	ADV	RB	_	1	_	_	start_char=64|end_char=66
+3	if	if	SCONJ	IN	_	2	_	_	start_char=67|end_char=69
+4	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=70|end_char=76
+5	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=77|end_char=82
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=83|end_char=86|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=86|end_char=87
+8	‘	'	PUNCT	``	_	7	_	_	start_char=88|end_char=89|SpaceAfter=No
+9	There	there	PRON	EX	_	8	_	_	start_char=89|end_char=94
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=95|end_char=97
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=98|end_char=100|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=100|end_char=101
+13	out	out	ADV	RB	_	12	_	_	start_char=102|end_char=105
+14	in	in	ADP	IN	_	13	_	_	start_char=106|end_char=108
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=109|end_char=112
+16	wilderness	wilderness	NOUN	NN	Number=Sing	15	_	_	start_char=113|end_char=123|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=123|end_char=124|SpaceAfter=No
+18	’	'	PUNCT	''	_	17	_	_	start_char=124|end_char=125
+19	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	18	_	_	start_char=126|end_char=128
+20	not	not	PART	RB	_	19	_	_	start_char=129|end_char=132
+21	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	20	_	_	start_char=133|end_char=135
+22	out	out	ADV	RB	_	21	_	_	start_char=136|end_char=139|SpaceAfter=No
+23	;	;	PUNCT	,	_	22	_	_	start_char=139|end_char=140
+24	or	or	CCONJ	CC	_	23	_	_	start_char=141|end_char=143|SpaceAfter=No
+25	,	,	PUNCT	,	_	24	_	_	start_char=143|end_char=144
+26	‘	'	PUNCT	``	_	25	_	_	start_char=145|end_char=146|SpaceAfter=No
+27	Here	here	ADV	RB	PronType=Dem	26	_	_	start_char=146|end_char=150
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	_	_	start_char=151|end_char=153
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	_	_	start_char=154|end_char=156|SpaceAfter=No
+30	,	,	PUNCT	,	_	29	_	_	start_char=156|end_char=157
+31	in	in	ADP	IN	_	30	_	_	start_char=158|end_char=160
+32	the	the	DET	DT	Definite=Def|PronType=Art	31	_	_	start_char=161|end_char=164
+33	inner	inner	ADJ	JJ	Degree=Pos	32	_	_	start_char=165|end_char=170
+34	rooms	room	NOUN	NNS	Number=Plur	33	_	_	start_char=171|end_char=176|SpaceAfter=No
+35	,	,	PUNCT	,	_	34	_	_	start_char=176|end_char=177|SpaceAfter=No
+36	’	'	PUNCT	''	_	35	_	_	start_char=177|end_char=178
+37	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	36	_	_	start_char=179|end_char=181
+38	not	not	PART	RB	_	37	_	_	start_char=182|end_char=185
+39	believe	believe	VERB	VB	Mood=Imp|VerbForm=Fin	38	_	_	start_char=186|end_char=193
+40	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	39	_	_	start_char=194|end_char=196|SpaceAfter=No
+41	.	.	PUNCT	.	_	40	_	_	start_char=196|end_char=197
+
+# text = Mat.24:23 26
+# sent_id = 94824
+1	Mat.24:23	Mat.24:23	PROPN	NNP	Number=Sing	0	_	_	start_char=198|end_char=207
+2	26	26	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=208|end_char=210|SpaceAfter=No
+

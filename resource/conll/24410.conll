@@ -1,0 +1,29 @@
+# text = Well, now you know she's not LTR material.
+# sent_id = 52330
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	now	now	ADV	RB	_	2	_	_	start_char=6|end_char=9
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=10|end_char=13
+5	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=14|end_char=18
+6-7	she's	_	_	_	_	_	_	_	start_char=19|end_char=24
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=19|end_char=22
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=22|end_char=24
+8	not	not	PART	RB	_	7	_	_	start_char=25|end_char=28
+9	LTR	LTR	PROPN	NNP	Number=Sing	8	_	_	start_char=29|end_char=32
+10	material	material	NOUN	NN	Number=Sing	9	_	_	start_char=33|end_char=41|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=41|end_char=42
+
+# text = Don't take her seriously and just have fun.
+# sent_id = 52331
+1-2	Don't	_	_	_	_	_	_	_	start_char=43|end_char=48
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=43|end_char=45
+2	n't	not	PART	RB	_	1	_	_	start_char=45|end_char=48
+3	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=49|end_char=53
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=54|end_char=57
+5	seriously	seriously	ADV	RB	_	4	_	_	start_char=58|end_char=67
+6	and	and	CCONJ	CC	_	5	_	_	start_char=68|end_char=71
+7	just	just	ADV	RB	_	6	_	_	start_char=72|end_char=76
+8	have	have	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=77|end_char=81
+9	fun	fun	NOUN	NN	Number=Sing	8	_	_	start_char=82|end_char=85|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=85|end_char=86|SpaceAfter=No
+

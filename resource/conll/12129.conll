@@ -1,0 +1,53 @@
+# text = Hildegarde von Bingen..the only woman composer ever considered truly great.
+# sent_id = 25686
+1	Hildegarde	Hildegarde	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=10
+2	von	von	PROPN	NNP	Number=Sing	1	_	_	start_char=11|end_char=14
+3	Bingen	Bingen	PROPN	NNP	Number=Sing	2	_	_	start_char=15|end_char=21|SpaceAfter=No
+4	..	..	PUNCT	,	_	3	_	_	start_char=21|end_char=23|SpaceAfter=No
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=23|end_char=26
+6	only	only	ADJ	JJ	Degree=Pos	5	_	_	start_char=27|end_char=31
+7	woman	woman	NOUN	NN	Number=Sing	6	_	_	start_char=32|end_char=37
+8	composer	composer	NOUN	NN	Number=Sing	7	_	_	start_char=38|end_char=46
+9	ever	ever	ADV	RB	_	8	_	_	start_char=47|end_char=51
+10	considered	consider	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=52|end_char=62
+11	truly	truly	ADV	RB	_	10	_	_	start_char=63|end_char=68
+12	great	great	ADJ	JJ	Degree=Pos	11	_	_	start_char=69|end_char=74|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=74|end_char=75
+
+# text = Amazing sacred music.
+# sent_id = 25687
+1	Amazing	amazing	ADJ	JJ	Degree=Pos	0	_	_	start_char=76|end_char=83
+2	sacred	sacred	ADJ	JJ	Degree=Pos	1	_	_	start_char=84|end_char=90
+3	music	music	NOUN	NN	Number=Sing	2	_	_	start_char=91|end_char=96|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=96|end_char=97
+
+# text = A German Benedictine nun of all things.
+# sent_id = 25688
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=98|end_char=99
+2	German	German	ADJ	JJ	Degree=Pos	1	_	_	start_char=100|end_char=106
+3	Benedictine	Benedictine	PROPN	NNP	Number=Sing	2	_	_	start_char=107|end_char=118
+4	nun	nun	NOUN	NN	Number=Sing	3	_	_	start_char=119|end_char=122
+5	of	of	ADP	IN	_	4	_	_	start_char=123|end_char=125
+6	all	all	DET	DT	_	5	_	_	start_char=126|end_char=129
+7	things	thing	NOUN	NNS	Number=Plur	6	_	_	start_char=130|end_char=136|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=136|end_char=137
+
+# text = Lived almost 90 years in the 12 th century!
+# sent_id = 25689
+1	Lived	live	VERB	VBN	Mood=Ind|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=138|end_char=143
+2	almost	almost	ADV	RB	_	1	_	_	start_char=144|end_char=150
+3	90	90	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=151|end_char=153
+4	years	year	NOUN	NNS	Number=Plur	3	_	_	start_char=154|end_char=159
+5	in	in	ADP	IN	_	4	_	_	start_char=160|end_char=162
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=163|end_char=166
+7	12	12	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=167|end_char=169
+8	th	that	ADJ	JJ	Degree=Pos|NumType=Ord	7	_	_	start_char=170|end_char=172
+9	century	century	NOUN	NN	Number=Sing	8	_	_	start_char=173|end_char=180|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=180|end_char=181
+
+# text = [URL]
+# sent_id = 25690
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=182|end_char=183|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=183|end_char=186|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=186|end_char=187|SpaceAfter=No
+

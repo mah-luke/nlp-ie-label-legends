@@ -1,0 +1,35 @@
+# text = just a bunch of pigs!
+# sent_id = 80313
+1	just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	bunch	bunch	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=12
+4	of	of	ADP	IN	_	3	_	_	start_char=13|end_char=15
+5	pigs	pig	NOUN	NNS	Number=Plur	4	_	_	start_char=16|end_char=20|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=20|end_char=21
+
+# text = no morals, no values, no nothing!
+# sent_id = 80314
+1	no	no	DET	DT	_	0	_	_	start_char=22|end_char=24
+2	morals	moral	NOUN	NNS	Number=Plur	1	_	_	start_char=25|end_char=31|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=31|end_char=32
+4	no	no	DET	DT	_	3	_	_	start_char=33|end_char=35
+5	values	value	NOUN	NNS	Number=Plur	4	_	_	start_char=36|end_char=42|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=42|end_char=43
+7	no	no	DET	DT	_	6	_	_	start_char=44|end_char=46
+8	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	7	_	_	start_char=47|end_char=54|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=54|end_char=55
+
+# text = I have no time for them... thanks for sharing...
+# sent_id = 80315
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=56|end_char=57
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=58|end_char=62
+3	no	no	DET	DT	_	2	_	_	start_char=63|end_char=65
+4	time	time	NOUN	NN	Number=Sing	3	_	_	start_char=66|end_char=70
+5	for	for	ADP	IN	_	4	_	_	start_char=71|end_char=74
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=75|end_char=79|SpaceAfter=No
+7	...	...	PUNCT	,	_	6	_	_	start_char=79|end_char=82
+8	thanks	thanks	NOUN	NN	Number=Sing	7	_	_	start_char=83|end_char=89
+9	for	for	SCONJ	IN	_	8	_	_	start_char=90|end_char=93
+10	sharing	share	VERB	VBG	VerbForm=Ger	9	_	_	start_char=94|end_char=101|SpaceAfter=No
+11	...	...	PUNCT	.	_	10	_	_	start_char=101|end_char=104|SpaceAfter=No
+

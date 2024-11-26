@@ -1,0 +1,84 @@
+# text = All alone on the beach?
+# sent_id = 107377
+1	All	all	DET	DT	_	0	_	_	start_char=0|end_char=3
+2	alone	alone	ADV	RB	_	1	_	_	start_char=4|end_char=9
+3	on	on	ADP	IN	_	2	_	_	start_char=10|end_char=12
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=13|end_char=16
+5	beach	beach	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=22|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = Well, maybe not.
+# sent_id = 107378
+1	Well	well	INTJ	UH	_	0	_	_	start_char=24|end_char=28|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=28|end_char=29
+3	maybe	maybe	ADV	RB	_	2	_	_	start_char=30|end_char=35
+4	not	not	PART	RB	_	3	_	_	start_char=36|end_char=39|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=39|end_char=40
+
+# text = Oregon girls do it better.
+# sent_id = 107379
+1	Oregon	Oregon	PROPN	NNP	Number=Sing	0	_	_	start_char=41|end_char=47
+2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=48|end_char=53
+3	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=54|end_char=56
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=57|end_char=59
+5	better	well	ADV	RBR	Degree=Cmp	4	_	_	start_char=60|end_char=66|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=66|end_char=67
+
+# text = This one's me.
+# sent_id = 107380
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=68|end_char=72
+2-3	one's	_	_	_	_	_	_	_	start_char=73|end_char=78
+2	one	one	NOUN	NN	Number=Sing	1	_	_	start_char=73|end_char=76
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=76|end_char=78
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=79|end_char=81|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=81|end_char=82
+
+# text = #OregonGirls #ThatOregonLife #BeachBody #GabFam Can I have the photography icon in my posting box now Please?
+# sent_id = 107381
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=83|end_char=84|SpaceAfter=No
+2	OregonGirls	oregongirls	NOUN	NN	Number=Sing	1	_	_	start_char=84|end_char=95
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=96|end_char=97|SpaceAfter=No
+4	ThatOregonLife	thatoregonlife	NOUN	NN	Number=Sing	3	_	_	start_char=97|end_char=111
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=112|end_char=113|SpaceAfter=No
+6	BeachBody	beachbody	NOUN	NN	Number=Sing	5	_	_	start_char=113|end_char=122
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=123|end_char=124|SpaceAfter=No
+8	GabFam	gabfam	X	NN	_	7	_	_	start_char=124|end_char=130
+9	Can	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=131|end_char=134
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=135|end_char=136
+11	have	have	VERB	VB	VerbForm=Inf	10	_	_	start_char=137|end_char=141
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=142|end_char=145
+13	photography	photography	NOUN	NN	Number=Sing	12	_	_	start_char=146|end_char=157
+14	icon	icon	NOUN	NN	Number=Sing	13	_	_	start_char=158|end_char=162
+15	in	in	ADP	IN	_	14	_	_	start_char=163|end_char=165
+16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	_	_	start_char=166|end_char=168
+17	posting	posting	NOUN	NN	Number=Sing	16	_	_	start_char=169|end_char=176
+18	box	box	NOUN	NN	Number=Sing	17	_	_	start_char=177|end_char=180
+19	now	now	ADV	RB	_	18	_	_	start_char=181|end_char=184
+20	Please	please	INTJ	UH	_	19	_	_	start_char=185|end_char=191|SpaceAfter=No
+21	?	?	PUNCT	.	_	20	_	_	start_char=191|end_char=192
+
+# text = [USER]
+# sent_id = 107382
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=193|end_char=194|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=194|end_char=198|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=198|end_char=199
+
+# text = For now, it's all going in art.
+# sent_id = 107383
+1	For	for	ADP	IN	_	0	_	_	start_char=200|end_char=203
+2	now	now	ADV	RB	_	1	_	_	start_char=204|end_char=207|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=207|end_char=208
+4-5	it's	_	_	_	_	_	_	_	start_char=209|end_char=213
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=209|end_char=211
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=211|end_char=213
+6	all	all	ADV	RB	_	5	_	_	start_char=214|end_char=217
+7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=218|end_char=223
+8	in	in	ADP	IN	_	7	_	_	start_char=224|end_char=226
+9	art	art	NOUN	NN	Number=Sing	8	_	_	start_char=227|end_char=230|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=230|end_char=231
+
+# text = fuckit.
+# sent_id = 107384
+1	fuckit	fuckit	NOUN	NN	Number=Sing	0	_	_	start_char=232|end_char=238|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=238|end_char=239|SpaceAfter=No
+

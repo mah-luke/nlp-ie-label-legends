@@ -1,0 +1,48 @@
+# text = Dude whatever, its not your responsibility to read her mind.
+# sent_id = 113004
+1	Dude	dude	VERB	VB	VerbForm=Inf	0	_	_	start_char=0|end_char=4
+2	whatever	whatever	PRON	WP	PronType=Rel	1	_	_	start_char=5|end_char=13|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=13|end_char=14
+4	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=15|end_char=18
+5	not	not	PART	RB	_	4	_	_	start_char=19|end_char=22
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=23|end_char=27
+7	responsibility	responsibility	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=42
+8	to	to	PART	TO	_	7	_	_	start_char=43|end_char=45
+9	read	read	VERB	VB	VerbForm=Inf	8	_	_	start_char=46|end_char=50
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=51|end_char=54
+11	mind	mind	NOUN	NN	Number=Sing	10	_	_	start_char=55|end_char=59|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=59|end_char=60
+
+# text = its not like you are telling her you love her and then bailing.
+# sent_id = 113005
+1-2	its	_	_	_	_	_	_	_	start_char=61|end_char=64
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=61|end_char=63
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=64
+3	not	not	PART	RB	_	2	_	_	start_char=65|end_char=68
+4	like	like	SCONJ	IN	_	3	_	_	start_char=69|end_char=73
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=74|end_char=77
+6	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=78|end_char=81
+7	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=82|end_char=89
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=90|end_char=93
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=94|end_char=97
+10	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=98|end_char=102
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=103|end_char=106
+12	and	and	CCONJ	CC	_	11	_	_	start_char=107|end_char=110
+13	then	then	ADV	RB	PronType=Dem	12	_	_	start_char=111|end_char=115
+14	bailing	bail	VERB	VBG	VerbForm=Ger	13	_	_	start_char=116|end_char=123|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=123|end_char=124
+
+# text = if she lies to you, then its on her.
+# sent_id = 113006
+1	if	if	SCONJ	IN	_	0	_	_	start_char=125|end_char=127
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=128|end_char=131
+3	lies	lie	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=132|end_char=136
+4	to	to	ADP	IN	_	3	_	_	start_char=137|end_char=139
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=140|end_char=143|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=143|end_char=144
+7	then	then	ADV	RB	PronType=Dem	6	_	_	start_char=145|end_char=149
+8	its	its	PRON	PRP	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=150|end_char=153
+9	on	on	ADP	IN	_	8	_	_	start_char=154|end_char=156
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=157|end_char=160|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=160|end_char=161|SpaceAfter=No
+

@@ -1,0 +1,59 @@
+# text = LOL!
+# sent_id = 125049
+1	LOL	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = #Fauxcahontas saz, "Of Course I’m A Capitalist.
+# sent_id = 125050
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=5|end_char=6|SpaceAfter=No
+2	Fauxcahontas	fauxcahontas	X	FW	_	1	_	_	start_char=6|end_char=18
+3	saz	saz	X	FW	_	2	_	_	start_char=19|end_char=22|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=22|end_char=23
+5	"	"	PUNCT	``	_	4	_	_	start_char=24|end_char=25|SpaceAfter=No
+6	Of	of	ADP	IN	_	5	_	_	start_char=25|end_char=27
+7	Course	course	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=34
+8-9	I’m	_	_	_	_	_	_	_	start_char=35|end_char=38
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=35|end_char=36
+9	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=36|end_char=38
+10	A	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=39|end_char=40
+11	Capitalist	Capitalist	PROPN	NNP	Number=Sing	10	_	_	start_char=41|end_char=51|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=51|end_char=52
+
+# text = Come On!" (Video) bit.ly/Fraud_Says_Trust_Me-2JUfEI8 #MAGA #TCOT #KAG #GOP #BlueWave2018 #UniteBlue Tonto's claims will provide a target rich arena for her opponents on the debate stage.
+# sent_id = 125051
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=53|end_char=57
+2	On	on	ADP	RP	_	1	_	_	start_char=58|end_char=60|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=60|end_char=61|SpaceAfter=No
+4	"	"	PUNCT	''	_	3	_	_	start_char=61|end_char=62
+5	(	(	PUNCT	-LRB-	_	4	_	_	start_char=63|end_char=64|SpaceAfter=No
+6	Video	video	NOUN	NN	Number=Sing	5	_	_	start_char=64|end_char=69|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=69|end_char=70
+8	bit.ly	Bit.ly	PROPN	NNP	Number=Sing	7	_	_	start_char=71|end_char=77|SpaceAfter=No
+9	/Fraud_Says_Trust_Me-2JUfEI8	/Fraud_Says_Trust_Me-2JUfEI8	PROPN	NNP	Number=Sing	8	_	_	start_char=77|end_char=105
+10	#MAGA	#MAGA	PROPN	NNP	Number=Sing	9	_	_	start_char=106|end_char=111
+11	#TCOT	#TCOT	PROPN	NNP	Number=Sing	10	_	_	start_char=112|end_char=117
+12	#KAG	#KAG	PROPN	NNP	Number=Sing	11	_	_	start_char=118|end_char=122
+13	#GOP	#GOP	PROPN	NNP	Number=Sing	12	_	_	start_char=123|end_char=127
+14	#	#	SYM	NN	Number=Sing	13	_	_	start_char=128|end_char=129|SpaceAfter=No
+15	BlueWave2018	BlueWave2018	PROPN	NNP	Number=Sing	14	_	_	start_char=129|end_char=141
+16	#	#	SYM	NN	Number=Sing	15	_	_	start_char=142|end_char=143|SpaceAfter=No
+17	UniteBlue	UniteBlue	PROPN	NNP	Number=Sing	16	_	_	start_char=143|end_char=152
+18-19	Tonto's	_	_	_	_	_	_	_	start_char=153|end_char=160
+18	Tonto	Tonto	PROPN	NNP	Number=Sing	17	_	_	start_char=153|end_char=158
+19	's	's	PART	POS	_	18	_	_	start_char=158|end_char=160
+20	claims	claim	NOUN	NNS	Number=Plur	19	_	_	start_char=161|end_char=167
+21	will	will	AUX	MD	VerbForm=Fin	20	_	_	start_char=168|end_char=172
+22	provide	provide	VERB	VB	VerbForm=Inf	21	_	_	start_char=173|end_char=180
+23	a	a	DET	DT	Definite=Ind|PronType=Art	22	_	_	start_char=181|end_char=182
+24	target	target	NOUN	NN	Number=Sing	23	_	_	start_char=183|end_char=189
+25	rich	rich	ADJ	JJ	Degree=Pos	24	_	_	start_char=190|end_char=194
+26	arena	arena	NOUN	NN	Number=Sing	25	_	_	start_char=195|end_char=200
+27	for	for	ADP	IN	_	26	_	_	start_char=201|end_char=204
+28	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	_	_	start_char=205|end_char=208
+29	opponents	opponent	NOUN	NNS	Number=Plur	28	_	_	start_char=209|end_char=218
+30	on	on	ADP	IN	_	29	_	_	start_char=219|end_char=221
+31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	start_char=222|end_char=225
+32	debate	debate	NOUN	NN	Number=Sing	31	_	_	start_char=226|end_char=232
+33	stage	stage	NOUN	NN	Number=Sing	32	_	_	start_char=233|end_char=238|SpaceAfter=No
+34	.	.	PUNCT	.	_	33	_	_	start_char=238|end_char=239|SpaceAfter=No
+

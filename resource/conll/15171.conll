@@ -1,0 +1,43 @@
+# text = Rachel Maddow had Cecile Richards on her show last night.
+# sent_id = 32376
+1	Rachel	Rachel	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	Maddow	Maddow	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=13
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=14|end_char=17
+4	Cecile	Cecile	PROPN	NNP	Number=Sing	3	_	_	start_char=18|end_char=24
+5	Richards	Richards	PROPN	NNP	Number=Sing	4	_	_	start_char=25|end_char=33
+6	on	on	ADP	IN	_	5	_	_	start_char=34|end_char=36
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=37|end_char=40
+8	show	show	NOUN	NN	Number=Sing	7	_	_	start_char=41|end_char=45
+9	last	last	ADJ	JJ	Degree=Pos	8	_	_	start_char=46|end_char=50
+10	night	night	NOUN	NN	Number=Sing	9	_	_	start_char=51|end_char=56|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=56|end_char=57
+
+# text = A lesbian and a murderer meet on a TV show.
+# sent_id = 32377
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=58|end_char=59
+2	lesbian	lesbian	NOUN	NN	Number=Sing	1	_	_	start_char=60|end_char=67
+3	and	and	CCONJ	CC	_	2	_	_	start_char=68|end_char=71
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=72|end_char=73
+5	murderer	murderer	NOUN	NN	Number=Sing	4	_	_	start_char=74|end_char=82
+6	meet	meet	VERB	VBP	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=83|end_char=87
+7	on	on	ADP	IN	_	6	_	_	start_char=88|end_char=90
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=91|end_char=92
+9	TV	TV	NOUN	NN	Number=Sing	8	_	_	start_char=93|end_char=95
+10	show	show	NOUN	NN	Number=Sing	9	_	_	start_char=96|end_char=100|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=100|end_char=101
+
+# text = What good can come from that?
+# sent_id = 32378
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=102|end_char=106
+2	good	good	ADJ	JJ	Degree=Pos	1	_	_	start_char=107|end_char=111
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=112|end_char=115
+4	come	come	VERB	VB	VerbForm=Inf	3	_	_	start_char=116|end_char=120
+5	from	from	ADP	IN	_	4	_	_	start_char=121|end_char=125
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=126|end_char=130|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=130|end_char=131
+
+# text = Nothing!
+# sent_id = 32379
+1	Nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=132|end_char=139|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=139|end_char=140|SpaceAfter=No
+

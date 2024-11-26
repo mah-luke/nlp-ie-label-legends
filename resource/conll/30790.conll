@@ -1,0 +1,42 @@
+# text = Do you think she really believes this?
+# sent_id = 65984
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	think	think	VERB	VB	VerbForm=Inf	2	_	_	start_char=7|end_char=12
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=13|end_char=16
+5	really	really	ADV	RB	_	4	_	_	start_char=17|end_char=23
+6	believes	believe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=24|end_char=32
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=33|end_char=37|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=37|end_char=38
+
+# text = #Ignorance or #Propaganda Michelle Obama tells crowd women who voted for Trump we're doing what they were ‘told to’ [URL]
+# sent_id = 65985
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=39|end_char=40|SpaceAfter=No
+2	Ignorance	ignorance	NOUN	NN	Number=Sing	1	_	_	start_char=40|end_char=49
+3	or	or	CCONJ	CC	_	2	_	_	start_char=50|end_char=52
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=53|end_char=54|SpaceAfter=No
+5	Propaganda	propaganda	NOUN	NN	Number=Sing	4	_	_	start_char=54|end_char=64
+6	Michelle	Michelle	PROPN	NNP	Number=Sing	5	_	_	start_char=65|end_char=73
+7	Obama	Obama	PROPN	NNP	Number=Sing	6	_	_	start_char=74|end_char=79
+8	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=80|end_char=85
+9	crowd	crowd	NOUN	NN	Number=Sing	8	_	_	start_char=86|end_char=91
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=92|end_char=97
+11	who	who	PRON	WP	PronType=Rel	10	_	_	start_char=98|end_char=101
+12	voted	vote	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=102|end_char=107
+13	for	for	ADP	IN	_	12	_	_	start_char=108|end_char=111
+14	Trump	Trump	PROPN	NNP	Number=Sing	13	_	_	start_char=112|end_char=117
+15-16	we're	_	_	_	_	_	_	_	start_char=118|end_char=123
+15	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	14	_	_	start_char=118|end_char=120
+16	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	start_char=120|end_char=123
+17	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	16	_	_	start_char=124|end_char=129
+18	what	what	PRON	WP	PronType=Rel	17	_	_	start_char=130|end_char=134
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	_	_	start_char=135|end_char=139
+20	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=140|end_char=144
+21	‘	'	PUNCT	``	_	20	_	_	start_char=145|end_char=146|SpaceAfter=No
+22	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	_	_	start_char=146|end_char=150
+23	to	to	ADP	IN	_	22	_	_	start_char=151|end_char=153|SpaceAfter=No
+24	’	'	PUNCT	''	_	23	_	_	start_char=153|end_char=154
+25	[	[	PUNCT	-LRB-	_	24	_	_	start_char=155|end_char=156|SpaceAfter=No
+26	URL	URL	PROPN	NNP	Number=Sing	25	_	_	start_char=156|end_char=159|SpaceAfter=No
+27	]	]	PUNCT	-RRB-	_	26	_	_	start_char=159|end_char=160|SpaceAfter=No
+

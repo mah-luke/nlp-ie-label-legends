@@ -1,0 +1,38 @@
+# text = I'm late to this, but if he was your brother in law, wouldn't his ex-wife be your sister?
+# sent_id = 37001
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	late	late	ADJ	JJ	Degree=Pos	2	_	_	start_char=4|end_char=8
+4	to	to	ADP	IN	_	3	_	_	start_char=9|end_char=11
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=12|end_char=16|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=16|end_char=17
+7	but	but	CCONJ	CC	_	6	_	_	start_char=18|end_char=21
+8	if	if	SCONJ	IN	_	7	_	_	start_char=22|end_char=24
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=25|end_char=27
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=28|end_char=31
+11	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	10	_	_	start_char=32|end_char=36
+12	brother	brother	NOUN	NN	Number=Sing	11	_	_	start_char=37|end_char=44
+13	in	in	ADP	IN	_	12	_	_	start_char=45|end_char=47
+14	law	law	NOUN	NN	Number=Sing	13	_	_	start_char=48|end_char=51|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=51|end_char=52
+16-17	wouldn't	_	_	_	_	_	_	_	start_char=53|end_char=61
+16	would	would	AUX	MD	VerbForm=Fin	15	_	_	start_char=53|end_char=58
+17	n't	not	PART	RB	_	16	_	_	start_char=58|end_char=61
+18	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=62|end_char=65
+19	ex-wife	ex-wife	NOUN	NN	Number=Sing	18	_	_	start_char=66|end_char=73
+20	be	be	AUX	VB	VerbForm=Inf	19	_	_	start_char=74|end_char=76
+21	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	20	_	_	start_char=77|end_char=81
+22	sister	sister	NOUN	NN	Number=Sing	21	_	_	start_char=82|end_char=88|SpaceAfter=No
+23	?	?	PUNCT	.	_	22	_	_	start_char=88|end_char=89
+
+# text = If not, do explain sir.
+# sent_id = 37002
+1	If	if	SCONJ	IN	_	0	_	_	start_char=90|end_char=92
+2	not	not	PART	RB	_	1	_	_	start_char=93|end_char=96|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=96|end_char=97
+4	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=98|end_char=100
+5	explain	explain	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=101|end_char=108
+6	sir	sir	NOUN	NN	Number=Sing	5	_	_	start_char=109|end_char=112|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=112|end_char=113|SpaceAfter=No
+

@@ -1,0 +1,33 @@
+# text = Stop selling machetes at Wal-Mart or stop importing Somali Muslims.
+# sent_id = 52125
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	selling	sell	VERB	VBG	VerbForm=Ger	1	_	_	start_char=5|end_char=12
+3	machetes	machete	NOUN	NNS	Number=Plur	2	_	_	start_char=13|end_char=21
+4	at	at	ADP	IN	_	3	_	_	start_char=22|end_char=24
+5	Wal	Wal	PROPN	NNP	Number=Sing	4	_	_	start_char=25|end_char=28|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=28|end_char=29|SpaceAfter=No
+7	Mart	Mart	PROPN	NNP	Number=Sing	6	_	_	start_char=29|end_char=33
+8	or	or	CCONJ	CC	_	7	_	_	start_char=34|end_char=36
+9	stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=37|end_char=41
+10	importing	import	VERB	VBG	VerbForm=Ger	9	_	_	start_char=42|end_char=51
+11	Somali	Somali	ADJ	JJ	Degree=Pos	10	_	_	start_char=52|end_char=58
+12	Muslims	Muslim	PROPN	NNPS	Number=Plur	11	_	_	start_char=59|end_char=66|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=66|end_char=67
+
+# text = Let's see.
+# sent_id = 52126
+1-2	Let's	_	_	_	_	_	_	_	start_char=68|end_char=73
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=68|end_char=71
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=71|end_char=73
+3	see	see	VERB	VB	VerbForm=Inf	2	_	_	start_char=74|end_char=77|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=77|end_char=78
+
+# text = #OhioState #MAGA #GabFam
+# sent_id = 52127
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=79|end_char=80|SpaceAfter=No
+2	OhioState	OhioState	NOUN	GW	Number=Sing	1	_	_	start_char=80|end_char=89
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=90|end_char=91|SpaceAfter=No
+4	MAGA	maga	NOUN	NN	Number=Sing	3	_	_	start_char=91|end_char=95
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=96|end_char=97|SpaceAfter=No
+6	GabFam	gabfam	NOUN	NN	Number=Sing	5	_	_	start_char=97|end_char=103|SpaceAfter=No
+

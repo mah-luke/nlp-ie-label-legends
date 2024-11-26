@@ -1,0 +1,75 @@
+# text = In fact it is my situation.
+# sent_id = 24364
+1	In	in	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	fact	fact	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=7
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=8|end_char=10
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=14|end_char=16
+6	situation	situation	NOUN	NN	Number=Sing	5	_	_	start_char=17|end_char=26|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=26|end_char=27
+
+# text = My wife and I both have other partners and don't pretend to own each other.
+# sent_id = 24365
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=28|end_char=30
+2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=31|end_char=35
+3	and	and	CCONJ	CC	_	2	_	_	start_char=36|end_char=39
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=40|end_char=41
+5	both	both	DET	DT	_	4	_	_	start_char=42|end_char=46
+6	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=47|end_char=51
+7	other	other	ADJ	JJ	Degree=Pos	6	_	_	start_char=52|end_char=57
+8	partners	partner	NOUN	NNS	Number=Plur	7	_	_	start_char=58|end_char=66
+9	and	and	CCONJ	CC	_	8	_	_	start_char=67|end_char=70
+10-11	don't	_	_	_	_	_	_	_	start_char=71|end_char=76
+10	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=71|end_char=73
+11	n't	not	PART	RB	_	10	_	_	start_char=73|end_char=76
+12	pretend	pretend	VERB	VB	VerbForm=Inf	11	_	_	start_char=77|end_char=84
+13	to	to	PART	TO	_	12	_	_	start_char=85|end_char=87
+14	own	own	VERB	VB	VerbForm=Inf	13	_	_	start_char=88|end_char=91
+15	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	14	_	_	start_char=92|end_char=96
+16	other	other	ADJ	JJ	Degree=Pos	15	_	_	start_char=97|end_char=102|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=102|end_char=103
+
+# text = That is polyamory.
+# sent_id = 24366
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=104|end_char=108
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=109|end_char=111
+3	polyamory	polyamory	NOUN	NN	Number=Sing	2	_	_	start_char=112|end_char=121|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=121|end_char=122
+
+# text = I'm looking at how much it bothers me to be called a "cuck" and it's zero.
+# sent_id = 24367
+1-2	I'm	_	_	_	_	_	_	_	start_char=123|end_char=126
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=123|end_char=124
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=124|end_char=126
+3	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=127|end_char=134
+4	at	at	ADP	IN	_	3	_	_	start_char=135|end_char=137
+5	how	how	ADV	WRB	PronType=Int	4	_	_	start_char=138|end_char=141
+6	much	much	ADJ	JJ	Degree=Pos	5	_	_	start_char=142|end_char=146
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=147|end_char=149
+8	bothers	bother	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=150|end_char=157
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=158|end_char=160
+10	to	to	PART	TO	_	9	_	_	start_char=161|end_char=163
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=164|end_char=166
+12	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=167|end_char=173
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=174|end_char=175
+14	"	"	PUNCT	``	_	13	_	_	start_char=176|end_char=177|SpaceAfter=No
+15	cuck	cuck	NOUN	NN	Number=Sing	14	_	_	start_char=177|end_char=181|SpaceAfter=No
+16	"	"	PUNCT	''	_	15	_	_	start_char=181|end_char=182
+17	and	and	CCONJ	CC	_	16	_	_	start_char=183|end_char=186
+18-19	it's	_	_	_	_	_	_	_	start_char=187|end_char=191
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=187|end_char=189
+19	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=189|end_char=191
+20	zero	zero	NUM	CD	NumForm=Word|NumType=Card	19	_	_	start_char=192|end_char=196|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=196|end_char=197
+
+# text = Mostly I just feel bad for you.
+# sent_id = 24368
+1	Mostly	mostly	ADV	RB	_	0	_	_	start_char=198|end_char=204
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=205|end_char=206
+3	just	just	ADV	RB	_	2	_	_	start_char=207|end_char=211
+4	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=212|end_char=216
+5	bad	bad	ADJ	JJ	Degree=Pos	4	_	_	start_char=217|end_char=220
+6	for	for	ADP	IN	_	5	_	_	start_char=221|end_char=224
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=225|end_char=228|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=228|end_char=229|SpaceAfter=No
+

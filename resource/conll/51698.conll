@@ -1,0 +1,52 @@
+# text = [USER] [USER] [USER] [USER]
+# sent_id = 110512
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=7|end_char=8|SpaceAfter=No
+5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=8|end_char=12|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=12|end_char=13
+7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=14|end_char=15|SpaceAfter=No
+8	USER	user	NOUN	NN	Number=Sing	7	_	_	start_char=15|end_char=19|SpaceAfter=No
+9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=19|end_char=20
+10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=21|end_char=22|SpaceAfter=No
+11	USER	user	NOUN	NN	Number=Sing	10	_	_	start_char=22|end_char=26|SpaceAfter=No
+12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=26|end_char=27
+
+# text = They are luring Trump into backing Kavanaugh.
+# sent_id = 110513
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=28|end_char=32
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=33|end_char=36
+3	luring	lure	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=37|end_char=43
+4	Trump	Trump	PROPN	NNP	Number=Sing	3	_	_	start_char=44|end_char=49
+5	into	into	SCONJ	IN	_	4	_	_	start_char=50|end_char=54
+6	backing	back	VERB	VBG	VerbForm=Ger	5	_	_	start_char=55|end_char=62
+7	Kavanaugh	Kavanaugh	PROPN	NNP	Number=Sing	6	_	_	start_char=63|end_char=72|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=72|end_char=73
+
+# text = The election is suburban white women.
+# sent_id = 110514
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=74|end_char=77
+2	election	election	NOUN	NN	Number=Sing	1	_	_	start_char=78|end_char=86
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=87|end_char=89
+4	suburban	suburban	ADJ	JJ	Degree=Pos	3	_	_	start_char=90|end_char=98
+5	white	white	ADJ	JJ	Degree=Pos	4	_	_	start_char=99|end_char=104
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=105|end_char=110|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=110|end_char=111
+
+# text = Can’t lose that faction.
+# sent_id = 110515
+1-2	Can’t	_	_	_	_	_	_	_	start_char=112|end_char=117
+1	Ca	can	AUX	MD	VerbForm=Fin	0	_	_	start_char=112|end_char=114
+2	n’t	not	PART	RB	_	1	_	_	start_char=114|end_char=117
+3	lose	lose	VERB	VB	VerbForm=Inf	2	_	_	start_char=118|end_char=122
+4	that	that	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=123|end_char=127
+5	faction	faction	NOUN	NN	Number=Sing	4	_	_	start_char=128|end_char=135|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=135|end_char=136
+
+# text = [URL]
+# sent_id = 110516
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=137|end_char=138|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=138|end_char=141|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=141|end_char=142|SpaceAfter=No
+

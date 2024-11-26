@@ -1,0 +1,38 @@
+# text = 21 MONTHS?
+# sent_id = 30603
+1	21	21	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=2
+2	MONTHS	month	NOUN	NNS	Number=Plur	1	_	_	start_char=3|end_char=9|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = It's a slap on the wrist AND a slap in the face to the little girls & their families he affected.
+# sent_id = 30604
+1-2	It's	_	_	_	_	_	_	_	start_char=11|end_char=15
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=11|end_char=13
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=13|end_char=15
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=16|end_char=17
+4	slap	slap	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=22
+5	on	on	ADP	IN	_	4	_	_	start_char=23|end_char=25
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=26|end_char=29
+7	wrist	wrist	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=35
+8	AND	and	CCONJ	CC	_	7	_	_	start_char=36|end_char=39
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=40|end_char=41
+10	slap	slap	NOUN	NN	Number=Sing	9	_	_	start_char=42|end_char=46
+11	in	in	ADP	IN	_	10	_	_	start_char=47|end_char=49
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=50|end_char=53
+13	face	face	NOUN	NN	Number=Sing	12	_	_	start_char=54|end_char=58
+14	to	to	ADP	IN	_	13	_	_	start_char=59|end_char=61
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=62|end_char=65
+16	little	little	ADJ	JJ	Degree=Pos	15	_	_	start_char=66|end_char=72
+17	girls	girl	NOUN	NNS	Number=Plur	16	_	_	start_char=73|end_char=78
+18	&	&	CCONJ	CC	_	17	_	_	start_char=79|end_char=80
+19	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=81|end_char=86
+20	families	family	NOUN	NNS	Number=Plur	19	_	_	start_char=87|end_char=95
+21	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=96|end_char=98
+22	affected	affect	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	_	_	start_char=99|end_char=107|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=107|end_char=108
+
+# text = #Shameful
+# sent_id = 30605
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=109|end_char=110|SpaceAfter=No
+2	Shameful	Shameful	ADJ	JJ	Degree=Pos	1	_	_	start_char=110|end_char=118|SpaceAfter=No
+

@@ -1,0 +1,56 @@
+# text = [USER]
+# sent_id = 99198
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = The popularity of hyper-realistic female sex dolls isn't a "reminder of how far its user has sunk on the undesireability scale."
+# sent_id = 99199
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=7|end_char=10
+2	popularity	popularity	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=21
+3	of	of	ADP	IN	_	2	_	_	start_char=22|end_char=24
+4	hyper	hyper	NOUN	NN	Number=Sing	3	_	_	start_char=25|end_char=30|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	_	_	start_char=30|end_char=31|SpaceAfter=No
+6	realistic	realistic	ADJ	JJ	Degree=Pos	5	_	_	start_char=31|end_char=40
+7	female	female	ADJ	JJ	Degree=Pos	6	_	_	start_char=41|end_char=47
+8	sex	sex	NOUN	NN	Number=Sing	7	_	_	start_char=48|end_char=51
+9	dolls	dolls	NOUN	NNS	Number=Plur	8	_	_	start_char=52|end_char=57
+10-11	isn't	_	_	_	_	_	_	_	start_char=58|end_char=63
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=58|end_char=60
+11	n't	not	PART	RB	_	10	_	_	start_char=60|end_char=63
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=64|end_char=65
+13	"	"	PUNCT	``	_	12	_	_	start_char=66|end_char=67|SpaceAfter=No
+14	reminder	reminder	NOUN	NN	Number=Sing	13	_	_	start_char=67|end_char=75
+15	of	of	ADP	IN	_	14	_	_	start_char=76|end_char=78
+16	how	how	ADV	WRB	PronType=Int	15	_	_	start_char=79|end_char=82
+17	far	far	ADV	RB	Degree=Pos	16	_	_	start_char=83|end_char=86
+18	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=87|end_char=90
+19	user	user	NOUN	NN	Number=Sing	18	_	_	start_char=91|end_char=95
+20	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=96|end_char=99
+21	sunk	sink	VERB	VBN	Tense=Past|VerbForm=Part	20	_	_	start_char=100|end_char=104
+22	on	on	ADP	IN	_	21	_	_	start_char=105|end_char=107
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=108|end_char=111
+24	undesireability	undesireability	NOUN	NN	Number=Sing	23	_	_	start_char=112|end_char=127
+25	scale	scale	NOUN	NN	Number=Sing	24	_	_	start_char=128|end_char=133|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=133|end_char=134|SpaceAfter=No
+27	"	"	PUNCT	''	_	26	_	_	start_char=134|end_char=135
+
+# text = It's evidence of how far western women have sunk on the undesireability scale.
+# sent_id = 99200
+1-2	It's	_	_	_	_	_	_	_	start_char=136|end_char=140
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=136|end_char=138
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=138|end_char=140
+3	evidence	evidence	NOUN	NN	Number=Sing	2	_	_	start_char=141|end_char=149
+4	of	of	SCONJ	IN	_	3	_	_	start_char=150|end_char=152
+5	how	how	ADV	WRB	PronType=Int	4	_	_	start_char=153|end_char=156
+6	far	far	ADV	RB	Degree=Pos	5	_	_	start_char=157|end_char=160
+7	western	western	ADJ	JJ	Degree=Pos	6	_	_	start_char=161|end_char=168
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=169|end_char=174
+9	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=175|end_char=179
+10	sunk	sink	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=180|end_char=184
+11	on	on	ADP	IN	_	10	_	_	start_char=185|end_char=187
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=188|end_char=191
+13	undesireability	undesireability	NOUN	NN	Number=Sing	12	_	_	start_char=192|end_char=207
+14	scale	scale	NOUN	NN	Number=Sing	13	_	_	start_char=208|end_char=213|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=213|end_char=214|SpaceAfter=No
+

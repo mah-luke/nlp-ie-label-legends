@@ -1,0 +1,51 @@
+# text = If she is a plate, ignore it.
+# sent_id = 20985
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=9
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=10|end_char=11
+5	plate	plate	NOUN	NN	Number=Sing	4	_	_	start_char=12|end_char=17|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=17|end_char=18
+7	ignore	ignore	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=19|end_char=25
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=26|end_char=28|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=28|end_char=29
+
+# text = If you’re exclusive, ask yourself why she behaves like this, and then react accordingly.
+# sent_id = 20986
+1	If	if	SCONJ	IN	_	0	_	_	start_char=30|end_char=32
+2-3	you’re	_	_	_	_	_	_	_	start_char=33|end_char=39
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=33|end_char=36
+3	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=36|end_char=39
+4	exclusive	exclusive	ADJ	JJ	Degree=Pos	3	_	_	start_char=40|end_char=49|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=49|end_char=50
+6	ask	ask	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	5	_	_	start_char=51|end_char=54
+7	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	6	_	_	start_char=55|end_char=63
+8	why	why	ADV	WRB	PronType=Int	7	_	_	start_char=64|end_char=67
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=68|end_char=71
+10	behaves	behave	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=72|end_char=79
+11	like	like	ADP	IN	_	10	_	_	start_char=80|end_char=84
+12	this	this	PRON	DT	Number=Sing|PronType=Dem	11	_	_	start_char=85|end_char=89|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=89|end_char=90
+14	and	and	CCONJ	CC	_	13	_	_	start_char=91|end_char=94
+15	then	then	ADV	RB	PronType=Dem	14	_	_	start_char=95|end_char=99
+16	react	react	VERB	VB	Mood=Imp|VerbForm=Fin	15	_	_	start_char=100|end_char=105
+17	accordingly	accordingly	ADV	RB	_	16	_	_	start_char=106|end_char=117|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=117|end_char=118
+
+# text = There is a difference between a shit-test and comfort-test.
+# sent_id = 20987
+1	There	there	PRON	EX	_	0	_	_	start_char=119|end_char=124
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=125|end_char=127
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=128|end_char=129
+4	difference	difference	NOUN	NN	Number=Sing	3	_	_	start_char=130|end_char=140
+5	between	between	ADP	IN	_	4	_	_	start_char=141|end_char=148
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=149|end_char=150
+7	shit	shit	NOUN	NN	Number=Sing	6	_	_	start_char=151|end_char=155|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	_	_	start_char=155|end_char=156|SpaceAfter=No
+9	test	test	NOUN	NN	Number=Sing	8	_	_	start_char=156|end_char=160
+10	and	and	CCONJ	CC	_	9	_	_	start_char=161|end_char=164
+11	comfort	comfort	NOUN	NN	Number=Sing	10	_	_	start_char=165|end_char=172|SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	11	_	_	start_char=172|end_char=173|SpaceAfter=No
+13	test	test	NOUN	NN	Number=Sing	12	_	_	start_char=173|end_char=177|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=177|end_char=178|SpaceAfter=No
+

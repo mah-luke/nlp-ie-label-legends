@@ -1,0 +1,29 @@
+# text = I guess he should've been more specific.
+# sent_id = 14231
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=7
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=8|end_char=10
+4-5	should've	_	_	_	_	_	_	_	start_char=11|end_char=20
+4	should	should	AUX	MD	VerbForm=Fin	3	_	_	start_char=11|end_char=17
+5	've	have	AUX	VB	VerbForm=Inf	4	_	_	start_char=17|end_char=20
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=21|end_char=25
+7	more	more	ADV	RBR	Degree=Cmp	6	_	_	start_char=26|end_char=30
+8	specific	specific	ADJ	JJ	Degree=Pos	7	_	_	start_char=31|end_char=39|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=39|end_char=40
+
+# text = Some fraternities are just a bunch of geeks not interested in women.
+# sent_id = 14232
+1	Some	some	DET	DT	_	0	_	_	start_char=41|end_char=45
+2	fraternities	fraternity	NOUN	NNS	Number=Plur	1	_	_	start_char=46|end_char=58
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=59|end_char=62
+4	just	just	ADV	RB	_	3	_	_	start_char=63|end_char=67
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=68|end_char=69
+6	bunch	bunch	NOUN	NN	Number=Sing	5	_	_	start_char=70|end_char=75
+7	of	of	ADP	IN	_	6	_	_	start_char=76|end_char=78
+8	geeks	geek	NOUN	NNS	Number=Plur	7	_	_	start_char=79|end_char=84
+9	not	not	PART	RB	_	8	_	_	start_char=85|end_char=88
+10	interested	interested	ADJ	JJ	Degree=Pos	9	_	_	start_char=89|end_char=99
+11	in	in	ADP	IN	_	10	_	_	start_char=100|end_char=102
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=103|end_char=108|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=108|end_char=109|SpaceAfter=No
+

@@ -1,0 +1,61 @@
+# text = Don't eliminate yourself just because you don't have a car or an apartment.
+# sent_id = 6891
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	eliminate	eliminate	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=15
+4	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	3	_	_	start_char=16|end_char=24
+5	just	just	ADV	RB	_	4	_	_	start_char=25|end_char=29
+6	because	because	SCONJ	IN	_	5	_	_	start_char=30|end_char=37
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=38|end_char=41
+8-9	don't	_	_	_	_	_	_	_	start_char=42|end_char=47
+8	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=42|end_char=44
+9	n't	not	PART	RB	_	8	_	_	start_char=44|end_char=47
+10	have	have	VERB	VB	VerbForm=Inf	9	_	_	start_char=48|end_char=52
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=53|end_char=54
+12	car	car	NOUN	NN	Number=Sing	11	_	_	start_char=55|end_char=58
+13	or	or	CCONJ	CC	_	12	_	_	start_char=59|end_char=61
+14	an	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=62|end_char=64
+15	apartment	apartment	NOUN	NN	Number=Sing	14	_	_	start_char=65|end_char=74|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=74|end_char=75
+
+# text = Find you a chick who is down to bang you in her car in the parking lot or some shit haha.
+# sent_id = 6892
+1	Find	find	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=76|end_char=80
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	start_char=81|end_char=84
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=85|end_char=86
+4	chick	chick	NOUN	NN	Number=Sing	3	_	_	start_char=87|end_char=92
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=93|end_char=96
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=97|end_char=99
+7	down	down	ADV	RB	_	6	_	_	start_char=100|end_char=104
+8	to	to	PART	TO	_	7	_	_	start_char=105|end_char=107
+9	bang	bang	VERB	VB	VerbForm=Inf	8	_	_	start_char=108|end_char=112
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	_	_	start_char=113|end_char=116
+11	in	in	ADP	IN	_	10	_	_	start_char=117|end_char=119
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=120|end_char=123
+13	car	car	NOUN	NN	Number=Sing	12	_	_	start_char=124|end_char=127
+14	in	in	ADP	IN	_	13	_	_	start_char=128|end_char=130
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=131|end_char=134
+16	parking	parking	NOUN	NN	Number=Sing	15	_	_	start_char=135|end_char=142
+17	lot	lot	NOUN	NN	Number=Sing	16	_	_	start_char=143|end_char=146
+18	or	or	CCONJ	CC	_	17	_	_	start_char=147|end_char=149
+19	some	some	DET	DT	_	18	_	_	start_char=150|end_char=154
+20	shit	shit	NOUN	NN	Number=Sing	19	_	_	start_char=155|end_char=159
+21	haha	haha	INTJ	UH	_	20	_	_	start_char=160|end_char=164|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=164|end_char=165
+
+# text = When girls wanna bang they'll bang anywhere.
+# sent_id = 6893
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=166|end_char=170
+2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=171|end_char=176
+3-4	wanna	_	_	_	_	_	_	_	start_char=177|end_char=182
+3	wan	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=177|end_char=180
+4	na	to	PART	TO	_	3	_	_	start_char=180|end_char=182
+5	bang	bang	VERB	VB	VerbForm=Inf	4	_	_	start_char=183|end_char=187
+6-7	they'll	_	_	_	_	_	_	_	start_char=188|end_char=195
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=188|end_char=192
+7	'll	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=192|end_char=195
+8	bang	bang	VERB	VB	VerbForm=Inf	7	_	_	start_char=196|end_char=200
+9	anywhere	anywhere	ADV	RB	_	8	_	_	start_char=201|end_char=209|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=209|end_char=210|SpaceAfter=No
+

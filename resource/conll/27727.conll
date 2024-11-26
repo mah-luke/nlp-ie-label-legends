@@ -1,0 +1,49 @@
+# text = That's why I want to apologize, because I don't want her to think I'm weird.
+# sent_id = 59573
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=7|end_char=10
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=11|end_char=12
+5	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=13|end_char=17
+6	to	to	PART	TO	_	5	_	_	start_char=18|end_char=20
+7	apologize	apologize	VERB	VB	VerbForm=Inf	6	_	_	start_char=21|end_char=30|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=30|end_char=31
+9	because	because	SCONJ	IN	_	8	_	_	start_char=32|end_char=39
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=40|end_char=41
+11-12	don't	_	_	_	_	_	_	_	start_char=42|end_char=47
+11	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=42|end_char=44
+12	n't	not	PART	RB	_	11	_	_	start_char=44|end_char=47
+13	want	want	VERB	VB	VerbForm=Inf	12	_	_	start_char=48|end_char=52
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=53|end_char=56
+15	to	to	PART	TO	_	14	_	_	start_char=57|end_char=59
+16	think	think	VERB	VB	VerbForm=Inf	15	_	_	start_char=60|end_char=65
+17-18	I'm	_	_	_	_	_	_	_	start_char=66|end_char=69
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=66|end_char=67
+18	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=67|end_char=69
+19	weird	weird	ADJ	JJ	Degree=Pos	18	_	_	start_char=70|end_char=75|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=75|end_char=76
+
+# text = I want to date her, which I can't do if she thinks I'm a weirdo
+# sent_id = 59574
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=77|end_char=78
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=79|end_char=83
+3	to	to	PART	TO	_	2	_	_	start_char=84|end_char=86
+4	date	date	VERB	VB	VerbForm=Inf	3	_	_	start_char=87|end_char=91
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=92|end_char=95|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=95|end_char=96
+7	which	which	PRON	WDT	PronType=Rel	6	_	_	start_char=97|end_char=102
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=103|end_char=104
+9-10	can't	_	_	_	_	_	_	_	start_char=105|end_char=110
+9	ca	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=105|end_char=107
+10	n't	not	PART	RB	_	9	_	_	start_char=107|end_char=110
+11	do	do	VERB	VB	VerbForm=Inf	10	_	_	start_char=111|end_char=113
+12	if	if	SCONJ	IN	_	11	_	_	start_char=114|end_char=116
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=117|end_char=120
+14	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=121|end_char=127
+15-16	I'm	_	_	_	_	_	_	_	start_char=128|end_char=131
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=128|end_char=129
+16	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	start_char=129|end_char=131
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=132|end_char=133
+18	weirdo	weirdo	NOUN	NN	Number=Sing	17	_	_	start_char=134|end_char=140|SpaceAfter=No
+

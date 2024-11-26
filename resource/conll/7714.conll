@@ -1,0 +1,47 @@
+# text = DONALD TRUMP SILVER COIN
+# sent_id = 16175
+1	DONALD	DONALD	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	TRUMP	TRUMP	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=12
+3	SILVER	SILVER	ADJ	NNP	Degree=Pos	2	_	_	start_char=13|end_char=19
+4	COIN	coin	NOUN	NN	Number=Sing	3	_	_	start_char=20|end_char=24
+
+# text = This is actually a good price.
+# sent_id = 16176
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=25|end_char=29
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=30|end_char=32
+3	actually	actually	ADV	RB	_	2	_	_	start_char=33|end_char=41
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=42|end_char=43
+5	good	good	ADJ	JJ	Degree=Pos	4	_	_	start_char=44|end_char=48
+6	price	price	NOUN	NN	Number=Sing	5	_	_	start_char=49|end_char=54|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=54|end_char=55
+
+# text = 28gm = about $20-$24.
+# sent_id = 16177
+1	28	28	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=56|end_char=58|SpaceAfter=No
+2	gm	gm	NOUN	NN	Number=Sing	1	_	_	start_char=58|end_char=60
+3	=	=	SYM	SYM	_	2	_	_	start_char=61|end_char=62
+4	about	about	ADV	RB	_	3	_	_	start_char=63|end_char=68
+5	$	$	SYM	$	_	4	_	_	start_char=69|end_char=70|SpaceAfter=No
+6	20	20	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=70|end_char=72|SpaceAfter=No
+7	-	-	SYM	SYM	_	6	_	_	start_char=72|end_char=73|SpaceAfter=No
+8	$	$	SYM	$	_	7	_	_	start_char=73|end_char=74|SpaceAfter=No
+9	24	24	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=74|end_char=76|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=76|end_char=77
+
+# text = This is 32 grams = $19.95.
+# sent_id = 16178
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=78|end_char=82
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=83|end_char=85
+3	32	32	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=86|end_char=88
+4	grams	gram	NOUN	NNS	Number=Plur	3	_	_	start_char=89|end_char=94
+5	=	=	SYM	SYM	_	4	_	_	start_char=95|end_char=96
+6	$	$	SYM	$	_	5	_	_	start_char=97|end_char=98|SpaceAfter=No
+7	19.95	19.95	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=98|end_char=103|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=103|end_char=104
+
+# text = [URL]
+# sent_id = 16179
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=105|end_char=106|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=106|end_char=109|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=109|end_char=110|SpaceAfter=No
+

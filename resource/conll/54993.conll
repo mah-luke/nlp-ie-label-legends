@@ -1,0 +1,32 @@
+# text = \>
+# sent_id = 117498
+1	\>	\>	X	ADD	_	0	_	_	start_char=0|end_char=2
+
+# text = My girlfriend...
+# sent_id = 117499
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=3|end_char=5
+2	girlfriend	girlfriend	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=16|SpaceAfter=No
+3	...	...	PUNCT	.	_	2	_	_	start_char=16|end_char=19
+
+# text = Its official, this sub as hit rock bottom.
+# sent_id = 117500
+1-2	Its	_	_	_	_	_	_	_	start_char=20|end_char=23
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=20|end_char=22
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=23
+3	official	official	NOUN	NN	Number=Sing	2	_	_	start_char=24|end_char=32|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=32|end_char=33
+5	this	this	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=34|end_char=38
+6	sub	sub	NOUN	NN	Number=Sing	5	_	_	start_char=39|end_char=42
+7	as	as	SCONJ	IN	_	6	_	_	start_char=43|end_char=45
+8	hit	hit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=46|end_char=49
+9	rock	rock	NOUN	NN	Number=Sing	8	_	_	start_char=50|end_char=54
+10	bottom	bottom	NOUN	NN	Number=Sing	9	_	_	start_char=55|end_char=61|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=61|end_char=62
+
+# text = Im out
+# sent_id = 117501
+1-2	Im	_	_	_	_	_	_	_	start_char=63|end_char=65
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=63|end_char=64
+2	m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=64|end_char=65
+3	out	out	ADV	RB	_	2	_	_	start_char=66|end_char=69|SpaceAfter=No
+

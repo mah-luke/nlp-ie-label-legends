@@ -1,0 +1,29 @@
+# text = [USER]
+# sent_id = 103014
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Hey, somebody has to teach dogs autofellatio.
+# sent_id = 103015
+1	Hey	hey	INTJ	UH	_	0	_	_	start_char=7|end_char=10|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=10|end_char=11
+3	somebody	somebody	PRON	NN	Number=Sing|PronType=Ind	2	_	_	start_char=12|end_char=20
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=21|end_char=24
+5	to	to	PART	TO	_	4	_	_	start_char=25|end_char=27
+6	teach	teach	VERB	VB	VerbForm=Inf	5	_	_	start_char=28|end_char=33
+7	dogs	dog	NOUN	NNS	Number=Plur	6	_	_	start_char=34|end_char=38
+8	autofellatio	autofellatio	NOUN	NN	Number=Sing	7	_	_	start_char=39|end_char=51|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=51|end_char=52
+
+# text = Becks just the queen for the Job.
+# sent_id = 103016
+1	Becks	Becks	PROPN	NNP	Number=Sing	0	_	_	start_char=53|end_char=58
+2	just	just	ADV	RB	_	1	_	_	start_char=59|end_char=63
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=64|end_char=67
+4	queen	queen	NOUN	NN	Number=Sing	3	_	_	start_char=68|end_char=73
+5	for	for	ADP	IN	_	4	_	_	start_char=74|end_char=77
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=78|end_char=81
+7	Job	Job	PROPN	NNP	Number=Sing	6	_	_	start_char=82|end_char=85|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=85|end_char=86|SpaceAfter=No
+

@@ -1,0 +1,54 @@
+# text = Absolutely a child abuse case.!!!
+# sent_id = 92697
+1	Absolutely	absolutely	ADV	RB	_	0	_	_	start_char=0|end_char=10
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=11|end_char=12
+3	child	child	NOUN	NN	Number=Sing	2	_	_	start_char=13|end_char=18
+4	abuse	abuse	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=24
+5	case	case	NOUN	NN	Number=Sing	4	_	_	start_char=25|end_char=29|SpaceAfter=No
+6	.!!!	.!!!	PUNCT	.	_	5	_	_	start_char=29|end_char=33
+
+# text = Guess if he/she wants to eat candy all day & not go to school that's OK with them as well.!!!
+# sent_id = 92698
+1	Guess	guess	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=34|end_char=39
+2	if	if	SCONJ	IN	_	1	_	_	start_char=40|end_char=42
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=43|end_char=45|SpaceAfter=No
+4	/	/	SYM	,	_	3	_	_	start_char=45|end_char=46|SpaceAfter=No
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=46|end_char=49
+6	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=50|end_char=55
+7	to	to	PART	TO	_	6	_	_	start_char=56|end_char=58
+8	eat	eat	VERB	VB	VerbForm=Inf	7	_	_	start_char=59|end_char=62
+9	candy	candy	NOUN	NN	Number=Sing	8	_	_	start_char=63|end_char=68
+10	all	all	DET	DT	_	9	_	_	start_char=69|end_char=72
+11	day	day	NOUN	NN	Number=Sing	10	_	_	start_char=73|end_char=76
+12	&	&	CCONJ	CC	_	11	_	_	start_char=77|end_char=78
+13	not	not	PART	RB	_	12	_	_	start_char=79|end_char=82
+14	go	go	VERB	VB	VerbForm=Inf	13	_	_	start_char=83|end_char=85
+15	to	to	ADP	IN	_	14	_	_	start_char=86|end_char=88
+16	school	school	NOUN	NN	Number=Sing	15	_	_	start_char=89|end_char=95
+17-18	that's	_	_	_	_	_	_	_	start_char=96|end_char=102
+17	that	that	PRON	DT	Number=Sing|PronType=Dem	16	_	_	start_char=96|end_char=100
+18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=100|end_char=102
+19	OK	ok	ADJ	JJ	Degree=Pos	18	_	_	start_char=103|end_char=105
+20	with	with	ADP	IN	_	19	_	_	start_char=106|end_char=110
+21	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	_	_	start_char=111|end_char=115
+22	as	as	ADV	RB	_	21	_	_	start_char=116|end_char=118
+23	well	well	ADV	RB	Degree=Pos	22	_	_	start_char=119|end_char=123|SpaceAfter=No
+24	.!!!	.!!!	PUNCT	.	_	23	_	_	start_char=123|end_char=127
+
+# text = Because children are just so learned & insightful at a prepubescent age....hmmm
+# sent_id = 92699
+1	Because	because	SCONJ	IN	_	0	_	_	start_char=128|end_char=135
+2	children	child	NOUN	NNS	Number=Plur	1	_	_	start_char=136|end_char=144
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=145|end_char=148
+4	just	just	ADV	RB	_	3	_	_	start_char=149|end_char=153
+5	so	so	ADV	RB	_	4	_	_	start_char=154|end_char=156
+6	learned	learn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=157|end_char=164
+7	&	&	CCONJ	CC	_	6	_	_	start_char=165|end_char=166
+8	insightful	insightful	ADJ	JJ	Degree=Pos	7	_	_	start_char=167|end_char=177
+9	at	at	ADP	IN	_	8	_	_	start_char=178|end_char=180
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=181|end_char=182
+11	prepubescent	prepubescent	ADJ	JJ	Degree=Pos	10	_	_	start_char=183|end_char=195
+12	age	age	NOUN	NN	Number=Sing	11	_	_	start_char=196|end_char=199|SpaceAfter=No
+13	....	....	PUNCT	,	_	12	_	_	start_char=199|end_char=203|SpaceAfter=No
+14	hmmm	hmm	INTJ	UH	_	13	_	_	start_char=203|end_char=207|SpaceAfter=No
+

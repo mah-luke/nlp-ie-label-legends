@@ -1,0 +1,80 @@
+# text = I get what you mean, but why she won't reply?
+# sent_id = 96294
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=6|end_char=10
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=15|end_char=19|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=19|end_char=20
+7	but	but	CCONJ	CC	_	6	_	_	start_char=21|end_char=24
+8	why	why	ADV	WRB	PronType=Int	7	_	_	start_char=25|end_char=28
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=29|end_char=32
+10-11	won't	_	_	_	_	_	_	_	start_char=33|end_char=38
+10	wo	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=33|end_char=35
+11	n't	not	PART	RB	_	10	_	_	start_char=35|end_char=38
+12	reply	reply	VERB	VB	VerbForm=Inf	11	_	_	start_char=39|end_char=44|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=44|end_char=45
+
+# text = Is she's playing hard to get?
+# sent_id = 96295
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=46|end_char=48
+2-3	she's	_	_	_	_	_	_	_	start_char=49|end_char=54
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=49|end_char=52
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=52|end_char=54
+4	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=55|end_char=62
+5	hard	hard	ADJ	JJ	Degree=Pos	4	_	_	start_char=63|end_char=67
+6	to	to	PART	TO	_	5	_	_	start_char=68|end_char=70
+7	get	get	VERB	VB	VerbForm=Inf	6	_	_	start_char=71|end_char=74|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=74|end_char=75
+
+# text = She isn't interested?
+# sent_id = 96296
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=76|end_char=79
+2-3	isn't	_	_	_	_	_	_	_	start_char=80|end_char=85
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=80|end_char=82
+3	n't	not	PART	RB	_	2	_	_	start_char=82|end_char=85
+4	interested	interested	ADJ	JJ	Degree=Pos	3	_	_	start_char=86|end_char=96|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=96|end_char=97
+
+# text = I definetly don't think she forgot about it but it can be the case.
+# sent_id = 96297
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=98|end_char=99
+2	definetly	definetly	ADV	RB	_	1	_	_	start_char=100|end_char=109
+3-4	don't	_	_	_	_	_	_	_	start_char=110|end_char=115
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=110|end_char=112
+4	n't	not	PART	RB	_	3	_	_	start_char=112|end_char=115
+5	think	think	VERB	VB	VerbForm=Inf	4	_	_	start_char=116|end_char=121
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=122|end_char=125
+7	forgot	forget	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=126|end_char=132
+8	about	about	ADP	IN	_	7	_	_	start_char=133|end_char=138
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=139|end_char=141
+10	but	but	CCONJ	CC	_	9	_	_	start_char=142|end_char=145
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=146|end_char=148
+12	can	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=149|end_char=152
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=153|end_char=155
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=156|end_char=159
+15	case	case	NOUN	NN	Number=Sing	14	_	_	start_char=160|end_char=164|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=164|end_char=165
+
+# text = What do you think?
+# sent_id = 96298
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=166|end_char=170
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=171|end_char=173
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=174|end_char=177
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=178|end_char=183|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=183|end_char=184
+
+# text = Should I wait one day or 2 before double messaging?
+# sent_id = 96299
+1	Should	should	AUX	MD	VerbForm=Fin	0	_	_	start_char=185|end_char=191
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=192|end_char=193
+3	wait	wait	VERB	VB	VerbForm=Inf	2	_	_	start_char=194|end_char=198
+4	one	one	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=199|end_char=202
+5	day	day	NOUN	NN	Number=Sing	4	_	_	start_char=203|end_char=206
+6	or	or	CCONJ	CC	_	5	_	_	start_char=207|end_char=209
+7	2	2	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=210|end_char=211
+8	before	before	ADP	IN	_	7	_	_	start_char=212|end_char=218
+9	double	double	ADJ	JJ	Degree=Pos	8	_	_	start_char=219|end_char=225
+10	messaging	messaging	NOUN	NN	Number=Sing	9	_	_	start_char=226|end_char=235|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=235|end_char=236|SpaceAfter=No
+

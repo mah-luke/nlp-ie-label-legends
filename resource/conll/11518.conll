@@ -1,0 +1,36 @@
+# text = I don't care if she doesn't care.
+# sent_id = 24390
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	don't	_	_	_	_	_	_	_	start_char=2|end_char=7
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	n't	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	care	care	VERB	VB	VerbForm=Inf	3	_	_	start_char=8|end_char=12
+5	if	if	SCONJ	IN	_	4	_	_	start_char=13|end_char=15
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=16|end_char=19
+7-8	doesn't	_	_	_	_	_	_	_	start_char=20|end_char=27
+7	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=20|end_char=24
+8	n't	not	PART	RB	_	7	_	_	start_char=24|end_char=27
+9	care	care	VERB	VB	VerbForm=Inf	8	_	_	start_char=28|end_char=32|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=32|end_char=33
+
+# text = If she tries to break into my house I will shoot her.
+# sent_id = 24391
+1	If	if	SCONJ	IN	_	0	_	_	start_char=34|end_char=36
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=37|end_char=40
+3	tries	try	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=41|end_char=46
+4	to	to	PART	TO	_	3	_	_	start_char=47|end_char=49
+5	break	break	VERB	VB	VerbForm=Inf	4	_	_	start_char=50|end_char=55
+6	into	into	ADP	IN	_	5	_	_	start_char=56|end_char=60
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=61|end_char=63
+8	house	house	NOUN	NN	Number=Sing	7	_	_	start_char=64|end_char=69
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=70|end_char=71
+10	will	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=72|end_char=76
+11	shoot	shoot	VERB	VB	VerbForm=Inf	10	_	_	start_char=77|end_char=82
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=83|end_char=86|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=86|end_char=87
+
+# text = Dead.
+# sent_id = 24392
+1	Dead	Dead	ADJ	JJ	Degree=Pos	0	_	_	start_char=88|end_char=92|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=92|end_char=93|SpaceAfter=No
+

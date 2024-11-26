@@ -1,0 +1,23 @@
+# text = If the mother had an ~~fortunate~~ unfortunate accident, it would be a real shame.
+# sent_id = 70574
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=3|end_char=6
+3	mother	mother	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=13
+4	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=14|end_char=17
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=18|end_char=20
+6	~	~	PUNCT	``	_	5	_	_	start_char=21|end_char=22|SpaceAfter=No
+7	~	~	PUNCT	HYPH	_	6	_	_	start_char=22|end_char=23|SpaceAfter=No
+8	fortunate	fortunate	ADJ	JJ	Degree=Pos	7	_	_	start_char=23|end_char=32|SpaceAfter=No
+9	~	~	SYM	SYM	_	8	_	_	start_char=32|end_char=33|SpaceAfter=No
+10	~	~	PUNCT	HYPH	_	9	_	_	start_char=33|end_char=34
+11	unfortunate	unfortunate	ADJ	JJ	Degree=Pos	10	_	_	start_char=35|end_char=46
+12	accident	accident	NOUN	NN	Number=Sing	11	_	_	start_char=47|end_char=55|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=55|end_char=56
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=57|end_char=59
+15	would	would	AUX	MD	VerbForm=Fin	14	_	_	start_char=60|end_char=65
+16	be	be	AUX	VB	VerbForm=Inf	15	_	_	start_char=66|end_char=68
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=69|end_char=70
+18	real	real	ADJ	JJ	Degree=Pos	17	_	_	start_char=71|end_char=75
+19	shame	shame	NOUN	NN	Number=Sing	18	_	_	start_char=76|end_char=81|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=81|end_char=82|SpaceAfter=No
+

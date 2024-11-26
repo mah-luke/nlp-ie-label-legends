@@ -1,0 +1,43 @@
+# text = Every day is "Women's Day" in Pakistan.
+# sent_id = 58095
+1	Every	every	DET	DT	_	0	_	_	start_char=0|end_char=5
+2	day	day	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=9
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4	"	"	PUNCT	``	_	3	_	_	start_char=13|end_char=14|SpaceAfter=No
+5-6	Women's	_	_	_	_	_	_	_	start_char=14|end_char=21
+5	Women	woman	PROPN	NNP	Number=Sing	4	_	_	start_char=14|end_char=19
+6	's	's	PART	POS	_	5	_	_	start_char=19|end_char=21
+7	Day	Day	PROPN	NNP	Number=Sing	6	_	_	start_char=22|end_char=25|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=25|end_char=26
+9	in	in	ADP	IN	_	8	_	_	start_char=27|end_char=29
+10	Pakistan	Pakistan	PROPN	NNP	Number=Sing	9	_	_	start_char=30|end_char=38|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=38|end_char=39
+
+# text = But instead of candy and flowers they get harassed, molested, beaten, raped, and murdered.
+# sent_id = 58096
+1	But	but	CCONJ	CC	_	0	_	_	start_char=40|end_char=43
+2	instead	instead	ADV	RB	_	1	_	_	start_char=44|end_char=51
+3	of	of	ADP	IN	_	2	_	_	start_char=52|end_char=54
+4	candy	candy	NOUN	NN	Number=Sing	3	_	_	start_char=55|end_char=60
+5	and	and	CCONJ	CC	_	4	_	_	start_char=61|end_char=64
+6	flowers	flower	NOUN	NNS	Number=Plur	5	_	_	start_char=65|end_char=72
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=73|end_char=77
+8	get	get	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=78|end_char=81
+9	harassed	harass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=82|end_char=90|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=90|end_char=91
+11	molested	molest	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=92|end_char=100|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=100|end_char=101
+13	beaten	beat	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=102|end_char=108|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=108|end_char=109
+15	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=110|end_char=115|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=115|end_char=116
+17	and	and	CCONJ	CC	_	16	_	_	start_char=117|end_char=120
+18	murdered	murder	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=121|end_char=129|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=129|end_char=130
+
+# text = [URL]
+# sent_id = 58097
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=131|end_char=132|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=132|end_char=135|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=135|end_char=136|SpaceAfter=No
+

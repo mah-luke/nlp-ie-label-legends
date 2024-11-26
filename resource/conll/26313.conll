@@ -1,0 +1,32 @@
+# text = Oh.
+# sent_id = 56517
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=2|end_char=3
+
+# text = Now I see it wasn't.
+# sent_id = 56518
+1	Now	now	ADV	RB	_	0	_	_	start_char=4|end_char=7
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=8|end_char=9
+3	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=13
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=14|end_char=16
+5-6	wasn't	_	_	_	_	_	_	_	start_char=17|end_char=23|SpaceAfter=No
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=17|end_char=20
+6	n't	not	PART	RB	_	5	_	_	start_char=20|end_char=23
+7	.	.	PUNCT	.	_	6	_	_	start_char=23|end_char=24
+
+# text = So she circulated this to faculty?
+# sent_id = 56519
+1	So	so	ADV	RB	_	0	_	_	start_char=25|end_char=27
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=28|end_char=31
+3	circulated	circulate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=32|end_char=42
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=43|end_char=47
+5	to	to	ADP	IN	_	4	_	_	start_char=48|end_char=50
+6	faculty	faculty	NOUN	NN	Number=Sing	5	_	_	start_char=51|end_char=58|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=58|end_char=59
+
+# text = Other students?
+# sent_id = 56520
+1	Other	other	ADJ	JJ	Degree=Pos	0	_	_	start_char=60|end_char=65
+2	students	student	NOUN	NNS	Number=Plur	1	_	_	start_char=66|end_char=74|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=74|end_char=75|SpaceAfter=No
+

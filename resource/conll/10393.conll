@@ -1,0 +1,29 @@
+# text = Adolf Hitler with Helga Goebbels, 1935.
+# sent_id = 21917
+1	Adolf	Adolf	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	Hitler	Hitler	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=12
+3	with	with	ADP	IN	_	2	_	_	start_char=13|end_char=17
+4	Helga	Helga	PROPN	NNP	Number=Sing	3	_	_	start_char=18|end_char=23
+5	Goebbels	Goebbels	PROPN	NNP	Number=Sing	4	_	_	start_char=24|end_char=32|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=32|end_char=33
+7	1935	1935	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=34|end_char=38|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=38|end_char=39
+
+# text = She was 12 years old when her parents killed her with a cyanide capsule.
+# sent_id = 21918
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=40|end_char=43
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=44|end_char=47
+3	12	12	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=48|end_char=50
+4	years	year	NOUN	NNS	Number=Plur	3	_	_	start_char=51|end_char=56
+5	old	old	ADJ	JJ	Degree=Pos	4	_	_	start_char=57|end_char=60
+6	when	when	ADV	WRB	PronType=Int	5	_	_	start_char=61|end_char=65
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=66|end_char=69
+8	parents	parent	NOUN	NNS	Number=Plur	7	_	_	start_char=70|end_char=77
+9	killed	kill	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=78|end_char=84
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=85|end_char=88
+11	with	with	ADP	IN	_	10	_	_	start_char=89|end_char=93
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=94|end_char=95
+13	cyanide	cyanide	NOUN	NN	Number=Sing	12	_	_	start_char=96|end_char=103
+14	capsule	capsule	NOUN	NN	Number=Sing	13	_	_	start_char=104|end_char=111|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=111|end_char=112|SpaceAfter=No
+

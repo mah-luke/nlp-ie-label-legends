@@ -1,0 +1,46 @@
+# text = Maybe just test the water a bit.
+# sent_id = 121359
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=0|end_char=5
+2	just	just	ADV	RB	_	1	_	_	start_char=6|end_char=10
+3	test	test	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=11|end_char=15
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=16|end_char=19
+5	water	water	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=25
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=26|end_char=27
+7	bit	bit	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=31|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=31|end_char=32
+
+# text = Discuss her character in a critical way and see if he bites.
+# sent_id = 121360
+1	Discuss	discuss	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=33|end_char=40
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=41|end_char=44
+3	character	character	NOUN	NN	Number=Sing	2	_	_	start_char=45|end_char=54
+4	in	in	ADP	IN	_	3	_	_	start_char=55|end_char=57
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=58|end_char=59
+6	critical	critical	ADJ	JJ	Degree=Pos	5	_	_	start_char=60|end_char=68
+7	way	way	NOUN	NN	Number=Sing	6	_	_	start_char=69|end_char=72
+8	and	and	CCONJ	CC	_	7	_	_	start_char=73|end_char=76
+9	see	see	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=77|end_char=80
+10	if	if	SCONJ	IN	_	9	_	_	start_char=81|end_char=83
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=84|end_char=86
+12	bites	bite	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=87|end_char=92|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=92|end_char=93
+
+# text = If he's all like "All whammens is queenz" then fuck him.
+# sent_id = 121361
+1	If	if	SCONJ	IN	_	0	_	_	start_char=94|end_char=96
+2-3	he's	_	_	_	_	_	_	_	start_char=97|end_char=101
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=97|end_char=99
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=99|end_char=101
+4	all	all	ADV	RB	_	3	_	_	start_char=102|end_char=105
+5	like	like	ADP	IN	_	4	_	_	start_char=106|end_char=110
+6	"	"	PUNCT	``	_	5	_	_	start_char=111|end_char=112|SpaceAfter=No
+7	All	all	DET	DT	_	6	_	_	start_char=112|end_char=115
+8	whammens	whammen	NOUN	NNS	Number=Plur	7	_	_	start_char=116|end_char=124
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=125|end_char=127
+10	queenz	queenz	NOUN	NN	Number=Sing	9	_	_	start_char=128|end_char=134|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=134|end_char=135
+12	then	then	ADV	RB	PronType=Dem	11	_	_	start_char=136|end_char=140
+13	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=141|end_char=145
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=146|end_char=149|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=149|end_char=150|SpaceAfter=No
+

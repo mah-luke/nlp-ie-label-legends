@@ -1,0 +1,46 @@
+# text = 72.4 THOUSAND likes?
+# sent_id = 26913
+1	72.4	72.4	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=4
+2	THOUSAND	thousand	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=5|end_char=13
+3	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=14|end_char=19|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=19|end_char=20
+
+# text = Jesus Christ that’s terrifying.
+# sent_id = 26914
+1	Jesus	Jesus	PROPN	NNP	Number=Sing	0	_	_	start_char=21|end_char=26
+2	Christ	Christ	PROPN	NNP	Number=Sing	1	_	_	start_char=27|end_char=33
+3-4	that’s	_	_	_	_	_	_	_	start_char=34|end_char=40
+3	that	that	PRON	WDT	PronType=Rel	2	_	_	start_char=34|end_char=38
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=38|end_char=40
+5	terrifying	terrifying	ADJ	JJ	Degree=Pos	4	_	_	start_char=41|end_char=51|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=51|end_char=52
+
+# text = Do these women seriously have no clue their partners are counting down the seconds to where they can assault them?
+# sent_id = 26915
+1	Do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=53|end_char=55
+2	these	this	DET	DT	Number=Plur|PronType=Dem	1	_	_	start_char=56|end_char=61
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=62|end_char=67
+4	seriously	seriously	ADV	RB	_	3	_	_	start_char=68|end_char=77
+5	have	have	VERB	VB	VerbForm=Inf	4	_	_	start_char=78|end_char=82
+6	no	no	DET	DT	_	5	_	_	start_char=83|end_char=85
+7	clue	clue	NOUN	NN	Number=Sing	6	_	_	start_char=86|end_char=90
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=91|end_char=96
+9	partners	partner	NOUN	NNS	Number=Plur	8	_	_	start_char=97|end_char=105
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=106|end_char=109
+11	counting	count	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=110|end_char=118
+12	down	down	ADP	RP	_	11	_	_	start_char=119|end_char=123
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=124|end_char=127
+14	seconds	second	NOUN	NNS	Number=Plur	13	_	_	start_char=128|end_char=135
+15	to	to	ADP	IN	_	14	_	_	start_char=136|end_char=138
+16	where	where	ADV	WRB	PronType=Rel	15	_	_	start_char=139|end_char=144
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=145|end_char=149
+18	can	can	AUX	MD	VerbForm=Fin	17	_	_	start_char=150|end_char=153
+19	assault	assault	VERB	VB	VerbForm=Inf	18	_	_	start_char=154|end_char=161
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	_	_	start_char=162|end_char=166|SpaceAfter=No
+21	?	?	PUNCT	.	_	20	_	_	start_char=166|end_char=167
+
+# text = Fucking hell
+# sent_id = 26916
+1	Fucking	fucking	ADP	IN	_	0	_	_	start_char=168|end_char=175
+2	hell	hell	NOUN	NN	Number=Sing	1	_	_	start_char=176|end_char=180|SpaceAfter=No
+

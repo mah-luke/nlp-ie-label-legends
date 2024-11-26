@@ -1,0 +1,58 @@
+# text = I like when big girls feel good about themselves.
+# sent_id = 42171
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	when	when	ADV	WRB	PronType=Int	2	_	_	start_char=7|end_char=11
+4	big	big	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=15
+5	girls	girl	NOUN	NNS	Number=Plur	4	_	_	start_char=16|end_char=21
+6	feel	feel	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=22|end_char=26
+7	good	good	ADJ	JJ	Degree=Pos	6	_	_	start_char=27|end_char=31
+8	about	about	ADP	IN	_	7	_	_	start_char=32|end_char=37
+9	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	8	_	_	start_char=38|end_char=48|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=48|end_char=49
+
+# text = You know the trash they get fed ..
+# sent_id = 42172
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	0	_	_	start_char=50|end_char=53
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=54|end_char=58
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=59|end_char=62
+4	trash	trash	NOUN	NN	Number=Sing	3	_	_	start_char=63|end_char=68
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=69|end_char=73
+6	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=74|end_char=77
+7	fed	feed	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=78|end_char=81
+8	..	..	PUNCT	.	_	7	_	_	start_char=82|end_char=84
+
+# text = SOMETIMES ain't a very good intro to perfect balance and .. it's like ergonomics I dont assume theyre aware of such things.
+# sent_id = 42173
+1	SOMETIMES	sometimes	ADV	RB	_	0	_	_	start_char=85|end_char=94
+2-3	ain't	_	_	_	_	_	_	_	start_char=95|end_char=100
+2	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=95|end_char=97
+3	n't	not	PART	RB	_	2	_	_	start_char=97|end_char=100
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=101|end_char=102
+5	very	very	ADV	RB	_	4	_	_	start_char=103|end_char=107
+6	good	good	ADJ	JJ	Degree=Pos	5	_	_	start_char=108|end_char=112
+7	intro	intro	NOUN	NN	Number=Sing	6	_	_	start_char=113|end_char=118
+8	to	to	ADP	IN	_	7	_	_	start_char=119|end_char=121
+9	perfect	perfect	ADJ	JJ	Degree=Pos	8	_	_	start_char=122|end_char=129
+10	balance	balance	NOUN	NN	Number=Sing	9	_	_	start_char=130|end_char=137
+11	and	and	CCONJ	CC	_	10	_	_	start_char=138|end_char=141
+12	..	..	PUNCT	,	_	11	_	_	start_char=142|end_char=144
+13-14	it's	_	_	_	_	_	_	_	start_char=145|end_char=149
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=145|end_char=147
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=147|end_char=149
+15	like	like	ADP	IN	_	14	_	_	start_char=150|end_char=154
+16	ergonomics	ergonomic	NOUN	NN	Number=Sing	15	_	_	start_char=155|end_char=165
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=166|end_char=167
+18-19	dont	_	_	_	_	_	_	_	start_char=168|end_char=172
+18	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=168|end_char=170
+19	nt	not	PART	RB	_	18	_	_	start_char=170|end_char=172
+20	assume	assume	VERB	VB	VerbForm=Inf	19	_	_	start_char=173|end_char=179
+21-22	theyre	_	_	_	_	_	_	_	start_char=180|end_char=186
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	_	_	start_char=180|end_char=184
+22	re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=184|end_char=186
+23	aware	aware	ADJ	JJ	Degree=Pos	22	_	_	start_char=187|end_char=192
+24	of	of	ADP	IN	_	23	_	_	start_char=193|end_char=195
+25	such	such	ADJ	JJ	Degree=Pos	24	_	_	start_char=196|end_char=200
+26	things	thing	NOUN	NNS	Number=Plur	25	_	_	start_char=201|end_char=207|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=207|end_char=208|SpaceAfter=No
+

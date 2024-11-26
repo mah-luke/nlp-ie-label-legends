@@ -1,0 +1,26 @@
+# text = Schedule a date with her, then don't show up.
+# sent_id = 89008
+1	Schedule	schedule	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=8
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=9|end_char=10
+3	date	date	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=15
+4	with	with	ADP	IN	_	3	_	_	start_char=16|end_char=20
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=21|end_char=24|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=24|end_char=25
+7	then	then	ADV	RB	PronType=Dem	6	_	_	start_char=26|end_char=30
+8-9	don't	_	_	_	_	_	_	_	start_char=31|end_char=36
+8	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=31|end_char=33
+9	n't	not	PART	RB	_	8	_	_	start_char=33|end_char=36
+10	show	show	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=37|end_char=41
+11	up	up	ADP	RP	_	10	_	_	start_char=42|end_char=44|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=44|end_char=45
+
+# text = Then text her "GOTCHA BITCH"
+# sent_id = 89009
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=46|end_char=50
+2	text	text	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=51|end_char=55
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=56|end_char=59
+4	"	"	PUNCT	``	_	3	_	_	start_char=60|end_char=61|SpaceAfter=No
+5	GOTCHA	gotcha	NOUN	NN	Number=Sing	4	_	_	start_char=61|end_char=67
+6	BITCH	bitch	NOUN	NN	Number=Sing	5	_	_	start_char=68|end_char=73|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=73|end_char=74|SpaceAfter=No
+

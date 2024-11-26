@@ -1,0 +1,57 @@
+# text = [USER]
+# sent_id = 36576
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = She's going before a grand jury over the matter after #Trump is President, and then she'll go to jail, because like her predecessor #EricHolder, she utterly corrupt.
+# sent_id = 36577
+1-2	She's	_	_	_	_	_	_	_	start_char=7|end_char=12
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=10
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=12
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=13|end_char=18
+4	before	before	ADP	IN	_	3	_	_	start_char=19|end_char=25
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=26|end_char=27
+6	grand	grand	ADJ	JJ	Degree=Pos	5	_	_	start_char=28|end_char=33
+7	jury	jury	NOUN	NN	Number=Sing	6	_	_	start_char=34|end_char=38
+8	over	over	ADP	IN	_	7	_	_	start_char=39|end_char=43
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=44|end_char=47
+10	matter	matter	NOUN	NN	Number=Sing	9	_	_	start_char=48|end_char=54
+11	after	after	SCONJ	IN	_	10	_	_	start_char=55|end_char=60
+12	#	#	SYM	NN	Number=Sing	11	_	_	start_char=61|end_char=62|SpaceAfter=No
+13	Trump	Trump	PROPN	NNP	Number=Sing	12	_	_	start_char=62|end_char=67
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=68|end_char=70
+15	President	President	PROPN	NNP	Number=Sing	14	_	_	start_char=71|end_char=80|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=80|end_char=81
+17	and	and	CCONJ	CC	_	16	_	_	start_char=82|end_char=85
+18	then	then	ADV	RB	PronType=Dem	17	_	_	start_char=86|end_char=90
+19-20	she'll	_	_	_	_	_	_	_	start_char=91|end_char=97
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=91|end_char=94
+20	'll	will	AUX	MD	VerbForm=Fin	19	_	_	start_char=94|end_char=97
+21	go	go	VERB	VB	VerbForm=Inf	20	_	_	start_char=98|end_char=100
+22	to	to	ADP	IN	_	21	_	_	start_char=101|end_char=103
+23	jail	jail	NOUN	NN	Number=Sing	22	_	_	start_char=104|end_char=108|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	_	_	start_char=108|end_char=109
+25	because	because	SCONJ	IN	_	24	_	_	start_char=110|end_char=117
+26	like	like	ADP	IN	_	25	_	_	start_char=118|end_char=122
+27	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	_	_	start_char=123|end_char=126
+28	predecessor	predecessor	NOUN	NN	Number=Sing	27	_	_	start_char=127|end_char=138
+29	#	#	SYM	NN	Number=Sing	28	_	_	start_char=139|end_char=140|SpaceAfter=No
+30	EricHolder	EricHolder	PROPN	NNP	Number=Sing	29	_	_	start_char=140|end_char=150|SpaceAfter=No
+31	,	,	PUNCT	,	_	30	_	_	start_char=150|end_char=151
+32	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	_	_	start_char=152|end_char=155
+33	utterly	utterly	ADV	RB	_	32	_	_	start_char=156|end_char=163
+34	corrupt	corrupt	ADJ	JJ	Degree=Pos	33	_	_	start_char=164|end_char=171|SpaceAfter=No
+35	.	.	PUNCT	.	_	34	_	_	start_char=171|end_char=172
+
+# text = #DrainTheSwamp #NoMercy #MAGA #Trump
+# sent_id = 36578
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=173|end_char=174|SpaceAfter=No
+2	DrainTheSwamp	DrainTheSwamp	X	GW	_	1	_	_	start_char=174|end_char=187
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=188|end_char=189|SpaceAfter=No
+4	NoMercy	nomercy	X	GW	_	3	_	_	start_char=189|end_char=196
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=197|end_char=198|SpaceAfter=No
+6	MAGA	maga	NOUN	NN	Number=Sing	5	_	_	start_char=198|end_char=202
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=203|end_char=204|SpaceAfter=No
+8	Trump	Trump	NOUN	NN	Number=Sing	7	_	_	start_char=204|end_char=209|SpaceAfter=No
+

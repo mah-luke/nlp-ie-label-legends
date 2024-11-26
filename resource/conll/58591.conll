@@ -1,0 +1,29 @@
+# text = As far as I can tell, she's an elderly, unmarried, childless liberal.
+# sent_id = 125057
+1	As	as	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	far	far	ADV	RB	Degree=Pos	1	_	_	start_char=3|end_char=6
+3	as	as	SCONJ	IN	_	2	_	_	start_char=7|end_char=9
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=10|end_char=11
+5	can	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=12|end_char=15
+6	tell	tell	VERB	VB	VerbForm=Inf	5	_	_	start_char=16|end_char=20|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=20|end_char=21
+8-9	she's	_	_	_	_	_	_	_	start_char=22|end_char=27
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=22|end_char=25
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=25|end_char=27
+10	an	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=28|end_char=30
+11	elderly	elderly	ADJ	JJ	Degree=Pos	10	_	_	start_char=31|end_char=38|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=38|end_char=39
+13	unmarried	unmarried	ADJ	JJ	Degree=Pos	12	_	_	start_char=40|end_char=49|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=49|end_char=50
+15	childless	childless	ADJ	JJ	Degree=Pos	14	_	_	start_char=51|end_char=60
+16	liberal	liberal	NOUN	NN	Number=Sing	15	_	_	start_char=61|end_char=68|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=68|end_char=69
+
+# text = So this is unsurprising.
+# sent_id = 125058
+1	So	so	INTJ	UH	_	0	_	_	start_char=70|end_char=72
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=73|end_char=77
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=78|end_char=80
+4	unsurprising	unsurprising	ADJ	JJ	Degree=Pos	3	_	_	start_char=81|end_char=93|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=93|end_char=94|SpaceAfter=No
+

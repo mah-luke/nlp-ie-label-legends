@@ -1,0 +1,50 @@
+# text = I'm starting to like Miley for her tanasity.
+# sent_id = 5489
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	starting	start	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=4|end_char=12
+4	to	to	PART	TO	_	3	_	_	start_char=13|end_char=15
+5	like	like	VERB	VB	VerbForm=Inf	4	_	_	start_char=16|end_char=20
+6	Miley	Miley	PROPN	NNP	Number=Sing	5	_	_	start_char=21|end_char=26
+7	for	for	ADP	IN	_	6	_	_	start_char=27|end_char=30
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=31|end_char=34
+9	tanasity	tanasity	NOUN	NN	Number=Sing	8	_	_	start_char=35|end_char=43|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=43|end_char=44
+
+# text = It's a shame she can't see the people she is trying to help are using her and talk worse shit behind her back than any of us combined.
+# sent_id = 5490
+1-2	It's	_	_	_	_	_	_	_	start_char=45|end_char=49
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=45|end_char=47
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=47|end_char=49
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=50|end_char=51
+4	shame	shame	NOUN	NN	Number=Sing	3	_	_	start_char=52|end_char=57
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=58|end_char=61
+6-7	can't	_	_	_	_	_	_	_	start_char=62|end_char=67
+6	ca	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=62|end_char=64
+7	n't	not	PART	RB	_	6	_	_	start_char=64|end_char=67
+8	see	see	VERB	VB	VerbForm=Inf	7	_	_	start_char=68|end_char=71
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=72|end_char=75
+10	people	person	NOUN	NNS	Number=Plur	9	_	_	start_char=76|end_char=82
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=83|end_char=86
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=87|end_char=89
+13	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=90|end_char=96
+14	to	to	PART	TO	_	13	_	_	start_char=97|end_char=99
+15	help	help	VERB	VB	VerbForm=Inf	14	_	_	start_char=100|end_char=104
+16	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=105|end_char=108
+17	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	16	_	_	start_char=109|end_char=114
+18	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=115|end_char=118
+19	and	and	CCONJ	CC	_	18	_	_	start_char=119|end_char=122
+20	talk	talk	VERB	VB	VerbForm=Inf	19	_	_	start_char=123|end_char=127
+21	worse	bad	ADJ	JJR	Degree=Cmp	20	_	_	start_char=128|end_char=133
+22	shit	shit	NOUN	NN	Number=Sing	21	_	_	start_char=134|end_char=138
+23	behind	behind	ADP	IN	_	22	_	_	start_char=139|end_char=145
+24	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=146|end_char=149
+25	back	back	ADV	RB	_	24	_	_	start_char=150|end_char=154
+26	than	than	SCONJ	IN	_	25	_	_	start_char=155|end_char=159
+27	any	any	DET	DT	_	26	_	_	start_char=160|end_char=163
+28	of	of	ADP	IN	_	27	_	_	start_char=164|end_char=166
+29	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	28	_	_	start_char=167|end_char=169
+30	combined	combine	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	_	_	start_char=170|end_char=178|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	start_char=178|end_char=179|SpaceAfter=No
+

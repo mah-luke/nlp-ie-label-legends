@@ -1,0 +1,26 @@
+# text = I love that red dress.
+# sent_id = 2034
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	that	that	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=7|end_char=11
+4	red	red	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=15
+5	dress	dress	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=21|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=21|end_char=22
+
+# text = I like her style too!
+# sent_id = 2035
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=23|end_char=24
+2	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=29
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=30|end_char=33
+4	style	style	NOUN	NN	Number=Sing	3	_	_	start_char=34|end_char=39
+5	too	too	ADV	RB	_	4	_	_	start_char=40|end_char=43|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=43|end_char=44
+
+# text = You have good taste.
+# sent_id = 2036
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=45|end_char=48
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=49|end_char=53
+3	good	good	ADJ	JJ	Degree=Pos	2	_	_	start_char=54|end_char=58
+4	taste	taste	NOUN	NN	Number=Sing	3	_	_	start_char=59|end_char=64|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=64|end_char=65|SpaceAfter=No
+

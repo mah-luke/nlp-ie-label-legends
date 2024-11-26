@@ -1,0 +1,24 @@
+# text = gotcha.. no hate man!
+# sent_id = 90477
+1	gotcha	gotcha	INTJ	UH	_	0	_	_	start_char=0|end_char=6|SpaceAfter=No
+2	..	..	PUNCT	,	_	1	_	_	start_char=6|end_char=8
+3	no	no	DET	DT	_	2	_	_	start_char=9|end_char=11
+4	hate	hate	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=12|end_char=16
+5	man	man	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=20|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=20|end_char=21
+
+# text = I shouldn't be injecting myself .. causes mass confusion.
+# sent_id = 90478
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=22|end_char=23
+2-3	shouldn't	_	_	_	_	_	_	_	start_char=24|end_char=33
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=24|end_char=30
+3	n't	not	PART	RB	_	2	_	_	start_char=30|end_char=33
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=34|end_char=36
+5	injecting	inject	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=37|end_char=46
+6	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	5	_	_	start_char=47|end_char=53
+7	..	..	PUNCT	,	_	6	_	_	start_char=54|end_char=56
+8	causes	cause	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=57|end_char=63
+9	mass	mass	ADJ	JJ	Degree=Pos	8	_	_	start_char=64|end_char=68
+10	confusion	confusion	NOUN	NN	Number=Sing	9	_	_	start_char=69|end_char=78|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=78|end_char=79|SpaceAfter=No
+

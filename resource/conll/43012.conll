@@ -1,0 +1,20 @@
+# text = Don’t be.
+# sent_id = 91916
+1-2	Don’t	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n’t	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=8|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=8|end_char=9
+
+# text = Basically women use common sense, just like men
+# sent_id = 91917
+1	Basically	basically	ADV	RB	_	0	_	_	start_char=10|end_char=19
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=20|end_char=25
+3	use	use	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=26|end_char=29
+4	common	common	ADJ	JJ	Degree=Pos	3	_	_	start_char=30|end_char=36
+5	sense	sense	NOUN	NN	Number=Sing	4	_	_	start_char=37|end_char=42|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=42|end_char=43
+7	just	just	ADV	RB	_	6	_	_	start_char=44|end_char=48
+8	like	like	ADP	IN	_	7	_	_	start_char=49|end_char=53
+9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=54|end_char=57|SpaceAfter=No
+

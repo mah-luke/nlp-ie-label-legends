@@ -1,0 +1,43 @@
+# text = She is too stupid to stay in the US.
+# sent_id = 12402
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	too	too	ADV	RB	_	2	_	_	start_char=7|end_char=10
+4	stupid	stupid	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=17
+5	to	to	PART	TO	_	4	_	_	start_char=18|end_char=20
+6	stay	stay	VERB	VB	VerbForm=Inf	5	_	_	start_char=21|end_char=25
+7	in	in	ADP	IN	_	6	_	_	start_char=26|end_char=28
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=29|end_char=32
+9	US	US	PROPN	NNP	Number=Sing	8	_	_	start_char=33|end_char=35|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=35|end_char=36
+
+# text = I pay more in taxes on my cigarettes than she does on her state taxes so by her logic I've paid my tax burden.
+# sent_id = 12403
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=37|end_char=38
+2	pay	pay	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=39|end_char=42
+3	more	more	ADJ	JJR	Degree=Cmp	2	_	_	start_char=43|end_char=47
+4	in	in	ADP	IN	_	3	_	_	start_char=48|end_char=50
+5	taxes	tax	NOUN	NNS	Number=Plur	4	_	_	start_char=51|end_char=56
+6	on	on	ADP	IN	_	5	_	_	start_char=57|end_char=59
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=60|end_char=62
+8	cigarettes	cigarette	NOUN	NNS	Number=Plur	7	_	_	start_char=63|end_char=73
+9	than	than	SCONJ	IN	_	8	_	_	start_char=74|end_char=78
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=79|end_char=82
+11	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=83|end_char=87
+12	on	on	ADP	IN	_	11	_	_	start_char=88|end_char=90
+13	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=91|end_char=94
+14	state	state	NOUN	NN	Number=Sing	13	_	_	start_char=95|end_char=100
+15	taxes	tax	NOUN	NNS	Number=Plur	14	_	_	start_char=101|end_char=106
+16	so	so	ADV	RB	_	15	_	_	start_char=107|end_char=109
+17	by	by	ADP	IN	_	16	_	_	start_char=110|end_char=112
+18	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=113|end_char=116
+19	logic	logic	NOUN	NN	Number=Sing	18	_	_	start_char=117|end_char=122
+20-21	I've	_	_	_	_	_	_	_	start_char=123|end_char=127
+20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	_	_	start_char=123|end_char=124
+21	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	_	_	start_char=124|end_char=127
+22	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part	21	_	_	start_char=128|end_char=132
+23	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	_	_	start_char=133|end_char=135
+24	tax	tax	NOUN	NN	Number=Sing	23	_	_	start_char=136|end_char=139
+25	burden	burden	NOUN	NN	Number=Sing	24	_	_	start_char=140|end_char=146|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=146|end_char=147|SpaceAfter=No
+

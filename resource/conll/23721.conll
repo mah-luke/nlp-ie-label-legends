@@ -1,0 +1,52 @@
+# text = The 'being female' sentencing discount is appalling.
+# sent_id = 50907
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	'	'	PUNCT	``	_	1	_	_	start_char=4|end_char=5|SpaceAfter=No
+3	being	be	AUX	VBG	VerbForm=Ger	2	_	_	start_char=5|end_char=10
+4	female	female	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=17|SpaceAfter=No
+5	'	'	PUNCT	''	_	4	_	_	start_char=17|end_char=18
+6	sentencing	sentencing	NOUN	NN	Number=Sing	5	_	_	start_char=19|end_char=29
+7	discount	discount	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=38
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=39|end_char=41
+9	appalling	appalling	ADJ	JJ	Degree=Pos	8	_	_	start_char=42|end_char=51|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=51|end_char=52
+
+# text = By the way the article reads, it looks as though she didn't even face any charges.....
+# sent_id = 50908
+1	By	by	ADP	IN	_	0	_	_	start_char=53|end_char=55
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=56|end_char=59
+3	way	way	NOUN	NN	Number=Sing	2	_	_	start_char=60|end_char=63
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=64|end_char=67
+5	article	article	NOUN	NN	Number=Sing	4	_	_	start_char=68|end_char=75
+6	reads	read	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=76|end_char=81|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=81|end_char=82
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=83|end_char=85
+9	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=86|end_char=91
+10	as	as	SCONJ	IN	_	9	_	_	start_char=92|end_char=94
+11	though	though	SCONJ	IN	_	10	_	_	start_char=95|end_char=101
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=102|end_char=105
+13-14	didn't	_	_	_	_	_	_	_	start_char=106|end_char=112
+13	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=106|end_char=109
+14	n't	not	PART	RB	_	13	_	_	start_char=109|end_char=112
+15	even	even	ADV	RB	_	14	_	_	start_char=113|end_char=117
+16	face	face	VERB	VB	VerbForm=Inf	15	_	_	start_char=118|end_char=122
+17	any	any	DET	DT	_	16	_	_	start_char=123|end_char=126
+18	charges	charge	NOUN	NNS	Number=Plur	17	_	_	start_char=127|end_char=134|SpaceAfter=No
+19	.....	.....	PUNCT	.	_	18	_	_	start_char=134|end_char=139
+
+# text = Likely she had a welfare check and was let on her way.
+# sent_id = 50909
+1	Likely	likely	ADV	RB	_	0	_	_	start_char=140|end_char=146
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=147|end_char=150
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=151|end_char=154
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=155|end_char=156
+5	welfare	welfare	NOUN	NN	Number=Sing	4	_	_	start_char=157|end_char=164
+6	check	check	NOUN	NN	Number=Sing	5	_	_	start_char=165|end_char=170
+7	and	and	CCONJ	CC	_	6	_	_	start_char=171|end_char=174
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=175|end_char=178
+9	let	let	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=179|end_char=182
+10	on	on	ADP	IN	_	9	_	_	start_char=183|end_char=185
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=186|end_char=189
+12	way	way	NOUN	NN	Number=Sing	11	_	_	start_char=190|end_char=193|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=193|end_char=194|SpaceAfter=No
+

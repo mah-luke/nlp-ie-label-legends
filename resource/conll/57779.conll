@@ -1,0 +1,21 @@
+# text = You probably intimidate her.
+# sent_id = 123430
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	probably	probably	ADV	RB	_	1	_	_	start_char=4|end_char=12
+3	intimidate	intimidate	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=23
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=24|end_char=27|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=27|end_char=28
+
+# text = Just give her time =) nothing to worry about.
+# sent_id = 123431
+1	Just	just	ADV	RB	_	0	_	_	start_char=29|end_char=33
+2	give	give	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=34|end_char=38
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=39|end_char=42
+4	time	time	NOUN	NN	Number=Sing	3	_	_	start_char=43|end_char=47
+5	=)	=)	SYM	NFP	_	4	_	_	start_char=48|end_char=50
+6	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	5	_	_	start_char=51|end_char=58
+7	to	to	PART	TO	_	6	_	_	start_char=59|end_char=61
+8	worry	worry	VERB	VB	VerbForm=Inf	7	_	_	start_char=62|end_char=67
+9	about	about	ADP	IN	_	8	_	_	start_char=68|end_char=73|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=73|end_char=74|SpaceAfter=No
+

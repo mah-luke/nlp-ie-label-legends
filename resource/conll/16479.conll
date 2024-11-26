@@ -1,0 +1,24 @@
+# text = Only you're an idiot.
+# sent_id = 35355
+1	Only	only	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2-3	you're	_	_	_	_	_	_	_	start_char=5|end_char=11
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=5|end_char=8
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=11
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=12|end_char=14
+5	idiot	idiot	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=20|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=20|end_char=21
+
+# text = Now you're both an idiot and a liar.
+# sent_id = 35356
+1	Now	now	ADV	RB	_	0	_	_	start_char=22|end_char=25
+2-3	you're	_	_	_	_	_	_	_	start_char=26|end_char=32
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=26|end_char=29
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=29|end_char=32
+4	both	both	ADV	RB	_	3	_	_	start_char=33|end_char=37
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=38|end_char=40
+6	idiot	idiot	NOUN	NN	Number=Sing	5	_	_	start_char=41|end_char=46
+7	and	and	CCONJ	CC	_	6	_	_	start_char=47|end_char=50
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=51|end_char=52
+9	liar	liar	NOUN	NN	Number=Sing	8	_	_	start_char=53|end_char=57|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=57|end_char=58|SpaceAfter=No
+

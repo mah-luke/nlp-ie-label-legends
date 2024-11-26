@@ -1,0 +1,48 @@
+# text = I'm a 30 year old straight male virgin, dude.
+# sent_id = 73209
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=4|end_char=5
+4	30	30	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=6|end_char=8
+5	year	year	NOUN	NN	Number=Sing	4	_	_	start_char=9|end_char=13
+6	old	old	ADJ	JJ	Degree=Pos	5	_	_	start_char=14|end_char=17
+7	straight	straight	ADJ	JJ	Degree=Pos	6	_	_	start_char=18|end_char=26
+8	male	male	ADJ	JJ	Degree=Pos	7	_	_	start_char=27|end_char=31
+9	virgin	virgin	NOUN	NN	Number=Sing	8	_	_	start_char=32|end_char=38|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=38|end_char=39
+11	dude	dude	NOUN	NN	Number=Sing	10	_	_	start_char=40|end_char=44|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=44|end_char=45
+
+# text = Blows some of your points right out of the water.
+# sent_id = 73210
+1	Blows	blow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=46|end_char=51
+2	some	some	DET	DT	_	1	_	_	start_char=52|end_char=56
+3	of	of	ADP	IN	_	2	_	_	start_char=57|end_char=59
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=60|end_char=64
+5	points	point	NOUN	NNS	Number=Plur	4	_	_	start_char=65|end_char=71
+6	right	right	ADV	RB	_	5	_	_	start_char=72|end_char=77
+7	out	out	ADP	IN	_	6	_	_	start_char=78|end_char=81
+8	of	of	ADP	IN	_	7	_	_	start_char=82|end_char=84
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=85|end_char=88
+10	water	water	NOUN	NN	Number=Sing	9	_	_	start_char=89|end_char=94|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=94|end_char=95
+
+# text = Why would you jump to "must be a woman" at this anyway?
+# sent_id = 73211
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=96|end_char=99
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=100|end_char=105
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=106|end_char=109
+4	jump	jump	VERB	VB	VerbForm=Inf	3	_	_	start_char=110|end_char=114
+5	to	to	PART	TO	_	4	_	_	start_char=115|end_char=117
+6	"	"	PUNCT	``	_	5	_	_	start_char=118|end_char=119|SpaceAfter=No
+7	must	must	AUX	MD	VerbForm=Fin	6	_	_	start_char=119|end_char=123
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=124|end_char=126
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=127|end_char=128
+10	woman	woman	NOUN	NN	Number=Sing	9	_	_	start_char=129|end_char=134|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=134|end_char=135
+12	at	at	ADP	IN	_	11	_	_	start_char=136|end_char=138
+13	this	this	PRON	DT	Number=Sing|PronType=Dem	12	_	_	start_char=139|end_char=143
+14	anyway	anyway	ADV	RB	_	13	_	_	start_char=144|end_char=150|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=150|end_char=151|SpaceAfter=No
+

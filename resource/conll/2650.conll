@@ -1,0 +1,82 @@
+# text = You sure?
+# sent_id = 5634
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	sure	sure	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=8|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=8|end_char=9
+
+# text = What quality of woman becomes a waitress?
+# sent_id = 5635
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=10|end_char=14
+2	quality	quality	NOUN	NN	Number=Sing	1	_	_	start_char=15|end_char=22
+3	of	of	ADP	IN	_	2	_	_	start_char=23|end_char=25
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=26|end_char=31
+5	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=32|end_char=39
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=40|end_char=41
+7	waitress	waitress	NOUN	NN	Number=Sing	6	_	_	start_char=42|end_char=50|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=50|end_char=51
+
+# text = A student, an actress-to-maybe-never-be and a nobody-forever.
+# sent_id = 5636
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=52|end_char=53
+2	student	student	NOUN	NN	Number=Sing	1	_	_	start_char=54|end_char=61|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=61|end_char=62
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=63|end_char=65
+5	actress	actress	NOUN	NN	Number=Sing	4	_	_	start_char=66|end_char=73|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=73|end_char=74|SpaceAfter=No
+7	to	to	ADP	IN	_	6	_	_	start_char=74|end_char=76|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	_	_	start_char=76|end_char=77|SpaceAfter=No
+9	maybe	maybe	ADV	RB	_	8	_	_	start_char=77|end_char=82|SpaceAfter=No
+10	-	-	PUNCT	,	_	9	_	_	start_char=82|end_char=83|SpaceAfter=No
+11	never	never	ADV	RB	_	10	_	_	start_char=83|end_char=88|SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	11	_	_	start_char=88|end_char=89|SpaceAfter=No
+13	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=89|end_char=91
+14	and	and	CCONJ	CC	_	13	_	_	start_char=92|end_char=95
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=96|end_char=97
+16	nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	15	_	_	start_char=98|end_char=104|SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	16	_	_	start_char=104|end_char=105|SpaceAfter=No
+18	forever	forever	ADV	RB	_	17	_	_	start_char=105|end_char=112|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=112|end_char=113
+
+# text = All she's got is her tips and her tits.
+# sent_id = 5637
+1	All	all	DET	DT	_	0	_	_	start_char=114|end_char=117
+2-3	she's	_	_	_	_	_	_	_	start_char=118|end_char=123
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=118|end_char=121
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=121|end_char=123
+4	got	get	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=124|end_char=127
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=128|end_char=130
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=131|end_char=134
+7	tips	tip	NOUN	NNS	Number=Plur	6	_	_	start_char=135|end_char=139
+8	and	and	CCONJ	CC	_	7	_	_	start_char=140|end_char=143
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=144|end_char=147
+10	tits	tit	NOUN	NNS	Number=Plur	9	_	_	start_char=148|end_char=152|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=152|end_char=153
+
+# text = In life that's not much.
+# sent_id = 5638
+1	In	in	ADP	IN	_	0	_	_	start_char=154|end_char=156
+2	life	life	NOUN	NN	Number=Sing	1	_	_	start_char=157|end_char=161
+3-4	that's	_	_	_	_	_	_	_	start_char=162|end_char=168
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=162|end_char=166
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=166|end_char=168
+5	not	not	PART	RB	_	4	_	_	start_char=169|end_char=172
+6	much	much	ADJ	JJ	Degree=Pos	5	_	_	start_char=173|end_char=177|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=177|end_char=178
+
+# text = I'm fairly certain you *are* good enough for her.
+# sent_id = 5639
+1-2	I'm	_	_	_	_	_	_	_	start_char=179|end_char=182
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=179|end_char=180
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=180|end_char=182
+3	fairly	fairly	ADV	RB	_	2	_	_	start_char=183|end_char=189
+4	certain	certain	ADJ	JJ	Degree=Pos	3	_	_	start_char=190|end_char=197
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=198|end_char=201
+6	*	*	PUNCT	NFP	_	5	_	_	start_char=202|end_char=203|SpaceAfter=No
+7	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=203|end_char=206|SpaceAfter=No
+8	*	*	PUNCT	NFP	_	7	_	_	start_char=206|end_char=207
+9	good	good	ADJ	JJ	Degree=Pos	8	_	_	start_char=208|end_char=212
+10	enough	enough	ADV	RB	_	9	_	_	start_char=213|end_char=219
+11	for	for	ADP	IN	_	10	_	_	start_char=220|end_char=223
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=224|end_char=227|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=227|end_char=228|SpaceAfter=No
+

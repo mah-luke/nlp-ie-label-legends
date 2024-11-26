@@ -1,0 +1,65 @@
+# text = 'Money',she was given or rather i would say the money that was thrown at her fake ass.
+# sent_id = 96504
+1	'	'	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Money	money	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=6|SpaceAfter=No
+3	'	'	PUNCT	''	_	2	_	_	start_char=6|end_char=7|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=7|end_char=8|SpaceAfter=No
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=8|end_char=11
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=12|end_char=15
+7	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=16|end_char=21
+8	or	or	CCONJ	CC	_	7	_	_	start_char=22|end_char=24
+9	rather	rather	ADV	RB	_	8	_	_	start_char=25|end_char=31
+10	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=32|end_char=33
+11	would	would	AUX	MD	VerbForm=Fin	10	_	_	start_char=34|end_char=39
+12	say	say	VERB	VB	VerbForm=Inf	11	_	_	start_char=40|end_char=43
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=44|end_char=47
+14	money	money	NOUN	NN	Number=Sing	13	_	_	start_char=48|end_char=53
+15	that	that	PRON	WDT	PronType=Rel	14	_	_	start_char=54|end_char=58
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=59|end_char=62
+17	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=63|end_char=69
+18	at	at	ADP	IN	_	17	_	_	start_char=70|end_char=72
+19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=73|end_char=76
+20	fake	fake	ADJ	JJ	Degree=Pos	19	_	_	start_char=77|end_char=81
+21	ass	ass	NOUN	NN	Number=Sing	20	_	_	start_char=82|end_char=85|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=85|end_char=86
+
+# text = It's basically zero effort money and she's making millions and she couldn't give away 10k?
+# sent_id = 96505
+1-2	It's	_	_	_	_	_	_	_	start_char=87|end_char=91
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=87|end_char=89
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=89|end_char=91
+3	basically	basically	ADV	RB	_	2	_	_	start_char=92|end_char=101
+4	zero	zero	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=102|end_char=106
+5	effort	effort	NOUN	NN	Number=Sing	4	_	_	start_char=107|end_char=113
+6	money	money	NOUN	NN	Number=Sing	5	_	_	start_char=114|end_char=119
+7	and	and	CCONJ	CC	_	6	_	_	start_char=120|end_char=123
+8-9	she's	_	_	_	_	_	_	_	start_char=124|end_char=129
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=124|end_char=127
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=127|end_char=129
+10	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=130|end_char=136
+11	millions	million	NOUN	NNS	Number=Plur	10	_	_	start_char=137|end_char=145
+12	and	and	CCONJ	CC	_	11	_	_	start_char=146|end_char=149
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=150|end_char=153
+14-15	couldn't	_	_	_	_	_	_	_	start_char=154|end_char=162
+14	could	could	AUX	MD	VerbForm=Fin	13	_	_	start_char=154|end_char=159
+15	n't	not	PART	RB	_	14	_	_	start_char=159|end_char=162
+16	give	give	VERB	VB	VerbForm=Inf	15	_	_	start_char=163|end_char=167
+17	away	away	ADP	RP	_	16	_	_	start_char=168|end_char=172
+18	10	10	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	start_char=173|end_char=175|SpaceAfter=No
+19	k	thousand	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	18	_	_	start_char=175|end_char=176|SpaceAfter=No
+20	?	?	PUNCT	.	_	19	_	_	start_char=176|end_char=177
+
+# text = And you are asking us what have we done? !
+# sent_id = 96506
+1	And	and	CCONJ	CC	_	0	_	_	start_char=178|end_char=181
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=182|end_char=185
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=186|end_char=189
+4	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=190|end_char=196
+5	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=197|end_char=199
+6	what	what	PRON	WP	PronType=Int	5	_	_	start_char=200|end_char=204
+7	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=205|end_char=209
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	_	_	start_char=210|end_char=212
+9	done	do	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=213|end_char=217|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=217|end_char=218
+11	!	!	PUNCT	.	_	10	_	_	start_char=219|end_char=220|SpaceAfter=No
+

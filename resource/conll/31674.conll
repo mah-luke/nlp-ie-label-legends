@@ -1,0 +1,36 @@
+# text = right?
+# sent_id = 67887
+1	right	right	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=5|end_char=6
+
+# text = what an ungrateful bitch..
+# sent_id = 67888
+1	what	what	DET	WDT	PronType=Int	0	_	_	start_char=7|end_char=11
+2	an	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=12|end_char=14
+3	ungrateful	ungrateful	ADJ	JJ	Degree=Pos	2	_	_	start_char=15|end_char=25
+4	bitch	bitch	NOUN	NN	Number=Sing	3	_	_	start_char=26|end_char=31|SpaceAfter=No
+5	..	..	PUNCT	.	_	4	_	_	start_char=31|end_char=33
+
+# text = If a girl did something like this to me trying to be nice I would be happy not disgusted..
+# sent_id = 67889
+1	If	if	SCONJ	IN	_	0	_	_	start_char=34|end_char=36
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=37|end_char=38
+3	girl	girl	NOUN	NN	Number=Sing	2	_	_	start_char=39|end_char=43
+4	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=44|end_char=47
+5	something	something	PRON	NN	Number=Sing|PronType=Ind	4	_	_	start_char=48|end_char=57
+6	like	like	ADP	IN	_	5	_	_	start_char=58|end_char=62
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=63|end_char=67
+8	to	to	ADP	IN	_	7	_	_	start_char=68|end_char=70
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=71|end_char=73
+10	trying	try	VERB	VBG	VerbForm=Ger	9	_	_	start_char=74|end_char=80
+11	to	to	PART	TO	_	10	_	_	start_char=81|end_char=83
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	start_char=84|end_char=86
+13	nice	nice	ADJ	JJ	Degree=Pos	12	_	_	start_char=87|end_char=91
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=92|end_char=93
+15	would	would	AUX	MD	VerbForm=Fin	14	_	_	start_char=94|end_char=99
+16	be	be	AUX	VB	VerbForm=Inf	15	_	_	start_char=100|end_char=102
+17	happy	happy	ADJ	JJ	Degree=Pos	16	_	_	start_char=103|end_char=108
+18	not	not	PART	RB	_	17	_	_	start_char=109|end_char=112
+19	disgusted	disgust	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	_	_	start_char=113|end_char=122|SpaceAfter=No
+20	..	..	PUNCT	.	_	19	_	_	start_char=122|end_char=124|SpaceAfter=No
+

@@ -1,0 +1,37 @@
+# text = I have attracted women at my workplace.
+# sent_id = 67838
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	attracted	attract	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=7|end_char=16
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=17|end_char=22
+5	at	at	ADP	IN	_	4	_	_	start_char=23|end_char=25
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=26|end_char=28
+7	workplace	workplace	NOUN	NN	Number=Sing	6	_	_	start_char=29|end_char=38|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=38|end_char=39
+
+# text = I got fired.
+# sent_id = 67839
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=40|end_char=41
+2	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=42|end_char=45
+3	fired	fire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=46|end_char=51|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=51|end_char=52
+
+# text = Don't do it.
+# sent_id = 67840
+1-2	Don't	_	_	_	_	_	_	_	start_char=53|end_char=58
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=53|end_char=55
+2	n't	not	PART	RB	_	1	_	_	start_char=55|end_char=58
+3	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=59|end_char=61
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=62|end_char=64|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=64|end_char=65
+
+# text = It's not worth it.
+# sent_id = 67841
+1-2	It's	_	_	_	_	_	_	_	start_char=66|end_char=70
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=66|end_char=68
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=68|end_char=70
+3	not	not	PART	RB	_	2	_	_	start_char=71|end_char=74
+4	worth	worth	ADJ	JJ	Degree=Pos	3	_	_	start_char=75|end_char=80
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=81|end_char=83|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=83|end_char=84|SpaceAfter=No
+

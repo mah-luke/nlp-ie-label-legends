@@ -1,0 +1,41 @@
+# text = Yes!
+# sent_id = 5958
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = Let's open our borders to this insanity and put all of our daughters at risk!
+# sent_id = 5959
+1-2	Let's	_	_	_	_	_	_	_	start_char=5|end_char=10
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=5|end_char=8
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=8|end_char=10
+3	open	open	VERB	VB	VerbForm=Inf	2	_	_	start_char=11|end_char=15
+4	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=16|end_char=19
+5	borders	border	NOUN	NNS	Number=Plur	4	_	_	start_char=20|end_char=27
+6	to	to	ADP	IN	_	5	_	_	start_char=28|end_char=30
+7	this	this	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=31|end_char=35
+8	insanity	insanity	NOUN	NN	Number=Sing	7	_	_	start_char=36|end_char=44
+9	and	and	CCONJ	CC	_	8	_	_	start_char=45|end_char=48
+10	put	put	VERB	VB	VerbForm=Inf	9	_	_	start_char=49|end_char=52
+11	all	all	DET	DT	_	10	_	_	start_char=53|end_char=56
+12	of	of	ADP	IN	_	11	_	_	start_char=57|end_char=59
+13	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	_	_	start_char=60|end_char=63
+14	daughters	daughter	NOUN	NNS	Number=Plur	13	_	_	start_char=64|end_char=73
+15	at	at	ADP	IN	_	14	_	_	start_char=74|end_char=76
+16	risk	risk	NOUN	NN	Number=Sing	15	_	_	start_char=77|end_char=81|SpaceAfter=No
+17	!	!	PUNCT	.	_	16	_	_	start_char=81|end_char=82
+
+# text = Wake up people!!!
+# sent_id = 5960
+1	Wake	wake	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=83|end_char=87
+2	up	up	ADP	RP	_	1	_	_	start_char=88|end_char=90
+3	people	person	NOUN	NNS	Number=Plur	2	_	_	start_char=91|end_char=97|SpaceAfter=No
+4	!!!	!!!	PUNCT	.	_	3	_	_	start_char=97|end_char=100
+
+# text = Islam must be stopped!
+# sent_id = 5961
+1	Islam	Islam	PROPN	NNP	Number=Sing	0	_	_	start_char=101|end_char=106
+2	must	must	AUX	MD	VerbForm=Fin	1	_	_	start_char=107|end_char=111
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=112|end_char=114
+4	stopped	stop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=115|end_char=122|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=122|end_char=123|SpaceAfter=No
+

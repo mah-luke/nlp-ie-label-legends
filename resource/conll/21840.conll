@@ -1,0 +1,65 @@
+# text = Stop lying.
+# sent_id = 46899
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	lying	lie	VERB	VBG	VerbForm=Ger	1	_	_	start_char=5|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=10|end_char=11
+
+# text = The dude is ugly too.
+# sent_id = 46900
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=12|end_char=15
+2	dude	dude	NOUN	NN	Number=Sing	1	_	_	start_char=16|end_char=20
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=21|end_char=23
+4	ugly	ugly	ADJ	JJ	Degree=Pos	3	_	_	start_char=24|end_char=28
+5	too	too	ADV	RB	_	4	_	_	start_char=29|end_char=32|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=32|end_char=33
+
+# text = Those eyes and lips shouldn't be on a fucking man, these belong to a woman.
+# sent_id = 46901
+1	Those	that	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=34|end_char=39
+2	eyes	eye	NOUN	NNS	Number=Plur	1	_	_	start_char=40|end_char=44
+3	and	and	CCONJ	CC	_	2	_	_	start_char=45|end_char=48
+4	lips	lip	NOUN	NNS	Number=Plur	3	_	_	start_char=49|end_char=53
+5-6	shouldn't	_	_	_	_	_	_	_	start_char=54|end_char=63
+5	should	should	AUX	MD	VerbForm=Fin	4	_	_	start_char=54|end_char=60
+6	n't	not	PART	RB	_	5	_	_	start_char=60|end_char=63
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=64|end_char=66
+8	on	on	ADP	IN	_	7	_	_	start_char=67|end_char=69
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=70|end_char=71
+10	fucking	fuck	ADJ	JJ	Degree=Pos	9	_	_	start_char=72|end_char=79
+11	man	man	NOUN	NN	Number=Sing	10	_	_	start_char=80|end_char=83|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=83|end_char=84
+13	these	this	PRON	DT	Number=Plur|PronType=Dem	12	_	_	start_char=85|end_char=90
+14	belong	belong	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=91|end_char=97
+15	to	to	ADP	IN	_	14	_	_	start_char=98|end_char=100
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=101|end_char=102
+17	woman	woman	NOUN	NN	Number=Sing	16	_	_	start_char=103|end_char=108|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=108|end_char=109
+
+# text = Even if he's pulling a weird face, pretty sure he'd still look like a soyboy with a straight face.
+# sent_id = 46902
+1	Even	even	ADV	RB	_	0	_	_	start_char=110|end_char=114
+2	if	if	SCONJ	IN	_	1	_	_	start_char=115|end_char=117
+3-4	he's	_	_	_	_	_	_	_	start_char=118|end_char=122
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=118|end_char=120
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=120|end_char=122
+5	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=123|end_char=130
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=131|end_char=132
+7	weird	weird	ADJ	JJ	Degree=Pos	6	_	_	start_char=133|end_char=138
+8	face	face	NOUN	NN	Number=Sing	7	_	_	start_char=139|end_char=143|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=143|end_char=144
+10	pretty	pretty	ADV	RB	_	9	_	_	start_char=145|end_char=151
+11	sure	sure	ADJ	JJ	Degree=Pos	10	_	_	start_char=152|end_char=156
+12-13	he'd	_	_	_	_	_	_	_	start_char=157|end_char=161
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=157|end_char=159
+13	'd	would	AUX	MD	VerbForm=Fin	12	_	_	start_char=159|end_char=161
+14	still	still	ADV	RB	_	13	_	_	start_char=162|end_char=167
+15	look	look	VERB	VB	VerbForm=Inf	14	_	_	start_char=168|end_char=172
+16	like	like	ADP	IN	_	15	_	_	start_char=173|end_char=177
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=178|end_char=179
+18	soyboy	soyboy	NOUN	NN	Number=Sing	17	_	_	start_char=180|end_char=186
+19	with	with	ADP	IN	_	18	_	_	start_char=187|end_char=191
+20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	start_char=192|end_char=193
+21	straight	straight	ADJ	JJ	Degree=Pos	20	_	_	start_char=194|end_char=202
+22	face	face	NOUN	NN	Number=Sing	21	_	_	start_char=203|end_char=207|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=207|end_char=208|SpaceAfter=No
+

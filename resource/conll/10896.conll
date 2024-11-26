@@ -1,0 +1,20 @@
+# text = Not just more dangerous for women and girls.
+# sent_id = 23079
+1	Not	not	PART	RB	_	0	_	_	start_char=0|end_char=3
+2	just	just	ADV	RB	_	1	_	_	start_char=4|end_char=8
+3	more	more	ADV	RBR	Degree=Cmp	2	_	_	start_char=9|end_char=13
+4	dangerous	dangerous	ADJ	JJ	Degree=Pos	3	_	_	start_char=14|end_char=23
+5	for	for	ADP	IN	_	4	_	_	start_char=24|end_char=27
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=28|end_char=33
+7	and	and	CCONJ	CC	_	6	_	_	start_char=34|end_char=37
+8	girls	girl	NOUN	NNS	Number=Plur	7	_	_	start_char=38|end_char=43|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=43|end_char=44
+
+# text = They hate us all.
+# sent_id = 23080
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=45|end_char=49
+2	hate	hate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=50|end_char=54
+3	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=55|end_char=57
+4	all	all	DET	DT	_	3	_	_	start_char=58|end_char=61|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=61|end_char=62|SpaceAfter=No
+

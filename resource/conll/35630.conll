@@ -1,0 +1,36 @@
+# text = Simple, stupid.
+# sent_id = 76254
+1	Simple	simple	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=6|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=6|end_char=7
+3	stupid	stupid	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = The Nazis created a world war and then everyone killed them.
+# sent_id = 76255
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=16|end_char=19
+2	Nazis	Nazi	PROPN	NNPS	Number=Plur	1	_	_	start_char=20|end_char=25
+3	created	create	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=26|end_char=33
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=34|end_char=35
+5	world	world	NOUN	NN	Number=Sing	4	_	_	start_char=36|end_char=41
+6	war	war	NOUN	NN	Number=Sing	5	_	_	start_char=42|end_char=45
+7	and	and	CCONJ	CC	_	6	_	_	start_char=46|end_char=49
+8	then	then	ADV	RB	PronType=Dem	7	_	_	start_char=50|end_char=54
+9	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	8	_	_	start_char=55|end_char=63
+10	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=64|end_char=70
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=71|end_char=75|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=75|end_char=76
+
+# text = How much lead paint did you eat as a child?
+# sent_id = 76256
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=77|end_char=80
+2	much	much	ADJ	JJ	Degree=Pos	1	_	_	start_char=81|end_char=85
+3	lead	lead	NOUN	NN	Number=Sing	2	_	_	start_char=86|end_char=90
+4	paint	paint	NOUN	NN	Number=Sing	3	_	_	start_char=91|end_char=96
+5	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	4	_	_	start_char=97|end_char=100
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=101|end_char=104
+7	eat	eat	VERB	VB	VerbForm=Inf	6	_	_	start_char=105|end_char=108
+8	as	as	ADP	IN	_	7	_	_	start_char=109|end_char=111
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=112|end_char=113
+10	child	child	NOUN	NN	Number=Sing	9	_	_	start_char=114|end_char=119|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=119|end_char=120|SpaceAfter=No
+

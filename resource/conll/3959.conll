@@ -1,0 +1,34 @@
+# text = [USER] mother already has combat boots tied right tight laced to the last eye...
+# sent_id = 8371
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	mother	mother	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=13
+5	already	already	ADV	RB	_	4	_	_	start_char=14|end_char=21
+6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=22|end_char=25
+7	combat	combat	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=32
+8	boots	boot	NOUN	NNS	Number=Plur	7	_	_	start_char=33|end_char=38
+9	tied	tie	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=39|end_char=43
+10	right	right	ADV	RB	_	9	_	_	start_char=44|end_char=49
+11	tight	tight	ADV	RB	Degree=Pos	10	_	_	start_char=50|end_char=55
+12	laced	lace	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=56|end_char=61
+13	to	to	ADP	IN	_	12	_	_	start_char=62|end_char=64
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=65|end_char=68
+15	last	last	ADJ	JJ	Degree=Pos	14	_	_	start_char=69|end_char=73
+16	eye	eye	NOUN	NN	Number=Sing	15	_	_	start_char=74|end_char=77|SpaceAfter=No
+17	...	...	PUNCT	.	_	16	_	_	start_char=77|end_char=80
+
+# text = Makesem cry & melt they're mind inside out.
+# sent_id = 8372
+1	Makesem	Makesem	PROPN	NNP	Number=Sing	0	_	_	start_char=81|end_char=88
+2	cry	cry	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=89|end_char=92
+3	&	&	CCONJ	CC	_	2	_	_	start_char=93|end_char=94
+4	melt	melt	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=95|end_char=99
+5-6	they're	_	_	_	_	_	_	_	start_char=100|end_char=107
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=100|end_char=104
+6	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=104|end_char=107
+7	mind	mind	NOUN	NN	Number=Sing	6	_	_	start_char=108|end_char=112
+8	inside	inside	ADV	RB	_	7	_	_	start_char=113|end_char=119
+9	out	out	ADP	RP	_	8	_	_	start_char=120|end_char=123|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=123|end_char=124|SpaceAfter=No
+

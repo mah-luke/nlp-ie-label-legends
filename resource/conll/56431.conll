@@ -1,0 +1,27 @@
+# text = there's a shit test guide in the sidebar.
+# sent_id = 120635
+1-2	there's	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	there	there	PRON	EX	_	0	_	_	start_char=0|end_char=5
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=8|end_char=9
+4	shit	shit	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=14
+5	test	test	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=19
+6	guide	guide	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=25
+7	in	in	ADP	IN	_	6	_	_	start_char=26|end_char=28
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=29|end_char=32
+9	sidebar	sidebar	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=40|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=40|end_char=41
+
+# text = It'll certainly explain it better than I could
+# sent_id = 120636
+1-2	It'll	_	_	_	_	_	_	_	start_char=42|end_char=47
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=42|end_char=44
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=44|end_char=47
+3	certainly	certainly	ADV	RB	_	2	_	_	start_char=48|end_char=57
+4	explain	explain	VERB	VB	VerbForm=Inf	3	_	_	start_char=58|end_char=65
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=66|end_char=68
+6	better	well	ADV	RBR	Degree=Cmp	5	_	_	start_char=69|end_char=75
+7	than	than	SCONJ	IN	_	6	_	_	start_char=76|end_char=80
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=81|end_char=82
+9	could	could	AUX	MD	VerbForm=Fin	8	_	_	start_char=83|end_char=88|SpaceAfter=No
+

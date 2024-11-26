@@ -1,0 +1,40 @@
+# text = Haha.
+# sent_id = 60746
+1	Haha	haha	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = Good lord.
+# sent_id = 60747
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=6|end_char=10
+2	lord	lord	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=15|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=15|end_char=16
+
+# text = The teacher told me that, you boob.
+# sent_id = 60748
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=17|end_char=20
+2	teacher	teacher	NOUN	NN	Number=Sing	1	_	_	start_char=21|end_char=28
+3	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=29|end_char=33
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=34|end_char=36
+5	that	that	SCONJ	IN	_	4	_	_	start_char=37|end_char=41|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=41|end_char=42
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=43|end_char=46
+8	boob	boob	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=47|end_char=51|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=51|end_char=52
+
+# text = Not the other way around.
+# sent_id = 60749
+1	Not	not	PART	RB	_	0	_	_	start_char=53|end_char=56
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=57|end_char=60
+3	other	other	ADJ	JJ	Degree=Pos	2	_	_	start_char=61|end_char=66
+4	way	way	NOUN	NN	Number=Sing	3	_	_	start_char=67|end_char=70
+5	around	around	ADV	RB	_	4	_	_	start_char=71|end_char=77|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=77|end_char=78
+
+# text = I literally quoted her.
+# sent_id = 60750
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=79|end_char=80
+2	literally	literally	ADV	RB	_	1	_	_	start_char=81|end_char=90
+3	quoted	quote	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=91|end_char=97
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=98|end_char=101|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=101|end_char=102|SpaceAfter=No
+

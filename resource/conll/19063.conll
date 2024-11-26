@@ -1,0 +1,57 @@
+# text = Both Madame Stuart and I are lifetime outdoors people - backpacking, camping, canoeing, fishing - we just don't hunt.
+# sent_id = 40910
+1	Both	both	CCONJ	CC	_	0	_	_	start_char=0|end_char=4
+2	Madame	Madame	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=11
+3	Stuart	Stuart	PROPN	NNP	Number=Sing	2	_	_	start_char=12|end_char=18
+4	and	and	CCONJ	CC	_	3	_	_	start_char=19|end_char=22
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=23|end_char=24
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=25|end_char=28
+7	lifetime	lifetime	NOUN	NN	Number=Sing	6	_	_	start_char=29|end_char=37
+8	outdoors	outdoors	NOUN	NNS	Number=Plur	7	_	_	start_char=38|end_char=46
+9	people	person	NOUN	NNS	Number=Plur	8	_	_	start_char=47|end_char=53
+10	-	-	PUNCT	HYPH	_	9	_	_	start_char=54|end_char=55
+11	backpacking	backpacking	NOUN	NN	Number=Sing	10	_	_	start_char=56|end_char=67|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=67|end_char=68
+13	camping	camping	NOUN	NN	Number=Sing	12	_	_	start_char=69|end_char=76|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=76|end_char=77
+15	canoeing	canoe	NOUN	NN	Number=Sing	14	_	_	start_char=78|end_char=86|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=86|end_char=87
+17	fishing	fishing	NOUN	NN	Number=Sing	16	_	_	start_char=88|end_char=95
+18	-	-	PUNCT	,	_	17	_	_	start_char=96|end_char=97
+19	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	_	_	start_char=98|end_char=100
+20	just	just	ADV	RB	_	19	_	_	start_char=101|end_char=105
+21-22	don't	_	_	_	_	_	_	_	start_char=106|end_char=111
+21	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	_	_	start_char=106|end_char=108
+22	n't	not	PART	RB	_	21	_	_	start_char=108|end_char=111
+23	hunt	hunt	VERB	VB	VerbForm=Inf	22	_	_	start_char=112|end_char=116|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=116|end_char=117
+
+# text = We (mostly she) build/modify/repair a great deal of our own equipment, eg: [URL] [URL]
+# sent_id = 40911
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=118|end_char=120
+2	(	(	PUNCT	-LRB-	_	1	_	_	start_char=121|end_char=122|SpaceAfter=No
+3	mostly	mostly	ADV	RB	_	2	_	_	start_char=122|end_char=128
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=129|end_char=132|SpaceAfter=No
+5	)	)	PUNCT	-RRB-	_	4	_	_	start_char=132|end_char=133
+6	build	build	VERB	VB	Mood=Ind|VerbForm=Inf	5	_	_	start_char=134|end_char=139|SpaceAfter=No
+7	/	/	SYM	,	_	6	_	_	start_char=139|end_char=140|SpaceAfter=No
+8	modify	modify	VERB	VB	VerbForm=Inf	7	_	_	start_char=140|end_char=146|SpaceAfter=No
+9	/	/	SYM	,	_	8	_	_	start_char=146|end_char=147|SpaceAfter=No
+10	repair	repair	VERB	VB	VerbForm=Inf	9	_	_	start_char=147|end_char=153
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=154|end_char=155
+12	great	great	ADJ	JJ	Degree=Pos	11	_	_	start_char=156|end_char=161
+13	deal	deal	NOUN	NN	Number=Sing	12	_	_	start_char=162|end_char=166
+14	of	of	ADP	IN	_	13	_	_	start_char=167|end_char=169
+15	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	_	_	start_char=170|end_char=173
+16	own	own	ADJ	JJ	Degree=Pos	15	_	_	start_char=174|end_char=177
+17	equipment	equipment	NOUN	NN	Number=Sing	16	_	_	start_char=178|end_char=187|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=187|end_char=188
+19	eg	e.g.	NOUN	NN	Number=Sing	18	_	_	start_char=189|end_char=191|SpaceAfter=No
+20	:	:	PUNCT	:	_	19	_	_	start_char=191|end_char=192
+21	[	[	PUNCT	-LRB-	_	20	_	_	start_char=193|end_char=194|SpaceAfter=No
+22	URL	URL	PROPN	NNP	Number=Sing	21	_	_	start_char=194|end_char=197|SpaceAfter=No
+23	]	]	PUNCT	-RRB-	_	22	_	_	start_char=197|end_char=198
+24	[	[	PUNCT	-LRB-	_	23	_	_	start_char=199|end_char=200|SpaceAfter=No
+25	URL	URL	PROPN	NNP	Number=Sing	24	_	_	start_char=200|end_char=203|SpaceAfter=No
+26	]	]	PUNCT	-RRB-	_	25	_	_	start_char=203|end_char=204|SpaceAfter=No
+

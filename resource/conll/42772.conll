@@ -1,0 +1,48 @@
+# text = ^^^
+# sent_id = 91396
+1	^^^	^^^	SYM	NFP	_	0	_	_	start_char=0|end_char=3
+
+# text = This what it has come to today...
+# sent_id = 91397
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=4|end_char=8
+2	what	what	PRON	WP	PronType=Rel	1	_	_	start_char=9|end_char=13
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=14|end_char=16
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=17|end_char=20
+5	come	come	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=21|end_char=25
+6	to	to	ADP	IN	_	5	_	_	start_char=26|end_char=28
+7	today	today	NOUN	NN	Number=Sing	6	_	_	start_char=29|end_char=34|SpaceAfter=No
+8	...	...	PUNCT	.	_	7	_	_	start_char=34|end_char=37
+
+# text = THIS IS NORMAL!
+# sent_id = 91398
+1	THIS	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=38|end_char=42
+2	IS	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=43|end_char=45
+3	NORMAL	normal	ADJ	JJ	Degree=Pos	2	_	_	start_char=46|end_char=52|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=52|end_char=53
+
+# text = You can't trust woman at all today... and they STILL wonder why all the good men have gone MGTOW!
+# sent_id = 91399
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=54|end_char=57
+2-3	can't	_	_	_	_	_	_	_	start_char=58|end_char=63
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=58|end_char=60
+3	n't	not	PART	RB	_	2	_	_	start_char=60|end_char=63
+4	trust	trust	VERB	VB	VerbForm=Inf	3	_	_	start_char=64|end_char=69
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=70|end_char=75
+6	at	at	ADP	IN	_	5	_	_	start_char=76|end_char=78
+7	all	all	DET	DT	_	6	_	_	start_char=79|end_char=82
+8	today	today	NOUN	NN	Number=Sing	7	_	_	start_char=83|end_char=88|SpaceAfter=No
+9	...	...	PUNCT	,	_	8	_	_	start_char=88|end_char=91
+10	and	and	CCONJ	CC	_	9	_	_	start_char=92|end_char=95
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=96|end_char=100
+12	STILL	still	ADV	RB	_	11	_	_	start_char=101|end_char=106
+13	wonder	wonder	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=107|end_char=113
+14	why	why	ADV	WRB	PronType=Int	13	_	_	start_char=114|end_char=117
+15	all	all	DET	PDT	_	14	_	_	start_char=118|end_char=121
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=122|end_char=125
+17	good	good	ADJ	JJ	Degree=Pos	16	_	_	start_char=126|end_char=130
+18	men	man	NOUN	NNS	Number=Plur	17	_	_	start_char=131|end_char=134
+19	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=135|end_char=139
+20	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	19	_	_	start_char=140|end_char=144
+21	MGTOW	MGTOW	PROPN	NNP	Number=Sing	20	_	_	start_char=145|end_char=150|SpaceAfter=No
+22	!	!	PUNCT	.	_	21	_	_	start_char=150|end_char=151|SpaceAfter=No
+

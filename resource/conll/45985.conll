@@ -1,0 +1,49 @@
+# text = At least in Doctor Who gender changing Time Lords is a thing.
+# sent_id = 98214
+1	At	at	ADP	IN	ExtPos=ADV	0	_	_	start_char=0|end_char=2
+2	least	least	ADJ	JJS	Degree=Sup	1	_	_	start_char=3|end_char=8
+3	in	in	ADP	IN	_	2	_	_	start_char=9|end_char=11
+4	Doctor	Doctor	PROPN	NNP	Number=Sing	3	_	_	start_char=12|end_char=18
+5	Who	Who	PROPN	NNP	Number=Sing	4	_	_	start_char=19|end_char=22
+6	gender	gender	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=29
+7	changing	change	VERB	VBG	VerbForm=Ger	6	_	_	start_char=30|end_char=38
+8	Time	Time	PROPN	NNP	Number=Sing	7	_	_	start_char=39|end_char=43
+9	Lords	Lords	PROPN	NNPS	Number=Plur	8	_	_	start_char=44|end_char=49
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=50|end_char=52
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=53|end_char=54
+12	thing	thing	NOUN	NN	Number=Sing	11	_	_	start_char=55|end_char=60|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=60|end_char=61
+
+# text = I'm on Doctor 12 and haven't seen the new female doctor yet.
+# sent_id = 98215
+1-2	I'm	_	_	_	_	_	_	_	start_char=62|end_char=65
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=62|end_char=63
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=65
+3	on	on	ADP	IN	_	2	_	_	start_char=66|end_char=68
+4	Doctor	Doctor	PROPN	NNP	Number=Sing	3	_	_	start_char=69|end_char=75
+5	12	12	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=76|end_char=78
+6	and	and	CCONJ	CC	_	5	_	_	start_char=79|end_char=82
+7-8	haven't	_	_	_	_	_	_	_	start_char=83|end_char=90
+7	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=83|end_char=87
+8	n't	not	PART	RB	_	7	_	_	start_char=87|end_char=90
+9	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=91|end_char=95
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=96|end_char=99
+11	new	new	ADJ	JJ	Degree=Pos	10	_	_	start_char=100|end_char=103
+12	female	female	ADJ	JJ	Degree=Pos	11	_	_	start_char=104|end_char=110
+13	doctor	doctor	NOUN	NN	Number=Sing	12	_	_	start_char=111|end_char=117
+14	yet	yet	ADV	RB	_	13	_	_	start_char=118|end_char=121|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=121|end_char=122
+
+# text = Rey is just a fucking pile of feminist horseshit.
+# sent_id = 98216
+1	Rey	Rey	PROPN	NNP	Number=Sing	0	_	_	start_char=123|end_char=126
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=127|end_char=129
+3	just	just	ADV	RB	_	2	_	_	start_char=130|end_char=134
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=135|end_char=136
+5	fucking	fuck	ADJ	JJ	Degree=Pos	4	_	_	start_char=137|end_char=144
+6	pile	pile	NOUN	NN	Number=Sing	5	_	_	start_char=145|end_char=149
+7	of	of	ADP	IN	_	6	_	_	start_char=150|end_char=152
+8	feminist	feminist	ADJ	JJ	Degree=Pos	7	_	_	start_char=153|end_char=161
+9	horseshit	horseshit	NOUN	NN	Number=Sing	8	_	_	start_char=162|end_char=171|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=171|end_char=172|SpaceAfter=No
+

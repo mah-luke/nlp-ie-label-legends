@@ -1,0 +1,31 @@
+# text = She's smiles from time to time, regains her composure, then plays with her hair.
+# sent_id = 57030
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	smiles	smile	NOUN	NNS	Number=Plur	2	_	_	start_char=6|end_char=12
+4	from	from	ADP	IN	_	3	_	_	start_char=13|end_char=17
+5	time	time	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=22
+6	to	to	ADP	IN	_	5	_	_	start_char=23|end_char=25
+7	time	time	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=30|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=30|end_char=31
+9	regains	regain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=32|end_char=39
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=40|end_char=43
+11	composure	composure	NOUN	NN	Number=Sing	10	_	_	start_char=44|end_char=53|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=53|end_char=54
+13	then	then	ADV	RB	PronType=Dem	12	_	_	start_char=55|end_char=59
+14	plays	play	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=60|end_char=65
+15	with	with	ADP	IN	_	14	_	_	start_char=66|end_char=70
+16	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=71|end_char=74
+17	hair	hair	NOUN	NN	Number=Sing	16	_	_	start_char=75|end_char=79|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=79|end_char=80
+
+# text = That Jew toad wanted him.
+# sent_id = 57031
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=81|end_char=85
+2	Jew	Jew	PROPN	NNP	Number=Sing	1	_	_	start_char=86|end_char=89
+3	toad	toad	NOUN	NN	Number=Sing	2	_	_	start_char=90|end_char=94
+4	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=95|end_char=101
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=102|end_char=105|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=105|end_char=106|SpaceAfter=No
+

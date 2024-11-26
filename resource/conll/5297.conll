@@ -1,0 +1,30 @@
+# text = say something along the lines of "haha you're like the fattest girl I know"?
+# sent_id = 11131
+1	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	something	something	PRON	NN	Number=Sing|PronType=Ind	1	_	_	start_char=4|end_char=13
+3	along	along	ADP	IN	_	2	_	_	start_char=14|end_char=19
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=20|end_char=23
+5	lines	line	NOUN	NNS	Number=Plur	4	_	_	start_char=24|end_char=29
+6	of	of	ADP	IN	_	5	_	_	start_char=30|end_char=32
+7	"	"	PUNCT	``	_	6	_	_	start_char=33|end_char=34|SpaceAfter=No
+8	haha	haha	INTJ	UH	_	7	_	_	start_char=34|end_char=38
+9-10	you're	_	_	_	_	_	_	_	start_char=39|end_char=45
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=39|end_char=42
+10	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=42|end_char=45
+11	like	like	ADP	IN	_	10	_	_	start_char=46|end_char=50
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=51|end_char=54
+13	fattest	fattest	ADJ	JJS	Degree=Sup	12	_	_	start_char=55|end_char=62
+14	girl	girl	NOUN	NN	Number=Sing	13	_	_	start_char=63|end_char=67
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=68|end_char=69
+16	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	start_char=70|end_char=74|SpaceAfter=No
+17	"	"	PUNCT	''	_	16	_	_	start_char=74|end_char=75|SpaceAfter=No
+18	?	?	PUNCT	.	_	17	_	_	start_char=75|end_char=76
+
+# text = do not say this.
+# sent_id = 11132
+1	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=77|end_char=79
+2	not	not	PART	RB	_	1	_	_	start_char=80|end_char=83
+3	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=84|end_char=87
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=88|end_char=92|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=92|end_char=93|SpaceAfter=No
+

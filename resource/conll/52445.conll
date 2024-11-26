@@ -1,0 +1,48 @@
+# text = That would be the best thing that could possibly happen, really.
+# sent_id = 112125
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=5|end_char=10
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=11|end_char=13
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=14|end_char=17
+5	best	good	ADJ	JJS	Degree=Sup	4	_	_	start_char=18|end_char=22
+6	thing	thing	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=28
+7	that	that	PRON	WDT	PronType=Rel	6	_	_	start_char=29|end_char=33
+8	could	could	AUX	MD	VerbForm=Fin	7	_	_	start_char=34|end_char=39
+9	possibly	possibly	ADV	RB	_	8	_	_	start_char=40|end_char=48
+10	happen	happen	VERB	VB	VerbForm=Inf	9	_	_	start_char=49|end_char=55|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=55|end_char=56
+12	really	really	ADV	RB	_	11	_	_	start_char=57|end_char=63|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=63|end_char=64
+
+# text = If it does happen, don't worry about it.
+# sent_id = 112126
+1	If	if	SCONJ	IN	_	0	_	_	start_char=65|end_char=67
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=68|end_char=70
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=71|end_char=75
+4	happen	happen	VERB	VB	VerbForm=Inf	3	_	_	start_char=76|end_char=82|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=82|end_char=83
+6-7	don't	_	_	_	_	_	_	_	start_char=84|end_char=89
+6	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=84|end_char=86
+7	n't	not	PART	RB	_	6	_	_	start_char=86|end_char=89
+8	worry	worry	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=90|end_char=95
+9	about	about	ADP	IN	_	8	_	_	start_char=96|end_char=101
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=102|end_char=104|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=104|end_char=105
+
+# text = Don't let it bother you, let her do her tantrum.
+# sent_id = 112127
+1-2	Don't	_	_	_	_	_	_	_	start_char=106|end_char=111
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=106|end_char=108
+2	n't	not	PART	RB	_	1	_	_	start_char=108|end_char=111
+3	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=112|end_char=115
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=116|end_char=118
+5	bother	bother	VERB	VB	VerbForm=Inf	4	_	_	start_char=119|end_char=125
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=126|end_char=129|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=129|end_char=130
+8	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=131|end_char=134
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=135|end_char=138
+10	do	do	VERB	VB	VerbForm=Inf	9	_	_	start_char=139|end_char=141
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=142|end_char=145
+12	tantrum	tantrum	NOUN	NN	Number=Sing	11	_	_	start_char=146|end_char=153|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=153|end_char=154|SpaceAfter=No
+

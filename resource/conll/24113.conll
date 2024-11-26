@@ -1,0 +1,20 @@
+# text = The donkey should be riding her.
+# sent_id = 51679
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	donkey	donkey	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=10
+3	should	should	AUX	MD	VerbForm=Fin	2	_	_	start_char=11|end_char=17
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=18|end_char=20
+5	riding	ride	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=21|end_char=27
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=28|end_char=31|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=31|end_char=32
+
+# text = She's bigger than Shrek.
+# sent_id = 51680
+1-2	She's	_	_	_	_	_	_	_	start_char=33|end_char=38
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=33|end_char=36
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=38
+3	bigger	big	ADJ	JJR	Degree=Cmp	2	_	_	start_char=39|end_char=45
+4	than	than	ADP	IN	_	3	_	_	start_char=46|end_char=50
+5	Shrek	Shrek	PROPN	NNP	Number=Sing	4	_	_	start_char=51|end_char=56|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=56|end_char=57|SpaceAfter=No
+

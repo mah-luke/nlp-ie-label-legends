@@ -1,0 +1,57 @@
+# text = Dont forget how most of them have nothing to show for other than their bodies.
+# sent_id = 12312
+1-2	Dont	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	nt	not	PART	RB	_	1	_	_	start_char=2|end_char=4
+3	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=5|end_char=11
+4	how	how	ADV	WRB	PronType=Int	3	_	_	start_char=12|end_char=15
+5	most	most	ADJ	JJS	Degree=Sup	4	_	_	start_char=16|end_char=20
+6	of	of	ADP	IN	_	5	_	_	start_char=21|end_char=23
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=24|end_char=28
+8	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=29|end_char=33
+9	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	8	_	_	start_char=34|end_char=41
+10	to	to	PART	TO	_	9	_	_	start_char=42|end_char=44
+11	show	show	VERB	VB	VerbForm=Inf	10	_	_	start_char=45|end_char=49
+12	for	for	ADP	IN	_	11	_	_	start_char=50|end_char=53
+13	other	other	ADJ	JJ	Degree=Pos	12	_	_	start_char=54|end_char=59
+14	than	than	ADP	IN	_	13	_	_	start_char=60|end_char=64
+15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=65|end_char=70
+16	bodies	body	NOUN	NNS	Number=Plur	15	_	_	start_char=71|end_char=77|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=77|end_char=78
+
+# text = Every girl I have met mostly talk about sex as if its an accomplishment.
+# sent_id = 12313
+1	Every	every	DET	DT	_	0	_	_	start_char=79|end_char=84
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=85|end_char=89
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=90|end_char=91
+4	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=92|end_char=96
+5	met	meet	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=97|end_char=100
+6	mostly	mostly	ADV	RB	_	5	_	_	start_char=101|end_char=107
+7	talk	talk	VERB	VB	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	6	_	_	start_char=108|end_char=112
+8	about	about	ADP	IN	_	7	_	_	start_char=113|end_char=118
+9	sex	sex	NOUN	NN	Number=Sing	8	_	_	start_char=119|end_char=122
+10	as	as	SCONJ	IN	_	9	_	_	start_char=123|end_char=125
+11	if	if	ADP	IN	_	10	_	_	start_char=126|end_char=128
+12	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=129|end_char=132
+13	an	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=133|end_char=135
+14	accomplishment	accomplishment	NOUN	NN	Number=Sing	13	_	_	start_char=136|end_char=150|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=150|end_char=151
+
+# text = Like no shit you get laid easily you’re a fucking chick 😂😂😂
+# sent_id = 12314
+1	Like	like	ADP	IN	_	0	_	_	start_char=152|end_char=156
+2	no	no	DET	DT	_	1	_	_	start_char=157|end_char=159
+3	shit	shit	NOUN	NN	Number=Sing	2	_	_	start_char=160|end_char=164
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=165|end_char=168
+5	get	get	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=169|end_char=172
+6	laid	lay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=173|end_char=177
+7	easily	easily	ADV	RB	_	6	_	_	start_char=178|end_char=184
+8-9	you’re	_	_	_	_	_	_	_	start_char=185|end_char=191
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=185|end_char=188
+9	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=188|end_char=191
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=192|end_char=193
+11	fucking	fuck	ADJ	JJ	Degree=Pos	10	_	_	start_char=194|end_char=201
+12	chick	chick	NOUN	NN	Number=Sing	11	_	_	start_char=202|end_char=207
+13	😂😂	😂😂	INTJ	UH	_	12	_	_	start_char=208|end_char=210|SpaceAfter=No
+14	😂	😂	SYM	NFP	_	13	_	_	start_char=210|end_char=211|SpaceAfter=No
+

@@ -1,0 +1,52 @@
+# text = how true this is!
+# sent_id = 101074
+1	how	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	true	true	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=8
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=9|end_char=13
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=16|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=16|end_char=17
+
+# text = I have seen it up close and personal...my grandson and others too much time on video games, etc, given medication, because MOM was just too busy....I hate people sometimes.....Stop the Meds *****
+# sent_id = 101075
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=18|end_char=19
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=20|end_char=24
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=25|end_char=29
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=30|end_char=32
+5	up	up	ADV	RB	_	4	_	_	start_char=33|end_char=35
+6	close	close	ADV	RB	Degree=Pos	5	_	_	start_char=36|end_char=41
+7	and	and	CCONJ	CC	_	6	_	_	start_char=42|end_char=45
+8	personal	personal	ADJ	JJ	Degree=Pos	7	_	_	start_char=46|end_char=54|SpaceAfter=No
+9	...	...	PUNCT	,	_	8	_	_	start_char=54|end_char=57|SpaceAfter=No
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=57|end_char=59
+11	grandson	grandson	NOUN	NN	Number=Sing	10	_	_	start_char=60|end_char=68
+12	and	and	CCONJ	CC	_	11	_	_	start_char=69|end_char=72
+13	others	other	NOUN	NNS	Number=Plur	12	_	_	start_char=73|end_char=79
+14	too	too	ADV	RB	_	13	_	_	start_char=80|end_char=83
+15	much	much	ADJ	JJ	Degree=Pos	14	_	_	start_char=84|end_char=88
+16	time	time	NOUN	NN	Number=Sing	15	_	_	start_char=89|end_char=93
+17	on	on	ADP	IN	_	16	_	_	start_char=94|end_char=96
+18	video	video	NOUN	NN	Number=Sing	17	_	_	start_char=97|end_char=102
+19	games	game	NOUN	NNS	Number=Plur	18	_	_	start_char=103|end_char=108|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=108|end_char=109
+21	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	20	_	_	start_char=110|end_char=113|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=113|end_char=114
+23	given	give	VERB	VBN	Tense=Past|VerbForm=Part	22	_	_	start_char=115|end_char=120
+24	medication	medication	NOUN	NN	Number=Sing	23	_	_	start_char=121|end_char=131|SpaceAfter=No
+25	,	,	PUNCT	,	_	24	_	_	start_char=131|end_char=132
+26	because	because	SCONJ	IN	_	25	_	_	start_char=133|end_char=140
+27	MOM	mom	NOUN	NN	Number=Sing	26	_	_	start_char=141|end_char=144
+28	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	_	_	start_char=145|end_char=148
+29	just	just	ADV	RB	_	28	_	_	start_char=149|end_char=153
+30	too	too	ADV	RB	_	29	_	_	start_char=154|end_char=157
+31	busy	busy	ADJ	JJ	Degree=Pos	30	_	_	start_char=158|end_char=162|SpaceAfter=No
+32	....	....	PUNCT	,	_	31	_	_	start_char=162|end_char=166|SpaceAfter=No
+33	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	_	_	start_char=166|end_char=167
+34	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	33	_	_	start_char=168|end_char=172
+35	people	person	NOUN	NNS	Number=Plur	34	_	_	start_char=173|end_char=179
+36	sometimes	sometimes	ADV	RB	_	35	_	_	start_char=180|end_char=189|SpaceAfter=No
+37	.....	.....	PUNCT	,	_	36	_	_	start_char=189|end_char=194|SpaceAfter=No
+38	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	37	_	_	start_char=194|end_char=198
+39	the	the	DET	DT	Definite=Def|PronType=Art	38	_	_	start_char=199|end_char=202
+40	Meds	meds	NOUN	NNS	Number=Plur	39	_	_	start_char=203|end_char=207
+41	*****	*****	PUNCT	NFP	_	40	_	_	start_char=208|end_char=213|SpaceAfter=No
+

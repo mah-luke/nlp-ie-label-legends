@@ -1,0 +1,31 @@
+# text = What a CUNT.
+# sent_id = 106185
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	CUNT	cunt	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=11|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=11|end_char=12
+
+# text = Period.
+# sent_id = 106186
+1	Period	period	NOUN	NN	Number=Sing	0	_	_	start_char=13|end_char=19|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=19|end_char=20
+
+# text = Look that word up in Webster's, and her pic is right there.
+# sent_id = 106187
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=21|end_char=25
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=26|end_char=30
+3	word	word	NOUN	NN	Number=Sing	2	_	_	start_char=31|end_char=35
+4	up	up	ADP	RP	_	3	_	_	start_char=36|end_char=38
+5	in	in	ADP	IN	_	4	_	_	start_char=39|end_char=41
+6-7	Webster's	_	_	_	_	_	_	_	start_char=42|end_char=51|SpaceAfter=No
+6	Webster	Webster	PROPN	NNP	Number=Sing	5	_	_	start_char=42|end_char=49
+7	's	's	PART	POS	_	6	_	_	start_char=49|end_char=51
+8	,	,	PUNCT	,	_	7	_	_	start_char=51|end_char=52
+9	and	and	CCONJ	CC	_	8	_	_	start_char=53|end_char=56
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=57|end_char=60
+11	pic	pic	NOUN	NN	Number=Sing	10	_	_	start_char=61|end_char=64
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=65|end_char=67
+13	right	right	ADV	RB	_	12	_	_	start_char=68|end_char=73
+14	there	there	ADV	RB	PronType=Dem	13	_	_	start_char=74|end_char=79|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=79|end_char=80|SpaceAfter=No
+

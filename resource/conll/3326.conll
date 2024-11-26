@@ -1,0 +1,21 @@
+# text = he's limiting between brother and sister, mother and son, father and son/daughter.........gross
+# sent_id = 7022
+1-2	he's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	limiting	limit	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=5|end_char=13
+4	between	between	ADP	IN	_	3	_	_	start_char=14|end_char=21
+5	brother	brother	NOUN	NN	Number=Sing	4	_	_	start_char=22|end_char=29
+6	and	and	CCONJ	CC	_	5	_	_	start_char=30|end_char=33
+7	sister	sister	NOUN	NN	Number=Sing	6	_	_	start_char=34|end_char=40|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=40|end_char=41
+9	mother	mother	NOUN	NN	Number=Sing	8	_	_	start_char=42|end_char=48
+10	and	and	CCONJ	CC	_	9	_	_	start_char=49|end_char=52
+11	son	son	NOUN	NN	Number=Sing	10	_	_	start_char=53|end_char=56|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=56|end_char=57
+13	father	father	NOUN	NN	Number=Sing	12	_	_	start_char=58|end_char=64
+14	and	and	CCONJ	CC	_	13	_	_	start_char=65|end_char=68
+15	son/daughter	son/daughter	NOUN	NN	Number=Sing	14	_	_	start_char=69|end_char=81|SpaceAfter=No
+16	.........	.........	PUNCT	,	_	15	_	_	start_char=81|end_char=90|SpaceAfter=No
+17	gross	gross	ADJ	JJ	Degree=Pos	16	_	_	start_char=90|end_char=95|SpaceAfter=No
+

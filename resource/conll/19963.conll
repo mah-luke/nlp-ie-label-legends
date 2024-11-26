@@ -1,0 +1,26 @@
+# text = Yeah fuck you if you don't drive and give her money!
+# sent_id = 42884
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=10|end_char=13
+4	if	if	SCONJ	IN	_	3	_	_	start_char=14|end_char=16
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=17|end_char=20
+6-7	don't	_	_	_	_	_	_	_	start_char=21|end_char=26
+6	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=21|end_char=23
+7	n't	not	PART	RB	_	6	_	_	start_char=23|end_char=26
+8	drive	drive	VERB	VB	VerbForm=Inf	7	_	_	start_char=27|end_char=32
+9	and	and	CCONJ	CC	_	8	_	_	start_char=33|end_char=36
+10	give	give	VERB	VB	VerbForm=Inf	9	_	_	start_char=37|end_char=41
+11	her	her	PRON	PRP$	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=42|end_char=45
+12	money	money	NOUN	NN	Number=Sing	11	_	_	start_char=46|end_char=51|SpaceAfter=No
+13	!	!	PUNCT	.	_	12	_	_	start_char=51|end_char=52
+
+# text = They're so trash.
+# sent_id = 42885
+1-2	They're	_	_	_	_	_	_	_	start_char=53|end_char=60
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=53|end_char=57
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=57|end_char=60
+3	so	so	ADV	RB	_	2	_	_	start_char=61|end_char=63
+4	trash	trash	NOUN	NN	Number=Sing	3	_	_	start_char=64|end_char=69|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=69|end_char=70|SpaceAfter=No
+

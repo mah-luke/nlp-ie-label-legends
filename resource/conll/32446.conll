@@ -1,0 +1,56 @@
+# text = That's not a real solution.
+# sent_id = 69549
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	not	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=11|end_char=12
+5	real	real	ADJ	JJ	Degree=Pos	4	_	_	start_char=13|end_char=17
+6	solution	solution	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=26|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=26|end_char=27
+
+# text = The only REAL solution is to create an all-female unit and then count how many minutes it takes for all of them to die.
+# sent_id = 69550
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=28|end_char=31
+2	only	only	ADJ	JJ	Degree=Pos	1	_	_	start_char=32|end_char=36
+3	REAL	real	ADJ	JJ	Degree=Pos	2	_	_	start_char=37|end_char=41
+4	solution	solution	NOUN	NN	Number=Sing	3	_	_	start_char=42|end_char=50
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=51|end_char=53
+6	to	to	PART	TO	_	5	_	_	start_char=54|end_char=56
+7	create	create	VERB	VB	VerbForm=Inf	6	_	_	start_char=57|end_char=63
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=64|end_char=66
+9	all	all	DET	DT	_	8	_	_	start_char=67|end_char=70|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	_	_	start_char=70|end_char=71|SpaceAfter=No
+11	female	female	ADJ	JJ	Degree=Pos	10	_	_	start_char=71|end_char=77
+12	unit	unit	NOUN	NN	Number=Sing	11	_	_	start_char=78|end_char=82
+13	and	and	CCONJ	CC	_	12	_	_	start_char=83|end_char=86
+14	then	then	ADV	RB	PronType=Dem	13	_	_	start_char=87|end_char=91
+15	count	count	VERB	VB	VerbForm=Inf	14	_	_	start_char=92|end_char=97
+16	how	how	ADV	WRB	PronType=Int	15	_	_	start_char=98|end_char=101
+17	many	many	ADJ	JJ	Degree=Pos	16	_	_	start_char=102|end_char=106
+18	minutes	minute	NOUN	NNS	Number=Plur	17	_	_	start_char=107|end_char=114
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=115|end_char=117
+20	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=118|end_char=123
+21	for	for	SCONJ	IN	_	20	_	_	start_char=124|end_char=127
+22	all	all	DET	DT	_	21	_	_	start_char=128|end_char=131
+23	of	of	ADP	IN	_	22	_	_	start_char=132|end_char=134
+24	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	23	_	_	start_char=135|end_char=139
+25	to	to	PART	TO	_	24	_	_	start_char=140|end_char=142
+26	die	die	VERB	VB	VerbForm=Inf	25	_	_	start_char=143|end_char=146|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=146|end_char=147
+
+# text = Anything less than that is just retarded apes scratching their ass.
+# sent_id = 69551
+1	Anything	anything	PRON	NN	Number=Sing|PronType=Ind	0	_	_	start_char=148|end_char=156
+2	less	less	ADJ	JJR	Degree=Cmp	1	_	_	start_char=157|end_char=161
+3	than	than	ADP	IN	_	2	_	_	start_char=162|end_char=166
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=167|end_char=171
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=172|end_char=174
+6	just	just	ADV	RB	_	5	_	_	start_char=175|end_char=179
+7	retarded	retarded	ADJ	JJ	Degree=Pos	6	_	_	start_char=180|end_char=188
+8	apes	ape	NOUN	NNS	Number=Plur	7	_	_	start_char=189|end_char=193
+9	scratching	scratch	VERB	VBG	VerbForm=Ger	8	_	_	start_char=194|end_char=204
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=205|end_char=210
+11	ass	ass	NOUN	NN	Number=Sing	10	_	_	start_char=211|end_char=214|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=214|end_char=215|SpaceAfter=No
+

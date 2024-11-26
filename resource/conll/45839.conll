@@ -1,0 +1,51 @@
+# text = Which is politically stupid.
+# sent_id = 97883
+1	Which	which	PRON	WDT	PronType=Rel	0	_	_	start_char=0|end_char=5
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=8
+3	politically	politically	ADV	RB	_	2	_	_	start_char=9|end_char=20
+4	stupid	stupid	ADJ	JJ	Degree=Pos	3	_	_	start_char=21|end_char=27|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=27|end_char=28
+
+# text = He's already dominating the woman vote.
+# sent_id = 97884
+1-2	He's	_	_	_	_	_	_	_	start_char=29|end_char=33
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=29|end_char=31
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=33
+3	already	already	ADV	RB	_	2	_	_	start_char=34|end_char=41
+4	dominating	dominate	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=42|end_char=52
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=53|end_char=56
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=57|end_char=62
+7	vote	vote	NOUN	NN	Number=Sing	6	_	_	start_char=63|end_char=67|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=67|end_char=68
+
+# text = Where he's losing on gender lines is men.
+# sent_id = 97885
+1	Where	where	ADV	WRB	PronType=Int	0	_	_	start_char=69|end_char=74
+2-3	he's	_	_	_	_	_	_	_	start_char=75|end_char=79
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=75|end_char=77
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=77|end_char=79
+4	losing	lose	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=80|end_char=86
+5	on	on	ADP	IN	_	4	_	_	start_char=87|end_char=89
+6	gender	gender	NOUN	NN	Number=Sing	5	_	_	start_char=90|end_char=96
+7	lines	line	NOUN	NNS	Number=Plur	6	_	_	start_char=97|end_char=102
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=103|end_char=105
+9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=106|end_char=109|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=109|end_char=110
+
+# text = And he's doing nothing to court the male vote at all.
+# sent_id = 97886
+1	And	and	CCONJ	CC	_	0	_	_	start_char=111|end_char=114
+2-3	he's	_	_	_	_	_	_	_	start_char=115|end_char=119
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=115|end_char=117
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=117|end_char=119
+4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=120|end_char=125
+5	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	4	_	_	start_char=126|end_char=133
+6	to	to	PART	TO	_	5	_	_	start_char=134|end_char=136
+7	court	court	VERB	VB	VerbForm=Inf	6	_	_	start_char=137|end_char=142
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=143|end_char=146
+9	male	male	ADJ	JJ	Degree=Pos	8	_	_	start_char=147|end_char=151
+10	vote	vote	NOUN	NN	Number=Sing	9	_	_	start_char=152|end_char=156
+11	at	at	ADP	IN	_	10	_	_	start_char=157|end_char=159
+12	all	all	DET	DT	_	11	_	_	start_char=160|end_char=163|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=163|end_char=164|SpaceAfter=No
+

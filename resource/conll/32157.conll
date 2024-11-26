@@ -1,0 +1,30 @@
+# text = She owns him.
+# sent_id = 68946
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	owns	own	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=12|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=12|end_char=13
+
+# text = He's her beta provider.
+# sent_id = 68947
+1-2	He's	_	_	_	_	_	_	_	start_char=14|end_char=18
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=14|end_char=16
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=16|end_char=18
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=19|end_char=22
+4	beta	beta	NOUN	NN	Number=Sing	3	_	_	start_char=23|end_char=27
+5	provider	provider	NOUN	NN	Number=Sing	4	_	_	start_char=28|end_char=36|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=36|end_char=37
+
+# text = She's just keeping her cuck in line.
+# sent_id = 68948
+1-2	She's	_	_	_	_	_	_	_	start_char=38|end_char=43
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=38|end_char=41
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=41|end_char=43
+3	just	just	ADV	RB	_	2	_	_	start_char=44|end_char=48
+4	keeping	keep	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=49|end_char=56
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=57|end_char=60
+6	cuck	cuck	NOUN	NN	Number=Sing	5	_	_	start_char=61|end_char=65
+7	in	in	ADP	IN	_	6	_	_	start_char=66|end_char=68
+8	line	line	NOUN	NN	Number=Sing	7	_	_	start_char=69|end_char=73|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=73|end_char=74|SpaceAfter=No
+

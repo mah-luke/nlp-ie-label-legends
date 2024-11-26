@@ -1,0 +1,61 @@
+# text = Here's the address of your "private pool party" location and the Zillow info on it too.
+# sent_id = 16057
+1-2	Here's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7|end_char=10
+4	address	address	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=18
+5	of	of	ADP	IN	_	4	_	_	start_char=19|end_char=21
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=22|end_char=26
+7	"	"	PUNCT	``	_	6	_	_	start_char=27|end_char=28|SpaceAfter=No
+8	private	private	ADJ	JJ	Degree=Pos	7	_	_	start_char=28|end_char=35
+9	pool	pool	NOUN	NN	Number=Sing	8	_	_	start_char=36|end_char=40
+10	party	party	NOUN	NN	Number=Sing	9	_	_	start_char=41|end_char=46|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=46|end_char=47
+12	location	location	NOUN	NN	Number=Sing	11	_	_	start_char=48|end_char=56
+13	and	and	CCONJ	CC	_	12	_	_	start_char=57|end_char=60
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=61|end_char=64
+15	Zillow	zillow	NOUN	NN	Number=Sing	14	_	_	start_char=65|end_char=71
+16	info	info	NOUN	NN	Number=Sing	15	_	_	start_char=72|end_char=76
+17	on	on	ADP	IN	_	16	_	_	start_char=77|end_char=79
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=80|end_char=82
+19	too	too	ADV	RB	_	18	_	_	start_char=83|end_char=86|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=86|end_char=87
+
+# text = 1233 SW 46 Ave Pompano Beach Florida 33069 Royal Poinciana Condos.
+# sent_id = 16058
+1	1233	1233	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=88|end_char=92
+2	SW	SW	PROPN	NNP	Number=Sing	1	_	_	start_char=93|end_char=95
+3	46	46	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=96|end_char=98
+4	Ave	Ave	PROPN	NNP	Number=Sing	3	_	_	start_char=99|end_char=102
+5	Pompano	Pompano	PROPN	NNP	Number=Sing	4	_	_	start_char=103|end_char=110
+6	Beach	Beach	PROPN	NNP	Number=Sing	5	_	_	start_char=111|end_char=116
+7	Florida	Florida	PROPN	NNP	Number=Sing	6	_	_	start_char=117|end_char=124
+8	33069	33069	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=125|end_char=130
+9	Royal	Royal	ADJ	NNP	Degree=Pos	8	_	_	start_char=131|end_char=136
+10	Poinciana	Poinciana	PROPN	NNP	Number=Sing	9	_	_	start_char=137|end_char=146
+11	Condos	Condos	PROPN	NNPS	Number=Plur	10	_	_	start_char=147|end_char=153|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=153|end_char=154
+
+# text = Can't be a trespasser if she's a resident!
+# sent_id = 16059
+1-2	Can't	_	_	_	_	_	_	_	start_char=155|end_char=160
+1	Ca	can	AUX	MD	VerbForm=Fin	0	_	_	start_char=155|end_char=157
+2	n't	not	PART	RB	_	1	_	_	start_char=157|end_char=160
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=161|end_char=163
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=164|end_char=165
+5	trespasser	trespasser	NOUN	NN	Number=Sing	4	_	_	start_char=166|end_char=176
+6	if	if	SCONJ	IN	_	5	_	_	start_char=177|end_char=179
+7-8	she's	_	_	_	_	_	_	_	start_char=180|end_char=185
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=180|end_char=183
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=183|end_char=185
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=186|end_char=187
+10	resident	resident	NOUN	NN	Number=Sing	9	_	_	start_char=188|end_char=196|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=196|end_char=197
+
+# text = [URL]
+# sent_id = 16060
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=198|end_char=199|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=199|end_char=202|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=202|end_char=203|SpaceAfter=No
+

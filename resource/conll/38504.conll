@@ -1,0 +1,56 @@
+# text = Is Julia Sazalar Jewish?
+# sent_id = 82321
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	Julia	Julia	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=8
+3	Sazalar	Sazalar	PROPN	NNP	Number=Sing	2	_	_	start_char=9|end_char=16
+4	Jewish	Jewish	ADJ	JJ	Degree=Pos	3	_	_	start_char=17|end_char=23|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=23|end_char=24
+
+# text = (Communist political candidate running in North Brooklyn for a state senate) '...she began to claim to have a jewish father and a non-jewish Columbian mother...' '... she certainly wants to be a member of the tribe...' [URL]
+# sent_id = 82322
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=25|end_char=26|SpaceAfter=No
+2	Communist	Communist	ADJ	JJ	Degree=Pos	1	_	_	start_char=26|end_char=35
+3	political	political	ADJ	JJ	Degree=Pos	2	_	_	start_char=36|end_char=45
+4	candidate	candidate	NOUN	NN	Number=Sing	3	_	_	start_char=46|end_char=55
+5	running	run	VERB	VBG	VerbForm=Ger	4	_	_	start_char=56|end_char=63
+6	in	in	ADP	IN	_	5	_	_	start_char=64|end_char=66
+7	North	North	PROPN	NNP	Number=Sing	6	_	_	start_char=67|end_char=72
+8	Brooklyn	Brooklyn	PROPN	NNP	Number=Sing	7	_	_	start_char=73|end_char=81
+9	for	for	ADP	IN	_	8	_	_	start_char=82|end_char=85
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=86|end_char=87
+11	state	state	NOUN	NN	Number=Sing	10	_	_	start_char=88|end_char=93
+12	senate	senate	NOUN	NN	Number=Sing	11	_	_	start_char=94|end_char=100|SpaceAfter=No
+13	)	)	PUNCT	-RRB-	_	12	_	_	start_char=100|end_char=101
+14	'...	'...	PUNCT	,	_	13	_	_	start_char=102|end_char=106|SpaceAfter=No
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=106|end_char=109
+16	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=110|end_char=115
+17	to	to	PART	TO	_	16	_	_	start_char=116|end_char=118
+18	claim	claim	VERB	VB	VerbForm=Inf	17	_	_	start_char=119|end_char=124
+19	to	to	PART	TO	_	18	_	_	start_char=125|end_char=127
+20	have	have	VERB	VB	VerbForm=Inf	19	_	_	start_char=128|end_char=132
+21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=133|end_char=134
+22	jewish	jewish	ADJ	JJ	Degree=Pos	21	_	_	start_char=135|end_char=141
+23	father	father	NOUN	NN	Number=Sing	22	_	_	start_char=142|end_char=148
+24	and	and	CCONJ	CC	_	23	_	_	start_char=149|end_char=152
+25	a	a	DET	DT	Definite=Ind|PronType=Art	24	_	_	start_char=153|end_char=154
+26	non-jewish	non-jewish	ADJ	JJ	Degree=Pos	25	_	_	start_char=155|end_char=165
+27	Columbian	Columbian	ADJ	JJ	Degree=Pos	26	_	_	start_char=166|end_char=175
+28	mother	mother	NOUN	NN	Number=Sing	27	_	_	start_char=176|end_char=182|SpaceAfter=No
+29	...'	...'	PUNCT	,	_	28	_	_	start_char=182|end_char=186
+30	'...	'...	PUNCT	''	_	29	_	_	start_char=187|end_char=191
+31	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	_	_	start_char=192|end_char=195
+32	certainly	certainly	ADV	RB	_	31	_	_	start_char=196|end_char=205
+33	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	_	_	start_char=206|end_char=211
+34	to	to	PART	TO	_	33	_	_	start_char=212|end_char=214
+35	be	be	AUX	VB	VerbForm=Inf	34	_	_	start_char=215|end_char=217
+36	a	a	DET	DT	Definite=Ind|PronType=Art	35	_	_	start_char=218|end_char=219
+37	member	member	NOUN	NN	Number=Sing	36	_	_	start_char=220|end_char=226
+38	of	of	ADP	IN	_	37	_	_	start_char=227|end_char=229
+39	the	the	DET	DT	Definite=Def|PronType=Art	38	_	_	start_char=230|end_char=233
+40	tribe	tribe	NOUN	NN	Number=Sing	39	_	_	start_char=234|end_char=239|SpaceAfter=No
+41	...	...	PUNCT	,	_	40	_	_	start_char=239|end_char=242|SpaceAfter=No
+42	'	'	PUNCT	''	_	41	_	_	start_char=242|end_char=243
+43	[	[	PUNCT	-LRB-	_	42	_	_	start_char=244|end_char=245|SpaceAfter=No
+44	URL	URL	PROPN	NNP	Number=Sing	43	_	_	start_char=245|end_char=248|SpaceAfter=No
+45	]	]	PUNCT	-RRB-	_	44	_	_	start_char=248|end_char=249|SpaceAfter=No
+

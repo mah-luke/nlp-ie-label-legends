@@ -1,0 +1,61 @@
+# text = the 40 year old shoemaker and his 37 yr od wife, a teacher, made a hiking trip 1942 in the Alps and did not return home.
+# sent_id = 6009
+1	the	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	40	40	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=4|end_char=6
+3	year	year	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=11
+4	old	old	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=15
+5	shoemaker	shoemaker	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=25
+6	and	and	CCONJ	CC	_	5	_	_	start_char=26|end_char=29
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=30|end_char=33
+8	37	37	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=34|end_char=36
+9	yr	year	NOUN	NN	Number=Sing	8	_	_	start_char=37|end_char=39
+10	od	od	ADJ	JJ	Degree=Pos	9	_	_	start_char=40|end_char=42
+11	wife	wife	NOUN	NN	Number=Sing	10	_	_	start_char=43|end_char=47|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=47|end_char=48
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=49|end_char=50
+14	teacher	teacher	NOUN	NN	Number=Sing	13	_	_	start_char=51|end_char=58|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=58|end_char=59
+16	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=60|end_char=64
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=65|end_char=66
+18	hiking	hiking	NOUN	NN	Number=Sing	17	_	_	start_char=67|end_char=73
+19	trip	trip	NOUN	NN	Number=Sing	18	_	_	start_char=74|end_char=78
+20	1942	1942	NUM	CD	NumForm=Digit|NumType=Card	19	_	_	start_char=79|end_char=83
+21	in	in	ADP	IN	_	20	_	_	start_char=84|end_char=86
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=87|end_char=90
+23	Alps	Alps	PROPN	NNPS	Number=Plur	22	_	_	start_char=91|end_char=95
+24	and	and	CCONJ	CC	_	23	_	_	start_char=96|end_char=99
+25	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	_	_	start_char=100|end_char=103
+26	not	not	PART	RB	_	25	_	_	start_char=104|end_char=107
+27	return	return	VERB	VB	VerbForm=Inf	26	_	_	start_char=108|end_char=114
+28	home	home	ADV	RB	_	27	_	_	start_char=115|end_char=119|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=119|end_char=120
+
+# text = They had 6 children.
+# sent_id = 6010
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=121|end_char=125
+2	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=126|end_char=129
+3	6	6	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=130|end_char=131
+4	children	child	NOUN	NNS	Number=Plur	3	_	_	start_char=132|end_char=140|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=140|end_char=141
+
+# text = One child believes it was their parents, when the bodies were discovered in the glacier recently.
+# sent_id = 6011
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=142|end_char=145
+2	child	child	NOUN	NN	Number=Sing	1	_	_	start_char=146|end_char=151
+3	believes	believe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=152|end_char=160
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=161|end_char=163
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=164|end_char=167
+6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=168|end_char=173
+7	parents	parent	NOUN	NNS	Number=Plur	6	_	_	start_char=174|end_char=181|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=181|end_char=182
+9	when	when	ADV	WRB	PronType=Int	8	_	_	start_char=183|end_char=187
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=188|end_char=191
+11	bodies	body	NOUN	NNS	Number=Plur	10	_	_	start_char=192|end_char=198
+12	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=199|end_char=203
+13	discovered	discover	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=204|end_char=214
+14	in	in	ADP	IN	_	13	_	_	start_char=215|end_char=217
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=218|end_char=221
+16	glacier	glacier	NOUN	NN	Number=Sing	15	_	_	start_char=222|end_char=229
+17	recently	recently	ADV	RB	_	16	_	_	start_char=230|end_char=238|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=238|end_char=239|SpaceAfter=No
+

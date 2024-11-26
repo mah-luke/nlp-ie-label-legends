@@ -1,0 +1,46 @@
+# text = I couldn't stand this movie romanticizing an idiot's slow path towards suicide.
+# sent_id = 6611
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	couldn't	_	_	_	_	_	_	_	start_char=2|end_char=10
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=2|end_char=7
+3	n't	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	stand	stand	VERB	VB	VerbForm=Inf	3	_	_	start_char=11|end_char=16
+5	this	this	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=17|end_char=21
+6	movie	movie	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=27
+7	romanticizing	romanticize	VERB	VBG	VerbForm=Ger	6	_	_	start_char=28|end_char=41
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=42|end_char=44
+9-10	idiot's	_	_	_	_	_	_	_	start_char=45|end_char=52
+9	idiot	idiot	NOUN	NN	Number=Sing	8	_	_	start_char=45|end_char=50
+10	's	's	PART	POS	_	9	_	_	start_char=50|end_char=52
+11	slow	slow	ADJ	JJ	Degree=Pos	10	_	_	start_char=53|end_char=57
+12	path	path	NOUN	NN	Number=Sing	11	_	_	start_char=58|end_char=62
+13	towards	towards	ADP	IN	_	12	_	_	start_char=63|end_char=70
+14	suicide	suicide	NOUN	NN	Number=Sing	13	_	_	start_char=71|end_char=78|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=78|end_char=79
+
+# text = Christopher Knight's story was only slightly better because the guy lived (27 years alone in the Maine woods).
+# sent_id = 6612
+1	Christopher	Christopher	PROPN	NNP	Number=Sing	0	_	_	start_char=80|end_char=91
+2-3	Knight's	_	_	_	_	_	_	_	start_char=92|end_char=100
+2	Knight	Knight	PROPN	NNP	Number=Sing	1	_	_	start_char=92|end_char=98
+3	's	's	PART	POS	_	2	_	_	start_char=98|end_char=100
+4	story	story	NOUN	NN	Number=Sing	3	_	_	start_char=101|end_char=106
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=107|end_char=110
+6	only	only	ADV	RB	_	5	_	_	start_char=111|end_char=115
+7	slightly	slightly	ADV	RB	_	6	_	_	start_char=116|end_char=124
+8	better	good	ADJ	JJR	Degree=Cmp	7	_	_	start_char=125|end_char=131
+9	because	because	SCONJ	IN	_	8	_	_	start_char=132|end_char=139
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=140|end_char=143
+11	guy	guy	NOUN	NN	Number=Sing	10	_	_	start_char=144|end_char=147
+12	lived	live	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=148|end_char=153
+13	(	(	PUNCT	-LRB-	_	12	_	_	start_char=154|end_char=155|SpaceAfter=No
+14	27	27	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	start_char=155|end_char=157
+15	years	year	NOUN	NNS	Number=Plur	14	_	_	start_char=158|end_char=163
+16	alone	alone	ADV	RB	_	15	_	_	start_char=164|end_char=169
+17	in	in	ADP	IN	_	16	_	_	start_char=170|end_char=172
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=173|end_char=176
+19	Maine	Maine	PROPN	NNP	Number=Sing	18	_	_	start_char=177|end_char=182
+20	woods	wood	NOUN	NNS	Number=Plur	19	_	_	start_char=183|end_char=188|SpaceAfter=No
+21	)	)	PUNCT	-RRB-	_	20	_	_	start_char=188|end_char=189|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=189|end_char=190|SpaceAfter=No
+

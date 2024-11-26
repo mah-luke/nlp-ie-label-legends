@@ -1,0 +1,56 @@
+# text = Megyn Kelly is a major league asshole.
+# sent_id = 127427
+1	Megyn	Megyn	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	Kelly	Kelly	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=11
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=14
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=15|end_char=16
+5	major	major	ADJ	JJ	Degree=Pos	4	_	_	start_char=17|end_char=22
+6	league	league	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=29
+7	asshole	asshole	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=37|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=37|end_char=38
+
+# text = Fox is hurting their brand by keeping her on the payroll.
+# sent_id = 127428
+1	Fox	Fox	PROPN	NNP	Number=Sing	0	_	_	start_char=39|end_char=42
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=43|end_char=45
+3	hurting	hurt	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=46|end_char=53
+4	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=54|end_char=59
+5	brand	brand	NOUN	NN	Number=Sing	4	_	_	start_char=60|end_char=65
+6	by	by	SCONJ	IN	_	5	_	_	start_char=66|end_char=68
+7	keeping	keep	VERB	VBG	VerbForm=Ger	6	_	_	start_char=69|end_char=76
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=77|end_char=80
+9	on	on	ADP	IN	_	8	_	_	start_char=81|end_char=83
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=84|end_char=87
+11	payroll	payroll	NOUN	NN	Number=Sing	10	_	_	start_char=88|end_char=95|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=95|end_char=96
+
+# text = This article also mentions the good news that her book is not selling very well anymore after a quick start.
+# sent_id = 127429
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=97|end_char=101
+2	article	article	NOUN	NN	Number=Sing	1	_	_	start_char=102|end_char=109
+3	also	also	ADV	RB	_	2	_	_	start_char=110|end_char=114
+4	mentions	mention	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=115|end_char=123
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=124|end_char=127
+6	good	good	ADJ	JJ	Degree=Pos	5	_	_	start_char=128|end_char=132
+7	news	news	NOUN	NN	Number=Sing	6	_	_	start_char=133|end_char=137
+8	that	that	SCONJ	IN	_	7	_	_	start_char=138|end_char=142
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=143|end_char=146
+10	book	book	NOUN	NN	Number=Sing	9	_	_	start_char=147|end_char=151
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=152|end_char=154
+12	not	not	PART	RB	_	11	_	_	start_char=155|end_char=158
+13	selling	sell	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=159|end_char=166
+14	very	very	ADV	RB	_	13	_	_	start_char=167|end_char=171
+15	well	well	ADV	RB	Degree=Pos	14	_	_	start_char=172|end_char=176
+16	anymore	anymore	ADV	RB	_	15	_	_	start_char=177|end_char=184
+17	after	after	ADP	IN	_	16	_	_	start_char=185|end_char=190
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=191|end_char=192
+19	quick	quick	ADJ	JJ	Degree=Pos	18	_	_	start_char=193|end_char=198
+20	start	start	NOUN	NN	Number=Sing	19	_	_	start_char=199|end_char=204|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=204|end_char=205
+
+# text = [URL]
+# sent_id = 127430
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=206|end_char=207|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=207|end_char=210|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=210|end_char=211|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = And there is NOTHING wrote with that!
+# sent_id = 42249
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	there	there	PRON	EX	_	1	_	_	start_char=4|end_char=9
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4	NOTHING	nothing	PRON	NN	Number=Sing|PronType=Neg	3	_	_	start_char=13|end_char=20
+5	wrote	write	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=21|end_char=26
+6	with	with	ADP	IN	_	5	_	_	start_char=27|end_char=31
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=32|end_char=36|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=36|end_char=37
+
+# text = Who cares who I think is looking for a flower girl, what matters is you do what YOU want and you keep looking out and vetting good men.
+# sent_id = 42250
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=38|end_char=41
+2	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=47
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=48|end_char=51
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=52|end_char=53
+5	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=54|end_char=59
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=60|end_char=62
+7	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=63|end_char=70
+8	for	for	ADP	IN	_	7	_	_	start_char=71|end_char=74
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=75|end_char=76
+10	flower	flower	NOUN	NN	Number=Sing	9	_	_	start_char=77|end_char=83
+11	girl	girl	NOUN	NN	Number=Sing	10	_	_	start_char=84|end_char=88|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=88|end_char=89
+13	what	what	PRON	WP	PronType=Int	12	_	_	start_char=90|end_char=94
+14	matters	matter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=95|end_char=102
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=103|end_char=105
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	_	_	start_char=106|end_char=109
+17	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	_	_	start_char=110|end_char=112
+18	what	what	PRON	WP	PronType=Rel	17	_	_	start_char=113|end_char=117
+19	YOU	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	_	_	start_char=118|end_char=121
+20	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	_	_	start_char=122|end_char=126
+21	and	and	CCONJ	CC	_	20	_	_	start_char=127|end_char=130
+22	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	21	_	_	start_char=131|end_char=134
+23	keep	keep	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	_	_	start_char=135|end_char=139
+24	looking	look	VERB	VBG	VerbForm=Ger	23	_	_	start_char=140|end_char=147
+25	out	out	ADP	RP	_	24	_	_	start_char=148|end_char=151
+26	and	and	CCONJ	CC	_	25	_	_	start_char=152|end_char=155
+27	vetting	vet	VERB	VBG	VerbForm=Ger	26	_	_	start_char=156|end_char=163
+28	good	good	ADJ	JJ	Degree=Pos	27	_	_	start_char=164|end_char=168
+29	men	man	NOUN	NNS	Number=Plur	28	_	_	start_char=169|end_char=172|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	start_char=172|end_char=173|SpaceAfter=No
+

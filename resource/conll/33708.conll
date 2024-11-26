@@ -1,0 +1,29 @@
+# text = Oh no..
+# sent_id = 72138
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	no	no	INTJ	UH	_	1	_	_	start_char=3|end_char=5|SpaceAfter=No
+3	..	..	PUNCT	.	_	2	_	_	start_char=5|end_char=7
+
+# text = Poland should block her.
+# sent_id = 72139
+1	Poland	Poland	PROPN	NNP	Number=Sing	0	_	_	start_char=8|end_char=14
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=15|end_char=21
+3	block	block	VERB	VB	VerbForm=Inf	2	_	_	start_char=22|end_char=27
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=28|end_char=31|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=31|end_char=32
+
+# text = Made your bed cat lady, how get raped by Mohammed.
+# sent_id = 72140
+1	Made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=33|end_char=37
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=38|end_char=42
+3	bed	bed	NOUN	NN	Number=Sing	2	_	_	start_char=43|end_char=46
+4	cat	cat	NOUN	NN	Number=Sing	3	_	_	start_char=47|end_char=50
+5	lady	lady	NOUN	NN	Number=Sing	4	_	_	start_char=51|end_char=55|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=55|end_char=56
+7	how	how	ADV	WRB	PronType=Int	6	_	_	start_char=57|end_char=60
+8	get	get	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=61|end_char=64
+9	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=65|end_char=70
+10	by	by	ADP	IN	_	9	_	_	start_char=71|end_char=73
+11	Mohammed	Mohammed	PROPN	NNP	Number=Sing	10	_	_	start_char=74|end_char=82|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=82|end_char=83|SpaceAfter=No
+

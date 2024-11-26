@@ -1,0 +1,40 @@
+# text = No you dont have to.
+# sent_id = 22059
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3-4	dont	_	_	_	_	_	_	_	start_char=7|end_char=11
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=9
+4	nt	not	PART	RB	_	3	_	_	start_char=9|end_char=11
+5	have	have	VERB	VB	VerbForm=Inf	4	_	_	start_char=12|end_char=16
+6	to	to	PART	TO	_	5	_	_	start_char=17|end_char=19|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=19|end_char=20
+
+# text = But being obese and trying to make a move on a women will probably end with a rejection, making the obese guy more self conscious
+# sent_id = 22060
+1	But	but	CCONJ	CC	_	0	_	_	start_char=21|end_char=24
+2	being	be	AUX	VBG	VerbForm=Ger	1	_	_	start_char=25|end_char=30
+3	obese	obese	ADJ	JJ	Degree=Pos	2	_	_	start_char=31|end_char=36
+4	and	and	CCONJ	CC	_	3	_	_	start_char=37|end_char=40
+5	trying	try	VERB	VBG	VerbForm=Ger	4	_	_	start_char=41|end_char=47
+6	to	to	PART	TO	_	5	_	_	start_char=48|end_char=50
+7	make	make	VERB	VB	VerbForm=Inf	6	_	_	start_char=51|end_char=55
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=56|end_char=57
+9	move	move	NOUN	NN	Number=Sing	8	_	_	start_char=58|end_char=62
+10	on	on	ADP	IN	_	9	_	_	start_char=63|end_char=65
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=66|end_char=67
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=68|end_char=73
+13	will	will	AUX	MD	VerbForm=Fin	12	_	_	start_char=74|end_char=78
+14	probably	probably	ADV	RB	_	13	_	_	start_char=79|end_char=87
+15	end	end	VERB	VB	VerbForm=Inf	14	_	_	start_char=88|end_char=91
+16	with	with	ADP	IN	_	15	_	_	start_char=92|end_char=96
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=97|end_char=98
+18	rejection	rejection	NOUN	NN	Number=Sing	17	_	_	start_char=99|end_char=108|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=108|end_char=109
+20	making	make	VERB	VBG	VerbForm=Ger	19	_	_	start_char=110|end_char=116
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=117|end_char=120
+22	obese	obese	ADJ	JJ	Degree=Pos	21	_	_	start_char=121|end_char=126
+23	guy	guy	NOUN	NN	Number=Sing	22	_	_	start_char=127|end_char=130
+24	more	more	ADV	RBR	Degree=Cmp	23	_	_	start_char=131|end_char=135
+25	self	self	NOUN	NN	Number=Sing	24	_	_	start_char=136|end_char=140
+26	conscious	conscious	ADJ	JJ	Degree=Pos	25	_	_	start_char=141|end_char=150|SpaceAfter=No
+

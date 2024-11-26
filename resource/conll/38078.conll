@@ -1,0 +1,34 @@
+# text = Senator Schaefer was murdered for exposing Child Protective Services as being a front for child trafficking.
+# sent_id = 81411
+1	Senator	Senator	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	Schaefer	Schaefer	PROPN	NNP	Number=Sing	1	_	_	start_char=8|end_char=16
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=17|end_char=20
+4	murdered	murder	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=21|end_char=29
+5	for	for	SCONJ	IN	_	4	_	_	start_char=30|end_char=33
+6	exposing	expose	VERB	VBG	VerbForm=Ger	5	_	_	start_char=34|end_char=42
+7	Child	Child	PROPN	NNP	Number=Sing	6	_	_	start_char=43|end_char=48
+8	Protective	Protective	ADJ	NNP	Degree=Pos	7	_	_	start_char=49|end_char=59
+9	Services	service	NOUN	NNS	Number=Plur	8	_	_	start_char=60|end_char=68
+10	as	as	SCONJ	IN	_	9	_	_	start_char=69|end_char=71
+11	being	be	AUX	VBG	VerbForm=Ger	10	_	_	start_char=72|end_char=77
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=78|end_char=79
+13	front	front	NOUN	NN	Number=Sing	12	_	_	start_char=80|end_char=85
+14	for	for	ADP	IN	_	13	_	_	start_char=86|end_char=89
+15	child	child	NOUN	NN	Number=Sing	14	_	_	start_char=90|end_char=95
+16	trafficking	trafficking	NOUN	NN	Number=Sing	15	_	_	start_char=96|end_char=107|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=107|end_char=108
+
+# text = Watch her speech.
+# sent_id = 81412
+1	Watch	watch	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=109|end_char=114
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=115|end_char=118
+3	speech	speech	NOUN	NN	Number=Sing	2	_	_	start_char=119|end_char=125|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=125|end_char=126
+
+# text = #pizzagate [URL]
+# sent_id = 81413
+1	#pizzagate	#pizzagate	PROPN	NNP	Number=Sing	0	_	_	start_char=127|end_char=137
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=138|end_char=139|SpaceAfter=No
+3	URL	URL	PROPN	NNP	Number=Sing	2	_	_	start_char=139|end_char=142|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=142|end_char=143|SpaceAfter=No
+

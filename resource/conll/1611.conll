@@ -1,0 +1,41 @@
+# text = The game's rigged dude.
+# sent_id = 3372
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2-3	game's	_	_	_	_	_	_	_	start_char=4|end_char=10
+2	game	game	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=8
+3	's	's	PART	POS	_	2	_	_	start_char=8|end_char=10
+4	rigged	rig	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=11|end_char=17
+5	dude	dude	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = If you don't want whites to prey on your daughter, don't have kids.
+# sent_id = 3373
+1	If	if	SCONJ	IN	_	0	_	_	start_char=24|end_char=26
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=27|end_char=30
+3-4	don't	_	_	_	_	_	_	_	start_char=31|end_char=36
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=31|end_char=33
+4	n't	not	PART	RB	_	3	_	_	start_char=33|end_char=36
+5	want	want	VERB	VB	VerbForm=Inf	4	_	_	start_char=37|end_char=41
+6	whites	white	NOUN	NNS	Number=Plur	5	_	_	start_char=42|end_char=48
+7	to	to	PART	TO	_	6	_	_	start_char=49|end_char=51
+8	prey	prey	VERB	VB	VerbForm=Inf	7	_	_	start_char=52|end_char=56
+9	on	on	ADP	IN	_	8	_	_	start_char=57|end_char=59
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	_	_	start_char=60|end_char=64
+11	daughter	daughter	NOUN	NN	Number=Sing	10	_	_	start_char=65|end_char=73|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=73|end_char=74
+13-14	don't	_	_	_	_	_	_	_	start_char=75|end_char=80
+13	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=75|end_char=77
+14	n't	not	PART	RB	_	13	_	_	start_char=77|end_char=80
+15	have	have	VERB	VB	Mood=Imp|VerbForm=Fin	14	_	_	start_char=81|end_char=85
+16	kids	kid	NOUN	NNS	Number=Plur	15	_	_	start_char=86|end_char=90|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=90|end_char=91
+
+# text = Nobody wins in this world.
+# sent_id = 3374
+1	Nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=92|end_char=98
+2	wins	win	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=99|end_char=103
+3	in	in	ADP	IN	_	2	_	_	start_char=104|end_char=106
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=107|end_char=111
+5	world	world	NOUN	NN	Number=Sing	4	_	_	start_char=112|end_char=117|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=117|end_char=118|SpaceAfter=No
+

@@ -1,0 +1,31 @@
+# text = Milano's hubby is a notorious Hollywood pimp and child trafficker.
+# sent_id = 20842
+1-2	Milano's	_	_	_	_	_	_	_	start_char=0|end_char=8
+1	Milano	Milano	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	's	's	PART	POS	_	1	_	_	start_char=6|end_char=8
+3	hubby	hubby	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=14
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=17
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=18|end_char=19
+6	notorious	notorious	ADJ	JJ	Degree=Pos	5	_	_	start_char=20|end_char=29
+7	Hollywood	Hollywood	PROPN	NNP	Number=Sing	6	_	_	start_char=30|end_char=39
+8	pimp	pimp	NOUN	NN	Number=Sing	7	_	_	start_char=40|end_char=44
+9	and	and	CCONJ	CC	_	8	_	_	start_char=45|end_char=48
+10	child	child	NOUN	NN	Number=Sing	9	_	_	start_char=49|end_char=54
+11	trafficker	trafficker	NOUN	NN	Number=Sing	10	_	_	start_char=55|end_char=65|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=65|end_char=66
+
+# text = 'Thou lady doth protests too much, me thinks.'
+# sent_id = 20843
+1	'	'	PUNCT	``	_	0	_	_	start_char=67|end_char=68|SpaceAfter=No
+2	Thou	thou	DET	DT	PronType=Art	1	_	_	start_char=68|end_char=72
+3	lady	lady	NOUN	NN	Number=Sing	2	_	_	start_char=73|end_char=77
+4	doth	doth	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=78|end_char=82
+5	protests	protest	NOUN	NNS	Number=Plur	4	_	_	start_char=83|end_char=91
+6	too	too	ADV	RB	_	5	_	_	start_char=92|end_char=95
+7	much	much	ADV	RB	_	6	_	_	start_char=96|end_char=100|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=100|end_char=101
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=102|end_char=104
+10	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=105|end_char=111|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=111|end_char=112|SpaceAfter=No
+12	'	'	PUNCT	''	_	11	_	_	start_char=112|end_char=113|SpaceAfter=No
+

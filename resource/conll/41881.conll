@@ -1,0 +1,37 @@
+# text = Same girl, same outfit, same makeup.
+# sent_id = 89588
+1	Same	same	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
+4	same	same	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=15
+5	outfit	outfit	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=22|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=22|end_char=23
+7	same	same	ADJ	JJ	Degree=Pos	6	_	_	start_char=24|end_char=28
+8	makeup	makeup	NOUN	NN	Number=Sing	7	_	_	start_char=29|end_char=35|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = 3 different photos of the same event or they think Westerners are so stupid they don't even try anymore?
+# sent_id = 89589
+1	3	3	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=37|end_char=38
+2	different	different	ADJ	JJ	Degree=Pos	1	_	_	start_char=39|end_char=48
+3	photos	photo	NOUN	NNS	Number=Plur	2	_	_	start_char=49|end_char=55
+4	of	of	ADP	IN	_	3	_	_	start_char=56|end_char=58
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=59|end_char=62
+6	same	same	ADJ	JJ	Degree=Pos	5	_	_	start_char=63|end_char=67
+7	event	event	NOUN	NN	Number=Sing	6	_	_	start_char=68|end_char=73
+8	or	or	CCONJ	CC	_	7	_	_	start_char=74|end_char=76
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=77|end_char=81
+10	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=82|end_char=87
+11	Westerners	westerner	PROPN	NNPS	Number=Plur	10	_	_	start_char=88|end_char=98
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=99|end_char=102
+13	so	so	ADV	RB	_	12	_	_	start_char=103|end_char=105
+14	stupid	stupid	ADJ	JJ	Degree=Pos	13	_	_	start_char=106|end_char=112
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	_	_	start_char=113|end_char=117
+16-17	don't	_	_	_	_	_	_	_	start_char=118|end_char=123
+16	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=118|end_char=120
+17	n't	not	PART	RB	_	16	_	_	start_char=120|end_char=123
+18	even	even	ADV	RB	_	17	_	_	start_char=124|end_char=128
+19	try	try	VERB	VB	VerbForm=Inf	18	_	_	start_char=129|end_char=132
+20	anymore	anymore	ADV	RB	_	19	_	_	start_char=133|end_char=140|SpaceAfter=No
+21	?	?	PUNCT	.	_	20	_	_	start_char=140|end_char=141|SpaceAfter=No
+

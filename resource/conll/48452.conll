@@ -1,0 +1,58 @@
+# text = Good point.
+# sent_id = 103588
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	point	point	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=10|end_char=11
+
+# text = No man has ever gestated a baby after hormone treatment.
+# sent_id = 103589
+1	No	no	DET	DT	_	0	_	_	start_char=12|end_char=14
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=15|end_char=18
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=19|end_char=22
+4	ever	ever	ADV	RB	_	3	_	_	start_char=23|end_char=27
+5	gestated	gestate	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=28|end_char=36
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=37|end_char=38
+7	baby	baby	NOUN	NN	Number=Sing	6	_	_	start_char=39|end_char=43
+8	after	after	ADP	IN	_	7	_	_	start_char=44|end_char=49
+9	hormone	hormone	NOUN	NN	Number=Sing	8	_	_	start_char=50|end_char=57
+10	treatment	treatment	NOUN	NN	Number=Sing	9	_	_	start_char=58|end_char=67|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=67|end_char=68
+
+# text = No woman has ever been able to inseminate following hormone treatment.
+# sent_id = 103590
+1	No	no	DET	DT	_	0	_	_	start_char=69|end_char=71
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=72|end_char=77
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=78|end_char=81
+4	ever	ever	ADV	RB	_	3	_	_	start_char=82|end_char=86
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=87|end_char=91
+6	able	able	ADJ	JJ	Degree=Pos	5	_	_	start_char=92|end_char=96
+7	to	to	PART	TO	_	6	_	_	start_char=97|end_char=99
+8	inseminate	inseminate	VERB	VB	VerbForm=Inf	7	_	_	start_char=100|end_char=110
+9	following	follow	VERB	VBG	VerbForm=Ger	8	_	_	start_char=111|end_char=120
+10	hormone	hormone	NOUN	NN	Number=Sing	9	_	_	start_char=121|end_char=128
+11	treatment	treatment	NOUN	NN	Number=Sing	10	_	_	start_char=129|end_char=138|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=138|end_char=139
+
+# text = Fundamental biology NOT CHANGED by hormones.
+# sent_id = 103591
+1	Fundamental	Fundamental	ADJ	JJ	Degree=Pos	0	_	_	start_char=140|end_char=151
+2	biology	biology	NOUN	NN	Number=Sing	1	_	_	start_char=152|end_char=159
+3	NOT	not	PART	RB	_	2	_	_	start_char=160|end_char=163
+4	CHANGED	change	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=164|end_char=171
+5	by	by	ADP	IN	_	4	_	_	start_char=172|end_char=174
+6	hormones	hormone	NOUN	NNS	Number=Plur	5	_	_	start_char=175|end_char=183|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=183|end_char=184
+
+# text = And artificial IS, and always will be ARTIFICIAL.
+# sent_id = 103592
+1	And	and	CCONJ	CC	_	0	_	_	start_char=185|end_char=188
+2	artificial	artificial	ADJ	JJ	Degree=Pos	1	_	_	start_char=189|end_char=199
+3	IS	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=200|end_char=202|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=202|end_char=203
+5	and	and	CCONJ	CC	_	4	_	_	start_char=204|end_char=207
+6	always	always	ADV	RB	_	5	_	_	start_char=208|end_char=214
+7	will	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=215|end_char=219
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=220|end_char=222
+9	ARTIFICIAL	artificial	ADJ	JJ	Degree=Pos	8	_	_	start_char=223|end_char=233|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=233|end_char=234|SpaceAfter=No
+

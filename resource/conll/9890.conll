@@ -1,0 +1,32 @@
+# text = What a fucking sore loser!
+# sent_id = 20910
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	fucking	fuck	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=14
+4	sore	sore	ADJ	JJ	Degree=Pos	3	_	_	start_char=15|end_char=19
+5	loser	loser	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=25|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=25|end_char=26
+
+# text = Hillary Clinton is still blaming everyone but herself on losing the 2016 Presidential Election.
+# sent_id = 20911
+1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=27|end_char=34
+2	Clinton	Clinton	PROPN	NNP	Number=Sing	1	_	_	start_char=35|end_char=42
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=43|end_char=45
+4	still	still	ADV	RB	_	3	_	_	start_char=46|end_char=51
+5	blaming	blame	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=52|end_char=59
+6	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	5	_	_	start_char=60|end_char=68
+7	but	but	CCONJ	CC	_	6	_	_	start_char=69|end_char=72
+8	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	7	_	_	start_char=73|end_char=80
+9	on	on	SCONJ	IN	_	8	_	_	start_char=81|end_char=83
+10	losing	lose	VERB	VBG	VerbForm=Ger	9	_	_	start_char=84|end_char=90
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=91|end_char=94
+12	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=95|end_char=99
+13	Presidential	presidential	ADJ	JJ	Degree=Pos	12	_	_	start_char=100|end_char=112
+14	Election	Election	PROPN	NNP	Number=Sing	13	_	_	start_char=113|end_char=121|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=121|end_char=122
+
+# text = #HillaryClintonIsABitch
+# sent_id = 20912
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=123|end_char=124|SpaceAfter=No
+2	HillaryClintonIsABitch	hillaryclintonisabitch	X	ADD	_	1	_	_	start_char=124|end_char=146|SpaceAfter=No
+

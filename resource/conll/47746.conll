@@ -1,0 +1,34 @@
+# text = Nah that’s rape/sexual molestation/gross.
+# sent_id = 102053
+1	Nah	nah	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2-3	that’s	_	_	_	_	_	_	_	start_char=4|end_char=10
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=4|end_char=8
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=10
+4	rape	rape	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=15|SpaceAfter=No
+5	/	/	SYM	,	_	4	_	_	start_char=15|end_char=16|SpaceAfter=No
+6	sexual	sexual	ADJ	JJ	Degree=Pos	5	_	_	start_char=16|end_char=22
+7	molestation	molestation	NOUN	NN	Number=Sing	6	_	_	start_char=23|end_char=34|SpaceAfter=No
+8	/	/	SYM	,	_	7	_	_	start_char=34|end_char=35|SpaceAfter=No
+9	gross	gross	ADJ	JJ	Degree=Pos	8	_	_	start_char=35|end_char=40|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=40|end_char=41
+
+# text = Quote who said that’s cool and I promise it wasn’t a woman.
+# sent_id = 102054
+1	Quote	quote	NOUN	NN	Number=Sing	0	_	_	start_char=42|end_char=47
+2	who	who	PRON	WP	PronType=Rel	1	_	_	start_char=48|end_char=51
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=52|end_char=56
+4-5	that’s	_	_	_	_	_	_	_	start_char=57|end_char=63
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=57|end_char=61
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=61|end_char=63
+6	cool	cool	ADJ	JJ	Degree=Pos	5	_	_	start_char=64|end_char=68
+7	and	and	CCONJ	CC	_	6	_	_	start_char=69|end_char=72
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=73|end_char=74
+9	promise	promise	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=75|end_char=82
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=83|end_char=85
+11-12	wasn’t	_	_	_	_	_	_	_	start_char=86|end_char=92
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=86|end_char=89
+12	n’t	not	PART	RB	_	11	_	_	start_char=89|end_char=92
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=93|end_char=94
+14	woman	woman	NOUN	NN	Number=Sing	13	_	_	start_char=95|end_char=100|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=100|end_char=101|SpaceAfter=No
+

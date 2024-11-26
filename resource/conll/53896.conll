@@ -1,0 +1,58 @@
+# text = [USER] #News #MAGA #GabFam #CommieDems
+# sent_id = 115200
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=7|end_char=8|SpaceAfter=No
+5	News	news	NOUN	NN	Number=Sing	4	_	_	start_char=8|end_char=12
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=13|end_char=14|SpaceAfter=No
+7	MAGA	maga	NOUN	NN	Number=Sing	6	_	_	start_char=14|end_char=18
+8	#	#	SYM	NN	Number=Sing	7	_	_	start_char=19|end_char=20|SpaceAfter=No
+9	GabFam	gabfam	NOUN	NN	Number=Sing	8	_	_	start_char=20|end_char=26
+10	#	#	SYM	NN	Number=Sing	9	_	_	start_char=27|end_char=28|SpaceAfter=No
+11	CommieDems	commiedem	NOUN	NNS	Number=Plur	10	_	_	start_char=28|end_char=38
+
+# text = Maxine didn't get hit with the idiot stick, she was strapped to the hood, an drove through the retard forest at high speed and hit every fuckin' tree, twice!
+# sent_id = 115201
+1	Maxine	Maxine	PROPN	NNP	Number=Sing	0	_	_	start_char=39|end_char=45
+2-3	didn't	_	_	_	_	_	_	_	start_char=46|end_char=52
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=46|end_char=49
+3	n't	not	PART	RB	_	2	_	_	start_char=49|end_char=52
+4	get	get	AUX	VB	VerbForm=Inf	3	_	_	start_char=53|end_char=56
+5	hit	hit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=57|end_char=60
+6	with	with	ADP	IN	_	5	_	_	start_char=61|end_char=65
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=66|end_char=69
+8	idiot	idiot	NOUN	NN	Number=Sing	7	_	_	start_char=70|end_char=75
+9	stick	stick	NOUN	NN	Number=Sing	8	_	_	start_char=76|end_char=81|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=81|end_char=82
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=83|end_char=86
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=87|end_char=90
+13	strapped	strap	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=91|end_char=99
+14	to	to	ADP	IN	_	13	_	_	start_char=100|end_char=102
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=103|end_char=106
+16	hood	hood	NOUN	NN	Number=Sing	15	_	_	start_char=107|end_char=111|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=111|end_char=112
+18	an	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=113|end_char=115
+19	drove	drive	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	_	_	start_char=116|end_char=121
+20	through	through	ADP	IN	_	19	_	_	start_char=122|end_char=129
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=130|end_char=133
+22	retard	retard	NOUN	NN	Number=Sing	21	_	_	start_char=134|end_char=140
+23	forest	forest	NOUN	NN	Number=Sing	22	_	_	start_char=141|end_char=147
+24	at	at	ADP	IN	_	23	_	_	start_char=148|end_char=150
+25	high	high	ADJ	JJ	Degree=Pos	24	_	_	start_char=151|end_char=155
+26	speed	speed	NOUN	NN	Number=Sing	25	_	_	start_char=156|end_char=161
+27	and	and	CCONJ	CC	_	26	_	_	start_char=162|end_char=165
+28	hit	hit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	27	_	_	start_char=166|end_char=169
+29	every	every	DET	DT	_	28	_	_	start_char=170|end_char=175
+30	fuckin'	fuckin'	ADJ	JJ	Degree=Pos	29	_	_	start_char=176|end_char=183
+31	tree	tree	NOUN	NN	Number=Sing	30	_	_	start_char=184|end_char=188|SpaceAfter=No
+32	,	,	PUNCT	,	_	31	_	_	start_char=188|end_char=189
+33	twice	twice	ADV	RB	NumType=Mult	32	_	_	start_char=190|end_char=195|SpaceAfter=No
+34	!	!	PUNCT	.	_	33	_	_	start_char=195|end_char=196
+
+# text = [URL]
+# sent_id = 115202
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=197|end_char=198|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=198|end_char=201|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=201|end_char=202|SpaceAfter=No
+

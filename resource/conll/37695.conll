@@ -1,0 +1,23 @@
+# text = That's not my point.
+# sent_id = 80583
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	not	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=11|end_char=13
+5	point	point	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=19|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = Using social media isn't masculine or feminine.
+# sent_id = 80584
+1	Using	use	VERB	VBG	VerbForm=Ger	0	_	_	start_char=21|end_char=26
+2	social	social	ADJ	JJ	Degree=Pos	1	_	_	start_char=27|end_char=33
+3	media	media	NOUN	NN	Number=Sing	2	_	_	start_char=34|end_char=39
+4-5	isn't	_	_	_	_	_	_	_	start_char=40|end_char=45
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=40|end_char=42
+5	n't	not	PART	RB	_	4	_	_	start_char=42|end_char=45
+6	masculine	masculine	ADJ	JJ	Degree=Pos	5	_	_	start_char=46|end_char=55
+7	or	or	CCONJ	CC	_	6	_	_	start_char=56|end_char=58
+8	feminine	feminine	ADJ	JJ	Degree=Pos	7	_	_	start_char=59|end_char=67|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=67|end_char=68|SpaceAfter=No
+

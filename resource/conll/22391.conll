@@ -1,0 +1,31 @@
+# text = "My sister is an HB6, hence, would not bang.
+# sent_id = 48100
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=1|end_char=3
+3	sister	sister	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=10
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=14|end_char=16
+6	HB6	hb6	NOUN	NN	Number=Sing	5	_	_	start_char=17|end_char=20|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=20|end_char=21
+8	hence	hence	ADV	RB	_	7	_	_	start_char=22|end_char=27|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=27|end_char=28
+10	would	would	AUX	MD	VerbForm=Fin	9	_	_	start_char=29|end_char=34
+11	not	not	PART	RB	_	10	_	_	start_char=35|end_char=38
+12	bang	bang	VERB	VB	VerbForm=Inf	11	_	_	start_char=39|end_char=43|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=43|end_char=44
+
+# text = If she raised her SMV by losing some weight however...."
+# sent_id = 48101
+1	If	if	SCONJ	IN	_	0	_	_	start_char=45|end_char=47
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=48|end_char=51
+3	raised	raise	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=52|end_char=58
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=59|end_char=62
+5	SMV	SMV	NOUN	NN	Number=Sing	4	_	_	start_char=63|end_char=66
+6	by	by	SCONJ	IN	_	5	_	_	start_char=67|end_char=69
+7	losing	lose	VERB	VBG	VerbForm=Ger	6	_	_	start_char=70|end_char=76
+8	some	some	DET	DT	_	7	_	_	start_char=77|end_char=81
+9	weight	weight	NOUN	NN	Number=Sing	8	_	_	start_char=82|end_char=88
+10	however	however	ADV	RB	_	9	_	_	start_char=89|end_char=96|SpaceAfter=No
+11	....	....	PUNCT	.	_	10	_	_	start_char=96|end_char=100|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=100|end_char=101|SpaceAfter=No
+

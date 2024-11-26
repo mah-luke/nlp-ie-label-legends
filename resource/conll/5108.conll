@@ -1,0 +1,26 @@
+# text = Bitch shouldn't have come here illegally, now should she?
+# sent_id = 10765
+1	Bitch	bitch	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5
+2-3	shouldn't	_	_	_	_	_	_	_	start_char=6|end_char=15
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=6|end_char=12
+3	n't	not	PART	RB	_	2	_	_	start_char=12|end_char=15
+4	have	have	AUX	VB	VerbForm=Inf	3	_	_	start_char=16|end_char=20
+5	come	come	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=21|end_char=25
+6	here	here	ADV	RB	PronType=Dem	5	_	_	start_char=26|end_char=30
+7	illegally	illegally	ADV	RB	_	6	_	_	start_char=31|end_char=40|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=40|end_char=41
+9	now	now	ADV	RB	_	8	_	_	start_char=42|end_char=45
+10	should	should	AUX	MD	VerbForm=Fin	9	_	_	start_char=46|end_char=52
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=53|end_char=56|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=56|end_char=57
+
+# text = #ByeFelicia #DeportThemAll [URL]
+# sent_id = 10766
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=58|end_char=59|SpaceAfter=No
+2	ByeFelicia	ByeFelicia	X	GW	_	1	_	_	start_char=59|end_char=69
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=70|end_char=71|SpaceAfter=No
+4	DeportThemAll	deportthemall	X	ADD	_	3	_	_	start_char=71|end_char=84
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=85|end_char=86|SpaceAfter=No
+6	URL	URL	NOUN	NN	Number=Sing	5	_	_	start_char=86|end_char=89|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=89|end_char=90|SpaceAfter=No
+

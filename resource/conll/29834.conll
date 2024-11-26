@@ -1,0 +1,69 @@
+# text = And 70% of those "blacks" in that video game have significant white DNA.
+# sent_id = 63916
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	70	70	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=4|end_char=6|SpaceAfter=No
+3	%	%	SYM	NN	Number=Sing	2	_	_	start_char=6|end_char=7
+4	of	of	ADP	IN	_	3	_	_	start_char=8|end_char=10
+5	those	that	DET	DT	Number=Plur|PronType=Dem	4	_	_	start_char=11|end_char=16
+6	"	"	PUNCT	``	_	5	_	_	start_char=17|end_char=18|SpaceAfter=No
+7	blacks	black	NOUN	NNS	Number=Plur	6	_	_	start_char=18|end_char=24|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=24|end_char=25
+9	in	in	ADP	IN	_	8	_	_	start_char=26|end_char=28
+10	that	that	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=29|end_char=33
+11	video	video	NOUN	NN	Number=Sing	10	_	_	start_char=34|end_char=39
+12	game	game	NOUN	NN	Number=Sing	11	_	_	start_char=40|end_char=44
+13	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=45|end_char=49
+14	significant	significant	ADJ	JJ	Degree=Pos	13	_	_	start_char=50|end_char=61
+15	white	white	ADJ	JJ	Degree=Pos	14	_	_	start_char=62|end_char=67
+16	DNA	DNA	NOUN	NN	Number=Sing	15	_	_	start_char=68|end_char=71|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=71|end_char=72
+
+# text = American blacks are not blacks, but mulattoes.
+# sent_id = 63917
+1	American	American	ADJ	JJ	Degree=Pos	0	_	_	start_char=73|end_char=81
+2	blacks	black	NOUN	NNS	Number=Plur	1	_	_	start_char=82|end_char=88
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=89|end_char=92
+4	not	not	PART	RB	_	3	_	_	start_char=93|end_char=96
+5	blacks	black	NOUN	NNS	Number=Plur	4	_	_	start_char=97|end_char=103|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=103|end_char=104
+7	but	but	CCONJ	CC	_	6	_	_	start_char=105|end_char=108
+8	mulattoes	mulatto	NOUN	NNS	Number=Plur	7	_	_	start_char=109|end_char=118|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=118|end_char=119
+
+# text = Look at the woman on the far left.
+# sent_id = 63918
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=120|end_char=124
+2	at	at	ADP	IN	_	1	_	_	start_char=125|end_char=127
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=128|end_char=131
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=132|end_char=137
+5	on	on	ADP	IN	_	4	_	_	start_char=138|end_char=140
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=141|end_char=144
+7	far	far	ADJ	JJ	Degree=Pos	6	_	_	start_char=145|end_char=148
+8	left	left	NOUN	NN	Number=Sing	7	_	_	start_char=149|end_char=153|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=153|end_char=154
+
+# text = You call that black?
+# sent_id = 63919
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=155|end_char=158
+2	call	call	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=159|end_char=163
+3	that	that	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=164|end_char=168
+4	black	black	NOUN	NN	Number=Sing	3	_	_	start_char=169|end_char=174|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=174|end_char=175
+
+# text = So, how does killing fellow Americans with white DNA benefit other whites?
+# sent_id = 63920
+1	So	so	ADV	RB	_	0	_	_	start_char=176|end_char=178|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=178|end_char=179
+3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=180|end_char=183
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=184|end_char=188
+5	killing	kill	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=189|end_char=196
+6	fellow	fellow	ADJ	JJ	Degree=Pos	5	_	_	start_char=197|end_char=203
+7	Americans	American	PROPN	NNPS	Number=Plur	6	_	_	start_char=204|end_char=213
+8	with	with	ADP	IN	_	7	_	_	start_char=214|end_char=218
+9	white	white	ADJ	JJ	Degree=Pos	8	_	_	start_char=219|end_char=224
+10	DNA	DNA	NOUN	NN	Number=Sing	9	_	_	start_char=225|end_char=228
+11	benefit	benefit	VERB	VB	VerbForm=Inf	10	_	_	start_char=229|end_char=236
+12	other	other	ADJ	JJ	Degree=Pos	11	_	_	start_char=237|end_char=242
+13	whites	white	NOUN	NNS	Number=Plur	12	_	_	start_char=243|end_char=249|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=249|end_char=250|SpaceAfter=No
+

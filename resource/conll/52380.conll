@@ -1,0 +1,25 @@
+# text = She's 40.........her kids days are numbered.
+# sent_id = 111999
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	40	40	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=6|end_char=8|SpaceAfter=No
+4	.........	.........	PUNCT	,	_	3	_	_	start_char=8|end_char=17|SpaceAfter=No
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=17|end_char=20
+6	kids	kid	NOUN	NNS	Number=Plur	5	_	_	start_char=21|end_char=25
+7	days	day	NOUN	NNS	Number=Plur	6	_	_	start_char=26|end_char=30
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=31|end_char=34
+9	numbered	number	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=35|end_char=43|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=43|end_char=44
+
+# text = She needs to invest in some cats.
+# sent_id = 112000
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=45|end_char=48
+2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=49|end_char=54
+3	to	to	PART	TO	_	2	_	_	start_char=55|end_char=57
+4	invest	invest	VERB	VB	VerbForm=Inf	3	_	_	start_char=58|end_char=64
+5	in	in	ADP	IN	_	4	_	_	start_char=65|end_char=67
+6	some	some	DET	DT	_	5	_	_	start_char=68|end_char=72
+7	cats	cat	NOUN	NNS	Number=Plur	6	_	_	start_char=73|end_char=77|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=77|end_char=78|SpaceAfter=No
+

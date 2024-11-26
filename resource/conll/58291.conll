@@ -1,0 +1,20 @@
+# text = Fraud, thief, she took funds and college that wasn’t meant for her,
+# sent_id = 124477
+1	Fraud	fraud	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3	thief	thief	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=12|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=12|end_char=13
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=14|end_char=17
+6	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=18|end_char=22
+7	funds	fund	NOUN	NNS	Number=Plur	6	_	_	start_char=23|end_char=28
+8	and	and	CCONJ	CC	_	7	_	_	start_char=29|end_char=32
+9	college	college	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=40
+10	that	that	PRON	WDT	PronType=Rel	9	_	_	start_char=41|end_char=45
+11-12	wasn’t	_	_	_	_	_	_	_	start_char=46|end_char=52
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=46|end_char=49
+12	n’t	not	PART	RB	_	11	_	_	start_char=49|end_char=52
+13	meant	mean	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=53|end_char=58
+14	for	for	ADP	IN	_	13	_	_	start_char=59|end_char=62
+15	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=63|end_char=66|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=66|end_char=67|SpaceAfter=No
+

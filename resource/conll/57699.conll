@@ -1,0 +1,47 @@
+# text = I like your outlook.
+# sent_id = 123279
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=7|end_char=11
+4	outlook	outlook	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=19|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=19|end_char=20
+
+# text = This HB6 might hook you something better.
+# sent_id = 123280
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=21|end_char=25
+2	HB6	hb6	NOUN	NN	Number=Sing	1	_	_	start_char=26|end_char=29
+3	might	might	AUX	MD	VerbForm=Fin	2	_	_	start_char=30|end_char=35
+4	hook	hook	VERB	VB	VerbForm=Inf	3	_	_	start_char=36|end_char=40
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=41|end_char=44
+6	something	something	PRON	NN	Number=Sing|PronType=Ind	5	_	_	start_char=45|end_char=54
+7	better	good	ADJ	JJR	Degree=Cmp	6	_	_	start_char=55|end_char=61|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=61|end_char=62
+
+# text = How many times have you met up with a girl and find out that all of her friends are hotter.. work that shit!
+# sent_id = 123281
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=63|end_char=66
+2	many	many	ADJ	JJ	Degree=Pos	1	_	_	start_char=67|end_char=71
+3	times	time	NOUN	NNS	Number=Plur	2	_	_	start_char=72|end_char=77
+4	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=78|end_char=82
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=83|end_char=86
+6	met	meet	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=87|end_char=90
+7	up	up	ADP	RP	_	6	_	_	start_char=91|end_char=93
+8	with	with	ADP	IN	_	7	_	_	start_char=94|end_char=98
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=99|end_char=100
+10	girl	girl	NOUN	NN	Number=Sing	9	_	_	start_char=101|end_char=105
+11	and	and	CCONJ	CC	_	10	_	_	start_char=106|end_char=109
+12	find	find	VERB	VB	VerbForm=Inf	11	_	_	start_char=110|end_char=114
+13	out	out	ADP	RP	_	12	_	_	start_char=115|end_char=118
+14	that	that	SCONJ	IN	_	13	_	_	start_char=119|end_char=123
+15	all	all	DET	DT	_	14	_	_	start_char=124|end_char=127
+16	of	of	ADP	IN	_	15	_	_	start_char=128|end_char=130
+17	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=131|end_char=134
+18	friends	friend	NOUN	NNS	Number=Plur	17	_	_	start_char=135|end_char=142
+19	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=143|end_char=146
+20	hotter	hot	ADJ	JJR	Degree=Cmp	19	_	_	start_char=147|end_char=153|SpaceAfter=No
+21	..	..	PUNCT	,	_	20	_	_	start_char=153|end_char=155
+22	work	work	VERB	VB	Mood=Imp|VerbForm=Fin	21	_	_	start_char=156|end_char=160
+23	that	that	DET	DT	Number=Sing|PronType=Dem	22	_	_	start_char=161|end_char=165
+24	shit	shit	NOUN	NN	Number=Sing	23	_	_	start_char=166|end_char=170|SpaceAfter=No
+25	!	!	PUNCT	.	_	24	_	_	start_char=170|end_char=171|SpaceAfter=No
+

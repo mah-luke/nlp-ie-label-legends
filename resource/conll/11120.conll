@@ -1,0 +1,24 @@
+# text = Crazy Democrats claim that 'women are dying' because they are losing elections.
+# sent_id = 23563
+1	Crazy	crazy	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5
+2	Democrats	Democrat	PROPN	NNPS	Number=Plur	1	_	_	start_char=6|end_char=15
+3	claim	claim	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=16|end_char=21
+4	that	that	SCONJ	IN	_	3	_	_	start_char=22|end_char=26
+5	'	'	PUNCT	``	_	4	_	_	start_char=27|end_char=28|SpaceAfter=No
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=28|end_char=33
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=34|end_char=37
+8	dying	die	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=38|end_char=43|SpaceAfter=No
+9	'	'	PUNCT	''	_	8	_	_	start_char=43|end_char=44
+10	because	because	SCONJ	IN	_	9	_	_	start_char=45|end_char=52
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=53|end_char=57
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=58|end_char=61
+13	losing	lose	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=62|end_char=68
+14	elections	election	NOUN	NNS	Number=Plur	13	_	_	start_char=69|end_char=78|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=78|end_char=79
+
+# text = [URL]
+# sent_id = 23564
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=80|end_char=81|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=81|end_char=84|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=84|end_char=85|SpaceAfter=No
+

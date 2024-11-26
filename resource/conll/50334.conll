@@ -1,0 +1,47 @@
+# text = At the end of the day if she really, really likes you.
+# sent_id = 107568
+1	At	at	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=3|end_char=6
+3	end	end	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=10
+4	of	of	ADP	IN	_	3	_	_	start_char=11|end_char=13
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=14|end_char=17
+6	day	day	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=21
+7	if	if	SCONJ	IN	_	6	_	_	start_char=22|end_char=24
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=25|end_char=28
+9	really	really	ADV	RB	_	8	_	_	start_char=29|end_char=35|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=35|end_char=36
+11	really	really	ADV	RB	_	10	_	_	start_char=37|end_char=43
+12	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=44|end_char=49
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	_	_	start_char=50|end_char=53|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=53|end_char=54
+
+# text = Your a sperm donor and a child support check.
+# sent_id = 107569
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=55|end_char=59
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=60|end_char=61
+3	sperm	sperm	NOUN	NN	Number=Sing	2	_	_	start_char=62|end_char=67
+4	donor	donor	NOUN	NN	Number=Sing	3	_	_	start_char=68|end_char=73
+5	and	and	CCONJ	CC	_	4	_	_	start_char=74|end_char=77
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=78|end_char=79
+7	child	child	NOUN	NN	Number=Sing	6	_	_	start_char=80|end_char=85
+8	support	support	NOUN	NN	Number=Sing	7	_	_	start_char=86|end_char=93
+9	check	check	NOUN	NN	Number=Sing	8	_	_	start_char=94|end_char=99|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=99|end_char=100
+
+# text = That's not winning, that's losing...big time.
+# sent_id = 107570
+1-2	That's	_	_	_	_	_	_	_	start_char=101|end_char=107
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=101|end_char=105
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=105|end_char=107
+3	not	not	PART	RB	_	2	_	_	start_char=108|end_char=111
+4	winning	win	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=112|end_char=119|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=119|end_char=120
+6-7	that's	_	_	_	_	_	_	_	start_char=121|end_char=127
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=121|end_char=125
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=125|end_char=127
+8	losing	lose	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=128|end_char=134|SpaceAfter=No
+9	...	...	PUNCT	,	_	8	_	_	start_char=134|end_char=137|SpaceAfter=No
+10	big	big	ADJ	JJ	Degree=Pos	9	_	_	start_char=137|end_char=140
+11	time	time	NOUN	NN	Number=Sing	10	_	_	start_char=141|end_char=145|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=145|end_char=146|SpaceAfter=No
+

@@ -1,0 +1,25 @@
+# text = As it should be.
+# sent_id = 80568
+1	As	as	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	should	should	AUX	MD	VerbForm=Fin	2	_	_	start_char=6|end_char=12
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=15|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=15|end_char=16
+
+# text = These are stacies.
+# sent_id = 80569
+1	These	this	PRON	DT	Number=Plur|PronType=Dem	0	_	_	start_char=17|end_char=22
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=23|end_char=26
+3	stacies	stacy	NOUN	NNS	Number=Plur	2	_	_	start_char=27|end_char=34|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=34|end_char=35
+
+# text = The problem is even beckies want chad
+# sent_id = 80570
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=36|end_char=39
+2	problem	problem	NOUN	NN	Number=Sing	1	_	_	start_char=40|end_char=47
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=48|end_char=50
+4	even	even	ADV	RB	_	3	_	_	start_char=51|end_char=55
+5	beckies	becky	NOUN	NNS	Number=Plur	4	_	_	start_char=56|end_char=63
+6	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=64|end_char=68
+7	chad	chad	NOUN	NN	Number=Sing	6	_	_	start_char=69|end_char=73|SpaceAfter=No
+

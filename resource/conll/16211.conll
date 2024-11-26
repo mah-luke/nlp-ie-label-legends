@@ -1,0 +1,75 @@
+# text = [USER]
+# sent_id = 34680
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = No it's not , i wish .😍
+# sent_id = 34681
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=7|end_char=9
+2-3	it's	_	_	_	_	_	_	_	start_char=10|end_char=14
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=10|end_char=12
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=14
+4	not	not	PART	RB	_	3	_	_	start_char=15|end_char=18
+5	,	,	PUNCT	,	_	4	_	_	start_char=19|end_char=20
+6	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=21|end_char=22
+7	wish	wish	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=23|end_char=27
+8	.😍	.😍	PUNCT	.	_	7	_	_	start_char=28|end_char=30
+
+# text = I found her while looking for warrior pics to play last month
+# sent_id = 34682
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=31|end_char=32
+2	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=33|end_char=38
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=39|end_char=42
+4	while	while	SCONJ	IN	_	3	_	_	start_char=43|end_char=48
+5	looking	look	VERB	VBG	VerbForm=Ger	4	_	_	start_char=49|end_char=56
+6	for	for	ADP	IN	_	5	_	_	start_char=57|end_char=60
+7	warrior	warrior	NOUN	NN	Number=Sing	6	_	_	start_char=61|end_char=68
+8	pics	pic	NOUN	NNS	Number=Plur	7	_	_	start_char=69|end_char=73
+9	to	to	PART	TO	_	8	_	_	start_char=74|end_char=76
+10	play	play	VERB	VB	VerbForm=Inf	9	_	_	start_char=77|end_char=81
+11	last	last	ADJ	JJ	Degree=Pos	10	_	_	start_char=82|end_char=86
+12	month	month	NOUN	NN	Number=Sing	11	_	_	start_char=87|end_char=92
+
+# text = It's funny cause I've been wearing this wig for 2 1/2 years .
+# sent_id = 34683
+1-2	It's	_	_	_	_	_	_	_	start_char=93|end_char=97
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=93|end_char=95
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=95|end_char=97
+3	funny	funny	ADJ	JJ	Degree=Pos	2	_	_	start_char=98|end_char=103
+4	cause	cause	SCONJ	IN	_	3	_	_	start_char=104|end_char=109
+5-6	I've	_	_	_	_	_	_	_	start_char=110|end_char=114
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=110|end_char=111
+6	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=111|end_char=114
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=115|end_char=119
+8	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=120|end_char=127
+9	this	this	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=128|end_char=132
+10	wig	wig	NOUN	NN	Number=Sing	9	_	_	start_char=133|end_char=136
+11	for	for	ADP	IN	_	10	_	_	start_char=137|end_char=140
+12	2	2	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=141|end_char=142
+13	1	1	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=143|end_char=144|SpaceAfter=No
+14	/	/	SYM	SYM	_	13	_	_	start_char=144|end_char=145|SpaceAfter=No
+15	2	2	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=145|end_char=146
+16	years	year	NOUN	NNS	Number=Plur	15	_	_	start_char=147|end_char=152
+17	.	.	PUNCT	.	_	16	_	_	start_char=153|end_char=154
+
+# text = She's fitting .
+# sent_id = 34684
+1-2	She's	_	_	_	_	_	_	_	start_char=155|end_char=160
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=155|end_char=158
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=158|end_char=160
+3	fitting	fit	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=161|end_char=168
+4	.	.	PUNCT	.	_	3	_	_	start_char=169|end_char=170|SpaceAfter=No
+
+# text = I'm want find out who drew her
+# sent_id = 34685
+1-2	I'm	_	_	_	_	_	_	_	start_char=170|end_char=173
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=170|end_char=171
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=171|end_char=173
+3	want	want	VERB	VBG	VerbForm=Part	2	_	_	start_char=174|end_char=178
+4	find	find	VERB	VB	VerbForm=Inf	3	_	_	start_char=179|end_char=183
+5	out	out	ADP	RP	_	4	_	_	start_char=184|end_char=187
+6	who	who	PRON	WP	PronType=Rel	5	_	_	start_char=188|end_char=191
+7	drew	draw	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=192|end_char=196
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=197|end_char=200|SpaceAfter=No
+

@@ -1,0 +1,30 @@
+# text = This girl's pretty fucking smart and on the money about a lot of things.
+# sent_id = 126449
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2-3	girl's	_	_	_	_	_	_	_	start_char=5|end_char=11
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=11
+4	pretty	pretty	ADV	RB	_	3	_	_	start_char=12|end_char=18
+5	fucking	fucking	ADV	RB	_	4	_	_	start_char=19|end_char=26
+6	smart	smart	ADJ	JJ	Degree=Pos	5	_	_	start_char=27|end_char=32
+7	and	and	CCONJ	CC	_	6	_	_	start_char=33|end_char=36
+8	on	on	ADP	IN	_	7	_	_	start_char=37|end_char=39
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=40|end_char=43
+10	money	money	NOUN	NN	Number=Sing	9	_	_	start_char=44|end_char=49
+11	about	about	ADP	IN	_	10	_	_	start_char=50|end_char=55
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=56|end_char=57
+13	lot	lot	NOUN	NN	Number=Sing	12	_	_	start_char=58|end_char=61
+14	of	of	ADP	IN	_	13	_	_	start_char=62|end_char=64
+15	things	thing	NOUN	NNS	Number=Plur	14	_	_	start_char=65|end_char=71|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=71|end_char=72
+
+# text = I just subscribed to her channel...
+# sent_id = 126450
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=73|end_char=74
+2	just	just	ADV	RB	_	1	_	_	start_char=75|end_char=79
+3	subscribed	subscribe	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=80|end_char=90
+4	to	to	ADP	IN	_	3	_	_	start_char=91|end_char=93
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=94|end_char=97
+6	channel	channel	NOUN	NN	Number=Sing	5	_	_	start_char=98|end_char=105|SpaceAfter=No
+7	...	...	PUNCT	.	_	6	_	_	start_char=105|end_char=108|SpaceAfter=No
+

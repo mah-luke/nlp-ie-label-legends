@@ -1,0 +1,29 @@
+# text = One, she is 15, uglier than me, femlet, fat, and already has orbiters.
+# sent_id = 104212
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=5|end_char=8
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=9|end_char=11
+5	15	15	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=12|end_char=14|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=14|end_char=15
+7	uglier	uglier	ADJ	JJR	Degree=Cmp	6	_	_	start_char=16|end_char=22
+8	than	than	ADP	IN	_	7	_	_	start_char=23|end_char=27
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=28|end_char=30|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=30|end_char=31
+11	femlet	femlet	NOUN	NN	Number=Sing	10	_	_	start_char=32|end_char=38|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=38|end_char=39
+13	fat	fat	NOUN	NN	Number=Sing	12	_	_	start_char=40|end_char=43|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=43|end_char=44
+15	and	and	CCONJ	CC	_	14	_	_	start_char=45|end_char=48
+16	already	already	ADV	RB	_	15	_	_	start_char=49|end_char=56
+17	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=57|end_char=60
+18	orbiters	orbiter	NOUN	NNS	Number=Plur	17	_	_	start_char=61|end_char=69|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=69|end_char=70
+
+# text = Fuck this clown world
+# sent_id = 104213
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=71|end_char=75
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=76|end_char=80
+3	clown	clown	NOUN	NN	Number=Sing	2	_	_	start_char=81|end_char=86
+4	world	world	NOUN	NN	Number=Sing	3	_	_	start_char=87|end_char=92|SpaceAfter=No
+

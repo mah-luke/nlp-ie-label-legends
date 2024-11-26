@@ -1,0 +1,41 @@
+# text = 1. It is not a movement 2.
+# sent_id = 123873
+1	1	1	NUM	LS	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=1|end_char=2
+3	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=3|end_char=5
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=6|end_char=8
+5	not	not	PART	RB	_	4	_	_	start_char=9|end_char=12
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=13|end_char=14
+7	movement	movement	NOUN	NN	Number=Sing	6	_	_	start_char=15|end_char=23
+8	2	2	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=24|end_char=25|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=25|end_char=26
+
+# text = Hypergamy is a evolutionary imperative for the female sex 3.
+# sent_id = 123874
+1	Hypergamy	Hypergamy	PROPN	NNP	Number=Sing	0	_	_	start_char=27|end_char=36
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=37|end_char=39
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=40|end_char=41
+4	evolutionary	evolutionary	ADJ	JJ	Degree=Pos	3	_	_	start_char=42|end_char=54
+5	imperative	imperative	NOUN	NN	Number=Sing	4	_	_	start_char=55|end_char=65
+6	for	for	ADP	IN	_	5	_	_	start_char=66|end_char=69
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=70|end_char=73
+8	female	female	ADJ	JJ	Degree=Pos	7	_	_	start_char=74|end_char=80
+9	sex	sex	NOUN	NN	Number=Sing	8	_	_	start_char=81|end_char=84
+10	3	3	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=85|end_char=86|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=86|end_char=87
+
+# text = Do the work, there are tons of links in the sidebar
+# sent_id = 123875
+1	Do	do	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=88|end_char=90
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=91|end_char=94
+3	work	work	NOUN	NN	Number=Sing	2	_	_	start_char=95|end_char=99|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=99|end_char=100
+5	there	there	PRON	EX	_	4	_	_	start_char=101|end_char=106
+6	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=107|end_char=110
+7	tons	ton	NOUN	NNS	Number=Plur	6	_	_	start_char=111|end_char=115
+8	of	of	ADP	IN	_	7	_	_	start_char=116|end_char=118
+9	links	link	NOUN	NNS	Number=Plur	8	_	_	start_char=119|end_char=124
+10	in	in	ADP	IN	_	9	_	_	start_char=125|end_char=127
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=128|end_char=131
+12	sidebar	sidebar	NOUN	NN	Number=Sing	11	_	_	start_char=132|end_char=139|SpaceAfter=No
+

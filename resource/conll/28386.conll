@@ -1,0 +1,28 @@
+# text = Don't listen to this kind of women.
+# sent_id = 60942
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=12
+4	to	to	ADP	IN	_	3	_	_	start_char=13|end_char=15
+5	this	this	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=16|end_char=20
+6	kind	kind	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=25
+7	of	of	ADP	IN	_	6	_	_	start_char=26|end_char=28
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=29|end_char=34|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=34|end_char=35
+
+# text = Theres millions of women like me who are not shallow 😇😇😘😘😘🤗🤗🤗
+# sent_id = 60943
+1	Theres	there	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=36|end_char=42
+2	millions	million	NOUN	NNS	Number=Plur	1	_	_	start_char=43|end_char=51
+3	of	of	ADP	IN	_	2	_	_	start_char=52|end_char=54
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=55|end_char=60
+5	like	like	ADP	IN	_	4	_	_	start_char=61|end_char=65
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=66|end_char=68
+7	who	who	PRON	WP	PronType=Rel	6	_	_	start_char=69|end_char=72
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=73|end_char=76
+9	not	not	PART	RB	_	8	_	_	start_char=77|end_char=80
+10	shallow	shallow	ADJ	JJ	Degree=Pos	9	_	_	start_char=81|end_char=88
+11	😇😇😘😘😘🤗🤗	😇😇😘😘😘🤗🤗	PUNCT	.	_	10	_	_	start_char=89|end_char=96|SpaceAfter=No
+12	🤗	🤗	PUNCT	.	_	11	_	_	start_char=96|end_char=97|SpaceAfter=No
+

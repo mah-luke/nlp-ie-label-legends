@@ -1,0 +1,53 @@
+# text = Call their bluff.
+# sent_id = 40023
+1	Call	call	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=5|end_char=10
+3	bluff	bluff	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=16|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=16|end_char=17
+
+# text = All girls like being hit on.
+# sent_id = 40024
+1	All	all	DET	DT	_	0	_	_	start_char=18|end_char=21
+2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=22|end_char=27
+3	like	like	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=28|end_char=32
+4	being	be	AUX	VBG	VerbForm=Ger	3	_	_	start_char=33|end_char=38
+5	hit	hit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=39|end_char=42
+6	on	on	ADP	RP	_	5	_	_	start_char=43|end_char=45|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=45|end_char=46
+
+# text = They hate being hit on people they deem creepers.
+# sent_id = 40025
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=47|end_char=51
+2	hate	hate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=52|end_char=56
+3	being	be	AUX	VBG	VerbForm=Ger	2	_	_	start_char=57|end_char=62
+4	hit	hit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=63|end_char=66
+5	on	on	ADP	IN	_	4	_	_	start_char=67|end_char=69
+6	people	person	NOUN	NNS	Number=Plur	5	_	_	start_char=70|end_char=76
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=77|end_char=81
+8	deem	deem	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=82|end_char=86
+9	creepers	creeper	NOUN	NNS	Number=Plur	8	_	_	start_char=87|end_char=95|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=95|end_char=96
+
+# text = "I hate it when attractive cool guys flirt with me, it's the fucking worse!"
+# sent_id = 40026
+1	"	"	PUNCT	``	_	0	_	_	start_char=97|end_char=98|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=98|end_char=99
+3	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=100|end_char=104
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=105|end_char=107
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=108|end_char=112
+6	attractive	attractive	ADJ	JJ	Degree=Pos	5	_	_	start_char=113|end_char=123
+7	cool	cool	ADJ	JJ	Degree=Pos	6	_	_	start_char=124|end_char=128
+8	guys	guy	NOUN	NNS	Number=Plur	7	_	_	start_char=129|end_char=133
+9	flirt	flirt	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=134|end_char=139
+10	with	with	ADP	IN	_	9	_	_	start_char=140|end_char=144
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=145|end_char=147|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=147|end_char=148
+13-14	it's	_	_	_	_	_	_	_	start_char=149|end_char=153
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=149|end_char=151
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=151|end_char=153
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=154|end_char=157
+16	fucking	fuck	NOUN	NN	Number=Sing	15	_	_	start_char=158|end_char=165
+17	worse	bad	ADJ	JJR	Degree=Cmp	16	_	_	start_char=166|end_char=171|SpaceAfter=No
+18	!	!	PUNCT	.	_	17	_	_	start_char=171|end_char=172|SpaceAfter=No
+19	"	"	PUNCT	''	_	18	_	_	start_char=172|end_char=173|SpaceAfter=No
+

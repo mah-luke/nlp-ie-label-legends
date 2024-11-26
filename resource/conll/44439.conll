@@ -1,0 +1,16 @@
+# text = here's [USER] the mudsharking whore getting her birthday present
+# sent_id = 94899
+1-2	here's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	here	here	ADV	RB	PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=7|end_char=8|SpaceAfter=No
+4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=8|end_char=12|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=12|end_char=13
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=14|end_char=17
+7	mudsharking	mudsharking	NOUN	NN	Number=Sing	6	_	_	start_char=18|end_char=29
+8	whore	whore	NOUN	NN	Number=Sing	7	_	_	start_char=30|end_char=35
+9	getting	get	VERB	VBG	VerbForm=Ger	8	_	_	start_char=36|end_char=43
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=44|end_char=47
+11	birthday	birthday	NOUN	NN	Number=Sing	10	_	_	start_char=48|end_char=56
+12	present	present	NOUN	NN	Number=Sing	11	_	_	start_char=57|end_char=64|SpaceAfter=No
+

@@ -1,0 +1,50 @@
+# text = a woman with a 40 waist?
+# sent_id = 84937
+1	a	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=7
+3	with	with	ADP	IN	_	2	_	_	start_char=8|end_char=12
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=13|end_char=14
+5	40	40	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=15|end_char=17
+6	waist	waist	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=23|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=23|end_char=24
+
+# text = ..Shit, i don't care how she's carrying it, that's getting a bit large...and I gotta eat dinner now, with this in mind.....
+# sent_id = 84938
+1	..	..	PUNCT	,	_	0	_	_	start_char=25|end_char=27|SpaceAfter=No
+2	Shit	shit	INTJ	UH	_	1	_	_	start_char=27|end_char=31|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=31|end_char=32
+4	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=33|end_char=34
+5-6	don't	_	_	_	_	_	_	_	start_char=35|end_char=40
+5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=35|end_char=37
+6	n't	not	PART	RB	_	5	_	_	start_char=37|end_char=40
+7	care	care	VERB	VB	VerbForm=Inf	6	_	_	start_char=41|end_char=45
+8	how	how	ADV	WRB	PronType=Int	7	_	_	start_char=46|end_char=49
+9-10	she's	_	_	_	_	_	_	_	start_char=50|end_char=55
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=50|end_char=53
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=53|end_char=55
+11	carrying	carry	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=56|end_char=64
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=65|end_char=67|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=67|end_char=68
+14-15	that's	_	_	_	_	_	_	_	start_char=69|end_char=75
+14	that	that	PRON	DT	Number=Sing|PronType=Dem	13	_	_	start_char=69|end_char=73
+15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=73|end_char=75
+16	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	15	_	_	start_char=76|end_char=83
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=84|end_char=85
+18	bit	bit	NOUN	NN	Number=Sing	17	_	_	start_char=86|end_char=89
+19	large	large	ADJ	JJ	Degree=Pos	18	_	_	start_char=90|end_char=95|SpaceAfter=No
+20	...	...	PUNCT	,	_	19	_	_	start_char=95|end_char=98|SpaceAfter=No
+21	and	and	CCONJ	CC	_	20	_	_	start_char=98|end_char=101
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	_	_	start_char=102|end_char=103
+23-24	gotta	_	_	_	_	_	_	_	start_char=104|end_char=109
+23	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	22	_	_	start_char=104|end_char=107
+24	ta	to	PART	TO	_	23	_	_	start_char=107|end_char=109
+25	eat	eat	VERB	VB	VerbForm=Inf	24	_	_	start_char=110|end_char=113
+26	dinner	dinner	NOUN	NN	Number=Sing	25	_	_	start_char=114|end_char=120
+27	now	now	ADV	RB	_	26	_	_	start_char=121|end_char=124|SpaceAfter=No
+28	,	,	PUNCT	,	_	27	_	_	start_char=124|end_char=125
+29	with	with	ADP	IN	_	28	_	_	start_char=126|end_char=130
+30	this	this	PRON	DT	Number=Sing|PronType=Dem	29	_	_	start_char=131|end_char=135
+31	in	in	ADP	IN	_	30	_	_	start_char=136|end_char=138
+32	mind	mind	NOUN	NN	Number=Sing	31	_	_	start_char=139|end_char=143|SpaceAfter=No
+33	.....	.....	PUNCT	.	_	32	_	_	start_char=143|end_char=148|SpaceAfter=No
+

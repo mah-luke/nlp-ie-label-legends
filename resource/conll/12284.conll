@@ -1,0 +1,46 @@
+# text = Much more appropriate.
+# sent_id = 26045
+1	Much	much	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	more	more	ADV	RBR	Degree=Cmp	1	_	_	start_char=5|end_char=9
+3	appropriate	appropriate	ADJ	JJ	Degree=Pos	2	_	_	start_char=10|end_char=21|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=21|end_char=22
+
+# text = Trump did not HAVE to run for president and have half the country hate on him.
+# sent_id = 26046
+1	Trump	Trump	PROPN	NNP	Number=Sing	0	_	_	start_char=23|end_char=28
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=29|end_char=32
+3	not	not	PART	RB	_	2	_	_	start_char=33|end_char=36
+4	HAVE	have	VERB	VB	VerbForm=Inf	3	_	_	start_char=37|end_char=41
+5	to	to	PART	TO	_	4	_	_	start_char=42|end_char=44
+6	run	run	VERB	VB	VerbForm=Inf	5	_	_	start_char=45|end_char=48
+7	for	for	ADP	IN	_	6	_	_	start_char=49|end_char=52
+8	president	president	NOUN	NN	Number=Sing	7	_	_	start_char=53|end_char=62
+9	and	and	CCONJ	CC	_	8	_	_	start_char=63|end_char=66
+10	have	have	VERB	VB	VerbForm=Inf	9	_	_	start_char=67|end_char=71
+11	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	10	_	_	start_char=72|end_char=76
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=77|end_char=80
+13	country	country	NOUN	NN	Number=Sing	12	_	_	start_char=81|end_char=88
+14	hate	hate	VERB	VB	VerbForm=Inf	13	_	_	start_char=89|end_char=93
+15	on	on	ADP	IN	_	14	_	_	start_char=94|end_char=96
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=97|end_char=100|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=100|end_char=101
+
+# text = He did it because he wanted to make a difference.
+# sent_id = 26047
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=102|end_char=104
+2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=105|end_char=108
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=109|end_char=111
+4	because	because	SCONJ	IN	_	3	_	_	start_char=112|end_char=119
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=120|end_char=122
+6	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=123|end_char=129
+7	to	to	PART	TO	_	6	_	_	start_char=130|end_char=132
+8	make	make	VERB	VB	VerbForm=Inf	7	_	_	start_char=133|end_char=137
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=138|end_char=139
+10	difference	difference	NOUN	NN	Number=Sing	9	_	_	start_char=140|end_char=150|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=150|end_char=151
+
+# text = #MGTOW
+# sent_id = 26048
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=152|end_char=153|SpaceAfter=No
+2	MGTOW	mgtow	NOUN	NN	Number=Sing	1	_	_	start_char=153|end_char=158|SpaceAfter=No
+

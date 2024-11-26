@@ -1,0 +1,41 @@
+# text = That explains the whole ball of wax.
+# sent_id = 62492
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	explains	explain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=13
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=14|end_char=17
+4	whole	whole	ADJ	JJ	Degree=Pos	3	_	_	start_char=18|end_char=23
+5	ball	ball	NOUN	NN	Number=Sing	4	_	_	start_char=24|end_char=28
+6	of	of	ADP	IN	_	5	_	_	start_char=29|end_char=31
+7	wax	wax	NOUN	NN	Number=Sing	6	_	_	start_char=32|end_char=35|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=35|end_char=36
+
+# text = What a piece of sh!t...
+# sent_id = 62493
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=37|end_char=41
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=42|end_char=43
+3	piece	piece	NOUN	NN	Number=Sing	2	_	_	start_char=44|end_char=49
+4	of	of	ADP	IN	_	3	_	_	start_char=50|end_char=52
+5	sh!t...	sh!t...	PUNCT	.	_	4	_	_	start_char=53|end_char=60|SpaceAfter=No
+
+# text = Germans should through her out of her position of power.
+# sent_id = 62494
+1	Germans	German	PROPN	NNPS	Number=Plur	0	_	_	start_char=60|end_char=67
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=68|end_char=74
+3	through	through	ADP	IN	_	2	_	_	start_char=75|end_char=82
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=83|end_char=86
+5	out	out	ADP	IN	_	4	_	_	start_char=87|end_char=90
+6	of	of	ADP	IN	_	5	_	_	start_char=91|end_char=93
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=94|end_char=97
+8	position	position	NOUN	NN	Number=Sing	7	_	_	start_char=98|end_char=106
+9	of	of	ADP	IN	_	8	_	_	start_char=107|end_char=109
+10	power	power	NOUN	NN	Number=Sing	9	_	_	start_char=110|end_char=115|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=115|end_char=116
+
+# text = Good find [USER]
+# sent_id = 62495
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=117|end_char=121
+2	find	find	NOUN	NN	Number=Sing	1	_	_	start_char=122|end_char=126
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=127|end_char=128|SpaceAfter=No
+4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=128|end_char=132|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=132|end_char=133|SpaceAfter=No
+

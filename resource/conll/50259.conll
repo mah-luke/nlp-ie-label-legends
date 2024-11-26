@@ -1,0 +1,31 @@
+# text = That looks like it hurts.
+# sent_id = 107412
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=10
+3	like	like	SCONJ	IN	_	2	_	_	start_char=11|end_char=15
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=16|end_char=18
+5	hurts	hurt	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=19|end_char=24|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=24|end_char=25
+
+# text = That piece in her mouth doesn’t seem necessary.
+# sent_id = 107413
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=26|end_char=30
+2	piece	piece	NOUN	NN	Number=Sing	1	_	_	start_char=31|end_char=36
+3	in	in	ADP	IN	_	2	_	_	start_char=37|end_char=39
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=40|end_char=43
+5	mouth	mouth	NOUN	NN	Number=Sing	4	_	_	start_char=44|end_char=49
+6-7	doesn’t	_	_	_	_	_	_	_	start_char=50|end_char=57
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=50|end_char=54
+7	n’t	not	PART	RB	_	6	_	_	start_char=54|end_char=57
+8	seem	seem	VERB	VB	VerbForm=Inf	7	_	_	start_char=58|end_char=62
+9	necessary	necessary	ADJ	JJ	Degree=Pos	8	_	_	start_char=63|end_char=72|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=72|end_char=73
+
+# text = That trend could stop.
+# sent_id = 107414
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=74|end_char=78
+2	trend	trend	NOUN	NN	Number=Sing	1	_	_	start_char=79|end_char=84
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=85|end_char=90
+4	stop	stop	VERB	VB	VerbForm=Inf	3	_	_	start_char=91|end_char=95|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=95|end_char=96|SpaceAfter=No
+

@@ -1,0 +1,32 @@
+# text = Taylor looks white to me.
+# sent_id = 16625
+1	Taylor	Taylor	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7|end_char=12
+3	white	white	ADJ	JJ	Degree=Pos	2	_	_	start_char=13|end_char=18
+4	to	to	ADP	IN	_	3	_	_	start_char=19|end_char=21
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=22|end_char=24|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=24|end_char=25
+
+# text = Maybe she could follow in Kate Spade’s shoes and show us how it’s done 😈🤷🏻‍♀️
+# sent_id = 16626
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=26|end_char=31
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=32|end_char=35
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=36|end_char=41
+4	follow	follow	VERB	VB	VerbForm=Inf	3	_	_	start_char=42|end_char=48
+5	in	in	ADP	IN	_	4	_	_	start_char=49|end_char=51
+6	Kate	Kate	PROPN	NNP	Number=Sing	5	_	_	start_char=52|end_char=56
+7-8	Spade’s	_	_	_	_	_	_	_	start_char=57|end_char=64
+7	Spade	Spade	PROPN	NNP	Number=Sing	6	_	_	start_char=57|end_char=62
+8	’s	's	PART	POS	_	7	_	_	start_char=62|end_char=64
+9	shoes	shoe	NOUN	NNS	Number=Plur	8	_	_	start_char=65|end_char=70
+10	and	and	CCONJ	CC	_	9	_	_	start_char=71|end_char=74
+11	show	show	VERB	VB	VerbForm=Inf	10	_	_	start_char=75|end_char=79
+12	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	11	_	_	start_char=80|end_char=82
+13	how	how	ADV	WRB	PronType=Int	12	_	_	start_char=83|end_char=86
+14-15	it’s	_	_	_	_	_	_	_	start_char=87|end_char=91
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=87|end_char=89
+15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=89|end_char=91
+16	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	_	_	start_char=92|end_char=96
+17	😈🤷🏻‍♀	😈🤷🏻‍♀	ADP	IN	_	16	_	_	start_char=97|end_char=102|SpaceAfter=No
+18	️	️	PUNCT	.	_	17	_	_	start_char=102|end_char=103|SpaceAfter=No
+

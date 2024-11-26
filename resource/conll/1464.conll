@@ -1,0 +1,57 @@
+# text = [USER]
+# sent_id = 3054
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = For what it's worth, I'd fuck Kira, my God that woman is hot, I'd Mary Ezri, because she's a sweetheart, and I'd kill Jadzia, because she's my least favourite.
+# sent_id = 3055
+1	For	for	ADP	IN	_	0	_	_	start_char=7|end_char=10
+2	what	what	PRON	WP	PronType=Rel	1	_	_	start_char=11|end_char=15
+3-4	it's	_	_	_	_	_	_	_	start_char=16|end_char=20
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=16|end_char=18
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=18|end_char=20
+5	worth	worth	ADJ	JJ	Degree=Pos	4	_	_	start_char=21|end_char=26|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=26|end_char=27
+7-8	I'd	_	_	_	_	_	_	_	start_char=28|end_char=31
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=28|end_char=29
+8	'd	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=29|end_char=31
+9	fuck	fuck	VERB	VB	VerbForm=Inf	8	_	_	start_char=32|end_char=36
+10	Kira	Kira	PROPN	NNP	Number=Sing	9	_	_	start_char=37|end_char=41|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=41|end_char=42
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	_	_	start_char=43|end_char=45
+13	God	God	PROPN	NNP	Number=Sing	12	_	_	start_char=46|end_char=49
+14	that	that	DET	DT	Number=Sing|PronType=Dem	13	_	_	start_char=50|end_char=54
+15	woman	woman	NOUN	NN	Number=Sing	14	_	_	start_char=55|end_char=60
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=61|end_char=63
+17	hot	hot	ADJ	JJ	Degree=Pos	16	_	_	start_char=64|end_char=67|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=67|end_char=68
+19-20	I'd	_	_	_	_	_	_	_	start_char=69|end_char=72
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	_	_	start_char=69|end_char=70
+20	'd	would	AUX	MD	VerbForm=Fin	19	_	_	start_char=70|end_char=72
+21	Mary	Mary	PROPN	NNP	Number=Sing	20	_	_	start_char=73|end_char=77
+22	Ezri	Ezri	PROPN	NNP	Number=Sing	21	_	_	start_char=78|end_char=82|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	start_char=82|end_char=83
+24	because	because	SCONJ	IN	_	23	_	_	start_char=84|end_char=91
+25-26	she's	_	_	_	_	_	_	_	start_char=92|end_char=97
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	_	_	start_char=92|end_char=95
+26	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	start_char=95|end_char=97
+27	a	a	DET	DT	Definite=Ind|PronType=Art	26	_	_	start_char=98|end_char=99
+28	sweetheart	sweetheart	NOUN	NN	Number=Sing	27	_	_	start_char=100|end_char=110|SpaceAfter=No
+29	,	,	PUNCT	,	_	28	_	_	start_char=110|end_char=111
+30	and	and	CCONJ	CC	_	29	_	_	start_char=112|end_char=115
+31-32	I'd	_	_	_	_	_	_	_	start_char=116|end_char=119
+31	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	30	_	_	start_char=116|end_char=117
+32	'd	would	AUX	MD	VerbForm=Fin	31	_	_	start_char=117|end_char=119
+33	kill	kill	VERB	VB	VerbForm=Inf	32	_	_	start_char=120|end_char=124
+34	Jadzia	Jadzia	PROPN	NNP	Number=Sing	33	_	_	start_char=125|end_char=131|SpaceAfter=No
+35	,	,	PUNCT	,	_	34	_	_	start_char=131|end_char=132
+36	because	because	SCONJ	IN	_	35	_	_	start_char=133|end_char=140
+37-38	she's	_	_	_	_	_	_	_	start_char=141|end_char=146
+37	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	36	_	_	start_char=141|end_char=144
+38	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	_	_	start_char=144|end_char=146
+39	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	38	_	_	start_char=147|end_char=149
+40	least	least	ADJ	JJS	Degree=Sup	39	_	_	start_char=150|end_char=155
+41	favourite	favourite	NOUN	NN	Number=Sing	40	_	_	start_char=156|end_char=165|SpaceAfter=No
+42	.	.	PUNCT	.	_	41	_	_	start_char=165|end_char=166|SpaceAfter=No
+

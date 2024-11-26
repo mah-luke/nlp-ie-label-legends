@@ -1,0 +1,24 @@
+# text = Didn’t Joe’s uncle drown his pregnant girlfriend?
+# sent_id = 48394
+1-2	Didn’t	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	n’t	not	PART	RB	_	1	_	_	start_char=3|end_char=6
+3-4	Joe’s	_	_	_	_	_	_	_	start_char=7|end_char=12
+3	Joe	Joe	PROPN	NNP	Number=Sing	2	_	_	start_char=7|end_char=10
+4	’s	's	PART	POS	_	3	_	_	start_char=10|end_char=12
+5	uncle	uncle	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=18
+6	drown	drown	VERB	VB	VerbForm=Inf	5	_	_	start_char=19|end_char=24
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=25|end_char=28
+8	pregnant	pregnant	ADJ	JJ	Degree=Pos	7	_	_	start_char=29|end_char=37
+9	girlfriend	girlfriend	NOUN	NN	Number=Sing	8	_	_	start_char=38|end_char=48|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=48|end_char=49
+
+# text = Was that “heartfull”?
+# sent_id = 48395
+1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=50|end_char=53
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=54|end_char=58
+3	“	''	PUNCT	``	_	2	_	_	start_char=59|end_char=60|SpaceAfter=No
+4	heartfull	heartfull	ADJ	JJ	Degree=Pos	3	_	_	start_char=60|end_char=69|SpaceAfter=No
+5	”	''	PUNCT	''	_	4	_	_	start_char=69|end_char=70|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=70|end_char=71|SpaceAfter=No
+

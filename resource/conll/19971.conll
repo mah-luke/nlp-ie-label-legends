@@ -1,0 +1,37 @@
+# text = How is talking about licking kids (JB) anything but creepy?
+# sent_id = 42906
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=7|end_char=14
+4	about	about	SCONJ	IN	_	3	_	_	start_char=15|end_char=20
+5	licking	lick	VERB	VBG	VerbForm=Ger	4	_	_	start_char=21|end_char=28
+6	kids	kid	NOUN	NNS	Number=Plur	5	_	_	start_char=29|end_char=33
+7	(	(	PUNCT	-LRB-	_	6	_	_	start_char=34|end_char=35|SpaceAfter=No
+8	JB	JB	PROPN	NNP	Number=Sing	7	_	_	start_char=35|end_char=37|SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	8	_	_	start_char=37|end_char=38
+10	anything	anything	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=39|end_char=47
+11	but	but	CCONJ	CC	_	10	_	_	start_char=48|end_char=51
+12	creepy	creepy	ADJ	JJ	Degree=Pos	11	_	_	start_char=52|end_char=58|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=58|end_char=59
+
+# text = OP isn’t talking about women.
+# sent_id = 42907
+1	OP	OP	PROPN	NNP	Number=Sing	0	_	_	start_char=60|end_char=62
+2-3	isn’t	_	_	_	_	_	_	_	start_char=63|end_char=68
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=65
+3	n’t	not	PART	RB	_	2	_	_	start_char=65|end_char=68
+4	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=69|end_char=76
+5	about	about	ADP	IN	_	4	_	_	start_char=77|end_char=82
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=83|end_char=88|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=88|end_char=89
+
+# text = He’s talking about kids.
+# sent_id = 42908
+1-2	He’s	_	_	_	_	_	_	_	start_char=90|end_char=94
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=90|end_char=92
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=92|end_char=94
+3	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=95|end_char=102
+4	about	about	ADP	IN	_	3	_	_	start_char=103|end_char=108
+5	kids	kid	NOUN	NNS	Number=Plur	4	_	_	start_char=109|end_char=113|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=113|end_char=114|SpaceAfter=No
+

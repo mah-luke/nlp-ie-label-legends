@@ -1,0 +1,32 @@
+# text = I've been begging for thousands of gators to be placed in the Rio Grande.
+# sent_id = 77083
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=9
+4	begging	beg	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=10|end_char=17
+5	for	for	ADP	IN	_	4	_	_	start_char=18|end_char=21
+6	thousands	thousand	NOUN	NNS	Number=Plur	5	_	_	start_char=22|end_char=31
+7	of	of	ADP	IN	_	6	_	_	start_char=32|end_char=34
+8	gators	gator	NOUN	NNS	Number=Plur	7	_	_	start_char=35|end_char=41
+9	to	to	PART	TO	_	8	_	_	start_char=42|end_char=44
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=45|end_char=47
+11	placed	place	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=48|end_char=54
+12	in	in	ADP	IN	_	11	_	_	start_char=55|end_char=57
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=58|end_char=61
+14	Rio	Rio	PROPN	NNP	Number=Sing	13	_	_	start_char=62|end_char=65
+15	Grande	Grande	PROPN	NNP	Number=Sing	14	_	_	start_char=66|end_char=72|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=72|end_char=73
+
+# text = Lots of females too so they reproduce often.
+# sent_id = 77084
+1	Lots	lot	NOUN	NNS	Number=Plur	0	_	_	start_char=74|end_char=78
+2	of	of	ADP	IN	_	1	_	_	start_char=79|end_char=81
+3	females	female	NOUN	NNS	Number=Plur	2	_	_	start_char=82|end_char=89
+4	too	too	ADV	RB	_	3	_	_	start_char=90|end_char=93
+5	so	so	ADV	RB	_	4	_	_	start_char=94|end_char=96
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=97|end_char=101
+7	reproduce	reproduce	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=102|end_char=111
+8	often	often	ADV	RB	_	7	_	_	start_char=112|end_char=117|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=117|end_char=118|SpaceAfter=No
+

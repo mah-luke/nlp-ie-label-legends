@@ -1,0 +1,82 @@
+# text = Cruel?
+# sent_id = 65922
+1	Cruel	Cruel	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=5|end_char=6
+
+# text = What’s coming ahead will make this moment seem like a Happy Birthday Party.
+# sent_id = 65923
+1-2	What’s	_	_	_	_	_	_	_	start_char=7|end_char=13
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=7|end_char=11
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=11|end_char=13
+3	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=14|end_char=20
+4	ahead	ahead	ADV	RB	_	3	_	_	start_char=21|end_char=26
+5	will	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=27|end_char=31
+6	make	make	VERB	VB	VerbForm=Inf	5	_	_	start_char=32|end_char=36
+7	this	this	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=37|end_char=41
+8	moment	moment	NOUN	NN	Number=Sing	7	_	_	start_char=42|end_char=48
+9	seem	seem	VERB	VB	VerbForm=Inf	8	_	_	start_char=49|end_char=53
+10	like	like	ADP	IN	_	9	_	_	start_char=54|end_char=58
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=59|end_char=60
+12	Happy	happy	ADJ	NNP	Degree=Pos	11	_	_	start_char=61|end_char=66
+13	Birthday	Birthday	PROPN	NNP	Number=Sing	12	_	_	start_char=67|end_char=75
+14	Party	Party	PROPN	NNP	Number=Sing	13	_	_	start_char=76|end_char=81|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=81|end_char=82
+
+# text = If she had her way, you and yours would be in a Gulag.
+# sent_id = 65924
+1	If	if	SCONJ	IN	_	0	_	_	start_char=83|end_char=85
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=86|end_char=89
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=90|end_char=93
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=94|end_char=97
+5	way	way	NOUN	NN	Number=Sing	4	_	_	start_char=98|end_char=101|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=101|end_char=102
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=103|end_char=106
+8	and	and	CCONJ	CC	_	7	_	_	start_char=107|end_char=110
+9	yours	yours	PRON	PRP	Gender=Neut|Number=Sing|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=111|end_char=116
+10	would	would	AUX	MD	VerbForm=Fin	9	_	_	start_char=117|end_char=122
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=123|end_char=125
+12	in	in	ADP	IN	_	11	_	_	start_char=126|end_char=128
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=129|end_char=130
+14	Gulag	Gulag	PROPN	NNP	Number=Sing	13	_	_	start_char=131|end_char=136|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=136|end_char=137
+
+# text = Never forget that-no sympathy, no pity.
+# sent_id = 65925
+1	Never	never	ADV	RB	_	0	_	_	start_char=138|end_char=143
+2	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=144|end_char=150
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=151|end_char=155|SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	_	_	start_char=155|end_char=156|SpaceAfter=No
+5	no	no	DET	DT	_	4	_	_	start_char=156|end_char=158
+6	sympathy	sympathy	NOUN	NN	Number=Sing	5	_	_	start_char=159|end_char=167|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=167|end_char=168
+8	no	no	DET	DT	_	7	_	_	start_char=169|end_char=171
+9	pity	pity	NOUN	NN	Number=Sing	8	_	_	start_char=172|end_char=176|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=176|end_char=177
+
+# text = It’s a war for our children’s survival.
+# sent_id = 65926
+1-2	It’s	_	_	_	_	_	_	_	start_char=178|end_char=182
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=178|end_char=180
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=180|end_char=182
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=183|end_char=184
+4	war	war	NOUN	NN	Number=Sing	3	_	_	start_char=185|end_char=188
+5	for	for	ADP	IN	_	4	_	_	start_char=189|end_char=192
+6	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=193|end_char=196
+7-8	children’s	_	_	_	_	_	_	_	start_char=197|end_char=207
+7	children	child	NOUN	NNS	Number=Plur	6	_	_	start_char=197|end_char=205
+8	’s	's	PART	POS	_	7	_	_	start_char=205|end_char=207
+9	survival	survival	NOUN	NN	Number=Sing	8	_	_	start_char=208|end_char=216|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=216|end_char=217
+
+# text = Oh.
+# sent_id = 65927
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=218|end_char=220|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=220|end_char=221
+
+# text = And F her.
+# sent_id = 65928
+1	And	and	CCONJ	CC	_	0	_	_	start_char=222|end_char=225
+2	F	F	PROPN	NNP	Number=Sing	1	_	_	start_char=226|end_char=227
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=228|end_char=231|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=231|end_char=232|SpaceAfter=No
+

@@ -1,0 +1,68 @@
+# text = How does that not count?
+# sent_id = 71763
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=9|end_char=13
+4	not	not	PART	RB	_	3	_	_	start_char=14|end_char=17
+5	count	count	VERB	VB	VerbForm=Inf	4	_	_	start_char=18|end_char=23|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=23|end_char=24
+
+# text = They can have sex with a willing partner.
+# sent_id = 71764
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=25|end_char=29
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=30|end_char=33
+3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=34|end_char=38
+4	sex	sex	NOUN	NN	Number=Sing	3	_	_	start_char=39|end_char=42
+5	with	with	ADP	IN	_	4	_	_	start_char=43|end_char=47
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=48|end_char=49
+7	willing	willing	ADJ	JJ	Degree=Pos	6	_	_	start_char=50|end_char=57
+8	partner	partner	NOUN	NN	Number=Sing	7	_	_	start_char=58|end_char=65|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=65|end_char=66
+
+# text = Hell, it counts more than the bad "female incels can have sex with people they're not attracted to" argument.
+# sent_id = 71765
+1	Hell	Hell	PROPN	NNP	Number=Sing	0	_	_	start_char=67|end_char=71|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=71|end_char=72
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=73|end_char=75
+4	counts	count	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=76|end_char=82
+5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=83|end_char=87
+6	than	than	ADP	IN	_	5	_	_	start_char=88|end_char=92
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=93|end_char=96
+8	bad	bad	ADJ	JJ	Degree=Pos	7	_	_	start_char=97|end_char=100
+9	"	"	PUNCT	``	_	8	_	_	start_char=101|end_char=102|SpaceAfter=No
+10	female	female	ADJ	JJ	Degree=Pos	9	_	_	start_char=102|end_char=108
+11	incels	incel	NOUN	NNS	Number=Plur	10	_	_	start_char=109|end_char=115
+12	can	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=116|end_char=119
+13	have	have	VERB	VB	VerbForm=Inf	12	_	_	start_char=120|end_char=124
+14	sex	sex	NOUN	NN	Number=Sing	13	_	_	start_char=125|end_char=128
+15	with	with	ADP	IN	_	14	_	_	start_char=129|end_char=133
+16	people	person	NOUN	NNS	Number=Plur	15	_	_	start_char=134|end_char=140
+17-18	they're	_	_	_	_	_	_	_	start_char=141|end_char=148
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=141|end_char=145
+18	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=145|end_char=148
+19	not	not	PART	RB	_	18	_	_	start_char=149|end_char=152
+20	attracted	attract	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	_	_	start_char=153|end_char=162
+21	to	to	ADP	IN	_	20	_	_	start_char=163|end_char=165|SpaceAfter=No
+22	"	"	PUNCT	''	_	21	_	_	start_char=165|end_char=166
+23	argument	argument	NOUN	NN	Number=Sing	22	_	_	start_char=167|end_char=175|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=175|end_char=176
+
+# text = At least the male incels can find a pro they can get it up for.
+# sent_id = 71766
+1	At	at	ADP	IN	ExtPos=ADV	0	_	_	start_char=177|end_char=179
+2	least	least	ADJ	JJS	Degree=Sup	1	_	_	start_char=180|end_char=185
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=186|end_char=189
+4	male	male	ADJ	JJ	Degree=Pos	3	_	_	start_char=190|end_char=194
+5	incels	incel	NOUN	NNS	Number=Plur	4	_	_	start_char=195|end_char=201
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=202|end_char=205
+7	find	find	VERB	VB	VerbForm=Inf	6	_	_	start_char=206|end_char=210
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=211|end_char=212
+9	pro	pro	NOUN	NN	Number=Sing	8	_	_	start_char=213|end_char=216
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=217|end_char=221
+11	can	can	AUX	MD	VerbForm=Fin	10	_	_	start_char=222|end_char=225
+12	get	get	VERB	VB	VerbForm=Inf	11	_	_	start_char=226|end_char=229
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=230|end_char=232
+14	up	up	ADP	RP	_	13	_	_	start_char=233|end_char=235
+15	for	for	ADP	IN	_	14	_	_	start_char=236|end_char=239|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=239|end_char=240|SpaceAfter=No
+

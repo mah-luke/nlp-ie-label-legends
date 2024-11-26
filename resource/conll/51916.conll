@@ -1,0 +1,30 @@
+# text = Where do you buy yours at?
+# sent_id = 111015
+1	Where	where	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=5
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=8
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	buy	buy	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=16
+5	yours	yours	PRON	PRP	Gender=Neut|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=17|end_char=22
+6	at	at	ADP	IN	_	5	_	_	start_char=23|end_char=25|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=25|end_char=26
+
+# text = I heard this shit is hard to find.
+# sent_id = 111016
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=27|end_char=28
+2	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=29|end_char=34
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=35|end_char=39
+4	shit	shit	NOUN	NN	Number=Sing	3	_	_	start_char=40|end_char=44
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=45|end_char=47
+6	hard	hard	ADJ	JJ	Degree=Pos	5	_	_	start_char=48|end_char=52
+7	to	to	PART	TO	_	6	_	_	start_char=53|end_char=55
+8	find	find	VERB	VB	VerbForm=Inf	7	_	_	start_char=56|end_char=60|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=60|end_char=61
+
+# text = The non and reseratrol?
+# sent_id = 111017
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=62|end_char=65
+2	non	non	NOUN	NN	Number=Sing	1	_	_	start_char=66|end_char=69
+3	and	and	CCONJ	CC	_	2	_	_	start_char=70|end_char=73
+4	reseratrol	reseratrol	NOUN	NN	Number=Sing	3	_	_	start_char=74|end_char=84|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=84|end_char=85|SpaceAfter=No
+

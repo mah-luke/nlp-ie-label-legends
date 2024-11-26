@@ -1,0 +1,47 @@
+# text = This is an overreaction but only a slight one.
+# sent_id = 100035
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=8|end_char=10
+4	overreaction	overreaction	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=23
+5	but	but	CCONJ	CC	_	4	_	_	start_char=24|end_char=27
+6	only	only	ADV	RB	_	5	_	_	start_char=28|end_char=32
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=33|end_char=34
+8	slight	slight	ADJ	JJ	Degree=Pos	7	_	_	start_char=35|end_char=41
+9	one	one	NOUN	NN	Number=Sing	8	_	_	start_char=42|end_char=45|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=45|end_char=46
+
+# text = I would try to talk to her about it first but if she can't see why you'd be scared, then yeah it's probably doomed
+# sent_id = 100036
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=47|end_char=48
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=49|end_char=54
+3	try	try	VERB	VB	VerbForm=Inf	2	_	_	start_char=55|end_char=58
+4	to	to	PART	TO	_	3	_	_	start_char=59|end_char=61
+5	talk	talk	VERB	VB	VerbForm=Inf	4	_	_	start_char=62|end_char=66
+6	to	to	ADP	IN	_	5	_	_	start_char=67|end_char=69
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=70|end_char=73
+8	about	about	ADP	IN	_	7	_	_	start_char=74|end_char=79
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=80|end_char=82
+10	first	first	ADV	RB	NumType=Ord	9	_	_	start_char=83|end_char=88
+11	but	but	CCONJ	CC	_	10	_	_	start_char=89|end_char=92
+12	if	if	SCONJ	IN	_	11	_	_	start_char=93|end_char=95
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=96|end_char=99
+14-15	can't	_	_	_	_	_	_	_	start_char=100|end_char=105
+14	ca	can	AUX	MD	VerbForm=Fin	13	_	_	start_char=100|end_char=102
+15	n't	not	PART	RB	_	14	_	_	start_char=102|end_char=105
+16	see	see	VERB	VB	VerbForm=Inf	15	_	_	start_char=106|end_char=109
+17	why	why	ADV	WRB	PronType=Int	16	_	_	start_char=110|end_char=113
+18-19	you'd	_	_	_	_	_	_	_	start_char=114|end_char=119
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	_	_	start_char=114|end_char=117
+19	'd	would	AUX	MD	VerbForm=Fin	18	_	_	start_char=117|end_char=119
+20	be	be	AUX	VB	VerbForm=Inf	19	_	_	start_char=120|end_char=122
+21	scared	scared	ADJ	JJ	Degree=Pos	20	_	_	start_char=123|end_char=129|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=129|end_char=130
+23	then	then	ADV	RB	PronType=Dem	22	_	_	start_char=131|end_char=135
+24	yeah	yeah	INTJ	UH	_	23	_	_	start_char=136|end_char=140
+25-26	it's	_	_	_	_	_	_	_	start_char=141|end_char=145
+25	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	_	_	start_char=141|end_char=143
+26	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	start_char=143|end_char=145
+27	probably	probably	ADV	RB	_	26	_	_	start_char=146|end_char=154
+28	doomed	doom	ADJ	JJ	Degree=Pos	27	_	_	start_char=155|end_char=161|SpaceAfter=No
+

@@ -1,0 +1,43 @@
+# text = Every girl is fucking Chad.
+# sent_id = 71587
+1	Every	every	DET	DT	_	0	_	_	start_char=0|end_char=5
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=10
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=14|end_char=21
+5	Chad	Chad	PROPN	NNP	Number=Sing	4	_	_	start_char=22|end_char=26|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=26|end_char=27
+
+# text = Since I'm blackpilled if I don't fuck after a second date (if it goes that far) ima just forget about it and move on.
+# sent_id = 71588
+1	Since	since	SCONJ	IN	_	0	_	_	start_char=28|end_char=33
+2-3	I'm	_	_	_	_	_	_	_	start_char=34|end_char=37
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=34|end_char=35
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=35|end_char=37
+4	blackpilled	blackpill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=38|end_char=49
+5	if	if	SCONJ	IN	_	4	_	_	start_char=50|end_char=52
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=53|end_char=54
+7-8	don't	_	_	_	_	_	_	_	start_char=55|end_char=60
+7	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=55|end_char=57
+8	n't	not	PART	RB	_	7	_	_	start_char=57|end_char=60
+9	fuck	fuck	VERB	VB	VerbForm=Inf	8	_	_	start_char=61|end_char=65
+10	after	after	ADP	IN	_	9	_	_	start_char=66|end_char=71
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=72|end_char=73
+12	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	11	_	_	start_char=74|end_char=80
+13	date	date	NOUN	NN	Number=Sing	12	_	_	start_char=81|end_char=85
+14	(	(	PUNCT	-LRB-	_	13	_	_	start_char=86|end_char=87|SpaceAfter=No
+15	if	if	SCONJ	IN	_	14	_	_	start_char=87|end_char=89
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=90|end_char=92
+17	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=93|end_char=97
+18	that	that	ADV	RB	_	17	_	_	start_char=98|end_char=102
+19	far	far	ADV	RB	Degree=Pos	18	_	_	start_char=103|end_char=106|SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	19	_	_	start_char=106|end_char=107
+21	ima	ima	INTJ	UH	_	20	_	_	start_char=108|end_char=111
+22	just	just	ADV	RB	_	21	_	_	start_char=112|end_char=116
+23	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	22	_	_	start_char=117|end_char=123
+24	about	about	ADP	IN	_	23	_	_	start_char=124|end_char=129
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	_	_	start_char=130|end_char=132
+26	and	and	CCONJ	CC	_	25	_	_	start_char=133|end_char=136
+27	move	move	VERB	VB	VerbForm=Inf	26	_	_	start_char=137|end_char=141
+28	on	on	ADP	RP	_	27	_	_	start_char=142|end_char=144|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=144|end_char=145|SpaceAfter=No
+

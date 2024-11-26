@@ -1,0 +1,43 @@
+# text = It's because they're oppressed so they need their own spaces.
+# sent_id = 51672
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	because	because	SCONJ	IN	_	2	_	_	start_char=5|end_char=12
+4-5	they're	_	_	_	_	_	_	_	start_char=13|end_char=20
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=13|end_char=17
+5	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=17|end_char=20
+6	oppressed	oppress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=21|end_char=30
+7	so	so	SCONJ	IN	_	6	_	_	start_char=31|end_char=33
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=34|end_char=38
+9	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=39|end_char=43
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=44|end_char=49
+11	own	own	ADJ	JJ	Degree=Pos	10	_	_	start_char=50|end_char=53
+12	spaces	space	NOUN	NNS	Number=Plur	11	_	_	start_char=54|end_char=60|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=60|end_char=61
+
+# text = But men don't need any spaces because they have it easy.
+# sent_id = 51673
+1	But	but	CCONJ	CC	_	0	_	_	start_char=62|end_char=65
+2	men	man	NOUN	NNS	Number=Plur	1	_	_	start_char=66|end_char=69
+3-4	don't	_	_	_	_	_	_	_	start_char=70|end_char=75
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=70|end_char=72
+4	n't	not	PART	RB	_	3	_	_	start_char=72|end_char=75
+5	need	need	VERB	VB	VerbForm=Inf	4	_	_	start_char=76|end_char=80
+6	any	any	DET	DT	_	5	_	_	start_char=81|end_char=84
+7	spaces	space	NOUN	NNS	Number=Plur	6	_	_	start_char=85|end_char=91
+8	because	because	SCONJ	IN	_	7	_	_	start_char=92|end_char=99
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=100|end_char=104
+10	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=105|end_char=109
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=110|end_char=112
+12	easy	easy	ADJ	JJ	Degree=Pos	11	_	_	start_char=113|end_char=117|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=117|end_char=118
+
+# text = Female 'logic'.
+# sent_id = 51674
+1	Female	Female	ADJ	JJ	Degree=Pos	0	_	_	start_char=119|end_char=125
+2	'	'	PUNCT	``	_	1	_	_	start_char=126|end_char=127|SpaceAfter=No
+3	logic	logic	NOUN	NN	Number=Sing	2	_	_	start_char=127|end_char=132|SpaceAfter=No
+4	'	'	PUNCT	''	_	3	_	_	start_char=132|end_char=133|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=133|end_char=134|SpaceAfter=No
+

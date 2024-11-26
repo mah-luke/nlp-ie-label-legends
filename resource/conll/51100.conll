@@ -1,0 +1,45 @@
+# text = "I don't actually fuck girls, I'm gay.
+# sent_id = 109206
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
+3-4	don't	_	_	_	_	_	_	_	start_char=3|end_char=8
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=3|end_char=5
+4	n't	not	PART	RB	_	3	_	_	start_char=5|end_char=8
+5	actually	actually	ADV	RB	_	4	_	_	start_char=9|end_char=17
+6	fuck	fuck	VERB	VB	VerbForm=Inf	5	_	_	start_char=18|end_char=22
+7	girls	girl	NOUN	NNS	Number=Plur	6	_	_	start_char=23|end_char=28|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=28|end_char=29
+9-10	I'm	_	_	_	_	_	_	_	start_char=30|end_char=33
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=30|end_char=31
+10	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=31|end_char=33
+11	gay	gay	ADJ	JJ	Degree=Pos	10	_	_	start_char=34|end_char=37|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=37|end_char=38
+
+# text = I've been fucking guys twice a day since last December, how many girls are YOU fucking?"
+# sent_id = 109207
+1-2	I've	_	_	_	_	_	_	_	start_char=39|end_char=43
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=39|end_char=40
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=40|end_char=43
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=44|end_char=48
+4	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=49|end_char=56
+5	guys	guy	NOUN	NNS	Number=Plur	4	_	_	start_char=57|end_char=61
+6	twice	twice	ADV	RB	NumType=Mult	5	_	_	start_char=62|end_char=67
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=68|end_char=69
+8	day	day	NOUN	NN	Number=Sing	7	_	_	start_char=70|end_char=73
+9	since	since	ADP	IN	_	8	_	_	start_char=74|end_char=79
+10	last	last	ADJ	JJ	Degree=Pos	9	_	_	start_char=80|end_char=84
+11	December	December	PROPN	NNP	Number=Sing	10	_	_	start_char=85|end_char=93|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=93|end_char=94
+13	how	how	ADV	WRB	PronType=Int	12	_	_	start_char=95|end_char=98
+14	many	many	ADJ	JJ	Degree=Pos	13	_	_	start_char=99|end_char=103
+15	girls	girl	NOUN	NNS	Number=Plur	14	_	_	start_char=104|end_char=109
+16	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=110|end_char=113
+17	YOU	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	_	_	start_char=114|end_char=117
+18	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	17	_	_	start_char=118|end_char=125|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=125|end_char=126|SpaceAfter=No
+20	"	"	PUNCT	''	_	19	_	_	start_char=126|end_char=127
+
+# text = Cringelord
+# sent_id = 109208
+1	Cringelord	Cringelord	PROPN	NNP	Number=Sing	0	_	_	start_char=128|end_char=138|SpaceAfter=No
+

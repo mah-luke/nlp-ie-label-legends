@@ -1,0 +1,33 @@
+# text = This bitch is so ugly she'd have to put a knife to a man to force him to screw her.
+# sent_id = 61506
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	bitch	bitch	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	so	so	ADV	RB	_	3	_	_	start_char=14|end_char=16
+5	ugly	ugly	ADJ	JJ	Degree=Pos	4	_	_	start_char=17|end_char=21
+6-7	she'd	_	_	_	_	_	_	_	start_char=22|end_char=27
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=22|end_char=25
+7	'd	would	AUX	MD	VerbForm=Fin	6	_	_	start_char=25|end_char=27
+8	have	have	VERB	VB	VerbForm=Inf	7	_	_	start_char=28|end_char=32
+9	to	to	PART	TO	_	8	_	_	start_char=33|end_char=35
+10	put	put	VERB	VB	VerbForm=Inf	9	_	_	start_char=36|end_char=39
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=40|end_char=41
+12	knife	knife	NOUN	NN	Number=Sing	11	_	_	start_char=42|end_char=47
+13	to	to	ADP	IN	_	12	_	_	start_char=48|end_char=50
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=51|end_char=52
+15	man	man	NOUN	NN	Number=Sing	14	_	_	start_char=53|end_char=56
+16	to	to	PART	TO	_	15	_	_	start_char=57|end_char=59
+17	force	force	VERB	VB	VerbForm=Inf	16	_	_	start_char=60|end_char=65
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=66|end_char=69
+19	to	to	PART	TO	_	18	_	_	start_char=70|end_char=72
+20	screw	screw	VERB	VB	VerbForm=Inf	19	_	_	start_char=73|end_char=78
+21	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=79|end_char=82|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=82|end_char=83
+
+# text = Dog shit ugly.
+# sent_id = 61507
+1	Dog	dog	NOUN	NN	Number=Sing	0	_	_	start_char=84|end_char=87
+2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=88|end_char=92
+3	ugly	ugly	ADJ	JJ	Degree=Pos	2	_	_	start_char=93|end_char=97|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=97|end_char=98|SpaceAfter=No
+

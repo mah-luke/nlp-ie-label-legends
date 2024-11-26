@@ -1,0 +1,58 @@
+# text = Hostile, left-wing moron.
+# sent_id = 125752
+1	Hostile	hostile	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=7|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=7|end_char=8
+3	left	left	ADJ	JJ	Degree=Pos	2	_	_	start_char=9|end_char=13|SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	_	_	start_char=13|end_char=14|SpaceAfter=No
+5	wing	wing	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=18
+6	moron	moron	NOUN	NN	Number=Sing	5	_	_	start_char=19|end_char=24|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=24|end_char=25
+
+# text = Thinks she's it.
+# sent_id = 125753
+1	Thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=26|end_char=32
+2-3	she's	_	_	_	_	_	_	_	start_char=33|end_char=38
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=33|end_char=36
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=36|end_char=38
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=39|end_char=41|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=41|end_char=42
+
+# text = This is the type of person who hides behind the computer screen.
+# sent_id = 125754
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=43|end_char=47
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=48|end_char=50
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=51|end_char=54
+4	type	type	NOUN	NN	Number=Sing	3	_	_	start_char=55|end_char=59
+5	of	of	ADP	IN	_	4	_	_	start_char=60|end_char=62
+6	person	person	NOUN	NN	Number=Sing	5	_	_	start_char=63|end_char=69
+7	who	who	PRON	WP	PronType=Rel	6	_	_	start_char=70|end_char=73
+8	hides	hide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=74|end_char=79
+9	behind	behind	ADP	IN	_	8	_	_	start_char=80|end_char=86
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=87|end_char=90
+11	computer	computer	NOUN	NN	Number=Sing	10	_	_	start_char=91|end_char=99
+12	screen	screen	NOUN	NN	Number=Sing	11	_	_	start_char=100|end_char=106|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=106|end_char=107
+
+# text = Let her come out in public and spew hatred.
+# sent_id = 125755
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=108|end_char=111
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=112|end_char=115
+3	come	come	VERB	VB	VerbForm=Inf	2	_	_	start_char=116|end_char=120
+4	out	out	ADV	RB	_	3	_	_	start_char=121|end_char=124
+5	in	in	ADP	IN	_	4	_	_	start_char=125|end_char=127
+6	public	public	NOUN	NN	Number=Sing	5	_	_	start_char=128|end_char=134
+7	and	and	CCONJ	CC	_	6	_	_	start_char=135|end_char=138
+8	spew	spew	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=139|end_char=143
+9	hatred	hatred	NOUN	NN	Number=Sing	8	_	_	start_char=144|end_char=150|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=150|end_char=151
+
+# text = Cowards like her won't.
+# sent_id = 125756
+1	Cowards	coward	NOUN	NNS	Number=Plur	0	_	_	start_char=152|end_char=159
+2	like	like	ADP	IN	_	1	_	_	start_char=160|end_char=164
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=165|end_char=168
+4-5	won't	_	_	_	_	_	_	_	start_char=169|end_char=174|SpaceAfter=No
+4	wo	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=169|end_char=171
+5	n't	not	PART	RB	_	4	_	_	start_char=171|end_char=174
+6	.	.	PUNCT	.	_	5	_	_	start_char=174|end_char=175|SpaceAfter=No
+

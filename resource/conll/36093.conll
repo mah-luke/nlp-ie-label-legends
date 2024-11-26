@@ -1,0 +1,22 @@
+# text = Someone sent me this!! 😂
+# sent_id = 77199
+1	Someone	someone	PRON	NN	Number=Sing|PronType=Ind	0	_	_	start_char=0|end_char=7
+2	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=8|end_char=12
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=13|end_char=15
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=16|end_char=20|SpaceAfter=No
+5	!!	!!	PUNCT	.	_	4	_	_	start_char=20|end_char=22
+6	😂	😂	PUNCT	NFP	_	5	_	_	start_char=23|end_char=24
+
+# text = You forgot to photoshop your neck, grandma! 😂😂
+# sent_id = 77200
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=25|end_char=28
+2	forgot	forget	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=29|end_char=35
+3	to	to	PART	TO	_	2	_	_	start_char=36|end_char=38
+4	photoshop	photoshop	VERB	VB	VerbForm=Inf	3	_	_	start_char=39|end_char=48
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=49|end_char=53
+6	neck	neck	NOUN	NN	Number=Sing	5	_	_	start_char=54|end_char=58|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=58|end_char=59
+8	grandma	grandma	NOUN	NN	Number=Sing	7	_	_	start_char=60|end_char=67|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=67|end_char=68
+10	😂😂	😂😂	INTJ	UH	_	9	_	_	start_char=69|end_char=71|SpaceAfter=No
+

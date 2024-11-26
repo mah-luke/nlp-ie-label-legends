@@ -1,0 +1,55 @@
+# text = A giant balloon dubbed "Trump baby" has been given the green light to fly near parliament during the president's UK visit.
+# sent_id = 127206
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
+2	giant	giant	ADJ	JJ	Degree=Pos	1	_	_	start_char=2|end_char=7
+3	balloon	balloon	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=15
+4	dubbed	dub	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=16|end_char=22
+5	"	"	PUNCT	``	_	4	_	_	start_char=23|end_char=24|SpaceAfter=No
+6	Trump	Trump	PROPN	NNP	Number=Sing	5	_	_	start_char=24|end_char=29
+7	baby	baby	PROPN	NNP	Number=Sing	6	_	_	start_char=30|end_char=34|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=34|end_char=35
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=36|end_char=39
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=40|end_char=44
+11	given	give	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=45|end_char=50
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=51|end_char=54
+13	green	green	ADJ	JJ	Degree=Pos	12	_	_	start_char=55|end_char=60
+14	light	light	NOUN	NN	Number=Sing	13	_	_	start_char=61|end_char=66
+15	to	to	PART	TO	_	14	_	_	start_char=67|end_char=69
+16	fly	fly	VERB	VB	VerbForm=Inf	15	_	_	start_char=70|end_char=73
+17	near	near	ADP	IN	_	16	_	_	start_char=74|end_char=78
+18	parliament	parliament	NOUN	NN	Number=Sing	17	_	_	start_char=79|end_char=89
+19	during	during	ADP	IN	_	18	_	_	start_char=90|end_char=96
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=97|end_char=100
+21-22	president's	_	_	_	_	_	_	_	start_char=101|end_char=112
+21	president	president	NOUN	NN	Number=Sing	20	_	_	start_char=101|end_char=110
+22	's	's	PART	POS	_	21	_	_	start_char=110|end_char=112
+23	UK	UK	PROPN	NNP	Number=Sing	22	_	_	start_char=113|end_char=115
+24	visit	visit	NOUN	NN	Number=Sing	23	_	_	start_char=116|end_char=121|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=121|end_char=122
+
+# text = What a disgrace for a so called western city to display such disgusting hate.
+# sent_id = 127207
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=123|end_char=127
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=128|end_char=129
+3	disgrace	disgrace	NOUN	NN	Number=Sing	2	_	_	start_char=130|end_char=138
+4	for	for	ADP	IN	_	3	_	_	start_char=139|end_char=142
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=143|end_char=144
+6	so	so	ADV	RB	_	5	_	_	start_char=145|end_char=147
+7	called	call	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=148|end_char=154
+8	western	western	ADJ	JJ	Degree=Pos	7	_	_	start_char=155|end_char=162
+9	city	city	NOUN	NN	Number=Sing	8	_	_	start_char=163|end_char=167
+10	to	to	PART	TO	_	9	_	_	start_char=168|end_char=170
+11	display	display	VERB	VB	VerbForm=Inf	10	_	_	start_char=171|end_char=178
+12	such	such	ADJ	JJ	Degree=Pos	11	_	_	start_char=179|end_char=183
+13	disgusting	disgusting	ADJ	JJ	Degree=Pos	12	_	_	start_char=184|end_char=194
+14	hate	hate	NOUN	NN	Number=Sing	13	_	_	start_char=195|end_char=199|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=199|end_char=200
+
+# text = #shootitdown [URL]
+# sent_id = 127208
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=201|end_char=202|SpaceAfter=No
+2	shootitdown	shootitdown	NOUN	NN	Number=Sing	1	_	_	start_char=202|end_char=213
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=214|end_char=215|SpaceAfter=No
+4	URL	URL	NOUN	NN	Number=Sing	3	_	_	start_char=215|end_char=218|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=218|end_char=219|SpaceAfter=No
+

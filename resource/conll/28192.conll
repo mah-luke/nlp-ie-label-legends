@@ -1,0 +1,26 @@
+# text = That'w when you say "My mom's the CEO of our company and we are just workers."
+# sent_id = 60502
+1-2	That'w	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	'w	'w	PUNCT	,	_	1	_	_	start_char=4|end_char=6
+3	when	when	ADV	WRB	PronType=Int	2	_	_	start_char=7|end_char=11
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=12|end_char=15
+5	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=16|end_char=19
+6	"	"	PUNCT	``	_	5	_	_	start_char=20|end_char=21|SpaceAfter=No
+7	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=21|end_char=23
+8-9	mom's	_	_	_	_	_	_	_	start_char=24|end_char=29
+8	mom	mom	NOUN	NN	Number=Sing	7	_	_	start_char=24|end_char=27
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=27|end_char=29
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=30|end_char=33
+11	CEO	ceo	NOUN	NN	Number=Sing	10	_	_	start_char=34|end_char=37
+12	of	of	ADP	IN	_	11	_	_	start_char=38|end_char=40
+13	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	_	_	start_char=41|end_char=44
+14	company	company	NOUN	NN	Number=Sing	13	_	_	start_char=45|end_char=52
+15	and	and	CCONJ	CC	_	14	_	_	start_char=53|end_char=56
+16	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	_	_	start_char=57|end_char=59
+17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	_	_	start_char=60|end_char=63
+18	just	just	ADV	RB	_	17	_	_	start_char=64|end_char=68
+19	workers	worker	NOUN	NNS	Number=Plur	18	_	_	start_char=69|end_char=76|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=76|end_char=77|SpaceAfter=No
+21	"	"	PUNCT	''	_	20	_	_	start_char=77|end_char=78|SpaceAfter=No
+

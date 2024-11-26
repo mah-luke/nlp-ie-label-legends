@@ -1,0 +1,41 @@
+# text = [URL]
+# sent_id = 17233
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+
+# text = Pelosi is sooooo shook ... she is trembling throughout the interview she misstates names confuses the name of one intel agency with “DNA” Washington Swamp Creatures are running scared good
+# sent_id = 17234
+1	Pelosi	Pelosi	PROPN	NNP	Number=Sing	0	_	_	start_char=6|end_char=12
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=13|end_char=15
+3	sooooo	sooooo	ADV	RB	_	2	_	_	start_char=16|end_char=22
+4	shook	shake	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=23|end_char=28
+5	...	...	PUNCT	,	_	4	_	_	start_char=29|end_char=32
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=33|end_char=36
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=37|end_char=39
+8	trembling	tremble	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=40|end_char=49
+9	throughout	throughout	ADP	IN	_	8	_	_	start_char=50|end_char=60
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=61|end_char=64
+11	interview	interview	NOUN	NN	Number=Sing	10	_	_	start_char=65|end_char=74
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=75|end_char=78
+13	misstates	misstate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=79|end_char=88
+14	names	name	NOUN	NNS	Number=Plur	13	_	_	start_char=89|end_char=94
+15	confuses	confuse	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=95|end_char=103
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=104|end_char=107
+17	name	name	NOUN	NN	Number=Sing	16	_	_	start_char=108|end_char=112
+18	of	of	ADP	IN	_	17	_	_	start_char=113|end_char=115
+19	one	one	NUM	CD	NumForm=Word|NumType=Card	18	_	_	start_char=116|end_char=119
+20	intel	intel	NOUN	NN	Number=Sing	19	_	_	start_char=120|end_char=125
+21	agency	agency	NOUN	NN	Number=Sing	20	_	_	start_char=126|end_char=132
+22	with	with	ADP	IN	_	21	_	_	start_char=133|end_char=137
+23	“	''	PUNCT	``	_	22	_	_	start_char=138|end_char=139|SpaceAfter=No
+24	DNA	DNA	NOUN	NN	Number=Sing	23	_	_	start_char=139|end_char=142|SpaceAfter=No
+25	”	''	PUNCT	''	_	24	_	_	start_char=142|end_char=143
+26	Washington	Washington	PROPN	NNP	Number=Sing	25	_	_	start_char=144|end_char=154
+27	Swamp	Swamp	PROPN	NNP	Number=Sing	26	_	_	start_char=155|end_char=160
+28	Creatures	Creatures	PROPN	NNPS	Number=Plur	27	_	_	start_char=161|end_char=170
+29	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	_	_	start_char=171|end_char=174
+30	running	run	VERB	VBG	Tense=Pres|VerbForm=Part	29	_	_	start_char=175|end_char=182
+31	scared	scared	ADJ	JJ	Degree=Pos	30	_	_	start_char=183|end_char=189
+32	good	good	ADJ	JJ	Degree=Pos	31	_	_	start_char=190|end_char=194|SpaceAfter=No
+

@@ -1,0 +1,41 @@
+# text = I did this last night.
+# sent_id = 97501
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=6|end_char=10
+4	last	last	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=15
+5	night	night	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=21|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=21|end_char=22
+
+# text = It was a hit.
+# sent_id = 97502
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=23|end_char=25
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=26|end_char=29
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=30|end_char=31
+4	hit	hit	NOUN	NN	Number=Sing	3	_	_	start_char=32|end_char=35|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=35|end_char=36
+
+# text = Honesty works if you're with the right girl.
+# sent_id = 97503
+1	Honesty	honesty	NOUN	NN	Number=Sing	0	_	_	start_char=37|end_char=44
+2	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=45|end_char=50
+3	if	if	SCONJ	IN	_	2	_	_	start_char=51|end_char=53
+4-5	you're	_	_	_	_	_	_	_	start_char=54|end_char=60
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=54|end_char=57
+5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=57|end_char=60
+6	with	with	ADP	IN	_	5	_	_	start_char=61|end_char=65
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=66|end_char=69
+8	right	right	ADJ	JJ	Degree=Pos	7	_	_	start_char=70|end_char=75
+9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=76|end_char=80|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=80|end_char=81
+
+# text = Thanks man, appreciate the tips!!
+# sent_id = 97504
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=82|end_char=88
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=89|end_char=92|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=92|end_char=93
+4	appreciate	appreciate	VERB	VBP	Mood=Ind|Person=2|VerbForm=Fin	3	_	_	start_char=94|end_char=104
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=105|end_char=108
+6	tips	tip	NOUN	NNS	Number=Plur	5	_	_	start_char=109|end_char=113|SpaceAfter=No
+7	!!	!!	PUNCT	.	_	6	_	_	start_char=113|end_char=115|SpaceAfter=No
+

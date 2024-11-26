@@ -1,0 +1,60 @@
+# text = Male aggression is always justified.
+# sent_id = 103563
+1	Male	male	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	aggression	aggression	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=15
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=16|end_char=18
+4	always	always	ADV	RB	_	3	_	_	start_char=19|end_char=25
+5	justified	justify	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=26|end_char=35|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=35|end_char=36
+
+# text = It's how men prove they're men.
+# sent_id = 103564
+1-2	It's	_	_	_	_	_	_	_	start_char=37|end_char=41
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=37|end_char=39
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=39|end_char=41
+3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=42|end_char=45
+4	men	man	NOUN	NNS	Number=Plur	3	_	_	start_char=46|end_char=49
+5	prove	prove	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=50|end_char=55
+6-7	they're	_	_	_	_	_	_	_	start_char=56|end_char=63
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=56|end_char=60
+7	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=60|end_char=63
+8	men	man	NOUN	NNS	Number=Plur	7	_	_	start_char=64|end_char=67|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=67|end_char=68
+
+# text = Punching other men, punching holes in walls, hitting women, beating kids, maybe abusing animals.
+# sent_id = 103565
+1	Punching	punch	VERB	VBG	VerbForm=Ger	0	_	_	start_char=69|end_char=77
+2	other	other	ADJ	JJ	Degree=Pos	1	_	_	start_char=78|end_char=83
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=84|end_char=87|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=87|end_char=88
+5	punching	punch	VERB	VBG	VerbForm=Ger	4	_	_	start_char=89|end_char=97
+6	holes	hole	NOUN	NNS	Number=Plur	5	_	_	start_char=98|end_char=103
+7	in	in	ADP	IN	_	6	_	_	start_char=104|end_char=106
+8	walls	wall	NOUN	NNS	Number=Plur	7	_	_	start_char=107|end_char=112|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=112|end_char=113
+10	hitting	hit	VERB	VBG	VerbForm=Ger	9	_	_	start_char=114|end_char=121
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=122|end_char=127|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=127|end_char=128
+13	beating	beat	VERB	VBG	VerbForm=Ger	12	_	_	start_char=129|end_char=136
+14	kids	kid	NOUN	NNS	Number=Plur	13	_	_	start_char=137|end_char=141|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=141|end_char=142
+16	maybe	maybe	ADV	RB	_	15	_	_	start_char=143|end_char=148
+17	abusing	abuse	VERB	VBG	VerbForm=Ger	16	_	_	start_char=149|end_char=156
+18	animals	animal	NOUN	NNS	Number=Plur	17	_	_	start_char=157|end_char=164|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=164|end_char=165
+
+# text = It's what real men do.
+# sent_id = 103566
+1-2	It's	_	_	_	_	_	_	_	start_char=166|end_char=170
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=166|end_char=168
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=168|end_char=170
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=171|end_char=175
+4	real	real	ADJ	JJ	Degree=Pos	3	_	_	start_char=176|end_char=180
+5	men	man	NOUN	NNS	Number=Plur	4	_	_	start_char=181|end_char=184
+6	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=185|end_char=187|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=187|end_char=188
+
+# text = ^^/s
+# sent_id = 103567
+1	^^/s	^^/s	INTJ	UH	_	0	_	_	start_char=189|end_char=193|SpaceAfter=No
+

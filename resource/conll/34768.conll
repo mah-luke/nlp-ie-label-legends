@@ -1,0 +1,62 @@
+# text = For sure I do man.
+# sent_id = 74397
+1	For	for	ADP	IN	_	0	_	_	start_char=0|end_char=3
+2	sure	sure	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=8
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=9|end_char=10
+4	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	man	man	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=17|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=17|end_char=18
+
+# text = But I was so family oriented because of how I was brought up that I wanted to make it work.
+# sent_id = 74398
+1	But	but	CCONJ	CC	_	0	_	_	start_char=19|end_char=22
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=23|end_char=24
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=25|end_char=28
+4	so	so	ADV	RB	_	3	_	_	start_char=29|end_char=31
+5	family	family	NOUN	NN	Number=Sing	4	_	_	start_char=32|end_char=38
+6	oriented	orient	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=39|end_char=47
+7	because	because	ADP	IN	_	6	_	_	start_char=48|end_char=55
+8	of	of	ADP	IN	_	7	_	_	start_char=56|end_char=58
+9	how	how	ADV	WRB	PronType=Rel	8	_	_	start_char=59|end_char=62
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=63|end_char=64
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=65|end_char=68
+12	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=69|end_char=76
+13	up	up	ADP	RP	_	12	_	_	start_char=77|end_char=79
+14	that	that	SCONJ	IN	_	13	_	_	start_char=80|end_char=84
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=85|end_char=86
+16	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	_	_	start_char=87|end_char=93
+17	to	to	PART	TO	_	16	_	_	start_char=94|end_char=96
+18	make	make	VERB	VB	VerbForm=Inf	17	_	_	start_char=97|end_char=101
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=102|end_char=104
+20	work	work	VERB	VB	VerbForm=Inf	19	_	_	start_char=105|end_char=109|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=109|end_char=110
+
+# text = I'm glad she left because she was a leach, but I do hate my daughter being away from most of the time.
+# sent_id = 74399
+1-2	I'm	_	_	_	_	_	_	_	start_char=111|end_char=114
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=111|end_char=112
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=112|end_char=114
+3	glad	glad	ADJ	JJ	Degree=Pos	2	_	_	start_char=115|end_char=119
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=120|end_char=123
+5	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=124|end_char=128
+6	because	because	SCONJ	IN	_	5	_	_	start_char=129|end_char=136
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=137|end_char=140
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=141|end_char=144
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=145|end_char=146
+10	leach	leach	NOUN	NN	Number=Sing	9	_	_	start_char=147|end_char=152|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=152|end_char=153
+12	but	but	CCONJ	CC	_	11	_	_	start_char=154|end_char=157
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=158|end_char=159
+14	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=160|end_char=162
+15	hate	hate	VERB	VB	VerbForm=Inf	14	_	_	start_char=163|end_char=167
+16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	_	_	start_char=168|end_char=170
+17	daughter	daughter	NOUN	NN	Number=Sing	16	_	_	start_char=171|end_char=179
+18	being	be	AUX	VBG	VerbForm=Ger	17	_	_	start_char=180|end_char=185
+19	away	away	ADV	RB	_	18	_	_	start_char=186|end_char=190
+20	from	from	ADP	IN	_	19	_	_	start_char=191|end_char=195
+21	most	most	ADJ	JJS	Degree=Sup	20	_	_	start_char=196|end_char=200
+22	of	of	ADP	IN	_	21	_	_	start_char=201|end_char=203
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=204|end_char=207
+24	time	time	NOUN	NN	Number=Sing	23	_	_	start_char=208|end_char=212|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=212|end_char=213|SpaceAfter=No
+

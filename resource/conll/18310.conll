@@ -1,0 +1,43 @@
+# text = Haha, I hooked up with a "lesbian" too.
+# sent_id = 39302
+1	Haha	haha	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4	hooked	hook	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=8|end_char=14
+5	up	up	ADP	RP	_	4	_	_	start_char=15|end_char=17
+6	with	with	ADP	IN	_	5	_	_	start_char=18|end_char=22
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=23|end_char=24
+8	"	"	PUNCT	``	_	7	_	_	start_char=25|end_char=26|SpaceAfter=No
+9	lesbian	lesbian	NOUN	NN	Number=Sing	8	_	_	start_char=26|end_char=33|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=33|end_char=34
+11	too	too	ADV	RB	_	10	_	_	start_char=35|end_char=38|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=38|end_char=39
+
+# text = Also, have another lesbian friend, she told me it's not black and white, it's like a percentage.
+# sent_id = 39303
+1	Also	also	ADV	RB	_	0	_	_	start_char=40|end_char=44|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=44|end_char=45
+3	have	have	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=46|end_char=50
+4	another	another	DET	DT	_	3	_	_	start_char=51|end_char=58
+5	lesbian	lesbian	ADJ	JJ	Degree=Pos	4	_	_	start_char=59|end_char=66
+6	friend	friend	NOUN	NN	Number=Sing	5	_	_	start_char=67|end_char=73|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=73|end_char=74
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=75|end_char=78
+9	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=79|end_char=83
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=84|end_char=86
+11-12	it's	_	_	_	_	_	_	_	start_char=87|end_char=91
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=87|end_char=89
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=89|end_char=91
+13	not	not	PART	RB	_	12	_	_	start_char=92|end_char=95
+14	black	black	ADJ	JJ	Degree=Pos	13	_	_	start_char=96|end_char=101
+15	and	and	CCONJ	CC	_	14	_	_	start_char=102|end_char=105
+16	white	white	ADJ	JJ	Degree=Pos	15	_	_	start_char=106|end_char=111|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=111|end_char=112
+18-19	it's	_	_	_	_	_	_	_	start_char=113|end_char=117
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=113|end_char=115
+19	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=115|end_char=117
+20	like	like	ADP	IN	_	19	_	_	start_char=118|end_char=122
+21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=123|end_char=124
+22	percentage	percentage	NOUN	NN	Number=Sing	21	_	_	start_char=125|end_char=135|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=135|end_char=136|SpaceAfter=No
+

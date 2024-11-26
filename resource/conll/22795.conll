@@ -1,0 +1,51 @@
+# text = It's true.
+# sent_id = 48963
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	true	true	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=9|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=9|end_char=10
+
+# text = The spy agencies appoint people from all walks of life, from young sharp guys, to grandmas and grandpas.
+# sent_id = 48964
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=11|end_char=14
+2	spy	spy	NOUN	NN	Number=Sing	1	_	_	start_char=15|end_char=18
+3	agencies	agency	NOUN	NNS	Number=Plur	2	_	_	start_char=19|end_char=27
+4	appoint	appoint	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=28|end_char=35
+5	people	person	NOUN	NNS	Number=Plur	4	_	_	start_char=36|end_char=42
+6	from	from	ADP	IN	_	5	_	_	start_char=43|end_char=47
+7	all	all	DET	DT	_	6	_	_	start_char=48|end_char=51
+8	walks	walk	NOUN	NNS	Number=Plur	7	_	_	start_char=52|end_char=57
+9	of	of	ADP	IN	_	8	_	_	start_char=58|end_char=60
+10	life	life	NOUN	NN	Number=Sing	9	_	_	start_char=61|end_char=65|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=65|end_char=66
+12	from	from	ADP	IN	_	11	_	_	start_char=67|end_char=71
+13	young	young	ADJ	JJ	Degree=Pos	12	_	_	start_char=72|end_char=77
+14	sharp	sharp	ADJ	JJ	Degree=Pos	13	_	_	start_char=78|end_char=83
+15	guys	guy	NOUN	NNS	Number=Plur	14	_	_	start_char=84|end_char=88|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=88|end_char=89
+17	to	to	ADP	IN	_	16	_	_	start_char=90|end_char=92
+18	grandmas	grandma	NOUN	NNS	Number=Plur	17	_	_	start_char=93|end_char=101
+19	and	and	CCONJ	CC	_	18	_	_	start_char=102|end_char=105
+20	grandpas	grandpa	NOUN	NNS	Number=Plur	19	_	_	start_char=106|end_char=114|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=114|end_char=115
+
+# text = Back in the 1950s the CIA even recruited magicians to help them with MK Ultra.
+# sent_id = 48965
+1	Back	back	ADV	RB	_	0	_	_	start_char=116|end_char=120
+2	in	in	ADP	IN	_	1	_	_	start_char=121|end_char=123
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=124|end_char=127
+4	1950s	1950s	NOUN	NNS	Number=Plur	3	_	_	start_char=128|end_char=133
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=134|end_char=137
+6	CIA	CIA	PROPN	NNP	Number=Sing	5	_	_	start_char=138|end_char=141
+7	even	even	ADV	RB	_	6	_	_	start_char=142|end_char=146
+8	recruited	recruit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=147|end_char=156
+9	magicians	magician	NOUN	NNS	Number=Plur	8	_	_	start_char=157|end_char=166
+10	to	to	PART	TO	_	9	_	_	start_char=167|end_char=169
+11	help	help	VERB	VB	VerbForm=Inf	10	_	_	start_char=170|end_char=174
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	_	_	start_char=175|end_char=179
+13	with	with	ADP	IN	_	12	_	_	start_char=180|end_char=184
+14	MK	MK	PROPN	NNP	Number=Sing	13	_	_	start_char=185|end_char=187
+15	Ultra	Ultra	PROPN	NNP	Number=Sing	14	_	_	start_char=188|end_char=193|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=193|end_char=194|SpaceAfter=No
+

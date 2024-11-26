@@ -1,0 +1,36 @@
+# text = Who wouldn't choose this over a female?
+# sent_id = 30322
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=3
+2-3	wouldn't	_	_	_	_	_	_	_	start_char=4|end_char=12
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=9
+3	n't	not	PART	RB	_	2	_	_	start_char=9|end_char=12
+4	choose	choose	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=19
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=20|end_char=24
+6	over	over	ADP	IN	_	5	_	_	start_char=25|end_char=29
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=30|end_char=31
+8	female	female	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=38|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=38|end_char=39
+
+# text = I'm sure they wouldn't program this robot to moan all the time and lust after Chad
+# sent_id = 30323
+1-2	I'm	_	_	_	_	_	_	_	start_char=40|end_char=43
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=40|end_char=41
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=41|end_char=43
+3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=44|end_char=48
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=49|end_char=53
+5-6	wouldn't	_	_	_	_	_	_	_	start_char=54|end_char=62
+5	would	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=54|end_char=59
+6	n't	not	PART	RB	_	5	_	_	start_char=59|end_char=62
+7	program	program	VERB	VB	VerbForm=Inf	6	_	_	start_char=63|end_char=70
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=71|end_char=75
+9	robot	robot	NOUN	NN	Number=Sing	8	_	_	start_char=76|end_char=81
+10	to	to	PART	TO	_	9	_	_	start_char=82|end_char=84
+11	moan	moan	VERB	VB	VerbForm=Inf	10	_	_	start_char=85|end_char=89
+12	all	all	DET	PDT	_	11	_	_	start_char=90|end_char=93
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=94|end_char=97
+14	time	time	NOUN	NN	Number=Sing	13	_	_	start_char=98|end_char=102
+15	and	and	CCONJ	CC	_	14	_	_	start_char=103|end_char=106
+16	lust	lust	NOUN	NN	Number=Sing	15	_	_	start_char=107|end_char=111
+17	after	after	ADP	IN	_	16	_	_	start_char=112|end_char=117
+18	Chad	Chad	PROPN	NNP	Number=Sing	17	_	_	start_char=118|end_char=122|SpaceAfter=No
+

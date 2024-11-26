@@ -1,0 +1,57 @@
+# text = #TechHumor [URL] "Only a #Millennial spends 1st day on job crying to Internet friends about how he got company spammed w. swastikas for being retard on Twitter" "teachable moment.
+# sent_id = 10431
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	TechHumor	techhumor	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=10
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=11|end_char=12|SpaceAfter=No
+4	URL	URL	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=15|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=15|end_char=16
+6	"	"	PUNCT	``	_	5	_	_	start_char=17|end_char=18|SpaceAfter=No
+7	Only	only	ADV	RB	_	6	_	_	start_char=18|end_char=22
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=23|end_char=24
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=25|end_char=26|SpaceAfter=No
+10	Millennial	Millennial	PROPN	NNP	Number=Sing	9	_	_	start_char=26|end_char=36
+11	spends	spend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=37|end_char=43
+12	1st	1st	ADJ	JJ	Degree=Pos|NumType=Ord	11	_	_	start_char=44|end_char=47
+13	day	day	NOUN	NN	Number=Sing	12	_	_	start_char=48|end_char=51
+14	on	on	ADP	IN	_	13	_	_	start_char=52|end_char=54
+15	job	job	NOUN	NN	Number=Sing	14	_	_	start_char=55|end_char=58
+16	crying	cry	VERB	VBG	VerbForm=Ger	15	_	_	start_char=59|end_char=65
+17	to	to	ADP	IN	_	16	_	_	start_char=66|end_char=68
+18	Internet	Internet	PROPN	NNP	Number=Sing	17	_	_	start_char=69|end_char=77
+19	friends	friend	NOUN	NNS	Number=Plur	18	_	_	start_char=78|end_char=85
+20	about	about	ADP	IN	_	19	_	_	start_char=86|end_char=91
+21	how	how	ADV	WRB	PronType=Int	20	_	_	start_char=92|end_char=95
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=96|end_char=98
+23	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	_	_	start_char=99|end_char=102
+24	company	company	NOUN	NN	Number=Sing	23	_	_	start_char=103|end_char=110
+25	spammed	spam	VERB	VBN	Tense=Past|VerbForm=Part	24	_	_	start_char=111|end_char=118
+26	w.	w.	NOUN	NN	Number=Sing	25	_	_	start_char=119|end_char=121
+27	swastikas	swastika	NOUN	NNS	Number=Plur	26	_	_	start_char=122|end_char=131
+28	for	for	SCONJ	IN	_	27	_	_	start_char=132|end_char=135
+29	being	be	AUX	VBG	VerbForm=Ger	28	_	_	start_char=136|end_char=141
+30	retard	retard	NOUN	NN	Number=Sing	29	_	_	start_char=142|end_char=148
+31	on	on	ADP	IN	_	30	_	_	start_char=149|end_char=151
+32	Twitter	Twitter	PROPN	NNP	Number=Sing	31	_	_	start_char=152|end_char=159|SpaceAfter=No
+33	"	"	PUNCT	``	_	32	_	_	start_char=159|end_char=160
+34	"	"	PUNCT	``	_	33	_	_	start_char=161|end_char=162|SpaceAfter=No
+35	teachable	teachable	ADJ	JJ	Degree=Pos	34	_	_	start_char=162|end_char=171
+36	moment	moment	NOUN	NN	Number=Sing	35	_	_	start_char=172|end_char=178|SpaceAfter=No
+37	.	.	PUNCT	.	_	36	_	_	start_char=178|end_char=179
+
+# text = not wise to discuss internals of company's network on social media"
+# sent_id = 10432
+1	not	not	PART	RB	_	0	_	_	start_char=180|end_char=183
+2	wise	wise	ADJ	JJ	Degree=Pos	1	_	_	start_char=184|end_char=188
+3	to	to	PART	TO	_	2	_	_	start_char=189|end_char=191
+4	discuss	discuss	VERB	VB	VerbForm=Inf	3	_	_	start_char=192|end_char=199
+5	internals	internal	NOUN	NNS	Number=Plur	4	_	_	start_char=200|end_char=209
+6	of	of	ADP	IN	_	5	_	_	start_char=210|end_char=212
+7-8	company's	_	_	_	_	_	_	_	start_char=213|end_char=222
+7	company	company	NOUN	NN	Number=Sing	6	_	_	start_char=213|end_char=220
+8	's	's	PART	POS	_	7	_	_	start_char=220|end_char=222
+9	network	network	NOUN	NN	Number=Sing	8	_	_	start_char=223|end_char=230
+10	on	on	ADP	IN	_	9	_	_	start_char=231|end_char=233
+11	social	social	ADJ	JJ	Degree=Pos	10	_	_	start_char=234|end_char=240
+12	media	media	NOUN	NN	Number=Sing	11	_	_	start_char=241|end_char=246|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=246|end_char=247|SpaceAfter=No
+

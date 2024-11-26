@@ -1,0 +1,57 @@
+# text = 3/2 Heres my point.
+# sent_id = 93508
+1	3/2	3/2	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=3
+2	Heres	here	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=9
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=10|end_char=12
+4	point	point	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = Something's are worth jail.
+# sent_id = 93509
+1-2	Something's	_	_	_	_	_	_	_	start_char=20|end_char=31
+1	Something	something	PRON	NN	Number=Sing|PronType=Ind	0	_	_	start_char=20|end_char=29
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=29|end_char=31
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=32|end_char=35
+4	worth	worth	ADJ	JJ	Degree=Pos	3	_	_	start_char=36|end_char=41
+5	jail	jail	NOUN	NN	Number=Sing	4	_	_	start_char=42|end_char=46|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=46|end_char=47
+
+# text = What's going on w/Muslims coming into the country...is worth jail.
+# sent_id = 93510
+1-2	What's	_	_	_	_	_	_	_	start_char=48|end_char=54
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=48|end_char=52
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=52|end_char=54
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=55|end_char=60
+4	on	on	ADP	RP	_	3	_	_	start_char=61|end_char=63
+5	w	with	ADP	IN	_	4	_	_	start_char=64|end_char=65|SpaceAfter=No
+6	/	/	SYM	,	_	5	_	_	start_char=65|end_char=66|SpaceAfter=No
+7	Muslims	Muslim	PROPN	NNPS	Number=Plur	6	_	_	start_char=66|end_char=73
+8	coming	come	VERB	VBG	VerbForm=Ger	7	_	_	start_char=74|end_char=80
+9	into	into	ADP	IN	_	8	_	_	start_char=81|end_char=85
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=86|end_char=89
+11	country	country	NOUN	NN	Number=Sing	10	_	_	start_char=90|end_char=97|SpaceAfter=No
+12	...	...	PUNCT	,	_	11	_	_	start_char=97|end_char=100|SpaceAfter=No
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=100|end_char=102
+14	worth	worth	ADJ	JJ	Degree=Pos	13	_	_	start_char=103|end_char=108
+15	jail	jail	NOUN	NN	Number=Sing	14	_	_	start_char=109|end_char=113|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=113|end_char=114
+
+# text = If these bitches take down Trump...
+# sent_id = 93511
+1	If	if	SCONJ	IN	_	0	_	_	start_char=115|end_char=117
+2	these	this	DET	DT	Number=Plur|PronType=Dem	1	_	_	start_char=118|end_char=123
+3	bitches	bitch	NOUN	NNS	Number=Plur	2	_	_	start_char=124|end_char=131
+4	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=132|end_char=136
+5	down	down	ADP	RP	_	4	_	_	start_char=137|end_char=141
+6	Trump	Trump	PROPN	NNP	Number=Sing	5	_	_	start_char=142|end_char=147|SpaceAfter=No
+7	...	...	PUNCT	.	_	6	_	_	start_char=147|end_char=150
+
+# text = It's fucking ON.
+# sent_id = 93512
+1-2	It's	_	_	_	_	_	_	_	start_char=151|end_char=155
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=151|end_char=153
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=153|end_char=155
+3	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=156|end_char=163
+4	ON	on	ADV	RB	_	3	_	_	start_char=164|end_char=166|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=166|end_char=167|SpaceAfter=No
+

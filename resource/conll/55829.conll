@@ -1,0 +1,43 @@
+# text = I knew this man did it when he opened his dirty mouth!
+# sent_id = 119312
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=7|end_char=11
+4	man	man	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=15
+5	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=16|end_char=19
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=20|end_char=22
+7	when	when	ADV	WRB	PronType=Int	6	_	_	start_char=23|end_char=27
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=28|end_char=30
+9	opened	open	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=31|end_char=37
+10	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=38|end_char=41
+11	dirty	dirty	ADJ	JJ	Degree=Pos	10	_	_	start_char=42|end_char=47
+12	mouth	mouth	NOUN	NN	Number=Sing	11	_	_	start_char=48|end_char=53|SpaceAfter=No
+13	!	!	PUNCT	.	_	12	_	_	start_char=53|end_char=54
+
+# text = CO is a mess!!!!
+# sent_id = 119313
+1	CO	CO	PROPN	NNP	Number=Sing	0	_	_	start_char=55|end_char=57
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=58|end_char=60
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=61|end_char=62
+4	mess	mess	NOUN	NN	Number=Sing	3	_	_	start_char=63|end_char=67|SpaceAfter=No
+5	!!!!	!!!!	PUNCT	.	_	4	_	_	start_char=67|end_char=71
+
+# text = May this woman and her children be at peace.
+# sent_id = 119314
+1	May	may	AUX	MD	VerbForm=Fin	0	_	_	start_char=72|end_char=75
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=76|end_char=80
+3	woman	woman	NOUN	NN	Number=Sing	2	_	_	start_char=81|end_char=86
+4	and	and	CCONJ	CC	_	3	_	_	start_char=87|end_char=90
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=91|end_char=94
+6	children	child	NOUN	NNS	Number=Plur	5	_	_	start_char=95|end_char=103
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=104|end_char=106
+8	at	at	ADP	IN	_	7	_	_	start_char=107|end_char=109
+9	peace	peace	NOUN	NN	Number=Sing	8	_	_	start_char=110|end_char=115|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=115|end_char=116
+
+# text = [URL]
+# sent_id = 119315
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=117|end_char=118|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=118|end_char=121|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=121|end_char=122|SpaceAfter=No
+

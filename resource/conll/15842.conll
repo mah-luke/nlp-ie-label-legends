@@ -1,0 +1,54 @@
+# text = That sounds like my sister.
+# sent_id = 33899
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=11
+3	like	like	ADP	IN	_	2	_	_	start_char=12|end_char=16
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=17|end_char=19
+5	sister	sister	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=26|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=26|end_char=27
+
+# text = You described her perfectly.
+# sent_id = 33900
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=28|end_char=31
+2	described	describe	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=32|end_char=41
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=42|end_char=45
+4	perfectly	perfectly	ADV	RB	_	3	_	_	start_char=46|end_char=55|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=55|end_char=56
+
+# text = She also does that but somehow gets mad when her business gets brought up.
+# sent_id = 33901
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=57|end_char=60
+2	also	also	ADV	RB	_	1	_	_	start_char=61|end_char=65
+3	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=66|end_char=70
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=71|end_char=75
+5	but	but	CCONJ	CC	_	4	_	_	start_char=76|end_char=79
+6	somehow	somehow	ADV	RB	_	5	_	_	start_char=80|end_char=87
+7	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=88|end_char=92
+8	mad	mad	ADJ	JJ	Degree=Pos	7	_	_	start_char=93|end_char=96
+9	when	when	ADV	WRB	PronType=Int	8	_	_	start_char=97|end_char=101
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=102|end_char=105
+11	business	business	NOUN	NN	Number=Sing	10	_	_	start_char=106|end_char=114
+12	gets	get	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=115|end_char=119
+13	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=120|end_char=127
+14	up	up	ADP	RP	_	13	_	_	start_char=128|end_char=130|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=130|end_char=131
+
+# text = The dumb bitch gets mad yet she's putting it out there for everyone.
+# sent_id = 33902
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=132|end_char=135
+2	dumb	dumb	ADJ	JJ	Degree=Pos	1	_	_	start_char=136|end_char=140
+3	bitch	bitch	NOUN	NN	Number=Sing	2	_	_	start_char=141|end_char=146
+4	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=147|end_char=151
+5	mad	mad	ADJ	JJ	Degree=Pos	4	_	_	start_char=152|end_char=155
+6	yet	yet	ADV	RB	_	5	_	_	start_char=156|end_char=159
+7-8	she's	_	_	_	_	_	_	_	start_char=160|end_char=165
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=160|end_char=163
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=163|end_char=165
+9	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=166|end_char=173
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=174|end_char=176
+11	out	out	ADP	RP	_	10	_	_	start_char=177|end_char=180
+12	there	there	ADV	RB	PronType=Dem	11	_	_	start_char=181|end_char=186
+13	for	for	ADP	IN	_	12	_	_	start_char=187|end_char=190
+14	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	13	_	_	start_char=191|end_char=199|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=199|end_char=200|SpaceAfter=No
+

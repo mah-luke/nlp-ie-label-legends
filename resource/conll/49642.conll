@@ -1,0 +1,53 @@
+# text = Thanks brother and thanks for your service.
+# sent_id = 106087
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=6
+2	brother	brother	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=14
+3	and	and	CCONJ	CC	_	2	_	_	start_char=15|end_char=18
+4	thanks	thanks	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=25
+5	for	for	ADP	IN	_	4	_	_	start_char=26|end_char=29
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=30|end_char=34
+7	service	service	NOUN	NN	Number=Sing	6	_	_	start_char=35|end_char=42|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=42|end_char=43
+
+# text = Some like en some bash on them for being too "flashy".
+# sent_id = 106088
+1	Some	some	DET	DT	_	0	_	_	start_char=44|end_char=48
+2	like	like	ADP	IN	_	1	_	_	start_char=49|end_char=53
+3	en	en	ADP	IN	_	2	_	_	start_char=54|end_char=56
+4	some	some	DET	DT	_	3	_	_	start_char=57|end_char=61
+5	bash	bash	NOUN	NN	Number=Sing	4	_	_	start_char=62|end_char=66
+6	on	on	ADP	IN	_	5	_	_	start_char=67|end_char=69
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=70|end_char=74
+8	for	for	SCONJ	IN	_	7	_	_	start_char=75|end_char=78
+9	being	be	AUX	VBG	VerbForm=Ger	8	_	_	start_char=79|end_char=84
+10	too	too	ADV	RB	_	9	_	_	start_char=85|end_char=88
+11	"	"	PUNCT	``	_	10	_	_	start_char=89|end_char=90|SpaceAfter=No
+12	flashy	flashy	ADJ	JJ	Degree=Pos	11	_	_	start_char=90|end_char=96|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=96|end_char=97|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=97|end_char=98
+
+# text = I guess it boils down to personal choice.
+# sent_id = 106089
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=99|end_char=100
+2	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=101|end_char=106
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=107|end_char=109
+4	boils	boil	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=110|end_char=115
+5	down	down	ADP	RP	_	4	_	_	start_char=116|end_char=120
+6	to	to	ADP	IN	_	5	_	_	start_char=121|end_char=123
+7	personal	personal	ADJ	JJ	Degree=Pos	6	_	_	start_char=124|end_char=132
+8	choice	choice	NOUN	NN	Number=Sing	7	_	_	start_char=133|end_char=139|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=139|end_char=140
+
+# text = They shoot the same as any plain Jane ar.
+# sent_id = 106090
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=141|end_char=145
+2	shoot	shoot	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=146|end_char=151
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=152|end_char=155
+4	same	same	ADJ	JJ	Degree=Pos	3	_	_	start_char=156|end_char=160
+5	as	as	ADP	IN	_	4	_	_	start_char=161|end_char=163
+6	any	any	DET	DT	_	5	_	_	start_char=164|end_char=167
+7	plain	plain	ADJ	JJ	Degree=Pos	6	_	_	start_char=168|end_char=173
+8	Jane	Jane	PROPN	NNP	Number=Sing	7	_	_	start_char=174|end_char=178
+9	ar	be	PROPN	NNP	Number=Sing	8	_	_	start_char=179|end_char=181|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=181|end_char=182|SpaceAfter=No
+

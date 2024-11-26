@@ -1,0 +1,55 @@
+# text = I doubt your words.
+# sent_id = 84467
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	doubt	doubt	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=7
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=8|end_char=12
+4	words	word	NOUN	NNS	Number=Plur	3	_	_	start_char=13|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = Aren't woman seen as more empathicin general?
+# sent_id = 84468
+1-2	Aren't	_	_	_	_	_	_	_	start_char=20|end_char=26
+1	Are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=20|end_char=23
+2	n't	not	PART	RB	_	1	_	_	start_char=23|end_char=26
+3	woman	woman	NOUN	NN	Number=Sing	2	_	_	start_char=27|end_char=32
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=33|end_char=37
+5	as	as	ADP	IN	_	4	_	_	start_char=38|end_char=40
+6	more	more	ADV	RBR	Degree=Cmp	5	_	_	start_char=41|end_char=45
+7	empathicin	empathicin	ADJ	JJ	Degree=Pos	6	_	_	start_char=46|end_char=56
+8	general	general	NOUN	NN	Number=Sing	7	_	_	start_char=57|end_char=64|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=64|end_char=65
+
+# text = If a general perspective makes sense when it comes to personality traits of genders.
+# sent_id = 84469
+1	If	if	SCONJ	IN	_	0	_	_	start_char=66|end_char=68
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=69|end_char=70
+3	general	general	ADJ	JJ	Degree=Pos	2	_	_	start_char=71|end_char=78
+4	perspective	perspective	NOUN	NN	Number=Sing	3	_	_	start_char=79|end_char=90
+5	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=91|end_char=96
+6	sense	sense	NOUN	NN	Number=Sing	5	_	_	start_char=97|end_char=102
+7	when	when	ADV	WRB	PronType=Int	6	_	_	start_char=103|end_char=107
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=108|end_char=110
+9	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=111|end_char=116
+10	to	to	ADP	IN	_	9	_	_	start_char=117|end_char=119
+11	personality	personality	NOUN	NN	Number=Sing	10	_	_	start_char=120|end_char=131
+12	traits	trait	NOUN	NNS	Number=Plur	11	_	_	start_char=132|end_char=138
+13	of	of	ADP	IN	_	12	_	_	start_char=139|end_char=141
+14	genders	gender	NOUN	NNS	Number=Plur	13	_	_	start_char=142|end_char=149|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=149|end_char=150
+
+# text = But what do I know, I'm not jordan peterson.
+# sent_id = 84470
+1	But	but	CCONJ	CC	_	0	_	_	start_char=151|end_char=154
+2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=155|end_char=159
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=160|end_char=162
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=163|end_char=164
+5	know	know	VERB	VB	VerbForm=Inf	4	_	_	start_char=165|end_char=169|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=169|end_char=170
+7-8	I'm	_	_	_	_	_	_	_	start_char=171|end_char=174
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=171|end_char=172
+8	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=172|end_char=174
+9	not	not	PART	RB	_	8	_	_	start_char=175|end_char=178
+10	jordan	jordan	PROPN	NNP	Number=Sing	9	_	_	start_char=179|end_char=185
+11	peterson	peterson	PROPN	NNP	Number=Sing	10	_	_	start_char=186|end_char=194|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=194|end_char=195|SpaceAfter=No
+

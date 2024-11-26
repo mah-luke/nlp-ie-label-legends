@@ -1,0 +1,29 @@
+# text = Just like a woman, selling the whole garden thing again.
+# sent_id = 46608
+1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	like	like	ADP	IN	_	1	_	_	start_char=5|end_char=9
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=10|end_char=11
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=17|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=17|end_char=18
+6	selling	sell	VERB	VBG	VerbForm=Ger	5	_	_	start_char=19|end_char=26
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=27|end_char=30
+8	whole	whole	ADJ	JJ	Degree=Pos	7	_	_	start_char=31|end_char=36
+9	garden	garden	NOUN	NN	Number=Sing	8	_	_	start_char=37|end_char=43
+10	thing	thing	NOUN	NN	Number=Sing	9	_	_	start_char=44|end_char=49
+11	again	again	ADV	RB	_	10	_	_	start_char=50|end_char=55|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=55|end_char=56
+
+# text = I bet next you're going to recommend apples.
+# sent_id = 46609
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=57|end_char=58
+2	bet	bet	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=62
+3	next	next	ADV	RB	_	2	_	_	start_char=63|end_char=67
+4-5	you're	_	_	_	_	_	_	_	start_char=68|end_char=74
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=68|end_char=71
+5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=71|end_char=74
+6	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=75|end_char=80
+7	to	to	PART	TO	_	6	_	_	start_char=81|end_char=83
+8	recommend	recommend	VERB	VB	VerbForm=Inf	7	_	_	start_char=84|end_char=93
+9	apples	apple	NOUN	NNS	Number=Plur	8	_	_	start_char=94|end_char=100|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=100|end_char=101|SpaceAfter=No
+

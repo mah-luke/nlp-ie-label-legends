@@ -1,0 +1,39 @@
+# text = Some mother fuckers better hang ...
+# sent_id = 71997
+1	Some	some	DET	DT	_	0	_	_	start_char=0|end_char=4
+2	mother	mother	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=11
+3	fuckers	fucker	NOUN	NNS	Number=Plur	2	_	_	start_char=12|end_char=19
+4	better	well	ADV	RBR	Degree=Cmp	3	_	_	start_char=20|end_char=26
+5	hang	hang	VERB	VB	VerbForm=Inf	4	_	_	start_char=27|end_char=31
+6	...	...	PUNCT	.	_	5	_	_	start_char=32|end_char=35
+
+# text = Hillary knew it would happen, too.
+# sent_id = 71998
+1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=36|end_char=43
+2	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=44|end_char=48
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=49|end_char=51
+4	would	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=52|end_char=57
+5	happen	happen	VERB	VB	VerbForm=Inf	4	_	_	start_char=58|end_char=64|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=64|end_char=65
+7	too	too	ADV	RB	_	6	_	_	start_char=66|end_char=69|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=69|end_char=70
+
+# text = She, Obama, Comey, Mueller ... there's a lot of 'em.
+# sent_id = 71999
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=71|end_char=74|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=74|end_char=75
+3	Obama	Obama	PROPN	NNP	Number=Sing	2	_	_	start_char=76|end_char=81|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=81|end_char=82
+5	Comey	Comey	PROPN	NNP	Number=Sing	4	_	_	start_char=83|end_char=88|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=88|end_char=89
+7	Mueller	Mueller	PROPN	NNP	Number=Sing	6	_	_	start_char=90|end_char=97
+8	...	...	PUNCT	,	_	7	_	_	start_char=98|end_char=101
+9-10	there's	_	_	_	_	_	_	_	start_char=102|end_char=109
+9	there	there	PRON	EX	_	8	_	_	start_char=102|end_char=107
+10	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=107|end_char=109
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=110|end_char=111
+12	lot	lot	NOUN	NN	Number=Sing	11	_	_	start_char=112|end_char=115
+13	of	of	ADP	IN	_	12	_	_	start_char=116|end_char=118
+14	'em	they	NOUN	NNS	Number=Plur	13	_	_	start_char=119|end_char=122|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=122|end_char=123|SpaceAfter=No
+

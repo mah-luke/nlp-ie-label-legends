@@ -1,0 +1,38 @@
+# text = Many male serial killers had mothers with Borderline Personality Disorder.
+# sent_id = 76732
+1	Many	many	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	male	male	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=9
+3	serial	serial	ADJ	JJ	Degree=Pos	2	_	_	start_char=10|end_char=16
+4	killers	killer	NOUN	NNS	Number=Plur	3	_	_	start_char=17|end_char=24
+5	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=25|end_char=28
+6	mothers	mother	NOUN	NNS	Number=Plur	5	_	_	start_char=29|end_char=36
+7	with	with	ADP	IN	_	6	_	_	start_char=37|end_char=41
+8	Borderline	Borderline	ADJ	JJ	Degree=Pos	7	_	_	start_char=42|end_char=52
+9	Personality	Personality	PROPN	NNP	Number=Sing	8	_	_	start_char=53|end_char=64
+10	Disorder	Disorder	PROPN	NNP	Number=Sing	9	_	_	start_char=65|end_char=73|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=73|end_char=74
+
+# text = So there is definitely a link between delinquency and having a mom who is cruel, unstable, and unpredictable.
+# sent_id = 76733
+1	So	so	ADV	RB	_	0	_	_	start_char=75|end_char=77
+2	there	there	PRON	EX	_	1	_	_	start_char=78|end_char=83
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=84|end_char=86
+4	definitely	definitely	ADV	RB	_	3	_	_	start_char=87|end_char=97
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=98|end_char=99
+6	link	link	NOUN	NN	Number=Sing	5	_	_	start_char=100|end_char=104
+7	between	between	ADP	IN	_	6	_	_	start_char=105|end_char=112
+8	delinquency	delinquency	NOUN	NN	Number=Sing	7	_	_	start_char=113|end_char=124
+9	and	and	CCONJ	CC	_	8	_	_	start_char=125|end_char=128
+10	having	have	VERB	VBG	VerbForm=Ger	9	_	_	start_char=129|end_char=135
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=136|end_char=137
+12	mom	mom	NOUN	NN	Number=Sing	11	_	_	start_char=138|end_char=141
+13	who	who	PRON	WP	PronType=Rel	12	_	_	start_char=142|end_char=145
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=146|end_char=148
+15	cruel	cruel	ADJ	JJ	Degree=Pos	14	_	_	start_char=149|end_char=154|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=154|end_char=155
+17	unstable	unstable	ADJ	JJ	Degree=Pos	16	_	_	start_char=156|end_char=164|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=164|end_char=165
+19	and	and	CCONJ	CC	_	18	_	_	start_char=166|end_char=169
+20	unpredictable	unpredictable	ADJ	JJ	Degree=Pos	19	_	_	start_char=170|end_char=183|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=183|end_char=184|SpaceAfter=No
+

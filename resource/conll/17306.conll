@@ -1,0 +1,16 @@
+# text = I’ve seen some old women that look better than their husbands
+# sent_id = 37145
+1-2	I’ve	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=9
+4	some	some	DET	DT	_	3	_	_	start_char=10|end_char=14
+5	old	old	ADJ	JJ	Degree=Pos	4	_	_	start_char=15|end_char=18
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=19|end_char=24
+7	that	that	PRON	WDT	PronType=Rel	6	_	_	start_char=25|end_char=29
+8	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=30|end_char=34
+9	better	good	ADJ	JJR	Degree=Cmp	8	_	_	start_char=35|end_char=41
+10	than	than	ADP	IN	_	9	_	_	start_char=42|end_char=46
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=47|end_char=52
+12	husbands	husband	NOUN	NNS	Number=Plur	11	_	_	start_char=53|end_char=61|SpaceAfter=No
+

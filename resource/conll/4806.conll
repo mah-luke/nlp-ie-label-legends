@@ -1,0 +1,35 @@
+# text = "All right, ladies, fine.
+# sent_id = 10176
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	All	all	DET	DT	_	1	_	_	start_char=1|end_char=4
+3	right	right	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=10|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=10|end_char=11
+5	ladies	lady	NOUN	NNS	Number=Plur	4	_	_	start_char=12|end_char=18|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=18|end_char=19
+7	fine	fine	ADJ	JJ	Degree=Pos	6	_	_	start_char=20|end_char=24|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=24|end_char=25
+
+# text = You're not a whore.
+# sent_id = 10177
+1-2	You're	_	_	_	_	_	_	_	start_char=26|end_char=32
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=26|end_char=29
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=29|end_char=32
+3	not	not	PART	RB	_	2	_	_	start_char=33|end_char=36
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=37|end_char=38
+5	whore	whore	NOUN	NN	Number=Sing	4	_	_	start_char=39|end_char=44|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=44|end_char=45
+
+# text = But you are wearing a whore's uniform.”
+# sent_id = 10178
+1	But	but	CCONJ	CC	_	0	_	_	start_char=46|end_char=49
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=50|end_char=53
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=54|end_char=57
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=58|end_char=65
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=66|end_char=67
+6-7	whore's	_	_	_	_	_	_	_	start_char=68|end_char=75
+6	whore	whore	NOUN	NN	Number=Sing	5	_	_	start_char=68|end_char=73
+7	's	's	PART	POS	_	6	_	_	start_char=73|end_char=75
+8	uniform	uniform	NOUN	NN	Number=Sing	7	_	_	start_char=76|end_char=83|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=83|end_char=84|SpaceAfter=No
+10	”	''	PUNCT	''	_	9	_	_	start_char=84|end_char=85|SpaceAfter=No
+

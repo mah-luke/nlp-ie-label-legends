@@ -1,0 +1,56 @@
+# text = Think it for urself first.
+# sent_id = 67320
+1	Think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=5
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=6|end_char=8
+3	for	for	ADP	IN	_	2	_	_	start_char=9|end_char=12
+4	urself	urself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	3	_	_	start_char=13|end_char=19
+5	first	first	ADV	RB	NumType=Ord	4	_	_	start_char=20|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=25|end_char=26
+
+# text = Ur communicating u to her by communicating with her, so whatever I say won’t be genuinely u as I am not u.
+# sent_id = 67321
+1	Ur	ur	INTJ	UH	_	0	_	_	start_char=27|end_char=29
+2	communicating	communicate	VERB	VBG	VerbForm=Ger	1	_	_	start_char=30|end_char=43
+3	u	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	_	_	start_char=44|end_char=45
+4	to	to	ADP	IN	_	3	_	_	start_char=46|end_char=48
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=49|end_char=52
+6	by	by	SCONJ	IN	_	5	_	_	start_char=53|end_char=55
+7	communicating	communicate	VERB	VBG	VerbForm=Ger	6	_	_	start_char=56|end_char=69
+8	with	with	ADP	IN	_	7	_	_	start_char=70|end_char=74
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=75|end_char=78|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=78|end_char=79
+11	so	so	ADV	RB	_	10	_	_	start_char=80|end_char=82
+12	whatever	whatever	PRON	WP	PronType=Rel	11	_	_	start_char=83|end_char=91
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=92|end_char=93
+14	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=94|end_char=97
+15-16	won’t	_	_	_	_	_	_	_	start_char=98|end_char=103
+15	wo	will	AUX	MD	VerbForm=Fin	14	_	_	start_char=98|end_char=100
+16	n’t	not	PART	RB	_	15	_	_	start_char=100|end_char=103
+17	be	be	AUX	VB	VerbForm=Inf	16	_	_	start_char=104|end_char=106
+18	genuinely	genuinely	ADV	RB	_	17	_	_	start_char=107|end_char=116
+19	u	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	18	_	_	start_char=117|end_char=118
+20	as	as	SCONJ	IN	_	19	_	_	start_char=119|end_char=121
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	_	_	start_char=122|end_char=123
+22	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	_	_	start_char=124|end_char=126
+23	not	not	PART	RB	_	22	_	_	start_char=127|end_char=130
+24	u	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	23	_	_	start_char=131|end_char=132|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=132|end_char=133
+
+# text = If u r still stuck lmk and I’ll write u out something :)
+# sent_id = 67322
+1	If	if	SCONJ	IN	_	0	_	_	start_char=134|end_char=136
+2	u	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=137|end_char=138
+3	r	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=139|end_char=140
+4	still	still	ADV	RB	_	3	_	_	start_char=141|end_char=146
+5	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=147|end_char=152
+6	lmk	lmk	VERB	VB	Tense=Pres|VerbForm=Fin	5	_	_	start_char=153|end_char=156
+7	and	and	CCONJ	CC	_	6	_	_	start_char=157|end_char=160
+8-9	I’ll	_	_	_	_	_	_	_	start_char=161|end_char=165
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=161|end_char=162
+9	’ll	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=162|end_char=165
+10	write	write	VERB	VB	VerbForm=Inf	9	_	_	start_char=166|end_char=171
+11	u	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	10	_	_	start_char=172|end_char=173
+12	out	out	ADP	RP	_	11	_	_	start_char=174|end_char=177
+13	something	something	PRON	NN	Number=Sing|PronType=Ind	12	_	_	start_char=178|end_char=187
+14	:)	:)	SYM	NFP	_	13	_	_	start_char=188|end_char=190|SpaceAfter=No
+

@@ -1,0 +1,46 @@
+# text = I’m pretty certain her parents paid for that $35K car and taught her zero responsibility.
+# sent_id = 99391
+1-2	I’m	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	pretty	pretty	ADV	RB	_	2	_	_	start_char=4|end_char=10
+4	certain	certain	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=18
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=19|end_char=22
+6	parents	parent	NOUN	NNS	Number=Plur	5	_	_	start_char=23|end_char=30
+7	paid	pay	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=31|end_char=35
+8	for	for	ADP	IN	_	7	_	_	start_char=36|end_char=39
+9	that	that	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=40|end_char=44
+10	$	$	SYM	$	_	9	_	_	start_char=45|end_char=46|SpaceAfter=No
+11	35	35	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=46|end_char=48|SpaceAfter=No
+12	K	thousand	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	11	_	_	start_char=48|end_char=49
+13	car	car	NOUN	NN	Number=Sing	12	_	_	start_char=50|end_char=53
+14	and	and	CCONJ	CC	_	13	_	_	start_char=54|end_char=57
+15	taught	teach	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=58|end_char=64
+16	her	her	PRON	PRP$	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=65|end_char=68
+17	zero	zero	NUM	CD	NumForm=Word|NumType=Card	16	_	_	start_char=69|end_char=73
+18	responsibility	responsibility	NOUN	NN	Number=Sing	17	_	_	start_char=74|end_char=88|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=88|end_char=89
+
+# text = They may also have the bulk of her student loans and hence only a $20K tuition bill.
+# sent_id = 99392
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=90|end_char=94
+2	may	may	AUX	MD	VerbForm=Fin	1	_	_	start_char=95|end_char=98
+3	also	also	ADV	RB	_	2	_	_	start_char=99|end_char=103
+4	have	have	VERB	VB	VerbForm=Inf	3	_	_	start_char=104|end_char=108
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=109|end_char=112
+6	bulk	bulk	NOUN	NN	Number=Sing	5	_	_	start_char=113|end_char=117
+7	of	of	ADP	IN	_	6	_	_	start_char=118|end_char=120
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=121|end_char=124
+9	student	student	NOUN	NN	Number=Sing	8	_	_	start_char=125|end_char=132
+10	loans	loan	NOUN	NNS	Number=Plur	9	_	_	start_char=133|end_char=138
+11	and	and	CCONJ	CC	_	10	_	_	start_char=139|end_char=142
+12	hence	hence	ADV	RB	_	11	_	_	start_char=143|end_char=148
+13	only	only	ADV	RB	_	12	_	_	start_char=149|end_char=153
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=154|end_char=155
+15	$	$	SYM	$	_	14	_	_	start_char=156|end_char=157|SpaceAfter=No
+16	20	20	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=157|end_char=159|SpaceAfter=No
+17	K	thousand	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	16	_	_	start_char=159|end_char=160
+18	tuition	tuition	NOUN	NN	Number=Sing	17	_	_	start_char=161|end_char=168
+19	bill	bill	NOUN	NN	Number=Sing	18	_	_	start_char=169|end_char=173|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=173|end_char=174|SpaceAfter=No
+

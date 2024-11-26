@@ -1,0 +1,54 @@
+# text = ICYMI>
+# sent_id = 5243
+1	ICYMI	ICYMI	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	>	>	PUNCT	-RRB-	_	1	_	_	start_char=5|end_char=6
+
+# text = Ivanka Trump verbally abused by Hillary supporter on JetBlue flight with her children present.
+# sent_id = 5244
+1	Ivanka	Ivanka	PROPN	NNP	Number=Sing	0	_	_	start_char=7|end_char=13
+2	Trump	Trump	PROPN	NNP	Number=Sing	1	_	_	start_char=14|end_char=19
+3	verbally	verbally	ADV	RB	_	2	_	_	start_char=20|end_char=28
+4	abused	abuse	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=29|end_char=35
+5	by	by	ADP	IN	_	4	_	_	start_char=36|end_char=38
+6	Hillary	Hillary	PROPN	NNP	Number=Sing	5	_	_	start_char=39|end_char=46
+7	supporter	supporter	NOUN	NN	Number=Sing	6	_	_	start_char=47|end_char=56
+8	on	on	ADP	IN	_	7	_	_	start_char=57|end_char=59
+9	JetBlue	JetBlue	PROPN	NNP	Number=Sing	8	_	_	start_char=60|end_char=67
+10	flight	flight	NOUN	NN	Number=Sing	9	_	_	start_char=68|end_char=74
+11	with	with	ADP	IN	_	10	_	_	start_char=75|end_char=79
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=80|end_char=83
+13	children	child	NOUN	NNS	Number=Plur	12	_	_	start_char=84|end_char=92
+14	present	present	ADJ	JJ	Degree=Pos	13	_	_	start_char=93|end_char=100|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=100|end_char=101
+
+# text = Wow liberals are disgusting!
+# sent_id = 5245
+1	Wow	wow	INTJ	UH	_	0	_	_	start_char=102|end_char=105
+2	liberals	liberal	NOUN	NNS	Number=Plur	1	_	_	start_char=106|end_char=114
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=115|end_char=118
+4	disgusting	disgusting	ADJ	JJ	Degree=Pos	3	_	_	start_char=119|end_char=129|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=129|end_char=130
+
+# text = Who attacks a woman with 3 young children next to her?
+# sent_id = 5246
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=131|end_char=134
+2	attacks	attack	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=135|end_char=142
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=143|end_char=144
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=145|end_char=150
+5	with	with	ADP	IN	_	4	_	_	start_char=151|end_char=155
+6	3	3	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=156|end_char=157
+7	young	young	ADJ	JJ	Degree=Pos	6	_	_	start_char=158|end_char=163
+8	children	child	NOUN	NNS	Number=Plur	7	_	_	start_char=164|end_char=172
+9	next	next	ADV	RB	_	8	_	_	start_char=173|end_char=177
+10	to	to	ADP	IN	_	9	_	_	start_char=178|end_char=180
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=181|end_char=184|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=184|end_char=185
+
+# text = Pure evil [URL]
+# sent_id = 5247
+1	Pure	pure	ADJ	JJ	Degree=Pos	0	_	_	start_char=186|end_char=190
+2	evil	evil	NOUN	NN	Number=Sing	1	_	_	start_char=191|end_char=195
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=196|end_char=197|SpaceAfter=No
+4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=197|end_char=200|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=200|end_char=201|SpaceAfter=No
+

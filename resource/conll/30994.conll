@@ -1,0 +1,28 @@
+# text = Don't know, don't care.
+# sent_id = 66446
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	know	know	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=10|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=10|end_char=11
+5-6	don't	_	_	_	_	_	_	_	start_char=12|end_char=17
+5	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=12|end_char=14
+6	n't	not	PART	RB	_	5	_	_	start_char=14|end_char=17
+7	care	care	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=18|end_char=22|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=22|end_char=23
+
+# text = I got better things to do than entertain some barren spinster.
+# sent_id = 66447
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=24|end_char=25
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=26|end_char=29
+3	better	good	ADJ	JJR	Degree=Cmp	2	_	_	start_char=30|end_char=36
+4	things	thing	NOUN	NNS	Number=Plur	3	_	_	start_char=37|end_char=43
+5	to	to	PART	TO	_	4	_	_	start_char=44|end_char=46
+6	do	do	VERB	VB	VerbForm=Inf	5	_	_	start_char=47|end_char=49
+7	than	than	SCONJ	IN	_	6	_	_	start_char=50|end_char=54
+8	entertain	entertain	VERB	VB	VerbForm=Inf	7	_	_	start_char=55|end_char=64
+9	some	some	DET	DT	_	8	_	_	start_char=65|end_char=69
+10	barren	barren	ADJ	JJ	Degree=Pos	9	_	_	start_char=70|end_char=76
+11	spinster	spinster	NOUN	NN	Number=Sing	10	_	_	start_char=77|end_char=85|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=85|end_char=86|SpaceAfter=No
+

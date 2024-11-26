@@ -1,0 +1,59 @@
+# text = The guy was mobbed.
+# sent_id = 30775
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=7
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=8|end_char=11
+4	mobbed	mob	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=12|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = I hope they drop the charges.
+# sent_id = 30776
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=20|end_char=21
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=26
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=27|end_char=31
+4	drop	drop	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=32|end_char=36
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=37|end_char=40
+6	charges	charge	NOUN	NNS	Number=Plur	5	_	_	start_char=41|end_char=48|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=48|end_char=49
+
+# text = Obviously only reason they cuffed him is cause it's a young girl.
+# sent_id = 30777
+1	Obviously	obviously	ADV	RB	_	0	_	_	start_char=50|end_char=59
+2	only	only	ADV	RB	_	1	_	_	start_char=60|end_char=64
+3	reason	reason	NOUN	NN	Number=Sing	2	_	_	start_char=65|end_char=71
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=72|end_char=76
+5	cuffed	cuff	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=77|end_char=83
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=84|end_char=87
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=88|end_char=90
+8	cause	cause	SCONJ	IN	_	7	_	_	start_char=91|end_char=96
+9-10	it's	_	_	_	_	_	_	_	start_char=97|end_char=101
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=97|end_char=99
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=99|end_char=101
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=102|end_char=103
+12	young	young	ADJ	JJ	Degree=Pos	11	_	_	start_char=104|end_char=109
+13	girl	girl	NOUN	NN	Number=Sing	12	_	_	start_char=110|end_char=114|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=114|end_char=115
+
+# text = This is great though.
+# sent_id = 30778
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=116|end_char=120
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=121|end_char=123
+3	great	great	ADJ	JJ	Degree=Pos	2	_	_	start_char=124|end_char=129
+4	though	though	ADV	RB	_	3	_	_	start_char=130|end_char=136|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=136|end_char=137
+
+# text = Girl winds up her shitty little swing and then...BOOM...
+# sent_id = 30779
+1	Girl	girl	NOUN	NN	Number=Sing	0	_	_	start_char=138|end_char=142
+2	winds	wind	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=143|end_char=148
+3	up	up	ADP	RP	_	2	_	_	start_char=149|end_char=151
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=152|end_char=155
+5	shitty	shitty	ADJ	JJ	Degree=Pos	4	_	_	start_char=156|end_char=162
+6	little	little	ADJ	JJ	Degree=Pos	5	_	_	start_char=163|end_char=169
+7	swing	swing	NOUN	NN	Number=Sing	6	_	_	start_char=170|end_char=175
+8	and	and	CCONJ	CC	_	7	_	_	start_char=176|end_char=179
+9	then	then	ADV	RB	PronType=Dem	8	_	_	start_char=180|end_char=184|SpaceAfter=No
+10	...	...	PUNCT	,	_	9	_	_	start_char=184|end_char=187|SpaceAfter=No
+11	BOOM	boom	NOUN	NN	Number=Sing	10	_	_	start_char=187|end_char=191|SpaceAfter=No
+12	...	...	PUNCT	.	_	11	_	_	start_char=191|end_char=194|SpaceAfter=No
+

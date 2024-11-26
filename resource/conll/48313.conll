@@ -1,0 +1,25 @@
+# text = "Wait, come back!
+# sent_id = 103268
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=5|end_char=6
+4	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=7|end_char=11
+5	back	back	ADV	RB	_	4	_	_	start_char=12|end_char=16|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=16|end_char=17
+
+# text = You haven't been forced to unsexy lez out yet!"
+# sent_id = 103269
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=18|end_char=21
+2-3	haven't	_	_	_	_	_	_	_	start_char=22|end_char=29
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=26
+3	n't	not	PART	RB	_	2	_	_	start_char=26|end_char=29
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=30|end_char=34
+5	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=35|end_char=41
+6	to	to	PART	TO	_	5	_	_	start_char=42|end_char=44
+7	unsexy	unsexy	ADJ	JJ	Degree=Pos	6	_	_	start_char=45|end_char=51
+8	lez	lez	NOUN	NN	Number=Sing	7	_	_	start_char=52|end_char=55
+9	out	out	ADP	RP	_	8	_	_	start_char=56|end_char=59
+10	yet	yet	ADV	RB	_	9	_	_	start_char=60|end_char=63|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=63|end_char=64|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=64|end_char=65|SpaceAfter=No
+

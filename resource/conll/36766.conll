@@ -1,0 +1,61 @@
+# text = IF this is true, this is YUGE!
+# sent_id = 78597
+1	IF	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=3|end_char=7
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=10
+4	true	true	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=15|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=15|end_char=16
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=17|end_char=21
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=22|end_char=24
+8	YUGE	yuge	ADJ	JJ	Degree=Pos	7	_	_	start_char=25|end_char=29|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=29|end_char=30
+
+# text = Especially if any DNC payments can be traced being made to her.
+# sent_id = 78598
+1	Especially	especially	ADV	RB	_	0	_	_	start_char=31|end_char=41
+2	if	if	SCONJ	IN	_	1	_	_	start_char=42|end_char=44
+3	any	any	DET	DT	_	2	_	_	start_char=45|end_char=48
+4	DNC	DNC	PROPN	NNP	Number=Sing	3	_	_	start_char=49|end_char=52
+5	payments	payment	NOUN	NNS	Number=Plur	4	_	_	start_char=53|end_char=61
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=62|end_char=65
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=66|end_char=68
+8	traced	trace	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=69|end_char=75
+9	being	be	AUX	VBG	VerbForm=Ger	8	_	_	start_char=76|end_char=81
+10	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=82|end_char=86
+11	to	to	ADP	IN	_	10	_	_	start_char=87|end_char=89
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=90|end_char=93|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=93|end_char=94
+
+# text = So, if the above IS true - that means the "letter" was probably a "boiler plate" letter, designed to "insert name."
+# sent_id = 78599
+1	So	so	ADV	RB	_	0	_	_	start_char=95|end_char=97|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=97|end_char=98
+3	if	if	SCONJ	IN	_	2	_	_	start_char=99|end_char=101
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=102|end_char=105
+5	above	above	ADJ	JJ	Degree=Pos	4	_	_	start_char=106|end_char=111
+6	IS	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=112|end_char=114
+7	true	true	ADJ	JJ	Degree=Pos	6	_	_	start_char=115|end_char=119
+8	-	-	PUNCT	,	_	7	_	_	start_char=120|end_char=121
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=122|end_char=126
+10	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=127|end_char=132
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=133|end_char=136
+12	"	"	PUNCT	``	_	11	_	_	start_char=137|end_char=138|SpaceAfter=No
+13	letter	letter	NOUN	NN	Number=Sing	12	_	_	start_char=138|end_char=144|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=144|end_char=145
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=146|end_char=149
+16	probably	probably	ADV	RB	_	15	_	_	start_char=150|end_char=158
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=159|end_char=160
+18	"	"	PUNCT	``	_	17	_	_	start_char=161|end_char=162|SpaceAfter=No
+19	boiler	boiler	NOUN	NN	Number=Sing	18	_	_	start_char=162|end_char=168
+20	plate	plate	NOUN	NN	Number=Sing	19	_	_	start_char=169|end_char=174|SpaceAfter=No
+21	"	"	PUNCT	''	_	20	_	_	start_char=174|end_char=175
+22	letter	letter	NOUN	NN	Number=Sing	21	_	_	start_char=176|end_char=182|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	start_char=182|end_char=183
+24	designed	design	VERB	VBN	Tense=Past|VerbForm=Part	23	_	_	start_char=184|end_char=192
+25	to	to	PART	TO	_	24	_	_	start_char=193|end_char=195
+26	"	"	PUNCT	``	_	25	_	_	start_char=196|end_char=197|SpaceAfter=No
+27	insert	insert	VERB	VB	VerbForm=Inf	26	_	_	start_char=197|end_char=203
+28	name	name	NOUN	NN	Number=Sing	27	_	_	start_char=204|end_char=208|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=208|end_char=209|SpaceAfter=No
+30	"	"	PUNCT	''	_	29	_	_	start_char=209|end_char=210|SpaceAfter=No
+

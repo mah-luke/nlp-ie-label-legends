@@ -1,0 +1,46 @@
+# text = I don't think she should be viewed as sexually attractive.
+# sent_id = 24591
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	don't	_	_	_	_	_	_	_	start_char=2|end_char=7
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	n't	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=8|end_char=13
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=14|end_char=17
+6	should	should	AUX	MD	VerbForm=Fin	5	_	_	start_char=18|end_char=24
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=25|end_char=27
+8	viewed	view	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=28|end_char=34
+9	as	as	ADP	IN	_	8	_	_	start_char=35|end_char=37
+10	sexually	sexually	ADV	RB	_	9	_	_	start_char=38|end_char=46
+11	attractive	attractive	ADJ	JJ	Degree=Pos	10	_	_	start_char=47|end_char=57|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=57|end_char=58
+
+# text = She's too young.
+# sent_id = 24592
+1-2	She's	_	_	_	_	_	_	_	start_char=59|end_char=64
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=59|end_char=62
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=62|end_char=64
+3	too	too	ADV	RB	_	2	_	_	start_char=65|end_char=68
+4	young	young	ADJ	JJ	Degree=Pos	3	_	_	start_char=69|end_char=74|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=74|end_char=75
+
+# text = But I am familiar with the facts of the case and the encounter was not a rape.
+# sent_id = 24593
+1	But	but	CCONJ	CC	_	0	_	_	start_char=76|end_char=79
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=80|end_char=81
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=82|end_char=84
+4	familiar	familiar	ADJ	JJ	Degree=Pos	3	_	_	start_char=85|end_char=93
+5	with	with	ADP	IN	_	4	_	_	start_char=94|end_char=98
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=99|end_char=102
+7	facts	fact	NOUN	NNS	Number=Plur	6	_	_	start_char=103|end_char=108
+8	of	of	ADP	IN	_	7	_	_	start_char=109|end_char=111
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=112|end_char=115
+10	case	case	NOUN	NN	Number=Sing	9	_	_	start_char=116|end_char=120
+11	and	and	CCONJ	CC	_	10	_	_	start_char=121|end_char=124
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=125|end_char=128
+13	encounter	encounter	NOUN	NN	Number=Sing	12	_	_	start_char=129|end_char=138
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=139|end_char=142
+15	not	not	PART	RB	_	14	_	_	start_char=143|end_char=146
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=147|end_char=148
+17	rape	rape	NOUN	NN	Number=Sing	16	_	_	start_char=149|end_char=153|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=153|end_char=154|SpaceAfter=No
+

@@ -1,0 +1,37 @@
+# text = What about when I already match with girls but can’t get them to write back.
+# sent_id = 26174
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	about	about	ADP	IN	_	1	_	_	start_char=5|end_char=10
+3	when	when	ADV	WRB	PronType=Int	2	_	_	start_char=11|end_char=15
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=16|end_char=17
+5	already	already	ADV	RB	_	4	_	_	start_char=18|end_char=25
+6	match	match	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=26|end_char=31
+7	with	with	ADP	IN	_	6	_	_	start_char=32|end_char=36
+8	girls	girl	NOUN	NNS	Number=Plur	7	_	_	start_char=37|end_char=42
+9	but	but	CCONJ	CC	_	8	_	_	start_char=43|end_char=46
+10-11	can’t	_	_	_	_	_	_	_	start_char=47|end_char=52
+10	ca	can	AUX	MD	VerbForm=Fin	9	_	_	start_char=47|end_char=49
+11	n’t	not	PART	RB	_	10	_	_	start_char=49|end_char=52
+12	get	get	VERB	VB	VerbForm=Inf	11	_	_	start_char=53|end_char=56
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=57|end_char=61
+14	to	to	PART	TO	_	13	_	_	start_char=62|end_char=64
+15	write	write	VERB	VB	VerbForm=Inf	14	_	_	start_char=65|end_char=70
+16	back	back	ADV	RB	_	15	_	_	start_char=71|end_char=75|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=75|end_char=76
+
+# text = They may write me once but then they leave me on read.
+# sent_id = 26175
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=77|end_char=81
+2	may	may	AUX	MD	VerbForm=Fin	1	_	_	start_char=82|end_char=85
+3	write	write	VERB	VB	VerbForm=Inf	2	_	_	start_char=86|end_char=91
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=92|end_char=94
+5	once	once	ADV	RB	NumType=Mult	4	_	_	start_char=95|end_char=99
+6	but	but	CCONJ	CC	_	5	_	_	start_char=100|end_char=103
+7	then	then	ADV	RB	PronType=Dem	6	_	_	start_char=104|end_char=108
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=109|end_char=113
+9	leave	leave	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=114|end_char=119
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=120|end_char=122
+11	on	on	ADP	IN	_	10	_	_	start_char=123|end_char=125
+12	read	read	NOUN	NN	Number=Sing	11	_	_	start_char=126|end_char=130|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=130|end_char=131|SpaceAfter=No
+

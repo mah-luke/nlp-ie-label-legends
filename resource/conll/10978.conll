@@ -1,0 +1,77 @@
+# text = He's already getting a lot of those reminders.
+# sent_id = 23237
+1-2	He's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	already	already	ADV	RB	_	2	_	_	start_char=5|end_char=12
+4	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=13|end_char=20
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=21|end_char=22
+6	lot	lot	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=26
+7	of	of	ADP	IN	_	6	_	_	start_char=27|end_char=29
+8	those	that	DET	DT	Number=Plur|PronType=Dem	7	_	_	start_char=30|end_char=35
+9	reminders	reminder	NOUN	NNS	Number=Plur	8	_	_	start_char=36|end_char=45|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=45|end_char=46
+
+# text = His voter base is pissed, and the left still hates him.
+# sent_id = 23238
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=47|end_char=50
+2	voter	voter	NOUN	NN	Number=Sing	1	_	_	start_char=51|end_char=56
+3	base	base	NOUN	NN	Number=Sing	2	_	_	start_char=57|end_char=61
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=62|end_char=64
+5	pissed	piss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=65|end_char=71|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=71|end_char=72
+7	and	and	CCONJ	CC	_	6	_	_	start_char=73|end_char=76
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=77|end_char=80
+9	left	left	NOUN	NN	Number=Sing	8	_	_	start_char=81|end_char=85
+10	still	still	ADV	RB	_	9	_	_	start_char=86|end_char=91
+11	hates	hate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=92|end_char=97
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=98|end_char=101|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=101|end_char=102
+
+# text = He knows what he's doing!
+# sent_id = 23239
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=103|end_char=105
+2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=106|end_char=111
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=112|end_char=116
+4-5	he's	_	_	_	_	_	_	_	start_char=117|end_char=121
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=117|end_char=119
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=119|end_char=121
+6	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=122|end_char=127|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=127|end_char=128
+
+# text = You don't do a 180 because you forgot what you promised.
+# sent_id = 23240
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=129|end_char=132
+2-3	don't	_	_	_	_	_	_	_	start_char=133|end_char=138
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=133|end_char=135
+3	n't	not	PART	RB	_	2	_	_	start_char=135|end_char=138
+4	do	do	VERB	VB	VerbForm=Inf	3	_	_	start_char=139|end_char=141
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=142|end_char=143
+6	180	180	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=144|end_char=147
+7	because	because	SCONJ	IN	_	6	_	_	start_char=148|end_char=155
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=156|end_char=159
+9	forgot	forget	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	8	_	_	start_char=160|end_char=166
+10	what	what	PRON	WP	PronType=Rel	9	_	_	start_char=167|end_char=171
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=172|end_char=175
+12	promised	promise	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	11	_	_	start_char=176|end_char=184|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=184|end_char=185
+
+# text = He's a liar and a crook, just like the rest of them.
+# sent_id = 23241
+1-2	He's	_	_	_	_	_	_	_	start_char=186|end_char=190
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=186|end_char=188
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=188|end_char=190
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=191|end_char=192
+4	liar	liar	NOUN	NN	Number=Sing	3	_	_	start_char=193|end_char=197
+5	and	and	CCONJ	CC	_	4	_	_	start_char=198|end_char=201
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=202|end_char=203
+7	crook	crook	NOUN	NN	Number=Sing	6	_	_	start_char=204|end_char=209|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=209|end_char=210
+9	just	just	ADV	RB	_	8	_	_	start_char=211|end_char=215
+10	like	like	ADP	IN	_	9	_	_	start_char=216|end_char=220
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=221|end_char=224
+12	rest	rest	NOUN	NN	Number=Sing	11	_	_	start_char=225|end_char=229
+13	of	of	ADP	IN	_	12	_	_	start_char=230|end_char=232
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=233|end_char=237|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=237|end_char=238|SpaceAfter=No
+

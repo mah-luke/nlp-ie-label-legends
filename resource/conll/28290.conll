@@ -1,0 +1,60 @@
+# text = He's Sikh as it says above.
+# sent_id = 60720
+1-2	He's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	Sikh	Sikh	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=9
+4	as	as	SCONJ	IN	_	3	_	_	start_char=10|end_char=12
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=13|end_char=15
+6	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=16|end_char=20
+7	above	above	ADV	RB	_	6	_	_	start_char=21|end_char=26|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=26|end_char=27
+
+# text = They traditionally guarded India's border with Pakistan & fought Muslim invasion.
+# sent_id = 60721
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=28|end_char=32
+2	traditionally	traditionally	ADV	RB	_	1	_	_	start_char=33|end_char=46
+3	guarded	guard	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=47|end_char=54
+4-5	India's	_	_	_	_	_	_	_	start_char=55|end_char=62
+4	India	India	PROPN	NNP	Number=Sing	3	_	_	start_char=55|end_char=60
+5	's	's	PART	POS	_	4	_	_	start_char=60|end_char=62
+6	border	border	NOUN	NN	Number=Sing	5	_	_	start_char=63|end_char=69
+7	with	with	ADP	IN	_	6	_	_	start_char=70|end_char=74
+8	Pakistan	Pakistan	PROPN	NNP	Number=Sing	7	_	_	start_char=75|end_char=83
+9	&	&	CCONJ	CC	_	8	_	_	start_char=84|end_char=85
+10	fought	fight	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=86|end_char=92
+11	Muslim	Muslim	ADJ	JJ	Degree=Pos	10	_	_	start_char=93|end_char=99
+12	invasion	invasion	NOUN	NN	Number=Sing	11	_	_	start_char=100|end_char=108|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=108|end_char=109
+
+# text = They're none too fond of Islam either & Sikh girls were among the girls being trafficked & raped about the UK by the grooming gangs.
+# sent_id = 60722
+1-2	They're	_	_	_	_	_	_	_	start_char=110|end_char=117
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=110|end_char=114
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=114|end_char=117
+3	none	none	NOUN	NN	Number=Sing	2	_	_	start_char=118|end_char=122
+4	too	too	ADV	RB	_	3	_	_	start_char=123|end_char=126
+5	fond	fond	ADJ	JJ	Degree=Pos	4	_	_	start_char=127|end_char=131
+6	of	of	ADP	IN	_	5	_	_	start_char=132|end_char=134
+7	Islam	Islam	PROPN	NNP	Number=Sing	6	_	_	start_char=135|end_char=140
+8	either	either	CCONJ	CC	_	7	_	_	start_char=141|end_char=147
+9	&	&	CCONJ	CC	_	8	_	_	start_char=148|end_char=149
+10	Sikh	sikh	ADJ	JJ	Degree=Pos	9	_	_	start_char=150|end_char=154
+11	girls	girl	NOUN	NNS	Number=Plur	10	_	_	start_char=155|end_char=160
+12	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=161|end_char=165
+13	among	among	ADP	IN	_	12	_	_	start_char=166|end_char=171
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=172|end_char=175
+15	girls	girl	NOUN	NNS	Number=Plur	14	_	_	start_char=176|end_char=181
+16	being	be	AUX	VBG	VerbForm=Ger	15	_	_	start_char=182|end_char=187
+17	trafficked	traffick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=188|end_char=198
+18	&	&	CCONJ	CC	_	17	_	_	start_char=199|end_char=200
+19	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=201|end_char=206
+20	about	about	ADP	IN	_	19	_	_	start_char=207|end_char=212
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=213|end_char=216
+22	UK	UK	PROPN	NNP	Number=Sing	21	_	_	start_char=217|end_char=219
+23	by	by	ADP	IN	_	22	_	_	start_char=220|end_char=222
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	start_char=223|end_char=226
+25	grooming	grooming	NOUN	NN	Number=Sing	24	_	_	start_char=227|end_char=235
+26	gangs	gang	NOUN	NNS	Number=Plur	25	_	_	start_char=236|end_char=241|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=241|end_char=242|SpaceAfter=No
+

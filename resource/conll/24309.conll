@@ -1,0 +1,28 @@
+# text = What's the point in being a real man if there are no real ladies anymore?
+# sent_id = 52095
+1-2	What's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7|end_char=10
+4	point	point	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=16
+5	in	in	SCONJ	IN	_	4	_	_	start_char=17|end_char=19
+6	being	be	AUX	VBG	VerbForm=Ger	5	_	_	start_char=20|end_char=25
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=26|end_char=27
+8	real	real	ADJ	JJ	Degree=Pos	7	_	_	start_char=28|end_char=32
+9	man	man	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=36
+10	if	if	SCONJ	IN	_	9	_	_	start_char=37|end_char=39
+11	there	there	PRON	EX	_	10	_	_	start_char=40|end_char=45
+12	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=46|end_char=49
+13	no	no	DET	DT	_	12	_	_	start_char=50|end_char=52
+14	real	real	ADJ	JJ	Degree=Pos	13	_	_	start_char=53|end_char=57
+15	ladies	lady	NOUN	NNS	Number=Plur	14	_	_	start_char=58|end_char=64
+16	anymore	anymore	ADV	RB	_	15	_	_	start_char=65|end_char=72|SpaceAfter=No
+17	?	?	PUNCT	.	_	16	_	_	start_char=72|end_char=73
+
+# text = #MAGA #SpeakFreely
+# sent_id = 52096
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=74|end_char=75|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=75|end_char=79
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=80|end_char=81|SpaceAfter=No
+4	SpeakFreely	SpeakFreely	NOUN	NN	Number=Sing	3	_	_	start_char=81|end_char=92|SpaceAfter=No
+

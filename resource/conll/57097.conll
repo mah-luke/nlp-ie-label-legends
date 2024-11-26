@@ -1,0 +1,44 @@
+# text = Me, too.
+# sent_id = 122025
+1	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	too	too	ADV	RB	_	2	_	_	start_char=4|end_char=7|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=7|end_char=8
+
+# text = Let's all get together and hunt her down.
+# sent_id = 122026
+1-2	Let's	_	_	_	_	_	_	_	start_char=9|end_char=14
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=9|end_char=12
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=12|end_char=14
+3	all	all	DET	DT	_	2	_	_	start_char=15|end_char=18
+4	get	get	VERB	VB	VerbForm=Inf	3	_	_	start_char=19|end_char=22
+5	together	together	ADV	RB	_	4	_	_	start_char=23|end_char=31
+6	and	and	CCONJ	CC	_	5	_	_	start_char=32|end_char=35
+7	hunt	hunt	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=36|end_char=40
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=41|end_char=44
+9	down	down	ADP	RP	_	8	_	_	start_char=45|end_char=49|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=49|end_char=50
+
+# text = Everyone bring a gun; we're going to go do a little wild-pig shooting practice.
+# sent_id = 122027
+1	Everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	0	_	_	start_char=51|end_char=59
+2	bring	bring	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=60|end_char=65
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=66|end_char=67
+4	gun	gun	NOUN	NN	Number=Sing	3	_	_	start_char=68|end_char=71|SpaceAfter=No
+5	;	;	PUNCT	:	_	4	_	_	start_char=71|end_char=72
+6-7	we're	_	_	_	_	_	_	_	start_char=73|end_char=78
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=73|end_char=75
+7	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=75|end_char=78
+8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=79|end_char=84
+9	to	to	PART	TO	_	8	_	_	start_char=85|end_char=87
+10	go	go	VERB	VB	VerbForm=Inf	9	_	_	start_char=88|end_char=90
+11	do	do	VERB	VB	VerbForm=Inf	10	_	_	start_char=91|end_char=93
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=94|end_char=95
+13	little	little	ADJ	JJ	Degree=Pos	12	_	_	start_char=96|end_char=102
+14	wild	wild	NOUN	NN	Number=Sing	13	_	_	start_char=103|end_char=107|SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	_	_	start_char=107|end_char=108|SpaceAfter=No
+16	pig	pig	NOUN	NN	Number=Sing	15	_	_	start_char=108|end_char=111
+17	shooting	shooting	NOUN	NN	Number=Sing	16	_	_	start_char=112|end_char=120
+18	practice	practice	NOUN	NN	Number=Sing	17	_	_	start_char=121|end_char=129|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=129|end_char=130|SpaceAfter=No
+

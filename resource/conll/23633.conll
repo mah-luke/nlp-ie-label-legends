@@ -1,0 +1,65 @@
+# text = I remember when I first heard about this story.
+# sent_id = 50716
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	remember	remember	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=10
+3	when	when	ADV	WRB	PronType=Int	2	_	_	start_char=11|end_char=15
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=16|end_char=17
+5	first	first	ADV	RB	NumType=Ord	4	_	_	start_char=18|end_char=23
+6	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=24|end_char=29
+7	about	about	ADP	IN	_	6	_	_	start_char=30|end_char=35
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=36|end_char=40
+9	story	story	NOUN	NN	Number=Sing	8	_	_	start_char=41|end_char=46|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=46|end_char=47
+
+# text = I also remember that Snopes said it was "fake news".
+# sent_id = 50717
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=48|end_char=49
+2	also	also	ADV	RB	_	1	_	_	start_char=50|end_char=54
+3	remember	remember	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=55|end_char=63
+4	that	that	SCONJ	IN	_	3	_	_	start_char=64|end_char=68
+5	Snopes	Snope	PROPN	NNP	Number=Sing	4	_	_	start_char=69|end_char=75
+6	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=76|end_char=80
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=81|end_char=83
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=84|end_char=87
+9	"	"	PUNCT	``	_	8	_	_	start_char=88|end_char=89|SpaceAfter=No
+10	fake	fake	ADJ	JJ	Degree=Pos	9	_	_	start_char=89|end_char=93
+11	news	news	NOUN	NN	Number=Sing	10	_	_	start_char=94|end_char=98|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=98|end_char=99|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=99|end_char=100
+
+# text = I feel so dumb for even doubting it now.
+# sent_id = 50718
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=101|end_char=102
+2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=103|end_char=107
+3	so	so	ADV	RB	_	2	_	_	start_char=108|end_char=110
+4	dumb	dumb	ADJ	JJ	Degree=Pos	3	_	_	start_char=111|end_char=115
+5	for	for	SCONJ	IN	_	4	_	_	start_char=116|end_char=119
+6	even	even	ADV	RB	_	5	_	_	start_char=120|end_char=124
+7	doubting	doubt	VERB	VBG	VerbForm=Ger	6	_	_	start_char=125|end_char=133
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=134|end_char=136
+9	now	now	ADV	RB	_	8	_	_	start_char=137|end_char=140|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=140|end_char=141
+
+# text = What Jayla & her family have endured is so horrifying.
+# sent_id = 50719
+1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=142|end_char=146
+2	Jayla	Jayla	PROPN	NNP	Number=Sing	1	_	_	start_char=147|end_char=152
+3	&	&	CCONJ	CC	_	2	_	_	start_char=153|end_char=154
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=155|end_char=158
+5	family	family	NOUN	NN	Number=Sing	4	_	_	start_char=159|end_char=165
+6	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=166|end_char=170
+7	endured	endure	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=171|end_char=178
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=179|end_char=181
+9	so	so	ADV	RB	_	8	_	_	start_char=182|end_char=184
+10	horrifying	horrifying	ADJ	JJ	Degree=Pos	9	_	_	start_char=185|end_char=195|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=195|end_char=196
+
+# text = That judge is a SCUMBAG!
+# sent_id = 50720
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=197|end_char=201
+2	judge	judge	NOUN	NN	Number=Sing	1	_	_	start_char=202|end_char=207
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=208|end_char=210
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=211|end_char=212
+5	SCUMBAG	scumbag	NOUN	NN	Number=Sing	4	_	_	start_char=213|end_char=220|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=220|end_char=221|SpaceAfter=No
+

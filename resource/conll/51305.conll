@@ -1,0 +1,30 @@
+# text = Every woman wants to be a model.
+# sent_id = 109654
+1	Every	every	DET	DT	_	0	_	_	start_char=0|end_char=5
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=11
+3	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=17
+4	to	to	PART	TO	_	3	_	_	start_char=18|end_char=20
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=21|end_char=23
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=24|end_char=25
+7	model	model	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=31|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=31|end_char=32
+
+# text = It's codeword for "I get everything for free and people want me"
+# sent_id = 109655
+1-2	It's	_	_	_	_	_	_	_	start_char=33|end_char=37
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=33|end_char=35
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=35|end_char=37
+3	codeword	codeword	NOUN	NN	Number=Sing	2	_	_	start_char=38|end_char=46
+4	for	for	ADP	IN	_	3	_	_	start_char=47|end_char=50
+5	"	"	PUNCT	``	_	4	_	_	start_char=51|end_char=52|SpaceAfter=No
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=52|end_char=53
+7	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=54|end_char=57
+8	everything	everything	PRON	NN	Number=Sing|PronType=Tot	7	_	_	start_char=58|end_char=68
+9	for	for	ADP	IN	_	8	_	_	start_char=69|end_char=72
+10	free	free	ADJ	JJ	Degree=Pos	9	_	_	start_char=73|end_char=77
+11	and	and	CCONJ	CC	_	10	_	_	start_char=78|end_char=81
+12	people	person	NOUN	NNS	Number=Plur	11	_	_	start_char=82|end_char=88
+13	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=89|end_char=93
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=94|end_char=96|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=96|end_char=97|SpaceAfter=No
+

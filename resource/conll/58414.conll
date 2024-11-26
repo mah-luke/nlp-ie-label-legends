@@ -1,0 +1,29 @@
+# text = That's not a woman.
+# sent_id = 124715
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	not	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=11|end_char=12
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=18|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=18|end_char=19
+
+# text = That's a black sow in a gunny sack standing on its hind legs.
+# sent_id = 124716
+1-2	That's	_	_	_	_	_	_	_	start_char=20|end_char=26
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=20|end_char=24
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=24|end_char=26
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=27|end_char=28
+4	black	black	ADJ	JJ	Degree=Pos	3	_	_	start_char=29|end_char=34
+5	sow	sow	NOUN	NN	Number=Sing	4	_	_	start_char=35|end_char=38
+6	in	in	ADP	IN	_	5	_	_	start_char=39|end_char=41
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=42|end_char=43
+8	gunny	gunny	NOUN	NN	Number=Sing	7	_	_	start_char=44|end_char=49
+9	sack	sack	NOUN	NN	Number=Sing	8	_	_	start_char=50|end_char=54
+10	standing	stand	VERB	VBG	VerbForm=Ger	9	_	_	start_char=55|end_char=63
+11	on	on	ADP	IN	_	10	_	_	start_char=64|end_char=66
+12	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=67|end_char=70
+13	hind	hind	NOUN	NN	Number=Sing	12	_	_	start_char=71|end_char=75
+14	legs	leg	NOUN	NNS	Number=Plur	13	_	_	start_char=76|end_char=80|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=80|end_char=81|SpaceAfter=No
+

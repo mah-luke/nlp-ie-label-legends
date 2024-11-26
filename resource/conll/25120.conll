@@ -1,0 +1,46 @@
+# text = A black man sucker punches a white woman who then gets robbed by bystanders.
+# sent_id = 53856
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
+2	black	black	ADJ	JJ	Degree=Pos	1	_	_	start_char=2|end_char=7
+3	man	man	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=11
+4	sucker	sucker	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=18
+5	punches	punch	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=19|end_char=26
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=27|end_char=28
+7	white	white	ADJ	JJ	Degree=Pos	6	_	_	start_char=29|end_char=34
+8	woman	woman	NOUN	NN	Number=Sing	7	_	_	start_char=35|end_char=40
+9	who	who	PRON	WP	PronType=Rel	8	_	_	start_char=41|end_char=44
+10	then	then	ADV	RB	PronType=Dem	9	_	_	start_char=45|end_char=49
+11	gets	get	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=50|end_char=54
+12	robbed	rob	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=55|end_char=61
+13	by	by	ADP	IN	_	12	_	_	start_char=62|end_char=64
+14	bystanders	bystander	NOUN	NNS	Number=Plur	13	_	_	start_char=65|end_char=75|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=75|end_char=76
+
+# text = Lets see if this gets as much attention as some Dove commercial that offended the libtards.
+# sent_id = 53857
+1	Lets	let	NOUN	NNS	Number=Plur	0	_	_	start_char=77|end_char=81
+2	see	see	VERB	VB	VerbForm=Inf	1	_	_	start_char=82|end_char=85
+3	if	if	SCONJ	IN	_	2	_	_	start_char=86|end_char=88
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=89|end_char=93
+5	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=94|end_char=98
+6	as	as	ADV	RB	_	5	_	_	start_char=99|end_char=101
+7	much	much	ADJ	JJ	Degree=Pos	6	_	_	start_char=102|end_char=106
+8	attention	attention	NOUN	NN	Number=Sing	7	_	_	start_char=107|end_char=116
+9	as	as	ADP	IN	_	8	_	_	start_char=117|end_char=119
+10	some	some	DET	DT	_	9	_	_	start_char=120|end_char=124
+11	Dove	Dove	PROPN	NNP	Number=Sing	10	_	_	start_char=125|end_char=129
+12	commercial	commercial	NOUN	NN	Number=Sing	11	_	_	start_char=130|end_char=140
+13	that	that	PRON	WDT	PronType=Rel	12	_	_	start_char=141|end_char=145
+14	offended	offend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=146|end_char=154
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=155|end_char=158
+16	libtards	libtard	NOUN	NNS	Number=Plur	15	_	_	start_char=159|end_char=167|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=167|end_char=168
+
+# text = #blackcrimesmatter [URL]
+# sent_id = 53858
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=169|end_char=170|SpaceAfter=No
+2	blackcrimesmatter	blackcrimesmatter	NOUN	NN	Number=Sing	1	_	_	start_char=170|end_char=187
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=188|end_char=189|SpaceAfter=No
+4	URL	URL	NOUN	NN	Number=Sing	3	_	_	start_char=189|end_char=192|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=192|end_char=193|SpaceAfter=No
+

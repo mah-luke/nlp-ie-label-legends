@@ -1,0 +1,31 @@
+# text = Yes.
+# sent_id = 109053
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = But the right (liberal) women will be the ones dying.
+# sent_id = 109054
+1	But	but	CCONJ	CC	_	0	_	_	start_char=5|end_char=8
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=9|end_char=12
+3	right	right	ADJ	JJ	Degree=Pos	2	_	_	start_char=13|end_char=18
+4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=19|end_char=20|SpaceAfter=No
+5	liberal	liberal	ADJ	JJ	Degree=Pos	4	_	_	start_char=20|end_char=27|SpaceAfter=No
+6	)	)	PUNCT	-RRB-	_	5	_	_	start_char=27|end_char=28
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=29|end_char=34
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=35|end_char=39
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=40|end_char=42
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=43|end_char=46
+11	ones	one	NOUN	NNS	Number=Plur	10	_	_	start_char=47|end_char=51
+12	dying	die	VERB	VBG	VerbForm=Ger	11	_	_	start_char=52|end_char=57|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=57|end_char=58
+
+# text = We're OK with that.
+# sent_id = 109055
+1-2	We're	_	_	_	_	_	_	_	start_char=59|end_char=64
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=59|end_char=61
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=61|end_char=64
+3	OK	ok	ADJ	JJ	Degree=Pos	2	_	_	start_char=65|end_char=67
+4	with	with	ADP	IN	_	3	_	_	start_char=68|end_char=72
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=73|end_char=77|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=77|end_char=78|SpaceAfter=No
+

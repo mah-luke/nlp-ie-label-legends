@@ -1,0 +1,54 @@
+# text = Personally, I've never hated anyone this much.
+# sent_id = 39723
+1	Personally	personally	ADV	RB	_	0	_	_	start_char=0|end_char=10|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=10|end_char=11
+3-4	I've	_	_	_	_	_	_	_	start_char=12|end_char=16
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=12|end_char=13
+4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=16
+5	never	never	ADV	RB	_	4	_	_	start_char=17|end_char=22
+6	hated	hate	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=23|end_char=28
+7	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	6	_	_	start_char=29|end_char=35
+8	this	this	ADV	RB	_	7	_	_	start_char=36|end_char=40
+9	much	much	ADV	RB	_	8	_	_	start_char=41|end_char=45|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=45|end_char=46
+
+# text = The fuck killed his son, and tried to burn the house down with his own mother asleep in her bed.
+# sent_id = 39724
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=47|end_char=50
+2	fuck	fuck	NOUN	NN	Number=Sing	1	_	_	start_char=51|end_char=55
+3	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=56|end_char=62
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=63|end_char=66
+5	son	son	NOUN	NN	Number=Sing	4	_	_	start_char=67|end_char=70|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=70|end_char=71
+7	and	and	CCONJ	CC	_	6	_	_	start_char=72|end_char=75
+8	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=76|end_char=81
+9	to	to	PART	TO	_	8	_	_	start_char=82|end_char=84
+10	burn	burn	VERB	VB	VerbForm=Inf	9	_	_	start_char=85|end_char=89
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=90|end_char=93
+12	house	house	NOUN	NN	Number=Sing	11	_	_	start_char=94|end_char=99
+13	down	down	ADV	RB	_	12	_	_	start_char=100|end_char=104
+14	with	with	ADP	IN	_	13	_	_	start_char=105|end_char=109
+15	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=110|end_char=113
+16	own	own	ADJ	JJ	Degree=Pos	15	_	_	start_char=114|end_char=117
+17	mother	mother	NOUN	NN	Number=Sing	16	_	_	start_char=118|end_char=124
+18	asleep	asleep	ADV	RB	_	17	_	_	start_char=125|end_char=131
+19	in	in	ADP	IN	_	18	_	_	start_char=132|end_char=134
+20	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	_	_	start_char=135|end_char=138
+21	bed	bed	NOUN	NN	Number=Sing	20	_	_	start_char=139|end_char=142|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=142|end_char=143
+
+# text = ''HIS MOTHER SHOULD'VE SMOTHERED HIM WHEN HE WAS BORN.''
+# sent_id = 39725
+1	''	''	PUNCT	``	_	0	_	_	start_char=144|end_char=146|SpaceAfter=No
+2	HIS	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=146|end_char=149
+3	MOTHER	mother	NOUN	NN	Number=Sing	2	_	_	start_char=150|end_char=156
+4	SHOULD'VE	should've	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=157|end_char=166
+5	SMOTHERED	smother	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=167|end_char=176
+6	HIM	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=177|end_char=180
+7	WHEN	when	ADV	WRB	PronType=Int	6	_	_	start_char=181|end_char=185
+8	HE	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=186|end_char=188
+9	WAS	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=189|end_char=192
+10	BORN	bor	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=193|end_char=197|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=197|end_char=198|SpaceAfter=No
+12	''	''	PUNCT	''	_	11	_	_	start_char=198|end_char=200|SpaceAfter=No
+

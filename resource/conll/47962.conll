@@ -1,0 +1,66 @@
+# text = Hmm, yes, your logic is quite sound.
+# sent_id = 102542
+1	Hmm	hmm	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	yes	yes	INTJ	UH	_	2	_	_	start_char=5|end_char=8|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=8|end_char=9
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=10|end_char=14
+6	logic	logic	NOUN	NN	Number=Sing	5	_	_	start_char=15|end_char=20
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=21|end_char=23
+8	quite	quite	ADV	RB	_	7	_	_	start_char=24|end_char=29
+9	sound	sound	ADJ	JJ	Degree=Pos	8	_	_	start_char=30|end_char=35|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=35|end_char=36
+
+# text = I mean, why would *men* object to the objectification and abuse of women?!?
+# sent_id = 102543
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=37|end_char=38
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=39|end_char=43|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=43|end_char=44
+4	why	why	ADV	WRB	PronType=Int	3	_	_	start_char=45|end_char=48
+5	would	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=49|end_char=54
+6	*	*	PUNCT	NFP	_	5	_	_	start_char=55|end_char=56|SpaceAfter=No
+7	men	man	NOUN	NNS	Number=Plur	6	_	_	start_char=56|end_char=59|SpaceAfter=No
+8	*	*	PUNCT	NFP	_	7	_	_	start_char=59|end_char=60
+9	object	object	VERB	VB	VerbForm=Inf	8	_	_	start_char=61|end_char=67
+10	to	to	ADP	IN	_	9	_	_	start_char=68|end_char=70
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=71|end_char=74
+12	objectification	objectification	NOUN	NN	Number=Sing	11	_	_	start_char=75|end_char=90
+13	and	and	CCONJ	CC	_	12	_	_	start_char=91|end_char=94
+14	abuse	abuse	NOUN	NN	Number=Sing	13	_	_	start_char=95|end_char=100
+15	of	of	ADP	IN	_	14	_	_	start_char=101|end_char=103
+16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=104|end_char=109|SpaceAfter=No
+17	?!?	?!?	PUNCT	.	_	16	_	_	start_char=109|end_char=112
+
+# text = You were too smart for us, xmod2.
+# sent_id = 102544
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=113|end_char=116
+2	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=117|end_char=121
+3	too	too	ADV	RB	_	2	_	_	start_char=122|end_char=125
+4	smart	smart	ADJ	JJ	Degree=Pos	3	_	_	start_char=126|end_char=131
+5	for	for	ADP	IN	_	4	_	_	start_char=132|end_char=135
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=136|end_char=138|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=138|end_char=139
+8	xmod2	xmod2	NOUN	NN	Number=Sing	7	_	_	start_char=140|end_char=145|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=145|end_char=146
+
+# text = You are most certainly an Alpha male!*
+# sent_id = 102545
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=147|end_char=150
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=151|end_char=154
+3	most	most	ADV	RBS	Degree=Sup	2	_	_	start_char=155|end_char=159
+4	certainly	certainly	ADV	RB	_	3	_	_	start_char=160|end_char=169
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=170|end_char=172
+6	Alpha	Alpha	ADJ	JJ	Degree=Pos	5	_	_	start_char=173|end_char=178
+7	male	male	NOUN	NN	Number=Sing	6	_	_	start_char=179|end_char=183|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=183|end_char=184|SpaceAfter=No
+9	*	*	PUNCT	NFP	_	8	_	_	start_char=184|end_char=185
+
+# text = *No you're not
+# sent_id = 102546
+1	*	*	PUNCT	NFP	_	0	_	_	start_char=186|end_char=187|SpaceAfter=No
+2	No	no	INTJ	UH	Polarity=Neg	1	_	_	start_char=187|end_char=189
+3-4	you're	_	_	_	_	_	_	_	start_char=190|end_char=196
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=190|end_char=193
+4	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=193|end_char=196
+5	not	not	PART	RB	_	4	_	_	start_char=197|end_char=200|SpaceAfter=No
+

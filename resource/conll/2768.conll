@@ -1,0 +1,42 @@
+# text = "Its just impossible for them to be involuntary celibate"
+# sent_id = 5914
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2-3	Its	_	_	_	_	_	_	_	start_char=1|end_char=4
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=1|end_char=3
+3	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=3|end_char=4
+4	just	just	ADV	RB	_	3	_	_	start_char=5|end_char=9
+5	impossible	impossible	ADJ	JJ	Degree=Pos	4	_	_	start_char=10|end_char=20
+6	for	for	SCONJ	IN	_	5	_	_	start_char=21|end_char=24
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=25|end_char=29
+8	to	to	PART	TO	_	7	_	_	start_char=30|end_char=32
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=33|end_char=35
+10	involuntary	involuntary	ADJ	JJ	Degree=Pos	9	_	_	start_char=36|end_char=47
+11	celibate	celibate	ADJ	JJ	Degree=Pos	10	_	_	start_char=48|end_char=56|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=56|end_char=57
+
+# text = That's definitely not true, there are definently women out there who arent getting dick and want to get laid.
+# sent_id = 5915
+1-2	That's	_	_	_	_	_	_	_	start_char=58|end_char=64
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=58|end_char=62
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=62|end_char=64
+3	definitely	definitely	ADV	RB	_	2	_	_	start_char=65|end_char=75
+4	not	not	PART	RB	_	3	_	_	start_char=76|end_char=79
+5	true	true	ADJ	JJ	Degree=Pos	4	_	_	start_char=80|end_char=84|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=84|end_char=85
+7	there	there	PRON	EX	_	6	_	_	start_char=86|end_char=91
+8	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=92|end_char=95
+9	definently	definently	ADV	RB	_	8	_	_	start_char=96|end_char=106
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=107|end_char=112
+11	out	out	ADV	RB	_	10	_	_	start_char=113|end_char=116
+12	there	there	ADV	RB	PronType=Dem	11	_	_	start_char=117|end_char=122
+13	who	who	PRON	WP	PronType=Rel	12	_	_	start_char=123|end_char=126
+14	arent	arent	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=127|end_char=132
+15	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	14	_	_	start_char=133|end_char=140
+16	dick	dick	NOUN	NN	Number=Sing	15	_	_	start_char=141|end_char=145
+17	and	and	CCONJ	CC	_	16	_	_	start_char=146|end_char=149
+18	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=150|end_char=154
+19	to	to	PART	TO	_	18	_	_	start_char=155|end_char=157
+20	get	get	AUX	VB	VerbForm=Inf	19	_	_	start_char=158|end_char=161
+21	laid	lay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	_	_	start_char=162|end_char=166|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=166|end_char=167|SpaceAfter=No
+

@@ -1,0 +1,33 @@
+# text = If it's reciprocal then it's fine...
+# sent_id = 67676
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2-3	it's	_	_	_	_	_	_	_	start_char=3|end_char=7
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=5|end_char=7
+4	reciprocal	reciprocal	ADJ	JJ	Degree=Pos	3	_	_	start_char=8|end_char=18
+5	then	then	ADV	RB	PronType=Dem	4	_	_	start_char=19|end_char=23
+6-7	it's	_	_	_	_	_	_	_	start_char=24|end_char=28
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=24|end_char=26
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=26|end_char=28
+8	fine	fine	ADJ	JJ	Degree=Pos	7	_	_	start_char=29|end_char=33|SpaceAfter=No
+9	...	...	PUNCT	.	_	8	_	_	start_char=33|end_char=36
+
+# text = But women are just not like that so don't cuck for these thots.
+# sent_id = 67677
+1	But	but	CCONJ	CC	_	0	_	_	start_char=37|end_char=40
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=41|end_char=46
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=47|end_char=50
+4	just	just	ADV	RB	_	3	_	_	start_char=51|end_char=55
+5	not	not	PART	RB	_	4	_	_	start_char=56|end_char=59
+6	like	like	ADP	IN	_	5	_	_	start_char=60|end_char=64
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=65|end_char=69
+8	so	so	ADV	RB	_	7	_	_	start_char=70|end_char=72
+9-10	don't	_	_	_	_	_	_	_	start_char=73|end_char=78
+9	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=73|end_char=75
+10	n't	not	PART	RB	_	9	_	_	start_char=75|end_char=78
+11	cuck	cuck	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=79|end_char=83
+12	for	for	ADP	IN	_	11	_	_	start_char=84|end_char=87
+13	these	this	DET	DT	Number=Plur|PronType=Dem	12	_	_	start_char=88|end_char=93
+14	thots	thot	NOUN	NNS	Number=Plur	13	_	_	start_char=94|end_char=99|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=99|end_char=100|SpaceAfter=No
+

@@ -1,0 +1,64 @@
+# text = This one has me worried.
+# sent_id = 126141
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	one	one	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=8
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=12
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=13|end_char=15
+5	worried	worried	ADJ	JJ	Degree=Pos	4	_	_	start_char=16|end_char=23|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=23|end_char=24
+
+# text = We have a missionary wife, stationed in West Africa, on the way back home for medical care.
+# sent_id = 126142
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=25|end_char=27
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=28|end_char=32
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=33|end_char=34
+4	missionary	missionary	ADJ	JJ	Degree=Pos	3	_	_	start_char=35|end_char=45
+5	wife	wife	NOUN	NN	Number=Sing	4	_	_	start_char=46|end_char=50|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=50|end_char=51
+7	stationed	station	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=52|end_char=61
+8	in	in	ADP	IN	_	7	_	_	start_char=62|end_char=64
+9	West	West	PROPN	NNP	Number=Sing	8	_	_	start_char=65|end_char=69
+10	Africa	Africa	PROPN	NNP	Number=Sing	9	_	_	start_char=70|end_char=76|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=76|end_char=77
+12	on	on	ADP	IN	_	11	_	_	start_char=78|end_char=80
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=81|end_char=84
+14	way	way	NOUN	NN	Number=Sing	13	_	_	start_char=85|end_char=88
+15	back	back	ADV	RB	_	14	_	_	start_char=89|end_char=93
+16	home	home	ADV	RB	_	15	_	_	start_char=94|end_char=98
+17	for	for	ADP	IN	_	16	_	_	start_char=99|end_char=102
+18	medical	medical	ADJ	JJ	Degree=Pos	17	_	_	start_char=103|end_char=110
+19	care	care	NOUN	NN	Number=Sing	18	_	_	start_char=111|end_char=115|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=115|end_char=116
+
+# text = Going to have a long layover in Paris airport tonight/early tomorrow morning.
+# sent_id = 126143
+1	Going	go	VERB	VBG	VerbForm=Ger	0	_	_	start_char=117|end_char=122
+2	to	to	PART	TO	_	1	_	_	start_char=123|end_char=125
+3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=126|end_char=130
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=131|end_char=132
+5	long	long	ADJ	JJ	Degree=Pos	4	_	_	start_char=133|end_char=137
+6	layover	layover	NOUN	NN	Number=Sing	5	_	_	start_char=138|end_char=145
+7	in	in	ADP	IN	_	6	_	_	start_char=146|end_char=148
+8	Paris	Paris	PROPN	NNP	Number=Sing	7	_	_	start_char=149|end_char=154
+9	airport	airport	NOUN	NN	Number=Sing	8	_	_	start_char=155|end_char=162
+10	tonight	tonight	NOUN	NN	Number=Sing	9	_	_	start_char=163|end_char=170|SpaceAfter=No
+11	/	/	SYM	SYM	_	10	_	_	start_char=170|end_char=171|SpaceAfter=No
+12	early	early	ADV	RB	Degree=Pos	11	_	_	start_char=171|end_char=176
+13	tomorrow	tomorrow	NOUN	NN	Number=Sing	12	_	_	start_char=177|end_char=185
+14	morning	morning	NOUN	NN	Number=Sing	13	_	_	start_char=186|end_char=193|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=193|end_char=194
+
+# text = I'll be glad when her plane lands here.
+# sent_id = 126144
+1-2	I'll	_	_	_	_	_	_	_	start_char=195|end_char=199
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=195|end_char=196
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=196|end_char=199
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=200|end_char=202
+4	glad	glad	ADJ	JJ	Degree=Pos	3	_	_	start_char=203|end_char=207
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=208|end_char=212
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=213|end_char=216
+7	plane	plane	NOUN	NN	Number=Sing	6	_	_	start_char=217|end_char=222
+8	lands	land	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=223|end_char=228
+9	here	here	ADV	RB	PronType=Dem	8	_	_	start_char=229|end_char=233|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=233|end_char=234|SpaceAfter=No
+

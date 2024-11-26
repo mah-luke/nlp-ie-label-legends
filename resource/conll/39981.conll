@@ -1,0 +1,30 @@
+# text = La vérité finira pas triompher -
+# sent_id = 85449
+1	La	La	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
+2	vérité	vérité	X	FW	Foreign=Yes	1	_	_	start_char=3|end_char=9
+3	finira	finira	X	FW	Foreign=Yes	2	_	_	start_char=10|end_char=16
+4	pas	pas	X	FW	Foreign=Yes	3	_	_	start_char=17|end_char=20
+5	triompher	triompher	X	FW	Foreign=Yes	4	_	_	start_char=21|end_char=30
+6	-	-	PUNCT	,	_	5	_	_	start_char=31|end_char=32
+
+# text = The truth will not triumph [URL] #hitler #god #adolfhitler #meinfuhrer #truth#verite #nazi #nationalsocialisme#nationalsocialism
+# sent_id = 85450
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=33|end_char=36
+2	truth	truth	NOUN	NN	Number=Sing	1	_	_	start_char=37|end_char=42
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=43|end_char=47
+4	not	not	PART	RB	_	3	_	_	start_char=48|end_char=51
+5	triumph	triumph	VERB	VB	VerbForm=Inf	4	_	_	start_char=52|end_char=59
+6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=60|end_char=61|SpaceAfter=No
+7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=61|end_char=64|SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=64|end_char=65
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=66|end_char=67|SpaceAfter=No
+10	hitler	hitler	X	FW	Foreign=Yes	9	_	_	start_char=67|end_char=73
+11	#god	#god	X	FW	Foreign=Yes	10	_	_	start_char=74|end_char=78
+12	#adolfhitler	#adolfhitler	X	FW	_	11	_	_	start_char=79|end_char=91
+13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=92|end_char=93|SpaceAfter=No
+14	meinfuhrer	meinfuhrer	X	FW	_	13	_	_	start_char=93|end_char=103
+15	#truth#verite	#truth#verite	X	FW	_	14	_	_	start_char=104|end_char=117
+16	#	#	SYM	NN	Number=Sing	15	_	_	start_char=118|end_char=119|SpaceAfter=No
+17	nazi	nazi	X	FW	_	16	_	_	start_char=119|end_char=123
+18	#nationalsocialisme#nationalsocialism	#nationalsocialisme#nationalsocialism	X	ADD	_	17	_	_	start_char=124|end_char=161|SpaceAfter=No
+

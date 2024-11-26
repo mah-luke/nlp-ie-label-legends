@@ -1,0 +1,29 @@
+# text = How did no one call the police with her shrieking like a fucking banshee?
+# sent_id = 122355
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	no	no	DET	DT	_	2	_	_	start_char=8|end_char=10
+4	one	one	PRON	NN	Number=Sing|PronType=Neg	3	_	_	start_char=11|end_char=14
+5	call	call	VERB	VB	VerbForm=Inf	4	_	_	start_char=15|end_char=19
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=20|end_char=23
+7	police	police	NOUN	NN	Number=Sing	6	_	_	start_char=24|end_char=30
+8	with	with	ADP	IN	_	7	_	_	start_char=31|end_char=35
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=36|end_char=39
+10	shrieking	shriek	VERB	VBG	VerbForm=Ger	9	_	_	start_char=40|end_char=49
+11	like	like	ADP	IN	_	10	_	_	start_char=50|end_char=54
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=55|end_char=56
+13	fucking	fuck	ADJ	JJ	Degree=Pos	12	_	_	start_char=57|end_char=64
+14	banshee	banshee	NOUN	NN	Number=Sing	13	_	_	start_char=65|end_char=72|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=72|end_char=73
+
+# text = His nearest neighbor must be miles away....
+# sent_id = 122356
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=74|end_char=77
+2	nearest	near	ADJ	JJS	Degree=Sup	1	_	_	start_char=78|end_char=85
+3	neighbor	neighbor	NOUN	NN	Number=Sing	2	_	_	start_char=86|end_char=94
+4	must	must	AUX	MD	VerbForm=Fin	3	_	_	start_char=95|end_char=99
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=100|end_char=102
+6	miles	mile	NOUN	NNS	Number=Plur	5	_	_	start_char=103|end_char=108
+7	away	away	ADV	RB	_	6	_	_	start_char=109|end_char=113|SpaceAfter=No
+8	....	....	PUNCT	.	_	7	_	_	start_char=113|end_char=117|SpaceAfter=No
+

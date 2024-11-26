@@ -1,0 +1,37 @@
+# text = another doosey!
+# sent_id = 81132
+1	another	another	DET	DT	_	0	_	_	start_char=0|end_char=7
+2	doosey	doosey	NOUN	NN	Number=Sing	1	_	_	start_char=8|end_char=14|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=14|end_char=15
+
+# text = share freely to abcnbccbspbs msnbc [URL] Happy Halloween Hillary!
+# sent_id = 81133
+1	share	share	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=16|end_char=21
+2	freely	freely	ADV	RB	_	1	_	_	start_char=22|end_char=28
+3	to	to	ADP	IN	_	2	_	_	start_char=29|end_char=31
+4	abcnbccbspbs	Abcnbccbspb	PROPN	NNP	Number=Sing	3	_	_	start_char=32|end_char=44
+5	msnbc	msnbc	PROPN	NNP	Number=Sing	4	_	_	start_char=45|end_char=50
+6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=51|end_char=52|SpaceAfter=No
+7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=52|end_char=55|SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=55|end_char=56
+9	Happy	happy	ADJ	JJ	Degree=Pos	8	_	_	start_char=57|end_char=62
+10	Halloween	Halloween	PROPN	NNP	Number=Sing	9	_	_	start_char=63|end_char=72
+11	Hillary	Hillary	PROPN	NNP	Number=Sing	10	_	_	start_char=73|end_char=80|SpaceAfter=No
+12	!	!	PUNCT	.	_	11	_	_	start_char=80|end_char=81
+
+# text = witches brew she created here with Kaiser Mueller who should recuse himself today
+# sent_id = 81134
+1	witches	witch	NOUN	NNS	Number=Plur	0	_	_	start_char=82|end_char=89
+2	brew	brew	NOUN	NN	Number=Sing	1	_	_	start_char=90|end_char=94
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=95|end_char=98
+4	created	create	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=99|end_char=106
+5	here	here	ADV	RB	PronType=Dem	4	_	_	start_char=107|end_char=111
+6	with	with	ADP	IN	_	5	_	_	start_char=112|end_char=116
+7	Kaiser	Kaiser	PROPN	NNP	Number=Sing	6	_	_	start_char=117|end_char=123
+8	Mueller	Mueller	PROPN	NNP	Number=Sing	7	_	_	start_char=124|end_char=131
+9	who	who	PRON	WP	PronType=Rel	8	_	_	start_char=132|end_char=135
+10	should	should	AUX	MD	VerbForm=Fin	9	_	_	start_char=136|end_char=142
+11	recuse	recuse	VERB	VB	VerbForm=Inf	10	_	_	start_char=143|end_char=149
+12	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	11	_	_	start_char=150|end_char=157
+13	today	today	NOUN	NN	Number=Sing	12	_	_	start_char=158|end_char=163|SpaceAfter=No
+

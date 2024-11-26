@@ -1,0 +1,47 @@
+# text = So glad you're here!
+# sent_id = 61058
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	glad	glad	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=7
+3-4	you're	_	_	_	_	_	_	_	start_char=8|end_char=14
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=8|end_char=11
+4	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=14
+5	here	here	ADV	RB	PronType=Dem	4	_	_	start_char=15|end_char=19|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = Welcome to the home of the AltRight!
+# sent_id = 61059
+1	Welcome	welcome	INTJ	UH	_	0	_	_	start_char=21|end_char=28
+2	to	to	ADP	IN	_	1	_	_	start_char=29|end_char=31
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=32|end_char=35
+4	home	home	NOUN	NN	Number=Sing	3	_	_	start_char=36|end_char=40
+5	of	of	ADP	IN	_	4	_	_	start_char=41|end_char=43
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=44|end_char=47
+7	AltRight	AltRight	PROPN	NNP	Number=Sing	6	_	_	start_char=48|end_char=56|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=56|end_char=57
+
+# text = Just kidding, there's lots of idiots here too, beside us cool guys.
+# sent_id = 61060
+1	Just	just	ADV	RB	_	0	_	_	start_char=58|end_char=62
+2	kidding	kid	VERB	VBG	VerbForm=Ger	1	_	_	start_char=63|end_char=70|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=70|end_char=71
+4-5	there's	_	_	_	_	_	_	_	start_char=72|end_char=79
+4	there	there	PRON	EX	_	3	_	_	start_char=72|end_char=77
+5	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=77|end_char=79
+6	lots	lot	NOUN	NNS	Number=Plur	5	_	_	start_char=80|end_char=84
+7	of	of	ADP	IN	_	6	_	_	start_char=85|end_char=87
+8	idiots	idiot	NOUN	NNS	Number=Plur	7	_	_	start_char=88|end_char=94
+9	here	here	ADV	RB	PronType=Dem	8	_	_	start_char=95|end_char=99
+10	too	too	ADV	RB	_	9	_	_	start_char=100|end_char=103|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=103|end_char=104
+12	beside	beside	ADP	IN	_	11	_	_	start_char=105|end_char=111
+13	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	_	_	start_char=112|end_char=114
+14	cool	cool	ADJ	JJ	Degree=Pos	13	_	_	start_char=115|end_char=119
+15	guys	guy	NOUN	NNS	Number=Plur	14	_	_	start_char=120|end_char=124|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=124|end_char=125
+
+# text = [USER]
+# sent_id = 61061
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=126|end_char=127|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=127|end_char=131|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=131|end_char=132|SpaceAfter=No
+

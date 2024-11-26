@@ -1,0 +1,34 @@
+# text = Does #Hillary have lipstick on her teeth?
+# sent_id = 11913
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=5|end_char=6|SpaceAfter=No
+3	Hillary	Hillary	PROPN	NNP	Number=Sing	2	_	_	start_char=6|end_char=13
+4	have	have	VERB	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=18
+5	lipstick	lipstick	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=27
+6	on	on	ADP	IN	_	5	_	_	start_char=28|end_char=30
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=31|end_char=34
+8	teeth	tooth	NOUN	NNS	Number=Plur	7	_	_	start_char=35|end_char=40|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=40|end_char=41
+
+# text = That really would be a big first for a presidential candidate.
+# sent_id = 11914
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=42|end_char=46
+2	really	really	ADV	RB	_	1	_	_	start_char=47|end_char=53
+3	would	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=54|end_char=59
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=60|end_char=62
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=63|end_char=64
+6	big	big	ADJ	JJ	Degree=Pos	5	_	_	start_char=65|end_char=68
+7	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	6	_	_	start_char=69|end_char=74
+8	for	for	ADP	IN	_	7	_	_	start_char=75|end_char=78
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=79|end_char=80
+10	presidential	presidential	ADJ	JJ	Degree=Pos	9	_	_	start_char=81|end_char=93
+11	candidate	candidate	NOUN	NN	Number=Sing	10	_	_	start_char=94|end_char=103|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=103|end_char=104
+
+# text = #GlassCeilings #GabDebateParty
+# sent_id = 11915
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=105|end_char=106|SpaceAfter=No
+2	GlassCeilings	glassCeiling	NOUN	GW	Number=Sing	1	_	_	start_char=106|end_char=119
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=120|end_char=121|SpaceAfter=No
+4	GabDebateParty	gabdebateparty	NOUN	NN	Number=Sing	3	_	_	start_char=121|end_char=135|SpaceAfter=No
+

@@ -1,0 +1,35 @@
+# text = She's not white, she's a jew.
+# sent_id = 57018
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	not	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	white	white	ADJ	JJ	Degree=Pos	3	_	_	start_char=10|end_char=15|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=15|end_char=16
+6-7	she's	_	_	_	_	_	_	_	start_char=17|end_char=22
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=17|end_char=20
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=20|end_char=22
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=23|end_char=24
+9	jew	jew	NOUN	NN	Number=Sing	8	_	_	start_char=25|end_char=28|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=28|end_char=29
+
+# text = Just jews jewing "fellow white people".
+# sent_id = 57019
+1	Just	just	ADV	RB	_	0	_	_	start_char=30|end_char=34
+2	jews	Jews	PROPN	NNPS	Number=Plur	1	_	_	start_char=35|end_char=39
+3	jewing	jew	VERB	VBG	VerbForm=Ger	2	_	_	start_char=40|end_char=46
+4	"	"	PUNCT	``	_	3	_	_	start_char=47|end_char=48|SpaceAfter=No
+5	fellow	fellow	ADJ	JJ	Degree=Pos	4	_	_	start_char=48|end_char=54
+6	white	white	ADJ	JJ	Degree=Pos	5	_	_	start_char=55|end_char=60
+7	people	person	NOUN	NNS	Number=Plur	6	_	_	start_char=61|end_char=67|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=67|end_char=68|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=68|end_char=69
+
+# text = Nothing to see here.
+# sent_id = 57020
+1	Nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=70|end_char=77
+2	to	to	PART	TO	_	1	_	_	start_char=78|end_char=80
+3	see	see	VERB	VB	VerbForm=Inf	2	_	_	start_char=81|end_char=84
+4	here	here	ADV	RB	PronType=Dem	3	_	_	start_char=85|end_char=89|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=89|end_char=90|SpaceAfter=No
+

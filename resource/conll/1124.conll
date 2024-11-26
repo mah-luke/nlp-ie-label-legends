@@ -1,0 +1,65 @@
+# text = Yeah, you might have messed things up but I'm not sure.
+# sent_id = 2402
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=6|end_char=9
+4	might	might	AUX	MD	VerbForm=Fin	3	_	_	start_char=10|end_char=15
+5	have	have	AUX	VB	VerbForm=Inf	4	_	_	start_char=16|end_char=20
+6	messed	mess	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=21|end_char=27
+7	things	thing	NOUN	NNS	Number=Plur	6	_	_	start_char=28|end_char=34
+8	up	up	ADP	RP	_	7	_	_	start_char=35|end_char=37
+9	but	but	CCONJ	CC	_	8	_	_	start_char=38|end_char=41
+10-11	I'm	_	_	_	_	_	_	_	start_char=42|end_char=45
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=42|end_char=43
+11	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=43|end_char=45
+12	not	not	PART	RB	_	11	_	_	start_char=46|end_char=49
+13	sure	sure	ADJ	JJ	Degree=Pos	12	_	_	start_char=50|end_char=54|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=54|end_char=55
+
+# text = Maybe in a couple weeks go to her register again.
+# sent_id = 2403
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=56|end_char=61
+2	in	in	ADP	IN	_	1	_	_	start_char=62|end_char=64
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=65|end_char=66
+4	couple	couple	NOUN	NN	Number=Sing	3	_	_	start_char=67|end_char=73
+5	weeks	week	NOUN	NNS	Number=Plur	4	_	_	start_char=74|end_char=79
+6	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=80|end_char=82
+7	to	to	ADP	IN	_	6	_	_	start_char=83|end_char=85
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=86|end_char=89
+9	register	register	NOUN	NN	Number=Sing	8	_	_	start_char=90|end_char=98
+10	again	again	ADV	RB	_	9	_	_	start_char=99|end_char=104|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=104|end_char=105
+
+# text = And this time be prepared with something to say.
+# sent_id = 2404
+1	And	and	CCONJ	CC	_	0	_	_	start_char=106|end_char=109
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=110|end_char=114
+3	time	time	NOUN	NN	Number=Sing	2	_	_	start_char=115|end_char=119
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=120|end_char=122
+5	prepared	prepare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=123|end_char=131
+6	with	with	ADP	IN	_	5	_	_	start_char=132|end_char=136
+7	something	something	PRON	NN	Number=Sing|PronType=Ind	6	_	_	start_char=137|end_char=146
+8	to	to	PART	TO	_	7	_	_	start_char=147|end_char=149
+9	say	say	VERB	VB	VerbForm=Inf	8	_	_	start_char=150|end_char=153|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=153|end_char=154
+
+# text = Shoot your shot, and if it doesn't work, then forget about her.
+# sent_id = 2405
+1	Shoot	shoot	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=155|end_char=160
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=161|end_char=165
+3	shot	shot	NOUN	NN	Number=Sing	2	_	_	start_char=166|end_char=170|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=170|end_char=171
+5	and	and	CCONJ	CC	_	4	_	_	start_char=172|end_char=175
+6	if	if	SCONJ	IN	_	5	_	_	start_char=176|end_char=178
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=179|end_char=181
+8-9	doesn't	_	_	_	_	_	_	_	start_char=182|end_char=189
+8	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=182|end_char=186
+9	n't	not	PART	RB	_	8	_	_	start_char=186|end_char=189
+10	work	work	VERB	VB	VerbForm=Inf	9	_	_	start_char=190|end_char=194|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=194|end_char=195
+12	then	then	ADV	RB	PronType=Dem	11	_	_	start_char=196|end_char=200
+13	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=201|end_char=207
+14	about	about	ADP	IN	_	13	_	_	start_char=208|end_char=213
+15	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=214|end_char=217|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=217|end_char=218|SpaceAfter=No
+

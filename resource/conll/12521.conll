@@ -1,0 +1,48 @@
+# text = I bet your talking to other girls, Oh yea I’m talking to 10,000 girls.
+# sent_id = 26556
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	bet	bet	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=6|end_char=10
+4	talking	talking	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=18
+5	to	to	ADP	IN	_	4	_	_	start_char=19|end_char=21
+6	other	other	ADJ	JJ	Degree=Pos	5	_	_	start_char=22|end_char=27
+7	girls	girl	NOUN	NNS	Number=Plur	6	_	_	start_char=28|end_char=33|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=33|end_char=34
+9	Oh	oh	INTJ	UH	_	8	_	_	start_char=35|end_char=37
+10	yea	yea	INTJ	UH	_	9	_	_	start_char=38|end_char=41
+11-12	I’m	_	_	_	_	_	_	_	start_char=42|end_char=45
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=42|end_char=43
+12	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=43|end_char=45
+13	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=46|end_char=53
+14	to	to	ADP	IN	_	13	_	_	start_char=54|end_char=56
+15	10,000	10000	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=57|end_char=63
+16	girls	girl	NOUN	NNS	Number=Plur	15	_	_	start_char=64|end_char=69|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=69|end_char=70
+
+# text = I’m talking to all the women in Miami at same time
+# sent_id = 26557
+1-2	I’m	_	_	_	_	_	_	_	start_char=71|end_char=74
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=71|end_char=72
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=72|end_char=74
+3	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=75|end_char=82
+4	to	to	ADP	IN	_	3	_	_	start_char=83|end_char=85
+5	all	all	DET	PDT	_	4	_	_	start_char=86|end_char=89
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=90|end_char=93
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=94|end_char=99
+8	in	in	ADP	IN	_	7	_	_	start_char=100|end_char=102
+9	Miami	Miami	PROPN	NNP	Number=Sing	8	_	_	start_char=103|end_char=108
+10	at	at	ADP	IN	_	9	_	_	start_char=109|end_char=111
+11	same	same	ADJ	JJ	Degree=Pos	10	_	_	start_char=112|end_char=116
+12	time	time	NOUN	NN	Number=Sing	11	_	_	start_char=117|end_char=121
+
+# text = She doesn’t know what to say
+# sent_id = 26558
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=122|end_char=125
+2-3	doesn’t	_	_	_	_	_	_	_	start_char=126|end_char=133
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=126|end_char=130
+3	n’t	not	PART	RB	_	2	_	_	start_char=130|end_char=133
+4	know	know	VERB	VB	VerbForm=Inf	3	_	_	start_char=134|end_char=138
+5	what	what	PRON	WP	PronType=Int	4	_	_	start_char=139|end_char=143
+6	to	to	PART	TO	_	5	_	_	start_char=144|end_char=146
+7	say	say	VERB	VB	VerbForm=Inf	6	_	_	start_char=147|end_char=150|SpaceAfter=No
+

@@ -1,0 +1,42 @@
+# text = &#x200B; >I had more succes at 30 than at 21, while looking similarily good.
+# sent_id = 81657
+1	&	&	CCONJ	CC	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	#x200B	#x200b	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=7|SpaceAfter=No
+3	;	;	PUNCT	:	_	2	_	_	start_char=7|end_char=8
+4	>	>	PUNCT	-RRB-	_	3	_	_	start_char=9|end_char=10|SpaceAfter=No
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=10|end_char=11
+6	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=12|end_char=15
+7	more	more	ADJ	JJR	Degree=Cmp	6	_	_	start_char=16|end_char=20
+8	succes	succe	NOUN	NN	Number=Sing	7	_	_	start_char=21|end_char=27
+9	at	at	ADP	IN	_	8	_	_	start_char=28|end_char=30
+10	30	30	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=31|end_char=33
+11	than	than	ADP	IN	_	10	_	_	start_char=34|end_char=38
+12	at	at	ADP	IN	_	11	_	_	start_char=39|end_char=41
+13	21	21	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=42|end_char=44|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=44|end_char=45
+15	while	while	SCONJ	IN	_	14	_	_	start_char=46|end_char=51
+16	looking	look	VERB	VBG	VerbForm=Ger	15	_	_	start_char=52|end_char=59
+17	similarily	similarily	ADV	RB	_	16	_	_	start_char=60|end_char=70
+18	good	good	ADJ	JJ	Degree=Pos	17	_	_	start_char=71|end_char=75|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=75|end_char=76
+
+# text = Even among 20yo girls.
+# sent_id = 81658
+1	Even	even	ADV	RB	_	0	_	_	start_char=77|end_char=81
+2	among	among	ADP	IN	_	1	_	_	start_char=82|end_char=87
+3	20	20	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=88|end_char=90|SpaceAfter=No
+4	yo	you	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=90|end_char=92
+5	girls	girl	NOUN	NNS	Number=Plur	4	_	_	start_char=93|end_char=98|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=98|end_char=99
+
+# text = But what's the difference then?
+# sent_id = 81659
+1	But	but	CCONJ	CC	_	0	_	_	start_char=100|end_char=103
+2-3	what's	_	_	_	_	_	_	_	start_char=104|end_char=110
+2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=104|end_char=108
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=108|end_char=110
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=111|end_char=114
+5	difference	difference	NOUN	NN	Number=Sing	4	_	_	start_char=115|end_char=125
+6	then	then	ADV	RB	PronType=Dem	5	_	_	start_char=126|end_char=130|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=130|end_char=131|SpaceAfter=No
+

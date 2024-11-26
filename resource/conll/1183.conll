@@ -1,0 +1,18 @@
+# text = Dial your beta up to 11, she'll leave on her own accord
+# sent_id = 2506
+1	Dial	dial	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=5|end_char=9
+3	beta	beta	NOUN	NN	Number=Sing	2	_	_	start_char=10|end_char=14
+4	up	up	ADV	RB	_	3	_	_	start_char=15|end_char=17
+5	to	to	ADP	IN	_	4	_	_	start_char=18|end_char=20
+6	11	11	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=21|end_char=23|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=23|end_char=24
+8-9	she'll	_	_	_	_	_	_	_	start_char=25|end_char=31
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=25|end_char=28
+9	'll	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=28|end_char=31
+10	leave	leave	VERB	VB	VerbForm=Inf	9	_	_	start_char=32|end_char=37
+11	on	on	ADP	IN	_	10	_	_	start_char=38|end_char=40
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=41|end_char=44
+13	own	own	ADJ	JJ	Degree=Pos	12	_	_	start_char=45|end_char=48
+14	accord	accord	NOUN	NN	Number=Sing	13	_	_	start_char=49|end_char=55|SpaceAfter=No
+

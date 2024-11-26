@@ -1,0 +1,42 @@
+# text = either shes a ho or shes not.
+# sent_id = 90306
+1	either	either	CCONJ	CC	_	0	_	_	start_char=0|end_char=6
+2	shes	she	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7|end_char=11
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=12|end_char=13
+4	ho	ho	INTJ	UH	_	3	_	_	start_char=14|end_char=16
+5	or	or	CCONJ	CC	_	4	_	_	start_char=17|end_char=19
+6	shes	she	NOUN	NNS	Number=Plur	5	_	_	start_char=20|end_char=24
+7	not	not	PART	RB	_	6	_	_	start_char=25|end_char=28|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=28|end_char=29
+
+# text = If shes not u got no shot in 5 minutes.
+# sent_id = 90307
+1	If	if	SCONJ	IN	_	0	_	_	start_char=30|end_char=32
+2	shes	she	NOUN	NNS	Number=Plur	1	_	_	start_char=33|end_char=37
+3	not	not	PART	RB	_	2	_	_	start_char=38|end_char=41
+4	u	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=42|end_char=43
+5	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=44|end_char=47
+6	no	no	DET	DT	_	5	_	_	start_char=48|end_char=50
+7	shot	shot	NOUN	NN	Number=Sing	6	_	_	start_char=51|end_char=55
+8	in	in	ADP	IN	_	7	_	_	start_char=56|end_char=58
+9	5	5	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=59|end_char=60
+10	minutes	minute	NOUN	NNS	Number=Plur	9	_	_	start_char=61|end_char=68|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=68|end_char=69
+
+# text = If she is it don't matter what you say ur golden.
+# sent_id = 90308
+1	If	if	SCONJ	IN	_	0	_	_	start_char=70|end_char=72
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=73|end_char=76
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=77|end_char=79
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=80|end_char=82
+5-6	don't	_	_	_	_	_	_	_	start_char=83|end_char=88
+5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=83|end_char=85
+6	n't	not	PART	RB	_	5	_	_	start_char=85|end_char=88
+7	matter	matter	VERB	VB	VerbForm=Inf	6	_	_	start_char=89|end_char=95
+8	what	what	PRON	WP	PronType=Rel	7	_	_	start_char=96|end_char=100
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=101|end_char=104
+10	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=105|end_char=108
+11	ur	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	10	_	_	start_char=109|end_char=111
+12	golden	golden	ADJ	JJ	Degree=Pos	11	_	_	start_char=112|end_char=118|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=118|end_char=119|SpaceAfter=No
+

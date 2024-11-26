@@ -1,0 +1,49 @@
+# text = PHOTO: DNC chief Tom Perez plays to tiny audience at mall — empty seats in front row!
+# sent_id = 54036
+1	PHOTO	photo	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=5|end_char=6
+3	DNC	DNC	PROPN	NNP	Number=Sing	2	_	_	start_char=7|end_char=10
+4	chief	chief	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=16
+5	Tom	Tom	PROPN	NNP	Number=Sing	4	_	_	start_char=17|end_char=20
+6	Perez	Perez	PROPN	NNP	Number=Sing	5	_	_	start_char=21|end_char=26
+7	plays	play	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=27|end_char=32
+8	to	to	ADP	IN	_	7	_	_	start_char=33|end_char=35
+9	tiny	tiny	ADJ	JJ	Degree=Pos	8	_	_	start_char=36|end_char=40
+10	audience	audience	NOUN	NN	Number=Sing	9	_	_	start_char=41|end_char=49
+11	at	at	ADP	IN	_	10	_	_	start_char=50|end_char=52
+12	mall	mall	NOUN	NN	Number=Sing	11	_	_	start_char=53|end_char=57
+13	—	—	PUNCT	:	_	12	_	_	start_char=58|end_char=59
+14	empty	empty	ADJ	JJ	Degree=Pos	13	_	_	start_char=60|end_char=65
+15	seats	seat	NOUN	NNS	Number=Plur	14	_	_	start_char=66|end_char=71
+16	in	in	ADP	IN	_	15	_	_	start_char=72|end_char=74
+17	front	front	ADJ	JJ	Degree=Pos	16	_	_	start_char=75|end_char=80
+18	row	row	NOUN	NN	Number=Sing	17	_	_	start_char=81|end_char=84|SpaceAfter=No
+19	!	!	PUNCT	.	_	18	_	_	start_char=84|end_char=85
+
+# text = [Perez ONE OF THE MOST CORRUPT Demorats ever to rear his/her UGLY head!!!]
+# sent_id = 54037
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=86|end_char=87|SpaceAfter=No
+2	Perez	Perez	PROPN	NNP	Number=Sing	1	_	_	start_char=87|end_char=92
+3	ONE	one	NUM	CD	NumForm=Word|NumType=Card	2	_	_	start_char=93|end_char=96
+4	OF	of	ADP	IN	_	3	_	_	start_char=97|end_char=99
+5	THE	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=100|end_char=103
+6	MOST	most	ADV	RBS	Degree=Sup	5	_	_	start_char=104|end_char=108
+7	CORRUPT	corrupt	ADJ	JJ	Degree=Pos	6	_	_	start_char=109|end_char=116
+8	Demorats	demorat	NOUN	NNS	Number=Plur	7	_	_	start_char=117|end_char=125
+9	ever	ever	ADV	RB	_	8	_	_	start_char=126|end_char=130
+10	to	to	PART	TO	_	9	_	_	start_char=131|end_char=133
+11	rear	rear	VERB	VB	VerbForm=Inf	10	_	_	start_char=134|end_char=138
+12	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=139|end_char=142|SpaceAfter=No
+13	/	/	SYM	,	_	12	_	_	start_char=142|end_char=143|SpaceAfter=No
+14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=143|end_char=146
+15	UGLY	ugly	ADJ	JJ	Degree=Pos	14	_	_	start_char=147|end_char=151
+16	head	head	NOUN	NN	Number=Sing	15	_	_	start_char=152|end_char=156|SpaceAfter=No
+17	!!!	!!!	PUNCT	.	_	16	_	_	start_char=156|end_char=159|SpaceAfter=No
+18	]	]	PUNCT	-RRB-	_	17	_	_	start_char=159|end_char=160
+
+# text = [URL]
+# sent_id = 54038
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=161|end_char=162|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=162|end_char=165|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=165|end_char=166|SpaceAfter=No
+

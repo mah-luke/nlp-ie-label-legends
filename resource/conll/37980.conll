@@ -1,0 +1,59 @@
+# text = Just have 0% body fat & dehydrated bro.
+# sent_id = 81198
+1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	have	have	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	0	0	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=10|end_char=11|SpaceAfter=No
+4	%	%	SYM	NN	Number=Sing	3	_	_	start_char=11|end_char=12
+5	body	body	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=17
+6	fat	fat	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=21
+7	&	&	CCONJ	CC	_	6	_	_	start_char=22|end_char=23
+8	dehydrated	dehydrated	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=24|end_char=34
+9	bro	bro	NOUN	NN	Number=Sing	8	_	_	start_char=35|end_char=38|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=38|end_char=39
+
+# text = Ricels not gauntmaxxing = volcel.
+# sent_id = 81199
+1	Ricels	Ricels	PROPN	NNP	Number=Sing	0	_	_	start_char=40|end_char=46
+2	not	not	PART	RB	_	1	_	_	start_char=47|end_char=50
+3	gauntmaxxing	gauntmaxx	VERB	VBG	VerbForm=Ger	2	_	_	start_char=51|end_char=63
+4	=	=	SYM	SYM	_	3	_	_	start_char=64|end_char=65
+5	volcel	volcel	NOUN	NN	Number=Sing	4	_	_	start_char=66|end_char=72|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=72|end_char=73
+
+# text = holding ghoul frame theory's legit.
+# sent_id = 81200
+1	holding	hold	VERB	VBG	VerbForm=Ger	0	_	_	start_char=74|end_char=81
+2	ghoul	ghoul	NOUN	NN	Number=Sing	1	_	_	start_char=82|end_char=87
+3	frame	frame	NOUN	NN	Number=Sing	2	_	_	start_char=88|end_char=93
+4-5	theory's	_	_	_	_	_	_	_	start_char=94|end_char=102
+4	theory	theory	NOUN	NN	Number=Sing	3	_	_	start_char=94|end_char=100
+5	's	's	PART	POS	_	4	_	_	start_char=100|end_char=102
+6	legit	legit	ADJ	JJ	Degree=Pos	5	_	_	start_char=103|end_char=108|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=108|end_char=109
+
+# text = I try contribute I'm no incel or got a pussy, sorry but rather me sorry than you sorry lads x
+# sent_id = 81201
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=110|end_char=111
+2	try	try	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=112|end_char=115
+3	contribute	contribute	VERB	VB	VerbForm=Inf	2	_	_	start_char=116|end_char=126
+4-5	I'm	_	_	_	_	_	_	_	start_char=127|end_char=130
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=127|end_char=128
+5	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=128|end_char=130
+6	no	no	DET	DT	_	5	_	_	start_char=131|end_char=133
+7	incel	incel	NOUN	NN	Number=Sing	6	_	_	start_char=134|end_char=139
+8	or	or	CCONJ	CC	_	7	_	_	start_char=140|end_char=142
+9	got	get	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=143|end_char=146
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=147|end_char=148
+11	pussy	pussy	NOUN	NN	Number=Sing	10	_	_	start_char=149|end_char=154|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=154|end_char=155
+13	sorry	sorry	ADJ	JJ	Degree=Pos	12	_	_	start_char=156|end_char=161
+14	but	but	CCONJ	CC	_	13	_	_	start_char=162|end_char=165
+15	rather	rather	ADV	RB	_	14	_	_	start_char=166|end_char=172
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=173|end_char=175
+17	sorry	sorry	ADJ	JJ	Degree=Pos	16	_	_	start_char=176|end_char=181
+18	than	than	ADP	IN	_	17	_	_	start_char=182|end_char=186
+19	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	18	_	_	start_char=187|end_char=190
+20	sorry	sorry	ADJ	JJ	Degree=Pos	19	_	_	start_char=191|end_char=196
+21	lads	lad	NOUN	NNS	Number=Plur	20	_	_	start_char=197|end_char=201
+22	x	x	NOUN	NN	Number=Sing	21	_	_	start_char=202|end_char=203|SpaceAfter=No
+

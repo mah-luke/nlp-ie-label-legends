@@ -1,0 +1,71 @@
+# text = They should be worried!
+# sent_id = 96568
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=4
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=5|end_char=11
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=12|end_char=14
+4	worried	worry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=15|end_char=22|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=22|end_char=23
+
+# text = I was able to fire two of my female staff and replace them with ONE MAN!
+# sent_id = 96569
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=24|end_char=25
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=26|end_char=29
+3	able	able	ADJ	JJ	Degree=Pos	2	_	_	start_char=30|end_char=34
+4	to	to	PART	TO	_	3	_	_	start_char=35|end_char=37
+5	fire	fire	VERB	VB	VerbForm=Inf	4	_	_	start_char=38|end_char=42
+6	two	two	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=43|end_char=46
+7	of	of	ADP	IN	_	6	_	_	start_char=47|end_char=49
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	_	_	start_char=50|end_char=52
+9	female	female	ADJ	JJ	Degree=Pos	8	_	_	start_char=53|end_char=59
+10	staff	staff	NOUN	NN	Number=Sing	9	_	_	start_char=60|end_char=65
+11	and	and	CCONJ	CC	_	10	_	_	start_char=66|end_char=69
+12	replace	replace	VERB	VB	VerbForm=Inf	11	_	_	start_char=70|end_char=77
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=78|end_char=82
+14	with	with	ADP	IN	_	13	_	_	start_char=83|end_char=87
+15	ONE	one	NUM	CD	NumForm=Word|NumType=Card	14	_	_	start_char=88|end_char=91
+16	MAN	man	NOUN	NN	Number=Sing	15	_	_	start_char=92|end_char=95|SpaceAfter=No
+17	!	!	PUNCT	.	_	16	_	_	start_char=95|end_char=96
+
+# text = And's he's getting 5x the amount of work done already, even being brand new!
+# sent_id = 96570
+1-2	And's	_	_	_	_	_	_	_	start_char=97|end_char=102
+1	And	and	CCONJ	CC	_	0	_	_	start_char=97|end_char=100
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=100|end_char=102
+3-4	he's	_	_	_	_	_	_	_	start_char=103|end_char=107
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=103|end_char=105
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=105|end_char=107
+5	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=108|end_char=115
+6	5	5	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=116|end_char=117|SpaceAfter=No
+7	x	x	SYM	SYM	_	6	_	_	start_char=117|end_char=118
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=119|end_char=122
+9	amount	amount	NOUN	NN	Number=Sing	8	_	_	start_char=123|end_char=129
+10	of	of	ADP	IN	_	9	_	_	start_char=130|end_char=132
+11	work	work	NOUN	NN	Number=Sing	10	_	_	start_char=133|end_char=137
+12	done	do	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=138|end_char=142
+13	already	already	ADV	RB	_	12	_	_	start_char=143|end_char=150|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=150|end_char=151
+15	even	even	ADV	RB	_	14	_	_	start_char=152|end_char=156
+16	being	be	AUX	VBG	VerbForm=Ger	15	_	_	start_char=157|end_char=162
+17	brand	brand	NOUN	NN	Number=Sing	16	_	_	start_char=163|end_char=168
+18	new	new	ADJ	JJ	Degree=Pos	17	_	_	start_char=169|end_char=172|SpaceAfter=No
+19	!	!	PUNCT	.	_	18	_	_	start_char=172|end_char=173
+
+# text = Why the fuck did I ever employ women before?!
+# sent_id = 96571
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=174|end_char=177
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=178|end_char=181
+3	fuck	fuck	NOUN	NN	Number=Sing	2	_	_	start_char=182|end_char=186
+4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=187|end_char=190
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=191|end_char=192
+6	ever	ever	ADV	RB	_	5	_	_	start_char=193|end_char=197
+7	employ	employ	VERB	VB	VerbForm=Inf	6	_	_	start_char=198|end_char=204
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=205|end_char=210
+9	before	before	ADV	RB	_	8	_	_	start_char=211|end_char=217|SpaceAfter=No
+10	?!	?!	PUNCT	.	_	9	_	_	start_char=217|end_char=219
+
+# text = Never again.
+# sent_id = 96572
+1	Never	never	ADV	RB	_	0	_	_	start_char=220|end_char=225
+2	again	again	ADV	RB	_	1	_	_	start_char=226|end_char=231|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=231|end_char=232|SpaceAfter=No
+

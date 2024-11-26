@@ -1,0 +1,47 @@
+# text = Fucking wow.
+# sent_id = 28841
+1	Fucking	fucking	ADV	RB	_	0	_	_	start_char=0|end_char=7
+2	wow	wow	INTJ	UH	_	1	_	_	start_char=8|end_char=11|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=11|end_char=12
+
+# text = This #rino sack of shit is a traitor to America and needs to go.
+# sent_id = 28842
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=13|end_char=17
+2	#rino	#rino	NOUN	NN	Number=Sing	1	_	_	start_char=18|end_char=23
+3	sack	sack	NOUN	NN	Number=Sing	2	_	_	start_char=24|end_char=28
+4	of	of	ADP	IN	_	3	_	_	start_char=29|end_char=31
+5	shit	shit	NOUN	NN	Number=Sing	4	_	_	start_char=32|end_char=36
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=37|end_char=39
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=40|end_char=41
+8	traitor	traitor	NOUN	NN	Number=Sing	7	_	_	start_char=42|end_char=49
+9	to	to	ADP	IN	_	8	_	_	start_char=50|end_char=52
+10	America	America	PROPN	NNP	Number=Sing	9	_	_	start_char=53|end_char=60
+11	and	and	CCONJ	CC	_	10	_	_	start_char=61|end_char=64
+12	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=65|end_char=70
+13	to	to	PART	TO	_	12	_	_	start_char=71|end_char=73
+14	go	go	VERB	VB	VerbForm=Inf	13	_	_	start_char=74|end_char=76|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=76|end_char=77
+
+# text = Stop trying to derail the #trumptrain mother fuckers it ain't happening.
+# sent_id = 28843
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=78|end_char=82
+2	trying	try	VERB	VBG	VerbForm=Ger	1	_	_	start_char=83|end_char=89
+3	to	to	PART	TO	_	2	_	_	start_char=90|end_char=92
+4	derail	derail	VERB	VB	VerbForm=Inf	3	_	_	start_char=93|end_char=99
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=100|end_char=103
+6	#trumptrain	#trumptrain	PROPN	NNP	Number=Sing	5	_	_	start_char=104|end_char=115
+7	mother	mother	NOUN	NN	Number=Sing	6	_	_	start_char=116|end_char=122
+8	fuckers	fucker	NOUN	NNS	Number=Plur	7	_	_	start_char=123|end_char=130
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=131|end_char=133
+10-11	ain't	_	_	_	_	_	_	_	start_char=134|end_char=139
+10	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=134|end_char=136
+11	n't	not	PART	RB	_	10	_	_	start_char=136|end_char=139
+12	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=140|end_char=149|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=149|end_char=150
+
+# text = [URL]
+# sent_id = 28844
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=151|end_char=152|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=152|end_char=155|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=155|end_char=156|SpaceAfter=No
+

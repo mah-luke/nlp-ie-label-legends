@@ -1,0 +1,63 @@
+# text = Dude dont game in text.
+# sent_id = 34209
+1	Dude	dude	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
+2-3	dont	_	_	_	_	_	_	_	start_char=5|end_char=9
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	nt	not	PART	RB	_	2	_	_	start_char=7|end_char=9
+4	game	game	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=14
+5	in	in	ADP	IN	_	4	_	_	start_char=15|end_char=17
+6	text	text	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=22|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=22|end_char=23
+
+# text = Logistics only.
+# sent_id = 34210
+1	Logistics	logistic	NOUN	NNS	Number=Plur	0	_	_	start_char=24|end_char=33
+2	only	only	ADV	RB	_	1	_	_	start_char=34|end_char=38|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=38|end_char=39
+
+# text = Idk how many girls I've fucked up with either playing off being charming or funny in text.
+# sent_id = 34211
+1	Idk	idk	INTJ	UH	_	0	_	_	start_char=40|end_char=43
+2	how	how	ADV	WRB	PronType=Int	1	_	_	start_char=44|end_char=47
+3	many	many	ADJ	JJ	Degree=Pos	2	_	_	start_char=48|end_char=52
+4	girls	girl	NOUN	NNS	Number=Plur	3	_	_	start_char=53|end_char=58
+5-6	I've	_	_	_	_	_	_	_	start_char=59|end_char=63
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=59|end_char=60
+6	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=60|end_char=63
+7	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=64|end_char=70
+8	up	up	ADP	RP	_	7	_	_	start_char=71|end_char=73
+9	with	with	ADP	IN	_	8	_	_	start_char=74|end_char=78
+10	either	either	CCONJ	CC	_	9	_	_	start_char=79|end_char=85
+11	playing	play	VERB	VBG	VerbForm=Ger	10	_	_	start_char=86|end_char=93
+12	off	off	ADP	RP	_	11	_	_	start_char=94|end_char=97
+13	being	be	AUX	VBG	VerbForm=Ger	12	_	_	start_char=98|end_char=103
+14	charming	charming	ADJ	JJ	Degree=Pos	13	_	_	start_char=104|end_char=112
+15	or	or	CCONJ	CC	_	14	_	_	start_char=113|end_char=115
+16	funny	funny	ADJ	JJ	Degree=Pos	15	_	_	start_char=116|end_char=121
+17	in	in	ADP	IN	_	16	_	_	start_char=122|end_char=124
+18	text	text	NOUN	NN	Number=Sing	17	_	_	start_char=125|end_char=129|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=129|end_char=130
+
+# text = It will never come across how you think it will.
+# sent_id = 34212
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=131|end_char=133
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=134|end_char=138
+3	never	never	ADV	RB	_	2	_	_	start_char=139|end_char=144
+4	come	come	VERB	VB	VerbForm=Inf	3	_	_	start_char=145|end_char=149
+5	across	across	ADV	RB	_	4	_	_	start_char=150|end_char=156
+6	how	how	ADV	WRB	PronType=Int	5	_	_	start_char=157|end_char=160
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=161|end_char=164
+8	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=165|end_char=170
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=171|end_char=173
+10	will	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=174|end_char=178|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=178|end_char=179
+
+# text = Save it for in face buddy
+# sent_id = 34213
+1	Save	save	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=180|end_char=184
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=185|end_char=187
+3	for	for	ADP	IN	_	2	_	_	start_char=188|end_char=191
+4	in	in	ADP	IN	_	3	_	_	start_char=192|end_char=194
+5	face	face	NOUN	NN	Number=Sing	4	_	_	start_char=195|end_char=199
+6	buddy	buddy	NOUN	NN	Number=Sing	5	_	_	start_char=200|end_char=205|SpaceAfter=No
+

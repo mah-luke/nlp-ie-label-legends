@@ -1,0 +1,20 @@
+# text = because it always happens.
+# sent_id = 20541
+1	because	because	SCONJ	IN	_	0	_	_	start_char=0|end_char=7
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=8|end_char=10
+3	always	always	ADV	RB	_	2	_	_	start_char=11|end_char=17
+4	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=18|end_char=25|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=25|end_char=26
+
+# text = she's always digging in some shit.
+# sent_id = 20542
+1-2	she's	_	_	_	_	_	_	_	start_char=27|end_char=32
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=27|end_char=30
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=30|end_char=32
+3	always	always	ADV	RB	_	2	_	_	start_char=33|end_char=39
+4	digging	dig	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=40|end_char=47
+5	in	in	ADP	IN	_	4	_	_	start_char=48|end_char=50
+6	some	some	DET	DT	_	5	_	_	start_char=51|end_char=55
+7	shit	shit	NOUN	NN	Number=Sing	6	_	_	start_char=56|end_char=60|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=60|end_char=61|SpaceAfter=No
+

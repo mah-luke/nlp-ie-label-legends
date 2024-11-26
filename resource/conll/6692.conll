@@ -1,0 +1,53 @@
+# text = I'd love to see the underlying data sets.
+# sent_id = 13970
+1-2	I'd	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	love	love	VERB	VB	VerbForm=Inf	2	_	_	start_char=4|end_char=8
+4	to	to	PART	TO	_	3	_	_	start_char=9|end_char=11
+5	see	see	VERB	VB	VerbForm=Inf	4	_	_	start_char=12|end_char=15
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=16|end_char=19
+7	underlying	underlying	ADJ	JJ	Degree=Pos	6	_	_	start_char=20|end_char=30
+8	data	datum	NOUN	NNS	Number=Plur	7	_	_	start_char=31|end_char=35
+9	sets	set	NOUN	NNS	Number=Plur	8	_	_	start_char=36|end_char=40|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=40|end_char=41
+
+# text = And reanalyze them.
+# sent_id = 13971
+1	And	and	CCONJ	CC	_	0	_	_	start_char=42|end_char=45
+2	reanalyze	reanalyze	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=46|end_char=55
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=56|end_char=60|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=60|end_char=61
+
+# text = Could probably see some juicy clusters quantifying female divorce rape of men.
+# sent_id = 13972
+1	Could	could	AUX	MD	VerbForm=Fin	0	_	_	start_char=62|end_char=67
+2	probably	probably	ADV	RB	_	1	_	_	start_char=68|end_char=76
+3	see	see	VERB	VB	VerbForm=Inf	2	_	_	start_char=77|end_char=80
+4	some	some	DET	DT	_	3	_	_	start_char=81|end_char=85
+5	juicy	juicy	ADJ	JJ	Degree=Pos	4	_	_	start_char=86|end_char=91
+6	clusters	cluster	NOUN	NNS	Number=Plur	5	_	_	start_char=92|end_char=100
+7	quantifying	quantify	VERB	VBG	VerbForm=Ger	6	_	_	start_char=101|end_char=112
+8	female	female	ADJ	JJ	Degree=Pos	7	_	_	start_char=113|end_char=119
+9	divorce	divorce	NOUN	NN	Number=Sing	8	_	_	start_char=120|end_char=127
+10	rape	rape	NOUN	NN	Number=Sing	9	_	_	start_char=128|end_char=132
+11	of	of	ADP	IN	_	10	_	_	start_char=133|end_char=135
+12	men	man	NOUN	NNS	Number=Plur	11	_	_	start_char=136|end_char=139|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=139|end_char=140
+
+# text = Until then, I guess [URL] will have to do.
+# sent_id = 13973
+1	Until	until	ADP	IN	_	0	_	_	start_char=141|end_char=146
+2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=147|end_char=151|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=151|end_char=152
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=153|end_char=154
+5	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=155|end_char=160
+6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=161|end_char=162|SpaceAfter=No
+7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=162|end_char=165|SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=165|end_char=166
+9	will	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=167|end_char=171
+10	have	have	VERB	VB	VerbForm=Inf	9	_	_	start_char=172|end_char=176
+11	to	to	PART	TO	_	10	_	_	start_char=177|end_char=179
+12	do	do	VERB	VB	VerbForm=Inf	11	_	_	start_char=180|end_char=182|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=182|end_char=183|SpaceAfter=No
+

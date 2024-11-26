@@ -1,0 +1,60 @@
+# text = Anne Donovan, who won Olympic gold as a player and a coach, died suddenly Wednesday due to heart failure.
+# sent_id = 62718
+1	Anne	Anne	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	Donovan	Donovan	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=12|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=12|end_char=13
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=14|end_char=17
+5	won	win	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=18|end_char=21
+6	Olympic	Olympic	ADJ	JJ	Degree=Pos	5	_	_	start_char=22|end_char=29
+7	gold	gold	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=34
+8	as	as	ADP	IN	_	7	_	_	start_char=35|end_char=37
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=38|end_char=39
+10	player	player	NOUN	NN	Number=Sing	9	_	_	start_char=40|end_char=46
+11	and	and	CCONJ	CC	_	10	_	_	start_char=47|end_char=50
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=51|end_char=52
+13	coach	coach	NOUN	NN	Number=Sing	12	_	_	start_char=53|end_char=58|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=58|end_char=59
+15	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=60|end_char=64
+16	suddenly	suddenly	ADV	RB	_	15	_	_	start_char=65|end_char=73
+17	Wednesday	Wednesday	PROPN	NNP	Number=Sing	16	_	_	start_char=74|end_char=83
+18	due	due	ADP	IN	_	17	_	_	start_char=84|end_char=87
+19	to	to	ADP	IN	_	18	_	_	start_char=88|end_char=90
+20	heart	heart	NOUN	NN	Number=Sing	19	_	_	start_char=91|end_char=96
+21	failure	failure	NOUN	NN	Number=Sing	20	_	_	start_char=97|end_char=104|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=104|end_char=105
+
+# text = She was 56.
+# sent_id = 62719
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=106|end_char=109
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=110|end_char=113
+3	56	56	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=114|end_char=116|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=116|end_char=117
+
+# text = "Our family remains so very grateful to have been blessed with such a wonderful human being,” Donovan’s family said.
+# sent_id = 62720
+1	"	"	PUNCT	``	_	0	_	_	start_char=118|end_char=119|SpaceAfter=No
+2	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=119|end_char=122
+3	family	family	NOUN	NN	Number=Sing	2	_	_	start_char=123|end_char=129
+4	remains	remain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=130|end_char=137
+5	so	so	ADV	RB	_	4	_	_	start_char=138|end_char=140
+6	very	very	ADV	RB	_	5	_	_	start_char=141|end_char=145
+7	grateful	grateful	ADJ	JJ	Degree=Pos	6	_	_	start_char=146|end_char=154
+8	to	to	PART	TO	_	7	_	_	start_char=155|end_char=157
+9	have	have	AUX	VB	VerbForm=Inf	8	_	_	start_char=158|end_char=162
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=163|end_char=167
+11	blessed	bless	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=168|end_char=175
+12	with	with	ADP	IN	_	11	_	_	start_char=176|end_char=180
+13	such	such	DET	PDT	_	12	_	_	start_char=181|end_char=185
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=186|end_char=187
+15	wonderful	wonderful	ADJ	JJ	Degree=Pos	14	_	_	start_char=188|end_char=197
+16	human	human	ADJ	JJ	Degree=Pos	15	_	_	start_char=198|end_char=203
+17	being	being	NOUN	NN	Number=Sing	16	_	_	start_char=204|end_char=209|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=209|end_char=210|SpaceAfter=No
+19	”	''	PUNCT	''	_	18	_	_	start_char=210|end_char=211
+20-21	Donovan’s	_	_	_	_	_	_	_	start_char=212|end_char=221
+20	Donovan	Donovan	PROPN	NNP	Number=Sing	19	_	_	start_char=212|end_char=219
+21	’s	's	PART	POS	_	20	_	_	start_char=219|end_char=221
+22	family	family	NOUN	NN	Number=Sing	21	_	_	start_char=222|end_char=228
+23	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	_	_	start_char=229|end_char=233|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=233|end_char=234|SpaceAfter=No
+

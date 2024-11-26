@@ -1,0 +1,57 @@
+# text = That sounds like a lot of work.
+# sent_id = 65304
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=11
+3	like	like	ADP	IN	_	2	_	_	start_char=12|end_char=16
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=17|end_char=18
+5	lot	lot	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=22
+6	of	of	ADP	IN	_	5	_	_	start_char=23|end_char=25
+7	work	work	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=30|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=30|end_char=31
+
+# text = Why don't you just ask her out on a date?
+# sent_id = 65305
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=32|end_char=35
+2-3	don't	_	_	_	_	_	_	_	start_char=36|end_char=41
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=38
+3	n't	not	PART	RB	_	2	_	_	start_char=38|end_char=41
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=42|end_char=45
+5	just	just	ADV	RB	_	4	_	_	start_char=46|end_char=50
+6	ask	ask	VERB	VB	VerbForm=Inf	5	_	_	start_char=51|end_char=54
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=55|end_char=58
+8	out	out	ADP	RP	_	7	_	_	start_char=59|end_char=62
+9	on	on	ADP	IN	_	8	_	_	start_char=63|end_char=65
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=66|end_char=67
+11	date	date	NOUN	NN	Number=Sing	10	_	_	start_char=68|end_char=72|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=72|end_char=73
+
+# text = Also, have you banged any girls doing this?
+# sent_id = 65306
+1	Also	also	ADV	RB	_	0	_	_	start_char=74|end_char=78|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=78|end_char=79
+3	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=80|end_char=84
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=85|end_char=88
+5	banged	bang	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=89|end_char=95
+6	any	any	DET	DT	_	5	_	_	start_char=96|end_char=99
+7	girls	girl	NOUN	NNS	Number=Plur	6	_	_	start_char=100|end_char=105
+8	doing	do	VERB	VBG	VerbForm=Ger	7	_	_	start_char=106|end_char=111
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=112|end_char=116|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=116|end_char=117
+
+# text = Because if not, it doesn't quite "work" yet.
+# sent_id = 65307
+1	Because	because	SCONJ	IN	_	0	_	_	start_char=118|end_char=125
+2	if	if	SCONJ	IN	_	1	_	_	start_char=126|end_char=128
+3	not	not	PART	RB	_	2	_	_	start_char=129|end_char=132|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=132|end_char=133
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=134|end_char=136
+6-7	doesn't	_	_	_	_	_	_	_	start_char=137|end_char=144
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=137|end_char=141
+7	n't	not	PART	RB	_	6	_	_	start_char=141|end_char=144
+8	quite	quite	ADV	RB	_	7	_	_	start_char=145|end_char=150
+9	"	"	PUNCT	``	_	8	_	_	start_char=151|end_char=152|SpaceAfter=No
+10	work	work	VERB	VB	VerbForm=Inf	9	_	_	start_char=152|end_char=156|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=156|end_char=157
+12	yet	yet	ADV	RB	_	11	_	_	start_char=158|end_char=161|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=161|end_char=162|SpaceAfter=No
+

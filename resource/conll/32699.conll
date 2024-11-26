@@ -1,0 +1,26 @@
+# text = true.
+# sent_id = 70038
+1	true	true	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = he's neither a cuck nor a cock.
+# sent_id = 70039
+1-2	he's	_	_	_	_	_	_	_	start_char=6|end_char=10
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=6|end_char=8
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=10
+3	neither	neither	CCONJ	CC	_	2	_	_	start_char=11|end_char=18
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=19|end_char=20
+5	cuck	cuck	NOUN	NN	Number=Sing	4	_	_	start_char=21|end_char=25
+6	nor	nor	CCONJ	CC	_	5	_	_	start_char=26|end_char=29
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=30|end_char=31
+8	cock	cock	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=36|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=36|end_char=37
+
+# text = he's a hermaphrodite
+# sent_id = 70040
+1-2	he's	_	_	_	_	_	_	_	start_char=38|end_char=42
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=38|end_char=40
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=40|end_char=42
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=43|end_char=44
+4	hermaphrodite	hermaphrodite	NOUN	NN	Number=Sing	3	_	_	start_char=45|end_char=58|SpaceAfter=No
+

@@ -1,0 +1,27 @@
+# text = [USER]
+# sent_id = 36609
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Why would they object?
+# sent_id = 36610
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=7|end_char=10
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=11|end_char=16
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=17|end_char=21
+4	object	object	VERB	VB	VerbForm=Inf	3	_	_	start_char=22|end_char=28|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=28|end_char=29
+
+# text = They basically asked and invited your lot over here.
+# sent_id = 36611
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=30|end_char=34
+2	basically	basically	ADV	RB	_	1	_	_	start_char=35|end_char=44
+3	asked	ask	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=45|end_char=50
+4	and	and	CCONJ	CC	_	3	_	_	start_char=51|end_char=54
+5	invited	invite	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=55|end_char=62
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=63|end_char=67
+7	lot	lot	NOUN	NN	Number=Sing	6	_	_	start_char=68|end_char=71
+8	over	over	ADP	RP	_	7	_	_	start_char=72|end_char=76
+9	here	here	ADV	RB	PronType=Dem	8	_	_	start_char=77|end_char=81|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=81|end_char=82|SpaceAfter=No
+

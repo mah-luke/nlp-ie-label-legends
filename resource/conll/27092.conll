@@ -1,0 +1,37 @@
+# text = Yes, her name on there is really "Jason".
+# sent_id = 58164
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=5|end_char=8
+4	name	name	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=13
+5	on	on	ADP	IN	_	4	_	_	start_char=14|end_char=16
+6	there	there	ADV	RB	PronType=Dem	5	_	_	start_char=17|end_char=22
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=23|end_char=25
+8	really	really	ADV	RB	_	7	_	_	start_char=26|end_char=32
+9	"	"	PUNCT	``	_	8	_	_	start_char=33|end_char=34|SpaceAfter=No
+10	Jason	Jason	PROPN	NNP	Number=Sing	9	_	_	start_char=34|end_char=39|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=39|end_char=40|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=40|end_char=41
+
+# text = Smh.
+# sent_id = 58165
+1	Smh	smh	INTJ	UH	_	0	_	_	start_char=42|end_char=45|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=45|end_char=46
+
+# text = Obviously keeping shit on the DL as much as possible with the text.
+# sent_id = 58166
+1	Obviously	obviously	ADV	RB	_	0	_	_	start_char=47|end_char=56
+2	keeping	keep	VERB	VBG	VerbForm=Ger	1	_	_	start_char=57|end_char=64
+3	shit	shit	NOUN	NN	Number=Sing	2	_	_	start_char=65|end_char=69
+4	on	on	ADP	IN	_	3	_	_	start_char=70|end_char=72
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=73|end_char=76
+6	DL	dl	NOUN	NN	Number=Sing	5	_	_	start_char=77|end_char=79
+7	as	as	ADV	RB	_	6	_	_	start_char=80|end_char=82
+8	much	much	ADV	RB	Degree=Pos	7	_	_	start_char=83|end_char=87
+9	as	as	SCONJ	IN	_	8	_	_	start_char=88|end_char=90
+10	possible	possible	ADJ	JJ	Degree=Pos	9	_	_	start_char=91|end_char=99
+11	with	with	ADP	IN	_	10	_	_	start_char=100|end_char=104
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=105|end_char=108
+13	text	text	NOUN	NN	Number=Sing	12	_	_	start_char=109|end_char=113|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=113|end_char=114|SpaceAfter=No
+

@@ -1,0 +1,70 @@
+# text = [USER] HA sucker!
+# sent_id = 11553
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	HA	ha	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=9
+5	sucker	sucker	NOUN	NN	Number=Sing	4	_	_	start_char=10|end_char=16|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=16|end_char=17
+
+# text = When I vote for Hillary I'll have enough money to buy my wife's son a copy of the communism manifesto.
+# sent_id = 11554
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=18|end_char=22
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=23|end_char=24
+3	vote	vote	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=25|end_char=29
+4	for	for	ADP	IN	_	3	_	_	start_char=30|end_char=33
+5	Hillary	Hillary	PROPN	NNP	Number=Sing	4	_	_	start_char=34|end_char=41
+6-7	I'll	_	_	_	_	_	_	_	start_char=42|end_char=46
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=42|end_char=43
+7	'll	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=43|end_char=46
+8	have	have	VERB	VB	VerbForm=Inf	7	_	_	start_char=47|end_char=51
+9	enough	enough	ADJ	JJ	Degree=Pos	8	_	_	start_char=52|end_char=58
+10	money	money	NOUN	NN	Number=Sing	9	_	_	start_char=59|end_char=64
+11	to	to	PART	TO	_	10	_	_	start_char=65|end_char=67
+12	buy	buy	VERB	VB	VerbForm=Inf	11	_	_	start_char=68|end_char=71
+13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	_	_	start_char=72|end_char=74
+14-15	wife's	_	_	_	_	_	_	_	start_char=75|end_char=81
+14	wife	wife	NOUN	NN	Number=Sing	13	_	_	start_char=75|end_char=79
+15	's	's	PART	POS	_	14	_	_	start_char=79|end_char=81
+16	son	son	NOUN	NN	Number=Sing	15	_	_	start_char=82|end_char=85
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=86|end_char=87
+18	copy	copy	NOUN	NN	Number=Sing	17	_	_	start_char=88|end_char=92
+19	of	of	ADP	IN	_	18	_	_	start_char=93|end_char=95
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=96|end_char=99
+21	communism	communism	NOUN	NN	Number=Sing	20	_	_	start_char=100|end_char=109
+22	manifesto	manifesto	NOUN	NN	Number=Sing	21	_	_	start_char=110|end_char=119|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=119|end_char=120
+
+# text = Bet Trump won't give you money for you vote.
+# sent_id = 11555
+1	Bet	Bet	PROPN	NNP	Number=Sing	0	_	_	start_char=121|end_char=124
+2	Trump	Trump	PROPN	NNP	Number=Sing	1	_	_	start_char=125|end_char=130
+3-4	won't	_	_	_	_	_	_	_	start_char=131|end_char=136
+3	wo	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=131|end_char=133
+4	n't	not	PART	RB	_	3	_	_	start_char=133|end_char=136
+5	give	give	VERB	VB	VerbForm=Inf	4	_	_	start_char=137|end_char=141
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=142|end_char=145
+7	money	money	NOUN	NN	Number=Sing	6	_	_	start_char=146|end_char=151
+8	for	for	ADP	IN	_	7	_	_	start_char=152|end_char=155
+9	you	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=156|end_char=159
+10	vote	vote	NOUN	NN	Number=Sing	9	_	_	start_char=160|end_char=164|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=164|end_char=165
+
+# text = Cause he's a greedy HITLER RACIST BIGOT!
+# sent_id = 11556
+1	Cause	cause	SCONJ	IN	_	0	_	_	start_char=166|end_char=171
+2-3	he's	_	_	_	_	_	_	_	start_char=172|end_char=176
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=172|end_char=174
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=174|end_char=176
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=177|end_char=178
+5	greedy	greedy	ADJ	JJ	Degree=Pos	4	_	_	start_char=179|end_char=185
+6	HITLER	HITLER	PROPN	NNP	Number=Sing	5	_	_	start_char=186|end_char=192
+7	RACIST	racist	ADJ	JJ	Degree=Pos	6	_	_	start_char=193|end_char=199
+8	BIGOT	bigot	NOUN	NN	Number=Sing	7	_	_	start_char=200|end_char=205|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=205|end_char=206
+
+# text = #OhCarl
+# sent_id = 11557
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=207|end_char=208|SpaceAfter=No
+2	OhCarl	OhCarl	PROPN	NNP	Number=Sing	1	_	_	start_char=208|end_char=214|SpaceAfter=No
+

@@ -1,0 +1,29 @@
+# text = Who says "showed her my middle finger"?
+# sent_id = 97526
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=3
+2	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	"	"	PUNCT	``	_	2	_	_	start_char=9|end_char=10|SpaceAfter=No
+4	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=10|end_char=16
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=17|end_char=20
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=21|end_char=23
+7	middle	middle	ADJ	JJ	Degree=Pos	6	_	_	start_char=24|end_char=30
+8	finger	finger	NOUN	NN	Number=Sing	7	_	_	start_char=31|end_char=37|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=37|end_char=38|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=38|end_char=39
+
+# text = That's such a passive way to describe flipping someone off.
+# sent_id = 97527
+1-2	That's	_	_	_	_	_	_	_	start_char=40|end_char=46
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=40|end_char=44
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=44|end_char=46
+3	such	such	DET	PDT	_	2	_	_	start_char=47|end_char=51
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=52|end_char=53
+5	passive	passive	ADJ	JJ	Degree=Pos	4	_	_	start_char=54|end_char=61
+6	way	way	NOUN	NN	Number=Sing	5	_	_	start_char=62|end_char=65
+7	to	to	PART	TO	_	6	_	_	start_char=66|end_char=68
+8	describe	describe	VERB	VB	VerbForm=Inf	7	_	_	start_char=69|end_char=77
+9	flipping	flip	VERB	VBG	VerbForm=Ger	8	_	_	start_char=78|end_char=86
+10	someone	someone	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=87|end_char=94
+11	off	off	ADP	RP	_	10	_	_	start_char=95|end_char=98|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=98|end_char=99|SpaceAfter=No
+

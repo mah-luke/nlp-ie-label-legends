@@ -1,0 +1,47 @@
+# text = if he's not hot or tall or handsome she's just being nice.
+# sent_id = 80577
+1	if	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2-3	he's	_	_	_	_	_	_	_	start_char=3|end_char=7
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=5|end_char=7
+4	not	not	PART	RB	_	3	_	_	start_char=8|end_char=11
+5	hot	hot	ADJ	JJ	Degree=Pos	4	_	_	start_char=12|end_char=15
+6	or	or	CCONJ	CC	_	5	_	_	start_char=16|end_char=18
+7	tall	tall	ADJ	JJ	Degree=Pos	6	_	_	start_char=19|end_char=23
+8	or	or	CCONJ	CC	_	7	_	_	start_char=24|end_char=26
+9	handsome	handsome	ADJ	JJ	Degree=Pos	8	_	_	start_char=27|end_char=35
+10-11	she's	_	_	_	_	_	_	_	start_char=36|end_char=41
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=36|end_char=39
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=39|end_char=41
+12	just	just	ADV	RB	_	11	_	_	start_char=42|end_char=46
+13	being	be	AUX	VBG	VerbForm=Ger	12	_	_	start_char=47|end_char=52
+14	nice	nice	ADJ	JJ	Degree=Pos	13	_	_	start_char=53|end_char=57|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=57|end_char=58
+
+# text = So if a guy isn't any of those things, the female is never interested.
+# sent_id = 80578
+1	So	so	ADV	RB	_	0	_	_	start_char=59|end_char=61
+2	if	if	SCONJ	IN	_	1	_	_	start_char=62|end_char=64
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=65|end_char=66
+4	guy	guy	NOUN	NN	Number=Sing	3	_	_	start_char=67|end_char=70
+5-6	isn't	_	_	_	_	_	_	_	start_char=71|end_char=76
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=71|end_char=73
+6	n't	not	PART	RB	_	5	_	_	start_char=73|end_char=76
+7	any	any	DET	DT	_	6	_	_	start_char=77|end_char=80
+8	of	of	ADP	IN	_	7	_	_	start_char=81|end_char=83
+9	those	that	DET	DT	Number=Plur|PronType=Dem	8	_	_	start_char=84|end_char=89
+10	things	thing	NOUN	NNS	Number=Plur	9	_	_	start_char=90|end_char=96|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=96|end_char=97
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=98|end_char=101
+13	female	female	NOUN	NN	Number=Sing	12	_	_	start_char=102|end_char=108
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=109|end_char=111
+15	never	never	ADV	RB	_	14	_	_	start_char=112|end_char=117
+16	interested	interested	ADJ	JJ	Degree=Pos	15	_	_	start_char=118|end_char=128|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=128|end_char=129
+
+# text = got it.
+# sent_id = 80579
+1	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=130|end_char=133
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=134|end_char=136|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=136|end_char=137|SpaceAfter=No
+

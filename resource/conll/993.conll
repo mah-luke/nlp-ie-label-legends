@@ -1,0 +1,19 @@
+# text = Uhm yes, you can definitely tell it's a female from the conversation..
+# sent_id = 2124
+1	Uhm	uhm	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	yes	yes	INTJ	UH	_	1	_	_	start_char=4|end_char=7|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=7|end_char=8
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=9|end_char=12
+5	can	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=13|end_char=16
+6	definitely	definitely	ADV	RB	_	5	_	_	start_char=17|end_char=27
+7	tell	tell	VERB	VB	VerbForm=Inf	6	_	_	start_char=28|end_char=32
+8-9	it's	_	_	_	_	_	_	_	start_char=33|end_char=37
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=33|end_char=35
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=35|end_char=37
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=38|end_char=39
+11	female	female	NOUN	NN	Number=Sing	10	_	_	start_char=40|end_char=46
+12	from	from	ADP	IN	_	11	_	_	start_char=47|end_char=51
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=52|end_char=55
+14	conversation	conversation	NOUN	NN	Number=Sing	13	_	_	start_char=56|end_char=68|SpaceAfter=No
+15	..	..	PUNCT	.	_	14	_	_	start_char=68|end_char=70|SpaceAfter=No
+

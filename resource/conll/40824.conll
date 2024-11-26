@@ -1,0 +1,27 @@
+# text = aww you could have pumped and dumped her.
+# sent_id = 87357
+1	aww	aww	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=4|end_char=7
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=8|end_char=13
+4	have	have	AUX	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=18
+5	pumped	pump	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=19|end_char=25
+6	and	and	CCONJ	CC	_	5	_	_	start_char=26|end_char=29
+7	dumped	dump	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=30|end_char=36
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=37|end_char=40|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=40|end_char=41
+
+# text = at least you took the 2nd best option, anything but betabucks
+# sent_id = 87358
+1	at	at	ADP	IN	ExtPos=ADV	0	_	_	start_char=42|end_char=44
+2	least	least	ADJ	JJS	Degree=Sup	1	_	_	start_char=45|end_char=50
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=51|end_char=54
+4	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	_	_	start_char=55|end_char=59
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=60|end_char=63
+6	2nd	2nd	ADJ	JJ	Degree=Pos|NumType=Ord	5	_	_	start_char=64|end_char=67
+7	best	good	ADJ	JJS	Degree=Sup	6	_	_	start_char=68|end_char=72
+8	option	option	NOUN	NN	Number=Sing	7	_	_	start_char=73|end_char=79|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=79|end_char=80
+10	anything	anything	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=81|end_char=89
+11	but	but	CCONJ	CC	_	10	_	_	start_char=90|end_char=93
+12	betabucks	betabuck	NOUN	NNS	Number=Plur	11	_	_	start_char=94|end_char=103|SpaceAfter=No
+

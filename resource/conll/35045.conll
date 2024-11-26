@@ -1,0 +1,40 @@
+# text = [USER]
+# sent_id = 75000
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Let's be honest, he was screwing her/it mentally and physically.
+# sent_id = 75001
+1-2	Let's	_	_	_	_	_	_	_	start_char=7|end_char=12
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=7|end_char=10
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=10|end_char=12
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=13|end_char=15
+4	honest	honest	ADJ	JJ	Degree=Pos	3	_	_	start_char=16|end_char=22|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=22|end_char=23
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=24|end_char=26
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=27|end_char=30
+8	screwing	screw	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=31|end_char=39
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=40|end_char=43|SpaceAfter=No
+10	/	/	SYM	SYM	_	9	_	_	start_char=43|end_char=44|SpaceAfter=No
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=44|end_char=46
+12	mentally	mentally	ADV	RB	_	11	_	_	start_char=47|end_char=55
+13	and	and	CCONJ	CC	_	12	_	_	start_char=56|end_char=59
+14	physically	physically	ADV	RB	_	13	_	_	start_char=60|end_char=70|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=70|end_char=71
+
+# text = Saul was just another left wing, nut job pedo #MAGA
+# sent_id = 75002
+1	Saul	Saul	PROPN	NNP	Number=Sing	0	_	_	start_char=72|end_char=76
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=77|end_char=80
+3	just	just	ADV	RB	_	2	_	_	start_char=81|end_char=85
+4	another	another	DET	DT	_	3	_	_	start_char=86|end_char=93
+5	left	left	ADJ	JJ	Degree=Pos	4	_	_	start_char=94|end_char=98
+6	wing	wing	NOUN	NN	Number=Sing	5	_	_	start_char=99|end_char=103|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=103|end_char=104
+8	nut	nut	NOUN	NN	Number=Sing	7	_	_	start_char=105|end_char=108
+9	job	job	NOUN	NN	Number=Sing	8	_	_	start_char=109|end_char=112
+10	pedo	pedo	NOUN	NN	Number=Sing	9	_	_	start_char=113|end_char=117
+11	#	#	SYM	NN	Number=Sing	10	_	_	start_char=118|end_char=119|SpaceAfter=No
+12	MAGA	maga	NOUN	NN	Number=Sing	11	_	_	start_char=119|end_char=123|SpaceAfter=No
+

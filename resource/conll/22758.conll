@@ -1,0 +1,35 @@
+# text = No.
+# sent_id = 48897
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=2|end_char=3
+
+# text = That is wrong.
+# sent_id = 48898
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=4|end_char=8
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=11
+3	wrong	wrong	ADJ	JJ	Degree=Pos	2	_	_	start_char=12|end_char=17|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=17|end_char=18
+
+# text = Maybe 'pretty' women do, but there's plenty of women who can't get chads
+# sent_id = 48899
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=19|end_char=24
+2	'	'	PUNCT	``	_	1	_	_	start_char=25|end_char=26|SpaceAfter=No
+3	pretty	pretty	ADJ	JJ	Degree=Pos	2	_	_	start_char=26|end_char=32|SpaceAfter=No
+4	'	'	PUNCT	``	_	3	_	_	start_char=32|end_char=33
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=34|end_char=39
+6	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=40|end_char=42|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=42|end_char=43
+8	but	but	CCONJ	CC	_	7	_	_	start_char=44|end_char=47
+9-10	there's	_	_	_	_	_	_	_	start_char=48|end_char=55
+9	there	there	PRON	EX	_	8	_	_	start_char=48|end_char=53
+10	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=53|end_char=55
+11	plenty	plenty	NOUN	NN	Number=Sing	10	_	_	start_char=56|end_char=62
+12	of	of	ADP	IN	_	11	_	_	start_char=63|end_char=65
+13	women	woman	NOUN	NNS	Number=Plur	12	_	_	start_char=66|end_char=71
+14	who	who	PRON	WP	PronType=Rel	13	_	_	start_char=72|end_char=75
+15-16	can't	_	_	_	_	_	_	_	start_char=76|end_char=81
+15	ca	can	AUX	MD	VerbForm=Fin	14	_	_	start_char=76|end_char=78
+16	n't	not	PART	RB	_	15	_	_	start_char=78|end_char=81
+17	get	get	VERB	VB	VerbForm=Inf	16	_	_	start_char=82|end_char=85
+18	chads	chad	NOUN	NN	Number=Sing	17	_	_	start_char=86|end_char=91|SpaceAfter=No
+

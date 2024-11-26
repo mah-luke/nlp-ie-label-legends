@@ -1,0 +1,22 @@
+# text = Ok so why dont you do the approach then?
+# sent_id = 29143
+1	Ok	ok	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	so	so	ADV	RB	_	1	_	_	start_char=3|end_char=5
+3	why	why	ADV	WRB	PronType=Int	2	_	_	start_char=6|end_char=9
+4-5	dont	_	_	_	_	_	_	_	start_char=10|end_char=14
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=10|end_char=12
+5	nt	not	PART	RB	_	4	_	_	start_char=12|end_char=14
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=15|end_char=18
+7	do	do	VERB	VB	VerbForm=Inf	6	_	_	start_char=19|end_char=21
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=22|end_char=25
+9	approach	approach	NOUN	NN	Number=Sing	8	_	_	start_char=26|end_char=34
+10	then	then	ADV	RB	PronType=Dem	9	_	_	start_char=35|end_char=39|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=39|end_char=40
+
+# text = Go approach girls.
+# sent_id = 29144
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=41|end_char=43
+2	approach	approach	VERB	VB	VerbForm=Inf	1	_	_	start_char=44|end_char=52
+3	girls	girl	NOUN	NNS	Number=Plur	2	_	_	start_char=53|end_char=58|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=58|end_char=59|SpaceAfter=No
+

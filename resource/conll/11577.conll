@@ -1,0 +1,36 @@
+# text = These "women" are out of their fucking minds.
+# sent_id = 24522
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=0|end_char=5
+2	"	"	PUNCT	``	_	1	_	_	start_char=6|end_char=7|SpaceAfter=No
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=7|end_char=12|SpaceAfter=No
+4	"	"	PUNCT	''	_	3	_	_	start_char=12|end_char=13
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=14|end_char=17
+6	out	out	ADP	IN	_	5	_	_	start_char=18|end_char=21
+7	of	of	ADP	IN	_	6	_	_	start_char=22|end_char=24
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=25|end_char=30
+9	fucking	fuck	NOUN	NN	Number=Sing	8	_	_	start_char=31|end_char=38
+10	minds	mind	NOUN	NNS	Number=Plur	9	_	_	start_char=39|end_char=44|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=44|end_char=45
+
+# text = Wow.
+# sent_id = 24523
+1	Wow	wow	INTJ	UH	_	0	_	_	start_char=46|end_char=49|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=49|end_char=50
+
+# text = What's worse is that the other looneys cheer this behavior on.
+# sent_id = 24524
+1-2	What's	_	_	_	_	_	_	_	start_char=51|end_char=57
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=51|end_char=55
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=55|end_char=57
+3	worse	bad	ADJ	JJR	Degree=Cmp	2	_	_	start_char=58|end_char=63
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=64|end_char=66
+5	that	that	SCONJ	IN	_	4	_	_	start_char=67|end_char=71
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=72|end_char=75
+7	other	other	ADJ	JJ	Degree=Pos	6	_	_	start_char=76|end_char=81
+8	looneys	looney	NOUN	NNS	Number=Plur	7	_	_	start_char=82|end_char=89
+9	cheer	cheer	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=90|end_char=95
+10	this	this	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=96|end_char=100
+11	behavior	behavior	NOUN	NN	Number=Sing	10	_	_	start_char=101|end_char=109
+12	on	on	ADP	IN	_	11	_	_	start_char=110|end_char=112|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=112|end_char=113|SpaceAfter=No
+

@@ -1,0 +1,51 @@
+# text = dont take medication, it will fuck you up.
+# sent_id = 115767
+1-2	dont	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	nt	not	PART	RB	_	1	_	_	start_char=2|end_char=4
+3	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=5|end_char=9
+4	medication	medication	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=20|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=20|end_char=21
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=22|end_char=24
+7	will	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=25|end_char=29
+8	fuck	fuck	VERB	VB	VerbForm=Inf	7	_	_	start_char=30|end_char=34
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=35|end_char=38
+10	up	up	ADP	RP	_	9	_	_	start_char=39|end_char=41|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=41|end_char=42
+
+# text = if you need advice, ask men, don't listen to women.
+# sent_id = 115768
+1	if	if	SCONJ	IN	_	0	_	_	start_char=43|end_char=45
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=46|end_char=49
+3	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=50|end_char=54
+4	advice	advice	NOUN	NN	Number=Sing	3	_	_	start_char=55|end_char=61|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=61|end_char=62
+6	ask	ask	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	5	_	_	start_char=63|end_char=66
+7	men	man	NOUN	NNS	Number=Plur	6	_	_	start_char=67|end_char=70|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=70|end_char=71
+9-10	don't	_	_	_	_	_	_	_	start_char=72|end_char=77
+9	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=72|end_char=74
+10	n't	not	PART	RB	_	9	_	_	start_char=74|end_char=77
+11	listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=78|end_char=84
+12	to	to	ADP	IN	_	11	_	_	start_char=85|end_char=87
+13	women	woman	NOUN	NNS	Number=Plur	12	_	_	start_char=88|end_char=93|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=93|end_char=94
+
+# text = most of all: read and study.
+# sent_id = 115769
+1	most	most	ADJ	JJS	Degree=Sup	0	_	_	start_char=95|end_char=99
+2	of	of	ADP	IN	_	1	_	_	start_char=100|end_char=102
+3	all	all	DET	DT	_	2	_	_	start_char=103|end_char=106|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=106|end_char=107
+5	read	read	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=108|end_char=112
+6	and	and	CCONJ	CC	_	5	_	_	start_char=113|end_char=116
+7	study	study	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=117|end_char=122|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=122|end_char=123
+
+# text = knowledge is power.
+# sent_id = 115770
+1	knowledge	knowledge	NOUN	NN	Number=Sing	0	_	_	start_char=124|end_char=133
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=134|end_char=136
+3	power	power	NOUN	NN	Number=Sing	2	_	_	start_char=137|end_char=142|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=142|end_char=143|SpaceAfter=No
+

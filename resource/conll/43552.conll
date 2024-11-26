@@ -1,0 +1,65 @@
+# text = That analogy doesn't work.
+# sent_id = 93109
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	analogy	analogy	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=12
+3-4	doesn't	_	_	_	_	_	_	_	start_char=13|end_char=20
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=17
+4	n't	not	PART	RB	_	3	_	_	start_char=17|end_char=20
+5	work	work	VERB	VB	VerbForm=Inf	4	_	_	start_char=21|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=25|end_char=26
+
+# text = Voting doesn't take anything away from anyone.
+# sent_id = 93110
+1	Voting	voting	NOUN	NN	Number=Sing	0	_	_	start_char=27|end_char=33
+2-3	doesn't	_	_	_	_	_	_	_	start_char=34|end_char=41
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=34|end_char=38
+3	n't	not	PART	RB	_	2	_	_	start_char=38|end_char=41
+4	take	take	VERB	VB	VerbForm=Inf	3	_	_	start_char=42|end_char=46
+5	anything	anything	PRON	NN	Number=Sing|PronType=Ind	4	_	_	start_char=47|end_char=55
+6	away	away	ADV	RB	_	5	_	_	start_char=56|end_char=60
+7	from	from	ADP	IN	_	6	_	_	start_char=61|end_char=65
+8	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	7	_	_	start_char=66|end_char=72|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=72|end_char=73
+
+# text = "Nobody owes you a vote" doesn't make sense, it's a right, not something that someone gives you.
+# sent_id = 93111
+1	"	"	PUNCT	``	_	0	_	_	start_char=74|end_char=75|SpaceAfter=No
+2	Nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	1	_	_	start_char=75|end_char=81
+3	owes	owe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=82|end_char=86
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=87|end_char=90
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=91|end_char=92
+6	vote	vote	NOUN	NN	Number=Sing	5	_	_	start_char=93|end_char=97|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=97|end_char=98
+8-9	doesn't	_	_	_	_	_	_	_	start_char=99|end_char=106
+8	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=99|end_char=103
+9	n't	not	PART	RB	_	8	_	_	start_char=103|end_char=106
+10	make	make	VERB	VB	VerbForm=Inf	9	_	_	start_char=107|end_char=111
+11	sense	sense	NOUN	NN	Number=Sing	10	_	_	start_char=112|end_char=117|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=117|end_char=118
+13-14	it's	_	_	_	_	_	_	_	start_char=119|end_char=123
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=119|end_char=121
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=121|end_char=123
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=124|end_char=125
+16	right	right	NOUN	NN	Number=Sing	15	_	_	start_char=126|end_char=131|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=131|end_char=132
+18	not	not	PART	RB	_	17	_	_	start_char=133|end_char=136
+19	something	something	PRON	NN	Number=Sing|PronType=Ind	18	_	_	start_char=137|end_char=146
+20	that	that	PRON	WDT	PronType=Rel	19	_	_	start_char=147|end_char=151
+21	someone	someone	PRON	NN	Number=Sing|PronType=Ind	20	_	_	start_char=152|end_char=159
+22	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=160|end_char=165
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	22	_	_	start_char=166|end_char=169|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=169|end_char=170
+
+# text = Women voting doesn't deprive men of their votesm
+# sent_id = 93112
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=171|end_char=176
+2	voting	voting	NOUN	NN	Number=Sing	1	_	_	start_char=177|end_char=183
+3-4	doesn't	_	_	_	_	_	_	_	start_char=184|end_char=191
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=184|end_char=188
+4	n't	not	PART	RB	_	3	_	_	start_char=188|end_char=191
+5	deprive	deprive	VERB	VB	VerbForm=Inf	4	_	_	start_char=192|end_char=199
+6	men	man	NOUN	NNS	Number=Plur	5	_	_	start_char=200|end_char=203
+7	of	of	ADP	IN	_	6	_	_	start_char=204|end_char=206
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=207|end_char=212
+9	votesm	votesm	NOUN	NN	Number=Sing	8	_	_	start_char=213|end_char=219|SpaceAfter=No
+

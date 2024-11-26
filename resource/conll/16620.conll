@@ -1,0 +1,53 @@
+# text = Hey... ya know that movie franchise KICK-ASS?
+# sent_id = 35712
+1	Hey	hey	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	...	...	PUNCT	,	_	1	_	_	start_char=3|end_char=6
+3	ya	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	_	_	start_char=7|end_char=9
+4	know	know	VERB	VB	VerbForm=Fin	3	_	_	start_char=10|end_char=14
+5	that	that	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=15|end_char=19
+6	movie	movie	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=25
+7	franchise	franchise	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=35
+8	KICK	kick	NOUN	NN	Number=Sing	7	_	_	start_char=36|end_char=40|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	_	_	start_char=40|end_char=41|SpaceAfter=No
+10	ASS	ASS	NOUN	NN	Number=Sing	9	_	_	start_char=41|end_char=44|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=44|end_char=45
+
+# text = Well...there's a new one coming out.
+# sent_id = 35713
+1	Well	well	INTJ	UH	_	0	_	_	start_char=46|end_char=50|SpaceAfter=No
+2	...	...	PUNCT	,	_	1	_	_	start_char=50|end_char=53|SpaceAfter=No
+3-4	there's	_	_	_	_	_	_	_	start_char=53|end_char=60
+3	there	there	PRON	EX	_	2	_	_	start_char=53|end_char=58
+4	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=58|end_char=60
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=61|end_char=62
+6	new	new	ADJ	JJ	Degree=Pos	5	_	_	start_char=63|end_char=66
+7	one	one	NOUN	NN	Number=Sing	6	_	_	start_char=67|end_char=70
+8	coming	come	VERB	VBG	VerbForm=Ger	7	_	_	start_char=71|end_char=77
+9	out	out	ADV	RB	_	8	_	_	start_char=78|end_char=81|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=81|end_char=82
+
+# text = Same costume but... ...the white kid has been replaced by a black woman.
+# sent_id = 35714
+1	Same	same	ADJ	JJ	Degree=Pos	0	_	_	start_char=83|end_char=87
+2	costume	costume	NOUN	NN	Number=Sing	1	_	_	start_char=88|end_char=95
+3	but	but	CCONJ	CC	_	2	_	_	start_char=96|end_char=99|SpaceAfter=No
+4	...	...	PUNCT	,	_	3	_	_	start_char=99|end_char=102
+5	...	...	PUNCT	,	_	4	_	_	start_char=103|end_char=106|SpaceAfter=No
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=106|end_char=109
+7	white	white	ADJ	JJ	Degree=Pos	6	_	_	start_char=110|end_char=115
+8	kid	kid	NOUN	NN	Number=Sing	7	_	_	start_char=116|end_char=119
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=120|end_char=123
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=124|end_char=128
+11	replaced	replace	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=129|end_char=137
+12	by	by	ADP	IN	_	11	_	_	start_char=138|end_char=140
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=141|end_char=142
+14	black	black	ADJ	JJ	Degree=Pos	13	_	_	start_char=143|end_char=148
+15	woman	woman	NOUN	NN	Number=Sing	14	_	_	start_char=149|end_char=154|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=154|end_char=155
+
+# text = 😶 #diversity
+# sent_id = 35715
+1	😶	😶	PUNCT	``	_	0	_	_	start_char=156|end_char=157
+2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=158|end_char=159|SpaceAfter=No
+3	diversity	diversity	NOUN	NN	Number=Sing	2	_	_	start_char=159|end_char=168|SpaceAfter=No
+

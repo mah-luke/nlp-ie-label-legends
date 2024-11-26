@@ -1,0 +1,60 @@
+# text = Very nice post OP.
+# sent_id = 126312
+1	Very	very	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	nice	nice	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=9
+3	post	post	NOUN	NN	Number=Sing	2	_	_	start_char=10|end_char=14
+4	OP	OP	NOUN	NN	Number=Sing	3	_	_	start_char=15|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = I can't tell if you live in Asia or the West.
+# sent_id = 126313
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=19|end_char=20
+2-3	can't	_	_	_	_	_	_	_	start_char=21|end_char=26
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=21|end_char=23
+3	n't	not	PART	RB	_	2	_	_	start_char=23|end_char=26
+4	tell	tell	VERB	VB	VerbForm=Inf	3	_	_	start_char=27|end_char=31
+5	if	if	SCONJ	IN	_	4	_	_	start_char=32|end_char=34
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=35|end_char=38
+7	live	live	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=39|end_char=43
+8	in	in	ADP	IN	_	7	_	_	start_char=44|end_char=46
+9	Asia	Asia	PROPN	NNP	Number=Sing	8	_	_	start_char=47|end_char=51
+10	or	or	CCONJ	CC	_	9	_	_	start_char=52|end_char=54
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=55|end_char=58
+12	West	West	PROPN	NNP	Number=Sing	11	_	_	start_char=59|end_char=63|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=63|end_char=64
+
+# text = Either way, in your opinion do you think it is possible to get Asian women and Asian men who are self hating and white worshiping to stop being that way?
+# sent_id = 126314
+1	Either	either	DET	DT	_	0	_	_	start_char=65|end_char=71
+2	way	way	NOUN	NN	Number=Sing	1	_	_	start_char=72|end_char=75|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=75|end_char=76
+4	in	in	ADP	IN	_	3	_	_	start_char=77|end_char=79
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=80|end_char=84
+6	opinion	opinion	NOUN	NN	Number=Sing	5	_	_	start_char=85|end_char=92
+7	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=93|end_char=95
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=96|end_char=99
+9	think	think	VERB	VB	VerbForm=Inf	8	_	_	start_char=100|end_char=105
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=106|end_char=108
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=109|end_char=111
+12	possible	possible	ADJ	JJ	Degree=Pos	11	_	_	start_char=112|end_char=120
+13	to	to	PART	TO	_	12	_	_	start_char=121|end_char=123
+14	get	get	VERB	VB	VerbForm=Inf	13	_	_	start_char=124|end_char=127
+15	Asian	Asian	ADJ	JJ	Degree=Pos	14	_	_	start_char=128|end_char=133
+16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=134|end_char=139
+17	and	and	CCONJ	CC	_	16	_	_	start_char=140|end_char=143
+18	Asian	Asian	ADJ	JJ	Degree=Pos	17	_	_	start_char=144|end_char=149
+19	men	man	NOUN	NNS	Number=Plur	18	_	_	start_char=150|end_char=153
+20	who	who	PRON	WP	PronType=Rel	19	_	_	start_char=154|end_char=157
+21	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=158|end_char=161
+22	self	self	NOUN	NN	Number=Sing	21	_	_	start_char=162|end_char=166
+23	hating	hate	VERB	VBG	Tense=Pres|VerbForm=Part	22	_	_	start_char=167|end_char=173
+24	and	and	CCONJ	CC	_	23	_	_	start_char=174|end_char=177
+25	white	white	ADJ	JJ	Degree=Pos	24	_	_	start_char=178|end_char=183
+26	worshiping	worshiping	NOUN	NN	Number=Sing	25	_	_	start_char=184|end_char=194
+27	to	to	PART	TO	_	26	_	_	start_char=195|end_char=197
+28	stop	stop	VERB	VB	VerbForm=Inf	27	_	_	start_char=198|end_char=202
+29	being	be	AUX	VBG	VerbForm=Ger	28	_	_	start_char=203|end_char=208
+30	that	that	DET	DT	Number=Sing|PronType=Dem	29	_	_	start_char=209|end_char=213
+31	way	way	NOUN	NN	Number=Sing	30	_	_	start_char=214|end_char=217|SpaceAfter=No
+32	?	?	PUNCT	.	_	31	_	_	start_char=217|end_char=218|SpaceAfter=No
+

@@ -1,0 +1,63 @@
+# text = EPIC.
+# sent_id = 119586
+1	EPIC	EPIC	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = Generation Zyklon is a thing!
+# sent_id = 119587
+1	Generation	generation	NOUN	NN	Number=Sing	0	_	_	start_char=6|end_char=16
+2	Zyklon	Zyklon	PROPN	NNP	Number=Sing	1	_	_	start_char=17|end_char=23
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=24|end_char=26
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=27|end_char=28
+5	thing	thing	NOUN	NN	Number=Sing	4	_	_	start_char=29|end_char=34|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=34|end_char=35
+
+# text = So stoked to see the kids standing up for Trump: [URL]
+# sent_id = 119588
+1	So	so	ADV	RB	_	0	_	_	start_char=36|end_char=38
+2	stoked	stoke	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=39|end_char=45
+3	to	to	PART	TO	_	2	_	_	start_char=46|end_char=48
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	start_char=49|end_char=52
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=53|end_char=56
+6	kids	kid	NOUN	NNS	Number=Plur	5	_	_	start_char=57|end_char=61
+7	standing	stand	VERB	VBG	VerbForm=Ger	6	_	_	start_char=62|end_char=70
+8	up	up	ADP	RP	_	7	_	_	start_char=71|end_char=73
+9	for	for	ADP	IN	_	8	_	_	start_char=74|end_char=77
+10	Trump	Trump	PROPN	NNP	Number=Sing	9	_	_	start_char=78|end_char=83|SpaceAfter=No
+11	:	:	PUNCT	:	_	10	_	_	start_char=83|end_char=84
+12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=85|end_char=86|SpaceAfter=No
+13	URL	URL	PROPN	NNP	Number=Sing	12	_	_	start_char=86|end_char=89|SpaceAfter=No
+14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=89|end_char=90
+
+# text = Note author is female with hyphenated name.
+# sent_id = 119589
+1	Note	note	NOUN	NN	Number=Sing	0	_	_	start_char=91|end_char=95
+2	author	author	NOUN	NN	Number=Sing	1	_	_	start_char=96|end_char=102
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=103|end_char=105
+4	female	female	ADJ	JJ	Degree=Pos	3	_	_	start_char=106|end_char=112
+5	with	with	ADP	IN	_	4	_	_	start_char=113|end_char=117
+6	hyphenated	hyphenated	ADJ	JJ	Degree=Pos	5	_	_	start_char=118|end_char=128
+7	name	name	NOUN	NN	Number=Sing	6	_	_	start_char=129|end_char=133|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=133|end_char=134
+
+# text = Still can't get away from her daddy, apparently.
+# sent_id = 119590
+1	Still	still	ADV	RB	_	0	_	_	start_char=135|end_char=140
+2-3	can't	_	_	_	_	_	_	_	start_char=141|end_char=146
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=141|end_char=143
+3	n't	not	PART	RB	_	2	_	_	start_char=143|end_char=146
+4	get	get	VERB	VB	VerbForm=Inf	3	_	_	start_char=147|end_char=150
+5	away	away	ADV	RB	_	4	_	_	start_char=151|end_char=155
+6	from	from	ADP	IN	_	5	_	_	start_char=156|end_char=160
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=161|end_char=164
+8	daddy	daddy	NOUN	NN	Number=Sing	7	_	_	start_char=165|end_char=170|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=170|end_char=171
+10	apparently	apparently	ADV	RB	_	9	_	_	start_char=172|end_char=182|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=182|end_char=183
+
+# text = [USER]
+# sent_id = 119591
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=184|end_char=185|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=185|end_char=189|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=189|end_char=190|SpaceAfter=No
+

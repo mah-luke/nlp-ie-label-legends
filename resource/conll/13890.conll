@@ -1,0 +1,66 @@
+# text = She’s the work mom, she’ll keep the younger honeys in line.
+# sent_id = 29601
+1-2	She’s	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=6|end_char=9
+4	work	work	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=14
+5	mom	mom	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=18|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=18|end_char=19
+7-8	she’ll	_	_	_	_	_	_	_	start_char=20|end_char=26
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=20|end_char=23
+8	’ll	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=23|end_char=26
+9	keep	keep	VERB	VB	VerbForm=Inf	8	_	_	start_char=27|end_char=31
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=32|end_char=35
+11	younger	young	ADJ	JJR	Degree=Cmp	10	_	_	start_char=36|end_char=43
+12	honeys	honey	NOUN	NNS	Number=Plur	11	_	_	start_char=44|end_char=50
+13	in	in	ADP	IN	_	12	_	_	start_char=51|end_char=53
+14	line	line	NOUN	NN	Number=Sing	13	_	_	start_char=54|end_char=58|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=58|end_char=59
+
+# text = She’s actually doing you a favor and it’s good advice.
+# sent_id = 29602
+1-2	She’s	_	_	_	_	_	_	_	start_char=60|end_char=65
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=60|end_char=63
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=65
+3	actually	actually	ADV	RB	_	2	_	_	start_char=66|end_char=74
+4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=75|end_char=80
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=81|end_char=84
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=85|end_char=86
+7	favor	favor	NOUN	NN	Number=Sing	6	_	_	start_char=87|end_char=92
+8	and	and	CCONJ	CC	_	7	_	_	start_char=93|end_char=96
+9-10	it’s	_	_	_	_	_	_	_	start_char=97|end_char=101
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=97|end_char=99
+10	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=99|end_char=101
+11	good	good	ADJ	JJ	Degree=Pos	10	_	_	start_char=102|end_char=106
+12	advice	advice	NOUN	NN	Number=Sing	11	_	_	start_char=107|end_char=113|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=113|end_char=114
+
+# text = Read the stickied Corporateland post about different types of women in the office, it’s a not-terrible rule of thumb.
+# sent_id = 29603
+1	Read	read	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=115|end_char=119
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=120|end_char=123
+3	stickied	sticky	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=124|end_char=132
+4	Corporateland	Corporateland	PROPN	NNP	Number=Sing	3	_	_	start_char=133|end_char=146
+5	post	post	NOUN	NN	Number=Sing	4	_	_	start_char=147|end_char=151
+6	about	about	ADP	IN	_	5	_	_	start_char=152|end_char=157
+7	different	different	ADJ	JJ	Degree=Pos	6	_	_	start_char=158|end_char=167
+8	types	type	NOUN	NNS	Number=Plur	7	_	_	start_char=168|end_char=173
+9	of	of	ADP	IN	_	8	_	_	start_char=174|end_char=176
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=177|end_char=182
+11	in	in	ADP	IN	_	10	_	_	start_char=183|end_char=185
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=186|end_char=189
+13	office	office	NOUN	NN	Number=Sing	12	_	_	start_char=190|end_char=196|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=196|end_char=197
+15-16	it’s	_	_	_	_	_	_	_	start_char=198|end_char=202
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=198|end_char=200
+16	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=200|end_char=202
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=203|end_char=204
+18	not	not	PART	RB	_	17	_	_	start_char=205|end_char=208|SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	18	_	_	start_char=208|end_char=209|SpaceAfter=No
+20	terrible	terrible	ADJ	JJ	Degree=Pos	19	_	_	start_char=209|end_char=217
+21	rule	rule	NOUN	NN	Number=Sing	20	_	_	start_char=218|end_char=222
+22	of	of	ADP	IN	_	21	_	_	start_char=223|end_char=225
+23	thumb	thumb	NOUN	NN	Number=Sing	22	_	_	start_char=226|end_char=231|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=231|end_char=232|SpaceAfter=No
+

@@ -1,0 +1,39 @@
+# text = Ugh, I'm so sorry.
+# sent_id = 67689
+1	Ugh	ugh	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3-4	I'm	_	_	_	_	_	_	_	start_char=5|end_char=8
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=5|end_char=6
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=6|end_char=8
+5	so	so	ADV	RB	_	4	_	_	start_char=9|end_char=11
+6	sorry	sorry	ADJ	JJ	Degree=Pos	5	_	_	start_char=12|end_char=17|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=17|end_char=18
+
+# text = That shouldn't be happening.
+# sent_id = 67690
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=19|end_char=23
+2-3	shouldn't	_	_	_	_	_	_	_	start_char=24|end_char=33
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=24|end_char=30
+3	n't	not	PART	RB	_	2	_	_	start_char=30|end_char=33
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=34|end_char=36
+5	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=37|end_char=46|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=46|end_char=47
+
+# text = Just makes me more proud of the people in here who actively reject hate.
+# sent_id = 67691
+1	Just	just	ADV	RB	_	0	_	_	start_char=48|end_char=52
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=53|end_char=58
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=59|end_char=61
+4	more	more	ADV	RBR	Degree=Cmp	3	_	_	start_char=62|end_char=66
+5	proud	proud	ADJ	JJ	Degree=Pos	4	_	_	start_char=67|end_char=72
+6	of	of	ADP	IN	_	5	_	_	start_char=73|end_char=75
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=76|end_char=79
+8	people	person	NOUN	NNS	Number=Plur	7	_	_	start_char=80|end_char=86
+9	in	in	ADP	IN	_	8	_	_	start_char=87|end_char=89
+10	here	here	ADV	RB	PronType=Dem	9	_	_	start_char=90|end_char=94
+11	who	who	PRON	WP	PronType=Rel	10	_	_	start_char=95|end_char=98
+12	actively	actively	ADV	RB	_	11	_	_	start_char=99|end_char=107
+13	reject	reject	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=108|end_char=114
+14	hate	hate	NOUN	NN	Number=Sing	13	_	_	start_char=115|end_char=119|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=119|end_char=120|SpaceAfter=No
+

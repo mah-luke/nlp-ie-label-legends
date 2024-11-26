@@ -1,0 +1,42 @@
+# text = "Those who would give up essential Liberty, to purchase a little temporary Safety, deserve neither Liberty nor Safety."
+# sent_id = 20133
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Those	that	PRON	DT	Number=Plur|PronType=Dem	1	_	_	start_char=1|end_char=6
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=7|end_char=10
+4	would	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=11|end_char=16
+5	give	give	VERB	VB	VerbForm=Inf	4	_	_	start_char=17|end_char=21
+6	up	up	ADP	RP	_	5	_	_	start_char=22|end_char=24
+7	essential	essential	ADJ	JJ	Degree=Pos	6	_	_	start_char=25|end_char=34
+8	Liberty	Liberty	PROPN	NNP	Number=Sing	7	_	_	start_char=35|end_char=42|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=42|end_char=43
+10	to	to	PART	TO	_	9	_	_	start_char=44|end_char=46
+11	purchase	purchase	VERB	VB	VerbForm=Inf	10	_	_	start_char=47|end_char=55
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=56|end_char=57
+13	little	little	ADJ	JJ	Degree=Pos	12	_	_	start_char=58|end_char=64
+14	temporary	temporary	ADJ	JJ	Degree=Pos	13	_	_	start_char=65|end_char=74
+15	Safety	Safety	NOUN	NN	Number=Sing	14	_	_	start_char=75|end_char=81|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=81|end_char=82
+17	deserve	deserve	VERB	VB	VerbForm=Inf	16	_	_	start_char=83|end_char=90
+18	neither	neither	CCONJ	CC	_	17	_	_	start_char=91|end_char=98
+19	Liberty	Liberty	PROPN	NNP	Number=Sing	18	_	_	start_char=99|end_char=106
+20	nor	nor	CCONJ	CC	_	19	_	_	start_char=107|end_char=110
+21	Safety	Safety	NOUN	NN	Number=Sing	20	_	_	start_char=111|end_char=117|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=117|end_char=118|SpaceAfter=No
+23	"	"	PUNCT	''	_	22	_	_	start_char=118|end_char=119
+
+# text = Ben Franklin
+# sent_id = 20134
+1	Ben	Ben	PROPN	NNP	Number=Sing	0	_	_	start_char=120|end_char=123
+2	Franklin	Franklin	PROPN	NNP	Number=Sing	1	_	_	start_char=124|end_char=132
+
+# text = You can look up 'Tyranny' yourself
+# sent_id = 20135
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=133|end_char=136
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=137|end_char=140
+3	look	look	VERB	VB	VerbForm=Inf	2	_	_	start_char=141|end_char=145
+4	up	up	ADP	RP	_	3	_	_	start_char=146|end_char=148
+5	'	'	PUNCT	``	_	4	_	_	start_char=149|end_char=150|SpaceAfter=No
+6	Tyranny	tyranny	NOUN	NN	Number=Sing	5	_	_	start_char=150|end_char=157|SpaceAfter=No
+7	'	'	PUNCT	''	_	6	_	_	start_char=157|end_char=158
+8	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	7	_	_	start_char=159|end_char=167|SpaceAfter=No
+

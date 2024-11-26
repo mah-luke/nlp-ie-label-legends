@@ -1,0 +1,45 @@
+# text = He might leave yes but he might not.
+# sent_id = 11058
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	might	might	AUX	MD	VerbForm=Fin	1	_	_	start_char=3|end_char=8
+3	leave	leave	VERB	VB	VerbForm=Inf	2	_	_	start_char=9|end_char=14
+4	yes	yes	INTJ	UH	_	3	_	_	start_char=15|end_char=18
+5	but	but	CCONJ	CC	_	4	_	_	start_char=19|end_char=22
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=23|end_char=25
+7	might	might	AUX	MD	VerbForm=Fin	6	_	_	start_char=26|end_char=31
+8	not	not	PART	RB	_	7	_	_	start_char=32|end_char=35|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = The woman might find something she likes and he doesn't and that becomes a deal breaker for her too.
+# sent_id = 11059
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=37|end_char=40
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=41|end_char=46
+3	might	might	AUX	MD	VerbForm=Fin	2	_	_	start_char=47|end_char=52
+4	find	find	VERB	VB	VerbForm=Inf	3	_	_	start_char=53|end_char=57
+5	something	something	PRON	NN	Number=Sing|PronType=Ind	4	_	_	start_char=58|end_char=67
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=68|end_char=71
+7	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=72|end_char=77
+8	and	and	CCONJ	CC	_	7	_	_	start_char=78|end_char=81
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=82|end_char=84
+10-11	doesn't	_	_	_	_	_	_	_	start_char=85|end_char=92
+10	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=85|end_char=89
+11	n't	not	PART	RB	_	10	_	_	start_char=89|end_char=92
+12	and	and	CCONJ	CC	_	11	_	_	start_char=93|end_char=96
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	12	_	_	start_char=97|end_char=101
+14	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=102|end_char=109
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=110|end_char=111
+16	deal	deal	NOUN	NN	Number=Sing	15	_	_	start_char=112|end_char=116
+17	breaker	breaker	NOUN	NN	Number=Sing	16	_	_	start_char=117|end_char=124
+18	for	for	ADP	IN	_	17	_	_	start_char=125|end_char=128
+19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=129|end_char=132
+20	too	too	ADV	RB	_	19	_	_	start_char=133|end_char=136|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=136|end_char=137
+
+# text = This works both ways.
+# sent_id = 11060
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=138|end_char=142
+2	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=143|end_char=148
+3	both	both	DET	DT	_	2	_	_	start_char=149|end_char=153
+4	ways	way	NOUN	NNS	Number=Plur	3	_	_	start_char=154|end_char=158|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=158|end_char=159|SpaceAfter=No
+

@@ -1,0 +1,51 @@
+# text = I can do that fairly easily, you're right it must vary from individual to individual.
+# sent_id = 122466
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	do	do	VERB	VB	VerbForm=Inf	2	_	_	start_char=6|end_char=8
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=9|end_char=13
+5	fairly	fairly	ADV	RB	_	4	_	_	start_char=14|end_char=20
+6	easily	easily	ADV	RB	_	5	_	_	start_char=21|end_char=27|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=27|end_char=28
+8-9	you're	_	_	_	_	_	_	_	start_char=29|end_char=35
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=29|end_char=32
+9	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=32|end_char=35
+10	right	right	ADJ	JJ	Degree=Pos	9	_	_	start_char=36|end_char=41
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=42|end_char=44
+12	must	must	AUX	MD	VerbForm=Fin	11	_	_	start_char=45|end_char=49
+13	vary	vary	VERB	VB	VerbForm=Inf	12	_	_	start_char=50|end_char=54
+14	from	from	ADP	IN	_	13	_	_	start_char=55|end_char=59
+15	individual	individual	NOUN	NN	Number=Sing	14	_	_	start_char=60|end_char=70
+16	to	to	ADP	IN	_	15	_	_	start_char=71|end_char=73
+17	individual	individual	NOUN	NN	Number=Sing	16	_	_	start_char=74|end_char=84|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=84|end_char=85
+
+# text = It's not her middle finger, but still doesn't holding up her ring finger like that mean "fuck you"?
+# sent_id = 122467
+1-2	It's	_	_	_	_	_	_	_	start_char=86|end_char=90
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=86|end_char=88
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=88|end_char=90
+3	not	not	PART	RB	_	2	_	_	start_char=91|end_char=94
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=95|end_char=98
+5	middle	middle	ADJ	JJ	Degree=Pos	4	_	_	start_char=99|end_char=105
+6	finger	finger	NOUN	NN	Number=Sing	5	_	_	start_char=106|end_char=112|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=112|end_char=113
+8	but	but	CCONJ	CC	_	7	_	_	start_char=114|end_char=117
+9	still	still	ADV	RB	_	8	_	_	start_char=118|end_char=123
+10-11	doesn't	_	_	_	_	_	_	_	start_char=124|end_char=131
+10	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=124|end_char=128
+11	n't	not	PART	RB	_	10	_	_	start_char=128|end_char=131
+12	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=132|end_char=139
+13	up	up	ADP	RP	_	12	_	_	start_char=140|end_char=142
+14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=143|end_char=146
+15	ring	ring	NOUN	NN	Number=Sing	14	_	_	start_char=147|end_char=151
+16	finger	finger	NOUN	NN	Number=Sing	15	_	_	start_char=152|end_char=158
+17	like	like	ADP	IN	_	16	_	_	start_char=159|end_char=163
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	17	_	_	start_char=164|end_char=168
+19	mean	mean	VERB	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	18	_	_	start_char=169|end_char=173
+20	"	"	PUNCT	``	_	19	_	_	start_char=174|end_char=175|SpaceAfter=No
+21	fuck	fuck	VERB	VB	VerbForm=Inf	20	_	_	start_char=175|end_char=179
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	_	_	start_char=180|end_char=183|SpaceAfter=No
+23	"	"	PUNCT	''	_	22	_	_	start_char=183|end_char=184|SpaceAfter=No
+24	?	?	PUNCT	.	_	23	_	_	start_char=184|end_char=185|SpaceAfter=No
+

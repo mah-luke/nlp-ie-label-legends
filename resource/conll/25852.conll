@@ -1,0 +1,68 @@
+# text = What does it correlate most with?
+# sent_id = 55441
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=12
+4	correlate	correlate	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=22
+5	most	most	ADV	RBS	Degree=Sup	4	_	_	start_char=23|end_char=27
+6	with	with	ADP	IN	_	5	_	_	start_char=28|end_char=32|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=32|end_char=33
+
+# text = Nothing really.
+# sent_id = 55442
+1	Nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=34|end_char=41
+2	really	really	ADV	RB	_	1	_	_	start_char=42|end_char=48|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=48|end_char=49
+
+# text = It just varies.
+# sent_id = 55443
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=50|end_char=52
+2	just	just	ADV	RB	_	1	_	_	start_char=53|end_char=57
+3	varies	vary	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=58|end_char=64|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=64|end_char=65
+
+# text = I've fucked with girls taller than me who couldn't take my dick all the way without it killing them, and I've fucked with girls under 5 feet who could probably take a bowling pin.
+# sent_id = 55444
+1-2	I've	_	_	_	_	_	_	_	start_char=66|end_char=70
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=66|end_char=67
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=67|end_char=70
+3	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=71|end_char=77
+4	with	with	ADP	IN	_	3	_	_	start_char=78|end_char=82
+5	girls	girl	NOUN	NNS	Number=Plur	4	_	_	start_char=83|end_char=88
+6	taller	tall	ADJ	JJR	Degree=Cmp	5	_	_	start_char=89|end_char=95
+7	than	than	ADP	IN	_	6	_	_	start_char=96|end_char=100
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=101|end_char=103
+9	who	who	PRON	WP	PronType=Rel	8	_	_	start_char=104|end_char=107
+10-11	couldn't	_	_	_	_	_	_	_	start_char=108|end_char=116
+10	could	could	AUX	MD	VerbForm=Fin	9	_	_	start_char=108|end_char=113
+11	n't	not	PART	RB	_	10	_	_	start_char=113|end_char=116
+12	take	take	VERB	VB	VerbForm=Inf	11	_	_	start_char=117|end_char=121
+13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	_	_	start_char=122|end_char=124
+14	dick	dick	NOUN	NN	Number=Sing	13	_	_	start_char=125|end_char=129
+15	all	all	DET	PDT	_	14	_	_	start_char=130|end_char=133
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=134|end_char=137
+17	way	way	NOUN	NN	Number=Sing	16	_	_	start_char=138|end_char=141
+18	without	without	SCONJ	IN	_	17	_	_	start_char=142|end_char=149
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=150|end_char=152
+20	killing	kill	VERB	VBG	VerbForm=Ger	19	_	_	start_char=153|end_char=160
+21	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	_	_	start_char=161|end_char=165|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=165|end_char=166
+23	and	and	CCONJ	CC	_	22	_	_	start_char=167|end_char=170
+24-25	I've	_	_	_	_	_	_	_	start_char=171|end_char=175
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	_	_	start_char=171|end_char=172
+25	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	_	_	start_char=172|end_char=175
+26	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part	25	_	_	start_char=176|end_char=182
+27	with	with	ADP	IN	_	26	_	_	start_char=183|end_char=187
+28	girls	girl	NOUN	NNS	Number=Plur	27	_	_	start_char=188|end_char=193
+29	under	under	ADP	IN	_	28	_	_	start_char=194|end_char=199
+30	5	5	NUM	CD	NumForm=Digit|NumType=Card	29	_	_	start_char=200|end_char=201
+31	feet	foot	NOUN	NNS	Number=Plur	30	_	_	start_char=202|end_char=206
+32	who	who	PRON	WP	PronType=Rel	31	_	_	start_char=207|end_char=210
+33	could	could	AUX	MD	VerbForm=Fin	32	_	_	start_char=211|end_char=216
+34	probably	probably	ADV	RB	_	33	_	_	start_char=217|end_char=225
+35	take	take	VERB	VB	VerbForm=Inf	34	_	_	start_char=226|end_char=230
+36	a	a	DET	DT	Definite=Ind|PronType=Art	35	_	_	start_char=231|end_char=232
+37	bowling	bowling	NOUN	NN	Number=Sing	36	_	_	start_char=233|end_char=240
+38	pin	pin	NOUN	NN	Number=Sing	37	_	_	start_char=241|end_char=244|SpaceAfter=No
+39	.	.	PUNCT	.	_	38	_	_	start_char=244|end_char=245|SpaceAfter=No
+

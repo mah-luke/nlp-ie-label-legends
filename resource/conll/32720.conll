@@ -1,0 +1,67 @@
+# text = I still can't believe they did that to David.
+# sent_id = 70091
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	still	still	ADV	RB	_	1	_	_	start_char=2|end_char=7
+3-4	can't	_	_	_	_	_	_	_	start_char=8|end_char=13
+3	ca	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=8|end_char=10
+4	n't	not	PART	RB	_	3	_	_	start_char=10|end_char=13
+5	believe	believe	VERB	VB	VerbForm=Inf	4	_	_	start_char=14|end_char=21
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=22|end_char=26
+7	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=27|end_char=30
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=31|end_char=35
+9	to	to	ADP	IN	_	8	_	_	start_char=36|end_char=38
+10	David	David	PROPN	NNP	Number=Sing	9	_	_	start_char=39|end_char=44|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=44|end_char=45
+
+# text = Probably one of the most wholesome political commentators on Youtube.
+# sent_id = 70092
+1	Probably	probably	ADV	RB	_	0	_	_	start_char=46|end_char=54
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=55|end_char=58
+3	of	of	ADP	IN	_	2	_	_	start_char=59|end_char=61
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=62|end_char=65
+5	most	most	ADV	RBS	Degree=Sup	4	_	_	start_char=66|end_char=70
+6	wholesome	wholesome	ADJ	JJ	Degree=Pos	5	_	_	start_char=71|end_char=80
+7	political	political	ADJ	JJ	Degree=Pos	6	_	_	start_char=81|end_char=90
+8	commentators	commentator	NOUN	NNS	Number=Plur	7	_	_	start_char=91|end_char=103
+9	on	on	ADP	IN	_	8	_	_	start_char=104|end_char=106
+10	Youtube	Youtube	PROPN	NNP	Number=Sing	9	_	_	start_char=107|end_char=114|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=114|end_char=115
+
+# text = These days, I'm glad he's doing okay.
+# sent_id = 70093
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=116|end_char=121
+2	days	day	NOUN	NNS	Number=Plur	1	_	_	start_char=122|end_char=126|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=126|end_char=127
+4-5	I'm	_	_	_	_	_	_	_	start_char=128|end_char=131
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=128|end_char=129
+5	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=129|end_char=131
+6	glad	glad	ADJ	JJ	Degree=Pos	5	_	_	start_char=132|end_char=136
+7-8	he's	_	_	_	_	_	_	_	start_char=137|end_char=141
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=137|end_char=139
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=139|end_char=141
+9	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=142|end_char=147
+10	okay	okay	ADJ	JJ	Degree=Pos	9	_	_	start_char=148|end_char=152|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=152|end_char=153
+
+# text = He's recently taken to streaming on Twitch, and all the twitch thots are getting moist.
+# sent_id = 70094
+1-2	He's	_	_	_	_	_	_	_	start_char=154|end_char=158
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=154|end_char=156
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=156|end_char=158
+3	recently	recently	ADV	RB	_	2	_	_	start_char=159|end_char=167
+4	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=168|end_char=173
+5	to	to	SCONJ	IN	_	4	_	_	start_char=174|end_char=176
+6	streaming	stream	VERB	VBG	VerbForm=Ger	5	_	_	start_char=177|end_char=186
+7	on	on	ADP	IN	_	6	_	_	start_char=187|end_char=189
+8	Twitch	Twitch	PROPN	NNP	Number=Sing	7	_	_	start_char=190|end_char=196|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=196|end_char=197
+10	and	and	CCONJ	CC	_	9	_	_	start_char=198|end_char=201
+11	all	all	DET	PDT	_	10	_	_	start_char=202|end_char=205
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=206|end_char=209
+13	twitch	twitch	NOUN	NN	Number=Sing	12	_	_	start_char=210|end_char=216
+14	thots	thot	NOUN	NNS	Number=Plur	13	_	_	start_char=217|end_char=222
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=223|end_char=226
+16	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	15	_	_	start_char=227|end_char=234
+17	moist	moist	ADJ	JJ	Degree=Pos	16	_	_	start_char=235|end_char=240|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=240|end_char=241|SpaceAfter=No
+

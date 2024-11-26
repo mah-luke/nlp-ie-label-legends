@@ -1,0 +1,49 @@
+# text = You're not coherent whatsoever.
+# sent_id = 101895
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	not	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	coherent	coherent	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=19
+5	whatsoever	whatsoever	ADV	RB	_	4	_	_	start_char=20|end_char=30|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=30|end_char=31
+
+# text = 🤔
+# sent_id = 101896
+1	🤔	🤔	PUNCT	NFP	_	0	_	_	start_char=32|end_char=33
+
+# text = Who likes to rape kids?
+# sent_id = 101897
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=34|end_char=37
+2	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=38|end_char=43
+3	to	to	PART	TO	_	2	_	_	start_char=44|end_char=46
+4	rape	rape	VERB	VB	VerbForm=Inf	3	_	_	start_char=47|end_char=51
+5	kids	kid	NOUN	NNS	Number=Plur	4	_	_	start_char=52|end_char=56|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=56|end_char=57
+
+# text = And what women he likes to beat?
+# sent_id = 101898
+1	And	and	CCONJ	CC	_	0	_	_	start_char=58|end_char=61
+2	what	what	DET	WDT	PronType=Int	1	_	_	start_char=62|end_char=66
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=67|end_char=72
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=73|end_char=75
+5	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=76|end_char=81
+6	to	to	PART	TO	_	5	_	_	start_char=82|end_char=84
+7	beat	beat	VERB	VB	VerbForm=Inf	6	_	_	start_char=85|end_char=89|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=89|end_char=90
+
+# text = Get to the point fella, stop being a Cryptic tosser?
+# sent_id = 101899
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=91|end_char=94
+2	to	to	ADP	IN	_	1	_	_	start_char=95|end_char=97
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=98|end_char=101
+4	point	point	NOUN	NN	Number=Sing	3	_	_	start_char=102|end_char=107
+5	fella	fella	NOUN	NN	Number=Sing	4	_	_	start_char=108|end_char=113|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=113|end_char=114
+7	stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=115|end_char=119
+8	being	be	AUX	VBG	VerbForm=Ger	7	_	_	start_char=120|end_char=125
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=126|end_char=127
+10	Cryptic	cryptic	ADJ	JJ	Degree=Pos	9	_	_	start_char=128|end_char=135
+11	tosser	tosser	NOUN	NN	Number=Sing	10	_	_	start_char=136|end_char=142|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=142|end_char=143|SpaceAfter=No
+

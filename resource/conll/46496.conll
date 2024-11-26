@@ -1,0 +1,48 @@
+# text = [USER] I like that message, but 'turn the other cheek' is something I like to call Cuck Fu.
+# sent_id = 99360
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=7|end_char=8
+5	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=9|end_char=13
+6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=14|end_char=18
+7	message	message	NOUN	NN	Number=Sing	6	_	_	start_char=19|end_char=26|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=26|end_char=27
+9	but	but	CCONJ	CC	_	8	_	_	start_char=28|end_char=31
+10	'	'	PUNCT	``	_	9	_	_	start_char=32|end_char=33|SpaceAfter=No
+11	turn	turn	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=33|end_char=37
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=38|end_char=41
+13	other	other	ADJ	JJ	Degree=Pos	12	_	_	start_char=42|end_char=47
+14	cheek	cheek	NOUN	NN	Number=Sing	13	_	_	start_char=48|end_char=53|SpaceAfter=No
+15	'	'	PUNCT	''	_	14	_	_	start_char=53|end_char=54
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=55|end_char=57
+17	something	something	PRON	NN	Number=Sing|PronType=Ind	16	_	_	start_char=58|end_char=67
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	_	_	start_char=68|end_char=69
+19	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	_	_	start_char=70|end_char=74
+20	to	to	PART	TO	_	19	_	_	start_char=75|end_char=77
+21	call	call	VERB	VB	VerbForm=Inf	20	_	_	start_char=78|end_char=82
+22	Cuck	Cuck	PROPN	NNP	Number=Sing	21	_	_	start_char=83|end_char=87
+23	Fu.	Fu.	PROPN	NNP	Number=Sing	22	_	_	start_char=88|end_char=91
+
+# text = The Moslems rape your daughter and kill your friends?
+# sent_id = 99361
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=92|end_char=95
+2	Moslems	Moslem	PROPN	NNPS	Number=Plur	1	_	_	start_char=96|end_char=103
+3	rape	rape	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=104|end_char=108
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=109|end_char=113
+5	daughter	daughter	NOUN	NN	Number=Sing	4	_	_	start_char=114|end_char=122
+6	and	and	CCONJ	CC	_	5	_	_	start_char=123|end_char=126
+7	kill	kill	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=127|end_char=131
+8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	_	_	start_char=132|end_char=136
+9	friends	friend	NOUN	NNS	Number=Plur	8	_	_	start_char=137|end_char=144|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=144|end_char=145
+
+# text = Don't forgive, DEPORT
+# sent_id = 99362
+1-2	Don't	_	_	_	_	_	_	_	start_char=146|end_char=151
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=146|end_char=148
+2	n't	not	PART	RB	_	1	_	_	start_char=148|end_char=151
+3	forgive	forgive	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=152|end_char=159|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=159|end_char=160
+5	DEPORT	deport	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=161|end_char=167|SpaceAfter=No
+

@@ -1,0 +1,61 @@
+# text = My, my, my but Hillary is busy looking churchy tweets and Unicef-y going lately.
+# sent_id = 93240
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=4|end_char=6|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=6|end_char=7
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=8|end_char=10
+6	but	but	CCONJ	CC	_	5	_	_	start_char=11|end_char=14
+7	Hillary	Hillary	PROPN	NNP	Number=Sing	6	_	_	start_char=15|end_char=22
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=23|end_char=25
+9	busy	busy	ADJ	JJ	Degree=Pos	8	_	_	start_char=26|end_char=30
+10	looking	look	VERB	VBG	VerbForm=Ger	9	_	_	start_char=31|end_char=38
+11	churchy	churchy	ADJ	JJ	Degree=Pos	10	_	_	start_char=39|end_char=46
+12	tweets	tweet	NOUN	NNS	Number=Plur	11	_	_	start_char=47|end_char=53
+13	and	and	CCONJ	CC	_	12	_	_	start_char=54|end_char=57
+14	Unicef-y	Unicef-y	PROPN	NNP	Number=Sing	13	_	_	start_char=58|end_char=66
+15	going	go	VERB	VBG	VerbForm=Ger	14	_	_	start_char=67|end_char=72
+16	lately	lately	ADV	RB	_	15	_	_	start_char=73|end_char=79|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=79|end_char=80
+
+# text = Got her gal-pal Katy Perry to come with on that one too.
+# sent_id = 93241
+1	Got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=81|end_char=84
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=85|end_char=88
+3	gal	gal	NOUN	NN	Number=Sing	2	_	_	start_char=89|end_char=92|SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	_	_	start_char=92|end_char=93|SpaceAfter=No
+5	pal	pal	NOUN	NN	Number=Sing	4	_	_	start_char=93|end_char=96
+6	Katy	Katy	PROPN	NNP	Number=Sing	5	_	_	start_char=97|end_char=101
+7	Perry	Perry	PROPN	NNP	Number=Sing	6	_	_	start_char=102|end_char=107
+8	to	to	PART	TO	_	7	_	_	start_char=108|end_char=110
+9	come	come	VERB	VB	VerbForm=Inf	8	_	_	start_char=111|end_char=115
+10	with	with	ADP	IN	_	9	_	_	start_char=116|end_char=120
+11	on	on	ADP	IN	_	10	_	_	start_char=121|end_char=123
+12	that	that	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=124|end_char=128
+13	one	one	NOUN	NN	Number=Sing	12	_	_	start_char=129|end_char=132
+14	too	too	ADV	RB	_	13	_	_	start_char=133|end_char=136|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=136|end_char=137
+
+# text = I got just one word to say about it that sums it all up for most of us: Haiti
+# sent_id = 93242
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=138|end_char=139
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=140|end_char=143
+3	just	just	ADV	RB	_	2	_	_	start_char=144|end_char=148
+4	one	one	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=149|end_char=152
+5	word	word	NOUN	NN	Number=Sing	4	_	_	start_char=153|end_char=157
+6	to	to	PART	TO	_	5	_	_	start_char=158|end_char=160
+7	say	say	VERB	VB	VerbForm=Inf	6	_	_	start_char=161|end_char=164
+8	about	about	ADP	IN	_	7	_	_	start_char=165|end_char=170
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=171|end_char=173
+10	that	that	PRON	WDT	PronType=Rel	9	_	_	start_char=174|end_char=178
+11	sums	sum	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=179|end_char=183
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=184|end_char=186
+13	all	all	ADV	RB	_	12	_	_	start_char=187|end_char=190
+14	up	up	ADP	RP	_	13	_	_	start_char=191|end_char=193
+15	for	for	ADP	IN	_	14	_	_	start_char=194|end_char=197
+16	most	most	ADJ	JJS	Degree=Sup	15	_	_	start_char=198|end_char=202
+17	of	of	ADP	IN	_	16	_	_	start_char=203|end_char=205
+18	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	17	_	_	start_char=206|end_char=208|SpaceAfter=No
+19	:	:	PUNCT	:	_	18	_	_	start_char=208|end_char=209
+20	Haiti	Haiti	PROPN	NNP	Number=Sing	19	_	_	start_char=210|end_char=215|SpaceAfter=No
+

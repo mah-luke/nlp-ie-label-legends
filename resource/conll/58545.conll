@@ -1,0 +1,41 @@
+# text = Ugh...that's just sad.
+# sent_id = 124959
+1	Ugh	ugh	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	...	...	PUNCT	,	_	1	_	_	start_char=3|end_char=6|SpaceAfter=No
+3-4	that's	_	_	_	_	_	_	_	start_char=6|end_char=12
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=6|end_char=10
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=10|end_char=12
+5	just	just	ADV	RB	_	4	_	_	start_char=13|end_char=17
+6	sad	sad	ADJ	JJ	Degree=Pos	5	_	_	start_char=18|end_char=21|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=21|end_char=22
+
+# text = I think those commercial hair dyes and nail salon fumes are poisoning these girls!
+# sent_id = 124960
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=23|end_char=24
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=30
+3	those	that	DET	DT	Number=Plur|PronType=Dem	2	_	_	start_char=31|end_char=36
+4	commercial	commercial	ADJ	JJ	Degree=Pos	3	_	_	start_char=37|end_char=47
+5	hair	hair	NOUN	NN	Number=Sing	4	_	_	start_char=48|end_char=52
+6	dyes	dye	NOUN	NNS	Number=Plur	5	_	_	start_char=53|end_char=57
+7	and	and	CCONJ	CC	_	6	_	_	start_char=58|end_char=61
+8	nail	nail	NOUN	NN	Number=Sing	7	_	_	start_char=62|end_char=66
+9	salon	salon	NOUN	NN	Number=Sing	8	_	_	start_char=67|end_char=72
+10	fumes	fume	NOUN	NNS	Number=Plur	9	_	_	start_char=73|end_char=78
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=79|end_char=82
+12	poisoning	poisoning	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=83|end_char=92
+13	these	this	DET	DT	Number=Plur|PronType=Dem	12	_	_	start_char=93|end_char=98
+14	girls	girl	NOUN	NNS	Number=Plur	13	_	_	start_char=99|end_char=104|SpaceAfter=No
+15	!	!	PUNCT	.	_	14	_	_	start_char=104|end_char=105
+
+# text = Like MSG in the psychotropics of the 80's!
+# sent_id = 124961
+1	Like	like	ADP	IN	_	0	_	_	start_char=106|end_char=110
+2	MSG	msg	NOUN	NN	Number=Sing	1	_	_	start_char=111|end_char=114
+3	in	in	ADP	IN	_	2	_	_	start_char=115|end_char=117
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=118|end_char=121
+5	psychotropics	psychotropics	NOUN	NNS	Number=Plur	4	_	_	start_char=122|end_char=135
+6	of	of	ADP	IN	_	5	_	_	start_char=136|end_char=138
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=139|end_char=142
+8	80's	80s	NOUN	NNS	Number=Plur	7	_	_	start_char=143|end_char=147|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=147|end_char=148|SpaceAfter=No
+

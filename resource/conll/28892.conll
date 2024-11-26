@@ -1,0 +1,67 @@
+# text = "Evidently many students walked out, and others, who didn’t stand for the Puerto Rican National Anthem, are on some sort of hit list.
+# sent_id = 61970
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Evidently	evidently	ADV	RB	_	1	_	_	start_char=1|end_char=10
+3	many	many	ADJ	JJ	Degree=Pos	2	_	_	start_char=11|end_char=15
+4	students	student	NOUN	NNS	Number=Plur	3	_	_	start_char=16|end_char=24
+5	walked	walk	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=25|end_char=31
+6	out	out	ADP	RP	_	5	_	_	start_char=32|end_char=35|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=35|end_char=36
+8	and	and	CCONJ	CC	_	7	_	_	start_char=37|end_char=40
+9	others	other	NOUN	NNS	Number=Plur	8	_	_	start_char=41|end_char=47|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=47|end_char=48
+11	who	who	PRON	WP	PronType=Rel	10	_	_	start_char=49|end_char=52
+12-13	didn’t	_	_	_	_	_	_	_	start_char=53|end_char=59
+12	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=53|end_char=56
+13	n’t	not	PART	RB	_	12	_	_	start_char=56|end_char=59
+14	stand	stand	VERB	VB	VerbForm=Inf	13	_	_	start_char=60|end_char=65
+15	for	for	ADP	IN	_	14	_	_	start_char=66|end_char=69
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=70|end_char=73
+17	Puerto	Puerto	PROPN	NNP	Number=Sing	16	_	_	start_char=74|end_char=80
+18	Rican	Rican	ADJ	NNP	Degree=Pos	17	_	_	start_char=81|end_char=86
+19	National	National	ADJ	NNP	Degree=Pos	18	_	_	start_char=87|end_char=95
+20	Anthem	Anthem	PROPN	NNP	Number=Sing	19	_	_	start_char=96|end_char=102|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	_	_	start_char=102|end_char=103
+22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=104|end_char=107
+23	on	on	ADP	IN	_	22	_	_	start_char=108|end_char=110
+24	some	some	DET	DT	_	23	_	_	start_char=111|end_char=115
+25	sort	sort	NOUN	NN	Number=Sing	24	_	_	start_char=116|end_char=120
+26	of	of	ADP	IN	_	25	_	_	start_char=121|end_char=123
+27	hit	hit	NOUN	NN	Number=Sing	26	_	_	start_char=124|end_char=127
+28	list	list	NOUN	NN	Number=Sing	27	_	_	start_char=128|end_char=132|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=132|end_char=133
+
+# text = Because…..tolerance."
+# sent_id = 61971
+1	Because	because	ADP	IN	_	0	_	_	start_char=134|end_char=141|SpaceAfter=No
+2	…..	…..	PUNCT	,	_	1	_	_	start_char=141|end_char=144|SpaceAfter=No
+3	tolerance	tolerance	NOUN	NN	Number=Sing	2	_	_	start_char=144|end_char=153|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=153|end_char=154|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=154|end_char=155
+
+# text = PUERTO RICO IS A TERRITORY OF THE USA.
+# sent_id = 61972
+1	PUERTO	Puerto	PROPN	NNP	Number=Sing	0	_	_	start_char=156|end_char=162
+2	RICO	RICO	PROPN	NNP	Number=Sing	1	_	_	start_char=163|end_char=167
+3	IS	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=168|end_char=170
+4	A	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=171|end_char=172
+5	TERRITORY	territory	NOUN	NN	Number=Sing	4	_	_	start_char=173|end_char=182
+6	OF	of	ADP	IN	_	5	_	_	start_char=183|end_char=185
+7	THE	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=186|end_char=189
+8	USA	USA	PROPN	NNP	Number=Sing	7	_	_	start_char=190|end_char=193|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=193|end_char=194
+
+# text = THEIR NATIONAL ANTHEM IS "THE STAR SPANGLED BANNER."
+# sent_id = 61973
+1	THEIR	there	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=195|end_char=200
+2	NATIONAL	national	ADJ	JJ	Degree=Pos	1	_	_	start_char=201|end_char=209
+3	ANTHEM	anthem	NOUN	NN	Number=Sing	2	_	_	start_char=210|end_char=216
+4	IS	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=217|end_char=219
+5	"	"	PUNCT	``	_	4	_	_	start_char=220|end_char=221|SpaceAfter=No
+6	THE	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=221|end_char=224
+7	STAR	STAR	PROPN	NNP	Number=Sing	6	_	_	start_char=225|end_char=229
+8	SPANGLED	spangled	ADJ	JJ	Degree=Pos	7	_	_	start_char=230|end_char=238
+9	BANNER	banner	NOUN	NN	Number=Sing	8	_	_	start_char=239|end_char=245|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=245|end_char=246|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=246|end_char=247|SpaceAfter=No
+

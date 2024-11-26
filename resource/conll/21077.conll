@@ -1,0 +1,41 @@
+# text = Haha.
+# sent_id = 45270
+1	Haha	haha	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = The more men she was with prior to marriage, the more harder it is to pair bond.
+# sent_id = 45271
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=6|end_char=9
+2	more	more	ADJ	JJR	Degree=Cmp	1	_	_	start_char=10|end_char=14
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=15|end_char=18
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=19|end_char=22
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=23|end_char=26
+6	with	with	ADP	IN	_	5	_	_	start_char=27|end_char=31
+7	prior	prior	ADJ	JJ	Degree=Pos	6	_	_	start_char=32|end_char=37
+8	to	to	ADP	IN	_	7	_	_	start_char=38|end_char=40
+9	marriage	marriage	NOUN	NN	Number=Sing	8	_	_	start_char=41|end_char=49|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=49|end_char=50
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=51|end_char=54
+12	more	more	ADV	RBR	Degree=Cmp	11	_	_	start_char=55|end_char=59
+13	harder	hard	ADJ	JJR	Degree=Cmp	12	_	_	start_char=60|end_char=66
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=67|end_char=69
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=70|end_char=72
+16	to	to	PART	TO	_	15	_	_	start_char=73|end_char=75
+17	pair	pair	VERB	VB	VerbForm=Inf	16	_	_	start_char=76|end_char=80
+18	bond	bond	NOUN	NN	Number=Sing	17	_	_	start_char=81|end_char=85|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=85|end_char=86
+
+# text = That's not me, that's science.
+# sent_id = 45272
+1-2	That's	_	_	_	_	_	_	_	start_char=87|end_char=93
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=87|end_char=91
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=91|end_char=93
+3	not	not	PART	RB	_	2	_	_	start_char=94|end_char=97
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=98|end_char=100|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=100|end_char=101
+6-7	that's	_	_	_	_	_	_	_	start_char=102|end_char=108
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=102|end_char=106
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=106|end_char=108
+8	science	science	NOUN	NN	Number=Sing	7	_	_	start_char=109|end_char=116|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=116|end_char=117|SpaceAfter=No
+

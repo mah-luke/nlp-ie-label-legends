@@ -1,0 +1,41 @@
+# text = It's true if a femoid likes you, she will giggle at everything remotely funny that you say.
+# sent_id = 29421
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	true	true	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=9
+4	if	if	SCONJ	IN	_	3	_	_	start_char=10|end_char=12
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=13|end_char=14
+6	femoid	femoid	NOUN	NN	Number=Sing	5	_	_	start_char=15|end_char=21
+7	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=22|end_char=27
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	_	_	start_char=28|end_char=31|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=31|end_char=32
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=33|end_char=36
+11	will	will	AUX	MD	VerbForm=Fin	10	_	_	start_char=37|end_char=41
+12	giggle	giggle	VERB	VB	VerbForm=Inf	11	_	_	start_char=42|end_char=48
+13	at	at	ADP	IN	_	12	_	_	start_char=49|end_char=51
+14	everything	everything	PRON	NN	Number=Sing|PronType=Tot	13	_	_	start_char=52|end_char=62
+15	remotely	remotely	ADV	RB	_	14	_	_	start_char=63|end_char=71
+16	funny	funny	ADJ	JJ	Degree=Pos	15	_	_	start_char=72|end_char=77
+17	that	that	PRON	WDT	PronType=Rel	16	_	_	start_char=78|end_char=82
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	_	_	start_char=83|end_char=86
+19	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	_	_	start_char=87|end_char=90|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=90|end_char=91
+
+# text = If this hasn't happened to you, it's over.
+# sent_id = 29422
+1	If	if	SCONJ	IN	_	0	_	_	start_char=92|end_char=94
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=95|end_char=99
+3-4	hasn't	_	_	_	_	_	_	_	start_char=100|end_char=106
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=100|end_char=103
+4	n't	not	PART	RB	_	3	_	_	start_char=103|end_char=106
+5	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=107|end_char=115
+6	to	to	ADP	IN	_	5	_	_	start_char=116|end_char=118
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=119|end_char=122|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=122|end_char=123
+9-10	it's	_	_	_	_	_	_	_	start_char=124|end_char=128
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=124|end_char=126
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=126|end_char=128
+11	over	over	ADV	RB	_	10	_	_	start_char=129|end_char=133|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=133|end_char=134|SpaceAfter=No
+

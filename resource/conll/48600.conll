@@ -1,0 +1,62 @@
+# text = I love my white privilege.
+# sent_id = 103905
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=7|end_char=9
+4	white	white	ADJ	JJ	Degree=Pos	3	_	_	start_char=10|end_char=15
+5	privilege	privilege	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=25|end_char=26
+
+# text = The black female employees always upgrade me to nice seats or a nicer rental car.
+# sent_id = 103906
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=27|end_char=30
+2	black	black	ADJ	JJ	Degree=Pos	1	_	_	start_char=31|end_char=36
+3	female	female	ADJ	JJ	Degree=Pos	2	_	_	start_char=37|end_char=43
+4	employees	employee	NOUN	NNS	Number=Plur	3	_	_	start_char=44|end_char=53
+5	always	always	ADV	RB	_	4	_	_	start_char=54|end_char=60
+6	upgrade	upgrade	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=61|end_char=68
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=69|end_char=71
+8	to	to	ADP	IN	_	7	_	_	start_char=72|end_char=74
+9	nice	nice	ADJ	JJ	Degree=Pos	8	_	_	start_char=75|end_char=79
+10	seats	seat	NOUN	NNS	Number=Plur	9	_	_	start_char=80|end_char=85
+11	or	or	CCONJ	CC	_	10	_	_	start_char=86|end_char=88
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=89|end_char=90
+13	nicer	nice	ADJ	JJR	Degree=Cmp	12	_	_	start_char=91|end_char=96
+14	rental	rental	NOUN	NN	Number=Sing	13	_	_	start_char=97|end_char=103
+15	car	car	NOUN	NN	Number=Sing	14	_	_	start_char=104|end_char=107|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=107|end_char=108
+
+# text = They’re not at all appealing, but they know a Chad when they see one and act accordingly.
+# sent_id = 103907
+1-2	They’re	_	_	_	_	_	_	_	start_char=109|end_char=116
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=109|end_char=113
+2	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=113|end_char=116
+3	not	not	PART	RB	_	2	_	_	start_char=117|end_char=120
+4	at	at	ADP	IN	_	3	_	_	start_char=121|end_char=123
+5	all	all	DET	DT	_	4	_	_	start_char=124|end_char=127
+6	appealing	appealing	ADJ	JJ	Degree=Pos	5	_	_	start_char=128|end_char=137|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=137|end_char=138
+8	but	but	CCONJ	CC	_	7	_	_	start_char=139|end_char=142
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=143|end_char=147
+10	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=148|end_char=152
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=153|end_char=154
+12	Chad	Chad	PROPN	NNP	Number=Sing	11	_	_	start_char=155|end_char=159
+13	when	when	ADV	WRB	PronType=Int	12	_	_	start_char=160|end_char=164
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=165|end_char=169
+15	see	see	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=170|end_char=173
+16	one	one	NUM	CD	NumForm=Word|NumType=Card	15	_	_	start_char=174|end_char=177
+17	and	and	CCONJ	CC	_	16	_	_	start_char=178|end_char=181
+18	act	act	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=182|end_char=185
+19	accordingly	accordingly	ADV	RB	_	18	_	_	start_char=186|end_char=197|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=197|end_char=198
+
+# text = They still have to go back.
+# sent_id = 103908
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=199|end_char=203
+2	still	still	ADV	RB	_	1	_	_	start_char=204|end_char=209
+3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=210|end_char=214
+4	to	to	PART	TO	_	3	_	_	start_char=215|end_char=217
+5	go	go	VERB	VB	VerbForm=Inf	4	_	_	start_char=218|end_char=220
+6	back	back	ADV	RB	_	5	_	_	start_char=221|end_char=225|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=225|end_char=226|SpaceAfter=No
+

@@ -1,0 +1,32 @@
+# text = [USER]
+# sent_id = 110724
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = I am in love with her coat, such a beautiful colour - fun & modern cut, whilst staying classically elegant ♥️
+# sent_id = 110725
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=11
+3	in	in	ADP	IN	_	2	_	_	start_char=12|end_char=14
+4	love	love	NOUN	NN	Number=Sing	3	_	_	start_char=15|end_char=19
+5	with	with	ADP	IN	_	4	_	_	start_char=20|end_char=24
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=25|end_char=28
+7	coat	coat	NOUN	NN	Number=Sing	6	_	_	start_char=29|end_char=33|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=33|end_char=34
+9	such	such	DET	PDT	_	8	_	_	start_char=35|end_char=39
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=40|end_char=41
+11	beautiful	beautiful	ADJ	JJ	Degree=Pos	10	_	_	start_char=42|end_char=51
+12	colour	colour	NOUN	NN	Number=Sing	11	_	_	start_char=52|end_char=58
+13	-	-	PUNCT	HYPH	_	12	_	_	start_char=59|end_char=60
+14	fun	fun	NOUN	NN	Number=Sing	13	_	_	start_char=61|end_char=64
+15	&	&	CCONJ	CC	_	14	_	_	start_char=65|end_char=66
+16	modern	modern	ADJ	JJ	Degree=Pos	15	_	_	start_char=67|end_char=73
+17	cut	cut	NOUN	NN	Number=Sing	16	_	_	start_char=74|end_char=77|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=77|end_char=78
+19	whilst	whilst	SCONJ	IN	_	18	_	_	start_char=79|end_char=85
+20	staying	stay	VERB	VBG	VerbForm=Ger	19	_	_	start_char=86|end_char=93
+21	classically	classically	ADV	RB	_	20	_	_	start_char=94|end_char=105
+22	elegant	elegant	ADJ	JJ	Degree=Pos	21	_	_	start_char=106|end_char=113
+23	♥️	♥️	PUNCT	.	_	22	_	_	start_char=114|end_char=116|SpaceAfter=No
+

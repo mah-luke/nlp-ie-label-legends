@@ -1,0 +1,47 @@
+# text = For some women you _will_ be ugly.
+# sent_id = 11571
+1	For	for	ADP	IN	_	0	_	_	start_char=0|end_char=3
+2	some	some	DET	DT	_	1	_	_	start_char=4|end_char=8
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=9|end_char=14
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=15|end_char=18
+5	_will_	_will_	AUX	MD	VerbForm=Fin	4	_	_	start_char=19|end_char=25
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=26|end_char=28
+7	ugly	ugly	ADJ	JJ	Degree=Pos	6	_	_	start_char=29|end_char=33|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=33|end_char=34
+
+# text = Just avoid women who are addicted to social media, and you won't be labeled a creep.
+# sent_id = 11572
+1	Just	just	ADV	RB	_	0	_	_	start_char=35|end_char=39
+2	avoid	avoid	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=40|end_char=45
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=46|end_char=51
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=52|end_char=55
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=56|end_char=59
+6	addicted	addicted	ADJ	JJ	Degree=Pos	5	_	_	start_char=60|end_char=68
+7	to	to	ADP	IN	_	6	_	_	start_char=69|end_char=71
+8	social	social	ADJ	JJ	Degree=Pos	7	_	_	start_char=72|end_char=78
+9	media	media	NOUN	NN	Number=Sing	8	_	_	start_char=79|end_char=84|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=84|end_char=85
+11	and	and	CCONJ	CC	_	10	_	_	start_char=86|end_char=89
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=90|end_char=93
+13-14	won't	_	_	_	_	_	_	_	start_char=94|end_char=99
+13	wo	will	AUX	MD	VerbForm=Fin	12	_	_	start_char=94|end_char=96
+14	n't	not	PART	RB	_	13	_	_	start_char=96|end_char=99
+15	be	be	AUX	VB	VerbForm=Inf	14	_	_	start_char=100|end_char=102
+16	labeled	label	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	_	_	start_char=103|end_char=110
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=111|end_char=112
+18	creep	creep	NOUN	NN	Number=Sing	17	_	_	start_char=113|end_char=118|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=118|end_char=119
+
+# text = (don't harass them etc, too)
+# sent_id = 11573
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=120|end_char=121|SpaceAfter=No
+2-3	don't	_	_	_	_	_	_	_	start_char=121|end_char=126
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=121|end_char=123
+3	n't	not	PART	RB	_	2	_	_	start_char=123|end_char=126
+4	harass	harass	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=127|end_char=133
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=134|end_char=138
+6	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	5	_	_	start_char=139|end_char=142|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=142|end_char=143
+8	too	too	ADV	RB	_	7	_	_	start_char=144|end_char=147|SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	8	_	_	start_char=147|end_char=148|SpaceAfter=No
+

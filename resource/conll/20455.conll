@@ -1,0 +1,54 @@
+# text = ~~Most~~
+# sent_id = 43881
+1	~~	~~	PUNCT	NFP	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	Most	most	ADJ	JJS	Degree=Sup	1	_	_	start_char=2|end_char=6|SpaceAfter=No
+3	~	~	SYM	SYM	_	2	_	_	start_char=6|end_char=7|SpaceAfter=No
+4	~	~	SYM	NFP	_	3	_	_	start_char=7|end_char=8
+
+# text = All of their communities talk about violence against women.
+# sent_id = 43882
+1	All	all	DET	DT	_	0	_	_	start_char=9|end_char=12
+2	of	of	ADP	IN	_	1	_	_	start_char=13|end_char=15
+3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=16|end_char=21
+4	communities	community	NOUN	NNS	Number=Plur	3	_	_	start_char=22|end_char=33
+5	talk	talk	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=34|end_char=38
+6	about	about	ADP	IN	_	5	_	_	start_char=39|end_char=44
+7	violence	violence	NOUN	NN	Number=Sing	6	_	_	start_char=45|end_char=53
+8	against	against	ADP	IN	_	7	_	_	start_char=54|end_char=61
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=62|end_char=67|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=67|end_char=68
+
+# text = Every incel community I've ever observed has at least some degree of proposed violence against women, or at the very least, celebration of violence against women.
+# sent_id = 43883
+1	Every	every	DET	DT	_	0	_	_	start_char=69|end_char=74
+2	incel	incel	ADJ	JJ	Degree=Pos	1	_	_	start_char=75|end_char=80
+3	community	community	NOUN	NN	Number=Sing	2	_	_	start_char=81|end_char=90
+4-5	I've	_	_	_	_	_	_	_	start_char=91|end_char=95
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=91|end_char=92
+5	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=92|end_char=95
+6	ever	ever	ADV	RB	_	5	_	_	start_char=96|end_char=100
+7	observed	observe	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=101|end_char=109
+8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=110|end_char=113
+9	at	at	ADP	IN	_	8	_	_	start_char=114|end_char=116
+10	least	least	ADJ	JJS	Degree=Sup	9	_	_	start_char=117|end_char=122
+11	some	some	DET	DT	_	10	_	_	start_char=123|end_char=127
+12	degree	degree	NOUN	NN	Number=Sing	11	_	_	start_char=128|end_char=134
+13	of	of	ADP	IN	_	12	_	_	start_char=135|end_char=137
+14	proposed	propose	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=138|end_char=146
+15	violence	violence	NOUN	NN	Number=Sing	14	_	_	start_char=147|end_char=155
+16	against	against	ADP	IN	_	15	_	_	start_char=156|end_char=163
+17	women	woman	NOUN	NNS	Number=Plur	16	_	_	start_char=164|end_char=169|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=169|end_char=170
+19	or	or	CCONJ	CC	_	18	_	_	start_char=171|end_char=173
+20	at	at	ADP	IN	_	19	_	_	start_char=174|end_char=176
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=177|end_char=180
+22	very	very	ADJ	JJ	Degree=Pos	21	_	_	start_char=181|end_char=185
+23	least	least	ADJ	JJS	Degree=Sup	22	_	_	start_char=186|end_char=191|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	_	_	start_char=191|end_char=192
+25	celebration	celebration	NOUN	NN	Number=Sing	24	_	_	start_char=193|end_char=204
+26	of	of	ADP	IN	_	25	_	_	start_char=205|end_char=207
+27	violence	violence	NOUN	NN	Number=Sing	26	_	_	start_char=208|end_char=216
+28	against	against	ADP	IN	_	27	_	_	start_char=217|end_char=224
+29	women	woman	NOUN	NNS	Number=Plur	28	_	_	start_char=225|end_char=230|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	start_char=230|end_char=231|SpaceAfter=No
+

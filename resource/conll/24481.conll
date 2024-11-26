@@ -1,0 +1,74 @@
+# text = This is possible.
+# sent_id = 52502
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	possible	possible	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=16|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=16|end_char=17
+
+# text = But I'm not so sure.
+# sent_id = 52503
+1	But	but	CCONJ	CC	_	0	_	_	start_char=18|end_char=21
+2-3	I'm	_	_	_	_	_	_	_	start_char=22|end_char=25
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=22|end_char=23
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=23|end_char=25
+4	not	not	PART	RB	_	3	_	_	start_char=26|end_char=29
+5	so	so	ADV	RB	_	4	_	_	start_char=30|end_char=32
+6	sure	sure	ADJ	JJ	Degree=Pos	5	_	_	start_char=33|end_char=37|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=37|end_char=38
+
+# text = I got her number and she messaged me first a few hrs later.
+# sent_id = 52504
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=39|end_char=40
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=41|end_char=44
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=45|end_char=48
+4	number	number	NOUN	NN	Number=Sing	3	_	_	start_char=49|end_char=55
+5	and	and	CCONJ	CC	_	4	_	_	start_char=56|end_char=59
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=60|end_char=63
+7	messaged	message	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=64|end_char=72
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=73|end_char=75
+9	first	first	ADV	RB	NumType=Ord	8	_	_	start_char=76|end_char=81
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=82|end_char=83
+11	few	few	ADJ	JJ	Degree=Pos	10	_	_	start_char=84|end_char=87
+12	hrs	hour	NOUN	NNS	Number=Plur	11	_	_	start_char=88|end_char=91
+13	later	late	ADV	RBR	Degree=Cmp	12	_	_	start_char=92|end_char=97|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=97|end_char=98
+
+# text = She waa definitely super in to me.
+# sent_id = 52505
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=99|end_char=102
+2	waa	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=103|end_char=106
+3	definitely	definitely	ADV	RB	_	2	_	_	start_char=107|end_char=117
+4	super	super	ADV	RB	_	3	_	_	start_char=118|end_char=123
+5	in	in	ADV	RB	_	4	_	_	start_char=124|end_char=126
+6	to	to	ADP	IN	_	5	_	_	start_char=127|end_char=129
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=130|end_char=132|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=132|end_char=133
+
+# text = But she's also got like 10k followers on IG so I always assumed someone was in her DMs and all that.
+# sent_id = 52506
+1	But	but	CCONJ	CC	_	0	_	_	start_char=134|end_char=137
+2-3	she's	_	_	_	_	_	_	_	start_char=138|end_char=143
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=138|end_char=141
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=141|end_char=143
+4	also	also	ADV	RB	_	3	_	_	start_char=144|end_char=148
+5	got	get	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=149|end_char=152
+6	like	like	INTJ	UH	_	5	_	_	start_char=153|end_char=157
+7	10	10	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=158|end_char=160|SpaceAfter=No
+8	k	thousand	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	7	_	_	start_char=160|end_char=161
+9	followers	follower	NOUN	NNS	Number=Plur	8	_	_	start_char=162|end_char=171
+10	on	on	ADP	IN	_	9	_	_	start_char=172|end_char=174
+11	IG	IG	PROPN	NNP	Number=Sing	10	_	_	start_char=175|end_char=177
+12	so	so	ADV	RB	_	11	_	_	start_char=178|end_char=180
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=181|end_char=182
+14	always	always	ADV	RB	_	13	_	_	start_char=183|end_char=189
+15	assumed	assume	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	14	_	_	start_char=190|end_char=197
+16	someone	someone	PRON	NN	Number=Sing|PronType=Ind	15	_	_	start_char=198|end_char=205
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=206|end_char=209
+18	in	in	ADP	IN	_	17	_	_	start_char=210|end_char=212
+19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=213|end_char=216
+20	DMs	dms	NOUN	NNS	Number=Plur	19	_	_	start_char=217|end_char=220
+21	and	and	CCONJ	CC	_	20	_	_	start_char=221|end_char=224
+22	all	all	DET	PDT	_	21	_	_	start_char=225|end_char=228
+23	that	that	PRON	DT	Number=Sing|PronType=Dem	22	_	_	start_char=229|end_char=233|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=233|end_char=234|SpaceAfter=No
+

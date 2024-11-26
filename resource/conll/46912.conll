@@ -1,0 +1,32 @@
+# text = [USER]
+# sent_id = 100258
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Don't be embarrassed.
+# sent_id = 100259
+1-2	Don't	_	_	_	_	_	_	_	start_char=7|end_char=12
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=7|end_char=9
+2	n't	not	PART	RB	_	1	_	_	start_char=9|end_char=12
+3	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=13|end_char=15
+4	embarrassed	embarrass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=16|end_char=27|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=27|end_char=28
+
+# text = They aren't women.
+# sent_id = 100260
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=29|end_char=33
+2-3	aren't	_	_	_	_	_	_	_	start_char=34|end_char=40
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=34|end_char=37
+3	n't	not	PART	RB	_	2	_	_	start_char=37|end_char=40
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=41|end_char=46|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=46|end_char=47
+
+# text = They're freaks.
+# sent_id = 100261
+1-2	They're	_	_	_	_	_	_	_	start_char=48|end_char=55
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=48|end_char=52
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=52|end_char=55
+3	freaks	freak	NOUN	NNS	Number=Plur	2	_	_	start_char=56|end_char=62|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=62|end_char=63|SpaceAfter=No
+

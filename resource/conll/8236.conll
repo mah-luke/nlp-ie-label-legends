@@ -1,0 +1,31 @@
+# text = It's the one I use to train your wife.
+# sent_id = 17267
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=5|end_char=8
+4	one	one	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=12
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=13|end_char=14
+6	use	use	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=15|end_char=18
+7	to	to	PART	TO	_	6	_	_	start_char=19|end_char=21
+8	train	train	VERB	VB	VerbForm=Inf	7	_	_	start_char=22|end_char=27
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=28|end_char=32
+10	wife	wife	NOUN	NN	Number=Sing	9	_	_	start_char=33|end_char=37|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=37|end_char=38
+
+# text = She especially likes the reward she gets for doing a good job.
+# sent_id = 17268
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=39|end_char=42
+2	especially	especially	ADV	RB	_	1	_	_	start_char=43|end_char=53
+3	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=54|end_char=59
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=60|end_char=63
+5	reward	reward	NOUN	NN	Number=Sing	4	_	_	start_char=64|end_char=70
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=71|end_char=74
+7	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=75|end_char=79
+8	for	for	SCONJ	IN	_	7	_	_	start_char=80|end_char=83
+9	doing	do	VERB	VBG	VerbForm=Ger	8	_	_	start_char=84|end_char=89
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=90|end_char=91
+11	good	good	ADJ	JJ	Degree=Pos	10	_	_	start_char=92|end_char=96
+12	job	job	NOUN	NN	Number=Sing	11	_	_	start_char=97|end_char=100|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=100|end_char=101|SpaceAfter=No
+

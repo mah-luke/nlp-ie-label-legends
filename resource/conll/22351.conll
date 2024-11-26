@@ -1,0 +1,37 @@
+# text = You'd both get more girls if you knocked this shit off.
+# sent_id = 48005
+1-2	You'd	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	both	both	ADV	RB	_	2	_	_	start_char=6|end_char=10
+4	get	get	VERB	VB	VerbForm=Inf	3	_	_	start_char=11|end_char=14
+5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=15|end_char=19
+6	girls	girl	NOUN	NNS	Number=Plur	5	_	_	start_char=20|end_char=25
+7	if	if	SCONJ	IN	_	6	_	_	start_char=26|end_char=28
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=29|end_char=32
+9	knocked	knock	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	8	_	_	start_char=33|end_char=40
+10	this	this	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=41|end_char=45
+11	shit	shit	NOUN	NN	Number=Sing	10	_	_	start_char=46|end_char=50
+12	off	off	ADP	RP	_	11	_	_	start_char=51|end_char=54|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=54|end_char=55
+
+# text = If he puts you down he's not your best friend, end of story.
+# sent_id = 48006
+1	If	if	SCONJ	IN	_	0	_	_	start_char=56|end_char=58
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=59|end_char=61
+3	puts	put	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=62|end_char=66
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=67|end_char=70
+5	down	down	ADP	RP	_	4	_	_	start_char=71|end_char=75
+6-7	he's	_	_	_	_	_	_	_	start_char=76|end_char=80
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=76|end_char=78
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=78|end_char=80
+8	not	not	PART	RB	_	7	_	_	start_char=81|end_char=84
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=85|end_char=89
+10	best	good	ADJ	JJS	Degree=Sup	9	_	_	start_char=90|end_char=94
+11	friend	friend	NOUN	NN	Number=Sing	10	_	_	start_char=95|end_char=101|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=101|end_char=102
+13	end	end	NOUN	NN	Number=Sing	12	_	_	start_char=103|end_char=106
+14	of	of	ADP	IN	_	13	_	_	start_char=107|end_char=109
+15	story	story	NOUN	NN	Number=Sing	14	_	_	start_char=110|end_char=115|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=115|end_char=116|SpaceAfter=No
+

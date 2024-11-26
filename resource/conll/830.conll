@@ -1,0 +1,27 @@
+# text = Finally my senator does something respectable.
+# sent_id = 1741
+1	Finally	finally	ADV	RB	_	0	_	_	start_char=0|end_char=7
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=8|end_char=10
+3	senator	senator	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=18
+4	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=19|end_char=23
+5	something	something	PRON	NN	Number=Sing|PronType=Ind	4	_	_	start_char=24|end_char=33
+6	respectable	respectable	ADJ	JJ	Degree=Pos	5	_	_	start_char=34|end_char=45|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=45|end_char=46
+
+# text = This was going to cost the republican seat in senate if she Flaked.
+# sent_id = 1742
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=47|end_char=51
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=52|end_char=55
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=56|end_char=61
+4	to	to	PART	TO	_	3	_	_	start_char=62|end_char=64
+5	cost	cost	VERB	VB	VerbForm=Inf	4	_	_	start_char=65|end_char=69
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=70|end_char=73
+7	republican	Republican	ADJ	JJ	Degree=Pos	6	_	_	start_char=74|end_char=84
+8	seat	seat	NOUN	NN	Number=Sing	7	_	_	start_char=85|end_char=89
+9	in	in	ADP	IN	_	8	_	_	start_char=90|end_char=92
+10	senate	senate	NOUN	NN	Number=Sing	9	_	_	start_char=93|end_char=99
+11	if	if	SCONJ	IN	_	10	_	_	start_char=100|end_char=102
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=103|end_char=106
+13	Flaked	flake	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=107|end_char=113|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=113|end_char=114|SpaceAfter=No
+

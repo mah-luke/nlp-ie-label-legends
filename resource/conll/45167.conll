@@ -1,0 +1,52 @@
+# text = NAME who you are talking about.
+# sent_id = 96383
+1	NAME	name	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
+2	who	who	PRON	WP	PronType=Rel	1	_	_	start_char=5|end_char=8
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=16
+5	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=17|end_char=24
+6	about	about	ADP	IN	_	5	_	_	start_char=25|end_char=30|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=30|end_char=31
+
+# text = You mean POLLACK?? with #fake Meadow??
+# sent_id = 96384
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=32|end_char=35
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=40
+3	POLLACK	Pollack	PROPN	NNP	Number=Sing	2	_	_	start_char=41|end_char=48|SpaceAfter=No
+4	??	??	PUNCT	.	_	3	_	_	start_char=48|end_char=50
+5	with	with	ADP	IN	_	4	_	_	start_char=51|end_char=55
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=56|end_char=57|SpaceAfter=No
+7	fake	fake	ADJ	JJ	Degree=Pos	6	_	_	start_char=57|end_char=61
+8	Meadow	Meadow	PROPN	NNP	Number=Sing	7	_	_	start_char=62|end_char=68|SpaceAfter=No
+9	??	??	PUNCT	.	_	8	_	_	start_char=68|end_char=70
+
+# text = THAT piece of shit never had a daughter.
+# sent_id = 96385
+1	THAT	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=71|end_char=75
+2	piece	piece	NOUN	NN	Number=Sing	1	_	_	start_char=76|end_char=81
+3	of	of	ADP	IN	_	2	_	_	start_char=82|end_char=84
+4	shit	shit	NOUN	NN	Number=Sing	3	_	_	start_char=85|end_char=89
+5	never	never	ADV	RB	_	4	_	_	start_char=90|end_char=95
+6	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=96|end_char=99
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=100|end_char=101
+8	daughter	daughter	NOUN	NN	Number=Sing	7	_	_	start_char=102|end_char=110|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=110|end_char=111
+
+# text = He is a NYC criminal scumbag in a suit .. just another #Crisisactor.
+# sent_id = 96386
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=112|end_char=114
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=115|end_char=117
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=118|end_char=119
+4	NYC	NYC	PROPN	NNP	Number=Sing	3	_	_	start_char=120|end_char=123
+5	criminal	criminal	ADJ	JJ	Degree=Pos	4	_	_	start_char=124|end_char=132
+6	scumbag	scumbag	NOUN	NN	Number=Sing	5	_	_	start_char=133|end_char=140
+7	in	in	ADP	IN	_	6	_	_	start_char=141|end_char=143
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=144|end_char=145
+9	suit	suit	NOUN	NN	Number=Sing	8	_	_	start_char=146|end_char=150
+10	..	..	PUNCT	,	_	9	_	_	start_char=151|end_char=153
+11	just	just	ADV	RB	_	10	_	_	start_char=154|end_char=158
+12	another	another	DET	DT	_	11	_	_	start_char=159|end_char=166
+13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=167|end_char=168|SpaceAfter=No
+14	Crisisactor	Crisisactor	PROPN	NNP	Number=Sing	13	_	_	start_char=168|end_char=179|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=179|end_char=180|SpaceAfter=No
+

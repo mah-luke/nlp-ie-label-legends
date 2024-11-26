@@ -1,0 +1,46 @@
+# text = Chinese geese are just noisy in general.
+# sent_id = 20823
+1	Chinese	Chinese	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=7
+2	geese	geese	NOUN	NNS	Number=Plur	1	_	_	start_char=8|end_char=13
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=14|end_char=17
+4	just	just	ADV	RB	_	3	_	_	start_char=18|end_char=22
+5	noisy	noisy	ADJ	JJ	Degree=Pos	4	_	_	start_char=23|end_char=28
+6	in	in	ADP	IN	_	5	_	_	start_char=29|end_char=31
+7	general	general	ADJ	JJ	Degree=Pos	6	_	_	start_char=32|end_char=39|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=39|end_char=40
+
+# text = I've got a white female and she talks a lot.
+# sent_id = 20824
+1-2	I've	_	_	_	_	_	_	_	start_char=41|end_char=45
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=41|end_char=42
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=45
+3	got	get	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=46|end_char=49
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=50|end_char=51
+5	white	white	ADJ	JJ	Degree=Pos	4	_	_	start_char=52|end_char=57
+6	female	female	NOUN	NN	Number=Sing	5	_	_	start_char=58|end_char=64
+7	and	and	CCONJ	CC	_	6	_	_	start_char=65|end_char=68
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=69|end_char=72
+9	talks	talk	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=73|end_char=78
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=79|end_char=80
+11	lot	lot	NOUN	NN	Number=Sing	10	_	_	start_char=81|end_char=84|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=84|end_char=85
+
+# text = Especially compared to the gray Toulouse female and Roman Tuft gander who are pretty quiet.
+# sent_id = 20825
+1	Especially	especially	ADV	RB	_	0	_	_	start_char=86|end_char=96
+2	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=97|end_char=105
+3	to	to	ADP	IN	_	2	_	_	start_char=106|end_char=108
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=109|end_char=112
+5	gray	gray	ADJ	JJ	Degree=Pos	4	_	_	start_char=113|end_char=117
+6	Toulouse	Toulouse	PROPN	NNP	Number=Sing	5	_	_	start_char=118|end_char=126
+7	female	female	NOUN	NN	Number=Sing	6	_	_	start_char=127|end_char=133
+8	and	and	CCONJ	CC	_	7	_	_	start_char=134|end_char=137
+9	Roman	Roman	ADJ	JJ	Degree=Pos	8	_	_	start_char=138|end_char=143
+10	Tuft	Tuft	PROPN	NNP	Number=Sing	9	_	_	start_char=144|end_char=148
+11	gander	gander	NOUN	NN	Number=Sing	10	_	_	start_char=149|end_char=155
+12	who	who	PRON	WP	PronType=Rel	11	_	_	start_char=156|end_char=159
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=160|end_char=163
+14	pretty	pretty	ADV	RB	_	13	_	_	start_char=164|end_char=170
+15	quiet	quiet	ADJ	JJ	Degree=Pos	14	_	_	start_char=171|end_char=176|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=176|end_char=177|SpaceAfter=No
+

@@ -1,0 +1,33 @@
+# text = How is it not the entire story?
+# sent_id = 51232
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=7|end_char=9
+4	not	not	PART	RB	_	3	_	_	start_char=10|end_char=13
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=14|end_char=17
+6	entire	entire	ADJ	JJ	Degree=Pos	5	_	_	start_char=18|end_char=24
+7	story	story	NOUN	NN	Number=Sing	6	_	_	start_char=25|end_char=30|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=30|end_char=31
+
+# text = If AMALT is true then men don’t really love and all straight women are officially fucked.
+# sent_id = 51233
+1	If	if	SCONJ	IN	_	0	_	_	start_char=32|end_char=34
+2	AMALT	AMALT	PROPN	NNP	Number=Sing	1	_	_	start_char=35|end_char=40
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=41|end_char=43
+4	true	true	ADJ	JJ	Degree=Pos	3	_	_	start_char=44|end_char=48
+5	then	then	ADV	RB	PronType=Dem	4	_	_	start_char=49|end_char=53
+6	men	man	NOUN	NNS	Number=Plur	5	_	_	start_char=54|end_char=57
+7-8	don’t	_	_	_	_	_	_	_	start_char=58|end_char=63
+7	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=58|end_char=60
+8	n’t	not	PART	RB	_	7	_	_	start_char=60|end_char=63
+9	really	really	ADV	RB	_	8	_	_	start_char=64|end_char=70
+10	love	love	VERB	VB	VerbForm=Inf	9	_	_	start_char=71|end_char=75
+11	and	and	CCONJ	CC	_	10	_	_	start_char=76|end_char=79
+12	all	all	DET	DT	_	11	_	_	start_char=80|end_char=83
+13	straight	straight	ADJ	JJ	Degree=Pos	12	_	_	start_char=84|end_char=92
+14	women	woman	NOUN	NNS	Number=Plur	13	_	_	start_char=93|end_char=98
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=99|end_char=102
+16	officially	officially	ADV	RB	_	15	_	_	start_char=103|end_char=113
+17	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=114|end_char=120|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=120|end_char=121|SpaceAfter=No
+

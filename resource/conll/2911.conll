@@ -1,0 +1,25 @@
+# text = Any girl playing games is a keeper.
+# sent_id = 6191
+1	Any	any	DET	DT	_	0	_	_	start_char=0|end_char=3
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=8
+3	playing	play	VERB	VBG	VerbForm=Ger	2	_	_	start_char=9|end_char=16
+4	games	game	NOUN	NNS	Number=Plur	3	_	_	start_char=17|end_char=22
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=23|end_char=25
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=26|end_char=27
+7	keeper	keeper	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=34|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=34|end_char=35
+
+# text = Especially if it's a Play Station 3 game.
+# sent_id = 6192
+1	Especially	especially	ADV	RB	_	0	_	_	start_char=36|end_char=46
+2	if	if	SCONJ	IN	_	1	_	_	start_char=47|end_char=49
+3-4	it's	_	_	_	_	_	_	_	start_char=50|end_char=54
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=50|end_char=52
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=52|end_char=54
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=55|end_char=56
+6	Play	Play	PROPN	NNP	Number=Sing	5	_	_	start_char=57|end_char=61
+7	Station	station	NOUN	NN	Number=Sing	6	_	_	start_char=62|end_char=69
+8	3	3	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=70|end_char=71
+9	game	game	NOUN	NN	Number=Sing	8	_	_	start_char=72|end_char=76|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=76|end_char=77|SpaceAfter=No
+

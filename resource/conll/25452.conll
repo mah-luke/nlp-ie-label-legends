@@ -1,0 +1,24 @@
+# text = Ivana looks good for her age.
+# sent_id = 54558
+1	Ivana	Ivana	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=11
+3	good	good	ADJ	JJ	Degree=Pos	2	_	_	start_char=12|end_char=16
+4	for	for	ADP	IN	_	3	_	_	start_char=17|end_char=20
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=21|end_char=24
+6	age	age	NOUN	NN	Number=Sing	5	_	_	start_char=25|end_char=28|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = Takes care of herself.
+# sent_id = 54559
+1	Takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=30|end_char=35
+2	care	care	NOUN	NN	Number=Sing	1	_	_	start_char=36|end_char=40
+3	of	of	ADP	IN	_	2	_	_	start_char=41|end_char=43
+4	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	_	_	start_char=44|end_char=51|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=51|end_char=52
+
+# text = [USER]
+# sent_id = 54560
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=53|end_char=54|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=54|end_char=58|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=58|end_char=59|SpaceAfter=No
+

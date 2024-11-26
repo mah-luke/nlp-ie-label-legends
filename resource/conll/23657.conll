@@ -1,0 +1,33 @@
+# text = lmfao i didnt even notice that.
+# sent_id = 50791
+1	lmfao	lmfao	INTJ	UH	_	0	_	_	start_char=0|end_char=5
+2	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=6|end_char=7
+3-4	didnt	_	_	_	_	_	_	_	start_char=8|end_char=13
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=8|end_char=11
+4	nt	not	PART	RB	_	3	_	_	start_char=11|end_char=13
+5	even	even	ADV	RB	_	4	_	_	start_char=14|end_char=18
+6	notice	notice	VERB	VB	VerbForm=Inf	5	_	_	start_char=19|end_char=25
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=26|end_char=30|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=30|end_char=31
+
+# text = I saw she/ and my brain immediately classified that person as retarded and ignored the rest...
+# sent_id = 50792
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=32|end_char=33
+2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=34|end_char=37
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=38|end_char=41|SpaceAfter=No
+4	/	/	SYM	,	_	3	_	_	start_char=41|end_char=42
+5	and	and	CCONJ	CC	_	4	_	_	start_char=43|end_char=46
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=47|end_char=49
+7	brain	brain	NOUN	NN	Number=Sing	6	_	_	start_char=50|end_char=55
+8	immediately	immediately	ADV	RB	_	7	_	_	start_char=56|end_char=67
+9	classified	classify	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=68|end_char=78
+10	that	that	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=79|end_char=83
+11	person	person	NOUN	NN	Number=Sing	10	_	_	start_char=84|end_char=90
+12	as	as	ADP	IN	_	11	_	_	start_char=91|end_char=93
+13	retarded	retarded	ADJ	JJ	Degree=Pos	12	_	_	start_char=94|end_char=102
+14	and	and	CCONJ	CC	_	13	_	_	start_char=103|end_char=106
+15	ignored	ignore	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=107|end_char=114
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=115|end_char=118
+17	rest	rest	NOUN	NN	Number=Sing	16	_	_	start_char=119|end_char=123|SpaceAfter=No
+18	...	...	PUNCT	.	_	17	_	_	start_char=123|end_char=126|SpaceAfter=No
+

@@ -1,0 +1,67 @@
+# text = ""The choking was very hard...I felt I was being beaten by a man."
+# sent_id = 48369
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	"	"	PUNCT	``	_	1	_	_	start_char=1|end_char=2|SpaceAfter=No
+3	The	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=2|end_char=5
+4	choking	choke	NOUN	NN	Number=Sing	3	_	_	start_char=6|end_char=13
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=14|end_char=17
+6	very	very	ADV	RB	_	5	_	_	start_char=18|end_char=22
+7	hard	hard	ADJ	JJ	Degree=Pos	6	_	_	start_char=23|end_char=27|SpaceAfter=No
+8	...	...	PUNCT	,	_	7	_	_	start_char=27|end_char=30|SpaceAfter=No
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=30|end_char=31
+10	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	_	_	start_char=32|end_char=36
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=37|end_char=38
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=39|end_char=42
+13	being	be	AUX	VBG	VerbForm=Ger	12	_	_	start_char=43|end_char=48
+14	beaten	beat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=49|end_char=55
+15	by	by	ADP	IN	_	14	_	_	start_char=56|end_char=58
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=59|end_char=60
+17	man	man	NOUN	NN	Number=Sing	16	_	_	start_char=61|end_char=64|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=64|end_char=65|SpaceAfter=No
+19	"	"	PUNCT	''	_	18	_	_	start_char=65|end_char=66
+
+# text = To her astonishment, #Schneiderman accused her of scratching him.
+# sent_id = 48370
+1	To	to	ADP	IN	_	0	_	_	start_char=67|end_char=69
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=70|end_char=73
+3	astonishment	astonishment	NOUN	NN	Number=Sing	2	_	_	start_char=74|end_char=86|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=86|end_char=87
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=88|end_char=89|SpaceAfter=No
+6	Schneiderman	Schneiderman	PROPN	NNP	Number=Sing	5	_	_	start_char=89|end_char=101
+7	accused	accuse	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=102|end_char=109
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=110|end_char=113
+9	of	of	SCONJ	IN	_	8	_	_	start_char=114|end_char=116
+10	scratching	scratch	VERB	VBG	VerbForm=Ger	9	_	_	start_char=117|end_char=127
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=128|end_char=131|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=131|end_char=132
+
+# text = At one point...he told her, “You know, hitting an officer of the law is a felony."” [URL]
+# sent_id = 48371
+1	At	at	ADP	IN	_	0	_	_	start_char=133|end_char=135
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=136|end_char=139
+3	point	point	NOUN	NN	Number=Sing	2	_	_	start_char=140|end_char=145|SpaceAfter=No
+4	...	...	PUNCT	,	_	3	_	_	start_char=145|end_char=148|SpaceAfter=No
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=148|end_char=150
+6	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=151|end_char=155
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=156|end_char=159|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=159|end_char=160
+9	“	''	PUNCT	``	_	8	_	_	start_char=161|end_char=162|SpaceAfter=No
+10	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	_	_	start_char=162|end_char=165
+11	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=166|end_char=170|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=170|end_char=171
+13	hitting	hit	VERB	VBG	VerbForm=Ger	12	_	_	start_char=172|end_char=179
+14	an	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=180|end_char=182
+15	officer	officer	NOUN	NN	Number=Sing	14	_	_	start_char=183|end_char=190
+16	of	of	ADP	IN	_	15	_	_	start_char=191|end_char=193
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=194|end_char=197
+18	law	law	NOUN	NN	Number=Sing	17	_	_	start_char=198|end_char=201
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=202|end_char=204
+20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	start_char=205|end_char=206
+21	felony	felony	NOUN	NN	Number=Sing	20	_	_	start_char=207|end_char=213|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=213|end_char=214|SpaceAfter=No
+23	"	"	PUNCT	''	_	22	_	_	start_char=214|end_char=215|SpaceAfter=No
+24	”	''	PUNCT	''	_	23	_	_	start_char=215|end_char=216
+25	[	[	PUNCT	-LRB-	_	24	_	_	start_char=217|end_char=218|SpaceAfter=No
+26	URL	URL	PROPN	NNP	Number=Sing	25	_	_	start_char=218|end_char=221|SpaceAfter=No
+27	]	]	PUNCT	-RRB-	_	26	_	_	start_char=221|end_char=222|SpaceAfter=No
+

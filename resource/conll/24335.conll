@@ -1,0 +1,48 @@
+# text = To be honest, both of them deserve each other.
+# sent_id = 52158
+1	To	to	PART	TO	_	0	_	_	start_char=0|end_char=2
+2	be	be	AUX	VB	VerbForm=Inf	1	_	_	start_char=3|end_char=5
+3	honest	honest	ADJ	JJ	Degree=Pos	2	_	_	start_char=6|end_char=12|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=12|end_char=13
+5	both	both	DET	DT	_	4	_	_	start_char=14|end_char=18
+6	of	of	ADP	IN	_	5	_	_	start_char=19|end_char=21
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=22|end_char=26
+8	deserve	deserve	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=27|end_char=34
+9	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	8	_	_	start_char=35|end_char=39
+10	other	other	ADJ	JJ	Degree=Pos	9	_	_	start_char=40|end_char=45|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=45|end_char=46
+
+# text = He's an evil pig and even cheated on her, and she is...
+# sent_id = 52159
+1-2	He's	_	_	_	_	_	_	_	start_char=47|end_char=51
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=47|end_char=49
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=49|end_char=51
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=52|end_char=54
+4	evil	evil	ADJ	JJ	Degree=Pos	3	_	_	start_char=55|end_char=59
+5	pig	pig	NOUN	NN	Number=Sing	4	_	_	start_char=60|end_char=63
+6	and	and	CCONJ	CC	_	5	_	_	start_char=64|end_char=67
+7	even	even	ADV	RB	_	6	_	_	start_char=68|end_char=72
+8	cheated	cheat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=73|end_char=80
+9	on	on	ADP	IN	_	8	_	_	start_char=81|end_char=83
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=84|end_char=87|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=87|end_char=88
+12	and	and	CCONJ	CC	_	11	_	_	start_char=89|end_char=92
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=93|end_char=96
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=97|end_char=99|SpaceAfter=No
+15	...	...	PUNCT	.	_	14	_	_	start_char=99|end_char=102
+
+# text = Well, Hillary, I think that's enough said.
+# sent_id = 52160
+1	Well	well	INTJ	UH	_	0	_	_	start_char=103|end_char=107|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=107|end_char=108
+3	Hillary	Hillary	PROPN	NNP	Number=Sing	2	_	_	start_char=109|end_char=116|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=116|end_char=117
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=118|end_char=119
+6	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=120|end_char=125
+7-8	that's	_	_	_	_	_	_	_	start_char=126|end_char=132
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=126|end_char=130
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=130|end_char=132
+9	enough	enough	ADV	RB	_	8	_	_	start_char=133|end_char=139
+10	said	say	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=140|end_char=144|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=144|end_char=145|SpaceAfter=No
+

@@ -1,0 +1,20 @@
+# text = These women got less than what they deserved.
+# sent_id = 62522
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=0|end_char=5
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=6|end_char=11
+3	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=12|end_char=15
+4	less	less	ADJ	JJR	Degree=Cmp	3	_	_	start_char=16|end_char=20
+5	than	than	ADP	IN	_	4	_	_	start_char=21|end_char=25
+6	what	what	PRON	WP	PronType=Rel	5	_	_	start_char=26|end_char=30
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=31|end_char=35
+8	deserved	deserve	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=36|end_char=44|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=44|end_char=45
+
+# text = They assaulted a man.
+# sent_id = 62523
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=46|end_char=50
+2	assaulted	assault	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=51|end_char=60
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=61|end_char=62
+4	man	man	NOUN	NN	Number=Sing	3	_	_	start_char=63|end_char=66|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=66|end_char=67|SpaceAfter=No
+

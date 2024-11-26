@@ -1,0 +1,23 @@
+# text = IM OKAY WITH THAT!!!!
+# sent_id = 3539
+1	IM	IM	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	OKAY	okay	INTJ	UH	_	1	_	_	start_char=3|end_char=7
+3	WITH	with	ADP	IN	_	2	_	_	start_char=8|end_char=12
+4	THAT	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=13|end_char=17|SpaceAfter=No
+5	!!!!	!!!!	PUNCT	.	_	4	_	_	start_char=17|end_char=21
+
+# text = (my wife probably wouldn't go for it either)
+# sent_id = 3540
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=22|end_char=23|SpaceAfter=No
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=23|end_char=25
+3	wife	wife	NOUN	NN	Number=Sing	2	_	_	start_char=26|end_char=30
+4	probably	probably	ADV	RB	_	3	_	_	start_char=31|end_char=39
+5-6	wouldn't	_	_	_	_	_	_	_	start_char=40|end_char=48
+5	would	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=40|end_char=45
+6	n't	not	PART	RB	_	5	_	_	start_char=45|end_char=48
+7	go	go	VERB	VB	VerbForm=Inf	6	_	_	start_char=49|end_char=51
+8	for	for	ADP	IN	_	7	_	_	start_char=52|end_char=55
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=56|end_char=58
+10	either	either	ADV	RB	_	9	_	_	start_char=59|end_char=65|SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	_	_	start_char=65|end_char=66|SpaceAfter=No
+

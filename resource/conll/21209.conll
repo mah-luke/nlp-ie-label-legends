@@ -1,0 +1,21 @@
+# text = she's a tough broad.
+# sent_id = 45559
+1-2	she's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=6|end_char=7
+4	tough	tough	ADJ	JJ	Degree=Pos	3	_	_	start_char=8|end_char=13
+5	broad	broad	PROPN	NNP	Number=Sing	4	_	_	start_char=14|end_char=19|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = and I mean that with all respect.
+# sent_id = 45560
+1	and	and	CCONJ	CC	_	0	_	_	start_char=21|end_char=24
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=25|end_char=26
+3	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=27|end_char=31
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=32|end_char=36
+5	with	with	ADP	IN	_	4	_	_	start_char=37|end_char=41
+6	all	all	DET	DT	_	5	_	_	start_char=42|end_char=45
+7	respect	respect	NOUN	NN	Number=Sing	6	_	_	start_char=46|end_char=53|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=53|end_char=54|SpaceAfter=No
+

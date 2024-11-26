@@ -1,0 +1,56 @@
+# text = If you were in a set, I see this as a perfect time to isolate/compliance test.
+# sent_id = 24635
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	_	_	start_char=7|end_char=11
+4	in	in	ADP	IN	_	3	_	_	start_char=12|end_char=14
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=15|end_char=16
+6	set	set	NOUN	NN	Number=Sing	5	_	_	start_char=17|end_char=20|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=20|end_char=21
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=22|end_char=23
+9	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=24|end_char=27
+10	this	this	PRON	DT	Number=Sing|PronType=Dem	9	_	_	start_char=28|end_char=32
+11	as	as	ADP	IN	_	10	_	_	start_char=33|end_char=35
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=36|end_char=37
+13	perfect	perfect	ADJ	JJ	Degree=Pos	12	_	_	start_char=38|end_char=45
+14	time	time	NOUN	NN	Number=Sing	13	_	_	start_char=46|end_char=50
+15	to	to	PART	TO	_	14	_	_	start_char=51|end_char=53
+16	isolate	isolate	VERB	VB	VerbForm=Inf	15	_	_	start_char=54|end_char=61|SpaceAfter=No
+17	/	/	SYM	,	_	16	_	_	start_char=61|end_char=62|SpaceAfter=No
+18	compliance	compliance	NOUN	NN	Number=Sing	17	_	_	start_char=62|end_char=72
+19	test	test	NOUN	NN	Number=Sing	18	_	_	start_char=73|end_char=77|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=77|end_char=78
+
+# text = Turn to the guy and say "Cut that shit out" and then say to the girl, "hey, let's move over here."
+# sent_id = 24636
+1	Turn	turn	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=79|end_char=83
+2	to	to	ADP	IN	_	1	_	_	start_char=84|end_char=86
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=87|end_char=90
+4	guy	guy	NOUN	NN	Number=Sing	3	_	_	start_char=91|end_char=94
+5	and	and	CCONJ	CC	_	4	_	_	start_char=95|end_char=98
+6	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=99|end_char=102
+7	"	"	PUNCT	``	_	6	_	_	start_char=103|end_char=104|SpaceAfter=No
+8	Cut	cut	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=104|end_char=107
+9	that	that	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=108|end_char=112
+10	shit	shit	NOUN	NN	Number=Sing	9	_	_	start_char=113|end_char=117
+11	out	out	ADP	RP	_	10	_	_	start_char=118|end_char=121|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=121|end_char=122
+13	and	and	CCONJ	CC	_	12	_	_	start_char=123|end_char=126
+14	then	then	ADV	RB	PronType=Dem	13	_	_	start_char=127|end_char=131
+15	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	14	_	_	start_char=132|end_char=135
+16	to	to	ADP	IN	_	15	_	_	start_char=136|end_char=138
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=139|end_char=142
+18	girl	girl	NOUN	NN	Number=Sing	17	_	_	start_char=143|end_char=147|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=147|end_char=148
+20	"	"	PUNCT	``	_	19	_	_	start_char=149|end_char=150|SpaceAfter=No
+21	hey	hey	INTJ	UH	_	20	_	_	start_char=150|end_char=153|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=153|end_char=154
+23-24	let's	_	_	_	_	_	_	_	start_char=155|end_char=160
+23	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	22	_	_	start_char=155|end_char=158
+24	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	23	_	_	start_char=158|end_char=160
+25	move	move	VERB	VB	VerbForm=Inf	24	_	_	start_char=161|end_char=165
+26	over	over	ADP	RP	_	25	_	_	start_char=166|end_char=170
+27	here	here	ADV	RB	PronType=Dem	26	_	_	start_char=171|end_char=175|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=175|end_char=176|SpaceAfter=No
+29	"	"	PUNCT	''	_	28	_	_	start_char=176|end_char=177|SpaceAfter=No
+

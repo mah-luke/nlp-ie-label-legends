@@ -1,0 +1,47 @@
+# text = Just walk away fellas.
+# sent_id = 53484
+1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	walk	walk	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	away	away	ADV	RB	_	2	_	_	start_char=10|end_char=14
+4	fellas	fellas	NOUN	NNS	Number=Plur	3	_	_	start_char=15|end_char=21|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=21|end_char=22
+
+# text = Any woman who feels this strongly about this, well it's the tip of the iceberg.
+# sent_id = 53485
+1	Any	any	DET	DT	_	0	_	_	start_char=23|end_char=26
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=27|end_char=32
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=33|end_char=36
+4	feels	feel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=37|end_char=42
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=43|end_char=47
+6	strongly	strongly	ADV	RB	_	5	_	_	start_char=48|end_char=56
+7	about	about	ADP	IN	_	6	_	_	start_char=57|end_char=62
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=63|end_char=67|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=67|end_char=68
+10	well	well	INTJ	UH	_	9	_	_	start_char=69|end_char=73
+11-12	it's	_	_	_	_	_	_	_	start_char=74|end_char=78
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=74|end_char=76
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=76|end_char=78
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=79|end_char=82
+14	tip	tip	NOUN	NN	Number=Sing	13	_	_	start_char=83|end_char=86
+15	of	of	ADP	IN	_	14	_	_	start_char=87|end_char=89
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=90|end_char=93
+17	iceberg	iceberg	NOUN	NN	Number=Sing	16	_	_	start_char=94|end_char=101|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=101|end_char=102
+
+# text = The beast will never be satisfied no matter how well fed it is.
+# sent_id = 53486
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=103|end_char=106
+2	beast	beast	NOUN	NN	Number=Sing	1	_	_	start_char=107|end_char=112
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=113|end_char=117
+4	never	never	ADV	RB	_	3	_	_	start_char=118|end_char=123
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=124|end_char=126
+6	satisfied	satisfied	ADJ	JJ	Degree=Pos	5	_	_	start_char=127|end_char=136
+7	no	no	DET	DT	_	6	_	_	start_char=137|end_char=139
+8	matter	matter	NOUN	NN	Number=Sing	7	_	_	start_char=140|end_char=146
+9	how	how	ADV	WRB	PronType=Int	8	_	_	start_char=147|end_char=150
+10	well	well	ADV	RB	Degree=Pos	9	_	_	start_char=151|end_char=155
+11	fed	fed	ADJ	JJ	Degree=Pos	10	_	_	start_char=156|end_char=159
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=160|end_char=162
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=163|end_char=165|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=165|end_char=166|SpaceAfter=No
+

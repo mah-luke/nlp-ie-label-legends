@@ -1,0 +1,23 @@
+# text = [USER]
+# sent_id = 119472
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = She's a joy.
+# sent_id = 119473
+1-2	She's	_	_	_	_	_	_	_	start_char=7|end_char=12
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=10
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=12
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=13|end_char=14
+4	joy	joy	NOUN	NN	Number=Sing	3	_	_	start_char=15|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = I dig her videos.
+# sent_id = 119474
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=20|end_char=21
+2	dig	dig	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=25
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=26|end_char=29
+4	videos	video	NOUN	NNS	Number=Plur	3	_	_	start_char=30|end_char=36|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=36|end_char=37|SpaceAfter=No
+

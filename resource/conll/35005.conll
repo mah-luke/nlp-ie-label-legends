@@ -1,0 +1,54 @@
+# text = I believe they deserve to be punished.
+# sent_id = 74914
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=9
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=14
+4	deserve	deserve	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=22
+5	to	to	PART	TO	_	4	_	_	start_char=23|end_char=25
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=26|end_char=28
+7	punished	punish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=29|end_char=37|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=37|end_char=38
+
+# text = What they did was reprehensible.
+# sent_id = 74915
+1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=39|end_char=43
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=44|end_char=48
+3	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=49|end_char=52
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=53|end_char=56
+5	reprehensible	reprehensible	ADJ	JJ	Degree=Pos	4	_	_	start_char=57|end_char=70|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=70|end_char=71
+
+# text = But black on white racism is just as prevalent and atrocious--yet where are the equal sentences?
+# sent_id = 74916
+1	But	but	CCONJ	CC	_	0	_	_	start_char=72|end_char=75
+2	black	black	ADJ	JJ	Degree=Pos	1	_	_	start_char=76|end_char=81
+3	on	on	ADP	IN	_	2	_	_	start_char=82|end_char=84
+4	white	white	ADJ	JJ	Degree=Pos	3	_	_	start_char=85|end_char=90
+5	racism	racism	NOUN	NN	Number=Sing	4	_	_	start_char=91|end_char=97
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=98|end_char=100
+7	just	just	ADV	RB	_	6	_	_	start_char=101|end_char=105
+8	as	as	ADV	RB	_	7	_	_	start_char=106|end_char=108
+9	prevalent	prevalent	ADJ	JJ	Degree=Pos	8	_	_	start_char=109|end_char=118
+10	and	and	CCONJ	CC	_	9	_	_	start_char=119|end_char=122
+11	atrocious	atrocious	ADJ	JJ	Degree=Pos	10	_	_	start_char=123|end_char=132|SpaceAfter=No
+12	--	--	PUNCT	,	_	11	_	_	start_char=132|end_char=134|SpaceAfter=No
+13	yet	yet	CCONJ	CC	_	12	_	_	start_char=134|end_char=137
+14	where	where	ADV	WRB	PronType=Int	13	_	_	start_char=138|end_char=143
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=144|end_char=147
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=148|end_char=151
+17	equal	equal	ADJ	JJ	Degree=Pos	16	_	_	start_char=152|end_char=157
+18	sentences	sentence	NOUN	NNS	Number=Plur	17	_	_	start_char=158|end_char=167|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=167|end_char=168
+
+# text = #SpeakFreely #MAGA #GabFam [URL]
+# sent_id = 74917
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=169|end_char=170|SpaceAfter=No
+2	SpeakFreely	SpeakFreely	NOUN	GW	Number=Sing	1	_	_	start_char=170|end_char=181
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=182|end_char=183|SpaceAfter=No
+4	MAGA	maga	NOUN	NN	Number=Sing	3	_	_	start_char=183|end_char=187
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=188|end_char=189|SpaceAfter=No
+6	GabFam	gabfam	X	NN	_	5	_	_	start_char=189|end_char=195
+7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=196|end_char=197|SpaceAfter=No
+8	URL	URL	NOUN	NN	Number=Sing	7	_	_	start_char=197|end_char=200|SpaceAfter=No
+9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=200|end_char=201|SpaceAfter=No
+

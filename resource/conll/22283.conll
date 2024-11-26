@@ -1,0 +1,50 @@
+# text = When I was 10 I raised my hand to block a slap from my mom.
+# sent_id = 47866
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=4
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=5|end_char=6
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=7|end_char=10
+4	10	10	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=11|end_char=13
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=14|end_char=15
+6	raised	raise	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=16|end_char=22
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=23|end_char=25
+8	hand	hand	NOUN	NN	Number=Sing	7	_	_	start_char=26|end_char=30
+9	to	to	PART	TO	_	8	_	_	start_char=31|end_char=33
+10	block	block	VERB	VB	VerbForm=Inf	9	_	_	start_char=34|end_char=39
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=40|end_char=41
+12	slap	slap	NOUN	NN	Number=Sing	11	_	_	start_char=42|end_char=46
+13	from	from	ADP	IN	_	12	_	_	start_char=47|end_char=51
+14	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	_	_	start_char=52|end_char=54
+15	mom	mom	NOUN	NN	Number=Sing	14	_	_	start_char=55|end_char=58|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=58|end_char=59
+
+# text = My dad saw it and beat the ever-loving shit out of me because "you don't raise your hand to a woman!"
+# sent_id = 47867
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=60|end_char=62
+2	dad	dad	NOUN	NN	Number=Sing	1	_	_	start_char=63|end_char=66
+3	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=67|end_char=70
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=71|end_char=73
+5	and	and	CCONJ	CC	_	4	_	_	start_char=74|end_char=77
+6	beat	beat	VERB	VB	VerbForm=Inf	5	_	_	start_char=78|end_char=82
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=83|end_char=86
+8	ever	ever	ADV	RB	_	7	_	_	start_char=87|end_char=91|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	_	_	start_char=91|end_char=92|SpaceAfter=No
+10	loving	loving	ADJ	JJ	Degree=Pos	9	_	_	start_char=92|end_char=98
+11	shit	shit	NOUN	NN	Number=Sing	10	_	_	start_char=99|end_char=103
+12	out	out	ADP	IN	_	11	_	_	start_char=104|end_char=107
+13	of	of	ADP	IN	_	12	_	_	start_char=108|end_char=110
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=111|end_char=113
+15	because	because	SCONJ	IN	_	14	_	_	start_char=114|end_char=121
+16	"	"	PUNCT	``	_	15	_	_	start_char=122|end_char=123|SpaceAfter=No
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	_	_	start_char=123|end_char=126
+18-19	don't	_	_	_	_	_	_	_	start_char=127|end_char=132
+18	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	_	_	start_char=127|end_char=129
+19	n't	not	PART	RB	_	18	_	_	start_char=129|end_char=132
+20	raise	raise	VERB	VB	VerbForm=Inf	19	_	_	start_char=133|end_char=138
+21	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	20	_	_	start_char=139|end_char=143
+22	hand	hand	NOUN	NN	Number=Sing	21	_	_	start_char=144|end_char=148
+23	to	to	ADP	IN	_	22	_	_	start_char=149|end_char=151
+24	a	a	DET	DT	Definite=Ind|PronType=Art	23	_	_	start_char=152|end_char=153
+25	woman	woman	NOUN	NN	Number=Sing	24	_	_	start_char=154|end_char=159|SpaceAfter=No
+26	!	!	PUNCT	.	_	25	_	_	start_char=159|end_char=160|SpaceAfter=No
+27	"	"	PUNCT	''	_	26	_	_	start_char=160|end_char=161|SpaceAfter=No
+

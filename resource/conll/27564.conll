@@ -1,0 +1,29 @@
+# text = Don't pick up chicks at bars.
+# sent_id = 59157
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	pick	pick	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=10
+4	up	up	ADP	RP	_	3	_	_	start_char=11|end_char=13
+5	chicks	chick	NOUN	NNS	Number=Plur	4	_	_	start_char=14|end_char=20
+6	at	at	ADP	IN	_	5	_	_	start_char=21|end_char=23
+7	bars	bar	NOUN	NNS	Number=Plur	6	_	_	start_char=24|end_char=28|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=28|end_char=29
+
+# text = Try supermarkets, through friend contacts, and co-workers might know somebody single.
+# sent_id = 59158
+1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=30|end_char=33
+2	supermarkets	supermarket	NOUN	NNS	Number=Plur	1	_	_	start_char=34|end_char=46|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=46|end_char=47
+4	through	through	ADP	IN	_	3	_	_	start_char=48|end_char=55
+5	friend	friend	NOUN	NN	Number=Sing	4	_	_	start_char=56|end_char=62
+6	contacts	contact	NOUN	NNS	Number=Plur	5	_	_	start_char=63|end_char=71|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=71|end_char=72
+8	and	and	CCONJ	CC	_	7	_	_	start_char=73|end_char=76
+9	co-workers	co-worker	NOUN	NNS	Number=Plur	8	_	_	start_char=77|end_char=87
+10	might	might	AUX	MD	VerbForm=Fin	9	_	_	start_char=88|end_char=93
+11	know	know	VERB	VB	VerbForm=Inf	10	_	_	start_char=94|end_char=98
+12	somebody	somebody	PRON	NN	Number=Sing|PronType=Ind	11	_	_	start_char=99|end_char=107
+13	single	single	ADJ	JJ	Degree=Pos	12	_	_	start_char=108|end_char=114|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=114|end_char=115|SpaceAfter=No
+

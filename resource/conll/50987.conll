@@ -1,0 +1,61 @@
+# text = [USER]
+# sent_id = 108965
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = The Navy's investigation was definitive and had the advantage of having access to the damaged vessel and all surviving personnel.
+# sent_id = 108966
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=7|end_char=10
+2-3	Navy's	_	_	_	_	_	_	_	start_char=11|end_char=17
+2	Navy	Navy	PROPN	NNP	Number=Sing	1	_	_	start_char=11|end_char=15
+3	's	's	PART	POS	_	2	_	_	start_char=15|end_char=17
+4	investigation	investigation	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=31
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=32|end_char=35
+6	definitive	definitive	ADJ	JJ	Degree=Pos	5	_	_	start_char=36|end_char=46
+7	and	and	CCONJ	CC	_	6	_	_	start_char=47|end_char=50
+8	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=51|end_char=54
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=55|end_char=58
+10	advantage	advantage	NOUN	NN	Number=Sing	9	_	_	start_char=59|end_char=68
+11	of	of	SCONJ	IN	_	10	_	_	start_char=69|end_char=71
+12	having	have	VERB	VBG	VerbForm=Ger	11	_	_	start_char=72|end_char=78
+13	access	access	NOUN	NN	Number=Sing	12	_	_	start_char=79|end_char=85
+14	to	to	ADP	IN	_	13	_	_	start_char=86|end_char=88
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=89|end_char=92
+16	damaged	damage	VERB	VBN	Tense=Past|VerbForm=Part	15	_	_	start_char=93|end_char=100
+17	vessel	vessel	NOUN	NN	Number=Sing	16	_	_	start_char=101|end_char=107
+18	and	and	CCONJ	CC	_	17	_	_	start_char=108|end_char=111
+19	all	all	DET	DT	_	18	_	_	start_char=112|end_char=115
+20	surviving	survive	VERB	VBG	VerbForm=Ger	19	_	_	start_char=116|end_char=125
+21	personnel	personnel	NOUN	NNS	Number=Plur	20	_	_	start_char=126|end_char=135|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=135|end_char=136
+
+# text = Any recent study is going to have to overcome the fact that it does not.
+# sent_id = 108967
+1	Any	any	DET	DT	_	0	_	_	start_char=137|end_char=140
+2	recent	recent	ADJ	JJ	Degree=Pos	1	_	_	start_char=141|end_char=147
+3	study	study	NOUN	NN	Number=Sing	2	_	_	start_char=148|end_char=153
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=154|end_char=156
+5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=157|end_char=162
+6	to	to	PART	TO	_	5	_	_	start_char=163|end_char=165
+7	have	have	VERB	VB	VerbForm=Inf	6	_	_	start_char=166|end_char=170
+8	to	to	PART	TO	_	7	_	_	start_char=171|end_char=173
+9	overcome	overcome	VERB	VB	VerbForm=Inf	8	_	_	start_char=174|end_char=182
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=183|end_char=186
+11	fact	fact	NOUN	NN	Number=Sing	10	_	_	start_char=187|end_char=191
+12	that	that	SCONJ	IN	_	11	_	_	start_char=192|end_char=196
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=197|end_char=199
+14	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=200|end_char=204
+15	not	not	PART	RB	_	14	_	_	start_char=205|end_char=208|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=208|end_char=209
+
+# text = Innuendo doesn't cut it.
+# sent_id = 108968
+1	Innuendo	innuendo	NOUN	NN	Number=Sing	0	_	_	start_char=210|end_char=218
+2-3	doesn't	_	_	_	_	_	_	_	start_char=219|end_char=226
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=219|end_char=223
+3	n't	not	PART	RB	_	2	_	_	start_char=223|end_char=226
+4	cut	cut	VERB	VB	VerbForm=Inf	3	_	_	start_char=227|end_char=230
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=231|end_char=233|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=233|end_char=234|SpaceAfter=No
+

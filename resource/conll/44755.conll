@@ -1,0 +1,61 @@
+# text = Women (when they're referred to as women): I'm not a female <profession>, I'm a <profession>
+# sent_id = 95505
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=5
+2	(	(	PUNCT	-LRB-	_	1	_	_	start_char=6|end_char=7|SpaceAfter=No
+3	when	when	ADV	WRB	PronType=Int	2	_	_	start_char=7|end_char=11
+4-5	they're	_	_	_	_	_	_	_	start_char=12|end_char=19
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=12|end_char=16
+5	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=16|end_char=19
+6	referred	refer	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=20|end_char=28
+7	to	to	ADP	IN	_	6	_	_	start_char=29|end_char=31
+8	as	as	ADP	IN	_	7	_	_	start_char=32|end_char=34
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=35|end_char=40|SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	_	_	start_char=40|end_char=41|SpaceAfter=No
+11	:	:	PUNCT	:	_	10	_	_	start_char=41|end_char=42
+12-13	I'm	_	_	_	_	_	_	_	start_char=43|end_char=46
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=43|end_char=44
+13	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=44|end_char=46
+14	not	not	PART	RB	_	13	_	_	start_char=47|end_char=50
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=51|end_char=52
+16	female	female	NOUN	NN	Number=Sing	15	_	_	start_char=53|end_char=59
+17	<	<	PUNCT	-LRB-	_	16	_	_	start_char=60|end_char=61|SpaceAfter=No
+18	profession	profession	NOUN	NN	Number=Sing	17	_	_	start_char=61|end_char=71|SpaceAfter=No
+19	>	>	PUNCT	-RRB-	_	18	_	_	start_char=71|end_char=72|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=72|end_char=73
+21-22	I'm	_	_	_	_	_	_	_	start_char=74|end_char=77
+21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	_	_	start_char=74|end_char=75
+22	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	_	_	start_char=75|end_char=77
+23	a	a	DET	DT	Definite=Ind|PronType=Art	22	_	_	start_char=78|end_char=79
+24	<	<	PUNCT	-LRB-	_	23	_	_	start_char=80|end_char=81|SpaceAfter=No
+25	profession	profession	NOUN	NN	Number=Sing	24	_	_	start_char=81|end_char=91|SpaceAfter=No
+26	>	>	PUNCT	-RRB-	_	25	_	_	start_char=91|end_char=92
+
+# text = Women (when talking about incarceration):
+# sent_id = 95506
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=93|end_char=98
+2	(	(	PUNCT	-LRB-	_	1	_	_	start_char=99|end_char=100|SpaceAfter=No
+3	when	when	ADV	WRB	PronType=Int	2	_	_	start_char=100|end_char=104
+4	talking	talk	VERB	VBG	VerbForm=Ger	3	_	_	start_char=105|end_char=112
+5	about	about	ADP	IN	_	4	_	_	start_char=113|end_char=118
+6	incarceration	incarceration	NOUN	NN	Number=Sing	5	_	_	start_char=119|end_char=132|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=132|end_char=133|SpaceAfter=No
+8	:	:	PUNCT	:	_	7	_	_	start_char=133|end_char=134
+
+# text = That's not just any prisoner, that's a female prisoner.
+# sent_id = 95507
+1-2	That's	_	_	_	_	_	_	_	start_char=135|end_char=141
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=135|end_char=139
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=139|end_char=141
+3	not	not	PART	RB	_	2	_	_	start_char=142|end_char=145
+4	just	just	ADV	RB	_	3	_	_	start_char=146|end_char=150
+5	any	any	DET	DT	_	4	_	_	start_char=151|end_char=154
+6	prisoner	prisoner	NOUN	NN	Number=Sing	5	_	_	start_char=155|end_char=163|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=163|end_char=164
+8-9	that's	_	_	_	_	_	_	_	start_char=165|end_char=171
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=165|end_char=169
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=169|end_char=171
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=172|end_char=173
+11	female	female	ADJ	JJ	Degree=Pos	10	_	_	start_char=174|end_char=180
+12	prisoner	prisoner	NOUN	NN	Number=Sing	11	_	_	start_char=181|end_char=189|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=189|end_char=190|SpaceAfter=No
+

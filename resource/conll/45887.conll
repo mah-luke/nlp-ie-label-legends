@@ -1,0 +1,20 @@
+# text = Oh great that guy.
+# sent_id = 97999
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	great	great	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=8
+3	that	that	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=9|end_char=13
+4	guy	guy	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = The one who tried to bang his mom.
+# sent_id = 98000
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=19|end_char=22
+2	one	one	NOUN	NN	Number=Sing	1	_	_	start_char=23|end_char=26
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=27|end_char=30
+4	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=31|end_char=36
+5	to	to	PART	TO	_	4	_	_	start_char=37|end_char=39
+6	bang	bang	VERB	VB	VerbForm=Inf	5	_	_	start_char=40|end_char=44
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=45|end_char=48
+8	mom	mom	NOUN	NN	Number=Sing	7	_	_	start_char=49|end_char=52|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=52|end_char=53|SpaceAfter=No
+

@@ -1,0 +1,52 @@
+# text = Wow, great comment man.
+# sent_id = 81000
+1	Wow	wow	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	great	great	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=10
+4	comment	comment	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=18
+5	man	man	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = This is the motivation I needed to keep on lifting.
+# sent_id = 81001
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=24|end_char=28
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=29|end_char=31
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=32|end_char=35
+4	motivation	motivation	NOUN	NN	Number=Sing	3	_	_	start_char=36|end_char=46
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=47|end_char=48
+6	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=49|end_char=55
+7	to	to	PART	TO	_	6	_	_	start_char=56|end_char=58
+8	keep	keep	VERB	VB	VerbForm=Inf	7	_	_	start_char=59|end_char=63
+9	on	on	SCONJ	IN	_	8	_	_	start_char=64|end_char=66
+10	lifting	lift	NOUN	NN	Number=Sing	9	_	_	start_char=67|end_char=74|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=74|end_char=75
+
+# text = Haven't seen any changes in the way chicks see me but whatever, gotta do what you gotta do.
+# sent_id = 81002
+1-2	Haven't	_	_	_	_	_	_	_	start_char=76|end_char=83
+1	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=76|end_char=80
+2	n't	not	PART	RB	_	1	_	_	start_char=80|end_char=83
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=84|end_char=88
+4	any	any	DET	DT	_	3	_	_	start_char=89|end_char=92
+5	changes	change	NOUN	NNS	Number=Plur	4	_	_	start_char=93|end_char=100
+6	in	in	ADP	IN	_	5	_	_	start_char=101|end_char=103
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=104|end_char=107
+8	way	way	NOUN	NN	Number=Sing	7	_	_	start_char=108|end_char=111
+9	chicks	chick	NOUN	NNS	Number=Plur	8	_	_	start_char=112|end_char=118
+10	see	see	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=119|end_char=122
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=123|end_char=125
+12	but	but	CCONJ	CC	_	11	_	_	start_char=126|end_char=129
+13	whatever	whatever	PRON	WP	PronType=Rel	12	_	_	start_char=130|end_char=138|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=138|end_char=139
+15-16	gotta	_	_	_	_	_	_	_	start_char=140|end_char=145
+15	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=140|end_char=143
+16	ta	to	PART	TO	_	15	_	_	start_char=143|end_char=145
+17	do	do	VERB	VB	VerbForm=Inf	16	_	_	start_char=146|end_char=148
+18	what	what	PRON	WP	PronType=Rel	17	_	_	start_char=149|end_char=153
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	_	_	start_char=154|end_char=157
+20-21	gotta	_	_	_	_	_	_	_	start_char=158|end_char=163
+20	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	19	_	_	start_char=158|end_char=161
+21	ta	to	PART	TO	_	20	_	_	start_char=161|end_char=163
+22	do	do	VERB	VB	VerbForm=Inf	21	_	_	start_char=164|end_char=166|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=166|end_char=167|SpaceAfter=No
+

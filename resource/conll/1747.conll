@@ -1,0 +1,40 @@
+# text = She probably likes you..
+# sent_id = 3660
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	probably	probably	ADV	RB	_	1	_	_	start_char=4|end_char=12
+3	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=18
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=19|end_char=22|SpaceAfter=No
+5	..	..	PUNCT	.	_	4	_	_	start_char=22|end_char=24
+
+# text = If you don't ask her out, you'll regret it for the rest of your life.
+# sent_id = 3661
+1	If	if	SCONJ	IN	_	0	_	_	start_char=25|end_char=27
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=28|end_char=31
+3-4	don't	_	_	_	_	_	_	_	start_char=32|end_char=37
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=32|end_char=34
+4	n't	not	PART	RB	_	3	_	_	start_char=34|end_char=37
+5	ask	ask	VERB	VB	VerbForm=Inf	4	_	_	start_char=38|end_char=41
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=42|end_char=45
+7	out	out	ADP	RP	_	6	_	_	start_char=46|end_char=49|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=49|end_char=50
+9-10	you'll	_	_	_	_	_	_	_	start_char=51|end_char=57
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=51|end_char=54
+10	'll	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=54|end_char=57
+11	regret	regret	VERB	VB	VerbForm=Inf	10	_	_	start_char=58|end_char=64
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=65|end_char=67
+13	for	for	ADP	IN	_	12	_	_	start_char=68|end_char=71
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=72|end_char=75
+15	rest	rest	NOUN	NN	Number=Sing	14	_	_	start_char=76|end_char=80
+16	of	of	ADP	IN	_	15	_	_	start_char=81|end_char=83
+17	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	16	_	_	start_char=84|end_char=88
+18	life	life	NOUN	NN	Number=Sing	17	_	_	start_char=89|end_char=93|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=93|end_char=94
+
+# text = **Shoot your shot**
+# sent_id = 3662
+1	**	**	PUNCT	NFP	_	0	_	_	start_char=95|end_char=97|SpaceAfter=No
+2	Shoot	shoot	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=97|end_char=102
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=103|end_char=107
+4	shot	shot	NOUN	NN	Number=Sing	3	_	_	start_char=108|end_char=112|SpaceAfter=No
+5	**	**	PUNCT	NFP	_	4	_	_	start_char=112|end_char=114|SpaceAfter=No
+

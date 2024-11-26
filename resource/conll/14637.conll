@@ -1,0 +1,22 @@
+# text = Twitter violates womens’ human rights, according to Amnesty International.
+# sent_id = 31176
+1	Twitter	Twitter	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	violates	violate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=16
+3-4	womens’	_	_	_	_	_	_	_	start_char=17|end_char=24
+3	womens	women	NOUN	NNS	Number=Plur	2	_	_	start_char=17|end_char=23
+4	’	's	PART	POS	_	3	_	_	start_char=23|end_char=24
+5	human	human	ADJ	JJ	Degree=Pos	4	_	_	start_char=25|end_char=30
+6	rights	right	NOUN	NNS	Number=Plur	5	_	_	start_char=31|end_char=37|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=37|end_char=38
+8	according	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	7	_	_	start_char=39|end_char=48
+9	to	to	ADP	IN	_	8	_	_	start_char=49|end_char=51
+10	Amnesty	Amnesty	PROPN	NNP	Number=Sing	9	_	_	start_char=52|end_char=59
+11	International	International	PROPN	NNP	Number=Sing	10	_	_	start_char=60|end_char=73|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=73|end_char=74
+
+# text = [URL]
+# sent_id = 31177
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=75|end_char=76|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=76|end_char=79|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=79|end_char=80|SpaceAfter=No
+

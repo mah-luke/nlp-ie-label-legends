@@ -1,0 +1,77 @@
+# text = Bro, if you feel in your gut that she's cheating, she probably is.
+# sent_id = 69271
+1	Bro	bro	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	if	if	SCONJ	IN	_	2	_	_	start_char=5|end_char=7
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=8|end_char=11
+5	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=12|end_char=16
+6	in	in	ADP	IN	_	5	_	_	start_char=17|end_char=19
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=20|end_char=24
+8	gut	gut	NOUN	NN	Number=Sing	7	_	_	start_char=25|end_char=28
+9	that	that	SCONJ	IN	_	8	_	_	start_char=29|end_char=33
+10-11	she's	_	_	_	_	_	_	_	start_char=34|end_char=39
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=34|end_char=37
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=37|end_char=39
+12	cheating	cheating	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=40|end_char=48|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=48|end_char=49
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=50|end_char=53
+15	probably	probably	ADV	RB	_	14	_	_	start_char=54|end_char=62
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=63|end_char=65|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=65|end_char=66
+
+# text = You gotta dump her.
+# sent_id = 69272
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=67|end_char=70
+2-3	gotta	_	_	_	_	_	_	_	start_char=71|end_char=76
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=71|end_char=74
+3	ta	to	PART	TO	_	2	_	_	start_char=74|end_char=76
+4	dump	dump	VERB	VB	VerbForm=Inf	3	_	_	start_char=77|end_char=81
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=82|end_char=85|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=85|end_char=86
+
+# text = Its gonna hurt, but not as bad as when she dumps you.
+# sent_id = 69273
+1-2	Its	_	_	_	_	_	_	_	start_char=87|end_char=90
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=87|end_char=89
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=89|end_char=90
+3-4	gonna	_	_	_	_	_	_	_	start_char=91|end_char=96
+3	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=91|end_char=94
+4	na	to	PART	TO	_	3	_	_	start_char=94|end_char=96
+5	hurt	hurt	VERB	VB	VerbForm=Inf	4	_	_	start_char=97|end_char=101|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=101|end_char=102
+7	but	but	CCONJ	CC	_	6	_	_	start_char=103|end_char=106
+8	not	not	PART	RB	_	7	_	_	start_char=107|end_char=110
+9	as	as	ADV	RB	_	8	_	_	start_char=111|end_char=113
+10	bad	bad	ADJ	JJ	Degree=Pos	9	_	_	start_char=114|end_char=117
+11	as	as	SCONJ	IN	_	10	_	_	start_char=118|end_char=120
+12	when	when	ADV	WRB	PronType=Int	11	_	_	start_char=121|end_char=125
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=126|end_char=129
+14	dumps	dump	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=130|end_char=135
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	_	_	start_char=136|end_char=139|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=139|end_char=140
+
+# text = Just walk away because there are at least 10 more girls out there that look better and will treat you better.
+# sent_id = 69274
+1	Just	just	ADV	RB	_	0	_	_	start_char=141|end_char=145
+2	walk	walk	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=146|end_char=150
+3	away	away	ADV	RB	_	2	_	_	start_char=151|end_char=155
+4	because	because	SCONJ	IN	_	3	_	_	start_char=156|end_char=163
+5	there	there	PRON	EX	_	4	_	_	start_char=164|end_char=169
+6	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=170|end_char=173
+7	at	at	ADP	IN	_	6	_	_	start_char=174|end_char=176
+8	least	least	ADJ	JJS	Degree=Sup	7	_	_	start_char=177|end_char=182
+9	10	10	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=183|end_char=185
+10	more	more	ADJ	JJR	Degree=Cmp	9	_	_	start_char=186|end_char=190
+11	girls	girl	NOUN	NNS	Number=Plur	10	_	_	start_char=191|end_char=196
+12	out	out	ADV	RB	_	11	_	_	start_char=197|end_char=200
+13	there	there	ADV	RB	PronType=Dem	12	_	_	start_char=201|end_char=206
+14	that	that	PRON	WDT	PronType=Rel	13	_	_	start_char=207|end_char=211
+15	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=212|end_char=216
+16	better	good	ADJ	JJR	Degree=Cmp	15	_	_	start_char=217|end_char=223
+17	and	and	CCONJ	CC	_	16	_	_	start_char=224|end_char=227
+18	will	will	AUX	MD	VerbForm=Fin	17	_	_	start_char=228|end_char=232
+19	treat	treat	VERB	VB	VerbForm=Inf	18	_	_	start_char=233|end_char=238
+20	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	19	_	_	start_char=239|end_char=242
+21	better	well	ADV	RBR	Degree=Cmp	20	_	_	start_char=243|end_char=249|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=249|end_char=250|SpaceAfter=No
+

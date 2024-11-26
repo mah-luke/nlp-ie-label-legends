@@ -1,0 +1,45 @@
+# text = So this will become yet another network lefttard clown show.
+# sent_id = 65241
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=3|end_char=7
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=8|end_char=12
+4	become	become	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=19
+5	yet	yet	ADV	RB	_	4	_	_	start_char=20|end_char=23
+6	another	another	DET	DT	_	5	_	_	start_char=24|end_char=31
+7	network	network	NOUN	NN	Number=Sing	6	_	_	start_char=32|end_char=39
+8	lefttard	lefttard	NOUN	NN	Number=Sing	7	_	_	start_char=40|end_char=48
+9	clown	clown	NOUN	NN	Number=Sing	8	_	_	start_char=49|end_char=54
+10	show	show	NOUN	NN	Number=Sing	9	_	_	start_char=55|end_char=59|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=59|end_char=60
+
+# text = Gilbert is gay, so she's a protected class.
+# sent_id = 65242
+1	Gilbert	Gilbert	PROPN	NNP	Number=Sing	0	_	_	start_char=61|end_char=68
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=69|end_char=71
+3	gay	gay	ADJ	JJ	Degree=Pos	2	_	_	start_char=72|end_char=75|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=75|end_char=76
+5	so	so	ADV	RB	_	4	_	_	start_char=77|end_char=79
+6-7	she's	_	_	_	_	_	_	_	start_char=80|end_char=85
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=80|end_char=83
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=83|end_char=85
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=86|end_char=87
+9	protected	protect	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=88|end_char=97
+10	class	class	NOUN	NN	Number=Sing	9	_	_	start_char=98|end_char=103|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=103|end_char=104
+
+# text = What a friggin' sham.
+# sent_id = 65243
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=105|end_char=109
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=110|end_char=111
+3	friggin'	friggin'	NOUN	NN	Number=Sing	2	_	_	start_char=112|end_char=120
+4	sham	sham	NOUN	NN	Number=Sing	3	_	_	start_char=121|end_char=125|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=125|end_char=126
+
+# text = #BoycottABC [URL]
+# sent_id = 65244
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=127|end_char=128|SpaceAfter=No
+2	BoycottABC	BoycottABC	PROPN	NNP	Number=Sing	1	_	_	start_char=128|end_char=138
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=139|end_char=140|SpaceAfter=No
+4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=140|end_char=143|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=143|end_char=144|SpaceAfter=No
+

@@ -1,0 +1,22 @@
+# text = Well shit, don't take me bird-watching then if your life depends on it.
+# sent_id = 30846
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	shit	shit	INTJ	UH	_	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
+4-5	don't	_	_	_	_	_	_	_	start_char=11|end_char=16
+4	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	n't	not	PART	RB	_	4	_	_	start_char=13|end_char=16
+6	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=17|end_char=21
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=22|end_char=24
+8	bird	bird	NOUN	NN	Number=Sing	7	_	_	start_char=25|end_char=29|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	_	_	start_char=29|end_char=30|SpaceAfter=No
+10	watching	watch	VERB	VBG	VerbForm=Ger	9	_	_	start_char=30|end_char=38
+11	then	then	ADV	RB	PronType=Dem	10	_	_	start_char=39|end_char=43
+12	if	if	SCONJ	IN	_	11	_	_	start_char=44|end_char=46
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=47|end_char=51
+14	life	life	NOUN	NN	Number=Sing	13	_	_	start_char=52|end_char=56
+15	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=57|end_char=64
+16	on	on	ADP	IN	_	15	_	_	start_char=65|end_char=67
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=68|end_char=70|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=70|end_char=71|SpaceAfter=No
+

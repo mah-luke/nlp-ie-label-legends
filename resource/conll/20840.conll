@@ -1,0 +1,27 @@
+# text = RIP.
+# sent_id = 44769
+1	RIP	rip	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = David Cassidy
+# sent_id = 44770
+1	David	David	PROPN	NNP	Number=Sing	0	_	_	start_char=5|end_char=10
+2	Cassidy	Cassidy	PROPN	NNP	Number=Sing	1	_	_	start_char=11|end_char=18
+
+# text = My cousin actress Shirley Jones is David Cassidy's stepmother [URL]
+# sent_id = 44771
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=19|end_char=21
+2	cousin	cousin	NOUN	NN	Number=Sing	1	_	_	start_char=22|end_char=28
+3	actress	actress	NOUN	NN	Number=Sing	2	_	_	start_char=29|end_char=36
+4	Shirley	Shirley	PROPN	NNP	Number=Sing	3	_	_	start_char=37|end_char=44
+5	Jones	Jones	PROPN	NNP	Number=Sing	4	_	_	start_char=45|end_char=50
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=51|end_char=53
+7	David	David	PROPN	NNP	Number=Sing	6	_	_	start_char=54|end_char=59
+8-9	Cassidy's	_	_	_	_	_	_	_	start_char=60|end_char=69
+8	Cassidy	Cassidy	PROPN	NNP	Number=Sing	7	_	_	start_char=60|end_char=67
+9	's	's	PART	POS	_	8	_	_	start_char=67|end_char=69
+10	stepmother	stepmother	NOUN	NN	Number=Sing	9	_	_	start_char=70|end_char=80
+11	[	[	PUNCT	-LRB-	_	10	_	_	start_char=81|end_char=82|SpaceAfter=No
+12	URL	URL	PROPN	NNP	Number=Sing	11	_	_	start_char=82|end_char=85|SpaceAfter=No
+13	]	]	PUNCT	-RRB-	_	12	_	_	start_char=85|end_char=86|SpaceAfter=No
+

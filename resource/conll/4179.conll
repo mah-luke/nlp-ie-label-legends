@@ -1,0 +1,50 @@
+# text = RT Twitter [USER]
+# sent_id = 8760
+1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
+2	Twitter	Twitter	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=10
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=11|end_char=12|SpaceAfter=No
+4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=16|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=16|end_char=17
+
+# text = "You complain about this one [USER] and we'll cross promote.
+# sent_id = 8761
+1	"	"	PUNCT	``	_	0	_	_	start_char=18|end_char=19|SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=19|end_char=22
+3	complain	complain	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=23|end_char=31
+4	about	about	ADP	IN	_	3	_	_	start_char=32|end_char=37
+5	this	this	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=38|end_char=42
+6	one	one	NOUN	NN	Number=Sing	5	_	_	start_char=43|end_char=46
+7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=47|end_char=48|SpaceAfter=No
+8	USER	user	NOUN	NN	Number=Sing	7	_	_	start_char=48|end_char=52|SpaceAfter=No
+9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=52|end_char=53
+10	and	and	CCONJ	CC	_	9	_	_	start_char=54|end_char=57
+11-12	we'll	_	_	_	_	_	_	_	start_char=58|end_char=63
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	_	_	start_char=58|end_char=60
+12	'll	will	AUX	MD	VerbForm=Fin	11	_	_	start_char=60|end_char=63
+13	cross	cross	VERB	VB	VerbForm=Inf	12	_	_	start_char=64|end_char=69
+14	promote	promote	VERB	VB	VerbForm=Inf	13	_	_	start_char=70|end_char=77|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=77|end_char=78
+
+# text = It'll confuse the idiots & looks way better…
+# sent_id = 8762
+1-2	It'll	_	_	_	_	_	_	_	start_char=79|end_char=84
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=79|end_char=81
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=81|end_char=84
+3	confuse	confuse	VERB	VB	VerbForm=Inf	2	_	_	start_char=85|end_char=92
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=93|end_char=96
+5	idiots	idiot	NOUN	NNS	Number=Plur	4	_	_	start_char=97|end_char=103
+6	&	&	CCONJ	CC	_	5	_	_	start_char=104|end_char=105
+7	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=106|end_char=111
+8	way	way	ADV	RB	_	7	_	_	start_char=112|end_char=115
+9	better	good	ADJ	JJR	Degree=Cmp	8	_	_	start_char=116|end_char=122|SpaceAfter=No
+10	…	…	PUNCT	:	_	9	_	_	start_char=122|end_char=123
+
+# text = [URL] [URL]
+# sent_id = 8763
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=124|end_char=125|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=125|end_char=128|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=128|end_char=129
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=130|end_char=131|SpaceAfter=No
+5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=131|end_char=134|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=134|end_char=135|SpaceAfter=No
+

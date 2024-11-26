@@ -1,0 +1,44 @@
+# text = I’m a 6ft pan female from your post history.
+# sent_id = 52257
+1-2	I’m	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=4|end_char=5
+4	6ft	6ft	ADJ	JJ	Degree=Pos	3	_	_	start_char=6|end_char=9
+5	pan	pan	NOUN	NN	Number=Sing	4	_	_	start_char=10|end_char=13
+6	female	female	NOUN	NN	Number=Sing	5	_	_	start_char=14|end_char=20
+7	from	from	ADP	IN	_	6	_	_	start_char=21|end_char=25
+8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	_	_	start_char=26|end_char=30
+9	post	post	NOUN	NN	Number=Sing	8	_	_	start_char=31|end_char=35
+10	history	history	NOUN	NN	Number=Sing	9	_	_	start_char=36|end_char=43|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=43|end_char=44
+
+# text = there are no barriers for women if they really want to get laid.
+# sent_id = 52258
+1	there	there	PRON	EX	_	0	_	_	start_char=45|end_char=50
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=54
+3	no	no	DET	DT	_	2	_	_	start_char=55|end_char=57
+4	barriers	barrier	NOUN	NNS	Number=Plur	3	_	_	start_char=58|end_char=66
+5	for	for	ADP	IN	_	4	_	_	start_char=67|end_char=70
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=71|end_char=76
+7	if	if	SCONJ	IN	_	6	_	_	start_char=77|end_char=79
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=80|end_char=84
+9	really	really	ADV	RB	_	8	_	_	start_char=85|end_char=91
+10	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=92|end_char=96
+11	to	to	PART	TO	_	10	_	_	start_char=97|end_char=99
+12	get	get	AUX	VB	VerbForm=Inf	11	_	_	start_char=100|end_char=103
+13	laid	lay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=104|end_char=108|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=108|end_char=109
+
+# text = it's a different story for males.
+# sent_id = 52259
+1-2	it's	_	_	_	_	_	_	_	start_char=110|end_char=114
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=110|end_char=112
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=112|end_char=114
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=115|end_char=116
+4	different	different	ADJ	JJ	Degree=Pos	3	_	_	start_char=117|end_char=126
+5	story	story	NOUN	NN	Number=Sing	4	_	_	start_char=127|end_char=132
+6	for	for	ADP	IN	_	5	_	_	start_char=133|end_char=136
+7	males	male	NOUN	NNS	Number=Plur	6	_	_	start_char=137|end_char=142|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=142|end_char=143|SpaceAfter=No
+

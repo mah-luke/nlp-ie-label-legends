@@ -1,0 +1,40 @@
+# text = When SC justice Ruth Gingburg died, Clinton called Mr Trump and asks if she could take her place.
+# sent_id = 23272
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=4
+2	SC	SC	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=7
+3	justice	justice	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=15
+4	Ruth	Ruth	PROPN	NNP	Number=Sing	3	_	_	start_char=16|end_char=20
+5	Gingburg	Gingburg	PROPN	NNP	Number=Sing	4	_	_	start_char=21|end_char=29
+6	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=30|end_char=34|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=34|end_char=35
+8	Clinton	Clinton	PROPN	NNP	Number=Sing	7	_	_	start_char=36|end_char=43
+9	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=44|end_char=50
+10	Mr	Mr	PROPN	NNP	Number=Sing	9	_	_	start_char=51|end_char=53
+11	Trump	Trump	PROPN	NNP	Number=Sing	10	_	_	start_char=54|end_char=59
+12	and	and	CCONJ	CC	_	11	_	_	start_char=60|end_char=63
+13	asks	ask	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=64|end_char=68
+14	if	if	SCONJ	IN	_	13	_	_	start_char=69|end_char=71
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=72|end_char=75
+16	could	could	AUX	MD	VerbForm=Fin	15	_	_	start_char=76|end_char=81
+17	take	take	VERB	VB	VerbForm=Inf	16	_	_	start_char=82|end_char=86
+18	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=87|end_char=90
+19	place	place	NOUN	NN	Number=Sing	18	_	_	start_char=91|end_char=96|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=96|end_char=97
+
+# text = Mr Trump: Sure, if it is alright with the funeral home.
+# sent_id = 23273
+1	Mr	Mr	PROPN	NNP	Number=Sing	0	_	_	start_char=98|end_char=100
+2	Trump	Trump	PROPN	NNP	Number=Sing	1	_	_	start_char=101|end_char=106|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=106|end_char=107
+4	Sure	sure	INTJ	UH	_	3	_	_	start_char=108|end_char=112|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=112|end_char=113
+6	if	if	SCONJ	IN	_	5	_	_	start_char=114|end_char=116
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=117|end_char=119
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=120|end_char=122
+9	alright	alright	ADJ	JJ	Degree=Pos	8	_	_	start_char=123|end_char=130
+10	with	with	ADP	IN	_	9	_	_	start_char=131|end_char=135
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=136|end_char=139
+12	funeral	funeral	NOUN	NN	Number=Sing	11	_	_	start_char=140|end_char=147
+13	home	home	NOUN	NN	Number=Sing	12	_	_	start_char=148|end_char=152|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=152|end_char=153|SpaceAfter=No
+

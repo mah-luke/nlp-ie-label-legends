@@ -1,0 +1,51 @@
+# text = I've already told you she hates filthy socialists.
+# sent_id = 29727
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	already	already	ADV	RB	_	2	_	_	start_char=5|end_char=12
+4	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=13|end_char=17
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=18|end_char=21
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=22|end_char=25
+7	hates	hate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=26|end_char=31
+8	filthy	filthy	ADJ	JJ	Degree=Pos	7	_	_	start_char=32|end_char=38
+9	socialists	socialist	NOUN	NNS	Number=Plur	8	_	_	start_char=39|end_char=49|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=49|end_char=50
+
+# text = Sees the effect of your useless ideology on Venezuelans crossing the border into Brazil for safety.
+# sent_id = 29728
+1	Sees	see	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=51|end_char=55
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=56|end_char=59
+3	effect	effect	NOUN	NN	Number=Sing	2	_	_	start_char=60|end_char=66
+4	of	of	ADP	IN	_	3	_	_	start_char=67|end_char=69
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=70|end_char=74
+6	useless	useless	ADJ	JJ	Degree=Pos	5	_	_	start_char=75|end_char=82
+7	ideology	ideology	NOUN	NN	Number=Sing	6	_	_	start_char=83|end_char=91
+8	on	on	ADP	IN	_	7	_	_	start_char=92|end_char=94
+9	Venezuelans	Venezuelans	PROPN	NNPS	Number=Plur	8	_	_	start_char=95|end_char=106
+10	crossing	cross	VERB	VBG	VerbForm=Ger	9	_	_	start_char=107|end_char=115
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=116|end_char=119
+12	border	border	NOUN	NN	Number=Sing	11	_	_	start_char=120|end_char=126
+13	into	into	ADP	IN	_	12	_	_	start_char=127|end_char=131
+14	Brazil	Brazil	PROPN	NNP	Number=Sing	13	_	_	start_char=132|end_char=138
+15	for	for	ADP	IN	_	14	_	_	start_char=139|end_char=142
+16	safety	safety	NOUN	NN	Number=Sing	15	_	_	start_char=143|end_char=149|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=149|end_char=150
+
+# text = She wouldn't spit on you if you were on fire lad.
+# sent_id = 29729
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=151|end_char=154
+2-3	wouldn't	_	_	_	_	_	_	_	start_char=155|end_char=163
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=155|end_char=160
+3	n't	not	PART	RB	_	2	_	_	start_char=160|end_char=163
+4	spit	spit	VERB	VB	VerbForm=Inf	3	_	_	start_char=164|end_char=168
+5	on	on	ADP	IN	_	4	_	_	start_char=169|end_char=171
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=172|end_char=175
+7	if	if	SCONJ	IN	_	6	_	_	start_char=176|end_char=178
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=179|end_char=182
+9	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	8	_	_	start_char=183|end_char=187
+10	on	on	ADP	IN	_	9	_	_	start_char=188|end_char=190
+11	fire	fire	NOUN	NN	Number=Sing	10	_	_	start_char=191|end_char=195
+12	lad	lad	NOUN	NN	Number=Sing	11	_	_	start_char=196|end_char=199|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=199|end_char=200|SpaceAfter=No
+

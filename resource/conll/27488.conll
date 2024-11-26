@@ -1,0 +1,63 @@
+# text = Depends, she usually takes her breaks when I do.
+# sent_id = 59018
+1	Depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=7|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=7|end_char=8
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	usually	usually	ADV	RB	_	3	_	_	start_char=13|end_char=20
+5	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=21|end_char=26
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=27|end_char=30
+7	breaks	break	NOUN	NNS	Number=Plur	6	_	_	start_char=31|end_char=37
+8	when	when	ADV	WRB	PronType=Int	7	_	_	start_char=38|end_char=42
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=43|end_char=44
+10	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=45|end_char=47|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=47|end_char=48
+
+# text = But, for some reason I always get nervous talking to her.
+# sent_id = 59019
+1	But	but	CCONJ	CC	_	0	_	_	start_char=49|end_char=52|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=52|end_char=53
+3	for	for	ADP	IN	_	2	_	_	start_char=54|end_char=57
+4	some	some	DET	DT	_	3	_	_	start_char=58|end_char=62
+5	reason	reason	NOUN	NN	Number=Sing	4	_	_	start_char=63|end_char=69
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=70|end_char=71
+7	always	always	ADV	RB	_	6	_	_	start_char=72|end_char=78
+8	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=79|end_char=82
+9	nervous	nervous	ADJ	JJ	Degree=Pos	8	_	_	start_char=83|end_char=90
+10	talking	talk	VERB	VBG	VerbForm=Ger	9	_	_	start_char=91|end_char=98
+11	to	to	ADP	IN	_	10	_	_	start_char=99|end_char=101
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=102|end_char=105|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=105|end_char=106
+
+# text = It doesn't happen with any other girls in the office that are considered "hot".
+# sent_id = 59020
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=107|end_char=109
+2-3	doesn't	_	_	_	_	_	_	_	start_char=110|end_char=117
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=110|end_char=114
+3	n't	not	PART	RB	_	2	_	_	start_char=114|end_char=117
+4	happen	happen	VERB	VB	VerbForm=Inf	3	_	_	start_char=118|end_char=124
+5	with	with	ADP	IN	_	4	_	_	start_char=125|end_char=129
+6	any	any	DET	DT	_	5	_	_	start_char=130|end_char=133
+7	other	other	ADJ	JJ	Degree=Pos	6	_	_	start_char=134|end_char=139
+8	girls	girl	NOUN	NNS	Number=Plur	7	_	_	start_char=140|end_char=145
+9	in	in	ADP	IN	_	8	_	_	start_char=146|end_char=148
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=149|end_char=152
+11	office	office	NOUN	NN	Number=Sing	10	_	_	start_char=153|end_char=159
+12	that	that	PRON	WDT	PronType=Rel	11	_	_	start_char=160|end_char=164
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=165|end_char=168
+14	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=169|end_char=179
+15	"	"	PUNCT	``	_	14	_	_	start_char=180|end_char=181|SpaceAfter=No
+16	hot	hot	ADJ	JJ	Degree=Pos	15	_	_	start_char=181|end_char=184|SpaceAfter=No
+17	"	"	PUNCT	''	_	16	_	_	start_char=184|end_char=185|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=185|end_char=186
+
+# text = But she's the girlfriend type.
+# sent_id = 59021
+1	But	but	CCONJ	CC	_	0	_	_	start_char=187|end_char=190
+2-3	she's	_	_	_	_	_	_	_	start_char=191|end_char=196
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=191|end_char=194
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=194|end_char=196
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=197|end_char=200
+5	girlfriend	girlfriend	NOUN	NN	Number=Sing	4	_	_	start_char=201|end_char=211
+6	type	type	NOUN	NN	Number=Sing	5	_	_	start_char=212|end_char=216|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=216|end_char=217|SpaceAfter=No
+

@@ -1,0 +1,66 @@
+# text = And half her age, she's supposed to be what, around 50 now?
+# sent_id = 30711
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	1	_	_	start_char=4|end_char=8
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	age	age	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=16|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=16|end_char=17
+6-7	she's	_	_	_	_	_	_	_	start_char=18|end_char=23
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=18|end_char=21
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=21|end_char=23
+8	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=24|end_char=32
+9	to	to	PART	TO	_	8	_	_	start_char=33|end_char=35
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=36|end_char=38
+11	what	what	PRON	WP	PronType=Rel	10	_	_	start_char=39|end_char=43|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=43|end_char=44
+13	around	around	ADV	RB	_	12	_	_	start_char=45|end_char=51
+14	50	50	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	start_char=52|end_char=54
+15	now	now	ADV	RB	_	14	_	_	start_char=55|end_char=58|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=58|end_char=59
+
+# text = yet they only aged her in the last episode due to "trauma" or some shit.
+# sent_id = 30712
+1	yet	yet	CCONJ	CC	_	0	_	_	start_char=60|end_char=63
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=64|end_char=68
+3	only	only	ADV	RB	_	2	_	_	start_char=69|end_char=73
+4	aged	aged	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=74|end_char=78
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=79|end_char=82
+6	in	in	ADP	IN	_	5	_	_	start_char=83|end_char=85
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=86|end_char=89
+8	last	last	ADJ	JJ	Degree=Pos	7	_	_	start_char=90|end_char=94
+9	episode	episode	NOUN	NN	Number=Sing	8	_	_	start_char=95|end_char=102
+10	due	due	ADP	IN	_	9	_	_	start_char=103|end_char=106
+11	to	to	ADP	IN	_	10	_	_	start_char=107|end_char=109
+12	"	"	PUNCT	``	_	11	_	_	start_char=110|end_char=111|SpaceAfter=No
+13	trauma	trauma	NOUN	NN	Number=Sing	12	_	_	start_char=111|end_char=117|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=117|end_char=118
+15	or	or	CCONJ	CC	_	14	_	_	start_char=119|end_char=121
+16	some	some	DET	DT	_	15	_	_	start_char=122|end_char=126
+17	shit	shit	NOUN	NN	Number=Sing	16	_	_	start_char=127|end_char=131|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=131|end_char=132
+
+# text = The creators of this show are cucked to hell, which is a shame since it used to be my favourite.
+# sent_id = 30713
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=133|end_char=136
+2	creators	creator	NOUN	NNS	Number=Plur	1	_	_	start_char=137|end_char=145
+3	of	of	ADP	IN	_	2	_	_	start_char=146|end_char=148
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=149|end_char=153
+5	show	show	NOUN	NN	Number=Sing	4	_	_	start_char=154|end_char=158
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=159|end_char=162
+7	cucked	cuck	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=163|end_char=169
+8	to	to	ADP	IN	_	7	_	_	start_char=170|end_char=172
+9	hell	hell	NOUN	NN	Number=Sing	8	_	_	start_char=173|end_char=177|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=177|end_char=178
+11	which	which	PRON	WDT	PronType=Rel	10	_	_	start_char=179|end_char=184
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=185|end_char=187
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=188|end_char=189
+14	shame	shame	NOUN	NN	Number=Sing	13	_	_	start_char=190|end_char=195
+15	since	since	SCONJ	IN	_	14	_	_	start_char=196|end_char=201
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=202|end_char=204
+17	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=205|end_char=209
+18	to	to	PART	TO	_	17	_	_	start_char=210|end_char=212
+19	be	be	AUX	VB	VerbForm=Inf	18	_	_	start_char=213|end_char=215
+20	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	19	_	_	start_char=216|end_char=218
+21	favourite	favourite	NOUN	NN	Number=Sing	20	_	_	start_char=219|end_char=228|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=228|end_char=229|SpaceAfter=No
+

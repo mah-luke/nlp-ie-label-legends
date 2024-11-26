@@ -1,0 +1,53 @@
+# text = Look at their clothes.
+# sent_id = 16094
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	at	at	ADP	IN	_	1	_	_	start_char=5|end_char=7
+3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=8|end_char=13
+4	clothes	clothes	NOUN	NNS	Number=Plur	3	_	_	start_char=14|end_char=21|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=21|end_char=22
+
+# text = Brand new and perfectly clean.
+# sent_id = 16095
+1	Brand	brand	NOUN	NN	Number=Sing	0	_	_	start_char=23|end_char=28
+2	new	new	ADJ	JJ	Degree=Pos	1	_	_	start_char=29|end_char=32
+3	and	and	CCONJ	CC	_	2	_	_	start_char=33|end_char=36
+4	perfectly	perfectly	ADV	RB	_	3	_	_	start_char=37|end_char=46
+5	clean	clean	ADJ	JJ	Degree=Pos	4	_	_	start_char=47|end_char=52|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=52|end_char=53
+
+# text = Is this what “refugees” typically wear?
+# sent_id = 16096
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=54|end_char=56
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=57|end_char=61
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=62|end_char=66
+4	“	''	PUNCT	``	_	3	_	_	start_char=67|end_char=68|SpaceAfter=No
+5	refugees	refugee	NOUN	NNS	Number=Plur	4	_	_	start_char=68|end_char=76|SpaceAfter=No
+6	”	''	PUNCT	''	_	5	_	_	start_char=76|end_char=77
+7	typically	typically	ADV	RB	_	6	_	_	start_char=78|end_char=87
+8	wear	wear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=88|end_char=92|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=92|end_char=93
+
+# text = No, they are dressed up to already look like Americans.
+# sent_id = 16097
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=94|end_char=96|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=96|end_char=97
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=98|end_char=102
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=103|end_char=106
+5	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=107|end_char=114
+6	up	up	ADP	RP	_	5	_	_	start_char=115|end_char=117
+7	to	to	PART	TO	_	6	_	_	start_char=118|end_char=120
+8	already	already	ADV	RB	_	7	_	_	start_char=121|end_char=128
+9	look	look	VERB	VB	VerbForm=Inf	8	_	_	start_char=129|end_char=133
+10	like	like	ADP	IN	_	9	_	_	start_char=134|end_char=138
+11	Americans	American	PROPN	NNPS	Number=Plur	10	_	_	start_char=139|end_char=148|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=148|end_char=149
+
+# text = They’re in costume.
+# sent_id = 16098
+1-2	They’re	_	_	_	_	_	_	_	start_char=150|end_char=157
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=150|end_char=154
+2	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=154|end_char=157
+3	in	in	ADP	IN	_	2	_	_	start_char=158|end_char=160
+4	costume	costume	NOUN	NN	Number=Sing	3	_	_	start_char=161|end_char=168|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=168|end_char=169|SpaceAfter=No
+

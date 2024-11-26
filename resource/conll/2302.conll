@@ -1,0 +1,53 @@
+# text = Who the fuck looks up a gifts value?
+# sent_id = 4870
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=3
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=4|end_char=7
+3	fuck	fuck	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=12
+4	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=18
+5	up	up	ADP	RP	_	4	_	_	start_char=19|end_char=21
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=22|end_char=23
+7	gifts	gift	NOUN	NNS	Number=Plur	6	_	_	start_char=24|end_char=29
+8	value	value	NOUN	NN	Number=Sing	7	_	_	start_char=30|end_char=35|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = Seriously.
+# sent_id = 4871
+1	Seriously	seriously	ADV	RB	_	0	_	_	start_char=37|end_char=46|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=46|end_char=47
+
+# text = Fucking rude.
+# sent_id = 4872
+1	Fucking	fucking	ADV	RB	_	0	_	_	start_char=48|end_char=55
+2	rude	rude	ADJ	JJ	Degree=Pos	1	_	_	start_char=56|end_char=60|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=60|end_char=61
+
+# text = Should have told her some sob story about "oh fuck, i overpaid for the blankets, thats annoying" or some shit.
+# sent_id = 4873
+1	Should	should	AUX	MD	VerbForm=Fin	0	_	_	start_char=62|end_char=68
+2	have	have	AUX	VB	VerbForm=Inf	1	_	_	start_char=69|end_char=73
+3	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=74|end_char=78
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=79|end_char=82
+5	some	some	DET	DT	_	4	_	_	start_char=83|end_char=87
+6	sob	sob	NOUN	NN	Number=Sing	5	_	_	start_char=88|end_char=91
+7	story	story	NOUN	NN	Number=Sing	6	_	_	start_char=92|end_char=97
+8	about	about	ADP	IN	_	7	_	_	start_char=98|end_char=103
+9	"	"	PUNCT	``	_	8	_	_	start_char=104|end_char=105|SpaceAfter=No
+10	oh	oh	INTJ	UH	_	9	_	_	start_char=105|end_char=107
+11	fuck	fuck	NOUN	NN	Number=Sing	10	_	_	start_char=108|end_char=112|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=112|end_char=113
+13	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=114|end_char=115
+14	overpaid	overpay	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	_	_	start_char=116|end_char=124
+15	for	for	ADP	IN	_	14	_	_	start_char=125|end_char=128
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=129|end_char=132
+17	blankets	blanket	NOUN	NNS	Number=Plur	16	_	_	start_char=133|end_char=141|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=141|end_char=142
+19-20	thats	_	_	_	_	_	_	_	start_char=143|end_char=148
+19	that	that	PRON	DT	Number=Sing|PronType=Dem	18	_	_	start_char=143|end_char=147
+20	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=147|end_char=148
+21	annoying	annoying	ADJ	JJ	Degree=Pos	20	_	_	start_char=149|end_char=157|SpaceAfter=No
+22	"	"	PUNCT	''	_	21	_	_	start_char=157|end_char=158
+23	or	or	CCONJ	CC	_	22	_	_	start_char=159|end_char=161
+24	some	some	DET	DT	_	23	_	_	start_char=162|end_char=166
+25	shit	shit	NOUN	NN	Number=Sing	24	_	_	start_char=167|end_char=171|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=171|end_char=172|SpaceAfter=No
+

@@ -1,0 +1,80 @@
+# text = Ill back that up with: >Don't.
+# sent_id = 5046
+1-2	Ill	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	ll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	back	back	VERB	VB	VerbForm=Inf	2	_	_	start_char=4|end_char=8
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=9|end_char=13
+5	up	up	ADP	RP	_	4	_	_	start_char=14|end_char=16
+6	with	with	ADP	IN	_	5	_	_	start_char=17|end_char=21|SpaceAfter=No
+7	:	:	PUNCT	:	_	6	_	_	start_char=21|end_char=22
+8	>	>	PUNCT	NFP	_	7	_	_	start_char=23|end_char=24|SpaceAfter=No
+9-10	Don't	_	_	_	_	_	_	_	start_char=24|end_char=29|SpaceAfter=No
+9	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=24|end_char=26
+10	n't	not	PART	RB	_	9	_	_	start_char=26|end_char=29
+11	.	.	PUNCT	.	_	10	_	_	start_char=29|end_char=30
+
+# text = It isn't worth it.
+# sent_id = 5047
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=31|end_char=33
+2-3	isn't	_	_	_	_	_	_	_	start_char=34|end_char=39
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=34|end_char=36
+3	n't	not	PART	RB	_	2	_	_	start_char=36|end_char=39
+4	worth	worth	ADJ	JJ	Degree=Pos	3	_	_	start_char=40|end_char=45
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=46|end_char=48|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=48|end_char=49
+
+# text = Keep your friend, don't cause bad blood.
+# sent_id = 5048
+1	Keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=50|end_char=54
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=55|end_char=59
+3	friend	friend	NOUN	NN	Number=Sing	2	_	_	start_char=60|end_char=66|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=66|end_char=67
+5-6	don't	_	_	_	_	_	_	_	start_char=68|end_char=73
+5	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=68|end_char=70
+6	n't	not	PART	RB	_	5	_	_	start_char=70|end_char=73
+7	cause	cause	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=74|end_char=79
+8	bad	bad	ADJ	JJ	Degree=Pos	7	_	_	start_char=80|end_char=83
+9	blood	blood	NOUN	NN	Number=Sing	8	_	_	start_char=84|end_char=89|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=89|end_char=90
+
+# text = Especially since it isn't likely anything would happen.
+# sent_id = 5049
+1	Especially	especially	ADV	RB	_	0	_	_	start_char=91|end_char=101
+2	since	since	SCONJ	IN	_	1	_	_	start_char=102|end_char=107
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=108|end_char=110
+4-5	isn't	_	_	_	_	_	_	_	start_char=111|end_char=116
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=111|end_char=113
+5	n't	not	PART	RB	_	4	_	_	start_char=113|end_char=116
+6	likely	likely	ADJ	JJ	Degree=Pos	5	_	_	start_char=117|end_char=123
+7	anything	anything	PRON	NN	Number=Sing|PronType=Ind	6	_	_	start_char=124|end_char=132
+8	would	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=133|end_char=138
+9	happen	happen	VERB	VB	VerbForm=Inf	8	_	_	start_char=139|end_char=145|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=145|end_char=146
+
+# text = That is all that needs to be said.
+# sent_id = 5050
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=147|end_char=151
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=152|end_char=154
+3	all	all	DET	DT	_	2	_	_	start_char=155|end_char=158
+4	that	that	PRON	WDT	PronType=Rel	3	_	_	start_char=159|end_char=163
+5	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=164|end_char=169
+6	to	to	PART	TO	_	5	_	_	start_char=170|end_char=172
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=173|end_char=175
+8	said	say	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=176|end_char=180|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=180|end_char=181
+
+# text = If anything, use her to hit on her friends..
+# sent_id = 5051
+1	If	if	SCONJ	IN	_	0	_	_	start_char=182|end_char=184
+2	anything	anything	PRON	NN	Number=Sing|PronType=Ind	1	_	_	start_char=185|end_char=193|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=193|end_char=194
+4	use	use	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=195|end_char=198
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=199|end_char=202
+6	to	to	PART	TO	_	5	_	_	start_char=203|end_char=205
+7	hit	hit	VERB	VB	VerbForm=Inf	6	_	_	start_char=206|end_char=209
+8	on	on	ADP	IN	_	7	_	_	start_char=210|end_char=212
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=213|end_char=216
+10	friends	friend	NOUN	NNS	Number=Plur	9	_	_	start_char=217|end_char=224|SpaceAfter=No
+11	..	..	PUNCT	.	_	10	_	_	start_char=224|end_char=226|SpaceAfter=No
+

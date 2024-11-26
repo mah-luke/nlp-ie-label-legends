@@ -1,0 +1,52 @@
+# text = Holy Shit.
+# sent_id = 49497
+1	Holy	Holy	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	Shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = What ever we do.
+# sent_id = 49498
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=11|end_char=15
+2	ever	ever	ADV	RB	_	1	_	_	start_char=16|end_char=20
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=21|end_char=23
+4	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=24|end_char=26|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=26|end_char=27
+
+# text = Let's not take the common sense approach.
+# sent_id = 49499
+1-2	Let's	_	_	_	_	_	_	_	start_char=28|end_char=33
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=28|end_char=31
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=31|end_char=33
+3	not	not	PART	RB	_	2	_	_	start_char=34|end_char=37
+4	take	take	VERB	VB	VerbForm=Inf	3	_	_	start_char=38|end_char=42
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=43|end_char=46
+6	common	common	ADJ	JJ	Degree=Pos	5	_	_	start_char=47|end_char=53
+7	sense	sense	NOUN	NN	Number=Sing	6	_	_	start_char=54|end_char=59
+8	approach	approach	NOUN	NN	Number=Sing	7	_	_	start_char=60|end_char=68|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=68|end_char=69
+
+# text = Oh hell no.
+# sent_id = 49500
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=70|end_char=72
+2	hell	hell	INTJ	UH	_	1	_	_	start_char=73|end_char=77
+3	no	no	INTJ	UH	Polarity=Neg	2	_	_	start_char=78|end_char=80|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=80|end_char=81
+
+# text = Let's kiss these stupid democrats asses.
+# sent_id = 49501
+1-2	Let's	_	_	_	_	_	_	_	start_char=82|end_char=87
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=82|end_char=85
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=85|end_char=87
+3	kiss	kiss	VERB	VB	VerbForm=Inf	2	_	_	start_char=88|end_char=92
+4	these	this	DET	DT	Number=Plur|PronType=Dem	3	_	_	start_char=93|end_char=98
+5	stupid	stupid	ADJ	JJ	Degree=Pos	4	_	_	start_char=99|end_char=105
+6	democrats	Democrat	PROPN	NNPS	Number=Plur	5	_	_	start_char=106|end_char=115
+7	asses	ass	NOUN	NNS	Number=Plur	6	_	_	start_char=116|end_char=121|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=121|end_char=122
+
+# text = FUCK THEM.
+# sent_id = 49502
+1	FUCK	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=123|end_char=127
+2	THEM	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=128|end_char=132|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=132|end_char=133|SpaceAfter=No
+

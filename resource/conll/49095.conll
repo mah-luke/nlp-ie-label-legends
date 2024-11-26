@@ -1,0 +1,24 @@
+# text = Oh yeah I've seen this before.
+# sent_id = 104997
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	yeah	yeah	INTJ	UH	_	1	_	_	start_char=3|end_char=7
+3-4	I've	_	_	_	_	_	_	_	start_char=8|end_char=12
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=8|end_char=9
+4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=9|end_char=12
+5	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=13|end_char=17
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=18|end_char=22
+7	before	before	ADV	RB	_	6	_	_	start_char=23|end_char=29|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=29|end_char=30
+
+# text = These families internalised racism and believe in WMAF.
+# sent_id = 104998
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=31|end_char=36
+2	families	family	NOUN	NNS	Number=Plur	1	_	_	start_char=37|end_char=45
+3	internalised	internalise	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=46|end_char=58
+4	racism	racism	NOUN	NN	Number=Sing	3	_	_	start_char=59|end_char=65
+5	and	and	CCONJ	CC	_	4	_	_	start_char=66|end_char=69
+6	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=70|end_char=77
+7	in	in	ADP	IN	_	6	_	_	start_char=78|end_char=80
+8	WMAF	WMAF	PROPN	NNP	Number=Sing	7	_	_	start_char=81|end_char=85|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=85|end_char=86|SpaceAfter=No
+

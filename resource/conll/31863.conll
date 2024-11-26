@@ -1,0 +1,43 @@
+# text = Are you dumb!
+# sent_id = 68262
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=4|end_char=7
+3	dumb	dumb	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=12|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=12|end_char=13
+
+# text = She fucking wants you dude!
+# sent_id = 68263
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=14|end_char=17
+2	fucking	fucking	ADV	RB	_	1	_	_	start_char=18|end_char=25
+3	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=26|end_char=31
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=32|end_char=35
+5	dude	dude	NOUN	NN	Number=Sing	4	_	_	start_char=36|end_char=40|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=40|end_char=41
+
+# text = You never made a move!
+# sent_id = 68264
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=42|end_char=45
+2	never	never	ADV	RB	_	1	_	_	start_char=46|end_char=51
+3	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	_	_	start_char=52|end_char=56
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=57|end_char=58
+5	move	move	NOUN	NN	Number=Sing	4	_	_	start_char=59|end_char=63|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=63|end_char=64
+
+# text = Are you not sexually attracted to her?
+# sent_id = 68265
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=65|end_char=68
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=69|end_char=72
+3	not	not	PART	RB	_	2	_	_	start_char=73|end_char=76
+4	sexually	sexually	ADV	RB	_	3	_	_	start_char=77|end_char=85
+5	attracted	attract	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=86|end_char=95
+6	to	to	ADP	IN	_	5	_	_	start_char=96|end_char=98
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=99|end_char=102|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=102|end_char=103
+
+# text = or your gay?
+# sent_id = 68266
+1	or	or	CCONJ	CC	_	0	_	_	start_char=104|end_char=106
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=107|end_char=111
+3	gay	gay	ADJ	JJ	Degree=Pos	2	_	_	start_char=112|end_char=115|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=115|end_char=116|SpaceAfter=No
+

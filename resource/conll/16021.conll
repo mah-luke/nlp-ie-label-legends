@@ -1,0 +1,25 @@
+# text = [USER] I suck at all that junk.
+# sent_id = 34265
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=7|end_char=8
+5	suck	suck	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=9|end_char=13
+6	at	at	ADP	IN	_	5	_	_	start_char=14|end_char=16
+7	all	all	DET	PDT	_	6	_	_	start_char=17|end_char=20
+8	that	that	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=21|end_char=25
+9	junk	junk	NOUN	NN	Number=Sing	8	_	_	start_char=26|end_char=30|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=30|end_char=31
+
+# text = I'm so bad at internet stuff.
+# sent_id = 34266
+1-2	I'm	_	_	_	_	_	_	_	start_char=32|end_char=35
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=32|end_char=33
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=33|end_char=35
+3	so	so	ADV	RB	_	2	_	_	start_char=36|end_char=38
+4	bad	bad	ADJ	JJ	Degree=Pos	3	_	_	start_char=39|end_char=42
+5	at	at	ADP	IN	_	4	_	_	start_char=43|end_char=45
+6	internet	internet	NOUN	NN	Number=Sing	5	_	_	start_char=46|end_char=54
+7	stuff	stuff	NOUN	NN	Number=Sing	6	_	_	start_char=55|end_char=60|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=60|end_char=61|SpaceAfter=No
+

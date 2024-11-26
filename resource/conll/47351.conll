@@ -1,0 +1,19 @@
+# text = Ugh 😣 my white wife sucks.
+# sent_id = 101176
+1	Ugh	ugh	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	😣	😣	PUNCT	:	_	1	_	_	start_char=4|end_char=5
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=6|end_char=8
+4	white	white	ADJ	JJ	Degree=Pos	3	_	_	start_char=9|end_char=14
+5	wife	wife	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=19
+6	sucks	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=20|end_char=25|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=25|end_char=26
+
+# text = They've turned into niggers
+# sent_id = 101177
+1-2	They've	_	_	_	_	_	_	_	start_char=27|end_char=34
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=27|end_char=31
+2	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=34
+3	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=35|end_char=41
+4	into	into	ADP	IN	_	3	_	_	start_char=42|end_char=46
+5	niggers	nigger	NOUN	NNS	Number=Plur	4	_	_	start_char=47|end_char=54|SpaceAfter=No
+

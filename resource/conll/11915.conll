@@ -1,0 +1,37 @@
+# text = Do I just ask her if she wants to hangout again?
+# sent_id = 25245
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=3|end_char=4
+3	just	just	ADV	RB	_	2	_	_	start_char=5|end_char=9
+4	ask	ask	VERB	VB	VerbForm=Inf	3	_	_	start_char=10|end_char=13
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=14|end_char=17
+6	if	if	SCONJ	IN	_	5	_	_	start_char=18|end_char=20
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=21|end_char=24
+8	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=25|end_char=30
+9	to	to	PART	TO	_	8	_	_	start_char=31|end_char=33
+10	hangout	hangout	VERB	VB	VerbForm=Inf	9	_	_	start_char=34|end_char=41
+11	again	again	ADV	RB	_	10	_	_	start_char=42|end_char=47|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=47|end_char=48
+
+# text = Yep.
+# sent_id = 25246
+1	Yep	yep	INTJ	UH	_	0	_	_	start_char=49|end_char=52|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=52|end_char=53
+
+# text = That's exactly what you do if you want to smash again.
+# sent_id = 25247
+1-2	That's	_	_	_	_	_	_	_	start_char=54|end_char=60
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=54|end_char=58
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=58|end_char=60
+3	exactly	exactly	ADV	RB	_	2	_	_	start_char=61|end_char=68
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=69|end_char=73
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=74|end_char=77
+6	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=78|end_char=80
+7	if	if	SCONJ	IN	_	6	_	_	start_char=81|end_char=83
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=84|end_char=87
+9	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=88|end_char=92
+10	to	to	PART	TO	_	9	_	_	start_char=93|end_char=95
+11	smash	smash	VERB	VB	VerbForm=Inf	10	_	_	start_char=96|end_char=101
+12	again	again	ADV	RB	_	11	_	_	start_char=102|end_char=107|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=107|end_char=108|SpaceAfter=No
+

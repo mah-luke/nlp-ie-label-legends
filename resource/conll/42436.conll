@@ -1,0 +1,25 @@
+# text = Why is the snivelling, grovelling, snake not assisting?
+# sent_id = 90728
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7|end_char=10
+4	snivelling	snivelling	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=21|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=21|end_char=22
+6	grovelling	grovel	VERB	VBG	VerbForm=Ger	5	_	_	start_char=23|end_char=33|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=33|end_char=34
+8	snake	snake	NOUN	NN	Number=Sing	7	_	_	start_char=35|end_char=40
+9	not	not	PART	RB	_	8	_	_	start_char=41|end_char=44
+10	assisting	assist	VERB	VBG	VerbForm=Ger	9	_	_	start_char=45|end_char=54|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=54|end_char=55
+
+# text = Is she still licking Junker's boots
+# sent_id = 90729
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=56|end_char=58
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=59|end_char=62
+3	still	still	ADV	RB	_	2	_	_	start_char=63|end_char=68
+4	licking	lick	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=69|end_char=76
+5-6	Junker's	_	_	_	_	_	_	_	start_char=77|end_char=85
+5	Junker	Junker	PROPN	NNP	Number=Sing	4	_	_	start_char=77|end_char=83
+6	's	's	PART	POS	_	5	_	_	start_char=83|end_char=85
+7	boots	boot	NOUN	NNS	Number=Plur	6	_	_	start_char=86|end_char=91|SpaceAfter=No
+

@@ -1,0 +1,20 @@
+# text = They are muslim bastards and terrorists.
+# sent_id = 42247
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=4
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	muslim	muslim	ADJ	JJ	Degree=Pos	2	_	_	start_char=9|end_char=15
+4	bastards	bastard	NOUN	NNS	Number=Plur	3	_	_	start_char=16|end_char=24
+5	and	and	CCONJ	CC	_	4	_	_	start_char=25|end_char=28
+6	terrorists	terrorist	NOUN	NNS	Number=Plur	5	_	_	start_char=29|end_char=39|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=39|end_char=40
+
+# text = They must be killed on sight.
+# sent_id = 42248
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=41|end_char=45
+2	must	must	AUX	MD	VerbForm=Fin	1	_	_	start_char=46|end_char=50
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=51|end_char=53
+4	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=54|end_char=60
+5	on	on	ADP	IN	_	4	_	_	start_char=61|end_char=63
+6	sight	sight	NOUN	NN	Number=Sing	5	_	_	start_char=64|end_char=69|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=69|end_char=70|SpaceAfter=No
+

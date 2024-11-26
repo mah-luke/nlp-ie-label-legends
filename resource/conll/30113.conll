@@ -1,0 +1,21 @@
+# text = Don’t do it.
+# sent_id = 64522
+1-2	Don’t	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n’t	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=8
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=9|end_char=11|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=11|end_char=12
+
+# text = Get her in real life and bang her properly
+# sent_id = 64523
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=13|end_char=16
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=17|end_char=20
+3	in	in	ADP	IN	_	2	_	_	start_char=21|end_char=23
+4	real	real	ADJ	JJ	Degree=Pos	3	_	_	start_char=24|end_char=28
+5	life	life	NOUN	NN	Number=Sing	4	_	_	start_char=29|end_char=33
+6	and	and	CCONJ	CC	_	5	_	_	start_char=34|end_char=37
+7	bang	bang	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=38|end_char=42
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=43|end_char=46
+9	properly	properly	ADV	RB	_	8	_	_	start_char=47|end_char=55|SpaceAfter=No
+

@@ -1,0 +1,41 @@
+# text = I don't care if she's lying or not.
+# sent_id = 86860
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	don't	_	_	_	_	_	_	_	start_char=2|end_char=7
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	n't	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	care	care	VERB	VB	VerbForm=Inf	3	_	_	start_char=8|end_char=12
+5	if	if	SCONJ	IN	_	4	_	_	start_char=13|end_char=15
+6-7	she's	_	_	_	_	_	_	_	start_char=16|end_char=21
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=16|end_char=19
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=19|end_char=21
+8	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=22|end_char=27
+9	or	or	CCONJ	CC	_	8	_	_	start_char=28|end_char=30
+10	not	not	PART	RB	_	9	_	_	start_char=31|end_char=34|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=34|end_char=35
+
+# text = These bitches want to make SEX Illegal!
+# sent_id = 86861
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=36|end_char=41
+2	bitches	bitch	NOUN	NNS	Number=Plur	1	_	_	start_char=42|end_char=49
+3	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=50|end_char=54
+4	to	to	PART	TO	_	3	_	_	start_char=55|end_char=57
+5	make	make	VERB	VB	VerbForm=Inf	4	_	_	start_char=58|end_char=62
+6	SEX	sex	NOUN	NN	Number=Sing	5	_	_	start_char=63|end_char=66
+7	Illegal	illegal	ADJ	JJ	Degree=Pos	6	_	_	start_char=67|end_char=74|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=74|end_char=75
+
+# text = Screw them.
+# sent_id = 86862
+1	Screw	screw	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=76|end_char=81
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=82|end_char=86|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=86|end_char=87
+
+# text = Er, or not!
+# sent_id = 86863
+1	Er	er	INTJ	UH	_	0	_	_	start_char=88|end_char=90|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=90|end_char=91
+3	or	or	CCONJ	CC	_	2	_	_	start_char=92|end_char=94
+4	not	not	PART	RB	_	3	_	_	start_char=95|end_char=98|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=98|end_char=99|SpaceAfter=No
+

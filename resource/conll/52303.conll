@@ -1,0 +1,19 @@
+# text = I'll bet you're right, Hugin!
+# sent_id = 111851
+1-2	I'll	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	bet	bet	VERB	VB	VerbForm=Inf	2	_	_	start_char=5|end_char=8
+4-5	you're	_	_	_	_	_	_	_	start_char=9|end_char=15
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=9|end_char=12
+5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=12|end_char=15
+6	right	right	ADJ	JJ	Degree=Pos	5	_	_	start_char=16|end_char=21|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=21|end_char=22
+8	Hugin	Hugin	PROPN	NNP	Number=Sing	7	_	_	start_char=23|end_char=28|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=28|end_char=29
+
+# text = #CowgirlClassy
+# sent_id = 111852
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=30|end_char=31|SpaceAfter=No
+2	CowgirlClassy	cowgirlclassy	NOUN	NN	Number=Sing	1	_	_	start_char=31|end_char=44|SpaceAfter=No
+

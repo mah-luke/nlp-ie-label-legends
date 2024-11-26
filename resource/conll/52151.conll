@@ -1,0 +1,23 @@
+# text = I like the redhead.
+# sent_id = 111496
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7|end_char=10
+4	redhead	redhead	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = Is she your mom, your grandma, or your sister?
+# sent_id = 111497
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=20|end_char=22
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=23|end_char=26
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=27|end_char=31
+4	mom	mom	NOUN	NN	Number=Sing	3	_	_	start_char=32|end_char=35|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=35|end_char=36
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=37|end_char=41
+7	grandma	grandma	NOUN	NN	Number=Sing	6	_	_	start_char=42|end_char=49|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=49|end_char=50
+9	or	or	CCONJ	CC	_	8	_	_	start_char=51|end_char=53
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	_	_	start_char=54|end_char=58
+11	sister	sister	NOUN	NN	Number=Sing	10	_	_	start_char=59|end_char=65|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=65|end_char=66|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = Yeah, a well known occupational hazard.
+# sent_id = 75129
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=6|end_char=7
+4	well	well	ADV	RB	Degree=Pos	3	_	_	start_char=8|end_char=12
+5	known	know	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=13|end_char=18
+6	occupational	occupational	ADJ	JJ	Degree=Pos	5	_	_	start_char=19|end_char=31
+7	hazard	hazard	NOUN	NN	Number=Sing	6	_	_	start_char=32|end_char=38|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=38|end_char=39
+
+# text = And there's nothing you can do about it.
+# sent_id = 75130
+1	And	and	CCONJ	CC	_	0	_	_	start_char=40|end_char=43
+2-3	there's	_	_	_	_	_	_	_	start_char=44|end_char=51
+2	there	there	PRON	EX	_	1	_	_	start_char=44|end_char=49
+3	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=49|end_char=51
+4	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	3	_	_	start_char=52|end_char=59
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=60|end_char=63
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=64|end_char=67
+7	do	do	VERB	VB	VerbForm=Inf	6	_	_	start_char=68|end_char=70
+8	about	about	ADP	IN	_	7	_	_	start_char=71|end_char=76
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=77|end_char=79|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=79|end_char=80
+
+# text = They pay your salary and women don't take it well if you complain.
+# sent_id = 75131
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=81|end_char=85
+2	pay	pay	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=86|end_char=89
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=90|end_char=94
+4	salary	salary	NOUN	NN	Number=Sing	3	_	_	start_char=95|end_char=101
+5	and	and	CCONJ	CC	_	4	_	_	start_char=102|end_char=105
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=106|end_char=111
+7-8	don't	_	_	_	_	_	_	_	start_char=112|end_char=117
+7	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=112|end_char=114
+8	n't	not	PART	RB	_	7	_	_	start_char=114|end_char=117
+9	take	take	VERB	VB	VerbForm=Inf	8	_	_	start_char=118|end_char=122
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=123|end_char=125
+11	well	well	ADV	RB	Degree=Pos	10	_	_	start_char=126|end_char=130
+12	if	if	SCONJ	IN	_	11	_	_	start_char=131|end_char=133
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=134|end_char=137
+14	complain	complain	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	_	_	start_char=138|end_char=146|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=146|end_char=147|SpaceAfter=No
+

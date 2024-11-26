@@ -1,0 +1,25 @@
+# text = CNN is known for doxxing little old ladies.
+# sent_id = 79048
+1	CNN	CNN	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	known	know	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=7|end_char=12
+4	for	for	SCONJ	IN	_	3	_	_	start_char=13|end_char=16
+5	doxxing	doxx	VERB	VBG	VerbForm=Ger	4	_	_	start_char=17|end_char=24
+6	little	little	ADJ	JJ	Degree=Pos	5	_	_	start_char=25|end_char=31
+7	old	old	ADJ	JJ	Degree=Pos	6	_	_	start_char=32|end_char=35
+8	ladies	lady	NOUN	NNS	Number=Plur	7	_	_	start_char=36|end_char=42|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=42|end_char=43
+
+# text = I'd arm up if I were her.
+# sent_id = 79049
+1-2	I'd	_	_	_	_	_	_	_	start_char=44|end_char=47
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=44|end_char=45
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=45|end_char=47
+3	arm	arm	VERB	VB	VerbForm=Inf	2	_	_	start_char=48|end_char=51
+4	up	up	ADP	RP	_	3	_	_	start_char=52|end_char=54
+5	if	if	SCONJ	IN	_	4	_	_	start_char=55|end_char=57
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=58|end_char=59
+7	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	_	_	start_char=60|end_char=64
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=65|end_char=68|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=68|end_char=69|SpaceAfter=No
+

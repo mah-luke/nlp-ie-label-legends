@@ -1,0 +1,27 @@
+# text = If you touch her, she will yell rape.
+# sent_id = 31475
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	touch	touch	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=12
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=13|end_char=16|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=16|end_char=17
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=18|end_char=21
+7	will	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=22|end_char=26
+8	yell	yell	VERB	VB	VerbForm=Inf	7	_	_	start_char=27|end_char=31
+9	rape	rape	NOUN	NN	Number=Sing	8	_	_	start_char=32|end_char=36|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=36|end_char=37
+
+# text = Best skip the boss fight and play a new game.
+# sent_id = 31476
+1	Best	good	ADJ	JJS	Degree=Sup	0	_	_	start_char=38|end_char=42
+2	skip	skip	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=43|end_char=47
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=48|end_char=51
+4	boss	boss	NOUN	NN	Number=Sing	3	_	_	start_char=52|end_char=56
+5	fight	fight	NOUN	NN	Number=Sing	4	_	_	start_char=57|end_char=62
+6	and	and	CCONJ	CC	_	5	_	_	start_char=63|end_char=66
+7	play	play	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=67|end_char=71
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=72|end_char=73
+9	new	new	ADJ	JJ	Degree=Pos	8	_	_	start_char=74|end_char=77
+10	game	game	NOUN	NN	Number=Sing	9	_	_	start_char=78|end_char=82|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=82|end_char=83|SpaceAfter=No
+

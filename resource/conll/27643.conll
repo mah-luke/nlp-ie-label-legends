@@ -1,0 +1,43 @@
+# text = Me: Hillary Clinton protected one of the top advisers in her presidential campaign after he was accused of sexual harassment.
+# sent_id = 59376
+1	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=2|end_char=3
+3	Hillary	Hillary	PROPN	NNP	Number=Sing	2	_	_	start_char=4|end_char=11
+4	Clinton	Clinton	PROPN	NNP	Number=Sing	3	_	_	start_char=12|end_char=19
+5	protected	protect	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=20|end_char=29
+6	one	one	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=30|end_char=33
+7	of	of	ADP	IN	_	6	_	_	start_char=34|end_char=36
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=37|end_char=40
+9	top	top	ADJ	JJ	Degree=Pos	8	_	_	start_char=41|end_char=44
+10	advisers	adviser	NOUN	NNS	Number=Plur	9	_	_	start_char=45|end_char=53
+11	in	in	ADP	IN	_	10	_	_	start_char=54|end_char=56
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=57|end_char=60
+13	presidential	presidential	ADJ	JJ	Degree=Pos	12	_	_	start_char=61|end_char=73
+14	campaign	campaign	NOUN	NN	Number=Sing	13	_	_	start_char=74|end_char=82
+15	after	after	SCONJ	IN	_	14	_	_	start_char=83|end_char=88
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=89|end_char=91
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=92|end_char=95
+18	accused	accuse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	_	_	start_char=96|end_char=103
+19	of	of	ADP	IN	_	18	_	_	start_char=104|end_char=106
+20	sexual	sexual	ADJ	JJ	Degree=Pos	19	_	_	start_char=107|end_char=113
+21	harassment	harassment	NOUN	NN	Number=Sing	20	_	_	start_char=114|end_char=124|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=124|end_char=125
+
+# text = Hillary sycophants: Shut up, misogynist!
+# sent_id = 59377
+1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=126|end_char=133
+2	sycophants	sycophant	NOUN	NNS	Number=Plur	1	_	_	start_char=134|end_char=144|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=144|end_char=145
+4	Shut	shut	VERB	VB	VerbForm=Fin	3	_	_	start_char=146|end_char=150
+5	up	up	ADP	RP	_	4	_	_	start_char=151|end_char=153|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=153|end_char=154
+7	misogynist	misogynist	ADJ	JJ	Degree=Pos	6	_	_	start_char=155|end_char=165|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=165|end_char=166
+
+# text = Hillary dindu nuffin!
+# sent_id = 59378
+1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=167|end_char=174
+2	dindu	dindu	PROPN	NNP	Number=Sing	1	_	_	start_char=175|end_char=180
+3	nuffin	nuffin	X	FW	_	2	_	_	start_char=181|end_char=187|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=187|end_char=188|SpaceAfter=No
+

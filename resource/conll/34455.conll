@@ -1,0 +1,78 @@
+# text = [URL] Hu'tegh SoHvaD pagh maQam!
+# sent_id = 73734
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+4	Hu'tegh	Hu'tegh	PROPN	NNP	Number=Sing	3	_	_	start_char=6|end_char=13
+5	SoHvaD	SoHvaD	PROPN	NNP	Number=Sing	4	_	_	start_char=14|end_char=20
+6	pagh	pagh	X	FW	_	5	_	_	start_char=21|end_char=25
+7	maQam	maqam	X	FW	_	6	_	_	start_char=26|end_char=31|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=31|end_char=32
+
+# text = 'oH wIghaj, liberal toDSaH!
+# sent_id = 73735
+1	'	'	PUNCT	``	_	0	_	_	start_char=33|end_char=34|SpaceAfter=No
+2	oH	oh	INTJ	UH	_	1	_	_	start_char=34|end_char=36
+3	wIghaj	wighaj	INTJ	UH	_	2	_	_	start_char=37|end_char=43|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=43|end_char=44
+5	liberal	liberal	ADJ	JJ	Degree=Pos	4	_	_	start_char=45|end_char=52
+6	toDSaH	todsah	X	FW	_	5	_	_	start_char=53|end_char=59|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=59|end_char=60
+
+# text = vaj fuck!
+# sent_id = 73736
+1	vaj	vaj	PROPN	NNP	Number=Sing	0	_	_	start_char=61|end_char=64
+2	fuck	fuck	NOUN	NN	Number=Sing	1	_	_	start_char=65|end_char=69|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=69|end_char=70
+
+# text = Aaaargh, we can't stand you anymore!
+# sent_id = 73737
+1	Aaaargh	Aaaargh	PROPN	NNP	Number=Sing	0	_	_	start_char=71|end_char=78|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=78|end_char=79
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=80|end_char=82
+4-5	can't	_	_	_	_	_	_	_	start_char=83|end_char=88
+4	ca	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=83|end_char=85
+5	n't	not	PART	RB	_	4	_	_	start_char=85|end_char=88
+6	stand	stand	VERB	VB	VerbForm=Inf	5	_	_	start_char=89|end_char=94
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=95|end_char=98
+8	anymore	anymore	ADV	RB	_	7	_	_	start_char=99|end_char=106|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=106|end_char=107
+
+# text = We've had it with you, #liberal idiots!
+# sent_id = 73738
+1-2	We've	_	_	_	_	_	_	_	start_char=108|end_char=113
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=108|end_char=110
+2	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=110|end_char=113
+3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=114|end_char=117
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=118|end_char=120
+5	with	with	ADP	IN	_	4	_	_	start_char=121|end_char=125
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=126|end_char=129|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=129|end_char=130
+8	#liberal	#liberal	ADJ	JJ	Degree=Pos	7	_	_	start_char=131|end_char=139
+9	idiots	idiot	NOUN	NNS	Number=Plur	8	_	_	start_char=140|end_char=146|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=146|end_char=147
+
+# text = So, fuck off!)
+# sent_id = 73739
+1	So	so	INTJ	UH	_	0	_	_	start_char=148|end_char=150|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=150|end_char=151
+3	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=152|end_char=156
+4	off	off	ADP	RP	_	3	_	_	start_char=157|end_char=160|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=160|end_char=161|SpaceAfter=No
+6	)	)	PUNCT	-RRB-	_	5	_	_	start_char=161|end_char=162
+
+# text = #Discovery #StarTrek #Klingon #warriors #racist #Trump #supporters
+# sent_id = 73740
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=163|end_char=164|SpaceAfter=No
+2	Discovery	Discovery	PROPN	NNP	Number=Sing	1	_	_	start_char=164|end_char=173
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=174|end_char=175|SpaceAfter=No
+4	StarTrek	StarTrek	PROPN	NNP	Number=Sing	3	_	_	start_char=175|end_char=183
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=184|end_char=185|SpaceAfter=No
+6	Klingon	Klingon	PROPN	NNP	Number=Sing	5	_	_	start_char=185|end_char=192
+7	#warriors	#warrior	X	FW	_	6	_	_	start_char=193|end_char=202
+8	#racist	#racist	X	FW	_	7	_	_	start_char=203|end_char=210
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=211|end_char=212|SpaceAfter=No
+10	Trump	Trump	PROPN	NNP	Number=Sing	9	_	_	start_char=212|end_char=217
+11	#	#	SYM	NN	Number=Sing	10	_	_	start_char=218|end_char=219|SpaceAfter=No
+12	supporters	supporter	NOUN	NNS	Number=Plur	11	_	_	start_char=219|end_char=229|SpaceAfter=No
+

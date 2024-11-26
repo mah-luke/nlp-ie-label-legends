@@ -1,0 +1,62 @@
+# text = They aren't.
+# sent_id = 88043
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=4
+2-3	aren't	_	_	_	_	_	_	_	start_char=5|end_char=11|SpaceAfter=No
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	n't	not	PART	RB	_	2	_	_	start_char=8|end_char=11
+4	.	.	PUNCT	.	_	3	_	_	start_char=11|end_char=12
+
+# text = They never will be.
+# sent_id = 88044
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=13|end_char=17
+2	never	never	ADV	RB	_	1	_	_	start_char=18|end_char=23
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=24|end_char=28
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=29|end_char=31|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=31|end_char=32
+
+# text = All this taken advantage of theory implies they were ever good.
+# sent_id = 88045
+1	All	all	DET	PDT	_	0	_	_	start_char=33|end_char=36
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=37|end_char=41
+3	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=42|end_char=47
+4	advantage	advantage	NOUN	NN	Number=Sing	3	_	_	start_char=48|end_char=57
+5	of	of	ADP	IN	_	4	_	_	start_char=58|end_char=60
+6	theory	theory	NOUN	NN	Number=Sing	5	_	_	start_char=61|end_char=67
+7	implies	imply	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=68|end_char=75
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=76|end_char=80
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=81|end_char=85
+10	ever	ever	ADV	RB	_	9	_	_	start_char=86|end_char=90
+11	good	good	ADJ	JJ	Degree=Pos	10	_	_	start_char=91|end_char=95|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=95|end_char=96
+
+# text = Look through history, they always collapse societies.
+# sent_id = 88046
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=97|end_char=101
+2	through	through	ADP	IN	_	1	_	_	start_char=102|end_char=109
+3	history	history	NOUN	NN	Number=Sing	2	_	_	start_char=110|end_char=117|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=117|end_char=118
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=119|end_char=123
+6	always	always	ADV	RB	_	5	_	_	start_char=124|end_char=130
+7	collapse	collapse	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=131|end_char=139
+8	societies	society	NOUN	NNS	Number=Plur	7	_	_	start_char=140|end_char=149|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=149|end_char=150
+
+# text = It's not triple bracket crap, it's just what women do.
+# sent_id = 88047
+1-2	It's	_	_	_	_	_	_	_	start_char=151|end_char=155
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=151|end_char=153
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=153|end_char=155
+3	not	not	PART	RB	_	2	_	_	start_char=156|end_char=159
+4	triple	triple	ADJ	JJ	Degree=Pos	3	_	_	start_char=160|end_char=166
+5	bracket	bracket	NOUN	NN	Number=Sing	4	_	_	start_char=167|end_char=174
+6	crap	crap	NOUN	NN	Number=Sing	5	_	_	start_char=175|end_char=179|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=179|end_char=180
+8-9	it's	_	_	_	_	_	_	_	start_char=181|end_char=185
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=181|end_char=183
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=183|end_char=185
+10	just	just	ADV	RB	_	9	_	_	start_char=186|end_char=190
+11	what	what	PRON	WP	PronType=Rel	10	_	_	start_char=191|end_char=195
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=196|end_char=201
+13	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=202|end_char=204|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=204|end_char=205|SpaceAfter=No
+

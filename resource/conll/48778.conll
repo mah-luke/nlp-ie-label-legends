@@ -1,0 +1,35 @@
+# text = So that’s pretty stupid.
+# sent_id = 104280
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2-3	that’s	_	_	_	_	_	_	_	start_char=3|end_char=9
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=3|end_char=7
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=9
+4	pretty	pretty	ADV	RB	_	3	_	_	start_char=10|end_char=16
+5	stupid	stupid	ADJ	JJ	Degree=Pos	4	_	_	start_char=17|end_char=23|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=23|end_char=24
+
+# text = Not slowing down for a pedestrian?
+# sent_id = 104281
+1	Not	not	PART	RB	_	0	_	_	start_char=25|end_char=28
+2	slowing	slowing	VERB	VBG	VerbForm=Ger	1	_	_	start_char=29|end_char=36
+3	down	down	ADP	RP	_	2	_	_	start_char=37|end_char=41
+4	for	for	ADP	IN	_	3	_	_	start_char=42|end_char=45
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=46|end_char=47
+6	pedestrian	pedestrian	NOUN	NN	Number=Sing	5	_	_	start_char=48|end_char=58|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=58|end_char=59
+
+# text = You’re 100% to blame if you hit her.
+# sent_id = 104282
+1-2	You’re	_	_	_	_	_	_	_	start_char=60|end_char=66
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=60|end_char=63
+2	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=66
+3	100	100	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=67|end_char=70|SpaceAfter=No
+4	%	%	SYM	NN	Number=Sing	3	_	_	start_char=70|end_char=71
+5	to	to	PART	TO	_	4	_	_	start_char=72|end_char=74
+6	blame	blame	VERB	VB	VerbForm=Inf	5	_	_	start_char=75|end_char=80
+7	if	if	SCONJ	IN	_	6	_	_	start_char=81|end_char=83
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=84|end_char=87
+9	hit	hit	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	8	_	_	start_char=88|end_char=91
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=92|end_char=95|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=95|end_char=96|SpaceAfter=No
+

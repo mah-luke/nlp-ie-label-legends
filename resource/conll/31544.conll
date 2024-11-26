@@ -1,0 +1,61 @@
+# text = And if his dad stood up against that?
+# sent_id = 67604
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	if	if	SCONJ	IN	_	1	_	_	start_char=4|end_char=6
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=7|end_char=10
+4	dad	dad	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=14
+5	stood	stand	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=15|end_char=20
+6	up	up	ADP	RP	_	5	_	_	start_char=21|end_char=23
+7	against	against	ADP	IN	_	6	_	_	start_char=24|end_char=31
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=32|end_char=36|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=36|end_char=37
+
+# text = Loss of half his shit, half his retirement, and possibly lifetime alimony.
+# sent_id = 67605
+1	Loss	loss	NOUN	NN	Number=Sing	0	_	_	start_char=38|end_char=42
+2	of	of	ADP	IN	_	1	_	_	start_char=43|end_char=45
+3	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	2	_	_	start_char=46|end_char=50
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=51|end_char=54
+5	shit	shit	NOUN	NN	Number=Sing	4	_	_	start_char=55|end_char=59|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=59|end_char=60
+7	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	6	_	_	start_char=61|end_char=65
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=66|end_char=69
+9	retirement	retirement	NOUN	NN	Number=Sing	8	_	_	start_char=70|end_char=80|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=80|end_char=81
+11	and	and	CCONJ	CC	_	10	_	_	start_char=82|end_char=85
+12	possibly	possibly	ADV	RB	_	11	_	_	start_char=86|end_char=94
+13	lifetime	lifetime	NOUN	NN	Number=Sing	12	_	_	start_char=95|end_char=103
+14	alimony	alimony	NOUN	NN	Number=Sing	13	_	_	start_char=104|end_char=111|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=111|end_char=112
+
+# text = In short, cheaper to keep her.
+# sent_id = 67606
+1	In	in	ADP	IN	_	0	_	_	start_char=113|end_char=115
+2	short	short	ADJ	JJ	Degree=Pos	1	_	_	start_char=116|end_char=121|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=121|end_char=122
+4	cheaper	cheap	ADJ	JJR	Degree=Cmp	3	_	_	start_char=123|end_char=130
+5	to	to	PART	TO	_	4	_	_	start_char=131|end_char=133
+6	keep	keep	VERB	VB	VerbForm=Inf	5	_	_	start_char=134|end_char=138
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=139|end_char=142|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=142|end_char=143
+
+# text = Not saying it’s right, but trying to start over later is incredibly difficult.
+# sent_id = 67607
+1	Not	not	PART	RB	_	0	_	_	start_char=144|end_char=147
+2	saying	say	VERB	VBG	VerbForm=Ger	1	_	_	start_char=148|end_char=154
+3-4	it’s	_	_	_	_	_	_	_	start_char=155|end_char=159
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=155|end_char=157
+4	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=157|end_char=159
+5	right	right	ADJ	JJ	Degree=Pos	4	_	_	start_char=160|end_char=165|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=165|end_char=166
+7	but	but	CCONJ	CC	_	6	_	_	start_char=167|end_char=170
+8	trying	try	VERB	VBG	VerbForm=Ger	7	_	_	start_char=171|end_char=177
+9	to	to	PART	TO	_	8	_	_	start_char=178|end_char=180
+10	start	start	VERB	VB	VerbForm=Inf	9	_	_	start_char=181|end_char=186
+11	over	over	ADV	RB	_	10	_	_	start_char=187|end_char=191
+12	later	late	ADV	RBR	Degree=Cmp	11	_	_	start_char=192|end_char=197
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=198|end_char=200
+14	incredibly	incredibly	ADV	RB	_	13	_	_	start_char=201|end_char=211
+15	difficult	difficult	ADJ	JJ	Degree=Pos	14	_	_	start_char=212|end_char=221|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=221|end_char=222|SpaceAfter=No
+

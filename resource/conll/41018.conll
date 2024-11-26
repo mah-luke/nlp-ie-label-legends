@@ -1,0 +1,33 @@
+# text = Ginger beer is a lot like ginger women.
+# sent_id = 87799
+1	Ginger	ginger	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=6
+2	beer	beer	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=11
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=14
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=15|end_char=16
+5	lot	lot	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=20
+6	like	like	ADP	IN	_	5	_	_	start_char=21|end_char=25
+7	ginger	ginger	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=32
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=33|end_char=38|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=38|end_char=39
+
+# text = They both taste good but you wouldn't be seen dead with one in the pub.
+# sent_id = 87800
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=40|end_char=44
+2	both	both	DET	DT	_	1	_	_	start_char=45|end_char=49
+3	taste	taste	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=50|end_char=55
+4	good	good	ADJ	JJ	Degree=Pos	3	_	_	start_char=56|end_char=60
+5	but	but	CCONJ	CC	_	4	_	_	start_char=61|end_char=64
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=65|end_char=68
+7-8	wouldn't	_	_	_	_	_	_	_	start_char=69|end_char=77
+7	would	would	AUX	MD	VerbForm=Fin	6	_	_	start_char=69|end_char=74
+8	n't	not	PART	RB	_	7	_	_	start_char=74|end_char=77
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=78|end_char=80
+10	seen	see	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=81|end_char=85
+11	dead	dead	ADJ	JJ	Degree=Pos	10	_	_	start_char=86|end_char=90
+12	with	with	ADP	IN	_	11	_	_	start_char=91|end_char=95
+13	one	one	NUM	CD	NumForm=Word|NumType=Card	12	_	_	start_char=96|end_char=99
+14	in	in	ADP	IN	_	13	_	_	start_char=100|end_char=102
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=103|end_char=106
+16	pub	pub	NOUN	NN	Number=Sing	15	_	_	start_char=107|end_char=110|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=110|end_char=111|SpaceAfter=No
+

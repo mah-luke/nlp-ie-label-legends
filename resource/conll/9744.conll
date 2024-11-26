@@ -1,0 +1,66 @@
+# text = THOT's gonna THOT.
+# sent_id = 20595
+1-2	THOT's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	THOT	thot	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3-4	gonna	_	_	_	_	_	_	_	start_char=7|end_char=12
+3	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=7|end_char=10
+4	na	to	PART	TO	_	3	_	_	start_char=10|end_char=12
+5	THOT	thot	VERB	VB	VerbForm=Inf	4	_	_	start_char=13|end_char=17|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=17|end_char=18
+
+# text = That girl lives to display herself.
+# sent_id = 20596
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=19|end_char=23
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=24|end_char=28
+3	lives	live	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=29|end_char=34
+4	to	to	PART	TO	_	3	_	_	start_char=35|end_char=37
+5	display	display	VERB	VB	VerbForm=Inf	4	_	_	start_char=38|end_char=45
+6	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	_	_	start_char=46|end_char=53|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=53|end_char=54
+
+# text = Too bad some Trad Dad wasn't there to throw a coat on her and tell her that's not how a proper woman should dress.
+# sent_id = 20597
+1	Too	too	ADV	RB	_	0	_	_	start_char=55|end_char=58
+2	bad	bad	ADJ	JJ	Degree=Pos	1	_	_	start_char=59|end_char=62
+3	some	some	DET	DT	_	2	_	_	start_char=63|end_char=67
+4	Trad	Trad	PROPN	NNP	Number=Sing	3	_	_	start_char=68|end_char=72
+5	Dad	dad	NOUN	NN	Number=Sing	4	_	_	start_char=73|end_char=76
+6-7	wasn't	_	_	_	_	_	_	_	start_char=77|end_char=83
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=77|end_char=80
+7	n't	not	PART	RB	_	6	_	_	start_char=80|end_char=83
+8	there	there	ADV	RB	PronType=Dem	7	_	_	start_char=84|end_char=89
+9	to	to	PART	TO	_	8	_	_	start_char=90|end_char=92
+10	throw	throw	VERB	VB	VerbForm=Inf	9	_	_	start_char=93|end_char=98
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=99|end_char=100
+12	coat	coat	NOUN	NN	Number=Sing	11	_	_	start_char=101|end_char=105
+13	on	on	ADP	IN	_	12	_	_	start_char=106|end_char=108
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=109|end_char=112
+15	and	and	CCONJ	CC	_	14	_	_	start_char=113|end_char=116
+16	tell	tell	VERB	VB	VerbForm=Inf	15	_	_	start_char=117|end_char=121
+17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=122|end_char=125
+18-19	that's	_	_	_	_	_	_	_	start_char=126|end_char=132
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	17	_	_	start_char=126|end_char=130
+19	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=130|end_char=132
+20	not	not	PART	RB	_	19	_	_	start_char=133|end_char=136
+21	how	how	ADV	WRB	PronType=Int	20	_	_	start_char=137|end_char=140
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	start_char=141|end_char=142
+23	proper	proper	ADJ	JJ	Degree=Pos	22	_	_	start_char=143|end_char=149
+24	woman	woman	NOUN	NN	Number=Sing	23	_	_	start_char=150|end_char=155
+25	should	should	AUX	MD	VerbForm=Fin	24	_	_	start_char=156|end_char=162
+26	dress	dress	VERB	VB	VerbForm=Inf	25	_	_	start_char=163|end_char=168|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=168|end_char=169
+
+# text = Does she want to be mistaken for a whore?
+# sent_id = 20598
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=170|end_char=174
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=175|end_char=178
+3	want	want	VERB	VB	VerbForm=Inf	2	_	_	start_char=179|end_char=183
+4	to	to	PART	TO	_	3	_	_	start_char=184|end_char=186
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=187|end_char=189
+6	mistaken	mistaken	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=190|end_char=198
+7	for	for	ADP	IN	_	6	_	_	start_char=199|end_char=202
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=203|end_char=204
+9	whore	whore	NOUN	NN	Number=Sing	8	_	_	start_char=205|end_char=210|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=210|end_char=211|SpaceAfter=No
+

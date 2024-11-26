@@ -1,0 +1,48 @@
+# text = Don't escalate over text.
+# sent_id = 66947
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	escalate	escalate	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=14
+4	over	over	ADP	IN	_	3	_	_	start_char=15|end_char=19
+5	text	text	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=24|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=24|end_char=25
+
+# text = Get her on a video call then get her comfortable and then escalate.
+# sent_id = 66948
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=26|end_char=29
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=30|end_char=33
+3	on	on	ADP	IN	_	2	_	_	start_char=34|end_char=36
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=37|end_char=38
+5	video	video	NOUN	NN	Number=Sing	4	_	_	start_char=39|end_char=44
+6	call	call	NOUN	NN	Number=Sing	5	_	_	start_char=45|end_char=49
+7	then	then	ADV	RB	PronType=Dem	6	_	_	start_char=50|end_char=54
+8	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=55|end_char=58
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=59|end_char=62
+10	comfortable	comfortable	ADJ	JJ	Degree=Pos	9	_	_	start_char=63|end_char=74
+11	and	and	CCONJ	CC	_	10	_	_	start_char=75|end_char=78
+12	then	then	ADV	RB	PronType=Dem	11	_	_	start_char=79|end_char=83
+13	escalate	escalate	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=84|end_char=92|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=92|end_char=93
+
+# text = This way you can see her reaction and feedback on real time.
+# sent_id = 66949
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=94|end_char=98
+2	way	way	NOUN	NN	Number=Sing	1	_	_	start_char=99|end_char=102
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=103|end_char=106
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=107|end_char=110
+5	see	see	VERB	VB	VerbForm=Inf	4	_	_	start_char=111|end_char=114
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=115|end_char=118
+7	reaction	reaction	NOUN	NN	Number=Sing	6	_	_	start_char=119|end_char=127
+8	and	and	CCONJ	CC	_	7	_	_	start_char=128|end_char=131
+9	feedback	feedback	NOUN	NN	Number=Sing	8	_	_	start_char=132|end_char=140
+10	on	on	ADP	IN	_	9	_	_	start_char=141|end_char=143
+11	real	real	ADJ	JJ	Degree=Pos	10	_	_	start_char=144|end_char=148
+12	time	time	NOUN	NN	Number=Sing	11	_	_	start_char=149|end_char=153|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=153|end_char=154
+
+# text = Vinny igcasanova.com
+# sent_id = 66950
+1	Vinny	vinny	X	GW	Typo=Yes	0	_	_	start_char=155|end_char=160
+2	igcasanova.com	igcasanova.com	X	ADD	_	1	_	_	start_char=161|end_char=175|SpaceAfter=No
+

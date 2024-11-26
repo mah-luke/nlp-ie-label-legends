@@ -1,0 +1,58 @@
+# text = It’s just because they’re female.
+# sent_id = 100606
+1-2	It’s	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	just	just	ADV	RB	_	2	_	_	start_char=5|end_char=9
+4	because	because	SCONJ	IN	_	3	_	_	start_char=10|end_char=17
+5-6	they’re	_	_	_	_	_	_	_	start_char=18|end_char=25
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=18|end_char=22
+6	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=22|end_char=25
+7	female	female	ADJ	JJ	Degree=Pos	6	_	_	start_char=26|end_char=32|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=32|end_char=33
+
+# text = Their emphasize on “curves” is to shift the attention that they’re “manly” and love curves because “BiOlogY”, but the truth is as long as she’s a female, it works.
+# sent_id = 100607
+1	Their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=34|end_char=39
+2	emphasize	emphasize	NOUN	NN	Number=Sing	1	_	_	start_char=40|end_char=49
+3	on	on	ADP	IN	_	2	_	_	start_char=50|end_char=52
+4	“	''	PUNCT	``	_	3	_	_	start_char=53|end_char=54|SpaceAfter=No
+5	curves	curve	NOUN	NNS	Number=Plur	4	_	_	start_char=54|end_char=60|SpaceAfter=No
+6	”	''	PUNCT	''	_	5	_	_	start_char=60|end_char=61
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=62|end_char=64
+8	to	to	PART	TO	_	7	_	_	start_char=65|end_char=67
+9	shift	shift	VERB	VB	VerbForm=Inf	8	_	_	start_char=68|end_char=73
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=74|end_char=77
+11	attention	attention	NOUN	NN	Number=Sing	10	_	_	start_char=78|end_char=87
+12	that	that	PRON	WDT	PronType=Rel	11	_	_	start_char=88|end_char=92
+13-14	they’re	_	_	_	_	_	_	_	start_char=93|end_char=100
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=93|end_char=97
+14	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=97|end_char=100
+15	“	''	PUNCT	``	_	14	_	_	start_char=101|end_char=102|SpaceAfter=No
+16	manly	manly	ADJ	JJ	Degree=Pos	15	_	_	start_char=102|end_char=107|SpaceAfter=No
+17	”	''	PUNCT	''	_	16	_	_	start_char=107|end_char=108
+18	and	and	CCONJ	CC	_	17	_	_	start_char=109|end_char=112
+19	love	love	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=113|end_char=117
+20	curves	curve	NOUN	NNS	Number=Plur	19	_	_	start_char=118|end_char=124
+21	because	because	SCONJ	IN	_	20	_	_	start_char=125|end_char=132
+22	“	''	PUNCT	``	_	21	_	_	start_char=133|end_char=134|SpaceAfter=No
+23	BiOlogY	BiOlogY	PROPN	NNP	Number=Sing	22	_	_	start_char=134|end_char=141|SpaceAfter=No
+24	”	''	PUNCT	''	_	23	_	_	start_char=141|end_char=142|SpaceAfter=No
+25	,	,	PUNCT	,	_	24	_	_	start_char=142|end_char=143
+26	but	but	CCONJ	CC	_	25	_	_	start_char=144|end_char=147
+27	the	the	DET	DT	Definite=Def|PronType=Art	26	_	_	start_char=148|end_char=151
+28	truth	truth	NOUN	NN	Number=Sing	27	_	_	start_char=152|end_char=157
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	_	_	start_char=158|end_char=160
+30	as	as	ADV	RB	_	29	_	_	start_char=161|end_char=163
+31	long	long	ADV	RB	Degree=Pos	30	_	_	start_char=164|end_char=168
+32	as	as	SCONJ	IN	_	31	_	_	start_char=169|end_char=171
+33-34	she’s	_	_	_	_	_	_	_	start_char=172|end_char=177
+33	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	_	_	start_char=172|end_char=175
+34	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	_	_	start_char=175|end_char=177
+35	a	a	DET	DT	Definite=Ind|PronType=Art	34	_	_	start_char=178|end_char=179
+36	female	female	NOUN	NN	Number=Sing	35	_	_	start_char=180|end_char=186|SpaceAfter=No
+37	,	,	PUNCT	,	_	36	_	_	start_char=186|end_char=187
+38	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	37	_	_	start_char=188|end_char=190
+39	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	38	_	_	start_char=191|end_char=196|SpaceAfter=No
+40	.	.	PUNCT	.	_	39	_	_	start_char=196|end_char=197|SpaceAfter=No
+

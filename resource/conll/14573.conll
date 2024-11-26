@@ -1,0 +1,31 @@
+# text = What a total cunt.
+# sent_id = 31074
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	total	total	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=12
+4	cunt	cunt	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = PS
+# sent_id = 31075
+1	PS	ps	NOUN	NN	Number=Sing	0	_	_	start_char=19|end_char=21
+
+# text = It's the mother who's the total cunt, not the kid.
+# sent_id = 31076
+1-2	It's	_	_	_	_	_	_	_	start_char=22|end_char=26
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=22|end_char=24
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=24|end_char=26
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=27|end_char=30
+4	mother	mother	NOUN	NN	Number=Sing	3	_	_	start_char=31|end_char=37
+5-6	who's	_	_	_	_	_	_	_	start_char=38|end_char=43
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=38|end_char=41
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=41|end_char=43
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=44|end_char=47
+8	total	total	ADJ	JJ	Degree=Pos	7	_	_	start_char=48|end_char=53
+9	cunt	cunt	NOUN	NN	Number=Sing	8	_	_	start_char=54|end_char=58|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=58|end_char=59
+11	not	not	PART	RB	_	10	_	_	start_char=60|end_char=63
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=64|end_char=67
+13	kid	kid	NOUN	NN	Number=Sing	12	_	_	start_char=68|end_char=71|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=71|end_char=72|SpaceAfter=No
+

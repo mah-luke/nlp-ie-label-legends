@@ -1,0 +1,45 @@
+# text = Thats unbelievable.
+# sent_id = 118322
+1-2	Thats	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=5
+3	unbelievable	unbelievable	ADJ	JJ	Degree=Pos	2	_	_	start_char=6|end_char=18|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=18|end_char=19
+
+# text = I live in Germany but do you know what?
+# sent_id = 118323
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=20|end_char=21
+2	live	live	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=26
+3	in	in	ADP	IN	_	2	_	_	start_char=27|end_char=29
+4	Germany	Germany	PROPN	NNP	Number=Sing	3	_	_	start_char=30|end_char=37
+5	but	but	CCONJ	CC	_	4	_	_	start_char=38|end_char=41
+6	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=42|end_char=44
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=45|end_char=48
+8	know	know	VERB	VB	VerbForm=Inf	7	_	_	start_char=49|end_char=53
+9	what	what	PRON	WP	PronType=Int	8	_	_	start_char=54|end_char=58|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=58|end_char=59
+
+# text = They can have all of it.
+# sent_id = 118324
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=60|end_char=64
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=65|end_char=68
+3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=69|end_char=73
+4	all	all	DET	DT	_	3	_	_	start_char=74|end_char=77
+5	of	of	ADP	IN	_	4	_	_	start_char=78|end_char=80
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=81|end_char=83|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=83|end_char=84
+
+# text = All german woman are ugly and incompetent for a relationship.
+# sent_id = 118325
+1	All	all	DET	DT	_	0	_	_	start_char=85|end_char=88
+2	german	german	ADJ	JJ	Degree=Pos	1	_	_	start_char=89|end_char=95
+3	woman	woman	NOUN	NN	Number=Sing	2	_	_	start_char=96|end_char=101
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=102|end_char=105
+5	ugly	ugly	ADJ	JJ	Degree=Pos	4	_	_	start_char=106|end_char=110
+6	and	and	CCONJ	CC	_	5	_	_	start_char=111|end_char=114
+7	incompetent	incompetent	ADJ	JJ	Degree=Pos	6	_	_	start_char=115|end_char=126
+8	for	for	ADP	IN	_	7	_	_	start_char=127|end_char=130
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=131|end_char=132
+10	relationship	relationship	NOUN	NN	Number=Sing	9	_	_	start_char=133|end_char=145|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=145|end_char=146|SpaceAfter=No
+

@@ -1,0 +1,67 @@
+# text = To be honest if it was up to me I'd let the young go before the old.
+# sent_id = 51381
+1	To	to	PART	TO	_	0	_	_	start_char=0|end_char=2
+2	be	be	AUX	VB	VerbForm=Inf	1	_	_	start_char=3|end_char=5
+3	honest	honest	ADJ	JJ	Degree=Pos	2	_	_	start_char=6|end_char=12
+4	if	if	SCONJ	IN	_	3	_	_	start_char=13|end_char=15
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=16|end_char=18
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=19|end_char=22
+7	up	up	ADV	RB	_	6	_	_	start_char=23|end_char=25
+8	to	to	ADP	IN	_	7	_	_	start_char=26|end_char=28
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=29|end_char=31
+10-11	I'd	_	_	_	_	_	_	_	start_char=32|end_char=35
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=32|end_char=33
+11	'd	would	AUX	MD	VerbForm=Fin	10	_	_	start_char=33|end_char=35
+12	let	let	VERB	VB	VerbForm=Inf	11	_	_	start_char=36|end_char=39
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=40|end_char=43
+14	young	young	ADJ	JJ	Degree=Pos	13	_	_	start_char=44|end_char=49
+15	go	go	VERB	VB	VerbForm=Inf	14	_	_	start_char=50|end_char=52
+16	before	before	ADP	IN	_	15	_	_	start_char=53|end_char=59
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=60|end_char=63
+18	old	old	ADJ	JJ	Degree=Pos	17	_	_	start_char=64|end_char=67|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=67|end_char=68
+
+# text = If I'm 80+ and a 20 year needs the spot I'd gladly give it up for them man or woman.
+# sent_id = 51382
+1	If	if	SCONJ	IN	_	0	_	_	start_char=69|end_char=71
+2-3	I'm	_	_	_	_	_	_	_	start_char=72|end_char=75
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=72|end_char=73
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=73|end_char=75
+4	80	80	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=76|end_char=78|SpaceAfter=No
+5	+	+	SYM	SYM	_	4	_	_	start_char=78|end_char=79
+6	and	and	CCONJ	CC	_	5	_	_	start_char=80|end_char=83
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=84|end_char=85
+8	20	20	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=86|end_char=88
+9	year	year	NOUN	NN	Number=Sing	8	_	_	start_char=89|end_char=93
+10	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=94|end_char=99
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=100|end_char=103
+12	spot	spot	NOUN	NN	Number=Sing	11	_	_	start_char=104|end_char=108
+13-14	I'd	_	_	_	_	_	_	_	start_char=109|end_char=112
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=109|end_char=110
+14	'd	would	AUX	MD	VerbForm=Fin	13	_	_	start_char=110|end_char=112
+15	gladly	gladly	ADV	RB	_	14	_	_	start_char=113|end_char=119
+16	give	give	VERB	VB	VerbForm=Inf	15	_	_	start_char=120|end_char=124
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=125|end_char=127
+18	up	up	ADP	RP	_	17	_	_	start_char=128|end_char=130
+19	for	for	ADP	IN	_	18	_	_	start_char=131|end_char=134
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	_	_	start_char=135|end_char=139
+21	man	man	NOUN	NN	Number=Sing	20	_	_	start_char=140|end_char=143
+22	or	or	CCONJ	CC	_	21	_	_	start_char=144|end_char=146
+23	woman	woman	NOUN	NN	Number=Sing	22	_	_	start_char=147|end_char=152|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=152|end_char=153
+
+# text = But that 20 year old guy gets the spot before the chick
+# sent_id = 51383
+1	But	but	CCONJ	CC	_	0	_	_	start_char=154|end_char=157
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=158|end_char=162
+3	20	20	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=163|end_char=165
+4	year	year	NOUN	NN	Number=Sing	3	_	_	start_char=166|end_char=170
+5	old	old	ADJ	JJ	Degree=Pos	4	_	_	start_char=171|end_char=174
+6	guy	guy	NOUN	NN	Number=Sing	5	_	_	start_char=175|end_char=178
+7	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=179|end_char=183
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=184|end_char=187
+9	spot	spot	NOUN	NN	Number=Sing	8	_	_	start_char=188|end_char=192
+10	before	before	ADP	IN	_	9	_	_	start_char=193|end_char=199
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=200|end_char=203
+12	chick	chick	NOUN	NN	Number=Sing	11	_	_	start_char=204|end_char=209|SpaceAfter=No
+

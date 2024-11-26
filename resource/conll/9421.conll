@@ -1,0 +1,61 @@
+# text = The fug?
+# sent_id = 19888
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	fug	fug	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=7|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=7|end_char=8
+
+# text = Ramzi Paul has Loomer on his Live show and refers to another Jew, Stone, how much of a "brave" journalist she is.
+# sent_id = 19889
+1	Ramzi	Ramzi	PROPN	NNP	Number=Sing	0	_	_	start_char=9|end_char=14
+2	Paul	Paul	PROPN	NNP	Number=Sing	1	_	_	start_char=15|end_char=19
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=20|end_char=23
+4	Loomer	Loomer	PROPN	NNP	Number=Sing	3	_	_	start_char=24|end_char=30
+5	on	on	ADP	IN	_	4	_	_	start_char=31|end_char=33
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=34|end_char=37
+7	Live	live	ADJ	JJ	Degree=Pos	6	_	_	start_char=38|end_char=42
+8	show	show	NOUN	NN	Number=Sing	7	_	_	start_char=43|end_char=47
+9	and	and	CCONJ	CC	_	8	_	_	start_char=48|end_char=51
+10	refers	refer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=52|end_char=58
+11	to	to	ADP	IN	_	10	_	_	start_char=59|end_char=61
+12	another	another	DET	DT	_	11	_	_	start_char=62|end_char=69
+13	Jew	Jew	NOUN	NN	Number=Sing	12	_	_	start_char=70|end_char=73|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=73|end_char=74
+15	Stone	Stone	PROPN	NNP	Number=Sing	14	_	_	start_char=75|end_char=80|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=80|end_char=81
+17	how	how	ADV	WRB	PronType=Int	16	_	_	start_char=82|end_char=85
+18	much	much	ADJ	JJ	Degree=Pos	17	_	_	start_char=86|end_char=90
+19	of	of	ADP	IN	_	18	_	_	start_char=91|end_char=93
+20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	start_char=94|end_char=95
+21	"	"	PUNCT	``	_	20	_	_	start_char=96|end_char=97|SpaceAfter=No
+22	brave	brave	ADJ	JJ	Degree=Pos	21	_	_	start_char=97|end_char=102|SpaceAfter=No
+23	"	"	PUNCT	''	_	22	_	_	start_char=102|end_char=103
+24	journalist	journalist	NOUN	NN	Number=Sing	23	_	_	start_char=104|end_char=114
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	_	_	start_char=115|end_char=118
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	start_char=119|end_char=121|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=121|end_char=122
+
+# text = Screw this.
+# sent_id = 19890
+1	Screw	screw	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=123|end_char=128
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=129|end_char=133|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=133|end_char=134
+
+# text = I need to think whether I'm going to unsubscribe after so many years.
+# sent_id = 19891
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=135|end_char=136
+2	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=137|end_char=141
+3	to	to	PART	TO	_	2	_	_	start_char=142|end_char=144
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=145|end_char=150
+5	whether	whether	SCONJ	IN	_	4	_	_	start_char=151|end_char=158
+6-7	I'm	_	_	_	_	_	_	_	start_char=159|end_char=162
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=159|end_char=160
+7	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=160|end_char=162
+8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=163|end_char=168
+9	to	to	PART	TO	_	8	_	_	start_char=169|end_char=171
+10	unsubscribe	unsubscribe	VERB	VB	VerbForm=Inf	9	_	_	start_char=172|end_char=183
+11	after	after	ADP	IN	_	10	_	_	start_char=184|end_char=189
+12	so	so	ADV	RB	_	11	_	_	start_char=190|end_char=192
+13	many	many	ADJ	JJ	Degree=Pos	12	_	_	start_char=193|end_char=197
+14	years	year	NOUN	NNS	Number=Plur	13	_	_	start_char=198|end_char=203|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=203|end_char=204|SpaceAfter=No
+

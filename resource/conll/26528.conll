@@ -1,0 +1,40 @@
+# text = [USER] Exactly... which is why she loved Obama.
+# sent_id = 57003
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	Exactly	exactly	ADV	RB	_	3	_	_	start_char=7|end_char=14|SpaceAfter=No
+5	...	...	PUNCT	,	_	4	_	_	start_char=14|end_char=17
+6	which	which	PRON	WDT	PronType=Rel	5	_	_	start_char=18|end_char=23
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=24|end_char=26
+8	why	why	ADV	WRB	PronType=Rel	7	_	_	start_char=27|end_char=30
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=31|end_char=34
+10	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=35|end_char=40
+11	Obama	Obama	PROPN	NNP	Number=Sing	10	_	_	start_char=41|end_char=46|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=46|end_char=47
+
+# text = Well sorry old hag... your time is done.
+# sent_id = 57004
+1	Well	well	INTJ	UH	_	0	_	_	start_char=48|end_char=52
+2	sorry	sorry	ADJ	JJ	Degree=Pos	1	_	_	start_char=53|end_char=58
+3	old	old	ADJ	JJ	Degree=Pos	2	_	_	start_char=59|end_char=62
+4	hag	hag	NOUN	NN	Number=Sing	3	_	_	start_char=63|end_char=66|SpaceAfter=No
+5	...	...	PUNCT	,	_	4	_	_	start_char=66|end_char=69
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=70|end_char=74
+7	time	time	NOUN	NN	Number=Sing	6	_	_	start_char=75|end_char=79
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=80|end_char=82
+9	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=83|end_char=87|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=87|end_char=88
+
+# text = The world is waking up to the truth.
+# sent_id = 57005
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=89|end_char=92
+2	world	world	NOUN	NN	Number=Sing	1	_	_	start_char=93|end_char=98
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=99|end_char=101
+4	waking	wake	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=102|end_char=108
+5	up	up	ADP	RP	_	4	_	_	start_char=109|end_char=111
+6	to	to	ADP	IN	_	5	_	_	start_char=112|end_char=114
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=115|end_char=118
+8	truth	truth	NOUN	NN	Number=Sing	7	_	_	start_char=119|end_char=124|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=124|end_char=125|SpaceAfter=No
+

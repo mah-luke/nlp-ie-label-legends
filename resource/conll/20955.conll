@@ -1,0 +1,34 @@
+# text = An accident is an accident and excusable.
+# sent_id = 44976
+1	An	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=2
+2	accident	accident	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=11
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=14
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=15|end_char=17
+5	accident	accident	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=26
+6	and	and	CCONJ	CC	_	5	_	_	start_char=27|end_char=30
+7	excusable	excusable	ADJ	JJ	Degree=Pos	6	_	_	start_char=31|end_char=40|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=40|end_char=41
+
+# text = If I smelt bleach though, I'd push it down her neck, woman or no woman!
+# sent_id = 44977
+1	If	if	SCONJ	IN	_	0	_	_	start_char=42|end_char=44
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=45|end_char=46
+3	smelt	smeel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=47|end_char=52
+4	bleach	bleach	NOUN	NN	Number=Sing	3	_	_	start_char=53|end_char=59
+5	though	though	ADV	RB	_	4	_	_	start_char=60|end_char=66|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=66|end_char=67
+7-8	I'd	_	_	_	_	_	_	_	start_char=68|end_char=71
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=68|end_char=69
+8	'd	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=69|end_char=71
+9	push	push	VERB	VB	VerbForm=Inf	8	_	_	start_char=72|end_char=76
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=77|end_char=79
+11	down	down	ADP	RP	_	10	_	_	start_char=80|end_char=84
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=85|end_char=88
+13	neck	neck	NOUN	NN	Number=Sing	12	_	_	start_char=89|end_char=93|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=93|end_char=94
+15	woman	woman	NOUN	NN	Number=Sing	14	_	_	start_char=95|end_char=100
+16	or	or	CCONJ	CC	_	15	_	_	start_char=101|end_char=103
+17	no	no	DET	DT	_	16	_	_	start_char=104|end_char=106
+18	woman	woman	NOUN	NN	Number=Sing	17	_	_	start_char=107|end_char=112|SpaceAfter=No
+19	!	!	PUNCT	.	_	18	_	_	start_char=112|end_char=113|SpaceAfter=No
+

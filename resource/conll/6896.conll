@@ -1,0 +1,20 @@
+# text = [URL]
+# sent_id = 14401
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+
+# text = Thousands in Paris protest enslavement of black africans in Libya.
+# sent_id = 14402
+1	Thousands	thousand	NOUN	NNS	Number=Plur	0	_	_	start_char=6|end_char=15
+2	in	in	ADP	IN	_	1	_	_	start_char=16|end_char=18
+3	Paris	Paris	PROPN	NNP	Number=Sing	2	_	_	start_char=19|end_char=24
+4	protest	protest	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=25|end_char=32
+5	enslavement	enslavement	NOUN	NN	Number=Sing	4	_	_	start_char=33|end_char=44
+6	of	of	ADP	IN	_	5	_	_	start_char=45|end_char=47
+7	black	black	ADJ	JJ	Degree=Pos	6	_	_	start_char=48|end_char=53
+8	africans	African	PROPN	NNPS	Number=Plur	7	_	_	start_char=54|end_char=62
+9	in	in	ADP	IN	_	8	_	_	start_char=63|end_char=65
+10	Libya	Libya	PROPN	NNP	Number=Sing	9	_	_	start_char=66|end_char=71|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=71|end_char=72|SpaceAfter=No
+

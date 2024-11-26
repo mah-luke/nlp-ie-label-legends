@@ -1,0 +1,65 @@
+# text = You're so close to self-awareness!
+# sent_id = 88594
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	so	so	ADV	RB	_	2	_	_	start_char=7|end_char=9
+4	close	close	ADJ	JJ	Degree=Pos	3	_	_	start_char=10|end_char=15
+5	to	to	ADP	IN	_	4	_	_	start_char=16|end_char=18
+6	self	self	NOUN	NN	Number=Sing	5	_	_	start_char=19|end_char=23|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	_	_	start_char=23|end_char=24|SpaceAfter=No
+8	awareness	awareness	NOUN	NN	Number=Sing	7	_	_	start_char=24|end_char=33|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=33|end_char=34
+
+# text = Exciting!!
+# sent_id = 88595
+1	Exciting	Exciting	ADJ	JJ	Degree=Pos	0	_	_	start_char=35|end_char=43|SpaceAfter=No
+2	!!	!!	PUNCT	.	_	1	_	_	start_char=43|end_char=45
+
+# text = Maybe - just maybe - *you're* the ideologue here?
+# sent_id = 88596
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=46|end_char=51
+2	-	-	PUNCT	,	_	1	_	_	start_char=52|end_char=53
+3	just	just	ADV	RB	_	2	_	_	start_char=54|end_char=58
+4	maybe	maybe	ADV	RB	_	3	_	_	start_char=59|end_char=64
+5	-	-	PUNCT	,	_	4	_	_	start_char=65|end_char=66
+6	*	*	PUNCT	NFP	_	5	_	_	start_char=67|end_char=68|SpaceAfter=No
+7-8	you're	_	_	_	_	_	_	_	start_char=68|end_char=74|SpaceAfter=No
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=68|end_char=71
+8	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=71|end_char=74
+9	*	*	PUNCT	NFP	_	8	_	_	start_char=74|end_char=75
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=76|end_char=79
+11	ideologue	ideologue	NOUN	NN	Number=Sing	10	_	_	start_char=80|end_char=89
+12	here	here	ADV	RB	PronType=Dem	11	_	_	start_char=90|end_char=94|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=94|end_char=95
+
+# text = I mean, you are telling people they're braindead for daring not to hate a game that hasn't even been released yet.
+# sent_id = 88597
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=96|end_char=97
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=98|end_char=102|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=102|end_char=103
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=104|end_char=107
+5	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=108|end_char=111
+6	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=112|end_char=119
+7	people	person	NOUN	NNS	Number=Plur	6	_	_	start_char=120|end_char=126
+8-9	they're	_	_	_	_	_	_	_	start_char=127|end_char=134
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=127|end_char=131
+9	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=131|end_char=134
+10	braindead	braindead	ADJ	JJ	Degree=Pos	9	_	_	start_char=135|end_char=144
+11	for	for	SCONJ	IN	_	10	_	_	start_char=145|end_char=148
+12	daring	dare	VERB	VBG	VerbForm=Ger	11	_	_	start_char=149|end_char=155
+13	not	not	PART	RB	_	12	_	_	start_char=156|end_char=159
+14	to	to	PART	TO	_	13	_	_	start_char=160|end_char=162
+15	hate	hate	VERB	VB	VerbForm=Inf	14	_	_	start_char=163|end_char=167
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=168|end_char=169
+17	game	game	NOUN	NN	Number=Sing	16	_	_	start_char=170|end_char=174
+18	that	that	PRON	WDT	PronType=Rel	17	_	_	start_char=175|end_char=179
+19-20	hasn't	_	_	_	_	_	_	_	start_char=180|end_char=186
+19	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=180|end_char=183
+20	n't	not	PART	RB	_	19	_	_	start_char=183|end_char=186
+21	even	even	ADV	RB	_	20	_	_	start_char=187|end_char=191
+22	been	be	AUX	VBN	Tense=Past|VerbForm=Part	21	_	_	start_char=192|end_char=196
+23	released	release	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	_	_	start_char=197|end_char=205
+24	yet	yet	ADV	RB	_	23	_	_	start_char=206|end_char=209|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=209|end_char=210|SpaceAfter=No
+

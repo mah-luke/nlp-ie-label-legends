@@ -1,0 +1,20 @@
+# text = Why are you talking to her at all?
+# sent_id = 78377
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=8|end_char=11
+4	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=12|end_char=19
+5	to	to	ADP	IN	_	4	_	_	start_char=20|end_char=22
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=23|end_char=26
+7	at	at	ADP	IN	_	6	_	_	start_char=27|end_char=29
+8	all	all	DET	DT	_	7	_	_	start_char=30|end_char=33|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=33|end_char=34
+
+# text = Block her fucking number.
+# sent_id = 78378
+1	Block	Block	VERB	VB	Mood=Imp|VerbForm=Inf	0	_	_	start_char=35|end_char=40
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=41|end_char=44
+3	fucking	fuck	NOUN	NN	Number=Sing	2	_	_	start_char=45|end_char=52
+4	number	number	NOUN	NN	Number=Sing	3	_	_	start_char=53|end_char=59|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=59|end_char=60|SpaceAfter=No
+

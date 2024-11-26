@@ -1,0 +1,39 @@
+# text = Old magazine ads.
+# sent_id = 113345
+1	Old	Old	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=3
+2	magazine	magazine	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=12
+3	ads	ad	NOUN	NNS	Number=Plur	2	_	_	start_char=13|end_char=16|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=16|end_char=17
+
+# text = Them there are fightin' words.
+# sent_id = 113346
+1	Them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=18|end_char=22
+2	there	there	PRON	EX	_	1	_	_	start_char=23|end_char=28
+3	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=29|end_char=32
+4	fightin'	fightin'	NOUN	NN	Number=Sing	3	_	_	start_char=33|end_char=41
+5	words	word	NOUN	NNS	Number=Plur	4	_	_	start_char=42|end_char=47|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=47|end_char=48
+
+# text = "You mean a woman can open it?"
+# sent_id = 113347
+1	"	"	PUNCT	``	_	0	_	_	start_char=49|end_char=50|SpaceAfter=No
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=50|end_char=53
+3	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=54|end_char=58
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=59|end_char=60
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=61|end_char=66
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=67|end_char=70
+7	open	open	VERB	VB	VerbForm=Inf	6	_	_	start_char=71|end_char=75
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=76|end_char=78|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=78|end_char=79|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=79|end_char=80
+
+# text = #VintageAds #Vintage [URL]
+# sent_id = 113348
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=81|end_char=82|SpaceAfter=No
+2	VintageAds	vintagead	NOUN	NN	Number=Sing	1	_	_	start_char=82|end_char=92
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=93|end_char=94|SpaceAfter=No
+4	Vintage	vintage	NOUN	NN	Number=Sing	3	_	_	start_char=94|end_char=101
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=102|end_char=103|SpaceAfter=No
+6	URL	URL	NOUN	NN	Number=Sing	5	_	_	start_char=103|end_char=106|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=106|end_char=107|SpaceAfter=No
+

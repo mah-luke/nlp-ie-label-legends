@@ -1,0 +1,35 @@
+# text = Ignore her.
+# sent_id = 89022
+1	Ignore	ignore	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=6
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=7|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=10|end_char=11
+
+# text = You want her pursuing you, not you pestering her.
+# sent_id = 89023
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=12|end_char=15
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=16|end_char=20
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=21|end_char=24
+4	pursuing	pursue	VERB	VBG	VerbForm=Ger	3	_	_	start_char=25|end_char=33
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=34|end_char=37|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=37|end_char=38
+7	not	not	PART	RB	_	6	_	_	start_char=39|end_char=42
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=43|end_char=46
+9	pestering	pester	VERB	VBG	VerbForm=Ger	8	_	_	start_char=47|end_char=56
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=57|end_char=60|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=60|end_char=61
+
+# text = Whether she's worth it or not is another question.
+# sent_id = 89024
+1	Whether	whether	SCONJ	IN	_	0	_	_	start_char=62|end_char=69
+2-3	she's	_	_	_	_	_	_	_	start_char=70|end_char=75
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=70|end_char=73
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=73|end_char=75
+4	worth	worth	ADJ	JJ	Degree=Pos	3	_	_	start_char=76|end_char=81
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=82|end_char=84
+6	or	or	CCONJ	CC	_	5	_	_	start_char=85|end_char=87
+7	not	not	PART	RB	_	6	_	_	start_char=88|end_char=91
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=92|end_char=94
+9	another	another	DET	DT	_	8	_	_	start_char=95|end_char=102
+10	question	question	NOUN	NN	Number=Sing	9	_	_	start_char=103|end_char=111|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=111|end_char=112|SpaceAfter=No
+

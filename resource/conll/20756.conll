@@ -1,0 +1,31 @@
+# text = I'm thrilled for you and her, Tony!
+# sent_id = 44587
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	thrilled	thrilled	ADJ	JJ	Degree=Pos	2	_	_	start_char=4|end_char=12
+4	for	for	ADP	IN	_	3	_	_	start_char=13|end_char=16
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=17|end_char=20
+6	and	and	CCONJ	CC	_	5	_	_	start_char=21|end_char=24
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=25|end_char=28|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=28|end_char=29
+9	Tony	Tony	PROPN	NNP	Number=Sing	8	_	_	start_char=30|end_char=34|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=34|end_char=35
+
+# text = Little victories mean so much when the doctors say that winning is over.
+# sent_id = 44588
+1	Little	Little	ADJ	JJ	Degree=Pos	0	_	_	start_char=36|end_char=42
+2	victories	victory	NOUN	NNS	Number=Plur	1	_	_	start_char=43|end_char=52
+3	mean	mean	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=53|end_char=57
+4	so	so	ADV	RB	_	3	_	_	start_char=58|end_char=60
+5	much	much	ADV	RB	_	4	_	_	start_char=61|end_char=65
+6	when	when	ADV	WRB	PronType=Int	5	_	_	start_char=66|end_char=70
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=71|end_char=74
+8	doctors	doctor	NOUN	NNS	Number=Plur	7	_	_	start_char=75|end_char=82
+9	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=83|end_char=86
+10	that	that	SCONJ	IN	_	9	_	_	start_char=87|end_char=91
+11	winning	win	VERB	VBG	VerbForm=Ger	10	_	_	start_char=92|end_char=99
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=100|end_char=102
+13	over	over	ADV	RB	_	12	_	_	start_char=103|end_char=107|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=107|end_char=108|SpaceAfter=No
+

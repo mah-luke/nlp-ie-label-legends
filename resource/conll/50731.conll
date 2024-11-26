@@ -1,0 +1,53 @@
+# text = Yes,it was.
+# sent_id = 108441
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=4|end_char=6
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=7|end_char=10|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=10|end_char=11
+
+# text = I don't think the woman who sang the solo was with them but everyone else in that video was.
+# sent_id = 108442
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=12|end_char=13
+2-3	don't	_	_	_	_	_	_	_	start_char=14|end_char=19
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=14|end_char=16
+3	n't	not	PART	RB	_	2	_	_	start_char=16|end_char=19
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=20|end_char=25
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=26|end_char=29
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=30|end_char=35
+7	who	who	PRON	WP	PronType=Rel	6	_	_	start_char=36|end_char=39
+8	sang	sing	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=40|end_char=44
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=45|end_char=48
+10	solo	solo	NOUN	NN	Number=Sing	9	_	_	start_char=49|end_char=53
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=54|end_char=57
+12	with	with	ADP	IN	_	11	_	_	start_char=58|end_char=62
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=63|end_char=67
+14	but	but	CCONJ	CC	_	13	_	_	start_char=68|end_char=71
+15	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	14	_	_	start_char=72|end_char=80
+16	else	else	ADJ	JJ	Degree=Pos	15	_	_	start_char=81|end_char=85
+17	in	in	ADP	IN	_	16	_	_	start_char=86|end_char=88
+18	that	that	DET	DT	Number=Sing|PronType=Dem	17	_	_	start_char=89|end_char=93
+19	video	video	NOUN	NN	Number=Sing	18	_	_	start_char=94|end_char=99
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=100|end_char=103|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=103|end_char=104
+
+# text = These guys sang the "Hunt for Red October" film theme song in the soundtrack.
+# sent_id = 108443
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=105|end_char=110
+2	guys	guy	NOUN	NNS	Number=Plur	1	_	_	start_char=111|end_char=115
+3	sang	sing	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=116|end_char=120
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=121|end_char=124
+5	"	"	PUNCT	``	_	4	_	_	start_char=125|end_char=126|SpaceAfter=No
+6	Hunt	Hunt	PROPN	NNP	Number=Sing	5	_	_	start_char=126|end_char=130
+7	for	for	ADP	IN	_	6	_	_	start_char=131|end_char=134
+8	Red	Red	ADJ	NNP	Degree=Pos	7	_	_	start_char=135|end_char=138
+9	October	October	PROPN	NNP	Number=Sing	8	_	_	start_char=139|end_char=146|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=146|end_char=147
+11	film	film	NOUN	NN	Number=Sing	10	_	_	start_char=148|end_char=152
+12	theme	theme	NOUN	NN	Number=Sing	11	_	_	start_char=153|end_char=158
+13	song	song	NOUN	NN	Number=Sing	12	_	_	start_char=159|end_char=163
+14	in	in	ADP	IN	_	13	_	_	start_char=164|end_char=166
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=167|end_char=170
+16	soundtrack	soundtrack	NOUN	NN	Number=Sing	15	_	_	start_char=171|end_char=181|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=181|end_char=182|SpaceAfter=No
+

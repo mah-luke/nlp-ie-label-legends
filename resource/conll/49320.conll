@@ -1,0 +1,16 @@
+# text = Don't run away like a little [jewish] girl.
+# sent_id = 105453
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	run	run	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=9
+4	away	away	ADV	RB	_	3	_	_	start_char=10|end_char=14
+5	like	like	ADP	IN	_	4	_	_	start_char=15|end_char=19
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=20|end_char=21
+7	little	little	ADJ	JJ	Degree=Pos	6	_	_	start_char=22|end_char=28
+8	[	[	PUNCT	-LRB-	_	7	_	_	start_char=29|end_char=30|SpaceAfter=No
+9	jewish	jewish	ADJ	JJ	Degree=Pos	8	_	_	start_char=30|end_char=36|SpaceAfter=No
+10	]	]	PUNCT	-RRB-	_	9	_	_	start_char=36|end_char=37
+11	girl	girl	NOUN	NN	Number=Sing	10	_	_	start_char=38|end_char=42|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=42|end_char=43|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = The Taco Bell drive-thru must be slow right now.
+# sent_id = 29664
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	Taco	Taco	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=8
+3	Bell	Bell	PROPN	NNP	Number=Sing	2	_	_	start_char=9|end_char=13
+4	drive	drive	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=19|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	_	_	start_char=19|end_char=20|SpaceAfter=No
+6	thru	through	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=24
+7	must	must	AUX	MD	VerbForm=Fin	6	_	_	start_char=25|end_char=29
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=30|end_char=32
+9	slow	slow	ADJ	JJ	Degree=Pos	8	_	_	start_char=33|end_char=37
+10	right	right	ADV	RB	_	9	_	_	start_char=38|end_char=43
+11	now	now	ADV	RB	_	10	_	_	start_char=44|end_char=47|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=47|end_char=48
+
+# text = That, or you’re just a lazy employee.
+# sent_id = 29665
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=49|end_char=53|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=53|end_char=54
+3	or	or	CCONJ	CC	_	2	_	_	start_char=55|end_char=57
+4-5	you’re	_	_	_	_	_	_	_	start_char=58|end_char=64
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=58|end_char=61
+5	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=61|end_char=64
+6	just	just	ADV	RB	_	5	_	_	start_char=65|end_char=69
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=70|end_char=71
+8	lazy	lazy	ADJ	JJ	Degree=Pos	7	_	_	start_char=72|end_char=76
+9	employee	employee	NOUN	NN	Number=Sing	8	_	_	start_char=77|end_char=85|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=85|end_char=86
+
+# text = Get off your phone and get back to work, moron.
+# sent_id = 29666
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=87|end_char=90
+2	off	off	ADP	IN	_	1	_	_	start_char=91|end_char=94
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=95|end_char=99
+4	phone	phone	NOUN	NN	Number=Sing	3	_	_	start_char=100|end_char=105
+5	and	and	CCONJ	CC	_	4	_	_	start_char=106|end_char=109
+6	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=110|end_char=113
+7	back	back	ADV	RB	_	6	_	_	start_char=114|end_char=118
+8	to	to	ADP	IN	_	7	_	_	start_char=119|end_char=121
+9	work	work	NOUN	NN	Number=Sing	8	_	_	start_char=122|end_char=126|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=126|end_char=127
+11	moron	moron	NOUN	NN	Number=Sing	10	_	_	start_char=128|end_char=133|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=133|end_char=134|SpaceAfter=No
+

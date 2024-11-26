@@ -1,0 +1,20 @@
+# text = Geez that's disgusting.
+# sent_id = 62761
+1	Geez	geez	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2-3	that's	_	_	_	_	_	_	_	start_char=5|end_char=11
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=5|end_char=9
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=11
+4	disgusting	disgusting	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=22|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=22|end_char=23
+
+# text = Yet she feels proud of it lol.
+# sent_id = 62762
+1	Yet	yet	CCONJ	CC	_	0	_	_	start_char=24|end_char=27
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=28|end_char=31
+3	feels	feel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=32|end_char=37
+4	proud	proud	ADJ	JJ	Degree=Pos	3	_	_	start_char=38|end_char=43
+5	of	of	ADP	IN	_	4	_	_	start_char=44|end_char=46
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=47|end_char=49
+7	lol	lol	INTJ	UH	_	6	_	_	start_char=50|end_char=53|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=53|end_char=54|SpaceAfter=No
+

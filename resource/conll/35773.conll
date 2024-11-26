@@ -1,0 +1,25 @@
+# text = I'm not going to send you money just because you have a pussy.
+# sent_id = 76580
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	not	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=8|end_char=13
+5	to	to	PART	TO	_	4	_	_	start_char=14|end_char=16
+6	send	send	VERB	VB	VerbForm=Inf	5	_	_	start_char=17|end_char=21
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=22|end_char=25
+8	money	money	NOUN	NN	Number=Sing	7	_	_	start_char=26|end_char=31
+9	just	just	ADV	RB	_	8	_	_	start_char=32|end_char=36
+10	because	because	SCONJ	IN	_	9	_	_	start_char=37|end_char=44
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=45|end_char=48
+12	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=49|end_char=53
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=54|end_char=55
+14	pussy	pussy	NOUN	NN	Number=Sing	13	_	_	start_char=56|end_char=61|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=61|end_char=62
+
+# text = Entitled cunt.
+# sent_id = 76581
+1	Entitled	entitle	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=63|end_char=71
+2	cunt	cunt	NOUN	NN	Number=Sing	1	_	_	start_char=72|end_char=76|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=76|end_char=77|SpaceAfter=No
+

@@ -1,0 +1,38 @@
+# text = Have you ever found any posters of one of Buffalo Bill's other female stars, "Broncho Jane?"
+# sent_id = 9219
+1	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=5|end_char=8
+3	ever	ever	ADV	RB	_	2	_	_	start_char=9|end_char=13
+4	found	find	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=14|end_char=19
+5	any	any	DET	DT	_	4	_	_	start_char=20|end_char=23
+6	posters	poster	NOUN	NNS	Number=Plur	5	_	_	start_char=24|end_char=31
+7	of	of	ADP	IN	_	6	_	_	start_char=32|end_char=34
+8	one	one	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=35|end_char=38
+9	of	of	ADP	IN	_	8	_	_	start_char=39|end_char=41
+10	Buffalo	Buffalo	PROPN	NNP	Number=Sing	9	_	_	start_char=42|end_char=49
+11-12	Bill's	_	_	_	_	_	_	_	start_char=50|end_char=56
+11	Bill	Bill	PROPN	NNP	Number=Sing	10	_	_	start_char=50|end_char=54
+12	's	's	PART	POS	_	11	_	_	start_char=54|end_char=56
+13	other	other	ADJ	JJ	Degree=Pos	12	_	_	start_char=57|end_char=62
+14	female	female	ADJ	JJ	Degree=Pos	13	_	_	start_char=63|end_char=69
+15	stars	star	NOUN	NNS	Number=Plur	14	_	_	start_char=70|end_char=75|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=75|end_char=76
+17	"	"	PUNCT	``	_	16	_	_	start_char=77|end_char=78|SpaceAfter=No
+18	Broncho	Broncho	PROPN	NNP	Number=Sing	17	_	_	start_char=78|end_char=85
+19	Jane	Jane	PROPN	NNP	Number=Sing	18	_	_	start_char=86|end_char=90|SpaceAfter=No
+20	?	?	PUNCT	.	_	19	_	_	start_char=90|end_char=91|SpaceAfter=No
+21	"	"	PUNCT	''	_	20	_	_	start_char=91|end_char=92
+
+# text = She is a great-great Aunt of mine.
+# sent_id = 9220
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=93|end_char=96
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=97|end_char=99
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=100|end_char=101
+4	great	great	ADJ	JJ	Degree=Pos	3	_	_	start_char=102|end_char=107|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	_	_	start_char=107|end_char=108|SpaceAfter=No
+6	great	great	ADJ	JJ	Degree=Pos	5	_	_	start_char=108|end_char=113
+7	Aunt	aunt	NOUN	NN	Number=Sing	6	_	_	start_char=114|end_char=118
+8	of	of	ADP	IN	_	7	_	_	start_char=119|end_char=121
+9	mine	mine	PRON	PRP	Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=122|end_char=126|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=126|end_char=127|SpaceAfter=No
+

@@ -1,0 +1,23 @@
+# text = women are aware because they have to compete.
+# sent_id = 53072
+1	women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=5
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=9
+3	aware	aware	ADJ	JJ	Degree=Pos	2	_	_	start_char=10|end_char=15
+4	because	because	SCONJ	IN	_	3	_	_	start_char=16|end_char=23
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=24|end_char=28
+6	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=29|end_char=33
+7	to	to	PART	TO	_	6	_	_	start_char=34|end_char=36
+8	compete	compete	VERB	VB	VerbForm=Inf	7	_	_	start_char=37|end_char=44|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=44|end_char=45
+
+# text = chad isn't aware at all.
+# sent_id = 53073
+1	chad	chad	PROPN	NNP	Number=Sing	0	_	_	start_char=46|end_char=50
+2-3	isn't	_	_	_	_	_	_	_	start_char=51|end_char=56
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=53
+3	n't	not	PART	RB	_	2	_	_	start_char=53|end_char=56
+4	aware	aware	ADJ	JJ	Degree=Pos	3	_	_	start_char=57|end_char=62
+5	at	at	ADP	IN	_	4	_	_	start_char=63|end_char=65
+6	all	all	DET	DT	_	5	_	_	start_char=66|end_char=69|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=69|end_char=70|SpaceAfter=No
+

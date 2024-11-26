@@ -1,0 +1,60 @@
+# text = We’re exploiting female bodies and abusing the magic of female animals to create eggs and milk.
+# sent_id = 43336
+1-2	We’re	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	exploiting	exploit	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=6|end_char=16
+4	female	female	ADJ	JJ	Degree=Pos	3	_	_	start_char=17|end_char=23
+5	bodies	body	NOUN	NNS	Number=Plur	4	_	_	start_char=24|end_char=30
+6	and	and	CCONJ	CC	_	5	_	_	start_char=31|end_char=34
+7	abusing	abuse	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=35|end_char=42
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=43|end_char=46
+9	magic	magic	NOUN	NN	Number=Sing	8	_	_	start_char=47|end_char=52
+10	of	of	ADP	IN	_	9	_	_	start_char=53|end_char=55
+11	female	female	ADJ	JJ	Degree=Pos	10	_	_	start_char=56|end_char=62
+12	animals	animal	NOUN	NNS	Number=Plur	11	_	_	start_char=63|end_char=70
+13	to	to	PART	TO	_	12	_	_	start_char=71|end_char=73
+14	create	create	VERB	VB	VerbForm=Inf	13	_	_	start_char=74|end_char=80
+15	eggs	egg	NOUN	NNS	Number=Plur	14	_	_	start_char=81|end_char=85
+16	and	and	CCONJ	CC	_	15	_	_	start_char=86|end_char=89
+17	milk	milk	NOUN	NN	Number=Sing	16	_	_	start_char=90|end_char=94|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=94|end_char=95
+
+# text = >>abusing the magic of female animals >>>abusing the magic >>>>the magic >>>>>**MAGIC**
+# sent_id = 43337
+1	>>	>>	PUNCT	-RRB-	_	0	_	_	start_char=96|end_char=98|SpaceAfter=No
+2	abusing	abuse	VERB	VBG	VerbForm=Ger	1	_	_	start_char=98|end_char=105
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=106|end_char=109
+4	magic	magic	NOUN	NN	Number=Sing	3	_	_	start_char=110|end_char=115
+5	of	of	ADP	IN	_	4	_	_	start_char=116|end_char=118
+6	female	female	ADJ	JJ	Degree=Pos	5	_	_	start_char=119|end_char=125
+7	animals	animal	NOUN	NNS	Number=Plur	6	_	_	start_char=126|end_char=133
+8	>>>	>>>	SYM	NFP	_	7	_	_	start_char=134|end_char=137|SpaceAfter=No
+9	abusing	abuse	VERB	VBG	VerbForm=Ger	8	_	_	start_char=137|end_char=144
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=145|end_char=148
+11	magic	magic	NOUN	NN	Number=Sing	10	_	_	start_char=149|end_char=154
+12	>>>>	>>>>	PUNCT	,	_	11	_	_	start_char=155|end_char=159|SpaceAfter=No
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=159|end_char=162
+14	magic	magic	NOUN	NN	Number=Sing	13	_	_	start_char=163|end_char=168
+15	>>>>>**	>>>>>**	PUNCT	,	_	14	_	_	start_char=169|end_char=176|SpaceAfter=No
+16	MAGIC	magic	NOUN	NN	Number=Sing	15	_	_	start_char=176|end_char=181|SpaceAfter=No
+17	**	**	PUNCT	NFP	_	16	_	_	start_char=181|end_char=183
+
+# text = The quality of a Harvard education.
+# sent_id = 43338
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=184|end_char=187
+2	quality	quality	NOUN	NN	Number=Sing	1	_	_	start_char=188|end_char=195
+3	of	of	ADP	IN	_	2	_	_	start_char=196|end_char=198
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=199|end_char=200
+5	Harvard	Harvard	PROPN	NNP	Number=Sing	4	_	_	start_char=201|end_char=208
+6	education	education	NOUN	NN	Number=Sing	5	_	_	start_char=209|end_char=218|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=218|end_char=219
+
+# text = Attributing biology to magic.
+# sent_id = 43339
+1	Attributing	attribute	VERB	VBG	VerbForm=Ger	0	_	_	start_char=220|end_char=231
+2	biology	biology	NOUN	NN	Number=Sing	1	_	_	start_char=232|end_char=239
+3	to	to	ADP	IN	_	2	_	_	start_char=240|end_char=242
+4	magic	magic	NOUN	NN	Number=Sing	3	_	_	start_char=243|end_char=248|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=248|end_char=249|SpaceAfter=No
+

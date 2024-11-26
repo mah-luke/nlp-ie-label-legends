@@ -1,0 +1,40 @@
+# text = [USER]
+# sent_id = 66924
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Twitter is the same way.
+# sent_id = 66925
+1	Twitter	Twitter	PROPN	NNP	Number=Sing	0	_	_	start_char=7|end_char=14
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=15|end_char=17
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=18|end_char=21
+4	same	same	ADJ	JJ	Degree=Pos	3	_	_	start_char=22|end_char=26
+5	way	way	NOUN	NN	Number=Sing	4	_	_	start_char=27|end_char=30|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=30|end_char=31
+
+# text = I got suspended for calling Sally Kohnhead a Super Dyke Kyke.
+# sent_id = 66926
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=32|end_char=33
+2	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=34|end_char=37
+3	suspended	suspend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=38|end_char=47
+4	for	for	SCONJ	IN	_	3	_	_	start_char=48|end_char=51
+5	calling	call	VERB	VBG	VerbForm=Ger	4	_	_	start_char=52|end_char=59
+6	Sally	Sally	PROPN	NNP	Number=Sing	5	_	_	start_char=60|end_char=65
+7	Kohnhead	Kohnhead	PROPN	NNP	Number=Sing	6	_	_	start_char=66|end_char=74
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=75|end_char=76
+9	Super	Super	ADJ	NNP	Degree=Pos	8	_	_	start_char=77|end_char=82
+10	Dyke	Dyke	PROPN	NNP	Number=Sing	9	_	_	start_char=83|end_char=87
+11	Kyke	Kyke	PROPN	NNP	Number=Sing	10	_	_	start_char=88|end_char=92|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=92|end_char=93
+
+# text = Thus , I'm here.
+# sent_id = 66927
+1	Thus	thus	ADV	RB	_	0	_	_	start_char=94|end_char=98
+2	,	,	PUNCT	,	_	1	_	_	start_char=99|end_char=100
+3-4	I'm	_	_	_	_	_	_	_	start_char=101|end_char=104
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=101|end_char=102
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=102|end_char=104
+5	here	here	ADV	RB	PronType=Dem	4	_	_	start_char=105|end_char=109|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=109|end_char=110|SpaceAfter=No
+

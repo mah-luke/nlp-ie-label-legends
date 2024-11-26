@@ -1,0 +1,15 @@
+# text = I've seen women in their 50s hotter than her.
+# sent_id = 60007
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=9
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=10|end_char=15
+5	in	in	ADP	IN	_	4	_	_	start_char=16|end_char=18
+6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=19|end_char=24
+7	50s	50s	NOUN	NNS	Number=Plur	6	_	_	start_char=25|end_char=28
+8	hotter	hot	ADJ	JJR	Degree=Cmp	7	_	_	start_char=29|end_char=35
+9	than	than	ADP	IN	_	8	_	_	start_char=36|end_char=40
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=41|end_char=44|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=44|end_char=45|SpaceAfter=No
+

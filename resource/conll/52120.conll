@@ -1,0 +1,57 @@
+# text = Sex is simply an act, not some sort of physical "gift" that gets "lost" by a woman or man.
+# sent_id = 111435
+1	Sex	sex	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	simply	simply	ADV	RB	_	2	_	_	start_char=7|end_char=13
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=14|end_char=16
+5	act	act	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=20|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=20|end_char=21
+7	not	not	PART	RB	_	6	_	_	start_char=22|end_char=25
+8	some	some	DET	DT	_	7	_	_	start_char=26|end_char=30
+9	sort	sort	NOUN	NN	Number=Sing	8	_	_	start_char=31|end_char=35
+10	of	of	ADP	IN	_	9	_	_	start_char=36|end_char=38
+11	physical	physical	ADJ	JJ	Degree=Pos	10	_	_	start_char=39|end_char=47
+12	"	"	PUNCT	``	_	11	_	_	start_char=48|end_char=49|SpaceAfter=No
+13	gift	gift	NOUN	NN	Number=Sing	12	_	_	start_char=49|end_char=53|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=53|end_char=54
+15	that	that	PRON	WDT	PronType=Rel	14	_	_	start_char=55|end_char=59
+16	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=60|end_char=64
+17	"	"	PUNCT	``	_	16	_	_	start_char=65|end_char=66|SpaceAfter=No
+18	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=66|end_char=70|SpaceAfter=No
+19	"	"	PUNCT	''	_	18	_	_	start_char=70|end_char=71
+20	by	by	ADP	IN	_	19	_	_	start_char=72|end_char=74
+21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=75|end_char=76
+22	woman	woman	NOUN	NN	Number=Sing	21	_	_	start_char=77|end_char=82
+23	or	or	CCONJ	CC	_	22	_	_	start_char=83|end_char=85
+24	man	man	NOUN	NN	Number=Sing	23	_	_	start_char=86|end_char=89|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=89|end_char=90
+
+# text = That's your opinion.
+# sent_id = 111436
+1-2	That's	_	_	_	_	_	_	_	start_char=91|end_char=97
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=91|end_char=95
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=95|end_char=97
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=98|end_char=102
+4	opinion	opinion	NOUN	NN	Number=Sing	3	_	_	start_char=103|end_char=110|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=110|end_char=111
+
+# text = Other people have the opinion that casual sex is immoral, and both opinions are equally valid
+# sent_id = 111437
+1	Other	other	ADJ	JJ	Degree=Pos	0	_	_	start_char=112|end_char=117
+2	people	person	NOUN	NNS	Number=Plur	1	_	_	start_char=118|end_char=124
+3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=125|end_char=129
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=130|end_char=133
+5	opinion	opinion	NOUN	NN	Number=Sing	4	_	_	start_char=134|end_char=141
+6	that	that	SCONJ	IN	_	5	_	_	start_char=142|end_char=146
+7	casual	casual	ADJ	JJ	Degree=Pos	6	_	_	start_char=147|end_char=153
+8	sex	sex	NOUN	NN	Number=Sing	7	_	_	start_char=154|end_char=157
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=158|end_char=160
+10	immoral	immoral	ADJ	JJ	Degree=Pos	9	_	_	start_char=161|end_char=168|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=168|end_char=169
+12	and	and	CCONJ	CC	_	11	_	_	start_char=170|end_char=173
+13	both	both	DET	DT	_	12	_	_	start_char=174|end_char=178
+14	opinions	opinion	NOUN	NNS	Number=Plur	13	_	_	start_char=179|end_char=187
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=188|end_char=191
+16	equally	equally	ADV	RB	_	15	_	_	start_char=192|end_char=199
+17	valid	valid	ADJ	JJ	Degree=Pos	16	_	_	start_char=200|end_char=205|SpaceAfter=No
+

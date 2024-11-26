@@ -1,0 +1,50 @@
+# text = how are men better at art and music?
+# sent_id = 64327
+1	how	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=8|end_char=11
+4	better	good	ADJ	JJR	Degree=Cmp	3	_	_	start_char=12|end_char=18
+5	at	at	ADP	IN	_	4	_	_	start_char=19|end_char=21
+6	art	art	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=25
+7	and	and	CCONJ	CC	_	6	_	_	start_char=26|end_char=29
+8	music	music	NOUN	NN	Number=Sing	7	_	_	start_char=30|end_char=35|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = there's simply no proof of this.
+# sent_id = 64328
+1-2	there's	_	_	_	_	_	_	_	start_char=37|end_char=44
+1	there	there	PRON	EX	_	0	_	_	start_char=37|end_char=42
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=44
+3	simply	simply	ADV	RB	_	2	_	_	start_char=45|end_char=51
+4	no	no	DET	DT	_	3	_	_	start_char=52|end_char=54
+5	proof	proof	NOUN	NN	Number=Sing	4	_	_	start_char=55|end_char=60
+6	of	of	ADP	IN	_	5	_	_	start_char=61|end_char=63
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=64|end_char=68|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=68|end_char=69
+
+# text = men are better at STEM.
+# sent_id = 64329
+1	men	man	NOUN	NNS	Number=Plur	0	_	_	start_char=70|end_char=73
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=74|end_char=77
+3	better	good	ADJ	JJR	Degree=Cmp	2	_	_	start_char=78|end_char=84
+4	at	at	ADP	IN	_	3	_	_	start_char=85|end_char=87
+5	STEM	STEM	PROPN	NNP	Number=Sing	4	_	_	start_char=88|end_char=92|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=92|end_char=93
+
+# text = this isn't debatable.
+# sent_id = 64330
+1	this	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=94|end_char=98
+2-3	isn't	_	_	_	_	_	_	_	start_char=99|end_char=104
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=99|end_char=101
+3	n't	not	PART	RB	_	2	_	_	start_char=101|end_char=104
+4	debatable	debatable	ADJ	JJ	Degree=Pos	3	_	_	start_char=105|end_char=114|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=114|end_char=115
+
+# text = but music and art?
+# sent_id = 64331
+1	but	but	CCONJ	CC	_	0	_	_	start_char=116|end_char=119
+2	music	music	NOUN	NN	Number=Sing	1	_	_	start_char=120|end_char=125
+3	and	and	CCONJ	CC	_	2	_	_	start_char=126|end_char=129
+4	art	art	NOUN	NN	Number=Sing	3	_	_	start_char=130|end_char=133|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=133|end_char=134|SpaceAfter=No
+

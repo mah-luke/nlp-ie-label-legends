@@ -1,0 +1,68 @@
+# text = Then answer my scenarios: 1) Would you save 100 strangers' children, or 1 child your wife gave birth to?
+# sent_id = 115880
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=0|end_char=4
+2	answer	answer	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=11
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=12|end_char=14
+4	scenarios	scenario	NOUN	NNS	Number=Plur	3	_	_	start_char=15|end_char=24|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=24|end_char=25
+6	1	1	NUM	LS	_	5	_	_	start_char=26|end_char=27|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=27|end_char=28
+8	Would	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=29|end_char=34
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=35|end_char=38
+10	save	save	VERB	VB	VerbForm=Inf	9	_	_	start_char=39|end_char=43
+11	100	100	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=44|end_char=47
+12-13	strangers'	_	_	_	_	_	_	_	start_char=48|end_char=58
+12	strangers	stranger	NOUN	NNS	Number=Plur	11	_	_	start_char=48|end_char=57
+13	'	's	PART	POS	_	12	_	_	start_char=57|end_char=58
+14	children	child	NOUN	NNS	Number=Plur	13	_	_	start_char=59|end_char=67|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=67|end_char=68
+16	or	or	CCONJ	CC	_	15	_	_	start_char=69|end_char=71
+17	1	1	NUM	CD	NumForm=Digit|NumType=Card	16	_	_	start_char=72|end_char=73
+18	child	child	NOUN	NN	Number=Sing	17	_	_	start_char=74|end_char=79
+19	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	18	_	_	start_char=80|end_char=84
+20	wife	wife	NOUN	NN	Number=Sing	19	_	_	start_char=85|end_char=89
+21	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	_	_	start_char=90|end_char=94
+22	birth	birth	NOUN	NN	Number=Sing	21	_	_	start_char=95|end_char=100
+23	to	to	ADP	IN	_	22	_	_	start_char=101|end_char=103|SpaceAfter=No
+24	?	?	PUNCT	.	_	23	_	_	start_char=103|end_char=104
+
+# text = 2) Your girlfriend/wife/etc. were raped by a violent attacker.
+# sent_id = 115881
+1	2	2	NUM	LS	_	0	_	_	start_char=105|end_char=106|SpaceAfter=No
+2	)	)	PUNCT	-RRB-	_	1	_	_	start_char=106|end_char=107
+3	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=108|end_char=112
+4	girlfriend	girlfriend	NOUN	NN	Number=Sing	3	_	_	start_char=113|end_char=123|SpaceAfter=No
+5	/	/	SYM	,	_	4	_	_	start_char=123|end_char=124|SpaceAfter=No
+6	wife	wife	NOUN	NN	Number=Sing	5	_	_	start_char=124|end_char=128|SpaceAfter=No
+7	/	/	SYM	,	_	6	_	_	start_char=128|end_char=129|SpaceAfter=No
+8	etc.	etc.	NOUN	FW	Abbr=Yes|Number=Plur	7	_	_	start_char=129|end_char=133
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=134|end_char=138
+10	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=139|end_char=144
+11	by	by	ADP	IN	_	10	_	_	start_char=145|end_char=147
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=148|end_char=149
+13	violent	violent	ADJ	JJ	Degree=Pos	12	_	_	start_char=150|end_char=157
+14	attacker	attacker	NOUN	NN	Number=Sing	13	_	_	start_char=158|end_char=166|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=166|end_char=167
+
+# text = She is pregnant from the attack.
+# sent_id = 115882
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=168|end_char=171
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=172|end_char=174
+3	pregnant	pregnant	ADJ	JJ	Degree=Pos	2	_	_	start_char=175|end_char=183
+4	from	from	ADP	IN	_	3	_	_	start_char=184|end_char=188
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=189|end_char=192
+6	attack	attack	NOUN	NN	Number=Sing	5	_	_	start_char=193|end_char=199|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=199|end_char=200
+
+# text = Do you keep the baby, & why?
+# sent_id = 115883
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=201|end_char=203
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=204|end_char=207
+3	keep	keep	VERB	VB	VerbForm=Inf	2	_	_	start_char=208|end_char=212
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=213|end_char=216
+5	baby	baby	NOUN	NN	Number=Sing	4	_	_	start_char=217|end_char=221|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=221|end_char=222
+7	&	&	CCONJ	CC	_	6	_	_	start_char=223|end_char=224
+8	why	why	ADV	WRB	PronType=Int	7	_	_	start_char=225|end_char=228|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=228|end_char=229|SpaceAfter=No
+

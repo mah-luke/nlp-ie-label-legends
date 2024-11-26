@@ -1,0 +1,48 @@
+# text = ESPN suspended Jemele Hill when she spoke against President Trump.
+# sent_id = 67857
+1	ESPN	ESPN	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	suspended	suspend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=5|end_char=14
+3	Jemele	Jemele	PROPN	NNP	Number=Sing	2	_	_	start_char=15|end_char=21
+4	Hill	Hill	PROPN	NNP	Number=Sing	3	_	_	start_char=22|end_char=26
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=27|end_char=31
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=32|end_char=35
+7	spoke	speak	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=36|end_char=41
+8	against	against	ADP	IN	_	7	_	_	start_char=42|end_char=49
+9	President	President	PROPN	NNP	Number=Sing	8	_	_	start_char=50|end_char=59
+10	Trump	Trump	PROPN	NNP	Number=Sing	9	_	_	start_char=60|end_char=65|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=65|end_char=66
+
+# text = This new host went even further and got a slap on the wrist.
+# sent_id = 67858
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=67|end_char=71
+2	new	new	ADJ	JJ	Degree=Pos	1	_	_	start_char=72|end_char=75
+3	host	host	NOUN	NN	Number=Sing	2	_	_	start_char=76|end_char=80
+4	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=81|end_char=85
+5	even	even	ADV	RB	_	4	_	_	start_char=86|end_char=90
+6	further	further	ADV	RBR	Degree=Cmp	5	_	_	start_char=91|end_char=98
+7	and	and	CCONJ	CC	_	6	_	_	start_char=99|end_char=102
+8	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=103|end_char=106
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=107|end_char=108
+10	slap	slap	NOUN	NN	Number=Sing	9	_	_	start_char=109|end_char=113
+11	on	on	ADP	IN	_	10	_	_	start_char=114|end_char=116
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=117|end_char=120
+13	wrist	wrist	NOUN	NN	Number=Sing	12	_	_	start_char=121|end_char=126|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=126|end_char=127
+
+# text = Share your thoughts.
+# sent_id = 67859
+1	Share	share	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=128|end_char=133
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=134|end_char=138
+3	thoughts	thought	NOUN	NNS	Number=Plur	2	_	_	start_char=139|end_char=147|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=147|end_char=148
+
+# text = [URL] via [USER]
+# sent_id = 67860
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=149|end_char=150|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=150|end_char=153|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=153|end_char=154
+4	via	via	ADP	IN	_	3	_	_	start_char=155|end_char=158
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=159|end_char=160|SpaceAfter=No
+6	USER	user	NOUN	NN	Number=Sing	5	_	_	start_char=160|end_char=164|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=164|end_char=165|SpaceAfter=No
+

@@ -1,0 +1,45 @@
+# text = hasn't even been 100 years since US gave women the vote.
+# sent_id = 57735
+1-2	hasn't	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	n't	not	PART	RB	_	1	_	_	start_char=3|end_char=6
+3	even	even	ADV	RB	_	2	_	_	start_char=7|end_char=11
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=12|end_char=16
+5	100	100	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=17|end_char=20
+6	years	year	NOUN	NNS	Number=Plur	5	_	_	start_char=21|end_char=26
+7	since	since	SCONJ	IN	_	6	_	_	start_char=27|end_char=32
+8	US	US	PROPN	NNP	Number=Sing	7	_	_	start_char=33|end_char=35
+9	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=36|end_char=40
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=41|end_char=46
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=47|end_char=50
+12	vote	vote	NOUN	NN	Number=Sing	11	_	_	start_char=51|end_char=55|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=55|end_char=56
+
+# text = I strongly doubt we'll make it another 100.
+# sent_id = 57736
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=57|end_char=58
+2	strongly	strongly	ADV	RB	_	1	_	_	start_char=59|end_char=67
+3	doubt	doubt	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=68|end_char=73
+4-5	we'll	_	_	_	_	_	_	_	start_char=74|end_char=79
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=74|end_char=76
+5	'll	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=76|end_char=79
+6	make	make	VERB	VB	VerbForm=Inf	5	_	_	start_char=80|end_char=84
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=85|end_char=87
+8	another	another	DET	DT	_	7	_	_	start_char=88|end_char=95
+9	100	100	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=96|end_char=99|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=99|end_char=100
+
+# text = an idiotic social experiment that was doomed from the start.
+# sent_id = 57737
+1	an	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=101|end_char=103
+2	idiotic	idiotic	ADJ	JJ	Degree=Pos	1	_	_	start_char=104|end_char=111
+3	social	social	ADJ	JJ	Degree=Pos	2	_	_	start_char=112|end_char=118
+4	experiment	experiment	NOUN	NN	Number=Sing	3	_	_	start_char=119|end_char=129
+5	that	that	PRON	WDT	PronType=Rel	4	_	_	start_char=130|end_char=134
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=135|end_char=138
+7	doomed	doom	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=139|end_char=145
+8	from	from	ADP	IN	_	7	_	_	start_char=146|end_char=150
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=151|end_char=154
+10	start	start	NOUN	NN	Number=Sing	9	_	_	start_char=155|end_char=160|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=160|end_char=161|SpaceAfter=No
+

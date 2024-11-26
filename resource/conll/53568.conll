@@ -1,0 +1,71 @@
+# text = Don't feel too bad, man.
+# sent_id = 114480
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	feel	feel	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=10
+4	too	too	ADV	RB	_	3	_	_	start_char=11|end_char=14
+5	bad	bad	ADJ	JJ	Degree=Pos	4	_	_	start_char=15|end_char=18|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=18|end_char=19
+7	man	man	NOUN	NN	Number=Sing	6	_	_	start_char=20|end_char=23|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=23|end_char=24
+
+# text = It's all part of the global [depopulation agenda]([URL]
+# sent_id = 114481
+1-2	It's	_	_	_	_	_	_	_	start_char=25|end_char=29
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=25|end_char=27
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
+3	all	all	DET	DT	_	2	_	_	start_char=30|end_char=33
+4	part	part	NOUN	NN	Number=Sing	3	_	_	start_char=34|end_char=38
+5	of	of	ADP	IN	_	4	_	_	start_char=39|end_char=41
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=42|end_char=45
+7	global	global	ADJ	JJ	Degree=Pos	6	_	_	start_char=46|end_char=52
+8	[	[	PUNCT	-LRB-	_	7	_	_	start_char=53|end_char=54|SpaceAfter=No
+9	depopulation	depopulation	NOUN	NN	Number=Sing	8	_	_	start_char=54|end_char=66
+10	agenda	agenda	NOUN	NN	Number=Sing	9	_	_	start_char=67|end_char=73|SpaceAfter=No
+11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=73|end_char=74|SpaceAfter=No
+12	(	(	PUNCT	-LRB-	_	11	_	_	start_char=74|end_char=75|SpaceAfter=No
+13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=75|end_char=76|SpaceAfter=No
+14	URL	URL	PROPN	NNP	Number=Sing	13	_	_	start_char=76|end_char=79|SpaceAfter=No
+15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=79|end_char=80
+
+# text = Men are subtly being 'discouraged' from marrying women (and having kids, which they tend to do when married).
+# sent_id = 114482
+1	Men	man	NOUN	NNS	Number=Plur	0	_	_	start_char=81|end_char=84
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=85|end_char=88
+3	subtly	subtly	ADV	RB	_	2	_	_	start_char=89|end_char=95
+4	being	be	AUX	VBG	VerbForm=Ger	3	_	_	start_char=96|end_char=101
+5	'	'	PUNCT	``	_	4	_	_	start_char=102|end_char=103|SpaceAfter=No
+6	discouraged	discourage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=103|end_char=114|SpaceAfter=No
+7	'	'	PUNCT	''	_	6	_	_	start_char=114|end_char=115
+8	from	from	SCONJ	IN	_	7	_	_	start_char=116|end_char=120
+9	marrying	marry	VERB	VBG	VerbForm=Ger	8	_	_	start_char=121|end_char=129
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=130|end_char=135
+11	(	(	PUNCT	-LRB-	_	10	_	_	start_char=136|end_char=137|SpaceAfter=No
+12	and	and	CCONJ	CC	_	11	_	_	start_char=137|end_char=140
+13	having	have	VERB	VBG	VerbForm=Ger	12	_	_	start_char=141|end_char=147
+14	kids	kid	NOUN	NNS	Number=Plur	13	_	_	start_char=148|end_char=152|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=152|end_char=153
+16	which	which	PRON	WDT	PronType=Rel	15	_	_	start_char=154|end_char=159
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=160|end_char=164
+18	tend	tend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=165|end_char=169
+19	to	to	PART	TO	_	18	_	_	start_char=170|end_char=172
+20	do	do	VERB	VB	VerbForm=Inf	19	_	_	start_char=173|end_char=175
+21	when	when	ADV	WRB	PronType=Int	20	_	_	start_char=176|end_char=180
+22	married	married	ADJ	JJ	Degree=Pos	21	_	_	start_char=181|end_char=188|SpaceAfter=No
+23	)	)	PUNCT	-RRB-	_	22	_	_	start_char=188|end_char=189|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=189|end_char=190
+
+# text = MGTOW is just a natural consequence of this realization.
+# sent_id = 114483
+1	MGTOW	MGTOW	PROPN	NNP	Number=Sing	0	_	_	start_char=191|end_char=196
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=197|end_char=199
+3	just	just	ADV	RB	_	2	_	_	start_char=200|end_char=204
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=205|end_char=206
+5	natural	natural	ADJ	JJ	Degree=Pos	4	_	_	start_char=207|end_char=214
+6	consequence	consequence	NOUN	NN	Number=Sing	5	_	_	start_char=215|end_char=226
+7	of	of	ADP	IN	_	6	_	_	start_char=227|end_char=229
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=230|end_char=234
+9	realization	realization	NOUN	NN	Number=Sing	8	_	_	start_char=235|end_char=246|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=246|end_char=247|SpaceAfter=No
+

@@ -1,0 +1,35 @@
+# text = See ladies?
+# sent_id = 19950
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	ladies	lady	NOUN	NNS	Number=Plur	1	_	_	start_char=4|end_char=10|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=10|end_char=11
+
+# text = The sexes aren't equal.
+# sent_id = 19951
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=12|end_char=15
+2	sexes	sexe	NOUN	NNS	Number=Plur	1	_	_	start_char=16|end_char=21
+3-4	aren't	_	_	_	_	_	_	_	start_char=22|end_char=28
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=22|end_char=25
+4	n't	not	PART	RB	_	3	_	_	start_char=25|end_char=28
+5	equal	equal	ADJ	JJ	Degree=Pos	4	_	_	start_char=29|end_char=34|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=34|end_char=35
+
+# text = We'd kick your asses half asleep unarmed even if you had a sword.
+# sent_id = 19952
+1-2	We'd	_	_	_	_	_	_	_	start_char=36|end_char=40
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=36|end_char=38
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=38|end_char=40
+3	kick	kick	VERB	VB	VerbForm=Inf	2	_	_	start_char=41|end_char=45
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=46|end_char=50
+5	asses	ass	NOUN	NNS	Number=Plur	4	_	_	start_char=51|end_char=56
+6	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	5	_	_	start_char=57|end_char=61
+7	asleep	asleep	ADV	RB	_	6	_	_	start_char=62|end_char=68
+8	unarmed	unarmed	ADJ	JJ	Degree=Pos	7	_	_	start_char=69|end_char=76
+9	even	even	ADV	RB	_	8	_	_	start_char=77|end_char=81
+10	if	if	SCONJ	IN	_	9	_	_	start_char=82|end_char=84
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=85|end_char=88
+12	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	11	_	_	start_char=89|end_char=92
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=93|end_char=94
+14	sword	sword	NOUN	NN	Number=Sing	13	_	_	start_char=95|end_char=100|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=100|end_char=101|SpaceAfter=No
+

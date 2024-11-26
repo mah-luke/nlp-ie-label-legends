@@ -1,0 +1,31 @@
+# text = Stop drinking so much or make it really clear why you're not hard.
+# sent_id = 22011
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	drinking	drink	VERB	VBG	VerbForm=Ger	1	_	_	start_char=5|end_char=13
+3	so	so	ADV	RB	_	2	_	_	start_char=14|end_char=16
+4	much	much	ADV	RB	Degree=Pos	3	_	_	start_char=17|end_char=21
+5	or	or	CCONJ	CC	_	4	_	_	start_char=22|end_char=24
+6	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=25|end_char=29
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=30|end_char=32
+8	really	really	ADV	RB	_	7	_	_	start_char=33|end_char=39
+9	clear	clear	ADJ	JJ	Degree=Pos	8	_	_	start_char=40|end_char=45
+10	why	why	ADV	WRB	PronType=Rel	9	_	_	start_char=46|end_char=49
+11-12	you're	_	_	_	_	_	_	_	start_char=50|end_char=56
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=50|end_char=53
+12	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=53|end_char=56
+13	not	not	PART	RB	_	12	_	_	start_char=57|end_char=60
+14	hard	hard	ADJ	JJ	Degree=Pos	13	_	_	start_char=61|end_char=65|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=65|end_char=66
+
+# text = I imagine that shit is embarrassing to a girl
+# sent_id = 22012
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=67|end_char=68
+2	imagine	imagine	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=69|end_char=76
+3	that	that	SCONJ	IN	_	2	_	_	start_char=77|end_char=81
+4	shit	shit	NOUN	NN	Number=Sing	3	_	_	start_char=82|end_char=86
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=87|end_char=89
+6	embarrassing	embarrassing	ADJ	JJ	Degree=Pos	5	_	_	start_char=90|end_char=102
+7	to	to	ADP	IN	_	6	_	_	start_char=103|end_char=105
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=106|end_char=107
+9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=108|end_char=112|SpaceAfter=No
+

@@ -1,0 +1,40 @@
+# text = Stupid video.
+# sent_id = 56667
+1	Stupid	Stupid	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=6
+2	video	video	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=12|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=12|end_char=13
+
+# text = That octopus is not "eat-it-alive" size.
+# sent_id = 56668
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=14|end_char=18
+2	octopus	octopus	NOUN	NN	Number=Sing	1	_	_	start_char=19|end_char=26
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=27|end_char=29
+4	not	not	PART	RB	_	3	_	_	start_char=30|end_char=33
+5	"	"	PUNCT	``	_	4	_	_	start_char=34|end_char=35|SpaceAfter=No
+6	eat	eat	VERB	VB	VerbForm=Inf	5	_	_	start_char=35|end_char=38|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	_	_	start_char=38|end_char=39|SpaceAfter=No
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=39|end_char=41|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	_	_	start_char=41|end_char=42|SpaceAfter=No
+10	alive	alive	ADJ	JJ	Degree=Pos	9	_	_	start_char=42|end_char=47|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=47|end_char=48
+12	size	size	NOUN	NN	Number=Sing	11	_	_	start_char=49|end_char=53|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=53|end_char=54
+
+# text = She's either a complete idiot, it's staged or both.
+# sent_id = 56669
+1-2	She's	_	_	_	_	_	_	_	start_char=55|end_char=60
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=55|end_char=58
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=58|end_char=60
+3	either	either	CCONJ	CC	_	2	_	_	start_char=61|end_char=67
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=68|end_char=69
+5	complete	complete	ADJ	JJ	Degree=Pos	4	_	_	start_char=70|end_char=78
+6	idiot	idiot	NOUN	NN	Number=Sing	5	_	_	start_char=79|end_char=84|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=84|end_char=85
+8-9	it's	_	_	_	_	_	_	_	start_char=86|end_char=90
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=86|end_char=88
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=88|end_char=90
+10	staged	stage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=91|end_char=97
+11	or	or	CCONJ	CC	_	10	_	_	start_char=98|end_char=100
+12	both	both	DET	DT	PronType=Art	11	_	_	start_char=101|end_char=105|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=105|end_char=106|SpaceAfter=No
+

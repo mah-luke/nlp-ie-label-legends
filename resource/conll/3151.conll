@@ -1,0 +1,25 @@
+# text = fuck rice she sux.
+# sent_id = 6639
+1	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	rice	rice	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=13
+4	sux	sux	ADV	RB	_	3	_	_	start_char=14|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = he needs to fire tillerson.
+# sent_id = 6640
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=19|end_char=21
+2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=27
+3	to	to	PART	TO	_	2	_	_	start_char=28|end_char=30
+4	fire	fire	VERB	VB	VerbForm=Inf	3	_	_	start_char=31|end_char=35
+5	tillerson	tillerson	NOUN	NN	Number=Sing	4	_	_	start_char=36|end_char=45|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=45|end_char=46
+
+# text = bush fucking moles drain swamp
+# sent_id = 6641
+1	bush	Bush	PROPN	NNP	Number=Sing	0	_	_	start_char=47|end_char=51
+2	fucking	fuck	NOUN	NN	Number=Sing	1	_	_	start_char=52|end_char=59
+3	moles	mole	NOUN	NNS	Number=Plur	2	_	_	start_char=60|end_char=65
+4	drain	drain	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=66|end_char=71
+5	swamp	swamp	NOUN	NN	Number=Sing	4	_	_	start_char=72|end_char=77|SpaceAfter=No
+

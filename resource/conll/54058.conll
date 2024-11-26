@@ -1,0 +1,49 @@
+# text = RT UK ([USER])
+# sent_id = 115572
+1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
+2	UK	UK	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=5
+3	(	(	PUNCT	-LRB-	_	2	_	_	start_char=6|end_char=7|SpaceAfter=No
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=7|end_char=8|SpaceAfter=No
+5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=8|end_char=12|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=12|end_char=13|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=13|end_char=14
+
+# text = Tweeted: People are calling to boycott [USER] after this man launched a racist tirade on an elderly woman.
+# sent_id = 115573
+1	Tweeted	tweet	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin	0	_	_	start_char=15|end_char=22|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=22|end_char=23
+3	People	person	NOUN	NNS	Number=Plur	2	_	_	start_char=24|end_char=30
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=31|end_char=34
+5	calling	call	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=35|end_char=42
+6	to	to	PART	TO	_	5	_	_	start_char=43|end_char=45
+7	boycott	boycott	VERB	VB	VerbForm=Inf	6	_	_	start_char=46|end_char=53
+8	[	[	PUNCT	-LRB-	_	7	_	_	start_char=54|end_char=55|SpaceAfter=No
+9	USER	user	NOUN	NN	Number=Sing	8	_	_	start_char=55|end_char=59|SpaceAfter=No
+10	]	]	PUNCT	-RRB-	_	9	_	_	start_char=59|end_char=60
+11	after	after	SCONJ	IN	_	10	_	_	start_char=61|end_char=66
+12	this	this	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=67|end_char=71
+13	man	man	NOUN	NN	Number=Sing	12	_	_	start_char=72|end_char=75
+14	launched	launch	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=76|end_char=84
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=85|end_char=86
+16	racist	racist	ADJ	JJ	Degree=Pos	15	_	_	start_char=87|end_char=93
+17	tirade	tirade	NOUN	NN	Number=Sing	16	_	_	start_char=94|end_char=100
+18	on	on	ADP	IN	_	17	_	_	start_char=101|end_char=103
+19	an	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=104|end_char=106
+20	elderly	elderly	ADJ	JJ	Degree=Pos	19	_	_	start_char=107|end_char=114
+21	woman	woman	NOUN	NN	Number=Sing	20	_	_	start_char=115|end_char=120|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=120|end_char=121
+
+# text = MORE: [URL] [URL] [URL]
+# sent_id = 115574
+1	MORE	more	ADJ	JJR	Degree=Cmp	0	_	_	start_char=122|end_char=126|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=126|end_char=127
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=128|end_char=129|SpaceAfter=No
+4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=129|end_char=132|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=132|end_char=133
+6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=134|end_char=135|SpaceAfter=No
+7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=135|end_char=138|SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=138|end_char=139
+9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=140|end_char=141|SpaceAfter=No
+10	URL	URL	PROPN	NNP	Number=Sing	9	_	_	start_char=141|end_char=144|SpaceAfter=No
+11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=144|end_char=145|SpaceAfter=No
+

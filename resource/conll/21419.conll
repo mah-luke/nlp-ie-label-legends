@@ -1,0 +1,61 @@
+# text = Is was a joke to lighten the mood.
+# sent_id = 46017
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=8
+4	joke	joke	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=13
+5	to	to	PART	TO	_	4	_	_	start_char=14|end_char=16
+6	lighten	lighten	VERB	VB	VerbForm=Inf	5	_	_	start_char=17|end_char=24
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=25|end_char=28
+8	mood	mood	NOUN	NN	Number=Sing	7	_	_	start_char=29|end_char=33|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=33|end_char=34
+
+# text = I could have as easily gone for "people choking to death" And no, I don't discriminate.
+# sent_id = 46018
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=35|end_char=36
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=37|end_char=42
+3	have	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=43|end_char=47
+4	as	as	ADV	RB	_	3	_	_	start_char=48|end_char=50
+5	easily	easily	ADV	RB	_	4	_	_	start_char=51|end_char=57
+6	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=58|end_char=62
+7	for	for	ADP	IN	_	6	_	_	start_char=63|end_char=66
+8	"	"	PUNCT	``	_	7	_	_	start_char=67|end_char=68|SpaceAfter=No
+9	people	person	NOUN	NNS	Number=Plur	8	_	_	start_char=68|end_char=74
+10	choking	choke	VERB	VBG	VerbForm=Ger	9	_	_	start_char=75|end_char=82
+11	to	to	ADP	IN	_	10	_	_	start_char=83|end_char=85
+12	death	death	NOUN	NN	Number=Sing	11	_	_	start_char=86|end_char=91|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=91|end_char=92
+14	And	and	CCONJ	CC	_	13	_	_	start_char=93|end_char=96
+15	no	no	INTJ	UH	Polarity=Neg	14	_	_	start_char=97|end_char=99|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=99|end_char=100
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=101|end_char=102
+18-19	don't	_	_	_	_	_	_	_	start_char=103|end_char=108
+18	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=103|end_char=105
+19	n't	not	PART	RB	_	18	_	_	start_char=105|end_char=108
+20	discriminate	discriminate	VERB	VB	VerbForm=Inf	19	_	_	start_char=109|end_char=121|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=121|end_char=122
+
+# text = Even those who hate me, and wish me dead, would be shown kindness if they were in need.
+# sent_id = 46019
+1	Even	even	ADV	RB	_	0	_	_	start_char=123|end_char=127
+2	those	that	PRON	DT	Number=Plur|PronType=Dem	1	_	_	start_char=128|end_char=133
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=134|end_char=137
+4	hate	hate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=138|end_char=142
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=143|end_char=145|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=145|end_char=146
+7	and	and	CCONJ	CC	_	6	_	_	start_char=147|end_char=150
+8	wish	wish	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=151|end_char=155
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=156|end_char=158
+10	dead	dead	ADJ	JJ	Degree=Pos	9	_	_	start_char=159|end_char=163|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=163|end_char=164
+12	would	would	AUX	MD	VerbForm=Fin	11	_	_	start_char=165|end_char=170
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=171|end_char=173
+14	shown	show	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=174|end_char=179
+15	kindness	kindness	NOUN	NN	Number=Sing	14	_	_	start_char=180|end_char=188
+16	if	if	SCONJ	IN	_	15	_	_	start_char=189|end_char=191
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=192|end_char=196
+18	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=197|end_char=201
+19	in	in	ADP	IN	_	18	_	_	start_char=202|end_char=204
+20	need	need	NOUN	NN	Number=Sing	19	_	_	start_char=205|end_char=209|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=209|end_char=210|SpaceAfter=No
+

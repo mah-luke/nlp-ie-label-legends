@@ -1,0 +1,59 @@
+# text = Remember, girls have years of training how to put down guys.
+# sent_id = 23684
+1	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=8|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=8|end_char=9
+3	girls	girl	NOUN	NNS	Number=Plur	2	_	_	start_char=10|end_char=15
+4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=16|end_char=20
+5	years	year	NOUN	NNS	Number=Plur	4	_	_	start_char=21|end_char=26
+6	of	of	ADP	IN	_	5	_	_	start_char=27|end_char=29
+7	training	training	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=38
+8	how	how	ADV	WRB	PronType=Int	7	_	_	start_char=39|end_char=42
+9	to	to	PART	TO	_	8	_	_	start_char=43|end_char=45
+10	put	put	VERB	VB	VerbForm=Inf	9	_	_	start_char=46|end_char=49
+11	down	down	ADP	RP	_	10	_	_	start_char=50|end_char=54
+12	guys	guy	NOUN	NNS	Number=Plur	11	_	_	start_char=55|end_char=59|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=59|end_char=60
+
+# text = If you escalate and she doesn't want that, she'll put you down as gently as she can (unless you act like a jerk; I'm assuming you're not).
+# sent_id = 23685
+1	If	if	SCONJ	IN	_	0	_	_	start_char=61|end_char=63
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=64|end_char=67
+3	escalate	escalate	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=68|end_char=76
+4	and	and	CCONJ	CC	_	3	_	_	start_char=77|end_char=80
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=81|end_char=84
+6-7	doesn't	_	_	_	_	_	_	_	start_char=85|end_char=92
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=85|end_char=89
+7	n't	not	PART	RB	_	6	_	_	start_char=89|end_char=92
+8	want	want	VERB	VB	VerbForm=Inf	7	_	_	start_char=93|end_char=97
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=98|end_char=102|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=102|end_char=103
+11-12	she'll	_	_	_	_	_	_	_	start_char=104|end_char=110
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=104|end_char=107
+12	'll	will	AUX	MD	VerbForm=Fin	11	_	_	start_char=107|end_char=110
+13	put	put	VERB	VB	VerbForm=Inf	12	_	_	start_char=111|end_char=114
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	_	_	start_char=115|end_char=118
+15	down	down	ADP	RP	_	14	_	_	start_char=119|end_char=123
+16	as	as	ADV	RB	_	15	_	_	start_char=124|end_char=126
+17	gently	gently	ADV	RB	_	16	_	_	start_char=127|end_char=133
+18	as	as	SCONJ	IN	_	17	_	_	start_char=134|end_char=136
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=137|end_char=140
+20	can	can	AUX	MD	VerbForm=Fin	19	_	_	start_char=141|end_char=144
+21	(	(	PUNCT	-LRB-	_	20	_	_	start_char=145|end_char=146|SpaceAfter=No
+22	unless	unless	SCONJ	IN	_	21	_	_	start_char=146|end_char=152
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	_	_	start_char=153|end_char=156
+24	act	act	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	_	_	start_char=157|end_char=160
+25	like	like	ADP	IN	_	24	_	_	start_char=161|end_char=165
+26	a	a	DET	DT	Definite=Ind|PronType=Art	25	_	_	start_char=166|end_char=167
+27	jerk	jerk	NOUN	NN	Number=Sing	26	_	_	start_char=168|end_char=172|SpaceAfter=No
+28	;	;	PUNCT	:	_	27	_	_	start_char=172|end_char=173
+29-30	I'm	_	_	_	_	_	_	_	start_char=174|end_char=177
+29	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	_	_	start_char=174|end_char=175
+30	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	_	_	start_char=175|end_char=177
+31	assuming	assume	VERB	VBG	Tense=Pres|VerbForm=Part	30	_	_	start_char=178|end_char=186
+32-33	you're	_	_	_	_	_	_	_	start_char=187|end_char=193
+32	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	31	_	_	start_char=187|end_char=190
+33	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	32	_	_	start_char=190|end_char=193
+34	not	not	PART	RB	_	33	_	_	start_char=194|end_char=197|SpaceAfter=No
+35	)	)	PUNCT	-RRB-	_	34	_	_	start_char=197|end_char=198|SpaceAfter=No
+36	.	.	PUNCT	.	_	35	_	_	start_char=198|end_char=199|SpaceAfter=No
+

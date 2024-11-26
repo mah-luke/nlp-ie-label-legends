@@ -1,0 +1,33 @@
+# text = That's my current modus operandi.
+# sent_id = 21978
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=7|end_char=9
+4	current	current	ADJ	JJ	Degree=Pos	3	_	_	start_char=10|end_char=17
+5	modus	modus	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=23
+6	operandi	operandi	NOUN	NN	Number=Sing	5	_	_	start_char=24|end_char=32|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=32|end_char=33
+
+# text = This girl wants to date me so the posters thinking she's banging other dudes are off...
+# sent_id = 21979
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=34|end_char=38
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=39|end_char=43
+3	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=44|end_char=49
+4	to	to	PART	TO	_	3	_	_	start_char=50|end_char=52
+5	date	date	VERB	VB	VerbForm=Inf	4	_	_	start_char=53|end_char=57
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=58|end_char=60
+7	so	so	ADV	RB	_	6	_	_	start_char=61|end_char=63
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=64|end_char=67
+9	posters	poster	NOUN	NNS	Number=Plur	8	_	_	start_char=68|end_char=75
+10	thinking	think	VERB	VBG	VerbForm=Ger	9	_	_	start_char=76|end_char=84
+11-12	she's	_	_	_	_	_	_	_	start_char=85|end_char=90
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=85|end_char=88
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=88|end_char=90
+13	banging	bang	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=91|end_char=98
+14	other	other	ADJ	JJ	Degree=Pos	13	_	_	start_char=99|end_char=104
+15	dudes	dude	NOUN	NNS	Number=Plur	14	_	_	start_char=105|end_char=110
+16	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=111|end_char=114
+17	off	off	ADV	RB	_	16	_	_	start_char=115|end_char=118|SpaceAfter=No
+18	...	...	PUNCT	.	_	17	_	_	start_char=118|end_char=121|SpaceAfter=No
+

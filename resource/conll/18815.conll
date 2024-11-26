@@ -1,0 +1,62 @@
+# text = It's a TV show.
+# sent_id = 40340
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=5|end_char=6
+4	TV	TV	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=9
+5	show	show	NOUN	NN	Number=Sing	4	_	_	start_char=10|end_char=14|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=14|end_char=15
+
+# text = It's not real and subject to the whims of the writer.
+# sent_id = 40341
+1-2	It's	_	_	_	_	_	_	_	start_char=16|end_char=20
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=16|end_char=18
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=18|end_char=20
+3	not	not	PART	RB	_	2	_	_	start_char=21|end_char=24
+4	real	real	ADJ	JJ	Degree=Pos	3	_	_	start_char=25|end_char=29
+5	and	and	CCONJ	CC	_	4	_	_	start_char=30|end_char=33
+6	subject	subject	ADJ	JJ	Degree=Pos	5	_	_	start_char=34|end_char=41
+7	to	to	ADP	IN	_	6	_	_	start_char=42|end_char=44
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=45|end_char=48
+9	whims	whim	NOUN	NNS	Number=Plur	8	_	_	start_char=49|end_char=54
+10	of	of	ADP	IN	_	9	_	_	start_char=55|end_char=57
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=58|end_char=61
+12	writer	writer	NOUN	NN	Number=Sing	11	_	_	start_char=62|end_char=68|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=68|end_char=69
+
+# text = A guy can run the worst game in the world and still get a girl interested in Tee Vee land.
+# sent_id = 40342
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=70|end_char=71
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=72|end_char=75
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=76|end_char=79
+4	run	run	VERB	VB	VerbForm=Inf	3	_	_	start_char=80|end_char=83
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=84|end_char=87
+6	worst	bad	ADJ	JJS	Degree=Sup	5	_	_	start_char=88|end_char=93
+7	game	game	NOUN	NN	Number=Sing	6	_	_	start_char=94|end_char=98
+8	in	in	ADP	IN	_	7	_	_	start_char=99|end_char=101
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=102|end_char=105
+10	world	world	NOUN	NN	Number=Sing	9	_	_	start_char=106|end_char=111
+11	and	and	CCONJ	CC	_	10	_	_	start_char=112|end_char=115
+12	still	still	ADV	RB	_	11	_	_	start_char=116|end_char=121
+13	get	get	VERB	VB	VerbForm=Fin	12	_	_	start_char=122|end_char=125
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=126|end_char=127
+15	girl	girl	NOUN	NN	Number=Sing	14	_	_	start_char=128|end_char=132
+16	interested	interested	ADJ	JJ	Degree=Pos	15	_	_	start_char=133|end_char=143
+17	in	in	ADP	IN	_	16	_	_	start_char=144|end_char=146
+18	Tee	Tee	PROPN	NNP	Number=Sing	17	_	_	start_char=147|end_char=150
+19	Vee	Vee	PROPN	NNP	Number=Sing	18	_	_	start_char=151|end_char=154
+20	land	land	NOUN	NN	Number=Sing	19	_	_	start_char=155|end_char=159|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=159|end_char=160
+
+# text = Nothing of use to be found here.
+# sent_id = 40343
+1	Nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=161|end_char=168
+2	of	of	ADP	IN	_	1	_	_	start_char=169|end_char=171
+3	use	use	NOUN	NN	Number=Sing	2	_	_	start_char=172|end_char=175
+4	to	to	PART	TO	_	3	_	_	start_char=176|end_char=178
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=179|end_char=181
+6	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=182|end_char=187
+7	here	here	ADV	RB	PronType=Dem	6	_	_	start_char=188|end_char=192|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=192|end_char=193|SpaceAfter=No
+

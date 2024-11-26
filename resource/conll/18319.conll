@@ -1,0 +1,69 @@
+# text = Jimbo?
+# sent_id = 39322
+1	Jimbo	Jimbo	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=5|end_char=6
+
+# text = More like Bimbo?
+# sent_id = 39323
+1	More	more	ADV	RBR	Degree=Cmp	0	_	_	start_char=7|end_char=11
+2	like	like	ADP	IN	_	1	_	_	start_char=12|end_char=16
+3	Bimbo	Bimbo	PROPN	NNP	Number=Sing	2	_	_	start_char=17|end_char=22|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=22|end_char=23
+
+# text = Is he one of your princess gang?
+# sent_id = 39324
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=24|end_char=26
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=27|end_char=29
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	2	_	_	start_char=30|end_char=33
+4	of	of	ADP	IN	_	3	_	_	start_char=34|end_char=36
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=37|end_char=41
+6	princess	princess	NOUN	NN	Number=Sing	5	_	_	start_char=42|end_char=50
+7	gang	gang	NOUN	NN	Number=Sing	6	_	_	start_char=51|end_char=55|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=55|end_char=56
+
+# text = Ha ha ha.. who gives a shit if he blocked me.. that's what free speech is about.. you'd know it if you ever pulled your head out of your ass and stop whining like a bitch..
+# sent_id = 39325
+1	Ha	ha	INTJ	UH	_	0	_	_	start_char=57|end_char=59
+2	ha	ha	INTJ	UH	_	1	_	_	start_char=60|end_char=62
+3	ha..	ha..	PUNCT	,	_	2	_	_	start_char=63|end_char=67
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=68|end_char=71
+5	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=72|end_char=77
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=78|end_char=79
+7	shit	shit	NOUN	NN	Number=Sing	6	_	_	start_char=80|end_char=84
+8	if	if	SCONJ	IN	_	7	_	_	start_char=85|end_char=87
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=88|end_char=90
+10	blocked	block	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=91|end_char=98
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=99|end_char=101|SpaceAfter=No
+12	..	..	PUNCT	,	_	11	_	_	start_char=101|end_char=103
+13-14	that's	_	_	_	_	_	_	_	start_char=104|end_char=110
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	12	_	_	start_char=104|end_char=108
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=108|end_char=110
+15	what	what	DET	WDT	PronType=Int	14	_	_	start_char=111|end_char=115
+16	free	free	ADJ	JJ	Degree=Pos	15	_	_	start_char=116|end_char=120
+17	speech	speech	NOUN	NN	Number=Sing	16	_	_	start_char=121|end_char=127
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=128|end_char=130
+19	about	about	ADP	IN	_	18	_	_	start_char=131|end_char=136|SpaceAfter=No
+20	..	..	PUNCT	,	_	19	_	_	start_char=136|end_char=138
+21-22	you'd	_	_	_	_	_	_	_	start_char=139|end_char=144
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	_	_	start_char=139|end_char=142
+22	'd	would	AUX	MD	VerbForm=Fin	21	_	_	start_char=142|end_char=144
+23	know	know	VERB	VB	VerbForm=Inf	22	_	_	start_char=145|end_char=149
+24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=150|end_char=152
+25	if	if	SCONJ	IN	_	24	_	_	start_char=153|end_char=155
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	_	_	start_char=156|end_char=159
+27	ever	ever	ADV	RB	_	26	_	_	start_char=160|end_char=164
+28	pulled	pull	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	27	_	_	start_char=165|end_char=171
+29	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	28	_	_	start_char=172|end_char=176
+30	head	head	NOUN	NN	Number=Sing	29	_	_	start_char=177|end_char=181
+31	out	out	ADP	IN	_	30	_	_	start_char=182|end_char=185
+32	of	of	ADP	IN	_	31	_	_	start_char=186|end_char=188
+33	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	32	_	_	start_char=189|end_char=193
+34	ass	ass	NOUN	NN	Number=Sing	33	_	_	start_char=194|end_char=197
+35	and	and	CCONJ	CC	_	34	_	_	start_char=198|end_char=201
+36	stop	stop	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	35	_	_	start_char=202|end_char=206
+37	whining	whine	VERB	VBG	VerbForm=Ger	36	_	_	start_char=207|end_char=214
+38	like	like	ADP	IN	_	37	_	_	start_char=215|end_char=219
+39	a	a	DET	DT	Definite=Ind|PronType=Art	38	_	_	start_char=220|end_char=221
+40	bitch	bitch	NOUN	NN	Number=Sing	39	_	_	start_char=222|end_char=227|SpaceAfter=No
+41	..	..	PUNCT	.	_	40	_	_	start_char=227|end_char=229|SpaceAfter=No
+

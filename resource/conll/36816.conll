@@ -1,0 +1,30 @@
+# text = Fix it if it's bothering you.
+# sent_id = 78702
+1	Fix	fix	VERB	VB	Mood=Imp|VerbForm=Inf	0	_	_	start_char=0|end_char=3
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=4|end_char=6
+3	if	if	SCONJ	IN	_	2	_	_	start_char=7|end_char=9
+4-5	it's	_	_	_	_	_	_	_	start_char=10|end_char=14
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=10|end_char=12
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=12|end_char=14
+6	bothering	bother	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=15|end_char=24
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=25|end_char=28|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=28|end_char=29
+
+# text = Stop worrying about girls.
+# sent_id = 78703
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=30|end_char=34
+2	worrying	worry	VERB	VBG	VerbForm=Ger	1	_	_	start_char=35|end_char=43
+3	about	about	ADP	IN	_	2	_	_	start_char=44|end_char=49
+4	girls	girl	NOUN	NNS	Number=Plur	3	_	_	start_char=50|end_char=55|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=55|end_char=56
+
+# text = It's a serious problem.
+# sent_id = 78704
+1-2	It's	_	_	_	_	_	_	_	start_char=57|end_char=61
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=57|end_char=59
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=61
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=62|end_char=63
+4	serious	serious	ADJ	JJ	Degree=Pos	3	_	_	start_char=64|end_char=71
+5	problem	problem	NOUN	NN	Number=Sing	4	_	_	start_char=72|end_char=79|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=79|end_char=80|SpaceAfter=No
+

@@ -1,0 +1,62 @@
+# text = Illegal alien was deported 11 times..
+# sent_id = 105092
+1	Illegal	illegal	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=7
+2	alien	alien	NOUN	NN	Number=Sing	1	_	_	start_char=8|end_char=13
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=14|end_char=17
+4	deported	deport	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=18|end_char=26
+5	11	11	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=27|end_char=29
+6	times	time	NOUN	NNS	Number=Plur	5	_	_	start_char=30|end_char=35|SpaceAfter=No
+7	..	..	PUNCT	.	_	6	_	_	start_char=35|end_char=37
+
+# text = Savage tried to kill his wife with a chainsaw in front of his 3 kids.
+# sent_id = 105093
+1	Savage	Savage	PROPN	NNP	Number=Sing	0	_	_	start_char=38|end_char=44
+2	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=45|end_char=50
+3	to	to	PART	TO	_	2	_	_	start_char=51|end_char=53
+4	kill	kill	VERB	VB	VerbForm=Inf	3	_	_	start_char=54|end_char=58
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=59|end_char=62
+6	wife	wife	NOUN	NN	Number=Sing	5	_	_	start_char=63|end_char=67
+7	with	with	ADP	IN	_	6	_	_	start_char=68|end_char=72
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=73|end_char=74
+9	chainsaw	chainsaw	NOUN	NN	Number=Sing	8	_	_	start_char=75|end_char=83
+10	in	in	ADP	IN	_	9	_	_	start_char=84|end_char=86
+11	front	front	NOUN	NN	Number=Sing	10	_	_	start_char=87|end_char=92
+12	of	of	ADP	IN	_	11	_	_	start_char=93|end_char=95
+13	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=96|end_char=99
+14	3	3	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	start_char=100|end_char=101
+15	kids	kid	NOUN	NNS	Number=Plur	14	_	_	start_char=102|end_char=106|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=106|end_char=107
+
+# text = I'm wondering if he is a follower of the prophet MoHAM-MAD...
+# sent_id = 105094
+1-2	I'm	_	_	_	_	_	_	_	start_char=108|end_char=111
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=108|end_char=109
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=109|end_char=111
+3	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=112|end_char=121
+4	if	if	SCONJ	IN	_	3	_	_	start_char=122|end_char=124
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=125|end_char=127
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=128|end_char=130
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=131|end_char=132
+8	follower	follower	NOUN	NN	Number=Sing	7	_	_	start_char=133|end_char=141
+9	of	of	ADP	IN	_	8	_	_	start_char=142|end_char=144
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=145|end_char=148
+11	prophet	prophet	NOUN	NN	Number=Sing	10	_	_	start_char=149|end_char=156
+12	MoHAM	MoHAM	PROPN	NNP	Number=Sing	11	_	_	start_char=157|end_char=162|SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	12	_	_	start_char=162|end_char=163|SpaceAfter=No
+14	MAD	mad	ADJ	JJ	Degree=Pos	13	_	_	start_char=163|end_char=166|SpaceAfter=No
+15	...	...	PUNCT	.	_	14	_	_	start_char=166|end_char=169
+
+# text = Where is our wall?
+# sent_id = 105095
+1	Where	where	ADV	WRB	PronType=Int	0	_	_	start_char=170|end_char=175
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=176|end_char=178
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=179|end_char=182
+4	wall	wall	NOUN	NN	Number=Sing	3	_	_	start_char=183|end_char=187|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=187|end_char=188
+
+# text = [URL]
+# sent_id = 105096
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=189|end_char=190|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=190|end_char=193|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=193|end_char=194|SpaceAfter=No
+

@@ -1,0 +1,53 @@
+# text = no, not "truth" in abstract.
+# sent_id = 12379
+1	no	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	not	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	"	"	PUNCT	``	_	3	_	_	start_char=8|end_char=9|SpaceAfter=No
+5	truth	truth	NOUN	NN	Number=Sing	4	_	_	start_char=9|end_char=14|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=14|end_char=15
+7	in	in	ADP	IN	_	6	_	_	start_char=16|end_char=18
+8	abstract	abstract	NOUN	NN	Number=Sing	7	_	_	start_char=19|end_char=27|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=27|end_char=28
+
+# text = he said, she said - leads nowhere.
+# sent_id = 12380
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=29|end_char=31
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=32|end_char=36|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=36|end_char=37
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=38|end_char=41
+5	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=42|end_char=46
+6	-	-	PUNCT	,	_	5	_	_	start_char=47|end_char=48
+7	leads	lead	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=49|end_char=54
+8	nowhere	nowhere	ADV	RB	_	7	_	_	start_char=55|end_char=62|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=62|end_char=63
+
+# text = videos of BG raping & killing children, that would do the trick.
+# sent_id = 12381
+1	videos	video	NOUN	NNS	Number=Plur	0	_	_	start_char=64|end_char=70
+2	of	of	ADP	IN	_	1	_	_	start_char=71|end_char=73
+3	BG	BG	PROPN	NNP	Number=Sing	2	_	_	start_char=74|end_char=76
+4	raping	rape	VERB	VBG	VerbForm=Ger	3	_	_	start_char=77|end_char=83
+5	&	&	CCONJ	CC	_	4	_	_	start_char=84|end_char=85
+6	killing	kill	VERB	VBG	VerbForm=Ger	5	_	_	start_char=86|end_char=93
+7	children	child	NOUN	NNS	Number=Plur	6	_	_	start_char=94|end_char=102|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=102|end_char=103
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=104|end_char=108
+10	would	would	AUX	MD	VerbForm=Fin	9	_	_	start_char=109|end_char=114
+11	do	do	VERB	VB	VerbForm=Inf	10	_	_	start_char=115|end_char=117
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=118|end_char=121
+13	trick	trick	NOUN	NN	Number=Sing	12	_	_	start_char=122|end_char=127|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=127|end_char=128
+
+# text = #Q & #POTUS have it all...
+# sent_id = 12382
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=129|end_char=130|SpaceAfter=No
+2	Q	Q	NOUN	NN	Number=Sing	1	_	_	start_char=130|end_char=131
+3	&	&	CCONJ	CC	_	2	_	_	start_char=132|end_char=133
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=134|end_char=135|SpaceAfter=No
+5	POTUS	potus	NOUN	NN	Number=Sing	4	_	_	start_char=135|end_char=140
+6	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=141|end_char=145
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=146|end_char=148
+8	all	all	DET	DT	_	7	_	_	start_char=149|end_char=152|SpaceAfter=No
+9	...	...	PUNCT	.	_	8	_	_	start_char=152|end_char=155|SpaceAfter=No
+

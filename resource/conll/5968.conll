@@ -1,0 +1,30 @@
+# text = He's hoping she doesn't give birth on his neck..........
+# sent_id = 12446
+1-2	He's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	hoping	hope	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=5|end_char=11
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=12|end_char=15
+5-6	doesn't	_	_	_	_	_	_	_	start_char=16|end_char=23
+5	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=16|end_char=20
+6	n't	not	PART	RB	_	5	_	_	start_char=20|end_char=23
+7	give	give	VERB	VB	VerbForm=Inf	6	_	_	start_char=24|end_char=28
+8	birth	birth	NOUN	NN	Number=Sing	7	_	_	start_char=29|end_char=34
+9	on	on	ADP	IN	_	8	_	_	start_char=35|end_char=37
+10	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=38|end_char=41
+11	neck	neck	NOUN	NN	Number=Sing	10	_	_	start_char=42|end_char=46|SpaceAfter=No
+12	..........	..........	PUNCT	.	_	11	_	_	start_char=46|end_char=56
+
+# text = What do you mean she isn't pregnant?!
+# sent_id = 12447
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=57|end_char=61
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=62|end_char=64
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=65|end_char=68
+4	mean	mean	VERB	VB	VerbForm=Inf	3	_	_	start_char=69|end_char=73
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=74|end_char=77
+6-7	isn't	_	_	_	_	_	_	_	start_char=78|end_char=83
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=78|end_char=80
+7	n't	not	PART	RB	_	6	_	_	start_char=80|end_char=83
+8	pregnant	pregnant	ADJ	JJ	Degree=Pos	7	_	_	start_char=84|end_char=92|SpaceAfter=No
+9	?!	?!	PUNCT	.	_	8	_	_	start_char=92|end_char=94|SpaceAfter=No
+

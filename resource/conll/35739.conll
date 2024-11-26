@@ -1,0 +1,48 @@
+# text = It all depends.
+# sent_id = 76503
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	all	all	DET	DT	PronType=Tot	1	_	_	start_char=3|end_char=6
+3	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = But what im trying to say, girls want emotions, not some logical political debate.
+# sent_id = 76504
+1	But	but	CCONJ	CC	_	0	_	_	start_char=16|end_char=19
+2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=20|end_char=24
+3	im	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=25|end_char=27
+4	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=28|end_char=34
+5	to	to	PART	TO	_	4	_	_	start_char=35|end_char=37
+6	say	say	VERB	VB	VerbForm=Inf	5	_	_	start_char=38|end_char=41|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=41|end_char=42
+8	girls	girl	NOUN	NNS	Number=Plur	7	_	_	start_char=43|end_char=48
+9	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=49|end_char=53
+10	emotions	emotion	NOUN	NNS	Number=Plur	9	_	_	start_char=54|end_char=62|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=62|end_char=63
+12	not	not	PART	RB	_	11	_	_	start_char=64|end_char=67
+13	some	some	DET	DT	_	12	_	_	start_char=68|end_char=72
+14	logical	logical	ADJ	JJ	Degree=Pos	13	_	_	start_char=73|end_char=80
+15	political	political	ADJ	JJ	Degree=Pos	14	_	_	start_char=81|end_char=90
+16	debate	debate	NOUN	NN	Number=Sing	15	_	_	start_char=91|end_char=97|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=97|end_char=98
+
+# text = Spike their emotions.
+# sent_id = 76505
+1	Spike	spike	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=99|end_char=104
+2	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=105|end_char=110
+3	emotions	emotion	NOUN	NNS	Number=Plur	2	_	_	start_char=111|end_char=119|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=119|end_char=120
+
+# text = Say something funny, something provocative, dance with them etc
+# sent_id = 76506
+1	Say	say	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=121|end_char=124
+2	something	something	PRON	NN	Number=Sing|PronType=Ind	1	_	_	start_char=125|end_char=134
+3	funny	funny	ADJ	JJ	Degree=Pos	2	_	_	start_char=135|end_char=140|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=140|end_char=141
+5	something	something	PRON	NN	Number=Sing|PronType=Ind	4	_	_	start_char=142|end_char=151
+6	provocative	provocative	ADJ	JJ	Degree=Pos	5	_	_	start_char=152|end_char=163|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=163|end_char=164
+8	dance	dance	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=165|end_char=170
+9	with	with	ADP	IN	_	8	_	_	start_char=171|end_char=175
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=176|end_char=180
+11	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	10	_	_	start_char=181|end_char=184|SpaceAfter=No
+

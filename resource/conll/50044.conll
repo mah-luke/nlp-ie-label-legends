@@ -1,0 +1,53 @@
+# text = That’s how you get the power back .
+# sent_id = 106972
+1-2	That’s	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=7|end_char=10
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=15|end_char=18
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=19|end_char=22
+7	power	power	NOUN	NN	Number=Sing	6	_	_	start_char=23|end_char=28
+8	back	back	ADV	RB	_	7	_	_	start_char=29|end_char=33
+9	.	.	PUNCT	.	_	8	_	_	start_char=34|end_char=35
+
+# text = Now she knows she ain’t shit lmao 😂.
+# sent_id = 106973
+1	Now	now	ADV	RB	_	0	_	_	start_char=36|end_char=39
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=40|end_char=43
+3	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=44|end_char=49
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=50|end_char=53
+5-6	ain’t	_	_	_	_	_	_	_	start_char=54|end_char=59
+5	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=54|end_char=56
+6	n’t	not	PART	RB	_	5	_	_	start_char=56|end_char=59
+7	shit	shit	NOUN	NN	Number=Sing	6	_	_	start_char=60|end_char=64
+8	lmao	lmao	INTJ	UH	_	7	_	_	start_char=65|end_char=69
+9	😂.	😂.	PUNCT	.	_	8	_	_	start_char=70|end_char=72
+
+# text = You got her in your palm now bro .
+# sent_id = 106974
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=73|end_char=76
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=77|end_char=80
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=81|end_char=84
+4	in	in	ADP	IN	_	3	_	_	start_char=85|end_char=87
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=88|end_char=92
+6	palm	palm	NOUN	NN	Number=Sing	5	_	_	start_char=93|end_char=97
+7	now	now	ADV	RB	_	6	_	_	start_char=98|end_char=101
+8	bro	bro	NOUN	NN	Number=Sing	7	_	_	start_char=102|end_char=105
+9	.	.	PUNCT	.	_	8	_	_	start_char=106|end_char=107
+
+# text = Hit her up when you’re ready to get plowing .
+# sent_id = 106975
+1	Hit	hit	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=108|end_char=111
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=112|end_char=115
+3	up	up	ADP	RP	_	2	_	_	start_char=116|end_char=118
+4	when	when	ADV	WRB	PronType=Int	3	_	_	start_char=119|end_char=123
+5-6	you’re	_	_	_	_	_	_	_	start_char=124|end_char=130
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=124|end_char=127
+6	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=127|end_char=130
+7	ready	ready	ADJ	JJ	Degree=Pos	6	_	_	start_char=131|end_char=136
+8	to	to	PART	TO	_	7	_	_	start_char=137|end_char=139
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=140|end_char=143
+10	plowing	plow	VERB	VBG	VerbForm=Ger	9	_	_	start_char=144|end_char=151
+11	.	.	PUNCT	.	_	10	_	_	start_char=152|end_char=153|SpaceAfter=No
+

@@ -1,0 +1,33 @@
+# text = So does walking from bar to bar.
+# sent_id = 114984
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=7
+3	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=8|end_char=15
+4	from	from	ADP	IN	_	3	_	_	start_char=16|end_char=20
+5	bar	bar	NOUN	NN	Number=Sing	4	_	_	start_char=21|end_char=24
+6	to	to	ADP	IN	_	5	_	_	start_char=25|end_char=27
+7	bar	bar	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=31|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=31|end_char=32
+
+# text = So does kissing in the street.
+# sent_id = 114985
+1	So	so	ADV	RB	_	0	_	_	start_char=33|end_char=35
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=40
+3	kissing	kiss	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=41|end_char=48
+4	in	in	ADP	IN	_	3	_	_	start_char=49|end_char=51
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=52|end_char=55
+6	street	street	NOUN	NN	Number=Sing	5	_	_	start_char=56|end_char=62|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=62|end_char=63
+
+# text = Some girls are very shy about that too.
+# sent_id = 114986
+1	Some	some	DET	DT	_	0	_	_	start_char=64|end_char=68
+2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=69|end_char=74
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=75|end_char=78
+4	very	very	ADV	RB	_	3	_	_	start_char=79|end_char=83
+5	shy	shy	ADJ	JJ	Degree=Pos	4	_	_	start_char=84|end_char=87
+6	about	about	ADP	IN	_	5	_	_	start_char=88|end_char=93
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=94|end_char=98
+8	too	too	ADV	RB	_	7	_	_	start_char=99|end_char=102|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=102|end_char=103|SpaceAfter=No
+

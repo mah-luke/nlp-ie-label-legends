@@ -1,0 +1,35 @@
+# text = I’ve spent more than that on booze in a year.
+# sent_id = 126388
+1-2	I’ve	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=10
+4	more	more	ADJ	JJR	Degree=Cmp	3	_	_	start_char=11|end_char=15
+5	than	than	ADP	IN	_	4	_	_	start_char=16|end_char=20
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=21|end_char=25
+7	on	on	ADP	IN	_	6	_	_	start_char=26|end_char=28
+8	booze	booze	NOUN	NN	Number=Sing	7	_	_	start_char=29|end_char=34
+9	in	in	ADP	IN	_	8	_	_	start_char=35|end_char=37
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=38|end_char=39
+11	year	year	NOUN	NN	Number=Sing	10	_	_	start_char=40|end_char=44|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=44|end_char=45
+
+# text = And plenty of guys spend more than that wining and dining women in a year.
+# sent_id = 126389
+1	And	and	CCONJ	CC	_	0	_	_	start_char=46|end_char=49
+2	plenty	plenty	NOUN	NN	Number=Sing	1	_	_	start_char=50|end_char=56
+3	of	of	ADP	IN	_	2	_	_	start_char=57|end_char=59
+4	guys	guy	NOUN	NNS	Number=Plur	3	_	_	start_char=60|end_char=64
+5	spend	spend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=65|end_char=70
+6	more	more	ADJ	JJR	Degree=Cmp	5	_	_	start_char=71|end_char=75
+7	than	than	ADP	IN	_	6	_	_	start_char=76|end_char=80
+8	that	that	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=81|end_char=85
+9	wining	wining	NOUN	NN	Number=Sing	8	_	_	start_char=86|end_char=92
+10	and	and	CCONJ	CC	_	9	_	_	start_char=93|end_char=96
+11	dining	dining	NOUN	NN	Number=Sing	10	_	_	start_char=97|end_char=103
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=104|end_char=109
+13	in	in	ADP	IN	_	12	_	_	start_char=110|end_char=112
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=113|end_char=114
+15	year	year	NOUN	NN	Number=Sing	14	_	_	start_char=115|end_char=119|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=119|end_char=120|SpaceAfter=No
+

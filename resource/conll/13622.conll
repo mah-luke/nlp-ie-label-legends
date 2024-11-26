@@ -1,0 +1,42 @@
+# text = Why did she say, "thank God." ?
+# sent_id = 29013
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=8|end_char=11
+4	say	say	VERB	VB	VerbForm=Inf	3	_	_	start_char=12|end_char=15|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=15|end_char=16
+6	"	"	PUNCT	``	_	5	_	_	start_char=17|end_char=18|SpaceAfter=No
+7	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=18|end_char=23
+8	God	God	PROPN	NNP	Number=Sing	7	_	_	start_char=24|end_char=27|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=27|end_char=28|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=28|end_char=29
+11	?	?	PUNCT	.	_	10	_	_	start_char=30|end_char=31
+
+# text = Lol you're one relieved.
+# sent_id = 29014
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=32|end_char=35
+2-3	you're	_	_	_	_	_	_	_	start_char=36|end_char=42
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=36|end_char=39
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=39|end_char=42
+4	one	one	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=43|end_char=46
+5	relieved	relieved	ADJ	JJ	Degree=Pos	4	_	_	start_char=47|end_char=55|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=55|end_char=56
+
+# text = Good on you man: don't break your word or balls for anyone
+# sent_id = 29015
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=57|end_char=61
+2	on	on	ADP	IN	_	1	_	_	start_char=62|end_char=64
+3	you	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=65|end_char=68
+4	man	man	NOUN	NN	Number=Sing	3	_	_	start_char=69|end_char=72|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=72|end_char=73
+6-7	don't	_	_	_	_	_	_	_	start_char=74|end_char=79
+6	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=74|end_char=76
+7	n't	not	PART	RB	_	6	_	_	start_char=76|end_char=79
+8	break	break	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=80|end_char=85
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=86|end_char=90
+10	word	word	NOUN	NN	Number=Sing	9	_	_	start_char=91|end_char=95
+11	or	or	CCONJ	CC	_	10	_	_	start_char=96|end_char=98
+12	balls	ball	NOUN	NNS	Number=Plur	11	_	_	start_char=99|end_char=104
+13	for	for	ADP	IN	_	12	_	_	start_char=105|end_char=108
+14	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	13	_	_	start_char=109|end_char=115|SpaceAfter=No
+

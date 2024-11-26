@@ -1,0 +1,29 @@
+# text = Listen beta, it's just sex that's important in life.
+# sent_id = 51222
+1	Listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=6
+2	beta	beta	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=11|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=11|end_char=12
+4-5	it's	_	_	_	_	_	_	_	start_char=13|end_char=17
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=13|end_char=15
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=15|end_char=17
+6	just	just	ADV	RB	_	5	_	_	start_char=18|end_char=22
+7	sex	sex	NOUN	NN	Number=Sing	6	_	_	start_char=23|end_char=26
+8-9	that's	_	_	_	_	_	_	_	start_char=27|end_char=33
+8	that	that	PRON	WDT	PronType=Rel	7	_	_	start_char=27|end_char=31
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=31|end_char=33
+10	important	important	ADJ	JJ	Degree=Pos	9	_	_	start_char=34|end_char=43
+11	in	in	ADP	IN	_	10	_	_	start_char=44|end_char=46
+12	life	life	NOUN	NN	Number=Sing	11	_	_	start_char=47|end_char=51|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=51|end_char=52
+
+# text = Sunsets are for girls and infants ONLY.
+# sent_id = 51223
+1	Sunsets	sunset	NOUN	NNS	Number=Plur	0	_	_	start_char=53|end_char=60
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=61|end_char=64
+3	for	for	ADP	IN	_	2	_	_	start_char=65|end_char=68
+4	girls	girl	NOUN	NNS	Number=Plur	3	_	_	start_char=69|end_char=74
+5	and	and	CCONJ	CC	_	4	_	_	start_char=75|end_char=78
+6	infants	infant	NOUN	NNS	Number=Plur	5	_	_	start_char=79|end_char=86
+7	ONLY	only	ADV	RB	_	6	_	_	start_char=87|end_char=91|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=91|end_char=92|SpaceAfter=No
+

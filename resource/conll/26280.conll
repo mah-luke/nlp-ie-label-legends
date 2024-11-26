@@ -1,0 +1,47 @@
+# text = No, it's a marxist issue.
+# sent_id = 56430
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3-4	it's	_	_	_	_	_	_	_	start_char=4|end_char=8
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=4|end_char=6
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=6|end_char=8
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=9|end_char=10
+6	marxist	marxist	ADJ	JJ	Degree=Pos	5	_	_	start_char=11|end_char=18
+7	issue	issue	NOUN	NN	Number=Sing	6	_	_	start_char=19|end_char=24|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=24|end_char=25
+
+# text = Western society has become perverted.
+# sent_id = 56431
+1	Western	western	ADJ	JJ	Degree=Pos	0	_	_	start_char=26|end_char=33
+2	society	society	NOUN	NN	Number=Sing	1	_	_	start_char=34|end_char=41
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=42|end_char=45
+4	become	become	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=46|end_char=52
+5	perverted	perverted	ADJ	JJ	Degree=Pos	4	_	_	start_char=53|end_char=62|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=62|end_char=63
+
+# text = Men and women have switched roles and this is what we get.
+# sent_id = 56432
+1	Men	man	NOUN	NNS	Number=Plur	0	_	_	start_char=64|end_char=67
+2	and	and	CCONJ	CC	_	1	_	_	start_char=68|end_char=71
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=72|end_char=77
+4	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=78|end_char=82
+5	switched	switch	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=83|end_char=91
+6	roles	role	NOUN	NNS	Number=Plur	5	_	_	start_char=92|end_char=97
+7	and	and	CCONJ	CC	_	6	_	_	start_char=98|end_char=101
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=102|end_char=106
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=107|end_char=109
+10	what	what	PRON	WP	PronType=Rel	9	_	_	start_char=110|end_char=114
+11	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	10	_	_	start_char=115|end_char=117
+12	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=118|end_char=121|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=121|end_char=122
+
+# text = It's disgusting and evil.
+# sent_id = 56433
+1-2	It's	_	_	_	_	_	_	_	start_char=123|end_char=127
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=123|end_char=125
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=125|end_char=127
+3	disgusting	disgusting	ADJ	JJ	Degree=Pos	2	_	_	start_char=128|end_char=138
+4	and	and	CCONJ	CC	_	3	_	_	start_char=139|end_char=142
+5	evil	evil	ADJ	JJ	Degree=Pos	4	_	_	start_char=143|end_char=147|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=147|end_char=148|SpaceAfter=No
+

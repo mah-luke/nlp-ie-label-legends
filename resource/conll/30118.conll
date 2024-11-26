@@ -1,0 +1,39 @@
+# text = you snooze you lose.
+# sent_id = 64533
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	snooze	snooze	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=10
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=11|end_char=14
+4	lose	lose	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=19|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=19|end_char=20
+
+# text = you don't own her.
+# sent_id = 64534
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=21|end_char=24
+2-3	don't	_	_	_	_	_	_	_	start_char=25|end_char=30
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=27
+3	n't	not	PART	RB	_	2	_	_	start_char=27|end_char=30
+4	own	own	VERB	VB	VerbForm=Inf	3	_	_	start_char=31|end_char=34
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=35|end_char=38|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=38|end_char=39
+
+# text = you might want to take your friend aside later and tell him he's cockblocking you.
+# sent_id = 64535
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=40|end_char=43
+2	might	might	AUX	MD	VerbForm=Fin	1	_	_	start_char=44|end_char=49
+3	want	want	VERB	VB	VerbForm=Inf	2	_	_	start_char=50|end_char=54
+4	to	to	PART	TO	_	3	_	_	start_char=55|end_char=57
+5	take	take	VERB	VB	VerbForm=Inf	4	_	_	start_char=58|end_char=62
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=63|end_char=67
+7	friend	friend	NOUN	NN	Number=Sing	6	_	_	start_char=68|end_char=74
+8	aside	aside	ADV	RB	_	7	_	_	start_char=75|end_char=80
+9	later	late	ADV	RBR	Degree=Cmp	8	_	_	start_char=81|end_char=86
+10	and	and	CCONJ	CC	_	9	_	_	start_char=87|end_char=90
+11	tell	tell	VERB	VB	VerbForm=Inf	10	_	_	start_char=91|end_char=95
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=96|end_char=99
+13-14	he's	_	_	_	_	_	_	_	start_char=100|end_char=104
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=100|end_char=102
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=102|end_char=104
+15	cockblocking	cockblock	VERB	VBG	Tense=Pres|VerbForm=Part	14	_	_	start_char=105|end_char=117
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	_	_	start_char=118|end_char=121|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=121|end_char=122|SpaceAfter=No
+

@@ -1,0 +1,26 @@
+# text = According to Twatter, it's world hijab day.
+# sent_id = 41266
+1	According	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	0	_	_	start_char=0|end_char=9
+2	to	to	ADP	IN	_	1	_	_	start_char=10|end_char=12
+3	Twatter	Twatter	PROPN	NNP	Number=Sing	2	_	_	start_char=13|end_char=20|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=20|end_char=21
+5-6	it's	_	_	_	_	_	_	_	start_char=22|end_char=26
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=22|end_char=24
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=24|end_char=26
+7	world	world	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=32
+8	hijab	hijab	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=38
+9	day	day	NOUN	NN	Number=Sing	8	_	_	start_char=39|end_char=42|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=42|end_char=43|SpaceAfter=No
+
+# text = When did this become a "thing"?
+# sent_id = 41267
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=43|end_char=47
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=48|end_char=51
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=52|end_char=56
+4	become	become	VERB	VB	VerbForm=Inf	3	_	_	start_char=57|end_char=63
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=64|end_char=65
+6	"	"	PUNCT	``	_	5	_	_	start_char=66|end_char=67|SpaceAfter=No
+7	thing	thing	NOUN	NN	Number=Sing	6	_	_	start_char=67|end_char=72|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=72|end_char=73|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=73|end_char=74|SpaceAfter=No
+

@@ -1,0 +1,58 @@
+# text = You should have "confidence" and approach her bro.
+# sent_id = 95650
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=10
+3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=11|end_char=15
+4	"	"	PUNCT	``	_	3	_	_	start_char=16|end_char=17|SpaceAfter=No
+5	confidence	confidence	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=27|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=27|end_char=28
+7	and	and	CCONJ	CC	_	6	_	_	start_char=29|end_char=32
+8	approach	approach	VERB	VB	VerbForm=Inf	7	_	_	start_char=33|end_char=41
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=42|end_char=45
+10	bro	bro	NOUN	NN	Number=Sing	9	_	_	start_char=46|end_char=49|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=49|end_char=50
+
+# text = Females are humans too.
+# sent_id = 95651
+1	Females	female	NOUN	NNS	Number=Plur	0	_	_	start_char=51|end_char=58
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=62
+3	humans	human	NOUN	NNS	Number=Plur	2	_	_	start_char=63|end_char=69
+4	too	too	ADV	RB	_	3	_	_	start_char=70|end_char=73|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=73|end_char=74
+
+# text = They don't bite.
+# sent_id = 95652
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=75|end_char=79
+2-3	don't	_	_	_	_	_	_	_	start_char=80|end_char=85
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=80|end_char=82
+3	n't	not	PART	RB	_	2	_	_	start_char=82|end_char=85
+4	bite	bite	VERB	VB	VerbForm=Inf	3	_	_	start_char=86|end_char=90|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=90|end_char=91
+
+# text = THEY'LL ONLY GO COMPLAIN AND HAVE YER ASS THROWN IN JAIL IF YOU AREN'T GOOD LOOKING ENOUGH... BRO.
+# sent_id = 95653
+1-2	THEY'LL	_	_	_	_	_	_	_	start_char=92|end_char=99
+1	THEY	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=92|end_char=96
+2	'LL	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=96|end_char=99
+3	ONLY	only	ADV	RB	_	2	_	_	start_char=100|end_char=104
+4	GO	go	VERB	VB	VerbForm=Inf	3	_	_	start_char=105|end_char=107
+5	COMPLAIN	complain	VERB	VB	VerbForm=Inf	4	_	_	start_char=108|end_char=116
+6	AND	and	CCONJ	CC	_	5	_	_	start_char=117|end_char=120
+7	HAVE	have	VERB	VB	VerbForm=Inf	6	_	_	start_char=121|end_char=125
+8	YER	yer	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	_	_	start_char=126|end_char=129
+9	ASS	ASS	NOUN	NN	Number=Sing	8	_	_	start_char=130|end_char=133
+10	THROWN	thrown	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=134|end_char=140
+11	IN	in	ADP	IN	_	10	_	_	start_char=141|end_char=143
+12	JAIL	jail	NOUN	NN	Number=Sing	11	_	_	start_char=144|end_char=148
+13	IF	if	SCONJ	IN	_	12	_	_	start_char=149|end_char=151
+14	YOU	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	_	_	start_char=152|end_char=155
+15-16	AREN'T	_	_	_	_	_	_	_	start_char=156|end_char=162
+15	ARE	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	_	_	start_char=156|end_char=159
+16	N'T	not	PART	RB	_	15	_	_	start_char=159|end_char=162
+17	GOOD	good	ADJ	JJ	Degree=Pos	16	_	_	start_char=163|end_char=167
+18	LOOKING	look	VERB	VBG	VerbForm=Ger	17	_	_	start_char=168|end_char=175
+19	ENOUGH	enough	ADJ	JJ	Degree=Pos	18	_	_	start_char=176|end_char=182|SpaceAfter=No
+20	...	...	PUNCT	,	_	19	_	_	start_char=182|end_char=185
+21	BRO	bro	NOUN	NN	Number=Sing	20	_	_	start_char=186|end_char=189|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=189|end_char=190|SpaceAfter=No
+

@@ -1,0 +1,56 @@
+# text = Her crime?
+# sent_id = 21051
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	crime	crime	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=9|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = She wants to convince “racists” with words rather than punches, she disavows
+# sent_id = 21052
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=11|end_char=14
+2	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=15|end_char=20
+3	to	to	PART	TO	_	2	_	_	start_char=21|end_char=23
+4	convince	convince	VERB	VB	VerbForm=Inf	3	_	_	start_char=24|end_char=32
+5	“	''	PUNCT	``	_	4	_	_	start_char=33|end_char=34|SpaceAfter=No
+6	racists	racist	NOUN	NNS	Number=Plur	5	_	_	start_char=34|end_char=41|SpaceAfter=No
+7	”	''	PUNCT	''	_	6	_	_	start_char=41|end_char=42
+8	with	with	ADP	IN	_	7	_	_	start_char=43|end_char=47
+9	words	word	NOUN	NNS	Number=Plur	8	_	_	start_char=48|end_char=53
+10	rather	rather	ADV	RB	_	9	_	_	start_char=54|end_char=60
+11	than	than	ADP	IN	_	10	_	_	start_char=61|end_char=65
+12	punches	punch	NOUN	NNS	Number=Plur	11	_	_	start_char=66|end_char=73|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=73|end_char=74
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=75|end_char=78
+15	disavows	disavow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=79|end_char=87
+
+# text = Weev yet considers him a friend, and she was friends with someone charged with illegally downloading large numbers of academic papers (who later killed himself).
+# sent_id = 21053
+1	Weev	Weev	PROPN	NNP	Number=Sing	0	_	_	start_char=88|end_char=92
+2	yet	yet	ADV	RB	_	1	_	_	start_char=93|end_char=96
+3	considers	consider	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=97|end_char=106
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=107|end_char=110
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=111|end_char=112
+6	friend	friend	NOUN	NN	Number=Sing	5	_	_	start_char=113|end_char=119|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=119|end_char=120
+8	and	and	CCONJ	CC	_	7	_	_	start_char=121|end_char=124
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=125|end_char=128
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=129|end_char=132
+11	friends	friend	NOUN	NNS	Number=Plur	10	_	_	start_char=133|end_char=140
+12	with	with	ADP	IN	_	11	_	_	start_char=141|end_char=145
+13	someone	someone	PRON	NN	Number=Sing|PronType=Ind	12	_	_	start_char=146|end_char=153
+14	charged	charge	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=154|end_char=161
+15	with	with	SCONJ	IN	_	14	_	_	start_char=162|end_char=166
+16	illegally	illegally	ADV	RB	_	15	_	_	start_char=167|end_char=176
+17	downloading	downloading	VERB	VBG	VerbForm=Ger	16	_	_	start_char=177|end_char=188
+18	large	large	ADJ	JJ	Degree=Pos	17	_	_	start_char=189|end_char=194
+19	numbers	number	NOUN	NNS	Number=Plur	18	_	_	start_char=195|end_char=202
+20	of	of	ADP	IN	_	19	_	_	start_char=203|end_char=205
+21	academic	academic	ADJ	JJ	Degree=Pos	20	_	_	start_char=206|end_char=214
+22	papers	paper	NOUN	NNS	Number=Plur	21	_	_	start_char=215|end_char=221
+23	(	(	PUNCT	-LRB-	_	22	_	_	start_char=222|end_char=223|SpaceAfter=No
+24	who	who	PRON	WP	PronType=Rel	23	_	_	start_char=223|end_char=226
+25	later	late	ADV	RBR	Degree=Cmp	24	_	_	start_char=227|end_char=232
+26	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	_	_	start_char=233|end_char=239
+27	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	26	_	_	start_char=240|end_char=247|SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	27	_	_	start_char=247|end_char=248|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=248|end_char=249|SpaceAfter=No
+

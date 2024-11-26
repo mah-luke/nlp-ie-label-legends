@@ -1,0 +1,22 @@
+# text = NFL player LeSean McCoy's estranged ex-girlfriend attacked during home invasion.
+# sent_id = 32912
+1	NFL	NFL	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3
+2	player	player	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=10
+3	LeSean	LeSean	PROPN	NNP	Number=Sing	2	_	_	start_char=11|end_char=17
+4-5	McCoy's	_	_	_	_	_	_	_	start_char=18|end_char=25
+4	McCoy	McCoy	PROPN	NNP	Number=Sing	3	_	_	start_char=18|end_char=23
+5	's	's	PART	POS	_	4	_	_	start_char=23|end_char=25
+6	estranged	estranged	ADJ	JJ	Degree=Pos	5	_	_	start_char=26|end_char=35
+7	ex-girlfriend	ex-girlfriend	NOUN	NN	Number=Sing	6	_	_	start_char=36|end_char=49
+8	attacked	attack	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=50|end_char=58
+9	during	during	ADP	IN	_	8	_	_	start_char=59|end_char=65
+10	home	home	NOUN	NN	Number=Sing	9	_	_	start_char=66|end_char=70
+11	invasion	invasion	NOUN	NN	Number=Sing	10	_	_	start_char=71|end_char=79|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=79|end_char=80
+
+# text = [URL]
+# sent_id = 32913
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=81|end_char=82|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=82|end_char=85|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=85|end_char=86|SpaceAfter=No
+

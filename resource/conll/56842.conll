@@ -1,0 +1,54 @@
+# text = Not really &#x200B; According to certain reviews, "female razors" are straight garbage, more "garbagey" than their Gillete male counterparts
+# sent_id = 121493
+1	Not	not	PART	RB	_	0	_	_	start_char=0|end_char=3
+2	really	really	ADV	RB	_	1	_	_	start_char=4|end_char=10
+3	&	&	CCONJ	CC	_	2	_	_	start_char=11|end_char=12|SpaceAfter=No
+4	#x200B	#x200b	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=18|SpaceAfter=No
+5	;	;	PUNCT	:	_	4	_	_	start_char=18|end_char=19
+6	According	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	5	_	_	start_char=20|end_char=29
+7	to	to	ADP	IN	_	6	_	_	start_char=30|end_char=32
+8	certain	certain	ADJ	JJ	Degree=Pos	7	_	_	start_char=33|end_char=40
+9	reviews	review	NOUN	NNS	Number=Plur	8	_	_	start_char=41|end_char=48|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=48|end_char=49
+11	"	"	PUNCT	``	_	10	_	_	start_char=50|end_char=51|SpaceAfter=No
+12	female	female	ADJ	JJ	Degree=Pos	11	_	_	start_char=51|end_char=57
+13	razors	razor	NOUN	NNS	Number=Plur	12	_	_	start_char=58|end_char=64|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=64|end_char=65
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=66|end_char=69
+16	straight	straight	ADJ	JJ	Degree=Pos	15	_	_	start_char=70|end_char=78
+17	garbage	garbage	NOUN	NN	Number=Sing	16	_	_	start_char=79|end_char=86|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=86|end_char=87
+19	more	more	ADV	RBR	Degree=Cmp	18	_	_	start_char=88|end_char=92
+20	"	"	PUNCT	``	_	19	_	_	start_char=93|end_char=94|SpaceAfter=No
+21	garbagey	garbagey	NOUN	NN	Number=Sing	20	_	_	start_char=94|end_char=102|SpaceAfter=No
+22	"	"	PUNCT	''	_	21	_	_	start_char=102|end_char=103
+23	than	than	ADP	IN	_	22	_	_	start_char=104|end_char=108
+24	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	_	_	start_char=109|end_char=114
+25	Gillete	Gillete	PROPN	NNP	Number=Sing	24	_	_	start_char=115|end_char=122
+26	male	male	ADJ	JJ	Degree=Pos	25	_	_	start_char=123|end_char=127
+27	counterparts	counterpart	NOUN	NNS	Number=Plur	26	_	_	start_char=128|end_char=140
+
+# text = But that hasn't stopped P&G from preying on a demographics known to be the most vulnerable one to scammers
+# sent_id = 121494
+1	But	but	CCONJ	CC	_	0	_	_	start_char=141|end_char=144
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=145|end_char=149
+3-4	hasn't	_	_	_	_	_	_	_	start_char=150|end_char=156
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=150|end_char=153
+4	n't	not	PART	RB	_	3	_	_	start_char=153|end_char=156
+5	stopped	stop	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=157|end_char=164
+6	P&G	P&G	PROPN	NNP	Number=Sing	5	_	_	start_char=165|end_char=168
+7	from	from	SCONJ	IN	_	6	_	_	start_char=169|end_char=173
+8	preying	prey	VERB	VBG	VerbForm=Ger	7	_	_	start_char=174|end_char=181
+9	on	on	ADP	IN	_	8	_	_	start_char=182|end_char=184
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=185|end_char=186
+11	demographics	demographics	NOUN	NNS	Number=Plur	10	_	_	start_char=187|end_char=199
+12	known	know	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=200|end_char=205
+13	to	to	PART	TO	_	12	_	_	start_char=206|end_char=208
+14	be	be	AUX	VB	VerbForm=Inf	13	_	_	start_char=209|end_char=211
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=212|end_char=215
+16	most	most	ADV	RBS	Degree=Sup	15	_	_	start_char=216|end_char=220
+17	vulnerable	vulnerable	ADJ	JJ	Degree=Pos	16	_	_	start_char=221|end_char=231
+18	one	one	NOUN	NN	Number=Sing	17	_	_	start_char=232|end_char=235
+19	to	to	ADP	IN	_	18	_	_	start_char=236|end_char=238
+20	scammers	scammer	NOUN	NNS	Number=Plur	19	_	_	start_char=239|end_char=247|SpaceAfter=No
+

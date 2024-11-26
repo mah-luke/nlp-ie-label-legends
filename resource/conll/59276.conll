@@ -1,0 +1,44 @@
+# text = I love books too.
+# sent_id = 126525
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	books	book	NOUN	NNS	Number=Plur	2	_	_	start_char=7|end_char=12
+4	too	too	ADV	RB	_	3	_	_	start_char=13|end_char=16|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=16|end_char=17
+
+# text = My favorite will probably always be Alice in Wonderland.
+# sent_id = 126526
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=18|end_char=20
+2	favorite	favorite	NOUN	NN	Number=Sing	1	_	_	start_char=21|end_char=29
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=30|end_char=34
+4	probably	probably	ADV	RB	_	3	_	_	start_char=35|end_char=43
+5	always	always	ADV	RB	_	4	_	_	start_char=44|end_char=50
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=51|end_char=53
+7	Alice	Alice	PROPN	NNP	Number=Sing	6	_	_	start_char=54|end_char=59
+8	in	in	ADP	IN	_	7	_	_	start_char=60|end_char=62
+9	Wonderland	Wonderland	PROPN	NNP	Number=Sing	8	_	_	start_char=63|end_char=73|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=73|end_char=74
+
+# text = I have very old copies of my mother's both Alice in Wonderland and Through The Looking Glass.
+# sent_id = 126527
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=75|end_char=76
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=77|end_char=81
+3	very	very	ADV	RB	_	2	_	_	start_char=82|end_char=86
+4	old	old	ADJ	JJ	Degree=Pos	3	_	_	start_char=87|end_char=90
+5	copies	copy	NOUN	NNS	Number=Plur	4	_	_	start_char=91|end_char=97
+6	of	of	ADP	IN	_	5	_	_	start_char=98|end_char=100
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=101|end_char=103
+8-9	mother's	_	_	_	_	_	_	_	start_char=104|end_char=112
+8	mother	mother	NOUN	NN	Number=Sing	7	_	_	start_char=104|end_char=110
+9	's	's	PART	POS	_	8	_	_	start_char=110|end_char=112
+10	both	both	DET	DT	_	9	_	_	start_char=113|end_char=117
+11	Alice	Alice	PROPN	NNP	Number=Sing	10	_	_	start_char=118|end_char=123
+12	in	in	ADP	IN	_	11	_	_	start_char=124|end_char=126
+13	Wonderland	Wonderland	PROPN	NNP	Number=Sing	12	_	_	start_char=127|end_char=137
+14	and	and	CCONJ	CC	_	13	_	_	start_char=138|end_char=141
+15	Through	through	ADP	IN	_	14	_	_	start_char=142|end_char=149
+16	The	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=150|end_char=153
+17	Looking	look	VERB	NNP	VerbForm=Ger	16	_	_	start_char=154|end_char=161
+18	Glass	Glass	PROPN	NNP	Number=Sing	17	_	_	start_char=162|end_char=167|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=167|end_char=168|SpaceAfter=No
+

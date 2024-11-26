@@ -1,0 +1,28 @@
+# text = Makes no difference.
+# sent_id = 123690
+1	Makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=5
+2	no	no	DET	DT	_	1	_	_	start_char=6|end_char=8
+3	difference	difference	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=19|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=19|end_char=20
+
+# text = I’m cut and can finish quickly or after a long time.
+# sent_id = 123691
+1-2	I’m	_	_	_	_	_	_	_	start_char=21|end_char=24
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=21|end_char=22
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=24
+3	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=25|end_char=28
+4	and	and	CCONJ	CC	_	3	_	_	start_char=29|end_char=32
+5	can	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=33|end_char=36
+6	finish	finish	VERB	VB	VerbForm=Inf	5	_	_	start_char=37|end_char=43
+7	quickly	quickly	ADV	RB	_	6	_	_	start_char=44|end_char=51
+8	or	or	CCONJ	CC	_	7	_	_	start_char=52|end_char=54
+9	after	after	ADP	IN	_	8	_	_	start_char=55|end_char=60
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=61|end_char=62
+11	long	long	ADJ	JJ	Degree=Pos	10	_	_	start_char=63|end_char=67
+12	time	time	NOUN	NN	Number=Sing	11	_	_	start_char=68|end_char=72|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=72|end_char=73
+
+# text = Depends
+# sent_id = 123692
+1	Depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=74|end_char=81|SpaceAfter=No
+

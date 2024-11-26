@@ -1,0 +1,32 @@
+# text = Right, that's enough fucking around.
+# sent_id = 94383
+1	Right	right	INTJ	UH	_	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3-4	that's	_	_	_	_	_	_	_	start_char=7|end_char=13
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=7|end_char=11
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	enough	enough	ADJ	JJ	Degree=Pos	4	_	_	start_char=14|end_char=20
+6	fucking	fuck	VERB	VBG	VerbForm=Ger	5	_	_	start_char=21|end_char=28
+7	around	around	ADV	RB	_	6	_	_	start_char=29|end_char=35|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=35|end_char=36
+
+# text = Arthur will now return to the Meme War in progress.
+# sent_id = 94384
+1	Arthur	Arthur	PROPN	NNP	Number=Sing	0	_	_	start_char=37|end_char=43
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=44|end_char=48
+3	now	now	ADV	RB	_	2	_	_	start_char=49|end_char=52
+4	return	return	VERB	VB	VerbForm=Inf	3	_	_	start_char=53|end_char=59
+5	to	to	ADP	IN	_	4	_	_	start_char=60|end_char=62
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=63|end_char=66
+7	Meme	Meme	PROPN	NNP	Number=Sing	6	_	_	start_char=67|end_char=71
+8	War	War	PROPN	NNP	Number=Sing	7	_	_	start_char=72|end_char=75
+9	in	in	ADP	IN	_	8	_	_	start_char=76|end_char=78
+10	progress	progress	NOUN	NN	Number=Sing	9	_	_	start_char=79|end_char=87|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=87|end_char=88
+
+# text = [URL]
+# sent_id = 94385
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=89|end_char=90|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=90|end_char=93|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=93|end_char=94|SpaceAfter=No
+

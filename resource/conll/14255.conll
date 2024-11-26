@@ -1,0 +1,42 @@
+# text = Compliment some small shit.
+# sent_id = 30395
+1	Compliment	compliment	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=10
+2	some	some	DET	DT	_	1	_	_	start_char=11|end_char=15
+3	small	small	ADJ	JJ	Degree=Pos	2	_	_	start_char=16|end_char=21
+4	shit	shit	NOUN	NN	Number=Sing	3	_	_	start_char=22|end_char=26|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=26|end_char=27
+
+# text = Like bitch i like ya eye brows.
+# sent_id = 30396
+1	Like	like	INTJ	UH	_	0	_	_	start_char=28|end_char=32
+2	bitch	bitch	NOUN	NN	Number=Sing	1	_	_	start_char=33|end_char=38
+3	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=39|end_char=40
+4	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=41|end_char=45
+5	ya	you	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=46|end_char=48
+6	eye	eye	NOUN	NN	Number=Sing	5	_	_	start_char=49|end_char=52
+7	brows	brow	NOUN	NNS	Number=Plur	6	_	_	start_char=53|end_char=58|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=58|end_char=59
+
+# text = Or her chin got a nice shape.
+# sent_id = 30397
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=60|end_char=62
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=63|end_char=66
+3	chin	chin	NOUN	NN	Number=Sing	2	_	_	start_char=67|end_char=71
+4	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=72|end_char=75
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=76|end_char=77
+6	nice	nice	ADJ	JJ	Degree=Pos	5	_	_	start_char=78|end_char=82
+7	shape	shape	NOUN	NN	Number=Sing	6	_	_	start_char=83|end_char=88|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=88|end_char=89
+
+# text = Pretty is so generic and boring and simping.
+# sent_id = 30398
+1	Pretty	pretty	ADV	RB	_	0	_	_	start_char=90|end_char=96
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=97|end_char=99
+3	so	so	ADV	RB	_	2	_	_	start_char=100|end_char=102
+4	generic	generic	ADJ	JJ	Degree=Pos	3	_	_	start_char=103|end_char=110
+5	and	and	CCONJ	CC	_	4	_	_	start_char=111|end_char=114
+6	boring	boring	ADJ	JJ	Degree=Pos	5	_	_	start_char=115|end_char=121
+7	and	and	CCONJ	CC	_	6	_	_	start_char=122|end_char=125
+8	simping	simp	VERB	VBG	VerbForm=Ger	7	_	_	start_char=126|end_char=133|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=133|end_char=134|SpaceAfter=No
+

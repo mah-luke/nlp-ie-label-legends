@@ -1,0 +1,50 @@
+# text = As if she hasn't done enough... she encourages violence.
+# sent_id = 99308
+1	As	as	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	if	if	SCONJ	IN	_	1	_	_	start_char=3|end_char=5
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=6|end_char=9
+4-5	hasn't	_	_	_	_	_	_	_	start_char=10|end_char=16
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=10|end_char=13
+5	n't	not	PART	RB	_	4	_	_	start_char=13|end_char=16
+6	done	do	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=17|end_char=21
+7	enough	enough	ADV	RB	_	6	_	_	start_char=22|end_char=28|SpaceAfter=No
+8	...	...	PUNCT	,	_	7	_	_	start_char=28|end_char=31
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=32|end_char=35
+10	encourages	encourage	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=36|end_char=46
+11	violence	violence	NOUN	NN	Number=Sing	10	_	_	start_char=47|end_char=55|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=55|end_char=56
+
+# text = And here we have it.
+# sent_id = 99309
+1	And	and	CCONJ	CC	_	0	_	_	start_char=57|end_char=60
+2	here	here	ADV	RB	PronType=Dem	1	_	_	start_char=61|end_char=65
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=66|end_char=68
+4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=69|end_char=73
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=74|end_char=76|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=76|end_char=77
+
+# text = Many other examples of bat shit crazy left calling for violence.
+# sent_id = 99310
+1	Many	many	ADJ	JJ	Degree=Pos	0	_	_	start_char=78|end_char=82
+2	other	other	ADJ	JJ	Degree=Pos	1	_	_	start_char=83|end_char=88
+3	examples	example	NOUN	NNS	Number=Plur	2	_	_	start_char=89|end_char=97
+4	of	of	ADP	IN	_	3	_	_	start_char=98|end_char=100
+5	bat	bat	NOUN	NN	Number=Sing	4	_	_	start_char=101|end_char=104
+6	shit	shit	NOUN	NN	Number=Sing	5	_	_	start_char=105|end_char=109
+7	crazy	crazy	ADJ	JJ	Degree=Pos	6	_	_	start_char=110|end_char=115
+8	left	leave	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin	7	_	_	start_char=116|end_char=120
+9	calling	call	VERB	VBG	VerbForm=Ger	8	_	_	start_char=121|end_char=128
+10	for	for	ADP	IN	_	9	_	_	start_char=129|end_char=132
+11	violence	violence	NOUN	NN	Number=Sing	10	_	_	start_char=133|end_char=141|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=141|end_char=142
+
+# text = #MAGA #Trump [URL]
+# sent_id = 99311
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=143|end_char=144|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=144|end_char=148
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=149|end_char=150|SpaceAfter=No
+4	Trump	Trump	PROPN	NNP	Number=Sing	3	_	_	start_char=150|end_char=155
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=156|end_char=157|SpaceAfter=No
+6	URL	URL	PROPN	NNP	Number=Sing	5	_	_	start_char=157|end_char=160|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=160|end_char=161|SpaceAfter=No
+

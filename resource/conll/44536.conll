@@ -1,0 +1,35 @@
+# text = And what did this bitch get?
+# sent_id = 95092
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=4|end_char=8
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=9|end_char=12
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=13|end_char=17
+5	bitch	bitch	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=23
+6	get	get	VERB	VB	VerbForm=Inf	5	_	_	start_char=24|end_char=27|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=27|end_char=28
+
+# text = Did she get sue?
+# sent_id = 95093
+1	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=29|end_char=32
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=33|end_char=36
+3	get	get	VERB	VB	VerbForm=Inf	2	_	_	start_char=37|end_char=40
+4	sue	sue	NOUN	NN	Number=Sing	3	_	_	start_char=41|end_char=44|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=44|end_char=45
+
+# text = Any punishment?
+# sent_id = 95094
+1	Any	any	DET	DT	_	0	_	_	start_char=46|end_char=49
+2	punishment	punishment	NOUN	NN	Number=Sing	1	_	_	start_char=50|end_char=60|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=60|end_char=61
+
+# text = They don't even mentioned it.
+# sent_id = 95095
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=62|end_char=66
+2-3	don't	_	_	_	_	_	_	_	start_char=67|end_char=72
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=67|end_char=69
+3	n't	not	PART	RB	_	2	_	_	start_char=69|end_char=72
+4	even	even	ADV	RB	_	3	_	_	start_char=73|end_char=77
+5	mentioned	mention	VERB	VBN	Tense=Past|VerbForm=Inf	4	_	_	start_char=78|end_char=87
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=88|end_char=90|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=90|end_char=91|SpaceAfter=No
+

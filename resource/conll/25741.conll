@@ -1,0 +1,35 @@
+# text = This Deutschistani womyn think it's OK to show her (ugh) blonde hair?
+# sent_id = 55179
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	Deutschistani	Deutschistani	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=18
+3	womyn	womyn	NOUN	NN	Number=Sing	2	_	_	start_char=19|end_char=24
+4	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=25|end_char=30
+5-6	it's	_	_	_	_	_	_	_	start_char=31|end_char=35
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=31|end_char=33
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=33|end_char=35
+7	OK	ok	ADJ	JJ	Degree=Pos	6	_	_	start_char=36|end_char=38
+8	to	to	PART	TO	_	7	_	_	start_char=39|end_char=41
+9	show	show	VERB	VB	VerbForm=Inf	8	_	_	start_char=42|end_char=46
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=47|end_char=50
+11	(	(	PUNCT	-LRB-	_	10	_	_	start_char=51|end_char=52|SpaceAfter=No
+12	ugh	ugh	INTJ	UH	_	11	_	_	start_char=52|end_char=55|SpaceAfter=No
+13	)	)	PUNCT	-RRB-	_	12	_	_	start_char=55|end_char=56
+14	blonde	blonde	NOUN	NN	Number=Sing	13	_	_	start_char=57|end_char=63
+15	hair	hair	NOUN	NN	Number=Sing	14	_	_	start_char=64|end_char=68|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=68|end_char=69
+
+# text = SICK!!
+# sent_id = 55180
+1	SICK	sick	ADJ	JJ	Degree=Pos	0	_	_	start_char=70|end_char=74|SpaceAfter=No
+2	!!	!!	PUNCT	.	_	1	_	_	start_char=74|end_char=76
+
+# text = [URL] H/t [USER]
+# sent_id = 55181
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=77|end_char=78|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=78|end_char=81|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=81|end_char=82
+4	H/t	h/t	NOUN	NN	Number=Sing	3	_	_	start_char=83|end_char=86
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=87|end_char=88|SpaceAfter=No
+6	USER	user	NOUN	NN	Number=Sing	5	_	_	start_char=88|end_char=92|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=92|end_char=93|SpaceAfter=No
+

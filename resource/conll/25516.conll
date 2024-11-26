@@ -1,0 +1,27 @@
+# text = Why does this woman keep misspelling AWESOME.
+# sent_id = 54704
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=9|end_char=13
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=19
+5	keep	keep	VERB	VB	VerbForm=Inf	4	_	_	start_char=20|end_char=24
+6	misspelling	misspel	VERB	VBG	VerbForm=Ger	5	_	_	start_char=25|end_char=36
+7	AWESOME	awesome	ADJ	JJ	Degree=Pos	6	_	_	start_char=37|end_char=44|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=44|end_char=45
+
+# text = I didn’t caps lock that shit cuz I was shouting.
+# sent_id = 54705
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=46|end_char=47
+2-3	didn’t	_	_	_	_	_	_	_	start_char=48|end_char=54
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=48|end_char=51
+3	n’t	not	PART	RB	_	2	_	_	start_char=51|end_char=54
+4	caps	cap	NOUN	NNS	Number=Plur	3	_	_	start_char=55|end_char=59
+5	lock	lock	VERB	VB	VerbForm=Inf	4	_	_	start_char=60|end_char=64
+6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=65|end_char=69
+7	shit	shit	NOUN	NN	Number=Sing	6	_	_	start_char=70|end_char=74
+8	cuz	cuz	SCONJ	IN	_	7	_	_	start_char=75|end_char=78
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=79|end_char=80
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=81|end_char=84
+11	shouting	shouting	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=85|end_char=93|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=93|end_char=94|SpaceAfter=No
+

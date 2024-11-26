@@ -1,0 +1,41 @@
+# text = It’s great when someone leaves.
+# sent_id = 123135
+1-2	It’s	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	great	great	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=10
+4	when	when	ADV	WRB	PronType=Int	3	_	_	start_char=11|end_char=15
+5	someone	someone	PRON	NN	Number=Sing|PronType=Ind	4	_	_	start_char=16|end_char=23
+6	leaves	leave	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=24|end_char=30|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=30|end_char=31
+
+# text = But they don’t deserve a pat on the back for discovering basic human decency and rejecting a group that supports rape and dehumanisation of women
+# sent_id = 123136
+1	But	but	CCONJ	CC	_	0	_	_	start_char=32|end_char=35
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=36|end_char=40
+3-4	don’t	_	_	_	_	_	_	_	start_char=41|end_char=46
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=41|end_char=43
+4	n’t	not	PART	RB	_	3	_	_	start_char=43|end_char=46
+5	deserve	deserve	VERB	VB	VerbForm=Inf	4	_	_	start_char=47|end_char=54
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=55|end_char=56
+7	pat	pat	NOUN	NN	Number=Sing	6	_	_	start_char=57|end_char=60
+8	on	on	ADP	IN	_	7	_	_	start_char=61|end_char=63
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=64|end_char=67
+10	back	back	NOUN	NN	Number=Sing	9	_	_	start_char=68|end_char=72
+11	for	for	SCONJ	IN	_	10	_	_	start_char=73|end_char=76
+12	discovering	discover	VERB	VBG	VerbForm=Ger	11	_	_	start_char=77|end_char=88
+13	basic	basic	ADJ	JJ	Degree=Pos	12	_	_	start_char=89|end_char=94
+14	human	human	ADJ	JJ	Degree=Pos	13	_	_	start_char=95|end_char=100
+15	decency	decency	NOUN	NN	Number=Sing	14	_	_	start_char=101|end_char=108
+16	and	and	CCONJ	CC	_	15	_	_	start_char=109|end_char=112
+17	rejecting	reject	VERB	VBG	VerbForm=Ger	16	_	_	start_char=113|end_char=122
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=123|end_char=124
+19	group	group	NOUN	NN	Number=Sing	18	_	_	start_char=125|end_char=130
+20	that	that	PRON	WDT	PronType=Rel	19	_	_	start_char=131|end_char=135
+21	supports	support	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=136|end_char=144
+22	rape	rape	NOUN	NN	Number=Sing	21	_	_	start_char=145|end_char=149
+23	and	and	CCONJ	CC	_	22	_	_	start_char=150|end_char=153
+24	dehumanisation	dehumanisation	NOUN	NN	Number=Sing	23	_	_	start_char=154|end_char=168
+25	of	of	ADP	IN	_	24	_	_	start_char=169|end_char=171
+26	women	woman	NOUN	NNS	Number=Plur	25	_	_	start_char=172|end_char=177|SpaceAfter=No
+

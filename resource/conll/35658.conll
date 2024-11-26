@@ -1,0 +1,77 @@
+# text = What monsters!
+# sent_id = 76320
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	monsters	monster	NOUN	NNS	Number=Plur	1	_	_	start_char=5|end_char=13|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=13|end_char=14|SpaceAfter=No
+
+# text = There are no people of color in that photo.
+# sent_id = 76321
+1	There	there	PRON	EX	_	0	_	_	start_char=14|end_char=19
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=20|end_char=23
+3	no	no	DET	DT	_	2	_	_	start_char=24|end_char=26
+4	people	person	NOUN	NNS	Number=Plur	3	_	_	start_char=27|end_char=33
+5	of	of	ADP	IN	_	4	_	_	start_char=34|end_char=36
+6	color	color	NOUN	NN	Number=Sing	5	_	_	start_char=37|end_char=42
+7	in	in	ADP	IN	_	6	_	_	start_char=43|end_char=45
+8	that	that	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=46|end_char=50
+9	photo	photo	NOUN	NN	Number=Sing	8	_	_	start_char=51|end_char=56|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=56|end_char=57
+
+# text = Why are the kids so white?
+# sent_id = 76322
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=58|end_char=61
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=62|end_char=65
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=66|end_char=69
+4	kids	kid	NOUN	NNS	Number=Plur	3	_	_	start_char=70|end_char=74
+5	so	so	ADV	RB	_	4	_	_	start_char=75|end_char=77
+6	white	white	ADJ	JJ	Degree=Pos	5	_	_	start_char=78|end_char=83|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=83|end_char=84
+
+# text = Does the mother hate black men?
+# sent_id = 76323
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=85|end_char=89
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=90|end_char=93
+3	mother	mother	NOUN	NN	Number=Sing	2	_	_	start_char=94|end_char=100
+4	hate	hate	VERB	VB	VerbForm=Inf	3	_	_	start_char=101|end_char=105
+5	black	black	ADJ	JJ	Degree=Pos	4	_	_	start_char=106|end_char=111
+6	men	man	NOUN	NNS	Number=Plur	5	_	_	start_char=112|end_char=115|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=115|end_char=116
+
+# text = Is she a bigot?
+# sent_id = 76324
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=117|end_char=119
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=120|end_char=123
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=124|end_char=125
+4	bigot	bigot	NOUN	NN	Number=Sing	3	_	_	start_char=126|end_char=131|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=131|end_char=132
+
+# text = I bet she is.
+# sent_id = 76325
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=133|end_char=134
+2	bet	bet	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=135|end_char=138
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=139|end_char=142
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=143|end_char=145|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=145|end_char=146
+
+# text = Why else would she be with a white man?
+# sent_id = 76326
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=147|end_char=150
+2	else	else	ADV	RB	_	1	_	_	start_char=151|end_char=155
+3	would	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=156|end_char=161
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=162|end_char=165
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=166|end_char=168
+6	with	with	ADP	IN	_	5	_	_	start_char=169|end_char=173
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=174|end_char=175
+8	white	white	ADJ	JJ	Degree=Pos	7	_	_	start_char=176|end_char=181
+9	man	man	NOUN	NN	Number=Sing	8	_	_	start_char=182|end_char=185|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=185|end_char=186
+
+# text = White men are all racists!
+# sent_id = 76327
+1	White	White	ADJ	JJ	Degree=Pos	0	_	_	start_char=187|end_char=192
+2	men	man	NOUN	NNS	Number=Plur	1	_	_	start_char=193|end_char=196
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=197|end_char=200
+4	all	all	ADV	RB	_	3	_	_	start_char=201|end_char=204
+5	racists	racist	NOUN	NNS	Number=Plur	4	_	_	start_char=205|end_char=212|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=212|end_char=213|SpaceAfter=No
+

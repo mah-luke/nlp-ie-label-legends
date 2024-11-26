@@ -1,0 +1,50 @@
+# text = I genuinely hate my mother.
+# sent_id = 28282
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	genuinely	genuinely	ADV	RB	_	1	_	_	start_char=2|end_char=11
+3	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=16
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=17|end_char=19
+5	mother	mother	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=26|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=26|end_char=27
+
+# text = Like, I love her because she's my mom.
+# sent_id = 28283
+1	Like	like	INTJ	UH	_	0	_	_	start_char=28|end_char=32|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=32|end_char=33
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=34|end_char=35
+4	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=36|end_char=40
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=41|end_char=44
+6	because	because	SCONJ	IN	_	5	_	_	start_char=45|end_char=52
+7-8	she's	_	_	_	_	_	_	_	start_char=53|end_char=58
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=53|end_char=56
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=56|end_char=58
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=59|end_char=61
+10	mom	mom	NOUN	NN	Number=Sing	9	_	_	start_char=62|end_char=65|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=65|end_char=66
+
+# text = But I hate her because she's obnoxious.
+# sent_id = 28284
+1	But	but	CCONJ	CC	_	0	_	_	start_char=67|end_char=70
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=71|end_char=72
+3	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=73|end_char=77
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=78|end_char=81
+5	because	because	SCONJ	IN	_	4	_	_	start_char=82|end_char=89
+6-7	she's	_	_	_	_	_	_	_	start_char=90|end_char=95
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=90|end_char=93
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=93|end_char=95
+8	obnoxious	obnoxious	ADJ	JJ	Degree=Pos	7	_	_	start_char=96|end_char=105|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=105|end_char=106
+
+# text = And I don't want to live here.
+# sent_id = 28285
+1	And	and	CCONJ	CC	_	0	_	_	start_char=107|end_char=110
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=111|end_char=112
+3-4	don't	_	_	_	_	_	_	_	start_char=113|end_char=118
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=113|end_char=115
+4	n't	not	PART	RB	_	3	_	_	start_char=115|end_char=118
+5	want	want	VERB	VB	VerbForm=Inf	4	_	_	start_char=119|end_char=123
+6	to	to	PART	TO	_	5	_	_	start_char=124|end_char=126
+7	live	live	VERB	VB	VerbForm=Inf	6	_	_	start_char=127|end_char=131
+8	here	here	ADV	RB	PronType=Dem	7	_	_	start_char=132|end_char=136|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=136|end_char=137|SpaceAfter=No
+

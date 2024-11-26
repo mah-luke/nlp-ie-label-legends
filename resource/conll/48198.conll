@@ -1,0 +1,29 @@
+# text = "It's clear you're all retarded.
+# sent_id = 103020
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2-3	It's	_	_	_	_	_	_	_	start_char=1|end_char=5
+2	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=1|end_char=3
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=3|end_char=5
+4	clear	clear	ADJ	JJ	Degree=Pos	3	_	_	start_char=6|end_char=11
+5-6	you're	_	_	_	_	_	_	_	start_char=12|end_char=18
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=12|end_char=15
+6	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=15|end_char=18
+7	all	all	ADV	RB	_	6	_	_	start_char=19|end_char=22
+8	retarded	retarded	ADJ	JJ	Degree=Pos	7	_	_	start_char=23|end_char=31|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=31|end_char=32
+
+# text = So you pass" (((Modern Education)))
+# sent_id = 103021
+1	So	so	ADV	RB	_	0	_	_	start_char=33|end_char=35
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=36|end_char=39
+3	pass	pass	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=40|end_char=44|SpaceAfter=No
+4	"	"	PUNCT	''	_	3	_	_	start_char=44|end_char=45
+5	(	(	PUNCT	-LRB-	_	4	_	_	start_char=46|end_char=47|SpaceAfter=No
+6	(	(	PUNCT	-LRB-	_	5	_	_	start_char=47|end_char=48|SpaceAfter=No
+7	(	(	PUNCT	-LRB-	_	6	_	_	start_char=48|end_char=49|SpaceAfter=No
+8	Modern	modern	ADJ	JJ	Degree=Pos	7	_	_	start_char=49|end_char=55
+9	Education	education	NOUN	NN	Number=Sing	8	_	_	start_char=56|end_char=65|SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	_	_	start_char=65|end_char=66|SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	_	_	start_char=66|end_char=67|SpaceAfter=No
+12	)	)	PUNCT	-RRB-	_	11	_	_	start_char=67|end_char=68|SpaceAfter=No
+

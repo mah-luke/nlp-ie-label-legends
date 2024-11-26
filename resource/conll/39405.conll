@@ -1,0 +1,47 @@
+# text = Which one of these groups would you rather have a frat house with?
+# sent_id = 84249
+1	Which	which	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=5
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=6|end_char=9
+3	of	of	ADP	IN	_	2	_	_	start_char=10|end_char=12
+4	these	this	DET	DT	Number=Plur|PronType=Dem	3	_	_	start_char=13|end_char=18
+5	groups	group	NOUN	NNS	Number=Plur	4	_	_	start_char=19|end_char=25
+6	would	would	AUX	MD	VerbForm=Fin	5	_	_	start_char=26|end_char=31
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=32|end_char=35
+8	rather	rather	ADV	RB	_	7	_	_	start_char=36|end_char=42
+9	have	have	VERB	VB	VerbForm=Inf	8	_	_	start_char=43|end_char=47
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=48|end_char=49
+11	frat	frat	ADJ	JJ	Degree=Pos	10	_	_	start_char=50|end_char=54
+12	house	house	NOUN	NN	Number=Sing	11	_	_	start_char=55|end_char=60
+13	with	with	ADP	IN	_	12	_	_	start_char=61|end_char=65|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=65|end_char=66
+
+# text = I personally choose the classicals, the alt right gives me a nauseating feeling, I can take it on the internet, but not IRL.
+# sent_id = 84250
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=67|end_char=68
+2	personally	personally	ADV	RB	_	1	_	_	start_char=69|end_char=79
+3	choose	choose	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=80|end_char=86
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=87|end_char=90
+5	classicals	classical	NOUN	NNS	Number=Plur	4	_	_	start_char=91|end_char=101|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=101|end_char=102
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=103|end_char=106
+8	alt	alt	NOUN	NN	Number=Sing	7	_	_	start_char=107|end_char=110
+9	right	right	NOUN	NN	Number=Sing	8	_	_	start_char=111|end_char=116
+10	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=117|end_char=122
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=123|end_char=125
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=126|end_char=127
+13	nauseating	nauseating	ADJ	JJ	Degree=Pos	12	_	_	start_char=128|end_char=138
+14	feeling	feeling	NOUN	NN	Number=Sing	13	_	_	start_char=139|end_char=146|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=146|end_char=147
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=148|end_char=149
+17	can	can	AUX	MD	VerbForm=Fin	16	_	_	start_char=150|end_char=153
+18	take	take	VERB	VB	VerbForm=Inf	17	_	_	start_char=154|end_char=158
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=159|end_char=161
+20	on	on	ADP	IN	_	19	_	_	start_char=162|end_char=164
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=165|end_char=168
+22	internet	internet	NOUN	NN	Number=Sing	21	_	_	start_char=169|end_char=177|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	start_char=177|end_char=178
+24	but	but	CCONJ	CC	_	23	_	_	start_char=179|end_char=182
+25	not	not	PART	RB	_	24	_	_	start_char=183|end_char=186
+26	IRL	IRL	PROPN	NNP	Number=Sing	25	_	_	start_char=187|end_char=190|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=190|end_char=191|SpaceAfter=No
+

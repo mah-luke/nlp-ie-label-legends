@@ -1,0 +1,64 @@
+# text = Women *do not* help women.
+# sent_id = 27372
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=5
+2	*	*	PUNCT	NFP	_	1	_	_	start_char=6|end_char=7|SpaceAfter=No
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=9
+4	not	not	PART	RB	_	3	_	_	start_char=10|end_char=13|SpaceAfter=No
+5	*	*	PUNCT	NFP	_	4	_	_	start_char=13|end_char=14
+6	help	help	VERB	VB	VerbForm=Inf	5	_	_	start_char=15|end_char=19
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=20|end_char=25|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=25|end_char=26
+
+# text = Wherever there is a woman success story, there is a man or men who bankroll it.
+# sent_id = 27373
+1	Wherever	wherever	ADV	WRB	PronType=Int	0	_	_	start_char=27|end_char=35
+2	there	there	PRON	EX	_	1	_	_	start_char=36|end_char=41
+3	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=42|end_char=44
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=45|end_char=46
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=47|end_char=52
+6	success	success	NOUN	NN	Number=Sing	5	_	_	start_char=53|end_char=60
+7	story	story	NOUN	NN	Number=Sing	6	_	_	start_char=61|end_char=66|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=66|end_char=67
+9	there	there	PRON	EX	_	8	_	_	start_char=68|end_char=73
+10	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=74|end_char=76
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=77|end_char=78
+12	man	man	NOUN	NN	Number=Sing	11	_	_	start_char=79|end_char=82
+13	or	or	CCONJ	CC	_	12	_	_	start_char=83|end_char=85
+14	men	man	NOUN	NNS	Number=Plur	13	_	_	start_char=86|end_char=89
+15	who	who	PRON	WP	PronType=Rel	14	_	_	start_char=90|end_char=93
+16	bankroll	bankroll	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=94|end_char=102
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=103|end_char=105|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=105|end_char=106
+
+# text = And it used to work.
+# sent_id = 27374
+1	And	and	CCONJ	CC	_	0	_	_	start_char=107|end_char=110
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=111|end_char=113
+3	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=114|end_char=118
+4	to	to	PART	TO	_	3	_	_	start_char=119|end_char=121
+5	work	work	VERB	VB	VerbForm=Inf	4	_	_	start_char=122|end_char=126|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=126|end_char=127
+
+# text = But the problem, these days, is that the women have begun to *resent* this bankrolling.
+# sent_id = 27375
+1	But	but	CCONJ	CC	_	0	_	_	start_char=128|end_char=131
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=132|end_char=135
+3	problem	problem	NOUN	NN	Number=Sing	2	_	_	start_char=136|end_char=143|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=143|end_char=144
+5	these	this	DET	DT	Number=Plur|PronType=Dem	4	_	_	start_char=145|end_char=150
+6	days	day	NOUN	NNS	Number=Plur	5	_	_	start_char=151|end_char=155|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=155|end_char=156
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=157|end_char=159
+9	that	that	SCONJ	IN	_	8	_	_	start_char=160|end_char=164
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=165|end_char=168
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=169|end_char=174
+12	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=175|end_char=179
+13	begun	begin	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=180|end_char=185
+14	to	to	PART	TO	_	13	_	_	start_char=186|end_char=188
+15	*	*	PUNCT	NFP	_	14	_	_	start_char=189|end_char=190|SpaceAfter=No
+16	resent	resent	VERB	VB	VerbForm=Inf	15	_	_	start_char=190|end_char=196|SpaceAfter=No
+17	*	*	PUNCT	NFP	_	16	_	_	start_char=196|end_char=197
+18	this	this	DET	DT	Number=Sing|PronType=Dem	17	_	_	start_char=198|end_char=202
+19	bankrolling	bankrolling	NOUN	NN	Number=Sing	18	_	_	start_char=203|end_char=214|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=214|end_char=215|SpaceAfter=No
+

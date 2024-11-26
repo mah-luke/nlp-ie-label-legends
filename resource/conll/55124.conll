@@ -1,0 +1,28 @@
+# text = She may need some 'her' time tomorrow.
+# sent_id = 117789
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	may	may	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	need	need	VERB	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=12
+4	some	some	DET	DT	_	3	_	_	start_char=13|end_char=17
+5	'	'	PUNCT	``	_	4	_	_	start_char=18|end_char=19|SpaceAfter=No
+6	her	her	PRON	PRP$	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=19|end_char=22|SpaceAfter=No
+7	'	'	PUNCT	''	_	6	_	_	start_char=22|end_char=23
+8	time	time	NOUN	NN	Number=Sing	7	_	_	start_char=24|end_char=28
+9	tomorrow	tomorrow	NOUN	NN	Number=Sing	8	_	_	start_char=29|end_char=37|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=37|end_char=38
+
+# text = That is a lot of work.
+# sent_id = 117790
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=39|end_char=43
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=44|end_char=46
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=47|end_char=48
+4	lot	lot	NOUN	NN	Number=Sing	3	_	_	start_char=49|end_char=52
+5	of	of	ADP	IN	_	4	_	_	start_char=53|end_char=55
+6	work	work	NOUN	NN	Number=Sing	5	_	_	start_char=56|end_char=60|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=60|end_char=61
+
+# text = Bravo!
+# sent_id = 117791
+1	Bravo	Bravo	PROPN	NNP	Number=Sing	0	_	_	start_char=62|end_char=67|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=67|end_char=68|SpaceAfter=No
+

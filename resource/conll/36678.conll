@@ -1,0 +1,42 @@
+# text = I'll generalize but basically...
+# sent_id = 78414
+1-2	I'll	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	generalize	generalize	VERB	VB	VerbForm=Inf	2	_	_	start_char=5|end_char=15
+4	but	but	CCONJ	CC	_	3	_	_	start_char=16|end_char=19
+5	basically	basically	ADV	RB	_	4	_	_	start_char=20|end_char=29|SpaceAfter=No
+6	...	...	PUNCT	.	_	5	_	_	start_char=29|end_char=32
+
+# text = Social dynamics are fun, "chasing" a woman is fun, and passing shit tests is one of the quickest ways to build attraction and congruence.
+# sent_id = 78415
+1	Social	Social	ADJ	JJ	Degree=Pos	0	_	_	start_char=33|end_char=39
+2	dynamics	dynamic	NOUN	NNS	Number=Plur	1	_	_	start_char=40|end_char=48
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=49|end_char=52
+4	fun	fun	ADJ	JJ	Degree=Pos	3	_	_	start_char=53|end_char=56|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=56|end_char=57
+6	"	"	PUNCT	``	_	5	_	_	start_char=58|end_char=59|SpaceAfter=No
+7	chasing	chase	VERB	VBG	VerbForm=Ger	6	_	_	start_char=59|end_char=66|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=66|end_char=67
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=68|end_char=69
+10	woman	woman	NOUN	NN	Number=Sing	9	_	_	start_char=70|end_char=75
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=76|end_char=78
+12	fun	fun	ADJ	JJ	Degree=Pos	11	_	_	start_char=79|end_char=82|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=82|end_char=83
+14	and	and	CCONJ	CC	_	13	_	_	start_char=84|end_char=87
+15	passing	pass	VERB	VBG	VerbForm=Ger	14	_	_	start_char=88|end_char=95
+16	shit	shit	NOUN	NN	Number=Sing	15	_	_	start_char=96|end_char=100
+17	tests	test	NOUN	NNS	Number=Plur	16	_	_	start_char=101|end_char=106
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=107|end_char=109
+19	one	one	NUM	CD	NumForm=Word|NumType=Card	18	_	_	start_char=110|end_char=113
+20	of	of	ADP	IN	_	19	_	_	start_char=114|end_char=116
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=117|end_char=120
+22	quickest	quick	ADJ	JJS	Degree=Sup	21	_	_	start_char=121|end_char=129
+23	ways	way	NOUN	NNS	Number=Plur	22	_	_	start_char=130|end_char=134
+24	to	to	PART	TO	_	23	_	_	start_char=135|end_char=137
+25	build	build	VERB	VB	VerbForm=Inf	24	_	_	start_char=138|end_char=143
+26	attraction	attraction	NOUN	NN	Number=Sing	25	_	_	start_char=144|end_char=154
+27	and	and	CCONJ	CC	_	26	_	_	start_char=155|end_char=158
+28	congruence	congruence	NOUN	NN	Number=Sing	27	_	_	start_char=159|end_char=169|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=169|end_char=170|SpaceAfter=No
+

@@ -1,0 +1,36 @@
+# text = Resign or get kicked off.
+# sent_id = 77573
+1	Resign	resign	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=6
+2	or	or	CCONJ	CC	_	1	_	_	start_char=7|end_char=9
+3	get	get	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=10|end_char=13
+4	kicked	kick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=14|end_char=20
+5	off	off	ADP	RP	_	4	_	_	start_char=21|end_char=24|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=24|end_char=25
+
+# text = Her choice.
+# sent_id = 77574
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=26|end_char=29
+2	choice	choice	NOUN	NN	Number=Sing	1	_	_	start_char=30|end_char=36|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=36|end_char=37
+
+# text = She cut her business in half.
+# sent_id = 77575
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=38|end_char=41
+2	cut	cut	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=42|end_char=45
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=46|end_char=49
+4	business	business	NOUN	NN	Number=Sing	3	_	_	start_char=50|end_char=58
+5	in	in	ADP	IN	_	4	_	_	start_char=59|end_char=61
+6	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	5	_	_	start_char=62|end_char=66|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=66|end_char=67
+
+# text = Thought she could get away with it?
+# sent_id = 77576
+1	Thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=68|end_char=75
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=76|end_char=79
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=80|end_char=85
+4	get	get	VERB	VB	VerbForm=Inf	3	_	_	start_char=86|end_char=89
+5	away	away	ADV	RB	_	4	_	_	start_char=90|end_char=94
+6	with	with	ADP	IN	_	5	_	_	start_char=95|end_char=99
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=100|end_char=102|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=102|end_char=103|SpaceAfter=No
+

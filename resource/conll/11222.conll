@@ -1,0 +1,70 @@
+# text = Too right this creep should be denied a visa.
+# sent_id = 23776
+1	Too	too	ADV	RB	_	0	_	_	start_char=0|end_char=3
+2	right	right	ADV	RB	_	1	_	_	start_char=4|end_char=9
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=10|end_char=14
+4	creep	creep	NOUN	NN	Number=Sing	3	_	_	start_char=15|end_char=20
+5	should	should	AUX	MD	VerbForm=Fin	4	_	_	start_char=21|end_char=27
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=28|end_char=30
+7	denied	deny	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=31|end_char=37
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=38|end_char=39
+9	visa	visa	NOUN	NN	Number=Sing	8	_	_	start_char=40|end_char=44|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=44|end_char=45
+
+# text = How is it even out of gaol?
+# sent_id = 23777
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=46|end_char=49
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=50|end_char=52
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=53|end_char=55
+4	even	even	ADV	RB	_	3	_	_	start_char=56|end_char=60
+5	out	out	ADP	IN	_	4	_	_	start_char=61|end_char=64
+6	of	of	ADP	IN	_	5	_	_	start_char=65|end_char=67
+7	gaol	gaol	NOUN	NN	Number=Sing	6	_	_	start_char=68|end_char=72|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=72|end_char=73
+
+# text = And how does a so-called female have an Adam's apple & probably other male bits?
+# sent_id = 23778
+1	And	and	CCONJ	CC	_	0	_	_	start_char=74|end_char=77
+2	how	how	ADV	WRB	PronType=Int	1	_	_	start_char=78|end_char=81
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=82|end_char=86
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=87|end_char=88
+5	so	so	ADV	RB	_	4	_	_	start_char=89|end_char=91|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=91|end_char=92|SpaceAfter=No
+7	called	call	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=92|end_char=98
+8	female	female	NOUN	NN	Number=Sing	7	_	_	start_char=99|end_char=105
+9	have	have	VERB	VB	VerbForm=Inf	8	_	_	start_char=106|end_char=110
+10	an	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=111|end_char=113
+11-12	Adam's	_	_	_	_	_	_	_	start_char=114|end_char=120
+11	Adam	Adam	PROPN	NNP	Number=Sing	10	_	_	start_char=114|end_char=118
+12	's	's	PART	POS	_	11	_	_	start_char=118|end_char=120
+13	apple	apple	NOUN	NN	Number=Sing	12	_	_	start_char=121|end_char=126
+14	&	&	CCONJ	CC	_	13	_	_	start_char=127|end_char=128
+15	probably	probably	ADV	RB	_	14	_	_	start_char=129|end_char=137
+16	other	other	ADJ	JJ	Degree=Pos	15	_	_	start_char=138|end_char=143
+17	male	male	ADJ	JJ	Degree=Pos	16	_	_	start_char=144|end_char=148
+18	bits	bit	NOUN	NNS	Number=Plur	17	_	_	start_char=149|end_char=153|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=153|end_char=154
+
+# text = Lastly, our immigration policy is none of your fucking business you freak.
+# sent_id = 23779
+1	Lastly	lastly	ADV	RB	_	0	_	_	start_char=155|end_char=161|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=161|end_char=162
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=163|end_char=166
+4	immigration	immigration	NOUN	NN	Number=Sing	3	_	_	start_char=167|end_char=178
+5	policy	policy	NOUN	NN	Number=Sing	4	_	_	start_char=179|end_char=185
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=186|end_char=188
+7	none	none	NOUN	NN	Number=Sing	6	_	_	start_char=189|end_char=193
+8	of	of	ADP	IN	_	7	_	_	start_char=194|end_char=196
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=197|end_char=201
+10	fucking	fuck	NOUN	NN	Number=Sing	9	_	_	start_char=202|end_char=209
+11	business	business	NOUN	NN	Number=Sing	10	_	_	start_char=210|end_char=218
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=219|end_char=222
+13	freak	freak	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=223|end_char=228|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=228|end_char=229
+
+# text = [URL]
+# sent_id = 23780
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=230|end_char=231|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=231|end_char=234|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=234|end_char=235|SpaceAfter=No
+

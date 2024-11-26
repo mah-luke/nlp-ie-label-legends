@@ -1,0 +1,73 @@
+# text = 49% of NBA players are directly related to an elite athlete.
+# sent_id = 23124
+1	49	49	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	%	%	SYM	NN	Number=Sing	1	_	_	start_char=2|end_char=3
+3	of	of	ADP	IN	_	2	_	_	start_char=4|end_char=6
+4	NBA	NBA	PROPN	NNP	Number=Sing	3	_	_	start_char=7|end_char=10
+5	players	player	NOUN	NNS	Number=Plur	4	_	_	start_char=11|end_char=18
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=19|end_char=22
+7	directly	directly	ADV	RB	_	6	_	_	start_char=23|end_char=31
+8	related	related	ADJ	JJ	Degree=Pos	7	_	_	start_char=32|end_char=39
+9	to	to	ADP	IN	_	8	_	_	start_char=40|end_char=42
+10	an	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=43|end_char=45
+11	elite	elite	ADJ	JJ	Degree=Pos	10	_	_	start_char=46|end_char=51
+12	athlete	athlete	NOUN	NN	Number=Sing	11	_	_	start_char=52|end_char=59|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=59|end_char=60
+
+# text = It's only 18% for the NFL and 15% for MLB.
+# sent_id = 23125
+1-2	It's	_	_	_	_	_	_	_	start_char=61|end_char=65
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=61|end_char=63
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=65
+3	only	only	ADV	RB	_	2	_	_	start_char=66|end_char=70
+4	18	18	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=71|end_char=73|SpaceAfter=No
+5	%	%	SYM	NN	Number=Sing	4	_	_	start_char=73|end_char=74
+6	for	for	ADP	IN	_	5	_	_	start_char=75|end_char=78
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=79|end_char=82
+8	NFL	NFL	PROPN	NNP	Number=Sing	7	_	_	start_char=83|end_char=86
+9	and	and	CCONJ	CC	_	8	_	_	start_char=87|end_char=90
+10	15	15	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=91|end_char=93|SpaceAfter=No
+11	%	%	SYM	NN	Number=Sing	10	_	_	start_char=93|end_char=94
+12	for	for	ADP	IN	_	11	_	_	start_char=95|end_char=98
+13	MLB	MLB	PROPN	NNP	Number=Sing	12	_	_	start_char=99|end_char=102|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=102|end_char=103
+
+# text = The NBA has basically become a hereditary caste.
+# sent_id = 23126
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=104|end_char=107
+2	NBA	NBA	PROPN	NNP	Number=Sing	1	_	_	start_char=108|end_char=111
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=112|end_char=115
+4	basically	basically	ADV	RB	_	3	_	_	start_char=116|end_char=125
+5	become	become	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=126|end_char=132
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=133|end_char=134
+7	hereditary	hereditary	ADJ	JJ	Degree=Pos	6	_	_	start_char=135|end_char=145
+8	caste	caste	NOUN	NN	Number=Sing	7	_	_	start_char=146|end_char=151|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=151|end_char=152
+
+# text = There's a fairly small # of Black Families who can pump out 6'5 dudes.
+# sent_id = 23127
+1-2	There's	_	_	_	_	_	_	_	start_char=153|end_char=160
+1	There	there	PRON	EX	_	0	_	_	start_char=153|end_char=158
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=158|end_char=160
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=161|end_char=162
+4	fairly	fairly	ADV	RB	_	3	_	_	start_char=163|end_char=169
+5	small	small	ADJ	JJ	Degree=Pos	4	_	_	start_char=170|end_char=175
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=176|end_char=177
+7	of	of	ADP	IN	_	6	_	_	start_char=178|end_char=180
+8	Black	Black	ADJ	NNP	Degree=Pos	7	_	_	start_char=181|end_char=186
+9	Families	Family	PROPN	NNPS	Number=Plur	8	_	_	start_char=187|end_char=195
+10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=196|end_char=199
+11	can	can	AUX	MD	VerbForm=Fin	10	_	_	start_char=200|end_char=203
+12	pump	pump	VERB	VB	VerbForm=Inf	11	_	_	start_char=204|end_char=208
+13	out	out	ADP	RP	_	12	_	_	start_char=209|end_char=212
+14	6'	6'	SYM	$	_	13	_	_	start_char=213|end_char=215|SpaceAfter=No
+15	5	5	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=215|end_char=216
+16	dudes	dude	NOUN	NNS	Number=Plur	15	_	_	start_char=217|end_char=222|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=222|end_char=223
+
+# text = [URL]
+# sent_id = 23128
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=224|end_char=225|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=225|end_char=228|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=228|end_char=229|SpaceAfter=No
+

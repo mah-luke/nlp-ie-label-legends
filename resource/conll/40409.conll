@@ -1,0 +1,67 @@
+# text = #MAGA #Trump #GabFam
+# sent_id = 86397
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=6|end_char=7|SpaceAfter=No
+4	Trump	Trump	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=12
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=13|end_char=14|SpaceAfter=No
+6	GabFam	gabfam	NOUN	NN	Number=Sing	5	_	_	start_char=14|end_char=20
+
+# text = She can put meat back in the lunches LOL.
+# sent_id = 86398
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=21|end_char=24
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=25|end_char=28
+3	put	put	VERB	VB	VerbForm=Inf	2	_	_	start_char=29|end_char=32
+4	meat	meat	NOUN	NN	Number=Sing	3	_	_	start_char=33|end_char=37
+5	back	back	ADV	RB	_	4	_	_	start_char=38|end_char=42
+6	in	in	ADP	IN	_	5	_	_	start_char=43|end_char=45
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=46|end_char=49
+8	lunches	lunch	NOUN	NNS	Number=Plur	7	_	_	start_char=50|end_char=57
+9	LOL	lol	INTJ	UH	_	8	_	_	start_char=58|end_char=61|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=61|end_char=62
+
+# text = And Trump can put 3 orders through without a comment LOL.
+# sent_id = 86399
+1	And	and	CCONJ	CC	_	0	_	_	start_char=63|end_char=66
+2	Trump	Trump	PROPN	NNP	Number=Sing	1	_	_	start_char=67|end_char=72
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=73|end_char=76
+4	put	put	VERB	VB	VerbForm=Inf	3	_	_	start_char=77|end_char=80
+5	3	3	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=81|end_char=82
+6	orders	order	NOUN	NNS	Number=Plur	5	_	_	start_char=83|end_char=89
+7	through	through	ADV	RB	_	6	_	_	start_char=90|end_char=97
+8	without	without	ADP	IN	_	7	_	_	start_char=98|end_char=105
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=106|end_char=107
+10	comment	comment	NOUN	NN	Number=Sing	9	_	_	start_char=108|end_char=115
+11	LOL	lol	INTJ	UH	_	10	_	_	start_char=116|end_char=119|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=119|end_char=120
+
+# text = She commands.
+# sent_id = 86400
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=121|end_char=124
+2	commands	command	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=125|end_char=133|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=133|end_char=134
+
+# text = Let them talk about the dress or whatever - attack but she is dominant.
+# sent_id = 86401
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=135|end_char=138
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=139|end_char=143
+3	talk	talk	VERB	VB	VerbForm=Inf	2	_	_	start_char=144|end_char=148
+4	about	about	ADP	IN	_	3	_	_	start_char=149|end_char=154
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=155|end_char=158
+6	dress	dress	NOUN	NN	Number=Sing	5	_	_	start_char=159|end_char=164
+7	or	or	CCONJ	CC	_	6	_	_	start_char=165|end_char=167
+8	whatever	whatever	DET	WDT	PronType=Int	7	_	_	start_char=168|end_char=176
+9	-	-	PUNCT	HYPH	_	8	_	_	start_char=177|end_char=178
+10	attack	attack	NOUN	NN	Number=Sing	9	_	_	start_char=179|end_char=185
+11	but	but	CCONJ	CC	_	10	_	_	start_char=186|end_char=189
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=190|end_char=193
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=194|end_char=196
+14	dominant	dominant	ADJ	JJ	Degree=Pos	13	_	_	start_char=197|end_char=205|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=205|end_char=206
+
+# text = Accept it.
+# sent_id = 86402
+1	Accept	accept	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=207|end_char=213
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=214|end_char=216|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=216|end_char=217|SpaceAfter=No
+

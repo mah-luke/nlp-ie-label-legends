@@ -1,0 +1,59 @@
+# text = “I read it and was like, ‘What the f—.
+# sent_id = 8968
+1	“	''	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
+3	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=3|end_char=7
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=8|end_char=10
+5	and	and	CCONJ	CC	_	4	_	_	start_char=11|end_char=14
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=15|end_char=18
+7	like	like	ADP	RP	_	6	_	_	start_char=19|end_char=23|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=23|end_char=24
+9	‘	'	PUNCT	``	_	8	_	_	start_char=25|end_char=26|SpaceAfter=No
+10	What	what	PRON	WP	PronType=Int	9	_	_	start_char=26|end_char=30
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=31|end_char=34
+12	f	f	NOUN	NN	Number=Sing	11	_	_	start_char=35|end_char=36|SpaceAfter=No
+13	—	—	PUNCT	:	_	12	_	_	start_char=36|end_char=37|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=37|end_char=38
+
+# text = Of course he totally knew how old she was.
+# sent_id = 8969
+1	Of	of	ADV	IN	_	0	_	_	start_char=39|end_char=41
+2	course	course	NOUN	NN	Number=Sing	1	_	_	start_char=42|end_char=48
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=49|end_char=51
+4	totally	totally	ADV	RB	_	3	_	_	start_char=52|end_char=59
+5	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=60|end_char=64
+6	how	how	ADV	WRB	PronType=Int	5	_	_	start_char=65|end_char=68
+7	old	old	ADJ	JJ	Degree=Pos	6	_	_	start_char=69|end_char=72
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=73|end_char=76
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=77|end_char=80|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=80|end_char=81
+
+# text = That’s why there’s no nudity in the movie."
+# sent_id = 8970
+1-2	That’s	_	_	_	_	_	_	_	start_char=82|end_char=88
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=82|end_char=86
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=86|end_char=88
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=89|end_char=92
+4-5	there’s	_	_	_	_	_	_	_	start_char=93|end_char=100
+4	there	there	PRON	EX	_	3	_	_	start_char=93|end_char=98
+5	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=98|end_char=100
+6	no	no	DET	DT	_	5	_	_	start_char=101|end_char=103
+7	nudity	nudity	NOUN	NN	Number=Sing	6	_	_	start_char=104|end_char=110
+8	in	in	ADP	IN	_	7	_	_	start_char=111|end_char=113
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=114|end_char=117
+10	movie	movie	NOUN	NN	Number=Sing	9	_	_	start_char=118|end_char=123|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=123|end_char=124|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=124|end_char=125
+
+# text = Alec Baldwin: dirty old man [URL]
+# sent_id = 8971
+1	Alec	Alec	PROPN	NNP	Number=Sing	0	_	_	start_char=126|end_char=130
+2	Baldwin	Baldwin	PROPN	NNP	Number=Sing	1	_	_	start_char=131|end_char=138|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=138|end_char=139
+4	dirty	dirty	ADJ	JJ	Degree=Pos	3	_	_	start_char=140|end_char=145
+5	old	old	ADJ	JJ	Degree=Pos	4	_	_	start_char=146|end_char=149
+6	man	man	NOUN	NN	Number=Sing	5	_	_	start_char=150|end_char=153
+7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=154|end_char=155|SpaceAfter=No
+8	URL	URL	PROPN	NNP	Number=Sing	7	_	_	start_char=155|end_char=158|SpaceAfter=No
+9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=158|end_char=159|SpaceAfter=No
+

@@ -1,0 +1,27 @@
+# text = "deny female students admission... based on their appearance...".
+# sent_id = 29147
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	deny	deny	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=1|end_char=5
+3	female	female	ADJ	JJ	Degree=Pos	2	_	_	start_char=6|end_char=12
+4	students	student	NOUN	NNS	Number=Plur	3	_	_	start_char=13|end_char=21
+5	admission	admission	NOUN	NN	Number=Sing	4	_	_	start_char=22|end_char=31|SpaceAfter=No
+6	...	...	PUNCT	,	_	5	_	_	start_char=31|end_char=34
+7	based	base	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=35|end_char=40
+8	on	on	ADP	IN	_	7	_	_	start_char=41|end_char=43
+9	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=44|end_char=49
+10	appearance	appearance	NOUN	NN	Number=Sing	9	_	_	start_char=50|end_char=60|SpaceAfter=No
+11	...	...	PUNCT	.	_	10	_	_	start_char=60|end_char=63|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=63|end_char=64|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=64|end_char=65
+
+# text = Don't sororities do this too?
+# sent_id = 29148
+1-2	Don't	_	_	_	_	_	_	_	start_char=66|end_char=71
+1	Do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=66|end_char=68
+2	n't	not	PART	RB	_	1	_	_	start_char=68|end_char=71
+3	sororities	sorority	NOUN	NNS	Number=Plur	2	_	_	start_char=72|end_char=82
+4	do	do	VERB	VB	VerbForm=Inf	3	_	_	start_char=83|end_char=85
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=86|end_char=90
+6	too	too	ADV	RB	_	5	_	_	start_char=91|end_char=94|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=94|end_char=95|SpaceAfter=No
+

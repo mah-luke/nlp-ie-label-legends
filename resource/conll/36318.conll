@@ -1,0 +1,59 @@
+# text = He's a great liar then.
+# sent_id = 77670
+1-2	He's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=5|end_char=6
+4	great	great	ADJ	JJ	Degree=Pos	3	_	_	start_char=7|end_char=12
+5	liar	liar	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=17
+6	then	then	ADV	RB	PronType=Dem	5	_	_	start_char=18|end_char=22|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=22|end_char=23
+
+# text = But once a cheater ALWAYS a cheater.
+# sent_id = 77671
+1	But	but	CCONJ	CC	_	0	_	_	start_char=24|end_char=27
+2	once	once	ADV	RB	NumType=Mult	1	_	_	start_char=28|end_char=32
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=33|end_char=34
+4	cheater	cheater	NOUN	NN	Number=Sing	3	_	_	start_char=35|end_char=42
+5	ALWAYS	always	ADV	RB	_	4	_	_	start_char=43|end_char=49
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=50|end_char=51
+7	cheater	cheater	NOUN	NN	Number=Sing	6	_	_	start_char=52|end_char=59|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=59|end_char=60
+
+# text = And you see men date women who have cheated.
+# sent_id = 77672
+1	And	and	CCONJ	CC	_	0	_	_	start_char=61|end_char=64
+2	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	_	_	start_char=65|end_char=68
+3	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=69|end_char=72
+4	men	man	NOUN	NNS	Number=Plur	3	_	_	start_char=73|end_char=76
+5	date	date	NOUN	NN	Number=Sing	4	_	_	start_char=77|end_char=81
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=82|end_char=87
+7	who	who	PRON	WP	PronType=Rel	6	_	_	start_char=88|end_char=91
+8	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=92|end_char=96
+9	cheated	cheat	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=97|end_char=104|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=104|end_char=105
+
+# text = They are both good at lying.
+# sent_id = 77673
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=106|end_char=110
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=111|end_char=114
+3	both	both	ADV	RB	_	2	_	_	start_char=115|end_char=119
+4	good	good	ADJ	JJ	Degree=Pos	3	_	_	start_char=120|end_char=124
+5	at	at	SCONJ	IN	_	4	_	_	start_char=125|end_char=127
+6	lying	lie	VERB	VBG	VerbForm=Ger	5	_	_	start_char=128|end_char=133|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=133|end_char=134
+
+# text = But I'd say they are terrible LRT material.
+# sent_id = 77674
+1	But	but	CCONJ	CC	_	0	_	_	start_char=135|end_char=138
+2-3	I'd	_	_	_	_	_	_	_	start_char=139|end_char=142
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=139|end_char=140
+3	'd	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=140|end_char=142
+4	say	say	VERB	VB	VerbForm=Inf	3	_	_	start_char=143|end_char=146
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=147|end_char=151
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=152|end_char=155
+7	terrible	terrible	ADJ	JJ	Degree=Pos	6	_	_	start_char=156|end_char=164
+8	LRT	lrt	NOUN	NN	Number=Sing	7	_	_	start_char=165|end_char=168
+9	material	material	NOUN	NN	Number=Sing	8	_	_	start_char=169|end_char=177|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=177|end_char=178|SpaceAfter=No
+

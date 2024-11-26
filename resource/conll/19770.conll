@@ -1,0 +1,25 @@
+# text = You only really lift when your
+# sent_id = 42447
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	only	only	ADV	RB	_	1	_	_	start_char=4|end_char=8
+3	really	really	ADV	RB	_	2	_	_	start_char=9|end_char=15
+4	lift	lift	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=16|end_char=20
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=21|end_char=25
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=26|end_char=30
+
+# text = Go from lifting so women mire to lifting so other men mire #nohomo
+# sent_id = 42448
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=31|end_char=33
+2	from	from	SCONJ	IN	_	1	_	_	start_char=34|end_char=38
+3	lifting	lift	VERB	VBG	VerbForm=Ger	2	_	_	start_char=39|end_char=46
+4	so	so	ADV	RB	_	3	_	_	start_char=47|end_char=49
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=50|end_char=55
+6	mire	mire	NOUN	NN	Number=Sing	5	_	_	start_char=56|end_char=60
+7	to	to	SCONJ	IN	_	6	_	_	start_char=61|end_char=63
+8	lifting	lift	VERB	VBG	VerbForm=Ger	7	_	_	start_char=64|end_char=71
+9	so	so	ADV	RB	_	8	_	_	start_char=72|end_char=74
+10	other	other	ADJ	JJ	Degree=Pos	9	_	_	start_char=75|end_char=80
+11	men	man	NOUN	NNS	Number=Plur	10	_	_	start_char=81|end_char=84
+12	mire	mire	VERB	VBP	Mood=Ind|Person=3|VerbForm=Fin	11	_	_	start_char=85|end_char=89
+13	#nohomo	#nohomo	PROPN	NNP	Number=Sing	12	_	_	start_char=90|end_char=97|SpaceAfter=No
+

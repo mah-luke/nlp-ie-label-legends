@@ -1,0 +1,41 @@
+# text = NEW: California Rep. Dana Rohrabacher met with alleged Russian agent Maria Butina in 2015, her emails reveal, fueling more questions about his longstanding Kremlin connections.
+# sent_id = 117312
+1	NEW	new	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=3|end_char=4
+3	California	California	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=15
+4	Rep.	Rep.	PROPN	NNP	Number=Sing	3	_	_	start_char=16|end_char=20
+5	Dana	Dana	PROPN	NNP	Number=Sing	4	_	_	start_char=21|end_char=25
+6	Rohrabacher	Rohrabacher	PROPN	NNP	Number=Sing	5	_	_	start_char=26|end_char=37
+7	met	meet	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=38|end_char=41
+8	with	with	ADP	IN	_	7	_	_	start_char=42|end_char=46
+9	alleged	allege	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=47|end_char=54
+10	Russian	Russian	ADJ	JJ	Degree=Pos	9	_	_	start_char=55|end_char=62
+11	agent	agent	NOUN	NN	Number=Sing	10	_	_	start_char=63|end_char=68
+12	Maria	Maria	PROPN	NNP	Number=Sing	11	_	_	start_char=69|end_char=74
+13	Butina	Butina	PROPN	NNP	Number=Sing	12	_	_	start_char=75|end_char=81
+14	in	in	ADP	IN	_	13	_	_	start_char=82|end_char=84
+15	2015	2015	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=85|end_char=89|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=89|end_char=90
+17	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=91|end_char=94
+18	emails	email	NOUN	NNS	Number=Plur	17	_	_	start_char=95|end_char=101
+19	reveal	reveal	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=102|end_char=108|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=108|end_char=109
+21	fueling	fuel	VERB	VBG	VerbForm=Ger	20	_	_	start_char=110|end_char=117
+22	more	more	ADJ	JJR	Degree=Cmp	21	_	_	start_char=118|end_char=122
+23	questions	question	NOUN	NNS	Number=Plur	22	_	_	start_char=123|end_char=132
+24	about	about	ADP	IN	_	23	_	_	start_char=133|end_char=138
+25	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	_	_	start_char=139|end_char=142
+26	longstanding	longstanding	ADJ	JJ	Degree=Pos	25	_	_	start_char=143|end_char=155
+27	Kremlin	Kremlin	ADJ	JJ	Degree=Pos	26	_	_	start_char=156|end_char=163
+28	connections	connection	NOUN	NNS	Number=Plur	27	_	_	start_char=164|end_char=175|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=175|end_char=176
+
+# text = [URL] [URL]
+# sent_id = 117313
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=177|end_char=178|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=178|end_char=181|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=181|end_char=182
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=183|end_char=184|SpaceAfter=No
+5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=184|end_char=187|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=187|end_char=188|SpaceAfter=No
+

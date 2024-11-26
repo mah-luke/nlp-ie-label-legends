@@ -1,0 +1,24 @@
+# text = [USER] can we call Zoey a He.
+# sent_id = 34234
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=7|end_char=10
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=11|end_char=13
+6	call	call	VERB	VB	VerbForm=Inf	5	_	_	start_char=14|end_char=18
+7	Zoey	Zoey	PROPN	NNP	Number=Sing	6	_	_	start_char=19|end_char=23
+8	a	of	ADP	IN	_	7	_	_	start_char=24|end_char=25
+9	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=26|end_char=28|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=28|end_char=29
+
+# text = Since she identified to have a penis.
+# sent_id = 34235
+1	Since	since	SCONJ	IN	_	0	_	_	start_char=30|end_char=35
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=36|end_char=39
+3	identified	identify	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=40|end_char=50
+4	to	to	PART	TO	_	3	_	_	start_char=51|end_char=53
+5	have	have	VERB	VB	VerbForm=Inf	4	_	_	start_char=54|end_char=58
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=59|end_char=60
+7	penis	penis	NOUN	NN	Number=Sing	6	_	_	start_char=61|end_char=66|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=66|end_char=67|SpaceAfter=No
+

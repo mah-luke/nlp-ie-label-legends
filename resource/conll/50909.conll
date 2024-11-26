@@ -1,0 +1,43 @@
+# text = You don't need to like & share it.
+# sent_id = 108822
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2-3	don't	_	_	_	_	_	_	_	start_char=4|end_char=9
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	n't	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	need	need	VERB	VB	VerbForm=Inf	3	_	_	start_char=10|end_char=14
+5	to	to	PART	TO	_	4	_	_	start_char=15|end_char=17
+6	like	like	VERB	VB	VerbForm=Inf	5	_	_	start_char=18|end_char=22
+7	&	&	CCONJ	CC	_	6	_	_	start_char=23|end_char=24
+8	share	share	VERB	VB	VerbForm=Inf	7	_	_	start_char=25|end_char=30
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=31|end_char=33|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=33|end_char=34
+
+# text = Just don't go.
+# sent_id = 108823
+1	Just	just	ADV	RB	_	0	_	_	start_char=35|end_char=39
+2-3	don't	_	_	_	_	_	_	_	start_char=40|end_char=45
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=40|end_char=42
+3	n't	not	PART	RB	_	2	_	_	start_char=42|end_char=45
+4	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=46|end_char=48|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=48|end_char=49
+
+# text = Here's a picture of her REAL face beside the plastic, madeup Hollywood one.
+# sent_id = 108824
+1-2	Here's	_	_	_	_	_	_	_	start_char=50|end_char=56
+1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=50|end_char=54
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=54|end_char=56
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=57|end_char=58
+4	picture	picture	NOUN	NN	Number=Sing	3	_	_	start_char=59|end_char=66
+5	of	of	ADP	IN	_	4	_	_	start_char=67|end_char=69
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=70|end_char=73
+7	REAL	real	ADJ	JJ	Degree=Pos	6	_	_	start_char=74|end_char=78
+8	face	face	NOUN	NN	Number=Sing	7	_	_	start_char=79|end_char=83
+9	beside	beside	ADP	IN	_	8	_	_	start_char=84|end_char=90
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=91|end_char=94
+11	plastic	plastic	NOUN	NN	Number=Sing	10	_	_	start_char=95|end_char=102|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=102|end_char=103
+13	madeup	madeup	NOUN	NN	Number=Sing	12	_	_	start_char=104|end_char=110
+14	Hollywood	Hollywood	PROPN	NNP	Number=Sing	13	_	_	start_char=111|end_char=120
+15	one	one	NOUN	NN	Number=Sing	14	_	_	start_char=121|end_char=124|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=124|end_char=125|SpaceAfter=No
+

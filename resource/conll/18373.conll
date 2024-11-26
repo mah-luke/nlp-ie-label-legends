@@ -1,0 +1,30 @@
+# text = My granddad had a stroke on the bus today.
+# sent_id = 39437
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	granddad	granddad	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=11
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=12|end_char=15
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=16|end_char=17
+5	stroke	stroke	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=24
+6	on	on	ADP	IN	_	5	_	_	start_char=25|end_char=27
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=28|end_char=31
+8	bus	bus	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=35
+9	today	today	NOUN	NN	Number=Sing	8	_	_	start_char=36|end_char=41|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=41|end_char=42
+
+# text = The woman sat next to him, gave him a fucking black eye.
+# sent_id = 39438
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=43|end_char=46
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=47|end_char=52
+3	sat	sit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=53|end_char=56
+4	next	next	ADV	RB	_	3	_	_	start_char=57|end_char=61
+5	to	to	ADP	IN	_	4	_	_	start_char=62|end_char=64
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=65|end_char=68|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=68|end_char=69
+8	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=70|end_char=74
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=75|end_char=78
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=79|end_char=80
+11	fucking	fuck	ADJ	JJ	Degree=Pos	10	_	_	start_char=81|end_char=88
+12	black	black	ADJ	JJ	Degree=Pos	11	_	_	start_char=89|end_char=94
+13	eye	eye	NOUN	NN	Number=Sing	12	_	_	start_char=95|end_char=98|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=98|end_char=99|SpaceAfter=No
+

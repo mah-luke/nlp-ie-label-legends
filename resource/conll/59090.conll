@@ -1,0 +1,44 @@
+# text = She should go to Saudi Arabia with that sign.
+# sent_id = 126165
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=10
+3	go	go	VERB	VB	VerbForm=Inf	2	_	_	start_char=11|end_char=13
+4	to	to	ADP	IN	_	3	_	_	start_char=14|end_char=16
+5	Saudi	Saudi	ADJ	NNP	Degree=Pos	4	_	_	start_char=17|end_char=22
+6	Arabia	Arabia	PROPN	NNP	Number=Sing	5	_	_	start_char=23|end_char=29
+7	with	with	ADP	IN	_	6	_	_	start_char=30|end_char=34
+8	that	that	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=35|end_char=39
+9	sign	sign	NOUN	NN	Number=Sing	8	_	_	start_char=40|end_char=44|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=44|end_char=45
+
+# text = I'm sure, all the tolerant Muslims, will defend her free speech and ideas openly.
+# sent_id = 126166
+1-2	I'm	_	_	_	_	_	_	_	start_char=46|end_char=49
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=46|end_char=47
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=47|end_char=49
+3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=50|end_char=54|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=54|end_char=55
+5	all	all	DET	PDT	_	4	_	_	start_char=56|end_char=59
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=60|end_char=63
+7	tolerant	tolerant	ADJ	JJ	Degree=Pos	6	_	_	start_char=64|end_char=72
+8	Muslims	Muslim	PROPN	NNPS	Number=Plur	7	_	_	start_char=73|end_char=80|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=80|end_char=81
+10	will	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=82|end_char=86
+11	defend	defend	VERB	VB	VerbForm=Inf	10	_	_	start_char=87|end_char=93
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=94|end_char=97
+13	free	free	ADJ	JJ	Degree=Pos	12	_	_	start_char=98|end_char=102
+14	speech	speech	NOUN	NN	Number=Sing	13	_	_	start_char=103|end_char=109
+15	and	and	CCONJ	CC	_	14	_	_	start_char=110|end_char=113
+16	ideas	idea	NOUN	NNS	Number=Plur	15	_	_	start_char=114|end_char=119
+17	openly	openly	ADV	RB	_	16	_	_	start_char=120|end_char=126|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=126|end_char=127
+
+# text = #FreeSpeech #FuckIslam #GabFam
+# sent_id = 126167
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=128|end_char=129|SpaceAfter=No
+2	FreeSpeech	FreeSpeech	X	GW	_	1	_	_	start_char=129|end_char=139
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=140|end_char=141|SpaceAfter=No
+4	FuckIslam	fuckislam	X	GW	_	3	_	_	start_char=141|end_char=150
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=151|end_char=152|SpaceAfter=No
+6	GabFam	gabfam	X	NN	_	5	_	_	start_char=152|end_char=158|SpaceAfter=No
+

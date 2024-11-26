@@ -1,0 +1,38 @@
+# text = 'You animal' as she's getting her rear end pounded.
+# sent_id = 8883
+1	'	'	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	You	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=1|end_char=4
+3	animal	animal	NOUN	NN	Number=Sing	2	_	_	start_char=5|end_char=11|SpaceAfter=No
+4	'	'	PUNCT	''	_	3	_	_	start_char=11|end_char=12
+5	as	as	SCONJ	IN	_	4	_	_	start_char=13|end_char=15
+6-7	she's	_	_	_	_	_	_	_	start_char=16|end_char=21
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=16|end_char=19
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=19|end_char=21
+8	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=22|end_char=29
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=30|end_char=33
+10	rear	rear	ADJ	JJ	Degree=Pos	9	_	_	start_char=34|end_char=38
+11	end	end	NOUN	NN	Number=Sing	10	_	_	start_char=39|end_char=42
+12	pounded	pound	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=43|end_char=50|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=50|end_char=51
+
+# text = Wouldn't be the first or last time the female mind and body were in disagreement.
+# sent_id = 8884
+1-2	Wouldn't	_	_	_	_	_	_	_	start_char=52|end_char=60
+1	Would	would	AUX	MD	VerbForm=Fin	0	_	_	start_char=52|end_char=57
+2	n't	not	PART	RB	_	1	_	_	start_char=57|end_char=60
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=61|end_char=63
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=64|end_char=67
+5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	_	_	start_char=68|end_char=73
+6	or	or	CCONJ	CC	_	5	_	_	start_char=74|end_char=76
+7	last	last	ADJ	JJ	Degree=Pos	6	_	_	start_char=77|end_char=81
+8	time	time	NOUN	NN	Number=Sing	7	_	_	start_char=82|end_char=86
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=87|end_char=90
+10	female	female	ADJ	JJ	Degree=Pos	9	_	_	start_char=91|end_char=97
+11	mind	mind	NOUN	NN	Number=Sing	10	_	_	start_char=98|end_char=102
+12	and	and	CCONJ	CC	_	11	_	_	start_char=103|end_char=106
+13	body	body	NOUN	NN	Number=Sing	12	_	_	start_char=107|end_char=111
+14	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=112|end_char=116
+15	in	in	ADP	IN	_	14	_	_	start_char=117|end_char=119
+16	disagreement	disagreement	NOUN	NN	Number=Sing	15	_	_	start_char=120|end_char=132|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=132|end_char=133|SpaceAfter=No
+

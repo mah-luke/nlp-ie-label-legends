@@ -1,0 +1,71 @@
+# text = Yea, that sounds bad.
+# sent_id = 65535
+1	Yea	yea	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=5|end_char=9
+4	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=10|end_char=16
+5	bad	bad	ADJ	JJ	Degree=Pos	4	_	_	start_char=17|end_char=20|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=20|end_char=21
+
+# text = At the end of the day, your girlfriend is supposed to make *you* happy.
+# sent_id = 65536
+1	At	at	ADP	IN	_	0	_	_	start_char=22|end_char=24
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=25|end_char=28
+3	end	end	NOUN	NN	Number=Sing	2	_	_	start_char=29|end_char=32
+4	of	of	ADP	IN	_	3	_	_	start_char=33|end_char=35
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=36|end_char=39
+6	day	day	NOUN	NN	Number=Sing	5	_	_	start_char=40|end_char=43|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=43|end_char=44
+8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	_	_	start_char=45|end_char=49
+9	girlfriend	girlfriend	NOUN	NN	Number=Sing	8	_	_	start_char=50|end_char=60
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=61|end_char=63
+11	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=64|end_char=72
+12	to	to	PART	TO	_	11	_	_	start_char=73|end_char=75
+13	make	make	VERB	VB	VerbForm=Inf	12	_	_	start_char=76|end_char=80
+14	*	*	PUNCT	NFP	_	13	_	_	start_char=81|end_char=82|SpaceAfter=No
+15	you*	you*	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	14	_	_	start_char=82|end_char=86
+16	happy	happy	ADJ	JJ	Degree=Pos	15	_	_	start_char=87|end_char=92|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=92|end_char=93
+
+# text = But it's okay, most people are guilty of being in that mindset to different degrees.
+# sent_id = 65537
+1	But	but	CCONJ	CC	_	0	_	_	start_char=94|end_char=97
+2-3	it's	_	_	_	_	_	_	_	start_char=98|end_char=102
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=98|end_char=100
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=100|end_char=102
+4	okay	okay	ADJ	JJ	Degree=Pos	3	_	_	start_char=103|end_char=107|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=107|end_char=108
+6	most	most	ADJ	JJS	Degree=Sup	5	_	_	start_char=109|end_char=113
+7	people	person	NOUN	NNS	Number=Plur	6	_	_	start_char=114|end_char=120
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=121|end_char=124
+9	guilty	guilty	ADJ	JJ	Degree=Pos	8	_	_	start_char=125|end_char=131
+10	of	of	SCONJ	IN	_	9	_	_	start_char=132|end_char=134
+11	being	be	AUX	VBG	VerbForm=Ger	10	_	_	start_char=135|end_char=140
+12	in	in	ADP	IN	_	11	_	_	start_char=141|end_char=143
+13	that	that	DET	DT	Number=Sing|PronType=Dem	12	_	_	start_char=144|end_char=148
+14	mindset	mindset	NOUN	NN	Number=Sing	13	_	_	start_char=149|end_char=156
+15	to	to	ADP	IN	_	14	_	_	start_char=157|end_char=159
+16	different	different	ADJ	JJ	Degree=Pos	15	_	_	start_char=160|end_char=169
+17	degrees	degree	NOUN	NNS	Number=Plur	16	_	_	start_char=170|end_char=177|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=177|end_char=178
+
+# text = And now that you've become consciously aware of it, you can change it.
+# sent_id = 65538
+1	And	and	CCONJ	CC	_	0	_	_	start_char=179|end_char=182
+2	now	now	ADV	RB	_	1	_	_	start_char=183|end_char=186
+3	that	that	SCONJ	IN	_	2	_	_	start_char=187|end_char=191
+4-5	you've	_	_	_	_	_	_	_	start_char=192|end_char=198
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=192|end_char=195
+5	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=195|end_char=198
+6	become	become	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=199|end_char=205
+7	consciously	consciously	ADV	RB	_	6	_	_	start_char=206|end_char=217
+8	aware	aware	ADJ	JJ	Degree=Pos	7	_	_	start_char=218|end_char=223
+9	of	of	ADP	IN	_	8	_	_	start_char=224|end_char=226
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=227|end_char=229|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=229|end_char=230
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=231|end_char=234
+13	can	can	AUX	MD	VerbForm=Fin	12	_	_	start_char=235|end_char=238
+14	change	change	VERB	VB	VerbForm=Inf	13	_	_	start_char=239|end_char=245
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=246|end_char=248|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=248|end_char=249|SpaceAfter=No
+

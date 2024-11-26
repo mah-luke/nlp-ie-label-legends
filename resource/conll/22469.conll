@@ -1,0 +1,34 @@
+# text = Just ghost.
+# sent_id = 48287
+1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	ghost	ghost	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=10|end_char=11
+
+# text = Think what it'll do to her head.
+# sent_id = 48288
+1	Think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=12|end_char=17
+2	what	what	PRON	WP	PronType=Rel	1	_	_	start_char=18|end_char=22
+3-4	it'll	_	_	_	_	_	_	_	start_char=23|end_char=28
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=23|end_char=25
+4	'll	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=25|end_char=28
+5	do	do	VERB	VB	VerbForm=Inf	4	_	_	start_char=29|end_char=31
+6	to	to	ADP	IN	_	5	_	_	start_char=32|end_char=34
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=35|end_char=38
+8	head	head	NOUN	NN	Number=Sing	7	_	_	start_char=39|end_char=43|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=43|end_char=44
+
+# text = Walk away, dude.
+# sent_id = 48289
+1	Walk	walk	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=45|end_char=49
+2	away	away	ADV	RB	_	1	_	_	start_char=50|end_char=54|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=54|end_char=55
+4	dude	dude	NOUN	NN	Number=Sing	3	_	_	start_char=56|end_char=60|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=60|end_char=61
+
+# text = Always walk away.
+# sent_id = 48290
+1	Always	Always	ADV	RB	_	0	_	_	start_char=62|end_char=68
+2	walk	walk	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=69|end_char=73
+3	away	away	ADV	RB	_	2	_	_	start_char=74|end_char=78|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=78|end_char=79|SpaceAfter=No
+

@@ -1,0 +1,50 @@
+# text = A man above her level.
+# sent_id = 127590
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=5
+3	above	above	ADP	IN	_	2	_	_	start_char=6|end_char=11
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=12|end_char=15
+5	level	level	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=21|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=21|end_char=22
+
+# text = If a woman is a 2-3 a 6 normie is dating her.
+# sent_id = 127591
+1	If	if	SCONJ	IN	_	0	_	_	start_char=23|end_char=25
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=26|end_char=27
+3	woman	woman	NOUN	NN	Number=Sing	2	_	_	start_char=28|end_char=33
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=34|end_char=36
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=37|end_char=38
+6	2	2	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=39|end_char=40|SpaceAfter=No
+7	-	-	SYM	SYM	_	6	_	_	start_char=40|end_char=41|SpaceAfter=No
+8	3	3	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=41|end_char=42
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=43|end_char=44
+10	6	6	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=45|end_char=46
+11	normie	normie	NOUN	NN	Number=Sing	10	_	_	start_char=47|end_char=53
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=54|end_char=56
+13	dating	date	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=57|end_char=63
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=64|end_char=67|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=67|end_char=68
+
+# text = Shit like that is incredible common both citis I've lived (5m+ people on both)
+# sent_id = 127592
+1	Shit	shit	INTJ	UH	_	0	_	_	start_char=69|end_char=73
+2	like	like	INTJ	UH	_	1	_	_	start_char=74|end_char=78
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=79|end_char=83
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=84|end_char=86
+5	incredible	incredible	ADJ	JJ	Degree=Pos	4	_	_	start_char=87|end_char=97
+6	common	common	ADJ	JJ	Degree=Pos	5	_	_	start_char=98|end_char=104
+7	both	both	DET	DT	_	6	_	_	start_char=105|end_char=109
+8	citis	citis	NOUN	NNS	Number=Plur	7	_	_	start_char=110|end_char=115
+9-10	I've	_	_	_	_	_	_	_	start_char=116|end_char=120
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=116|end_char=117
+10	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=117|end_char=120
+11	lived	live	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=121|end_char=126
+12	(	(	PUNCT	-LRB-	_	11	_	_	start_char=127|end_char=128|SpaceAfter=No
+13	5	5	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=128|end_char=129|SpaceAfter=No
+14	m	m	NOUN	NNS	Number=Plur	13	_	_	start_char=129|end_char=130|SpaceAfter=No
+15	+	+	SYM	SYM	_	14	_	_	start_char=130|end_char=131
+16	people	person	NOUN	NNS	Number=Plur	15	_	_	start_char=132|end_char=138
+17	on	on	ADP	IN	_	16	_	_	start_char=139|end_char=141
+18	both	both	DET	DT	PronType=Art	17	_	_	start_char=142|end_char=146|SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	18	_	_	start_char=146|end_char=147|SpaceAfter=No
+

@@ -1,0 +1,52 @@
+# text = -Good good, now ask her about what she's gonna major in..
+# sent_id = 111526
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Good	good	ADJ	JJ	Degree=Pos	1	_	_	start_char=1|end_char=5
+3	good	good	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=10|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=10|end_char=11
+5	now	now	ADV	RB	_	4	_	_	start_char=12|end_char=15
+6	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=16|end_char=19
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=20|end_char=23
+8	about	about	ADP	IN	_	7	_	_	start_char=24|end_char=29
+9	what	what	PRON	WP	PronType=Rel	8	_	_	start_char=30|end_char=34
+10-11	she's	_	_	_	_	_	_	_	start_char=35|end_char=40
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=35|end_char=38
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=38|end_char=40
+12-13	gonna	_	_	_	_	_	_	_	start_char=41|end_char=46
+12	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=41|end_char=44
+13	na	to	PART	TO	_	12	_	_	start_char=44|end_char=46
+14	major	major	NOUN	NN	Number=Sing	13	_	_	start_char=47|end_char=52
+15	in	in	ADP	IN	_	14	_	_	start_char=53|end_char=55|SpaceAfter=No
+16	..	..	PUNCT	.	_	15	_	_	start_char=55|end_char=57
+
+# text = -But..
+# sent_id = 111527
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=58|end_char=59|SpaceAfter=No
+2	But	but	CCONJ	CC	_	1	_	_	start_char=59|end_char=62|SpaceAfter=No
+3	..	..	PUNCT	.	_	2	_	_	start_char=62|end_char=64
+
+# text = She's not even in college..
+# sent_id = 111528
+1-2	She's	_	_	_	_	_	_	_	start_char=65|end_char=70
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=65|end_char=68
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=68|end_char=70
+3	not	not	PART	RB	_	2	_	_	start_char=71|end_char=74
+4	even	even	ADV	RB	_	3	_	_	start_char=75|end_char=79
+5	in	in	ADP	IN	_	4	_	_	start_char=80|end_char=82
+6	college	college	NOUN	NN	Number=Sing	5	_	_	start_char=83|end_char=90|SpaceAfter=No
+7	..	..	PUNCT	.	_	6	_	_	start_char=90|end_char=92
+
+# text = -Don't go off-script god dammit!
+# sent_id = 111529
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=93|end_char=94|SpaceAfter=No
+2-3	Don't	_	_	_	_	_	_	_	start_char=94|end_char=99
+2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=94|end_char=96
+3	n't	not	PART	RB	_	2	_	_	start_char=96|end_char=99
+4	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=100|end_char=102
+5	off	off	ADP	RP	_	4	_	_	start_char=103|end_char=106|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=106|end_char=107|SpaceAfter=No
+7	script	script	NOUN	NN	Number=Sing	6	_	_	start_char=107|end_char=113
+8	god	god	NOUN	NN	Number=Sing	7	_	_	start_char=114|end_char=117
+9	dammit	dammit	NOUN	NN	Number=Sing	8	_	_	start_char=118|end_char=124|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=124|end_char=125|SpaceAfter=No
+

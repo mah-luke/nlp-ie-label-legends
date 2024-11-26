@@ -1,0 +1,34 @@
+# text = Whatever.
+# sent_id = 23640
+1	Whatever	whatever	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=8|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=8|end_char=9
+
+# text = I have likely more time on base leg than you do looking at airplanes.
+# sent_id = 23641
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=10|end_char=11
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=12|end_char=16
+3	likely	likely	ADV	RB	_	2	_	_	start_char=17|end_char=23
+4	more	more	ADJ	JJR	Degree=Cmp	3	_	_	start_char=24|end_char=28
+5	time	time	NOUN	NN	Number=Sing	4	_	_	start_char=29|end_char=33
+6	on	on	ADP	IN	_	5	_	_	start_char=34|end_char=36
+7	base	base	NOUN	NN	Number=Sing	6	_	_	start_char=37|end_char=41
+8	leg	leg	NOUN	NN	Number=Sing	7	_	_	start_char=42|end_char=45
+9	than	than	SCONJ	IN	_	8	_	_	start_char=46|end_char=50
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=51|end_char=54
+11	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=55|end_char=57
+12	looking	look	VERB	VBG	VerbForm=Ger	11	_	_	start_char=58|end_char=65
+13	at	at	ADP	IN	_	12	_	_	start_char=66|end_char=68
+14	airplanes	airplane	NOUN	NNS	Number=Plur	13	_	_	start_char=69|end_char=78|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=78|end_char=79
+
+# text = So shove it, flat earth idiot.
+# sent_id = 23642
+1	So	so	ADV	RB	_	0	_	_	start_char=80|end_char=82
+2	shove	shove	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=83|end_char=88
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=89|end_char=91|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=91|end_char=92
+5	flat	flat	ADJ	JJ	Degree=Pos	4	_	_	start_char=93|end_char=97
+6	earth	earth	NOUN	NN	Number=Sing	5	_	_	start_char=98|end_char=103
+7	idiot	idiot	NOUN	NN	Number=Sing	6	_	_	start_char=104|end_char=109|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=109|end_char=110|SpaceAfter=No
+

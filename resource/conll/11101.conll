@@ -1,0 +1,35 @@
+# text = Your sister doesn't want a male instructor and neither do your parents.
+# sent_id = 23520
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=4
+2	sister	sister	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=11
+3-4	doesn't	_	_	_	_	_	_	_	start_char=12|end_char=19
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=16
+4	n't	not	PART	RB	_	3	_	_	start_char=16|end_char=19
+5	want	want	VERB	VB	VerbForm=Inf	4	_	_	start_char=20|end_char=24
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=25|end_char=26
+7	male	male	ADJ	JJ	Degree=Pos	6	_	_	start_char=27|end_char=31
+8	instructor	instructor	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=42
+9	and	and	CCONJ	CC	_	8	_	_	start_char=43|end_char=46
+10	neither	neither	CCONJ	CC	_	9	_	_	start_char=47|end_char=54
+11	do	do	VERB	VB	VerbForm=Fin	10	_	_	start_char=55|end_char=57
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	_	_	start_char=58|end_char=62
+13	parents	parent	NOUN	NNS	Number=Plur	12	_	_	start_char=63|end_char=70|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=70|end_char=71
+
+# text = Your stats mean fucking nothing.
+# sent_id = 23521
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=72|end_char=76
+2	stats	stat	NOUN	NNS	Number=Plur	1	_	_	start_char=77|end_char=82
+3	mean	mean	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=83|end_char=87
+4	fucking	fuck	VERB	VBG	VerbForm=Ger	3	_	_	start_char=88|end_char=95
+5	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	4	_	_	start_char=96|end_char=103|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=103|end_char=104
+
+# text = Just support your family dude
+# sent_id = 23522
+1	Just	just	ADV	RB	_	0	_	_	start_char=105|end_char=109
+2	support	support	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=110|end_char=117
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=118|end_char=122
+4	family	family	NOUN	NN	Number=Sing	3	_	_	start_char=123|end_char=129
+5	dude	dude	NOUN	NN	Number=Sing	4	_	_	start_char=130|end_char=134|SpaceAfter=No
+

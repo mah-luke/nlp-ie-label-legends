@@ -1,0 +1,24 @@
+# text = She filed the complaint against #Bahnhof - who are her parents?
+# sent_id = 11720
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	filed	file	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=9
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=10|end_char=13
+4	complaint	complaint	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=23
+5	against	against	ADP	IN	_	4	_	_	start_char=24|end_char=31
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=32|end_char=33|SpaceAfter=No
+7	Bahnhof	Bahnhof	PROPN	NNP	Number=Sing	6	_	_	start_char=33|end_char=40
+8	-	-	PUNCT	,	_	7	_	_	start_char=41|end_char=42
+9	who	who	PRON	WP	PronType=Rel	8	_	_	start_char=43|end_char=46
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=47|end_char=50
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=51|end_char=54
+12	parents	parent	NOUN	NNS	Number=Plur	11	_	_	start_char=55|end_char=62|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=62|end_char=63
+
+# text = #Sweden [URL]
+# sent_id = 11721
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=64|end_char=65|SpaceAfter=No
+2	Sweden	Sweden	PROPN	NNP	Number=Sing	1	_	_	start_char=65|end_char=71
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=72|end_char=73|SpaceAfter=No
+4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=73|end_char=76|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=76|end_char=77|SpaceAfter=No
+

@@ -1,0 +1,36 @@
+# text = Little girl: Dad I want to be a feminist when I grow up.
+# sent_id = 42434
+1	Little	Little	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=6
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=11|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=11|end_char=12
+4	Dad	dad	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=16
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=17|end_char=18
+6	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=19|end_char=23
+7	to	to	PART	TO	_	6	_	_	start_char=24|end_char=26
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=27|end_char=29
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=30|end_char=31
+10	feminist	feminist	NOUN	NN	Number=Sing	9	_	_	start_char=32|end_char=40
+11	when	when	ADV	WRB	PronType=Int	10	_	_	start_char=41|end_char=45
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=46|end_char=47
+13	grow	grow	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=48|end_char=52
+14	up	up	ADP	RP	_	13	_	_	start_char=53|end_char=55|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=55|end_char=56
+
+# text = Dad: Well, pick one honey, you can't do both.
+# sent_id = 42435
+1	Dad	dad	NOUN	NN	Number=Sing	0	_	_	start_char=57|end_char=60|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=60|end_char=61
+3	Well	well	INTJ	UH	_	2	_	_	start_char=62|end_char=66|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=66|end_char=67
+5	pick	pick	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=68|end_char=72
+6	one	one	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=73|end_char=76
+7	honey	honey	NOUN	NN	Number=Sing	6	_	_	start_char=77|end_char=82|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=82|end_char=83
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=84|end_char=87
+10-11	can't	_	_	_	_	_	_	_	start_char=88|end_char=93
+10	ca	can	AUX	MD	VerbForm=Fin	9	_	_	start_char=88|end_char=90
+11	n't	not	PART	RB	_	10	_	_	start_char=90|end_char=93
+12	do	do	VERB	VB	VerbForm=Inf	11	_	_	start_char=94|end_char=96
+13	both	both	DET	DT	_	12	_	_	start_char=97|end_char=101|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=101|end_char=102|SpaceAfter=No
+

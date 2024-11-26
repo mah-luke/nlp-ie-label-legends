@@ -1,0 +1,48 @@
+# text = Where are they?
+# sent_id = 30068
+1	Where	where	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=5
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=9
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=14|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = *Literally everywhere.*
+# sent_id = 30069
+1	*	*	PUNCT	NFP	_	0	_	_	start_char=16|end_char=17|SpaceAfter=No
+2	Literally	literally	ADV	RB	_	1	_	_	start_char=17|end_char=26
+3	everywhere	everywhere	ADV	RB	_	2	_	_	start_char=27|end_char=37|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=37|end_char=38|SpaceAfter=No
+5	*	*	PUNCT	NFP	_	4	_	_	start_char=38|end_char=39
+
+# text = It's men that perpetuate the myth that women can't rape men, not women.
+# sent_id = 30070
+1-2	It's	_	_	_	_	_	_	_	start_char=40|end_char=44
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=40|end_char=42
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=44
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=45|end_char=48
+4	that	that	PRON	WDT	PronType=Rel	3	_	_	start_char=49|end_char=53
+5	perpetuate	perpetuate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=54|end_char=64
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=65|end_char=68
+7	myth	myth	NOUN	NN	Number=Sing	6	_	_	start_char=69|end_char=73
+8	that	that	SCONJ	IN	_	7	_	_	start_char=74|end_char=78
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=79|end_char=84
+10-11	can't	_	_	_	_	_	_	_	start_char=85|end_char=90
+10	ca	can	AUX	MD	VerbForm=Fin	9	_	_	start_char=85|end_char=87
+11	n't	not	PART	RB	_	10	_	_	start_char=87|end_char=90
+12	rape	rape	VERB	VB	VerbForm=Inf	11	_	_	start_char=91|end_char=95
+13	men	man	NOUN	NNS	Number=Plur	12	_	_	start_char=96|end_char=99|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=99|end_char=100
+15	not	not	PART	RB	_	14	_	_	start_char=101|end_char=104
+16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=105|end_char=110|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=110|end_char=111
+
+# text = Stop blaming women for your inadequacies bud.
+# sent_id = 30071
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=112|end_char=116
+2	blaming	blame	VERB	VBG	VerbForm=Ger	1	_	_	start_char=117|end_char=124
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=125|end_char=130
+4	for	for	ADP	IN	_	3	_	_	start_char=131|end_char=134
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=135|end_char=139
+6	inadequacies	inadequacy	NOUN	NNS	Number=Plur	5	_	_	start_char=140|end_char=152
+7	bud	bud	NOUN	NN	Number=Sing	6	_	_	start_char=153|end_char=156|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=156|end_char=157|SpaceAfter=No
+

@@ -1,0 +1,38 @@
+# text = NO they can't do this.
+# sent_id = 51789
+1	NO	no	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=7
+3-4	can't	_	_	_	_	_	_	_	start_char=8|end_char=13
+3	ca	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=8|end_char=10
+4	n't	not	PART	RB	_	3	_	_	start_char=10|end_char=13
+5	do	do	VERB	VB	VerbForm=Inf	4	_	_	start_char=14|end_char=16
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=17|end_char=21|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=21|end_char=22
+
+# text = THE TREES AND SKIES AND WASTED CO2 EMISSIONS!
+# sent_id = 51790
+1	THE	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=23|end_char=26
+2	TREES	tree	NOUN	NNS	Number=Plur	1	_	_	start_char=27|end_char=32
+3	AND	and	CCONJ	CC	_	2	_	_	start_char=33|end_char=36
+4	SKIES	skies	NOUN	NNS	Number=Plur	3	_	_	start_char=37|end_char=42
+5	AND	and	CCONJ	CC	_	4	_	_	start_char=43|end_char=46
+6	WASTED	wasted	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=47|end_char=53
+7	CO2	CO2	NOUN	NN	Number=Sing	6	_	_	start_char=54|end_char=57
+8	EMISSIONS	emission	NOUN	NNS	Number=Plur	7	_	_	start_char=58|end_char=67|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=67|end_char=68
+
+# text = WHY!!!!!!
+# sent_id = 51791
+1	WHY	why	ADV	WRB	PronType=Int	0	_	_	start_char=69|end_char=72|SpaceAfter=No
+2	!!!!!!	!!!!!!	PUNCT	.	_	1	_	_	start_char=72|end_char=78
+
+# text = Because these idiots never plan ahead.
+# sent_id = 51792
+1	Because	because	SCONJ	IN	_	0	_	_	start_char=79|end_char=86
+2	these	this	DET	DT	Number=Plur|PronType=Dem	1	_	_	start_char=87|end_char=92
+3	idiots	idiot	NOUN	NNS	Number=Plur	2	_	_	start_char=93|end_char=99
+4	never	never	ADV	RB	_	3	_	_	start_char=100|end_char=105
+5	plan	plan	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=106|end_char=110
+6	ahead	ahead	ADV	RB	_	5	_	_	start_char=111|end_char=116|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=116|end_char=117|SpaceAfter=No
+

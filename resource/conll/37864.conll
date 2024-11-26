@@ -1,0 +1,45 @@
+# text = What a fantastic mother, wife and friend!
+# sent_id = 80950
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	fantastic	fantastic	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=16
+4	mother	mother	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=23|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=23|end_char=24
+6	wife	wife	NOUN	NN	Number=Sing	5	_	_	start_char=25|end_char=29
+7	and	and	CCONJ	CC	_	6	_	_	start_char=30|end_char=33
+8	friend	friend	NOUN	NN	Number=Sing	7	_	_	start_char=34|end_char=40|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=40|end_char=41
+
+# text = I'm sure she will live on in the lives of the children she saved.
+# sent_id = 80951
+1-2	I'm	_	_	_	_	_	_	_	start_char=42|end_char=45
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=42|end_char=43
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=43|end_char=45
+3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=46|end_char=50
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=51|end_char=54
+5	will	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=55|end_char=59
+6	live	live	VERB	VB	VerbForm=Inf	5	_	_	start_char=60|end_char=64
+7	on	on	ADP	RP	_	6	_	_	start_char=65|end_char=67
+8	in	in	ADP	IN	_	7	_	_	start_char=68|end_char=70
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=71|end_char=74
+10	lives	life	NOUN	NNS	Number=Plur	9	_	_	start_char=75|end_char=80
+11	of	of	ADP	IN	_	10	_	_	start_char=81|end_char=83
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=84|end_char=87
+13	children	child	NOUN	NNS	Number=Plur	12	_	_	start_char=88|end_char=96
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=97|end_char=100
+15	saved	save	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=101|end_char=106|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=106|end_char=107
+
+# text = What a legacy.
+# sent_id = 80952
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=108|end_char=112
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=113|end_char=114
+3	legacy	legacy	NOUN	NN	Number=Sing	2	_	_	start_char=115|end_char=121|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=121|end_char=122
+
+# text = [USER]
+# sent_id = 80953
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=123|end_char=124|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=124|end_char=128|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=128|end_char=129|SpaceAfter=No
+

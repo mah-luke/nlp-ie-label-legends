@@ -1,0 +1,81 @@
+# text = 1; name checks out.
+# sent_id = 17355
+1	1	1	NUM	CD	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	;	;	PUNCT	:	_	1	_	_	start_char=1|end_char=2
+3	name	name	NOUN	NN	Number=Sing	2	_	_	start_char=3|end_char=7
+4	checks	check	NOUN	NNS	Number=Plur	3	_	_	start_char=8|end_char=14
+5	out	out	ADP	RP	_	4	_	_	start_char=15|end_char=18|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=18|end_char=19
+
+# text = 2; don't generalize, I'm A and I don't 'just say "well I quit" to society'; I'm raising two daughters - full custody from age 12/14 3; you seem to be MRA - wrong sub.
+# sent_id = 17356
+1	2	2	NUM	LS	_	0	_	_	start_char=20|end_char=21|SpaceAfter=No
+2	;	;	PUNCT	:	_	1	_	_	start_char=21|end_char=22
+3-4	don't	_	_	_	_	_	_	_	start_char=23|end_char=28
+3	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=23|end_char=25
+4	n't	not	PART	RB	_	3	_	_	start_char=25|end_char=28
+5	generalize	generalize	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=29|end_char=39|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=39|end_char=40
+7-8	I'm	_	_	_	_	_	_	_	start_char=41|end_char=44
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=41|end_char=42
+8	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=42|end_char=44
+9	A	A	PROPN	NNP	Number=Sing	8	_	_	start_char=45|end_char=46
+10	and	and	CCONJ	CC	_	9	_	_	start_char=47|end_char=50
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=51|end_char=52
+12-13	don't	_	_	_	_	_	_	_	start_char=53|end_char=58
+12	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=53|end_char=55
+13	n't	not	PART	RB	_	12	_	_	start_char=55|end_char=58
+14	'	'	PUNCT	``	_	13	_	_	start_char=59|end_char=60|SpaceAfter=No
+15	just	just	ADV	RB	_	14	_	_	start_char=60|end_char=64
+16	say	say	VERB	VB	VerbForm=Inf	15	_	_	start_char=65|end_char=68
+17	"	"	PUNCT	``	_	16	_	_	start_char=69|end_char=70|SpaceAfter=No
+18	well	well	INTJ	UH	_	17	_	_	start_char=70|end_char=74
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	_	_	start_char=75|end_char=76
+20	quit	quit	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	_	_	start_char=77|end_char=81|SpaceAfter=No
+21	"	"	PUNCT	''	_	20	_	_	start_char=81|end_char=82
+22	to	to	ADP	IN	_	21	_	_	start_char=83|end_char=85
+23	society	society	NOUN	NN	Number=Sing	22	_	_	start_char=86|end_char=93|SpaceAfter=No
+24	'	'	PUNCT	''	_	23	_	_	start_char=93|end_char=94|SpaceAfter=No
+25	;	;	PUNCT	:	_	24	_	_	start_char=94|end_char=95
+26-27	I'm	_	_	_	_	_	_	_	start_char=96|end_char=99
+26	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	_	_	start_char=96|end_char=97
+27	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	_	_	start_char=97|end_char=99
+28	raising	raise	VERB	VBG	Tense=Pres|VerbForm=Part	27	_	_	start_char=100|end_char=107
+29	two	two	NUM	CD	NumForm=Word|NumType=Card	28	_	_	start_char=108|end_char=111
+30	daughters	daughter	NOUN	NNS	Number=Plur	29	_	_	start_char=112|end_char=121
+31	-	-	PUNCT	HYPH	_	30	_	_	start_char=122|end_char=123
+32	full	full	ADJ	JJ	Degree=Pos	31	_	_	start_char=124|end_char=128
+33	custody	custody	NOUN	NN	Number=Sing	32	_	_	start_char=129|end_char=136
+34	from	from	ADP	IN	_	33	_	_	start_char=137|end_char=141
+35	age	age	NOUN	NN	Number=Sing	34	_	_	start_char=142|end_char=145
+36	12	12	NUM	CD	NumForm=Digit|NumType=Card	35	_	_	start_char=146|end_char=148|SpaceAfter=No
+37	/	/	SYM	SYM	_	36	_	_	start_char=148|end_char=149|SpaceAfter=No
+38	14	14	NUM	CD	NumForm=Digit|NumType=Card	37	_	_	start_char=149|end_char=151
+39	3	3	NUM	CD	NumForm=Digit|NumType=Card	38	_	_	start_char=152|end_char=153|SpaceAfter=No
+40	;	;	PUNCT	,	_	39	_	_	start_char=153|end_char=154
+41	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	40	_	_	start_char=155|end_char=158
+42	seem	seem	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	41	_	_	start_char=159|end_char=163
+43	to	to	PART	TO	_	42	_	_	start_char=164|end_char=166
+44	be	be	AUX	VB	VerbForm=Inf	43	_	_	start_char=167|end_char=169
+45	MRA	MRA	PROPN	NNP	Number=Sing	44	_	_	start_char=170|end_char=173
+46	-	-	PUNCT	HYPH	_	45	_	_	start_char=174|end_char=175
+47	wrong	wrong	ADJ	JJ	Degree=Pos	46	_	_	start_char=176|end_char=181
+48	sub	sub	NOUN	NN	Number=Sing	47	_	_	start_char=182|end_char=185|SpaceAfter=No
+49	.	.	PUNCT	.	_	48	_	_	start_char=185|end_char=186
+
+# text = Thank you for your service, we need cannon fodders.
+# sent_id = 17357
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	start_char=187|end_char=192
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	start_char=193|end_char=196
+3	for	for	ADP	IN	_	2	_	_	start_char=197|end_char=200
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=201|end_char=205
+5	service	service	NOUN	NN	Number=Sing	4	_	_	start_char=206|end_char=213|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=213|end_char=214
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	_	_	start_char=215|end_char=217
+8	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=218|end_char=222
+9-10	cannon	_	_	_	_	_	_	_	start_char=223|end_char=229
+9	can	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=223|end_char=226
+10	non	non	ADV	RB	_	9	_	_	start_char=226|end_char=229
+11	fodders	fodder	NOUN	NNS	Number=Plur	10	_	_	start_char=230|end_char=237|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=237|end_char=238|SpaceAfter=No
+

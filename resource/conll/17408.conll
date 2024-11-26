@@ -1,0 +1,29 @@
+# text = Lavanna has been gone for a while.
+# sent_id = 37417
+1	Lavanna	Lavanna	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=11
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=12|end_char=16
+4	gone	go	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=17|end_char=21
+5	for	for	ADP	IN	_	4	_	_	start_char=22|end_char=25
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=26|end_char=27
+7	while	while	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=33|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=33|end_char=34
+
+# text = No one has any idea why she left.[USER] [USER]
+# sent_id = 37418
+1	No	no	DET	DT	_	0	_	_	start_char=35|end_char=37
+2	one	one	PRON	NN	Number=Sing|PronType=Neg	1	_	_	start_char=38|end_char=41
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=42|end_char=45
+4	any	any	DET	DT	_	3	_	_	start_char=46|end_char=49
+5	idea	idea	NOUN	NN	Number=Sing	4	_	_	start_char=50|end_char=54
+6	why	why	ADV	WRB	PronType=Rel	5	_	_	start_char=55|end_char=58
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=59|end_char=62
+8	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=63|end_char=67|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=67|end_char=68|SpaceAfter=No
+10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=68|end_char=69|SpaceAfter=No
+11	USER	user	NOUN	NN	Number=Sing	10	_	_	start_char=69|end_char=73|SpaceAfter=No
+12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=73|end_char=74
+13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=75|end_char=76|SpaceAfter=No
+14	USER	user	NOUN	NN	Number=Sing	13	_	_	start_char=76|end_char=80|SpaceAfter=No
+15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=80|end_char=81|SpaceAfter=No
+

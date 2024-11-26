@@ -1,0 +1,75 @@
+# text = Amy, I muted him days ago.
+# sent_id = 47436
+1	Amy	Amy	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=5|end_char=6
+4	muted	mute	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=7|end_char=12
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=13|end_char=16
+6	days	day	NOUN	NNS	Number=Plur	5	_	_	start_char=17|end_char=21
+7	ago	ago	ADV	RB	_	6	_	_	start_char=22|end_char=25|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=25|end_char=26
+
+# text = There was no point in seeing his silliness.
+# sent_id = 47437
+1	There	there	PRON	EX	_	0	_	_	start_char=27|end_char=32
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=33|end_char=36
+3	no	no	DET	DT	_	2	_	_	start_char=37|end_char=39
+4	point	point	NOUN	NN	Number=Sing	3	_	_	start_char=40|end_char=45
+5	in	in	SCONJ	IN	_	4	_	_	start_char=46|end_char=48
+6	seeing	see	VERB	VBG	VerbForm=Ger	5	_	_	start_char=49|end_char=55
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=56|end_char=59
+8	silliness	silliness	NOUN	NN	Number=Sing	7	_	_	start_char=60|end_char=69|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=69|end_char=70
+
+# text = I also complimented him on being my first non-racist mute.
+# sent_id = 47438
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=71|end_char=72
+2	also	also	ADV	RB	_	1	_	_	start_char=73|end_char=77
+3	complimented	compliment	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=78|end_char=90
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=91|end_char=94
+5	on	on	SCONJ	IN	_	4	_	_	start_char=95|end_char=97
+6	being	be	AUX	VBG	VerbForm=Ger	5	_	_	start_char=98|end_char=103
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=104|end_char=106
+8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	_	_	start_char=107|end_char=112
+9	non-racist	non-racist	ADJ	JJ	Degree=Pos	8	_	_	start_char=113|end_char=123
+10	mute	mute	NOUN	NN	Number=Sing	9	_	_	start_char=124|end_char=128|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=128|end_char=129
+
+# text = He's an idiot, with delusions of grandeur and persecution.
+# sent_id = 47439
+1-2	He's	_	_	_	_	_	_	_	start_char=130|end_char=134
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=130|end_char=132
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=132|end_char=134
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=135|end_char=137
+4	idiot	idiot	NOUN	NN	Number=Sing	3	_	_	start_char=138|end_char=143|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=143|end_char=144
+6	with	with	ADP	IN	_	5	_	_	start_char=145|end_char=149
+7	delusions	delusion	NOUN	NNS	Number=Plur	6	_	_	start_char=150|end_char=159
+8	of	of	ADP	IN	_	7	_	_	start_char=160|end_char=162
+9	grandeur	grandeur	NOUN	NN	Number=Sing	8	_	_	start_char=163|end_char=171
+10	and	and	CCONJ	CC	_	9	_	_	start_char=172|end_char=175
+11	persecution	persecution	NOUN	NN	Number=Sing	10	_	_	start_char=176|end_char=187|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=187|end_char=188
+
+# text = Just mute him and call it good.
+# sent_id = 47440
+1	Just	just	ADV	RB	_	0	_	_	start_char=189|end_char=193
+2	mute	mute	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=194|end_char=198
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=199|end_char=202
+4	and	and	CCONJ	CC	_	3	_	_	start_char=203|end_char=206
+5	call	call	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=207|end_char=211
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=212|end_char=214
+7	good	good	ADJ	JJ	Degree=Pos	6	_	_	start_char=215|end_char=219|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=219|end_char=220
+
+# text = You'll be glad you did.
+# sent_id = 47441
+1-2	You'll	_	_	_	_	_	_	_	start_char=221|end_char=227
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=221|end_char=224
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=224|end_char=227
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=228|end_char=230
+4	glad	glad	ADJ	JJ	Degree=Pos	3	_	_	start_char=231|end_char=235
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=236|end_char=239
+6	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	_	_	start_char=240|end_char=243|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=243|end_char=244|SpaceAfter=No
+

@@ -1,0 +1,53 @@
+# text = Not close at all.
+# sent_id = 68647
+1	Not	not	PART	RB	_	0	_	_	start_char=0|end_char=3
+2	close	close	ADV	RB	Degree=Pos	1	_	_	start_char=4|end_char=9
+3	at	at	ADP	IN	_	2	_	_	start_char=10|end_char=12
+4	all	all	DET	DT	_	3	_	_	start_char=13|end_char=16|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=16|end_char=17
+
+# text = No evidence it didn’t happen.
+# sent_id = 68648
+1	No	no	DET	DT	_	0	_	_	start_char=18|end_char=20
+2	evidence	evidence	NOUN	NN	Number=Sing	1	_	_	start_char=21|end_char=29
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=30|end_char=32
+4-5	didn’t	_	_	_	_	_	_	_	start_char=33|end_char=39
+4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=33|end_char=36
+5	n’t	not	PART	RB	_	4	_	_	start_char=36|end_char=39
+6	happen	happen	VERB	VB	VerbForm=Inf	5	_	_	start_char=40|end_char=46|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=46|end_char=47
+
+# text = (Of course it DIDN’T happen) but you could never prove it didn’t.
+# sent_id = 68649
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=48|end_char=49|SpaceAfter=No
+2	Of	of	ADV	IN	_	1	_	_	start_char=49|end_char=51
+3	course	course	NOUN	NN	Number=Sing	2	_	_	start_char=52|end_char=58
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=59|end_char=61
+5-6	DIDN’T	_	_	_	_	_	_	_	start_char=62|end_char=68
+5	DID	did	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=62|end_char=65
+6	N’T	not	PART	RB	_	5	_	_	start_char=65|end_char=68
+7	happen	happen	VERB	VB	VerbForm=Inf	6	_	_	start_char=69|end_char=75|SpaceAfter=No
+8	)	)	PUNCT	-RRB-	_	7	_	_	start_char=75|end_char=76
+9	but	but	CCONJ	CC	_	8	_	_	start_char=77|end_char=80
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=81|end_char=84
+11	could	could	AUX	MD	VerbForm=Fin	10	_	_	start_char=85|end_char=90
+12	never	never	ADV	RB	_	11	_	_	start_char=91|end_char=96
+13	prove	prove	VERB	VB	VerbForm=Inf	12	_	_	start_char=97|end_char=102
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=103|end_char=105
+15-16	didn’t	_	_	_	_	_	_	_	start_char=106|end_char=112|SpaceAfter=No
+15	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=106|end_char=109
+16	n’t	not	PART	RB	_	15	_	_	start_char=109|end_char=112
+17	.	.	PUNCT	.	_	16	_	_	start_char=112|end_char=113
+
+# text = Unless she is dumb enough to admit it.
+# sent_id = 68650
+1	Unless	unless	SCONJ	IN	_	0	_	_	start_char=114|end_char=120
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=121|end_char=124
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=125|end_char=127
+4	dumb	dumb	ADJ	JJ	Degree=Pos	3	_	_	start_char=128|end_char=132
+5	enough	enough	ADV	RB	_	4	_	_	start_char=133|end_char=139
+6	to	to	PART	TO	_	5	_	_	start_char=140|end_char=142
+7	admit	admit	VERB	VB	VerbForm=Inf	6	_	_	start_char=143|end_char=148
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=149|end_char=151|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=151|end_char=152|SpaceAfter=No
+

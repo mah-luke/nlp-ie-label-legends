@@ -1,0 +1,42 @@
+# text = Ask her.
+# sent_id = 39015
+1	Ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=4|end_char=7|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=7|end_char=8
+
+# text = Thats literally the only way you'll know.
+# sent_id = 39016
+1-2	Thats	_	_	_	_	_	_	_	start_char=9|end_char=14
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=9|end_char=13
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=13|end_char=14
+3	literally	literally	ADV	RB	_	2	_	_	start_char=15|end_char=24
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=25|end_char=28
+5	only	only	ADJ	JJ	Degree=Pos	4	_	_	start_char=29|end_char=33
+6	way	way	NOUN	NN	Number=Sing	5	_	_	start_char=34|end_char=37
+7-8	you'll	_	_	_	_	_	_	_	start_char=38|end_char=44
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=38|end_char=41
+8	'll	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=41|end_char=44
+9	know	know	VERB	VB	VerbForm=Inf	8	_	_	start_char=45|end_char=49|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=49|end_char=50
+
+# text = (Unless you see she's holding hands with him and/or kissing him.)
+# sent_id = 39017
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=51|end_char=52|SpaceAfter=No
+2	Unless	unless	SCONJ	IN	_	1	_	_	start_char=52|end_char=58
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=59|end_char=62
+4	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=63|end_char=66
+5-6	she's	_	_	_	_	_	_	_	start_char=67|end_char=72
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=67|end_char=70
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=70|end_char=72
+7	holding	hold	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=73|end_char=80
+8	hands	hand	NOUN	NNS	Number=Plur	7	_	_	start_char=81|end_char=86
+9	with	with	ADP	IN	_	8	_	_	start_char=87|end_char=91
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=92|end_char=95
+11	and	and	CCONJ	CC	_	10	_	_	start_char=96|end_char=99|SpaceAfter=No
+12	/	/	SYM	,	_	11	_	_	start_char=99|end_char=100|SpaceAfter=No
+13	or	or	CCONJ	CC	_	12	_	_	start_char=100|end_char=102
+14	kissing	kiss	VERB	VBG	VerbForm=Ger	13	_	_	start_char=103|end_char=110
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=111|end_char=114|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=114|end_char=115|SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	16	_	_	start_char=115|end_char=116|SpaceAfter=No
+

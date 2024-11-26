@@ -1,0 +1,50 @@
+# text = Do you want answers or not?
+# sent_id = 46275
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	want	want	VERB	VB	VerbForm=Inf	2	_	_	start_char=7|end_char=11
+4	answers	answer	NOUN	NNS	Number=Plur	3	_	_	start_char=12|end_char=19
+5	or	or	CCONJ	CC	_	4	_	_	start_char=20|end_char=22
+6	not	not	PART	RB	_	5	_	_	start_char=23|end_char=26|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=26|end_char=27
+
+# text = You asked trp and we answered.
+# sent_id = 46276
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=28|end_char=31
+2	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=32|end_char=37
+3	trp	trp	NOUN	NN	Number=Sing	2	_	_	start_char=38|end_char=41
+4	and	and	CCONJ	CC	_	3	_	_	start_char=42|end_char=45
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=46|end_char=48
+6	answered	answer	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=49|end_char=57|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=57|end_char=58
+
+# text = Just because you don't like the answer doesn't make it false - that's a woman's line of thinking.
+# sent_id = 46277
+1	Just	just	ADV	RB	_	0	_	_	start_char=59|end_char=63
+2	because	because	SCONJ	IN	_	1	_	_	start_char=64|end_char=71
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=72|end_char=75
+4-5	don't	_	_	_	_	_	_	_	start_char=76|end_char=81
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=76|end_char=78
+5	n't	not	PART	RB	_	4	_	_	start_char=78|end_char=81
+6	like	like	VERB	VB	VerbForm=Inf	5	_	_	start_char=82|end_char=86
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=87|end_char=90
+8	answer	answer	NOUN	NN	Number=Sing	7	_	_	start_char=91|end_char=97
+9-10	doesn't	_	_	_	_	_	_	_	start_char=98|end_char=105
+9	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=98|end_char=102
+10	n't	not	PART	RB	_	9	_	_	start_char=102|end_char=105
+11	make	make	VERB	VB	VerbForm=Inf	10	_	_	start_char=106|end_char=110
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=111|end_char=113
+13	false	false	ADJ	JJ	Degree=Pos	12	_	_	start_char=114|end_char=119
+14	-	-	PUNCT	,	_	13	_	_	start_char=120|end_char=121
+15-16	that's	_	_	_	_	_	_	_	start_char=122|end_char=128
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	14	_	_	start_char=122|end_char=126
+16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=126|end_char=128
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=129|end_char=130
+18-19	woman's	_	_	_	_	_	_	_	start_char=131|end_char=138
+18	woman	woman	NOUN	NN	Number=Sing	17	_	_	start_char=131|end_char=136
+19	's	's	PART	POS	_	18	_	_	start_char=136|end_char=138
+20	line	line	NOUN	NN	Number=Sing	19	_	_	start_char=139|end_char=143
+21	of	of	ADP	IN	_	20	_	_	start_char=144|end_char=146
+22	thinking	thinking	NOUN	NN	Number=Sing	21	_	_	start_char=147|end_char=155|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=155|end_char=156|SpaceAfter=No
+

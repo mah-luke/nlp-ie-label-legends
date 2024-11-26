@@ -1,0 +1,64 @@
+# text = You are better off.
+# sent_id = 115061
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	better	good	ADJ	JJR	Degree=Cmp	2	_	_	start_char=8|end_char=14
+4	off	off	ADP	RP	_	3	_	_	start_char=15|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = I don't worry about it because I never ate beef.
+# sent_id = 115062
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=20|end_char=21
+2-3	don't	_	_	_	_	_	_	_	start_char=22|end_char=27
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=24
+3	n't	not	PART	RB	_	2	_	_	start_char=24|end_char=27
+4	worry	worry	VERB	VB	VerbForm=Inf	3	_	_	start_char=28|end_char=33
+5	about	about	ADP	IN	_	4	_	_	start_char=34|end_char=39
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=40|end_char=42
+7	because	because	SCONJ	IN	_	6	_	_	start_char=43|end_char=50
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=51|end_char=52
+9	never	never	ADV	RB	_	8	_	_	start_char=53|end_char=58
+10	ate	eat	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	_	_	start_char=59|end_char=62
+11	beef	beef	NOUN	NN	Number=Sing	10	_	_	start_char=63|end_char=67|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=67|end_char=68
+
+# text = I was one of those strange people born that couldn't eat anything with a face.
+# sent_id = 115063
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=69|end_char=70
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=71|end_char=74
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	2	_	_	start_char=75|end_char=78
+4	of	of	ADP	IN	_	3	_	_	start_char=79|end_char=81
+5	those	that	DET	DT	Number=Plur|PronType=Dem	4	_	_	start_char=82|end_char=87
+6	strange	strange	ADJ	JJ	Degree=Pos	5	_	_	start_char=88|end_char=95
+7	people	person	NOUN	NNS	Number=Plur	6	_	_	start_char=96|end_char=102
+8	born	bear	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=103|end_char=107
+9	that	that	PRON	WDT	PronType=Rel	8	_	_	start_char=108|end_char=112
+10-11	couldn't	_	_	_	_	_	_	_	start_char=113|end_char=121
+10	could	could	AUX	MD	VerbForm=Fin	9	_	_	start_char=113|end_char=118
+11	n't	not	PART	RB	_	10	_	_	start_char=118|end_char=121
+12	eat	eat	VERB	VB	VerbForm=Inf	11	_	_	start_char=122|end_char=125
+13	anything	anything	PRON	NN	Number=Sing|PronType=Ind	12	_	_	start_char=126|end_char=134
+14	with	with	ADP	IN	_	13	_	_	start_char=135|end_char=139
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=140|end_char=141
+16	face	face	NOUN	NN	Number=Sing	15	_	_	start_char=142|end_char=146|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=146|end_char=147
+
+# text = My mom used to whup my butt but I just couldn't do it.
+# sent_id = 115064
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=148|end_char=150
+2	mom	mom	NOUN	NN	Number=Sing	1	_	_	start_char=151|end_char=154
+3	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=155|end_char=159
+4	to	to	PART	TO	_	3	_	_	start_char=160|end_char=162
+5	whup	whup	VERB	VB	VerbForm=Inf	4	_	_	start_char=163|end_char=167
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=168|end_char=170
+7	butt	butt	NOUN	NN	Number=Sing	6	_	_	start_char=171|end_char=175
+8	but	but	CCONJ	CC	_	7	_	_	start_char=176|end_char=179
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=180|end_char=181
+10	just	just	ADV	RB	_	9	_	_	start_char=182|end_char=186
+11-12	couldn't	_	_	_	_	_	_	_	start_char=187|end_char=195
+11	could	could	AUX	MD	VerbForm=Fin	10	_	_	start_char=187|end_char=192
+12	n't	not	PART	RB	_	11	_	_	start_char=192|end_char=195
+13	do	do	VERB	VB	VerbForm=Inf	12	_	_	start_char=196|end_char=198
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=199|end_char=201|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=201|end_char=202|SpaceAfter=No
+

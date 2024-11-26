@@ -1,0 +1,37 @@
+# text = Thats the most boring shit ever.
+# sent_id = 39819
+1-2	Thats	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=5
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=6|end_char=9
+4	most	most	ADV	RBS	Degree=Sup	3	_	_	start_char=10|end_char=14
+5	boring	boring	ADJ	JJ	Degree=Pos	4	_	_	start_char=15|end_char=21
+6	shit	shit	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=26
+7	ever	ever	ADV	RB	_	6	_	_	start_char=27|end_char=31|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=31|end_char=32
+
+# text = No risk, no mind games.
+# sent_id = 39820
+1	No	no	DET	DT	_	0	_	_	start_char=33|end_char=35
+2	risk	risk	NOUN	NN	Number=Sing	1	_	_	start_char=36|end_char=40|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=40|end_char=41
+4	no	no	DET	DT	_	3	_	_	start_char=42|end_char=44
+5	mind	mind	NOUN	NN	Number=Sing	4	_	_	start_char=45|end_char=49
+6	games	game	NOUN	NNS	Number=Plur	5	_	_	start_char=50|end_char=55|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=55|end_char=56
+
+# text = I fucking hate it when women just blurt that shit out.
+# sent_id = 39821
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=57|end_char=58
+2	fucking	fucking	ADV	RB	_	1	_	_	start_char=59|end_char=66
+3	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=67|end_char=71
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=72|end_char=74
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=75|end_char=79
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=80|end_char=85
+7	just	just	ADV	RB	_	6	_	_	start_char=86|end_char=90
+8	blurt	blurt	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=91|end_char=96
+9	that	that	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=97|end_char=101
+10	shit	shit	NOUN	NN	Number=Sing	9	_	_	start_char=102|end_char=106
+11	out	out	ADP	RP	_	10	_	_	start_char=107|end_char=110|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=110|end_char=111|SpaceAfter=No
+

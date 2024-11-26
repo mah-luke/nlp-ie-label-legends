@@ -1,0 +1,64 @@
+# text = Even if the law favored men and women weren’t AWALT I still wouldn’t do it.
+# sent_id = 100352
+1	Even	even	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	if	if	SCONJ	IN	_	1	_	_	start_char=5|end_char=7
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=8|end_char=11
+4	law	law	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=15
+5	favored	favor	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=16|end_char=23
+6	men	man	NOUN	NNS	Number=Plur	5	_	_	start_char=24|end_char=27
+7	and	and	CCONJ	CC	_	6	_	_	start_char=28|end_char=31
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=32|end_char=37
+9-10	weren’t	_	_	_	_	_	_	_	start_char=38|end_char=45
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=38|end_char=42
+10	n’t	not	PART	RB	_	9	_	_	start_char=42|end_char=45
+11	AWALT	awalt	ADV	RB	_	10	_	_	start_char=46|end_char=51
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=52|end_char=53
+13	still	still	ADV	RB	_	12	_	_	start_char=54|end_char=59
+14-15	wouldn’t	_	_	_	_	_	_	_	start_char=60|end_char=68
+14	would	would	AUX	MD	VerbForm=Fin	13	_	_	start_char=60|end_char=65
+15	n’t	not	PART	RB	_	14	_	_	start_char=65|end_char=68
+16	do	do	VERB	VB	VerbForm=Inf	15	_	_	start_char=69|end_char=71
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=72|end_char=74|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=74|end_char=75
+
+# text = Truth is people change.
+# sent_id = 100353
+1	Truth	truth	NOUN	NN	Number=Sing	0	_	_	start_char=76|end_char=81
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=82|end_char=84
+3	people	person	NOUN	NNS	Number=Plur	2	_	_	start_char=85|end_char=91
+4	change	change	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=92|end_char=98|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=98|end_char=99
+
+# text = That could be her or me.
+# sent_id = 100354
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=100|end_char=104
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=105|end_char=110
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=111|end_char=113
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=114|end_char=117
+5	or	or	CCONJ	CC	_	4	_	_	start_char=118|end_char=120
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=121|end_char=123|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=123|end_char=124
+
+# text = To say early in your life that you’re gonna be with someone forever seems unrealistic.
+# sent_id = 100355
+1	To	to	PART	TO	_	0	_	_	start_char=125|end_char=127
+2	say	say	VERB	VB	VerbForm=Inf	1	_	_	start_char=128|end_char=131
+3	early	early	ADV	RB	Degree=Pos	2	_	_	start_char=132|end_char=137
+4	in	in	ADP	IN	_	3	_	_	start_char=138|end_char=140
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=141|end_char=145
+6	life	life	NOUN	NN	Number=Sing	5	_	_	start_char=146|end_char=150
+7	that	that	PRON	WDT	PronType=Rel	6	_	_	start_char=151|end_char=155
+8-9	you’re	_	_	_	_	_	_	_	start_char=156|end_char=162
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=156|end_char=159
+9	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=159|end_char=162
+10-11	gonna	_	_	_	_	_	_	_	start_char=163|end_char=168
+10	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=163|end_char=166
+11	na	to	PART	TO	_	10	_	_	start_char=166|end_char=168
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	start_char=169|end_char=171
+13	with	with	ADP	IN	_	12	_	_	start_char=172|end_char=176
+14	someone	someone	PRON	NN	Number=Sing|PronType=Ind	13	_	_	start_char=177|end_char=184
+15	forever	forever	ADV	RB	_	14	_	_	start_char=185|end_char=192
+16	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=193|end_char=198
+17	unrealistic	unrealistic	ADJ	JJ	Degree=Pos	16	_	_	start_char=199|end_char=210|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=210|end_char=211|SpaceAfter=No
+

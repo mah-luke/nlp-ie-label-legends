@@ -1,0 +1,27 @@
+# text = [USER]
+# sent_id = 9263
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = And they made fun of Sarah Palin when she aptly referred to them as "Death Panels"
+# sent_id = 9264
+1	And	and	CCONJ	CC	_	0	_	_	start_char=7|end_char=10
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=11|end_char=15
+3	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=16|end_char=20
+4	fun	fun	NOUN	NN	Number=Sing	3	_	_	start_char=21|end_char=24
+5	of	of	ADP	IN	_	4	_	_	start_char=25|end_char=27
+6	Sarah	Sarah	PROPN	NNP	Number=Sing	5	_	_	start_char=28|end_char=33
+7	Palin	Palin	PROPN	NNP	Number=Sing	6	_	_	start_char=34|end_char=39
+8	when	when	ADV	WRB	PronType=Int	7	_	_	start_char=40|end_char=44
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=45|end_char=48
+10	aptly	aptly	ADV	RB	_	9	_	_	start_char=49|end_char=54
+11	referred	refer	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=55|end_char=63
+12	to	to	ADP	IN	_	11	_	_	start_char=64|end_char=66
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=67|end_char=71
+14	as	as	ADP	IN	_	13	_	_	start_char=72|end_char=74
+15	"	"	PUNCT	``	_	14	_	_	start_char=75|end_char=76|SpaceAfter=No
+16	Death	death	NOUN	NN	Number=Sing	15	_	_	start_char=76|end_char=81
+17	Panels	panel	NOUN	NNS	Number=Plur	16	_	_	start_char=82|end_char=88|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=88|end_char=89|SpaceAfter=No
+

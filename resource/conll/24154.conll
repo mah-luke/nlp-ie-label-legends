@@ -1,0 +1,66 @@
+# text = So, he's leaving her to her own resources if there's an arrest.
+# sent_id = 51783
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3-4	he's	_	_	_	_	_	_	_	start_char=4|end_char=8
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=4|end_char=6
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=6|end_char=8
+5	leaving	leave	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=9|end_char=16
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=17|end_char=20
+7	to	to	ADP	IN	_	6	_	_	start_char=21|end_char=23
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=24|end_char=27
+9	own	own	ADJ	JJ	Degree=Pos	8	_	_	start_char=28|end_char=31
+10	resources	resource	NOUN	NNS	Number=Plur	9	_	_	start_char=32|end_char=41
+11	if	if	SCONJ	IN	_	10	_	_	start_char=42|end_char=44
+12-13	there's	_	_	_	_	_	_	_	start_char=45|end_char=52
+12	there	there	PRON	EX	_	11	_	_	start_char=45|end_char=50
+13	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=50|end_char=52
+14	an	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=53|end_char=55
+15	arrest	arrest	NOUN	NN	Number=Sing	14	_	_	start_char=56|end_char=62|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=62|end_char=63
+
+# text = Or will he continue the legacy of the Clinton body count and we'll find she's committed suicide with a double tap to the back of the head?
+# sent_id = 51784
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=64|end_char=66
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=67|end_char=71
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=72|end_char=74
+4	continue	continue	VERB	VB	VerbForm=Inf	3	_	_	start_char=75|end_char=83
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=84|end_char=87
+6	legacy	legacy	NOUN	NN	Number=Sing	5	_	_	start_char=88|end_char=94
+7	of	of	ADP	IN	_	6	_	_	start_char=95|end_char=97
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=98|end_char=101
+9	Clinton	Clinton	PROPN	NNP	Number=Sing	8	_	_	start_char=102|end_char=109
+10	body	body	NOUN	NN	Number=Sing	9	_	_	start_char=110|end_char=114
+11	count	count	NOUN	NN	Number=Sing	10	_	_	start_char=115|end_char=120
+12	and	and	CCONJ	CC	_	11	_	_	start_char=121|end_char=124
+13-14	we'll	_	_	_	_	_	_	_	start_char=125|end_char=130
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	_	_	start_char=125|end_char=127
+14	'll	will	AUX	MD	VerbForm=Fin	13	_	_	start_char=127|end_char=130
+15	find	find	VERB	VB	VerbForm=Inf	14	_	_	start_char=131|end_char=135
+16-17	she's	_	_	_	_	_	_	_	start_char=136|end_char=141
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=136|end_char=139
+17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=139|end_char=141
+18	committed	commit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	_	_	start_char=142|end_char=151
+19	suicide	suicide	NOUN	NN	Number=Sing	18	_	_	start_char=152|end_char=159
+20	with	with	ADP	IN	_	19	_	_	start_char=160|end_char=164
+21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=165|end_char=166
+22	double	double	ADJ	JJ	Degree=Pos	21	_	_	start_char=167|end_char=173
+23	tap	tap	NOUN	NN	Number=Sing	22	_	_	start_char=174|end_char=177
+24	to	to	ADP	IN	_	23	_	_	start_char=178|end_char=180
+25	the	the	DET	DT	Definite=Def|PronType=Art	24	_	_	start_char=181|end_char=184
+26	back	back	NOUN	NN	Number=Sing	25	_	_	start_char=185|end_char=189
+27	of	of	ADP	IN	_	26	_	_	start_char=190|end_char=192
+28	the	the	DET	DT	Definite=Def|PronType=Art	27	_	_	start_char=193|end_char=196
+29	head	head	NOUN	NN	Number=Sing	28	_	_	start_char=197|end_char=201|SpaceAfter=No
+30	?	?	PUNCT	.	_	29	_	_	start_char=201|end_char=202
+
+# text = Either way, what a guy!
+# sent_id = 51785
+1	Either	either	DET	DT	_	0	_	_	start_char=203|end_char=209
+2	way	way	NOUN	NN	Number=Sing	1	_	_	start_char=210|end_char=213|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=213|end_char=214
+4	what	what	PRON	WP	PronType=Int	3	_	_	start_char=215|end_char=219
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=220|end_char=221
+6	guy	guy	NOUN	NN	Number=Sing	5	_	_	start_char=222|end_char=225|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=225|end_char=226|SpaceAfter=No
+

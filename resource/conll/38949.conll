@@ -1,0 +1,63 @@
+# text = There were some people that were outraged at out outraged some people were over this issue.
+# sent_id = 83253
+1	There	there	PRON	EX	_	0	_	_	start_char=0|end_char=5
+2	were	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=6|end_char=10
+3	some	some	DET	DT	_	2	_	_	start_char=11|end_char=15
+4	people	person	NOUN	NNS	Number=Plur	3	_	_	start_char=16|end_char=22
+5	that	that	PRON	WDT	PronType=Rel	4	_	_	start_char=23|end_char=27
+6	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=28|end_char=32
+7	outraged	outrage	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=33|end_char=41
+8	at	at	ADP	IN	_	7	_	_	start_char=42|end_char=44
+9	out	out	ADP	RP	_	8	_	_	start_char=45|end_char=48
+10	outraged	outrage	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=49|end_char=57
+11	some	some	DET	DT	_	10	_	_	start_char=58|end_char=62
+12	people	person	NOUN	NNS	Number=Plur	11	_	_	start_char=63|end_char=69
+13	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=70|end_char=74
+14	over	over	ADP	IN	_	13	_	_	start_char=75|end_char=79
+15	this	this	DET	DT	Number=Sing|PronType=Dem	14	_	_	start_char=80|end_char=84
+16	issue	issue	NOUN	NN	Number=Sing	15	_	_	start_char=85|end_char=90|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=90|end_char=91
+
+# text = The guy asked a gal out.
+# sent_id = 83254
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=92|end_char=95
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=96|end_char=99
+3	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=100|end_char=105
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=106|end_char=107
+5	gal	gal	NOUN	NN	Number=Sing	4	_	_	start_char=108|end_char=111
+6	out	out	ADP	RP	_	5	_	_	start_char=112|end_char=115|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=115|end_char=116
+
+# text = He doesn't hate women, and he's only "sexist" to the extent that he's only interested in asking the ladies out.
+# sent_id = 83255
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=117|end_char=119
+2-3	doesn't	_	_	_	_	_	_	_	start_char=120|end_char=127
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=120|end_char=124
+3	n't	not	PART	RB	_	2	_	_	start_char=124|end_char=127
+4	hate	hate	VERB	VB	VerbForm=Inf	3	_	_	start_char=128|end_char=132
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=133|end_char=138|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=138|end_char=139
+7	and	and	CCONJ	CC	_	6	_	_	start_char=140|end_char=143
+8-9	he's	_	_	_	_	_	_	_	start_char=144|end_char=148
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=144|end_char=146
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=146|end_char=148
+10	only	only	ADV	RB	_	9	_	_	start_char=149|end_char=153
+11	"	"	PUNCT	``	_	10	_	_	start_char=154|end_char=155|SpaceAfter=No
+12	sexist	sexist	ADJ	JJ	Degree=Pos	11	_	_	start_char=155|end_char=161|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=161|end_char=162
+14	to	to	ADP	IN	_	13	_	_	start_char=163|end_char=165
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=166|end_char=169
+16	extent	extent	NOUN	NN	Number=Sing	15	_	_	start_char=170|end_char=176
+17	that	that	SCONJ	IN	_	16	_	_	start_char=177|end_char=181
+18-19	he's	_	_	_	_	_	_	_	start_char=182|end_char=186
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=182|end_char=184
+19	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=184|end_char=186
+20	only	only	ADV	RB	_	19	_	_	start_char=187|end_char=191
+21	interested	interested	ADJ	JJ	Degree=Pos	20	_	_	start_char=192|end_char=202
+22	in	in	SCONJ	IN	_	21	_	_	start_char=203|end_char=205
+23	asking	ask	VERB	VBG	VerbForm=Ger	22	_	_	start_char=206|end_char=212
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	start_char=213|end_char=216
+25	ladies	lady	NOUN	NNS	Number=Plur	24	_	_	start_char=217|end_char=223
+26	out	out	ADP	RP	_	25	_	_	start_char=224|end_char=227|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=227|end_char=228|SpaceAfter=No
+

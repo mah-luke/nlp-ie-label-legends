@@ -1,0 +1,64 @@
+# text = please dont say your some sociopath like sherlock lol.
+# sent_id = 52887
+1	please	please	INTJ	UH	_	0	_	_	start_char=0|end_char=6
+2-3	dont	_	_	_	_	_	_	_	start_char=7|end_char=11
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=7|end_char=9
+3	nt	not	PART	RB	_	2	_	_	start_char=9|end_char=11
+4	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=12|end_char=15
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=16|end_char=20
+6	some	some	DET	DT	_	5	_	_	start_char=21|end_char=25
+7	sociopath	sociopath	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=35
+8	like	like	ADP	IN	_	7	_	_	start_char=36|end_char=40
+9	sherlock	sherlock	NOUN	NN	Number=Sing	8	_	_	start_char=41|end_char=49
+10	lol	lol	INTJ	UH	_	9	_	_	start_char=50|end_char=53|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=53|end_char=54
+
+# text = cold water showers are actually good for you at times.
+# sent_id = 52888
+1	cold	cold	ADJ	JJ	Degree=Pos	0	_	_	start_char=55|end_char=59
+2	water	water	NOUN	NN	Number=Sing	1	_	_	start_char=60|end_char=65
+3	showers	shower	NOUN	NNS	Number=Plur	2	_	_	start_char=66|end_char=73
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=74|end_char=77
+5	actually	actually	ADV	RB	_	4	_	_	start_char=78|end_char=86
+6	good	good	ADJ	JJ	Degree=Pos	5	_	_	start_char=87|end_char=91
+7	for	for	ADP	IN	_	6	_	_	start_char=92|end_char=95
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	_	_	start_char=96|end_char=99
+9	at	at	ADP	IN	_	8	_	_	start_char=100|end_char=102
+10	times	time	NOUN	NNS	Number=Plur	9	_	_	start_char=103|end_char=108|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=108|end_char=109
+
+# text = I take freezing cold every now and then, it helps your body fix itself.
+# sent_id = 52889
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=110|end_char=111
+2	take	take	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=112|end_char=116
+3	freezing	freeze	VERB	VBG	VerbForm=Ger	2	_	_	start_char=117|end_char=125
+4	cold	cold	ADJ	JJ	Degree=Pos	3	_	_	start_char=126|end_char=130
+5	every	every	DET	DT	_	4	_	_	start_char=131|end_char=136
+6	now	now	ADV	RB	_	5	_	_	start_char=137|end_char=140
+7	and	and	CCONJ	CC	_	6	_	_	start_char=141|end_char=144
+8	then	then	ADV	RB	PronType=Dem	7	_	_	start_char=145|end_char=149|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=149|end_char=150
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=151|end_char=153
+11	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=154|end_char=159
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	_	_	start_char=160|end_char=164
+13	body	body	NOUN	NN	Number=Sing	12	_	_	start_char=165|end_char=169
+14	fix	fix	VERB	VB	VerbForm=Inf	13	_	_	start_char=170|end_char=173
+15	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	14	_	_	start_char=174|end_char=180|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=180|end_char=181
+
+# text = still, atleast you dont like wearing peoples heads as hats
+# sent_id = 52890
+1	still	still	ADV	RB	_	0	_	_	start_char=182|end_char=187|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=187|end_char=188
+3	atleast	atleast	ADV	RB	_	2	_	_	start_char=189|end_char=196
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=197|end_char=200
+5-6	dont	_	_	_	_	_	_	_	start_char=201|end_char=205
+5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=201|end_char=203
+6	nt	not	PART	RB	_	5	_	_	start_char=203|end_char=205
+7	like	like	INTJ	UH	_	6	_	_	start_char=206|end_char=210
+8	wearing	wear	VERB	VBG	VerbForm=Ger	7	_	_	start_char=211|end_char=218
+9	peoples	people	NOUN	NNS	Number=Plur	8	_	_	start_char=219|end_char=226
+10	heads	head	NOUN	NNS	Number=Plur	9	_	_	start_char=227|end_char=232
+11	as	as	ADP	IN	_	10	_	_	start_char=233|end_char=235
+12	hats	hat	NOUN	NNS	Number=Plur	11	_	_	start_char=236|end_char=240|SpaceAfter=No
+

@@ -1,0 +1,32 @@
+# text = Feminism is bad for women.
+# sent_id = 213
+1	Feminism	feminism	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=8
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=11
+3	bad	bad	ADJ	JJ	Degree=Pos	2	_	_	start_char=12|end_char=15
+4	for	for	ADP	IN	_	3	_	_	start_char=16|end_char=19
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=20|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=25|end_char=26
+
+# text = More research on why it hurt families and women.
+# sent_id = 214
+1	More	more	ADJ	JJR	Degree=Cmp	0	_	_	start_char=27|end_char=31
+2	research	research	NOUN	NN	Number=Sing	1	_	_	start_char=32|end_char=40
+3	on	on	ADP	IN	_	2	_	_	start_char=41|end_char=43
+4	why	why	ADV	WRB	PronType=Rel	3	_	_	start_char=44|end_char=47
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=48|end_char=50
+6	hurt	hurt	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=51|end_char=55
+7	families	family	NOUN	NNS	Number=Plur	6	_	_	start_char=56|end_char=64
+8	and	and	CCONJ	CC	_	7	_	_	start_char=65|end_char=68
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=69|end_char=74|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=74|end_char=75
+
+# text = [URL] #GabFam #feminsim
+# sent_id = 215
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=76|end_char=77|SpaceAfter=No
+2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=77|end_char=80|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=80|end_char=81
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=82|end_char=83|SpaceAfter=No
+5	GabFam	gabfam	NOUN	NN	Number=Sing	4	_	_	start_char=83|end_char=89
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=90|end_char=91|SpaceAfter=No
+7	feminsim	feminsim	NOUN	NN	Number=Sing	6	_	_	start_char=91|end_char=99|SpaceAfter=No
+

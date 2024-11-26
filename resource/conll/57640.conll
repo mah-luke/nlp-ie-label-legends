@@ -1,0 +1,39 @@
+# text = a young, black Hillary!
+# sent_id = 123159
+1	a	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
+2	young	young	ADJ	JJ	Degree=Pos	1	_	_	start_char=2|end_char=7|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=7|end_char=8
+4	black	black	ADJ	JJ	Degree=Pos	3	_	_	start_char=9|end_char=14
+5	Hillary	Hillary	PROPN	NNP	Number=Sing	4	_	_	start_char=15|end_char=22|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = What more could they ask for?
+# sent_id = 123160
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=24|end_char=28
+2	more	more	ADJ	JJR	Degree=Cmp	1	_	_	start_char=29|end_char=33
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=34|end_char=39
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=40|end_char=44
+5	ask	ask	VERB	VB	VerbForm=Inf	4	_	_	start_char=45|end_char=48
+6	for	for	ADP	IN	_	5	_	_	start_char=49|end_char=52|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=52|end_char=53
+
+# text = Now if only they can get her to kill a few people to show her loyalty....
+# sent_id = 123161
+1	Now	now	ADV	RB	_	0	_	_	start_char=54|end_char=57
+2	if	if	SCONJ	IN	_	1	_	_	start_char=58|end_char=60
+3	only	only	ADV	RB	_	2	_	_	start_char=61|end_char=65
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=66|end_char=70
+5	can	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=71|end_char=74
+6	get	get	VERB	VB	VerbForm=Inf	5	_	_	start_char=75|end_char=78
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=79|end_char=82
+8	to	to	PART	TO	_	7	_	_	start_char=83|end_char=85
+9	kill	kill	VERB	VB	VerbForm=Inf	8	_	_	start_char=86|end_char=90
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=91|end_char=92
+11	few	few	ADJ	JJ	Degree=Pos	10	_	_	start_char=93|end_char=96
+12	people	person	NOUN	NNS	Number=Plur	11	_	_	start_char=97|end_char=103
+13	to	to	PART	TO	_	12	_	_	start_char=104|end_char=106
+14	show	show	VERB	VB	VerbForm=Inf	13	_	_	start_char=107|end_char=111
+15	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=112|end_char=115
+16	loyalty	loyalty	NOUN	NN	Number=Sing	15	_	_	start_char=116|end_char=123|SpaceAfter=No
+17	....	....	PUNCT	.	_	16	_	_	start_char=123|end_char=127|SpaceAfter=No
+

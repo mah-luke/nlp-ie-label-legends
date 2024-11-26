@@ -1,0 +1,42 @@
+# text = It's so disgusting!
+# sent_id = 56454
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	so	so	ADV	RB	_	2	_	_	start_char=5|end_char=7
+4	disgusting	disgusting	ADJ	JJ	Degree=Pos	3	_	_	start_char=8|end_char=18|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = I can't stomach what these sick creeps are doing to people, especially children.
+# sent_id = 56455
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=20|end_char=21
+2-3	can't	_	_	_	_	_	_	_	start_char=22|end_char=27
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=22|end_char=24
+3	n't	not	PART	RB	_	2	_	_	start_char=24|end_char=27
+4	stomach	stomach	VERB	VB	VerbForm=Inf	3	_	_	start_char=28|end_char=35
+5	what	what	PRON	WP	PronType=Rel	4	_	_	start_char=36|end_char=40
+6	these	this	DET	DT	Number=Plur|PronType=Dem	5	_	_	start_char=41|end_char=46
+7	sick	sick	ADJ	JJ	Degree=Pos	6	_	_	start_char=47|end_char=51
+8	creeps	creep	NOUN	NNS	Number=Plur	7	_	_	start_char=52|end_char=58
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=59|end_char=62
+10	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=63|end_char=68
+11	to	to	ADP	IN	_	10	_	_	start_char=69|end_char=71
+12	people	person	NOUN	NNS	Number=Plur	11	_	_	start_char=72|end_char=78|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=78|end_char=79
+14	especially	especially	ADV	RB	_	13	_	_	start_char=80|end_char=90
+15	children	child	NOUN	NNS	Number=Plur	14	_	_	start_char=91|end_char=99|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=99|end_char=100
+
+# text = I say kill 'em all and do it swiftly.
+# sent_id = 56456
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=101|end_char=102
+2	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=103|end_char=106
+3	kill	kill	VERB	VB	VerbForm=Inf	2	_	_	start_char=107|end_char=111
+4	'em	they	PRON	PRP	Case=Acc|Number=Plur|Person=2|PronType=Prs	3	_	_	start_char=112|end_char=115
+5	all	all	DET	DT	_	4	_	_	start_char=116|end_char=119
+6	and	and	CCONJ	CC	_	5	_	_	start_char=120|end_char=123
+7	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=124|end_char=126
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=127|end_char=129
+9	swiftly	swiftly	ADV	RB	_	8	_	_	start_char=130|end_char=137|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=137|end_char=138|SpaceAfter=No
+

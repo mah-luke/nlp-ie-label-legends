@@ -1,0 +1,42 @@
+# text = Yes, women can read body language, and they're pretty good at it.
+# sent_id = 88003
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=5|end_char=10
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=11|end_char=14
+5	read	read	VERB	VB	VerbForm=Inf	4	_	_	start_char=15|end_char=19
+6	body	body	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=24
+7	language	language	NOUN	NN	Number=Sing	6	_	_	start_char=25|end_char=33|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=33|end_char=34
+9	and	and	CCONJ	CC	_	8	_	_	start_char=35|end_char=38
+10-11	they're	_	_	_	_	_	_	_	start_char=39|end_char=46
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=39|end_char=43
+11	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=43|end_char=46
+12	pretty	pretty	ADV	RB	_	11	_	_	start_char=47|end_char=53
+13	good	good	ADJ	JJ	Degree=Pos	12	_	_	start_char=54|end_char=58
+14	at	at	ADP	IN	_	13	_	_	start_char=59|end_char=61
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=62|end_char=64|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=64|end_char=65
+
+# text = Although they don't really think it, I believe it's more of an instinct.
+# sent_id = 88004
+1	Although	although	SCONJ	IN	_	0	_	_	start_char=66|end_char=74
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=75|end_char=79
+3-4	don't	_	_	_	_	_	_	_	start_char=80|end_char=85
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=80|end_char=82
+4	n't	not	PART	RB	_	3	_	_	start_char=82|end_char=85
+5	really	really	ADV	RB	_	4	_	_	start_char=86|end_char=92
+6	think	think	VERB	VB	VerbForm=Inf	5	_	_	start_char=93|end_char=98
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=99|end_char=101|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=101|end_char=102
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=103|end_char=104
+10	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=105|end_char=112
+11-12	it's	_	_	_	_	_	_	_	start_char=113|end_char=117
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=113|end_char=115
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=115|end_char=117
+13	more	more	ADJ	JJR	Degree=Cmp	12	_	_	start_char=118|end_char=122
+14	of	of	ADP	IN	_	13	_	_	start_char=123|end_char=125
+15	an	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=126|end_char=128
+16	instinct	instinct	NOUN	NN	Number=Sing	15	_	_	start_char=129|end_char=137|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=137|end_char=138|SpaceAfter=No
+

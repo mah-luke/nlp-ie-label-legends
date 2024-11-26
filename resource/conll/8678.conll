@@ -1,0 +1,31 @@
+# text = All y'all negros & women can forget it.
+# sent_id = 18264
+1	All	all	DET	DT	_	0	_	_	start_char=0|end_char=3
+2	y'all	y'all	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=9
+3	negros	negro	NOUN	NNS	Number=Plur	2	_	_	start_char=10|end_char=16
+4	&	&	CCONJ	CC	_	3	_	_	start_char=17|end_char=18
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=19|end_char=24
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=25|end_char=28
+7	forget	forget	VERB	VB	VerbForm=Inf	6	_	_	start_char=29|end_char=35
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=36|end_char=38|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=38|end_char=39
+
+# text = Rino Paul Ryan will be next demoratic candidate for president.
+# sent_id = 18265
+1	Rino	Rino	PROPN	NNP	Number=Sing	0	_	_	start_char=40|end_char=44
+2	Paul	Paul	PROPN	NNP	Number=Sing	1	_	_	start_char=45|end_char=49
+3	Ryan	Ryan	PROPN	NNP	Number=Sing	2	_	_	start_char=50|end_char=54
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=55|end_char=59
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=60|end_char=62
+6	next	next	ADV	RB	_	5	_	_	start_char=63|end_char=67
+7	demoratic	demoratic	ADJ	JJ	Degree=Pos	6	_	_	start_char=68|end_char=77
+8	candidate	candidate	NOUN	NN	Number=Sing	7	_	_	start_char=78|end_char=87
+9	for	for	ADP	IN	_	8	_	_	start_char=88|end_char=91
+10	president	president	NOUN	NN	Number=Sing	9	_	_	start_char=92|end_char=101|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=101|end_char=102
+
+# text = 😀😀😀🙃🙃🙃
+# sent_id = 18266
+1	😀😀😀🙃🙃	😀😀😀🙃🙃	PUNCT	NFP	_	0	_	_	start_char=103|end_char=108|SpaceAfter=No
+2	🙃	🙃	PUNCT	.	_	1	_	_	start_char=108|end_char=109|SpaceAfter=No
+

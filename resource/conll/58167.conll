@@ -1,0 +1,66 @@
+# text = Animals don't have gender, they only have sex.
+# sent_id = 124218
+1	Animals	animal	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=7
+2-3	don't	_	_	_	_	_	_	_	start_char=8|end_char=13
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=10
+3	n't	not	PART	RB	_	2	_	_	start_char=10|end_char=13
+4	have	have	VERB	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=18
+5	gender	gender	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=25|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=25|end_char=26
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=27|end_char=31
+8	only	only	ADV	RB	_	7	_	_	start_char=32|end_char=36
+9	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=37|end_char=41
+10	sex	sex	NOUN	NN	Number=Sing	9	_	_	start_char=42|end_char=45|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=45|end_char=46
+
+# text = Gender is a social construct built on top of sex to oppress us.
+# sent_id = 124219
+1	Gender	gender	NOUN	NN	Number=Sing	0	_	_	start_char=47|end_char=53
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=54|end_char=56
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=57|end_char=58
+4	social	social	ADJ	JJ	Degree=Pos	3	_	_	start_char=59|end_char=65
+5	construct	construct	NOUN	NN	Number=Sing	4	_	_	start_char=66|end_char=75
+6	built	build	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=76|end_char=81
+7	on	on	ADP	IN	_	6	_	_	start_char=82|end_char=84
+8	top	top	NOUN	NN	Number=Sing	7	_	_	start_char=85|end_char=88
+9	of	of	ADP	IN	_	8	_	_	start_char=89|end_char=91
+10	sex	sex	NOUN	NN	Number=Sing	9	_	_	start_char=92|end_char=95
+11	to	to	PART	TO	_	10	_	_	start_char=96|end_char=98
+12	oppress	oppress	VERB	VB	VerbForm=Inf	11	_	_	start_char=99|end_char=106
+13	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	12	_	_	start_char=107|end_char=109|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=109|end_char=110
+
+# text = So no animal is going through gender dysphoria.
+# sent_id = 124220
+1	So	so	ADV	RB	_	0	_	_	start_char=111|end_char=113
+2	no	no	DET	DT	_	1	_	_	start_char=114|end_char=116
+3	animal	animal	NOUN	NN	Number=Sing	2	_	_	start_char=117|end_char=123
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=124|end_char=126
+5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=127|end_char=132
+6	through	through	ADP	IN	_	5	_	_	start_char=133|end_char=140
+7	gender	gender	NOUN	NN	Number=Sing	6	_	_	start_char=141|end_char=147
+8	dysphoria	dysphoria	NOUN	NN	Number=Sing	7	_	_	start_char=148|end_char=157|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=157|end_char=158
+
+# text = That said, I do believe female animals face some of the issues human females do as well.
+# sent_id = 124221
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=159|end_char=163
+2	said	say	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=164|end_char=168|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=168|end_char=169
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=170|end_char=171
+5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=172|end_char=174
+6	believe	believe	VERB	VB	VerbForm=Inf	5	_	_	start_char=175|end_char=182
+7	female	female	ADJ	JJ	Degree=Pos	6	_	_	start_char=183|end_char=189
+8	animals	animal	NOUN	NNS	Number=Plur	7	_	_	start_char=190|end_char=197
+9	face	face	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=198|end_char=202
+10	some	some	DET	DT	_	9	_	_	start_char=203|end_char=207
+11	of	of	ADP	IN	_	10	_	_	start_char=208|end_char=210
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=211|end_char=214
+13	issues	issue	NOUN	NNS	Number=Plur	12	_	_	start_char=215|end_char=221
+14	human	human	ADJ	JJ	Degree=Pos	13	_	_	start_char=222|end_char=227
+15	females	female	NOUN	NNS	Number=Plur	14	_	_	start_char=228|end_char=235
+16	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=236|end_char=238
+17	as	as	ADV	RB	_	16	_	_	start_char=239|end_char=241
+18	well	well	ADV	RB	Degree=Pos	17	_	_	start_char=242|end_char=246|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=246|end_char=247|SpaceAfter=No
+

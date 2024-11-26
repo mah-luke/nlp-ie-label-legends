@@ -1,0 +1,49 @@
+# text = You're actually not.
+# sent_id = 84138
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	actually	actually	ADV	RB	_	2	_	_	start_char=7|end_char=15
+4	not	not	PART	RB	_	3	_	_	start_char=16|end_char=19|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=19|end_char=20
+
+# text = What he means is men need to get out there and spend that money on women.
+# sent_id = 84139
+1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=21|end_char=25
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=26|end_char=28
+3	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=29|end_char=34
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=35|end_char=37
+5	men	man	NOUN	NNS	Number=Plur	4	_	_	start_char=38|end_char=41
+6	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=42|end_char=46
+7	to	to	PART	TO	_	6	_	_	start_char=47|end_char=49
+8	get	get	VERB	VB	VerbForm=Inf	7	_	_	start_char=50|end_char=53
+9	out	out	ADV	RB	_	8	_	_	start_char=54|end_char=57
+10	there	there	ADV	RB	PronType=Dem	9	_	_	start_char=58|end_char=63
+11	and	and	CCONJ	CC	_	10	_	_	start_char=64|end_char=67
+12	spend	spend	VERB	VB	VerbForm=Inf	11	_	_	start_char=68|end_char=73
+13	that	that	DET	DT	Number=Sing|PronType=Dem	12	_	_	start_char=74|end_char=78
+14	money	money	NOUN	NN	Number=Sing	13	_	_	start_char=79|end_char=84
+15	on	on	ADP	IN	_	14	_	_	start_char=85|end_char=87
+16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=88|end_char=93|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=93|end_char=94
+
+# text = All us buying used cars and living with roommates in small apartments is bad for business.
+# sent_id = 84140
+1	All	all	DET	PDT	_	0	_	_	start_char=95|end_char=98
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=99|end_char=101
+3	buying	buy	VERB	VBG	VerbForm=Ger	2	_	_	start_char=102|end_char=108
+4	used	use	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=109|end_char=113
+5	cars	car	NOUN	NNS	Number=Plur	4	_	_	start_char=114|end_char=118
+6	and	and	CCONJ	CC	_	5	_	_	start_char=119|end_char=122
+7	living	live	VERB	VBG	VerbForm=Ger	6	_	_	start_char=123|end_char=129
+8	with	with	ADP	IN	_	7	_	_	start_char=130|end_char=134
+9	roommates	roommate	NOUN	NNS	Number=Plur	8	_	_	start_char=135|end_char=144
+10	in	in	ADP	IN	_	9	_	_	start_char=145|end_char=147
+11	small	small	ADJ	JJ	Degree=Pos	10	_	_	start_char=148|end_char=153
+12	apartments	apartment	NOUN	NNS	Number=Plur	11	_	_	start_char=154|end_char=164
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=165|end_char=167
+14	bad	bad	ADJ	JJ	Degree=Pos	13	_	_	start_char=168|end_char=171
+15	for	for	ADP	IN	_	14	_	_	start_char=172|end_char=175
+16	business	business	NOUN	NN	Number=Sing	15	_	_	start_char=176|end_char=184|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=184|end_char=185|SpaceAfter=No
+

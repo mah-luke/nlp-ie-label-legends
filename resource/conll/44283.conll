@@ -1,0 +1,25 @@
+# text = Haven't you heard?
+# sent_id = 94590
+1-2	Haven't	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	n't	not	PART	RB	_	1	_	_	start_char=4|end_char=7
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=8|end_char=11
+4	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=12|end_char=17|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = Commenting on a woman's appearance is *always* misogyny.
+# sent_id = 94591
+1	Commenting	comment	VERB	VBG	VerbForm=Ger	0	_	_	start_char=19|end_char=29
+2	on	on	ADP	IN	_	1	_	_	start_char=30|end_char=32
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=33|end_char=34
+4-5	woman's	_	_	_	_	_	_	_	start_char=35|end_char=42
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=35|end_char=40
+5	's	's	PART	POS	_	4	_	_	start_char=40|end_char=42
+6	appearance	appearance	NOUN	NN	Number=Sing	5	_	_	start_char=43|end_char=53
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=54|end_char=56
+8	*	*	PUNCT	NFP	_	7	_	_	start_char=57|end_char=58|SpaceAfter=No
+9	always	always	ADV	RB	_	8	_	_	start_char=58|end_char=64|SpaceAfter=No
+10	*	*	PUNCT	NFP	_	9	_	_	start_char=64|end_char=65
+11	misogyny	misogyny	NOUN	NN	Number=Sing	10	_	_	start_char=66|end_char=74|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=74|end_char=75|SpaceAfter=No
+

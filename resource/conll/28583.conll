@@ -1,0 +1,69 @@
+# text = It's not all or nothing at all.
+# sent_id = 61354
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	not	not	PART	RB	_	2	_	_	start_char=5|end_char=8
+4	all	all	DET	DT	_	3	_	_	start_char=9|end_char=12
+5	or	or	CCONJ	CC	_	4	_	_	start_char=13|end_char=15
+6	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	5	_	_	start_char=16|end_char=23
+7	at	at	ADP	IN	_	6	_	_	start_char=24|end_char=26
+8	all	all	DET	DT	_	7	_	_	start_char=27|end_char=30|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=30|end_char=31
+
+# text = The girl obviously likes the guy.
+# sent_id = 61355
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=32|end_char=35
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=36|end_char=40
+3	obviously	obviously	ADV	RB	_	2	_	_	start_char=41|end_char=50
+4	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=51|end_char=56
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=57|end_char=60
+6	guy	guy	NOUN	NN	Number=Sing	5	_	_	start_char=61|end_char=64|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=64|end_char=65
+
+# text = A push is what draws the girl in.
+# sent_id = 61356
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=66|end_char=67
+2	push	push	NOUN	NN	Number=Sing	1	_	_	start_char=68|end_char=72
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=73|end_char=75
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=76|end_char=80
+5	draws	draw	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=81|end_char=86
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=87|end_char=90
+7	girl	girl	NOUN	NN	Number=Sing	6	_	_	start_char=91|end_char=95
+8	in	in	ADP	RP	_	7	_	_	start_char=96|end_char=98|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=98|end_char=99
+
+# text = Before the girl likes you, you need to chase.
+# sent_id = 61357
+1	Before	before	SCONJ	IN	_	0	_	_	start_char=100|end_char=106
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=107|end_char=110
+3	girl	girl	NOUN	NN	Number=Sing	2	_	_	start_char=111|end_char=115
+4	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=116|end_char=121
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=122|end_char=125|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=125|end_char=126
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=127|end_char=130
+8	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=131|end_char=135
+9	to	to	PART	TO	_	8	_	_	start_char=136|end_char=138
+10	chase	chase	VERB	VB	VerbForm=Inf	9	_	_	start_char=139|end_char=144|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=144|end_char=145
+
+# text = Once the girl likes you, you distance yourself to create tension and make it challenging.
+# sent_id = 61358
+1	Once	once	SCONJ	IN	_	0	_	_	start_char=146|end_char=150
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=151|end_char=154
+3	girl	girl	NOUN	NN	Number=Sing	2	_	_	start_char=155|end_char=159
+4	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=160|end_char=165
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=166|end_char=169|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=169|end_char=170
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=171|end_char=174
+8	distance	distance	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=175|end_char=183
+9	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	8	_	_	start_char=184|end_char=192
+10	to	to	PART	TO	_	9	_	_	start_char=193|end_char=195
+11	create	create	VERB	VB	VerbForm=Inf	10	_	_	start_char=196|end_char=202
+12	tension	tension	NOUN	NN	Number=Sing	11	_	_	start_char=203|end_char=210
+13	and	and	CCONJ	CC	_	12	_	_	start_char=211|end_char=214
+14	make	make	VERB	VB	VerbForm=Inf	13	_	_	start_char=215|end_char=219
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=220|end_char=222
+16	challenging	challenging	ADJ	JJ	Degree=Pos	15	_	_	start_char=223|end_char=234|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=234|end_char=235|SpaceAfter=No
+

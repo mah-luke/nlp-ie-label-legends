@@ -1,0 +1,27 @@
+# text = No they aren’t.
+# sent_id = 63771
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=7
+3-4	aren’t	_	_	_	_	_	_	_	start_char=8|end_char=14|SpaceAfter=No
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=11
+4	n’t	not	PART	RB	_	3	_	_	start_char=11|end_char=14
+5	.	.	PUNCT	.	_	4	_	_	start_char=14|end_char=15
+
+# text = A boy is a boy.
+# sent_id = 63772
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=16|end_char=17
+2	boy	boy	NOUN	NN	Number=Sing	1	_	_	start_char=18|end_char=21
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=22|end_char=24
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=25|end_char=26
+5	boy	boy	NOUN	NN	Number=Sing	4	_	_	start_char=27|end_char=30|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=30|end_char=31
+
+# text = A girl is a girl.
+# sent_id = 63773
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=32|end_char=33
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=34|end_char=38
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=39|end_char=41
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=42|end_char=43
+5	girl	girl	NOUN	NN	Number=Sing	4	_	_	start_char=44|end_char=48|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=48|end_char=49|SpaceAfter=No
+

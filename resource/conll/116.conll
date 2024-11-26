@@ -1,0 +1,50 @@
+# text = [USER] now we are cooking!
+# sent_id = 255
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	now	now	ADV	RB	_	3	_	_	start_char=7|end_char=10
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=11|end_char=13
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=14|end_char=17
+7	cooking	cook	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=18|end_char=25|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=25|end_char=26
+
+# text = welcome Michelle!
+# sent_id = 256
+1	welcome	welcome	INTJ	UH	_	0	_	_	start_char=27|end_char=34
+2	Michelle	Michelle	PROPN	NNP	Number=Sing	1	_	_	start_char=35|end_char=43|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=43|end_char=44
+
+# text = the woman who is the single most important person who brought me to the fight against the #Elites in both parties to fight #amnesty she is a #Warrior
+# sent_id = 257
+1	the	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=45|end_char=48
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=49|end_char=54
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=55|end_char=58
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=59|end_char=61
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=62|end_char=65
+6	single	single	ADJ	JJ	Degree=Pos	5	_	_	start_char=66|end_char=72
+7	most	most	ADV	RBS	Degree=Sup	6	_	_	start_char=73|end_char=77
+8	important	important	ADJ	JJ	Degree=Pos	7	_	_	start_char=78|end_char=87
+9	person	person	NOUN	NN	Number=Sing	8	_	_	start_char=88|end_char=94
+10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=95|end_char=98
+11	brought	bring	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=99|end_char=106
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=107|end_char=109
+13	to	to	ADP	IN	_	12	_	_	start_char=110|end_char=112
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=113|end_char=116
+15	fight	fight	NOUN	NN	Number=Sing	14	_	_	start_char=117|end_char=122
+16	against	against	ADP	IN	_	15	_	_	start_char=123|end_char=130
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=131|end_char=134
+18	#	#	SYM	NN	Number=Sing	17	_	_	start_char=135|end_char=136|SpaceAfter=No
+19	Elites	Elite	PROPN	NNPS	Number=Plur	18	_	_	start_char=136|end_char=142
+20	in	in	ADP	IN	_	19	_	_	start_char=143|end_char=145
+21	both	both	DET	DT	_	20	_	_	start_char=146|end_char=150
+22	parties	party	NOUN	NNS	Number=Plur	21	_	_	start_char=151|end_char=158
+23	to	to	PART	TO	_	22	_	_	start_char=159|end_char=161
+24	fight	fight	VERB	VB	VerbForm=Inf	23	_	_	start_char=162|end_char=167
+25	#amnesty	#amnesty	NOUN	NN	Number=Sing	24	_	_	start_char=168|end_char=176
+26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	_	_	start_char=177|end_char=180
+27	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	_	_	start_char=181|end_char=183
+28	a	a	DET	DT	Definite=Ind|PronType=Art	27	_	_	start_char=184|end_char=185
+29	#	#	SYM	NN	Number=Sing	28	_	_	start_char=186|end_char=187|SpaceAfter=No
+30	Warrior	warrior	NOUN	NN	Number=Sing	29	_	_	start_char=187|end_char=194|SpaceAfter=No
+

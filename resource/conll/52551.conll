@@ -1,0 +1,50 @@
+# text = Well, she's certainly safe from rape.
+# sent_id = 112338
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3-4	she's	_	_	_	_	_	_	_	start_char=6|end_char=11
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=6|end_char=9
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=9|end_char=11
+5	certainly	certainly	ADV	RB	_	4	_	_	start_char=12|end_char=21
+6	safe	safe	ADJ	JJ	Degree=Pos	5	_	_	start_char=22|end_char=26
+7	from	from	ADP	IN	_	6	_	_	start_char=27|end_char=31
+8	rape	rape	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=36|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=36|end_char=37
+
+# text = To hear this kind of stuff from an allegedly educated woman is ludicrous.
+# sent_id = 112339
+1	To	to	PART	TO	_	0	_	_	start_char=38|end_char=40
+2	hear	hear	VERB	VB	VerbForm=Inf	1	_	_	start_char=41|end_char=45
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=46|end_char=50
+4	kind	kind	NOUN	NN	Number=Sing	3	_	_	start_char=51|end_char=55
+5	of	of	ADP	IN	_	4	_	_	start_char=56|end_char=58
+6	stuff	stuff	NOUN	NN	Number=Sing	5	_	_	start_char=59|end_char=64
+7	from	from	ADP	IN	_	6	_	_	start_char=65|end_char=69
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=70|end_char=72
+9	allegedly	allegedly	ADV	RB	_	8	_	_	start_char=73|end_char=82
+10	educated	educate	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=83|end_char=91
+11	woman	woman	NOUN	NN	Number=Sing	10	_	_	start_char=92|end_char=97
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=98|end_char=100
+13	ludicrous	ludicrous	ADJ	JJ	Degree=Pos	12	_	_	start_char=101|end_char=110|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=110|end_char=111
+
+# text = Maybe it should be the duty of western men to kill those who assault our women.
+# sent_id = 112340
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=112|end_char=117
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=118|end_char=120
+3	should	should	AUX	MD	VerbForm=Fin	2	_	_	start_char=121|end_char=127
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=128|end_char=130
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=131|end_char=134
+6	duty	duty	NOUN	NN	Number=Sing	5	_	_	start_char=135|end_char=139
+7	of	of	ADP	IN	_	6	_	_	start_char=140|end_char=142
+8	western	western	ADJ	JJ	Degree=Pos	7	_	_	start_char=143|end_char=150
+9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=151|end_char=154
+10	to	to	PART	TO	_	9	_	_	start_char=155|end_char=157
+11	kill	kill	VERB	VB	VerbForm=Inf	10	_	_	start_char=158|end_char=162
+12	those	that	PRON	DT	Number=Plur|PronType=Dem	11	_	_	start_char=163|end_char=168
+13	who	who	PRON	WP	PronType=Rel	12	_	_	start_char=169|end_char=172
+14	assault	assault	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=173|end_char=180
+15	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	_	_	start_char=181|end_char=184
+16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=185|end_char=190|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=190|end_char=191|SpaceAfter=No
+

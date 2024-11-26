@@ -1,0 +1,63 @@
+# text = 1) why would you think that?
+# sent_id = 50805
+1	1	1	NUM	LS	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	)	)	PUNCT	-RRB-	_	1	_	_	start_char=1|end_char=2
+3	why	why	ADV	WRB	PronType=Int	2	_	_	start_char=3|end_char=6
+4	would	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=7|end_char=12
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=13|end_char=16
+6	think	think	VERB	VB	VerbForm=Inf	5	_	_	start_char=17|end_char=22
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=23|end_char=27|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=27|end_char=28
+
+# text = 2) the factor is - they have a lot of kids and 3) no, Bill Gates, isn't working on tech to sterilize women - he mostly just handed out hundreds of millions of free condoms to Africans, who immediately threw them away
+# sent_id = 50806
+1	2	2	NUM	LS	_	0	_	_	start_char=29|end_char=30|SpaceAfter=No
+2	)	)	PUNCT	-RRB-	_	1	_	_	start_char=30|end_char=31
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=32|end_char=35
+4	factor	factor	NOUN	NN	Number=Sing	3	_	_	start_char=36|end_char=42
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=43|end_char=45
+6	-	-	PUNCT	,	_	5	_	_	start_char=46|end_char=47
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=48|end_char=52
+8	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=53|end_char=57
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=58|end_char=59
+10	lot	lot	NOUN	NN	Number=Sing	9	_	_	start_char=60|end_char=63
+11	of	of	ADP	IN	_	10	_	_	start_char=64|end_char=66
+12	kids	kid	NOUN	NNS	Number=Plur	11	_	_	start_char=67|end_char=71
+13	and	and	CCONJ	CC	_	12	_	_	start_char=72|end_char=75
+14	3	3	NUM	LS	_	13	_	_	start_char=76|end_char=77|SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	_	_	start_char=77|end_char=78
+16	no	no	INTJ	UH	_	15	_	_	start_char=79|end_char=81|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=81|end_char=82
+18	Bill	Bill	PROPN	NNP	Number=Sing	17	_	_	start_char=83|end_char=87
+19	Gates	Gates	PROPN	NNP	Number=Sing	18	_	_	start_char=88|end_char=93|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=93|end_char=94
+21-22	isn't	_	_	_	_	_	_	_	start_char=95|end_char=100
+21	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=95|end_char=97
+22	n't	not	PART	RB	_	21	_	_	start_char=97|end_char=100
+23	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	22	_	_	start_char=101|end_char=108
+24	on	on	ADP	IN	_	23	_	_	start_char=109|end_char=111
+25	tech	tech	NOUN	NN	Number=Sing	24	_	_	start_char=112|end_char=116
+26	to	to	PART	TO	_	25	_	_	start_char=117|end_char=119
+27	sterilize	sterilize	VERB	VB	VerbForm=Inf	26	_	_	start_char=120|end_char=129
+28	women	woman	NOUN	NNS	Number=Plur	27	_	_	start_char=130|end_char=135
+29	-	-	PUNCT	,	_	28	_	_	start_char=136|end_char=137
+30	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	_	_	start_char=138|end_char=140
+31	mostly	mostly	ADV	RB	_	30	_	_	start_char=141|end_char=147
+32	just	just	ADV	RB	_	31	_	_	start_char=148|end_char=152
+33	handed	hand	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	_	_	start_char=153|end_char=159
+34	out	out	ADP	RP	_	33	_	_	start_char=160|end_char=163
+35	hundreds	hundred	NOUN	NNS	Number=Plur	34	_	_	start_char=164|end_char=172
+36	of	of	ADP	IN	_	35	_	_	start_char=173|end_char=175
+37	millions	million	NOUN	NNS	Number=Plur	36	_	_	start_char=176|end_char=184
+38	of	of	ADP	IN	_	37	_	_	start_char=185|end_char=187
+39	free	free	ADJ	JJ	Degree=Pos	38	_	_	start_char=188|end_char=192
+40	condoms	condom	NOUN	NNS	Number=Plur	39	_	_	start_char=193|end_char=200
+41	to	to	ADP	IN	_	40	_	_	start_char=201|end_char=203
+42	Africans	African	PROPN	NNPS	Number=Plur	41	_	_	start_char=204|end_char=212|SpaceAfter=No
+43	,	,	PUNCT	,	_	42	_	_	start_char=212|end_char=213
+44	who	who	PRON	WP	PronType=Rel	43	_	_	start_char=214|end_char=217
+45	immediately	immediately	ADV	RB	_	44	_	_	start_char=218|end_char=229
+46	threw	throw	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	45	_	_	start_char=230|end_char=235
+47	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	46	_	_	start_char=236|end_char=240
+48	away	away	ADV	RB	_	47	_	_	start_char=241|end_char=245|SpaceAfter=No
+

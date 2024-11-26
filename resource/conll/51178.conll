@@ -1,0 +1,54 @@
+# text = Eh, I've actually been messing around with a chick that runs HR.
+# sent_id = 109377
+1	Eh	eh	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3-4	I've	_	_	_	_	_	_	_	start_char=4|end_char=8
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=4|end_char=5
+4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=5|end_char=8
+5	actually	actually	ADV	RB	_	4	_	_	start_char=9|end_char=17
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=18|end_char=22
+7	messing	mess	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=23|end_char=30
+8	around	around	ADV	RB	_	7	_	_	start_char=31|end_char=37
+9	with	with	ADP	IN	_	8	_	_	start_char=38|end_char=42
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=43|end_char=44
+11	chick	chick	NOUN	NN	Number=Sing	10	_	_	start_char=45|end_char=50
+12	that	that	PRON	WDT	PronType=Rel	11	_	_	start_char=51|end_char=55
+13	runs	run	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=56|end_char=60
+14	HR	HR	NOUN	NN	Number=Sing	13	_	_	start_char=61|end_char=63|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=63|end_char=64
+
+# text = She asked fewer questions then any chick I've dated before.
+# sent_id = 109378
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=65|end_char=68
+2	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=69|end_char=74
+3	fewer	few	ADJ	JJR	Degree=Cmp	2	_	_	start_char=75|end_char=80
+4	questions	question	NOUN	NNS	Number=Plur	3	_	_	start_char=81|end_char=90
+5	then	then	ADV	RB	PronType=Dem	4	_	_	start_char=91|end_char=95
+6	any	any	DET	DT	_	5	_	_	start_char=96|end_char=99
+7	chick	chick	NOUN	NN	Number=Sing	6	_	_	start_char=100|end_char=105
+8-9	I've	_	_	_	_	_	_	_	start_char=106|end_char=110
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=106|end_char=107
+9	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=107|end_char=110
+10	dated	date	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=111|end_char=116
+11	before	before	ADV	RB	_	10	_	_	start_char=117|end_char=123|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=123|end_char=124
+
+# text = It seems like the ones that make the least amount of money ask the most questions
+# sent_id = 109379
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=125|end_char=127
+2	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=128|end_char=133
+3	like	like	ADP	IN	_	2	_	_	start_char=134|end_char=138
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=139|end_char=142
+5	ones	one	NOUN	NNS	Number=Plur	4	_	_	start_char=143|end_char=147
+6	that	that	PRON	WDT	PronType=Rel	5	_	_	start_char=148|end_char=152
+7	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=153|end_char=157
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=158|end_char=161
+9	least	least	ADJ	JJS	Degree=Sup	8	_	_	start_char=162|end_char=167
+10	amount	amount	NOUN	NN	Number=Sing	9	_	_	start_char=168|end_char=174
+11	of	of	ADP	IN	_	10	_	_	start_char=175|end_char=177
+12	money	money	NOUN	NN	Number=Sing	11	_	_	start_char=178|end_char=183
+13	ask	ask	VERB	VB	VerbForm=Inf	12	_	_	start_char=184|end_char=187
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=188|end_char=191
+15	most	most	ADJ	JJS	Degree=Sup	14	_	_	start_char=192|end_char=196
+16	questions	question	NOUN	NNS	Number=Plur	15	_	_	start_char=197|end_char=206|SpaceAfter=No
+

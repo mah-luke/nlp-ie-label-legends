@@ -1,0 +1,35 @@
+# text = First off, this happened in South Africa.
+# sent_id = 114716
+1	First	first	ADV	RB	NumType=Ord	0	_	_	start_char=0|end_char=5
+2	off	off	ADV	RB	_	1	_	_	start_char=6|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=11|end_char=15
+5	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=16|end_char=24
+6	in	in	ADP	IN	_	5	_	_	start_char=25|end_char=27
+7	South	South	PROPN	NNP	Number=Sing	6	_	_	start_char=28|end_char=33
+8	Africa	Africa	PROPN	NNP	Number=Sing	7	_	_	start_char=34|end_char=40|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=40|end_char=41
+
+# text = Secondly, she skipped town after making bail, so she didn't exactly "walk free."
+# sent_id = 114717
+1	Secondly	secondly	ADV	RB	_	0	_	_	start_char=42|end_char=50|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=50|end_char=51
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=52|end_char=55
+4	skipped	skip	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=56|end_char=63
+5	town	town	NOUN	NN	Number=Sing	4	_	_	start_char=64|end_char=68
+6	after	after	SCONJ	IN	_	5	_	_	start_char=69|end_char=74
+7	making	make	VERB	VBG	VerbForm=Ger	6	_	_	start_char=75|end_char=81
+8	bail	bail	NOUN	NN	Number=Sing	7	_	_	start_char=82|end_char=86|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=86|end_char=87
+10	so	so	ADV	RB	_	9	_	_	start_char=88|end_char=90
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=91|end_char=94
+12-13	didn't	_	_	_	_	_	_	_	start_char=95|end_char=101
+12	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=95|end_char=98
+13	n't	not	PART	RB	_	12	_	_	start_char=98|end_char=101
+14	exactly	exactly	ADV	RB	_	13	_	_	start_char=102|end_char=109
+15	"	"	PUNCT	``	_	14	_	_	start_char=110|end_char=111|SpaceAfter=No
+16	walk	walk	VERB	VB	VerbForm=Inf	15	_	_	start_char=111|end_char=115
+17	free	free	ADJ	JJ	Degree=Pos	16	_	_	start_char=116|end_char=120|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=120|end_char=121|SpaceAfter=No
+19	"	"	PUNCT	''	_	18	_	_	start_char=121|end_char=122|SpaceAfter=No
+

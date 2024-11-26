@@ -1,0 +1,63 @@
+# text = Everyone here is thinking too god damn much.
+# sent_id = 72280
+1	Everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	0	_	_	start_char=0|end_char=8
+2	here	here	ADV	RB	PronType=Dem	1	_	_	start_char=9|end_char=13
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=14|end_char=16
+4	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=17|end_char=25
+5	too	too	ADV	RB	_	4	_	_	start_char=26|end_char=29
+6	god	god	NOUN	NN	Number=Sing	5	_	_	start_char=30|end_char=33
+7	damn	damn	ADV	RB	_	6	_	_	start_char=34|end_char=38
+8	much	much	ADV	RB	_	7	_	_	start_char=39|end_char=43|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=43|end_char=44
+
+# text = I don't care how into seeding etc you are.
+# sent_id = 72281
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=45|end_char=46
+2-3	don't	_	_	_	_	_	_	_	start_char=47|end_char=52
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=47|end_char=49
+3	n't	not	PART	RB	_	2	_	_	start_char=49|end_char=52
+4	care	care	VERB	VB	VerbForm=Inf	3	_	_	start_char=53|end_char=57
+5	how	how	ADV	WRB	PronType=Int	4	_	_	start_char=58|end_char=61
+6	into	into	ADP	IN	_	5	_	_	start_char=62|end_char=66
+7	seeding	seeding	NOUN	NN	Number=Sing	6	_	_	start_char=67|end_char=74
+8	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	7	_	_	start_char=75|end_char=78
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=79|end_char=82
+10	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=83|end_char=86|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=86|end_char=87
+
+# text = You NEVER put your dick in crazy.
+# sent_id = 72282
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=88|end_char=91
+2	NEVER	never	ADV	RB	_	1	_	_	start_char=92|end_char=97
+3	put	put	VERB	VB	VerbForm=Inf	2	_	_	start_char=98|end_char=101
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=102|end_char=106
+5	dick	dick	NOUN	NN	Number=Sing	4	_	_	start_char=107|end_char=111
+6	in	in	ADP	IN	_	5	_	_	start_char=112|end_char=114
+7	crazy	crazy	ADJ	JJ	Degree=Pos	6	_	_	start_char=115|end_char=120|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=120|end_char=121
+
+# text = Hell.
+# sent_id = 72283
+1	Hell	Hell	PROPN	NNP	Number=Sing	0	_	_	start_char=122|end_char=126|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=126|end_char=127
+
+# text = This woman sounds so boring and messed up that she doesn't deserve continued interest.
+# sent_id = 72284
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=128|end_char=132
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=133|end_char=138
+3	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=139|end_char=145
+4	so	so	ADV	RB	_	3	_	_	start_char=146|end_char=148
+5	boring	boring	ADJ	JJ	Degree=Pos	4	_	_	start_char=149|end_char=155
+6	and	and	CCONJ	CC	_	5	_	_	start_char=156|end_char=159
+7	messed	mess	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=160|end_char=166
+8	up	up	ADP	RP	_	7	_	_	start_char=167|end_char=169
+9	that	that	SCONJ	IN	_	8	_	_	start_char=170|end_char=174
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=175|end_char=178
+11-12	doesn't	_	_	_	_	_	_	_	start_char=179|end_char=186
+11	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=179|end_char=183
+12	n't	not	PART	RB	_	11	_	_	start_char=183|end_char=186
+13	deserve	deserve	VERB	VB	VerbForm=Inf	12	_	_	start_char=187|end_char=194
+14	continued	continue	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=195|end_char=204
+15	interest	interest	NOUN	NN	Number=Sing	14	_	_	start_char=205|end_char=213|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=213|end_char=214|SpaceAfter=No
+

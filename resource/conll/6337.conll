@@ -1,0 +1,62 @@
+# text = A police officer called the station on his radio "I have an interesting case here.
+# sent_id = 13254
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
+2	police	police	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=8
+3	officer	officer	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=16
+4	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=17|end_char=23
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=24|end_char=27
+6	station	station	NOUN	NN	Number=Sing	5	_	_	start_char=28|end_char=35
+7	on	on	ADP	IN	_	6	_	_	start_char=36|end_char=38
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=39|end_char=42
+9	radio	radio	NOUN	NN	Number=Sing	8	_	_	start_char=43|end_char=48
+10	"	"	PUNCT	``	_	9	_	_	start_char=49|end_char=50|SpaceAfter=No
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=50|end_char=51
+12	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=52|end_char=56
+13	an	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=57|end_char=59
+14	interesting	interesting	ADJ	JJ	Degree=Pos	13	_	_	start_char=60|end_char=71
+15	case	case	NOUN	NN	Number=Sing	14	_	_	start_char=72|end_char=76
+16	here	here	ADV	RB	PronType=Dem	15	_	_	start_char=77|end_char=81|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=81|end_char=82
+
+# text = An old lady shot her husband for stepping on the floor she just mopped" "Have you arrested the woman" "Not yet.
+# sent_id = 13255
+1	An	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=83|end_char=85
+2	old	old	ADJ	JJ	Degree=Pos	1	_	_	start_char=86|end_char=89
+3	lady	lady	NOUN	NN	Number=Sing	2	_	_	start_char=90|end_char=94
+4	shot	shoot	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=95|end_char=99
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=100|end_char=103
+6	husband	husband	NOUN	NN	Number=Sing	5	_	_	start_char=104|end_char=111
+7	for	for	SCONJ	IN	_	6	_	_	start_char=112|end_char=115
+8	stepping	step	VERB	VBG	VerbForm=Ger	7	_	_	start_char=116|end_char=124
+9	on	on	ADP	IN	_	8	_	_	start_char=125|end_char=127
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=128|end_char=131
+11	floor	floor	NOUN	NN	Number=Sing	10	_	_	start_char=132|end_char=137
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=138|end_char=141
+13	just	just	ADV	RB	_	12	_	_	start_char=142|end_char=146
+14	mopped	mop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=147|end_char=153|SpaceAfter=No
+15	"	"	PUNCT	``	_	14	_	_	start_char=153|end_char=154
+16	"	"	PUNCT	``	_	15	_	_	start_char=155|end_char=156|SpaceAfter=No
+17	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	_	_	start_char=156|end_char=160
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	_	_	start_char=161|end_char=164
+19	arrested	arrest	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=165|end_char=173
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=174|end_char=177
+21	woman	woman	NOUN	NN	Number=Sing	20	_	_	start_char=178|end_char=183|SpaceAfter=No
+22	"	"	PUNCT	''	_	21	_	_	start_char=183|end_char=184
+23	"	"	PUNCT	``	_	22	_	_	start_char=185|end_char=186|SpaceAfter=No
+24	Not	not	PART	RB	_	23	_	_	start_char=186|end_char=189
+25	yet	yet	ADV	RB	_	24	_	_	start_char=190|end_char=193|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=193|end_char=194
+
+# text = The floor's still wet" [URL]
+# sent_id = 13256
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=195|end_char=198
+2-3	floor's	_	_	_	_	_	_	_	start_char=199|end_char=206
+2	floor	floor	NOUN	NN	Number=Sing	1	_	_	start_char=199|end_char=204
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=204|end_char=206
+4	still	still	ADV	RB	_	3	_	_	start_char=207|end_char=212
+5	wet	wet	ADJ	JJ	Degree=Pos	4	_	_	start_char=213|end_char=216|SpaceAfter=No
+6	"	"	PUNCT	``	_	5	_	_	start_char=216|end_char=217
+7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=218|end_char=219|SpaceAfter=No
+8	URL	URL	PROPN	NNP	Number=Sing	7	_	_	start_char=219|end_char=222|SpaceAfter=No
+9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=222|end_char=223|SpaceAfter=No
+

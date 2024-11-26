@@ -1,0 +1,51 @@
+# text = Sean Davis
+# sent_id = 61341
+1	Sean	Sean	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	Davis	Davis	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=10
+
+# text = Why did Fusion GPS's Glenn Simpson conceal from Congress last August that he retained the services of the Russian-speaking wife of a top DOJ official?
+# sent_id = 61342
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=11|end_char=14
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=15|end_char=18
+3	Fusion	Fusion	PROPN	NNP	Number=Sing	2	_	_	start_char=19|end_char=25
+4-5	GPS's	_	_	_	_	_	_	_	start_char=26|end_char=31
+4	GPS	GPS	PROPN	NNP	Number=Sing	3	_	_	start_char=26|end_char=29
+5	's	's	PART	POS	_	4	_	_	start_char=29|end_char=31
+6	Glenn	Glenn	PROPN	NNP	Number=Sing	5	_	_	start_char=32|end_char=37
+7	Simpson	Simpson	PROPN	NNP	Number=Sing	6	_	_	start_char=38|end_char=45
+8	conceal	conceal	VERB	VB	VerbForm=Inf	7	_	_	start_char=46|end_char=53
+9	from	from	ADP	IN	_	8	_	_	start_char=54|end_char=58
+10	Congress	Congress	PROPN	NNP	Number=Sing	9	_	_	start_char=59|end_char=67
+11	last	last	ADJ	JJ	Degree=Pos	10	_	_	start_char=68|end_char=72
+12	August	August	PROPN	NNP	Number=Sing	11	_	_	start_char=73|end_char=79
+13	that	that	SCONJ	IN	_	12	_	_	start_char=80|end_char=84
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=85|end_char=87
+15	retained	retain	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=88|end_char=96
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=97|end_char=100
+17	services	service	NOUN	NNS	Number=Plur	16	_	_	start_char=101|end_char=109
+18	of	of	ADP	IN	_	17	_	_	start_char=110|end_char=112
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=113|end_char=116
+20	Russian	Russian	ADJ	JJ	Degree=Pos	19	_	_	start_char=117|end_char=124|SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	20	_	_	start_char=124|end_char=125|SpaceAfter=No
+22	speaking	speak	VERB	VBG	VerbForm=Ger	21	_	_	start_char=125|end_char=133
+23	wife	wife	NOUN	NN	Number=Sing	22	_	_	start_char=134|end_char=138
+24	of	of	ADP	IN	_	23	_	_	start_char=139|end_char=141
+25	a	a	DET	DT	Definite=Ind|PronType=Art	24	_	_	start_char=142|end_char=143
+26	top	top	ADJ	JJ	Degree=Pos	25	_	_	start_char=144|end_char=147
+27	DOJ	DOJ	PROPN	NNP	Number=Sing	26	_	_	start_char=148|end_char=151
+28	official	official	NOUN	NN	Number=Sing	27	_	_	start_char=152|end_char=160|SpaceAfter=No
+29	?	?	PUNCT	.	_	28	_	_	start_char=160|end_char=161
+
+# text = He was asked directly, and he denied it.
+# sent_id = 61343
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=162|end_char=164
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=165|end_char=168
+3	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=169|end_char=174
+4	directly	directly	ADV	RB	_	3	_	_	start_char=175|end_char=183|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=183|end_char=184
+6	and	and	CCONJ	CC	_	5	_	_	start_char=185|end_char=188
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=189|end_char=191
+8	denied	deny	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=192|end_char=198
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=199|end_char=201|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=201|end_char=202|SpaceAfter=No
+

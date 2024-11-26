@@ -1,0 +1,65 @@
+# text = Surely not.
+# sent_id = 65800
+1	Surely	surely	ADV	RB	_	0	_	_	start_char=0|end_char=6
+2	not	not	PART	RB	_	1	_	_	start_char=7|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=10|end_char=11
+
+# text = I romance my women like a true southern gentleman, even if they're a mestizo cum bucket.
+# sent_id = 65801
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=12|end_char=13
+2	romance	romance	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=14|end_char=21
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=22|end_char=24
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=25|end_char=30
+5	like	like	ADP	IN	_	4	_	_	start_char=31|end_char=35
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=36|end_char=37
+7	true	true	ADJ	JJ	Degree=Pos	6	_	_	start_char=38|end_char=42
+8	southern	southern	ADJ	JJ	Degree=Pos	7	_	_	start_char=43|end_char=51
+9	gentleman	gentleman	NOUN	NN	Number=Sing	8	_	_	start_char=52|end_char=61|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=61|end_char=62
+11	even	even	ADV	RB	_	10	_	_	start_char=63|end_char=67
+12	if	if	SCONJ	IN	_	11	_	_	start_char=68|end_char=70
+13-14	they're	_	_	_	_	_	_	_	start_char=71|end_char=78
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=71|end_char=75
+14	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=75|end_char=78
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=79|end_char=80
+16	mestizo	mestizo	ADJ	JJ	Degree=Pos	15	_	_	start_char=81|end_char=88
+17	cum	cum	NOUN	NN	Number=Sing	16	_	_	start_char=89|end_char=92
+18	bucket	bucket	NOUN	NN	Number=Sing	17	_	_	start_char=93|end_char=99|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=99|end_char=100
+
+# text = Just because you were raised like chattel, doesn't mean I have to treat you like such.
+# sent_id = 65802
+1	Just	just	ADV	RB	_	0	_	_	start_char=101|end_char=105
+2	because	because	SCONJ	IN	_	1	_	_	start_char=106|end_char=113
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=114|end_char=117
+4	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	_	_	start_char=118|end_char=122
+5	raised	raise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=123|end_char=129
+6	like	like	ADP	IN	_	5	_	_	start_char=130|end_char=134
+7	chattel	chattel	NOUN	NN	Number=Sing	6	_	_	start_char=135|end_char=142|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=142|end_char=143
+9-10	doesn't	_	_	_	_	_	_	_	start_char=144|end_char=151
+9	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=144|end_char=148
+10	n't	not	PART	RB	_	9	_	_	start_char=148|end_char=151
+11	mean	mean	VERB	VB	VerbForm=Inf	10	_	_	start_char=152|end_char=156
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=157|end_char=158
+13	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=159|end_char=163
+14	to	to	PART	TO	_	13	_	_	start_char=164|end_char=166
+15	treat	treat	VERB	VB	VerbForm=Inf	14	_	_	start_char=167|end_char=172
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	_	_	start_char=173|end_char=176
+17	like	like	ADP	IN	_	16	_	_	start_char=177|end_char=181
+18	such	such	ADJ	JJ	Degree=Pos	17	_	_	start_char=182|end_char=186|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=186|end_char=187
+
+# text = Come sit on poppy's lap, mamasita.
+# sent_id = 65803
+1	Come	come	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=188|end_char=192
+2	sit	sit	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=193|end_char=196
+3	on	on	ADP	IN	_	2	_	_	start_char=197|end_char=199
+4-5	poppy's	_	_	_	_	_	_	_	start_char=200|end_char=207
+4	poppy	poppy	NOUN	NN	Number=Sing	3	_	_	start_char=200|end_char=205
+5	's	's	PART	POS	_	4	_	_	start_char=205|end_char=207
+6	lap	lap	NOUN	NN	Number=Sing	5	_	_	start_char=208|end_char=211|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=211|end_char=212
+8	mamasita	mamasita	NOUN	NN	Number=Sing	7	_	_	start_char=213|end_char=221|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=221|end_char=222|SpaceAfter=No
+

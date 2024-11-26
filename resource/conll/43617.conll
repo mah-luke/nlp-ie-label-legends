@@ -1,0 +1,47 @@
+# text = It's like #Trump saying 'women let rich celebrity men do anything' is some sort of news flash.
+# sent_id = 93246
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	like	like	ADP	IN	_	2	_	_	start_char=5|end_char=9
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=10|end_char=11|SpaceAfter=No
+5	Trump	Trump	PROPN	NNP	Number=Sing	4	_	_	start_char=11|end_char=16
+6	saying	say	VERB	VBG	VerbForm=Ger	5	_	_	start_char=17|end_char=23
+7	'	'	PUNCT	``	_	6	_	_	start_char=24|end_char=25|SpaceAfter=No
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=25|end_char=30
+9	let	let	VERB	VB	VerbForm=Inf	8	_	_	start_char=31|end_char=34
+10	rich	rich	ADJ	JJ	Degree=Pos	9	_	_	start_char=35|end_char=39
+11	celebrity	celebrity	NOUN	NN	Number=Sing	10	_	_	start_char=40|end_char=49
+12	men	man	NOUN	NNS	Number=Plur	11	_	_	start_char=50|end_char=53
+13	do	do	VERB	VB	VerbForm=Inf	12	_	_	start_char=54|end_char=56
+14	anything	anything	PRON	NN	Number=Sing|PronType=Ind	13	_	_	start_char=57|end_char=65|SpaceAfter=No
+15	'	'	PUNCT	''	_	14	_	_	start_char=65|end_char=66
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=67|end_char=69
+17	some	some	DET	DT	_	16	_	_	start_char=70|end_char=74
+18	sort	sort	NOUN	NN	Number=Sing	17	_	_	start_char=75|end_char=79
+19	of	of	ADP	IN	_	18	_	_	start_char=80|end_char=82
+20	news	news	NOUN	NN	Number=Sing	19	_	_	start_char=83|end_char=87
+21	flash	flash	NOUN	NN	Number=Sing	20	_	_	start_char=88|end_char=93|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=93|end_char=94
+
+# text = I swear to God that was just common knowledge 10 years ago.
+# sent_id = 93247
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=95|end_char=96
+2	swear	swear	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=97|end_char=102
+3	to	to	ADP	IN	_	2	_	_	start_char=103|end_char=105
+4	God	God	PROPN	NNP	Number=Sing	3	_	_	start_char=106|end_char=109
+5	that	that	PRON	WDT	PronType=Rel	4	_	_	start_char=110|end_char=114
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=115|end_char=118
+7	just	just	ADV	RB	_	6	_	_	start_char=119|end_char=123
+8	common	common	ADJ	JJ	Degree=Pos	7	_	_	start_char=124|end_char=130
+9	knowledge	knowledge	NOUN	NN	Number=Sing	8	_	_	start_char=131|end_char=140
+10	10	10	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=141|end_char=143
+11	years	year	NOUN	NNS	Number=Plur	10	_	_	start_char=144|end_char=149
+12	ago	ago	ADV	RB	_	11	_	_	start_char=150|end_char=153|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=153|end_char=154
+
+# text = #MAGA
+# sent_id = 93248
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=155|end_char=156|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=156|end_char=160|SpaceAfter=No
+

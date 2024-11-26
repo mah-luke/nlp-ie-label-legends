@@ -1,0 +1,55 @@
+# text = She's one of the rare ones who actually worked hard to get where she is right now.
+# sent_id = 58436
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	2	_	_	start_char=6|end_char=9
+4	of	of	ADP	IN	_	3	_	_	start_char=10|end_char=12
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=13|end_char=16
+6	rare	rare	ADJ	JJ	Degree=Pos	5	_	_	start_char=17|end_char=21
+7	ones	one	NOUN	NNS	Number=Plur	6	_	_	start_char=22|end_char=26
+8	who	who	PRON	WP	PronType=Rel	7	_	_	start_char=27|end_char=30
+9	actually	actually	ADV	RB	_	8	_	_	start_char=31|end_char=39
+10	worked	work	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=40|end_char=46
+11	hard	hard	ADV	RB	Degree=Pos	10	_	_	start_char=47|end_char=51
+12	to	to	PART	TO	_	11	_	_	start_char=52|end_char=54
+13	get	get	VERB	VB	VerbForm=Inf	12	_	_	start_char=55|end_char=58
+14	where	where	ADV	WRB	PronType=Int	13	_	_	start_char=59|end_char=64
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=65|end_char=68
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=69|end_char=71
+17	right	right	ADV	RB	_	16	_	_	start_char=72|end_char=77
+18	now	now	ADV	RB	_	17	_	_	start_char=78|end_char=81|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=81|end_char=82
+
+# text = The feminists don't mention her cuz she doesn't fit their narrative of 'hurr durr women being held back on purpose, mysoggyknee reeeee'
+# sent_id = 58437
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=83|end_char=86
+2	feminists	feminist	NOUN	NNS	Number=Plur	1	_	_	start_char=87|end_char=96
+3-4	don't	_	_	_	_	_	_	_	start_char=97|end_char=102
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=97|end_char=99
+4	n't	not	PART	RB	_	3	_	_	start_char=99|end_char=102
+5	mention	mention	VERB	VB	VerbForm=Inf	4	_	_	start_char=103|end_char=110
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=111|end_char=114
+7	cuz	cuz	ADV	RB	_	6	_	_	start_char=115|end_char=118
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=119|end_char=122
+9-10	doesn't	_	_	_	_	_	_	_	start_char=123|end_char=130
+9	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=123|end_char=127
+10	n't	not	PART	RB	_	9	_	_	start_char=127|end_char=130
+11	fit	fit	VERB	VB	VerbForm=Inf	10	_	_	start_char=131|end_char=134
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=135|end_char=140
+13	narrative	narrative	NOUN	NN	Number=Sing	12	_	_	start_char=141|end_char=150
+14	of	of	ADP	IN	_	13	_	_	start_char=151|end_char=153
+15	'	'	PUNCT	``	_	14	_	_	start_char=154|end_char=155|SpaceAfter=No
+16	hurr	hurr	INTJ	UH	_	15	_	_	start_char=155|end_char=159
+17	durr	durr	NOUN	NN	Number=Sing	16	_	_	start_char=160|end_char=164
+18	women	woman	NOUN	NNS	Number=Plur	17	_	_	start_char=165|end_char=170
+19	being	be	AUX	VBG	VerbForm=Ger	18	_	_	start_char=171|end_char=176
+20	held	hold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	_	_	start_char=177|end_char=181
+21	back	back	ADV	RB	_	20	_	_	start_char=182|end_char=186
+22	on	on	ADP	IN	_	21	_	_	start_char=187|end_char=189
+23	purpose	purpose	NOUN	NN	Number=Sing	22	_	_	start_char=190|end_char=197|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	_	_	start_char=197|end_char=198
+25	mysoggyknee	mysoggyknee	X	FW	_	24	_	_	start_char=199|end_char=210
+26	reeeee	reeeee	X	FW	_	25	_	_	start_char=211|end_char=217|SpaceAfter=No
+27	'	'	PUNCT	''	_	26	_	_	start_char=217|end_char=218|SpaceAfter=No
+

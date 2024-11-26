@@ -1,0 +1,55 @@
+# text = She's a cougar.
+# sent_id = 2876
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=6|end_char=7
+4	cougar	cougar	NOUN	NN	Number=Sing	3	_	_	start_char=8|end_char=14|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=14|end_char=15
+
+# text = I'm assuming you're half her age.
+# sent_id = 2877
+1-2	I'm	_	_	_	_	_	_	_	start_char=16|end_char=19
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=16|end_char=17
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=17|end_char=19
+3	assuming	assume	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=20|end_char=28
+4-5	you're	_	_	_	_	_	_	_	start_char=29|end_char=35
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=29|end_char=32
+5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=32|end_char=35
+6	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	5	_	_	start_char=36|end_char=40
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=41|end_char=44
+8	age	age	NOUN	NN	Number=Sing	7	_	_	start_char=45|end_char=48|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=48|end_char=49
+
+# text = She knows you're not looking for a serious relationship.
+# sent_id = 2878
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=50|end_char=53
+2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=54|end_char=59
+3-4	you're	_	_	_	_	_	_	_	start_char=60|end_char=66
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=60|end_char=63
+4	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=63|end_char=66
+5	not	not	PART	RB	_	4	_	_	start_char=67|end_char=70
+6	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=71|end_char=78
+7	for	for	ADP	IN	_	6	_	_	start_char=79|end_char=82
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=83|end_char=84
+9	serious	serious	ADJ	JJ	Degree=Pos	8	_	_	start_char=85|end_char=92
+10	relationship	relationship	NOUN	NN	Number=Sing	9	_	_	start_char=93|end_char=105|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=105|end_char=106
+
+# text = She's probably wondering why you haven't asked for nudes yet
+# sent_id = 2879
+1-2	She's	_	_	_	_	_	_	_	start_char=107|end_char=112
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=107|end_char=110
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=110|end_char=112
+3	probably	probably	ADV	RB	_	2	_	_	start_char=113|end_char=121
+4	wondering	wonder	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=122|end_char=131
+5	why	why	ADV	WRB	PronType=Rel	4	_	_	start_char=132|end_char=135
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=136|end_char=139
+7-8	haven't	_	_	_	_	_	_	_	start_char=140|end_char=147
+7	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=140|end_char=144
+8	n't	not	PART	RB	_	7	_	_	start_char=144|end_char=147
+9	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=148|end_char=153
+10	for	for	ADP	IN	_	9	_	_	start_char=154|end_char=157
+11	nudes	nude	NOUN	NNS	Number=Plur	10	_	_	start_char=158|end_char=163
+12	yet	yet	ADV	RB	_	11	_	_	start_char=164|end_char=167|SpaceAfter=No
+

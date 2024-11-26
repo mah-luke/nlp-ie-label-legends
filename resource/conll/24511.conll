@@ -1,0 +1,52 @@
+# text = Let's see if i got this right .
+# sent_id = 52562
+1-2	Let's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	see	see	VERB	VB	VerbForm=Inf	2	_	_	start_char=6|end_char=9
+4	if	if	SCONJ	IN	_	3	_	_	start_char=10|end_char=12
+5	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=13|end_char=14
+6	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=15|end_char=18
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=19|end_char=23
+8	right	right	ADV	RB	_	7	_	_	start_char=24|end_char=29
+9	.	.	PUNCT	.	_	8	_	_	start_char=30|end_char=31
+
+# text = Inbred dogs are bad but inbred refugees should get $1600.00 a month and your house and wife if they want them and we should be joyful givers even or we are racist-phobics?
+# sent_id = 52563
+1	Inbred	Inbred	ADJ	JJ	Degree=Pos	0	_	_	start_char=32|end_char=38
+2	dogs	dog	NOUN	NNS	Number=Plur	1	_	_	start_char=39|end_char=43
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=44|end_char=47
+4	bad	bad	ADJ	JJ	Degree=Pos	3	_	_	start_char=48|end_char=51
+5	but	but	CCONJ	CC	_	4	_	_	start_char=52|end_char=55
+6	inbred	inbred	ADJ	JJ	Degree=Pos	5	_	_	start_char=56|end_char=62
+7	refugees	refugee	NOUN	NNS	Number=Plur	6	_	_	start_char=63|end_char=71
+8	should	should	AUX	MD	VerbForm=Fin	7	_	_	start_char=72|end_char=78
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=79|end_char=82
+10	$	$	SYM	$	_	9	_	_	start_char=83|end_char=84|SpaceAfter=No
+11	1600.00	1600.00	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=84|end_char=91
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=92|end_char=93
+13	month	month	NOUN	NN	Number=Sing	12	_	_	start_char=94|end_char=99
+14	and	and	CCONJ	CC	_	13	_	_	start_char=100|end_char=103
+15	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	14	_	_	start_char=104|end_char=108
+16	house	house	NOUN	NN	Number=Sing	15	_	_	start_char=109|end_char=114
+17	and	and	CCONJ	CC	_	16	_	_	start_char=115|end_char=118
+18	wife	wife	NOUN	NN	Number=Sing	17	_	_	start_char=119|end_char=123
+19	if	if	SCONJ	IN	_	18	_	_	start_char=124|end_char=126
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	_	_	start_char=127|end_char=131
+21	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=132|end_char=136
+22	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	21	_	_	start_char=137|end_char=141
+23	and	and	CCONJ	CC	_	22	_	_	start_char=142|end_char=145
+24	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	23	_	_	start_char=146|end_char=148
+25	should	should	AUX	MD	VerbForm=Fin	24	_	_	start_char=149|end_char=155
+26	be	be	AUX	VB	VerbForm=Inf	25	_	_	start_char=156|end_char=158
+27	joyful	joyful	ADJ	JJ	Degree=Pos	26	_	_	start_char=159|end_char=165
+28	givers	giver	NOUN	NNS	Number=Plur	27	_	_	start_char=166|end_char=172
+29	even	even	ADV	RB	_	28	_	_	start_char=173|end_char=177
+30	or	or	CCONJ	CC	_	29	_	_	start_char=178|end_char=180
+31	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	30	_	_	start_char=181|end_char=183
+32	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	31	_	_	start_char=184|end_char=187
+33	racist	racist	ADJ	JJ	Degree=Pos	32	_	_	start_char=188|end_char=194|SpaceAfter=No
+34	-	-	PUNCT	HYPH	_	33	_	_	start_char=194|end_char=195|SpaceAfter=No
+35	phobics	phobics	NOUN	NNS	Number=Plur	34	_	_	start_char=195|end_char=202|SpaceAfter=No
+36	?	?	PUNCT	.	_	35	_	_	start_char=202|end_char=203|SpaceAfter=No
+

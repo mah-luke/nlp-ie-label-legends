@@ -1,0 +1,17 @@
+# text = That's why I hadn't seen her posts lately. :(
+# sent_id = 30555
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=7|end_char=10
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=11|end_char=12
+5-6	hadn't	_	_	_	_	_	_	_	start_char=13|end_char=19
+5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=13|end_char=16
+6	n't	not	PART	RB	_	5	_	_	start_char=16|end_char=19
+7	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=20|end_char=24
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=25|end_char=28
+9	posts	post	NOUN	NNS	Number=Plur	8	_	_	start_char=29|end_char=34
+10	lately	lately	ADV	RB	_	9	_	_	start_char=35|end_char=41|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=41|end_char=42
+12	:(	:(	SYM	NFP	_	11	_	_	start_char=43|end_char=45|SpaceAfter=No
+

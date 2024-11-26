@@ -1,0 +1,40 @@
+# text = The Clinton's memories are long and they ALWAYS get payback.
+# sent_id = 12546
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2-3	Clinton's	_	_	_	_	_	_	_	start_char=4|end_char=13
+2	Clinton	Clinton	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=11
+3	's	's	PART	POS	_	2	_	_	start_char=11|end_char=13
+4	memories	memory	NOUN	NNS	Number=Plur	3	_	_	start_char=14|end_char=22
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=23|end_char=26
+6	long	long	ADJ	JJ	Degree=Pos	5	_	_	start_char=27|end_char=31
+7	and	and	CCONJ	CC	_	6	_	_	start_char=32|end_char=35
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=36|end_char=40
+9	ALWAYS	always	ADV	RB	_	8	_	_	start_char=41|end_char=47
+10	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=48|end_char=51
+11	payback	payback	NOUN	NN	Number=Sing	10	_	_	start_char=52|end_char=59|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=59|end_char=60
+
+# text = If Hillary wins, they will use EVERYTHING in their power to destroy Trump.
+# sent_id = 12547
+1	If	if	SCONJ	IN	_	0	_	_	start_char=61|end_char=63
+2	Hillary	Hillary	PROPN	NNP	Number=Sing	1	_	_	start_char=64|end_char=71
+3	wins	win	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=72|end_char=76|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=76|end_char=77
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=78|end_char=82
+6	will	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=83|end_char=87
+7	use	use	VERB	VB	VerbForm=Inf	6	_	_	start_char=88|end_char=91
+8	EVERYTHING	everything	PRON	NN	Number=Sing|PronType=Tot	7	_	_	start_char=92|end_char=102
+9	in	in	ADP	IN	_	8	_	_	start_char=103|end_char=105
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=106|end_char=111
+11	power	power	NOUN	NN	Number=Sing	10	_	_	start_char=112|end_char=117
+12	to	to	PART	TO	_	11	_	_	start_char=118|end_char=120
+13	destroy	destroy	VERB	VB	VerbForm=Inf	12	_	_	start_char=121|end_char=128
+14	Trump	Trump	PROPN	NNP	Number=Sing	13	_	_	start_char=129|end_char=134|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=134|end_char=135
+
+# text = [URL]
+# sent_id = 12548
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=136|end_char=137|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=137|end_char=140|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=140|end_char=141|SpaceAfter=No
+

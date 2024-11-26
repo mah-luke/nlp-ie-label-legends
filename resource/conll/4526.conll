@@ -1,0 +1,49 @@
+# text = Danny Devito was hired as an actor because he has charisma.
+# sent_id = 9485
+1	Danny	Danny	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	Devito	Devito	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=12
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=13|end_char=16
+4	hired	hire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=17|end_char=22
+5	as	as	ADP	IN	_	4	_	_	start_char=23|end_char=25
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=26|end_char=28
+7	actor	actor	NOUN	NN	Number=Sing	6	_	_	start_char=29|end_char=34
+8	because	because	SCONJ	IN	_	7	_	_	start_char=35|end_char=42
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=43|end_char=45
+10	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=46|end_char=49
+11	charisma	charisma	NOUN	NN	Number=Sing	10	_	_	start_char=50|end_char=58|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=58|end_char=59
+
+# text = He was a notorious lady killer even before fame.
+# sent_id = 9486
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=60|end_char=62
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=63|end_char=66
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=67|end_char=68
+4	notorious	notorious	ADJ	JJ	Degree=Pos	3	_	_	start_char=69|end_char=78
+5	lady	lady	NOUN	NN	Number=Sing	4	_	_	start_char=79|end_char=83
+6	killer	killer	NOUN	NN	Number=Sing	5	_	_	start_char=84|end_char=90
+7	even	even	ADV	RB	_	6	_	_	start_char=91|end_char=95
+8	before	before	ADP	IN	_	7	_	_	start_char=96|end_char=102
+9	fame	fame	NOUN	NN	Number=Sing	8	_	_	start_char=103|end_char=107|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=107|end_char=108
+
+# text = Celebrities are not selected by lottery.
+# sent_id = 9487
+1	Celebrities	celebrity	NOUN	NNS	Number=Plur	0	_	_	start_char=109|end_char=120
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=121|end_char=124
+3	not	not	PART	RB	_	2	_	_	start_char=125|end_char=128
+4	selected	select	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=129|end_char=137
+5	by	by	ADP	IN	_	4	_	_	start_char=138|end_char=140
+6	lottery	lottery	NOUN	NN	Number=Sing	5	_	_	start_char=141|end_char=148|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=148|end_char=149
+
+# text = Their appeal is why they are famous.
+# sent_id = 9488
+1	Their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=150|end_char=155
+2	appeal	appeal	NOUN	NN	Number=Sing	1	_	_	start_char=156|end_char=162
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=163|end_char=165
+4	why	why	ADV	WRB	PronType=Rel	3	_	_	start_char=166|end_char=169
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=170|end_char=174
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=175|end_char=178
+7	famous	famous	ADJ	JJ	Degree=Pos	6	_	_	start_char=179|end_char=185|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=185|end_char=186|SpaceAfter=No
+

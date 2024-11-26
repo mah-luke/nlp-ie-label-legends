@@ -1,0 +1,51 @@
+# text = [USER]
+# sent_id = 80255
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Don't forget NO to actual rape, not imaginary rape.
+# sent_id = 80256
+1-2	Don't	_	_	_	_	_	_	_	start_char=7|end_char=12
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=7|end_char=9
+2	n't	not	PART	RB	_	1	_	_	start_char=9|end_char=12
+3	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=13|end_char=19
+4	NO	no	DET	DT	_	3	_	_	start_char=20|end_char=22
+5	to	to	ADP	IN	_	4	_	_	start_char=23|end_char=25
+6	actual	actual	ADJ	JJ	Degree=Pos	5	_	_	start_char=26|end_char=32
+7	rape	rape	NOUN	NN	Number=Sing	6	_	_	start_char=33|end_char=37|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=37|end_char=38
+9	not	not	PART	RB	_	8	_	_	start_char=39|end_char=42
+10	imaginary	imaginary	ADJ	JJ	Degree=Pos	9	_	_	start_char=43|end_char=52
+11	rape	rape	NOUN	NN	Number=Sing	10	_	_	start_char=53|end_char=57|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=57|end_char=58
+
+# text = Muslims are all about raping and killing western women.
+# sent_id = 80257
+1	Muslims	Muslim	PROPN	NNPS	Number=Plur	0	_	_	start_char=59|end_char=66
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=67|end_char=70
+3	all	all	ADV	RB	_	2	_	_	start_char=71|end_char=74
+4	about	about	SCONJ	IN	_	3	_	_	start_char=75|end_char=80
+5	raping	rape	VERB	VBG	VerbForm=Ger	4	_	_	start_char=81|end_char=87
+6	and	and	CCONJ	CC	_	5	_	_	start_char=88|end_char=91
+7	killing	kill	VERB	VBG	VerbForm=Ger	6	_	_	start_char=92|end_char=99
+8	western	western	ADJ	JJ	Degree=Pos	7	_	_	start_char=100|end_char=107
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=108|end_char=113|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=113|end_char=114
+
+# text = But most of these liberals can't figure simple things out.
+# sent_id = 80258
+1	But	but	CCONJ	CC	_	0	_	_	start_char=115|end_char=118
+2	most	most	ADJ	JJS	Degree=Sup	1	_	_	start_char=119|end_char=123
+3	of	of	ADP	IN	_	2	_	_	start_char=124|end_char=126
+4	these	this	DET	DT	Number=Plur|PronType=Dem	3	_	_	start_char=127|end_char=132
+5	liberals	liberal	NOUN	NNS	Number=Plur	4	_	_	start_char=133|end_char=141
+6-7	can't	_	_	_	_	_	_	_	start_char=142|end_char=147
+6	ca	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=142|end_char=144
+7	n't	not	PART	RB	_	6	_	_	start_char=144|end_char=147
+8	figure	figure	VERB	VB	VerbForm=Inf	7	_	_	start_char=148|end_char=154
+9	simple	simple	ADJ	JJ	Degree=Pos	8	_	_	start_char=155|end_char=161
+10	things	thing	NOUN	NNS	Number=Plur	9	_	_	start_char=162|end_char=168
+11	out	out	ADP	RP	_	10	_	_	start_char=169|end_char=172|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=172|end_char=173|SpaceAfter=No
+

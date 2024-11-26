@@ -1,0 +1,49 @@
+# text = [USER]
+# sent_id = 37734
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = So, if I'm screaming, "kill all the nasty women!" what happens?
+# sent_id = 37735
+1	So	so	ADV	RB	_	0	_	_	start_char=7|end_char=9|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=9|end_char=10
+3	if	if	SCONJ	IN	_	2	_	_	start_char=11|end_char=13
+4-5	I'm	_	_	_	_	_	_	_	start_char=14|end_char=17
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=14|end_char=15
+5	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=15|end_char=17
+6	screaming	scream	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=18|end_char=27|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=27|end_char=28
+8	"	"	PUNCT	``	_	7	_	_	start_char=29|end_char=30|SpaceAfter=No
+9	kill	kill	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=30|end_char=34
+10	all	all	DET	PDT	_	9	_	_	start_char=35|end_char=38
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=39|end_char=42
+12	nasty	nasty	ADJ	JJ	Degree=Pos	11	_	_	start_char=43|end_char=48
+13	women	woman	NOUN	NNS	Number=Plur	12	_	_	start_char=49|end_char=54|SpaceAfter=No
+14	!	!	PUNCT	.	_	13	_	_	start_char=54|end_char=55|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=55|end_char=56
+16	what	what	PRON	WP	PronType=Int	15	_	_	start_char=57|end_char=61
+17	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=62|end_char=69|SpaceAfter=No
+18	?	?	PUNCT	.	_	17	_	_	start_char=69|end_char=70
+
+# text = I get arrested, that's what.
+# sent_id = 37736
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=71|end_char=72
+2	get	get	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=73|end_char=76
+3	arrested	arrest	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=77|end_char=85|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=85|end_char=86
+5-6	that's	_	_	_	_	_	_	_	start_char=87|end_char=93
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=87|end_char=91
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=91|end_char=93
+7	what	what	PRON	WP	PronType=Rel	6	_	_	start_char=94|end_char=98|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=98|end_char=99
+
+# text = Silly, silly, silly.
+# sent_id = 37737
+1	Silly	silly	ADJ	JJ	Degree=Pos	0	_	_	start_char=100|end_char=105|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=105|end_char=106
+3	silly	silly	ADJ	JJ	Degree=Pos	2	_	_	start_char=107|end_char=112|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=112|end_char=113
+5	silly	silly	ADJ	JJ	Degree=Pos	4	_	_	start_char=114|end_char=119|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=119|end_char=120|SpaceAfter=No
+

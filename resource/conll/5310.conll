@@ -1,0 +1,44 @@
+# text = #NEWS #MAGA #TRUMP #DEEPSTATE . BINGO !
+# sent_id = 11163
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	NEWS	news	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5
+3	#MAGA	#maga	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=11
+4	#TRUMP	#trump	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=18
+5	#DEEPSTATE	#deepstate	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=29
+6	.	.	PUNCT	.	_	5	_	_	start_char=30|end_char=31
+7	BINGO	bingo	NOUN	NN	Number=Sing	6	_	_	start_char=32|end_char=37
+8	!	!	PUNCT	.	_	7	_	_	start_char=38|end_char=39
+
+# text = Austria's right-wing government plans to shut down seven mosques and expel up to 40 foreign-funded imams in crackdown against Islamist ideology [URL]
+# sent_id = 11164
+1-2	Austria's	_	_	_	_	_	_	_	start_char=40|end_char=49
+1	Austria	Austria	PROPN	NNP	Number=Sing	0	_	_	start_char=40|end_char=47
+2	's	's	PART	POS	_	1	_	_	start_char=47|end_char=49
+3	right	right	ADJ	JJ	Degree=Pos	2	_	_	start_char=50|end_char=55|SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	_	_	start_char=55|end_char=56|SpaceAfter=No
+5	wing	wing	NOUN	NN	Number=Sing	4	_	_	start_char=56|end_char=60
+6	government	government	NOUN	NN	Number=Sing	5	_	_	start_char=61|end_char=71
+7	plans	plan	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=72|end_char=77
+8	to	to	PART	TO	_	7	_	_	start_char=78|end_char=80
+9	shut	shut	VERB	VB	VerbForm=Inf	8	_	_	start_char=81|end_char=85
+10	down	down	ADP	RP	_	9	_	_	start_char=86|end_char=90
+11	seven	seven	NUM	CD	NumForm=Word|NumType=Card	10	_	_	start_char=91|end_char=96
+12	mosques	mosque	NOUN	NNS	Number=Plur	11	_	_	start_char=97|end_char=104
+13	and	and	CCONJ	CC	_	12	_	_	start_char=105|end_char=108
+14	expel	expel	VERB	VB	VerbForm=Inf	13	_	_	start_char=109|end_char=114
+15	up	up	ADV	RB	_	14	_	_	start_char=115|end_char=117
+16	to	to	ADP	IN	_	15	_	_	start_char=118|end_char=120
+17	40	40	NUM	CD	NumForm=Digit|NumType=Card	16	_	_	start_char=121|end_char=123
+18	foreign	foreign	ADJ	JJ	Degree=Pos	17	_	_	start_char=124|end_char=131|SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	18	_	_	start_char=131|end_char=132|SpaceAfter=No
+20	funded	fund	VERB	VBN	Tense=Past|VerbForm=Part	19	_	_	start_char=132|end_char=138
+21	imams	imam	NOUN	NNS	Number=Plur	20	_	_	start_char=139|end_char=144
+22	in	in	ADP	IN	_	21	_	_	start_char=145|end_char=147
+23	crackdown	crackdown	NOUN	NN	Number=Sing	22	_	_	start_char=148|end_char=157
+24	against	against	ADP	IN	_	23	_	_	start_char=158|end_char=165
+25	Islamist	Islamist	PROPN	NNP	Number=Sing	24	_	_	start_char=166|end_char=174
+26	ideology	ideology	NOUN	NN	Number=Sing	25	_	_	start_char=175|end_char=183
+27	[	[	PUNCT	-LRB-	_	26	_	_	start_char=184|end_char=185|SpaceAfter=No
+28	URL	URL	PROPN	NNP	Number=Sing	27	_	_	start_char=185|end_char=188|SpaceAfter=No
+29	]	]	PUNCT	-RRB-	_	28	_	_	start_char=188|end_char=189|SpaceAfter=No
+

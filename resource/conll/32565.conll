@@ -1,0 +1,18 @@
+# text = I'm eating apple pie, and watching my cat lick her genitals.
+# sent_id = 69780
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	eating	eat	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=4|end_char=10
+4	apple	apple	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=16
+5	pie	pie	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=20|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=20|end_char=21
+7	and	and	CCONJ	CC	_	6	_	_	start_char=22|end_char=25
+8	watching	watch	VERB	VBG	VerbForm=Ger	7	_	_	start_char=26|end_char=34
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=35|end_char=37
+10	cat	cat	NOUN	NN	Number=Sing	9	_	_	start_char=38|end_char=41
+11	lick	lick	VERB	VB	VerbForm=Inf	10	_	_	start_char=42|end_char=46
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=47|end_char=50
+13	genitals	genitals	NOUN	NNS	Number=Plur	12	_	_	start_char=51|end_char=59|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=59|end_char=60|SpaceAfter=No
+

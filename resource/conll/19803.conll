@@ -1,0 +1,23 @@
+# text = Canada imprisons Men 100:1 compared to women.
+# sent_id = 42513
+1	Canada	Canada	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	imprisons	imprison	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7|end_char=16
+3	Men	Men	PROPN	NNPS	Number=Plur	2	_	_	start_char=17|end_char=20
+4	100:1	100:1	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=21|end_char=26
+5	compared	compare	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=27|end_char=35
+6	to	to	ADP	IN	_	5	_	_	start_char=36|end_char=38
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=39|end_char=44|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=44|end_char=45
+
+# text = #CURSECanada!
+# sent_id = 42514
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=46|end_char=47|SpaceAfter=No
+2	CURSECanada	CURSECanada	NOUN	NN	Number=Sing	1	_	_	start_char=47|end_char=58|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=58|end_char=59
+
+# text = #CURSEtheCrown!
+# sent_id = 42515
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=60|end_char=61|SpaceAfter=No
+2	CURSEtheCrown	cursethecrown	NOUN	NN	Number=Sing	1	_	_	start_char=61|end_char=74|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=74|end_char=75|SpaceAfter=No
+

@@ -1,0 +1,20 @@
+# text = And she better fucking not.
+# sent_id = 99350
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=4|end_char=7
+3	better	good	ADJ	JJR	Degree=Cmp	2	_	_	start_char=8|end_char=14
+4	fucking	fucking	ADV	RB	_	3	_	_	start_char=15|end_char=22
+5	not	not	PART	RB	_	4	_	_	start_char=23|end_char=26|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=26|end_char=27
+
+# text = We don't want her here!
+# sent_id = 99351
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=28|end_char=30
+2-3	don't	_	_	_	_	_	_	_	start_char=31|end_char=36
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=33
+3	n't	not	PART	RB	_	2	_	_	start_char=33|end_char=36
+4	want	want	VERB	VB	VerbForm=Inf	3	_	_	start_char=37|end_char=41
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=42|end_char=45
+6	here	here	ADV	RB	PronType=Dem	5	_	_	start_char=46|end_char=50|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=50|end_char=51|SpaceAfter=No
+

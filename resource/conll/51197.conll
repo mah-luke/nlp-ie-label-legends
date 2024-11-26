@@ -1,0 +1,61 @@
+# text = "Look at her eyes staring back at you.
+# sent_id = 109430
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=1|end_char=5
+3	at	at	ADP	IN	_	2	_	_	start_char=6|end_char=8
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=9|end_char=12
+5	eyes	eye	NOUN	NNS	Number=Plur	4	_	_	start_char=13|end_char=17
+6	staring	stare	VERB	VBG	VerbForm=Ger	5	_	_	start_char=18|end_char=25
+7	back	back	ADV	RB	_	6	_	_	start_char=26|end_char=30
+8	at	at	ADP	IN	_	7	_	_	start_char=31|end_char=33
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=34|end_char=37|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=37|end_char=38
+
+# text = What you see is a literal thousand cock stare.
+# sent_id = 109431
+1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=39|end_char=43
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=44|end_char=47
+3	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=48|end_char=51
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=52|end_char=54
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=55|end_char=56
+6	literal	literal	ADJ	JJ	Degree=Pos	5	_	_	start_char=57|end_char=64
+7	thousand	thousand	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=65|end_char=73
+8	cock	cock	NOUN	NN	Number=Sing	7	_	_	start_char=74|end_char=78
+9	stare	stare	NOUN	NN	Number=Sing	8	_	_	start_char=79|end_char=84|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=84|end_char=85
+
+# text = Vacant and deranged… the same look a soldier has when he’s seen too much blood and death."
+# sent_id = 109432
+1	Vacant	vacant	ADJ	JJ	Degree=Pos	0	_	_	start_char=86|end_char=92
+2	and	and	CCONJ	CC	_	1	_	_	start_char=93|end_char=96
+3	deranged	deranged	ADJ	JJ	Degree=Pos	2	_	_	start_char=97|end_char=105|SpaceAfter=No
+4	…	…	PUNCT	:	_	3	_	_	start_char=105|end_char=106
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=107|end_char=110
+6	same	same	ADJ	JJ	Degree=Pos	5	_	_	start_char=111|end_char=115
+7	look	look	NOUN	NN	Number=Sing	6	_	_	start_char=116|end_char=120
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=121|end_char=122
+9	soldier	soldier	NOUN	NN	Number=Sing	8	_	_	start_char=123|end_char=130
+10	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=131|end_char=134
+11	when	when	ADV	WRB	PronType=Int	10	_	_	start_char=135|end_char=139
+12-13	he’s	_	_	_	_	_	_	_	start_char=140|end_char=144
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=140|end_char=142
+13	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=142|end_char=144
+14	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=145|end_char=149
+15	too	too	ADV	RB	_	14	_	_	start_char=150|end_char=153
+16	much	much	ADJ	JJ	Degree=Pos	15	_	_	start_char=154|end_char=158
+17	blood	blood	NOUN	NN	Number=Sing	16	_	_	start_char=159|end_char=164
+18	and	and	CCONJ	CC	_	17	_	_	start_char=165|end_char=168
+19	death	death	NOUN	NN	Number=Sing	18	_	_	start_char=169|end_char=174|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=174|end_char=175|SpaceAfter=No
+21	"	"	PUNCT	''	_	20	_	_	start_char=175|end_char=176
+
+# text = - [USER] [URL]
+# sent_id = 109433
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=177|end_char=178
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=179|end_char=180|SpaceAfter=No
+3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=180|end_char=184|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=184|end_char=185
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=186|end_char=187|SpaceAfter=No
+6	URL	URL	NOUN	NN	Number=Sing	5	_	_	start_char=187|end_char=190|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=190|end_char=191|SpaceAfter=No
+

@@ -1,0 +1,54 @@
+# text = You owe me an apology.
+# sent_id = 36445
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	owe	owe	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=8|end_char=10
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=11|end_char=13
+5	apology	apology	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=21|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=21|end_char=22
+
+# text = I don't care what bullshit you claim.
+# sent_id = 36446
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=23|end_char=24
+2-3	don't	_	_	_	_	_	_	_	start_char=25|end_char=30
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=27
+3	n't	not	PART	RB	_	2	_	_	start_char=27|end_char=30
+4	care	care	VERB	VB	VerbForm=Inf	3	_	_	start_char=31|end_char=35
+5	what	what	DET	WDT	PronType=Int	4	_	_	start_char=36|end_char=40
+6	bullshit	bullshit	NOUN	NN	Number=Sing	5	_	_	start_char=41|end_char=49
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=50|end_char=53
+8	claim	claim	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=54|end_char=59|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=59|end_char=60
+
+# text = When this is over I'm gonna punch your fucking lights out.
+# sent_id = 36447
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=61|end_char=65
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=66|end_char=70
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=71|end_char=73
+4	over	over	ADV	RB	_	3	_	_	start_char=74|end_char=78
+5-6	I'm	_	_	_	_	_	_	_	start_char=79|end_char=82
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=79|end_char=80
+6	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=80|end_char=82
+7-8	gonna	_	_	_	_	_	_	_	start_char=83|end_char=88
+7	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=83|end_char=86
+8	na	to	PART	TO	_	7	_	_	start_char=86|end_char=88
+9	punch	punch	VERB	VB	VerbForm=Inf	8	_	_	start_char=89|end_char=94
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	_	_	start_char=95|end_char=99
+11	fucking	fuck	NOUN	NN	Number=Sing	10	_	_	start_char=100|end_char=107
+12	lights	light	NOUN	NNS	Number=Plur	11	_	_	start_char=108|end_char=114
+13	out	out	ADP	RP	_	12	_	_	start_char=115|end_char=118|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=118|end_char=119
+
+# text = One point, verbal abuse, Mr Serena Williams.
+# sent_id = 36448
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=120|end_char=123
+2	point	point	NOUN	NN	Number=Sing	1	_	_	start_char=124|end_char=129|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=129|end_char=130
+4	verbal	verbal	ADJ	JJ	Degree=Pos	3	_	_	start_char=131|end_char=137
+5	abuse	abuse	NOUN	NN	Number=Sing	4	_	_	start_char=138|end_char=143|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=143|end_char=144
+7	Mr	Mr	PROPN	NNP	Number=Sing	6	_	_	start_char=145|end_char=147
+8	Serena	Serena	PROPN	NNP	Number=Sing	7	_	_	start_char=148|end_char=154
+9	Williams	Williams	PROPN	NNP	Number=Sing	8	_	_	start_char=155|end_char=163|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=163|end_char=164|SpaceAfter=No
+

@@ -1,0 +1,38 @@
+# text = White families are beautiful thing.
+# sent_id = 43724
+1	White	White	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5
+2	families	family	NOUN	NNS	Number=Plur	1	_	_	start_char=6|end_char=14
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=15|end_char=18
+4	beautiful	beautiful	ADJ	JJ	Degree=Pos	3	_	_	start_char=19|end_char=28
+5	thing	thing	NOUN	NN	Number=Sing	4	_	_	start_char=29|end_char=34|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=34|end_char=35
+
+# text = I want to see more.
+# sent_id = 43725
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=36|end_char=37
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=38|end_char=42
+3	to	to	PART	TO	_	2	_	_	start_char=43|end_char=45
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	start_char=46|end_char=49
+5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=50|end_char=54|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=54|end_char=55
+
+# text = A man a woman and their children.
+# sent_id = 43726
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=56|end_char=57
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=58|end_char=61
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=62|end_char=63
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=64|end_char=69
+5	and	and	CCONJ	CC	_	4	_	_	start_char=70|end_char=73
+6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=74|end_char=79
+7	children	child	NOUN	NNS	Number=Plur	6	_	_	start_char=80|end_char=88|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=88|end_char=89
+
+# text = We need a family centered system
+# sent_id = 43727
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=90|end_char=92
+2	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=93|end_char=97
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=98|end_char=99
+4	family	family	NOUN	NN	Number=Sing	3	_	_	start_char=100|end_char=106
+5	centered	center	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=107|end_char=115
+6	system	system	NOUN	NN	Number=Sing	5	_	_	start_char=116|end_char=122|SpaceAfter=No
+

@@ -1,0 +1,23 @@
+# text = My school has a 100-30 male to female ratio.
+# sent_id = 2234
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	school	school	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=9
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=13
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=14|end_char=15
+5	100	100	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=16|end_char=19|SpaceAfter=No
+6	-	-	SYM	SYM	_	5	_	_	start_char=19|end_char=20|SpaceAfter=No
+7	30	30	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=20|end_char=22
+8	male	male	NOUN	NN	Number=Sing	7	_	_	start_char=23|end_char=27
+9	to	to	ADP	IN	_	8	_	_	start_char=28|end_char=30
+10	female	female	ADJ	JJ	Degree=Pos	9	_	_	start_char=31|end_char=37
+11	ratio	ratio	NOUN	NN	Number=Sing	10	_	_	start_char=38|end_char=43|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=43|end_char=44
+
+# text = So pure suifuel for me
+# sent_id = 2235
+1	So	so	ADV	RB	_	0	_	_	start_char=45|end_char=47
+2	pure	pure	ADJ	JJ	Degree=Pos	1	_	_	start_char=48|end_char=52
+3	suifuel	suifuel	NOUN	NN	Number=Sing	2	_	_	start_char=53|end_char=60
+4	for	for	ADP	IN	_	3	_	_	start_char=61|end_char=64
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=65|end_char=67|SpaceAfter=No
+

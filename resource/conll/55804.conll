@@ -1,0 +1,67 @@
+# text = Yeah CEOs should be 50% women!
+# sent_id = 119235
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	CEOs	ceo	NOUN	NNS	Number=Plur	1	_	_	start_char=5|end_char=9
+3	should	should	AUX	MD	VerbForm=Fin	2	_	_	start_char=10|end_char=16
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=17|end_char=19
+5	50	50	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=20|end_char=22|SpaceAfter=No
+6	%	%	SYM	NN	Number=Sing	5	_	_	start_char=22|end_char=23
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=24|end_char=29|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=29|end_char=30
+
+# text = It is okay that sewage workers are overwhelmingly men.
+# sent_id = 119236
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=31|end_char=33
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=34|end_char=36
+3	okay	okay	ADJ	JJ	Degree=Pos	2	_	_	start_char=37|end_char=41
+4	that	that	SCONJ	IN	_	3	_	_	start_char=42|end_char=46
+5	sewage	sewage	NOUN	NN	Number=Sing	4	_	_	start_char=47|end_char=53
+6	workers	worker	NOUN	NNS	Number=Plur	5	_	_	start_char=54|end_char=61
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=62|end_char=65
+8	overwhelmingly	overwhelmingly	ADV	RB	_	7	_	_	start_char=66|end_char=80
+9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=81|end_char=84|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=84|end_char=85
+
+# text = That’s icky.
+# sent_id = 119237
+1-2	That’s	_	_	_	_	_	_	_	start_char=86|end_char=92
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=86|end_char=90
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=90|end_char=92
+3	icky	icky	ADJ	JJ	Degree=Pos	2	_	_	start_char=93|end_char=97|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=97|end_char=98
+
+# text = My city got hit by a blizzard this winter.
+# sent_id = 119238
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=99|end_char=101
+2	city	city	NOUN	NN	Number=Sing	1	_	_	start_char=102|end_char=106
+3	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=107|end_char=110
+4	hit	hit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=111|end_char=114
+5	by	by	ADP	IN	_	4	_	_	start_char=115|end_char=117
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=118|end_char=119
+7	blizzard	blizzard	NOUN	NN	Number=Sing	6	_	_	start_char=120|end_char=128
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=129|end_char=133
+9	winter	winter	NOUN	NN	Number=Sing	8	_	_	start_char=134|end_char=140|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=140|end_char=141
+
+# text = Men cleared the roads and restored power.
+# sent_id = 119239
+1	Men	man	NOUN	NNS	Number=Plur	0	_	_	start_char=142|end_char=145
+2	cleared	clear	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=146|end_char=153
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=154|end_char=157
+4	roads	road	NOUN	NNS	Number=Plur	3	_	_	start_char=158|end_char=163
+5	and	and	CCONJ	CC	_	4	_	_	start_char=164|end_char=167
+6	restored	restore	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=168|end_char=176
+7	power	power	NOUN	NN	Number=Sing	6	_	_	start_char=177|end_char=182|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=182|end_char=183
+
+# text = Women made cocoa and moaned on Facebook.
+# sent_id = 119240
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=184|end_char=189
+2	made	make	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=190|end_char=194
+3	cocoa	cocoa	NOUN	NN	Number=Sing	2	_	_	start_char=195|end_char=200
+4	and	and	CCONJ	CC	_	3	_	_	start_char=201|end_char=204
+5	moaned	moan	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=205|end_char=211
+6	on	on	ADP	IN	_	5	_	_	start_char=212|end_char=214
+7	Facebook	Facebook	PROPN	NNP	Number=Sing	6	_	_	start_char=215|end_char=223|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=223|end_char=224|SpaceAfter=No
+

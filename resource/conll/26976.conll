@@ -1,0 +1,19 @@
+# text = "Feel this."
+# sent_id = 57954
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Feel	feel	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=1|end_char=5
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=6|end_char=10|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=10|end_char=11|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=11|end_char=12
+
+# text = *girl grabs your muscles* -DONE
+# sent_id = 57955
+1	*	*	PUNCT	NFP	_	0	_	_	start_char=13|end_char=14|SpaceAfter=No
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=14|end_char=18
+3	grabs	grab	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=19|end_char=24
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=25|end_char=29
+5	muscles	muscle	NOUN	NNS	Number=Plur	4	_	_	start_char=30|end_char=37|SpaceAfter=No
+6	*	*	PUNCT	NFP	_	5	_	_	start_char=37|end_char=38
+7	-	-	PUNCT	HYPH	_	6	_	_	start_char=39|end_char=40|SpaceAfter=No
+8	DONE	do	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=40|end_char=44|SpaceAfter=No
+

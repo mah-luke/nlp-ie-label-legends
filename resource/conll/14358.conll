@@ -1,0 +1,24 @@
+# text = Well done, you just described 90% of women.
+# sent_id = 30630
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	done	do	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	just	just	ADV	RB	_	4	_	_	start_char=15|end_char=19
+6	described	describe	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	_	_	start_char=20|end_char=29
+7	90	90	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=30|end_char=32|SpaceAfter=No
+8	%	%	SYM	NN	Number=Sing	7	_	_	start_char=32|end_char=33
+9	of	of	ADP	IN	_	8	_	_	start_char=34|end_char=36
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=37|end_char=42|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=42|end_char=43
+
+# text = They're all the same.
+# sent_id = 30631
+1-2	They're	_	_	_	_	_	_	_	start_char=44|end_char=51
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=44|end_char=48
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=48|end_char=51
+3	all	all	DET	PDT	_	2	_	_	start_char=52|end_char=55
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=56|end_char=59
+5	same	same	ADJ	JJ	Degree=Pos	4	_	_	start_char=60|end_char=64|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=64|end_char=65|SpaceAfter=No
+

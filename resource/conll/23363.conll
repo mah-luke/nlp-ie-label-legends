@@ -1,0 +1,51 @@
+# text = If she needs professional help, she should get professional help.
+# sent_id = 50151
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=12
+4	professional	professional	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=25
+5	help	help	NOUN	NN	Number=Sing	4	_	_	start_char=26|end_char=30|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=30|end_char=31
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=32|end_char=35
+8	should	should	AUX	MD	VerbForm=Fin	7	_	_	start_char=36|end_char=42
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=43|end_char=46
+10	professional	professional	ADJ	JJ	Degree=Pos	9	_	_	start_char=47|end_char=59
+11	help	help	NOUN	NN	Number=Sing	10	_	_	start_char=60|end_char=64|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=64|end_char=65
+
+# text = You're not married to her.
+# sent_id = 50152
+1-2	You're	_	_	_	_	_	_	_	start_char=66|end_char=72
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=66|end_char=69
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=69|end_char=72
+3	not	not	PART	RB	_	2	_	_	start_char=73|end_char=76
+4	married	married	ADJ	JJ	Degree=Pos	3	_	_	start_char=77|end_char=84
+5	to	to	ADP	IN	_	4	_	_	start_char=85|end_char=87
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=88|end_char=91|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=91|end_char=92
+
+# text = It's unfair for her to depend on your paycheck, and then hold you ransom with her suicidal ideations.
+# sent_id = 50153
+1-2	It's	_	_	_	_	_	_	_	start_char=93|end_char=97
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=93|end_char=95
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=95|end_char=97
+3	unfair	unfair	ADJ	JJ	Degree=Pos	2	_	_	start_char=98|end_char=104
+4	for	for	SCONJ	IN	_	3	_	_	start_char=105|end_char=108
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=109|end_char=112
+6	to	to	PART	TO	_	5	_	_	start_char=113|end_char=115
+7	depend	depend	VERB	VB	VerbForm=Inf	6	_	_	start_char=116|end_char=122
+8	on	on	ADP	IN	_	7	_	_	start_char=123|end_char=125
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=126|end_char=130
+10	paycheck	paycheck	NOUN	NN	Number=Sing	9	_	_	start_char=131|end_char=139|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=139|end_char=140
+12	and	and	CCONJ	CC	_	11	_	_	start_char=141|end_char=144
+13	then	then	ADV	RB	PronType=Dem	12	_	_	start_char=145|end_char=149
+14	hold	hold	VERB	VB	VerbForm=Inf	13	_	_	start_char=150|end_char=154
+15	you	you	PRON	PRP$	Case=Acc|Person=2|PronType=Prs	14	_	_	start_char=155|end_char=158
+16	ransom	ransom	NOUN	NN	Number=Sing	15	_	_	start_char=159|end_char=165
+17	with	with	ADP	IN	_	16	_	_	start_char=166|end_char=170
+18	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=171|end_char=174
+19	suicidal	suicidal	ADJ	JJ	Degree=Pos	18	_	_	start_char=175|end_char=183
+20	ideations	ideation	NOUN	NNS	Number=Plur	19	_	_	start_char=184|end_char=193|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=193|end_char=194|SpaceAfter=No
+

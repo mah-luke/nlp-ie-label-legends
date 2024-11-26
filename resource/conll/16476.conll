@@ -1,0 +1,49 @@
+# text = "But the republicans are Nazis!"
+# sent_id = 35343
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	But	but	CCONJ	CC	_	1	_	_	start_char=1|end_char=4
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=5|end_char=8
+4	republicans	Republican	PROPN	NNPS	Number=Plur	3	_	_	start_char=9|end_char=20
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=21|end_char=24
+6	Nazis	Nazi	PROPN	NNPS	Number=Plur	5	_	_	start_char=25|end_char=30|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=30|end_char=31|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=31|end_char=32
+
+# text = Democrats peddle misery.
+# sent_id = 35344
+1	Democrats	Democrat	PROPN	NNPS	Number=Plur	0	_	_	start_char=33|end_char=42
+2	peddle	pedal	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=43|end_char=49
+3	misery	misery	NOUN	NN	Number=Sing	2	_	_	start_char=50|end_char=56|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=56|end_char=57
+
+# text = They turned that into a cottage industry with all the victimhood nonsense.
+# sent_id = 35345
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=58|end_char=62
+2	turned	turn	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=63|end_char=69
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=70|end_char=74
+4	into	into	ADP	IN	_	3	_	_	start_char=75|end_char=79
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=80|end_char=81
+6	cottage	cottage	NOUN	NN	Number=Sing	5	_	_	start_char=82|end_char=89
+7	industry	industry	NOUN	NN	Number=Sing	6	_	_	start_char=90|end_char=98
+8	with	with	ADP	IN	_	7	_	_	start_char=99|end_char=103
+9	all	all	DET	PDT	_	8	_	_	start_char=104|end_char=107
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=108|end_char=111
+11	victimhood	victimhood	NOUN	NN	Number=Sing	10	_	_	start_char=112|end_char=122
+12	nonsense	nonsense	NOUN	NN	Number=Sing	11	_	_	start_char=123|end_char=131|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=131|end_char=132
+
+# text = They thrive on that to get people to vote for them.
+# sent_id = 35346
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=133|end_char=137
+2	thrive	thrive	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=138|end_char=144
+3	on	on	ADP	IN	_	2	_	_	start_char=145|end_char=147
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=148|end_char=152
+5	to	to	PART	TO	_	4	_	_	start_char=153|end_char=155
+6	get	get	VERB	VB	VerbForm=Inf	5	_	_	start_char=156|end_char=159
+7	people	person	NOUN	NNS	Number=Plur	6	_	_	start_char=160|end_char=166
+8	to	to	PART	TO	_	7	_	_	start_char=167|end_char=169
+9	vote	vote	VERB	VB	VerbForm=Inf	8	_	_	start_char=170|end_char=174
+10	for	for	ADP	IN	_	9	_	_	start_char=175|end_char=178
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=179|end_char=183|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=183|end_char=184|SpaceAfter=No
+

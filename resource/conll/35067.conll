@@ -1,0 +1,22 @@
+# text = That wasn’t mocking !!!
+# sent_id = 75051
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2-3	wasn’t	_	_	_	_	_	_	_	start_char=5|end_char=11
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	n’t	not	PART	RB	_	2	_	_	start_char=8|end_char=11
+4	mocking	mock	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=12|end_char=19
+5	!!!	!!!	PUNCT	.	_	4	_	_	start_char=20|end_char=23
+
+# text = Hello idiots !!
+# sent_id = 75052
+1	Hello	hello	INTJ	UH	_	0	_	_	start_char=24|end_char=29
+2	idiots	idiot	NOUN	NNS	Number=Plur	1	_	_	start_char=30|end_char=36
+3	!!	!!	PUNCT	.	_	2	_	_	start_char=37|end_char=39
+
+# text = He repeated her statements
+# sent_id = 75053
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=40|end_char=42
+2	repeated	repeat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=43|end_char=51
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=52|end_char=55
+4	statements	statement	NOUN	NNS	Number=Plur	3	_	_	start_char=56|end_char=66|SpaceAfter=No
+

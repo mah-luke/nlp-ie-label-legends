@@ -1,0 +1,53 @@
+# text = Let's sum this up:
+# sent_id = 111972
+1-2	Let's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	sum	sum	VERB	VB	VerbForm=Inf	2	_	_	start_char=6|end_char=9
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=10|end_char=14
+5	up	up	ADP	RP	_	4	_	_	start_char=15|end_char=17|SpaceAfter=No
+6	:	:	PUNCT	:	_	5	_	_	start_char=17|end_char=18
+
+# text = Jews get the oven.
+# sent_id = 111973
+1	Jews	Jew	PROPN	NNPS	Number=Plur	0	_	_	start_char=19|end_char=23
+2	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=24|end_char=27
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=28|end_char=31
+4	oven	oven	NOUN	NN	Number=Sing	3	_	_	start_char=32|end_char=36|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=36|end_char=37
+
+# text = Jew lovers get the rope.
+# sent_id = 111974
+1	Jew	Jew	NOUN	NN	Number=Sing	0	_	_	start_char=38|end_char=41
+2	lovers	lover	NOUN	NNS	Number=Plur	1	_	_	start_char=42|end_char=48
+3	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=49|end_char=52
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=53|end_char=56
+5	rope	rope	NOUN	NN	Number=Sing	4	_	_	start_char=57|end_char=61|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=61|end_char=62
+
+# text = Single mothers get the rope.
+# sent_id = 111975
+1	Single	single	ADJ	JJ	Degree=Pos	0	_	_	start_char=63|end_char=69
+2	mothers	mother	NOUN	NNS	Number=Plur	1	_	_	start_char=70|end_char=77
+3	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=78|end_char=81
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=82|end_char=85
+5	rope	rope	NOUN	NN	Number=Sing	4	_	_	start_char=86|end_char=90|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=90|end_char=91
+
+# text = Freudian psychologists get the oven.
+# sent_id = 111976
+1	Freudian	Freudian	ADJ	JJ	Degree=Pos	0	_	_	start_char=92|end_char=100
+2	psychologists	psychologist	NOUN	NNS	Number=Plur	1	_	_	start_char=101|end_char=114
+3	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=115|end_char=118
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=119|end_char=122
+5	oven	oven	NOUN	NN	Number=Sing	4	_	_	start_char=123|end_char=127|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=127|end_char=128
+
+# text = Merchant thirsters are niggers.
+# sent_id = 111977
+1	Merchant	merchant	NOUN	NN	Number=Sing	0	_	_	start_char=129|end_char=137
+2	thirsters	thirster	NOUN	NNS	Number=Plur	1	_	_	start_char=138|end_char=147
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=148|end_char=151
+4	niggers	nigger	NOUN	NNS	Number=Plur	3	_	_	start_char=152|end_char=159|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=159|end_char=160|SpaceAfter=No
+

@@ -1,0 +1,68 @@
+# text = Good morning, ladies.
+# sent_id = 61486
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	morning	morning	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=12|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=12|end_char=13
+4	ladies	lady	NOUN	NNS	Number=Plur	3	_	_	start_char=14|end_char=20|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=20|end_char=21
+
+# text = I’m a wife of 44 years, mom of 2, grandma of 5.
+# sent_id = 61487
+1-2	I’m	_	_	_	_	_	_	_	start_char=22|end_char=25
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=22|end_char=23
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=23|end_char=25
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=26|end_char=27
+4	wife	wife	NOUN	NN	Number=Sing	3	_	_	start_char=28|end_char=32
+5	of	of	ADP	IN	_	4	_	_	start_char=33|end_char=35
+6	44	44	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=36|end_char=38
+7	years	year	NOUN	NNS	Number=Plur	6	_	_	start_char=39|end_char=44|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=44|end_char=45
+9	mom	mom	NOUN	NN	Number=Sing	8	_	_	start_char=46|end_char=49
+10	of	of	ADP	IN	_	9	_	_	start_char=50|end_char=52
+11	2	2	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=53|end_char=54|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=54|end_char=55
+13	grandma	grandma	NOUN	NN	Number=Sing	12	_	_	start_char=56|end_char=63
+14	of	of	ADP	IN	_	13	_	_	start_char=64|end_char=66
+15	5	5	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=67|end_char=68|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=68|end_char=69
+
+# text = I love Jesus.
+# sent_id = 61488
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=70|end_char=71
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=72|end_char=76
+3	Jesus	Jesus	PROPN	NNP	Number=Sing	2	_	_	start_char=77|end_char=82|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=82|end_char=83
+
+# text = I pray for our world, our leaders, and our families every day.
+# sent_id = 61489
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=84|end_char=85
+2	pray	pray	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=86|end_char=90
+3	for	for	ADP	IN	_	2	_	_	start_char=91|end_char=94
+4	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=95|end_char=98
+5	world	world	NOUN	NN	Number=Sing	4	_	_	start_char=99|end_char=104|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=104|end_char=105
+7	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=106|end_char=109
+8	leaders	leader	NOUN	NNS	Number=Plur	7	_	_	start_char=110|end_char=117|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=117|end_char=118
+10	and	and	CCONJ	CC	_	9	_	_	start_char=119|end_char=122
+11	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=123|end_char=126
+12	families	family	NOUN	NNS	Number=Plur	11	_	_	start_char=127|end_char=135
+13	every	every	DET	DT	PronType=Tot	12	_	_	start_char=136|end_char=141
+14	day	day	NOUN	NN	Number=Sing	13	_	_	start_char=142|end_char=145|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=145|end_char=146
+
+# text = I also pray for my grandkids growing up in these times.
+# sent_id = 61490
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=147|end_char=148
+2	also	also	ADV	RB	_	1	_	_	start_char=149|end_char=153
+3	pray	pray	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=154|end_char=158
+4	for	for	ADP	IN	_	3	_	_	start_char=159|end_char=162
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=163|end_char=165
+6	grandkids	grandkid	NOUN	NNS	Number=Plur	5	_	_	start_char=166|end_char=175
+7	growing	grow	VERB	VBG	VerbForm=Ger	6	_	_	start_char=176|end_char=183
+8	up	up	ADP	RP	_	7	_	_	start_char=184|end_char=186
+9	in	in	ADP	IN	_	8	_	_	start_char=187|end_char=189
+10	these	this	DET	DT	Number=Plur|PronType=Dem	9	_	_	start_char=190|end_char=195
+11	times	time	NOUN	NNS	Number=Plur	10	_	_	start_char=196|end_char=201|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=201|end_char=202|SpaceAfter=No
+

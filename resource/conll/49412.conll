@@ -1,0 +1,16 @@
+# text = Plot twist: he's related to one of the girls.
+# sent_id = 105647
+1	Plot	plot	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
+2	twist	twist	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=10|end_char=11
+4-5	he's	_	_	_	_	_	_	_	start_char=12|end_char=16
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=12|end_char=14
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=14|end_char=16
+6	related	related	ADJ	JJ	Degree=Pos	5	_	_	start_char=17|end_char=24
+7	to	to	ADP	IN	_	6	_	_	start_char=25|end_char=27
+8	one	one	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=28|end_char=31
+9	of	of	ADP	IN	_	8	_	_	start_char=32|end_char=34
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=35|end_char=38
+11	girls	girl	NOUN	NNS	Number=Plur	10	_	_	start_char=39|end_char=44|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=44|end_char=45|SpaceAfter=No
+

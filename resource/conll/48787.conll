@@ -1,0 +1,40 @@
+# text = At first I thought it was that dude from Vice channel on "Hamilton's Pharmacopia"..
+# sent_id = 104294
+1	At	at	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	first	first	ADV	RB	NumType=Ord	1	_	_	start_char=3|end_char=8
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=9|end_char=10
+4	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=11|end_char=18
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=19|end_char=21
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=22|end_char=25
+7	that	that	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=26|end_char=30
+8	dude	dude	NOUN	NN	Number=Sing	7	_	_	start_char=31|end_char=35
+9	from	from	ADP	IN	_	8	_	_	start_char=36|end_char=40
+10	Vice	Vice	PROPN	NNP	Number=Sing	9	_	_	start_char=41|end_char=45
+11	channel	channel	NOUN	NN	Number=Sing	10	_	_	start_char=46|end_char=53
+12	on	on	ADP	IN	_	11	_	_	start_char=54|end_char=56
+13	"	"	PUNCT	``	_	12	_	_	start_char=57|end_char=58|SpaceAfter=No
+14-15	Hamilton's	_	_	_	_	_	_	_	start_char=58|end_char=68
+14	Hamilton	Hamilton	PROPN	NNP	Number=Sing	13	_	_	start_char=58|end_char=66
+15	's	's	PART	POS	_	14	_	_	start_char=66|end_char=68
+16	Pharmacopia	Pharmacopia	PROPN	NNP	Number=Sing	15	_	_	start_char=69|end_char=80|SpaceAfter=No
+17	"	"	PUNCT	''	_	16	_	_	start_char=80|end_char=81|SpaceAfter=No
+18	..	..	PUNCT	.	_	17	_	_	start_char=81|end_char=83
+
+# text = He probably killed her in his "Animal Spirit State"... Damn hippies..
+# sent_id = 104295
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=84|end_char=86
+2	probably	probably	ADV	RB	_	1	_	_	start_char=87|end_char=95
+3	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=96|end_char=102
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=103|end_char=106
+5	in	in	ADP	IN	_	4	_	_	start_char=107|end_char=109
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=110|end_char=113
+7	"	"	PUNCT	``	_	6	_	_	start_char=114|end_char=115|SpaceAfter=No
+8	Animal	Animal	PROPN	NNP	Number=Sing	7	_	_	start_char=115|end_char=121
+9	Spirit	Spirit	PROPN	NNP	Number=Sing	8	_	_	start_char=122|end_char=128
+10	State	State	PROPN	NNP	Number=Sing	9	_	_	start_char=129|end_char=134|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=134|end_char=135|SpaceAfter=No
+12	...	...	PUNCT	,	_	11	_	_	start_char=135|end_char=138
+13	Damn	Damn	ADJ	JJ	Degree=Pos	12	_	_	start_char=139|end_char=143
+14	hippies	hippie	NOUN	NNS	Number=Plur	13	_	_	start_char=144|end_char=151|SpaceAfter=No
+15	..	..	PUNCT	.	_	14	_	_	start_char=151|end_char=153|SpaceAfter=No
+

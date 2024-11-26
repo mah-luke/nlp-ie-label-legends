@@ -1,0 +1,24 @@
+# text = That [USER]‍ bitch still crying about younger girls here.
+# sent_id = 67139
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=5|end_char=6|SpaceAfter=No
+3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=10|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=10|end_char=11|SpaceAfter=No
+5	‍	‍	PUNCT	:	_	4	_	_	start_char=11|end_char=12
+6	bitch	bitch	NOUN	NN	Number=Sing	5	_	_	start_char=13|end_char=18
+7	still	still	ADV	RB	_	6	_	_	start_char=19|end_char=24
+8	crying	cry	VERB	VBG	VerbForm=Ger	7	_	_	start_char=25|end_char=31
+9	about	about	ADP	IN	_	8	_	_	start_char=32|end_char=37
+10	younger	young	ADJ	JJR	Degree=Cmp	9	_	_	start_char=38|end_char=45
+11	girls	girl	NOUN	NNS	Number=Plur	10	_	_	start_char=46|end_char=51
+12	here	here	ADV	RB	PronType=Dem	11	_	_	start_char=52|end_char=56|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=56|end_char=57
+
+# text = she muted me 😂🤣😂🤣🤣
+# sent_id = 67140
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=58|end_char=61
+2	muted	mute	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=62|end_char=67
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=68|end_char=70
+4	😂🤣😂🤣	😂🤣😂🤣	PUNCT	.	_	3	_	_	start_char=71|end_char=75|SpaceAfter=No
+5	🤣	🤣	PUNCT	.	_	4	_	_	start_char=75|end_char=76|SpaceAfter=No
+

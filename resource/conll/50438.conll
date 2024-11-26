@@ -1,0 +1,77 @@
+# text = Why are you so interested in "fertile"?
+# sent_id = 107812
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=8|end_char=11
+4	so	so	ADV	RB	_	3	_	_	start_char=12|end_char=14
+5	interested	interested	ADJ	JJ	Degree=Pos	4	_	_	start_char=15|end_char=25
+6	in	in	ADP	IN	_	5	_	_	start_char=26|end_char=28
+7	"	"	PUNCT	``	_	6	_	_	start_char=29|end_char=30|SpaceAfter=No
+8	fertile	fertile	ADJ	JJ	Degree=Pos	7	_	_	start_char=30|end_char=37|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=37|end_char=38|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=38|end_char=39
+
+# text = I don't want kids.
+# sent_id = 107813
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=40|end_char=41
+2-3	don't	_	_	_	_	_	_	_	start_char=42|end_char=47
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=44
+3	n't	not	PART	RB	_	2	_	_	start_char=44|end_char=47
+4	want	want	VERB	VB	VerbForm=Inf	3	_	_	start_char=48|end_char=52
+5	kids	kid	NOUN	NNS	Number=Plur	4	_	_	start_char=53|end_char=57|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=57|end_char=58
+
+# text = Fertility is actually a turn off.
+# sent_id = 107814
+1	Fertility	fertility	NOUN	NN	Number=Sing	0	_	_	start_char=59|end_char=68
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=69|end_char=71
+3	actually	actually	ADV	RB	_	2	_	_	start_char=72|end_char=80
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=81|end_char=82
+5	turn	turn	NOUN	NN	Number=Sing	4	_	_	start_char=83|end_char=87
+6	off	off	ADP	RP	_	5	_	_	start_char=88|end_char=91|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=91|end_char=92
+
+# text = A hot barren woman would be better.
+# sent_id = 107815
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=93|end_char=94
+2	hot	hot	ADJ	JJ	Degree=Pos	1	_	_	start_char=95|end_char=98
+3	barren	barren	ADJ	JJ	Degree=Pos	2	_	_	start_char=99|end_char=105
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=106|end_char=111
+5	would	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=112|end_char=117
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=118|end_char=120
+7	better	good	ADJ	JJR	Degree=Cmp	6	_	_	start_char=121|end_char=127|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=127|end_char=128
+
+# text = But you can never trust them on that...nor trust that God won't pull some shit and "open her womb" like in the Bible.
+# sent_id = 107816
+1	But	but	CCONJ	CC	_	0	_	_	start_char=129|end_char=132
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=133|end_char=136
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=137|end_char=140
+4	never	never	ADV	RB	_	3	_	_	start_char=141|end_char=146
+5	trust	trust	VERB	VB	VerbForm=Inf	4	_	_	start_char=147|end_char=152
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=153|end_char=157
+7	on	on	ADP	IN	_	6	_	_	start_char=158|end_char=160
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=161|end_char=165|SpaceAfter=No
+9	...	...	PUNCT	,	_	8	_	_	start_char=165|end_char=168|SpaceAfter=No
+10	nor	nor	CCONJ	CC	_	9	_	_	start_char=168|end_char=171
+11	trust	trust	VERB	VB	VerbForm=Inf	10	_	_	start_char=172|end_char=177
+12	that	that	SCONJ	IN	_	11	_	_	start_char=178|end_char=182
+13	God	God	PROPN	NNP	Number=Sing	12	_	_	start_char=183|end_char=186
+14-15	won't	_	_	_	_	_	_	_	start_char=187|end_char=192
+14	wo	will	AUX	MD	VerbForm=Fin	13	_	_	start_char=187|end_char=189
+15	n't	not	PART	RB	_	14	_	_	start_char=189|end_char=192
+16	pull	pull	VERB	VB	VerbForm=Inf	15	_	_	start_char=193|end_char=197
+17	some	some	DET	DT	_	16	_	_	start_char=198|end_char=202
+18	shit	shit	NOUN	NN	Number=Sing	17	_	_	start_char=203|end_char=207
+19	and	and	CCONJ	CC	_	18	_	_	start_char=208|end_char=211
+20	"	"	PUNCT	``	_	19	_	_	start_char=212|end_char=213|SpaceAfter=No
+21	open	open	VERB	VB	VerbForm=Inf	20	_	_	start_char=213|end_char=217
+22	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	_	_	start_char=218|end_char=221
+23	womb	womb	NOUN	NN	Number=Sing	22	_	_	start_char=222|end_char=226|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	_	_	start_char=226|end_char=227
+25	like	like	ADP	IN	_	24	_	_	start_char=228|end_char=232
+26	in	in	ADP	IN	_	25	_	_	start_char=233|end_char=235
+27	the	the	DET	DT	Definite=Def|PronType=Art	26	_	_	start_char=236|end_char=239
+28	Bible	Bible	PROPN	NNP	Number=Sing	27	_	_	start_char=240|end_char=245|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=245|end_char=246|SpaceAfter=No
+

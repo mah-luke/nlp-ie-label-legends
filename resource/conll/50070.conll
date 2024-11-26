@@ -1,0 +1,51 @@
+# text = [USER]
+# sent_id = 107013
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Hillary Clinton working to subvert the will of the people and to try and destroy democracy.
+# sent_id = 107014
+1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=7|end_char=14
+2	Clinton	Clinton	PROPN	NNP	Number=Sing	1	_	_	start_char=15|end_char=22
+3	working	work	VERB	VBG	VerbForm=Ger	2	_	_	start_char=23|end_char=30
+4	to	to	PART	TO	_	3	_	_	start_char=31|end_char=33
+5	subvert	subvert	VERB	VB	VerbForm=Inf	4	_	_	start_char=34|end_char=41
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=42|end_char=45
+7	will	will	NOUN	NN	Number=Sing	6	_	_	start_char=46|end_char=50
+8	of	of	ADP	IN	_	7	_	_	start_char=51|end_char=53
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=54|end_char=57
+10	people	person	NOUN	NNS	Number=Plur	9	_	_	start_char=58|end_char=64
+11	and	and	CCONJ	CC	_	10	_	_	start_char=65|end_char=68
+12	to	to	PART	TO	_	11	_	_	start_char=69|end_char=71
+13	try	try	VERB	VB	VerbForm=Inf	12	_	_	start_char=72|end_char=75
+14	and	and	CCONJ	CC	_	13	_	_	start_char=76|end_char=79
+15	destroy	destroy	VERB	VB	VerbForm=Inf	14	_	_	start_char=80|end_char=87
+16	democracy	democracy	NOUN	NN	Number=Sing	15	_	_	start_char=88|end_char=97|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=97|end_char=98
+
+# text = She along with Obama are the greatest enemies of democracy.
+# sent_id = 107015
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=99|end_char=102
+2	along	along	ADP	IN	_	1	_	_	start_char=103|end_char=108
+3	with	with	ADP	IN	_	2	_	_	start_char=109|end_char=113
+4	Obama	Obama	PROPN	NNP	Number=Sing	3	_	_	start_char=114|end_char=119
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=120|end_char=123
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=124|end_char=127
+7	greatest	great	ADJ	JJS	Degree=Sup	6	_	_	start_char=128|end_char=136
+8	enemies	enemy	NOUN	NNS	Number=Plur	7	_	_	start_char=137|end_char=144
+9	of	of	ADP	IN	_	8	_	_	start_char=145|end_char=147
+10	democracy	democracy	NOUN	NN	Number=Sing	9	_	_	start_char=148|end_char=157|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=157|end_char=158
+
+# text = That and she's a bitch.
+# sent_id = 107016
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=159|end_char=163
+2	and	and	CCONJ	CC	_	1	_	_	start_char=164|end_char=167
+3-4	she's	_	_	_	_	_	_	_	start_char=168|end_char=173
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=168|end_char=171
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=171|end_char=173
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=174|end_char=175
+6	bitch	bitch	NOUN	NN	Number=Sing	5	_	_	start_char=176|end_char=181|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=181|end_char=182|SpaceAfter=No
+

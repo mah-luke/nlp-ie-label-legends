@@ -1,0 +1,42 @@
+# text = It's a rule of mine as well.
+# sent_id = 81717
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=5|end_char=6
+4	rule	rule	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=11
+5	of	of	ADP	IN	_	4	_	_	start_char=12|end_char=14
+6	mine	mine	PRON	PRP	Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=15|end_char=19
+7	as	as	ADV	RB	_	6	_	_	start_char=20|end_char=22
+8	well	well	ADV	RB	Degree=Pos	7	_	_	start_char=23|end_char=27|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=27|end_char=28
+
+# text = I don't want to smell smoke or smell like smoke, and I don't want to be a widower at 40.
+# sent_id = 81718
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=29|end_char=30
+2-3	don't	_	_	_	_	_	_	_	start_char=31|end_char=36
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=33
+3	n't	not	PART	RB	_	2	_	_	start_char=33|end_char=36
+4	want	want	VERB	VB	VerbForm=Inf	3	_	_	start_char=37|end_char=41
+5	to	to	PART	TO	_	4	_	_	start_char=42|end_char=44
+6	smell	smell	VERB	VB	VerbForm=Inf	5	_	_	start_char=45|end_char=50
+7	smoke	smoke	NOUN	NN	Number=Sing	6	_	_	start_char=51|end_char=56
+8	or	or	CCONJ	CC	_	7	_	_	start_char=57|end_char=59
+9	smell	smell	VERB	VB	VerbForm=Inf	8	_	_	start_char=60|end_char=65
+10	like	like	ADP	IN	_	9	_	_	start_char=66|end_char=70
+11	smoke	smoke	NOUN	NN	Number=Sing	10	_	_	start_char=71|end_char=76|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=76|end_char=77
+13	and	and	CCONJ	CC	_	12	_	_	start_char=78|end_char=81
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=82|end_char=83
+15-16	don't	_	_	_	_	_	_	_	start_char=84|end_char=89
+15	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	_	_	start_char=84|end_char=86
+16	n't	not	PART	RB	_	15	_	_	start_char=86|end_char=89
+17	want	want	VERB	VB	VerbForm=Inf	16	_	_	start_char=90|end_char=94
+18	to	to	PART	TO	_	17	_	_	start_char=95|end_char=97
+19	be	be	AUX	VB	VerbForm=Inf	18	_	_	start_char=98|end_char=100
+20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	start_char=101|end_char=102
+21	widower	widower	NOUN	NN	Number=Sing	20	_	_	start_char=103|end_char=110
+22	at	at	ADP	IN	_	21	_	_	start_char=111|end_char=113
+23	40	40	NUM	CD	NumForm=Digit|NumType=Card	22	_	_	start_char=114|end_char=116|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=116|end_char=117|SpaceAfter=No
+

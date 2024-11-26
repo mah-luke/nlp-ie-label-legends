@@ -1,0 +1,69 @@
+# text = Oh look....
+# sent_id = 84534
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=3|end_char=7|SpaceAfter=No
+3	....	....	PUNCT	.	_	2	_	_	start_char=7|end_char=11
+
+# text = Poland isn't as pure as you think.... your daughters are getting raped too, because where there is 1% of them in the population 10 - 20% of the native girls from 5 - 18 WILL be getting raped, it's a formula wherever they go.
+# sent_id = 84535
+1	Poland	Poland	PROPN	NNP	Number=Sing	0	_	_	start_char=12|end_char=18
+2-3	isn't	_	_	_	_	_	_	_	start_char=19|end_char=24
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=19|end_char=21
+3	n't	not	PART	RB	_	2	_	_	start_char=21|end_char=24
+4	as	as	ADV	RB	_	3	_	_	start_char=25|end_char=27
+5	pure	pure	ADJ	JJ	Degree=Pos	4	_	_	start_char=28|end_char=32
+6	as	as	SCONJ	IN	_	5	_	_	start_char=33|end_char=35
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=36|end_char=39
+8	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=40|end_char=45|SpaceAfter=No
+9	....	....	PUNCT	,	_	8	_	_	start_char=45|end_char=49
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	_	_	start_char=50|end_char=54
+11	daughters	daughter	NOUN	NNS	Number=Plur	10	_	_	start_char=55|end_char=64
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=65|end_char=68
+13	getting	get	AUX	VBG	VerbForm=Ger	12	_	_	start_char=69|end_char=76
+14	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=77|end_char=82
+15	too	too	ADV	RB	_	14	_	_	start_char=83|end_char=86|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=86|end_char=87
+17	because	because	SCONJ	IN	_	16	_	_	start_char=88|end_char=95
+18	where	where	ADV	WRB	PronType=Int	17	_	_	start_char=96|end_char=101
+19	there	there	PRON	EX	_	18	_	_	start_char=102|end_char=107
+20	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=108|end_char=110
+21	1	1	NUM	CD	NumForm=Digit|NumType=Card	20	_	_	start_char=111|end_char=112|SpaceAfter=No
+22	%	%	SYM	NN	Number=Sing	21	_	_	start_char=112|end_char=113
+23	of	of	ADP	IN	_	22	_	_	start_char=114|end_char=116
+24	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	23	_	_	start_char=117|end_char=121
+25	in	in	ADP	IN	_	24	_	_	start_char=122|end_char=124
+26	the	the	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=125|end_char=128
+27	population	population	NOUN	NN	Number=Sing	26	_	_	start_char=129|end_char=139
+28	10	10	NUM	CD	NumForm=Digit|NumType=Card	27	_	_	start_char=140|end_char=142
+29	-	-	SYM	SYM	_	28	_	_	start_char=143|end_char=144
+30	20	20	NUM	CD	NumForm=Digit|NumType=Card	29	_	_	start_char=145|end_char=147|SpaceAfter=No
+31	%	%	SYM	NN	Number=Sing	30	_	_	start_char=147|end_char=148
+32	of	of	ADP	IN	_	31	_	_	start_char=149|end_char=151
+33	the	the	DET	DT	Definite=Def|PronType=Art	32	_	_	start_char=152|end_char=155
+34	native	native	ADJ	JJ	Degree=Pos	33	_	_	start_char=156|end_char=162
+35	girls	girl	NOUN	NNS	Number=Plur	34	_	_	start_char=163|end_char=168
+36	from	from	ADP	IN	_	35	_	_	start_char=169|end_char=173
+37	5	5	NUM	CD	NumForm=Digit|NumType=Card	36	_	_	start_char=174|end_char=175
+38	-	-	SYM	SYM	_	37	_	_	start_char=176|end_char=177
+39	18	18	NUM	CD	NumForm=Digit|NumType=Card	38	_	_	start_char=178|end_char=180
+40	WILL	will	AUX	MD	VerbForm=Fin	39	_	_	start_char=181|end_char=185
+41	be	be	AUX	VB	VerbForm=Inf	40	_	_	start_char=186|end_char=188
+42	getting	get	AUX	VBG	VerbForm=Ger	41	_	_	start_char=189|end_char=196
+43	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	42	_	_	start_char=197|end_char=202|SpaceAfter=No
+44	,	,	PUNCT	,	_	43	_	_	start_char=202|end_char=203
+45-46	it's	_	_	_	_	_	_	_	start_char=204|end_char=208
+45	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	44	_	_	start_char=204|end_char=206
+46	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	_	_	start_char=206|end_char=208
+47	a	a	DET	DT	Definite=Ind|PronType=Art	46	_	_	start_char=209|end_char=210
+48	formula	formula	NOUN	NN	Number=Sing	47	_	_	start_char=211|end_char=218
+49	wherever	wherever	ADV	WRB	PronType=Int	48	_	_	start_char=219|end_char=227
+50	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	49	_	_	start_char=228|end_char=232
+51	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	50	_	_	start_char=233|end_char=235|SpaceAfter=No
+52	.	.	PUNCT	.	_	51	_	_	start_char=235|end_char=236
+
+# text = [URL]
+# sent_id = 84536
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=237|end_char=238|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=238|end_char=241|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=241|end_char=242|SpaceAfter=No
+

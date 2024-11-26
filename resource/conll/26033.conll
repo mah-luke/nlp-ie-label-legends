@@ -1,0 +1,61 @@
+# text = Man, start digging all possible dirt on that fem.
+# sent_id = 55886
+1	Man	man	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	start	start	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=5|end_char=10
+4	digging	dig	VERB	VBG	VerbForm=Ger	3	_	_	start_char=11|end_char=18
+5	all	all	DET	DT	_	4	_	_	start_char=19|end_char=22
+6	possible	possible	ADJ	JJ	Degree=Pos	5	_	_	start_char=23|end_char=31
+7	dirt	dirt	NOUN	NN	Number=Sing	6	_	_	start_char=32|end_char=36
+8	on	on	ADP	IN	_	7	_	_	start_char=37|end_char=39
+9	that	that	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=40|end_char=44
+10	fem	fem	NOUN	NN	Number=Sing	9	_	_	start_char=45|end_char=48|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=48|end_char=49
+
+# text = The sooner the better.
+# sent_id = 55887
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=50|end_char=53
+2	sooner	soon	ADV	RBR	Degree=Cmp	1	_	_	start_char=54|end_char=60
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=61|end_char=64
+4	better	good	ADJ	JJR	Degree=Cmp	3	_	_	start_char=65|end_char=71|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=71|end_char=72
+
+# text = All her fuckups at work, all possible criminal actions / misdemeanors she might have.
+# sent_id = 55888
+1	All	all	DET	PDT	_	0	_	_	start_char=73|end_char=76
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=77|end_char=80
+3	fuckups	fuckup	NOUN	NNS	Number=Plur	2	_	_	start_char=81|end_char=88
+4	at	at	ADP	IN	_	3	_	_	start_char=89|end_char=91
+5	work	work	NOUN	NN	Number=Sing	4	_	_	start_char=92|end_char=96|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=96|end_char=97
+7	all	all	DET	DT	_	6	_	_	start_char=98|end_char=101
+8	possible	possible	ADJ	JJ	Degree=Pos	7	_	_	start_char=102|end_char=110
+9	criminal	criminal	ADJ	JJ	Degree=Pos	8	_	_	start_char=111|end_char=119
+10	actions	action	NOUN	NNS	Number=Plur	9	_	_	start_char=120|end_char=127
+11	/	/	SYM	,	_	10	_	_	start_char=128|end_char=129
+12	misdemeanors	misdemeanor	NOUN	NNS	Number=Plur	11	_	_	start_char=130|end_char=142
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=143|end_char=146
+14	might	might	AUX	MD	VerbForm=Fin	13	_	_	start_char=147|end_char=152
+15	have	have	VERB	VB	VerbForm=Inf	14	_	_	start_char=153|end_char=157|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=157|end_char=158
+
+# text = Will come in handy when she gets angry with you unavailability and decides to #metoo you.
+# sent_id = 55889
+1	Will	will	AUX	MD	VerbForm=Fin	0	_	_	start_char=159|end_char=163
+2	come	come	VERB	VB	VerbForm=Inf	1	_	_	start_char=164|end_char=168
+3	in	in	ADP	IN	_	2	_	_	start_char=169|end_char=171
+4	handy	handy	ADJ	JJ	Degree=Pos	3	_	_	start_char=172|end_char=177
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=178|end_char=182
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=183|end_char=186
+7	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=187|end_char=191
+8	angry	angry	ADJ	JJ	Degree=Pos	7	_	_	start_char=192|end_char=197
+9	with	with	ADP	IN	_	8	_	_	start_char=198|end_char=202
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	_	_	start_char=203|end_char=206
+11	unavailability	unavailability	NOUN	NN	Number=Sing	10	_	_	start_char=207|end_char=221
+12	and	and	CCONJ	CC	_	11	_	_	start_char=222|end_char=225
+13	decides	decide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=226|end_char=233
+14	to	to	PART	TO	_	13	_	_	start_char=234|end_char=236
+15	#metoo	#metoo	VERB	VB	VerbForm=Inf	14	_	_	start_char=237|end_char=243
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	_	_	start_char=244|end_char=247|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=247|end_char=248|SpaceAfter=No
+

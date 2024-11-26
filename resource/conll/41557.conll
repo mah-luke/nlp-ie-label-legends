@@ -1,0 +1,37 @@
+# text = Trump proposes 5% budget cut for each Cabinet agency!
+# sent_id = 88938
+1	Trump	Trump	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	proposes	propose	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=14
+3	5	5	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=15|end_char=16|SpaceAfter=No
+4	%	%	SYM	NN	Number=Sing	3	_	_	start_char=16|end_char=17
+5	budget	budget	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=24
+6	cut	cut	NOUN	NN	Number=Sing	5	_	_	start_char=25|end_char=28
+7	for	for	ADP	IN	_	6	_	_	start_char=29|end_char=32
+8	each	each	DET	DT	_	7	_	_	start_char=33|end_char=37
+9	Cabinet	cabinet	NOUN	NN	Number=Sing	8	_	_	start_char=38|end_char=45
+10	agency	agency	NOUN	NN	Number=Sing	9	_	_	start_char=46|end_char=52|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=52|end_char=53
+
+# text = Is Trump the most libertarian President in history??
+# sent_id = 88939
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=54|end_char=56
+2	Trump	Trump	PROPN	NNP	Number=Sing	1	_	_	start_char=57|end_char=62
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=63|end_char=66
+4	most	most	ADV	RBS	Degree=Sup	3	_	_	start_char=67|end_char=71
+5	libertarian	libertarian	ADJ	JJ	Degree=Pos	4	_	_	start_char=72|end_char=83
+6	President	President	PROPN	NNP	Number=Sing	5	_	_	start_char=84|end_char=93
+7	in	in	ADP	IN	_	6	_	_	start_char=94|end_char=96
+8	history	history	NOUN	NN	Number=Sing	7	_	_	start_char=97|end_char=104|SpaceAfter=No
+9	??	??	PUNCT	.	_	8	_	_	start_char=104|end_char=106
+
+# text = YES! [URL] [URL]
+# sent_id = 88940
+1	YES	yes	INTJ	UH	_	0	_	_	start_char=107|end_char=110|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=110|end_char=111
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=112|end_char=113|SpaceAfter=No
+4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=113|end_char=116|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=116|end_char=117
+6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=118|end_char=119|SpaceAfter=No
+7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=119|end_char=122|SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=122|end_char=123|SpaceAfter=No
+

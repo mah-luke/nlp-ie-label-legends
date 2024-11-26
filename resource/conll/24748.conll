@@ -1,0 +1,56 @@
+# text = First, your title is inaccurate.
+# sent_id = 53032
+1	First	first	ADV	RB	NumType=Ord	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=7|end_char=11
+4	title	title	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=17
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=18|end_char=20
+6	inaccurate	inaccurate	ADJ	JJ	Degree=Pos	5	_	_	start_char=21|end_char=31|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=31|end_char=32
+
+# text = It should read “ what compels a women to rape children”.
+# sent_id = 53033
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=33|end_char=35
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=36|end_char=42
+3	read	read	VERB	VB	VerbForm=Inf	2	_	_	start_char=43|end_char=47
+4	“	''	PUNCT	``	_	3	_	_	start_char=48|end_char=49
+5	what	what	PRON	WP	PronType=Rel	4	_	_	start_char=50|end_char=54
+6	compels	compel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=55|end_char=62
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=63|end_char=64
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=65|end_char=70
+9	to	to	PART	TO	_	8	_	_	start_char=71|end_char=73
+10	rape	rape	VERB	VB	VerbForm=Inf	9	_	_	start_char=74|end_char=78
+11	children	child	NOUN	NNS	Number=Plur	10	_	_	start_char=79|end_char=87|SpaceAfter=No
+12	”	''	PUNCT	''	_	11	_	_	start_char=87|end_char=88|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=88|end_char=89
+
+# text = Second, they are pedophiles, I don’t care what made them do it.
+# sent_id = 53034
+1	Second	second	ADV	RB	NumType=Ord	0	_	_	start_char=90|end_char=96|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=96|end_char=97
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=98|end_char=102
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=103|end_char=106
+5	pedophiles	pedophile	NOUN	NNS	Number=Plur	4	_	_	start_char=107|end_char=117|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=117|end_char=118
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=119|end_char=120
+8-9	don’t	_	_	_	_	_	_	_	start_char=121|end_char=126
+8	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=121|end_char=123
+9	n’t	not	PART	RB	_	8	_	_	start_char=123|end_char=126
+10	care	care	VERB	VB	VerbForm=Inf	9	_	_	start_char=127|end_char=131
+11	what	what	PRON	WP	PronType=Rel	10	_	_	start_char=132|end_char=136
+12	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=137|end_char=141
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=142|end_char=146
+14	do	do	VERB	VB	VerbForm=Inf	13	_	_	start_char=147|end_char=149
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=150|end_char=152|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=152|end_char=153
+
+# text = They are scum that destroy lives:
+# sent_id = 53035
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=154|end_char=158
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=159|end_char=162
+3	scum	scum	NOUN	NN	Number=Sing	2	_	_	start_char=163|end_char=167
+4	that	that	PRON	WDT	PronType=Rel	3	_	_	start_char=168|end_char=172
+5	destroy	destroy	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=173|end_char=180
+6	lives	life	NOUN	NNS	Number=Plur	5	_	_	start_char=181|end_char=186|SpaceAfter=No
+7	:	:	PUNCT	:	_	6	_	_	start_char=186|end_char=187|SpaceAfter=No
+

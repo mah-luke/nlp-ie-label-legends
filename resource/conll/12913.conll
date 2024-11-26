@@ -1,0 +1,53 @@
+# text = [USER]
+# sent_id = 27418
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Oh God!
+# sent_id = 27419
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=7|end_char=9
+2	God	God	PROPN	NNP	Number=Sing	1	_	_	start_char=10|end_char=13|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=13|end_char=14
+
+# text = Don't tell me the AI is determining masculine versus feminine in terms of post content.
+# sent_id = 27420
+1-2	Don't	_	_	_	_	_	_	_	start_char=15|end_char=20
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=15|end_char=17
+2	n't	not	PART	RB	_	1	_	_	start_char=17|end_char=20
+3	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=21|end_char=25
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=26|end_char=28
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=29|end_char=32
+6	AI	AI	NOUN	NN	Number=Sing	5	_	_	start_char=33|end_char=35
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=36|end_char=38
+8	determining	determine	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=39|end_char=50
+9	masculine	masculine	ADJ	JJ	Degree=Pos	8	_	_	start_char=51|end_char=60
+10	versus	versus	ADP	IN	_	9	_	_	start_char=61|end_char=67
+11	feminine	feminine	NOUN	NN	Number=Sing	10	_	_	start_char=68|end_char=76
+12	in	in	ADP	IN	_	11	_	_	start_char=77|end_char=79
+13	terms	term	NOUN	NNS	Number=Plur	12	_	_	start_char=80|end_char=85
+14	of	of	ADP	IN	_	13	_	_	start_char=86|end_char=88
+15	post	post	NOUN	NN	Number=Sing	14	_	_	start_char=89|end_char=93
+16	content	content	NOUN	NN	Number=Sing	15	_	_	start_char=94|end_char=101|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=101|end_char=102
+
+# text = Unfair!
+# sent_id = 27421
+1	Unfair	unfair	ADJ	JJ	Degree=Pos	0	_	_	start_char=103|end_char=109|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=109|end_char=110
+
+# text = Sexist!
+# sent_id = 27422
+1	Sexist	Sexist	ADJ	JJ	Degree=Pos	0	_	_	start_char=111|end_char=117|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=117|end_char=118
+
+# text = Misogynistic!
+# sent_id = 27423
+1	Misogynistic	Misogynistic	ADJ	JJ	Degree=Pos	0	_	_	start_char=119|end_char=131|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=131|end_char=132
+
+# text = MUST.FIND.PLAY-DOH!
+# sent_id = 27424
+1	MUST.FIND.PLAY-DOH	must.find.play-doh	NOUN	NN	Number=Sing	0	_	_	start_char=133|end_char=151|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=151|end_char=152|SpaceAfter=No
+

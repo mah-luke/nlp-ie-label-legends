@@ -1,0 +1,60 @@
+# text = [USER] well, as there's no #finance tag..
+# sent_id = 79372
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	well	well	INTJ	UH	_	3	_	_	start_char=7|end_char=11|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=11|end_char=12
+6	as	as	SCONJ	IN	_	5	_	_	start_char=13|end_char=15
+7-8	there's	_	_	_	_	_	_	_	start_char=16|end_char=23
+7	there	there	PRON	EX	_	6	_	_	start_char=16|end_char=21
+8	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=21|end_char=23
+9	no	no	DET	DT	_	8	_	_	start_char=24|end_char=26
+10	#finance	#finance	NOUN	NN	Number=Sing	9	_	_	start_char=27|end_char=35
+11	tag	tag	NOUN	NN	Number=Sing	10	_	_	start_char=36|end_char=39|SpaceAfter=No
+12	..	..	PUNCT	.	_	11	_	_	start_char=39|end_char=41
+
+# text = I would leave it open.. if not, I'd pick #lifestyle...>
+# sent_id = 79373
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=42|end_char=43
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=44|end_char=49
+3	leave	leave	VERB	VB	VerbForm=Inf	2	_	_	start_char=50|end_char=55
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=56|end_char=58
+5	open	open	ADJ	JJ	Degree=Pos	4	_	_	start_char=59|end_char=63|SpaceAfter=No
+6	..	..	PUNCT	,	_	5	_	_	start_char=63|end_char=65
+7	if	if	SCONJ	IN	_	6	_	_	start_char=66|end_char=68
+8	not	not	PART	RB	_	7	_	_	start_char=69|end_char=72|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=72|end_char=73
+10-11	I'd	_	_	_	_	_	_	_	start_char=74|end_char=77
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=74|end_char=75
+11	'd	would	AUX	MD	VerbForm=Fin	10	_	_	start_char=75|end_char=77
+12	pick	pick	VERB	VB	VerbForm=Inf	11	_	_	start_char=78|end_char=82
+13	#lifestyle	#lifestyle	PROPN	NNP	Number=Sing	12	_	_	start_char=83|end_char=93|SpaceAfter=No
+14	...>	...>	PUNCT	.	_	13	_	_	start_char=93|end_char=97
+
+# text = Money makes the world go round, so?
+# sent_id = 79374
+1	Money	money	NOUN	NN	Number=Sing	0	_	_	start_char=98|end_char=103
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=104|end_char=109
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=110|end_char=113
+4	world	world	NOUN	NN	Number=Sing	3	_	_	start_char=114|end_char=119
+5	go	go	VERB	VB	VerbForm=Inf	4	_	_	start_char=120|end_char=122
+6	round	round	ADV	RB	_	5	_	_	start_char=123|end_char=128|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=128|end_char=129
+8	so	so	ADV	RB	_	7	_	_	start_char=130|end_char=132|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=132|end_char=133
+
+# text = 😀 Btw: we prefer #Brzz instead of BruXeLles 😋
+# sent_id = 79375
+1	😀	😀	PUNCT	``	_	0	_	_	start_char=134|end_char=135
+2	Btw	btw	INTJ	UH	_	1	_	_	start_char=136|end_char=139|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=139|end_char=140
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=141|end_char=143
+5	prefer	prefer	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=144|end_char=150
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=151|end_char=152|SpaceAfter=No
+7	Brzz	Brzz	PROPN	NNP	Number=Sing	6	_	_	start_char=152|end_char=156
+8	instead	instead	ADV	RB	_	7	_	_	start_char=157|end_char=164
+9	of	of	ADP	IN	_	8	_	_	start_char=165|end_char=167
+10	BruXeLles	BruXeLles	PROPN	NNP	Number=Sing	9	_	_	start_char=168|end_char=177
+11	😋	😋	PUNCT	.	_	10	_	_	start_char=178|end_char=179|SpaceAfter=No
+

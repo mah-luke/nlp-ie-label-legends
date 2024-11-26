@@ -1,0 +1,54 @@
+# text = I don't see him as #1.
+# sent_id = 10261
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	don't	_	_	_	_	_	_	_	start_char=2|end_char=7
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	n't	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	start_char=8|end_char=11
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=12|end_char=15
+6	as	as	ADP	IN	_	5	_	_	start_char=16|end_char=18
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=19|end_char=20|SpaceAfter=No
+8	1	1	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=20|end_char=21|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=21|end_char=22
+
+# text = He loves getting them worked into a distracted frenzy - he has proven to do his best work while they're freaking out over something he may have said, or his wife's stilettos.
+# sent_id = 10262
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=23|end_char=25
+2	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=26|end_char=31
+3	getting	get	VERB	VBG	VerbForm=Ger	2	_	_	start_char=32|end_char=39
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=40|end_char=44
+5	worked	work	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=45|end_char=51
+6	into	into	ADP	IN	_	5	_	_	start_char=52|end_char=56
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=57|end_char=58
+8	distracted	distract	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=59|end_char=69
+9	frenzy	frenzy	NOUN	NN	Number=Sing	8	_	_	start_char=70|end_char=76
+10	-	-	PUNCT	,	_	9	_	_	start_char=77|end_char=78
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=79|end_char=81
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=82|end_char=85
+13	proven	prove	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=86|end_char=92
+14	to	to	PART	TO	_	13	_	_	start_char=93|end_char=95
+15	do	do	VERB	VB	VerbForm=Inf	14	_	_	start_char=96|end_char=98
+16	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=99|end_char=102
+17	best	good	ADJ	JJS	Degree=Sup	16	_	_	start_char=103|end_char=107
+18	work	work	NOUN	NN	Number=Sing	17	_	_	start_char=108|end_char=112
+19	while	while	SCONJ	IN	_	18	_	_	start_char=113|end_char=118
+20-21	they're	_	_	_	_	_	_	_	start_char=119|end_char=126
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	_	_	start_char=119|end_char=123
+21	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=123|end_char=126
+22	freaking	freak	VERB	VBG	Tense=Pres|VerbForm=Part	21	_	_	start_char=127|end_char=135
+23	out	out	ADP	RP	_	22	_	_	start_char=136|end_char=139
+24	over	over	ADP	IN	_	23	_	_	start_char=140|end_char=144
+25	something	something	PRON	NN	Number=Sing|PronType=Ind	24	_	_	start_char=145|end_char=154
+26	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	_	_	start_char=155|end_char=157
+27	may	may	AUX	MD	VerbForm=Fin	26	_	_	start_char=158|end_char=161
+28	have	have	AUX	VB	VerbForm=Inf	27	_	_	start_char=162|end_char=166
+29	said	say	VERB	VBN	Tense=Past|VerbForm=Part	28	_	_	start_char=167|end_char=171|SpaceAfter=No
+30	,	,	PUNCT	,	_	29	_	_	start_char=171|end_char=172
+31	or	or	CCONJ	CC	_	30	_	_	start_char=173|end_char=175
+32	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	_	_	start_char=176|end_char=179
+33-34	wife's	_	_	_	_	_	_	_	start_char=180|end_char=186
+33	wife	wife	NOUN	NN	Number=Sing	32	_	_	start_char=180|end_char=184
+34	's	's	PART	POS	_	33	_	_	start_char=184|end_char=186
+35	stilettos	stiletto	NOUN	NNS	Number=Plur	34	_	_	start_char=187|end_char=196|SpaceAfter=No
+36	.	.	PUNCT	.	_	35	_	_	start_char=196|end_char=197|SpaceAfter=No
+

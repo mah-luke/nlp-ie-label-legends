@@ -1,0 +1,31 @@
+# text = Good Lord above!
+# sent_id = 61191
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	Lord	lord	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9
+3	above	above	ADV	RB	_	2	_	_	start_char=10|end_char=15|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=15|end_char=16
+
+# text = You had to escape from that carefully.
+# sent_id = 61192
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=17|end_char=20
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=21|end_char=24
+3	to	to	PART	TO	_	2	_	_	start_char=25|end_char=27
+4	escape	escape	VERB	VB	VerbForm=Inf	3	_	_	start_char=28|end_char=34
+5	from	from	ADP	IN	_	4	_	_	start_char=35|end_char=39
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=40|end_char=44
+7	carefully	carefully	ADV	RB	_	6	_	_	start_char=45|end_char=54|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=54|end_char=55
+
+# text = Don’t want to piss off a witch.
+# sent_id = 61193
+1-2	Don’t	_	_	_	_	_	_	_	start_char=56|end_char=61
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=56|end_char=58
+2	n’t	not	PART	RB	_	1	_	_	start_char=58|end_char=61
+3	want	want	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=62|end_char=66
+4	to	to	PART	TO	_	3	_	_	start_char=67|end_char=69
+5	piss	piss	VERB	VB	VerbForm=Inf	4	_	_	start_char=70|end_char=74
+6	off	off	ADP	RP	_	5	_	_	start_char=75|end_char=78
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=79|end_char=80
+8	witch	witch	NOUN	NN	Number=Sing	7	_	_	start_char=81|end_char=86|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=86|end_char=87|SpaceAfter=No
+

@@ -1,0 +1,48 @@
+# text = The left melting at the presidential emegency text message test.
+# sent_id = 44899
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	left	left	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=8
+3	melting	melt	VERB	VBG	VerbForm=Ger	2	_	_	start_char=9|end_char=16
+4	at	at	ADP	IN	_	3	_	_	start_char=17|end_char=19
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=20|end_char=23
+6	presidential	presidential	ADJ	JJ	Degree=Pos	5	_	_	start_char=24|end_char=36
+7	emegency	emegency	NOUN	NN	Number=Sing	6	_	_	start_char=37|end_char=45
+8	text	text	NOUN	NN	Number=Sing	7	_	_	start_char=46|end_char=50
+9	message	message	NOUN	NN	Number=Sing	8	_	_	start_char=51|end_char=58
+10	test	test	NOUN	NN	Number=Sing	9	_	_	start_char=59|end_char=63|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=63|end_char=64
+
+# text = One went so far as to say that she felt “violated” by President Trump himself, adding, “He’s raping us through technology.” lol
+# sent_id = 44900
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=65|end_char=68
+2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=69|end_char=73
+3	so	so	ADV	RB	_	2	_	_	start_char=74|end_char=76
+4	far	far	ADV	RB	Degree=Pos	3	_	_	start_char=77|end_char=80
+5	as	as	SCONJ	IN	_	4	_	_	start_char=81|end_char=83
+6	to	to	PART	TO	_	5	_	_	start_char=84|end_char=86
+7	say	say	VERB	VB	VerbForm=Inf	6	_	_	start_char=87|end_char=90
+8	that	that	SCONJ	IN	_	7	_	_	start_char=91|end_char=95
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=96|end_char=99
+10	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=100|end_char=104
+11	“	''	PUNCT	``	_	10	_	_	start_char=105|end_char=106|SpaceAfter=No
+12	violated	violate	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=106|end_char=114|SpaceAfter=No
+13	”	''	PUNCT	''	_	12	_	_	start_char=114|end_char=115
+14	by	by	ADP	IN	_	13	_	_	start_char=116|end_char=118
+15	President	President	PROPN	NNP	Number=Sing	14	_	_	start_char=119|end_char=128
+16	Trump	Trump	PROPN	NNP	Number=Sing	15	_	_	start_char=129|end_char=134
+17	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	_	_	start_char=135|end_char=142|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=142|end_char=143
+19	adding	add	VERB	VBG	VerbForm=Ger	18	_	_	start_char=144|end_char=150|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=150|end_char=151
+21	“	''	PUNCT	``	_	20	_	_	start_char=152|end_char=153|SpaceAfter=No
+22-23	He’s	_	_	_	_	_	_	_	start_char=153|end_char=157
+22	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=153|end_char=155
+23	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=155|end_char=157
+24	raping	rape	VERB	VBG	Tense=Pres|VerbForm=Part	23	_	_	start_char=158|end_char=164
+25	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	24	_	_	start_char=165|end_char=167
+26	through	through	ADP	IN	_	25	_	_	start_char=168|end_char=175
+27	technology	technology	NOUN	NN	Number=Sing	26	_	_	start_char=176|end_char=186|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=186|end_char=187|SpaceAfter=No
+29	”	''	PUNCT	''	_	28	_	_	start_char=187|end_char=188
+30	lol	lol	INTJ	UH	_	29	_	_	start_char=189|end_char=192|SpaceAfter=No
+

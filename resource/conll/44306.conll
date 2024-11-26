@@ -1,0 +1,39 @@
+# text = I loathe that witch ( I hope her vascular dementia speeds up).
+# sent_id = 94642
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	loathe	loathe	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=8
+3	that	that	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=9|end_char=13
+4	witch	witch	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=19
+5	(	(	PUNCT	-LRB-	_	4	_	_	start_char=20|end_char=21
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=22|end_char=23
+7	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=24|end_char=28
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=29|end_char=32
+9	vascular	vascular	ADJ	JJ	Degree=Pos	8	_	_	start_char=33|end_char=41
+10	dementia	dementia	NOUN	NN	Number=Sing	9	_	_	start_char=42|end_char=50
+11	speeds	speed	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=51|end_char=57
+12	up	up	ADP	RP	_	11	_	_	start_char=58|end_char=60|SpaceAfter=No
+13	)	)	PUNCT	-RRB-	_	12	_	_	start_char=60|end_char=61|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=61|end_char=62
+
+# text = If the Left get their way we will end up living in a facsimile of Orwell's 1984
+# sent_id = 94643
+1	If	if	SCONJ	IN	_	0	_	_	start_char=63|end_char=65
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=66|end_char=69
+3	Left	Left	PROPN	NNP	Number=Sing	2	_	_	start_char=70|end_char=74
+4	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=75|end_char=78
+5	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=79|end_char=84
+6	way	way	NOUN	NN	Number=Sing	5	_	_	start_char=85|end_char=88
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	_	_	start_char=89|end_char=91
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=92|end_char=96
+9	end	end	VERB	VB	VerbForm=Inf	8	_	_	start_char=97|end_char=100
+10	up	up	ADP	RP	_	9	_	_	start_char=101|end_char=103
+11	living	live	VERB	VBG	VerbForm=Ger	10	_	_	start_char=104|end_char=110
+12	in	in	ADP	IN	_	11	_	_	start_char=111|end_char=113
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=114|end_char=115
+14	facsimile	facsimile	NOUN	NN	Number=Sing	13	_	_	start_char=116|end_char=125
+15	of	of	ADP	IN	_	14	_	_	start_char=126|end_char=128
+16-17	Orwell's	_	_	_	_	_	_	_	start_char=129|end_char=137
+16	Orwell	Orwell	PROPN	NNP	Number=Sing	15	_	_	start_char=129|end_char=135
+17	's	's	PART	POS	_	16	_	_	start_char=135|end_char=137
+18	1984	1984	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	start_char=138|end_char=142|SpaceAfter=No
+

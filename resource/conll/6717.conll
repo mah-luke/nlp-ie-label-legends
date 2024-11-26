@@ -1,0 +1,30 @@
+# text = Expired?
+# sent_id = 14025
+1	Expired	expired	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=7|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=7|end_char=8
+
+# text = Like she didn't pay the couple hundred bucks per year to keep it up?
+# sent_id = 14026
+1	Like	like	INTJ	UH	_	0	_	_	start_char=9|end_char=13
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=14|end_char=17
+3-4	didn't	_	_	_	_	_	_	_	start_char=18|end_char=24
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=18|end_char=21
+4	n't	not	PART	RB	_	3	_	_	start_char=21|end_char=24
+5	pay	pay	VERB	VB	VerbForm=Inf	4	_	_	start_char=25|end_char=28
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=29|end_char=32
+7	couple	couple	NOUN	NN	Number=Sing	6	_	_	start_char=33|end_char=39
+8	hundred	hundred	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=40|end_char=47
+9	bucks	buck	NOUN	NNS	Number=Plur	8	_	_	start_char=48|end_char=53
+10	per	per	ADP	IN	_	9	_	_	start_char=54|end_char=57
+11	year	year	NOUN	NN	Number=Sing	10	_	_	start_char=58|end_char=62
+12	to	to	PART	TO	_	11	_	_	start_char=63|end_char=65
+13	keep	keep	VERB	VB	VerbForm=Inf	12	_	_	start_char=66|end_char=70
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=71|end_char=73
+15	up	up	ADP	RP	_	14	_	_	start_char=74|end_char=76|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=76|end_char=77
+
+# text = Hum.
+# sent_id = 14027
+1	Hum	hum	INTJ	UH	_	0	_	_	start_char=78|end_char=81|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=81|end_char=82|SpaceAfter=No
+

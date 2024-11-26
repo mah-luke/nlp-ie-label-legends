@@ -1,0 +1,54 @@
+# text = [USER]
+# sent_id = 44490
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Yeah, the "fact-checkers" remark is going to burn her later, because she's already told some whoppers.
+# sent_id = 44491
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=7|end_char=11|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=11|end_char=12
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=13|end_char=16
+4	"	"	PUNCT	``	_	3	_	_	start_char=17|end_char=18|SpaceAfter=No
+5	fact	fact	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=22|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=22|end_char=23|SpaceAfter=No
+7	checkers	checker	NOUN	NNS	Number=Plur	6	_	_	start_char=23|end_char=31|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=31|end_char=32
+9	remark	remark	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=39
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=40|end_char=42
+11	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=43|end_char=48
+12	to	to	PART	TO	_	11	_	_	start_char=49|end_char=51
+13	burn	burn	VERB	VB	VerbForm=Inf	12	_	_	start_char=52|end_char=56
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=57|end_char=60
+15	later	late	ADV	RBR	Degree=Cmp	14	_	_	start_char=61|end_char=66|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=66|end_char=67
+17	because	because	SCONJ	IN	_	16	_	_	start_char=68|end_char=75
+18-19	she's	_	_	_	_	_	_	_	start_char=76|end_char=81
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=76|end_char=79
+19	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=79|end_char=81
+20	already	already	ADV	RB	_	19	_	_	start_char=82|end_char=89
+21	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	20	_	_	start_char=90|end_char=94
+22	some	some	DET	DT	_	21	_	_	start_char=95|end_char=99
+23	whoppers	whopper	NOUN	NNS	Number=Plur	22	_	_	start_char=100|end_char=108|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=108|end_char=109
+
+# text = Not like she isn't getting plenty of help already from #LesterHolt of #NBC.
+# sent_id = 44492
+1	Not	not	PART	RB	_	0	_	_	start_char=110|end_char=113
+2	like	like	SCONJ	IN	_	1	_	_	start_char=114|end_char=118
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=119|end_char=122
+4-5	isn't	_	_	_	_	_	_	_	start_char=123|end_char=128
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=123|end_char=125
+5	n't	not	PART	RB	_	4	_	_	start_char=125|end_char=128
+6	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=129|end_char=136
+7	plenty	plenty	NOUN	NN	Number=Sing	6	_	_	start_char=137|end_char=143
+8	of	of	ADP	IN	_	7	_	_	start_char=144|end_char=146
+9	help	help	NOUN	NN	Number=Sing	8	_	_	start_char=147|end_char=151
+10	already	already	ADV	RB	_	9	_	_	start_char=152|end_char=159
+11	from	from	ADP	IN	_	10	_	_	start_char=160|end_char=164
+12	#	#	SYM	NN	Number=Sing	11	_	_	start_char=165|end_char=166|SpaceAfter=No
+13	LesterHolt	LesterHolt	PROPN	NNP	Number=Sing	12	_	_	start_char=166|end_char=176
+14	of	of	ADP	IN	_	13	_	_	start_char=177|end_char=179
+15	#NBC	#NBC	PROPN	NNP	Number=Sing	14	_	_	start_char=180|end_char=184|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=184|end_char=185|SpaceAfter=No
+

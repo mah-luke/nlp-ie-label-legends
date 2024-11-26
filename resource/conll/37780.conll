@@ -1,0 +1,39 @@
+# text = dont forget their belly dancers!
+# sent_id = 80739
+1-2	dont	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	nt	not	PART	RB	_	1	_	_	start_char=2|end_char=4
+3	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=5|end_char=11
+4	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=12|end_char=17
+5	belly	belly	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=23
+6	dancers	dancer	NOUN	NNS	Number=Plur	5	_	_	start_char=24|end_char=31|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=31|end_char=32
+
+# text = but they want women in beekeeper outfits!?
+# sent_id = 80740
+1	but	but	CCONJ	CC	_	0	_	_	start_char=33|end_char=36
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=37|end_char=41
+3	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=42|end_char=46
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=47|end_char=52
+5	in	in	ADP	IN	_	4	_	_	start_char=53|end_char=55
+6	beekeeper	beekeeper	NOUN	NN	Number=Sing	5	_	_	start_char=56|end_char=65
+7	outfits	outfit	NOUN	NNS	Number=Plur	6	_	_	start_char=66|end_char=73|SpaceAfter=No
+8	!?	!?	PUNCT	.	_	7	_	_	start_char=73|end_char=75
+
+# text = a joke deranged culture needs a real REFORMATION LIKE christians had 500 yrs ago
+# sent_id = 80741
+1	a	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=76|end_char=77
+2	joke	joke	NOUN	NN	Number=Sing	1	_	_	start_char=78|end_char=82
+3	deranged	deranged	ADJ	JJ	Degree=Pos	2	_	_	start_char=83|end_char=91
+4	culture	culture	NOUN	NN	Number=Sing	3	_	_	start_char=92|end_char=99
+5	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=100|end_char=105
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=106|end_char=107
+7	real	real	ADJ	JJ	Degree=Pos	6	_	_	start_char=108|end_char=112
+8	REFORMATION	REFORMATION	PROPN	NNP	Number=Sing	7	_	_	start_char=113|end_char=124
+9	LIKE	like	ADJ	JJ	Degree=Pos	8	_	_	start_char=125|end_char=129
+10	christians	Christian	PROPN	NNPS	Number=Plur	9	_	_	start_char=130|end_char=140
+11	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=141|end_char=144
+12	500	500	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=145|end_char=148
+13	yrs	year	NOUN	NNS	Number=Plur	12	_	_	start_char=149|end_char=152
+14	ago	ago	ADV	RB	_	13	_	_	start_char=153|end_char=156|SpaceAfter=No
+

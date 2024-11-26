@@ -1,0 +1,48 @@
+# text = I'd really like to grab a drink with her..
+# sent_id = 116983
+1-2	I'd	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	really	really	ADV	RB	_	2	_	_	start_char=4|end_char=10
+4	like	like	VERB	VB	VerbForm=Inf	3	_	_	start_char=11|end_char=15
+5	to	to	PART	TO	_	4	_	_	start_char=16|end_char=18
+6	grab	grab	VERB	VB	VerbForm=Inf	5	_	_	start_char=19|end_char=23
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=24|end_char=25
+8	drink	drink	NOUN	NN	Number=Sing	7	_	_	start_char=26|end_char=31
+9	with	with	ADP	IN	_	8	_	_	start_char=32|end_char=36
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=37|end_char=40|SpaceAfter=No
+11	..	..	PUNCT	.	_	10	_	_	start_char=40|end_char=42
+
+# text = I thought we really hit it off.
+# sent_id = 116984
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=43|end_char=44
+2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=45|end_char=52
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=53|end_char=55
+4	really	really	ADV	RB	_	3	_	_	start_char=56|end_char=62
+5	hit	hit	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=63|end_char=66
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=67|end_char=69
+7	off	off	ADP	RP	_	6	_	_	start_char=70|end_char=73|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=73|end_char=74
+
+# text = Do you think I still have a chance?
+# sent_id = 116985
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=75|end_char=77
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=78|end_char=81
+3	think	think	VERB	VB	VerbForm=Inf	2	_	_	start_char=82|end_char=87
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=88|end_char=89
+5	still	still	ADV	RB	_	4	_	_	start_char=90|end_char=95
+6	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=96|end_char=100
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=101|end_char=102
+8	chance	chance	NOUN	NN	Number=Sing	7	_	_	start_char=103|end_char=109|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=109|end_char=110
+
+# text = Or is it too late now..
+# sent_id = 116986
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=111|end_char=113
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=114|end_char=116
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=117|end_char=119
+4	too	too	ADV	RB	_	3	_	_	start_char=120|end_char=123
+5	late	late	ADJ	JJ	Degree=Pos	4	_	_	start_char=124|end_char=128
+6	now	now	ADV	RB	_	5	_	_	start_char=129|end_char=132|SpaceAfter=No
+7	..	..	PUNCT	.	_	6	_	_	start_char=132|end_char=134|SpaceAfter=No
+

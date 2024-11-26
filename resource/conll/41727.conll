@@ -1,0 +1,41 @@
+# text = yo wassup.
+# sent_id = 89268
+1	yo	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs|Style=Slng	0	_	_	start_char=0|end_char=2
+2	wassup	wassup	INTJ	UH	_	1	_	_	start_char=3|end_char=9|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = I heard youse a woman.
+# sent_id = 89269
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=11|end_char=12
+2	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=13|end_char=18
+3	youse	youse	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	2	_	_	start_char=19|end_char=24
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=25|end_char=26
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=27|end_char=32|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=32|end_char=33
+
+# text = don't even listen to my mans, bae.
+# sent_id = 89270
+1-2	don't	_	_	_	_	_	_	_	start_char=34|end_char=39
+1	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=34|end_char=36
+2	n't	not	PART	RB	_	1	_	_	start_char=36|end_char=39
+3	even	even	ADV	RB	_	2	_	_	start_char=40|end_char=44
+4	listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=45|end_char=51
+5	to	to	ADP	IN	_	4	_	_	start_char=52|end_char=54
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=55|end_char=57
+7	mans	manu	NOUN	NNS	Number=Plur	6	_	_	start_char=58|end_char=62|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=62|end_char=63
+9	bae	bae	NOUN	NN	Number=Sing	8	_	_	start_char=64|end_char=67|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=67|end_char=68
+
+# text = he trippin'. will you be my GF?
+# sent_id = 89271
+1	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=69|end_char=71
+2	trippin'	trippin'	NOUN	NN	Number=Sing	1	_	_	start_char=72|end_char=80|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=80|end_char=81
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=82|end_char=86
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=87|end_char=90
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=91|end_char=93
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=94|end_char=96
+8	GF	gf	NOUN	NN	Number=Sing	7	_	_	start_char=97|end_char=99|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=99|end_char=100|SpaceAfter=No
+

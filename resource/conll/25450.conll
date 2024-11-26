@@ -1,0 +1,26 @@
+# text = Oh no.
+# sent_id = 54552
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	no	no	INTJ	UH	Polarity=Neg	1	_	_	start_char=3|end_char=5|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=5|end_char=6
+
+# text = More #GilmoreGirls
+# sent_id = 54553
+1	More	more	ADJ	JJR	Degree=Cmp	0	_	_	start_char=7|end_char=11
+2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=12|end_char=13|SpaceAfter=No
+3	GilmoreGirls	gilmoregirl	NOUN	NNS	Number=Plur	2	_	_	start_char=13|end_char=25
+
+# text = Good thing I have headphones while my wife watches it.
+# sent_id = 54554
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=26|end_char=30
+2	thing	thing	NOUN	NN	Number=Sing	1	_	_	start_char=31|end_char=36
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=37|end_char=38
+4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=39|end_char=43
+5	headphones	headphone	NOUN	NNS	Number=Plur	4	_	_	start_char=44|end_char=54
+6	while	while	SCONJ	IN	_	5	_	_	start_char=55|end_char=60
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=61|end_char=63
+8	wife	wife	NOUN	NN	Number=Sing	7	_	_	start_char=64|end_char=68
+9	watches	watch	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=69|end_char=76
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=77|end_char=79|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=79|end_char=80|SpaceAfter=No
+

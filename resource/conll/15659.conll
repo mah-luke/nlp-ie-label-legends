@@ -1,0 +1,76 @@
+# text = Man 1: Stop beating your wife!!
+# sent_id = 33482
+1	Man	man	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3
+2	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=4|end_char=5|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=5|end_char=6
+4	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=7|end_char=11
+5	beating	beat	VERB	VBG	VerbForm=Ger	4	_	_	start_char=12|end_char=19
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=20|end_char=24
+7	wife	wife	NOUN	NN	Number=Sing	6	_	_	start_char=25|end_char=29|SpaceAfter=No
+8	!!	!!	PUNCT	.	_	7	_	_	start_char=29|end_char=31
+
+# text = Man 2: ?????
+# sent_id = 33483
+1	Man	man	NOUN	NN	Number=Sing	0	_	_	start_char=32|end_char=35
+2	2	2	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=36|end_char=37|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=37|end_char=38
+4	?????	?????	PUNCT	.	_	3	_	_	start_char=39|end_char=44
+
+# text = I have never beaten my wife.
+# sent_id = 33484
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=45|end_char=46
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=47|end_char=51
+3	never	never	ADV	RB	_	2	_	_	start_char=52|end_char=57
+4	beaten	beat	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=58|end_char=64
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=65|end_char=67
+6	wife	wife	NOUN	NN	Number=Sing	5	_	_	start_char=68|end_char=72|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=72|end_char=73
+
+# text = Are you crazy?
+# sent_id = 33485
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=74|end_char=77
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=78|end_char=81
+3	crazy	crazy	ADJ	JJ	Degree=Pos	2	_	_	start_char=82|end_char=87|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=87|end_char=88
+
+# text = Man1:
+# sent_id = 33486
+1	Man1	man1	NOUN	NN	Number=Sing	0	_	_	start_char=89|end_char=93|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=93|end_char=94
+
+# text = You are not man enough to admit that you beat your wife!!
+# sent_id = 33487
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=95|end_char=98
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=99|end_char=102
+3	not	not	PART	RB	_	2	_	_	start_char=103|end_char=106
+4	man	man	NOUN	NN	Number=Sing	3	_	_	start_char=107|end_char=110
+5	enough	enough	ADV	RB	_	4	_	_	start_char=111|end_char=117
+6	to	to	PART	TO	_	5	_	_	start_char=118|end_char=120
+7	admit	admit	VERB	VB	VerbForm=Inf	6	_	_	start_char=121|end_char=126
+8	that	that	SCONJ	IN	_	7	_	_	start_char=127|end_char=131
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=132|end_char=135
+10	beat	beat	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=136|end_char=140
+11	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	10	_	_	start_char=141|end_char=145
+12	wife	wife	NOUN	NN	Number=Sing	11	_	_	start_char=146|end_char=150|SpaceAfter=No
+13	!!	!!	PUNCT	.	_	12	_	_	start_char=150|end_char=152
+
+# text = Man 2: Go away you Looney, really, go away Man 1: Sissy....
+# sent_id = 33488
+1	Man	man	NOUN	NN	Number=Sing	0	_	_	start_char=153|end_char=156
+2	2	2	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=157|end_char=158|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=158|end_char=159
+4	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=160|end_char=162
+5	away	away	ADV	RB	_	4	_	_	start_char=163|end_char=167
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=168|end_char=171
+7	Looney	Looney	PROPN	NNP	Number=Sing	6	_	_	start_char=172|end_char=178|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=178|end_char=179
+9	really	really	ADV	RB	_	8	_	_	start_char=180|end_char=186|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=186|end_char=187
+11	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=188|end_char=190
+12	away	away	ADV	RB	_	11	_	_	start_char=191|end_char=195
+13	Man	man	NOUN	NN	Number=Sing	12	_	_	start_char=196|end_char=199
+14	1	1	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	start_char=200|end_char=201|SpaceAfter=No
+15	:	:	PUNCT	:	_	14	_	_	start_char=201|end_char=202
+16	Sissy	sissy	ADJ	JJ	Degree=Pos	15	_	_	start_char=203|end_char=208|SpaceAfter=No
+17	....	....	PUNCT	.	_	16	_	_	start_char=208|end_char=212|SpaceAfter=No
+

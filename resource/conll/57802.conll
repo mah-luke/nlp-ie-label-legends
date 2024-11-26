@@ -1,0 +1,73 @@
+# text = I've never heard this advice given.
+# sent_id = 123484
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	never	never	ADV	RB	_	2	_	_	start_char=5|end_char=10
+4	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=11|end_char=16
+5	this	this	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=17|end_char=21
+6	advice	advice	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=28
+7	given	give	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=29|end_char=34|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=34|end_char=35
+
+# text = What I have heard is that if she friendzones you stop wasting your time trying to get her.
+# sent_id = 123485
+1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=36|end_char=40
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=41|end_char=42
+3	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=43|end_char=47
+4	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=48|end_char=53
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=54|end_char=56
+6	that	that	SCONJ	IN	_	5	_	_	start_char=57|end_char=61
+7	if	if	SCONJ	IN	_	6	_	_	start_char=62|end_char=64
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=65|end_char=68
+9	friendzones	friendzone	NOUN	NNS	Number=Plur	8	_	_	start_char=69|end_char=80
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=81|end_char=84
+11	stop	stop	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=85|end_char=89
+12	wasting	waste	VERB	VBG	VerbForm=Ger	11	_	_	start_char=90|end_char=97
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=98|end_char=102
+14	time	time	NOUN	NN	Number=Sing	13	_	_	start_char=103|end_char=107
+15	trying	try	VERB	VBG	VerbForm=Ger	14	_	_	start_char=108|end_char=114
+16	to	to	PART	TO	_	15	_	_	start_char=115|end_char=117
+17	get	get	VERB	VB	VerbForm=Inf	16	_	_	start_char=118|end_char=121
+18	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=122|end_char=125|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=125|end_char=126
+
+# text = If you *genuinely* want to be friends, that's fine.
+# sent_id = 123486
+1	If	if	SCONJ	IN	_	0	_	_	start_char=127|end_char=129
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=130|end_char=133
+3	*	*	PUNCT	NFP	_	2	_	_	start_char=134|end_char=135|SpaceAfter=No
+4	genuinely	genuinely	ADV	RB	_	3	_	_	start_char=135|end_char=144|SpaceAfter=No
+5	*	*	PUNCT	NFP	_	4	_	_	start_char=144|end_char=145
+6	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=146|end_char=150
+7	to	to	PART	TO	_	6	_	_	start_char=151|end_char=153
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=154|end_char=156
+9	friends	friend	NOUN	NNS	Number=Plur	8	_	_	start_char=157|end_char=164|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=164|end_char=165
+11-12	that's	_	_	_	_	_	_	_	start_char=166|end_char=172
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	10	_	_	start_char=166|end_char=170
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=170|end_char=172
+13	fine	fine	ADJ	JJ	Degree=Pos	12	_	_	start_char=173|end_char=177|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=177|end_char=178
+
+# text = But, don't be friends with the hope she'll change her mind later.
+# sent_id = 123487
+1	But	but	CCONJ	CC	_	0	_	_	start_char=179|end_char=182|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=182|end_char=183
+3-4	don't	_	_	_	_	_	_	_	start_char=184|end_char=189
+3	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=184|end_char=186
+4	n't	not	PART	RB	_	3	_	_	start_char=186|end_char=189
+5	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=190|end_char=192
+6	friends	friend	NOUN	NNS	Number=Plur	5	_	_	start_char=193|end_char=200
+7	with	with	ADP	IN	_	6	_	_	start_char=201|end_char=205
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=206|end_char=209
+9	hope	hope	NOUN	NN	Number=Sing	8	_	_	start_char=210|end_char=214
+10-11	she'll	_	_	_	_	_	_	_	start_char=215|end_char=221
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=215|end_char=218
+11	'll	will	AUX	MD	VerbForm=Fin	10	_	_	start_char=218|end_char=221
+12	change	change	VERB	VB	VerbForm=Inf	11	_	_	start_char=222|end_char=228
+13	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=229|end_char=232
+14	mind	mind	NOUN	NN	Number=Sing	13	_	_	start_char=233|end_char=237
+15	later	late	ADV	RBR	Degree=Cmp	14	_	_	start_char=238|end_char=243|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=243|end_char=244|SpaceAfter=No
+

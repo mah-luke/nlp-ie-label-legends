@@ -1,0 +1,56 @@
+# text = [USER]
+# sent_id = 16884
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Fuck you, asshole.
+# sent_id = 16885
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=7|end_char=11
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	start_char=12|end_char=15|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=15|end_char=16
+4	asshole	asshole	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=24|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=24|end_char=25
+
+# text = I'm not actually arrogant.
+# sent_id = 16886
+1-2	I'm	_	_	_	_	_	_	_	start_char=26|end_char=29
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=26|end_char=27
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
+3	not	not	PART	RB	_	2	_	_	start_char=30|end_char=33
+4	actually	actually	ADV	RB	_	3	_	_	start_char=34|end_char=42
+5	arrogant	arrogant	ADJ	JJ	Degree=Pos	4	_	_	start_char=43|end_char=51|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=51|end_char=52
+
+# text = I just don't take crap from assholes like you.
+# sent_id = 16887
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=53|end_char=54
+2	just	just	ADV	RB	_	1	_	_	start_char=55|end_char=59
+3-4	don't	_	_	_	_	_	_	_	start_char=60|end_char=65
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=60|end_char=62
+4	n't	not	PART	RB	_	3	_	_	start_char=62|end_char=65
+5	take	take	VERB	VB	VerbForm=Inf	4	_	_	start_char=66|end_char=70
+6	crap	crap	NOUN	NN	Number=Sing	5	_	_	start_char=71|end_char=75
+7	from	from	ADP	IN	_	6	_	_	start_char=76|end_char=80
+8	assholes	asshole	NOUN	NNS	Number=Plur	7	_	_	start_char=81|end_char=89
+9	like	like	ADP	IN	_	8	_	_	start_char=90|end_char=94
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	_	_	start_char=95|end_char=98|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=98|end_char=99
+
+# text = I'm too old for that.
+# sent_id = 16888
+1-2	I'm	_	_	_	_	_	_	_	start_char=100|end_char=103
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=100|end_char=101
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=101|end_char=103
+3	too	too	ADV	RB	_	2	_	_	start_char=104|end_char=107
+4	old	old	ADJ	JJ	Degree=Pos	3	_	_	start_char=108|end_char=111
+5	for	for	ADP	IN	_	4	_	_	start_char=112|end_char=115
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=116|end_char=120|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=120|end_char=121
+
+# text = *plonk*
+# sent_id = 16889
+1	*	*	PUNCT	NFP	_	0	_	_	start_char=122|end_char=123|SpaceAfter=No
+2	plonk	plonk	NOUN	NN	Number=Sing	1	_	_	start_char=123|end_char=128|SpaceAfter=No
+3	*	*	PUNCT	NFP	_	2	_	_	start_char=128|end_char=129|SpaceAfter=No
+

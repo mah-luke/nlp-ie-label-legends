@@ -1,0 +1,56 @@
+# text = [USER]
+# sent_id = 69081
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = By deliberately choosing to do nothing so as to cover her own (alleged) crimes Hillary's hands are as dirty as those who did the actual killing.
+# sent_id = 69082
+1	By	by	SCONJ	IN	_	0	_	_	start_char=7|end_char=9
+2	deliberately	deliberately	ADV	RB	_	1	_	_	start_char=10|end_char=22
+3	choosing	choose	VERB	VBG	VerbForm=Ger	2	_	_	start_char=23|end_char=31
+4	to	to	PART	TO	_	3	_	_	start_char=32|end_char=34
+5	do	do	VERB	VB	VerbForm=Inf	4	_	_	start_char=35|end_char=37
+6	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	5	_	_	start_char=38|end_char=45
+7	so	so	SCONJ	IN	_	6	_	_	start_char=46|end_char=48
+8	as	as	SCONJ	IN	_	7	_	_	start_char=49|end_char=51
+9	to	to	PART	TO	_	8	_	_	start_char=52|end_char=54
+10	cover	cover	VERB	VB	VerbForm=Inf	9	_	_	start_char=55|end_char=60
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=61|end_char=64
+12	own	own	ADJ	JJ	Degree=Pos	11	_	_	start_char=65|end_char=68
+13	(	(	PUNCT	-LRB-	_	12	_	_	start_char=69|end_char=70|SpaceAfter=No
+14	alleged	allege	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=70|end_char=77|SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	_	_	start_char=77|end_char=78
+16	crimes	crime	NOUN	NNS	Number=Plur	15	_	_	start_char=79|end_char=85
+17-18	Hillary's	_	_	_	_	_	_	_	start_char=86|end_char=95
+17	Hillary	Hillary	PROPN	NNP	Number=Sing	16	_	_	start_char=86|end_char=93
+18	's	's	PART	POS	_	17	_	_	start_char=93|end_char=95
+19	hands	hand	NOUN	NNS	Number=Plur	18	_	_	start_char=96|end_char=101
+20	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=102|end_char=105
+21	as	as	ADV	RB	_	20	_	_	start_char=106|end_char=108
+22	dirty	dirty	ADJ	JJ	Degree=Pos	21	_	_	start_char=109|end_char=114
+23	as	as	ADP	IN	_	22	_	_	start_char=115|end_char=117
+24	those	that	PRON	DT	Number=Plur|PronType=Dem	23	_	_	start_char=118|end_char=123
+25	who	who	PRON	WP	PronType=Rel	24	_	_	start_char=124|end_char=127
+26	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	25	_	_	start_char=128|end_char=131
+27	the	the	DET	DT	Definite=Def|PronType=Art	26	_	_	start_char=132|end_char=135
+28	actual	actual	ADJ	JJ	Degree=Pos	27	_	_	start_char=136|end_char=142
+29	killing	killing	NOUN	NN	Number=Sing	28	_	_	start_char=143|end_char=150|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	start_char=150|end_char=151
+
+# text = RIP Christopher Stevens, Glen Doherty, Charles Woods, Sean Smith...
+# sent_id = 69083
+1	RIP	rip	PROPN	NNP	Number=Sing	0	_	_	start_char=152|end_char=155
+2	Christopher	Christopher	PROPN	NNP	Number=Sing	1	_	_	start_char=156|end_char=167
+3	Stevens	Stevens	PROPN	NNP	Number=Sing	2	_	_	start_char=168|end_char=175|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=175|end_char=176
+5	Glen	Glen	PROPN	NNP	Number=Sing	4	_	_	start_char=177|end_char=181
+6	Doherty	Doherty	PROPN	NNP	Number=Sing	5	_	_	start_char=182|end_char=189|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=189|end_char=190
+8	Charles	Charles	PROPN	NNP	Number=Sing	7	_	_	start_char=191|end_char=198
+9	Woods	Woods	PROPN	NNP	Number=Sing	8	_	_	start_char=199|end_char=204|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=204|end_char=205
+11	Sean	Sean	PROPN	NNP	Number=Sing	10	_	_	start_char=206|end_char=210
+12	Smith	Smith	PROPN	NNP	Number=Sing	11	_	_	start_char=211|end_char=216|SpaceAfter=No
+13	...	...	PUNCT	.	_	12	_	_	start_char=216|end_char=219|SpaceAfter=No
+

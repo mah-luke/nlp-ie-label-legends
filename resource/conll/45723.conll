@@ -1,0 +1,72 @@
+# text = You can't text forever.
+# sent_id = 97617
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2-3	can't	_	_	_	_	_	_	_	start_char=4|end_char=9
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	n't	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	text	text	VERB	VB	VerbForm=Inf	3	_	_	start_char=10|end_char=14
+5	forever	forever	ADV	RB	_	4	_	_	start_char=15|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = You need to see her.
+# sent_id = 97618
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=24|end_char=27
+2	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=28|end_char=32
+3	to	to	PART	TO	_	2	_	_	start_char=33|end_char=35
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	start_char=36|end_char=39
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=40|end_char=43|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=43|end_char=44
+
+# text = You know how long your text game is, if it's coming to a close then ask her out.
+# sent_id = 97619
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=45|end_char=48
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=49|end_char=53
+3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=54|end_char=57
+4	long	long	ADV	RB	Degree=Pos	3	_	_	start_char=58|end_char=62
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=63|end_char=67
+6	text	text	NOUN	NN	Number=Sing	5	_	_	start_char=68|end_char=72
+7	game	game	NOUN	NN	Number=Sing	6	_	_	start_char=73|end_char=77
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=78|end_char=80|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=80|end_char=81
+10	if	if	SCONJ	IN	_	9	_	_	start_char=82|end_char=84
+11-12	it's	_	_	_	_	_	_	_	start_char=85|end_char=89
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=85|end_char=87
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=87|end_char=89
+13	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=90|end_char=96
+14	to	to	ADP	IN	_	13	_	_	start_char=97|end_char=99
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=100|end_char=101
+16	close	close	NOUN	NN	Number=Sing	15	_	_	start_char=102|end_char=107
+17	then	then	ADV	RB	PronType=Dem	16	_	_	start_char=108|end_char=112
+18	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	17	_	_	start_char=113|end_char=116
+19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=117|end_char=120
+20	out	out	ADP	RP	_	19	_	_	start_char=121|end_char=124|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=124|end_char=125
+
+# text = If she's responding to all your texts in a more than polite way she'll absolutely go on a date with you
+# sent_id = 97620
+1	If	if	SCONJ	IN	_	0	_	_	start_char=126|end_char=128
+2-3	she's	_	_	_	_	_	_	_	start_char=129|end_char=134
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=129|end_char=132
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=132|end_char=134
+4	responding	respond	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=135|end_char=145
+5	to	to	ADP	IN	_	4	_	_	start_char=146|end_char=148
+6	all	all	DET	PDT	_	5	_	_	start_char=149|end_char=152
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=153|end_char=157
+8	texts	text	NOUN	NNS	Number=Plur	7	_	_	start_char=158|end_char=163
+9	in	in	ADP	IN	_	8	_	_	start_char=164|end_char=166
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=167|end_char=168
+11	more	more	ADJ	JJR	Degree=Cmp	10	_	_	start_char=169|end_char=173
+12	than	than	ADP	IN	_	11	_	_	start_char=174|end_char=178
+13	polite	polite	ADJ	JJ	Degree=Pos	12	_	_	start_char=179|end_char=185
+14	way	way	NOUN	NN	Number=Sing	13	_	_	start_char=186|end_char=189
+15-16	she'll	_	_	_	_	_	_	_	start_char=190|end_char=196
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=190|end_char=193
+16	'll	will	AUX	MD	VerbForm=Fin	15	_	_	start_char=193|end_char=196
+17	absolutely	absolutely	ADV	RB	_	16	_	_	start_char=197|end_char=207
+18	go	go	VERB	VB	VerbForm=Inf	17	_	_	start_char=208|end_char=210
+19	on	on	ADP	IN	_	18	_	_	start_char=211|end_char=213
+20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	start_char=214|end_char=215
+21	date	date	NOUN	NN	Number=Sing	20	_	_	start_char=216|end_char=220
+22	with	with	ADP	IN	_	21	_	_	start_char=221|end_char=225
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	22	_	_	start_char=226|end_char=229|SpaceAfter=No
+

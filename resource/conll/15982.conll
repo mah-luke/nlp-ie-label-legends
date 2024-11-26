@@ -1,0 +1,43 @@
+# text = Look Satan's whore, is trying to get my attention again.
+# sent_id = 34179
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2-3	Satan's	_	_	_	_	_	_	_	start_char=5|end_char=12
+2	Satan	Satan	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=10
+3	's	's	PART	POS	_	2	_	_	start_char=10|end_char=12
+4	whore	whore	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=18|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=18|end_char=19
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=20|end_char=22
+7	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=23|end_char=29
+8	to	to	PART	TO	_	7	_	_	start_char=30|end_char=32
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=33|end_char=36
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=37|end_char=39
+11	attention	attention	NOUN	NN	Number=Sing	10	_	_	start_char=40|end_char=49
+12	again	again	ADV	RB	_	11	_	_	start_char=50|end_char=55|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=55|end_char=56
+
+# text = She post to Me 3. times saying I'm stalking her....
+# sent_id = 34180
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=57|end_char=60
+2	post	post	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=61|end_char=65
+3	to	to	ADP	IN	_	2	_	_	start_char=66|end_char=68
+4	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=69|end_char=71
+5	3	3	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=72|end_char=73|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=73|end_char=74
+7	times	time	NOUN	NNS	Number=Plur	6	_	_	start_char=75|end_char=80
+8	saying	say	VERB	VBG	VerbForm=Ger	7	_	_	start_char=81|end_char=87
+9-10	I'm	_	_	_	_	_	_	_	start_char=88|end_char=91
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=88|end_char=89
+10	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=89|end_char=91
+11	stalking	stalk	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=92|end_char=100
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=101|end_char=104|SpaceAfter=No
+13	....	....	PUNCT	.	_	12	_	_	start_char=104|end_char=108
+
+# text = Lol bless her stupid heart.
+# sent_id = 34181
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=109|end_char=112
+2	bless	bless	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=113|end_char=118
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=119|end_char=122
+4	stupid	stupid	ADJ	JJ	Degree=Pos	3	_	_	start_char=123|end_char=129
+5	heart	heart	NOUN	NN	Number=Sing	4	_	_	start_char=130|end_char=135|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=135|end_char=136|SpaceAfter=No
+

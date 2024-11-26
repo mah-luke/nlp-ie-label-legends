@@ -1,0 +1,23 @@
+# text = Overall, women spend more than they make.
+# sent_id = 76776
+1	Overall	overall	ADV	RB	_	0	_	_	start_char=0|end_char=7|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=7|end_char=8
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=9|end_char=14
+4	spend	spend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=20
+5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=21|end_char=25
+6	than	than	SCONJ	IN	_	5	_	_	start_char=26|end_char=30
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=31|end_char=35
+8	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=36|end_char=40|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=40|end_char=41
+
+# text = Guess who’s footing the difference.
+# sent_id = 76777
+1	Guess	guess	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=42|end_char=47
+2-3	who’s	_	_	_	_	_	_	_	start_char=48|end_char=53
+2	who	who	PRON	WP	PronType=Rel	1	_	_	start_char=48|end_char=51
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=51|end_char=53
+4	footing	foot	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=54|end_char=61
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=62|end_char=65
+6	difference	difference	NOUN	NN	Number=Sing	5	_	_	start_char=66|end_char=76|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=76|end_char=77|SpaceAfter=No
+

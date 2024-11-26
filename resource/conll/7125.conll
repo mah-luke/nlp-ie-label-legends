@@ -1,0 +1,50 @@
+# text = This asshole assaulted her!
+# sent_id = 14940
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	asshole	asshole	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=12
+3	assaulted	assault	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=13|end_char=22
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=23|end_char=26|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=26|end_char=27
+
+# text = He belongs in jail!
+# sent_id = 14941
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=28|end_char=30
+2	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=38
+3	in	in	ADP	IN	_	2	_	_	start_char=39|end_char=41
+4	jail	jail	NOUN	NN	Number=Sing	3	_	_	start_char=42|end_char=46|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=46|end_char=47
+
+# text = Help push this video to go viral!
+# sent_id = 14942
+1	Help	help	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=48|end_char=52
+2	push	push	VERB	VB	VerbForm=Inf	1	_	_	start_char=53|end_char=57
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=58|end_char=62
+4	video	video	NOUN	NN	Number=Sing	3	_	_	start_char=63|end_char=68
+5	to	to	PART	TO	_	4	_	_	start_char=69|end_char=71
+6	go	go	VERB	VB	VerbForm=Inf	5	_	_	start_char=72|end_char=74
+7	viral	viral	ADJ	JJ	Degree=Pos	6	_	_	start_char=75|end_char=80|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=80|end_char=81
+
+# text = He must be prosecuted, stop letting violent liberals get away with crimes!!
+# sent_id = 14943
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=82|end_char=84
+2	must	must	AUX	MD	VerbForm=Fin	1	_	_	start_char=85|end_char=89
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=90|end_char=92
+4	prosecuted	prosecute	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=93|end_char=103|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=103|end_char=104
+6	stop	stop	VERB	VB	VerbForm=Inf	5	_	_	start_char=105|end_char=109
+7	letting	let	VERB	VBG	VerbForm=Ger	6	_	_	start_char=110|end_char=117
+8	violent	violent	ADJ	JJ	Degree=Pos	7	_	_	start_char=118|end_char=125
+9	liberals	liberal	NOUN	NNS	Number=Plur	8	_	_	start_char=126|end_char=134
+10	get	get	VERB	VB	VerbForm=Inf	9	_	_	start_char=135|end_char=138
+11	away	away	ADV	RB	_	10	_	_	start_char=139|end_char=143
+12	with	with	ADP	IN	_	11	_	_	start_char=144|end_char=148
+13	crimes	crime	NOUN	NNS	Number=Plur	12	_	_	start_char=149|end_char=155|SpaceAfter=No
+14	!!	!!	PUNCT	.	_	13	_	_	start_char=155|end_char=157
+
+# text = [URL]
+# sent_id = 14944
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=158|end_char=159|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=159|end_char=162|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=162|end_char=163|SpaceAfter=No
+

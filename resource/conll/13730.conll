@@ -1,0 +1,33 @@
+# text = Maybe,but I kinda like the torture idea.
+# sent_id = 29238
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6|SpaceAfter=No
+3	but	but	CCONJ	CC	_	2	_	_	start_char=6|end_char=9
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=10|end_char=11
+5	kinda	kinda	ADV	RB	_	4	_	_	start_char=12|end_char=17
+6	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=18|end_char=22
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=23|end_char=26
+8	torture	torture	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=34
+9	idea	idea	NOUN	NN	Number=Sing	8	_	_	start_char=35|end_char=39|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=39|end_char=40
+
+# text = Tortured us for 8 yrs.
+# sent_id = 29239
+1	Tortured	torture	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=41|end_char=49
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=50|end_char=52
+3	for	for	ADP	IN	_	2	_	_	start_char=53|end_char=56
+4	8	8	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=57|end_char=58
+5	yrs	year	NOUN	NNS	Number=Plur	4	_	_	start_char=59|end_char=62|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=62|end_char=63|SpaceAfter=No
+
+# text = and he's still fuckin around.
+# sent_id = 29240
+1	and	and	CCONJ	CC	_	0	_	_	start_char=63|end_char=66
+2-3	he's	_	_	_	_	_	_	_	start_char=67|end_char=71
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=67|end_char=69
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=69|end_char=71
+4	still	still	ADV	RB	_	3	_	_	start_char=72|end_char=77
+5	fuckin	fuckin	ADJ	JJ	Degree=Pos	4	_	_	start_char=78|end_char=84
+6	around	around	ADV	RB	_	5	_	_	start_char=85|end_char=91|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=91|end_char=92|SpaceAfter=No
+

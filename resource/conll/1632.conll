@@ -1,0 +1,32 @@
+# text = [USER]
+# sent_id = 3429
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = She is so paranoid lol.
+# sent_id = 3430
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=10
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=11|end_char=13
+3	so	so	ADV	RB	_	2	_	_	start_char=14|end_char=16
+4	paranoid	paranoid	ADJ	JJ	Degree=Pos	3	_	_	start_char=17|end_char=25
+5	lol	lol	INTJ	UH	_	4	_	_	start_char=26|end_char=29|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=29|end_char=30
+
+# text = Either that or she is consciously lying to people to make them afraid.
+# sent_id = 3431
+1	Either	either	CCONJ	CC	_	0	_	_	start_char=31|end_char=37
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=38|end_char=42
+3	or	or	CCONJ	CC	_	2	_	_	start_char=43|end_char=45
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=46|end_char=49
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=50|end_char=52
+6	consciously	consciously	ADV	RB	_	5	_	_	start_char=53|end_char=64
+7	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=65|end_char=70
+8	to	to	ADP	IN	_	7	_	_	start_char=71|end_char=73
+9	people	person	NOUN	NNS	Number=Plur	8	_	_	start_char=74|end_char=80
+10	to	to	PART	TO	_	9	_	_	start_char=81|end_char=83
+11	make	make	VERB	VB	VerbForm=Inf	10	_	_	start_char=84|end_char=88
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	_	_	start_char=89|end_char=93
+13	afraid	afraid	ADJ	JJ	Degree=Pos	12	_	_	start_char=94|end_char=100|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=100|end_char=101|SpaceAfter=No
+

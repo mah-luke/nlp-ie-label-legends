@@ -1,0 +1,30 @@
+# text = Merkel is a Communist Polish Jew.
+# sent_id = 57495
+1	Merkel	Merkel	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7|end_char=9
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=10|end_char=11
+4	Communist	Communist	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=21
+5	Polish	Polish	ADJ	JJ	Degree=Pos	4	_	_	start_char=22|end_char=28
+6	Jew	Jew	PROPN	NNP	Number=Sing	5	_	_	start_char=29|end_char=32|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=32|end_char=33
+
+# text = This is her (((Mother))).
+# sent_id = 57496
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=34|end_char=38
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=39|end_char=41
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=42|end_char=45
+4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=46|end_char=47|SpaceAfter=No
+5	(	(	PUNCT	-LRB-	_	4	_	_	start_char=47|end_char=48|SpaceAfter=No
+6	(	(	PUNCT	-LRB-	_	5	_	_	start_char=48|end_char=49|SpaceAfter=No
+7	Mother	mother	NOUN	NN	Number=Sing	6	_	_	start_char=49|end_char=55|SpaceAfter=No
+8	)	)	PUNCT	-RRB-	_	7	_	_	start_char=55|end_char=56|SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	8	_	_	start_char=56|end_char=57|SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	_	_	start_char=57|end_char=58|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=58|end_char=59
+
+# text = [URL]
+# sent_id = 57497
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=60|end_char=61|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=61|end_char=64|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=64|end_char=65|SpaceAfter=No
+

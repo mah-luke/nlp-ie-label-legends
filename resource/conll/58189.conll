@@ -1,0 +1,28 @@
+# text = If you treat someone like Royalty, they'll treat you like a peasant.
+# sent_id = 124268
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	treat	treat	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=12
+4	someone	someone	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=13|end_char=20
+5	like	like	ADP	IN	_	4	_	_	start_char=21|end_char=25
+6	Royalty	Royalty	PROPN	NNP	Number=Sing	5	_	_	start_char=26|end_char=33|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=33|end_char=34
+8-9	they'll	_	_	_	_	_	_	_	start_char=35|end_char=42
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=35|end_char=39
+9	'll	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=39|end_char=42
+10	treat	treat	VERB	VB	VerbForm=Inf	9	_	_	start_char=43|end_char=48
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=49|end_char=52
+12	like	like	ADP	IN	_	11	_	_	start_char=53|end_char=57
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=58|end_char=59
+14	peasant	peasant	NOUN	NN	Number=Sing	13	_	_	start_char=60|end_char=67|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=67|end_char=68
+
+# text = She peasants to worship her.
+# sent_id = 124269
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=69|end_char=72
+2	peasants	peasant	NOUN	NNS	Number=Plur	1	_	_	start_char=73|end_char=81
+3	to	to	PART	TO	_	2	_	_	start_char=82|end_char=84
+4	worship	worship	VERB	VB	VerbForm=Inf	3	_	_	start_char=85|end_char=92
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=93|end_char=96|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=96|end_char=97|SpaceAfter=No
+

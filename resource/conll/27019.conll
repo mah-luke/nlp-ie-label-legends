@@ -1,0 +1,57 @@
+# text = you don't see my point ?
+# sent_id = 58042
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2-3	don't	_	_	_	_	_	_	_	start_char=4|end_char=9
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	n't	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	start_char=10|end_char=13
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=14|end_char=16
+6	point	point	NOUN	NN	Number=Sing	5	_	_	start_char=17|end_char=22
+7	?	?	PUNCT	.	_	6	_	_	start_char=23|end_char=24
+
+# text = how many die of cocaine ?
+# sent_id = 58043
+1	how	how	ADV	WRB	PronType=Int	0	_	_	start_char=25|end_char=28
+2	many	many	ADJ	JJ	Degree=Pos	1	_	_	start_char=29|end_char=33
+3	die	die	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=34|end_char=37
+4	of	of	ADP	IN	_	3	_	_	start_char=38|end_char=40
+5	cocaine	cocaine	NOUN	NN	Number=Sing	4	_	_	start_char=41|end_char=48
+6	?	?	PUNCT	.	_	5	_	_	start_char=49|end_char=50
+
+# text = how many died of marijuana ? do not be closed... there must always be debate.
+# sent_id = 58044
+1	how	how	ADV	WRB	PronType=Int	0	_	_	start_char=51|end_char=54
+2	many	many	ADJ	JJ	Degree=Pos	1	_	_	start_char=55|end_char=59
+3	died	die	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=60|end_char=64
+4	of	of	ADP	IN	_	3	_	_	start_char=65|end_char=67
+5	marijuana	marijuana	NOUN	NN	Number=Sing	4	_	_	start_char=68|end_char=77
+6	?	?	PUNCT	.	_	5	_	_	start_char=78|end_char=79
+7	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=80|end_char=82
+8	not	not	PART	RB	_	7	_	_	start_char=83|end_char=86
+9	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=87|end_char=89
+10	closed	close	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=90|end_char=96|SpaceAfter=No
+11	...	...	PUNCT	,	_	10	_	_	start_char=96|end_char=99
+12	there	there	PRON	EX	_	11	_	_	start_char=100|end_char=105
+13	must	must	AUX	MD	VerbForm=Fin	12	_	_	start_char=106|end_char=110
+14	always	always	ADV	RB	_	13	_	_	start_char=111|end_char=117
+15	be	be	VERB	VB	VerbForm=Inf	14	_	_	start_char=118|end_char=120
+16	debate	debate	NOUN	NN	Number=Sing	15	_	_	start_char=121|end_char=127|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=127|end_char=128
+
+# text = you put out there that you were for weed, so expect debating.
+# sent_id = 58045
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=129|end_char=132
+2	put	put	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=133|end_char=136
+3	out	out	ADP	RP	_	2	_	_	start_char=137|end_char=140
+4	there	there	ADV	RB	PronType=Dem	3	_	_	start_char=141|end_char=146
+5	that	that	SCONJ	IN	_	4	_	_	start_char=147|end_char=151
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=152|end_char=155
+7	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	_	_	start_char=156|end_char=160
+8	for	for	ADP	IN	_	7	_	_	start_char=161|end_char=164
+9	weed	weed	NOUN	NN	Number=Sing	8	_	_	start_char=165|end_char=169|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=169|end_char=170
+11	so	so	ADV	RB	_	10	_	_	start_char=171|end_char=173
+12	expect	expect	VERB	VB	Mood=Imp|VerbForm=Fin	11	_	_	start_char=174|end_char=180
+13	debating	debate	NOUN	NN	Number=Sing	12	_	_	start_char=181|end_char=189|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=189|end_char=190|SpaceAfter=No
+

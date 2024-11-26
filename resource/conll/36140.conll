@@ -1,0 +1,19 @@
+# text = She’s possessed by demons!
+# sent_id = 77281
+1-2	She’s	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	possessed	possess	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=6|end_char=15
+4	by	by	ADP	IN	_	3	_	_	start_char=16|end_char=18
+5	demons	demon	NOUN	NNS	Number=Plur	4	_	_	start_char=19|end_char=25|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=25|end_char=26
+
+# text = Why would the promote her!
+# sent_id = 77282
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=27|end_char=30
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=31|end_char=36
+3	the	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=37|end_char=40
+4	promote	promote	VERB	VB	VerbForm=Inf	3	_	_	start_char=41|end_char=48
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=49|end_char=52|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=52|end_char=53|SpaceAfter=No
+

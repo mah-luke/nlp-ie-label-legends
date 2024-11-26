@@ -1,0 +1,61 @@
+# text = The so-called "pink tax" is just supply and demand in action.
+# sent_id = 42331
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	so	so	ADV	RB	_	1	_	_	start_char=4|end_char=6|SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	_	_	start_char=6|end_char=7|SpaceAfter=No
+4	called	call	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=7|end_char=13
+5	"	"	PUNCT	``	_	4	_	_	start_char=14|end_char=15|SpaceAfter=No
+6	pink	pink	ADJ	JJ	Degree=Pos	5	_	_	start_char=15|end_char=19
+7	tax	tax	NOUN	NN	Number=Sing	6	_	_	start_char=20|end_char=23|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=23|end_char=24
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=25|end_char=27
+10	just	just	ADV	RB	_	9	_	_	start_char=28|end_char=32
+11	supply	supply	NOUN	NN	Number=Sing	10	_	_	start_char=33|end_char=39
+12	and	and	CCONJ	CC	_	11	_	_	start_char=40|end_char=43
+13	demand	demand	NOUN	NN	Number=Sing	12	_	_	start_char=44|end_char=50
+14	in	in	ADP	IN	_	13	_	_	start_char=51|end_char=53
+15	action	action	NOUN	NN	Number=Sing	14	_	_	start_char=54|end_char=60|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=60|end_char=61
+
+# text = Men will not pay more for a product because it's a certain color.
+# sent_id = 42332
+1	Men	man	NOUN	NNS	Number=Plur	0	_	_	start_char=62|end_char=65
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=66|end_char=70
+3	not	not	PART	RB	_	2	_	_	start_char=71|end_char=74
+4	pay	pay	VERB	VB	VerbForm=Inf	3	_	_	start_char=75|end_char=78
+5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=79|end_char=83
+6	for	for	ADP	IN	_	5	_	_	start_char=84|end_char=87
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=88|end_char=89
+8	product	product	NOUN	NN	Number=Sing	7	_	_	start_char=90|end_char=97
+9	because	because	SCONJ	IN	_	8	_	_	start_char=98|end_char=105
+10-11	it's	_	_	_	_	_	_	_	start_char=106|end_char=110
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=106|end_char=108
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=108|end_char=110
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=111|end_char=112
+13	certain	certain	ADJ	JJ	Degree=Pos	12	_	_	start_char=113|end_char=120
+14	color	color	NOUN	NN	Number=Sing	13	_	_	start_char=121|end_char=126|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=126|end_char=127
+
+# text = Women will.
+# sent_id = 42333
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=128|end_char=133
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=134|end_char=138|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=138|end_char=139
+
+# text = Therefore buying certain products in pink costs more because the demand is higher.
+# sent_id = 42334
+1	Therefore	therefore	ADV	RB	_	0	_	_	start_char=140|end_char=149
+2	buying	buy	VERB	VBG	VerbForm=Ger	1	_	_	start_char=150|end_char=156
+3	certain	certain	ADJ	JJ	Degree=Pos	2	_	_	start_char=157|end_char=164
+4	products	product	NOUN	NNS	Number=Plur	3	_	_	start_char=165|end_char=173
+5	in	in	ADP	IN	_	4	_	_	start_char=174|end_char=176
+6	pink	pink	NOUN	NN	Number=Sing	5	_	_	start_char=177|end_char=181
+7	costs	cost	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=182|end_char=187
+8	more	more	ADJ	JJR	Degree=Cmp	7	_	_	start_char=188|end_char=192
+9	because	because	SCONJ	IN	_	8	_	_	start_char=193|end_char=200
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=201|end_char=204
+11	demand	demand	NOUN	NN	Number=Sing	10	_	_	start_char=205|end_char=211
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=212|end_char=214
+13	higher	high	ADJ	JJR	Degree=Cmp	12	_	_	start_char=215|end_char=221|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=221|end_char=222|SpaceAfter=No
+

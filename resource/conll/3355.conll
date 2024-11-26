@@ -1,0 +1,27 @@
+# text = She's hurt, omfg poor thing.
+# sent_id = 7080
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	hurt	hurt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=6|end_char=10|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=10|end_char=11
+5	omfg	omfg	INTJ	UH	_	4	_	_	start_char=12|end_char=16
+6	poor	poor	ADJ	JJ	Degree=Pos	5	_	_	start_char=17|end_char=21
+7	thing	thing	NOUN	NN	Number=Sing	6	_	_	start_char=22|end_char=27|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=27|end_char=28
+
+# text = Where are our trolls ?
+# sent_id = 7081
+1	Where	where	ADV	WRB	PronType=Int	0	_	_	start_char=29|end_char=34
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=35|end_char=38
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=39|end_char=42
+4	trolls	troll	NOUN	NNS	Number=Plur	3	_	_	start_char=43|end_char=49
+5	?	?	PUNCT	.	_	4	_	_	start_char=50|end_char=51
+
+# text = Go save her.
+# sent_id = 7082
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=52|end_char=54
+2	save	save	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=55|end_char=59
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=60|end_char=63|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=63|end_char=64|SpaceAfter=No
+

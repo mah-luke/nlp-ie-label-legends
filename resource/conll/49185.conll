@@ -1,0 +1,53 @@
+# text = I'm pretty libertarian, but I have lines.
+# sent_id = 105183
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	pretty	pretty	ADV	RB	_	2	_	_	start_char=4|end_char=10
+4	libertarian	libertarian	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=22|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=22|end_char=23
+6	but	but	CCONJ	CC	_	5	_	_	start_char=24|end_char=27
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=28|end_char=29
+8	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=30|end_char=34
+9	lines	line	NOUN	NNS	Number=Plur	8	_	_	start_char=35|end_char=40|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=40|end_char=41
+
+# text = If you're raising your boy as a girl, I really can't regard it as anything but child abuse.
+# sent_id = 105184
+1	If	if	SCONJ	IN	_	0	_	_	start_char=42|end_char=44
+2-3	you're	_	_	_	_	_	_	_	start_char=45|end_char=51
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=45|end_char=48
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=48|end_char=51
+4	raising	raise	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=52|end_char=59
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=60|end_char=64
+6	boy	boy	NOUN	NN	Number=Sing	5	_	_	start_char=65|end_char=68
+7	as	as	ADP	IN	_	6	_	_	start_char=69|end_char=71
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=72|end_char=73
+9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=74|end_char=78|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=78|end_char=79
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=80|end_char=81
+12	really	really	ADV	RB	_	11	_	_	start_char=82|end_char=88
+13-14	can't	_	_	_	_	_	_	_	start_char=89|end_char=94
+13	ca	can	AUX	MD	VerbForm=Fin	12	_	_	start_char=89|end_char=91
+14	n't	not	PART	RB	_	13	_	_	start_char=91|end_char=94
+15	regard	regard	VERB	VB	VerbForm=Inf	14	_	_	start_char=95|end_char=101
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=102|end_char=104
+17	as	as	ADP	IN	_	16	_	_	start_char=105|end_char=107
+18	anything	anything	PRON	NN	Number=Sing|PronType=Ind	17	_	_	start_char=108|end_char=116
+19	but	but	ADP	IN	_	18	_	_	start_char=117|end_char=120
+20	child	child	NOUN	NN	Number=Sing	19	_	_	start_char=121|end_char=126
+21	abuse	abuse	NOUN	NN	Number=Sing	20	_	_	start_char=127|end_char=132|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=132|end_char=133
+
+# text = Stop destroying our young boys with this crap.
+# sent_id = 105185
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=134|end_char=138
+2	destroying	destroy	VERB	VBG	VerbForm=Ger	1	_	_	start_char=139|end_char=149
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=150|end_char=153
+4	young	young	ADJ	JJ	Degree=Pos	3	_	_	start_char=154|end_char=159
+5	boys	boy	NOUN	NNS	Number=Plur	4	_	_	start_char=160|end_char=164
+6	with	with	ADP	IN	_	5	_	_	start_char=165|end_char=169
+7	this	this	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=170|end_char=174
+8	crap	crap	NOUN	NN	Number=Sing	7	_	_	start_char=175|end_char=179|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=179|end_char=180|SpaceAfter=No
+

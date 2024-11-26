@@ -1,0 +1,58 @@
+# text = lol, please stop acting like there are no rapes in this country.
+# sent_id = 27210
+1	lol	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	please	please	INTJ	UH	_	2	_	_	start_char=5|end_char=11
+4	stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=12|end_char=16
+5	acting	act	VERB	VBG	VerbForm=Ger	4	_	_	start_char=17|end_char=23
+6	like	like	SCONJ	IN	_	5	_	_	start_char=24|end_char=28
+7	there	there	PRON	EX	_	6	_	_	start_char=29|end_char=34
+8	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=35|end_char=38
+9	no	no	DET	DT	_	8	_	_	start_char=39|end_char=41
+10	rapes	rape	NOUN	NNS	Number=Plur	9	_	_	start_char=42|end_char=47
+11	in	in	ADP	IN	_	10	_	_	start_char=48|end_char=50
+12	this	this	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=51|end_char=55
+13	country	country	NOUN	NN	Number=Sing	12	_	_	start_char=56|end_char=63|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=63|end_char=64
+
+# text = 20k White women are raped every year by blacks.
+# sent_id = 27211
+1	20	20	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=65|end_char=67|SpaceAfter=No
+2	k	thousand	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	1	_	_	start_char=67|end_char=68
+3	White	White	ADJ	JJ	Degree=Pos	2	_	_	start_char=69|end_char=74
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=75|end_char=80
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=81|end_char=84
+6	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=85|end_char=90
+7	every	every	DET	DT	PronType=Tot	6	_	_	start_char=91|end_char=96
+8	year	year	NOUN	NN	Number=Sing	7	_	_	start_char=97|end_char=101
+9	by	by	ADP	IN	_	8	_	_	start_char=102|end_char=104
+10	blacks	black	NOUN	NNS	Number=Plur	9	_	_	start_char=105|end_char=111|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=111|end_char=112
+
+# text = Instead of dealing with that, dummies like you want to swing your dick bombing places that have nothing to do with us.
+# sent_id = 27212
+1	Instead	instead	ADV	RB	_	0	_	_	start_char=113|end_char=120
+2	of	of	SCONJ	IN	_	1	_	_	start_char=121|end_char=123
+3	dealing	deal	VERB	VBG	VerbForm=Ger	2	_	_	start_char=124|end_char=131
+4	with	with	ADP	IN	_	3	_	_	start_char=132|end_char=136
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=137|end_char=141|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=141|end_char=142
+7	dummies	dummy	NOUN	NNS	Number=Plur	6	_	_	start_char=143|end_char=150
+8	like	like	SCONJ	IN	_	7	_	_	start_char=151|end_char=155
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=156|end_char=159
+10	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=160|end_char=164
+11	to	to	PART	TO	_	10	_	_	start_char=165|end_char=167
+12	swing	swing	VERB	VB	VerbForm=Inf	11	_	_	start_char=168|end_char=173
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=174|end_char=178
+14	dick	dick	NOUN	NN	Number=Sing	13	_	_	start_char=179|end_char=183
+15	bombing	bombing	NOUN	NN	Number=Sing	14	_	_	start_char=184|end_char=191
+16	places	place	NOUN	NNS	Number=Plur	15	_	_	start_char=192|end_char=198
+17	that	that	PRON	WDT	PronType=Rel	16	_	_	start_char=199|end_char=203
+18	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=204|end_char=208
+19	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	18	_	_	start_char=209|end_char=216
+20	to	to	PART	TO	_	19	_	_	start_char=217|end_char=219
+21	do	do	VERB	VB	VerbForm=Inf	20	_	_	start_char=220|end_char=222
+22	with	with	ADP	IN	_	21	_	_	start_char=223|end_char=227
+23	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	22	_	_	start_char=228|end_char=230|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=230|end_char=231|SpaceAfter=No
+

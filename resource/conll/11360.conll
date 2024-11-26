@@ -1,0 +1,42 @@
+# text = Tell her you got hacked or your cousin was typing.
+# sent_id = 24062
+1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=5|end_char=8
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	_	_	start_char=13|end_char=16
+5	hacked	hack	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=17|end_char=23
+6	or	or	CCONJ	CC	_	5	_	_	start_char=24|end_char=26
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=27|end_char=31
+8	cousin	cousin	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=38
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=39|end_char=42
+10	typing	type	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=43|end_char=49|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=49|end_char=50
+
+# text = But again, if you're not trolling...
+# sent_id = 24063
+1	But	but	CCONJ	CC	_	0	_	_	start_char=51|end_char=54
+2	again	again	ADV	RB	_	1	_	_	start_char=55|end_char=60|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=60|end_char=61
+4	if	if	SCONJ	IN	_	3	_	_	start_char=62|end_char=64
+5-6	you're	_	_	_	_	_	_	_	start_char=65|end_char=71
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=65|end_char=68
+6	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=68|end_char=71
+7	not	not	PART	RB	_	6	_	_	start_char=72|end_char=75
+8	trolling	troll	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=76|end_char=84|SpaceAfter=No
+9	...	...	PUNCT	.	_	8	_	_	start_char=84|end_char=87
+
+# text = You got balls.
+# sent_id = 24064
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=88|end_char=91
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=92|end_char=95
+3	balls	ball	NOUN	NNS	Number=Plur	2	_	_	start_char=96|end_char=101|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=101|end_char=102
+
+# text = Blue balls that is.
+# sent_id = 24065
+1	Blue	Blue	ADJ	JJ	Degree=Pos	0	_	_	start_char=103|end_char=107
+2	balls	ball	NOUN	NNS	Number=Plur	1	_	_	start_char=108|end_char=113
+3	that	that	PRON	WDT	PronType=Rel	2	_	_	start_char=114|end_char=118
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=119|end_char=121|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=121|end_char=122|SpaceAfter=No
+

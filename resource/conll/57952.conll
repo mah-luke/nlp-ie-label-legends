@@ -1,0 +1,42 @@
+# text = They'll just deflect:
+# sent_id = 123800
+1-2	They'll	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=4
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	just	just	ADV	RB	_	2	_	_	start_char=8|end_char=12
+4	deflect	deflect	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=20|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=20|end_char=21
+
+# text = Blah blah blah women were kept out of blah blah blah women's inventions were misattributed to blah blah blah you have a small penis blah blah blah.
+# sent_id = 123801
+1	Blah	blah	INTJ	UH	_	0	_	_	start_char=22|end_char=26
+2	blah	blah	INTJ	UH	_	1	_	_	start_char=27|end_char=31
+3	blah	blah	INTJ	UH	_	2	_	_	start_char=32|end_char=36
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=37|end_char=42
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=43|end_char=47
+6	kept	keep	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=48|end_char=52
+7	out	out	ADP	IN	_	6	_	_	start_char=53|end_char=56
+8	of	of	ADP	IN	_	7	_	_	start_char=57|end_char=59
+9	blah	blah	ADJ	JJ	Degree=Pos	8	_	_	start_char=60|end_char=64
+10	blah	blah	INTJ	UH	_	9	_	_	start_char=65|end_char=69
+11	blah	blah	ADJ	JJ	Degree=Pos	10	_	_	start_char=70|end_char=74
+12-13	women's	_	_	_	_	_	_	_	start_char=75|end_char=82
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=75|end_char=80
+13	's	's	PART	POS	_	12	_	_	start_char=80|end_char=82
+14	inventions	invention	NOUN	NNS	Number=Plur	13	_	_	start_char=83|end_char=93
+15	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=94|end_char=98
+16	misattributed	misattributute	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	_	_	start_char=99|end_char=112
+17	to	to	ADP	IN	_	16	_	_	start_char=113|end_char=115
+18	blah	blah	INTJ	UH	_	17	_	_	start_char=116|end_char=120
+19	blah	blah	INTJ	UH	_	18	_	_	start_char=121|end_char=125
+20	blah	blah	INTJ	UH	_	19	_	_	start_char=126|end_char=130
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	_	_	start_char=131|end_char=134
+22	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	_	_	start_char=135|end_char=139
+23	a	a	DET	DT	Definite=Ind|PronType=Art	22	_	_	start_char=140|end_char=141
+24	small	small	ADJ	JJ	Degree=Pos	23	_	_	start_char=142|end_char=147
+25	penis	penis	NOUN	NN	Number=Sing	24	_	_	start_char=148|end_char=153
+26	blah	blah	INTJ	UH	_	25	_	_	start_char=154|end_char=158
+27	blah	blah	INTJ	UH	_	26	_	_	start_char=159|end_char=163
+28	blah	blah	INTJ	UH	_	27	_	_	start_char=164|end_char=168|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=168|end_char=169|SpaceAfter=No
+

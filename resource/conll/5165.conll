@@ -1,0 +1,21 @@
+# text = She should just choke herself.
+# sent_id = 10882
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=10
+3	just	just	ADV	RB	_	2	_	_	start_char=11|end_char=15
+4	choke	chaok	VERB	VB	VerbForm=Inf	3	_	_	start_char=16|end_char=21
+5	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	_	_	start_char=22|end_char=29|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=29|end_char=30
+
+# text = I'd watch that for a dollar!
+# sent_id = 10883
+1-2	I'd	_	_	_	_	_	_	_	start_char=31|end_char=34
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=31|end_char=32
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=32|end_char=34
+3	watch	watch	VERB	VB	VerbForm=Inf	2	_	_	start_char=35|end_char=40
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=41|end_char=45
+5	for	for	ADP	IN	_	4	_	_	start_char=46|end_char=49
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=50|end_char=51
+7	dollar	dollar	NOUN	NN	Number=Sing	6	_	_	start_char=52|end_char=58|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=58|end_char=59|SpaceAfter=No
+

@@ -1,0 +1,17 @@
+# text = [USER]
+# sent_id = 97746
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Always shoot a traitor before shooting the enemy
+# sent_id = 97747
+1	Always	Always	ADV	RB	_	0	_	_	start_char=7|end_char=13
+2	shoot	shoot	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=14|end_char=19
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=20|end_char=21
+4	traitor	traitor	NOUN	NN	Number=Sing	3	_	_	start_char=22|end_char=29
+5	before	before	SCONJ	IN	_	4	_	_	start_char=30|end_char=36
+6	shooting	shoot	VERB	VBG	VerbForm=Ger	5	_	_	start_char=37|end_char=45
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=46|end_char=49
+8	enemy	enemy	NOUN	NN	Number=Sing	7	_	_	start_char=50|end_char=55|SpaceAfter=No
+

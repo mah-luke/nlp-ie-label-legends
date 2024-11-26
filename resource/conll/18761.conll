@@ -1,0 +1,59 @@
+# text = Sows usually live pretty long productive life's for obese pigs, I think.
+# sent_id = 40238
+1	Sows	sow	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=4
+2	usually	usually	ADV	RB	_	1	_	_	start_char=5|end_char=12
+3	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=17
+4	pretty	pretty	ADV	RB	_	3	_	_	start_char=18|end_char=24
+5	long	long	ADJ	JJ	Degree=Pos	4	_	_	start_char=25|end_char=29
+6	productive	productive	ADJ	JJ	Degree=Pos	5	_	_	start_char=30|end_char=40
+7-8	life's	_	_	_	_	_	_	_	start_char=41|end_char=47
+7	life	life	NOUN	NN	Number=Sing	6	_	_	start_char=41|end_char=45
+8	's	's	PART	POS	_	7	_	_	start_char=45|end_char=47
+9	for	for	ADP	IN	_	8	_	_	start_char=48|end_char=51
+10	obese	obese	ADJ	JJ	Degree=Pos	9	_	_	start_char=52|end_char=57
+11	pigs	pig	NOUN	NNS	Number=Plur	10	_	_	start_char=58|end_char=62|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=62|end_char=63
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=64|end_char=65
+14	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=66|end_char=71|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=71|end_char=72
+
+# text = Like 6-8 years.
+# sent_id = 40239
+1	Like	like	INTJ	UH	_	0	_	_	start_char=73|end_char=77
+2	6	6	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=78|end_char=79|SpaceAfter=No
+3	-	-	SYM	SYM	_	2	_	_	start_char=79|end_char=80|SpaceAfter=No
+4	8	8	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=80|end_char=81
+5	years	year	NOUN	NNS	Number=Plur	4	_	_	start_char=82|end_char=87|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=87|end_char=88
+
+# text = Like larger stature dogs.
+# sent_id = 40240
+1	Like	like	ADP	IN	_	0	_	_	start_char=89|end_char=93
+2	larger	large	ADJ	JJR	Degree=Cmp	1	_	_	start_char=94|end_char=100
+3	stature	stature	NOUN	NN	Number=Sing	2	_	_	start_char=101|end_char=108
+4	dogs	dog	NOUN	NNS	Number=Plur	3	_	_	start_char=109|end_char=113|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=113|end_char=114
+
+# text = Usually when they're very large female pigs like that, it's a hereditary breeding preference.
+# sent_id = 40241
+1	Usually	usually	ADV	RB	_	0	_	_	start_char=115|end_char=122
+2	when	when	ADV	WRB	PronType=Int	1	_	_	start_char=123|end_char=127
+3-4	they're	_	_	_	_	_	_	_	start_char=128|end_char=135
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=128|end_char=132
+4	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=132|end_char=135
+5	very	very	ADV	RB	_	4	_	_	start_char=136|end_char=140
+6	large	large	ADJ	JJ	Degree=Pos	5	_	_	start_char=141|end_char=146
+7	female	female	ADJ	JJ	Degree=Pos	6	_	_	start_char=147|end_char=153
+8	pigs	pig	NOUN	NNS	Number=Plur	7	_	_	start_char=154|end_char=158
+9	like	like	ADP	IN	_	8	_	_	start_char=159|end_char=163
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	9	_	_	start_char=164|end_char=168|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=168|end_char=169
+12-13	it's	_	_	_	_	_	_	_	start_char=170|end_char=174
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=170|end_char=172
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=172|end_char=174
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=175|end_char=176
+15	hereditary	hereditary	ADJ	JJ	Degree=Pos	14	_	_	start_char=177|end_char=187
+16	breeding	breeding	NOUN	NN	Number=Sing	15	_	_	start_char=188|end_char=196
+17	preference	preference	NOUN	NN	Number=Sing	16	_	_	start_char=197|end_char=207|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=207|end_char=208|SpaceAfter=No
+

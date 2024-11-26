@@ -1,0 +1,64 @@
+# text = thank you, kimberly.
+# sent_id = 18039
+1	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=5
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	start_char=6|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
+4	kimberly	Himberly	PROPN	NNP	Number=Sing	3	_	_	start_char=11|end_char=19|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=19|end_char=20
+
+# text = i'm also lucky to have such a caring vet & staff who all love their patients as much as their own pets.
+# sent_id = 18040
+1-2	i'm	_	_	_	_	_	_	_	start_char=21|end_char=24
+1	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=21|end_char=22
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=24
+3	also	also	ADV	RB	_	2	_	_	start_char=25|end_char=29
+4	lucky	lucky	ADJ	JJ	Degree=Pos	3	_	_	start_char=30|end_char=35
+5	to	to	PART	TO	_	4	_	_	start_char=36|end_char=38
+6	have	have	VERB	VB	VerbForm=Inf	5	_	_	start_char=39|end_char=43
+7	such	such	DET	PDT	_	6	_	_	start_char=44|end_char=48
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=49|end_char=50
+9	caring	caring	ADJ	JJ	Degree=Pos	8	_	_	start_char=51|end_char=57
+10	vet	vet	NOUN	NN	Number=Sing	9	_	_	start_char=58|end_char=61
+11	&	&	CCONJ	CC	_	10	_	_	start_char=62|end_char=63
+12	staff	staff	NOUN	NN	Number=Sing	11	_	_	start_char=64|end_char=69
+13	who	who	PRON	WP	PronType=Rel	12	_	_	start_char=70|end_char=73
+14	all	all	DET	DT	_	13	_	_	start_char=74|end_char=77
+15	love	love	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=78|end_char=82
+16	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=83|end_char=88
+17	patients	patient	NOUN	NNS	Number=Plur	16	_	_	start_char=89|end_char=97
+18	as	as	ADV	RB	_	17	_	_	start_char=98|end_char=100
+19	much	much	ADV	RB	Degree=Pos	18	_	_	start_char=101|end_char=105
+20	as	as	ADP	IN	_	19	_	_	start_char=106|end_char=108
+21	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	_	_	start_char=109|end_char=114
+22	own	own	ADJ	JJ	Degree=Pos	21	_	_	start_char=115|end_char=118
+23	pets	pet	NOUN	NNS	Number=Plur	22	_	_	start_char=119|end_char=123|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=123|end_char=124
+
+# text = they were comforting and assuring, in that i had made the right decision for Topie...i still miss her, tho'.
+# sent_id = 18041
+1	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=125|end_char=129
+2	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=130|end_char=134
+3	comforting	comforting	ADJ	JJ	Degree=Pos	2	_	_	start_char=135|end_char=145
+4	and	and	CCONJ	CC	_	3	_	_	start_char=146|end_char=149
+5	assuring	assure	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=150|end_char=158|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=158|end_char=159
+7	in	in	ADP	IN	_	6	_	_	start_char=160|end_char=162
+8	that	that	SCONJ	IN	_	7	_	_	start_char=163|end_char=167
+9	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=168|end_char=169
+10	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	_	_	start_char=170|end_char=173
+11	made	make	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=174|end_char=178
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=179|end_char=182
+13	right	right	ADJ	JJ	Degree=Pos	12	_	_	start_char=183|end_char=188
+14	decision	decision	NOUN	NN	Number=Sing	13	_	_	start_char=189|end_char=197
+15	for	for	ADP	IN	_	14	_	_	start_char=198|end_char=201
+16	Topie	Topie	PROPN	NNP	Number=Sing	15	_	_	start_char=202|end_char=207|SpaceAfter=No
+17	...	...	PUNCT	,	_	16	_	_	start_char=207|end_char=210|SpaceAfter=No
+18	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	_	_	start_char=210|end_char=211
+19	still	still	ADV	RB	_	18	_	_	start_char=212|end_char=217
+20	miss	miss	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	_	_	start_char=218|end_char=222
+21	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=223|end_char=226|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=226|end_char=227
+23	tho	though	INTJ	UH	_	22	_	_	start_char=228|end_char=231|SpaceAfter=No
+24	'	'	PUNCT	''	_	23	_	_	start_char=231|end_char=232|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=232|end_char=233|SpaceAfter=No
+

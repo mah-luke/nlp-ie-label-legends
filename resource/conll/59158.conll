@@ -1,0 +1,57 @@
+# text = I've completely lost faith in Roger Stone.
+# sent_id = 126300
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	completely	completely	ADV	RB	_	2	_	_	start_char=5|end_char=15
+4	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=16|end_char=20
+5	faith	faith	NOUN	NN	Number=Sing	4	_	_	start_char=21|end_char=26
+6	in	in	ADP	IN	_	5	_	_	start_char=27|end_char=29
+7	Roger	Roger	PROPN	NNP	Number=Sing	6	_	_	start_char=30|end_char=35
+8	Stone	Stone	PROPN	NNP	Number=Sing	7	_	_	start_char=36|end_char=41|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=41|end_char=42
+
+# text = Joy Villa is a fraud and if people like Stone keep her around, she'll only cause more problems for conservatives.
+# sent_id = 126301
+1	Joy	Joy	PROPN	NNP	Number=Sing	0	_	_	start_char=43|end_char=46
+2	Villa	Villa	PROPN	NNP	Number=Sing	1	_	_	start_char=47|end_char=52
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=53|end_char=55
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=56|end_char=57
+5	fraud	fraud	NOUN	NN	Number=Sing	4	_	_	start_char=58|end_char=63
+6	and	and	CCONJ	CC	_	5	_	_	start_char=64|end_char=67
+7	if	if	SCONJ	IN	_	6	_	_	start_char=68|end_char=70
+8	people	person	NOUN	NNS	Number=Plur	7	_	_	start_char=71|end_char=77
+9	like	like	ADP	IN	_	8	_	_	start_char=78|end_char=82
+10	Stone	Stone	PROPN	NNP	Number=Sing	9	_	_	start_char=83|end_char=88
+11	keep	keep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=89|end_char=93
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=94|end_char=97
+13	around	around	ADV	RB	_	12	_	_	start_char=98|end_char=104|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=104|end_char=105
+15-16	she'll	_	_	_	_	_	_	_	start_char=106|end_char=112
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=106|end_char=109
+16	'll	will	AUX	MD	VerbForm=Fin	15	_	_	start_char=109|end_char=112
+17	only	only	ADV	RB	_	16	_	_	start_char=113|end_char=117
+18	cause	cause	VERB	VB	VerbForm=Inf	17	_	_	start_char=118|end_char=123
+19	more	more	ADJ	JJR	Degree=Cmp	18	_	_	start_char=124|end_char=128
+20	problems	problem	NOUN	NNS	Number=Plur	19	_	_	start_char=129|end_char=137
+21	for	for	ADP	IN	_	20	_	_	start_char=138|end_char=141
+22	conservatives	conservative	NOUN	NNS	Number=Plur	21	_	_	start_char=142|end_char=155|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=155|end_char=156
+
+# text = Her butt slapping video and her links to Soros were enough for me.
+# sent_id = 126302
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=157|end_char=160
+2	butt	butt	NOUN	NN	Number=Sing	1	_	_	start_char=161|end_char=165
+3	slapping	slapping	NOUN	NN	Number=Sing	2	_	_	start_char=166|end_char=174
+4	video	video	NOUN	NN	Number=Sing	3	_	_	start_char=175|end_char=180
+5	and	and	CCONJ	CC	_	4	_	_	start_char=181|end_char=184
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=185|end_char=188
+7	links	link	NOUN	NNS	Number=Plur	6	_	_	start_char=189|end_char=194
+8	to	to	ADP	IN	_	7	_	_	start_char=195|end_char=197
+9	Soros	Soros	PROPN	NNP	Number=Sing	8	_	_	start_char=198|end_char=203
+10	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=204|end_char=208
+11	enough	enough	ADJ	JJ	Degree=Pos	10	_	_	start_char=209|end_char=215
+12	for	for	ADP	IN	_	11	_	_	start_char=216|end_char=219
+13	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=220|end_char=222|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=222|end_char=223|SpaceAfter=No
+

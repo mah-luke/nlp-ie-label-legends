@@ -1,0 +1,17 @@
+# text = [USER]
+# sent_id = 127742
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = The dumb is strong in this woman.
+# sent_id = 127743
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=7|end_char=10
+2	dumb	dumb	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=15
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=16|end_char=18
+4	strong	strong	ADJ	JJ	Degree=Pos	3	_	_	start_char=19|end_char=25
+5	in	in	ADP	IN	_	4	_	_	start_char=26|end_char=28
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=29|end_char=33
+7	woman	woman	NOUN	NN	Number=Sing	6	_	_	start_char=34|end_char=39|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=39|end_char=40|SpaceAfter=No
+

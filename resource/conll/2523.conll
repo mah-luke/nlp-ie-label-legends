@@ -1,0 +1,64 @@
+# text = At the end of the day it sounds like you just have really bad anxiety.
+# sent_id = 5379
+1	At	at	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=3|end_char=6
+3	end	end	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=10
+4	of	of	ADP	IN	_	3	_	_	start_char=11|end_char=13
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=14|end_char=17
+6	day	day	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=21
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=22|end_char=24
+8	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=25|end_char=31
+9	like	like	SCONJ	IN	_	8	_	_	start_char=32|end_char=36
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=37|end_char=40
+11	just	just	ADV	RB	_	10	_	_	start_char=41|end_char=45
+12	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=46|end_char=50
+13	really	really	ADV	RB	_	12	_	_	start_char=51|end_char=57
+14	bad	bad	ADJ	JJ	Degree=Pos	13	_	_	start_char=58|end_char=61
+15	anxiety	anxiety	NOUN	NN	Number=Sing	14	_	_	start_char=62|end_char=69|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=69|end_char=70
+
+# text = Try meditating before you talk to people.
+# sent_id = 5380
+1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=71|end_char=74
+2	meditating	meditate	VERB	VBG	VerbForm=Ger	1	_	_	start_char=75|end_char=85
+3	before	before	SCONJ	IN	_	2	_	_	start_char=86|end_char=92
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=93|end_char=96
+5	talk	talk	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=97|end_char=101
+6	to	to	ADP	IN	_	5	_	_	start_char=102|end_char=104
+7	people	person	NOUN	NNS	Number=Plur	6	_	_	start_char=105|end_char=111|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=111|end_char=112
+
+# text = Or, you could try and memorize what she is saying.
+# sent_id = 5381
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=113|end_char=115|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=115|end_char=116
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=117|end_char=120
+4	could	could	AUX	MD	VerbForm=Fin	3	_	_	start_char=121|end_char=126
+5	try	try	VERB	VB	VerbForm=Inf	4	_	_	start_char=127|end_char=130
+6	and	and	CCONJ	CC	_	5	_	_	start_char=131|end_char=134
+7	memorize	memorize	VERB	VB	VerbForm=Inf	6	_	_	start_char=135|end_char=143
+8	what	what	PRON	WP	PronType=Rel	7	_	_	start_char=144|end_char=148
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=149|end_char=152
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=153|end_char=155
+11	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=156|end_char=162|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=162|end_char=163
+
+# text = Play games with yourself, and don't get pissed if you mess up.
+# sent_id = 5382
+1	Play	play	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=164|end_char=168
+2	games	game	NOUN	NNS	Number=Plur	1	_	_	start_char=169|end_char=174
+3	with	with	ADP	IN	_	2	_	_	start_char=175|end_char=179
+4	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	3	_	_	start_char=180|end_char=188|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=188|end_char=189
+6	and	and	CCONJ	CC	_	5	_	_	start_char=190|end_char=193
+7-8	don't	_	_	_	_	_	_	_	start_char=194|end_char=199
+7	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=194|end_char=196
+8	n't	not	PART	RB	_	7	_	_	start_char=196|end_char=199
+9	get	get	AUX	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=200|end_char=203
+10	pissed	piss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=204|end_char=210
+11	if	if	SCONJ	IN	_	10	_	_	start_char=211|end_char=213
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=214|end_char=217
+13	mess	mess	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=218|end_char=222
+14	up	up	ADP	RP	_	13	_	_	start_char=223|end_char=225|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=225|end_char=226|SpaceAfter=No
+

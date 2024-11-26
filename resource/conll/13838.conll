@@ -1,0 +1,59 @@
+# text = That's what I was thinking too...
+# sent_id = 29475
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=7|end_char=11
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=12|end_char=13
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=14|end_char=17
+6	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=18|end_char=26
+7	too	too	ADV	RB	_	6	_	_	start_char=27|end_char=30|SpaceAfter=No
+8	...	...	PUNCT	.	_	7	_	_	start_char=30|end_char=33
+
+# text = Unless OP is really uncalibrated.
+# sent_id = 29476
+1	Unless	unless	SCONJ	IN	_	0	_	_	start_char=34|end_char=40
+2	OP	OP	PROPN	NNP	Number=Sing	1	_	_	start_char=41|end_char=43
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=44|end_char=46
+4	really	really	ADV	RB	_	3	_	_	start_char=47|end_char=53
+5	uncalibrated	uncalibrated	ADJ	JJ	Degree=Pos	4	_	_	start_char=54|end_char=66|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=66|end_char=67
+
+# text = She may not have even said she was uncomfortable - the only person that was uncomfortable was the boyfriend out of extreme jealousy and worried some guy is gonna take his girl.
+# sent_id = 29477
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=68|end_char=71
+2	may	may	AUX	MD	VerbForm=Fin	1	_	_	start_char=72|end_char=75
+3	not	not	PART	RB	_	2	_	_	start_char=76|end_char=79
+4	have	have	AUX	VB	VerbForm=Inf	3	_	_	start_char=80|end_char=84
+5	even	even	ADV	RB	_	4	_	_	start_char=85|end_char=89
+6	said	say	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=90|end_char=94
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=95|end_char=98
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=99|end_char=102
+9	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos	8	_	_	start_char=103|end_char=116
+10	-	-	PUNCT	,	_	9	_	_	start_char=117|end_char=118
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=119|end_char=122
+12	only	only	ADJ	JJ	Degree=Pos	11	_	_	start_char=123|end_char=127
+13	person	person	NOUN	NN	Number=Sing	12	_	_	start_char=128|end_char=134
+14	that	that	PRON	WDT	PronType=Rel	13	_	_	start_char=135|end_char=139
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=140|end_char=143
+16	uncomfortable	uncomfortable	ADJ	JJ	Degree=Pos	15	_	_	start_char=144|end_char=157
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=158|end_char=161
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=162|end_char=165
+19	boyfriend	boyfriend	NOUN	NN	Number=Sing	18	_	_	start_char=166|end_char=175
+20	out	out	ADP	IN	_	19	_	_	start_char=176|end_char=179
+21	of	of	ADP	IN	_	20	_	_	start_char=180|end_char=182
+22	extreme	extreme	ADJ	JJ	Degree=Pos	21	_	_	start_char=183|end_char=190
+23	jealousy	jealousy	NOUN	NN	Number=Sing	22	_	_	start_char=191|end_char=199
+24	and	and	CCONJ	CC	_	23	_	_	start_char=200|end_char=203
+25	worried	worried	ADJ	JJ	Degree=Pos	24	_	_	start_char=204|end_char=211
+26	some	some	DET	DT	_	25	_	_	start_char=212|end_char=216
+27	guy	guy	NOUN	NN	Number=Sing	26	_	_	start_char=217|end_char=220
+28	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	_	_	start_char=221|end_char=223
+29-30	gonna	_	_	_	_	_	_	_	start_char=224|end_char=229
+29	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	28	_	_	start_char=224|end_char=227
+30	na	to	PART	TO	_	29	_	_	start_char=227|end_char=229
+31	take	take	VERB	VB	VerbForm=Inf	30	_	_	start_char=230|end_char=234
+32	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	_	_	start_char=235|end_char=238
+33	girl	girl	NOUN	NN	Number=Sing	32	_	_	start_char=239|end_char=243|SpaceAfter=No
+34	.	.	PUNCT	.	_	33	_	_	start_char=243|end_char=244|SpaceAfter=No
+

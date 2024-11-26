@@ -1,0 +1,39 @@
+# text = Man walks into a library and ask the librarian if she has a book on suicide.
+# sent_id = 47802
+1	Man	man	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3
+2	walks	walk	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=9
+3	into	into	ADP	IN	_	2	_	_	start_char=10|end_char=14
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=15|end_char=16
+5	library	library	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=24
+6	and	and	CCONJ	CC	_	5	_	_	start_char=25|end_char=28
+7	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=29|end_char=32
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=33|end_char=36
+9	librarian	librarian	NOUN	NN	Number=Sing	8	_	_	start_char=37|end_char=46
+10	if	if	SCONJ	IN	_	9	_	_	start_char=47|end_char=49
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=50|end_char=53
+12	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=54|end_char=57
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=58|end_char=59
+14	book	book	NOUN	NN	Number=Sing	13	_	_	start_char=60|end_char=64
+15	on	on	ADP	IN	_	14	_	_	start_char=65|end_char=67
+16	suicide	suicide	NOUN	NN	Number=Sing	15	_	_	start_char=68|end_char=75|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=75|end_char=76
+
+# text = The librarian say, "Fuck you, you won't return it."
+# sent_id = 47803
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=77|end_char=80
+2	librarian	librarian	NOUN	NN	Number=Sing	1	_	_	start_char=81|end_char=90
+3	say	say	VERB	VB	Mood=Ind|VerbForm=Fin	2	_	_	start_char=91|end_char=94|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=94|end_char=95
+5	"	"	PUNCT	``	_	4	_	_	start_char=96|end_char=97|SpaceAfter=No
+6	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=97|end_char=101
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=102|end_char=105|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=105|end_char=106
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=107|end_char=110
+10-11	won't	_	_	_	_	_	_	_	start_char=111|end_char=116
+10	wo	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=111|end_char=113
+11	n't	not	PART	RB	_	10	_	_	start_char=113|end_char=116
+12	return	return	VERB	VB	VerbForm=Inf	11	_	_	start_char=117|end_char=123
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=124|end_char=126|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=126|end_char=127|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=127|end_char=128|SpaceAfter=No
+

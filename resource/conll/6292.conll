@@ -1,0 +1,49 @@
+# text = women should be the first test group.
+# sent_id = 13135
+1	women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=5
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=6|end_char=12
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=13|end_char=15
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=16|end_char=19
+5	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	4	_	_	start_char=20|end_char=25
+6	test	test	NOUN	NN	Number=Sing	5	_	_	start_char=26|end_char=30
+7	group	group	NOUN	NN	Number=Sing	6	_	_	start_char=31|end_char=36|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=36|end_char=37
+
+# text = No.
+# sent_id = 13136
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=38|end_char=40|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=40|end_char=41
+
+# text = They don't think that women should be the 'first test group.'
+# sent_id = 13137
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=42|end_char=46
+2-3	don't	_	_	_	_	_	_	_	start_char=47|end_char=52
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=47|end_char=49
+3	n't	not	PART	RB	_	2	_	_	start_char=49|end_char=52
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=53|end_char=58
+5	that	that	SCONJ	IN	_	4	_	_	start_char=59|end_char=63
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=64|end_char=69
+7	should	should	AUX	MD	VerbForm=Fin	6	_	_	start_char=70|end_char=76
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=77|end_char=79
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=80|end_char=83
+10	'	'	PUNCT	``	_	9	_	_	start_char=84|end_char=85|SpaceAfter=No
+11	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	10	_	_	start_char=85|end_char=90
+12	test	test	NOUN	NN	Number=Sing	11	_	_	start_char=91|end_char=95
+13	group	group	NOUN	NN	Number=Sing	12	_	_	start_char=96|end_char=101|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=101|end_char=102|SpaceAfter=No
+15	'	'	PUNCT	''	_	14	_	_	start_char=102|end_char=103
+
+# text = They think that female criminals should not go to jail.
+# sent_id = 13138
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=104|end_char=108
+2	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=109|end_char=114
+3	that	that	SCONJ	IN	_	2	_	_	start_char=115|end_char=119
+4	female	female	ADJ	JJ	Degree=Pos	3	_	_	start_char=120|end_char=126
+5	criminals	criminal	NOUN	NNS	Number=Plur	4	_	_	start_char=127|end_char=136
+6	should	should	AUX	MD	VerbForm=Fin	5	_	_	start_char=137|end_char=143
+7	not	not	PART	RB	_	6	_	_	start_char=144|end_char=147
+8	go	go	VERB	VB	VerbForm=Inf	7	_	_	start_char=148|end_char=150
+9	to	to	ADP	IN	_	8	_	_	start_char=151|end_char=153
+10	jail	jail	NOUN	NN	Number=Sing	9	_	_	start_char=154|end_char=158|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=158|end_char=159|SpaceAfter=No
+

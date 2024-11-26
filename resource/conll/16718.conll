@@ -1,0 +1,53 @@
+# text = The boy is but the girl isn't.
+# sent_id = 35919
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	boy	boy	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=7
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=10
+4	but	but	CCONJ	CC	_	3	_	_	start_char=11|end_char=14
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=15|end_char=18
+6	girl	girl	NOUN	NN	Number=Sing	5	_	_	start_char=19|end_char=23
+7-8	isn't	_	_	_	_	_	_	_	start_char=24|end_char=29|SpaceAfter=No
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=24|end_char=26
+8	n't	not	PART	RB	_	7	_	_	start_char=26|end_char=29
+9	.	.	PUNCT	.	_	8	_	_	start_char=29|end_char=30
+
+# text = I've heard that in the pedovore circles (think cannibalism of children) the dark skinned preadolescent children taste the best.
+# sent_id = 35920
+1-2	I've	_	_	_	_	_	_	_	start_char=31|end_char=35
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=31|end_char=32
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=35
+3	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=36|end_char=41
+4	that	that	SCONJ	IN	_	3	_	_	start_char=42|end_char=46
+5	in	in	ADP	IN	_	4	_	_	start_char=47|end_char=49
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=50|end_char=53
+7	pedovore	pedovore	NOUN	NN	Number=Sing	6	_	_	start_char=54|end_char=62
+8	circles	circle	NOUN	NNS	Number=Plur	7	_	_	start_char=63|end_char=70
+9	(	(	PUNCT	-LRB-	_	8	_	_	start_char=71|end_char=72|SpaceAfter=No
+10	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=72|end_char=77
+11	cannibalism	cannibalism	NOUN	NN	Number=Sing	10	_	_	start_char=78|end_char=89
+12	of	of	ADP	IN	_	11	_	_	start_char=90|end_char=92
+13	children	child	NOUN	NNS	Number=Plur	12	_	_	start_char=93|end_char=101|SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	13	_	_	start_char=101|end_char=102
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=103|end_char=106
+16	dark	dark	ADJ	JJ	Degree=Pos	15	_	_	start_char=107|end_char=111
+17	skinned	skinned	ADJ	JJ	Degree=Pos	16	_	_	start_char=112|end_char=119
+18	preadolescent	preadolescent	ADJ	JJ	Degree=Pos	17	_	_	start_char=120|end_char=133
+19	children	child	NOUN	NNS	Number=Plur	18	_	_	start_char=134|end_char=142
+20	taste	taste	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=143|end_char=148
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=149|end_char=152
+22	best	good	ADJ	JJS	Degree=Sup	21	_	_	start_char=153|end_char=157|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=157|end_char=158
+
+# text = That's just what I've heard.
+# sent_id = 35921
+1-2	That's	_	_	_	_	_	_	_	start_char=159|end_char=165
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=159|end_char=163
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=163|end_char=165
+3	just	just	ADV	RB	_	2	_	_	start_char=166|end_char=170
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=171|end_char=175
+5-6	I've	_	_	_	_	_	_	_	start_char=176|end_char=180
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=176|end_char=177
+6	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=177|end_char=180
+7	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=181|end_char=186|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=186|end_char=187|SpaceAfter=No
+

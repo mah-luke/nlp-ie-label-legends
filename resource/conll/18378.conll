@@ -1,0 +1,19 @@
+# text = I'm 5ft tall.
+# sent_id = 39450
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	5	5	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=4|end_char=5|SpaceAfter=No
+4	ft	ft	NOUN	NNS	Number=Plur	3	_	_	start_char=5|end_char=7
+5	tall	tall	ADJ	JJ	Degree=Pos	4	_	_	start_char=8|end_char=12|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=12|end_char=13
+
+# text = Is she short shaming me????
+# sent_id = 39451
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=14|end_char=16
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=17|end_char=20
+3	short	short	ADJ	JJ	Degree=Pos	2	_	_	start_char=21|end_char=26
+4	shaming	shame	VERB	VBG	VerbForm=Ger	3	_	_	start_char=27|end_char=34
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=35|end_char=37|SpaceAfter=No
+6	????	????	PUNCT	.	_	5	_	_	start_char=37|end_char=41|SpaceAfter=No
+

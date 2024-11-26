@@ -1,0 +1,38 @@
+# text = Man, that's horrible.
+# sent_id = 104576
+1	Man	man	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3-4	that's	_	_	_	_	_	_	_	start_char=5|end_char=11
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=5|end_char=9
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=9|end_char=11
+5	horrible	horrible	ADJ	JJ	Degree=Pos	4	_	_	start_char=12|end_char=20|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=20|end_char=21
+
+# text = I fucking told those r/AA mods that their bullshit stance will get Asian men murdered but I didn't expect this shit.
+# sent_id = 104577
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=22|end_char=23
+2	fucking	fucking	ADV	RB	_	1	_	_	start_char=24|end_char=31
+3	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=32|end_char=36
+4	those	that	DET	DT	Number=Plur|PronType=Dem	3	_	_	start_char=37|end_char=42
+5	r/	r/	SYM	SYM	_	4	_	_	start_char=43|end_char=45|SpaceAfter=No
+6	AA	AA	NOUN	NN	Number=Sing	5	_	_	start_char=45|end_char=47
+7	mods	mod	NOUN	NNS	Number=Plur	6	_	_	start_char=48|end_char=52
+8	that	that	SCONJ	IN	_	7	_	_	start_char=53|end_char=57
+9	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=58|end_char=63
+10	bullshit	bullshit	NOUN	NN	Number=Sing	9	_	_	start_char=64|end_char=72
+11	stance	stance	NOUN	NN	Number=Sing	10	_	_	start_char=73|end_char=79
+12	will	will	AUX	MD	VerbForm=Fin	11	_	_	start_char=80|end_char=84
+13	get	get	VERB	VB	VerbForm=Inf	12	_	_	start_char=85|end_char=88
+14	Asian	Asian	ADJ	JJ	Degree=Pos	13	_	_	start_char=89|end_char=94
+15	men	man	NOUN	NNS	Number=Plur	14	_	_	start_char=95|end_char=98
+16	murdered	murder	VERB	VBN	Tense=Past|VerbForm=Part	15	_	_	start_char=99|end_char=107
+17	but	but	CCONJ	CC	_	16	_	_	start_char=108|end_char=111
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	_	_	start_char=112|end_char=113
+19-20	didn't	_	_	_	_	_	_	_	start_char=114|end_char=120
+19	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	_	_	start_char=114|end_char=117
+20	n't	not	PART	RB	_	19	_	_	start_char=117|end_char=120
+21	expect	expect	VERB	VB	VerbForm=Inf	20	_	_	start_char=121|end_char=127
+22	this	this	DET	DT	Number=Sing|PronType=Dem	21	_	_	start_char=128|end_char=132
+23	shit	shit	NOUN	NN	Number=Sing	22	_	_	start_char=133|end_char=137|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=137|end_char=138|SpaceAfter=No
+

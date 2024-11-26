@@ -1,0 +1,72 @@
+# text = Exactly.
+# sent_id = 81811
+1	Exactly	exactly	ADV	RB	_	0	_	_	start_char=0|end_char=7|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=7|end_char=8
+
+# text = 70's bush was just wild.
+# sent_id = 81812
+1-2	70's	_	_	_	_	_	_	_	start_char=9|end_char=13
+1	70	70	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=9|end_char=11
+2	's	's	PART	POS	_	1	_	_	start_char=11|end_char=13
+3	bush	bush	NOUN	NN	Number=Sing	2	_	_	start_char=14|end_char=18
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=19|end_char=22
+5	just	just	ADV	RB	_	4	_	_	start_char=23|end_char=27
+6	wild	wild	ADJ	JJ	Degree=Pos	5	_	_	start_char=28|end_char=32|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=32|end_char=33
+
+# text = No one is saying it has to be shaved... but extremely hairy and unmanaged isn't a great thing to most men.
+# sent_id = 81813
+1	No	no	DET	DT	_	0	_	_	start_char=34|end_char=36
+2	one	one	PRON	NN	Number=Sing|PronType=Neg	1	_	_	start_char=37|end_char=40
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=41|end_char=43
+4	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=44|end_char=50
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=51|end_char=53
+6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=54|end_char=57
+7	to	to	PART	TO	_	6	_	_	start_char=58|end_char=60
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=61|end_char=63
+9	shaved	shave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=64|end_char=70|SpaceAfter=No
+10	...	...	PUNCT	,	_	9	_	_	start_char=70|end_char=73
+11	but	but	CCONJ	CC	_	10	_	_	start_char=74|end_char=77
+12	extremely	extremely	ADV	RB	_	11	_	_	start_char=78|end_char=87
+13	hairy	hairy	ADJ	JJ	Degree=Pos	12	_	_	start_char=88|end_char=93
+14	and	and	CCONJ	CC	_	13	_	_	start_char=94|end_char=97
+15	unmanaged	unmanaged	ADJ	JJ	Degree=Pos	14	_	_	start_char=98|end_char=107
+16-17	isn't	_	_	_	_	_	_	_	start_char=108|end_char=113
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=108|end_char=110
+17	n't	not	PART	RB	_	16	_	_	start_char=110|end_char=113
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=114|end_char=115
+19	great	great	ADJ	JJ	Degree=Pos	18	_	_	start_char=116|end_char=121
+20	thing	thing	NOUN	NN	Number=Sing	19	_	_	start_char=122|end_char=127
+21	to	to	ADP	IN	_	20	_	_	start_char=128|end_char=130
+22	most	most	ADJ	JJS	Degree=Sup	21	_	_	start_char=131|end_char=135
+23	men	man	NOUN	NNS	Number=Plur	22	_	_	start_char=136|end_char=139|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=139|end_char=140
+
+# text = If it were true, that would mean basic hygiene wouldn't be an issue and we would be cool with ugly women.
+# sent_id = 81814
+1	If	if	SCONJ	IN	_	0	_	_	start_char=141|end_char=143
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=144|end_char=146
+3	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=147|end_char=151
+4	true	true	ADJ	JJ	Degree=Pos	3	_	_	start_char=152|end_char=156|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=156|end_char=157
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=158|end_char=162
+7	would	would	AUX	MD	VerbForm=Fin	6	_	_	start_char=163|end_char=168
+8	mean	mean	VERB	VB	VerbForm=Inf	7	_	_	start_char=169|end_char=173
+9	basic	basic	ADJ	JJ	Degree=Pos	8	_	_	start_char=174|end_char=179
+10	hygiene	hygiene	NOUN	NN	Number=Sing	9	_	_	start_char=180|end_char=187
+11-12	wouldn't	_	_	_	_	_	_	_	start_char=188|end_char=196
+11	would	would	AUX	MD	VerbForm=Fin	10	_	_	start_char=188|end_char=193
+12	n't	not	PART	RB	_	11	_	_	start_char=193|end_char=196
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=197|end_char=199
+14	an	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=200|end_char=202
+15	issue	issue	NOUN	NN	Number=Sing	14	_	_	start_char=203|end_char=208
+16	and	and	CCONJ	CC	_	15	_	_	start_char=209|end_char=212
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	_	_	start_char=213|end_char=215
+18	would	would	AUX	MD	VerbForm=Fin	17	_	_	start_char=216|end_char=221
+19	be	be	AUX	VB	VerbForm=Inf	18	_	_	start_char=222|end_char=224
+20	cool	cool	ADJ	JJ	Degree=Pos	19	_	_	start_char=225|end_char=229
+21	with	with	ADP	IN	_	20	_	_	start_char=230|end_char=234
+22	ugly	ugly	ADJ	JJ	Degree=Pos	21	_	_	start_char=235|end_char=239
+23	women	woman	NOUN	NNS	Number=Plur	22	_	_	start_char=240|end_char=245|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=245|end_char=246|SpaceAfter=No
+

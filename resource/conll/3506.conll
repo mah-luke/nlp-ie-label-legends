@@ -1,0 +1,29 @@
+# text = I am butthurt.
+# sent_id = 7405
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	butthurt	butthurt	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=13|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=13|end_char=14
+
+# text = I shouldn't get harassed while women who could be considered "freaks" get away unscathed.
+# sent_id = 7406
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=15|end_char=16
+2-3	shouldn't	_	_	_	_	_	_	_	start_char=17|end_char=26
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=17|end_char=23
+3	n't	not	PART	RB	_	2	_	_	start_char=23|end_char=26
+4	get	get	AUX	VB	VerbForm=Inf	3	_	_	start_char=27|end_char=30
+5	harassed	harass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=31|end_char=39
+6	while	while	SCONJ	IN	_	5	_	_	start_char=40|end_char=45
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=46|end_char=51
+8	who	who	PRON	WP	PronType=Rel	7	_	_	start_char=52|end_char=55
+9	could	could	AUX	MD	VerbForm=Fin	8	_	_	start_char=56|end_char=61
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=62|end_char=64
+11	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=65|end_char=75
+12	"	"	PUNCT	``	_	11	_	_	start_char=76|end_char=77|SpaceAfter=No
+13	freaks	freak	NOUN	NNS	Number=Plur	12	_	_	start_char=77|end_char=83|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=83|end_char=84
+15	get	get	VERB	VB	VerbForm=Fin	14	_	_	start_char=85|end_char=88
+16	away	away	ADV	RB	_	15	_	_	start_char=89|end_char=93
+17	unscathed	unscathed	ADJ	JJ	Degree=Pos	16	_	_	start_char=94|end_char=103|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=103|end_char=104|SpaceAfter=No
+

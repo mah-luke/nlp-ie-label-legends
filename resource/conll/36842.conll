@@ -1,0 +1,53 @@
+# text = Someone did rape that little girl, dude.
+# sent_id = 78756
+1	Someone	someone	PRON	NN	Number=Sing|PronType=Ind	0	_	_	start_char=0|end_char=7
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=8|end_char=11
+3	rape	rape	VERB	VB	VerbForm=Inf	2	_	_	start_char=12|end_char=16
+4	that	that	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=17|end_char=21
+5	little	little	ADJ	JJ	Degree=Pos	4	_	_	start_char=22|end_char=28
+6	girl	girl	NOUN	NN	Number=Sing	5	_	_	start_char=29|end_char=33|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=33|end_char=34
+8	dude	dude	NOUN	NN	Number=Sing	7	_	_	start_char=35|end_char=39|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=39|end_char=40
+
+# text = A man, even.
+# sent_id = 78757
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=41|end_char=42
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=43|end_char=46|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=46|end_char=47
+4	even	even	ADV	RB	_	3	_	_	start_char=48|end_char=52|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=52|end_char=53
+
+# text = It's sad that the trial resulted in a miscarriage of justice, but I don't really see this as a men's rights issue.
+# sent_id = 78758
+1-2	It's	_	_	_	_	_	_	_	start_char=54|end_char=58
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=54|end_char=56
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=56|end_char=58
+3	sad	sad	ADJ	JJ	Degree=Pos	2	_	_	start_char=59|end_char=62
+4	that	that	SCONJ	IN	_	3	_	_	start_char=63|end_char=67
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=68|end_char=71
+6	trial	trial	NOUN	NN	Number=Sing	5	_	_	start_char=72|end_char=77
+7	resulted	result	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=78|end_char=86
+8	in	in	ADP	IN	_	7	_	_	start_char=87|end_char=89
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=90|end_char=91
+10	miscarriage	miscarriage	NOUN	NN	Number=Sing	9	_	_	start_char=92|end_char=103
+11	of	of	ADP	IN	_	10	_	_	start_char=104|end_char=106
+12	justice	justice	NOUN	NN	Number=Sing	11	_	_	start_char=107|end_char=114|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=114|end_char=115
+14	but	but	CCONJ	CC	_	13	_	_	start_char=116|end_char=119
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=120|end_char=121
+16-17	don't	_	_	_	_	_	_	_	start_char=122|end_char=127
+16	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	start_char=122|end_char=124
+17	n't	not	PART	RB	_	16	_	_	start_char=124|end_char=127
+18	really	really	ADV	RB	_	17	_	_	start_char=128|end_char=134
+19	see	see	VERB	VB	VerbForm=Inf	18	_	_	start_char=135|end_char=138
+20	this	this	PRON	DT	Number=Sing|PronType=Dem	19	_	_	start_char=139|end_char=143
+21	as	as	ADP	IN	_	20	_	_	start_char=144|end_char=146
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	start_char=147|end_char=148
+23-24	men's	_	_	_	_	_	_	_	start_char=149|end_char=154
+23	men	man	NOUN	NNS	Number=Plur	22	_	_	start_char=149|end_char=152
+24	's	's	PART	POS	_	23	_	_	start_char=152|end_char=154
+25	rights	right	NOUN	NNS	Number=Plur	24	_	_	start_char=155|end_char=161
+26	issue	issue	NOUN	NN	Number=Sing	25	_	_	start_char=162|end_char=167|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=167|end_char=168|SpaceAfter=No
+

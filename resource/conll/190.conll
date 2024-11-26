@@ -1,0 +1,22 @@
+# text = Oh fuck you guys.
+# sent_id = 413
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=3|end_char=7
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=8|end_char=11
+4	guys	guy	NOUN	NNS	Number=Plur	3	_	_	start_char=12|end_char=16|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=16|end_char=17
+
+# text = Exotic music taste doesn’t make you an incel.
+# sent_id = 414
+1	Exotic	exotic	ADJ	JJ	Degree=Pos	0	_	_	start_char=18|end_char=24
+2	music	music	NOUN	NN	Number=Sing	1	_	_	start_char=25|end_char=30
+3	taste	taste	NOUN	NN	Number=Sing	2	_	_	start_char=31|end_char=36
+4-5	doesn’t	_	_	_	_	_	_	_	start_char=37|end_char=44
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=37|end_char=41
+5	n’t	not	PART	RB	_	4	_	_	start_char=41|end_char=44
+6	make	make	VERB	VB	VerbForm=Inf	5	_	_	start_char=45|end_char=49
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=50|end_char=53
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=54|end_char=56
+9	incel	incel	NOUN	NN	Number=Sing	8	_	_	start_char=57|end_char=62|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=62|end_char=63|SpaceAfter=No
+

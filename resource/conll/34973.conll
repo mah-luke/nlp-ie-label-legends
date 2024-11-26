@@ -1,0 +1,50 @@
+# text = Step 1. Go to bar or club Step 2.
+# sent_id = 74838
+1	Step	step	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
+2	1	1	NUM	LS	_	1	_	_	start_char=5|end_char=6|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=6|end_char=7
+4	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=8|end_char=10
+5	to	to	ADP	IN	_	4	_	_	start_char=11|end_char=13
+6	bar	bar	NOUN	NN	Number=Sing	5	_	_	start_char=14|end_char=17
+7	or	or	CCONJ	CC	_	6	_	_	start_char=18|end_char=20
+8	club	club	NOUN	NN	Number=Sing	7	_	_	start_char=21|end_char=25
+9	Step	step	NOUN	NN	Number=Sing	8	_	_	start_char=26|end_char=30
+10	2	2	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=31|end_char=32|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=32|end_char=33
+
+# text = Approach guy Step 3. Say "I may not be the prettiest girl here but I'm the only one talking to you" Step 4.
+# sent_id = 74839
+1	Approach	approach	NOUN	NN	Number=Sing	0	_	_	start_char=34|end_char=42
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=43|end_char=46
+3	Step	step	NOUN	NN	Number=Sing	2	_	_	start_char=47|end_char=51
+4	3	3	NUM	LS	NumForm=Digit|NumType=Card	3	_	_	start_char=52|end_char=53|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=53|end_char=54
+6	Say	say	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=55|end_char=58
+7	"	"	PUNCT	``	_	6	_	_	start_char=59|end_char=60|SpaceAfter=No
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=60|end_char=61
+9	may	may	AUX	MD	VerbForm=Fin	8	_	_	start_char=62|end_char=65
+10	not	not	PART	RB	_	9	_	_	start_char=66|end_char=69
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=70|end_char=72
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=73|end_char=76
+13	prettiest	prettiest	ADJ	JJS	Degree=Sup	12	_	_	start_char=77|end_char=86
+14	girl	girl	NOUN	NN	Number=Sing	13	_	_	start_char=87|end_char=91
+15	here	here	ADV	RB	PronType=Dem	14	_	_	start_char=92|end_char=96
+16	but	but	CCONJ	CC	_	15	_	_	start_char=97|end_char=100
+17-18	I'm	_	_	_	_	_	_	_	start_char=101|end_char=104
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=101|end_char=102
+18	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=102|end_char=104
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=105|end_char=108
+20	only	only	ADJ	JJ	Degree=Pos	19	_	_	start_char=109|end_char=113
+21	one	one	NOUN	NN	Number=Sing	20	_	_	start_char=114|end_char=117
+22	talking	talk	VERB	VBG	VerbForm=Ger	21	_	_	start_char=118|end_char=125
+23	to	to	ADP	IN	_	22	_	_	start_char=126|end_char=128
+24	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	23	_	_	start_char=129|end_char=132|SpaceAfter=No
+25	"	"	PUNCT	''	_	24	_	_	start_char=132|end_char=133
+26	Step	step	NOUN	NN	Number=Sing	25	_	_	start_char=134|end_char=138
+27	4	4	NUM	CD	NumForm=Digit|NumType=Card	26	_	_	start_char=139|end_char=140|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=140|end_char=141
+
+# text = Sex
+# sent_id = 74840
+1	Sex	sex	NOUN	NN	Number=Sing	0	_	_	start_char=142|end_char=145|SpaceAfter=No
+

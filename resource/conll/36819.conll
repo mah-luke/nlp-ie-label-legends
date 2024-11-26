@@ -1,0 +1,40 @@
+# text = OOOH !!!!
+# sent_id = 78711
+1	OOOH	oooh	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	!!!!	!!!!	PUNCT	.	_	1	_	_	start_char=5|end_char=9
+
+# text = THE FAMILY IS TOGETHER !!!!!
+# sent_id = 78712
+1	THE	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=10|end_char=13
+2	FAMILY	family	NOUN	NN	Number=Sing	1	_	_	start_char=14|end_char=20
+3	IS	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=21|end_char=23
+4	TOGETHER	together	ADV	RB	_	3	_	_	start_char=24|end_char=32
+5	!!!!!	!!!!!	PUNCT	.	_	4	_	_	start_char=33|end_char=38
+
+# text = I love this one !!
+# sent_id = 78713
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=39|end_char=40
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=41|end_char=45
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=46|end_char=50
+4	one	one	NOUN	NN	Number=Sing	3	_	_	start_char=51|end_char=54
+5	!!	!!	PUNCT	.	_	4	_	_	start_char=55|end_char=57
+
+# text = All these little babies plopping around and laying on mom!
+# sent_id = 78714
+1	All	all	DET	PDT	_	0	_	_	start_char=58|end_char=61
+2	these	this	DET	DT	Number=Plur|PronType=Dem	1	_	_	start_char=62|end_char=67
+3	little	little	ADJ	JJ	Degree=Pos	2	_	_	start_char=68|end_char=74
+4	babies	baby	NOUN	NNS	Number=Plur	3	_	_	start_char=75|end_char=81
+5	plopping	plop	VERB	VBG	VerbForm=Ger	4	_	_	start_char=82|end_char=90
+6	around	around	ADV	RB	_	5	_	_	start_char=91|end_char=97
+7	and	and	CCONJ	CC	_	6	_	_	start_char=98|end_char=101
+8	laying	lay	VERB	VBG	VerbForm=Ger	7	_	_	start_char=102|end_char=108
+9	on	on	ADP	IN	_	8	_	_	start_char=109|end_char=111
+10	mom	mom	NOUN	NN	Number=Sing	9	_	_	start_char=112|end_char=115|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=115|end_char=116
+
+# text = Thanks !!
+# sent_id = 78715
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=117|end_char=123
+2	!!	!!	PUNCT	.	_	1	_	_	start_char=124|end_char=126|SpaceAfter=No
+

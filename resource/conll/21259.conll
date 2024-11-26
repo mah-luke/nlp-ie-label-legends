@@ -1,0 +1,29 @@
+# text = If you're white and alone and female, stay away from niggers.
+# sent_id = 45662
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2-3	you're	_	_	_	_	_	_	_	start_char=3|end_char=9
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=6|end_char=9
+4	white	white	ADJ	JJ	Degree=Pos	3	_	_	start_char=10|end_char=15
+5	and	and	CCONJ	CC	_	4	_	_	start_char=16|end_char=19
+6	alone	alone	ADJ	JJ	Degree=Pos	5	_	_	start_char=20|end_char=25
+7	and	and	CCONJ	CC	_	6	_	_	start_char=26|end_char=29
+8	female	female	ADJ	JJ	Degree=Pos	7	_	_	start_char=30|end_char=36|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=36|end_char=37
+10	stay	stay	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=38|end_char=42
+11	away	away	ADV	RB	_	10	_	_	start_char=43|end_char=47
+12	from	from	ADP	IN	_	11	_	_	start_char=48|end_char=52
+13	niggers	nigger	NOUN	NNS	Number=Plur	12	_	_	start_char=53|end_char=60|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=60|end_char=61
+
+# text = You're welcome and Merry Christmas.
+# sent_id = 45663
+1-2	You're	_	_	_	_	_	_	_	start_char=62|end_char=68
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=62|end_char=65
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=65|end_char=68
+3	welcome	welcome	ADJ	JJ	Degree=Pos	2	_	_	start_char=69|end_char=76
+4	and	and	CCONJ	CC	_	3	_	_	start_char=77|end_char=80
+5	Merry	merry	PROPN	NNP	Number=Sing	4	_	_	start_char=81|end_char=86
+6	Christmas	Christmas	PROPN	NNP	Number=Sing	5	_	_	start_char=87|end_char=96|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=96|end_char=97|SpaceAfter=No
+

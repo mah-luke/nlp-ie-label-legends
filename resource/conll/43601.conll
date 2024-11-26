@@ -1,0 +1,35 @@
+# text = I'm not a scientician, but I'm pretty sure that white blood cells don't actually attack viruses.
+# sent_id = 93214
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	not	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=8|end_char=9
+5	scientician	scientician	NOUN	NN	Number=Sing	4	_	_	start_char=10|end_char=21|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=21|end_char=22
+7	but	but	CCONJ	CC	_	6	_	_	start_char=23|end_char=26
+8-9	I'm	_	_	_	_	_	_	_	start_char=27|end_char=30
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=27|end_char=28
+9	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=28|end_char=30
+10	pretty	pretty	ADV	RB	_	9	_	_	start_char=31|end_char=37
+11	sure	sure	ADJ	JJ	Degree=Pos	10	_	_	start_char=38|end_char=42
+12	that	that	SCONJ	IN	_	11	_	_	start_char=43|end_char=47
+13	white	white	ADJ	JJ	Degree=Pos	12	_	_	start_char=48|end_char=53
+14	blood	blood	NOUN	NN	Number=Sing	13	_	_	start_char=54|end_char=59
+15	cells	cell	NOUN	NNS	Number=Plur	14	_	_	start_char=60|end_char=65
+16-17	don't	_	_	_	_	_	_	_	start_char=66|end_char=71
+16	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=66|end_char=68
+17	n't	not	PART	RB	_	16	_	_	start_char=68|end_char=71
+18	actually	actually	ADV	RB	_	17	_	_	start_char=72|end_char=80
+19	attack	attack	VERB	VB	VerbForm=Inf	18	_	_	start_char=81|end_char=87
+20	viruses	viruse	NOUN	NNS	Number=Plur	19	_	_	start_char=88|end_char=95|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=95|end_char=96
+
+# text = They attack other pathogens.
+# sent_id = 93215
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=97|end_char=101
+2	attack	attack	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=102|end_char=108
+3	other	other	ADJ	JJ	Degree=Pos	2	_	_	start_char=109|end_char=114
+4	pathogens	pathogen	NOUN	NNS	Number=Plur	3	_	_	start_char=115|end_char=124|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=124|end_char=125|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = I just came across her when I posted this one.
+# sent_id = 107232
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	just	just	ADV	RB	_	1	_	_	start_char=2|end_char=6
+3	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=7|end_char=11
+4	across	across	ADP	IN	_	3	_	_	start_char=12|end_char=18
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=19|end_char=22
+6	when	when	ADV	WRB	PronType=Int	5	_	_	start_char=23|end_char=27
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=28|end_char=29
+8	posted	post	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	_	_	start_char=30|end_char=36
+9	this	this	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=37|end_char=41
+10	one	one	NOUN	NN	Number=Sing	9	_	_	start_char=42|end_char=45|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=45|end_char=46
+
+# text = I don't see this vid on youtube, she must have it somewhere else.
+# sent_id = 107233
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=47|end_char=48
+2-3	don't	_	_	_	_	_	_	_	start_char=49|end_char=54
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=49|end_char=51
+3	n't	not	PART	RB	_	2	_	_	start_char=51|end_char=54
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	start_char=55|end_char=58
+5	this	this	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=59|end_char=63
+6	vid	vid	NOUN	NN	Number=Sing	5	_	_	start_char=64|end_char=67
+7	on	on	ADP	IN	_	6	_	_	start_char=68|end_char=70
+8	youtube	youtube	PROPN	NNP	Number=Sing	7	_	_	start_char=71|end_char=78|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=78|end_char=79
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=80|end_char=83
+11	must	must	AUX	MD	VerbForm=Fin	10	_	_	start_char=84|end_char=88
+12	have	have	VERB	VB	VerbForm=Inf	11	_	_	start_char=89|end_char=93
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=94|end_char=96
+14	somewhere	somewhere	ADV	RB	_	13	_	_	start_char=97|end_char=106
+15	else	else	ADV	RB	Degree=Pos	14	_	_	start_char=107|end_char=111|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=111|end_char=112
+
+# text = I need to watch her videos!
+# sent_id = 107234
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=113|end_char=114
+2	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=115|end_char=119
+3	to	to	PART	TO	_	2	_	_	start_char=120|end_char=122
+4	watch	watch	VERB	VB	VerbForm=Inf	3	_	_	start_char=123|end_char=128
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=129|end_char=132
+6	videos	video	NOUN	NNS	Number=Plur	5	_	_	start_char=133|end_char=139|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=139|end_char=140|SpaceAfter=No
+

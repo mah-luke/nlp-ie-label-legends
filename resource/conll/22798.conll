@@ -1,0 +1,23 @@
+# text = please dont have kids if u fall in love.
+# sent_id = 48971
+1	please	please	INTJ	UH	_	0	_	_	start_char=0|end_char=6
+2-3	dont	_	_	_	_	_	_	_	start_char=7|end_char=11
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=7|end_char=9
+3	nt	not	PART	RB	_	2	_	_	start_char=9|end_char=11
+4	have	have	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=12|end_char=16
+5	kids	kid	NOUN	NNS	Number=Plur	4	_	_	start_char=17|end_char=21
+6	if	if	SCONJ	IN	_	5	_	_	start_char=22|end_char=24
+7	u	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=25|end_char=26
+8	fall	fall	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=27|end_char=31
+9	in	in	ADP	IN	_	8	_	_	start_char=32|end_char=34
+10	love	love	NOUN	NN	Number=Sing	9	_	_	start_char=35|end_char=39|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=39|end_char=40
+
+# text = no incel kids please!
+# sent_id = 48972
+1	no	no	DET	DT	_	0	_	_	start_char=41|end_char=43
+2	incel	incel	ADJ	JJ	Degree=Pos	1	_	_	start_char=44|end_char=49
+3	kids	kid	NOUN	NNS	Number=Plur	2	_	_	start_char=50|end_char=54
+4	please	please	INTJ	UH	_	3	_	_	start_char=55|end_char=61|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=61|end_char=62|SpaceAfter=No
+

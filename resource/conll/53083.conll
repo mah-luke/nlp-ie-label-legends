@@ -1,0 +1,38 @@
+# text = [URL]
+# sent_id = 113460
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+
+# text = The men could have said they "identify" as women, then what could she do?
+# sent_id = 113461
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=6|end_char=9
+2	men	man	NOUN	NNS	Number=Plur	1	_	_	start_char=10|end_char=13
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=14|end_char=19
+4	have	have	AUX	VB	VerbForm=Inf	3	_	_	start_char=20|end_char=24
+5	said	say	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=25|end_char=29
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=30|end_char=34
+7	"	"	PUNCT	``	_	6	_	_	start_char=35|end_char=36|SpaceAfter=No
+8	identify	identify	VERB	VB	Person=3|VerbForm=Inf	7	_	_	start_char=36|end_char=44|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=44|end_char=45
+10	as	as	ADP	IN	_	9	_	_	start_char=46|end_char=48
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=49|end_char=54|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=54|end_char=55
+13	then	then	ADV	RB	PronType=Dem	12	_	_	start_char=56|end_char=60
+14	what	what	PRON	WP	PronType=Int	13	_	_	start_char=61|end_char=65
+15	could	could	AUX	MD	VerbForm=Fin	14	_	_	start_char=66|end_char=71
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=72|end_char=75
+17	do	do	VERB	VB	VerbForm=Inf	16	_	_	start_char=76|end_char=78|SpaceAfter=No
+18	?	?	PUNCT	.	_	17	_	_	start_char=78|end_char=79
+
+# text = Now she's in hot water.
+# sent_id = 113462
+1	Now	now	ADV	RB	_	0	_	_	start_char=80|end_char=83
+2-3	she's	_	_	_	_	_	_	_	start_char=84|end_char=89
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=84|end_char=87
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=87|end_char=89
+4	in	in	ADP	IN	_	3	_	_	start_char=90|end_char=92
+5	hot	hot	ADJ	JJ	Degree=Pos	4	_	_	start_char=93|end_char=96
+6	water	water	NOUN	NN	Number=Sing	5	_	_	start_char=97|end_char=102|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=102|end_char=103|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = That's just not true.
+# sent_id = 118473
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	just	just	ADV	RB	_	2	_	_	start_char=7|end_char=11
+4	not	not	PART	RB	_	3	_	_	start_char=12|end_char=15
+5	true	true	ADJ	JJ	Degree=Pos	4	_	_	start_char=16|end_char=20|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=20|end_char=21
+
+# text = My partner is 250 pounds.
+# sent_id = 118474
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=22|end_char=24
+2	partner	partner	NOUN	NN	Number=Sing	1	_	_	start_char=25|end_char=32
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=33|end_char=35
+4	250	250	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=36|end_char=39
+5	pounds	pound	NOUN	NNS	Number=Plur	4	_	_	start_char=40|end_char=46|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=46|end_char=47
+
+# text = Attraction is subjective and it's a myth that there's just one type of look that women want.
+# sent_id = 118475
+1	Attraction	attraction	NOUN	NN	Number=Sing	0	_	_	start_char=48|end_char=58
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=61
+3	subjective	subjective	ADJ	JJ	Degree=Pos	2	_	_	start_char=62|end_char=72
+4	and	and	CCONJ	CC	_	3	_	_	start_char=73|end_char=76
+5-6	it's	_	_	_	_	_	_	_	start_char=77|end_char=81
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=77|end_char=79
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=79|end_char=81
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=82|end_char=83
+8	myth	myth	NOUN	NN	Number=Sing	7	_	_	start_char=84|end_char=88
+9	that	that	SCONJ	IN	_	8	_	_	start_char=89|end_char=93
+10-11	there's	_	_	_	_	_	_	_	start_char=94|end_char=101
+10	there	there	PRON	EX	_	9	_	_	start_char=94|end_char=99
+11	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=99|end_char=101
+12	just	just	ADV	RB	_	11	_	_	start_char=102|end_char=106
+13	one	one	NUM	CD	NumForm=Word|NumType=Card	12	_	_	start_char=107|end_char=110
+14	type	type	NOUN	NN	Number=Sing	13	_	_	start_char=111|end_char=115
+15	of	of	ADP	IN	_	14	_	_	start_char=116|end_char=118
+16	look	look	NOUN	NN	Number=Sing	15	_	_	start_char=119|end_char=123
+17	that	that	PRON	WDT	PronType=Rel	16	_	_	start_char=124|end_char=128
+18	women	woman	NOUN	NNS	Number=Plur	17	_	_	start_char=129|end_char=134
+19	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=135|end_char=139|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=139|end_char=140|SpaceAfter=No
+

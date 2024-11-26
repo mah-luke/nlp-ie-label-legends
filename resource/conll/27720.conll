@@ -1,0 +1,26 @@
+# text = No wonder, his wife wears the pants at home!
+# sent_id = 59562
+1	No	no	DET	DT	_	0	_	_	start_char=0|end_char=2
+2	wonder	wonder	VERB	VB	VerbForm=Fin	1	_	_	start_char=3|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	wife	wife	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=19
+6	wears	wear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=20|end_char=25
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=26|end_char=29
+8	pants	pant	NOUN	NNS	Number=Plur	7	_	_	start_char=30|end_char=35
+9	at	at	ADP	IN	_	8	_	_	start_char=36|end_char=38
+10	home	home	NOUN	NN	Number=Sing	9	_	_	start_char=39|end_char=43|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=43|end_char=44
+
+# text = And she is a liberal lobbyist for Obamacare!
+# sent_id = 59563
+1	And	and	CCONJ	CC	_	0	_	_	start_char=45|end_char=48
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=49|end_char=52
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=53|end_char=55
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=56|end_char=57
+5	liberal	liberal	ADJ	JJ	Degree=Pos	4	_	_	start_char=58|end_char=65
+6	lobbyist	lobbyist	NOUN	NN	Number=Sing	5	_	_	start_char=66|end_char=74
+7	for	for	ADP	IN	_	6	_	_	start_char=75|end_char=78
+8	Obamacare	Obamacare	PROPN	NNP	Number=Sing	7	_	_	start_char=79|end_char=88|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=88|end_char=89|SpaceAfter=No
+

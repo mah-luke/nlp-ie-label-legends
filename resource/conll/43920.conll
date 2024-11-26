@@ -1,0 +1,57 @@
+# text = So these guys end up in their first serious relationship.
+# sent_id = 93864
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	these	this	DET	DT	Number=Plur|PronType=Dem	1	_	_	start_char=3|end_char=8
+3	guys	guy	NOUN	NNS	Number=Plur	2	_	_	start_char=9|end_char=13
+4	end	end	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=17
+5	up	up	ADP	RP	_	4	_	_	start_char=18|end_char=20
+6	in	in	ADP	IN	_	5	_	_	start_char=21|end_char=23
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=24|end_char=29
+8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	_	_	start_char=30|end_char=35
+9	serious	serious	ADJ	JJ	Degree=Pos	8	_	_	start_char=36|end_char=43
+10	relationship	relationship	NOUN	NN	Number=Sing	9	_	_	start_char=44|end_char=56|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=56|end_char=57
+
+# text = Only there's no innocence in the relationship on the part of the female.
+# sent_id = 93865
+1	Only	only	ADV	RB	_	0	_	_	start_char=58|end_char=62
+2-3	there's	_	_	_	_	_	_	_	start_char=63|end_char=70
+2	there	there	PRON	EX	_	1	_	_	start_char=63|end_char=68
+3	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=68|end_char=70
+4	no	no	DET	DT	_	3	_	_	start_char=71|end_char=73
+5	innocence	innocence	NOUN	NN	Number=Sing	4	_	_	start_char=74|end_char=83
+6	in	in	ADP	IN	_	5	_	_	start_char=84|end_char=86
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=87|end_char=90
+8	relationship	relationship	NOUN	NN	Number=Sing	7	_	_	start_char=91|end_char=103
+9	on	on	ADP	IN	_	8	_	_	start_char=104|end_char=106
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=107|end_char=110
+11	part	part	NOUN	NN	Number=Sing	10	_	_	start_char=111|end_char=115
+12	of	of	ADP	IN	_	11	_	_	start_char=116|end_char=118
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=119|end_char=122
+14	female	female	NOUN	NN	Number=Sing	13	_	_	start_char=123|end_char=129|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=129|end_char=130
+
+# text = She's calloused & jaded because of a sexual history that would be absolutely humiliating if it were exposed.
+# sent_id = 93866
+1-2	She's	_	_	_	_	_	_	_	start_char=131|end_char=136
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=131|end_char=134
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=134|end_char=136
+3	calloused	callouse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=137|end_char=146
+4	&	&	CCONJ	CC	_	3	_	_	start_char=147|end_char=148
+5	jaded	jaded	ADJ	JJ	Degree=Pos	4	_	_	start_char=149|end_char=154
+6	because	because	ADP	IN	_	5	_	_	start_char=155|end_char=162
+7	of	of	ADP	IN	_	6	_	_	start_char=163|end_char=165
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=166|end_char=167
+9	sexual	sexual	ADJ	JJ	Degree=Pos	8	_	_	start_char=168|end_char=174
+10	history	history	NOUN	NN	Number=Sing	9	_	_	start_char=175|end_char=182
+11	that	that	PRON	WDT	PronType=Rel	10	_	_	start_char=183|end_char=187
+12	would	would	AUX	MD	VerbForm=Fin	11	_	_	start_char=188|end_char=193
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=194|end_char=196
+14	absolutely	absolutely	ADV	RB	_	13	_	_	start_char=197|end_char=207
+15	humiliating	humiliating	ADJ	JJ	Degree=Pos	14	_	_	start_char=208|end_char=219
+16	if	if	SCONJ	IN	_	15	_	_	start_char=220|end_char=222
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=223|end_char=225
+18	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=226|end_char=230
+19	exposed	expose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	_	_	start_char=231|end_char=238|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=238|end_char=239|SpaceAfter=No
+

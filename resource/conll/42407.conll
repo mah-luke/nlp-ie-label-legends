@@ -1,0 +1,63 @@
+# text = Well, I've seen the Packer's fans wearing their cheese hats, so it was a no brainer.
+# sent_id = 90678
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3-4	I've	_	_	_	_	_	_	_	start_char=6|end_char=10
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=7|end_char=10
+5	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=11|end_char=15
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=16|end_char=19
+7-8	Packer's	_	_	_	_	_	_	_	start_char=20|end_char=28
+7	Packer	Packer	PROPN	NNP	Number=Sing	6	_	_	start_char=20|end_char=26
+8	's	's	PART	POS	_	7	_	_	start_char=26|end_char=28
+9	fans	fan	NOUN	NNS	Number=Plur	8	_	_	start_char=29|end_char=33
+10	wearing	wear	VERB	VBG	VerbForm=Ger	9	_	_	start_char=34|end_char=41
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=42|end_char=47
+12	cheese	cheese	NOUN	NN	Number=Sing	11	_	_	start_char=48|end_char=54
+13	hats	hat	NOUN	NNS	Number=Plur	12	_	_	start_char=55|end_char=59|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=59|end_char=60
+15	so	so	ADV	RB	_	14	_	_	start_char=61|end_char=63
+16	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=64|end_char=66
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=67|end_char=70
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=71|end_char=72
+19	no	no	DET	DT	_	18	_	_	start_char=73|end_char=75
+20	brainer	brainer	NOUN	NN	Number=Sing	19	_	_	start_char=76|end_char=83|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=83|end_char=84
+
+# text = Never had them roasted, and I'm not afraid to say I have no desire too.
+# sent_id = 90679
+1	Never	never	ADV	RB	_	0	_	_	start_char=85|end_char=90
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=91|end_char=94
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=95|end_char=99
+4	roasted	roast	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=100|end_char=107|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=107|end_char=108
+6	and	and	CCONJ	CC	_	5	_	_	start_char=109|end_char=112
+7-8	I'm	_	_	_	_	_	_	_	start_char=113|end_char=116
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=113|end_char=114
+8	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=114|end_char=116
+9	not	not	PART	RB	_	8	_	_	start_char=117|end_char=120
+10	afraid	afraid	ADJ	JJ	Degree=Pos	9	_	_	start_char=121|end_char=127
+11	to	to	PART	TO	_	10	_	_	start_char=128|end_char=130
+12	say	say	VERB	VB	VerbForm=Inf	11	_	_	start_char=131|end_char=134
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=135|end_char=136
+14	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=137|end_char=141
+15	no	no	DET	DT	_	14	_	_	start_char=142|end_char=144
+16	desire	desire	NOUN	NN	Number=Sing	15	_	_	start_char=145|end_char=151
+17	too	too	ADV	RB	_	16	_	_	start_char=152|end_char=155|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=155|end_char=156
+
+# text = No offense to your mother or her cooking of course! ;)
+# sent_id = 90680
+1	No	no	DET	DT	_	0	_	_	start_char=157|end_char=159
+2	offense	offense	NOUN	NN	Number=Sing	1	_	_	start_char=160|end_char=167
+3	to	to	ADP	IN	_	2	_	_	start_char=168|end_char=170
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=171|end_char=175
+5	mother	mother	NOUN	NN	Number=Sing	4	_	_	start_char=176|end_char=182
+6	or	or	CCONJ	CC	_	5	_	_	start_char=183|end_char=185
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=186|end_char=189
+8	cooking	cooking	NOUN	NN	Number=Sing	7	_	_	start_char=190|end_char=197
+9	of	of	ADP	IN	ExtPos=ADV	8	_	_	start_char=198|end_char=200
+10	course	course	NOUN	NN	Number=Sing	9	_	_	start_char=201|end_char=207|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=207|end_char=208
+12	;)	;)	SYM	NFP	_	11	_	_	start_char=209|end_char=211|SpaceAfter=No
+

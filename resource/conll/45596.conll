@@ -1,0 +1,27 @@
+# text = One girl told me I was creepy because I smiled so much.
+# sent_id = 97333
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=0|end_char=3
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=8
+3	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=9|end_char=13
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=14|end_char=16
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=17|end_char=18
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=19|end_char=22
+7	creepy	creepy	ADJ	JJ	Degree=Pos	6	_	_	start_char=23|end_char=29
+8	because	because	SCONJ	IN	_	7	_	_	start_char=30|end_char=37
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=38|end_char=39
+10	smiled	smile	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	_	_	start_char=40|end_char=46
+11	so	so	ADV	RB	_	10	_	_	start_char=47|end_char=49
+12	much	much	ADV	RB	Degree=Pos	11	_	_	start_char=50|end_char=54|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=54|end_char=55
+
+# text = I told her she was a bitch.
+# sent_id = 97334
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=56|end_char=57
+2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=58|end_char=62
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=63|end_char=66
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=67|end_char=70
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=71|end_char=74
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=75|end_char=76
+7	bitch	bitch	NOUN	NN	Number=Sing	6	_	_	start_char=77|end_char=82|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=82|end_char=83|SpaceAfter=No
+

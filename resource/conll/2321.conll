@@ -1,0 +1,40 @@
+# text = Ew.
+# sent_id = 4909
+1	Ew	ew	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=2|end_char=3
+
+# text = good thing she's gone then.
+# sent_id = 4910
+1	good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=4|end_char=8
+2	thing	thing	NOUN	NN	Number=Sing	1	_	_	start_char=9|end_char=14
+3-4	she's	_	_	_	_	_	_	_	start_char=15|end_char=20
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=15|end_char=18
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=18|end_char=20
+5	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=21|end_char=25
+6	then	then	ADV	RB	PronType=Dem	5	_	_	start_char=26|end_char=30|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=30|end_char=31
+
+# text = Did u Report her to President Trump yet?
+# sent_id = 4911
+1	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	_	_	start_char=32|end_char=35
+2	u	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=36|end_char=37
+3	Report	report	VERB	VB	VerbForm=Inf	2	_	_	start_char=38|end_char=44
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=45|end_char=48
+5	to	to	ADP	IN	_	4	_	_	start_char=49|end_char=51
+6	President	President	PROPN	NNP	Number=Sing	5	_	_	start_char=52|end_char=61
+7	Trump	Trump	PROPN	NNP	Number=Sing	6	_	_	start_char=62|end_char=67
+8	yet	yet	ADV	RB	_	7	_	_	start_char=68|end_char=71|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=71|end_char=72
+
+# text = Nevermind ill do it.
+# sent_id = 4912
+1	Nevermind	nevermind	INTJ	UH	_	0	_	_	start_char=73|end_char=82
+2	ill	ill	ADV	RB	_	1	_	_	start_char=83|end_char=86
+3	do	do	VERB	VB	VerbForm=Fin	2	_	_	start_char=87|end_char=89
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=90|end_char=92|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=92|end_char=93
+
+# text = 🇺🇸🖕🇲🇽
+# sent_id = 4913
+1	🇺🇸🖕🇲🇽	🇺🇸🖕🇲🇽	PUNCT	NFP	_	0	_	_	start_char=94|end_char=99|SpaceAfter=No
+

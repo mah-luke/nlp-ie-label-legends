@@ -1,0 +1,45 @@
+# text = "They were GANG RAPING girls.
+# sent_id = 116765
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=1|end_char=5
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=6|end_char=10
+4	GANG	gang	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=15
+5	RAPING	raping	ADJ	JJ	Degree=Pos	4	_	_	start_char=16|end_char=22
+6	girls	girl	NOUN	NNS	Number=Plur	5	_	_	start_char=23|end_char=28|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = I mean they were drugging them and RAPING them."
+# sent_id = 116766
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=30|end_char=31
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=36
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=37|end_char=41
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=42|end_char=46
+5	drugging	drugge	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=47|end_char=55
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=56|end_char=60
+7	and	and	CCONJ	CC	_	6	_	_	start_char=61|end_char=64
+8	RAPING	rape	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=65|end_char=71
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=72|end_char=76|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=76|end_char=77|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=77|end_char=78
+
+# text = "I know, I went there TEN TIMES." wait.
+# sent_id = 116767
+1	"	"	PUNCT	``	_	0	_	_	start_char=79|end_char=80|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=80|end_char=81
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=82|end_char=86|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=86|end_char=87
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=88|end_char=89
+6	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=90|end_char=94
+7	there	there	ADV	RB	PronType=Dem	6	_	_	start_char=95|end_char=100
+8	TEN	ten	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=101|end_char=104
+9	TIMES	time	NOUN	NNS	Number=Plur	8	_	_	start_char=105|end_char=110|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=110|end_char=111|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=111|end_char=112
+12	wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	11	_	_	start_char=113|end_char=117|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=117|end_char=118
+
+# text = what?
+# sent_id = 116768
+1	what	what	PRON	WP	PronType=Int	0	_	_	start_char=119|end_char=123|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=123|end_char=124|SpaceAfter=No
+

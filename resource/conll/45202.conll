@@ -1,0 +1,22 @@
+# text = "... orphans of mother" is nonsense.
+# sent_id = 96458
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	...	...	PUNCT	,	_	1	_	_	start_char=1|end_char=4
+3	orphans	orphan	NOUN	NNS	Number=Plur	2	_	_	start_char=5|end_char=12
+4	of	of	ADP	IN	_	3	_	_	start_char=13|end_char=15
+5	mother	mother	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=22|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=22|end_char=23
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=24|end_char=26
+8	nonsense	nonsense	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=35|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = What do you think it means ?
+# sent_id = 96459
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=37|end_char=41
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=44
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=45|end_char=48
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=49|end_char=54
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=55|end_char=57
+6	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=58|end_char=63
+7	?	?	PUNCT	.	_	6	_	_	start_char=64|end_char=65|SpaceAfter=No
+

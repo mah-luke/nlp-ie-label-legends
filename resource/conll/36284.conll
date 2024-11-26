@@ -1,0 +1,43 @@
+# text = Don’t get me wrong, girls like assholes.
+# sent_id = 77602
+1-2	Don’t	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n’t	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=9
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=10|end_char=12
+5	wrong	wrong	ADJ	JJ	Degree=Pos	4	_	_	start_char=13|end_char=18|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=18|end_char=19
+7	girls	girl	NOUN	NNS	Number=Plur	6	_	_	start_char=20|end_char=25
+8	like	like	ADP	IN	_	7	_	_	start_char=26|end_char=30
+9	assholes	asshole	NOUN	NNS	Number=Plur	8	_	_	start_char=31|end_char=39|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=39|end_char=40
+
+# text = But it has to be born out natural confidence, not this “hustle and grind” persona OP has fabricated out of thin air.
+# sent_id = 77603
+1	But	but	CCONJ	CC	_	0	_	_	start_char=41|end_char=44
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=45|end_char=47
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=48|end_char=51
+4	to	to	PART	TO	_	3	_	_	start_char=52|end_char=54
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=55|end_char=57
+6	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=58|end_char=62
+7	out	out	ADP	RP	_	6	_	_	start_char=63|end_char=66
+8	natural	natural	ADJ	JJ	Degree=Pos	7	_	_	start_char=67|end_char=74
+9	confidence	confidence	NOUN	NN	Number=Sing	8	_	_	start_char=75|end_char=85|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=85|end_char=86
+11	not	not	PART	RB	_	10	_	_	start_char=87|end_char=90
+12	this	this	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=91|end_char=95
+13	“	''	PUNCT	``	_	12	_	_	start_char=96|end_char=97|SpaceAfter=No
+14	hustle	hustle	NOUN	NN	Number=Sing	13	_	_	start_char=97|end_char=103
+15	and	and	CCONJ	CC	_	14	_	_	start_char=104|end_char=107
+16	grind	grind	NOUN	NN	Number=Sing	15	_	_	start_char=108|end_char=113|SpaceAfter=No
+17	”	''	PUNCT	''	_	16	_	_	start_char=113|end_char=114
+18	persona	persona	NOUN	NN	Number=Sing	17	_	_	start_char=115|end_char=122
+19	OP	OP	PROPN	NNP	Number=Sing	18	_	_	start_char=123|end_char=125
+20	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=126|end_char=129
+21	fabricated	fabricate	VERB	VBN	Tense=Past|VerbForm=Part	20	_	_	start_char=130|end_char=140
+22	out	out	ADP	IN	_	21	_	_	start_char=141|end_char=144
+23	of	of	ADP	IN	_	22	_	_	start_char=145|end_char=147
+24	thin	thin	ADJ	JJ	Degree=Pos	23	_	_	start_char=148|end_char=152
+25	air	air	NOUN	NN	Number=Sing	24	_	_	start_char=153|end_char=156|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=156|end_char=157|SpaceAfter=No
+

@@ -1,0 +1,56 @@
+# text = Don't do that.
+# sent_id = 40112
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=8
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=9|end_char=13|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=13|end_char=14
+
+# text = Just flirt and take it there subtly.
+# sent_id = 40113
+1	Just	just	ADV	RB	_	0	_	_	start_char=15|end_char=19
+2	flirt	flirt	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=20|end_char=25
+3	and	and	CCONJ	CC	_	2	_	_	start_char=26|end_char=29
+4	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=30|end_char=34
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=35|end_char=37
+6	there	there	ADV	RB	PronType=Dem	5	_	_	start_char=38|end_char=43
+7	subtly	subtly	ADV	RB	_	6	_	_	start_char=44|end_char=50|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=50|end_char=51
+
+# text = She already knows your interested.
+# sent_id = 40114
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=52|end_char=55
+2	already	already	ADV	RB	_	1	_	_	start_char=56|end_char=63
+3	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=64|end_char=69
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=70|end_char=74
+5	interested	interested	ADJ	JJ	Degree=Pos	4	_	_	start_char=75|end_char=85|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=85|end_char=86
+
+# text = She knows cause your a man and she's a woman.
+# sent_id = 40115
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=87|end_char=90
+2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=91|end_char=96
+3	cause	cause	SCONJ	IN	_	2	_	_	start_char=97|end_char=102
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=103|end_char=107
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=108|end_char=109
+6	man	man	NOUN	NN	Number=Sing	5	_	_	start_char=110|end_char=113
+7	and	and	CCONJ	CC	_	6	_	_	start_char=114|end_char=117
+8-9	she's	_	_	_	_	_	_	_	start_char=118|end_char=123
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=118|end_char=121
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=121|end_char=123
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=124|end_char=125
+11	woman	woman	NOUN	NN	Number=Sing	10	_	_	start_char=126|end_char=131|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=131|end_char=132
+
+# text = Nature takes care of that shit automatically.
+# sent_id = 40116
+1	Nature	nature	NOUN	NN	Number=Sing	0	_	_	start_char=133|end_char=139
+2	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=140|end_char=145
+3	care	care	NOUN	NN	Number=Sing	2	_	_	start_char=146|end_char=150
+4	of	of	ADP	IN	_	3	_	_	start_char=151|end_char=153
+5	that	that	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=154|end_char=158
+6	shit	shit	NOUN	NN	Number=Sing	5	_	_	start_char=159|end_char=163
+7	automatically	automatically	ADV	RB	_	6	_	_	start_char=164|end_char=177|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=177|end_char=178|SpaceAfter=No
+

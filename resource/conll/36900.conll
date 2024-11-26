@@ -1,0 +1,69 @@
+# text = Funny thing is.
+# sent_id = 78891
+1	Funny	funny	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5
+2	thing	thing	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=11
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = I feel that women are the fisherman.
+# sent_id = 78892
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=16|end_char=17
+2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=18|end_char=22
+3	that	that	SCONJ	IN	_	2	_	_	start_char=23|end_char=27
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=28|end_char=33
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=34|end_char=37
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=38|end_char=41
+7	fisherman	fisherman	NOUN	NN	Number=Sing	6	_	_	start_char=42|end_char=51|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=51|end_char=52
+
+# text = They dress up, look good to catch us, ie bait to catch the best fish.
+# sent_id = 78893
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=53|end_char=57
+2	dress	dress	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=58|end_char=63
+3	up	up	ADP	RP	_	2	_	_	start_char=64|end_char=66|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=66|end_char=67
+5	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=68|end_char=72
+6	good	good	ADJ	JJ	Degree=Pos	5	_	_	start_char=73|end_char=77
+7	to	to	PART	TO	_	6	_	_	start_char=78|end_char=80
+8	catch	catch	VERB	VB	VerbForm=Inf	7	_	_	start_char=81|end_char=86
+9	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	8	_	_	start_char=87|end_char=89|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=89|end_char=90
+11	ie	ie	INTJ	UH	_	10	_	_	start_char=91|end_char=93
+12	bait	bait	VERB	VB	VerbForm=Inf	11	_	_	start_char=94|end_char=98
+13	to	to	PART	TO	_	12	_	_	start_char=99|end_char=101
+14	catch	catch	VERB	VB	VerbForm=Inf	13	_	_	start_char=102|end_char=107
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=108|end_char=111
+16	best	good	ADJ	JJS	Degree=Sup	15	_	_	start_char=112|end_char=116
+17	fish	fish	NOUN	NN	Number=Plur	16	_	_	start_char=117|end_char=121|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=121|end_char=122
+
+# text = Dont be a guppy that falls for the shittiest bait.
+# sent_id = 78894
+1-2	Dont	_	_	_	_	_	_	_	start_char=123|end_char=127
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=123|end_char=125
+2	nt	not	PART	RB	_	1	_	_	start_char=125|end_char=127
+3	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=128|end_char=130
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=131|end_char=132
+5	guppy	guppy	NOUN	NN	Number=Sing	4	_	_	start_char=133|end_char=138
+6	that	that	PRON	WDT	PronType=Rel	5	_	_	start_char=139|end_char=143
+7	falls	fall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=144|end_char=149
+8	for	for	ADP	IN	_	7	_	_	start_char=150|end_char=153
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=154|end_char=157
+10	shittiest	shittiest	ADJ	JJS	Degree=Sup	9	_	_	start_char=158|end_char=167
+11	bait	bait	NOUN	NN	Number=Sing	10	_	_	start_char=168|end_char=172|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=172|end_char=173
+
+# text = Be the 10 ft whatever that takes a pro to catch
+# sent_id = 78895
+1	Be	be	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=174|end_char=176
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=177|end_char=180
+3	10	10	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=181|end_char=183
+4	ft	ft	NOUN	NNS	Number=Plur	3	_	_	start_char=184|end_char=186
+5	whatever	whatever	PRON	WP	PronType=Rel	4	_	_	start_char=187|end_char=195
+6	that	that	PRON	WDT	PronType=Rel	5	_	_	start_char=196|end_char=200
+7	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=201|end_char=206
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=207|end_char=208
+9	pro	pro	NOUN	NN	Number=Sing	8	_	_	start_char=209|end_char=212
+10	to	to	PART	TO	_	9	_	_	start_char=213|end_char=215
+11	catch	catch	VERB	VB	VerbForm=Inf	10	_	_	start_char=216|end_char=221|SpaceAfter=No
+

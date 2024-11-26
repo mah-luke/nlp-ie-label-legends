@@ -1,0 +1,26 @@
+# text = I tipped your mom a fiver for Mother's Day.
+# sent_id = 37376
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	tipped	tip	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=8
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=9|end_char=13
+4	mom	mom	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=17
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=18|end_char=19
+6	fiver	fiver	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=25
+7	for	for	ADP	IN	_	6	_	_	start_char=26|end_char=29
+8-9	Mother's	_	_	_	_	_	_	_	start_char=30|end_char=38
+8	Mother	mother	PROPN	NNP	Number=Sing	7	_	_	start_char=30|end_char=36
+9	's	's	PART	POS	_	8	_	_	start_char=36|end_char=38
+10	Day	Day	PROPN	NNP	Number=Sing	9	_	_	start_char=39|end_char=42|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=42|end_char=43
+
+# text = She sucks almost as hard as you.
+# sent_id = 37377
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=44|end_char=47
+2	sucks	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=48|end_char=53
+3	almost	almost	ADV	RB	_	2	_	_	start_char=54|end_char=60
+4	as	as	ADV	RB	_	3	_	_	start_char=61|end_char=63
+5	hard	hard	ADV	RB	Degree=Pos	4	_	_	start_char=64|end_char=68
+6	as	as	ADP	IN	_	5	_	_	start_char=69|end_char=71
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=72|end_char=75|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=75|end_char=76|SpaceAfter=No
+

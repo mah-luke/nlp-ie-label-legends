@@ -1,0 +1,58 @@
+# text = She won't mind if you try.
+# sent_id = 12051
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2-3	won't	_	_	_	_	_	_	_	start_char=4|end_char=9
+2	wo	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	n't	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	mind	mind	VERB	VB	VerbForm=Inf	3	_	_	start_char=10|end_char=14
+5	if	if	SCONJ	IN	_	4	_	_	start_char=15|end_char=17
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=18|end_char=21
+7	try	try	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=22|end_char=25|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=25|end_char=26
+
+# text = It is possible (5%) she will say "no, and I mean it", but it would really hurt her feelings if you wouldn't try it.
+# sent_id = 12052
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=27|end_char=29
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=30|end_char=32
+3	possible	possible	ADJ	JJ	Degree=Pos	2	_	_	start_char=33|end_char=41
+4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=42|end_char=43|SpaceAfter=No
+5	5	5	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=43|end_char=44|SpaceAfter=No
+6	%	%	SYM	NN	Number=Sing	5	_	_	start_char=44|end_char=45|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=45|end_char=46
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=47|end_char=50
+9	will	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=51|end_char=55
+10	say	say	VERB	VB	VerbForm=Inf	9	_	_	start_char=56|end_char=59
+11	"	"	PUNCT	``	_	10	_	_	start_char=60|end_char=61|SpaceAfter=No
+12	no	no	INTJ	UH	_	11	_	_	start_char=61|end_char=63|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=63|end_char=64
+14	and	and	CCONJ	CC	_	13	_	_	start_char=65|end_char=68
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=69|end_char=70
+16	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	start_char=71|end_char=75
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=76|end_char=78|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=78|end_char=79|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=79|end_char=80
+20	but	but	CCONJ	CC	_	19	_	_	start_char=81|end_char=84
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=85|end_char=87
+22	would	would	AUX	MD	VerbForm=Fin	21	_	_	start_char=88|end_char=93
+23	really	really	ADV	RB	_	22	_	_	start_char=94|end_char=100
+24	hurt	hurt	VERB	VB	VerbForm=Inf	23	_	_	start_char=101|end_char=105
+25	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	_	_	start_char=106|end_char=109
+26	feelings	feeling	NOUN	NNS	Number=Plur	25	_	_	start_char=110|end_char=118
+27	if	if	SCONJ	IN	_	26	_	_	start_char=119|end_char=121
+28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	_	_	start_char=122|end_char=125
+29-30	wouldn't	_	_	_	_	_	_	_	start_char=126|end_char=134
+29	would	would	AUX	MD	VerbForm=Fin	28	_	_	start_char=126|end_char=131
+30	n't	not	PART	RB	_	29	_	_	start_char=131|end_char=134
+31	try	try	VERB	VB	VerbForm=Inf	30	_	_	start_char=135|end_char=138
+32	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	_	_	start_char=139|end_char=141|SpaceAfter=No
+33	.	.	PUNCT	.	_	32	_	_	start_char=141|end_char=142
+
+# text = Talking from my experience. :(
+# sent_id = 12053
+1	Talking	Talk	VERB	VBG	VerbForm=Ger	0	_	_	start_char=143|end_char=150
+2	from	from	ADP	IN	_	1	_	_	start_char=151|end_char=155
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=156|end_char=158
+4	experience	experience	NOUN	NN	Number=Sing	3	_	_	start_char=159|end_char=169|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=169|end_char=170
+6	:(	:(	SYM	NFP	_	5	_	_	start_char=171|end_char=173|SpaceAfter=No
+

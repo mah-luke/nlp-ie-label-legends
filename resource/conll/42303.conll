@@ -1,0 +1,40 @@
+# text = Good Morning Miss Gee!
+# sent_id = 90468
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	Morning	Morning	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=12
+3	Miss	Miss	NOUN	NN	Number=Sing	2	_	_	start_char=13|end_char=17
+4	Gee	Gee	PROPN	NNP	Number=Sing	3	_	_	start_char=18|end_char=21|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=21|end_char=22
+
+# text = Amazing pic love the old car and the brown-eyed Susan’s (my daughters fav).
+# sent_id = 90469
+1	Amazing	amazing	ADJ	JJ	Degree=Pos	0	_	_	start_char=23|end_char=30
+2	pic	pic	NOUN	NN	Number=Sing	1	_	_	start_char=31|end_char=34
+3	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=35|end_char=39
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=40|end_char=43
+5	old	old	ADJ	JJ	Degree=Pos	4	_	_	start_char=44|end_char=47
+6	car	car	NOUN	NN	Number=Sing	5	_	_	start_char=48|end_char=51
+7	and	and	CCONJ	CC	_	6	_	_	start_char=52|end_char=55
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=56|end_char=59
+9	brown	brown	ADJ	JJ	Degree=Pos	8	_	_	start_char=60|end_char=65|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	_	_	start_char=65|end_char=66|SpaceAfter=No
+11	eyed	eye	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=66|end_char=70
+12-13	Susan’s	_	_	_	_	_	_	_	start_char=71|end_char=78
+12	Susan	Susan	PROPN	NNP	Number=Sing	11	_	_	start_char=71|end_char=76
+13	’s	's	PART	POS	_	12	_	_	start_char=76|end_char=78
+14	(	(	PUNCT	-LRB-	_	13	_	_	start_char=79|end_char=80|SpaceAfter=No
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	_	_	start_char=80|end_char=82
+16	daughters	daughter	NOUN	NNS	Number=Plur	15	_	_	start_char=83|end_char=92
+17	fav	fav	ADV	RB	_	16	_	_	start_char=93|end_char=96|SpaceAfter=No
+18	)	)	PUNCT	-RRB-	_	17	_	_	start_char=96|end_char=97|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=97|end_char=98
+
+# text = Have a blessed Friday Sis!
+# sent_id = 90470
+1	Have	have	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=99|end_char=103
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=104|end_char=105
+3	blessed	bless	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=106|end_char=113
+4	Friday	Friday	PROPN	NNP	Number=Sing	3	_	_	start_char=114|end_char=120
+5	Sis	sis	NOUN	NN	Number=Sing	4	_	_	start_char=121|end_char=124|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=124|end_char=125|SpaceAfter=No
+

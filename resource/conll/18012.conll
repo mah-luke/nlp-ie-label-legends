@@ -1,0 +1,56 @@
+# text = "I come in peace.
+# sent_id = 38706
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
+3	come	come	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=3|end_char=7
+4	in	in	ADP	IN	_	3	_	_	start_char=8|end_char=10
+5	peace	peace	NOUN	NN	Number=Sing	4	_	_	start_char=11|end_char=16|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=16|end_char=17
+
+# text = I didn't bring artillery.
+# sent_id = 38707
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=18|end_char=19
+2-3	didn't	_	_	_	_	_	_	_	start_char=20|end_char=26
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=20|end_char=23
+3	n't	not	PART	RB	_	2	_	_	start_char=23|end_char=26
+4	bring	bring	VERB	VB	VerbForm=Inf	3	_	_	start_char=27|end_char=32
+5	artillery	artillery	NOUN	NN	Number=Sing	4	_	_	start_char=33|end_char=42|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=42|end_char=43
+
+# text = But I'm pleading with you, with tears in my eyes:
+# sent_id = 38708
+1	But	but	CCONJ	CC	_	0	_	_	start_char=44|end_char=47
+2-3	I'm	_	_	_	_	_	_	_	start_char=48|end_char=51
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=48|end_char=49
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=49|end_char=51
+4	pleading	plead	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=52|end_char=60
+5	with	with	ADP	IN	_	4	_	_	start_char=61|end_char=65
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=66|end_char=69|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=69|end_char=70
+8	with	with	ADP	IN	_	7	_	_	start_char=71|end_char=75
+9	tears	tear	NOUN	NNS	Number=Plur	8	_	_	start_char=76|end_char=81
+10	in	in	ADP	IN	_	9	_	_	start_char=82|end_char=84
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=85|end_char=87
+12	eyes	eye	NOUN	NNS	Number=Plur	11	_	_	start_char=88|end_char=92|SpaceAfter=No
+13	:	:	PUNCT	:	_	12	_	_	start_char=92|end_char=93
+
+# text = If you fuck with me, I'll kill you all" - Gen James Mattis
+# sent_id = 38709
+1	If	if	SCONJ	IN	_	0	_	_	start_char=94|end_char=96
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=97|end_char=100
+3	fuck	fuck	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=101|end_char=105
+4	with	with	ADP	IN	_	3	_	_	start_char=106|end_char=110
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=111|end_char=113|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=113|end_char=114
+7-8	I'll	_	_	_	_	_	_	_	start_char=115|end_char=119
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=115|end_char=116
+8	'll	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=116|end_char=119
+9	kill	kill	VERB	VB	VerbForm=Inf	8	_	_	start_char=120|end_char=124
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	_	_	start_char=125|end_char=128
+11	all	all	DET	DT	_	10	_	_	start_char=129|end_char=132|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=132|end_char=133
+13	-	-	PUNCT	HYPH	_	12	_	_	start_char=134|end_char=135
+14	Gen	Gen	PROPN	NNP	Number=Sing	13	_	_	start_char=136|end_char=139
+15	James	James	PROPN	NNP	Number=Sing	14	_	_	start_char=140|end_char=145
+16	Mattis	Mattis	PROPN	NNP	Number=Sing	15	_	_	start_char=146|end_char=152|SpaceAfter=No
+

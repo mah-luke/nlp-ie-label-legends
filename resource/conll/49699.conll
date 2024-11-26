@@ -1,0 +1,29 @@
+# text = I'd prefer an ugly girl to an average or above girl.
+# sent_id = 106202
+1-2	I'd	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	prefer	prefer	VERB	VB	VerbForm=Inf	2	_	_	start_char=4|end_char=10
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=11|end_char=13
+5	ugly	ugly	ADJ	JJ	Degree=Pos	4	_	_	start_char=14|end_char=18
+6	girl	girl	NOUN	NN	Number=Sing	5	_	_	start_char=19|end_char=23
+7	to	to	ADP	IN	_	6	_	_	start_char=24|end_char=26
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=27|end_char=29
+9	average	average	NOUN	NN	Number=Sing	8	_	_	start_char=30|end_char=37
+10	or	or	CCONJ	CC	_	9	_	_	start_char=38|end_char=40
+11	above	above	ADJ	JJ	Degree=Pos	10	_	_	start_char=41|end_char=46
+12	girl	girl	NOUN	NN	Number=Sing	11	_	_	start_char=47|end_char=51|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=51|end_char=52
+
+# text = Then she won't be so entitled.
+# sent_id = 106203
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=53|end_char=57
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=58|end_char=61
+3-4	won't	_	_	_	_	_	_	_	start_char=62|end_char=67
+3	wo	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=62|end_char=64
+4	n't	not	PART	RB	_	3	_	_	start_char=64|end_char=67
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=68|end_char=70
+6	so	so	ADV	RB	_	5	_	_	start_char=71|end_char=73
+7	entitled	entitle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=74|end_char=82|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=82|end_char=83|SpaceAfter=No
+

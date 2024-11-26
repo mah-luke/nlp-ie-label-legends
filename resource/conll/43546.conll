@@ -1,0 +1,64 @@
+# text = Sure do!
+# sent_id = 93083
+1	Sure	sure	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=7|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=7|end_char=8
+
+# text = Remember how I said I've been an IFBB pro for 4 years?
+# sent_id = 93084
+1	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=9|end_char=17
+2	how	how	ADV	WRB	PronType=Int	1	_	_	start_char=18|end_char=21
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=22|end_char=23
+4	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=24|end_char=28
+5-6	I've	_	_	_	_	_	_	_	start_char=29|end_char=33
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=29|end_char=30
+6	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=30|end_char=33
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=34|end_char=38
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=39|end_char=41
+9	IFBB	IFBB	NOUN	NN	Number=Sing	8	_	_	start_char=42|end_char=46
+10	pro	pro	NOUN	NN	Number=Sing	9	_	_	start_char=47|end_char=50
+11	for	for	ADP	IN	_	10	_	_	start_char=51|end_char=54
+12	4	4	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=55|end_char=56
+13	years	year	NOUN	NNS	Number=Plur	12	_	_	start_char=57|end_char=62|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=62|end_char=63
+
+# text = Fitness models that win physique competitions are the ones that still look like women.
+# sent_id = 93085
+1	Fitness	Fitness	NOUN	NN	Number=Sing	0	_	_	start_char=64|end_char=71
+2	models	model	NOUN	NNS	Number=Plur	1	_	_	start_char=72|end_char=78
+3	that	that	PRON	WDT	PronType=Rel	2	_	_	start_char=79|end_char=83
+4	win	win	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=84|end_char=87
+5	physique	physique	NOUN	NN	Number=Sing	4	_	_	start_char=88|end_char=96
+6	competitions	competition	NOUN	NNS	Number=Plur	5	_	_	start_char=97|end_char=109
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=110|end_char=113
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=114|end_char=117
+9	ones	one	NOUN	NNS	Number=Plur	8	_	_	start_char=118|end_char=122
+10	that	that	PRON	WDT	PronType=Rel	9	_	_	start_char=123|end_char=127
+11	still	still	ADV	RB	_	10	_	_	start_char=128|end_char=133
+12	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=134|end_char=138
+13	like	like	ADP	IN	_	12	_	_	start_char=139|end_char=143
+14	women	woman	NOUN	NNS	Number=Plur	13	_	_	start_char=144|end_char=149|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=149|end_char=150
+
+# text = They aren't cut up like that.
+# sent_id = 93086
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=151|end_char=155
+2-3	aren't	_	_	_	_	_	_	_	start_char=156|end_char=162
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=156|end_char=159
+3	n't	not	PART	RB	_	2	_	_	start_char=159|end_char=162
+4	cut	cut	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=163|end_char=166
+5	up	up	ADP	RP	_	4	_	_	start_char=167|end_char=169
+6	like	like	ADP	IN	_	5	_	_	start_char=170|end_char=174
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=175|end_char=179|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=179|end_char=180
+
+# text = Because it isn't attractive.
+# sent_id = 93087
+1	Because	because	SCONJ	IN	_	0	_	_	start_char=181|end_char=188
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=189|end_char=191
+3-4	isn't	_	_	_	_	_	_	_	start_char=192|end_char=197
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=192|end_char=194
+4	n't	not	PART	RB	_	3	_	_	start_char=194|end_char=197
+5	attractive	attractive	ADJ	JJ	Degree=Pos	4	_	_	start_char=198|end_char=208|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=208|end_char=209|SpaceAfter=No
+

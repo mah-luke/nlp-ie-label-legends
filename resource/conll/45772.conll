@@ -1,0 +1,71 @@
+# text = Damn, I love this sub lmao.
+# sent_id = 97732
+1	Damn	damn	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=12
+5	this	this	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=13|end_char=17
+6	sub	sub	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=21
+7	lmao	lmao	NOUN	NN	Number=Sing	6	_	_	start_char=22|end_char=26|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=26|end_char=27
+
+# text = Some interesting reads in here.
+# sent_id = 97733
+1	Some	some	DET	DT	_	0	_	_	start_char=28|end_char=32
+2	interesting	interesting	ADJ	JJ	Degree=Pos	1	_	_	start_char=33|end_char=44
+3	reads	read	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=45|end_char=50
+4	in	in	ADP	IN	_	3	_	_	start_char=51|end_char=53
+5	here	here	ADV	RB	PronType=Dem	4	_	_	start_char=54|end_char=58|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=58|end_char=59
+
+# text = I think I failed on this one because I uh told her my girlfriend of 3 years broke up with me a few weeks back lol, but we’ll see.
+# sent_id = 97734
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=60|end_char=61
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=62|end_char=67
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=68|end_char=69
+4	failed	fail	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=70|end_char=76
+5	on	on	ADP	IN	_	4	_	_	start_char=77|end_char=79
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=80|end_char=84
+7	one	one	NOUN	NN	Number=Sing	6	_	_	start_char=85|end_char=88
+8	because	because	SCONJ	IN	_	7	_	_	start_char=89|end_char=96
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=97|end_char=98
+10	uh	uh	INTJ	UH	_	9	_	_	start_char=99|end_char=101
+11	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	_	_	start_char=102|end_char=106
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=107|end_char=110
+13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	_	_	start_char=111|end_char=113
+14	girlfriend	girlfriend	NOUN	NN	Number=Sing	13	_	_	start_char=114|end_char=124
+15	of	of	ADP	IN	_	14	_	_	start_char=125|end_char=127
+16	3	3	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=128|end_char=129
+17	years	year	NOUN	NNS	Number=Plur	16	_	_	start_char=130|end_char=135
+18	broke	break	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=136|end_char=141
+19	up	up	ADP	RP	_	18	_	_	start_char=142|end_char=144
+20	with	with	ADP	IN	_	19	_	_	start_char=145|end_char=149
+21	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	20	_	_	start_char=150|end_char=152
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	start_char=153|end_char=154
+23	few	few	ADJ	JJ	Degree=Pos	22	_	_	start_char=155|end_char=158
+24	weeks	week	NOUN	NNS	Number=Plur	23	_	_	start_char=159|end_char=164
+25	back	back	ADV	RB	_	24	_	_	start_char=165|end_char=169
+26	lol	lol	INTJ	UH	_	25	_	_	start_char=170|end_char=173|SpaceAfter=No
+27	,	,	PUNCT	,	_	26	_	_	start_char=173|end_char=174
+28	but	but	CCONJ	CC	_	27	_	_	start_char=175|end_char=178
+29-30	we’ll	_	_	_	_	_	_	_	start_char=179|end_char=184
+29	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	28	_	_	start_char=179|end_char=181
+30	’ll	will	AUX	MD	VerbForm=Fin	29	_	_	start_char=181|end_char=184
+31	see	see	VERB	VB	VerbForm=Inf	30	_	_	start_char=185|end_char=188|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	start_char=188|end_char=189
+
+# text = I just sent her a text, we’ll see.
+# sent_id = 97735
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=190|end_char=191
+2	just	just	ADV	RB	_	1	_	_	start_char=192|end_char=196
+3	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=197|end_char=201
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=202|end_char=205
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=206|end_char=207
+6	text	text	NOUN	NN	Number=Sing	5	_	_	start_char=208|end_char=212|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=212|end_char=213
+8-9	we’ll	_	_	_	_	_	_	_	start_char=214|end_char=219
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	_	_	start_char=214|end_char=216
+9	’ll	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=216|end_char=219
+10	see	see	VERB	VB	VerbForm=Inf	9	_	_	start_char=220|end_char=223|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=223|end_char=224|SpaceAfter=No
+

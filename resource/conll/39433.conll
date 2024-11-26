@@ -1,0 +1,53 @@
+# text = 1) I agree that he is twisting it and he probably knows it.
+# sent_id = 84323
+1	1	1	NUM	LS	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	)	)	PUNCT	-RRB-	_	1	_	_	start_char=1|end_char=2
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=3|end_char=4
+4	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=5|end_char=10
+5	that	that	SCONJ	IN	_	4	_	_	start_char=11|end_char=15
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=16|end_char=18
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=19|end_char=21
+8	twisting	twist	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=22|end_char=30
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=31|end_char=33
+10	and	and	CCONJ	CC	_	9	_	_	start_char=34|end_char=37
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=38|end_char=40
+12	probably	probably	ADV	RB	_	11	_	_	start_char=41|end_char=49
+13	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=50|end_char=55
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=56|end_char=58|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=58|end_char=59
+
+# text = 2) It doesn't say incel in it...but you did post it in r/inceltears, so that's obviously the context everyone is reading this in.
+# sent_id = 84324
+1	2	2	NUM	LS	_	0	_	_	start_char=60|end_char=61|SpaceAfter=No
+2	)	)	PUNCT	-RRB-	_	1	_	_	start_char=61|end_char=62
+3	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=63|end_char=65
+4-5	doesn't	_	_	_	_	_	_	_	start_char=66|end_char=73
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=66|end_char=70
+5	n't	not	PART	RB	_	4	_	_	start_char=70|end_char=73
+6	say	say	VERB	VB	VerbForm=Inf	5	_	_	start_char=74|end_char=77
+7	incel	incel	NOUN	NN	Number=Sing	6	_	_	start_char=78|end_char=83
+8	in	in	ADP	IN	_	7	_	_	start_char=84|end_char=86
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=87|end_char=89|SpaceAfter=No
+10	...	...	PUNCT	,	_	9	_	_	start_char=89|end_char=92|SpaceAfter=No
+11	but	but	CCONJ	CC	_	10	_	_	start_char=92|end_char=95
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=96|end_char=99
+13	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	12	_	_	start_char=100|end_char=103
+14	post	post	VERB	VB	VerbForm=Inf	13	_	_	start_char=104|end_char=108
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=109|end_char=111
+16	in	in	ADP	IN	_	15	_	_	start_char=112|end_char=114
+17	r/inceltears	r/inceltear	NOUN	NNS	Number=Plur	16	_	_	start_char=115|end_char=127|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=127|end_char=128
+19	so	so	ADV	RB	_	18	_	_	start_char=129|end_char=131
+20-21	that's	_	_	_	_	_	_	_	start_char=132|end_char=138
+20	that	that	PRON	DT	Number=Sing|PronType=Dem	19	_	_	start_char=132|end_char=136
+21	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=136|end_char=138
+22	obviously	obviously	ADV	RB	_	21	_	_	start_char=139|end_char=148
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=149|end_char=152
+24	context	context	NOUN	NN	Number=Sing	23	_	_	start_char=153|end_char=160
+25	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	24	_	_	start_char=161|end_char=169
+26	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	start_char=170|end_char=172
+27	reading	read	VERB	VBG	Tense=Pres|VerbForm=Part	26	_	_	start_char=173|end_char=180
+28	this	this	PRON	DT	Number=Sing|PronType=Dem	27	_	_	start_char=181|end_char=185
+29	in	in	ADP	RP	_	28	_	_	start_char=186|end_char=188|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	start_char=188|end_char=189|SpaceAfter=No
+

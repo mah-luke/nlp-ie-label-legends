@@ -1,0 +1,61 @@
+# text = Two things.
+# sent_id = 13100
+1	Two	two	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=0|end_char=3
+2	things	thing	NOUN	NNS	Number=Plur	1	_	_	start_char=4|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=10|end_char=11
+
+# text = 1st is when a woman posts that, she's saying she's ignorant.
+# sent_id = 13101
+1	1st	1st	NOUN	NN	Number=Sing	0	_	_	start_char=12|end_char=15
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=16|end_char=18
+3	when	when	ADV	WRB	PronType=Int	2	_	_	start_char=19|end_char=23
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=24|end_char=25
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=26|end_char=31
+6	posts	post	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=32|end_char=37
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=38|end_char=42|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=42|end_char=43
+9-10	she's	_	_	_	_	_	_	_	start_char=44|end_char=49
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=44|end_char=47
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=47|end_char=49
+11	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=50|end_char=56
+12-13	she's	_	_	_	_	_	_	_	start_char=57|end_char=62
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=57|end_char=60
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=60|end_char=62
+14	ignorant	ignorant	ADJ	JJ	Degree=Pos	13	_	_	start_char=63|end_char=71|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=71|end_char=72
+
+# text = Ignorance is the lack of awareness.
+# sent_id = 13102
+1	Ignorance	ignorance	NOUN	NN	Number=Sing	0	_	_	start_char=73|end_char=82
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=83|end_char=85
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=86|end_char=89
+4	lack	lack	NOUN	NN	Number=Sing	3	_	_	start_char=90|end_char=94
+5	of	of	ADP	IN	_	4	_	_	start_char=95|end_char=97
+6	awareness	awareness	NOUN	NN	Number=Sing	5	_	_	start_char=98|end_char=107|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=107|end_char=108
+
+# text = 2nd is a little thug in him is an invitation to slap her around, you know, just a little.
+# sent_id = 13103
+1	2nd	2nd	ADJ	JJ	Degree=Pos|NumType=Ord	0	_	_	start_char=109|end_char=112
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=113|end_char=115
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=116|end_char=117
+4	little	little	ADJ	JJ	Degree=Pos	3	_	_	start_char=118|end_char=124
+5	thug	thug	NOUN	NN	Number=Sing	4	_	_	start_char=125|end_char=129
+6	in	in	ADP	IN	_	5	_	_	start_char=130|end_char=132
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=133|end_char=136
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=137|end_char=139
+9	an	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=140|end_char=142
+10	invitation	invitation	NOUN	NN	Number=Sing	9	_	_	start_char=143|end_char=153
+11	to	to	PART	TO	_	10	_	_	start_char=154|end_char=156
+12	slap	slap	VERB	VB	VerbForm=Inf	11	_	_	start_char=157|end_char=161
+13	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=162|end_char=165
+14	around	around	ADV	RB	_	13	_	_	start_char=166|end_char=172|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=172|end_char=173
+16	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	_	_	start_char=174|end_char=177
+17	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	_	_	start_char=178|end_char=182|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=182|end_char=183
+19	just	just	ADV	RB	_	18	_	_	start_char=184|end_char=188
+20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	start_char=189|end_char=190
+21	little	little	ADJ	JJ	Degree=Pos	20	_	_	start_char=191|end_char=197|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=197|end_char=198|SpaceAfter=No
+

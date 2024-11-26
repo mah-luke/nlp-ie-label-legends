@@ -1,0 +1,36 @@
+# text = Surely you're just wasting the womans bait of her looks?
+# sent_id = 42549
+1	Surely	surely	ADV	RB	_	0	_	_	start_char=0|end_char=6
+2-3	you're	_	_	_	_	_	_	_	start_char=7|end_char=13
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=7|end_char=10
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=13
+4	just	just	ADV	RB	_	3	_	_	start_char=14|end_char=18
+5	wasting	waste	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=19|end_char=26
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=27|end_char=30
+7	womans	woman	NOUN	NN	Number=Sing	6	_	_	start_char=31|end_char=37
+8	bait	bait	NOUN	NN	Number=Sing	7	_	_	start_char=38|end_char=42
+9	of	of	ADP	IN	_	8	_	_	start_char=43|end_char=45
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=46|end_char=49
+11	looks	look	NOUN	NNS	Number=Plur	10	_	_	start_char=50|end_char=55|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=55|end_char=56
+
+# text = Who said I wanted a "relationship".
+# sent_id = 42550
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=57|end_char=60
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=61|end_char=65
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=66|end_char=67
+4	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=68|end_char=74
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=75|end_char=76
+6	"	"	PUNCT	``	_	5	_	_	start_char=77|end_char=78|SpaceAfter=No
+7	relationship	relationship	NOUN	NN	Number=Sing	6	_	_	start_char=78|end_char=90|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=90|end_char=91|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=91|end_char=92
+
+# text = That is bitch talk.
+# sent_id = 42551
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=93|end_char=97
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=98|end_char=100
+3	bitch	bitch	NOUN	NN	Number=Sing	2	_	_	start_char=101|end_char=106
+4	talk	talk	NOUN	NN	Number=Sing	3	_	_	start_char=107|end_char=111|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=111|end_char=112|SpaceAfter=No
+

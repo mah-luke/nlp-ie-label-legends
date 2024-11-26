@@ -1,0 +1,26 @@
+# text = Don't bother arguing with women.
+# sent_id = 81989
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	bother	bother	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=12
+4	arguing	argue	VERB	VBG	VerbForm=Ger	3	_	_	start_char=13|end_char=20
+5	with	with	ADP	IN	_	4	_	_	start_char=21|end_char=25
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=26|end_char=31|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=31|end_char=32
+
+# text = They don't care about the truth, only feelings.
+# sent_id = 81990
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=33|end_char=37
+2-3	don't	_	_	_	_	_	_	_	start_char=38|end_char=43
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=38|end_char=40
+3	n't	not	PART	RB	_	2	_	_	start_char=40|end_char=43
+4	care	care	VERB	VB	VerbForm=Inf	3	_	_	start_char=44|end_char=48
+5	about	about	ADP	IN	_	4	_	_	start_char=49|end_char=54
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=55|end_char=58
+7	truth	truth	NOUN	NN	Number=Sing	6	_	_	start_char=59|end_char=64|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=64|end_char=65
+9	only	only	ADV	RB	_	8	_	_	start_char=66|end_char=70
+10	feelings	feeling	NOUN	NNS	Number=Plur	9	_	_	start_char=71|end_char=79|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=79|end_char=80|SpaceAfter=No
+

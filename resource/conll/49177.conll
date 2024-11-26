@@ -1,0 +1,67 @@
+# text = And like Stalin, he would do everything in his power to eliminate them.
+# sent_id = 105164
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	like	like	ADP	IN	_	1	_	_	start_char=4|end_char=8
+3	Stalin	Stalin	PROPN	NNP	Number=Sing	2	_	_	start_char=9|end_char=15|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=15|end_char=16
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=17|end_char=19
+6	would	would	AUX	MD	VerbForm=Fin	5	_	_	start_char=20|end_char=25
+7	do	do	VERB	VB	VerbForm=Inf	6	_	_	start_char=26|end_char=28
+8	everything	everything	PRON	NN	Number=Sing|PronType=Tot	7	_	_	start_char=29|end_char=39
+9	in	in	ADP	IN	_	8	_	_	start_char=40|end_char=42
+10	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=43|end_char=46
+11	power	power	NOUN	NN	Number=Sing	10	_	_	start_char=47|end_char=52
+12	to	to	PART	TO	_	11	_	_	start_char=53|end_char=55
+13	eliminate	eliminate	VERB	VB	VerbForm=Inf	12	_	_	start_char=56|end_char=65
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=66|end_char=70|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=70|end_char=71
+
+# text = Yet another reminder:
+# sent_id = 105165
+1	Yet	yet	CCONJ	CC	_	0	_	_	start_char=72|end_char=75
+2	another	another	DET	DT	_	1	_	_	start_char=76|end_char=83
+3	reminder	reminder	NOUN	NN	Number=Sing	2	_	_	start_char=84|end_char=92|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=92|end_char=93
+
+# text = They hate you and yours, they want to see you destroyed, imprisoned and yes even dead.
+# sent_id = 105166
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=94|end_char=98
+2	hate	hate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=99|end_char=103
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=104|end_char=107
+4	and	and	CCONJ	CC	_	3	_	_	start_char=108|end_char=111
+5	yours	yours	PRON	PRP	Gender=Neut|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=112|end_char=117|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=117|end_char=118
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=119|end_char=123
+8	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=124|end_char=128
+9	to	to	PART	TO	_	8	_	_	start_char=129|end_char=131
+10	see	see	VERB	VB	VerbForm=Inf	9	_	_	start_char=132|end_char=135
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=136|end_char=139
+12	destroyed	destroy	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=140|end_char=149|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=149|end_char=150
+14	imprisoned	imprison	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=151|end_char=161
+15	and	and	CCONJ	CC	_	14	_	_	start_char=162|end_char=165
+16	yes	yes	INTJ	UH	_	15	_	_	start_char=166|end_char=169
+17	even	even	ADV	RB	_	16	_	_	start_char=170|end_char=174
+18	dead	dead	ADJ	JJ	Degree=Pos	17	_	_	start_char=175|end_char=179|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=179|end_char=180
+
+# text = They think it's fun.
+# sent_id = 105167
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=181|end_char=185
+2	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=186|end_char=191
+3-4	it's	_	_	_	_	_	_	_	start_char=192|end_char=196
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=192|end_char=194
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=194|end_char=196
+5	fun	fun	ADJ	JJ	Degree=Pos	4	_	_	start_char=197|end_char=200|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=200|end_char=201
+
+# text = Leftists Hate White People [URL]
+# sent_id = 105168
+1	Leftists	Leftist	PROPN	NNPS	Number=Plur	0	_	_	start_char=202|end_char=210
+2	Hate	Hate	PROPN	NNP	Number=Sing	1	_	_	start_char=211|end_char=215
+3	White	White	ADJ	NNP	Degree=Pos	2	_	_	start_char=216|end_char=221
+4	People	People	PROPN	NNPS	Number=Plur	3	_	_	start_char=222|end_char=228
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=229|end_char=230|SpaceAfter=No
+6	URL	URL	PROPN	NNP	Number=Sing	5	_	_	start_char=230|end_char=233|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=233|end_char=234|SpaceAfter=No
+

@@ -1,0 +1,68 @@
+# text = Biden used a pro-LGBT Human Rights Campaign annual dinner to rip Trump.
+# sent_id = 103789
+1	Biden	Biden	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=6|end_char=10
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=11|end_char=12
+4	pro-LGBT	pro-lgbt	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=21
+5	Human	human	ADJ	NNP	Degree=Pos	4	_	_	start_char=22|end_char=27
+6	Rights	Right	PROPN	NNPS	Number=Plur	5	_	_	start_char=28|end_char=34
+7	Campaign	campaign	PROPN	NNP	Number=Sing	6	_	_	start_char=35|end_char=43
+8	annual	annual	ADJ	JJ	Degree=Pos	7	_	_	start_char=44|end_char=50
+9	dinner	dinner	NOUN	NN	Number=Sing	8	_	_	start_char=51|end_char=57
+10	to	to	PART	TO	_	9	_	_	start_char=58|end_char=60
+11	rip	rip	VERB	VB	VerbForm=Inf	10	_	_	start_char=61|end_char=64
+12	Trump	Trump	PROPN	NNP	Number=Sing	11	_	_	start_char=65|end_char=70|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=70|end_char=71
+
+# text = And in so doing, Biden had his "deplorables." moment.
+# sent_id = 103790
+1	And	and	CCONJ	CC	_	0	_	_	start_char=72|end_char=75
+2	in	in	SCONJ	IN	_	1	_	_	start_char=76|end_char=78
+3	so	so	ADV	RB	_	2	_	_	start_char=79|end_char=81
+4	doing	do	VERB	VBG	VerbForm=Ger	3	_	_	start_char=82|end_char=87|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=87|end_char=88
+6	Biden	Biden	PROPN	NNP	Number=Sing	5	_	_	start_char=89|end_char=94
+7	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=95|end_char=98
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=99|end_char=102
+9	"	"	PUNCT	``	_	8	_	_	start_char=103|end_char=104|SpaceAfter=No
+10	deplorables	deplorable	NOUN	NNS	Number=Plur	9	_	_	start_char=104|end_char=115|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=115|end_char=116|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=116|end_char=117
+13	moment	moment	NOUN	NN	Number=Sing	12	_	_	start_char=118|end_char=124|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=124|end_char=125
+
+# text = Saying, "They're a small percentage of the American people, virulent people, some of them the dregs of society."
+# sent_id = 103791
+1	Saying	say	VERB	VBG	VerbForm=Ger	0	_	_	start_char=126|end_char=132|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=132|end_char=133
+3	"	"	PUNCT	``	_	2	_	_	start_char=134|end_char=135|SpaceAfter=No
+4-5	They're	_	_	_	_	_	_	_	start_char=135|end_char=142
+4	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=135|end_char=139
+5	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=139|end_char=142
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=143|end_char=144
+7	small	small	ADJ	JJ	Degree=Pos	6	_	_	start_char=145|end_char=150
+8	percentage	percentage	NOUN	NN	Number=Sing	7	_	_	start_char=151|end_char=161
+9	of	of	ADP	IN	_	8	_	_	start_char=162|end_char=164
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=165|end_char=168
+11	American	American	ADJ	JJ	Degree=Pos	10	_	_	start_char=169|end_char=177
+12	people	person	NOUN	NNS	Number=Plur	11	_	_	start_char=178|end_char=184|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=184|end_char=185
+14	virulent	virulent	ADJ	JJ	Degree=Pos	13	_	_	start_char=186|end_char=194
+15	people	person	NOUN	NNS	Number=Plur	14	_	_	start_char=195|end_char=201|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=201|end_char=202
+17	some	some	DET	DT	_	16	_	_	start_char=203|end_char=207
+18	of	of	ADP	IN	_	17	_	_	start_char=208|end_char=210
+19	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	18	_	_	start_char=211|end_char=215
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=216|end_char=219
+21	dregs	dreg	NOUN	NNS	Number=Plur	20	_	_	start_char=220|end_char=225
+22	of	of	ADP	IN	_	21	_	_	start_char=226|end_char=228
+23	society	society	NOUN	NN	Number=Sing	22	_	_	start_char=229|end_char=236|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=236|end_char=237|SpaceAfter=No
+25	"	"	PUNCT	''	_	24	_	_	start_char=237|end_char=238
+
+# text = [URL]
+# sent_id = 103792
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=239|end_char=240|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=240|end_char=243|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=243|end_char=244|SpaceAfter=No
+

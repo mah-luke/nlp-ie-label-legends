@@ -1,0 +1,29 @@
+# text = What a disgusting pig.
+# sent_id = 67768
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	disgusting	disgusting	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=17
+4	pig	pig	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=21|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=21|end_char=22
+
+# text = She is probably the most vile person I can think of off the top of my head.
+# sent_id = 67769
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=23|end_char=26
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
+3	probably	probably	ADV	RB	_	2	_	_	start_char=30|end_char=38
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=39|end_char=42
+5	most	most	ADV	RBS	Degree=Sup	4	_	_	start_char=43|end_char=47
+6	vile	vile	ADJ	JJ	Degree=Pos	5	_	_	start_char=48|end_char=52
+7	person	person	NOUN	NN	Number=Sing	6	_	_	start_char=53|end_char=59
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=60|end_char=61
+9	can	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=62|end_char=65
+10	think	think	VERB	VB	VerbForm=Inf	9	_	_	start_char=66|end_char=71
+11	of	of	ADP	IN	_	10	_	_	start_char=72|end_char=74
+12	off	off	ADP	IN	_	11	_	_	start_char=75|end_char=78
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=79|end_char=82
+14	top	top	NOUN	NN	Number=Sing	13	_	_	start_char=83|end_char=86
+15	of	of	ADP	IN	_	14	_	_	start_char=87|end_char=89
+16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	_	_	start_char=90|end_char=92
+17	head	head	NOUN	NN	Number=Sing	16	_	_	start_char=93|end_char=97|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=97|end_char=98|SpaceAfter=No
+

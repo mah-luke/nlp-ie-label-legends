@@ -1,0 +1,33 @@
+# text = Doesn’t matter what she thinks.
+# sent_id = 107295
+1-2	Doesn’t	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	n’t	not	PART	RB	_	1	_	_	start_char=4|end_char=7
+3	matter	matter	VERB	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=14
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=15|end_char=19
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=20|end_char=23
+6	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=24|end_char=30|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=30|end_char=31
+
+# text = She is an opportunistic evil woman that is manipulating you.
+# sent_id = 107296
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=32|end_char=35
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=38
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=39|end_char=41
+4	opportunistic	opportunistic	ADJ	JJ	Degree=Pos	3	_	_	start_char=42|end_char=55
+5	evil	evil	ADJ	JJ	Degree=Pos	4	_	_	start_char=56|end_char=60
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=61|end_char=66
+7	that	that	PRON	WDT	PronType=Rel	6	_	_	start_char=67|end_char=71
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=72|end_char=74
+9	manipulating	manipulate	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=75|end_char=87
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	_	_	start_char=88|end_char=91|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=91|end_char=92
+
+# text = Don’t feel bad
+# sent_id = 107297
+1-2	Don’t	_	_	_	_	_	_	_	start_char=93|end_char=98
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=93|end_char=95
+2	n’t	not	PART	RB	_	1	_	_	start_char=95|end_char=98
+3	feel	feel	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=99|end_char=103
+4	bad	bad	ADJ	JJ	Degree=Pos	3	_	_	start_char=104|end_char=107|SpaceAfter=No
+

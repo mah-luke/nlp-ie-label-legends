@@ -1,0 +1,53 @@
+# text = Let's be honest though, she couldn't study something in the STEM fields.
+# sent_id = 105042
+1-2	Let's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=6|end_char=8
+4	honest	honest	ADJ	JJ	Degree=Pos	3	_	_	start_char=9|end_char=15
+5	though	though	ADV	RB	_	4	_	_	start_char=16|end_char=22|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=22|end_char=23
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=24|end_char=27
+8-9	couldn't	_	_	_	_	_	_	_	start_char=28|end_char=36
+8	could	could	AUX	MD	VerbForm=Fin	7	_	_	start_char=28|end_char=33
+9	n't	not	PART	RB	_	8	_	_	start_char=33|end_char=36
+10	study	study	VERB	VB	VerbForm=Inf	9	_	_	start_char=37|end_char=42
+11	something	something	PRON	NN	Number=Sing|PronType=Ind	10	_	_	start_char=43|end_char=52
+12	in	in	ADP	IN	_	11	_	_	start_char=53|end_char=55
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=56|end_char=59
+14	STEM	STEM	PROPN	NNP	Number=Sing	13	_	_	start_char=60|end_char=64
+15	fields	field	NOUN	NNS	Number=Plur	14	_	_	start_char=65|end_char=71|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=71|end_char=72
+
+# text = Everybody acts like anybody can study STEM, but thay isn't true.
+# sent_id = 105043
+1	Everybody	everybody	PRON	NN	Number=Sing|PronType=Tot	0	_	_	start_char=73|end_char=82
+2	acts	act	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=83|end_char=87
+3	like	like	SCONJ	IN	_	2	_	_	start_char=88|end_char=92
+4	anybody	anybody	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=93|end_char=100
+5	can	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=101|end_char=104
+6	study	study	VERB	VB	VerbForm=Inf	5	_	_	start_char=105|end_char=110
+7	STEM	STEM	PROPN	NNP	Number=Sing	6	_	_	start_char=111|end_char=115|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=115|end_char=116
+9	but	but	CCONJ	CC	_	8	_	_	start_char=117|end_char=120
+10	thay	thay	PRON	PRP	Number=Sing|PronType=Prs	9	_	_	start_char=121|end_char=125
+11-12	isn't	_	_	_	_	_	_	_	start_char=126|end_char=131
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=126|end_char=128
+12	n't	not	PART	RB	_	11	_	_	start_char=128|end_char=131
+13	true	true	ADJ	JJ	Degree=Pos	12	_	_	start_char=132|end_char=136|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=136|end_char=137
+
+# text = It isn't all easy-peasy learning Physics.
+# sent_id = 105044
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=138|end_char=140
+2-3	isn't	_	_	_	_	_	_	_	start_char=141|end_char=146
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=141|end_char=143
+3	n't	not	PART	RB	_	2	_	_	start_char=143|end_char=146
+4	all	all	ADV	RB	_	3	_	_	start_char=147|end_char=150
+5	easy	easy	ADJ	JJ	Degree=Pos	4	_	_	start_char=151|end_char=155|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=155|end_char=156|SpaceAfter=No
+7	peasy	peasy	ADJ	JJ	Degree=Pos	6	_	_	start_char=156|end_char=161
+8	learning	learning	NOUN	NN	Number=Sing	7	_	_	start_char=162|end_char=170
+9	Physics	physics	NOUN	NN	Number=Sing	8	_	_	start_char=171|end_char=178|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=178|end_char=179|SpaceAfter=No
+

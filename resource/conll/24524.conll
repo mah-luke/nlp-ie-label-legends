@@ -1,0 +1,61 @@
+# text = Rochester Monroe Co NY man accused of murdering 101-year-old neighbor...
+# sent_id = 52584
+1	Rochester	Rochester	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=9
+2	Monroe	Monroe	PROPN	NNP	Number=Sing	1	_	_	start_char=10|end_char=16
+3	Co	Co	PROPN	NNP	Number=Sing	2	_	_	start_char=17|end_char=19
+4	NY	NY	PROPN	NNP	Number=Sing	3	_	_	start_char=20|end_char=22
+5	man	man	NOUN	NN	Number=Sing	4	_	_	start_char=23|end_char=26
+6	accused	accuse	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=27|end_char=34
+7	of	of	SCONJ	IN	_	6	_	_	start_char=35|end_char=37
+8	murdering	murdering	VERB	VBG	VerbForm=Ger	7	_	_	start_char=38|end_char=47
+9	101	101	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=48|end_char=51|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	_	_	start_char=51|end_char=52|SpaceAfter=No
+11	year	year	NOUN	NN	Number=Sing	10	_	_	start_char=52|end_char=56|SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	11	_	_	start_char=56|end_char=57|SpaceAfter=No
+13	old	old	ADJ	JJ	Degree=Pos	12	_	_	start_char=57|end_char=60
+14	neighbor	neighbor	NOUN	NN	Number=Sing	13	_	_	start_char=61|end_char=69|SpaceAfter=No
+15	...	...	PUNCT	.	_	14	_	_	start_char=69|end_char=72
+
+# text = She was stabbed multiple times in the neck, throat and upper body.
+# sent_id = 52585
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=73|end_char=76
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=77|end_char=80
+3	stabbed	stab	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=81|end_char=88
+4	multiple	multiple	ADJ	JJ	Degree=Pos	3	_	_	start_char=89|end_char=97
+5	times	time	NOUN	NNS	Number=Plur	4	_	_	start_char=98|end_char=103
+6	in	in	ADP	IN	_	5	_	_	start_char=104|end_char=106
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=107|end_char=110
+8	neck	neck	NOUN	NN	Number=Sing	7	_	_	start_char=111|end_char=115|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=115|end_char=116
+10	throat	throat	NOUN	NN	Number=Sing	9	_	_	start_char=117|end_char=123
+11	and	and	CCONJ	CC	_	10	_	_	start_char=124|end_char=127
+12	upper	upper	ADJ	JJ	Degree=Pos	11	_	_	start_char=128|end_char=133
+13	body	body	NOUN	NN	Number=Sing	12	_	_	start_char=134|end_char=138|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=138|end_char=139
+
+# text = Greg Jesmer, 54 Police say he also offered a 13-year-old girl money to come to his apartment.
+# sent_id = 52586
+1	Greg	Greg	PROPN	NNP	Number=Sing	0	_	_	start_char=140|end_char=144
+2	Jesmer	Jesmer	PROPN	NNP	Number=Sing	1	_	_	start_char=145|end_char=151|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=151|end_char=152
+4	54	54	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=153|end_char=155
+5	Police	police	NOUN	NNS	Number=Plur	4	_	_	start_char=156|end_char=162
+6	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=163|end_char=166
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=167|end_char=169
+8	also	also	ADV	RB	_	7	_	_	start_char=170|end_char=174
+9	offered	offer	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=175|end_char=182
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=183|end_char=184
+11	13	13	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=185|end_char=187|SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	11	_	_	start_char=187|end_char=188|SpaceAfter=No
+13	year	year	NOUN	NN	Number=Sing	12	_	_	start_char=188|end_char=192|SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	13	_	_	start_char=192|end_char=193|SpaceAfter=No
+15	old	old	ADJ	JJ	Degree=Pos	14	_	_	start_char=193|end_char=196
+16	girl	girl	NOUN	NN	Number=Sing	15	_	_	start_char=197|end_char=201
+17	money	money	NOUN	NN	Number=Sing	16	_	_	start_char=202|end_char=207
+18	to	to	PART	TO	_	17	_	_	start_char=208|end_char=210
+19	come	come	VERB	VB	VerbForm=Inf	18	_	_	start_char=211|end_char=215
+20	to	to	ADP	IN	_	19	_	_	start_char=216|end_char=218
+21	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	_	_	start_char=219|end_char=222
+22	apartment	apartment	NOUN	NN	Number=Sing	21	_	_	start_char=223|end_char=232|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=232|end_char=233|SpaceAfter=No
+

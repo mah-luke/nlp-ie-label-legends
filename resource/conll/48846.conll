@@ -1,0 +1,54 @@
+# text = Perhaps.
+# sent_id = 104421
+1	Perhaps	perhaps	ADV	RB	_	0	_	_	start_char=0|end_char=7|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=7|end_char=8
+
+# text = It depends on what % of men and women fit that "type."
+# sent_id = 104422
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=9|end_char=11
+2	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=12|end_char=19
+3	on	on	ADP	IN	_	2	_	_	start_char=20|end_char=22
+4	what	what	DET	WDT	PronType=Int	3	_	_	start_char=23|end_char=27
+5	%	%	SYM	NN	Number=Sing	4	_	_	start_char=28|end_char=29
+6	of	of	ADP	IN	_	5	_	_	start_char=30|end_char=32
+7	men	man	NOUN	NNS	Number=Plur	6	_	_	start_char=33|end_char=36
+8	and	and	CCONJ	CC	_	7	_	_	start_char=37|end_char=40
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=41|end_char=46
+10	fit	fit	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=47|end_char=50
+11	that	that	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=51|end_char=55
+12	"	"	PUNCT	``	_	11	_	_	start_char=56|end_char=57|SpaceAfter=No
+13	type	type	NOUN	NN	Number=Sing	12	_	_	start_char=57|end_char=61|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=61|end_char=62|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=62|end_char=63
+
+# text = If there's 2% women like that but 6% men like that it would suck to be a male in that "group."
+# sent_id = 104423
+1	If	if	SCONJ	IN	_	0	_	_	start_char=64|end_char=66
+2-3	there's	_	_	_	_	_	_	_	start_char=67|end_char=74
+2	there	there	PRON	EX	_	1	_	_	start_char=67|end_char=72
+3	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=72|end_char=74
+4	2	2	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=75|end_char=76|SpaceAfter=No
+5	%	%	SYM	NN	Number=Sing	4	_	_	start_char=76|end_char=77
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=78|end_char=83
+7	like	like	ADP	IN	_	6	_	_	start_char=84|end_char=88
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=89|end_char=93
+9	but	but	CCONJ	CC	_	8	_	_	start_char=94|end_char=97
+10	6	6	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=98|end_char=99|SpaceAfter=No
+11	%	%	SYM	NN	Number=Sing	10	_	_	start_char=99|end_char=100
+12	men	man	NOUN	NNS	Number=Plur	11	_	_	start_char=101|end_char=104
+13	like	like	ADP	IN	_	12	_	_	start_char=105|end_char=109
+14	that	that	SCONJ	IN	_	13	_	_	start_char=110|end_char=114
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=115|end_char=117
+16	would	would	AUX	MD	VerbForm=Fin	15	_	_	start_char=118|end_char=123
+17	suck	suck	VERB	VB	VerbForm=Inf	16	_	_	start_char=124|end_char=128
+18	to	to	PART	TO	_	17	_	_	start_char=129|end_char=131
+19	be	be	AUX	VB	VerbForm=Inf	18	_	_	start_char=132|end_char=134
+20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	start_char=135|end_char=136
+21	male	male	NOUN	NN	Number=Sing	20	_	_	start_char=137|end_char=141
+22	in	in	ADP	IN	_	21	_	_	start_char=142|end_char=144
+23	that	that	DET	DT	Number=Sing|PronType=Dem	22	_	_	start_char=145|end_char=149
+24	"	"	PUNCT	``	_	23	_	_	start_char=150|end_char=151|SpaceAfter=No
+25	group	group	NOUN	NN	Number=Sing	24	_	_	start_char=151|end_char=156|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=156|end_char=157|SpaceAfter=No
+27	"	"	PUNCT	''	_	26	_	_	start_char=157|end_char=158|SpaceAfter=No
+

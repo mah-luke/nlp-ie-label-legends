@@ -1,0 +1,25 @@
+# text = She must be a fan of Crocodile Dundee.
+# sent_id = 58114
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	must	must	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=9|end_char=11
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=12|end_char=13
+5	fan	fan	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=17
+6	of	of	ADP	IN	_	5	_	_	start_char=18|end_char=20
+7	Crocodile	Crocodile	PROPN	NNP	Number=Sing	6	_	_	start_char=21|end_char=30
+8	Dundee	Dundee	PROPN	NNP	Number=Sing	7	_	_	start_char=31|end_char=37|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=37|end_char=38
+
+# text = Now, that's a "knuyff"!
+# sent_id = 58115
+1	Now	now	ADV	RB	_	0	_	_	start_char=39|end_char=42|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=42|end_char=43
+3-4	that's	_	_	_	_	_	_	_	start_char=44|end_char=50
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=44|end_char=48
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=48|end_char=50
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=51|end_char=52
+6	"	"	PUNCT	``	_	5	_	_	start_char=53|end_char=54|SpaceAfter=No
+7	knuyff	knuyff	NOUN	NN	Number=Sing	6	_	_	start_char=54|end_char=60|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=60|end_char=61|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=61|end_char=62|SpaceAfter=No
+

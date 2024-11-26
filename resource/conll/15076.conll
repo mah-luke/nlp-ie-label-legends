@@ -1,0 +1,22 @@
+# text = That is fucking savage.
+# sent_id = 32201
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=8|end_char=15
+4	savage	savage	NOUN	NN	Number=Sing	3	_	_	start_char=16|end_char=22|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=22|end_char=23
+
+# text = He should kick her ass in school the next day.
+# sent_id = 32202
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=24|end_char=26
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=27|end_char=33
+3	kick	kick	VERB	VB	VerbForm=Inf	2	_	_	start_char=34|end_char=38
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=39|end_char=42
+5	ass	ass	NOUN	NN	Number=Sing	4	_	_	start_char=43|end_char=46
+6	in	in	ADP	IN	_	5	_	_	start_char=47|end_char=49
+7	school	school	NOUN	NN	Number=Sing	6	_	_	start_char=50|end_char=56
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=57|end_char=60
+9	next	next	ADJ	JJ	Degree=Pos	8	_	_	start_char=61|end_char=65
+10	day	day	NOUN	NN	Number=Sing	9	_	_	start_char=66|end_char=69|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=69|end_char=70|SpaceAfter=No
+

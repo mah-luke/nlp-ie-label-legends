@@ -1,0 +1,41 @@
+# text = When I go shopping for clothes the women's section is the size of a football field while the mens section is the size of my back garden.
+# sent_id = 115827
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=4
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=5|end_char=6
+3	go	go	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=9
+4	shopping	shop	VERB	VBG	VerbForm=Ger	3	_	_	start_char=10|end_char=18
+5	for	for	ADP	IN	_	4	_	_	start_char=19|end_char=22
+6	clothes	clothes	NOUN	NNS	Number=Plur	5	_	_	start_char=23|end_char=30
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=31|end_char=34
+8-9	women's	_	_	_	_	_	_	_	start_char=35|end_char=42
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=35|end_char=40
+9	's	's	PART	POS	_	8	_	_	start_char=40|end_char=42
+10	section	section	NOUN	NN	Number=Sing	9	_	_	start_char=43|end_char=50
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=51|end_char=53
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=54|end_char=57
+13	size	size	NOUN	NN	Number=Sing	12	_	_	start_char=58|end_char=62
+14	of	of	ADP	IN	_	13	_	_	start_char=63|end_char=65
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=66|end_char=67
+16	football	football	NOUN	NN	Number=Sing	15	_	_	start_char=68|end_char=76
+17	field	field	NOUN	NN	Number=Sing	16	_	_	start_char=77|end_char=82
+18	while	while	SCONJ	IN	_	17	_	_	start_char=83|end_char=88
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=89|end_char=92
+20	mens	mens	NOUN	NNS	Number=Plur	19	_	_	start_char=93|end_char=97
+21	section	section	NOUN	NN	Number=Sing	20	_	_	start_char=98|end_char=105
+22	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=106|end_char=108
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=109|end_char=112
+24	size	size	NOUN	NN	Number=Sing	23	_	_	start_char=113|end_char=117
+25	of	of	ADP	IN	_	24	_	_	start_char=118|end_char=120
+26	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	_	_	start_char=121|end_char=123
+27	back	back	NOUN	NN	Number=Sing	26	_	_	start_char=124|end_char=128
+28	garden	garden	NOUN	NN	Number=Sing	27	_	_	start_char=129|end_char=135|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=135|end_char=136
+
+# text = It really annoys me.
+# sent_id = 115828
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=137|end_char=139
+2	really	really	ADV	RB	_	1	_	_	start_char=140|end_char=146
+3	annoys	annoy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=147|end_char=153
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=154|end_char=156|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=156|end_char=157|SpaceAfter=No
+

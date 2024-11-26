@@ -1,0 +1,37 @@
+# text = [USER] [USER] [USER]
+# sent_id = 36584
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=7|end_char=8|SpaceAfter=No
+5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=8|end_char=12|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=12|end_char=13
+7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=14|end_char=15|SpaceAfter=No
+8	USER	user	NOUN	NN	Number=Sing	7	_	_	start_char=15|end_char=19|SpaceAfter=No
+9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=19|end_char=20
+
+# text = Maryland woman allegedly sets apartment complex on fire because she was 'upset with ex-boyfriend,' officials say [URL]
+# sent_id = 36585
+1	Maryland	Maryland	PROPN	NNP	Number=Sing	0	_	_	start_char=21|end_char=29
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=30|end_char=35
+3	allegedly	allegedly	ADV	RB	_	2	_	_	start_char=36|end_char=45
+4	sets	set	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=46|end_char=50
+5	apartment	apartment	NOUN	NN	Number=Sing	4	_	_	start_char=51|end_char=60
+6	complex	complex	NOUN	NN	Number=Sing	5	_	_	start_char=61|end_char=68
+7	on	on	ADP	IN	_	6	_	_	start_char=69|end_char=71
+8	fire	fire	NOUN	NN	Number=Sing	7	_	_	start_char=72|end_char=76
+9	because	because	SCONJ	IN	_	8	_	_	start_char=77|end_char=84
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=85|end_char=88
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=89|end_char=92
+12	'	'	PUNCT	``	_	11	_	_	start_char=93|end_char=94|SpaceAfter=No
+13	upset	upset	ADJ	JJ	Degree=Pos	12	_	_	start_char=94|end_char=99
+14	with	with	ADP	IN	_	13	_	_	start_char=100|end_char=104
+15	ex-boyfriend	ex-boyfriend	NOUN	NN	Number=Sing	14	_	_	start_char=105|end_char=117|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=117|end_char=118|SpaceAfter=No
+17	'	'	PUNCT	''	_	16	_	_	start_char=118|end_char=119
+18	officials	official	NOUN	NNS	Number=Plur	17	_	_	start_char=120|end_char=129
+19	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=130|end_char=133
+20	[	[	PUNCT	-LRB-	_	19	_	_	start_char=134|end_char=135|SpaceAfter=No
+21	URL	URL	PROPN	NNP	Number=Sing	20	_	_	start_char=135|end_char=138|SpaceAfter=No
+22	]	]	PUNCT	-RRB-	_	21	_	_	start_char=138|end_char=139|SpaceAfter=No
+

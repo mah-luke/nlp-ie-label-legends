@@ -1,0 +1,29 @@
+# text = Why do I like her?
+# sent_id = 89813
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=7|end_char=8
+4	like	like	VERB	VB	VerbForm=Inf	3	_	_	start_char=9|end_char=13
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=14|end_char=17|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=17|end_char=18
+
+# text = "Maybe you weren't obnoxious enough and need to try harder next time?"
+# sent_id = 89814
+1	"	"	PUNCT	``	_	0	_	_	start_char=19|end_char=20|SpaceAfter=No
+2	Maybe	maybe	ADV	RB	_	1	_	_	start_char=20|end_char=25
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=26|end_char=29
+4-5	weren't	_	_	_	_	_	_	_	start_char=30|end_char=37
+4	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	_	_	start_char=30|end_char=34
+5	n't	not	PART	RB	_	4	_	_	start_char=34|end_char=37
+6	obnoxious	obnoxious	ADJ	JJ	Degree=Pos	5	_	_	start_char=38|end_char=47
+7	enough	enough	ADV	RB	_	6	_	_	start_char=48|end_char=54
+8	and	and	CCONJ	CC	_	7	_	_	start_char=55|end_char=58
+9	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=59|end_char=63
+10	to	to	PART	TO	_	9	_	_	start_char=64|end_char=66
+11	try	try	VERB	VB	VerbForm=Inf	10	_	_	start_char=67|end_char=70
+12	harder	hard	ADV	RBR	Degree=Cmp	11	_	_	start_char=71|end_char=77
+13	next	next	ADJ	JJ	Degree=Pos	12	_	_	start_char=78|end_char=82
+14	time	time	NOUN	NN	Number=Sing	13	_	_	start_char=83|end_char=87|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=87|end_char=88|SpaceAfter=No
+16	"	"	PUNCT	''	_	15	_	_	start_char=88|end_char=89|SpaceAfter=No
+

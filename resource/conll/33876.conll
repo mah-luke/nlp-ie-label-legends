@@ -1,0 +1,36 @@
+# text = W.O.W!
+# sent_id = 72453
+1	W.O.W	W.O.W	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=5|end_char=6
+
+# text = #PresidentTrump has balls the size of Obama's ego.
+# sent_id = 72454
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=7|end_char=8|SpaceAfter=No
+2	PresidentTrump	presidenttrump	NOUN	NN	Number=Sing	1	_	_	start_char=8|end_char=22
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=23|end_char=26
+4	balls	ball	NOUN	NNS	Number=Plur	3	_	_	start_char=27|end_char=32
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=33|end_char=36
+6	size	size	NOUN	NN	Number=Sing	5	_	_	start_char=37|end_char=41
+7	of	of	ADP	IN	_	6	_	_	start_char=42|end_char=44
+8-9	Obama's	_	_	_	_	_	_	_	start_char=45|end_char=52
+8	Obama	Obama	PROPN	NNP	Number=Sing	7	_	_	start_char=45|end_char=50
+9	's	's	PART	POS	_	8	_	_	start_char=50|end_char=52
+10	ego	ego	NOUN	NN	Number=Sing	9	_	_	start_char=53|end_char=56|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=56|end_char=57
+
+# text = I prefer the "balls", myself!
+# sent_id = 72455
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=58|end_char=59
+2	prefer	prefer	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=60|end_char=66
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=67|end_char=70
+4	"	"	PUNCT	``	_	3	_	_	start_char=71|end_char=72|SpaceAfter=No
+5	balls	ball	NOUN	NNS	Number=Plur	4	_	_	start_char=72|end_char=77|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=77|end_char=78|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=78|end_char=79
+8	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	7	_	_	start_char=80|end_char=86|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=86|end_char=87
+
+# text = 😁😁😁
+# sent_id = 72456
+1	😁😁😁	😁😁😁	SYM	NFP	_	0	_	_	start_char=88|end_char=91|SpaceAfter=No
+

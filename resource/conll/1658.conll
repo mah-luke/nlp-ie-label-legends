@@ -1,0 +1,26 @@
+# text = Thank you for sharing.
+# sent_id = 3489
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=5
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	start_char=6|end_char=9
+3	for	for	SCONJ	IN	_	2	_	_	start_char=10|end_char=13
+4	sharing	sharing	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=21|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=21|end_char=22
+
+# text = Gotta love this lady.
+# sent_id = 3490
+1-2	Gotta	_	_	_	_	_	_	_	start_char=23|end_char=28
+1	Got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=23|end_char=26
+2	ta	to	PART	TO	_	1	_	_	start_char=26|end_char=28
+3	love	love	VERB	VB	VerbForm=Inf	2	_	_	start_char=29|end_char=33
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=34|end_char=38
+5	lady	lady	NOUN	NN	Number=Sing	4	_	_	start_char=39|end_char=43|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=43|end_char=44
+
+# text = "Black woman Texas"
+# sent_id = 3491
+1	"	"	PUNCT	``	_	0	_	_	start_char=45|end_char=46|SpaceAfter=No
+2	Black	Black	ADJ	JJ	Degree=Pos	1	_	_	start_char=46|end_char=51
+3	woman	woman	NOUN	NN	Number=Sing	2	_	_	start_char=52|end_char=57
+4	Texas	Texas	PROPN	NNP	Number=Sing	3	_	_	start_char=58|end_char=63|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=63|end_char=64|SpaceAfter=No
+

@@ -1,0 +1,36 @@
+# text = don't text her again.
+# sent_id = 22455
+1-2	don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	text	text	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=10
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	again	again	ADV	RB	_	4	_	_	start_char=15|end_char=20|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=20|end_char=21
+
+# text = You probably didn't establish enough attraction priot to the number close.
+# sent_id = 22456
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=22|end_char=25
+2	probably	probably	ADV	RB	_	1	_	_	start_char=26|end_char=34
+3-4	didn't	_	_	_	_	_	_	_	start_char=35|end_char=41
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	_	_	start_char=35|end_char=38
+4	n't	not	PART	RB	_	3	_	_	start_char=38|end_char=41
+5	establish	establish	VERB	VB	VerbForm=Inf	4	_	_	start_char=42|end_char=51
+6	enough	enough	ADJ	JJ	Degree=Pos	5	_	_	start_char=52|end_char=58
+7	attraction	attraction	NOUN	NN	Number=Sing	6	_	_	start_char=59|end_char=69
+8	priot	priot	NOUN	NN	Number=Sing	7	_	_	start_char=70|end_char=75
+9	to	to	ADP	IN	_	8	_	_	start_char=76|end_char=78
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=79|end_char=82
+11	number	number	NOUN	NN	Number=Sing	10	_	_	start_char=83|end_char=89
+12	close	close	NOUN	NN	Number=Sing	11	_	_	start_char=90|end_char=95|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=95|end_char=96
+
+# text = Move on, get more numbers
+# sent_id = 22457
+1	Move	move	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=97|end_char=101
+2	on	on	ADP	RP	_	1	_	_	start_char=102|end_char=104|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=104|end_char=105
+4	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=106|end_char=109
+5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=110|end_char=114
+6	numbers	number	NOUN	NNS	Number=Plur	5	_	_	start_char=115|end_char=122|SpaceAfter=No
+

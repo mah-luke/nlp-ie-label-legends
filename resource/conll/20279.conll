@@ -1,0 +1,60 @@
+# text = Some misplaced logic here.
+# sent_id = 43530
+1	Some	some	DET	DT	_	0	_	_	start_char=0|end_char=4
+2	misplaced	misplaced	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=14
+3	logic	logic	NOUN	NN	Number=Sing	2	_	_	start_char=15|end_char=20
+4	here	here	ADV	RB	PronType=Dem	3	_	_	start_char=21|end_char=25|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=25|end_char=26
+
+# text = God created the world, God didn't create the ideologies.
+# sent_id = 43531
+1	God	God	PROPN	NNP	Number=Sing	0	_	_	start_char=27|end_char=30
+2	created	create	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=31|end_char=38
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=39|end_char=42
+4	world	world	NOUN	NN	Number=Sing	3	_	_	start_char=43|end_char=48|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=48|end_char=49
+6	God	God	PROPN	NNP	Number=Sing	5	_	_	start_char=50|end_char=53
+7-8	didn't	_	_	_	_	_	_	_	start_char=54|end_char=60
+7	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=54|end_char=57
+8	n't	not	PART	RB	_	7	_	_	start_char=57|end_char=60
+9	create	create	VERB	VB	VerbForm=Inf	8	_	_	start_char=61|end_char=67
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=68|end_char=71
+11	ideologies	ideology	NOUN	NNS	Number=Plur	10	_	_	start_char=72|end_char=82|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=82|end_char=83
+
+# text = So God did create the conditions for cancer to occur but God didn't create rape, pollution or muslims - those were created as a result of people exercising freewill.
+# sent_id = 43532
+1	So	so	ADV	RB	_	0	_	_	start_char=84|end_char=86
+2	God	God	PROPN	NNP	Number=Sing	1	_	_	start_char=87|end_char=90
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=91|end_char=94
+4	create	create	VERB	VB	VerbForm=Inf	3	_	_	start_char=95|end_char=101
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=102|end_char=105
+6	conditions	condition	NOUN	NNS	Number=Plur	5	_	_	start_char=106|end_char=116
+7	for	for	ADP	IN	_	6	_	_	start_char=117|end_char=120
+8	cancer	cancer	NOUN	NN	Number=Sing	7	_	_	start_char=121|end_char=127
+9	to	to	PART	TO	_	8	_	_	start_char=128|end_char=130
+10	occur	occur	VERB	VB	VerbForm=Inf	9	_	_	start_char=131|end_char=136
+11	but	but	CCONJ	CC	_	10	_	_	start_char=137|end_char=140
+12	God	God	PROPN	NNP	Number=Sing	11	_	_	start_char=141|end_char=144
+13-14	didn't	_	_	_	_	_	_	_	start_char=145|end_char=151
+13	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=145|end_char=148
+14	n't	not	PART	RB	_	13	_	_	start_char=148|end_char=151
+15	create	create	VERB	VB	VerbForm=Inf	14	_	_	start_char=152|end_char=158
+16	rape	rape	NOUN	NN	Number=Sing	15	_	_	start_char=159|end_char=163|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=163|end_char=164
+18	pollution	pollution	NOUN	NN	Number=Sing	17	_	_	start_char=165|end_char=174
+19	or	or	CCONJ	CC	_	18	_	_	start_char=175|end_char=177
+20	muslims	muslim	PROPN	NNPS	Number=Plur	19	_	_	start_char=178|end_char=185
+21	-	-	PUNCT	,	_	20	_	_	start_char=186|end_char=187
+22	those	that	PRON	DT	Number=Plur|PronType=Dem	21	_	_	start_char=188|end_char=193
+23	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	22	_	_	start_char=194|end_char=198
+24	created	create	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	_	_	start_char=199|end_char=206
+25	as	as	ADP	IN	_	24	_	_	start_char=207|end_char=209
+26	a	a	DET	DT	Definite=Ind|PronType=Art	25	_	_	start_char=210|end_char=211
+27	result	result	NOUN	NN	Number=Sing	26	_	_	start_char=212|end_char=218
+28	of	of	ADP	IN	_	27	_	_	start_char=219|end_char=221
+29	people	person	NOUN	NNS	Number=Plur	28	_	_	start_char=222|end_char=228
+30	exercising	exercising	VERB	VBG	VerbForm=Ger	29	_	_	start_char=229|end_char=239
+31	freewill	freewill	NOUN	NN	Number=Sing	30	_	_	start_char=240|end_char=248|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	start_char=248|end_char=249|SpaceAfter=No
+

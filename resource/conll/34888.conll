@@ -1,0 +1,31 @@
+# text = Tom Jones often altered his songs specifically for certain countries.
+# sent_id = 74657
+1	Tom	Tom	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3
+2	Jones	Jones	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=9
+3	often	often	ADV	RB	_	2	_	_	start_char=10|end_char=15
+4	altered	alter	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=16|end_char=23
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=24|end_char=27
+6	songs	song	NOUN	NNS	Number=Plur	5	_	_	start_char=28|end_char=33
+7	specifically	specifically	ADV	RB	_	6	_	_	start_char=34|end_char=46
+8	for	for	ADP	IN	_	7	_	_	start_char=47|end_char=50
+9	certain	certain	ADJ	JJ	Degree=Pos	8	_	_	start_char=51|end_char=58
+10	countries	country	NOUN	NNS	Number=Plur	9	_	_	start_char=59|end_char=68|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=68|end_char=69
+
+# text = "He's a lady" was a huge hit in Thailand.
+# sent_id = 74658
+1	"	"	PUNCT	``	_	0	_	_	start_char=70|end_char=71|SpaceAfter=No
+2-3	He's	_	_	_	_	_	_	_	start_char=71|end_char=75
+2	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=71|end_char=73
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=73|end_char=75
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=76|end_char=77
+5	lady	lady	NOUN	NN	Number=Sing	4	_	_	start_char=78|end_char=82|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=82|end_char=83
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=84|end_char=87
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=88|end_char=89
+9	huge	huge	ADJ	JJ	Degree=Pos	8	_	_	start_char=90|end_char=94
+10	hit	hit	NOUN	NN	Number=Sing	9	_	_	start_char=95|end_char=98
+11	in	in	ADP	IN	_	10	_	_	start_char=99|end_char=101
+12	Thailand	Thailand	PROPN	NNP	Number=Sing	11	_	_	start_char=102|end_char=110|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=110|end_char=111|SpaceAfter=No
+

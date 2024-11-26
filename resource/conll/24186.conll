@@ -1,0 +1,22 @@
+# text = Don't pity that child.
+# sent_id = 51849
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	pity	pity	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=10
+4	that	that	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=11|end_char=15
+5	child	child	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=21|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=21|end_char=22
+
+# text = Pity the children who paid for her wedding.
+# sent_id = 51850
+1	Pity	pity	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=23|end_char=27
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=28|end_char=31
+3	children	child	NOUN	NNS	Number=Plur	2	_	_	start_char=32|end_char=40
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=41|end_char=44
+5	paid	pay	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=45|end_char=49
+6	for	for	ADP	IN	_	5	_	_	start_char=50|end_char=53
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=54|end_char=57
+8	wedding	wedding	NOUN	NN	Number=Sing	7	_	_	start_char=58|end_char=65|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=65|end_char=66|SpaceAfter=No
+

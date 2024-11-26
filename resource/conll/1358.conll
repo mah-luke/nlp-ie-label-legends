@@ -1,0 +1,21 @@
+# text = I love the 'mom's house' reference.
+# sent_id = 2857
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7|end_char=10
+4	'	'	PUNCT	``	_	3	_	_	start_char=11|end_char=12|SpaceAfter=No
+5-6	mom's	_	_	_	_	_	_	_	start_char=12|end_char=17
+5	mom	mom	NOUN	NN	Number=Sing	4	_	_	start_char=12|end_char=15
+6	's	's	PART	POS	_	5	_	_	start_char=15|end_char=17
+7	house	house	NOUN	NN	Number=Sing	6	_	_	start_char=18|end_char=23|SpaceAfter=No
+8	'	'	PUNCT	''	_	7	_	_	start_char=23|end_char=24
+9	reference	reference	NOUN	NN	Number=Sing	8	_	_	start_char=25|end_char=34|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=34|end_char=35
+
+# text = Says a lot.
+# sent_id = 2858
+1	Says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=36|end_char=40
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=41|end_char=42
+3	lot	lot	NOUN	NN	Number=Sing	2	_	_	start_char=43|end_char=46|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=46|end_char=47|SpaceAfter=No
+

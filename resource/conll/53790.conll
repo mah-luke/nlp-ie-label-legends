@@ -1,0 +1,61 @@
+# text = "I HAD BEEN ASSURED THIS WAS IMPOSSIBLE: Gun crime rises in England despite gun bans."
+# sent_id = 114957
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
+3	HAD	have	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=3|end_char=6
+4	BEEN	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=7|end_char=11
+5	ASSURED	assured	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=12|end_char=19
+6	THIS	this	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=20|end_char=24
+7	WAS	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=25|end_char=28
+8	IMPOSSIBLE	impossible	ADJ	JJ	Degree=Pos	7	_	_	start_char=29|end_char=39|SpaceAfter=No
+9	:	:	PUNCT	:	_	8	_	_	start_char=39|end_char=40
+10	Gun	gun	NOUN	NN	Number=Sing	9	_	_	start_char=41|end_char=44
+11	crime	crime	NOUN	NN	Number=Sing	10	_	_	start_char=45|end_char=50
+12	rises	rise	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=51|end_char=56
+13	in	in	ADP	IN	_	12	_	_	start_char=57|end_char=59
+14	England	England	PROPN	NNP	Number=Sing	13	_	_	start_char=60|end_char=67
+15	despite	despite	ADP	IN	_	14	_	_	start_char=68|end_char=75
+16	gun	gun	NOUN	NN	Number=Sing	15	_	_	start_char=76|end_char=79
+17	bans	ban	NOUN	NNS	Number=Plur	16	_	_	start_char=80|end_char=84|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=84|end_char=85|SpaceAfter=No
+19	"	"	PUNCT	''	_	18	_	_	start_char=85|end_char=86
+
+# text = - Stephen Green Glinda: "Keep tight inside of them, their magic must be very powerful, or she wouldn't want them so badly!"
+# sent_id = 114958
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=87|end_char=88
+2	Stephen	Stephen	PROPN	NNP	Number=Sing	1	_	_	start_char=89|end_char=96
+3	Green	Green	PROPN	NNP	Number=Sing	2	_	_	start_char=97|end_char=102
+4	Glinda	Glinda	PROPN	NNP	Number=Sing	3	_	_	start_char=103|end_char=109|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=109|end_char=110
+6	"	"	PUNCT	``	_	5	_	_	start_char=111|end_char=112|SpaceAfter=No
+7	Keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=112|end_char=116
+8	tight	tight	ADV	RB	_	7	_	_	start_char=117|end_char=122
+9	inside	inside	ADV	RB	_	8	_	_	start_char=123|end_char=129
+10	of	of	ADP	IN	_	9	_	_	start_char=130|end_char=132
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=133|end_char=137|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=137|end_char=138
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=139|end_char=144
+14	magic	magic	NOUN	NN	Number=Sing	13	_	_	start_char=145|end_char=150
+15	must	must	AUX	MD	VerbForm=Fin	14	_	_	start_char=151|end_char=155
+16	be	be	AUX	VB	VerbForm=Inf	15	_	_	start_char=156|end_char=158
+17	very	very	ADV	RB	_	16	_	_	start_char=159|end_char=163
+18	powerful	powerful	ADJ	JJ	Degree=Pos	17	_	_	start_char=164|end_char=172|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=172|end_char=173
+20	or	or	CCONJ	CC	_	19	_	_	start_char=174|end_char=176
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=177|end_char=180
+22-23	wouldn't	_	_	_	_	_	_	_	start_char=181|end_char=189
+22	would	would	AUX	MD	VerbForm=Fin	21	_	_	start_char=181|end_char=186
+23	n't	not	PART	RB	_	22	_	_	start_char=186|end_char=189
+24	want	want	VERB	VB	VerbForm=Inf	23	_	_	start_char=190|end_char=194
+25	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	24	_	_	start_char=195|end_char=199
+26	so	so	ADV	RB	_	25	_	_	start_char=200|end_char=202
+27	badly	badly	ADV	RB	Degree=Pos	26	_	_	start_char=203|end_char=208|SpaceAfter=No
+28	!	!	PUNCT	.	_	27	_	_	start_char=208|end_char=209|SpaceAfter=No
+29	"	"	PUNCT	''	_	28	_	_	start_char=209|end_char=210
+
+# text = [URL]
+# sent_id = 114959
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=211|end_char=212|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=212|end_char=215|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=215|end_char=216|SpaceAfter=No
+

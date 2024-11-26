@@ -1,0 +1,39 @@
+# text = Never let her seduce you into buying her anything big.
+# sent_id = 127089
+1	Never	never	ADV	RB	_	0	_	_	start_char=0|end_char=5
+2	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=6|end_char=9
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=13
+4	seduce	seduce	VERB	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=20
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=21|end_char=24
+6	into	into	SCONJ	IN	_	5	_	_	start_char=25|end_char=29
+7	buying	buy	VERB	VBG	VerbForm=Ger	6	_	_	start_char=30|end_char=36
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=37|end_char=40
+9	anything	anything	PRON	NN	Number=Sing|PronType=Ind	8	_	_	start_char=41|end_char=49
+10	big	big	ADJ	JJ	Degree=Pos	9	_	_	start_char=50|end_char=53|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=53|end_char=54
+
+# text = Treat her like a peasant.
+# sent_id = 127090
+1	Treat	treat	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=55|end_char=60
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=61|end_char=64
+3	like	like	ADP	IN	_	2	_	_	start_char=65|end_char=69
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=70|end_char=71
+5	peasant	peasant	NOUN	NN	Number=Sing	4	_	_	start_char=72|end_char=79|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=79|end_char=80
+
+# text = And since you're the actual king you will reap rewards.
+# sent_id = 127091
+1	And	and	CCONJ	CC	_	0	_	_	start_char=81|end_char=84
+2	since	since	SCONJ	IN	_	1	_	_	start_char=85|end_char=90
+3-4	you're	_	_	_	_	_	_	_	start_char=91|end_char=97
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=91|end_char=94
+4	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=94|end_char=97
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=98|end_char=101
+6	actual	actual	ADJ	JJ	Degree=Pos	5	_	_	start_char=102|end_char=108
+7	king	king	NOUN	NN	Number=Sing	6	_	_	start_char=109|end_char=113
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=114|end_char=117
+9	will	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=118|end_char=122
+10	reap	reap	VERB	VB	VerbForm=Inf	9	_	_	start_char=123|end_char=127
+11	rewards	reward	NOUN	NNS	Number=Plur	10	_	_	start_char=128|end_char=135|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=135|end_char=136|SpaceAfter=No
+

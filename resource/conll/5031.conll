@@ -1,0 +1,54 @@
+# text = I talk to people just fine.
+# sent_id = 10611
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	talk	talk	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	to	to	ADP	IN	_	2	_	_	start_char=7|end_char=9
+4	people	person	NOUN	NNS	Number=Plur	3	_	_	start_char=10|end_char=16
+5	just	just	ADV	RB	_	4	_	_	start_char=17|end_char=21
+6	fine	fine	ADJ	JJ	Degree=Pos	5	_	_	start_char=22|end_char=26|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=26|end_char=27
+
+# text = Women at best are "okay" with me around them.
+# sent_id = 10612
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=28|end_char=33
+2	at	at	ADP	IN	_	1	_	_	start_char=34|end_char=36
+3	best	good	ADJ	JJS	Degree=Sup	2	_	_	start_char=37|end_char=41
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=42|end_char=45
+5	"	"	PUNCT	``	_	4	_	_	start_char=46|end_char=47|SpaceAfter=No
+6	okay	okay	ADJ	JJ	Degree=Pos	5	_	_	start_char=47|end_char=51|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=51|end_char=52
+8	with	with	ADP	IN	_	7	_	_	start_char=53|end_char=57
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=58|end_char=60
+10	around	around	ADP	IN	_	9	_	_	start_char=61|end_char=67
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=68|end_char=72|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=72|end_char=73
+
+# text = If they want you they make it apparent, and with a shitty frame, height, and face like mine there is no chance.
+# sent_id = 10613
+1	If	if	SCONJ	IN	_	0	_	_	start_char=74|end_char=76
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=77|end_char=81
+3	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=82|end_char=86
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=87|end_char=90
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=91|end_char=95
+6	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=96|end_char=100
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=101|end_char=103
+8	apparent	apparent	ADJ	JJ	Degree=Pos	7	_	_	start_char=104|end_char=112|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=112|end_char=113
+10	and	and	CCONJ	CC	_	9	_	_	start_char=114|end_char=117
+11	with	with	ADP	IN	_	10	_	_	start_char=118|end_char=122
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=123|end_char=124
+13	shitty	shitty	ADJ	JJ	Degree=Pos	12	_	_	start_char=125|end_char=131
+14	frame	frame	NOUN	NN	Number=Sing	13	_	_	start_char=132|end_char=137|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=137|end_char=138
+16	height	height	NOUN	NN	Number=Sing	15	_	_	start_char=139|end_char=145|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=145|end_char=146
+18	and	and	CCONJ	CC	_	17	_	_	start_char=147|end_char=150
+19	face	face	VERB	VBP	Mood=Ind|VerbForm=Fin	18	_	_	start_char=151|end_char=155
+20	like	like	ADP	IN	_	19	_	_	start_char=156|end_char=160
+21	mine	mine	PRON	PRP	Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	_	_	start_char=161|end_char=165
+22	there	there	PRON	EX	_	21	_	_	start_char=166|end_char=171
+23	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=172|end_char=174
+24	no	no	DET	DT	_	23	_	_	start_char=175|end_char=177
+25	chance	chance	NOUN	NN	Number=Sing	24	_	_	start_char=178|end_char=184|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=184|end_char=185|SpaceAfter=No
+

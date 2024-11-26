@@ -1,0 +1,32 @@
+# text = But statistically doesn't the female population outnumber the males?
+# sent_id = 122308
+1	But	but	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	statistically	statistically	ADV	RB	_	1	_	_	start_char=4|end_char=17
+3-4	doesn't	_	_	_	_	_	_	_	start_char=18|end_char=25
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=18|end_char=22
+4	n't	not	PART	RB	_	3	_	_	start_char=22|end_char=25
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=26|end_char=29
+6	female	female	ADJ	JJ	Degree=Pos	5	_	_	start_char=30|end_char=36
+7	population	population	NOUN	NN	Number=Sing	6	_	_	start_char=37|end_char=47
+8	outnumber	outnumber	VERB	VB	VerbForm=Inf	7	_	_	start_char=48|end_char=57
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=58|end_char=61
+10	males	male	NOUN	NNS	Number=Plur	9	_	_	start_char=62|end_char=67|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=67|end_char=68
+
+# text = Shouldn't women then by logic be the 'expendable' gender?
+# sent_id = 122309
+1-2	Shouldn't	_	_	_	_	_	_	_	start_char=69|end_char=78
+1	Should	should	AUX	MD	VerbForm=Fin	0	_	_	start_char=69|end_char=75
+2	n't	not	PART	RB	_	1	_	_	start_char=75|end_char=78
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=79|end_char=84
+4	then	then	ADV	RB	PronType=Dem	3	_	_	start_char=85|end_char=89
+5	by	by	ADP	IN	_	4	_	_	start_char=90|end_char=92
+6	logic	logic	NOUN	NN	Number=Sing	5	_	_	start_char=93|end_char=98
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=99|end_char=101
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=102|end_char=105
+9	'	'	PUNCT	``	_	8	_	_	start_char=106|end_char=107|SpaceAfter=No
+10	expendable	expendable	ADJ	JJ	Degree=Pos	9	_	_	start_char=107|end_char=117|SpaceAfter=No
+11	'	'	PUNCT	''	_	10	_	_	start_char=117|end_char=118
+12	gender	gender	NOUN	NN	Number=Sing	11	_	_	start_char=119|end_char=125|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=125|end_char=126|SpaceAfter=No
+

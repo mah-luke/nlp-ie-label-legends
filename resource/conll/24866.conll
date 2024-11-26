@@ -1,0 +1,67 @@
+# text = My brother is an asshole.
+# sent_id = 53278
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	brother	brother	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=10
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=14|end_char=16
+5	asshole	asshole	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=24|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=24|end_char=25
+
+# text = He abused the hell out of his ex wife.
+# sent_id = 53279
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=26|end_char=28
+2	abused	abuse	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=29|end_char=35
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=36|end_char=39
+4	hell	hell	NOUN	NN	Number=Sing	3	_	_	start_char=40|end_char=44
+5	out	out	ADP	IN	_	4	_	_	start_char=45|end_char=48
+6	of	of	ADP	IN	_	5	_	_	start_char=49|end_char=51
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=52|end_char=55
+8	ex	ex	ADJ	JJ	Degree=Pos	7	_	_	start_char=56|end_char=58
+9	wife	wife	NOUN	NN	Number=Sing	8	_	_	start_char=59|end_char=63|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=63|end_char=64
+
+# text = She divorced him and he married this woman that drank one of her sons retarded in utero.
+# sent_id = 53280
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=65|end_char=68
+2	divorced	divorce	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=69|end_char=77
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=78|end_char=81
+4	and	and	CCONJ	CC	_	3	_	_	start_char=82|end_char=85
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=86|end_char=88
+6	married	marry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=89|end_char=96
+7	this	this	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=97|end_char=101
+8	woman	woman	NOUN	NN	Number=Sing	7	_	_	start_char=102|end_char=107
+9	that	that	PRON	WDT	PronType=Rel	8	_	_	start_char=108|end_char=112
+10	drank	drink	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=113|end_char=118
+11	one	one	NUM	CD	NumForm=Word|NumType=Card	10	_	_	start_char=119|end_char=122
+12	of	of	ADP	IN	_	11	_	_	start_char=123|end_char=125
+13	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=126|end_char=129
+14	sons	son	NOUN	NNS	Number=Plur	13	_	_	start_char=130|end_char=134
+15	retarded	retarded	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=135|end_char=143
+16	in	in	ADP	IN	_	15	_	_	start_char=144|end_char=146
+17	utero	utero	NOUN	NN	Number=Sing	16	_	_	start_char=147|end_char=152|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=152|end_char=153
+
+# text = She’s a monster.
+# sent_id = 53281
+1-2	She’s	_	_	_	_	_	_	_	start_char=154|end_char=159
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=154|end_char=157
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=157|end_char=159
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=160|end_char=161
+4	monster	monster	NOUN	NN	Number=Sing	3	_	_	start_char=162|end_char=169|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=169|end_char=170
+
+# text = Between the abuse and the affair he’s a scumbag.
+# sent_id = 53282
+1	Between	between	ADP	IN	_	0	_	_	start_char=171|end_char=178
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=179|end_char=182
+3	abuse	abuse	NOUN	NN	Number=Sing	2	_	_	start_char=183|end_char=188
+4	and	and	CCONJ	CC	_	3	_	_	start_char=189|end_char=192
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=193|end_char=196
+6	affair	affair	NOUN	NN	Number=Sing	5	_	_	start_char=197|end_char=203
+7-8	he’s	_	_	_	_	_	_	_	start_char=204|end_char=208
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=204|end_char=206
+8	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=206|end_char=208
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=209|end_char=210
+10	scumbag	scumbag	NOUN	NN	Number=Sing	9	_	_	start_char=211|end_char=218|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=218|end_char=219|SpaceAfter=No
+

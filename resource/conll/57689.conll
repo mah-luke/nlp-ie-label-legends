@@ -1,0 +1,17 @@
+# text = Like Clinton she blames everyone but herself.
+# sent_id = 123256
+1	Like	like	ADP	IN	_	0	_	_	start_char=0|end_char=4
+2	Clinton	Clinton	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=12
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=13|end_char=16
+4	blames	blame	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=17|end_char=23
+5	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	4	_	_	start_char=24|end_char=32
+6	but	but	CCONJ	CC	_	5	_	_	start_char=33|end_char=36
+7	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	_	_	start_char=37|end_char=44|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=44|end_char=45
+
+# text = Narcissistic bully.
+# sent_id = 123257
+1	Narcissistic	Narcissistic	ADJ	JJ	Degree=Pos	0	_	_	start_char=46|end_char=58
+2	bully	bully	NOUN	NN	Number=Sing	1	_	_	start_char=59|end_char=64|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=64|end_char=65|SpaceAfter=No
+

@@ -1,0 +1,48 @@
+# text = Fuck her friends if she’s hot.
+# sent_id = 114827
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=5|end_char=8
+3	friends	friend	NOUN	NNS	Number=Plur	2	_	_	start_char=9|end_char=16
+4	if	if	SCONJ	IN	_	3	_	_	start_char=17|end_char=19
+5-6	she’s	_	_	_	_	_	_	_	start_char=20|end_char=25
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=20|end_char=23
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=23|end_char=25
+7	hot	hot	ADJ	JJ	Degree=Pos	6	_	_	start_char=26|end_char=29|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=29|end_char=30
+
+# text = Hot chicks usually know other HBs.
+# sent_id = 114828
+1	Hot	hot	ADJ	JJ	Degree=Pos	0	_	_	start_char=31|end_char=34
+2	chicks	chick	NOUN	NNS	Number=Plur	1	_	_	start_char=35|end_char=41
+3	usually	usually	ADV	RB	_	2	_	_	start_char=42|end_char=49
+4	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=50|end_char=54
+5	other	other	ADJ	JJ	Degree=Pos	4	_	_	start_char=55|end_char=60
+6	HBs	have	NOUN	NNS	Number=Plur	5	_	_	start_char=61|end_char=64|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=64|end_char=65
+
+# text = What’s gonna happen if she rejects you and tells your family?
+# sent_id = 114829
+1-2	What’s	_	_	_	_	_	_	_	start_char=66|end_char=72
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=66|end_char=70
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=70|end_char=72
+3-4	gonna	_	_	_	_	_	_	_	start_char=73|end_char=78
+3	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=73|end_char=76
+4	na	to	PART	TO	_	3	_	_	start_char=76|end_char=78
+5	happen	happen	VERB	VB	VerbForm=Inf	4	_	_	start_char=79|end_char=85
+6	if	if	SCONJ	IN	_	5	_	_	start_char=86|end_char=88
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=89|end_char=92
+8	rejects	reject	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=93|end_char=100
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=101|end_char=104
+10	and	and	CCONJ	CC	_	9	_	_	start_char=105|end_char=108
+11	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=109|end_char=114
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	_	_	start_char=115|end_char=119
+13	family	family	NOUN	NN	Number=Sing	12	_	_	start_char=120|end_char=126|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=126|end_char=127
+
+# text = Not worth it imo
+# sent_id = 114830
+1	Not	not	PART	RB	_	0	_	_	start_char=128|end_char=131
+2	worth	worth	ADJ	JJ	Degree=Pos	1	_	_	start_char=132|end_char=137
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=138|end_char=140
+4	imo	imo	ADV	RB	_	3	_	_	start_char=141|end_char=144|SpaceAfter=No
+

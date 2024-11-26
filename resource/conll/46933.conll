@@ -1,0 +1,46 @@
+# text = Just don't respond immediately every time.
+# sent_id = 100334
+1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2-3	don't	_	_	_	_	_	_	_	start_char=5|end_char=10
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	n't	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	respond	respond	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=11|end_char=18
+5	immediately	immediately	ADV	RB	_	4	_	_	start_char=19|end_char=30
+6	every	every	DET	DT	_	5	_	_	start_char=31|end_char=36
+7	time	time	NOUN	NN	Number=Sing	6	_	_	start_char=37|end_char=41|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=41|end_char=42
+
+# text = She should know that you're busy and you can't be expected to drop everything you're doing to respond to her pointless chit chat texts.
+# sent_id = 100335
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=43|end_char=46
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=47|end_char=53
+3	know	know	VERB	VB	VerbForm=Inf	2	_	_	start_char=54|end_char=58
+4	that	that	SCONJ	IN	_	3	_	_	start_char=59|end_char=63
+5-6	you're	_	_	_	_	_	_	_	start_char=64|end_char=70
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=64|end_char=67
+6	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=67|end_char=70
+7	busy	busy	ADJ	JJ	Degree=Pos	6	_	_	start_char=71|end_char=75
+8	and	and	CCONJ	CC	_	7	_	_	start_char=76|end_char=79
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=80|end_char=83
+10-11	can't	_	_	_	_	_	_	_	start_char=84|end_char=89
+10	ca	can	AUX	MD	VerbForm=Fin	9	_	_	start_char=84|end_char=86
+11	n't	not	PART	RB	_	10	_	_	start_char=86|end_char=89
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	start_char=90|end_char=92
+13	expected	expect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=93|end_char=101
+14	to	to	PART	TO	_	13	_	_	start_char=102|end_char=104
+15	drop	drop	VERB	VB	VerbForm=Inf	14	_	_	start_char=105|end_char=109
+16	everything	everything	PRON	NN	Number=Sing|PronType=Tot	15	_	_	start_char=110|end_char=120
+17-18	you're	_	_	_	_	_	_	_	start_char=121|end_char=127
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	_	_	start_char=121|end_char=124
+18	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	_	_	start_char=124|end_char=127
+19	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	18	_	_	start_char=128|end_char=133
+20	to	to	PART	TO	_	19	_	_	start_char=134|end_char=136
+21	respond	respond	VERB	VB	VerbForm=Inf	20	_	_	start_char=137|end_char=144
+22	to	to	ADP	IN	_	21	_	_	start_char=145|end_char=147
+23	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	_	_	start_char=148|end_char=151
+24	pointless	pointless	ADJ	JJ	Degree=Pos	23	_	_	start_char=152|end_char=161
+25	chit	chit	NOUN	NN	Number=Sing	24	_	_	start_char=162|end_char=166
+26	chat	chat	NOUN	NN	Number=Sing	25	_	_	start_char=167|end_char=171
+27	texts	text	NOUN	NNS	Number=Plur	26	_	_	start_char=172|end_char=177|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=177|end_char=178|SpaceAfter=No
+

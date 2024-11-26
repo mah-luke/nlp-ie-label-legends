@@ -1,0 +1,50 @@
+# text = "shallow" &#x200B; people are allowed to have a type you dumb fuck.
+# sent_id = 81477
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	shallow	shallow	ADJ	JJ	Degree=Pos	1	_	_	start_char=1|end_char=8|SpaceAfter=No
+3	"	"	PUNCT	''	_	2	_	_	start_char=8|end_char=9
+4	&	&	CCONJ	CC	_	3	_	_	start_char=10|end_char=11|SpaceAfter=No
+5	#x200B	#x200b	NOUN	NN	Number=Sing	4	_	_	start_char=11|end_char=17|SpaceAfter=No
+6	;	;	PUNCT	:	_	5	_	_	start_char=17|end_char=18
+7	people	person	NOUN	NNS	Number=Plur	6	_	_	start_char=19|end_char=25
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=26|end_char=29
+9	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=30|end_char=37
+10	to	to	PART	TO	_	9	_	_	start_char=38|end_char=40
+11	have	have	VERB	VB	VerbForm=Inf	10	_	_	start_char=41|end_char=45
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=46|end_char=47
+13	type	type	NOUN	NN	Number=Sing	12	_	_	start_char=48|end_char=52
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	_	_	start_char=53|end_char=56
+15	dumb	dumb	ADJ	JJ	Degree=Pos	14	_	_	start_char=57|end_char=61
+16	fuck	fuck	NOUN	NN	Number=Sing	15	_	_	start_char=62|end_char=66|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=66|end_char=67
+
+# text = you're acting as if men don't like women based on looks alone.
+# sent_id = 81478
+1-2	you're	_	_	_	_	_	_	_	start_char=68|end_char=74
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=68|end_char=71
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=71|end_char=74
+3	acting	act	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=75|end_char=81
+4	as	as	SCONJ	IN	_	3	_	_	start_char=82|end_char=84
+5	if	if	SCONJ	IN	_	4	_	_	start_char=85|end_char=87
+6	men	man	NOUN	NNS	Number=Plur	5	_	_	start_char=88|end_char=91
+7-8	don't	_	_	_	_	_	_	_	start_char=92|end_char=97
+7	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=92|end_char=94
+8	n't	not	PART	RB	_	7	_	_	start_char=94|end_char=97
+9	like	like	VERB	VB	VerbForm=Inf	8	_	_	start_char=98|end_char=102
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=103|end_char=108
+11	based	base	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=109|end_char=114
+12	on	on	ADP	IN	_	11	_	_	start_char=115|end_char=117
+13	looks	look	NOUN	NNS	Number=Plur	12	_	_	start_char=118|end_char=123
+14	alone	alone	ADV	RB	_	13	_	_	start_char=124|end_char=129|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=129|end_char=130
+
+# text = everyone is shallow, not just women
+# sent_id = 81479
+1	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	0	_	_	start_char=131|end_char=139
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=140|end_char=142
+3	shallow	shallow	ADJ	JJ	Degree=Pos	2	_	_	start_char=143|end_char=150|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=150|end_char=151
+5	not	not	PART	RB	_	4	_	_	start_char=152|end_char=155
+6	just	just	ADV	RB	_	5	_	_	start_char=156|end_char=160
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=161|end_char=166|SpaceAfter=No
+

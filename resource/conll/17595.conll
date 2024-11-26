@@ -1,0 +1,25 @@
+# text = Marilyn Monroe was a druggie and a whore.
+# sent_id = 37800
+1	Marilyn	Marilyn	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	Monroe	Monroe	PROPN	NNP	Number=Sing	1	_	_	start_char=8|end_char=14
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=15|end_char=18
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=19|end_char=20
+5	druggie	druggie	NOUN	NN	Number=Sing	4	_	_	start_char=21|end_char=28
+6	and	and	CCONJ	CC	_	5	_	_	start_char=29|end_char=32
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=33|end_char=34
+8	whore	whore	NOUN	NN	Number=Sing	7	_	_	start_char=35|end_char=40|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=40|end_char=41
+
+# text = Why are her pictures always used to represent america???
+# sent_id = 37801
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=42|end_char=45
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=46|end_char=49
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=50|end_char=53
+4	pictures	picture	NOUN	NNS	Number=Plur	3	_	_	start_char=54|end_char=62
+5	always	always	ADV	RB	_	4	_	_	start_char=63|end_char=69
+6	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=70|end_char=74
+7	to	to	PART	TO	_	6	_	_	start_char=75|end_char=77
+8	represent	represent	VERB	VB	VerbForm=Inf	7	_	_	start_char=78|end_char=87
+9	america	America	PROPN	NNP	Number=Sing	8	_	_	start_char=88|end_char=95|SpaceAfter=No
+10	???	???	PUNCT	.	_	9	_	_	start_char=95|end_char=98|SpaceAfter=No
+

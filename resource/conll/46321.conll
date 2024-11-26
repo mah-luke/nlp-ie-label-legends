@@ -1,0 +1,44 @@
+# text = Ah, I see.
+# sent_id = 98914
+1	Ah	ah	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=4|end_char=5
+4	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=6|end_char=9|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=9|end_char=10
+
+# text = The issue is you're courting camels.
+# sent_id = 98915
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=11|end_char=14
+2	issue	issue	NOUN	NN	Number=Sing	1	_	_	start_char=15|end_char=20
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=21|end_char=23
+4-5	you're	_	_	_	_	_	_	_	start_char=24|end_char=30
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=24|end_char=27
+5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=27|end_char=30
+6	courting	court	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=31|end_char=39
+7	camels	camel	NOUN	NNS	Number=Plur	6	_	_	start_char=40|end_char=46|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=46|end_char=47
+
+# text = They can be quite ornery.
+# sent_id = 98916
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=48|end_char=52
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=53|end_char=56
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=57|end_char=59
+4	quite	quite	ADV	RB	_	3	_	_	start_char=60|end_char=65
+5	ornery	ornery	ADJ	JJ	Degree=Pos	4	_	_	start_char=66|end_char=72|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=72|end_char=73
+
+# text = I would recommend moving on to human women at some point.
+# sent_id = 98917
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=74|end_char=75
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=76|end_char=81
+3	recommend	recommend	VERB	VB	VerbForm=Inf	2	_	_	start_char=82|end_char=91
+4	moving	move	VERB	VBG	VerbForm=Ger	3	_	_	start_char=92|end_char=98
+5	on	on	ADP	RP	_	4	_	_	start_char=99|end_char=101
+6	to	to	ADP	IN	_	5	_	_	start_char=102|end_char=104
+7	human	human	ADJ	JJ	Degree=Pos	6	_	_	start_char=105|end_char=110
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=111|end_char=116
+9	at	at	ADP	IN	_	8	_	_	start_char=117|end_char=119
+10	some	some	DET	DT	_	9	_	_	start_char=120|end_char=124
+11	point	point	NOUN	NN	Number=Sing	10	_	_	start_char=125|end_char=130|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=130|end_char=131|SpaceAfter=No
+

@@ -1,0 +1,32 @@
+# text = I've seen better acting in commercials.
+# sent_id = 67983
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=9
+4	better	good	ADJ	JJR	Degree=Cmp	3	_	_	start_char=10|end_char=16
+5	acting	acting	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=23
+6	in	in	ADP	IN	_	5	_	_	start_char=24|end_char=26
+7	commercials	commercial	NOUN	NNS	Number=Plur	6	_	_	start_char=27|end_char=38|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=38|end_char=39
+
+# text = Not woke enough, so it could make some money.
+# sent_id = 67984
+1	Not	not	PART	RB	_	0	_	_	start_char=40|end_char=43
+2	woke	wake	VERB	VBN	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	1	_	_	start_char=44|end_char=48
+3	enough	enough	ADV	RB	_	2	_	_	start_char=49|end_char=55|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=55|end_char=56
+5	so	so	ADV	RB	_	4	_	_	start_char=57|end_char=59
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=60|end_char=62
+7	could	could	AUX	MD	VerbForm=Fin	6	_	_	start_char=63|end_char=68
+8	make	make	VERB	VB	VerbForm=Inf	7	_	_	start_char=69|end_char=73
+9	some	some	DET	DT	_	8	_	_	start_char=74|end_char=78
+10	money	money	NOUN	NN	Number=Sing	9	_	_	start_char=79|end_char=84|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=84|end_char=85
+
+# text = fuck hollywood.
+# sent_id = 67985
+1	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=86|end_char=90
+2	hollywood	Hollywood	NOUN	NN	Number=Sing	1	_	_	start_char=91|end_char=100|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=100|end_char=101|SpaceAfter=No
+

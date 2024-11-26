@@ -1,0 +1,31 @@
+# text = That black dude is fit not flabby.
+# sent_id = 91781
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	black	black	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=10
+3	dude	dude	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=15
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=16|end_char=18
+5	fit	fit	ADJ	JJ	Degree=Pos	4	_	_	start_char=19|end_char=22
+6	not	not	PART	RB	_	5	_	_	start_char=23|end_char=26
+7	flabby	flabby	ADJ	JJ	Degree=Pos	6	_	_	start_char=27|end_char=33|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=33|end_char=34
+
+# text = Also I imagine a lot of those fathers weren't involved in their daughters lives.
+# sent_id = 91782
+1	Also	also	ADV	RB	_	0	_	_	start_char=35|end_char=39
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=40|end_char=41
+3	imagine	imagine	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=42|end_char=49
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=50|end_char=51
+5	lot	lot	NOUN	NN	Number=Sing	4	_	_	start_char=52|end_char=55
+6	of	of	ADP	IN	_	5	_	_	start_char=56|end_char=58
+7	those	that	DET	DT	Number=Plur|PronType=Dem	6	_	_	start_char=59|end_char=64
+8	fathers	father	NOUN	NNS	Number=Plur	7	_	_	start_char=65|end_char=72
+9-10	weren't	_	_	_	_	_	_	_	start_char=73|end_char=80
+9	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=73|end_char=77
+10	n't	not	PART	RB	_	9	_	_	start_char=77|end_char=80
+11	involved	involved	ADJ	JJ	Degree=Pos	10	_	_	start_char=81|end_char=89
+12	in	in	ADP	IN	_	11	_	_	start_char=90|end_char=92
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=93|end_char=98
+14	daughters	daughter	NOUN	NNS	Number=Plur	13	_	_	start_char=99|end_char=108
+15	lives	life	NOUN	NNS	Number=Plur	14	_	_	start_char=109|end_char=114|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=114|end_char=115|SpaceAfter=No
+

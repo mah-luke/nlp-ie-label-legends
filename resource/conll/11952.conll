@@ -1,0 +1,35 @@
+# text = Yeah.
+# sent_id = 25329
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = Absolutes don't exist.
+# sent_id = 25330
+1	Absolutes	absolute	NOUN	NNS	Number=Plur	0	_	_	start_char=6|end_char=15
+2-3	don't	_	_	_	_	_	_	_	start_char=16|end_char=21
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=16|end_char=18
+3	n't	not	PART	RB	_	2	_	_	start_char=18|end_char=21
+4	exist	exist	VERB	VB	VerbForm=Inf	3	_	_	start_char=22|end_char=27|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=27|end_char=28
+
+# text = Why then do girls avoid awkward guys?
+# sent_id = 25331
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=29|end_char=32
+2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=33|end_char=37
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=38|end_char=40
+4	girls	girl	NOUN	NNS	Number=Plur	3	_	_	start_char=41|end_char=46
+5	avoid	avoid	VERB	VB	VerbForm=Inf	4	_	_	start_char=47|end_char=52
+6	awkward	awkward	ADJ	JJ	Degree=Pos	5	_	_	start_char=53|end_char=60
+7	guys	guy	NOUN	NNS	Number=Plur	6	_	_	start_char=61|end_char=65|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=65|end_char=66
+
+# text = Why is awkwardness associated with creepy?
+# sent_id = 25332
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=67|end_char=70
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=71|end_char=73
+3	awkwardness	awkwardness	NOUN	NN	Number=Sing	2	_	_	start_char=74|end_char=85
+4	associated	associate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=86|end_char=96
+5	with	with	ADP	IN	_	4	_	_	start_char=97|end_char=101
+6	creepy	creepy	ADJ	JJ	Degree=Pos	5	_	_	start_char=102|end_char=108|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=108|end_char=109|SpaceAfter=No
+

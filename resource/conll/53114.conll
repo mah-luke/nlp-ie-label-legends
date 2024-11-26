@@ -1,0 +1,51 @@
+# text = Great!
+# sent_id = 113534
+1	Great	great	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=5|end_char=6
+
+# text = you will have mine to add lol...
+# sent_id = 113535
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=7|end_char=10
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=11|end_char=15
+3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=16|end_char=20
+4	mine	mine	PRON	PRP	Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=21|end_char=25
+5	to	to	PART	TO	_	4	_	_	start_char=26|end_char=28
+6	add	add	VERB	VB	VerbForm=Inf	5	_	_	start_char=29|end_char=32
+7	lol	lol	INTJ	UH	_	6	_	_	start_char=33|end_char=36|SpaceAfter=No
+8	...	...	PUNCT	.	_	7	_	_	start_char=36|end_char=39
+
+# text = The Vindicator knows about his jaded past with women.
+# sent_id = 113536
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=40|end_char=43
+2	Vindicator	Vindicator	PROPN	NNP	Number=Sing	1	_	_	start_char=44|end_char=54
+3	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=55|end_char=60
+4	about	about	ADP	IN	_	3	_	_	start_char=61|end_char=66
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=67|end_char=70
+6	jaded	jaded	ADJ	JJ	Degree=Pos	5	_	_	start_char=71|end_char=76
+7	past	past	NOUN	NN	Number=Sing	6	_	_	start_char=77|end_char=81
+8	with	with	ADP	IN	_	7	_	_	start_char=82|end_char=86
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=87|end_char=92|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=92|end_char=93
+
+# text = [URL] in that blog it has the vindicator's stories about his attacks on women.
+# sent_id = 113537
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=94|end_char=95|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=95|end_char=98|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=98|end_char=99
+4	in	in	ADP	IN	_	3	_	_	start_char=100|end_char=102
+5	that	that	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=103|end_char=107
+6	blog	blog	NOUN	NN	Number=Sing	5	_	_	start_char=108|end_char=112
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=113|end_char=115
+8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=116|end_char=119
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=120|end_char=123
+10-11	vindicator's	_	_	_	_	_	_	_	start_char=124|end_char=136
+10	vindicator	vindicator	NOUN	NN	Number=Sing	9	_	_	start_char=124|end_char=134
+11	's	's	PART	POS	_	10	_	_	start_char=134|end_char=136
+12	stories	story	NOUN	NNS	Number=Plur	11	_	_	start_char=137|end_char=144
+13	about	about	ADP	IN	_	12	_	_	start_char=145|end_char=150
+14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=151|end_char=154
+15	attacks	attack	NOUN	NNS	Number=Plur	14	_	_	start_char=155|end_char=162
+16	on	on	ADP	IN	_	15	_	_	start_char=163|end_char=165
+17	women	woman	NOUN	NNS	Number=Plur	16	_	_	start_char=166|end_char=171|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=171|end_char=172|SpaceAfter=No
+

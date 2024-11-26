@@ -1,0 +1,42 @@
+# text = on court: "ok, you`ve try to rape this women, right?" "yes, your honour, i`ve tryed, but i didn`t find any hole......"
+# sent_id = 100027
+1	on	on	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	court	court	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=8|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=8|end_char=9
+4	"	"	PUNCT	``	_	3	_	_	start_char=10|end_char=11|SpaceAfter=No
+5	ok	ok	INTJ	UH	_	4	_	_	start_char=11|end_char=13|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=13|end_char=14
+7-8	you`ve	_	_	_	_	_	_	_	start_char=15|end_char=21
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=15|end_char=18
+8	`ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=18|end_char=21
+9	try	try	VERB	VB	VerbForm=Inf	8	_	_	start_char=22|end_char=25
+10	to	to	PART	TO	_	9	_	_	start_char=26|end_char=28
+11	rape	rape	VERB	VB	VerbForm=Inf	10	_	_	start_char=29|end_char=33
+12	this	this	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=34|end_char=38
+13	women	woman	NOUN	NNS	Number=Plur	12	_	_	start_char=39|end_char=44|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=44|end_char=45
+15	right	right	ADJ	JJ	Degree=Pos	14	_	_	start_char=46|end_char=51|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=51|end_char=52|SpaceAfter=No
+17	"	"	PUNCT	''	_	16	_	_	start_char=52|end_char=53
+18	"	"	PUNCT	``	_	17	_	_	start_char=54|end_char=55|SpaceAfter=No
+19	yes	yes	INTJ	UH	_	18	_	_	start_char=55|end_char=58|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=58|end_char=59
+21	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	20	_	_	start_char=60|end_char=64
+22	honour	honour	NOUN	NN	Number=Sing	21	_	_	start_char=65|end_char=71|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	start_char=71|end_char=72
+24-25	i`ve	_	_	_	_	_	_	_	start_char=73|end_char=77
+24	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	_	_	start_char=73|end_char=74
+25	`ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	24	_	_	start_char=74|end_char=77
+26	tryed	trye	VERB	VBN	Tense=Past|VerbForm=Part	25	_	_	start_char=78|end_char=83|SpaceAfter=No
+27	,	,	PUNCT	,	_	26	_	_	start_char=83|end_char=84
+28	but	but	CCONJ	CC	_	27	_	_	start_char=85|end_char=88
+29	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	_	_	start_char=89|end_char=90
+30-31	didn`t	_	_	_	_	_	_	_	start_char=91|end_char=97
+30	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	29	_	_	start_char=91|end_char=94
+31	n`t	not	PART	RB	_	30	_	_	start_char=94|end_char=97
+32	find	find	VERB	VB	VerbForm=Inf	31	_	_	start_char=98|end_char=102
+33	any	any	DET	DT	_	32	_	_	start_char=103|end_char=106
+34	hole	hole	NOUN	NN	Number=Sing	33	_	_	start_char=107|end_char=111|SpaceAfter=No
+35	......	......	PUNCT	.	_	34	_	_	start_char=111|end_char=117|SpaceAfter=No
+36	"	"	PUNCT	''	_	35	_	_	start_char=117|end_char=118|SpaceAfter=No
+

@@ -1,0 +1,45 @@
+# text = I feel you.
+# sent_id = 36819
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=7|end_char=10|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=10|end_char=11
+
+# text = Bad enough being 5’6 with a shit frame I can’t imagine 3+ fewer inches.
+# sent_id = 36820
+1	Bad	bad	ADJ	JJ	Degree=Pos	0	_	_	start_char=12|end_char=15
+2	enough	enough	ADV	RB	_	1	_	_	start_char=16|end_char=22
+3	being	be	AUX	VBG	VerbForm=Ger	2	_	_	start_char=23|end_char=28
+4	5	5	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=29|end_char=30|SpaceAfter=No
+5	’	's	NOUN	NNS	Number=Plur	4	_	_	start_char=30|end_char=31|SpaceAfter=No
+6	6	6	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=31|end_char=32
+7	with	with	ADP	IN	_	6	_	_	start_char=33|end_char=37
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=38|end_char=39
+9	shit	shit	NOUN	NN	Number=Sing	8	_	_	start_char=40|end_char=44
+10	frame	frame	NOUN	NN	Number=Sing	9	_	_	start_char=45|end_char=50
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=51|end_char=52
+12-13	can’t	_	_	_	_	_	_	_	start_char=53|end_char=58
+12	ca	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=53|end_char=55
+13	n’t	not	PART	RB	_	12	_	_	start_char=55|end_char=58
+14	imagine	imagine	VERB	VB	VerbForm=Inf	13	_	_	start_char=59|end_char=66
+15	3	3	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=67|end_char=68|SpaceAfter=No
+16	+	+	SYM	SYM	_	15	_	_	start_char=68|end_char=69
+17	fewer	few	ADJ	JJR	Degree=Cmp	16	_	_	start_char=70|end_char=75
+18	inches	inch	NOUN	NNS	Number=Plur	17	_	_	start_char=76|end_char=82|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=82|end_char=83
+
+# text = Just gotta go for much shorter, crazier girls.
+# sent_id = 36821
+1	Just	just	ADV	RB	_	0	_	_	start_char=84|end_char=88
+2-3	gotta	_	_	_	_	_	_	_	start_char=89|end_char=94
+2	got	get	VERB	VBD	Tense=Past|VerbForm=Fin	1	_	_	start_char=89|end_char=92
+3	ta	to	PART	TO	_	2	_	_	start_char=92|end_char=94
+4	go	go	VERB	VB	VerbForm=Inf	3	_	_	start_char=95|end_char=97
+5	for	for	ADP	IN	_	4	_	_	start_char=98|end_char=101
+6	much	much	ADV	RB	_	5	_	_	start_char=102|end_char=106
+7	shorter	short	ADJ	JJR	Degree=Cmp	6	_	_	start_char=107|end_char=114|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=114|end_char=115
+9	crazier	crazy	ADJ	JJR	Degree=Cmp	8	_	_	start_char=116|end_char=123
+10	girls	girl	NOUN	NNS	Number=Plur	9	_	_	start_char=124|end_char=129|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=129|end_char=130|SpaceAfter=No
+

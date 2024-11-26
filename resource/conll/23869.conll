@@ -1,0 +1,31 @@
+# text = Oh my fucking God.
+# sent_id = 51190
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	fucking	fuck	ADJ	JJ	Degree=Pos	2	_	_	start_char=6|end_char=13
+4	God	God	PROPN	NNP	Number=Sing	3	_	_	start_char=14|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = Look at her fucking feet.
+# sent_id = 51191
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=19|end_char=23
+2	at	at	ADP	IN	_	1	_	_	start_char=24|end_char=26
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=27|end_char=30
+4	fucking	fuck	NOUN	NN	Number=Sing	3	_	_	start_char=31|end_char=38
+5	feet	foot	NOUN	NNS	Number=Plur	4	_	_	start_char=39|end_char=43|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=43|end_char=44
+
+# text = Disgusting.
+# sent_id = 51192
+1	Disgusting	disgusting	ADJ	JJ	Degree=Pos	0	_	_	start_char=45|end_char=55|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=55|end_char=56
+
+# text = Black women are the worst.
+# sent_id = 51193
+1	Black	Black	ADJ	JJ	Degree=Pos	0	_	_	start_char=57|end_char=62
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=63|end_char=68
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=69|end_char=72
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=73|end_char=76
+5	worst	bad	ADJ	JJS	Degree=Sup	4	_	_	start_char=77|end_char=82|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=82|end_char=83|SpaceAfter=No
+

@@ -1,0 +1,22 @@
+# text = Take it OP.
+# sent_id = 80045
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=5|end_char=7
+3	OP	OP	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=10|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=10|end_char=11
+
+# text = Take this guys offer of blue balls and 2k in debt
+# sent_id = 80046
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=12|end_char=16
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=17|end_char=21
+3	guys	guy	NOUN	NNS	Number=Plur	2	_	_	start_char=22|end_char=26
+4	offer	offer	NOUN	NN	Number=Sing	3	_	_	start_char=27|end_char=32
+5	of	of	ADP	IN	_	4	_	_	start_char=33|end_char=35
+6	blue	blue	ADJ	JJ	Degree=Pos	5	_	_	start_char=36|end_char=40
+7	balls	ball	NOUN	NNS	Number=Plur	6	_	_	start_char=41|end_char=46
+8	and	and	CCONJ	CC	_	7	_	_	start_char=47|end_char=50
+9	2	2	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=51|end_char=52|SpaceAfter=No
+10	k	thousand	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	9	_	_	start_char=52|end_char=53
+11	in	in	ADP	IN	_	10	_	_	start_char=54|end_char=56
+12	debt	debt	NOUN	NN	Number=Sing	11	_	_	start_char=57|end_char=61|SpaceAfter=No
+

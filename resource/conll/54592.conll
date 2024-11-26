@@ -1,0 +1,26 @@
+# text = PS: How is Scarlett?
+# sent_id = 116664
+1	PS	ps	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=2|end_char=3
+3	How	how	ADV	WRB	PronType=Int	2	_	_	start_char=4|end_char=7
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=10
+5	Scarlett	Scarlett	PROPN	NNP	Number=Sing	4	_	_	start_char=11|end_char=19|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = Has she grown a full size, yet?
+# sent_id = 116665
+1	Has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=21|end_char=24
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=25|end_char=28
+3	grown	grow	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=29|end_char=34
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=35|end_char=36
+5	full	full	ADJ	JJ	Degree=Pos	4	_	_	start_char=37|end_char=41
+6	size	size	NOUN	NN	Number=Sing	5	_	_	start_char=42|end_char=46|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=46|end_char=47
+8	yet	yet	ADV	RB	_	7	_	_	start_char=48|end_char=51|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=51|end_char=52
+
+# text = #Babies
+# sent_id = 116666
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=53|end_char=54|SpaceAfter=No
+2	Babies	Baby	NOUN	NNS	Number=Plur	1	_	_	start_char=54|end_char=60|SpaceAfter=No
+

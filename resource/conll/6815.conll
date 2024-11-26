@@ -1,0 +1,41 @@
+# text = How i treat the gym.
+# sent_id = 14210
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=4|end_char=5
+3	treat	treat	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=6|end_char=11
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=12|end_char=15
+5	gym	gym	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=19|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = Chat with chick.
+# sent_id = 14211
+1	Chat	Chat	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=21|end_char=25
+2	with	with	ADP	IN	_	1	_	_	start_char=26|end_char=30
+3	chick	chick	NOUN	NN	Number=Sing	2	_	_	start_char=31|end_char=36|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=36|end_char=37
+
+# text = If i see her again chat again then ask them out/get number.
+# sent_id = 14212
+1	If	if	SCONJ	IN	_	0	_	_	start_char=38|end_char=40
+2	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=41|end_char=42
+3	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=43|end_char=46
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=47|end_char=50
+5	again	again	ADV	RB	_	4	_	_	start_char=51|end_char=56
+6	chat	chat	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=57|end_char=61
+7	again	again	ADV	RB	_	6	_	_	start_char=62|end_char=67
+8	then	then	ADV	RB	PronType=Dem	7	_	_	start_char=68|end_char=72
+9	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=73|end_char=76
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=77|end_char=81
+11	out	out	ADP	RP	_	10	_	_	start_char=82|end_char=85|SpaceAfter=No
+12	/	/	SYM	,	_	11	_	_	start_char=85|end_char=86|SpaceAfter=No
+13	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=86|end_char=89
+14	number	number	NOUN	NN	Number=Sing	13	_	_	start_char=90|end_char=96|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=96|end_char=97
+
+# text = No fucking around.
+# sent_id = 14213
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=98|end_char=100
+2	fucking	fuck	VERB	VBG	VerbForm=Ger	1	_	_	start_char=101|end_char=108
+3	around	around	ADV	RB	_	2	_	_	start_char=109|end_char=115|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=115|end_char=116|SpaceAfter=No
+

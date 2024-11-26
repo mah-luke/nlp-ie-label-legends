@@ -1,0 +1,48 @@
+# text = Wow.
+# sent_id = 76866
+1	Wow	wow	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = Announcing this just cut his paycheck BIG TIME!
+# sent_id = 76867
+1	Announcing	announce	VERB	VBG	VerbForm=Ger	0	_	_	start_char=5|end_char=15
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=16|end_char=20
+3	just	just	ADV	RB	_	2	_	_	start_char=21|end_char=25
+4	cut	cut	VERB	VB	VerbForm=Fin	3	_	_	start_char=26|end_char=29
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=30|end_char=33
+6	paycheck	paycheck	NOUN	NN	Number=Sing	5	_	_	start_char=34|end_char=42
+7	BIG	big	ADJ	JJ	Degree=Pos	6	_	_	start_char=43|end_char=46
+8	TIME	time	NOUN	NN	Number=Sing	7	_	_	start_char=47|end_char=51|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=51|end_char=52
+
+# text = "Yeah, call de niro but tell him we're only paying his X and tough shit if he doesnt like it!"
+# sent_id = 76868
+1	"	"	PUNCT	``	_	0	_	_	start_char=53|end_char=54|SpaceAfter=No
+2	Yeah	yeah	INTJ	UH	_	1	_	_	start_char=54|end_char=58|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=58|end_char=59
+4	call	call	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=60|end_char=64
+5	de	de	PROPN	NNP	Number=Sing	4	_	_	start_char=65|end_char=67
+6	niro	niro	X	FW	_	5	_	_	start_char=68|end_char=72
+7	but	but	CCONJ	CC	_	6	_	_	start_char=73|end_char=76
+8	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=77|end_char=81
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=82|end_char=85
+10-11	we're	_	_	_	_	_	_	_	start_char=86|end_char=91
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	_	_	start_char=86|end_char=88
+11	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=88|end_char=91
+12	only	only	ADV	RB	_	11	_	_	start_char=92|end_char=96
+13	paying	pay	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=97|end_char=103
+14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=104|end_char=107
+15	X	x	NOUN	NN	Number=Sing	14	_	_	start_char=108|end_char=109
+16	and	and	CCONJ	CC	_	15	_	_	start_char=110|end_char=113
+17	tough	tough	ADJ	JJ	Degree=Pos	16	_	_	start_char=114|end_char=119
+18	shit	shit	NOUN	NN	Number=Sing	17	_	_	start_char=120|end_char=124
+19	if	if	SCONJ	IN	_	18	_	_	start_char=125|end_char=127
+20	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=128|end_char=130
+21-22	doesnt	_	_	_	_	_	_	_	start_char=131|end_char=137
+21	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=131|end_char=135
+22	nt	not	PART	RB	_	21	_	_	start_char=135|end_char=137
+23	like	like	VERB	VB	VerbForm=Inf	22	_	_	start_char=138|end_char=142
+24	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=143|end_char=145|SpaceAfter=No
+25	!	!	PUNCT	.	_	24	_	_	start_char=145|end_char=146|SpaceAfter=No
+26	"	"	PUNCT	''	_	25	_	_	start_char=146|end_char=147|SpaceAfter=No
+

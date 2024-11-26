@@ -1,0 +1,40 @@
+# text = my dentist is crap.. my national health dentist is crap.
+# sent_id = 44285
+1	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	dentist	dentist	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=10
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	crap	crap	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=18|SpaceAfter=No
+5	..	..	PUNCT	,	_	4	_	_	start_char=18|end_char=20
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=21|end_char=23
+7	national	national	ADJ	JJ	Degree=Pos	6	_	_	start_char=24|end_char=32
+8	health	health	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=39
+9	dentist	dentist	NOUN	NN	Number=Sing	8	_	_	start_char=40|end_char=47
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=48|end_char=50
+11	crap	crap	NOUN	NN	Number=Sing	10	_	_	start_char=51|end_char=55|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=55|end_char=56
+
+# text = i would name her but it's so fucking hard to find a dentist that will treat you on esa.
+# sent_id = 44286
+1	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=57|end_char=58
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=59|end_char=64
+3	name	name	VERB	VB	VerbForm=Inf	2	_	_	start_char=65|end_char=69
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=70|end_char=73
+5	but	but	CCONJ	CC	_	4	_	_	start_char=74|end_char=77
+6-7	it's	_	_	_	_	_	_	_	start_char=78|end_char=82
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=78|end_char=80
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=80|end_char=82
+8	so	so	ADV	RB	_	7	_	_	start_char=83|end_char=85
+9	fucking	fucking	ADV	RB	_	8	_	_	start_char=86|end_char=93
+10	hard	hard	ADJ	JJ	Degree=Pos	9	_	_	start_char=94|end_char=98
+11	to	to	PART	TO	_	10	_	_	start_char=99|end_char=101
+12	find	find	VERB	VB	VerbForm=Inf	11	_	_	start_char=102|end_char=106
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=107|end_char=108
+14	dentist	dentist	NOUN	NN	Number=Sing	13	_	_	start_char=109|end_char=116
+15	that	that	PRON	WDT	PronType=Rel	14	_	_	start_char=117|end_char=121
+16	will	will	AUX	MD	VerbForm=Fin	15	_	_	start_char=122|end_char=126
+17	treat	treat	VERB	VB	VerbForm=Inf	16	_	_	start_char=127|end_char=132
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	_	_	start_char=133|end_char=136
+19	on	on	ADP	IN	_	18	_	_	start_char=137|end_char=139
+20	esa	esa	NOUN	NN	Number=Sing	19	_	_	start_char=140|end_char=143|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=143|end_char=144|SpaceAfter=No
+

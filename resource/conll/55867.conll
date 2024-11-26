@@ -1,0 +1,48 @@
+# text = 16 million people here in florida.
+# sent_id = 119400
+1	16	16	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=2
+2	million	million	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=3|end_char=10
+3	people	person	NOUN	NNS	Number=Plur	2	_	_	start_char=11|end_char=17
+4	here	here	ADV	RB	PronType=Dem	3	_	_	start_char=18|end_char=22
+5	in	in	ADP	IN	_	4	_	_	start_char=23|end_char=25
+6	florida	florida	PROPN	NNP	Number=Sing	5	_	_	start_char=26|end_char=33|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=33|end_char=34
+
+# text = 1 million have concealed carry gun permit..50% of the population is female...so 500,000 ladies are armed here.
+# sent_id = 119401
+1	1	1	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=35|end_char=36
+2	million	million	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=37|end_char=44
+3	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=45|end_char=49
+4	concealed	conceal	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=50|end_char=59
+5	carry	carry	VERB	VB	VerbForm=Inf	4	_	_	start_char=60|end_char=65
+6	gun	gun	NOUN	NN	Number=Sing	5	_	_	start_char=66|end_char=69
+7	permit	permit	NOUN	NN	Number=Sing	6	_	_	start_char=70|end_char=76|SpaceAfter=No
+8	..50	..50	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=76|end_char=80|SpaceAfter=No
+9	%	%	SYM	NN	Number=Sing	8	_	_	start_char=80|end_char=81
+10	of	of	ADP	IN	_	9	_	_	start_char=82|end_char=84
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=85|end_char=88
+12	population	population	NOUN	NN	Number=Sing	11	_	_	start_char=89|end_char=99
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=100|end_char=102
+14	female	female	ADJ	JJ	Degree=Pos	13	_	_	start_char=103|end_char=109|SpaceAfter=No
+15	...	...	PUNCT	,	_	14	_	_	start_char=109|end_char=112|SpaceAfter=No
+16	so	so	ADV	RB	_	15	_	_	start_char=112|end_char=114
+17	500,000	500000	NUM	CD	NumForm=Digit|NumType=Card	16	_	_	start_char=115|end_char=122
+18	ladies	lady	NOUN	NNS	Number=Plur	17	_	_	start_char=123|end_char=129
+19	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=130|end_char=133
+20	armed	armed	ADJ	JJ	Degree=Pos	19	_	_	start_char=134|end_char=139
+21	here	here	ADV	RB	PronType=Dem	20	_	_	start_char=140|end_char=144|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=144|end_char=145
+
+# text = we have really low rape / sexual assault numbers.
+# sent_id = 119402
+1	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=146|end_char=148
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=149|end_char=153
+3	really	really	ADV	RB	_	2	_	_	start_char=154|end_char=160
+4	low	low	ADJ	JJ	Degree=Pos	3	_	_	start_char=161|end_char=164
+5	rape	rape	NOUN	NN	Number=Sing	4	_	_	start_char=165|end_char=169
+6	/	/	SYM	,	_	5	_	_	start_char=170|end_char=171
+7	sexual	sexual	ADJ	JJ	Degree=Pos	6	_	_	start_char=172|end_char=178
+8	assault	assault	NOUN	NN	Number=Sing	7	_	_	start_char=179|end_char=186
+9	numbers	number	NOUN	NNS	Number=Plur	8	_	_	start_char=187|end_char=194|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=194|end_char=195|SpaceAfter=No
+

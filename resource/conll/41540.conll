@@ -1,0 +1,47 @@
+# text = The rule seems to be this.
+# sent_id = 88897
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	rule	rule	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=8
+3	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=14
+4	to	to	PART	TO	_	3	_	_	start_char=15|end_char=17
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=18|end_char=20
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=21|end_char=25|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=25|end_char=26
+
+# text = Intelligent man over 40 - no Facebook.
+# sent_id = 88898
+1	Intelligent	intelligent	ADJ	JJ	Degree=Pos	0	_	_	start_char=27|end_char=38
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=39|end_char=42
+3	over	over	ADV	RB	_	2	_	_	start_char=43|end_char=47
+4	40	40	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=48|end_char=50
+5	-	-	PUNCT	HYPH	_	4	_	_	start_char=51|end_char=52
+6	no	no	DET	DT	PronType=Art	5	_	_	start_char=53|end_char=55
+7	Facebook	Facebook	PROPN	NNP	Number=Sing	6	_	_	start_char=56|end_char=64|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=64|end_char=65
+
+# text = Nearly everyone under 30 - Facebook.
+# sent_id = 88899
+1	Nearly	nearly	ADV	RB	_	0	_	_	start_char=66|end_char=72
+2	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	1	_	_	start_char=73|end_char=81
+3	under	under	ADP	IN	_	2	_	_	start_char=82|end_char=87
+4	30	30	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=88|end_char=90
+5	-	-	PUNCT	HYPH	_	4	_	_	start_char=91|end_char=92
+6	Facebook	Facebook	PROPN	NNP	Number=Sing	5	_	_	start_char=93|end_char=101|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=101|end_char=102
+
+# text = Almost all women have Facebook.
+# sent_id = 88900
+1	Almost	almost	ADV	RB	_	0	_	_	start_char=103|end_char=109
+2	all	all	DET	DT	_	1	_	_	start_char=110|end_char=113
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=114|end_char=119
+4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=120|end_char=124
+5	Facebook	Facebook	PROPN	NNP	Number=Sing	4	_	_	start_char=125|end_char=133|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=133|end_char=134
+
+# text = Including their cats.
+# sent_id = 88901
+1	Including	include	VERB	VBG	VerbForm=Ger	0	_	_	start_char=135|end_char=144
+2	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=145|end_char=150
+3	cats	cat	NOUN	NNS	Number=Plur	2	_	_	start_char=151|end_char=155|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=155|end_char=156|SpaceAfter=No
+

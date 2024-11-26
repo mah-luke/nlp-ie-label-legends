@@ -1,0 +1,30 @@
+# text = lol.
+# sent_id = 4179
+1	lol	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = /u/08Winchester deleted his post.
+# sent_id = 4180
+1	/	/	SYM	,	_	0	_	_	start_char=5|end_char=6|SpaceAfter=No
+2	u/08	u/08	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=10|SpaceAfter=No
+3	Winchester	Winchester	PROPN	NNP	Number=Sing	2	_	_	start_char=10|end_char=20
+4	deleted	delete	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=21|end_char=28
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=29|end_char=32
+6	post	post	NOUN	NN	Number=Sing	5	_	_	start_char=33|end_char=37|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=37|end_char=38
+
+# text = why do the little bitches always manage to act so predictably?
+# sent_id = 4181
+1	why	why	ADV	WRB	PronType=Int	0	_	_	start_char=39|end_char=42
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=43|end_char=45
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=46|end_char=49
+4	little	little	ADJ	JJ	Degree=Pos	3	_	_	start_char=50|end_char=56
+5	bitches	bitch	NOUN	NNS	Number=Plur	4	_	_	start_char=57|end_char=64
+6	always	always	ADV	RB	_	5	_	_	start_char=65|end_char=71
+7	manage	manage	VERB	VB	VerbForm=Inf	6	_	_	start_char=72|end_char=78
+8	to	to	PART	TO	_	7	_	_	start_char=79|end_char=81
+9	act	act	VERB	VB	VerbForm=Inf	8	_	_	start_char=82|end_char=85
+10	so	so	ADV	RB	_	9	_	_	start_char=86|end_char=88
+11	predictably	predictably	ADV	RB	_	10	_	_	start_char=89|end_char=100|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=100|end_char=101|SpaceAfter=No
+

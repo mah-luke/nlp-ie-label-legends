@@ -1,0 +1,34 @@
+# text = You're mad because it's a no-no to hurt women.
+# sent_id = 72834
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	mad	mad	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=10
+4	because	because	SCONJ	IN	_	3	_	_	start_char=11|end_char=18
+5-6	it's	_	_	_	_	_	_	_	start_char=19|end_char=23
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=19|end_char=21
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=21|end_char=23
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=24|end_char=25
+8	no	no	INTJ	UH	_	7	_	_	start_char=26|end_char=28|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	_	_	start_char=28|end_char=29|SpaceAfter=No
+10	no	no	INTJ	UH	Polarity=Neg	9	_	_	start_char=29|end_char=31
+11	to	to	PART	TO	_	10	_	_	start_char=32|end_char=34
+12	hurt	hurt	VERB	VB	VerbForm=Inf	11	_	_	start_char=35|end_char=39
+13	women	woman	NOUN	NNS	Number=Plur	12	_	_	start_char=40|end_char=45|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=45|end_char=46
+
+# text = That's an issue you need to get checked out.
+# sent_id = 72835
+1-2	That's	_	_	_	_	_	_	_	start_char=47|end_char=53
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=47|end_char=51
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=53
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=54|end_char=56
+4	issue	issue	NOUN	NN	Number=Sing	3	_	_	start_char=57|end_char=62
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=63|end_char=66
+6	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=67|end_char=71
+7	to	to	PART	TO	_	6	_	_	start_char=72|end_char=74
+8	get	get	AUX	VB	VerbForm=Inf	7	_	_	start_char=75|end_char=78
+9	checked	check	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=79|end_char=86
+10	out	out	ADP	RP	_	9	_	_	start_char=87|end_char=90|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=90|end_char=91|SpaceAfter=No
+

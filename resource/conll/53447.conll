@@ -1,0 +1,34 @@
+# text = Hell.
+# sent_id = 114237
+1	Hell	Hell	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = Didn't the Dope From Hope fire her, too?
+# sent_id = 114238
+1-2	Didn't	_	_	_	_	_	_	_	start_char=6|end_char=12
+1	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=6|end_char=9
+2	n't	not	PART	RB	_	1	_	_	start_char=9|end_char=12
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=13|end_char=16
+4	Dope	dope	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=21
+5	From	from	ADP	IN	_	4	_	_	start_char=22|end_char=26
+6	Hope	Hope	PROPN	NNP	Number=Sing	5	_	_	start_char=27|end_char=31
+7	fire	fire	VERB	VB	VerbForm=Inf	6	_	_	start_char=32|end_char=36
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=37|end_char=40|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=40|end_char=41
+10	too	too	ADV	RB	_	9	_	_	start_char=42|end_char=45|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=45|end_char=46
+
+# text = That really says a lot when you think about that.
+# sent_id = 114239
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=47|end_char=51
+2	really	really	ADV	RB	_	1	_	_	start_char=52|end_char=58
+3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=59|end_char=63
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=64|end_char=65
+5	lot	lot	NOUN	NN	Number=Sing	4	_	_	start_char=66|end_char=69
+6	when	when	ADV	WRB	PronType=Int	5	_	_	start_char=70|end_char=74
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=75|end_char=78
+8	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=79|end_char=84
+9	about	about	ADP	IN	_	8	_	_	start_char=85|end_char=90
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	9	_	_	start_char=91|end_char=95|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=95|end_char=96|SpaceAfter=No
+

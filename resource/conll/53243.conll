@@ -1,0 +1,15 @@
+# text = LMAO!
+# sent_id = 113812
+1	LMAO	lmao	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = He got beat by a woman.
+# sent_id = 113813
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=6|end_char=8
+2	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=9|end_char=12
+3	beat	beat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=13|end_char=17
+4	by	by	ADP	IN	_	3	_	_	start_char=18|end_char=20
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=21|end_char=22
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=28|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29|SpaceAfter=No
+

@@ -1,0 +1,59 @@
+# text = amen sister.
+# sent_id = 2177
+1	amen	amen	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
+2	sister	sister	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=11|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=11|end_char=12
+
+# text = For the life of me, i just can't understand how someone would be so clueless as to install a device in their home that they know is listening to everything they do just because they're too lazy and stupid to do simple tasks themselves.
+# sent_id = 2178
+1	For	for	ADP	IN	_	0	_	_	start_char=13|end_char=16
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=17|end_char=20
+3	life	life	NOUN	NN	Number=Sing	2	_	_	start_char=21|end_char=25
+4	of	of	ADP	IN	_	3	_	_	start_char=26|end_char=28
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=29|end_char=31|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=31|end_char=32
+7	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=33|end_char=34
+8	just	just	ADV	RB	_	7	_	_	start_char=35|end_char=39
+9-10	can't	_	_	_	_	_	_	_	start_char=40|end_char=45
+9	ca	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=40|end_char=42
+10	n't	not	PART	RB	_	9	_	_	start_char=42|end_char=45
+11	understand	understand	VERB	VB	VerbForm=Inf	10	_	_	start_char=46|end_char=56
+12	how	how	ADV	WRB	PronType=Int	11	_	_	start_char=57|end_char=60
+13	someone	someone	PRON	NN	Number=Sing|PronType=Ind	12	_	_	start_char=61|end_char=68
+14	would	would	AUX	MD	VerbForm=Fin	13	_	_	start_char=69|end_char=74
+15	be	be	AUX	VB	VerbForm=Inf	14	_	_	start_char=75|end_char=77
+16	so	so	ADV	RB	_	15	_	_	start_char=78|end_char=80
+17	clueless	clueless	ADJ	JJ	Degree=Pos	16	_	_	start_char=81|end_char=89
+18	as	as	SCONJ	IN	_	17	_	_	start_char=90|end_char=92
+19	to	to	PART	TO	_	18	_	_	start_char=93|end_char=95
+20	install	install	VERB	VB	VerbForm=Inf	19	_	_	start_char=96|end_char=103
+21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=104|end_char=105
+22	device	device	NOUN	NN	Number=Sing	21	_	_	start_char=106|end_char=112
+23	in	in	ADP	IN	_	22	_	_	start_char=113|end_char=115
+24	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	_	_	start_char=116|end_char=121
+25	home	home	NOUN	NN	Number=Sing	24	_	_	start_char=122|end_char=126
+26	that	that	PRON	WDT	PronType=Rel	25	_	_	start_char=127|end_char=131
+27	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	_	_	start_char=132|end_char=136
+28	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	_	_	start_char=137|end_char=141
+29	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	_	_	start_char=142|end_char=144
+30	listening	listen	VERB	VBG	Tense=Pres|VerbForm=Part	29	_	_	start_char=145|end_char=154
+31	to	to	ADP	IN	_	30	_	_	start_char=155|end_char=157
+32	everything	everything	PRON	NN	Number=Sing|PronType=Tot	31	_	_	start_char=158|end_char=168
+33	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	32	_	_	start_char=169|end_char=173
+34	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	33	_	_	start_char=174|end_char=176
+35	just	just	ADV	RB	_	34	_	_	start_char=177|end_char=181
+36	because	because	SCONJ	IN	_	35	_	_	start_char=182|end_char=189
+37-38	they're	_	_	_	_	_	_	_	start_char=190|end_char=197
+37	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	36	_	_	start_char=190|end_char=194
+38	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	_	_	start_char=194|end_char=197
+39	too	too	ADV	RB	_	38	_	_	start_char=198|end_char=201
+40	lazy	lazy	ADJ	JJ	Degree=Pos	39	_	_	start_char=202|end_char=206
+41	and	and	CCONJ	CC	_	40	_	_	start_char=207|end_char=210
+42	stupid	stupid	ADJ	JJ	Degree=Pos	41	_	_	start_char=211|end_char=217
+43	to	to	PART	TO	_	42	_	_	start_char=218|end_char=220
+44	do	do	VERB	VB	VerbForm=Inf	43	_	_	start_char=221|end_char=223
+45	simple	simple	ADJ	JJ	Degree=Pos	44	_	_	start_char=224|end_char=230
+46	tasks	task	NOUN	NNS	Number=Plur	45	_	_	start_char=231|end_char=236
+47	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	46	_	_	start_char=237|end_char=247|SpaceAfter=No
+48	.	.	PUNCT	.	_	47	_	_	start_char=247|end_char=248|SpaceAfter=No
+

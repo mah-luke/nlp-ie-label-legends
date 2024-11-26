@@ -1,0 +1,24 @@
+# text = Yet another asshat.
+# sent_id = 39603
+1	Yet	yet	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	another	another	DET	DT	_	1	_	_	start_char=4|end_char=11
+3	asshat	asshat	NOUN	NN	Number=Sing	2	_	_	start_char=12|end_char=18|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=18|end_char=19
+
+# text = I'd be looking into him, maybe he ordered a hit?
+# sent_id = 39604
+1-2	I'd	_	_	_	_	_	_	_	start_char=20|end_char=23
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=20|end_char=21
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=21|end_char=23
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=24|end_char=26
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=27|end_char=34
+5	into	into	ADP	IN	_	4	_	_	start_char=35|end_char=39
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=40|end_char=43|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=43|end_char=44
+8	maybe	maybe	ADV	RB	_	7	_	_	start_char=45|end_char=50
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=51|end_char=53
+10	ordered	order	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=54|end_char=61
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=62|end_char=63
+12	hit	hit	NOUN	NN	Number=Sing	11	_	_	start_char=64|end_char=67|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=67|end_char=68|SpaceAfter=No
+

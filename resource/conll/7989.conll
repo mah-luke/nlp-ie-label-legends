@@ -1,0 +1,38 @@
+# text = Oh GIMP .. puh'PLEEz .. whatever you can do and do do ..
+# sent_id = 16761
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	GIMP	GIMP	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=7
+3	..	..	PUNCT	,	_	2	_	_	start_char=8|end_char=10
+4	puh'PLEEz	puh'pleez	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=20
+5	..	..	PUNCT	,	_	4	_	_	start_char=21|end_char=23
+6	whatever	whatever	PRON	WP	PronType=Rel	5	_	_	start_char=24|end_char=32
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=33|end_char=36
+8	can	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=37|end_char=40
+9	do	do	VERB	VB	VerbForm=Inf	8	_	_	start_char=41|end_char=43
+10	and	and	CCONJ	CC	_	9	_	_	start_char=44|end_char=47
+11	do	do	AUX	VBP	Mood=Ind|VerbForm=Fin	10	_	_	start_char=48|end_char=50
+12	do	do	VERB	VB	VerbForm=Inf	11	_	_	start_char=51|end_char=53
+13	..	..	PUNCT	.	_	12	_	_	start_char=54|end_char=56
+
+# text = I'll do back, princess.
+# sent_id = 16762
+1-2	I'll	_	_	_	_	_	_	_	start_char=57|end_char=61
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=57|end_char=58
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=58|end_char=61
+3	do	do	VERB	VB	VerbForm=Inf	2	_	_	start_char=62|end_char=64
+4	back	back	ADV	RB	_	3	_	_	start_char=65|end_char=69|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=69|end_char=70
+6	princess	princess	NOUN	NN	Number=Sing	5	_	_	start_char=71|end_char=79|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=79|end_char=80
+
+# text = go back to EUROPE, child abuser.
+# sent_id = 16763
+1	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=81|end_char=83
+2	back	back	ADV	RB	_	1	_	_	start_char=84|end_char=88
+3	to	to	ADP	IN	_	2	_	_	start_char=89|end_char=91
+4	EUROPE	Europe	PROPN	NNP	Number=Sing	3	_	_	start_char=92|end_char=98|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=98|end_char=99
+6	child	child	NOUN	NN	Number=Sing	5	_	_	start_char=100|end_char=105
+7	abuser	abuser	NOUN	NN	Number=Sing	6	_	_	start_char=106|end_char=112|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=112|end_char=113|SpaceAfter=No
+

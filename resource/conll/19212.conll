@@ -1,0 +1,38 @@
+# text = To all my #GabFam that keeps me sane, this random hug attack is for you.
+# sent_id = 41235
+1	To	to	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	all	all	DET	PDT	_	1	_	_	start_char=3|end_char=6
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=7|end_char=9
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=10|end_char=11|SpaceAfter=No
+5	GabFam	gabfam	NOUN	NN	Number=Sing	4	_	_	start_char=11|end_char=17
+6	that	that	PRON	WDT	PronType=Rel	5	_	_	start_char=18|end_char=22
+7	keeps	keep	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=23|end_char=28
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=29|end_char=31
+9	sane	sane	ADJ	JJ	Degree=Pos	8	_	_	start_char=32|end_char=36|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=36|end_char=37
+11	this	this	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=38|end_char=42
+12	random	random	ADJ	JJ	Degree=Pos	11	_	_	start_char=43|end_char=49
+13	hug	hug	NOUN	NN	Number=Sing	12	_	_	start_char=50|end_char=53
+14	attack	attack	NOUN	NN	Number=Sing	13	_	_	start_char=54|end_char=60
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=61|end_char=63
+16	for	for	ADP	IN	_	15	_	_	start_char=64|end_char=67
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	_	_	start_char=68|end_char=71|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=71|end_char=72
+
+# text = Or a simple hi5 will do.
+# sent_id = 41236
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=73|end_char=75
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=76|end_char=77
+3	simple	simple	ADJ	JJ	Degree=Pos	2	_	_	start_char=78|end_char=84
+4	hi5	hi5	NOUN	NN	Number=Sing	3	_	_	start_char=85|end_char=88
+5	will	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=89|end_char=93
+6	do	do	VERB	VB	VerbForm=Inf	5	_	_	start_char=94|end_char=96|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=96|end_char=97
+
+# text = lol [URL]
+# sent_id = 41237
+1	lol	lol	INTJ	UH	_	0	_	_	start_char=98|end_char=101
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=102|end_char=103|SpaceAfter=No
+3	URL	URL	PROPN	NNP	Number=Sing	2	_	_	start_char=103|end_char=106|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=106|end_char=107|SpaceAfter=No
+

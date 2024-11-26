@@ -1,0 +1,85 @@
+# text = [USER] I totally agree.
+# sent_id = 43214
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=7|end_char=8
+5	totally	totally	ADV	RB	_	4	_	_	start_char=9|end_char=16
+6	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=17|end_char=22|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=22|end_char=23
+
+# text = It is normal "guy talk".
+# sent_id = 43215
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=24|end_char=26
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
+3	normal	normal	ADJ	JJ	Degree=Pos	2	_	_	start_char=30|end_char=36
+4	"	"	PUNCT	``	_	3	_	_	start_char=37|end_char=38|SpaceAfter=No
+5	guy	guy	NOUN	NN	Number=Sing	4	_	_	start_char=38|end_char=41
+6	talk	talk	NOUN	NN	Number=Sing	5	_	_	start_char=42|end_char=46|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=46|end_char=47|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=47|end_char=48
+
+# text = Every man (at some time in his life) has said similar things about a woman.
+# sent_id = 43216
+1	Every	every	DET	DT	_	0	_	_	start_char=49|end_char=54
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=55|end_char=58
+3	(	(	PUNCT	-LRB-	_	2	_	_	start_char=59|end_char=60|SpaceAfter=No
+4	at	at	ADP	IN	_	3	_	_	start_char=60|end_char=62
+5	some	some	DET	DT	_	4	_	_	start_char=63|end_char=67
+6	time	time	NOUN	NN	Number=Sing	5	_	_	start_char=68|end_char=72
+7	in	in	ADP	IN	_	6	_	_	start_char=73|end_char=75
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=76|end_char=79
+9	life	life	NOUN	NN	Number=Sing	8	_	_	start_char=80|end_char=84|SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	_	_	start_char=84|end_char=85
+11	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=86|end_char=89
+12	said	say	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=90|end_char=94
+13	similar	similar	ADJ	JJ	Degree=Pos	12	_	_	start_char=95|end_char=102
+14	things	thing	NOUN	NNS	Number=Plur	13	_	_	start_char=103|end_char=109
+15	about	about	ADP	IN	_	14	_	_	start_char=110|end_char=115
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=116|end_char=117
+17	woman	woman	NOUN	NN	Number=Sing	16	_	_	start_char=118|end_char=123|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=123|end_char=124
+
+# text = It is normal.
+# sent_id = 43217
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=125|end_char=127
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=128|end_char=130
+3	normal	normal	ADJ	JJ	Degree=Pos	2	_	_	start_char=131|end_char=137|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=137|end_char=138
+
+# text = No big deal.
+# sent_id = 43218
+1	No	no	DET	DT	_	0	_	_	start_char=139|end_char=141
+2	big	big	ADJ	JJ	Degree=Pos	1	_	_	start_char=142|end_char=145
+3	deal	deal	NOUN	NN	Number=Sing	2	_	_	start_char=146|end_char=150|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=150|end_char=151
+
+# text = And yes, women say things too.
+# sent_id = 43219
+1	And	and	CCONJ	CC	_	0	_	_	start_char=152|end_char=155
+2	yes	yes	INTJ	UH	_	1	_	_	start_char=156|end_char=159|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=159|end_char=160
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=161|end_char=166
+5	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=167|end_char=170
+6	things	thing	NOUN	NNS	Number=Plur	5	_	_	start_char=171|end_char=177
+7	too	too	ADV	RB	_	6	_	_	start_char=178|end_char=181|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=181|end_char=182
+
+# text = #Trump will always have my vote & support!
+# sent_id = 43220
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=183|end_char=184|SpaceAfter=No
+2	Trump	Trump	PROPN	NNP	Number=Sing	1	_	_	start_char=184|end_char=189
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=190|end_char=194
+4	always	always	ADV	RB	_	3	_	_	start_char=195|end_char=201
+5	have	have	VERB	VB	VerbForm=Inf	4	_	_	start_char=202|end_char=206
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=207|end_char=209
+7	vote	vote	NOUN	NN	Number=Sing	6	_	_	start_char=210|end_char=214
+8	&	&	CCONJ	CC	_	7	_	_	start_char=215|end_char=216
+9	support	support	NOUN	NN	Number=Sing	8	_	_	start_char=217|end_char=224|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=224|end_char=225
+
+# text = #MAGA
+# sent_id = 43221
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=226|end_char=227|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=227|end_char=231|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = Lol on your mom's tech advice.
+# sent_id = 1198
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	on	on	ADP	IN	_	1	_	_	start_char=4|end_char=6
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=7|end_char=11
+4-5	mom's	_	_	_	_	_	_	_	start_char=12|end_char=17
+4	mom	mom	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=15
+5	's	's	PART	POS	_	4	_	_	start_char=15|end_char=17
+6	tech	tech	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=22
+7	advice	advice	NOUN	NN	Number=Sing	6	_	_	start_char=23|end_char=29|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=29|end_char=30
+
+# text = It's almost midnight here.
+# sent_id = 1199
+1-2	It's	_	_	_	_	_	_	_	start_char=31|end_char=35
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=31|end_char=33
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=33|end_char=35
+3	almost	almost	ADV	RB	_	2	_	_	start_char=36|end_char=42
+4	midnight	midnight	NOUN	NN	Number=Sing	3	_	_	start_char=43|end_char=51
+5	here	here	ADV	RB	PronType=Dem	4	_	_	start_char=52|end_char=56|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=56|end_char=57
+
+# text = I'm going to bed.
+# sent_id = 1200
+1-2	I'm	_	_	_	_	_	_	_	start_char=58|end_char=61
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=58|end_char=59
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=61
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=62|end_char=67
+4	to	to	ADP	IN	_	3	_	_	start_char=68|end_char=70
+5	bed	bed	NOUN	NN	Number=Sing	4	_	_	start_char=71|end_char=74|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=74|end_char=75
+
+# text = Goodnight and it was fun gabbing with you.
+# sent_id = 1201
+1	Goodnight	Goodnight	PROPN	NNP	Number=Sing	0	_	_	start_char=76|end_char=85
+2	and	and	CCONJ	CC	_	1	_	_	start_char=86|end_char=89
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=90|end_char=92
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=93|end_char=96
+5	fun	fun	ADJ	JJ	Degree=Pos	4	_	_	start_char=97|end_char=100
+6	gabbing	gabb	VERB	VBG	VerbForm=Ger	5	_	_	start_char=101|end_char=108
+7	with	with	ADP	IN	_	6	_	_	start_char=109|end_char=113
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	_	_	start_char=114|end_char=117|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=117|end_char=118|SpaceAfter=No
+

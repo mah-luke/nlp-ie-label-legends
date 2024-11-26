@@ -1,0 +1,63 @@
+# text = in my town, we have a place where its split into 2 sections... 21+ and 18+.
+# sent_id = 96738
+1	in	in	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	town	town	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=10|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=10|end_char=11
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=12|end_char=14
+6	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=15|end_char=19
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=20|end_char=21
+8	place	place	NOUN	NN	Number=Sing	7	_	_	start_char=22|end_char=27
+9	where	where	ADV	WRB	PronType=Rel	8	_	_	start_char=28|end_char=33
+10	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=34|end_char=37
+11	split	split	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=38|end_char=43
+12	into	into	ADP	IN	_	11	_	_	start_char=44|end_char=48
+13	2	2	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=49|end_char=50
+14	sections	section	NOUN	NNS	Number=Plur	13	_	_	start_char=51|end_char=59|SpaceAfter=No
+15	...	...	PUNCT	,	_	14	_	_	start_char=59|end_char=62
+16	21	21	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=63|end_char=65|SpaceAfter=No
+17	+	+	SYM	SYM	_	16	_	_	start_char=65|end_char=66
+18	and	and	CCONJ	CC	_	17	_	_	start_char=67|end_char=70
+19	18	18	NUM	CD	NumForm=Digit|NumType=Card	18	_	_	start_char=71|end_char=73|SpaceAfter=No
+20	+.	+.	PUNCT	-RRB-	_	19	_	_	start_char=73|end_char=75
+
+# text = The 18 year olds weren't allowed in the other half of the club but the 21 year olds had access to the entire place.
+# sent_id = 96739
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=76|end_char=79
+2	18	18	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=80|end_char=82
+3	year	year	NOUN	NN	Number=Sing	2	_	_	start_char=83|end_char=87
+4	olds	old	NOUN	NNS	Number=Plur	3	_	_	start_char=88|end_char=92
+5-6	weren't	_	_	_	_	_	_	_	start_char=93|end_char=100
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=93|end_char=97
+6	n't	not	PART	RB	_	5	_	_	start_char=97|end_char=100
+7	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=101|end_char=108
+8	in	in	ADP	IN	_	7	_	_	start_char=109|end_char=111
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=112|end_char=115
+10	other	other	ADJ	JJ	Degree=Pos	9	_	_	start_char=116|end_char=121
+11	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	10	_	_	start_char=122|end_char=126
+12	of	of	ADP	IN	_	11	_	_	start_char=127|end_char=129
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=130|end_char=133
+14	club	club	NOUN	NN	Number=Sing	13	_	_	start_char=134|end_char=138
+15	but	but	CCONJ	CC	_	14	_	_	start_char=139|end_char=142
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=143|end_char=146
+17	21	21	NUM	CD	NumForm=Digit|NumType=Card	16	_	_	start_char=147|end_char=149
+18	year	year	NOUN	NN	Number=Sing	17	_	_	start_char=150|end_char=154
+19	olds	old	NOUN	NNS	Number=Plur	18	_	_	start_char=155|end_char=159
+20	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=160|end_char=163
+21	access	access	NOUN	NN	Number=Sing	20	_	_	start_char=164|end_char=170
+22	to	to	ADP	IN	_	21	_	_	start_char=171|end_char=173
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=174|end_char=177
+24	entire	entire	ADJ	JJ	Degree=Pos	23	_	_	start_char=178|end_char=184
+25	place	place	NOUN	NN	Number=Sing	24	_	_	start_char=185|end_char=190|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=190|end_char=191
+
+# text = Try to find something like that.
+# sent_id = 96740
+1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=192|end_char=195
+2	to	to	PART	TO	_	1	_	_	start_char=196|end_char=198
+3	find	find	VERB	VB	VerbForm=Inf	2	_	_	start_char=199|end_char=203
+4	something	something	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=204|end_char=213
+5	like	like	ADP	IN	_	4	_	_	start_char=214|end_char=218
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=219|end_char=223|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=223|end_char=224|SpaceAfter=No
+

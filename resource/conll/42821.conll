@@ -1,0 +1,29 @@
+# text = Maybe itll hit those caravan nut jobs and save our taxpayers some money.
+# sent_id = 91492
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=0|end_char=5
+2-3	itll	_	_	_	_	_	_	_	start_char=6|end_char=10
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=6|end_char=8
+3	ll	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=8|end_char=10
+4	hit	hit	VERB	VB	VerbForm=Inf	3	_	_	start_char=11|end_char=14
+5	those	that	DET	DT	Number=Plur|PronType=Dem	4	_	_	start_char=15|end_char=20
+6	caravan	caravan	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=28
+7	nut	nut	NOUN	NN	Number=Sing	6	_	_	start_char=29|end_char=32
+8	jobs	job	NOUN	NNS	Number=Plur	7	_	_	start_char=33|end_char=37
+9	and	and	CCONJ	CC	_	8	_	_	start_char=38|end_char=41
+10	save	save	VERB	VB	VerbForm=Inf	9	_	_	start_char=42|end_char=46
+11	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=47|end_char=50
+12	taxpayers	taxpayer	NOUN	NNS	Number=Plur	11	_	_	start_char=51|end_char=60
+13	some	some	DET	DT	_	12	_	_	start_char=61|end_char=65
+14	money	money	NOUN	NN	Number=Sing	13	_	_	start_char=66|end_char=71|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=71|end_char=72
+
+# text = #MAGA #WishfulThinking [URL]
+# sent_id = 91493
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=73|end_char=74|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=74|end_char=78
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=79|end_char=80|SpaceAfter=No
+4	WishfulThinking	wishfulthinking	NOUN	NN	Number=Sing	3	_	_	start_char=80|end_char=95
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=96|end_char=97|SpaceAfter=No
+6	URL	URL	NOUN	NN	Number=Sing	5	_	_	start_char=97|end_char=100|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=100|end_char=101|SpaceAfter=No
+

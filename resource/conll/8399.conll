@@ -1,0 +1,43 @@
+# text = My philosophy is live and let live.
+# sent_id = 17643
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	philosophy	philosophy	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=13
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=14|end_char=16
+4	live	live	ADJ	JJ	Degree=Pos	3	_	_	start_char=17|end_char=21
+5	and	and	CCONJ	CC	_	4	_	_	start_char=22|end_char=25
+6	let	let	VERB	VB	VerbForm=Fin	5	_	_	start_char=26|end_char=29
+7	live	live	VERB	VB	VerbForm=Inf	6	_	_	start_char=30|end_char=34|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=34|end_char=35
+
+# text = She was wrong but that doesn't mean I have to treat her like an asshole.
+# sent_id = 17644
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=36|end_char=39
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=40|end_char=43
+3	wrong	wrong	ADJ	JJ	Degree=Pos	2	_	_	start_char=44|end_char=49
+4	but	but	CCONJ	CC	_	3	_	_	start_char=50|end_char=53
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=54|end_char=58
+6-7	doesn't	_	_	_	_	_	_	_	start_char=59|end_char=66
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=59|end_char=63
+7	n't	not	PART	RB	_	6	_	_	start_char=63|end_char=66
+8	mean	mean	VERB	VB	VerbForm=Inf	7	_	_	start_char=67|end_char=71
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=72|end_char=73
+10	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=74|end_char=78
+11	to	to	PART	TO	_	10	_	_	start_char=79|end_char=81
+12	treat	treat	VERB	VB	VerbForm=Inf	11	_	_	start_char=82|end_char=87
+13	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=88|end_char=91
+14	like	like	ADP	IN	_	13	_	_	start_char=92|end_char=96
+15	an	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=97|end_char=99
+16	asshole	asshole	NOUN	NN	Number=Sing	15	_	_	start_char=100|end_char=107|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=107|end_char=108
+
+# text = But I've made my point...
+# sent_id = 17645
+1	But	but	CCONJ	CC	_	0	_	_	start_char=109|end_char=112
+2-3	I've	_	_	_	_	_	_	_	start_char=113|end_char=117
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=113|end_char=114
+3	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=114|end_char=117
+4	made	make	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=118|end_char=122
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=123|end_char=125
+6	point	point	NOUN	NN	Number=Sing	5	_	_	start_char=126|end_char=131|SpaceAfter=No
+7	...	...	PUNCT	.	_	6	_	_	start_char=131|end_char=134|SpaceAfter=No
+

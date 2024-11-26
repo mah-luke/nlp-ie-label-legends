@@ -1,0 +1,72 @@
+# text = Haha this.
+# sent_id = 27826
+1	Haha	haha	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = This actually happened to me about a month ago.
+# sent_id = 27827
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=11|end_char=15
+2	actually	actually	ADV	RB	_	1	_	_	start_char=16|end_char=24
+3	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=25|end_char=33
+4	to	to	ADP	IN	_	3	_	_	start_char=34|end_char=36
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=37|end_char=39
+6	about	about	ADP	IN	_	5	_	_	start_char=40|end_char=45
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=46|end_char=47
+8	month	month	NOUN	NN	Number=Sing	7	_	_	start_char=48|end_char=53
+9	ago	ago	ADV	RB	_	8	_	_	start_char=54|end_char=57|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=57|end_char=58
+
+# text = I moved on and she responded to one of text from over a week ago.
+# sent_id = 27828
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=59|end_char=60
+2	moved	move	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=61|end_char=66
+3	on	on	ADP	RP	_	2	_	_	start_char=67|end_char=69
+4	and	and	CCONJ	CC	_	3	_	_	start_char=70|end_char=73
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=74|end_char=77
+6	responded	respond	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=78|end_char=87
+7	to	to	ADP	IN	_	6	_	_	start_char=88|end_char=90
+8	one	one	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=91|end_char=94
+9	of	of	ADP	IN	_	8	_	_	start_char=95|end_char=97
+10	text	text	NOUN	NN	Number=Sing	9	_	_	start_char=98|end_char=102
+11	from	from	ADP	IN	_	10	_	_	start_char=103|end_char=107
+12	over	over	ADV	RB	_	11	_	_	start_char=108|end_char=112
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=113|end_char=114
+14	week	week	NOUN	NN	Number=Sing	13	_	_	start_char=115|end_char=119
+15	ago	ago	ADV	RB	_	14	_	_	start_char=120|end_char=123|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=123|end_char=124
+
+# text = Like fuck that I don't have time for that.
+# sent_id = 27829
+1	Like	like	INTJ	UH	_	0	_	_	start_char=125|end_char=129
+2	fuck	fuck	NOUN	NN	Number=Sing	1	_	_	start_char=130|end_char=134
+3	that	that	PRON	WDT	PronType=Rel	2	_	_	start_char=135|end_char=139
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=140|end_char=141
+5-6	don't	_	_	_	_	_	_	_	start_char=142|end_char=147
+5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=142|end_char=144
+6	n't	not	PART	RB	_	5	_	_	start_char=144|end_char=147
+7	have	have	VERB	VB	VerbForm=Inf	6	_	_	start_char=148|end_char=152
+8	time	time	NOUN	NN	Number=Sing	7	_	_	start_char=153|end_char=157
+9	for	for	ADP	IN	_	8	_	_	start_char=158|end_char=161
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	9	_	_	start_char=162|end_char=166|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=166|end_char=167
+
+# text = I am gorgeous/amazing and it's not me it's you :D
+# sent_id = 27830
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=168|end_char=169
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=170|end_char=172
+3	gorgeous	gorgeous	ADJ	JJ	Degree=Pos	2	_	_	start_char=173|end_char=181|SpaceAfter=No
+4	/	/	SYM	SYM	_	3	_	_	start_char=181|end_char=182|SpaceAfter=No
+5	amazing	amazing	ADJ	JJ	Degree=Pos	4	_	_	start_char=182|end_char=189
+6	and	and	CCONJ	CC	_	5	_	_	start_char=190|end_char=193
+7-8	it's	_	_	_	_	_	_	_	start_char=194|end_char=198
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=194|end_char=196
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=196|end_char=198
+9	not	not	PART	RB	_	8	_	_	start_char=199|end_char=202
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=203|end_char=205
+11-12	it's	_	_	_	_	_	_	_	start_char=206|end_char=210
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=206|end_char=208
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=208|end_char=210
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	_	_	start_char=211|end_char=214
+14	:D	:d	SYM	NFP	_	13	_	_	start_char=215|end_char=217|SpaceAfter=No
+

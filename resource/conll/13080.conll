@@ -1,0 +1,18 @@
+# text = TRUMP RALLY THURSDAY NIGHT @ 7:00 PM.
+# sent_id = 27747
+1	TRUMP	TRUMP	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	RALLY	Rally	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=11
+3	THURSDAY	THURSDAY	PROPN	NNP	Number=Sing	2	_	_	start_char=12|end_char=20
+4	NIGHT	night	NOUN	NN	Number=Sing	3	_	_	start_char=21|end_char=26
+5	@	@	ADP	IN	_	4	_	_	start_char=27|end_char=28
+6	7:00	7:00	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=29|end_char=33
+7	PM	p.m.	NOUN	NN	Number=Sing	6	_	_	start_char=34|end_char=36|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=36|end_char=37
+
+# text = WILKES BARRE PA!
+# sent_id = 27748
+1	WILKES	WILKES	PROPN	NNP	Number=Sing	0	_	_	start_char=38|end_char=44
+2	BARRE	BARRE	PROPN	NNP	Number=Sing	1	_	_	start_char=45|end_char=50
+3	PA	PA	PROPN	NNP	Number=Sing	2	_	_	start_char=51|end_char=53|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=53|end_char=54|SpaceAfter=No
+

@@ -1,0 +1,34 @@
+# text = Funny and PATHETIC at the same time.
+# sent_id = 90807
+1	Funny	funny	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5
+2	and	and	CCONJ	CC	_	1	_	_	start_char=6|end_char=9
+3	PATHETIC	pathetic	ADJ	JJ	Degree=Pos	2	_	_	start_char=10|end_char=18
+4	at	at	ADP	IN	_	3	_	_	start_char=19|end_char=21
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=22|end_char=25
+6	same	same	ADJ	JJ	Degree=Pos	5	_	_	start_char=26|end_char=30
+7	time	time	NOUN	NN	Number=Sing	6	_	_	start_char=31|end_char=35|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=35|end_char=36
+
+# text = A random group of women dumped on an island start falling apart immediately.
+# sent_id = 90808
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=37|end_char=38
+2	random	random	ADJ	JJ	Degree=Pos	1	_	_	start_char=39|end_char=45
+3	group	group	NOUN	NN	Number=Sing	2	_	_	start_char=46|end_char=51
+4	of	of	ADP	IN	_	3	_	_	start_char=52|end_char=54
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=55|end_char=60
+6	dumped	dump	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin	5	_	_	start_char=61|end_char=67
+7	on	on	ADP	IN	_	6	_	_	start_char=68|end_char=70
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=71|end_char=73
+9	island	island	NOUN	NN	Number=Sing	8	_	_	start_char=74|end_char=80
+10	start	start	VERB	VB	VerbForm=Inf	9	_	_	start_char=81|end_char=86
+11	falling	fall	VERB	VBG	VerbForm=Ger	10	_	_	start_char=87|end_char=94
+12	apart	apart	ADV	RB	_	11	_	_	start_char=95|end_char=100
+13	immediately	immediately	ADV	RB	_	12	_	_	start_char=101|end_char=112|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=112|end_char=113
+
+# text = [URL]
+# sent_id = 90809
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=114|end_char=115|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=115|end_char=118|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=118|end_char=119|SpaceAfter=No
+

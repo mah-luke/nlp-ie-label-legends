@@ -1,0 +1,41 @@
+# text = Delete.
+# sent_id = 470
+1	Delete	delete	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=6|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=6|end_char=7
+
+# text = I fucked a girl.
+# sent_id = 471
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=8|end_char=9
+2	fucked	fuck	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=10|end_char=16
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=17|end_char=18
+4	girl	girl	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=23|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=23|end_char=24
+
+# text = Next I text her and she said she had fun but then blocked on iMessage lol.
+# sent_id = 472
+1	Next	next	ADV	RB	_	0	_	_	start_char=25|end_char=29
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=30|end_char=31
+3	text	text	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=32|end_char=36
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=37|end_char=40
+5	and	and	CCONJ	CC	_	4	_	_	start_char=41|end_char=44
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=45|end_char=48
+7	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=49|end_char=53
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=54|end_char=57
+9	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=58|end_char=61
+10	fun	fun	NOUN	NN	Number=Sing	9	_	_	start_char=62|end_char=65
+11	but	but	CCONJ	CC	_	10	_	_	start_char=66|end_char=69
+12	then	then	ADV	RB	PronType=Dem	11	_	_	start_char=70|end_char=74
+13	blocked	block	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=75|end_char=82
+14	on	on	ADP	IN	_	13	_	_	start_char=83|end_char=85
+15	iMessage	iMessage	PROPN	NNP	Number=Sing	14	_	_	start_char=86|end_char=94
+16	lol	lol	INTJ	UH	_	15	_	_	start_char=95|end_char=98|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=98|end_char=99
+
+# text = Who the fuck knows?
+# sent_id = 473
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=100|end_char=103
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=104|end_char=107
+3	fuck	fuck	NOUN	NN	Number=Sing	2	_	_	start_char=108|end_char=112
+4	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=113|end_char=118|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=118|end_char=119|SpaceAfter=No
+

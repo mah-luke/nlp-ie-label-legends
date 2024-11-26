@@ -1,0 +1,29 @@
+# text = .[USER] wants a federal court to block the Senate from confirming Brett Kavanaugh.
+# sent_id = 19070
+1	.	.	PUNCT	.	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=1|end_char=2|SpaceAfter=No
+3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=2|end_char=6|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=6|end_char=7
+5	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=8|end_char=13
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=14|end_char=15
+7	federal	federal	ADJ	JJ	Degree=Pos	6	_	_	start_char=16|end_char=23
+8	court	court	NOUN	NN	Number=Sing	7	_	_	start_char=24|end_char=29
+9	to	to	PART	TO	_	8	_	_	start_char=30|end_char=32
+10	block	block	VERB	VB	VerbForm=Inf	9	_	_	start_char=33|end_char=38
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=39|end_char=42
+12	Senate	Senate	PROPN	NNP	Number=Sing	11	_	_	start_char=43|end_char=49
+13	from	from	SCONJ	IN	_	12	_	_	start_char=50|end_char=54
+14	confirming	confirm	VERB	VBG	VerbForm=Ger	13	_	_	start_char=55|end_char=65
+15	Brett	Brett	PROPN	NNP	Number=Sing	14	_	_	start_char=66|end_char=71
+16	Kavanaugh	Kavanaugh	PROPN	NNP	Number=Sing	15	_	_	start_char=72|end_char=81|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=81|end_char=82
+
+# text = [URL] [USER]
+# sent_id = 19071
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=83|end_char=84|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=84|end_char=87|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=87|end_char=88
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=89|end_char=90|SpaceAfter=No
+5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=90|end_char=94|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=94|end_char=95|SpaceAfter=No
+

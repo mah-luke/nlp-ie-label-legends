@@ -1,0 +1,24 @@
+# text = Would like to cut but wife gotta have her shows.
+# sent_id = 62768
+1	Would	would	AUX	MD	VerbForm=Fin	0	_	_	start_char=0|end_char=5
+2	like	like	VERB	VB	VerbForm=Inf	1	_	_	start_char=6|end_char=10
+3	to	to	PART	TO	_	2	_	_	start_char=11|end_char=13
+4	cut	cut	VERB	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=17
+5	but	but	CCONJ	CC	_	4	_	_	start_char=18|end_char=21
+6	wife	wife	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=26
+7-8	gotta	_	_	_	_	_	_	_	start_char=27|end_char=32
+7	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=27|end_char=30
+8	ta	to	PART	TO	_	7	_	_	start_char=30|end_char=32
+9	have	have	VERB	VB	VerbForm=Inf	8	_	_	start_char=33|end_char=37
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=38|end_char=41
+11	shows	show	NOUN	NNS	Number=Plur	10	_	_	start_char=42|end_char=47|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=47|end_char=48
+
+# text = Happy wife, happy life
+# sent_id = 62769
+1	Happy	happy	ADJ	JJ	Degree=Pos	0	_	_	start_char=49|end_char=54
+2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=55|end_char=59|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=59|end_char=60
+4	happy	happy	ADJ	JJ	Degree=Pos	3	_	_	start_char=61|end_char=66
+5	life	life	NOUN	NN	Number=Sing	4	_	_	start_char=67|end_char=71|SpaceAfter=No
+

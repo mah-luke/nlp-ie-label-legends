@@ -1,0 +1,34 @@
+# text = In my experience women don't recommend guys to their friends.
+# sent_id = 111165
+1	In	in	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	experience	experience	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=16
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=17|end_char=22
+5-6	don't	_	_	_	_	_	_	_	start_char=23|end_char=28
+5	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=23|end_char=25
+6	n't	not	PART	RB	_	5	_	_	start_char=25|end_char=28
+7	recommend	recommend	VERB	VB	VerbForm=Inf	6	_	_	start_char=29|end_char=38
+8	guys	guy	NOUN	NNS	Number=Plur	7	_	_	start_char=39|end_char=43
+9	to	to	ADP	IN	_	8	_	_	start_char=44|end_char=46
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=47|end_char=52
+11	friends	friend	NOUN	NNS	Number=Plur	10	_	_	start_char=53|end_char=60|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=60|end_char=61
+
+# text = If she doesn't want him then mostt likely other women don't
+# sent_id = 111166
+1	If	if	SCONJ	IN	_	0	_	_	start_char=62|end_char=64
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=65|end_char=68
+3-4	doesn't	_	_	_	_	_	_	_	start_char=69|end_char=76
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=69|end_char=73
+4	n't	not	PART	RB	_	3	_	_	start_char=73|end_char=76
+5	want	want	VERB	VB	VerbForm=Inf	4	_	_	start_char=77|end_char=81
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=82|end_char=85
+7	then	then	ADV	RB	PronType=Dem	6	_	_	start_char=86|end_char=90
+8	mostt	mostt	ADV	RB	_	7	_	_	start_char=91|end_char=96
+9	likely	likely	ADV	RB	_	8	_	_	start_char=97|end_char=103
+10	other	other	ADJ	JJ	Degree=Pos	9	_	_	start_char=104|end_char=109
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=110|end_char=115
+12-13	don't	_	_	_	_	_	_	_	start_char=116|end_char=121|SpaceAfter=No
+12	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=116|end_char=118
+13	n't	not	PART	RB	_	12	_	_	start_char=118|end_char=121
+

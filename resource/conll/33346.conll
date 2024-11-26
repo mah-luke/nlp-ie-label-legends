@@ -1,0 +1,51 @@
+# text = This guy dodged a bullet.
+# sent_id = 71386
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=8
+3	dodged	dodg	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=9|end_char=15
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=16|end_char=17
+5	bullet	bullet	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=24|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=24|end_char=25
+
+# text = Notice her entitlement.
+# sent_id = 71387
+1	Notice	notice	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=26|end_char=32
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=33|end_char=36
+3	entitlement	entitlement	NOUN	NN	Number=Sing	2	_	_	start_char=37|end_char=48|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=48|end_char=49
+
+# text = She believes he had no right to dump her lol.
+# sent_id = 71388
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=50|end_char=53
+2	believes	believe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=54|end_char=62
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=63|end_char=65
+4	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=66|end_char=69
+5	no	no	DET	DT	_	4	_	_	start_char=70|end_char=72
+6	right	right	NOUN	NN	Number=Sing	5	_	_	start_char=73|end_char=78
+7	to	to	PART	TO	_	6	_	_	start_char=79|end_char=81
+8	dump	dump	VERB	VB	VerbForm=Inf	7	_	_	start_char=82|end_char=86
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=87|end_char=90
+10	lol	lol	INTJ	UH	_	9	_	_	start_char=91|end_char=94|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=94|end_char=95
+
+# text = If you aren't married either party is allowed to leave a relationship for ANY reason.
+# sent_id = 71389
+1	If	if	SCONJ	IN	_	0	_	_	start_char=96|end_char=98
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=99|end_char=102
+3-4	aren't	_	_	_	_	_	_	_	start_char=103|end_char=109
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=103|end_char=106
+4	n't	not	PART	RB	_	3	_	_	start_char=106|end_char=109
+5	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=110|end_char=117
+6	either	either	DET	DT	PronType=Art	5	_	_	start_char=118|end_char=124
+7	party	party	NOUN	NN	Number=Sing	6	_	_	start_char=125|end_char=130
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=131|end_char=133
+9	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=134|end_char=141
+10	to	to	PART	TO	_	9	_	_	start_char=142|end_char=144
+11	leave	leave	VERB	VB	VerbForm=Inf	10	_	_	start_char=145|end_char=150
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=151|end_char=152
+13	relationship	relationship	NOUN	NN	Number=Sing	12	_	_	start_char=153|end_char=165
+14	for	for	ADP	IN	_	13	_	_	start_char=166|end_char=169
+15	ANY	any	DET	DT	_	14	_	_	start_char=170|end_char=173
+16	reason	reason	NOUN	NN	Number=Sing	15	_	_	start_char=174|end_char=180|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=180|end_char=181|SpaceAfter=No
+

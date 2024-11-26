@@ -1,0 +1,80 @@
+# text = Good luck man!
+# sent_id = 96905
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	luck	luck	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9
+3	man	man	NOUN	NN	Number=Sing	2	_	_	start_char=10|end_char=13|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=13|end_char=14
+
+# text = Ultimately, less is more.
+# sent_id = 96906
+1	Ultimately	ultimately	ADV	RB	_	0	_	_	start_char=15|end_char=25|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=25|end_char=26
+3	less	less	ADJ	JJR	Degree=Cmp	2	_	_	start_char=27|end_char=31
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=32|end_char=34
+5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=35|end_char=39|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=39|end_char=40
+
+# text = When I act a bit more aloof, I tend to get better results.
+# sent_id = 96907
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=41|end_char=45
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=46|end_char=47
+3	act	act	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=48|end_char=51
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=52|end_char=53
+5	bit	bit	NOUN	NN	Number=Sing	4	_	_	start_char=54|end_char=57
+6	more	more	ADV	RBR	Degree=Cmp	5	_	_	start_char=58|end_char=62
+7	aloof	aloof	ADJ	JJ	Degree=Pos	6	_	_	start_char=63|end_char=68|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=68|end_char=69
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=70|end_char=71
+10	tend	tend	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=72|end_char=76
+11	to	to	PART	TO	_	10	_	_	start_char=77|end_char=79
+12	get	get	VERB	VB	VerbForm=Inf	11	_	_	start_char=80|end_char=83
+13	better	good	ADJ	JJR	Degree=Cmp	12	_	_	start_char=84|end_char=90
+14	results	result	NOUN	NNS	Number=Plur	13	_	_	start_char=91|end_char=98|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=98|end_char=99
+
+# text = If a girl doesn't want to be with me again, so what?
+# sent_id = 96908
+1	If	if	SCONJ	IN	_	0	_	_	start_char=100|end_char=102
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=103|end_char=104
+3	girl	girl	NOUN	NN	Number=Sing	2	_	_	start_char=105|end_char=109
+4-5	doesn't	_	_	_	_	_	_	_	start_char=110|end_char=117
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=110|end_char=114
+5	n't	not	PART	RB	_	4	_	_	start_char=114|end_char=117
+6	want	want	VERB	VB	VerbForm=Inf	5	_	_	start_char=118|end_char=122
+7	to	to	PART	TO	_	6	_	_	start_char=123|end_char=125
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=126|end_char=128
+9	with	with	ADP	IN	_	8	_	_	start_char=129|end_char=133
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=134|end_char=136
+11	again	again	ADV	RB	_	10	_	_	start_char=137|end_char=142|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=142|end_char=143
+13	so	so	ADV	RB	_	12	_	_	start_char=144|end_char=146
+14	what	what	PRON	WP	PronType=Int	13	_	_	start_char=147|end_char=151|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=151|end_char=152
+
+# text = I can find other girls.
+# sent_id = 96909
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=153|end_char=154
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=155|end_char=158
+3	find	find	VERB	VB	VerbForm=Inf	2	_	_	start_char=159|end_char=163
+4	other	other	ADJ	JJ	Degree=Pos	3	_	_	start_char=164|end_char=169
+5	girls	girl	NOUN	NNS	Number=Plur	4	_	_	start_char=170|end_char=175|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=175|end_char=176
+
+# text = Oneitis is a hell of a disease.
+# sent_id = 96910
+1	Oneitis	oneitis	NOUN	NNS	Number=Plur	0	_	_	start_char=177|end_char=184
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=185|end_char=187
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=188|end_char=189
+4	hell	hell	NOUN	NN	Number=Sing	3	_	_	start_char=190|end_char=194
+5	of	of	ADP	IN	_	4	_	_	start_char=195|end_char=197
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=198|end_char=199
+7	disease	disease	NOUN	NN	Number=Sing	6	_	_	start_char=200|end_char=207|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=207|end_char=208
+
+# text = It warps your brain
+# sent_id = 96911
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=209|end_char=211
+2	warps	warp	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=212|end_char=217
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=218|end_char=222
+4	brain	brain	NOUN	NN	Number=Sing	3	_	_	start_char=223|end_char=228|SpaceAfter=No
+

@@ -1,0 +1,65 @@
+# text = If you *tell* her that she's replaceable, then she has to wonder why you feel the need to say that.
+# sent_id = 74380
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	*	*	PUNCT	NFP	_	2	_	_	start_char=7|end_char=8|SpaceAfter=No
+4	tell	tell	VERB	VB	VerbForm=Inf	3	_	_	start_char=8|end_char=12|SpaceAfter=No
+5	*	*	PUNCT	NFP	_	4	_	_	start_char=12|end_char=13
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=14|end_char=17
+7	that	that	SCONJ	IN	_	6	_	_	start_char=18|end_char=22
+8-9	she's	_	_	_	_	_	_	_	start_char=23|end_char=28
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=23|end_char=26
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=26|end_char=28
+10	replaceable	replaceable	ADJ	JJ	Degree=Pos	9	_	_	start_char=29|end_char=40|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=40|end_char=41
+12	then	then	ADV	RB	PronType=Dem	11	_	_	start_char=42|end_char=46
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=47|end_char=50
+14	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=51|end_char=54
+15	to	to	PART	TO	_	14	_	_	start_char=55|end_char=57
+16	wonder	wonder	VERB	VB	VerbForm=Inf	15	_	_	start_char=58|end_char=64
+17	why	why	ADV	WRB	PronType=Int	16	_	_	start_char=65|end_char=68
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	_	_	start_char=69|end_char=72
+19	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	_	_	start_char=73|end_char=77
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=78|end_char=81
+21	need	need	NOUN	NN	Number=Sing	20	_	_	start_char=82|end_char=86
+22	to	to	PART	TO	_	21	_	_	start_char=87|end_char=89
+23	say	say	VERB	VB	VerbForm=Inf	22	_	_	start_char=90|end_char=93
+24	that	that	PRON	DT	Number=Sing|PronType=Dem	23	_	_	start_char=94|end_char=98|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=98|end_char=99
+
+# text = It stinks of weakness and insecurity.
+# sent_id = 74381
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=100|end_char=102
+2	stinks	stink	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=103|end_char=109
+3	of	of	ADP	IN	_	2	_	_	start_char=110|end_char=112
+4	weakness	weakness	NOUN	NN	Number=Sing	3	_	_	start_char=113|end_char=121
+5	and	and	CCONJ	CC	_	4	_	_	start_char=122|end_char=125
+6	insecurity	insecurity	NOUN	NN	Number=Sing	5	_	_	start_char=126|end_char=136|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=136|end_char=137
+
+# text = Instead, punish her when she misbehaves.
+# sent_id = 74382
+1	Instead	instead	ADV	RB	_	0	_	_	start_char=138|end_char=145|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=145|end_char=146
+3	punish	punish	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=147|end_char=153
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=154|end_char=157
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=158|end_char=162
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=163|end_char=166
+7	misbehaves	misbehave	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=167|end_char=177|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=177|end_char=178
+
+# text = Let the withdrawal of your attention and interest do the talking.
+# sent_id = 74383
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=179|end_char=182
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=183|end_char=186
+3	withdrawal	withdrawal	NOUN	NN	Number=Sing	2	_	_	start_char=187|end_char=197
+4	of	of	ADP	IN	_	3	_	_	start_char=198|end_char=200
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=201|end_char=205
+6	attention	attention	NOUN	NN	Number=Sing	5	_	_	start_char=206|end_char=215
+7	and	and	CCONJ	CC	_	6	_	_	start_char=216|end_char=219
+8	interest	interest	NOUN	NN	Number=Sing	7	_	_	start_char=220|end_char=228
+9	do	do	VERB	VB	Mood=Ind|VerbForm=Fin	8	_	_	start_char=229|end_char=231
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=232|end_char=235
+11	talking	talking	NOUN	NN	Number=Sing	10	_	_	start_char=236|end_char=243|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=243|end_char=244|SpaceAfter=No
+

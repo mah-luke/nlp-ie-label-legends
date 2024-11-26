@@ -1,0 +1,18 @@
+# text = Here's one estimate of the butcher's bill: [URL]
+# sent_id = 16554
+1-2	Here's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	2	_	_	start_char=7|end_char=10
+4	estimate	estimate	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=19
+5	of	of	ADP	IN	_	4	_	_	start_char=20|end_char=22
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=23|end_char=26
+7-8	butcher's	_	_	_	_	_	_	_	start_char=27|end_char=36
+7	butcher	butcher	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=34
+8	's	's	PART	POS	_	7	_	_	start_char=34|end_char=36
+9	bill	bill	NOUN	NN	Number=Sing	8	_	_	start_char=37|end_char=41|SpaceAfter=No
+10	:	:	PUNCT	:	_	9	_	_	start_char=41|end_char=42
+11	[	[	PUNCT	-LRB-	_	10	_	_	start_char=43|end_char=44|SpaceAfter=No
+12	URL	URL	PROPN	NNP	Number=Sing	11	_	_	start_char=44|end_char=47|SpaceAfter=No
+13	]	]	PUNCT	-RRB-	_	12	_	_	start_char=47|end_char=48|SpaceAfter=No
+

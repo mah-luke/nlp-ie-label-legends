@@ -1,0 +1,67 @@
+# text = Lol no.
+# sent_id = 69517
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	no	no	INTJ	UH	Polarity=Neg	1	_	_	start_char=4|end_char=6|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=6|end_char=7
+
+# text = Fuck no dude.
+# sent_id = 69518
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=8|end_char=12
+2	no	no	DET	DT	_	1	_	_	start_char=13|end_char=15
+3	dude	dude	NOUN	NN	Number=Sing	2	_	_	start_char=16|end_char=20|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=20|end_char=21
+
+# text = I ditched her long time ago.
+# sent_id = 69519
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=22|end_char=23
+2	ditched	ditch	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=24|end_char=31
+3	her	her	PRON	PRP$	Case=Acc|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=32|end_char=35
+4	long	long	ADJ	JJ	Degree=Pos	3	_	_	start_char=36|end_char=40
+5	time	time	NOUN	NN	Number=Sing	4	_	_	start_char=41|end_char=45
+6	ago	ago	ADV	RB	_	5	_	_	start_char=46|end_char=49|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=49|end_char=50
+
+# text = Havent dated in years, too much trouble and misery sifting through the grifter bitches.
+# sent_id = 69520
+1	Havent	havent	ADV	RB	_	0	_	_	start_char=51|end_char=57
+2	dated	date	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=58|end_char=63
+3	in	in	ADP	IN	_	2	_	_	start_char=64|end_char=66
+4	years	year	NOUN	NNS	Number=Plur	3	_	_	start_char=67|end_char=72|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=72|end_char=73
+6	too	too	ADV	RB	_	5	_	_	start_char=74|end_char=77
+7	much	much	ADJ	JJ	Degree=Pos	6	_	_	start_char=78|end_char=82
+8	trouble	trouble	NOUN	NN	Number=Sing	7	_	_	start_char=83|end_char=90
+9	and	and	CCONJ	CC	_	8	_	_	start_char=91|end_char=94
+10	misery	misery	NOUN	NN	Number=Sing	9	_	_	start_char=95|end_char=101
+11	sifting	sift	VERB	VBG	VerbForm=Ger	10	_	_	start_char=102|end_char=109
+12	through	through	ADP	IN	_	11	_	_	start_char=110|end_char=117
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=118|end_char=121
+14	grifter	grifter	NOUN	NN	Number=Sing	13	_	_	start_char=122|end_char=129
+15	bitches	bitch	NOUN	NNS	Number=Plur	14	_	_	start_char=130|end_char=137|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=137|end_char=138
+
+# text = you are 100% right though, It would be completely my fault if I was still with someone like that.
+# sent_id = 69521
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=139|end_char=142
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=143|end_char=146
+3	100	100	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=147|end_char=150|SpaceAfter=No
+4	%	%	SYM	NN	Number=Sing	3	_	_	start_char=150|end_char=151
+5	right	right	ADV	RB	_	4	_	_	start_char=152|end_char=157
+6	though	though	ADV	RB	_	5	_	_	start_char=158|end_char=164|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=164|end_char=165
+8	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=166|end_char=168
+9	would	would	AUX	MD	VerbForm=Fin	8	_	_	start_char=169|end_char=174
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=175|end_char=177
+11	completely	completely	ADV	RB	_	10	_	_	start_char=178|end_char=188
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	_	_	start_char=189|end_char=191
+13	fault	fault	NOUN	NN	Number=Sing	12	_	_	start_char=192|end_char=197
+14	if	if	SCONJ	IN	_	13	_	_	start_char=198|end_char=200
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=201|end_char=202
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=203|end_char=206
+17	still	still	ADV	RB	_	16	_	_	start_char=207|end_char=212
+18	with	with	ADP	IN	_	17	_	_	start_char=213|end_char=217
+19	someone	someone	PRON	NN	Number=Sing|PronType=Ind	18	_	_	start_char=218|end_char=225
+20	like	like	ADP	IN	_	19	_	_	start_char=226|end_char=230
+21	that	that	PRON	DT	Number=Sing|PronType=Dem	20	_	_	start_char=231|end_char=235|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=235|end_char=236|SpaceAfter=No
+

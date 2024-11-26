@@ -1,0 +1,40 @@
+# text = DangerGirl's original favorite cars from when she was a child.
+# sent_id = 97204
+1-2	DangerGirl's	_	_	_	_	_	_	_	start_char=0|end_char=12
+1	DangerGirl	DangerGirl	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=10
+2	's	's	PART	POS	_	1	_	_	start_char=10|end_char=12
+3	original	original	ADJ	JJ	Degree=Pos	2	_	_	start_char=13|end_char=21
+4	favorite	favorite	ADJ	JJ	Degree=Pos	3	_	_	start_char=22|end_char=30
+5	cars	car	NOUN	NNS	Number=Plur	4	_	_	start_char=31|end_char=35
+6	from	from	ADP	IN	_	5	_	_	start_char=36|end_char=40
+7	when	when	ADV	WRB	PronType=Int	6	_	_	start_char=41|end_char=45
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=46|end_char=49
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=50|end_char=53
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=54|end_char=55
+11	child	child	NOUN	NN	Number=Sing	10	_	_	start_char=56|end_char=61|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=61|end_char=62
+
+# text = C4 Corvette Ferrari F40 Acura NSX Porsche 944 Lamborghini Countach Lotus Esprit Toyota Supra Pontiac Firebird (my first car)
+# sent_id = 97205
+1	C4	C4	PROPN	NNP	Number=Sing	0	_	_	start_char=63|end_char=65
+2	Corvette	Corvette	PROPN	NNP	Number=Sing	1	_	_	start_char=66|end_char=74
+3	Ferrari	Ferrari	PROPN	NNP	Number=Sing	2	_	_	start_char=75|end_char=82
+4	F40	F40	PROPN	NNP	Number=Sing	3	_	_	start_char=83|end_char=86
+5	Acura	Acura	PROPN	NNP	Number=Sing	4	_	_	start_char=87|end_char=92
+6	NSX	NSX	PROPN	NNP	Number=Sing	5	_	_	start_char=93|end_char=96
+7	Porsche	Porsche	PROPN	NNP	Number=Sing	6	_	_	start_char=97|end_char=104
+8	944	944	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=105|end_char=108
+9	Lamborghini	Lamborghini	PROPN	NNP	Number=Sing	8	_	_	start_char=109|end_char=120
+10	Countach	Countach	PROPN	NNP	Number=Sing	9	_	_	start_char=121|end_char=129
+11	Lotus	Lotus	PROPN	NNP	Number=Sing	10	_	_	start_char=130|end_char=135
+12	Esprit	Esprit	PROPN	NNP	Number=Sing	11	_	_	start_char=136|end_char=142
+13	Toyota	Toyota	PROPN	NNP	Number=Sing	12	_	_	start_char=143|end_char=149
+14	Supra	Supra	PROPN	NNP	Number=Sing	13	_	_	start_char=150|end_char=155
+15	Pontiac	Pontiac	PROPN	NNP	Number=Sing	14	_	_	start_char=156|end_char=163
+16	Firebird	Firebird	PROPN	NNP	Number=Sing	15	_	_	start_char=164|end_char=172
+17	(	(	PUNCT	-LRB-	_	16	_	_	start_char=173|end_char=174|SpaceAfter=No
+18	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	_	_	start_char=174|end_char=176
+19	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	18	_	_	start_char=177|end_char=182
+20	car	car	NOUN	NN	Number=Sing	19	_	_	start_char=183|end_char=186|SpaceAfter=No
+21	)	)	PUNCT	-RRB-	_	20	_	_	start_char=186|end_char=187|SpaceAfter=No
+

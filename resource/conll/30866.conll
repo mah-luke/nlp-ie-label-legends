@@ -1,0 +1,38 @@
+# text = IMHO I would have done the same, and then moved on.
+# sent_id = 66187
+1	IMHO	imho	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=5|end_char=6
+3	would	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=7|end_char=12
+4	have	have	AUX	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=17
+5	done	do	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=18|end_char=22
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=23|end_char=26
+7	same	same	ADJ	JJ	Degree=Pos	6	_	_	start_char=27|end_char=31|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=31|end_char=32
+9	and	and	CCONJ	CC	_	8	_	_	start_char=33|end_char=36
+10	then	then	ADV	RB	PronType=Dem	9	_	_	start_char=37|end_char=41
+11	moved	move	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	_	_	start_char=42|end_char=47
+12	on	on	ADP	RP	_	11	_	_	start_char=48|end_char=50|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=50|end_char=51
+
+# text = So yeah, say, what a bitch, move on, what's wrong with this?
+# sent_id = 66188
+1	So	so	INTJ	UH	_	0	_	_	start_char=52|end_char=54
+2	yeah	yeah	INTJ	UH	_	1	_	_	start_char=55|end_char=59|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=59|end_char=60
+4	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=61|end_char=64|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=64|end_char=65
+6	what	what	DET	WDT	PronType=Int	5	_	_	start_char=66|end_char=70
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=71|end_char=72
+8	bitch	bitch	NOUN	NN	Number=Sing	7	_	_	start_char=73|end_char=78|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=78|end_char=79
+10	move	move	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=80|end_char=84
+11	on	on	ADP	RP	_	10	_	_	start_char=85|end_char=87|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=87|end_char=88
+13-14	what's	_	_	_	_	_	_	_	start_char=89|end_char=95
+13	what	what	PRON	WP	PronType=Int	12	_	_	start_char=89|end_char=93
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=93|end_char=95
+15	wrong	wrong	ADJ	JJ	Degree=Pos	14	_	_	start_char=96|end_char=101
+16	with	with	ADP	IN	_	15	_	_	start_char=102|end_char=106
+17	this	this	PRON	DT	Number=Sing|PronType=Dem	16	_	_	start_char=107|end_char=111|SpaceAfter=No
+18	?	?	PUNCT	.	_	17	_	_	start_char=111|end_char=112|SpaceAfter=No
+

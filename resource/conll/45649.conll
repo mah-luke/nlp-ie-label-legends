@@ -1,0 +1,32 @@
+# text = And 0.5 is a relationship where the male and female are the exact same height.
+# sent_id = 97448
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	0.5	0.5	NUM	CD	NumForm=Digit|NumType=Frac	1	_	_	start_char=4|end_char=7
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=10
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=11|end_char=12
+5	relationship	relationship	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=25
+6	where	where	ADV	WRB	PronType=Rel	5	_	_	start_char=26|end_char=31
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=32|end_char=35
+8	male	male	NOUN	NN	Number=Sing	7	_	_	start_char=36|end_char=40
+9	and	and	CCONJ	CC	_	8	_	_	start_char=41|end_char=44
+10	female	female	NOUN	NN	Number=Sing	9	_	_	start_char=45|end_char=51
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=52|end_char=55
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=56|end_char=59
+13	exact	exact	ADJ	JJ	Degree=Pos	12	_	_	start_char=60|end_char=65
+14	same	same	ADJ	JJ	Degree=Pos	13	_	_	start_char=66|end_char=70
+15	height	height	NOUN	NN	Number=Sing	14	_	_	start_char=71|end_char=77|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=77|end_char=78
+
+# text = The other 0.5 is the female actually being taller.
+# sent_id = 97449
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=79|end_char=82
+2	other	other	ADJ	JJ	Degree=Pos	1	_	_	start_char=83|end_char=88
+3	0.5	0.5	NUM	CD	NumForm=Digit|NumType=Frac	2	_	_	start_char=89|end_char=92
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=93|end_char=95
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=96|end_char=99
+6	female	female	NOUN	NN	Number=Sing	5	_	_	start_char=100|end_char=106
+7	actually	actually	ADV	RB	_	6	_	_	start_char=107|end_char=115
+8	being	be	AUX	VBG	VerbForm=Ger	7	_	_	start_char=116|end_char=121
+9	taller	tall	ADJ	JJR	Degree=Cmp	8	_	_	start_char=122|end_char=128|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=128|end_char=129|SpaceAfter=No
+

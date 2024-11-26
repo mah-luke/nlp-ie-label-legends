@@ -1,0 +1,49 @@
+# text = I agree, its a VERY fine line.
+# sent_id = 52386
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=7|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=7|end_char=8
+4	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=9|end_char=12
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=13|end_char=14
+6	VERY	very	ADV	RB	_	5	_	_	start_char=15|end_char=19
+7	fine	fine	ADJ	JJ	Degree=Pos	6	_	_	start_char=20|end_char=24
+8	line	line	NOUN	NN	Number=Sing	7	_	_	start_char=25|end_char=29|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=29|end_char=30
+
+# text = I've been called an asshole more times than I can count.
+# sent_id = 52387
+1-2	I've	_	_	_	_	_	_	_	start_char=31|end_char=35
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=31|end_char=32
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=35
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=36|end_char=40
+4	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=41|end_char=47
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=48|end_char=50
+6	asshole	asshole	NOUN	NN	Number=Sing	5	_	_	start_char=51|end_char=58
+7	more	more	ADJ	JJR	Degree=Cmp	6	_	_	start_char=59|end_char=63
+8	times	time	NOUN	NNS	Number=Plur	7	_	_	start_char=64|end_char=69
+9	than	than	SCONJ	IN	_	8	_	_	start_char=70|end_char=74
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=75|end_char=76
+11	can	can	AUX	MD	VerbForm=Fin	10	_	_	start_char=77|end_char=80
+12	count	count	VERB	VB	VerbForm=Inf	11	_	_	start_char=81|end_char=86|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=86|end_char=87
+
+# text = But it was a good base on which I added some humility and things started clicking.
+# sent_id = 52388
+1	But	but	CCONJ	CC	_	0	_	_	start_char=88|end_char=91
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=92|end_char=94
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=95|end_char=98
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=99|end_char=100
+5	good	good	ADJ	JJ	Degree=Pos	4	_	_	start_char=101|end_char=105
+6	base	base	NOUN	NN	Number=Sing	5	_	_	start_char=106|end_char=110
+7	on	on	ADP	IN	_	6	_	_	start_char=111|end_char=113
+8	which	which	PRON	WDT	PronType=Rel	7	_	_	start_char=114|end_char=119
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=120|end_char=121
+10	added	add	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	_	_	start_char=122|end_char=127
+11	some	some	DET	DT	_	10	_	_	start_char=128|end_char=132
+12	humility	humility	NOUN	NN	Number=Sing	11	_	_	start_char=133|end_char=141
+13	and	and	CCONJ	CC	_	12	_	_	start_char=142|end_char=145
+14	things	thing	NOUN	NNS	Number=Plur	13	_	_	start_char=146|end_char=152
+15	started	start	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=153|end_char=160
+16	clicking	click	VERB	VBG	VerbForm=Ger	15	_	_	start_char=161|end_char=169|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=169|end_char=170|SpaceAfter=No
+

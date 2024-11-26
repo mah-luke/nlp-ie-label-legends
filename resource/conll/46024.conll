@@ -1,0 +1,16 @@
+# text = [USER]
+# sent_id = 98324
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Look at her rosette [URL]
+# sent_id = 98325
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=7|end_char=11
+2	at	at	ADP	IN	_	1	_	_	start_char=12|end_char=14
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=15|end_char=18
+4	rosette	rosette	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=26
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=27|end_char=28|SpaceAfter=No
+6	URL	URL	PROPN	NNP	Number=Sing	5	_	_	start_char=28|end_char=31|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=31|end_char=32|SpaceAfter=No
+

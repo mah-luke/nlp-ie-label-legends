@@ -1,0 +1,38 @@
+# text = [USER] "year round winter wear, for the icy elite bitch of today."
+# sent_id = 77837
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	"	"	PUNCT	''	_	3	_	_	start_char=7|end_char=8|SpaceAfter=No
+5	year	year	NOUN	NN	Number=Sing	4	_	_	start_char=8|end_char=12
+6	round	round	NOUN	NN	Number=Sing	5	_	_	start_char=13|end_char=18
+7	winter	winter	NOUN	NN	Number=Sing	6	_	_	start_char=19|end_char=25
+8	wear	wear	NOUN	NN	Number=Sing	7	_	_	start_char=26|end_char=30|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=30|end_char=31
+10	for	for	ADP	IN	_	9	_	_	start_char=32|end_char=35
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=36|end_char=39
+12	icy	icy	ADJ	JJ	Degree=Pos	11	_	_	start_char=40|end_char=43
+13	elite	elite	ADJ	JJ	Degree=Pos	12	_	_	start_char=44|end_char=49
+14	bitch	bitch	NOUN	NN	Number=Sing	13	_	_	start_char=50|end_char=55
+15	of	of	ADP	IN	_	14	_	_	start_char=56|end_char=58
+16	today	today	NOUN	NN	Number=Sing	15	_	_	start_char=59|end_char=64|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=64|end_char=65|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=65|end_char=66
+
+# text = she shears her sheep and wears their wool as a sign of dominance.
+# sent_id = 77838
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=67|end_char=70
+2	shears	shear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=71|end_char=77
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=78|end_char=81
+4	sheep	sheep	NOUN	NN	Number=Sing	3	_	_	start_char=82|end_char=87
+5	and	and	CCONJ	CC	_	4	_	_	start_char=88|end_char=91
+6	wears	wear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=92|end_char=97
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=98|end_char=103
+8	wool	wool	NOUN	NN	Number=Sing	7	_	_	start_char=104|end_char=108
+9	as	as	ADP	IN	_	8	_	_	start_char=109|end_char=111
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=112|end_char=113
+11	sign	sign	NOUN	NN	Number=Sing	10	_	_	start_char=114|end_char=118
+12	of	of	ADP	IN	_	11	_	_	start_char=119|end_char=121
+13	dominance	dominance	NOUN	NN	Number=Sing	12	_	_	start_char=122|end_char=131|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=131|end_char=132|SpaceAfter=No
+

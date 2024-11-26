@@ -1,0 +1,45 @@
+# text = Anyone that doesn't heed mandatory evac...
+# sent_id = 3192
+1	Anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	0	_	_	start_char=0|end_char=6
+2	that	that	PRON	WDT	PronType=Rel	1	_	_	start_char=7|end_char=11
+3-4	doesn't	_	_	_	_	_	_	_	start_char=12|end_char=19
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=16
+4	n't	not	PART	RB	_	3	_	_	start_char=16|end_char=19
+5	heed	heed	VERB	VB	VerbForm=Inf	4	_	_	start_char=20|end_char=24
+6	mandatory	mandatory	ADJ	JJ	Degree=Pos	5	_	_	start_char=25|end_char=34
+7	evac	evac	NOUN	NN	Number=Sing	6	_	_	start_char=35|end_char=39|SpaceAfter=No
+8	...	...	PUNCT	.	_	7	_	_	start_char=39|end_char=42
+
+# text = Their choice, but I have ZERO pity.
+# sent_id = 3193
+1	Their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=43|end_char=48
+2	choice	choice	NOUN	NN	Number=Sing	1	_	_	start_char=49|end_char=55|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=55|end_char=56
+4	but	but	CCONJ	CC	_	3	_	_	start_char=57|end_char=60
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=61|end_char=62
+6	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=63|end_char=67
+7	ZERO	zero	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=68|end_char=72
+8	pity	pity	NOUN	NN	Number=Sing	7	_	_	start_char=73|end_char=77|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=77|end_char=78
+
+# text = (Only thing I wonder is, 92, is she all there in the mind? )
+# sent_id = 3194
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=79|end_char=80|SpaceAfter=No
+2	Only	only	ADV	RB	_	1	_	_	start_char=80|end_char=84
+3	thing	thing	NOUN	NN	Number=Sing	2	_	_	start_char=85|end_char=90
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=91|end_char=92
+5	wonder	wonder	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=93|end_char=99
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=100|end_char=102|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=102|end_char=103
+8	92	92	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=104|end_char=106|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=106|end_char=107
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=108|end_char=110
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=111|end_char=114
+12	all	all	ADV	RB	_	11	_	_	start_char=115|end_char=118
+13	there	there	ADV	RB	PronType=Dem	12	_	_	start_char=119|end_char=124
+14	in	in	ADP	IN	_	13	_	_	start_char=125|end_char=127
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=128|end_char=131
+16	mind	mind	NOUN	NN	Number=Sing	15	_	_	start_char=132|end_char=136|SpaceAfter=No
+17	?	?	PUNCT	.	_	16	_	_	start_char=136|end_char=137
+18	)	)	PUNCT	-RRB-	_	17	_	_	start_char=138|end_char=139|SpaceAfter=No
+

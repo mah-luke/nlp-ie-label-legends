@@ -1,0 +1,67 @@
+# text = How do you know if someone wants to talk to you before you talk to them and find out?
+# sent_id = 3669
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=7|end_char=10
+4	know	know	VERB	VB	VerbForm=Inf	3	_	_	start_char=11|end_char=15
+5	if	if	SCONJ	IN	_	4	_	_	start_char=16|end_char=18
+6	someone	someone	PRON	NN	Number=Sing|PronType=Ind	5	_	_	start_char=19|end_char=26
+7	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=27|end_char=32
+8	to	to	PART	TO	_	7	_	_	start_char=33|end_char=35
+9	talk	talk	VERB	VB	VerbForm=Inf	8	_	_	start_char=36|end_char=40
+10	to	to	ADP	IN	_	9	_	_	start_char=41|end_char=43
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=44|end_char=47
+12	before	before	SCONJ	IN	_	11	_	_	start_char=48|end_char=54
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=55|end_char=58
+14	talk	talk	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	_	_	start_char=59|end_char=63
+15	to	to	ADP	IN	_	14	_	_	start_char=64|end_char=66
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	_	_	start_char=67|end_char=71
+17	and	and	CCONJ	CC	_	16	_	_	start_char=72|end_char=75
+18	find	find	VERB	VB	VerbForm=Fin	17	_	_	start_char=76|end_char=80
+19	out	out	ADP	RP	_	18	_	_	start_char=81|end_char=84|SpaceAfter=No
+20	?	?	PUNCT	.	_	19	_	_	start_char=84|end_char=85
+
+# text = Telepathy?
+# sent_id = 3670
+1	Telepathy	telepathy	NOUN	NN	Number=Sing	0	_	_	start_char=86|end_char=95|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=95|end_char=96
+
+# text = All you're saying here is either (a) read minds or (b) don't approach.
+# sent_id = 3671
+1	All	all	DET	DT	_	0	_	_	start_char=97|end_char=100
+2-3	you're	_	_	_	_	_	_	_	start_char=101|end_char=107
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=101|end_char=104
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=104|end_char=107
+4	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=108|end_char=114
+5	here	here	ADV	RB	PronType=Dem	4	_	_	start_char=115|end_char=119
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=120|end_char=122
+7	either	either	CCONJ	CC	_	6	_	_	start_char=123|end_char=129
+8	(	(	PUNCT	-LRB-	_	7	_	_	start_char=130|end_char=131|SpaceAfter=No
+9	a	a	NUM	LS	_	8	_	_	start_char=131|end_char=132|SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	_	_	start_char=132|end_char=133
+11	read	read	VERB	VB	VerbForm=Fin	10	_	_	start_char=134|end_char=138
+12	minds	mind	NOUN	NNS	Number=Plur	11	_	_	start_char=139|end_char=144
+13	or	or	CCONJ	CC	_	12	_	_	start_char=145|end_char=147
+14	(	(	PUNCT	-LRB-	_	13	_	_	start_char=148|end_char=149|SpaceAfter=No
+15	b	billion	NUM	LS	_	14	_	_	start_char=149|end_char=150|SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	15	_	_	start_char=150|end_char=151
+17-18	don't	_	_	_	_	_	_	_	start_char=152|end_char=157
+17	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	16	_	_	start_char=152|end_char=154
+18	n't	not	PART	RB	_	17	_	_	start_char=154|end_char=157
+19	approach	approach	VERB	VB	Mood=Imp|VerbForm=Fin	18	_	_	start_char=158|end_char=166|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=166|end_char=167
+
+# text = Typical female attitude about the matter, to be honest.
+# sent_id = 3672
+1	Typical	Typical	ADJ	JJ	Degree=Pos	0	_	_	start_char=168|end_char=175
+2	female	female	ADJ	JJ	Degree=Pos	1	_	_	start_char=176|end_char=182
+3	attitude	attitude	NOUN	NN	Number=Sing	2	_	_	start_char=183|end_char=191
+4	about	about	ADP	IN	_	3	_	_	start_char=192|end_char=197
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=198|end_char=201
+6	matter	matter	NOUN	NN	Number=Sing	5	_	_	start_char=202|end_char=208|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=208|end_char=209
+8	to	to	PART	TO	_	7	_	_	start_char=210|end_char=212
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=213|end_char=215
+10	honest	honest	ADJ	JJ	Degree=Pos	9	_	_	start_char=216|end_char=222|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=222|end_char=223|SpaceAfter=No
+

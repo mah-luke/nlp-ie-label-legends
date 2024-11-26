@@ -1,0 +1,32 @@
+# text = Greedy git isn't he!
+# sent_id = 86988
+1	Greedy	Greedy	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=6
+2	git	git	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=10
+3-4	isn't	_	_	_	_	_	_	_	start_char=11|end_char=16
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	n't	not	PART	RB	_	3	_	_	start_char=13|end_char=16
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=17|end_char=19|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = Has he asked for a payoff yet?
+# sent_id = 86989
+1	Has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=21|end_char=24
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=25|end_char=27
+3	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=28|end_char=33
+4	for	for	ADP	IN	_	3	_	_	start_char=34|end_char=37
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=38|end_char=39
+6	payoff	payoff	NOUN	NN	Number=Sing	5	_	_	start_char=40|end_char=46
+7	yet	yet	ADV	RB	_	6	_	_	start_char=47|end_char=50|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=50|end_char=51
+
+# text = To make it go away I mean.
+# sent_id = 86990
+1	To	to	PART	TO	_	0	_	_	start_char=52|end_char=54
+2	make	make	VERB	VB	VerbForm=Inf	1	_	_	start_char=55|end_char=59
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=60|end_char=62
+4	go	go	VERB	VB	VerbForm=Inf	3	_	_	start_char=63|end_char=65
+5	away	away	ADV	RB	_	4	_	_	start_char=66|end_char=70
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=71|end_char=72
+7	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=73|end_char=77|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=77|end_char=78|SpaceAfter=No
+

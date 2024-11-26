@@ -1,0 +1,55 @@
+# text = Nope.
+# sent_id = 35244
+1	Nope	nope	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = She was still raped.
+# sent_id = 35245
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=6|end_char=9
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=10|end_char=13
+3	still	still	ADV	RB	_	2	_	_	start_char=14|end_char=19
+4	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=20|end_char=25|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=25|end_char=26
+
+# text = There was a recent case where a woman gave a blowjob to a guy who was passed out and cried rape because she "revoked her consent" and he didn't stop lying there taking it.
+# sent_id = 35246
+1	There	there	PRON	EX	_	0	_	_	start_char=27|end_char=32
+2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=33|end_char=36
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=37|end_char=38
+4	recent	recent	ADJ	JJ	Degree=Pos	3	_	_	start_char=39|end_char=45
+5	case	case	NOUN	NN	Number=Sing	4	_	_	start_char=46|end_char=50
+6	where	where	ADV	WRB	PronType=Rel	5	_	_	start_char=51|end_char=56
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=57|end_char=58
+8	woman	woman	NOUN	NN	Number=Sing	7	_	_	start_char=59|end_char=64
+9	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=65|end_char=69
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=70|end_char=71
+11	blowjob	blowjob	NOUN	NN	Number=Sing	10	_	_	start_char=72|end_char=79
+12	to	to	ADP	IN	_	11	_	_	start_char=80|end_char=82
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=83|end_char=84
+14	guy	guy	NOUN	NN	Number=Sing	13	_	_	start_char=85|end_char=88
+15	who	who	PRON	WP	PronType=Rel	14	_	_	start_char=89|end_char=92
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=93|end_char=96
+17	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=97|end_char=103
+18	out	out	ADP	RP	_	17	_	_	start_char=104|end_char=107
+19	and	and	CCONJ	CC	_	18	_	_	start_char=108|end_char=111
+20	cried	cry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=112|end_char=117
+21	rape	rape	NOUN	NN	Number=Sing	20	_	_	start_char=118|end_char=122
+22	because	because	SCONJ	IN	_	21	_	_	start_char=123|end_char=130
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=131|end_char=134
+24	"	"	PUNCT	``	_	23	_	_	start_char=135|end_char=136|SpaceAfter=No
+25	revoked	revoke	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	_	_	start_char=136|end_char=143
+26	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	_	_	start_char=144|end_char=147
+27	consent	consent	NOUN	NN	Number=Sing	26	_	_	start_char=148|end_char=155|SpaceAfter=No
+28	"	"	PUNCT	''	_	27	_	_	start_char=155|end_char=156
+29	and	and	CCONJ	CC	_	28	_	_	start_char=157|end_char=160
+30	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	_	_	start_char=161|end_char=163
+31-32	didn't	_	_	_	_	_	_	_	start_char=164|end_char=170
+31	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	_	_	start_char=164|end_char=167
+32	n't	not	PART	RB	_	31	_	_	start_char=167|end_char=170
+33	stop	stop	VERB	VB	VerbForm=Inf	32	_	_	start_char=171|end_char=175
+34	lying	lie	VERB	VBG	VerbForm=Ger	33	_	_	start_char=176|end_char=181
+35	there	there	ADV	RB	PronType=Dem	34	_	_	start_char=182|end_char=187
+36	taking	take	VERB	VBG	VerbForm=Ger	35	_	_	start_char=188|end_char=194
+37	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	_	_	start_char=195|end_char=197|SpaceAfter=No
+38	.	.	PUNCT	.	_	37	_	_	start_char=197|end_char=198|SpaceAfter=No
+

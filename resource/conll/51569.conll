@@ -1,0 +1,29 @@
+# text = You can't lead a cat...you can only entice it.
+# sent_id = 110215
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2-3	can't	_	_	_	_	_	_	_	start_char=4|end_char=9
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	n't	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	lead	lead	VERB	VB	VerbForm=Inf	3	_	_	start_char=10|end_char=14
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=15|end_char=16
+6	cat	cat	NOUN	NN	Number=Sing	5	_	_	start_char=17|end_char=20|SpaceAfter=No
+7	...	...	PUNCT	,	_	6	_	_	start_char=20|end_char=23|SpaceAfter=No
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=23|end_char=26
+9	can	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=27|end_char=30
+10	only	only	ADV	RB	_	9	_	_	start_char=31|end_char=35
+11	entice	entice	VERB	VB	VerbForm=Inf	10	_	_	start_char=36|end_char=42
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=43|end_char=45|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=45|end_char=46
+
+# text = That's women, in a nutshell.
+# sent_id = 110216
+1-2	That's	_	_	_	_	_	_	_	start_char=47|end_char=53
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=47|end_char=51
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=53
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=54|end_char=59|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=59|end_char=60
+5	in	in	ADP	IN	_	4	_	_	start_char=61|end_char=63
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=64|end_char=65
+7	nutshell	nutshell	NOUN	NN	Number=Sing	6	_	_	start_char=66|end_char=74|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=74|end_char=75|SpaceAfter=No
+

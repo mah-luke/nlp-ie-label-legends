@@ -1,0 +1,57 @@
+# text = It's all about money and status, my friend.
+# sent_id = 9186
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	all	all	ADV	RB	_	2	_	_	start_char=5|end_char=8
+4	about	about	ADP	IN	_	3	_	_	start_char=9|end_char=14
+5	money	money	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=20
+6	and	and	CCONJ	CC	_	5	_	_	start_char=21|end_char=24
+7	status	status	NOUN	NN	Number=Sing	6	_	_	start_char=25|end_char=31|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=31|end_char=32
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=33|end_char=35
+10	friend	friend	NOUN	NN	Number=Sing	9	_	_	start_char=36|end_char=42|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=42|end_char=43
+
+# text = If you have neither, you'll never get anywhere, with any woman.
+# sent_id = 9187
+1	If	if	SCONJ	IN	_	0	_	_	start_char=44|end_char=46
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=47|end_char=50
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=51|end_char=55
+4	neither	neither	CCONJ	CC	_	3	_	_	start_char=56|end_char=63|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=63|end_char=64
+6-7	you'll	_	_	_	_	_	_	_	start_char=65|end_char=71
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=65|end_char=68
+7	'll	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=68|end_char=71
+8	never	never	ADV	RB	_	7	_	_	start_char=72|end_char=77
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=78|end_char=81
+10	anywhere	anywhere	ADV	RB	_	9	_	_	start_char=82|end_char=90|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=90|end_char=91
+12	with	with	ADP	IN	_	11	_	_	start_char=92|end_char=96
+13	any	any	DET	DT	_	12	_	_	start_char=97|end_char=100
+14	woman	woman	NOUN	NN	Number=Sing	13	_	_	start_char=101|end_char=106|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=106|end_char=107
+
+# text = Ask autistic men (not the lucky guys in STEM/well-paid careers) how this works.
+# sent_id = 9188
+1	Ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=108|end_char=111
+2	autistic	autistic	ADJ	JJ	Degree=Pos	1	_	_	start_char=112|end_char=120
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=121|end_char=124
+4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=125|end_char=126|SpaceAfter=No
+5	not	not	PART	RB	_	4	_	_	start_char=126|end_char=129
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=130|end_char=133
+7	lucky	lucky	ADJ	JJ	Degree=Pos	6	_	_	start_char=134|end_char=139
+8	guys	guy	NOUN	NNS	Number=Plur	7	_	_	start_char=140|end_char=144
+9	in	in	ADP	IN	_	8	_	_	start_char=145|end_char=147
+10	STEM	STEM	PROPN	NNP	Number=Sing	9	_	_	start_char=148|end_char=152|SpaceAfter=No
+11	/	/	SYM	SYM	_	10	_	_	start_char=152|end_char=153|SpaceAfter=No
+12	well	well	ADV	RB	Degree=Pos	11	_	_	start_char=153|end_char=157|SpaceAfter=No
+13	-	-	PUNCT	HYPH	_	12	_	_	start_char=157|end_char=158|SpaceAfter=No
+14	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=158|end_char=162
+15	careers	career	NOUN	NNS	Number=Plur	14	_	_	start_char=163|end_char=170|SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	15	_	_	start_char=170|end_char=171
+17	how	how	ADV	WRB	PronType=Int	16	_	_	start_char=172|end_char=175
+18	this	this	PRON	DT	Number=Sing|PronType=Dem	17	_	_	start_char=176|end_char=180
+19	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=181|end_char=186|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=186|end_char=187|SpaceAfter=No
+

@@ -1,0 +1,24 @@
+# text = She's not interested.
+# sent_id = 43751
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	not	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	interested	interested	ADJ	JJ	Degree=Pos	3	_	_	start_char=10|end_char=20|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=20|end_char=21
+
+# text = You're a creep who stalked her on a facebook~
+# sent_id = 43752
+1-2	You're	_	_	_	_	_	_	_	start_char=22|end_char=28
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=22|end_char=25
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=28
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=29|end_char=30
+4	creep	creep	NOUN	NN	Number=Sing	3	_	_	start_char=31|end_char=36
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=37|end_char=40
+6	stalked	stalked	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=41|end_char=48
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=49|end_char=52
+8	on	on	ADP	IN	_	7	_	_	start_char=53|end_char=55
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=56|end_char=57
+10	facebook	facebook	NOUN	NN	Number=Sing	9	_	_	start_char=58|end_char=66|SpaceAfter=No
+11	~	~	SYM	NFP	_	10	_	_	start_char=66|end_char=67|SpaceAfter=No
+

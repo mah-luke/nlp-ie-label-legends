@@ -1,0 +1,49 @@
+# text = right now I am only interested in what is possible in a single interaction.
+# sent_id = 2541
+1	right	right	ADV	RB	_	0	_	_	start_char=0|end_char=5
+2	now	now	ADV	RB	_	1	_	_	start_char=6|end_char=9
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=10|end_char=11
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=12|end_char=14
+5	only	only	ADV	RB	_	4	_	_	start_char=15|end_char=19
+6	interested	interested	ADJ	JJ	Degree=Pos	5	_	_	start_char=20|end_char=30
+7	in	in	ADP	IN	_	6	_	_	start_char=31|end_char=33
+8	what	what	PRON	WP	PronType=Rel	7	_	_	start_char=34|end_char=38
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=39|end_char=41
+10	possible	possible	ADJ	JJ	Degree=Pos	9	_	_	start_char=42|end_char=50
+11	in	in	ADP	IN	_	10	_	_	start_char=51|end_char=53
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=54|end_char=55
+13	single	single	ADJ	JJ	Degree=Pos	12	_	_	start_char=56|end_char=62
+14	interaction	interaction	NOUN	NN	Number=Sing	13	_	_	start_char=63|end_char=74|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=74|end_char=75
+
+# text = I don't think I could have got her number.
+# sent_id = 2542
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=76|end_char=77
+2-3	don't	_	_	_	_	_	_	_	start_char=78|end_char=83
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=78|end_char=80
+3	n't	not	PART	RB	_	2	_	_	start_char=80|end_char=83
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=84|end_char=89
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=90|end_char=91
+6	could	could	AUX	MD	VerbForm=Fin	5	_	_	start_char=92|end_char=97
+7	have	have	AUX	VB	VerbForm=Inf	6	_	_	start_char=98|end_char=102
+8	got	get	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=103|end_char=106
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=107|end_char=110
+10	number	number	NOUN	NN	Number=Sing	9	_	_	start_char=111|end_char=117|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=117|end_char=118
+
+# text = logistically a lot of people both in the line and behind her.
+# sent_id = 2543
+1	logistically	logistically	ADV	RB	_	0	_	_	start_char=119|end_char=131
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=132|end_char=133
+3	lot	lot	NOUN	NN	Number=Sing	2	_	_	start_char=134|end_char=137
+4	of	of	ADP	IN	_	3	_	_	start_char=138|end_char=140
+5	people	person	NOUN	NNS	Number=Plur	4	_	_	start_char=141|end_char=147
+6	both	both	DET	DT	PronType=Art	5	_	_	start_char=148|end_char=152
+7	in	in	ADP	IN	_	6	_	_	start_char=153|end_char=155
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=156|end_char=159
+9	line	line	NOUN	NN	Number=Sing	8	_	_	start_char=160|end_char=164
+10	and	and	CCONJ	CC	_	9	_	_	start_char=165|end_char=168
+11	behind	behind	ADP	IN	_	10	_	_	start_char=169|end_char=175
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=176|end_char=179|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=179|end_char=180|SpaceAfter=No
+

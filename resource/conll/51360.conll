@@ -1,0 +1,42 @@
+# text = Poking holes in condomns?
+# sent_id = 109782
+1	Poking	poke	VERB	VBG	VerbForm=Ger	0	_	_	start_char=0|end_char=6
+2	holes	hole	NOUN	NNS	Number=Plur	1	_	_	start_char=7|end_char=12
+3	in	in	ADP	IN	_	2	_	_	start_char=13|end_char=15
+4	condomns	condomn	NOUN	NNS	Number=Plur	3	_	_	start_char=16|end_char=24|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=24|end_char=25
+
+# text = No, they wouldn't get called predatory, because that's not predatory.
+# sent_id = 109783
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=26|end_char=28|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=28|end_char=29
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=30|end_char=34
+4-5	wouldn't	_	_	_	_	_	_	_	start_char=35|end_char=43
+4	would	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=35|end_char=40
+5	n't	not	PART	RB	_	4	_	_	start_char=40|end_char=43
+6	get	get	AUX	VB	VerbForm=Inf	5	_	_	start_char=44|end_char=47
+7	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=48|end_char=54
+8	predatory	predatory	ADJ	JJ	Degree=Pos	7	_	_	start_char=55|end_char=64|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=64|end_char=65
+10	because	because	SCONJ	IN	_	9	_	_	start_char=66|end_char=73
+11-12	that's	_	_	_	_	_	_	_	start_char=74|end_char=80
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	10	_	_	start_char=74|end_char=78
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=78|end_char=80
+13	not	not	PART	RB	_	12	_	_	start_char=81|end_char=84
+14	predatory	predatory	ADJ	JJ	Degree=Pos	13	_	_	start_char=85|end_char=94|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=94|end_char=95
+
+# text = That's abusive/manipulative/straight up evil.
+# sent_id = 109784
+1-2	That's	_	_	_	_	_	_	_	start_char=96|end_char=102
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=96|end_char=100
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=100|end_char=102
+3	abusive	abusive	ADJ	JJ	Degree=Pos	2	_	_	start_char=103|end_char=110|SpaceAfter=No
+4	/	/	SYM	,	_	3	_	_	start_char=110|end_char=111|SpaceAfter=No
+5	manipulative	manipulative	ADJ	JJ	Degree=Pos	4	_	_	start_char=111|end_char=123|SpaceAfter=No
+6	/	/	SYM	SYM	_	5	_	_	start_char=123|end_char=124|SpaceAfter=No
+7	straight	straight	ADJ	JJ	Degree=Pos	6	_	_	start_char=124|end_char=132
+8	up	up	ADP	RP	_	7	_	_	start_char=133|end_char=135
+9	evil	evil	NOUN	NN	Number=Sing	8	_	_	start_char=136|end_char=140|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=140|end_char=141|SpaceAfter=No
+

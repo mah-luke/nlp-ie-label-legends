@@ -1,0 +1,62 @@
+# text = I'm sorry it's way different for boys/guys it just is.
+# sent_id = 13731
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	sorry	sorry	ADJ	JJ	Degree=Pos	2	_	_	start_char=4|end_char=9
+4-5	it's	_	_	_	_	_	_	_	start_char=10|end_char=14
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=10|end_char=12
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=12|end_char=14
+6	way	way	ADV	RB	_	5	_	_	start_char=15|end_char=18
+7	different	different	ADJ	JJ	Degree=Pos	6	_	_	start_char=19|end_char=28
+8	for	for	ADP	IN	_	7	_	_	start_char=29|end_char=32
+9	boys	boy	NOUN	NNS	Number=Plur	8	_	_	start_char=33|end_char=37|SpaceAfter=No
+10	/	/	SYM	,	_	9	_	_	start_char=37|end_char=38|SpaceAfter=No
+11	guys	guy	NOUN	NNS	Number=Plur	10	_	_	start_char=38|end_char=42
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=43|end_char=45
+13	just	just	ADV	RB	_	12	_	_	start_char=46|end_char=50
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=51|end_char=53|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=53|end_char=54
+
+# text = A small sexy woman teacher can't PHYSICALLY overpower a teenage boy unless he's a midget.
+# sent_id = 13732
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=55|end_char=56
+2	small	small	ADJ	JJ	Degree=Pos	1	_	_	start_char=57|end_char=62
+3	sexy	sexy	ADJ	JJ	Degree=Pos	2	_	_	start_char=63|end_char=67
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=68|end_char=73
+5	teacher	teacher	NOUN	NN	Number=Sing	4	_	_	start_char=74|end_char=81
+6-7	can't	_	_	_	_	_	_	_	start_char=82|end_char=87
+6	ca	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=82|end_char=84
+7	n't	not	PART	RB	_	6	_	_	start_char=84|end_char=87
+8	PHYSICALLY	physically	ADV	RB	_	7	_	_	start_char=88|end_char=98
+9	overpower	overpower	VERB	VB	VerbForm=Inf	8	_	_	start_char=99|end_char=108
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=109|end_char=110
+11	teenage	teenage	ADJ	JJ	Degree=Pos	10	_	_	start_char=111|end_char=118
+12	boy	boy	NOUN	NN	Number=Sing	11	_	_	start_char=119|end_char=122
+13	unless	unless	SCONJ	IN	_	12	_	_	start_char=123|end_char=129
+14-15	he's	_	_	_	_	_	_	_	start_char=130|end_char=134
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=130|end_char=132
+15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=132|end_char=134
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=135|end_char=136
+17	midget	midget	NOUN	NN	Number=Sing	16	_	_	start_char=137|end_char=143|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=143|end_char=144
+
+# text = My future daughter will be homeschooled as well so no chance of that happening either.
+# sent_id = 13733
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=145|end_char=147
+2	future	future	ADJ	JJ	Degree=Pos	1	_	_	start_char=148|end_char=154
+3	daughter	daughter	NOUN	NN	Number=Sing	2	_	_	start_char=155|end_char=163
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=164|end_char=168
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=169|end_char=171
+6	homeschooled	homeschool	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=172|end_char=184
+7	as	as	ADV	RB	_	6	_	_	start_char=185|end_char=187
+8	well	well	ADV	RB	Degree=Pos	7	_	_	start_char=188|end_char=192
+9	so	so	ADV	RB	_	8	_	_	start_char=193|end_char=195
+10	no	no	DET	DT	_	9	_	_	start_char=196|end_char=198
+11	chance	chance	NOUN	NN	Number=Sing	10	_	_	start_char=199|end_char=205
+12	of	of	SCONJ	IN	_	11	_	_	start_char=206|end_char=208
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	12	_	_	start_char=209|end_char=213
+14	happening	happen	VERB	VBG	VerbForm=Ger	13	_	_	start_char=214|end_char=223
+15	either	either	ADV	RB	_	14	_	_	start_char=224|end_char=230|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=230|end_char=231|SpaceAfter=No
+

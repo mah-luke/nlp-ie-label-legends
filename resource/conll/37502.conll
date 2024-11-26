@@ -1,0 +1,40 @@
+# text = Don't block her.
+# sent_id = 80145
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	block	block	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=11
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=12|end_char=15|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=15|end_char=16
+
+# text = Leave her in the backburner, the future may be 2 years, or 2 weeks.
+# sent_id = 80146
+1	Leave	leave	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=17|end_char=22
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=23|end_char=26
+3	in	in	ADP	IN	_	2	_	_	start_char=27|end_char=29
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=30|end_char=33
+5	backburner	backburner	NOUN	NN	Number=Sing	4	_	_	start_char=34|end_char=44|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=44|end_char=45
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=46|end_char=49
+8	future	future	NOUN	NN	Number=Sing	7	_	_	start_char=50|end_char=56
+9	may	may	AUX	MD	VerbForm=Fin	8	_	_	start_char=57|end_char=60
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=61|end_char=63
+11	2	2	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=64|end_char=65
+12	years	year	NOUN	NNS	Number=Plur	11	_	_	start_char=66|end_char=71|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=71|end_char=72
+14	or	or	CCONJ	CC	_	13	_	_	start_char=73|end_char=75
+15	2	2	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=76|end_char=77
+16	weeks	week	NOUN	NNS	Number=Plur	15	_	_	start_char=78|end_char=83|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=83|end_char=84
+
+# text = Also dont persist with her.
+# sent_id = 80147
+1	Also	also	ADV	RB	_	0	_	_	start_char=85|end_char=89
+2-3	dont	_	_	_	_	_	_	_	start_char=90|end_char=94
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=90|end_char=92
+3	nt	not	PART	RB	_	2	_	_	start_char=92|end_char=94
+4	persist	persist	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=95|end_char=102
+5	with	with	ADP	IN	_	4	_	_	start_char=103|end_char=107
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=108|end_char=111|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=111|end_char=112|SpaceAfter=No
+

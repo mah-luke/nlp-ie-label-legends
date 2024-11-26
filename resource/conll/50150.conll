@@ -1,0 +1,38 @@
+# text = A Mean Girls meme?
+# sent_id = 107181
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
+2	Mean	Mean	PROPN	NNP	Number=Sing	1	_	_	start_char=2|end_char=6
+3	Girls	Girls	PROPN	NNP	Number=Sing	2	_	_	start_char=7|end_char=12
+4	meme	meme	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=17|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = Jesus fuck.
+# sent_id = 107182
+1	Jesus	Jesus	PROPN	NNP	Number=Sing	0	_	_	start_char=19|end_char=24
+2	fuck	fuck	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=29|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=29|end_char=30
+
+# text = I'm going to say that this isn't a boomer, unless it's a woman.
+# sent_id = 107183
+1-2	I'm	_	_	_	_	_	_	_	start_char=31|end_char=34
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=31|end_char=32
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=34
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=35|end_char=40
+4	to	to	PART	TO	_	3	_	_	start_char=41|end_char=43
+5	say	say	VERB	VB	VerbForm=Inf	4	_	_	start_char=44|end_char=47
+6	that	that	SCONJ	IN	_	5	_	_	start_char=48|end_char=52
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=53|end_char=57
+8-9	isn't	_	_	_	_	_	_	_	start_char=58|end_char=63
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=58|end_char=60
+9	n't	not	PART	RB	_	8	_	_	start_char=60|end_char=63
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=64|end_char=65
+11	boomer	boomer	NOUN	NN	Number=Sing	10	_	_	start_char=66|end_char=72|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=72|end_char=73
+13	unless	unless	SCONJ	IN	_	12	_	_	start_char=74|end_char=80
+14-15	it's	_	_	_	_	_	_	_	start_char=81|end_char=85
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=81|end_char=83
+15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=83|end_char=85
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=86|end_char=87
+17	woman	woman	NOUN	NN	Number=Sing	16	_	_	start_char=88|end_char=93|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=93|end_char=94|SpaceAfter=No
+

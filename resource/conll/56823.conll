@@ -1,0 +1,19 @@
+# text = Hi Amelia, your site is fucking garbage.
+# sent_id = 121461
+1	Hi	hi	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	Amelia	Amelia	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=11|end_char=15
+5	site	site	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=20
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=21|end_char=23
+7	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=24|end_char=31
+8	garbage	garbage	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=39|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=39|end_char=40
+
+# text = Please kill yourself.
+# sent_id = 121462
+1	Please	please	INTJ	UH	_	0	_	_	start_char=41|end_char=47
+2	kill	kill	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=48|end_char=52
+3	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	2	_	_	start_char=53|end_char=61|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=61|end_char=62|SpaceAfter=No
+

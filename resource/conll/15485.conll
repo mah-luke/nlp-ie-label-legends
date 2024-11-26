@@ -1,0 +1,51 @@
+# text = fuck them, it's your life.
+# sent_id = 33102
+1	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
+4-5	it's	_	_	_	_	_	_	_	start_char=11|end_char=15
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=11|end_char=13
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=13|end_char=15
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=16|end_char=20
+7	life	life	NOUN	NN	Number=Sing	6	_	_	start_char=21|end_char=25|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=25|end_char=26
+
+# text = do it.
+# sent_id = 33103
+1	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=27|end_char=29
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=30|end_char=32|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=32|end_char=33
+
+# text = if it ever comes up after the fact, just say you thought she wanted to talk about how to get back together, and things just got physical.
+# sent_id = 33104
+1	if	if	SCONJ	IN	_	0	_	_	start_char=34|end_char=36
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=37|end_char=39
+3	ever	ever	ADV	RB	_	2	_	_	start_char=40|end_char=44
+4	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=45|end_char=50
+5	up	up	ADP	RP	_	4	_	_	start_char=51|end_char=53
+6	after	after	ADP	IN	_	5	_	_	start_char=54|end_char=59
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=60|end_char=63
+8	fact	fact	NOUN	NN	Number=Sing	7	_	_	start_char=64|end_char=68|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=68|end_char=69
+10	just	just	ADV	RB	_	9	_	_	start_char=70|end_char=74
+11	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=75|end_char=78
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=79|end_char=82
+13	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	12	_	_	start_char=83|end_char=90
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=91|end_char=94
+15	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=95|end_char=101
+16	to	to	PART	TO	_	15	_	_	start_char=102|end_char=104
+17	talk	talk	VERB	VB	VerbForm=Inf	16	_	_	start_char=105|end_char=109
+18	about	about	ADP	IN	_	17	_	_	start_char=110|end_char=115
+19	how	how	ADV	WRB	PronType=Int	18	_	_	start_char=116|end_char=119
+20	to	to	PART	TO	_	19	_	_	start_char=120|end_char=122
+21	get	get	VERB	VB	VerbForm=Inf	20	_	_	start_char=123|end_char=126
+22	back	back	ADV	RB	_	21	_	_	start_char=127|end_char=131
+23	together	together	ADV	RB	_	22	_	_	start_char=132|end_char=140|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	_	_	start_char=140|end_char=141
+25	and	and	CCONJ	CC	_	24	_	_	start_char=142|end_char=145
+26	things	thing	NOUN	NNS	Number=Plur	25	_	_	start_char=146|end_char=152
+27	just	just	ADV	RB	_	26	_	_	start_char=153|end_char=157
+28	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	27	_	_	start_char=158|end_char=161
+29	physical	physical	ADJ	JJ	Degree=Pos	28	_	_	start_char=162|end_char=170|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	start_char=170|end_char=171|SpaceAfter=No
+

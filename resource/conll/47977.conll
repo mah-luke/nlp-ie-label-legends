@@ -1,0 +1,42 @@
+# text = George Deriziotis George Deriziotis 3 hours ago And she represents the democratic party?
+# sent_id = 102573
+1	George	George	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	Deriziotis	Deriziotis	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=17
+3	George	George	PROPN	NNP	Number=Sing	2	_	_	start_char=18|end_char=24
+4	Deriziotis	Deriziotis	PROPN	NNP	Number=Sing	3	_	_	start_char=25|end_char=35
+5	3	3	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=36|end_char=37
+6	hours	hour	NOUN	NNS	Number=Plur	5	_	_	start_char=38|end_char=43
+7	ago	ago	ADV	RB	_	6	_	_	start_char=44|end_char=47
+8	And	and	CCONJ	CC	_	7	_	_	start_char=48|end_char=51
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=52|end_char=55
+10	represents	represent	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=56|end_char=66
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=67|end_char=70
+12	democratic	democratic	ADJ	JJ	Degree=Pos	11	_	_	start_char=71|end_char=81
+13	party	party	NOUN	NN	Number=Sing	12	_	_	start_char=82|end_char=87|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=87|end_char=88
+
+# text = Please, don't replace her!!!
+# sent_id = 102574
+1	Please	please	INTJ	UH	_	0	_	_	start_char=89|end_char=95|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=95|end_char=96
+3-4	don't	_	_	_	_	_	_	_	start_char=97|end_char=102
+3	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=97|end_char=99
+4	n't	not	PART	RB	_	3	_	_	start_char=99|end_char=102
+5	replace	replace	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=103|end_char=110
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=111|end_char=114|SpaceAfter=No
+7	!!!	!!!	PUNCT	.	_	6	_	_	start_char=114|end_char=117
+
+# text = She's the PERFECT representative for the democratic party!!!﻿
+# sent_id = 102575
+1-2	She's	_	_	_	_	_	_	_	start_char=118|end_char=123
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=118|end_char=121
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=121|end_char=123
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=124|end_char=127
+4	PERFECT	perfect	ADJ	JJ	Degree=Pos	3	_	_	start_char=128|end_char=135
+5	representative	representative	NOUN	NN	Number=Sing	4	_	_	start_char=136|end_char=150
+6	for	for	ADP	IN	_	5	_	_	start_char=151|end_char=154
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=155|end_char=158
+8	democratic	democratic	ADJ	JJ	Degree=Pos	7	_	_	start_char=159|end_char=169
+9	party	party	NOUN	NN	Number=Sing	8	_	_	start_char=170|end_char=175|SpaceAfter=No
+10	!!!﻿	!!!﻿	PUNCT	.	_	9	_	_	start_char=175|end_char=179|SpaceAfter=No
+

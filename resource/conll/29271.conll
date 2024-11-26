@@ -1,0 +1,32 @@
+# text = Good point, however you know she's going in there with their plans.
+# sent_id = 62772
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	point	point	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=10|end_char=11
+4	however	however	ADV	RB	_	3	_	_	start_char=12|end_char=19
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=20|end_char=23
+6	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=24|end_char=28
+7-8	she's	_	_	_	_	_	_	_	start_char=29|end_char=34
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=29|end_char=32
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=32|end_char=34
+9	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=35|end_char=40
+10	in	in	ADP	IN	_	9	_	_	start_char=41|end_char=43
+11	there	there	ADV	RB	PronType=Dem	10	_	_	start_char=44|end_char=49
+12	with	with	ADP	IN	_	11	_	_	start_char=50|end_char=54
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=55|end_char=60
+14	plans	plan	NOUN	NNS	Number=Plur	13	_	_	start_char=61|end_char=66|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=66|end_char=67
+
+# text = Let's bet 5 cents this goes nowhere.
+# sent_id = 62773
+1-2	Let's	_	_	_	_	_	_	_	start_char=68|end_char=73
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=68|end_char=71
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=71|end_char=73
+3	bet	bet	VERB	VB	VerbForm=Inf	2	_	_	start_char=74|end_char=77
+4	5	5	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=78|end_char=79
+5	cents	cent	NOUN	NNS	Number=Plur	4	_	_	start_char=80|end_char=85
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=86|end_char=90
+7	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=91|end_char=95
+8	nowhere	nowhere	ADV	RB	_	7	_	_	start_char=96|end_char=103|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=103|end_char=104|SpaceAfter=No
+

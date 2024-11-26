@@ -1,0 +1,65 @@
+# text = How would you know how much experience I've had?
+# sent_id = 92162
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=9
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=10|end_char=13
+4	know	know	VERB	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=18
+5	how	how	ADV	WRB	PronType=Int	4	_	_	start_char=19|end_char=22
+6	much	much	ADJ	JJ	Degree=Pos	5	_	_	start_char=23|end_char=27
+7	experience	experience	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=38
+8-9	I've	_	_	_	_	_	_	_	start_char=39|end_char=43
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=39|end_char=40
+9	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=40|end_char=43
+10	had	have	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=44|end_char=47|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=47|end_char=48
+
+# text = I know that this is the type of girl who cares too much about having a "perfect relationship," and "finding the perfect guy," not to mention the fact that she'd never risk being thought of as a slut.
+# sent_id = 92163
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=49|end_char=50
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=55
+3	that	that	SCONJ	IN	_	2	_	_	start_char=56|end_char=60
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=61|end_char=65
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=66|end_char=68
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=69|end_char=72
+7	type	type	NOUN	NN	Number=Sing	6	_	_	start_char=73|end_char=77
+8	of	of	ADP	IN	_	7	_	_	start_char=78|end_char=80
+9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=81|end_char=85
+10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=86|end_char=89
+11	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=90|end_char=95
+12	too	too	ADV	RB	_	11	_	_	start_char=96|end_char=99
+13	much	much	ADV	RB	_	12	_	_	start_char=100|end_char=104
+14	about	about	SCONJ	IN	_	13	_	_	start_char=105|end_char=110
+15	having	have	VERB	VBG	VerbForm=Ger	14	_	_	start_char=111|end_char=117
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=118|end_char=119
+17	"	"	PUNCT	``	_	16	_	_	start_char=120|end_char=121|SpaceAfter=No
+18	perfect	perfect	ADJ	JJ	Degree=Pos	17	_	_	start_char=121|end_char=128
+19	relationship	relationship	NOUN	NN	Number=Sing	18	_	_	start_char=129|end_char=141|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=141|end_char=142|SpaceAfter=No
+21	"	"	PUNCT	''	_	20	_	_	start_char=142|end_char=143
+22	and	and	CCONJ	CC	_	21	_	_	start_char=144|end_char=147
+23	"	"	PUNCT	``	_	22	_	_	start_char=148|end_char=149|SpaceAfter=No
+24	finding	find	VERB	VBG	VerbForm=Ger	23	_	_	start_char=149|end_char=156
+25	the	the	DET	DT	Definite=Def|PronType=Art	24	_	_	start_char=157|end_char=160
+26	perfect	perfect	ADJ	JJ	Degree=Pos	25	_	_	start_char=161|end_char=168
+27	guy	guy	NOUN	NN	Number=Sing	26	_	_	start_char=169|end_char=172|SpaceAfter=No
+28	,	,	PUNCT	,	_	27	_	_	start_char=172|end_char=173|SpaceAfter=No
+29	"	"	PUNCT	''	_	28	_	_	start_char=173|end_char=174
+30	not	not	PART	RB	_	29	_	_	start_char=175|end_char=178
+31	to	to	PART	TO	_	30	_	_	start_char=179|end_char=181
+32	mention	mention	VERB	VB	VerbForm=Inf	31	_	_	start_char=182|end_char=189
+33	the	the	DET	DT	Definite=Def|PronType=Art	32	_	_	start_char=190|end_char=193
+34	fact	fact	NOUN	NN	Number=Sing	33	_	_	start_char=194|end_char=198
+35	that	that	SCONJ	IN	_	34	_	_	start_char=199|end_char=203
+36-37	she'd	_	_	_	_	_	_	_	start_char=204|end_char=209
+36	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	35	_	_	start_char=204|end_char=207
+37	'd	would	AUX	MD	VerbForm=Fin	36	_	_	start_char=207|end_char=209
+38	never	never	ADV	RB	_	37	_	_	start_char=210|end_char=215
+39	risk	risk	VERB	VB	VerbForm=Inf	38	_	_	start_char=216|end_char=220
+40	being	be	AUX	VBG	VerbForm=Ger	39	_	_	start_char=221|end_char=226
+41	thought	think	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	40	_	_	start_char=227|end_char=234
+42	of	of	ADP	IN	_	41	_	_	start_char=235|end_char=237
+43	as	as	ADP	IN	_	42	_	_	start_char=238|end_char=240
+44	a	a	DET	DT	Definite=Ind|PronType=Art	43	_	_	start_char=241|end_char=242
+45	slut	slut	NOUN	NN	Number=Sing	44	_	_	start_char=243|end_char=247|SpaceAfter=No
+46	.	.	PUNCT	.	_	45	_	_	start_char=247|end_char=248|SpaceAfter=No
+

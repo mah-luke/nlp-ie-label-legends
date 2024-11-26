@@ -1,0 +1,40 @@
+# text = **Hobbies of girls without boyfriends:**
+# sent_id = 68490
+1	**	**	PUNCT	NFP	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	Hobbies	hobby	NOUN	NNS	Number=Plur	1	_	_	start_char=2|end_char=9
+3	of	of	ADP	IN	_	2	_	_	start_char=10|end_char=12
+4	girls	girl	NOUN	NNS	Number=Plur	3	_	_	start_char=13|end_char=18
+5	without	without	ADP	IN	_	4	_	_	start_char=19|end_char=26
+6	boyfriends	boyfriend	NOUN	NNS	Number=Plur	5	_	_	start_char=27|end_char=37|SpaceAfter=No
+7	:	:	PUNCT	:	_	6	_	_	start_char=37|end_char=38|SpaceAfter=No
+8	**	**	PUNCT	NFP	_	7	_	_	start_char=38|end_char=40
+
+# text = Drawing, eating, Netflix, want to travel the world **Hobbies of girls with boyfirends:**
+# sent_id = 68491
+1	Drawing	draw	VERB	VBG	VerbForm=Ger	0	_	_	start_char=41|end_char=48|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=48|end_char=49
+3	eating	eat	VERB	VBG	VerbForm=Ger	2	_	_	start_char=50|end_char=56|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=56|end_char=57
+5	Netflix	Netflix	PROPN	NNP	Number=Sing	4	_	_	start_char=58|end_char=65|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=65|end_char=66
+7	want	want	VERB	VBP	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=67|end_char=71
+8	to	to	PART	TO	_	7	_	_	start_char=72|end_char=74
+9	travel	travel	VERB	VB	VerbForm=Inf	8	_	_	start_char=75|end_char=81
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=82|end_char=85
+11	world	world	NOUN	NN	Number=Sing	10	_	_	start_char=86|end_char=91
+12	**	**	PUNCT	NFP	_	11	_	_	start_char=92|end_char=94|SpaceAfter=No
+13	Hobbies	hobby	NOUN	NNS	Number=Plur	12	_	_	start_char=94|end_char=101
+14	of	of	ADP	IN	_	13	_	_	start_char=102|end_char=104
+15	girls	girl	NOUN	NNS	Number=Plur	14	_	_	start_char=105|end_char=110
+16	with	with	ADP	IN	_	15	_	_	start_char=111|end_char=115
+17	boyfirends	boyfirend	NOUN	NNS	Number=Plur	16	_	_	start_char=116|end_char=126|SpaceAfter=No
+18	:**	:**	SYM	NFP	_	17	_	_	start_char=126|end_char=129
+
+# text = Insert boyfriend's hobby
+# sent_id = 68492
+1	Insert	insert	VERB	VB	Mood=Imp|VerbForm=Inf	0	_	_	start_char=130|end_char=136
+2-3	boyfriend's	_	_	_	_	_	_	_	start_char=137|end_char=148
+2	boyfriend	boyfriend	NOUN	NN	Number=Sing	1	_	_	start_char=137|end_char=146
+3	's	's	PART	POS	_	2	_	_	start_char=146|end_char=148
+4	hobby	hobby	NOUN	NN	Number=Sing	3	_	_	start_char=149|end_char=154|SpaceAfter=No
+

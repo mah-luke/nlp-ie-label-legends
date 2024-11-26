@@ -1,0 +1,35 @@
+# text = oh no!
+# sent_id = 25746
+1	oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	no	no	INTJ	UH	Polarity=Neg	1	_	_	start_char=3|end_char=5|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=5|end_char=6
+
+# text = So they are saying if I send my daught to college she might.... put on a hat?
+# sent_id = 25747
+1	So	so	ADV	RB	_	0	_	_	start_char=7|end_char=9
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=10|end_char=14
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=15|end_char=18
+4	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=19|end_char=25
+5	if	if	SCONJ	IN	_	4	_	_	start_char=26|end_char=28
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=29|end_char=30
+7	send	send	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=31|end_char=35
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	_	_	start_char=36|end_char=38
+9	daught	daught	NOUN	NN	Number=Sing	8	_	_	start_char=39|end_char=45
+10	to	to	ADP	IN	_	9	_	_	start_char=46|end_char=48
+11	college	college	NOUN	NN	Number=Sing	10	_	_	start_char=49|end_char=56
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=57|end_char=60
+13	might	might	AUX	MD	VerbForm=Fin	12	_	_	start_char=61|end_char=66|SpaceAfter=No
+14	....	....	PUNCT	,	_	13	_	_	start_char=66|end_char=70
+15	put	put	VERB	VB	VerbForm=Inf	14	_	_	start_char=71|end_char=74
+16	on	on	ADP	IN	_	15	_	_	start_char=75|end_char=77
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=78|end_char=79
+18	hat	hat	NOUN	NN	Number=Sing	17	_	_	start_char=80|end_char=83|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=83|end_char=84
+
+# text = OH THE HUMANITY!!!!
+# sent_id = 25748
+1	OH	oh	INTJ	UH	_	0	_	_	start_char=85|end_char=87
+2	THE	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=88|end_char=91
+3	HUMANITY	humanity	NOUN	NN	Number=Sing	2	_	_	start_char=92|end_char=100|SpaceAfter=No
+4	!!!!	!!!!	PUNCT	.	_	3	_	_	start_char=100|end_char=104|SpaceAfter=No
+

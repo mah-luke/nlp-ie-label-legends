@@ -1,0 +1,59 @@
+# text = only bad boys get with girls with boyfriends.
+# sent_id = 5456
+1	only	only	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	bad	bad	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=8
+3	boys	boy	NOUN	NNS	Number=Plur	2	_	_	start_char=9|end_char=13
+4	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=17
+5	with	with	ADP	IN	_	4	_	_	start_char=18|end_char=22
+6	girls	girl	NOUN	NNS	Number=Plur	5	_	_	start_char=23|end_char=28
+7	with	with	ADP	IN	_	6	_	_	start_char=29|end_char=33
+8	boyfriends	boyfriend	NOUN	NNS	Number=Plur	7	_	_	start_char=34|end_char=44|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=44|end_char=45
+
+# text = you didnt make the move.
+# sent_id = 5457
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=46|end_char=49
+2-3	didnt	_	_	_	_	_	_	_	start_char=50|end_char=55
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=50|end_char=53
+3	nt	not	PART	RB	_	2	_	_	start_char=53|end_char=55
+4	make	make	VERB	VB	VerbForm=Inf	3	_	_	start_char=56|end_char=60
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=61|end_char=64
+6	move	move	NOUN	NN	Number=Sing	5	_	_	start_char=65|end_char=69|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=69|end_char=70
+
+# text = its better to try and get rejected than to just get rejected.
+# sent_id = 5458
+1-2	its	_	_	_	_	_	_	_	start_char=71|end_char=74
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=71|end_char=73
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=73|end_char=74
+3	better	good	ADJ	JJR	Degree=Cmp	2	_	_	start_char=75|end_char=81
+4	to	to	PART	TO	_	3	_	_	start_char=82|end_char=84
+5	try	try	VERB	VB	VerbForm=Inf	4	_	_	start_char=85|end_char=88
+6	and	and	CCONJ	CC	_	5	_	_	start_char=89|end_char=92
+7	get	get	AUX	VB	VerbForm=Inf	6	_	_	start_char=93|end_char=96
+8	rejected	reject	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=97|end_char=105
+9	than	than	SCONJ	IN	_	8	_	_	start_char=106|end_char=110
+10	to	to	PART	TO	_	9	_	_	start_char=111|end_char=113
+11	just	just	ADV	RB	_	10	_	_	start_char=114|end_char=118
+12	get	get	AUX	VB	VerbForm=Inf	11	_	_	start_char=119|end_char=122
+13	rejected	reject	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=123|end_char=131|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=131|end_char=132
+
+# text = you dont want to date someone who’s a cheater anyways ..
+# sent_id = 5459
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=133|end_char=136
+2-3	dont	_	_	_	_	_	_	_	start_char=137|end_char=141
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=137|end_char=139
+3	nt	not	PART	RB	_	2	_	_	start_char=139|end_char=141
+4	want	want	VERB	VB	VerbForm=Inf	3	_	_	start_char=142|end_char=146
+5	to	to	PART	TO	_	4	_	_	start_char=147|end_char=149
+6	date	date	VERB	VB	VerbForm=Inf	5	_	_	start_char=150|end_char=154
+7	someone	someone	PRON	NN	Number=Sing|PronType=Ind	6	_	_	start_char=155|end_char=162
+8-9	who’s	_	_	_	_	_	_	_	start_char=163|end_char=168
+8	who	who	PRON	WP	PronType=Rel	7	_	_	start_char=163|end_char=166
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=166|end_char=168
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=169|end_char=170
+11	cheater	cheater	NOUN	NN	Number=Sing	10	_	_	start_char=171|end_char=178
+12	anyways	anyways	ADV	RB	_	11	_	_	start_char=179|end_char=186
+13	..	..	PUNCT	.	_	12	_	_	start_char=187|end_char=189|SpaceAfter=No
+

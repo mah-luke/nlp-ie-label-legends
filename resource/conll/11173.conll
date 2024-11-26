@@ -1,0 +1,49 @@
+# text = So about 280 freedom units?
+# sent_id = 23671
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	about	about	ADV	RB	_	1	_	_	start_char=3|end_char=8
+3	280	280	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=9|end_char=12
+4	freedom	freedom	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=20
+5	units	unit	NOUN	NNS	Number=Plur	4	_	_	start_char=21|end_char=26|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=26|end_char=27
+
+# text = She's ethier cheap or can suck the chrome off a bumper.
+# sent_id = 23672
+1-2	She's	_	_	_	_	_	_	_	start_char=28|end_char=33
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=28|end_char=31
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=33
+3	ethier	ethier	NOUN	NN	Number=Sing	2	_	_	start_char=34|end_char=40
+4	cheap	cheap	ADJ	JJ	Degree=Pos	3	_	_	start_char=41|end_char=46
+5	or	or	CCONJ	CC	_	4	_	_	start_char=47|end_char=49
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=50|end_char=53
+7	suck	suck	VERB	VB	VerbForm=Inf	6	_	_	start_char=54|end_char=58
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=59|end_char=62
+9	chrome	chrome	NOUN	NN	Number=Sing	8	_	_	start_char=63|end_char=69
+10	off	off	ADP	IN	_	9	_	_	start_char=70|end_char=73
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=74|end_char=75
+12	bumper	bumper	NOUN	NN	Number=Sing	11	_	_	start_char=76|end_char=82|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=82|end_char=83
+
+# text = Fat girls do suck a mean dick!!
+# sent_id = 23673
+1	Fat	fat	ADJ	JJ	Degree=Pos	0	_	_	start_char=84|end_char=87
+2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=88|end_char=93
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=94|end_char=96
+4	suck	suck	VERB	VB	VerbForm=Inf	3	_	_	start_char=97|end_char=101
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=102|end_char=103
+6	mean	mean	ADJ	JJ	Degree=Pos	5	_	_	start_char=104|end_char=108
+7	dick	dick	NOUN	NN	Number=Sing	6	_	_	start_char=109|end_char=113|SpaceAfter=No
+8	!!	!!	PUNCT	.	_	7	_	_	start_char=113|end_char=115
+
+# text = Probably think it's a Twinkie or something
+# sent_id = 23674
+1	Probably	probably	ADV	RB	_	0	_	_	start_char=116|end_char=124
+2	think	think	VERB	VB	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=125|end_char=130
+3-4	it's	_	_	_	_	_	_	_	start_char=131|end_char=135
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=131|end_char=133
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=133|end_char=135
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=136|end_char=137
+6	Twinkie	twinkie	NOUN	NN	Number=Sing	5	_	_	start_char=138|end_char=145
+7	or	or	CCONJ	CC	_	6	_	_	start_char=146|end_char=148
+8	something	something	PRON	NN	Number=Sing|PronType=Ind	7	_	_	start_char=149|end_char=158|SpaceAfter=No
+

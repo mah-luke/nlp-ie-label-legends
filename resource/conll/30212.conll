@@ -1,0 +1,38 @@
+# text = "her baby's father" - you mean her *rape victim.*
+# sent_id = 64732
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=1|end_char=4
+3-4	baby's	_	_	_	_	_	_	_	start_char=5|end_char=11
+3	baby	baby	NOUN	NN	Number=Sing	2	_	_	start_char=5|end_char=9
+4	's	's	PART	POS	_	3	_	_	start_char=9|end_char=11
+5	father	father	NOUN	NN	Number=Sing	4	_	_	start_char=12|end_char=18|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=18|end_char=19
+7	-	-	PUNCT	,	_	6	_	_	start_char=20|end_char=21
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=22|end_char=25
+9	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=26|end_char=30
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=31|end_char=34
+11	*	*	PUNCT	NFP	_	10	_	_	start_char=35|end_char=36|SpaceAfter=No
+12	rape	rape	NOUN	NN	Number=Sing	11	_	_	start_char=36|end_char=40
+13	victim	victim	NOUN	NN	Number=Sing	12	_	_	start_char=41|end_char=47|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=47|end_char=48|SpaceAfter=No
+15	*	*	PUNCT	NFP	_	14	_	_	start_char=48|end_char=49
+
+# text = Funny how they never get that right when it's a boy being victimized.
+# sent_id = 64733
+1	Funny	funny	ADJ	JJ	Degree=Pos	0	_	_	start_char=50|end_char=55
+2	how	how	ADV	WRB	PronType=Int	1	_	_	start_char=56|end_char=59
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=60|end_char=64
+4	never	never	ADV	RB	_	3	_	_	start_char=65|end_char=70
+5	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=71|end_char=74
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=75|end_char=79
+7	right	right	ADV	RB	_	6	_	_	start_char=80|end_char=85
+8	when	when	ADV	WRB	PronType=Int	7	_	_	start_char=86|end_char=90
+9-10	it's	_	_	_	_	_	_	_	start_char=91|end_char=95
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=91|end_char=93
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=93|end_char=95
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=96|end_char=97
+12	boy	boy	NOUN	NN	Number=Sing	11	_	_	start_char=98|end_char=101
+13	being	be	AUX	VBG	VerbForm=Ger	12	_	_	start_char=102|end_char=107
+14	victimized	victimize	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=108|end_char=118|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=118|end_char=119|SpaceAfter=No
+

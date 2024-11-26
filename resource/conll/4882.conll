@@ -1,0 +1,56 @@
+# text = [USER]
+# sent_id = 10349
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = The nation of Israel is in a precarious state.
+# sent_id = 10350
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=7|end_char=10
+2	nation	nation	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=17
+3	of	of	ADP	IN	_	2	_	_	start_char=18|end_char=20
+4	Israel	Israel	PROPN	NNP	Number=Sing	3	_	_	start_char=21|end_char=27
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=28|end_char=30
+6	in	in	ADP	IN	_	5	_	_	start_char=31|end_char=33
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=34|end_char=35
+8	precarious	precarious	ADJ	JJ	Degree=Pos	7	_	_	start_char=36|end_char=46
+9	state	state	NOUN	NN	Number=Sing	8	_	_	start_char=47|end_char=52|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=52|end_char=53
+
+# text = It will not survive long.
+# sent_id = 10351
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=54|end_char=56
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=57|end_char=61
+3	not	not	PART	RB	_	2	_	_	start_char=62|end_char=65
+4	survive	survive	VERB	VB	VerbForm=Inf	3	_	_	start_char=66|end_char=73
+5	long	long	ADV	RB	Degree=Pos	4	_	_	start_char=74|end_char=78|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=78|end_char=79
+
+# text = It's ok though, Jews always find themselves a new home.
+# sent_id = 10352
+1-2	It's	_	_	_	_	_	_	_	start_char=80|end_char=84
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=80|end_char=82
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=82|end_char=84
+3	ok	ok	ADJ	JJ	Degree=Pos	2	_	_	start_char=85|end_char=87
+4	though	though	ADV	RB	_	3	_	_	start_char=88|end_char=94|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=94|end_char=95
+6	Jews	Jew	PROPN	NNPS	Number=Plur	5	_	_	start_char=96|end_char=100
+7	always	always	ADV	RB	_	6	_	_	start_char=101|end_char=107
+8	find	find	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=108|end_char=112
+9	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	8	_	_	start_char=113|end_char=123
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=124|end_char=125
+11	new	new	ADJ	JJ	Degree=Pos	10	_	_	start_char=126|end_char=129
+12	home	home	NOUN	NN	Number=Sing	11	_	_	start_char=130|end_char=134|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=134|end_char=135
+
+# text = Like gypsies, this is their way.
+# sent_id = 10353
+1	Like	like	ADP	IN	_	0	_	_	start_char=136|end_char=140
+2	gypsies	gypsy	NOUN	NNS	Number=Plur	1	_	_	start_char=141|end_char=148|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=148|end_char=149
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=150|end_char=154
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=155|end_char=157
+6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=158|end_char=163
+7	way	way	NOUN	NN	Number=Sing	6	_	_	start_char=164|end_char=167|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=167|end_char=168|SpaceAfter=No
+

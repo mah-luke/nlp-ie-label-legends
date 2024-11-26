@@ -1,0 +1,42 @@
+# text = she's going out partying that wknd, next wknd she might feel like doing the whole romantic thing again.
+# sent_id = 94426
+1-2	she's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=6|end_char=11
+4	out	out	ADV	RB	_	3	_	_	start_char=12|end_char=15
+5	partying	party	VERB	VBG	VerbForm=Ger	4	_	_	start_char=16|end_char=24
+6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=25|end_char=29
+7	wknd	wknd	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=34|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=34|end_char=35
+9	next	next	ADJ	JJ	Degree=Pos	8	_	_	start_char=36|end_char=40
+10	wknd	wknd	NOUN	NN	Number=Sing	9	_	_	start_char=41|end_char=45
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=46|end_char=49
+12	might	might	AUX	MD	VerbForm=Fin	11	_	_	start_char=50|end_char=55
+13	feel	feel	VERB	VB	VerbForm=Inf	12	_	_	start_char=56|end_char=60
+14	like	like	SCONJ	IN	_	13	_	_	start_char=61|end_char=65
+15	doing	do	VERB	VBG	VerbForm=Ger	14	_	_	start_char=66|end_char=71
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=72|end_char=75
+17	whole	whole	ADJ	JJ	Degree=Pos	16	_	_	start_char=76|end_char=81
+18	romantic	romantic	ADJ	JJ	Degree=Pos	17	_	_	start_char=82|end_char=90
+19	thing	thing	NOUN	NN	Number=Sing	18	_	_	start_char=91|end_char=96
+20	again	again	ADV	RB	_	19	_	_	start_char=97|end_char=102|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=102|end_char=103
+
+# text = enjoy buying dinner for and playing couple with your used up whore m8.
+# sent_id = 94427
+1	enjoy	enjoy	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=104|end_char=109
+2	buying	buy	VERB	VBG	VerbForm=Ger	1	_	_	start_char=110|end_char=116
+3	dinner	dinner	NOUN	NN	Number=Sing	2	_	_	start_char=117|end_char=123
+4	for	for	ADP	IN	_	3	_	_	start_char=124|end_char=127
+5	and	and	CCONJ	CC	_	4	_	_	start_char=128|end_char=131
+6	playing	play	VERB	VBG	VerbForm=Ger	5	_	_	start_char=132|end_char=139
+7	couple	couple	NOUN	NN	Number=Sing	6	_	_	start_char=140|end_char=146
+8	with	with	ADP	IN	_	7	_	_	start_char=147|end_char=151
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=152|end_char=156
+10	used	use	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=157|end_char=161
+11	up	up	ADP	RP	_	10	_	_	start_char=162|end_char=164
+12	whore	whore	NOUN	NN	Number=Sing	11	_	_	start_char=165|end_char=170
+13	m8	m8	NOUN	NN	Number=Sing	12	_	_	start_char=171|end_char=173|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=173|end_char=174|SpaceAfter=No
+

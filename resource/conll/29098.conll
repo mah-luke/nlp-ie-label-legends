@@ -1,0 +1,58 @@
+# text = This is what gives IT a bad reputation.
+# sent_id = 62424
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=8|end_char=12
+4	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=18
+5	IT	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=19|end_char=21
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=22|end_char=23
+7	bad	bad	ADJ	JJ	Degree=Pos	6	_	_	start_char=24|end_char=27
+8	reputation	reputation	NOUN	NN	Number=Sing	7	_	_	start_char=28|end_char=38|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=38|end_char=39
+
+# text = I disagree with you, and explain the reason for my disagreement extensively, and you shoot back with “you’re a spineless piece of shit”.
+# sent_id = 62425
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=40|end_char=41
+2	disagree	disagree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=50
+3	with	with	ADP	IN	_	2	_	_	start_char=51|end_char=55
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=56|end_char=59|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=59|end_char=60
+6	and	and	CCONJ	CC	_	5	_	_	start_char=61|end_char=64
+7	explain	explain	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=65|end_char=72
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=73|end_char=76
+9	reason	reason	NOUN	NN	Number=Sing	8	_	_	start_char=77|end_char=83
+10	for	for	ADP	IN	_	9	_	_	start_char=84|end_char=87
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=88|end_char=90
+12	disagreement	disagreement	NOUN	NN	Number=Sing	11	_	_	start_char=91|end_char=103
+13	extensively	extensively	ADV	RB	_	12	_	_	start_char=104|end_char=115|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=115|end_char=116
+15	and	and	CCONJ	CC	_	14	_	_	start_char=117|end_char=120
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	_	_	start_char=121|end_char=124
+17	shoot	shoot	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	_	_	start_char=125|end_char=130
+18	back	back	ADV	RB	_	17	_	_	start_char=131|end_char=135
+19	with	with	ADP	IN	_	18	_	_	start_char=136|end_char=140
+20	“	''	PUNCT	``	_	19	_	_	start_char=141|end_char=142|SpaceAfter=No
+21-22	you’re	_	_	_	_	_	_	_	start_char=142|end_char=148
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	_	_	start_char=142|end_char=145
+22	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	_	_	start_char=145|end_char=148
+23	a	a	DET	DT	Definite=Ind|PronType=Art	22	_	_	start_char=149|end_char=150
+24	spineless	spineless	ADJ	JJ	Degree=Pos	23	_	_	start_char=151|end_char=160
+25	piece	piece	NOUN	NN	Number=Sing	24	_	_	start_char=161|end_char=166
+26	of	of	ADP	IN	_	25	_	_	start_char=167|end_char=169
+27	shit	shit	NOUN	NN	Number=Sing	26	_	_	start_char=170|end_char=174|SpaceAfter=No
+28	”	''	PUNCT	''	_	27	_	_	start_char=174|end_char=175|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=175|end_char=176
+
+# text = I’m sure you have a great personality.
+# sent_id = 62426
+1-2	I’m	_	_	_	_	_	_	_	start_char=177|end_char=180
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=177|end_char=178
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=178|end_char=180
+3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=181|end_char=185
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=186|end_char=189
+5	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=190|end_char=194
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=195|end_char=196
+7	great	great	ADJ	JJ	Degree=Pos	6	_	_	start_char=197|end_char=202
+8	personality	personality	NOUN	NN	Number=Sing	7	_	_	start_char=203|end_char=214|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=214|end_char=215|SpaceAfter=No
+

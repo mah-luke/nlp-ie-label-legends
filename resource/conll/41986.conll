@@ -1,0 +1,65 @@
+# text = She/he just isn't pretty.
+# sent_id = 89791
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	/	/	SYM	,	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=4|end_char=6
+4	just	just	ADV	RB	_	3	_	_	start_char=7|end_char=11
+5-6	isn't	_	_	_	_	_	_	_	start_char=12|end_char=17
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=12|end_char=14
+6	n't	not	PART	RB	_	5	_	_	start_char=14|end_char=17
+7	pretty	pretty	ADJ	JJ	Degree=Pos	6	_	_	start_char=18|end_char=24|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=24|end_char=25
+
+# text = No matter how they fix her/him up she/he just looks ugly.
+# sent_id = 89792
+1	No	no	DET	DT	_	0	_	_	start_char=26|end_char=28
+2	matter	matter	NOUN	NN	Number=Sing	1	_	_	start_char=29|end_char=35
+3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=36|end_char=39
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=40|end_char=44
+5	fix	fix	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=45|end_char=48
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=49|end_char=52|SpaceAfter=No
+7	/	/	SYM	SYM	_	6	_	_	start_char=52|end_char=53|SpaceAfter=No
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=53|end_char=56
+9	up	up	ADP	RP	_	8	_	_	start_char=57|end_char=59
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=60|end_char=63|SpaceAfter=No
+11	/	/	SYM	,	_	10	_	_	start_char=63|end_char=64|SpaceAfter=No
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=64|end_char=66
+13	just	just	ADV	RB	_	12	_	_	start_char=67|end_char=71
+14	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=72|end_char=77
+15	ugly	ugly	ADJ	JJ	Degree=Pos	14	_	_	start_char=78|end_char=82|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=82|end_char=83
+
+# text = Maybe it's all that hate in her/his mixed with her/his racism.
+# sent_id = 89793
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=84|end_char=89
+2-3	it's	_	_	_	_	_	_	_	start_char=90|end_char=94
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=90|end_char=92
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=92|end_char=94
+4	all	all	DET	DT	_	3	_	_	start_char=95|end_char=98
+5	that	that	PRON	WDT	PronType=Rel	4	_	_	start_char=99|end_char=103
+6	hate	hate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=104|end_char=108
+7	in	in	ADP	IN	_	6	_	_	start_char=109|end_char=111
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=112|end_char=115|SpaceAfter=No
+9	/	/	SYM	,	_	8	_	_	start_char=115|end_char=116|SpaceAfter=No
+10	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=116|end_char=119
+11	mixed	mix	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=120|end_char=125
+12	with	with	ADP	IN	_	11	_	_	start_char=126|end_char=130
+13	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=131|end_char=134|SpaceAfter=No
+14	/	/	SYM	SYM	_	13	_	_	start_char=134|end_char=135|SpaceAfter=No
+15	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=135|end_char=138
+16	racism	racism	NOUN	NN	Number=Sing	15	_	_	start_char=139|end_char=145|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=145|end_char=146
+
+# text = She/he needs counseling or a str8 jacket.
+# sent_id = 89794
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=147|end_char=150|SpaceAfter=No
+2	/	/	SYM	,	_	1	_	_	start_char=150|end_char=151|SpaceAfter=No
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=151|end_char=153
+4	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=154|end_char=159
+5	counseling	counseling	NOUN	NN	Number=Sing	4	_	_	start_char=160|end_char=170
+6	or	or	CCONJ	CC	_	5	_	_	start_char=171|end_char=173
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=174|end_char=175
+8	str8	str8	NOUN	NN	Number=Sing	7	_	_	start_char=176|end_char=180
+9	jacket	jacket	NOUN	NN	Number=Sing	8	_	_	start_char=181|end_char=187|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=187|end_char=188|SpaceAfter=No
+

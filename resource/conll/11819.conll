@@ -1,0 +1,46 @@
+# text = LIFE in prison.
+# sent_id = 25037
+1	LIFE	life	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
+2	in	in	ADP	IN	_	1	_	_	start_char=5|end_char=7
+3	prison	prison	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = Just consider that for a second and realize what that means.
+# sent_id = 25038
+1	Just	just	ADV	RB	_	0	_	_	start_char=16|end_char=20
+2	consider	consider	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=21|end_char=29
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=30|end_char=34
+4	for	for	ADP	IN	_	3	_	_	start_char=35|end_char=38
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=39|end_char=40
+6	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	5	_	_	start_char=41|end_char=47
+7	and	and	CCONJ	CC	_	6	_	_	start_char=48|end_char=51
+8	realize	realize	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=52|end_char=59
+9	what	what	PRON	WP	PronType=Rel	8	_	_	start_char=60|end_char=64
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	9	_	_	start_char=65|end_char=69
+11	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=70|end_char=75|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=75|end_char=76
+
+# text = *Life* for over-the-clothing touching her boobs.
+# sent_id = 25039
+1	*	*	PUNCT	NFP	_	0	_	_	start_char=77|end_char=78|SpaceAfter=No
+2	Life	life	NOUN	NN	Number=Sing	1	_	_	start_char=78|end_char=82|SpaceAfter=No
+3	*	*	PUNCT	NFP	_	2	_	_	start_char=82|end_char=83
+4	for	for	ADP	IN	_	3	_	_	start_char=84|end_char=87
+5	over	over	ADP	IN	_	4	_	_	start_char=88|end_char=92|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=92|end_char=93|SpaceAfter=No
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=93|end_char=96|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	_	_	start_char=96|end_char=97|SpaceAfter=No
+9	clothing	clothing	NOUN	NN	Number=Sing	8	_	_	start_char=97|end_char=105
+10	touching	touch	VERB	VBG	VerbForm=Ger	9	_	_	start_char=106|end_char=114
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=115|end_char=118
+12	boobs	boob	NOUN	NNS	Number=Plur	11	_	_	start_char=119|end_char=124|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=124|end_char=125
+
+# text = That is absolutely insane.
+# sent_id = 25040
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=126|end_char=130
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=131|end_char=133
+3	absolutely	absolutely	ADV	RB	_	2	_	_	start_char=134|end_char=144
+4	insane	insane	ADJ	JJ	Degree=Pos	3	_	_	start_char=145|end_char=151|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=151|end_char=152|SpaceAfter=No
+

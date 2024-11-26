@@ -1,0 +1,71 @@
+# text = Interesting.
+# sent_id = 22441
+1	Interesting	Interesting	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=11|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=11|end_char=12
+
+# text = My wife's account just got locked out and we can't get her back in.
+# sent_id = 22442
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=13|end_char=15
+2-3	wife's	_	_	_	_	_	_	_	start_char=16|end_char=22
+2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=16|end_char=20
+3	's	's	PART	POS	_	2	_	_	start_char=20|end_char=22
+4	account	account	NOUN	NN	Number=Sing	3	_	_	start_char=23|end_char=30
+5	just	just	ADV	RB	_	4	_	_	start_char=31|end_char=35
+6	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=36|end_char=39
+7	locked	lock	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=40|end_char=46
+8	out	out	ADP	RP	_	7	_	_	start_char=47|end_char=50
+9	and	and	CCONJ	CC	_	8	_	_	start_char=51|end_char=54
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	_	_	start_char=55|end_char=57
+11-12	can't	_	_	_	_	_	_	_	start_char=58|end_char=63
+11	ca	can	AUX	MD	VerbForm=Fin	10	_	_	start_char=58|end_char=60
+12	n't	not	PART	RB	_	11	_	_	start_char=60|end_char=63
+13	get	get	VERB	VB	VerbForm=Inf	12	_	_	start_char=64|end_char=67
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=68|end_char=71
+15	back	back	ADV	RB	_	14	_	_	start_char=72|end_char=76
+16	in	in	ADP	RP	_	15	_	_	start_char=77|end_char=79|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=79|end_char=80
+
+# text = Identity confirmation feature is "unavailable" right now.
+# sent_id = 22443
+1	Identity	identity	NOUN	NN	Number=Sing	0	_	_	start_char=81|end_char=89
+2	confirmation	confirmation	NOUN	NN	Number=Sing	1	_	_	start_char=90|end_char=102
+3	feature	feature	NOUN	NN	Number=Sing	2	_	_	start_char=103|end_char=110
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=111|end_char=113
+5	"	"	PUNCT	``	_	4	_	_	start_char=114|end_char=115|SpaceAfter=No
+6	unavailable	unavailable	ADJ	JJ	Degree=Pos	5	_	_	start_char=115|end_char=126|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=126|end_char=127
+8	right	right	ADV	RB	_	7	_	_	start_char=128|end_char=133
+9	now	now	ADV	RB	_	8	_	_	start_char=134|end_char=137|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=137|end_char=138
+
+# text = I figured this was part of them being assholes and going on a ban spree.
+# sent_id = 22444
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=139|end_char=140
+2	figured	figure	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=141|end_char=148
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=149|end_char=153
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=154|end_char=157
+5	part	part	NOUN	NN	Number=Sing	4	_	_	start_char=158|end_char=162
+6	of	of	ADP	IN	_	5	_	_	start_char=163|end_char=165
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=166|end_char=170
+8	being	be	AUX	VBG	VerbForm=Ger	7	_	_	start_char=171|end_char=176
+9	assholes	asshole	NOUN	NNS	Number=Plur	8	_	_	start_char=177|end_char=185
+10	and	and	CCONJ	CC	_	9	_	_	start_char=186|end_char=189
+11	going	go	VERB	VBG	VerbForm=Ger	10	_	_	start_char=190|end_char=195
+12	on	on	ADP	IN	_	11	_	_	start_char=196|end_char=198
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=199|end_char=200
+14	ban	ban	NOUN	NN	Number=Sing	13	_	_	start_char=201|end_char=204
+15	spree	spree	NOUN	NN	Number=Sing	14	_	_	start_char=205|end_char=210|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=210|end_char=211
+
+# text = Glad to see you got your account back.
+# sent_id = 22445
+1	Glad	glad	ADJ	JJ	Degree=Pos	0	_	_	start_char=212|end_char=216
+2	to	to	PART	TO	_	1	_	_	start_char=217|end_char=219
+3	see	see	VERB	VB	VerbForm=Inf	2	_	_	start_char=220|end_char=223
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=224|end_char=227
+5	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	4	_	_	start_char=228|end_char=231
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=232|end_char=236
+7	account	account	NOUN	NN	Number=Sing	6	_	_	start_char=237|end_char=244
+8	back	back	ADV	RB	_	7	_	_	start_char=245|end_char=249|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=249|end_char=250|SpaceAfter=No
+

@@ -1,0 +1,73 @@
+# text = oh, my banana is too big for your mobile device.
+# sent_id = 86742
+1	oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=4|end_char=6
+4	banana	banana	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=13
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=14|end_char=16
+6	too	too	ADV	RB	_	5	_	_	start_char=17|end_char=20
+7	big	big	ADJ	JJ	Degree=Pos	6	_	_	start_char=21|end_char=24
+8	for	for	ADP	IN	_	7	_	_	start_char=25|end_char=28
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=29|end_char=33
+10	mobile	mobile	ADJ	JJ	Degree=Pos	9	_	_	start_char=34|end_char=40
+11	device	device	NOUN	NN	Number=Sing	10	_	_	start_char=41|end_char=47|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=47|end_char=48
+
+# text = > my banana is too big
+# sent_id = 86743
+1	>	>	PUNCT	NFP	_	0	_	_	start_char=49|end_char=50
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=51|end_char=53
+3	banana	banana	NOUN	NN	Number=Sing	2	_	_	start_char=54|end_char=60
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=61|end_char=63
+5	too	too	ADV	RB	_	4	_	_	start_char=64|end_char=67
+6	big	big	ADJ	JJ	Degree=Pos	5	_	_	start_char=68|end_char=71
+
+# text = Also your mom said this to me.
+# sent_id = 86744
+1	Also	also	ADV	RB	_	0	_	_	start_char=72|end_char=76
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=77|end_char=81
+3	mom	mom	NOUN	NN	Number=Sing	2	_	_	start_char=82|end_char=85
+4	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=86|end_char=90
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=91|end_char=95
+6	to	to	ADP	IN	_	5	_	_	start_char=96|end_char=98
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=99|end_char=101|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=101|end_char=102
+
+# text = When I showed her my penis.
+# sent_id = 86745
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=103|end_char=107
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=108|end_char=109
+3	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=110|end_char=116
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=117|end_char=120
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=121|end_char=123
+6	penis	penis	NOUN	NN	Number=Sing	5	_	_	start_char=124|end_char=129|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=129|end_char=130
+
+# text = Because I am well endowed.
+# sent_id = 86746
+1	Because	because	SCONJ	IN	_	0	_	_	start_char=131|end_char=138
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=139|end_char=140
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=141|end_char=143
+4	well	well	ADV	RB	Degree=Pos	3	_	_	start_char=144|end_char=148
+5	endowed	endow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=149|end_char=156|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=156|end_char=157
+
+# text = And I fucked your mother.
+# sent_id = 86747
+1	And	and	CCONJ	CC	_	0	_	_	start_char=158|end_char=161
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=162|end_char=163
+3	fucked	fuck	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=164|end_char=170
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=171|end_char=175
+5	mother	mother	NOUN	NN	Number=Sing	4	_	_	start_char=176|end_char=182|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=182|end_char=183
+
+# text = She's a slut. ;)
+# sent_id = 86748
+1-2	She's	_	_	_	_	_	_	_	start_char=184|end_char=189
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=184|end_char=187
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=187|end_char=189
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=190|end_char=191
+4	slut	slut	NOUN	NN	Number=Sing	3	_	_	start_char=192|end_char=196|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=196|end_char=197
+6	;)	;)	SYM	NFP	_	5	_	_	start_char=198|end_char=200|SpaceAfter=No
+

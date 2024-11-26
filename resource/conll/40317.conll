@@ -1,0 +1,63 @@
+# text = How a man figures out how to stop baby crying: Doesn't bother.
+# sent_id = 86199
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=4|end_char=5
+3	man	man	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=9
+4	figures	figure	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=10|end_char=17
+5	out	out	ADP	RP	_	4	_	_	start_char=18|end_char=21
+6	how	how	ADV	WRB	PronType=Int	5	_	_	start_char=22|end_char=25
+7	to	to	PART	TO	_	6	_	_	start_char=26|end_char=28
+8	stop	stop	VERB	VB	VerbForm=Inf	7	_	_	start_char=29|end_char=33
+9	baby	baby	NOUN	NN	Number=Sing	8	_	_	start_char=34|end_char=38
+10	crying	cry	NOUN	NN	Number=Sing	9	_	_	start_char=39|end_char=45|SpaceAfter=No
+11	:	:	PUNCT	:	_	10	_	_	start_char=45|end_char=46
+12-13	Doesn't	_	_	_	_	_	_	_	start_char=47|end_char=54
+12	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=47|end_char=51
+13	n't	not	PART	RB	_	12	_	_	start_char=51|end_char=54
+14	bother	bother	VERB	VB	VerbForm=Inf	13	_	_	start_char=55|end_char=61|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=61|end_char=62
+
+# text = How a women figures it out: "How to stop baby crying" "What I do wrong" "How to stop baby cry" "make baby cry stop" ... "wikihow how to use bath"
+# sent_id = 86200
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=63|end_char=66
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=67|end_char=68
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=69|end_char=74
+4	figures	figure	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=75|end_char=82
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=83|end_char=85
+6	out	out	ADP	RP	_	5	_	_	start_char=86|end_char=89|SpaceAfter=No
+7	:	:	PUNCT	:	_	6	_	_	start_char=89|end_char=90
+8	"	"	PUNCT	``	_	7	_	_	start_char=91|end_char=92|SpaceAfter=No
+9	How	how	ADV	WRB	PronType=Int	8	_	_	start_char=92|end_char=95
+10	to	to	PART	TO	_	9	_	_	start_char=96|end_char=98
+11	stop	stop	VERB	VB	VerbForm=Inf	10	_	_	start_char=99|end_char=103
+12	baby	baby	NOUN	NN	Number=Sing	11	_	_	start_char=104|end_char=108
+13	crying	cry	NOUN	NN	Number=Sing	12	_	_	start_char=109|end_char=115|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=115|end_char=116
+15	"	"	PUNCT	``	_	14	_	_	start_char=117|end_char=118|SpaceAfter=No
+16	What	what	PRON	WP	PronType=Rel	15	_	_	start_char=118|end_char=122
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=123|end_char=124
+18	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=125|end_char=127
+19	wrong	wrong	ADJ	JJ	Degree=Pos	18	_	_	start_char=128|end_char=133|SpaceAfter=No
+20	"	"	PUNCT	''	_	19	_	_	start_char=133|end_char=134
+21	"	"	PUNCT	``	_	20	_	_	start_char=135|end_char=136|SpaceAfter=No
+22	How	how	ADV	WRB	PronType=Int	21	_	_	start_char=136|end_char=139
+23	to	to	PART	TO	_	22	_	_	start_char=140|end_char=142
+24	stop	stop	VERB	VB	VerbForm=Inf	23	_	_	start_char=143|end_char=147
+25	baby	baby	NOUN	NN	Number=Sing	24	_	_	start_char=148|end_char=152
+26	cry	cry	NOUN	NN	Number=Sing	25	_	_	start_char=153|end_char=156|SpaceAfter=No
+27	"	"	PUNCT	''	_	26	_	_	start_char=156|end_char=157
+28	"	"	PUNCT	``	_	27	_	_	start_char=158|end_char=159|SpaceAfter=No
+29	make	make	VERB	VB	VerbForm=Inf	28	_	_	start_char=159|end_char=163
+30	baby	baby	NOUN	NN	Number=Sing	29	_	_	start_char=164|end_char=168
+31	cry	cry	NOUN	NN	Number=Sing	30	_	_	start_char=169|end_char=172
+32	stop	stop	VERB	VB	VerbForm=Inf	31	_	_	start_char=173|end_char=177|SpaceAfter=No
+33	"	"	PUNCT	''	_	32	_	_	start_char=177|end_char=178
+34	...	...	PUNCT	,	_	33	_	_	start_char=179|end_char=182
+35	"	"	PUNCT	``	_	34	_	_	start_char=183|end_char=184|SpaceAfter=No
+36	wikihow	wikihow	PROPN	NNP	Number=Sing	35	_	_	start_char=184|end_char=191
+37	how	how	ADV	WRB	PronType=Int	36	_	_	start_char=192|end_char=195
+38	to	to	PART	TO	_	37	_	_	start_char=196|end_char=198
+39	use	use	VERB	VB	VerbForm=Inf	38	_	_	start_char=199|end_char=202
+40	bath	bath	NOUN	NN	Number=Sing	39	_	_	start_char=203|end_char=207|SpaceAfter=No
+41	"	"	PUNCT	''	_	40	_	_	start_char=207|end_char=208|SpaceAfter=No
+

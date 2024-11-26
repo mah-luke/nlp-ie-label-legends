@@ -1,0 +1,70 @@
+# text = Depends on what you want to do..
+# sent_id = 115695
+1	Depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=7
+2	on	on	ADP	IN	_	1	_	_	start_char=8|end_char=10
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=11|end_char=15
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=16|end_char=19
+5	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=20|end_char=24
+6	to	to	PART	TO	_	5	_	_	start_char=25|end_char=27
+7	do	do	VERB	VB	VerbForm=Inf	6	_	_	start_char=28|end_char=30|SpaceAfter=No
+8	..	..	PUNCT	.	_	7	_	_	start_char=30|end_char=32
+
+# text = Guy already knows her, likes her, might as well shoot your shot.
+# sent_id = 115696
+1	Guy	guy	PROPN	NNP	Number=Sing	0	_	_	start_char=33|end_char=36
+2	already	already	ADV	RB	_	1	_	_	start_char=37|end_char=44
+3	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=45|end_char=50
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=51|end_char=54|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=54|end_char=55
+6	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=56|end_char=61
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=62|end_char=65|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=65|end_char=66
+9	might	might	AUX	MD	VerbForm=Fin	8	_	_	start_char=67|end_char=72
+10	as	as	ADV	RB	_	9	_	_	start_char=73|end_char=75
+11	well	well	ADV	RB	Degree=Pos	10	_	_	start_char=76|end_char=80
+12	shoot	shoot	VERB	VB	VerbForm=Inf	11	_	_	start_char=81|end_char=86
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=87|end_char=91
+14	shot	shot	NOUN	NN	Number=Sing	13	_	_	start_char=92|end_char=96|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=96|end_char=97
+
+# text = But more than likely OP will do what most guys do, keep doing what he's doing, 6 months, 12 months later, he'll still be orbiting in the friend zone.
+# sent_id = 115697
+1	But	but	CCONJ	CC	_	0	_	_	start_char=98|end_char=101
+2	more	more	ADJ	JJR	Degree=Cmp	1	_	_	start_char=102|end_char=106
+3	than	than	ADP	IN	_	2	_	_	start_char=107|end_char=111
+4	likely	likely	ADJ	JJ	Degree=Pos	3	_	_	start_char=112|end_char=118
+5	OP	OP	PROPN	NNP	Number=Sing	4	_	_	start_char=119|end_char=121
+6	will	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=122|end_char=126
+7	do	do	VERB	VB	VerbForm=Inf	6	_	_	start_char=127|end_char=129
+8	what	what	PRON	WP	PronType=Rel	7	_	_	start_char=130|end_char=134
+9	most	most	ADJ	JJS	Degree=Sup	8	_	_	start_char=135|end_char=139
+10	guys	guy	NOUN	NNS	Number=Plur	9	_	_	start_char=140|end_char=144
+11	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=145|end_char=147|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=147|end_char=148
+13	keep	keep	VERB	VB	VerbForm=Fin	12	_	_	start_char=149|end_char=153
+14	doing	do	VERB	VBG	VerbForm=Ger	13	_	_	start_char=154|end_char=159
+15	what	what	PRON	WP	PronType=Rel	14	_	_	start_char=160|end_char=164
+16-17	he's	_	_	_	_	_	_	_	start_char=165|end_char=169
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=165|end_char=167
+17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=167|end_char=169
+18	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	17	_	_	start_char=170|end_char=175|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=175|end_char=176
+20	6	6	NUM	CD	NumForm=Digit|NumType=Card	19	_	_	start_char=177|end_char=178
+21	months	month	NOUN	NNS	Number=Plur	20	_	_	start_char=179|end_char=185|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=185|end_char=186
+23	12	12	NUM	CD	NumForm=Digit|NumType=Card	22	_	_	start_char=187|end_char=189
+24	months	month	NOUN	NNS	Number=Plur	23	_	_	start_char=190|end_char=196
+25	later	late	ADV	RBR	Degree=Cmp	24	_	_	start_char=197|end_char=202|SpaceAfter=No
+26	,	,	PUNCT	,	_	25	_	_	start_char=202|end_char=203
+27-28	he'll	_	_	_	_	_	_	_	start_char=204|end_char=209
+27	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	_	_	start_char=204|end_char=206
+28	'll	will	AUX	MD	VerbForm=Fin	27	_	_	start_char=206|end_char=209
+29	still	still	ADV	RB	_	28	_	_	start_char=210|end_char=215
+30	be	be	AUX	VB	VerbForm=Inf	29	_	_	start_char=216|end_char=218
+31	orbiting	orbit	VERB	VBG	Tense=Pres|VerbForm=Part	30	_	_	start_char=219|end_char=227
+32	in	in	ADP	IN	_	31	_	_	start_char=228|end_char=230
+33	the	the	DET	DT	Definite=Def|PronType=Art	32	_	_	start_char=231|end_char=234
+34	friend	friend	NOUN	NN	Number=Sing	33	_	_	start_char=235|end_char=241
+35	zone	zone	NOUN	NN	Number=Sing	34	_	_	start_char=242|end_char=246|SpaceAfter=No
+36	.	.	PUNCT	.	_	35	_	_	start_char=246|end_char=247|SpaceAfter=No
+

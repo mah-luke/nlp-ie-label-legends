@@ -1,0 +1,58 @@
+# text = Meet Mia, the Troll, aka Killer.
+# sent_id = 42370
+1	Meet	meet	VERB	VB	VerbForm=Inf	0	_	_	start_char=0|end_char=4
+2	Mia	Mia	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=8|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=8|end_char=9
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=10|end_char=13
+5	Troll	Troll	PROPN	NNP	Number=Sing	4	_	_	start_char=14|end_char=19|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=19|end_char=20
+7	aka	a.k.a.	ADV	RB	_	6	_	_	start_char=21|end_char=24
+8	Killer	Killer	PROPN	NNP	Number=Sing	7	_	_	start_char=25|end_char=31|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=31|end_char=32
+
+# text = She's brutal.
+# sent_id = 42371
+1-2	She's	_	_	_	_	_	_	_	start_char=33|end_char=38
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=33|end_char=36
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=38
+3	brutal	brutal	ADJ	JJ	Degree=Pos	2	_	_	start_char=39|end_char=45|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=45|end_char=46
+
+# text = She loves #Trump.
+# sent_id = 42372
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=47|end_char=50
+2	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=56
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=57|end_char=58|SpaceAfter=No
+4	Trump	Trump	PROPN	NNP	Number=Sing	3	_	_	start_char=58|end_char=63|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=63|end_char=64
+
+# text = And she's ready to #MAGA.
+# sent_id = 42373
+1	And	and	CCONJ	CC	_	0	_	_	start_char=65|end_char=68
+2-3	she's	_	_	_	_	_	_	_	start_char=69|end_char=74
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=69|end_char=72
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=72|end_char=74
+4	ready	ready	ADJ	JJ	Degree=Pos	3	_	_	start_char=75|end_char=80
+5	to	to	PART	TO	_	4	_	_	start_char=81|end_char=83
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=84|end_char=85|SpaceAfter=No
+7	MAGA	maga	NOUN	NN	Number=Sing	6	_	_	start_char=85|end_char=89|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=89|end_char=90
+
+# text = #GabFam #SpeakFreely #News #BitchesForTrump (From Scott Isbell via Twitter)
+# sent_id = 42374
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=91|end_char=92|SpaceAfter=No
+2	GabFam	gabfam	NOUN	GW	Number=Sing	1	_	_	start_char=92|end_char=98
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=99|end_char=100|SpaceAfter=No
+4	SpeakFreely	SpeakFreely	NOUN	NN	Number=Sing	3	_	_	start_char=100|end_char=111
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=112|end_char=113|SpaceAfter=No
+6	News	news	NOUN	NN	Number=Sing	5	_	_	start_char=113|end_char=117
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=118|end_char=119|SpaceAfter=No
+8	BitchesForTrump	bitchesfortrump	NOUN	NN	Number=Sing	7	_	_	start_char=119|end_char=134
+9	(	(	PUNCT	-LRB-	_	8	_	_	start_char=135|end_char=136|SpaceAfter=No
+10	From	from	ADP	IN	_	9	_	_	start_char=136|end_char=140
+11	Scott	Scott	PROPN	NNP	Number=Sing	10	_	_	start_char=141|end_char=146
+12	Isbell	Isbell	PROPN	NNP	Number=Sing	11	_	_	start_char=147|end_char=153
+13	via	via	ADP	IN	_	12	_	_	start_char=154|end_char=157
+14	Twitter	Twitter	PROPN	NNP	Number=Sing	13	_	_	start_char=158|end_char=165|SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	_	_	start_char=165|end_char=166|SpaceAfter=No
+

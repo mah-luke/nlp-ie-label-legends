@@ -1,0 +1,46 @@
+# text = He’s Netflix and chilling on his wife, and he’s paying for it.
+# sent_id = 97532
+1-2	He’s	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	Netflix	Netflix	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=12
+4	and	and	CCONJ	CC	_	3	_	_	start_char=13|end_char=16
+5	chilling	chill	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=17|end_char=25
+6	on	on	ADP	IN	_	5	_	_	start_char=26|end_char=28
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=29|end_char=32
+8	wife	wife	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=37|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=37|end_char=38
+10	and	and	CCONJ	CC	_	9	_	_	start_char=39|end_char=42
+11-12	he’s	_	_	_	_	_	_	_	start_char=43|end_char=47
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=43|end_char=45
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=45|end_char=47
+13	paying	pay	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=48|end_char=54
+14	for	for	ADP	IN	_	13	_	_	start_char=55|end_char=58
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=59|end_char=61|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=61|end_char=62
+
+# text = Might as well clean up the dude’s semen from his wife’s slit after they’re done.
+# sent_id = 97533
+1	Might	might	AUX	MD	VerbForm=Fin	0	_	_	start_char=63|end_char=68
+2	as	as	ADV	RB	_	1	_	_	start_char=69|end_char=71
+3	well	well	ADV	RB	Degree=Pos	2	_	_	start_char=72|end_char=76
+4	clean	clean	VERB	VB	VerbForm=Inf	3	_	_	start_char=77|end_char=82
+5	up	up	ADP	RP	_	4	_	_	start_char=83|end_char=85
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=86|end_char=89
+7-8	dude’s	_	_	_	_	_	_	_	start_char=90|end_char=96
+7	dude	dude	NOUN	NN	Number=Sing	6	_	_	start_char=90|end_char=94
+8	’s	's	PART	POS	_	7	_	_	start_char=94|end_char=96
+9	semen	semen	NOUN	NN	Number=Sing	8	_	_	start_char=97|end_char=102
+10	from	from	ADP	IN	_	9	_	_	start_char=103|end_char=107
+11	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=108|end_char=111
+12-13	wife’s	_	_	_	_	_	_	_	start_char=112|end_char=118
+12	wife	wife	NOUN	NN	Number=Sing	11	_	_	start_char=112|end_char=116
+13	’s	's	PART	POS	_	12	_	_	start_char=116|end_char=118
+14	slit	slit	NOUN	NN	Number=Sing	13	_	_	start_char=119|end_char=123
+15	after	after	SCONJ	IN	_	14	_	_	start_char=124|end_char=129
+16-17	they’re	_	_	_	_	_	_	_	start_char=130|end_char=137
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	_	_	start_char=130|end_char=134
+17	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=134|end_char=137
+18	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	_	_	start_char=138|end_char=142|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=142|end_char=143|SpaceAfter=No
+

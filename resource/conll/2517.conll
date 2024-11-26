@@ -1,0 +1,64 @@
+# text = “Total chad chad smiths” god I have no idea what that means but I love it.
+# sent_id = 5358
+1	“	''	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Total	total	ADJ	JJ	Degree=Pos	1	_	_	start_char=1|end_char=6
+3	chad	chad	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=11
+4	chad	chad	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=16
+5	smiths	smith	NOUN	NNS	Number=Plur	4	_	_	start_char=17|end_char=23|SpaceAfter=No
+6	”	''	PUNCT	''	_	5	_	_	start_char=23|end_char=24
+7	god	god	PROPN	NNP	Number=Sing	6	_	_	start_char=25|end_char=28
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=29|end_char=30
+9	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=31|end_char=35
+10	no	no	DET	DT	_	9	_	_	start_char=36|end_char=38
+11	idea	idea	NOUN	NN	Number=Sing	10	_	_	start_char=39|end_char=43
+12	what	what	PRON	WP	PronType=Rel	11	_	_	start_char=44|end_char=48
+13	that	that	PRON	DT	Number=Sing|PronType=Dem	12	_	_	start_char=49|end_char=53
+14	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=54|end_char=59
+15	but	but	CCONJ	CC	_	14	_	_	start_char=60|end_char=63
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=64|end_char=65
+17	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	_	_	start_char=66|end_char=70
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=71|end_char=73|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=73|end_char=74
+
+# text = I love Disney though.
+# sent_id = 5359
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=75|end_char=76
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=77|end_char=81
+3	Disney	Disney	PROPN	NNP	Number=Sing	2	_	_	start_char=82|end_char=88
+4	though	though	ADV	RB	_	3	_	_	start_char=89|end_char=95|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=95|end_char=96
+
+# text = I’m 6’4 Puerto Rican with green eyes and a beard that connects.
+# sent_id = 5360
+1-2	I’m	_	_	_	_	_	_	_	start_char=97|end_char=100
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=97|end_char=98
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=98|end_char=100
+3	6’4	6’4	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=101|end_char=104
+4	Puerto	Puerto	PROPN	NNP	Number=Sing	3	_	_	start_char=105|end_char=111
+5	Rican	Rican	PROPN	NNP	Number=Sing	4	_	_	start_char=112|end_char=117
+6	with	with	ADP	IN	_	5	_	_	start_char=118|end_char=122
+7	green	green	ADJ	JJ	Degree=Pos	6	_	_	start_char=123|end_char=128
+8	eyes	eye	NOUN	NNS	Number=Plur	7	_	_	start_char=129|end_char=133
+9	and	and	CCONJ	CC	_	8	_	_	start_char=134|end_char=137
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=138|end_char=139
+11	beard	beard	NOUN	NN	Number=Sing	10	_	_	start_char=140|end_char=145
+12	that	that	PRON	WDT	PronType=Rel	11	_	_	start_char=146|end_char=150
+13	connects	connect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=151|end_char=159|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=159|end_char=160
+
+# text = I’m out side mayne 😂 don play with my Disney movies
+# sent_id = 5361
+1-2	I’m	_	_	_	_	_	_	_	start_char=161|end_char=164
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=161|end_char=162
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=162|end_char=164
+3	out	out	ADV	RB	_	2	_	_	start_char=165|end_char=168
+4	side	side	NOUN	NN	Number=Sing	3	_	_	start_char=169|end_char=173
+5	mayne	Mayne	PROPN	NNP	Number=Sing	4	_	_	start_char=174|end_char=179
+6	😂	😂	INTJ	UH	_	5	_	_	start_char=180|end_char=181
+7	don	don	NOUN	NN	Number=Sing	6	_	_	start_char=182|end_char=185
+8	play	play	VERB	VB	VerbForm=Inf	7	_	_	start_char=186|end_char=190
+9	with	with	ADP	IN	_	8	_	_	start_char=191|end_char=195
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=196|end_char=198
+11	Disney	Disney	PROPN	NNP	Number=Sing	10	_	_	start_char=199|end_char=205
+12	movies	movie	NOUN	NNS	Number=Plur	11	_	_	start_char=206|end_char=212|SpaceAfter=No
+

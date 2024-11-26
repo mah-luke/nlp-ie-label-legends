@@ -1,0 +1,60 @@
+# text = OK.. did I just wake up in a parallel universe?
+# sent_id = 8101
+1	OK	ok	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	..	..	PUNCT	,	_	1	_	_	start_char=2|end_char=4
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=5|end_char=8
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=9|end_char=10
+5	just	just	ADV	RB	_	4	_	_	start_char=11|end_char=15
+6	wake	wake	VERB	VB	VerbForm=Inf	5	_	_	start_char=16|end_char=20
+7	up	up	ADP	RP	_	6	_	_	start_char=21|end_char=23
+8	in	in	ADP	IN	_	7	_	_	start_char=24|end_char=26
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=27|end_char=28
+10	parallel	parallel	ADJ	JJ	Degree=Pos	9	_	_	start_char=29|end_char=37
+11	universe	universe	NOUN	NN	Number=Sing	10	_	_	start_char=38|end_char=46|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=46|end_char=47
+
+# text = Everyone knows any interference in the last election was done to hurt Trump, not Hillary.
+# sent_id = 8102
+1	Everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	0	_	_	start_char=48|end_char=56
+2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=57|end_char=62
+3	any	any	DET	DT	_	2	_	_	start_char=63|end_char=66
+4	interference	interference	NOUN	NN	Number=Sing	3	_	_	start_char=67|end_char=79
+5	in	in	ADP	IN	_	4	_	_	start_char=80|end_char=82
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=83|end_char=86
+7	last	last	ADJ	JJ	Degree=Pos	6	_	_	start_char=87|end_char=91
+8	election	election	NOUN	NN	Number=Sing	7	_	_	start_char=92|end_char=100
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=101|end_char=104
+10	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=105|end_char=109
+11	to	to	PART	TO	_	10	_	_	start_char=110|end_char=112
+12	hurt	hurt	VERB	VB	VerbForm=Inf	11	_	_	start_char=113|end_char=117
+13	Trump	Trump	PROPN	NNP	Number=Sing	12	_	_	start_char=118|end_char=123|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=123|end_char=124
+15	not	not	PART	RB	_	14	_	_	start_char=125|end_char=128
+16	Hillary	Hillary	PROPN	NNP	Number=Sing	15	_	_	start_char=129|end_char=136|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=136|end_char=137
+
+# text = They already owned her.
+# sent_id = 8103
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=138|end_char=142
+2	already	already	ADV	RB	_	1	_	_	start_char=143|end_char=150
+3	owned	own	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=151|end_char=156
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=157|end_char=160|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=160|end_char=161
+
+# text = She was bought & paid for years ago.
+# sent_id = 8104
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=162|end_char=165
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=166|end_char=169
+3	bought	buy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=170|end_char=176
+4	&	&	CCONJ	CC	_	3	_	_	start_char=177|end_char=178
+5	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=179|end_char=183
+6	for	for	ADP	IN	_	5	_	_	start_char=184|end_char=187
+7	years	year	NOUN	NNS	Number=Plur	6	_	_	start_char=188|end_char=193
+8	ago	ago	ADV	RB	_	7	_	_	start_char=194|end_char=197|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=197|end_char=198
+
+# text = #Russiagate
+# sent_id = 8105
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=199|end_char=200|SpaceAfter=No
+2	Russiagate	Russiagate	PROPN	NNP	Number=Sing	1	_	_	start_char=200|end_char=210|SpaceAfter=No
+

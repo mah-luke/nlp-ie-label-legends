@@ -1,0 +1,33 @@
+# text = Juanita Broaddrick calls out Hillary for her hypocritical statements on Weinstein.
+# sent_id = 51918
+1	Juanita	Juanita	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	Broaddrick	Broaddrick	PROPN	NNP	Number=Sing	1	_	_	start_char=8|end_char=18
+3	calls	call	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=19|end_char=24
+4	out	out	ADP	RP	_	3	_	_	start_char=25|end_char=28
+5	Hillary	Hillary	PROPN	NNP	Number=Sing	4	_	_	start_char=29|end_char=36
+6	for	for	ADP	IN	_	5	_	_	start_char=37|end_char=40
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=41|end_char=44
+8	hypocritical	hypocritical	ADJ	JJ	Degree=Pos	7	_	_	start_char=45|end_char=57
+9	statements	statement	NOUN	NNS	Number=Plur	8	_	_	start_char=58|end_char=68
+10	on	on	ADP	IN	_	9	_	_	start_char=69|end_char=71
+11	Weinstein	Weinstein	PROPN	NNP	Number=Sing	10	_	_	start_char=72|end_char=81|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=81|end_char=82
+
+# text = I guess she can overlook Bill's "indiscretions"... [URL]
+# sent_id = 51919
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=83|end_char=84
+2	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=85|end_char=90
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=91|end_char=94
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=95|end_char=98
+5	overlook	overlook	VERB	VB	VerbForm=Inf	4	_	_	start_char=99|end_char=107
+6-7	Bill's	_	_	_	_	_	_	_	start_char=108|end_char=114
+6	Bill	Bill	PROPN	NNP	Number=Sing	5	_	_	start_char=108|end_char=112
+7	's	's	PART	POS	_	6	_	_	start_char=112|end_char=114
+8	"	"	PUNCT	``	_	7	_	_	start_char=115|end_char=116|SpaceAfter=No
+9	indiscretions	indiscretion	NOUN	NNS	Number=Plur	8	_	_	start_char=116|end_char=129|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=129|end_char=130|SpaceAfter=No
+11	...	...	PUNCT	,	_	10	_	_	start_char=130|end_char=133
+12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=134|end_char=135|SpaceAfter=No
+13	URL	URL	PROPN	NNP	Number=Sing	12	_	_	start_char=135|end_char=138|SpaceAfter=No
+14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=138|end_char=139|SpaceAfter=No
+

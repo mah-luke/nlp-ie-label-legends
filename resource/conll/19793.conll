@@ -1,0 +1,66 @@
+# text = Twitter Engineer Pranay Singh, Says
+# sent_id = 42495
+1	Twitter	Twitter	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	Engineer	engineer	NOUN	NN	Number=Sing	1	_	_	start_char=8|end_char=16
+3	Pranay	Pranay	PROPN	NNP	Number=Sing	2	_	_	start_char=17|end_char=23
+4	Singh	Singh	PROPN	NNP	Number=Sing	3	_	_	start_char=24|end_char=29|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=29|end_char=30
+6	Says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=31|end_char=35
+
+# text = "All your sex messages, d*ck pics like, all the girls you've been f*cking around with, they're are on my server now" & "Even after you delete content, it will not be wiped from Twitter servers."
+# sent_id = 42496
+1	"	"	PUNCT	``	_	0	_	_	start_char=36|end_char=37|SpaceAfter=No
+2	All	all	DET	PDT	_	1	_	_	start_char=37|end_char=40
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=41|end_char=45
+4	sex	sex	NOUN	NN	Number=Sing	3	_	_	start_char=46|end_char=49
+5	messages	message	NOUN	NNS	Number=Plur	4	_	_	start_char=50|end_char=58|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=58|end_char=59
+7	d*ck	d*ck	NOUN	NN	Number=Sing	6	_	_	start_char=60|end_char=64
+8	pics	pic	NOUN	NNS	Number=Plur	7	_	_	start_char=65|end_char=69
+9	like	like	INTJ	UH	_	8	_	_	start_char=70|end_char=74|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=74|end_char=75
+11	all	all	DET	PDT	_	10	_	_	start_char=76|end_char=79
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=80|end_char=83
+13	girls	girl	NOUN	NNS	Number=Plur	12	_	_	start_char=84|end_char=89
+14-15	you've	_	_	_	_	_	_	_	start_char=90|end_char=96
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	_	_	start_char=90|end_char=93
+15	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	_	_	start_char=93|end_char=96
+16	been	be	AUX	VBN	Tense=Past|VerbForm=Part	15	_	_	start_char=97|end_char=101
+17	f*cking	f*ck	VERB	VBG	Tense=Pres|VerbForm=Part	16	_	_	start_char=102|end_char=109
+18	around	around	ADV	RB	_	17	_	_	start_char=110|end_char=116
+19	with	with	ADP	IN	_	18	_	_	start_char=117|end_char=121|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=121|end_char=122
+21-22	they're	_	_	_	_	_	_	_	start_char=123|end_char=130
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	_	_	start_char=123|end_char=127
+22	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=127|end_char=130
+23	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=131|end_char=134
+24	on	on	ADP	IN	_	23	_	_	start_char=135|end_char=137
+25	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	_	_	start_char=138|end_char=140
+26	server	server	NOUN	NN	Number=Sing	25	_	_	start_char=141|end_char=147
+27	now	now	ADV	RB	_	26	_	_	start_char=148|end_char=151|SpaceAfter=No
+28	"	"	PUNCT	''	_	27	_	_	start_char=151|end_char=152
+29	&	&	CCONJ	CC	_	28	_	_	start_char=153|end_char=154
+30	"	"	PUNCT	``	_	29	_	_	start_char=155|end_char=156|SpaceAfter=No
+31	Even	even	ADV	RB	_	30	_	_	start_char=156|end_char=160
+32	after	after	SCONJ	IN	_	31	_	_	start_char=161|end_char=166
+33	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	32	_	_	start_char=167|end_char=170
+34	delete	delete	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	33	_	_	start_char=171|end_char=177
+35	content	content	NOUN	NN	Number=Sing	34	_	_	start_char=178|end_char=185|SpaceAfter=No
+36	,	,	PUNCT	,	_	35	_	_	start_char=185|end_char=186
+37	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	36	_	_	start_char=187|end_char=189
+38	will	will	AUX	MD	VerbForm=Fin	37	_	_	start_char=190|end_char=194
+39	not	not	PART	RB	_	38	_	_	start_char=195|end_char=198
+40	be	be	AUX	VB	VerbForm=Inf	39	_	_	start_char=199|end_char=201
+41	wiped	wipe	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	40	_	_	start_char=202|end_char=207
+42	from	from	ADP	IN	_	41	_	_	start_char=208|end_char=212
+43	Twitter	Twitter	PROPN	NNP	Number=Sing	42	_	_	start_char=213|end_char=220
+44	servers	server	NOUN	NNS	Number=Plur	43	_	_	start_char=221|end_char=228|SpaceAfter=No
+45	.	.	PUNCT	.	_	44	_	_	start_char=228|end_char=229|SpaceAfter=No
+46	"	"	PUNCT	''	_	45	_	_	start_char=229|end_char=230
+
+# text = [URL]
+# sent_id = 42497
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=231|end_char=232|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=232|end_char=235|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=235|end_char=236|SpaceAfter=No
+

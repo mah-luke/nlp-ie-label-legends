@@ -1,0 +1,49 @@
+# text = yeah ,Either she's interested in you or not.
+# sent_id = 96549
+1	yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6|SpaceAfter=No
+3	Either	either	CCONJ	CC	_	2	_	_	start_char=6|end_char=12
+4-5	she's	_	_	_	_	_	_	_	start_char=13|end_char=18
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=13|end_char=16
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=16|end_char=18
+6	interested	interested	ADJ	JJ	Degree=Pos	5	_	_	start_char=19|end_char=29
+7	in	in	ADP	IN	_	6	_	_	start_char=30|end_char=32
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	_	_	start_char=33|end_char=36
+9	or	or	CCONJ	CC	_	8	_	_	start_char=37|end_char=39
+10	not	not	PART	RB	_	9	_	_	start_char=40|end_char=43|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=43|end_char=44
+
+# text = whether that interest flourishes or gets dreaded over time depends on your chemistry.
+# sent_id = 96550
+1	whether	whether	SCONJ	IN	_	0	_	_	start_char=45|end_char=52
+2	that	that	SCONJ	IN	_	1	_	_	start_char=53|end_char=57
+3	interest	interest	NOUN	NN	Number=Sing	2	_	_	start_char=58|end_char=66
+4	flourishes	flourish	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=67|end_char=77
+5	or	or	CCONJ	CC	_	4	_	_	start_char=78|end_char=80
+6	gets	get	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=81|end_char=85
+7	dreaded	dread	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=86|end_char=93
+8	over	over	ADP	IN	_	7	_	_	start_char=94|end_char=98
+9	time	time	NOUN	NN	Number=Sing	8	_	_	start_char=99|end_char=103
+10	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=104|end_char=111
+11	on	on	ADP	IN	_	10	_	_	start_char=112|end_char=114
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	_	_	start_char=115|end_char=119
+13	chemistry	chemistry	NOUN	NN	Number=Sing	12	_	_	start_char=120|end_char=129|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=129|end_char=130
+
+# text = Also commitment and efforts towards it are major driving factor for sustained relationship.
+# sent_id = 96551
+1	Also	also	ADV	RB	_	0	_	_	start_char=131|end_char=135
+2	commitment	commitment	NOUN	NN	Number=Sing	1	_	_	start_char=136|end_char=146
+3	and	and	CCONJ	CC	_	2	_	_	start_char=147|end_char=150
+4	efforts	effort	NOUN	NNS	Number=Plur	3	_	_	start_char=151|end_char=158
+5	towards	towards	ADP	IN	_	4	_	_	start_char=159|end_char=166
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=167|end_char=169
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=170|end_char=173
+8	major	major	ADJ	JJ	Degree=Pos	7	_	_	start_char=174|end_char=179
+9	driving	driving	NOUN	NN	Number=Sing	8	_	_	start_char=180|end_char=187
+10	factor	factor	NOUN	NN	Number=Sing	9	_	_	start_char=188|end_char=194
+11	for	for	ADP	IN	_	10	_	_	start_char=195|end_char=198
+12	sustained	sustained	ADJ	JJ	Degree=Pos	11	_	_	start_char=199|end_char=208
+13	relationship	relationship	NOUN	NN	Number=Sing	12	_	_	start_char=209|end_char=221|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=221|end_char=222|SpaceAfter=No
+

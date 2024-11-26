@@ -1,0 +1,44 @@
+# text = "A man invests himself completely in a woman because he hasn’t made anything of himself.
+# sent_id = 86082
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	A	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=1|end_char=2
+3	man	man	NOUN	NN	Number=Sing	2	_	_	start_char=3|end_char=6
+4	invests	invest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=7|end_char=14
+5	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	4	_	_	start_char=15|end_char=22
+6	completely	completely	ADV	RB	_	5	_	_	start_char=23|end_char=33
+7	in	in	ADP	IN	_	6	_	_	start_char=34|end_char=36
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=37|end_char=38
+9	woman	woman	NOUN	NN	Number=Sing	8	_	_	start_char=39|end_char=44
+10	because	because	SCONJ	IN	_	9	_	_	start_char=45|end_char=52
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=53|end_char=55
+12-13	hasn’t	_	_	_	_	_	_	_	start_char=56|end_char=62
+12	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=56|end_char=59
+13	n’t	not	PART	RB	_	12	_	_	start_char=59|end_char=62
+14	made	make	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=63|end_char=67
+15	anything	anything	PRON	NN	Number=Sing|PronType=Ind	14	_	_	start_char=68|end_char=76
+16	of	of	ADP	IN	_	15	_	_	start_char=77|end_char=79
+17	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	_	_	start_char=80|end_char=87|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=87|end_char=88
+
+# text = It is an abdication of his manhood."
+# sent_id = 86083
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=89|end_char=91
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=92|end_char=94
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=95|end_char=97
+4	abdication	abdication	NOUN	NN	Number=Sing	3	_	_	start_char=98|end_char=108
+5	of	of	ADP	IN	_	4	_	_	start_char=109|end_char=111
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=112|end_char=115
+7	manhood	manhood	NOUN	NN	Number=Sing	6	_	_	start_char=116|end_char=123|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=123|end_char=124|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=124|end_char=125
+
+# text = - [USER] [URL]
+# sent_id = 86084
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=126|end_char=127
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=128|end_char=129|SpaceAfter=No
+3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=129|end_char=133|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=133|end_char=134
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=135|end_char=136|SpaceAfter=No
+6	URL	URL	NOUN	NN	Number=Sing	5	_	_	start_char=136|end_char=139|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=139|end_char=140|SpaceAfter=No
+

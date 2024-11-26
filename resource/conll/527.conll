@@ -1,0 +1,33 @@
+# text = You’ll get mogged by anyone with same features but taller than you.
+# sent_id = 1120
+1-2	You’ll	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	’ll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	get	get	AUX	VB	VerbForm=Inf	2	_	_	start_char=7|end_char=10
+4	mogged	mog	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=11|end_char=17
+5	by	by	ADP	IN	_	4	_	_	start_char=18|end_char=20
+6	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	5	_	_	start_char=21|end_char=27
+7	with	with	ADP	IN	_	6	_	_	start_char=28|end_char=32
+8	same	same	ADJ	JJ	Degree=Pos	7	_	_	start_char=33|end_char=37
+9	features	feature	NOUN	NNS	Number=Plur	8	_	_	start_char=38|end_char=46
+10	but	but	CCONJ	CC	_	9	_	_	start_char=47|end_char=50
+11	taller	tall	ADJ	JJR	Degree=Cmp	10	_	_	start_char=51|end_char=57
+12	than	than	ADP	IN	_	11	_	_	start_char=58|end_char=62
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	_	_	start_char=63|end_char=66|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=66|end_char=67
+
+# text = Dan Bilzerian is probably a good example like him or hate him
+# sent_id = 1121
+1	Dan	Dan	PROPN	NNP	Number=Sing	0	_	_	start_char=68|end_char=71
+2	Bilzerian	Bilzerian	PROPN	NNP	Number=Sing	1	_	_	start_char=72|end_char=81
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=82|end_char=84
+4	probably	probably	ADV	RB	_	3	_	_	start_char=85|end_char=93
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=94|end_char=95
+6	good	good	ADJ	JJ	Degree=Pos	5	_	_	start_char=96|end_char=100
+7	example	example	NOUN	NN	Number=Sing	6	_	_	start_char=101|end_char=108
+8	like	like	ADP	IN	_	7	_	_	start_char=109|end_char=113
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=114|end_char=117
+10	or	or	CCONJ	CC	_	9	_	_	start_char=118|end_char=120
+11	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=121|end_char=125
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=126|end_char=129|SpaceAfter=No
+

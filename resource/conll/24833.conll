@@ -1,0 +1,37 @@
+# text = You're delusional.
+# sent_id = 53208
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	delusional	delusional	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=17|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=17|end_char=18
+
+# text = As of 2016, there are only 4,760 mixed individuals in Richmond BC.
+# sent_id = 53209
+1	As	as	ADP	IN	_	0	_	_	start_char=19|end_char=21
+2	of	of	ADP	IN	_	1	_	_	start_char=22|end_char=24
+3	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=25|end_char=29|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=29|end_char=30
+5	there	there	PRON	EX	_	4	_	_	start_char=31|end_char=36
+6	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=37|end_char=40
+7	only	only	ADV	RB	_	6	_	_	start_char=41|end_char=45
+8	4,760	4760	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=46|end_char=51
+9	mixed	mix	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=52|end_char=57
+10	individuals	individual	NOUN	NNS	Number=Plur	9	_	_	start_char=58|end_char=69
+11	in	in	ADP	IN	_	10	_	_	start_char=70|end_char=72
+12	Richmond	Richmond	PROPN	NNP	Number=Sing	11	_	_	start_char=73|end_char=81
+13	BC	bc	NOUN	NN	Number=Sing	12	_	_	start_char=82|end_char=84|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=84|end_char=85
+
+# text = Of that number an even smaller are Hapa.
+# sent_id = 53210
+1	Of	of	ADP	IN	_	0	_	_	start_char=86|end_char=88
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=89|end_char=93
+3	number	number	NOUN	NN	Number=Sing	2	_	_	start_char=94|end_char=100
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=101|end_char=103
+5	even	even	ADV	RB	_	4	_	_	start_char=104|end_char=108
+6	smaller	small	ADJ	JJR	Degree=Cmp	5	_	_	start_char=109|end_char=116
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=117|end_char=120
+8	Hapa	Hapa	PROPN	NNP	Number=Sing	7	_	_	start_char=121|end_char=125|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=125|end_char=126|SpaceAfter=No
+

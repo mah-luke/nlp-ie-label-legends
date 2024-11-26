@@ -1,0 +1,66 @@
+# text = But mom what?
+# sent_id = 104886
+1	But	but	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	mom	mom	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=7
+3	what	what	PRON	WP	PronType=Int	2	_	_	start_char=8|end_char=12|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=12|end_char=13
+
+# text = Seems like you feel some type of shame in approaching women.
+# sent_id = 104887
+1	Seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=14|end_char=19
+2	like	like	SCONJ	IN	_	1	_	_	start_char=20|end_char=24
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=25|end_char=28
+4	feel	feel	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=29|end_char=33
+5	some	some	DET	DT	_	4	_	_	start_char=34|end_char=38
+6	type	type	NOUN	NN	Number=Sing	5	_	_	start_char=39|end_char=43
+7	of	of	ADP	IN	_	6	_	_	start_char=44|end_char=46
+8	shame	shame	NOUN	NN	Number=Sing	7	_	_	start_char=47|end_char=52
+9	in	in	SCONJ	IN	_	8	_	_	start_char=53|end_char=55
+10	approaching	approach	VERB	VBG	VerbForm=Ger	9	_	_	start_char=56|end_char=67
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=68|end_char=73|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=73|end_char=74
+
+# text = Nothing is wrong with it, doesn't matter who is there.
+# sent_id = 104888
+1	Nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=75|end_char=82
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=83|end_char=85
+3	wrong	wrong	ADJ	JJ	Degree=Pos	2	_	_	start_char=86|end_char=91
+4	with	with	ADP	IN	_	3	_	_	start_char=92|end_char=96
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=97|end_char=99|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=99|end_char=100
+7-8	doesn't	_	_	_	_	_	_	_	start_char=101|end_char=108
+7	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=101|end_char=105
+8	n't	not	PART	RB	_	7	_	_	start_char=105|end_char=108
+9	matter	matter	VERB	VB	VerbForm=Inf	8	_	_	start_char=109|end_char=115
+10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=116|end_char=119
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=120|end_char=122
+12	there	there	ADV	RB	PronType=Dem	11	_	_	start_char=123|end_char=128|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=128|end_char=129
+
+# text = It's either your relationship with your mom or your perception of approaching women, what's so bad about it?
+# sent_id = 104889
+1-2	It's	_	_	_	_	_	_	_	start_char=130|end_char=134
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=130|end_char=132
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=132|end_char=134
+3	either	either	CCONJ	CC	_	2	_	_	start_char=135|end_char=141
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=142|end_char=146
+5	relationship	relationship	NOUN	NN	Number=Sing	4	_	_	start_char=147|end_char=159
+6	with	with	ADP	IN	_	5	_	_	start_char=160|end_char=164
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=165|end_char=169
+8	mom	mom	NOUN	NN	Number=Sing	7	_	_	start_char=170|end_char=173
+9	or	or	CCONJ	CC	_	8	_	_	start_char=174|end_char=176
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	_	_	start_char=177|end_char=181
+11	perception	perception	NOUN	NN	Number=Sing	10	_	_	start_char=182|end_char=192
+12	of	of	ADP	IN	_	11	_	_	start_char=193|end_char=195
+13	approaching	approach	VERB	VBG	VerbForm=Ger	12	_	_	start_char=196|end_char=207
+14	women	woman	NOUN	NNS	Number=Plur	13	_	_	start_char=208|end_char=213|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=213|end_char=214
+16-17	what's	_	_	_	_	_	_	_	start_char=215|end_char=221
+16	what	what	PRON	WP	PronType=Int	15	_	_	start_char=215|end_char=219
+17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=219|end_char=221
+18	so	so	ADV	RB	_	17	_	_	start_char=222|end_char=224
+19	bad	bad	ADJ	JJ	Degree=Pos	18	_	_	start_char=225|end_char=228
+20	about	about	ADP	IN	_	19	_	_	start_char=229|end_char=234
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=235|end_char=237|SpaceAfter=No
+22	?	?	PUNCT	.	_	21	_	_	start_char=237|end_char=238|SpaceAfter=No
+

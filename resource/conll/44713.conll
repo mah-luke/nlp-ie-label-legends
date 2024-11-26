@@ -1,0 +1,27 @@
+# text = I'll let an old woman have my seat on transport.
+# sent_id = 95435
+1-2	I'll	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	let	let	VERB	VB	VerbForm=Inf	2	_	_	start_char=5|end_char=8
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=9|end_char=11
+5	old	old	ADJ	JJ	Degree=Pos	4	_	_	start_char=12|end_char=15
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=16|end_char=21
+7	have	have	VERB	VB	VerbForm=Inf	6	_	_	start_char=22|end_char=26
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	_	_	start_char=27|end_char=29
+9	seat	seat	NOUN	NN	Number=Sing	8	_	_	start_char=30|end_char=34
+10	on	on	ADP	IN	_	9	_	_	start_char=35|end_char=37
+11	transport	transport	NOUN	NN	Number=Sing	10	_	_	start_char=38|end_char=47|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=47|end_char=48
+
+# text = Never seen another woman offer her seat.
+# sent_id = 95436
+1	Never	never	ADV	RB	_	0	_	_	start_char=49|end_char=54
+2	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=55|end_char=59
+3	another	another	DET	DT	_	2	_	_	start_char=60|end_char=67
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=68|end_char=73
+5	offer	offer	VERB	VB	VerbForm=Fin	4	_	_	start_char=74|end_char=79
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=80|end_char=83
+7	seat	seat	NOUN	NN	Number=Sing	6	_	_	start_char=84|end_char=88|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=88|end_char=89|SpaceAfter=No
+

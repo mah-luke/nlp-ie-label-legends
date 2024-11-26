@@ -1,0 +1,16 @@
+# text = She's fugly anyhow.
+# sent_id = 9246
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	fugly	fugly	ADV	RB	_	2	_	_	start_char=6|end_char=11
+4	anyhow	anyhow	ADV	RB	_	3	_	_	start_char=12|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = Dumb rich idiot.
+# sent_id = 9247
+1	Dumb	Dumb	ADJ	JJ	Degree=Pos	0	_	_	start_char=20|end_char=24
+2	rich	rich	ADJ	JJ	Degree=Pos	1	_	_	start_char=25|end_char=29
+3	idiot	idiot	NOUN	NN	Number=Sing	2	_	_	start_char=30|end_char=35|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=35|end_char=36|SpaceAfter=No
+

@@ -1,0 +1,61 @@
+# text = this woman is disingenuous.
+# sent_id = 59202
+1	this	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	disingenuous	disingenuous	ADJ	JJ	Degree=Pos	3	_	_	start_char=14|end_char=26|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=26|end_char=27
+
+# text = she is no journalist.
+# sent_id = 59203
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=28|end_char=31
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=34
+3	no	no	DET	DT	_	2	_	_	start_char=35|end_char=37
+4	journalist	journalist	NOUN	NN	Number=Sing	3	_	_	start_char=38|end_char=48|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=48|end_char=49
+
+# text = she should be ripped out of the press pool.
+# sent_id = 59204
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=50|end_char=53
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=54|end_char=60
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=61|end_char=63
+4	ripped	rip	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=64|end_char=70
+5	out	out	ADP	IN	_	4	_	_	start_char=71|end_char=74
+6	of	of	ADP	IN	_	5	_	_	start_char=75|end_char=77
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=78|end_char=81
+8	press	press	NOUN	NN	Number=Sing	7	_	_	start_char=82|end_char=87
+9	pool	pool	NOUN	NN	Number=Sing	8	_	_	start_char=88|end_char=92|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=92|end_char=93
+
+# text = she has an agenda to hurt Trump regardless of how much she denies it.
+# sent_id = 59205
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=94|end_char=97
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=98|end_char=101
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=102|end_char=104
+4	agenda	agenda	NOUN	NN	Number=Sing	3	_	_	start_char=105|end_char=111
+5	to	to	PART	TO	_	4	_	_	start_char=112|end_char=114
+6	hurt	hurt	VERB	VB	VerbForm=Inf	5	_	_	start_char=115|end_char=119
+7	Trump	Trump	PROPN	NNP	Number=Sing	6	_	_	start_char=120|end_char=125
+8	regardless	regardless	ADV	RB	_	7	_	_	start_char=126|end_char=136
+9	of	of	ADP	IN	_	8	_	_	start_char=137|end_char=139
+10	how	how	ADV	WRB	PronType=Int	9	_	_	start_char=140|end_char=143
+11	much	much	ADJ	JJ	Degree=Pos	10	_	_	start_char=144|end_char=148
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=149|end_char=152
+13	denies	deny	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=153|end_char=159
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=160|end_char=162|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=162|end_char=163
+
+# text = she reeks of it.
+# sent_id = 59206
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=164|end_char=167
+2	reeks	reek	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=168|end_char=173
+3	of	of	ADP	IN	_	2	_	_	start_char=174|end_char=176
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=177|end_char=179|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=179|end_char=180
+
+# text = [URL]
+# sent_id = 59207
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=181|end_char=182|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=182|end_char=185|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=185|end_char=186|SpaceAfter=No
+

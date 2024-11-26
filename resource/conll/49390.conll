@@ -1,0 +1,37 @@
+# text = Johnny Depp never beat his wife.
+# sent_id = 105603
+1	Johnny	Johnny	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	Depp	Depp	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=11
+3	never	never	ADV	RB	_	2	_	_	start_char=12|end_char=17
+4	beat	beat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=18|end_char=22
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=23|end_char=26
+6	wife	wife	NOUN	NN	Number=Sing	5	_	_	start_char=27|end_char=31|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=31|end_char=32
+
+# text = He threw his phone and it bounced and a part hit her.
+# sent_id = 105604
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=33|end_char=35
+2	threw	throw	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=36|end_char=41
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=42|end_char=45
+4	phone	phone	NOUN	NN	Number=Sing	3	_	_	start_char=46|end_char=51
+5	and	and	CCONJ	CC	_	4	_	_	start_char=52|end_char=55
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=56|end_char=58
+7	bounced	bounce	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=59|end_char=66
+8	and	and	CCONJ	CC	_	7	_	_	start_char=67|end_char=70
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=71|end_char=72
+10	part	part	NOUN	NN	Number=Sing	9	_	_	start_char=73|end_char=77
+11	hit	hit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=78|end_char=81
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=82|end_char=85|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=85|end_char=86
+
+# text = There's a video of it.
+# sent_id = 105605
+1-2	There's	_	_	_	_	_	_	_	start_char=87|end_char=94
+1	There	there	PRON	EX	_	0	_	_	start_char=87|end_char=92
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=92|end_char=94
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=95|end_char=96
+4	video	video	NOUN	NN	Number=Sing	3	_	_	start_char=97|end_char=102
+5	of	of	ADP	IN	_	4	_	_	start_char=103|end_char=105
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=106|end_char=108|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=108|end_char=109|SpaceAfter=No
+

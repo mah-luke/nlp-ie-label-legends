@@ -1,0 +1,41 @@
+# text = That's the point; give her time to forget that you may have come on a wee bit strong.
+# sent_id = 20265
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7|end_char=10
+4	point	point	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=16|SpaceAfter=No
+5	;	;	PUNCT	:	_	4	_	_	start_char=16|end_char=17
+6	give	give	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=18|end_char=22
+7	her	her	PRON	PRP$	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=23|end_char=26
+8	time	time	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=31
+9	to	to	PART	TO	_	8	_	_	start_char=32|end_char=34
+10	forget	forget	VERB	VB	VerbForm=Inf	9	_	_	start_char=35|end_char=41
+11	that	that	SCONJ	IN	_	10	_	_	start_char=42|end_char=46
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=47|end_char=50
+13	may	may	AUX	MD	VerbForm=Fin	12	_	_	start_char=51|end_char=54
+14	have	have	AUX	VB	VerbForm=Inf	13	_	_	start_char=55|end_char=59
+15	come	come	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=60|end_char=64
+16	on	on	ADP	IN	_	15	_	_	start_char=65|end_char=67
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=68|end_char=69
+18	wee	wee	ADJ	JJ	Degree=Pos	17	_	_	start_char=70|end_char=73
+19	bit	bit	NOUN	NN	Number=Sing	18	_	_	start_char=74|end_char=77
+20	strong	strong	ADJ	JJ	Degree=Pos	19	_	_	start_char=78|end_char=84|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=84|end_char=85
+
+# text = The iron *was* hot, but unfortunately got cooler with your reply
+# sent_id = 20266
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=86|end_char=89
+2	iron	iron	NOUN	NN	Number=Sing	1	_	_	start_char=90|end_char=94
+3	*	*	PUNCT	NFP	_	2	_	_	start_char=95|end_char=96|SpaceAfter=No
+4	was*	was*	NOUN	NN	Number=Sing	3	_	_	start_char=96|end_char=100
+5	hot	hot	ADJ	JJ	Degree=Pos	4	_	_	start_char=101|end_char=104|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=104|end_char=105
+7	but	but	CCONJ	CC	_	6	_	_	start_char=106|end_char=109
+8	unfortunately	unfortunately	ADV	RB	_	7	_	_	start_char=110|end_char=123
+9	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=124|end_char=127
+10	cooler	cool	ADJ	JJR	Degree=Cmp	9	_	_	start_char=128|end_char=134
+11	with	with	ADP	IN	_	10	_	_	start_char=135|end_char=139
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	_	_	start_char=140|end_char=144
+13	reply	reply	NOUN	NN	Number=Sing	12	_	_	start_char=145|end_char=150|SpaceAfter=No
+

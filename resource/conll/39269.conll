@@ -1,0 +1,47 @@
+# text = "More Cops injured, private property damaged, commerce disrupted, concerts cancelled.
+# sent_id = 83936
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	More	more	ADJ	JJR	Degree=Cmp	1	_	_	start_char=1|end_char=5
+3	Cops	cop	NOUN	NNS	Number=Plur	2	_	_	start_char=6|end_char=10
+4	injured	injure	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=11|end_char=18|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=18|end_char=19
+6	private	private	ADJ	JJ	Degree=Pos	5	_	_	start_char=20|end_char=27
+7	property	property	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=36
+8	damaged	damage	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=37|end_char=44|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=44|end_char=45
+10	commerce	commerce	NOUN	NN	Number=Sing	9	_	_	start_char=46|end_char=54
+11	disrupted	disrupt	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=55|end_char=64|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=64|end_char=65
+13	concerts	concert	NOUN	NNS	Number=Plur	12	_	_	start_char=66|end_char=74
+14	cancelled	cancel	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=75|end_char=84|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=84|end_char=85
+
+# text = Don't coddle these thugs.
+# sent_id = 83937
+1-2	Don't	_	_	_	_	_	_	_	start_char=86|end_char=91
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=86|end_char=88
+2	n't	not	PART	RB	_	1	_	_	start_char=88|end_char=91
+3	coddle	coddle	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=92|end_char=98
+4	these	this	DET	DT	Number=Plur|PronType=Dem	3	_	_	start_char=99|end_char=104
+5	thugs	thug	NOUN	NNS	Number=Plur	4	_	_	start_char=105|end_char=110|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=110|end_char=111
+
+# text = Throw em in jail.
+# sent_id = 83938
+1	Throw	throw	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=112|end_char=117
+2	em	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=118|end_char=120
+3	in	in	ADP	IN	_	2	_	_	start_char=121|end_char=123
+4	jail	jail	NOUN	NN	Number=Sing	3	_	_	start_char=124|end_char=128|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=128|end_char=129
+
+# text = #StLouis" "Thugs" = NIGGERS
+# sent_id = 83939
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=130|end_char=131|SpaceAfter=No
+2	StLouis	stlouis	NOUN	NN	Number=Sing	1	_	_	start_char=131|end_char=138|SpaceAfter=No
+3	"	"	PUNCT	''	_	2	_	_	start_char=138|end_char=139
+4	"	"	PUNCT	``	_	3	_	_	start_char=140|end_char=141|SpaceAfter=No
+5	Thugs	thug	NOUN	NNS	Number=Plur	4	_	_	start_char=141|end_char=146|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=146|end_char=147
+7	=	=	SYM	SYM	_	6	_	_	start_char=148|end_char=149
+8	NIGGERS	nigger	NOUN	NNS	Number=Plur	7	_	_	start_char=150|end_char=157|SpaceAfter=No
+

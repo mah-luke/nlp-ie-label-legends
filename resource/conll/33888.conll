@@ -1,0 +1,45 @@
+# text = I’m living right across the border from ya!
+# sent_id = 72483
+1-2	I’m	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=4|end_char=10
+4	right	right	ADV	RB	_	3	_	_	start_char=11|end_char=16
+5	across	across	ADP	IN	_	4	_	_	start_char=17|end_char=23
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=24|end_char=27
+7	border	border	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=34
+8	from	from	ADP	IN	_	7	_	_	start_char=35|end_char=39
+9	ya	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	_	_	start_char=40|end_char=42|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=42|end_char=43
+
+# text = But what I think you should do is not actively seek women.
+# sent_id = 72484
+1	But	but	CCONJ	CC	_	0	_	_	start_char=44|end_char=47
+2	what	what	PRON	WP	PronType=Rel	1	_	_	start_char=48|end_char=52
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=53|end_char=54
+4	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=55|end_char=60
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=61|end_char=64
+6	should	should	AUX	MD	VerbForm=Fin	5	_	_	start_char=65|end_char=71
+7	do	do	VERB	VB	VerbForm=Inf	6	_	_	start_char=72|end_char=74
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=75|end_char=77
+9	not	not	PART	RB	_	8	_	_	start_char=78|end_char=81
+10	actively	actively	ADV	RB	_	9	_	_	start_char=82|end_char=90
+11	seek	seek	VERB	VB	VerbForm=Inf	10	_	_	start_char=91|end_char=95
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=96|end_char=101|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=101|end_char=102
+
+# text = Just go to place and do things with no expectation of women
+# sent_id = 72485
+1	Just	just	ADV	RB	_	0	_	_	start_char=103|end_char=107
+2	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=108|end_char=110
+3	to	to	ADP	IN	_	2	_	_	start_char=111|end_char=113
+4	place	place	NOUN	NN	Number=Sing	3	_	_	start_char=114|end_char=119
+5	and	and	CCONJ	CC	_	4	_	_	start_char=120|end_char=123
+6	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=124|end_char=126
+7	things	thing	NOUN	NNS	Number=Plur	6	_	_	start_char=127|end_char=133
+8	with	with	ADP	IN	_	7	_	_	start_char=134|end_char=138
+9	no	no	DET	DT	_	8	_	_	start_char=139|end_char=141
+10	expectation	expectation	NOUN	NN	Number=Sing	9	_	_	start_char=142|end_char=153
+11	of	of	ADP	IN	_	10	_	_	start_char=154|end_char=156
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=157|end_char=162|SpaceAfter=No
+

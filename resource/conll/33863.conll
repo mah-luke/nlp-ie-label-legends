@@ -1,0 +1,56 @@
+# text = 90's Hipster: "I think I might be gay."
+# sent_id = 72429
+1-2	90's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	90	90	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=2
+2	's	's	PART	POS	_	1	_	_	start_char=2|end_char=4
+3	Hipster	Hipster	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=12|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=12|end_char=13
+5	"	"	PUNCT	``	_	4	_	_	start_char=14|end_char=15|SpaceAfter=No
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=15|end_char=16
+7	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=17|end_char=22
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=23|end_char=24
+9	might	might	AUX	MD	VerbForm=Fin	8	_	_	start_char=25|end_char=30
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=31|end_char=33
+11	gay	gay	ADJ	JJ	Degree=Pos	10	_	_	start_char=34|end_char=37|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=37|end_char=38|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=38|end_char=39
+
+# text = Today's Hipster: "I think I might be the wrong sex/race."
+# sent_id = 72430
+1-2	Today's	_	_	_	_	_	_	_	start_char=40|end_char=47
+1	Today	today	NOUN	NN	Number=Sing	0	_	_	start_char=40|end_char=45
+2	's	's	PART	POS	_	1	_	_	start_char=45|end_char=47
+3	Hipster	hipster	NOUN	NN	Number=Sing	2	_	_	start_char=48|end_char=55|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=55|end_char=56
+5	"	"	PUNCT	``	_	4	_	_	start_char=57|end_char=58|SpaceAfter=No
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=58|end_char=59
+7	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=60|end_char=65
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=66|end_char=67
+9	might	might	AUX	MD	VerbForm=Fin	8	_	_	start_char=68|end_char=73
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=74|end_char=76
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=77|end_char=80
+12	wrong	wrong	ADJ	JJ	Degree=Pos	11	_	_	start_char=81|end_char=86
+13	sex	sex	NOUN	NN	Number=Sing	12	_	_	start_char=87|end_char=90|SpaceAfter=No
+14	/	/	SYM	,	_	13	_	_	start_char=90|end_char=91|SpaceAfter=No
+15	race	race	NOUN	NN	Number=Sing	14	_	_	start_char=91|end_char=95|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=95|end_char=96|SpaceAfter=No
+17	"	"	PUNCT	''	_	16	_	_	start_char=96|end_char=97
+
+# text = Tomorrow's Hipster: "I think I might be a toaster."
+# sent_id = 72431
+1-2	Tomorrow's	_	_	_	_	_	_	_	start_char=98|end_char=108
+1	Tomorrow	tomorrow	NOUN	NN	Number=Sing	0	_	_	start_char=98|end_char=106
+2	's	's	PART	POS	_	1	_	_	start_char=106|end_char=108
+3	Hipster	Hipster	PROPN	NNP	Number=Sing	2	_	_	start_char=109|end_char=116|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=116|end_char=117
+5	"	"	PUNCT	``	_	4	_	_	start_char=118|end_char=119|SpaceAfter=No
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=119|end_char=120
+7	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=121|end_char=126
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=127|end_char=128
+9	might	might	AUX	MD	VerbForm=Fin	8	_	_	start_char=129|end_char=134
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=135|end_char=137
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=138|end_char=139
+12	toaster	toaster	NOUN	NN	Number=Sing	11	_	_	start_char=140|end_char=147|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=147|end_char=148|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=148|end_char=149|SpaceAfter=No
+

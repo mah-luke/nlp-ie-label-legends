@@ -1,0 +1,27 @@
+# text = This on really pissed me off.
+# sent_id = 8562
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	on	on	ADP	IN	_	1	_	_	start_char=5|end_char=7
+3	really	really	ADV	RB	_	2	_	_	start_char=8|end_char=14
+4	pissed	piss	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=15|end_char=21
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=22|end_char=24
+6	off	off	ADP	RP	_	5	_	_	start_char=25|end_char=28|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = This woman needs to be in jail.
+# sent_id = 8563
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=30|end_char=34
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=35|end_char=40
+3	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=41|end_char=46
+4	to	to	PART	TO	_	3	_	_	start_char=47|end_char=49
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=50|end_char=52
+6	in	in	ADP	IN	_	5	_	_	start_char=53|end_char=55
+7	jail	jail	NOUN	NN	Number=Sing	6	_	_	start_char=56|end_char=60|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=60|end_char=61
+
+# text = [URL]
+# sent_id = 8564
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=62|end_char=63|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=63|end_char=66|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=66|end_char=67|SpaceAfter=No
+

@@ -1,0 +1,55 @@
+# text = [USER]
+# sent_id = 83107
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = You're dodging the question now.
+# sent_id = 83108
+1-2	You're	_	_	_	_	_	_	_	start_char=7|end_char=13
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=7|end_char=10
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=13
+3	dodging	dodg	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=14|end_char=21
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=22|end_char=25
+5	question	question	NOUN	NN	Number=Sing	4	_	_	start_char=26|end_char=34
+6	now	now	ADV	RB	_	5	_	_	start_char=35|end_char=38|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=38|end_char=39
+
+# text = Do you agree with the numerous honour killings in the Arab world, along with the stoning of women, sex slavery and the funding of international terrorist groups?
+# sent_id = 83109
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=40|end_char=42
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=43|end_char=46
+3	agree	agree	VERB	VB	VerbForm=Inf	2	_	_	start_char=47|end_char=52
+4	with	with	ADP	IN	_	3	_	_	start_char=53|end_char=57
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=58|end_char=61
+6	numerous	numerous	ADJ	JJ	Degree=Pos	5	_	_	start_char=62|end_char=70
+7	honour	honour	NOUN	NN	Number=Sing	6	_	_	start_char=71|end_char=77
+8	killings	killing	NOUN	NNS	Number=Plur	7	_	_	start_char=78|end_char=86
+9	in	in	ADP	IN	_	8	_	_	start_char=87|end_char=89
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=90|end_char=93
+11	Arab	Arab	ADJ	JJ	Degree=Pos	10	_	_	start_char=94|end_char=98
+12	world	world	NOUN	NN	Number=Sing	11	_	_	start_char=99|end_char=104|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=104|end_char=105
+14	along	along	ADP	IN	_	13	_	_	start_char=106|end_char=111
+15	with	with	ADP	IN	_	14	_	_	start_char=112|end_char=116
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=117|end_char=120
+17	stoning	stoning	NOUN	NN	Number=Sing	16	_	_	start_char=121|end_char=128
+18	of	of	ADP	IN	_	17	_	_	start_char=129|end_char=131
+19	women	woman	NOUN	NNS	Number=Plur	18	_	_	start_char=132|end_char=137|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=137|end_char=138
+21	sex	sex	NOUN	NN	Number=Sing	20	_	_	start_char=139|end_char=142
+22	slavery	slavery	NOUN	NN	Number=Sing	21	_	_	start_char=143|end_char=150
+23	and	and	CCONJ	CC	_	22	_	_	start_char=151|end_char=154
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	start_char=155|end_char=158
+25	funding	funding	NOUN	NN	Number=Sing	24	_	_	start_char=159|end_char=166
+26	of	of	ADP	IN	_	25	_	_	start_char=167|end_char=169
+27	international	international	ADJ	JJ	Degree=Pos	26	_	_	start_char=170|end_char=183
+28	terrorist	terrorist	NOUN	NN	Number=Sing	27	_	_	start_char=184|end_char=193
+29	groups	group	NOUN	NNS	Number=Plur	28	_	_	start_char=194|end_char=200|SpaceAfter=No
+30	?	?	PUNCT	.	_	29	_	_	start_char=200|end_char=201
+
+# text = #LetfiesCannotFaceFacts
+# sent_id = 83110
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=202|end_char=203|SpaceAfter=No
+2	LetfiesCannotFaceFacts	letfiescannotfacefacts	X	ADD	_	1	_	_	start_char=203|end_char=225|SpaceAfter=No
+

@@ -1,0 +1,59 @@
+# text = Shut downs haven't crippled us.
+# sent_id = 60395
+1	Shut	shut	VERB	VB	VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2-3	downs	_	_	_	_	_	_	_	start_char=5|end_char=10
+2	down	down	ADP	RP	_	1	_	_	start_char=5|end_char=9
+3	s	's	PART	POS	Typo=Yes	2	_	_	start_char=9|end_char=10
+4-5	haven't	_	_	_	_	_	_	_	start_char=11|end_char=18
+4	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=15
+5	n't	not	PART	RB	_	4	_	_	start_char=15|end_char=18
+6	crippled	crippled	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=19|end_char=27
+7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	_	_	start_char=28|end_char=30|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=30|end_char=31
+
+# text = We need a balanced budget amendment.
+# sent_id = 60396
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=32|end_char=34
+2	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=35|end_char=39
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=40|end_char=41
+4	balanced	balance	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=42|end_char=50
+5	budget	budget	NOUN	NN	Number=Sing	4	_	_	start_char=51|end_char=57
+6	amendment	amendment	NOUN	NN	Number=Sing	5	_	_	start_char=58|end_char=67|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=67|end_char=68
+
+# text = Congress spending is out of control.
+# sent_id = 60397
+1	Congress	Congress	PROPN	NNP	Number=Sing	0	_	_	start_char=69|end_char=77
+2	spending	spending	NOUN	NN	Number=Sing	1	_	_	start_char=78|end_char=86
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=87|end_char=89
+4	out	out	ADP	IN	_	3	_	_	start_char=90|end_char=93
+5	of	of	ADP	IN	_	4	_	_	start_char=94|end_char=96
+6	control	control	NOUN	NN	Number=Sing	5	_	_	start_char=97|end_char=104|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=104|end_char=105
+
+# text = I have a disabled daughter on a fixed income who's always hitting me up for money, kinda like Congress.
+# sent_id = 60398
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=106|end_char=107
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=108|end_char=112
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=113|end_char=114
+4	disabled	disabled	ADJ	JJ	Degree=Pos	3	_	_	start_char=115|end_char=123
+5	daughter	daughter	NOUN	NN	Number=Sing	4	_	_	start_char=124|end_char=132
+6	on	on	ADP	IN	_	5	_	_	start_char=133|end_char=135
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=136|end_char=137
+8	fixed	fix	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=138|end_char=143
+9	income	income	NOUN	NN	Number=Sing	8	_	_	start_char=144|end_char=150
+10-11	who's	_	_	_	_	_	_	_	start_char=151|end_char=156
+10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=151|end_char=154
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=154|end_char=156
+12	always	always	ADV	RB	_	11	_	_	start_char=157|end_char=163
+13	hitting	hit	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=164|end_char=171
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=172|end_char=174
+15	up	up	ADP	RP	_	14	_	_	start_char=175|end_char=177
+16	for	for	ADP	IN	_	15	_	_	start_char=178|end_char=181
+17	money	money	NOUN	NN	Number=Sing	16	_	_	start_char=182|end_char=187|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=187|end_char=188
+19	kinda	kinda	ADV	RB	_	18	_	_	start_char=189|end_char=194
+20	like	like	ADP	IN	_	19	_	_	start_char=195|end_char=199
+21	Congress	Congress	PROPN	NNP	Number=Sing	20	_	_	start_char=200|end_char=208|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=208|end_char=209|SpaceAfter=No
+

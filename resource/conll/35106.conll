@@ -1,0 +1,49 @@
+# text = Yeah, whites commit "greater crimes" than all minorities.
+# sent_id = 75138
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	whites	White	PROPN	NNPS	Number=Plur	2	_	_	start_char=6|end_char=12
+4	commit	commit	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=19
+5	"	"	PUNCT	``	_	4	_	_	start_char=20|end_char=21|SpaceAfter=No
+6	greater	great	ADJ	JJR	Degree=Cmp	5	_	_	start_char=21|end_char=28
+7	crimes	crime	NOUN	NNS	Number=Plur	6	_	_	start_char=29|end_char=35|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=35|end_char=36
+9	than	than	ADP	IN	_	8	_	_	start_char=37|end_char=41
+10	all	all	DET	DT	_	9	_	_	start_char=42|end_char=45
+11	minorities	minority	NOUN	NNS	Number=Plur	10	_	_	start_char=46|end_char=56|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=56|end_char=57
+
+# text = We're all so full of hate.
+# sent_id = 75139
+1-2	We're	_	_	_	_	_	_	_	start_char=58|end_char=63
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=58|end_char=60
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=60|end_char=63
+3	all	all	ADV	RB	_	2	_	_	start_char=64|end_char=67
+4	so	so	ADV	RB	_	3	_	_	start_char=68|end_char=70
+5	full	full	ADJ	JJ	Degree=Pos	4	_	_	start_char=71|end_char=75
+6	of	of	ADP	IN	_	5	_	_	start_char=76|end_char=78
+7	hate	hate	NOUN	NN	Number=Sing	6	_	_	start_char=79|end_char=83|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=83|end_char=84
+
+# text = The PC culture has run it's course.
+# sent_id = 75140
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=85|end_char=88
+2	PC	PC	NOUN	NN	Number=Sing	1	_	_	start_char=89|end_char=91
+3	culture	culture	NOUN	NN	Number=Sing	2	_	_	start_char=92|end_char=99
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=100|end_char=103
+5	run	run	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=104|end_char=107
+6-7	it's	_	_	_	_	_	_	_	start_char=108|end_char=112
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=108|end_char=110
+7	's	's	PART	POS	_	6	_	_	start_char=110|end_char=112
+8	course	course	NOUN	NN	Number=Sing	7	_	_	start_char=113|end_char=119|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=119|end_char=120
+
+# text = I've had enough.
+# sent_id = 75141
+1-2	I've	_	_	_	_	_	_	_	start_char=121|end_char=125
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=121|end_char=122
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=122|end_char=125
+3	had	have	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=126|end_char=129
+4	enough	enough	ADV	RB	_	3	_	_	start_char=130|end_char=136|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=136|end_char=137|SpaceAfter=No
+

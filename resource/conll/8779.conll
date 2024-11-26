@@ -1,0 +1,50 @@
+# text = Frankie, shh...I am a nice middle aged woman...what ARE you talking about?
+# sent_id = 18464
+1	Frankie	Frankie	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=7|end_char=8
+3	shh	shh	INTJ	UH	_	2	_	_	start_char=9|end_char=12|SpaceAfter=No
+4	...	...	PUNCT	,	_	3	_	_	start_char=12|end_char=15|SpaceAfter=No
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=15|end_char=16
+6	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=17|end_char=19
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=20|end_char=21
+8	nice	nice	ADJ	JJ	Degree=Pos	7	_	_	start_char=22|end_char=26
+9	middle	middle	ADJ	JJ	Degree=Pos	8	_	_	start_char=27|end_char=33
+10	aged	aged	ADJ	JJ	Degree=Pos	9	_	_	start_char=34|end_char=38
+11	woman	woman	NOUN	NN	Number=Sing	10	_	_	start_char=39|end_char=44|SpaceAfter=No
+12	...	...	PUNCT	,	_	11	_	_	start_char=44|end_char=47|SpaceAfter=No
+13	what	what	PRON	WP	PronType=Int	12	_	_	start_char=47|end_char=51
+14	ARE	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	_	_	start_char=52|end_char=55
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	_	_	start_char=56|end_char=59
+16	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	15	_	_	start_char=60|end_char=67
+17	about	about	ADP	IN	_	16	_	_	start_char=68|end_char=73|SpaceAfter=No
+18	?	?	PUNCT	.	_	17	_	_	start_char=73|end_char=74
+
+# text = (I'm gonna beat yer ass with a single tail whip as soon as I get my hands on you!!!)
+# sent_id = 18465
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=75|end_char=76|SpaceAfter=No
+2-3	I'm	_	_	_	_	_	_	_	start_char=76|end_char=79
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=76|end_char=77
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=77|end_char=79
+4-5	gonna	_	_	_	_	_	_	_	start_char=80|end_char=85
+4	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=80|end_char=83
+5	na	to	PART	TO	_	4	_	_	start_char=83|end_char=85
+6	beat	beat	VERB	VB	VerbForm=Inf	5	_	_	start_char=86|end_char=90
+7	yer	yer	ADP	IN	_	6	_	_	start_char=91|end_char=94
+8	ass	ass	NOUN	NN	Number=Sing	7	_	_	start_char=95|end_char=98
+9	with	with	ADP	IN	_	8	_	_	start_char=99|end_char=103
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=104|end_char=105
+11	single	single	ADJ	JJ	Degree=Pos	10	_	_	start_char=106|end_char=112
+12	tail	tail	NOUN	NN	Number=Sing	11	_	_	start_char=113|end_char=117
+13	whip	whip	NOUN	NN	Number=Sing	12	_	_	start_char=118|end_char=122
+14	as	as	ADV	RB	_	13	_	_	start_char=123|end_char=125
+15	soon	soon	ADV	RB	Degree=Pos	14	_	_	start_char=126|end_char=130
+16	as	as	SCONJ	IN	_	15	_	_	start_char=131|end_char=133
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=134|end_char=135
+18	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=136|end_char=139
+19	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	18	_	_	start_char=140|end_char=142
+20	hands	hand	NOUN	NNS	Number=Plur	19	_	_	start_char=143|end_char=148
+21	on	on	ADP	IN	_	20	_	_	start_char=149|end_char=151
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	_	_	start_char=152|end_char=155|SpaceAfter=No
+23	!!!	!!!	PUNCT	.	_	22	_	_	start_char=155|end_char=158|SpaceAfter=No
+24	)	)	PUNCT	-RRB-	_	23	_	_	start_char=158|end_char=159|SpaceAfter=No
+

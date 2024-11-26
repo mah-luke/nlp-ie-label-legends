@@ -1,0 +1,45 @@
+# text = Four out of every 5 navigators were women.
+# sent_id = 96078
+1	Four	four	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=0|end_char=4
+2	out	out	ADP	IN	_	1	_	_	start_char=5|end_char=8
+3	of	of	ADP	IN	_	2	_	_	start_char=9|end_char=11
+4	every	every	DET	DT	_	3	_	_	start_char=12|end_char=17
+5	5	5	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=18|end_char=19
+6	navigators	navigator	NOUN	NNS	Number=Plur	5	_	_	start_char=20|end_char=30
+7	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=31|end_char=35
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=36|end_char=41|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=41|end_char=42
+
+# text = That makes 80% women.
+# sent_id = 96079
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=43|end_char=47
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=48|end_char=53
+3	80	80	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=54|end_char=56|SpaceAfter=No
+4	%	%	SYM	NN	Number=Sing	3	_	_	start_char=56|end_char=57
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=58|end_char=63|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=63|end_char=64
+
+# text = But I agree, those 20% men might have been suspended or given a bad review on their record.
+# sent_id = 96080
+1	But	but	CCONJ	CC	_	0	_	_	start_char=65|end_char=68
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=69|end_char=70
+3	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=71|end_char=76|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=76|end_char=77
+5	those	that	DET	DT	Number=Plur|PronType=Dem	4	_	_	start_char=78|end_char=83
+6	20	20	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=84|end_char=86|SpaceAfter=No
+7	%	%	SYM	NN	Number=Sing	6	_	_	start_char=86|end_char=87
+8	men	man	NOUN	NNS	Number=Plur	7	_	_	start_char=88|end_char=91
+9	might	might	AUX	MD	VerbForm=Fin	8	_	_	start_char=92|end_char=97
+10	have	have	AUX	VB	VerbForm=Inf	9	_	_	start_char=98|end_char=102
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=103|end_char=107
+12	suspended	suspend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=108|end_char=117
+13	or	or	CCONJ	CC	_	12	_	_	start_char=118|end_char=120
+14	given	give	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=121|end_char=126
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=127|end_char=128
+16	bad	bad	ADJ	JJ	Degree=Pos	15	_	_	start_char=129|end_char=132
+17	review	review	NOUN	NN	Number=Sing	16	_	_	start_char=133|end_char=139
+18	on	on	ADP	IN	_	17	_	_	start_char=140|end_char=142
+19	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=143|end_char=148
+20	record	record	NOUN	NN	Number=Sing	19	_	_	start_char=149|end_char=155|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=155|end_char=156|SpaceAfter=No
+

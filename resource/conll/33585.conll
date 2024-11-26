@@ -1,0 +1,31 @@
+# text = Vote Johnson 2016!
+# sent_id = 71922
+1	Vote	vote	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	Johnson	Johnson	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=12
+3	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=13|end_char=17|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=17|end_char=18
+
+# text = If you're fucking retarded that is.
+# sent_id = 71923
+1	If	if	SCONJ	IN	_	0	_	_	start_char=19|end_char=21
+2-3	you're	_	_	_	_	_	_	_	start_char=22|end_char=28
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=22|end_char=25
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=25|end_char=28
+4	fucking	fucking	ADV	RB	_	3	_	_	start_char=29|end_char=36
+5	retarded	retarded	ADJ	JJ	Degree=Pos	4	_	_	start_char=37|end_char=45
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=46|end_char=50
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=51|end_char=53|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=53|end_char=54
+
+# text = [URL] #SpeakFreely #MAGA #GabFam
+# sent_id = 71924
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=55|end_char=56|SpaceAfter=No
+2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=56|end_char=59|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=59|end_char=60
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=61|end_char=62|SpaceAfter=No
+5	SpeakFreely	SpeakFreely	NOUN	NN	Number=Sing	4	_	_	start_char=62|end_char=73
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=74|end_char=75|SpaceAfter=No
+7	MAGA	maga	NOUN	NN	Number=Sing	6	_	_	start_char=75|end_char=79
+8	#	#	SYM	NN	Number=Sing	7	_	_	start_char=80|end_char=81|SpaceAfter=No
+9	GabFam	gabfam	NOUN	NN	Number=Sing	8	_	_	start_char=81|end_char=87|SpaceAfter=No
+

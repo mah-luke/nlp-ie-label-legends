@@ -1,0 +1,46 @@
+# text = Hey dumbass.
+# sent_id = 514
+1	Hey	hey	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	dumbass	dumbass	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=11|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=11|end_char=12
+
+# text = Everyone has to learn the hot pan lesson.
+# sent_id = 515
+1	Everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	0	_	_	start_char=13|end_char=21
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=25
+3	to	to	PART	TO	_	2	_	_	start_char=26|end_char=28
+4	learn	learn	VERB	VB	VerbForm=Inf	3	_	_	start_char=29|end_char=34
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=35|end_char=38
+6	hot	hot	ADJ	JJ	Degree=Pos	5	_	_	start_char=39|end_char=42
+7	pan	pan	NOUN	NN	Number=Sing	6	_	_	start_char=43|end_char=46
+8	lesson	lesson	NOUN	NN	Number=Sing	7	_	_	start_char=47|end_char=53|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=53|end_char=54
+
+# text = its not “inherently” passed down through genetics.
+# sent_id = 516
+1-2	its	_	_	_	_	_	_	_	start_char=55|end_char=58
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=55|end_char=57
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=57|end_char=58
+3	not	not	PART	RB	_	2	_	_	start_char=59|end_char=62
+4	“	''	PUNCT	``	_	3	_	_	start_char=63|end_char=64|SpaceAfter=No
+5	inherently	inherently	ADV	RB	_	4	_	_	start_char=64|end_char=74|SpaceAfter=No
+6	”	''	PUNCT	''	_	5	_	_	start_char=74|end_char=75
+7	passed	pass	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=76|end_char=82
+8	down	down	ADP	RP	_	7	_	_	start_char=83|end_char=87
+9	through	through	ADP	IN	_	8	_	_	start_char=88|end_char=95
+10	genetics	genetics	NOUN	NN	Number=Sing	9	_	_	start_char=96|end_char=104|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=104|end_char=105
+
+# text = Lol you’re truly are an idiot. 🤨
+# sent_id = 517
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=106|end_char=109
+2-3	you’re	_	_	_	_	_	_	_	start_char=110|end_char=116
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=110|end_char=113
+3	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=113|end_char=116
+4	truly	truly	ADV	RB	_	3	_	_	start_char=117|end_char=122
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=123|end_char=126
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=127|end_char=129
+7	idiot	idiot	NOUN	NN	Number=Sing	6	_	_	start_char=130|end_char=135|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=135|end_char=136
+9	🤨	🤨	PUNCT	''	_	8	_	_	start_char=137|end_char=138|SpaceAfter=No
+

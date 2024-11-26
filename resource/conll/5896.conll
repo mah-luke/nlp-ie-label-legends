@@ -1,0 +1,45 @@
+# text = Fuck Peter Fonda with his own pedophile dick.
+# sent_id = 12321
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	Peter	Peter	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=10
+3	Fonda	Fonda	PROPN	NNP	Number=Sing	2	_	_	start_char=11|end_char=16
+4	with	with	ADP	IN	_	3	_	_	start_char=17|end_char=21
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=22|end_char=25
+6	own	own	ADJ	JJ	Degree=Pos	5	_	_	start_char=26|end_char=29
+7	pedophile	pedophile	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=39
+8	dick	dick	NOUN	NN	Number=Sing	7	_	_	start_char=40|end_char=44|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=44|end_char=45
+
+# text = I'm sure Peter Fonda has stuck his dick in many preteen girl on his way to old age.
+# sent_id = 12322
+1-2	I'm	_	_	_	_	_	_	_	start_char=46|end_char=49
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=46|end_char=47
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=47|end_char=49
+3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=50|end_char=54
+4	Peter	Peter	PROPN	NNP	Number=Sing	3	_	_	start_char=55|end_char=60
+5	Fonda	Fonda	PROPN	NNP	Number=Sing	4	_	_	start_char=61|end_char=66
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=67|end_char=70
+7	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=71|end_char=76
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=77|end_char=80
+9	dick	dick	NOUN	NN	Number=Sing	8	_	_	start_char=81|end_char=85
+10	in	in	ADP	IN	_	9	_	_	start_char=86|end_char=88
+11	many	many	ADJ	JJ	Degree=Pos	10	_	_	start_char=89|end_char=93
+12	preteen	preteen	ADJ	JJ	Degree=Pos	11	_	_	start_char=94|end_char=101
+13	girl	girl	NOUN	NN	Number=Sing	12	_	_	start_char=102|end_char=106
+14	on	on	ADP	IN	_	13	_	_	start_char=107|end_char=109
+15	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=110|end_char=113
+16	way	way	NOUN	NN	Number=Sing	15	_	_	start_char=114|end_char=117
+17	to	to	ADP	IN	_	16	_	_	start_char=118|end_char=120
+18	old	old	ADJ	JJ	Degree=Pos	17	_	_	start_char=121|end_char=124
+19	age	age	NOUN	NN	Number=Sing	18	_	_	start_char=125|end_char=128|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=128|end_char=129
+
+# text = Wish them death [URL]
+# sent_id = 12323
+1	Wish	wish	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=130|end_char=134
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=135|end_char=139
+3	death	death	NOUN	NN	Number=Sing	2	_	_	start_char=140|end_char=145
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=146|end_char=147|SpaceAfter=No
+5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=147|end_char=150|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=150|end_char=151|SpaceAfter=No
+

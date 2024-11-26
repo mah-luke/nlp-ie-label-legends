@@ -1,0 +1,26 @@
+# text = George Soros' fingerprints seem to be everywhere.
+# sent_id = 33313
+1	George	George	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2-3	Soros'	_	_	_	_	_	_	_	start_char=7|end_char=13
+2	Soros	Soros	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=12
+3	'	's	PART	POS	_	2	_	_	start_char=12|end_char=13
+4	fingerprints	fingerprint	NOUN	NNS	Number=Plur	3	_	_	start_char=14|end_char=26
+5	seem	seem	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=27|end_char=31
+6	to	to	PART	TO	_	5	_	_	start_char=32|end_char=34
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=35|end_char=37
+8	everywhere	everywhere	ADV	RB	_	7	_	_	start_char=38|end_char=48|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=48|end_char=49
+
+# text = "liberal women who are connected to George Soros"
+# sent_id = 33314
+1	"	"	PUNCT	``	_	0	_	_	start_char=50|end_char=51|SpaceAfter=No
+2	liberal	liberal	ADJ	JJ	Degree=Pos	1	_	_	start_char=51|end_char=58
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=59|end_char=64
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=65|end_char=68
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=69|end_char=72
+6	connected	connect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=73|end_char=82
+7	to	to	ADP	IN	_	6	_	_	start_char=83|end_char=85
+8	George	George	PROPN	NNP	Number=Sing	7	_	_	start_char=86|end_char=92
+9	Soros	Soros	PROPN	NNP	Number=Sing	8	_	_	start_char=93|end_char=98|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=98|end_char=99|SpaceAfter=No
+

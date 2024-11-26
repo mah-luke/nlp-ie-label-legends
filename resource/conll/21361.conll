@@ -1,0 +1,63 @@
+# text = If you were born male you lost a 50/50 before birth.
+# sent_id = 45895
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	_	_	start_char=7|end_char=11
+4	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=12|end_char=16
+5	male	male	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=21
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=22|end_char=25
+7	lost	lose	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	_	_	start_char=26|end_char=30
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=31|end_char=32
+9	50	50	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=33|end_char=35|SpaceAfter=No
+10	/	/	SYM	SYM	_	9	_	_	start_char=35|end_char=36|SpaceAfter=No
+11	50	50	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=36|end_char=38
+12	before	before	ADP	IN	_	11	_	_	start_char=39|end_char=45
+13	birth	birth	NOUN	NN	Number=Sing	12	_	_	start_char=46|end_char=51|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=51|end_char=52
+
+# text = Have to deal with the 80/20 rule.
+# sent_id = 45896
+1	Have	have	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	_	_	start_char=53|end_char=57
+2	to	to	PART	TO	_	1	_	_	start_char=58|end_char=60
+3	deal	deal	VERB	VB	VerbForm=Inf	2	_	_	start_char=61|end_char=65
+4	with	with	ADP	IN	_	3	_	_	start_char=66|end_char=70
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=71|end_char=74
+6	80	80	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=75|end_char=77|SpaceAfter=No
+7	/	/	PUNCT	HYPH	_	6	_	_	start_char=77|end_char=78|SpaceAfter=No
+8	20	20	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=78|end_char=80
+9	rule	rule	NOUN	NN	Number=Sing	8	_	_	start_char=81|end_char=85|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=85|end_char=86
+
+# text = Being born as a sub8 is the most cruel joke the nature can do to you!!
+# sent_id = 45897
+1	Being	be	AUX	VBG	VerbForm=Ger	0	_	_	start_char=87|end_char=92
+2	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	_	_	start_char=93|end_char=97
+3	as	as	ADP	IN	_	2	_	_	start_char=98|end_char=100
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=101|end_char=102
+5	sub8	sub8	NOUN	NN	Number=Sing	4	_	_	start_char=103|end_char=107
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=108|end_char=110
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=111|end_char=114
+8	most	most	ADV	RBS	Degree=Sup	7	_	_	start_char=115|end_char=119
+9	cruel	cruel	ADJ	JJ	Degree=Pos	8	_	_	start_char=120|end_char=125
+10	joke	joke	NOUN	NN	Number=Sing	9	_	_	start_char=126|end_char=130
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=131|end_char=134
+12	nature	nature	NOUN	NN	Number=Sing	11	_	_	start_char=135|end_char=141
+13	can	can	AUX	MD	VerbForm=Fin	12	_	_	start_char=142|end_char=145
+14	do	do	VERB	VB	VerbForm=Inf	13	_	_	start_char=146|end_char=148
+15	to	to	ADP	IN	_	14	_	_	start_char=149|end_char=151
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	_	_	start_char=152|end_char=155|SpaceAfter=No
+17	!!	!!	PUNCT	.	_	16	_	_	start_char=155|end_char=157
+
+# text = Your life have way less value than any females.
+# sent_id = 45898
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=158|end_char=162
+2	life	life	NOUN	NN	Number=Sing	1	_	_	start_char=163|end_char=167
+3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=168|end_char=172
+4	way	way	ADV	RB	_	3	_	_	start_char=173|end_char=176
+5	less	less	ADJ	JJR	Degree=Cmp	4	_	_	start_char=177|end_char=181
+6	value	value	NOUN	NN	Number=Sing	5	_	_	start_char=182|end_char=187
+7	than	than	ADP	IN	_	6	_	_	start_char=188|end_char=192
+8	any	any	DET	DT	_	7	_	_	start_char=193|end_char=196
+9	females	female	NOUN	NNS	Number=Plur	8	_	_	start_char=197|end_char=204|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=204|end_char=205|SpaceAfter=No
+

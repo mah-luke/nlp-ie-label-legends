@@ -1,0 +1,39 @@
+# text = No, do not text her again.
+# sent_id = 124863
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=4|end_char=6
+4	not	not	PART	RB	_	3	_	_	start_char=7|end_char=10
+5	text	text	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=11|end_char=15
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=16|end_char=19
+7	again	again	ADV	RB	_	6	_	_	start_char=20|end_char=25|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=25|end_char=26
+
+# text = She is either busy, or not interested.
+# sent_id = 124864
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=27|end_char=30
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=33
+3	either	either	CCONJ	CC	_	2	_	_	start_char=34|end_char=40
+4	busy	busy	ADJ	JJ	Degree=Pos	3	_	_	start_char=41|end_char=45|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=45|end_char=46
+6	or	or	CCONJ	CC	_	5	_	_	start_char=47|end_char=49
+7	not	not	PART	RB	_	6	_	_	start_char=50|end_char=53
+8	interested	interested	ADJ	JJ	Degree=Pos	7	_	_	start_char=54|end_char=64|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=64|end_char=65
+
+# text = In any case another text won't change any of that.
+# sent_id = 124865
+1	In	in	ADP	IN	_	0	_	_	start_char=66|end_char=68
+2	any	any	DET	DT	_	1	_	_	start_char=69|end_char=72
+3	case	case	NOUN	NN	Number=Sing	2	_	_	start_char=73|end_char=77
+4	another	another	DET	DT	_	3	_	_	start_char=78|end_char=85
+5	text	text	NOUN	NN	Number=Sing	4	_	_	start_char=86|end_char=90
+6-7	won't	_	_	_	_	_	_	_	start_char=91|end_char=96
+6	wo	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=91|end_char=93
+7	n't	not	PART	RB	_	6	_	_	start_char=93|end_char=96
+8	change	change	VERB	VB	VerbForm=Inf	7	_	_	start_char=97|end_char=103
+9	any	any	DET	DT	_	8	_	_	start_char=104|end_char=107
+10	of	of	ADP	IN	_	9	_	_	start_char=108|end_char=110
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	10	_	_	start_char=111|end_char=115|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=115|end_char=116|SpaceAfter=No
+

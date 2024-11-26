@@ -1,0 +1,44 @@
+# text = [USER] this woman needs to be fired immediately.
+# sent_id = 53646
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=7|end_char=11
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=12|end_char=17
+6	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=18|end_char=23
+7	to	to	PART	TO	_	6	_	_	start_char=24|end_char=26
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=27|end_char=29
+9	fired	fire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=30|end_char=35
+10	immediately	immediately	ADV	RB	_	9	_	_	start_char=36|end_char=47|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=47|end_char=48
+
+# text = Unfit For Service.
+# sent_id = 53647
+1	Unfit	Unfit	ADJ	JJ	Degree=Pos	0	_	_	start_char=49|end_char=54
+2	For	for	ADP	IN	_	1	_	_	start_char=55|end_char=58
+3	Service	service	NOUN	NN	Number=Sing	2	_	_	start_char=59|end_char=66|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=66|end_char=67
+
+# text = Obama fired all kinds of Captains for the same thing (of course, his had no legitimacy however)
+# sent_id = 53648
+1	Obama	Obama	PROPN	NNP	Number=Sing	0	_	_	start_char=68|end_char=73
+2	fired	fire	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=74|end_char=79
+3	all	all	DET	DT	_	2	_	_	start_char=80|end_char=83
+4	kinds	kind	NOUN	NNS	Number=Plur	3	_	_	start_char=84|end_char=89
+5	of	of	ADP	IN	_	4	_	_	start_char=90|end_char=92
+6	Captains	Captain	PROPN	NNPS	Number=Plur	5	_	_	start_char=93|end_char=101
+7	for	for	ADP	IN	_	6	_	_	start_char=102|end_char=105
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=106|end_char=109
+9	same	same	ADJ	JJ	Degree=Pos	8	_	_	start_char=110|end_char=114
+10	thing	thing	NOUN	NN	Number=Sing	9	_	_	start_char=115|end_char=120
+11	(	(	PUNCT	-LRB-	_	10	_	_	start_char=121|end_char=122|SpaceAfter=No
+12	of	of	ADV	IN	_	11	_	_	start_char=122|end_char=124
+13	course	course	NOUN	NN	Number=Sing	12	_	_	start_char=125|end_char=131|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=131|end_char=132
+15	his	his	PRON	PRP	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=133|end_char=136
+16	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=137|end_char=140
+17	no	no	DET	DT	_	16	_	_	start_char=141|end_char=143
+18	legitimacy	legitimacy	NOUN	NN	Number=Sing	17	_	_	start_char=144|end_char=154
+19	however	however	ADV	RB	_	18	_	_	start_char=155|end_char=162|SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	19	_	_	start_char=162|end_char=163|SpaceAfter=No
+

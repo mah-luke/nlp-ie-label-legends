@@ -1,0 +1,69 @@
+# text = [USER]
+# sent_id = 84733
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Isn't she the delicate little Princess that threatened to leave USA if Trump is President?
+# sent_id = 84734
+1-2	Isn't	_	_	_	_	_	_	_	start_char=7|end_char=12
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=7|end_char=9
+2	n't	not	PART	RB	_	1	_	_	start_char=9|end_char=12
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=13|end_char=16
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=17|end_char=20
+5	delicate	delicate	ADJ	JJ	Degree=Pos	4	_	_	start_char=21|end_char=29
+6	little	little	ADJ	JJ	Degree=Pos	5	_	_	start_char=30|end_char=36
+7	Princess	Princess	NOUN	NN	Number=Sing	6	_	_	start_char=37|end_char=45
+8	that	that	PRON	WDT	PronType=Rel	7	_	_	start_char=46|end_char=50
+9	threatened	threaten	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=51|end_char=61
+10	to	to	PART	TO	_	9	_	_	start_char=62|end_char=64
+11	leave	leave	VERB	VB	VerbForm=Inf	10	_	_	start_char=65|end_char=70
+12	USA	USA	PROPN	NNP	Number=Sing	11	_	_	start_char=71|end_char=74
+13	if	if	SCONJ	IN	_	12	_	_	start_char=75|end_char=77
+14	Trump	Trump	PROPN	NNP	Number=Sing	13	_	_	start_char=78|end_char=83
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=84|end_char=86
+16	President	President	PROPN	NNP	Number=Sing	15	_	_	start_char=87|end_char=96|SpaceAfter=No
+17	?	?	PUNCT	.	_	16	_	_	start_char=96|end_char=97
+
+# text = She gonna march to Mexico?
+# sent_id = 84735
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=98|end_char=101
+2-3	gonna	_	_	_	_	_	_	_	start_char=102|end_char=107
+2	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	1	_	_	start_char=102|end_char=105
+3	na	to	PART	TO	_	2	_	_	start_char=105|end_char=107
+4	march	march	NOUN	NN	Number=Sing	3	_	_	start_char=108|end_char=113
+5	to	to	ADP	IN	_	4	_	_	start_char=114|end_char=116
+6	Mexico	Mexico	PROPN	NNP	Number=Sing	5	_	_	start_char=117|end_char=123|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=123|end_char=124
+
+# text = Maybe an Australian walkabout?
+# sent_id = 84736
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=125|end_char=130
+2	an	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=131|end_char=133
+3	Australian	Australian	ADJ	JJ	Degree=Pos	2	_	_	start_char=134|end_char=144
+4	walkabout	walkabout	NOUN	NN	Number=Sing	3	_	_	start_char=145|end_char=154|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=154|end_char=155
+
+# text = Oh, she was joking?
+# sent_id = 84737
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=156|end_char=158|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=158|end_char=159
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=160|end_char=163
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=164|end_char=167
+5	joking	joke	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=168|end_char=174|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=174|end_char=175
+
+# text = About walking too?
+# sent_id = 84738
+1	About	about	ADV	RB	_	0	_	_	start_char=176|end_char=181
+2	walking	walk	VERB	VBG	VerbForm=Ger	1	_	_	start_char=182|end_char=189
+3	too	too	ADV	RB	_	2	_	_	start_char=190|end_char=193|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=193|end_char=194
+
+# text = Turd for brains.
+# sent_id = 84739
+1	Turd	turd	NOUN	NN	Number=Sing	0	_	_	start_char=195|end_char=199
+2	for	for	ADP	IN	_	1	_	_	start_char=200|end_char=203
+3	brains	brain	NOUN	NNS	Number=Plur	2	_	_	start_char=204|end_char=210|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=210|end_char=211|SpaceAfter=No
+

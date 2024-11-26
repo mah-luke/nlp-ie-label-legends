@@ -1,0 +1,40 @@
+# text = It's photoshopped.
+# sent_id = 114186
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	photoshopped	photoshop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=5|end_char=17|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=17|end_char=18
+
+# text = It is actually a target she is tearing up.
+# sent_id = 114187
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=19|end_char=21
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=24
+3	actually	actually	ADV	RB	_	2	_	_	start_char=25|end_char=33
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=34|end_char=35
+5	target	target	NOUN	NN	Number=Sing	4	_	_	start_char=36|end_char=42
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=43|end_char=46
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=47|end_char=49
+8	tearing	tear	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=50|end_char=57
+9	up	up	ADP	RP	_	8	_	_	start_char=58|end_char=60|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=60|end_char=61
+
+# text = Not that that makes me like her any more, but just so you know.
+# sent_id = 114188
+1	Not	not	PART	RB	_	0	_	_	start_char=62|end_char=65
+2	that	that	SCONJ	IN	_	1	_	_	start_char=66|end_char=70
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=71|end_char=75
+4	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=76|end_char=81
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=82|end_char=84
+6	like	like	VERB	VB	VerbForm=Inf	5	_	_	start_char=85|end_char=89
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=90|end_char=93
+8	any	any	ADV	RB	_	7	_	_	start_char=94|end_char=97
+9	more	more	ADJ	JJR	Degree=Cmp	8	_	_	start_char=98|end_char=102|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=102|end_char=103
+11	but	but	CCONJ	CC	_	10	_	_	start_char=104|end_char=107
+12	just	just	ADV	RB	_	11	_	_	start_char=108|end_char=112
+13	so	so	ADV	RB	_	12	_	_	start_char=113|end_char=115
+14	you	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	_	_	start_char=116|end_char=119
+15	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	_	_	start_char=120|end_char=124|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=124|end_char=125|SpaceAfter=No
+

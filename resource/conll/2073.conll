@@ -1,0 +1,43 @@
+# text = Yeah, alcohol shrinks neurons.
+# sent_id = 4407
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	alcohol	alcohol	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=13
+4	shrinks	shrink	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=21
+5	neurons	neuron	NOUN	NNS	Number=Plur	4	_	_	start_char=22|end_char=29|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=29|end_char=30
+
+# text = No shit.
+# sent_id = 4408
+1	No	no	DET	DT	_	0	_	_	start_char=31|end_char=33
+2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=34|end_char=38|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=38|end_char=39
+
+# text = Pot is way worse.
+# sent_id = 4409
+1	Pot	pot	NOUN	NN	Number=Sing	0	_	_	start_char=40|end_char=43
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=44|end_char=46
+3	way	way	ADV	RB	_	2	_	_	start_char=47|end_char=50
+4	worse	bad	ADJ	JJR	Degree=Cmp	3	_	_	start_char=51|end_char=56|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=56|end_char=57
+
+# text = I’ve watched it turn normal teens into complete morons within just a few years.
+# sent_id = 4410
+1-2	I’ve	_	_	_	_	_	_	_	start_char=58|end_char=62
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=58|end_char=59
+2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=62
+3	watched	watch	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=63|end_char=70
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=71|end_char=73
+5	turn	turn	VERB	VB	VerbForm=Inf	4	_	_	start_char=74|end_char=78
+6	normal	normal	ADJ	JJ	Degree=Pos	5	_	_	start_char=79|end_char=85
+7	teens	teen	NOUN	NNS	Number=Plur	6	_	_	start_char=86|end_char=91
+8	into	into	ADP	IN	_	7	_	_	start_char=92|end_char=96
+9	complete	complete	ADJ	JJ	Degree=Pos	8	_	_	start_char=97|end_char=105
+10	morons	moron	NOUN	NNS	Number=Plur	9	_	_	start_char=106|end_char=112
+11	within	within	ADP	IN	_	10	_	_	start_char=113|end_char=119
+12	just	just	ADV	RB	_	11	_	_	start_char=120|end_char=124
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=125|end_char=126
+14	few	few	ADJ	JJ	Degree=Pos	13	_	_	start_char=127|end_char=130
+15	years	year	NOUN	NNS	Number=Plur	14	_	_	start_char=131|end_char=136|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=136|end_char=137|SpaceAfter=No
+

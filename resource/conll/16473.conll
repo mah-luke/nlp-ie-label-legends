@@ -1,0 +1,29 @@
+# text = Yes, Lena specified that she's a pedophile lesbian.
+# sent_id = 35337
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	Lena	Lena	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=9
+4	specified	specify	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=10|end_char=19
+5	that	that	SCONJ	IN	_	4	_	_	start_char=20|end_char=24
+6-7	she's	_	_	_	_	_	_	_	start_char=25|end_char=30
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=25|end_char=28
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=28|end_char=30
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=31|end_char=32
+9	pedophile	pedophile	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=42
+10	lesbian	lesbian	NOUN	NN	Number=Sing	9	_	_	start_char=43|end_char=50|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=50|end_char=51
+
+# text = Sis had better keep an eye on her little girls.
+# sent_id = 35338
+1	Sis	Sis	PROPN	NNP	Number=Sing	0	_	_	start_char=52|end_char=55
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=56|end_char=59
+3	better	well	ADV	RBR	Degree=Cmp	2	_	_	start_char=60|end_char=66
+4	keep	keep	VERB	VB	VerbForm=Inf	3	_	_	start_char=67|end_char=71
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=72|end_char=74
+6	eye	eye	NOUN	NN	Number=Sing	5	_	_	start_char=75|end_char=78
+7	on	on	ADP	IN	_	6	_	_	start_char=79|end_char=81
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=82|end_char=85
+9	little	little	ADJ	JJ	Degree=Pos	8	_	_	start_char=86|end_char=92
+10	girls	girl	NOUN	NNS	Number=Plur	9	_	_	start_char=93|end_char=98|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=98|end_char=99|SpaceAfter=No
+

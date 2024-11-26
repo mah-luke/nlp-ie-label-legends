@@ -1,0 +1,52 @@
+# text = [USER]
+# sent_id = 80986
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = The evil 0basturd's divided America into splinters.
+# sent_id = 80987
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=7|end_char=10
+2	evil	evil	ADJ	JJ	Degree=Pos	1	_	_	start_char=11|end_char=15
+3	0	0	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=16|end_char=17|SpaceAfter=No
+4-5	basturd's	_	_	_	_	_	_	_	start_char=17|end_char=26
+4	basturd	basturd	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=24
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=24|end_char=26
+6	divided	divide	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=27|end_char=34
+7	America	America	PROPN	NNP	Number=Sing	6	_	_	start_char=35|end_char=42
+8	into	into	ADP	IN	_	7	_	_	start_char=43|end_char=47
+9	splinters	splinter	NOUN	NNS	Number=Plur	8	_	_	start_char=48|end_char=57|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=57|end_char=58
+
+# text = The Donald now seeks to unite us.
+# sent_id = 80988
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=59|end_char=62
+2	Donald	Donald	PROPN	NNP	Number=Sing	1	_	_	start_char=63|end_char=69
+3	now	now	ADV	RB	_	2	_	_	start_char=70|end_char=73
+4	seeks	seek	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=74|end_char=79
+5	to	to	PART	TO	_	4	_	_	start_char=80|end_char=82
+6	unite	unite	VERB	VB	VerbForm=Inf	5	_	_	start_char=83|end_char=88
+7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	_	_	start_char=89|end_char=91|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=91|end_char=92
+
+# text = FIRST arrest George Soros paying for the anarchists - and jill Stine and her phony illegal recount!
+# sent_id = 80989
+1	FIRST	FIRST	ADJ	JJ	Degree=Pos|NumType=Ord	0	_	_	start_char=93|end_char=98
+2	arrest	arrest	NOUN	NN	Number=Sing	1	_	_	start_char=99|end_char=105
+3	George	George	PROPN	NNP	Number=Sing	2	_	_	start_char=106|end_char=112
+4	Soros	Soros	PROPN	NNP	Number=Sing	3	_	_	start_char=113|end_char=118
+5	paying	pay	VERB	VBG	VerbForm=Ger	4	_	_	start_char=119|end_char=125
+6	for	for	ADP	IN	_	5	_	_	start_char=126|end_char=129
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=130|end_char=133
+8	anarchists	anarchist	NOUN	NNS	Number=Plur	7	_	_	start_char=134|end_char=144
+9	-	-	PUNCT	HYPH	_	8	_	_	start_char=145|end_char=146
+10	and	and	CCONJ	CC	_	9	_	_	start_char=147|end_char=150
+11	jill	Nill	PROPN	NNP	Number=Sing	10	_	_	start_char=151|end_char=155
+12	Stine	Stine	PROPN	NNP	Number=Sing	11	_	_	start_char=156|end_char=161
+13	and	and	CCONJ	CC	_	12	_	_	start_char=162|end_char=165
+14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=166|end_char=169
+15	phony	phony	ADJ	JJ	Degree=Pos	14	_	_	start_char=170|end_char=175
+16	illegal	illegal	ADJ	JJ	Degree=Pos	15	_	_	start_char=176|end_char=183
+17	recount	recount	NOUN	NN	Number=Sing	16	_	_	start_char=184|end_char=191|SpaceAfter=No
+18	!	!	PUNCT	.	_	17	_	_	start_char=191|end_char=192|SpaceAfter=No
+

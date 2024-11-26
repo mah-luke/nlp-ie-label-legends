@@ -1,0 +1,50 @@
+# text = Twitter locks out users, automatically, for 'automated behavior.'
+# sent_id = 6141
+1	Twitter	Twitter	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	locks	lock	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=13
+3	out	out	ADP	RP	_	2	_	_	start_char=14|end_char=17
+4	users	user	NOUN	NNS	Number=Plur	3	_	_	start_char=18|end_char=23|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=23|end_char=24
+6	automatically	automatically	ADV	RB	_	5	_	_	start_char=25|end_char=38|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=38|end_char=39
+8	for	for	ADP	IN	_	7	_	_	start_char=40|end_char=43
+9	'	'	PUNCT	``	_	8	_	_	start_char=44|end_char=45|SpaceAfter=No
+10	automated	automated	ADJ	JJ	Degree=Pos	9	_	_	start_char=45|end_char=54
+11	behavior	behavior	NOUN	NN	Number=Sing	10	_	_	start_char=55|end_char=63|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=63|end_char=64|SpaceAfter=No
+13	'	'	PUNCT	''	_	12	_	_	start_char=64|end_char=65
+
+# text = Meanwhile, "THE RESISTANCE" tells right-wing women they're going to be raped & lit on fire.
+# sent_id = 6142
+1	Meanwhile	meanwhile	ADV	RB	_	0	_	_	start_char=66|end_char=75|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=75|end_char=76
+3	"	"	PUNCT	``	_	2	_	_	start_char=77|end_char=78|SpaceAfter=No
+4	THE	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=78|end_char=81
+5	RESISTANCE	resistance	NOUN	NN	Number=Sing	4	_	_	start_char=82|end_char=92|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=92|end_char=93
+7	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=94|end_char=99
+8	right	right	ADV	RB	_	7	_	_	start_char=100|end_char=105|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	_	_	start_char=105|end_char=106|SpaceAfter=No
+10	wing	wing	NOUN	NN	Number=Sing	9	_	_	start_char=106|end_char=110
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=111|end_char=116
+12-13	they're	_	_	_	_	_	_	_	start_char=117|end_char=124
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	_	_	start_char=117|end_char=121
+13	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=121|end_char=124
+14	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	13	_	_	start_char=125|end_char=130
+15	to	to	PART	TO	_	14	_	_	start_char=131|end_char=133
+16	be	be	AUX	VB	VerbForm=Inf	15	_	_	start_char=134|end_char=136
+17	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=137|end_char=142
+18	&	&	CCONJ	CC	_	17	_	_	start_char=143|end_char=144
+19	lit	light	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=145|end_char=148
+20	on	on	ADP	IN	_	19	_	_	start_char=149|end_char=151
+21	fire	fire	NOUN	NN	Number=Sing	20	_	_	start_char=152|end_char=156|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=156|end_char=157
+
+# text = [ [URL] ]
+# sent_id = 6143
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=158|end_char=159
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=160|end_char=161|SpaceAfter=No
+3	URL	URL	PROPN	NNP	Number=Sing	2	_	_	start_char=161|end_char=164|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=164|end_char=165
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=166|end_char=167|SpaceAfter=No
+

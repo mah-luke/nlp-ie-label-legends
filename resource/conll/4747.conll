@@ -1,0 +1,29 @@
+# text = if she files a police report she can be prosecutted criminally for filing a false police report.
+# sent_id = 10010
+1	if	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	files	file	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=12
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=13|end_char=14
+5	police	police	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=21
+6	report	report	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=28
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=29|end_char=32
+8	can	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=33|end_char=36
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=37|end_char=39
+10	prosecutted	prosecutt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=40|end_char=51
+11	criminally	criminally	ADV	RB	_	10	_	_	start_char=52|end_char=62
+12	for	for	SCONJ	IN	_	11	_	_	start_char=63|end_char=66
+13	filing	file	VERB	VBG	VerbForm=Ger	12	_	_	start_char=67|end_char=73
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=74|end_char=75
+15	false	false	ADJ	JJ	Degree=Pos	14	_	_	start_char=76|end_char=81
+16	police	police	NOUN	NN	Number=Sing	15	_	_	start_char=82|end_char=88
+17	report	report	NOUN	NN	Number=Sing	16	_	_	start_char=89|end_char=95|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=95|end_char=96
+
+# text = thats why no report.
+# sent_id = 10011
+1	thats	that	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=97|end_char=102
+2	why	why	ADV	WRB	PronType=Int	1	_	_	start_char=103|end_char=106
+3	no	no	DET	DT	_	2	_	_	start_char=107|end_char=109
+4	report	report	NOUN	NN	Number=Sing	3	_	_	start_char=110|end_char=116|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=116|end_char=117|SpaceAfter=No
+

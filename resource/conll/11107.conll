@@ -1,0 +1,52 @@
+# text = I'd like to know what happened to the guy who was found GUILTY of sexually assault a child multiple times and granted BAIL.
+# sent_id = 23537
+1-2	I'd	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	like	like	VERB	VB	VerbForm=Inf	2	_	_	start_char=4|end_char=8
+4	to	to	PART	TO	_	3	_	_	start_char=9|end_char=11
+5	know	know	VERB	VB	VerbForm=Inf	4	_	_	start_char=12|end_char=16
+6	what	what	PRON	WP	PronType=Rel	5	_	_	start_char=17|end_char=21
+7	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=22|end_char=30
+8	to	to	ADP	IN	_	7	_	_	start_char=31|end_char=33
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=34|end_char=37
+10	guy	guy	NOUN	NN	Number=Sing	9	_	_	start_char=38|end_char=41
+11	who	who	PRON	WP	PronType=Rel	10	_	_	start_char=42|end_char=45
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=46|end_char=49
+13	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=50|end_char=55
+14	GUILTY	GUILTY	ADJ	JJ	Degree=Pos	13	_	_	start_char=56|end_char=62
+15	of	of	ADP	IN	_	14	_	_	start_char=63|end_char=65
+16	sexually	sexually	ADV	RB	_	15	_	_	start_char=66|end_char=74
+17	assault	assault	VERB	VB	VerbForm=Inf	16	_	_	start_char=75|end_char=82
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=83|end_char=84
+19	child	child	NOUN	NN	Number=Sing	18	_	_	start_char=85|end_char=90
+20	multiple	multiple	ADJ	JJ	Degree=Pos	19	_	_	start_char=91|end_char=99
+21	times	time	NOUN	NNS	Number=Plur	20	_	_	start_char=100|end_char=105
+22	and	and	CCONJ	CC	_	21	_	_	start_char=106|end_char=109
+23	granted	grant	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	_	_	start_char=110|end_char=117
+24	BAIL	bail	NOUN	NN	Number=Sing	23	_	_	start_char=118|end_char=122|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=122|end_char=123
+
+# text = Due to be sentenced 15/06 (yesterday) at SAME COURT case T20170402 but no info ??? [URL]
+# sent_id = 23538
+1	Due	due	ADJ	JJ	Degree=Pos	0	_	_	start_char=124|end_char=127
+2	to	to	PART	TO	_	1	_	_	start_char=128|end_char=130
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=131|end_char=133
+4	sentenced	sentence	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=134|end_char=143
+5	15/06	15/06	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=144|end_char=149
+6	(	(	PUNCT	-LRB-	_	5	_	_	start_char=150|end_char=151|SpaceAfter=No
+7	yesterday	yesterday	NOUN	NN	Number=Sing	6	_	_	start_char=151|end_char=160|SpaceAfter=No
+8	)	)	PUNCT	-RRB-	_	7	_	_	start_char=160|end_char=161
+9	at	at	ADP	IN	_	8	_	_	start_char=162|end_char=164
+10	SAME	same	ADJ	JJ	Degree=Pos	9	_	_	start_char=165|end_char=169
+11	COURT	court	NOUN	NN	Number=Sing	10	_	_	start_char=170|end_char=175
+12	case	case	NOUN	NN	Number=Sing	11	_	_	start_char=176|end_char=180
+13	T20170402	T20170402	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=181|end_char=190
+14	but	but	CCONJ	CC	_	13	_	_	start_char=191|end_char=194
+15	no	no	DET	DT	_	14	_	_	start_char=195|end_char=197
+16	info	info	NOUN	NN	Number=Sing	15	_	_	start_char=198|end_char=202
+17	???	???	PUNCT	.	_	16	_	_	start_char=203|end_char=206
+18	[	[	PUNCT	-LRB-	_	17	_	_	start_char=207|end_char=208|SpaceAfter=No
+19	URL	URL	PROPN	NNP	Number=Sing	18	_	_	start_char=208|end_char=211|SpaceAfter=No
+20	]	]	PUNCT	-RRB-	_	19	_	_	start_char=211|end_char=212|SpaceAfter=No
+

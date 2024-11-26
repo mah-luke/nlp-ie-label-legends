@@ -1,0 +1,43 @@
+# text = It’s a natural reaction.
+# sent_id = 72195
+1-2	It’s	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=5|end_char=6
+4	natural	natural	ADJ	JJ	Degree=Pos	3	_	_	start_char=7|end_char=14
+5	reaction	reaction	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=23|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=23|end_char=24
+
+# text = Girls do that too.
+# sent_id = 72196
+1	Girls	Girls	NOUN	NNS	Number=Plur	0	_	_	start_char=25|end_char=30
+2	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=33
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=34|end_char=38
+4	too	too	ADV	RB	_	3	_	_	start_char=39|end_char=42|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=42|end_char=43
+
+# text = Like when you are talking to one THOT bagging your groceries and the hot checker girl starts getting in the conversation.
+# sent_id = 72197
+1	Like	like	INTJ	UH	_	0	_	_	start_char=44|end_char=48
+2	when	when	ADV	WRB	PronType=Int	1	_	_	start_char=49|end_char=53
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=54|end_char=57
+4	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=58|end_char=61
+5	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=62|end_char=69
+6	to	to	ADP	IN	_	5	_	_	start_char=70|end_char=72
+7	one	one	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=73|end_char=76
+8	THOT	thot	NOUN	NN	Number=Sing	7	_	_	start_char=77|end_char=81
+9	bagging	bag	VERB	VBG	VerbForm=Ger	8	_	_	start_char=82|end_char=89
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	_	_	start_char=90|end_char=94
+11	groceries	grocery	NOUN	NNS	Number=Plur	10	_	_	start_char=95|end_char=104
+12	and	and	CCONJ	CC	_	11	_	_	start_char=105|end_char=108
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=109|end_char=112
+14	hot	hot	ADJ	JJ	Degree=Pos	13	_	_	start_char=113|end_char=116
+15	checker	checker	NOUN	NN	Number=Sing	14	_	_	start_char=117|end_char=124
+16	girl	girl	NOUN	NN	Number=Sing	15	_	_	start_char=125|end_char=129
+17	starts	start	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=130|end_char=136
+18	getting	get	VERB	VBG	VerbForm=Ger	17	_	_	start_char=137|end_char=144
+19	in	in	ADP	IN	_	18	_	_	start_char=145|end_char=147
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=148|end_char=151
+21	conversation	conversation	NOUN	NN	Number=Sing	20	_	_	start_char=152|end_char=164|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=164|end_char=165|SpaceAfter=No
+

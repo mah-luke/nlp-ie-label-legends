@@ -1,0 +1,24 @@
+# text = [USER]
+# sent_id = 28167
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Hey sister, waiting for a new vid!
+# sent_id = 28168
+1	Hey	hey	INTJ	UH	_	0	_	_	start_char=7|end_char=10
+2	sister	sister	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=17|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=17|end_char=18
+4	waiting	wait	VERB	VBG	VerbForm=Ger	3	_	_	start_char=19|end_char=26
+5	for	for	ADP	IN	_	4	_	_	start_char=27|end_char=30
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=31|end_char=32
+7	new	new	ADJ	JJ	Degree=Pos	6	_	_	start_char=33|end_char=36
+8	vid	vid	NOUN	NN	Number=Sing	7	_	_	start_char=37|end_char=40|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=40|end_char=41
+
+# text = [URL]
+# sent_id = 28169
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=42|end_char=43|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=43|end_char=46|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=46|end_char=47|SpaceAfter=No
+

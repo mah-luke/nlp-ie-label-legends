@@ -1,0 +1,54 @@
+# text = No surprises here.
+# sent_id = 25354
+1	No	no	DET	DT	_	0	_	_	start_char=0|end_char=2
+2	surprises	surprise	NOUN	NNS	Number=Plur	1	_	_	start_char=3|end_char=12
+3	here	here	ADV	RB	PronType=Dem	2	_	_	start_char=13|end_char=17|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=17|end_char=18
+
+# text = "Jihadi who wanted to bomb Big Ben had TWO council houses - one for him and one for his wife who 'wanted her independence' (then claimed MORE taxpayer money for being her 'carer') " [URL]
+# sent_id = 25355
+1	"	"	PUNCT	``	_	0	_	_	start_char=19|end_char=20|SpaceAfter=No
+2	Jihadi	Jihadi	PROPN	NNP	Number=Sing	1	_	_	start_char=20|end_char=26
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=27|end_char=30
+4	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=31|end_char=37
+5	to	to	PART	TO	_	4	_	_	start_char=38|end_char=40
+6	bomb	bomb	VERB	VB	VerbForm=Inf	5	_	_	start_char=41|end_char=45
+7	Big	Big	ADJ	NNP	Degree=Pos	6	_	_	start_char=46|end_char=49
+8	Ben	Ben	PROPN	NNP	Number=Sing	7	_	_	start_char=50|end_char=53
+9	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=54|end_char=57
+10	TWO	two	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=58|end_char=61
+11	council	council	NOUN	NN	Number=Sing	10	_	_	start_char=62|end_char=69
+12	houses	house	NOUN	NNS	Number=Plur	11	_	_	start_char=70|end_char=76
+13	-	-	PUNCT	HYPH	_	12	_	_	start_char=77|end_char=78
+14	one	one	NUM	CD	NumForm=Word|NumType=Card	13	_	_	start_char=79|end_char=82
+15	for	for	ADP	IN	_	14	_	_	start_char=83|end_char=86
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=87|end_char=90
+17	and	and	CCONJ	CC	_	16	_	_	start_char=91|end_char=94
+18	one	one	NUM	CD	NumForm=Word|NumType=Card	17	_	_	start_char=95|end_char=98
+19	for	for	ADP	IN	_	18	_	_	start_char=99|end_char=102
+20	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	_	_	start_char=103|end_char=106
+21	wife	wife	NOUN	NN	Number=Sing	20	_	_	start_char=107|end_char=111
+22	who	who	PRON	WP	PronType=Rel	21	_	_	start_char=112|end_char=115
+23	'	'	PUNCT	``	_	22	_	_	start_char=116|end_char=117|SpaceAfter=No
+24	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	_	_	start_char=117|end_char=123
+25	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	_	_	start_char=124|end_char=127
+26	independence	independence	NOUN	NN	Number=Sing	25	_	_	start_char=128|end_char=140|SpaceAfter=No
+27	'	'	PUNCT	''	_	26	_	_	start_char=140|end_char=141
+28	(	(	PUNCT	-LRB-	_	27	_	_	start_char=142|end_char=143|SpaceAfter=No
+29	then	then	ADV	RB	PronType=Dem	28	_	_	start_char=143|end_char=147
+30	claimed	claim	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	29	_	_	start_char=148|end_char=155
+31	MORE	more	ADJ	JJR	Degree=Cmp	30	_	_	start_char=156|end_char=160
+32	taxpayer	taxpayer	NOUN	NN	Number=Sing	31	_	_	start_char=161|end_char=169
+33	money	money	NOUN	NN	Number=Sing	32	_	_	start_char=170|end_char=175
+34	for	for	SCONJ	IN	_	33	_	_	start_char=176|end_char=179
+35	being	be	AUX	VBG	VerbForm=Ger	34	_	_	start_char=180|end_char=185
+36	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	35	_	_	start_char=186|end_char=189
+37	'	'	PUNCT	``	_	36	_	_	start_char=190|end_char=191|SpaceAfter=No
+38	carer	carer	NOUN	NN	Number=Sing	37	_	_	start_char=191|end_char=196|SpaceAfter=No
+39	'	'	PUNCT	''	_	38	_	_	start_char=196|end_char=197|SpaceAfter=No
+40	)	)	PUNCT	-RRB-	_	39	_	_	start_char=197|end_char=198
+41	"	"	PUNCT	''	_	40	_	_	start_char=199|end_char=200
+42	[	[	PUNCT	-LRB-	_	41	_	_	start_char=201|end_char=202|SpaceAfter=No
+43	URL	URL	PROPN	NNP	Number=Sing	42	_	_	start_char=202|end_char=205|SpaceAfter=No
+44	]	]	PUNCT	-RRB-	_	43	_	_	start_char=205|end_char=206|SpaceAfter=No
+

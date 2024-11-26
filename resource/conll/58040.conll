@@ -1,0 +1,43 @@
+# text = I always thought that was lame.
+# sent_id = 123955
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	always	always	ADV	RB	_	1	_	_	start_char=2|end_char=8
+3	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=9|end_char=16
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=17|end_char=21
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=22|end_char=25
+6	lame	lame	ADJ	JJ	Degree=Pos	5	_	_	start_char=26|end_char=30|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=30|end_char=31
+
+# text = I've seen dudes call girls sluts because they were fucking some dude they knew, but the real reason was because they weren't fucking them.
+# sent_id = 123956
+1-2	I've	_	_	_	_	_	_	_	start_char=32|end_char=36
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=32|end_char=33
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=33|end_char=36
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=37|end_char=41
+4	dudes	dude	NOUN	NNS	Number=Plur	3	_	_	start_char=42|end_char=47
+5	call	call	VERB	VB	VerbForm=Inf	4	_	_	start_char=48|end_char=52
+6	girls	girl	NOUN	NNS	Number=Plur	5	_	_	start_char=53|end_char=58
+7	sluts	slut	NOUN	NNS	Number=Plur	6	_	_	start_char=59|end_char=64
+8	because	because	SCONJ	IN	_	7	_	_	start_char=65|end_char=72
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=73|end_char=77
+10	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=78|end_char=82
+11	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=83|end_char=90
+12	some	some	DET	DT	_	11	_	_	start_char=91|end_char=95
+13	dude	dude	NOUN	NN	Number=Sing	12	_	_	start_char=96|end_char=100
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=101|end_char=105
+15	knew	know	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=106|end_char=110|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=110|end_char=111
+17	but	but	CCONJ	CC	_	16	_	_	start_char=112|end_char=115
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=116|end_char=119
+19	real	real	ADJ	JJ	Degree=Pos	18	_	_	start_char=120|end_char=124
+20	reason	reason	NOUN	NN	Number=Sing	19	_	_	start_char=125|end_char=131
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	_	_	start_char=132|end_char=135
+22	because	because	SCONJ	IN	_	21	_	_	start_char=136|end_char=143
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	_	_	start_char=144|end_char=148
+24-25	weren't	_	_	_	_	_	_	_	start_char=149|end_char=156
+24	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	23	_	_	start_char=149|end_char=153
+25	n't	not	PART	RB	_	24	_	_	start_char=153|end_char=156
+26	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	25	_	_	start_char=157|end_char=164
+27	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	_	_	start_char=165|end_char=169|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=169|end_char=170|SpaceAfter=No
+

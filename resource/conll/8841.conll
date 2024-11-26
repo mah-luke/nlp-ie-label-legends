@@ -1,0 +1,28 @@
+# text = “You’re fired.
+# sent_id = 18615
+1	“	''	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2-3	You’re	_	_	_	_	_	_	_	start_char=1|end_char=7
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=1|end_char=4
+3	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=4|end_char=7
+4	fired	fire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=8|end_char=13|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=13|end_char=14
+
+# text = The boss’s daughter needs a job and she will be your replacement.”
+# sent_id = 18616
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=15|end_char=18
+2-3	boss’s	_	_	_	_	_	_	_	start_char=19|end_char=25
+2	boss	boss	NOUN	NN	Number=Sing	1	_	_	start_char=19|end_char=23
+3	’s	's	PART	POS	_	2	_	_	start_char=23|end_char=25
+4	daughter	daughter	NOUN	NN	Number=Sing	3	_	_	start_char=26|end_char=34
+5	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=35|end_char=40
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=41|end_char=42
+7	job	job	NOUN	NN	Number=Sing	6	_	_	start_char=43|end_char=46
+8	and	and	CCONJ	CC	_	7	_	_	start_char=47|end_char=50
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=51|end_char=54
+10	will	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=55|end_char=59
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=60|end_char=62
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	_	_	start_char=63|end_char=67
+13	replacement	replacement	NOUN	NN	Number=Sing	12	_	_	start_char=68|end_char=79|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=79|end_char=80|SpaceAfter=No
+15	”	''	PUNCT	''	_	14	_	_	start_char=80|end_char=81|SpaceAfter=No
+

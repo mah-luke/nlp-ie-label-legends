@@ -1,0 +1,52 @@
+# text = Wow, aren't you bitter.
+# sent_id = 67740
+1	Wow	wow	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3-4	aren't	_	_	_	_	_	_	_	start_char=5|end_char=11
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=5|end_char=8
+4	n't	not	PART	RB	_	3	_	_	start_char=8|end_char=11
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=12|end_char=15
+6	bitter	bitter	ADJ	JJ	Degree=Pos	5	_	_	start_char=16|end_char=22|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=22|end_char=23
+
+# text = You know, if you hate seeing White Males with Asian females then you should make yourself more attractive to compete with them.
+# sent_id = 67741
+1	You	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	0	_	_	start_char=24|end_char=27
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=28|end_char=32|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=32|end_char=33
+4	if	if	SCONJ	IN	_	3	_	_	start_char=34|end_char=36
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=37|end_char=40
+6	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=41|end_char=45
+7	seeing	see	VERB	VBG	VerbForm=Ger	6	_	_	start_char=46|end_char=52
+8	White	White	ADJ	JJ	Degree=Pos	7	_	_	start_char=53|end_char=58
+9	Males	Males	PROPN	NNPS	Number=Plur	8	_	_	start_char=59|end_char=64
+10	with	with	ADP	IN	_	9	_	_	start_char=65|end_char=69
+11	Asian	Asian	ADJ	JJ	Degree=Pos	10	_	_	start_char=70|end_char=75
+12	females	female	NOUN	NNS	Number=Plur	11	_	_	start_char=76|end_char=83
+13	then	then	ADV	RB	PronType=Dem	12	_	_	start_char=84|end_char=88
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	_	_	start_char=89|end_char=92
+15	should	should	AUX	MD	VerbForm=Fin	14	_	_	start_char=93|end_char=99
+16	make	make	VERB	VB	VerbForm=Inf	15	_	_	start_char=100|end_char=104
+17	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	16	_	_	start_char=105|end_char=113
+18	more	more	ADV	RBR	Degree=Cmp	17	_	_	start_char=114|end_char=118
+19	attractive	attractive	ADJ	JJ	Degree=Pos	18	_	_	start_char=119|end_char=129
+20	to	to	PART	TO	_	19	_	_	start_char=130|end_char=132
+21	compete	compete	VERB	VB	VerbForm=Inf	20	_	_	start_char=133|end_char=140
+22	with	with	ADP	IN	_	21	_	_	start_char=141|end_char=145
+23	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	22	_	_	start_char=146|end_char=150|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=150|end_char=151
+
+# text = (more attractive meaning personality, job, looks etc)
+# sent_id = 67742
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=152|end_char=153|SpaceAfter=No
+2	more	more	ADV	RBR	Degree=Cmp	1	_	_	start_char=153|end_char=157
+3	attractive	attractive	ADJ	JJ	Degree=Pos	2	_	_	start_char=158|end_char=168
+4	meaning	meaning	NOUN	NN	Number=Sing	3	_	_	start_char=169|end_char=176
+5	personality	personality	NOUN	NN	Number=Sing	4	_	_	start_char=177|end_char=188|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=188|end_char=189
+7	job	job	NOUN	NN	Number=Sing	6	_	_	start_char=190|end_char=193|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=193|end_char=194
+9	looks	look	NOUN	NNS	Number=Plur	8	_	_	start_char=195|end_char=200
+10	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	9	_	_	start_char=201|end_char=204|SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	_	_	start_char=204|end_char=205|SpaceAfter=No
+

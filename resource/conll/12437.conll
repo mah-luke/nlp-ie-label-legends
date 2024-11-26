@@ -1,0 +1,58 @@
+# text = You can dream, bozo.
+# sent_id = 26369
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	dream	dream	VERB	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=13|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=13|end_char=14
+5	bozo	bozo	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=19|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = The last imbecile who tried ended up as incinerator trash.
+# sent_id = 26370
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=21|end_char=24
+2	last	last	ADJ	JJ	Degree=Pos	1	_	_	start_char=25|end_char=29
+3	imbecile	imbecile	NOUN	NN	Number=Sing	2	_	_	start_char=30|end_char=38
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=39|end_char=42
+5	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=43|end_char=48
+6	ended	end	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=49|end_char=54
+7	up	up	ADP	RP	_	6	_	_	start_char=55|end_char=57
+8	as	as	ADP	IN	_	7	_	_	start_char=58|end_char=60
+9	incinerator	incinerator	NOUN	NN	Number=Sing	8	_	_	start_char=61|end_char=72
+10	trash	trash	NOUN	NN	Number=Sing	9	_	_	start_char=73|end_char=78|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=78|end_char=79
+
+# text = Too bad he took 7 million Germans with him.
+# sent_id = 26371
+1	Too	too	ADV	RB	_	0	_	_	start_char=80|end_char=83
+2	bad	bad	ADJ	JJ	Degree=Pos	1	_	_	start_char=84|end_char=87
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=88|end_char=90
+4	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=91|end_char=95
+5	7	7	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=96|end_char=97
+6	million	million	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=98|end_char=105
+7	Germans	German	PROPN	NNPS	Number=Plur	6	_	_	start_char=106|end_char=113
+8	with	with	ADP	IN	_	7	_	_	start_char=114|end_char=118
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=119|end_char=122|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=122|end_char=123
+
+# text = But worry not, we'll take good care of your women while crows eat your carcass.
+# sent_id = 26372
+1	But	but	CCONJ	CC	_	0	_	_	start_char=124|end_char=127
+2	worry	worry	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=128|end_char=133
+3	not	not	PART	RB	_	2	_	_	start_char=134|end_char=137|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=137|end_char=138
+5-6	we'll	_	_	_	_	_	_	_	start_char=139|end_char=144
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=139|end_char=141
+6	'll	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=141|end_char=144
+7	take	take	VERB	VB	VerbForm=Inf	6	_	_	start_char=145|end_char=149
+8	good	good	ADJ	JJ	Degree=Pos	7	_	_	start_char=150|end_char=154
+9	care	care	NOUN	NN	Number=Sing	8	_	_	start_char=155|end_char=159
+10	of	of	ADP	IN	_	9	_	_	start_char=160|end_char=162
+11	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	10	_	_	start_char=163|end_char=167
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=168|end_char=173
+13	while	while	SCONJ	IN	_	12	_	_	start_char=174|end_char=179
+14	crows	crow	NOUN	NNS	Number=Plur	13	_	_	start_char=180|end_char=185
+15	eat	eat	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=186|end_char=189
+16	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	15	_	_	start_char=190|end_char=194
+17	carcass	carcass	NOUN	NN	Number=Sing	16	_	_	start_char=195|end_char=202|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=202|end_char=203|SpaceAfter=No
+

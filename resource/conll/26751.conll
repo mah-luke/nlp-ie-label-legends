@@ -1,0 +1,35 @@
+# text = If she means North Korea, then she's right.
+# sent_id = 57501
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=12
+4	North	North	PROPN	NNP	Number=Sing	3	_	_	start_char=13|end_char=18
+5	Korea	Korea	PROPN	NNP	Number=Sing	4	_	_	start_char=19|end_char=24|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=24|end_char=25
+7	then	then	ADV	RB	PronType=Dem	6	_	_	start_char=26|end_char=30
+8-9	she's	_	_	_	_	_	_	_	start_char=31|end_char=36
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=31|end_char=34
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=34|end_char=36
+10	right	right	ADJ	JJ	Degree=Pos	9	_	_	start_char=37|end_char=42|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=42|end_char=43
+
+# text = If she means the USA, then needs to get her head out of her ass...
+# sent_id = 57502
+1	If	if	SCONJ	IN	_	0	_	_	start_char=44|end_char=46
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=47|end_char=50
+3	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=51|end_char=56
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=57|end_char=60
+5	USA	USA	PROPN	NNP	Number=Sing	4	_	_	start_char=61|end_char=64|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=64|end_char=65
+7	then	then	ADV	RB	PronType=Dem	6	_	_	start_char=66|end_char=70
+8	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=71|end_char=76
+9	to	to	PART	TO	_	8	_	_	start_char=77|end_char=79
+10	get	get	VERB	VB	VerbForm=Inf	9	_	_	start_char=80|end_char=83
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=84|end_char=87
+12	head	head	NOUN	NN	Number=Sing	11	_	_	start_char=88|end_char=92
+13	out	out	ADP	IN	_	12	_	_	start_char=93|end_char=96
+14	of	of	ADP	IN	_	13	_	_	start_char=97|end_char=99
+15	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=100|end_char=103
+16	ass	ass	NOUN	NN	Number=Sing	15	_	_	start_char=104|end_char=107|SpaceAfter=No
+17	...	...	PUNCT	.	_	16	_	_	start_char=107|end_char=110|SpaceAfter=No
+

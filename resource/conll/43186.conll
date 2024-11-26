@@ -1,0 +1,24 @@
+# text = 3 date rule is a common thing girls have.
+# sent_id = 92282
+1	3	3	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=1
+2	date	date	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=6
+3	rule	rule	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=11
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=12|end_char=14
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=15|end_char=16
+6	common	common	ADJ	JJ	Degree=Pos	5	_	_	start_char=17|end_char=23
+7	thing	thing	NOUN	NN	Number=Sing	6	_	_	start_char=24|end_char=29
+8	girls	girl	NOUN	NNS	Number=Plur	7	_	_	start_char=30|end_char=35
+9	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=36|end_char=40|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=40|end_char=41
+
+# text = For sex maybe, not a kiss.
+# sent_id = 92283
+1	For	for	ADP	IN	_	0	_	_	start_char=42|end_char=45
+2	sex	sex	NOUN	NN	Number=Sing	1	_	_	start_char=46|end_char=49
+3	maybe	maybe	ADV	RB	_	2	_	_	start_char=50|end_char=55|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=55|end_char=56
+5	not	not	PART	RB	_	4	_	_	start_char=57|end_char=60
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=61|end_char=62
+7	kiss	kiss	NOUN	NN	Number=Sing	6	_	_	start_char=63|end_char=67|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=67|end_char=68|SpaceAfter=No
+

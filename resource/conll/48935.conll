@@ -1,0 +1,68 @@
+# text = It's much harder to tell than you think.
+# sent_id = 104615
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	much	much	ADV	RB	_	2	_	_	start_char=5|end_char=9
+4	harder	hard	ADJ	JJR	Degree=Cmp	3	_	_	start_char=10|end_char=16
+5	to	to	PART	TO	_	4	_	_	start_char=17|end_char=19
+6	tell	tell	VERB	VB	VerbForm=Inf	5	_	_	start_char=20|end_char=24
+7	than	than	SCONJ	IN	_	6	_	_	start_char=25|end_char=29
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=30|end_char=33
+9	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=34|end_char=39|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=39|end_char=40
+
+# text = Everyone does not like rejection, it's not the same thing as "Totally wrecking a girl".
+# sent_id = 104616
+1	Everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	0	_	_	start_char=41|end_char=49
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=50|end_char=54
+3	not	not	PART	RB	_	2	_	_	start_char=55|end_char=58
+4	like	like	VERB	VB	VerbForm=Inf	3	_	_	start_char=59|end_char=63
+5	rejection	rejection	NOUN	NN	Number=Sing	4	_	_	start_char=64|end_char=73|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=73|end_char=74
+7-8	it's	_	_	_	_	_	_	_	start_char=75|end_char=79
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=75|end_char=77
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=77|end_char=79
+9	not	not	PART	RB	_	8	_	_	start_char=80|end_char=83
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=84|end_char=87
+11	same	same	ADJ	JJ	Degree=Pos	10	_	_	start_char=88|end_char=92
+12	thing	thing	NOUN	NN	Number=Sing	11	_	_	start_char=93|end_char=98
+13	as	as	ADP	IN	_	12	_	_	start_char=99|end_char=101
+14	"	"	PUNCT	``	_	13	_	_	start_char=102|end_char=103|SpaceAfter=No
+15	Totally	totally	ADV	RB	_	14	_	_	start_char=103|end_char=110
+16	wrecking	wreck	VERB	VBG	VerbForm=Ger	15	_	_	start_char=111|end_char=119
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=120|end_char=121
+18	girl	girl	NOUN	NN	Number=Sing	17	_	_	start_char=122|end_char=126|SpaceAfter=No
+19	"	"	PUNCT	''	_	18	_	_	start_char=126|end_char=127|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=127|end_char=128
+
+# text = For all he knows, she actually wants something casual.
+# sent_id = 104617
+1	For	for	ADP	IN	_	0	_	_	start_char=129|end_char=132
+2	all	all	DET	DT	_	1	_	_	start_char=133|end_char=136
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=137|end_char=139
+4	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=140|end_char=145|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=145|end_char=146
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=147|end_char=150
+7	actually	actually	ADV	RB	_	6	_	_	start_char=151|end_char=159
+8	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=160|end_char=165
+9	something	something	PRON	NN	Number=Sing|PronType=Ind	8	_	_	start_char=166|end_char=175
+10	casual	casual	ADJ	JJ	Degree=Pos	9	_	_	start_char=176|end_char=182|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=182|end_char=183
+
+# text = Even when girls want that, very few will actually say that.
+# sent_id = 104618
+1	Even	even	ADV	RB	_	0	_	_	start_char=184|end_char=188
+2	when	when	ADV	WRB	PronType=Int	1	_	_	start_char=189|end_char=193
+3	girls	girl	NOUN	NNS	Number=Plur	2	_	_	start_char=194|end_char=199
+4	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=200|end_char=204
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=205|end_char=209|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=209|end_char=210
+7	very	very	ADV	RB	_	6	_	_	start_char=211|end_char=215
+8	few	few	ADJ	JJ	Degree=Pos	7	_	_	start_char=216|end_char=219
+9	will	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=220|end_char=224
+10	actually	actually	ADV	RB	_	9	_	_	start_char=225|end_char=233
+11	say	say	VERB	VB	VerbForm=Inf	10	_	_	start_char=234|end_char=237
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	11	_	_	start_char=238|end_char=242|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=242|end_char=243|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = Welp, libs don't have to worry about Roe V. Wade.
+# sent_id = 87459
+1	Welp	welp	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	libs	lib	NOUN	NNS	Number=Plur	2	_	_	start_char=6|end_char=10
+4-5	don't	_	_	_	_	_	_	_	start_char=11|end_char=16
+4	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	n't	not	PART	RB	_	4	_	_	start_char=13|end_char=16
+6	have	have	VERB	VB	VerbForm=Inf	5	_	_	start_char=17|end_char=21
+7	to	to	PART	TO	_	6	_	_	start_char=22|end_char=24
+8	worry	worry	VERB	VB	VerbForm=Inf	7	_	_	start_char=25|end_char=30
+9	about	about	ADP	IN	_	8	_	_	start_char=31|end_char=36
+10	Roe	Roe	PROPN	NNP	Number=Sing	9	_	_	start_char=37|end_char=40
+11	V.	V.	PROPN	NNP	Number=Sing	10	_	_	start_char=41|end_char=43
+12	Wade	Wade	PROPN	NNP	Number=Sing	11	_	_	start_char=44|end_char=48|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=48|end_char=49
+
+# text = Susan Collins said today she will not vote for a SCOTUS nominee who wants to overturn it.
+# sent_id = 87460
+1	Susan	Susan	PROPN	NNP	Number=Sing	0	_	_	start_char=50|end_char=55
+2	Collins	Collins	PROPN	NNP	Number=Sing	1	_	_	start_char=56|end_char=63
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=64|end_char=68
+4	today	today	NOUN	NN	Number=Sing	3	_	_	start_char=69|end_char=74
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=75|end_char=78
+6	will	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=79|end_char=83
+7	not	not	PART	RB	_	6	_	_	start_char=84|end_char=87
+8	vote	vote	VERB	VB	VerbForm=Inf	7	_	_	start_char=88|end_char=92
+9	for	for	ADP	IN	_	8	_	_	start_char=93|end_char=96
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=97|end_char=98
+11	SCOTUS	SCOTUS	PROPN	NNP	Number=Sing	10	_	_	start_char=99|end_char=105
+12	nominee	nominee	NOUN	NN	Number=Sing	11	_	_	start_char=106|end_char=113
+13	who	who	PRON	WP	PronType=Rel	12	_	_	start_char=114|end_char=117
+14	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=118|end_char=123
+15	to	to	PART	TO	_	14	_	_	start_char=124|end_char=126
+16	overturn	overturn	VERB	VB	VerbForm=Inf	15	_	_	start_char=127|end_char=135
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=136|end_char=138|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=138|end_char=139
+
+# text = [URL]
+# sent_id = 87461
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=140|end_char=141|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=141|end_char=144|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=144|end_char=145|SpaceAfter=No
+

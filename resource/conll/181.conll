@@ -1,0 +1,24 @@
+# text = "Kass Money" is an obvious pseudonym.
+# sent_id = 389
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Kass	Kass	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=5
+3	Money	money	PROPN	NNP	Number=Sing	2	_	_	start_char=6|end_char=11|SpaceAfter=No
+4	"	"	PUNCT	''	_	3	_	_	start_char=11|end_char=12
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=13|end_char=15
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=16|end_char=18
+7	obvious	obvious	ADJ	JJ	Degree=Pos	6	_	_	start_char=19|end_char=26
+8	pseudonym	pseudonym	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=36|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=36|end_char=37
+
+# text = Unless her parents are themselves, professional trolls.
+# sent_id = 390
+1	Unless	unless	SCONJ	IN	_	0	_	_	start_char=38|end_char=44
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=45|end_char=48
+3	parents	parent	NOUN	NNS	Number=Plur	2	_	_	start_char=49|end_char=56
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=57|end_char=60
+5	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	4	_	_	start_char=61|end_char=71|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=71|end_char=72
+7	professional	professional	ADJ	JJ	Degree=Pos	6	_	_	start_char=73|end_char=85
+8	trolls	troll	NOUN	NNS	Number=Plur	7	_	_	start_char=86|end_char=92|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=92|end_char=93|SpaceAfter=No
+

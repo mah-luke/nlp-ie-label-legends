@@ -1,0 +1,49 @@
+# text = Or you could just laugh if the joke is good.
+# sent_id = 93453
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=7|end_char=12
+4	just	just	ADV	RB	_	3	_	_	start_char=13|end_char=17
+5	laugh	laugh	VERB	VB	VerbForm=Inf	4	_	_	start_char=18|end_char=23
+6	if	if	SCONJ	IN	_	5	_	_	start_char=24|end_char=26
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=27|end_char=30
+8	joke	joke	NOUN	NN	Number=Sing	7	_	_	start_char=31|end_char=35
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=36|end_char=38
+10	good	good	ADJ	JJ	Degree=Pos	9	_	_	start_char=39|end_char=43|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=43|end_char=44
+
+# text = Or ignore if it's bad.
+# sent_id = 93454
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=45|end_char=47
+2	ignore	ignore	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=48|end_char=54
+3	if	if	SCONJ	IN	_	2	_	_	start_char=55|end_char=57
+4-5	it's	_	_	_	_	_	_	_	start_char=58|end_char=62
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=58|end_char=60
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=60|end_char=62
+6	bad	bad	ADJ	JJ	Degree=Pos	5	_	_	start_char=63|end_char=66|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=66|end_char=67
+
+# text = Anyway disagreeing with the deprecating joke and telling her how great she's, seems super simpish to me.
+# sent_id = 93455
+1	Anyway	anyway	INTJ	UH	_	0	_	_	start_char=68|end_char=74
+2	disagreeing	disagree	VERB	VBG	VerbForm=Ger	1	_	_	start_char=75|end_char=86
+3	with	with	ADP	IN	_	2	_	_	start_char=87|end_char=91
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=92|end_char=95
+5	deprecating	deprecating	VERB	VBG	VerbForm=Ger	4	_	_	start_char=96|end_char=107
+6	joke	joke	NOUN	NN	Number=Sing	5	_	_	start_char=108|end_char=112
+7	and	and	CCONJ	CC	_	6	_	_	start_char=113|end_char=116
+8	telling	tell	VERB	VBG	VerbForm=Ger	7	_	_	start_char=117|end_char=124
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=125|end_char=128
+10	how	how	ADV	WRB	PronType=Int	9	_	_	start_char=129|end_char=132
+11	great	great	ADJ	JJ	Degree=Pos	10	_	_	start_char=133|end_char=138
+12-13	she's	_	_	_	_	_	_	_	start_char=139|end_char=144|SpaceAfter=No
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=139|end_char=142
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=142|end_char=144
+14	,	,	PUNCT	,	_	13	_	_	start_char=144|end_char=145
+15	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=146|end_char=151
+16	super	super	ADV	RB	_	15	_	_	start_char=152|end_char=157
+17	simpish	simpish	ADJ	JJ	Degree=Pos	16	_	_	start_char=158|end_char=165
+18	to	to	ADP	IN	_	17	_	_	start_char=166|end_char=168
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	_	_	start_char=169|end_char=171|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=171|end_char=172|SpaceAfter=No
+

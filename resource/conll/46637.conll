@@ -1,0 +1,29 @@
+# text = "I ain't saying she's a vote digger.
+# sent_id = 99643
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
+3-4	ain't	_	_	_	_	_	_	_	start_char=3|end_char=8
+3	ai	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=3|end_char=5
+4	n't	not	PART	RB	_	3	_	_	start_char=5|end_char=8
+5	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=9|end_char=15
+6-7	she's	_	_	_	_	_	_	_	start_char=16|end_char=21
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=16|end_char=19
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=19|end_char=21
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=22|end_char=23
+9	vote	vote	NOUN	NN	Number=Sing	8	_	_	start_char=24|end_char=28
+10	digger	digger	NOUN	NN	Number=Sing	9	_	_	start_char=29|end_char=35|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=35|end_char=36
+
+# text = But now she playing with a woke nigga..."
+# sent_id = 99644
+1	But	but	CCONJ	CC	_	0	_	_	start_char=37|end_char=40
+2	now	now	ADV	RB	_	1	_	_	start_char=41|end_char=44
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=45|end_char=48
+4	playing	play	VERB	VBG	VerbForm=Ger	3	_	_	start_char=49|end_char=56
+5	with	with	ADP	IN	_	4	_	_	start_char=57|end_char=61
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=62|end_char=63
+7	woke	wake	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=64|end_char=68
+8	nigga	nigga	NOUN	NN	Number=Sing	7	_	_	start_char=69|end_char=74|SpaceAfter=No
+9	...	...	PUNCT	.	_	8	_	_	start_char=74|end_char=77|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=77|end_char=78|SpaceAfter=No
+

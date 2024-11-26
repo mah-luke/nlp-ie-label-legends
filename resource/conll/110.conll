@@ -1,0 +1,69 @@
+# text = this!!!
+# sent_id = 238
+1	this	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	!!!	!!!	PUNCT	.	_	1	_	_	start_char=4|end_char=7
+
+# text = once dated a near NAWALT.
+# sent_id = 239
+1	once	once	ADV	RB	NumType=Mult	0	_	_	start_char=8|end_char=12
+2	dated	date	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=13|end_char=18
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=19|end_char=20
+4	near	near	ADJ	JJ	Degree=Pos	3	_	_	start_char=21|end_char=25
+5	NAWALT	Nawalt	PROPN	NNP	Number=Sing	4	_	_	start_char=26|end_char=32|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=32|end_char=33
+
+# text = nope.. it was a lie.
+# sent_id = 240
+1	nope	nope	INTJ	UH	_	0	_	_	start_char=34|end_char=38|SpaceAfter=No
+2	..	..	PUNCT	,	_	1	_	_	start_char=38|end_char=40
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=41|end_char=43
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=44|end_char=47
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=48|end_char=49
+6	lie	lie	NOUN	NN	Number=Sing	5	_	_	start_char=50|end_char=53|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=53|end_char=54
+
+# text = she had good control of her mood...but still.
+# sent_id = 241
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=55|end_char=58
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=59|end_char=62
+3	good	good	ADJ	JJ	Degree=Pos	2	_	_	start_char=63|end_char=67
+4	control	control	NOUN	NN	Number=Sing	3	_	_	start_char=68|end_char=75
+5	of	of	ADP	IN	_	4	_	_	start_char=76|end_char=78
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=79|end_char=82
+7	mood	mood	NOUN	NN	Number=Sing	6	_	_	start_char=83|end_char=87|SpaceAfter=No
+8	...	...	PUNCT	,	_	7	_	_	start_char=87|end_char=90|SpaceAfter=No
+9	but	but	CCONJ	CC	_	8	_	_	start_char=90|end_char=93
+10	still	still	ADV	RB	_	9	_	_	start_char=94|end_char=99|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=99|end_char=100
+
+# text = Awalt the psycho always shows up.
+# sent_id = 242
+1	Awalt	awalt	VERB	VB	VerbForm=Fin	0	_	_	start_char=101|end_char=106
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=107|end_char=110
+3	psycho	psycho	NOUN	NN	Number=Sing	2	_	_	start_char=111|end_char=117
+4	always	always	ADV	RB	_	3	_	_	start_char=118|end_char=124
+5	shows	show	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=125|end_char=130
+6	up	up	ADP	RP	_	5	_	_	start_char=131|end_char=133|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=133|end_char=134
+
+# text = could be today.
+# sent_id = 243
+1	could	could	AUX	MD	VerbForm=Fin	0	_	_	start_char=135|end_char=140
+2	be	be	AUX	VB	VerbForm=Inf	1	_	_	start_char=141|end_char=143
+3	today	today	NOUN	NN	Number=Sing	2	_	_	start_char=144|end_char=149|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=149|end_char=150
+
+# text = could be next week.
+# sent_id = 244
+1	could	could	AUX	MD	VerbForm=Fin	0	_	_	start_char=151|end_char=156
+2	be	be	AUX	VB	VerbForm=Inf	1	_	_	start_char=157|end_char=159
+3	next	next	ADJ	JJ	Degree=Pos	2	_	_	start_char=160|end_char=164
+4	week	week	NOUN	NN	Number=Sing	3	_	_	start_char=165|end_char=169|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=169|end_char=170
+
+# text = you never know
+# sent_id = 245
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=171|end_char=174
+2	never	never	ADV	RB	_	1	_	_	start_char=175|end_char=180
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=181|end_char=185|SpaceAfter=No
+

@@ -1,0 +1,25 @@
+# text = Here is the lawsuit against Bell Media.
+# sent_id = 50424
+1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=8|end_char=11
+4	lawsuit	lawsuit	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=19
+5	against	against	ADP	IN	_	4	_	_	start_char=20|end_char=27
+6	Bell	Bell	PROPN	NNP	Number=Sing	5	_	_	start_char=28|end_char=32
+7	Media	Media	PROPN	NNP	Number=Sing	6	_	_	start_char=33|end_char=38|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=38|end_char=39
+
+# text = This explains her case.
+# sent_id = 50425
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=40|end_char=44
+2	explains	explain	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=45|end_char=53
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=54|end_char=57
+4	case	case	NOUN	NN	Number=Sing	3	_	_	start_char=58|end_char=62|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=62|end_char=63
+
+# text = [URL]
+# sent_id = 50426
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=64|end_char=65|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=65|end_char=68|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=68|end_char=69|SpaceAfter=No
+

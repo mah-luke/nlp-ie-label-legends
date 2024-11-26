@@ -1,0 +1,62 @@
+# text = Oh dear Lord.
+# sent_id = 123994
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	dear	dear	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=7
+3	Lord	lord	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=12|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=12|end_char=13
+
+# text = When men pretend to be women.
+# sent_id = 123995
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=14|end_char=18
+2	men	man	NOUN	NNS	Number=Plur	1	_	_	start_char=19|end_char=22
+3	pretend	pretend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=23|end_char=30
+4	to	to	PART	TO	_	3	_	_	start_char=31|end_char=33
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=34|end_char=36
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=37|end_char=42|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=42|end_char=43
+
+# text = Why do people play make believe with these people?
+# sent_id = 123996
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=44|end_char=47
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=48|end_char=50
+3	people	person	NOUN	NNS	Number=Plur	2	_	_	start_char=51|end_char=57
+4	play	play	VERB	VB	VerbForm=Inf	3	_	_	start_char=58|end_char=62
+5	make	make	VERB	VB	VerbForm=Inf	4	_	_	start_char=63|end_char=67
+6	believe	believe	VERB	VB	VerbForm=Inf	5	_	_	start_char=68|end_char=75
+7	with	with	ADP	IN	_	6	_	_	start_char=76|end_char=80
+8	these	this	DET	DT	Number=Plur|PronType=Dem	7	_	_	start_char=81|end_char=86
+9	people	person	NOUN	NNS	Number=Plur	8	_	_	start_char=87|end_char=93|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=93|end_char=94
+
+# text = Dude, you look like a lumberjack with a bad wig, you aren't fooling anyone Steve.
+# sent_id = 123997
+1	Dude	dude	INTJ	UH	_	0	_	_	start_char=95|end_char=99|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=99|end_char=100
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=101|end_char=104
+4	look	look	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=105|end_char=109
+5	like	like	ADP	IN	_	4	_	_	start_char=110|end_char=114
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=115|end_char=116
+7	lumberjack	lumberjack	NOUN	NN	Number=Sing	6	_	_	start_char=117|end_char=127
+8	with	with	ADP	IN	_	7	_	_	start_char=128|end_char=132
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=133|end_char=134
+10	bad	bad	ADJ	JJ	Degree=Pos	9	_	_	start_char=135|end_char=138
+11	wig	wig	NOUN	NN	Number=Sing	10	_	_	start_char=139|end_char=142|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=142|end_char=143
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=144|end_char=147
+14-15	aren't	_	_	_	_	_	_	_	start_char=148|end_char=154
+14	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	_	_	start_char=148|end_char=151
+15	n't	not	PART	RB	_	14	_	_	start_char=151|end_char=154
+16	fooling	fool	VERB	VBG	Tense=Pres|VerbForm=Part	15	_	_	start_char=155|end_char=162
+17	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	16	_	_	start_char=163|end_char=169
+18	Steve	Steve	PROPN	NNP	Number=Sing	17	_	_	start_char=170|end_char=175|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=175|end_char=176
+
+# text = Join a comedic theater group.
+# sent_id = 123998
+1	Join	join	VERB	VB	Mood=Imp|VerbForm=Inf	0	_	_	start_char=177|end_char=181
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=182|end_char=183
+3	comedic	comedic	ADJ	JJ	Degree=Pos	2	_	_	start_char=184|end_char=191
+4	theater	theater	NOUN	NN	Number=Sing	3	_	_	start_char=192|end_char=199
+5	group	group	NOUN	NN	Number=Sing	4	_	_	start_char=200|end_char=205|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=205|end_char=206|SpaceAfter=No
+

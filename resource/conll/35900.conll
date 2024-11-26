@@ -1,0 +1,20 @@
+# text = [USER] hey sis!
+# sent_id = 76843
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	hey	hey	INTJ	UH	_	3	_	_	start_char=7|end_char=10
+5	sis	sis	NOUN	NN	Number=Sing	4	_	_	start_char=11|end_char=14|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=14|end_char=15
+
+# text = Lol he better not block me 😂😂😂
+# sent_id = 76844
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=16|end_char=19
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=20|end_char=22
+3	better	well	ADV	RBR	Degree=Cmp	2	_	_	start_char=23|end_char=29
+4	not	not	PART	RB	_	3	_	_	start_char=30|end_char=33
+5	block	block	VERB	VB	VerbForm=Inf	4	_	_	start_char=34|end_char=39
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=40|end_char=42
+7	😂😂	😂😂	INTJ	UH	_	6	_	_	start_char=43|end_char=45|SpaceAfter=No
+8	😂	😂	PUNCT	.	_	7	_	_	start_char=45|end_char=46|SpaceAfter=No
+

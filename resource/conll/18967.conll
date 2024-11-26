@@ -1,0 +1,69 @@
+# text = Still don't understand.
+# sent_id = 40684
+1	Still	still	ADV	RB	_	0	_	_	start_char=0|end_char=5
+2-3	don't	_	_	_	_	_	_	_	start_char=6|end_char=11
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=8
+3	n't	not	PART	RB	_	2	_	_	start_char=8|end_char=11
+4	understand	understand	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=12|end_char=22|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=22|end_char=23
+
+# text = What does someone willing to commit have to do with their level of promiscuity?
+# sent_id = 40685
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=24|end_char=28
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=29|end_char=33
+3	someone	someone	PRON	NN	Number=Sing|PronType=Ind	2	_	_	start_char=34|end_char=41
+4	willing	willing	ADJ	JJ	Degree=Pos	3	_	_	start_char=42|end_char=49
+5	to	to	PART	TO	_	4	_	_	start_char=50|end_char=52
+6	commit	commit	VERB	VB	VerbForm=Inf	5	_	_	start_char=53|end_char=59
+7	have	have	VERB	VB	VerbForm=Inf	6	_	_	start_char=60|end_char=64
+8	to	to	PART	TO	_	7	_	_	start_char=65|end_char=67
+9	do	do	VERB	VB	VerbForm=Inf	8	_	_	start_char=68|end_char=70
+10	with	with	ADP	IN	_	9	_	_	start_char=71|end_char=75
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=76|end_char=81
+12	level	level	NOUN	NN	Number=Sing	11	_	_	start_char=82|end_char=87
+13	of	of	ADP	IN	_	12	_	_	start_char=88|end_char=90
+14	promiscuity	promiscuity	NOUN	NN	Number=Sing	13	_	_	start_char=91|end_char=102|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=102|end_char=103
+
+# text = A guy could be willing to commit to me and I wouldn't know if he's a virgin.
+# sent_id = 40686
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=104|end_char=105
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=106|end_char=109
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=110|end_char=115
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=116|end_char=118
+5	willing	willing	ADJ	JJ	Degree=Pos	4	_	_	start_char=119|end_char=126
+6	to	to	PART	TO	_	5	_	_	start_char=127|end_char=129
+7	commit	commit	VERB	VB	VerbForm=Inf	6	_	_	start_char=130|end_char=136
+8	to	to	ADP	IN	_	7	_	_	start_char=137|end_char=139
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=140|end_char=142
+10	and	and	CCONJ	CC	_	9	_	_	start_char=143|end_char=146
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=147|end_char=148
+12-13	wouldn't	_	_	_	_	_	_	_	start_char=149|end_char=157
+12	would	would	AUX	MD	VerbForm=Fin	11	_	_	start_char=149|end_char=154
+13	n't	not	PART	RB	_	12	_	_	start_char=154|end_char=157
+14	know	know	VERB	VB	VerbForm=Inf	13	_	_	start_char=158|end_char=162
+15	if	if	SCONJ	IN	_	14	_	_	start_char=163|end_char=165
+16-17	he's	_	_	_	_	_	_	_	start_char=166|end_char=170
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=166|end_char=168
+17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=168|end_char=170
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=171|end_char=172
+19	virgin	virgin	NOUN	NN	Number=Sing	18	_	_	start_char=173|end_char=179|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=179|end_char=180
+
+# text = If he has a million ONSs or if he had 13 previous girlfriends.
+# sent_id = 40687
+1	If	if	SCONJ	IN	_	0	_	_	start_char=181|end_char=183
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=184|end_char=186
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=187|end_char=190
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=191|end_char=192
+5	million	million	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=193|end_char=200
+6	ONSs	onss	NOUN	NNS	Number=Plur	5	_	_	start_char=201|end_char=205
+7	or	or	CCONJ	CC	_	6	_	_	start_char=206|end_char=208
+8	if	if	SCONJ	IN	_	7	_	_	start_char=209|end_char=211
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=212|end_char=214
+10	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=215|end_char=218
+11	13	13	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=219|end_char=221
+12	previous	previous	ADJ	JJ	Degree=Pos	11	_	_	start_char=222|end_char=230
+13	girlfriends	girlfriend	NOUN	NNS	Number=Plur	12	_	_	start_char=231|end_char=242|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=242|end_char=243|SpaceAfter=No
+

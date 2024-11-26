@@ -1,0 +1,24 @@
+# text = Pure class.
+# sent_id = 77743
+1	Pure	pure	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	class	class	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=10|end_char=11
+
+# text = It's also nice that she didn't have to eat spit.
+# sent_id = 77744
+1-2	It's	_	_	_	_	_	_	_	start_char=12|end_char=16
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=12|end_char=14
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=14|end_char=16
+3	also	also	ADV	RB	_	2	_	_	start_char=17|end_char=21
+4	nice	nice	ADJ	JJ	Degree=Pos	3	_	_	start_char=22|end_char=26
+5	that	that	SCONJ	IN	_	4	_	_	start_char=27|end_char=31
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=32|end_char=35
+7-8	didn't	_	_	_	_	_	_	_	start_char=36|end_char=42
+7	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=36|end_char=39
+8	n't	not	PART	RB	_	7	_	_	start_char=39|end_char=42
+9	have	have	VERB	VB	VerbForm=Inf	8	_	_	start_char=43|end_char=47
+10	to	to	PART	TO	_	9	_	_	start_char=48|end_char=50
+11	eat	eat	VERB	VB	VerbForm=Inf	10	_	_	start_char=51|end_char=54
+12	spit	spit	NOUN	NN	Number=Sing	11	_	_	start_char=55|end_char=59|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=59|end_char=60|SpaceAfter=No
+

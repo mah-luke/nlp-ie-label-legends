@@ -1,0 +1,60 @@
+# text = I went through a similar situation.
+# sent_id = 105672
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	through	through	ADP	IN	_	2	_	_	start_char=7|end_char=14
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=15|end_char=16
+5	similar	similar	ADJ	JJ	Degree=Pos	4	_	_	start_char=17|end_char=24
+6	situation	situation	NOUN	NN	Number=Sing	5	_	_	start_char=25|end_char=34|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=34|end_char=35
+
+# text = When my parents were in the process of divorcing, my dad once told me that he didn't know if I was even his son when he was ranting about my mom.
+# sent_id = 105673
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=36|end_char=40
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=41|end_char=43
+3	parents	parent	NOUN	NNS	Number=Plur	2	_	_	start_char=44|end_char=51
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=52|end_char=56
+5	in	in	ADP	IN	_	4	_	_	start_char=57|end_char=59
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=60|end_char=63
+7	process	process	NOUN	NN	Number=Sing	6	_	_	start_char=64|end_char=71
+8	of	of	SCONJ	IN	_	7	_	_	start_char=72|end_char=74
+9	divorcing	divorce	VERB	VBG	VerbForm=Ger	8	_	_	start_char=75|end_char=84|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=84|end_char=85
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=86|end_char=88
+12	dad	dad	NOUN	NN	Number=Sing	11	_	_	start_char=89|end_char=92
+13	once	once	ADV	RB	NumType=Mult	12	_	_	start_char=93|end_char=97
+14	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=98|end_char=102
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=103|end_char=105
+16	that	that	SCONJ	IN	_	15	_	_	start_char=106|end_char=110
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=111|end_char=113
+18-19	didn't	_	_	_	_	_	_	_	start_char=114|end_char=120
+18	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=114|end_char=117
+19	n't	not	PART	RB	_	18	_	_	start_char=117|end_char=120
+20	know	know	VERB	VB	VerbForm=Inf	19	_	_	start_char=121|end_char=125
+21	if	if	SCONJ	IN	_	20	_	_	start_char=126|end_char=128
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	_	_	start_char=129|end_char=130
+23	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	_	_	start_char=131|end_char=134
+24	even	even	ADV	RB	_	23	_	_	start_char=135|end_char=139
+25	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	_	_	start_char=140|end_char=143
+26	son	son	NOUN	NN	Number=Sing	25	_	_	start_char=144|end_char=147
+27	when	when	ADV	WRB	PronType=Int	26	_	_	start_char=148|end_char=152
+28	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	_	_	start_char=153|end_char=155
+29	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	28	_	_	start_char=156|end_char=159
+30	ranting	rant	VERB	VBG	Tense=Pres|VerbForm=Part	29	_	_	start_char=160|end_char=167
+31	about	about	ADP	IN	_	30	_	_	start_char=168|end_char=173
+32	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	31	_	_	start_char=174|end_char=176
+33	mom	mom	NOUN	NN	Number=Sing	32	_	_	start_char=177|end_char=180|SpaceAfter=No
+34	.	.	PUNCT	.	_	33	_	_	start_char=180|end_char=181
+
+# text = That always stuck with me after the divorce.
+# sent_id = 105674
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=182|end_char=186
+2	always	always	ADV	RB	_	1	_	_	start_char=187|end_char=193
+3	stuck	stick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=194|end_char=199
+4	with	with	ADP	IN	_	3	_	_	start_char=200|end_char=204
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=205|end_char=207
+6	after	after	ADP	IN	_	5	_	_	start_char=208|end_char=213
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=214|end_char=217
+8	divorce	divorce	NOUN	NN	Number=Sing	7	_	_	start_char=218|end_char=225|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=225|end_char=226|SpaceAfter=No
+

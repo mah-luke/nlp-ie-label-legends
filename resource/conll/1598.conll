@@ -1,0 +1,23 @@
+# text = A kilt allows a sporran.
+# sent_id = 3343
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
+2	kilt	kilt	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=6
+3	allows	allow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=13
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=14|end_char=15
+5	sporran	sporran	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=23|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=23|end_char=24
+
+# text = I don't see many skirts with usable pockets.
+# sent_id = 3344
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=25|end_char=26
+2-3	don't	_	_	_	_	_	_	_	start_char=27|end_char=32
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
+3	n't	not	PART	RB	_	2	_	_	start_char=29|end_char=32
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	start_char=33|end_char=36
+5	many	many	ADJ	JJ	Degree=Pos	4	_	_	start_char=37|end_char=41
+6	skirts	skirt	NOUN	NNS	Number=Plur	5	_	_	start_char=42|end_char=48
+7	with	with	ADP	IN	_	6	_	_	start_char=49|end_char=53
+8	usable	usable	ADJ	JJ	Degree=Pos	7	_	_	start_char=54|end_char=60
+9	pockets	pocket	NOUN	NNS	Number=Plur	8	_	_	start_char=61|end_char=68|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=68|end_char=69|SpaceAfter=No
+

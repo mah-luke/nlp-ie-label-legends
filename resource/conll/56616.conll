@@ -1,0 +1,57 @@
+# text = No I disagree.
+# sent_id = 121023
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=3|end_char=4
+3	disagree	disagree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=5|end_char=13|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=13|end_char=14
+
+# text = "When are you free" doesn't show enough confidence and leadership.
+# sent_id = 121024
+1	"	"	PUNCT	``	_	0	_	_	start_char=15|end_char=16|SpaceAfter=No
+2	When	when	ADV	WRB	PronType=Int	1	_	_	start_char=16|end_char=20
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=21|end_char=24
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=25|end_char=28
+5	free	free	ADJ	JJ	Degree=Pos	4	_	_	start_char=29|end_char=33|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=33|end_char=34
+7-8	doesn't	_	_	_	_	_	_	_	start_char=35|end_char=42
+7	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=35|end_char=39
+8	n't	not	PART	RB	_	7	_	_	start_char=39|end_char=42
+9	show	show	VERB	VB	VerbForm=Inf	8	_	_	start_char=43|end_char=47
+10	enough	enough	ADJ	JJ	Degree=Pos	9	_	_	start_char=48|end_char=54
+11	confidence	confidence	NOUN	NN	Number=Sing	10	_	_	start_char=55|end_char=65
+12	and	and	CCONJ	CC	_	11	_	_	start_char=66|end_char=69
+13	leadership	leadership	NOUN	NN	Number=Sing	12	_	_	start_char=70|end_char=80|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=80|end_char=81
+
+# text = It's so weird but a woman will usually not answer to "when are you free" but will answer to a certain time and place.
+# sent_id = 121025
+1-2	It's	_	_	_	_	_	_	_	start_char=82|end_char=86
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=82|end_char=84
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=84|end_char=86
+3	so	so	ADV	RB	_	2	_	_	start_char=87|end_char=89
+4	weird	weird	ADJ	JJ	Degree=Pos	3	_	_	start_char=90|end_char=95
+5	but	but	CCONJ	CC	_	4	_	_	start_char=96|end_char=99
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=100|end_char=101
+7	woman	woman	NOUN	NN	Number=Sing	6	_	_	start_char=102|end_char=107
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=108|end_char=112
+9	usually	usually	ADV	RB	_	8	_	_	start_char=113|end_char=120
+10	not	not	PART	RB	_	9	_	_	start_char=121|end_char=124
+11	answer	answer	VERB	VB	VerbForm=Inf	10	_	_	start_char=125|end_char=131
+12	to	to	ADP	IN	_	11	_	_	start_char=132|end_char=134
+13	"	"	PUNCT	``	_	12	_	_	start_char=135|end_char=136|SpaceAfter=No
+14	when	when	ADV	WRB	PronType=Int	13	_	_	start_char=136|end_char=140
+15	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	_	_	start_char=141|end_char=144
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	_	_	start_char=145|end_char=148
+17	free	free	ADJ	JJ	Degree=Pos	16	_	_	start_char=149|end_char=153|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=153|end_char=154
+19	but	but	CCONJ	CC	_	18	_	_	start_char=155|end_char=158
+20	will	will	AUX	MD	VerbForm=Fin	19	_	_	start_char=159|end_char=163
+21	answer	answer	VERB	VB	VerbForm=Inf	20	_	_	start_char=164|end_char=170
+22	to	to	ADP	IN	_	21	_	_	start_char=171|end_char=173
+23	a	a	DET	DT	Definite=Ind|PronType=Art	22	_	_	start_char=174|end_char=175
+24	certain	certain	ADJ	JJ	Degree=Pos	23	_	_	start_char=176|end_char=183
+25	time	time	NOUN	NN	Number=Sing	24	_	_	start_char=184|end_char=188
+26	and	and	CCONJ	CC	_	25	_	_	start_char=189|end_char=192
+27	place	place	NOUN	NN	Number=Sing	26	_	_	start_char=193|end_char=198|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=198|end_char=199|SpaceAfter=No
+

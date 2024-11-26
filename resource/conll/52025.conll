@@ -1,0 +1,43 @@
+# text = Mate, I'm self quarantining myself away from women, thanks for the warning.
+# sent_id = 111223
+1	Mate	mate	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3-4	I'm	_	_	_	_	_	_	_	start_char=6|end_char=9
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=7|end_char=9
+5	self	self	NOUN	NN	Number=Sing	4	_	_	start_char=10|end_char=14
+6	quarantining	quarantine	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=15|end_char=27
+7	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	6	_	_	start_char=28|end_char=34
+8	away	away	ADV	RB	_	7	_	_	start_char=35|end_char=39
+9	from	from	ADP	IN	_	8	_	_	start_char=40|end_char=44
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=45|end_char=50|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=50|end_char=51
+12	thanks	thanks	NOUN	NN	Number=Plur	11	_	_	start_char=52|end_char=58
+13	for	for	ADP	IN	_	12	_	_	start_char=59|end_char=62
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=63|end_char=66
+15	warning	warning	NOUN	NN	Number=Sing	14	_	_	start_char=67|end_char=74|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=74|end_char=75
+
+# text = These chick's are so good looking I'm afraid I might be putty in their hands.
+# sent_id = 111224
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=76|end_char=81
+2-3	chick's	_	_	_	_	_	_	_	start_char=82|end_char=89
+2	chick	chick	NOUN	NN	Number=Sing	1	_	_	start_char=82|end_char=87
+3	's	's	PART	POS	_	2	_	_	start_char=87|end_char=89
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=90|end_char=93
+5	so	so	ADV	RB	_	4	_	_	start_char=94|end_char=96
+6	good	good	ADJ	JJ	Degree=Pos	5	_	_	start_char=97|end_char=101
+7	looking	look	VERB	VBG	VerbForm=Ger	6	_	_	start_char=102|end_char=109
+8-9	I'm	_	_	_	_	_	_	_	start_char=110|end_char=113
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=110|end_char=111
+9	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=111|end_char=113
+10	afraid	afraid	ADJ	JJ	Degree=Pos	9	_	_	start_char=114|end_char=120
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=121|end_char=122
+12	might	might	AUX	MD	VerbForm=Fin	11	_	_	start_char=123|end_char=128
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=129|end_char=131
+14	putty	putty	ADJ	JJ	Degree=Pos	13	_	_	start_char=132|end_char=137
+15	in	in	ADP	IN	_	14	_	_	start_char=138|end_char=140
+16	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=141|end_char=146
+17	hands	hand	NOUN	NNS	Number=Plur	16	_	_	start_char=147|end_char=152|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=152|end_char=153|SpaceAfter=No
+

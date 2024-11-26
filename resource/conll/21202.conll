@@ -1,0 +1,27 @@
+# text = Whatever you do do not join the USAF, it's totally cucked now.
+# sent_id = 45542
+1	Whatever	whatever	PRON	WP	PronType=Rel	0	_	_	start_char=0|end_char=8
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=9|end_char=12
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=15
+4	do	do	AUX	VB	VerbForm=Inf	3	_	_	start_char=16|end_char=18
+5	not	not	PART	RB	_	4	_	_	start_char=19|end_char=22
+6	join	join	VERB	VB	VerbForm=Inf	5	_	_	start_char=23|end_char=27
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=28|end_char=31
+8	USAF	USAF	PROPN	NNP	Number=Sing	7	_	_	start_char=32|end_char=36|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=36|end_char=37
+10-11	it's	_	_	_	_	_	_	_	start_char=38|end_char=42
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=38|end_char=40
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=40|end_char=42
+12	totally	totally	ADV	RB	_	11	_	_	start_char=43|end_char=50
+13	cucked	cuck	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=51|end_char=57
+14	now	now	ADV	RB	_	13	_	_	start_char=58|end_char=61|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=61|end_char=62
+
+# text = USN not much better.
+# sent_id = 45543
+1	USN	USN	PROPN	NNP	Number=Sing	0	_	_	start_char=63|end_char=66
+2	not	not	PART	RB	_	1	_	_	start_char=67|end_char=70
+3	much	much	ADV	RB	_	2	_	_	start_char=71|end_char=75
+4	better	good	ADJ	JJR	Degree=Cmp	3	_	_	start_char=76|end_char=82|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=82|end_char=83|SpaceAfter=No
+

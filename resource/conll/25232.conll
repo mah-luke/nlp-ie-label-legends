@@ -1,0 +1,60 @@
+# text = Unfortunately, she falls into that nonsense afterwards of "having pity for him"...
+# sent_id = 54111
+1	Unfortunately	unfortunately	ADV	RB	_	0	_	_	start_char=0|end_char=13|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=13|end_char=14
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=15|end_char=18
+4	falls	fall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=19|end_char=24
+5	into	into	ADP	IN	_	4	_	_	start_char=25|end_char=29
+6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=30|end_char=34
+7	nonsense	nonsense	NOUN	NN	Number=Sing	6	_	_	start_char=35|end_char=43
+8	afterwards	afterwards	ADV	RB	_	7	_	_	start_char=44|end_char=54
+9	of	of	SCONJ	IN	_	8	_	_	start_char=55|end_char=57
+10	"	"	PUNCT	``	_	9	_	_	start_char=58|end_char=59|SpaceAfter=No
+11	having	have	VERB	VBG	VerbForm=Ger	10	_	_	start_char=59|end_char=65
+12	pity	pity	NOUN	NN	Number=Sing	11	_	_	start_char=66|end_char=70
+13	for	for	ADP	IN	_	12	_	_	start_char=71|end_char=74
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=75|end_char=78|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=78|end_char=79|SpaceAfter=No
+16	...	...	PUNCT	.	_	15	_	_	start_char=79|end_char=82
+
+# text = ME?
+# sent_id = 54112
+1	ME	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=83|end_char=85|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=85|end_char=86
+
+# text = - I'd happily hang this POS in a vacant warehouse, douse him in lighter fluid, and break out the Zippo...and i'd sleep just fine afterwards
+# sent_id = 54113
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=87|end_char=88
+2-3	I'd	_	_	_	_	_	_	_	start_char=89|end_char=92
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=89|end_char=90
+3	'd	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=90|end_char=92
+4	happily	happily	ADV	RB	_	3	_	_	start_char=93|end_char=100
+5	hang	hang	VERB	VB	VerbForm=Inf	4	_	_	start_char=101|end_char=105
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=106|end_char=110
+7	POS	pos	NOUN	NN	Number=Sing	6	_	_	start_char=111|end_char=114
+8	in	in	ADP	IN	_	7	_	_	start_char=115|end_char=117
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=118|end_char=119
+10	vacant	vacant	ADJ	JJ	Degree=Pos	9	_	_	start_char=120|end_char=126
+11	warehouse	warehouse	NOUN	NN	Number=Sing	10	_	_	start_char=127|end_char=136|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=136|end_char=137
+13	douse	douse	VERB	VB	VerbForm=Inf	12	_	_	start_char=138|end_char=143
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=144|end_char=147
+15	in	in	ADP	IN	_	14	_	_	start_char=148|end_char=150
+16	lighter	light	ADJ	JJR	Degree=Cmp	15	_	_	start_char=151|end_char=158
+17	fluid	fluid	NOUN	NN	Number=Sing	16	_	_	start_char=159|end_char=164|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=164|end_char=165
+19	and	and	CCONJ	CC	_	18	_	_	start_char=166|end_char=169
+20	break	break	VERB	VB	VerbForm=Inf	19	_	_	start_char=170|end_char=175
+21	out	out	ADP	RP	_	20	_	_	start_char=176|end_char=179
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=180|end_char=183
+23	Zippo	Zippo	PROPN	NNP	Number=Sing	22	_	_	start_char=184|end_char=189|SpaceAfter=No
+24	...	...	PUNCT	,	_	23	_	_	start_char=189|end_char=192|SpaceAfter=No
+25	and	and	CCONJ	CC	_	24	_	_	start_char=192|end_char=195
+26-27	i'd	_	_	_	_	_	_	_	start_char=196|end_char=199
+26	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	_	_	start_char=196|end_char=197
+27	'd	would	AUX	MD	VerbForm=Fin	26	_	_	start_char=197|end_char=199
+28	sleep	sleep	VERB	VB	VerbForm=Inf	27	_	_	start_char=200|end_char=205
+29	just	just	ADV	RB	_	28	_	_	start_char=206|end_char=210
+30	fine	fine	ADV	RB	_	29	_	_	start_char=211|end_char=215
+31	afterwards	afterwards	ADV	RB	_	30	_	_	start_char=216|end_char=226|SpaceAfter=No
+

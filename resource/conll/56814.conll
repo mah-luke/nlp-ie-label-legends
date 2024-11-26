@@ -1,0 +1,53 @@
+# text = There’s other women out there mate.
+# sent_id = 121437
+1-2	There’s	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	There	there	PRON	EX	_	0	_	_	start_char=0|end_char=5
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	other	other	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=13
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=14|end_char=19
+5	out	out	ADV	RB	_	4	_	_	start_char=20|end_char=23
+6	there	there	ADV	RB	PronType=Dem	5	_	_	start_char=24|end_char=29
+7	mate	mate	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=34|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=34|end_char=35
+
+# text = It’s never worth it to keep investing in someone who rejects your advances.
+# sent_id = 121438
+1-2	It’s	_	_	_	_	_	_	_	start_char=36|end_char=40
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=36|end_char=38
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=38|end_char=40
+3	never	never	ADV	RB	_	2	_	_	start_char=41|end_char=46
+4	worth	worth	ADJ	JJ	Degree=Pos	3	_	_	start_char=47|end_char=52
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=53|end_char=55
+6	to	to	PART	TO	_	5	_	_	start_char=56|end_char=58
+7	keep	keep	VERB	VB	VerbForm=Inf	6	_	_	start_char=59|end_char=63
+8	investing	invest	VERB	VBG	VerbForm=Ger	7	_	_	start_char=64|end_char=73
+9	in	in	ADP	IN	_	8	_	_	start_char=74|end_char=76
+10	someone	someone	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=77|end_char=84
+11	who	who	PRON	WP	PronType=Rel	10	_	_	start_char=85|end_char=88
+12	rejects	reject	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=89|end_char=96
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=97|end_char=101
+14	advances	advance	NOUN	NNS	Number=Plur	13	_	_	start_char=102|end_char=110|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=110|end_char=111
+
+# text = In my experience if a woman changes their mind about you.
+# sent_id = 121439
+1	In	in	ADP	IN	_	0	_	_	start_char=112|end_char=114
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=115|end_char=117
+3	experience	experience	NOUN	NN	Number=Sing	2	_	_	start_char=118|end_char=128
+4	if	if	SCONJ	IN	_	3	_	_	start_char=129|end_char=131
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=132|end_char=133
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=134|end_char=139
+7	changes	change	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=140|end_char=147
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=148|end_char=153
+9	mind	mind	NOUN	NN	Number=Sing	8	_	_	start_char=154|end_char=158
+10	about	about	ADP	IN	_	9	_	_	start_char=159|end_char=164
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=165|end_char=168|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=168|end_char=169
+
+# text = They tell you.
+# sent_id = 121440
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=170|end_char=174
+2	tell	tell	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=175|end_char=179
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=180|end_char=183|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=183|end_char=184|SpaceAfter=No
+

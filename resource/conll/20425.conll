@@ -1,0 +1,53 @@
+# text = There's nothing wrong with having a few girlfriends that you all like :\^)
+# sent_id = 43818
+1-2	There's	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	There	there	PRON	EX	_	0	_	_	start_char=0|end_char=5
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	2	_	_	start_char=8|end_char=15
+4	wrong	wrong	ADJ	JJ	Degree=Pos	3	_	_	start_char=16|end_char=21
+5	with	with	SCONJ	IN	_	4	_	_	start_char=22|end_char=26
+6	having	have	VERB	VBG	VerbForm=Ger	5	_	_	start_char=27|end_char=33
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=34|end_char=35
+8	few	few	ADJ	JJ	Degree=Pos	7	_	_	start_char=36|end_char=39
+9	girlfriends	girlfriend	NOUN	NNS	Number=Plur	8	_	_	start_char=40|end_char=51
+10	that	that	PRON	WDT	PronType=Rel	9	_	_	start_char=52|end_char=56
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=57|end_char=60
+12	all	all	DET	DT	_	11	_	_	start_char=61|end_char=64
+13	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=65|end_char=69
+14	:\^	:\^	SYM	NFP	_	13	_	_	start_char=70|end_char=73|SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	_	_	start_char=73|end_char=74
+
+# text = As the other guy said, don't get that mindset it's bad.
+# sent_id = 43819
+1	As	as	SCONJ	IN	_	0	_	_	start_char=75|end_char=77
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=78|end_char=81
+3	other	other	ADJ	JJ	Degree=Pos	2	_	_	start_char=82|end_char=87
+4	guy	guy	NOUN	NN	Number=Sing	3	_	_	start_char=88|end_char=91
+5	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=92|end_char=96|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=96|end_char=97
+7-8	don't	_	_	_	_	_	_	_	start_char=98|end_char=103
+7	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=98|end_char=100
+8	n't	not	PART	RB	_	7	_	_	start_char=100|end_char=103
+9	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=104|end_char=107
+10	that	that	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=108|end_char=112
+11	mindset	mindset	NOUN	NN	Number=Sing	10	_	_	start_char=113|end_char=120
+12-13	it's	_	_	_	_	_	_	_	start_char=121|end_char=125
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=121|end_char=123
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=123|end_char=125
+14	bad	bad	ADJ	JJ	Degree=Pos	13	_	_	start_char=126|end_char=129|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=129|end_char=130
+
+# text = Getting more girls will have you be less emotionnaly dependant.
+# sent_id = 43820
+1	Getting	get	VERB	VBG	VerbForm=Ger	0	_	_	start_char=131|end_char=138
+2	more	more	ADJ	JJR	Degree=Cmp	1	_	_	start_char=139|end_char=143
+3	girls	girl	NOUN	NNS	Number=Plur	2	_	_	start_char=144|end_char=149
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=150|end_char=154
+5	have	have	VERB	VB	VerbForm=Inf	4	_	_	start_char=155|end_char=159
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=160|end_char=163
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=164|end_char=166
+8	less	less	ADV	RBR	Degree=Cmp	7	_	_	start_char=167|end_char=171
+9	emotionnaly	emotionnaly	ADV	RB	_	8	_	_	start_char=172|end_char=183
+10	dependant	dependant	ADJ	JJ	Degree=Pos	9	_	_	start_char=184|end_char=193|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=193|end_char=194|SpaceAfter=No
+

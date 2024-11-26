@@ -1,0 +1,53 @@
+# text = Any man who doesn't sign a prenuptial is a idiot.
+# sent_id = 127827
+1	Any	any	DET	DT	_	0	_	_	start_char=0|end_char=3
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=7
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=8|end_char=11
+4-5	doesn't	_	_	_	_	_	_	_	start_char=12|end_char=19
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=12|end_char=16
+5	n't	not	PART	RB	_	4	_	_	start_char=16|end_char=19
+6	sign	sign	VERB	VB	VerbForm=Inf	5	_	_	start_char=20|end_char=24
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=25|end_char=26
+8	prenuptial	prenuptial	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=37
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=38|end_char=40
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=41|end_char=42
+11	idiot	idiot	NOUN	NN	Number=Sing	10	_	_	start_char=43|end_char=48|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=48|end_char=49
+
+# text = Idc how hot she is, or how nice she is too you, or how long it's been.
+# sent_id = 127828
+1-2	Idc	_	_	_	_	_	_	_	start_char=50|end_char=53
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=50|end_char=51
+2	dc	dc	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=53
+3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=54|end_char=57
+4	hot	hot	ADJ	JJ	Degree=Pos	3	_	_	start_char=58|end_char=61
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=62|end_char=65
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=66|end_char=68|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=68|end_char=69
+8	or	or	CCONJ	CC	_	7	_	_	start_char=70|end_char=72
+9	how	how	ADV	WRB	PronType=Int	8	_	_	start_char=73|end_char=76
+10	nice	nice	ADJ	JJ	Degree=Pos	9	_	_	start_char=77|end_char=81
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=82|end_char=85
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=86|end_char=88
+13	too	too	ADV	RB	_	12	_	_	start_char=89|end_char=92
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	_	_	start_char=93|end_char=96|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=96|end_char=97
+16	or	or	CCONJ	CC	_	15	_	_	start_char=98|end_char=100
+17	how	how	ADV	WRB	PronType=Int	16	_	_	start_char=101|end_char=104
+18	long	long	ADV	RB	Degree=Pos	17	_	_	start_char=105|end_char=109
+19-20	it's	_	_	_	_	_	_	_	start_char=110|end_char=114
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=110|end_char=112
+20	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=112|end_char=114
+21	been	be	AUX	VBN	Tense=Past|VerbForm=Part	20	_	_	start_char=115|end_char=119|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=119|end_char=120
+
+# text = Don't be fucking stupid.
+# sent_id = 127829
+1-2	Don't	_	_	_	_	_	_	_	start_char=121|end_char=126
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=121|end_char=123
+2	n't	not	PART	RB	_	1	_	_	start_char=123|end_char=126
+3	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=127|end_char=129
+4	fucking	fucking	ADV	RB	_	3	_	_	start_char=130|end_char=137
+5	stupid	stupid	ADJ	JJ	Degree=Pos	4	_	_	start_char=138|end_char=144|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=144|end_char=145|SpaceAfter=No
+

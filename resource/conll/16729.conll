@@ -1,0 +1,48 @@
+# text = So sad.
+# sent_id = 35950
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	sad	sad	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=6|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=6|end_char=7
+
+# text = A beautiful woman killed the night before her wedding.
+# sent_id = 35951
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=8|end_char=9
+2	beautiful	beautiful	ADJ	JJ	Degree=Pos	1	_	_	start_char=10|end_char=19
+3	woman	woman	NOUN	NN	Number=Sing	2	_	_	start_char=20|end_char=25
+4	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=26|end_char=32
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=33|end_char=36
+6	night	night	NOUN	NN	Number=Sing	5	_	_	start_char=37|end_char=42
+7	before	before	ADP	IN	_	6	_	_	start_char=43|end_char=49
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=50|end_char=53
+9	wedding	wedding	NOUN	NN	Number=Sing	8	_	_	start_char=54|end_char=61|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=61|end_char=62
+
+# text = Senseless.
+# sent_id = 35952
+1	Senseless	senseless	ADJ	JJ	Degree=Pos	0	_	_	start_char=63|end_char=72|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=72|end_char=73
+
+# text = If he was being sued, shouldn't he have been placed on leave while waiting on the courts??
+# sent_id = 35953
+1	If	if	SCONJ	IN	_	0	_	_	start_char=74|end_char=76
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=77|end_char=79
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=80|end_char=83
+4	being	be	AUX	VBG	VerbForm=Ger	3	_	_	start_char=84|end_char=89
+5	sued	sue	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=90|end_char=94|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=94|end_char=95
+7-8	shouldn't	_	_	_	_	_	_	_	start_char=96|end_char=105
+7	should	should	AUX	MD	VerbForm=Fin	6	_	_	start_char=96|end_char=102
+8	n't	not	PART	RB	_	7	_	_	start_char=102|end_char=105
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=106|end_char=108
+10	have	have	AUX	VB	VerbForm=Inf	9	_	_	start_char=109|end_char=113
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=114|end_char=118
+12	placed	place	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=119|end_char=125
+13	on	on	ADP	IN	_	12	_	_	start_char=126|end_char=128
+14	leave	leave	NOUN	NN	Number=Sing	13	_	_	start_char=129|end_char=134
+15	while	while	SCONJ	IN	_	14	_	_	start_char=135|end_char=140
+16	waiting	wait	VERB	VBG	VerbForm=Ger	15	_	_	start_char=141|end_char=148
+17	on	on	ADP	IN	_	16	_	_	start_char=149|end_char=151
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=152|end_char=155
+19	courts	court	NOUN	NNS	Number=Plur	18	_	_	start_char=156|end_char=162|SpaceAfter=No
+20	??	??	PUNCT	.	_	19	_	_	start_char=162|end_char=164|SpaceAfter=No
+

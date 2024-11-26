@@ -1,0 +1,43 @@
+# text = I just read your name.
+# sent_id = 111196
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	just	just	ADV	RB	_	1	_	_	start_char=2|end_char=6
+3	read	read	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=11
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=12|end_char=16
+5	name	name	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=21|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=21|end_char=22
+
+# text = A fellow chess enthousiast.
+# sent_id = 111197
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=23|end_char=24
+2	fellow	fellow	ADJ	JJ	Degree=Pos	1	_	_	start_char=25|end_char=31
+3	chess	chess	NOUN	NN	Number=Sing	2	_	_	start_char=32|end_char=37
+4	enthousiast	enthousiast	NOUN	NN	Number=Sing	3	_	_	start_char=38|end_char=49|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=49|end_char=50
+
+# text = Cool.
+# sent_id = 111198
+1	Cool	cool	ADJ	JJ	Degree=Pos	0	_	_	start_char=51|end_char=55|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=55|end_char=56
+
+# text = I don't meet a lot of guys in chess who arr good with women though :p
+# sent_id = 111199
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=57|end_char=58
+2-3	don't	_	_	_	_	_	_	_	start_char=59|end_char=64
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=61
+3	n't	not	PART	RB	_	2	_	_	start_char=61|end_char=64
+4	meet	meet	VERB	VB	VerbForm=Inf	3	_	_	start_char=65|end_char=69
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=70|end_char=71
+6	lot	lot	NOUN	NN	Number=Sing	5	_	_	start_char=72|end_char=75
+7	of	of	ADP	IN	_	6	_	_	start_char=76|end_char=78
+8	guys	guy	NOUN	NNS	Number=Plur	7	_	_	start_char=79|end_char=83
+9	in	in	ADP	IN	_	8	_	_	start_char=84|end_char=86
+10	chess	chess	NOUN	NN	Number=Sing	9	_	_	start_char=87|end_char=92
+11	who	who	PRON	WP	PronType=Rel	10	_	_	start_char=93|end_char=96
+12	arr	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=97|end_char=100
+13	good	good	ADJ	JJ	Degree=Pos	12	_	_	start_char=101|end_char=105
+14	with	with	ADP	IN	_	13	_	_	start_char=106|end_char=110
+15	women	woman	NOUN	NNS	Number=Plur	14	_	_	start_char=111|end_char=116
+16	though	though	ADV	RB	_	15	_	_	start_char=117|end_char=123
+17	:p	:p	SYM	NFP	_	16	_	_	start_char=124|end_char=126|SpaceAfter=No
+

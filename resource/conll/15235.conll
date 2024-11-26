@@ -1,0 +1,35 @@
+# text = I would guess most WWII veterans probably see nazis as just enemy combatants.
+# sent_id = 32531
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=2|end_char=7
+3	guess	guess	VERB	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=13
+4	most	most	ADJ	JJS	Degree=Sup	3	_	_	start_char=14|end_char=18
+5	WWII	WWII	PROPN	NNP	Number=Sing	4	_	_	start_char=19|end_char=23
+6	veterans	veteran	PROPN	NNPS	Number=Plur	5	_	_	start_char=24|end_char=32
+7	probably	probably	ADV	RB	_	6	_	_	start_char=33|end_char=41
+8	see	see	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=42|end_char=45
+9	nazis	nazis	NOUN	NNS	Number=Plur	8	_	_	start_char=46|end_char=51
+10	as	as	ADP	IN	_	9	_	_	start_char=52|end_char=54
+11	just	just	ADV	RB	_	10	_	_	start_char=55|end_char=59
+12	enemy	enemy	NOUN	NN	Number=Sing	11	_	_	start_char=60|end_char=65
+13	combatants	combatant	NOUN	NNS	Number=Plur	12	_	_	start_char=66|end_char=76|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=76|end_char=77
+
+# text = They didn't fight mythical inhuman monsters, they fought an opposing military.
+# sent_id = 32532
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=78|end_char=82
+2-3	didn't	_	_	_	_	_	_	_	start_char=83|end_char=89
+2	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=83|end_char=86
+3	n't	not	PART	RB	_	2	_	_	start_char=86|end_char=89
+4	fight	fight	VERB	VB	VerbForm=Inf	3	_	_	start_char=90|end_char=95
+5	mythical	mythical	ADJ	JJ	Degree=Pos	4	_	_	start_char=96|end_char=104
+6	inhuman	inhuman	ADJ	JJ	Degree=Pos	5	_	_	start_char=105|end_char=112
+7	monsters	monster	NOUN	NNS	Number=Plur	6	_	_	start_char=113|end_char=121|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=121|end_char=122
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=123|end_char=127
+10	fought	fight	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=128|end_char=134
+11	an	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=135|end_char=137
+12	opposing	oppose	VERB	VBG	VerbForm=Ger	11	_	_	start_char=138|end_char=146
+13	military	military	NOUN	NN	Number=Sing	12	_	_	start_char=147|end_char=155|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=155|end_char=156|SpaceAfter=No
+

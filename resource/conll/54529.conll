@@ -1,0 +1,65 @@
+# text = Pinterest does this too.
+# sent_id = 116528
+1	Pinterest	Pinterest	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=9
+2	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=14
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=15|end_char=19
+4	too	too	ADV	RB	_	3	_	_	start_char=20|end_char=23|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=23|end_char=24
+
+# text = Search "hot girls" and they will soft signal you that it's not a proper search term.
+# sent_id = 116529
+1	Search	search	VERB	VB	VerbForm=Inf	0	_	_	start_char=25|end_char=31
+2	"	"	PUNCT	``	_	1	_	_	start_char=32|end_char=33|SpaceAfter=No
+3	hot	hot	ADJ	JJ	Degree=Pos	2	_	_	start_char=33|end_char=36
+4	girls	girl	NOUN	NNS	Number=Plur	3	_	_	start_char=37|end_char=42|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=42|end_char=43
+6	and	and	CCONJ	CC	_	5	_	_	start_char=44|end_char=47
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=48|end_char=52
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=53|end_char=57
+9	soft	soft	ADV	RB	_	8	_	_	start_char=58|end_char=62
+10	signal	signal	VERB	VB	VerbForm=Inf	9	_	_	start_char=63|end_char=69
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=70|end_char=73
+12	that	that	SCONJ	IN	_	11	_	_	start_char=74|end_char=78
+13-14	it's	_	_	_	_	_	_	_	start_char=79|end_char=83
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=79|end_char=81
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=81|end_char=83
+15	not	not	PART	RB	_	14	_	_	start_char=84|end_char=87
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=88|end_char=89
+17	proper	proper	ADJ	JJ	Degree=Pos	16	_	_	start_char=90|end_char=96
+18	search	search	NOUN	NN	Number=Sing	17	_	_	start_char=97|end_char=103
+19	term	term	NOUN	NN	Number=Sing	18	_	_	start_char=104|end_char=108|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=108|end_char=109
+
+# text = Search "sexy girls" and you will get no results.
+# sent_id = 116530
+1	Search	search	VERB	VB	VerbForm=Inf	0	_	_	start_char=110|end_char=116
+2	"	"	PUNCT	``	_	1	_	_	start_char=117|end_char=118|SpaceAfter=No
+3	sexy	sexy	ADJ	JJ	Degree=Pos	2	_	_	start_char=118|end_char=122
+4	girls	girl	NOUN	NNS	Number=Plur	3	_	_	start_char=123|end_char=128|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=128|end_char=129
+6	and	and	CCONJ	CC	_	5	_	_	start_char=130|end_char=133
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=134|end_char=137
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=138|end_char=142
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=143|end_char=146
+10	no	no	DET	DT	_	9	_	_	start_char=147|end_char=149
+11	results	result	NOUN	NNS	Number=Plur	10	_	_	start_char=150|end_char=157|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=157|end_char=158
+
+# text = The world is becoming so dictatorial.
+# sent_id = 116531
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=159|end_char=162
+2	world	world	NOUN	NN	Number=Sing	1	_	_	start_char=163|end_char=168
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=169|end_char=171
+4	becoming	become	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=172|end_char=180
+5	so	so	ADV	RB	_	4	_	_	start_char=181|end_char=183
+6	dictatorial	dictatorial	ADJ	JJ	Degree=Pos	5	_	_	start_char=184|end_char=195|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=195|end_char=196
+
+# text = It's sad!
+# sent_id = 116532
+1-2	It's	_	_	_	_	_	_	_	start_char=197|end_char=201
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=197|end_char=199
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=199|end_char=201
+3	sad	sad	ADJ	JJ	Degree=Pos	2	_	_	start_char=202|end_char=205|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=205|end_char=206|SpaceAfter=No
+

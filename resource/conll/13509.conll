@@ -1,0 +1,33 @@
+# text = This shit is depressing.. my problem was actually nose problems.
+# sent_id = 28749
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4	depressing	depressing	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=23|SpaceAfter=No
+5	..	..	PUNCT	,	_	4	_	_	start_char=23|end_char=25
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=26|end_char=28
+7	problem	problem	NOUN	NN	Number=Sing	6	_	_	start_char=29|end_char=36
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=37|end_char=40
+9	actually	actually	ADV	RB	_	8	_	_	start_char=41|end_char=49
+10	nose	nose	NOUN	NN	Number=Sing	9	_	_	start_char=50|end_char=54
+11	problems	problem	NOUN	NNS	Number=Plur	10	_	_	start_char=55|end_char=63|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=63|end_char=64
+
+# text = I just couldn't breath from it.
+# sent_id = 28750
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=65|end_char=66
+2	just	just	ADV	RB	_	1	_	_	start_char=67|end_char=71
+3-4	couldn't	_	_	_	_	_	_	_	start_char=72|end_char=80
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=72|end_char=77
+4	n't	not	PART	RB	_	3	_	_	start_char=77|end_char=80
+5	breath	breathe	VERB	VB	VerbForm=Inf	4	_	_	start_char=81|end_char=87
+6	from	from	ADP	IN	_	5	_	_	start_char=88|end_char=92
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=93|end_char=95|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=95|end_char=96
+
+# text = Did 3 surgeries
+# sent_id = 28751
+1	Did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=97|end_char=100
+2	3	3	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=101|end_char=102
+3	surgeries	surgery	NOUN	NNS	Number=Plur	2	_	_	start_char=103|end_char=112|SpaceAfter=No
+

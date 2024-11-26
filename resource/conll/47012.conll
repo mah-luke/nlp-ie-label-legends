@@ -1,0 +1,42 @@
+# text = I like that nigga.
+# sent_id = 100510
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	that	that	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=7|end_char=11
+4	nigga	nigga	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = He lit asf "Hell naw muthafucka fuck you!
+# sent_id = 100511
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=19|end_char=21
+2	lit	light	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=22|end_char=25
+3	asf	as	ADP	IN	_	2	_	_	start_char=26|end_char=29
+4	"	"	PUNCT	``	_	3	_	_	start_char=30|end_char=31|SpaceAfter=No
+5	Hell	Hell	PROPN	NNP	Number=Sing	4	_	_	start_char=31|end_char=35
+6	naw	naw	INTJ	UH	_	5	_	_	start_char=36|end_char=39
+7	muthafucka	muthafucka	X	FW	_	6	_	_	start_char=40|end_char=50
+8	fuck	fuck	VERB	VB	VerbForm=Inf	7	_	_	start_char=51|end_char=55
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=56|end_char=59|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=59|end_char=60
+
+# text = It ain't hard.
+# sent_id = 100512
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=61|end_char=63
+2-3	ain't	_	_	_	_	_	_	_	start_char=64|end_char=69
+2	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=64|end_char=66
+3	n't	not	PART	RB	_	2	_	_	start_char=66|end_char=69
+4	hard	hard	ADJ	JJ	Degree=Pos	3	_	_	start_char=70|end_char=74|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=74|end_char=75
+
+# text = 911... Shit!!!!"
+# sent_id = 100513
+1	911	911	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=76|end_char=79|SpaceAfter=No
+2	...	...	PUNCT	,	_	1	_	_	start_char=79|end_char=82
+3	Shit	shit	INTJ	UH	_	2	_	_	start_char=83|end_char=87|SpaceAfter=No
+4	!!!!	!!!!	PUNCT	.	_	3	_	_	start_char=87|end_char=91|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=91|end_char=92
+
+# text = Lmao
+# sent_id = 100514
+1	Lmao	Lmao	INTJ	UH	_	0	_	_	start_char=93|end_char=97|SpaceAfter=No
+

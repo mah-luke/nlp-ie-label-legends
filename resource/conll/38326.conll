@@ -1,0 +1,31 @@
+# text = No.
+# sent_id = 81977
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=2|end_char=3
+
+# text = If she doesn't contact you again before the month is done, I'd say you guys are done.
+# sent_id = 81978
+1	If	if	SCONJ	IN	_	0	_	_	start_char=4|end_char=6
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=7|end_char=10
+3-4	doesn't	_	_	_	_	_	_	_	start_char=11|end_char=18
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=15
+4	n't	not	PART	RB	_	3	_	_	start_char=15|end_char=18
+5	contact	contact	VERB	VB	VerbForm=Inf	4	_	_	start_char=19|end_char=26
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=27|end_char=30
+7	again	again	ADV	RB	_	6	_	_	start_char=31|end_char=36
+8	before	before	SCONJ	IN	_	7	_	_	start_char=37|end_char=43
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=44|end_char=47
+10	month	month	NOUN	NN	Number=Sing	9	_	_	start_char=48|end_char=53
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=54|end_char=56
+12	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=57|end_char=61|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=61|end_char=62
+14-15	I'd	_	_	_	_	_	_	_	start_char=63|end_char=66
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=63|end_char=64
+15	'd	would	AUX	MD	VerbForm=Fin	14	_	_	start_char=64|end_char=66
+16	say	say	VERB	VB	VerbForm=Inf	15	_	_	start_char=67|end_char=70
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	_	_	start_char=71|end_char=74
+18	guys	guy	NOUN	NNS	Number=Plur	17	_	_	start_char=75|end_char=79
+19	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=80|end_char=83
+20	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	_	_	start_char=84|end_char=88|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=88|end_char=89|SpaceAfter=No
+

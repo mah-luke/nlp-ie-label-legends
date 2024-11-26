@@ -1,0 +1,30 @@
+# text = When you say the "jenner" women, do you mean *all* the jenner women?
+# sent_id = 120324
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=4
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=5|end_char=8
+3	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=12
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=13|end_char=16
+5	"	"	PUNCT	``	_	4	_	_	start_char=17|end_char=18|SpaceAfter=No
+6	jenner	jenner	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=24|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=24|end_char=25
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=26|end_char=31|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=31|end_char=32
+10	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=33|end_char=35
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=36|end_char=39
+12	mean	mean	VERB	VB	VerbForm=Inf	11	_	_	start_char=40|end_char=44
+13	*	*	PUNCT	NFP	_	12	_	_	start_char=45|end_char=46|SpaceAfter=No
+14	all	all	DET	DT	_	13	_	_	start_char=46|end_char=49|SpaceAfter=No
+15	*	*	PUNCT	NFP	_	14	_	_	start_char=49|end_char=50
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=51|end_char=54
+17	jenner	jenner	NOUN	NN	Number=Sing	16	_	_	start_char=55|end_char=61
+18	women	woman	NOUN	NNS	Number=Plur	17	_	_	start_char=62|end_char=67|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=67|end_char=68
+
+# text = Xim's included?
+# sent_id = 120325
+1-2	Xim's	_	_	_	_	_	_	_	start_char=69|end_char=74
+1	Xim	Xim	PROPN	NNP	Number=Sing	0	_	_	start_char=69|end_char=72
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=72|end_char=74
+3	included	include	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=75|end_char=83|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=83|end_char=84|SpaceAfter=No
+

@@ -1,0 +1,50 @@
+# text = Seriously, you haven't heard about this yet?
+# sent_id = 71241
+1	Seriously	seriously	ADV	RB	_	0	_	_	start_char=0|end_char=9|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=9|end_char=10
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=11|end_char=14
+4-5	haven't	_	_	_	_	_	_	_	start_char=15|end_char=22
+4	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=19
+5	n't	not	PART	RB	_	4	_	_	start_char=19|end_char=22
+6	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=23|end_char=28
+7	about	about	ADP	IN	_	6	_	_	start_char=29|end_char=34
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=35|end_char=39
+9	yet	yet	ADV	RB	_	8	_	_	start_char=40|end_char=43|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=43|end_char=44
+
+# text = She also admitted that she kept having sex with him AFTER she claimed he raped her because she felt it would "help" her career.
+# sent_id = 71242
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=45|end_char=48
+2	also	also	ADV	RB	_	1	_	_	start_char=49|end_char=53
+3	admitted	admit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=54|end_char=62
+4	that	that	SCONJ	IN	_	3	_	_	start_char=63|end_char=67
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=68|end_char=71
+6	kept	keep	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=72|end_char=76
+7	having	have	VERB	VBG	VerbForm=Ger	6	_	_	start_char=77|end_char=83
+8	sex	sex	NOUN	NN	Number=Sing	7	_	_	start_char=84|end_char=87
+9	with	with	ADP	IN	_	8	_	_	start_char=88|end_char=92
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=93|end_char=96
+11	AFTER	after	SCONJ	IN	_	10	_	_	start_char=97|end_char=102
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=103|end_char=106
+13	claimed	claim	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=107|end_char=114
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=115|end_char=117
+15	raped	rape	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=118|end_char=123
+16	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=124|end_char=127
+17	because	because	SCONJ	IN	_	16	_	_	start_char=128|end_char=135
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=136|end_char=139
+19	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	_	_	start_char=140|end_char=144
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=145|end_char=147
+21	would	would	AUX	MD	VerbForm=Fin	20	_	_	start_char=148|end_char=153
+22	"	"	PUNCT	``	_	21	_	_	start_char=154|end_char=155|SpaceAfter=No
+23	help	help	VERB	VB	VerbForm=Inf	22	_	_	start_char=155|end_char=159|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	_	_	start_char=159|end_char=160
+25	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	_	_	start_char=161|end_char=164
+26	career	career	NOUN	NN	Number=Sing	25	_	_	start_char=165|end_char=171|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=171|end_char=172
+
+# text = [URL]
+# sent_id = 71243
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=173|end_char=174|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=174|end_char=177|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=177|end_char=178|SpaceAfter=No
+

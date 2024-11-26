@@ -1,0 +1,32 @@
+# text = [USER]
+# sent_id = 93714
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = How about the alt left people shooting our men and women in blue?
+# sent_id = 93715
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=7|end_char=10
+2	about	about	ADP	IN	_	1	_	_	start_char=11|end_char=16
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=17|end_char=20
+4	alt	alt	NOUN	NN	Number=Sing	3	_	_	start_char=21|end_char=24
+5	left	leave	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=25|end_char=29
+6	people	person	NOUN	NNS	Number=Plur	5	_	_	start_char=30|end_char=36
+7	shooting	shoot	VERB	VBG	VerbForm=Ger	6	_	_	start_char=37|end_char=45
+8	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	_	_	start_char=46|end_char=49
+9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=50|end_char=53
+10	and	and	CCONJ	CC	_	9	_	_	start_char=54|end_char=57
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=58|end_char=63
+12	in	in	ADP	IN	_	11	_	_	start_char=64|end_char=66
+13	blue	blue	ADJ	JJ	Degree=Pos	12	_	_	start_char=67|end_char=71|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=71|end_char=72
+
+# text = The altleft is the problem.
+# sent_id = 93716
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=73|end_char=76
+2	altleft	altleft	NOUN	NN	Number=Sing	1	_	_	start_char=77|end_char=84
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=85|end_char=87
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=88|end_char=91
+5	problem	problem	NOUN	NN	Number=Sing	4	_	_	start_char=92|end_char=99|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=99|end_char=100|SpaceAfter=No
+

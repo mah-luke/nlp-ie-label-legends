@@ -1,0 +1,37 @@
+# text = It's pretty common.
+# sent_id = 3633
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	pretty	pretty	ADV	RB	_	2	_	_	start_char=5|end_char=11
+4	common	common	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = Maybe people would say "Asian guys have higher standards for Asian women, whereas white guys have lower standards for Asian women"...
+# sent_id = 3634
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=20|end_char=25
+2	people	person	NOUN	NNS	Number=Plur	1	_	_	start_char=26|end_char=32
+3	would	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=33|end_char=38
+4	say	say	VERB	VB	VerbForm=Inf	3	_	_	start_char=39|end_char=42
+5	"	"	PUNCT	``	_	4	_	_	start_char=43|end_char=44|SpaceAfter=No
+6	Asian	Asian	ADJ	JJ	Degree=Pos	5	_	_	start_char=44|end_char=49
+7	guys	guy	NOUN	NNS	Number=Plur	6	_	_	start_char=50|end_char=54
+8	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=55|end_char=59
+9	higher	high	ADJ	JJR	Degree=Cmp	8	_	_	start_char=60|end_char=66
+10	standards	standard	NOUN	NNS	Number=Plur	9	_	_	start_char=67|end_char=76
+11	for	for	ADP	IN	_	10	_	_	start_char=77|end_char=80
+12	Asian	Asian	ADJ	JJ	Degree=Pos	11	_	_	start_char=81|end_char=86
+13	women	woman	NOUN	NNS	Number=Plur	12	_	_	start_char=87|end_char=92|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=92|end_char=93
+15	whereas	whereas	SCONJ	IN	_	14	_	_	start_char=94|end_char=101
+16	white	white	ADJ	JJ	Degree=Pos	15	_	_	start_char=102|end_char=107
+17	guys	guy	NOUN	NNS	Number=Plur	16	_	_	start_char=108|end_char=112
+18	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=113|end_char=117
+19	lower	low	ADJ	JJR	Degree=Cmp	18	_	_	start_char=118|end_char=123
+20	standards	standard	NOUN	NNS	Number=Plur	19	_	_	start_char=124|end_char=133
+21	for	for	ADP	IN	_	20	_	_	start_char=134|end_char=137
+22	Asian	Asian	ADJ	JJ	Degree=Pos	21	_	_	start_char=138|end_char=143
+23	women	woman	NOUN	NNS	Number=Plur	22	_	_	start_char=144|end_char=149|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	_	_	start_char=149|end_char=150|SpaceAfter=No
+25	...	...	PUNCT	.	_	24	_	_	start_char=150|end_char=153|SpaceAfter=No
+

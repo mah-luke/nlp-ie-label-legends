@@ -1,0 +1,49 @@
+# text = Very true.
+# sent_id = 56751
+1	Very	very	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	true	true	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = But, at least in a divorce you don't lose half your shit, retirement, pension, etc.
+# sent_id = 56752
+1	But	but	CCONJ	CC	_	0	_	_	start_char=11|end_char=14|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=14|end_char=15
+3	at	at	ADP	IN	ExtPos=ADV	2	_	_	start_char=16|end_char=18
+4	least	least	ADJ	JJS	Degree=Sup	3	_	_	start_char=19|end_char=24
+5	in	in	ADP	IN	_	4	_	_	start_char=25|end_char=27
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=28|end_char=29
+7	divorce	divorce	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=37
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=38|end_char=41
+9-10	don't	_	_	_	_	_	_	_	start_char=42|end_char=47
+9	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=42|end_char=44
+10	n't	not	PART	RB	_	9	_	_	start_char=44|end_char=47
+11	lose	lose	VERB	VB	VerbForm=Inf	10	_	_	start_char=48|end_char=52
+12	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	11	_	_	start_char=53|end_char=57
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=58|end_char=62
+14	shit	shit	NOUN	NN	Number=Sing	13	_	_	start_char=63|end_char=67|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=67|end_char=68
+16	retirement	retirement	NOUN	NN	Number=Sing	15	_	_	start_char=69|end_char=79|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=79|end_char=80
+18	pension	pension	NOUN	NN	Number=Sing	17	_	_	start_char=81|end_char=88|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=88|end_char=89
+20	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	19	_	_	start_char=90|end_char=93|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=93|end_char=94
+
+# text = Just on the hook for mom support instead of that plus all the aforementioned.
+# sent_id = 56753
+1	Just	just	ADV	RB	_	0	_	_	start_char=95|end_char=99
+2	on	on	ADP	IN	_	1	_	_	start_char=100|end_char=102
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=103|end_char=106
+4	hook	hook	NOUN	NN	Number=Sing	3	_	_	start_char=107|end_char=111
+5	for	for	ADP	IN	_	4	_	_	start_char=112|end_char=115
+6	mom	mom	NOUN	NN	Number=Sing	5	_	_	start_char=116|end_char=119
+7	support	support	NOUN	NN	Number=Sing	6	_	_	start_char=120|end_char=127
+8	instead	instead	ADV	RB	_	7	_	_	start_char=128|end_char=135
+9	of	of	ADP	IN	_	8	_	_	start_char=136|end_char=138
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	9	_	_	start_char=139|end_char=143
+11	plus	plus	CCONJ	CC	_	10	_	_	start_char=144|end_char=148
+12	all	all	DET	PDT	_	11	_	_	start_char=149|end_char=152
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=153|end_char=156
+14	aforementioned	aforementioned	ADJ	JJ	Degree=Pos	13	_	_	start_char=157|end_char=171|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=171|end_char=172|SpaceAfter=No
+

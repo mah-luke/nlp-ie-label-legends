@@ -1,0 +1,17 @@
+# text = Men and women are definitely NOT equal.
+# sent_id = 123030
+1	Men	man	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=3
+2	and	and	CCONJ	CC	_	1	_	_	start_char=4|end_char=7
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=8|end_char=13
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=17
+5	definitely	definitely	ADV	RB	_	4	_	_	start_char=18|end_char=28
+6	NOT	not	PART	RB	_	5	_	_	start_char=29|end_char=32
+7	equal	equal	ADJ	JJ	Degree=Pos	6	_	_	start_char=33|end_char=38|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=38|end_char=39
+
+# text = [USER]
+# sent_id = 123031
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=40|end_char=41|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=41|end_char=45|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=45|end_char=46|SpaceAfter=No
+

@@ -1,0 +1,41 @@
+# text = How about the time Hillary accused white women for making her lose an election?
+# sent_id = 82218
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	about	about	ADP	IN	_	1	_	_	start_char=4|end_char=9
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=10|end_char=13
+4	time	time	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=18
+5	Hillary	Hillary	PROPN	NNP	Number=Sing	4	_	_	start_char=19|end_char=26
+6	accused	accuse	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=27|end_char=34
+7	white	white	ADJ	JJ	Degree=Pos	6	_	_	start_char=35|end_char=40
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=41|end_char=46
+9	for	for	SCONJ	IN	_	8	_	_	start_char=47|end_char=50
+10	making	make	VERB	VBG	VerbForm=Ger	9	_	_	start_char=51|end_char=57
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=58|end_char=61
+12	lose	lose	VERB	VB	VerbForm=Inf	11	_	_	start_char=62|end_char=66
+13	an	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=67|end_char=69
+14	election	election	NOUN	NN	Number=Sing	13	_	_	start_char=70|end_char=78|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=78|end_char=79
+
+# text = How feminist of her.
+# sent_id = 82219
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=80|end_char=83
+2	feminist	feminist	NOUN	NN	Number=Sing	1	_	_	start_char=84|end_char=92
+3	of	of	ADP	IN	_	2	_	_	start_char=93|end_char=95
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=96|end_char=99|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=99|end_char=100
+
+# text = Lol, you're a fucking clown 4skin boy!
+# sent_id = 82220
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=101|end_char=104|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=104|end_char=105
+3-4	you're	_	_	_	_	_	_	_	start_char=106|end_char=112
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=106|end_char=109
+4	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=109|end_char=112
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=113|end_char=114
+6	fucking	fuck	ADJ	JJ	Degree=Pos	5	_	_	start_char=115|end_char=122
+7	clown	clown	NOUN	NN	Number=Sing	6	_	_	start_char=123|end_char=128
+8	4	4	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=129|end_char=130|SpaceAfter=No
+9	skin	skin	NOUN	NN	Number=Sing	8	_	_	start_char=130|end_char=134
+10	boy	boy	NOUN	NN	Number=Sing	9	_	_	start_char=135|end_char=138|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=138|end_char=139|SpaceAfter=No
+

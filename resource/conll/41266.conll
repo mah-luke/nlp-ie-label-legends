@@ -1,0 +1,31 @@
+# text = don't overthink it.
+# sent_id = 88302
+1-2	don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	overthink	overthink	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=15
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=16|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = girls use the word for all kinds of stuff.
+# sent_id = 88303
+1	girls	girl	NOUN	NNS	Number=Plur	0	_	_	start_char=20|end_char=25
+2	use	use	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=26|end_char=29
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=30|end_char=33
+4	word	word	NOUN	NN	Number=Sing	3	_	_	start_char=34|end_char=38
+5	for	for	ADP	IN	_	4	_	_	start_char=39|end_char=42
+6	all	all	DET	DT	_	5	_	_	start_char=43|end_char=46
+7	kinds	kind	NOUN	NNS	Number=Plur	6	_	_	start_char=47|end_char=52
+8	of	of	ADP	IN	_	7	_	_	start_char=53|end_char=55
+9	stuff	stuff	NOUN	NN	Number=Sing	8	_	_	start_char=56|end_char=61|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=61|end_char=62
+
+# text = it's a compliment.
+# sent_id = 88304
+1-2	it's	_	_	_	_	_	_	_	start_char=63|end_char=67
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=63|end_char=65
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=65|end_char=67
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=68|end_char=69
+4	compliment	compliment	NOUN	NN	Number=Sing	3	_	_	start_char=70|end_char=80|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=80|end_char=81|SpaceAfter=No
+

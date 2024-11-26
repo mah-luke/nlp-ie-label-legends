@@ -1,0 +1,41 @@
+# text = I've never seen one single photo of Angela Merkel where she looks normal.
+# sent_id = 27153
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	never	never	ADV	RB	_	2	_	_	start_char=5|end_char=10
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=11|end_char=15
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=16|end_char=19
+6	single	single	ADJ	JJ	Degree=Pos	5	_	_	start_char=20|end_char=26
+7	photo	photo	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=32
+8	of	of	ADP	IN	_	7	_	_	start_char=33|end_char=35
+9	Angela	Angela	PROPN	NNP	Number=Sing	8	_	_	start_char=36|end_char=42
+10	Merkel	Merkel	PROPN	NNP	Number=Sing	9	_	_	start_char=43|end_char=49
+11	where	where	ADV	WRB	PronType=Rel	10	_	_	start_char=50|end_char=55
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=56|end_char=59
+13	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=60|end_char=65
+14	normal	normal	ADJ	JJ	Degree=Pos	13	_	_	start_char=66|end_char=72|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=72|end_char=73
+
+# text = Those eyes are empty tunnels leading straight to hell.
+# sent_id = 27154
+1	Those	that	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=74|end_char=79
+2	eyes	eye	NOUN	NNS	Number=Plur	1	_	_	start_char=80|end_char=84
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=85|end_char=88
+4	empty	empty	ADJ	JJ	Degree=Pos	3	_	_	start_char=89|end_char=94
+5	tunnels	tunnel	NOUN	NNS	Number=Plur	4	_	_	start_char=95|end_char=102
+6	leading	lead	VERB	VBG	VerbForm=Ger	5	_	_	start_char=103|end_char=110
+7	straight	straight	ADV	RB	_	6	_	_	start_char=111|end_char=119
+8	to	to	ADP	IN	_	7	_	_	start_char=120|end_char=122
+9	hell	hell	NOUN	NN	Number=Sing	8	_	_	start_char=123|end_char=127|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=127|end_char=128
+
+# text = [USER] [URL]
+# sent_id = 27155
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=129|end_char=130|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=130|end_char=134|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=134|end_char=135
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=136|end_char=137|SpaceAfter=No
+5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=137|end_char=140|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=140|end_char=141|SpaceAfter=No
+

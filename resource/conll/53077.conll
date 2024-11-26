@@ -1,0 +1,72 @@
+# text = (Guess he never heard of "let bygones be bygones.")
+# sent_id = 113444
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Guess	guess	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=1|end_char=6
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=7|end_char=9
+4	never	never	ADV	RB	_	3	_	_	start_char=10|end_char=15
+5	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=16|end_char=21
+6	of	of	ADP	IN	_	5	_	_	start_char=22|end_char=24
+7	"	"	PUNCT	``	_	6	_	_	start_char=25|end_char=26|SpaceAfter=No
+8	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=26|end_char=29
+9	bygones	bygone	NOUN	NNS	Number=Plur	8	_	_	start_char=30|end_char=37
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=38|end_char=40
+11	bygones	bygone	NOUN	NNS	Number=Plur	10	_	_	start_char=41|end_char=48|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=48|end_char=49|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=49|end_char=50|SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	13	_	_	start_char=50|end_char=51
+
+# text = Holy shit they actually tried shaming him for that?
+# sent_id = 113445
+1	Holy	Holy	ADJ	JJ	Degree=Pos	0	_	_	start_char=52|end_char=56
+2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=57|end_char=61
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=62|end_char=66
+4	actually	actually	ADV	RB	_	3	_	_	start_char=67|end_char=75
+5	tried	try	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=76|end_char=81
+6	shaming	shame	VERB	VBG	VerbForm=Ger	5	_	_	start_char=82|end_char=89
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=90|end_char=93
+8	for	for	ADP	IN	_	7	_	_	start_char=94|end_char=97
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=98|end_char=102|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=102|end_char=103
+
+# text = Fuck that shit, an affair's an affair.
+# sent_id = 113446
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=104|end_char=108
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=109|end_char=113
+3	shit	shit	NOUN	NN	Number=Sing	2	_	_	start_char=114|end_char=118|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=118|end_char=119
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=120|end_char=122
+6-7	affair's	_	_	_	_	_	_	_	start_char=123|end_char=131
+6	affair	affair	NOUN	NN	Number=Sing	5	_	_	start_char=123|end_char=129
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=129|end_char=131
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=132|end_char=134
+9	affair	affair	NOUN	NN	Number=Sing	8	_	_	start_char=135|end_char=141|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=141|end_char=142
+
+# text = And he did let bygones be bygones.
+# sent_id = 113447
+1	And	and	CCONJ	CC	_	0	_	_	start_char=143|end_char=146
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=147|end_char=149
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=150|end_char=153
+4	let	let	VERB	VB	VerbForm=Inf	3	_	_	start_char=154|end_char=157
+5	bygones	bygone	NOUN	NNS	Number=Plur	4	_	_	start_char=158|end_char=165
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=166|end_char=168
+7	bygones	bygone	NOUN	NNS	Number=Plur	6	_	_	start_char=169|end_char=176|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=176|end_char=177
+
+# text = He said bye to his wife, and now she's gone!
+# sent_id = 113448
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=178|end_char=180
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=181|end_char=185
+3	bye	bye	NOUN	NN	Number=Sing	2	_	_	start_char=186|end_char=189
+4	to	to	ADP	IN	_	3	_	_	start_char=190|end_char=192
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=193|end_char=196
+6	wife	wife	NOUN	NN	Number=Sing	5	_	_	start_char=197|end_char=201|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=201|end_char=202
+8	and	and	CCONJ	CC	_	7	_	_	start_char=203|end_char=206
+9	now	now	ADV	RB	_	8	_	_	start_char=207|end_char=210
+10-11	she's	_	_	_	_	_	_	_	start_char=211|end_char=216
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=211|end_char=214
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=214|end_char=216
+12	gone	go	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=217|end_char=221|SpaceAfter=No
+13	!	!	PUNCT	.	_	12	_	_	start_char=221|end_char=222|SpaceAfter=No
+

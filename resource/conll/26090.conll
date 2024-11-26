@@ -1,0 +1,58 @@
+# text = Simple, don't pay her bills, have her use her last name etc...
+# sent_id = 56004
+1	Simple	simple	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=6|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=6|end_char=7
+3-4	don't	_	_	_	_	_	_	_	start_char=8|end_char=13
+3	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=8|end_char=10
+4	n't	not	PART	RB	_	3	_	_	start_char=10|end_char=13
+5	pay	pay	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=14|end_char=17
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=18|end_char=21
+7	bills	bill	NOUN	NNS	Number=Plur	6	_	_	start_char=22|end_char=27|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=27|end_char=28
+9	have	have	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=29|end_char=33
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=34|end_char=37
+11	use	use	VERB	VB	VerbForm=Inf	10	_	_	start_char=38|end_char=41
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=42|end_char=45
+13	last	last	ADJ	JJ	Degree=Pos	12	_	_	start_char=46|end_char=50
+14	name	name	NOUN	NN	Number=Sing	13	_	_	start_char=51|end_char=55
+15	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	14	_	_	start_char=56|end_char=59|SpaceAfter=No
+16	...	...	PUNCT	.	_	15	_	_	start_char=59|end_char=62
+
+# text = Basically they were cohabitation/common law marriage in all but in name.
+# sent_id = 56005
+1	Basically	basically	ADV	RB	_	0	_	_	start_char=63|end_char=72
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=73|end_char=77
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=78|end_char=82
+4	cohabitation	cohabitation	NOUN	NN	Number=Sing	3	_	_	start_char=83|end_char=95|SpaceAfter=No
+5	/	/	SYM	,	_	4	_	_	start_char=95|end_char=96|SpaceAfter=No
+6	common	common	ADJ	JJ	Degree=Pos	5	_	_	start_char=96|end_char=102
+7	law	law	NOUN	NN	Number=Sing	6	_	_	start_char=103|end_char=106
+8	marriage	marriage	NOUN	NN	Number=Sing	7	_	_	start_char=107|end_char=115
+9	in	in	ADP	IN	_	8	_	_	start_char=116|end_char=118
+10	all	all	DET	DT	_	9	_	_	start_char=119|end_char=122
+11	but	but	CCONJ	CC	_	10	_	_	start_char=123|end_char=126
+12	in	in	ADP	IN	_	11	_	_	start_char=127|end_char=129
+13	name	name	NOUN	NN	Number=Sing	12	_	_	start_char=130|end_char=134|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=134|end_char=135
+
+# text = &#x200B; Pump and dump should be fine except the you can catch a rape accusation.
+# sent_id = 56006
+1	&	&	CCONJ	CC	_	0	_	_	start_char=136|end_char=137|SpaceAfter=No
+2	#x200B	#x200b	NOUN	NN	Number=Sing	1	_	_	start_char=137|end_char=143|SpaceAfter=No
+3	;	;	PUNCT	:	_	2	_	_	start_char=143|end_char=144
+4	Pump	Pump	NOUN	NN	Number=Sing	3	_	_	start_char=145|end_char=149
+5	and	and	CCONJ	CC	_	4	_	_	start_char=150|end_char=153
+6	dump	dump	NOUN	NN	Number=Sing	5	_	_	start_char=154|end_char=158
+7	should	should	AUX	MD	VerbForm=Fin	6	_	_	start_char=159|end_char=165
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=166|end_char=168
+9	fine	fine	ADJ	JJ	Degree=Pos	8	_	_	start_char=169|end_char=173
+10	except	except	ADP	IN	_	9	_	_	start_char=174|end_char=180
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=181|end_char=184
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=185|end_char=188
+13	can	can	AUX	MD	VerbForm=Fin	12	_	_	start_char=189|end_char=192
+14	catch	catch	VERB	VB	VerbForm=Inf	13	_	_	start_char=193|end_char=198
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=199|end_char=200
+16	rape	rape	NOUN	NN	Number=Sing	15	_	_	start_char=201|end_char=205
+17	accusation	accusation	NOUN	NN	Number=Sing	16	_	_	start_char=206|end_char=216|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=216|end_char=217|SpaceAfter=No
+

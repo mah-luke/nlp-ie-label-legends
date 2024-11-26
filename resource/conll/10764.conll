@@ -1,0 +1,34 @@
+# text = [USER]
+# sent_id = 22776
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = I offer swearing & hot girls with guns gifs.
+# sent_id = 22777
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
+2	offer	offer	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=14
+3	swearing	swearing	NOUN	NN	Number=Sing	2	_	_	start_char=15|end_char=23
+4	&	&	CCONJ	CC	_	3	_	_	start_char=24|end_char=25
+5	hot	hot	ADJ	JJ	Degree=Pos	4	_	_	start_char=26|end_char=29
+6	girls	girl	NOUN	NNS	Number=Plur	5	_	_	start_char=30|end_char=35
+7	with	with	ADP	IN	_	6	_	_	start_char=36|end_char=40
+8	guns	gun	NOUN	NNS	Number=Plur	7	_	_	start_char=41|end_char=45
+9	gifs	gif	NOUN	NNS	Number=Plur	8	_	_	start_char=46|end_char=50|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=50|end_char=51
+
+# text = You're welcome.
+# sent_id = 22778
+1-2	You're	_	_	_	_	_	_	_	start_char=52|end_char=58
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=52|end_char=55
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=55|end_char=58
+3	welcome	welcome	ADJ	JJ	Degree=Pos	2	_	_	start_char=59|end_char=66|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=66|end_char=67
+
+# text = :P [URL]
+# sent_id = 22779
+1	:P	:p	SYM	NFP	_	0	_	_	start_char=68|end_char=70
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=71|end_char=72|SpaceAfter=No
+3	URL	URL	PROPN	NNP	Number=Sing	2	_	_	start_char=72|end_char=75|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=75|end_char=76|SpaceAfter=No
+

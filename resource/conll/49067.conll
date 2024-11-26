@@ -1,0 +1,67 @@
+# text = Blue pill is so...
+# sent_id = 104920
+1	Blue	Blue	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	pill	pill	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4	so	so	ADV	RB	_	3	_	_	start_char=13|end_char=15|SpaceAfter=No
+5	...	...	PUNCT	.	_	4	_	_	start_char=15|end_char=18
+
+# text = If I do what I would like for her, she will do it for me.
+# sent_id = 104921
+1	If	if	SCONJ	IN	_	0	_	_	start_char=19|end_char=21
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=22|end_char=23
+3	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=24|end_char=26
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=27|end_char=31
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=32|end_char=33
+6	would	would	AUX	MD	VerbForm=Fin	5	_	_	start_char=34|end_char=39
+7	like	like	VERB	VB	VerbForm=Inf	6	_	_	start_char=40|end_char=44
+8	for	for	ADP	IN	_	7	_	_	start_char=45|end_char=48
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=49|end_char=52|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=52|end_char=53
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=54|end_char=57
+12	will	will	AUX	MD	VerbForm=Fin	11	_	_	start_char=58|end_char=62
+13	do	do	VERB	VB	VerbForm=Inf	12	_	_	start_char=63|end_char=65
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=66|end_char=68
+15	for	for	ADP	IN	_	14	_	_	start_char=69|end_char=72
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=73|end_char=75|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=75|end_char=76
+
+# text = Sadly, you won't get what you give.
+# sent_id = 104922
+1	Sadly	sadly	ADV	RB	_	0	_	_	start_char=77|end_char=82|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=82|end_char=83
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=84|end_char=87
+4-5	won't	_	_	_	_	_	_	_	start_char=88|end_char=93
+4	wo	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=88|end_char=90
+5	n't	not	PART	RB	_	4	_	_	start_char=90|end_char=93
+6	get	get	VERB	VB	VerbForm=Inf	5	_	_	start_char=94|end_char=97
+7	what	what	PRON	WP	PronType=Rel	6	_	_	start_char=98|end_char=102
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=103|end_char=106
+9	give	give	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=107|end_char=111|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=111|end_char=112
+
+# text = Sometimes the exact opposite is what you get.
+# sent_id = 104923
+1	Sometimes	sometimes	ADV	RB	_	0	_	_	start_char=113|end_char=122
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=123|end_char=126
+3	exact	exact	ADJ	JJ	Degree=Pos	2	_	_	start_char=127|end_char=132
+4	opposite	opposite	NOUN	NN	Number=Sing	3	_	_	start_char=133|end_char=141
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=142|end_char=144
+6	what	what	PRON	WP	PronType=Rel	5	_	_	start_char=145|end_char=149
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=150|end_char=153
+8	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=154|end_char=157|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=157|end_char=158
+
+# text = Be a doormat, get treated like a doormat.
+# sent_id = 104924
+1	Be	be	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=159|end_char=161
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=162|end_char=163
+3	doormat	doormat	NOUN	NN	Number=Sing	2	_	_	start_char=164|end_char=171|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=171|end_char=172
+5	get	get	AUX	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=173|end_char=176
+6	treated	treat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=177|end_char=184
+7	like	like	ADP	IN	_	6	_	_	start_char=185|end_char=189
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=190|end_char=191
+9	doormat	doormat	NOUN	NN	Number=Sing	8	_	_	start_char=192|end_char=199|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=199|end_char=200|SpaceAfter=No
+

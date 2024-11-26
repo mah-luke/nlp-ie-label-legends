@@ -1,0 +1,61 @@
+# text = #astrology My mother is going to be in the hospital by December, I think.
+# sent_id = 49829
+1	#astrology	#astrology	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=10
+2	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=11|end_char=13
+3	mother	mother	NOUN	NN	Number=Sing	2	_	_	start_char=14|end_char=20
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=21|end_char=23
+5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=24|end_char=29
+6	to	to	PART	TO	_	5	_	_	start_char=30|end_char=32
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=33|end_char=35
+8	in	in	ADP	IN	_	7	_	_	start_char=36|end_char=38
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=39|end_char=42
+10	hospital	hospital	NOUN	NN	Number=Sing	9	_	_	start_char=43|end_char=51
+11	by	by	ADP	IN	_	10	_	_	start_char=52|end_char=54
+12	December	December	PROPN	NNP	Number=Sing	11	_	_	start_char=55|end_char=63|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=63|end_char=64
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=65|end_char=66
+15	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	_	_	start_char=67|end_char=72|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=72|end_char=73
+
+# text = She's not sick (yet).
+# sent_id = 49830
+1-2	She's	_	_	_	_	_	_	_	start_char=74|end_char=79
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=74|end_char=77
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=77|end_char=79
+3	not	not	PART	RB	_	2	_	_	start_char=80|end_char=83
+4	sick	sick	ADJ	JJ	Degree=Pos	3	_	_	start_char=84|end_char=88
+5	(	(	PUNCT	-LRB-	_	4	_	_	start_char=89|end_char=90|SpaceAfter=No
+6	yet	yet	ADV	RB	_	5	_	_	start_char=90|end_char=93|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=93|end_char=94|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=94|end_char=95
+
+# text = But she did have a car accident today--no damage, no one hurt.
+# sent_id = 49831
+1	But	but	CCONJ	CC	_	0	_	_	start_char=96|end_char=99
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=100|end_char=103
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=104|end_char=107
+4	have	have	VERB	VB	VerbForm=Inf	3	_	_	start_char=108|end_char=112
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=113|end_char=114
+6	car	car	NOUN	NN	Number=Sing	5	_	_	start_char=115|end_char=118
+7	accident	accident	NOUN	NN	Number=Sing	6	_	_	start_char=119|end_char=127
+8	today	today	NOUN	NN	Number=Sing	7	_	_	start_char=128|end_char=133|SpaceAfter=No
+9	--	--	PUNCT	,	_	8	_	_	start_char=133|end_char=135|SpaceAfter=No
+10	no	no	DET	DT	_	9	_	_	start_char=135|end_char=137
+11	damage	damage	NOUN	NN	Number=Sing	10	_	_	start_char=138|end_char=144|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=144|end_char=145
+13	no	no	DET	DT	_	12	_	_	start_char=146|end_char=148
+14	one	one	PRON	NN	Number=Sing|PronType=Neg	13	_	_	start_char=149|end_char=152
+15	hurt	hurt	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=153|end_char=157|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=157|end_char=158
+
+# text = Saturn coming for her, figuratively speaking.
+# sent_id = 49832
+1	Saturn	Saturn	PROPN	NNP	Number=Sing	0	_	_	start_char=159|end_char=165
+2	coming	come	VERB	VBG	VerbForm=Ger	1	_	_	start_char=166|end_char=172
+3	for	for	ADP	IN	_	2	_	_	start_char=173|end_char=176
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=177|end_char=180|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=180|end_char=181
+6	figuratively	figuratively	ADV	RB	_	5	_	_	start_char=182|end_char=194
+7	speaking	speak	VERB	VBG	VerbForm=Ger	6	_	_	start_char=195|end_char=203|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=203|end_char=204|SpaceAfter=No
+

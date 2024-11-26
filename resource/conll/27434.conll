@@ -1,0 +1,37 @@
+# text = Why?
+# sent_id = 58899
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = Have you never dated a blockhead?
+# sent_id = 58900
+1	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=5|end_char=9
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=10|end_char=13
+3	never	never	ADV	RB	_	2	_	_	start_char=14|end_char=19
+4	dated	date	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=20|end_char=25
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=26|end_char=27
+6	blockhead	blockhead	NOUN	NN	Number=Sing	5	_	_	start_char=28|end_char=37|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=37|end_char=38
+
+# text = It's the most fucking frustrating thing in the world, even if shes hot and agreeable.
+# sent_id = 58901
+1-2	It's	_	_	_	_	_	_	_	start_char=39|end_char=43
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=39|end_char=41
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=41|end_char=43
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=44|end_char=47
+4	most	most	ADV	RBS	Degree=Sup	3	_	_	start_char=48|end_char=52
+5	fucking	fucking	ADV	RB	_	4	_	_	start_char=53|end_char=60
+6	frustrating	frustrating	ADJ	JJ	Degree=Pos	5	_	_	start_char=61|end_char=72
+7	thing	thing	NOUN	NN	Number=Sing	6	_	_	start_char=73|end_char=78
+8	in	in	ADP	IN	_	7	_	_	start_char=79|end_char=81
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=82|end_char=85
+10	world	world	NOUN	NN	Number=Sing	9	_	_	start_char=86|end_char=91|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=91|end_char=92
+12	even	even	ADV	RB	_	11	_	_	start_char=93|end_char=97
+13	if	if	SCONJ	IN	_	12	_	_	start_char=98|end_char=100
+14	shes	she	NOUN	NNS	Number=Plur	13	_	_	start_char=101|end_char=105
+15	hot	hot	ADJ	JJ	Degree=Pos	14	_	_	start_char=106|end_char=109
+16	and	and	CCONJ	CC	_	15	_	_	start_char=110|end_char=113
+17	agreeable	agreeable	ADJ	JJ	Degree=Pos	16	_	_	start_char=114|end_char=123|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=123|end_char=124|SpaceAfter=No
+

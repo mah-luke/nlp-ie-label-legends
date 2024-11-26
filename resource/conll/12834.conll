@@ -1,0 +1,27 @@
+# text = [URL]
+# sent_id = 27222
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+
+# text = Don't tell her she is contributing to global warming by breathing, she might crack!
+# sent_id = 27223
+1-2	Don't	_	_	_	_	_	_	_	start_char=6|end_char=11
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=6|end_char=8
+2	n't	not	PART	RB	_	1	_	_	start_char=8|end_char=11
+3	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=12|end_char=16
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=17|end_char=20
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=21|end_char=24
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=25|end_char=27
+7	contributing	contribute	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=28|end_char=40
+8	to	to	ADP	IN	_	7	_	_	start_char=41|end_char=43
+9	global	global	ADJ	JJ	Degree=Pos	8	_	_	start_char=44|end_char=50
+10	warming	warming	NOUN	NN	Number=Sing	9	_	_	start_char=51|end_char=58
+11	by	by	SCONJ	IN	_	10	_	_	start_char=59|end_char=61
+12	breathing	breathe	VERB	VBG	VerbForm=Ger	11	_	_	start_char=62|end_char=71|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=71|end_char=72
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=73|end_char=76
+15	might	might	AUX	MD	VerbForm=Fin	14	_	_	start_char=77|end_char=82
+16	crack	crack	VERB	VB	VerbForm=Inf	15	_	_	start_char=83|end_char=88|SpaceAfter=No
+17	!	!	PUNCT	.	_	16	_	_	start_char=88|end_char=89|SpaceAfter=No
+

@@ -1,0 +1,55 @@
+# text = [USER]
+# sent_id = 22449
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = So, you think that a Republican controlled senate is going to listen to Bill Clinton's wife?
+# sent_id = 22450
+1	So	so	ADV	RB	_	0	_	_	start_char=7|end_char=9|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=9|end_char=10
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=11|end_char=14
+4	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=20
+5	that	that	SCONJ	IN	_	4	_	_	start_char=21|end_char=25
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=26|end_char=27
+7	Republican	Republican	ADJ	JJ	Degree=Pos	6	_	_	start_char=28|end_char=38
+8	controlled	control	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=39|end_char=49
+9	senate	senate	NOUN	NN	Number=Sing	8	_	_	start_char=50|end_char=56
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=57|end_char=59
+11	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=60|end_char=65
+12	to	to	PART	TO	_	11	_	_	start_char=66|end_char=68
+13	listen	listen	VERB	VB	VerbForm=Inf	12	_	_	start_char=69|end_char=75
+14	to	to	ADP	IN	_	13	_	_	start_char=76|end_char=78
+15	Bill	Bill	PROPN	NNP	Number=Sing	14	_	_	start_char=79|end_char=83
+16-17	Clinton's	_	_	_	_	_	_	_	start_char=84|end_char=93
+16	Clinton	Clinton	PROPN	NNP	Number=Sing	15	_	_	start_char=84|end_char=91
+17	's	's	PART	POS	_	16	_	_	start_char=91|end_char=93
+18	wife	wife	NOUN	NN	Number=Sing	17	_	_	start_char=94|end_char=98|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=98|end_char=99
+
+# text = How stupid do u think I am, and how deluded are you about the preparedness of the Republican senators to compromise?
+# sent_id = 22451
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=100|end_char=103
+2	stupid	stupid	ADJ	JJ	Degree=Pos	1	_	_	start_char=104|end_char=110
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=111|end_char=113
+4	u	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=114|end_char=115
+5	think	think	VERB	VB	VerbForm=Inf	4	_	_	start_char=116|end_char=121
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=122|end_char=123
+7	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=124|end_char=126|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=126|end_char=127
+9	and	and	CCONJ	CC	_	8	_	_	start_char=128|end_char=131
+10	how	how	ADV	WRB	PronType=Int	9	_	_	start_char=132|end_char=135
+11	deluded	delude	ADJ	JJ	Degree=Pos	10	_	_	start_char=136|end_char=143
+12	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=144|end_char=147
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=148|end_char=151
+14	about	about	ADP	IN	_	13	_	_	start_char=152|end_char=157
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=158|end_char=161
+16	preparedness	preparedness	NOUN	NN	Number=Sing	15	_	_	start_char=162|end_char=174
+17	of	of	ADP	IN	_	16	_	_	start_char=175|end_char=177
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=178|end_char=181
+19	Republican	Republican	ADJ	JJ	Degree=Pos	18	_	_	start_char=182|end_char=192
+20	senators	senator	NOUN	NNS	Number=Plur	19	_	_	start_char=193|end_char=201
+21	to	to	PART	TO	_	20	_	_	start_char=202|end_char=204
+22	compromise	compromise	VERB	VB	VerbForm=Inf	21	_	_	start_char=205|end_char=215|SpaceAfter=No
+23	?	?	PUNCT	.	_	22	_	_	start_char=215|end_char=216|SpaceAfter=No
+

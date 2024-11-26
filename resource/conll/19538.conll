@@ -1,0 +1,45 @@
+# text = Randy and Elon need their phones taken away.
+# sent_id = 41925
+1	Randy	Randy	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	and	and	CCONJ	CC	_	1	_	_	start_char=6|end_char=9
+3	Elon	Elon	PROPN	NNP	Number=Sing	2	_	_	start_char=10|end_char=14
+4	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=19
+5	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=20|end_char=25
+6	phones	phone	NOUN	NNS	Number=Plur	5	_	_	start_char=26|end_char=32
+7	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=33|end_char=38
+8	away	away	ADV	RB	_	7	_	_	start_char=39|end_char=43|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=43|end_char=44
+
+# text = I’m surprised these jackasses are even allowed to go on Twitter.
+# sent_id = 41926
+1-2	I’m	_	_	_	_	_	_	_	start_char=45|end_char=48
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=45|end_char=46
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=46|end_char=48
+3	surprised	surprise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=49|end_char=58
+4	these	this	DET	DT	Number=Plur|PronType=Dem	3	_	_	start_char=59|end_char=64
+5	jackasses	jackass	NOUN	NNS	Number=Plur	4	_	_	start_char=65|end_char=74
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=75|end_char=78
+7	even	even	ADV	RB	_	6	_	_	start_char=79|end_char=83
+8	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=84|end_char=91
+9	to	to	PART	TO	_	8	_	_	start_char=92|end_char=94
+10	go	go	VERB	VB	VerbForm=Inf	9	_	_	start_char=95|end_char=97
+11	on	on	ADP	IN	_	10	_	_	start_char=98|end_char=100
+12	Twitter	Twitter	PROPN	NNP	Number=Sing	11	_	_	start_char=101|end_char=108|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=108|end_char=109
+
+# text = All the do is generate bad PR and dig themselves into a hole
+# sent_id = 41927
+1	All	all	DET	PDT	_	0	_	_	start_char=110|end_char=113
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=114|end_char=117
+3	do	do	NOUN	NN	Number=Sing	2	_	_	start_char=118|end_char=120
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=121|end_char=123
+5	generate	generate	VERB	VB	VerbForm=Inf	4	_	_	start_char=124|end_char=132
+6	bad	bad	ADJ	JJ	Degree=Pos	5	_	_	start_char=133|end_char=136
+7	PR	pr	NOUN	NN	Number=Sing	6	_	_	start_char=137|end_char=139
+8	and	and	CCONJ	CC	_	7	_	_	start_char=140|end_char=143
+9	dig	dig	VERB	VB	VerbForm=Inf	8	_	_	start_char=144|end_char=147
+10	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	9	_	_	start_char=148|end_char=158
+11	into	into	ADP	IN	_	10	_	_	start_char=159|end_char=163
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=164|end_char=165
+13	hole	hole	NOUN	NN	Number=Sing	12	_	_	start_char=166|end_char=170|SpaceAfter=No
+

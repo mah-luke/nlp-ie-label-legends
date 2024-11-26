@@ -1,0 +1,28 @@
+# text = Hahahaha.
+# sent_id = 102311
+1	Hahahaha	hahahaha	INTJ	UH	_	0	_	_	start_char=0|end_char=8|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=8|end_char=9
+
+# text = If ya don't beat her to the bakery there probably won't be shit left anyway.
+# sent_id = 102312
+1	If	if	SCONJ	IN	_	0	_	_	start_char=10|end_char=12
+2	ya	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=13|end_char=15
+3-4	don't	_	_	_	_	_	_	_	start_char=16|end_char=21
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=16|end_char=18
+4	n't	not	PART	RB	_	3	_	_	start_char=18|end_char=21
+5	beat	beat	VERB	VB	VerbForm=Inf	4	_	_	start_char=22|end_char=26
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=27|end_char=30
+7	to	to	ADP	IN	_	6	_	_	start_char=31|end_char=33
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=34|end_char=37
+9	bakery	bakery	NOUN	NN	Number=Sing	8	_	_	start_char=38|end_char=44
+10	there	there	PRON	EX	_	9	_	_	start_char=45|end_char=50
+11	probably	probably	ADV	RB	_	10	_	_	start_char=51|end_char=59
+12-13	won't	_	_	_	_	_	_	_	start_char=60|end_char=65
+12	wo	will	AUX	MD	VerbForm=Fin	11	_	_	start_char=60|end_char=62
+13	n't	not	PART	RB	_	12	_	_	start_char=62|end_char=65
+14	be	be	AUX	VB	VerbForm=Inf	13	_	_	start_char=66|end_char=68
+15	shit	shit	NOUN	NN	Number=Sing	14	_	_	start_char=69|end_char=73
+16	left	leave	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	_	_	start_char=74|end_char=78
+17	anyway	anyway	ADV	RB	_	16	_	_	start_char=79|end_char=85|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=85|end_char=86|SpaceAfter=No
+

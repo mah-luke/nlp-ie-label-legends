@@ -1,0 +1,55 @@
+# text = Yeah I fucked up.
+# sent_id = 13720
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=5|end_char=6
+3	fucked	fuck	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=7|end_char=13
+4	up	up	ADP	RP	_	3	_	_	start_char=14|end_char=16|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=16|end_char=17
+
+# text = Movie was not Angry Birds though.
+# sent_id = 13721
+1	Movie	movie	NOUN	NN	Number=Sing	0	_	_	start_char=18|end_char=23
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=24|end_char=27
+3	not	not	PART	RB	_	2	_	_	start_char=28|end_char=31
+4	Angry	Angry	ADJ	JJ	Degree=Pos	3	_	_	start_char=32|end_char=37
+5	Birds	bird	NOUN	NNS	Number=Plur	4	_	_	start_char=38|end_char=43
+6	though	though	ADV	RB	_	5	_	_	start_char=44|end_char=50|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=50|end_char=51
+
+# text = I would have shot myself if that were the case.
+# sent_id = 13722
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=52|end_char=53
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=54|end_char=59
+3	have	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=60|end_char=64
+4	shot	shoot	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=65|end_char=69
+5	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	4	_	_	start_char=70|end_char=76
+6	if	if	SCONJ	IN	_	5	_	_	start_char=77|end_char=79
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=80|end_char=84
+8	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=85|end_char=89
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=90|end_char=93
+10	case	case	NOUN	NN	Number=Sing	9	_	_	start_char=94|end_char=98|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=98|end_char=99
+
+# text = And no that would not have worked.
+# sent_id = 13723
+1	And	and	CCONJ	CC	_	0	_	_	start_char=100|end_char=103
+2	no	no	INTJ	UH	Polarity=Neg	1	_	_	start_char=104|end_char=106
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=107|end_char=111
+4	would	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=112|end_char=117
+5	not	not	PART	RB	_	4	_	_	start_char=118|end_char=121
+6	have	have	AUX	VB	VerbForm=Inf	5	_	_	start_char=122|end_char=126
+7	worked	work	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=127|end_char=133|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=133|end_char=134
+
+# text = She had people sitting right next to her.
+# sent_id = 13724
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=135|end_char=138
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=139|end_char=142
+3	people	person	NOUN	NNS	Number=Plur	2	_	_	start_char=143|end_char=149
+4	sitting	sit	VERB	VBG	VerbForm=Ger	3	_	_	start_char=150|end_char=157
+5	right	right	ADV	RB	_	4	_	_	start_char=158|end_char=163
+6	next	next	ADV	RB	_	5	_	_	start_char=164|end_char=168
+7	to	to	ADP	IN	_	6	_	_	start_char=169|end_char=171
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=172|end_char=175|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=175|end_char=176|SpaceAfter=No
+

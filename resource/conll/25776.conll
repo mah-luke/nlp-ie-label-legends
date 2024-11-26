@@ -1,0 +1,49 @@
+# text = Why did that cuck even get legally bound to some bitch that won't tell him about her past?
+# sent_id = 55263
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=8|end_char=12
+4	cuck	cuck	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=17
+5	even	even	ADV	RB	_	4	_	_	start_char=18|end_char=22
+6	get	get	AUX	VB	VerbForm=Inf	5	_	_	start_char=23|end_char=26
+7	legally	legally	ADV	RB	_	6	_	_	start_char=27|end_char=34
+8	bound	bind	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=35|end_char=40
+9	to	to	ADP	IN	_	8	_	_	start_char=41|end_char=43
+10	some	some	DET	DT	_	9	_	_	start_char=44|end_char=48
+11	bitch	bitch	NOUN	NN	Number=Sing	10	_	_	start_char=49|end_char=54
+12	that	that	PRON	WDT	PronType=Rel	11	_	_	start_char=55|end_char=59
+13-14	won't	_	_	_	_	_	_	_	start_char=60|end_char=65
+13	wo	will	AUX	MD	VerbForm=Fin	12	_	_	start_char=60|end_char=62
+14	n't	not	PART	RB	_	13	_	_	start_char=62|end_char=65
+15	tell	tell	VERB	VB	VerbForm=Inf	14	_	_	start_char=66|end_char=70
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=71|end_char=74
+17	about	about	ADP	IN	_	16	_	_	start_char=75|end_char=80
+18	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=81|end_char=84
+19	past	past	NOUN	NN	Number=Sing	18	_	_	start_char=85|end_char=89|SpaceAfter=No
+20	?	?	PUNCT	.	_	19	_	_	start_char=89|end_char=90
+
+# text = He deserves to suffer.
+# sent_id = 55264
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=91|end_char=93
+2	deserves	deserve	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=94|end_char=102
+3	to	to	PART	TO	_	2	_	_	start_char=103|end_char=105
+4	suffer	suffer	VERB	VB	VerbForm=Inf	3	_	_	start_char=106|end_char=112|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=112|end_char=113
+
+# text = There's no excuse to be ignorant in this day and age.
+# sent_id = 55265
+1-2	There's	_	_	_	_	_	_	_	start_char=114|end_char=121
+1	There	there	PRON	EX	_	0	_	_	start_char=114|end_char=119
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=119|end_char=121
+3	no	no	DET	DT	_	2	_	_	start_char=122|end_char=124
+4	excuse	excuse	NOUN	NN	Number=Sing	3	_	_	start_char=125|end_char=131
+5	to	to	PART	TO	_	4	_	_	start_char=132|end_char=134
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=135|end_char=137
+7	ignorant	ignorant	ADJ	JJ	Degree=Pos	6	_	_	start_char=138|end_char=146
+8	in	in	ADP	IN	_	7	_	_	start_char=147|end_char=149
+9	this	this	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=150|end_char=154
+10	day	day	NOUN	NN	Number=Sing	9	_	_	start_char=155|end_char=158
+11	and	and	CCONJ	CC	_	10	_	_	start_char=159|end_char=162
+12	age	age	NOUN	NN	Number=Sing	11	_	_	start_char=163|end_char=166|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=166|end_char=167|SpaceAfter=No
+

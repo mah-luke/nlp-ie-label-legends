@@ -1,0 +1,38 @@
+# text = VIDEO ► Black girl beats WHITE boy with cleaning tool
+# sent_id = 50526
+1	VIDEO	video	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5
+2	►	►	PUNCT	:	_	1	_	_	start_char=6|end_char=7
+3	Black	Black	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=13
+4	girl	girl	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=18
+5	beats	beat	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=19|end_char=24
+6	WHITE	white	ADJ	JJ	Degree=Pos	5	_	_	start_char=25|end_char=30
+7	boy	boy	NOUN	NN	Number=Sing	6	_	_	start_char=31|end_char=34
+8	with	with	ADP	IN	_	7	_	_	start_char=35|end_char=39
+9	cleaning	cleaning	NOUN	NN	Number=Sing	8	_	_	start_char=40|end_char=48
+10	tool	tool	NOUN	NN	Number=Sing	9	_	_	start_char=49|end_char=53
+
+# text = This is why schools were racially segregated; to protect white students from black violence.
+# sent_id = 50527
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=54|end_char=58
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=61
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=62|end_char=65
+4	schools	school	NOUN	NNS	Number=Plur	3	_	_	start_char=66|end_char=73
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=74|end_char=78
+6	racially	racially	ADV	RB	_	5	_	_	start_char=79|end_char=87
+7	segregated	segregate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=88|end_char=98|SpaceAfter=No
+8	;	;	PUNCT	:	_	7	_	_	start_char=98|end_char=99
+9	to	to	PART	TO	_	8	_	_	start_char=100|end_char=102
+10	protect	protect	VERB	VB	VerbForm=Inf	9	_	_	start_char=103|end_char=110
+11	white	white	ADJ	JJ	Degree=Pos	10	_	_	start_char=111|end_char=116
+12	students	student	NOUN	NNS	Number=Plur	11	_	_	start_char=117|end_char=125
+13	from	from	ADP	IN	_	12	_	_	start_char=126|end_char=130
+14	black	black	ADJ	JJ	Degree=Pos	13	_	_	start_char=131|end_char=136
+15	violence	violence	NOUN	NN	Number=Sing	14	_	_	start_char=137|end_char=145|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=145|end_char=146
+
+# text = [URL]
+# sent_id = 50528
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=147|end_char=148|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=148|end_char=151|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=151|end_char=152|SpaceAfter=No
+

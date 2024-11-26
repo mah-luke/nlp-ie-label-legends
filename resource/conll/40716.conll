@@ -1,0 +1,40 @@
+# text = Well hell, wasn't there a woman in Washington state that said she was and worked for the NAACP?
+# sent_id = 87123
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	hell	hell	INTJ	UH	_	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
+4-5	wasn't	_	_	_	_	_	_	_	start_char=11|end_char=17
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=11|end_char=14
+5	n't	not	PART	RB	_	4	_	_	start_char=14|end_char=17
+6	there	there	ADV	RB	PronType=Dem	5	_	_	start_char=18|end_char=23
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=24|end_char=25
+8	woman	woman	NOUN	NN	Number=Sing	7	_	_	start_char=26|end_char=31
+9	in	in	ADP	IN	_	8	_	_	start_char=32|end_char=34
+10	Washington	Washington	PROPN	NNP	Number=Sing	9	_	_	start_char=35|end_char=45
+11	state	state	NOUN	NN	Number=Sing	10	_	_	start_char=46|end_char=51
+12	that	that	PRON	WDT	PronType=Rel	11	_	_	start_char=52|end_char=56
+13	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=57|end_char=61
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=62|end_char=65
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=66|end_char=69
+16	and	and	CCONJ	CC	_	15	_	_	start_char=70|end_char=73
+17	worked	work	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=74|end_char=80
+18	for	for	ADP	IN	_	17	_	_	start_char=81|end_char=84
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=85|end_char=88
+20	NAACP	NAACP	PROPN	NNP	Number=Sing	19	_	_	start_char=89|end_char=94|SpaceAfter=No
+21	?	?	PUNCT	.	_	20	_	_	start_char=94|end_char=95
+
+# text = Ever hear of Rachel Dolezal?
+# sent_id = 87124
+1	Ever	ever	ADV	RB	_	0	_	_	start_char=96|end_char=100
+2	hear	hear	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=101|end_char=105
+3	of	of	ADP	IN	_	2	_	_	start_char=106|end_char=108
+4	Rachel	Rachel	PROPN	NNP	Number=Sing	3	_	_	start_char=109|end_char=115
+5	Dolezal	Dolezal	PROPN	NNP	Number=Sing	4	_	_	start_char=116|end_char=123|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=123|end_char=124
+
+# text = [URL]
+# sent_id = 87125
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=125|end_char=126|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=126|end_char=129|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=129|end_char=130|SpaceAfter=No
+

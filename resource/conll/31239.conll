@@ -1,0 +1,58 @@
+# text = [USER]
+# sent_id = 66972
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = And a good role model, someone who doesn't listen to rap music about drugging women & raping them, etc., like Michelle does (while pretending to be so offended by Trump saying "pussy" in a private guy's conversation).
+# sent_id = 66973
+1	And	and	CCONJ	CC	_	0	_	_	start_char=7|end_char=10
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=11|end_char=12
+3	good	good	ADJ	JJ	Degree=Pos	2	_	_	start_char=13|end_char=17
+4	role	role	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=22
+5	model	model	NOUN	NN	Number=Sing	4	_	_	start_char=23|end_char=28|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=28|end_char=29
+7	someone	someone	PRON	NN	Number=Sing|PronType=Ind	6	_	_	start_char=30|end_char=37
+8	who	who	PRON	WP	PronType=Rel	7	_	_	start_char=38|end_char=41
+9-10	doesn't	_	_	_	_	_	_	_	start_char=42|end_char=49
+9	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=42|end_char=46
+10	n't	not	PART	RB	_	9	_	_	start_char=46|end_char=49
+11	listen	listen	VERB	VB	VerbForm=Inf	10	_	_	start_char=50|end_char=56
+12	to	to	ADP	IN	_	11	_	_	start_char=57|end_char=59
+13	rap	rap	NOUN	NN	Number=Sing	12	_	_	start_char=60|end_char=63
+14	music	music	NOUN	NN	Number=Sing	13	_	_	start_char=64|end_char=69
+15	about	about	ADP	IN	_	14	_	_	start_char=70|end_char=75
+16	drugging	drugging	NOUN	NN	Number=Sing	15	_	_	start_char=76|end_char=84
+17	women	woman	NOUN	NNS	Number=Plur	16	_	_	start_char=85|end_char=90
+18	&	&	CCONJ	CC	_	17	_	_	start_char=91|end_char=92
+19	raping	rape	VERB	VBG	VerbForm=Ger	18	_	_	start_char=93|end_char=99
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	_	_	start_char=100|end_char=104|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	_	_	start_char=104|end_char=105
+22	etc.	etc.	NOUN	FW	Abbr=Yes|Number=Plur	21	_	_	start_char=106|end_char=110|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	start_char=110|end_char=111
+24	like	like	SCONJ	IN	_	23	_	_	start_char=112|end_char=116
+25	Michelle	Michelle	PROPN	NNP	Number=Sing	24	_	_	start_char=117|end_char=125
+26	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	start_char=126|end_char=130
+27	(	(	PUNCT	-LRB-	_	26	_	_	start_char=131|end_char=132|SpaceAfter=No
+28	while	while	SCONJ	IN	_	27	_	_	start_char=132|end_char=137
+29	pretending	pretend	VERB	VBG	VerbForm=Ger	28	_	_	start_char=138|end_char=148
+30	to	to	PART	TO	_	29	_	_	start_char=149|end_char=151
+31	be	be	AUX	VB	VerbForm=Inf	30	_	_	start_char=152|end_char=154
+32	so	so	ADV	RB	_	31	_	_	start_char=155|end_char=157
+33	offended	offend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	32	_	_	start_char=158|end_char=166
+34	by	by	ADP	IN	_	33	_	_	start_char=167|end_char=169
+35	Trump	Trump	PROPN	NNP	Number=Sing	34	_	_	start_char=170|end_char=175
+36	saying	say	VERB	VBG	VerbForm=Ger	35	_	_	start_char=176|end_char=182
+37	"	"	PUNCT	``	_	36	_	_	start_char=183|end_char=184|SpaceAfter=No
+38	pussy	pussy	NOUN	NNS	Number=Sing	37	_	_	start_char=184|end_char=189|SpaceAfter=No
+39	"	"	PUNCT	''	_	38	_	_	start_char=189|end_char=190
+40	in	in	ADP	IN	_	39	_	_	start_char=191|end_char=193
+41	a	a	DET	DT	Definite=Ind|PronType=Art	40	_	_	start_char=194|end_char=195
+42	private	private	ADJ	JJ	Degree=Pos	41	_	_	start_char=196|end_char=203
+43-44	guy's	_	_	_	_	_	_	_	start_char=204|end_char=209
+43	guy	guy	NOUN	NN	Number=Sing	42	_	_	start_char=204|end_char=207
+44	's	's	PART	POS	_	43	_	_	start_char=207|end_char=209
+45	conversation	conversation	NOUN	NN	Number=Sing	44	_	_	start_char=210|end_char=222|SpaceAfter=No
+46	)	)	PUNCT	-RRB-	_	45	_	_	start_char=222|end_char=223|SpaceAfter=No
+47	.	.	PUNCT	.	_	46	_	_	start_char=223|end_char=224|SpaceAfter=No
+

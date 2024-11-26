@@ -1,0 +1,23 @@
+# text = I'm not Melania.
+# sent_id = 101931
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	not	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	Melania	Melania	PROPN	NNP	Number=Sing	3	_	_	start_char=8|end_char=15|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=15|end_char=16
+
+# text = Thank god too, because she's a whore.
+# sent_id = 101932
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	start_char=17|end_char=22
+2	god	god	PROPN	NNP	Number=Sing	1	_	_	start_char=23|end_char=26
+3	too	too	ADV	RB	_	2	_	_	start_char=27|end_char=30|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=30|end_char=31
+5	because	because	SCONJ	IN	_	4	_	_	start_char=32|end_char=39
+6-7	she's	_	_	_	_	_	_	_	start_char=40|end_char=45
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=40|end_char=43
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=43|end_char=45
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=46|end_char=47
+9	whore	whore	NOUN	NN	Number=Sing	8	_	_	start_char=48|end_char=53|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=53|end_char=54|SpaceAfter=No
+

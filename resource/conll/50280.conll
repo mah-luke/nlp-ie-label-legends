@@ -1,0 +1,47 @@
+# text = I love that face, the sudden realization.
+# sent_id = 107463
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	that	that	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=7|end_char=11
+4	face	face	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=16|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=16|end_char=17
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=18|end_char=21
+7	sudden	sudden	ADJ	JJ	Degree=Pos	6	_	_	start_char=22|end_char=28
+8	realization	realization	NOUN	NN	Number=Sing	7	_	_	start_char=29|end_char=40|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=40|end_char=41
+
+# text = Too bad I've never seen it on a real woman.
+# sent_id = 107464
+1	Too	too	ADV	RB	_	0	_	_	start_char=42|end_char=45
+2	bad	bad	ADJ	JJ	Degree=Pos	1	_	_	start_char=46|end_char=49
+3-4	I've	_	_	_	_	_	_	_	start_char=50|end_char=54
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=50|end_char=51
+4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=51|end_char=54
+5	never	never	ADV	RB	_	4	_	_	start_char=55|end_char=60
+6	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=61|end_char=65
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=66|end_char=68
+8	on	on	ADP	IN	_	7	_	_	start_char=69|end_char=71
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=72|end_char=73
+10	real	real	ADJ	JJ	Degree=Pos	9	_	_	start_char=74|end_char=78
+11	woman	woman	NOUN	NN	Number=Sing	10	_	_	start_char=79|end_char=84|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=84|end_char=85
+
+# text = (I'm sure you exist, I've just never met you)
+# sent_id = 107465
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=86|end_char=87|SpaceAfter=No
+2-3	I'm	_	_	_	_	_	_	_	start_char=87|end_char=90
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=87|end_char=88
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=88|end_char=90
+4	sure	sure	ADJ	JJ	Degree=Pos	3	_	_	start_char=91|end_char=95
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=96|end_char=99
+6	exist	exist	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=100|end_char=105|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=105|end_char=106
+8-9	I've	_	_	_	_	_	_	_	start_char=107|end_char=111
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=107|end_char=108
+9	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=108|end_char=111
+10	just	just	ADV	RB	_	9	_	_	start_char=112|end_char=116
+11	never	never	ADV	RB	_	10	_	_	start_char=117|end_char=122
+12	met	meet	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=123|end_char=126
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	_	_	start_char=127|end_char=130|SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	13	_	_	start_char=130|end_char=131|SpaceAfter=No
+

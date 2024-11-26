@@ -1,0 +1,81 @@
+# text = True..
+# sent_id = 34441
+1	True	true	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	..	..	PUNCT	.	_	1	_	_	start_char=4|end_char=6
+
+# text = How would you go about escalating, or making sure that's she's into me?
+# sent_id = 34442
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=7|end_char=10
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=11|end_char=16
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=17|end_char=20
+4	go	go	VERB	VB	VerbForm=Inf	3	_	_	start_char=21|end_char=23
+5	about	about	SCONJ	IN	_	4	_	_	start_char=24|end_char=29
+6	escalating	escalate	VERB	VBG	VerbForm=Ger	5	_	_	start_char=30|end_char=40|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=40|end_char=41
+8	or	or	CCONJ	CC	_	7	_	_	start_char=42|end_char=44
+9	making	make	VERB	VBG	VerbForm=Ger	8	_	_	start_char=45|end_char=51
+10	sure	sure	ADJ	JJ	Degree=Pos	9	_	_	start_char=52|end_char=56
+11-12	that's	_	_	_	_	_	_	_	start_char=57|end_char=63
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	10	_	_	start_char=57|end_char=61
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=61|end_char=63
+13-14	she's	_	_	_	_	_	_	_	start_char=64|end_char=69
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=64|end_char=67
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=67|end_char=69
+15	into	into	ADP	IN	_	14	_	_	start_char=70|end_char=74
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=75|end_char=77|SpaceAfter=No
+17	?	?	PUNCT	.	_	16	_	_	start_char=77|end_char=78
+
+# text = Start touching her more and more?
+# sent_id = 34443
+1	Start	start	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=79|end_char=84
+2	touching	touch	VERB	VBG	VerbForm=Ger	1	_	_	start_char=85|end_char=93
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=94|end_char=97
+4	more	more	ADV	RBR	Degree=Cmp	3	_	_	start_char=98|end_char=102
+5	and	and	CCONJ	CC	_	4	_	_	start_char=103|end_char=106
+6	more	more	ADJ	JJR	Degree=Cmp	5	_	_	start_char=107|end_char=111|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=111|end_char=112
+
+# text = Most I've done is tease and make fun of her a bit.
+# sent_id = 34444
+1	Most	most	ADJ	JJS	Degree=Sup	0	_	_	start_char=113|end_char=117
+2-3	I've	_	_	_	_	_	_	_	start_char=118|end_char=122
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=118|end_char=119
+3	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=119|end_char=122
+4	done	do	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=123|end_char=127
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=128|end_char=130
+6	tease	tease	VERB	VB	VerbForm=Inf	5	_	_	start_char=131|end_char=136
+7	and	and	CCONJ	CC	_	6	_	_	start_char=137|end_char=140
+8	make	make	VERB	VB	VerbForm=Inf	7	_	_	start_char=141|end_char=145
+9	fun	fun	NOUN	NN	Number=Sing	8	_	_	start_char=146|end_char=149
+10	of	of	ADP	IN	_	9	_	_	start_char=150|end_char=152
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=153|end_char=156
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=157|end_char=158
+13	bit	bit	NOUN	NN	Number=Sing	12	_	_	start_char=159|end_char=162|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=162|end_char=163
+
+# text = I don't want to go all out straight away, seeing as she's still in some of classes.
+# sent_id = 34445
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=164|end_char=165
+2-3	don't	_	_	_	_	_	_	_	start_char=166|end_char=171
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=166|end_char=168
+3	n't	not	PART	RB	_	2	_	_	start_char=168|end_char=171
+4	want	want	VERB	VB	VerbForm=Inf	3	_	_	start_char=172|end_char=176
+5	to	to	PART	TO	_	4	_	_	start_char=177|end_char=179
+6	go	go	VERB	VB	VerbForm=Inf	5	_	_	start_char=180|end_char=182
+7	all	all	DET	DT	_	6	_	_	start_char=183|end_char=186
+8	out	out	ADV	RB	_	7	_	_	start_char=187|end_char=190
+9	straight	straight	ADV	RB	_	8	_	_	start_char=191|end_char=199
+10	away	away	ADV	RB	_	9	_	_	start_char=200|end_char=204|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=204|end_char=205
+12	seeing	see	VERB	VBG	VerbForm=Ger	11	_	_	start_char=206|end_char=212
+13	as	as	SCONJ	IN	_	12	_	_	start_char=213|end_char=215
+14-15	she's	_	_	_	_	_	_	_	start_char=216|end_char=221
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=216|end_char=219
+15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=219|end_char=221
+16	still	still	ADV	RB	_	15	_	_	start_char=222|end_char=227
+17	in	in	ADP	IN	_	16	_	_	start_char=228|end_char=230
+18	some	some	DET	DT	_	17	_	_	start_char=231|end_char=235
+19	of	of	ADP	IN	_	18	_	_	start_char=236|end_char=238
+20	classes	class	NOUN	NNS	Number=Plur	19	_	_	start_char=239|end_char=246|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=246|end_char=247|SpaceAfter=No
+

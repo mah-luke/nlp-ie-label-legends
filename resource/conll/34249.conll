@@ -1,0 +1,45 @@
+# text = When I read "decade" and saw her mugshot I assumed she was 30+ years old.
+# sent_id = 73283
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=4
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=5|end_char=6
+3	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=7|end_char=11
+4	"	"	PUNCT	``	_	3	_	_	start_char=12|end_char=13|SpaceAfter=No
+5	decade	decade	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=19|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=19|end_char=20
+7	and	and	CCONJ	CC	_	6	_	_	start_char=21|end_char=24
+8	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	_	_	start_char=25|end_char=28
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=29|end_char=32
+10	mugshot	mugshot	NOUN	NN	Number=Sing	9	_	_	start_char=33|end_char=40
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=41|end_char=42
+12	assumed	assume	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	_	_	start_char=43|end_char=50
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=51|end_char=54
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=55|end_char=58
+15	30	30	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=59|end_char=61|SpaceAfter=No
+16	+	+	SYM	SYM	_	15	_	_	start_char=61|end_char=62
+17	years	year	NOUN	NNS	Number=Plur	16	_	_	start_char=63|end_char=68
+18	old	old	ADJ	JJ	Degree=Pos	17	_	_	start_char=69|end_char=72|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=72|end_char=73
+
+# text = Was surprised to find out she's 22 and made her first false rape claim at *13*.
+# sent_id = 73284
+1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=74|end_char=77
+2	surprised	surprise	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	_	_	start_char=78|end_char=87
+3	to	to	PART	TO	_	2	_	_	start_char=88|end_char=90
+4	find	find	VERB	VB	VerbForm=Inf	3	_	_	start_char=91|end_char=95
+5	out	out	ADP	RP	_	4	_	_	start_char=96|end_char=99
+6-7	she's	_	_	_	_	_	_	_	start_char=100|end_char=105
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=100|end_char=103
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=103|end_char=105
+8	22	22	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=106|end_char=108
+9	and	and	CCONJ	CC	_	8	_	_	start_char=109|end_char=112
+10	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=113|end_char=117
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=118|end_char=121
+12	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	11	_	_	start_char=122|end_char=127
+13	false	false	ADJ	JJ	Degree=Pos	12	_	_	start_char=128|end_char=133
+14	rape	rape	NOUN	NN	Number=Sing	13	_	_	start_char=134|end_char=138
+15	claim	claim	NOUN	NN	Number=Sing	14	_	_	start_char=139|end_char=144
+16	at	at	ADP	IN	_	15	_	_	start_char=145|end_char=147
+17	*	*	PUNCT	NFP	_	16	_	_	start_char=148|end_char=149|SpaceAfter=No
+18	13*	13*	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	start_char=149|end_char=152|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=152|end_char=153|SpaceAfter=No
+

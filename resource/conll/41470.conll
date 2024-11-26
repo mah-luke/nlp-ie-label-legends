@@ -1,0 +1,26 @@
+# text = He wouldn't live long if it was my daughter!
+# sent_id = 88724
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2-3	wouldn't	_	_	_	_	_	_	_	start_char=3|end_char=11
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=3|end_char=8
+3	n't	not	PART	RB	_	2	_	_	start_char=8|end_char=11
+4	live	live	VERB	VB	VerbForm=Inf	3	_	_	start_char=12|end_char=16
+5	long	long	ADV	RB	Degree=Pos	4	_	_	start_char=17|end_char=21
+6	if	if	SCONJ	IN	_	5	_	_	start_char=22|end_char=24
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=25|end_char=27
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=28|end_char=31
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=32|end_char=34
+10	daughter	daughter	NOUN	NN	Number=Sing	9	_	_	start_char=35|end_char=43|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=43|end_char=44
+
+# text = You can take that to the bank!
+# sent_id = 88725
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=45|end_char=48
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=49|end_char=52
+3	take	take	VERB	VB	VerbForm=Inf	2	_	_	start_char=53|end_char=57
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=58|end_char=62
+5	to	to	ADP	IN	_	4	_	_	start_char=63|end_char=65
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=66|end_char=69
+7	bank	bank	NOUN	NN	Number=Sing	6	_	_	start_char=70|end_char=74|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=74|end_char=75|SpaceAfter=No
+

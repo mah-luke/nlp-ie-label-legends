@@ -1,0 +1,35 @@
+# text = Let's talk about church game.
+# sent_id = 85898
+1-2	Let's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	talk	talk	VERB	VB	VerbForm=Inf	2	_	_	start_char=6|end_char=10
+4	about	about	ADP	IN	_	3	_	_	start_char=11|end_char=16
+5	church	church	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=23
+6	game	game	NOUN	NN	Number=Sing	5	_	_	start_char=24|end_char=28|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = How do you mack on all the pious pussy in attendance and how do you 4th-deadly-sin-close?
+# sent_id = 85899
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=30|end_char=33
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=34|end_char=36
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=37|end_char=40
+4	mack	mack	VERB	VB	VerbForm=Inf	3	_	_	start_char=41|end_char=45
+5	on	on	ADP	IN	_	4	_	_	start_char=46|end_char=48
+6	all	all	DET	PDT	_	5	_	_	start_char=49|end_char=52
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=53|end_char=56
+8	pious	pious	ADJ	JJ	Degree=Pos	7	_	_	start_char=57|end_char=62
+9	pussy	pussy	NOUN	NN	Number=Sing	8	_	_	start_char=63|end_char=68
+10	in	in	ADP	IN	_	9	_	_	start_char=69|end_char=71
+11	attendance	attendance	NOUN	NN	Number=Sing	10	_	_	start_char=72|end_char=82
+12	and	and	CCONJ	CC	_	11	_	_	start_char=83|end_char=86
+13	how	how	ADV	WRB	PronType=Int	12	_	_	start_char=87|end_char=90
+14	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	_	_	start_char=91|end_char=93
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	_	_	start_char=94|end_char=97
+16	4th	4th	ADJ	JJ	Degree=Pos|NumType=Ord	15	_	_	start_char=98|end_char=101|SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	16	_	_	start_char=101|end_char=102|SpaceAfter=No
+18	deadly	deadly	ADJ	JJ	Degree=Pos	17	_	_	start_char=102|end_char=108|SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	18	_	_	start_char=108|end_char=109|SpaceAfter=No
+20	sin-close	sin-close	ADJ	JJ	Degree=Pos	19	_	_	start_char=109|end_char=118|SpaceAfter=No
+21	?	?	PUNCT	.	_	20	_	_	start_char=118|end_char=119|SpaceAfter=No
+

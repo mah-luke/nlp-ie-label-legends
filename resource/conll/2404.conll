@@ -1,0 +1,61 @@
+# text = I'm bi and my crush is a man.
+# sent_id = 5115
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	bi	bi	INTJ	UH	_	2	_	_	start_char=4|end_char=6
+4	and	and	CCONJ	CC	_	3	_	_	start_char=7|end_char=10
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=11|end_char=13
+6	crush	crush	NOUN	NN	Number=Sing	5	_	_	start_char=14|end_char=19
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=20|end_char=22
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=23|end_char=24
+9	man	man	NOUN	NN	Number=Sing	8	_	_	start_char=25|end_char=28|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=28|end_char=29
+
+# text = I tried to know if he preferred men or women because I have never seen him with anyone, but apparently he's straight so it's possible.
+# sent_id = 5116
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=30|end_char=31
+2	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=32|end_char=37
+3	to	to	PART	TO	_	2	_	_	start_char=38|end_char=40
+4	know	know	VERB	VB	VerbForm=Inf	3	_	_	start_char=41|end_char=45
+5	if	if	SCONJ	IN	_	4	_	_	start_char=46|end_char=48
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=49|end_char=51
+7	preferred	prefer	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=52|end_char=61
+8	men	man	NOUN	NNS	Number=Plur	7	_	_	start_char=62|end_char=65
+9	or	or	CCONJ	CC	_	8	_	_	start_char=66|end_char=68
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=69|end_char=74
+11	because	because	SCONJ	IN	_	10	_	_	start_char=75|end_char=82
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=83|end_char=84
+13	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=85|end_char=89
+14	never	never	ADV	RB	_	13	_	_	start_char=90|end_char=95
+15	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=96|end_char=100
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=101|end_char=104
+17	with	with	ADP	IN	_	16	_	_	start_char=105|end_char=109
+18	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	17	_	_	start_char=110|end_char=116|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=116|end_char=117
+20	but	but	CCONJ	CC	_	19	_	_	start_char=118|end_char=121
+21	apparently	apparently	ADV	RB	_	20	_	_	start_char=122|end_char=132
+22-23	he's	_	_	_	_	_	_	_	start_char=133|end_char=137
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=133|end_char=135
+23	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=135|end_char=137
+24	straight	straight	ADJ	JJ	Degree=Pos	23	_	_	start_char=138|end_char=146
+25	so	so	ADV	RB	_	24	_	_	start_char=147|end_char=149
+26-27	it's	_	_	_	_	_	_	_	start_char=150|end_char=154
+26	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	_	_	start_char=150|end_char=152
+27	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	_	_	start_char=152|end_char=154
+28	possible	possible	ADJ	JJ	Degree=Pos	27	_	_	start_char=155|end_char=163|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=163|end_char=164
+
+# text = I lurked again and no new status, aaaas usual
+# sent_id = 5117
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=165|end_char=166
+2	lurked	lurk	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=167|end_char=173
+3	again	again	ADV	RB	_	2	_	_	start_char=174|end_char=179
+4	and	and	CCONJ	CC	_	3	_	_	start_char=180|end_char=183
+5	no	no	DET	DT	_	4	_	_	start_char=184|end_char=186
+6	new	new	ADJ	JJ	Degree=Pos	5	_	_	start_char=187|end_char=190
+7	status	status	NOUN	NN	Number=Sing	6	_	_	start_char=191|end_char=197|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=197|end_char=198
+9	aaaas	aaaas	INTJ	UH	_	8	_	_	start_char=199|end_char=204
+10	usual	usual	ADJ	JJ	Degree=Pos	9	_	_	start_char=205|end_char=210|SpaceAfter=No
+

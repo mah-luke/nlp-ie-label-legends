@@ -1,0 +1,71 @@
+# text = Gab:
+# sent_id = 17506
+1	Gab	Gab	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=3|end_char=4
+
+# text = There is only male & female!
+# sent_id = 17507
+1	There	there	PRON	EX	_	0	_	_	start_char=5|end_char=10
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=11|end_char=13
+3	only	only	ADV	RB	_	2	_	_	start_char=14|end_char=18
+4	male	male	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=23
+5	&	&	CCONJ	CC	_	4	_	_	start_char=24|end_char=25
+6	female	female	ADJ	JJ	Degree=Pos	5	_	_	start_char=26|end_char=32|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=32|end_char=33
+
+# text = You can't just change sex!
+# sent_id = 17508
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=34|end_char=37
+2-3	can't	_	_	_	_	_	_	_	start_char=38|end_char=43
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=38|end_char=40
+3	n't	not	PART	RB	_	2	_	_	start_char=40|end_char=43
+4	just	just	ADV	RB	_	3	_	_	start_char=44|end_char=48
+5	change	change	VERB	VB	VerbForm=Inf	4	_	_	start_char=49|end_char=55
+6	sex	sex	NOUN	NN	Number=Sing	5	_	_	start_char=56|end_char=59|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=59|end_char=60
+
+# text = #AlsoGab: The Pentagon has a chemical weapon that turns men into women.
+# sent_id = 17509
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=61|end_char=62|SpaceAfter=No
+2	AlsoGab	alsogab	NOUN	NN	Number=Sing	1	_	_	start_char=62|end_char=69|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=69|end_char=70
+4	The	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=71|end_char=74
+5	Pentagon	Pentagon	PROPN	NNP	Number=Sing	4	_	_	start_char=75|end_char=83
+6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=84|end_char=87
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=88|end_char=89
+8	chemical	chemical	ADJ	JJ	Degree=Pos	7	_	_	start_char=90|end_char=98
+9	weapon	weapon	NOUN	NN	Number=Sing	8	_	_	start_char=99|end_char=105
+10	that	that	PRON	WDT	PronType=Rel	9	_	_	start_char=106|end_char=110
+11	turns	turn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=111|end_char=116
+12	men	man	NOUN	NNS	Number=Plur	11	_	_	start_char=117|end_char=120
+13	into	into	ADP	IN	_	12	_	_	start_char=121|end_char=125
+14	women	woman	NOUN	NNS	Number=Plur	13	_	_	start_char=126|end_char=131|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=131|end_char=132
+
+# text = Wake up sheeple!
+# sent_id = 17510
+1	Wake	wake	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=133|end_char=137
+2	up	up	ADP	RP	_	1	_	_	start_char=138|end_char=140
+3	sheeple	sheeple	NOUN	NN	Number=Sing	2	_	_	start_char=141|end_char=148|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=148|end_char=149
+
+# text = The government can change your sex with estrogen and BPA.
+# sent_id = 17511
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=150|end_char=153
+2	government	government	NOUN	NN	Number=Sing	1	_	_	start_char=154|end_char=164
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=165|end_char=168
+4	change	change	VERB	VB	VerbForm=Inf	3	_	_	start_char=169|end_char=175
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=176|end_char=180
+6	sex	sex	NOUN	NN	Number=Sing	5	_	_	start_char=181|end_char=184
+7	with	with	ADP	IN	_	6	_	_	start_char=185|end_char=189
+8	estrogen	estrogen	NOUN	NN	Number=Sing	7	_	_	start_char=190|end_char=198
+9	and	and	CCONJ	CC	_	8	_	_	start_char=199|end_char=202
+10	BPA	BPA	PROPN	NNP	Number=Sing	9	_	_	start_char=203|end_char=206|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=206|end_char=207
+
+# text = [URL]
+# sent_id = 17512
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=208|end_char=209|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=209|end_char=212|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=212|end_char=213|SpaceAfter=No
+

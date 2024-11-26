@@ -1,0 +1,70 @@
+# text = There's nothing to interpret.
+# sent_id = 44339
+1-2	There's	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	There	there	PRON	EX	_	0	_	_	start_char=0|end_char=5
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	2	_	_	start_char=8|end_char=15
+4	to	to	PART	TO	_	3	_	_	start_char=16|end_char=18
+5	interpret	interpret	VERB	VB	VerbForm=Inf	4	_	_	start_char=19|end_char=28|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=28|end_char=29
+
+# text = There's nothing to hamster a different meaning from what you've put.
+# sent_id = 44340
+1-2	There's	_	_	_	_	_	_	_	start_char=30|end_char=37
+1	There	there	PRON	EX	_	0	_	_	start_char=30|end_char=35
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=35|end_char=37
+3	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	2	_	_	start_char=38|end_char=45
+4	to	to	PART	TO	_	3	_	_	start_char=46|end_char=48
+5	hamster	hamster	VERB	VB	VerbForm=Inf	4	_	_	start_char=49|end_char=56
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=57|end_char=58
+7	different	different	ADJ	JJ	Degree=Pos	6	_	_	start_char=59|end_char=68
+8	meaning	meaning	NOUN	NN	Number=Sing	7	_	_	start_char=69|end_char=76
+9	from	from	ADP	IN	_	8	_	_	start_char=77|end_char=81
+10	what	what	PRON	WP	PronType=Rel	9	_	_	start_char=82|end_char=86
+11-12	you've	_	_	_	_	_	_	_	start_char=87|end_char=93
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=87|end_char=90
+12	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=90|end_char=93
+13	put	put	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=94|end_char=97|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=97|end_char=98
+
+# text = Even the subreddit that's there to judge you and see if you are the asshole is saying you are the asshole.
+# sent_id = 44341
+1	Even	even	ADV	RB	_	0	_	_	start_char=99|end_char=103
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=104|end_char=107
+3	subreddit	subreddit	NOUN	NN	Number=Sing	2	_	_	start_char=108|end_char=117
+4-5	that's	_	_	_	_	_	_	_	start_char=118|end_char=124
+4	that	that	PRON	WDT	PronType=Rel	3	_	_	start_char=118|end_char=122
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=122|end_char=124
+6	there	there	ADV	RB	PronType=Dem	5	_	_	start_char=125|end_char=130
+7	to	to	PART	TO	_	6	_	_	start_char=131|end_char=133
+8	judge	judge	VERB	VB	VerbForm=Inf	7	_	_	start_char=134|end_char=139
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=140|end_char=143
+10	and	and	CCONJ	CC	_	9	_	_	start_char=144|end_char=147
+11	see	see	VERB	VB	VerbForm=Inf	10	_	_	start_char=148|end_char=151
+12	if	if	SCONJ	IN	_	11	_	_	start_char=152|end_char=154
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=155|end_char=158
+14	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	_	_	start_char=159|end_char=162
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=163|end_char=166
+16	asshole	asshole	NOUN	NN	Number=Sing	15	_	_	start_char=167|end_char=174
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=175|end_char=177
+18	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	17	_	_	start_char=178|end_char=184
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	_	_	start_char=185|end_char=188
+20	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	_	_	start_char=189|end_char=192
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=193|end_char=196
+22	asshole	asshole	NOUN	NN	Number=Sing	21	_	_	start_char=197|end_char=204|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=204|end_char=205
+
+# text = Or do you think they're being insecure too?
+# sent_id = 44342
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=206|end_char=208
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=209|end_char=211
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=212|end_char=215
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=216|end_char=221
+5-6	they're	_	_	_	_	_	_	_	start_char=222|end_char=229
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=222|end_char=226
+6	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=226|end_char=229
+7	being	be	AUX	VBG	VerbForm=Ger	6	_	_	start_char=230|end_char=235
+8	insecure	insecure	ADJ	JJ	Degree=Pos	7	_	_	start_char=236|end_char=244
+9	too	too	ADV	RB	_	8	_	_	start_char=245|end_char=248|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=248|end_char=249|SpaceAfter=No
+

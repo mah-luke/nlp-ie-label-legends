@@ -1,0 +1,11 @@
+# text = if he is still alive then they failed
+# sent_id = 21870
+1	if	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=6|end_char=8
+4	still	still	ADV	RB	_	3	_	_	start_char=9|end_char=14
+5	alive	alive	ADJ	JJ	Degree=Pos	4	_	_	start_char=15|end_char=20
+6	then	then	ADV	RB	PronType=Dem	5	_	_	start_char=21|end_char=25
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=26|end_char=30
+8	failed	fail	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=31|end_char=37|SpaceAfter=No
+

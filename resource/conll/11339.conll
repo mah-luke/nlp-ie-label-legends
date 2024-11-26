@@ -1,0 +1,44 @@
+# text = Very, very few women have sex based on looks.
+# sent_id = 24011
+1	Very	very	ADV	RB	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	very	very	ADV	RB	_	2	_	_	start_char=6|end_char=10
+4	few	few	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=14
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=15|end_char=20
+6	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=21|end_char=25
+7	sex	sex	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=29
+8	based	base	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=30|end_char=35
+9	on	on	ADP	IN	_	8	_	_	start_char=36|end_char=38
+10	looks	look	NOUN	NNS	Number=Plur	9	_	_	start_char=39|end_char=44|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=44|end_char=45
+
+# text = There are men who actually believe this.
+# sent_id = 24012
+1	There	there	PRON	EX	_	0	_	_	start_char=46|end_char=51
+2	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=52|end_char=55
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=56|end_char=59
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=60|end_char=63
+5	actually	actually	ADV	RB	_	4	_	_	start_char=64|end_char=72
+6	believe	believe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=73|end_char=80
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=81|end_char=85|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=85|end_char=86
+
+# text = Good god.
+# sent_id = 24013
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=87|end_char=91
+2	god	god	NOUN	NN	Number=Sing	1	_	_	start_char=92|end_char=95|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=95|end_char=96
+
+# text = I would love to show you my Tinder account.
+# sent_id = 24014
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=97|end_char=98
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=99|end_char=104
+3	love	love	VERB	VB	VerbForm=Inf	2	_	_	start_char=105|end_char=109
+4	to	to	PART	TO	_	3	_	_	start_char=110|end_char=112
+5	show	show	VERB	VB	VerbForm=Inf	4	_	_	start_char=113|end_char=117
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=118|end_char=121
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=122|end_char=124
+8	Tinder	Tinder	PROPN	NNP	Number=Sing	7	_	_	start_char=125|end_char=131
+9	account	account	NOUN	NN	Number=Sing	8	_	_	start_char=132|end_char=139|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=139|end_char=140|SpaceAfter=No
+

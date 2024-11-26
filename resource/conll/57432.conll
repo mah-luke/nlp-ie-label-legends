@@ -1,0 +1,59 @@
+# text = I've wondered this before as well, about friends girlfriends.
+# sent_id = 122691
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	wondered	wonder	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=13
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=14|end_char=18
+5	before	before	ADV	RB	_	4	_	_	start_char=19|end_char=25
+6	as	as	ADV	RB	_	5	_	_	start_char=26|end_char=28
+7	well	well	ADV	RB	Degree=Pos	6	_	_	start_char=29|end_char=33|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=33|end_char=34
+9	about	about	ADP	IN	_	8	_	_	start_char=35|end_char=40
+10	friends	friend	NOUN	NNS	Number=Plur	9	_	_	start_char=41|end_char=48
+11	girlfriends	girlfriend	NOUN	NNS	Number=Plur	10	_	_	start_char=49|end_char=60|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=60|end_char=61
+
+# text = It's strange and territory I'm not comfortable with.
+# sent_id = 122692
+1-2	It's	_	_	_	_	_	_	_	start_char=62|end_char=66
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=62|end_char=64
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=64|end_char=66
+3	strange	strange	ADJ	JJ	Degree=Pos	2	_	_	start_char=67|end_char=74
+4	and	and	CCONJ	CC	_	3	_	_	start_char=75|end_char=78
+5	territory	territory	NOUN	NN	Number=Sing	4	_	_	start_char=79|end_char=88
+6-7	I'm	_	_	_	_	_	_	_	start_char=89|end_char=92
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=89|end_char=90
+7	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=90|end_char=92
+8	not	not	PART	RB	_	7	_	_	start_char=93|end_char=96
+9	comfortable	comfortable	ADJ	JJ	Degree=Pos	8	_	_	start_char=97|end_char=108
+10	with	with	ADP	IN	_	9	_	_	start_char=109|end_char=113|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=113|end_char=114
+
+# text = But, it sounds like she is, from what you've described.
+# sent_id = 122693
+1	But	but	CCONJ	CC	_	0	_	_	start_char=115|end_char=118|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=118|end_char=119
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=120|end_char=122
+4	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=123|end_char=129
+5	like	like	SCONJ	IN	_	4	_	_	start_char=130|end_char=134
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=135|end_char=138
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=139|end_char=141|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=141|end_char=142
+9	from	from	ADP	IN	_	8	_	_	start_char=143|end_char=147
+10	what	what	PRON	WP	PronType=Rel	9	_	_	start_char=148|end_char=152
+11-12	you've	_	_	_	_	_	_	_	start_char=153|end_char=159
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=153|end_char=156
+12	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=156|end_char=159
+13	described	describe	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=160|end_char=169|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=169|end_char=170
+
+# text = Tread carefully, my friend.
+# sent_id = 122694
+1	Tread	tread	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=171|end_char=176
+2	carefully	carefully	ADV	RB	_	1	_	_	start_char=177|end_char=186|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=186|end_char=187
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=188|end_char=190
+5	friend	friend	NOUN	NN	Number=Sing	4	_	_	start_char=191|end_char=197|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=197|end_char=198|SpaceAfter=No
+

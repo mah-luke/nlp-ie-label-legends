@@ -1,0 +1,39 @@
+# text = Holy shit.
+# sent_id = 56649
+1	Holy	Holy	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = This guy might actually believe all the hyperbole on this subreddit.
+# sent_id = 56650
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=11|end_char=15
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=16|end_char=19
+3	might	might	AUX	MD	VerbForm=Fin	2	_	_	start_char=20|end_char=25
+4	actually	actually	ADV	RB	_	3	_	_	start_char=26|end_char=34
+5	believe	believe	VERB	VB	VerbForm=Inf	4	_	_	start_char=35|end_char=42
+6	all	all	DET	PDT	_	5	_	_	start_char=43|end_char=46
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=47|end_char=50
+8	hyperbole	hyperbole	NOUN	NN	Number=Sing	7	_	_	start_char=51|end_char=60
+9	on	on	ADP	IN	_	8	_	_	start_char=61|end_char=63
+10	this	this	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=64|end_char=68
+11	subreddit	subreddit	NOUN	NN	Number=Sing	10	_	_	start_char=69|end_char=78|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=78|end_char=79
+
+# text = You DO realize it’s mostly hyperbole to prove a point, right?
+# sent_id = 56651
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=80|end_char=83
+2	DO	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=84|end_char=86
+3	realize	realize	VERB	VB	VerbForm=Inf	2	_	_	start_char=87|end_char=94
+4-5	it’s	_	_	_	_	_	_	_	start_char=95|end_char=99
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=95|end_char=97
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=97|end_char=99
+6	mostly	mostly	ADV	RB	_	5	_	_	start_char=100|end_char=106
+7	hyperbole	hyperbole	NOUN	NN	Number=Sing	6	_	_	start_char=107|end_char=116
+8	to	to	PART	TO	_	7	_	_	start_char=117|end_char=119
+9	prove	prove	VERB	VB	VerbForm=Inf	8	_	_	start_char=120|end_char=125
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=126|end_char=127
+11	point	point	NOUN	NN	Number=Sing	10	_	_	start_char=128|end_char=133|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=133|end_char=134
+13	right	right	ADV	RB	_	12	_	_	start_char=135|end_char=140|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=140|end_char=141|SpaceAfter=No
+

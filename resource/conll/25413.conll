@@ -1,0 +1,39 @@
+# text = Nah, she's in labor!
+# sent_id = 54474
+1	Nah	nah	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3-4	she's	_	_	_	_	_	_	_	start_char=5|end_char=10
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=5|end_char=8
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=10
+5	in	in	ADP	IN	_	4	_	_	start_char=11|end_char=13
+6	labor	labor	NOUN	NN	Number=Sing	5	_	_	start_char=14|end_char=19|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=19|end_char=20
+
+# text = 🎶
+# sent_id = 54475
+1	🎶	🎶	PUNCT	NFP	_	0	_	_	start_char=21|end_char=22
+
+# text = Let the bodies hit the floor, Let the bodies hit the floor, Let the bodies hit the FLOOOOOOR!
+# sent_id = 54476
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=23|end_char=26
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=27|end_char=30
+3	bodies	body	NOUN	NNS	Number=Plur	2	_	_	start_char=31|end_char=37
+4	hit	hit	VERB	VB	VerbForm=Inf	3	_	_	start_char=38|end_char=41
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=42|end_char=45
+6	floor	floor	NOUN	NN	Number=Sing	5	_	_	start_char=46|end_char=51|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=51|end_char=52
+8	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=53|end_char=56
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=57|end_char=60
+10	bodies	body	NOUN	NNS	Number=Plur	9	_	_	start_char=61|end_char=67
+11	hit	hit	VERB	VB	VerbForm=Inf	10	_	_	start_char=68|end_char=71
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=72|end_char=75
+13	floor	floor	NOUN	NN	Number=Sing	12	_	_	start_char=76|end_char=81|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=81|end_char=82
+15	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	14	_	_	start_char=83|end_char=86
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=87|end_char=90
+17	bodies	body	NOUN	NNS	Number=Plur	16	_	_	start_char=91|end_char=97
+18	hit	hit	VERB	VB	VerbForm=Inf	17	_	_	start_char=98|end_char=101
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=102|end_char=105
+20	FLOOOOOOR	Floooooor	PROPN	NNP	Number=Sing	19	_	_	start_char=106|end_char=115|SpaceAfter=No
+21	!	!	PUNCT	.	_	20	_	_	start_char=115|end_char=116|SpaceAfter=No
+

@@ -1,0 +1,34 @@
+# text = No,no, no!
+# sent_id = 101859
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3|SpaceAfter=No
+3	no	no	INTJ	UH	Polarity=Neg	2	_	_	start_char=3|end_char=5|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=5|end_char=6
+5	no	no	INTJ	UH	Polarity=Neg	4	_	_	start_char=7|end_char=9|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=9|end_char=10
+
+# text = An evil cyborg, made from the female clone of Hitler had set up a Jew Killing Death Ray in Syria.
+# sent_id = 101860
+1	An	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=11|end_char=13
+2	evil	evil	ADJ	JJ	Degree=Pos	1	_	_	start_char=14|end_char=18
+3	cyborg	cyborg	NOUN	NN	Number=Sing	2	_	_	start_char=19|end_char=25|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=25|end_char=26
+5	made	make	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=27|end_char=31
+6	from	from	ADP	IN	_	5	_	_	start_char=32|end_char=36
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=37|end_char=40
+8	female	female	ADJ	JJ	Degree=Pos	7	_	_	start_char=41|end_char=47
+9	clone	clone	NOUN	NN	Number=Sing	8	_	_	start_char=48|end_char=53
+10	of	of	ADP	IN	_	9	_	_	start_char=54|end_char=56
+11	Hitler	Hitler	PROPN	NNP	Number=Sing	10	_	_	start_char=57|end_char=63
+12	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=64|end_char=67
+13	set	set	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=68|end_char=71
+14	up	up	ADP	RP	_	13	_	_	start_char=72|end_char=74
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=75|end_char=76
+16	Jew	Jew	PROPN	NNP	Number=Sing	15	_	_	start_char=77|end_char=80
+17	Killing	Killing	PROPN	NNP	Number=Sing	16	_	_	start_char=81|end_char=88
+18	Death	death	PROPN	NNP	Number=Sing	17	_	_	start_char=89|end_char=94
+19	Ray	Ray	PROPN	NNP	Number=Sing	18	_	_	start_char=95|end_char=98
+20	in	in	ADP	IN	_	19	_	_	start_char=99|end_char=101
+21	Syria	Syria	PROPN	NNP	Number=Sing	20	_	_	start_char=102|end_char=107|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=107|end_char=108|SpaceAfter=No
+

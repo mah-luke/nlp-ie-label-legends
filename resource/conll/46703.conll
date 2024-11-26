@@ -1,0 +1,33 @@
+# text = Ask her if she's single.
+# sent_id = 99800
+1	Ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=4|end_char=7
+3	if	if	SCONJ	IN	_	2	_	_	start_char=8|end_char=10
+4-5	she's	_	_	_	_	_	_	_	start_char=11|end_char=16
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=14|end_char=16
+6	single	single	ADJ	JJ	Degree=Pos	5	_	_	start_char=17|end_char=23|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=23|end_char=24
+
+# text = Simple.
+# sent_id = 99801
+1	Simple	simple	ADJ	JJ	Degree=Pos	0	_	_	start_char=25|end_char=31|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=31|end_char=32
+
+# text = Or don't ask at all.
+# sent_id = 99802
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=33|end_char=35
+2-3	don't	_	_	_	_	_	_	_	start_char=36|end_char=41
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=36|end_char=38
+3	n't	not	PART	RB	_	2	_	_	start_char=38|end_char=41
+4	ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=42|end_char=45
+5	at	at	ADP	IN	_	4	_	_	start_char=46|end_char=48
+6	all	all	DET	DT	_	5	_	_	start_char=49|end_char=52|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=52|end_char=53
+
+# text = Who cares?
+# sent_id = 99803
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=54|end_char=57
+2	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=58|end_char=63|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=63|end_char=64|SpaceAfter=No
+

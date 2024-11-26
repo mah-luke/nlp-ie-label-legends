@@ -1,0 +1,68 @@
+# text = TIL Mark Twain was a proponent of equal rights.
+# sent_id = 31387
+1	TIL	TIL	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3
+2	Mark	Mark	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=8
+3	Twain	Twain	PROPN	NNP	Number=Sing	2	_	_	start_char=9|end_char=14
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=15|end_char=18
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=19|end_char=20
+6	proponent	proponent	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=30
+7	of	of	ADP	IN	_	6	_	_	start_char=31|end_char=33
+8	equal	equal	ADJ	JJ	Degree=Pos	7	_	_	start_char=34|end_char=39
+9	rights	right	NOUN	NNS	Number=Plur	8	_	_	start_char=40|end_char=46|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=46|end_char=47
+
+# text = He formed clubs for young women to attend the theatre, to play games, and write correspondence with him.
+# sent_id = 31388
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=48|end_char=50
+2	formed	form	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=51|end_char=57
+3	clubs	club	NOUN	NNS	Number=Plur	2	_	_	start_char=58|end_char=63
+4	for	for	SCONJ	IN	_	3	_	_	start_char=64|end_char=67
+5	young	young	ADJ	JJ	Degree=Pos	4	_	_	start_char=68|end_char=73
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=74|end_char=79
+7	to	to	PART	TO	_	6	_	_	start_char=80|end_char=82
+8	attend	attend	VERB	VB	VerbForm=Inf	7	_	_	start_char=83|end_char=89
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=90|end_char=93
+10	theatre	theatre	NOUN	NN	Number=Sing	9	_	_	start_char=94|end_char=101|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=101|end_char=102
+12	to	to	PART	TO	_	11	_	_	start_char=103|end_char=105
+13	play	play	VERB	VB	VerbForm=Inf	12	_	_	start_char=106|end_char=110
+14	games	game	NOUN	NNS	Number=Plur	13	_	_	start_char=111|end_char=116|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=116|end_char=117
+16	and	and	CCONJ	CC	_	15	_	_	start_char=118|end_char=121
+17	write	write	VERB	VB	VerbForm=Inf	16	_	_	start_char=122|end_char=127
+18	correspondence	correspondence	NOUN	NN	Number=Sing	17	_	_	start_char=128|end_char=142
+19	with	with	ADP	IN	_	18	_	_	start_char=143|end_char=147
+20	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=148|end_char=151|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=151|end_char=152
+
+# text = At his death, he said that his time with these girls was his "life's chief delight".
+# sent_id = 31389
+1	At	at	ADP	IN	_	0	_	_	start_char=153|end_char=155
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=156|end_char=159
+3	death	death	NOUN	NN	Number=Sing	2	_	_	start_char=160|end_char=165|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=165|end_char=166
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=167|end_char=169
+6	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=170|end_char=174
+7	that	that	SCONJ	IN	_	6	_	_	start_char=175|end_char=179
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=180|end_char=183
+9	time	time	NOUN	NN	Number=Sing	8	_	_	start_char=184|end_char=188
+10	with	with	ADP	IN	_	9	_	_	start_char=189|end_char=193
+11	these	this	DET	DT	Number=Plur|PronType=Dem	10	_	_	start_char=194|end_char=199
+12	girls	girl	NOUN	NNS	Number=Plur	11	_	_	start_char=200|end_char=205
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=206|end_char=209
+14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=210|end_char=213
+15	"	"	PUNCT	``	_	14	_	_	start_char=214|end_char=215|SpaceAfter=No
+16-17	life's	_	_	_	_	_	_	_	start_char=215|end_char=221
+16	life	life	NOUN	NN	Number=Sing	15	_	_	start_char=215|end_char=219
+17	's	's	PART	POS	_	16	_	_	start_char=219|end_char=221
+18	chief	chief	ADJ	JJ	Degree=Pos	17	_	_	start_char=222|end_char=227
+19	delight	delight	NOUN	NN	Number=Sing	18	_	_	start_char=228|end_char=235|SpaceAfter=No
+20	"	"	PUNCT	''	_	19	_	_	start_char=235|end_char=236|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=236|end_char=237
+
+# text = [URL]
+# sent_id = 31390
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=238|end_char=239|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=239|end_char=242|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=242|end_char=243|SpaceAfter=No
+

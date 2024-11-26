@@ -1,0 +1,35 @@
+# text = Joe Pedo Biden.
+# sent_id = 83690
+1	Joe	Joe	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3
+2	Pedo	Pedo	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=8
+3	Biden	Biden	PROPN	NNP	Number=Sing	2	_	_	start_char=9|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = He plans to give candy to every little girl in America; if they'll just sit on his lap... [URL]
+# sent_id = 83691
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=16|end_char=18
+2	plans	plan	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=19|end_char=24
+3	to	to	PART	TO	_	2	_	_	start_char=25|end_char=27
+4	give	give	VERB	VB	VerbForm=Inf	3	_	_	start_char=28|end_char=32
+5	candy	candy	NOUN	NN	Number=Sing	4	_	_	start_char=33|end_char=38
+6	to	to	ADP	IN	_	5	_	_	start_char=39|end_char=41
+7	every	every	DET	DT	_	6	_	_	start_char=42|end_char=47
+8	little	little	ADJ	JJ	Degree=Pos	7	_	_	start_char=48|end_char=54
+9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=55|end_char=59
+10	in	in	ADP	IN	_	9	_	_	start_char=60|end_char=62
+11	America	America	PROPN	NNP	Number=Sing	10	_	_	start_char=63|end_char=70|SpaceAfter=No
+12	;	;	PUNCT	:	_	11	_	_	start_char=70|end_char=71
+13	if	if	SCONJ	IN	_	12	_	_	start_char=72|end_char=74
+14-15	they'll	_	_	_	_	_	_	_	start_char=75|end_char=82
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=75|end_char=79
+15	'll	will	AUX	MD	VerbForm=Fin	14	_	_	start_char=79|end_char=82
+16	just	just	ADV	RB	_	15	_	_	start_char=83|end_char=87
+17	sit	sit	VERB	VB	VerbForm=Inf	16	_	_	start_char=88|end_char=91
+18	on	on	ADP	IN	_	17	_	_	start_char=92|end_char=94
+19	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=95|end_char=98
+20	lap	lap	NOUN	NN	Number=Sing	19	_	_	start_char=99|end_char=102|SpaceAfter=No
+21	...	...	PUNCT	,	_	20	_	_	start_char=102|end_char=105
+22	[	[	PUNCT	-LRB-	_	21	_	_	start_char=106|end_char=107|SpaceAfter=No
+23	URL	URL	PROPN	NNP	Number=Sing	22	_	_	start_char=107|end_char=110|SpaceAfter=No
+24	]	]	PUNCT	-RRB-	_	23	_	_	start_char=110|end_char=111|SpaceAfter=No
+

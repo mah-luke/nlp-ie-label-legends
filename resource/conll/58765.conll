@@ -1,0 +1,30 @@
+# text = So what!
+# sent_id = 125453
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=3|end_char=7|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=7|end_char=8
+
+# text = Didn't the women try this bs a few months ago, and it had no result at all!
+# sent_id = 125454
+1-2	Didn't	_	_	_	_	_	_	_	start_char=9|end_char=15
+1	Did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=9|end_char=12
+2	n't	not	PART	RB	_	1	_	_	start_char=12|end_char=15
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=16|end_char=19
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=20|end_char=25
+5	try	try	VERB	VB	VerbForm=Inf	4	_	_	start_char=26|end_char=29
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=30|end_char=34
+7	bs	bs	NOUN	NN	Number=Sing	6	_	_	start_char=35|end_char=37
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=38|end_char=39
+9	few	few	ADJ	JJ	Degree=Pos	8	_	_	start_char=40|end_char=43
+10	months	month	NOUN	NNS	Number=Plur	9	_	_	start_char=44|end_char=50
+11	ago	ago	ADV	RB	_	10	_	_	start_char=51|end_char=54|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=54|end_char=55
+13	and	and	CCONJ	CC	_	12	_	_	start_char=56|end_char=59
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=60|end_char=62
+15	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=63|end_char=66
+16	no	no	DET	DT	_	15	_	_	start_char=67|end_char=69
+17	result	result	NOUN	NN	Number=Sing	16	_	_	start_char=70|end_char=76
+18	at	at	ADP	IN	_	17	_	_	start_char=77|end_char=79
+19	all	all	DET	DT	_	18	_	_	start_char=80|end_char=83|SpaceAfter=No
+20	!	!	PUNCT	.	_	19	_	_	start_char=83|end_char=84|SpaceAfter=No
+

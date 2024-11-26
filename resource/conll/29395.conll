@@ -1,0 +1,73 @@
+# text = #MAGA swoons: We got a new CIA boss!
+# sent_id = 63031
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5
+3	swoons	swoon	NOUN	NNS	Number=Plur	2	_	_	start_char=6|end_char=12|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=12|end_char=13
+5	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=14|end_char=16
+6	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=17|end_char=20
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=21|end_char=22
+8	new	new	ADJ	JJ	Degree=Pos	7	_	_	start_char=23|end_char=26
+9	CIA	CIA	PROPN	NNP	Number=Sing	8	_	_	start_char=27|end_char=30
+10	boss	boss	NOUN	NN	Number=Sing	9	_	_	start_char=31|end_char=35|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=35|end_char=36
+
+# text = And it's a WOMAN!
+# sent_id = 63032
+1	And	and	CCONJ	CC	_	0	_	_	start_char=37|end_char=40
+2-3	it's	_	_	_	_	_	_	_	start_char=41|end_char=45
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=41|end_char=43
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=43|end_char=45
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=46|end_char=47
+5	WOMAN	woman	NOUN	NN	Number=Sing	4	_	_	start_char=48|end_char=53|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=53|end_char=54
+
+# text = Well, at least she is cool with waterboarding.
+# sent_id = 63033
+1	Well	well	INTJ	UH	_	0	_	_	start_char=55|end_char=59|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=59|end_char=60
+3	at	at	ADP	IN	ExtPos=ADV	2	_	_	start_char=61|end_char=63
+4	least	least	ADJ	JJS	Degree=Sup	3	_	_	start_char=64|end_char=69
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=70|end_char=73
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=74|end_char=76
+7	cool	cool	ADJ	JJ	Degree=Pos	6	_	_	start_char=77|end_char=81
+8	with	with	ADP	IN	_	7	_	_	start_char=82|end_char=86
+9	waterboarding	waterboarding	NOUN	NN	Number=Sing	8	_	_	start_char=87|end_char=100|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=100|end_char=101
+
+# text = And a woman.
+# sent_id = 63034
+1	And	and	CCONJ	CC	_	0	_	_	start_char=102|end_char=105
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=106|end_char=107
+3	woman	woman	NOUN	NN	Number=Sing	2	_	_	start_char=108|end_char=113|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=113|end_char=114
+
+# text = [URL]
+# sent_id = 63035
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=115|end_char=116|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=116|end_char=119|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=119|end_char=120
+
+# text = There has to be a sooper-dooper #QAlert in there somewhere.
+# sent_id = 63036
+1	There	there	PRON	EX	_	0	_	_	start_char=121|end_char=126
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=127|end_char=130
+3	to	to	PART	TO	_	2	_	_	start_char=131|end_char=133
+4	be	be	VERB	VB	VerbForm=Inf	3	_	_	start_char=134|end_char=136
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=137|end_char=138
+6	sooper	sooper	NOUN	NN	Number=Sing	5	_	_	start_char=139|end_char=145|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	_	_	start_char=145|end_char=146|SpaceAfter=No
+8	dooper	dooper	NOUN	NN	Number=Sing	7	_	_	start_char=146|end_char=152
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=153|end_char=154|SpaceAfter=No
+10	QAlert	qalert	NOUN	NN	Number=Sing	9	_	_	start_char=154|end_char=160
+11	in	in	ADP	IN	_	10	_	_	start_char=161|end_char=163
+12	there	there	ADV	RB	PronType=Dem	11	_	_	start_char=164|end_char=169
+13	somewhere	somewhere	ADV	RB	_	12	_	_	start_char=170|end_char=179|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=179|end_char=180
+
+# text = #DrainTheSwamp!
+# sent_id = 63037
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=181|end_char=182|SpaceAfter=No
+2	DrainTheSwamp	draintheswamp	NOUN	NN	Number=Sing	1	_	_	start_char=182|end_char=195|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=195|end_char=196|SpaceAfter=No
+

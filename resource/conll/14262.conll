@@ -1,0 +1,33 @@
+# text = I love this.
+# sent_id = 30411
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=7|end_char=11|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=11|end_char=12
+
+# text = Thanks for sharing.
+# sent_id = 30412
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=13|end_char=19
+2	for	for	SCONJ	IN	_	1	_	_	start_char=20|end_char=23
+3	sharing	share	VERB	VBG	VerbForm=Ger	2	_	_	start_char=24|end_char=31|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=31|end_char=32
+
+# text = PS I usually have sex on the first date and am definitely not a whore.
+# sent_id = 30413
+1	PS	ps	NOUN	NN	Number=Sing	0	_	_	start_char=33|end_char=35
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=36|end_char=37
+3	usually	usually	ADV	RB	_	2	_	_	start_char=38|end_char=45
+4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=46|end_char=50
+5	sex	sex	NOUN	NN	Number=Sing	4	_	_	start_char=51|end_char=54
+6	on	on	ADP	IN	_	5	_	_	start_char=55|end_char=57
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=58|end_char=61
+8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	_	_	start_char=62|end_char=67
+9	date	date	NOUN	NN	Number=Sing	8	_	_	start_char=68|end_char=72
+10	and	and	CCONJ	CC	_	9	_	_	start_char=73|end_char=76
+11	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=77|end_char=79
+12	definitely	definitely	ADV	RB	_	11	_	_	start_char=80|end_char=90
+13	not	not	PART	RB	_	12	_	_	start_char=91|end_char=94
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=95|end_char=96
+15	whore	whore	NOUN	NN	Number=Sing	14	_	_	start_char=97|end_char=102|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=102|end_char=103|SpaceAfter=No
+

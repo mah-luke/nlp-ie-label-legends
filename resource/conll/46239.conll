@@ -1,0 +1,35 @@
+# text = Yep.
+# sent_id = 98739
+1	Yep	yep	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = Democrats aren't very good at fixing disasters.
+# sent_id = 98740
+1	Democrats	Democrat	PROPN	NNPS	Number=Plur	0	_	_	start_char=5|end_char=14
+2-3	aren't	_	_	_	_	_	_	_	start_char=15|end_char=21
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=15|end_char=18
+3	n't	not	PART	RB	_	2	_	_	start_char=18|end_char=21
+4	very	very	ADV	RB	_	3	_	_	start_char=22|end_char=26
+5	good	good	ADJ	JJ	Degree=Pos	4	_	_	start_char=27|end_char=31
+6	at	at	SCONJ	IN	_	5	_	_	start_char=32|end_char=34
+7	fixing	fix	VERB	VBG	VerbForm=Ger	6	_	_	start_char=35|end_char=41
+8	disasters	disaster	NOUN	NNS	Number=Plur	7	_	_	start_char=42|end_char=51|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=51|end_char=52
+
+# text = During this time of crisis maybe everyone will see how inept she is.
+# sent_id = 98741
+1	During	during	ADP	IN	_	0	_	_	start_char=53|end_char=59
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=60|end_char=64
+3	time	time	NOUN	NN	Number=Sing	2	_	_	start_char=65|end_char=69
+4	of	of	ADP	IN	_	3	_	_	start_char=70|end_char=72
+5	crisis	crisis	NOUN	NN	Number=Sing	4	_	_	start_char=73|end_char=79
+6	maybe	maybe	ADV	RB	_	5	_	_	start_char=80|end_char=85
+7	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	6	_	_	start_char=86|end_char=94
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=95|end_char=99
+9	see	see	VERB	VB	VerbForm=Inf	8	_	_	start_char=100|end_char=103
+10	how	how	ADV	WRB	PronType=Int	9	_	_	start_char=104|end_char=107
+11	inept	inept	ADJ	JJ	Degree=Pos	10	_	_	start_char=108|end_char=113
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=114|end_char=117
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=118|end_char=120|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=120|end_char=121|SpaceAfter=No
+

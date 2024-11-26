@@ -1,0 +1,64 @@
+# text = So defensive.
+# sent_id = 33068
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	defensive	defensive	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=12|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=12|end_char=13
+
+# text = Your waiting for someone to convince you paying for it is a good idea and no one has.
+# sent_id = 33069
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=14|end_char=18
+2	waiting	waiting	NOUN	NN	Number=Sing	1	_	_	start_char=19|end_char=26
+3	for	for	SCONJ	IN	_	2	_	_	start_char=27|end_char=30
+4	someone	someone	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=31|end_char=38
+5	to	to	PART	TO	_	4	_	_	start_char=39|end_char=41
+6	convince	convince	VERB	VB	VerbForm=Inf	5	_	_	start_char=42|end_char=50
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=51|end_char=54
+8	paying	pay	VERB	VBG	VerbForm=Ger	7	_	_	start_char=55|end_char=61
+9	for	for	ADP	IN	_	8	_	_	start_char=62|end_char=65
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=66|end_char=68
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=69|end_char=71
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=72|end_char=73
+13	good	good	ADJ	JJ	Degree=Pos	12	_	_	start_char=74|end_char=78
+14	idea	idea	NOUN	NN	Number=Sing	13	_	_	start_char=79|end_char=83
+15	and	and	CCONJ	CC	_	14	_	_	start_char=84|end_char=87
+16	no	no	DET	DT	_	15	_	_	start_char=88|end_char=90
+17	one	one	PRON	NN	Number=Sing|PronType=Neg	16	_	_	start_char=91|end_char=94
+18	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=95|end_char=98|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=98|end_char=99
+
+# text = Keep it, fuck her, don’t pay for it.
+# sent_id = 33070
+1	Keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=100|end_char=104
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=105|end_char=107|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=107|end_char=108
+4	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=109|end_char=113
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=114|end_char=117|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=117|end_char=118
+7-8	don’t	_	_	_	_	_	_	_	start_char=119|end_char=124
+7	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=119|end_char=121
+8	n’t	not	PART	RB	_	7	_	_	start_char=121|end_char=124
+9	pay	pay	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=125|end_char=128
+10	for	for	ADP	IN	_	9	_	_	start_char=129|end_char=132
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=133|end_char=135|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=135|end_char=136
+
+# text = I still don’t think it’s worth the trouble but you do you.
+# sent_id = 33071
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=137|end_char=138
+2	still	still	ADV	RB	_	1	_	_	start_char=139|end_char=144
+3-4	don’t	_	_	_	_	_	_	_	start_char=145|end_char=150
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=145|end_char=147
+4	n’t	not	PART	RB	_	3	_	_	start_char=147|end_char=150
+5	think	think	VERB	VB	VerbForm=Inf	4	_	_	start_char=151|end_char=156
+6-7	it’s	_	_	_	_	_	_	_	start_char=157|end_char=161
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=157|end_char=159
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=159|end_char=161
+8	worth	worth	ADJ	JJ	Degree=Pos	7	_	_	start_char=162|end_char=167
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=168|end_char=171
+10	trouble	trouble	NOUN	NN	Number=Sing	9	_	_	start_char=172|end_char=179
+11	but	but	CCONJ	CC	_	10	_	_	start_char=180|end_char=183
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=184|end_char=187
+13	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=188|end_char=190
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	_	_	start_char=191|end_char=194|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=194|end_char=195|SpaceAfter=No
+

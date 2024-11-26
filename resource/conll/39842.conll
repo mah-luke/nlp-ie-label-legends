@@ -1,0 +1,38 @@
+# text = [USER]
+# sent_id = 85191
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Isnt that like when that witch Pelosi said we have to pass it to see whats in it?
+# sent_id = 85192
+1-2	Isnt	_	_	_	_	_	_	_	start_char=7|end_char=11
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=7|end_char=9
+2	nt	not	PART	RB	_	1	_	_	start_char=9|end_char=11
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=12|end_char=16
+4	like	like	INTJ	UH	_	3	_	_	start_char=17|end_char=21
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=22|end_char=26
+6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=27|end_char=31
+7	witch	witch	NOUN	NN	Number=Sing	6	_	_	start_char=32|end_char=37
+8	Pelosi	Pelosi	PROPN	NNP	Number=Sing	7	_	_	start_char=38|end_char=44
+9	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=45|end_char=49
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	_	_	start_char=50|end_char=52
+11	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=53|end_char=57
+12	to	to	PART	TO	_	11	_	_	start_char=58|end_char=60
+13	pass	pass	VERB	VB	VerbForm=Inf	12	_	_	start_char=61|end_char=65
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=66|end_char=68
+15	to	to	PART	TO	_	14	_	_	start_char=69|end_char=71
+16	see	see	VERB	VB	VerbForm=Inf	15	_	_	start_char=72|end_char=75
+17	whats	whats	PRON	WP	PronType=Int	16	_	_	start_char=76|end_char=81
+18	in	in	ADP	IN	_	17	_	_	start_char=82|end_char=84
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=85|end_char=87|SpaceAfter=No
+20	?	?	PUNCT	.	_	19	_	_	start_char=87|end_char=88
+
+# text = That turned out well.
+# sent_id = 85193
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=89|end_char=93
+2	turned	turn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=94|end_char=100
+3	out	out	ADP	RP	_	2	_	_	start_char=101|end_char=104
+4	well	well	ADV	RB	Degree=Pos	3	_	_	start_char=105|end_char=109|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=109|end_char=110|SpaceAfter=No
+

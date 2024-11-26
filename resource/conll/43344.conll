@@ -1,0 +1,59 @@
+# text = This is very sad and tragic.
+# sent_id = 92610
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	very	very	ADV	RB	_	2	_	_	start_char=8|end_char=12
+4	sad	sad	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=16
+5	and	and	CCONJ	CC	_	4	_	_	start_char=17|end_char=20
+6	tragic	tragic	ADJ	JJ	Degree=Pos	5	_	_	start_char=21|end_char=27|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=27|end_char=28
+
+# text = How screwed up do you have to be to hang yourself and have a wife and young kids?
+# sent_id = 92611
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=29|end_char=32
+2	screwed	screw	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=33|end_char=40
+3	up	up	ADP	RP	_	2	_	_	start_char=41|end_char=43
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=44|end_char=46
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=47|end_char=50
+6	have	have	VERB	VB	VerbForm=Inf	5	_	_	start_char=51|end_char=55
+7	to	to	PART	TO	_	6	_	_	start_char=56|end_char=58
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=59|end_char=61
+9	to	to	PART	TO	_	8	_	_	start_char=62|end_char=64
+10	hang	hang	VERB	VB	VerbForm=Inf	9	_	_	start_char=65|end_char=69
+11	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	10	_	_	start_char=70|end_char=78
+12	and	and	CCONJ	CC	_	11	_	_	start_char=79|end_char=82
+13	have	have	VERB	VB	VerbForm=Inf	12	_	_	start_char=83|end_char=87
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=88|end_char=89
+15	wife	wife	NOUN	NN	Number=Sing	14	_	_	start_char=90|end_char=94
+16	and	and	CCONJ	CC	_	15	_	_	start_char=95|end_char=98
+17	young	young	ADJ	JJ	Degree=Pos	16	_	_	start_char=99|end_char=104
+18	kids	kid	NOUN	NNS	Number=Plur	17	_	_	start_char=105|end_char=109|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=109|end_char=110
+
+# text = I would never have imagined he would do something like this.
+# sent_id = 92612
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=111|end_char=112
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=113|end_char=118
+3	never	never	ADV	RB	_	2	_	_	start_char=119|end_char=124
+4	have	have	AUX	VB	VerbForm=Inf	3	_	_	start_char=125|end_char=129
+5	imagined	imagine	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=130|end_char=138
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=139|end_char=141
+7	would	would	AUX	MD	VerbForm=Fin	6	_	_	start_char=142|end_char=147
+8	do	do	VERB	VB	VerbForm=Inf	7	_	_	start_char=148|end_char=150
+9	something	something	PRON	NN	Number=Sing|PronType=Ind	8	_	_	start_char=151|end_char=160
+10	like	like	ADP	IN	_	9	_	_	start_char=161|end_char=165
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	10	_	_	start_char=166|end_char=170|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=170|end_char=171
+
+# text = He seemed like such a beautiful soul. :(
+# sent_id = 92613
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=172|end_char=174
+2	seemed	seem	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=175|end_char=181
+3	like	like	ADP	IN	_	2	_	_	start_char=182|end_char=186
+4	such	such	DET	PDT	_	3	_	_	start_char=187|end_char=191
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=192|end_char=193
+6	beautiful	beautiful	ADJ	JJ	Degree=Pos	5	_	_	start_char=194|end_char=203
+7	soul	soul	NOUN	NN	Number=Sing	6	_	_	start_char=204|end_char=208|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=208|end_char=209
+9	:(	:(	SYM	NFP	_	8	_	_	start_char=210|end_char=212|SpaceAfter=No
+

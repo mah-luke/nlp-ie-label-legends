@@ -1,0 +1,29 @@
+# text = im mad i didnt.
+# sent_id = 121969
+1-2	im	_	_	_	_	_	_	_	start_char=0|end_char=2
+1	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=2
+3	mad	mad	ADJ	JJ	Degree=Pos	2	_	_	start_char=3|end_char=6
+4	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=7|end_char=8
+5-6	didnt	_	_	_	_	_	_	_	start_char=9|end_char=14|SpaceAfter=No
+5	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=9|end_char=12
+6	nt	not	PART	RB	_	5	_	_	start_char=12|end_char=14
+7	.	.	PUNCT	.	_	6	_	_	start_char=14|end_char=15
+
+# text = im using this if i ever have to cut another girl off
+# sent_id = 121970
+1-2	im	_	_	_	_	_	_	_	start_char=16|end_char=18
+1	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=16|end_char=17
+2	m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=17|end_char=18
+3	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=19|end_char=24
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=25|end_char=29
+5	if	if	SCONJ	IN	_	4	_	_	start_char=30|end_char=32
+6	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=33|end_char=34
+7	ever	ever	ADV	RB	_	6	_	_	start_char=35|end_char=39
+8	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=40|end_char=44
+9	to	to	PART	TO	_	8	_	_	start_char=45|end_char=47
+10	cut	cut	VERB	VB	VerbForm=Inf	9	_	_	start_char=48|end_char=51
+11	another	another	DET	DT	_	10	_	_	start_char=52|end_char=59
+12	girl	girl	NOUN	NN	Number=Sing	11	_	_	start_char=60|end_char=64
+13	off	off	ADV	RB	_	12	_	_	start_char=65|end_char=68|SpaceAfter=No
+

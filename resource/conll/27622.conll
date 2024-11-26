@@ -1,0 +1,50 @@
+# text = Jimmie Carter was pres. 76-80.
+# sent_id = 59328
+1	Jimmie	Jimmie	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	Carter	Carter	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=13
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=14|end_char=17
+4	pres.	pres.	NOUN	NN	Abbr=Yes|Number=Sing	3	_	_	start_char=18|end_char=23
+5	76	76	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=24|end_char=26|SpaceAfter=No
+6	-	-	SYM	SYM	_	5	_	_	start_char=26|end_char=27|SpaceAfter=No
+7	80	80	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=27|end_char=29|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=29|end_char=30
+
+# text = what's her excuse for all the evil she has done since then?
+# sent_id = 59329
+1-2	what's	_	_	_	_	_	_	_	start_char=31|end_char=37
+1	what	what	PRON	WP	PronType=Int	0	_	_	start_char=31|end_char=35
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=35|end_char=37
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=38|end_char=41
+4	excuse	excuse	NOUN	NN	Number=Sing	3	_	_	start_char=42|end_char=48
+5	for	for	ADP	IN	_	4	_	_	start_char=49|end_char=52
+6	all	all	DET	PDT	_	5	_	_	start_char=53|end_char=56
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=57|end_char=60
+8	evil	evil	NOUN	NN	Number=Sing	7	_	_	start_char=61|end_char=65
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=66|end_char=69
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=70|end_char=73
+11	done	do	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=74|end_char=78
+12	since	since	ADP	IN	_	11	_	_	start_char=79|end_char=84
+13	then	then	ADV	RB	PronType=Dem	12	_	_	start_char=85|end_char=89|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=89|end_char=90
+
+# text = more important will she roll over on her evil cohorts and help put them out of business?
+# sent_id = 59330
+1	more	more	ADV	RBR	Degree=Cmp	0	_	_	start_char=91|end_char=95
+2	important	important	ADJ	JJ	Degree=Pos	1	_	_	start_char=96|end_char=105
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=106|end_char=110
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=111|end_char=114
+5	roll	roll	VERB	VB	VerbForm=Inf	4	_	_	start_char=115|end_char=119
+6	over	over	ADP	RP	_	5	_	_	start_char=120|end_char=124
+7	on	on	ADP	IN	_	6	_	_	start_char=125|end_char=127
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=128|end_char=131
+9	evil	evil	ADJ	JJ	Degree=Pos	8	_	_	start_char=132|end_char=136
+10	cohorts	cohort	NOUN	NNS	Number=Plur	9	_	_	start_char=137|end_char=144
+11	and	and	CCONJ	CC	_	10	_	_	start_char=145|end_char=148
+12	help	help	VERB	VB	VerbForm=Inf	11	_	_	start_char=149|end_char=153
+13	put	put	VERB	VB	VerbForm=Inf	12	_	_	start_char=154|end_char=157
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=158|end_char=162
+15	out	out	ADP	IN	_	14	_	_	start_char=163|end_char=166
+16	of	of	ADP	IN	_	15	_	_	start_char=167|end_char=169
+17	business	business	NOUN	NN	Number=Sing	16	_	_	start_char=170|end_char=178|SpaceAfter=No
+18	?	?	PUNCT	.	_	17	_	_	start_char=178|end_char=179|SpaceAfter=No
+

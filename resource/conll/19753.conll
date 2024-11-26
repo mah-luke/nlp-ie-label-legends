@@ -1,0 +1,55 @@
+# text = That's the common mistake men do.
+# sent_id = 42413
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7|end_char=10
+4	common	common	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=17
+5	mistake	mistake	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=25
+6	men	man	NOUN	NNS	Number=Plur	5	_	_	start_char=26|end_char=29
+7	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=30|end_char=32|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=32|end_char=33
+
+# text = I saw many of my friends falling to the same life, even those that kept being in a relationship are miserable with a fat wife they are not attracted to because she's fatter than he is.
+# sent_id = 42414
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=34|end_char=35
+2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=36|end_char=39
+3	many	many	ADJ	JJ	Degree=Pos	2	_	_	start_char=40|end_char=44
+4	of	of	ADP	IN	_	3	_	_	start_char=45|end_char=47
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=48|end_char=50
+6	friends	friend	NOUN	NNS	Number=Plur	5	_	_	start_char=51|end_char=58
+7	falling	fall	VERB	VBG	VerbForm=Ger	6	_	_	start_char=59|end_char=66
+8	to	to	ADP	IN	_	7	_	_	start_char=67|end_char=69
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=70|end_char=73
+10	same	same	ADJ	JJ	Degree=Pos	9	_	_	start_char=74|end_char=78
+11	life	life	NOUN	NN	Number=Sing	10	_	_	start_char=79|end_char=83|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=83|end_char=84
+13	even	even	ADV	RB	_	12	_	_	start_char=85|end_char=89
+14	those	that	PRON	DT	Number=Plur|PronType=Dem	13	_	_	start_char=90|end_char=95
+15	that	that	PRON	WDT	PronType=Rel	14	_	_	start_char=96|end_char=100
+16	kept	keep	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=101|end_char=105
+17	being	be	AUX	VBG	VerbForm=Ger	16	_	_	start_char=106|end_char=111
+18	in	in	ADP	IN	_	17	_	_	start_char=112|end_char=114
+19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=115|end_char=116
+20	relationship	relationship	NOUN	NN	Number=Sing	19	_	_	start_char=117|end_char=129
+21	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=130|end_char=133
+22	miserable	miserable	ADJ	JJ	Degree=Pos	21	_	_	start_char=134|end_char=143
+23	with	with	ADP	IN	_	22	_	_	start_char=144|end_char=148
+24	a	a	DET	DT	Definite=Ind|PronType=Art	23	_	_	start_char=149|end_char=150
+25	fat	fat	ADJ	JJ	Degree=Pos	24	_	_	start_char=151|end_char=154
+26	wife	wife	NOUN	NN	Number=Sing	25	_	_	start_char=155|end_char=159
+27	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	_	_	start_char=160|end_char=164
+28	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	27	_	_	start_char=165|end_char=168
+29	not	not	PART	RB	_	28	_	_	start_char=169|end_char=172
+30	attracted	attract	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	29	_	_	start_char=173|end_char=182
+31	to	to	ADP	IN	_	30	_	_	start_char=183|end_char=185
+32	because	because	SCONJ	IN	_	31	_	_	start_char=186|end_char=193
+33-34	she's	_	_	_	_	_	_	_	start_char=194|end_char=199
+33	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	_	_	start_char=194|end_char=197
+34	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	33	_	_	start_char=197|end_char=199
+35	fatter	fatter	ADJ	JJR	Degree=Cmp	34	_	_	start_char=200|end_char=206
+36	than	than	SCONJ	IN	_	35	_	_	start_char=207|end_char=211
+37	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	_	_	start_char=212|end_char=214
+38	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	_	_	start_char=215|end_char=217|SpaceAfter=No
+39	.	.	PUNCT	.	_	38	_	_	start_char=217|end_char=218|SpaceAfter=No
+

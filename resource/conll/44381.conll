@@ -1,0 +1,25 @@
+# text = She's been useless her entire worthless life.
+# sent_id = 94768
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=6|end_char=10
+4	useless	useless	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=18
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=19|end_char=22
+6	entire	entire	ADJ	JJ	Degree=Pos	5	_	_	start_char=23|end_char=29
+7	worthless	worthless	ADJ	JJ	Degree=Pos	6	_	_	start_char=30|end_char=39
+8	life	life	NOUN	NN	Number=Sing	7	_	_	start_char=40|end_char=44|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=44|end_char=45
+
+# text = And no doubt will continue to be so.
+# sent_id = 94769
+1	And	and	CCONJ	CC	_	0	_	_	start_char=46|end_char=49
+2	no	no	DET	DT	_	1	_	_	start_char=50|end_char=52
+3	doubt	doubt	NOUN	NN	Number=Sing	2	_	_	start_char=53|end_char=58
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=59|end_char=63
+5	continue	continue	VERB	VB	VerbForm=Inf	4	_	_	start_char=64|end_char=72
+6	to	to	PART	TO	_	5	_	_	start_char=73|end_char=75
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=76|end_char=78
+8	so	so	ADV	RB	_	7	_	_	start_char=79|end_char=81|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=81|end_char=82|SpaceAfter=No
+

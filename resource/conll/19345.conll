@@ -1,0 +1,49 @@
+# text = Exactly.
+# sent_id = 41518
+1	Exactly	exactly	ADV	RB	_	0	_	_	start_char=0|end_char=7|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=7|end_char=8
+
+# text = What about the women who are pregnant?
+# sent_id = 41519
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=9|end_char=13
+2	about	about	ADP	IN	_	1	_	_	start_char=14|end_char=19
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=20|end_char=23
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=24|end_char=29
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=30|end_char=33
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=34|end_char=37
+7	pregnant	pregnant	ADJ	JJ	Degree=Pos	6	_	_	start_char=38|end_char=46|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=46|end_char=47
+
+# text = Women who don't have periods or spot all the time?
+# sent_id = 41520
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=48|end_char=53
+2	who	who	PRON	WP	PronType=Rel	1	_	_	start_char=54|end_char=57
+3-4	don't	_	_	_	_	_	_	_	start_char=58|end_char=63
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=58|end_char=60
+4	n't	not	PART	RB	_	3	_	_	start_char=60|end_char=63
+5	have	have	VERB	VB	VerbForm=Inf	4	_	_	start_char=64|end_char=68
+6	periods	period	NOUN	NNS	Number=Plur	5	_	_	start_char=69|end_char=76
+7	or	or	CCONJ	CC	_	6	_	_	start_char=77|end_char=79
+8	spot	spot	NOUN	NN	Number=Sing	7	_	_	start_char=80|end_char=84
+9	all	all	DET	PDT	_	8	_	_	start_char=85|end_char=88
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=89|end_char=92
+11	time	time	NOUN	NN	Number=Sing	10	_	_	start_char=93|end_char=97|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=97|end_char=98
+
+# text = Who's going to check if stacy is actually on her period?
+# sent_id = 41521
+1-2	Who's	_	_	_	_	_	_	_	start_char=99|end_char=104
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=99|end_char=102
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=102|end_char=104
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=105|end_char=110
+4	to	to	PART	TO	_	3	_	_	start_char=111|end_char=113
+5	check	check	VERB	VB	VerbForm=Inf	4	_	_	start_char=114|end_char=119
+6	if	if	SCONJ	IN	_	5	_	_	start_char=120|end_char=122
+7	stacy	stacy	NOUN	NN	Number=Sing	6	_	_	start_char=123|end_char=128
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=129|end_char=131
+9	actually	actually	ADV	RB	_	8	_	_	start_char=132|end_char=140
+10	on	on	ADP	IN	_	9	_	_	start_char=141|end_char=143
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=144|end_char=147
+12	period	period	NOUN	NN	Number=Sing	11	_	_	start_char=148|end_char=154|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=154|end_char=155|SpaceAfter=No
+

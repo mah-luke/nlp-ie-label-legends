@@ -1,0 +1,55 @@
+# text = He had some mother fucking chicken to buy.
+# sent_id = 12906
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	some	some	DET	DT	_	2	_	_	start_char=7|end_char=11
+4	mother	mother	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=18
+5	fucking	fuck	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=26
+6	chicken	chicken	NOUN	NN	Number=Sing	5	_	_	start_char=27|end_char=34
+7	to	to	PART	TO	_	6	_	_	start_char=35|end_char=37
+8	buy	buy	VERB	VB	VerbForm=Inf	7	_	_	start_char=38|end_char=41|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=41|end_char=42
+
+# text = This is some excellent and slyly hilarious writing my friend.
+# sent_id = 12907
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=43|end_char=47
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=48|end_char=50
+3	some	some	DET	DT	_	2	_	_	start_char=51|end_char=55
+4	excellent	excellent	ADJ	JJ	Degree=Pos	3	_	_	start_char=56|end_char=65
+5	and	and	CCONJ	CC	_	4	_	_	start_char=66|end_char=69
+6	slyly	slyly	ADV	RB	_	5	_	_	start_char=70|end_char=75
+7	hilarious	hilarious	ADJ	JJ	Degree=Pos	6	_	_	start_char=76|end_char=85
+8	writing	writing	NOUN	NN	Number=Sing	7	_	_	start_char=86|end_char=93
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=94|end_char=96
+10	friend	friend	NOUN	NN	Number=Sing	9	_	_	start_char=97|end_char=103|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=103|end_char=104
+
+# text = It kills me that when I try to pick up I fail but as soon as I fail to give a shit things start working.
+# sent_id = 12908
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=105|end_char=107
+2	kills	kill	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=108|end_char=113
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=114|end_char=116
+4	that	that	SCONJ	IN	_	3	_	_	start_char=117|end_char=121
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=122|end_char=126
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=127|end_char=128
+7	try	try	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=129|end_char=132
+8	to	to	PART	TO	_	7	_	_	start_char=133|end_char=135
+9	pick	pick	VERB	VB	VerbForm=Inf	8	_	_	start_char=136|end_char=140
+10	up	up	ADP	RP	_	9	_	_	start_char=141|end_char=143
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=144|end_char=145
+12	fail	fail	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=146|end_char=150
+13	but	but	CCONJ	CC	_	12	_	_	start_char=151|end_char=154
+14	as	as	ADV	RB	_	13	_	_	start_char=155|end_char=157
+15	soon	soon	ADV	RB	Degree=Pos	14	_	_	start_char=158|end_char=162
+16	as	as	SCONJ	IN	_	15	_	_	start_char=163|end_char=165
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=166|end_char=167
+18	fail	fail	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=168|end_char=172
+19	to	to	PART	TO	_	18	_	_	start_char=173|end_char=175
+20	give	give	VERB	VB	VerbForm=Inf	19	_	_	start_char=176|end_char=180
+21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=181|end_char=182
+22	shit	shit	NOUN	NN	Number=Sing	21	_	_	start_char=183|end_char=187
+23	things	thing	NOUN	NNS	Number=Plur	22	_	_	start_char=188|end_char=194
+24	start	start	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=195|end_char=200
+25	working	work	VERB	VBG	VerbForm=Ger	24	_	_	start_char=201|end_char=208|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=208|end_char=209|SpaceAfter=No
+

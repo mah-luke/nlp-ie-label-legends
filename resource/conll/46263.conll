@@ -1,0 +1,42 @@
+# text = No I wasn't I went for it.
+# sent_id = 98787
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=3|end_char=4
+3-4	wasn't	_	_	_	_	_	_	_	start_char=5|end_char=11
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=5|end_char=8
+4	n't	not	PART	RB	_	3	_	_	start_char=8|end_char=11
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=12|end_char=13
+6	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=14|end_char=18
+7	for	for	ADP	IN	_	6	_	_	start_char=19|end_char=22
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=23|end_char=25|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=25|end_char=26
+
+# text = But her head was turned and she's a big girl (6') so I didn't want to force it.
+# sent_id = 98788
+1	But	but	CCONJ	CC	_	0	_	_	start_char=27|end_char=30
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=31|end_char=34
+3	head	head	NOUN	NN	Number=Sing	2	_	_	start_char=35|end_char=39
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=40|end_char=43
+5	turned	turn	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=44|end_char=50
+6	and	and	CCONJ	CC	_	5	_	_	start_char=51|end_char=54
+7-8	she's	_	_	_	_	_	_	_	start_char=55|end_char=60
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=55|end_char=58
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=58|end_char=60
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=61|end_char=62
+10	big	big	ADJ	JJ	Degree=Pos	9	_	_	start_char=63|end_char=66
+11	girl	girl	NOUN	NN	Number=Sing	10	_	_	start_char=67|end_char=71
+12	(	(	PUNCT	-LRB-	_	11	_	_	start_char=72|end_char=73|SpaceAfter=No
+13	6	6	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=73|end_char=74|SpaceAfter=No
+14	'	'	NOUN	NNS	Number=Plur	13	_	_	start_char=74|end_char=75|SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	_	_	start_char=75|end_char=76
+16	so	so	ADV	RB	_	15	_	_	start_char=77|end_char=79
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=80|end_char=81
+18-19	didn't	_	_	_	_	_	_	_	start_char=82|end_char=88
+18	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	17	_	_	start_char=82|end_char=85
+19	n't	not	PART	RB	_	18	_	_	start_char=85|end_char=88
+20	want	want	VERB	VB	VerbForm=Inf	19	_	_	start_char=89|end_char=93
+21	to	to	PART	TO	_	20	_	_	start_char=94|end_char=96
+22	force	force	VERB	VB	VerbForm=Inf	21	_	_	start_char=97|end_char=102
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=103|end_char=105|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=105|end_char=106|SpaceAfter=No
+

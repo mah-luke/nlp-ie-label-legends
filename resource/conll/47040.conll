@@ -1,0 +1,38 @@
+# text = Y'all ain't Chad's.
+# sent_id = 100569
+1	Y'all	Y'all	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2-3	ain't	_	_	_	_	_	_	_	start_char=6|end_char=11
+2	ai	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=8
+3	n't	not	PART	RB	_	2	_	_	start_char=8|end_char=11
+4-5	Chad's	_	_	_	_	_	_	_	start_char=12|end_char=18|SpaceAfter=No
+4	Chad	Chad	PROPN	NNP	Number=Sing	3	_	_	start_char=12|end_char=16
+5	's	's	PART	POS	_	4	_	_	start_char=16|end_char=18
+6	.	.	PUNCT	.	_	5	_	_	start_char=18|end_char=19
+
+# text = You can't be picky.
+# sent_id = 100570
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=20|end_char=23
+2-3	can't	_	_	_	_	_	_	_	start_char=24|end_char=29
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=24|end_char=26
+3	n't	not	PART	RB	_	2	_	_	start_char=26|end_char=29
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=30|end_char=32
+5	picky	picky	ADJ	JJ	Degree=Pos	4	_	_	start_char=33|end_char=38|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=38|end_char=39
+
+# text = Find an ugly bitch and fuck her.
+# sent_id = 100571
+1	Find	find	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=40|end_char=44
+2	an	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=45|end_char=47
+3	ugly	ugly	ADJ	JJ	Degree=Pos	2	_	_	start_char=48|end_char=52
+4	bitch	bitch	NOUN	NN	Number=Sing	3	_	_	start_char=53|end_char=58
+5	and	and	CCONJ	CC	_	4	_	_	start_char=59|end_char=62
+6	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=63|end_char=67
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=68|end_char=71|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=71|end_char=72
+
+# text = Case closed.
+# sent_id = 100572
+1	Case	case	NOUN	NN	Number=Sing	0	_	_	start_char=73|end_char=77
+2	closed	close	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=78|end_char=84|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=84|end_char=85|SpaceAfter=No
+

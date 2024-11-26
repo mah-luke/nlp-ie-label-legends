@@ -1,0 +1,41 @@
+# text = Holy shit!
+# sent_id = 40880
+1	Holy	Holy	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = I didn't know you could die from that.
+# sent_id = 40881
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=11|end_char=12
+2-3	didn't	_	_	_	_	_	_	_	start_char=13|end_char=19
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=13|end_char=16
+3	n't	not	PART	RB	_	2	_	_	start_char=16|end_char=19
+4	know	know	VERB	VB	VerbForm=Inf	3	_	_	start_char=20|end_char=24
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=25|end_char=28
+6	could	could	AUX	MD	VerbForm=Fin	5	_	_	start_char=29|end_char=34
+7	die	die	VERB	VB	VerbForm=Inf	6	_	_	start_char=35|end_char=38
+8	from	from	ADP	IN	_	7	_	_	start_char=39|end_char=43
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=44|end_char=48|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=48|end_char=49
+
+# text = I used to guard them before.
+# sent_id = 40882
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=50|end_char=51
+2	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=52|end_char=56
+3	to	to	PART	TO	_	2	_	_	start_char=57|end_char=59
+4	guard	guard	VERB	VB	VerbForm=Inf	3	_	_	start_char=60|end_char=65
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=66|end_char=70
+6	before	before	ADV	RB	_	5	_	_	start_char=71|end_char=77|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=77|end_char=78
+
+# text = These mother fuckers are in Fort Knox now
+# sent_id = 40883
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=79|end_char=84
+2	mother	mother	NOUN	NN	Number=Sing	1	_	_	start_char=85|end_char=91
+3	fuckers	fucker	NOUN	NNS	Number=Plur	2	_	_	start_char=92|end_char=99
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=100|end_char=103
+5	in	in	ADP	IN	_	4	_	_	start_char=104|end_char=106
+6	Fort	Fort	PROPN	NNP	Number=Sing	5	_	_	start_char=107|end_char=111
+7	Knox	Knox	PROPN	NNP	Number=Sing	6	_	_	start_char=112|end_char=116
+8	now	now	ADV	RB	_	7	_	_	start_char=117|end_char=120|SpaceAfter=No
+

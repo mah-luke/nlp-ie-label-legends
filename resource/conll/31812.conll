@@ -1,0 +1,52 @@
+# text = I'd do **nothing**.
+# sent_id = 68151
+1-2	I'd	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	do	do	VERB	VB	VerbForm=Inf	2	_	_	start_char=4|end_char=6
+4	**	**	PUNCT	NFP	_	3	_	_	start_char=7|end_char=9|SpaceAfter=No
+5	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	4	_	_	start_char=9|end_char=16|SpaceAfter=No
+6	**.	**.	PUNCT	.	_	5	_	_	start_char=16|end_char=19
+
+# text = Let that company fail miserably with that incompetent idiot.
+# sent_id = 68152
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=20|end_char=23
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=24|end_char=28
+3	company	company	NOUN	NN	Number=Sing	2	_	_	start_char=29|end_char=36
+4	fail	fail	VERB	VB	VerbForm=Inf	3	_	_	start_char=37|end_char=41
+5	miserably	miserably	ADV	RB	_	4	_	_	start_char=42|end_char=51
+6	with	with	ADP	IN	_	5	_	_	start_char=52|end_char=56
+7	that	that	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=57|end_char=61
+8	incompetent	incompetent	ADJ	JJ	Degree=Pos	7	_	_	start_char=62|end_char=73
+9	idiot	idiot	NOUN	NN	Number=Sing	8	_	_	start_char=74|end_char=79|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=79|end_char=80
+
+# text = *They* hired her.
+# sent_id = 68153
+1	*	*	PUNCT	NFP	_	0	_	_	start_char=81|end_char=82|SpaceAfter=No
+2	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=82|end_char=86|SpaceAfter=No
+3	*	*	PUNCT	NFP	_	2	_	_	start_char=86|end_char=87
+4	hired	hire	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=88|end_char=93
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=94|end_char=97|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=97|end_char=98
+
+# text = Let them rot.
+# sent_id = 68154
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=99|end_char=102
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=103|end_char=107
+3	rot	rot	VERB	VB	VerbForm=Inf	2	_	_	start_char=108|end_char=111|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=111|end_char=112
+
+# text = Why would I want to help them do better?
+# sent_id = 68155
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=113|end_char=116
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=117|end_char=122
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=123|end_char=124
+4	want	want	VERB	VB	VerbForm=Inf	3	_	_	start_char=125|end_char=129
+5	to	to	PART	TO	_	4	_	_	start_char=130|end_char=132
+6	help	help	VERB	VB	VerbForm=Inf	5	_	_	start_char=133|end_char=137
+7	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=138|end_char=142
+8	do	do	VERB	VB	VerbForm=Inf	7	_	_	start_char=143|end_char=145
+9	better	well	ADV	RBR	Degree=Cmp	8	_	_	start_char=146|end_char=152|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=152|end_char=153|SpaceAfter=No
+

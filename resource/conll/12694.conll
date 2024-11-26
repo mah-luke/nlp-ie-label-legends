@@ -1,0 +1,33 @@
+# text = Someone kicked the anthill & pissed Xi off.
+# sent_id = 26940
+1	Someone	someone	PRON	NN	Number=Sing|PronType=Ind	0	_	_	start_char=0|end_char=7
+2	kicked	kick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=8|end_char=14
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=15|end_char=18
+4	anthill	anthill	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=26
+5	&	&	CCONJ	CC	_	4	_	_	start_char=27|end_char=28
+6	pissed	piss	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=29|end_char=35
+7	Xi	Xi	PROPN	NNP	Number=Sing	6	_	_	start_char=36|end_char=38
+8	off	off	ADP	RP	_	7	_	_	start_char=39|end_char=42|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=42|end_char=43
+
+# text = Seems China's girlfriend Taiwan, wants to split up.
+# sent_id = 26941
+1	Seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=44|end_char=49
+2-3	China's	_	_	_	_	_	_	_	start_char=50|end_char=57
+2	China	China	PROPN	NNP	Number=Sing	1	_	_	start_char=50|end_char=55
+3	's	's	PART	POS	_	2	_	_	start_char=55|end_char=57
+4	girlfriend	girlfriend	NOUN	NN	Number=Sing	3	_	_	start_char=58|end_char=68
+5	Taiwan	Taiwan	PROPN	NNP	Number=Sing	4	_	_	start_char=69|end_char=75|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=75|end_char=76
+7	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=77|end_char=82
+8	to	to	PART	TO	_	7	_	_	start_char=83|end_char=85
+9	split	split	VERB	VB	VerbForm=Inf	8	_	_	start_char=86|end_char=91
+10	up	up	ADP	RP	_	9	_	_	start_char=92|end_char=94|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=94|end_char=95
+
+# text = [URL]
+# sent_id = 26942
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=96|end_char=97|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=97|end_char=100|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=100|end_char=101|SpaceAfter=No
+

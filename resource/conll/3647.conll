@@ -1,0 +1,48 @@
+# text = I'm pretty sure she divorced him years ago.
+# sent_id = 7689
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	pretty	pretty	ADV	RB	_	2	_	_	start_char=4|end_char=10
+4	sure	sure	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=15
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=16|end_char=19
+6	divorced	divorce	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=20|end_char=28
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=29|end_char=32
+8	years	year	NOUN	NNS	Number=Plur	7	_	_	start_char=33|end_char=38
+9	ago	ago	ADV	RB	_	8	_	_	start_char=39|end_char=42|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=42|end_char=43
+
+# text = Probably got fed up with having to shot in the street.
+# sent_id = 7690
+1	Probably	probably	ADV	RB	_	0	_	_	start_char=44|end_char=52
+2	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=53|end_char=56
+3	fed	feed	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=57|end_char=60
+4	up	up	ADP	RP	_	3	_	_	start_char=61|end_char=63
+5	with	with	SCONJ	IN	_	4	_	_	start_char=64|end_char=68
+6	having	have	VERB	VBG	VerbForm=Ger	5	_	_	start_char=69|end_char=75
+7	to	to	PART	TO	_	6	_	_	start_char=76|end_char=78
+8	shot	shoot	VERB	VB	VerbForm=Inf	7	_	_	start_char=79|end_char=83
+9	in	in	ADP	IN	_	8	_	_	start_char=84|end_char=86
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=87|end_char=90
+11	street	street	NOUN	NN	Number=Sing	10	_	_	start_char=91|end_char=97|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=97|end_char=98
+
+# text = Being a posh bird that must have come as a bit of a culture shock...
+# sent_id = 7691
+1	Being	be	AUX	VBG	VerbForm=Ger	0	_	_	start_char=99|end_char=104
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=105|end_char=106
+3	posh	posh	ADJ	JJ	Degree=Pos	2	_	_	start_char=107|end_char=111
+4	bird	bird	NOUN	NN	Number=Sing	3	_	_	start_char=112|end_char=116
+5	that	that	PRON	WDT	PronType=Rel	4	_	_	start_char=117|end_char=121
+6	must	must	AUX	MD	VerbForm=Fin	5	_	_	start_char=122|end_char=126
+7	have	have	AUX	VB	VerbForm=Inf	6	_	_	start_char=127|end_char=131
+8	come	come	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=132|end_char=136
+9	as	as	ADP	IN	_	8	_	_	start_char=137|end_char=139
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=140|end_char=141
+11	bit	bit	NOUN	NN	Number=Sing	10	_	_	start_char=142|end_char=145
+12	of	of	ADP	IN	_	11	_	_	start_char=146|end_char=148
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=149|end_char=150
+14	culture	culture	NOUN	NN	Number=Sing	13	_	_	start_char=151|end_char=158
+15	shock	shock	NOUN	NN	Number=Sing	14	_	_	start_char=159|end_char=164|SpaceAfter=No
+16	...	...	PUNCT	.	_	15	_	_	start_char=164|end_char=167|SpaceAfter=No
+

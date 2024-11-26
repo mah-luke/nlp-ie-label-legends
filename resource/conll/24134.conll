@@ -1,0 +1,35 @@
+# text = If she’s single, go for it.
+# sent_id = 51738
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2-3	she’s	_	_	_	_	_	_	_	start_char=3|end_char=8
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=6|end_char=8
+4	single	single	ADJ	JJ	Degree=Pos	3	_	_	start_char=9|end_char=15|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=15|end_char=16
+6	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=17|end_char=19
+7	for	for	ADP	IN	_	6	_	_	start_char=20|end_char=23
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=24|end_char=26|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=26|end_char=27
+
+# text = Worst case she says no.
+# sent_id = 51739
+1	Worst	bad	ADJ	JJS	Degree=Sup	0	_	_	start_char=28|end_char=33
+2	case	case	NOUN	NN	Number=Sing	1	_	_	start_char=34|end_char=38
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=39|end_char=42
+4	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=43|end_char=47
+5	no	no	INTJ	UH	_	4	_	_	start_char=48|end_char=50|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=50|end_char=51
+
+# text = Just hope she doesn’t tell your mom lol
+# sent_id = 51740
+1	Just	just	ADV	RB	_	0	_	_	start_char=52|end_char=56
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=57|end_char=61
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=62|end_char=65
+4-5	doesn’t	_	_	_	_	_	_	_	start_char=66|end_char=73
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=66|end_char=70
+5	n’t	not	PART	RB	_	4	_	_	start_char=70|end_char=73
+6	tell	tell	VERB	VB	VerbForm=Inf	5	_	_	start_char=74|end_char=78
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=79|end_char=83
+8	mom	mom	NOUN	NN	Number=Sing	7	_	_	start_char=84|end_char=87
+9	lol	lol	INTJ	UH	_	8	_	_	start_char=88|end_char=91|SpaceAfter=No
+

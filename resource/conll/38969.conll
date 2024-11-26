@@ -1,0 +1,33 @@
+# text = You're technically correct.
+# sent_id = 83304
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	technically	technically	ADV	RB	_	2	_	_	start_char=7|end_char=18
+4	correct	correct	ADJ	JJ	Degree=Pos	3	_	_	start_char=19|end_char=26|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=26|end_char=27
+
+# text = Are you happy?
+# sent_id = 83305
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=28|end_char=31
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=32|end_char=35
+3	happy	happy	ADJ	JJ	Degree=Pos	2	_	_	start_char=36|end_char=41|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=41|end_char=42
+
+# text = Outside of obvious aggression like raping a woman, your point is useless.
+# sent_id = 83306
+1	Outside	outside	ADV	RB	_	0	_	_	start_char=43|end_char=50
+2	of	of	ADP	IN	_	1	_	_	start_char=51|end_char=53
+3	obvious	obvious	ADJ	JJ	Degree=Pos	2	_	_	start_char=54|end_char=61
+4	aggression	aggression	NOUN	NN	Number=Sing	3	_	_	start_char=62|end_char=72
+5	like	like	SCONJ	IN	_	4	_	_	start_char=73|end_char=77
+6	raping	rape	VERB	VBG	VerbForm=Ger	5	_	_	start_char=78|end_char=84
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=85|end_char=86
+8	woman	woman	NOUN	NN	Number=Sing	7	_	_	start_char=87|end_char=92|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=92|end_char=93
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	_	_	start_char=94|end_char=98
+11	point	point	NOUN	NN	Number=Sing	10	_	_	start_char=99|end_char=104
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=105|end_char=107
+13	useless	useless	ADJ	JJ	Degree=Pos	12	_	_	start_char=108|end_char=115|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=115|end_char=116|SpaceAfter=No
+

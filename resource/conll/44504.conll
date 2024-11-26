@@ -1,0 +1,63 @@
+# text = Well, I can't.
+# sent_id = 95017
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4-5	can't	_	_	_	_	_	_	_	start_char=8|end_char=13|SpaceAfter=No
+4	ca	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=8|end_char=10
+5	n't	not	PART	RB	_	4	_	_	start_char=10|end_char=13
+6	.	.	PUNCT	.	_	5	_	_	start_char=13|end_char=14
+
+# text = because the fact that he just stopped at the girl pissed me off.
+# sent_id = 95018
+1	because	because	SCONJ	IN	_	0	_	_	start_char=15|end_char=22
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=23|end_char=26
+3	fact	fact	NOUN	NN	Number=Sing	2	_	_	start_char=27|end_char=31
+4	that	that	SCONJ	IN	_	3	_	_	start_char=32|end_char=36
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=37|end_char=39
+6	just	just	ADV	RB	_	5	_	_	start_char=40|end_char=44
+7	stopped	stop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=45|end_char=52
+8	at	at	ADP	IN	_	7	_	_	start_char=53|end_char=55
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=56|end_char=59
+10	girl	girl	NOUN	NN	Number=Sing	9	_	_	start_char=60|end_char=64
+11	pissed	piss	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=65|end_char=71
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=72|end_char=74
+13	off	off	ADP	RP	_	12	_	_	start_char=75|end_char=78|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=78|end_char=79
+
+# text = I want to see her get fucking floored too.
+# sent_id = 95019
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=80|end_char=81
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=82|end_char=86
+3	to	to	PART	TO	_	2	_	_	start_char=87|end_char=89
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	start_char=90|end_char=93
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=94|end_char=97
+6	get	get	VERB	VB	VerbForm=Inf	5	_	_	start_char=98|end_char=101
+7	fucking	fucking	ADV	RB	_	6	_	_	start_char=102|end_char=109
+8	floored	floor	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=110|end_char=117
+9	too	too	ADV	RB	_	8	_	_	start_char=118|end_char=121|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=121|end_char=122
+
+# text = She even kicks him.
+# sent_id = 95020
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=123|end_char=126
+2	even	even	ADV	RB	_	1	_	_	start_char=127|end_char=131
+3	kicks	kick	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=132|end_char=137
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=138|end_char=141|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=141|end_char=142
+
+# text = Until guys stop being white knights, we will never win.
+# sent_id = 95021
+1	Until	until	SCONJ	IN	_	0	_	_	start_char=143|end_char=148
+2	guys	guy	NOUN	NNS	Number=Plur	1	_	_	start_char=149|end_char=153
+3	stop	stop	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=154|end_char=158
+4	being	be	AUX	VBG	VerbForm=Ger	3	_	_	start_char=159|end_char=164
+5	white	white	ADJ	JJ	Degree=Pos	4	_	_	start_char=165|end_char=170
+6	knights	Knight	NOUN	NNS	Number=Plur	5	_	_	start_char=171|end_char=178|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=178|end_char=179
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	_	_	start_char=180|end_char=182
+9	will	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=183|end_char=187
+10	never	never	ADV	RB	_	9	_	_	start_char=188|end_char=193
+11	win	win	VERB	VB	VerbForm=Inf	10	_	_	start_char=194|end_char=197|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=197|end_char=198|SpaceAfter=No
+

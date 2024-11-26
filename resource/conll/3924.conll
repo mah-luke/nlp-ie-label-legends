@@ -1,0 +1,36 @@
+# text = This makes sense.
+# sent_id = 8304
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=10
+3	sense	sense	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=16|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=16|end_char=17
+
+# text = And I agree with you.
+# sent_id = 8305
+1	And	and	CCONJ	CC	_	0	_	_	start_char=18|end_char=21
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=22|end_char=23
+3	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=24|end_char=29
+4	with	with	ADP	IN	_	3	_	_	start_char=30|end_char=34
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=35|end_char=38|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=38|end_char=39
+
+# text = But sometimes I'm just in the mood to dance with a girl all night.
+# sent_id = 8306
+1	But	but	CCONJ	CC	_	0	_	_	start_char=40|end_char=43
+2	sometimes	sometimes	ADV	RB	_	1	_	_	start_char=44|end_char=53
+3-4	I'm	_	_	_	_	_	_	_	start_char=54|end_char=57
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=54|end_char=55
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=55|end_char=57
+5	just	just	ADV	RB	_	4	_	_	start_char=58|end_char=62
+6	in	in	ADP	IN	_	5	_	_	start_char=63|end_char=65
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=66|end_char=69
+8	mood	mood	NOUN	NN	Number=Sing	7	_	_	start_char=70|end_char=74
+9	to	to	PART	TO	_	8	_	_	start_char=75|end_char=77
+10	dance	dance	VERB	VB	VerbForm=Inf	9	_	_	start_char=78|end_char=83
+11	with	with	ADP	IN	_	10	_	_	start_char=84|end_char=88
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=89|end_char=90
+13	girl	girl	NOUN	NN	Number=Sing	12	_	_	start_char=91|end_char=95
+14	all	all	DET	DT	_	13	_	_	start_char=96|end_char=99
+15	night	night	NOUN	NN	Number=Sing	14	_	_	start_char=100|end_char=105|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=105|end_char=106|SpaceAfter=No
+

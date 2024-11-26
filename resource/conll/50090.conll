@@ -1,0 +1,48 @@
+# text = [USER], and Hillary is a old 70... not a young 70.
+# sent_id = 107061
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=6|end_char=7
+5	and	and	CCONJ	CC	_	4	_	_	start_char=8|end_char=11
+6	Hillary	Hillary	PROPN	NNP	Number=Sing	5	_	_	start_char=12|end_char=19
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=20|end_char=22
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=23|end_char=24
+9	old	old	ADJ	JJ	Degree=Pos	8	_	_	start_char=25|end_char=28
+10	70	70	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=29|end_char=31|SpaceAfter=No
+11	...	...	PUNCT	,	_	10	_	_	start_char=31|end_char=34
+12	not	not	PART	RB	_	11	_	_	start_char=35|end_char=38
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=39|end_char=40
+14	young	young	ADJ	JJ	Degree=Pos	13	_	_	start_char=41|end_char=46
+15	70	70	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=47|end_char=49|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=49|end_char=50
+
+# text = There have been plenty of women who were/are far younger than their years.
+# sent_id = 107062
+1	There	there	PRON	EX	_	0	_	_	start_char=51|end_char=56
+2	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=57|end_char=61
+3	been	be	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=62|end_char=66
+4	plenty	plenty	NOUN	NN	Number=Sing	3	_	_	start_char=67|end_char=73
+5	of	of	ADP	IN	_	4	_	_	start_char=74|end_char=76
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=77|end_char=82
+7	who	who	PRON	WP	PronType=Rel	6	_	_	start_char=83|end_char=86
+8	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=87|end_char=91|SpaceAfter=No
+9	/	/	SYM	,	_	8	_	_	start_char=91|end_char=92|SpaceAfter=No
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=92|end_char=95
+11	far	far	ADV	RB	Degree=Pos	10	_	_	start_char=96|end_char=99
+12	younger	young	ADJ	JJR	Degree=Cmp	11	_	_	start_char=100|end_char=107
+13	than	than	ADP	IN	_	12	_	_	start_char=108|end_char=112
+14	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=113|end_char=118
+15	years	year	NOUN	NNS	Number=Plur	14	_	_	start_char=119|end_char=124|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=124|end_char=125
+
+# text = Hillary is not one of them.
+# sent_id = 107063
+1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=126|end_char=133
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=134|end_char=136
+3	not	not	PART	RB	_	2	_	_	start_char=137|end_char=140
+4	one	one	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=141|end_char=144
+5	of	of	ADP	IN	_	4	_	_	start_char=145|end_char=147
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=148|end_char=152|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=152|end_char=153|SpaceAfter=No
+

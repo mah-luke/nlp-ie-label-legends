@@ -1,0 +1,36 @@
+# text = If it happened to a girl, then the boy would be in deep shit.
+# sent_id = 28245
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=6|end_char=14
+4	to	to	ADP	IN	_	3	_	_	start_char=15|end_char=17
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=18|end_char=19
+6	girl	girl	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=24|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=24|end_char=25
+8	then	then	ADV	RB	PronType=Dem	7	_	_	start_char=26|end_char=30
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=31|end_char=34
+10	boy	boy	NOUN	NN	Number=Sing	9	_	_	start_char=35|end_char=38
+11	would	would	AUX	MD	VerbForm=Fin	10	_	_	start_char=39|end_char=44
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	start_char=45|end_char=47
+13	in	in	ADP	IN	_	12	_	_	start_char=48|end_char=50
+14	deep	deep	ADJ	JJ	Degree=Pos	13	_	_	start_char=51|end_char=55
+15	shit	shit	NOUN	NN	Number=Sing	14	_	_	start_char=56|end_char=60|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=60|end_char=61
+
+# text = No matter the age or gender, it’s still technically sexual assault
+# sent_id = 28246
+1	No	no	DET	DT	_	0	_	_	start_char=62|end_char=64
+2	matter	matter	NOUN	NN	Number=Sing	1	_	_	start_char=65|end_char=71
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=72|end_char=75
+4	age	age	NOUN	NN	Number=Sing	3	_	_	start_char=76|end_char=79
+5	or	or	CCONJ	CC	_	4	_	_	start_char=80|end_char=82
+6	gender	gender	NOUN	NN	Number=Sing	5	_	_	start_char=83|end_char=89|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=89|end_char=90
+8-9	it’s	_	_	_	_	_	_	_	start_char=91|end_char=95
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=91|end_char=93
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=93|end_char=95
+10	still	still	ADV	RB	_	9	_	_	start_char=96|end_char=101
+11	technically	technically	ADV	RB	_	10	_	_	start_char=102|end_char=113
+12	sexual	sexual	ADJ	JJ	Degree=Pos	11	_	_	start_char=114|end_char=120
+13	assault	assault	NOUN	NN	Number=Sing	12	_	_	start_char=121|end_char=128|SpaceAfter=No
+

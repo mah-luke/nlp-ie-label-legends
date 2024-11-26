@@ -1,0 +1,65 @@
+# text = Cat
+# sent_id = 84255
+1	Cat	cat	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3
+
+# text = Im sorry I barked at you but the cult stuff by your name is may be giving ppl the wrong impression.
+# sent_id = 84256
+1-2	Im	_	_	_	_	_	_	_	start_char=4|end_char=6
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=4|end_char=5
+2	m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=6
+3	sorry	sorry	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=12
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=13|end_char=14
+5	barked	bark	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=15|end_char=21
+6	at	at	ADP	IN	_	5	_	_	start_char=22|end_char=24
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=25|end_char=28
+8	but	but	CCONJ	CC	_	7	_	_	start_char=29|end_char=32
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=33|end_char=36
+10	cult	cult	NOUN	NN	Number=Sing	9	_	_	start_char=37|end_char=41
+11	stuff	stuff	NOUN	NN	Number=Sing	10	_	_	start_char=42|end_char=47
+12	by	by	ADP	IN	_	11	_	_	start_char=48|end_char=50
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=51|end_char=55
+14	name	name	NOUN	NN	Number=Sing	13	_	_	start_char=56|end_char=60
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=61|end_char=63
+16	may	may	AUX	MD	VerbForm=Fin	15	_	_	start_char=64|end_char=67
+17	be	be	AUX	VB	VerbForm=Inf	16	_	_	start_char=68|end_char=70
+18	giving	give	VERB	VBG	Tense=Pres|VerbForm=Part	17	_	_	start_char=71|end_char=77
+19	ppl	people	ADP	IN	_	18	_	_	start_char=78|end_char=81
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=82|end_char=85
+21	wrong	wrong	ADJ	JJ	Degree=Pos	20	_	_	start_char=86|end_char=91
+22	impression	impression	NOUN	NN	Number=Sing	21	_	_	start_char=92|end_char=102|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=102|end_char=103
+
+# text = No man woman or child should ever be abused.
+# sent_id = 84257
+1	No	no	DET	DT	_	0	_	_	start_char=104|end_char=106
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=107|end_char=110
+3	woman	woman	NOUN	NN	Number=Sing	2	_	_	start_char=111|end_char=116
+4	or	or	CCONJ	CC	_	3	_	_	start_char=117|end_char=119
+5	child	child	NOUN	NN	Number=Sing	4	_	_	start_char=120|end_char=125
+6	should	should	AUX	MD	VerbForm=Fin	5	_	_	start_char=126|end_char=132
+7	ever	ever	ADV	RB	_	6	_	_	start_char=133|end_char=137
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=138|end_char=140
+9	abused	abuse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=141|end_char=147|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=147|end_char=148
+
+# text = Theyre trying to make this normal..I call it "grooming of society".
+# sent_id = 84258
+1-2	Theyre	_	_	_	_	_	_	_	start_char=149|end_char=155
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=149|end_char=153
+2	re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=153|end_char=155
+3	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=156|end_char=162
+4	to	to	PART	TO	_	3	_	_	start_char=163|end_char=165
+5	make	make	VERB	VB	VerbForm=Inf	4	_	_	start_char=166|end_char=170
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=171|end_char=175
+7	normal	normal	ADJ	JJ	Degree=Pos	6	_	_	start_char=176|end_char=182|SpaceAfter=No
+8	..	..	PUNCT	,	_	7	_	_	start_char=182|end_char=184|SpaceAfter=No
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=184|end_char=185
+10	call	call	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=186|end_char=190
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=191|end_char=193
+12	"	"	PUNCT	``	_	11	_	_	start_char=194|end_char=195|SpaceAfter=No
+13	grooming	grooming	NOUN	NN	Number=Sing	12	_	_	start_char=195|end_char=203
+14	of	of	ADP	IN	_	13	_	_	start_char=204|end_char=206
+15	society	society	NOUN	NN	Number=Sing	14	_	_	start_char=207|end_char=214|SpaceAfter=No
+16	"	"	PUNCT	''	_	15	_	_	start_char=214|end_char=215|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=215|end_char=216|SpaceAfter=No
+

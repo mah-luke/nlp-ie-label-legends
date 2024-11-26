@@ -1,0 +1,40 @@
+# text = They are more natural than us.
+# sent_id = 34347
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=4
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	more	more	ADV	RBR	Degree=Cmp	2	_	_	start_char=9|end_char=13
+4	natural	natural	ADJ	JJ	Degree=Pos	3	_	_	start_char=14|end_char=21
+5	than	than	ADP	IN	_	4	_	_	start_char=22|end_char=26
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=27|end_char=29|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=29|end_char=30
+
+# text = They dont accept or tolerate gynocentrism.
+# sent_id = 34348
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=31|end_char=35
+2-3	dont	_	_	_	_	_	_	_	start_char=36|end_char=40
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=38
+3	nt	not	PART	RB	_	2	_	_	start_char=38|end_char=40
+4	accept	accept	VERB	VB	VerbForm=Inf	3	_	_	start_char=41|end_char=47
+5	or	or	CCONJ	CC	_	4	_	_	start_char=48|end_char=50
+6	tolerate	tolerate	VERB	VB	VerbForm=Inf	5	_	_	start_char=51|end_char=59
+7	gynocentrism	gynocentrism	NOUN	NN	Number=Sing	6	_	_	start_char=60|end_char=72|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=72|end_char=73
+
+# text = Unlike the west who apparently is ok with whatever bullshit women say and do.
+# sent_id = 34349
+1	Unlike	unlike	ADP	IN	_	0	_	_	start_char=74|end_char=80
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=81|end_char=84
+3	west	west	NOUN	NN	Number=Sing	2	_	_	start_char=85|end_char=89
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=90|end_char=93
+5	apparently	apparently	ADV	RB	_	4	_	_	start_char=94|end_char=104
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=105|end_char=107
+7	ok	ok	ADJ	JJ	Degree=Pos	6	_	_	start_char=108|end_char=110
+8	with	with	ADP	IN	_	7	_	_	start_char=111|end_char=115
+9	whatever	whatever	DET	WDT	PronType=Int	8	_	_	start_char=116|end_char=124
+10	bullshit	bullshit	NOUN	NN	Number=Sing	9	_	_	start_char=125|end_char=133
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=134|end_char=139
+12	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=140|end_char=143
+13	and	and	CCONJ	CC	_	12	_	_	start_char=144|end_char=147
+14	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=148|end_char=150|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=150|end_char=151|SpaceAfter=No
+

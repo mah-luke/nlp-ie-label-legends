@@ -1,0 +1,41 @@
+# text = A quarter of a $million$ for this slag to buy enough sexy stuff to get laid?
+# sent_id = 41616
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
+2	quarter	quarter	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	1	_	_	start_char=2|end_char=9
+3	of	of	ADP	IN	_	2	_	_	start_char=10|end_char=12
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=13|end_char=14
+5	$	$	SYM	$	_	4	_	_	start_char=15|end_char=16|SpaceAfter=No
+6	million	million	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=16|end_char=23|SpaceAfter=No
+7	$	$	SYM	$	_	6	_	_	start_char=23|end_char=24
+8	for	for	ADP	IN	_	7	_	_	start_char=25|end_char=28
+9	this	this	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=29|end_char=33
+10	slag	slag	NOUN	NN	Number=Sing	9	_	_	start_char=34|end_char=38
+11	to	to	PART	TO	_	10	_	_	start_char=39|end_char=41
+12	buy	buy	VERB	VB	VerbForm=Inf	11	_	_	start_char=42|end_char=45
+13	enough	enough	ADJ	JJ	Degree=Pos	12	_	_	start_char=46|end_char=52
+14	sexy	sexy	ADJ	JJ	Degree=Pos	13	_	_	start_char=53|end_char=57
+15	stuff	stuff	NOUN	NN	Number=Sing	14	_	_	start_char=58|end_char=63
+16	to	to	PART	TO	_	15	_	_	start_char=64|end_char=66
+17	get	get	AUX	VB	VerbForm=Inf	16	_	_	start_char=67|end_char=70
+18	laid	lay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	_	_	start_char=71|end_char=75|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=75|end_char=76
+
+# text = She should have just brought her own paper bag!
+# sent_id = 41617
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=77|end_char=80
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=81|end_char=87
+3	have	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=88|end_char=92
+4	just	just	ADV	RB	_	3	_	_	start_char=93|end_char=97
+5	brought	bring	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=98|end_char=105
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=106|end_char=109
+7	own	own	ADJ	JJ	Degree=Pos	6	_	_	start_char=110|end_char=113
+8	paper	paper	NOUN	NN	Number=Sing	7	_	_	start_char=114|end_char=119
+9	bag	bag	NOUN	NN	Number=Sing	8	_	_	start_char=120|end_char=123|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=123|end_char=124
+
+# text = [URL]
+# sent_id = 41618
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=125|end_char=126|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=126|end_char=129|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=129|end_char=130|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = Look, man, yes it is harder, but don’t let it get you down.
+# sent_id = 102889
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	man	man	INTJ	UH	_	2	_	_	start_char=6|end_char=9|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=9|end_char=10
+5	yes	yes	INTJ	UH	_	4	_	_	start_char=11|end_char=14
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=15|end_char=17
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=18|end_char=20
+8	harder	hard	ADJ	JJR	Degree=Cmp	7	_	_	start_char=21|end_char=27|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=27|end_char=28
+10	but	but	CCONJ	CC	_	9	_	_	start_char=29|end_char=32
+11-12	don’t	_	_	_	_	_	_	_	start_char=33|end_char=38
+11	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=33|end_char=35
+12	n’t	not	PART	RB	_	11	_	_	start_char=35|end_char=38
+13	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=39|end_char=42
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=43|end_char=45
+15	get	get	VERB	VB	VerbForm=Inf	14	_	_	start_char=46|end_char=49
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	_	_	start_char=50|end_char=53
+17	down	down	ADP	RP	_	16	_	_	start_char=54|end_char=58|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=58|end_char=59
+
+# text = Play the hand you’re dealt and live life to the fullest, woman or no woman.
+# sent_id = 102890
+1	Play	play	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=60|end_char=64
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=65|end_char=68
+3	hand	hand	NOUN	NN	Number=Sing	2	_	_	start_char=69|end_char=73
+4-5	you’re	_	_	_	_	_	_	_	start_char=74|end_char=80
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=74|end_char=77
+5	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=77|end_char=80
+6	dealt	deal	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=81|end_char=86
+7	and	and	CCONJ	CC	_	6	_	_	start_char=87|end_char=90
+8	live	live	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=91|end_char=95
+9	life	life	NOUN	NN	Number=Sing	8	_	_	start_char=96|end_char=100
+10	to	to	ADP	IN	_	9	_	_	start_char=101|end_char=103
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=104|end_char=107
+12	fullest	full	ADJ	JJS	Degree=Sup	11	_	_	start_char=108|end_char=115|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=115|end_char=116
+14	woman	woman	NOUN	NN	Number=Sing	13	_	_	start_char=117|end_char=122
+15	or	or	CCONJ	CC	_	14	_	_	start_char=123|end_char=125
+16	no	no	DET	DT	_	15	_	_	start_char=126|end_char=128
+17	woman	woman	NOUN	NN	Number=Sing	16	_	_	start_char=129|end_char=134|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=134|end_char=135|SpaceAfter=No
+

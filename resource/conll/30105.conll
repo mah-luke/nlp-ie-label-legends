@@ -1,0 +1,39 @@
+# text = Lol - a story from another culture.
+# sent_id = 64500
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	-	-	PUNCT	HYPH	_	1	_	_	start_char=4|end_char=5
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=6|end_char=7
+4	story	story	NOUN	NN	Number=Sing	3	_	_	start_char=8|end_char=13
+5	from	from	ADP	IN	_	4	_	_	start_char=14|end_char=18
+6	another	another	DET	DT	_	5	_	_	start_char=19|end_char=26
+7	culture	culture	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=34|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=34|end_char=35
+
+# text = 2000 years, all Eves destroy all edens.
+# sent_id = 64501
+1	2000	2000	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=36|end_char=40
+2	years	year	NOUN	NNS	Number=Plur	1	_	_	start_char=41|end_char=46|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=46|end_char=47
+4	all	all	DET	DT	_	3	_	_	start_char=48|end_char=51
+5	Eves	Eves	PROPN	NNPS	Number=Plur	4	_	_	start_char=52|end_char=56
+6	destroy	destroy	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=57|end_char=64
+7	all	all	DET	DT	_	6	_	_	start_char=65|end_char=68
+8	edens	eden	NOUN	NNS	Number=Plur	7	_	_	start_char=69|end_char=74|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=74|end_char=75
+
+# text = 4000 years, (epic of Gilgamesh) all women belittle men.
+# sent_id = 64502
+1	4000	4000	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=76|end_char=80
+2	years	year	NOUN	NNS	Number=Plur	1	_	_	start_char=81|end_char=86|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=86|end_char=87
+4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=88|end_char=89|SpaceAfter=No
+5	epic	epic	NOUN	NN	Number=Sing	4	_	_	start_char=89|end_char=93
+6	of	of	ADP	IN	_	5	_	_	start_char=94|end_char=96
+7	Gilgamesh	Gilgamesh	PROPN	NNP	Number=Sing	6	_	_	start_char=97|end_char=106|SpaceAfter=No
+8	)	)	PUNCT	-RRB-	_	7	_	_	start_char=106|end_char=107
+9	all	all	DET	DT	_	8	_	_	start_char=108|end_char=111
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=112|end_char=117
+11	belittle	belittle	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=118|end_char=126
+12	men	man	NOUN	NNS	Number=Plur	11	_	_	start_char=127|end_char=130|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=130|end_char=131|SpaceAfter=No
+

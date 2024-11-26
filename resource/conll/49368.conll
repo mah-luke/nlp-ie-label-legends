@@ -1,0 +1,27 @@
+# text = Have you tried online dating?
+# sent_id = 105555
+1	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=5|end_char=8
+3	tried	try	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=9|end_char=14
+4	online	online	ADJ	JJ	Degree=Pos	3	_	_	start_char=15|end_char=21
+5	dating	dating	NOUN	NN	Number=Sing	4	_	_	start_char=22|end_char=28|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=28|end_char=29
+
+# text = (I'm being serious, it can't hurt to try)
+# sent_id = 105556
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=30|end_char=31|SpaceAfter=No
+2-3	I'm	_	_	_	_	_	_	_	start_char=31|end_char=34
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=31|end_char=32
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=32|end_char=34
+4	being	be	AUX	VBG	VerbForm=Ger	3	_	_	start_char=35|end_char=40
+5	serious	serious	ADJ	JJ	Degree=Pos	4	_	_	start_char=41|end_char=48|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=48|end_char=49
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=50|end_char=52
+8-9	can't	_	_	_	_	_	_	_	start_char=53|end_char=58
+8	ca	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=53|end_char=55
+9	n't	not	PART	RB	_	8	_	_	start_char=55|end_char=58
+10	hurt	hurt	VERB	VB	VerbForm=Inf	9	_	_	start_char=59|end_char=63
+11	to	to	PART	TO	_	10	_	_	start_char=64|end_char=66
+12	try	try	VERB	VB	VerbForm=Inf	11	_	_	start_char=67|end_char=70|SpaceAfter=No
+13	)	)	PUNCT	-RRB-	_	12	_	_	start_char=70|end_char=71|SpaceAfter=No
+

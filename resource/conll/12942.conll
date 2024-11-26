@@ -1,0 +1,22 @@
+# text = Fuck yes!
+# sent_id = 27483
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	yes	yes	INTJ	UH	_	1	_	_	start_char=5|end_char=8|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=8|end_char=9
+
+# text = Bus ride bitches... they're fucking criminals for goodness sake...
+# sent_id = 27484
+1	Bus	bus	NOUN	NN	Number=Sing	0	_	_	start_char=10|end_char=13
+2	ride	ride	NOUN	NN	Number=Sing	1	_	_	start_char=14|end_char=18
+3	bitches	bitch	NOUN	NNS	Number=Plur	2	_	_	start_char=19|end_char=26|SpaceAfter=No
+4	...	...	PUNCT	,	_	3	_	_	start_char=26|end_char=29
+5-6	they're	_	_	_	_	_	_	_	start_char=30|end_char=37
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=30|end_char=34
+6	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=34|end_char=37
+7	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=38|end_char=45
+8	criminals	criminal	NOUN	NNS	Number=Plur	7	_	_	start_char=46|end_char=55
+9	for	for	ADP	IN	_	8	_	_	start_char=56|end_char=59
+10	goodness	goodness	NOUN	NN	Number=Sing	9	_	_	start_char=60|end_char=68
+11	sake	sake	NOUN	NN	Number=Sing	10	_	_	start_char=69|end_char=73|SpaceAfter=No
+12	...	...	PUNCT	.	_	11	_	_	start_char=73|end_char=76|SpaceAfter=No
+

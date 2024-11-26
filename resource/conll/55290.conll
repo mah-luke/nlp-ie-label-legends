@@ -1,0 +1,68 @@
+# text = [USER]
+# sent_id = 118128
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = It's already been going on for some time, and you're totally right, it will try to enslave us with ultimate control.
+# sent_id = 118129
+1-2	It's	_	_	_	_	_	_	_	start_char=7|end_char=11
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=9
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=11
+3	already	already	ADV	RB	_	2	_	_	start_char=12|end_char=19
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=20|end_char=24
+5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=25|end_char=30
+6	on	on	ADP	RP	_	5	_	_	start_char=31|end_char=33
+7	for	for	ADP	IN	_	6	_	_	start_char=34|end_char=37
+8	some	some	DET	DT	_	7	_	_	start_char=38|end_char=42
+9	time	time	NOUN	NN	Number=Sing	8	_	_	start_char=43|end_char=47|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=47|end_char=48
+11	and	and	CCONJ	CC	_	10	_	_	start_char=49|end_char=52
+12-13	you're	_	_	_	_	_	_	_	start_char=53|end_char=59
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=53|end_char=56
+13	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=56|end_char=59
+14	totally	totally	ADV	RB	_	13	_	_	start_char=60|end_char=67
+15	right	right	ADJ	JJ	Degree=Pos	14	_	_	start_char=68|end_char=73|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=73|end_char=74
+17	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=75|end_char=77
+18	will	will	AUX	MD	VerbForm=Fin	17	_	_	start_char=78|end_char=82
+19	try	try	VERB	VB	VerbForm=Inf	18	_	_	start_char=83|end_char=86
+20	to	to	PART	TO	_	19	_	_	start_char=87|end_char=89
+21	enslave	enslave	VERB	VB	VerbForm=Inf	20	_	_	start_char=90|end_char=97
+22	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	21	_	_	start_char=98|end_char=100
+23	with	with	ADP	IN	_	22	_	_	start_char=101|end_char=105
+24	ultimate	ultimate	ADJ	JJ	Degree=Pos	23	_	_	start_char=106|end_char=114
+25	control	control	NOUN	NN	Number=Sing	24	_	_	start_char=115|end_char=122|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=122|end_char=123
+
+# text = Jason A's latest vid shares some creepy-totally-f*cked measure being set in place to lose complete anonymity #GabFam [URL]
+# sent_id = 118130
+1	Jason	Jason	PROPN	NNP	Number=Sing	0	_	_	start_char=124|end_char=129
+2-3	A's	_	_	_	_	_	_	_	start_char=130|end_char=133
+2	A	A	PROPN	NNP	Number=Sing	1	_	_	start_char=130|end_char=131
+3	's	's	PART	POS	_	2	_	_	start_char=131|end_char=133
+4	latest	late	ADJ	JJS	Degree=Sup	3	_	_	start_char=134|end_char=140
+5	vid	vid	NOUN	NN	Number=Sing	4	_	_	start_char=141|end_char=144
+6	shares	share	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=145|end_char=151
+7	some	some	DET	DT	_	6	_	_	start_char=152|end_char=156
+8	creepy	creepy	ADJ	JJ	Degree=Pos	7	_	_	start_char=157|end_char=163|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	_	_	start_char=163|end_char=164|SpaceAfter=No
+10	totally	totally	ADV	RB	_	9	_	_	start_char=164|end_char=171|SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	10	_	_	start_char=171|end_char=172|SpaceAfter=No
+12	f*	f*	NOUN	NN	Number=Sing	11	_	_	start_char=172|end_char=174|SpaceAfter=No
+13	cked	cked	NOUN	NN	Number=Sing	12	_	_	start_char=174|end_char=178
+14	measure	measure	NOUN	NN	Number=Sing	13	_	_	start_char=179|end_char=186
+15	being	be	AUX	VBG	VerbForm=Ger	14	_	_	start_char=187|end_char=192
+16	set	set	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	_	_	start_char=193|end_char=196
+17	in	in	ADP	IN	_	16	_	_	start_char=197|end_char=199
+18	place	place	NOUN	NN	Number=Sing	17	_	_	start_char=200|end_char=205
+19	to	to	PART	TO	_	18	_	_	start_char=206|end_char=208
+20	lose	lose	VERB	VB	VerbForm=Inf	19	_	_	start_char=209|end_char=213
+21	complete	complete	ADJ	JJ	Degree=Pos	20	_	_	start_char=214|end_char=222
+22	anonymity	anonymity	NOUN	NN	Number=Sing	21	_	_	start_char=223|end_char=232
+23	#	#	SYM	NN	Number=Sing	22	_	_	start_char=233|end_char=234|SpaceAfter=No
+24	GabFam	GabFam	PROPN	NNP	Number=Sing	23	_	_	start_char=234|end_char=240
+25	[	[	PUNCT	-LRB-	_	24	_	_	start_char=241|end_char=242|SpaceAfter=No
+26	URL	URL	PROPN	NNP	Number=Sing	25	_	_	start_char=242|end_char=245|SpaceAfter=No
+27	]	]	PUNCT	-RRB-	_	26	_	_	start_char=245|end_char=246|SpaceAfter=No
+

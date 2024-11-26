@@ -1,0 +1,40 @@
+# text = Buh' -
+# sent_id = 12132
+1	Buh	buh	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	'	'	PUNCT	''	_	1	_	_	start_char=3|end_char=4
+3	-	-	PUNCT	,	_	2	_	_	start_char=5|end_char=6
+
+# text = What happened to "I'm with her" and "Vote Vagina"?
+# sent_id = 12133
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=7|end_char=11
+2	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=12|end_char=20
+3	to	to	ADP	IN	_	2	_	_	start_char=21|end_char=23
+4	"	"	PUNCT	``	_	3	_	_	start_char=24|end_char=25|SpaceAfter=No
+5-6	I'm	_	_	_	_	_	_	_	start_char=25|end_char=28
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=25|end_char=26
+6	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=26|end_char=28
+7	with	with	ADP	IN	_	6	_	_	start_char=29|end_char=33
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=34|end_char=37|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=37|end_char=38
+10	and	and	CCONJ	CC	_	9	_	_	start_char=39|end_char=42
+11	"	"	PUNCT	``	_	10	_	_	start_char=43|end_char=44|SpaceAfter=No
+12	Vote	vote	PROPN	NNP	Number=Sing	11	_	_	start_char=44|end_char=48
+13	Vagina	Vagina	PROPN	NNP	Number=Sing	12	_	_	start_char=49|end_char=55|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=55|end_char=56|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=56|end_char=57
+
+# text = I guess they only like vagina's that push their agenda
+# sent_id = 12134
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=58|end_char=59
+2	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=60|end_char=65
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=66|end_char=70
+4	only	only	ADV	RB	_	3	_	_	start_char=71|end_char=75
+5	like	like	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=76|end_char=80
+6-7	vagina's	_	_	_	_	_	_	_	start_char=81|end_char=89
+6	vagina	vagina	NOUN	NN	Number=Sing	5	_	_	start_char=81|end_char=87
+7	's	's	PART	POS	_	6	_	_	start_char=87|end_char=89
+8	that	that	PRON	WDT	PronType=Rel	7	_	_	start_char=90|end_char=94
+9	push	push	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=95|end_char=99
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=100|end_char=105
+11	agenda	agenda	NOUN	NN	Number=Sing	10	_	_	start_char=106|end_char=112|SpaceAfter=No
+

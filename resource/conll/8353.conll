@@ -1,0 +1,45 @@
+# text = "Yuck" "ew" "Get away from me" "Disgusting" I stopped engaging girls a long time ago.
+# sent_id = 17531
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Yuck	yuck	INTJ	UH	_	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	"	"	PUNCT	''	_	2	_	_	start_char=5|end_char=6
+4	"	"	PUNCT	``	_	3	_	_	start_char=7|end_char=8|SpaceAfter=No
+5	ew	ew	NOUN	NN	Number=Sing	4	_	_	start_char=8|end_char=10|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=10|end_char=11
+7	"	"	PUNCT	``	_	6	_	_	start_char=12|end_char=13|SpaceAfter=No
+8	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=13|end_char=16
+9	away	away	ADV	RB	_	8	_	_	start_char=17|end_char=21
+10	from	from	ADP	IN	_	9	_	_	start_char=22|end_char=26
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=27|end_char=29|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=29|end_char=30
+13	"	"	PUNCT	``	_	12	_	_	start_char=31|end_char=32|SpaceAfter=No
+14	Disgusting	disgusting	ADJ	JJ	Degree=Pos	13	_	_	start_char=32|end_char=42|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=42|end_char=43
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=44|end_char=45
+17	stopped	stop	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	_	_	start_char=46|end_char=53
+18	engaging	engage	VERB	VBG	VerbForm=Ger	17	_	_	start_char=54|end_char=62
+19	girls	girl	NOUN	NNS	Number=Plur	18	_	_	start_char=63|end_char=68
+20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	start_char=69|end_char=70
+21	long	long	ADJ	JJ	Degree=Pos	20	_	_	start_char=71|end_char=75
+22	time	time	NOUN	NN	Number=Sing	21	_	_	start_char=76|end_char=80
+23	ago	ago	ADV	RB	_	22	_	_	start_char=81|end_char=84|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=84|end_char=85
+
+# text = Confidence isn't attainable when it's nuked from time to time.
+# sent_id = 17532
+1	Confidence	confidence	NOUN	NN	Number=Sing	0	_	_	start_char=86|end_char=96
+2-3	isn't	_	_	_	_	_	_	_	start_char=97|end_char=102
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=97|end_char=99
+3	n't	not	PART	RB	_	2	_	_	start_char=99|end_char=102
+4	attainable	attainable	ADJ	JJ	Degree=Pos	3	_	_	start_char=103|end_char=113
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=114|end_char=118
+6-7	it's	_	_	_	_	_	_	_	start_char=119|end_char=123
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=119|end_char=121
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=121|end_char=123
+8	nuked	nuke	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=124|end_char=129
+9	from	from	ADP	IN	_	8	_	_	start_char=130|end_char=134
+10	time	time	NOUN	NN	Number=Sing	9	_	_	start_char=135|end_char=139
+11	to	to	ADP	IN	_	10	_	_	start_char=140|end_char=142
+12	time	time	NOUN	NN	Number=Sing	11	_	_	start_char=143|end_char=147|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=147|end_char=148|SpaceAfter=No
+

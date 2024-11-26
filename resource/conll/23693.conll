@@ -1,0 +1,40 @@
+# text = What the fuck?
+# sent_id = 50855
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=5|end_char=8
+3	fuck	fuck	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=13|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=13|end_char=14
+
+# text = That's not even close to empowerment.
+# sent_id = 50856
+1-2	That's	_	_	_	_	_	_	_	start_char=15|end_char=21
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=15|end_char=19
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=19|end_char=21
+3	not	not	PART	RB	_	2	_	_	start_char=22|end_char=25
+4	even	even	ADV	RB	_	3	_	_	start_char=26|end_char=30
+5	close	close	ADJ	JJ	Degree=Pos	4	_	_	start_char=31|end_char=36
+6	to	to	ADP	IN	_	5	_	_	start_char=37|end_char=39
+7	empowerment	empowerment	NOUN	NN	Number=Sing	6	_	_	start_char=40|end_char=51|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=51|end_char=52
+
+# text = Wouldn't you love being complimented?
+# sent_id = 50857
+1-2	Wouldn't	_	_	_	_	_	_	_	start_char=53|end_char=61
+1	Would	would	AUX	MD	VerbForm=Fin	0	_	_	start_char=53|end_char=58
+2	n't	not	PART	RB	_	1	_	_	start_char=58|end_char=61
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=62|end_char=65
+4	love	love	VERB	VB	VerbForm=Inf	3	_	_	start_char=66|end_char=70
+5	being	be	AUX	VBG	VerbForm=Ger	4	_	_	start_char=71|end_char=76
+6	complimented	compliment	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=77|end_char=89|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=89|end_char=90
+
+# text = She probably felt better about herself.
+# sent_id = 50858
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=91|end_char=94
+2	probably	probably	ADV	RB	_	1	_	_	start_char=95|end_char=103
+3	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=104|end_char=108
+4	better	good	ADJ	JJR	Degree=Cmp	3	_	_	start_char=109|end_char=115
+5	about	about	ADP	IN	_	4	_	_	start_char=116|end_char=121
+6	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	5	_	_	start_char=122|end_char=129|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=129|end_char=130|SpaceAfter=No
+

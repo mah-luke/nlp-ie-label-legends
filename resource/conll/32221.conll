@@ -1,0 +1,39 @@
+# text = "Woe to those who say evil is good and good is evil."
+# sent_id = 69066
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Woe	woe	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=4
+3	to	to	ADP	IN	_	2	_	_	start_char=5|end_char=7
+4	those	that	PRON	DT	Number=Plur|PronType=Dem	3	_	_	start_char=8|end_char=13
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=14|end_char=17
+6	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=18|end_char=21
+7	evil	evil	NOUN	NN	Number=Sing	6	_	_	start_char=22|end_char=26
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=27|end_char=29
+9	good	good	ADJ	JJ	Degree=Pos	8	_	_	start_char=30|end_char=34
+10	and	and	CCONJ	CC	_	9	_	_	start_char=35|end_char=38
+11	good	good	ADJ	JJ	Degree=Pos	10	_	_	start_char=39|end_char=43
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=44|end_char=46
+13	evil	evil	ADJ	JJ	Degree=Pos	12	_	_	start_char=47|end_char=51|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=51|end_char=52|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=52|end_char=53
+
+# text = Woe to u and your lies.
+# sent_id = 69067
+1	Woe	woe	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=54|end_char=57
+2	to	to	ADP	IN	_	1	_	_	start_char=58|end_char=60
+3	u	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=61|end_char=62
+4	and	and	CCONJ	CC	_	3	_	_	start_char=63|end_char=66
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=67|end_char=71
+6	lies	lie	NOUN	NNS	Number=Plur	5	_	_	start_char=72|end_char=76|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=76|end_char=77
+
+# text = U are a daughter of the devil.
+# sent_id = 69068
+1	U	U	PROPN	NNP	Number=Sing	0	_	_	start_char=78|end_char=79
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=80|end_char=83
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=84|end_char=85
+4	daughter	daughter	NOUN	NN	Number=Sing	3	_	_	start_char=86|end_char=94
+5	of	of	ADP	IN	_	4	_	_	start_char=95|end_char=97
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=98|end_char=101
+7	devil	devil	NOUN	NN	Number=Sing	6	_	_	start_char=102|end_char=107|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=107|end_char=108|SpaceAfter=No
+

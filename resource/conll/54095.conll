@@ -1,0 +1,48 @@
+# text = Ya, so...
+# sent_id = 115635
+1	Ya	you	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	so	so	ADV	RB	_	2	_	_	start_char=4|end_char=6|SpaceAfter=No
+4	...	...	PUNCT	.	_	3	_	_	start_char=6|end_char=9
+
+# text = Following her train of thought, a women shouldnt marry a man unless she can give him an ATV.
+# sent_id = 115636
+1	Following	follow	VERB	VBG	VerbForm=Ger	0	_	_	start_char=10|end_char=19
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=20|end_char=23
+3	train	train	NOUN	NN	Number=Sing	2	_	_	start_char=24|end_char=29
+4	of	of	ADP	IN	_	3	_	_	start_char=30|end_char=32
+5	thought	thought	NOUN	NN	Number=Sing	4	_	_	start_char=33|end_char=40|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=40|end_char=41
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=42|end_char=43
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=44|end_char=49
+9-10	shouldnt	_	_	_	_	_	_	_	start_char=50|end_char=58
+9	should	should	AUX	MD	VerbForm=Fin	8	_	_	start_char=50|end_char=56
+10	nt	not	PART	RB	_	9	_	_	start_char=56|end_char=58
+11	marry	marry	VERB	VB	VerbForm=Inf	10	_	_	start_char=59|end_char=64
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=65|end_char=66
+13	man	man	NOUN	NN	Number=Sing	12	_	_	start_char=67|end_char=70
+14	unless	unless	SCONJ	IN	_	13	_	_	start_char=71|end_char=77
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=78|end_char=81
+16	can	can	AUX	MD	VerbForm=Fin	15	_	_	start_char=82|end_char=85
+17	give	give	VERB	VB	VerbForm=Inf	16	_	_	start_char=86|end_char=90
+18	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=91|end_char=94
+19	an	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=95|end_char=97
+20	ATV	ATV	PROPN	NNP	Number=Sing	19	_	_	start_char=98|end_char=101|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=101|end_char=102
+
+# text = (Great Condition 250cc listed at about 3000$ at the moment)
+# sent_id = 115637
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=103|end_char=104|SpaceAfter=No
+2	Great	great	ADJ	JJ	Degree=Pos	1	_	_	start_char=104|end_char=109
+3	Condition	condition	NOUN	NN	Number=Sing	2	_	_	start_char=110|end_char=119
+4	250	250	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=120|end_char=123|SpaceAfter=No
+5	cc	cc	NOUN	NN	Number=Sing	4	_	_	start_char=123|end_char=125
+6	listed	list	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=126|end_char=132
+7	at	at	ADP	IN	_	6	_	_	start_char=133|end_char=135
+8	about	about	ADV	RB	_	7	_	_	start_char=136|end_char=141
+9	3000$	3000$	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=142|end_char=147
+10	at	at	ADP	IN	_	9	_	_	start_char=148|end_char=150
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=151|end_char=154
+12	moment	moment	NOUN	NN	Number=Sing	11	_	_	start_char=155|end_char=161|SpaceAfter=No
+13	)	)	PUNCT	-RRB-	_	12	_	_	start_char=161|end_char=162|SpaceAfter=No
+

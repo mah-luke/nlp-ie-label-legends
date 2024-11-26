@@ -1,0 +1,39 @@
+# text = I'm sincerely pleased that you appreciate the subtle balance between aggravated pettiness and subdued vengeance.
+# sent_id = 118726
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	sincerely	sincerely	ADV	RB	_	2	_	_	start_char=4|end_char=13
+4	pleased	pleased	ADJ	JJ	Degree=Pos	3	_	_	start_char=14|end_char=21
+5	that	that	SCONJ	IN	_	4	_	_	start_char=22|end_char=26
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=27|end_char=30
+7	appreciate	appreciate	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=31|end_char=41
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=42|end_char=45
+9	subtle	subtle	ADJ	JJ	Degree=Pos	8	_	_	start_char=46|end_char=52
+10	balance	balance	NOUN	NN	Number=Sing	9	_	_	start_char=53|end_char=60
+11	between	between	ADP	IN	_	10	_	_	start_char=61|end_char=68
+12	aggravated	aggravate	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=69|end_char=79
+13	pettiness	pettiness	NOUN	NN	Number=Sing	12	_	_	start_char=80|end_char=89
+14	and	and	CCONJ	CC	_	13	_	_	start_char=90|end_char=93
+15	subdued	subdued	ADJ	JJ	Degree=Pos	14	_	_	start_char=94|end_char=101
+16	vengeance	vengeance	NOUN	NN	Number=Sing	15	_	_	start_char=102|end_char=111|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=111|end_char=112
+
+# text = Also, I'd read all her emails and spit on her desk!
+# sent_id = 118727
+1	Also	also	ADV	RB	_	0	_	_	start_char=113|end_char=117|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=117|end_char=118
+3-4	I'd	_	_	_	_	_	_	_	start_char=119|end_char=122
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=119|end_char=120
+4	'd	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=120|end_char=122
+5	read	read	VERB	VB	VerbForm=Inf	4	_	_	start_char=123|end_char=127
+6	all	all	DET	PDT	_	5	_	_	start_char=128|end_char=131
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=132|end_char=135
+8	emails	email	NOUN	NNS	Number=Plur	7	_	_	start_char=136|end_char=142
+9	and	and	CCONJ	CC	_	8	_	_	start_char=143|end_char=146
+10	spit	spit	VERB	VB	VerbForm=Inf	9	_	_	start_char=147|end_char=151
+11	on	on	ADP	IN	_	10	_	_	start_char=152|end_char=154
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=155|end_char=158
+13	desk	desk	NOUN	NN	Number=Sing	12	_	_	start_char=159|end_char=163|SpaceAfter=No
+14	!	!	PUNCT	.	_	13	_	_	start_char=163|end_char=164|SpaceAfter=No
+

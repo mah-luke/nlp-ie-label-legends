@@ -1,0 +1,40 @@
+# text = Grammar is SO important!
+# sent_id = 56232
+1	Grammar	grammar	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=7
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=10
+3	SO	so	ADV	RB	_	2	_	_	start_char=11|end_char=13
+4	important	important	ADJ	JJ	Degree=Pos	3	_	_	start_char=14|end_char=23|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=23|end_char=24
+
+# text = Don't you just hate it when people mix up "Their" and "They're"? 😁
+# sent_id = 56233
+1-2	Don't	_	_	_	_	_	_	_	start_char=25|end_char=30
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=25|end_char=27
+2	n't	not	PART	RB	_	1	_	_	start_char=27|end_char=30
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=31|end_char=34
+4	just	just	ADV	RB	_	3	_	_	start_char=35|end_char=39
+5	hate	hate	VERB	VB	VerbForm=Inf	4	_	_	start_char=40|end_char=44
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=45|end_char=47
+7	when	when	ADV	WRB	PronType=Int	6	_	_	start_char=48|end_char=52
+8	people	person	NOUN	NNS	Number=Plur	7	_	_	start_char=53|end_char=59
+9	mix	mix	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=60|end_char=63
+10	up	up	ADP	RP	_	9	_	_	start_char=64|end_char=66
+11	"	"	PUNCT	``	_	10	_	_	start_char=67|end_char=68|SpaceAfter=No
+12	Their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=68|end_char=73|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=73|end_char=74
+14	and	and	CCONJ	CC	_	13	_	_	start_char=75|end_char=78
+15	"	"	PUNCT	``	_	14	_	_	start_char=79|end_char=80|SpaceAfter=No
+16-17	They're	_	_	_	_	_	_	_	start_char=80|end_char=87|SpaceAfter=No
+16	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	_	_	start_char=80|end_char=84
+17	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=84|end_char=87
+18	"	"	PUNCT	''	_	17	_	_	start_char=87|end_char=88|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=88|end_char=89
+20	😁	😁	PUNCT	''	_	19	_	_	start_char=90|end_char=91
+
+# text = There so dumb!
+# sent_id = 56234
+1	There	there	PRON	EX	_	0	_	_	start_char=92|end_char=97
+2	so	so	ADV	RB	_	1	_	_	start_char=98|end_char=100
+3	dumb	dumb	ADJ	JJ	Degree=Pos	2	_	_	start_char=101|end_char=105|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=105|end_char=106|SpaceAfter=No
+

@@ -1,0 +1,31 @@
+# text = Coffee, drink, walk in the park.
+# sent_id = 4809
+1	Coffee	coffee	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=6|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=6|end_char=7
+3	drink	drink	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	2	_	_	start_char=8|end_char=13|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=13|end_char=14
+5	walk	walk	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=15|end_char=19
+6	in	in	ADP	IN	_	5	_	_	start_char=20|end_char=22
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=23|end_char=26
+8	park	park	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=31|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=31|end_char=32
+
+# text = That way if she's retarded you only wasted 20 mins of your life.
+# sent_id = 4810
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=33|end_char=37
+2	way	way	NOUN	NN	Number=Sing	1	_	_	start_char=38|end_char=41
+3	if	if	SCONJ	IN	_	2	_	_	start_char=42|end_char=44
+4-5	she's	_	_	_	_	_	_	_	start_char=45|end_char=50
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=45|end_char=48
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=48|end_char=50
+6	retarded	retarded	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=51|end_char=59
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=60|end_char=63
+8	only	only	ADV	RB	_	7	_	_	start_char=64|end_char=68
+9	wasted	waste	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	8	_	_	start_char=69|end_char=75
+10	20	20	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=76|end_char=78
+11	mins	minute	NOUN	NNS	Number=Plur	10	_	_	start_char=79|end_char=83
+12	of	of	ADP	IN	_	11	_	_	start_char=84|end_char=86
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=87|end_char=91
+14	life	life	NOUN	NN	Number=Sing	13	_	_	start_char=92|end_char=96|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=96|end_char=97|SpaceAfter=No
+

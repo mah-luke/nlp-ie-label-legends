@@ -1,0 +1,56 @@
+# text = No shit retard.
+# sent_id = 51006
+1	No	no	DET	DT	_	0	_	_	start_char=0|end_char=2
+2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=7
+3	retard	retard	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = There's even studies showing women could have 1000 men worshipping her and she would attribute 0 positive things to men, it's the other way around with men.
+# sent_id = 51007
+1-2	There's	_	_	_	_	_	_	_	start_char=16|end_char=23
+1	There	there	PRON	EX	_	0	_	_	start_char=16|end_char=21
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=21|end_char=23
+3	even	even	ADV	RB	_	2	_	_	start_char=24|end_char=28
+4	studies	study	NOUN	NNS	Number=Plur	3	_	_	start_char=29|end_char=36
+5	showing	show	VERB	VBG	VerbForm=Ger	4	_	_	start_char=37|end_char=44
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=45|end_char=50
+7	could	could	AUX	MD	VerbForm=Fin	6	_	_	start_char=51|end_char=56
+8	have	have	VERB	VB	VerbForm=Inf	7	_	_	start_char=57|end_char=61
+9	1000	1000	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=62|end_char=66
+10	men	man	NOUN	NNS	Number=Plur	9	_	_	start_char=67|end_char=70
+11	worshipping	worship	VERB	VBG	VerbForm=Ger	10	_	_	start_char=71|end_char=82
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=83|end_char=86
+13	and	and	CCONJ	CC	_	12	_	_	start_char=87|end_char=90
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=91|end_char=94
+15	would	would	AUX	MD	VerbForm=Fin	14	_	_	start_char=95|end_char=100
+16	attribute	attribute	VERB	VB	VerbForm=Inf	15	_	_	start_char=101|end_char=110
+17	0	0	NUM	CD	NumForm=Digit|NumType=Card	16	_	_	start_char=111|end_char=112
+18	positive	positive	ADJ	JJ	Degree=Pos	17	_	_	start_char=113|end_char=121
+19	things	thing	NOUN	NNS	Number=Plur	18	_	_	start_char=122|end_char=128
+20	to	to	ADP	IN	_	19	_	_	start_char=129|end_char=131
+21	men	man	NOUN	NNS	Number=Plur	20	_	_	start_char=132|end_char=135|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=135|end_char=136
+23-24	it's	_	_	_	_	_	_	_	start_char=137|end_char=141
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=137|end_char=139
+24	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=139|end_char=141
+25	the	the	DET	DT	Definite=Def|PronType=Art	24	_	_	start_char=142|end_char=145
+26	other	other	ADJ	JJ	Degree=Pos	25	_	_	start_char=146|end_char=151
+27	way	way	NOUN	NN	Number=Sing	26	_	_	start_char=152|end_char=155
+28	around	around	ADV	RB	_	27	_	_	start_char=156|end_char=162
+29	with	with	ADP	IN	_	28	_	_	start_char=163|end_char=167
+30	men	man	NOUN	NNS	Number=Plur	29	_	_	start_char=168|end_char=171|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	start_char=171|end_char=172
+
+# text = The more positive experiences the more they like women.
+# sent_id = 51008
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=173|end_char=176
+2	more	more	ADV	RBR	Degree=Cmp	1	_	_	start_char=177|end_char=181
+3	positive	positive	ADJ	JJ	Degree=Pos	2	_	_	start_char=182|end_char=190
+4	experiences	experience	NOUN	NNS	Number=Plur	3	_	_	start_char=191|end_char=202
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=203|end_char=206
+6	more	more	ADJ	JJR	Degree=Cmp	5	_	_	start_char=207|end_char=211
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=212|end_char=216
+8	like	like	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=217|end_char=221
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=222|end_char=227|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=227|end_char=228|SpaceAfter=No
+

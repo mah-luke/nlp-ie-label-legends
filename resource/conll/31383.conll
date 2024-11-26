@@ -1,0 +1,56 @@
+# text = A racist is racist, even a professor who has inverted reality to fit the meme of her life.
+# sent_id = 67260
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
+2	racist	racist	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=8
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=11
+4	racist	racist	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=18|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=18|end_char=19
+6	even	even	ADV	RB	_	5	_	_	start_char=20|end_char=24
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=25|end_char=26
+8	professor	professor	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=36
+9	who	who	PRON	WP	PronType=Rel	8	_	_	start_char=37|end_char=40
+10	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=41|end_char=44
+11	inverted	invert	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=45|end_char=53
+12	reality	reality	NOUN	NN	Number=Sing	11	_	_	start_char=54|end_char=61
+13	to	to	PART	TO	_	12	_	_	start_char=62|end_char=64
+14	fit	fit	VERB	VB	VerbForm=Inf	13	_	_	start_char=65|end_char=68
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=69|end_char=72
+16	meme	meme	NOUN	NN	Number=Sing	15	_	_	start_char=73|end_char=77
+17	of	of	ADP	IN	_	16	_	_	start_char=78|end_char=80
+18	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=81|end_char=84
+19	life	life	NOUN	NN	Number=Sing	18	_	_	start_char=85|end_char=89|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=89|end_char=90
+
+# text = Too bad it's a virus that infects the students listening to and reading her words.
+# sent_id = 67261
+1	Too	too	ADV	RB	_	0	_	_	start_char=91|end_char=94
+2	bad	bad	ADJ	JJ	Degree=Pos	1	_	_	start_char=95|end_char=98
+3-4	it's	_	_	_	_	_	_	_	start_char=99|end_char=103
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=99|end_char=101
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=101|end_char=103
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=104|end_char=105
+6	virus	virus	NOUN	NN	Number=Sing	5	_	_	start_char=106|end_char=111
+7	that	that	PRON	WDT	PronType=Rel	6	_	_	start_char=112|end_char=116
+8	infects	infect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=117|end_char=124
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=125|end_char=128
+10	students	student	NOUN	NNS	Number=Plur	9	_	_	start_char=129|end_char=137
+11	listening	listen	VERB	VBG	VerbForm=Ger	10	_	_	start_char=138|end_char=147
+12	to	to	ADP	IN	_	11	_	_	start_char=148|end_char=150
+13	and	and	CCONJ	CC	_	12	_	_	start_char=151|end_char=154
+14	reading	read	VERB	VBG	VerbForm=Ger	13	_	_	start_char=155|end_char=162
+15	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=163|end_char=166
+16	words	word	NOUN	NNS	Number=Plur	15	_	_	start_char=167|end_char=172|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=172|end_char=173
+
+# text = #AcademicBigotry #IntoleranceSquared #VirtueSignaling [URL]
+# sent_id = 67262
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=174|end_char=175|SpaceAfter=No
+2	AcademicBigotry	academicbigotry	X	GW	_	1	_	_	start_char=175|end_char=190
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=191|end_char=192|SpaceAfter=No
+4	IntoleranceSquared	intolerancesquared	X	GW	_	3	_	_	start_char=192|end_char=210
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=211|end_char=212|SpaceAfter=No
+6	VirtueSignaling	virtuesignaling	X	NN	_	5	_	_	start_char=212|end_char=227
+7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=228|end_char=229|SpaceAfter=No
+8	URL	URL	NOUN	NN	Number=Sing	7	_	_	start_char=229|end_char=232|SpaceAfter=No
+9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=232|end_char=233|SpaceAfter=No
+

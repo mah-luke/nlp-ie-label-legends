@@ -1,0 +1,52 @@
+# text = Although I dont like it, I have to agree.
+# sent_id = 16617
+1	Although	although	SCONJ	IN	_	0	_	_	start_char=0|end_char=8
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=9|end_char=10
+3-4	dont	_	_	_	_	_	_	_	start_char=11|end_char=15
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	nt	not	PART	RB	_	3	_	_	start_char=13|end_char=15
+5	like	like	VERB	VB	VerbForm=Inf	4	_	_	start_char=16|end_char=20
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=21|end_char=23|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=23|end_char=24
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=25|end_char=26
+9	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=27|end_char=31
+10	to	to	PART	TO	_	9	_	_	start_char=32|end_char=34
+11	agree	agree	VERB	VB	VerbForm=Inf	10	_	_	start_char=35|end_char=40|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=40|end_char=41
+
+# text = MGTOW got heavily downgraded after the incels invaded.
+# sent_id = 16618
+1	MGTOW	MGTOW	PROPN	NNP	Number=Sing	0	_	_	start_char=42|end_char=47
+2	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=48|end_char=51
+3	heavily	heavily	ADV	RB	_	2	_	_	start_char=52|end_char=59
+4	downgraded	downgrade	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=60|end_char=70
+5	after	after	SCONJ	IN	_	4	_	_	start_char=71|end_char=76
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=77|end_char=80
+7	incels	incel	NOUN	NN	Number=Sing	6	_	_	start_char=81|end_char=87
+8	invaded	invade	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=88|end_char=95|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=95|end_char=96
+
+# text = Living your life the way you think is best for you and hoping all women die are not the same...
+# sent_id = 16619
+1	Living	live	VERB	VBG	VerbForm=Ger	0	_	_	start_char=97|end_char=103
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=104|end_char=108
+3	life	life	NOUN	NN	Number=Sing	2	_	_	start_char=109|end_char=113
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=114|end_char=117
+5	way	way	NOUN	NN	Number=Sing	4	_	_	start_char=118|end_char=121
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=122|end_char=125
+7	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=126|end_char=131
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=132|end_char=134
+9	best	good	ADJ	JJS	Degree=Sup	8	_	_	start_char=135|end_char=139
+10	for	for	ADP	IN	_	9	_	_	start_char=140|end_char=143
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=144|end_char=147
+12	and	and	CCONJ	CC	_	11	_	_	start_char=148|end_char=151
+13	hoping	hope	VERB	VBG	VerbForm=Ger	12	_	_	start_char=152|end_char=158
+14	all	all	DET	DT	_	13	_	_	start_char=159|end_char=162
+15	women	woman	NOUN	NNS	Number=Plur	14	_	_	start_char=163|end_char=168
+16	die	die	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=169|end_char=172
+17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=173|end_char=176
+18	not	not	PART	RB	_	17	_	_	start_char=177|end_char=180
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=181|end_char=184
+20	same	same	ADJ	JJ	Degree=Pos	19	_	_	start_char=185|end_char=189|SpaceAfter=No
+21	...	...	PUNCT	.	_	20	_	_	start_char=189|end_char=192|SpaceAfter=No
+

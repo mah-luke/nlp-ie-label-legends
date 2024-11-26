@@ -1,0 +1,39 @@
+# text = Sue for fraud.
+# sent_id = 56280
+1	Sue	Sue	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3
+2	for	for	ADP	IN	_	1	_	_	start_char=4|end_char=7
+3	fraud	fraud	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=13|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=13|end_char=14
+
+# text = Guy in uk got 250k settlement from cheating wife.
+# sent_id = 56281
+1	Guy	guy	NOUN	NN	Number=Sing	0	_	_	start_char=15|end_char=18
+2	in	in	ADP	IN	_	1	_	_	start_char=19|end_char=21
+3	uk	uk	PROPN	NNP	Number=Sing	2	_	_	start_char=22|end_char=24
+4	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=25|end_char=28
+5	250k	250k	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=29|end_char=33
+6	settlement	settlement	NOUN	NN	Number=Sing	5	_	_	start_char=34|end_char=44
+7	from	from	ADP	IN	_	6	_	_	start_char=45|end_char=49
+8	cheating	cheating	NOUN	NN	Number=Sing	7	_	_	start_char=50|end_char=58
+9	wife	wife	NOUN	NN	Number=Sing	8	_	_	start_char=59|end_char=63|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=63|end_char=64
+
+# text = It won’t heal the pain but at least it’ll distract you.
+# sent_id = 56282
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=65|end_char=67
+2-3	won’t	_	_	_	_	_	_	_	start_char=68|end_char=73
+2	wo	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=68|end_char=70
+3	n’t	not	PART	RB	_	2	_	_	start_char=70|end_char=73
+4	heal	heal	VERB	VB	VerbForm=Inf	3	_	_	start_char=74|end_char=78
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=79|end_char=82
+6	pain	pain	NOUN	NN	Number=Sing	5	_	_	start_char=83|end_char=87
+7	but	but	CCONJ	CC	_	6	_	_	start_char=88|end_char=91
+8	at	at	ADP	IN	ExtPos=ADV	7	_	_	start_char=92|end_char=94
+9	least	least	ADJ	JJS	Degree=Sup	8	_	_	start_char=95|end_char=100
+10-11	it’ll	_	_	_	_	_	_	_	start_char=101|end_char=106
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=101|end_char=103
+11	’ll	will	AUX	MD	VerbForm=Fin	10	_	_	start_char=103|end_char=106
+12	distract	distract	VERB	VB	VerbForm=Inf	11	_	_	start_char=107|end_char=115
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	_	_	start_char=116|end_char=119|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=119|end_char=120|SpaceAfter=No
+

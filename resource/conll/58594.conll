@@ -1,0 +1,43 @@
+# text = At uni I needed a female’s phone number for an assignment.
+# sent_id = 125063
+1	At	at	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	uni	uni	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=6
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=7|end_char=8
+4	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=9|end_char=15
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=16|end_char=17
+6-7	female’s	_	_	_	_	_	_	_	start_char=18|end_char=26
+6	female	female	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=24
+7	’s	's	PART	POS	_	6	_	_	start_char=24|end_char=26
+8	phone	phone	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=32
+9	number	number	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=39
+10	for	for	ADP	IN	_	9	_	_	start_char=40|end_char=43
+11	an	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=44|end_char=46
+12	assignment	assignment	NOUN	NN	Number=Sing	11	_	_	start_char=47|end_char=57|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=57|end_char=58
+
+# text = She wouldn’t give it to me, told me to text some guy she knew and he will ask her me
+# sent_id = 125064
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=59|end_char=62
+2-3	wouldn’t	_	_	_	_	_	_	_	start_char=63|end_char=71
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=63|end_char=68
+3	n’t	not	PART	RB	_	2	_	_	start_char=68|end_char=71
+4	give	give	VERB	VB	VerbForm=Inf	3	_	_	start_char=72|end_char=76
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=77|end_char=79
+6	to	to	ADP	IN	_	5	_	_	start_char=80|end_char=82
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=83|end_char=85|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=85|end_char=86
+9	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=87|end_char=91
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=92|end_char=94
+11	to	to	PART	TO	_	10	_	_	start_char=95|end_char=97
+12	text	text	VERB	VB	VerbForm=Inf	11	_	_	start_char=98|end_char=102
+13	some	some	DET	DT	_	12	_	_	start_char=103|end_char=107
+14	guy	guy	NOUN	NN	Number=Sing	13	_	_	start_char=108|end_char=111
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=112|end_char=115
+16	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=116|end_char=120
+17	and	and	CCONJ	CC	_	16	_	_	start_char=121|end_char=124
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=125|end_char=127
+19	will	will	AUX	MD	VerbForm=Fin	18	_	_	start_char=128|end_char=132
+20	ask	ask	VERB	VB	VerbForm=Inf	19	_	_	start_char=133|end_char=136
+21	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=137|end_char=140
+22	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	21	_	_	start_char=141|end_char=143|SpaceAfter=No
+

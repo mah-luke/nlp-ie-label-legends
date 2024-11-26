@@ -1,0 +1,46 @@
+# text = Yup!
+# sent_id = 40269
+1	Yup	yup	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = It's the rule of 3.
+# sent_id = 40270
+1-2	It's	_	_	_	_	_	_	_	start_char=5|end_char=9
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=5|end_char=7
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7|end_char=9
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=10|end_char=13
+4	rule	rule	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=18
+5	of	of	ADP	IN	_	4	_	_	start_char=19|end_char=21
+6	3	3	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=22|end_char=23|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=23|end_char=24
+
+# text = Take whatever number a guy says, and divide by 3.
+# sent_id = 40271
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=25|end_char=29
+2	whatever	whatever	DET	WDT	PronType=Int	1	_	_	start_char=30|end_char=38
+3	number	number	NOUN	NN	Number=Sing	2	_	_	start_char=39|end_char=45
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=46|end_char=47
+5	guy	guy	NOUN	NN	Number=Sing	4	_	_	start_char=48|end_char=51
+6	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=52|end_char=56|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=56|end_char=57
+8	and	and	CCONJ	CC	_	7	_	_	start_char=58|end_char=61
+9	divide	divide	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=62|end_char=68
+10	by	by	ADP	IN	_	9	_	_	start_char=69|end_char=71
+11	3	3	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=72|end_char=73|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=73|end_char=74
+
+# text = Take whatever number a girl says, and multiply by 3.
+# sent_id = 40272
+1	Take	take	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=75|end_char=79
+2	whatever	whatever	DET	WDT	PronType=Int	1	_	_	start_char=80|end_char=88
+3	number	number	NOUN	NN	Number=Sing	2	_	_	start_char=89|end_char=95
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=96|end_char=97
+5	girl	girl	NOUN	NN	Number=Sing	4	_	_	start_char=98|end_char=102
+6	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=103|end_char=107|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=107|end_char=108
+8	and	and	CCONJ	CC	_	7	_	_	start_char=109|end_char=112
+9	multiply	multiply	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=113|end_char=121
+10	by	by	ADP	IN	_	9	_	_	start_char=122|end_char=124
+11	3	3	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=125|end_char=126|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=126|end_char=127|SpaceAfter=No
+

@@ -1,0 +1,47 @@
+# text = Exactly my point.
+# sent_id = 12768
+1	Exactly	exactly	ADV	RB	_	0	_	_	start_char=0|end_char=7
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=8|end_char=10
+3	point	point	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=16|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=16|end_char=17
+
+# text = You never have facts...you have OPINION.
+# sent_id = 12769
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=18|end_char=21
+2	never	never	ADV	RB	_	1	_	_	start_char=22|end_char=27
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=28|end_char=32
+4	facts	fact	NOUN	NNS	Number=Plur	3	_	_	start_char=33|end_char=38|SpaceAfter=No
+5	...	...	PUNCT	,	_	4	_	_	start_char=38|end_char=41|SpaceAfter=No
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=41|end_char=44
+7	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=45|end_char=49
+8	OPINION	opinion	NOUN	NN	Number=Sing	7	_	_	start_char=50|end_char=57|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=57|end_char=58
+
+# text = I hope that you didn't hit your MOMS G-Spot with that last thrust...that would make you a MUSLIM.
+# sent_id = 12770
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=59|end_char=60
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=61|end_char=65
+3	that	that	SCONJ	IN	_	2	_	_	start_char=66|end_char=70
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=71|end_char=74
+5-6	didn't	_	_	_	_	_	_	_	start_char=75|end_char=81
+5	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	4	_	_	start_char=75|end_char=78
+6	n't	not	PART	RB	_	5	_	_	start_char=78|end_char=81
+7	hit	hit	VERB	VB	VerbForm=Inf	6	_	_	start_char=82|end_char=85
+8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	_	_	start_char=86|end_char=90
+9	MOMS	MOMS	PROPN	NNPS	Number=Plur	8	_	_	start_char=91|end_char=95
+10	G	G	PROPN	NNP	Number=Sing	9	_	_	start_char=96|end_char=97|SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	10	_	_	start_char=97|end_char=98|SpaceAfter=No
+12	Spot	spot	NOUN	NN	Number=Sing	11	_	_	start_char=98|end_char=102
+13	with	with	ADP	IN	_	12	_	_	start_char=103|end_char=107
+14	that	that	DET	DT	Number=Sing|PronType=Dem	13	_	_	start_char=108|end_char=112
+15	last	last	ADJ	JJ	Degree=Pos	14	_	_	start_char=113|end_char=117
+16	thrust	thrust	NOUN	NN	Number=Sing	15	_	_	start_char=118|end_char=124|SpaceAfter=No
+17	...	...	PUNCT	,	_	16	_	_	start_char=124|end_char=127|SpaceAfter=No
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	17	_	_	start_char=127|end_char=131
+19	would	would	AUX	MD	VerbForm=Fin	18	_	_	start_char=132|end_char=137
+20	make	make	VERB	VB	VerbForm=Inf	19	_	_	start_char=138|end_char=142
+21	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	20	_	_	start_char=143|end_char=146
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	start_char=147|end_char=148
+23	MUSLIM	muslim	NOUN	NN	Number=Sing	22	_	_	start_char=149|end_char=155|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=155|end_char=156|SpaceAfter=No
+

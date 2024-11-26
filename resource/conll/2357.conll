@@ -1,0 +1,60 @@
+# text = Don't know what it is but let me tell you my experience.
+# sent_id = 5001
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	know	know	VERB	VB	VerbForm=Inf	2	_	_	start_char=6|end_char=10
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=11|end_char=15
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=16|end_char=18
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=19|end_char=21
+7	but	but	CCONJ	CC	_	6	_	_	start_char=22|end_char=25
+8	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=26|end_char=29
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=30|end_char=32
+10	tell	tell	VERB	VB	VerbForm=Inf	9	_	_	start_char=33|end_char=37
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=38|end_char=41
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	_	_	start_char=42|end_char=44
+13	experience	experience	NOUN	NN	Number=Sing	12	_	_	start_char=45|end_char=55|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=55|end_char=56
+
+# text = Once I hit 40 I started getting so much unsolicited attention from women.
+# sent_id = 5002
+1	Once	once	SCONJ	IN	_	0	_	_	start_char=57|end_char=61
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=62|end_char=63
+3	hit	hit	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=64|end_char=67
+4	40	40	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=68|end_char=70
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=71|end_char=72
+6	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=73|end_char=80
+7	getting	get	VERB	VBG	VerbForm=Ger	6	_	_	start_char=81|end_char=88
+8	so	so	ADV	RB	_	7	_	_	start_char=89|end_char=91
+9	much	much	ADJ	JJ	Degree=Pos	8	_	_	start_char=92|end_char=96
+10	unsolicited	unsolicited	ADJ	JJ	Degree=Pos	9	_	_	start_char=97|end_char=108
+11	attention	attention	NOUN	NN	Number=Sing	10	_	_	start_char=109|end_char=118
+12	from	from	ADP	IN	_	11	_	_	start_char=119|end_char=123
+13	women	woman	NOUN	NNS	Number=Plur	12	_	_	start_char=124|end_char=129|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=129|end_char=130
+
+# text = Some would say hello to me first, and I'd regularly get an enthusiastic hello back from many women.
+# sent_id = 5003
+1	Some	some	DET	DT	_	0	_	_	start_char=131|end_char=135
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=136|end_char=141
+3	say	say	VERB	VB	VerbForm=Inf	2	_	_	start_char=142|end_char=145
+4	hello	hello	INTJ	UH	_	3	_	_	start_char=146|end_char=151
+5	to	to	ADP	IN	_	4	_	_	start_char=152|end_char=154
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=155|end_char=157
+7	first	first	ADV	RB	NumType=Ord	6	_	_	start_char=158|end_char=163|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=163|end_char=164
+9	and	and	CCONJ	CC	_	8	_	_	start_char=165|end_char=168
+10-11	I'd	_	_	_	_	_	_	_	start_char=169|end_char=172
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=169|end_char=170
+11	'd	would	AUX	MD	VerbForm=Fin	10	_	_	start_char=170|end_char=172
+12	regularly	regularly	ADV	RB	_	11	_	_	start_char=173|end_char=182
+13	get	get	VERB	VB	VerbForm=Inf	12	_	_	start_char=183|end_char=186
+14	an	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=187|end_char=189
+15	enthusiastic	enthusiastic	ADJ	JJ	Degree=Pos	14	_	_	start_char=190|end_char=202
+16	hello	hello	NOUN	NN	Number=Sing	15	_	_	start_char=203|end_char=208
+17	back	back	ADV	RB	_	16	_	_	start_char=209|end_char=213
+18	from	from	ADP	IN	_	17	_	_	start_char=214|end_char=218
+19	many	many	ADJ	JJ	Degree=Pos	18	_	_	start_char=219|end_char=223
+20	women	woman	NOUN	NNS	Number=Plur	19	_	_	start_char=224|end_char=229|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=229|end_char=230|SpaceAfter=No
+

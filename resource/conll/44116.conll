@@ -1,0 +1,31 @@
+# text = This is correct in my opinion.
+# sent_id = 94253
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	correct	correct	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=15
+4	in	in	ADP	IN	_	3	_	_	start_char=16|end_char=18
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=19|end_char=21
+6	opinion	opinion	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=29|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=29|end_char=30
+
+# text = You can be anywhere doing anything as long as you're being flirty and touching her.
+# sent_id = 94254
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=31|end_char=34
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=35|end_char=38
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=39|end_char=41
+4	anywhere	anywhere	ADV	RB	_	3	_	_	start_char=42|end_char=50
+5	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=51|end_char=56
+6	anything	anything	PRON	NN	Number=Sing|PronType=Ind	5	_	_	start_char=57|end_char=65
+7	as	as	ADV	RB	_	6	_	_	start_char=66|end_char=68
+8	long	long	ADV	RB	Degree=Pos	7	_	_	start_char=69|end_char=73
+9	as	as	SCONJ	IN	_	8	_	_	start_char=74|end_char=76
+10-11	you're	_	_	_	_	_	_	_	start_char=77|end_char=83
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=77|end_char=80
+11	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=80|end_char=83
+12	being	be	AUX	VBG	VerbForm=Ger	11	_	_	start_char=84|end_char=89
+13	flirty	flirty	ADJ	JJ	Degree=Pos	12	_	_	start_char=90|end_char=96
+14	and	and	CCONJ	CC	_	13	_	_	start_char=97|end_char=100
+15	touching	touch	VERB	VBG	Tense=Pres|VerbForm=Part	14	_	_	start_char=101|end_char=109
+16	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=110|end_char=113|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=113|end_char=114|SpaceAfter=No
+

@@ -1,0 +1,49 @@
+# text = All she had to do was go to a lawyer's office.
+# sent_id = 52140
+1	All	all	DET	DT	_	0	_	_	start_char=0|end_char=3
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=4|end_char=7
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=8|end_char=11
+4	to	to	PART	TO	_	3	_	_	start_char=12|end_char=14
+5	do	do	VERB	VB	VerbForm=Inf	4	_	_	start_char=15|end_char=17
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=18|end_char=21
+7	go	go	VERB	VB	VerbForm=Inf	6	_	_	start_char=22|end_char=24
+8	to	to	ADP	IN	_	7	_	_	start_char=25|end_char=27
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=28|end_char=29
+10-11	lawyer's	_	_	_	_	_	_	_	start_char=30|end_char=38
+10	lawyer	lawyer	NOUN	NN	Number=Sing	9	_	_	start_char=30|end_char=36
+11	's	's	PART	POS	_	10	_	_	start_char=36|end_char=38
+12	office	office	NOUN	NN	Number=Sing	11	_	_	start_char=39|end_char=45|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=45|end_char=46
+
+# text = I'm sure she was late to every appointment and he also bought her lunch each time.
+# sent_id = 52141
+1-2	I'm	_	_	_	_	_	_	_	start_char=47|end_char=50
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=47|end_char=48
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=48|end_char=50
+3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=51|end_char=55
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=56|end_char=59
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=60|end_char=63
+6	late	late	ADJ	JJ	Degree=Pos	5	_	_	start_char=64|end_char=68
+7	to	to	ADP	IN	_	6	_	_	start_char=69|end_char=71
+8	every	every	DET	DT	_	7	_	_	start_char=72|end_char=77
+9	appointment	appointment	NOUN	NN	Number=Sing	8	_	_	start_char=78|end_char=89
+10	and	and	CCONJ	CC	_	9	_	_	start_char=90|end_char=93
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=94|end_char=96
+12	also	also	ADV	RB	_	11	_	_	start_char=97|end_char=101
+13	bought	buy	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=102|end_char=108
+14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=109|end_char=112
+15	lunch	lunch	NOUN	NN	Number=Sing	14	_	_	start_char=113|end_char=118
+16	each	each	DET	DT	_	15	_	_	start_char=119|end_char=123
+17	time	time	NOUN	NN	Number=Sing	16	_	_	start_char=124|end_char=128|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=128|end_char=129
+
+# text = Hoes don't stop hoeing.
+# sent_id = 52142
+1	Hoes	hoe	NOUN	NNS	Number=Plur	0	_	_	start_char=130|end_char=134
+2-3	don't	_	_	_	_	_	_	_	start_char=135|end_char=140
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=135|end_char=137
+3	n't	not	PART	RB	_	2	_	_	start_char=137|end_char=140
+4	stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=141|end_char=145
+5	hoeing	hoeing	NOUN	NN	Number=Sing	4	_	_	start_char=146|end_char=152|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=152|end_char=153|SpaceAfter=No
+

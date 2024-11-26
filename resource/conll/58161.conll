@@ -1,0 +1,23 @@
+# text = What if she's wearing a name-tag?
+# sent_id = 124209
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	if	if	SCONJ	IN	_	1	_	_	start_char=5|end_char=7
+3-4	she's	_	_	_	_	_	_	_	start_char=8|end_char=13
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=8|end_char=11
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=14|end_char=21
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=22|end_char=23
+7	name	name	NOUN	NN	Number=Sing	6	_	_	start_char=24|end_char=28|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	_	_	start_char=28|end_char=29|SpaceAfter=No
+9	tag	tag	NOUN	NN	Number=Sing	8	_	_	start_char=29|end_char=32|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=32|end_char=33
+
+# text = I would assume she does.
+# sent_id = 124210
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=34|end_char=35
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=36|end_char=41
+3	assume	assume	VERB	VB	VerbForm=Inf	2	_	_	start_char=42|end_char=48
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=49|end_char=52
+5	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=53|end_char=57|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=57|end_char=58|SpaceAfter=No
+

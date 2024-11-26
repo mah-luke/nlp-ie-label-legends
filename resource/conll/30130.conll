@@ -1,0 +1,25 @@
+# text = You’re ignorant.
+# sent_id = 64559
+1-2	You’re	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	ignorant	ignorant	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=15|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=15|end_char=16
+
+# text = You won’t die from low doses and barely get any side effects
+# sent_id = 64560
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=17|end_char=20
+2-3	won’t	_	_	_	_	_	_	_	start_char=21|end_char=26
+2	wo	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=21|end_char=23
+3	n’t	not	PART	RB	_	2	_	_	start_char=23|end_char=26
+4	die	die	VERB	VB	VerbForm=Inf	3	_	_	start_char=27|end_char=30
+5	from	from	ADP	IN	_	4	_	_	start_char=31|end_char=35
+6	low	low	ADJ	JJ	Degree=Pos	5	_	_	start_char=36|end_char=39
+7	doses	dose	NOUN	NNS	Number=Plur	6	_	_	start_char=40|end_char=45
+8	and	and	CCONJ	CC	_	7	_	_	start_char=46|end_char=49
+9	barely	barely	ADV	RB	_	8	_	_	start_char=50|end_char=56
+10	get	get	VERB	VB	VerbForm=Inf	9	_	_	start_char=57|end_char=60
+11	any	any	DET	DT	_	10	_	_	start_char=61|end_char=64
+12	side	side	NOUN	NN	Number=Sing	11	_	_	start_char=65|end_char=69
+13	effects	effect	NOUN	NNS	Number=Plur	12	_	_	start_char=70|end_char=77|SpaceAfter=No
+

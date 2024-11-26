@@ -1,0 +1,51 @@
+# text = All Women Are Like
+# sent_id = 12666
+1	All	all	DET	DT	_	0	_	_	start_char=0|end_char=3
+2	Women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=4|end_char=9
+3	Are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=13
+4	Like	Like	ADJ	JJ	Degree=Pos	3	_	_	start_char=14|end_char=18
+
+# text = That is what the acronym stands for.
+# sent_id = 12667
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=19|end_char=23
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=24|end_char=26
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=27|end_char=31
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=32|end_char=35
+5	acronym	acronym	NOUN	NN	Number=Sing	4	_	_	start_char=36|end_char=43
+6	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=44|end_char=50
+7	for	for	ADP	IN	_	6	_	_	start_char=51|end_char=54|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=54|end_char=55
+
+# text = Are you assuming it stands for All Women Are Like Trash?
+# sent_id = 12668
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=56|end_char=59
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=60|end_char=63
+3	assuming	assume	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=64|end_char=72
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=73|end_char=75
+5	stands	stand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=76|end_char=82
+6	for	for	ADP	IN	_	5	_	_	start_char=83|end_char=86
+7	All	all	DET	DT	_	6	_	_	start_char=87|end_char=90
+8	Women	woman	PROPN	NNPS	Number=Plur	7	_	_	start_char=91|end_char=96
+9	Are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=97|end_char=100
+10	Like	like	ADP	IN	_	9	_	_	start_char=101|end_char=105
+11	Trash	trash	NOUN	NN	Number=Sing	10	_	_	start_char=106|end_char=111|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=111|end_char=112
+
+# text = I dont get what you mean by it speaks for itself lol.
+# sent_id = 12669
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=113|end_char=114
+2-3	dont	_	_	_	_	_	_	_	start_char=115|end_char=119
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=115|end_char=117
+3	nt	not	PART	RB	_	2	_	_	start_char=117|end_char=119
+4	get	get	VERB	VB	VerbForm=Inf	3	_	_	start_char=120|end_char=123
+5	what	what	PRON	WP	PronType=Rel	4	_	_	start_char=124|end_char=128
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=129|end_char=132
+7	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=133|end_char=137
+8	by	by	ADP	IN	_	7	_	_	start_char=138|end_char=140
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=141|end_char=143
+10	speaks	speak	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=144|end_char=150
+11	for	for	ADP	IN	_	10	_	_	start_char=151|end_char=154
+12	itself	itself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Emp|Reflex=Yes	11	_	_	start_char=155|end_char=161
+13	lol	lol	INTJ	UH	_	12	_	_	start_char=162|end_char=165|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=165|end_char=166|SpaceAfter=No
+

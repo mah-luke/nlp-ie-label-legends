@@ -1,0 +1,48 @@
+# text = LOL bro I did BDSM shit to her I've never done before.
+# sent_id = 30174
+1	LOL	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	bro	bro	INTJ	UH	_	1	_	_	start_char=4|end_char=7
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=8|end_char=9
+4	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=10|end_char=13
+5	BDSM	BDSM	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=18
+6	shit	shit	NOUN	NN	Number=Sing	5	_	_	start_char=19|end_char=23
+7	to	to	ADP	IN	_	6	_	_	start_char=24|end_char=26
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=27|end_char=30
+9-10	I've	_	_	_	_	_	_	_	start_char=31|end_char=35
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=31|end_char=32
+10	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=32|end_char=35
+11	never	never	ADV	RB	_	10	_	_	start_char=36|end_char=41
+12	done	do	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=42|end_char=46
+13	before	before	ADV	RB	_	12	_	_	start_char=47|end_char=53|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=53|end_char=54
+
+# text = Slapped her face, spat in her mouth.
+# sent_id = 30175
+1	Slapped	slap	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=55|end_char=62
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=63|end_char=66
+3	face	face	NOUN	NN	Number=Sing	2	_	_	start_char=67|end_char=71|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=71|end_char=72
+5	spat	spat	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=73|end_char=77
+6	in	in	ADP	IN	_	5	_	_	start_char=78|end_char=80
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=81|end_char=84
+8	mouth	mouth	NOUN	NN	Number=Sing	7	_	_	start_char=85|end_char=90|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=90|end_char=91
+
+# text = I'm at a loss for what I could've done more :P
+# sent_id = 30176
+1-2	I'm	_	_	_	_	_	_	_	start_char=92|end_char=95
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=92|end_char=93
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=93|end_char=95
+3	at	at	ADP	IN	_	2	_	_	start_char=96|end_char=98
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=99|end_char=100
+5	loss	loss	NOUN	NN	Number=Sing	4	_	_	start_char=101|end_char=105
+6	for	for	ADP	IN	_	5	_	_	start_char=106|end_char=109
+7	what	what	PRON	WP	PronType=Rel	6	_	_	start_char=110|end_char=114
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=115|end_char=116
+9-10	could've	_	_	_	_	_	_	_	start_char=117|end_char=125
+9	could	could	AUX	MD	VerbForm=Fin	8	_	_	start_char=117|end_char=122
+10	've	have	AUX	VB	VerbForm=Inf	9	_	_	start_char=122|end_char=125
+11	done	do	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=126|end_char=130
+12	more	more	ADJ	JJR	Degree=Cmp	11	_	_	start_char=131|end_char=135
+13	:P	:p	SYM	NFP	_	12	_	_	start_char=136|end_char=138|SpaceAfter=No
+

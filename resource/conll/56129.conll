@@ -1,0 +1,38 @@
+# text = she's in another class than me but in the same building,when I hug her how low to go with my hands?
+# sent_id = 120019
+1-2	she's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	in	in	ADP	IN	_	2	_	_	start_char=6|end_char=8
+4	another	another	DET	DT	_	3	_	_	start_char=9|end_char=16
+5	class	class	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=22
+6	than	than	ADP	IN	_	5	_	_	start_char=23|end_char=27
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=28|end_char=30
+8	but	but	CCONJ	CC	_	7	_	_	start_char=31|end_char=34
+9	in	in	ADP	IN	_	8	_	_	start_char=35|end_char=37
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=38|end_char=41
+11	same	same	ADJ	JJ	Degree=Pos	10	_	_	start_char=42|end_char=46
+12	building	building	NOUN	NN	Number=Sing	11	_	_	start_char=47|end_char=55|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=55|end_char=56|SpaceAfter=No
+14	when	when	ADV	WRB	PronType=Int	13	_	_	start_char=56|end_char=60
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=61|end_char=62
+16	hug	hug	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	start_char=63|end_char=66
+17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=67|end_char=70
+18	how	how	ADV	WRB	PronType=Int	17	_	_	start_char=71|end_char=74
+19	low	low	ADJ	JJ	Degree=Pos	18	_	_	start_char=75|end_char=78
+20	to	to	PART	TO	_	19	_	_	start_char=79|end_char=81
+21	go	go	VERB	VB	VerbForm=Inf	20	_	_	start_char=82|end_char=84
+22	with	with	ADP	IN	_	21	_	_	start_char=85|end_char=89
+23	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	22	_	_	start_char=90|end_char=92
+24	hands	hand	NOUN	NNS	Number=Plur	23	_	_	start_char=93|end_char=98|SpaceAfter=No
+25	?	?	PUNCT	.	_	24	_	_	start_char=98|end_char=99
+
+# text = Thanks for the response btw :D
+# sent_id = 120020
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=100|end_char=106
+2	for	for	ADP	IN	_	1	_	_	start_char=107|end_char=110
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=111|end_char=114
+4	response	response	NOUN	NN	Number=Sing	3	_	_	start_char=115|end_char=123
+5	btw	btw	ADV	RB	_	4	_	_	start_char=124|end_char=127
+6	:D	:d	SYM	NFP	_	5	_	_	start_char=128|end_char=130|SpaceAfter=No
+

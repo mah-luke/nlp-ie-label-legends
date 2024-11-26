@@ -1,0 +1,56 @@
+# text = That was my first thought!
+# sent_id = 2728
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=9|end_char=11
+4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	_	_	start_char=12|end_char=17
+5	thought	thought	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=25|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=25|end_char=26
+
+# text = Dude staring blankly into space during long-winded corporate speech about how everybody's supposed to love the company and be super enthusiastic?
+# sent_id = 2729
+1	Dude	dude	NOUN	NN	Number=Sing	0	_	_	start_char=27|end_char=31
+2	staring	stare	VERB	VBG	VerbForm=Ger	1	_	_	start_char=32|end_char=39
+3	blankly	blankly	ADV	RB	_	2	_	_	start_char=40|end_char=47
+4	into	into	ADP	IN	_	3	_	_	start_char=48|end_char=52
+5	space	space	NOUN	NN	Number=Sing	4	_	_	start_char=53|end_char=58
+6	during	during	ADP	IN	_	5	_	_	start_char=59|end_char=65
+7	long	long	ADJ	JJ	Degree=Pos	6	_	_	start_char=66|end_char=70|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	_	_	start_char=70|end_char=71|SpaceAfter=No
+9	winded	wind	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=71|end_char=77
+10	corporate	corporate	ADJ	JJ	Degree=Pos	9	_	_	start_char=78|end_char=87
+11	speech	speech	NOUN	NN	Number=Sing	10	_	_	start_char=88|end_char=94
+12	about	about	SCONJ	IN	_	11	_	_	start_char=95|end_char=100
+13	how	how	ADV	WRB	PronType=Int	12	_	_	start_char=101|end_char=104
+14-15	everybody's	_	_	_	_	_	_	_	start_char=105|end_char=116
+14	everybody	everybody	PRON	NN	Number=Sing|PronType=Tot	13	_	_	start_char=105|end_char=114
+15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=114|end_char=116
+16	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	_	_	start_char=117|end_char=125
+17	to	to	PART	TO	_	16	_	_	start_char=126|end_char=128
+18	love	love	VERB	VB	VerbForm=Inf	17	_	_	start_char=129|end_char=133
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=134|end_char=137
+20	company	company	NOUN	NN	Number=Sing	19	_	_	start_char=138|end_char=145
+21	and	and	CCONJ	CC	_	20	_	_	start_char=146|end_char=149
+22	be	be	AUX	VB	VerbForm=Inf	21	_	_	start_char=150|end_char=152
+23	super	super	ADV	RB	_	22	_	_	start_char=153|end_char=158
+24	enthusiastic	enthusiastic	ADJ	JJ	Degree=Pos	23	_	_	start_char=159|end_char=171|SpaceAfter=No
+25	?	?	PUNCT	.	_	24	_	_	start_char=171|end_char=172
+
+# text = His wife must have killed his soul.
+# sent_id = 2730
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=173|end_char=176
+2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=177|end_char=181
+3	must	must	AUX	MD	VerbForm=Fin	2	_	_	start_char=182|end_char=186
+4	have	have	AUX	VB	VerbForm=Inf	3	_	_	start_char=187|end_char=191
+5	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=192|end_char=198
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=199|end_char=202
+7	soul	soul	NOUN	NN	Number=Sing	6	_	_	start_char=203|end_char=207|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=207|end_char=208
+
+# text = Only logical explanation.
+# sent_id = 2731
+1	Only	only	ADV	RB	_	0	_	_	start_char=209|end_char=213
+2	logical	logical	ADJ	JJ	Degree=Pos	1	_	_	start_char=214|end_char=221
+3	explanation	explanation	NOUN	NN	Number=Sing	2	_	_	start_char=222|end_char=233|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=233|end_char=234|SpaceAfter=No
+

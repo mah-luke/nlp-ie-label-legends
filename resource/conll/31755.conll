@@ -1,0 +1,46 @@
+# text = The guy needs a medal🥇and a beer🍺
+# sent_id = 68052
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=7
+3	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=13
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=14|end_char=15
+5	medal	medal	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=21|SpaceAfter=No
+6	🥇and	🥇and	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=25
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=26|end_char=27
+8	beer	beer	NOUN	NN	Number=Sing	7	_	_	start_char=28|end_char=32|SpaceAfter=No
+9	🍺	🍺	PUNCT	.	_	8	_	_	start_char=32|end_char=33
+
+# text = This man is a #Hero👊 #Beers🍻 for life!
+# sent_id = 68053
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=34|end_char=38
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=39|end_char=42
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=43|end_char=45
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=46|end_char=47
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=48|end_char=49|SpaceAfter=No
+6	Hero👊	Hero👊	PROPN	NNP	Number=Sing	5	_	_	start_char=49|end_char=54
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=55|end_char=56|SpaceAfter=No
+8	Beers🍻	beers🍻	NOUN	NN	Number=Sing	7	_	_	start_char=56|end_char=62
+9	for	for	ADP	IN	_	8	_	_	start_char=63|end_char=66
+10	life	life	NOUN	NN	Number=Sing	9	_	_	start_char=67|end_char=71|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=71|end_char=72
+
+# text = This is a man all daughters need as a 💪father.
+# sent_id = 68054
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=73|end_char=77
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=78|end_char=80
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=81|end_char=82
+4	man	man	NOUN	NN	Number=Sing	3	_	_	start_char=83|end_char=86
+5	all	all	DET	DT	_	4	_	_	start_char=87|end_char=90
+6	daughters	daughter	NOUN	NNS	Number=Plur	5	_	_	start_char=91|end_char=100
+7	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=101|end_char=105
+8	as	as	ADP	IN	_	7	_	_	start_char=106|end_char=108
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=109|end_char=110
+10	💪father	💪father	NOUN	NN	Number=Sing	9	_	_	start_char=111|end_char=118|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=118|end_char=119
+
+# text = [URL]
+# sent_id = 68055
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=120|end_char=121|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=121|end_char=124|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=124|end_char=125|SpaceAfter=No
+

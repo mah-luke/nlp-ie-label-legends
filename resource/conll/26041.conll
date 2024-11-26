@@ -1,0 +1,17 @@
+# text = well, she'll at least have her gofundme $$ payoff.
+# sent_id = 55909
+1	well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3-4	she'll	_	_	_	_	_	_	_	start_char=6|end_char=12
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=6|end_char=9
+4	'll	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=9|end_char=12
+5	at	at	ADP	IN	ExtPos=ADV	4	_	_	start_char=13|end_char=15
+6	least	least	ADJ	JJS	Degree=Sup	5	_	_	start_char=16|end_char=21
+7	have	have	VERB	VB	VerbForm=Inf	6	_	_	start_char=22|end_char=26
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=27|end_char=30
+9	gofundme	gofundme	NOUN	NN	Number=Sing	8	_	_	start_char=31|end_char=39
+10	$	$	SYM	$	_	9	_	_	start_char=40|end_char=41|SpaceAfter=No
+11	$	$	SYM	$	_	10	_	_	start_char=41|end_char=42
+12	payoff	payoff	NOUN	NN	Number=Sing	11	_	_	start_char=43|end_char=49|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=49|end_char=50|SpaceAfter=No
+

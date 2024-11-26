@@ -1,0 +1,23 @@
+# text = Ah hah... I found her mother but that info almost goes nowhere so far... [URL] ...
+# sent_id = 75064
+1	Ah	ah	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	hah	hah	INTJ	UH	_	1	_	_	start_char=3|end_char=6|SpaceAfter=No
+3	...	...	PUNCT	,	_	2	_	_	start_char=6|end_char=9
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=10|end_char=11
+5	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=12|end_char=17
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=18|end_char=21
+7	mother	mother	NOUN	NN	Number=Sing	6	_	_	start_char=22|end_char=28
+8	but	but	CCONJ	CC	_	7	_	_	start_char=29|end_char=32
+9	that	that	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=33|end_char=37
+10	info	info	NOUN	NN	Number=Sing	9	_	_	start_char=38|end_char=42
+11	almost	almost	ADV	RB	_	10	_	_	start_char=43|end_char=49
+12	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=50|end_char=54
+13	nowhere	nowhere	ADV	RB	_	12	_	_	start_char=55|end_char=62
+14	so	so	ADV	RB	_	13	_	_	start_char=63|end_char=65
+15	far	far	ADV	RB	Degree=Pos	14	_	_	start_char=66|end_char=69|SpaceAfter=No
+16	...	...	PUNCT	,	_	15	_	_	start_char=69|end_char=72
+17	[	[	PUNCT	-LRB-	_	16	_	_	start_char=73|end_char=74|SpaceAfter=No
+18	URL	URL	PROPN	NNP	Number=Sing	17	_	_	start_char=74|end_char=77|SpaceAfter=No
+19	]	]	PUNCT	-RRB-	_	18	_	_	start_char=77|end_char=78
+20	...	...	PUNCT	.	_	19	_	_	start_char=79|end_char=82|SpaceAfter=No
+

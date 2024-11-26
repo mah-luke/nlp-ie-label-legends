@@ -1,0 +1,33 @@
+# text = This is for men's rights, not hating women.
+# sent_id = 56250
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	for	for	ADP	IN	_	2	_	_	start_char=8|end_char=11
+4-5	men's	_	_	_	_	_	_	_	start_char=12|end_char=17
+4	men	man	NOUN	NNS	Number=Plur	3	_	_	start_char=12|end_char=15
+5	's	's	PART	POS	_	4	_	_	start_char=15|end_char=17
+6	rights	right	NOUN	NNS	Number=Plur	5	_	_	start_char=18|end_char=24|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=24|end_char=25
+8	not	not	PART	RB	_	7	_	_	start_char=26|end_char=29
+9	hating	hate	VERB	VBG	VerbForm=Ger	8	_	_	start_char=30|end_char=36
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=37|end_char=42|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=42|end_char=43
+
+# text = There's nothing wrong with hating your oppressor.
+# sent_id = 56251
+1-2	There's	_	_	_	_	_	_	_	start_char=44|end_char=51
+1	There	there	PRON	EX	_	0	_	_	start_char=44|end_char=49
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=49|end_char=51
+3	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	2	_	_	start_char=52|end_char=59
+4	wrong	wrong	ADJ	JJ	Degree=Pos	3	_	_	start_char=60|end_char=65
+5	with	with	SCONJ	IN	_	4	_	_	start_char=66|end_char=70
+6	hating	hate	VERB	VBG	VerbForm=Ger	5	_	_	start_char=71|end_char=77
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=78|end_char=82
+8	oppressor	oppressor	NOUN	NN	Number=Sing	7	_	_	start_char=83|end_char=92|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=92|end_char=93
+
+# text = /irony
+# sent_id = 56252
+1	/	/	SYM	,	_	0	_	_	start_char=94|end_char=95|SpaceAfter=No
+2	irony	irony	NOUN	NN	Number=Sing	1	_	_	start_char=95|end_char=100|SpaceAfter=No
+

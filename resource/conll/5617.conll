@@ -1,0 +1,33 @@
+# text = “Excuse me, the manager asked me to ask you to please leave.
+# sent_id = 11777
+1	“	''	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Excuse	excuse	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=1|end_char=7
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=8|end_char=10|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=10|end_char=11
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=12|end_char=15
+6	manager	manager	NOUN	NN	Number=Sing	5	_	_	start_char=16|end_char=23
+7	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=24|end_char=29
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=30|end_char=32
+9	to	to	PART	TO	_	8	_	_	start_char=33|end_char=35
+10	ask	ask	VERB	VB	VerbForm=Inf	9	_	_	start_char=36|end_char=39
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=40|end_char=43
+12	to	to	PART	TO	_	11	_	_	start_char=44|end_char=46
+13	please	please	INTJ	UH	_	12	_	_	start_char=47|end_char=53
+14	leave	leave	VERB	VB	VerbForm=Inf	13	_	_	start_char=54|end_char=59|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=59|end_char=60
+
+# text = You’re making all the other girls look bad.”
+# sent_id = 11778
+1-2	You’re	_	_	_	_	_	_	_	start_char=61|end_char=67
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=61|end_char=64
+2	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=64|end_char=67
+3	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=68|end_char=74
+4	all	all	DET	PDT	_	3	_	_	start_char=75|end_char=78
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=79|end_char=82
+6	other	other	ADJ	JJ	Degree=Pos	5	_	_	start_char=83|end_char=88
+7	girls	girl	NOUN	NNS	Number=Plur	6	_	_	start_char=89|end_char=94
+8	look	look	VERB	VB	VerbForm=Inf	7	_	_	start_char=95|end_char=99
+9	bad	bad	ADJ	JJ	Degree=Pos	8	_	_	start_char=100|end_char=103|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=103|end_char=104|SpaceAfter=No
+11	”	''	PUNCT	''	_	10	_	_	start_char=104|end_char=105|SpaceAfter=No
+

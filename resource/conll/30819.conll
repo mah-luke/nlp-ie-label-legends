@@ -1,0 +1,59 @@
+# text = It's not like he's tricking her.
+# sent_id = 66063
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	not	not	PART	RB	_	2	_	_	start_char=5|end_char=8
+4	like	like	SCONJ	IN	_	3	_	_	start_char=9|end_char=13
+5-6	he's	_	_	_	_	_	_	_	start_char=14|end_char=18
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=14|end_char=16
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=16|end_char=18
+7	tricking	trick	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=19|end_char=27
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=28|end_char=31|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=31|end_char=32
+
+# text = If being in a structured relationship was in her priority list she wouldn't fuck him on the 1st/2nd/3rd date (week, month?).
+# sent_id = 66064
+1	If	if	SCONJ	IN	_	0	_	_	start_char=33|end_char=35
+2	being	be	AUX	VBG	VerbForm=Ger	1	_	_	start_char=36|end_char=41
+3	in	in	ADP	IN	_	2	_	_	start_char=42|end_char=44
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=45|end_char=46
+5	structured	structure	ADJ	JJ	Degree=Pos	4	_	_	start_char=47|end_char=57
+6	relationship	relationship	NOUN	NN	Number=Sing	5	_	_	start_char=58|end_char=70
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=71|end_char=74
+8	in	in	ADP	IN	_	7	_	_	start_char=75|end_char=77
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=78|end_char=81
+10	priority	priority	NOUN	NN	Number=Sing	9	_	_	start_char=82|end_char=90
+11	list	list	NOUN	NN	Number=Sing	10	_	_	start_char=91|end_char=95
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=96|end_char=99
+13-14	wouldn't	_	_	_	_	_	_	_	start_char=100|end_char=108
+13	would	would	AUX	MD	VerbForm=Fin	12	_	_	start_char=100|end_char=105
+14	n't	not	PART	RB	_	13	_	_	start_char=105|end_char=108
+15	fuck	fuck	VERB	VB	VerbForm=Inf	14	_	_	start_char=109|end_char=113
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=114|end_char=117
+17	on	on	ADP	IN	_	16	_	_	start_char=118|end_char=120
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=121|end_char=124
+19	1st	1st	ADJ	JJ	Degree=Pos|NumType=Ord	18	_	_	start_char=125|end_char=128|SpaceAfter=No
+20	/	/	SYM	SYM	_	19	_	_	start_char=128|end_char=129|SpaceAfter=No
+21	2	2	NUM	CD	NumForm=Digit|NumType=Card	20	_	_	start_char=129|end_char=130|SpaceAfter=No
+22	nd	nd	NOUN	NN	Number=Sing	21	_	_	start_char=130|end_char=132|SpaceAfter=No
+23	/	/	SYM	SYM	_	22	_	_	start_char=132|end_char=133|SpaceAfter=No
+24	3rd	3rd	ADJ	JJ	Degree=Pos|NumType=Ord	23	_	_	start_char=133|end_char=136
+25	date	date	NOUN	NN	Number=Sing	24	_	_	start_char=137|end_char=141
+26	(	(	PUNCT	-LRB-	_	25	_	_	start_char=142|end_char=143|SpaceAfter=No
+27	week	week	NOUN	NN	Number=Sing	26	_	_	start_char=143|end_char=147|SpaceAfter=No
+28	,	,	PUNCT	,	_	27	_	_	start_char=147|end_char=148
+29	month	month	NOUN	NN	Number=Sing	28	_	_	start_char=149|end_char=154|SpaceAfter=No
+30	?	?	PUNCT	.	_	29	_	_	start_char=154|end_char=155|SpaceAfter=No
+31	)	)	PUNCT	-RRB-	_	30	_	_	start_char=155|end_char=156|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	start_char=156|end_char=157
+
+# text = Girls can want fwb too...
+# sent_id = 66065
+1	Girls	Girls	NOUN	NNS	Number=Plur	0	_	_	start_char=158|end_char=163
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=164|end_char=167
+3	want	want	VERB	VB	VerbForm=Inf	2	_	_	start_char=168|end_char=172
+4	fwb	fwb	NOUN	NN	Number=Sing	3	_	_	start_char=173|end_char=176
+5	too	too	ADV	RB	_	4	_	_	start_char=177|end_char=180|SpaceAfter=No
+6	...	...	PUNCT	.	_	5	_	_	start_char=180|end_char=183|SpaceAfter=No
+

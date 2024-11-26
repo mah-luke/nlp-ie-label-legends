@@ -1,0 +1,45 @@
+# text = My ex got her Master's in BA a few months ago, to the tune of $100,000 student loan debt.
+# sent_id = 60564
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	ex	ex	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=5
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=6|end_char=9
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=10|end_char=13
+5-6	Master's	_	_	_	_	_	_	_	start_char=14|end_char=22
+5	Master	master	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=20
+6	's	's	PART	POS	_	5	_	_	start_char=20|end_char=22
+7	in	in	ADP	IN	_	6	_	_	start_char=23|end_char=25
+8	BA	BA	PROPN	NNP	Number=Sing	7	_	_	start_char=26|end_char=28
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=29|end_char=30
+10	few	few	ADJ	JJ	Degree=Pos	9	_	_	start_char=31|end_char=34
+11	months	month	NOUN	NNS	Number=Plur	10	_	_	start_char=35|end_char=41
+12	ago	ago	ADV	RB	_	11	_	_	start_char=42|end_char=45|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=45|end_char=46
+14	to	to	ADP	IN	_	13	_	_	start_char=47|end_char=49
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=50|end_char=53
+16	tune	tune	NOUN	NN	Number=Sing	15	_	_	start_char=54|end_char=58
+17	of	of	ADP	IN	_	16	_	_	start_char=59|end_char=61
+18	$	$	SYM	$	_	17	_	_	start_char=62|end_char=63|SpaceAfter=No
+19	100,000	100000	NUM	CD	NumForm=Digit|NumType=Card	18	_	_	start_char=63|end_char=70
+20	student	student	NOUN	NN	Number=Sing	19	_	_	start_char=71|end_char=78
+21	loan	loan	NOUN	NN	Number=Sing	20	_	_	start_char=79|end_char=83
+22	debt	debt	NOUN	NN	Number=Sing	21	_	_	start_char=84|end_char=88|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=88|end_char=89
+
+# text = She lives in a homeless shelter and works the ding-ding at Ross lol
+# sent_id = 60565
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=90|end_char=93
+2	lives	live	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=94|end_char=99
+3	in	in	ADP	IN	_	2	_	_	start_char=100|end_char=102
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=103|end_char=104
+5	homeless	homeless	ADJ	JJ	Degree=Pos	4	_	_	start_char=105|end_char=113
+6	shelter	shelter	NOUN	NN	Number=Sing	5	_	_	start_char=114|end_char=121
+7	and	and	CCONJ	CC	_	6	_	_	start_char=122|end_char=125
+8	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=126|end_char=131
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=132|end_char=135
+10	ding	ding	NOUN	NN	Number=Sing	9	_	_	start_char=136|end_char=140|SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	10	_	_	start_char=140|end_char=141|SpaceAfter=No
+12	ding	ding	NOUN	NN	Number=Sing	11	_	_	start_char=141|end_char=145
+13	at	at	ADP	IN	_	12	_	_	start_char=146|end_char=148
+14	Ross	Ross	PROPN	NNP	Number=Sing	13	_	_	start_char=149|end_char=153
+15	lol	lol	INTJ	UH	_	14	_	_	start_char=154|end_char=157|SpaceAfter=No
+

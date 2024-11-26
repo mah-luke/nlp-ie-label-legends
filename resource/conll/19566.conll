@@ -1,0 +1,23 @@
+# text = I wonder why he didn't molest Indian women?
+# sent_id = 42003
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	wonder	wonder	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=8
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=9|end_char=12
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=13|end_char=15
+5-6	didn't	_	_	_	_	_	_	_	start_char=16|end_char=22
+5	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=16|end_char=19
+6	n't	not	PART	RB	_	5	_	_	start_char=19|end_char=22
+7	molest	molest	VERB	VB	VerbForm=Inf	6	_	_	start_char=23|end_char=29
+8	Indian	Indian	ADJ	JJ	Degree=Pos	7	_	_	start_char=30|end_char=36
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=37|end_char=42|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=42|end_char=43
+
+# text = Kid in a candy store?
+# sent_id = 42004
+1	Kid	kid	NOUN	NN	Number=Sing	0	_	_	start_char=44|end_char=47
+2	in	in	ADP	IN	_	1	_	_	start_char=48|end_char=50
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=51|end_char=52
+4	candy	candy	NOUN	NN	Number=Sing	3	_	_	start_char=53|end_char=58
+5	store	store	NOUN	NN	Number=Sing	4	_	_	start_char=59|end_char=64|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=64|end_char=65|SpaceAfter=No
+

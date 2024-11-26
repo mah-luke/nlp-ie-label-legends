@@ -1,0 +1,43 @@
+# text = And if you go on to have a very happy life together after that, who cares?
+# sent_id = 23489
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	if	if	SCONJ	IN	_	1	_	_	start_char=4|end_char=6
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=7|end_char=10
+4	go	go	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	on	on	ADV	RB	_	4	_	_	start_char=14|end_char=16
+6	to	to	PART	TO	_	5	_	_	start_char=17|end_char=19
+7	have	have	VERB	VB	VerbForm=Inf	6	_	_	start_char=20|end_char=24
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=25|end_char=26
+9	very	very	ADV	RB	_	8	_	_	start_char=27|end_char=31
+10	happy	happy	ADJ	JJ	Degree=Pos	9	_	_	start_char=32|end_char=37
+11	life	life	NOUN	NN	Number=Sing	10	_	_	start_char=38|end_char=42
+12	together	together	ADV	RB	_	11	_	_	start_char=43|end_char=51
+13	after	after	ADP	IN	_	12	_	_	start_char=52|end_char=57
+14	that	that	PRON	DT	Number=Sing|PronType=Dem	13	_	_	start_char=58|end_char=62|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=62|end_char=63
+16	who	who	PRON	WP	PronType=Int	15	_	_	start_char=64|end_char=67
+17	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=68|end_char=73|SpaceAfter=No
+18	?	?	PUNCT	.	_	17	_	_	start_char=73|end_char=74
+
+# text = But you won't, because every single one of her previous partners was better than you.
+# sent_id = 23490
+1	But	but	CCONJ	CC	_	0	_	_	start_char=75|end_char=78
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=79|end_char=82
+3-4	won't	_	_	_	_	_	_	_	start_char=83|end_char=88|SpaceAfter=No
+3	wo	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=83|end_char=85
+4	n't	not	PART	RB	_	3	_	_	start_char=85|end_char=88
+5	,	,	PUNCT	,	_	4	_	_	start_char=88|end_char=89
+6	because	because	SCONJ	IN	_	5	_	_	start_char=90|end_char=97
+7	every	every	DET	DT	_	6	_	_	start_char=98|end_char=103
+8	single	single	ADJ	JJ	Degree=Pos	7	_	_	start_char=104|end_char=110
+9	one	one	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=111|end_char=114
+10	of	of	ADP	IN	_	9	_	_	start_char=115|end_char=117
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=118|end_char=121
+12	previous	previous	ADJ	JJ	Degree=Pos	11	_	_	start_char=122|end_char=130
+13	partners	partner	NOUN	NNS	Number=Plur	12	_	_	start_char=131|end_char=139
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=140|end_char=143
+15	better	good	ADJ	JJR	Degree=Cmp	14	_	_	start_char=144|end_char=150
+16	than	than	ADP	IN	_	15	_	_	start_char=151|end_char=155
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	_	_	start_char=156|end_char=159|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=159|end_char=160|SpaceAfter=No
+

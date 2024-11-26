@@ -1,0 +1,38 @@
+# text = Charming.
+# sent_id = 27772
+1	Charming	charming	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=8|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=8|end_char=9
+
+# text = You're just so ... charming.
+# sent_id = 27773
+1-2	You're	_	_	_	_	_	_	_	start_char=10|end_char=16
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=10|end_char=13
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=13|end_char=16
+3	just	just	ADV	RB	_	2	_	_	start_char=17|end_char=21
+4	so	so	ADV	RB	_	3	_	_	start_char=22|end_char=24
+5	...	...	PUNCT	,	_	4	_	_	start_char=25|end_char=28
+6	charming	charming	ADJ	JJ	Degree=Pos	5	_	_	start_char=29|end_char=37|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=37|end_char=38
+
+# text = Bet you're beating the ladies off with a stick.
+# sent_id = 27774
+1	Bet	Bet	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=39|end_char=42
+2-3	you're	_	_	_	_	_	_	_	start_char=43|end_char=49
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=43|end_char=46
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=46|end_char=49
+4	beating	beat	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=50|end_char=57
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=58|end_char=61
+6	ladies	lady	NOUN	NNS	Number=Plur	5	_	_	start_char=62|end_char=68
+7	off	off	ADP	RP	_	6	_	_	start_char=69|end_char=72
+8	with	with	ADP	IN	_	7	_	_	start_char=73|end_char=77
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=78|end_char=79
+10	stick	stick	NOUN	NN	Number=Sing	9	_	_	start_char=80|end_char=85|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=85|end_char=86
+
+# text = What a pig.
+# sent_id = 27775
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=87|end_char=91
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=92|end_char=93
+3	pig	pig	NOUN	NN	Number=Sing	2	_	_	start_char=94|end_char=97|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=97|end_char=98|SpaceAfter=No
+

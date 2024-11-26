@@ -1,0 +1,49 @@
+# text = UBS: "The flurry of Trump Twitter activity does suggest that consumer trade taxes will dominate investor concerns this week.
+# sent_id = 12350
+1	UBS	ubs	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=3|end_char=4
+3	"	"	PUNCT	``	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
+4	The	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=6|end_char=9
+5	flurry	flurry	NOUN	NN	Number=Sing	4	_	_	start_char=10|end_char=16
+6	of	of	ADP	IN	_	5	_	_	start_char=17|end_char=19
+7	Trump	Trump	PROPN	NNP	Number=Sing	6	_	_	start_char=20|end_char=25
+8	Twitter	Twitter	PROPN	NNP	Number=Sing	7	_	_	start_char=26|end_char=33
+9	activity	activity	NOUN	NN	Number=Sing	8	_	_	start_char=34|end_char=42
+10	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=43|end_char=47
+11	suggest	suggest	VERB	VB	VerbForm=Inf	10	_	_	start_char=48|end_char=55
+12	that	that	SCONJ	IN	_	11	_	_	start_char=56|end_char=60
+13	consumer	consumer	NOUN	NN	Number=Sing	12	_	_	start_char=61|end_char=69
+14	trade	trade	NOUN	NN	Number=Sing	13	_	_	start_char=70|end_char=75
+15	taxes	tax	NOUN	NNS	Number=Plur	14	_	_	start_char=76|end_char=81
+16	will	will	AUX	MD	VerbForm=Fin	15	_	_	start_char=82|end_char=86
+17	dominate	dominate	VERB	VB	VerbForm=Inf	16	_	_	start_char=87|end_char=95
+18	investor	investor	NOUN	NN	Number=Sing	17	_	_	start_char=96|end_char=104
+19	concerns	concern	NOUN	NNS	Number=Plur	18	_	_	start_char=105|end_char=113
+20	this	this	DET	DT	Number=Sing|PronType=Dem	19	_	_	start_char=114|end_char=118
+21	week	week	NOUN	NN	Number=Sing	20	_	_	start_char=119|end_char=123|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=123|end_char=124
+
+# text = Taxing trade tends to hit lower income US consumers more than higher income US consumers, offsetting any wage gains"
+# sent_id = 12351
+1	Taxing	tax	VERB	VBG	VerbForm=Ger	0	_	_	start_char=125|end_char=131
+2	trade	trade	NOUN	NN	Number=Sing	1	_	_	start_char=132|end_char=137
+3	tends	tend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=138|end_char=143
+4	to	to	PART	TO	_	3	_	_	start_char=144|end_char=146
+5	hit	hit	VERB	VB	VerbForm=Inf	4	_	_	start_char=147|end_char=150
+6	lower	low	ADJ	JJR	Degree=Cmp	5	_	_	start_char=151|end_char=156
+7	income	income	NOUN	NN	Number=Sing	6	_	_	start_char=157|end_char=163
+8	US	US	PROPN	NNP	Number=Sing	7	_	_	start_char=164|end_char=166
+9	consumers	consumer	NOUN	NNS	Number=Plur	8	_	_	start_char=167|end_char=176
+10	more	more	ADJ	JJR	Degree=Cmp	9	_	_	start_char=177|end_char=181
+11	than	than	ADP	IN	_	10	_	_	start_char=182|end_char=186
+12	higher	high	ADJ	JJR	Degree=Cmp	11	_	_	start_char=187|end_char=193
+13	income	income	NOUN	NN	Number=Sing	12	_	_	start_char=194|end_char=200
+14	US	US	PROPN	NNP	Number=Sing	13	_	_	start_char=201|end_char=203
+15	consumers	consumer	NOUN	NNS	Number=Plur	14	_	_	start_char=204|end_char=213|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=213|end_char=214
+17	offsetting	offset	VERB	VBG	VerbForm=Ger	16	_	_	start_char=215|end_char=225
+18	any	any	DET	DT	_	17	_	_	start_char=226|end_char=229
+19	wage	wage	NOUN	NN	Number=Sing	18	_	_	start_char=230|end_char=234
+20	gains	gain	NOUN	NNS	Number=Plur	19	_	_	start_char=235|end_char=240|SpaceAfter=No
+21	"	"	PUNCT	''	_	20	_	_	start_char=240|end_char=241|SpaceAfter=No
+

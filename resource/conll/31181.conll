@@ -1,0 +1,55 @@
+# text = At best it's a hambeast sea-creature gf.
+# sent_id = 66838
+1	At	at	ADP	IN	ExtPos=ADV	0	_	_	start_char=0|end_char=2
+2	best	good	ADJ	JJS	Degree=Sup	1	_	_	start_char=3|end_char=7
+3-4	it's	_	_	_	_	_	_	_	start_char=8|end_char=12
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=8|end_char=10
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=10|end_char=12
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=13|end_char=14
+6	hambeast	hambeast	NOUN	NN	Number=Sing	5	_	_	start_char=15|end_char=23
+7	sea-creature	sea-creature	NOUN	NN	Number=Sing	6	_	_	start_char=24|end_char=36
+8	gf	gf	NOUN	NN	Number=Sing	7	_	_	start_char=37|end_char=39|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=39|end_char=40
+
+# text = Ahem.
+# sent_id = 66839
+1	Ahem	ahem	INTJ	UH	_	0	_	_	start_char=41|end_char=45|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=45|end_char=46
+
+# text = Wifey, you mean.
+# sent_id = 66840
+1	Wifey	Wifey	PROPN	NNP	Number=Sing	0	_	_	start_char=47|end_char=52|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=52|end_char=53
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=54|end_char=57
+4	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=58|end_char=62|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=62|end_char=63
+
+# text = Gotta lock her down before any of her other boyfriends gets a chance, haha!
+# sent_id = 66841
+1-2	Gotta	_	_	_	_	_	_	_	start_char=64|end_char=69
+1	Got	get	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=64|end_char=67
+2	ta	to	PART	TO	_	1	_	_	start_char=67|end_char=69
+3	lock	lock	VERB	VB	VerbForm=Inf	2	_	_	start_char=70|end_char=74
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=75|end_char=78
+5	down	down	ADP	RP	_	4	_	_	start_char=79|end_char=83
+6	before	before	SCONJ	IN	_	5	_	_	start_char=84|end_char=90
+7	any	any	DET	DT	_	6	_	_	start_char=91|end_char=94
+8	of	of	ADP	IN	_	7	_	_	start_char=95|end_char=97
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=98|end_char=101
+10	other	other	ADJ	JJ	Degree=Pos	9	_	_	start_char=102|end_char=107
+11	boyfriends	boyfriend	NOUN	NNS	Number=Plur	10	_	_	start_char=108|end_char=118
+12	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=119|end_char=123
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=124|end_char=125
+14	chance	chance	NOUN	NN	Number=Sing	13	_	_	start_char=126|end_char=132|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=132|end_char=133
+16	haha	haha	INTJ	UH	_	15	_	_	start_char=134|end_char=138|SpaceAfter=No
+17	!	!	PUNCT	.	_	16	_	_	start_char=138|end_char=139
+
+# text = Good day, incelius!
+# sent_id = 66842
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=140|end_char=144
+2	day	day	NOUN	NN	Number=Sing	1	_	_	start_char=145|end_char=148|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=148|end_char=149
+4	incelius	inceliu	NOUN	NN	Number=Sing	3	_	_	start_char=150|end_char=158|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=158|end_char=159|SpaceAfter=No
+

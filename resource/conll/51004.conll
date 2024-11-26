@@ -1,0 +1,48 @@
+# text = [USER]
+# sent_id = 109009
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = I notice she didn't say a word about Russia hacking her emails.
+# sent_id = 109010
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
+2	notice	notice	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=15
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=16|end_char=19
+4-5	didn't	_	_	_	_	_	_	_	start_char=20|end_char=26
+4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=20|end_char=23
+5	n't	not	PART	RB	_	4	_	_	start_char=23|end_char=26
+6	say	say	VERB	VB	VerbForm=Inf	5	_	_	start_char=27|end_char=30
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=31|end_char=32
+8	word	word	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=37
+9	about	about	ADP	IN	_	8	_	_	start_char=38|end_char=43
+10	Russia	Russia	PROPN	NNP	Number=Sing	9	_	_	start_char=44|end_char=50
+11	hacking	hack	VERB	VBG	VerbForm=Ger	10	_	_	start_char=51|end_char=58
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=59|end_char=62
+13	emails	email	NOUN	NNS	Number=Plur	12	_	_	start_char=63|end_char=69|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=69|end_char=70
+
+# text = But then she practically handed them over to everyone who cared to have them.
+# sent_id = 109011
+1	But	but	CCONJ	CC	_	0	_	_	start_char=71|end_char=74
+2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=75|end_char=79
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=80|end_char=83
+4	practically	practically	ADV	RB	_	3	_	_	start_char=84|end_char=95
+5	handed	hand	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=96|end_char=102
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=103|end_char=107
+7	over	over	ADP	RP	_	6	_	_	start_char=108|end_char=112
+8	to	to	ADP	IN	_	7	_	_	start_char=113|end_char=115
+9	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	8	_	_	start_char=116|end_char=124
+10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=125|end_char=128
+11	cared	care	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=129|end_char=134
+12	to	to	PART	TO	_	11	_	_	start_char=135|end_char=137
+13	have	have	VERB	VB	VerbForm=Inf	12	_	_	start_char=138|end_char=142
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=143|end_char=147|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=147|end_char=148
+
+# text = #Hillary4Prison
+# sent_id = 109012
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=149|end_char=150|SpaceAfter=No
+2	Hillary4	Hillary4	PROPN	NNP	Number=Sing	1	_	_	start_char=150|end_char=158|SpaceAfter=No
+3	Prison	Prison	PROPN	NNP	Number=Sing	2	_	_	start_char=158|end_char=164|SpaceAfter=No
+

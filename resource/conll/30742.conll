@@ -1,0 +1,32 @@
+# text = She barely talks to me.
+# sent_id = 65867
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	barely	barely	ADV	RB	_	1	_	_	start_char=4|end_char=10
+3	talks	talk	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=16
+4	to	to	ADP	IN	_	3	_	_	start_char=17|end_char=19
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=20|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = There’s probably 30 girls I know right now who I’d rather talk to than her.
+# sent_id = 65868
+1-2	There’s	_	_	_	_	_	_	_	start_char=24|end_char=31
+1	There	there	PRON	EX	_	0	_	_	start_char=24|end_char=29
+2	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=29|end_char=31
+3	probably	probably	ADV	RB	Degree=Pos	2	_	_	start_char=32|end_char=40
+4	30	30	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=41|end_char=43
+5	girls	girl	NOUN	NNS	Number=Plur	4	_	_	start_char=44|end_char=49
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=50|end_char=51
+7	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=52|end_char=56
+8	right	right	ADV	RB	_	7	_	_	start_char=57|end_char=62
+9	now	now	ADV	RB	_	8	_	_	start_char=63|end_char=66
+10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=67|end_char=70
+11-12	I’d	_	_	_	_	_	_	_	start_char=71|end_char=74
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=71|end_char=72
+12	’d	would	AUX	MD	VerbForm=Fin	11	_	_	start_char=72|end_char=74
+13	rather	rather	ADV	RB	_	12	_	_	start_char=75|end_char=81
+14	talk	talk	VERB	VB	VerbForm=Inf	13	_	_	start_char=82|end_char=86
+15	to	to	ADP	IN	_	14	_	_	start_char=87|end_char=89
+16	than	than	ADP	IN	_	15	_	_	start_char=90|end_char=94
+17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=95|end_char=98|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=98|end_char=99|SpaceAfter=No
+

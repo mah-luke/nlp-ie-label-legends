@@ -1,0 +1,51 @@
+# text = Yeah there's that.
+# sent_id = 5566
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2-3	there's	_	_	_	_	_	_	_	start_char=5|end_char=12
+2	there	there	PRON	EX	_	1	_	_	start_char=5|end_char=10
+3	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=13|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = But what he won't consider is his own 7th century religion that espouses: - female genital mutilation - marriage to prepubescent females - state sanctioned murder of homosexuals - (worst of all) pork hate
+# sent_id = 5567
+1	But	but	CCONJ	CC	_	0	_	_	start_char=19|end_char=22
+2	what	what	PRON	WP	PronType=Rel	1	_	_	start_char=23|end_char=27
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=28|end_char=30
+4-5	won't	_	_	_	_	_	_	_	start_char=31|end_char=36
+4	wo	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=31|end_char=33
+5	n't	not	PART	RB	_	4	_	_	start_char=33|end_char=36
+6	consider	consider	VERB	VB	VerbForm=Inf	5	_	_	start_char=37|end_char=45
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=46|end_char=48
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=49|end_char=52
+9	own	own	ADJ	JJ	Degree=Pos	8	_	_	start_char=53|end_char=56
+10	7th	7th	ADJ	JJ	Degree=Pos|NumType=Ord	9	_	_	start_char=57|end_char=60
+11	century	century	NOUN	NN	Number=Sing	10	_	_	start_char=61|end_char=68
+12	religion	religion	NOUN	NN	Number=Sing	11	_	_	start_char=69|end_char=77
+13	that	that	PRON	WDT	PronType=Rel	12	_	_	start_char=78|end_char=82
+14	espouses	espous	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=83|end_char=91|SpaceAfter=No
+15	:	:	PUNCT	:	_	14	_	_	start_char=91|end_char=92
+16	-	-	PUNCT	HYPH	_	15	_	_	start_char=93|end_char=94
+17	female	female	ADJ	JJ	Degree=Pos	16	_	_	start_char=95|end_char=101
+18	genital	genital	ADJ	JJ	Degree=Pos	17	_	_	start_char=102|end_char=109
+19	mutilation	mutilation	NOUN	NN	Number=Sing	18	_	_	start_char=110|end_char=120
+20	-	-	PUNCT	HYPH	_	19	_	_	start_char=121|end_char=122
+21	marriage	marriage	NOUN	NN	Number=Sing	20	_	_	start_char=123|end_char=131
+22	to	to	ADP	IN	_	21	_	_	start_char=132|end_char=134
+23	prepubescent	prepubescent	ADJ	JJ	Degree=Pos	22	_	_	start_char=135|end_char=147
+24	females	female	NOUN	NNS	Number=Plur	23	_	_	start_char=148|end_char=155
+25	-	-	PUNCT	HYPH	_	24	_	_	start_char=156|end_char=157
+26	state	state	NOUN	NN	Number=Sing	25	_	_	start_char=158|end_char=163
+27	sanctioned	sanction	VERB	VBN	Tense=Past|VerbForm=Part	26	_	_	start_char=164|end_char=174
+28	murder	murder	NOUN	NN	Number=Sing	27	_	_	start_char=175|end_char=181
+29	of	of	ADP	IN	_	28	_	_	start_char=182|end_char=184
+30	homosexuals	homosexual	NOUN	NNS	Number=Plur	29	_	_	start_char=185|end_char=196
+31	-	-	PUNCT	,	_	30	_	_	start_char=197|end_char=198
+32	(	(	PUNCT	-LRB-	_	31	_	_	start_char=199|end_char=200|SpaceAfter=No
+33	worst	bad	ADJ	JJS	Degree=Sup	32	_	_	start_char=200|end_char=205
+34	of	of	ADP	IN	_	33	_	_	start_char=206|end_char=208
+35	all	all	DET	DT	_	34	_	_	start_char=209|end_char=212|SpaceAfter=No
+36	)	)	PUNCT	-RRB-	_	35	_	_	start_char=212|end_char=213
+37	pork	pork	NOUN	NN	Number=Sing	36	_	_	start_char=214|end_char=218
+38	hate	hate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	37	_	_	start_char=219|end_char=223|SpaceAfter=No
+

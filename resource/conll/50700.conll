@@ -1,0 +1,28 @@
+# text = Both men and women are trash.
+# sent_id = 108363
+1	Both	both	DET	DT	_	0	_	_	start_char=0|end_char=4
+2	men	man	NOUN	NNS	Number=Plur	1	_	_	start_char=5|end_char=8
+3	and	and	CCONJ	CC	_	2	_	_	start_char=9|end_char=12
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=13|end_char=18
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=19|end_char=22
+6	trash	trash	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=28|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = There needs to be a virus that wipes out all human life on earth.
+# sent_id = 108364
+1	There	there	PRON	EX	_	0	_	_	start_char=30|end_char=35
+2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=41
+3	to	to	PART	TO	_	2	_	_	start_char=42|end_char=44
+4	be	be	VERB	VB	VerbForm=Inf	3	_	_	start_char=45|end_char=47
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=48|end_char=49
+6	virus	virus	NOUN	NN	Number=Sing	5	_	_	start_char=50|end_char=55
+7	that	that	PRON	WDT	PronType=Rel	6	_	_	start_char=56|end_char=60
+8	wipes	wipe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=61|end_char=66
+9	out	out	ADP	RP	_	8	_	_	start_char=67|end_char=70
+10	all	all	DET	DT	_	9	_	_	start_char=71|end_char=74
+11	human	human	ADJ	JJ	Degree=Pos	10	_	_	start_char=75|end_char=80
+12	life	life	NOUN	NN	Number=Sing	11	_	_	start_char=81|end_char=85
+13	on	on	ADP	IN	_	12	_	_	start_char=86|end_char=88
+14	earth	earth	NOUN	NN	Number=Sing	13	_	_	start_char=89|end_char=94|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=94|end_char=95|SpaceAfter=No
+

@@ -1,0 +1,65 @@
+# text = What a cringing little turd of a man.
+# sent_id = 100362
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	cringing	cring	VERB	VBG	VerbForm=Ger	2	_	_	start_char=7|end_char=15
+4	little	little	ADJ	JJ	Degree=Pos	3	_	_	start_char=16|end_char=22
+5	turd	turd	NOUN	NN	Number=Sing	4	_	_	start_char=23|end_char=27
+6	of	of	ADP	IN	_	5	_	_	start_char=28|end_char=30
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=31|end_char=32
+8	man	man	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=36|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=36|end_char=37
+
+# text = I guess if anyone wants to assassinate him all they have to do is send a female.
+# sent_id = 100363
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=38|end_char=39
+2	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=40|end_char=45
+3	if	if	SCONJ	IN	_	2	_	_	start_char=46|end_char=48
+4	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=49|end_char=55
+5	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=56|end_char=61
+6	to	to	PART	TO	_	5	_	_	start_char=62|end_char=64
+7	assassinate	assassinate	VERB	VB	VerbForm=Inf	6	_	_	start_char=65|end_char=76
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=77|end_char=80
+9	all	all	DET	DT	_	8	_	_	start_char=81|end_char=84
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=85|end_char=89
+11	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=90|end_char=94
+12	to	to	PART	TO	_	11	_	_	start_char=95|end_char=97
+13	do	do	VERB	VB	VerbForm=Inf	12	_	_	start_char=98|end_char=100
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=101|end_char=103
+15	send	send	VERB	VB	VerbForm=Inf	14	_	_	start_char=104|end_char=108
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=109|end_char=110
+17	female	female	NOUN	NN	Number=Sing	16	_	_	start_char=111|end_char=117|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=117|end_char=118
+
+# text = As she is about to strike he will, no doubt, yell to his bodyguards "Don't shoot, she's a woman!"
+# sent_id = 100364
+1	As	as	SCONJ	IN	_	0	_	_	start_char=119|end_char=121
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=122|end_char=125
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=126|end_char=128
+4	about	about	ADJ	JJ	Degree=Pos	3	_	_	start_char=129|end_char=134
+5	to	to	PART	TO	_	4	_	_	start_char=135|end_char=137
+6	strike	strike	VERB	VB	VerbForm=Inf	5	_	_	start_char=138|end_char=144
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=145|end_char=147
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=148|end_char=152|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=152|end_char=153
+10	no	no	ADV	RB	_	9	_	_	start_char=154|end_char=156
+11	doubt	doubt	ADV	RB	_	10	_	_	start_char=157|end_char=162|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=162|end_char=163
+13	yell	yell	VERB	VB	VerbForm=Inf	12	_	_	start_char=164|end_char=168
+14	to	to	ADP	IN	_	13	_	_	start_char=169|end_char=171
+15	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=172|end_char=175
+16	bodyguards	bodyguard	NOUN	NNS	Number=Plur	15	_	_	start_char=176|end_char=186
+17	"	"	PUNCT	``	_	16	_	_	start_char=187|end_char=188|SpaceAfter=No
+18-19	Don't	_	_	_	_	_	_	_	start_char=188|end_char=193
+18	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	17	_	_	start_char=188|end_char=190
+19	n't	not	PART	RB	_	18	_	_	start_char=190|end_char=193
+20	shoot	shoot	VERB	VB	Mood=Imp|VerbForm=Fin	19	_	_	start_char=194|end_char=199|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	_	_	start_char=199|end_char=200
+22-23	she's	_	_	_	_	_	_	_	start_char=201|end_char=206
+22	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=201|end_char=204
+23	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=204|end_char=206
+24	a	a	DET	DT	Definite=Ind|PronType=Art	23	_	_	start_char=207|end_char=208
+25	woman	woman	NOUN	NN	Number=Sing	24	_	_	start_char=209|end_char=214|SpaceAfter=No
+26	!	!	PUNCT	.	_	25	_	_	start_char=214|end_char=215|SpaceAfter=No
+27	"	"	PUNCT	''	_	26	_	_	start_char=215|end_char=216|SpaceAfter=No
+

@@ -1,0 +1,38 @@
+# text = Good point.
+# sent_id = 18105
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	point	point	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=10|end_char=11
+
+# text = Some guys have absolutely no standards.
+# sent_id = 18106
+1	Some	some	DET	DT	_	0	_	_	start_char=12|end_char=16
+2	guys	guy	NOUN	NNS	Number=Plur	1	_	_	start_char=17|end_char=21
+3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=22|end_char=26
+4	absolutely	absolutely	ADV	RB	_	3	_	_	start_char=27|end_char=37
+5	no	no	DET	DT	_	4	_	_	start_char=38|end_char=40
+6	standards	standard	NOUN	NNS	Number=Plur	5	_	_	start_char=41|end_char=50|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=50|end_char=51
+
+# text = Even a 500 pound woman finds some desperate loser willing to "love her for who she is"
+# sent_id = 18107
+1	Even	even	ADV	RB	_	0	_	_	start_char=52|end_char=56
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=57|end_char=58
+3	500	500	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=59|end_char=62
+4	pound	pound	NOUN	NN	Number=Sing	3	_	_	start_char=63|end_char=68
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=69|end_char=74
+6	finds	find	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=75|end_char=80
+7	some	some	DET	DT	_	6	_	_	start_char=81|end_char=85
+8	desperate	desperate	ADJ	JJ	Degree=Pos	7	_	_	start_char=86|end_char=95
+9	loser	loser	NOUN	NN	Number=Sing	8	_	_	start_char=96|end_char=101
+10	willing	willing	ADJ	JJ	Degree=Pos	9	_	_	start_char=102|end_char=109
+11	to	to	PART	TO	_	10	_	_	start_char=110|end_char=112
+12	"	"	PUNCT	``	_	11	_	_	start_char=113|end_char=114|SpaceAfter=No
+13	love	love	VERB	VB	VerbForm=Inf	12	_	_	start_char=114|end_char=118
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=119|end_char=122
+15	for	for	ADP	IN	_	14	_	_	start_char=123|end_char=126
+16	who	who	PRON	WP	PronType=Rel	15	_	_	start_char=127|end_char=130
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=131|end_char=134
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=135|end_char=137|SpaceAfter=No
+19	"	"	PUNCT	''	_	18	_	_	start_char=137|end_char=138|SpaceAfter=No
+

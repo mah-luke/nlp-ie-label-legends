@@ -1,0 +1,44 @@
+# text = "The movement has a real problem with women."
+# sent_id = 45777
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=1|end_char=4
+3	movement	movement	NOUN	NN	Number=Sing	2	_	_	start_char=5|end_char=13
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=17
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=18|end_char=19
+6	real	real	ADJ	JJ	Degree=Pos	5	_	_	start_char=20|end_char=24
+7	problem	problem	NOUN	NN	Number=Sing	6	_	_	start_char=25|end_char=32
+8	with	with	ADP	IN	_	7	_	_	start_char=33|end_char=37
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=38|end_char=43|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=43|end_char=44|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=44|end_char=45
+
+# text = [USER]
+# sent_id = 45778
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=46|end_char=47|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=47|end_char=51|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=51|end_char=52
+
+# text = They just hate we have all of the good-looking Women.
+# sent_id = 45779
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=53|end_char=57
+2	just	just	ADV	RB	_	1	_	_	start_char=58|end_char=62
+3	hate	hate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=63|end_char=67
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=68|end_char=70
+5	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=71|end_char=75
+6	all	all	DET	DT	_	5	_	_	start_char=76|end_char=79
+7	of	of	ADP	IN	_	6	_	_	start_char=80|end_char=82
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=83|end_char=86
+9	good	good	ADJ	JJ	Degree=Pos	8	_	_	start_char=87|end_char=91|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	_	_	start_char=91|end_char=92|SpaceAfter=No
+11	looking	look	VERB	VBG	VerbForm=Ger	10	_	_	start_char=92|end_char=99
+12	Women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=100|end_char=105|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=105|end_char=106
+
+# text = 2nd Law in action.
+# sent_id = 45780
+1	2nd	2nd	ADJ	JJ	Degree=Pos|NumType=Ord	0	_	_	start_char=107|end_char=110
+2	Law	law	NOUN	NN	Number=Sing	1	_	_	start_char=111|end_char=114
+3	in	in	ADP	IN	_	2	_	_	start_char=115|end_char=117
+4	action	action	NOUN	NN	Number=Sing	3	_	_	start_char=118|end_char=124|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=124|end_char=125|SpaceAfter=No
+

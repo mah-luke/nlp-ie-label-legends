@@ -1,0 +1,24 @@
+# text = Is this doll fuckable?
+# sent_id = 76002
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=3|end_char=7
+3	doll	doll	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=12
+4	fuckable	fuckable	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=21|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=21|end_char=22
+
+# text = No, it's the woman fucking him who is wrong.
+# sent_id = 76003
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=23|end_char=25|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=25|end_char=26
+3-4	it's	_	_	_	_	_	_	_	start_char=27|end_char=31
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=27|end_char=29
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=29|end_char=31
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=32|end_char=35
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=36|end_char=41
+7	fucking	fuck	VERB	VBG	VerbForm=Ger	6	_	_	start_char=42|end_char=49
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=50|end_char=53
+9	who	who	PRON	WP	PronType=Rel	8	_	_	start_char=54|end_char=57
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=58|end_char=60
+11	wrong	wrong	ADJ	JJ	Degree=Pos	10	_	_	start_char=61|end_char=66|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=66|end_char=67|SpaceAfter=No
+

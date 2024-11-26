@@ -1,0 +1,51 @@
+# text = Hi man!
+# sent_id = 56840
+1	Hi	hi	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=6|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=6|end_char=7
+
+# text = Thanks for the clarification.
+# sent_id = 56841
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=8|end_char=14
+2	for	for	ADP	IN	_	1	_	_	start_char=15|end_char=18
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=19|end_char=22
+4	clarification	clarification	NOUN	NN	Number=Sing	3	_	_	start_char=23|end_char=36|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=36|end_char=37
+
+# text = Really appreciated it.
+# sent_id = 56842
+1	Really	really	ADV	RB	_	0	_	_	start_char=38|end_char=44
+2	appreciated	appreciate	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=45|end_char=56
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=57|end_char=59|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=59|end_char=60
+
+# text = FYI, I do get her number and also a date this Friday.
+# sent_id = 56843
+1	FYI	fyi	ADV	RB	_	0	_	_	start_char=61|end_char=64|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=64|end_char=65
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=66|end_char=67
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=68|end_char=70
+5	get	get	VERB	VB	VerbForm=Inf	4	_	_	start_char=71|end_char=74
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=75|end_char=78
+7	number	number	NOUN	NN	Number=Sing	6	_	_	start_char=79|end_char=85
+8	and	and	CCONJ	CC	_	7	_	_	start_char=86|end_char=89
+9	also	also	ADV	RB	_	8	_	_	start_char=90|end_char=94
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=95|end_char=96
+11	date	date	NOUN	NN	Number=Sing	10	_	_	start_char=97|end_char=101
+12	this	this	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=102|end_char=106
+13	Friday	Friday	PROPN	NNP	Number=Sing	12	_	_	start_char=107|end_char=113|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=113|end_char=114
+
+# text = So, how do u think I should proceed?
+# sent_id = 56844
+1	So	so	ADV	RB	_	0	_	_	start_char=115|end_char=117|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=117|end_char=118
+3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=119|end_char=122
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=123|end_char=125
+5	u	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=126|end_char=127
+6	think	think	VERB	VB	VerbForm=Inf	5	_	_	start_char=128|end_char=133
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=134|end_char=135
+8	should	should	AUX	MD	VerbForm=Fin	7	_	_	start_char=136|end_char=142
+9	proceed	proceed	VERB	VB	VerbForm=Inf	8	_	_	start_char=143|end_char=150|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=150|end_char=151|SpaceAfter=No
+

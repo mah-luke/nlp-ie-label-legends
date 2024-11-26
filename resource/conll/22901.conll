@@ -1,0 +1,42 @@
+# text = Savage.
+# sent_id = 49182
+1	Savage	Savage	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=6|end_char=7
+
+# text = But seriously I'd take no shit from my imaginary wife.
+# sent_id = 49183
+1	But	but	CCONJ	CC	_	0	_	_	start_char=8|end_char=11
+2	seriously	seriously	ADV	RB	_	1	_	_	start_char=12|end_char=21
+3-4	I'd	_	_	_	_	_	_	_	start_char=22|end_char=25
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=22|end_char=23
+4	'd	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=23|end_char=25
+5	take	take	VERB	VB	VerbForm=Inf	4	_	_	start_char=26|end_char=30
+6	no	no	DET	DT	_	5	_	_	start_char=31|end_char=33
+7	shit	shit	NOUN	NN	Number=Sing	6	_	_	start_char=34|end_char=38
+8	from	from	ADP	IN	_	7	_	_	start_char=39|end_char=43
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=44|end_char=46
+10	imaginary	imaginary	ADJ	JJ	Degree=Pos	9	_	_	start_char=47|end_char=56
+11	wife	wife	NOUN	NN	Number=Sing	10	_	_	start_char=57|end_char=61|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=61|end_char=62
+
+# text = If she doesn't like something, I'll just go sleep on a couch.
+# sent_id = 49184
+1	If	if	SCONJ	IN	_	0	_	_	start_char=63|end_char=65
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=66|end_char=69
+3-4	doesn't	_	_	_	_	_	_	_	start_char=70|end_char=77
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=70|end_char=74
+4	n't	not	PART	RB	_	3	_	_	start_char=74|end_char=77
+5	like	like	VERB	VB	VerbForm=Inf	4	_	_	start_char=78|end_char=82
+6	something	something	PRON	NN	Number=Sing|PronType=Ind	5	_	_	start_char=83|end_char=92|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=92|end_char=93
+8-9	I'll	_	_	_	_	_	_	_	start_char=94|end_char=98
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=94|end_char=95
+9	'll	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=95|end_char=98
+10	just	just	ADV	RB	_	9	_	_	start_char=99|end_char=103
+11	go	go	VERB	VB	VerbForm=Inf	10	_	_	start_char=104|end_char=106
+12	sleep	sleep	VERB	VB	VerbForm=Inf	11	_	_	start_char=107|end_char=112
+13	on	on	ADP	IN	_	12	_	_	start_char=113|end_char=115
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=116|end_char=117
+15	couch	couch	NOUN	NN	Number=Sing	14	_	_	start_char=118|end_char=123|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=123|end_char=124|SpaceAfter=No
+

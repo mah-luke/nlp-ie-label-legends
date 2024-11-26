@@ -1,0 +1,54 @@
+# text = "The postman was telling me that he's slept with every woman on our street, except one."
+# sent_id = 45339
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=1|end_char=4
+3	postman	postman	NOUN	NN	Number=Sing	2	_	_	start_char=5|end_char=12
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=13|end_char=16
+5	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=17|end_char=24
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=25|end_char=27
+7	that	that	SCONJ	IN	_	6	_	_	start_char=28|end_char=32
+8-9	he's	_	_	_	_	_	_	_	start_char=33|end_char=37
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=33|end_char=35
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=35|end_char=37
+10	slept	sleep	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=38|end_char=43
+11	with	with	ADP	IN	_	10	_	_	start_char=44|end_char=48
+12	every	every	DET	DT	_	11	_	_	start_char=49|end_char=54
+13	woman	woman	NOUN	NN	Number=Sing	12	_	_	start_char=55|end_char=60
+14	on	on	ADP	IN	_	13	_	_	start_char=61|end_char=63
+15	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	_	_	start_char=64|end_char=67
+16	street	street	NOUN	NN	Number=Sing	15	_	_	start_char=68|end_char=74|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=74|end_char=75
+18	except	except	ADP	IN	_	17	_	_	start_char=76|end_char=82
+19	one	one	NUM	CD	NumForm=Word|NumType=Card	18	_	_	start_char=83|end_char=86|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=86|end_char=87|SpaceAfter=No
+21	"	"	PUNCT	''	_	20	_	_	start_char=87|end_char=88
+
+# text = I said.
+# sent_id = 45340
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=89|end_char=90
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=91|end_char=95|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=95|end_char=96
+
+# text = "I'll bet it's that stuck up bitch next door," replied my wife.
+# sent_id = 45341
+1	"	"	PUNCT	``	_	0	_	_	start_char=97|end_char=98|SpaceAfter=No
+2-3	I'll	_	_	_	_	_	_	_	start_char=98|end_char=102
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=98|end_char=99
+3	'll	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=99|end_char=102
+4	bet	bet	VERB	VB	VerbForm=Inf	3	_	_	start_char=103|end_char=106
+5-6	it's	_	_	_	_	_	_	_	start_char=107|end_char=111
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=107|end_char=109
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=109|end_char=111
+7	that	that	ADV	RB	_	6	_	_	start_char=112|end_char=116
+8	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=117|end_char=122
+9	up	up	ADP	RP	_	8	_	_	start_char=123|end_char=125
+10	bitch	bitch	NOUN	NN	Number=Sing	9	_	_	start_char=126|end_char=131
+11	next	next	ADJ	JJ	Degree=Pos	10	_	_	start_char=132|end_char=136
+12	door	door	NOUN	NN	Number=Sing	11	_	_	start_char=137|end_char=141|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=141|end_char=142|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=142|end_char=143
+15	replied	reply	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=144|end_char=151
+16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	_	_	start_char=152|end_char=154
+17	wife	wife	NOUN	NN	Number=Sing	16	_	_	start_char=155|end_char=159|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=159|end_char=160|SpaceAfter=No
+

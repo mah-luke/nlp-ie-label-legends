@@ -1,0 +1,70 @@
+# text = Just tried this today and it works like a charm.
+# sent_id = 2576
+1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=5|end_char=10
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=11|end_char=15
+4	today	today	NOUN	NN	Number=Sing	3	_	_	start_char=16|end_char=21
+5	and	and	CCONJ	CC	_	4	_	_	start_char=22|end_char=25
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=26|end_char=28
+7	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=29|end_char=34
+8	like	like	ADP	IN	_	7	_	_	start_char=35|end_char=39
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=40|end_char=41
+10	charm	charm	NOUN	NN	Number=Sing	9	_	_	start_char=42|end_char=47|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=47|end_char=48
+
+# text = Was having internal laugh and smiled.
+# sent_id = 2577
+1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=49|end_char=52
+2	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	1	_	_	start_char=53|end_char=59
+3	internal	internal	ADJ	JJ	Degree=Pos	2	_	_	start_char=60|end_char=68
+4	laugh	laugh	NOUN	NN	Number=Sing	3	_	_	start_char=69|end_char=74
+5	and	and	CCONJ	CC	_	4	_	_	start_char=75|end_char=78
+6	smiled	smile	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=79|end_char=85|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=85|end_char=86
+
+# text = The girl was like: "what, what, what" kept asking.
+# sent_id = 2578
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=87|end_char=90
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=91|end_char=95
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=96|end_char=99
+4	like	like	ADP	RP	_	3	_	_	start_char=100|end_char=104|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=104|end_char=105
+6	"	"	PUNCT	``	_	5	_	_	start_char=106|end_char=107|SpaceAfter=No
+7	what	what	PRON	WP	PronType=Int	6	_	_	start_char=107|end_char=111|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=111|end_char=112
+9	what	what	PRON	WP	PronType=Int	8	_	_	start_char=113|end_char=117|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=117|end_char=118
+11	what	what	PRON	WP	PronType=Int	10	_	_	start_char=119|end_char=123|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=123|end_char=124
+13	kept	keep	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=125|end_char=129
+14	asking	ask	VERB	VBG	VerbForm=Ger	13	_	_	start_char=130|end_char=136|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=136|end_char=137
+
+# text = Remembering your advice about mystery, I was like: "Nothing, and proceeded diff topic".
+# sent_id = 2579
+1	Remembering	remember	VERB	VBG	VerbForm=Ger	0	_	_	start_char=138|end_char=149
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=150|end_char=154
+3	advice	advice	NOUN	NN	Number=Sing	2	_	_	start_char=155|end_char=161
+4	about	about	ADP	IN	_	3	_	_	start_char=162|end_char=167
+5	mystery	mystery	NOUN	NN	Number=Sing	4	_	_	start_char=168|end_char=175|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=175|end_char=176
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=177|end_char=178
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=179|end_char=182
+9	like	like	ADP	RP	_	8	_	_	start_char=183|end_char=187|SpaceAfter=No
+10	:	:	PUNCT	:	_	9	_	_	start_char=187|end_char=188
+11	"	"	PUNCT	``	_	10	_	_	start_char=189|end_char=190|SpaceAfter=No
+12	Nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	11	_	_	start_char=190|end_char=197|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=197|end_char=198
+14	and	and	CCONJ	CC	_	13	_	_	start_char=199|end_char=202
+15	proceeded	proceed	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=203|end_char=212
+16	diff	diff	NOUN	NN	Number=Sing	15	_	_	start_char=213|end_char=217
+17	topic	topic	NOUN	NN	Number=Sing	16	_	_	start_char=218|end_char=223|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=223|end_char=224|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=224|end_char=225
+
+# text = Thanks mate!
+# sent_id = 2580
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=226|end_char=232
+2	mate	mate	NOUN	NN	Number=Sing	1	_	_	start_char=233|end_char=237|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=237|end_char=238|SpaceAfter=No
+

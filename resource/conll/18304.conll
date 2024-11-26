@@ -1,0 +1,60 @@
+# text = My favorite lines: *”Chee’s beautiful, meng.
+# sent_id = 39283
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	favorite	favorite	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=11
+3	lines	line	NOUN	NNS	Number=Plur	2	_	_	start_char=12|end_char=17|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=17|end_char=18
+5	*	*	PUNCT	NFP	_	4	_	_	start_char=19|end_char=20|SpaceAfter=No
+6	”	''	PUNCT	``	_	5	_	_	start_char=20|end_char=21|SpaceAfter=No
+7-8	Chee’s	_	_	_	_	_	_	_	start_char=21|end_char=27
+7	Chee	Chee	PROPN	NNP	Number=Sing	6	_	_	start_char=21|end_char=25
+8	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=25|end_char=27
+9	beautiful	beautiful	ADJ	JJ	Degree=Pos	8	_	_	start_char=28|end_char=37|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=37|end_char=38
+11	meng	meng	PROPN	NNP	Number=Sing	10	_	_	start_char=39|end_char=43|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=43|end_char=44
+
+# text = Look at those tiddies!”*
+# sent_id = 39284
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=45|end_char=49
+2	at	at	ADP	IN	_	1	_	_	start_char=50|end_char=52
+3	those	that	DET	DT	Number=Plur|PronType=Dem	2	_	_	start_char=53|end_char=58
+4	tiddies	tiddie	NOUN	NNS	Number=Plur	3	_	_	start_char=59|end_char=66|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=66|end_char=67|SpaceAfter=No
+6	”	''	PUNCT	''	_	5	_	_	start_char=67|end_char=68|SpaceAfter=No
+7	*	*	PUNCT	NFP	_	6	_	_	start_char=68|end_char=69
+
+# text = *Tony Montana:* *”Look at that punk with her.
+# sent_id = 39285
+1	*	*	PUNCT	NFP	_	0	_	_	start_char=70|end_char=71|SpaceAfter=No
+2	Tony	Tony	PROPN	NNP	Number=Sing	1	_	_	start_char=71|end_char=75
+3	Montana	Montana	PROPN	NNP	Number=Sing	2	_	_	start_char=76|end_char=83|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=83|end_char=84|SpaceAfter=No
+5	*	*	PUNCT	NFP	_	4	_	_	start_char=84|end_char=85
+6	*	*	PUNCT	NFP	_	5	_	_	start_char=86|end_char=87|SpaceAfter=No
+7	”	''	PUNCT	''	_	6	_	_	start_char=87|end_char=88|SpaceAfter=No
+8	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=88|end_char=92
+9	at	at	ADP	IN	_	8	_	_	start_char=93|end_char=95
+10	that	that	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=96|end_char=100
+11	punk	punk	NOUN	NN	Number=Sing	10	_	_	start_char=101|end_char=105
+12	with	with	ADP	IN	_	11	_	_	start_char=106|end_char=110
+13	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=111|end_char=114|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=114|end_char=115
+
+# text = What's he got that I don't have?”*
+# sent_id = 39286
+1-2	What's	_	_	_	_	_	_	_	start_char=116|end_char=122
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=116|end_char=120
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=120|end_char=122
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=123|end_char=125
+4	got	get	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=126|end_char=129
+5	that	that	SCONJ	IN	_	4	_	_	start_char=130|end_char=134
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=135|end_char=136
+7-8	don't	_	_	_	_	_	_	_	start_char=137|end_char=142
+7	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=137|end_char=139
+8	n't	not	PART	RB	_	7	_	_	start_char=139|end_char=142
+9	have	have	VERB	VB	VerbForm=Inf	8	_	_	start_char=143|end_char=147|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=147|end_char=148|SpaceAfter=No
+11	”	''	PUNCT	''	_	10	_	_	start_char=148|end_char=149|SpaceAfter=No
+12	*	*	PUNCT	NFP	_	11	_	_	start_char=149|end_char=150|SpaceAfter=No
+

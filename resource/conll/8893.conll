@@ -1,0 +1,31 @@
+# text = These ladies are as tough as nails.
+# sent_id = 18741
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=0|end_char=5
+2	ladies	lady	NOUN	NNS	Number=Plur	1	_	_	start_char=6|end_char=12
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=16
+4	as	as	ADV	RB	_	3	_	_	start_char=17|end_char=19
+5	tough	tough	ADJ	JJ	Degree=Pos	4	_	_	start_char=20|end_char=25
+6	as	as	ADP	IN	_	5	_	_	start_char=26|end_char=28
+7	nails	nail	NOUN	NNS	Number=Plur	6	_	_	start_char=29|end_char=34|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=34|end_char=35
+
+# text = Rep Johnson is an ASSHOLE for the way he treated them!
+# sent_id = 18742
+1	Rep	Rep	PROPN	NNP	Number=Sing	0	_	_	start_char=36|end_char=39
+2	Johnson	Johnson	PROPN	NNP	Number=Sing	1	_	_	start_char=40|end_char=47
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=48|end_char=50
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=51|end_char=53
+5	ASSHOLE	asshole	NOUN	NN	Number=Sing	4	_	_	start_char=54|end_char=61
+6	for	for	ADP	IN	_	5	_	_	start_char=62|end_char=65
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=66|end_char=69
+8	way	way	NOUN	NN	Number=Sing	7	_	_	start_char=70|end_char=73
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=74|end_char=76
+10	treated	treat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=77|end_char=84
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=85|end_char=89|SpaceAfter=No
+12	!	!	PUNCT	.	_	11	_	_	start_char=89|end_char=90
+
+# text = #PrayForDiamondAndSilk
+# sent_id = 18743
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=91|end_char=92|SpaceAfter=No
+2	PrayForDiamondAndSilk	prayfordiamondandsilk	X	ADD	_	1	_	_	start_char=92|end_char=113|SpaceAfter=No
+

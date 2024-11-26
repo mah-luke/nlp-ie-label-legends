@@ -1,0 +1,42 @@
+# text = My God hide the children because they BAKE!
+# sent_id = 78072
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	God	God	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=6
+3	hide	hide	VERB	VBP	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=11
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=12|end_char=15
+5	children	child	NOUN	NNS	Number=Plur	4	_	_	start_char=16|end_char=24
+6	because	because	SCONJ	IN	_	5	_	_	start_char=25|end_char=32
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=33|end_char=37
+8	BAKE	bake	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=38|end_char=42|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=42|end_char=43
+
+# text = Vader's dream Sith woman.
+# sent_id = 78073
+1-2	Vader's	_	_	_	_	_	_	_	start_char=44|end_char=51
+1	Vader	Vader	PROPN	NNP	Number=Sing	0	_	_	start_char=44|end_char=49
+2	's	's	PART	POS	_	1	_	_	start_char=49|end_char=51
+3	dream	dream	NOUN	NN	Number=Sing	2	_	_	start_char=52|end_char=57
+4	Sith	Sith	PROPN	NNP	Number=Sing	3	_	_	start_char=58|end_char=62
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=63|end_char=68|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=68|end_char=69
+
+# text = She bakes a mean cake and sucks a mean cock.
+# sent_id = 78074
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=70|end_char=73
+2	bakes	bake	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=74|end_char=79
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=80|end_char=81
+4	mean	mean	ADJ	JJ	Degree=Pos	3	_	_	start_char=82|end_char=86
+5	cake	cake	NOUN	NN	Number=Sing	4	_	_	start_char=87|end_char=91
+6	and	and	CCONJ	CC	_	5	_	_	start_char=92|end_char=95
+7	sucks	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=96|end_char=101
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=102|end_char=103
+9	mean	mean	ADJ	JJ	Degree=Pos	8	_	_	start_char=104|end_char=108
+10	cock	cock	NOUN	NN	Number=Sing	9	_	_	start_char=109|end_char=113|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=113|end_char=114
+
+# text = :D #BakingandBlowjobs
+# sent_id = 78075
+1	:D	:d	SYM	SYM	_	0	_	_	start_char=115|end_char=117
+2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=118|end_char=119|SpaceAfter=No
+3	BakingandBlowjobs	bakingandblowjobs	X	ADD	_	2	_	_	start_char=119|end_char=136|SpaceAfter=No
+

@@ -1,0 +1,27 @@
+# text = [USER]
+# sent_id = 79933
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = We've been together since yesterday, dont pretend you didnt know slut
+# sent_id = 79934
+1-2	We've	_	_	_	_	_	_	_	start_char=7|end_char=12
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=9
+2	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=12
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=13|end_char=17
+4	together	together	ADV	RB	_	3	_	_	start_char=18|end_char=26
+5	since	since	ADP	IN	_	4	_	_	start_char=27|end_char=32
+6	yesterday	yesterday	NOUN	NN	Number=Sing	5	_	_	start_char=33|end_char=42|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=42|end_char=43
+8-9	dont	_	_	_	_	_	_	_	start_char=44|end_char=48
+8	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=44|end_char=46
+9	nt	not	PART	RB	_	8	_	_	start_char=46|end_char=48
+10	pretend	pretend	VERB	VB	VerbForm=Inf	9	_	_	start_char=49|end_char=56
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=57|end_char=60
+12-13	didnt	_	_	_	_	_	_	_	start_char=61|end_char=66
+12	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	11	_	_	start_char=61|end_char=64
+13	nt	not	PART	RB	_	12	_	_	start_char=64|end_char=66
+14	know	know	VERB	VB	VerbForm=Inf	13	_	_	start_char=67|end_char=71
+15	slut	slut	NOUN	NN	Number=Sing	14	_	_	start_char=72|end_char=76|SpaceAfter=No
+

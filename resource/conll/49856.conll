@@ -1,0 +1,60 @@
+# text = And, in typical Alt-Left fashion, it was one of their own that got killed.
+# sent_id = 106542
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	in	in	ADP	IN	_	2	_	_	start_char=5|end_char=7
+4	typical	typical	ADJ	JJ	Degree=Pos	3	_	_	start_char=8|end_char=15
+5	Alt	alt	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=19|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=19|end_char=20|SpaceAfter=No
+7	Left	Left	ADJ	JJ	Degree=Pos	6	_	_	start_char=20|end_char=24
+8	fashion	fashion	NOUN	NN	Number=Sing	7	_	_	start_char=25|end_char=32|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=32|end_char=33
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=34|end_char=36
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=37|end_char=40
+12	one	one	NUM	CD	NumForm=Word|NumType=Card	11	_	_	start_char=41|end_char=44
+13	of	of	ADP	IN	_	12	_	_	start_char=45|end_char=47
+14	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=48|end_char=53
+15	own	own	ADJ	JJ	Degree=Pos	14	_	_	start_char=54|end_char=57
+16	that	that	PRON	WDT	PronType=Rel	15	_	_	start_char=58|end_char=62
+17	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=63|end_char=66
+18	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	17	_	_	start_char=67|end_char=73|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=73|end_char=74
+
+# text = They'll use her as a martyr, or at least try.
+# sent_id = 106543
+1-2	They'll	_	_	_	_	_	_	_	start_char=75|end_char=82
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=75|end_char=79
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=79|end_char=82
+3	use	use	VERB	VB	VerbForm=Inf	2	_	_	start_char=83|end_char=86
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=87|end_char=90
+5	as	as	ADP	IN	_	4	_	_	start_char=91|end_char=93
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=94|end_char=95
+7	martyr	martyr	NOUN	NN	Number=Sing	6	_	_	start_char=96|end_char=102|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=102|end_char=103
+9	or	or	CCONJ	CC	_	8	_	_	start_char=104|end_char=106
+10	at	at	ADP	IN	ExtPos=ADV	9	_	_	start_char=107|end_char=109
+11	least	least	ADJ	JJS	Degree=Sup	10	_	_	start_char=110|end_char=115
+12	try	try	VERB	VB	VerbForm=Inf	11	_	_	start_char=116|end_char=119|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=119|end_char=120
+
+# text = Probably won't work, especially if the guy takes a plea deal for negligent homicide.
+# sent_id = 106544
+1	Probably	probably	ADV	RB	_	0	_	_	start_char=121|end_char=129
+2-3	won't	_	_	_	_	_	_	_	start_char=130|end_char=135
+2	wo	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=130|end_char=132
+3	n't	not	PART	RB	_	2	_	_	start_char=132|end_char=135
+4	work	work	VERB	VB	VerbForm=Inf	3	_	_	start_char=136|end_char=140|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=140|end_char=141
+6	especially	especially	ADV	RB	_	5	_	_	start_char=142|end_char=152
+7	if	if	SCONJ	IN	_	6	_	_	start_char=153|end_char=155
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=156|end_char=159
+9	guy	guy	NOUN	NN	Number=Sing	8	_	_	start_char=160|end_char=163
+10	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=164|end_char=169
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=170|end_char=171
+12	plea	plea	NOUN	NN	Number=Sing	11	_	_	start_char=172|end_char=176
+13	deal	deal	NOUN	NN	Number=Sing	12	_	_	start_char=177|end_char=181
+14	for	for	ADP	IN	_	13	_	_	start_char=182|end_char=185
+15	negligent	negligent	ADJ	JJ	Degree=Pos	14	_	_	start_char=186|end_char=195
+16	homicide	homicide	NOUN	NN	Number=Sing	15	_	_	start_char=196|end_char=204|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=204|end_char=205|SpaceAfter=No
+

@@ -1,0 +1,37 @@
+# text = #MAGA will fall for anything.
+# sent_id = 38322
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=6|end_char=10
+4	fall	fall	VERB	VB	VerbForm=Inf	3	_	_	start_char=11|end_char=15
+5	for	for	ADP	IN	_	4	_	_	start_char=16|end_char=19
+6	anything	anything	PRON	NN	Number=Sing|PronType=Ind	5	_	_	start_char=20|end_char=28|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = He beat his girlfriend's little boy to death because he wouldn't stop crying.
+# sent_id = 38323
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=30|end_char=32
+2	beat	beat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=33|end_char=37
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=38|end_char=41
+4-5	girlfriend's	_	_	_	_	_	_	_	start_char=42|end_char=54
+4	girlfriend	girlfriend	NOUN	NN	Number=Sing	3	_	_	start_char=42|end_char=52
+5	's	's	PART	POS	_	4	_	_	start_char=52|end_char=54
+6	little	little	ADJ	JJ	Degree=Pos	5	_	_	start_char=55|end_char=61
+7	boy	boy	NOUN	NN	Number=Sing	6	_	_	start_char=62|end_char=65
+8	to	to	ADP	IN	_	7	_	_	start_char=66|end_char=68
+9	death	death	NOUN	NN	Number=Sing	8	_	_	start_char=69|end_char=74
+10	because	because	SCONJ	IN	_	9	_	_	start_char=75|end_char=82
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=83|end_char=85
+12-13	wouldn't	_	_	_	_	_	_	_	start_char=86|end_char=94
+12	would	would	AUX	MD	VerbForm=Fin	11	_	_	start_char=86|end_char=91
+13	n't	not	PART	RB	_	12	_	_	start_char=91|end_char=94
+14	stop	stop	VERB	VB	VerbForm=Inf	13	_	_	start_char=95|end_char=99
+15	crying	cry	VERB	VBG	VerbForm=Ger	14	_	_	start_char=100|end_char=106|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=106|end_char=107
+
+# text = [URL]
+# sent_id = 38324
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=108|end_char=109|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=109|end_char=112|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=112|end_char=113|SpaceAfter=No
+

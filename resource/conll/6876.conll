@@ -1,0 +1,63 @@
+# text = I dunno man, she mightn't give a shit.
+# sent_id = 14352
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-4	dunno	_	_	_	_	_	_	_	start_char=2|end_char=7
+2	du	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	n	not	PART	RB	_	2	_	_	start_char=4|end_char=5
+4	no	no	DET	DT	_	3	_	_	start_char=5|end_char=7
+5	man	man	NOUN	NN	Number=Sing	4	_	_	start_char=8|end_char=11|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=11|end_char=12
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=13|end_char=16
+8-9	mightn't	_	_	_	_	_	_	_	start_char=17|end_char=25
+8	might	might	AUX	MD	VerbForm=Fin	7	_	_	start_char=17|end_char=22
+9	n't	not	PART	RB	_	8	_	_	start_char=22|end_char=25
+10	give	give	VERB	VB	VerbForm=Inf	9	_	_	start_char=26|end_char=30
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=31|end_char=32
+12	shit	shit	NOUN	NN	Number=Sing	11	_	_	start_char=33|end_char=37|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=37|end_char=38
+
+# text = I wouldn't give a shit.
+# sent_id = 14353
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=39|end_char=40
+2-3	wouldn't	_	_	_	_	_	_	_	start_char=41|end_char=49
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=41|end_char=46
+3	n't	not	PART	RB	_	2	_	_	start_char=46|end_char=49
+4	give	give	VERB	VB	VerbForm=Inf	3	_	_	start_char=50|end_char=54
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=55|end_char=56
+6	shit	shit	NOUN	NN	Number=Sing	5	_	_	start_char=57|end_char=61|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=61|end_char=62
+
+# text = Your response was a bit cringe though Edit; actually that response is really really terrible.
+# sent_id = 14354
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=63|end_char=67
+2	response	response	NOUN	NN	Number=Sing	1	_	_	start_char=68|end_char=76
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=77|end_char=80
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=81|end_char=82
+5	bit	bit	NOUN	NN	Number=Sing	4	_	_	start_char=83|end_char=86
+6	cringe	cringe	ADJ	JJ	Degree=Pos	5	_	_	start_char=87|end_char=93
+7	though	though	ADV	RB	_	6	_	_	start_char=94|end_char=100
+8	Edit	edit	NOUN	NN	Number=Sing	7	_	_	start_char=101|end_char=105|SpaceAfter=No
+9	;	;	PUNCT	:	_	8	_	_	start_char=105|end_char=106
+10	actually	actually	ADV	RB	_	9	_	_	start_char=107|end_char=115
+11	that	that	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=116|end_char=120
+12	response	response	NOUN	NN	Number=Sing	11	_	_	start_char=121|end_char=129
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=130|end_char=132
+14	really	really	ADV	RB	_	13	_	_	start_char=133|end_char=139
+15	really	really	ADV	RB	_	14	_	_	start_char=140|end_char=146
+16	terrible	terrible	ADJ	JJ	Degree=Pos	15	_	_	start_char=147|end_char=155|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=155|end_char=156
+
+# text = Eh, better off talking to her face to face.
+# sent_id = 14355
+1	Eh	eh	INTJ	UH	_	0	_	_	start_char=157|end_char=159|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=159|end_char=160
+3	better	good	ADJ	JJR	Degree=Cmp	2	_	_	start_char=161|end_char=167
+4	off	off	ADV	RB	_	3	_	_	start_char=168|end_char=171
+5	talking	talk	VERB	VBG	VerbForm=Ger	4	_	_	start_char=172|end_char=179
+6	to	to	ADP	IN	_	5	_	_	start_char=180|end_char=182
+7	her	her	PRON	PRP$	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=183|end_char=186
+8	face	face	NOUN	NN	Number=Sing	7	_	_	start_char=187|end_char=191
+9	to	to	PART	TO	_	8	_	_	start_char=192|end_char=194
+10	face	face	VERB	VB	VerbForm=Inf	9	_	_	start_char=195|end_char=199|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=199|end_char=200|SpaceAfter=No
+

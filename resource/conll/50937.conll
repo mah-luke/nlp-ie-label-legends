@@ -1,0 +1,58 @@
+# text = Jesus Christ no.
+# sent_id = 108861
+1	Jesus	Jesus	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	Christ	Christ	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=12
+3	no	no	INTJ	UH	_	2	_	_	start_char=13|end_char=15|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=15|end_char=16
+
+# text = Some red pillers don't want a nagging wife or babies.
+# sent_id = 108862
+1	Some	some	DET	DT	_	0	_	_	start_char=17|end_char=21
+2	red	red	ADJ	JJ	Degree=Pos	1	_	_	start_char=22|end_char=25
+3	pillers	piller	NOUN	NNS	Number=Plur	2	_	_	start_char=26|end_char=33
+4-5	don't	_	_	_	_	_	_	_	start_char=34|end_char=39
+4	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=34|end_char=36
+5	n't	not	PART	RB	_	4	_	_	start_char=36|end_char=39
+6	want	want	VERB	VB	VerbForm=Inf	5	_	_	start_char=40|end_char=44
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=45|end_char=46
+8	nagging	nagge	VERB	VBG	VerbForm=Ger	7	_	_	start_char=47|end_char=54
+9	wife	wife	NOUN	NN	Number=Sing	8	_	_	start_char=55|end_char=59
+10	or	or	CCONJ	CC	_	9	_	_	start_char=60|end_char=62
+11	babies	baby	NOUN	NNS	Number=Plur	10	_	_	start_char=63|end_char=69|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=69|end_char=70
+
+# text = Frankly, it's beta to me.
+# sent_id = 108863
+1	Frankly	frankly	ADV	RB	_	0	_	_	start_char=71|end_char=78|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=78|end_char=79
+3-4	it's	_	_	_	_	_	_	_	start_char=80|end_char=84
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=80|end_char=82
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=82|end_char=84
+5	beta	beta	ADJ	JJ	Degree=Pos	4	_	_	start_char=85|end_char=89
+6	to	to	ADP	IN	_	5	_	_	start_char=90|end_char=92
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=93|end_char=95|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=95|end_char=96
+
+# text = Red pill is about seeing reality for what it is worth woman and life, and using that information accordingly
+# sent_id = 108864
+1	Red	Red	ADJ	JJ	Degree=Pos	0	_	_	start_char=97|end_char=100
+2	pill	pill	NOUN	NN	Number=Sing	1	_	_	start_char=101|end_char=105
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=106|end_char=108
+4	about	about	SCONJ	IN	_	3	_	_	start_char=109|end_char=114
+5	seeing	see	VERB	VBG	VerbForm=Ger	4	_	_	start_char=115|end_char=121
+6	reality	reality	NOUN	NN	Number=Sing	5	_	_	start_char=122|end_char=129
+7	for	for	ADP	IN	_	6	_	_	start_char=130|end_char=133
+8	what	what	PRON	WP	PronType=Rel	7	_	_	start_char=134|end_char=138
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=139|end_char=141
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=142|end_char=144
+11	worth	worth	ADJ	JJ	Degree=Pos	10	_	_	start_char=145|end_char=150
+12	woman	woman	NOUN	NN	Number=Sing	11	_	_	start_char=151|end_char=156
+13	and	and	CCONJ	CC	_	12	_	_	start_char=157|end_char=160
+14	life	life	NOUN	NN	Number=Sing	13	_	_	start_char=161|end_char=165|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=165|end_char=166
+16	and	and	CCONJ	CC	_	15	_	_	start_char=167|end_char=170
+17	using	use	VERB	VBG	VerbForm=Ger	16	_	_	start_char=171|end_char=176
+18	that	that	DET	DT	Number=Sing|PronType=Dem	17	_	_	start_char=177|end_char=181
+19	information	information	NOUN	NN	Number=Sing	18	_	_	start_char=182|end_char=193
+20	accordingly	accordingly	ADV	RB	_	19	_	_	start_char=194|end_char=205|SpaceAfter=No
+

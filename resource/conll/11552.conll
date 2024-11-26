@@ -1,0 +1,60 @@
+# text = This times 100000.
+# sent_id = 24476
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	times	time	NOUN	NNS	Number=Plur	1	_	_	start_char=5|end_char=10
+3	100000	100000	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=11|end_char=17|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=17|end_char=18
+
+# text = You have a chance if inceldom if you are ugly- you will probably be incel if you are autistic.
+# sent_id = 24477
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=19|end_char=22
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=23|end_char=27
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=28|end_char=29
+4	chance	chance	NOUN	NN	Number=Sing	3	_	_	start_char=30|end_char=36
+5	if	if	SCONJ	IN	_	4	_	_	start_char=37|end_char=39
+6	inceldom	inceldom	ADV	RB	_	5	_	_	start_char=40|end_char=48
+7	if	if	SCONJ	IN	_	6	_	_	start_char=49|end_char=51
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=52|end_char=55
+9	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=56|end_char=59
+10	ugly	ugly	ADJ	JJ	Degree=Pos	9	_	_	start_char=60|end_char=64|SpaceAfter=No
+11	-	-	PUNCT	,	_	10	_	_	start_char=64|end_char=65
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=66|end_char=69
+13	will	will	AUX	MD	VerbForm=Fin	12	_	_	start_char=70|end_char=74
+14	probably	probably	ADV	RB	_	13	_	_	start_char=75|end_char=83
+15	be	be	AUX	VB	VerbForm=Inf	14	_	_	start_char=84|end_char=86
+16	incel	incel	ADJ	JJ	Degree=Pos	15	_	_	start_char=87|end_char=92
+17	if	if	SCONJ	IN	_	16	_	_	start_char=93|end_char=95
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	_	_	start_char=96|end_char=99
+19	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	18	_	_	start_char=100|end_char=103
+20	autistic	autistic	ADJ	JJ	Degree=Pos	19	_	_	start_char=104|end_char=112|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=112|end_char=113
+
+# text = If you combine them you are fucked.
+# sent_id = 24478
+1	If	if	SCONJ	IN	_	0	_	_	start_char=114|end_char=116
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=117|end_char=120
+3	combine	combine	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=121|end_char=128
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=129|end_char=133
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=134|end_char=137
+6	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=138|end_char=141
+7	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=142|end_char=148|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=148|end_char=149
+
+# text = I sincerely believe AT LEAST 2/3 of the true incels are on the spectrum.
+# sent_id = 24479
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=150|end_char=151
+2	sincerely	sincerely	ADV	RB	_	1	_	_	start_char=152|end_char=161
+3	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=162|end_char=169
+4	AT	at	ADP	IN	_	3	_	_	start_char=170|end_char=172
+5	LEAST	least	ADJ	JJS	Degree=Sup	4	_	_	start_char=173|end_char=178
+6	2/3	2/3	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=179|end_char=182
+7	of	of	ADP	IN	_	6	_	_	start_char=183|end_char=185
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=186|end_char=189
+9	true	true	ADJ	JJ	Degree=Pos	8	_	_	start_char=190|end_char=194
+10	incels	incel	NOUN	NNS	Number=Plur	9	_	_	start_char=195|end_char=201
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=202|end_char=205
+12	on	on	ADP	IN	_	11	_	_	start_char=206|end_char=208
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=209|end_char=212
+14	spectrum	spectrum	NOUN	NN	Number=Sing	13	_	_	start_char=213|end_char=221|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=221|end_char=222|SpaceAfter=No
+

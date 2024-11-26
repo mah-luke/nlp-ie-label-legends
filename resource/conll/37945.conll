@@ -1,0 +1,42 @@
+# text = Worst city to live?
+# sent_id = 81120
+1	Worst	bad	ADJ	JJS	Degree=Sup	0	_	_	start_char=0|end_char=5
+2	city	city	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=10
+3	to	to	PART	TO	_	2	_	_	start_char=11|end_char=13
+4	live	live	VERB	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=18|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = Whichever city this savage called home!.
+# sent_id = 81121
+1	Whichever	whichever	DET	WDT	PronType=Int	0	_	_	start_char=20|end_char=29
+2	city	city	NOUN	NN	Number=Sing	1	_	_	start_char=30|end_char=34
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=35|end_char=39
+4	savage	savage	NOUN	NN	Number=Sing	3	_	_	start_char=40|end_char=46
+5	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=47|end_char=53
+6	home	home	ADV	RB	_	5	_	_	start_char=54|end_char=58|SpaceAfter=No
+7	!.	!.	PUNCT	.	_	6	_	_	start_char=58|end_char=60
+
+# text = "Mother batters her 3 year old daughter to death because she was having trouble with potty training [URL]
+# sent_id = 81122
+1	"	"	PUNCT	``	_	0	_	_	start_char=61|end_char=62|SpaceAfter=No
+2	Mother	mother	NOUN	NN	Number=Sing	1	_	_	start_char=62|end_char=68
+3	batters	batter	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=69|end_char=76
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=77|end_char=80
+5	3	3	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=81|end_char=82
+6	year	year	NOUN	NN	Number=Sing	5	_	_	start_char=83|end_char=87
+7	old	old	ADJ	JJ	Degree=Pos	6	_	_	start_char=88|end_char=91
+8	daughter	daughter	NOUN	NN	Number=Sing	7	_	_	start_char=92|end_char=100
+9	to	to	ADP	IN	_	8	_	_	start_char=101|end_char=103
+10	death	death	NOUN	NN	Number=Sing	9	_	_	start_char=104|end_char=109
+11	because	because	SCONJ	IN	_	10	_	_	start_char=110|end_char=117
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=118|end_char=121
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=122|end_char=125
+14	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	13	_	_	start_char=126|end_char=132
+15	trouble	trouble	NOUN	NN	Number=Sing	14	_	_	start_char=133|end_char=140
+16	with	with	ADP	IN	_	15	_	_	start_char=141|end_char=145
+17	potty	potty	NOUN	NN	Number=Sing	16	_	_	start_char=146|end_char=151
+18	training	training	NOUN	NN	Number=Sing	17	_	_	start_char=152|end_char=160
+19	[	[	PUNCT	-LRB-	_	18	_	_	start_char=161|end_char=162|SpaceAfter=No
+20	URL	URL	PROPN	NNP	Number=Sing	19	_	_	start_char=162|end_char=165|SpaceAfter=No
+21	]	]	PUNCT	-RRB-	_	20	_	_	start_char=165|end_char=166|SpaceAfter=No
+

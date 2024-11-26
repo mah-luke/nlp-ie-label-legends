@@ -1,0 +1,22 @@
+# text = 5'11 guy here.
+# sent_id = 87117
+1	5'11	5'11	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=4
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=8
+3	here	here	ADV	RB	PronType=Dem	2	_	_	start_char=9|end_char=13|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=13|end_char=14
+
+# text = A girl once told me I am too tall for her.
+# sent_id = 87118
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=15|end_char=16
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=17|end_char=21
+3	once	once	ADV	RB	NumType=Mult	2	_	_	start_char=22|end_char=26
+4	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=27|end_char=31
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=32|end_char=34
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=35|end_char=36
+7	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=37|end_char=39
+8	too	too	ADV	RB	_	7	_	_	start_char=40|end_char=43
+9	tall	tall	ADJ	JJ	Degree=Pos	8	_	_	start_char=44|end_char=48
+10	for	for	ADP	IN	_	9	_	_	start_char=49|end_char=52
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=53|end_char=56|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=56|end_char=57|SpaceAfter=No
+

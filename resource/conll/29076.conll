@@ -1,0 +1,24 @@
+# text = Why does she still have a job ?????/
+# sent_id = 62385
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	still	still	ADV	RB	_	3	_	_	start_char=13|end_char=18
+5	have	have	VERB	VB	VerbForm=Inf	4	_	_	start_char=19|end_char=23
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=24|end_char=25
+7	job	job	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=29
+8	?????	?????	PUNCT	.	_	7	_	_	start_char=30|end_char=35|SpaceAfter=No
+9	/	/	SYM	SYM	_	8	_	_	start_char=35|end_char=36
+
+# text = Rachel Maddow is a Total Idiot [URL]
+# sent_id = 62386
+1	Rachel	Rachel	PROPN	NNP	Number=Sing	0	_	_	start_char=37|end_char=43
+2	Maddow	Maddow	PROPN	NNP	Number=Sing	1	_	_	start_char=44|end_char=50
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=51|end_char=53
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=54|end_char=55
+5	Total	total	ADJ	JJ	Degree=Pos	4	_	_	start_char=56|end_char=61
+6	Idiot	idiot	PROPN	NNP	Number=Sing	5	_	_	start_char=62|end_char=67
+7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=68|end_char=69|SpaceAfter=No
+8	URL	URL	PROPN	NNP	Number=Sing	7	_	_	start_char=69|end_char=72|SpaceAfter=No
+9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=72|end_char=73|SpaceAfter=No
+

@@ -1,0 +1,40 @@
+# text = I love Tommy Robinson.
+# sent_id = 60036
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	Tommy	Tommy	PROPN	NNP	Number=Sing	2	_	_	start_char=7|end_char=12
+4	Robinson	Robinson	PROPN	NNP	Number=Sing	3	_	_	start_char=13|end_char=21|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=21|end_char=22
+
+# text = He's subjected to a smear campaign in this country, but it's never stopped him, nor should it.
+# sent_id = 60037
+1-2	He's	_	_	_	_	_	_	_	start_char=23|end_char=27
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=23|end_char=25
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=27
+3	subjected	subject	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=28|end_char=37
+4	to	to	ADP	IN	_	3	_	_	start_char=38|end_char=40
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=41|end_char=42
+6	smear	smear	NOUN	NN	Number=Sing	5	_	_	start_char=43|end_char=48
+7	campaign	campaign	NOUN	NN	Number=Sing	6	_	_	start_char=49|end_char=57
+8	in	in	ADP	IN	_	7	_	_	start_char=58|end_char=60
+9	this	this	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=61|end_char=65
+10	country	country	NOUN	NN	Number=Sing	9	_	_	start_char=66|end_char=73|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=73|end_char=74
+12	but	but	CCONJ	CC	_	11	_	_	start_char=75|end_char=78
+13-14	it's	_	_	_	_	_	_	_	start_char=79|end_char=83
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=79|end_char=81
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=81|end_char=83
+15	never	never	ADV	RB	_	14	_	_	start_char=84|end_char=89
+16	stopped	stop	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	_	_	start_char=90|end_char=97
+17	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=98|end_char=101|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=101|end_char=102
+19	nor	nor	CCONJ	CC	_	18	_	_	start_char=103|end_char=106
+20	should	should	AUX	MD	VerbForm=Fin	19	_	_	start_char=107|end_char=113
+21	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=114|end_char=116|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=116|end_char=117
+
+# text = #BanSharia
+# sent_id = 60038
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=118|end_char=119|SpaceAfter=No
+2	BanSharia	BanSharia	NOUN	NN	Number=Sing	1	_	_	start_char=119|end_char=128|SpaceAfter=No
+

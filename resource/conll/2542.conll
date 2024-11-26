@@ -1,0 +1,17 @@
+# text = .[USER] Brexit was one of the best days of 2016.
+# sent_id = 5419
+1	.	.	PUNCT	.	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=1|end_char=2|SpaceAfter=No
+3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=2|end_char=6|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=6|end_char=7
+5	Brexit	Brexit	PROPN	NNP	Number=Sing	4	_	_	start_char=8|end_char=14
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=15|end_char=18
+7	one	one	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=19|end_char=22
+8	of	of	ADP	IN	_	7	_	_	start_char=23|end_char=25
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=26|end_char=29
+10	best	good	ADJ	JJS	Degree=Sup	9	_	_	start_char=30|end_char=34
+11	days	day	NOUN	NNS	Number=Plur	10	_	_	start_char=35|end_char=39
+12	of	of	ADP	IN	_	11	_	_	start_char=40|end_char=42
+13	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=43|end_char=47|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=47|end_char=48|SpaceAfter=No
+

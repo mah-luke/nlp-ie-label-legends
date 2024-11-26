@@ -1,0 +1,15 @@
+# text = With sky spraying, we”ll evolve into these tubbi things
+# sent_id = 44824
+1	With	with	ADP	IN	_	0	_	_	start_char=0|end_char=4
+2	sky	sky	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=8
+3	spraying	spraying	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=17|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=17|end_char=18
+5-6	we”ll	_	_	_	_	_	_	_	start_char=19|end_char=24
+5	we”	we	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	_	_	start_char=19|end_char=22
+6	ll	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=22|end_char=24
+7	evolve	evolve	VERB	VB	VerbForm=Inf	6	_	_	start_char=25|end_char=31
+8	into	into	ADP	IN	_	7	_	_	start_char=32|end_char=36
+9	these	this	DET	DT	Number=Plur|PronType=Dem	8	_	_	start_char=37|end_char=42
+10	tubbi	tubbi	NOUN	NN	Number=Sing	9	_	_	start_char=43|end_char=48
+11	things	thing	NOUN	NNS	Number=Plur	10	_	_	start_char=49|end_char=55|SpaceAfter=No
+

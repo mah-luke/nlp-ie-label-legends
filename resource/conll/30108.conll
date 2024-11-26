@@ -1,0 +1,30 @@
+# text = Call her.
+# sent_id = 64509
+1	Call	call	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=5|end_char=8|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=8|end_char=9
+
+# text = Ask her first and then call her over the phone.
+# sent_id = 64510
+1	Ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=10|end_char=13
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=14|end_char=17
+3	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	2	_	_	start_char=18|end_char=23
+4	and	and	CCONJ	CC	_	3	_	_	start_char=24|end_char=27
+5	then	then	ADV	RB	PronType=Dem	4	_	_	start_char=28|end_char=32
+6	call	call	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=33|end_char=37
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=38|end_char=41
+8	over	over	ADP	IN	_	7	_	_	start_char=42|end_char=46
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=47|end_char=50
+10	phone	phone	NOUN	NN	Number=Sing	9	_	_	start_char=51|end_char=56|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=56|end_char=57
+
+# text = The phone can do more than texting
+# sent_id = 64511
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=58|end_char=61
+2	phone	phone	NOUN	NN	Number=Sing	1	_	_	start_char=62|end_char=67
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=68|end_char=71
+4	do	do	VERB	VB	VerbForm=Inf	3	_	_	start_char=72|end_char=74
+5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=75|end_char=79
+6	than	than	ADP	IN	_	5	_	_	start_char=80|end_char=84
+7	texting	texting	NOUN	NN	Number=Sing	6	_	_	start_char=85|end_char=92|SpaceAfter=No
+

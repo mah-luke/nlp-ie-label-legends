@@ -1,0 +1,39 @@
+# text = Man!
+# sent_id = 46620
+1	Man	man	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = Her opponents look really pissed off that she had won.
+# sent_id = 46621
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=5|end_char=8
+2	opponents	opponent	NOUN	NNS	Number=Plur	1	_	_	start_char=9|end_char=18
+3	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=19|end_char=23
+4	really	really	ADV	RB	_	3	_	_	start_char=24|end_char=30
+5	pissed	piss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=31|end_char=37
+6	off	off	ADP	RP	_	5	_	_	start_char=38|end_char=41
+7	that	that	SCONJ	IN	_	6	_	_	start_char=42|end_char=46
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=47|end_char=50
+9	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=51|end_char=54
+10	won	win	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=55|end_char=58|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=58|end_char=59
+
+# text = like the, I'm going to beat your ass kind of pissed off. 😆
+# sent_id = 46622
+1	like	like	ADP	IN	_	0	_	_	start_char=60|end_char=64
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=65|end_char=68|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=68|end_char=69
+4-5	I'm	_	_	_	_	_	_	_	start_char=70|end_char=73
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=70|end_char=71
+5	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=71|end_char=73
+6	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=74|end_char=79
+7	to	to	PART	TO	_	6	_	_	start_char=80|end_char=82
+8	beat	beat	VERB	VB	VerbForm=Inf	7	_	_	start_char=83|end_char=87
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=88|end_char=92
+10	ass	ass	NOUN	NN	Number=Sing	9	_	_	start_char=93|end_char=96
+11	kind	kind	NOUN	NN	Number=Sing	10	_	_	start_char=97|end_char=101
+12	of	of	ADP	IN	_	11	_	_	start_char=102|end_char=104
+13	pissed	piss	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=105|end_char=111
+14	off	off	ADP	RP	_	13	_	_	start_char=112|end_char=115|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=115|end_char=116
+16	😆	😆	PUNCT	''	_	15	_	_	start_char=117|end_char=118|SpaceAfter=No
+

@@ -1,0 +1,41 @@
+# text = It's called penthouse around Leicester sq.
+# sent_id = 22008
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=5|end_char=11
+4	penthouse	penthouse	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=21
+5	around	around	ADP	IN	_	4	_	_	start_char=22|end_char=28
+6	Leicester	Leicester	PROPN	NNP	Number=Sing	5	_	_	start_char=29|end_char=38
+7	sq	sq	NOUN	NN	Number=Sing	6	_	_	start_char=39|end_char=41|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=41|end_char=42
+
+# text = The offer is free entry for girls before 11.
+# sent_id = 22009
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=43|end_char=46
+2	offer	offer	NOUN	NN	Number=Sing	1	_	_	start_char=47|end_char=52
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=53|end_char=55
+4	free	free	ADJ	JJ	Degree=Pos	3	_	_	start_char=56|end_char=60
+5	entry	entry	NOUN	NN	Number=Sing	4	_	_	start_char=61|end_char=66
+6	for	for	ADP	IN	_	5	_	_	start_char=67|end_char=70
+7	girls	girl	NOUN	NNS	Number=Plur	6	_	_	start_char=71|end_char=76
+8	before	before	ADP	IN	_	7	_	_	start_char=77|end_char=83
+9	11	11	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=84|end_char=86|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=86|end_char=87
+
+# text = And discounted entry+drinks if they're on my Guestlist.
+# sent_id = 22010
+1	And	and	CCONJ	CC	_	0	_	_	start_char=88|end_char=91
+2	discounted	discount	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=92|end_char=102
+3	entry	entry	NOUN	NN	Number=Sing	2	_	_	start_char=103|end_char=108|SpaceAfter=No
+4	+	+	SYM	SYM	_	3	_	_	start_char=108|end_char=109|SpaceAfter=No
+5	drinks	drink	NOUN	NNS	Number=Plur	4	_	_	start_char=109|end_char=115
+6	if	if	SCONJ	IN	_	5	_	_	start_char=116|end_char=118
+7-8	they're	_	_	_	_	_	_	_	start_char=119|end_char=126
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=119|end_char=123
+8	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=123|end_char=126
+9	on	on	ADP	IN	_	8	_	_	start_char=127|end_char=129
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=130|end_char=132
+11	Guestlist	Guestlist	PROPN	NNP	Number=Sing	10	_	_	start_char=133|end_char=142|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=142|end_char=143|SpaceAfter=No
+

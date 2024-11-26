@@ -1,0 +1,54 @@
+# text = 2/ female only company "The effect a lack of testosterone was having in our office was even more apparent when I temporarily hired two male directors to work on a series.
+# sent_id = 13901
+1	2/	2/	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=2
+2	female	female	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=9
+3	only	only	ADJ	JJ	Degree=Pos	2	_	_	start_char=10|end_char=14
+4	company	company	NOUN	NN	Number=Sing	3	_	_	start_char=15|end_char=22
+5	"	"	PUNCT	``	_	4	_	_	start_char=23|end_char=24|SpaceAfter=No
+6	The	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=24|end_char=27
+7	effect	effect	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=34
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=35|end_char=36
+9	lack	lack	NOUN	NN	Number=Sing	8	_	_	start_char=37|end_char=41
+10	of	of	ADP	IN	_	9	_	_	start_char=42|end_char=44
+11	testosterone	testosterone	NOUN	NN	Number=Sing	10	_	_	start_char=45|end_char=57
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=58|end_char=61
+13	having	have	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=62|end_char=68
+14	in	in	ADP	IN	_	13	_	_	start_char=69|end_char=71
+15	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	14	_	_	start_char=72|end_char=75
+16	office	office	NOUN	NN	Number=Sing	15	_	_	start_char=76|end_char=82
+17	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=83|end_char=86
+18	even	even	ADV	RB	_	17	_	_	start_char=87|end_char=91
+19	more	more	ADV	RBR	Degree=Cmp	18	_	_	start_char=92|end_char=96
+20	apparent	apparent	ADJ	JJ	Degree=Pos	19	_	_	start_char=97|end_char=105
+21	when	when	ADV	WRB	PronType=Int	20	_	_	start_char=106|end_char=110
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	_	_	start_char=111|end_char=112
+23	temporarily	temporarily	ADV	RB	_	22	_	_	start_char=113|end_char=124
+24	hired	hire	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	23	_	_	start_char=125|end_char=130
+25	two	two	NUM	CD	NumForm=Word|NumType=Card	24	_	_	start_char=131|end_char=134
+26	male	male	ADJ	JJ	Degree=Pos	25	_	_	start_char=135|end_char=139
+27	directors	director	NOUN	NNS	Number=Plur	26	_	_	start_char=140|end_char=149
+28	to	to	PART	TO	_	27	_	_	start_char=150|end_char=152
+29	work	work	VERB	VB	VerbForm=Inf	28	_	_	start_char=153|end_char=157
+30	on	on	ADP	IN	_	29	_	_	start_char=158|end_char=160
+31	a	a	DET	DT	Definite=Ind|PronType=Art	30	_	_	start_char=161|end_char=162
+32	series	series	NOUN	NN	Number=Sing	31	_	_	start_char=163|end_char=169|SpaceAfter=No
+33	.	.	PUNCT	.	_	32	_	_	start_char=169|end_char=170
+
+# text = The team suddenly became quieter, more hard-working and less bitchy."
+# sent_id = 13902
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=171|end_char=174
+2	team	team	NOUN	NN	Number=Sing	1	_	_	start_char=175|end_char=179
+3	suddenly	suddenly	ADV	RB	_	2	_	_	start_char=180|end_char=188
+4	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=189|end_char=195
+5	quieter	quiet	ADJ	JJR	Degree=Cmp	4	_	_	start_char=196|end_char=203|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=203|end_char=204
+7	more	more	ADV	RBR	Degree=Cmp	6	_	_	start_char=205|end_char=209
+8	hard	hard	ADV	RB	Degree=Pos	7	_	_	start_char=210|end_char=214|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	_	_	start_char=214|end_char=215|SpaceAfter=No
+10	working	work	VERB	VBG	VerbForm=Ger	9	_	_	start_char=215|end_char=222
+11	and	and	CCONJ	CC	_	10	_	_	start_char=223|end_char=226
+12	less	less	ADV	RBR	Degree=Cmp	11	_	_	start_char=227|end_char=231
+13	bitchy	bitchy	ADJ	JJ	Degree=Pos	12	_	_	start_char=232|end_char=238|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=238|end_char=239|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=239|end_char=240|SpaceAfter=No
+

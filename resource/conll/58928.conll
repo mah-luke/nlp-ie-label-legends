@@ -1,0 +1,26 @@
+# text = All you need to make more women are XX chromosomes, baby!
+# sent_id = 125818
+1	All	all	DET	DT	_	0	_	_	start_char=0|end_char=3
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=4|end_char=7
+3	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=12
+4	to	to	PART	TO	_	3	_	_	start_char=13|end_char=15
+5	make	make	VERB	VB	VerbForm=Inf	4	_	_	start_char=16|end_char=20
+6	more	more	ADJ	JJR	Degree=Cmp	5	_	_	start_char=21|end_char=25
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=26|end_char=31
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=32|end_char=35
+9	XX	xx	NOUN	NN	Number=Sing	8	_	_	start_char=36|end_char=38
+10	chromosomes	chromosome	NOUN	NNS	Number=Plur	9	_	_	start_char=39|end_char=50|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=50|end_char=51
+12	baby	baby	NOUN	NN	Number=Sing	11	_	_	start_char=52|end_char=56|SpaceAfter=No
+13	!	!	PUNCT	.	_	12	_	_	start_char=56|end_char=57
+
+# text = Men can’t do that.
+# sent_id = 125819
+1	Men	man	NOUN	NNS	Number=Plur	0	_	_	start_char=58|end_char=61
+2-3	can’t	_	_	_	_	_	_	_	start_char=62|end_char=67
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=62|end_char=64
+3	n’t	not	PART	RB	_	2	_	_	start_char=64|end_char=67
+4	do	do	VERB	VB	VerbForm=Inf	3	_	_	start_char=68|end_char=70
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=71|end_char=75|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=75|end_char=76|SpaceAfter=No
+

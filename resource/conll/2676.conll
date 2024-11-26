@@ -1,0 +1,45 @@
+# text = Oh yeah!
+# sent_id = 5688
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	yeah	yeah	INTJ	UH	_	1	_	_	start_char=3|end_char=7|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=7|end_char=8
+
+# text = Let's watch the goomba basketball dykes fall farther and faster than the NFL!
+# sent_id = 5689
+1-2	Let's	_	_	_	_	_	_	_	start_char=9|end_char=14
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=9|end_char=12
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=12|end_char=14
+3	watch	watch	VERB	VB	VerbForm=Inf	2	_	_	start_char=15|end_char=20
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=21|end_char=24
+5	goomba	goomba	NOUN	NN	Number=Sing	4	_	_	start_char=25|end_char=31
+6	basketball	basketball	NOUN	NN	Number=Sing	5	_	_	start_char=32|end_char=42
+7	dykes	dyke	NOUN	NNS	Number=Plur	6	_	_	start_char=43|end_char=48
+8	fall	fall	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=49|end_char=53
+9	farther	far	ADV	RBR	Degree=Cmp	8	_	_	start_char=54|end_char=61
+10	and	and	CCONJ	CC	_	9	_	_	start_char=62|end_char=65
+11	faster	fast	ADJ	JJR	Degree=Cmp	10	_	_	start_char=66|end_char=72
+12	than	than	ADP	IN	_	11	_	_	start_char=73|end_char=77
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=78|end_char=81
+14	NFL	NFL	PROPN	NNP	Number=Sing	13	_	_	start_char=82|end_char=85|SpaceAfter=No
+15	!	!	PUNCT	.	_	14	_	_	start_char=85|end_char=86
+
+# text = You go, (((girls!)))
+# sent_id = 5690
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=87|end_char=90
+2	go	go	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=91|end_char=93|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=93|end_char=94
+4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=95|end_char=96|SpaceAfter=No
+5	(	(	PUNCT	-LRB-	_	4	_	_	start_char=96|end_char=97|SpaceAfter=No
+6	(	(	PUNCT	-LRB-	_	5	_	_	start_char=97|end_char=98|SpaceAfter=No
+7	girls	girl	NOUN	NNS	Number=Plur	6	_	_	start_char=98|end_char=103|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=103|end_char=104|SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	8	_	_	start_char=104|end_char=105|SpaceAfter=No
+10	)	)	PUNCT	-RRB-	_	9	_	_	start_char=105|end_char=106|SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	_	_	start_char=106|end_char=107
+
+# text = [URL]
+# sent_id = 5691
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=108|end_char=109|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=109|end_char=112|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=112|end_char=113|SpaceAfter=No
+

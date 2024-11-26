@@ -1,0 +1,26 @@
+# text = If Jesus was born from a virgin mother that means he only has XX chromosomes.
+# sent_id = 32053
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	Jesus	Jesus	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=8
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=9|end_char=12
+4	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=13|end_char=17
+5	from	from	ADP	IN	_	4	_	_	start_char=18|end_char=22
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=23|end_char=24
+7	virgin	virgin	ADJ	JJ	Degree=Pos	6	_	_	start_char=25|end_char=31
+8	mother	mother	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=38
+9	that	that	PRON	WDT	PronType=Rel	8	_	_	start_char=39|end_char=43
+10	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=44|end_char=49
+11	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=50|end_char=52
+12	only	only	ADV	RB	_	11	_	_	start_char=53|end_char=57
+13	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=58|end_char=61
+14	XX	xx	NOUN	NN	Number=Sing	13	_	_	start_char=62|end_char=64
+15	chromosomes	chromosome	NOUN	NNS	Number=Plur	14	_	_	start_char=65|end_char=76|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=76|end_char=77
+
+# text = Jesus is trans.
+# sent_id = 32054
+1	Jesus	Jesus	PROPN	NNP	Number=Sing	0	_	_	start_char=78|end_char=83
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=84|end_char=86
+3	trans	trans	ADJ	JJ	Degree=Pos	2	_	_	start_char=87|end_char=92|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=92|end_char=93|SpaceAfter=No
+

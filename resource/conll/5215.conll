@@ -1,0 +1,56 @@
+# text = I think "suck it up" is a pretty generic term used for both men and women.
+# sent_id = 10982
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=7
+3	"	"	PUNCT	``	_	2	_	_	start_char=8|end_char=9|SpaceAfter=No
+4	suck	suck	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=9|end_char=13
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=14|end_char=16
+6	up	up	ADP	RP	_	5	_	_	start_char=17|end_char=19|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=19|end_char=20
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=21|end_char=23
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=24|end_char=25
+10	pretty	pretty	ADV	RB	_	9	_	_	start_char=26|end_char=32
+11	generic	generic	ADJ	JJ	Degree=Pos	10	_	_	start_char=33|end_char=40
+12	term	term	NOUN	NN	Number=Sing	11	_	_	start_char=41|end_char=45
+13	used	use	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=46|end_char=50
+14	for	for	ADP	IN	_	13	_	_	start_char=51|end_char=54
+15	both	both	CCONJ	CC	_	14	_	_	start_char=55|end_char=59
+16	men	man	NOUN	NNS	Number=Plur	15	_	_	start_char=60|end_char=63
+17	and	and	CCONJ	CC	_	16	_	_	start_char=64|end_char=67
+18	women	woman	NOUN	NNS	Number=Plur	17	_	_	start_char=68|end_char=73|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=73|end_char=74
+
+# text = The point being argued here is that telling a man to "man up" implies he's not a man if he doesn't suck it up.
+# sent_id = 10983
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=75|end_char=78
+2	point	point	NOUN	NN	Number=Sing	1	_	_	start_char=79|end_char=84
+3	being	be	AUX	VBG	VerbForm=Ger	2	_	_	start_char=85|end_char=90
+4	argued	argue	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=91|end_char=97
+5	here	here	ADV	RB	PronType=Dem	4	_	_	start_char=98|end_char=102
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=103|end_char=105
+7	that	that	SCONJ	IN	_	6	_	_	start_char=106|end_char=110
+8	telling	tell	VERB	VBG	VerbForm=Ger	7	_	_	start_char=111|end_char=118
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=119|end_char=120
+10	man	man	NOUN	NN	Number=Sing	9	_	_	start_char=121|end_char=124
+11	to	to	PART	TO	_	10	_	_	start_char=125|end_char=127
+12	"	"	PUNCT	``	_	11	_	_	start_char=128|end_char=129|SpaceAfter=No
+13	man	man	VERB	VB	VerbForm=Inf	12	_	_	start_char=129|end_char=132
+14	up	up	ADP	RP	_	13	_	_	start_char=133|end_char=135|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=135|end_char=136
+16	implies	imply	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=137|end_char=144
+17-18	he's	_	_	_	_	_	_	_	start_char=145|end_char=149
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=145|end_char=147
+18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=147|end_char=149
+19	not	not	PART	RB	_	18	_	_	start_char=150|end_char=153
+20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	start_char=154|end_char=155
+21	man	man	NOUN	NN	Number=Sing	20	_	_	start_char=156|end_char=159
+22	if	if	SCONJ	IN	_	21	_	_	start_char=160|end_char=162
+23	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=163|end_char=165
+24-25	doesn't	_	_	_	_	_	_	_	start_char=166|end_char=173
+24	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=166|end_char=170
+25	n't	not	PART	RB	_	24	_	_	start_char=170|end_char=173
+26	suck	suck	VERB	VB	VerbForm=Inf	25	_	_	start_char=174|end_char=178
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	_	_	start_char=179|end_char=181
+28	up	up	ADP	RP	_	27	_	_	start_char=182|end_char=184|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=184|end_char=185|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = Or is NAFAT next up?
+# sent_id = 96050
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=0|end_char=2
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	NAFAT	NAFAT	PROPN	NNP	Number=Sing	2	_	_	start_char=6|end_char=11
+4	next	next	ADV	RB	_	3	_	_	start_char=12|end_char=16
+5	up	up	ADV	RB	_	4	_	_	start_char=17|end_char=19|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = To which he will reply: "No one knew trade deals would be so complex and complicated."
+# sent_id = 96051
+1	To	to	ADP	IN	_	0	_	_	start_char=21|end_char=23
+2	which	which	PRON	WDT	PronType=Rel	1	_	_	start_char=24|end_char=29
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=30|end_char=32
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=33|end_char=37
+5	reply	reply	VERB	VB	VerbForm=Inf	4	_	_	start_char=38|end_char=43|SpaceAfter=No
+6	:	:	PUNCT	:	_	5	_	_	start_char=43|end_char=44
+7	"	"	PUNCT	``	_	6	_	_	start_char=45|end_char=46|SpaceAfter=No
+8	No	no	DET	DT	_	7	_	_	start_char=46|end_char=48
+9	one	one	PRON	NN	Number=Sing|PronType=Neg	8	_	_	start_char=49|end_char=52
+10	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=53|end_char=57
+11	trade	trade	NOUN	NN	Number=Sing	10	_	_	start_char=58|end_char=63
+12	deals	deal	NOUN	NNS	Number=Plur	11	_	_	start_char=64|end_char=69
+13	would	would	AUX	MD	VerbForm=Fin	12	_	_	start_char=70|end_char=75
+14	be	be	AUX	VB	VerbForm=Inf	13	_	_	start_char=76|end_char=78
+15	so	so	ADV	RB	_	14	_	_	start_char=79|end_char=81
+16	complex	complex	ADJ	JJ	Degree=Pos	15	_	_	start_char=82|end_char=89
+17	and	and	CCONJ	CC	_	16	_	_	start_char=90|end_char=93
+18	complicated	complicated	ADJ	JJ	Degree=Pos	17	_	_	start_char=94|end_char=105|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=105|end_char=106|SpaceAfter=No
+20	"	"	PUNCT	''	_	19	_	_	start_char=106|end_char=107
+
+# text = Lmaooo.
+# sent_id = 96052
+1	Lmaooo	Lmaooo	PROPN	NNP	Number=Sing	0	_	_	start_char=108|end_char=114|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=114|end_char=115
+
+# text = What a bumbling idiot
+# sent_id = 96053
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=116|end_char=120
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=121|end_char=122
+3	bumbling	bumbling	ADJ	JJ	Degree=Pos	2	_	_	start_char=123|end_char=131
+4	idiot	idiot	NOUN	NN	Number=Sing	3	_	_	start_char=132|end_char=137|SpaceAfter=No
+

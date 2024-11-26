@@ -1,0 +1,40 @@
+# text = [USER] more money in 1 day than in all her so called run?
+# sent_id = 45080
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	more	more	ADJ	JJR	Degree=Cmp	3	_	_	start_char=7|end_char=11
+5	money	money	NOUN	NN	Number=Sing	4	_	_	start_char=12|end_char=17
+6	in	in	ADP	IN	_	5	_	_	start_char=18|end_char=20
+7	1	1	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=21|end_char=22
+8	day	day	NOUN	NN	Number=Sing	7	_	_	start_char=23|end_char=26
+9	than	than	ADP	IN	_	8	_	_	start_char=27|end_char=31
+10	in	in	ADP	IN	_	9	_	_	start_char=32|end_char=34
+11	all	all	DET	PDT	_	10	_	_	start_char=35|end_char=38
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=39|end_char=42
+13	so	so	ADV	RB	_	12	_	_	start_char=43|end_char=45
+14	called	call	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=46|end_char=52
+15	run	run	NOUN	NN	Number=Sing	14	_	_	start_char=53|end_char=56|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=56|end_char=57
+
+# text = This is why no one trust's this shitty parties, the bitch is playing with fire
+# sent_id = 45081
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=58|end_char=62
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=65
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=66|end_char=69
+4	no	no	DET	DT	_	3	_	_	start_char=70|end_char=72
+5	one	one	PRON	NN	Number=Sing|PronType=Neg	4	_	_	start_char=73|end_char=76
+6-7	trust's	_	_	_	_	_	_	_	start_char=77|end_char=84
+6	trust	trust	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=77|end_char=82
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=82|end_char=84
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=85|end_char=89
+9	shitty	shitty	ADJ	JJ	Degree=Pos	8	_	_	start_char=90|end_char=96
+10	parties	party	NOUN	NNS	Number=Plur	9	_	_	start_char=97|end_char=104|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=104|end_char=105
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=106|end_char=109
+13	bitch	bitch	NOUN	NN	Number=Sing	12	_	_	start_char=110|end_char=115
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=116|end_char=118
+15	playing	play	VERB	VBG	Tense=Pres|VerbForm=Part	14	_	_	start_char=119|end_char=126
+16	with	with	ADP	IN	_	15	_	_	start_char=127|end_char=131
+17	fire	fire	NOUN	NN	Number=Sing	16	_	_	start_char=132|end_char=136|SpaceAfter=No
+

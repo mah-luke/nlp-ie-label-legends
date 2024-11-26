@@ -1,0 +1,39 @@
+# text = That's basically what every girl's reaction on your phone will be - gross, no im not gay.
+# sent_id = 42121
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	basically	basically	ADV	RB	_	2	_	_	start_char=7|end_char=16
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=17|end_char=21
+5	every	every	DET	DT	_	4	_	_	start_char=22|end_char=27
+6-7	girl's	_	_	_	_	_	_	_	start_char=28|end_char=34
+6	girl	girl	NOUN	NN	Number=Sing	5	_	_	start_char=28|end_char=32
+7	's	's	PART	POS	_	6	_	_	start_char=32|end_char=34
+8	reaction	reaction	NOUN	NN	Number=Sing	7	_	_	start_char=35|end_char=43
+9	on	on	ADP	IN	_	8	_	_	start_char=44|end_char=46
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	_	_	start_char=47|end_char=51
+11	phone	phone	NOUN	NN	Number=Sing	10	_	_	start_char=52|end_char=57
+12	will	will	AUX	MD	VerbForm=Fin	11	_	_	start_char=58|end_char=62
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=63|end_char=65
+14	-	-	PUNCT	HYPH	_	13	_	_	start_char=66|end_char=67
+15	gross	gross	ADJ	JJ	Degree=Pos	14	_	_	start_char=68|end_char=73|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=73|end_char=74
+17	no	no	INTJ	UH	_	16	_	_	start_char=75|end_char=77
+18-19	im	_	_	_	_	_	_	_	start_char=78|end_char=80
+18	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	_	_	start_char=78|end_char=79
+19	m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	_	_	start_char=79|end_char=80
+20	not	not	PART	RB	_	19	_	_	start_char=81|end_char=84
+21	gay	gay	ADJ	JJ	Degree=Pos	20	_	_	start_char=85|end_char=88|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=88|end_char=89
+
+# text = You are not even the same species.
+# sent_id = 42122
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=90|end_char=93
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=94|end_char=97
+3	not	not	PART	RB	_	2	_	_	start_char=98|end_char=101
+4	even	even	ADV	RB	_	3	_	_	start_char=102|end_char=106
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=107|end_char=110
+6	same	same	ADJ	JJ	Degree=Pos	5	_	_	start_char=111|end_char=115
+7	species	species	NOUN	NNS	Number=Plur	6	_	_	start_char=116|end_char=123|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=123|end_char=124|SpaceAfter=No
+

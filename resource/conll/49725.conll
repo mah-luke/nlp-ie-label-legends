@@ -1,0 +1,47 @@
+# text = RT [USER]: Who is QAnon?
+# sent_id = 106263
+1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
+3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=8|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=8|end_char=9|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=9|end_char=10
+6	Who	who	PRON	WP	PronType=Int	5	_	_	start_char=11|end_char=14
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=15|end_char=17
+8	QAnon	QAnon	PROPN	NNP	Number=Sing	7	_	_	start_char=18|end_char=23|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=23|end_char=24
+
+# text = Let's look to the folks who brought the conspiracy off the chans and to grandmas on Facebook, cashing in along the way.
+# sent_id = 106264
+1-2	Let's	_	_	_	_	_	_	_	start_char=25|end_char=30
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=25|end_char=28
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=28|end_char=30
+3	look	look	VERB	VB	VerbForm=Inf	2	_	_	start_char=31|end_char=35
+4	to	to	ADP	IN	_	3	_	_	start_char=36|end_char=38
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=39|end_char=42
+6	folks	folk	NOUN	NNS	Number=Plur	5	_	_	start_char=43|end_char=48
+7	who	who	PRON	WP	PronType=Rel	6	_	_	start_char=49|end_char=52
+8	brought	bring	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=53|end_char=60
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=61|end_char=64
+10	conspiracy	conspiracy	NOUN	NN	Number=Sing	9	_	_	start_char=65|end_char=75
+11	off	off	ADP	IN	_	10	_	_	start_char=76|end_char=79
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=80|end_char=83
+13	chans	chans	NOUN	NNS	Number=Plur	12	_	_	start_char=84|end_char=89
+14	and	and	CCONJ	CC	_	13	_	_	start_char=90|end_char=93
+15	to	to	ADP	IN	_	14	_	_	start_char=94|end_char=96
+16	grandmas	grandma	NOUN	NNS	Number=Plur	15	_	_	start_char=97|end_char=105
+17	on	on	ADP	IN	_	16	_	_	start_char=106|end_char=108
+18	Facebook	Facebook	PROPN	NNP	Number=Sing	17	_	_	start_char=109|end_char=117|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=117|end_char=118
+20	cashing	cash	VERB	VBG	VerbForm=Ger	19	_	_	start_char=119|end_char=126
+21	in	in	ADP	RP	_	20	_	_	start_char=127|end_char=129
+22	along	along	ADP	IN	_	21	_	_	start_char=130|end_char=135
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=136|end_char=139
+24	way	way	NOUN	NN	Number=Sing	23	_	_	start_char=140|end_char=143|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=143|end_char=144
+
+# text = [URL]
+# sent_id = 106265
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=145|end_char=146|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=146|end_char=149|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=149|end_char=150|SpaceAfter=No
+

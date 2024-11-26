@@ -1,0 +1,15 @@
+# text = News flash: some women like tall guys some don't
+# sent_id = 82453
+1	News	news	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
+2	flash	flash	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=10|end_char=11
+4	some	some	DET	DT	_	3	_	_	start_char=12|end_char=16
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=17|end_char=22
+6	like	like	ADP	IN	_	5	_	_	start_char=23|end_char=27
+7	tall	tall	ADJ	JJ	Degree=Pos	6	_	_	start_char=28|end_char=32
+8	guys	guy	NOUN	NNS	Number=Plur	7	_	_	start_char=33|end_char=37
+9	some	some	DET	DT	_	8	_	_	start_char=38|end_char=42
+10-11	don't	_	_	_	_	_	_	_	start_char=43|end_char=48|SpaceAfter=No
+10	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=43|end_char=45
+11	n't	not	PART	RB	_	10	_	_	start_char=45|end_char=48
+

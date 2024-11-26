@@ -1,0 +1,18 @@
+# text = Who is the youngest one?
+# sent_id = 96631
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7|end_char=10
+4	youngest	young	ADJ	JJS	Degree=Sup	3	_	_	start_char=11|end_char=19
+5	one	one	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=23|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=23|end_char=24
+
+# text = THAT should be the one!
+# sent_id = 96632
+1	THAT	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=25|end_char=29
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=30|end_char=36
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=37|end_char=39
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=40|end_char=43
+5	one	one	NOUN	NN	Number=Sing	4	_	_	start_char=44|end_char=47|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=47|end_char=48|SpaceAfter=No
+

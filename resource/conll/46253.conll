@@ -1,0 +1,45 @@
+# text = RT [USER]: Looks like Nellie
+# sent_id = 98771
+1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
+3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=8|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=8|end_char=9|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=9|end_char=10
+6	Looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=11|end_char=16
+7	like	like	ADP	IN	_	6	_	_	start_char=17|end_char=21
+8	Nellie	Nellie	PROPN	NNP	Number=Sing	7	_	_	start_char=22|end_char=28
+
+# text = Ohr is not cooperating with the requests and will have to be subpoenaed to compel her appearance.
+# sent_id = 98772
+1	Ohr	Ohr	PROPN	NNP	Number=Sing	0	_	_	start_char=29|end_char=32
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=33|end_char=35
+3	not	not	PART	RB	_	2	_	_	start_char=36|end_char=39
+4	cooperating	cooperate	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=40|end_char=51
+5	with	with	ADP	IN	_	4	_	_	start_char=52|end_char=56
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=57|end_char=60
+7	requests	request	NOUN	NNS	Number=Plur	6	_	_	start_char=61|end_char=69
+8	and	and	CCONJ	CC	_	7	_	_	start_char=70|end_char=73
+9	will	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=74|end_char=78
+10	have	have	VERB	VB	VerbForm=Inf	9	_	_	start_char=79|end_char=83
+11	to	to	PART	TO	_	10	_	_	start_char=84|end_char=86
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	start_char=87|end_char=89
+13	subpoenaed	subpoena	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=90|end_char=100
+14	to	to	PART	TO	_	13	_	_	start_char=101|end_char=103
+15	compel	compel	VERB	VB	VerbForm=Inf	14	_	_	start_char=104|end_char=110
+16	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=111|end_char=114
+17	appearance	appearance	NOUN	NN	Number=Sing	16	_	_	start_char=115|end_char=125|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=125|end_char=126
+
+# text = What a joke.
+# sent_id = 98773
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=127|end_char=131
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=132|end_char=133
+3	joke	joke	NOUN	NN	Number=Sing	2	_	_	start_char=134|end_char=138|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=138|end_char=139
+
+# text = [URL]
+# sent_id = 98774
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=140|end_char=141|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=141|end_char=144|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=144|end_char=145|SpaceAfter=No
+

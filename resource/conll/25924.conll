@@ -1,0 +1,60 @@
+# text = No prob.
+# sent_id = 55614
+1	No	no	DET	DT	_	0	_	_	start_char=0|end_char=2
+2	prob	prob	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=7|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=7|end_char=8
+
+# text = We are men.
+# sent_id = 55615
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=9|end_char=11
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=12|end_char=15
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=16|end_char=19|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=19|end_char=20
+
+# text = We cant afford to be overly emotional when it comes to women it never works out well.
+# sent_id = 55616
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=21|end_char=23
+2-3	cant	_	_	_	_	_	_	_	start_char=24|end_char=28
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=24|end_char=26
+3	nt	not	PART	RB	_	2	_	_	start_char=26|end_char=28
+4	afford	afford	VERB	VB	VerbForm=Inf	3	_	_	start_char=29|end_char=35
+5	to	to	PART	TO	_	4	_	_	start_char=36|end_char=38
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=39|end_char=41
+7	overly	overly	ADV	RB	_	6	_	_	start_char=42|end_char=48
+8	emotional	emotional	ADJ	JJ	Degree=Pos	7	_	_	start_char=49|end_char=58
+9	when	when	ADV	WRB	PronType=Int	8	_	_	start_char=59|end_char=63
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=64|end_char=66
+11	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=67|end_char=72
+12	to	to	ADP	IN	_	11	_	_	start_char=73|end_char=75
+13	women	woman	NOUN	NNS	Number=Plur	12	_	_	start_char=76|end_char=81
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=82|end_char=84
+15	never	never	ADV	RB	_	14	_	_	start_char=85|end_char=90
+16	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=91|end_char=96
+17	out	out	ADP	RP	_	16	_	_	start_char=97|end_char=100
+18	well	well	ADV	RB	Degree=Pos	17	_	_	start_char=101|end_char=105|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=105|end_char=106
+
+# text = Stay cool.
+# sent_id = 55617
+1	Stay	stay	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=107|end_char=111
+2	cool	cool	ADJ	JJ	Degree=Pos	1	_	_	start_char=112|end_char=116|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=116|end_char=117
+
+# text = Always make logical decisions never emotional ones.
+# sent_id = 55618
+1	Always	Always	ADV	RB	_	0	_	_	start_char=118|end_char=124
+2	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=125|end_char=129
+3	logical	logical	ADJ	JJ	Degree=Pos	2	_	_	start_char=130|end_char=137
+4	decisions	decision	NOUN	NNS	Number=Plur	3	_	_	start_char=138|end_char=147
+5	never	never	ADV	RB	_	4	_	_	start_char=148|end_char=153
+6	emotional	emotional	ADJ	JJ	Degree=Pos	5	_	_	start_char=154|end_char=163
+7	ones	one	NOUN	NNS	Number=Plur	6	_	_	start_char=164|end_char=168|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=168|end_char=169
+
+# text = Good luck bro.
+# sent_id = 55619
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=170|end_char=174
+2	luck	luck	NOUN	NN	Number=Sing	1	_	_	start_char=175|end_char=179
+3	bro	bro	NOUN	NN	Number=Sing	2	_	_	start_char=180|end_char=183|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=183|end_char=184|SpaceAfter=No
+

@@ -1,0 +1,74 @@
+# text = IMO you just wait.
+# sent_id = 115557
+1	IMO	imo	ADV	RB	_	0	_	_	start_char=0|end_char=3
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=4|end_char=7
+3	just	just	ADV	RB	_	2	_	_	start_char=8|end_char=12
+4	wait	wait	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = Wait a day or two then text her when you are ready to take her out.
+# sent_id = 115558
+1	Wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=19|end_char=23
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=24|end_char=25
+3	day	day	NOUN	NN	Number=Sing	2	_	_	start_char=26|end_char=29
+4	or	or	CCONJ	CC	_	3	_	_	start_char=30|end_char=32
+5	two	two	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=33|end_char=36
+6	then	then	ADV	RB	PronType=Dem	5	_	_	start_char=37|end_char=41
+7	text	text	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=42|end_char=46
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=47|end_char=50
+9	when	when	ADV	WRB	PronType=Int	8	_	_	start_char=51|end_char=55
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=56|end_char=59
+11	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=60|end_char=63
+12	ready	ready	ADJ	JJ	Degree=Pos	11	_	_	start_char=64|end_char=69
+13	to	to	PART	TO	_	12	_	_	start_char=70|end_char=72
+14	take	take	VERB	VB	VerbForm=Inf	13	_	_	start_char=73|end_char=77
+15	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=78|end_char=81
+16	out	out	ADP	RP	_	15	_	_	start_char=82|end_char=85|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=85|end_char=86
+
+# text = Act like you never even sent the first text.
+# sent_id = 115559
+1	Act	act	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=87|end_char=90
+2	like	like	SCONJ	IN	_	1	_	_	start_char=91|end_char=95
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=96|end_char=99
+4	never	never	ADV	RB	_	3	_	_	start_char=100|end_char=105
+5	even	even	ADV	RB	_	4	_	_	start_char=106|end_char=110
+6	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	_	_	start_char=111|end_char=115
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=116|end_char=119
+8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	_	_	start_char=120|end_char=125
+9	text	text	NOUN	NN	Number=Sing	8	_	_	start_char=126|end_char=130|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=130|end_char=131
+
+# text = "Hey this is GatsbyJunior.
+# sent_id = 115560
+1	"	"	PUNCT	``	_	0	_	_	start_char=132|end_char=133|SpaceAfter=No
+2	Hey	hey	INTJ	UH	_	1	_	_	start_char=133|end_char=136
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=137|end_char=141
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=142|end_char=144
+5	GatsbyJunior	GatsbyJunior	PROPN	NNP	Number=Sing	4	_	_	start_char=145|end_char=157|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=157|end_char=158
+
+# text = Let's grab coffee at [shop] tomorrow at 5.
+# sent_id = 115561
+1-2	Let's	_	_	_	_	_	_	_	start_char=159|end_char=164
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=159|end_char=162
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=162|end_char=164
+3	grab	grab	VERB	VB	VerbForm=Inf	2	_	_	start_char=165|end_char=169
+4	coffee	coffee	NOUN	NN	Number=Sing	3	_	_	start_char=170|end_char=176
+5	at	at	ADP	IN	_	4	_	_	start_char=177|end_char=179
+6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=180|end_char=181|SpaceAfter=No
+7	shop	shop	NOUN	NN	Number=Sing	6	_	_	start_char=181|end_char=185|SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=185|end_char=186
+9	tomorrow	tomorrow	NOUN	NN	Number=Sing	8	_	_	start_char=187|end_char=195
+10	at	at	ADP	IN	_	9	_	_	start_char=196|end_char=198
+11	5	5	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=199|end_char=200|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=200|end_char=201
+
+# text = Does that work?"
+# sent_id = 115562
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=202|end_char=206
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=207|end_char=211
+3	work	work	VERB	VB	VerbForm=Inf	2	_	_	start_char=212|end_char=216|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=216|end_char=217|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=217|end_char=218|SpaceAfter=No
+

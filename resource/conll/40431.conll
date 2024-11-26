@@ -1,0 +1,45 @@
+# text = Some of humanity's best works of art are studies of the female nude.
+# sent_id = 86457
+1	Some	some	DET	DT	_	0	_	_	start_char=0|end_char=4
+2	of	of	ADP	IN	_	1	_	_	start_char=5|end_char=7
+3-4	humanity's	_	_	_	_	_	_	_	start_char=8|end_char=18
+3	humanity	humanity	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=16
+4	's	's	PART	POS	_	3	_	_	start_char=16|end_char=18
+5	best	good	ADJ	JJS	Degree=Sup	4	_	_	start_char=19|end_char=23
+6	works	work	NOUN	NNS	Number=Plur	5	_	_	start_char=24|end_char=29
+7	of	of	ADP	IN	_	6	_	_	start_char=30|end_char=32
+8	art	art	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=36
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=37|end_char=40
+10	studies	study	NOUN	NNS	Number=Plur	9	_	_	start_char=41|end_char=48
+11	of	of	ADP	IN	_	10	_	_	start_char=49|end_char=51
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=52|end_char=55
+13	female	female	ADJ	JJ	Degree=Pos	12	_	_	start_char=56|end_char=62
+14	nude	nude	NOUN	NN	Number=Sing	13	_	_	start_char=63|end_char=67|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=67|end_char=68
+
+# text = Now that's a #BadThing.
+# sent_id = 86458
+1	Now	now	ADV	RB	_	0	_	_	start_char=69|end_char=72
+2-3	that's	_	_	_	_	_	_	_	start_char=73|end_char=79
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=73|end_char=77
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=77|end_char=79
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=80|end_char=81
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=82|end_char=83|SpaceAfter=No
+6	BadThing	badthing	NOUN	NN	Number=Sing	5	_	_	start_char=83|end_char=91|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=91|end_char=92
+
+# text = The #NewPuritans march on.
+# sent_id = 86459
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=93|end_char=96
+2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=97|end_char=98|SpaceAfter=No
+3	NewPuritans	NewPuritans	PROPN	NNP	Number=Sing	2	_	_	start_char=98|end_char=109
+4	march	march	PROPN	NNP	Number=Sing	3	_	_	start_char=110|end_char=115
+5	on	on	ADV	RB	_	4	_	_	start_char=116|end_char=118|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=118|end_char=119
+
+# text = [URL]
+# sent_id = 86460
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=120|end_char=121|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=121|end_char=124|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=124|end_char=125|SpaceAfter=No
+

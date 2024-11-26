@@ -1,0 +1,56 @@
+# text = I'm busy right now, what I'm doing is so much fun"
+# sent_id = 7769
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	busy	busy	ADJ	JJ	Degree=Pos	2	_	_	start_char=4|end_char=8
+4	right	right	ADV	RB	_	3	_	_	start_char=9|end_char=14
+5	now	now	ADV	RB	_	4	_	_	start_char=15|end_char=18|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=18|end_char=19
+7	what	what	PRON	WP	PronType=Rel	6	_	_	start_char=20|end_char=24
+8-9	I'm	_	_	_	_	_	_	_	start_char=25|end_char=28
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=25|end_char=26
+9	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=26|end_char=28
+10	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=29|end_char=34
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=35|end_char=37
+12	so	so	ADV	RB	_	11	_	_	start_char=38|end_char=40
+13	much	much	ADJ	JJ	Degree=Pos	12	_	_	start_char=41|end_char=45
+14	fun	fun	ADJ	JJ	Degree=Pos	13	_	_	start_char=46|end_char=49|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=49|end_char=50
+
+# text = So you'd do it if you weren't busy?
+# sent_id = 7770
+1	So	so	ADV	RB	_	0	_	_	start_char=51|end_char=53
+2-3	you'd	_	_	_	_	_	_	_	start_char=54|end_char=59
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=54|end_char=57
+3	'd	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=57|end_char=59
+4	do	do	VERB	VB	VerbForm=Inf	3	_	_	start_char=60|end_char=62
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=63|end_char=65
+6	if	if	SCONJ	IN	_	5	_	_	start_char=66|end_char=68
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=69|end_char=72
+8-9	weren't	_	_	_	_	_	_	_	start_char=73|end_char=80
+8	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	7	_	_	start_char=73|end_char=77
+9	n't	not	PART	RB	_	8	_	_	start_char=77|end_char=80
+10	busy	busy	ADJ	JJ	Degree=Pos	9	_	_	start_char=81|end_char=85|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=85|end_char=86
+
+# text = Nice one.
+# sent_id = 7771
+1	Nice	nice	ADJ	JJ	Degree=Pos	0	_	_	start_char=87|end_char=91
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=92|end_char=95|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=95|end_char=96
+
+# text = Enjoy her trying to pussy whip you for another year.
+# sent_id = 7772
+1	Enjoy	enjoy	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=97|end_char=102
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=103|end_char=106
+3	trying	try	VERB	VBG	VerbForm=Ger	2	_	_	start_char=107|end_char=113
+4	to	to	PART	TO	_	3	_	_	start_char=114|end_char=116
+5	pussy	pussy	VERB	VB	VerbForm=Inf	4	_	_	start_char=117|end_char=122
+6	whip	whip	VERB	VB	VerbForm=Inf	5	_	_	start_char=123|end_char=127
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=128|end_char=131
+8	for	for	ADP	IN	_	7	_	_	start_char=132|end_char=135
+9	another	another	DET	DT	_	8	_	_	start_char=136|end_char=143
+10	year	year	NOUN	NN	Number=Sing	9	_	_	start_char=144|end_char=148|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=148|end_char=149|SpaceAfter=No
+

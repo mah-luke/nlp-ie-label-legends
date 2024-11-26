@@ -1,0 +1,55 @@
+# text = Poor girl.
+# sent_id = 112403
+1	Poor	poor	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = She’s never had to do any work in a relationship and now she feels like a 13 year old boy.
+# sent_id = 112404
+1-2	She’s	_	_	_	_	_	_	_	start_char=11|end_char=16
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=11|end_char=14
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=14|end_char=16
+3	never	never	ADV	RB	_	2	_	_	start_char=17|end_char=22
+4	had	have	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=23|end_char=26
+5	to	to	PART	TO	_	4	_	_	start_char=27|end_char=29
+6	do	do	VERB	VB	VerbForm=Inf	5	_	_	start_char=30|end_char=32
+7	any	any	DET	DT	_	6	_	_	start_char=33|end_char=36
+8	work	work	NOUN	NN	Number=Sing	7	_	_	start_char=37|end_char=41
+9	in	in	ADP	IN	_	8	_	_	start_char=42|end_char=44
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=45|end_char=46
+11	relationship	relationship	NOUN	NN	Number=Sing	10	_	_	start_char=47|end_char=59
+12	and	and	CCONJ	CC	_	11	_	_	start_char=60|end_char=63
+13	now	now	ADV	RB	_	12	_	_	start_char=64|end_char=67
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=68|end_char=71
+15	feels	feel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=72|end_char=77
+16	like	like	ADP	IN	_	15	_	_	start_char=78|end_char=82
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=83|end_char=84
+18	13	13	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	start_char=85|end_char=87
+19	year	year	NOUN	NN	Number=Sing	18	_	_	start_char=88|end_char=92
+20	old	old	ADJ	JJ	Degree=Pos	19	_	_	start_char=93|end_char=96
+21	boy	boy	NOUN	NN	Number=Sing	20	_	_	start_char=97|end_char=100|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=100|end_char=101
+
+# text = Clueless.
+# sent_id = 112405
+1	Clueless	clueless	ADJ	JJ	Degree=Pos	0	_	_	start_char=102|end_char=110|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=110|end_char=111
+
+# text = Oh well, she’ll figure it out when she’s fifty.
+# sent_id = 112406
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=112|end_char=114
+2	well	well	INTJ	UH	_	1	_	_	start_char=115|end_char=119|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=119|end_char=120
+4-5	she’ll	_	_	_	_	_	_	_	start_char=121|end_char=127
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=121|end_char=124
+5	’ll	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=124|end_char=127
+6	figure	figure	VERB	VB	VerbForm=Inf	5	_	_	start_char=128|end_char=134
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=135|end_char=137
+8	out	out	ADP	RP	_	7	_	_	start_char=138|end_char=141
+9	when	when	ADV	WRB	PronType=Int	8	_	_	start_char=142|end_char=146
+10-11	she’s	_	_	_	_	_	_	_	start_char=147|end_char=152
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=147|end_char=150
+11	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=150|end_char=152
+12	fifty	fifty	NUM	CD	NumForm=Word|NumType=Card	11	_	_	start_char=153|end_char=158|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=158|end_char=159|SpaceAfter=No
+

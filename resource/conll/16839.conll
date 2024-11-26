@@ -1,0 +1,54 @@
+# text = Dog Zsa Zsa guards body of dead 66 YO owner for weeks over Christmas...
+# sent_id = 36225
+1	Dog	dog	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3
+2	Zsa	Zsa	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=7
+3	Zsa	Zsa	PROPN	NNP	Number=Sing	2	_	_	start_char=8|end_char=11
+4	guards	guard	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=12|end_char=18
+5	body	body	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=23
+6	of	of	ADP	IN	_	5	_	_	start_char=24|end_char=26
+7	dead	dead	ADJ	JJ	Degree=Pos	6	_	_	start_char=27|end_char=31
+8	66	66	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=32|end_char=34
+9	YO	yo	NOUN	NN	Number=Sing	8	_	_	start_char=35|end_char=37
+10	owner	owner	NOUN	NN	Number=Sing	9	_	_	start_char=38|end_char=43
+11	for	for	ADP	IN	_	10	_	_	start_char=44|end_char=47
+12	weeks	week	NOUN	NNS	Number=Plur	11	_	_	start_char=48|end_char=53
+13	over	over	ADP	IN	_	12	_	_	start_char=54|end_char=58
+14	Christmas	Christmas	PROPN	NNP	Number=Sing	13	_	_	start_char=59|end_char=68|SpaceAfter=No
+15	...	...	PUNCT	.	_	14	_	_	start_char=68|end_char=71
+
+# text = "The dehydrated dog was lying next to the dead body, and was so weak that she could not stand up.
+# sent_id = 36226
+1	"	"	PUNCT	``	_	0	_	_	start_char=72|end_char=73|SpaceAfter=No
+2	The	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=73|end_char=76
+3	dehydrated	dehydrated	ADJ	JJ	Degree=Pos	2	_	_	start_char=77|end_char=87
+4	dog	dog	NOUN	NN	Number=Sing	3	_	_	start_char=88|end_char=91
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=92|end_char=95
+6	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=96|end_char=101
+7	next	next	ADV	RB	_	6	_	_	start_char=102|end_char=106
+8	to	to	ADP	IN	_	7	_	_	start_char=107|end_char=109
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=110|end_char=113
+10	dead	dead	ADJ	JJ	Degree=Pos	9	_	_	start_char=114|end_char=118
+11	body	body	NOUN	NN	Number=Sing	10	_	_	start_char=119|end_char=123|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=123|end_char=124
+13	and	and	CCONJ	CC	_	12	_	_	start_char=125|end_char=128
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=129|end_char=132
+15	so	so	ADV	RB	_	14	_	_	start_char=133|end_char=135
+16	weak	weak	ADJ	JJ	Degree=Pos	15	_	_	start_char=136|end_char=140
+17	that	that	SCONJ	IN	_	16	_	_	start_char=141|end_char=145
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=146|end_char=149
+19	could	could	AUX	MD	VerbForm=Fin	18	_	_	start_char=150|end_char=155
+20	not	not	PART	RB	_	19	_	_	start_char=156|end_char=159
+21	stand	stand	VERB	VB	VerbForm=Inf	20	_	_	start_char=160|end_char=165
+22	up	up	ADP	RP	_	21	_	_	start_char=166|end_char=168|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=168|end_char=169
+
+# text = We had to drag her away"
+# sent_id = 36227
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=170|end_char=172
+2	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=173|end_char=176
+3	to	to	PART	TO	_	2	_	_	start_char=177|end_char=179
+4	drag	drag	VERB	VB	VerbForm=Inf	3	_	_	start_char=180|end_char=184
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=185|end_char=188
+6	away	away	ADV	RB	_	5	_	_	start_char=189|end_char=193|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=193|end_char=194|SpaceAfter=No
+

@@ -1,0 +1,86 @@
+# text = MSM: "How could Hillary have lost this election?!
+# sent_id = 104775
+1	MSM	MSM	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=3|end_char=4
+3	"	"	PUNCT	``	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
+4	How	how	ADV	WRB	PronType=Int	3	_	_	start_char=6|end_char=9
+5	could	could	AUX	MD	VerbForm=Fin	4	_	_	start_char=10|end_char=15
+6	Hillary	Hillary	PROPN	NNP	Number=Sing	5	_	_	start_char=16|end_char=23
+7	have	have	AUX	VB	VerbForm=Inf	6	_	_	start_char=24|end_char=28
+8	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=29|end_char=33
+9	this	this	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=34|end_char=38
+10	election	election	NOUN	NN	Number=Sing	9	_	_	start_char=39|end_char=47|SpaceAfter=No
+11	?!	?!	PUNCT	.	_	10	_	_	start_char=47|end_char=49
+
+# text = HOW?!"
+# sent_id = 104776
+1	HOW	how	ADV	WRB	PronType=Int	0	_	_	start_char=50|end_char=53|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=53|end_char=54|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=54|end_char=55|SpaceAfter=No
+4	"	"	PUNCT	''	_	3	_	_	start_char=55|end_char=56
+
+# text = Me: "How did she lose to a community organizer named Obama?!"
+# sent_id = 104777
+1	Me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=57|end_char=59|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=59|end_char=60
+3	"	"	PUNCT	``	_	2	_	_	start_char=61|end_char=62|SpaceAfter=No
+4	How	how	ADV	WRB	PronType=Int	3	_	_	start_char=62|end_char=65
+5	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=66|end_char=69
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=70|end_char=73
+7	lose	lose	VERB	VB	VerbForm=Inf	6	_	_	start_char=74|end_char=78
+8	to	to	ADP	IN	_	7	_	_	start_char=79|end_char=81
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=82|end_char=83
+10	community	community	NOUN	NN	Number=Sing	9	_	_	start_char=84|end_char=93
+11	organizer	organizer	NOUN	NN	Number=Sing	10	_	_	start_char=94|end_char=103
+12	named	name	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=104|end_char=109
+13	Obama	Obama	PROPN	NNP	Number=Sing	12	_	_	start_char=110|end_char=115|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=115|end_char=116|SpaceAfter=No
+15	!	!	PUNCT	.	_	14	_	_	start_char=116|end_char=117|SpaceAfter=No
+16	"	"	PUNCT	''	_	15	_	_	start_char=117|end_char=118
+
+# text = The obvious answer is Hillary Clinton absolutely sucks!
+# sent_id = 104778
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=119|end_char=122
+2	obvious	obvious	ADJ	JJ	Degree=Pos	1	_	_	start_char=123|end_char=130
+3	answer	answer	NOUN	NN	Number=Sing	2	_	_	start_char=131|end_char=137
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=138|end_char=140
+5	Hillary	Hillary	PROPN	NNP	Number=Sing	4	_	_	start_char=141|end_char=148
+6	Clinton	Clinton	PROPN	NNP	Number=Sing	5	_	_	start_char=149|end_char=156
+7	absolutely	absolutely	ADV	RB	_	6	_	_	start_char=157|end_char=167
+8	sucks	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=168|end_char=173|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=173|end_char=174
+
+# text = Tough shit!
+# sent_id = 104779
+1	Tough	tough	ADJ	JJ	Degree=Pos	0	_	_	start_char=175|end_char=180
+2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=181|end_char=185|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=185|end_char=186
+
+# text = Go effin' cry about it some more.
+# sent_id = 104780
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=187|end_char=189
+2-3	effin'	_	_	_	_	_	_	_	start_char=190|end_char=196
+2	effin	effin	NOUN	NN	Number=Sing	1	_	_	start_char=190|end_char=195
+3	'	'	PUNCT	``	_	2	_	_	start_char=195|end_char=196
+4	cry	cry	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=197|end_char=200
+5	about	about	ADP	IN	_	4	_	_	start_char=201|end_char=206
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=207|end_char=209
+7	some	some	DET	DT	_	6	_	_	start_char=210|end_char=214
+8	more	more	ADJ	JJR	Degree=Cmp	7	_	_	start_char=215|end_char=219|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=219|end_char=220
+
+# text = It's hilarious!
+# sent_id = 104781
+1-2	It's	_	_	_	_	_	_	_	start_char=221|end_char=225
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=221|end_char=223
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=223|end_char=225
+3	hilarious	hilarious	ADJ	JJ	Degree=Pos	2	_	_	start_char=226|end_char=235|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=235|end_char=236
+
+# text = #MAGA #Trump
+# sent_id = 104782
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=237|end_char=238|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=238|end_char=242
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=243|end_char=244|SpaceAfter=No
+4	Trump	Trump	PROPN	NNP	Number=Sing	3	_	_	start_char=244|end_char=249|SpaceAfter=No
+

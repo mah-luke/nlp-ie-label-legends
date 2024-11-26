@@ -1,0 +1,53 @@
+# text = I don't threaten stupid cow.
+# sent_id = 17175
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	don't	_	_	_	_	_	_	_	start_char=2|end_char=7
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	n't	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	threaten	threaten	VERB	VB	VerbForm=Inf	3	_	_	start_char=8|end_char=16
+5	stupid	stupid	ADJ	JJ	Degree=Pos	4	_	_	start_char=17|end_char=23
+6	cow	cow	NOUN	NN	Number=Sing	5	_	_	start_char=24|end_char=27|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=27|end_char=28
+
+# text = It just happens.
+# sent_id = 17176
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=29|end_char=31
+2	just	just	ADV	RB	_	1	_	_	start_char=32|end_char=36
+3	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=37|end_char=44|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=44|end_char=45
+
+# text = RT: [USER]
+# sent_id = 17177
+1	RT	RT	NOUN	NN	Number=Sing	0	_	_	start_char=46|end_char=48|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=48|end_char=49
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=50|end_char=51|SpaceAfter=No
+4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=51|end_char=55|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=55|end_char=56
+
+# text = Nobody is using Tracie you idiot..both you and Snarky made numerous threats!
+# sent_id = 17178
+1	Nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=57|end_char=63
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=64|end_char=66
+3	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=67|end_char=72
+4	Tracie	Tracie	PROPN	NNP	Number=Sing	3	_	_	start_char=73|end_char=79
+5	you	you	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=80|end_char=83
+6	idiot	idiot	NOUN	NN	Number=Sing	5	_	_	start_char=84|end_char=89|SpaceAfter=No
+7	..	..	PUNCT	,	_	6	_	_	start_char=89|end_char=91|SpaceAfter=No
+8	both	both	DET	DT	PronType=Art	7	_	_	start_char=91|end_char=95
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=96|end_char=99
+10	and	and	CCONJ	CC	_	9	_	_	start_char=100|end_char=103
+11	Snarky	Snarky	PROPN	NNP	Number=Sing	10	_	_	start_char=104|end_char=110
+12	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=111|end_char=115
+13	numerous	numerous	ADJ	JJ	Degree=Pos	12	_	_	start_char=116|end_char=124
+14	threats	threat	NOUN	NNS	Number=Plur	13	_	_	start_char=125|end_char=132|SpaceAfter=No
+15	!	!	PUNCT	.	_	14	_	_	start_char=132|end_char=133
+
+# text = Nobody is buying your BS!
+# sent_id = 17179
+1	Nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=134|end_char=140
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=141|end_char=143
+3	buying	buy	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=144|end_char=150
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=151|end_char=155
+5	BS	bs	NOUN	NN	Number=Sing	4	_	_	start_char=156|end_char=158|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=158|end_char=159|SpaceAfter=No
+

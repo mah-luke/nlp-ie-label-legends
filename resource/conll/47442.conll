@@ -1,0 +1,37 @@
+# text = Why are you asking her where you’re going and what you’re doing.
+# sent_id = 101361
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=8|end_char=11
+4	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=12|end_char=18
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=19|end_char=22
+6	where	where	ADV	WRB	PronType=Int	5	_	_	start_char=23|end_char=28
+7-8	you’re	_	_	_	_	_	_	_	start_char=29|end_char=35
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=29|end_char=32
+8	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=32|end_char=35
+9	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=36|end_char=41
+10	and	and	CCONJ	CC	_	9	_	_	start_char=42|end_char=45
+11	what	what	PRON	WP	PronType=Rel	10	_	_	start_char=46|end_char=50
+12-13	you’re	_	_	_	_	_	_	_	start_char=51|end_char=57
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=51|end_char=54
+13	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=54|end_char=57
+14	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	13	_	_	start_char=58|end_char=63|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=63|end_char=64
+
+# text = Be a man and take charge.
+# sent_id = 101362
+1	Be	be	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=65|end_char=67
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=68|end_char=69
+3	man	man	NOUN	NN	Number=Sing	2	_	_	start_char=70|end_char=73
+4	and	and	CCONJ	CC	_	3	_	_	start_char=74|end_char=77
+5	take	take	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	4	_	_	start_char=78|end_char=82
+6	charge	charge	NOUN	NN	Number=Sing	5	_	_	start_char=83|end_char=89|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=89|end_char=90
+
+# text = Call the shots motherfucker
+# sent_id = 101363
+1	Call	call	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=91|end_char=95
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=96|end_char=99
+3	shots	shot	NOUN	NNS	Number=Plur	2	_	_	start_char=100|end_char=105
+4	motherfucker	motherfucker	NOUN	NN	Number=Sing	3	_	_	start_char=106|end_char=118|SpaceAfter=No
+

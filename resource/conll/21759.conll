@@ -1,0 +1,35 @@
+# text = 51 Republicans, Kavanaugh only needs 50.
+# sent_id = 46707
+1	51	51	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=2
+2	Republicans	Republican	PROPN	NNPS	Number=Plur	1	_	_	start_char=3|end_char=14|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=14|end_char=15
+4	Kavanaugh	Kavanaugh	PROPN	NNP	Number=Sing	3	_	_	start_char=16|end_char=25
+5	only	only	ADV	RB	_	4	_	_	start_char=26|end_char=30
+6	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=31|end_char=36
+7	50	50	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=37|end_char=39|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=39|end_char=40
+
+# text = If the roles were reversed the democrats would have already confirmed their judge.
+# sent_id = 46708
+1	If	if	SCONJ	IN	_	0	_	_	start_char=41|end_char=43
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=44|end_char=47
+3	roles	role	NOUN	NNS	Number=Plur	2	_	_	start_char=48|end_char=53
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=54|end_char=58
+5	reversed	reverse	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=59|end_char=67
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=68|end_char=71
+7	democrats	Democrat	PROPN	NNPS	Number=Plur	6	_	_	start_char=72|end_char=81
+8	would	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=82|end_char=87
+9	have	have	AUX	VB	VerbForm=Inf	8	_	_	start_char=88|end_char=92
+10	already	already	ADV	RB	_	9	_	_	start_char=93|end_char=100
+11	confirmed	confirm	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=101|end_char=110
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=111|end_char=116
+13	judge	judge	NOUN	NN	Number=Sing	12	_	_	start_char=117|end_char=122|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=122|end_char=123
+
+# text = Republicans are pussies.
+# sent_id = 46709
+1	Republicans	Republican	PROPN	NNPS	Number=Plur	0	_	_	start_char=124|end_char=135
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=136|end_char=139
+3	pussies	pussie	NOUN	NNS	Number=Plur	2	_	_	start_char=140|end_char=147|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=147|end_char=148|SpaceAfter=No
+

@@ -1,0 +1,50 @@
+# text = "Gaga's outfit wasn't Nazi, she got it from Michael Jackson" Right, the guy that molested kids and ripped on Jews in his songs.
+# sent_id = 65142
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2-3	Gaga's	_	_	_	_	_	_	_	start_char=1|end_char=7
+2	Gaga	Gaga	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=5
+3	's	's	PART	POS	_	2	_	_	start_char=5|end_char=7
+4	outfit	outfit	NOUN	NN	Number=Sing	3	_	_	start_char=8|end_char=14
+5-6	wasn't	_	_	_	_	_	_	_	start_char=15|end_char=21
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=15|end_char=18
+6	n't	not	PART	RB	_	5	_	_	start_char=18|end_char=21
+7	Nazi	Nazi	PROPN	NNP	Number=Sing	6	_	_	start_char=22|end_char=26|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=26|end_char=27
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=28|end_char=31
+10	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=32|end_char=35
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=36|end_char=38
+12	from	from	ADP	IN	_	11	_	_	start_char=39|end_char=43
+13	Michael	Michael	PROPN	NNP	Number=Sing	12	_	_	start_char=44|end_char=51
+14	Jackson	Jackson	PROPN	NNP	Number=Sing	13	_	_	start_char=52|end_char=59|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=59|end_char=60
+16	Right	Right	PROPN	NNP	Number=Sing	15	_	_	start_char=61|end_char=66|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=66|end_char=67
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=68|end_char=71
+19	guy	guy	NOUN	NN	Number=Sing	18	_	_	start_char=72|end_char=75
+20	that	that	PRON	WDT	PronType=Rel	19	_	_	start_char=76|end_char=80
+21	molested	molest	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	_	_	start_char=81|end_char=89
+22	kids	kid	NOUN	NNS	Number=Plur	21	_	_	start_char=90|end_char=94
+23	and	and	CCONJ	CC	_	22	_	_	start_char=95|end_char=98
+24	ripped	rip	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	_	_	start_char=99|end_char=105
+25	on	on	ADP	IN	_	24	_	_	start_char=106|end_char=108
+26	Jews	Jew	PROPN	NNPS	Number=Plur	25	_	_	start_char=109|end_char=113
+27	in	in	ADP	IN	_	26	_	_	start_char=114|end_char=116
+28	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	_	_	start_char=117|end_char=120
+29	songs	song	NOUN	NNS	Number=Plur	28	_	_	start_char=121|end_char=126|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	start_char=126|end_char=127
+
+# text = Makes everything better.
+# sent_id = 65143
+1	Makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=128|end_char=133
+2	everything	everything	PRON	NN	Number=Sing|PronType=Tot	1	_	_	start_char=134|end_char=144
+3	better	good	ADJ	JJR	Degree=Cmp	2	_	_	start_char=145|end_char=151|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=151|end_char=152
+
+# text = #DrainTheSwamp [URL]
+# sent_id = 65144
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=153|end_char=154|SpaceAfter=No
+2	DrainTheSwamp	DrainTheSwamp	PROPN	NNP	Number=Sing	1	_	_	start_char=154|end_char=167
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=168|end_char=169|SpaceAfter=No
+4	URL	URL	NOUN	NN	Number=Sing	3	_	_	start_char=169|end_char=172|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=172|end_char=173|SpaceAfter=No
+

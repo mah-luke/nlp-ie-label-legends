@@ -1,0 +1,32 @@
+# text = The guy lost his job in a remote town and his wife is sick.
+# sent_id = 77065
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=7
+3	lost	lose	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=8|end_char=12
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=13|end_char=16
+5	job	job	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=20
+6	in	in	ADP	IN	_	5	_	_	start_char=21|end_char=23
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=24|end_char=25
+8	remote	remote	ADJ	JJ	Degree=Pos	7	_	_	start_char=26|end_char=32
+9	town	town	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=37
+10	and	and	CCONJ	CC	_	9	_	_	start_char=38|end_char=41
+11	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=42|end_char=45
+12	wife	wife	NOUN	NN	Number=Sing	11	_	_	start_char=46|end_char=50
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=51|end_char=53
+14	sick	sick	ADJ	JJ	Degree=Pos	13	_	_	start_char=54|end_char=58|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=58|end_char=59
+
+# text = Lift up your brother don’t tear him down.
+# sent_id = 77066
+1	Lift	lift	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=60|end_char=64
+2	up	up	ADP	RP	_	1	_	_	start_char=65|end_char=67
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=68|end_char=72
+4	brother	brother	NOUN	NN	Number=Sing	3	_	_	start_char=73|end_char=80
+5-6	don’t	_	_	_	_	_	_	_	start_char=81|end_char=86
+5	do	do	AUX	VBP	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=81|end_char=83
+6	n’t	not	PART	RB	_	5	_	_	start_char=83|end_char=86
+7	tear	tear	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=87|end_char=91
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=92|end_char=95
+9	down	down	ADP	RP	_	8	_	_	start_char=96|end_char=100|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=100|end_char=101|SpaceAfter=No
+

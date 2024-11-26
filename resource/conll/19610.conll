@@ -1,0 +1,33 @@
+# text = Yes, Max Boot is a cretin and he got what he deserved.
+# sent_id = 42100
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	Max	Max	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=8
+4	Boot	Boot	PROPN	NNP	Number=Sing	3	_	_	start_char=9|end_char=13
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=14|end_char=16
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=17|end_char=18
+7	cretin	cretin	NOUN	NN	Number=Sing	6	_	_	start_char=19|end_char=25
+8	and	and	CCONJ	CC	_	7	_	_	start_char=26|end_char=29
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=30|end_char=32
+10	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=33|end_char=36
+11	what	what	PRON	WP	PronType=Rel	10	_	_	start_char=37|end_char=41
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=42|end_char=44
+13	deserved	deserve	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=45|end_char=53|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=53|end_char=54
+
+# text = [URL] #CNN #MaxBoot and the cocksucker #AndersonCooper #Politics
+# sent_id = 42101
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=55|end_char=56|SpaceAfter=No
+2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=56|end_char=59|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=59|end_char=60
+4	#CNN	#cnn	NOUN	NN	Number=Sing	3	_	_	start_char=61|end_char=65
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=66|end_char=67|SpaceAfter=No
+6	MaxBoot	MaxBoot	PROPN	NNP	Number=Sing	5	_	_	start_char=67|end_char=74
+7	and	and	CCONJ	CC	_	6	_	_	start_char=75|end_char=78
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=79|end_char=82
+9	cocksucker	cocksucker	NOUN	NN	Number=Sing	8	_	_	start_char=83|end_char=93
+10	#	#	SYM	NN	Number=Sing	9	_	_	start_char=94|end_char=95|SpaceAfter=No
+11	AndersonCooper	andersoncooper	NOUN	NN	Number=Sing	10	_	_	start_char=95|end_char=109
+12	#	#	SYM	NN	Number=Sing	11	_	_	start_char=110|end_char=111|SpaceAfter=No
+13	Politics	Politics	NOUN	NNS	Number=Plur	12	_	_	start_char=111|end_char=119|SpaceAfter=No
+

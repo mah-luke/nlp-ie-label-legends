@@ -1,0 +1,58 @@
+# text = don't waste your time , i once gave some bitch my favorite book, not only do i think she didn't even take the time to read it, but she never had the curtesy to return it.
+# sent_id = 56111
+1-2	don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	waste	waste	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=11
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=12|end_char=16
+5	time	time	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=21
+6	,	,	PUNCT	,	_	5	_	_	start_char=22|end_char=23
+7	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=24|end_char=25
+8	once	once	ADV	RB	NumType=Mult	7	_	_	start_char=26|end_char=30
+9	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	_	_	start_char=31|end_char=35
+10	some	some	DET	DT	_	9	_	_	start_char=36|end_char=40
+11	bitch	bitch	NOUN	NN	Number=Sing	10	_	_	start_char=41|end_char=46
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	_	_	start_char=47|end_char=49
+13	favorite	favorite	ADJ	JJ	Degree=Pos	12	_	_	start_char=50|end_char=58
+14	book	book	NOUN	NN	Number=Sing	13	_	_	start_char=59|end_char=63|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=63|end_char=64
+16	not	not	PART	RB	_	15	_	_	start_char=65|end_char=68
+17	only	only	ADV	RB	_	16	_	_	start_char=69|end_char=73
+18	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=74|end_char=76
+19	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	_	_	start_char=77|end_char=78
+20	think	think	VERB	VB	VerbForm=Inf	19	_	_	start_char=79|end_char=84
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=85|end_char=88
+22-23	didn't	_	_	_	_	_	_	_	start_char=89|end_char=95
+22	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	_	_	start_char=89|end_char=92
+23	n't	not	PART	RB	_	22	_	_	start_char=92|end_char=95
+24	even	even	ADV	RB	_	23	_	_	start_char=96|end_char=100
+25	take	take	VERB	VB	VerbForm=Inf	24	_	_	start_char=101|end_char=105
+26	the	the	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=106|end_char=109
+27	time	time	NOUN	NN	Number=Sing	26	_	_	start_char=110|end_char=114
+28	to	to	PART	TO	_	27	_	_	start_char=115|end_char=117
+29	read	read	VERB	VB	VerbForm=Inf	28	_	_	start_char=118|end_char=122
+30	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	_	_	start_char=123|end_char=125|SpaceAfter=No
+31	,	,	PUNCT	,	_	30	_	_	start_char=125|end_char=126
+32	but	but	CCONJ	CC	_	31	_	_	start_char=127|end_char=130
+33	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	32	_	_	start_char=131|end_char=134
+34	never	never	ADV	RB	_	33	_	_	start_char=135|end_char=140
+35	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	34	_	_	start_char=141|end_char=144
+36	the	the	DET	DT	Definite=Def|PronType=Art	35	_	_	start_char=145|end_char=148
+37	curtesy	curtesy	NOUN	NN	Number=Sing	36	_	_	start_char=149|end_char=156
+38	to	to	PART	TO	_	37	_	_	start_char=157|end_char=159
+39	return	return	VERB	VB	VerbForm=Inf	38	_	_	start_char=160|end_char=166
+40	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	39	_	_	start_char=167|end_char=169|SpaceAfter=No
+41	.	.	PUNCT	.	_	40	_	_	start_char=169|end_char=170
+
+# text = mind you, this was my favorite book!
+# sent_id = 56112
+1	mind	mind	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=171|end_char=175
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	start_char=176|end_char=179|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=179|end_char=180
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=181|end_char=185
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=186|end_char=189
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=190|end_char=192
+7	favorite	favorite	ADJ	JJ	Degree=Pos	6	_	_	start_char=193|end_char=201
+8	book	book	NOUN	NN	Number=Sing	7	_	_	start_char=202|end_char=206|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=206|end_char=207|SpaceAfter=No
+

@@ -1,0 +1,40 @@
+# text = "Send me your cholas, your sicarios, your machete wielding gangs, yearning to slaughter freely.
+# sent_id = 110598
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Send	send	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=1|end_char=5
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=8
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=9|end_char=13
+5	cholas	cholas	NOUN	NNS	Number=Plur	4	_	_	start_char=14|end_char=20|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=20|end_char=21
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=22|end_char=26
+8	sicarios	sicarios	NOUN	NNS	Number=Plur	7	_	_	start_char=27|end_char=35|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=35|end_char=36
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	_	_	start_char=37|end_char=41
+11	machete	machete	NOUN	NN	Number=Sing	10	_	_	start_char=42|end_char=49
+12	wielding	wield	VERB	VBG	VerbForm=Ger	11	_	_	start_char=50|end_char=58
+13	gangs	gang	NOUN	NNS	Number=Plur	12	_	_	start_char=59|end_char=64|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=64|end_char=65
+15	yearning	yearn	NOUN	NN	Number=Sing	14	_	_	start_char=66|end_char=74
+16	to	to	PART	TO	_	15	_	_	start_char=75|end_char=77
+17	slaughter	slaughter	VERB	VB	VerbForm=Inf	16	_	_	start_char=78|end_char=87
+18	freely	freely	ADV	RB	_	17	_	_	start_char=88|end_char=94|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=94|end_char=95
+
+# text = I lift my lamp beside the taco truck."
+# sent_id = 110599
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=96|end_char=97
+2	lift	lift	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=98|end_char=102
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=103|end_char=105
+4	lamp	lamp	NOUN	NN	Number=Sing	3	_	_	start_char=106|end_char=110
+5	beside	beside	ADP	IN	_	4	_	_	start_char=111|end_char=117
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=118|end_char=121
+7	taco	taco	NOUN	NN	Number=Sing	6	_	_	start_char=122|end_char=126
+8	truck	truck	NOUN	NN	Number=Sing	7	_	_	start_char=127|end_char=132|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=132|end_char=133|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=133|end_char=134
+
+# text = #MPCStatusUpdates
+# sent_id = 110600
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=135|end_char=136|SpaceAfter=No
+2	MPCStatusUpdates	mpcstatusupdate	NOUN	NN	Number=Sing	1	_	_	start_char=136|end_char=152|SpaceAfter=No
+

@@ -1,0 +1,23 @@
+# text = What she get?
+# sent_id = 122343
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=5|end_char=8
+3	get	get	VERB	VB	VerbForm=Inf	2	_	_	start_char=9|end_char=12|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=12|end_char=13
+
+# text = 11 days?
+# sent_id = 122344
+1	11	11	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=14|end_char=16
+2	days	day	NOUN	NNS	Number=Plur	1	_	_	start_char=17|end_char=21|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=21|end_char=22
+
+# text = Out in 2 for good behavior?
+# sent_id = 122345
+1	Out	Out	ADV	RB	_	0	_	_	start_char=23|end_char=26
+2	in	in	ADP	IN	_	1	_	_	start_char=27|end_char=29
+3	2	2	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=30|end_char=31
+4	for	for	ADP	IN	_	3	_	_	start_char=32|end_char=35
+5	good	good	ADJ	JJ	Degree=Pos	4	_	_	start_char=36|end_char=40
+6	behavior	behavior	NOUN	NN	Number=Sing	5	_	_	start_char=41|end_char=49|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=49|end_char=50|SpaceAfter=No
+

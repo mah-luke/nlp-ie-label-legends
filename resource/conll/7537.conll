@@ -1,0 +1,40 @@
+# text = It's gonna be: "Please not my daughter too!
+# sent_id = 15773
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3-4	gonna	_	_	_	_	_	_	_	start_char=5|end_char=10
+3	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=5|end_char=8
+4	na	to	PART	TO	_	3	_	_	start_char=8|end_char=10
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=11|end_char=13|SpaceAfter=No
+6	:	:	PUNCT	:	_	5	_	_	start_char=13|end_char=14
+7	"	"	PUNCT	``	_	6	_	_	start_char=15|end_char=16|SpaceAfter=No
+8	Please	please	INTJ	UH	_	7	_	_	start_char=16|end_char=22
+9	not	not	PART	RB	_	8	_	_	start_char=23|end_char=26
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=27|end_char=29
+11	daughter	daughter	NOUN	NN	Number=Sing	10	_	_	start_char=30|end_char=38
+12	too	too	ADV	RB	_	11	_	_	start_char=39|end_char=42|SpaceAfter=No
+13	!	!	PUNCT	.	_	12	_	_	start_char=42|end_char=43
+
+# text = At least kill me first so I don't have to watch you rape them both!"
+# sent_id = 15774
+1	At	at	ADP	IN	ExtPos=ADV	0	_	_	start_char=44|end_char=46
+2	least	least	ADJ	JJS	Degree=Sup	1	_	_	start_char=47|end_char=52
+3	kill	kill	VERB	VB	VerbForm=Inf	2	_	_	start_char=53|end_char=57
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=58|end_char=60
+5	first	first	ADV	RB	NumType=Ord	4	_	_	start_char=61|end_char=66
+6	so	so	ADV	RB	_	5	_	_	start_char=67|end_char=69
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=70|end_char=71
+8-9	don't	_	_	_	_	_	_	_	start_char=72|end_char=77
+8	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=72|end_char=74
+9	n't	not	PART	RB	_	8	_	_	start_char=74|end_char=77
+10	have	have	VERB	VB	VerbForm=Inf	9	_	_	start_char=78|end_char=82
+11	to	to	PART	TO	_	10	_	_	start_char=83|end_char=85
+12	watch	watch	VERB	VB	VerbForm=Inf	11	_	_	start_char=86|end_char=91
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	_	_	start_char=92|end_char=95
+14	rape	rape	VERB	VB	VerbForm=Inf	13	_	_	start_char=96|end_char=100
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	_	_	start_char=101|end_char=105
+16	both	both	DET	DT	PronType=Art	15	_	_	start_char=106|end_char=110|SpaceAfter=No
+17	!	!	PUNCT	.	_	16	_	_	start_char=110|end_char=111|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=111|end_char=112|SpaceAfter=No
+

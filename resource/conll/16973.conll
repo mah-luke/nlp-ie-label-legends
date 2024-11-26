@@ -1,0 +1,46 @@
+# text = My favorite part was the first little girl.
+# sent_id = 36492
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	favorite	favorite	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=11
+3	part	part	NOUN	NN	Number=Sing	2	_	_	start_char=12|end_char=16
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=17|end_char=20
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=21|end_char=24
+6	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	5	_	_	start_char=25|end_char=30
+7	little	little	ADJ	JJ	Degree=Pos	6	_	_	start_char=31|end_char=37
+8	girl	girl	NOUN	NN	Number=Sing	7	_	_	start_char=38|end_char=42|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=42|end_char=43
+
+# text = With that choking back a sob, wavering voice "And I be saying Noooooo".
+# sent_id = 36493
+1	With	with	SCONJ	IN	_	0	_	_	start_char=44|end_char=48
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=49|end_char=53
+3	choking	choke	VERB	VBG	VerbForm=Ger	2	_	_	start_char=54|end_char=61
+4	back	back	ADV	RB	_	3	_	_	start_char=62|end_char=66
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=67|end_char=68
+6	sob	sob	NOUN	NN	Number=Sing	5	_	_	start_char=69|end_char=72|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=72|end_char=73
+8	wavering	waver	VERB	VBG	VerbForm=Ger	7	_	_	start_char=74|end_char=82
+9	voice	voice	NOUN	NN	Number=Sing	8	_	_	start_char=83|end_char=88
+10	"	"	PUNCT	``	_	9	_	_	start_char=89|end_char=90|SpaceAfter=No
+11	And	and	CCONJ	CC	_	10	_	_	start_char=90|end_char=93
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=94|end_char=95
+13	be	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=96|end_char=98
+14	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	13	_	_	start_char=99|end_char=105
+15	Noooooo	noooooo	INTJ	UH	_	14	_	_	start_char=106|end_char=113|SpaceAfter=No
+16	"	"	PUNCT	''	_	15	_	_	start_char=113|end_char=114|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=114|end_char=115
+
+# text = Here's another you might like: [URL]
+# sent_id = 36494
+1-2	Here's	_	_	_	_	_	_	_	start_char=116|end_char=122
+1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=116|end_char=120
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=120|end_char=122
+3	another	another	DET	DT	_	2	_	_	start_char=123|end_char=130
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=131|end_char=134
+5	might	might	AUX	MD	VerbForm=Fin	4	_	_	start_char=135|end_char=140
+6	like	like	VERB	VB	VerbForm=Inf	5	_	_	start_char=141|end_char=145|SpaceAfter=No
+7	:	:	PUNCT	:	_	6	_	_	start_char=145|end_char=146
+8	[	[	PUNCT	-LRB-	_	7	_	_	start_char=147|end_char=148|SpaceAfter=No
+9	URL	URL	PROPN	NNP	Number=Sing	8	_	_	start_char=148|end_char=151|SpaceAfter=No
+10	]	]	PUNCT	-RRB-	_	9	_	_	start_char=151|end_char=152|SpaceAfter=No
+

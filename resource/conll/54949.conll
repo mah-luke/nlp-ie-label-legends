@@ -1,0 +1,38 @@
+# text = Also 35.
+# sent_id = 117397
+1	Also	also	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	35	35	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=5|end_char=7|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=7|end_char=8
+
+# text = I had no idea.
+# sent_id = 117398
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=9|end_char=10
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=11|end_char=14
+3	no	no	DET	DT	_	2	_	_	start_char=15|end_char=17
+4	idea	idea	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=22|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=22|end_char=23
+
+# text = I thought young girls didn't like guys in their 30s.
+# sent_id = 117399
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=24|end_char=25
+2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=26|end_char=33
+3	young	young	ADJ	JJ	Degree=Pos	2	_	_	start_char=34|end_char=39
+4	girls	girl	NOUN	NNS	Number=Plur	3	_	_	start_char=40|end_char=45
+5-6	didn't	_	_	_	_	_	_	_	start_char=46|end_char=52
+5	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=46|end_char=49
+6	n't	not	PART	RB	_	5	_	_	start_char=49|end_char=52
+7	like	like	VERB	VB	VerbForm=Inf	6	_	_	start_char=53|end_char=57
+8	guys	guy	NOUN	NNS	Number=Plur	7	_	_	start_char=58|end_char=62
+9	in	in	ADP	IN	_	8	_	_	start_char=63|end_char=65
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=66|end_char=71
+11	30s	30s	NOUN	NNS	Number=Plur	10	_	_	start_char=72|end_char=75|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=75|end_char=76
+
+# text = Is it via OLD?
+# sent_id = 117400
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=77|end_char=79
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=80|end_char=82
+3	via	via	ADP	IN	_	2	_	_	start_char=83|end_char=86
+4	OLD	old	ADJ	JJ	Degree=Pos	3	_	_	start_char=87|end_char=90|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=90|end_char=91|SpaceAfter=No
+

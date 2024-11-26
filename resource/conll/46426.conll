@@ -1,0 +1,48 @@
+# text = [USER]
+# sent_id = 99159
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = It came a little late and after a few sexual assaults but after a while the Liberals caught up.
+# sent_id = 99160
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=9
+2	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=10|end_char=14
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=15|end_char=16
+4	little	little	ADJ	JJ	Degree=Pos	3	_	_	start_char=17|end_char=23
+5	late	late	ADJ	JJ	Degree=Pos	4	_	_	start_char=24|end_char=28
+6	and	and	CCONJ	CC	_	5	_	_	start_char=29|end_char=32
+7	after	after	ADP	IN	_	6	_	_	start_char=33|end_char=38
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=39|end_char=40
+9	few	few	ADJ	JJ	Degree=Pos	8	_	_	start_char=41|end_char=44
+10	sexual	sexual	ADJ	JJ	Degree=Pos	9	_	_	start_char=45|end_char=51
+11	assaults	assault	NOUN	NNS	Number=Plur	10	_	_	start_char=52|end_char=60
+12	but	but	CCONJ	CC	_	11	_	_	start_char=61|end_char=64
+13	after	after	ADP	IN	_	12	_	_	start_char=65|end_char=70
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=71|end_char=72
+15	while	while	NOUN	NN	Number=Sing	14	_	_	start_char=73|end_char=78
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=79|end_char=82
+17	Liberals	Liberals	PROPN	NNPS	Number=Plur	16	_	_	start_char=83|end_char=91
+18	caught	catch	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=92|end_char=98
+19	up	up	ADP	RP	_	18	_	_	start_char=99|end_char=101|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=101|end_char=102
+
+# text = Most Muslim Men don't respect Western culture and the women who represent it.
+# sent_id = 99161
+1	Most	most	ADJ	JJS	Degree=Sup	0	_	_	start_char=103|end_char=107
+2	Muslim	Muslim	ADJ	JJ	Degree=Pos	1	_	_	start_char=108|end_char=114
+3	Men	Men	PROPN	NNPS	Number=Plur	2	_	_	start_char=115|end_char=118
+4-5	don't	_	_	_	_	_	_	_	start_char=119|end_char=124
+4	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=119|end_char=121
+5	n't	not	PART	RB	_	4	_	_	start_char=121|end_char=124
+6	respect	respect	VERB	VB	VerbForm=Inf	5	_	_	start_char=125|end_char=132
+7	Western	western	ADJ	JJ	Degree=Pos	6	_	_	start_char=133|end_char=140
+8	culture	culture	NOUN	NN	Number=Sing	7	_	_	start_char=141|end_char=148
+9	and	and	CCONJ	CC	_	8	_	_	start_char=149|end_char=152
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=153|end_char=156
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=157|end_char=162
+12	who	who	PRON	WP	PronType=Rel	11	_	_	start_char=163|end_char=166
+13	represent	represent	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=167|end_char=176
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=177|end_char=179|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=179|end_char=180|SpaceAfter=No
+

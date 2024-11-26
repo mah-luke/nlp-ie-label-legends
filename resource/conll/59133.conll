@@ -1,0 +1,52 @@
+# text = "I will not speak to you, you are a woman...in my country we speak to men." - not Saddam Hussein Hang on, hasn't the government been telling us Britain *is* their country?
+# sent_id = 126231
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=3|end_char=7
+4	not	not	PART	RB	_	3	_	_	start_char=8|end_char=11
+5	speak	speak	VERB	VB	VerbForm=Inf	4	_	_	start_char=12|end_char=17
+6	to	to	ADP	IN	_	5	_	_	start_char=18|end_char=20
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=21|end_char=24|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=24|end_char=25
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=26|end_char=29
+10	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=30|end_char=33
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=34|end_char=35
+12	woman	woman	NOUN	NN	Number=Sing	11	_	_	start_char=36|end_char=41|SpaceAfter=No
+13	...	...	PUNCT	,	_	12	_	_	start_char=41|end_char=44|SpaceAfter=No
+14	in	in	ADP	IN	_	13	_	_	start_char=44|end_char=46
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	_	_	start_char=47|end_char=49
+16	country	country	NOUN	NN	Number=Sing	15	_	_	start_char=50|end_char=57
+17	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	16	_	_	start_char=58|end_char=60
+18	speak	speak	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=61|end_char=66
+19	to	to	ADP	IN	_	18	_	_	start_char=67|end_char=69
+20	men	man	NOUN	NNS	Number=Plur	19	_	_	start_char=70|end_char=73|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=73|end_char=74|SpaceAfter=No
+22	"	"	PUNCT	''	_	21	_	_	start_char=74|end_char=75
+23	-	-	PUNCT	,	_	22	_	_	start_char=76|end_char=77
+24	not	not	PART	RB	_	23	_	_	start_char=78|end_char=81
+25	Saddam	Saddam	PROPN	NNP	Number=Sing	24	_	_	start_char=82|end_char=88
+26	Hussein	Hussein	PROPN	NNP	Number=Sing	25	_	_	start_char=89|end_char=96
+27	Hang	Hang	PROPN	NNP	Number=Sing	26	_	_	start_char=97|end_char=101
+28	on	on	ADP	IN	_	27	_	_	start_char=102|end_char=104|SpaceAfter=No
+29	,	,	PUNCT	,	_	28	_	_	start_char=104|end_char=105
+30-31	hasn't	_	_	_	_	_	_	_	start_char=106|end_char=112
+30	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	_	_	start_char=106|end_char=109
+31	n't	not	PART	RB	_	30	_	_	start_char=109|end_char=112
+32	the	the	DET	DT	Definite=Def|PronType=Art	31	_	_	start_char=113|end_char=116
+33	government	government	NOUN	NN	Number=Sing	32	_	_	start_char=117|end_char=127
+34	been	be	AUX	VBN	Tense=Past|VerbForm=Part	33	_	_	start_char=128|end_char=132
+35	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	34	_	_	start_char=133|end_char=140
+36	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	35	_	_	start_char=141|end_char=143
+37	Britain	Britain	PROPN	NNP	Number=Sing	36	_	_	start_char=144|end_char=151
+38	*	*	PUNCT	NFP	_	37	_	_	start_char=152|end_char=153|SpaceAfter=No
+39	is*	is*	VERB	VB	Mood=Ind|Person=3|Tense=Pres|VerbForm=Fin	38	_	_	start_char=153|end_char=156
+40	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	39	_	_	start_char=157|end_char=162
+41	country	country	NOUN	NN	Number=Sing	40	_	_	start_char=163|end_char=170|SpaceAfter=No
+42	?	?	PUNCT	.	_	41	_	_	start_char=170|end_char=171
+
+# text = [URL]
+# sent_id = 126232
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=172|end_char=173|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=173|end_char=176|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=176|end_char=177|SpaceAfter=No
+

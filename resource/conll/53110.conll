@@ -1,0 +1,62 @@
+# text = yeah but numbers obviously matter.
+# sent_id = 113520
+1	yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	but	but	CCONJ	CC	_	1	_	_	start_char=5|end_char=8
+3	numbers	number	NOUN	NNS	Number=Plur	2	_	_	start_char=9|end_char=16
+4	obviously	obviously	ADV	RB	_	3	_	_	start_char=17|end_char=26
+5	matter	matter	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=27|end_char=33|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=33|end_char=34
+
+# text = "oh everyone dies it's okay to do crack cocaine and smoke 2 packs of cigs a day".
+# sent_id = 113521
+1	"	"	PUNCT	``	_	0	_	_	start_char=35|end_char=36|SpaceAfter=No
+2	oh	oh	INTJ	UH	_	1	_	_	start_char=36|end_char=38
+3	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	2	_	_	start_char=39|end_char=47
+4	dies	die	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=48|end_char=52
+5-6	it's	_	_	_	_	_	_	_	start_char=53|end_char=57
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=53|end_char=55
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=55|end_char=57
+7	okay	okay	ADJ	JJ	Degree=Pos	6	_	_	start_char=58|end_char=62
+8	to	to	PART	TO	_	7	_	_	start_char=63|end_char=65
+9	do	do	VERB	VB	VerbForm=Inf	8	_	_	start_char=66|end_char=68
+10	crack	crack	NOUN	NN	Number=Sing	9	_	_	start_char=69|end_char=74
+11	cocaine	cocaine	NOUN	NN	Number=Sing	10	_	_	start_char=75|end_char=82
+12	and	and	CCONJ	CC	_	11	_	_	start_char=83|end_char=86
+13	smoke	smoke	VERB	VB	VerbForm=Inf	12	_	_	start_char=87|end_char=92
+14	2	2	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	start_char=93|end_char=94
+15	packs	pack	NOUN	NNS	Number=Plur	14	_	_	start_char=95|end_char=100
+16	of	of	ADP	IN	_	15	_	_	start_char=101|end_char=103
+17	cigs	cig	NOUN	NNS	Number=Plur	16	_	_	start_char=104|end_char=108
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=109|end_char=110
+19	day	day	NOUN	NN	Number=Sing	18	_	_	start_char=111|end_char=114|SpaceAfter=No
+20	"	"	PUNCT	''	_	19	_	_	start_char=114|end_char=115|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=115|end_char=116
+
+# text = "but people who do that will die sooner" . "yeah but it still applies to everyone since we all die".
+# sent_id = 113522
+1	"	"	PUNCT	``	_	0	_	_	start_char=117|end_char=118|SpaceAfter=No
+2	but	but	CCONJ	CC	_	1	_	_	start_char=118|end_char=121
+3	people	person	NOUN	NNS	Number=Plur	2	_	_	start_char=122|end_char=128
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=129|end_char=132
+5	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=133|end_char=135
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=136|end_char=140
+7	will	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=141|end_char=145
+8	die	die	VERB	VB	VerbForm=Inf	7	_	_	start_char=146|end_char=149
+9	sooner	soon	ADV	RBR	Degree=Cmp	8	_	_	start_char=150|end_char=156|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=156|end_char=157
+11	.	.	PUNCT	.	_	10	_	_	start_char=158|end_char=159
+12	"	"	PUNCT	``	_	11	_	_	start_char=160|end_char=161|SpaceAfter=No
+13	yeah	yeah	INTJ	UH	_	12	_	_	start_char=161|end_char=165
+14	but	but	CCONJ	CC	_	13	_	_	start_char=166|end_char=169
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=170|end_char=172
+16	still	still	ADV	RB	_	15	_	_	start_char=173|end_char=178
+17	applies	apply	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=179|end_char=186
+18	to	to	ADP	IN	_	17	_	_	start_char=187|end_char=189
+19	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	18	_	_	start_char=190|end_char=198
+20	since	since	SCONJ	IN	_	19	_	_	start_char=199|end_char=204
+21	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	20	_	_	start_char=205|end_char=207
+22	all	all	DET	DT	_	21	_	_	start_char=208|end_char=211
+23	die	die	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	_	_	start_char=212|end_char=215|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	_	_	start_char=215|end_char=216|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=216|end_char=217|SpaceAfter=No
+

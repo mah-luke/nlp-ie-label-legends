@@ -1,0 +1,31 @@
+# text = “I just wanted to see how it felt to shoot grandma.”
+# sent_id = 21770
+1	“	''	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
+3	just	just	ADV	RB	_	2	_	_	start_char=3|end_char=7
+4	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=8|end_char=14
+5	to	to	PART	TO	_	4	_	_	start_char=15|end_char=17
+6	see	see	VERB	VB	VerbForm=Inf	5	_	_	start_char=18|end_char=21
+7	how	how	ADV	WRB	PronType=Int	6	_	_	start_char=22|end_char=25
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=26|end_char=28
+9	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=29|end_char=33
+10	to	to	PART	TO	_	9	_	_	start_char=34|end_char=36
+11	shoot	shoot	VERB	VB	VerbForm=Inf	10	_	_	start_char=37|end_char=42
+12	grandma	grandma	NOUN	NN	Number=Sing	11	_	_	start_char=43|end_char=50|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=50|end_char=51|SpaceAfter=No
+14	”	''	PUNCT	''	_	13	_	_	start_char=51|end_char=52
+
+# text = -Edmund Kemper, December 18, 1948 [URL]
+# sent_id = 21771
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=53|end_char=54|SpaceAfter=No
+2	Edmund	Edmund	PROPN	NNP	Number=Sing	1	_	_	start_char=54|end_char=60
+3	Kemper	Kemper	PROPN	NNP	Number=Sing	2	_	_	start_char=61|end_char=67|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=67|end_char=68
+5	December	December	PROPN	NNP	Number=Sing	4	_	_	start_char=69|end_char=77
+6	18	18	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=78|end_char=80|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=80|end_char=81
+8	1948	1948	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=82|end_char=86
+9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=87|end_char=88|SpaceAfter=No
+10	URL	URL	PROPN	NNP	Number=Sing	9	_	_	start_char=88|end_char=91|SpaceAfter=No
+11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=91|end_char=92|SpaceAfter=No
+

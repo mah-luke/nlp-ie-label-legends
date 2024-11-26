@@ -1,0 +1,40 @@
+# text = [USER]
+# sent_id = 45712
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = What was her crime?
+# sent_id = 45713
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=7|end_char=11
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=12|end_char=15
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=16|end_char=19
+4	crime	crime	NOUN	NN	Number=Sing	3	_	_	start_char=20|end_char=25|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=25|end_char=26
+
+# text = Did she get caught driving a car?
+# sent_id = 45714
+1	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=27|end_char=30
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=31|end_char=34
+3	get	get	AUX	VB	VerbForm=Inf	2	_	_	start_char=35|end_char=38
+4	caught	catch	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=39|end_char=45
+5	driving	drive	VERB	VBG	VerbForm=Ger	4	_	_	start_char=46|end_char=53
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=54|end_char=55
+7	car	car	NOUN	NN	Number=Sing	6	_	_	start_char=56|end_char=59|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=59|end_char=60
+
+# text = #BanIslam #WWVTD
+# sent_id = 45715
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=61|end_char=62|SpaceAfter=No
+2	BanIslam	banislam	NOUN	GW	Number=Sing	1	_	_	start_char=62|end_char=70
+3	#WWVTD	#wwvtd	NOUN	NN	Number=Sing	2	_	_	start_char=71|end_char=77
+
+# text = What would Vlad Tepes do?
+# sent_id = 45716
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=78|end_char=82
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=83|end_char=88
+3	Vlad	Vlad	PROPN	NNP	Number=Sing	2	_	_	start_char=89|end_char=93
+4	Tepes	Tepes	PROPN	NNP	Number=Sing	3	_	_	start_char=94|end_char=99
+5	do	do	VERB	VB	VerbForm=Inf	4	_	_	start_char=100|end_char=102|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=102|end_char=103|SpaceAfter=No
+

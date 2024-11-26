@@ -1,0 +1,53 @@
+# text = If women are to be knocked up and held hostage in Texas.
+# sent_id = 27718
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=3|end_char=8
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=12
+4	to	to	PART	TO	_	3	_	_	start_char=13|end_char=15
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=16|end_char=18
+6	knocked	knock	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=19|end_char=26
+7	up	up	ADP	RP	_	6	_	_	start_char=27|end_char=29
+8	and	and	CCONJ	CC	_	7	_	_	start_char=30|end_char=33
+9	held	hold	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=34|end_char=38
+10	hostage	hostage	ADV	RB	_	9	_	_	start_char=39|end_char=46
+11	in	in	ADP	IN	_	10	_	_	start_char=47|end_char=49
+12	Texas	Texas	PROPN	NNP	Number=Sing	11	_	_	start_char=50|end_char=55|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=55|end_char=56
+
+# text = Then a positive paternity test should cost a man 50% of his income.
+# sent_id = 27719
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=57|end_char=61
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=62|end_char=63
+3	positive	positive	ADJ	JJ	Degree=Pos	2	_	_	start_char=64|end_char=72
+4	paternity	paternity	NOUN	NN	Number=Sing	3	_	_	start_char=73|end_char=82
+5	test	test	NOUN	NN	Number=Sing	4	_	_	start_char=83|end_char=87
+6	should	should	AUX	MD	VerbForm=Fin	5	_	_	start_char=88|end_char=94
+7	cost	cost	VERB	VB	VerbForm=Inf	6	_	_	start_char=95|end_char=99
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=100|end_char=101
+9	man	man	NOUN	NN	Number=Sing	8	_	_	start_char=102|end_char=105
+10	50	50	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=106|end_char=108|SpaceAfter=No
+11	%	%	SYM	NN	Number=Sing	10	_	_	start_char=108|end_char=109
+12	of	of	ADP	IN	_	11	_	_	start_char=110|end_char=112
+13	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=113|end_char=116
+14	income	income	NOUN	NN	Number=Sing	13	_	_	start_char=117|end_char=123|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=123|end_char=124
+
+# text = That’s equality.
+# sent_id = 27720
+1-2	That’s	_	_	_	_	_	_	_	start_char=125|end_char=131
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=125|end_char=129
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=129|end_char=131
+3	equality	equality	NOUN	NN	Number=Sing	2	_	_	start_char=132|end_char=140|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=140|end_char=141
+
+# text = Otherwise Texas is sexually exploiting and enslaving women
+# sent_id = 27721
+1	Otherwise	otherwise	ADV	RB	_	0	_	_	start_char=142|end_char=151
+2	Texas	Texas	PROPN	NNP	Number=Sing	1	_	_	start_char=152|end_char=157
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=158|end_char=160
+4	sexually	sexually	ADV	RB	_	3	_	_	start_char=161|end_char=169
+5	exploiting	exploit	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=170|end_char=180
+6	and	and	CCONJ	CC	_	5	_	_	start_char=181|end_char=184
+7	enslaving	enslave	VERB	VBG	VerbForm=Ger	6	_	_	start_char=185|end_char=194
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=195|end_char=200|SpaceAfter=No
+

@@ -1,0 +1,66 @@
+# text = Um to improve....do this more often.
+# sent_id = 103723
+1	Um	um	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	to	to	PART	TO	_	1	_	_	start_char=3|end_char=5
+3	improve	improve	VERB	VB	VerbForm=Inf	2	_	_	start_char=6|end_char=13|SpaceAfter=No
+4	....	....	PUNCT	,	_	3	_	_	start_char=13|end_char=17|SpaceAfter=No
+5	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=17|end_char=19
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=20|end_char=24
+7	more	more	ADV	RBR	Degree=Cmp	6	_	_	start_char=25|end_char=29
+8	often	often	ADV	RB	Degree=Pos	7	_	_	start_char=30|end_char=35|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = That was fucking classic man.
+# sent_id = 103724
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=37|end_char=41
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=42|end_char=45
+3	fucking	fucking	ADV	RB	_	2	_	_	start_char=46|end_char=53
+4	classic	classic	ADJ	JJ	Degree=Pos	3	_	_	start_char=54|end_char=61
+5	man	man	NOUN	NN	Number=Sing	4	_	_	start_char=62|end_char=65|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=65|end_char=66
+
+# text = I wouldn't bring up a sex talk.
+# sent_id = 103725
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=67|end_char=68
+2-3	wouldn't	_	_	_	_	_	_	_	start_char=69|end_char=77
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=69|end_char=74
+3	n't	not	PART	RB	_	2	_	_	start_char=74|end_char=77
+4	bring	bring	VERB	VB	VerbForm=Inf	3	_	_	start_char=78|end_char=83
+5	up	up	ADP	RP	_	4	_	_	start_char=84|end_char=86
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=87|end_char=88
+7	sex	sex	NOUN	NN	Number=Sing	6	_	_	start_char=89|end_char=92
+8	talk	talk	NOUN	NN	Number=Sing	7	_	_	start_char=93|end_char=97|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=97|end_char=98
+
+# text = Just keep it subtle and keep hanging out with her.
+# sent_id = 103726
+1	Just	just	ADV	RB	_	0	_	_	start_char=99|end_char=103
+2	keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=104|end_char=108
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=109|end_char=111
+4	subtle	subtle	ADJ	JJ	Degree=Pos	3	_	_	start_char=112|end_char=118
+5	and	and	CCONJ	CC	_	4	_	_	start_char=119|end_char=122
+6	keep	keep	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=123|end_char=127
+7	hanging	hang	VERB	VBG	VerbForm=Ger	6	_	_	start_char=128|end_char=135
+8	out	out	ADP	RP	_	7	_	_	start_char=136|end_char=139
+9	with	with	ADP	IN	_	8	_	_	start_char=140|end_char=144
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=145|end_char=148|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=148|end_char=149
+
+# text = Just say you are doing X and tell her she needs to be there.
+# sent_id = 103727
+1	Just	just	ADV	RB	_	0	_	_	start_char=150|end_char=154
+2	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=155|end_char=158
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=159|end_char=162
+4	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=163|end_char=166
+5	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=167|end_char=172
+6	X	x	NOUN	NN	Number=Sing	5	_	_	start_char=173|end_char=174
+7	and	and	CCONJ	CC	_	6	_	_	start_char=175|end_char=178
+8	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=179|end_char=183
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=184|end_char=187
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=188|end_char=191
+11	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=192|end_char=197
+12	to	to	PART	TO	_	11	_	_	start_char=198|end_char=200
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=201|end_char=203
+14	there	there	ADV	RB	PronType=Dem	13	_	_	start_char=204|end_char=209|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=209|end_char=210|SpaceAfter=No
+

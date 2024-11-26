@@ -1,0 +1,40 @@
+# text = [URL]
+# sent_id = 64025
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+
+# text = Idiot thinks white and black aren't races.
+# sent_id = 64026
+1	Idiot	idiot	NOUN	NN	Number=Sing	0	_	_	start_char=6|end_char=11
+2	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=12|end_char=18
+3	white	white	ADJ	JJ	Degree=Pos	2	_	_	start_char=19|end_char=24
+4	and	and	CCONJ	CC	_	3	_	_	start_char=25|end_char=28
+5	black	black	ADJ	JJ	Degree=Pos	4	_	_	start_char=29|end_char=34
+6-7	aren't	_	_	_	_	_	_	_	start_char=35|end_char=41
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=35|end_char=38
+7	n't	not	PART	RB	_	6	_	_	start_char=38|end_char=41
+8	races	race	NOUN	NNS	Number=Plur	7	_	_	start_char=42|end_char=47|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=47|end_char=48
+
+# text = Despite she shit posts Zionism memes.
+# sent_id = 64027
+1	Despite	despite	SCONJ	IN	_	0	_	_	start_char=49|end_char=56
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=57|end_char=60
+3	shit	shit	NOUN	NN	Number=Sing	2	_	_	start_char=61|end_char=65
+4	posts	post	NOUN	NNS	Number=Plur	3	_	_	start_char=66|end_char=71
+5	Zionism	Zionism	PROPN	NNP	Number=Sing	4	_	_	start_char=72|end_char=79
+6	memes	meme	NOUN	NNS	Number=Plur	5	_	_	start_char=80|end_char=85|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=85|end_char=86
+
+# text = This one is really a fake truther bitch
+# sent_id = 64028
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=87|end_char=91
+2	one	one	NOUN	NN	Number=Sing	1	_	_	start_char=92|end_char=95
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=96|end_char=98
+4	really	really	ADV	RB	_	3	_	_	start_char=99|end_char=105
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=106|end_char=107
+6	fake	fake	ADJ	JJ	Degree=Pos	5	_	_	start_char=108|end_char=112
+7	truther	truther	NOUN	NN	Number=Sing	6	_	_	start_char=113|end_char=120
+8	bitch	bitch	NOUN	NN	Number=Sing	7	_	_	start_char=121|end_char=126|SpaceAfter=No
+

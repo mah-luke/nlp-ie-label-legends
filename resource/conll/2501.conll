@@ -1,0 +1,57 @@
+# text = Mueller wants her to discredit someone.
+# sent_id = 5320
+1	Mueller	Mueller	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=13
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=14|end_char=17
+4	to	to	PART	TO	_	3	_	_	start_char=18|end_char=20
+5	discredit	discredit	VERB	VB	VerbForm=Inf	4	_	_	start_char=21|end_char=30
+6	someone	someone	PRON	NN	Number=Sing|PronType=Ind	5	_	_	start_char=31|end_char=38|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=38|end_char=39
+
+# text = Her girls probably did a Russian who knew a guy who knew a guy who knew a Trump guy.
+# sent_id = 5321
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=40|end_char=43
+2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=44|end_char=49
+3	probably	probably	ADV	RB	_	2	_	_	start_char=50|end_char=58
+4	did	do	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=59|end_char=62
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=63|end_char=64
+6	Russian	Russian	PROPN	NNP	Number=Sing	5	_	_	start_char=65|end_char=72
+7	who	who	PRON	WP	PronType=Rel	6	_	_	start_char=73|end_char=76
+8	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=77|end_char=81
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=82|end_char=83
+10	guy	guy	NOUN	NN	Number=Sing	9	_	_	start_char=84|end_char=87
+11	who	who	PRON	WP	PronType=Rel	10	_	_	start_char=88|end_char=91
+12	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=92|end_char=96
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=97|end_char=98
+14	guy	guy	NOUN	NN	Number=Sing	13	_	_	start_char=99|end_char=102
+15	who	who	PRON	WP	PronType=Rel	14	_	_	start_char=103|end_char=106
+16	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=107|end_char=111
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=112|end_char=113
+18	Trump	Trump	PROPN	NNP	Number=Sing	17	_	_	start_char=114|end_char=119
+19	guy	guy	NOUN	NN	Number=Sing	18	_	_	start_char=120|end_char=123|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=123|end_char=124
+
+# text = Ridiculous!
+# sent_id = 5322
+1	Ridiculous	Ridiculous	ADJ	JJ	Degree=Pos	0	_	_	start_char=125|end_char=135|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=135|end_char=136
+
+# text = And who cares.
+# sent_id = 5323
+1	And	and	CCONJ	CC	_	0	_	_	start_char=137|end_char=140
+2	who	who	PRON	WP	PronType=Int	1	_	_	start_char=141|end_char=144
+3	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=145|end_char=150|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=150|end_char=151
+
+# text = Shut Mueller down as a saving to taxpayers.
+# sent_id = 5324
+1	Shut	shut	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=152|end_char=156
+2	Mueller	Mueller	PROPN	NNP	Number=Sing	1	_	_	start_char=157|end_char=164
+3	down	down	ADP	RP	_	2	_	_	start_char=165|end_char=169
+4	as	as	ADP	IN	_	3	_	_	start_char=170|end_char=172
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=173|end_char=174
+6	saving	save	NOUN	NN	Number=Sing	5	_	_	start_char=175|end_char=181
+7	to	to	ADP	IN	_	6	_	_	start_char=182|end_char=184
+8	taxpayers	taxpayer	NOUN	NNS	Number=Plur	7	_	_	start_char=185|end_char=194|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=194|end_char=195|SpaceAfter=No
+

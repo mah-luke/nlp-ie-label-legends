@@ -1,0 +1,22 @@
+# text = It's the UK as well.
+# sent_id = 23065
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=5|end_char=8
+4	UK	UK	PROPN	NNP	Number=Sing	3	_	_	start_char=9|end_char=11
+5	as	as	ADV	RB	_	4	_	_	start_char=12|end_char=14
+6	well	well	ADV	RB	Degree=Pos	5	_	_	start_char=15|end_char=19|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=19|end_char=20
+
+# text = We all have a fucking law degree.
+# sent_id = 23066
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=21|end_char=23
+2	all	all	DET	DT	PronType=Tot	1	_	_	start_char=24|end_char=27
+3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=28|end_char=32
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=33|end_char=34
+5	fucking	fuck	ADJ	JJ	Degree=Pos	4	_	_	start_char=35|end_char=42
+6	law	law	NOUN	NN	Number=Sing	5	_	_	start_char=43|end_char=46
+7	degree	degree	NOUN	NN	Number=Sing	6	_	_	start_char=47|end_char=53|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=53|end_char=54|SpaceAfter=No
+

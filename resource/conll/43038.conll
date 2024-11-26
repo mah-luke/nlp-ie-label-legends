@@ -1,0 +1,40 @@
+# text = Well duh.
+# sent_id = 91989
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	duh	duh	INTJ	UH	_	1	_	_	start_char=5|end_char=8|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=8|end_char=9
+
+# text = If you read his posts it's obviously not.
+# sent_id = 91990
+1	If	if	SCONJ	IN	_	0	_	_	start_char=10|end_char=12
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=13|end_char=16
+3	read	read	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=17|end_char=21
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=22|end_char=25
+5	posts	post	NOUN	NNS	Number=Plur	4	_	_	start_char=26|end_char=31
+6-7	it's	_	_	_	_	_	_	_	start_char=32|end_char=36
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=32|end_char=34
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=34|end_char=36
+8	obviously	obviously	ADV	RB	_	7	_	_	start_char=37|end_char=46
+9	not	not	PART	RB	_	8	_	_	start_char=47|end_char=50|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=50|end_char=51
+
+# text = If he has multiple friends many of which are female it's not his personality.
+# sent_id = 91991
+1	If	if	SCONJ	IN	_	0	_	_	start_char=52|end_char=54
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=55|end_char=57
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=58|end_char=61
+4	multiple	multiple	ADJ	JJ	Degree=Pos	3	_	_	start_char=62|end_char=70
+5	friends	friend	NOUN	NNS	Number=Plur	4	_	_	start_char=71|end_char=78
+6	many	many	ADJ	JJ	Degree=Pos	5	_	_	start_char=79|end_char=83
+7	of	of	ADP	IN	_	6	_	_	start_char=84|end_char=86
+8	which	which	PRON	WDT	PronType=Rel	7	_	_	start_char=87|end_char=92
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=93|end_char=96
+10	female	female	ADJ	JJ	Degree=Pos	9	_	_	start_char=97|end_char=103
+11-12	it's	_	_	_	_	_	_	_	start_char=104|end_char=108
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=104|end_char=106
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=106|end_char=108
+13	not	not	PART	RB	_	12	_	_	start_char=109|end_char=112
+14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=113|end_char=116
+15	personality	personality	NOUN	NN	Number=Sing	14	_	_	start_char=117|end_char=128|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=128|end_char=129|SpaceAfter=No
+

@@ -1,0 +1,31 @@
+# text = I'll take your word for that.
+# sent_id = 77304
+1-2	I'll	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	take	take	VERB	VB	VerbForm=Inf	2	_	_	start_char=5|end_char=9
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=10|end_char=14
+5	word	word	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=19
+6	for	for	ADP	IN	_	5	_	_	start_char=20|end_char=23
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=24|end_char=28|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=28|end_char=29
+
+# text = Is that the Winnie Grande?
+# sent_id = 77305
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=30|end_char=32
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=33|end_char=37
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=38|end_char=41
+4	Winnie	Winnie	PROPN	NNP	Number=Sing	3	_	_	start_char=42|end_char=48
+5	Grande	Grande	PROPN	NNP	Number=Sing	4	_	_	start_char=49|end_char=55|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=55|end_char=56
+
+# text = I hear they roast their own....
+# sent_id = 77306
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=57|end_char=58
+2	hear	hear	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=63
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=64|end_char=68
+4	roast	roast	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=69|end_char=74
+5	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=75|end_char=80
+6	own	own	ADJ	JJ	Degree=Pos	5	_	_	start_char=81|end_char=84|SpaceAfter=No
+7	....	....	PUNCT	.	_	6	_	_	start_char=84|end_char=88|SpaceAfter=No
+

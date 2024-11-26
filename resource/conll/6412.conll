@@ -1,0 +1,53 @@
+# text = I'm 5"3, underweight, and don't have a 6 figures job.
+# sent_id = 13416
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	5	5	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=4|end_char=5|SpaceAfter=No
+4	"	"	PUNCT	''	_	3	_	_	start_char=5|end_char=6|SpaceAfter=No
+5	3	3	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=6|end_char=7|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=7|end_char=8
+7	underweight	underweight	ADJ	JJ	Degree=Pos	6	_	_	start_char=9|end_char=20|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=20|end_char=21
+9	and	and	CCONJ	CC	_	8	_	_	start_char=22|end_char=25
+10-11	don't	_	_	_	_	_	_	_	start_char=26|end_char=31
+10	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=26|end_char=28
+11	n't	not	PART	RB	_	10	_	_	start_char=28|end_char=31
+12	have	have	VERB	VB	VerbForm=Inf	11	_	_	start_char=32|end_char=36
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=37|end_char=38
+14	6	6	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	start_char=39|end_char=40
+15	figures	figure	NOUN	NNS	Number=Plur	14	_	_	start_char=41|end_char=48
+16	job	job	NOUN	NN	Number=Sing	15	_	_	start_char=49|end_char=52|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=52|end_char=53
+
+# text = I still haven't struggled finding a relationship or talking to girls.
+# sent_id = 13417
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=54|end_char=55
+2	still	still	ADV	RB	_	1	_	_	start_char=56|end_char=61
+3-4	haven't	_	_	_	_	_	_	_	start_char=62|end_char=69
+3	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=62|end_char=66
+4	n't	not	PART	RB	_	3	_	_	start_char=66|end_char=69
+5	struggled	struggle	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=70|end_char=79
+6	finding	find	VERB	VBG	VerbForm=Ger	5	_	_	start_char=80|end_char=87
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=88|end_char=89
+8	relationship	relationship	NOUN	NN	Number=Sing	7	_	_	start_char=90|end_char=102
+9	or	or	CCONJ	CC	_	8	_	_	start_char=103|end_char=105
+10	talking	talk	VERB	VBG	VerbForm=Ger	9	_	_	start_char=106|end_char=113
+11	to	to	ADP	IN	_	10	_	_	start_char=114|end_char=116
+12	girls	girl	NOUN	NNS	Number=Plur	11	_	_	start_char=117|end_char=122|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=122|end_char=123
+
+# text = The secret ingredient is to not be a total wanker.
+# sent_id = 13418
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=124|end_char=127
+2	secret	secret	ADJ	JJ	Degree=Pos	1	_	_	start_char=128|end_char=134
+3	ingredient	ingredient	NOUN	NN	Number=Sing	2	_	_	start_char=135|end_char=145
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=146|end_char=148
+5	to	to	PART	TO	_	4	_	_	start_char=149|end_char=151
+6	not	not	PART	RB	_	5	_	_	start_char=152|end_char=155
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=156|end_char=158
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=159|end_char=160
+9	total	total	ADJ	JJ	Degree=Pos	8	_	_	start_char=161|end_char=166
+10	wanker	wanker	NOUN	NN	Number=Sing	9	_	_	start_char=167|end_char=173|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=173|end_char=174|SpaceAfter=No
+

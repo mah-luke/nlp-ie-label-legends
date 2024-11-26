@@ -1,0 +1,64 @@
+# text = That's bad advice tbh.
+# sent_id = 37137
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	bad	bad	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=10
+4	advice	advice	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=17
+5	tbh	tbh	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=21|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=21|end_char=22
+
+# text = When I was single I would pie off someone who played mind games with me like that and would assume they're not interested.
+# sent_id = 37138
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=23|end_char=27
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=28|end_char=29
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=30|end_char=33
+4	single	single	ADJ	JJ	Degree=Pos	3	_	_	start_char=34|end_char=40
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=41|end_char=42
+6	would	would	AUX	MD	VerbForm=Fin	5	_	_	start_char=43|end_char=48
+7	pie	pie	VERB	VB	VerbForm=Inf	6	_	_	start_char=49|end_char=52
+8	off	off	ADP	RP	_	7	_	_	start_char=53|end_char=56
+9	someone	someone	PRON	NN	Number=Sing|PronType=Ind	8	_	_	start_char=57|end_char=64
+10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=65|end_char=68
+11	played	play	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=69|end_char=75
+12	mind	mind	NOUN	NN	Number=Sing	11	_	_	start_char=76|end_char=80
+13	games	game	NOUN	NNS	Number=Plur	12	_	_	start_char=81|end_char=86
+14	with	with	ADP	IN	_	13	_	_	start_char=87|end_char=91
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=92|end_char=94
+16	like	like	ADP	IN	_	15	_	_	start_char=95|end_char=99
+17	that	that	PRON	DT	Number=Sing|PronType=Dem	16	_	_	start_char=100|end_char=104
+18	and	and	CCONJ	CC	_	17	_	_	start_char=105|end_char=108
+19	would	would	AUX	MD	VerbForm=Fin	18	_	_	start_char=109|end_char=114
+20	assume	assume	VERB	VB	VerbForm=Inf	19	_	_	start_char=115|end_char=121
+21-22	they're	_	_	_	_	_	_	_	start_char=122|end_char=129
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	_	_	start_char=122|end_char=126
+22	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=126|end_char=129
+23	not	not	PART	RB	_	22	_	_	start_char=130|end_char=133
+24	interested	interested	ADJ	JJ	Degree=Pos	23	_	_	start_char=134|end_char=144|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=144|end_char=145
+
+# text = Ask her on that date when you next text her, don't leave it more than a few hours.
+# sent_id = 37139
+1	Ask	ask	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=146|end_char=149
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=150|end_char=153
+3	on	on	ADP	IN	_	2	_	_	start_char=154|end_char=156
+4	that	that	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=157|end_char=161
+5	date	date	NOUN	NN	Number=Sing	4	_	_	start_char=162|end_char=166
+6	when	when	ADV	WRB	PronType=Int	5	_	_	start_char=167|end_char=171
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=172|end_char=175
+8	next	next	ADV	RB	_	7	_	_	start_char=176|end_char=180
+9	text	text	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=181|end_char=185
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=186|end_char=189|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=189|end_char=190
+12-13	don't	_	_	_	_	_	_	_	start_char=191|end_char=196
+12	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	11	_	_	start_char=191|end_char=193
+13	n't	not	PART	RB	_	12	_	_	start_char=193|end_char=196
+14	leave	leave	VERB	VB	Mood=Imp|VerbForm=Fin	13	_	_	start_char=197|end_char=202
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=203|end_char=205
+16	more	more	ADJ	JJR	Degree=Cmp	15	_	_	start_char=206|end_char=210
+17	than	than	ADP	IN	_	16	_	_	start_char=211|end_char=215
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=216|end_char=217
+19	few	few	ADJ	JJ	Degree=Pos	18	_	_	start_char=218|end_char=221
+20	hours	hour	NOUN	NNS	Number=Plur	19	_	_	start_char=222|end_char=227|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=227|end_char=228|SpaceAfter=No
+

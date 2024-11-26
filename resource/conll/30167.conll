@@ -1,0 +1,31 @@
+# text = So quick to assume the woman in the pic has been mudsharking.
+# sent_id = 64639
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	quick	quick	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=8
+3	to	to	PART	TO	_	2	_	_	start_char=9|end_char=11
+4	assume	assume	VERB	VB	VerbForm=Inf	3	_	_	start_char=12|end_char=18
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=19|end_char=22
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=28
+7	in	in	ADP	IN	_	6	_	_	start_char=29|end_char=31
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=32|end_char=35
+9	pic	pic	NOUN	NN	Number=Sing	8	_	_	start_char=36|end_char=39
+10	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=40|end_char=43
+11	been	be	AUX	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=44|end_char=48
+12	mudsharking	mudshark	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=49|end_char=60|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=60|end_char=61
+
+# text = It's just as equally possible that she was raped.
+# sent_id = 64640
+1-2	It's	_	_	_	_	_	_	_	start_char=62|end_char=66
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=62|end_char=64
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=64|end_char=66
+3	just	just	ADV	RB	_	2	_	_	start_char=67|end_char=71
+4	as	as	ADV	RB	_	3	_	_	start_char=72|end_char=74
+5	equally	equally	ADV	RB	_	4	_	_	start_char=75|end_char=82
+6	possible	possible	ADJ	JJ	Degree=Pos	5	_	_	start_char=83|end_char=91
+7	that	that	SCONJ	IN	_	6	_	_	start_char=92|end_char=96
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=97|end_char=100
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=101|end_char=104
+10	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=105|end_char=110|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=110|end_char=111|SpaceAfter=No
+

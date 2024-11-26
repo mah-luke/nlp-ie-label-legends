@@ -1,0 +1,27 @@
+# text = I'm sorry, but that jump at 4:02 was hilariously weak.
+# sent_id = 2280
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	sorry	sorry	ADJ	JJ	Degree=Pos	2	_	_	start_char=4|end_char=9|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=9|end_char=10
+5	but	but	CCONJ	CC	_	4	_	_	start_char=11|end_char=14
+6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=15|end_char=19
+7	jump	jump	NOUN	NN	Number=Sing	6	_	_	start_char=20|end_char=24
+8	at	at	ADP	IN	_	7	_	_	start_char=25|end_char=27
+9	4:02	4:02	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=28|end_char=32
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=33|end_char=36
+11	hilariously	hilariously	ADV	RB	_	10	_	_	start_char=37|end_char=48
+12	weak	weak	ADJ	JJ	Degree=Pos	11	_	_	start_char=49|end_char=53|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=53|end_char=54
+
+# text = [Link]([URL]
+# sent_id = 2281
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=55|end_char=56|SpaceAfter=No
+2	Link	link	NOUN	NN	Number=Sing	1	_	_	start_char=56|end_char=60|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=60|end_char=61|SpaceAfter=No
+4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=61|end_char=62|SpaceAfter=No
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=62|end_char=63|SpaceAfter=No
+6	URL	URL	PROPN	NNP	Number=Sing	5	_	_	start_char=63|end_char=66|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=66|end_char=67|SpaceAfter=No
+

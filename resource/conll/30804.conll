@@ -1,0 +1,46 @@
+# text = Start looking for another job yesterday pal.
+# sent_id = 66027
+1	Start	start	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=5
+2	looking	look	VERB	VBG	VerbForm=Ger	1	_	_	start_char=6|end_char=13
+3	for	for	ADP	IN	_	2	_	_	start_char=14|end_char=17
+4	another	another	DET	DT	_	3	_	_	start_char=18|end_char=25
+5	job	job	NOUN	NN	Number=Sing	4	_	_	start_char=26|end_char=29
+6	yesterday	yesterday	NOUN	NN	Number=Sing	5	_	_	start_char=30|end_char=39
+7	pal	pal	NOUN	NN	Number=Sing	6	_	_	start_char=40|end_char=43|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=43|end_char=44
+
+# text = This cancer, this tumor, is going to leave a wide trail (pun intended) in her wake as long as the managers keep bending over backwards for her.
+# sent_id = 66028
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=45|end_char=49
+2	cancer	cancer	NOUN	NN	Number=Sing	1	_	_	start_char=50|end_char=56|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=56|end_char=57
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=58|end_char=62
+5	tumor	tumor	NOUN	NN	Number=Sing	4	_	_	start_char=63|end_char=68|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=68|end_char=69
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=70|end_char=72
+8	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=73|end_char=78
+9	to	to	PART	TO	_	8	_	_	start_char=79|end_char=81
+10	leave	leave	VERB	VB	VerbForm=Inf	9	_	_	start_char=82|end_char=87
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=88|end_char=89
+12	wide	wide	ADJ	JJ	Degree=Pos	11	_	_	start_char=90|end_char=94
+13	trail	trail	NOUN	NN	Number=Sing	12	_	_	start_char=95|end_char=100
+14	(	(	PUNCT	-LRB-	_	13	_	_	start_char=101|end_char=102|SpaceAfter=No
+15	pun	pun	NOUN	NN	Number=Sing	14	_	_	start_char=102|end_char=105
+16	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part	15	_	_	start_char=106|end_char=114|SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	16	_	_	start_char=114|end_char=115
+18	in	in	ADP	IN	_	17	_	_	start_char=116|end_char=118
+19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=119|end_char=122
+20	wake	wake	NOUN	NN	Number=Sing	19	_	_	start_char=123|end_char=127
+21	as	as	ADV	RB	_	20	_	_	start_char=128|end_char=130
+22	long	long	ADV	RB	Degree=Pos	21	_	_	start_char=131|end_char=135
+23	as	as	SCONJ	IN	_	22	_	_	start_char=136|end_char=138
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	start_char=139|end_char=142
+25	managers	manager	NOUN	NNS	Number=Plur	24	_	_	start_char=143|end_char=151
+26	keep	keep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	start_char=152|end_char=156
+27	bending	bending	VERB	VBG	VerbForm=Ger	26	_	_	start_char=157|end_char=164
+28	over	over	ADV	RB	_	27	_	_	start_char=165|end_char=169
+29	backwards	backwards	ADV	RB	_	28	_	_	start_char=170|end_char=179
+30	for	for	ADP	IN	_	29	_	_	start_char=180|end_char=183
+31	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	_	_	start_char=184|end_char=187|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	start_char=187|end_char=188|SpaceAfter=No
+

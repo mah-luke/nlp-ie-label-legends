@@ -1,0 +1,68 @@
+# text = Example: gal at the register this afternoon wanted to know why I & others, had a black smudge on my head.
+# sent_id = 67033
+1	Example	example	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=7|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=7|end_char=8
+3	gal	gal	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=12
+4	at	at	ADP	IN	_	3	_	_	start_char=13|end_char=15
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=16|end_char=19
+6	register	register	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=28
+7	this	this	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=29|end_char=33
+8	afternoon	afternoon	NOUN	NN	Number=Sing	7	_	_	start_char=34|end_char=43
+9	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=44|end_char=50
+10	to	to	PART	TO	_	9	_	_	start_char=51|end_char=53
+11	know	know	VERB	VB	VerbForm=Inf	10	_	_	start_char=54|end_char=58
+12	why	why	ADV	WRB	PronType=Int	11	_	_	start_char=59|end_char=62
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=63|end_char=64
+14	&	&	CCONJ	CC	_	13	_	_	start_char=65|end_char=66
+15	others	other	NOUN	NNS	Number=Plur	14	_	_	start_char=67|end_char=73|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=73|end_char=74
+17	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	16	_	_	start_char=75|end_char=78
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=79|end_char=80
+19	black	black	ADJ	JJ	Degree=Pos	18	_	_	start_char=81|end_char=86
+20	smudge	smudge	NOUN	NN	Number=Sing	19	_	_	start_char=87|end_char=93
+21	on	on	ADP	IN	_	20	_	_	start_char=94|end_char=96
+22	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	21	_	_	start_char=97|end_char=99
+23	head	head	NOUN	NN	Number=Sing	22	_	_	start_char=100|end_char=104|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=104|end_char=105
+
+# text = NO offence, no insult.
+# sent_id = 67034
+1	NO	no	DET	DT	_	0	_	_	start_char=106|end_char=108
+2	offence	offence	NOUN	NN	Number=Sing	1	_	_	start_char=109|end_char=116|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=116|end_char=117
+4	no	no	DET	DT	_	3	_	_	start_char=118|end_char=120
+5	insult	insult	NOUN	NN	Number=Sing	4	_	_	start_char=121|end_char=127|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=127|end_char=128
+
+# text = I told her, it's Lent, 40 days of reflection about Jesus.
+# sent_id = 67035
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=129|end_char=130
+2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=131|end_char=135
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=136|end_char=139|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=139|end_char=140
+5-6	it's	_	_	_	_	_	_	_	start_char=141|end_char=145
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=141|end_char=143
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=143|end_char=145
+7	Lent	Lent	PROPN	NNP	Number=Sing	6	_	_	start_char=146|end_char=150|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=150|end_char=151
+9	40	40	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=152|end_char=154
+10	days	day	NOUN	NNS	Number=Plur	9	_	_	start_char=155|end_char=159
+11	of	of	ADP	IN	_	10	_	_	start_char=160|end_char=162
+12	reflection	reflection	NOUN	NN	Number=Sing	11	_	_	start_char=163|end_char=173
+13	about	about	ADP	IN	_	12	_	_	start_char=174|end_char=179
+14	Jesus	Jesus	PROPN	NNP	Number=Sing	13	_	_	start_char=180|end_char=185|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=185|end_char=186
+
+# text = She thanked me for the info, ZERO drama!
+# sent_id = 67036
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=187|end_char=190
+2	thanked	thank	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=191|end_char=198
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=199|end_char=201
+4	for	for	ADP	IN	_	3	_	_	start_char=202|end_char=205
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=206|end_char=209
+6	info	info	NOUN	NN	Number=Sing	5	_	_	start_char=210|end_char=214|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=214|end_char=215
+8	ZERO	zero	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=216|end_char=220
+9	drama	drama	NOUN	NN	Number=Sing	8	_	_	start_char=221|end_char=226|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=226|end_char=227|SpaceAfter=No
+

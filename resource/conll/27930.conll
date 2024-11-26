@@ -1,0 +1,22 @@
+# text = [USER]
+# sent_id = 59997
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Is that Hitlery?
+# sent_id = 59998
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=7|end_char=9
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=10|end_char=14
+3	Hitlery	Hitlery	PROPN	NNP	Number=Sing	2	_	_	start_char=15|end_char=22|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=22|end_char=23
+
+# text = looks like her hips and ass
+# sent_id = 59999
+1	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=24|end_char=29
+2	like	like	ADP	IN	_	1	_	_	start_char=30|end_char=34
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=35|end_char=38
+4	hips	hip	NOUN	NNS	Number=Plur	3	_	_	start_char=39|end_char=43
+5	and	and	CCONJ	CC	_	4	_	_	start_char=44|end_char=47
+6	ass	ass	NOUN	NN	Number=Sing	5	_	_	start_char=48|end_char=51|SpaceAfter=No
+

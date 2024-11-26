@@ -1,0 +1,55 @@
+# text = Also goes for "İ'm getting cold".
+# sent_id = 94309
+1	Also	also	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	for	for	ADP	IN	_	2	_	_	start_char=10|end_char=13
+4	"	"	PUNCT	``	_	3	_	_	start_char=14|end_char=15|SpaceAfter=No
+5-6	İ'm	_	_	_	_	_	_	_	start_char=15|end_char=18
+5	İ	İ	INTJ	UH	_	4	_	_	start_char=15|end_char=16
+6	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=16|end_char=18
+7	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=19|end_char=26
+8	cold	cold	ADJ	JJ	Degree=Pos	7	_	_	start_char=27|end_char=31|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=31|end_char=32|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=32|end_char=33
+
+# text = I just remembered she said this as well.
+# sent_id = 94310
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=34|end_char=35
+2	just	just	ADV	RB	_	1	_	_	start_char=36|end_char=40
+3	remembered	remember	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=41|end_char=51
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=52|end_char=55
+5	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=56|end_char=60
+6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=61|end_char=65
+7	as	as	ADV	RB	_	6	_	_	start_char=66|end_char=68
+8	well	well	ADV	RB	Degree=Pos	7	_	_	start_char=69|end_char=73|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=73|end_char=74
+
+# text = FUCK!
+# sent_id = 94311
+1	FUCK	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=75|end_char=79|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=79|end_char=80
+
+# text = I'm gonna bang that head up to a wall some more and bury myself in shame.
+# sent_id = 94312
+1-2	I'm	_	_	_	_	_	_	_	start_char=81|end_char=84
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=81|end_char=82
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=82|end_char=84
+3-4	gonna	_	_	_	_	_	_	_	start_char=85|end_char=90
+3	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=85|end_char=88
+4	na	to	PART	TO	_	3	_	_	start_char=88|end_char=90
+5	bang	bang	VERB	VB	VerbForm=Inf	4	_	_	start_char=91|end_char=95
+6	that	that	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=96|end_char=100
+7	head	head	VERB	VB	VerbForm=Inf	6	_	_	start_char=101|end_char=105
+8	up	up	ADP	RP	_	7	_	_	start_char=106|end_char=108
+9	to	to	ADP	IN	_	8	_	_	start_char=109|end_char=111
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=112|end_char=113
+11	wall	wall	NOUN	NN	Number=Sing	10	_	_	start_char=114|end_char=118
+12	some	some	DET	DT	_	11	_	_	start_char=119|end_char=123
+13	more	more	ADJ	JJR	Degree=Cmp	12	_	_	start_char=124|end_char=128
+14	and	and	CCONJ	CC	_	13	_	_	start_char=129|end_char=132
+15	bury	bury	VERB	VB	VerbForm=Inf	14	_	_	start_char=133|end_char=137
+16	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	15	_	_	start_char=138|end_char=144
+17	in	in	ADP	IN	_	16	_	_	start_char=145|end_char=147
+18	shame	shame	NOUN	NN	Number=Sing	17	_	_	start_char=148|end_char=153|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=153|end_char=154|SpaceAfter=No
+

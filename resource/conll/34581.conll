@@ -1,0 +1,35 @@
+# text = What was fake was then they picked on her looks.
+# sent_id = 74025
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	fake	fake	ADJ	JJ	Degree=Pos	2	_	_	start_char=9|end_char=13
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=14|end_char=17
+5	then	then	ADV	RB	PronType=Dem	4	_	_	start_char=18|end_char=22
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=23|end_char=27
+7	picked	pick	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=28|end_char=34
+8	on	on	ADP	RP	_	7	_	_	start_char=35|end_char=37
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=38|end_char=41
+10	looks	look	NOUN	NNS	Number=Plur	9	_	_	start_char=42|end_char=47|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=47|end_char=48
+
+# text = If I were younger and single I would ask her out.
+# sent_id = 74026
+1	If	if	SCONJ	IN	_	0	_	_	start_char=49|end_char=51
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=52|end_char=53
+3	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=54|end_char=58
+4	younger	young	ADJ	JJR	Degree=Cmp	3	_	_	start_char=59|end_char=66
+5	and	and	CCONJ	CC	_	4	_	_	start_char=67|end_char=70
+6	single	single	ADJ	JJ	Degree=Pos	5	_	_	start_char=71|end_char=77
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=78|end_char=79
+8	would	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=80|end_char=85
+9	ask	ask	VERB	VB	VerbForm=Inf	8	_	_	start_char=86|end_char=89
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=90|end_char=93
+11	out	out	ADP	RP	_	10	_	_	start_char=94|end_char=97|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=97|end_char=98
+
+# text = [URL]
+# sent_id = 74027
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=99|end_char=100|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=100|end_char=103|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=103|end_char=104|SpaceAfter=No
+

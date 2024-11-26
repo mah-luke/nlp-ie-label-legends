@@ -1,0 +1,62 @@
+# text = Oh fuck off Paul.
+# sent_id = 6660
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=3|end_char=7
+3	off	off	ADP	IN	_	2	_	_	start_char=8|end_char=11
+4	Paul	Paul	PROPN	NNP	Number=Sing	3	_	_	start_char=12|end_char=16|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=16|end_char=17
+
+# text = What CAFE means is that it would be nice if you didn't say _utterly retarded shit_ about women 'begging' to get raped, and saying that fucking feminists' shit up gives you an erection.
+# sent_id = 6661
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=18|end_char=22
+2	CAFE	CAFE	PROPN	NNP	Number=Sing	1	_	_	start_char=23|end_char=27
+3	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=28|end_char=33
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=34|end_char=36
+5	that	that	SCONJ	IN	_	4	_	_	start_char=37|end_char=41
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=42|end_char=44
+7	would	would	AUX	MD	VerbForm=Fin	6	_	_	start_char=45|end_char=50
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=51|end_char=53
+9	nice	nice	ADJ	JJ	Degree=Pos	8	_	_	start_char=54|end_char=58
+10	if	if	SCONJ	IN	_	9	_	_	start_char=59|end_char=61
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=62|end_char=65
+12-13	didn't	_	_	_	_	_	_	_	start_char=66|end_char=72
+12	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	11	_	_	start_char=66|end_char=69
+13	n't	not	PART	RB	_	12	_	_	start_char=69|end_char=72
+14	say	say	VERB	VB	VerbForm=Inf	13	_	_	start_char=73|end_char=76
+15	_utterly	_utterly	ADV	RB	_	14	_	_	start_char=77|end_char=85
+16	retarded	retarded	ADJ	JJ	Degree=Pos	15	_	_	start_char=86|end_char=94
+17	shit_	shit_	NOUN	NN	Number=Sing	16	_	_	start_char=95|end_char=100
+18	about	about	ADP	IN	_	17	_	_	start_char=101|end_char=106
+19	women	woman	NOUN	NNS	Number=Plur	18	_	_	start_char=107|end_char=112
+20	'	'	PUNCT	``	_	19	_	_	start_char=113|end_char=114|SpaceAfter=No
+21	begging	beg	NOUN	NN	Number=Sing	20	_	_	start_char=114|end_char=121|SpaceAfter=No
+22	'	'	PUNCT	''	_	21	_	_	start_char=121|end_char=122
+23	to	to	PART	TO	_	22	_	_	start_char=123|end_char=125
+24	get	get	AUX	VB	VerbForm=Inf	23	_	_	start_char=126|end_char=129
+25	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	_	_	start_char=130|end_char=135|SpaceAfter=No
+26	,	,	PUNCT	,	_	25	_	_	start_char=135|end_char=136
+27	and	and	CCONJ	CC	_	26	_	_	start_char=137|end_char=140
+28	saying	say	VERB	VBG	VerbForm=Ger	27	_	_	start_char=141|end_char=147
+29	that	that	SCONJ	IN	_	28	_	_	start_char=148|end_char=152
+30	fucking	fuck	VERB	VBG	VerbForm=Ger	29	_	_	start_char=153|end_char=160
+31	feminists	feminist	NOUN	NNS	Number=Plur	30	_	_	start_char=161|end_char=170|SpaceAfter=No
+32	'	's	PART	POS	_	31	_	_	_
+33	shit	shit	NOUN	NN	Number=Sing	32	_	_	start_char=172|end_char=176
+34	up	up	ADP	RP	_	33	_	_	start_char=177|end_char=179
+35	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	_	_	start_char=180|end_char=185
+36	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	35	_	_	start_char=186|end_char=189
+37	an	a	DET	DT	Definite=Ind|PronType=Art	36	_	_	start_char=190|end_char=192
+38	erection	erection	NOUN	NN	Number=Sing	37	_	_	start_char=193|end_char=201|SpaceAfter=No
+39	.	.	PUNCT	.	_	38	_	_	start_char=201|end_char=202
+
+# text = _You_ embarrass us, you twat.
+# sent_id = 6662
+1	_	_	PUNCT	NFP	_	0	_	_	start_char=203|end_char=204|SpaceAfter=No
+2	You_	you_	INTJ	UH	_	1	_	_	start_char=204|end_char=208
+3	embarrass	embarrass	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=209|end_char=218
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=219|end_char=221|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=221|end_char=222
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=223|end_char=226
+7	twat	twat	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=227|end_char=231|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=231|end_char=232|SpaceAfter=No
+

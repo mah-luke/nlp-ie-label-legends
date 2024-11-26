@@ -1,0 +1,42 @@
+# text = You should do the opposite.
+# sent_id = 93702
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=10
+3	do	do	VERB	VB	VerbForm=Inf	2	_	_	start_char=11|end_char=13
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=14|end_char=17
+5	opposite	opposite	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=26|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=26|end_char=27
+
+# text = Eat food when your body needs it for energy, burn your intake.
+# sent_id = 93703
+1	Eat	eat	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=28|end_char=31
+2	food	food	NOUN	NN	Number=Sing	1	_	_	start_char=32|end_char=36
+3	when	when	ADV	WRB	PronType=Int	2	_	_	start_char=37|end_char=41
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=42|end_char=46
+5	body	body	NOUN	NN	Number=Sing	4	_	_	start_char=47|end_char=51
+6	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=52|end_char=57
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=58|end_char=60
+8	for	for	ADP	IN	_	7	_	_	start_char=61|end_char=64
+9	energy	energy	NOUN	NN	Number=Sing	8	_	_	start_char=65|end_char=71|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=71|end_char=72
+11	burn	burn	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=73|end_char=77
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	_	_	start_char=78|end_char=82
+13	intake	intake	NOUN	NN	Number=Sing	12	_	_	start_char=83|end_char=89|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=89|end_char=90
+
+# text = Don't eat or drink just to entertain yourself before bed.
+# sent_id = 93704
+1-2	Don't	_	_	_	_	_	_	_	start_char=91|end_char=96
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=91|end_char=93
+2	n't	not	PART	RB	_	1	_	_	start_char=93|end_char=96
+3	eat	eat	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=97|end_char=100
+4	or	or	CCONJ	CC	_	3	_	_	start_char=101|end_char=103
+5	drink	drink	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=104|end_char=109
+6	just	just	ADV	RB	_	5	_	_	start_char=110|end_char=114
+7	to	to	PART	TO	_	6	_	_	start_char=115|end_char=117
+8	entertain	entertain	VERB	VB	VerbForm=Inf	7	_	_	start_char=118|end_char=127
+9	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	8	_	_	start_char=128|end_char=136
+10	before	before	ADP	IN	_	9	_	_	start_char=137|end_char=143
+11	bed	bed	NOUN	NN	Number=Sing	10	_	_	start_char=144|end_char=147|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=147|end_char=148|SpaceAfter=No
+

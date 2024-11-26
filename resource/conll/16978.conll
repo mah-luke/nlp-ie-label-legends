@@ -1,0 +1,28 @@
+# text = It's not all bad for boys.
+# sent_id = 36509
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	not	not	PART	RB	_	2	_	_	start_char=5|end_char=8
+4	all	all	ADV	RB	_	3	_	_	start_char=9|end_char=12
+5	bad	bad	ADJ	JJ	Degree=Pos	4	_	_	start_char=13|end_char=16
+6	for	for	ADP	IN	_	5	_	_	start_char=17|end_char=20
+7	boys	boy	NOUN	NNS	Number=Plur	6	_	_	start_char=21|end_char=25|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=25|end_char=26
+
+# text = They are still dominating numbers in engineering, mathematics, and physics.
+# sent_id = 36510
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=27|end_char=31
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=35
+3	still	still	ADV	RB	_	2	_	_	start_char=36|end_char=41
+4	dominating	dominate	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=42|end_char=52
+5	numbers	number	NOUN	NNS	Number=Plur	4	_	_	start_char=53|end_char=60
+6	in	in	ADP	IN	_	5	_	_	start_char=61|end_char=63
+7	engineering	engineering	NOUN	NN	Number=Sing	6	_	_	start_char=64|end_char=75|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=75|end_char=76
+9	mathematics	mathematics	NOUN	NN	Number=Sing	8	_	_	start_char=77|end_char=88|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=88|end_char=89
+11	and	and	CCONJ	CC	_	10	_	_	start_char=90|end_char=93
+12	physics	physics	NOUN	NN	Number=Sing	11	_	_	start_char=94|end_char=101|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=101|end_char=102|SpaceAfter=No
+

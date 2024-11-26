@@ -1,0 +1,79 @@
+# text = Hey cunt....remember this.
+# sent_id = 92768
+1	Hey	hey	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	cunt	cunt	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=8|SpaceAfter=No
+3	....	....	PUNCT	,	_	2	_	_	start_char=8|end_char=12|SpaceAfter=No
+4	remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=12|end_char=20
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=21|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=25|end_char=26
+
+# text = I am of the Wolf Clan of the Cherokee.
+# sent_id = 92769
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=27|end_char=28
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=29|end_char=31
+3	of	of	ADP	IN	_	2	_	_	start_char=32|end_char=34
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=35|end_char=38
+5	Wolf	Wolf	PROPN	NNP	Number=Sing	4	_	_	start_char=39|end_char=43
+6	Clan	Clan	PROPN	NNP	Number=Sing	5	_	_	start_char=44|end_char=48
+7	of	of	ADP	IN	_	6	_	_	start_char=49|end_char=51
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=52|end_char=55
+9	Cherokee	Cherokee	PROPN	NNP	Number=Sing	8	_	_	start_char=56|end_char=64|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=64|end_char=65
+
+# text = I lay down with wolves.
+# sent_id = 92770
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=66|end_char=67
+2	lay	lay	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=68|end_char=71
+3	down	down	ADP	RP	_	2	_	_	start_char=72|end_char=76
+4	with	with	ADP	IN	_	3	_	_	start_char=77|end_char=81
+5	wolves	wolf	NOUN	NNS	Number=Plur	4	_	_	start_char=82|end_char=88|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=88|end_char=89
+
+# text = Wolves are my brothers and sisters.
+# sent_id = 92771
+1	Wolves	wolf	NOUN	NNS	Number=Plur	0	_	_	start_char=90|end_char=96
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=97|end_char=100
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=101|end_char=103
+4	brothers	brother	NOUN	NNS	Number=Plur	3	_	_	start_char=104|end_char=112
+5	and	and	CCONJ	CC	_	4	_	_	start_char=113|end_char=116
+6	sisters	sister	NOUN	NNS	Number=Plur	5	_	_	start_char=117|end_char=124|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=124|end_char=125
+
+# text = And we wolves?
+# sent_id = 92772
+1	And	and	CCONJ	CC	_	0	_	_	start_char=126|end_char=129
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=130|end_char=132
+3	wolves	wolf	NOUN	NNS	Number=Plur	2	_	_	start_char=133|end_char=139|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=139|end_char=140
+
+# text = Will rip you fucking cunts pussy faggots to shreds.
+# sent_id = 92773
+1	Will	will	AUX	MD	VerbForm=Fin	0	_	_	start_char=141|end_char=145
+2	rip	rip	VERB	VB	VerbForm=Inf	1	_	_	start_char=146|end_char=149
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=150|end_char=153
+4	fucking	fuck	ADP	IN	_	3	_	_	start_char=154|end_char=161
+5	cunts	cunt	NOUN	NNS	Number=Plur	4	_	_	start_char=162|end_char=167
+6	pussy	pussy	NOUN	NN	Number=Sing	5	_	_	start_char=168|end_char=173
+7	faggots	faggot	NOUN	NNS	Number=Plur	6	_	_	start_char=174|end_char=181
+8	to	to	ADP	IN	_	7	_	_	start_char=182|end_char=184
+9	shreds	shred	NOUN	NNS	Number=Plur	8	_	_	start_char=185|end_char=191|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=191|end_char=192
+
+# text = Don't believe me?
+# sent_id = 92774
+1-2	Don't	_	_	_	_	_	_	_	start_char=193|end_char=198
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=193|end_char=195
+2	n't	not	PART	RB	_	1	_	_	start_char=195|end_char=198
+3	believe	believe	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=199|end_char=206
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=207|end_char=209|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=209|end_char=210
+
+# text = Bring it the fuck on.
+# sent_id = 92775
+1	Bring	bring	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=211|end_char=216
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=217|end_char=219
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=220|end_char=223
+4	fuck	fuck	NOUN	NN	Number=Sing	3	_	_	start_char=224|end_char=228
+5	on	on	ADV	RB	_	4	_	_	start_char=229|end_char=231|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=231|end_char=232|SpaceAfter=No
+

@@ -1,0 +1,59 @@
+# text = But there are no lesbians.
+# sent_id = 113136
+1	But	but	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	there	there	PRON	EX	_	1	_	_	start_char=4|end_char=9
+3	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=13
+4	no	no	DET	DT	_	3	_	_	start_char=14|end_char=16
+5	lesbians	lesbian	NOUN	NNS	Number=Plur	4	_	_	start_char=17|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=25|end_char=26
+
+# text = She's in high school, she'll work up to dudes eventually.
+# sent_id = 113137
+1-2	She's	_	_	_	_	_	_	_	start_char=27|end_char=32
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=27|end_char=30
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=30|end_char=32
+3	in	in	ADP	IN	_	2	_	_	start_char=33|end_char=35
+4	high	high	ADJ	JJ	Degree=Pos	3	_	_	start_char=36|end_char=40
+5	school	school	NOUN	NN	Number=Sing	4	_	_	start_char=41|end_char=47|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=47|end_char=48
+7-8	she'll	_	_	_	_	_	_	_	start_char=49|end_char=55
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=49|end_char=52
+8	'll	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=52|end_char=55
+9	work	work	VERB	VB	VerbForm=Inf	8	_	_	start_char=56|end_char=60
+10	up	up	ADP	RP	_	9	_	_	start_char=61|end_char=63
+11	to	to	ADP	IN	_	10	_	_	start_char=64|end_char=66
+12	dudes	dude	NOUN	NNS	Number=Plur	11	_	_	start_char=67|end_char=72
+13	eventually	eventually	ADV	RB	_	12	_	_	start_char=73|end_char=83|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=83|end_char=84
+
+# text = I'm joking in a fashion but apparently in Japan I heard lesbian teens are considered normal, and that they will grow out of it.
+# sent_id = 113138
+1-2	I'm	_	_	_	_	_	_	_	start_char=85|end_char=88
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=85|end_char=86
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=86|end_char=88
+3	joking	joke	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=89|end_char=95
+4	in	in	ADP	IN	_	3	_	_	start_char=96|end_char=98
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=99|end_char=100
+6	fashion	fashion	NOUN	NN	Number=Sing	5	_	_	start_char=101|end_char=108
+7	but	but	CCONJ	CC	_	6	_	_	start_char=109|end_char=112
+8	apparently	apparently	ADV	RB	_	7	_	_	start_char=113|end_char=123
+9	in	in	ADP	IN	_	8	_	_	start_char=124|end_char=126
+10	Japan	Japan	PROPN	NNP	Number=Sing	9	_	_	start_char=127|end_char=132
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=133|end_char=134
+12	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	11	_	_	start_char=135|end_char=140
+13	lesbian	lesbian	ADJ	JJ	Degree=Pos	12	_	_	start_char=141|end_char=148
+14	teens	teen	NOUN	NNS	Number=Plur	13	_	_	start_char=149|end_char=154
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=155|end_char=158
+16	considered	consider	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	_	_	start_char=159|end_char=169
+17	normal	normal	ADJ	JJ	Degree=Pos	16	_	_	start_char=170|end_char=176|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=176|end_char=177
+19	and	and	CCONJ	CC	_	18	_	_	start_char=178|end_char=181
+20	that	that	SCONJ	IN	_	19	_	_	start_char=182|end_char=186
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	_	_	start_char=187|end_char=191
+22	will	will	AUX	MD	VerbForm=Fin	21	_	_	start_char=192|end_char=196
+23	grow	grow	VERB	VB	VerbForm=Inf	22	_	_	start_char=197|end_char=201
+24	out	out	ADP	IN	_	23	_	_	start_char=202|end_char=205
+25	of	of	ADP	IN	_	24	_	_	start_char=206|end_char=208
+26	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	25	_	_	start_char=209|end_char=211|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=211|end_char=212|SpaceAfter=No
+

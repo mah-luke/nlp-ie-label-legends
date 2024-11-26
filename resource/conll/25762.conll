@@ -1,0 +1,25 @@
+# text = "Feminism is about equality"
+# sent_id = 55226
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Feminism	feminism	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=9
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4	about	about	ADP	IN	_	3	_	_	start_char=13|end_char=18
+5	equality	equality	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=27|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=27|end_char=28
+
+# text = No, this clearly states that it's about female supremacy.
+# sent_id = 55227
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=29|end_char=31|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=31|end_char=32
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=33|end_char=37
+4	clearly	clearly	ADV	RB	_	3	_	_	start_char=38|end_char=45
+5	states	state	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=46|end_char=52
+6	that	that	SCONJ	IN	_	5	_	_	start_char=53|end_char=57
+7-8	it's	_	_	_	_	_	_	_	start_char=58|end_char=62
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=58|end_char=60
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=60|end_char=62
+9	about	about	ADP	IN	_	8	_	_	start_char=63|end_char=68
+10	female	female	ADJ	JJ	Degree=Pos	9	_	_	start_char=69|end_char=75
+11	supremacy	supremacy	NOUN	NN	Number=Sing	10	_	_	start_char=76|end_char=85|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=85|end_char=86|SpaceAfter=No
+

@@ -1,0 +1,51 @@
+# text = After some bullshit, I sent this text **A lot of bullshit!**
+# sent_id = 123783
+1	After	after	ADP	IN	_	0	_	_	start_char=0|end_char=5
+2	some	some	DET	DT	_	1	_	_	start_char=6|end_char=10
+3	bullshit	bullshit	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=19|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=19|end_char=20
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=21|end_char=22
+6	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=23|end_char=27
+7	this	this	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=28|end_char=32
+8	text	text	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=37
+9	**	**	PUNCT	NFP	_	8	_	_	start_char=38|end_char=40|SpaceAfter=No
+10	A	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=40|end_char=41
+11	lot	lot	NOUN	NN	Number=Sing	10	_	_	start_char=42|end_char=45
+12	of	of	ADP	IN	_	11	_	_	start_char=46|end_char=48
+13	bullshit	bullshit	NOUN	NN	Number=Sing	12	_	_	start_char=49|end_char=57|SpaceAfter=No
+14	!**	!**	PUNCT	NFP	_	13	_	_	start_char=57|end_char=60
+
+# text = It just happened I suppose but I pretty sure I don't want to see her again.
+# sent_id = 123784
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=61|end_char=63
+2	just	just	ADV	RB	_	1	_	_	start_char=64|end_char=68
+3	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=69|end_char=77
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=78|end_char=79
+5	suppose	suppose	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=80|end_char=87
+6	but	but	CCONJ	CC	_	5	_	_	start_char=88|end_char=91
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=92|end_char=93
+8	pretty	pretty	ADV	RB	_	7	_	_	start_char=94|end_char=100
+9	sure	sure	ADJ	JJ	Degree=Pos	8	_	_	start_char=101|end_char=105
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=106|end_char=107
+11-12	don't	_	_	_	_	_	_	_	start_char=108|end_char=113
+11	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=108|end_char=110
+12	n't	not	PART	RB	_	11	_	_	start_char=110|end_char=113
+13	want	want	VERB	VB	VerbForm=Inf	12	_	_	start_char=114|end_char=118
+14	to	to	PART	TO	_	13	_	_	start_char=119|end_char=121
+15	see	see	VERB	VB	VerbForm=Inf	14	_	_	start_char=122|end_char=125
+16	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=126|end_char=129
+17	again	again	ADV	RB	_	16	_	_	start_char=130|end_char=135|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=135|end_char=136
+
+# text = But I know what you're saying!
+# sent_id = 123785
+1	But	but	CCONJ	CC	_	0	_	_	start_char=137|end_char=140
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=141|end_char=142
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=143|end_char=147
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=148|end_char=152
+5-6	you're	_	_	_	_	_	_	_	start_char=153|end_char=159
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=153|end_char=156
+6	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=156|end_char=159
+7	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=160|end_char=166|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=166|end_char=167|SpaceAfter=No
+

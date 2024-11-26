@@ -1,0 +1,38 @@
+# text = Yes, every girl on the planet becomes a raging porn starlet the day they hit their 13th birthday.
+# sent_id = 55323
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	every	every	DET	DT	_	2	_	_	start_char=5|end_char=10
+4	girl	girl	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=15
+5	on	on	ADP	IN	_	4	_	_	start_char=16|end_char=18
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=19|end_char=22
+7	planet	planet	NOUN	NN	Number=Sing	6	_	_	start_char=23|end_char=29
+8	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=30|end_char=37
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=38|end_char=39
+10	raging	rage	VERB	VBG	VerbForm=Ger	9	_	_	start_char=40|end_char=46
+11	porn	porn	NOUN	NN	Number=Sing	10	_	_	start_char=47|end_char=51
+12	starlet	starlet	NOUN	NN	Number=Sing	11	_	_	start_char=52|end_char=59
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=60|end_char=63
+14	day	day	NOUN	NN	Number=Sing	13	_	_	start_char=64|end_char=67
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	_	_	start_char=68|end_char=72
+16	hit	hit	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=73|end_char=76
+17	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=77|end_char=82
+18	13th	13th	ADJ	JJ	Degree=Pos|NumType=Ord	17	_	_	start_char=83|end_char=87
+19	birthday	birthday	NOUN	NN	Number=Sing	18	_	_	start_char=88|end_char=96|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=96|end_char=97
+
+# text = His cousin's friend's brother told him so.
+# sent_id = 55324
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=98|end_char=101
+2-3	cousin's	_	_	_	_	_	_	_	start_char=102|end_char=110
+2	cousin	cousin	NOUN	NN	Number=Sing	1	_	_	start_char=102|end_char=108
+3	's	's	PART	POS	_	2	_	_	start_char=108|end_char=110
+4-5	friend's	_	_	_	_	_	_	_	start_char=111|end_char=119
+4	friend	friend	NOUN	NN	Number=Sing	3	_	_	start_char=111|end_char=117
+5	's	's	PART	POS	_	4	_	_	start_char=117|end_char=119
+6	brother	brother	NOUN	NN	Number=Sing	5	_	_	start_char=120|end_char=127
+7	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=128|end_char=132
+8	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=133|end_char=136
+9	so	so	ADV	RB	_	8	_	_	start_char=137|end_char=139|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=139|end_char=140|SpaceAfter=No
+

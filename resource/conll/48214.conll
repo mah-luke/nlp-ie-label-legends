@@ -1,0 +1,67 @@
+# text = My best friend is a cool guy.
+# sent_id = 103050
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	best	good	ADJ	JJS	Degree=Sup	1	_	_	start_char=3|end_char=7
+3	friend	friend	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=14
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=17
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=18|end_char=19
+6	cool	cool	ADJ	JJ	Degree=Pos	5	_	_	start_char=20|end_char=24
+7	guy	guy	NOUN	NN	Number=Sing	6	_	_	start_char=25|end_char=28|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=28|end_char=29
+
+# text = Doesn’t mean I will invite him to a work’s dinner and it definitely doesn’t mean I expect my colleagues to pay for him.
+# sent_id = 103051
+1-2	Doesn’t	_	_	_	_	_	_	_	start_char=30|end_char=37
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=30|end_char=34
+2	n’t	not	PART	RB	_	1	_	_	start_char=34|end_char=37
+3	mean	mean	VERB	VB	VerbForm=Inf	2	_	_	start_char=38|end_char=42
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=43|end_char=44
+5	will	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=45|end_char=49
+6	invite	invite	VERB	VB	VerbForm=Inf	5	_	_	start_char=50|end_char=56
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=57|end_char=60
+8	to	to	ADP	IN	_	7	_	_	start_char=61|end_char=63
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=64|end_char=65
+10-11	work’s	_	_	_	_	_	_	_	start_char=66|end_char=72
+10	work	work	NOUN	NN	Number=Sing	9	_	_	start_char=66|end_char=70
+11	’s	's	PART	POS	_	10	_	_	start_char=70|end_char=72
+12	dinner	dinner	NOUN	NN	Number=Sing	11	_	_	start_char=73|end_char=79
+13	and	and	CCONJ	CC	_	12	_	_	start_char=80|end_char=83
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=84|end_char=86
+15	definitely	definitely	ADV	RB	_	14	_	_	start_char=87|end_char=97
+16-17	doesn’t	_	_	_	_	_	_	_	start_char=98|end_char=105
+16	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=98|end_char=102
+17	n’t	not	PART	RB	_	16	_	_	start_char=102|end_char=105
+18	mean	mean	VERB	VB	VerbForm=Inf	17	_	_	start_char=106|end_char=110
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	_	_	start_char=111|end_char=112
+20	expect	expect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	_	_	start_char=113|end_char=119
+21	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	_	_	start_char=120|end_char=122
+22	colleagues	colleague	NOUN	NNS	Number=Plur	21	_	_	start_char=123|end_char=133
+23	to	to	PART	TO	_	22	_	_	start_char=134|end_char=136
+24	pay	pay	VERB	VB	VerbForm=Inf	23	_	_	start_char=137|end_char=140
+25	for	for	ADP	IN	_	24	_	_	start_char=141|end_char=144
+26	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	25	_	_	start_char=145|end_char=148|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=148|end_char=149
+
+# text = He’s a stranger to them, why is it any different if it’s your wife?
+# sent_id = 103052
+1-2	He’s	_	_	_	_	_	_	_	start_char=150|end_char=154
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=150|end_char=152
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=152|end_char=154
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=155|end_char=156
+4	stranger	stranger	NOUN	NN	Number=Sing	3	_	_	start_char=157|end_char=165
+5	to	to	ADP	IN	_	4	_	_	start_char=166|end_char=168
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=169|end_char=173|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=173|end_char=174
+8	why	why	ADV	WRB	PronType=Int	7	_	_	start_char=175|end_char=178
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=179|end_char=181
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=182|end_char=184
+11	any	any	DET	DT	_	10	_	_	start_char=185|end_char=188
+12	different	different	ADJ	JJ	Degree=Pos	11	_	_	start_char=189|end_char=198
+13	if	if	SCONJ	IN	_	12	_	_	start_char=199|end_char=201
+14-15	it’s	_	_	_	_	_	_	_	start_char=202|end_char=206
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=202|end_char=204
+15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=204|end_char=206
+16	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	15	_	_	start_char=207|end_char=211
+17	wife	wife	NOUN	NN	Number=Sing	16	_	_	start_char=212|end_char=216|SpaceAfter=No
+18	?	?	PUNCT	.	_	17	_	_	start_char=216|end_char=217|SpaceAfter=No
+

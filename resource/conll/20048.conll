@@ -1,0 +1,62 @@
+# text = In vitro fertilization.
+# sent_id = 43049
+1	In	in	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	vitro	vitro	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=8
+3	fertilization	fertilization	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=22|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=22|end_char=23
+
+# text = Even if it's a terrible idea for the child's development, a woman with baby rabies doesn't give a shit.
+# sent_id = 43050
+1	Even	even	ADV	RB	_	0	_	_	start_char=24|end_char=28
+2	if	if	SCONJ	IN	_	1	_	_	start_char=29|end_char=31
+3-4	it's	_	_	_	_	_	_	_	start_char=32|end_char=36
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=32|end_char=34
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=34|end_char=36
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=37|end_char=38
+6	terrible	terrible	ADJ	JJ	Degree=Pos	5	_	_	start_char=39|end_char=47
+7	idea	idea	NOUN	NN	Number=Sing	6	_	_	start_char=48|end_char=52
+8	for	for	ADP	IN	_	7	_	_	start_char=53|end_char=56
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=57|end_char=60
+10-11	child's	_	_	_	_	_	_	_	start_char=61|end_char=68
+10	child	child	NOUN	NN	Number=Sing	9	_	_	start_char=61|end_char=66
+11	's	's	PART	POS	_	10	_	_	start_char=66|end_char=68
+12	development	development	NOUN	NN	Number=Sing	11	_	_	start_char=69|end_char=80|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=80|end_char=81
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=82|end_char=83
+15	woman	woman	NOUN	NN	Number=Sing	14	_	_	start_char=84|end_char=89
+16	with	with	ADP	IN	_	15	_	_	start_char=90|end_char=94
+17	baby	baby	NOUN	NN	Number=Sing	16	_	_	start_char=95|end_char=99
+18	rabies	rabie	NOUN	NN	Number=Sing	17	_	_	start_char=100|end_char=106
+19-20	doesn't	_	_	_	_	_	_	_	start_char=107|end_char=114
+19	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=107|end_char=111
+20	n't	not	PART	RB	_	19	_	_	start_char=111|end_char=114
+21	give	give	VERB	VB	VerbForm=Inf	20	_	_	start_char=115|end_char=119
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	start_char=120|end_char=121
+23	shit	shit	NOUN	NN	Number=Sing	22	_	_	start_char=122|end_char=126|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=126|end_char=127
+
+# text = We'll see what happens.
+# sent_id = 43051
+1-2	We'll	_	_	_	_	_	_	_	start_char=128|end_char=133
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=128|end_char=130
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=130|end_char=133
+3	see	see	VERB	VB	VerbForm=Inf	2	_	_	start_char=134|end_char=137
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=138|end_char=142
+5	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=143|end_char=150|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=150|end_char=151
+
+# text = Crushing birth control pills in her drinks is a good option.
+# sent_id = 43052
+1	Crushing	crush	VERB	VBG	VerbForm=Ger	0	_	_	start_char=152|end_char=160
+2	birth	birth	NOUN	NN	Number=Sing	1	_	_	start_char=161|end_char=166
+3	control	control	NOUN	NN	Number=Sing	2	_	_	start_char=167|end_char=174
+4	pills	pill	NOUN	NNS	Number=Plur	3	_	_	start_char=175|end_char=180
+5	in	in	ADP	IN	_	4	_	_	start_char=181|end_char=183
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=184|end_char=187
+7	drinks	drink	NOUN	NNS	Number=Plur	6	_	_	start_char=188|end_char=194
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=195|end_char=197
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=198|end_char=199
+10	good	good	ADJ	JJ	Degree=Pos	9	_	_	start_char=200|end_char=204
+11	option	option	NOUN	NN	Number=Sing	10	_	_	start_char=205|end_char=211|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=211|end_char=212|SpaceAfter=No
+

@@ -1,0 +1,45 @@
+# text = This is going from bad, to worse.
+# sent_id = 66228
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=8|end_char=13
+4	from	from	ADP	IN	_	3	_	_	start_char=14|end_char=18
+5	bad	bad	ADJ	JJ	Degree=Pos	4	_	_	start_char=19|end_char=22|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=22|end_char=23
+7	to	to	ADP	IN	_	6	_	_	start_char=24|end_char=26
+8	worse	bad	ADJ	JJR	Degree=Cmp	7	_	_	start_char=27|end_char=32|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=32|end_char=33
+
+# text = The Austin Bomber clearly knows what he/she/they are doing.
+# sent_id = 66229
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=34|end_char=37
+2	Austin	Austin	PROPN	NNP	Number=Sing	1	_	_	start_char=38|end_char=44
+3	Bomber	Bomber	PROPN	NNP	Number=Sing	2	_	_	start_char=45|end_char=51
+4	clearly	clearly	ADV	RB	_	3	_	_	start_char=52|end_char=59
+5	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=60|end_char=65
+6	what	what	PRON	WP	PronType=Rel	5	_	_	start_char=66|end_char=70
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=71|end_char=73|SpaceAfter=No
+8	/	/	SYM	,	_	7	_	_	start_char=73|end_char=74|SpaceAfter=No
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=74|end_char=77|SpaceAfter=No
+10	/	/	SYM	,	_	9	_	_	start_char=77|end_char=78|SpaceAfter=No
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=78|end_char=82
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=83|end_char=86
+13	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=87|end_char=92|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=92|end_char=93
+
+# text = I hope they catch these rat bastards, FASt. [URL]
+# sent_id = 66230
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=94|end_char=95
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=96|end_char=100
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=101|end_char=105
+4	catch	catch	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=106|end_char=111
+5	these	this	DET	DT	Number=Plur|PronType=Dem	4	_	_	start_char=112|end_char=117
+6	rat	rat	NOUN	NN	Number=Sing	5	_	_	start_char=118|end_char=121
+7	bastards	bastard	NOUN	NNS	Number=Plur	6	_	_	start_char=122|end_char=130|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=130|end_char=131
+9	FASt	FASt	PROPN	NNP	Number=Sing	8	_	_	start_char=132|end_char=136|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=136|end_char=137
+11	[	[	PUNCT	-LRB-	_	10	_	_	start_char=138|end_char=139|SpaceAfter=No
+12	URL	URL	PROPN	NNP	Number=Sing	11	_	_	start_char=139|end_char=142|SpaceAfter=No
+13	]	]	PUNCT	-RRB-	_	12	_	_	start_char=142|end_char=143|SpaceAfter=No
+

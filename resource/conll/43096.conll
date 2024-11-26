@@ -1,0 +1,62 @@
+# text = I disavowed that.
+# sent_id = 92112
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	disavowed	disavow	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=11
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=12|end_char=16|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=16|end_char=17
+
+# text = I disavowed that.
+# sent_id = 92113
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=18|end_char=19
+2	disavowed	disavow	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=20|end_char=29
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=30|end_char=34|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=34|end_char=35
+
+# text = In 2005 I disavowed that, therefore it never happened.
+# sent_id = 92114
+1	In	in	ADP	IN	_	0	_	_	start_char=36|end_char=38
+2	2005	2005	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=39|end_char=43
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=44|end_char=45
+4	disavowed	disavow	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=46|end_char=55
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=56|end_char=60|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=60|end_char=61
+7	therefore	therefore	ADV	RB	_	6	_	_	start_char=62|end_char=71
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=72|end_char=74
+9	never	never	ADV	RB	_	8	_	_	start_char=75|end_char=80
+10	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=81|end_char=89|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=89|end_char=90
+
+# text = Hillary used to hate gays and now she doesn’t.
+# sent_id = 92115
+1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=91|end_char=98
+2	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=99|end_char=103
+3	to	to	PART	TO	_	2	_	_	start_char=104|end_char=106
+4	hate	hate	VERB	VB	VerbForm=Inf	3	_	_	start_char=107|end_char=111
+5	gays	gay	NOUN	NNS	Number=Plur	4	_	_	start_char=112|end_char=116
+6	and	and	CCONJ	CC	_	5	_	_	start_char=117|end_char=120
+7	now	now	ADV	RB	_	6	_	_	start_char=121|end_char=124
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=125|end_char=128
+9-10	doesn’t	_	_	_	_	_	_	_	start_char=129|end_char=136|SpaceAfter=No
+9	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=129|end_char=133
+10	n’t	not	PART	RB	_	9	_	_	start_char=133|end_char=136
+11	.	.	PUNCT	.	_	10	_	_	start_char=136|end_char=137
+
+# text = See how this works.
+# sent_id = 92116
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=138|end_char=141
+2	how	how	ADV	WRB	PronType=Int	1	_	_	start_char=142|end_char=145
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=146|end_char=150
+4	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=151|end_char=156|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=156|end_char=157
+
+# text = Two respectable people can change their minds.
+# sent_id = 92117
+1	Two	two	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=158|end_char=161
+2	respectable	respectable	ADJ	JJ	Degree=Pos	1	_	_	start_char=162|end_char=173
+3	people	person	NOUN	NNS	Number=Plur	2	_	_	start_char=174|end_char=180
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=181|end_char=184
+5	change	change	VERB	VB	VerbForm=Inf	4	_	_	start_char=185|end_char=191
+6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=192|end_char=197
+7	minds	mind	NOUN	NNS	Number=Plur	6	_	_	start_char=198|end_char=203|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=203|end_char=204|SpaceAfter=No
+

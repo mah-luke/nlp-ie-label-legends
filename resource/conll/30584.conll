@@ -1,0 +1,35 @@
+# text = I'm no good at online game so can't help you there.
+# sent_id = 65533
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	no	no	DET	DT	_	2	_	_	start_char=4|end_char=6
+4	good	good	ADJ	JJ	Degree=Pos	3	_	_	start_char=7|end_char=11
+5	at	at	ADP	IN	_	4	_	_	start_char=12|end_char=14
+6	online	online	ADJ	JJ	Degree=Pos	5	_	_	start_char=15|end_char=21
+7	game	game	NOUN	NN	Number=Sing	6	_	_	start_char=22|end_char=26
+8	so	so	ADV	RB	_	7	_	_	start_char=27|end_char=29
+9-10	can't	_	_	_	_	_	_	_	start_char=30|end_char=35
+9	ca	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=30|end_char=32
+10	n't	not	PART	RB	_	9	_	_	start_char=32|end_char=35
+11	help	help	VERB	VB	VerbForm=Inf	10	_	_	start_char=36|end_char=40
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	_	_	start_char=41|end_char=44
+13	there	there	ADV	RB	PronType=Dem	12	_	_	start_char=45|end_char=50|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=50|end_char=51
+
+# text = I would just keep an eye on when she's outside.
+# sent_id = 65534
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=52|end_char=53
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=54|end_char=59
+3	just	just	ADV	RB	_	2	_	_	start_char=60|end_char=64
+4	keep	keep	VERB	VB	VerbForm=Inf	3	_	_	start_char=65|end_char=69
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=70|end_char=72
+6	eye	eye	NOUN	NN	Number=Sing	5	_	_	start_char=73|end_char=76
+7	on	on	ADP	IN	_	6	_	_	start_char=77|end_char=79
+8	when	when	ADV	WRB	PronType=Int	7	_	_	start_char=80|end_char=84
+9-10	she's	_	_	_	_	_	_	_	start_char=85|end_char=90
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=85|end_char=88
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=88|end_char=90
+11	outside	outside	ADV	RB	_	10	_	_	start_char=91|end_char=98|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=98|end_char=99|SpaceAfter=No
+

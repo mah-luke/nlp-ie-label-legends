@@ -1,0 +1,51 @@
+# text = Nikki Haley is a total dope!
+# sent_id = 74546
+1	Nikki	Nikki	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	Haley	Haley	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=11
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=14
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=15|end_char=16
+5	total	total	ADJ	JJ	Degree=Pos	4	_	_	start_char=17|end_char=22
+6	dope	dope	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=27|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=27|end_char=28
+
+# text = [URL]
+# sent_id = 74547
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=29|end_char=30|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=30|end_char=33|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=33|end_char=34
+
+# text = Trump was so wrong to hire her.
+# sent_id = 74548
+1	Trump	Trump	PROPN	NNP	Number=Sing	0	_	_	start_char=35|end_char=40
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=41|end_char=44
+3	so	so	ADV	RB	_	2	_	_	start_char=45|end_char=47
+4	wrong	wrong	ADJ	JJ	Degree=Pos	3	_	_	start_char=48|end_char=53
+5	to	to	PART	TO	_	4	_	_	start_char=54|end_char=56
+6	hire	hire	VERB	VB	VerbForm=Inf	5	_	_	start_char=57|end_char=61
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=62|end_char=65|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=65|end_char=66
+
+# text = She doesn't even support his non interventionist agenda.
+# sent_id = 74549
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=67|end_char=70
+2-3	doesn't	_	_	_	_	_	_	_	start_char=71|end_char=78
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=71|end_char=75
+3	n't	not	PART	RB	_	2	_	_	start_char=75|end_char=78
+4	even	even	ADV	RB	_	3	_	_	start_char=79|end_char=83
+5	support	support	VERB	VB	VerbForm=Inf	4	_	_	start_char=84|end_char=91
+6	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=92|end_char=95
+7	non	non	ADV	RB	_	6	_	_	start_char=96|end_char=99
+8	interventionist	interventionist	ADJ	JJ	Degree=Pos	7	_	_	start_char=100|end_char=115
+9	agenda	agenda	NOUN	NN	Number=Sing	8	_	_	start_char=116|end_char=122|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=122|end_char=123
+
+# text = And let Israel pay its own bills
+# sent_id = 74550
+1	And	and	CCONJ	CC	_	0	_	_	start_char=124|end_char=127
+2	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=128|end_char=131
+3	Israel	Israel	PROPN	NNP	Number=Sing	2	_	_	start_char=132|end_char=138
+4	pay	pay	VERB	VB	VerbForm=Inf	3	_	_	start_char=139|end_char=142
+5	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=143|end_char=146
+6	own	own	ADJ	JJ	Degree=Pos	5	_	_	start_char=147|end_char=150
+7	bills	bill	NOUN	NNS	Number=Plur	6	_	_	start_char=151|end_char=156|SpaceAfter=No
+

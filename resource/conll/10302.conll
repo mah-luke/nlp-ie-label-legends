@@ -1,0 +1,67 @@
+# text = When asked to help load a woman’s rollerboard into the overhead bins, how do you respond?
+# sent_id = 21708
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=4
+2	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=5|end_char=10
+3	to	to	PART	TO	_	2	_	_	start_char=11|end_char=13
+4	help	help	VERB	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=18
+5	load	load	VERB	VB	VerbForm=Inf	4	_	_	start_char=19|end_char=23
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=24|end_char=25
+7-8	woman’s	_	_	_	_	_	_	_	start_char=26|end_char=33
+7	woman	woman	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=31
+8	’s	's	PART	POS	_	7	_	_	start_char=31|end_char=33
+9	rollerboard	rollerboard	NOUN	NN	Number=Sing	8	_	_	start_char=34|end_char=45
+10	into	into	ADP	IN	_	9	_	_	start_char=46|end_char=50
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=51|end_char=54
+12	overhead	overhead	NOUN	NN	Number=Sing	11	_	_	start_char=55|end_char=63
+13	bins	bin	NOUN	NNS	Number=Plur	12	_	_	start_char=64|end_char=68|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=68|end_char=69
+15	how	how	ADV	WRB	PronType=Int	14	_	_	start_char=70|end_char=73
+16	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	_	_	start_char=74|end_char=76
+17	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	16	_	_	start_char=77|end_char=80
+18	respond	respond	VERB	VB	VerbForm=Inf	17	_	_	start_char=81|end_char=88|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=88|end_char=89
+
+# text = I keep my eyes down to avoid eye contact while the women are struggling to load their bags, and that helps.
+# sent_id = 21709
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=90|end_char=91
+2	keep	keep	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=92|end_char=96
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=97|end_char=99
+4	eyes	eye	NOUN	NNS	Number=Plur	3	_	_	start_char=100|end_char=104
+5	down	down	ADV	RB	_	4	_	_	start_char=105|end_char=109
+6	to	to	PART	TO	_	5	_	_	start_char=110|end_char=112
+7	avoid	avoid	VERB	VB	VerbForm=Inf	6	_	_	start_char=113|end_char=118
+8	eye	eye	NOUN	NN	Number=Sing	7	_	_	start_char=119|end_char=122
+9	contact	contact	NOUN	NN	Number=Sing	8	_	_	start_char=123|end_char=130
+10	while	while	SCONJ	IN	_	9	_	_	start_char=131|end_char=136
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=137|end_char=140
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=141|end_char=146
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=147|end_char=150
+14	struggling	struggle	VERB	VBG	Tense=Pres|VerbForm=Part	13	_	_	start_char=151|end_char=161
+15	to	to	PART	TO	_	14	_	_	start_char=162|end_char=164
+16	load	load	VERB	VB	VerbForm=Inf	15	_	_	start_char=165|end_char=169
+17	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=170|end_char=175
+18	bags	bag	NOUN	NNS	Number=Plur	17	_	_	start_char=176|end_char=180|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=180|end_char=181
+20	and	and	CCONJ	CC	_	19	_	_	start_char=182|end_char=185
+21	that	that	PRON	DT	Number=Sing|PronType=Dem	20	_	_	start_char=186|end_char=190
+22	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=191|end_char=196|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=196|end_char=197
+
+# text = But when asked to help, I’m not sure how to respond.
+# sent_id = 21710
+1	But	but	CCONJ	CC	_	0	_	_	start_char=198|end_char=201
+2	when	when	ADV	WRB	PronType=Int	1	_	_	start_char=202|end_char=206
+3	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=207|end_char=212
+4	to	to	PART	TO	_	3	_	_	start_char=213|end_char=215
+5	help	help	VERB	VB	VerbForm=Inf	4	_	_	start_char=216|end_char=220|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=220|end_char=221
+7-8	I’m	_	_	_	_	_	_	_	start_char=222|end_char=225
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=222|end_char=223
+8	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=223|end_char=225
+9	not	not	PART	RB	_	8	_	_	start_char=226|end_char=229
+10	sure	sure	ADJ	JJ	Degree=Pos	9	_	_	start_char=230|end_char=234
+11	how	how	ADV	WRB	PronType=Int	10	_	_	start_char=235|end_char=238
+12	to	to	PART	TO	_	11	_	_	start_char=239|end_char=241
+13	respond	respond	VERB	VB	VerbForm=Inf	12	_	_	start_char=242|end_char=249|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=249|end_char=250|SpaceAfter=No
+

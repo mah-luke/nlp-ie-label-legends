@@ -1,0 +1,43 @@
+# text = Here's a hint:
+# sent_id = 47812
+1-2	Here's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=8
+4	hint	hint	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=13|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=13|end_char=14
+
+# text = He didn't, and went out of his way to state that he's trying to explain the lack of women in STEM from a biological perspective.
+# sent_id = 47813
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=15|end_char=17
+2-3	didn't	_	_	_	_	_	_	_	start_char=18|end_char=24|SpaceAfter=No
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=18|end_char=21
+3	n't	not	PART	RB	_	2	_	_	start_char=21|end_char=24
+4	,	,	PUNCT	,	_	3	_	_	start_char=24|end_char=25
+5	and	and	CCONJ	CC	_	4	_	_	start_char=26|end_char=29
+6	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=30|end_char=34
+7	out	out	ADP	IN	_	6	_	_	start_char=35|end_char=38
+8	of	of	ADP	IN	_	7	_	_	start_char=39|end_char=41
+9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=42|end_char=45
+10	way	way	NOUN	NN	Number=Sing	9	_	_	start_char=46|end_char=49
+11	to	to	PART	TO	_	10	_	_	start_char=50|end_char=52
+12	state	state	VERB	VB	VerbForm=Inf	11	_	_	start_char=53|end_char=58
+13	that	that	SCONJ	IN	_	12	_	_	start_char=59|end_char=63
+14-15	he's	_	_	_	_	_	_	_	start_char=64|end_char=68
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=64|end_char=66
+15	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=66|end_char=68
+16	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	15	_	_	start_char=69|end_char=75
+17	to	to	PART	TO	_	16	_	_	start_char=76|end_char=78
+18	explain	explain	VERB	VB	VerbForm=Inf	17	_	_	start_char=79|end_char=86
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=87|end_char=90
+20	lack	lack	NOUN	NN	Number=Sing	19	_	_	start_char=91|end_char=95
+21	of	of	ADP	IN	_	20	_	_	start_char=96|end_char=98
+22	women	woman	NOUN	NNS	Number=Plur	21	_	_	start_char=99|end_char=104
+23	in	in	ADP	IN	_	22	_	_	start_char=105|end_char=107
+24	STEM	STEM	PROPN	NNP	Number=Sing	23	_	_	start_char=108|end_char=112
+25	from	from	ADP	IN	_	24	_	_	start_char=113|end_char=117
+26	a	a	DET	DT	Definite=Ind|PronType=Art	25	_	_	start_char=118|end_char=119
+27	biological	biological	ADJ	JJ	Degree=Pos	26	_	_	start_char=120|end_char=130
+28	perspective	perspective	NOUN	NN	Number=Sing	27	_	_	start_char=131|end_char=142|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=142|end_char=143|SpaceAfter=No
+

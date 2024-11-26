@@ -1,0 +1,53 @@
+# text = hahaha.
+# sent_id = 78429
+1	hahaha	hahaha	INTJ	UH	_	0	_	_	start_char=0|end_char=6|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=6|end_char=7
+
+# text = i didn't feel awkward at the time (perhaps because of the alcohol).
+# sent_id = 78430
+1	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=8|end_char=9
+2-3	didn't	_	_	_	_	_	_	_	start_char=10|end_char=16
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=10|end_char=13
+3	n't	not	PART	RB	_	2	_	_	start_char=13|end_char=16
+4	feel	feel	VERB	VB	VerbForm=Inf	3	_	_	start_char=17|end_char=21
+5	awkward	awkward	ADJ	JJ	Degree=Pos	4	_	_	start_char=22|end_char=29
+6	at	at	ADP	IN	_	5	_	_	start_char=30|end_char=32
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=33|end_char=36
+8	time	time	NOUN	NN	Number=Sing	7	_	_	start_char=37|end_char=41
+9	(	(	PUNCT	-LRB-	_	8	_	_	start_char=42|end_char=43|SpaceAfter=No
+10	perhaps	perhaps	ADV	RB	_	9	_	_	start_char=43|end_char=50
+11	because	because	ADP	IN	_	10	_	_	start_char=51|end_char=58
+12	of	of	ADP	IN	_	11	_	_	start_char=59|end_char=61
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=62|end_char=65
+14	alcohol	alcohol	NOUN	NN	Number=Sing	13	_	_	start_char=66|end_char=73|SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	_	_	start_char=73|end_char=74|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=74|end_char=75
+
+# text = we had sex again in the morning and she cried AGAIN.
+# sent_id = 78431
+1	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=76|end_char=78
+2	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=79|end_char=82
+3	sex	sex	NOUN	NN	Number=Sing	2	_	_	start_char=83|end_char=86
+4	again	again	ADV	RB	_	3	_	_	start_char=87|end_char=92
+5	in	in	ADP	IN	_	4	_	_	start_char=93|end_char=95
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=96|end_char=99
+7	morning	morning	NOUN	NN	Number=Sing	6	_	_	start_char=100|end_char=107
+8	and	and	CCONJ	CC	_	7	_	_	start_char=108|end_char=111
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=112|end_char=115
+10	cried	cry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=116|end_char=121
+11	AGAIN	again	ADV	RB	_	10	_	_	start_char=122|end_char=127|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=127|end_char=128
+
+# text = that's when i began to feel awkward.
+# sent_id = 78432
+1-2	that's	_	_	_	_	_	_	_	start_char=129|end_char=135
+1	that	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=129|end_char=133
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=133|end_char=135
+3	when	when	ADV	WRB	PronType=Int	2	_	_	start_char=136|end_char=140
+4	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=141|end_char=142
+5	began	begin	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=143|end_char=148
+6	to	to	PART	TO	_	5	_	_	start_char=149|end_char=151
+7	feel	feel	VERB	VB	VerbForm=Inf	6	_	_	start_char=152|end_char=156
+8	awkward	awkward	ADJ	JJ	Degree=Pos	7	_	_	start_char=157|end_char=164|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=164|end_char=165|SpaceAfter=No
+

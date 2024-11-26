@@ -1,0 +1,52 @@
+# text = Yeah don’t come off as needy.
+# sent_id = 90066
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2-3	don’t	_	_	_	_	_	_	_	start_char=5|end_char=10
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	n’t	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	come	come	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=11|end_char=15
+5	off	off	ADP	RP	_	4	_	_	start_char=16|end_char=19
+6	as	as	ADP	IN	_	5	_	_	start_char=20|end_char=22
+7	needy	needy	ADJ	JJ	Degree=Pos	6	_	_	start_char=23|end_char=28|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=28|end_char=29
+
+# text = You shouldn’t text other than to talk logistics.
+# sent_id = 90067
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=30|end_char=33
+2-3	shouldn’t	_	_	_	_	_	_	_	start_char=34|end_char=43
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=34|end_char=40
+3	n’t	not	PART	RB	_	2	_	_	start_char=40|end_char=43
+4	text	text	VERB	VB	VerbForm=Inf	3	_	_	start_char=44|end_char=48
+5	other	other	ADJ	JJ	Degree=Pos	4	_	_	start_char=49|end_char=54
+6	than	than	SCONJ	IN	_	5	_	_	start_char=55|end_char=59
+7	to	to	PART	TO	_	6	_	_	start_char=60|end_char=62
+8	talk	talk	VERB	VB	VerbForm=Inf	7	_	_	start_char=63|end_char=67
+9	logistics	logistic	NOUN	NN	Number=Sing	8	_	_	start_char=68|end_char=77|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=77|end_char=78
+
+# text = Give her 48 hours to respond and when you do text do it to setup plans to hang out or your next call
+# sent_id = 90068
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=79|end_char=83
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=84|end_char=87
+3	48	48	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=88|end_char=90
+4	hours	hour	NOUN	NNS	Number=Plur	3	_	_	start_char=91|end_char=96
+5	to	to	PART	TO	_	4	_	_	start_char=97|end_char=99
+6	respond	respond	VERB	VB	VerbForm=Inf	5	_	_	start_char=100|end_char=107
+7	and	and	CCONJ	CC	_	6	_	_	start_char=108|end_char=111
+8	when	when	ADV	WRB	PronType=Int	7	_	_	start_char=112|end_char=116
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=117|end_char=120
+10	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=121|end_char=123
+11	text	text	VERB	VB	VerbForm=Inf	10	_	_	start_char=124|end_char=128
+12	do	do	VERB	VB	VerbForm=Inf	11	_	_	start_char=129|end_char=131
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=132|end_char=134
+14	to	to	PART	TO	_	13	_	_	start_char=135|end_char=137
+15	setup	setup	VERB	VB	VerbForm=Inf	14	_	_	start_char=138|end_char=143
+16	plans	plan	NOUN	NNS	Number=Plur	15	_	_	start_char=144|end_char=149
+17	to	to	PART	TO	_	16	_	_	start_char=150|end_char=152
+18	hang	hang	VERB	VB	VerbForm=Inf	17	_	_	start_char=153|end_char=157
+19	out	out	ADP	RP	_	18	_	_	start_char=158|end_char=161
+20	or	or	CCONJ	CC	_	19	_	_	start_char=162|end_char=164
+21	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	20	_	_	start_char=165|end_char=169
+22	next	next	ADJ	JJ	Degree=Pos	21	_	_	start_char=170|end_char=174
+23	call	call	NOUN	NN	Number=Sing	22	_	_	start_char=175|end_char=179|SpaceAfter=No
+

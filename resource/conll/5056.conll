@@ -1,0 +1,45 @@
+# text = [USER] Maybe Her Highness doesn't give a crap getting others sick.
+# sent_id = 10668
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	Maybe	maybe	ADV	RB	_	3	_	_	start_char=7|end_char=12
+5	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=13|end_char=16
+6	Highness	Highness	PROPN	NNP	Number=Sing	5	_	_	start_char=17|end_char=25
+7-8	doesn't	_	_	_	_	_	_	_	start_char=26|end_char=33
+7	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=26|end_char=30
+8	n't	not	PART	RB	_	7	_	_	start_char=30|end_char=33
+9	give	give	VERB	VB	VerbForm=Inf	8	_	_	start_char=34|end_char=38
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=39|end_char=40
+11	crap	crap	NOUN	NN	Number=Sing	10	_	_	start_char=41|end_char=45
+12	getting	get	VERB	VBG	VerbForm=Ger	11	_	_	start_char=46|end_char=53
+13	others	other	NOUN	NNS	Number=Plur	12	_	_	start_char=54|end_char=60
+14	sick	sick	ADJ	JJ	Degree=Pos	13	_	_	start_char=61|end_char=65|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=65|end_char=66
+
+# text = Sounds about right to me.
+# sent_id = 10669
+1	Sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=67|end_char=73
+2	about	about	ADV	RB	_	1	_	_	start_char=74|end_char=79
+3	right	right	ADV	RB	_	2	_	_	start_char=80|end_char=85
+4	to	to	ADP	IN	_	3	_	_	start_char=86|end_char=88
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=89|end_char=91|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=91|end_char=92
+
+# text = They staged some little girl running up to hug The Pneumonia Ridden One.
+# sent_id = 10670
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=93|end_char=97
+2	staged	stage	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=98|end_char=104
+3	some	some	DET	DT	_	2	_	_	start_char=105|end_char=109
+4	little	little	ADJ	JJ	Degree=Pos	3	_	_	start_char=110|end_char=116
+5	girl	girl	NOUN	NN	Number=Sing	4	_	_	start_char=117|end_char=121
+6	running	run	VERB	VBG	VerbForm=Ger	5	_	_	start_char=122|end_char=129
+7	up	up	ADP	RP	_	6	_	_	start_char=130|end_char=132
+8	to	to	PART	TO	_	7	_	_	start_char=133|end_char=135
+9	hug	hug	VERB	VB	VerbForm=Inf	8	_	_	start_char=136|end_char=139
+10	The	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=140|end_char=143
+11	Pneumonia	Pneumonia	PROPN	NNP	Number=Sing	10	_	_	start_char=144|end_char=153
+12	Ridden	ride	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=154|end_char=160
+13	One	one	NUM	CD	NumForm=Word|NumType=Card	12	_	_	start_char=161|end_char=164|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=164|end_char=165|SpaceAfter=No
+

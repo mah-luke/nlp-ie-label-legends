@@ -1,0 +1,68 @@
+# text = This.
+# sent_id = 107963
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = If you're not looking for anything serious, tell her that you're not looking for anything serious.
+# sent_id = 107964
+1	If	if	SCONJ	IN	_	0	_	_	start_char=6|end_char=8
+2-3	you're	_	_	_	_	_	_	_	start_char=9|end_char=15
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=9|end_char=12
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=15
+4	not	not	PART	RB	_	3	_	_	start_char=16|end_char=19
+5	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=20|end_char=27
+6	for	for	ADP	IN	_	5	_	_	start_char=28|end_char=31
+7	anything	anything	PRON	NN	Number=Sing|PronType=Ind	6	_	_	start_char=32|end_char=40
+8	serious	serious	ADJ	JJ	Degree=Pos	7	_	_	start_char=41|end_char=48|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=48|end_char=49
+10	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=50|end_char=54
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=55|end_char=58
+12	that	that	SCONJ	IN	_	11	_	_	start_char=59|end_char=63
+13-14	you're	_	_	_	_	_	_	_	start_char=64|end_char=70
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=64|end_char=67
+14	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	_	_	start_char=67|end_char=70
+15	not	not	PART	RB	_	14	_	_	start_char=71|end_char=74
+16	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	15	_	_	start_char=75|end_char=82
+17	for	for	ADP	IN	_	16	_	_	start_char=83|end_char=86
+18	anything	anything	PRON	NN	Number=Sing|PronType=Ind	17	_	_	start_char=87|end_char=95
+19	serious	serious	ADJ	JJ	Degree=Pos	18	_	_	start_char=96|end_char=103|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=103|end_char=104
+
+# text = If she's interested, cool.
+# sent_id = 107965
+1	If	if	SCONJ	IN	_	0	_	_	start_char=105|end_char=107
+2-3	she's	_	_	_	_	_	_	_	start_char=108|end_char=113
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=108|end_char=111
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=111|end_char=113
+4	interested	interested	ADJ	JJ	Degree=Pos	3	_	_	start_char=114|end_char=124|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=124|end_char=125
+6	cool	cool	ADJ	JJ	Degree=Pos	5	_	_	start_char=126|end_char=130|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=130|end_char=131
+
+# text = If not, move on.
+# sent_id = 107966
+1	If	if	SCONJ	IN	_	0	_	_	start_char=132|end_char=134
+2	not	not	PART	RB	_	1	_	_	start_char=135|end_char=138|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=138|end_char=139
+4	move	move	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=140|end_char=144
+5	on	on	ADP	RP	_	4	_	_	start_char=145|end_char=147|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=147|end_char=148
+
+# text = Deceiving her will do nothing but cause misery for you both down the line.
+# sent_id = 107967
+1	Deceiving	deceive	VERB	VBG	VerbForm=Ger	0	_	_	start_char=149|end_char=158
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=159|end_char=162
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=163|end_char=167
+4	do	do	VERB	VB	VerbForm=Inf	3	_	_	start_char=168|end_char=170
+5	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	4	_	_	start_char=171|end_char=178
+6	but	but	CCONJ	CC	_	5	_	_	start_char=179|end_char=182
+7	cause	cause	VERB	VB	VerbForm=Inf	6	_	_	start_char=183|end_char=188
+8	misery	misery	NOUN	NN	Number=Sing	7	_	_	start_char=189|end_char=195
+9	for	for	ADP	IN	_	8	_	_	start_char=196|end_char=199
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	_	_	start_char=200|end_char=203
+11	both	both	DET	DT	_	10	_	_	start_char=204|end_char=208
+12	down	down	ADP	IN	_	11	_	_	start_char=209|end_char=213
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=214|end_char=217
+14	line	line	NOUN	NN	Number=Sing	13	_	_	start_char=218|end_char=222|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=222|end_char=223|SpaceAfter=No
+

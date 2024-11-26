@@ -1,0 +1,50 @@
+# text = That was great.
+# sent_id = 55243
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	great	great	ADJ	JJ	Degree=Pos	2	_	_	start_char=9|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = She hit that elitist fag right between the eyes, just like I wanted her to do.
+# sent_id = 55244
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=16|end_char=19
+2	hit	hit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=20|end_char=23
+3	that	that	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=24|end_char=28
+4	elitist	elitist	ADJ	JJ	Degree=Pos	3	_	_	start_char=29|end_char=36
+5	fag	fag	NOUN	NN	Number=Sing	4	_	_	start_char=37|end_char=40
+6	right	right	ADV	RB	_	5	_	_	start_char=41|end_char=46
+7	between	between	ADP	IN	_	6	_	_	start_char=47|end_char=54
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=55|end_char=58
+9	eyes	eye	NOUN	NNS	Number=Plur	8	_	_	start_char=59|end_char=63|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=63|end_char=64
+11	just	just	ADV	RB	_	10	_	_	start_char=65|end_char=69
+12	like	like	SCONJ	IN	_	11	_	_	start_char=70|end_char=74
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=75|end_char=76
+14	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	13	_	_	start_char=77|end_char=83
+15	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=84|end_char=87
+16	to	to	PART	TO	_	15	_	_	start_char=88|end_char=90
+17	do	do	VERB	VB	VerbForm=Inf	16	_	_	start_char=91|end_char=93|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=93|end_char=94
+
+# text = An excellent 99 second video.
+# sent_id = 55245
+1	An	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=95|end_char=97
+2	excellent	excellent	ADJ	JJ	Degree=Pos	1	_	_	start_char=98|end_char=107
+3	99	99	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=108|end_char=110
+4	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	3	_	_	start_char=111|end_char=117
+5	video	video	NOUN	NN	Number=Sing	4	_	_	start_char=118|end_char=123|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=123|end_char=124
+
+# text = #GabFam #BritFam #WakeUp #KatieHopkins #DestructiveAndEffeteBritishElite
+# sent_id = 55246
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=125|end_char=126|SpaceAfter=No
+2	GabFam	gabfam	X	GW	_	1	_	_	start_char=126|end_char=132
+3	#	#	X	GW	_	2	_	_	start_char=133|end_char=134|SpaceAfter=No
+4	BritFam	britfam	X	GW	_	3	_	_	start_char=134|end_char=141
+5	#	#	X	GW	_	4	_	_	start_char=142|end_char=143|SpaceAfter=No
+6	WakeUp	wakeup	X	GW	_	5	_	_	start_char=143|end_char=149
+7	#	#	X	NN	_	6	_	_	start_char=150|end_char=151|SpaceAfter=No
+8	KatieHopkins	katieHopkin	X	GW	_	7	_	_	start_char=151|end_char=163
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=164|end_char=165|SpaceAfter=No
+10	DestructiveAndEffeteBritishElite	destructiveandeffetebritishelite	X	ADD	_	9	_	_	start_char=165|end_char=197|SpaceAfter=No
+

@@ -1,0 +1,45 @@
+# text = Just reverse the genders.
+# sent_id = 22725
+1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	reverse	reverse	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=12
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=13|end_char=16
+4	genders	gender	NOUN	NNS	Number=Plur	3	_	_	start_char=17|end_char=24|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=24|end_char=25
+
+# text = A more useful article would show you the prices of identical products with gender specific packaging.
+# sent_id = 22726
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=26|end_char=27
+2	more	more	ADV	RBR	Degree=Cmp	1	_	_	start_char=28|end_char=32
+3	useful	useful	ADJ	JJ	Degree=Pos	2	_	_	start_char=33|end_char=39
+4	article	article	NOUN	NN	Number=Sing	3	_	_	start_char=40|end_char=47
+5	would	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=48|end_char=53
+6	show	show	VERB	VB	VerbForm=Inf	5	_	_	start_char=54|end_char=58
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=59|end_char=62
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=63|end_char=66
+9	prices	price	NOUN	NNS	Number=Plur	8	_	_	start_char=67|end_char=73
+10	of	of	ADP	IN	_	9	_	_	start_char=74|end_char=76
+11	identical	identical	ADJ	JJ	Degree=Pos	10	_	_	start_char=77|end_char=86
+12	products	product	NOUN	NNS	Number=Plur	11	_	_	start_char=87|end_char=95
+13	with	with	ADP	IN	_	12	_	_	start_char=96|end_char=100
+14	gender	gender	NOUN	NN	Number=Sing	13	_	_	start_char=101|end_char=107
+15	specific	specific	ADJ	JJ	Degree=Pos	14	_	_	start_char=108|end_char=116
+16	packaging	packaging	NOUN	NN	Number=Sing	15	_	_	start_char=117|end_char=126|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=126|end_char=127
+
+# text = Some things are sold at higher prices to men but not to women.
+# sent_id = 22727
+1	Some	some	DET	DT	_	0	_	_	start_char=128|end_char=132
+2	things	thing	NOUN	NNS	Number=Plur	1	_	_	start_char=133|end_char=139
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=140|end_char=143
+4	sold	sell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=144|end_char=148
+5	at	at	ADP	IN	_	4	_	_	start_char=149|end_char=151
+6	higher	high	ADJ	JJR	Degree=Cmp	5	_	_	start_char=152|end_char=158
+7	prices	price	NOUN	NNS	Number=Plur	6	_	_	start_char=159|end_char=165
+8	to	to	ADP	IN	_	7	_	_	start_char=166|end_char=168
+9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=169|end_char=172
+10	but	but	CCONJ	CC	_	9	_	_	start_char=173|end_char=176
+11	not	not	PART	RB	_	10	_	_	start_char=177|end_char=180
+12	to	to	ADP	IN	_	11	_	_	start_char=181|end_char=183
+13	women	woman	NOUN	NNS	Number=Plur	12	_	_	start_char=184|end_char=189|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=189|end_char=190|SpaceAfter=No
+

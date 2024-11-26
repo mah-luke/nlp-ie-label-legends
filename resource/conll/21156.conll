@@ -1,0 +1,39 @@
+# text = [USER] no that's a water chemical Mixture they use to put out forest fires.
+# sent_id = 45435
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	no	no	INTJ	UH	_	3	_	_	start_char=7|end_char=9
+5-6	that's	_	_	_	_	_	_	_	start_char=10|end_char=16
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=10|end_char=14
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=14|end_char=16
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=17|end_char=18
+8	water	water	NOUN	NN	Number=Sing	7	_	_	start_char=19|end_char=24
+9	chemical	chemical	NOUN	NN	Number=Sing	8	_	_	start_char=25|end_char=33
+10	Mixture	mixture	NOUN	NN	Number=Sing	9	_	_	start_char=34|end_char=41
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=42|end_char=46
+12	use	use	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=47|end_char=50
+13	to	to	PART	TO	_	12	_	_	start_char=51|end_char=53
+14	put	put	VERB	VB	VerbForm=Inf	13	_	_	start_char=54|end_char=57
+15	out	out	ADP	RP	_	14	_	_	start_char=58|end_char=61
+16	forest	forest	NOUN	NN	Number=Sing	15	_	_	start_char=62|end_char=68
+17	fires	fire	NOUN	NNS	Number=Plur	16	_	_	start_char=69|end_char=74|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=74|end_char=75
+
+# text = but it does get the point as I see in you're reaction
+# sent_id = 45436
+1	but	but	CCONJ	CC	_	0	_	_	start_char=76|end_char=79
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=80|end_char=82
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=83|end_char=87
+4	get	get	VERB	VB	VerbForm=Inf	3	_	_	start_char=88|end_char=91
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=92|end_char=95
+6	point	point	NOUN	NN	Number=Sing	5	_	_	start_char=96|end_char=101
+7	as	as	SCONJ	IN	_	6	_	_	start_char=102|end_char=104
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=105|end_char=106
+9	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=107|end_char=110
+10	in	in	ADP	IN	_	9	_	_	start_char=111|end_char=113
+11-12	you're	_	_	_	_	_	_	_	start_char=114|end_char=120
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=114|end_char=117
+12	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=117|end_char=120
+13	reaction	reaction	NOUN	NN	Number=Sing	12	_	_	start_char=121|end_char=129|SpaceAfter=No
+

@@ -1,0 +1,70 @@
+# text = Don't put her on a pedestal.
+# sent_id = 72538
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	put	put	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=9
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=10|end_char=13
+5	on	on	ADP	IN	_	4	_	_	start_char=14|end_char=16
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=17|end_char=18
+7	pedestal	pedestal	NOUN	NN	Number=Sing	6	_	_	start_char=19|end_char=27|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=27|end_char=28
+
+# text = It seems like you already know she's trying to use you.
+# sent_id = 72539
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=29|end_char=31
+2	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=37
+3	like	like	SCONJ	IN	_	2	_	_	start_char=38|end_char=42
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=43|end_char=46
+5	already	already	ADV	RB	_	4	_	_	start_char=47|end_char=54
+6	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=55|end_char=59
+7-8	she's	_	_	_	_	_	_	_	start_char=60|end_char=65
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=60|end_char=63
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=63|end_char=65
+9	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=66|end_char=72
+10	to	to	PART	TO	_	9	_	_	start_char=73|end_char=75
+11	use	use	VERB	VB	VerbForm=Inf	10	_	_	start_char=76|end_char=79
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	_	_	start_char=80|end_char=83|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=83|end_char=84
+
+# text = I would honestly recommend for you to stay away from this girl.
+# sent_id = 72540
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=85|end_char=86
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=87|end_char=92
+3	honestly	honestly	ADV	RB	_	2	_	_	start_char=93|end_char=101
+4	recommend	recommend	VERB	VB	VerbForm=Inf	3	_	_	start_char=102|end_char=111
+5	for	for	SCONJ	IN	_	4	_	_	start_char=112|end_char=115
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=116|end_char=119
+7	to	to	PART	TO	_	6	_	_	start_char=120|end_char=122
+8	stay	stay	VERB	VB	VerbForm=Inf	7	_	_	start_char=123|end_char=127
+9	away	away	ADV	RB	_	8	_	_	start_char=128|end_char=132
+10	from	from	ADP	IN	_	9	_	_	start_char=133|end_char=137
+11	this	this	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=138|end_char=142
+12	girl	girl	NOUN	NN	Number=Sing	11	_	_	start_char=143|end_char=147|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=147|end_char=148
+
+# text = You might get emotional satisfaction in the short run but in the long run, you'll get screwed over.
+# sent_id = 72541
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=149|end_char=152
+2	might	might	AUX	MD	VerbForm=Fin	1	_	_	start_char=153|end_char=158
+3	get	get	VERB	VB	VerbForm=Inf	2	_	_	start_char=159|end_char=162
+4	emotional	emotional	ADJ	JJ	Degree=Pos	3	_	_	start_char=163|end_char=172
+5	satisfaction	satisfaction	NOUN	NN	Number=Sing	4	_	_	start_char=173|end_char=185
+6	in	in	ADP	IN	_	5	_	_	start_char=186|end_char=188
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=189|end_char=192
+8	short	short	ADJ	JJ	Degree=Pos	7	_	_	start_char=193|end_char=198
+9	run	run	NOUN	NN	Number=Sing	8	_	_	start_char=199|end_char=202
+10	but	but	CCONJ	CC	_	9	_	_	start_char=203|end_char=206
+11	in	in	ADP	IN	_	10	_	_	start_char=207|end_char=209
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=210|end_char=213
+13	long	long	ADJ	JJ	Degree=Pos	12	_	_	start_char=214|end_char=218
+14	run	run	NOUN	NN	Number=Sing	13	_	_	start_char=219|end_char=222|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=222|end_char=223
+16-17	you'll	_	_	_	_	_	_	_	start_char=224|end_char=230
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	_	_	start_char=224|end_char=227
+17	'll	will	AUX	MD	VerbForm=Fin	16	_	_	start_char=227|end_char=230
+18	get	get	AUX	VB	VerbForm=Inf	17	_	_	start_char=231|end_char=234
+19	screwed	screw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	_	_	start_char=235|end_char=242
+20	over	over	ADP	RP	_	19	_	_	start_char=243|end_char=247|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=247|end_char=248|SpaceAfter=No
+

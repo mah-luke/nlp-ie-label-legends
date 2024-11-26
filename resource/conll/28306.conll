@@ -1,0 +1,46 @@
+# text = Large-breasted women tend to be Democrats.
+# sent_id = 60760
+1	Large	large	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	-	-	PUNCT	HYPH	_	1	_	_	start_char=5|end_char=6|SpaceAfter=No
+3	breasted	breasted	ADJ	JJ	Degree=Pos	2	_	_	start_char=6|end_char=14
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=15|end_char=20
+5	tend	tend	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=21|end_char=25
+6	to	to	PART	TO	_	5	_	_	start_char=26|end_char=28
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=29|end_char=31
+8	Democrats	Democrat	PROPN	NNPS	Number=Plur	7	_	_	start_char=32|end_char=41|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=41|end_char=42
+
+# text = You should only be a Republican if you are ALREADY rich.
+# sent_id = 60761
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=43|end_char=46
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=47|end_char=53
+3	only	only	ADV	RB	_	2	_	_	start_char=54|end_char=58
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=59|end_char=61
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=62|end_char=63
+6	Republican	Republican	PROPN	NNP	Number=Sing	5	_	_	start_char=64|end_char=74
+7	if	if	SCONJ	IN	_	6	_	_	start_char=75|end_char=77
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=78|end_char=81
+9	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=82|end_char=85
+10	ALREADY	already	ADV	RB	_	9	_	_	start_char=86|end_char=93
+11	rich	rich	ADJ	JJ	Degree=Pos	10	_	_	start_char=94|end_char=98|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=98|end_char=99
+
+# text = The choice should be clear, my friends.
+# sent_id = 60762
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=100|end_char=103
+2	choice	choice	NOUN	NN	Number=Sing	1	_	_	start_char=104|end_char=110
+3	should	should	AUX	MD	VerbForm=Fin	2	_	_	start_char=111|end_char=117
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=118|end_char=120
+5	clear	clear	ADJ	JJ	Degree=Pos	4	_	_	start_char=121|end_char=126|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=126|end_char=127
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=128|end_char=130
+8	friends	friend	NOUN	NNS	Number=Plur	7	_	_	start_char=131|end_char=138|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=138|end_char=139
+
+# text = JOIN THE DEMOCRATIC PARTY
+# sent_id = 60763
+1	JOIN	join	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=140|end_char=144
+2	THE	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=145|end_char=148
+3	DEMOCRATIC	democratic	ADJ	JJ	Degree=Pos	2	_	_	start_char=149|end_char=159
+4	PARTY	party	NOUN	NN	Number=Sing	3	_	_	start_char=160|end_char=165|SpaceAfter=No
+

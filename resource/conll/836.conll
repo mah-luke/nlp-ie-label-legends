@@ -1,0 +1,28 @@
+# text = She isnt her child.
+# sent_id = 1756
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2-3	isnt	_	_	_	_	_	_	_	start_char=4|end_char=8
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	nt	not	PART	RB	_	2	_	_	start_char=6|end_char=8
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=9|end_char=12
+5	child	child	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=18|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=18|end_char=19
+
+# text = That's probably why she was a-ok with hurting the child.
+# sent_id = 1757
+1-2	That's	_	_	_	_	_	_	_	start_char=20|end_char=26
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=20|end_char=24
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=24|end_char=26
+3	probably	probably	ADV	RB	_	2	_	_	start_char=27|end_char=35
+4	why	why	ADV	WRB	PronType=Rel	3	_	_	start_char=36|end_char=39
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=40|end_char=43
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=44|end_char=47
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=48|end_char=49|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	_	_	start_char=49|end_char=50|SpaceAfter=No
+9	ok	ok	ADJ	JJ	Degree=Pos	8	_	_	start_char=50|end_char=52
+10	with	with	SCONJ	IN	_	9	_	_	start_char=53|end_char=57
+11	hurting	hurt	VERB	VBG	VerbForm=Ger	10	_	_	start_char=58|end_char=65
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=66|end_char=69
+13	child	child	NOUN	NN	Number=Sing	12	_	_	start_char=70|end_char=75|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=75|end_char=76|SpaceAfter=No
+

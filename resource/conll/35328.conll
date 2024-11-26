@@ -1,0 +1,45 @@
+# text = To me he sounds like a jerk.
+# sent_id = 75588
+1	To	to	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=6|end_char=8
+4	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=9|end_char=15
+5	like	like	ADP	IN	_	4	_	_	start_char=16|end_char=20
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=21|end_char=22
+7	jerk	jerk	NOUN	NN	Number=Sing	6	_	_	start_char=23|end_char=27|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=27|end_char=28
+
+# text = He's basically saying to guys who lack social fluency and can't realistically attain it... "forget it, girls don't want you."
+# sent_id = 75589
+1-2	He's	_	_	_	_	_	_	_	start_char=29|end_char=33
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=29|end_char=31
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=33
+3	basically	basically	ADV	RB	_	2	_	_	start_char=34|end_char=43
+4	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=44|end_char=50
+5	to	to	ADP	IN	_	4	_	_	start_char=51|end_char=53
+6	guys	guy	NOUN	NNS	Number=Plur	5	_	_	start_char=54|end_char=58
+7	who	who	PRON	WP	PronType=Rel	6	_	_	start_char=59|end_char=62
+8	lack	lack	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=63|end_char=67
+9	social	social	ADJ	JJ	Degree=Pos	8	_	_	start_char=68|end_char=74
+10	fluency	fluency	NOUN	NN	Number=Sing	9	_	_	start_char=75|end_char=82
+11	and	and	CCONJ	CC	_	10	_	_	start_char=83|end_char=86
+12-13	can't	_	_	_	_	_	_	_	start_char=87|end_char=92
+12	ca	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=87|end_char=89
+13	n't	not	PART	RB	_	12	_	_	start_char=89|end_char=92
+14	realistically	realistically	ADV	RB	_	13	_	_	start_char=93|end_char=106
+15	attain	attain	VERB	VB	VerbForm=Inf	14	_	_	start_char=107|end_char=113
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=114|end_char=116|SpaceAfter=No
+17	...	...	PUNCT	,	_	16	_	_	start_char=116|end_char=119
+18	"	"	PUNCT	``	_	17	_	_	start_char=120|end_char=121|SpaceAfter=No
+19	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	18	_	_	start_char=121|end_char=127
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=128|end_char=130|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	_	_	start_char=130|end_char=131
+22	girls	girl	NOUN	NNS	Number=Plur	21	_	_	start_char=132|end_char=137
+23-24	don't	_	_	_	_	_	_	_	start_char=138|end_char=143
+23	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=138|end_char=140
+24	n't	not	PART	RB	_	23	_	_	start_char=140|end_char=143
+25	want	want	VERB	VB	VerbForm=Inf	24	_	_	start_char=144|end_char=148
+26	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	25	_	_	start_char=149|end_char=152|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=152|end_char=153|SpaceAfter=No
+28	"	"	PUNCT	''	_	27	_	_	start_char=153|end_char=154|SpaceAfter=No
+

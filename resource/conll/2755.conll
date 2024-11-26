@@ -1,0 +1,71 @@
+# text = I wouldn't say they act any different except situations have changed.
+# sent_id = 5876
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	wouldn't	_	_	_	_	_	_	_	start_char=2|end_char=10
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=2|end_char=7
+3	n't	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	say	say	VERB	VB	VerbForm=Inf	3	_	_	start_char=11|end_char=14
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=15|end_char=19
+6	act	act	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=20|end_char=23
+7	any	any	DET	DT	_	6	_	_	start_char=24|end_char=27
+8	different	different	ADJ	JJ	Degree=Pos	7	_	_	start_char=28|end_char=37
+9	except	except	ADP	IN	_	8	_	_	start_char=38|end_char=44
+10	situations	situation	NOUN	NNS	Number=Plur	9	_	_	start_char=45|end_char=55
+11	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=56|end_char=60
+12	changed	change	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=61|end_char=68|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=68|end_char=69
+
+# text = The girls in my age group are either married/divorced/have a kid or two/have major baggage.
+# sent_id = 5877
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=70|end_char=73
+2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=74|end_char=79
+3	in	in	ADP	IN	_	2	_	_	start_char=80|end_char=82
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=83|end_char=85
+5	age	age	NOUN	NN	Number=Sing	4	_	_	start_char=86|end_char=89
+6	group	group	NOUN	NN	Number=Sing	5	_	_	start_char=90|end_char=95
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=96|end_char=99
+8	either	either	CCONJ	CC	_	7	_	_	start_char=100|end_char=106
+9	married	married	ADJ	JJ	Degree=Pos	8	_	_	start_char=107|end_char=114|SpaceAfter=No
+10	/	/	SYM	,	_	9	_	_	start_char=114|end_char=115|SpaceAfter=No
+11	divorced	divorce	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=115|end_char=123|SpaceAfter=No
+12	/	/	SYM	,	_	11	_	_	start_char=123|end_char=124|SpaceAfter=No
+13	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=124|end_char=128
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=129|end_char=130
+15	kid	kid	NOUN	NN	Number=Sing	14	_	_	start_char=131|end_char=134
+16	or	or	CCONJ	CC	_	15	_	_	start_char=135|end_char=137
+17	two	two	NUM	CD	NumForm=Word|NumType=Card	16	_	_	start_char=138|end_char=141|SpaceAfter=No
+18	/	/	SYM	,	_	17	_	_	start_char=141|end_char=142|SpaceAfter=No
+19	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=142|end_char=146
+20	major	major	ADJ	JJ	Degree=Pos	19	_	_	start_char=147|end_char=152
+21	baggage	baggage	NOUN	NN	Number=Sing	20	_	_	start_char=153|end_char=160|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=160|end_char=161
+
+# text = The rest are looking to settle down and have kids.
+# sent_id = 5878
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=162|end_char=165
+2	rest	rest	NOUN	NN	Number=Sing	1	_	_	start_char=166|end_char=170
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=171|end_char=174
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=175|end_char=182
+5	to	to	PART	TO	_	4	_	_	start_char=183|end_char=185
+6	settle	settle	VERB	VB	VerbForm=Inf	5	_	_	start_char=186|end_char=192
+7	down	down	ADP	RP	_	6	_	_	start_char=193|end_char=197
+8	and	and	CCONJ	CC	_	7	_	_	start_char=198|end_char=201
+9	have	have	VERB	VB	VerbForm=Inf	8	_	_	start_char=202|end_char=206
+10	kids	kid	NOUN	NNS	Number=Plur	9	_	_	start_char=207|end_char=211|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=211|end_char=212
+
+# text = Or at least get married.
+# sent_id = 5879
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=213|end_char=215
+2	at	at	ADP	IN	ExtPos=ADV	1	_	_	start_char=216|end_char=218
+3	least	least	ADJ	JJS	Degree=Sup	2	_	_	start_char=219|end_char=224
+4	get	get	AUX	VB	VerbForm=Inf	3	_	_	start_char=225|end_char=228
+5	married	married	ADJ	JJ	Degree=Pos	4	_	_	start_char=229|end_char=236|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=236|end_char=237
+
+# text = It sucks lol
+# sent_id = 5880
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=238|end_char=240
+2	sucks	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=241|end_char=246
+3	lol	lol	INTJ	UH	_	2	_	_	start_char=247|end_char=250|SpaceAfter=No
+

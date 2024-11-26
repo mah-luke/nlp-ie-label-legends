@@ -1,0 +1,36 @@
+# text = My Korean neighbour is brilliant with animals.
+# sent_id = 48618
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	Korean	Korean	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=9
+3	neighbour	neighbour	NOUN	NN	Number=Sing	2	_	_	start_char=10|end_char=19
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=20|end_char=22
+5	brilliant	brilliant	ADJ	JJ	Degree=Pos	4	_	_	start_char=23|end_char=32
+6	with	with	ADP	IN	_	5	_	_	start_char=33|end_char=37
+7	animals	animal	NOUN	NNS	Number=Plur	6	_	_	start_char=38|end_char=45|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=45|end_char=46
+
+# text = He got his daughter a puppy for her birthday last week, and I haven't heard it bark once.
+# sent_id = 48619
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=47|end_char=49
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=50|end_char=53
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=54|end_char=57
+4	daughter	daughter	NOUN	NN	Number=Sing	3	_	_	start_char=58|end_char=66
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=67|end_char=68
+6	puppy	puppy	NOUN	NN	Number=Sing	5	_	_	start_char=69|end_char=74
+7	for	for	ADP	IN	_	6	_	_	start_char=75|end_char=78
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=79|end_char=82
+9	birthday	birthday	NOUN	NN	Number=Sing	8	_	_	start_char=83|end_char=91
+10	last	last	ADJ	JJ	Degree=Pos	9	_	_	start_char=92|end_char=96
+11	week	week	NOUN	NN	Number=Sing	10	_	_	start_char=97|end_char=101|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=101|end_char=102
+13	and	and	CCONJ	CC	_	12	_	_	start_char=103|end_char=106
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=107|end_char=108
+15-16	haven't	_	_	_	_	_	_	_	start_char=109|end_char=116
+15	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	_	_	start_char=109|end_char=113
+16	n't	not	PART	RB	_	15	_	_	start_char=113|end_char=116
+17	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	16	_	_	start_char=117|end_char=122
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=123|end_char=125
+19	bark	bark	NOUN	NN	Number=Sing	18	_	_	start_char=126|end_char=130
+20	once	once	ADV	RB	NumType=Mult	19	_	_	start_char=131|end_char=135|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=135|end_char=136|SpaceAfter=No
+

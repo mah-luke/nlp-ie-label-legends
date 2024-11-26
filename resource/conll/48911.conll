@@ -1,0 +1,44 @@
+# text = [URL] "Earlier this year, the museum let her go, though the circumstances of her departure remain unclear."
+# sent_id = 104569
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+4	"	"	PUNCT	''	_	3	_	_	start_char=6|end_char=7|SpaceAfter=No
+5	Earlier	early	ADV	RBR	Degree=Cmp	4	_	_	start_char=7|end_char=14
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=15|end_char=19
+7	year	year	NOUN	NN	Number=Sing	6	_	_	start_char=20|end_char=24|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=24|end_char=25
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=26|end_char=29
+10	museum	museum	NOUN	NN	Number=Sing	9	_	_	start_char=30|end_char=36
+11	let	let	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=37|end_char=40
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=41|end_char=44
+13	go	go	VERB	VB	VerbForm=Inf	12	_	_	start_char=45|end_char=47|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=47|end_char=48
+15	though	though	SCONJ	IN	_	14	_	_	start_char=49|end_char=55
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=56|end_char=59
+17	circumstances	circumstance	NOUN	NNS	Number=Plur	16	_	_	start_char=60|end_char=73
+18	of	of	ADP	IN	_	17	_	_	start_char=74|end_char=76
+19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=77|end_char=80
+20	departure	departure	NOUN	NN	Number=Sing	19	_	_	start_char=81|end_char=90
+21	remain	remain	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=91|end_char=97
+22	unclear	unclear	ADJ	JJ	Degree=Pos	21	_	_	start_char=98|end_char=105|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=105|end_char=106|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	_	_	start_char=106|end_char=107
+
+# text = Uh, no, we know why she as 'let go'.
+# sent_id = 104570
+1	Uh	uh	INTJ	UH	_	0	_	_	start_char=108|end_char=110|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=110|end_char=111
+3	no	no	INTJ	UH	Polarity=Neg	2	_	_	start_char=112|end_char=114|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=114|end_char=115
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=116|end_char=118
+6	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=119|end_char=123
+7	why	why	ADV	WRB	PronType=Int	6	_	_	start_char=124|end_char=127
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=128|end_char=131
+9	as	as	ADP	IN	_	8	_	_	start_char=132|end_char=134
+10	'	'	PUNCT	``	_	9	_	_	start_char=135|end_char=136|SpaceAfter=No
+11	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=136|end_char=139
+12	go	go	VERB	VB	VerbForm=Inf	11	_	_	start_char=140|end_char=142|SpaceAfter=No
+13	'	'	PUNCT	''	_	12	_	_	start_char=142|end_char=143|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=143|end_char=144|SpaceAfter=No
+

@@ -1,0 +1,27 @@
+# text = That's a classic.
+# sent_id = 92156
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=8
+4	classic	classic	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=16|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=16|end_char=17
+
+# text = The dumb cunt doesn't even know the guy she's calling.
+# sent_id = 92157
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=18|end_char=21
+2	dumb	dumb	ADJ	JJ	Degree=Pos	1	_	_	start_char=22|end_char=26
+3	cunt	cunt	NOUN	NN	Number=Sing	2	_	_	start_char=27|end_char=31
+4-5	doesn't	_	_	_	_	_	_	_	start_char=32|end_char=39
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=32|end_char=36
+5	n't	not	PART	RB	_	4	_	_	start_char=36|end_char=39
+6	even	even	ADV	RB	_	5	_	_	start_char=40|end_char=44
+7	know	know	VERB	VB	VerbForm=Inf	6	_	_	start_char=45|end_char=49
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=50|end_char=53
+9	guy	guy	NOUN	NN	Number=Sing	8	_	_	start_char=54|end_char=57
+10-11	she's	_	_	_	_	_	_	_	start_char=58|end_char=63
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=58|end_char=61
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=61|end_char=63
+12	calling	call	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=64|end_char=71|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=71|end_char=72|SpaceAfter=No
+

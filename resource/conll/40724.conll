@@ -1,0 +1,28 @@
+# text = Nostradamus Tomahawk [URL]
+# sent_id = 87145
+1	Nostradamus	Nostradamus	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=11
+2	Tomahawk	Tomahawk	PROPN	NNP	Number=Sing	1	_	_	start_char=12|end_char=20
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=21|end_char=22|SpaceAfter=No
+4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=22|end_char=25|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=25|end_char=26
+
+# text = At home in his mom's basement thinking he's smarter than everyone else.
+# sent_id = 87146
+1	At	at	ADP	IN	_	0	_	_	start_char=27|end_char=29
+2	home	home	NOUN	NN	Number=Sing	1	_	_	start_char=30|end_char=34
+3	in	in	ADP	IN	_	2	_	_	start_char=35|end_char=37
+4	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=38|end_char=41
+5-6	mom's	_	_	_	_	_	_	_	start_char=42|end_char=47
+5	mom	mom	NOUN	NN	Number=Sing	4	_	_	start_char=42|end_char=45
+6	's	's	PART	POS	_	5	_	_	start_char=45|end_char=47
+7	basement	basement	NOUN	NN	Number=Sing	6	_	_	start_char=48|end_char=56
+8	thinking	think	VERB	VBG	VerbForm=Ger	7	_	_	start_char=57|end_char=65
+9-10	he's	_	_	_	_	_	_	_	start_char=66|end_char=70
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=66|end_char=68
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=68|end_char=70
+11	smarter	smart	ADJ	JJR	Degree=Cmp	10	_	_	start_char=71|end_char=78
+12	than	than	ADP	IN	_	11	_	_	start_char=79|end_char=83
+13	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	12	_	_	start_char=84|end_char=92
+14	else	else	ADJ	JJ	Degree=Pos	13	_	_	start_char=93|end_char=97|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=97|end_char=98|SpaceAfter=No
+

@@ -1,0 +1,50 @@
+# text = *Always* live and let live.
+# sent_id = 94806
+1	*	*	PUNCT	NFP	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Always	Always	ADV	RB	_	1	_	_	start_char=1|end_char=7|SpaceAfter=No
+3	*	*	PUNCT	NFP	_	2	_	_	start_char=7|end_char=8
+4	live	live	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=9|end_char=13
+5	and	and	CCONJ	CC	_	4	_	_	start_char=14|end_char=17
+6	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=18|end_char=21
+7	live	live	VERB	VB	VerbForm=Inf	6	_	_	start_char=22|end_char=26|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=26|end_char=27
+
+# text = Provided of course that what you let live has is not an attack on someone else.
+# sent_id = 94807
+1	Provided	provide	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=28|end_char=36
+2	of	of	ADP	IN	ExtPos=ADV	1	_	_	start_char=37|end_char=39
+3	course	course	NOUN	NN	Number=Sing	2	_	_	start_char=40|end_char=46
+4	that	that	SCONJ	IN	_	3	_	_	start_char=47|end_char=51
+5	what	what	PRON	WP	PronType=Rel	4	_	_	start_char=52|end_char=56
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=57|end_char=60
+7	let	let	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=61|end_char=64
+8	live	live	NOUN	NN	Number=Sing	7	_	_	start_char=65|end_char=69
+9	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=70|end_char=73
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=74|end_char=76
+11	not	not	PART	RB	_	10	_	_	start_char=77|end_char=80
+12	an	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=81|end_char=83
+13	attack	attack	NOUN	NN	Number=Sing	12	_	_	start_char=84|end_char=90
+14	on	on	ADP	IN	_	13	_	_	start_char=91|end_char=93
+15	someone	someone	PRON	NN	Number=Sing|PronType=Ind	14	_	_	start_char=94|end_char=101
+16	else	else	ADJ	JJ	Degree=Pos	15	_	_	start_char=102|end_char=106|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=106|end_char=107
+
+# text = Your freedom ends, where mine begins, and my freedom ends where yours begin.
+# sent_id = 94808
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=108|end_char=112
+2	freedom	freedom	NOUN	NN	Number=Sing	1	_	_	start_char=113|end_char=120
+3	ends	end	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=121|end_char=125|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=125|end_char=126
+5	where	where	ADV	WRB	PronType=Rel	4	_	_	start_char=127|end_char=132
+6	mine	mine	PRON	PRP	Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=133|end_char=137
+7	begins	begin	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=138|end_char=144|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=144|end_char=145
+9	and	and	CCONJ	CC	_	8	_	_	start_char=146|end_char=149
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=150|end_char=152
+11	freedom	freedom	NOUN	NN	Number=Sing	10	_	_	start_char=153|end_char=160
+12	ends	end	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=161|end_char=165
+13	where	where	ADV	WRB	PronType=Rel	12	_	_	start_char=166|end_char=171
+14	yours	yours	PRON	PRP	Gender=Neut|Number=Sing|Person=2|Poss=Yes|PronType=Prs	13	_	_	start_char=172|end_char=177
+15	begin	begin	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	_	_	start_char=178|end_char=183|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=183|end_char=184|SpaceAfter=No
+

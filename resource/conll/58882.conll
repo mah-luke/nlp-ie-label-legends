@@ -1,0 +1,50 @@
+# text = We feel at this point he is not being protected.
+# sent_id = 125704
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	feel	feel	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=7
+3	at	at	ADP	IN	_	2	_	_	start_char=8|end_char=10
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=11|end_char=15
+5	point	point	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=21
+6	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=22|end_char=24
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=25|end_char=27
+8	not	not	PART	RB	_	7	_	_	start_char=28|end_char=31
+9	being	be	AUX	VBG	VerbForm=Ger	8	_	_	start_char=32|end_char=37
+10	protected	protect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=38|end_char=47|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=47|end_char=48
+
+# text = He's a man.
+# sent_id = 125705
+1-2	He's	_	_	_	_	_	_	_	start_char=49|end_char=53
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=49|end_char=51
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=53
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=54|end_char=55
+4	man	man	NOUN	NN	Number=Sing	3	_	_	start_char=56|end_char=59|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=59|end_char=60
+
+# text = He's not a "protected" gender.
+# sent_id = 125706
+1-2	He's	_	_	_	_	_	_	_	start_char=61|end_char=65
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=61|end_char=63
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=65
+3	not	not	PART	RB	_	2	_	_	start_char=66|end_char=69
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=70|end_char=71
+5	"	"	PUNCT	``	_	4	_	_	start_char=72|end_char=73|SpaceAfter=No
+6	protected	protect	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=73|end_char=82|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=82|end_char=83
+8	gender	gender	NOUN	NN	Number=Sing	7	_	_	start_char=84|end_char=90|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=90|end_char=91
+
+# text = If she points a finger, he goes to cell.
+# sent_id = 125707
+1	If	if	SCONJ	IN	_	0	_	_	start_char=92|end_char=94
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=95|end_char=98
+3	points	point	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=99|end_char=105
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=106|end_char=107
+5	finger	finger	NOUN	NN	Number=Sing	4	_	_	start_char=108|end_char=114|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=114|end_char=115
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=116|end_char=118
+8	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=119|end_char=123
+9	to	to	ADP	IN	_	8	_	_	start_char=124|end_char=126
+10	cell	cell	NOUN	NN	Number=Sing	9	_	_	start_char=127|end_char=131|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=131|end_char=132|SpaceAfter=No
+

@@ -1,0 +1,46 @@
+# text = If White South Africans were 7.5 million in 1992 "25 years" and today they are 3.5 million
+# sent_id = 68328
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	White	White	ADJ	NNP	Degree=Pos	1	_	_	start_char=3|end_char=8
+3	South	South	PROPN	NNP	Number=Sing	2	_	_	start_char=9|end_char=14
+4	Africans	African	PROPN	NNPS	Number=Plur	3	_	_	start_char=15|end_char=23
+5	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=24|end_char=28
+6	7.5	7.5	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=29|end_char=32
+7	million	million	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=33|end_char=40
+8	in	in	ADP	IN	_	7	_	_	start_char=41|end_char=43
+9	1992	1992	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=44|end_char=48
+10	"	"	PUNCT	``	_	9	_	_	start_char=49|end_char=50|SpaceAfter=No
+11	25	25	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=50|end_char=52
+12	years	year	NOUN	NNS	Number=Plur	11	_	_	start_char=53|end_char=58|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=58|end_char=59
+14	and	and	CCONJ	CC	_	13	_	_	start_char=60|end_char=63
+15	today	today	NOUN	NN	Number=Sing	14	_	_	start_char=64|end_char=69
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	_	_	start_char=70|end_char=74
+17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=75|end_char=78
+18	3.5	3.5	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	start_char=79|end_char=82
+19	million	million	NUM	CD	NumForm=Word|NumType=Card	18	_	_	start_char=83|end_char=90
+
+# text = Will they all be definitely dead in 25 years from now?
+# sent_id = 68329
+1	Will	will	AUX	MD	VerbForm=Fin	0	_	_	start_char=91|end_char=95
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=96|end_char=100
+3	all	all	DET	DT	_	2	_	_	start_char=101|end_char=104
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=105|end_char=107
+5	definitely	definitely	ADV	RB	_	4	_	_	start_char=108|end_char=118
+6	dead	dead	ADJ	JJ	Degree=Pos	5	_	_	start_char=119|end_char=123
+7	in	in	ADP	IN	_	6	_	_	start_char=124|end_char=126
+8	25	25	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=127|end_char=129
+9	years	year	NOUN	NNS	Number=Plur	8	_	_	start_char=130|end_char=135
+10	from	from	ADP	IN	_	9	_	_	start_char=136|end_char=140
+11	now	now	ADV	RB	_	10	_	_	start_char=141|end_char=144|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=144|end_char=145
+
+# text = #AltRight #NationalSocialist #WhiteGenocide
+# sent_id = 68330
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=146|end_char=147|SpaceAfter=No
+2	AltRight	altright	X	GW	_	1	_	_	start_char=147|end_char=155
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=156|end_char=157|SpaceAfter=No
+4	NationalSocialist	nationalsocialist	X	GW	_	3	_	_	start_char=157|end_char=174
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=175|end_char=176|SpaceAfter=No
+6	WhiteGenocide	whitegenocide	X	ADD	_	5	_	_	start_char=176|end_char=189|SpaceAfter=No
+

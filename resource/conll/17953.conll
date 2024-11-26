@@ -1,0 +1,30 @@
+# text = islamic women just can't win.
+# sent_id = 38579
+1	islamic	islamic	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=7
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=8|end_char=13
+3	just	just	ADV	RB	_	2	_	_	start_char=14|end_char=18
+4-5	can't	_	_	_	_	_	_	_	start_char=19|end_char=24
+4	ca	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=19|end_char=21
+5	n't	not	PART	RB	_	4	_	_	start_char=21|end_char=24
+6	win	win	VERB	VB	VerbForm=Inf	5	_	_	start_char=25|end_char=28|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = Either they die defending themselves from rape, or they die because they got raped.
+# sent_id = 38580
+1	Either	either	CCONJ	CC	_	0	_	_	start_char=30|end_char=36
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=37|end_char=41
+3	die	die	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=42|end_char=45
+4	defending	defend	VERB	VBG	VerbForm=Ger	3	_	_	start_char=46|end_char=55
+5	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	4	_	_	start_char=56|end_char=66
+6	from	from	ADP	IN	_	5	_	_	start_char=67|end_char=71
+7	rape	rape	NOUN	NN	Number=Sing	6	_	_	start_char=72|end_char=76|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=76|end_char=77
+9	or	or	CCONJ	CC	_	8	_	_	start_char=78|end_char=80
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=81|end_char=85
+11	die	die	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=86|end_char=89
+12	because	because	SCONJ	IN	_	11	_	_	start_char=90|end_char=97
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=98|end_char=102
+14	got	get	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=103|end_char=106
+15	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	_	_	start_char=107|end_char=112|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=112|end_char=113|SpaceAfter=No
+

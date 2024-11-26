@@ -1,0 +1,32 @@
+# text = I would detain these guys too.
+# sent_id = 41730
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=2|end_char=7
+3	detain	detain	VERB	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=14
+4	these	this	DET	DT	Number=Plur|PronType=Dem	3	_	_	start_char=15|end_char=20
+5	guys	guy	NOUN	NNS	Number=Plur	4	_	_	start_char=21|end_char=25
+6	too	too	ADV	RB	_	5	_	_	start_char=26|end_char=29|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=29|end_char=30
+
+# text = Have you seen the videos of Saudi women trying to drive?
+# sent_id = 41731
+1	Have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=31|end_char=35
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=36|end_char=39
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=40|end_char=44
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=45|end_char=48
+5	videos	video	NOUN	NNS	Number=Plur	4	_	_	start_char=49|end_char=55
+6	of	of	ADP	IN	_	5	_	_	start_char=56|end_char=58
+7	Saudi	Saudi	ADJ	JJ	Degree=Pos	6	_	_	start_char=59|end_char=64
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=65|end_char=70
+9	trying	try	VERB	VBG	VerbForm=Ger	8	_	_	start_char=71|end_char=77
+10	to	to	PART	TO	_	9	_	_	start_char=78|end_char=80
+11	drive	drive	VERB	VB	VerbForm=Inf	10	_	_	start_char=81|end_char=86|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=86|end_char=87
+
+# text = 😂 [URL]
+# sent_id = 41732
+1	😂	😂	PUNCT	``	_	0	_	_	start_char=88|end_char=89
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=90|end_char=91|SpaceAfter=No
+3	URL	URL	PROPN	NNP	Number=Sing	2	_	_	start_char=91|end_char=94|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=94|end_char=95|SpaceAfter=No
+

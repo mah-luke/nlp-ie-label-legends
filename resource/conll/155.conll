@@ -1,0 +1,44 @@
+# text = Single for women mean sleeping around and finding a partner within a few days.
+# sent_id = 333
+1	Single	single	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=6
+2	for	for	ADP	IN	_	1	_	_	start_char=7|end_char=10
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=11|end_char=16
+4	mean	mean	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=17|end_char=21
+5	sleeping	sleep	VERB	VBG	VerbForm=Ger	4	_	_	start_char=22|end_char=30
+6	around	around	ADV	RB	_	5	_	_	start_char=31|end_char=37
+7	and	and	CCONJ	CC	_	6	_	_	start_char=38|end_char=41
+8	finding	find	VERB	VBG	VerbForm=Ger	7	_	_	start_char=42|end_char=49
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=50|end_char=51
+10	partner	partner	NOUN	NN	Number=Sing	9	_	_	start_char=52|end_char=59
+11	within	within	ADP	IN	_	10	_	_	start_char=60|end_char=66
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=67|end_char=68
+13	few	few	ADJ	JJ	Degree=Pos	12	_	_	start_char=69|end_char=72
+14	days	day	NOUN	NNS	Number=Plur	13	_	_	start_char=73|end_char=77|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=77|end_char=78
+
+# text = I've never had sex.
+# sent_id = 334
+1-2	I've	_	_	_	_	_	_	_	start_char=79|end_char=83
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=79|end_char=80
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=80|end_char=83
+3	never	never	ADV	RB	_	2	_	_	start_char=84|end_char=89
+4	had	have	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=90|end_char=93
+5	sex	sex	NOUN	NN	Number=Sing	4	_	_	start_char=94|end_char=97|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=97|end_char=98
+
+# text = I'm not "single", I'm incel.
+# sent_id = 335
+1-2	I'm	_	_	_	_	_	_	_	start_char=99|end_char=102
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=99|end_char=100
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=100|end_char=102
+3	not	not	PART	RB	_	2	_	_	start_char=103|end_char=106
+4	"	"	PUNCT	``	_	3	_	_	start_char=107|end_char=108|SpaceAfter=No
+5	single	single	ADJ	JJ	Degree=Pos	4	_	_	start_char=108|end_char=114|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=114|end_char=115|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=115|end_char=116
+8-9	I'm	_	_	_	_	_	_	_	start_char=117|end_char=120
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=117|end_char=118
+9	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=118|end_char=120
+10	incel	incel	ADJ	JJ	Degree=Pos	9	_	_	start_char=121|end_char=126|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=126|end_char=127|SpaceAfter=No
+

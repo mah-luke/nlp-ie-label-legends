@@ -1,0 +1,63 @@
+# text = You’re totally right.
+# sent_id = 54921
+1-2	You’re	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	totally	totally	ADV	RB	_	2	_	_	start_char=7|end_char=14
+4	right	right	ADJ	JJ	Degree=Pos	3	_	_	start_char=15|end_char=20|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=20|end_char=21
+
+# text = Yeah I guess what I was saying was I’m trying to find those who are just getting into it but aren’t quite at that “women are evil” phase.
+# sent_id = 54922
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=22|end_char=26
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=27|end_char=28
+3	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=29|end_char=34
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=35|end_char=39
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=40|end_char=41
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=42|end_char=45
+7	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=46|end_char=52
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=53|end_char=56
+9-10	I’m	_	_	_	_	_	_	_	start_char=57|end_char=60
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=57|end_char=58
+10	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=58|end_char=60
+11	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=61|end_char=67
+12	to	to	PART	TO	_	11	_	_	start_char=68|end_char=70
+13	find	find	VERB	VB	VerbForm=Inf	12	_	_	start_char=71|end_char=75
+14	those	that	PRON	DT	Number=Plur|PronType=Dem	13	_	_	start_char=76|end_char=81
+15	who	who	PRON	WP	PronType=Rel	14	_	_	start_char=82|end_char=85
+16	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=86|end_char=89
+17	just	just	ADV	RB	_	16	_	_	start_char=90|end_char=94
+18	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	17	_	_	start_char=95|end_char=102
+19	into	into	ADP	IN	_	18	_	_	start_char=103|end_char=107
+20	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=108|end_char=110
+21	but	but	CCONJ	CC	_	20	_	_	start_char=111|end_char=114
+22-23	aren’t	_	_	_	_	_	_	_	start_char=115|end_char=121
+22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=115|end_char=118
+23	n’t	not	PART	RB	_	22	_	_	start_char=118|end_char=121
+24	quite	quite	ADV	RB	_	23	_	_	start_char=122|end_char=127
+25	at	at	ADP	IN	_	24	_	_	start_char=128|end_char=130
+26	that	that	DET	DT	Number=Sing|PronType=Dem	25	_	_	start_char=131|end_char=135
+27	“	''	PUNCT	``	_	26	_	_	start_char=136|end_char=137|SpaceAfter=No
+28	women	woman	NOUN	NNS	Number=Plur	27	_	_	start_char=137|end_char=142
+29	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	_	_	start_char=143|end_char=146
+30	evil	evil	ADJ	JJ	Degree=Pos	29	_	_	start_char=147|end_char=151|SpaceAfter=No
+31	”	''	PUNCT	''	_	30	_	_	start_char=151|end_char=152
+32	phase	phase	NOUN	NN	Number=Sing	31	_	_	start_char=153|end_char=158|SpaceAfter=No
+33	.	.	PUNCT	.	_	32	_	_	start_char=158|end_char=159
+
+# text = But most that outwardly identity as incel are already too far gone.
+# sent_id = 54923
+1	But	but	CCONJ	CC	_	0	_	_	start_char=160|end_char=163
+2	most	most	ADJ	JJS	Degree=Sup	1	_	_	start_char=164|end_char=168
+3	that	that	PRON	WDT	PronType=Rel	2	_	_	start_char=169|end_char=173
+4	outwardly	outwardly	ADV	RB	_	3	_	_	start_char=174|end_char=183
+5	identity	identity	NOUN	NN	Number=Sing	4	_	_	start_char=184|end_char=192
+6	as	as	ADP	IN	_	5	_	_	start_char=193|end_char=195
+7	incel	incel	NOUN	NN	Number=Sing	6	_	_	start_char=196|end_char=201
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=202|end_char=205
+9	already	already	ADV	RB	_	8	_	_	start_char=206|end_char=213
+10	too	too	ADV	RB	_	9	_	_	start_char=214|end_char=217
+11	far	far	ADV	RB	Degree=Pos	10	_	_	start_char=218|end_char=221
+12	gone	gone	ADJ	JJ	Degree=Pos	11	_	_	start_char=222|end_char=226|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=226|end_char=227|SpaceAfter=No
+

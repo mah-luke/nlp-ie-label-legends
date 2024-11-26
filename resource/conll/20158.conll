@@ -1,0 +1,39 @@
+# text = [USER] BRITISH POLICE FAIL AGAIN : 'Concentrate on MUGGERS'
+# sent_id = 43275
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	BRITISH	british	ADJ	JJ	Degree=Pos	3	_	_	start_char=7|end_char=14
+5	POLICE	police	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=21
+6	FAIL	fayl	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=22|end_char=26
+7	AGAIN	again	ADV	RB	_	6	_	_	start_char=27|end_char=32
+8	:	:	PUNCT	:	_	7	_	_	start_char=33|end_char=34
+9	'	'	PUNCT	``	_	8	_	_	start_char=35|end_char=36|SpaceAfter=No
+10	Concentrate	concentrate	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=36|end_char=47
+11	on	on	ADP	IN	_	10	_	_	start_char=48|end_char=50
+12	MUGGERS	mugger	NOUN	NNS	Number=Plur	11	_	_	start_char=51|end_char=58|SpaceAfter=No
+13	'	'	PUNCT	''	_	12	_	_	start_char=58|end_char=59
+
+# text = Fury as police grill woman 4 TIMES over feeding neighbour's cat !
+# sent_id = 43276
+1	Fury	Fury	PROPN	NNP	Number=Sing	0	_	_	start_char=60|end_char=64
+2	as	as	ADP	IN	_	1	_	_	start_char=65|end_char=67
+3	police	police	NOUN	NN	Number=Sing	2	_	_	start_char=68|end_char=74
+4	grill	grill	NOUN	NN	Number=Sing	3	_	_	start_char=75|end_char=80
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=81|end_char=86
+6	4	4	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=87|end_char=88
+7	TIMES	time	NOUN	NNS	Number=Plur	6	_	_	start_char=89|end_char=94
+8	over	over	ADP	IN	_	7	_	_	start_char=95|end_char=99
+9	feeding	feeding	NOUN	NN	Number=Sing	8	_	_	start_char=100|end_char=107
+10-11	neighbour's	_	_	_	_	_	_	_	start_char=108|end_char=119
+10	neighbour	neighbour	NOUN	NN	Number=Sing	9	_	_	start_char=108|end_char=117
+11	's	's	PART	POS	_	10	_	_	start_char=117|end_char=119
+12	cat	cat	NOUN	NN	Number=Sing	11	_	_	start_char=120|end_char=123
+13	!	!	PUNCT	.	_	12	_	_	start_char=124|end_char=125
+
+# text = [URL]
+# sent_id = 43277
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=126|end_char=127|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=127|end_char=130|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=130|end_char=131|SpaceAfter=No
+

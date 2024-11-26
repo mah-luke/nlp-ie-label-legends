@@ -1,0 +1,39 @@
+# text = Why would they be mad?
+# sent_id = 90133
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=9
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=14
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=15|end_char=17
+5	mad	mad	ADJ	JJ	Degree=Pos	4	_	_	start_char=18|end_char=21|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=21|end_char=22
+
+# text = What?
+# sent_id = 90134
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=23|end_char=27|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=27|end_char=28
+
+# text = This is just a hate sub now.
+# sent_id = 90135
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=29|end_char=33
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=34|end_char=36
+3	just	just	ADV	RB	_	2	_	_	start_char=37|end_char=41
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=42|end_char=43
+5	hate	hate	NOUN	NN	Number=Sing	4	_	_	start_char=44|end_char=48
+6	sub	sub	NOUN	NN	Number=Sing	5	_	_	start_char=49|end_char=52
+7	now	now	ADV	RB	_	6	_	_	start_char=53|end_char=56|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=56|end_char=57
+
+# text = Imagine a sub where men laugh about ugly women all day
+# sent_id = 90136
+1	Imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=58|end_char=65
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=66|end_char=67
+3	sub	sub	NOUN	NN	Number=Sing	2	_	_	start_char=68|end_char=71
+4	where	where	ADV	WRB	PronType=Rel	3	_	_	start_char=72|end_char=77
+5	men	man	NOUN	NNS	Number=Plur	4	_	_	start_char=78|end_char=81
+6	laugh	laugh	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=82|end_char=87
+7	about	about	ADP	IN	_	6	_	_	start_char=88|end_char=93
+8	ugly	ugly	ADJ	JJ	Degree=Pos	7	_	_	start_char=94|end_char=98
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=99|end_char=104
+10	all	all	DET	DT	_	9	_	_	start_char=105|end_char=108
+11	day	day	NOUN	NN	Number=Sing	10	_	_	start_char=109|end_char=112|SpaceAfter=No
+

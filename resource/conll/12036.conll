@@ -1,0 +1,24 @@
+# text = she gave false testimony.
+# sent_id = 25500
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	false	false	ADJ	JJ	Degree=Pos	2	_	_	start_char=9|end_char=14
+4	testimony	testimony	NOUN	NN	Number=Sing	3	_	_	start_char=15|end_char=24|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=24|end_char=25
+
+# text = According to the Koran she loves she should be stoned to death.
+# sent_id = 25501
+1	According	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	0	_	_	start_char=26|end_char=35
+2	to	to	ADP	IN	_	1	_	_	start_char=36|end_char=38
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=39|end_char=42
+4	Koran	Koran	PROPN	NNP	Number=Sing	3	_	_	start_char=43|end_char=48
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=49|end_char=52
+6	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=53|end_char=58
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=59|end_char=62
+8	should	should	AUX	MD	VerbForm=Fin	7	_	_	start_char=63|end_char=69
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=70|end_char=72
+10	stoned	stone	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=73|end_char=79
+11	to	to	ADP	IN	_	10	_	_	start_char=80|end_char=82
+12	death	death	NOUN	NN	Number=Sing	11	_	_	start_char=83|end_char=88|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=88|end_char=89|SpaceAfter=No
+

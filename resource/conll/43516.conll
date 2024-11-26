@@ -1,0 +1,31 @@
+# text = This is Child Abuse - nothing less.
+# sent_id = 93029
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	Child	child	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=13
+4	Abuse	abuse	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=19
+5	-	-	PUNCT	,	_	4	_	_	start_char=20|end_char=21
+6	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	5	_	_	start_char=22|end_char=29
+7	less	less	ADJ	JJR	Degree=Cmp	6	_	_	start_char=30|end_char=34|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=34|end_char=35
+
+# text = This woman needs to be locked up before she destroys an innocent Human life... #LiberalismIsAMentalDisorder
+# sent_id = 93030
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=36|end_char=40
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=41|end_char=46
+3	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=47|end_char=52
+4	to	to	PART	TO	_	3	_	_	start_char=53|end_char=55
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=56|end_char=58
+6	locked	lock	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=59|end_char=65
+7	up	up	ADP	RP	_	6	_	_	start_char=66|end_char=68
+8	before	before	SCONJ	IN	_	7	_	_	start_char=69|end_char=75
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=76|end_char=79
+10	destroys	destroy	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=80|end_char=88
+11	an	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=89|end_char=91
+12	innocent	innocent	ADJ	JJ	Degree=Pos	11	_	_	start_char=92|end_char=100
+13	Human	human	ADJ	JJ	Degree=Pos	12	_	_	start_char=101|end_char=106
+14	life	life	NOUN	NN	Number=Sing	13	_	_	start_char=107|end_char=111|SpaceAfter=No
+15	...	...	PUNCT	,	_	14	_	_	start_char=111|end_char=114
+16	#	#	SYM	NN	Number=Sing	15	_	_	start_char=115|end_char=116|SpaceAfter=No
+17	LiberalismIsAMentalDisorder	LiberalismIsAMentalDisorder	PROPN	NNP	Number=Sing	16	_	_	start_char=116|end_char=143|SpaceAfter=No
+

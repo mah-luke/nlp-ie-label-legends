@@ -1,0 +1,75 @@
+# text = How crazy is this?
+# sent_id = 37161
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	crazy	crazy	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=9
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=13|end_char=17|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = He's a comedian, right?
+# sent_id = 37162
+1-2	He's	_	_	_	_	_	_	_	start_char=19|end_char=23
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=19|end_char=21
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=21|end_char=23
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=24|end_char=25
+4	comedian	comedian	NOUN	NN	Number=Sing	3	_	_	start_char=26|end_char=34|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=34|end_char=35
+6	right	right	ADJ	JJ	Degree=Pos	5	_	_	start_char=36|end_char=41|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=41|end_char=42
+
+# text = Why aren't we jailing Colbert, Maher (supposed to be funny??), Griffin, and shutting down SNL, for hate speech?
+# sent_id = 37163
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=43|end_char=46
+2-3	aren't	_	_	_	_	_	_	_	start_char=47|end_char=53
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=47|end_char=50
+3	n't	not	PART	RB	_	2	_	_	start_char=50|end_char=53
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=54|end_char=56
+5	jailing	jail	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=57|end_char=64
+6	Colbert	Colbert	PROPN	NNP	Number=Sing	5	_	_	start_char=65|end_char=72|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=72|end_char=73
+8	Maher	Maher	PROPN	NNP	Number=Sing	7	_	_	start_char=74|end_char=79
+9	(	(	PUNCT	-LRB-	_	8	_	_	start_char=80|end_char=81|SpaceAfter=No
+10	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=81|end_char=89
+11	to	to	PART	TO	_	10	_	_	start_char=90|end_char=92
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	start_char=93|end_char=95
+13	funny	funny	ADJ	JJ	Degree=Pos	12	_	_	start_char=96|end_char=101|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=101|end_char=102|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=102|end_char=103|SpaceAfter=No
+16	)	)	PUNCT	-RRB-	_	15	_	_	start_char=103|end_char=104|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=104|end_char=105
+18	Griffin	Griffin	PROPN	NNP	Number=Sing	17	_	_	start_char=106|end_char=113|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=113|end_char=114
+20	and	and	CCONJ	CC	_	19	_	_	start_char=115|end_char=118
+21	shutting	shut	VERB	VBG	VerbForm=Ger	20	_	_	start_char=119|end_char=127
+22	down	down	ADP	RP	_	21	_	_	start_char=128|end_char=132
+23	SNL	SNL	PROPN	NNP	Number=Sing	22	_	_	start_char=133|end_char=136|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	_	_	start_char=136|end_char=137
+25	for	for	ADP	IN	_	24	_	_	start_char=138|end_char=141
+26	hate	hate	NOUN	NN	Number=Sing	25	_	_	start_char=142|end_char=146
+27	speech	speech	NOUN	NN	Number=Sing	26	_	_	start_char=147|end_char=153|SpaceAfter=No
+28	?	?	PUNCT	.	_	27	_	_	start_char=153|end_char=154
+
+# text = And the guy's dog did a salute??
+# sent_id = 37164
+1	And	and	CCONJ	CC	_	0	_	_	start_char=155|end_char=158
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=159|end_char=162
+3-4	guy's	_	_	_	_	_	_	_	start_char=163|end_char=168
+3	guy	guy	NOUN	NN	Number=Sing	2	_	_	start_char=163|end_char=166
+4	's	's	PART	POS	_	3	_	_	start_char=166|end_char=168
+5	dog	dog	NOUN	NN	Number=Sing	4	_	_	start_char=169|end_char=172
+6	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=173|end_char=176
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=177|end_char=178
+8	salute	salute	NOUN	NN	Number=Sing	7	_	_	start_char=179|end_char=185|SpaceAfter=No
+9	??	??	PUNCT	.	_	8	_	_	start_char=185|end_char=187
+
+# text = SO WHAT??
+# sent_id = 37165
+1	SO	so	ADV	RB	_	0	_	_	start_char=188|end_char=190
+2	WHAT	what	PRON	WP	PronType=Int	1	_	_	start_char=191|end_char=195|SpaceAfter=No
+3	??	??	PUNCT	.	_	2	_	_	start_char=195|end_char=197
+
+# text = #DogsRule
+# sent_id = 37166
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=198|end_char=199|SpaceAfter=No
+2	DogsRule	DogsRule	PROPN	NNP	Number=Sing	1	_	_	start_char=199|end_char=207|SpaceAfter=No
+

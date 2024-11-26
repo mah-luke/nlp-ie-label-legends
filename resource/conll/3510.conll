@@ -1,0 +1,41 @@
+# text = Why did the chicken cross the road?
+# sent_id = 7413
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=8|end_char=11
+4	chicken	chicken	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=19
+5	cross	cross	VERB	VB	VerbForm=Inf	4	_	_	start_char=20|end_char=25
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=26|end_char=29
+7	road	road	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=34|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=34|end_char=35
+
+# text = To get to the beautiful girl's house.
+# sent_id = 7414
+1	To	to	PART	TO	_	0	_	_	start_char=36|end_char=38
+2	get	get	VERB	VB	VerbForm=Inf	1	_	_	start_char=39|end_char=42
+3	to	to	ADP	IN	_	2	_	_	start_char=43|end_char=45
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=46|end_char=49
+5	beautiful	beautiful	ADJ	JJ	Degree=Pos	4	_	_	start_char=50|end_char=59
+6-7	girl's	_	_	_	_	_	_	_	start_char=60|end_char=66
+6	girl	girl	NOUN	NN	Number=Sing	5	_	_	start_char=60|end_char=64
+7	's	's	PART	POS	_	6	_	_	start_char=64|end_char=66
+8	house	house	NOUN	NN	Number=Sing	7	_	_	start_char=67|end_char=72|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=72|end_char=73
+
+# text = Knock knock, who's there?
+# sent_id = 7415
+1	Knock	knock	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=74|end_char=79
+2	knock	knock	VERB	VB	VerbForm=Inf	1	_	_	start_char=80|end_char=85|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=85|end_char=86
+4-5	who's	_	_	_	_	_	_	_	start_char=87|end_char=92
+4	who	who	PRON	WP	PronType=Int	3	_	_	start_char=87|end_char=90
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=90|end_char=92
+6	there	there	ADV	RB	PronType=Dem	5	_	_	start_char=93|end_char=98|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=98|end_char=99
+
+# text = The chicken.
+# sent_id = 7416
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=100|end_char=103
+2	chicken	chicken	NOUN	NN	Number=Sing	1	_	_	start_char=104|end_char=111|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=111|end_char=112|SpaceAfter=No
+

@@ -1,0 +1,65 @@
+# text = First, this was a win.
+# sent_id = 12881
+1	First	first	ADV	RB	NumType=Ord	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=7|end_char=11
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=12|end_char=15
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=16|end_char=17
+6	win	win	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=21|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=21|end_char=22
+
+# text = You’ve got some balls.
+# sent_id = 12882
+1-2	You’ve	_	_	_	_	_	_	_	start_char=23|end_char=29
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=23|end_char=26
+2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=26|end_char=29
+3	got	get	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=30|end_char=33
+4	some	some	DET	DT	_	3	_	_	start_char=34|end_char=38
+5	balls	ball	NOUN	NNS	Number=Plur	4	_	_	start_char=39|end_char=44|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=44|end_char=45
+
+# text = My only critique is that you asked to give her your number.
+# sent_id = 12883
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=46|end_char=48
+2	only	only	ADJ	JJ	Degree=Pos	1	_	_	start_char=49|end_char=53
+3	critique	critique	NOUN	NN	Number=Sing	2	_	_	start_char=54|end_char=62
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=63|end_char=65
+5	that	that	SCONJ	IN	_	4	_	_	start_char=66|end_char=70
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=71|end_char=74
+7	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	6	_	_	start_char=75|end_char=80
+8	to	to	PART	TO	_	7	_	_	start_char=81|end_char=83
+9	give	give	VERB	VB	VerbForm=Inf	8	_	_	start_char=84|end_char=88
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=89|end_char=92
+11	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	10	_	_	start_char=93|end_char=97
+12	number	number	NOUN	NN	Number=Sing	11	_	_	start_char=98|end_char=104|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=104|end_char=105
+
+# text = This is passive.
+# sent_id = 12884
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=106|end_char=110
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=111|end_char=113
+3	passive	passive	ADJ	JJ	Degree=Pos	2	_	_	start_char=114|end_char=121|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=121|end_char=122
+
+# text = A better approach would’ve been make a little small talk and then ask for her number.
+# sent_id = 12885
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=123|end_char=124
+2	better	good	ADJ	JJR	Degree=Cmp	1	_	_	start_char=125|end_char=131
+3	approach	approach	NOUN	NN	Number=Sing	2	_	_	start_char=132|end_char=140
+4-5	would’ve	_	_	_	_	_	_	_	start_char=141|end_char=149
+4	would	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=141|end_char=146
+5	’ve	have	AUX	VB	VerbForm=Inf	4	_	_	start_char=146|end_char=149
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=150|end_char=154
+7	make	make	VERB	VB	VerbForm=Inf	6	_	_	start_char=155|end_char=159
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=160|end_char=161
+9	little	little	ADJ	JJ	Degree=Pos	8	_	_	start_char=162|end_char=168
+10	small	small	ADJ	JJ	Degree=Pos	9	_	_	start_char=169|end_char=174
+11	talk	talk	NOUN	NN	Number=Sing	10	_	_	start_char=175|end_char=179
+12	and	and	CCONJ	CC	_	11	_	_	start_char=180|end_char=183
+13	then	then	ADV	RB	PronType=Dem	12	_	_	start_char=184|end_char=188
+14	ask	ask	VERB	VB	VerbForm=Inf	13	_	_	start_char=189|end_char=192
+15	for	for	ADP	IN	_	14	_	_	start_char=193|end_char=196
+16	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=197|end_char=200
+17	number	number	NOUN	NN	Number=Sing	16	_	_	start_char=201|end_char=207|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=207|end_char=208|SpaceAfter=No
+

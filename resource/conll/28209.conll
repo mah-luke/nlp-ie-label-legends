@@ -1,0 +1,47 @@
+# text = I'm thinking that if Obama's FBI does their job right that lying bitch will find her nasty self in prison someday.
+# sent_id = 60555
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=4|end_char=12
+4	that	that	SCONJ	IN	_	3	_	_	start_char=13|end_char=17
+5	if	if	SCONJ	IN	_	4	_	_	start_char=18|end_char=20
+6-7	Obama's	_	_	_	_	_	_	_	start_char=21|end_char=28
+6	Obama	Obama	PROPN	NNP	Number=Sing	5	_	_	start_char=21|end_char=26
+7	's	's	PART	POS	_	6	_	_	start_char=26|end_char=28
+8	FBI	FBI	PROPN	NNP	Number=Sing	7	_	_	start_char=29|end_char=32
+9	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=33|end_char=37
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=38|end_char=43
+11	job	job	NOUN	NN	Number=Sing	10	_	_	start_char=44|end_char=47
+12	right	right	ADV	RB	_	11	_	_	start_char=48|end_char=53
+13	that	that	SCONJ	IN	_	12	_	_	start_char=54|end_char=58
+14	lying	lying	NOUN	NN	Number=Sing	13	_	_	start_char=59|end_char=64
+15	bitch	bitch	NOUN	NN	Number=Sing	14	_	_	start_char=65|end_char=70
+16	will	will	AUX	MD	VerbForm=Fin	15	_	_	start_char=71|end_char=75
+17	find	find	VERB	VB	VerbForm=Inf	16	_	_	start_char=76|end_char=80
+18	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=81|end_char=84
+19	nasty	nasty	ADJ	JJ	Degree=Pos	18	_	_	start_char=85|end_char=90
+20	self	self	NOUN	NN	Number=Sing	19	_	_	start_char=91|end_char=95
+21	in	in	ADP	IN	_	20	_	_	start_char=96|end_char=98
+22	prison	prison	NOUN	NN	Number=Sing	21	_	_	start_char=99|end_char=105
+23	someday	someday	ADV	RB	_	22	_	_	start_char=106|end_char=113|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=113|end_char=114
+
+# text = It's proven she liked under oath.
+# sent_id = 60556
+1-2	It's	_	_	_	_	_	_	_	start_char=115|end_char=119
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=115|end_char=117
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=117|end_char=119
+3	proven	prove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=120|end_char=126
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=127|end_char=130
+5	liked	like	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=131|end_char=136
+6	under	under	ADP	IN	_	5	_	_	start_char=137|end_char=142
+7	oath	oath	NOUN	NN	Number=Sing	6	_	_	start_char=143|end_char=147|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=147|end_char=148
+
+# text = Don'tch know?
+# sent_id = 60557
+1	Don'tch	Don'tch	PROPN	NNP	Number=Sing	0	_	_	start_char=149|end_char=156
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=157|end_char=161|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=161|end_char=162|SpaceAfter=No
+

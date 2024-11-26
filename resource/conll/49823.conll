@@ -1,0 +1,40 @@
+# text = more inclined to tip if she's a foreign woman and/or she offers a good service.
+# sent_id = 106461
+1	more	more	ADV	RBR	Degree=Cmp	0	_	_	start_char=0|end_char=4
+2	inclined	inclined	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=13
+3	to	to	PART	TO	_	2	_	_	start_char=14|end_char=16
+4	tip	tip	VERB	VB	VerbForm=Inf	3	_	_	start_char=17|end_char=20
+5	if	if	SCONJ	IN	_	4	_	_	start_char=21|end_char=23
+6-7	she's	_	_	_	_	_	_	_	start_char=24|end_char=29
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=24|end_char=27
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=27|end_char=29
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=30|end_char=31
+9	foreign	foreign	ADJ	JJ	Degree=Pos	8	_	_	start_char=32|end_char=39
+10	woman	woman	NOUN	NN	Number=Sing	9	_	_	start_char=40|end_char=45
+11	and	and	CCONJ	CC	_	10	_	_	start_char=46|end_char=49|SpaceAfter=No
+12	/	/	SYM	,	_	11	_	_	start_char=49|end_char=50|SpaceAfter=No
+13	or	or	CCONJ	CC	_	12	_	_	start_char=50|end_char=52
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=53|end_char=56
+15	offers	offer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=57|end_char=63
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=64|end_char=65
+17	good	good	ADJ	JJ	Degree=Pos	16	_	_	start_char=66|end_char=70
+18	service	service	NOUN	NN	Number=Sing	17	_	_	start_char=71|end_char=78|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=78|end_char=79
+
+# text = If she's western then fuck her.
+# sent_id = 106462
+1	If	if	SCONJ	IN	_	0	_	_	start_char=80|end_char=82
+2-3	she's	_	_	_	_	_	_	_	start_char=83|end_char=88
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=83|end_char=86
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=86|end_char=88
+4	western	western	ADJ	JJ	Degree=Pos	3	_	_	start_char=89|end_char=96
+5	then	then	ADV	RB	PronType=Dem	4	_	_	start_char=97|end_char=101
+6	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=102|end_char=106
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=107|end_char=110|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=110|end_char=111
+
+# text = No tips
+# sent_id = 106463
+1	No	no	DET	DT	_	0	_	_	start_char=112|end_char=114
+2	tips	tip	NOUN	NNS	Number=Plur	1	_	_	start_char=115|end_char=119|SpaceAfter=No
+

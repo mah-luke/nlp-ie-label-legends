@@ -1,0 +1,49 @@
+# text = The only thing that influences a women's decision for sex is physical attractiveness.
+# sent_id = 9714
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	only	only	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=8
+3	thing	thing	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=14
+4	that	that	PRON	WDT	PronType=Rel	3	_	_	start_char=15|end_char=19
+5	influences	influence	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=20|end_char=30
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=31|end_char=32
+7-8	women's	_	_	_	_	_	_	_	start_char=33|end_char=40
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=33|end_char=38
+8	's	's	PART	POS	_	7	_	_	start_char=38|end_char=40
+9	decision	decision	NOUN	NN	Number=Sing	8	_	_	start_char=41|end_char=49
+10	for	for	ADP	IN	_	9	_	_	start_char=50|end_char=53
+11	sex	sex	NOUN	NN	Number=Sing	10	_	_	start_char=54|end_char=57
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=58|end_char=60
+13	physical	physical	ADJ	JJ	Degree=Pos	12	_	_	start_char=61|end_char=69
+14	attractiveness	attractiveness	NOUN	NN	Number=Sing	13	_	_	start_char=70|end_char=84|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=84|end_char=85
+
+# text = That can't possibly be true.
+# sent_id = 9715
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=86|end_char=90
+2-3	can't	_	_	_	_	_	_	_	start_char=91|end_char=96
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=91|end_char=93
+3	n't	not	PART	RB	_	2	_	_	start_char=93|end_char=96
+4	possibly	possibly	ADV	RB	_	3	_	_	start_char=97|end_char=105
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=106|end_char=108
+6	true	true	ADJ	JJ	Degree=Pos	5	_	_	start_char=109|end_char=113|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=113|end_char=114
+
+# text = Remember when Julia Roberts was married to [Lyle Lovett]([URL] ?
+# sent_id = 9716
+1	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=115|end_char=123
+2	when	when	ADV	WRB	PronType=Int	1	_	_	start_char=124|end_char=128
+3	Julia	Julia	PROPN	NNP	Number=Sing	2	_	_	start_char=129|end_char=134
+4	Roberts	Roberts	PROPN	NNP	Number=Sing	3	_	_	start_char=135|end_char=142
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=143|end_char=146
+6	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=147|end_char=154
+7	to	to	ADP	IN	_	6	_	_	start_char=155|end_char=157
+8	[	[	PUNCT	-LRB-	_	7	_	_	start_char=158|end_char=159|SpaceAfter=No
+9	Lyle	Lyle	PROPN	NNP	Number=Sing	8	_	_	start_char=159|end_char=163
+10	Lovett	Lovett	PROPN	NNP	Number=Sing	9	_	_	start_char=164|end_char=170|SpaceAfter=No
+11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=170|end_char=171|SpaceAfter=No
+12	(	(	PUNCT	-LRB-	_	11	_	_	start_char=171|end_char=172|SpaceAfter=No
+13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=172|end_char=173|SpaceAfter=No
+14	URL	URL	PROPN	NNP	Number=Sing	13	_	_	start_char=173|end_char=176|SpaceAfter=No
+15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=176|end_char=177
+16	?	?	PUNCT	.	_	15	_	_	start_char=178|end_char=179|SpaceAfter=No
+

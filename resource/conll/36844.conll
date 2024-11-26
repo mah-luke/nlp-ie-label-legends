@@ -1,0 +1,36 @@
+# text = .[USER] slammed the Democratic senators for trying to " destroy and delay" Kavanaugh's confirmation using Christine Blasey Ford 's accusation.
+# sent_id = 78761
+1	.	.	PUNCT	.	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=1|end_char=2|SpaceAfter=No
+3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=2|end_char=6|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=6|end_char=7
+5	slammed	slam	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=8|end_char=15
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=16|end_char=19
+7	Democratic	Democratic	ADJ	JJ	Degree=Pos	6	_	_	start_char=20|end_char=30
+8	senators	senator	NOUN	NNS	Number=Plur	7	_	_	start_char=31|end_char=39
+9	for	for	SCONJ	IN	_	8	_	_	start_char=40|end_char=43
+10	trying	try	VERB	VBG	VerbForm=Ger	9	_	_	start_char=44|end_char=50
+11	to	to	PART	TO	_	10	_	_	start_char=51|end_char=53
+12	"	"	PUNCT	``	_	11	_	_	start_char=54|end_char=55
+13	destroy	destroy	VERB	VB	VerbForm=Inf	12	_	_	start_char=56|end_char=63
+14	and	and	CCONJ	CC	_	13	_	_	start_char=64|end_char=67
+15	delay	delay	VERB	VB	VerbForm=Inf	14	_	_	start_char=68|end_char=73|SpaceAfter=No
+16	"	"	PUNCT	''	_	15	_	_	start_char=73|end_char=74
+17-18	Kavanaugh's	_	_	_	_	_	_	_	start_char=75|end_char=86
+17	Kavanaugh	Kavanaugh	PROPN	NNP	Number=Sing	16	_	_	start_char=75|end_char=84
+18	's	's	PART	POS	_	17	_	_	start_char=84|end_char=86
+19	confirmation	confirmation	NOUN	NN	Number=Sing	18	_	_	start_char=87|end_char=99
+20	using	use	VERB	VBG	VerbForm=Ger	19	_	_	start_char=100|end_char=105
+21	Christine	Christine	PROPN	NNP	Number=Sing	20	_	_	start_char=106|end_char=115
+22	Blasey	Blasey	PROPN	NNP	Number=Sing	21	_	_	start_char=116|end_char=122
+23	Ford	Ford	PROPN	NNP	Number=Sing	22	_	_	start_char=123|end_char=127
+24	's	's	PART	POS	_	23	_	_	start_char=128|end_char=130
+25	accusation	accusation	NOUN	NN	Number=Sing	24	_	_	start_char=131|end_char=141|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=141|end_char=142
+
+# text = [URL]
+# sent_id = 78762
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=143|end_char=144|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=144|end_char=147|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=147|end_char=148|SpaceAfter=No
+

@@ -1,0 +1,37 @@
+# text = It's because it gives them validation.
+# sent_id = 83040
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	because	because	SCONJ	IN	_	2	_	_	start_char=5|end_char=12
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=13|end_char=15
+5	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=16|end_char=21
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=22|end_char=26
+7	validation	validation	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=37|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=37|end_char=38
+
+# text = She probably is attracted to you but it just playing stupid games..
+# sent_id = 83041
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=39|end_char=42
+2	probably	probably	ADV	RB	_	1	_	_	start_char=43|end_char=51
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=52|end_char=54
+4	attracted	attract	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=55|end_char=64
+5	to	to	ADP	IN	_	4	_	_	start_char=65|end_char=67
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=68|end_char=71
+7	but	but	CCONJ	CC	_	6	_	_	start_char=72|end_char=75
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=76|end_char=78
+9	just	just	ADV	RB	_	8	_	_	start_char=79|end_char=83
+10	playing	play	VERB	VBG	VerbForm=Ger	9	_	_	start_char=84|end_char=91
+11	stupid	stupid	ADJ	JJ	Degree=Pos	10	_	_	start_char=92|end_char=98
+12	games	game	NOUN	NNS	Number=Plur	11	_	_	start_char=99|end_char=104|SpaceAfter=No
+13	..	..	PUNCT	.	_	12	_	_	start_char=104|end_char=106
+
+# text = Look forward and forget her.
+# sent_id = 83042
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=107|end_char=111
+2	forward	forward	ADV	RB	_	1	_	_	start_char=112|end_char=119
+3	and	and	CCONJ	CC	_	2	_	_	start_char=120|end_char=123
+4	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=124|end_char=130
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=131|end_char=134|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=134|end_char=135|SpaceAfter=No
+

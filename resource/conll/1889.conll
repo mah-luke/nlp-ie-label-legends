@@ -1,0 +1,69 @@
+# text = I was standing at the bus stop this morning next to a heavily pregnant woman.
+# sent_id = 3979
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=6|end_char=14
+4	at	at	ADP	IN	_	3	_	_	start_char=15|end_char=17
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=18|end_char=21
+6	bus	bus	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=25
+7	stop	stop	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=30
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=31|end_char=35
+9	morning	morning	NOUN	NN	Number=Sing	8	_	_	start_char=36|end_char=43
+10	next	next	ADV	RB	_	9	_	_	start_char=44|end_char=48
+11	to	to	ADP	IN	_	10	_	_	start_char=49|end_char=51
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=52|end_char=53
+13	heavily	heavily	ADV	RB	_	12	_	_	start_char=54|end_char=61
+14	pregnant	pregnant	ADJ	JJ	Degree=Pos	13	_	_	start_char=62|end_char=70
+15	woman	woman	NOUN	NN	Number=Sing	14	_	_	start_char=71|end_char=76|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=76|end_char=77
+
+# text = I said politely, "When is it due?"
+# sent_id = 3980
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=78|end_char=79
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=80|end_char=84
+3	politely	politely	ADV	RB	_	2	_	_	start_char=85|end_char=93|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=93|end_char=94
+5	"	"	PUNCT	``	_	4	_	_	start_char=95|end_char=96|SpaceAfter=No
+6	When	when	ADV	WRB	PronType=Int	5	_	_	start_char=96|end_char=100
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=101|end_char=103
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=104|end_char=106
+9	due	due	ADJ	JJ	Degree=Pos	8	_	_	start_char=107|end_char=110|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=110|end_char=111|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=111|end_char=112
+
+# text = She smiled and replied, "Nine days."
+# sent_id = 3981
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=113|end_char=116
+2	smiled	smile	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=117|end_char=123
+3	and	and	CCONJ	CC	_	2	_	_	start_char=124|end_char=127
+4	replied	reply	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=128|end_char=135|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=135|end_char=136
+6	"	"	PUNCT	``	_	5	_	_	start_char=137|end_char=138|SpaceAfter=No
+7	Nine	nine	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=138|end_char=142
+8	days	day	NOUN	NNS	Number=Plur	7	_	_	start_char=143|end_char=147|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=147|end_char=148|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=148|end_char=149
+
+# text = I said, "Nine days?
+# sent_id = 3982
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=150|end_char=151
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=152|end_char=156|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=156|end_char=157
+4	"	"	PUNCT	``	_	3	_	_	start_char=158|end_char=159|SpaceAfter=No
+5	Nine	nine	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=159|end_char=163
+6	days	day	NOUN	NNS	Number=Plur	5	_	_	start_char=164|end_char=168|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=168|end_char=169
+
+# text = Fuck that, I'll start walking."
+# sent_id = 3983
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=170|end_char=174
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=175|end_char=179|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=179|end_char=180
+4-5	I'll	_	_	_	_	_	_	_	start_char=181|end_char=185
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=181|end_char=182
+5	'll	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=182|end_char=185
+6	start	start	VERB	VB	VerbForm=Inf	5	_	_	start_char=186|end_char=191
+7	walking	walk	VERB	VBG	VerbForm=Ger	6	_	_	start_char=192|end_char=199|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=199|end_char=200|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=200|end_char=201|SpaceAfter=No
+

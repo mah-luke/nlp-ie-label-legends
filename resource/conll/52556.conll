@@ -1,0 +1,42 @@
+# text = French mayor Robert Ménard has been fined by the government for hate speech after mentioning that French children were being “replaced” in schools in his town.
+# sent_id = 112351
+1	French	French	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=6
+2	mayor	mayor	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=12
+3	Robert	Robert	PROPN	NNP	Number=Sing	2	_	_	start_char=13|end_char=19
+4	Ménard	Ménard	PROPN	NNP	Number=Sing	3	_	_	start_char=20|end_char=26
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=27|end_char=30
+6	been	be	AUX	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=31|end_char=35
+7	fined	fine	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=36|end_char=41
+8	by	by	ADP	IN	_	7	_	_	start_char=42|end_char=44
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=45|end_char=48
+10	government	government	NOUN	NN	Number=Sing	9	_	_	start_char=49|end_char=59
+11	for	for	ADP	IN	_	10	_	_	start_char=60|end_char=63
+12	hate	hate	NOUN	NN	Number=Sing	11	_	_	start_char=64|end_char=68
+13	speech	speech	NOUN	NN	Number=Sing	12	_	_	start_char=69|end_char=75
+14	after	after	SCONJ	IN	_	13	_	_	start_char=76|end_char=81
+15	mentioning	mention	VERB	VBG	VerbForm=Ger	14	_	_	start_char=82|end_char=92
+16	that	that	SCONJ	IN	_	15	_	_	start_char=93|end_char=97
+17	French	French	ADJ	JJ	Degree=Pos	16	_	_	start_char=98|end_char=104
+18	children	child	NOUN	NNS	Number=Plur	17	_	_	start_char=105|end_char=113
+19	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	18	_	_	start_char=114|end_char=118
+20	being	be	AUX	VBG	VerbForm=Ger	19	_	_	start_char=119|end_char=124
+21	“	''	PUNCT	``	_	20	_	_	start_char=125|end_char=126|SpaceAfter=No
+22	replaced	replace	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	21	_	_	start_char=126|end_char=134|SpaceAfter=No
+23	”	''	PUNCT	''	_	22	_	_	start_char=134|end_char=135
+24	in	in	ADP	IN	_	23	_	_	start_char=136|end_char=138
+25	schools	school	NOUN	NNS	Number=Plur	24	_	_	start_char=139|end_char=146
+26	in	in	ADP	IN	_	25	_	_	start_char=147|end_char=149
+27	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	_	_	start_char=150|end_char=153
+28	town	town	NOUN	NN	Number=Sing	27	_	_	start_char=154|end_char=158|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=158|end_char=159
+
+# text = [URL] #LePen #France
+# sent_id = 112352
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=160|end_char=161|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=161|end_char=164|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=164|end_char=165
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=166|end_char=167|SpaceAfter=No
+5	LePen	LePen	PROPN	NNP	Number=Sing	4	_	_	start_char=167|end_char=172
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=173|end_char=174|SpaceAfter=No
+7	France	France	PROPN	NNP	Number=Sing	6	_	_	start_char=174|end_char=180|SpaceAfter=No
+

@@ -1,0 +1,51 @@
+# text = FAKE NEWS: CNN Says Fired Google Employee Argued Women “Aren’t Suited For Tech Jobs”
+# sent_id = 33780
+1	FAKE	fake	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	NEWS	news	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=9|end_char=10
+4	CNN	CNN	PROPN	NNP	Number=Sing	3	_	_	start_char=11|end_char=14
+5	Says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=15|end_char=19
+6	Fired	fire	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=20|end_char=25
+7	Google	Google	PROPN	NNP	Number=Sing	6	_	_	start_char=26|end_char=32
+8	Employee	Employee	PROPN	NNP	Number=Sing	7	_	_	start_char=33|end_char=41
+9	Argued	argue	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=42|end_char=48
+10	Women	woman	PROPN	NNPS	Number=Plur	9	_	_	start_char=49|end_char=54
+11	“	''	PUNCT	``	_	10	_	_	start_char=55|end_char=56|SpaceAfter=No
+12-13	Aren’t	_	_	_	_	_	_	_	start_char=56|end_char=62
+12	Are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=56|end_char=59
+13	n’t	not	PART	RB	_	12	_	_	start_char=59|end_char=62
+14	Suited	Suit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=63|end_char=69
+15	For	for	ADP	IN	_	14	_	_	start_char=70|end_char=73
+16	Tech	Tech	PROPN	NNP	Number=Sing	15	_	_	start_char=74|end_char=78
+17	Jobs	Jobs	PROPN	NNPS	Number=Plur	16	_	_	start_char=79|end_char=83|SpaceAfter=No
+18	”	''	PUNCT	''	_	17	_	_	start_char=83|end_char=84
+
+# text = “This is a guy who is basically saying, I don’t like women around computers.”
+# sent_id = 33781
+1	“	''	PUNCT	``	_	0	_	_	start_char=85|end_char=86|SpaceAfter=No
+2	This	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=86|end_char=90
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=91|end_char=93
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=94|end_char=95
+5	guy	guy	NOUN	NN	Number=Sing	4	_	_	start_char=96|end_char=99
+6	who	who	PRON	WP	PronType=Rel	5	_	_	start_char=100|end_char=103
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=104|end_char=106
+8	basically	basically	ADV	RB	_	7	_	_	start_char=107|end_char=116
+9	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=117|end_char=123|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=123|end_char=124
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=125|end_char=126
+12-13	don’t	_	_	_	_	_	_	_	start_char=127|end_char=132
+12	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=127|end_char=129
+13	n’t	not	PART	RB	_	12	_	_	start_char=129|end_char=132
+14	like	like	VERB	VB	VerbForm=Inf	13	_	_	start_char=133|end_char=137
+15	women	woman	NOUN	NNS	Number=Plur	14	_	_	start_char=138|end_char=143
+16	around	around	ADP	IN	_	15	_	_	start_char=144|end_char=150
+17	computers	computer	NOUN	NNS	Number=Plur	16	_	_	start_char=151|end_char=160|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=160|end_char=161|SpaceAfter=No
+19	”	''	PUNCT	''	_	18	_	_	start_char=161|end_char=162
+
+# text = [URL]
+# sent_id = 33782
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=163|end_char=164|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=164|end_char=167|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=167|end_char=168|SpaceAfter=No
+

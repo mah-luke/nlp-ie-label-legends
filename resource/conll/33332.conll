@@ -1,0 +1,27 @@
+# text = That girl is gonna grow up to be a sociopath with a lot of driving violations.
+# sent_id = 71338
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4-5	gonna	_	_	_	_	_	_	_	start_char=13|end_char=18
+4	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=13|end_char=16
+5	na	to	PART	TO	_	4	_	_	start_char=16|end_char=18
+6	grow	grow	VERB	VB	VerbForm=Inf	5	_	_	start_char=19|end_char=23
+7	up	up	ADP	RP	_	6	_	_	start_char=24|end_char=26
+8	to	to	PART	TO	_	7	_	_	start_char=27|end_char=29
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=30|end_char=32
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=33|end_char=34
+11	sociopath	sociopath	NOUN	NN	Number=Sing	10	_	_	start_char=35|end_char=44
+12	with	with	ADP	IN	_	11	_	_	start_char=45|end_char=49
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=50|end_char=51
+14	lot	lot	NOUN	NN	Number=Sing	13	_	_	start_char=52|end_char=55
+15	of	of	ADP	IN	_	14	_	_	start_char=56|end_char=58
+16	driving	driving	NOUN	NN	Number=Sing	15	_	_	start_char=59|end_char=66
+17	violations	violation	NOUN	NNS	Number=Plur	16	_	_	start_char=67|end_char=77|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=77|end_char=78
+
+# text = LOL!
+# sent_id = 71339
+1	LOL	lol	INTJ	UH	_	0	_	_	start_char=79|end_char=82|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=82|end_char=83|SpaceAfter=No
+

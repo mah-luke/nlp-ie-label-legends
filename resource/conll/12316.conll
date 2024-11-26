@@ -1,0 +1,46 @@
+# text = Hahaaa!
+# sent_id = 26095
+1	Hahaaa	Hahaaa	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=6|end_char=7
+
+# text = No I didn't check your profile douchebag.
+# sent_id = 26096
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=8|end_char=10
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=11|end_char=12
+3-4	didn't	_	_	_	_	_	_	_	start_char=13|end_char=19
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=13|end_char=16
+4	n't	not	PART	RB	_	3	_	_	start_char=16|end_char=19
+5	check	check	VERB	VB	VerbForm=Inf	4	_	_	start_char=20|end_char=25
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=26|end_char=30
+7	profile	profile	NOUN	NN	Number=Sing	6	_	_	start_char=31|end_char=38
+8	douchebag	douchebag	NOUN	NN	Number=Sing	7	_	_	start_char=39|end_char=48|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=48|end_char=49
+
+# text = And I can assure you, women are laughing at you behind your back constantly.
+# sent_id = 26097
+1	And	and	CCONJ	CC	_	0	_	_	start_char=50|end_char=53
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=54|end_char=55
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=56|end_char=59
+4	assure	assure	VERB	VB	VerbForm=Inf	3	_	_	start_char=60|end_char=66
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=67|end_char=70|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=70|end_char=71
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=72|end_char=77
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=78|end_char=81
+9	laughing	laugh	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=82|end_char=90
+10	at	at	ADP	IN	_	9	_	_	start_char=91|end_char=93
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=94|end_char=97
+12	behind	behind	ADP	IN	_	11	_	_	start_char=98|end_char=104
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=105|end_char=109
+14	back	back	NOUN	NN	Number=Sing	13	_	_	start_char=110|end_char=114
+15	constantly	constantly	ADV	RB	_	14	_	_	start_char=115|end_char=125|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=125|end_char=126
+
+# text = You're an idiot.
+# sent_id = 26098
+1-2	You're	_	_	_	_	_	_	_	start_char=127|end_char=133
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=127|end_char=130
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=130|end_char=133
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=134|end_char=136
+4	idiot	idiot	NOUN	NN	Number=Sing	3	_	_	start_char=137|end_char=142|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=142|end_char=143|SpaceAfter=No
+

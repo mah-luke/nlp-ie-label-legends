@@ -1,0 +1,38 @@
+# text = ITV asks: Would you vote for Jeremy #Corbyn ?
+# sent_id = 95808
+1	ITV	ITV	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3
+2	asks	ask	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=8|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=8|end_char=9
+4	Would	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=10|end_char=15
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=16|end_char=19
+6	vote	vote	VERB	VB	VerbForm=Inf	5	_	_	start_char=20|end_char=24
+7	for	for	ADP	IN	_	6	_	_	start_char=25|end_char=28
+8	Jeremy	Jeremy	PROPN	NNP	Number=Sing	7	_	_	start_char=29|end_char=35
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=36|end_char=37|SpaceAfter=No
+10	Corbyn	Corbyn	PROPN	NNP	Number=Sing	9	_	_	start_char=37|end_char=43
+11	?	?	PUNCT	.	_	10	_	_	start_char=44|end_char=45
+
+# text = I'm loving this woman's answer!
+# sent_id = 95809
+1-2	I'm	_	_	_	_	_	_	_	start_char=46|end_char=49
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=46|end_char=47
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=47|end_char=49
+3	loving	love	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=50|end_char=56
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=57|end_char=61
+5-6	woman's	_	_	_	_	_	_	_	start_char=62|end_char=69
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=62|end_char=67
+6	's	's	PART	POS	_	5	_	_	start_char=67|end_char=69
+7	answer	answer	NOUN	NN	Number=Sing	6	_	_	start_char=70|end_char=76|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=76|end_char=77
+
+# text = 😂 #BritFam #GE17 [URL]
+# sent_id = 95810
+1	😂	😂	PUNCT	``	_	0	_	_	start_char=78|end_char=79
+2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=80|end_char=81|SpaceAfter=No
+3	BritFam	BritFam	PROPN	NNP	Number=Sing	2	_	_	start_char=81|end_char=88
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=89|end_char=90|SpaceAfter=No
+5	GE17	GE17	NOUN	NN	Number=Sing	4	_	_	start_char=90|end_char=94
+6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=95|end_char=96|SpaceAfter=No
+7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=96|end_char=99|SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=99|end_char=100|SpaceAfter=No
+

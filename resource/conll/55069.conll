@@ -1,0 +1,42 @@
+# text = I am a misogynist and I think all 3.5 billion women are whores.
+# sent_id = 117663
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=5|end_char=6
+4	misogynist	misogynist	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=17
+5	and	and	CCONJ	CC	_	4	_	_	start_char=18|end_char=21
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=22|end_char=23
+7	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=24|end_char=29
+8	all	all	DET	DT	_	7	_	_	start_char=30|end_char=33
+9	3.5	3.5	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=34|end_char=37
+10	billion	billion	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=38|end_char=45
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=46|end_char=51
+12	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=52|end_char=55
+13	whores	whore	NOUN	NNS	Number=Plur	12	_	_	start_char=56|end_char=62|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=62|end_char=63
+
+# text = Nobody here is pretending like they aren't misogynists.
+# sent_id = 117664
+1	Nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=64|end_char=70
+2	here	here	ADV	RB	PronType=Dem	1	_	_	start_char=71|end_char=75
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=76|end_char=78
+4	pretending	pretend	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=79|end_char=89
+5	like	like	SCONJ	IN	_	4	_	_	start_char=90|end_char=94
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=95|end_char=99
+7-8	aren't	_	_	_	_	_	_	_	start_char=100|end_char=106
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=100|end_char=103
+8	n't	not	PART	RB	_	7	_	_	start_char=103|end_char=106
+9	misogynists	misogynist	NOUN	NNS	Number=Plur	8	_	_	start_char=107|end_char=118|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=118|end_char=119
+
+# text = It's okay to hate women.
+# sent_id = 117665
+1-2	It's	_	_	_	_	_	_	_	start_char=120|end_char=124
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=120|end_char=122
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=122|end_char=124
+3	okay	okay	ADJ	JJ	Degree=Pos	2	_	_	start_char=125|end_char=129
+4	to	to	PART	TO	_	3	_	_	start_char=130|end_char=132
+5	hate	hate	VERB	VB	VerbForm=Inf	4	_	_	start_char=133|end_char=137
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=138|end_char=143|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=143|end_char=144|SpaceAfter=No
+

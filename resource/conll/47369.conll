@@ -1,0 +1,31 @@
+# text = "take notes scrotes..." "all girls are queens.
+# sent_id = 101206
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=1|end_char=5
+3	notes	note	NOUN	NNS	Number=Plur	2	_	_	start_char=6|end_char=11
+4	scrotes	scrote	NOUN	NNS	Number=Plur	3	_	_	start_char=12|end_char=19|SpaceAfter=No
+5	...	...	PUNCT	,	_	4	_	_	start_char=19|end_char=22|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=22|end_char=23
+7	"	"	PUNCT	``	_	6	_	_	start_char=24|end_char=25|SpaceAfter=No
+8	all	all	DET	DT	_	7	_	_	start_char=25|end_char=28
+9	girls	girl	NOUN	NNS	Number=Plur	8	_	_	start_char=29|end_char=34
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=35|end_char=38
+11	queens	queen	NOUN	NNS	Number=Plur	10	_	_	start_char=39|end_char=45|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=45|end_char=46
+
+# text = you're an asshole if you say anything bad about them"
+# sent_id = 101207
+1-2	you're	_	_	_	_	_	_	_	start_char=47|end_char=53
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=47|end_char=50
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=50|end_char=53
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=54|end_char=56
+4	asshole	asshole	NOUN	NN	Number=Sing	3	_	_	start_char=57|end_char=64
+5	if	if	SCONJ	IN	_	4	_	_	start_char=65|end_char=67
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=68|end_char=71
+7	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=72|end_char=75
+8	anything	anything	PRON	NN	Number=Sing|PronType=Ind	7	_	_	start_char=76|end_char=84
+9	bad	bad	ADJ	JJ	Degree=Pos	8	_	_	start_char=85|end_char=88
+10	about	about	ADP	IN	_	9	_	_	start_char=89|end_char=94
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=95|end_char=99|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=99|end_char=100|SpaceAfter=No
+

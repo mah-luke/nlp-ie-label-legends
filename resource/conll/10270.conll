@@ -1,0 +1,40 @@
+# text = It's fucked up how women aren't allowed to even be neutral.
+# sent_id = 21644
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=5|end_char=11
+4	up	up	ADP	RP	_	3	_	_	start_char=12|end_char=14
+5	how	how	ADV	WRB	PronType=Int	4	_	_	start_char=15|end_char=18
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=19|end_char=24
+7-8	aren't	_	_	_	_	_	_	_	start_char=25|end_char=31
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=25|end_char=28
+8	n't	not	PART	RB	_	7	_	_	start_char=28|end_char=31
+9	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=32|end_char=39
+10	to	to	PART	TO	_	9	_	_	start_char=40|end_char=42
+11	even	even	ADV	RB	_	10	_	_	start_char=43|end_char=47
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	start_char=48|end_char=50
+13	neutral	neutral	ADJ	JJ	Degree=Pos	12	_	_	start_char=51|end_char=58|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=58|end_char=59
+
+# text = Always have to put on a fucking show to entertain men and keep them from attacking you.
+# sent_id = 21645
+1	Always	Always	ADV	RB	_	0	_	_	start_char=60|end_char=66
+2	have	have	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=67|end_char=71
+3	to	to	PART	TO	_	2	_	_	start_char=72|end_char=74
+4	put	put	VERB	VB	VerbForm=Inf	3	_	_	start_char=75|end_char=78
+5	on	on	ADP	IN	_	4	_	_	start_char=79|end_char=81
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=82|end_char=83
+7	fucking	fuck	ADJ	JJ	Degree=Pos	6	_	_	start_char=84|end_char=91
+8	show	show	NOUN	NN	Number=Sing	7	_	_	start_char=92|end_char=96
+9	to	to	PART	TO	_	8	_	_	start_char=97|end_char=99
+10	entertain	entertain	VERB	VB	VerbForm=Inf	9	_	_	start_char=100|end_char=109
+11	men	man	NOUN	NNS	Number=Plur	10	_	_	start_char=110|end_char=113
+12	and	and	CCONJ	CC	_	11	_	_	start_char=114|end_char=117
+13	keep	keep	VERB	VB	VerbForm=Inf	12	_	_	start_char=118|end_char=122
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=123|end_char=127
+15	from	from	SCONJ	IN	_	14	_	_	start_char=128|end_char=132
+16	attacking	attack	VERB	VBG	VerbForm=Ger	15	_	_	start_char=133|end_char=142
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	_	_	start_char=143|end_char=146|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=146|end_char=147|SpaceAfter=No
+

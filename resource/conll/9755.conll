@@ -1,0 +1,31 @@
+# text = Would have been cool.
+# sent_id = 20626
+1	Would	would	AUX	MD	VerbForm=Fin	0	_	_	start_char=0|end_char=5
+2	have	have	AUX	VB	VerbForm=Inf	1	_	_	start_char=6|end_char=10
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=11|end_char=15
+4	cool	cool	ADJ	JJ	Degree=Pos	3	_	_	start_char=16|end_char=20|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=20|end_char=21
+
+# text = It's like having a hot girlfriend for a few weeks, and then her ex comes back.
+# sent_id = 20627
+1-2	It's	_	_	_	_	_	_	_	start_char=22|end_char=26
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=22|end_char=24
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=24|end_char=26
+3	like	like	SCONJ	IN	_	2	_	_	start_char=27|end_char=31
+4	having	have	VERB	VBG	VerbForm=Ger	3	_	_	start_char=32|end_char=38
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=39|end_char=40
+6	hot	hot	ADJ	JJ	Degree=Pos	5	_	_	start_char=41|end_char=44
+7	girlfriend	girlfriend	NOUN	NN	Number=Sing	6	_	_	start_char=45|end_char=55
+8	for	for	ADP	IN	_	7	_	_	start_char=56|end_char=59
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=60|end_char=61
+10	few	few	ADJ	JJ	Degree=Pos	9	_	_	start_char=62|end_char=65
+11	weeks	week	NOUN	NNS	Number=Plur	10	_	_	start_char=66|end_char=71|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=71|end_char=72
+13	and	and	CCONJ	CC	_	12	_	_	start_char=73|end_char=76
+14	then	then	ADV	RB	PronType=Dem	13	_	_	start_char=77|end_char=81
+15	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=82|end_char=85
+16	ex	ex	NOUN	NN	Number=Sing	15	_	_	start_char=86|end_char=88
+17	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=89|end_char=94
+18	back	back	ADV	RB	_	17	_	_	start_char=95|end_char=99|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=99|end_char=100|SpaceAfter=No
+

@@ -1,0 +1,52 @@
+# text = Just to both, man.
+# sent_id = 8721
+1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	to	to	ADP	IN	_	1	_	_	start_char=5|end_char=7
+3	both	both	DET	DT	_	2	_	_	start_char=8|end_char=12|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=12|end_char=13
+5	man	man	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=17|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=17|end_char=18
+
+# text = Hook up some cameras while you're getting paid by Chads for sex, double the money.
+# sent_id = 8722
+1	Hook	hook	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=19|end_char=23
+2	up	up	ADP	RP	_	1	_	_	start_char=24|end_char=26
+3	some	some	DET	DT	_	2	_	_	start_char=27|end_char=31
+4	cameras	camera	NOUN	NNS	Number=Plur	3	_	_	start_char=32|end_char=39
+5	while	while	SCONJ	IN	_	4	_	_	start_char=40|end_char=45
+6-7	you're	_	_	_	_	_	_	_	start_char=46|end_char=52
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=46|end_char=49
+7	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=49|end_char=52
+8	getting	get	AUX	VBG	VerbForm=Ger	7	_	_	start_char=53|end_char=60
+9	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=61|end_char=65
+10	by	by	ADP	IN	_	9	_	_	start_char=66|end_char=68
+11	Chads	Chads	PROPN	NNP	Number=Sing	10	_	_	start_char=69|end_char=74
+12	for	for	ADP	IN	_	11	_	_	start_char=75|end_char=78
+13	sex	sex	NOUN	NN	Number=Sing	12	_	_	start_char=79|end_char=82|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=82|end_char=83
+15	double	double	VERB	VB	Mood=Imp|VerbForm=Fin	14	_	_	start_char=84|end_char=90
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=91|end_char=94
+17	money	money	NOUN	NN	Number=Sing	16	_	_	start_char=95|end_char=100|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=100|end_char=101
+
+# text = I would be a fucking millionaire if I was a female, I'm telling you.
+# sent_id = 8723
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=102|end_char=103
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=104|end_char=109
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=110|end_char=112
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=113|end_char=114
+5	fucking	fuck	ADJ	JJ	Degree=Pos	4	_	_	start_char=115|end_char=122
+6	millionaire	millionaire	NOUN	NN	Number=Sing	5	_	_	start_char=123|end_char=134
+7	if	if	SCONJ	IN	_	6	_	_	start_char=135|end_char=137
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=138|end_char=139
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=140|end_char=143
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=144|end_char=145
+11	female	female	NOUN	NN	Number=Sing	10	_	_	start_char=146|end_char=152|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=152|end_char=153
+13-14	I'm	_	_	_	_	_	_	_	start_char=154|end_char=157
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=154|end_char=155
+14	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=155|end_char=157
+15	telling	tell	VERB	VBG	Tense=Pres|VerbForm=Part	14	_	_	start_char=158|end_char=165
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	_	_	start_char=166|end_char=169|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=169|end_char=170|SpaceAfter=No
+

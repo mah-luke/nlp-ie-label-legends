@@ -1,0 +1,41 @@
+# text = "mmm where did I say it was wrong?"
+# sent_id = 126441
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	mmm	mmm	INTJ	UH	_	1	_	_	start_char=1|end_char=4
+3	where	where	ADV	WRB	PronType=Int	2	_	_	start_char=5|end_char=10
+4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=11|end_char=14
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=15|end_char=16
+6	say	say	VERB	VB	VerbForm=Inf	5	_	_	start_char=17|end_char=20
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=21|end_char=23
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=24|end_char=27
+9	wrong	wrong	ADJ	JJ	Degree=Pos	8	_	_	start_char=28|end_char=33|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=33|end_char=34|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=34|end_char=35
+
+# text = &#x200B; from your quote above: "But at least she won't be enjoyed by a socially inept incel"
+# sent_id = 126442
+1	&	&	CCONJ	CC	_	0	_	_	start_char=36|end_char=37|SpaceAfter=No
+2	#x200B	#x200b	NOUN	NN	Number=Sing	1	_	_	start_char=37|end_char=43|SpaceAfter=No
+3	;	;	PUNCT	:	_	2	_	_	start_char=43|end_char=44
+4	from	from	ADP	IN	_	3	_	_	start_char=45|end_char=49
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=50|end_char=54
+6	quote	quote	NOUN	NN	Number=Sing	5	_	_	start_char=55|end_char=60
+7	above	above	ADV	RB	_	6	_	_	start_char=61|end_char=66|SpaceAfter=No
+8	:	:	PUNCT	:	_	7	_	_	start_char=66|end_char=67
+9	"	"	PUNCT	``	_	8	_	_	start_char=68|end_char=69|SpaceAfter=No
+10	But	but	CCONJ	CC	_	9	_	_	start_char=69|end_char=72
+11	at	at	ADP	IN	ExtPos=ADV	10	_	_	start_char=73|end_char=75
+12	least	least	ADJ	JJS	Degree=Sup	11	_	_	start_char=76|end_char=81
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=82|end_char=85
+14-15	won't	_	_	_	_	_	_	_	start_char=86|end_char=91
+14	wo	will	AUX	MD	VerbForm=Fin	13	_	_	start_char=86|end_char=88
+15	n't	not	PART	RB	_	14	_	_	start_char=88|end_char=91
+16	be	be	AUX	VB	VerbForm=Inf	15	_	_	start_char=92|end_char=94
+17	enjoyed	enjoy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=95|end_char=102
+18	by	by	ADP	IN	_	17	_	_	start_char=103|end_char=105
+19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=106|end_char=107
+20	socially	socially	ADV	RB	_	19	_	_	start_char=108|end_char=116
+21	inept	inept	ADJ	JJ	Degree=Pos	20	_	_	start_char=117|end_char=122
+22	incel	incel	NOUN	NN	Number=Sing	21	_	_	start_char=123|end_char=128|SpaceAfter=No
+23	"	"	PUNCT	''	_	22	_	_	start_char=128|end_char=129|SpaceAfter=No
+

@@ -1,0 +1,23 @@
+# text = ...or it it the New York City Ballet?
+# sent_id = 60282
+1	...	...	PUNCT	,	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	or	or	CCONJ	CC	_	1	_	_	start_char=3|end_char=5
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=6|end_char=8
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=9|end_char=11
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=12|end_char=15
+6	New	New	ADJ	NNP	Degree=Pos	5	_	_	start_char=16|end_char=19
+7	York	York	PROPN	NNP	Number=Sing	6	_	_	start_char=20|end_char=24
+8	City	City	PROPN	NNP	Number=Sing	7	_	_	start_char=25|end_char=29
+9	Ballet	ballet	PROPN	NNP	Number=Sing	8	_	_	start_char=30|end_char=36|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=36|end_char=37
+
+# text = (incredibly hot women confuse me)
+# sent_id = 60283
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=38|end_char=39|SpaceAfter=No
+2	incredibly	incredibly	ADV	RB	_	1	_	_	start_char=39|end_char=49
+3	hot	hot	ADJ	JJ	Degree=Pos	2	_	_	start_char=50|end_char=53
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=54|end_char=59
+5	confuse	confuse	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=60|end_char=67
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=68|end_char=70|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=70|end_char=71|SpaceAfter=No
+

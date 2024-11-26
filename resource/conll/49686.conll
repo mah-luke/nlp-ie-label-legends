@@ -1,0 +1,19 @@
+# text = "I am a nasty woman"
+# sent_id = 106173
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
+3	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=3|end_char=5
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=6|end_char=7
+5	nasty	nasty	ADJ	JJ	Degree=Pos	4	_	_	start_char=8|end_char=13
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=14|end_char=19|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=19|end_char=20
+
+# text = Oh you sassy pepper you ;)
+# sent_id = 106174
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=21|end_char=23
+2	you	you	PRON	PRP	Case=Gen|Person=2|PronType=Prs	1	_	_	start_char=24|end_char=27
+3	sassy	sassy	ADJ	JJ	Degree=Pos	2	_	_	start_char=28|end_char=33
+4	pepper	pepper	NOUN	NN	Number=Sing	3	_	_	start_char=34|end_char=40
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=41|end_char=44
+6	;)	;)	SYM	NFP	_	5	_	_	start_char=45|end_char=47|SpaceAfter=No
+

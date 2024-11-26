@@ -1,0 +1,24 @@
+# text = Where did you meet her?
+# sent_id = 21923
+1	Where	where	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=5
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=6|end_char=9
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=10|end_char=13
+4	meet	meet	VERB	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=18
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=19|end_char=22|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = She's probably more interested in someone else at the moment
+# sent_id = 21924
+1-2	She's	_	_	_	_	_	_	_	start_char=24|end_char=29
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=24|end_char=27
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
+3	probably	probably	ADV	RB	_	2	_	_	start_char=30|end_char=38
+4	more	more	ADV	RBR	Degree=Cmp	3	_	_	start_char=39|end_char=43
+5	interested	interested	ADJ	JJ	Degree=Pos	4	_	_	start_char=44|end_char=54
+6	in	in	ADP	IN	_	5	_	_	start_char=55|end_char=57
+7	someone	someone	PRON	NN	Number=Sing|PronType=Ind	6	_	_	start_char=58|end_char=65
+8	else	else	ADJ	JJ	Degree=Pos	7	_	_	start_char=66|end_char=70
+9	at	at	ADP	IN	_	8	_	_	start_char=71|end_char=73
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=74|end_char=77
+11	moment	moment	NOUN	NN	Number=Sing	10	_	_	start_char=78|end_char=84|SpaceAfter=No
+

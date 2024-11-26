@@ -1,0 +1,44 @@
+# text = beard depends on genetics.
+# sent_id = 1101
+1	beard	beard	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5
+2	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=13
+3	on	on	ADP	IN	_	2	_	_	start_char=14|end_char=16
+4	genetics	genetics	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=25|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=25|end_char=26
+
+# text = but some products try to help.
+# sent_id = 1102
+1	but	but	CCONJ	CC	_	0	_	_	start_char=27|end_char=30
+2	some	some	DET	DT	_	1	_	_	start_char=31|end_char=35
+3	products	product	NOUN	NNS	Number=Plur	2	_	_	start_char=36|end_char=44
+4	try	try	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=45|end_char=48
+5	to	to	PART	TO	_	4	_	_	start_char=49|end_char=51
+6	help	help	VERB	VB	VerbForm=Inf	5	_	_	start_char=52|end_char=56|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=56|end_char=57
+
+# text = or you can use some style that can look good( I've used a von dyke style for years.)
+# sent_id = 1103
+1	or	or	CCONJ	CC	_	0	_	_	start_char=58|end_char=60
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=61|end_char=64
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=65|end_char=68
+4	use	use	VERB	VB	VerbForm=Inf	3	_	_	start_char=69|end_char=72
+5	some	some	DET	DT	_	4	_	_	start_char=73|end_char=77
+6	style	style	NOUN	NN	Number=Sing	5	_	_	start_char=78|end_char=83
+7	that	that	PRON	WDT	PronType=Rel	6	_	_	start_char=84|end_char=88
+8	can	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=89|end_char=92
+9	look	look	VERB	VB	VerbForm=Inf	8	_	_	start_char=93|end_char=97
+10	good	good	ADJ	JJ	Degree=Pos	9	_	_	start_char=98|end_char=102|SpaceAfter=No
+11	(	(	PUNCT	-LRB-	_	10	_	_	start_char=102|end_char=103
+12-13	I've	_	_	_	_	_	_	_	start_char=104|end_char=108
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=104|end_char=105
+13	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=105|end_char=108
+14	used	use	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=109|end_char=113
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=114|end_char=115
+16	von	von	NOUN	NN	Number=Sing	15	_	_	start_char=116|end_char=119
+17	dyke	dyke	NOUN	NN	Number=Sing	16	_	_	start_char=120|end_char=124
+18	style	style	NOUN	NN	Number=Sing	17	_	_	start_char=125|end_char=130
+19	for	for	ADP	IN	_	18	_	_	start_char=131|end_char=134
+20	years	year	NOUN	NNS	Number=Plur	19	_	_	start_char=135|end_char=140|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=140|end_char=141|SpaceAfter=No
+22	)	)	PUNCT	-RRB-	_	21	_	_	start_char=141|end_char=142|SpaceAfter=No
+

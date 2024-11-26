@@ -1,0 +1,19 @@
+# text = Maybe she's senile?
+# sent_id = 27501
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=0|end_char=5
+2-3	she's	_	_	_	_	_	_	_	start_char=6|end_char=11
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=6|end_char=9
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=11
+4	senile	senile	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=18|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = Isn't she pretty old??
+# sent_id = 27502
+1-2	Isn't	_	_	_	_	_	_	_	start_char=20|end_char=25
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=20|end_char=22
+2	n't	not	PART	RB	_	1	_	_	start_char=22|end_char=25
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=26|end_char=29
+4	pretty	pretty	ADV	RB	_	3	_	_	start_char=30|end_char=36
+5	old	old	ADJ	JJ	Degree=Pos	4	_	_	start_char=37|end_char=40|SpaceAfter=No
+6	??	??	PUNCT	.	_	5	_	_	start_char=40|end_char=42|SpaceAfter=No
+

@@ -1,0 +1,51 @@
+# text = It's a proven method.
+# sent_id = 118386
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=5|end_char=6
+4	proven	prove	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=7|end_char=13
+5	method	method	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=20|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=20|end_char=21
+
+# text = And unconventional dates like laser tag are awesome.
+# sent_id = 118387
+1	And	and	CCONJ	CC	_	0	_	_	start_char=22|end_char=25
+2	unconventional	unconventional	ADJ	JJ	Degree=Pos	1	_	_	start_char=26|end_char=40
+3	dates	date	NOUN	NNS	Number=Plur	2	_	_	start_char=41|end_char=46
+4	like	like	ADP	IN	_	3	_	_	start_char=47|end_char=51
+5	laser	laser	NOUN	NN	Number=Sing	4	_	_	start_char=52|end_char=57
+6	tag	tag	NOUN	NN	Number=Sing	5	_	_	start_char=58|end_char=61
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=62|end_char=65
+8	awesome	awesome	ADJ	JJ	Degree=Pos	7	_	_	start_char=66|end_char=73|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=73|end_char=74
+
+# text = I tried it after the how I met your mother episode and it was probably the most fun I've ever had on a date
+# sent_id = 118388
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=75|end_char=76
+2	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=77|end_char=82
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=83|end_char=85
+4	after	after	ADP	IN	_	3	_	_	start_char=86|end_char=91
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=92|end_char=95
+6	how	how	ADV	WRB	PronType=Int	5	_	_	start_char=96|end_char=99
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=100|end_char=101
+8	met	meet	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	_	_	start_char=102|end_char=105
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=106|end_char=110
+10	mother	mother	NOUN	NN	Number=Sing	9	_	_	start_char=111|end_char=117
+11	episode	episode	NOUN	NN	Number=Sing	10	_	_	start_char=118|end_char=125
+12	and	and	CCONJ	CC	_	11	_	_	start_char=126|end_char=129
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=130|end_char=132
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=133|end_char=136
+15	probably	probably	ADV	RB	_	14	_	_	start_char=137|end_char=145
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=146|end_char=149
+17	most	most	ADV	RBS	Degree=Sup	16	_	_	start_char=150|end_char=154
+18	fun	fun	NOUN	NN	Number=Sing	17	_	_	start_char=155|end_char=158
+19-20	I've	_	_	_	_	_	_	_	start_char=159|end_char=163
+19	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	_	_	start_char=159|end_char=160
+20	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	_	_	start_char=160|end_char=163
+21	ever	ever	ADV	RB	_	20	_	_	start_char=164|end_char=168
+22	had	have	VERB	VBN	Tense=Past|VerbForm=Part	21	_	_	start_char=169|end_char=172
+23	on	on	ADP	IN	_	22	_	_	start_char=173|end_char=175
+24	a	a	DET	DT	Definite=Ind|PronType=Art	23	_	_	start_char=176|end_char=177
+25	date	date	NOUN	NN	Number=Sing	24	_	_	start_char=178|end_char=182|SpaceAfter=No
+

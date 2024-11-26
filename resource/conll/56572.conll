@@ -1,0 +1,12 @@
+# text = That's *really* fucked up.
+# sent_id = 120940
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	*	*	PUNCT	NFP	_	2	_	_	start_char=7|end_char=8|SpaceAfter=No
+4	really	really	ADV	RB	_	3	_	_	start_char=8|end_char=14|SpaceAfter=No
+5	*	*	PUNCT	NFP	_	4	_	_	start_char=14|end_char=15
+6	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=16|end_char=22
+7	up	up	ADP	RP	_	6	_	_	start_char=23|end_char=25|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=25|end_char=26|SpaceAfter=No
+

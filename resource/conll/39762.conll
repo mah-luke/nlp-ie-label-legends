@@ -1,0 +1,34 @@
+# text = RT [USER]: "destroy each other" would seem to imply that he's...possibly going to destroy her?
+# sent_id = 85005
+1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
+3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=8|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=8|end_char=9|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=9|end_char=10
+6	"	"	PUNCT	``	_	5	_	_	start_char=11|end_char=12|SpaceAfter=No
+7	destroy	destroy	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=12|end_char=19
+8	each	each	DET	DT	PronType=Rcp	7	_	_	start_char=20|end_char=24
+9	other	other	ADJ	JJ	Degree=Pos	8	_	_	start_char=25|end_char=30|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=30|end_char=31
+11	would	would	AUX	MD	VerbForm=Fin	10	_	_	start_char=32|end_char=37
+12	seem	seem	VERB	VB	VerbForm=Inf	11	_	_	start_char=38|end_char=42
+13	to	to	PART	TO	_	12	_	_	start_char=43|end_char=45
+14	imply	imply	VERB	VB	VerbForm=Inf	13	_	_	start_char=46|end_char=51
+15	that	that	SCONJ	IN	_	14	_	_	start_char=52|end_char=56
+16-17	he's	_	_	_	_	_	_	_	start_char=57|end_char=61|SpaceAfter=No
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=57|end_char=59
+17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=59|end_char=61
+18	...	...	PUNCT	,	_	17	_	_	start_char=61|end_char=64|SpaceAfter=No
+19	possibly	possibly	ADV	RB	_	18	_	_	start_char=64|end_char=72
+20	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	19	_	_	start_char=73|end_char=78
+21	to	to	PART	TO	_	20	_	_	start_char=79|end_char=81
+22	destroy	destroy	VERB	VB	VerbForm=Inf	21	_	_	start_char=82|end_char=89
+23	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=90|end_char=93|SpaceAfter=No
+24	?	?	PUNCT	.	_	23	_	_	start_char=93|end_char=94
+
+# text = [URL]
+# sent_id = 85006
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=95|end_char=96|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=96|end_char=99|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=99|end_char=100|SpaceAfter=No
+

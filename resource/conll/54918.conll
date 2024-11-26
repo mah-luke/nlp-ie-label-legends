@@ -1,0 +1,22 @@
+# text = These people are a disgrace.
+# sent_id = 117336
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=0|end_char=5
+2	people	person	NOUN	NNS	Number=Plur	1	_	_	start_char=6|end_char=12
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=16
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=17|end_char=18
+5	disgrace	disgrace	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=27|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=27|end_char=28
+
+# text = They don't even care about each other.
+# sent_id = 117337
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=29|end_char=33
+2-3	don't	_	_	_	_	_	_	_	start_char=34|end_char=39
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=34|end_char=36
+3	n't	not	PART	RB	_	2	_	_	start_char=36|end_char=39
+4	even	even	ADV	RB	_	3	_	_	start_char=40|end_char=44
+5	care	care	VERB	VB	VerbForm=Inf	4	_	_	start_char=45|end_char=49
+6	about	about	ADP	IN	_	5	_	_	start_char=50|end_char=55
+7	each	each	DET	DT	ExtPos=PRON|PronType=Rcp	6	_	_	start_char=56|end_char=60
+8	other	other	ADJ	JJ	Degree=Pos	7	_	_	start_char=61|end_char=66|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=66|end_char=67|SpaceAfter=No
+

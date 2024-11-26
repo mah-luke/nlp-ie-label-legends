@@ -1,0 +1,41 @@
+# text = Mark Twain
+# sent_id = 59451
+1	Mark	Mark	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	Twain	Twain	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=10
+
+# text = If you pick up a starving dog and make him prosperous, he will not bite you.
+# sent_id = 59452
+1	If	if	SCONJ	IN	_	0	_	_	start_char=11|end_char=13
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=14|end_char=17
+3	pick	pick	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=18|end_char=22
+4	up	up	ADP	RP	_	3	_	_	start_char=23|end_char=25
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=26|end_char=27
+6	starving	starve	VERB	VBG	VerbForm=Ger	5	_	_	start_char=28|end_char=36
+7	dog	dog	NOUN	NN	Number=Sing	6	_	_	start_char=37|end_char=40
+8	and	and	CCONJ	CC	_	7	_	_	start_char=41|end_char=44
+9	make	make	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=45|end_char=49
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=50|end_char=53
+11	prosperous	prosperous	ADJ	JJ	Degree=Pos	10	_	_	start_char=54|end_char=64|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=64|end_char=65
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=66|end_char=68
+14	will	will	AUX	MD	VerbForm=Fin	13	_	_	start_char=69|end_char=73
+15	not	not	PART	RB	_	14	_	_	start_char=74|end_char=77
+16	bite	bite	VERB	VB	VerbForm=Inf	15	_	_	start_char=78|end_char=82
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	_	_	start_char=83|end_char=86|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=86|end_char=87
+
+# text = This is the principal difference between a dog and a man.
+# sent_id = 59453
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=88|end_char=92
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=93|end_char=95
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=96|end_char=99
+4	principal	principal	ADJ	JJ	Degree=Pos	3	_	_	start_char=100|end_char=109
+5	difference	difference	NOUN	NN	Number=Sing	4	_	_	start_char=110|end_char=120
+6	between	between	ADP	IN	_	5	_	_	start_char=121|end_char=128
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=129|end_char=130
+8	dog	dog	NOUN	NN	Number=Sing	7	_	_	start_char=131|end_char=134
+9	and	and	CCONJ	CC	_	8	_	_	start_char=135|end_char=138
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=139|end_char=140
+11	man	man	NOUN	NN	Number=Sing	10	_	_	start_char=141|end_char=144|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=144|end_char=145|SpaceAfter=No
+

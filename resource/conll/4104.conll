@@ -1,0 +1,33 @@
+# text = Just cut and paste the url into the red box.
+# sent_id = 8631
+1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	cut	cut	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	and	and	CCONJ	CC	_	2	_	_	start_char=9|end_char=12
+4	paste	paste	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=13|end_char=18
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=19|end_char=22
+6	url	url	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=26
+7	into	into	ADP	IN	_	6	_	_	start_char=27|end_char=31
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=32|end_char=35
+9	red	red	ADJ	JJ	Degree=Pos	8	_	_	start_char=36|end_char=39
+10	box	box	NOUN	NN	Number=Sing	9	_	_	start_char=40|end_char=43|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=43|end_char=44
+
+# text = You will then endup with an archive like this.
+# sent_id = 8632
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=45|end_char=48
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=49|end_char=53
+3	then	then	ADV	RB	PronType=Dem	2	_	_	start_char=54|end_char=58
+4	endup	endup	VERB	VB	VerbForm=Inf	3	_	_	start_char=59|end_char=64
+5	with	with	ADP	IN	_	4	_	_	start_char=65|end_char=69
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=70|end_char=72
+7	archive	archive	NOUN	NN	Number=Sing	6	_	_	start_char=73|end_char=80
+8	like	like	ADP	IN	_	7	_	_	start_char=81|end_char=85
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=86|end_char=90|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=90|end_char=91
+
+# text = [URL]
+# sent_id = 8633
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=92|end_char=93|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=93|end_char=96|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=96|end_char=97|SpaceAfter=No
+

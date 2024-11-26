@@ -1,0 +1,26 @@
+# text = "she's making a sacrifice".
+# sent_id = 41257
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2-3	she's	_	_	_	_	_	_	_	start_char=1|end_char=6
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=1|end_char=4
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=4|end_char=6
+4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=7|end_char=13
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=14|end_char=15
+6	sacrifice	sacrifice	NOUN	NN	Number=Sing	5	_	_	start_char=16|end_char=25|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=25|end_char=26|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=26|end_char=27
+
+# text = Oh give me a fucking break, sacrifice my ass.
+# sent_id = 41258
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=28|end_char=30
+2	give	give	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=31|end_char=35
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=36|end_char=38
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=39|end_char=40
+5	fucking	fuck	ADJ	JJ	Degree=Pos	4	_	_	start_char=41|end_char=48
+6	break	break	NOUN	NN	Number=Sing	5	_	_	start_char=49|end_char=54|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=54|end_char=55
+8	sacrifice	sacrifice	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=56|end_char=65
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=66|end_char=68
+10	ass	ass	NOUN	NN	Number=Sing	9	_	_	start_char=69|end_char=72|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=72|end_char=73|SpaceAfter=No
+

@@ -1,0 +1,30 @@
+# text = That's right, go kill yourself to stop Trump... uh... how?
+# sent_id = 80655
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	right	right	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=12|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=12|end_char=13
+5	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=14|end_char=16
+6	kill	kill	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=17|end_char=21
+7	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	6	_	_	start_char=22|end_char=30
+8	to	to	PART	TO	_	7	_	_	start_char=31|end_char=33
+9	stop	stop	VERB	VB	VerbForm=Inf	8	_	_	start_char=34|end_char=38
+10	Trump	Trump	PROPN	NNP	Number=Sing	9	_	_	start_char=39|end_char=44|SpaceAfter=No
+11	...	...	PUNCT	,	_	10	_	_	start_char=44|end_char=47
+12	uh	uh	INTJ	UH	_	11	_	_	start_char=48|end_char=50|SpaceAfter=No
+13	...	...	PUNCT	,	_	12	_	_	start_char=50|end_char=53
+14	how	how	ADV	WRB	PronType=Int	13	_	_	start_char=54|end_char=57|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=57|end_char=58
+
+# text = The fat clogging up your head too?
+# sent_id = 80656
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=59|end_char=62
+2	fat	fat	NOUN	NN	Number=Sing	1	_	_	start_char=63|end_char=66
+3	clogging	clog	VERB	VBG	VerbForm=Ger	2	_	_	start_char=67|end_char=75
+4	up	up	ADP	RP	_	3	_	_	start_char=76|end_char=78
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=79|end_char=83
+6	head	head	NOUN	NN	Number=Sing	5	_	_	start_char=84|end_char=88
+7	too	too	ADV	RB	_	6	_	_	start_char=89|end_char=92|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=92|end_char=93|SpaceAfter=No
+

@@ -1,0 +1,47 @@
+# text = American Cat'ia : Remember when #Obama gave $10,000 to a bus driver that saved a woman from committing suicide on a bridge?
+# sent_id = 91534
+1	American	American	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=8
+2	Cat'ia	Cat'ia	PROPN	NNP	Number=Sing	1	_	_	start_char=9|end_char=15
+3	:	:	PUNCT	:	_	2	_	_	start_char=16|end_char=17
+4	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=18|end_char=26
+5	when	when	ADV	WRB	PronType=Int	4	_	_	start_char=27|end_char=31
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=32|end_char=33|SpaceAfter=No
+7	Obama	Obama	PROPN	NNP	Number=Sing	6	_	_	start_char=33|end_char=38
+8	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=39|end_char=43
+9	$	$	SYM	$	_	8	_	_	start_char=44|end_char=45|SpaceAfter=No
+10	10,000	10000	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=45|end_char=51
+11	to	to	ADP	IN	_	10	_	_	start_char=52|end_char=54
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=55|end_char=56
+13	bus	bus	NOUN	NN	Number=Sing	12	_	_	start_char=57|end_char=60
+14	driver	driver	NOUN	NN	Number=Sing	13	_	_	start_char=61|end_char=67
+15	that	that	PRON	WDT	PronType=Rel	14	_	_	start_char=68|end_char=72
+16	saved	save	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=73|end_char=78
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=79|end_char=80
+18	woman	woman	NOUN	NN	Number=Sing	17	_	_	start_char=81|end_char=86
+19	from	from	SCONJ	IN	_	18	_	_	start_char=87|end_char=91
+20	committing	commit	VERB	VBG	VerbForm=Ger	19	_	_	start_char=92|end_char=102
+21	suicide	suicide	NOUN	NN	Number=Sing	20	_	_	start_char=103|end_char=110
+22	on	on	ADP	IN	_	21	_	_	start_char=111|end_char=113
+23	a	a	DET	DT	Definite=Ind|PronType=Art	22	_	_	start_char=114|end_char=115
+24	bridge	bridge	NOUN	NN	Number=Sing	23	_	_	start_char=116|end_char=122|SpaceAfter=No
+25	?	?	PUNCT	.	_	24	_	_	start_char=122|end_char=123
+
+# text = Of course u don't, it was [USER] GratefulHe'sMyPresident
+# sent_id = 91535
+1	Of	of	ADV	IN	_	0	_	_	start_char=124|end_char=126
+2	course	course	NOUN	NN	Number=Sing	1	_	_	start_char=127|end_char=133
+3	u	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	_	_	start_char=134|end_char=135
+4-5	don't	_	_	_	_	_	_	_	start_char=136|end_char=141|SpaceAfter=No
+4	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=136|end_char=138
+5	n't	not	PART	RB	_	4	_	_	start_char=138|end_char=141
+6	,	,	PUNCT	,	_	5	_	_	start_char=141|end_char=142
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=143|end_char=145
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=146|end_char=149
+9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=150|end_char=151|SpaceAfter=No
+10	USER	user	NOUN	NN	Number=Sing	9	_	_	start_char=151|end_char=155|SpaceAfter=No
+11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=155|end_char=156
+12-13	GratefulHe's	_	_	_	_	_	_	_	start_char=157|end_char=169|SpaceAfter=No
+12	GratefulHe	GratefulHe	PROPN	NNP	Number=Sing	11	_	_	start_char=157|end_char=167
+13	's	's	PART	POS	_	12	_	_	start_char=167|end_char=169
+14	MyPresident	MyPresident	PROPN	NNP	Number=Sing	13	_	_	start_char=169|end_char=180|SpaceAfter=No
+

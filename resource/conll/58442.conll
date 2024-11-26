@@ -1,0 +1,30 @@
+# text = Michael was the worst dressed first lady ever.
+# sent_id = 124788
+1	Michael	Michael	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=8|end_char=11
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=12|end_char=15
+4	worst	bad	ADV	RBS	Degree=Sup	3	_	_	start_char=16|end_char=21
+5	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=22|end_char=29
+6	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	5	_	_	start_char=30|end_char=35
+7	lady	lady	NOUN	NN	Number=Sing	6	_	_	start_char=36|end_char=40
+8	ever	ever	ADV	RB	_	7	_	_	start_char=41|end_char=45|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=45|end_char=46
+
+# text = She looked like she shopped at Wally World.
+# sent_id = 124789
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=47|end_char=50
+2	looked	look	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=51|end_char=57
+3	like	like	SCONJ	IN	_	2	_	_	start_char=58|end_char=62
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=63|end_char=66
+5	shopped	shop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=67|end_char=74
+6	at	at	ADP	IN	_	5	_	_	start_char=75|end_char=77
+7	Wally	Wally	PROPN	NNP	Number=Sing	6	_	_	start_char=78|end_char=83
+8	World	World	PROPN	NNP	Number=Sing	7	_	_	start_char=84|end_char=89|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=89|end_char=90
+
+# text = (Walmart)
+# sent_id = 124790
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=91|end_char=92|SpaceAfter=No
+2	Walmart	Walmart	PROPN	NNP	Number=Sing	1	_	_	start_char=92|end_char=99|SpaceAfter=No
+3	)	)	PUNCT	-RRB-	_	2	_	_	start_char=99|end_char=100|SpaceAfter=No
+

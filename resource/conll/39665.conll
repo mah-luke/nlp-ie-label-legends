@@ -1,0 +1,30 @@
+# text = If my mother truly loved me she would 1.
+# sent_id = 84801
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	mother	mother	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=12
+4	truly	truly	ADV	RB	_	3	_	_	start_char=13|end_char=18
+5	loved	love	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=19|end_char=24
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=25|end_char=27
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=28|end_char=31
+8	would	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=32|end_char=37
+9	1	1	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=38|end_char=39|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=39|end_char=40
+
+# text = Never had given birth to me 2.
+# sent_id = 84802
+1	Never	never	ADV	RB	_	0	_	_	start_char=41|end_char=46
+2	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=47|end_char=50
+3	given	give	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=51|end_char=56
+4	birth	birth	NOUN	NN	Number=Sing	3	_	_	start_char=57|end_char=62
+5	to	to	ADP	IN	_	4	_	_	start_char=63|end_char=65
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=66|end_char=68
+7	2	2	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=69|end_char=70|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=70|end_char=71
+
+# text = Kill herself asap
+# sent_id = 84803
+1	Kill	kill	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=72|end_char=76
+2	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	1	_	_	start_char=77|end_char=84
+3	asap	ASAP	ADV	RB	_	2	_	_	start_char=85|end_char=89|SpaceAfter=No
+

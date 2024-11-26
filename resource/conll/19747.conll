@@ -1,0 +1,31 @@
+# text = I agree.
+# sent_id = 42389
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=7|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=7|end_char=8
+
+# text = He’s on the lower end of a 6/10 and she’s on the higher end of a 6/10.
+# sent_id = 42390
+1-2	He’s	_	_	_	_	_	_	_	start_char=9|end_char=13
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=9|end_char=11
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=11|end_char=13
+3	on	on	ADP	IN	_	2	_	_	start_char=14|end_char=16
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=17|end_char=20
+5	lower	low	ADJ	JJR	Degree=Cmp	4	_	_	start_char=21|end_char=26
+6	end	end	NOUN	NN	Number=Sing	5	_	_	start_char=27|end_char=30
+7	of	of	ADP	IN	_	6	_	_	start_char=31|end_char=33
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=34|end_char=35
+9	6/10	6/10	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=36|end_char=40
+10	and	and	CCONJ	CC	_	9	_	_	start_char=41|end_char=44
+11-12	she’s	_	_	_	_	_	_	_	start_char=45|end_char=50
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=45|end_char=48
+12	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=48|end_char=50
+13	on	on	ADP	IN	_	12	_	_	start_char=51|end_char=53
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=54|end_char=57
+15	higher	high	ADJ	JJR	Degree=Cmp	14	_	_	start_char=58|end_char=64
+16	end	end	NOUN	NN	Number=Sing	15	_	_	start_char=65|end_char=68
+17	of	of	ADP	IN	_	16	_	_	start_char=69|end_char=71
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=72|end_char=73
+19	6/10	6/10	NUM	CD	NumForm=Digit|NumType=Card	18	_	_	start_char=74|end_char=78|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=78|end_char=79|SpaceAfter=No
+

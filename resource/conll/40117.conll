@@ -1,0 +1,61 @@
+# text = People (*especially* underage people) aren't things to be lent out.
+# sent_id = 85719
+1	People	person	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=6
+2	(	(	PUNCT	-LRB-	_	1	_	_	start_char=7|end_char=8|SpaceAfter=No
+3	*	*	PUNCT	NFP	_	2	_	_	start_char=8|end_char=9|SpaceAfter=No
+4	especially	especially	ADV	RB	_	3	_	_	start_char=9|end_char=19|SpaceAfter=No
+5	*	*	PUNCT	NFP	_	4	_	_	start_char=19|end_char=20
+6	underage	underage	ADJ	JJ	Degree=Pos	5	_	_	start_char=21|end_char=29
+7	people	person	NOUN	NNS	Number=Plur	6	_	_	start_char=30|end_char=36|SpaceAfter=No
+8	)	)	PUNCT	-RRB-	_	7	_	_	start_char=36|end_char=37
+9-10	aren't	_	_	_	_	_	_	_	start_char=38|end_char=44
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=38|end_char=41
+10	n't	not	PART	RB	_	9	_	_	start_char=41|end_char=44
+11	things	thing	NOUN	NNS	Number=Plur	10	_	_	start_char=45|end_char=51
+12	to	to	PART	TO	_	11	_	_	start_char=52|end_char=54
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=55|end_char=57
+14	lent	loan	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=58|end_char=62
+15	out	out	ADP	RP	_	14	_	_	start_char=63|end_char=66|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=66|end_char=67
+
+# text = Doesn't matter if they're your sister, daughter, aunt, significant other, whatever.
+# sent_id = 85720
+1-2	Doesn't	_	_	_	_	_	_	_	start_char=68|end_char=75
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=68|end_char=72
+2	n't	not	PART	RB	_	1	_	_	start_char=72|end_char=75
+3	matter	matter	VERB	VB	VerbForm=Inf	2	_	_	start_char=76|end_char=82
+4	if	if	SCONJ	IN	_	3	_	_	start_char=83|end_char=85
+5-6	they're	_	_	_	_	_	_	_	start_char=86|end_char=93
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=86|end_char=90
+6	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=90|end_char=93
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=94|end_char=98
+8	sister	sister	NOUN	NN	Number=Sing	7	_	_	start_char=99|end_char=105|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=105|end_char=106
+10	daughter	daughter	NOUN	NN	Number=Sing	9	_	_	start_char=107|end_char=115|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=115|end_char=116
+12	aunt	aunt	NOUN	NN	Number=Sing	11	_	_	start_char=117|end_char=121|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=121|end_char=122
+14	significant	significant	ADJ	JJ	Degree=Pos	13	_	_	start_char=123|end_char=134
+15	other	other	ADJ	JJ	Degree=Pos	14	_	_	start_char=135|end_char=140|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=140|end_char=141
+17	whatever	whatever	PRON	WP	PronType=Rel	16	_	_	start_char=142|end_char=150|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=150|end_char=151
+
+# text = PEOPLE ARE NOT THINGS WE LOAN TO OTHERS, especially not for sexual purposes.
+# sent_id = 85721
+1	PEOPLE	people	NOUN	NNS	Number=Plur	0	_	_	start_char=152|end_char=158
+2	ARE	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=159|end_char=162
+3	NOT	not	PART	RB	_	2	_	_	start_char=163|end_char=166
+4	THINGS	thing	NOUN	NNS	Number=Plur	3	_	_	start_char=167|end_char=173
+5	WE	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=174|end_char=176
+6	LOAN	loan	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=177|end_char=181
+7	TO	to	ADP	IN	_	6	_	_	start_char=182|end_char=184
+8	OTHERS	other	NOUN	NNS	Number=Plur	7	_	_	start_char=185|end_char=191|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=191|end_char=192
+10	especially	especially	ADV	RB	_	9	_	_	start_char=193|end_char=203
+11	not	not	PART	RB	_	10	_	_	start_char=204|end_char=207
+12	for	for	ADP	IN	_	11	_	_	start_char=208|end_char=211
+13	sexual	sexual	ADJ	JJ	Degree=Pos	12	_	_	start_char=212|end_char=218
+14	purposes	purpose	NOUN	NNS	Number=Plur	13	_	_	start_char=219|end_char=227|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=227|end_char=228|SpaceAfter=No
+

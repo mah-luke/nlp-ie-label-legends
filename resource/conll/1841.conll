@@ -1,0 +1,29 @@
+# text = don't fuck her.
+# sent_id = 3874
+1-2	don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=10
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=11|end_char=14|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=14|end_char=15
+
+# text = If you do, for godsakes, bring a fucking condom and throw it away YOURSELF.
+# sent_id = 3875
+1	If	if	SCONJ	IN	_	0	_	_	start_char=16|end_char=18
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=19|end_char=22
+3	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=23|end_char=25|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=25|end_char=26
+5	for	for	ADP	IN	_	4	_	_	start_char=27|end_char=30
+6	godsakes	godsake	NOUN	NNS	Number=Plur	5	_	_	start_char=31|end_char=39|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=39|end_char=40
+8	bring	bring	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=41|end_char=46
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=47|end_char=48
+10	fucking	fuck	ADJ	JJ	Degree=Pos	9	_	_	start_char=49|end_char=56
+11	condom	condom	NOUN	NN	Number=Sing	10	_	_	start_char=57|end_char=63
+12	and	and	CCONJ	CC	_	11	_	_	start_char=64|end_char=67
+13	throw	throw	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=68|end_char=73
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=74|end_char=76
+15	away	away	ADV	RB	_	14	_	_	start_char=77|end_char=81
+16	YOURSELF	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	15	_	_	start_char=82|end_char=90|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=90|end_char=91|SpaceAfter=No
+

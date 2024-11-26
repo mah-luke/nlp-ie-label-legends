@@ -1,0 +1,37 @@
+# text = DONT CALL ME A MOTHERFUCKER!
+# sent_id = 90630
+1	DONT	dont	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	CALL	call	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	ME	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=10|end_char=12
+4	A	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=13|end_char=14
+5	MOTHERFUCKER	motherfucker	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=27|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=27|end_char=28
+
+# text = IM NOT A MOTHERFUCKER!
+# sent_id = 90631
+1	IM	IM	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=29|end_char=31
+2	NOT	not	PART	RB	_	1	_	_	start_char=32|end_char=35
+3	A	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=36|end_char=37
+4	MOTHERFUCKER	motherfucker	NOUN	NN	Number=Sing	3	_	_	start_char=38|end_char=50|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=50|end_char=51
+
+# text = I just happen to fuck other peoples mothers on purpose as i go about my day...
+# sent_id = 90632
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=52|end_char=53
+2	just	just	ADV	RB	_	1	_	_	start_char=54|end_char=58
+3	happen	happen	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=59|end_char=65
+4	to	to	PART	TO	_	3	_	_	start_char=66|end_char=68
+5	fuck	fuck	VERB	VB	VerbForm=Inf	4	_	_	start_char=69|end_char=73
+6	other	other	ADJ	JJ	Degree=Pos	5	_	_	start_char=74|end_char=79
+7	peoples	people	NOUN	NNS	Number=Plur	6	_	_	start_char=80|end_char=87
+8	mothers	mother	NOUN	NNS	Number=Plur	7	_	_	start_char=88|end_char=95
+9	on	on	ADP	IN	_	8	_	_	start_char=96|end_char=98
+10	purpose	purpose	NOUN	NN	Number=Sing	9	_	_	start_char=99|end_char=106
+11	as	as	SCONJ	IN	_	10	_	_	start_char=107|end_char=109
+12	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=110|end_char=111
+13	go	go	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=112|end_char=114
+14	about	about	ADP	IN	_	13	_	_	start_char=115|end_char=120
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	_	_	start_char=121|end_char=123
+16	day	day	NOUN	NN	Number=Sing	15	_	_	start_char=124|end_char=127|SpaceAfter=No
+17	...	...	PUNCT	.	_	16	_	_	start_char=127|end_char=130|SpaceAfter=No
+

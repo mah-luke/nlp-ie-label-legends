@@ -1,0 +1,30 @@
+# text = I'll give the guy/gal some credit -- so far s/he hasn't blocked me.
+# sent_id = 65197
+1-2	I'll	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	give	give	VERB	VB	VerbForm=Inf	2	_	_	start_char=5|end_char=9
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=10|end_char=13
+5	guy	guy	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=17|SpaceAfter=No
+6	/	/	SYM	,	_	5	_	_	start_char=17|end_char=18|SpaceAfter=No
+7	gal	gal	NOUN	NN	Number=Sing	6	_	_	start_char=18|end_char=21
+8	some	some	DET	DT	_	7	_	_	start_char=22|end_char=26
+9	credit	credit	NOUN	NN	Number=Sing	8	_	_	start_char=27|end_char=33
+10	--	--	PUNCT	,	_	9	_	_	start_char=34|end_char=36
+11	so	so	ADV	RB	_	10	_	_	start_char=37|end_char=39
+12	far	far	ADV	RB	Degree=Pos	11	_	_	start_char=40|end_char=43
+13	s/	s/	INTJ	UH	_	12	_	_	start_char=44|end_char=46|SpaceAfter=No
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=46|end_char=48
+15-16	hasn't	_	_	_	_	_	_	_	start_char=49|end_char=55
+15	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=49|end_char=52
+16	n't	not	PART	RB	_	15	_	_	start_char=52|end_char=55
+17	blocked	block	VERB	VBN	Tense=Past|VerbForm=Part	16	_	_	start_char=56|end_char=63
+18	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	17	_	_	start_char=64|end_char=66|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=66|end_char=67
+
+# text = [URL]
+# sent_id = 65198
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=68|end_char=69|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=69|end_char=72|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=72|end_char=73|SpaceAfter=No
+

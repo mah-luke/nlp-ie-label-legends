@@ -1,0 +1,16 @@
+# text = right, everything is another word for nazi.
+# sent_id = 17973
+1	right	right	ADV	RB	_	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3	everything	everything	PRON	NN	Number=Sing|PronType=Tot	2	_	_	start_char=7|end_char=17
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=18|end_char=20
+5	another	another	DET	DT	_	4	_	_	start_char=21|end_char=28
+6	word	word	NOUN	NN	Number=Sing	5	_	_	start_char=29|end_char=33
+7	for	for	ADP	IN	_	6	_	_	start_char=34|end_char=37
+8	nazi	nazi	PROPN	NNP	Number=Sing	7	_	_	start_char=38|end_char=42|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=42|end_char=43
+
+# text = boring
+# sent_id = 17974
+1	boring	boring	ADJ	JJ	Degree=Pos	0	_	_	start_char=44|end_char=50|SpaceAfter=No
+

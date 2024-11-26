@@ -1,0 +1,38 @@
+# text = 11-year-old Sofia Sanchez captured hearts when rapper Drake visited her in the hospital as she waited for a heart transplant.
+# sent_id = 37730
+1	11	11	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	-	-	PUNCT	:	_	1	_	_	start_char=2|end_char=3|SpaceAfter=No
+3	year	year	NOUN	NN	Number=Sing	2	_	_	start_char=3|end_char=7|SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	_	_	start_char=7|end_char=8|SpaceAfter=No
+5	old	old	ADJ	JJ	Degree=Pos	4	_	_	start_char=8|end_char=11
+6	Sofia	Sofia	PROPN	NNP	Number=Sing	5	_	_	start_char=12|end_char=17
+7	Sanchez	Sanchez	PROPN	NNP	Number=Sing	6	_	_	start_char=18|end_char=25
+8	captured	capture	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=26|end_char=34
+9	hearts	heart	NOUN	NNS	Number=Plur	8	_	_	start_char=35|end_char=41
+10	when	when	ADV	WRB	PronType=Int	9	_	_	start_char=42|end_char=46
+11	rapper	rapper	NOUN	NN	Number=Sing	10	_	_	start_char=47|end_char=53
+12	Drake	Drake	PROPN	NNP	Number=Sing	11	_	_	start_char=54|end_char=59
+13	visited	visit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=60|end_char=67
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=68|end_char=71
+15	in	in	ADP	IN	_	14	_	_	start_char=72|end_char=74
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=75|end_char=78
+17	hospital	hospital	NOUN	NN	Number=Sing	16	_	_	start_char=79|end_char=87
+18	as	as	SCONJ	IN	_	17	_	_	start_char=88|end_char=90
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=91|end_char=94
+20	waited	wait	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=95|end_char=101
+21	for	for	ADP	IN	_	20	_	_	start_char=102|end_char=105
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	start_char=106|end_char=107
+23	heart	heart	NOUN	NN	Number=Sing	22	_	_	start_char=108|end_char=113
+24	transplant	transplant	NOUN	NN	Number=Sing	23	_	_	start_char=114|end_char=124|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=124|end_char=125
+
+# text = via [USER] [URL]
+# sent_id = 37731
+1	via	via	ADP	IN	_	0	_	_	start_char=126|end_char=129
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=130|end_char=131|SpaceAfter=No
+3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=131|end_char=135|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=135|end_char=136
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=137|end_char=138|SpaceAfter=No
+6	URL	URL	PROPN	NNP	Number=Sing	5	_	_	start_char=138|end_char=141|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=141|end_char=142|SpaceAfter=No
+

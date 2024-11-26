@@ -1,0 +1,33 @@
+# text = [USER] good call.
+# sent_id = 89598
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	good	good	ADJ	JJ	Degree=Pos	3	_	_	start_char=7|end_char=11
+5	call	call	NOUN	NN	Number=Sing	4	_	_	start_char=12|end_char=16|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=16|end_char=17
+
+# text = But who says they have a gender?
+# sent_id = 89599
+1	But	but	CCONJ	CC	_	0	_	_	start_char=18|end_char=21
+2	who	who	PRON	WP	PronType=Int	1	_	_	start_char=22|end_char=25
+3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=26|end_char=30
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=31|end_char=35
+5	have	have	VERB	VB	VerbForm=Inf	4	_	_	start_char=36|end_char=40
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=41|end_char=42
+7	gender	gender	NOUN	NN	Number=Sing	6	_	_	start_char=43|end_char=49|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=49|end_char=50
+
+# text = I am just going to avoid women with penises.
+# sent_id = 89600
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=51|end_char=52
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=53|end_char=55
+3	just	just	ADV	RB	_	2	_	_	start_char=56|end_char=60
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=61|end_char=66
+5	to	to	PART	TO	_	4	_	_	start_char=67|end_char=69
+6	avoid	avoid	VERB	VB	VerbForm=Inf	5	_	_	start_char=70|end_char=75
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=76|end_char=81
+8	with	with	ADP	IN	_	7	_	_	start_char=82|end_char=86
+9	penises	penise	NOUN	NNS	Number=Plur	8	_	_	start_char=87|end_char=94|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=94|end_char=95|SpaceAfter=No
+

@@ -1,0 +1,53 @@
+# text = Both parents are college professors.
+# sent_id = 25883
+1	Both	both	DET	DT	_	0	_	_	start_char=0|end_char=4
+2	parents	parent	NOUN	NNS	Number=Plur	1	_	_	start_char=5|end_char=12
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=16
+4	college	college	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=24
+5	professors	professor	NOUN	NNS	Number=Plur	4	_	_	start_char=25|end_char=35|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=35|end_char=36
+
+# text = Is it any wonder she felt it is ok to date a black man?
+# sent_id = 25884
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=37|end_char=39
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=40|end_char=42
+3	any	any	DET	DT	_	2	_	_	start_char=43|end_char=46
+4	wonder	wonder	NOUN	NN	Number=Sing	3	_	_	start_char=47|end_char=53
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=54|end_char=57
+6	felt	feel	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=58|end_char=62
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=63|end_char=65
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=66|end_char=68
+9	ok	ok	ADJ	JJ	Degree=Pos	8	_	_	start_char=69|end_char=71
+10	to	to	PART	TO	_	9	_	_	start_char=72|end_char=74
+11	date	date	VERB	VB	VerbForm=Inf	10	_	_	start_char=75|end_char=79
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=80|end_char=81
+13	black	black	ADJ	JJ	Degree=Pos	12	_	_	start_char=82|end_char=87
+14	man	man	NOUN	NN	Number=Sing	13	_	_	start_char=88|end_char=91|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=91|end_char=92
+
+# text = I have no sympathy for these girls.
+# sent_id = 25885
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=93|end_char=94
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=95|end_char=99
+3	no	no	DET	DT	_	2	_	_	start_char=100|end_char=102
+4	sympathy	sympathy	NOUN	NN	Number=Sing	3	_	_	start_char=103|end_char=111
+5	for	for	ADP	IN	_	4	_	_	start_char=112|end_char=115
+6	these	this	DET	DT	Number=Plur|PronType=Dem	5	_	_	start_char=116|end_char=121
+7	girls	girl	NOUN	NNS	Number=Plur	6	_	_	start_char=122|end_char=127|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=127|end_char=128
+
+# text = We all know that most of these relationships end in trauma.
+# sent_id = 25886
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=129|end_char=131
+2	all	all	DET	DT	_	1	_	_	start_char=132|end_char=135
+3	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=136|end_char=140
+4	that	that	SCONJ	IN	_	3	_	_	start_char=141|end_char=145
+5	most	most	ADJ	JJS	Degree=Sup	4	_	_	start_char=146|end_char=150
+6	of	of	ADP	IN	_	5	_	_	start_char=151|end_char=153
+7	these	this	DET	DT	Number=Plur|PronType=Dem	6	_	_	start_char=154|end_char=159
+8	relationships	relationship	NOUN	NNS	Number=Plur	7	_	_	start_char=160|end_char=173
+9	end	end	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=174|end_char=177
+10	in	in	ADP	IN	_	9	_	_	start_char=178|end_char=180
+11	trauma	trauma	NOUN	NN	Number=Sing	10	_	_	start_char=181|end_char=187|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=187|end_char=188|SpaceAfter=No
+

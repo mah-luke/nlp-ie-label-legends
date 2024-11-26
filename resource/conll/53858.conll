@@ -1,0 +1,43 @@
+# text = Yep.
+# sent_id = 115132
+1	Yep	yep	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = No relationships.
+# sent_id = 115133
+1	No	no	DET	DT	_	0	_	_	start_char=5|end_char=7
+2	relationships	relationship	NOUN	NNS	Number=Plur	1	_	_	start_char=8|end_char=21|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=21|end_char=22
+
+# text = Just fucking.
+# sent_id = 115134
+1	Just	just	ADV	RB	_	0	_	_	start_char=23|end_char=27
+2	fucking	fucking	ADV	RB	_	1	_	_	start_char=28|end_char=35|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=35|end_char=36
+
+# text = Men don’t need to buy the cow until we’re pushing 50.
+# sent_id = 115135
+1	Men	man	NOUN	NNS	Number=Plur	0	_	_	start_char=37|end_char=40
+2-3	don’t	_	_	_	_	_	_	_	start_char=41|end_char=46
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=41|end_char=43
+3	n’t	not	PART	RB	_	2	_	_	start_char=43|end_char=46
+4	need	need	VERB	VB	VerbForm=Inf	3	_	_	start_char=47|end_char=51
+5	to	to	PART	TO	_	4	_	_	start_char=52|end_char=54
+6	buy	buy	VERB	VB	VerbForm=Inf	5	_	_	start_char=55|end_char=58
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=59|end_char=62
+8	cow	cow	NOUN	NN	Number=Sing	7	_	_	start_char=63|end_char=66
+9	until	until	SCONJ	IN	_	8	_	_	start_char=67|end_char=72
+10-11	we’re	_	_	_	_	_	_	_	start_char=73|end_char=78
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	_	_	start_char=73|end_char=75
+11	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=75|end_char=78
+12	pushing	push	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=79|end_char=86
+13	50	50	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=87|end_char=89|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=89|end_char=90
+
+# text = If at all.
+# sent_id = 115136
+1	If	if	SCONJ	IN	_	0	_	_	start_char=91|end_char=93
+2	at	at	ADP	IN	_	1	_	_	start_char=94|end_char=96
+3	all	all	DET	DT	_	2	_	_	start_char=97|end_char=100|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=100|end_char=101|SpaceAfter=No
+

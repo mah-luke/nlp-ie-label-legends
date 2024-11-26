@@ -1,0 +1,27 @@
+# text = That's true.
+# sent_id = 120993
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	true	true	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=11|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=11|end_char=12
+
+# text = I've been hit on by multiple gay dudes and basically ignored by females.
+# sent_id = 120994
+1-2	I've	_	_	_	_	_	_	_	start_char=13|end_char=17
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=13|end_char=14
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=14|end_char=17
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=18|end_char=22
+4	hit	hit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=23|end_char=26
+5	on	on	ADP	RP	_	4	_	_	start_char=27|end_char=29
+6	by	by	ADP	IN	_	5	_	_	start_char=30|end_char=32
+7	multiple	multiple	ADJ	JJ	Degree=Pos	6	_	_	start_char=33|end_char=41
+8	gay	gay	ADJ	JJ	Degree=Pos	7	_	_	start_char=42|end_char=45
+9	dudes	dude	NOUN	NNS	Number=Plur	8	_	_	start_char=46|end_char=51
+10	and	and	CCONJ	CC	_	9	_	_	start_char=52|end_char=55
+11	basically	basically	ADV	RB	_	10	_	_	start_char=56|end_char=65
+12	ignored	ignore	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=66|end_char=73
+13	by	by	ADP	IN	_	12	_	_	start_char=74|end_char=76
+14	females	female	NOUN	NNS	Number=Plur	13	_	_	start_char=77|end_char=84|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=84|end_char=85|SpaceAfter=No
+

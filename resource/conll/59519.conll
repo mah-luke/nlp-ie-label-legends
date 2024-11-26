@@ -1,0 +1,30 @@
+# text = Oh no!
+# sent_id = 127029
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	no	no	INTJ	UH	_	1	_	_	start_char=3|end_char=5|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=5|end_char=6
+
+# text = Not the Queen of the Silver Dollar!
+# sent_id = 127030
+1	Not	not	PART	RB	_	0	_	_	start_char=7|end_char=10
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=11|end_char=14
+3	Queen	Queen	PROPN	NNP	Number=Sing	2	_	_	start_char=15|end_char=20
+4	of	of	ADP	IN	_	3	_	_	start_char=21|end_char=23
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=24|end_char=27
+6	Silver	Silver	ADJ	NNP	Degree=Pos	5	_	_	start_char=28|end_char=34
+7	Dollar	dollar	PROPN	NNP	Number=Sing	6	_	_	start_char=35|end_char=41|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=41|end_char=42
+
+# text = I though she run oft with Rolland the Roadie.
+# sent_id = 127031
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=43|end_char=44
+2	though	though	ADV	RB	_	1	_	_	start_char=45|end_char=51
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=52|end_char=55
+4	run	run	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=56|end_char=59
+5	oft	oft	NOUN	NN	Number=Sing	4	_	_	start_char=60|end_char=63
+6	with	with	ADP	IN	_	5	_	_	start_char=64|end_char=68
+7	Rolland	Rolland	PROPN	NNP	Number=Sing	6	_	_	start_char=69|end_char=76
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=77|end_char=80
+9	Roadie	Roadie	PROPN	NNP	Number=Sing	8	_	_	start_char=81|end_char=87|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=87|end_char=88|SpaceAfter=No
+

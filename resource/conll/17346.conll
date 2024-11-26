@@ -1,0 +1,64 @@
+# text = [USER]
+# sent_id = 37281
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Just assume that every big Church or Cathedral is at risk from ISIS attack.
+# sent_id = 37282
+1	Just	just	ADV	RB	_	0	_	_	start_char=7|end_char=11
+2	assume	assume	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=12|end_char=18
+3	that	that	SCONJ	IN	_	2	_	_	start_char=19|end_char=23
+4	every	every	DET	DT	_	3	_	_	start_char=24|end_char=29
+5	big	big	ADJ	JJ	Degree=Pos	4	_	_	start_char=30|end_char=33
+6	Church	Church	PROPN	NNP	Number=Sing	5	_	_	start_char=34|end_char=40
+7	or	or	CCONJ	CC	_	6	_	_	start_char=41|end_char=43
+8	Cathedral	Cathedral	PROPN	NNP	Number=Sing	7	_	_	start_char=44|end_char=53
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=54|end_char=56
+10	at	at	ADP	IN	_	9	_	_	start_char=57|end_char=59
+11	risk	risk	NOUN	NN	Number=Sing	10	_	_	start_char=60|end_char=64
+12	from	from	ADP	IN	_	11	_	_	start_char=65|end_char=69
+13	ISIS	ISIS	PROPN	NNP	Number=Sing	12	_	_	start_char=70|end_char=74
+14	attack	attack	NOUN	NN	Number=Sing	13	_	_	start_char=75|end_char=81|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=81|end_char=82
+
+# text = Christians are their number one target.
+# sent_id = 37283
+1	Christians	Christian	PROPN	NNPS	Number=Plur	0	_	_	start_char=83|end_char=93
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=94|end_char=97
+3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=98|end_char=103
+4	number	number	NOUN	NN	Number=Sing	3	_	_	start_char=104|end_char=110
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=111|end_char=114
+6	target	target	NOUN	NN	Number=Sing	5	_	_	start_char=115|end_char=121|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=121|end_char=122
+
+# text = Smaller, less well known places of worship are far less lightly to draw their attention.
+# sent_id = 37284
+1	Smaller	small	ADJ	JJR	Degree=Cmp	0	_	_	start_char=123|end_char=130|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=130|end_char=131
+3	less	less	ADV	RBR	Degree=Cmp	2	_	_	start_char=132|end_char=136
+4	well	well	ADV	RB	Degree=Pos	3	_	_	start_char=137|end_char=141
+5	known	know	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=142|end_char=147
+6	places	place	NOUN	NNS	Number=Plur	5	_	_	start_char=148|end_char=154
+7	of	of	ADP	IN	_	6	_	_	start_char=155|end_char=157
+8	worship	worship	NOUN	NN	Number=Sing	7	_	_	start_char=158|end_char=165
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=166|end_char=169
+10	far	far	ADV	RB	Degree=Pos	9	_	_	start_char=170|end_char=173
+11	less	less	ADV	RBR	Degree=Cmp	10	_	_	start_char=174|end_char=178
+12	lightly	lightly	ADV	RB	_	11	_	_	start_char=179|end_char=186
+13	to	to	PART	TO	_	12	_	_	start_char=187|end_char=189
+14	draw	draw	VERB	VB	VerbForm=Inf	13	_	_	start_char=190|end_char=194
+15	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=195|end_char=200
+16	attention	attention	NOUN	NN	Number=Sing	15	_	_	start_char=201|end_char=210|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=210|end_char=211
+
+# text = Or at least we hope so.
+# sent_id = 37285
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=212|end_char=214
+2	at	at	ADP	IN	ExtPos=ADV	1	_	_	start_char=215|end_char=217
+3	least	least	ADJ	JJS	Degree=Sup	2	_	_	start_char=218|end_char=223
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=224|end_char=226
+5	hope	hope	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=227|end_char=231
+6	so	so	ADV	RB	_	5	_	_	start_char=232|end_char=234|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=234|end_char=235|SpaceAfter=No
+

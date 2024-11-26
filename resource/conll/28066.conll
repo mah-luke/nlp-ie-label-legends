@@ -1,0 +1,42 @@
+# text = As a kid, I grew up in my teen years on the streets.
+# sent_id = 60266
+1	As	as	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=3|end_char=4
+3	kid	kid	NOUN	NN	Number=Sing	2	_	_	start_char=5|end_char=8|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=8|end_char=9
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=10|end_char=11
+6	grew	grow	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=12|end_char=16
+7	up	up	ADP	RP	_	6	_	_	start_char=17|end_char=19
+8	in	in	ADP	IN	_	7	_	_	start_char=20|end_char=22
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=23|end_char=25
+10	teen	teen	NOUN	NN	Number=Sing	9	_	_	start_char=26|end_char=30
+11	years	year	NOUN	NNS	Number=Plur	10	_	_	start_char=31|end_char=36
+12	on	on	ADP	IN	_	11	_	_	start_char=37|end_char=39
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=40|end_char=43
+14	streets	street	NOUN	NNS	Number=Plur	13	_	_	start_char=44|end_char=51|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=51|end_char=52
+
+# text = She wouldn't have succeed in hitting more than twice before I beat the living hell out of her.
+# sent_id = 60267
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=53|end_char=56
+2-3	wouldn't	_	_	_	_	_	_	_	start_char=57|end_char=65
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=57|end_char=62
+3	n't	not	PART	RB	_	2	_	_	start_char=62|end_char=65
+4	have	have	AUX	VB	VerbForm=Inf	3	_	_	start_char=66|end_char=70
+5	succeed	succeed	VERB	VB	VerbForm=Inf	4	_	_	start_char=71|end_char=78
+6	in	in	SCONJ	IN	_	5	_	_	start_char=79|end_char=81
+7	hitting	hit	VERB	VBG	VerbForm=Ger	6	_	_	start_char=82|end_char=89
+8	more	more	ADJ	JJR	Degree=Cmp	7	_	_	start_char=90|end_char=94
+9	than	than	ADP	IN	_	8	_	_	start_char=95|end_char=99
+10	twice	twice	ADV	RB	NumType=Mult	9	_	_	start_char=100|end_char=105
+11	before	before	SCONJ	IN	_	10	_	_	start_char=106|end_char=112
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=113|end_char=114
+13	beat	beat	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=115|end_char=119
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=120|end_char=123
+15	living	living	NOUN	NN	Number=Sing	14	_	_	start_char=124|end_char=130
+16	hell	hell	NOUN	NN	Number=Sing	15	_	_	start_char=131|end_char=135
+17	out	out	ADP	IN	_	16	_	_	start_char=136|end_char=139
+18	of	of	ADP	IN	_	17	_	_	start_char=140|end_char=142
+19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=143|end_char=146|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=146|end_char=147|SpaceAfter=No
+

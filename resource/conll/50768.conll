@@ -1,0 +1,26 @@
+# text = [USER]
+# sent_id = 108519
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Leg day is easy.
+# sent_id = 108520
+1	Leg	leg	NOUN	NN	Number=Sing	0	_	_	start_char=7|end_char=10
+2	day	day	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=14
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=15|end_char=17
+4	easy	easy	ADJ	JJ	Degree=Pos	3	_	_	start_char=18|end_char=22|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=22|end_char=23
+
+# text = Hot girls who wear miniskirts get asked out.
+# sent_id = 108521
+1	Hot	hot	ADJ	JJ	Degree=Pos	0	_	_	start_char=24|end_char=27
+2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=28|end_char=33
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=34|end_char=37
+4	wear	wear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=38|end_char=42
+5	miniskirts	miniskirt	NOUN	NNS	Number=Plur	4	_	_	start_char=43|end_char=53
+6	get	get	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=54|end_char=57
+7	asked	ask	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=58|end_char=63
+8	out	out	ADP	RP	_	7	_	_	start_char=64|end_char=67|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=67|end_char=68|SpaceAfter=No
+

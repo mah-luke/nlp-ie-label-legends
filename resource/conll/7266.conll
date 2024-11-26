@@ -1,0 +1,37 @@
+# text = That last email?
+# sent_id = 15213
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	last	last	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=9
+3	email	email	NOUN	NN	Number=Sing	2	_	_	start_char=10|end_char=15|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=15|end_char=16
+
+# text = Where she's trying to squirm her way into your heart?
+# sent_id = 15214
+1	Where	where	ADV	WRB	PronType=Int	0	_	_	start_char=17|end_char=22
+2-3	she's	_	_	_	_	_	_	_	start_char=23|end_char=28
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=23|end_char=26
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=26|end_char=28
+4	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=29|end_char=35
+5	to	to	PART	TO	_	4	_	_	start_char=36|end_char=38
+6	squirm	squirm	VERB	VB	VerbForm=Inf	5	_	_	start_char=39|end_char=45
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=46|end_char=49
+8	way	way	NOUN	NN	Number=Sing	7	_	_	start_char=50|end_char=53
+9	into	into	ADP	IN	_	8	_	_	start_char=54|end_char=58
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	_	_	start_char=59|end_char=63
+11	heart	heart	NOUN	NN	Number=Sing	10	_	_	start_char=64|end_char=69|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=69|end_char=70
+
+# text = That woman is looking for somebody to save her ass.
+# sent_id = 15215
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=71|end_char=75
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=76|end_char=81
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=82|end_char=84
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=85|end_char=92
+5	for	for	ADP	IN	_	4	_	_	start_char=93|end_char=96
+6	somebody	somebody	PRON	NN	Number=Sing|PronType=Ind	5	_	_	start_char=97|end_char=105
+7	to	to	PART	TO	_	6	_	_	start_char=106|end_char=108
+8	save	save	VERB	VB	VerbForm=Inf	7	_	_	start_char=109|end_char=113
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=114|end_char=117
+10	ass	ass	NOUN	NN	Number=Sing	9	_	_	start_char=118|end_char=121|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=121|end_char=122|SpaceAfter=No
+

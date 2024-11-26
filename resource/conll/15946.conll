@@ -1,0 +1,47 @@
+# text = [URL] LOL!
+# sent_id = 34099
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+4	LOL	lol	INTJ	UH	_	3	_	_	start_char=6|end_char=9|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=9|end_char=10
+
+# text = You are too cool, the Watchman Watcher.
+# sent_id = 34100
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=11|end_char=14
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=15|end_char=18
+3	too	too	ADV	RB	_	2	_	_	start_char=19|end_char=22
+4	cool	cool	ADJ	JJ	Degree=Pos	3	_	_	start_char=23|end_char=27|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=27|end_char=28
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=29|end_char=32
+7	Watchman	Watchman	PROPN	NNP	Number=Sing	6	_	_	start_char=33|end_char=41
+8	Watcher	Watcher	PROPN	NNP	Number=Sing	7	_	_	start_char=42|end_char=49|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=49|end_char=50
+
+# text = 😎
+# sent_id = 34101
+1	😎	😎	PUNCT	NFP	_	0	_	_	start_char=51|end_char=52
+
+# text = Every gal appreciates a man who keeps an eye out, at least I know I appreciate it.😘
+# sent_id = 34102
+1	Every	every	DET	DT	_	0	_	_	start_char=53|end_char=58
+2	gal	gal	NOUN	NN	Number=Sing	1	_	_	start_char=59|end_char=62
+3	appreciates	appreciate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=63|end_char=74
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=75|end_char=76
+5	man	man	NOUN	NN	Number=Sing	4	_	_	start_char=77|end_char=80
+6	who	who	PRON	WP	PronType=Rel	5	_	_	start_char=81|end_char=84
+7	keeps	keep	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=85|end_char=90
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=91|end_char=93
+9	eye	eye	NOUN	NN	Number=Sing	8	_	_	start_char=94|end_char=97
+10	out	out	ADP	RP	_	9	_	_	start_char=98|end_char=101|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=101|end_char=102
+12	at	at	ADV	IN	_	11	_	_	start_char=103|end_char=105
+13	least	least	ADJ	JJS	Degree=Sup	12	_	_	start_char=106|end_char=111
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=112|end_char=113
+15	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	_	_	start_char=114|end_char=118
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=119|end_char=120
+17	appreciate	appreciate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	_	_	start_char=121|end_char=131
+18	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=132|end_char=134|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=134|end_char=135|SpaceAfter=No
+20	😘	😘	PUNCT	''	_	19	_	_	start_char=135|end_char=136|SpaceAfter=No
+

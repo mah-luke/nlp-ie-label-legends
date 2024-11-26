@@ -1,0 +1,53 @@
+# text = [USER]
+# sent_id = 99738
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Hint: the well-funded people who put themselves forward to represent Islam in interfaith meetings are almost certainly Wahhabi terror-spreading agents or shills.
+# sent_id = 99739
+1	Hint	hint	NOUN	NN	Number=Sing	0	_	_	start_char=7|end_char=11|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=11|end_char=12
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=13|end_char=16
+4	well	well	ADV	RB	Degree=Pos	3	_	_	start_char=17|end_char=21|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	_	_	start_char=21|end_char=22|SpaceAfter=No
+6	funded	fund	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=22|end_char=28
+7	people	person	NOUN	NNS	Number=Plur	6	_	_	start_char=29|end_char=35
+8	who	who	PRON	WP	PronType=Rel	7	_	_	start_char=36|end_char=39
+9	put	put	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=40|end_char=43
+10	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	9	_	_	start_char=44|end_char=54
+11	forward	forward	ADV	RB	_	10	_	_	start_char=55|end_char=62
+12	to	to	PART	TO	_	11	_	_	start_char=63|end_char=65
+13	represent	represent	VERB	VB	VerbForm=Inf	12	_	_	start_char=66|end_char=75
+14	Islam	Islam	PROPN	NNP	Number=Sing	13	_	_	start_char=76|end_char=81
+15	in	in	ADP	IN	_	14	_	_	start_char=82|end_char=84
+16	interfaith	interfaith	ADJ	JJ	Degree=Pos	15	_	_	start_char=85|end_char=95
+17	meetings	meeting	NOUN	NNS	Number=Plur	16	_	_	start_char=96|end_char=104
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=105|end_char=108
+19	almost	almost	ADV	RB	_	18	_	_	start_char=109|end_char=115
+20	certainly	certainly	ADV	RB	_	19	_	_	start_char=116|end_char=125
+21	Wahhabi	wahhabi	ADJ	JJ	Degree=Pos	20	_	_	start_char=126|end_char=133
+22	terror	terror	NOUN	NN	Number=Sing	21	_	_	start_char=134|end_char=140|SpaceAfter=No
+23	-	-	PUNCT	HYPH	_	22	_	_	start_char=140|end_char=141|SpaceAfter=No
+24	spreading	spread	VERB	VBG	VerbForm=Ger	23	_	_	start_char=141|end_char=150
+25	agents	agent	NOUN	NNS	Number=Plur	24	_	_	start_char=151|end_char=157
+26	or	or	CCONJ	CC	_	25	_	_	start_char=158|end_char=160
+27	shills	shill	NOUN	NNS	Number=Plur	26	_	_	start_char=161|end_char=167|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=167|end_char=168
+
+# text = Pump oil, crush Saudi Arabia, and end the terror menace.
+# sent_id = 99740
+1	Pump	Pump	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=169|end_char=173
+2	oil	oil	NOUN	NN	Number=Sing	1	_	_	start_char=174|end_char=177|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=177|end_char=178
+4	crush	crush	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=179|end_char=184
+5	Saudi	Saudi	ADJ	NNP	Degree=Pos	4	_	_	start_char=185|end_char=190
+6	Arabia	Arabia	PROPN	NNP	Number=Sing	5	_	_	start_char=191|end_char=197|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=197|end_char=198
+8	and	and	CCONJ	CC	_	7	_	_	start_char=199|end_char=202
+9	end	end	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=203|end_char=206
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=207|end_char=210
+11	terror	terror	NOUN	NN	Number=Sing	10	_	_	start_char=211|end_char=217
+12	menace	menace	NOUN	NN	Number=Sing	11	_	_	start_char=218|end_char=224|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=224|end_char=225|SpaceAfter=No
+

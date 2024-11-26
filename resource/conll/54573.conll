@@ -1,0 +1,57 @@
+# text = [USER]
+# sent_id = 116616
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = So you believe it was camera tricks.
+# sent_id = 116617
+1	So	so	ADV	RB	_	0	_	_	start_char=7|end_char=9
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=10|end_char=13
+3	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=14|end_char=21
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=22|end_char=24
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=25|end_char=28
+6	camera	camera	NOUN	NN	Number=Sing	5	_	_	start_char=29|end_char=35
+7	tricks	trick	NOUN	NNS	Number=Plur	6	_	_	start_char=36|end_char=42|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=42|end_char=43
+
+# text = While this was happening, could you see her hands?
+# sent_id = 116618
+1	While	while	SCONJ	IN	_	0	_	_	start_char=44|end_char=49
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=50|end_char=54
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=55|end_char=58
+4	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=59|end_char=68|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=68|end_char=69
+6	could	could	AUX	MD	VerbForm=Fin	5	_	_	start_char=70|end_char=75
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=76|end_char=79
+8	see	see	VERB	VB	VerbForm=Inf	7	_	_	start_char=80|end_char=83
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=84|end_char=87
+10	hands	hand	NOUN	NNS	Number=Plur	9	_	_	start_char=88|end_char=93|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=93|end_char=94
+
+# text = What kind of clothing was she wearing.
+# sent_id = 116619
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=95|end_char=99
+2	kind	kind	NOUN	NN	Number=Sing	1	_	_	start_char=100|end_char=104
+3	of	of	ADP	IN	_	2	_	_	start_char=105|end_char=107
+4	clothing	clothing	NOUN	NN	Number=Sing	3	_	_	start_char=108|end_char=116
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=117|end_char=120
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=121|end_char=124
+7	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=125|end_char=132|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=132|end_char=133
+
+# text = Something that could conveniently hide a rope or somethi g else?
+# sent_id = 116620
+1	Something	something	PRON	NN	Number=Sing|PronType=Ind	0	_	_	start_char=134|end_char=143
+2	that	that	PRON	WDT	PronType=Rel	1	_	_	start_char=144|end_char=148
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=149|end_char=154
+4	conveniently	conveniently	ADV	RB	_	3	_	_	start_char=155|end_char=167
+5	hide	hide	VERB	VB	VerbForm=Inf	4	_	_	start_char=168|end_char=172
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=173|end_char=174
+7	rope	rope	NOUN	NN	Number=Sing	6	_	_	start_char=175|end_char=179
+8	or	or	CCONJ	CC	_	7	_	_	start_char=180|end_char=182
+9	somethi	somethi	DET	DT	_	8	_	_	start_char=183|end_char=190
+10	g	gram	NOUN	NNS	Number=Plur	9	_	_	start_char=191|end_char=192
+11	else	else	ADJ	JJ	Degree=Pos	10	_	_	start_char=193|end_char=197|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=197|end_char=198|SpaceAfter=No
+

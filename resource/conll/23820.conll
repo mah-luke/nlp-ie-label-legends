@@ -1,0 +1,22 @@
+# text = *Cough cunt *cough.
+# sent_id = 51108
+1	*	*	PUNCT	NFP	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Cough	cough	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=6
+3	cunt	cunt	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=11
+4	*	*	PUNCT	NFP	_	3	_	_	start_char=12|end_char=13|SpaceAfter=No
+5	cough	cough	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=18|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=18|end_char=19
+
+# text = You cant go wrong with a classic.
+# sent_id = 51109
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=20|end_char=23
+2-3	cant	_	_	_	_	_	_	_	start_char=24|end_char=28
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=24|end_char=26
+3	nt	not	PART	RB	_	2	_	_	start_char=26|end_char=28
+4	go	go	VERB	VB	VerbForm=Inf	3	_	_	start_char=29|end_char=31
+5	wrong	wrong	ADJ	JJ	Degree=Pos	4	_	_	start_char=32|end_char=37
+6	with	with	ADP	IN	_	5	_	_	start_char=38|end_char=42
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=43|end_char=44
+8	classic	classic	NOUN	NN	Number=Sing	7	_	_	start_char=45|end_char=52|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=52|end_char=53|SpaceAfter=No
+

@@ -1,0 +1,29 @@
+# text = [URL]
+# sent_id = 67443
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+
+# text = My girlfriend just told me a new ATC aluminum toy hauler just came into stock at SunCity RV, right
+# sent_id = 67444
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=6|end_char=8
+2	girlfriend	girlfriend	NOUN	NN	Number=Sing	1	_	_	start_char=9|end_char=19
+3	just	just	ADV	RB	_	2	_	_	start_char=20|end_char=24
+4	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=25|end_char=29
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=30|end_char=32
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=33|end_char=34
+7	new	new	ADJ	JJ	Degree=Pos	6	_	_	start_char=35|end_char=38
+8	ATC	ATC	PROPN	NNP	Number=Sing	7	_	_	start_char=39|end_char=42
+9	aluminum	aluminum	NOUN	NN	Number=Sing	8	_	_	start_char=43|end_char=51
+10	toy	toy	NOUN	NN	Number=Sing	9	_	_	start_char=52|end_char=55
+11	hauler	hauler	NOUN	NN	Number=Sing	10	_	_	start_char=56|end_char=62
+12	just	just	ADV	RB	_	11	_	_	start_char=63|end_char=67
+13	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=68|end_char=72
+14	into	into	ADP	IN	_	13	_	_	start_char=73|end_char=77
+15	stock	stock	NOUN	NN	Number=Sing	14	_	_	start_char=78|end_char=83
+16	at	at	ADP	IN	_	15	_	_	start_char=84|end_char=86
+17	SunCity	SunCity	PROPN	NNP	Number=Sing	16	_	_	start_char=87|end_char=94
+18	RV	RV	PROPN	NNP	Number=Sing	17	_	_	start_char=95|end_char=97|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=97|end_char=98
+20	right	right	ADV	RB	_	19	_	_	start_char=99|end_char=104|SpaceAfter=No
+

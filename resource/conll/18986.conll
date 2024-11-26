@@ -1,0 +1,24 @@
+# text = What are your spinster asscounts?
+# sent_id = 40729
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=9|end_char=13
+4	spinster	spinster	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=22
+5	asscounts	asscount	NOUN	NNS	Number=Plur	4	_	_	start_char=23|end_char=32|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=32|end_char=33
+
+# text = 1? Or 0 I don’t really have an ass
+# sent_id = 40730
+1	1	1	NUM	LS	_	0	_	_	start_char=34|end_char=35|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=35|end_char=36
+3	Or	or	CCONJ	CC	_	2	_	_	start_char=37|end_char=39
+4	0	0	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=40|end_char=41
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=42|end_char=43
+6-7	don’t	_	_	_	_	_	_	_	start_char=44|end_char=49
+6	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=44|end_char=46
+7	n’t	not	PART	RB	_	6	_	_	start_char=46|end_char=49
+8	really	really	ADV	RB	_	7	_	_	start_char=50|end_char=56
+9	have	have	VERB	VB	VerbForm=Inf	8	_	_	start_char=57|end_char=61
+10	an	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=62|end_char=64
+11	ass	ass	NOUN	NN	Number=Sing	10	_	_	start_char=65|end_char=68|SpaceAfter=No
+

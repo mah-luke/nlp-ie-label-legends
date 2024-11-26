@@ -1,0 +1,48 @@
+# text = I've seen this one.
+# sent_id = 78648
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=9
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=10|end_char=14
+5	one	one	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=18|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=18|end_char=19
+
+# text = That woman with the moustache gets her face ripped off and then goes on Oprah to tell how she ended up getting her face ripped off.
+# sent_id = 78649
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=20|end_char=24
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=25|end_char=30
+3	with	with	ADP	IN	_	2	_	_	start_char=31|end_char=35
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=36|end_char=39
+5	moustache	moustache	NOUN	NN	Number=Sing	4	_	_	start_char=40|end_char=49
+6	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=50|end_char=54
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=55|end_char=58
+8	face	face	NOUN	NN	Number=Sing	7	_	_	start_char=59|end_char=63
+9	ripped	rip	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=64|end_char=70
+10	off	off	ADP	RP	_	9	_	_	start_char=71|end_char=74
+11	and	and	CCONJ	CC	_	10	_	_	start_char=75|end_char=78
+12	then	then	ADV	RB	PronType=Dem	11	_	_	start_char=79|end_char=83
+13	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=84|end_char=88
+14	on	on	ADP	IN	_	13	_	_	start_char=89|end_char=91
+15	Oprah	Oprah	PROPN	NNP	Number=Sing	14	_	_	start_char=92|end_char=97
+16	to	to	PART	TO	_	15	_	_	start_char=98|end_char=100
+17	tell	tell	VERB	VB	VerbForm=Inf	16	_	_	start_char=101|end_char=105
+18	how	how	ADV	WRB	PronType=Int	17	_	_	start_char=106|end_char=109
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=110|end_char=113
+20	ended	end	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=114|end_char=119
+21	up	up	ADP	RP	_	20	_	_	start_char=120|end_char=122
+22	getting	get	VERB	VBG	VerbForm=Ger	21	_	_	start_char=123|end_char=130
+23	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	_	_	start_char=131|end_char=134
+24	face	face	NOUN	NN	Number=Sing	23	_	_	start_char=135|end_char=139
+25	ripped	rip	VERB	VBN	Tense=Past|VerbForm=Part	24	_	_	start_char=140|end_char=146
+26	off	off	ADP	RP	_	25	_	_	start_char=147|end_char=150|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=150|end_char=151
+
+# text = It's heartbreaking.
+# sent_id = 78650
+1-2	It's	_	_	_	_	_	_	_	start_char=152|end_char=156
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=152|end_char=154
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=154|end_char=156
+3	heartbreaking	heartbreaking	ADJ	JJ	Degree=Pos	2	_	_	start_char=157|end_char=170|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=170|end_char=171|SpaceAfter=No
+

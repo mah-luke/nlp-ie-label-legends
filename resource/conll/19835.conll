@@ -1,0 +1,50 @@
+# text = "Mr. President, stop attacking the press' says RHINO John McCain.
+# sent_id = 42589
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Mr.	Mr.	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4
+3	President	President	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=14|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=14|end_char=15
+5	stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=16|end_char=20
+6	attacking	attack	VERB	VBG	VerbForm=Ger	5	_	_	start_char=21|end_char=30
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=31|end_char=34
+8-9	press'	_	_	_	_	_	_	_	start_char=35|end_char=41
+8	press	press	NOUN	NN	Number=Sing	7	_	_	start_char=35|end_char=40
+9	'	'	PUNCT	''	_	8	_	_	start_char=40|end_char=41
+10	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=42|end_char=46
+11	RHINO	RHINO	PROPN	NNP	Number=Sing	10	_	_	start_char=47|end_char=52
+12	John	John	PROPN	NNP	Number=Sing	11	_	_	start_char=53|end_char=57
+13	McCain	McCain	PROPN	NNP	Number=Sing	12	_	_	start_char=58|end_char=64|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=64|end_char=65
+
+# text = Hey McCain, don't you have something better to do, don't you have a wife or somebody to betray, Mr. moral failure?
+# sent_id = 42590
+1	Hey	hey	INTJ	UH	_	0	_	_	start_char=66|end_char=69
+2	McCain	McCain	PROPN	NNP	Number=Sing	1	_	_	start_char=70|end_char=76|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=76|end_char=77
+4-5	don't	_	_	_	_	_	_	_	start_char=78|end_char=83
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=78|end_char=80
+5	n't	not	PART	RB	_	4	_	_	start_char=80|end_char=83
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=84|end_char=87
+7	have	have	VERB	VB	VerbForm=Inf	6	_	_	start_char=88|end_char=92
+8	something	something	PRON	NN	Number=Sing|PronType=Ind	7	_	_	start_char=93|end_char=102
+9	better	good	ADJ	JJR	Degree=Cmp	8	_	_	start_char=103|end_char=109
+10	to	to	PART	TO	_	9	_	_	start_char=110|end_char=112
+11	do	do	VERB	VB	VerbForm=Inf	10	_	_	start_char=113|end_char=115|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=115|end_char=116
+13-14	don't	_	_	_	_	_	_	_	start_char=117|end_char=122
+13	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=117|end_char=119
+14	n't	not	PART	RB	_	13	_	_	start_char=119|end_char=122
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	_	_	start_char=123|end_char=126
+16	have	have	VERB	VB	VerbForm=Inf	15	_	_	start_char=127|end_char=131
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=132|end_char=133
+18	wife	wife	NOUN	NN	Number=Sing	17	_	_	start_char=134|end_char=138
+19	or	or	CCONJ	CC	_	18	_	_	start_char=139|end_char=141
+20	somebody	somebody	PRON	NN	Number=Sing|PronType=Ind	19	_	_	start_char=142|end_char=150
+21	to	to	PART	TO	_	20	_	_	start_char=151|end_char=153
+22	betray	betray	VERB	VB	VerbForm=Inf	21	_	_	start_char=154|end_char=160|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	start_char=160|end_char=161
+24	Mr.	Mr.	PROPN	NNP	Number=Sing	23	_	_	start_char=162|end_char=165
+25	moral	moral	ADJ	JJ	Degree=Pos	24	_	_	start_char=166|end_char=171
+26	failure	failure	NOUN	NN	Number=Sing	25	_	_	start_char=172|end_char=179|SpaceAfter=No
+27	?	?	PUNCT	.	_	26	_	_	start_char=179|end_char=180|SpaceAfter=No
+

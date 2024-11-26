@@ -1,0 +1,52 @@
+# text = How about show some dominance.
+# sent_id = 25616
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	about	about	PART	TO	_	1	_	_	start_char=4|end_char=9
+3	show	show	VERB	VB	VerbForm=Inf	2	_	_	start_char=10|end_char=14
+4	some	some	DET	DT	_	3	_	_	start_char=15|end_char=19
+5	dominance	dominance	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=29|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=29|end_char=30
+
+# text = Tell her to wear something you like.
+# sent_id = 25617
+1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=31|end_char=35
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=36|end_char=39
+3	to	to	PART	TO	_	2	_	_	start_char=40|end_char=42
+4	wear	wear	VERB	VB	VerbForm=Inf	3	_	_	start_char=43|end_char=47
+5	something	something	PRON	NN	Number=Sing|PronType=Ind	4	_	_	start_char=48|end_char=57
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=58|end_char=61
+7	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=62|end_char=66|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=66|end_char=67
+
+# text = Something sexy, or even tell her to take some clothes off.
+# sent_id = 25618
+1	Something	something	PRON	NN	Number=Sing|PronType=Ind	0	_	_	start_char=68|end_char=77
+2	sexy	sexy	ADJ	JJ	Degree=Pos	1	_	_	start_char=78|end_char=82|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=82|end_char=83
+4	or	or	CCONJ	CC	_	3	_	_	start_char=84|end_char=86
+5	even	even	ADV	RB	_	4	_	_	start_char=87|end_char=91
+6	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=92|end_char=96
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=97|end_char=100
+8	to	to	PART	TO	_	7	_	_	start_char=101|end_char=103
+9	take	take	VERB	VB	VerbForm=Inf	8	_	_	start_char=104|end_char=108
+10	some	some	DET	DT	_	9	_	_	start_char=109|end_char=113
+11	clothes	clothes	NOUN	NNS	Number=Plur	10	_	_	start_char=114|end_char=121
+12	off	off	ADP	RP	_	11	_	_	start_char=122|end_char=125|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=125|end_char=126
+
+# text = Don’t be boring.
+# sent_id = 25619
+1-2	Don’t	_	_	_	_	_	_	_	start_char=127|end_char=132
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=127|end_char=129
+2	n’t	not	PART	RB	_	1	_	_	start_char=129|end_char=132
+3	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=133|end_char=135
+4	boring	boring	ADJ	JJ	Degree=Pos	3	_	_	start_char=136|end_char=142|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=142|end_char=143
+
+# text = Have fun with it
+# sent_id = 25620
+1	Have	have	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=144|end_char=148
+2	fun	fun	NOUN	NN	Number=Sing	1	_	_	start_char=149|end_char=152
+3	with	with	ADP	IN	_	2	_	_	start_char=153|end_char=157
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=158|end_char=160|SpaceAfter=No
+

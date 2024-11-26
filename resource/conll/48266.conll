@@ -1,0 +1,19 @@
+# text = “Howzabout if I flip ‘em this way?
+# sent_id = 103165
+1	“	''	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Howzabout	Howzabout	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=10
+3	if	if	SCONJ	IN	_	2	_	_	start_char=11|end_char=13
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=14|end_char=15
+5	flip	flip	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=16|end_char=20
+6	‘	'	PUNCT	``	_	5	_	_	start_char=21|end_char=22|SpaceAfter=No
+7	em	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=22|end_char=24
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=25|end_char=29
+9	way	way	NOUN	NN	Number=Sing	8	_	_	start_char=30|end_char=33|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=33|end_char=34
+
+# text = No?”
+# sent_id = 103166
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=35|end_char=37|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=37|end_char=38|SpaceAfter=No
+3	”	''	PUNCT	''	_	2	_	_	start_char=38|end_char=39|SpaceAfter=No
+

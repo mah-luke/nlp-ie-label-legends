@@ -1,0 +1,34 @@
+# text = Not uncommon at all.
+# sent_id = 110525
+1	Not	not	PART	RB	_	0	_	_	start_char=0|end_char=3
+2	uncommon	uncommon	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=12
+3	at	at	ADP	IN	_	2	_	_	start_char=13|end_char=15
+4	all	all	DET	DT	_	3	_	_	start_char=16|end_char=19|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=19|end_char=20
+
+# text = Best sex I've ever had is with my wife and it's gotten a helluva lot better with time.
+# sent_id = 110526
+1	Best	good	ADJ	JJS	Degree=Sup	0	_	_	start_char=21|end_char=25
+2	sex	sex	NOUN	NN	Number=Sing	1	_	_	start_char=26|end_char=29
+3-4	I've	_	_	_	_	_	_	_	start_char=30|end_char=34
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=30|end_char=31
+4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=31|end_char=34
+5	ever	ever	ADV	RB	_	4	_	_	start_char=35|end_char=39
+6	had	have	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=40|end_char=43
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=44|end_char=46
+8	with	with	ADP	IN	_	7	_	_	start_char=47|end_char=51
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=52|end_char=54
+10	wife	wife	NOUN	NN	Number=Sing	9	_	_	start_char=55|end_char=59
+11	and	and	CCONJ	CC	_	10	_	_	start_char=60|end_char=63
+12-13	it's	_	_	_	_	_	_	_	start_char=64|end_char=68
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=64|end_char=66
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=66|end_char=68
+14	gotten	get	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=69|end_char=75
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=76|end_char=77
+16	helluva	helluva	ADJ	JJ	Degree=Pos	15	_	_	start_char=78|end_char=85
+17	lot	lot	NOUN	NN	Number=Sing	16	_	_	start_char=86|end_char=89
+18	better	good	ADJ	JJR	Degree=Cmp	17	_	_	start_char=90|end_char=96
+19	with	with	ADP	IN	_	18	_	_	start_char=97|end_char=101
+20	time	time	NOUN	NN	Number=Sing	19	_	_	start_char=102|end_char=106|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=106|end_char=107|SpaceAfter=No
+

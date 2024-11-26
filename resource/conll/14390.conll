@@ -1,0 +1,28 @@
+# text = Do you live in the U.S.?
+# sent_id = 30687
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	live	live	VERB	VB	VerbForm=Inf	2	_	_	start_char=7|end_char=11
+4	in	in	ADP	IN	_	3	_	_	start_char=12|end_char=14
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=15|end_char=18
+6	U.S.	U.S.	PROPN	NNP	Number=Sing	5	_	_	start_char=19|end_char=23|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=23|end_char=24
+
+# text = Also, what generation?
+# sent_id = 30688
+1	Also	also	ADV	RB	_	0	_	_	start_char=25|end_char=29|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=29|end_char=30
+3	what	what	DET	WDT	PronType=Int	2	_	_	start_char=31|end_char=35
+4	generation	generation	NOUN	NN	Number=Sing	3	_	_	start_char=36|end_char=46|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=46|end_char=47
+
+# text = A lot of these hapas are young
+# sent_id = 30689
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=48|end_char=49
+2	lot	lot	NOUN	NN	Number=Sing	1	_	_	start_char=50|end_char=53
+3	of	of	ADP	IN	_	2	_	_	start_char=54|end_char=56
+4	these	this	DET	DT	Number=Plur|PronType=Dem	3	_	_	start_char=57|end_char=62
+5	hapas	hapas	NOUN	NNS	Number=Plur	4	_	_	start_char=63|end_char=68
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=69|end_char=72
+7	young	young	ADJ	JJ	Degree=Pos	6	_	_	start_char=73|end_char=78|SpaceAfter=No
+

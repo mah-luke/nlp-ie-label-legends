@@ -1,0 +1,31 @@
+# text = Bro, calm your shit.
+# sent_id = 27030
+1	Bro	bro	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	calm	calm	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=5|end_char=9
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=10|end_char=14
+5	shit	shit	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=19|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = I asked a question.
+# sent_id = 27031
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=21|end_char=22
+2	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=23|end_char=28
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=29|end_char=30
+4	question	question	NOUN	NN	Number=Sing	3	_	_	start_char=31|end_char=39|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=39|end_char=40
+
+# text = Thats what this sub is for isnt it.
+# sent_id = 27032
+1	Thats	thats	ADP	IN	_	0	_	_	start_char=41|end_char=46
+2	what	what	PRON	WP	PronType=Rel	1	_	_	start_char=47|end_char=51
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=52|end_char=56
+4	sub	sub	NOUN	NN	Number=Sing	3	_	_	start_char=57|end_char=60
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=61|end_char=63
+6	for	for	ADP	IN	_	5	_	_	start_char=64|end_char=67
+7-8	isnt	_	_	_	_	_	_	_	start_char=68|end_char=72
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=68|end_char=70
+8	nt	not	PART	RB	_	7	_	_	start_char=70|end_char=72
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=73|end_char=75|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=75|end_char=76|SpaceAfter=No
+

@@ -1,0 +1,45 @@
+# text = Let's hope that old hag will retire.
+# sent_id = 43596
+1-2	Let's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=3|end_char=5
+3	hope	hope	VERB	VB	VerbForm=Inf	2	_	_	start_char=6|end_char=10
+4	that	that	SCONJ	IN	_	3	_	_	start_char=11|end_char=15
+5	old	old	ADJ	JJ	Degree=Pos	4	_	_	start_char=16|end_char=19
+6	hag	hag	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=23
+7	will	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=24|end_char=28
+8	retire	retire	VERB	VB	VerbForm=Inf	7	_	_	start_char=29|end_char=35|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = I hope she can't stand Kavanaugh and every day she's a miserable bitch until she finally says screw it, I'm done.
+# sent_id = 43597
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=37|end_char=38
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=39|end_char=43
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=44|end_char=47
+4-5	can't	_	_	_	_	_	_	_	start_char=48|end_char=53
+4	ca	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=48|end_char=50
+5	n't	not	PART	RB	_	4	_	_	start_char=50|end_char=53
+6	stand	stand	VERB	VB	VerbForm=Inf	5	_	_	start_char=54|end_char=59
+7	Kavanaugh	Kavanaugh	PROPN	NNP	Number=Sing	6	_	_	start_char=60|end_char=69
+8	and	and	CCONJ	CC	_	7	_	_	start_char=70|end_char=73
+9	every	every	DET	DT	_	8	_	_	start_char=74|end_char=79
+10	day	day	NOUN	NN	Number=Sing	9	_	_	start_char=80|end_char=83
+11-12	she's	_	_	_	_	_	_	_	start_char=84|end_char=89
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=84|end_char=87
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=87|end_char=89
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=90|end_char=91
+14	miserable	miserable	ADJ	JJ	Degree=Pos	13	_	_	start_char=92|end_char=101
+15	bitch	bitch	NOUN	NN	Number=Sing	14	_	_	start_char=102|end_char=107
+16	until	until	SCONJ	IN	_	15	_	_	start_char=108|end_char=113
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=114|end_char=117
+18	finally	finally	ADV	RB	_	17	_	_	start_char=118|end_char=125
+19	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=126|end_char=130
+20	screw	screw	VERB	VB	VerbForm=Inf	19	_	_	start_char=131|end_char=136
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=137|end_char=139|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=139|end_char=140
+23-24	I'm	_	_	_	_	_	_	_	start_char=141|end_char=144
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	_	_	start_char=141|end_char=142
+24	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	23	_	_	start_char=142|end_char=144
+25	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	_	_	start_char=145|end_char=149|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=149|end_char=150|SpaceAfter=No
+

@@ -1,0 +1,22 @@
+# text = Maybe she’s married or dating someone.
+# sent_id = 68256
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=0|end_char=5
+2-3	she’s	_	_	_	_	_	_	_	start_char=6|end_char=11
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=6|end_char=9
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=11
+4	married	married	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=19
+5	or	or	CCONJ	CC	_	4	_	_	start_char=20|end_char=22
+6	dating	date	VERB	VBG	VerbForm=Ger	5	_	_	start_char=23|end_char=29
+7	someone	someone	PRON	NN	Number=Sing|PronType=Ind	6	_	_	start_char=30|end_char=37|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=37|end_char=38
+
+# text = You could just be the side dick
+# sent_id = 68257
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=39|end_char=42
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=43|end_char=48
+3	just	just	ADV	RB	_	2	_	_	start_char=49|end_char=53
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=54|end_char=56
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=57|end_char=60
+6	side	side	NOUN	NN	Number=Sing	5	_	_	start_char=61|end_char=65
+7	dick	dick	NOUN	NN	Number=Sing	6	_	_	start_char=66|end_char=70|SpaceAfter=No
+

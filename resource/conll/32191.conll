@@ -1,0 +1,19 @@
+# text = If anyone is interested in an interview with her.
+# sent_id = 69014
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	1	_	_	start_char=3|end_char=9
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4	interested	interested	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=23
+5	in	in	ADP	IN	_	4	_	_	start_char=24|end_char=26
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=27|end_char=29
+7	interview	interview	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=39
+8	with	with	ADP	IN	_	7	_	_	start_char=40|end_char=44
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=45|end_char=48|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=48|end_char=49
+
+# text = [URL]
+# sent_id = 69015
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=50|end_char=51|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=51|end_char=54|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=54|end_char=55|SpaceAfter=No
+

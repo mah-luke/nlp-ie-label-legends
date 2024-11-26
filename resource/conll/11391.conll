@@ -1,0 +1,30 @@
+# text = What has she done to impress you?
+# sent_id = 24123
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	done	do	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=13|end_char=17
+5	to	to	PART	TO	_	4	_	_	start_char=18|end_char=20
+6	impress	impress	VERB	VB	VerbForm=Inf	5	_	_	start_char=21|end_char=28
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=29|end_char=32|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=32|end_char=33
+
+# text = What makes her more special than the other girls you know/follow on IG?
+# sent_id = 24124
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=34|end_char=38
+2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=39|end_char=44
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=45|end_char=48
+4	more	more	ADV	RBR	Degree=Cmp	3	_	_	start_char=49|end_char=53
+5	special	special	ADJ	JJ	Degree=Pos	4	_	_	start_char=54|end_char=61
+6	than	than	ADP	IN	_	5	_	_	start_char=62|end_char=66
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=67|end_char=70
+8	other	other	ADJ	JJ	Degree=Pos	7	_	_	start_char=71|end_char=76
+9	girls	girl	NOUN	NNS	Number=Plur	8	_	_	start_char=77|end_char=82
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=83|end_char=86
+11	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=87|end_char=91|SpaceAfter=No
+12	/	/	SYM	,	_	11	_	_	start_char=91|end_char=92|SpaceAfter=No
+13	follow	follow	VERB	VB	VerbForm=Fin	12	_	_	start_char=92|end_char=98
+14	on	on	ADP	IN	_	13	_	_	start_char=99|end_char=101
+15	IG	IG	PROPN	NNP	Number=Sing	14	_	_	start_char=102|end_char=104|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=104|end_char=105|SpaceAfter=No
+

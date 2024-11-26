@@ -1,0 +1,31 @@
+# text = Yeah, the double standard is grossly palpable.
+# sent_id = 41040
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=6|end_char=9
+4	double	double	ADJ	JJ	Degree=Pos	3	_	_	start_char=10|end_char=16
+5	standard	standard	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=25
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=26|end_char=28
+7	grossly	grossly	ADV	RB	_	6	_	_	start_char=29|end_char=36
+8	palpable	palpable	ADJ	JJ	Degree=Pos	7	_	_	start_char=37|end_char=45|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=45|end_char=46
+
+# text = If it were women being raped in prison, they'd go ape shit.
+# sent_id = 41041
+1	If	if	SCONJ	IN	_	0	_	_	start_char=47|end_char=49
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=50|end_char=52
+3	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=53|end_char=57
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=58|end_char=63
+5	being	be	AUX	VBG	VerbForm=Ger	4	_	_	start_char=64|end_char=69
+6	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=70|end_char=75
+7	in	in	ADP	IN	_	6	_	_	start_char=76|end_char=78
+8	prison	prison	NOUN	NN	Number=Sing	7	_	_	start_char=79|end_char=85|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=85|end_char=86
+10-11	they'd	_	_	_	_	_	_	_	start_char=87|end_char=93
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=87|end_char=91
+11	'd	would	AUX	MD	VerbForm=Fin	10	_	_	start_char=91|end_char=93
+12	go	go	VERB	VB	VerbForm=Inf	11	_	_	start_char=94|end_char=96
+13	ape	ape	NOUN	NN	Number=Sing	12	_	_	start_char=97|end_char=100
+14	shit	shit	NOUN	NN	Number=Sing	13	_	_	start_char=101|end_char=105|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=105|end_char=106|SpaceAfter=No
+

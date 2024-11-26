@@ -1,0 +1,44 @@
+# text = [USER]
+# sent_id = 118759
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Really?
+# sent_id = 118760
+1	Really	really	ADV	RB	_	0	_	_	start_char=7|end_char=13|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=13|end_char=14
+
+# text = Stick that up your ass and rotate mother fucker!
+# sent_id = 118761
+1	Stick	stick	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=15|end_char=20
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=21|end_char=25
+3	up	up	ADP	RP	_	2	_	_	start_char=26|end_char=28
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=29|end_char=33
+5	ass	ass	NOUN	NN	Number=Sing	4	_	_	start_char=34|end_char=37
+6	and	and	CCONJ	CC	_	5	_	_	start_char=38|end_char=41
+7	rotate	rotate	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	6	_	_	start_char=42|end_char=48
+8	mother	mother	NOUN	NN	Number=Sing	7	_	_	start_char=49|end_char=55
+9	fucker	fucker	NOUN	NN	Number=Sing	8	_	_	start_char=56|end_char=62|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=62|end_char=63
+
+# text = Damn, my bad.
+# sent_id = 118762
+1	Damn	damn	INTJ	UH	_	0	_	_	start_char=64|end_char=68|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=68|end_char=69
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=70|end_char=72
+4	bad	bad	ADJ	JJ	Degree=Pos	3	_	_	start_char=73|end_char=76|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=76|end_char=77
+
+# text = #GabFam I'm not fucking happy!
+# sent_id = 118763
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=78|end_char=79|SpaceAfter=No
+2	GabFam	GabFam	PROPN	NNP	Number=Sing	1	_	_	start_char=79|end_char=85
+3-4	I'm	_	_	_	_	_	_	_	start_char=86|end_char=89
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=86|end_char=87
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=87|end_char=89
+5	not	not	PART	RB	_	4	_	_	start_char=90|end_char=93
+6	fucking	fucking	ADV	RB	_	5	_	_	start_char=94|end_char=101
+7	happy	happy	ADJ	JJ	Degree=Pos	6	_	_	start_char=102|end_char=107|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=107|end_char=108|SpaceAfter=No
+

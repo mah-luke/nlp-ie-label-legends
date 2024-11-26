@@ -1,0 +1,26 @@
+# text = I'll tell you what she wants, what she really really wants....
+# sent_id = 28472
+1-2	I'll	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	tell	tell	VERB	VB	VerbForm=Inf	2	_	_	start_char=5|end_char=9
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=10|end_char=13
+5	what	what	PRON	WP	PronType=Rel	4	_	_	start_char=14|end_char=18
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=19|end_char=22
+7	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=23|end_char=28|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=28|end_char=29
+9	what	what	PRON	WP	PronType=Rel	8	_	_	start_char=30|end_char=34
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=35|end_char=38
+11	really	really	ADV	RB	_	10	_	_	start_char=39|end_char=45
+12	really	really	ADV	RB	_	11	_	_	start_char=46|end_char=52
+13	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=53|end_char=58|SpaceAfter=No
+14	....	....	PUNCT	.	_	13	_	_	start_char=58|end_char=62
+
+# text = More $$$ lol
+# sent_id = 28473
+1	More	more	ADV	RBR	Degree=Cmp	0	_	_	start_char=63|end_char=67
+2	$	$	SYM	$	_	1	_	_	start_char=68|end_char=69|SpaceAfter=No
+3	$	$	SYM	$	_	2	_	_	start_char=69|end_char=70|SpaceAfter=No
+4	$	$	SYM	$	_	3	_	_	start_char=70|end_char=71
+5	lol	lol	INTJ	UH	_	4	_	_	start_char=72|end_char=75|SpaceAfter=No
+

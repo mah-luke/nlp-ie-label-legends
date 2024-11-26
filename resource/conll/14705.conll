@@ -1,0 +1,52 @@
+# text = She denies she uses the info.
+# sent_id = 31344
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	denies	deny	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=10
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=11|end_char=14
+4	uses	use	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=19
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=20|end_char=23
+6	info	info	NOUN	NN	Number=Sing	5	_	_	start_char=24|end_char=28|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+
+# text = She denies your info doesn't go anywhere.
+# sent_id = 31345
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=30|end_char=33
+2	denies	deny	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=34|end_char=40
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=41|end_char=45
+4	info	info	NOUN	NN	Number=Sing	3	_	_	start_char=46|end_char=50
+5-6	doesn't	_	_	_	_	_	_	_	start_char=51|end_char=58
+5	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=51|end_char=55
+6	n't	not	PART	RB	_	5	_	_	start_char=55|end_char=58
+7	go	go	VERB	VB	VerbForm=Inf	6	_	_	start_char=59|end_char=61
+8	anywhere	anywhere	ADV	RB	_	7	_	_	start_char=62|end_char=70|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=70|end_char=71
+
+# text = And when you tell her cease and desist and destroy my data she tells you she will keep your stuff in case of legal need.
+# sent_id = 31346
+1	And	and	CCONJ	CC	_	0	_	_	start_char=72|end_char=75
+2	when	when	ADV	WRB	PronType=Int	1	_	_	start_char=76|end_char=80
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=81|end_char=84
+4	tell	tell	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=85|end_char=89
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=90|end_char=93
+6	cease	cease	VERB	VB	VerbForm=Inf	5	_	_	start_char=94|end_char=99
+7	and	and	CCONJ	CC	_	6	_	_	start_char=100|end_char=103
+8	desist	desist	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=104|end_char=110
+9	and	and	CCONJ	CC	_	8	_	_	start_char=111|end_char=114
+10	destroy	destroy	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=115|end_char=122
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=123|end_char=125
+12	data	datum	NOUN	NNS	Number=Plur	11	_	_	start_char=126|end_char=130
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=131|end_char=134
+14	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=135|end_char=140
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	_	_	start_char=141|end_char=144
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=145|end_char=148
+17	will	will	AUX	MD	VerbForm=Fin	16	_	_	start_char=149|end_char=153
+18	keep	keep	VERB	VB	VerbForm=Inf	17	_	_	start_char=154|end_char=158
+19	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	18	_	_	start_char=159|end_char=163
+20	stuff	stuff	NOUN	NN	Number=Sing	19	_	_	start_char=164|end_char=169
+21	in	in	ADP	IN	_	20	_	_	start_char=170|end_char=172
+22	case	case	NOUN	NN	Number=Sing	21	_	_	start_char=173|end_char=177
+23	of	of	ADP	IN	_	22	_	_	start_char=178|end_char=180
+24	legal	legal	ADJ	JJ	Degree=Pos	23	_	_	start_char=181|end_char=186
+25	need	need	NOUN	NN	Number=Sing	24	_	_	start_char=187|end_char=191|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=191|end_char=192|SpaceAfter=No
+

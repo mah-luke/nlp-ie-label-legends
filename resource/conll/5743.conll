@@ -1,0 +1,32 @@
+# text = Kavanaugh vote tomorrow.
+# sent_id = 12002
+1	Kavanaugh	Kavanaugh	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=9
+2	vote	vote	VERB	VB	VerbForm=Fin	1	_	_	start_char=10|end_char=14
+3	tomorrow	tomorrow	NOUN	NN	Number=Sing	2	_	_	start_char=15|end_char=23|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=23|end_char=24
+
+# text = Is there any #FakeNews organization that has not already written what a tragedy this is to women's rights?
+# sent_id = 12003
+1	Is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=25|end_char=27
+2	there	there	PRON	EX	_	1	_	_	start_char=28|end_char=33
+3	any	any	DET	DT	_	2	_	_	start_char=34|end_char=37
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=38|end_char=39|SpaceAfter=No
+5	FakeNews	FakeNews	PROPN	NNP	Number=Sing	4	_	_	start_char=39|end_char=47
+6	organization	organization	NOUN	NN	Number=Sing	5	_	_	start_char=48|end_char=60
+7	that	that	PRON	WDT	PronType=Rel	6	_	_	start_char=61|end_char=65
+8	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=66|end_char=69
+9	not	not	PART	RB	_	8	_	_	start_char=70|end_char=73
+10	already	already	ADV	RB	_	9	_	_	start_char=74|end_char=81
+11	written	write	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=82|end_char=89
+12	what	what	PRON	WP	PronType=Rel	11	_	_	start_char=90|end_char=94
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=95|end_char=96
+14	tragedy	tragedy	NOUN	NN	Number=Sing	13	_	_	start_char=97|end_char=104
+15	this	this	PRON	DT	Number=Sing|PronType=Dem	14	_	_	start_char=105|end_char=109
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=110|end_char=112
+17	to	to	ADP	IN	_	16	_	_	start_char=113|end_char=115
+18-19	women's	_	_	_	_	_	_	_	start_char=116|end_char=123
+18	women	woman	NOUN	NNS	Number=Plur	17	_	_	start_char=116|end_char=121
+19	's	's	PART	POS	_	18	_	_	start_char=121|end_char=123
+20	rights	right	NOUN	NNS	Number=Plur	19	_	_	start_char=124|end_char=130|SpaceAfter=No
+21	?	?	PUNCT	.	_	20	_	_	start_char=130|end_char=131|SpaceAfter=No
+

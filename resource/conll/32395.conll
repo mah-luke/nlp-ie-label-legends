@@ -1,0 +1,47 @@
+# text = Wow!!!
+# sent_id = 69445
+1	Wow	wow	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	!!!	!!!	PUNCT	.	_	1	_	_	start_char=3|end_char=6
+
+# text = Samantha
+# sent_id = 69446
+1	Samantha	Samantha	PROPN	NNP	Number=Sing	0	_	_	start_char=7|end_char=15
+
+# text = Bee calls the Trump’s daughter a cunt and gets an Emmy nomination.
+# sent_id = 69447
+1	Bee	Bee	PROPN	NNP	Number=Sing	0	_	_	start_char=16|end_char=19
+2	calls	call	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=20|end_char=25
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=26|end_char=29
+4-5	Trump’s	_	_	_	_	_	_	_	start_char=30|end_char=37
+4	Trump	Trump	PROPN	NNP	Number=Sing	3	_	_	start_char=30|end_char=35
+5	’s	's	PART	POS	_	4	_	_	start_char=35|end_char=37
+6	daughter	daughter	NOUN	NN	Number=Sing	5	_	_	start_char=38|end_char=46
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=47|end_char=48
+8	cunt	cunt	NOUN	NN	Number=Sing	7	_	_	start_char=49|end_char=53
+9	and	and	CCONJ	CC	_	8	_	_	start_char=54|end_char=57
+10	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=58|end_char=62
+11	an	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=63|end_char=65
+12	Emmy	Emmy	PROPN	NNP	Number=Sing	11	_	_	start_char=66|end_char=70
+13	nomination	nomination	NOUN	NN	Number=Sing	12	_	_	start_char=71|end_char=81|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=81|end_char=82
+
+# text = No, there is no media bias here.....move along........nothing to see here.
+# sent_id = 69448
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=83|end_char=85|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=85|end_char=86
+3	there	there	PRON	EX	_	2	_	_	start_char=87|end_char=92
+4	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=93|end_char=95
+5	no	no	DET	DT	_	4	_	_	start_char=96|end_char=98
+6	media	media	NOUN	NN	Number=Sing	5	_	_	start_char=99|end_char=104
+7	bias	bias	NOUN	NN	Number=Sing	6	_	_	start_char=105|end_char=109
+8	here	here	ADV	RB	PronType=Dem	7	_	_	start_char=110|end_char=114|SpaceAfter=No
+9	.....	.....	PUNCT	,	_	8	_	_	start_char=114|end_char=119|SpaceAfter=No
+10	move	move	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=119|end_char=123
+11	along	along	ADV	RB	_	10	_	_	start_char=124|end_char=129|SpaceAfter=No
+12	........	........	PUNCT	,	_	11	_	_	start_char=129|end_char=137|SpaceAfter=No
+13	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	12	_	_	start_char=137|end_char=144
+14	to	to	PART	TO	_	13	_	_	start_char=145|end_char=147
+15	see	see	VERB	VB	VerbForm=Inf	14	_	_	start_char=148|end_char=151
+16	here	here	ADV	RB	PronType=Dem	15	_	_	start_char=152|end_char=156|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=156|end_char=157|SpaceAfter=No
+

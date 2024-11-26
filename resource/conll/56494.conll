@@ -1,0 +1,14 @@
+# text = That's Hillary's comment to her lol....
+# sent_id = 120760
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3-4	Hillary's	_	_	_	_	_	_	_	start_char=7|end_char=16
+3	Hillary	Hillary	PROPN	NNP	Number=Sing	2	_	_	start_char=7|end_char=14
+4	's	's	PART	POS	_	3	_	_	start_char=14|end_char=16
+5	comment	comment	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=24
+6	to	to	ADP	IN	_	5	_	_	start_char=25|end_char=27
+7	her	her	PRON	PRP$	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=28|end_char=31
+8	lol	lol	INTJ	UH	_	7	_	_	start_char=32|end_char=35|SpaceAfter=No
+9	....	....	PUNCT	.	_	8	_	_	start_char=35|end_char=39|SpaceAfter=No
+

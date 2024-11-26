@@ -1,0 +1,65 @@
+# text = Why not do it in person at work?
+# sent_id = 59436
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	not	not	PART	RB	_	1	_	_	start_char=4|end_char=7
+3	do	do	VERB	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=10
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=11|end_char=13
+5	in	in	ADP	IN	_	4	_	_	start_char=14|end_char=16
+6	person	person	NOUN	NN	Number=Sing	5	_	_	start_char=17|end_char=23
+7	at	at	ADP	IN	_	6	_	_	start_char=24|end_char=26
+8	work	work	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=31|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=31|end_char=32
+
+# text = Even if she's shy, it'd be the most natural thing to do since that's how she knows you.
+# sent_id = 59437
+1	Even	even	ADV	RB	_	0	_	_	start_char=33|end_char=37
+2	if	if	SCONJ	IN	_	1	_	_	start_char=38|end_char=40
+3-4	she's	_	_	_	_	_	_	_	start_char=41|end_char=46
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=41|end_char=44
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=44|end_char=46
+5	shy	shy	ADJ	JJ	Degree=Pos	4	_	_	start_char=47|end_char=50|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=50|end_char=51
+7-8	it'd	_	_	_	_	_	_	_	start_char=52|end_char=56
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=52|end_char=54
+8	'd	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=54|end_char=56
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=57|end_char=59
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=60|end_char=63
+11	most	most	ADV	RBS	Degree=Sup	10	_	_	start_char=64|end_char=68
+12	natural	natural	ADJ	JJ	Degree=Pos	11	_	_	start_char=69|end_char=76
+13	thing	thing	NOUN	NN	Number=Sing	12	_	_	start_char=77|end_char=82
+14	to	to	PART	TO	_	13	_	_	start_char=83|end_char=85
+15	do	do	VERB	VB	VerbForm=Inf	14	_	_	start_char=86|end_char=88
+16	since	since	SCONJ	IN	_	15	_	_	start_char=89|end_char=94
+17-18	that's	_	_	_	_	_	_	_	start_char=95|end_char=101
+17	that	that	PRON	DT	Number=Sing|PronType=Dem	16	_	_	start_char=95|end_char=99
+18	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=99|end_char=101
+19	how	how	ADV	WRB	PronType=Int	18	_	_	start_char=102|end_char=105
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=106|end_char=109
+21	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=110|end_char=115
+22	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	21	_	_	start_char=116|end_char=119|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=119|end_char=120
+
+# text = If she's shy like does not ever want to talk shy, then texting would be a good choice
+# sent_id = 59438
+1	If	if	SCONJ	IN	_	0	_	_	start_char=121|end_char=123
+2-3	she's	_	_	_	_	_	_	_	start_char=124|end_char=129
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=124|end_char=127
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=127|end_char=129
+4	shy	shy	ADJ	JJ	Degree=Pos	3	_	_	start_char=130|end_char=133
+5	like	like	ADP	IN	_	4	_	_	start_char=134|end_char=138
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=139|end_char=143
+7	not	not	PART	RB	_	6	_	_	start_char=144|end_char=147
+8	ever	ever	ADV	RB	_	7	_	_	start_char=148|end_char=152
+9	want	want	VERB	VB	VerbForm=Inf	8	_	_	start_char=153|end_char=157
+10	to	to	PART	TO	_	9	_	_	start_char=158|end_char=160
+11	talk	talk	VERB	VB	VerbForm=Inf	10	_	_	start_char=161|end_char=165
+12	shy	shy	ADJ	JJ	Degree=Pos	11	_	_	start_char=166|end_char=169|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=169|end_char=170
+14	then	then	ADV	RB	PronType=Dem	13	_	_	start_char=171|end_char=175
+15	texting	texting	NOUN	NN	Number=Sing	14	_	_	start_char=176|end_char=183
+16	would	would	AUX	MD	VerbForm=Fin	15	_	_	start_char=184|end_char=189
+17	be	be	AUX	VB	VerbForm=Inf	16	_	_	start_char=190|end_char=192
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=193|end_char=194
+19	good	good	ADJ	JJ	Degree=Pos	18	_	_	start_char=195|end_char=199
+20	choice	choice	NOUN	NN	Number=Sing	19	_	_	start_char=200|end_char=206|SpaceAfter=No
+

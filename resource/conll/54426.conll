@@ -1,0 +1,40 @@
+# text = "That's a drag." she breathed, laconically lighting a cigarette.
+# sent_id = 116319
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2-3	That's	_	_	_	_	_	_	_	start_char=1|end_char=7
+2	That	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=1|end_char=5
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=5|end_char=7
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=8|end_char=9
+5	drag	drag	NOUN	NN	Number=Sing	4	_	_	start_char=10|end_char=14|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=14|end_char=15|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=15|end_char=16
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=17|end_char=20
+9	breathed	breathe	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=21|end_char=29|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=29|end_char=30
+11	laconically	laconically	ADV	RB	_	10	_	_	start_char=31|end_char=42
+12	lighting	light	VERB	VBG	VerbForm=Ger	11	_	_	start_char=43|end_char=51
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=52|end_char=53
+14	cigarette	cigarette	NOUN	NN	Number=Sing	13	_	_	start_char=54|end_char=63|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=63|end_char=64
+
+# text = "Don't squirm" she said darkly, jabbing the leeches with the lighted end.
+# sent_id = 116320
+1	"	"	PUNCT	``	_	0	_	_	start_char=65|end_char=66|SpaceAfter=No
+2-3	Don't	_	_	_	_	_	_	_	start_char=66|end_char=71
+2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=66|end_char=68
+3	n't	not	PART	RB	_	2	_	_	start_char=68|end_char=71
+4	squirm	squirm	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=72|end_char=78|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=78|end_char=79
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=80|end_char=83
+7	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=84|end_char=88
+8	darkly	darkly	ADV	RB	_	7	_	_	start_char=89|end_char=95|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=95|end_char=96
+10	jabbing	jabb	VERB	VBG	VerbForm=Ger	9	_	_	start_char=97|end_char=104
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=105|end_char=108
+12	leeches	leech	NOUN	NNS	Number=Plur	11	_	_	start_char=109|end_char=116
+13	with	with	ADP	IN	_	12	_	_	start_char=117|end_char=121
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=122|end_char=125
+15	lighted	light	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=126|end_char=133
+16	end	end	NOUN	NN	Number=Sing	15	_	_	start_char=134|end_char=137|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=137|end_char=138|SpaceAfter=No
+

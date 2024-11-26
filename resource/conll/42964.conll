@@ -1,0 +1,58 @@
+# text = Why is Linda Sarsour (cockroach) there?
+# sent_id = 91821
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	Linda	Linda	PROPN	NNP	Number=Sing	2	_	_	start_char=7|end_char=12
+4	Sarsour	Sarsour	PROPN	NNP	Number=Sing	3	_	_	start_char=13|end_char=20
+5	(	(	PUNCT	-LRB-	_	4	_	_	start_char=21|end_char=22|SpaceAfter=No
+6	cockroach	cockroach	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=31|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=31|end_char=32
+8	there	there	ADV	RB	PronType=Dem	7	_	_	start_char=33|end_char=38|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=38|end_char=39
+
+# text = Muslim women who are victims of rape are stoned to death unless they have four male witnesses to say they did not encourage the rapist.
+# sent_id = 91822
+1	Muslim	Muslim	ADJ	JJ	Degree=Pos	0	_	_	start_char=40|end_char=46
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=47|end_char=52
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=53|end_char=56
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=57|end_char=60
+5	victims	victim	NOUN	NNS	Number=Plur	4	_	_	start_char=61|end_char=68
+6	of	of	ADP	IN	_	5	_	_	start_char=69|end_char=71
+7	rape	rape	NOUN	NN	Number=Sing	6	_	_	start_char=72|end_char=76
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=77|end_char=80
+9	stoned	stone	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=81|end_char=87
+10	to	to	ADP	IN	_	9	_	_	start_char=88|end_char=90
+11	death	death	NOUN	NN	Number=Sing	10	_	_	start_char=91|end_char=96
+12	unless	unless	SCONJ	IN	_	11	_	_	start_char=97|end_char=103
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=104|end_char=108
+14	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=109|end_char=113
+15	four	four	NUM	CD	NumForm=Word|NumType=Card	14	_	_	start_char=114|end_char=118
+16	male	male	ADJ	JJ	Degree=Pos	15	_	_	start_char=119|end_char=123
+17	witnesses	witness	NOUN	NNS	Number=Plur	16	_	_	start_char=124|end_char=133
+18	to	to	PART	TO	_	17	_	_	start_char=134|end_char=136
+19	say	say	VERB	VB	VerbForm=Inf	18	_	_	start_char=137|end_char=140
+20	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	19	_	_	start_char=141|end_char=145
+21	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	20	_	_	start_char=146|end_char=149
+22	not	not	PART	RB	_	21	_	_	start_char=150|end_char=153
+23	encourage	encourage	VERB	VB	VerbForm=Inf	22	_	_	start_char=154|end_char=163
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	start_char=164|end_char=167
+25	rapist	rapist	NOUN	NN	Number=Sing	24	_	_	start_char=168|end_char=174|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=174|end_char=175
+
+# text = Then they are allowed to live and only get flogged for being promiscuous.
+# sent_id = 91823
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=176|end_char=180
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=181|end_char=185
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=186|end_char=189
+4	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=190|end_char=197
+5	to	to	PART	TO	_	4	_	_	start_char=198|end_char=200
+6	live	live	VERB	VB	VerbForm=Inf	5	_	_	start_char=201|end_char=205
+7	and	and	CCONJ	CC	_	6	_	_	start_char=206|end_char=209
+8	only	only	ADV	RB	_	7	_	_	start_char=210|end_char=214
+9	get	get	AUX	VB	VerbForm=Inf	8	_	_	start_char=215|end_char=218
+10	flogged	flog	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=219|end_char=226
+11	for	for	SCONJ	IN	_	10	_	_	start_char=227|end_char=230
+12	being	be	AUX	VBG	VerbForm=Ger	11	_	_	start_char=231|end_char=236
+13	promiscuous	promiscuous	ADJ	JJ	Degree=Pos	12	_	_	start_char=237|end_char=248|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=248|end_char=249|SpaceAfter=No
+

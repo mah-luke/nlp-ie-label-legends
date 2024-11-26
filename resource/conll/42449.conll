@@ -1,0 +1,52 @@
+# text = I'd like to thank [USER] for fixing my photo of crazy ass!!
+# sent_id = 90754
+1-2	I'd	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	like	like	VERB	VB	VerbForm=Inf	2	_	_	start_char=4|end_char=8
+4	to	to	PART	TO	_	3	_	_	start_char=9|end_char=11
+5	thank	thank	VERB	VB	VerbForm=Inf	4	_	_	start_char=12|end_char=17
+6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=18|end_char=19|SpaceAfter=No
+7	USER	user	NOUN	NN	Number=Sing	6	_	_	start_char=19|end_char=23|SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=23|end_char=24
+9	for	for	SCONJ	IN	_	8	_	_	start_char=25|end_char=28
+10	fixing	fix	VERB	VBG	VerbForm=Ger	9	_	_	start_char=29|end_char=35
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=36|end_char=38
+12	photo	photo	NOUN	NN	Number=Sing	11	_	_	start_char=39|end_char=44
+13	of	of	ADP	IN	_	12	_	_	start_char=45|end_char=47
+14	crazy	crazy	ADJ	JJ	Degree=Pos	13	_	_	start_char=48|end_char=53
+15	ass	ass	NOUN	NN	Number=Sing	14	_	_	start_char=54|end_char=57|SpaceAfter=No
+16	!!	!!	PUNCT	.	_	15	_	_	start_char=57|end_char=59
+
+# text = 😁
+# sent_id = 90755
+1	😁	😁	INTJ	UH	_	0	_	_	start_char=60|end_char=61
+
+# text = And by the way [USER]
+# sent_id = 90756
+1	And	and	CCONJ	CC	_	0	_	_	start_char=62|end_char=65
+2	by	by	ADP	IN	_	1	_	_	start_char=66|end_char=68
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=69|end_char=72
+4	way	way	NOUN	NN	Number=Sing	3	_	_	start_char=73|end_char=76
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=77|end_char=78|SpaceAfter=No
+6	USER	user	NOUN	NN	Number=Sing	5	_	_	start_char=78|end_char=82|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=82|end_char=83
+
+# text = Squirrels are her favorite thing to chase in my backyard!
+# sent_id = 90757
+1	Squirrels	Squirrel	NOUN	NNS	Number=Plur	0	_	_	start_char=84|end_char=93
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=94|end_char=97
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=98|end_char=101
+4	favorite	favorite	ADJ	JJ	Degree=Pos	3	_	_	start_char=102|end_char=110
+5	thing	thing	NOUN	NN	Number=Sing	4	_	_	start_char=111|end_char=116
+6	to	to	PART	TO	_	5	_	_	start_char=117|end_char=119
+7	chase	chase	VERB	VB	VerbForm=Inf	6	_	_	start_char=120|end_char=125
+8	in	in	ADP	IN	_	7	_	_	start_char=126|end_char=128
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=129|end_char=131
+10	backyard	backyard	NOUN	NN	Number=Sing	9	_	_	start_char=132|end_char=140|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=140|end_char=141
+
+# text = 😁😂
+# sent_id = 90758
+1	😁😂	😁😂	X	LS	_	0	_	_	start_char=142|end_char=144|SpaceAfter=No
+

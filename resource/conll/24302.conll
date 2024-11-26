@@ -1,0 +1,47 @@
+# text = I know mine is higher with smart women than dumb women.
+# sent_id = 52078
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	mine	mine	PRON	PRP	Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=7|end_char=11
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=12|end_char=14
+5	higher	high	ADJ	JJR	Degree=Cmp	4	_	_	start_char=15|end_char=21
+6	with	with	ADP	IN	_	5	_	_	start_char=22|end_char=26
+7	smart	smart	ADJ	JJ	Degree=Pos	6	_	_	start_char=27|end_char=32
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=33|end_char=38
+9	than	than	ADP	IN	_	8	_	_	start_char=39|end_char=43
+10	dumb	dumb	ADJ	JJ	Degree=Pos	9	_	_	start_char=44|end_char=48
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=49|end_char=54|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=54|end_char=55
+
+# text = Or rather, it's lower with dumb women because my lack of knowledge or interest in what (Insert celebrity) did comes across as patronizing.
+# sent_id = 52079
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=56|end_char=58
+2	rather	rather	ADV	RB	_	1	_	_	start_char=59|end_char=65|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=65|end_char=66
+4-5	it's	_	_	_	_	_	_	_	start_char=67|end_char=71
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=67|end_char=69
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=69|end_char=71
+6	lower	low	ADJ	JJR	Degree=Cmp	5	_	_	start_char=72|end_char=77
+7	with	with	ADP	IN	_	6	_	_	start_char=78|end_char=82
+8	dumb	dumb	ADJ	JJ	Degree=Pos	7	_	_	start_char=83|end_char=87
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=88|end_char=93
+10	because	because	SCONJ	IN	_	9	_	_	start_char=94|end_char=101
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=102|end_char=104
+12	lack	lack	NOUN	NN	Number=Sing	11	_	_	start_char=105|end_char=109
+13	of	of	ADP	IN	_	12	_	_	start_char=110|end_char=112
+14	knowledge	knowledge	NOUN	NN	Number=Sing	13	_	_	start_char=113|end_char=122
+15	or	or	CCONJ	CC	_	14	_	_	start_char=123|end_char=125
+16	interest	interest	NOUN	NN	Number=Sing	15	_	_	start_char=126|end_char=134
+17	in	in	ADP	IN	_	16	_	_	start_char=135|end_char=137
+18	what	what	PRON	WP	PronType=Rel	17	_	_	start_char=138|end_char=142
+19	(	(	PUNCT	-LRB-	_	18	_	_	start_char=143|end_char=144|SpaceAfter=No
+20	Insert	insert	NOUN	NN	Number=Sing	19	_	_	start_char=144|end_char=150
+21	celebrity	celebrity	NOUN	NN	Number=Sing	20	_	_	start_char=151|end_char=160|SpaceAfter=No
+22	)	)	PUNCT	-RRB-	_	21	_	_	start_char=160|end_char=161
+23	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	_	_	start_char=162|end_char=165
+24	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=166|end_char=171
+25	across	across	ADV	RB	_	24	_	_	start_char=172|end_char=178
+26	as	as	ADP	IN	_	25	_	_	start_char=179|end_char=181
+27	patronizing	patronize	VERB	VBG	VerbForm=Ger	26	_	_	start_char=182|end_char=193|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=193|end_char=194|SpaceAfter=No
+

@@ -1,0 +1,24 @@
+# text = Why did he move out?
+# sent_id = 108605
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=8|end_char=10
+4	move	move	VERB	VB	VerbForm=Inf	3	_	_	start_char=11|end_char=15
+5	out	out	ADP	RP	_	4	_	_	start_char=16|end_char=19|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = She's the cheater, she should be forced out.
+# sent_id = 108606
+1-2	She's	_	_	_	_	_	_	_	start_char=21|end_char=26
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=21|end_char=24
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=24|end_char=26
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=27|end_char=30
+4	cheater	cheater	NOUN	NN	Number=Sing	3	_	_	start_char=31|end_char=38|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=38|end_char=39
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=40|end_char=43
+7	should	should	AUX	MD	VerbForm=Fin	6	_	_	start_char=44|end_char=50
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=51|end_char=53
+9	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=54|end_char=60
+10	out	out	ADP	RP	_	9	_	_	start_char=61|end_char=64|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=64|end_char=65|SpaceAfter=No
+

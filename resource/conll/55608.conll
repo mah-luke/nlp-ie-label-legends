@@ -1,0 +1,57 @@
+# text = WRONG!!!
+# sent_id = 118806
+1	WRONG	wrong	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	!!!	!!!	PUNCT	.	_	1	_	_	start_char=5|end_char=8
+
+# text = What you proclaim is Jew..IS NAZI!!!!!
+# sent_id = 118807
+1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=9|end_char=13
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=14|end_char=17
+3	proclaim	proclaim	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=18|end_char=26
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=27|end_char=29
+5	Jew	Jew	NOUN	NN	Number=Sing	4	_	_	start_char=30|end_char=33|SpaceAfter=No
+6	..IS	i.is	PUNCT	,	_	5	_	_	start_char=33|end_char=37
+7	NAZI	NAZI	PROPN	NNP	Number=Sing	6	_	_	start_char=38|end_char=42|SpaceAfter=No
+8	!!!!!	!!!!!	PUNCT	.	_	7	_	_	start_char=42|end_char=47
+
+# text = Here's the truth
+# sent_id = 118808
+1-2	Here's	_	_	_	_	_	_	_	start_char=48|end_char=54
+1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=48|end_char=52
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=52|end_char=54
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=55|end_char=58
+4	truth	truth	NOUN	NN	Number=Sing	3	_	_	start_char=59|end_char=64
+
+# text = There is neither Jew nor Greek, there is neither slave nor free, there is no male and female, for you are all one in Christ Jesus.
+# sent_id = 118809
+1	There	there	PRON	EX	_	0	_	_	start_char=65|end_char=70
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=71|end_char=73
+3	neither	neither	CCONJ	CC	_	2	_	_	start_char=74|end_char=81
+4	Jew	Jew	PROPN	NNP	Number=Sing	3	_	_	start_char=82|end_char=85
+5	nor	nor	CCONJ	CC	_	4	_	_	start_char=86|end_char=89
+6	Greek	Greek	PROPN	NNP	Number=Sing	5	_	_	start_char=90|end_char=95|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=95|end_char=96
+8	there	there	PRON	EX	_	7	_	_	start_char=97|end_char=102
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=103|end_char=105
+10	neither	neither	CCONJ	CC	_	9	_	_	start_char=106|end_char=113
+11	slave	slave	NOUN	NN	Number=Sing	10	_	_	start_char=114|end_char=119
+12	nor	nor	CCONJ	CC	_	11	_	_	start_char=120|end_char=123
+13	free	free	ADJ	JJ	Degree=Pos	12	_	_	start_char=124|end_char=128|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=128|end_char=129
+15	there	there	PRON	EX	_	14	_	_	start_char=130|end_char=135
+16	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=136|end_char=138
+17	no	no	DET	DT	_	16	_	_	start_char=139|end_char=141
+18	male	male	NOUN	NN	Number=Sing	17	_	_	start_char=142|end_char=146
+19	and	and	CCONJ	CC	_	18	_	_	start_char=147|end_char=150
+20	female	female	NOUN	NN	Number=Sing	19	_	_	start_char=151|end_char=157|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	_	_	start_char=157|end_char=158
+22	for	for	ADP	IN	_	21	_	_	start_char=159|end_char=162
+23	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	22	_	_	start_char=163|end_char=166
+24	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	_	_	start_char=167|end_char=170
+25	all	all	DET	DT	_	24	_	_	start_char=171|end_char=174
+26	one	one	NUM	CD	NumForm=Word|NumType=Card	25	_	_	start_char=175|end_char=178
+27	in	in	ADP	IN	_	26	_	_	start_char=179|end_char=181
+28	Christ	Christ	PROPN	NNP	Number=Sing	27	_	_	start_char=182|end_char=188
+29	Jesus	Jesus	PROPN	NNP	Number=Sing	28	_	_	start_char=189|end_char=194|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	start_char=194|end_char=195|SpaceAfter=No
+

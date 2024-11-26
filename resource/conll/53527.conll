@@ -1,0 +1,25 @@
+# text = I am pretty sure the democrats wont trust her again.
+# sent_id = 114404
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	pretty	pretty	ADV	RB	_	2	_	_	start_char=5|end_char=11
+4	sure	sure	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=16
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=17|end_char=20
+6	democrats	Democrat	PROPN	NNPS	Number=Plur	5	_	_	start_char=21|end_char=30
+7-8	wont	_	_	_	_	_	_	_	start_char=31|end_char=35
+7	wo	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=31|end_char=33
+8	nt	not	PART	RB	_	7	_	_	start_char=33|end_char=35
+9	trust	trust	VERB	VB	VerbForm=Inf	8	_	_	start_char=36|end_char=41
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=42|end_char=45
+11	again	again	ADV	RB	_	10	_	_	start_char=46|end_char=51|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=51|end_char=52
+
+# text = She is a proven looser.
+# sent_id = 114405
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=53|end_char=56
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=57|end_char=59
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=60|end_char=61
+4	proven	prove	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=62|end_char=68
+5	looser	loser	ADJ	JJR	Degree=Cmp	4	_	_	start_char=69|end_char=75|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=75|end_char=76|SpaceAfter=No
+

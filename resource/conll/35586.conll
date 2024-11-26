@@ -1,0 +1,25 @@
+# text = Are you insane?
+# sent_id = 76167
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=4|end_char=7
+3	insane	insane	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=14|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = 100% of the girls I’ve dated have at least tried anal once
+# sent_id = 76168
+1	100	100	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=16|end_char=19|SpaceAfter=No
+2	%	%	SYM	NN	Number=Sing	1	_	_	start_char=19|end_char=20
+3	of	of	ADP	IN	_	2	_	_	start_char=21|end_char=23
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=24|end_char=27
+5	girls	girl	NOUN	NNS	Number=Plur	4	_	_	start_char=28|end_char=33
+6-7	I’ve	_	_	_	_	_	_	_	start_char=34|end_char=38
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=34|end_char=35
+7	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=35|end_char=38
+8	dated	date	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=39|end_char=44
+9	have	have	AUX	VBP	Mood=Ind|Number=Sing|Tense=Pres|VerbForm=Fin	8	_	_	start_char=45|end_char=49
+10	at	at	ADP	IN	ExtPos=ADV	9	_	_	start_char=50|end_char=52
+11	least	least	ADV	RBS	Degree=Sup	10	_	_	start_char=53|end_char=58
+12	tried	try	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=59|end_char=64
+13	anal	anal	ADV	RB	_	12	_	_	start_char=65|end_char=69
+14	once	once	ADV	RB	NumType=Mult	13	_	_	start_char=70|end_char=74|SpaceAfter=No
+

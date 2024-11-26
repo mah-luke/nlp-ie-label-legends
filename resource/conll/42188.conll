@@ -1,0 +1,57 @@
+# text = Lol I wonder what you'd say if he got divorce raped a SECOND time.
+# sent_id = 90222
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=4|end_char=5
+3	wonder	wonder	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=6|end_char=12
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=13|end_char=17
+5-6	you'd	_	_	_	_	_	_	_	start_char=18|end_char=23
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=18|end_char=21
+6	'd	would	AUX	MD	VerbForm=Fin	5	_	_	start_char=21|end_char=23
+7	say	say	VERB	VB	VerbForm=Inf	6	_	_	start_char=24|end_char=27
+8	if	if	SCONJ	IN	_	7	_	_	start_char=28|end_char=30
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=31|end_char=33
+10	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=34|end_char=37
+11	divorce	divorce	NOUN	NN	Number=Sing	10	_	_	start_char=38|end_char=45
+12	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=46|end_char=51
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=52|end_char=53
+14	SECOND	second	ADJ	JJ	Degree=Pos|NumType=Ord	13	_	_	start_char=54|end_char=60
+15	time	time	NOUN	NN	Number=Sing	14	_	_	start_char=61|end_char=65|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=65|end_char=66
+
+# text = "At least he got laid bru.
+# sent_id = 90223
+1	"	"	PUNCT	``	_	0	_	_	start_char=67|end_char=68|SpaceAfter=No
+2	At	at	ADP	IN	ExtPos=ADV	1	_	_	start_char=68|end_char=70
+3	least	least	ADJ	JJS	Degree=Sup	2	_	_	start_char=71|end_char=76
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=77|end_char=79
+5	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=80|end_char=83
+6	laid	laid	ADJ	JJ	Degree=Pos	5	_	_	start_char=84|end_char=88
+7	bru	bru	NOUN	NN	Number=Sing	6	_	_	start_char=89|end_char=92|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=92|end_char=93
+
+# text = He'll probably find third woman to keep sucking him dry while you're wasting your time posting here bru"
+# sent_id = 90224
+1-2	He'll	_	_	_	_	_	_	_	start_char=94|end_char=99
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=94|end_char=96
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=96|end_char=99
+3	probably	probably	ADV	RB	_	2	_	_	start_char=100|end_char=108
+4	find	find	VERB	VB	VerbForm=Inf	3	_	_	start_char=109|end_char=113
+5	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	4	_	_	start_char=114|end_char=119
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=120|end_char=125
+7	to	to	PART	TO	_	6	_	_	start_char=126|end_char=128
+8	keep	keep	VERB	VB	VerbForm=Inf	7	_	_	start_char=129|end_char=133
+9	sucking	suck	VERB	VBG	VerbForm=Ger	8	_	_	start_char=134|end_char=141
+10	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=142|end_char=145
+11	dry	dry	ADJ	JJ	Degree=Pos	10	_	_	start_char=146|end_char=149
+12	while	while	SCONJ	IN	_	11	_	_	start_char=150|end_char=155
+13-14	you're	_	_	_	_	_	_	_	start_char=156|end_char=162
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=156|end_char=159
+14	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	_	_	start_char=159|end_char=162
+15	wasting	waste	VERB	VBG	Tense=Pres|VerbForm=Part	14	_	_	start_char=163|end_char=170
+16	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	15	_	_	start_char=171|end_char=175
+17	time	time	NOUN	NN	Number=Sing	16	_	_	start_char=176|end_char=180
+18	posting	post	VERB	VBG	VerbForm=Ger	17	_	_	start_char=181|end_char=188
+19	here	here	ADV	RB	PronType=Dem	18	_	_	start_char=189|end_char=193
+20	bru	bru	NOUN	NN	Number=Sing	19	_	_	start_char=194|end_char=197|SpaceAfter=No
+21	"	"	PUNCT	''	_	20	_	_	start_char=197|end_char=198|SpaceAfter=No
+

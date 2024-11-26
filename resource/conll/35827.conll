@@ -1,0 +1,32 @@
+# text = Even if [USER] doesn't win the WOH Championship, I hope she continues her career in [USER].
+# sent_id = 76703
+1	Even	even	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	if	if	SCONJ	IN	_	1	_	_	start_char=5|end_char=7
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=8|end_char=9|SpaceAfter=No
+4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=13|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=13|end_char=14
+6-7	doesn't	_	_	_	_	_	_	_	start_char=15|end_char=22
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=15|end_char=19
+7	n't	not	PART	RB	_	6	_	_	start_char=19|end_char=22
+8	win	win	VERB	VB	VerbForm=Inf	7	_	_	start_char=23|end_char=26
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=27|end_char=30
+10	WOH	WOH	PROPN	NNP	Number=Sing	9	_	_	start_char=31|end_char=34
+11	Championship	Championship	PROPN	NNP	Number=Sing	10	_	_	start_char=35|end_char=47|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=47|end_char=48
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=49|end_char=50
+14	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=51|end_char=55
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=56|end_char=59
+16	continues	continue	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=60|end_char=69
+17	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=70|end_char=73
+18	career	career	NOUN	NN	Number=Sing	17	_	_	start_char=74|end_char=80
+19	in	in	ADP	IN	_	18	_	_	start_char=81|end_char=83
+20	[	[	PUNCT	-LRB-	_	19	_	_	start_char=84|end_char=85|SpaceAfter=No
+21	USER	user	NOUN	NN	Number=Sing	20	_	_	start_char=85|end_char=89|SpaceAfter=No
+22	]	]	PUNCT	-RRB-	_	21	_	_	start_char=89|end_char=90|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=90|end_char=91
+
+# text = #WOHTournament
+# sent_id = 76704
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=92|end_char=93|SpaceAfter=No
+2	WOHTournament	wohtournament	NOUN	NN	Number=Sing	1	_	_	start_char=93|end_char=106|SpaceAfter=No
+

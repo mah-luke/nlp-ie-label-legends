@@ -1,0 +1,31 @@
+# text = "Hey Christians, your existence is making the moossies mad so stop
+# sent_id = 120831
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Hey	hey	INTJ	UH	_	1	_	_	start_char=1|end_char=4
+3	Christians	Christian	PROPN	NNPS	Number=Plur	2	_	_	start_char=5|end_char=15|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=15|end_char=16
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=17|end_char=21
+6	existence	existence	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=31
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=32|end_char=34
+8	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=35|end_char=41
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=42|end_char=45
+10	moossies	moossy	NOUN	NNS	Number=Plur	9	_	_	start_char=46|end_char=54
+11	mad	mad	ADJ	JJ	Degree=Pos	10	_	_	start_char=55|end_char=58
+12	so	so	ADV	RB	_	11	_	_	start_char=59|end_char=61
+13	stop	stop	VERB	VB	VerbForm=Inf	12	_	_	start_char=62|end_char=66
+
+# text = What an evil, vile, sub-human she is.
+# sent_id = 120832
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=67|end_char=71
+2	an	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=72|end_char=74
+3	evil	evil	ADJ	JJ	Degree=Pos	2	_	_	start_char=75|end_char=79|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=79|end_char=80
+5	vile	vile	ADJ	JJ	Degree=Pos	4	_	_	start_char=81|end_char=85|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=85|end_char=86
+7	sub	sub	NOUN	NN	Number=Sing	6	_	_	start_char=87|end_char=90|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	_	_	start_char=90|end_char=91|SpaceAfter=No
+9	human	human	ADJ	JJ	Degree=Pos	8	_	_	start_char=91|end_char=96
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=97|end_char=100
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=101|end_char=103|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=103|end_char=104|SpaceAfter=No
+

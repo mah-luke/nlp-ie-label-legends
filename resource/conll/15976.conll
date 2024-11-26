@@ -1,0 +1,65 @@
+# text = Thanks guys, I'll try.
+# sent_id = 34161
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=6
+2	guys	guy	NOUN	NNS	Number=Plur	1	_	_	start_char=7|end_char=11|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=11|end_char=12
+4-5	I'll	_	_	_	_	_	_	_	start_char=13|end_char=17
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=13|end_char=14
+5	'll	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=14|end_char=17
+6	try	try	VERB	VB	VerbForm=Inf	5	_	_	start_char=18|end_char=21|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=21|end_char=22
+
+# text = It's going to be hard because I could actually like this girl as a friend if I wasn't so damn attracted to her.
+# sent_id = 34162
+1-2	It's	_	_	_	_	_	_	_	start_char=23|end_char=27
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=23|end_char=25
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=27
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=28|end_char=33
+4	to	to	PART	TO	_	3	_	_	start_char=34|end_char=36
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=37|end_char=39
+6	hard	hard	ADJ	JJ	Degree=Pos	5	_	_	start_char=40|end_char=44
+7	because	because	SCONJ	IN	_	6	_	_	start_char=45|end_char=52
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=53|end_char=54
+9	could	could	AUX	MD	VerbForm=Fin	8	_	_	start_char=55|end_char=60
+10	actually	actually	ADV	RB	_	9	_	_	start_char=61|end_char=69
+11	like	like	VERB	VB	VerbForm=Inf	10	_	_	start_char=70|end_char=74
+12	this	this	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=75|end_char=79
+13	girl	girl	NOUN	NN	Number=Sing	12	_	_	start_char=80|end_char=84
+14	as	as	ADP	IN	_	13	_	_	start_char=85|end_char=87
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=88|end_char=89
+16	friend	friend	NOUN	NN	Number=Sing	15	_	_	start_char=90|end_char=96
+17	if	if	SCONJ	IN	_	16	_	_	start_char=97|end_char=99
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	_	_	start_char=100|end_char=101
+19-20	wasn't	_	_	_	_	_	_	_	start_char=102|end_char=108
+19	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	_	_	start_char=102|end_char=105
+20	n't	not	PART	RB	_	19	_	_	start_char=105|end_char=108
+21	so	so	ADV	RB	_	20	_	_	start_char=109|end_char=111
+22	damn	damn	ADV	RB	_	21	_	_	start_char=112|end_char=116
+23	attracted	attract	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	22	_	_	start_char=117|end_char=126
+24	to	to	ADP	IN	_	23	_	_	start_char=127|end_char=129
+25	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	_	_	start_char=130|end_char=133|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=133|end_char=134
+
+# text = I just know that I'm not satisfied with friendship, and a long distance one at that.
+# sent_id = 34163
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=135|end_char=136
+2	just	just	ADV	RB	_	1	_	_	start_char=137|end_char=141
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=142|end_char=146
+4	that	that	SCONJ	IN	_	3	_	_	start_char=147|end_char=151
+5-6	I'm	_	_	_	_	_	_	_	start_char=152|end_char=155
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=152|end_char=153
+6	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=153|end_char=155
+7	not	not	PART	RB	_	6	_	_	start_char=156|end_char=159
+8	satisfied	satisfied	ADJ	JJ	Degree=Pos	7	_	_	start_char=160|end_char=169
+9	with	with	ADP	IN	_	8	_	_	start_char=170|end_char=174
+10	friendship	friendship	NOUN	NN	Number=Sing	9	_	_	start_char=175|end_char=185|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=185|end_char=186
+12	and	and	CCONJ	CC	_	11	_	_	start_char=187|end_char=190
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=191|end_char=192
+14	long	long	ADJ	JJ	Degree=Pos	13	_	_	start_char=193|end_char=197
+15	distance	distance	NOUN	NN	Number=Sing	14	_	_	start_char=198|end_char=206
+16	one	one	NUM	CD	NumForm=Word|NumType=Card	15	_	_	start_char=207|end_char=210
+17	at	at	ADP	IN	_	16	_	_	start_char=211|end_char=213
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	17	_	_	start_char=214|end_char=218|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=218|end_char=219|SpaceAfter=No
+

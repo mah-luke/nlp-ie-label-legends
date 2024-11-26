@@ -1,0 +1,37 @@
+# text = Chelsea Clinton leaned over to her husband and said something about Melania.
+# sent_id = 74712
+1	Chelsea	Chelsea	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	Clinton	Clinton	PROPN	NNP	Number=Sing	1	_	_	start_char=8|end_char=15
+3	leaned	learn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=16|end_char=22
+4	over	over	ADV	RB	_	3	_	_	start_char=23|end_char=27
+5	to	to	ADP	IN	_	4	_	_	start_char=28|end_char=30
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=31|end_char=34
+7	husband	husband	NOUN	NN	Number=Sing	6	_	_	start_char=35|end_char=42
+8	and	and	CCONJ	CC	_	7	_	_	start_char=43|end_char=46
+9	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=47|end_char=51
+10	something	something	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=52|end_char=61
+11	about	about	ADP	IN	_	10	_	_	start_char=62|end_char=67
+12	Melania	Melania	PROPN	NNP	Number=Sing	11	_	_	start_char=68|end_char=75|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=75|end_char=76
+
+# text = Not sure what she said, but I guarantee it was classless.
+# sent_id = 74713
+1	Not	not	PART	RB	_	0	_	_	start_char=77|end_char=80
+2	sure	sure	ADJ	JJ	Degree=Pos	1	_	_	start_char=81|end_char=85
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=86|end_char=90
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=91|end_char=94
+5	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=95|end_char=99|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=99|end_char=100
+7	but	but	CCONJ	CC	_	6	_	_	start_char=101|end_char=104
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=105|end_char=106
+9	guarantee	guarantee	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=107|end_char=116
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=117|end_char=119
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=120|end_char=123
+12	classless	classless	ADJ	JJ	Degree=Pos	11	_	_	start_char=124|end_char=133|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=133|end_char=134
+
+# text = #PresidentialDebates
+# sent_id = 74714
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=135|end_char=136|SpaceAfter=No
+2	PresidentialDebates	presidentialdebate	NOUN	NNS	Number=Plur	1	_	_	start_char=136|end_char=155|SpaceAfter=No
+

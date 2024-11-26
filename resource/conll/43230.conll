@@ -1,0 +1,42 @@
+# text = RT [USER]:
+# sent_id = 92385
+1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
+3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=8|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=8|end_char=9|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=9|end_char=10
+
+# text = At what point do we admit Hillary is to blame for driving division in this country all because she can’t accept SHE LOST THE 2016 ELECTION [URL]
+# sent_id = 92386
+1	At	at	ADP	IN	_	0	_	_	start_char=11|end_char=13
+2	what	what	DET	WDT	PronType=Int	1	_	_	start_char=14|end_char=18
+3	point	point	NOUN	NN	Number=Sing	2	_	_	start_char=19|end_char=24
+4	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=25|end_char=27
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=28|end_char=30
+6	admit	admit	VERB	VB	VerbForm=Inf	5	_	_	start_char=31|end_char=36
+7	Hillary	Hillary	PROPN	NNP	Number=Sing	6	_	_	start_char=37|end_char=44
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=45|end_char=47
+9	to	to	PART	TO	_	8	_	_	start_char=48|end_char=50
+10	blame	blame	VERB	VB	VerbForm=Inf	9	_	_	start_char=51|end_char=56
+11	for	for	SCONJ	IN	_	10	_	_	start_char=57|end_char=60
+12	driving	drive	VERB	VBG	VerbForm=Ger	11	_	_	start_char=61|end_char=68
+13	division	division	NOUN	NN	Number=Sing	12	_	_	start_char=69|end_char=77
+14	in	in	ADP	IN	_	13	_	_	start_char=78|end_char=80
+15	this	this	DET	DT	Number=Sing|PronType=Dem	14	_	_	start_char=81|end_char=85
+16	country	country	NOUN	NN	Number=Sing	15	_	_	start_char=86|end_char=93
+17	all	all	DET	DT	_	16	_	_	start_char=94|end_char=97
+18	because	because	SCONJ	IN	_	17	_	_	start_char=98|end_char=105
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=106|end_char=109
+20-21	can’t	_	_	_	_	_	_	_	start_char=110|end_char=115
+20	ca	can	AUX	MD	VerbForm=Fin	19	_	_	start_char=110|end_char=112
+21	n’t	not	PART	RB	_	20	_	_	start_char=112|end_char=115
+22	accept	accept	VERB	VB	VerbForm=Inf	21	_	_	start_char=116|end_char=122
+23	SHE	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=123|end_char=126
+24	LOST	lost	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	_	_	start_char=127|end_char=131
+25	THE	the	DET	DT	Definite=Def|PronType=Art	24	_	_	start_char=132|end_char=135
+26	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	25	_	_	start_char=136|end_char=140
+27	ELECTION	election	NOUN	NN	Number=Sing	26	_	_	start_char=141|end_char=149
+28	[	[	PUNCT	-LRB-	_	27	_	_	start_char=150|end_char=151|SpaceAfter=No
+29	URL	URL	PROPN	NNP	Number=Sing	28	_	_	start_char=151|end_char=154|SpaceAfter=No
+30	]	]	PUNCT	-RRB-	_	29	_	_	start_char=154|end_char=155|SpaceAfter=No
+

@@ -1,0 +1,60 @@
+# text = Rule one from someone that has been on this earth a little longer than most of you.
+# sent_id = 59931
+1	Rule	rule	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=5|end_char=8
+3	from	from	ADP	IN	_	2	_	_	start_char=9|end_char=13
+4	someone	someone	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=14|end_char=21
+5	that	that	PRON	WDT	PronType=Rel	4	_	_	start_char=22|end_char=26
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=27|end_char=30
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=31|end_char=35
+8	on	on	ADP	IN	_	7	_	_	start_char=36|end_char=38
+9	this	this	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=39|end_char=43
+10	earth	earth	NOUN	NN	Number=Sing	9	_	_	start_char=44|end_char=49
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=50|end_char=51
+12	little	little	ADJ	JJ	Degree=Pos	11	_	_	start_char=52|end_char=58
+13	longer	long	ADV	RBR	Degree=Cmp	12	_	_	start_char=59|end_char=65
+14	than	than	ADP	IN	_	13	_	_	start_char=66|end_char=70
+15	most	most	ADJ	JJS	Degree=Sup	14	_	_	start_char=71|end_char=75
+16	of	of	ADP	IN	_	15	_	_	start_char=76|end_char=78
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	_	_	start_char=79|end_char=82|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=82|end_char=83
+
+# text = "ALL WOMEN ARE BORN LIARS".
+# sent_id = 59932
+1	"	"	PUNCT	``	_	0	_	_	start_char=84|end_char=85|SpaceAfter=No
+2	ALL	all	DET	DT	_	1	_	_	start_char=85|end_char=88
+3	WOMEN	women	NOUN	NNS	Number=Plur	2	_	_	start_char=89|end_char=94
+4	ARE	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=95|end_char=98
+5	BORN	bor	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=99|end_char=103
+6	LIARS	LIARS	PROPN	NNPS	Number=Plur	5	_	_	start_char=104|end_char=109|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=109|end_char=110|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=110|end_char=111
+
+# text = I have never met one woman, that at one point of another lied to me or I caught them lying to someone else.
+# sent_id = 59933
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=112|end_char=113
+2	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=114|end_char=118
+3	never	never	ADV	RB	_	2	_	_	start_char=119|end_char=124
+4	met	meet	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=125|end_char=128
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=129|end_char=132
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=133|end_char=138|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=138|end_char=139
+8	that	that	SCONJ	IN	_	7	_	_	start_char=140|end_char=144
+9	at	at	ADP	IN	_	8	_	_	start_char=145|end_char=147
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=148|end_char=151
+11	point	point	NOUN	NN	Number=Sing	10	_	_	start_char=152|end_char=157
+12	of	of	ADP	IN	_	11	_	_	start_char=158|end_char=160
+13	another	another	DET	DT	_	12	_	_	start_char=161|end_char=168
+14	lied	lie	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=169|end_char=173
+15	to	to	ADP	IN	_	14	_	_	start_char=174|end_char=176
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=177|end_char=179
+17	or	or	CCONJ	CC	_	16	_	_	start_char=180|end_char=182
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	_	_	start_char=183|end_char=184
+19	caught	catch	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	18	_	_	start_char=185|end_char=191
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	_	_	start_char=192|end_char=196
+21	lying	lie	VERB	VBG	VerbForm=Ger	20	_	_	start_char=197|end_char=202
+22	to	to	ADP	IN	_	21	_	_	start_char=203|end_char=205
+23	someone	someone	PRON	NN	Number=Sing|PronType=Ind	22	_	_	start_char=206|end_char=213
+24	else	else	ADJ	JJ	Degree=Pos	23	_	_	start_char=214|end_char=218|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=218|end_char=219|SpaceAfter=No
+

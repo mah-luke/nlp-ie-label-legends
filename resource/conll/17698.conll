@@ -1,0 +1,25 @@
+# text = This woman has all but destroyed what was once the most prosperous province in Canada.
+# sent_id = 38048
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=14
+4	all	all	ADV	RB	_	3	_	_	start_char=15|end_char=18
+5	but	but	CCONJ	CC	_	4	_	_	start_char=19|end_char=22
+6	destroyed	destroy	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=23|end_char=32
+7	what	what	PRON	WP	PronType=Rel	6	_	_	start_char=33|end_char=37
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=38|end_char=41
+9	once	once	ADV	RB	NumType=Mult	8	_	_	start_char=42|end_char=46
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=47|end_char=50
+11	most	most	ADV	RBS	Degree=Sup	10	_	_	start_char=51|end_char=55
+12	prosperous	prosperous	ADJ	JJ	Degree=Pos	11	_	_	start_char=56|end_char=66
+13	province	province	NOUN	NN	Number=Sing	12	_	_	start_char=67|end_char=75
+14	in	in	ADP	IN	_	13	_	_	start_char=76|end_char=78
+15	Canada	Canada	PROPN	NNP	Number=Sing	14	_	_	start_char=79|end_char=85|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=85|end_char=86
+
+# text = [URL]
+# sent_id = 38049
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=87|end_char=88|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=88|end_char=91|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=91|end_char=92|SpaceAfter=No
+

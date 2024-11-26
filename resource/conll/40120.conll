@@ -1,0 +1,45 @@
+# text = Germany's so-called "Nazi bride" is found guilty on 10 counts of murder for her role in a neo-Nazi gang that carried out killings and bombings over the course of 7 years.
+# sent_id = 85727
+1-2	Germany's	_	_	_	_	_	_	_	start_char=0|end_char=9
+1	Germany	Germany	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	's	's	PART	POS	_	1	_	_	start_char=7|end_char=9
+3	so-called	so-called	ADJ	JJ	Degree=Pos	2	_	_	start_char=10|end_char=19
+4	"	"	PUNCT	``	_	3	_	_	start_char=20|end_char=21|SpaceAfter=No
+5	Nazi	Nazi	ADJ	JJ	Degree=Pos	4	_	_	start_char=21|end_char=25
+6	bride	bride	NOUN	NN	Number=Sing	5	_	_	start_char=26|end_char=31|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=31|end_char=32
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=33|end_char=35
+9	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=36|end_char=41
+10	guilty	guilty	ADJ	JJ	Degree=Pos	9	_	_	start_char=42|end_char=48
+11	on	on	ADP	IN	_	10	_	_	start_char=49|end_char=51
+12	10	10	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=52|end_char=54
+13	counts	count	NOUN	NNS	Number=Plur	12	_	_	start_char=55|end_char=61
+14	of	of	ADP	IN	_	13	_	_	start_char=62|end_char=64
+15	murder	murder	NOUN	NN	Number=Sing	14	_	_	start_char=65|end_char=71
+16	for	for	ADP	IN	_	15	_	_	start_char=72|end_char=75
+17	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=76|end_char=79
+18	role	role	NOUN	NN	Number=Sing	17	_	_	start_char=80|end_char=84
+19	in	in	ADP	IN	_	18	_	_	start_char=85|end_char=87
+20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	start_char=88|end_char=89
+21	neo-Nazi	neo-Nazi	ADJ	JJ	Degree=Pos	20	_	_	start_char=90|end_char=98
+22	gang	gang	NOUN	NN	Number=Sing	21	_	_	start_char=99|end_char=103
+23	that	that	PRON	WDT	PronType=Rel	22	_	_	start_char=104|end_char=108
+24	carried	carry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	_	_	start_char=109|end_char=116
+25	out	out	ADP	RP	_	24	_	_	start_char=117|end_char=120
+26	killings	killing	NOUN	NNS	Number=Plur	25	_	_	start_char=121|end_char=129
+27	and	and	CCONJ	CC	_	26	_	_	start_char=130|end_char=133
+28	bombings	bombing	NOUN	NNS	Number=Plur	27	_	_	start_char=134|end_char=142
+29	over	over	ADP	IN	_	28	_	_	start_char=143|end_char=147
+30	the	the	DET	DT	Definite=Def|PronType=Art	29	_	_	start_char=148|end_char=151
+31	course	course	NOUN	NN	Number=Sing	30	_	_	start_char=152|end_char=158
+32	of	of	ADP	IN	_	31	_	_	start_char=159|end_char=161
+33	7	7	NUM	CD	NumForm=Digit|NumType=Card	32	_	_	start_char=162|end_char=163
+34	years	year	NOUN	NNS	Number=Plur	33	_	_	start_char=164|end_char=169|SpaceAfter=No
+35	.	.	PUNCT	.	_	34	_	_	start_char=169|end_char=170
+
+# text = [URL]
+# sent_id = 85728
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=171|end_char=172|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=172|end_char=175|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=175|end_char=176|SpaceAfter=No
+

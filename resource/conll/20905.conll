@@ -1,0 +1,41 @@
+# text = [USER] my wife doesn't laugh at my farts.
+# sent_id = 44879
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=7|end_char=9
+5	wife	wife	NOUN	NN	Number=Sing	4	_	_	start_char=10|end_char=14
+6-7	doesn't	_	_	_	_	_	_	_	start_char=15|end_char=22
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=15|end_char=19
+7	n't	not	PART	RB	_	6	_	_	start_char=19|end_char=22
+8	laugh	laugh	VERB	VB	VerbForm=Inf	7	_	_	start_char=23|end_char=28
+9	at	at	ADP	IN	_	8	_	_	start_char=29|end_char=31
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=32|end_char=34
+11	farts	fart	NOUN	NNS	Number=Plur	10	_	_	start_char=35|end_char=40|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=40|end_char=41
+
+# text = I can see where having to get out of bed to fetch the covers off the floor makes it less funny.
+# sent_id = 44880
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=42|end_char=43
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=44|end_char=47
+3	see	see	VERB	VB	VerbForm=Inf	2	_	_	start_char=48|end_char=51
+4	where	where	ADV	WRB	PronType=Int	3	_	_	start_char=52|end_char=57
+5	having	have	VERB	VBG	VerbForm=Ger	4	_	_	start_char=58|end_char=64
+6	to	to	PART	TO	_	5	_	_	start_char=65|end_char=67
+7	get	get	VERB	VB	VerbForm=Inf	6	_	_	start_char=68|end_char=71
+8	out	out	ADP	IN	_	7	_	_	start_char=72|end_char=75
+9	of	of	ADP	IN	_	8	_	_	start_char=76|end_char=78
+10	bed	bed	NOUN	NN	Number=Sing	9	_	_	start_char=79|end_char=82
+11	to	to	PART	TO	_	10	_	_	start_char=83|end_char=85
+12	fetch	fetch	VERB	VB	VerbForm=Inf	11	_	_	start_char=86|end_char=91
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=92|end_char=95
+14	covers	cover	NOUN	NNS	Number=Plur	13	_	_	start_char=96|end_char=102
+15	off	off	ADP	IN	_	14	_	_	start_char=103|end_char=106
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=107|end_char=110
+17	floor	floor	NOUN	NN	Number=Sing	16	_	_	start_char=111|end_char=116
+18	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=117|end_char=122
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=123|end_char=125
+20	less	less	ADV	RBR	Degree=Cmp	19	_	_	start_char=126|end_char=130
+21	funny	funny	ADJ	JJ	Degree=Pos	20	_	_	start_char=131|end_char=136|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=136|end_char=137|SpaceAfter=No
+

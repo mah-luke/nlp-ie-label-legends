@@ -1,0 +1,53 @@
+# text = I am so sick of this pay gap bullshit.
+# sent_id = 99680
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	so	so	ADV	RB	_	2	_	_	start_char=5|end_char=7
+4	sick	sick	ADJ	JJ	Degree=Pos	3	_	_	start_char=8|end_char=12
+5	of	of	ADP	IN	_	4	_	_	start_char=13|end_char=15
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=16|end_char=20
+7	pay	pay	NOUN	NN	Number=Sing	6	_	_	start_char=21|end_char=24
+8	gap	gap	NOUN	NN	Number=Sing	7	_	_	start_char=25|end_char=28
+9	bullshit	bullshit	NOUN	NN	Number=Sing	8	_	_	start_char=29|end_char=37|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=37|end_char=38
+
+# text = What about the hire gap?
+# sent_id = 99681
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=39|end_char=43
+2	about	about	ADP	IN	_	1	_	_	start_char=44|end_char=49
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=50|end_char=53
+4	hire	hire	NOUN	NN	Number=Sing	3	_	_	start_char=54|end_char=58
+5	gap	gap	NOUN	NN	Number=Sing	4	_	_	start_char=59|end_char=62|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=62|end_char=63
+
+# text = If you are up against a woman for a job kiss your chances goodbye.
+# sent_id = 99682
+1	If	if	SCONJ	IN	_	0	_	_	start_char=64|end_char=66
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=67|end_char=70
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=71|end_char=74
+4	up	up	ADV	RB	_	3	_	_	start_char=75|end_char=77
+5	against	against	ADP	IN	_	4	_	_	start_char=78|end_char=85
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=86|end_char=87
+7	woman	woman	NOUN	NN	Number=Sing	6	_	_	start_char=88|end_char=93
+8	for	for	ADP	IN	_	7	_	_	start_char=94|end_char=97
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=98|end_char=99
+10	job	job	NOUN	NN	Number=Sing	9	_	_	start_char=100|end_char=103
+11	kiss	kiss	VERB	VB	VerbForm=Inf	10	_	_	start_char=104|end_char=108
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	_	_	start_char=109|end_char=113
+13	chances	chance	NOUN	NNS	Number=Plur	12	_	_	start_char=114|end_char=121
+14	goodbye	goodbye	NOUN	NN	Number=Sing	13	_	_	start_char=122|end_char=129|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=129|end_char=130
+
+# text = She will get hired 90% of the time.
+# sent_id = 99683
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=131|end_char=134
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=135|end_char=139
+3	get	get	AUX	VB	VerbForm=Inf	2	_	_	start_char=140|end_char=143
+4	hired	hire	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=144|end_char=149
+5	90	90	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=150|end_char=152|SpaceAfter=No
+6	%	%	SYM	NN	Number=Sing	5	_	_	start_char=152|end_char=153
+7	of	of	ADP	IN	_	6	_	_	start_char=154|end_char=156
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=157|end_char=160
+9	time	time	NOUN	NN	Number=Sing	8	_	_	start_char=161|end_char=165|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=165|end_char=166|SpaceAfter=No
+

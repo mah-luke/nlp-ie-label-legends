@@ -1,0 +1,71 @@
+# text = You're choosing to be a victim right now.
+# sent_id = 83592
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	choosing	choose	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=7|end_char=15
+4	to	to	PART	TO	_	3	_	_	start_char=16|end_char=18
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=19|end_char=21
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=22|end_char=23
+7	victim	victim	NOUN	NN	Number=Sing	6	_	_	start_char=24|end_char=30
+8	right	right	ADV	RB	_	7	_	_	start_char=31|end_char=36
+9	now	now	ADV	RB	_	8	_	_	start_char=37|end_char=40|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=40|end_char=41
+
+# text = You say that she "did this to you" but actually you allowed her to hurt you.
+# sent_id = 83593
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=42|end_char=45
+2	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=46|end_char=49
+3	that	that	SCONJ	IN	_	2	_	_	start_char=50|end_char=54
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=55|end_char=58
+5	"	"	PUNCT	``	_	4	_	_	start_char=59|end_char=60|SpaceAfter=No
+6	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=60|end_char=63
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=64|end_char=68
+8	to	to	ADP	IN	_	7	_	_	start_char=69|end_char=71
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=72|end_char=75|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=75|end_char=76
+11	but	but	CCONJ	CC	_	10	_	_	start_char=77|end_char=80
+12	actually	actually	ADV	RB	_	11	_	_	start_char=81|end_char=89
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=90|end_char=93
+14	allowed	allow	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	13	_	_	start_char=94|end_char=101
+15	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=102|end_char=105
+16	to	to	PART	TO	_	15	_	_	start_char=106|end_char=108
+17	hurt	hurt	VERB	VB	VerbForm=Inf	16	_	_	start_char=109|end_char=113
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	_	_	start_char=114|end_char=117|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=117|end_char=118
+
+# text = Instead of being bitter at life, you could see this as an opportunity to grow into a wiser, better man.
+# sent_id = 83594
+1	Instead	instead	ADV	RB	_	0	_	_	start_char=119|end_char=126
+2	of	of	SCONJ	IN	_	1	_	_	start_char=127|end_char=129
+3	being	be	AUX	VBG	VerbForm=Ger	2	_	_	start_char=130|end_char=135
+4	bitter	bitter	ADJ	JJ	Degree=Pos	3	_	_	start_char=136|end_char=142
+5	at	at	ADP	IN	_	4	_	_	start_char=143|end_char=145
+6	life	life	NOUN	NN	Number=Sing	5	_	_	start_char=146|end_char=150|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=150|end_char=151
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=152|end_char=155
+9	could	could	AUX	MD	VerbForm=Fin	8	_	_	start_char=156|end_char=161
+10	see	see	VERB	VB	VerbForm=Inf	9	_	_	start_char=162|end_char=165
+11	this	this	PRON	DT	Number=Sing|PronType=Dem	10	_	_	start_char=166|end_char=170
+12	as	as	ADP	IN	_	11	_	_	start_char=171|end_char=173
+13	an	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=174|end_char=176
+14	opportunity	opportunity	NOUN	NN	Number=Sing	13	_	_	start_char=177|end_char=188
+15	to	to	PART	TO	_	14	_	_	start_char=189|end_char=191
+16	grow	grow	VERB	VB	VerbForm=Inf	15	_	_	start_char=192|end_char=196
+17	into	into	ADP	IN	_	16	_	_	start_char=197|end_char=201
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=202|end_char=203
+19	wiser	wise	ADJ	JJR	Degree=Cmp	18	_	_	start_char=204|end_char=209|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=209|end_char=210
+21	better	good	ADJ	JJR	Degree=Cmp	20	_	_	start_char=211|end_char=217
+22	man	man	NOUN	NN	Number=Sing	21	_	_	start_char=218|end_char=221|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=221|end_char=222
+
+# text = Are you capable of that?
+# sent_id = 83595
+1	Are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=223|end_char=226
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=227|end_char=230
+3	capable	capable	ADJ	JJ	Degree=Pos	2	_	_	start_char=231|end_char=238
+4	of	of	ADP	IN	_	3	_	_	start_char=239|end_char=241
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=242|end_char=246|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=246|end_char=247|SpaceAfter=No
+

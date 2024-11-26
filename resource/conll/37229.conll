@@ -1,0 +1,66 @@
+# text = The most amazing / disturbing is the time line.
+# sent_id = 79580
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	most	most	ADV	RBS	Degree=Sup	1	_	_	start_char=4|end_char=8
+3	amazing	amazing	ADJ	JJ	Degree=Pos	2	_	_	start_char=9|end_char=16
+4	/	/	SYM	,	_	3	_	_	start_char=17|end_char=18
+5	disturbing	disturbing	ADJ	JJ	Degree=Pos	4	_	_	start_char=19|end_char=29
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=30|end_char=32
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=33|end_char=36
+8	time	time	NOUN	NN	Number=Sing	7	_	_	start_char=37|end_char=41
+9	line	line	NOUN	NN	Number=Sing	8	_	_	start_char=42|end_char=46|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=46|end_char=47
+
+# text = 36days 58 likes, 4h 37.5k likes.
+# sent_id = 79581
+1	36	36	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=48|end_char=50|SpaceAfter=No
+2	days	day	NOUN	NNS	Number=Plur	1	_	_	start_char=50|end_char=54
+3	58	58	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=55|end_char=57
+4	likes	like	NOUN	NNS	Number=Plur	3	_	_	start_char=58|end_char=63|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=63|end_char=64
+6	4h	4h	SYM	$	_	5	_	_	start_char=65|end_char=67
+7	37.5	37.5	NUM	CD	NumForm=Digit|NumType=Frac	6	_	_	start_char=68|end_char=72|SpaceAfter=No
+8	k	thousand	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	7	_	_	start_char=72|end_char=73
+9	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=74|end_char=79|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=79|end_char=80
+
+# text = Not white Knighting for the chameleon but fair is fair.
+# sent_id = 79582
+1	Not	not	PART	RB	_	0	_	_	start_char=81|end_char=84
+2	white	white	ADJ	JJ	Degree=Pos	1	_	_	start_char=85|end_char=90
+3	Knighting	knighting	NOUN	NN	Number=Sing	2	_	_	start_char=91|end_char=100
+4	for	for	ADP	IN	_	3	_	_	start_char=101|end_char=104
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=105|end_char=108
+6	chameleon	chameleon	NOUN	NN	Number=Sing	5	_	_	start_char=109|end_char=118
+7	but	but	CCONJ	CC	_	6	_	_	start_char=119|end_char=122
+8	fair	fair	ADJ	JJ	Degree=Pos	7	_	_	start_char=123|end_char=127
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=128|end_char=130
+10	fair	fair	ADJ	JJ	Degree=Pos	9	_	_	start_char=131|end_char=135|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=135|end_char=136
+
+# text = She (or someone else) pointed out the absolute hypocrisy to the sub-humans, in her/their OP.
+# sent_id = 79583
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=137|end_char=140
+2	(	(	PUNCT	-LRB-	_	1	_	_	start_char=141|end_char=142|SpaceAfter=No
+3	or	or	CCONJ	CC	_	2	_	_	start_char=142|end_char=144
+4	someone	someone	PRON	NN	Number=Sing|PronType=Ind	3	_	_	start_char=145|end_char=152
+5	else	else	ADJ	JJ	Degree=Pos	4	_	_	start_char=153|end_char=157|SpaceAfter=No
+6	)	)	PUNCT	-RRB-	_	5	_	_	start_char=157|end_char=158
+7	pointed	point	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=159|end_char=166
+8	out	out	ADP	RP	_	7	_	_	start_char=167|end_char=170
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=171|end_char=174
+10	absolute	absolute	ADJ	JJ	Degree=Pos	9	_	_	start_char=175|end_char=183
+11	hypocrisy	hypocrisy	NOUN	NN	Number=Sing	10	_	_	start_char=184|end_char=193
+12	to	to	ADP	IN	_	11	_	_	start_char=194|end_char=196
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=197|end_char=200
+14	sub	sub	NOUN	NN	Number=Sing	13	_	_	start_char=201|end_char=204|SpaceAfter=No
+15	-	-	PUNCT	HYPH	_	14	_	_	start_char=204|end_char=205|SpaceAfter=No
+16	humans	human	NOUN	NNS	Number=Plur	15	_	_	start_char=205|end_char=211|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=211|end_char=212
+18	in	in	ADP	IN	_	17	_	_	start_char=213|end_char=215
+19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=216|end_char=219|SpaceAfter=No
+20	/	/	SYM	SYM	_	19	_	_	start_char=219|end_char=220|SpaceAfter=No
+21	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	20	_	_	start_char=220|end_char=225
+22	OP	OP	NOUN	NN	Number=Sing	21	_	_	start_char=226|end_char=228|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=228|end_char=229|SpaceAfter=No
+

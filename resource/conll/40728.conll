@@ -1,0 +1,52 @@
+# text = MOM is key …
+# sent_id = 87150
+1	MOM	mom	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	key	key	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=10
+4	…	…	PUNCT	:	_	3	_	_	start_char=11|end_char=12
+
+# text = You see its very simple .
+# sent_id = 87151
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=13|end_char=16
+2	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=17|end_char=20
+3	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=21|end_char=24
+4	very	very	ADV	RB	_	3	_	_	start_char=25|end_char=29
+5	simple	simple	ADJ	JJ	Degree=Pos	4	_	_	start_char=30|end_char=36
+6	.	.	PUNCT	.	_	5	_	_	start_char=37|end_char=38
+
+# text = WE COME FROM WOMAN.
+# sent_id = 87152
+1	WE	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=39|end_char=41
+2	COME	come	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=46
+3	FROM	from	ADP	IN	_	2	_	_	start_char=47|end_char=51
+4	WOMAN	woman	NOUN	NN	Number=Sing	3	_	_	start_char=52|end_char=57|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=57|end_char=58
+
+# text = We are EDUCATED BY a WOMAN.
+# sent_id = 87153
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=59|end_char=61
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=62|end_char=65
+3	EDUCATED	educate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=66|end_char=74
+4	BY	by	ADP	IN	_	3	_	_	start_char=75|end_char=77
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=78|end_char=79
+6	WOMAN	woman	NOUN	NN	Number=Sing	5	_	_	start_char=80|end_char=85|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=85|end_char=86
+
+# text = That's our 1st LOVE, our 1st Teacher, Our base for LOVE
+# sent_id = 87154
+1-2	That's	_	_	_	_	_	_	_	start_char=87|end_char=93
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=87|end_char=91
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=91|end_char=93
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=94|end_char=97
+4	1st	1st	ADJ	JJ	Degree=Pos|NumType=Ord	3	_	_	start_char=98|end_char=101
+5	LOVE	love	NOUN	NN	Number=Sing	4	_	_	start_char=102|end_char=106|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=106|end_char=107
+7	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=108|end_char=111
+8	1st	1st	ADJ	JJ	Degree=Pos|NumType=Ord	7	_	_	start_char=112|end_char=115
+9	Teacher	teacher	NOUN	NN	Number=Sing	8	_	_	start_char=116|end_char=123|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=123|end_char=124
+11	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=125|end_char=128
+12	base	base	NOUN	NN	Number=Sing	11	_	_	start_char=129|end_char=133
+13	for	for	ADP	IN	_	12	_	_	start_char=134|end_char=137
+14	LOVE	love	PROPN	NNP	Number=Sing	13	_	_	start_char=138|end_char=142|SpaceAfter=No
+

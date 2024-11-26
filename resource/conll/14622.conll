@@ -1,0 +1,66 @@
+# text = Most don’t, but it’s not uncommon.
+# sent_id = 31146
+1	Most	most	ADJ	JJS	Degree=Sup	0	_	_	start_char=0|end_char=4
+2-3	don’t	_	_	_	_	_	_	_	start_char=5|end_char=10|SpaceAfter=No
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	n’t	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	,	,	PUNCT	,	_	3	_	_	start_char=10|end_char=11
+5	but	but	CCONJ	CC	_	4	_	_	start_char=12|end_char=15
+6-7	it’s	_	_	_	_	_	_	_	start_char=16|end_char=20
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=16|end_char=18
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=18|end_char=20
+8	not	not	PART	RB	_	7	_	_	start_char=21|end_char=24
+9	uncommon	uncommon	ADJ	JJ	Degree=Pos	8	_	_	start_char=25|end_char=33|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=33|end_char=34
+
+# text = It happens often enough that the trope any time a woman gets murdered is “the boyfriend did it”.
+# sent_id = 31147
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=35|end_char=37
+2	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=38|end_char=45
+3	often	often	ADV	RB	_	2	_	_	start_char=46|end_char=51
+4	enough	enough	ADV	RB	_	3	_	_	start_char=52|end_char=58
+5	that	that	SCONJ	IN	_	4	_	_	start_char=59|end_char=63
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=64|end_char=67
+7	trope	trope	NOUN	NN	Number=Sing	6	_	_	start_char=68|end_char=73
+8	any	any	DET	DT	_	7	_	_	start_char=74|end_char=77
+9	time	time	NOUN	NN	Number=Sing	8	_	_	start_char=78|end_char=82
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=83|end_char=84
+11	woman	woman	NOUN	NN	Number=Sing	10	_	_	start_char=85|end_char=90
+12	gets	get	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=91|end_char=95
+13	murdered	murder	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=96|end_char=104
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=105|end_char=107
+15	“	''	PUNCT	``	_	14	_	_	start_char=108|end_char=109|SpaceAfter=No
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=109|end_char=112
+17	boyfriend	boyfriend	NOUN	NN	Number=Sing	16	_	_	start_char=113|end_char=122
+18	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=123|end_char=126
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=127|end_char=129|SpaceAfter=No
+20	”	''	PUNCT	''	_	19	_	_	start_char=129|end_char=130|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=130|end_char=131
+
+# text = I’d suspect the wife if a husband was murdered too but it just doesn’t happen in the same numbers.
+# sent_id = 31148
+1-2	I’d	_	_	_	_	_	_	_	start_char=132|end_char=135
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=132|end_char=133
+2	’d	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=133|end_char=135
+3	suspect	suspect	VERB	VB	VerbForm=Inf	2	_	_	start_char=136|end_char=143
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=144|end_char=147
+5	wife	wife	NOUN	NN	Number=Sing	4	_	_	start_char=148|end_char=152
+6	if	if	SCONJ	IN	_	5	_	_	start_char=153|end_char=155
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=156|end_char=157
+8	husband	husband	NOUN	NN	Number=Sing	7	_	_	start_char=158|end_char=165
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=166|end_char=169
+10	murdered	murder	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=170|end_char=178
+11	too	too	ADV	RB	_	10	_	_	start_char=179|end_char=182
+12	but	but	CCONJ	CC	_	11	_	_	start_char=183|end_char=186
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=187|end_char=189
+14	just	just	ADV	RB	_	13	_	_	start_char=190|end_char=194
+15-16	doesn’t	_	_	_	_	_	_	_	start_char=195|end_char=202
+15	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=195|end_char=199
+16	n’t	not	PART	RB	_	15	_	_	start_char=199|end_char=202
+17	happen	happen	VERB	VB	VerbForm=Inf	16	_	_	start_char=203|end_char=209
+18	in	in	ADP	IN	_	17	_	_	start_char=210|end_char=212
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=213|end_char=216
+20	same	same	ADJ	JJ	Degree=Pos	19	_	_	start_char=217|end_char=221
+21	numbers	number	NOUN	NNS	Number=Plur	20	_	_	start_char=222|end_char=229|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=229|end_char=230|SpaceAfter=No
+

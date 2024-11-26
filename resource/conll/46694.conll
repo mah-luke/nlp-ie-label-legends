@@ -1,0 +1,62 @@
+# text = Sounds like you both were very drunk.
+# sent_id = 99780
+1	Sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=6
+2	like	like	SCONJ	IN	_	1	_	_	start_char=7|end_char=11
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=12|end_char=15
+4	both	both	DET	DT	PronType=Art	3	_	_	start_char=16|end_char=20
+5	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	4	_	_	start_char=21|end_char=25
+6	very	very	ADV	RB	_	5	_	_	start_char=26|end_char=30
+7	drunk	drunk	ADJ	JJ	Degree=Pos	6	_	_	start_char=31|end_char=36|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=36|end_char=37
+
+# text = Maybe something like this would give you the best shot: "Fun time at the bar last week!
+# sent_id = 99781
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=38|end_char=43
+2	something	something	PRON	NN	Number=Sing|PronType=Ind	1	_	_	start_char=44|end_char=53
+3	like	like	SCONJ	IN	_	2	_	_	start_char=54|end_char=58
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=59|end_char=63
+5	would	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=64|end_char=69
+6	give	give	VERB	VB	VerbForm=Inf	5	_	_	start_char=70|end_char=74
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=75|end_char=78
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=79|end_char=82
+9	best	good	ADJ	JJS	Degree=Sup	8	_	_	start_char=83|end_char=87
+10	shot	shot	NOUN	NN	Number=Sing	9	_	_	start_char=88|end_char=92|SpaceAfter=No
+11	:	:	PUNCT	:	_	10	_	_	start_char=92|end_char=93
+12	"	"	PUNCT	``	_	11	_	_	start_char=94|end_char=95|SpaceAfter=No
+13	Fun	fun	ADJ	JJ	Degree=Pos	12	_	_	start_char=95|end_char=98
+14	time	time	NOUN	NN	Number=Sing	13	_	_	start_char=99|end_char=103
+15	at	at	ADP	IN	_	14	_	_	start_char=104|end_char=106
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=107|end_char=110
+17	bar	bar	NOUN	NN	Number=Sing	16	_	_	start_char=111|end_char=114
+18	last	last	ADJ	JJ	Degree=Pos	17	_	_	start_char=115|end_char=119
+19	week	week	NOUN	NN	Number=Sing	18	_	_	start_char=120|end_char=124|SpaceAfter=No
+20	!	!	PUNCT	.	_	19	_	_	start_char=124|end_char=125
+
+# text = My friends and I are gonna check out \_\_\_\_ this weekend, hit me up if you and your girls are down"
+# sent_id = 99782
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=126|end_char=128
+2	friends	friend	NOUN	NNS	Number=Plur	1	_	_	start_char=129|end_char=136
+3	and	and	CCONJ	CC	_	2	_	_	start_char=137|end_char=140
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=141|end_char=142
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=143|end_char=146
+6-7	gonna	_	_	_	_	_	_	_	start_char=147|end_char=152
+6	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=147|end_char=150
+7	na	to	PART	TO	_	6	_	_	start_char=150|end_char=152
+8	check	check	VERB	VB	VerbForm=Inf	7	_	_	start_char=153|end_char=158
+9	out	out	ADP	RP	_	8	_	_	start_char=159|end_char=162
+10	\_\_\_\_	\_\_\_\_	SYM	SYM	_	9	_	_	start_char=163|end_char=171
+11	this	this	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=172|end_char=176
+12	weekend	weekend	NOUN	NN	Number=Sing	11	_	_	start_char=177|end_char=184|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=184|end_char=185
+14	hit	hit	VERB	VB	VerbForm=Inf	13	_	_	start_char=186|end_char=189
+15	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=190|end_char=192
+16	up	up	ADP	RP	_	15	_	_	start_char=193|end_char=195
+17	if	if	SCONJ	IN	_	16	_	_	start_char=196|end_char=198
+18	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	17	_	_	start_char=199|end_char=202
+19	and	and	CCONJ	CC	_	18	_	_	start_char=203|end_char=206
+20	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	19	_	_	start_char=207|end_char=211
+21	girls	girl	NOUN	NNS	Number=Plur	20	_	_	start_char=212|end_char=217
+22	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=218|end_char=221
+23	down	down	ADV	RB	_	22	_	_	start_char=222|end_char=226|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	_	_	start_char=226|end_char=227|SpaceAfter=No
+

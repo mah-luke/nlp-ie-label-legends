@@ -1,0 +1,72 @@
+# text = #1 PIC: This is a text from #Roseanne to her son.
+# sent_id = 13978
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=1|end_char=2
+3	PIC	pic	NOUN	NN	Number=Sing	2	_	_	start_char=3|end_char=6|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=6|end_char=7
+5	This	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=8|end_char=12
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=13|end_char=15
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=16|end_char=17
+8	text	text	NOUN	NN	Number=Sing	7	_	_	start_char=18|end_char=22
+9	from	from	ADP	IN	_	8	_	_	start_char=23|end_char=27
+10	#	#	SYM	NN	Number=Sing	9	_	_	start_char=28|end_char=29|SpaceAfter=No
+11	Roseanne	Roseanne	PROPN	NNP	Number=Sing	10	_	_	start_char=29|end_char=37
+12	to	to	ADP	IN	_	11	_	_	start_char=38|end_char=40
+13	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=41|end_char=44
+14	son	son	NOUN	NN	Number=Sing	13	_	_	start_char=45|end_char=48|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=48|end_char=49
+
+# text = She literally thought Valerie Jarrett was white!
+# sent_id = 13979
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=50|end_char=53
+2	literally	literally	ADV	RB	_	1	_	_	start_char=54|end_char=63
+3	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=64|end_char=71
+4	Valerie	Valerie	PROPN	NNP	Number=Sing	3	_	_	start_char=72|end_char=79
+5	Jarrett	Jarrett	PROPN	NNP	Number=Sing	4	_	_	start_char=80|end_char=87
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=88|end_char=91
+7	white	white	ADJ	JJ	Degree=Pos	6	_	_	start_char=92|end_char=97|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=97|end_char=98
+
+# text = #2 PIC: Tweet from a major pharma company (they make Ambien) piling on #Roseanne #3: #Drudge slams them.
+# sent_id = 13980
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=99|end_char=100|SpaceAfter=No
+2	2	2	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=100|end_char=101
+3	PIC	pic	NOUN	NN	Number=Sing	2	_	_	start_char=102|end_char=105|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=105|end_char=106
+5	Tweet	tweet	NOUN	NN	Number=Sing	4	_	_	start_char=107|end_char=112
+6	from	from	ADP	IN	_	5	_	_	start_char=113|end_char=117
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=118|end_char=119
+8	major	major	ADJ	JJ	Degree=Pos	7	_	_	start_char=120|end_char=125
+9	pharma	pharma	NOUN	NN	Number=Sing	8	_	_	start_char=126|end_char=132
+10	company	company	NOUN	NN	Number=Sing	9	_	_	start_char=133|end_char=140
+11	(	(	PUNCT	-LRB-	_	10	_	_	start_char=141|end_char=142|SpaceAfter=No
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	_	_	start_char=142|end_char=146
+13	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=147|end_char=151
+14	Ambien	Ambien	PROPN	NNP	Number=Sing	13	_	_	start_char=152|end_char=158|SpaceAfter=No
+15	)	)	PUNCT	-RRB-	_	14	_	_	start_char=158|end_char=159
+16	piling	pile	VERB	VBG	VerbForm=Ger	15	_	_	start_char=160|end_char=166
+17	on	on	ADP	IN	_	16	_	_	start_char=167|end_char=169
+18	#	#	SYM	NN	Number=Sing	17	_	_	start_char=170|end_char=171|SpaceAfter=No
+19	Roseanne	Roseanne	PROPN	NNP	Number=Sing	18	_	_	start_char=171|end_char=179
+20	#	#	SYM	NN	Number=Sing	19	_	_	start_char=180|end_char=181|SpaceAfter=No
+21	3	3	NUM	CD	NumForm=Digit|NumType=Card	20	_	_	start_char=181|end_char=182|SpaceAfter=No
+22	:	:	PUNCT	:	_	21	_	_	start_char=182|end_char=183
+23	#	#	SYM	NN	Number=Sing	22	_	_	start_char=184|end_char=185|SpaceAfter=No
+24	Drudge	Drudge	PROPN	NNP	Number=Sing	23	_	_	start_char=185|end_char=191
+25	slams	slam	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	_	_	start_char=192|end_char=197
+26	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	25	_	_	start_char=198|end_char=202|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=202|end_char=203
+
+# text = #4: #ThomasWictor #Thread [URL]
+# sent_id = 13981
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=204|end_char=205|SpaceAfter=No
+2	4	4	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=205|end_char=206|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=206|end_char=207
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=208|end_char=209|SpaceAfter=No
+5	ThomasWictor	thomaswictor	NOUN	NN	Number=Sing	4	_	_	start_char=209|end_char=221
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=222|end_char=223|SpaceAfter=No
+7	Thread	thread	NOUN	NN	Number=Sing	6	_	_	start_char=223|end_char=229
+8	[	[	PUNCT	-LRB-	_	7	_	_	start_char=230|end_char=231|SpaceAfter=No
+9	URL	URL	NOUN	NN	Number=Sing	8	_	_	start_char=231|end_char=234|SpaceAfter=No
+10	]	]	PUNCT	-RRB-	_	9	_	_	start_char=234|end_char=235|SpaceAfter=No
+

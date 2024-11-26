@@ -1,0 +1,32 @@
+# text = Donald Trump got more fat women out walking in one day than Michelle Obama did in 8 years.
+# sent_id = 3140
+1	Donald	Donald	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	Trump	Trump	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=12
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=13|end_char=16
+4	more	more	ADV	RBR	Degree=Cmp	3	_	_	start_char=17|end_char=21
+5	fat	fat	ADJ	JJ	Degree=Pos	4	_	_	start_char=22|end_char=25
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=26|end_char=31
+7	out	out	ADV	RB	_	6	_	_	start_char=32|end_char=35
+8	walking	walk	VERB	VBG	VerbForm=Ger	7	_	_	start_char=36|end_char=43
+9	in	in	ADP	IN	_	8	_	_	start_char=44|end_char=46
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=47|end_char=50
+11	day	day	NOUN	NN	Number=Sing	10	_	_	start_char=51|end_char=54
+12	than	than	SCONJ	IN	_	11	_	_	start_char=55|end_char=59
+13	Michelle	Michelle	PROPN	NNP	Number=Sing	12	_	_	start_char=60|end_char=68
+14	Obama	Obama	PROPN	NNP	Number=Sing	13	_	_	start_char=69|end_char=74
+15	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=75|end_char=78
+16	in	in	ADP	IN	_	15	_	_	start_char=79|end_char=81
+17	8	8	NUM	CD	NumForm=Digit|NumType=Card	16	_	_	start_char=82|end_char=83
+18	years	year	NOUN	NNS	Number=Plur	17	_	_	start_char=84|end_char=89|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=89|end_char=90
+
+# text = 😂😂 #WomensMarch #PresidentTrump #MAGA
+# sent_id = 3141
+1	😂😂	😂😂	INTJ	UH	_	0	_	_	start_char=91|end_char=93
+2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=94|end_char=95|SpaceAfter=No
+3	WomensMarch	womensmarch	NOUN	NN	Number=Sing	2	_	_	start_char=95|end_char=106
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=107|end_char=108|SpaceAfter=No
+5	PresidentTrump	presidenttrump	NOUN	NN	Number=Sing	4	_	_	start_char=108|end_char=122
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=123|end_char=124|SpaceAfter=No
+7	MAGA	maga	NOUN	NN	Number=Sing	6	_	_	start_char=124|end_char=128|SpaceAfter=No
+

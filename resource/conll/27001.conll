@@ -1,0 +1,46 @@
+# text = "When they go low.....we beat women with flag poles and pepper spray them in the face."
+# sent_id = 58002
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	When	when	ADV	WRB	PronType=Int	1	_	_	start_char=1|end_char=5
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=6|end_char=10
+4	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	low	low	ADV	RB	Degree=Pos	4	_	_	start_char=14|end_char=17|SpaceAfter=No
+6	.....	.....	PUNCT	,	_	5	_	_	start_char=17|end_char=22|SpaceAfter=No
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	_	_	start_char=22|end_char=24
+8	beat	beat	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=25|end_char=29
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=30|end_char=35
+10	with	with	ADP	IN	_	9	_	_	start_char=36|end_char=40
+11	flag	flag	NOUN	NN	Number=Sing	10	_	_	start_char=41|end_char=45
+12	poles	pole	NOUN	NNS	Number=Plur	11	_	_	start_char=46|end_char=51
+13	and	and	CCONJ	CC	_	12	_	_	start_char=52|end_char=55
+14	pepper	pepper	NOUN	NN	Number=Sing	13	_	_	start_char=56|end_char=62
+15	spray	spray	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=63|end_char=68
+16	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	15	_	_	start_char=69|end_char=73
+17	in	in	ADP	IN	_	16	_	_	start_char=74|end_char=76
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=77|end_char=80
+19	face	face	NOUN	NN	Number=Sing	18	_	_	start_char=81|end_char=85|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=85|end_char=86|SpaceAfter=No
+21	"	"	PUNCT	''	_	20	_	_	start_char=86|end_char=87
+
+# text = #MiloAtCal And Antifa is a terrorist organization.
+# sent_id = 58003
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=88|end_char=89|SpaceAfter=No
+2	MiloAtCal	MiloAtCal	PROPN	NNP	Number=Sing	1	_	_	start_char=89|end_char=98
+3	And	and	CCONJ	CC	_	2	_	_	start_char=99|end_char=102
+4	Antifa	Antifa	PROPN	NNP	Number=Sing	3	_	_	start_char=103|end_char=109
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=110|end_char=112
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=113|end_char=114
+7	terrorist	terrorist	ADJ	JJ	Degree=Pos	6	_	_	start_char=115|end_char=124
+8	organization	organization	NOUN	NN	Number=Sing	7	_	_	start_char=125|end_char=137|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=137|end_char=138
+
+# text = #GabFam #Maga [USER]
+# sent_id = 58004
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=139|end_char=140|SpaceAfter=No
+2	GabFam	gabfam	NOUN	NN	Number=Sing	1	_	_	start_char=140|end_char=146
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=147|end_char=148|SpaceAfter=No
+4	Maga	maga	NOUN	NN	Number=Sing	3	_	_	start_char=148|end_char=152
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=153|end_char=154|SpaceAfter=No
+6	USER	user	NOUN	NN	Number=Sing	5	_	_	start_char=154|end_char=158|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=158|end_char=159|SpaceAfter=No
+

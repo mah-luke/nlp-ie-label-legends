@@ -1,0 +1,29 @@
+# text = What?
+# sent_id = 86469
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = I can't tell if your comment is for the young man in this video or the young lady.
+# sent_id = 86470
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=6|end_char=7
+2-3	can't	_	_	_	_	_	_	_	start_char=8|end_char=13
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=8|end_char=10
+3	n't	not	PART	RB	_	2	_	_	start_char=10|end_char=13
+4	tell	tell	VERB	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=18
+5	if	if	SCONJ	IN	_	4	_	_	start_char=19|end_char=21
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=22|end_char=26
+7	comment	comment	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=34
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=35|end_char=37
+9	for	for	ADP	IN	_	8	_	_	start_char=38|end_char=41
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=42|end_char=45
+11	young	young	ADJ	JJ	Degree=Pos	10	_	_	start_char=46|end_char=51
+12	man	man	NOUN	NN	Number=Sing	11	_	_	start_char=52|end_char=55
+13	in	in	ADP	IN	_	12	_	_	start_char=56|end_char=58
+14	this	this	DET	DT	Number=Sing|PronType=Dem	13	_	_	start_char=59|end_char=63
+15	video	video	NOUN	NN	Number=Sing	14	_	_	start_char=64|end_char=69
+16	or	or	CCONJ	CC	_	15	_	_	start_char=70|end_char=72
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=73|end_char=76
+18	young	young	ADJ	JJ	Degree=Pos	17	_	_	start_char=77|end_char=82
+19	lady	lady	NOUN	NN	Number=Sing	18	_	_	start_char=83|end_char=87|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=87|end_char=88|SpaceAfter=No
+

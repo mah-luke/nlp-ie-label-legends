@@ -1,0 +1,63 @@
+# text = My wife was moaning at me, saying I never take her out anywhere.
+# sent_id = 11187
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=7
+3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=8|end_char=11
+4	moaning	moan	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=12|end_char=19
+5	at	at	ADP	IN	_	4	_	_	start_char=20|end_char=22
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=23|end_char=25|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=25|end_char=26
+8	saying	say	VERB	VBG	VerbForm=Ger	7	_	_	start_char=27|end_char=33
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=34|end_char=35
+10	never	never	ADV	RB	_	9	_	_	start_char=36|end_char=41
+11	take	take	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=42|end_char=46
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=47|end_char=50
+13	out	out	ADP	RP	_	12	_	_	start_char=51|end_char=54
+14	anywhere	anywhere	ADV	RB	_	13	_	_	start_char=55|end_char=63|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=63|end_char=64
+
+# text = I said " I only took you out just last week for tea and biscuits, don't be so ungrateful"
+# sent_id = 11188
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=65|end_char=66
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=67|end_char=71
+3	"	"	PUNCT	``	_	2	_	_	start_char=72|end_char=73
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=74|end_char=75
+5	only	only	ADV	RB	_	4	_	_	start_char=76|end_char=80
+6	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=81|end_char=85
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=86|end_char=89
+8	out	out	ADP	RP	_	7	_	_	start_char=90|end_char=93
+9	just	just	ADV	RB	_	8	_	_	start_char=94|end_char=98
+10	last	last	ADJ	JJ	Degree=Pos	9	_	_	start_char=99|end_char=103
+11	week	week	NOUN	NN	Number=Sing	10	_	_	start_char=104|end_char=108
+12	for	for	ADP	IN	_	11	_	_	start_char=109|end_char=112
+13	tea	tea	NOUN	NN	Number=Sing	12	_	_	start_char=113|end_char=116
+14	and	and	CCONJ	CC	_	13	_	_	start_char=117|end_char=120
+15	biscuits	biscuit	NOUN	NNS	Number=Plur	14	_	_	start_char=121|end_char=129|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=129|end_char=130
+17-18	don't	_	_	_	_	_	_	_	start_char=131|end_char=136
+17	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	16	_	_	start_char=131|end_char=133
+18	n't	not	PART	RB	_	17	_	_	start_char=133|end_char=136
+19	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	18	_	_	start_char=137|end_char=139
+20	so	so	ADV	RB	_	19	_	_	start_char=140|end_char=142
+21	ungrateful	ungrateful	ADJ	JJ	Degree=Pos	20	_	_	start_char=143|end_char=153|SpaceAfter=No
+22	"	"	PUNCT	''	_	21	_	_	start_char=153|end_char=154
+
+# text = She said " Yes I know, it cost me a pint of blood you bastard
+# sent_id = 11189
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=155|end_char=158
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=159|end_char=163
+3	"	"	PUNCT	``	_	2	_	_	start_char=164|end_char=165
+4	Yes	yes	INTJ	UH	_	3	_	_	start_char=166|end_char=169
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=170|end_char=171
+6	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=172|end_char=176|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=176|end_char=177
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=178|end_char=180
+9	cost	cost	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=181|end_char=185
+10	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=186|end_char=188
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=189|end_char=190
+12	pint	pint	NOUN	NN	Number=Sing	11	_	_	start_char=191|end_char=195
+13	of	of	ADP	IN	_	12	_	_	start_char=196|end_char=198
+14	blood	blood	NOUN	NN	Number=Sing	13	_	_	start_char=199|end_char=204
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	_	_	start_char=205|end_char=208
+16	bastard	bastard	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	_	_	start_char=209|end_char=216|SpaceAfter=No
+

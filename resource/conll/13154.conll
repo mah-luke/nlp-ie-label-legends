@@ -1,0 +1,50 @@
+# text = [USER]
+# sent_id = 27934
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Exactly!
+# sent_id = 27935
+1	Exactly	exactly	ADV	RB	_	0	_	_	start_char=7|end_char=14|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=14|end_char=15
+
+# text = LOL
+# sent_id = 27936
+1	LOL	lol	INTJ	UH	_	0	_	_	start_char=16|end_char=19
+
+# text = I can't believe we are discussing his few "gropees" and Crooked Hillary has done what she has!
+# sent_id = 27937
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=20|end_char=21
+2-3	can't	_	_	_	_	_	_	_	start_char=22|end_char=27
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=22|end_char=24
+3	n't	not	PART	RB	_	2	_	_	start_char=24|end_char=27
+4	believe	believe	VERB	VB	VerbForm=Inf	3	_	_	start_char=28|end_char=35
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=36|end_char=38
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=39|end_char=42
+7	discussing	discuss	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=43|end_char=53
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=54|end_char=57
+9	few	few	ADJ	JJ	Degree=Pos	8	_	_	start_char=58|end_char=61
+10	"	"	PUNCT	``	_	9	_	_	start_char=62|end_char=63|SpaceAfter=No
+11	gropees	gropee	NOUN	NNS	Number=Plur	10	_	_	start_char=63|end_char=70|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=70|end_char=71
+13	and	and	CCONJ	CC	_	12	_	_	start_char=72|end_char=75
+14	Crooked	Crooked	PROPN	NNP	Number=Sing	13	_	_	start_char=76|end_char=83
+15	Hillary	Hillary	PROPN	NNP	Number=Sing	14	_	_	start_char=84|end_char=91
+16	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=92|end_char=95
+17	done	do	VERB	VBN	Tense=Past|VerbForm=Part	16	_	_	start_char=96|end_char=100
+18	what	what	PRON	WP	PronType=Rel	17	_	_	start_char=101|end_char=105
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=106|end_char=109
+20	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=110|end_char=113|SpaceAfter=No
+21	!	!	PUNCT	.	_	20	_	_	start_char=113|end_char=114
+
+# text = SMH but trying to laugh. 😁
+# sent_id = 27938
+1	SMH	SMH	PROPN	NNP	Number=Sing	0	_	_	start_char=115|end_char=118
+2	but	but	CCONJ	CC	_	1	_	_	start_char=119|end_char=122
+3	trying	try	VERB	VBG	VerbForm=Ger	2	_	_	start_char=123|end_char=129
+4	to	to	PART	TO	_	3	_	_	start_char=130|end_char=132
+5	laugh	laugh	VERB	VB	VerbForm=Inf	4	_	_	start_char=133|end_char=138|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=138|end_char=139
+7	😁	😁	PUNCT	NFP	_	6	_	_	start_char=140|end_char=141|SpaceAfter=No
+

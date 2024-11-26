@@ -1,0 +1,60 @@
+# text = [USER]
+# sent_id = 16908
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = I hope they get robbed at gunpoint and pistol whipped because police won't touch their neighborhoods.
+# sent_id = 16909
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=13
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=14|end_char=18
+4	get	get	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=19|end_char=22
+5	robbed	rob	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=23|end_char=29
+6	at	at	ADP	IN	_	5	_	_	start_char=30|end_char=32
+7	gunpoint	gunpoint	NOUN	NN	Number=Sing	6	_	_	start_char=33|end_char=41
+8	and	and	CCONJ	CC	_	7	_	_	start_char=42|end_char=45
+9	pistol	pistol	NOUN	NN	Number=Sing	8	_	_	start_char=46|end_char=52
+10	whipped	whip	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=53|end_char=60
+11	because	because	SCONJ	IN	_	10	_	_	start_char=61|end_char=68
+12	police	police	NOUN	NNS	Number=Plur	11	_	_	start_char=69|end_char=75
+13-14	won't	_	_	_	_	_	_	_	start_char=76|end_char=81
+13	wo	will	AUX	MD	VerbForm=Fin	12	_	_	start_char=76|end_char=78
+14	n't	not	PART	RB	_	13	_	_	start_char=78|end_char=81
+15	touch	touch	VERB	VB	VerbForm=Inf	14	_	_	start_char=82|end_char=87
+16	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=88|end_char=93
+17	neighborhoods	neighborhood	NOUN	NNS	Number=Plur	16	_	_	start_char=94|end_char=107|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=107|end_char=108
+
+# text = Those fuckers get what they deserve, Karma is a bitch and I HOPE she's ragging big time when she gets around to visiting these Motherfuckers.
+# sent_id = 16910
+1	Those	that	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=109|end_char=114
+2	fuckers	fucker	NOUN	NNS	Number=Plur	1	_	_	start_char=115|end_char=122
+3	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=123|end_char=126
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=127|end_char=131
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=132|end_char=136
+6	deserve	deserve	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=137|end_char=144|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=144|end_char=145
+8	Karma	Karma	PROPN	NNP	Number=Sing	7	_	_	start_char=146|end_char=151
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=152|end_char=154
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=155|end_char=156
+11	bitch	bitch	NOUN	NN	Number=Sing	10	_	_	start_char=157|end_char=162
+12	and	and	CCONJ	CC	_	11	_	_	start_char=163|end_char=166
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=167|end_char=168
+14	HOPE	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=169|end_char=173
+15-16	she's	_	_	_	_	_	_	_	start_char=174|end_char=179
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=174|end_char=177
+16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=177|end_char=179
+17	ragging	rag	VERB	VBG	Tense=Pres|VerbForm=Part	16	_	_	start_char=180|end_char=187
+18	big	big	ADJ	JJ	Degree=Pos	17	_	_	start_char=188|end_char=191
+19	time	time	NOUN	NN	Number=Sing	18	_	_	start_char=192|end_char=196
+20	when	when	ADV	WRB	PronType=Int	19	_	_	start_char=197|end_char=201
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=202|end_char=205
+22	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=206|end_char=210
+23	around	around	ADV	RB	_	22	_	_	start_char=211|end_char=217
+24	to	to	SCONJ	IN	_	23	_	_	start_char=218|end_char=220
+25	visiting	visit	VERB	VBG	VerbForm=Ger	24	_	_	start_char=221|end_char=229
+26	these	this	DET	DT	Number=Plur|PronType=Dem	25	_	_	start_char=230|end_char=235
+27	Motherfuckers	Motherfuckers	PROPN	NNPS	Number=Plur	26	_	_	start_char=236|end_char=249|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=249|end_char=250|SpaceAfter=No
+

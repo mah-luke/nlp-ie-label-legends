@@ -1,0 +1,71 @@
+# text = According to Hillary, there was no sexual harassment of Monika Lewinsky because “she was an adult.”
+# sent_id = 48652
+1	According	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	0	_	_	start_char=0|end_char=9
+2	to	to	ADP	IN	_	1	_	_	start_char=10|end_char=12
+3	Hillary	Hillary	PROPN	NNP	Number=Sing	2	_	_	start_char=13|end_char=20|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=20|end_char=21
+5	there	there	PRON	EX	_	4	_	_	start_char=22|end_char=27
+6	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=28|end_char=31
+7	no	no	DET	DT	_	6	_	_	start_char=32|end_char=34
+8	sexual	sexual	ADJ	JJ	Degree=Pos	7	_	_	start_char=35|end_char=41
+9	harassment	harassment	NOUN	NN	Number=Sing	8	_	_	start_char=42|end_char=52
+10	of	of	ADP	IN	_	9	_	_	start_char=53|end_char=55
+11	Monika	Monika	PROPN	NNP	Number=Sing	10	_	_	start_char=56|end_char=62
+12	Lewinsky	Lewinsky	PROPN	NNP	Number=Sing	11	_	_	start_char=63|end_char=71
+13	because	because	SCONJ	IN	_	12	_	_	start_char=72|end_char=79
+14	“	''	PUNCT	``	_	13	_	_	start_char=80|end_char=81|SpaceAfter=No
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=81|end_char=84
+16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=85|end_char=88
+17	an	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=89|end_char=91
+18	adult	adult	NOUN	NN	Number=Sing	17	_	_	start_char=92|end_char=97|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=97|end_char=98|SpaceAfter=No
+20	”	''	PUNCT	''	_	19	_	_	start_char=98|end_char=99
+
+# text = Hillary doesn’t know much about the law.
+# sent_id = 48653
+1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=100|end_char=107
+2-3	doesn’t	_	_	_	_	_	_	_	start_char=108|end_char=115
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=108|end_char=112
+3	n’t	not	PART	RB	_	2	_	_	start_char=112|end_char=115
+4	know	know	VERB	VB	VerbForm=Inf	3	_	_	start_char=116|end_char=120
+5	much	much	ADJ	JJ	Degree=Pos	4	_	_	start_char=121|end_char=125
+6	about	about	ADP	IN	_	5	_	_	start_char=126|end_char=131
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=132|end_char=135
+8	law	law	NOUN	NN	Number=Sing	7	_	_	start_char=136|end_char=139|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=139|end_char=140
+
+# text = Oh wait...yes she does cuz she’s a master at Breaking them!
+# sent_id = 48654
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=141|end_char=143
+2	wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=144|end_char=148|SpaceAfter=No
+3	...	...	PUNCT	,	_	2	_	_	start_char=148|end_char=151|SpaceAfter=No
+4	yes	yes	INTJ	UH	_	3	_	_	start_char=151|end_char=154
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=155|end_char=158
+6	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=159|end_char=163
+7	cuz	cuz	ADV	RB	_	6	_	_	start_char=164|end_char=167
+8-9	she’s	_	_	_	_	_	_	_	start_char=168|end_char=173
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=168|end_char=171
+9	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=171|end_char=173
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=174|end_char=175
+11	master	master	NOUN	NN	Number=Sing	10	_	_	start_char=176|end_char=182
+12	at	at	SCONJ	IN	_	11	_	_	start_char=183|end_char=185
+13	Breaking	break	VERB	VBG	VerbForm=Ger	12	_	_	start_char=186|end_char=194
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=195|end_char=199|SpaceAfter=No
+15	!	!	PUNCT	.	_	14	_	_	start_char=199|end_char=200
+
+# text = Thank you, Jesus, “She Is Not My president!”
+# sent_id = 48655
+1	Thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	start_char=201|end_char=206
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	start_char=207|end_char=210|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=210|end_char=211
+4	Jesus	Jesus	PROPN	NNP	Number=Sing	3	_	_	start_char=212|end_char=217|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=217|end_char=218
+6	“	''	PUNCT	``	_	5	_	_	start_char=219|end_char=220|SpaceAfter=No
+7	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=220|end_char=223
+8	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=224|end_char=226
+9	Not	not	PART	RB	_	8	_	_	start_char=227|end_char=230
+10	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=231|end_char=233
+11	president	president	NOUN	NN	Number=Sing	10	_	_	start_char=234|end_char=243|SpaceAfter=No
+12	!	!	PUNCT	.	_	11	_	_	start_char=243|end_char=244|SpaceAfter=No
+13	”	''	PUNCT	''	_	12	_	_	start_char=244|end_char=245|SpaceAfter=No
+

@@ -1,0 +1,51 @@
+# text = What's really funny is that he thinks this some kind of punishment for the women.
+# sent_id = 84951
+1-2	What's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	really	really	ADV	RB	_	2	_	_	start_char=7|end_char=13
+4	funny	funny	ADJ	JJ	Degree=Pos	3	_	_	start_char=14|end_char=19
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=20|end_char=22
+6	that	that	SCONJ	IN	_	5	_	_	start_char=23|end_char=27
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=28|end_char=30
+8	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=31|end_char=37
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=38|end_char=42
+10	some	some	DET	DT	_	9	_	_	start_char=43|end_char=47
+11	kind	kind	NOUN	NN	Number=Sing	10	_	_	start_char=48|end_char=52
+12	of	of	ADP	IN	_	11	_	_	start_char=53|end_char=55
+13	punishment	punishment	NOUN	NN	Number=Sing	12	_	_	start_char=56|end_char=66
+14	for	for	ADP	IN	_	13	_	_	start_char=67|end_char=70
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=71|end_char=74
+16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=75|end_char=80|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=80|end_char=81
+
+# text = Yeah, dude, the women who won't go out with you are going to be upset that you're no longer asking.
+# sent_id = 84952
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=82|end_char=86|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=86|end_char=87
+3	dude	dude	INTJ	UH	_	2	_	_	start_char=88|end_char=92|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=92|end_char=93
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=94|end_char=97
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=98|end_char=103
+7	who	who	PRON	WP	PronType=Rel	6	_	_	start_char=104|end_char=107
+8-9	won't	_	_	_	_	_	_	_	start_char=108|end_char=113
+8	wo	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=108|end_char=110
+9	n't	not	PART	RB	_	8	_	_	start_char=110|end_char=113
+10	go	go	VERB	VB	VerbForm=Inf	9	_	_	start_char=114|end_char=116
+11	out	out	ADV	RB	_	10	_	_	start_char=117|end_char=120
+12	with	with	ADP	IN	_	11	_	_	start_char=121|end_char=125
+13	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	12	_	_	start_char=126|end_char=129
+14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=130|end_char=133
+15	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	14	_	_	start_char=134|end_char=139
+16	to	to	PART	TO	_	15	_	_	start_char=140|end_char=142
+17	be	be	AUX	VB	VerbForm=Inf	16	_	_	start_char=143|end_char=145
+18	upset	upset	ADJ	JJ	Degree=Pos	17	_	_	start_char=146|end_char=151
+19	that	that	SCONJ	IN	_	18	_	_	start_char=152|end_char=156
+20-21	you're	_	_	_	_	_	_	_	start_char=157|end_char=163
+20	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	19	_	_	start_char=157|end_char=160
+21	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	20	_	_	start_char=160|end_char=163
+22	no	no	ADV	RB	_	21	_	_	start_char=164|end_char=166
+23	longer	long	ADV	RBR	Degree=Cmp	22	_	_	start_char=167|end_char=173
+24	asking	ask	VERB	VBG	VerbForm=Ger	23	_	_	start_char=174|end_char=180|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=180|end_char=181|SpaceAfter=No
+

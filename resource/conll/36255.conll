@@ -1,0 +1,31 @@
+# text = Fake Pope Francis defended a pedophile and attacked child abuse victims when he was Archbishop of Buenos Aires.
+# sent_id = 77526
+1	Fake	Fake	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	Pope	Pope	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=9
+3	Francis	Francis	PROPN	NNP	Number=Sing	2	_	_	start_char=10|end_char=17
+4	defended	defend	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=18|end_char=26
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=27|end_char=28
+6	pedophile	pedophile	NOUN	NN	Number=Sing	5	_	_	start_char=29|end_char=38
+7	and	and	CCONJ	CC	_	6	_	_	start_char=39|end_char=42
+8	attacked	attack	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=43|end_char=51
+9	child	child	NOUN	NN	Number=Sing	8	_	_	start_char=52|end_char=57
+10	abuse	abuse	NOUN	NN	Number=Sing	9	_	_	start_char=58|end_char=63
+11	victims	victim	NOUN	NNS	Number=Plur	10	_	_	start_char=64|end_char=71
+12	when	when	ADV	WRB	PronType=Int	11	_	_	start_char=72|end_char=76
+13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=77|end_char=79
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=80|end_char=83
+15	Archbishop	archbishop	PROPN	NNP	Number=Sing	14	_	_	start_char=84|end_char=94
+16	of	of	ADP	IN	_	15	_	_	start_char=95|end_char=97
+17	Buenos	Buenos	PROPN	NNP	Number=Sing	16	_	_	start_char=98|end_char=104
+18	Aires	Aires	PROPN	NNP	Number=Sing	17	_	_	start_char=105|end_char=110|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=110|end_char=111
+
+# text = [URL] Resign scumbag.
+# sent_id = 77527
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=112|end_char=113|SpaceAfter=No
+2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=113|end_char=116|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=116|end_char=117
+4	Resign	resign	NOUN	NN	Number=Sing	3	_	_	start_char=118|end_char=124
+5	scumbag	scumbag	NOUN	NN	Number=Sing	4	_	_	start_char=125|end_char=132|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=132|end_char=133|SpaceAfter=No
+

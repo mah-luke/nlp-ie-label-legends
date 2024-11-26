@@ -1,0 +1,59 @@
+# text = Tune in this evening 7pm CST/8pm EST.
+# sent_id = 22590
+1	Tune	tune	VERB	VB	Mood=Imp|VerbForm=Inf	0	_	_	start_char=0|end_char=4
+2	in	in	ADP	IN	_	1	_	_	start_char=5|end_char=7
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=8|end_char=12
+4	evening	evening	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=20
+5	7	7	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=21|end_char=22|SpaceAfter=No
+6	pm	p.m.	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=24
+7	CST	CST	PROPN	NNP	Number=Sing	6	_	_	start_char=25|end_char=28|SpaceAfter=No
+8	/	/	SYM	SYM	_	7	_	_	start_char=28|end_char=29|SpaceAfter=No
+9	8	8	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=29|end_char=30|SpaceAfter=No
+10	pm	p.m.	NOUN	NN	Number=Sing	9	_	_	start_char=30|end_char=32
+11	EST	EST	PROPN	NNP	Number=Sing	10	_	_	start_char=33|end_char=36|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=36|end_char=37
+
+# text = You are in for a yuge treat with a team of rising stars of conservative media.
+# sent_id = 22591
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=38|end_char=41
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=45
+3	in	in	ADV	RB	_	2	_	_	start_char=46|end_char=48
+4	for	for	ADP	IN	_	3	_	_	start_char=49|end_char=52
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=53|end_char=54
+6	yuge	yuge	NOUN	NN	Number=Sing	5	_	_	start_char=55|end_char=59
+7	treat	treat	NOUN	NN	Number=Sing	6	_	_	start_char=60|end_char=65
+8	with	with	ADP	IN	_	7	_	_	start_char=66|end_char=70
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=71|end_char=72
+10	team	team	NOUN	NN	Number=Sing	9	_	_	start_char=73|end_char=77
+11	of	of	ADP	IN	_	10	_	_	start_char=78|end_char=80
+12	rising	rise	VERB	VBG	VerbForm=Ger	11	_	_	start_char=81|end_char=87
+13	stars	star	NOUN	NNS	Number=Plur	12	_	_	start_char=88|end_char=93
+14	of	of	ADP	IN	_	13	_	_	start_char=94|end_char=96
+15	conservative	conservative	ADJ	JJ	Degree=Pos	14	_	_	start_char=97|end_char=109
+16	media	media	NOUN	NN	Number=Sing	15	_	_	start_char=110|end_char=115|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=115|end_char=116
+
+# text = These guys and gals need our support to get Trump's message out!
+# sent_id = 22592
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=117|end_char=122
+2	guys	guy	NOUN	NNS	Number=Plur	1	_	_	start_char=123|end_char=127
+3	and	and	CCONJ	CC	_	2	_	_	start_char=128|end_char=131
+4	gals	gal	NOUN	NNS	Number=Plur	3	_	_	start_char=132|end_char=136
+5	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=137|end_char=141
+6	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=142|end_char=145
+7	support	support	NOUN	NN	Number=Sing	6	_	_	start_char=146|end_char=153
+8	to	to	PART	TO	_	7	_	_	start_char=154|end_char=156
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=157|end_char=160
+10-11	Trump's	_	_	_	_	_	_	_	start_char=161|end_char=168
+10	Trump	Trump	PROPN	NNP	Number=Sing	9	_	_	start_char=161|end_char=166
+11	's	's	PART	POS	_	10	_	_	start_char=166|end_char=168
+12	message	message	NOUN	NN	Number=Sing	11	_	_	start_char=169|end_char=176
+13	out	out	ADP	RP	_	12	_	_	start_char=177|end_char=180|SpaceAfter=No
+14	!	!	PUNCT	.	_	13	_	_	start_char=180|end_char=181
+
+# text = [URL]
+# sent_id = 22593
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=182|end_char=183|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=183|end_char=186|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=186|end_char=187|SpaceAfter=No
+

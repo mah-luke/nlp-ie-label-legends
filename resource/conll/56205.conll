@@ -1,0 +1,26 @@
+# text = she is a client....for now.....
+# sent_id = 120174
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=8
+4	client	client	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=15|SpaceAfter=No
+5	....	....	PUNCT	,	_	4	_	_	start_char=15|end_char=19|SpaceAfter=No
+6	for	for	ADP	IN	_	5	_	_	start_char=19|end_char=22
+7	now	now	ADV	RB	_	6	_	_	start_char=23|end_char=26|SpaceAfter=No
+8	.....	.....	PUNCT	.	_	7	_	_	start_char=26|end_char=31
+
+# text = I just sent some of my Jew clients this [URL]
+# sent_id = 120175
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=32|end_char=33
+2	just	just	ADV	RB	_	1	_	_	start_char=34|end_char=38
+3	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=39|end_char=43
+4	some	some	DET	DT	_	3	_	_	start_char=44|end_char=48
+5	of	of	ADP	IN	_	4	_	_	start_char=49|end_char=51
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=52|end_char=54
+7	Jew	Jew	NOUN	NN	Number=Sing	6	_	_	start_char=55|end_char=58
+8	clients	client	NOUN	NNS	Number=Plur	7	_	_	start_char=59|end_char=66
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=67|end_char=71
+10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=72|end_char=73|SpaceAfter=No
+11	URL	URL	PROPN	NNP	Number=Sing	10	_	_	start_char=73|end_char=76|SpaceAfter=No
+12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=76|end_char=77|SpaceAfter=No
+

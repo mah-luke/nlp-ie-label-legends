@@ -1,0 +1,49 @@
+# text = No, I'm black actually.
+# sent_id = 98379
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3-4	I'm	_	_	_	_	_	_	_	start_char=4|end_char=7
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=4|end_char=5
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=5|end_char=7
+5	black	black	ADJ	JJ	Degree=Pos	4	_	_	start_char=8|end_char=13
+6	actually	actually	ADV	RB	_	5	_	_	start_char=14|end_char=22|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=22|end_char=23
+
+# text = Go ahead, check my post history to confirm it lol Classic incel tears.
+# sent_id = 98380
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=24|end_char=26
+2	ahead	ahead	ADV	RB	_	1	_	_	start_char=27|end_char=32|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=32|end_char=33
+4	check	check	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=34|end_char=39
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=40|end_char=42
+6	post	post	NOUN	NN	Number=Sing	5	_	_	start_char=43|end_char=47
+7	history	history	NOUN	NN	Number=Sing	6	_	_	start_char=48|end_char=55
+8	to	to	PART	TO	_	7	_	_	start_char=56|end_char=58
+9	confirm	confirm	VERB	VB	VerbForm=Inf	8	_	_	start_char=59|end_char=66
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=67|end_char=69
+11	lol	lol	INTJ	UH	_	10	_	_	start_char=70|end_char=73
+12	Classic	classic	NOUN	NN	Number=Sing	11	_	_	start_char=74|end_char=81
+13	incel	incel	NOUN	NN	Number=Sing	12	_	_	start_char=82|end_char=87
+14	tears	tear	NOUN	NNS	Number=Plur	13	_	_	start_char=88|end_char=93|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=93|end_char=94
+
+# text = Most incels aren't white, white is a *desirable* trait for women.
+# sent_id = 98381
+1	Most	most	ADJ	JJS	Degree=Sup	0	_	_	start_char=95|end_char=99
+2	incels	incel	NOUN	NNS	Number=Plur	1	_	_	start_char=100|end_char=106
+3-4	aren't	_	_	_	_	_	_	_	start_char=107|end_char=113
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=107|end_char=110
+4	n't	not	PART	RB	_	3	_	_	start_char=110|end_char=113
+5	white	white	ADJ	JJ	Degree=Pos	4	_	_	start_char=114|end_char=119|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=119|end_char=120
+7	white	white	ADJ	JJ	Degree=Pos	6	_	_	start_char=121|end_char=126
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=127|end_char=129
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=130|end_char=131
+10	*	*	PUNCT	NFP	_	9	_	_	start_char=132|end_char=133|SpaceAfter=No
+11	desirable	desirable	ADJ	JJ	Degree=Pos	10	_	_	start_char=133|end_char=142|SpaceAfter=No
+12	*	*	PUNCT	NFP	_	11	_	_	start_char=142|end_char=143
+13	trait	trait	NOUN	NN	Number=Sing	12	_	_	start_char=144|end_char=149
+14	for	for	ADP	IN	_	13	_	_	start_char=150|end_char=153
+15	women	woman	NOUN	NNS	Number=Plur	14	_	_	start_char=154|end_char=159|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=159|end_char=160|SpaceAfter=No
+

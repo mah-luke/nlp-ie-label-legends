@@ -1,0 +1,56 @@
+# text = So (((Hagee followers))) and other (((fake Christians))) like him who blame Romans for killing Jesus.
+# sent_id = 7704
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	(	(	PUNCT	-LRB-	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
+3	(	(	PUNCT	-LRB-	_	2	_	_	start_char=4|end_char=5|SpaceAfter=No
+4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=5|end_char=6|SpaceAfter=No
+5	Hagee	Hagee	PROPN	NNP	Number=Sing	4	_	_	start_char=6|end_char=11
+6	followers	follower	NOUN	NNS	Number=Plur	5	_	_	start_char=12|end_char=21|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=21|end_char=22|SpaceAfter=No
+8	)	)	PUNCT	-RRB-	_	7	_	_	start_char=22|end_char=23|SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	8	_	_	start_char=23|end_char=24
+10	and	and	CCONJ	CC	_	9	_	_	start_char=25|end_char=28
+11	other	other	ADJ	JJ	Degree=Pos	10	_	_	start_char=29|end_char=34
+12	(	(	PUNCT	-LRB-	_	11	_	_	start_char=35|end_char=36|SpaceAfter=No
+13	(	(	PUNCT	-LRB-	_	12	_	_	start_char=36|end_char=37|SpaceAfter=No
+14	(	(	PUNCT	-LRB-	_	13	_	_	start_char=37|end_char=38|SpaceAfter=No
+15	fake	fake	ADJ	NNP	Degree=Pos	14	_	_	start_char=38|end_char=42
+16	Christians	Christian	PROPN	NNPS	Number=Plur	15	_	_	start_char=43|end_char=53|SpaceAfter=No
+17	)	)	PUNCT	-RRB-	_	16	_	_	start_char=53|end_char=54|SpaceAfter=No
+18	)	)	PUNCT	-RRB-	_	17	_	_	start_char=54|end_char=55|SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	18	_	_	start_char=55|end_char=56
+20	like	like	ADP	IN	_	19	_	_	start_char=57|end_char=61
+21	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=62|end_char=65
+22	who	who	PRON	WP	PronType=Rel	21	_	_	start_char=66|end_char=69
+23	blame	blame	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=70|end_char=75
+24	Romans	Romans	PROPN	NNPS	Number=Plur	23	_	_	start_char=76|end_char=82
+25	for	for	SCONJ	IN	_	24	_	_	start_char=83|end_char=86
+26	killing	kill	VERB	VBG	VerbForm=Ger	25	_	_	start_char=87|end_char=94
+27	Jesus	Jesus	PROPN	NNP	Number=Sing	26	_	_	start_char=95|end_char=100|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=100|end_char=101
+
+# text = Can you explain this based on the bible?
+# sent_id = 7705
+1	Can	can	AUX	MD	VerbForm=Fin	0	_	_	start_char=102|end_char=105
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=106|end_char=109
+3	explain	explain	VERB	VB	VerbForm=Inf	2	_	_	start_char=110|end_char=117
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=118|end_char=122
+5	based	base	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=123|end_char=128
+6	on	on	ADP	IN	_	5	_	_	start_char=129|end_char=131
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=132|end_char=135
+8	bible	bible	NOUN	NN	Number=Sing	7	_	_	start_char=136|end_char=141|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=141|end_char=142
+
+# text = Matthew 27:24 Pontius Pilate Washes His Hands [URL]
+# sent_id = 7706
+1	Matthew	Matthew	PROPN	NNP	Number=Sing	0	_	_	start_char=143|end_char=150
+2	27:24	27:24	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=151|end_char=156
+3	Pontius	Pontius	PROPN	NNP	Number=Sing	2	_	_	start_char=157|end_char=164
+4	Pilate	Pilate	PROPN	NNP	Number=Sing	3	_	_	start_char=165|end_char=171
+5	Washes	Washes	PROPN	NNPS	Number=Plur	4	_	_	start_char=172|end_char=178
+6	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=179|end_char=182
+7	Hands	hand	NOUN	NNS	Number=Plur	6	_	_	start_char=183|end_char=188
+8	[	[	PUNCT	-LRB-	_	7	_	_	start_char=189|end_char=190|SpaceAfter=No
+9	URL	URL	PROPN	NNP	Number=Sing	8	_	_	start_char=190|end_char=193|SpaceAfter=No
+10	]	]	PUNCT	-RRB-	_	9	_	_	start_char=193|end_char=194|SpaceAfter=No
+

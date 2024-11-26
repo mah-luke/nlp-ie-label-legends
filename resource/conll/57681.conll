@@ -1,0 +1,62 @@
+# text = So liberal femi-nazi's are also witches.
+# sent_id = 123228
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	liberal	liberal	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=10
+3-4	femi-nazi's	_	_	_	_	_	_	_	start_char=11|end_char=22
+3	femi-nazi	femi-nazi	PROPN	NNP	Number=Sing	2	_	_	start_char=11|end_char=20
+4	's	's	PART	POS	_	3	_	_	start_char=20|end_char=22
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=23|end_char=26
+6	also	also	ADV	RB	_	5	_	_	start_char=27|end_char=31
+7	witches	witch	NOUN	NNS	Number=Plur	6	_	_	start_char=32|end_char=39|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=39|end_char=40
+
+# text = Gee, any surprise there?
+# sent_id = 123229
+1	Gee	gee	INTJ	UH	_	0	_	_	start_char=41|end_char=44|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=44|end_char=45
+3	any	any	DET	DT	_	2	_	_	start_char=46|end_char=49
+4	surprise	surprise	NOUN	NN	Number=Sing	3	_	_	start_char=50|end_char=58
+5	there	there	ADV	RB	PronType=Dem	4	_	_	start_char=59|end_char=64|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=64|end_char=65
+
+# text = Too bad this isn't against the law so the feds could gather them up and rid us of this insanity.
+# sent_id = 123230
+1	Too	too	ADV	RB	_	0	_	_	start_char=66|end_char=69
+2	bad	bad	ADJ	JJ	Degree=Pos	1	_	_	start_char=70|end_char=73
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=74|end_char=78
+4-5	isn't	_	_	_	_	_	_	_	start_char=79|end_char=84
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=79|end_char=81
+5	n't	not	PART	RB	_	4	_	_	start_char=81|end_char=84
+6	against	against	ADP	IN	_	5	_	_	start_char=85|end_char=92
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=93|end_char=96
+8	law	law	NOUN	NN	Number=Sing	7	_	_	start_char=97|end_char=100
+9	so	so	SCONJ	IN	_	8	_	_	start_char=101|end_char=103
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=104|end_char=107
+11	feds	fed	NOUN	NNS	Number=Plur	10	_	_	start_char=108|end_char=112
+12	could	could	AUX	MD	VerbForm=Fin	11	_	_	start_char=113|end_char=118
+13	gather	gather	VERB	VB	VerbForm=Inf	12	_	_	start_char=119|end_char=125
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=126|end_char=130
+15	up	up	ADP	RP	_	14	_	_	start_char=131|end_char=133
+16	and	and	CCONJ	CC	_	15	_	_	start_char=134|end_char=137
+17	rid	rid	VERB	VB	VerbForm=Inf	16	_	_	start_char=138|end_char=141
+18	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	17	_	_	start_char=142|end_char=144
+19	of	of	ADP	IN	_	18	_	_	start_char=145|end_char=147
+20	this	this	DET	DT	Number=Sing|PronType=Dem	19	_	_	start_char=148|end_char=152
+21	insanity	insanity	NOUN	NN	Number=Sing	20	_	_	start_char=153|end_char=161|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=161|end_char=162
+
+# text = People like this walk among us - that's scary!
+# sent_id = 123231
+1	People	person	NOUN	NNS	Number=Plur	0	_	_	start_char=163|end_char=169
+2	like	like	ADP	IN	_	1	_	_	start_char=170|end_char=174
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=175|end_char=179
+4	walk	walk	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=180|end_char=184
+5	among	among	ADP	IN	_	4	_	_	start_char=185|end_char=190
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=191|end_char=193
+7	-	-	PUNCT	,	_	6	_	_	start_char=194|end_char=195
+8-9	that's	_	_	_	_	_	_	_	start_char=196|end_char=202
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=196|end_char=200
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=200|end_char=202
+10	scary	scary	ADJ	JJ	Degree=Pos	9	_	_	start_char=203|end_char=208|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=208|end_char=209|SpaceAfter=No
+

@@ -1,0 +1,29 @@
+# text = Jackie Kennedy > Marlyn Monroe.
+# sent_id = 77934
+1	Jackie	Jackie	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	Kennedy	Kennedy	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=14
+3	>	>	PUNCT	-RRB-	_	2	_	_	start_char=15|end_char=16
+4	Marlyn	Marlyn	PROPN	NNP	Number=Sing	3	_	_	start_char=17|end_char=23
+5	Monroe	Monroe	PROPN	NNP	Number=Sing	4	_	_	start_char=24|end_char=30|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=30|end_char=31
+
+# text = Style and finesse trumps blonde bombshells any day of the week.
+# sent_id = 77935
+1	Style	style	NOUN	NN	Number=Sing	0	_	_	start_char=32|end_char=37
+2	and	and	CCONJ	CC	_	1	_	_	start_char=38|end_char=41
+3	finesse	finesse	NOUN	NN	Number=Sing	2	_	_	start_char=42|end_char=49
+4	trumps	trump	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=50|end_char=56
+5	blonde	blonde	NOUN	NN	Number=Sing	4	_	_	start_char=57|end_char=63
+6	bombshells	bombshell	NOUN	NNS	Number=Plur	5	_	_	start_char=64|end_char=74
+7	any	any	DET	DT	_	6	_	_	start_char=75|end_char=78
+8	day	day	NOUN	NN	Number=Sing	7	_	_	start_char=79|end_char=82
+9	of	of	ADP	IN	_	8	_	_	start_char=83|end_char=85
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=86|end_char=89
+11	week	week	NOUN	NN	Number=Sing	10	_	_	start_char=90|end_char=94|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=94|end_char=95
+
+# text = #SpeakFreely
+# sent_id = 77936
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=96|end_char=97|SpaceAfter=No
+2	SpeakFreely	SpeakFreely	NOUN	NN	Number=Sing	1	_	_	start_char=97|end_char=108|SpaceAfter=No
+

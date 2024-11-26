@@ -1,0 +1,56 @@
+# text = Oh!
+# sent_id = 37953
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=2|end_char=3
+
+# text = I'm a woman.
+# sent_id = 37954
+1-2	I'm	_	_	_	_	_	_	_	start_char=4|end_char=7
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=4|end_char=5
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=8|end_char=9
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=15|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=15|end_char=16
+
+# text = I'm actually talking about my internet friend who is participating in this thread.
+# sent_id = 37955
+1-2	I'm	_	_	_	_	_	_	_	start_char=17|end_char=20
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=17|end_char=18
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=18|end_char=20
+3	actually	actually	ADV	RB	_	2	_	_	start_char=21|end_char=29
+4	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=30|end_char=37
+5	about	about	ADP	IN	_	4	_	_	start_char=38|end_char=43
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=44|end_char=46
+7	internet	internet	NOUN	NN	Number=Sing	6	_	_	start_char=47|end_char=55
+8	friend	friend	NOUN	NN	Number=Sing	7	_	_	start_char=56|end_char=62
+9	who	who	PRON	WP	PronType=Rel	8	_	_	start_char=63|end_char=66
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=67|end_char=69
+11	participating	participate	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=70|end_char=83
+12	in	in	ADP	IN	_	11	_	_	start_char=84|end_char=86
+13	this	this	DET	DT	Number=Sing|PronType=Dem	12	_	_	start_char=87|end_char=91
+14	thread	thread	NOUN	NN	Number=Sing	13	_	_	start_char=92|end_char=98|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=98|end_char=99
+
+# text = I only know him through reddit and I try to encourage him not to fall down the incel hole.
+# sent_id = 37956
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=100|end_char=101
+2	only	only	ADV	RB	_	1	_	_	start_char=102|end_char=106
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=107|end_char=111
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=112|end_char=115
+5	through	through	ADP	IN	_	4	_	_	start_char=116|end_char=123
+6	reddit	reddit	NOUN	NN	Number=Sing	5	_	_	start_char=124|end_char=130
+7	and	and	CCONJ	CC	_	6	_	_	start_char=131|end_char=134
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=135|end_char=136
+9	try	try	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=137|end_char=140
+10	to	to	PART	TO	_	9	_	_	start_char=141|end_char=143
+11	encourage	encourage	VERB	VB	VerbForm=Inf	10	_	_	start_char=144|end_char=153
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=154|end_char=157
+13	not	not	PART	RB	_	12	_	_	start_char=158|end_char=161
+14	to	to	PART	TO	_	13	_	_	start_char=162|end_char=164
+15	fall	fall	VERB	VB	VerbForm=Inf	14	_	_	start_char=165|end_char=169
+16	down	down	ADP	IN	_	15	_	_	start_char=170|end_char=174
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=175|end_char=178
+18	incel	incel	ADJ	JJ	Degree=Pos	17	_	_	start_char=179|end_char=184
+19	hole	hole	NOUN	NN	Number=Sing	18	_	_	start_char=185|end_char=189|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=189|end_char=190|SpaceAfter=No
+

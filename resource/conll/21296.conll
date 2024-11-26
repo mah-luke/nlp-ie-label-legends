@@ -1,0 +1,90 @@
+# text = We have.had few bastard President.
+# sent_id = 45757
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=7|SpaceAfter=No
+3	.had	.had	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=11
+4	few	few	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=15
+5	bastard	bastard	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=23
+6	President	President	PROPN	NNP	Number=Sing	5	_	_	start_char=24|end_char=33|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=33|end_char=34|SpaceAfter=No
+
+# text = I can say you didn't voted for him it's all good I didn't too.
+# sent_id = 45758
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=34|end_char=35
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=36|end_char=39
+3	say	say	VERB	VB	VerbForm=Inf	2	_	_	start_char=40|end_char=43
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=44|end_char=47
+5-6	didn't	_	_	_	_	_	_	_	start_char=48|end_char=54
+5	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	4	_	_	start_char=48|end_char=51
+6	n't	not	PART	RB	_	5	_	_	start_char=51|end_char=54
+7	voted	vote	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=55|end_char=60
+8	for	for	ADP	IN	_	7	_	_	start_char=61|end_char=64
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=65|end_char=68
+10-11	it's	_	_	_	_	_	_	_	start_char=69|end_char=73
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=69|end_char=71
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=71|end_char=73
+12	all	all	ADV	RB	_	11	_	_	start_char=74|end_char=77
+13	good	good	ADJ	JJ	Degree=Pos	12	_	_	start_char=78|end_char=82
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=83|end_char=84
+15-16	didn't	_	_	_	_	_	_	_	start_char=85|end_char=91
+15	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	14	_	_	start_char=85|end_char=88
+16	n't	not	PART	RB	_	15	_	_	start_char=88|end_char=91
+17	too	too	ADV	RB	_	16	_	_	start_char=92|end_char=95|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=95|end_char=96|SpaceAfter=No
+
+# text = but a woman had this person.
+# sent_id = 45759
+1	but	but	CCONJ	CC	_	0	_	_	start_char=96|end_char=99
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=100|end_char=101
+3	woman	woman	NOUN	NN	Number=Sing	2	_	_	start_char=102|end_char=107
+4	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=108|end_char=111
+5	this	this	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=112|end_char=116
+6	person	person	NOUN	NN	Number=Sing	5	_	_	start_char=117|end_char=123|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=123|end_char=124|SpaceAfter=No
+
+# text = I respect every woman.
+# sent_id = 45760
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=124|end_char=125
+2	respect	respect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=126|end_char=133
+3	every	every	DET	DT	_	2	_	_	start_char=134|end_char=139
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=140|end_char=145|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=145|end_char=146|SpaceAfter=No
+
+# text = that can have a child.
+# sent_id = 45761
+1	that	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=146|end_char=150
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=151|end_char=154
+3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=155|end_char=159
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=160|end_char=161
+5	child	child	NOUN	NN	Number=Sing	4	_	_	start_char=162|end_char=167|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=167|end_char=168|SpaceAfter=No
+
+# text = so everyone needs to keep that word out.
+# sent_id = 45762
+1	so	so	ADV	RB	_	0	_	_	start_char=168|end_char=170
+2	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	1	_	_	start_char=171|end_char=179
+3	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=180|end_char=185
+4	to	to	PART	TO	_	3	_	_	start_char=186|end_char=188
+5	keep	keep	VERB	VB	VerbForm=Inf	4	_	_	start_char=189|end_char=193
+6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=194|end_char=198
+7	word	word	NOUN	NN	Number=Sing	6	_	_	start_char=199|end_char=203
+8	out	out	ADP	RP	_	7	_	_	start_char=204|end_char=207|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=207|end_char=208|SpaceAfter=No
+
+# text = if their mouth.
+# sent_id = 45763
+1	if	if	SCONJ	IN	_	0	_	_	start_char=208|end_char=210
+2	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=211|end_char=216
+3	mouth	mouth	NOUN	NN	Number=Sing	2	_	_	start_char=217|end_char=222|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=222|end_char=223|SpaceAfter=No
+
+# text = who know they might be one.
+# sent_id = 45764
+1	who	who	PRON	WP	PronType=Rel	0	_	_	start_char=223|end_char=226
+2	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=227|end_char=231
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=232|end_char=236
+4	might	might	AUX	MD	VerbForm=Fin	3	_	_	start_char=237|end_char=242
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=243|end_char=245
+6	one	one	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=246|end_char=249|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=249|end_char=250|SpaceAfter=No
+

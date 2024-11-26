@@ -1,0 +1,16 @@
+# text = What a drama queen.
+# sent_id = 26262
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	drama	drama	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=12
+4	queen	queen	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = He must be gay.
+# sent_id = 26263
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=20|end_char=22
+2	must	must	AUX	MD	VerbForm=Fin	1	_	_	start_char=23|end_char=27
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=28|end_char=30
+4	gay	gay	ADJ	JJ	Degree=Pos	3	_	_	start_char=31|end_char=34|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=34|end_char=35|SpaceAfter=No
+

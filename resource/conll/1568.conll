@@ -1,0 +1,33 @@
+# text = Yes !
+# sent_id = 3279
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	!	!	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = I did this with one girl a while ago, unfortunately she was different from her online pictures lol.
+# sent_id = 3280
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=6|end_char=7
+2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=8|end_char=11
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=12|end_char=16
+4	with	with	ADP	IN	_	3	_	_	start_char=17|end_char=21
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=22|end_char=25
+6	girl	girl	NOUN	NN	Number=Sing	5	_	_	start_char=26|end_char=30
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=31|end_char=32
+8	while	while	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=38
+9	ago	ago	ADV	RB	_	8	_	_	start_char=39|end_char=42|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=42|end_char=43
+11	unfortunately	unfortunately	ADV	RB	_	10	_	_	start_char=44|end_char=57
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=58|end_char=61
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=62|end_char=65
+14	different	different	ADJ	JJ	Degree=Pos	13	_	_	start_char=66|end_char=75
+15	from	from	ADP	IN	_	14	_	_	start_char=76|end_char=80
+16	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=81|end_char=84
+17	online	online	ADJ	JJ	Degree=Pos	16	_	_	start_char=85|end_char=91
+18	pictures	picture	NOUN	NNS	Number=Plur	17	_	_	start_char=92|end_char=100
+19	lol	lol	INTJ	UH	_	18	_	_	start_char=101|end_char=104|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=104|end_char=105
+
+# text = Thanks.
+# sent_id = 3281
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=106|end_char=112|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=112|end_char=113|SpaceAfter=No
+

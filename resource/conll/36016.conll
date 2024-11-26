@@ -1,0 +1,56 @@
+# text = This is how I think of it:
+# sent_id = 77054
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	how	how	ADV	WRB	PronType=Rel	2	_	_	start_char=8|end_char=11
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=12|end_char=13
+5	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=14|end_char=19
+6	of	of	ADP	IN	_	5	_	_	start_char=20|end_char=22
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=23|end_char=25|SpaceAfter=No
+8	:	:	PUNCT	:	_	7	_	_	start_char=25|end_char=26
+
+# text = If you're nervous to get rejected and show interest in a girl, think about how nervous it must be for women, in a society where it is the social norm for the dudes to make the first move
+# sent_id = 77055
+1	If	if	SCONJ	IN	_	0	_	_	start_char=27|end_char=29
+2-3	you're	_	_	_	_	_	_	_	start_char=30|end_char=36
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=30|end_char=33
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=33|end_char=36
+4	nervous	nervous	ADJ	JJ	Degree=Pos	3	_	_	start_char=37|end_char=44
+5	to	to	PART	TO	_	4	_	_	start_char=45|end_char=47
+6	get	get	AUX	VB	VerbForm=Inf	5	_	_	start_char=48|end_char=51
+7	rejected	reject	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=52|end_char=60
+8	and	and	CCONJ	CC	_	7	_	_	start_char=61|end_char=64
+9	show	show	VERB	VB	VerbForm=Inf	8	_	_	start_char=65|end_char=69
+10	interest	interest	NOUN	NN	Number=Sing	9	_	_	start_char=70|end_char=78
+11	in	in	ADP	IN	_	10	_	_	start_char=79|end_char=81
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=82|end_char=83
+13	girl	girl	NOUN	NN	Number=Sing	12	_	_	start_char=84|end_char=88|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=88|end_char=89
+15	think	think	VERB	VB	Mood=Imp|VerbForm=Fin	14	_	_	start_char=90|end_char=95
+16	about	about	ADP	IN	_	15	_	_	start_char=96|end_char=101
+17	how	how	ADV	WRB	PronType=Int	16	_	_	start_char=102|end_char=105
+18	nervous	nervous	ADJ	JJ	Degree=Pos	17	_	_	start_char=106|end_char=113
+19	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=114|end_char=116
+20	must	must	AUX	MD	VerbForm=Fin	19	_	_	start_char=117|end_char=121
+21	be	be	AUX	VB	VerbForm=Inf	20	_	_	start_char=122|end_char=124
+22	for	for	ADP	IN	_	21	_	_	start_char=125|end_char=128
+23	women	woman	NOUN	NNS	Number=Plur	22	_	_	start_char=129|end_char=134|SpaceAfter=No
+24	,	,	PUNCT	,	_	23	_	_	start_char=134|end_char=135
+25	in	in	ADP	IN	_	24	_	_	start_char=136|end_char=138
+26	a	a	DET	DT	Definite=Ind|PronType=Art	25	_	_	start_char=139|end_char=140
+27	society	society	NOUN	NN	Number=Sing	26	_	_	start_char=141|end_char=148
+28	where	where	ADV	WRB	PronType=Rel	27	_	_	start_char=149|end_char=154
+29	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	28	_	_	start_char=155|end_char=157
+30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	_	_	start_char=158|end_char=160
+31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	start_char=161|end_char=164
+32	social	social	ADJ	JJ	Degree=Pos	31	_	_	start_char=165|end_char=171
+33	norm	norm	NOUN	NN	Number=Sing	32	_	_	start_char=172|end_char=176
+34	for	for	ADP	IN	_	33	_	_	start_char=177|end_char=180
+35	the	the	DET	DT	Definite=Def|PronType=Art	34	_	_	start_char=181|end_char=184
+36	dudes	dude	NOUN	NNS	Number=Plur	35	_	_	start_char=185|end_char=190
+37	to	to	PART	TO	_	36	_	_	start_char=191|end_char=193
+38	make	make	VERB	VB	VerbForm=Inf	37	_	_	start_char=194|end_char=198
+39	the	the	DET	DT	Definite=Def|PronType=Art	38	_	_	start_char=199|end_char=202
+40	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	39	_	_	start_char=203|end_char=208
+41	move	move	NOUN	NN	Number=Sing	40	_	_	start_char=209|end_char=213|SpaceAfter=No
+

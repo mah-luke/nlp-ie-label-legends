@@ -1,0 +1,31 @@
+# text = Why is your ex living with you?
+# sent_id = 103626
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=7|end_char=11
+4	ex	ex	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=14
+5	living	live	VERB	VBG	VerbForm=Ger	4	_	_	start_char=15|end_char=21
+6	with	with	ADP	IN	_	5	_	_	start_char=22|end_char=26
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=27|end_char=30|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=30|end_char=31
+
+# text = And why do you care who she's fucking if she's your ex?
+# sent_id = 103627
+1	And	and	CCONJ	CC	_	0	_	_	start_char=32|end_char=35
+2	why	why	ADV	WRB	PronType=Int	1	_	_	start_char=36|end_char=39
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=40|end_char=42
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=43|end_char=46
+5	care	care	VERB	VB	VerbForm=Inf	4	_	_	start_char=47|end_char=51
+6	who	who	PRON	WP	PronType=Rel	5	_	_	start_char=52|end_char=55
+7-8	she's	_	_	_	_	_	_	_	start_char=56|end_char=61
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=56|end_char=59
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=59|end_char=61
+9	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=62|end_char=69
+10	if	if	SCONJ	IN	_	9	_	_	start_char=70|end_char=72
+11-12	she's	_	_	_	_	_	_	_	start_char=73|end_char=78
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=73|end_char=76
+12	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=76|end_char=78
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=79|end_char=83
+14	ex	ex	NOUN	NN	Number=Sing	13	_	_	start_char=84|end_char=86|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=86|end_char=87|SpaceAfter=No
+

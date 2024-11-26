@@ -1,0 +1,20 @@
+# text = [USER] she's in the SPD which is the oldest socialist party in germany
+# sent_id = 59321
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4-5	she's	_	_	_	_	_	_	_	start_char=7|end_char=12
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=7|end_char=10
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=10|end_char=12
+6	in	in	ADP	IN	_	5	_	_	start_char=13|end_char=15
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=16|end_char=19
+8	SPD	SPD	PROPN	NNP	Number=Sing	7	_	_	start_char=20|end_char=23
+9	which	which	PRON	WDT	PronType=Rel	8	_	_	start_char=24|end_char=29
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=30|end_char=32
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=33|end_char=36
+12	oldest	old	ADJ	JJS	Degree=Sup	11	_	_	start_char=37|end_char=43
+13	socialist	socialist	ADJ	JJ	Degree=Pos	12	_	_	start_char=44|end_char=53
+14	party	party	NOUN	NN	Number=Sing	13	_	_	start_char=54|end_char=59
+15	in	in	ADP	IN	_	14	_	_	start_char=60|end_char=62
+16	germany	Germany	PROPN	NNP	Number=Sing	15	_	_	start_char=63|end_char=70|SpaceAfter=No
+

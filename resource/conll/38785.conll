@@ -1,0 +1,41 @@
+# text = I always cancel as soon as the driver that accepts my ride is a female.
+# sent_id = 82905
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	always	always	ADV	RB	_	1	_	_	start_char=2|end_char=8
+3	cancel	cancel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=15
+4	as	as	ADV	RB	_	3	_	_	start_char=16|end_char=18
+5	soon	soon	ADV	RB	Degree=Pos	4	_	_	start_char=19|end_char=23
+6	as	as	SCONJ	IN	_	5	_	_	start_char=24|end_char=26
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=27|end_char=30
+8	driver	driver	NOUN	NN	Number=Sing	7	_	_	start_char=31|end_char=37
+9	that	that	PRON	WDT	PronType=Rel	8	_	_	start_char=38|end_char=42
+10	accepts	accept	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=43|end_char=50
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=51|end_char=53
+12	ride	ride	NOUN	NN	Number=Sing	11	_	_	start_char=54|end_char=58
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=59|end_char=61
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=62|end_char=63
+15	female	female	NOUN	NN	Number=Sing	14	_	_	start_char=64|end_char=70|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=70|end_char=71
+
+# text = Then immediately rebook.
+# sent_id = 82906
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=72|end_char=76
+2	immediately	immediately	ADV	RB	_	1	_	_	start_char=77|end_char=88
+3	rebook	rebook	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=89|end_char=95|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=95|end_char=96
+
+# text = I just can’t be bothered dealing with them Fuck reddit
+# sent_id = 82907
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=97|end_char=98
+2	just	just	ADV	RB	_	1	_	_	start_char=99|end_char=103
+3-4	can’t	_	_	_	_	_	_	_	start_char=104|end_char=109
+3	ca	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=104|end_char=106
+4	n’t	not	PART	RB	_	3	_	_	start_char=106|end_char=109
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=110|end_char=112
+6	bothered	bother	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=113|end_char=121
+7	dealing	deal	VERB	VBG	VerbForm=Ger	6	_	_	start_char=122|end_char=129
+8	with	with	ADP	IN	_	7	_	_	start_char=130|end_char=134
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=135|end_char=139
+10	Fuck	fuck	NOUN	NN	Number=Sing	9	_	_	start_char=140|end_char=144
+11	reddit	reddit	PROPN	NNP	Number=Sing	10	_	_	start_char=145|end_char=151|SpaceAfter=No
+

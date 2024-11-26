@@ -1,0 +1,31 @@
+# text = Someone hasn’t figured out modern female nature.
+# sent_id = 39336
+1	Someone	someone	PRON	NN	Number=Sing|PronType=Ind	0	_	_	start_char=0|end_char=7
+2-3	hasn’t	_	_	_	_	_	_	_	start_char=8|end_char=14
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=11
+3	n’t	not	PART	RB	_	2	_	_	start_char=11|end_char=14
+4	figured	figure	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=15|end_char=22
+5	out	out	ADP	RP	_	4	_	_	start_char=23|end_char=26
+6	modern	modern	ADJ	JJ	Degree=Pos	5	_	_	start_char=27|end_char=33
+7	female	female	ADJ	JJ	Degree=Pos	6	_	_	start_char=34|end_char=40
+8	nature	nature	NOUN	NN	Number=Sing	7	_	_	start_char=41|end_char=47|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=47|end_char=48
+
+# text = Maybe this video will help.
+# sent_id = 39337
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=49|end_char=54
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=55|end_char=59
+3	video	video	NOUN	NN	Number=Sing	2	_	_	start_char=60|end_char=65
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=66|end_char=70
+5	help	help	VERB	VB	VerbForm=Inf	4	_	_	start_char=71|end_char=75|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=75|end_char=76
+
+# text = [URL] [URL]
+# sent_id = 39338
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=77|end_char=78|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=78|end_char=81|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=81|end_char=82
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=83|end_char=84|SpaceAfter=No
+5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=84|end_char=87|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=87|end_char=88|SpaceAfter=No
+

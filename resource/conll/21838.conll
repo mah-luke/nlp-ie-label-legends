@@ -1,0 +1,85 @@
+# text = Dude.
+# sent_id = 46887
+1	Dude	dude	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = What you don't understand is this:
+# sent_id = 46888
+1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=6|end_char=10
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=11|end_char=14
+3-4	don't	_	_	_	_	_	_	_	start_char=15|end_char=20
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=15|end_char=17
+4	n't	not	PART	RB	_	3	_	_	start_char=17|end_char=20
+5	understand	understand	VERB	VB	VerbForm=Inf	4	_	_	start_char=21|end_char=31
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=32|end_char=34
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=35|end_char=39|SpaceAfter=No
+8	:	:	PUNCT	:	_	7	_	_	start_char=39|end_char=40
+
+# text = You're saying that the man couldn't walk away because he was on TV.
+# sent_id = 46889
+1-2	You're	_	_	_	_	_	_	_	start_char=41|end_char=47
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=41|end_char=44
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=44|end_char=47
+3	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=48|end_char=54
+4	that	that	SCONJ	IN	_	3	_	_	start_char=55|end_char=59
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=60|end_char=63
+6	man	man	NOUN	NN	Number=Sing	5	_	_	start_char=64|end_char=67
+7-8	couldn't	_	_	_	_	_	_	_	start_char=68|end_char=76
+7	could	could	AUX	MD	VerbForm=Fin	6	_	_	start_char=68|end_char=73
+8	n't	not	PART	RB	_	7	_	_	start_char=73|end_char=76
+9	walk	walk	VERB	VB	VerbForm=Inf	8	_	_	start_char=77|end_char=81
+10	away	away	ADV	RB	_	9	_	_	start_char=82|end_char=86
+11	because	because	SCONJ	IN	_	10	_	_	start_char=87|end_char=94
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=95|end_char=97
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=98|end_char=101
+14	on	on	ADP	IN	_	13	_	_	start_char=102|end_char=104
+15	TV	TV	NOUN	NN	Number=Sing	14	_	_	start_char=105|end_char=107|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=107|end_char=108
+
+# text = The woman walked away, and she's on TV too.
+# sent_id = 46890
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=109|end_char=112
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=113|end_char=118
+3	walked	walk	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=119|end_char=125
+4	away	away	ADV	RB	_	3	_	_	start_char=126|end_char=130|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=130|end_char=131
+6	and	and	CCONJ	CC	_	5	_	_	start_char=132|end_char=135
+7-8	she's	_	_	_	_	_	_	_	start_char=136|end_char=141
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=136|end_char=139
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=139|end_char=141
+9	on	on	ADP	IN	_	8	_	_	start_char=142|end_char=144
+10	TV	TV	NOUN	NN	Number=Sing	9	_	_	start_char=145|end_char=147
+11	too	too	ADV	RB	_	10	_	_	start_char=148|end_char=151|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=151|end_char=152
+
+# text = If a woman can walk away being on TV, why couldn't the man?
+# sent_id = 46891
+1	If	if	SCONJ	IN	_	0	_	_	start_char=153|end_char=155
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=156|end_char=157
+3	woman	woman	NOUN	NN	Number=Sing	2	_	_	start_char=158|end_char=163
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=164|end_char=167
+5	walk	walk	VERB	VB	VerbForm=Inf	4	_	_	start_char=168|end_char=172
+6	away	away	ADV	RB	_	5	_	_	start_char=173|end_char=177
+7	being	be	AUX	VBG	VerbForm=Ger	6	_	_	start_char=178|end_char=183
+8	on	on	ADP	IN	_	7	_	_	start_char=184|end_char=186
+9	TV	TV	NOUN	NN	Number=Sing	8	_	_	start_char=187|end_char=189|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=189|end_char=190
+11	why	why	ADV	WRB	PronType=Int	10	_	_	start_char=191|end_char=194
+12-13	couldn't	_	_	_	_	_	_	_	start_char=195|end_char=203
+12	could	could	AUX	MD	VerbForm=Fin	11	_	_	start_char=195|end_char=200
+13	n't	not	PART	RB	_	12	_	_	start_char=200|end_char=203
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=204|end_char=207
+15	man	man	NOUN	NN	Number=Sing	14	_	_	start_char=208|end_char=211|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=211|end_char=212
+
+# text = Try hard now, work it out.
+# sent_id = 46892
+1	Try	try	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=213|end_char=216
+2	hard	hard	ADV	RB	Degree=Pos	1	_	_	start_char=217|end_char=221
+3	now	now	ADV	RB	_	2	_	_	start_char=222|end_char=225|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=225|end_char=226
+5	work	work	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=227|end_char=231
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=232|end_char=234
+7	out	out	ADP	RP	_	6	_	_	start_char=235|end_char=238|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=238|end_char=239|SpaceAfter=No
+

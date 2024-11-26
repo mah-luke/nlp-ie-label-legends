@@ -1,0 +1,30 @@
+# text = Lol this has happened to me.
+# sent_id = 1871
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=4|end_char=8
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=12
+4	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=13|end_char=21
+5	to	to	ADP	IN	_	4	_	_	start_char=22|end_char=24
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=25|end_char=27|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=27|end_char=28
+
+# text = Some even joked that I probably have five girlfriends JFL and I'm not a fakecel
+# sent_id = 1872
+1	Some	some	DET	DT	_	0	_	_	start_char=29|end_char=33
+2	even	even	ADV	RB	_	1	_	_	start_char=34|end_char=38
+3	joked	joke	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=39|end_char=44
+4	that	that	SCONJ	IN	_	3	_	_	start_char=45|end_char=49
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=50|end_char=51
+6	probably	probably	ADV	RB	_	5	_	_	start_char=52|end_char=60
+7	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=61|end_char=65
+8	five	five	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=66|end_char=70
+9	girlfriends	girlfriend	NOUN	NNS	Number=Plur	8	_	_	start_char=71|end_char=82
+10	JFL	JFL	PROPN	NNP	Number=Sing	9	_	_	start_char=83|end_char=86
+11	and	and	CCONJ	CC	_	10	_	_	start_char=87|end_char=90
+12-13	I'm	_	_	_	_	_	_	_	start_char=91|end_char=94
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=91|end_char=92
+13	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=92|end_char=94
+14	not	not	PART	RB	_	13	_	_	start_char=95|end_char=98
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=99|end_char=100
+16	fakecel	fakecel	NOUN	NN	Number=Sing	15	_	_	start_char=101|end_char=108|SpaceAfter=No
+

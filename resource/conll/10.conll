@@ -1,0 +1,43 @@
+# text = Good for her!
+# sent_id = 21
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	for	for	ADP	IN	_	1	_	_	start_char=5|end_char=8
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=12|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=12|end_char=13
+
+# text = My grandson had acid reflux, but his mother gave him formula, and I didn't like that!
+# sent_id = 22
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=14|end_char=16
+2	grandson	grandson	NOUN	NN	Number=Sing	1	_	_	start_char=17|end_char=25
+3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=26|end_char=29
+4	acid	acid	NOUN	NN	Number=Sing	3	_	_	start_char=30|end_char=34
+5	reflux	reflux	NOUN	NN	Number=Sing	4	_	_	start_char=35|end_char=41|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=41|end_char=42
+7	but	but	CCONJ	CC	_	6	_	_	start_char=43|end_char=46
+8	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=47|end_char=50
+9	mother	mother	NOUN	NN	Number=Sing	8	_	_	start_char=51|end_char=57
+10	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=58|end_char=62
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=63|end_char=66
+12	formula	formula	NOUN	NN	Number=Sing	11	_	_	start_char=67|end_char=74|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=74|end_char=75
+14	and	and	CCONJ	CC	_	13	_	_	start_char=76|end_char=79
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=80|end_char=81
+16-17	didn't	_	_	_	_	_	_	_	start_char=82|end_char=88
+16	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	_	_	start_char=82|end_char=85
+17	n't	not	PART	RB	_	16	_	_	start_char=85|end_char=88
+18	like	like	VERB	VB	VerbForm=Inf	17	_	_	start_char=89|end_char=93
+19	that	that	PRON	DT	Number=Sing|PronType=Dem	18	_	_	start_char=94|end_char=98|SpaceAfter=No
+20	!	!	PUNCT	.	_	19	_	_	start_char=98|end_char=99
+
+# text = Yes, but all means, mute em!
+# sent_id = 23
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=100|end_char=103|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=103|end_char=104
+3	but	but	CCONJ	CC	_	2	_	_	start_char=105|end_char=108
+4	all	all	DET	DT	PronType=Tot	3	_	_	start_char=109|end_char=112
+5	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=113|end_char=118|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=118|end_char=119
+7	mute	mute	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=120|end_char=124
+8	em	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=125|end_char=127|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=127|end_char=128|SpaceAfter=No
+

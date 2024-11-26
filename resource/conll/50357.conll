@@ -1,0 +1,53 @@
+# text = I think she has her priorities straight?
+# sent_id = 107618
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=7
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=8|end_char=11
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=12|end_char=15
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=16|end_char=19
+6	priorities	priority	NOUN	NNS	Number=Plur	5	_	_	start_char=20|end_char=30
+7	straight	straight	ADV	RB	_	6	_	_	start_char=31|end_char=39|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=39|end_char=40
+
+# text = Let's definitely ignore the murderous black man filled with hatred of whites and focus on a mean flyer.
+# sent_id = 107619
+1-2	Let's	_	_	_	_	_	_	_	start_char=41|end_char=46
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=41|end_char=44
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=44|end_char=46
+3	definitely	definitely	ADV	RB	_	2	_	_	start_char=47|end_char=57
+4	ignore	ignore	VERB	VB	VerbForm=Inf	3	_	_	start_char=58|end_char=64
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=65|end_char=68
+6	murderous	murderous	ADJ	JJ	Degree=Pos	5	_	_	start_char=69|end_char=78
+7	black	black	ADJ	JJ	Degree=Pos	6	_	_	start_char=79|end_char=84
+8	man	man	NOUN	NN	Number=Sing	7	_	_	start_char=85|end_char=88
+9	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=89|end_char=95
+10	with	with	ADP	IN	_	9	_	_	start_char=96|end_char=100
+11	hatred	hatred	NOUN	NN	Number=Sing	10	_	_	start_char=101|end_char=107
+12	of	of	ADP	IN	_	11	_	_	start_char=108|end_char=110
+13	whites	white	NOUN	NNS	Number=Plur	12	_	_	start_char=111|end_char=117
+14	and	and	CCONJ	CC	_	13	_	_	start_char=118|end_char=121
+15	focus	focus	VERB	VB	VerbForm=Inf	14	_	_	start_char=122|end_char=127
+16	on	on	ADP	IN	_	15	_	_	start_char=128|end_char=130
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=131|end_char=132
+18	mean	mean	ADJ	JJ	Degree=Pos	17	_	_	start_char=133|end_char=137
+19	flyer	flyer	NOUN	NN	Number=Sing	18	_	_	start_char=138|end_char=143|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=143|end_char=144
+
+# text = Seems totally legit!
+# sent_id = 107620
+1	Seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=145|end_char=150
+2	totally	totally	ADV	RB	_	1	_	_	start_char=151|end_char=158
+3	legit	legit	ADJ	JJ	Degree=Pos	2	_	_	start_char=159|end_char=164|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=164|end_char=165
+
+# text = (seen on Voat) [URL]
+# sent_id = 107621
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=166|end_char=167|SpaceAfter=No
+2	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=167|end_char=171
+3	on	on	ADP	IN	_	2	_	_	start_char=172|end_char=174
+4	Voat	Voat	PROPN	NNP	Number=Sing	3	_	_	start_char=175|end_char=179|SpaceAfter=No
+5	)	)	PUNCT	-RRB-	_	4	_	_	start_char=179|end_char=180
+6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=181|end_char=182|SpaceAfter=No
+7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=182|end_char=185|SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=185|end_char=186|SpaceAfter=No
+

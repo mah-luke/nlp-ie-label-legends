@@ -1,0 +1,28 @@
+# text = It's alive!!
+# sent_id = 67404
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	alive	alive	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=10|SpaceAfter=No
+4	!!	!!	PUNCT	.	_	3	_	_	start_char=10|end_char=12
+
+# text = LOL
+# sent_id = 67405
+1	LOL	lol	INTJ	UH	_	0	_	_	start_char=13|end_char=16
+
+# text = She is just awful, I'm so glad she lost.
+# sent_id = 67406
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=17|end_char=20
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=21|end_char=23
+3	just	just	ADV	RB	_	2	_	_	start_char=24|end_char=28
+4	awful	awful	ADJ	JJ	Degree=Pos	3	_	_	start_char=29|end_char=34|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=34|end_char=35
+6-7	I'm	_	_	_	_	_	_	_	start_char=36|end_char=39
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=36|end_char=37
+7	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=37|end_char=39
+8	so	so	ADV	RB	_	7	_	_	start_char=40|end_char=42
+9	glad	glad	ADJ	JJ	Degree=Pos	8	_	_	start_char=43|end_char=47
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=48|end_char=51
+11	lost	lose	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=52|end_char=56|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=56|end_char=57|SpaceAfter=No
+

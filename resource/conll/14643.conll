@@ -1,0 +1,41 @@
+# text = Jews snipe children for sport and target pregnant women while boasting "1 shot, 2 kills."
+# sent_id = 31188
+1	Jews	Jew	PROPN	NNPS	Number=Plur	0	_	_	start_char=0|end_char=4
+2	snipe	snipe	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=10
+3	children	child	NOUN	NNS	Number=Plur	2	_	_	start_char=11|end_char=19
+4	for	for	ADP	IN	_	3	_	_	start_char=20|end_char=23
+5	sport	sport	NOUN	NN	Number=Sing	4	_	_	start_char=24|end_char=29
+6	and	and	CCONJ	CC	_	5	_	_	start_char=30|end_char=33
+7	target	target	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=34|end_char=40
+8	pregnant	pregnant	ADJ	JJ	Degree=Pos	7	_	_	start_char=41|end_char=49
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=50|end_char=55
+10	while	while	SCONJ	IN	_	9	_	_	start_char=56|end_char=61
+11	boasting	boast	VERB	VBG	VerbForm=Ger	10	_	_	start_char=62|end_char=70
+12	"	"	PUNCT	``	_	11	_	_	start_char=71|end_char=72|SpaceAfter=No
+13	1	1	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=72|end_char=73
+14	shot	shot	NOUN	NN	Number=Sing	13	_	_	start_char=74|end_char=78|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=78|end_char=79
+16	2	2	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=80|end_char=81
+17	kills	kill	NOUN	NNS	Number=Plur	16	_	_	start_char=82|end_char=87|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=87|end_char=88|SpaceAfter=No
+19	"	"	PUNCT	''	_	18	_	_	start_char=88|end_char=89
+
+# text = EVEN THE BRITISH MEDICAL JOURNAL HAS REPORTED ON THIS!
+# sent_id = 31189
+1	EVEN	even	ADV	RB	_	0	_	_	start_char=90|end_char=94
+2	THE	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=95|end_char=98
+3	BRITISH	british	ADJ	JJ	Degree=Pos	2	_	_	start_char=99|end_char=106
+4	MEDICAL	medical	ADJ	JJ	Degree=Pos	3	_	_	start_char=107|end_char=114
+5	JOURNAL	journal	NOUN	NN	Number=Sing	4	_	_	start_char=115|end_char=122
+6	HAS	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=123|end_char=126
+7	REPORTED	report	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=127|end_char=135
+8	ON	on	ADP	IN	_	7	_	_	start_char=136|end_char=138
+9	THIS	this	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=139|end_char=143|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=143|end_char=144
+
+# text = [URL]
+# sent_id = 31190
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=145|end_char=146|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=146|end_char=149|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=149|end_char=150|SpaceAfter=No
+

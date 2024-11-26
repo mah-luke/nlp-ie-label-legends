@@ -1,0 +1,30 @@
+# text = So...I guess men should wear a condom then?
+# sent_id = 61307
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	...	...	PUNCT	,	_	1	_	_	start_char=2|end_char=5|SpaceAfter=No
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=5|end_char=6
+4	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=7|end_char=12
+5	men	man	NOUN	NNS	Number=Plur	4	_	_	start_char=13|end_char=16
+6	should	should	AUX	MD	VerbForm=Fin	5	_	_	start_char=17|end_char=23
+7	wear	wear	VERB	VB	VerbForm=Inf	6	_	_	start_char=24|end_char=28
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=29|end_char=30
+9	condom	condom	NOUN	NN	Number=Sing	8	_	_	start_char=31|end_char=37
+10	then	then	ADV	RB	PronType=Dem	9	_	_	start_char=38|end_char=42|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=42|end_char=43
+
+# text = It's a pretty easy step to avoid all this hassle.
+# sent_id = 61308
+1-2	It's	_	_	_	_	_	_	_	start_char=44|end_char=48
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=44|end_char=46
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=46|end_char=48
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=49|end_char=50
+4	pretty	pretty	ADV	RB	_	3	_	_	start_char=51|end_char=57
+5	easy	easy	ADJ	JJ	Degree=Pos	4	_	_	start_char=58|end_char=62
+6	step	step	NOUN	NN	Number=Sing	5	_	_	start_char=63|end_char=67
+7	to	to	PART	TO	_	6	_	_	start_char=68|end_char=70
+8	avoid	avoid	VERB	VB	VerbForm=Inf	7	_	_	start_char=71|end_char=76
+9	all	all	DET	PDT	_	8	_	_	start_char=77|end_char=80
+10	this	this	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=81|end_char=85
+11	hassle	hassle	NOUN	NN	Number=Sing	10	_	_	start_char=86|end_char=92|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=92|end_char=93|SpaceAfter=No
+

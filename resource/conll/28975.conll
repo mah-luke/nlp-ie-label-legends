@@ -1,0 +1,54 @@
+# text = Did you hear Hillary had a heart attack?
+# sent_id = 62155
+1	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=4|end_char=7
+3	hear	hear	VERB	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=12
+4	Hillary	Hillary	PROPN	NNP	Number=Sing	3	_	_	start_char=13|end_char=20
+5	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=21|end_char=24
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=25|end_char=26
+7	heart	heart	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=32
+8	attack	attack	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=39|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=39|end_char=40
+
+# text = Bill made a pass at her!
+# sent_id = 62156
+1	Bill	Bill	PROPN	NNP	Number=Sing	0	_	_	start_char=41|end_char=45
+2	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=46|end_char=50
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=51|end_char=52
+4	pass	pass	NOUN	NN	Number=Sing	3	_	_	start_char=53|end_char=57
+5	at	at	ADP	IN	_	4	_	_	start_char=58|end_char=60
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=61|end_char=64|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=64|end_char=65
+
+# text = I guess he had his beer goggles on and thought she was someone else!
+# sent_id = 62157
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=66|end_char=67
+2	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=68|end_char=73
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=74|end_char=76
+4	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=77|end_char=80
+5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=81|end_char=84
+6	beer	beer	NOUN	NN	Number=Sing	5	_	_	start_char=85|end_char=89
+7	goggles	goggle	NOUN	NNS	Number=Plur	6	_	_	start_char=90|end_char=97
+8	on	on	ADV	RB	_	7	_	_	start_char=98|end_char=100
+9	and	and	CCONJ	CC	_	8	_	_	start_char=101|end_char=104
+10	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=105|end_char=112
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=113|end_char=116
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=117|end_char=120
+13	someone	someone	PRON	NN	Number=Sing|PronType=Ind	12	_	_	start_char=121|end_char=128
+14	else	else	ADJ	JJ	Degree=Pos	13	_	_	start_char=129|end_char=133|SpaceAfter=No
+15	!	!	PUNCT	.	_	14	_	_	start_char=133|end_char=134
+
+# text = Bill be be remembered as the president between two Bushs.
+# sent_id = 62158
+1	Bill	Bill	PROPN	NNP	Number=Sing	0	_	_	start_char=135|end_char=139
+2	be	be	AUX	VB	VerbForm=Fin	1	_	_	start_char=140|end_char=142
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=143|end_char=145
+4	remembered	remember	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=146|end_char=156
+5	as	as	ADP	IN	_	4	_	_	start_char=157|end_char=159
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=160|end_char=163
+7	president	president	NOUN	NN	Number=Sing	6	_	_	start_char=164|end_char=173
+8	between	between	ADP	IN	_	7	_	_	start_char=174|end_char=181
+9	two	two	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=182|end_char=185
+10	Bushs	Bushs	PROPN	NNPS	Number=Plur	9	_	_	start_char=186|end_char=191|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=191|end_char=192|SpaceAfter=No
+

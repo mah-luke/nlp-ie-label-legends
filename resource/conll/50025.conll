@@ -1,0 +1,21 @@
+# text = Are your chromosomes XX?
+# sent_id = 106923
+1	Are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=4|end_char=8
+3	chromosomes	chromosome	NOUN	NNS	Number=Plur	2	_	_	start_char=9|end_char=20
+4	XX	xx	NOUN	NN	Number=Sing	3	_	_	start_char=21|end_char=23|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=23|end_char=24
+
+# text = If so, you're 100% female.
+# sent_id = 106924
+1	If	if	SCONJ	IN	_	0	_	_	start_char=25|end_char=27
+2	so	so	ADV	RB	_	1	_	_	start_char=28|end_char=30|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=30|end_char=31
+4-5	you're	_	_	_	_	_	_	_	start_char=32|end_char=38
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=32|end_char=35
+5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=35|end_char=38
+6	100	100	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=39|end_char=42|SpaceAfter=No
+7	%	%	SYM	NN	Number=Sing	6	_	_	start_char=42|end_char=43
+8	female	female	NOUN	NN	Number=Sing	7	_	_	start_char=44|end_char=50|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=50|end_char=51|SpaceAfter=No
+

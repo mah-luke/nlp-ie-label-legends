@@ -1,0 +1,46 @@
+# text = My wife drives like Batman.
+# sent_id = 50433
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=7
+3	drives	drive	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=14
+4	like	like	ADP	IN	_	3	_	_	start_char=15|end_char=19
+5	Batman	Batman	PROPN	NNP	Number=Sing	4	_	_	start_char=20|end_char=26|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=26|end_char=27
+
+# text = If you ever rob a liquor store, you'll want her to be the the wheel man.
+# sent_id = 50434
+1	If	if	SCONJ	IN	_	0	_	_	start_char=28|end_char=30
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=31|end_char=34
+3	ever	ever	ADV	RB	_	2	_	_	start_char=35|end_char=39
+4	rob	rob	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=40|end_char=43
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=44|end_char=45
+6	liquor	liquor	NOUN	NN	Number=Sing	5	_	_	start_char=46|end_char=52
+7	store	store	NOUN	NN	Number=Sing	6	_	_	start_char=53|end_char=58|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=58|end_char=59
+9-10	you'll	_	_	_	_	_	_	_	start_char=60|end_char=66
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=60|end_char=63
+10	'll	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=63|end_char=66
+11	want	want	VERB	VB	VerbForm=Inf	10	_	_	start_char=67|end_char=71
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=72|end_char=75
+13	to	to	PART	TO	_	12	_	_	start_char=76|end_char=78
+14	be	be	AUX	VB	VerbForm=Inf	13	_	_	start_char=79|end_char=81
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=82|end_char=85
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=86|end_char=89
+17	wheel	wheel	NOUN	NN	Number=Sing	16	_	_	start_char=90|end_char=95
+18	man	man	NOUN	NN	Number=Sing	17	_	_	start_char=96|end_char=99|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=99|end_char=100
+
+# text = She could probably jump Snake Canyon in a Toyota Corolla.
+# sent_id = 50435
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=101|end_char=104
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=105|end_char=110
+3	probably	probably	ADV	RB	_	2	_	_	start_char=111|end_char=119
+4	jump	jump	VERB	VB	VerbForm=Inf	3	_	_	start_char=120|end_char=124
+5	Snake	snake	PROPN	NNP	Number=Sing	4	_	_	start_char=125|end_char=130
+6	Canyon	Canyon	PROPN	NNP	Number=Sing	5	_	_	start_char=131|end_char=137
+7	in	in	ADP	IN	_	6	_	_	start_char=138|end_char=140
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=141|end_char=142
+9	Toyota	Toyota	PROPN	NNP	Number=Sing	8	_	_	start_char=143|end_char=149
+10	Corolla	Corolla	PROPN	NNP	Number=Sing	9	_	_	start_char=150|end_char=157|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=157|end_char=158|SpaceAfter=No
+

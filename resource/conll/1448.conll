@@ -1,0 +1,54 @@
+# text = Yeah like I stubbed my toe and made a peanut butter sandwich today.
+# sent_id = 3017
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	like	like	INTJ	UH	_	1	_	_	start_char=5|end_char=9
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=10|end_char=11
+4	stubbed	stub	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=12|end_char=19
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=20|end_char=22
+6	toe	toe	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=26
+7	and	and	CCONJ	CC	_	6	_	_	start_char=27|end_char=30
+8	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	_	_	start_char=31|end_char=35
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=36|end_char=37
+10	peanut	peanut	NOUN	NN	Number=Sing	9	_	_	start_char=38|end_char=44
+11	butter	butter	NOUN	NN	Number=Sing	10	_	_	start_char=45|end_char=51
+12	sandwich	sandwich	NOUN	NN	Number=Sing	11	_	_	start_char=52|end_char=60
+13	today	today	NOUN	NN	Number=Sing	12	_	_	start_char=61|end_char=66|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=66|end_char=67
+
+# text = My kid is great.
+# sent_id = 3018
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=68|end_char=70
+2	kid	kid	NOUN	NN	Number=Sing	1	_	_	start_char=71|end_char=74
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=75|end_char=77
+4	great	great	ADJ	JJ	Degree=Pos	3	_	_	start_char=78|end_char=83|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=83|end_char=84
+
+# text = I'm an awesome mom, when you know they suck at life.
+# sent_id = 3019
+1-2	I'm	_	_	_	_	_	_	_	start_char=85|end_char=88
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=85|end_char=86
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=86|end_char=88
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=89|end_char=91
+4	awesome	awesome	ADJ	JJ	Degree=Pos	3	_	_	start_char=92|end_char=99
+5	mom	mom	NOUN	NN	Number=Sing	4	_	_	start_char=100|end_char=103|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=103|end_char=104
+7	when	when	ADV	WRB	PronType=Int	6	_	_	start_char=105|end_char=109
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=110|end_char=113
+9	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=114|end_char=118
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=119|end_char=123
+11	suck	suck	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=124|end_char=128
+12	at	at	ADP	IN	_	11	_	_	start_char=129|end_char=131
+13	life	life	NOUN	NN	Number=Sing	12	_	_	start_char=132|end_char=136|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=136|end_char=137
+
+# text = It's peoples own little reality show
+# sent_id = 3020
+1-2	It's	_	_	_	_	_	_	_	start_char=138|end_char=142
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=138|end_char=140
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=140|end_char=142
+3	peoples	people	NOUN	NNS	Number=Plur	2	_	_	start_char=143|end_char=150
+4	own	own	ADJ	JJ	Degree=Pos	3	_	_	start_char=151|end_char=154
+5	little	little	ADJ	JJ	Degree=Pos	4	_	_	start_char=155|end_char=161
+6	reality	reality	NOUN	NN	Number=Sing	5	_	_	start_char=162|end_char=169
+7	show	show	NOUN	NN	Number=Sing	6	_	_	start_char=170|end_char=174|SpaceAfter=No
+

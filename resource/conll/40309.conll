@@ -1,0 +1,40 @@
+# text = What do y'all think about this?
+# sent_id = 86172
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	y'	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	_	_	start_char=8|end_char=10|SpaceAfter=No
+4	all	all	DET	DT	_	3	_	_	start_char=10|end_char=13
+5	think	think	VERB	VB	VerbForm=Inf	4	_	_	start_char=14|end_char=19
+6	about	about	ADP	IN	_	5	_	_	start_char=20|end_char=25
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=26|end_char=30|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=30|end_char=31
+
+# text = Would it be sexual harassment if you were looking at her chest as it was hanging out in public?
+# sent_id = 86173
+1	Would	would	AUX	MD	VerbForm=Fin	0	_	_	start_char=32|end_char=37
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=38|end_char=40
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=41|end_char=43
+4	sexual	sexual	ADJ	JJ	Degree=Pos	3	_	_	start_char=44|end_char=50
+5	harassment	harassment	NOUN	NN	Number=Sing	4	_	_	start_char=51|end_char=61
+6	if	if	SCONJ	IN	_	5	_	_	start_char=62|end_char=64
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=65|end_char=68
+8	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	7	_	_	start_char=69|end_char=73
+9	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=74|end_char=81
+10	at	at	ADP	IN	_	9	_	_	start_char=82|end_char=84
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=85|end_char=88
+12	chest	chest	NOUN	NN	Number=Sing	11	_	_	start_char=89|end_char=94
+13	as	as	SCONJ	IN	_	12	_	_	start_char=95|end_char=97
+14	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=98|end_char=100
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=101|end_char=104
+16	hanging	hang	VERB	VBG	Tense=Pres|VerbForm=Part	15	_	_	start_char=105|end_char=112
+17	out	out	ADP	RP	_	16	_	_	start_char=113|end_char=116
+18	in	in	ADP	IN	_	17	_	_	start_char=117|end_char=119
+19	public	public	NOUN	NN	Number=Sing	18	_	_	start_char=120|end_char=126|SpaceAfter=No
+20	?	?	PUNCT	.	_	19	_	_	start_char=126|end_char=127
+
+# text = [URL]
+# sent_id = 86174
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=128|end_char=129|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=129|end_char=132|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=132|end_char=133|SpaceAfter=No
+

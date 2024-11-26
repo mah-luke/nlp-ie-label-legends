@@ -1,0 +1,36 @@
+# text = [USER]
+# sent_id = 65131
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = I don't think Sturgeon has woken to the fact that she's walking the plank, as opposed to the path of righteousness.
+# sent_id = 65132
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
+2-3	don't	_	_	_	_	_	_	_	start_char=9|end_char=14
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=11
+3	n't	not	PART	RB	_	2	_	_	start_char=11|end_char=14
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=15|end_char=20
+5	Sturgeon	Sturgeon	PROPN	NNP	Number=Sing	4	_	_	start_char=21|end_char=29
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=30|end_char=33
+7	woken	wake	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=34|end_char=39
+8	to	to	ADP	IN	_	7	_	_	start_char=40|end_char=42
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=43|end_char=46
+10	fact	fact	NOUN	NN	Number=Sing	9	_	_	start_char=47|end_char=51
+11	that	that	SCONJ	IN	_	10	_	_	start_char=52|end_char=56
+12-13	she's	_	_	_	_	_	_	_	start_char=57|end_char=62
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=57|end_char=60
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=60|end_char=62
+14	walking	walk	VERB	VBG	Tense=Pres|VerbForm=Part	13	_	_	start_char=63|end_char=70
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=71|end_char=74
+16	plank	plank	NOUN	NN	Number=Sing	15	_	_	start_char=75|end_char=80|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=80|end_char=81
+18	as	as	SCONJ	IN	_	17	_	_	start_char=82|end_char=84
+19	opposed	oppose	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=85|end_char=92
+20	to	to	ADP	IN	_	19	_	_	start_char=93|end_char=95
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=96|end_char=99
+22	path	path	NOUN	NN	Number=Sing	21	_	_	start_char=100|end_char=104
+23	of	of	ADP	IN	_	22	_	_	start_char=105|end_char=107
+24	righteousness	righteousness	NOUN	NN	Number=Sing	23	_	_	start_char=108|end_char=121|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=121|end_char=122|SpaceAfter=No
+

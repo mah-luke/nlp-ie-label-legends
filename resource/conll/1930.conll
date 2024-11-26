@@ -1,0 +1,33 @@
+# text = My mother doesn't use me for money.
+# sent_id = 4058
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	mother	mother	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=9
+3-4	doesn't	_	_	_	_	_	_	_	start_char=10|end_char=17
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=14
+4	n't	not	PART	RB	_	3	_	_	start_char=14|end_char=17
+5	use	use	VERB	VB	VerbForm=Inf	4	_	_	start_char=18|end_char=21
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=22|end_char=24
+7	for	for	ADP	IN	_	6	_	_	start_char=25|end_char=28
+8	money	money	NOUN	NN	Number=Sing	7	_	_	start_char=29|end_char=34|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=34|end_char=35
+
+# text = But my father is constantly trying to even though I don't make much money.
+# sent_id = 4059
+1	But	but	CCONJ	CC	_	0	_	_	start_char=36|end_char=39
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=40|end_char=42
+3	father	father	NOUN	NN	Number=Sing	2	_	_	start_char=43|end_char=49
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=50|end_char=52
+5	constantly	constantly	ADV	RB	_	4	_	_	start_char=53|end_char=63
+6	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=64|end_char=70
+7	to	to	PART	TO	_	6	_	_	start_char=71|end_char=73
+8	even	even	ADV	RB	_	7	_	_	start_char=74|end_char=78
+9	though	though	SCONJ	IN	_	8	_	_	start_char=79|end_char=85
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=86|end_char=87
+11-12	don't	_	_	_	_	_	_	_	start_char=88|end_char=93
+11	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=88|end_char=90
+12	n't	not	PART	RB	_	11	_	_	start_char=90|end_char=93
+13	make	make	VERB	VB	VerbForm=Inf	12	_	_	start_char=94|end_char=98
+14	much	much	ADJ	JJ	Degree=Pos	13	_	_	start_char=99|end_char=103
+15	money	money	NOUN	NN	Number=Sing	14	_	_	start_char=104|end_char=109|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=109|end_char=110|SpaceAfter=No
+

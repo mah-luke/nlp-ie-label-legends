@@ -1,0 +1,30 @@
+# text = Oh, my bad.
+# sent_id = 57843
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=4|end_char=6
+4	bad	bad	ADJ	JJ	Degree=Pos	3	_	_	start_char=7|end_char=10|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=10|end_char=11
+
+# text = This is definitely Meg Ryan.
+# sent_id = 57844
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=12|end_char=16
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=17|end_char=19
+3	definitely	definitely	ADV	RB	_	2	_	_	start_char=20|end_char=30
+4	Meg	Meg	PROPN	NNP	Number=Sing	3	_	_	start_char=31|end_char=34
+5	Ryan	Ryan	PROPN	NNP	Number=Sing	4	_	_	start_char=35|end_char=39|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=39|end_char=40
+
+# text = You can tell because she's so quirky.
+# sent_id = 57845
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=41|end_char=44
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=45|end_char=48
+3	tell	tell	VERB	VB	VerbForm=Inf	2	_	_	start_char=49|end_char=53
+4	because	because	SCONJ	IN	_	3	_	_	start_char=54|end_char=61
+5-6	she's	_	_	_	_	_	_	_	start_char=62|end_char=67
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=62|end_char=65
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=65|end_char=67
+7	so	so	ADV	RB	_	6	_	_	start_char=68|end_char=70
+8	quirky	quirky	ADJ	JJ	Degree=Pos	7	_	_	start_char=71|end_char=77|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=77|end_char=78|SpaceAfter=No
+

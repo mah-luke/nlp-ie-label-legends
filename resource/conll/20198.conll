@@ -1,0 +1,30 @@
+# text = It's so easy.
+# sent_id = 43366
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	so	so	ADV	RB	_	2	_	_	start_char=5|end_char=7
+4	easy	easy	ADJ	JJ	Degree=Pos	3	_	_	start_char=8|end_char=12|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=12|end_char=13
+
+# text = Just have a vagina at birth and you'll be treated like a princess for life.
+# sent_id = 43367
+1	Just	just	ADV	RB	_	0	_	_	start_char=14|end_char=18
+2	have	have	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=19|end_char=23
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=24|end_char=25
+4	vagina	vagina	NOUN	NN	Number=Sing	3	_	_	start_char=26|end_char=32
+5	at	at	ADP	IN	_	4	_	_	start_char=33|end_char=35
+6	birth	birth	NOUN	NN	Number=Sing	5	_	_	start_char=36|end_char=41
+7	and	and	CCONJ	CC	_	6	_	_	start_char=42|end_char=45
+8-9	you'll	_	_	_	_	_	_	_	start_char=46|end_char=52
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=46|end_char=49
+9	'll	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=49|end_char=52
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=53|end_char=55
+11	treated	treat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=56|end_char=63
+12	like	like	ADP	IN	_	11	_	_	start_char=64|end_char=68
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=69|end_char=70
+14	princess	princess	NOUN	NN	Number=Sing	13	_	_	start_char=71|end_char=79
+15	for	for	ADP	IN	_	14	_	_	start_char=80|end_char=83
+16	life	life	NOUN	NN	Number=Sing	15	_	_	start_char=84|end_char=88|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=88|end_char=89|SpaceAfter=No
+

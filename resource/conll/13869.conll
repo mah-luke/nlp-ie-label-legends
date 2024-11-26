@@ -1,0 +1,28 @@
+# text = Typical tin hat cunt.
+# sent_id = 29553
+1	Typical	Typical	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=7
+2	tin	tin	NOUN	NN	Number=Sing	1	_	_	start_char=8|end_char=11
+3	hat	hat	NOUN	NN	Number=Sing	2	_	_	start_char=12|end_char=15
+4	cunt	cunt	NOUN	NN	Number=Sing	3	_	_	start_char=16|end_char=20|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=20|end_char=21
+
+# text = Gonna tell me I fuck my mother next you 11 toed inbred fucking hillbilly?
+# sent_id = 29554
+1-2	Gonna	_	_	_	_	_	_	_	start_char=22|end_char=27
+1	Gon	go	VERB	VBG	VerbForm=Ger	0	_	_	start_char=22|end_char=25
+2	na	to	PART	TO	_	1	_	_	start_char=25|end_char=27
+3	tell	tell	VERB	VB	VerbForm=Inf	2	_	_	start_char=28|end_char=32
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=33|end_char=35
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=36|end_char=37
+6	fuck	fuck	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=38|end_char=42
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=43|end_char=45
+8	mother	mother	NOUN	NN	Number=Sing	7	_	_	start_char=46|end_char=52
+9	next	next	ADP	IN	_	8	_	_	start_char=53|end_char=57
+10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	_	_	start_char=58|end_char=61
+11	11	11	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=62|end_char=64
+12	toed	toed	NOUN	NN	Number=Sing	11	_	_	start_char=65|end_char=69
+13	inbred	inbred	ADJ	JJ	Degree=Pos	12	_	_	start_char=70|end_char=76
+14	fucking	fucking	ADV	RB	_	13	_	_	start_char=77|end_char=84
+15	hillbilly	hillbilly	ADJ	JJ	Degree=Pos	14	_	_	start_char=85|end_char=94|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=94|end_char=95|SpaceAfter=No
+

@@ -1,0 +1,64 @@
+# text = Got kicked out of school again.
+# sent_id = 36045
+1	Got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	kicked	kick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	1	_	_	start_char=4|end_char=10
+3	out	out	ADP	IN	_	2	_	_	start_char=11|end_char=14
+4	of	of	ADP	IN	_	3	_	_	start_char=15|end_char=17
+5	school	school	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=24
+6	again	again	ADV	RB	_	5	_	_	start_char=25|end_char=30|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=30|end_char=31
+
+# text = I'd been to watch my daughter's class give a gymnastics display, but without thinking, instinct and force of habit took over.
+# sent_id = 36046
+1-2	I'd	_	_	_	_	_	_	_	start_char=32|end_char=35
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=32|end_char=33
+2	'd	would	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=33|end_char=35
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=36|end_char=40
+4	to	to	PART	TO	_	3	_	_	start_char=41|end_char=43
+5	watch	watch	VERB	VB	VerbForm=Inf	4	_	_	start_char=44|end_char=49
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=50|end_char=52
+7-8	daughter's	_	_	_	_	_	_	_	start_char=53|end_char=63
+7	daughter	daughter	NOUN	NN	Number=Sing	6	_	_	start_char=53|end_char=61
+8	's	's	PART	POS	_	7	_	_	start_char=61|end_char=63
+9	class	class	NOUN	NN	Number=Sing	8	_	_	start_char=64|end_char=69
+10	give	give	VERB	VB	VerbForm=Inf	9	_	_	start_char=70|end_char=74
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=75|end_char=76
+12	gymnastics	gymnastic	NOUN	NN	Number=Sing	11	_	_	start_char=77|end_char=87
+13	display	display	NOUN	NN	Number=Sing	12	_	_	start_char=88|end_char=95|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=95|end_char=96
+15	but	but	CCONJ	CC	_	14	_	_	start_char=97|end_char=100
+16	without	without	SCONJ	IN	_	15	_	_	start_char=101|end_char=108
+17	thinking	think	VERB	VBG	VerbForm=Ger	16	_	_	start_char=109|end_char=117|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=117|end_char=118
+19	instinct	instinct	NOUN	NN	Number=Sing	18	_	_	start_char=119|end_char=127
+20	and	and	CCONJ	CC	_	19	_	_	start_char=128|end_char=131
+21	force	force	NOUN	NN	Number=Sing	20	_	_	start_char=132|end_char=137
+22	of	of	ADP	IN	_	21	_	_	start_char=138|end_char=140
+23	habit	habit	NOUN	NN	Number=Sing	22	_	_	start_char=141|end_char=146
+24	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	_	_	start_char=147|end_char=151
+25	over	over	ADP	RP	_	24	_	_	start_char=152|end_char=156|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=156|end_char=157
+
+# text = I grabbed hold of the sexiest one and tucked a £20 note down the top of her leotard.
+# sent_id = 36047
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=158|end_char=159
+2	grabbed	grab	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=160|end_char=167
+3	hold	hold	NOUN	NN	Number=Sing	2	_	_	start_char=168|end_char=172
+4	of	of	ADP	IN	_	3	_	_	start_char=173|end_char=175
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=176|end_char=179
+6	sexiest	sexiest	ADJ	JJS	Degree=Sup	5	_	_	start_char=180|end_char=187
+7	one	one	NOUN	NN	Number=Sing	6	_	_	start_char=188|end_char=191
+8	and	and	CCONJ	CC	_	7	_	_	start_char=192|end_char=195
+9	tucked	tuck	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	_	_	start_char=196|end_char=202
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=203|end_char=204
+11	£	£	SYM	$	_	10	_	_	start_char=205|end_char=206|SpaceAfter=No
+12	20	20	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=206|end_char=208
+13	note	note	NOUN	NN	Number=Sing	12	_	_	start_char=209|end_char=213
+14	down	down	ADP	IN	_	13	_	_	start_char=214|end_char=218
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=219|end_char=222
+16	top	top	NOUN	NN	Number=Sing	15	_	_	start_char=223|end_char=226
+17	of	of	ADP	IN	_	16	_	_	start_char=227|end_char=229
+18	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=230|end_char=233
+19	leotard	leotard	NOUN	NN	Number=Sing	18	_	_	start_char=234|end_char=241|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=241|end_char=242|SpaceAfter=No
+

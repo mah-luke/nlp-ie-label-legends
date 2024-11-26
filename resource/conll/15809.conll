@@ -1,0 +1,33 @@
+# text = Let me add I regard all those people as white.
+# sent_id = 33814
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=4|end_char=6
+3	add	add	VERB	VB	VerbForm=Inf	2	_	_	start_char=7|end_char=10
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=11|end_char=12
+5	regard	regard	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=13|end_char=19
+6	all	all	DET	PDT	_	5	_	_	start_char=20|end_char=23
+7	those	that	DET	DT	Number=Plur|PronType=Dem	6	_	_	start_char=24|end_char=29
+8	people	person	NOUN	NNS	Number=Plur	7	_	_	start_char=30|end_char=36
+9	as	as	ADP	IN	_	8	_	_	start_char=37|end_char=39
+10	white	white	ADJ	JJ	Degree=Pos	9	_	_	start_char=40|end_char=45|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=45|end_char=46
+
+# text = I would probably regard 75% plus identifying as white to be the cut off.
+# sent_id = 33815
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=47|end_char=48
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=49|end_char=54
+3	probably	probably	ADV	RB	_	2	_	_	start_char=55|end_char=63
+4	regard	regard	VERB	VB	VerbForm=Inf	3	_	_	start_char=64|end_char=70
+5	75	75	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=71|end_char=73|SpaceAfter=No
+6	%	%	SYM	NN	Number=Sing	5	_	_	start_char=73|end_char=74
+7	plus	plus	CCONJ	CC	_	6	_	_	start_char=75|end_char=79
+8	identifying	identify	VERB	VBG	VerbForm=Ger	7	_	_	start_char=80|end_char=91
+9	as	as	ADP	IN	_	8	_	_	start_char=92|end_char=94
+10	white	white	ADJ	JJ	Degree=Pos	9	_	_	start_char=95|end_char=100
+11	to	to	PART	TO	_	10	_	_	start_char=101|end_char=103
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	start_char=104|end_char=106
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=107|end_char=110
+14	cut	cut	NOUN	NN	Number=Sing	13	_	_	start_char=111|end_char=114
+15	off	off	ADP	RP	_	14	_	_	start_char=115|end_char=118|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=118|end_char=119|SpaceAfter=No
+

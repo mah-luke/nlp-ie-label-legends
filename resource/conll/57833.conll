@@ -1,0 +1,23 @@
+# text = you're wrong.
+# sent_id = 123541
+1-2	you're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	wrong	wrong	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=12|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=12|end_char=13
+
+# text = its your shitty attitude that is turning them off.
+# sent_id = 123542
+1-2	its	_	_	_	_	_	_	_	start_char=14|end_char=17
+1	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=14|end_char=16
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=16|end_char=17
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=18|end_char=22
+4	shitty	shitty	ADJ	JJ	Degree=Pos	3	_	_	start_char=23|end_char=29
+5	attitude	attitude	NOUN	NN	Number=Sing	4	_	_	start_char=30|end_char=38
+6	that	that	PRON	WDT	PronType=Rel	5	_	_	start_char=39|end_char=43
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=44|end_char=46
+8	turning	turn	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=47|end_char=54
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=55|end_char=59
+10	off	off	ADP	RP	_	9	_	_	start_char=60|end_char=63|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=63|end_char=64|SpaceAfter=No
+

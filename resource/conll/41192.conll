@@ -1,0 +1,53 @@
+# text = Wait...can canadians hate?
+# sent_id = 88146
+1	Wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	...	...	PUNCT	,	_	1	_	_	start_char=4|end_char=7|SpaceAfter=No
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=7|end_char=10
+4	canadians	canadian	NOUN	NNS	Number=Plur	3	_	_	start_char=11|end_char=20
+5	hate	hate	VERB	VB	VerbForm=Inf	4	_	_	start_char=21|end_char=25|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=25|end_char=26
+
+# text = Or is it just that if they saw him on the street they wouldn't say "hi buddy, how are you?"
+# sent_id = 88147
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=27|end_char=29
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=30|end_char=32
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=33|end_char=35
+4	just	just	ADV	RB	_	3	_	_	start_char=36|end_char=40
+5	that	that	SCONJ	IN	_	4	_	_	start_char=41|end_char=45
+6	if	if	SCONJ	IN	_	5	_	_	start_char=46|end_char=48
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=49|end_char=53
+8	saw	see	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=54|end_char=57
+9	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=58|end_char=61
+10	on	on	ADP	IN	_	9	_	_	start_char=62|end_char=64
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=65|end_char=68
+12	street	street	NOUN	NN	Number=Sing	11	_	_	start_char=69|end_char=75
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=76|end_char=80
+14-15	wouldn't	_	_	_	_	_	_	_	start_char=81|end_char=89
+14	would	would	AUX	MD	VerbForm=Fin	13	_	_	start_char=81|end_char=86
+15	n't	not	PART	RB	_	14	_	_	start_char=86|end_char=89
+16	say	say	VERB	VB	VerbForm=Inf	15	_	_	start_char=90|end_char=93
+17	"	"	PUNCT	``	_	16	_	_	start_char=94|end_char=95|SpaceAfter=No
+18	hi	hi	INTJ	UH	_	17	_	_	start_char=95|end_char=97
+19	buddy	buddy	NOUN	NN	Number=Sing	18	_	_	start_char=98|end_char=103|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=103|end_char=104
+21	how	how	ADV	WRB	PronType=Int	20	_	_	start_char=105|end_char=108
+22	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	_	_	start_char=109|end_char=112
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	_	_	start_char=113|end_char=116|SpaceAfter=No
+24	?	?	PUNCT	.	_	23	_	_	start_char=116|end_char=117|SpaceAfter=No
+25	"	"	PUNCT	''	_	24	_	_	start_char=117|end_char=118
+
+# text = They'd skip straight to the "hi buddy".
+# sent_id = 88148
+1-2	They'd	_	_	_	_	_	_	_	start_char=119|end_char=125
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=119|end_char=123
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=123|end_char=125
+3	skip	skip	VERB	VB	VerbForm=Inf	2	_	_	start_char=126|end_char=130
+4	straight	straight	ADV	RB	_	3	_	_	start_char=131|end_char=139
+5	to	to	ADP	IN	_	4	_	_	start_char=140|end_char=142
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=143|end_char=146
+7	"	"	PUNCT	``	_	6	_	_	start_char=147|end_char=148|SpaceAfter=No
+8	hi	hi	INTJ	UH	_	7	_	_	start_char=148|end_char=150
+9	buddy	buddy	NOUN	NN	Number=Sing	8	_	_	start_char=151|end_char=156|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=156|end_char=157|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=157|end_char=158|SpaceAfter=No
+

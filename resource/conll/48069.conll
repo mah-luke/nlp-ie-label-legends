@@ -1,0 +1,22 @@
+# text = "Never listen to me ever."
+# sent_id = 102762
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Never	never	ADV	RB	_	1	_	_	start_char=1|end_char=6
+3	listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=7|end_char=13
+4	to	to	ADP	IN	_	3	_	_	start_char=14|end_char=16
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=17|end_char=19
+6	ever	ever	ADV	RB	_	5	_	_	start_char=20|end_char=24|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=24|end_char=25|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=25|end_char=26
+
+# text = Excellent idea there you little lying witch!
+# sent_id = 102763
+1	Excellent	excellent	ADJ	JJ	Degree=Pos	0	_	_	start_char=27|end_char=36
+2	idea	idea	NOUN	NN	Number=Sing	1	_	_	start_char=37|end_char=41
+3	there	there	PRON	EX	_	2	_	_	start_char=42|end_char=47
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=48|end_char=51
+5	little	little	ADJ	JJ	Degree=Pos	4	_	_	start_char=52|end_char=58
+6	lying	lie	VERB	VBG	VerbForm=Ger	5	_	_	start_char=59|end_char=64
+7	witch	witch	NOUN	NN	Number=Sing	6	_	_	start_char=65|end_char=70|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=70|end_char=71|SpaceAfter=No
+

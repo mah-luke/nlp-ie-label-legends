@@ -1,0 +1,29 @@
+# text = You’re not gonna do it.
+# sent_id = 30019
+1-2	You’re	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	not	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4-5	gonna	_	_	_	_	_	_	_	start_char=11|end_char=16
+4	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=11|end_char=14
+5	na	to	PART	TO	_	4	_	_	start_char=14|end_char=16
+6	do	do	VERB	VB	VerbForm=Inf	5	_	_	start_char=17|end_char=19
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=20|end_char=22|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=22|end_char=23
+
+# text = Marry her and live the rest of your life with an insufferable cunt
+# sent_id = 30020
+1	Marry	marry	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=24|end_char=29
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=30|end_char=33
+3	and	and	CCONJ	CC	_	2	_	_	start_char=34|end_char=37
+4	live	live	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=38|end_char=42
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=43|end_char=46
+6	rest	rest	NOUN	NN	Number=Sing	5	_	_	start_char=47|end_char=51
+7	of	of	ADP	IN	_	6	_	_	start_char=52|end_char=54
+8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	_	_	start_char=55|end_char=59
+9	life	life	NOUN	NN	Number=Sing	8	_	_	start_char=60|end_char=64
+10	with	with	ADP	IN	_	9	_	_	start_char=65|end_char=69
+11	an	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=70|end_char=72
+12	insufferable	insufferable	ADJ	JJ	Degree=Pos	11	_	_	start_char=73|end_char=85
+13	cunt	cunt	NOUN	NN	Number=Sing	12	_	_	start_char=86|end_char=90|SpaceAfter=No
+

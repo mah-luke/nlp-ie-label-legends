@@ -1,0 +1,53 @@
+# text = That 40-50% number includes second and above marriages.
+# sent_id = 118245
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	40	40	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=5|end_char=7|SpaceAfter=No
+3	-	-	SYM	SYM	_	2	_	_	start_char=7|end_char=8|SpaceAfter=No
+4	50	50	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=8|end_char=10|SpaceAfter=No
+5	%	%	SYM	NN	Number=Sing	4	_	_	start_char=10|end_char=11
+6	number	number	NOUN	NN	Number=Sing	5	_	_	start_char=12|end_char=18
+7	includes	include	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=19|end_char=27
+8	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	7	_	_	start_char=28|end_char=34
+9	and	and	CCONJ	CC	_	8	_	_	start_char=35|end_char=38
+10	above	above	ADP	IN	_	9	_	_	start_char=39|end_char=44
+11	marriages	marriage	NOUN	NNS	Number=Plur	10	_	_	start_char=45|end_char=54|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=54|end_char=55
+
+# text = If you get divorced once, you are more likely to do it again.
+# sent_id = 118246
+1	If	if	SCONJ	IN	_	0	_	_	start_char=56|end_char=58
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=59|end_char=62
+3	get	get	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=63|end_char=66
+4	divorced	divorce	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=67|end_char=75
+5	once	once	ADV	RB	NumType=Mult	4	_	_	start_char=76|end_char=80|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=80|end_char=81
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=82|end_char=85
+8	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=86|end_char=89
+9	more	more	ADV	RBR	Degree=Cmp	8	_	_	start_char=90|end_char=94
+10	likely	likely	ADJ	JJ	Degree=Pos	9	_	_	start_char=95|end_char=101
+11	to	to	PART	TO	_	10	_	_	start_char=102|end_char=104
+12	do	do	VERB	VB	VerbForm=Inf	11	_	_	start_char=105|end_char=107
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=108|end_char=110
+14	again	again	ADV	RB	_	13	_	_	start_char=111|end_char=116|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=116|end_char=117
+
+# text = The number of first marriages that make it is much higher than 50-60% IIRC
+# sent_id = 118247
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=118|end_char=121
+2	number	number	NOUN	NN	Number=Sing	1	_	_	start_char=122|end_char=128
+3	of	of	ADP	IN	_	2	_	_	start_char=129|end_char=131
+4	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	3	_	_	start_char=132|end_char=137
+5	marriages	marriage	NOUN	NNS	Number=Plur	4	_	_	start_char=138|end_char=147
+6	that	that	PRON	WDT	PronType=Rel	5	_	_	start_char=148|end_char=152
+7	make	make	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=153|end_char=157
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=158|end_char=160
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=161|end_char=163
+10	much	much	ADV	RB	_	9	_	_	start_char=164|end_char=168
+11	higher	high	ADJ	JJR	Degree=Cmp	10	_	_	start_char=169|end_char=175
+12	than	than	ADP	IN	_	11	_	_	start_char=176|end_char=180
+13	50	50	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=181|end_char=183|SpaceAfter=No
+14	-	-	SYM	SYM	_	13	_	_	start_char=183|end_char=184|SpaceAfter=No
+15	60	60	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=184|end_char=186|SpaceAfter=No
+16	%	%	SYM	NN	Number=Sing	15	_	_	start_char=186|end_char=187
+17	IIRC	IIRC	PROPN	NNP	Number=Sing	16	_	_	start_char=188|end_char=192|SpaceAfter=No
+

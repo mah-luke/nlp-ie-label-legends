@@ -1,0 +1,59 @@
+# text = Go to a third world country to treat depression?
+# sent_id = 41673
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	to	to	ADP	IN	_	1	_	_	start_char=3|end_char=5
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=6|end_char=7
+4	third	third	ADJ	JJ	Degree=Pos|NumType=Ord	3	_	_	start_char=8|end_char=13
+5	world	world	NOUN	NN	Number=Sing	4	_	_	start_char=14|end_char=19
+6	country	country	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=27
+7	to	to	PART	TO	_	6	_	_	start_char=28|end_char=30
+8	treat	treat	VERB	VB	VerbForm=Inf	7	_	_	start_char=31|end_char=36
+9	depression	depression	NOUN	NN	Number=Sing	8	_	_	start_char=37|end_char=47|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=47|end_char=48
+
+# text = Why didn't she do what Vader does when he's depressed?
+# sent_id = 41674
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=49|end_char=52
+2-3	didn't	_	_	_	_	_	_	_	start_char=53|end_char=59
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=53|end_char=56
+3	n't	not	PART	RB	_	2	_	_	start_char=56|end_char=59
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=60|end_char=63
+5	do	do	VERB	VB	VerbForm=Inf	4	_	_	start_char=64|end_char=66
+6	what	what	PRON	WP	PronType=Rel	5	_	_	start_char=67|end_char=71
+7	Vader	Vader	PROPN	NNP	Number=Sing	6	_	_	start_char=72|end_char=77
+8	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=78|end_char=82
+9	when	when	ADV	WRB	PronType=Int	8	_	_	start_char=83|end_char=87
+10-11	he's	_	_	_	_	_	_	_	start_char=88|end_char=92
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=88|end_char=90
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=90|end_char=92
+12	depressed	depressed	ADJ	JJ	Degree=Pos	11	_	_	start_char=93|end_char=102|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=102|end_char=103
+
+# text = Go the nearest Tatooine strip club to get Sith stinking drunk and bring one hundred dollars worth of one dollar bills to cure depression?
+# sent_id = 41675
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=104|end_char=106
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=107|end_char=110
+3	nearest	near	ADJ	JJS	Degree=Sup	2	_	_	start_char=111|end_char=118
+4	Tatooine	Tatooine	PROPN	NNP	Number=Sing	3	_	_	start_char=119|end_char=127
+5	strip	strip	NOUN	NN	Number=Sing	4	_	_	start_char=128|end_char=133
+6	club	club	NOUN	NN	Number=Sing	5	_	_	start_char=134|end_char=138
+7	to	to	PART	TO	_	6	_	_	start_char=139|end_char=141
+8	get	get	VERB	VB	VerbForm=Inf	7	_	_	start_char=142|end_char=145
+9	Sith	sith	NOUN	NN	Number=Sing	8	_	_	start_char=146|end_char=150
+10	stinking	stinking	VERB	VBG	VerbForm=Ger	9	_	_	start_char=151|end_char=159
+11	drunk	drunk	ADJ	JJ	Degree=Pos	10	_	_	start_char=160|end_char=165
+12	and	and	CCONJ	CC	_	11	_	_	start_char=166|end_char=169
+13	bring	bring	VERB	VB	Mood=Imp|VerbForm=Inf	12	_	_	start_char=170|end_char=175
+14	one	one	NUM	CD	NumForm=Word|NumType=Card	13	_	_	start_char=176|end_char=179
+15	hundred	hundred	NUM	CD	NumForm=Word|NumType=Card	14	_	_	start_char=180|end_char=187
+16	dollars	dollar	NOUN	NNS	Number=Plur	15	_	_	start_char=188|end_char=195
+17	worth	worth	NOUN	NN	Number=Sing	16	_	_	start_char=196|end_char=201
+18	of	of	ADP	IN	_	17	_	_	start_char=202|end_char=204
+19	one	one	NUM	CD	NumForm=Word|NumType=Card	18	_	_	start_char=205|end_char=208
+20	dollar	dollar	NOUN	NN	Number=Sing	19	_	_	start_char=209|end_char=215
+21	bills	bill	NOUN	NNS	Number=Plur	20	_	_	start_char=216|end_char=221
+22	to	to	PART	TO	_	21	_	_	start_char=222|end_char=224
+23	cure	cure	VERB	VB	VerbForm=Inf	22	_	_	start_char=225|end_char=229
+24	depression	depression	NOUN	NN	Number=Sing	23	_	_	start_char=230|end_char=240|SpaceAfter=No
+25	?	?	PUNCT	.	_	24	_	_	start_char=240|end_char=241|SpaceAfter=No
+

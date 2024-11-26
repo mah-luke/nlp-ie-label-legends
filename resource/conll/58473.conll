@@ -1,0 +1,48 @@
+# text = [USER]
+# sent_id = 124845
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Yea, animals are nice, I've been sick and my Tabby loves on me more, he knows, they are smart.
+# sent_id = 124846
+1	Yea	yea	INTJ	UH	_	0	_	_	start_char=7|end_char=10|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=10|end_char=11
+3	animals	animal	NOUN	NNS	Number=Plur	2	_	_	start_char=12|end_char=19
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=20|end_char=23
+5	nice	nice	ADJ	JJ	Degree=Pos	4	_	_	start_char=24|end_char=28|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=28|end_char=29
+7-8	I've	_	_	_	_	_	_	_	start_char=30|end_char=34
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=30|end_char=31
+8	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=31|end_char=34
+9	been	be	AUX	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=35|end_char=39
+10	sick	sick	ADJ	JJ	Degree=Pos	9	_	_	start_char=40|end_char=44
+11	and	and	CCONJ	CC	_	10	_	_	start_char=45|end_char=48
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	_	_	start_char=49|end_char=51
+13	Tabby	tabby	NOUN	NN	Number=Sing	12	_	_	start_char=52|end_char=57
+14	loves	love	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=58|end_char=63
+15	on	on	ADP	IN	_	14	_	_	start_char=64|end_char=66
+16	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=67|end_char=69
+17	more	more	ADV	RBR	Degree=Cmp	16	_	_	start_char=70|end_char=74|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=74|end_char=75
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=76|end_char=78
+20	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=79|end_char=84|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	_	_	start_char=84|end_char=85
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	_	_	start_char=86|end_char=90
+23	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=91|end_char=94
+24	smart	smart	ADJ	JJ	Degree=Pos	23	_	_	start_char=95|end_char=100|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=100|end_char=101
+
+# text = I got a bad habit of spoiling animals though😁
+# sent_id = 124847
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=102|end_char=103
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=104|end_char=107
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=108|end_char=109
+4	bad	bad	ADJ	JJ	Degree=Pos	3	_	_	start_char=110|end_char=113
+5	habit	habit	NOUN	NN	Number=Sing	4	_	_	start_char=114|end_char=119
+6	of	of	ADP	IN	_	5	_	_	start_char=120|end_char=122
+7	spoiling	spoil	VERB	VBG	VerbForm=Ger	6	_	_	start_char=123|end_char=131
+8	animals	animal	NOUN	NNS	Number=Plur	7	_	_	start_char=132|end_char=139
+9	though	though	ADV	RB	_	8	_	_	start_char=140|end_char=146|SpaceAfter=No
+10	😁	😁	PUNCT	:	_	9	_	_	start_char=146|end_char=147|SpaceAfter=No
+

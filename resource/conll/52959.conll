@@ -1,0 +1,57 @@
+# text = I don't really need to.
+# sent_id = 113181
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	don't	_	_	_	_	_	_	_	start_char=2|end_char=7
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	n't	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	really	really	ADV	RB	_	3	_	_	start_char=8|end_char=14
+5	need	need	VERB	VB	VerbForm=Inf	4	_	_	start_char=15|end_char=19
+6	to	to	PART	TO	_	5	_	_	start_char=20|end_char=22|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=22|end_char=23
+
+# text = It will be scrubbed from the earth and tossed into the trashcan of history.
+# sent_id = 113182
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=24|end_char=26
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=27|end_char=31
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=32|end_char=34
+4	scrubbed	scrubb	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=35|end_char=43
+5	from	from	ADP	IN	_	4	_	_	start_char=44|end_char=48
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=49|end_char=52
+7	earth	earth	NOUN	NN	Number=Sing	6	_	_	start_char=53|end_char=58
+8	and	and	CCONJ	CC	_	7	_	_	start_char=59|end_char=62
+9	tossed	toss	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=63|end_char=69
+10	into	into	ADP	IN	_	9	_	_	start_char=70|end_char=74
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=75|end_char=78
+12	trashcan	trashcan	NOUN	NN	Number=Sing	11	_	_	start_char=79|end_char=87
+13	of	of	ADP	IN	_	12	_	_	start_char=88|end_char=90
+14	history	history	NOUN	NN	Number=Sing	13	_	_	start_char=91|end_char=98|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=98|end_char=99
+
+# text = Your a disgusting shitty human( and I'm being far to kind to consider you human) and your profile reflects that.
+# sent_id = 113183
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=100|end_char=104
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=105|end_char=106
+3	disgusting	disgusting	ADJ	JJ	Degree=Pos	2	_	_	start_char=107|end_char=117
+4	shitty	shitty	ADJ	JJ	Degree=Pos	3	_	_	start_char=118|end_char=124
+5	human	human	ADJ	JJ	Degree=Pos	4	_	_	start_char=125|end_char=130|SpaceAfter=No
+6	(	(	PUNCT	-LRB-	_	5	_	_	start_char=130|end_char=131
+7	and	and	CCONJ	CC	_	6	_	_	start_char=132|end_char=135
+8-9	I'm	_	_	_	_	_	_	_	start_char=136|end_char=139
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=136|end_char=137
+9	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=137|end_char=139
+10	being	be	AUX	VBG	VerbForm=Ger	9	_	_	start_char=140|end_char=145
+11	far	far	ADV	RB	Degree=Pos	10	_	_	start_char=146|end_char=149
+12	to	to	ADP	IN	_	11	_	_	start_char=150|end_char=152
+13	kind	kind	NOUN	NN	Number=Sing	12	_	_	start_char=153|end_char=157
+14	to	to	PART	TO	_	13	_	_	start_char=158|end_char=160
+15	consider	consider	VERB	VB	VerbForm=Inf	14	_	_	start_char=161|end_char=169
+16	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	15	_	_	start_char=170|end_char=173
+17	human	human	ADJ	JJ	Degree=Pos	16	_	_	start_char=174|end_char=179|SpaceAfter=No
+18	)	)	PUNCT	-RRB-	_	17	_	_	start_char=179|end_char=180
+19	and	and	CCONJ	CC	_	18	_	_	start_char=181|end_char=184
+20	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	19	_	_	start_char=185|end_char=189
+21	profile	profile	NOUN	NN	Number=Sing	20	_	_	start_char=190|end_char=197
+22	reflects	reflect	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=198|end_char=206
+23	that	that	PRON	DT	Number=Sing|PronType=Dem	22	_	_	start_char=207|end_char=211|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=211|end_char=212|SpaceAfter=No
+

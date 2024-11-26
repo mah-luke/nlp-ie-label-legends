@@ -1,0 +1,57 @@
+# text = It's personally painful to me.
+# sent_id = 15990
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	personally	personally	ADV	RB	_	2	_	_	start_char=5|end_char=15
+4	painful	painful	ADJ	JJ	Degree=Pos	3	_	_	start_char=16|end_char=23
+5	to	to	ADP	IN	_	4	_	_	start_char=24|end_char=26
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=27|end_char=29|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=29|end_char=30
+
+# text = My fam lost 11 members, mostly women and babies in the holocaust of Dresden.
+# sent_id = 15991
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=31|end_char=33
+2	fam	fam	NOUN	NN	Number=Sing	1	_	_	start_char=34|end_char=37
+3	lost	lose	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=38|end_char=42
+4	11	11	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=43|end_char=45
+5	members	member	NOUN	NNS	Number=Plur	4	_	_	start_char=46|end_char=53|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=53|end_char=54
+7	mostly	mostly	ADV	RB	_	6	_	_	start_char=55|end_char=61
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=62|end_char=67
+9	and	and	CCONJ	CC	_	8	_	_	start_char=68|end_char=71
+10	babies	baby	NOUN	NNS	Number=Plur	9	_	_	start_char=72|end_char=78
+11	in	in	ADP	IN	_	10	_	_	start_char=79|end_char=81
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=82|end_char=85
+13	holocaust	holocaust	NOUN	NN	Number=Sing	12	_	_	start_char=86|end_char=95
+14	of	of	ADP	IN	_	13	_	_	start_char=96|end_char=98
+15	Dresden	Dresden	PROPN	NNP	Number=Sing	14	_	_	start_char=99|end_char=106|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=106|end_char=107
+
+# text = We are still mourning, but if we mention it publicly, we are told that they deserved to die - Because Hitler.
+# sent_id = 15992
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=108|end_char=110
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=111|end_char=114
+3	still	still	ADV	RB	_	2	_	_	start_char=115|end_char=120
+4	mourning	mourn	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=121|end_char=129|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=129|end_char=130
+6	but	but	CCONJ	CC	_	5	_	_	start_char=131|end_char=134
+7	if	if	SCONJ	IN	_	6	_	_	start_char=135|end_char=137
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	_	_	start_char=138|end_char=140
+9	mention	mention	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=141|end_char=148
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=149|end_char=151
+11	publicly	publicly	ADV	RB	_	10	_	_	start_char=152|end_char=160|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=160|end_char=161
+13	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	12	_	_	start_char=162|end_char=164
+14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=165|end_char=168
+15	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	_	_	start_char=169|end_char=173
+16	that	that	SCONJ	IN	_	15	_	_	start_char=174|end_char=178
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=179|end_char=183
+18	deserved	deserve	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=184|end_char=192
+19	to	to	PART	TO	_	18	_	_	start_char=193|end_char=195
+20	die	die	VERB	VB	VerbForm=Inf	19	_	_	start_char=196|end_char=199
+21	-	-	PUNCT	,	_	20	_	_	start_char=200|end_char=201
+22	Because	because	ADP	IN	_	21	_	_	start_char=202|end_char=209
+23	Hitler	Hitler	PROPN	NNP	Number=Sing	22	_	_	start_char=210|end_char=216|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=216|end_char=217|SpaceAfter=No
+

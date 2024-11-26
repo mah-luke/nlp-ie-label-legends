@@ -1,0 +1,36 @@
+# text = I live in the Dominican Republic.
+# sent_id = 63666
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	live	live	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	in	in	ADP	IN	_	2	_	_	start_char=7|end_char=9
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=10|end_char=13
+5	Dominican	Dominican	ADJ	NNP	Degree=Pos	4	_	_	start_char=14|end_char=23
+6	Republic	Republic	PROPN	NNP	Number=Sing	5	_	_	start_char=24|end_char=32|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=32|end_char=33
+
+# text = I see these simps constantly preparing to ship their new wife home.
+# sent_id = 63667
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=34|end_char=35
+2	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=39
+3	these	this	DET	DT	Number=Plur|PronType=Dem	2	_	_	start_char=40|end_char=45
+4	simps	simp	NOUN	NNS	Number=Plur	3	_	_	start_char=46|end_char=51
+5	constantly	constantly	ADV	RB	_	4	_	_	start_char=52|end_char=62
+6	preparing	prepare	VERB	VBG	VerbForm=Ger	5	_	_	start_char=63|end_char=72
+7	to	to	PART	TO	_	6	_	_	start_char=73|end_char=75
+8	ship	ship	VERB	VB	VerbForm=Inf	7	_	_	start_char=76|end_char=80
+9	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=81|end_char=86
+10	new	new	ADJ	JJ	Degree=Pos	9	_	_	start_char=87|end_char=90
+11	wife	wife	NOUN	NN	Number=Sing	10	_	_	start_char=91|end_char=95
+12	home	home	ADV	RB	_	11	_	_	start_char=96|end_char=100|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=100|end_char=101
+
+# text = They will not ever be told...
+# sent_id = 63668
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=102|end_char=106
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=107|end_char=111
+3	not	not	PART	RB	_	2	_	_	start_char=112|end_char=115
+4	ever	ever	ADV	RB	_	3	_	_	start_char=116|end_char=120
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=121|end_char=123
+6	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=124|end_char=128|SpaceAfter=No
+7	...	...	PUNCT	.	_	6	_	_	start_char=128|end_char=131|SpaceAfter=No
+

@@ -1,0 +1,58 @@
+# text = must be rich then.
+# sent_id = 41118
+1	must	must	AUX	MD	VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	be	be	AUX	VB	VerbForm=Inf	1	_	_	start_char=5|end_char=7
+3	rich	rich	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=12
+4	then	then	ADV	RB	PronType=Dem	3	_	_	start_char=13|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = I'm not using my race as an excuse.
+# sent_id = 41119
+1-2	I'm	_	_	_	_	_	_	_	start_char=19|end_char=22
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=19|end_char=20
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=20|end_char=22
+3	not	not	PART	RB	_	2	_	_	start_char=23|end_char=26
+4	using	use	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=27|end_char=32
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=33|end_char=35
+6	race	race	NOUN	NN	Number=Sing	5	_	_	start_char=36|end_char=40
+7	as	as	ADP	IN	_	6	_	_	start_char=41|end_char=43
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=44|end_char=46
+9	excuse	excuse	NOUN	NN	Number=Sing	8	_	_	start_char=47|end_char=53|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=53|end_char=54
+
+# text = I just know that because of societal and internal biases most women view asian, black, hispanic races to be "unattractive" (even though that's not true)
+# sent_id = 41120
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=55|end_char=56
+2	just	just	ADV	RB	_	1	_	_	start_char=57|end_char=61
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=62|end_char=66
+4	that	that	SCONJ	IN	_	3	_	_	start_char=67|end_char=71
+5	because	because	ADP	IN	_	4	_	_	start_char=72|end_char=79
+6	of	of	ADP	IN	_	5	_	_	start_char=80|end_char=82
+7	societal	societal	ADJ	JJ	Degree=Pos	6	_	_	start_char=83|end_char=91
+8	and	and	CCONJ	CC	_	7	_	_	start_char=92|end_char=95
+9	internal	internal	ADJ	JJ	Degree=Pos	8	_	_	start_char=96|end_char=104
+10	biases	bias	NOUN	NNS	Number=Plur	9	_	_	start_char=105|end_char=111
+11	most	most	ADJ	JJS	Degree=Sup	10	_	_	start_char=112|end_char=116
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=117|end_char=122
+13	view	view	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=123|end_char=127
+14	asian	Asian	ADJ	JJ	Degree=Pos	13	_	_	start_char=128|end_char=133|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=133|end_char=134
+16	black	black	ADJ	JJ	Degree=Pos	15	_	_	start_char=135|end_char=140|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=140|end_char=141
+18	hispanic	hispanic	ADJ	JJ	Degree=Pos	17	_	_	start_char=142|end_char=150
+19	races	race	NOUN	NNS	Number=Plur	18	_	_	start_char=151|end_char=156
+20	to	to	PART	TO	_	19	_	_	start_char=157|end_char=159
+21	be	be	AUX	VB	VerbForm=Inf	20	_	_	start_char=160|end_char=162
+22	"	"	PUNCT	``	_	21	_	_	start_char=163|end_char=164|SpaceAfter=No
+23	unattractive	unattractive	ADJ	JJ	Degree=Pos	22	_	_	start_char=164|end_char=176|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	_	_	start_char=176|end_char=177
+25	(	(	PUNCT	-LRB-	_	24	_	_	start_char=178|end_char=179|SpaceAfter=No
+26	even	even	ADV	RB	_	25	_	_	start_char=179|end_char=183
+27	though	though	SCONJ	IN	_	26	_	_	start_char=184|end_char=190
+28-29	that's	_	_	_	_	_	_	_	start_char=191|end_char=197
+28	that	that	PRON	DT	Number=Sing|PronType=Dem	27	_	_	start_char=191|end_char=195
+29	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	_	_	start_char=195|end_char=197
+30	not	not	PART	RB	_	29	_	_	start_char=198|end_char=201
+31	true	true	ADJ	JJ	Degree=Pos	30	_	_	start_char=202|end_char=206|SpaceAfter=No
+32	)	)	PUNCT	-RRB-	_	31	_	_	start_char=206|end_char=207|SpaceAfter=No
+

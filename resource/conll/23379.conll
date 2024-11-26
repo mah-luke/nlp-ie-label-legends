@@ -1,0 +1,43 @@
+# text = I... just did?
+# sent_id = 50184
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	...	...	PUNCT	,	_	1	_	_	start_char=1|end_char=4
+3	just	just	ADV	RB	_	2	_	_	start_char=5|end_char=9
+4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=10|end_char=13|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=13|end_char=14
+
+# text = Linked you several in that article?
+# sent_id = 50185
+1	Linked	link	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=15|end_char=21
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	start_char=22|end_char=25
+3	several	several	ADJ	JJ	Degree=Pos	2	_	_	start_char=26|end_char=33
+4	in	in	ADP	IN	_	3	_	_	start_char=34|end_char=36
+5	that	that	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=37|end_char=41
+6	article	article	NOUN	NN	Number=Sing	5	_	_	start_char=42|end_char=49|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=49|end_char=50
+
+# text = I am done here.
+# sent_id = 50186
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=51|end_char=52
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=53|end_char=55
+3	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=56|end_char=60
+4	here	here	ADV	RB	PronType=Dem	3	_	_	start_char=61|end_char=65|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=65|end_char=66
+
+# text = You are a dishonest arrogant jackass and I haven't the time.
+# sent_id = 50187
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=67|end_char=70
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=71|end_char=74
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=75|end_char=76
+4	dishonest	dishonest	ADJ	JJ	Degree=Pos	3	_	_	start_char=77|end_char=86
+5	arrogant	arrogant	ADJ	JJ	Degree=Pos	4	_	_	start_char=87|end_char=95
+6	jackass	jackass	NOUN	NN	Number=Sing	5	_	_	start_char=96|end_char=103
+7	and	and	CCONJ	CC	_	6	_	_	start_char=104|end_char=107
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=108|end_char=109
+9-10	haven't	_	_	_	_	_	_	_	start_char=110|end_char=117
+9	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=110|end_char=114
+10	n't	not	PART	RB	_	9	_	_	start_char=114|end_char=117
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=118|end_char=121
+12	time	time	NOUN	NN	Number=Sing	11	_	_	start_char=122|end_char=126|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=126|end_char=127|SpaceAfter=No
+

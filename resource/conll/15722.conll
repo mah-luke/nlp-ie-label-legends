@@ -1,0 +1,52 @@
+# text = "When you were 16 did you think about having sex with girls?"
+# sent_id = 33615
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	When	when	ADV	WRB	PronType=Int	1	_	_	start_char=1|end_char=5
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=6|end_char=9
+4	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	_	_	start_char=10|end_char=14
+5	16	16	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=15|end_char=17
+6	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	_	_	start_char=18|end_char=21
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=22|end_char=25
+8	think	think	VERB	VB	VerbForm=Inf	7	_	_	start_char=26|end_char=31
+9	about	about	SCONJ	IN	_	8	_	_	start_char=32|end_char=37
+10	having	have	VERB	VBG	VerbForm=Ger	9	_	_	start_char=38|end_char=44
+11	sex	sex	NOUN	NN	Number=Sing	10	_	_	start_char=45|end_char=48
+12	with	with	ADP	IN	_	11	_	_	start_char=49|end_char=53
+13	girls	girl	NOUN	NNS	Number=Plur	12	_	_	start_char=54|end_char=59|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=59|end_char=60|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=60|end_char=61
+
+# text = BK:"Yes, every 10 seconds" Dem: "That's a LIE!
+# sent_id = 33616
+1	BK	BK	PROPN	NNP	Number=Sing	0	_	_	start_char=62|end_char=64|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=64|end_char=65|SpaceAfter=No
+3	"	"	PUNCT	``	_	2	_	_	start_char=65|end_char=66|SpaceAfter=No
+4	Yes	yes	INTJ	UH	_	3	_	_	start_char=66|end_char=69|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=69|end_char=70
+6	every	every	DET	DT	PronType=Tot	5	_	_	start_char=71|end_char=76
+7	10	10	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=77|end_char=79
+8	seconds	second	NOUN	NNS	Number=Plur	7	_	_	start_char=80|end_char=87|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=87|end_char=88
+10	Dem	Dem	PROPN	NNP	Number=Sing	9	_	_	start_char=89|end_char=92|SpaceAfter=No
+11	:	:	PUNCT	:	_	10	_	_	start_char=92|end_char=93
+12	"	"	PUNCT	``	_	11	_	_	start_char=94|end_char=95|SpaceAfter=No
+13-14	That's	_	_	_	_	_	_	_	start_char=95|end_char=101
+13	That	that	PRON	DT	Number=Sing|PronType=Dem	12	_	_	start_char=95|end_char=99
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=99|end_char=101
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=102|end_char=103
+16	LIE	lie	NOUN	NN	Number=Sing	15	_	_	start_char=104|end_char=107|SpaceAfter=No
+17	!	!	PUNCT	.	_	16	_	_	start_char=107|end_char=108
+
+# text = Studies show it's every 8 seconds."
+# sent_id = 33617
+1	Studies	Study	NOUN	NNS	Number=Plur	0	_	_	start_char=109|end_char=116
+2	show	show	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=117|end_char=121
+3-4	it's	_	_	_	_	_	_	_	start_char=122|end_char=126
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=122|end_char=124
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=124|end_char=126
+5	every	every	DET	DT	_	4	_	_	start_char=127|end_char=132
+6	8	8	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=133|end_char=134
+7	seconds	second	NOUN	NNS	Number=Plur	6	_	_	start_char=135|end_char=142|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=142|end_char=143|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=143|end_char=144|SpaceAfter=No
+

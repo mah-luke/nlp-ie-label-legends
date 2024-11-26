@@ -1,0 +1,40 @@
+# text = say 'thanks.
+# sent_id = 79434
+1	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	'	'	PUNCT	``	_	1	_	_	start_char=4|end_char=5|SpaceAfter=No
+3	thanks	thanks	NOUN	NNS	Number=Plur	2	_	_	start_char=5|end_char=11|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=11|end_char=12
+
+# text = and you're special too.
+# sent_id = 79435
+1	and	and	CCONJ	CC	_	0	_	_	start_char=13|end_char=16
+2-3	you're	_	_	_	_	_	_	_	start_char=17|end_char=23
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=17|end_char=20
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=20|end_char=23
+4	special	special	ADJ	JJ	Degree=Pos	3	_	_	start_char=24|end_char=31
+5	too	too	ADV	RB	_	4	_	_	start_char=32|end_char=35|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=35|end_char=36
+
+# text = not a slut like most women' then get annoyed when they don't appreciate the 'compliment'
+# sent_id = 79436
+1	not	not	PART	RB	_	0	_	_	start_char=37|end_char=40
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=41|end_char=42
+3	slut	slut	NOUN	NN	Number=Sing	2	_	_	start_char=43|end_char=47
+4	like	like	ADP	IN	_	3	_	_	start_char=48|end_char=52
+5	most	most	ADJ	JJS	Degree=Sup	4	_	_	start_char=53|end_char=57
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=58|end_char=63|SpaceAfter=No
+7	'	'	PUNCT	``	_	6	_	_	start_char=63|end_char=64
+8	then	then	ADV	RB	PronType=Dem	7	_	_	start_char=65|end_char=69
+9	get	get	AUX	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=70|end_char=73
+10	annoyed	annoy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=74|end_char=81
+11	when	when	ADV	WRB	PronType=Int	10	_	_	start_char=82|end_char=86
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	_	_	start_char=87|end_char=91
+13-14	don't	_	_	_	_	_	_	_	start_char=92|end_char=97
+13	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=92|end_char=94
+14	n't	not	PART	RB	_	13	_	_	start_char=94|end_char=97
+15	appreciate	appreciate	VERB	VB	VerbForm=Inf	14	_	_	start_char=98|end_char=108
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=109|end_char=112
+17	'	'	PUNCT	``	_	16	_	_	start_char=113|end_char=114|SpaceAfter=No
+18	compliment	compliment	NOUN	NN	Number=Sing	17	_	_	start_char=114|end_char=124|SpaceAfter=No
+19	'	'	PUNCT	''	_	18	_	_	start_char=124|end_char=125|SpaceAfter=No
+

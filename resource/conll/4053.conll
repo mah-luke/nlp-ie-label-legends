@@ -1,0 +1,24 @@
+# text = If you are bleeding from your vagina, you are a woman...period.
+# sent_id = 8523
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=10
+4	bleeding	bleed	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=11|end_char=19
+5	from	from	ADP	IN	_	4	_	_	start_char=20|end_char=24
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=25|end_char=29
+7	vagina	vagina	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=36|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=36|end_char=37
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=38|end_char=41
+10	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=42|end_char=45
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=46|end_char=47
+12	woman	woman	NOUN	NN	Number=Sing	11	_	_	start_char=48|end_char=53|SpaceAfter=No
+13	...	...	PUNCT	,	_	12	_	_	start_char=53|end_char=56|SpaceAfter=No
+14	period	period	NOUN	NN	Number=Sing	13	_	_	start_char=56|end_char=62|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=62|end_char=63
+
+# text = [URL]
+# sent_id = 8524
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=64|end_char=65|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=65|end_char=68|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=68|end_char=69|SpaceAfter=No
+

@@ -1,0 +1,31 @@
+# text = #PedoGateNews Nickelodeon casting couch?
+# sent_id = 13989
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	PedoGateNews	PedoGateNews	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=13
+3	Nickelodeon	Nickelodeon	PROPN	NNP	Number=Sing	2	_	_	start_char=14|end_char=25
+4	casting	casting	NOUN	NN	Number=Sing	3	_	_	start_char=26|end_char=33
+5	couch	couch	NOUN	NN	Number=Sing	4	_	_	start_char=34|end_char=39|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=39|end_char=40
+
+# text = Dan Schneider is a fat ass pedophile who abuses girls on Nickelodeon.
+# sent_id = 13990
+1	Dan	Dan	PROPN	NNP	Number=Sing	0	_	_	start_char=41|end_char=44
+2	Schneider	Schneider	PROPN	NNP	Number=Sing	1	_	_	start_char=45|end_char=54
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=55|end_char=57
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=58|end_char=59
+5	fat	fat	ADJ	JJ	Degree=Pos	4	_	_	start_char=60|end_char=63
+6	ass	ass	NOUN	NN	Number=Sing	5	_	_	start_char=64|end_char=67
+7	pedophile	pedophile	NOUN	NN	Number=Sing	6	_	_	start_char=68|end_char=77
+8	who	who	PRON	WP	PronType=Rel	7	_	_	start_char=78|end_char=81
+9	abuses	abuse	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=82|end_char=88
+10	girls	girl	NOUN	NNS	Number=Plur	9	_	_	start_char=89|end_char=94
+11	on	on	ADP	IN	_	10	_	_	start_char=95|end_char=97
+12	Nickelodeon	Nickelodeon	PROPN	NNP	Number=Sing	11	_	_	start_char=98|end_char=109|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=109|end_char=110
+
+# text = [URL]
+# sent_id = 13991
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=111|end_char=112|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=112|end_char=115|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=115|end_char=116|SpaceAfter=No
+

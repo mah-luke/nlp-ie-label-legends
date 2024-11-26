@@ -1,0 +1,60 @@
+# text = If you know Canada you know the United Church is more of a Left wing activist group than the NDP.
+# sent_id = 35127
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=11
+4	Canada	Canada	PROPN	NNP	Number=Sing	3	_	_	start_char=12|end_char=18
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=19|end_char=22
+6	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=23|end_char=27
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=28|end_char=31
+8	United	United	ADJ	NNP	Degree=Pos	7	_	_	start_char=32|end_char=38
+9	Church	Church	PROPN	NNP	Number=Sing	8	_	_	start_char=39|end_char=45
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=46|end_char=48
+11	more	more	ADJ	JJR	Degree=Cmp	10	_	_	start_char=49|end_char=53
+12	of	of	ADP	IN	_	11	_	_	start_char=54|end_char=56
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=57|end_char=58
+14	Left	Left	ADJ	JJ	Degree=Pos	13	_	_	start_char=59|end_char=63
+15	wing	wing	NOUN	NN	Number=Sing	14	_	_	start_char=64|end_char=68
+16	activist	activist	NOUN	NN	Number=Sing	15	_	_	start_char=69|end_char=77
+17	group	group	NOUN	NN	Number=Sing	16	_	_	start_char=78|end_char=83
+18	than	than	ADP	IN	_	17	_	_	start_char=84|end_char=88
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=89|end_char=92
+20	NDP	NDP	PROPN	NNP	Number=Sing	19	_	_	start_char=93|end_char=96|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=96|end_char=97
+
+# text = They supported Justin's 28 year old unaccompanied male 'Syrian refugee' who murdered a 13 year old girl months after arriving in Canada.
+# sent_id = 35128
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=98|end_char=102
+2	supported	support	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=103|end_char=112
+3-4	Justin's	_	_	_	_	_	_	_	start_char=113|end_char=121
+3	Justin	Justin	PROPN	NNP	Number=Sing	2	_	_	start_char=113|end_char=119
+4	's	's	PART	POS	_	3	_	_	start_char=119|end_char=121
+5	28	28	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=122|end_char=124
+6	year	year	NOUN	NN	Number=Sing	5	_	_	start_char=125|end_char=129
+7	old	old	ADJ	JJ	Degree=Pos	6	_	_	start_char=130|end_char=133
+8	unaccompanied	unaccompanied	ADJ	JJ	Degree=Pos	7	_	_	start_char=134|end_char=147
+9	male	male	ADJ	JJ	Degree=Pos	8	_	_	start_char=148|end_char=152
+10	'	'	PUNCT	``	_	9	_	_	start_char=153|end_char=154|SpaceAfter=No
+11	Syrian	Syrian	ADJ	JJ	Degree=Pos	10	_	_	start_char=154|end_char=160
+12	refugee	refugee	NOUN	NN	Number=Sing	11	_	_	start_char=161|end_char=168|SpaceAfter=No
+13	'	'	PUNCT	''	_	12	_	_	start_char=168|end_char=169
+14	who	who	PRON	WP	PronType=Rel	13	_	_	start_char=170|end_char=173
+15	murdered	murder	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=174|end_char=182
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=183|end_char=184
+17	13	13	NUM	CD	NumForm=Digit|NumType=Card	16	_	_	start_char=185|end_char=187
+18	year	year	NOUN	NN	Number=Sing	17	_	_	start_char=188|end_char=192
+19	old	old	ADJ	JJ	Degree=Pos	18	_	_	start_char=193|end_char=196
+20	girl	girl	NOUN	NN	Number=Sing	19	_	_	start_char=197|end_char=201
+21	months	month	NOUN	NNS	Number=Plur	20	_	_	start_char=202|end_char=208
+22	after	after	SCONJ	IN	_	21	_	_	start_char=209|end_char=214
+23	arriving	arrive	VERB	VBG	VerbForm=Ger	22	_	_	start_char=215|end_char=223
+24	in	in	ADP	IN	_	23	_	_	start_char=224|end_char=226
+25	Canada	Canada	PROPN	NNP	Number=Sing	24	_	_	start_char=227|end_char=233|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=233|end_char=234
+
+# text = [URL]
+# sent_id = 35129
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=235|end_char=236|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=236|end_char=239|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=239|end_char=240|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = It’s not a specific solution because the OP was asking specifically how to vet a *wife*.
+# sent_id = 12967
+1-2	It’s	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	not	not	PART	RB	_	2	_	_	start_char=5|end_char=8
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=9|end_char=10
+5	specific	specific	ADJ	JJ	Degree=Pos	4	_	_	start_char=11|end_char=19
+6	solution	solution	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=28
+7	because	because	SCONJ	IN	_	6	_	_	start_char=29|end_char=36
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=37|end_char=40
+9	OP	OP	PROPN	NNP	Number=Sing	8	_	_	start_char=41|end_char=43
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=44|end_char=47
+11	asking	ask	VERB	VBG	Tense=Pres|VerbForm=Part	10	_	_	start_char=48|end_char=54
+12	specifically	specifically	ADV	RB	_	11	_	_	start_char=55|end_char=67
+13	how	how	ADV	WRB	PronType=Int	12	_	_	start_char=68|end_char=71
+14	to	to	PART	TO	_	13	_	_	start_char=72|end_char=74
+15	vet	vet	VERB	VB	VerbForm=Inf	14	_	_	start_char=75|end_char=78
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=79|end_char=80
+17	*	*	PUNCT	NFP	_	16	_	_	start_char=81|end_char=82|SpaceAfter=No
+18	wife	wife	NOUN	NN	Number=Sing	17	_	_	start_char=82|end_char=86|SpaceAfter=No
+19	*	*	PUNCT	NFP	_	18	_	_	start_char=86|end_char=87|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=87|end_char=88
+
+# text = It is a solution to the broader question of “how to avoid divorce rape.”
+# sent_id = 12968
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=89|end_char=91
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=92|end_char=94
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=95|end_char=96
+4	solution	solution	NOUN	NN	Number=Sing	3	_	_	start_char=97|end_char=105
+5	to	to	ADP	IN	_	4	_	_	start_char=106|end_char=108
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=109|end_char=112
+7	broader	broad	ADJ	JJR	Degree=Cmp	6	_	_	start_char=113|end_char=120
+8	question	question	NOUN	NN	Number=Sing	7	_	_	start_char=121|end_char=129
+9	of	of	ADP	IN	_	8	_	_	start_char=130|end_char=132
+10	“	''	PUNCT	``	_	9	_	_	start_char=133|end_char=134|SpaceAfter=No
+11	how	how	ADV	WRB	PronType=Int	10	_	_	start_char=134|end_char=137
+12	to	to	PART	TO	_	11	_	_	start_char=138|end_char=140
+13	avoid	avoid	VERB	VB	VerbForm=Inf	12	_	_	start_char=141|end_char=146
+14	divorce	divorce	NOUN	NN	Number=Sing	13	_	_	start_char=147|end_char=154
+15	rape	rape	NOUN	NN	Number=Sing	14	_	_	start_char=155|end_char=159|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=159|end_char=160|SpaceAfter=No
+17	”	''	PUNCT	''	_	16	_	_	start_char=160|end_char=161|SpaceAfter=No
+

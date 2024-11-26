@@ -1,0 +1,30 @@
+# text = Same.
+# sent_id = 74502
+1	Same	same	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = Why would they choose me over those Chads?
+# sent_id = 74503
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=6|end_char=9
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=10|end_char=15
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=16|end_char=20
+4	choose	choose	VERB	VB	VerbForm=Inf	3	_	_	start_char=21|end_char=27
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=28|end_char=30
+6	over	over	ADP	IN	_	5	_	_	start_char=31|end_char=35
+7	those	that	DET	DT	Number=Plur|PronType=Dem	6	_	_	start_char=36|end_char=41
+8	Chads	chad	NOUN	NNS	Number=Plur	7	_	_	start_char=42|end_char=47|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=47|end_char=48
+
+# text = They are better than me in every imaginable way.
+# sent_id = 74504
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=49|end_char=53
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=54|end_char=57
+3	better	good	ADJ	JJR	Degree=Cmp	2	_	_	start_char=58|end_char=64
+4	than	than	ADP	IN	_	3	_	_	start_char=65|end_char=69
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=70|end_char=72
+6	in	in	ADP	IN	_	5	_	_	start_char=73|end_char=75
+7	every	every	DET	DT	_	6	_	_	start_char=76|end_char=81
+8	imaginable	imaginable	ADJ	JJ	Degree=Pos	7	_	_	start_char=82|end_char=92
+9	way	way	NOUN	NN	Number=Sing	8	_	_	start_char=93|end_char=96|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=96|end_char=97|SpaceAfter=No
+

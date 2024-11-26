@@ -1,0 +1,57 @@
+# text = "You're right, all of us guys have a big annual meeting to figure out how to piss you ladies off".
+# sent_id = 109872
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2-3	You're	_	_	_	_	_	_	_	start_char=1|end_char=7
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=1|end_char=4
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=4|end_char=7
+4	right	right	ADJ	JJ	Degree=Pos	3	_	_	start_char=8|end_char=13|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=13|end_char=14
+6	all	all	DET	DT	_	5	_	_	start_char=15|end_char=18
+7	of	of	ADP	IN	_	6	_	_	start_char=19|end_char=21
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	_	_	start_char=22|end_char=24
+9	guys	guy	NOUN	NNS	Number=Plur	8	_	_	start_char=25|end_char=29
+10	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=30|end_char=34
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=35|end_char=36
+12	big	big	ADJ	JJ	Degree=Pos	11	_	_	start_char=37|end_char=40
+13	annual	annual	ADJ	JJ	Degree=Pos	12	_	_	start_char=41|end_char=47
+14	meeting	meeting	NOUN	NN	Number=Sing	13	_	_	start_char=48|end_char=55
+15	to	to	PART	TO	_	14	_	_	start_char=56|end_char=58
+16	figure	figure	VERB	VB	VerbForm=Inf	15	_	_	start_char=59|end_char=65
+17	out	out	ADP	RP	_	16	_	_	start_char=66|end_char=69
+18	how	how	ADV	WRB	PronType=Int	17	_	_	start_char=70|end_char=73
+19	to	to	PART	TO	_	18	_	_	start_char=74|end_char=76
+20	piss	piss	VERB	VB	VerbForm=Inf	19	_	_	start_char=77|end_char=81
+21	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	20	_	_	start_char=82|end_char=85
+22	ladies	lady	NOUN	NNS	Number=Plur	21	_	_	start_char=86|end_char=92
+23	off	off	ADP	RP	_	22	_	_	start_char=93|end_char=96|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	_	_	start_char=96|end_char=97|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=97|end_char=98
+
+# text = Don't know if that would work, but those are the first words that would probably come out of my sarcastic mouth.
+# sent_id = 109873
+1-2	Don't	_	_	_	_	_	_	_	start_char=99|end_char=104
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=99|end_char=101
+2	n't	not	PART	RB	_	1	_	_	start_char=101|end_char=104
+3	know	know	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=105|end_char=109
+4	if	if	SCONJ	IN	_	3	_	_	start_char=110|end_char=112
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=113|end_char=117
+6	would	would	AUX	MD	VerbForm=Fin	5	_	_	start_char=118|end_char=123
+7	work	work	VERB	VB	VerbForm=Inf	6	_	_	start_char=124|end_char=128|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=128|end_char=129
+9	but	but	CCONJ	CC	_	8	_	_	start_char=130|end_char=133
+10	those	that	PRON	DT	Number=Plur|PronType=Dem	9	_	_	start_char=134|end_char=139
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=140|end_char=143
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=144|end_char=147
+13	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	12	_	_	start_char=148|end_char=153
+14	words	word	NOUN	NNS	Number=Plur	13	_	_	start_char=154|end_char=159
+15	that	that	PRON	WDT	PronType=Rel	14	_	_	start_char=160|end_char=164
+16	would	would	AUX	MD	VerbForm=Fin	15	_	_	start_char=165|end_char=170
+17	probably	probably	ADV	RB	_	16	_	_	start_char=171|end_char=179
+18	come	come	VERB	VB	VerbForm=Inf	17	_	_	start_char=180|end_char=184
+19	out	out	ADP	IN	_	18	_	_	start_char=185|end_char=188
+20	of	of	ADP	IN	_	19	_	_	start_char=189|end_char=191
+21	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	_	_	start_char=192|end_char=194
+22	sarcastic	sarcastic	ADJ	JJ	Degree=Pos	21	_	_	start_char=195|end_char=204
+23	mouth	mouth	NOUN	NN	Number=Sing	22	_	_	start_char=205|end_char=210|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=210|end_char=211|SpaceAfter=No
+

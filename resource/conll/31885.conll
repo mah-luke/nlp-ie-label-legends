@@ -1,0 +1,22 @@
+# text = Holy shit, youre alive.
+# sent_id = 68348
+1	Holy	Holy	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
+4-5	youre	_	_	_	_	_	_	_	start_char=11|end_char=16
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=14|end_char=16
+6	alive	alive	ADJ	JJ	Degree=Pos	5	_	_	start_char=17|end_char=22|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=22|end_char=23
+
+# text = I thought Tariq finally hunted you down.
+# sent_id = 68349
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=24|end_char=25
+2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=26|end_char=33
+3	Tariq	Tariq	PROPN	NNP	Number=Sing	2	_	_	start_char=34|end_char=39
+4	finally	finally	ADV	RB	_	3	_	_	start_char=40|end_char=47
+5	hunted	hunt	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=48|end_char=54
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=55|end_char=58
+7	down	down	ADP	RP	_	6	_	_	start_char=59|end_char=63|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=63|end_char=64|SpaceAfter=No
+

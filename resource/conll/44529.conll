@@ -1,0 +1,30 @@
+# text = shit, I need to step my game up.
+# sent_id = 95070
+1	shit	shit	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=12
+5	to	to	PART	TO	_	4	_	_	start_char=13|end_char=15
+6	step	step	VERB	VB	VerbForm=Inf	5	_	_	start_char=16|end_char=20
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=21|end_char=23
+8	game	game	NOUN	NN	Number=Sing	7	_	_	start_char=24|end_char=28
+9	up	up	ADP	RP	_	8	_	_	start_char=29|end_char=31|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=31|end_char=32
+
+# text = bested by a 10 year old girl no less.
+# sent_id = 95071
+1	bested	best	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=33|end_char=39
+2	by	by	ADP	IN	_	1	_	_	start_char=40|end_char=42
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=43|end_char=44
+4	10	10	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=45|end_char=47
+5	year	year	NOUN	NN	Number=Sing	4	_	_	start_char=48|end_char=52
+6	old	old	ADJ	JJ	Degree=Pos	5	_	_	start_char=53|end_char=56
+7	girl	girl	NOUN	NN	Number=Sing	6	_	_	start_char=57|end_char=61
+8	no	no	ADV	RB	_	7	_	_	start_char=62|end_char=64
+9	less	less	ADJ	JJR	Degree=Cmp	8	_	_	start_char=65|end_char=69|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=69|end_char=70
+
+# text = feelsbadfam.jpg
+# sent_id = 95072
+1	feelsbadfam.jpg	feelsbadfam.jpg	X	ADD	_	0	_	_	start_char=71|end_char=86|SpaceAfter=No
+

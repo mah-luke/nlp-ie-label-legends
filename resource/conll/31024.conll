@@ -1,0 +1,49 @@
+# text = It doesn't matter.
+# sent_id = 66501
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2-3	doesn't	_	_	_	_	_	_	_	start_char=3|end_char=10
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=7
+3	n't	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	matter	matter	VERB	VB	VerbForm=Inf	3	_	_	start_char=11|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
+
+# text = She's interacted with socially-stunted uggos before; you're not going to freak her out.
+# sent_id = 66502
+1-2	She's	_	_	_	_	_	_	_	start_char=19|end_char=24
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=19|end_char=22
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=24
+3	interacted	interact	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=25|end_char=35
+4	with	with	ADP	IN	_	3	_	_	start_char=36|end_char=40
+5	socially	socially	ADV	RB	_	4	_	_	start_char=41|end_char=49|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=49|end_char=50|SpaceAfter=No
+7	stunted	stunted	ADJ	JJ	Degree=Pos	6	_	_	start_char=50|end_char=57
+8	uggos	uggo	NOUN	NNS	Number=Plur	7	_	_	start_char=58|end_char=63
+9	before	before	ADV	RB	_	8	_	_	start_char=64|end_char=70|SpaceAfter=No
+10	;	;	PUNCT	:	_	9	_	_	start_char=70|end_char=71
+11-12	you're	_	_	_	_	_	_	_	start_char=72|end_char=78
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=72|end_char=75
+12	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=75|end_char=78
+13	not	not	PART	RB	_	12	_	_	start_char=79|end_char=82
+14	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	13	_	_	start_char=83|end_char=88
+15	to	to	PART	TO	_	14	_	_	start_char=89|end_char=91
+16	freak	freak	VERB	VB	VerbForm=Inf	15	_	_	start_char=92|end_char=97
+17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=98|end_char=101
+18	out	out	ADP	RP	_	17	_	_	start_char=102|end_char=105|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=105|end_char=106
+
+# text = Just relax and do your best; she won't care.
+# sent_id = 66503
+1	Just	just	ADV	RB	_	0	_	_	start_char=107|end_char=111
+2	relax	relax	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=112|end_char=117
+3	and	and	CCONJ	CC	_	2	_	_	start_char=118|end_char=121
+4	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=122|end_char=124
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=125|end_char=129
+6	best	good	ADJ	JJS	Degree=Sup	5	_	_	start_char=130|end_char=134|SpaceAfter=No
+7	;	;	PUNCT	:	_	6	_	_	start_char=134|end_char=135
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=136|end_char=139
+9-10	won't	_	_	_	_	_	_	_	start_char=140|end_char=145
+9	wo	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=140|end_char=142
+10	n't	not	PART	RB	_	9	_	_	start_char=142|end_char=145
+11	care	care	VERB	VB	VerbForm=Inf	10	_	_	start_char=146|end_char=150|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=150|end_char=151|SpaceAfter=No
+

@@ -1,0 +1,42 @@
+# text = Or just make money, earn your own but, and ignore the gals.
+# sent_id = 78364
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=0|end_char=2
+2	just	just	ADV	RB	_	1	_	_	start_char=3|end_char=7
+3	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=8|end_char=12
+4	money	money	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=18|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=18|end_char=19
+6	earn	earn	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=20|end_char=24
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=25|end_char=29
+8	own	own	ADJ	JJ	Degree=Pos	7	_	_	start_char=30|end_char=33
+9	but	but	CCONJ	CC	_	8	_	_	start_char=34|end_char=37|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=37|end_char=38
+11	and	and	CCONJ	CC	_	10	_	_	start_char=39|end_char=42
+12	ignore	ignore	VERB	VB	Mood=Imp|VerbForm=Fin	11	_	_	start_char=43|end_char=49
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=50|end_char=53
+14	gals	gal	NOUN	NNS	Number=Plur	13	_	_	start_char=54|end_char=58|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=58|end_char=59
+
+# text = Even with some money, she’ll spend it, and you’re still stuck with a wife.
+# sent_id = 78365
+1	Even	even	ADV	RB	_	0	_	_	start_char=60|end_char=64
+2	with	with	ADP	IN	_	1	_	_	start_char=65|end_char=69
+3	some	some	DET	DT	_	2	_	_	start_char=70|end_char=74
+4	money	money	NOUN	NN	Number=Sing	3	_	_	start_char=75|end_char=80|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=80|end_char=81
+6-7	she’ll	_	_	_	_	_	_	_	start_char=82|end_char=88
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=82|end_char=85
+7	’ll	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=85|end_char=88
+8	spend	spend	VERB	VB	VerbForm=Inf	7	_	_	start_char=89|end_char=94
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=95|end_char=97|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=97|end_char=98
+11	and	and	CCONJ	CC	_	10	_	_	start_char=99|end_char=102
+12-13	you’re	_	_	_	_	_	_	_	start_char=103|end_char=109
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=103|end_char=106
+13	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=106|end_char=109
+14	still	still	ADV	RB	_	13	_	_	start_char=110|end_char=115
+15	stuck	stuck	ADJ	JJ	Degree=Pos	14	_	_	start_char=116|end_char=121
+16	with	with	ADP	IN	_	15	_	_	start_char=122|end_char=126
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=127|end_char=128
+18	wife	wife	NOUN	NN	Number=Sing	17	_	_	start_char=129|end_char=133|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=133|end_char=134|SpaceAfter=No
+

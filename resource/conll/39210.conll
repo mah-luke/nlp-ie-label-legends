@@ -1,0 +1,28 @@
+# text = That’s incredibly obscure shit though.
+# sent_id = 83799
+1-2	That’s	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	incredibly	incredibly	ADV	RB	_	2	_	_	start_char=7|end_char=17
+4	obscure	obscure	ADJ	JJ	Degree=Pos	3	_	_	start_char=18|end_char=25
+5	shit	shit	NOUN	NN	Number=Sing	4	_	_	start_char=26|end_char=30
+6	though	though	ADV	RB	_	5	_	_	start_char=31|end_char=37|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=37|end_char=38
+
+# text = The alt right is a lot larger and they worship white women like goddesses
+# sent_id = 83800
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=39|end_char=42
+2	alt	alt	NOUN	NN	Number=Sing	1	_	_	start_char=43|end_char=46
+3	right	right	NOUN	NN	Number=Sing	2	_	_	start_char=47|end_char=52
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=53|end_char=55
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=56|end_char=57
+6	lot	lot	NOUN	NN	Number=Sing	5	_	_	start_char=58|end_char=61
+7	larger	large	ADJ	JJR	Degree=Cmp	6	_	_	start_char=62|end_char=68
+8	and	and	CCONJ	CC	_	7	_	_	start_char=69|end_char=72
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=73|end_char=77
+10	worship	worship	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=78|end_char=85
+11	white	white	ADJ	JJ	Degree=Pos	10	_	_	start_char=86|end_char=91
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=92|end_char=97
+13	like	like	ADP	IN	_	12	_	_	start_char=98|end_char=102
+14	goddesses	goddess	NOUN	NNS	Number=Plur	13	_	_	start_char=103|end_char=112|SpaceAfter=No
+

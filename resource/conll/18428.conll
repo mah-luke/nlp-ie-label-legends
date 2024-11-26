@@ -1,0 +1,48 @@
+# text = Bro, that was SOLID.
+# sent_id = 39569
+1	Bro	bro	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=5|end_char=9
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=10|end_char=13
+5	SOLID	solid	ADJ	JJ	Degree=Pos	4	_	_	start_char=14|end_char=19|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = Update us if she flips a bitch.
+# sent_id = 39570
+1	Update	update	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=21|end_char=27
+2	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=28|end_char=30
+3	if	if	SCONJ	IN	_	2	_	_	start_char=31|end_char=33
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=34|end_char=37
+5	flips	flip	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=38|end_char=43
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=44|end_char=45
+7	bitch	bitch	NOUN	NN	Number=Sing	6	_	_	start_char=46|end_char=51|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=51|end_char=52
+
+# text = Spoiler: She will.
+# sent_id = 39571
+1	Spoiler	spoiler	NOUN	NN	Number=Sing	0	_	_	start_char=53|end_char=60|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=60|end_char=61
+3	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=62|end_char=65
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=66|end_char=70|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=70|end_char=71
+
+# text = Whether it's REEEEEing or blocking you outright, it's all the same.
+# sent_id = 39572
+1	Whether	whether	SCONJ	IN	_	0	_	_	start_char=72|end_char=79
+2-3	it's	_	_	_	_	_	_	_	start_char=80|end_char=84
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=80|end_char=82
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=82|end_char=84
+4	REEEEEing	reeeeeing	ADJ	JJ	Degree=Pos	3	_	_	start_char=85|end_char=94
+5	or	or	CCONJ	CC	_	4	_	_	start_char=95|end_char=97
+6	blocking	block	VERB	VBG	VerbForm=Ger	5	_	_	start_char=98|end_char=106
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=107|end_char=110
+8	outright	outright	ADV	RB	_	7	_	_	start_char=111|end_char=119|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=119|end_char=120
+10-11	it's	_	_	_	_	_	_	_	start_char=121|end_char=125
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=121|end_char=123
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=123|end_char=125
+12	all	all	DET	PDT	_	11	_	_	start_char=126|end_char=129
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=130|end_char=133
+14	same	same	ADJ	JJ	Degree=Pos	13	_	_	start_char=134|end_char=138|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=138|end_char=139|SpaceAfter=No
+

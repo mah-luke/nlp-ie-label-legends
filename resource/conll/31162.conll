@@ -1,0 +1,22 @@
+# text = $15 Million in Taxpayer Money Has Been Paid Out to Settle Congressional Sexual Harassment Suits [URL]
+# sent_id = 66793
+1	$	$	SYM	$	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	15	15	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=1|end_char=3
+3	Million	Million	NUM	CD	NumForm=Word|NumType=Card	2	_	_	start_char=4|end_char=11
+4	in	in	ADP	IN	_	3	_	_	start_char=12|end_char=14
+5	Taxpayer	taxpayer	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=23
+6	Money	money	NOUN	NN	Number=Sing	5	_	_	start_char=24|end_char=29
+7	Has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=30|end_char=33
+8	Been	be	AUX	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=34|end_char=38
+9	Paid	pay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=39|end_char=43
+10	Out	out	ADP	RP	_	9	_	_	start_char=44|end_char=47
+11	to	to	PART	TO	_	10	_	_	start_char=48|end_char=50
+12	Settle	settle	VERB	VB	VerbForm=Inf	11	_	_	start_char=51|end_char=57
+13	Congressional	Congressional	ADJ	JJ	Degree=Pos	12	_	_	start_char=58|end_char=71
+14	Sexual	sexual	ADJ	JJ	Degree=Pos	13	_	_	start_char=72|end_char=78
+15	Harassment	harassment	NOUN	NN	Number=Sing	14	_	_	start_char=79|end_char=89
+16	Suits	suit	NOUN	NNS	Number=Plur	15	_	_	start_char=90|end_char=95
+17	[	[	PUNCT	-LRB-	_	16	_	_	start_char=96|end_char=97|SpaceAfter=No
+18	URL	URL	PROPN	NNP	Number=Sing	17	_	_	start_char=97|end_char=100|SpaceAfter=No
+19	]	]	PUNCT	-RRB-	_	18	_	_	start_char=100|end_char=101|SpaceAfter=No
+

@@ -1,0 +1,56 @@
+# text = Who cares you don't know her.
+# sent_id = 22297
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=3
+2	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=9
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=10|end_char=13
+4-5	don't	_	_	_	_	_	_	_	start_char=14|end_char=19
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=16
+5	n't	not	PART	RB	_	4	_	_	start_char=16|end_char=19
+6	know	know	VERB	VB	VerbForm=Inf	5	_	_	start_char=20|end_char=24
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=25|end_char=28|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=28|end_char=29
+
+# text = Besides what do I care either?
+# sent_id = 22298
+1	Besides	besides	ADP	IN	_	0	_	_	start_char=30|end_char=37
+2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=38|end_char=42
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=43|end_char=45
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=46|end_char=47
+5	care	care	VERB	VB	VerbForm=Inf	4	_	_	start_char=48|end_char=52
+6	either	either	CCONJ	CC	_	5	_	_	start_char=53|end_char=59|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=59|end_char=60
+
+# text = It's ogre for me.
+# sent_id = 22299
+1-2	It's	_	_	_	_	_	_	_	start_char=61|end_char=65
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=61|end_char=63
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=65
+3	ogre	ogre	ADJ	JJ	Degree=Pos	2	_	_	start_char=66|end_char=70
+4	for	for	ADP	IN	_	3	_	_	start_char=71|end_char=74
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=75|end_char=77|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=77|end_char=78
+
+# text = I'm just gonna roll around and kick my feet until I fall asleep from exhaustion fuck you
+# sent_id = 22300
+1-2	I'm	_	_	_	_	_	_	_	start_char=79|end_char=82
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=79|end_char=80
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=80|end_char=82
+3	just	just	ADV	RB	_	2	_	_	start_char=83|end_char=87
+4-5	gonna	_	_	_	_	_	_	_	start_char=88|end_char=93
+4	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=88|end_char=91
+5	na	to	PART	TO	_	4	_	_	start_char=91|end_char=93
+6	roll	roll	VERB	VB	VerbForm=Inf	5	_	_	start_char=94|end_char=98
+7	around	around	ADV	RB	_	6	_	_	start_char=99|end_char=105
+8	and	and	CCONJ	CC	_	7	_	_	start_char=106|end_char=109
+9	kick	kick	VERB	VB	VerbForm=Inf	8	_	_	start_char=110|end_char=114
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=115|end_char=117
+11	feet	foot	NOUN	NNS	Number=Plur	10	_	_	start_char=118|end_char=122
+12	until	until	SCONJ	IN	_	11	_	_	start_char=123|end_char=128
+13	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	_	_	start_char=129|end_char=130
+14	fall	fall	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=131|end_char=135
+15	asleep	asleep	ADV	RB	_	14	_	_	start_char=136|end_char=142
+16	from	from	ADP	IN	_	15	_	_	start_char=143|end_char=147
+17	exhaustion	exhaustion	NOUN	NN	Number=Sing	16	_	_	start_char=148|end_char=158
+18	fuck	fuck	NOUN	NN	Number=Sing	17	_	_	start_char=159|end_char=163
+19	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	18	_	_	start_char=164|end_char=167|SpaceAfter=No
+

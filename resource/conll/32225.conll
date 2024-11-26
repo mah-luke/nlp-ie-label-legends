@@ -1,0 +1,40 @@
+# text = And one of her lawyers is McCabe's lawyer!
+# sent_id = 69078
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=4|end_char=7
+3	of	of	ADP	IN	_	2	_	_	start_char=8|end_char=10
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	lawyers	lawyer	NOUN	NNS	Number=Plur	4	_	_	start_char=15|end_char=22
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=23|end_char=25
+7-8	McCabe's	_	_	_	_	_	_	_	start_char=26|end_char=34
+7	McCabe	McCabe	PROPN	NNP	Number=Sing	6	_	_	start_char=26|end_char=32
+8	's	's	PART	POS	_	7	_	_	start_char=32|end_char=34
+9	lawyer	lawyer	NOUN	NN	Number=Sing	8	_	_	start_char=35|end_char=41|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=41|end_char=42
+
+# text = Kavvie said he would be fine with an FBI investigation.
+# sent_id = 69079
+1	Kavvie	Kavvie	PROPN	NNP	Number=Sing	0	_	_	start_char=43|end_char=49
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=50|end_char=54
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=55|end_char=57
+4	would	would	AUX	MD	VerbForm=Fin	3	_	_	start_char=58|end_char=63
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=64|end_char=66
+6	fine	fine	ADJ	JJ	Degree=Pos	5	_	_	start_char=67|end_char=71
+7	with	with	ADP	IN	_	6	_	_	start_char=72|end_char=76
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=77|end_char=79
+9	FBI	FBI	PROPN	NNP	Number=Sing	8	_	_	start_char=80|end_char=83
+10	investigation	investigation	NOUN	NN	Number=Sing	9	_	_	start_char=84|end_char=97|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=97|end_char=98
+
+# text = He doesn't belong on our SCOTUS.
+# sent_id = 69080
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=99|end_char=101
+2-3	doesn't	_	_	_	_	_	_	_	start_char=102|end_char=109
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=102|end_char=106
+3	n't	not	PART	RB	_	2	_	_	start_char=106|end_char=109
+4	belong	belong	VERB	VB	VerbForm=Inf	3	_	_	start_char=110|end_char=116
+5	on	on	ADP	IN	_	4	_	_	start_char=117|end_char=119
+6	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=120|end_char=123
+7	SCOTUS	SCOTUS	PROPN	NNP	Number=Sing	6	_	_	start_char=124|end_char=130|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=130|end_char=131|SpaceAfter=No
+

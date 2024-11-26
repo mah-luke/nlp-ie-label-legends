@@ -1,0 +1,32 @@
+# text = They're ALWAYS trying to find a loophole where they're "allowed" to rape.
+# sent_id = 56540
+1-2	They're	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=4
+2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	ALWAYS	always	ADV	RB	_	2	_	_	start_char=8|end_char=14
+4	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=15|end_char=21
+5	to	to	PART	TO	_	4	_	_	start_char=22|end_char=24
+6	find	find	VERB	VB	VerbForm=Inf	5	_	_	start_char=25|end_char=29
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=30|end_char=31
+8	loophole	loophole	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=40
+9	where	where	ADV	WRB	PronType=Rel	8	_	_	start_char=41|end_char=46
+10-11	they're	_	_	_	_	_	_	_	start_char=47|end_char=54
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=47|end_char=51
+11	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=51|end_char=54
+12	"	"	PUNCT	``	_	11	_	_	start_char=55|end_char=56|SpaceAfter=No
+13	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=56|end_char=63|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=63|end_char=64
+15	to	to	PART	TO	_	14	_	_	start_char=65|end_char=67
+16	rape	rape	VERB	VB	VerbForm=Inf	15	_	_	start_char=68|end_char=72|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=72|end_char=73
+
+# text = World would be better without them.
+# sent_id = 56541
+1	World	World	PROPN	NNP	Number=Sing	0	_	_	start_char=74|end_char=79
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=80|end_char=85
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=86|end_char=88
+4	better	good	ADJ	JJR	Degree=Cmp	3	_	_	start_char=89|end_char=95
+5	without	without	ADP	IN	_	4	_	_	start_char=96|end_char=103
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=104|end_char=108|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=108|end_char=109|SpaceAfter=No
+

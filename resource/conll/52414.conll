@@ -1,0 +1,21 @@
+# text = Most likely, already tried and was rejected.
+# sent_id = 112061
+1	Most	most	ADV	RBS	Degree=Sup	0	_	_	start_char=0|end_char=4
+2	likely	likely	ADJ	JJ	Degree=Pos	1	_	_	start_char=5|end_char=11|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=11|end_char=12
+4	already	already	ADV	RB	_	3	_	_	start_char=13|end_char=20
+5	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=21|end_char=26
+6	and	and	CCONJ	CC	_	5	_	_	start_char=27|end_char=30
+7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=31|end_char=34
+8	rejected	reject	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=35|end_char=43|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=43|end_char=44
+
+# text = Then she posted on Reddit.
+# sent_id = 112062
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=45|end_char=49
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=50|end_char=53
+3	posted	post	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=54|end_char=60
+4	on	on	ADP	IN	_	3	_	_	start_char=61|end_char=63
+5	Reddit	Reddit	PROPN	NNP	Number=Sing	4	_	_	start_char=64|end_char=70|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=70|end_char=71|SpaceAfter=No
+

@@ -1,0 +1,43 @@
+# text = Wow.
+# sent_id = 125779
+1	Wow	wow	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = You're fucking deluded.
+# sent_id = 125780
+1-2	You're	_	_	_	_	_	_	_	start_char=5|end_char=11
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=5|end_char=8
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=11
+3	fucking	fucking	ADV	RB	_	2	_	_	start_char=12|end_char=19
+4	deluded	delude	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=20|end_char=27|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=27|end_char=28
+
+# text = Please, enlighten me, where do you get your definition.
+# sent_id = 125781
+1	Please	please	INTJ	UH	_	0	_	_	start_char=29|end_char=35|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=35|end_char=36
+3	enlighten	enlighten	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=37|end_char=46
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=47|end_char=49|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=49|end_char=50
+6	where	where	ADV	WRB	PronType=Int	5	_	_	start_char=51|end_char=56
+7	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=57|end_char=59
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=60|end_char=63
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=64|end_char=67
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	_	_	start_char=68|end_char=72
+11	definition	definition	NOUN	NN	Number=Sing	10	_	_	start_char=73|end_char=83|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=83|end_char=84
+
+# text = Or are you gonna just dodge that gatekeeper?
+# sent_id = 125782
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=85|end_char=87
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=88|end_char=91
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=92|end_char=95
+4-5	gonna	_	_	_	_	_	_	_	start_char=96|end_char=101
+4	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=96|end_char=99
+5	na	to	PART	TO	_	4	_	_	start_char=99|end_char=101
+6	just	just	ADV	RB	_	5	_	_	start_char=102|end_char=106
+7	dodge	dodge	VERB	VB	VerbForm=Inf	6	_	_	start_char=107|end_char=112
+8	that	that	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=113|end_char=117
+9	gatekeeper	gatekeeper	NOUN	NN	Number=Sing	8	_	_	start_char=118|end_char=128|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=128|end_char=129|SpaceAfter=No
+

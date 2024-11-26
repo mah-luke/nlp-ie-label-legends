@@ -1,0 +1,60 @@
+# text = Yes ma'am I find old rusty pieces at flea markets and bring them back, my precious piece is around pre 1870, I can't cook without them!
+# sent_id = 46405
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	ma'am	ma'am	INTJ	UH	_	1	_	_	start_char=4|end_char=9
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=10|end_char=11
+4	find	find	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=12|end_char=16
+5	old	old	ADJ	JJ	Degree=Pos	4	_	_	start_char=17|end_char=20
+6	rusty	rusty	ADJ	JJ	Degree=Pos	5	_	_	start_char=21|end_char=26
+7	pieces	piece	NOUN	NNS	Number=Plur	6	_	_	start_char=27|end_char=33
+8	at	at	ADP	IN	_	7	_	_	start_char=34|end_char=36
+9	flea	flea	NOUN	NN	Number=Sing	8	_	_	start_char=37|end_char=41
+10	markets	market	NOUN	NNS	Number=Plur	9	_	_	start_char=42|end_char=49
+11	and	and	CCONJ	CC	_	10	_	_	start_char=50|end_char=53
+12	bring	bring	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=54|end_char=59
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=60|end_char=64
+14	back	back	ADV	RB	_	13	_	_	start_char=65|end_char=69|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=69|end_char=70
+16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	_	_	start_char=71|end_char=73
+17	precious	precious	ADJ	JJ	Degree=Pos	16	_	_	start_char=74|end_char=82
+18	piece	piece	NOUN	NN	Number=Sing	17	_	_	start_char=83|end_char=88
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=89|end_char=91
+20	around	around	ADP	IN	_	19	_	_	start_char=92|end_char=98
+21	pre	pre	NOUN	NN	Number=Sing	20	_	_	start_char=99|end_char=102
+22	1870	1870	NUM	CD	NumForm=Digit|NumType=Card	21	_	_	start_char=103|end_char=107|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	start_char=107|end_char=108
+24	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	23	_	_	start_char=109|end_char=110
+25-26	can't	_	_	_	_	_	_	_	start_char=111|end_char=116
+25	ca	can	AUX	MD	VerbForm=Fin	24	_	_	start_char=111|end_char=113
+26	n't	not	PART	RB	_	25	_	_	start_char=113|end_char=116
+27	cook	cook	VERB	VB	VerbForm=Inf	26	_	_	start_char=117|end_char=121
+28	without	without	ADP	IN	_	27	_	_	start_char=122|end_char=129
+29	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	28	_	_	start_char=130|end_char=134|SpaceAfter=No
+30	!	!	PUNCT	.	_	29	_	_	start_char=134|end_char=135
+
+# text = Yours are family heirlooms, all that good seasoning, no need to strip that off, lots of love on those pans
+# sent_id = 46406
+1	Yours	yours	PRON	PRP	Gender=Neut|Number=Sing|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=136|end_char=141
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=142|end_char=145
+3	family	family	NOUN	NN	Number=Sing	2	_	_	start_char=146|end_char=152
+4	heirlooms	heirloom	NOUN	NNS	Number=Plur	3	_	_	start_char=153|end_char=162|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=162|end_char=163
+6	all	all	DET	PDT	_	5	_	_	start_char=164|end_char=167
+7	that	that	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=168|end_char=172
+8	good	good	ADJ	JJ	Degree=Pos	7	_	_	start_char=173|end_char=177
+9	seasoning	seasoning	NOUN	NN	Number=Sing	8	_	_	start_char=178|end_char=187|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=187|end_char=188
+11	no	no	DET	DT	_	10	_	_	start_char=189|end_char=191
+12	need	need	NOUN	NN	Number=Sing	11	_	_	start_char=192|end_char=196
+13	to	to	PART	TO	_	12	_	_	start_char=197|end_char=199
+14	strip	strip	VERB	VB	VerbForm=Inf	13	_	_	start_char=200|end_char=205
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	14	_	_	start_char=206|end_char=210
+16	off	off	ADP	RP	_	15	_	_	start_char=211|end_char=214|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=214|end_char=215
+18	lots	lot	NOUN	NNS	Number=Plur	17	_	_	start_char=216|end_char=220
+19	of	of	ADP	IN	_	18	_	_	start_char=221|end_char=223
+20	love	love	NOUN	NN	Number=Sing	19	_	_	start_char=224|end_char=228
+21	on	on	ADP	IN	_	20	_	_	start_char=229|end_char=231
+22	those	that	DET	DT	Number=Plur|PronType=Dem	21	_	_	start_char=232|end_char=237
+23	pans	pan	NOUN	NNS	Number=Plur	22	_	_	start_char=238|end_char=242|SpaceAfter=No
+

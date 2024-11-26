@@ -1,0 +1,59 @@
+# text = Too harsh?
+# sent_id = 41499
+1	Too	too	ADV	RB	_	0	_	_	start_char=0|end_char=3
+2	harsh	harsh	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=9|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = That child doesn't get to live her life because her mother (the person who is responsible for her wellbeing) wanted to whore around and fall asleep.
+# sent_id = 41500
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=11|end_char=15
+2	child	child	NOUN	NN	Number=Sing	1	_	_	start_char=16|end_char=21
+3-4	doesn't	_	_	_	_	_	_	_	start_char=22|end_char=29
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=22|end_char=26
+4	n't	not	PART	RB	_	3	_	_	start_char=26|end_char=29
+5	get	get	VERB	VB	VerbForm=Inf	4	_	_	start_char=30|end_char=33
+6	to	to	PART	TO	_	5	_	_	start_char=34|end_char=36
+7	live	live	VERB	VB	VerbForm=Inf	6	_	_	start_char=37|end_char=41
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=42|end_char=45
+9	life	life	NOUN	NN	Number=Sing	8	_	_	start_char=46|end_char=50
+10	because	because	SCONJ	IN	_	9	_	_	start_char=51|end_char=58
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=59|end_char=62
+12	mother	mother	NOUN	NN	Number=Sing	11	_	_	start_char=63|end_char=69
+13	(	(	PUNCT	-LRB-	_	12	_	_	start_char=70|end_char=71|SpaceAfter=No
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=71|end_char=74
+15	person	person	NOUN	NN	Number=Sing	14	_	_	start_char=75|end_char=81
+16	who	who	PRON	WP	PronType=Rel	15	_	_	start_char=82|end_char=85
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=86|end_char=88
+18	responsible	responsible	ADJ	JJ	Degree=Pos	17	_	_	start_char=89|end_char=100
+19	for	for	ADP	IN	_	18	_	_	start_char=101|end_char=104
+20	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	19	_	_	start_char=105|end_char=108
+21	wellbeing	wellbeing	NOUN	NN	Number=Sing	20	_	_	start_char=109|end_char=118|SpaceAfter=No
+22	)	)	PUNCT	-RRB-	_	21	_	_	start_char=118|end_char=119
+23	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	_	_	start_char=120|end_char=126
+24	to	to	PART	TO	_	23	_	_	start_char=127|end_char=129
+25	whore	whore	VERB	VB	VerbForm=Inf	24	_	_	start_char=130|end_char=135
+26	around	around	ADV	RB	_	25	_	_	start_char=136|end_char=142
+27	and	and	CCONJ	CC	_	26	_	_	start_char=143|end_char=146
+28	fall	fall	VERB	VB	VerbForm=Inf	27	_	_	start_char=147|end_char=151
+29	asleep	asleep	ADV	RB	_	28	_	_	start_char=152|end_char=158|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	start_char=158|end_char=159
+
+# text = If you truly believe what you are saying then you are a piece of shit.
+# sent_id = 41501
+1	If	if	SCONJ	IN	_	0	_	_	start_char=160|end_char=162
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=163|end_char=166
+3	truly	truly	ADV	RB	_	2	_	_	start_char=167|end_char=172
+4	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=173|end_char=180
+5	what	what	PRON	WP	PronType=Rel	4	_	_	start_char=181|end_char=185
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=186|end_char=189
+7	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=190|end_char=193
+8	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=194|end_char=200
+9	then	then	ADV	RB	PronType=Dem	8	_	_	start_char=201|end_char=205
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=206|end_char=209
+11	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=210|end_char=213
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=214|end_char=215
+13	piece	piece	NOUN	NN	Number=Sing	12	_	_	start_char=216|end_char=221
+14	of	of	ADP	IN	_	13	_	_	start_char=222|end_char=224
+15	shit	shit	NOUN	NN	Number=Sing	14	_	_	start_char=225|end_char=229|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=229|end_char=230|SpaceAfter=No
+

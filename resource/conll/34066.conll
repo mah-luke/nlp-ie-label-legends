@@ -1,0 +1,73 @@
+# text = SOME, A VERY FEW men get a free and easy lay.
+# sent_id = 72882
+1	SOME	some	DET	DT	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	A	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=6|end_char=7
+4	VERY	very	ADV	RB	_	3	_	_	start_char=8|end_char=12
+5	FEW	few	ADJ	JJ	Degree=Pos	4	_	_	start_char=13|end_char=16
+6	men	man	NOUN	NNS	Number=Plur	5	_	_	start_char=17|end_char=20
+7	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=21|end_char=24
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=25|end_char=26
+9	free	free	ADJ	JJ	Degree=Pos	8	_	_	start_char=27|end_char=31
+10	and	and	CCONJ	CC	_	9	_	_	start_char=32|end_char=35
+11	easy	easy	ADJ	JJ	Degree=Pos	10	_	_	start_char=36|end_char=40
+12	lay	lay	NOUN	NN	Number=Sing	11	_	_	start_char=41|end_char=44|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=44|end_char=45
+
+# text = If you are not sexually attractive, you don't get to be a horsie on the cock carousel.
+# sent_id = 72883
+1	If	if	SCONJ	IN	_	0	_	_	start_char=46|end_char=48
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=49|end_char=52
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=53|end_char=56
+4	not	not	PART	RB	_	3	_	_	start_char=57|end_char=60
+5	sexually	sexually	ADV	RB	_	4	_	_	start_char=61|end_char=69
+6	attractive	attractive	ADJ	JJ	Degree=Pos	5	_	_	start_char=70|end_char=80|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=80|end_char=81
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=82|end_char=85
+9-10	don't	_	_	_	_	_	_	_	start_char=86|end_char=91
+9	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=86|end_char=88
+10	n't	not	PART	RB	_	9	_	_	start_char=88|end_char=91
+11	get	get	VERB	VB	VerbForm=Inf	10	_	_	start_char=92|end_char=95
+12	to	to	PART	TO	_	11	_	_	start_char=96|end_char=98
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=99|end_char=101
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=102|end_char=103
+15	horsie	horsie	NOUN	NN	Number=Sing	14	_	_	start_char=104|end_char=110
+16	on	on	ADP	IN	_	15	_	_	start_char=111|end_char=113
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=114|end_char=117
+18	cock	cock	NOUN	NN	Number=Sing	17	_	_	start_char=118|end_char=122
+19	carousel	carousel	NOUN	NN	Number=Sing	18	_	_	start_char=123|end_char=131|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=131|end_char=132
+
+# text = Period.
+# sent_id = 72884
+1	Period	period	NOUN	NN	Number=Sing	0	_	_	start_char=133|end_char=139|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=139|end_char=140
+
+# text = End of discussion.
+# sent_id = 72885
+1	End	end	NOUN	NN	Number=Sing	0	_	_	start_char=141|end_char=144
+2	of	of	ADP	IN	_	1	_	_	start_char=145|end_char=147
+3	discussion	discussion	NOUN	NN	Number=Sing	2	_	_	start_char=148|end_char=158|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=158|end_char=159
+
+# text = Orgasms NOT for all.
+# sent_id = 72886
+1	Orgasms	orgasm	NOUN	NNS	Number=Plur	0	_	_	start_char=160|end_char=167
+2	NOT	not	PART	RB	_	1	_	_	start_char=168|end_char=171
+3	for	for	ADP	IN	_	2	_	_	start_char=172|end_char=175
+4	all	all	DET	DT	_	3	_	_	start_char=176|end_char=179|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=179|end_char=180
+
+# text = For most women, and for a few men.
+# sent_id = 72887
+1	For	for	ADP	IN	_	0	_	_	start_char=181|end_char=184
+2	most	most	ADJ	JJS	Degree=Sup	1	_	_	start_char=185|end_char=189
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=190|end_char=195|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=195|end_char=196
+5	and	and	CCONJ	CC	_	4	_	_	start_char=197|end_char=200
+6	for	for	ADP	IN	_	5	_	_	start_char=201|end_char=204
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=205|end_char=206
+8	few	few	ADJ	JJ	Degree=Pos	7	_	_	start_char=207|end_char=210
+9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=211|end_char=214|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=214|end_char=215|SpaceAfter=No
+

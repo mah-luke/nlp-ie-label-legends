@@ -1,0 +1,53 @@
+# text = "girls like me really appreciate love-letters and songs, anon.
+# sent_id = 66288
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=1|end_char=6
+3	like	like	ADP	IN	_	2	_	_	start_char=7|end_char=11
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=12|end_char=14
+5	really	really	ADV	RB	_	4	_	_	start_char=15|end_char=21
+6	appreciate	appreciate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=22|end_char=32
+7	love	love	NOUN	NN	Number=Sing	6	_	_	start_char=33|end_char=37|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	_	_	start_char=37|end_char=38|SpaceAfter=No
+9	letters	letter	NOUN	NNS	Number=Plur	8	_	_	start_char=38|end_char=45
+10	and	and	CCONJ	CC	_	9	_	_	start_char=46|end_char=49
+11	songs	song	NOUN	NNS	Number=Plur	10	_	_	start_char=50|end_char=55|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=55|end_char=56
+13	anon	anon	NOUN	NN	Number=Sing	12	_	_	start_char=57|end_char=61|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=61|end_char=62
+
+# text = I think it's really sweet of you.
+# sent_id = 66289
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=63|end_char=64
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=65|end_char=70
+3-4	it's	_	_	_	_	_	_	_	start_char=71|end_char=75
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=71|end_char=73
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=73|end_char=75
+5	really	really	ADV	RB	_	4	_	_	start_char=76|end_char=82
+6	sweet	sweet	ADJ	JJ	Degree=Pos	5	_	_	start_char=83|end_char=88
+7	of	of	ADP	IN	_	6	_	_	start_char=89|end_char=91
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	_	_	start_char=92|end_char=95|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=95|end_char=96
+
+# text = How else would I reinforce my false sense of genetic superiority if it wasn't for simps??? "
+# sent_id = 66290
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=97|end_char=100
+2	else	else	ADV	RB	_	1	_	_	start_char=101|end_char=105
+3	would	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=106|end_char=111
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=112|end_char=113
+5	reinforce	reinforce	VERB	VB	VerbForm=Inf	4	_	_	start_char=114|end_char=123
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=124|end_char=126
+7	false	false	ADJ	JJ	Degree=Pos	6	_	_	start_char=127|end_char=132
+8	sense	sense	NOUN	NN	Number=Sing	7	_	_	start_char=133|end_char=138
+9	of	of	ADP	IN	_	8	_	_	start_char=139|end_char=141
+10	genetic	genetic	ADJ	JJ	Degree=Pos	9	_	_	start_char=142|end_char=149
+11	superiority	superiority	NOUN	NN	Number=Sing	10	_	_	start_char=150|end_char=161
+12	if	if	SCONJ	IN	_	11	_	_	start_char=162|end_char=164
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=165|end_char=167
+14-15	wasn't	_	_	_	_	_	_	_	start_char=168|end_char=174
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=168|end_char=171
+15	n't	not	PART	RB	_	14	_	_	start_char=171|end_char=174
+16	for	for	ADP	IN	_	15	_	_	start_char=175|end_char=178
+17	simps	simp	NOUN	NNS	Number=Plur	16	_	_	start_char=179|end_char=184|SpaceAfter=No
+18	???	???	PUNCT	.	_	17	_	_	start_char=184|end_char=187
+19	"	"	PUNCT	''	_	18	_	_	start_char=188|end_char=189|SpaceAfter=No
+

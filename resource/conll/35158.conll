@@ -1,0 +1,51 @@
+# text = [URL] Facebook Fox Carolina News
+# sent_id = 75224
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+4	Facebook	Facebook	PROPN	NNP	Number=Sing	3	_	_	start_char=6|end_char=14
+5	Fox	Fox	PROPN	NNP	Number=Sing	4	_	_	start_char=15|end_char=18
+6	Carolina	Carolina	PROPN	NNP	Number=Sing	5	_	_	start_char=19|end_char=27
+7	News	News	PROPN	NNP	Number=Sing	6	_	_	start_char=28|end_char=32
+
+# text = An Arkansas man who beat and raped a 69-year-old woman leaving her so badly injured that parts of her arms and legs had to be amputated has been sentenced to life in prison.
+# sent_id = 75225
+1	An	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=33|end_char=35
+2	Arkansas	Arkansas	PROPN	NNP	Number=Sing	1	_	_	start_char=36|end_char=44
+3	man	man	NOUN	NN	Number=Sing	2	_	_	start_char=45|end_char=48
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=49|end_char=52
+5	beat	beat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=53|end_char=57
+6	and	and	CCONJ	CC	_	5	_	_	start_char=58|end_char=61
+7	raped	rape	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=62|end_char=67
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=68|end_char=69
+9	69	69	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=70|end_char=72|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	_	_	start_char=72|end_char=73|SpaceAfter=No
+11	year	year	NOUN	NN	Number=Sing	10	_	_	start_char=73|end_char=77|SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	11	_	_	start_char=77|end_char=78|SpaceAfter=No
+13	old	old	ADJ	JJ	Degree=Pos	12	_	_	start_char=78|end_char=81
+14	woman	woman	NOUN	NN	Number=Sing	13	_	_	start_char=82|end_char=87
+15	leaving	leave	VERB	VBG	VerbForm=Ger	14	_	_	start_char=88|end_char=95
+16	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=96|end_char=99
+17	so	so	ADV	RB	_	16	_	_	start_char=100|end_char=102
+18	badly	badly	ADV	RB	Degree=Pos	17	_	_	start_char=103|end_char=108
+19	injured	injure	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=109|end_char=116
+20	that	that	SCONJ	IN	_	19	_	_	start_char=117|end_char=121
+21	parts	part	NOUN	NNS	Number=Plur	20	_	_	start_char=122|end_char=127
+22	of	of	ADP	IN	_	21	_	_	start_char=128|end_char=130
+23	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	_	_	start_char=131|end_char=134
+24	arms	arm	NOUN	NNS	Number=Plur	23	_	_	start_char=135|end_char=139
+25	and	and	CCONJ	CC	_	24	_	_	start_char=140|end_char=143
+26	legs	leg	NOUN	NNS	Number=Plur	25	_	_	start_char=144|end_char=148
+27	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	26	_	_	start_char=149|end_char=152
+28	to	to	PART	TO	_	27	_	_	start_char=153|end_char=155
+29	be	be	AUX	VB	VerbForm=Inf	28	_	_	start_char=156|end_char=158
+30	amputated	amputate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	29	_	_	start_char=159|end_char=168
+31	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	_	_	start_char=169|end_char=172
+32	been	be	AUX	VBN	Tense=Past|VerbForm=Part	31	_	_	start_char=173|end_char=177
+33	sentenced	sentence	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	32	_	_	start_char=178|end_char=187
+34	to	to	ADP	IN	_	33	_	_	start_char=188|end_char=190
+35	life	life	NOUN	NN	Number=Sing	34	_	_	start_char=191|end_char=195
+36	in	in	ADP	IN	_	35	_	_	start_char=196|end_char=198
+37	prison	prison	NOUN	NN	Number=Sing	36	_	_	start_char=199|end_char=205|SpaceAfter=No
+38	.	.	PUNCT	.	_	37	_	_	start_char=205|end_char=206|SpaceAfter=No
+

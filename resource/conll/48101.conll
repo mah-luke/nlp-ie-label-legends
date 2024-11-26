@@ -1,0 +1,30 @@
+# text = In China's far west, authorities are distancing Muslim children from their families with orphanages, boarding schools.
+# sent_id = 102841
+1	In	in	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2-3	China's	_	_	_	_	_	_	_	start_char=3|end_char=10
+2	China	China	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=8
+3	's	's	PART	POS	_	2	_	_	start_char=8|end_char=10
+4	far	far	ADV	RB	Degree=Pos	3	_	_	start_char=11|end_char=14
+5	west	west	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=19|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=19|end_char=20
+7	authorities	authority	NOUN	NNS	Number=Plur	6	_	_	start_char=21|end_char=32
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=33|end_char=36
+9	distancing	distance	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=37|end_char=47
+10	Muslim	Muslim	ADJ	JJ	Degree=Pos	9	_	_	start_char=48|end_char=54
+11	children	child	NOUN	NNS	Number=Plur	10	_	_	start_char=55|end_char=63
+12	from	from	ADP	IN	_	11	_	_	start_char=64|end_char=68
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=69|end_char=74
+14	families	family	NOUN	NNS	Number=Plur	13	_	_	start_char=75|end_char=83
+15	with	with	ADP	IN	_	14	_	_	start_char=84|end_char=88
+16	orphanages	orphanage	NOUN	NNS	Number=Plur	15	_	_	start_char=89|end_char=99|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=99|end_char=100
+18	boarding	boarding	NOUN	NN	Number=Sing	17	_	_	start_char=101|end_char=109
+19	schools	school	NOUN	NNS	Number=Plur	18	_	_	start_char=110|end_char=117|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=117|end_char=118
+
+# text = [URL]
+# sent_id = 102842
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=119|end_char=120|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=120|end_char=123|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=123|end_char=124|SpaceAfter=No
+

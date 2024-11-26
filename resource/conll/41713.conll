@@ -1,0 +1,23 @@
+# text = Why does she have to be white?
+# sent_id = 89234
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	have	have	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=17
+5	to	to	PART	TO	_	4	_	_	start_char=18|end_char=20
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=21|end_char=23
+7	white	white	ADJ	JJ	Degree=Pos	6	_	_	start_char=24|end_char=29|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=29|end_char=30
+
+# text = Do blackcels hate black females or something ? 🤔
+# sent_id = 89235
+1	Do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=31|end_char=33
+2	blackcels	blackcel	NOUN	NNS	Number=Plur	1	_	_	start_char=34|end_char=43
+3	hate	hate	VERB	VB	VerbForm=Inf	2	_	_	start_char=44|end_char=48
+4	black	black	ADJ	JJ	Degree=Pos	3	_	_	start_char=49|end_char=54
+5	females	female	NOUN	NNS	Number=Plur	4	_	_	start_char=55|end_char=62
+6	or	or	CCONJ	CC	_	5	_	_	start_char=63|end_char=65
+7	something	something	PRON	NN	Number=Sing|PronType=Ind	6	_	_	start_char=66|end_char=75
+8	?	?	PUNCT	.	_	7	_	_	start_char=76|end_char=77
+9	🤔	🤔	PUNCT	''	_	8	_	_	start_char=78|end_char=79|SpaceAfter=No
+

@@ -1,0 +1,45 @@
+# text = Lady's shirts are not the same as men's even if they are made of the same material.
+# sent_id = 87135
+1-2	Lady's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	Lady	Lady	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	's	's	PART	POS	_	1	_	_	start_char=4|end_char=6
+3	shirts	shirt	NOUN	NNS	Number=Plur	2	_	_	start_char=7|end_char=13
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=17
+5	not	not	PART	RB	_	4	_	_	start_char=18|end_char=21
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=22|end_char=25
+7	same	same	ADJ	JJ	Degree=Pos	6	_	_	start_char=26|end_char=30
+8	as	as	ADP	IN	_	7	_	_	start_char=31|end_char=33
+9-10	men's	_	_	_	_	_	_	_	start_char=34|end_char=39
+9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=34|end_char=37
+10	's	's	PART	POS	_	9	_	_	start_char=37|end_char=39
+11	even	even	ADV	RB	_	10	_	_	start_char=40|end_char=44
+12	if	if	SCONJ	IN	_	11	_	_	start_char=45|end_char=47
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=48|end_char=52
+14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=53|end_char=56
+15	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	_	_	start_char=57|end_char=61
+16	of	of	ADP	IN	_	15	_	_	start_char=62|end_char=64
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=65|end_char=68
+18	same	same	ADJ	JJ	Degree=Pos	17	_	_	start_char=69|end_char=73
+19	material	material	NOUN	NN	Number=Sing	18	_	_	start_char=74|end_char=82|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=82|end_char=83
+
+# text = It takes longer to finish the woman's garment.
+# sent_id = 87136
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=84|end_char=86
+2	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=87|end_char=92
+3	longer	long	ADV	RBR	Degree=Cmp	2	_	_	start_char=93|end_char=99
+4	to	to	PART	TO	_	3	_	_	start_char=100|end_char=102
+5	finish	finish	VERB	VB	VerbForm=Inf	4	_	_	start_char=103|end_char=109
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=110|end_char=113
+7-8	woman's	_	_	_	_	_	_	_	start_char=114|end_char=121
+7	woman	woman	NOUN	NN	Number=Sing	6	_	_	start_char=114|end_char=119
+8	's	's	PART	POS	_	7	_	_	start_char=119|end_char=121
+9	garment	garment	NOUN	NN	Number=Sing	8	_	_	start_char=122|end_char=129|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=129|end_char=130
+
+# text = [URL]
+# sent_id = 87137
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=131|end_char=132|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=132|end_char=135|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=135|end_char=136|SpaceAfter=No
+

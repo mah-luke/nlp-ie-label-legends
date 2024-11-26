@@ -1,0 +1,32 @@
+# text = just shoot her a value giving text
+# sent_id = 19105
+1	just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	shoot	shoot	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=10
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=11|end_char=14
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=15|end_char=16
+5	value	value	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=22
+6	giving	give	VERB	VBG	VerbForm=Ger	5	_	_	start_char=23|end_char=29
+7	text	text	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=34
+
+# text = What does that mean?
+# sent_id = 19106
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=35|end_char=39
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=40|end_char=44
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=45|end_char=49
+4	mean	mean	VERB	VB	VerbForm=Inf	3	_	_	start_char=50|end_char=54|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=54|end_char=55
+
+# text = Can you post some examples?
+# sent_id = 19107
+1	Can	can	AUX	MD	VerbForm=Fin	0	_	_	start_char=56|end_char=59
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=60|end_char=63
+3	post	post	VERB	VB	VerbForm=Inf	2	_	_	start_char=64|end_char=68
+4	some	some	DET	DT	_	3	_	_	start_char=69|end_char=73
+5	examples	example	NOUN	NNS	Number=Plur	4	_	_	start_char=74|end_char=82|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=82|end_char=83
+
+# text = Thanks.
+# sent_id = 19108
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=84|end_char=90|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=90|end_char=91|SpaceAfter=No
+

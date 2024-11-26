@@ -1,0 +1,52 @@
+# text = I am getting tired of Ivanka's agendas.
+# sent_id = 93600
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=5|end_char=12
+4	tired	tired	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=18
+5	of	of	ADP	IN	_	4	_	_	start_char=19|end_char=21
+6-7	Ivanka's	_	_	_	_	_	_	_	start_char=22|end_char=30
+6	Ivanka	Ivanka	PROPN	NNP	Number=Sing	5	_	_	start_char=22|end_char=28
+7	's	's	PART	POS	_	6	_	_	start_char=28|end_char=30
+8	agendas	agenda	NOUN	NNS	Number=Plur	7	_	_	start_char=31|end_char=38|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=38|end_char=39
+
+# text = I am particularly annoyed that she is in India encouraging their I.T. sector given the fact that it seems to exist to put American I.T. workers out of work.
+# sent_id = 93601
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=40|end_char=41
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=44
+3	particularly	particularly	ADV	RB	_	2	_	_	start_char=45|end_char=57
+4	annoyed	annoyed	ADJ	JJ	Degree=Pos	3	_	_	start_char=58|end_char=65
+5	that	that	SCONJ	IN	_	4	_	_	start_char=66|end_char=70
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=71|end_char=74
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=75|end_char=77
+8	in	in	ADP	IN	_	7	_	_	start_char=78|end_char=80
+9	India	India	PROPN	NNP	Number=Sing	8	_	_	start_char=81|end_char=86
+10	encouraging	encourage	VERB	VBG	VerbForm=Ger	9	_	_	start_char=87|end_char=98
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=99|end_char=104
+12	I.T.	I.T.	NOUN	NN	Number=Sing	11	_	_	start_char=105|end_char=109
+13	sector	sector	NOUN	NN	Number=Sing	12	_	_	start_char=110|end_char=116
+14	given	give	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=117|end_char=122
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=123|end_char=126
+16	fact	fact	NOUN	NN	Number=Sing	15	_	_	start_char=127|end_char=131
+17	that	that	SCONJ	IN	_	16	_	_	start_char=132|end_char=136
+18	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=137|end_char=139
+19	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=140|end_char=145
+20	to	to	PART	TO	_	19	_	_	start_char=146|end_char=148
+21	exist	exist	VERB	VB	VerbForm=Inf	20	_	_	start_char=149|end_char=154
+22	to	to	PART	TO	_	21	_	_	start_char=155|end_char=157
+23	put	put	VERB	VB	VerbForm=Inf	22	_	_	start_char=158|end_char=161
+24	American	American	ADJ	JJ	Degree=Pos	23	_	_	start_char=162|end_char=170
+25	I.T.	I.T.	NOUN	NN	Number=Sing	24	_	_	start_char=171|end_char=175
+26	workers	worker	NOUN	NNS	Number=Plur	25	_	_	start_char=176|end_char=183
+27	out	out	ADP	IN	_	26	_	_	start_char=184|end_char=187
+28	of	of	ADP	IN	_	27	_	_	start_char=188|end_char=190
+29	work	work	NOUN	NN	Number=Sing	28	_	_	start_char=191|end_char=195|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	start_char=195|end_char=196
+
+# text = [URL]
+# sent_id = 93602
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=197|end_char=198|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=198|end_char=201|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=201|end_char=202|SpaceAfter=No
+

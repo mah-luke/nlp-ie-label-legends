@@ -1,0 +1,50 @@
+# text = why are you tring to conflate people with political systems ?
+# sent_id = 109678
+1	why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=8|end_char=11
+4	tring	tring	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=17
+5	to	to	PART	TO	_	4	_	_	start_char=18|end_char=20
+6	conflate	conflate	VERB	VB	VerbForm=Inf	5	_	_	start_char=21|end_char=29
+7	people	person	NOUN	NNS	Number=Plur	6	_	_	start_char=30|end_char=36
+8	with	with	ADP	IN	_	7	_	_	start_char=37|end_char=41
+9	political	political	ADJ	JJ	Degree=Pos	8	_	_	start_char=42|end_char=51
+10	systems	system	NOUN	NNS	Number=Plur	9	_	_	start_char=52|end_char=59
+11	?	?	PUNCT	.	_	10	_	_	start_char=60|end_char=61
+
+# text = one of your hero's said the death of 1 is sad.
+# sent_id = 109679
+1	one	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=62|end_char=65
+2	of	of	ADP	IN	_	1	_	_	start_char=66|end_char=68
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=69|end_char=73
+4-5	hero's	_	_	_	_	_	_	_	start_char=74|end_char=80
+4	hero	hero	NOUN	NN	Number=Sing	3	_	_	start_char=74|end_char=78
+5	's	's	PART	POS	_	4	_	_	start_char=78|end_char=80
+6	said	say	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin	5	_	_	start_char=81|end_char=85
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=86|end_char=89
+8	death	death	NOUN	NN	Number=Sing	7	_	_	start_char=90|end_char=95
+9	of	of	ADP	IN	_	8	_	_	start_char=96|end_char=98
+10	1	1	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=99|end_char=100
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=101|end_char=103
+12	sad	sad	ADJ	JJ	Degree=Pos	11	_	_	start_char=104|end_char=107|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=107|end_char=108
+
+# text = the death of 1 million is a statistic.
+# sent_id = 109680
+1	the	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=109|end_char=112
+2	death	death	NOUN	NN	Number=Sing	1	_	_	start_char=113|end_char=118
+3	of	of	ADP	IN	_	2	_	_	start_char=119|end_char=121
+4	1	1	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=122|end_char=123
+5	million	million	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=124|end_char=131
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=132|end_char=134
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=135|end_char=136
+8	statistic	statistic	NOUN	NN	Number=Sing	7	_	_	start_char=137|end_char=146|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=146|end_char=147
+
+# text = fuck you, commie
+# sent_id = 109681
+1	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=148|end_char=152
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	start_char=153|end_char=156|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=156|end_char=157
+4	commie	commie	INTJ	UH	_	3	_	_	start_char=158|end_char=164|SpaceAfter=No
+

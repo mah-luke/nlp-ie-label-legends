@@ -1,0 +1,25 @@
+# text = exactly!
+# sent_id = 25707
+1	exactly	exactly	ADV	RB	_	0	_	_	start_char=0|end_char=7|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=7|end_char=8
+
+# text = why be in contact with the ex?
+# sent_id = 25708
+1	why	why	ADV	WRB	PronType=Int	0	_	_	start_char=9|end_char=12
+2	be	be	AUX	VB	VerbForm=Inf	1	_	_	start_char=13|end_char=15
+3	in	in	ADP	IN	_	2	_	_	start_char=16|end_char=18
+4	contact	contact	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=26
+5	with	with	ADP	IN	_	4	_	_	start_char=27|end_char=31
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=32|end_char=35
+7	ex	ex	NOUN	NN	Number=Sing	6	_	_	start_char=36|end_char=38|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=38|end_char=39
+
+# text = cause women are fucking garbage.
+# sent_id = 25709
+1	cause	cause	SCONJ	IN	_	0	_	_	start_char=40|end_char=45
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=46|end_char=51
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=52|end_char=55
+4	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=56|end_char=63
+5	garbage	garbage	NOUN	NN	Number=Sing	4	_	_	start_char=64|end_char=71|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=71|end_char=72|SpaceAfter=No
+

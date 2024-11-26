@@ -1,0 +1,29 @@
+# text = how?
+# sent_id = 25446
+1	how	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = i mean they are loyal to their race.
+# sent_id = 25447
+1	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=5|end_char=6
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7|end_char=11
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=12|end_char=16
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=17|end_char=20
+5	loyal	loyal	ADJ	JJ	Degree=Pos	4	_	_	start_char=21|end_char=26
+6	to	to	ADP	IN	_	5	_	_	start_char=27|end_char=29
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=30|end_char=35
+8	race	race	NOUN	NN	Number=Sing	7	_	_	start_char=36|end_char=40|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=40|end_char=41
+
+# text = about half of noodles only date white men.
+# sent_id = 25448
+1	about	about	ADV	RB	_	0	_	_	start_char=42|end_char=47
+2	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	1	_	_	start_char=48|end_char=52
+3	of	of	ADP	IN	_	2	_	_	start_char=53|end_char=55
+4	noodles	noodle	NOUN	NNS	Number=Plur	3	_	_	start_char=56|end_char=63
+5	only	only	ADV	RB	_	4	_	_	start_char=64|end_char=68
+6	date	date	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=69|end_char=73
+7	white	white	ADJ	JJ	Degree=Pos	6	_	_	start_char=74|end_char=79
+8	men	man	NOUN	NNS	Number=Plur	7	_	_	start_char=80|end_char=83|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=83|end_char=84|SpaceAfter=No
+

@@ -1,0 +1,40 @@
+# text = Oh, I like good advice.
+# sent_id = 1260
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=4|end_char=5
+4	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=6|end_char=10
+5	good	good	ADJ	JJ	Degree=Pos	4	_	_	start_char=11|end_char=15
+6	advice	advice	NOUN	NN	Number=Sing	5	_	_	start_char=16|end_char=22|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=22|end_char=23
+
+# text = I'm going to still get with this chick though and she's showing signs of interest right now.
+# sent_id = 1261
+1-2	I'm	_	_	_	_	_	_	_	start_char=24|end_char=27
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=24|end_char=25
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=27
+3	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=28|end_char=33
+4	to	to	PART	TO	_	3	_	_	start_char=34|end_char=36
+5	still	still	ADV	RB	_	4	_	_	start_char=37|end_char=42
+6	get	get	VERB	VB	VerbForm=Inf	5	_	_	start_char=43|end_char=46
+7	with	with	ADP	IN	_	6	_	_	start_char=47|end_char=51
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=52|end_char=56
+9	chick	chick	NOUN	NN	Number=Sing	8	_	_	start_char=57|end_char=62
+10	though	though	ADV	RB	_	9	_	_	start_char=63|end_char=69
+11	and	and	CCONJ	CC	_	10	_	_	start_char=70|end_char=73
+12-13	she's	_	_	_	_	_	_	_	start_char=74|end_char=79
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=74|end_char=77
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=77|end_char=79
+14	showing	show	VERB	VBG	Tense=Pres|VerbForm=Part	13	_	_	start_char=80|end_char=87
+15	signs	sign	NOUN	NNS	Number=Plur	14	_	_	start_char=88|end_char=93
+16	of	of	ADP	IN	_	15	_	_	start_char=94|end_char=96
+17	interest	interest	NOUN	NN	Number=Sing	16	_	_	start_char=97|end_char=105
+18	right	right	ADV	RB	_	17	_	_	start_char=106|end_char=111
+19	now	now	ADV	RB	_	18	_	_	start_char=112|end_char=115|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=115|end_char=116
+
+# text = Peace out
+# sent_id = 1262
+1	Peace	peace	NOUN	NN	Number=Sing	0	_	_	start_char=117|end_char=122
+2	out	out	ADV	RB	_	1	_	_	start_char=123|end_char=126|SpaceAfter=No
+

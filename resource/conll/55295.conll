@@ -1,0 +1,41 @@
+# text = My wife has agreed to go through confirmation.
+# sent_id = 118141
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=7
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=11
+4	agreed	agree	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=12|end_char=18
+5	to	to	PART	TO	_	4	_	_	start_char=19|end_char=21
+6	go	go	VERB	VB	VerbForm=Inf	5	_	_	start_char=22|end_char=24
+7	through	through	ADP	IN	_	6	_	_	start_char=25|end_char=32
+8	confirmation	confirmation	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=45|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=45|end_char=46
+
+# text = We’re a bit reluctant to home school but we think Catholic school will provide our kids with education, society, and humility.
+# sent_id = 118142
+1-2	We’re	_	_	_	_	_	_	_	start_char=47|end_char=52
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=47|end_char=49
+2	’re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=49|end_char=52
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=53|end_char=54
+4	bit	bit	NOUN	NN	Number=Sing	3	_	_	start_char=55|end_char=58
+5	reluctant	reluctant	ADJ	JJ	Degree=Pos	4	_	_	start_char=59|end_char=68
+6	to	to	ADP	IN	_	5	_	_	start_char=69|end_char=71
+7	home	home	NOUN	NN	Number=Sing	6	_	_	start_char=72|end_char=76
+8	school	school	NOUN	NN	Number=Sing	7	_	_	start_char=77|end_char=83
+9	but	but	CCONJ	CC	_	8	_	_	start_char=84|end_char=87
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	_	_	start_char=88|end_char=90
+11	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=91|end_char=96
+12	Catholic	Catholic	ADJ	JJ	Degree=Pos	11	_	_	start_char=97|end_char=105
+13	school	school	NOUN	NN	Number=Sing	12	_	_	start_char=106|end_char=112
+14	will	will	AUX	MD	VerbForm=Fin	13	_	_	start_char=113|end_char=117
+15	provide	provide	VERB	VB	VerbForm=Inf	14	_	_	start_char=118|end_char=125
+16	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	15	_	_	start_char=126|end_char=129
+17	kids	kid	NOUN	NNS	Number=Plur	16	_	_	start_char=130|end_char=134
+18	with	with	ADP	IN	_	17	_	_	start_char=135|end_char=139
+19	education	education	NOUN	NN	Number=Sing	18	_	_	start_char=140|end_char=149|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=149|end_char=150
+21	society	society	NOUN	NN	Number=Sing	20	_	_	start_char=151|end_char=158|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=158|end_char=159
+23	and	and	CCONJ	CC	_	22	_	_	start_char=160|end_char=163
+24	humility	humility	NOUN	NN	Number=Sing	23	_	_	start_char=164|end_char=172|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=172|end_char=173|SpaceAfter=No
+

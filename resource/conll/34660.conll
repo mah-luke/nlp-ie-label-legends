@@ -1,0 +1,23 @@
+# text = I'll make her my gay wife?
+# sent_id = 74204
+1-2	I'll	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	make	make	VERB	VB	VerbForm=Inf	2	_	_	start_char=5|end_char=9
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=10|end_char=13
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=14|end_char=16
+6	gay	gay	ADJ	JJ	Degree=Pos	5	_	_	start_char=17|end_char=20
+7	wife	wife	NOUN	NN	Number=Sing	6	_	_	start_char=21|end_char=25|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=25|end_char=26
+
+# text = You guys are downvoting strange shit lately....
+# sent_id = 74205
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=27|end_char=30
+2	guys	guy	NOUN	NNS	Number=Plur	1	_	_	start_char=31|end_char=35
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=36|end_char=39
+4	downvoting	downvote	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=40|end_char=50
+5	strange	strange	ADJ	JJ	Degree=Pos	4	_	_	start_char=51|end_char=58
+6	shit	shit	NOUN	NN	Number=Sing	5	_	_	start_char=59|end_char=63
+7	lately	lately	ADV	RB	_	6	_	_	start_char=64|end_char=70|SpaceAfter=No
+8	....	....	PUNCT	.	_	7	_	_	start_char=70|end_char=74|SpaceAfter=No
+

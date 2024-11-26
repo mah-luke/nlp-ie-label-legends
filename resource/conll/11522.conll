@@ -1,0 +1,46 @@
+# text = Steve Harvey is probably the biggest hypocrite on the planet.
+# sent_id = 24402
+1	Steve	Steve	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	Harvey	Harvey	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=12
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=15
+4	probably	probably	ADV	RB	_	3	_	_	start_char=16|end_char=24
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=25|end_char=28
+6	biggest	big	ADJ	JJS	Degree=Sup	5	_	_	start_char=29|end_char=36
+7	hypocrite	hypocrite	NOUN	NN	Number=Sing	6	_	_	start_char=37|end_char=46
+8	on	on	ADP	IN	_	7	_	_	start_char=47|end_char=49
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=50|end_char=53
+10	planet	planet	NOUN	NN	Number=Sing	9	_	_	start_char=54|end_char=60|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=60|end_char=61
+
+# text = Dude cheats on every wife, then has the nerve to tell people how live their lives.
+# sent_id = 24403
+1	Dude	dude	NOUN	NN	Number=Sing	0	_	_	start_char=62|end_char=66
+2	cheats	cheat	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=67|end_char=73
+3	on	on	ADP	IN	_	2	_	_	start_char=74|end_char=76
+4	every	every	DET	DT	_	3	_	_	start_char=77|end_char=82
+5	wife	wife	NOUN	NN	Number=Sing	4	_	_	start_char=83|end_char=87|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=87|end_char=88
+7	then	then	ADV	RB	PronType=Dem	6	_	_	start_char=89|end_char=93
+8	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=94|end_char=97
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=98|end_char=101
+10	nerve	nerve	NOUN	NN	Number=Sing	9	_	_	start_char=102|end_char=107
+11	to	to	PART	TO	_	10	_	_	start_char=108|end_char=110
+12	tell	tell	VERB	VB	VerbForm=Inf	11	_	_	start_char=111|end_char=115
+13	people	person	NOUN	NNS	Number=Plur	12	_	_	start_char=116|end_char=122
+14	how	how	ADV	WRB	PronType=Int	13	_	_	start_char=123|end_char=126
+15	live	live	VERB	VB	VerbForm=Inf	14	_	_	start_char=127|end_char=131
+16	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=132|end_char=137
+17	lives	life	NOUN	NNS	Number=Plur	16	_	_	start_char=138|end_char=143|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=143|end_char=144
+
+# text = I can't stand that scumbag.
+# sent_id = 24404
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=145|end_char=146
+2-3	can't	_	_	_	_	_	_	_	start_char=147|end_char=152
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=147|end_char=149
+3	n't	not	PART	RB	_	2	_	_	start_char=149|end_char=152
+4	stand	stand	VERB	VB	VerbForm=Inf	3	_	_	start_char=153|end_char=158
+5	that	that	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=159|end_char=163
+6	scumbag	scumbag	NOUN	NN	Number=Sing	5	_	_	start_char=164|end_char=171|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=171|end_char=172|SpaceAfter=No
+

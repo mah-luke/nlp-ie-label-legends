@@ -1,0 +1,58 @@
+# text = That sucks.
+# sent_id = 127312
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	sucks	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=10|end_char=11
+
+# text = We elected a Navy Seal in Missouri, and he was awesome... except that he cheated on his wife a few years before he became Governor.
+# sent_id = 127313
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=12|end_char=14
+2	elected	elect	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=15|end_char=22
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=23|end_char=24
+4	Navy	Navy	PROPN	NNP	Number=Sing	3	_	_	start_char=25|end_char=29
+5	Seal	Seal	PROPN	NNP	Number=Sing	4	_	_	start_char=30|end_char=34
+6	in	in	ADP	IN	_	5	_	_	start_char=35|end_char=37
+7	Missouri	Missouri	PROPN	NNP	Number=Sing	6	_	_	start_char=38|end_char=46|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=46|end_char=47
+9	and	and	CCONJ	CC	_	8	_	_	start_char=48|end_char=51
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=52|end_char=54
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=55|end_char=58
+12	awesome	awesome	ADJ	JJ	Degree=Pos	11	_	_	start_char=59|end_char=66|SpaceAfter=No
+13	...	...	PUNCT	,	_	12	_	_	start_char=66|end_char=69
+14	except	except	SCONJ	IN	_	13	_	_	start_char=70|end_char=76
+15	that	that	SCONJ	IN	_	14	_	_	start_char=77|end_char=81
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=82|end_char=84
+17	cheated	cheat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=85|end_char=92
+18	on	on	ADP	IN	_	17	_	_	start_char=93|end_char=95
+19	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=96|end_char=99
+20	wife	wife	NOUN	NN	Number=Sing	19	_	_	start_char=100|end_char=104
+21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=105|end_char=106
+22	few	few	ADJ	JJ	Degree=Pos	21	_	_	start_char=107|end_char=110
+23	years	year	NOUN	NNS	Number=Plur	22	_	_	start_char=111|end_char=116
+24	before	before	SCONJ	IN	_	23	_	_	start_char=117|end_char=123
+25	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	_	_	start_char=124|end_char=126
+26	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	_	_	start_char=127|end_char=133
+27	Governor	Governor	PROPN	NNP	Number=Sing	26	_	_	start_char=134|end_char=142|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=142|end_char=143
+
+# text = And, the swamp destroyed him and he resigned this summer.
+# sent_id = 127314
+1	And	and	CCONJ	CC	_	0	_	_	start_char=144|end_char=147|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=147|end_char=148
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=149|end_char=152
+4	swamp	swamp	NOUN	NN	Number=Sing	3	_	_	start_char=153|end_char=158
+5	destroyed	destroy	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=159|end_char=168
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=169|end_char=172
+7	and	and	CCONJ	CC	_	6	_	_	start_char=173|end_char=176
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=177|end_char=179
+9	resigned	resign	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=180|end_char=188
+10	this	this	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=189|end_char=193
+11	summer	summer	NOUN	NN	Number=Sing	10	_	_	start_char=194|end_char=200|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=200|end_char=201
+
+# text = Damn shame.
+# sent_id = 127315
+1	Damn	Damn	ADJ	JJ	Degree=Pos	0	_	_	start_char=202|end_char=206
+2	shame	shame	NOUN	NN	Number=Sing	1	_	_	start_char=207|end_char=212|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=212|end_char=213|SpaceAfter=No
+

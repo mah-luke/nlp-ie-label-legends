@@ -1,0 +1,44 @@
+# text = You're not wrong!
+# sent_id = 55023
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	not	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	wrong	wrong	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=16|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=16|end_char=17
+
+# text = My best guess is either women or white knights infiltrating the sub to destroy it from within.
+# sent_id = 55024
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=18|end_char=20
+2	best	good	ADJ	JJS	Degree=Sup	1	_	_	start_char=21|end_char=25
+3	guess	guess	NOUN	NN	Number=Sing	2	_	_	start_char=26|end_char=31
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=32|end_char=34
+5	either	either	CCONJ	CC	_	4	_	_	start_char=35|end_char=41
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=42|end_char=47
+7	or	or	CCONJ	CC	_	6	_	_	start_char=48|end_char=50
+8	white	white	ADJ	JJ	Degree=Pos	7	_	_	start_char=51|end_char=56
+9	knights	Knight	NOUN	NNS	Number=Plur	8	_	_	start_char=57|end_char=64
+10	infiltrating	infiltrate	VERB	VBG	VerbForm=Ger	9	_	_	start_char=65|end_char=77
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=78|end_char=81
+12	sub	sub	NOUN	NN	Number=Sing	11	_	_	start_char=82|end_char=85
+13	to	to	PART	TO	_	12	_	_	start_char=86|end_char=88
+14	destroy	destroy	VERB	VB	VerbForm=Inf	13	_	_	start_char=89|end_char=96
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=97|end_char=99
+16	from	from	ADP	IN	_	15	_	_	start_char=100|end_char=104
+17	within	within	ADP	IN	_	16	_	_	start_char=105|end_char=111|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=111|end_char=112
+
+# text = It's happened on a lot of other subreddits.
+# sent_id = 55025
+1-2	It's	_	_	_	_	_	_	_	start_char=113|end_char=117
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=113|end_char=115
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=115|end_char=117
+3	happened	happen	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=118|end_char=126
+4	on	on	ADP	IN	_	3	_	_	start_char=127|end_char=129
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=130|end_char=131
+6	lot	lot	NOUN	NN	Number=Sing	5	_	_	start_char=132|end_char=135
+7	of	of	ADP	IN	_	6	_	_	start_char=136|end_char=138
+8	other	other	ADJ	JJ	Degree=Pos	7	_	_	start_char=139|end_char=144
+9	subreddits	subreddit	NOUN	NNS	Number=Plur	8	_	_	start_char=145|end_char=155|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=155|end_char=156|SpaceAfter=No
+

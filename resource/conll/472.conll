@@ -1,0 +1,75 @@
+# text = [USER]
+# sent_id = 969
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Well, I'm a half-breed.
+# sent_id = 970
+1	Well	well	INTJ	UH	_	0	_	_	start_char=7|end_char=11|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=11|end_char=12
+3-4	I'm	_	_	_	_	_	_	_	start_char=13|end_char=16
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=13|end_char=14
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=16
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=17|end_char=18
+6	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	5	_	_	start_char=19|end_char=23|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	_	_	start_char=23|end_char=24|SpaceAfter=No
+8	breed	breed	NOUN	NN	Number=Sing	7	_	_	start_char=24|end_char=29|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=29|end_char=30
+
+# text = White people produced many assholes.
+# sent_id = 971
+1	White	White	ADJ	JJ	Degree=Pos	0	_	_	start_char=31|end_char=36
+2	people	person	NOUN	NNS	Number=Plur	1	_	_	start_char=37|end_char=43
+3	produced	produce	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=44|end_char=52
+4	many	many	ADJ	JJ	Degree=Pos	3	_	_	start_char=53|end_char=57
+5	assholes	asshole	NOUN	NNS	Number=Plur	4	_	_	start_char=58|end_char=66|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=66|end_char=67
+
+# text = Just look at the editorial board at Salon, or all the cucks at the universities!
+# sent_id = 972
+1	Just	just	ADV	RB	_	0	_	_	start_char=68|end_char=72
+2	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=73|end_char=77
+3	at	at	ADP	IN	_	2	_	_	start_char=78|end_char=80
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=81|end_char=84
+5	editorial	editorial	ADJ	JJ	Degree=Pos	4	_	_	start_char=85|end_char=94
+6	board	board	NOUN	NN	Number=Sing	5	_	_	start_char=95|end_char=100
+7	at	at	ADP	IN	_	6	_	_	start_char=101|end_char=103
+8	Salon	salon	PROPN	NNP	Number=Sing	7	_	_	start_char=104|end_char=109|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=109|end_char=110
+10	or	or	CCONJ	CC	_	9	_	_	start_char=111|end_char=113
+11	all	all	DET	PDT	_	10	_	_	start_char=114|end_char=117
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=118|end_char=121
+13	cucks	cuck	NOUN	NNS	Number=Plur	12	_	_	start_char=122|end_char=127
+14	at	at	ADP	IN	_	13	_	_	start_char=128|end_char=130
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=131|end_char=134
+16	universities	university	NOUN	NNS	Number=Plur	15	_	_	start_char=135|end_char=147|SpaceAfter=No
+17	!	!	PUNCT	.	_	16	_	_	start_char=147|end_char=148
+
+# text = Or Europe right now.
+# sent_id = 973
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=149|end_char=151
+2	Europe	Europe	PROPN	NNP	Number=Sing	1	_	_	start_char=152|end_char=158
+3	right	right	ADV	RB	_	2	_	_	start_char=159|end_char=164
+4	now	now	ADV	RB	_	3	_	_	start_char=165|end_char=168|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=168|end_char=169
+
+# text = If that's the current stock, it needs some infusion of non-cuck genes.
+# sent_id = 974
+1	If	if	SCONJ	IN	_	0	_	_	start_char=170|end_char=172
+2-3	that's	_	_	_	_	_	_	_	start_char=173|end_char=179
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=173|end_char=177
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=177|end_char=179
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=180|end_char=183
+5	current	current	ADJ	JJ	Degree=Pos	4	_	_	start_char=184|end_char=191
+6	stock	stock	NOUN	NN	Number=Sing	5	_	_	start_char=192|end_char=197|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=197|end_char=198
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=199|end_char=201
+9	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=202|end_char=207
+10	some	some	DET	DT	_	9	_	_	start_char=208|end_char=212
+11	infusion	infusion	NOUN	NN	Number=Sing	10	_	_	start_char=213|end_char=221
+12	of	of	ADP	IN	_	11	_	_	start_char=222|end_char=224
+13	non-cuck	non-cuck	ADJ	JJ	Degree=Pos	12	_	_	start_char=225|end_char=233
+14	genes	gene	NOUN	NNS	Number=Plur	13	_	_	start_char=234|end_char=239|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=239|end_char=240|SpaceAfter=No
+

@@ -1,0 +1,45 @@
+# text = [USER]
+# sent_id = 18726
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Did you know Katie Rough was killed by her step sister Lauren?
+# sent_id = 18727
+1	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	_	_	start_char=7|end_char=10
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=11|end_char=14
+3	know	know	VERB	VB	VerbForm=Inf	2	_	_	start_char=15|end_char=19
+4	Katie	Katie	PROPN	NNP	Number=Sing	3	_	_	start_char=20|end_char=25
+5	Rough	Rough	PROPN	NNP	Number=Sing	4	_	_	start_char=26|end_char=31
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=32|end_char=35
+7	killed	kill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=36|end_char=42
+8	by	by	ADP	IN	_	7	_	_	start_char=43|end_char=45
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=46|end_char=49
+10	step	step	NOUN	NN	Number=Sing	9	_	_	start_char=50|end_char=54
+11	sister	sister	NOUN	NN	Number=Sing	10	_	_	start_char=55|end_char=61
+12	Lauren	Lauren	PROPN	NNP	Number=Sing	11	_	_	start_char=62|end_char=68|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=68|end_char=69
+
+# text = You must now delete your account.
+# sent_id = 18728
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=70|end_char=73
+2	must	must	AUX	MD	VerbForm=Fin	1	_	_	start_char=74|end_char=78
+3	now	now	ADV	RB	_	2	_	_	start_char=79|end_char=82
+4	delete	delete	VERB	VB	VerbForm=Inf	3	_	_	start_char=83|end_char=89
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=90|end_char=94
+6	account	account	NOUN	NN	Number=Sing	5	_	_	start_char=95|end_char=102|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=102|end_char=103
+
+# text = Joint enterprise, it's a bitch #bluehand.
+# sent_id = 18729
+1	Joint	Joint	ADJ	JJ	Degree=Pos	0	_	_	start_char=104|end_char=109
+2	enterprise	enterprise	NOUN	NN	Number=Sing	1	_	_	start_char=110|end_char=120|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=120|end_char=121
+4-5	it's	_	_	_	_	_	_	_	start_char=122|end_char=126
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=122|end_char=124
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=124|end_char=126
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=127|end_char=128
+7	bitch	bitch	NOUN	NN	Number=Sing	6	_	_	start_char=129|end_char=134
+8	#bluehand	#bluehand	NOUN	NN	Number=Sing	7	_	_	start_char=135|end_char=144|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=144|end_char=145|SpaceAfter=No
+

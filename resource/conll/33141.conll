@@ -1,0 +1,59 @@
+# text = Better yet, completely ignore women whenever possible.
+# sent_id = 70974
+1	Better	good	ADV	RBR	Degree=Cmp	0	_	_	start_char=0|end_char=6
+2	yet	yet	ADV	RB	_	1	_	_	start_char=7|end_char=10|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=10|end_char=11
+4	completely	completely	ADV	RB	_	3	_	_	start_char=12|end_char=22
+5	ignore	ignore	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=23|end_char=29
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=30|end_char=35
+7	whenever	whenever	ADV	WRB	PronType=Int	6	_	_	start_char=36|end_char=44
+8	possible	possible	ADJ	JJ	Degree=Pos	7	_	_	start_char=45|end_char=53|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=53|end_char=54
+
+# text = And certainly always be cagey.
+# sent_id = 70975
+1	And	and	CCONJ	CC	_	0	_	_	start_char=55|end_char=58
+2	certainly	certainly	ADV	RB	_	1	_	_	start_char=59|end_char=68
+3	always	always	ADV	RB	_	2	_	_	start_char=69|end_char=75
+4	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=76|end_char=78
+5	cagey	cagey	ADJ	JJ	Degree=Pos	4	_	_	start_char=79|end_char=84|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=84|end_char=85
+
+# text = [Treat them like you would treat a police officer]([URL]
+# sent_id = 70976
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=86|end_char=87|SpaceAfter=No
+2	Treat	treat	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=87|end_char=92
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=93|end_char=97
+4	like	like	SCONJ	IN	_	3	_	_	start_char=98|end_char=102
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=103|end_char=106
+6	would	would	AUX	MD	VerbForm=Fin	5	_	_	start_char=107|end_char=112
+7	treat	treat	VERB	VB	VerbForm=Inf	6	_	_	start_char=113|end_char=118
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=119|end_char=120
+9	police	police	NOUN	NN	Number=Sing	8	_	_	start_char=121|end_char=127
+10	officer	officer	NOUN	NN	Number=Sing	9	_	_	start_char=128|end_char=135|SpaceAfter=No
+11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=135|end_char=136|SpaceAfter=No
+12	(	(	PUNCT	-LRB-	_	11	_	_	start_char=136|end_char=137|SpaceAfter=No
+13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=137|end_char=138|SpaceAfter=No
+14	URL	URL	PROPN	NNP	Number=Sing	13	_	_	start_char=138|end_char=141|SpaceAfter=No
+15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=141|end_char=142
+
+# text = The one mistake the OP's boss made was divulging personal details to a woman.
+# sent_id = 70977
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=143|end_char=146
+2	one	one	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=147|end_char=150
+3	mistake	mistake	NOUN	NN	Number=Sing	2	_	_	start_char=151|end_char=158
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=159|end_char=162
+5-6	OP's	_	_	_	_	_	_	_	start_char=163|end_char=167
+5	OP	OP	PROPN	NNP	Number=Sing	4	_	_	start_char=163|end_char=165
+6	's	's	PART	POS	_	5	_	_	start_char=165|end_char=167
+7	boss	boss	NOUN	NN	Number=Sing	6	_	_	start_char=168|end_char=172
+8	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=173|end_char=177
+9	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=178|end_char=181
+10	divulging	divulg	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=182|end_char=191
+11	personal	personal	ADJ	JJ	Degree=Pos	10	_	_	start_char=192|end_char=200
+12	details	detail	NOUN	NNS	Number=Plur	11	_	_	start_char=201|end_char=208
+13	to	to	ADP	IN	_	12	_	_	start_char=209|end_char=211
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=212|end_char=213
+15	woman	woman	NOUN	NN	Number=Sing	14	_	_	start_char=214|end_char=219|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=219|end_char=220|SpaceAfter=No
+

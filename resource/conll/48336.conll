@@ -1,0 +1,32 @@
+# text = To homely girl:
+# sent_id = 103341
+1	To	to	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	homely	homely	ADJ	JJ	Degree=Pos	1	_	_	start_char=3|end_char=9
+3	girl	girl	NOUN	NN	Number=Sing	2	_	_	start_char=10|end_char=14|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=14|end_char=15
+
+# text = Then you wont care how much dick I have..... 'cause youre not getting that either...
+# sent_id = 103342
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=16|end_char=20
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=21|end_char=24
+3-4	wont	_	_	_	_	_	_	_	start_char=25|end_char=29
+3	wo	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=25|end_char=27
+4	nt	not	PART	RB	_	3	_	_	start_char=27|end_char=29
+5	care	care	VERB	VB	VerbForm=Inf	4	_	_	start_char=30|end_char=34
+6	how	how	ADV	WRB	PronType=Int	5	_	_	start_char=35|end_char=38
+7	much	much	ADJ	JJ	Degree=Pos	6	_	_	start_char=39|end_char=43
+8	dick	dick	NOUN	NN	Number=Sing	7	_	_	start_char=44|end_char=48
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=49|end_char=50
+10	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=51|end_char=55|SpaceAfter=No
+11	.....	.....	PUNCT	,	_	10	_	_	start_char=55|end_char=60
+12	'	'	PUNCT	``	_	11	_	_	start_char=61|end_char=62|SpaceAfter=No
+13	cause	cause	SCONJ	IN	_	12	_	_	start_char=62|end_char=67
+14-15	youre	_	_	_	_	_	_	_	start_char=68|end_char=73
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	_	_	start_char=68|end_char=71
+15	re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	_	_	start_char=71|end_char=73
+16	not	not	PART	RB	_	15	_	_	start_char=74|end_char=77
+17	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	16	_	_	start_char=78|end_char=85
+18	that	that	PRON	DT	Number=Sing|PronType=Dem	17	_	_	start_char=86|end_char=90
+19	either	either	CCONJ	CC	_	18	_	_	start_char=91|end_char=97|SpaceAfter=No
+20	...	...	PUNCT	.	_	19	_	_	start_char=97|end_char=100|SpaceAfter=No
+

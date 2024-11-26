@@ -1,0 +1,22 @@
+# text = She's an active shooter!
+# sent_id = 32263
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=6|end_char=8
+4	active	active	ADJ	JJ	Degree=Pos	3	_	_	start_char=9|end_char=15
+5	shooter	shooter	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=23|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=23|end_char=24
+
+# text = Put a 175 SMK in between her lookers.
+# sent_id = 32264
+1	Put	put	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=25|end_char=28
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=29|end_char=30
+3	175	175	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=31|end_char=34
+4	SMK	smk	NOUN	NN	Number=Sing	3	_	_	start_char=35|end_char=38
+5	in	in	ADV	RB	_	4	_	_	start_char=39|end_char=41
+6	between	between	ADP	IN	_	5	_	_	start_char=42|end_char=49
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=50|end_char=53
+8	lookers	looker	NOUN	NNS	Number=Plur	7	_	_	start_char=54|end_char=61|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=61|end_char=62|SpaceAfter=No
+

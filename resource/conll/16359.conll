@@ -1,0 +1,46 @@
+# text = Why is she allowed in this country?
+# sent_id = 35061
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=7|end_char=10
+4	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=11|end_char=18
+5	in	in	ADP	IN	_	4	_	_	start_char=19|end_char=21
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=22|end_char=26
+7	country	country	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=34|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=34|end_char=35
+
+# text = She needs to tried for treason if she is a citizen or if naturalized the citizenship needs to be revoked.
+# sent_id = 35062
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=36|end_char=39
+2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=40|end_char=45
+3	to	to	PART	TO	_	2	_	_	start_char=46|end_char=48
+4	tried	try	VERB	VBN	Tense=Past|VerbForm=Inf	3	_	_	start_char=49|end_char=54
+5	for	for	ADP	IN	_	4	_	_	start_char=55|end_char=58
+6	treason	treason	NOUN	NN	Number=Sing	5	_	_	start_char=59|end_char=66
+7	if	if	SCONJ	IN	_	6	_	_	start_char=67|end_char=69
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=70|end_char=73
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=74|end_char=76
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=77|end_char=78
+11	citizen	citizen	NOUN	NN	Number=Sing	10	_	_	start_char=79|end_char=86
+12	or	or	CCONJ	CC	_	11	_	_	start_char=87|end_char=89
+13	if	if	SCONJ	IN	_	12	_	_	start_char=90|end_char=92
+14	naturalized	naturalize	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=93|end_char=104
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=105|end_char=108
+16	citizenship	citizenship	NOUN	NN	Number=Sing	15	_	_	start_char=109|end_char=120
+17	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=121|end_char=126
+18	to	to	PART	TO	_	17	_	_	start_char=127|end_char=129
+19	be	be	AUX	VB	VerbForm=Inf	18	_	_	start_char=130|end_char=132
+20	revoked	revoke	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	19	_	_	start_char=133|end_char=140|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=140|end_char=141
+
+# text = Get that POS out of my country.
+# sent_id = 35063
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=142|end_char=145
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=146|end_char=150
+3	POS	pos	NOUN	NN	Number=Sing	2	_	_	start_char=151|end_char=154
+4	out	out	ADP	IN	_	3	_	_	start_char=155|end_char=158
+5	of	of	ADP	IN	_	4	_	_	start_char=159|end_char=161
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=162|end_char=164
+7	country	country	NOUN	NN	Number=Sing	6	_	_	start_char=165|end_char=172|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=172|end_char=173|SpaceAfter=No
+

@@ -1,0 +1,39 @@
+# text = Trump's America where police take no shit from the feral left.
+# sent_id = 31647
+1-2	Trump's	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	Trump	Trump	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	's	's	PART	POS	_	1	_	_	start_char=5|end_char=7
+3	America	America	PROPN	NNP	Number=Sing	2	_	_	start_char=8|end_char=15
+4	where	where	ADV	WRB	PronType=Rel	3	_	_	start_char=16|end_char=21
+5	police	police	NOUN	NNS	Number=Plur	4	_	_	start_char=22|end_char=28
+6	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=29|end_char=33
+7	no	no	DET	DT	_	6	_	_	start_char=34|end_char=36
+8	shit	shit	NOUN	NN	Number=Sing	7	_	_	start_char=37|end_char=41
+9	from	from	ADP	IN	_	8	_	_	start_char=42|end_char=46
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=47|end_char=50
+11	feral	feral	NOUN	NN	Number=Sing	10	_	_	start_char=51|end_char=56
+12	left	left	NOUN	NN	Number=Sing	11	_	_	start_char=57|end_char=61|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=61|end_char=62
+
+# text = As always, fuck Barack and his racist, bitch wife.
+# sent_id = 31648
+1	As	as	ADP	IN	_	0	_	_	start_char=63|end_char=65
+2	always	always	ADV	RB	_	1	_	_	start_char=66|end_char=72|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=72|end_char=73
+4	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=74|end_char=78
+5	Barack	Barack	PROPN	NNP	Number=Sing	4	_	_	start_char=79|end_char=85
+6	and	and	CCONJ	CC	_	5	_	_	start_char=86|end_char=89
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=90|end_char=93
+8	racist	racist	ADJ	JJ	Degree=Pos	7	_	_	start_char=94|end_char=100|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=100|end_char=101
+10	bitch	bitch	NOUN	NN	Number=Sing	9	_	_	start_char=102|end_char=107
+11	wife	wife	NOUN	NN	Number=Sing	10	_	_	start_char=108|end_char=112|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=112|end_char=113
+
+# text = 😂 [URL]
+# sent_id = 31649
+1	😂	😂	PUNCT	``	_	0	_	_	start_char=114|end_char=115
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=116|end_char=117|SpaceAfter=No
+3	URL	URL	PROPN	NNP	Number=Sing	2	_	_	start_char=117|end_char=120|SpaceAfter=No
+4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=120|end_char=121|SpaceAfter=No
+

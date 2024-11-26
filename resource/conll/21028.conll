@@ -1,0 +1,41 @@
+# text = but maybe they were just being nice.
+# sent_id = 45142
+1	but	but	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	maybe	maybe	ADV	RB	_	1	_	_	start_char=4|end_char=9
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=14
+4	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=15|end_char=19
+5	just	just	ADV	RB	_	4	_	_	start_char=20|end_char=24
+6	being	be	AUX	VBG	VerbForm=Ger	5	_	_	start_char=25|end_char=30
+7	nice	nice	ADJ	JJ	Degree=Pos	6	_	_	start_char=31|end_char=35|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=35|end_char=36
+
+# text = Hmm, inconclusive.
+# sent_id = 45143
+1	Hmm	hmm	INTJ	UH	_	0	_	_	start_char=37|end_char=40|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=40|end_char=41
+3	inconclusive	inconclusive	ADJ	JJ	Degree=Pos	2	_	_	start_char=42|end_char=54|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=54|end_char=55
+
+# text = Attractive girls don't usually do that in my experience.
+# sent_id = 45144
+1	Attractive	attractive	ADJ	JJ	Degree=Pos	0	_	_	start_char=56|end_char=66
+2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=67|end_char=72
+3-4	don't	_	_	_	_	_	_	_	start_char=73|end_char=78
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=73|end_char=75
+4	n't	not	PART	RB	_	3	_	_	start_char=75|end_char=78
+5	usually	usually	ADV	RB	_	4	_	_	start_char=79|end_char=86
+6	do	do	VERB	VB	VerbForm=Inf	5	_	_	start_char=87|end_char=89
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=90|end_char=94
+8	in	in	ADP	IN	_	7	_	_	start_char=95|end_char=97
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=98|end_char=100
+10	experience	experience	NOUN	NN	Number=Sing	9	_	_	start_char=101|end_char=111|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=111|end_char=112
+
+# text = ¯\\\_(ツ)_/¯
+# sent_id = 45145
+1	¯	¯	X	LS	_	0	_	_	start_char=113|end_char=114|SpaceAfter=No
+2	\\\_(	\\\_(	X	LS	_	1	_	_	start_char=114|end_char=119|SpaceAfter=No
+3	ツ	ツ	NUM	LS	NumForm=Digit|NumType=Card	2	_	_	start_char=119|end_char=120|SpaceAfter=No
+4	)	)	PUNCT	-RRB-	_	3	_	_	start_char=120|end_char=121|SpaceAfter=No
+5	_/¯	_/¯	NOUN	NN	Number=Sing	4	_	_	start_char=121|end_char=124|SpaceAfter=No
+

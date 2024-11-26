@@ -1,0 +1,74 @@
+# text = I mailed a copy to my son when it came out for his birthday but I doubt he ever read it.
+# sent_id = 69618
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	mailed	mail	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=8
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=9|end_char=10
+4	copy	copy	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=15
+5	to	to	ADP	IN	_	4	_	_	start_char=16|end_char=18
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=19|end_char=21
+7	son	son	NOUN	NN	Number=Sing	6	_	_	start_char=22|end_char=25
+8	when	when	ADV	WRB	PronType=Int	7	_	_	start_char=26|end_char=30
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=31|end_char=33
+10	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=34|end_char=38
+11	out	out	ADP	RP	_	10	_	_	start_char=39|end_char=42
+12	for	for	ADP	IN	_	11	_	_	start_char=43|end_char=46
+13	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=47|end_char=50
+14	birthday	birthday	NOUN	NN	Number=Sing	13	_	_	start_char=51|end_char=59
+15	but	but	CCONJ	CC	_	14	_	_	start_char=60|end_char=63
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=64|end_char=65
+17	doubt	doubt	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	_	_	start_char=66|end_char=71
+18	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=72|end_char=74
+19	ever	ever	ADV	RB	_	18	_	_	start_char=75|end_char=79
+20	read	read	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=80|end_char=84
+21	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=85|end_char=87|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=87|end_char=88
+
+# text = I know all of her work.
+# sent_id = 69619
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=89|end_char=90
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=91|end_char=95
+3	all	all	DET	DT	_	2	_	_	start_char=96|end_char=99
+4	of	of	ADP	IN	_	3	_	_	start_char=100|end_char=102
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=103|end_char=106
+6	work	work	NOUN	NN	Number=Sing	5	_	_	start_char=107|end_char=111|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=111|end_char=112
+
+# text = Peg Luksik Who Controls Our Children [URL]
+# sent_id = 69620
+1	Peg	Peg	PROPN	NNP	Number=Sing	0	_	_	start_char=113|end_char=116
+2	Luksik	Luksik	PROPN	NNP	Number=Sing	1	_	_	start_char=117|end_char=123
+3	Who	Who	PROPN	NNP	Number=Sing	2	_	_	start_char=124|end_char=127
+4	Controls	control	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=128|end_char=136
+5	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=137|end_char=140
+6	Children	Children	PROPN	NNPS	Number=Plur	5	_	_	start_char=141|end_char=149
+7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=150|end_char=151|SpaceAfter=No
+8	URL	URL	PROPN	NNP	Number=Sing	7	_	_	start_char=151|end_char=154|SpaceAfter=No
+9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=154|end_char=155
+
+# text = 1) The Ultimate History Lesson: A Weekend with John Taylor Gatto (Intro + Hour 1 of 5) [URL]
+# sent_id = 69621
+1	1	1	NUM	LS	_	0	_	_	start_char=156|end_char=157|SpaceAfter=No
+2	)	)	PUNCT	-RRB-	_	1	_	_	start_char=157|end_char=158
+3	The	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=159|end_char=162
+4	Ultimate	ultimate	ADJ	NNP	Degree=Pos	3	_	_	start_char=163|end_char=171
+5	History	History	PROPN	NNP	Number=Sing	4	_	_	start_char=172|end_char=179
+6	Lesson	Lesson	PROPN	NNP	Number=Sing	5	_	_	start_char=180|end_char=186|SpaceAfter=No
+7	:	:	PUNCT	:	_	6	_	_	start_char=186|end_char=187
+8	A	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=188|end_char=189
+9	Weekend	weekend	NOUN	NN	Number=Sing	8	_	_	start_char=190|end_char=197
+10	with	with	ADP	IN	_	9	_	_	start_char=198|end_char=202
+11	John	John	PROPN	NNP	Number=Sing	10	_	_	start_char=203|end_char=207
+12	Taylor	Taylor	PROPN	NNP	Number=Sing	11	_	_	start_char=208|end_char=214
+13	Gatto	Gatto	PROPN	NNP	Number=Sing	12	_	_	start_char=215|end_char=220
+14	(	(	PUNCT	-LRB-	_	13	_	_	start_char=221|end_char=222|SpaceAfter=No
+15	Intro	Intro	PROPN	NNP	Number=Sing	14	_	_	start_char=222|end_char=227
+16	+	+	SYM	SYM	_	15	_	_	start_char=228|end_char=229
+17	Hour	Hour	PROPN	NNP	Number=Sing	16	_	_	start_char=230|end_char=234
+18	1	1	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	start_char=235|end_char=236
+19	of	of	ADP	IN	_	18	_	_	start_char=237|end_char=239
+20	5	5	NUM	CD	NumForm=Digit|NumType=Card	19	_	_	start_char=240|end_char=241|SpaceAfter=No
+21	)	)	PUNCT	-RRB-	_	20	_	_	start_char=241|end_char=242
+22	[	[	PUNCT	-LRB-	_	21	_	_	start_char=243|end_char=244|SpaceAfter=No
+23	URL	URL	PROPN	NNP	Number=Sing	22	_	_	start_char=244|end_char=247|SpaceAfter=No
+24	]	]	PUNCT	-RRB-	_	23	_	_	start_char=247|end_char=248|SpaceAfter=No
+

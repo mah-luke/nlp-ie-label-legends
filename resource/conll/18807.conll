@@ -1,0 +1,23 @@
+# text = That’s some rare shit right there my boy.
+# sent_id = 40323
+1-2	That’s	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	some	some	DET	DT	_	2	_	_	start_char=7|end_char=11
+4	rare	rare	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=16
+5	shit	shit	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=21
+6	right	right	ADV	RB	_	5	_	_	start_char=22|end_char=27
+7	there	there	ADV	RB	PronType=Dem	6	_	_	start_char=28|end_char=33
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	_	_	start_char=34|end_char=36
+9	boy	boy	NOUN	NN	Number=Sing	8	_	_	start_char=37|end_char=40|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=40|end_char=41
+
+# text = Go for it and cherish it
+# sent_id = 40324
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=42|end_char=44
+2	for	for	ADP	IN	_	1	_	_	start_char=45|end_char=48
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=49|end_char=51
+4	and	and	CCONJ	CC	_	3	_	_	start_char=52|end_char=55
+5	cherish	cherish	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=56|end_char=63
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=64|end_char=66|SpaceAfter=No
+

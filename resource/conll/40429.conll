@@ -1,0 +1,51 @@
+# text = "I quoted Jews".
+# sent_id = 86451
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
+3	quoted	quote	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=3|end_char=9
+4	Jews	Jew	PROPN	NNPS	Number=Plur	3	_	_	start_char=10|end_char=14|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=14|end_char=15|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=15|end_char=16
+
+# text = you mean "some people who happen to be Jewish" or you mean "all Jews"?
+# sent_id = 86452
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=17|end_char=20
+2	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=21|end_char=25
+3	"	"	PUNCT	``	_	2	_	_	start_char=26|end_char=27|SpaceAfter=No
+4	some	some	DET	DT	_	3	_	_	start_char=27|end_char=31
+5	people	person	NOUN	NNS	Number=Plur	4	_	_	start_char=32|end_char=38
+6	who	who	PRON	WP	PronType=Rel	5	_	_	start_char=39|end_char=42
+7	happen	happen	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=43|end_char=49
+8	to	to	PART	TO	_	7	_	_	start_char=50|end_char=52
+9	be	be	AUX	VB	VerbForm=Inf	8	_	_	start_char=53|end_char=55
+10	Jewish	Jewish	ADJ	JJ	Degree=Pos	9	_	_	start_char=56|end_char=62|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=62|end_char=63
+12	or	or	CCONJ	CC	_	11	_	_	start_char=64|end_char=66
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=67|end_char=70
+14	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	13	_	_	start_char=71|end_char=75
+15	"	"	PUNCT	``	_	14	_	_	start_char=76|end_char=77|SpaceAfter=No
+16	all	all	DET	DT	_	15	_	_	start_char=77|end_char=80
+17	Jews	Jew	PROPN	NNPS	Number=Plur	16	_	_	start_char=81|end_char=85|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=85|end_char=86|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=86|end_char=87
+
+# text = i'm just pointing out what i see and i see a lot of bullshit.
+# sent_id = 86453
+1-2	i'm	_	_	_	_	_	_	_	start_char=88|end_char=91
+1	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=88|end_char=89
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=89|end_char=91
+3	just	just	ADV	RB	_	2	_	_	start_char=92|end_char=96
+4	pointing	point	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=97|end_char=105
+5	out	out	ADP	RP	_	4	_	_	start_char=106|end_char=109
+6	what	what	PRON	WP	PronType=Rel	5	_	_	start_char=110|end_char=114
+7	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=115|end_char=116
+8	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=117|end_char=120
+9	and	and	CCONJ	CC	_	8	_	_	start_char=121|end_char=124
+10	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=125|end_char=126
+11	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=127|end_char=130
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=131|end_char=132
+13	lot	lot	NOUN	NN	Number=Sing	12	_	_	start_char=133|end_char=136
+14	of	of	ADP	IN	_	13	_	_	start_char=137|end_char=139
+15	bullshit	bullshit	NOUN	NN	Number=Sing	14	_	_	start_char=140|end_char=148|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=148|end_char=149|SpaceAfter=No
+

@@ -1,0 +1,67 @@
+# text = Since when is GHANA a war-torn country???
+# sent_id = 121808
+1	Since	since	SCONJ	IN	_	0	_	_	start_char=0|end_char=5
+2	when	when	ADV	WRB	PronType=Int	1	_	_	start_char=6|end_char=10
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	GHANA	GHANA	PROPN	NNP	Number=Sing	3	_	_	start_char=14|end_char=19
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=20|end_char=21
+6	war	war	NOUN	NN	Number=Sing	5	_	_	start_char=22|end_char=25|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	_	_	start_char=25|end_char=26|SpaceAfter=No
+8	torn	torn	ADJ	JJ	Degree=Pos	7	_	_	start_char=26|end_char=30
+9	country	country	NOUN	NN	Number=Sing	8	_	_	start_char=31|end_char=38|SpaceAfter=No
+10	???	???	PUNCT	.	_	9	_	_	start_char=38|end_char=41
+
+# text = It's NOT.
+# sent_id = 121809
+1-2	It's	_	_	_	_	_	_	_	start_char=42|end_char=46
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=42|end_char=44
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=44|end_char=46
+3	NOT	not	PART	RB	_	2	_	_	start_char=47|end_char=50|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=50|end_char=51
+
+# text = This is BS.
+# sent_id = 121810
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=52|end_char=56
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=57|end_char=59
+3	BS	BS	PROPN	NNP	Number=Sing	2	_	_	start_char=60|end_char=62|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=62|end_char=63
+
+# text = <A refugee from Ghana has been arrested for dragging a young woman from her tent and raping her while she was on a camping holiday with her boyfriend.>
+# sent_id = 121811
+1	<	<	PUNCT	-LRB-	_	0	_	_	start_char=64|end_char=65|SpaceAfter=No
+2	A	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=65|end_char=66
+3	refugee	refugee	NOUN	NN	Number=Sing	2	_	_	start_char=67|end_char=74
+4	from	from	ADP	IN	_	3	_	_	start_char=75|end_char=79
+5	Ghana	Ghana	PROPN	NNP	Number=Sing	4	_	_	start_char=80|end_char=85
+6	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=86|end_char=89
+7	been	be	AUX	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=90|end_char=94
+8	arrested	arrest	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=95|end_char=103
+9	for	for	SCONJ	IN	_	8	_	_	start_char=104|end_char=107
+10	dragging	drag	VERB	VBG	VerbForm=Ger	9	_	_	start_char=108|end_char=116
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=117|end_char=118
+12	young	young	ADJ	JJ	Degree=Pos	11	_	_	start_char=119|end_char=124
+13	woman	woman	NOUN	NN	Number=Sing	12	_	_	start_char=125|end_char=130
+14	from	from	ADP	IN	_	13	_	_	start_char=131|end_char=135
+15	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=136|end_char=139
+16	tent	tent	NOUN	NN	Number=Sing	15	_	_	start_char=140|end_char=144
+17	and	and	CCONJ	CC	_	16	_	_	start_char=145|end_char=148
+18	raping	rape	VERB	VBG	VerbForm=Ger	17	_	_	start_char=149|end_char=155
+19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=156|end_char=159
+20	while	while	SCONJ	IN	_	19	_	_	start_char=160|end_char=165
+21	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=166|end_char=169
+22	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	_	_	start_char=170|end_char=173
+23	on	on	ADP	IN	_	22	_	_	start_char=174|end_char=176
+24	a	a	DET	DT	Definite=Ind|PronType=Art	23	_	_	start_char=177|end_char=178
+25	camping	camping	NOUN	NN	Number=Sing	24	_	_	start_char=179|end_char=186
+26	holiday	holiday	NOUN	NN	Number=Sing	25	_	_	start_char=187|end_char=194
+27	with	with	ADP	IN	_	26	_	_	start_char=195|end_char=199
+28	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	_	_	start_char=200|end_char=203
+29	boyfriend	boyfriend	NOUN	NN	Number=Sing	28	_	_	start_char=204|end_char=213|SpaceAfter=No
+30	.>	.>	PUNCT	.	_	29	_	_	start_char=213|end_char=215
+
+# text = [URL]
+# sent_id = 121812
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=216|end_char=217|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=217|end_char=220|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=220|end_char=221|SpaceAfter=No
+

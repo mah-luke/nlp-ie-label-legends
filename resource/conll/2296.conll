@@ -1,0 +1,58 @@
+# text = Our tribe is superior to your tribe.
+# sent_id = 4849
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	tribe	tribe	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=9
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4	superior	superior	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=21
+5	to	to	ADP	IN	_	4	_	_	start_char=22|end_char=24
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=25|end_char=29
+7	tribe	tribe	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=35|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=35|end_char=36
+
+# text = If our men rape and assault women it's because they're flawed.
+# sent_id = 4850
+1	If	if	SCONJ	IN	_	0	_	_	start_char=37|end_char=39
+2	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=40|end_char=43
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=44|end_char=47
+4	rape	rape	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=48|end_char=52
+5	and	and	CCONJ	CC	_	4	_	_	start_char=53|end_char=56
+6	assault	assault	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=57|end_char=64
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=65|end_char=70
+8-9	it's	_	_	_	_	_	_	_	start_char=71|end_char=75
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=71|end_char=73
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=73|end_char=75
+10	because	because	SCONJ	IN	_	9	_	_	start_char=76|end_char=83
+11-12	they're	_	_	_	_	_	_	_	start_char=84|end_char=91
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=84|end_char=88
+12	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=88|end_char=91
+13	flawed	flawed	ADJ	JJ	Degree=Pos	12	_	_	start_char=92|end_char=98|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=98|end_char=99
+
+# text = If your men attack women then they're vile degenerates who ought to be taken out and shot.
+# sent_id = 4851
+1	If	if	SCONJ	IN	_	0	_	_	start_char=100|end_char=102
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=103|end_char=107
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=108|end_char=111
+4	attack	attack	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=112|end_char=118
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=119|end_char=124
+6	then	then	ADV	RB	PronType=Dem	5	_	_	start_char=125|end_char=129
+7-8	they're	_	_	_	_	_	_	_	start_char=130|end_char=137
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=130|end_char=134
+8	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=134|end_char=137
+9	vile	vile	ADJ	JJ	Degree=Pos	8	_	_	start_char=138|end_char=142
+10	degenerates	degenerate	NOUN	NNS	Number=Plur	9	_	_	start_char=143|end_char=154
+11	who	who	PRON	WP	PronType=Rel	10	_	_	start_char=155|end_char=158
+12	ought	ought	AUX	MD	VerbForm=Fin	11	_	_	start_char=159|end_char=164
+13	to	to	PART	TO	_	12	_	_	start_char=165|end_char=167
+14	be	be	AUX	VB	VerbForm=Inf	13	_	_	start_char=168|end_char=170
+15	taken	take	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	_	_	start_char=171|end_char=176
+16	out	out	ADP	RP	_	15	_	_	start_char=177|end_char=180
+17	and	and	CCONJ	CC	_	16	_	_	start_char=181|end_char=184
+18	shot	shoot	VERB	VB	Tense=Past|VerbForm=Part	17	_	_	start_char=185|end_char=189|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=189|end_char=190
+
+# text = #Clinton
+# sent_id = 4852
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=191|end_char=192|SpaceAfter=No
+2	Clinton	Clinton	PROPN	NNP	Number=Sing	1	_	_	start_char=192|end_char=199|SpaceAfter=No
+

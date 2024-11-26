@@ -1,0 +1,47 @@
+# text = TRUMP SLAMS ‘SICK’ KATHY GRIFFIN OVER ISIS-INSPIRED PHOTO SHOOT
+# sent_id = 110943
+1	TRUMP	TRUMP	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	SLAMS	slam	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=11
+3	‘	'	PUNCT	``	_	2	_	_	start_char=12|end_char=13|SpaceAfter=No
+4	SICK	sick	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=17|SpaceAfter=No
+5	’	's	PART	POS	_	4	_	_	start_char=17|end_char=18
+6	KATHY	Kathy	PROPN	NNP	Number=Sing	5	_	_	start_char=19|end_char=24
+7	GRIFFIN	GRIFFIN	PROPN	NNP	Number=Sing	6	_	_	start_char=25|end_char=32
+8	OVER	over	ADP	IN	_	7	_	_	start_char=33|end_char=37
+9	ISIS-INSPIRED	isisiinspired	ADJ	JJ	Degree=Pos	8	_	_	start_char=38|end_char=51
+10	PHOTO	photo	NOUN	NN	Number=Sing	9	_	_	start_char=52|end_char=57
+11	SHOOT	shoot	NOUN	NN	Number=Sing	10	_	_	start_char=58|end_char=63
+
+# text = 'She should be ashamed of herself,' blasts President #CNN is a terrorist organization and this proves they support #ISIS.
+# sent_id = 110944
+1	'	'	PUNCT	``	_	0	_	_	start_char=64|end_char=65|SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=65|end_char=68
+3	should	should	AUX	MD	VerbForm=Fin	2	_	_	start_char=69|end_char=75
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=76|end_char=78
+5	ashamed	ashamed	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=79|end_char=86
+6	of	of	ADP	IN	_	5	_	_	start_char=87|end_char=89
+7	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	6	_	_	start_char=90|end_char=97|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=97|end_char=98|SpaceAfter=No
+9	'	'	PUNCT	''	_	8	_	_	start_char=98|end_char=99
+10	blasts	blast	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=100|end_char=106
+11	President	President	PROPN	NNP	Number=Sing	10	_	_	start_char=107|end_char=116
+12	#	#	SYM	NN	Number=Sing	11	_	_	start_char=117|end_char=118|SpaceAfter=No
+13	CNN	CNN	PROPN	NNP	Number=Sing	12	_	_	start_char=118|end_char=121
+14	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=122|end_char=124
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=125|end_char=126
+16	terrorist	terrorist	ADJ	JJ	Degree=Pos	15	_	_	start_char=127|end_char=136
+17	organization	organization	NOUN	NN	Number=Sing	16	_	_	start_char=137|end_char=149
+18	and	and	CCONJ	CC	_	17	_	_	start_char=150|end_char=153
+19	this	this	PRON	DT	Number=Sing|PronType=Dem	18	_	_	start_char=154|end_char=158
+20	proves	prove	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=159|end_char=165
+21	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	20	_	_	start_char=166|end_char=170
+22	support	support	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=171|end_char=178
+23	#ISIS	#ISIS	PROPN	NNP	Number=Sing	22	_	_	start_char=179|end_char=184|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=184|end_char=185
+
+# text = [URL]
+# sent_id = 110945
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=186|end_char=187|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=187|end_char=190|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=190|end_char=191|SpaceAfter=No
+

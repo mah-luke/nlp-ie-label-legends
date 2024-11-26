@@ -1,0 +1,46 @@
+# text = Tell everyone to call Sen. Grasley's office 202-224-5225.
+# sent_id = 122141
+1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	1	_	_	start_char=5|end_char=13
+3	to	to	PART	TO	_	2	_	_	start_char=14|end_char=16
+4	call	call	VERB	VB	VerbForm=Inf	3	_	_	start_char=17|end_char=21
+5	Sen.	Sen.	PROPN	NNP	Number=Sing	4	_	_	start_char=22|end_char=26
+6-7	Grasley's	_	_	_	_	_	_	_	start_char=27|end_char=36
+6	Grasley	Grasley	PROPN	NNP	Number=Sing	5	_	_	start_char=27|end_char=34
+7	's	's	PART	POS	_	6	_	_	start_char=34|end_char=36
+8	office	office	NOUN	NN	Number=Sing	7	_	_	start_char=37|end_char=43
+9	202-224-5225	202-224-5225	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=44|end_char=56|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=56|end_char=57
+
+# text = Tell them the woman must testify first!!
+# sent_id = 122142
+1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=58|end_char=62
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=63|end_char=67
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=68|end_char=71
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=72|end_char=77
+5	must	must	AUX	MD	VerbForm=Fin	4	_	_	start_char=78|end_char=82
+6	testify	testify	VERB	VB	VerbForm=Inf	5	_	_	start_char=83|end_char=90
+7	first	first	ADV	RB	NumType=Ord	6	_	_	start_char=91|end_char=96|SpaceAfter=No
+8	!!	!!	PUNCT	.	_	7	_	_	start_char=96|end_char=98
+
+# text = Tell them to move forward with Kavanaugh vote.
+# sent_id = 122143
+1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=99|end_char=103
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=104|end_char=108
+3	to	to	PART	TO	_	2	_	_	start_char=109|end_char=111
+4	move	move	VERB	VB	VerbForm=Inf	3	_	_	start_char=112|end_char=116
+5	forward	forward	ADV	RB	_	4	_	_	start_char=117|end_char=124
+6	with	with	ADP	IN	_	5	_	_	start_char=125|end_char=129
+7	Kavanaugh	Kavanaugh	PROPN	NNP	Number=Sing	6	_	_	start_char=130|end_char=139
+8	vote	vote	NOUN	NN	Number=Sing	7	_	_	start_char=140|end_char=144|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=144|end_char=145
+
+# text = THEY ACTUALLY ANSWERED THE PHONE!
+# sent_id = 122144
+1	THEY	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=146|end_char=150
+2	ACTUALLY	actually	ADV	RB	_	1	_	_	start_char=151|end_char=159
+3	ANSWERED	answer	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=160|end_char=168
+4	THE	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=169|end_char=172
+5	PHONE	phone	NOUN	NN	Number=Sing	4	_	_	start_char=173|end_char=178|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=178|end_char=179|SpaceAfter=No
+

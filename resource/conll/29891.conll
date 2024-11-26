@@ -1,0 +1,49 @@
+# text = [USER]
+# sent_id = 64033
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Hull :Somalian rapist who held sharp piece of wood to teenager's throat and told her 'you can't be a virgin because you're white' is jailed for 11 years [URL]
+# sent_id = 64034
+1	Hull	Hull	PROPN	NNP	Number=Sing	0	_	_	start_char=7|end_char=11
+2	:	:	PUNCT	:	_	1	_	_	start_char=12|end_char=13|SpaceAfter=No
+3	Somalian	Somalian	ADJ	JJ	Degree=Pos	2	_	_	start_char=13|end_char=21
+4	rapist	rapist	NOUN	NN	Number=Sing	3	_	_	start_char=22|end_char=28
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=29|end_char=32
+6	held	hold	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=33|end_char=37
+7	sharp	sharp	ADJ	JJ	Degree=Pos	6	_	_	start_char=38|end_char=43
+8	piece	piece	NOUN	NN	Number=Sing	7	_	_	start_char=44|end_char=49
+9	of	of	ADP	IN	_	8	_	_	start_char=50|end_char=52
+10	wood	wood	NOUN	NN	Number=Sing	9	_	_	start_char=53|end_char=57
+11	to	to	ADP	IN	_	10	_	_	start_char=58|end_char=60
+12-13	teenager's	_	_	_	_	_	_	_	start_char=61|end_char=71
+12	teenager	teenager	NOUN	NN	Number=Sing	11	_	_	start_char=61|end_char=69
+13	's	's	PART	POS	_	12	_	_	start_char=69|end_char=71
+14	throat	throat	NOUN	NN	Number=Sing	13	_	_	start_char=72|end_char=78
+15	and	and	CCONJ	CC	_	14	_	_	start_char=79|end_char=82
+16	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=83|end_char=87
+17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=88|end_char=91
+18	'	'	PUNCT	``	_	17	_	_	start_char=92|end_char=93|SpaceAfter=No
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	_	_	start_char=93|end_char=96
+20-21	can't	_	_	_	_	_	_	_	start_char=97|end_char=102
+20	ca	can	AUX	MD	VerbForm=Fin	19	_	_	start_char=97|end_char=99
+21	n't	not	PART	RB	_	20	_	_	start_char=99|end_char=102
+22	be	be	AUX	VB	VerbForm=Inf	21	_	_	start_char=103|end_char=105
+23	a	a	DET	DT	Definite=Ind|PronType=Art	22	_	_	start_char=106|end_char=107
+24	virgin	virgin	NOUN	NN	Number=Sing	23	_	_	start_char=108|end_char=114
+25	because	because	SCONJ	IN	_	24	_	_	start_char=115|end_char=122
+26-27	you're	_	_	_	_	_	_	_	start_char=123|end_char=129
+26	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	25	_	_	start_char=123|end_char=126
+27	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	26	_	_	start_char=126|end_char=129
+28	white	white	ADJ	JJ	Degree=Pos	27	_	_	start_char=130|end_char=135|SpaceAfter=No
+29	'	'	PUNCT	''	_	28	_	_	start_char=135|end_char=136
+30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	_	_	start_char=137|end_char=139
+31	jailed	jail	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	30	_	_	start_char=140|end_char=146
+32	for	for	ADP	IN	_	31	_	_	start_char=147|end_char=150
+33	11	11	NUM	CD	NumForm=Digit|NumType=Card	32	_	_	start_char=151|end_char=153
+34	years	year	NOUN	NNS	Number=Plur	33	_	_	start_char=154|end_char=159
+35	[	[	PUNCT	-LRB-	_	34	_	_	start_char=160|end_char=161|SpaceAfter=No
+36	URL	URL	PROPN	NNP	Number=Sing	35	_	_	start_char=161|end_char=164|SpaceAfter=No
+37	]	]	PUNCT	-RRB-	_	36	_	_	start_char=164|end_char=165|SpaceAfter=No
+

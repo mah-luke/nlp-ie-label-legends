@@ -1,0 +1,20 @@
+# text = when do men ever get free dinners?
+# sent_id = 69947
+1	when	when	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=4
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=8|end_char=11
+4	ever	ever	ADV	RB	_	3	_	_	start_char=12|end_char=16
+5	get	get	VERB	VB	VerbForm=Inf	4	_	_	start_char=17|end_char=20
+6	free	free	ADJ	JJ	Degree=Pos	5	_	_	start_char=21|end_char=25
+7	dinners	dinner	NOUN	NNS	Number=Plur	6	_	_	start_char=26|end_char=33|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=33|end_char=34
+
+# text = that should be the question!
+# sent_id = 69948
+1	that	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=35|end_char=39
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=40|end_char=46
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=47|end_char=49
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=50|end_char=53
+5	question	question	NOUN	NN	Number=Sing	4	_	_	start_char=54|end_char=62|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=62|end_char=63|SpaceAfter=No
+

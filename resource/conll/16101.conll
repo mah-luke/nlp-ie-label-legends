@@ -1,0 +1,28 @@
+# text = It's not all Jews that cause problems, but almost all problems are caused by Jews.
+# sent_id = 34452
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	not	not	PART	RB	_	2	_	_	start_char=5|end_char=8
+4	all	all	DET	DT	_	3	_	_	start_char=9|end_char=12
+5	Jews	Jew	PROPN	NNPS	Number=Plur	4	_	_	start_char=13|end_char=17
+6	that	that	PRON	WDT	PronType=Rel	5	_	_	start_char=18|end_char=22
+7	cause	cause	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=23|end_char=28
+8	problems	problem	NOUN	NNS	Number=Plur	7	_	_	start_char=29|end_char=37|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=37|end_char=38
+10	but	but	CCONJ	CC	_	9	_	_	start_char=39|end_char=42
+11	almost	almost	ADV	RB	_	10	_	_	start_char=43|end_char=49
+12	all	all	DET	DT	_	11	_	_	start_char=50|end_char=53
+13	problems	problem	NOUN	NNS	Number=Plur	12	_	_	start_char=54|end_char=62
+14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=63|end_char=66
+15	caused	cause	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	_	_	start_char=67|end_char=73
+16	by	by	ADP	IN	_	15	_	_	start_char=74|end_char=76
+17	Jews	Jew	PROPN	NNPS	Number=Plur	16	_	_	start_char=77|end_char=81|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=81|end_char=82
+
+# text = [URL]
+# sent_id = 34453
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=83|end_char=84|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=84|end_char=87|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=87|end_char=88|SpaceAfter=No
+

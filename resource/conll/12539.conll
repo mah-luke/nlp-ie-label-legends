@@ -1,0 +1,34 @@
+# text = She is a girl.
+# sent_id = 26590
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=8
+4	girl	girl	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=13|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=13|end_char=14
+
+# text = Texas won’t let her wrestle as a boy but she doesn’t want to anyway because she takes steroids.
+# sent_id = 26591
+1	Texas	Texas	PROPN	NNP	Number=Sing	0	_	_	start_char=15|end_char=20
+2-3	won’t	_	_	_	_	_	_	_	start_char=21|end_char=26
+2	wo	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=21|end_char=23
+3	n’t	not	PART	RB	_	2	_	_	start_char=23|end_char=26
+4	let	let	VERB	VB	VerbForm=Inf	3	_	_	start_char=27|end_char=30
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=31|end_char=34
+6	wrestle	wrestle	VERB	VB	VerbForm=Inf	5	_	_	start_char=35|end_char=42
+7	as	as	ADP	IN	_	6	_	_	start_char=43|end_char=45
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=46|end_char=47
+9	boy	boy	NOUN	NN	Number=Sing	8	_	_	start_char=48|end_char=51
+10	but	but	CCONJ	CC	_	9	_	_	start_char=52|end_char=55
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=56|end_char=59
+12-13	doesn’t	_	_	_	_	_	_	_	start_char=60|end_char=67
+12	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=60|end_char=64
+13	n’t	not	PART	RB	_	12	_	_	start_char=64|end_char=67
+14	want	want	VERB	VB	VerbForm=Inf	13	_	_	start_char=68|end_char=72
+15	to	to	PART	TO	_	14	_	_	start_char=73|end_char=75
+16	anyway	anyway	ADV	RB	_	15	_	_	start_char=76|end_char=82
+17	because	because	SCONJ	IN	_	16	_	_	start_char=83|end_char=90
+18	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=91|end_char=94
+19	takes	take	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=95|end_char=100
+20	steroids	steroid	NOUN	NNS	Number=Plur	19	_	_	start_char=101|end_char=109|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=109|end_char=110|SpaceAfter=No
+

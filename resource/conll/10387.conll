@@ -1,0 +1,17 @@
+# text = ....they hurt her dog?
+# sent_id = 21902
+1	....	....	PUNCT	,	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=4|end_char=8
+3	hurt	hurt	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=9|end_char=13
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=14|end_char=17
+5	dog	dog	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=21|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=21|end_char=22
+
+# text = ... they must be destroyed
+# sent_id = 21903
+1	...	...	PUNCT	,	_	0	_	_	start_char=23|end_char=26
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=27|end_char=31
+3	must	must	AUX	MD	VerbForm=Fin	2	_	_	start_char=32|end_char=36
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=37|end_char=39
+5	destroyed	destroy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=40|end_char=49|SpaceAfter=No
+

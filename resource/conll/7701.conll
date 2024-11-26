@@ -1,0 +1,49 @@
+# text = What's that saying that gets repeated around the manospere so often?
+# sent_id = 16140
+1-2	What's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=7|end_char=11
+4	saying	say	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=12|end_char=18
+5	that	that	PRON	WDT	PronType=Rel	4	_	_	start_char=19|end_char=23
+6	gets	get	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=24|end_char=28
+7	repeated	repeat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=29|end_char=37
+8	around	around	ADP	IN	_	7	_	_	start_char=38|end_char=44
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=45|end_char=48
+10	manospere	manospere	NOUN	NN	Number=Sing	9	_	_	start_char=49|end_char=58
+11	so	so	ADV	RB	_	10	_	_	start_char=59|end_char=61
+12	often	often	ADV	RB	_	11	_	_	start_char=62|end_char=67|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=67|end_char=68
+
+# text = Women would rather share an alpha than have one beta all to herself.
+# sent_id = 16141
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=69|end_char=74
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=75|end_char=80
+3	rather	rather	ADV	RB	_	2	_	_	start_char=81|end_char=87
+4	share	share	VERB	VB	VerbForm=Inf	3	_	_	start_char=88|end_char=93
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=94|end_char=96
+6	alpha	alpha	NOUN	NN	Number=Sing	5	_	_	start_char=97|end_char=102
+7	than	than	SCONJ	IN	_	6	_	_	start_char=103|end_char=107
+8	have	have	VERB	VB	VerbForm=Inf	7	_	_	start_char=108|end_char=112
+9	one	one	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=113|end_char=116
+10	beta	beta	NOUN	NN	Number=Sing	9	_	_	start_char=117|end_char=121
+11	all	all	DET	DT	_	10	_	_	start_char=122|end_char=125
+12	to	to	ADP	IN	_	11	_	_	start_char=126|end_char=128
+13	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	12	_	_	start_char=129|end_char=136|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=136|end_char=137
+
+# text = There you have it, monogamous love is a male invention...
+# sent_id = 16142
+1	There	there	PRON	EX	_	0	_	_	start_char=138|end_char=143
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=144|end_char=147
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=148|end_char=152
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=153|end_char=155|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=155|end_char=156
+6	monogamous	monogamous	ADJ	JJ	Degree=Pos	5	_	_	start_char=157|end_char=167
+7	love	love	NOUN	NN	Number=Sing	6	_	_	start_char=168|end_char=172
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=173|end_char=175
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=176|end_char=177
+10	male	male	ADJ	JJ	Degree=Pos	9	_	_	start_char=178|end_char=182
+11	invention	invention	NOUN	NN	Number=Sing	10	_	_	start_char=183|end_char=192|SpaceAfter=No
+12	...	...	PUNCT	.	_	11	_	_	start_char=192|end_char=195|SpaceAfter=No
+

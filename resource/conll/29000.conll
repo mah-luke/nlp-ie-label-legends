@@ -1,0 +1,21 @@
+# text = wolf blitzer is a moron.
+# sent_id = 62206
+1	wolf	wolf	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
+2	blitzer	blitzer	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=12
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=15
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=16|end_char=17
+5	moron	moron	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=23|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=23|end_char=24
+
+# text = the goat is twice as smart as the wolf
+# sent_id = 62207
+1	the	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=25|end_char=28
+2	goat	goat	NOUN	NN	Number=Sing	1	_	_	start_char=29|end_char=33
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=34|end_char=36
+4	twice	twice	ADV	RB	NumType=Mult	3	_	_	start_char=37|end_char=42
+5	as	as	ADV	RB	_	4	_	_	start_char=43|end_char=45
+6	smart	smart	ADJ	JJ	Degree=Pos	5	_	_	start_char=46|end_char=51
+7	as	as	ADP	IN	_	6	_	_	start_char=52|end_char=54
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=55|end_char=58
+9	wolf	wolf	NOUN	NN	Number=Sing	8	_	_	start_char=59|end_char=63|SpaceAfter=No
+

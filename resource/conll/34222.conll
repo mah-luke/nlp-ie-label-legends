@@ -1,0 +1,38 @@
+# text = The British police still want Tommy Robinson dead.
+# sent_id = 73227
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
+2	British	British	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=11
+3	police	police	NOUN	NNS	Number=Plur	2	_	_	start_char=12|end_char=18
+4	still	still	ADV	RB	_	3	_	_	start_char=19|end_char=24
+5	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=25|end_char=29
+6	Tommy	Tommy	PROPN	NNP	Number=Sing	5	_	_	start_char=30|end_char=35
+7	Robinson	Robinson	PROPN	NNP	Number=Sing	6	_	_	start_char=36|end_char=44
+8	dead	dead	ADJ	JJ	Degree=Pos	7	_	_	start_char=45|end_char=49|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=49|end_char=50
+
+# text = That's why they won't go after people who threaten to kill him.
+# sent_id = 73228
+1-2	That's	_	_	_	_	_	_	_	start_char=51|end_char=57
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=51|end_char=55
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=55|end_char=57
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=58|end_char=61
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=62|end_char=66
+5-6	won't	_	_	_	_	_	_	_	start_char=67|end_char=72
+5	wo	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=67|end_char=69
+6	n't	not	PART	RB	_	5	_	_	start_char=69|end_char=72
+7	go	go	VERB	VB	VerbForm=Inf	6	_	_	start_char=73|end_char=75
+8	after	after	ADP	IN	_	7	_	_	start_char=76|end_char=81
+9	people	person	NOUN	NNS	Number=Plur	8	_	_	start_char=82|end_char=88
+10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=89|end_char=92
+11	threaten	threaten	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=93|end_char=101
+12	to	to	PART	TO	_	11	_	_	start_char=102|end_char=104
+13	kill	kill	VERB	VB	VerbForm=Inf	12	_	_	start_char=105|end_char=109
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=110|end_char=113|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=113|end_char=114
+
+# text = [URL]
+# sent_id = 73229
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=115|end_char=116|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=116|end_char=119|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=119|end_char=120|SpaceAfter=No
+

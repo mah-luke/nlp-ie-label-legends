@@ -1,0 +1,41 @@
+# text = One more question.
+# sent_id = 18237
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=0|end_char=3
+2	more	more	ADJ	JJR	Degree=Cmp	1	_	_	start_char=4|end_char=8
+3	question	question	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=17|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=17|end_char=18
+
+# text = Should I express intent with her?
+# sent_id = 18238
+1	Should	should	AUX	MD	VerbForm=Fin	0	_	_	start_char=19|end_char=25
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=26|end_char=27
+3	express	express	VERB	VB	VerbForm=Inf	2	_	_	start_char=28|end_char=35
+4	intent	intent	NOUN	NN	Number=Sing	3	_	_	start_char=36|end_char=42
+5	with	with	ADP	IN	_	4	_	_	start_char=43|end_char=47
+6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=48|end_char=51|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=51|end_char=52
+
+# text = I've never really let on that I'm interested in her or find her attractive at all.
+# sent_id = 18239
+1-2	I've	_	_	_	_	_	_	_	start_char=53|end_char=57
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=53|end_char=54
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=54|end_char=57
+3	never	never	ADV	RB	_	2	_	_	start_char=58|end_char=63
+4	really	really	ADV	RB	_	3	_	_	start_char=64|end_char=70
+5	let	let	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=71|end_char=74
+6	on	on	ADP	IN	_	5	_	_	start_char=75|end_char=77
+7	that	that	SCONJ	IN	_	6	_	_	start_char=78|end_char=82
+8-9	I'm	_	_	_	_	_	_	_	start_char=83|end_char=86
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=83|end_char=84
+9	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=84|end_char=86
+10	interested	interested	ADJ	JJ	Degree=Pos	9	_	_	start_char=87|end_char=97
+11	in	in	ADP	IN	_	10	_	_	start_char=98|end_char=100
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=101|end_char=104
+13	or	or	CCONJ	CC	_	12	_	_	start_char=105|end_char=107
+14	find	find	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	_	_	start_char=108|end_char=112
+15	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=113|end_char=116
+16	attractive	attractive	ADJ	JJ	Degree=Pos	15	_	_	start_char=117|end_char=127
+17	at	at	ADP	IN	_	16	_	_	start_char=128|end_char=130
+18	all	all	DET	DT	_	17	_	_	start_char=131|end_char=134|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=134|end_char=135|SpaceAfter=No
+

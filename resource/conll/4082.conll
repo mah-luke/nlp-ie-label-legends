@@ -1,0 +1,24 @@
+# text = Hey, that's my shit too.
+# sent_id = 8578
+1	Hey	hey	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3-4	that's	_	_	_	_	_	_	_	start_char=5|end_char=11
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=5|end_char=9
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=9|end_char=11
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=12|end_char=14
+6	shit	shit	NOUN	NN	Number=Sing	5	_	_	start_char=15|end_char=19
+7	too	too	ADV	RB	_	6	_	_	start_char=20|end_char=23|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=23|end_char=24
+
+# text = The mother fucker is a demon for releasing supercuts
+# sent_id = 8579
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=25|end_char=28
+2	mother	mother	NOUN	NN	Number=Sing	1	_	_	start_char=29|end_char=35
+3	fucker	fucker	NOUN	NN	Number=Sing	2	_	_	start_char=36|end_char=42
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=43|end_char=45
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=46|end_char=47
+6	demon	demon	NOUN	NN	Number=Sing	5	_	_	start_char=48|end_char=53
+7	for	for	SCONJ	IN	_	6	_	_	start_char=54|end_char=57
+8	releasing	release	VERB	VBG	VerbForm=Ger	7	_	_	start_char=58|end_char=67
+9	supercuts	supercuts	NOUN	NNS	Number=Plur	8	_	_	start_char=68|end_char=77|SpaceAfter=No
+

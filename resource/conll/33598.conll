@@ -1,0 +1,34 @@
+# text = As a Jew.
+# sent_id = 71949
+1	As	as	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=3|end_char=4
+3	Jew	Jew	NOUN	NN	Number=Sing	2	_	_	start_char=5|end_char=8|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=8|end_char=9
+
+# text = I can confirm I rape girls every night in the alleys Just kidding.
+# sent_id = 71950
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=10|end_char=11
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=12|end_char=15
+3	confirm	confirm	VERB	VB	VerbForm=Inf	2	_	_	start_char=16|end_char=23
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=24|end_char=25
+5	rape	rape	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=26|end_char=30
+6	girls	girl	NOUN	NNS	Number=Plur	5	_	_	start_char=31|end_char=36
+7	every	every	DET	DT	PronType=Tot	6	_	_	start_char=37|end_char=42
+8	night	night	NOUN	NN	Number=Sing	7	_	_	start_char=43|end_char=48
+9	in	in	ADP	IN	_	8	_	_	start_char=49|end_char=51
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=52|end_char=55
+11	alleys	alley	NOUN	NNS	Number=Plur	10	_	_	start_char=56|end_char=62
+12	Just	just	ADV	RB	_	11	_	_	start_char=63|end_char=67
+13	kidding	kid	VERB	VBG	VerbForm=Ger	12	_	_	start_char=68|end_char=75|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=75|end_char=76
+
+# text = You're a fucking moron rofl
+# sent_id = 71951
+1-2	You're	_	_	_	_	_	_	_	start_char=77|end_char=83
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=77|end_char=80
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=80|end_char=83
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=84|end_char=85
+4	fucking	fuck	ADJ	JJ	Degree=Pos	3	_	_	start_char=86|end_char=93
+5	moron	moron	NOUN	NN	Number=Sing	4	_	_	start_char=94|end_char=99
+6	rofl	rofl	NOUN	NN	Number=Sing	5	_	_	start_char=100|end_char=104|SpaceAfter=No
+

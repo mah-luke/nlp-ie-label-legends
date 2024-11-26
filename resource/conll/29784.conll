@@ -1,0 +1,30 @@
+# text = "Hey y'all, I'm gonna pay my wife's daughter $100 to snatch that cap off that boys head"
+# sent_id = 63813
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Hey	hey	INTJ	UH	_	1	_	_	start_char=1|end_char=4
+3	y'all	y'all	INTJ	UH	_	2	_	_	start_char=5|end_char=10|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=10|end_char=11
+5-6	I'm	_	_	_	_	_	_	_	start_char=12|end_char=15
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=12|end_char=13
+6	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=13|end_char=15
+7-8	gonna	_	_	_	_	_	_	_	start_char=16|end_char=21
+7	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=16|end_char=19
+8	na	to	PART	TO	_	7	_	_	start_char=19|end_char=21
+9	pay	pay	VERB	VB	VerbForm=Inf	8	_	_	start_char=22|end_char=25
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=26|end_char=28
+11-12	wife's	_	_	_	_	_	_	_	start_char=29|end_char=35
+11	wife	wife	NOUN	NN	Number=Sing	10	_	_	start_char=29|end_char=33
+12	's	's	PART	POS	_	11	_	_	start_char=33|end_char=35
+13	daughter	daughter	NOUN	NN	Number=Sing	12	_	_	start_char=36|end_char=44
+14	$	$	SYM	$	_	13	_	_	start_char=45|end_char=46|SpaceAfter=No
+15	100	100	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=46|end_char=49
+16	to	to	PART	TO	_	15	_	_	start_char=50|end_char=52
+17	snatch	snatch	VERB	VB	VerbForm=Inf	16	_	_	start_char=53|end_char=59
+18	that	that	DET	DT	Number=Sing|PronType=Dem	17	_	_	start_char=60|end_char=64
+19	cap	cap	NOUN	NN	Number=Sing	18	_	_	start_char=65|end_char=68
+20	off	off	ADP	IN	_	19	_	_	start_char=69|end_char=72
+21	that	that	DET	DT	Number=Sing|PronType=Dem	20	_	_	start_char=73|end_char=77
+22	boys	boy	NOUN	NNS	Number=Plur	21	_	_	start_char=78|end_char=82
+23	head	head	NOUN	NN	Number=Sing	22	_	_	start_char=83|end_char=87|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	_	_	start_char=87|end_char=88|SpaceAfter=No
+

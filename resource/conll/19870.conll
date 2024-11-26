@@ -1,0 +1,57 @@
+# text = I had to tell it straight to a customer at work today.
+# sent_id = 42687
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	to	to	PART	TO	_	2	_	_	start_char=6|end_char=8
+4	tell	tell	VERB	VB	VerbForm=Inf	3	_	_	start_char=9|end_char=13
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=14|end_char=16
+6	straight	straight	ADV	RB	_	5	_	_	start_char=17|end_char=25
+7	to	to	ADP	IN	_	6	_	_	start_char=26|end_char=28
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=29|end_char=30
+9	customer	customer	NOUN	NN	Number=Sing	8	_	_	start_char=31|end_char=39
+10	at	at	ADP	IN	_	9	_	_	start_char=40|end_char=42
+11	work	work	NOUN	NN	Number=Sing	10	_	_	start_char=43|end_char=47
+12	today	today	NOUN	NN	Number=Sing	11	_	_	start_char=48|end_char=53|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=53|end_char=54
+
+# text = "Look, lady," I snapped, "No-one here wants to hear about your bloody baby!"
+# sent_id = 42688
+1	"	"	PUNCT	``	_	0	_	_	start_char=55|end_char=56|SpaceAfter=No
+2	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=56|end_char=60|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=60|end_char=61
+4	lady	lady	NOUN	NN	Number=Sing	3	_	_	start_char=62|end_char=66|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=66|end_char=67|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=67|end_char=68
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=69|end_char=70
+8	snapped	snap	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	_	_	start_char=71|end_char=78|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=78|end_char=79
+10	"	"	PUNCT	``	_	9	_	_	start_char=80|end_char=81|SpaceAfter=No
+11	No	no	INTJ	UH	Polarity=Neg	10	_	_	start_char=81|end_char=83|SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	11	_	_	start_char=83|end_char=84|SpaceAfter=No
+13	one	one	NUM	CD	NumForm=Word|NumType=Card	12	_	_	start_char=84|end_char=87
+14	here	here	ADV	RB	PronType=Dem	13	_	_	start_char=88|end_char=92
+15	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=93|end_char=98
+16	to	to	PART	TO	_	15	_	_	start_char=99|end_char=101
+17	hear	hear	VERB	VB	VerbForm=Inf	16	_	_	start_char=102|end_char=106
+18	about	about	ADP	IN	_	17	_	_	start_char=107|end_char=112
+19	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	18	_	_	start_char=113|end_char=117
+20	bloody	bloody	ADJ	JJ	Degree=Pos	19	_	_	start_char=118|end_char=124
+21	baby	baby	NOUN	NN	Number=Sing	20	_	_	start_char=125|end_char=129|SpaceAfter=No
+22	!	!	PUNCT	.	_	21	_	_	start_char=129|end_char=130|SpaceAfter=No
+23	"	"	PUNCT	''	_	22	_	_	start_char=130|end_char=131
+
+# text = Anyway, I've been suspended from the paediatric ward.
+# sent_id = 42689
+1	Anyway	anyway	INTJ	UH	_	0	_	_	start_char=132|end_char=138|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=138|end_char=139
+3-4	I've	_	_	_	_	_	_	_	start_char=140|end_char=144
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=140|end_char=141
+4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=141|end_char=144
+5	been	be	AUX	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=145|end_char=149
+6	suspended	suspend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=150|end_char=159
+7	from	from	ADP	IN	_	6	_	_	start_char=160|end_char=164
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=165|end_char=168
+9	paediatric	paediatric	ADJ	JJ	Degree=Pos	8	_	_	start_char=169|end_char=179
+10	ward	ward	NOUN	NN	Number=Sing	9	_	_	start_char=180|end_char=184|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=184|end_char=185|SpaceAfter=No
+

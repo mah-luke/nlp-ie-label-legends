@@ -1,0 +1,72 @@
+# text = So not ugly.
+# sent_id = 14745
+1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	not	not	PART	RB	_	1	_	_	start_char=3|end_char=6
+3	ugly	ugly	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=11|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=11|end_char=12
+
+# text = What's your point.
+# sent_id = 14746
+1-2	What's	_	_	_	_	_	_	_	start_char=13|end_char=19
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=13|end_char=17
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=17|end_char=19
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=20|end_char=24
+4	point	point	NOUN	NN	Number=Sing	3	_	_	start_char=25|end_char=30|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=30|end_char=31
+
+# text = I know a lot of ugly dudes too.
+# sent_id = 14747
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=32|end_char=33
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=34|end_char=38
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=39|end_char=40
+4	lot	lot	NOUN	NN	Number=Sing	3	_	_	start_char=41|end_char=44
+5	of	of	ADP	IN	_	4	_	_	start_char=45|end_char=47
+6	ugly	ugly	ADJ	JJ	Degree=Pos	5	_	_	start_char=48|end_char=52
+7	dudes	dude	NOUN	NNS	Number=Plur	6	_	_	start_char=53|end_char=58
+8	too	too	ADV	RB	_	7	_	_	start_char=59|end_char=62|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=62|end_char=63
+
+# text = everyone does.
+# sent_id = 14748
+1	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	0	_	_	start_char=64|end_char=72
+2	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=73|end_char=77|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=77|end_char=78
+
+# text = > >
+# sent_id = 14749
+1	>	>	PUNCT	NFP	_	0	_	_	start_char=79|end_char=80
+2	>	>	PUNCT	-RRB-	_	1	_	_	start_char=81|end_char=82|SpaceAfter=No
+
+# text = And therefore you know about everyones sex life?
+# sent_id = 14750
+1	And	and	CCONJ	CC	_	0	_	_	start_char=82|end_char=85
+2	therefore	therefore	ADV	RB	_	1	_	_	start_char=86|end_char=95
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=96|end_char=99
+4	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=100|end_char=104
+5	about	about	ADP	IN	_	4	_	_	start_char=105|end_char=110
+6	everyones	everyone	DET	DT	_	5	_	_	start_char=111|end_char=120
+7	sex	sex	NOUN	NN	Number=Sing	6	_	_	start_char=121|end_char=124
+8	life	life	NOUN	NN	Number=Sing	7	_	_	start_char=125|end_char=129|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=129|end_char=130
+
+# text = I know they all have had girlfriends.
+# sent_id = 14751
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=131|end_char=132
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=133|end_char=137
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=138|end_char=142
+4	all	all	DET	DT	_	3	_	_	start_char=143|end_char=146
+5	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=147|end_char=151
+6	had	have	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=152|end_char=155
+7	girlfriends	girlfriend	NOUN	NNS	Number=Plur	6	_	_	start_char=156|end_char=167|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=167|end_char=168
+
+# text = Because I've met them.
+# sent_id = 14752
+1	Because	because	SCONJ	IN	_	0	_	_	start_char=169|end_char=176
+2-3	I've	_	_	_	_	_	_	_	start_char=177|end_char=181
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=177|end_char=178
+3	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=178|end_char=181
+4	met	meet	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=182|end_char=185
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=186|end_char=190|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=190|end_char=191|SpaceAfter=No
+

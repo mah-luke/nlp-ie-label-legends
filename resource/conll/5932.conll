@@ -1,0 +1,25 @@
+# text = [USER]
+# sent_id = 12389
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Lock her up with Hillary,,,she needs a similar minded jail mate.
+# sent_id = 12390
+1	Lock	lock	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=7|end_char=11
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=12|end_char=15
+3	up	up	ADP	RP	_	2	_	_	start_char=16|end_char=18
+4	with	with	ADP	IN	_	3	_	_	start_char=19|end_char=23
+5	Hillary	Hillary	PROPN	NNP	Number=Sing	4	_	_	start_char=24|end_char=31|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=31|end_char=32|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=32|end_char=33|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=33|end_char=34|SpaceAfter=No
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=34|end_char=37
+10	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=38|end_char=43
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=44|end_char=45
+12	similar	similar	ADJ	JJ	Degree=Pos	11	_	_	start_char=46|end_char=53
+13	minded	minded	ADJ	JJ	Degree=Pos	12	_	_	start_char=54|end_char=60
+14	jail	jail	NOUN	NN	Number=Sing	13	_	_	start_char=61|end_char=65
+15	mate	mate	NOUN	NN	Number=Sing	14	_	_	start_char=66|end_char=70|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=70|end_char=71|SpaceAfter=No
+

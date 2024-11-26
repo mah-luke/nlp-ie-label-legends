@@ -1,0 +1,60 @@
+# text = They say that the most confusing day in Liverpool is Father's Day.
+# sent_id = 9234
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=4
+2	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	that	that	SCONJ	IN	_	2	_	_	start_char=9|end_char=13
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=14|end_char=17
+5	most	most	ADV	RBS	Degree=Sup	4	_	_	start_char=18|end_char=22
+6	confusing	confusing	ADJ	JJ	Degree=Pos	5	_	_	start_char=23|end_char=32
+7	day	day	NOUN	NN	Number=Sing	6	_	_	start_char=33|end_char=36
+8	in	in	ADP	IN	_	7	_	_	start_char=37|end_char=39
+9	Liverpool	Liverpool	PROPN	NNP	Number=Sing	8	_	_	start_char=40|end_char=49
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=50|end_char=52
+11-12	Father's	_	_	_	_	_	_	_	start_char=53|end_char=61
+11	Father	Father	PROPN	NNP	Number=Sing	10	_	_	start_char=53|end_char=59
+12	's	's	PART	POS	_	11	_	_	start_char=59|end_char=61
+13	Day	Day	PROPN	NNP	Number=Sing	12	_	_	start_char=62|end_char=65|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=65|end_char=66
+
+# text = In Weston-super-Mare, the most confusing day is Halloween.
+# sent_id = 9235
+1	In	in	ADP	IN	_	0	_	_	start_char=67|end_char=69
+2	Weston	Weston	PROPN	NNP	Number=Sing	1	_	_	start_char=70|end_char=76|SpaceAfter=No
+3	-	-	PUNCT	HYPH	_	2	_	_	start_char=76|end_char=77|SpaceAfter=No
+4	super	super	ADV	RB	_	3	_	_	start_char=77|end_char=82|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	_	_	start_char=82|end_char=83|SpaceAfter=No
+6	Mare	mare	PROPN	NNP	Number=Sing	5	_	_	start_char=83|end_char=87|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=87|end_char=88
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=89|end_char=92
+9	most	most	ADV	RBS	Degree=Sup	8	_	_	start_char=93|end_char=97
+10	confusing	confusing	ADJ	JJ	Degree=Pos	9	_	_	start_char=98|end_char=107
+11	day	day	NOUN	NN	Number=Sing	10	_	_	start_char=108|end_char=111
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=112|end_char=114
+13	Halloween	Halloween	PROPN	NNP	Number=Sing	12	_	_	start_char=115|end_char=124|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=124|end_char=125
+
+# text = You cant tell if girls are dressed like that because its Halloween, or because theyre sluts.
+# sent_id = 9236
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=126|end_char=129
+2-3	cant	_	_	_	_	_	_	_	start_char=130|end_char=134
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=130|end_char=132
+3	nt	not	PART	RB	_	2	_	_	start_char=132|end_char=134
+4	tell	tell	VERB	VB	VerbForm=Inf	3	_	_	start_char=135|end_char=139
+5	if	if	SCONJ	IN	_	4	_	_	start_char=140|end_char=142
+6	girls	girl	NOUN	NNS	Number=Plur	5	_	_	start_char=143|end_char=148
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=149|end_char=152
+8	dressed	dress	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=153|end_char=160
+9	like	like	ADP	IN	_	8	_	_	start_char=161|end_char=165
+10	that	that	PRON	DT	Number=Sing|PronType=Dem	9	_	_	start_char=166|end_char=170
+11	because	because	SCONJ	IN	_	10	_	_	start_char=171|end_char=178
+12	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=179|end_char=182
+13	Halloween	Halloween	NOUN	NN	Number=Sing	12	_	_	start_char=183|end_char=192|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=192|end_char=193
+15	or	or	CCONJ	CC	_	14	_	_	start_char=194|end_char=196
+16	because	because	SCONJ	IN	_	15	_	_	start_char=197|end_char=204
+17-18	theyre	_	_	_	_	_	_	_	start_char=205|end_char=211
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=205|end_char=209
+18	re	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=209|end_char=211
+19	sluts	slut	NOUN	NNS	Number=Plur	18	_	_	start_char=212|end_char=217|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=217|end_char=218|SpaceAfter=No
+

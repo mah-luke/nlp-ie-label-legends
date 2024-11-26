@@ -1,0 +1,59 @@
+# text = [USER]
+# sent_id = 54022
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Part of the reason that tractors aren't really made here anymore is because of the EPA.
+# sent_id = 54023
+1	Part	part	NOUN	NN	Number=Sing	0	_	_	start_char=7|end_char=11
+2	of	of	ADP	IN	_	1	_	_	start_char=12|end_char=14
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=15|end_char=18
+4	reason	reason	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=25
+5	that	that	SCONJ	IN	_	4	_	_	start_char=26|end_char=30
+6	tractors	tractor	NOUN	NNS	Number=Plur	5	_	_	start_char=31|end_char=39
+7-8	aren't	_	_	_	_	_	_	_	start_char=40|end_char=46
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=40|end_char=43
+8	n't	not	PART	RB	_	7	_	_	start_char=43|end_char=46
+9	really	really	ADV	RB	_	8	_	_	start_char=47|end_char=53
+10	made	make	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=54|end_char=58
+11	here	here	ADV	RB	PronType=Dem	10	_	_	start_char=59|end_char=63
+12	anymore	anymore	ADV	RB	_	11	_	_	start_char=64|end_char=71
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=72|end_char=74
+14	because	because	ADP	IN	_	13	_	_	start_char=75|end_char=82
+15	of	of	ADP	IN	_	14	_	_	start_char=83|end_char=85
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=86|end_char=89
+17	EPA	EPA	PROPN	NNP	Number=Sing	16	_	_	start_char=90|end_char=93|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=93|end_char=94
+
+# text = We no longer have the big casting plants like we used to.
+# sent_id = 54024
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=95|end_char=97
+2	no	no	ADV	RB	_	1	_	_	start_char=98|end_char=100
+3	longer	long	ADV	RBR	Degree=Cmp	2	_	_	start_char=101|end_char=107
+4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=108|end_char=112
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=113|end_char=116
+6	big	big	ADJ	JJ	Degree=Pos	5	_	_	start_char=117|end_char=120
+7	casting	casting	NOUN	NN	Number=Sing	6	_	_	start_char=121|end_char=128
+8	plants	plant	NOUN	NNS	Number=Plur	7	_	_	start_char=129|end_char=135
+9	like	like	SCONJ	IN	_	8	_	_	start_char=136|end_char=140
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	_	_	start_char=141|end_char=143
+11	used	use	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	10	_	_	start_char=144|end_char=148
+12	to	to	PART	TO	_	11	_	_	start_char=149|end_char=151|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=151|end_char=152
+
+# text = GM cut back and sent some out of the country even.
+# sent_id = 54025
+1	GM	GM	PROPN	NNP	Number=Sing	0	_	_	start_char=153|end_char=155
+2	cut	cut	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=156|end_char=159
+3	back	back	ADV	RB	_	2	_	_	start_char=160|end_char=164
+4	and	and	CCONJ	CC	_	3	_	_	start_char=165|end_char=168
+5	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=169|end_char=173
+6	some	some	DET	DT	_	5	_	_	start_char=174|end_char=178
+7	out	out	ADP	IN	_	6	_	_	start_char=179|end_char=182
+8	of	of	ADP	IN	_	7	_	_	start_char=183|end_char=185
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=186|end_char=189
+10	country	country	NOUN	NN	Number=Sing	9	_	_	start_char=190|end_char=197
+11	even	even	ADV	RB	_	10	_	_	start_char=198|end_char=202|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=202|end_char=203|SpaceAfter=No
+

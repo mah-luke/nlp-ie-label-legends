@@ -1,0 +1,41 @@
+# text = "irony and satire died when trump was elected" uh, wtf does that even mean?
+# sent_id = 106548
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	irony	irony	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=6
+3	and	and	CCONJ	CC	_	2	_	_	start_char=7|end_char=10
+4	satire	satire	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=17
+5	died	die	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=18|end_char=22
+6	when	when	ADV	WRB	PronType=Int	5	_	_	start_char=23|end_char=27
+7	trump	trump	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=33
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=34|end_char=37
+9	elected	elect	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=38|end_char=45|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=45|end_char=46
+11	uh	uh	INTJ	UH	_	10	_	_	start_char=47|end_char=49|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=49|end_char=50
+13	wtf	wtf	INTJ	UH	_	12	_	_	start_char=51|end_char=54
+14	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=55|end_char=59
+15	that	that	PRON	DT	Number=Sing|PronType=Dem	14	_	_	start_char=60|end_char=64
+16	even	even	ADV	RB	_	15	_	_	start_char=65|end_char=69
+17	mean	mean	VERB	VB	VerbForm=Inf	16	_	_	start_char=70|end_char=74|SpaceAfter=No
+18	?	?	PUNCT	.	_	17	_	_	start_char=74|end_char=75
+
+# text = that guy's either on meds, or is pissed because Nehlen fucked his sister.
+# sent_id = 106549
+1	that	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=76|end_char=80
+2-3	guy's	_	_	_	_	_	_	_	start_char=81|end_char=86
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=81|end_char=84
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=84|end_char=86
+4	either	either	CCONJ	CC	_	3	_	_	start_char=87|end_char=93
+5	on	on	ADP	IN	_	4	_	_	start_char=94|end_char=96
+6	meds	med	NOUN	NNS	Number=Plur	5	_	_	start_char=97|end_char=101|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=101|end_char=102
+8	or	or	CCONJ	CC	_	7	_	_	start_char=103|end_char=105
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=106|end_char=108
+10	pissed	piss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=109|end_char=115
+11	because	because	SCONJ	IN	_	10	_	_	start_char=116|end_char=123
+12	Nehlen	Nehlen	PROPN	NNP	Number=Sing	11	_	_	start_char=124|end_char=130
+13	fucked	fuck	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=131|end_char=137
+14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=138|end_char=141
+15	sister	sister	NOUN	NN	Number=Sing	14	_	_	start_char=142|end_char=148|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=148|end_char=149|SpaceAfter=No
+

@@ -1,0 +1,29 @@
+# text = You're a female.
+# sent_id = 46946
+1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=8
+4	female	female	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=15|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=15|end_char=16
+
+# text = We don't care about you or funding your medical treatments via our tax dollars.
+# sent_id = 46947
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=17|end_char=19
+2-3	don't	_	_	_	_	_	_	_	start_char=20|end_char=25
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=20|end_char=22
+3	n't	not	PART	RB	_	2	_	_	start_char=22|end_char=25
+4	care	care	VERB	VB	VerbForm=Inf	3	_	_	start_char=26|end_char=30
+5	about	about	ADP	IN	_	4	_	_	start_char=31|end_char=36
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=37|end_char=40
+7	or	or	CCONJ	CC	_	6	_	_	start_char=41|end_char=43
+8	funding	fund	VERB	VBG	VerbForm=Ger	7	_	_	start_char=44|end_char=51
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=52|end_char=56
+10	medical	medical	ADJ	JJ	Degree=Pos	9	_	_	start_char=57|end_char=64
+11	treatments	treatment	NOUN	NNS	Number=Plur	10	_	_	start_char=65|end_char=75
+12	via	via	ADP	IN	_	11	_	_	start_char=76|end_char=79
+13	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	12	_	_	start_char=80|end_char=83
+14	tax	tax	NOUN	NN	Number=Sing	13	_	_	start_char=84|end_char=87
+15	dollars	dollar	NOUN	NNS	Number=Plur	14	_	_	start_char=88|end_char=95|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=95|end_char=96|SpaceAfter=No
+

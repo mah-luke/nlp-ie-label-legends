@@ -1,0 +1,45 @@
+# text = Don't get too excited.
+# sent_id = 112221
+1-2	Don't	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n't	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=9
+4	too	too	ADV	RB	_	3	_	_	start_char=10|end_char=13
+5	excited	excited	ADJ	JJ	Degree=Pos	4	_	_	start_char=14|end_char=21|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=21|end_char=22
+
+# text = We still don't know whether we can trust the ex-boyfriend's letter.
+# sent_id = 112222
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=23|end_char=25
+2	still	still	ADV	RB	_	1	_	_	start_char=26|end_char=31
+3-4	don't	_	_	_	_	_	_	_	start_char=32|end_char=37
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=32|end_char=34
+4	n't	not	PART	RB	_	3	_	_	start_char=34|end_char=37
+5	know	know	VERB	VB	VerbForm=Inf	4	_	_	start_char=38|end_char=42
+6	whether	whether	SCONJ	IN	_	5	_	_	start_char=43|end_char=50
+7	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	6	_	_	start_char=51|end_char=53
+8	can	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=54|end_char=57
+9	trust	trust	VERB	VB	VerbForm=Inf	8	_	_	start_char=58|end_char=63
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=64|end_char=67
+11-12	ex-boyfriend's	_	_	_	_	_	_	_	start_char=68|end_char=82
+11	ex-boyfriend	ex-boyfriend	NOUN	NN	Number=Sing	10	_	_	start_char=68|end_char=80
+12	's	's	PART	POS	_	11	_	_	start_char=80|end_char=82
+13	letter	letter	NOUN	NN	Number=Sing	12	_	_	start_char=83|end_char=89|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=89|end_char=90
+
+# text = He has yet to establish credibility by coming out as a woman.
+# sent_id = 112223
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=91|end_char=93
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=94|end_char=97
+3	yet	yet	ADV	RB	_	2	_	_	start_char=98|end_char=101
+4	to	to	PART	TO	_	3	_	_	start_char=102|end_char=104
+5	establish	establish	VERB	VB	VerbForm=Inf	4	_	_	start_char=105|end_char=114
+6	credibility	credibility	NOUN	NN	Number=Sing	5	_	_	start_char=115|end_char=126
+7	by	by	SCONJ	IN	_	6	_	_	start_char=127|end_char=129
+8	coming	come	VERB	VBG	VerbForm=Ger	7	_	_	start_char=130|end_char=136
+9	out	out	ADV	RB	_	8	_	_	start_char=137|end_char=140
+10	as	as	ADP	IN	_	9	_	_	start_char=141|end_char=143
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=144|end_char=145
+12	woman	woman	NOUN	NN	Number=Sing	11	_	_	start_char=146|end_char=151|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=151|end_char=152|SpaceAfter=No
+

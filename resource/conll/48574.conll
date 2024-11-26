@@ -1,0 +1,27 @@
+# text = Because she's the victim!
+# sent_id = 103863
+1	Because	because	SCONJ	IN	_	0	_	_	start_char=0|end_char=7
+2-3	she's	_	_	_	_	_	_	_	start_char=8|end_char=13
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=8|end_char=11
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=14|end_char=17
+5	victim	victim	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=24|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=24|end_char=25
+
+# text = That guy kept running into her fists and feet!
+# sent_id = 103864
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=26|end_char=30
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=31|end_char=34
+3	kept	keep	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=35|end_char=39
+4	running	run	VERB	VBG	VerbForm=Ger	3	_	_	start_char=40|end_char=47
+5	into	into	ADP	IN	_	4	_	_	start_char=48|end_char=52
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=53|end_char=56
+7	fists	fist	NOUN	NNS	Number=Plur	6	_	_	start_char=57|end_char=62
+8	and	and	CCONJ	CC	_	7	_	_	start_char=63|end_char=66
+9	feet	foot	NOUN	NNS	Number=Plur	8	_	_	start_char=67|end_char=71|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=71|end_char=72
+
+# text = /s
+# sent_id = 103865
+1	/s	/s	PUNCT	NFP	_	0	_	_	start_char=73|end_char=75|SpaceAfter=No
+

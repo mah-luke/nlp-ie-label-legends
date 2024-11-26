@@ -1,0 +1,57 @@
+# text = Don’t forget audiobooks.
+# sent_id = 37446
+1-2	Don’t	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	n’t	not	PART	RB	_	1	_	_	start_char=2|end_char=5
+3	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=6|end_char=12
+4	audiobooks	audiobook	NOUN	NNS	Number=Plur	3	_	_	start_char=13|end_char=23|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=23|end_char=24
+
+# text = I’ve been on a spree of redpill books lately.
+# sent_id = 37447
+1-2	I’ve	_	_	_	_	_	_	_	start_char=25|end_char=29
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=25|end_char=26
+2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=26|end_char=29
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=30|end_char=34
+4	on	on	ADP	IN	_	3	_	_	start_char=35|end_char=37
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=38|end_char=39
+6	spree	spree	NOUN	NN	Number=Sing	5	_	_	start_char=40|end_char=45
+7	of	of	ADP	IN	_	6	_	_	start_char=46|end_char=48
+8	redpill	redpill	NOUN	NN	Number=Sing	7	_	_	start_char=49|end_char=56
+9	books	book	NOUN	NNS	Number=Plur	8	_	_	start_char=57|end_char=62
+10	lately	lately	ADV	RB	_	9	_	_	start_char=63|end_char=69|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=69|end_char=70
+
+# text = Normally listen to them while I do easy cardio.
+# sent_id = 37448
+1	Normally	normally	ADV	RB	_	0	_	_	start_char=71|end_char=79
+2	listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=80|end_char=86
+3	to	to	ADP	IN	_	2	_	_	start_char=87|end_char=89
+4	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=90|end_char=94
+5	while	while	SCONJ	IN	_	4	_	_	start_char=95|end_char=100
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=101|end_char=102
+7	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=103|end_char=105
+8	easy	easy	ADJ	JJ	Degree=Pos	7	_	_	start_char=106|end_char=110
+9	cardio	cardio	NOUN	NN	Number=Sing	8	_	_	start_char=111|end_char=117|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=117|end_char=118
+
+# text = I’d recommend starting with the rationale male, models, or the power of now
+# sent_id = 37449
+1-2	I’d	_	_	_	_	_	_	_	start_char=119|end_char=122
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=119|end_char=120
+2	’d	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=120|end_char=122
+3	recommend	recommend	VERB	VB	VerbForm=Inf	2	_	_	start_char=123|end_char=132
+4	starting	start	VERB	VBG	VerbForm=Ger	3	_	_	start_char=133|end_char=141
+5	with	with	ADP	IN	_	4	_	_	start_char=142|end_char=146
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=147|end_char=150
+7	rationale	rationale	NOUN	NN	Number=Sing	6	_	_	start_char=151|end_char=160
+8	male	male	NOUN	NN	Number=Sing	7	_	_	start_char=161|end_char=165|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=165|end_char=166
+10	models	model	NOUN	NNS	Number=Plur	9	_	_	start_char=167|end_char=173|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=173|end_char=174
+12	or	or	CCONJ	CC	_	11	_	_	start_char=175|end_char=177
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=178|end_char=181
+14	power	power	NOUN	NN	Number=Sing	13	_	_	start_char=182|end_char=187
+15	of	of	ADP	IN	_	14	_	_	start_char=188|end_char=190
+16	now	now	ADV	RB	_	15	_	_	start_char=191|end_char=194|SpaceAfter=No
+

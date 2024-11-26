@@ -1,0 +1,54 @@
+# text = Wow she's anorexic!
+# sent_id = 122049
+1	Wow	wow	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2-3	she's	_	_	_	_	_	_	_	start_char=4|end_char=9
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=4|end_char=7
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=9
+4	anorexic	anorexic	ADJ	JJ	Degree=Pos	3	_	_	start_char=10|end_char=18|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = Sounds like she doesn't have any kind of fucked up emotional baggage at all AND she'll stay thin!
+# sent_id = 122050
+1	Sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=20|end_char=26
+2	like	like	SCONJ	IN	_	1	_	_	start_char=27|end_char=31
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=32|end_char=35
+4-5	doesn't	_	_	_	_	_	_	_	start_char=36|end_char=43
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=36|end_char=40
+5	n't	not	PART	RB	_	4	_	_	start_char=40|end_char=43
+6	have	have	VERB	VB	VerbForm=Inf	5	_	_	start_char=44|end_char=48
+7	any	any	DET	DT	_	6	_	_	start_char=49|end_char=52
+8	kind	kind	NOUN	NN	Number=Sing	7	_	_	start_char=53|end_char=57
+9	of	of	ADP	IN	_	8	_	_	start_char=58|end_char=60
+10	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=61|end_char=67
+11	up	up	ADP	RP	_	10	_	_	start_char=68|end_char=70
+12	emotional	emotional	ADJ	JJ	Degree=Pos	11	_	_	start_char=71|end_char=80
+13	baggage	baggage	NOUN	NN	Number=Sing	12	_	_	start_char=81|end_char=88
+14	at	at	ADP	IN	_	13	_	_	start_char=89|end_char=91
+15	all	all	DET	DT	_	14	_	_	start_char=92|end_char=95
+16	AND	and	CCONJ	CC	_	15	_	_	start_char=96|end_char=99
+17-18	she'll	_	_	_	_	_	_	_	start_char=100|end_char=106
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=100|end_char=103
+18	'll	will	AUX	MD	VerbForm=Fin	17	_	_	start_char=103|end_char=106
+19	stay	stay	VERB	VB	VerbForm=Inf	18	_	_	start_char=107|end_char=111
+20	thin	thin	ADJ	JJ	Degree=Pos	19	_	_	start_char=112|end_char=116|SpaceAfter=No
+21	!	!	PUNCT	.	_	20	_	_	start_char=116|end_char=117
+
+# text = Better wife her up buddy!
+# sent_id = 122051
+1	Better	good	ADJ	JJR	Degree=Cmp	0	_	_	start_char=118|end_char=124
+2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=125|end_char=129
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=130|end_char=133
+4	up	up	ADP	RP	_	3	_	_	start_char=134|end_char=136
+5	buddy	buddy	NOUN	NN	Number=Sing	4	_	_	start_char=137|end_char=142|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=142|end_char=143
+
+# text = Put a ring on it quick!
+# sent_id = 122052
+1	Put	put	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=144|end_char=147
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=148|end_char=149
+3	ring	ring	NOUN	NN	Number=Sing	2	_	_	start_char=150|end_char=154
+4	on	on	ADP	IN	_	3	_	_	start_char=155|end_char=157
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=158|end_char=160
+6	quick	quick	ADV	RB	Degree=Pos	5	_	_	start_char=161|end_char=166|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=166|end_char=167|SpaceAfter=No
+

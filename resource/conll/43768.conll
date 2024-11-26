@@ -1,0 +1,43 @@
+# text = Yes, she will get 10000 matches and 100 will be chad.
+# sent_id = 93555
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=5|end_char=8
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=9|end_char=13
+5	get	get	VERB	VB	VerbForm=Inf	4	_	_	start_char=14|end_char=17
+6	10000	10000	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=18|end_char=23
+7	matches	match	NOUN	NNS	Number=Plur	6	_	_	start_char=24|end_char=31
+8	and	and	CCONJ	CC	_	7	_	_	start_char=32|end_char=35
+9	100	100	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=36|end_char=39
+10	will	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=40|end_char=44
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=45|end_char=47
+12	chad	chad	NOUN	NN	Number=Sing	11	_	_	start_char=48|end_char=52|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=52|end_char=53
+
+# text = I've seen girls Tinders.
+# sent_id = 93556
+1-2	I've	_	_	_	_	_	_	_	start_char=54|end_char=58
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=54|end_char=55
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=55|end_char=58
+3	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=59|end_char=63
+4	girls	girl	NOUN	NNS	Number=Plur	3	_	_	start_char=64|end_char=69
+5	Tinders	Tinder	PROPN	NNPS	Number=Plur	4	_	_	start_char=70|end_char=77|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=77|end_char=78
+
+# text = You on the other hand are probably pulling this out of your ass.
+# sent_id = 93557
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=79|end_char=82
+2	on	on	ADP	IN	_	1	_	_	start_char=83|end_char=85
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=86|end_char=89
+4	other	other	ADJ	JJ	Degree=Pos	3	_	_	start_char=90|end_char=95
+5	hand	hand	NOUN	NN	Number=Sing	4	_	_	start_char=96|end_char=100
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=101|end_char=104
+7	probably	probably	ADV	RB	_	6	_	_	start_char=105|end_char=113
+8	pulling	pull	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=114|end_char=121
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=122|end_char=126
+10	out	out	ADP	IN	_	9	_	_	start_char=127|end_char=130
+11	of	of	ADP	IN	_	10	_	_	start_char=131|end_char=133
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	_	_	start_char=134|end_char=138
+13	ass	ass	NOUN	NN	Number=Sing	12	_	_	start_char=139|end_char=142|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=142|end_char=143|SpaceAfter=No
+

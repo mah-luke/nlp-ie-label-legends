@@ -1,0 +1,37 @@
+# text = No.
+# sent_id = 50097
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=2|end_char=3
+
+# text = First my mom became a whore after dad left and was a huge bitch!
+# sent_id = 50098
+1	First	first	ADV	RB	NumType=Ord	0	_	_	start_char=4|end_char=9
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=10|end_char=12
+3	mom	mom	NOUN	NN	Number=Sing	2	_	_	start_char=13|end_char=16
+4	became	become	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=17|end_char=23
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=24|end_char=25
+6	whore	whore	NOUN	NN	Number=Sing	5	_	_	start_char=26|end_char=31
+7	after	after	SCONJ	IN	_	6	_	_	start_char=32|end_char=37
+8	dad	dad	NOUN	NN	Number=Sing	7	_	_	start_char=38|end_char=41
+9	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=42|end_char=46
+10	and	and	CCONJ	CC	_	9	_	_	start_char=47|end_char=50
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=51|end_char=54
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=55|end_char=56
+13	huge	huge	ADJ	JJ	Degree=Pos	12	_	_	start_char=57|end_char=61
+14	bitch	bitch	NOUN	NN	Number=Sing	13	_	_	start_char=62|end_char=67|SpaceAfter=No
+15	!	!	PUNCT	.	_	14	_	_	start_char=67|end_char=68
+
+# text = Oh god, why won't she love me?!
+# sent_id = 50099
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=69|end_char=71
+2	god	god	INTJ	UH	_	1	_	_	start_char=72|end_char=75|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=75|end_char=76
+4	why	why	ADV	WRB	PronType=Int	3	_	_	start_char=77|end_char=80
+5-6	won't	_	_	_	_	_	_	_	start_char=81|end_char=86
+5	wo	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=81|end_char=83
+6	n't	not	PART	RB	_	5	_	_	start_char=83|end_char=86
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=87|end_char=90
+8	love	love	VERB	VB	VerbForm=Inf	7	_	_	start_char=91|end_char=95
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=96|end_char=98|SpaceAfter=No
+10	?!	?!	PUNCT	.	_	9	_	_	start_char=98|end_char=100|SpaceAfter=No
+

@@ -1,0 +1,56 @@
+# text = It's legal for all blacks to rape and murder white girls in Durham, NC and Charlottesville, VA.
+# sent_id = 83346
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	legal	legal	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=10
+4	for	for	ADP	IN	_	3	_	_	start_char=11|end_char=14
+5	all	all	DET	DT	_	4	_	_	start_char=15|end_char=18
+6	blacks	black	NOUN	NNS	Number=Plur	5	_	_	start_char=19|end_char=25
+7	to	to	PART	TO	_	6	_	_	start_char=26|end_char=28
+8	rape	rape	VERB	VB	VerbForm=Inf	7	_	_	start_char=29|end_char=33
+9	and	and	CCONJ	CC	_	8	_	_	start_char=34|end_char=37
+10	murder	murder	VERB	VB	VerbForm=Inf	9	_	_	start_char=38|end_char=44
+11	white	white	ADJ	JJ	Degree=Pos	10	_	_	start_char=45|end_char=50
+12	girls	girl	NOUN	NNS	Number=Plur	11	_	_	start_char=51|end_char=56
+13	in	in	ADP	IN	_	12	_	_	start_char=57|end_char=59
+14	Durham	Durham	PROPN	NNP	Number=Sing	13	_	_	start_char=60|end_char=66|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=66|end_char=67
+16	NC	NC	PROPN	NNP	Number=Sing	15	_	_	start_char=68|end_char=70
+17	and	and	CCONJ	CC	_	16	_	_	start_char=71|end_char=74
+18	Charlottesville	Charlottesville	PROPN	NNP	Number=Sing	17	_	_	start_char=75|end_char=90|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=90|end_char=91
+20	VA	VA	PROPN	NNP	Number=Sing	19	_	_	start_char=92|end_char=94|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=94|end_char=95
+
+# text = Durham DA Roger Echols and Charlottesville Judge Robert Downer will make sure they all get off.
+# sent_id = 83347
+1	Durham	Durham	PROPN	NNP	Number=Sing	0	_	_	start_char=96|end_char=102
+2	DA	da	PROPN	NNP	Number=Sing	1	_	_	start_char=103|end_char=105
+3	Roger	Roger	PROPN	NNP	Number=Sing	2	_	_	start_char=106|end_char=111
+4	Echols	Echols	PROPN	NNP	Number=Sing	3	_	_	start_char=112|end_char=118
+5	and	and	CCONJ	CC	_	4	_	_	start_char=119|end_char=122
+6	Charlottesville	Charlottesville	PROPN	NNP	Number=Sing	5	_	_	start_char=123|end_char=138
+7	Judge	Judge	PROPN	NNP	Number=Sing	6	_	_	start_char=139|end_char=144
+8	Robert	Robert	PROPN	NNP	Number=Sing	7	_	_	start_char=145|end_char=151
+9	Downer	Downer	PROPN	NNP	Number=Sing	8	_	_	start_char=152|end_char=158
+10	will	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=159|end_char=163
+11	make	make	VERB	VB	VerbForm=Inf	10	_	_	start_char=164|end_char=168
+12	sure	sure	ADJ	JJ	Degree=Pos	11	_	_	start_char=169|end_char=173
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=174|end_char=178
+14	all	all	DET	DT	_	13	_	_	start_char=179|end_char=182
+15	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=183|end_char=186
+16	off	off	ADP	RP	_	15	_	_	start_char=187|end_char=190|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=190|end_char=191
+
+# text = [USER]‍ [USER]‍
+# sent_id = 83348
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=192|end_char=193|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=193|end_char=197|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=197|end_char=198|SpaceAfter=No
+4	‍	‍	PUNCT	:	_	3	_	_	start_char=198|end_char=199
+5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=200|end_char=201|SpaceAfter=No
+6	USER	user	NOUN	NN	Number=Sing	5	_	_	start_char=201|end_char=205|SpaceAfter=No
+7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=205|end_char=206|SpaceAfter=No
+8	‍	‍	PUNCT	.	_	7	_	_	start_char=206|end_char=207|SpaceAfter=No
+

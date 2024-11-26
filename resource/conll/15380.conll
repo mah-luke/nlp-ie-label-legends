@@ -1,0 +1,49 @@
+# text = well, i've seen those, and i understand.
+# sent_id = 32865
+1	well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3-4	i've	_	_	_	_	_	_	_	start_char=6|end_char=10
+3	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=7|end_char=10
+5	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=11|end_char=15
+6	those	that	PRON	DT	Number=Plur|PronType=Dem	5	_	_	start_char=16|end_char=21|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=21|end_char=22
+8	and	and	CCONJ	CC	_	7	_	_	start_char=23|end_char=26
+9	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=27|end_char=28
+10	understand	understand	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=29|end_char=39|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=39|end_char=40
+
+# text = donald duck doing a sieg heil is messed up absent context, and the japanese stereotypes were jarring.
+# sent_id = 32866
+1	donald	donald	NOUN	NN	Number=Sing	0	_	_	start_char=41|end_char=47
+2	duck	duck	NOUN	NN	Number=Sing	1	_	_	start_char=48|end_char=52
+3	doing	do	VERB	VBG	VerbForm=Ger	2	_	_	start_char=53|end_char=58
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=59|end_char=60
+5	sieg	sieg	PROPN	NNP	Number=Sing	4	_	_	start_char=61|end_char=65
+6	heil	heil	NOUN	NN	Number=Sing	5	_	_	start_char=66|end_char=70
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=71|end_char=73
+8	messed	mess	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=74|end_char=80
+9	up	up	ADP	RP	_	8	_	_	start_char=81|end_char=83
+10	absent	absent	ADJ	JJ	Degree=Pos	9	_	_	start_char=84|end_char=90
+11	context	context	NOUN	NN	Number=Sing	10	_	_	start_char=91|end_char=98|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=98|end_char=99
+13	and	and	CCONJ	CC	_	12	_	_	start_char=100|end_char=103
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=104|end_char=107
+15	japanese	Japanese	ADJ	JJ	Degree=Pos	14	_	_	start_char=108|end_char=116
+16	stereotypes	stereotype	NOUN	NNS	Number=Plur	15	_	_	start_char=117|end_char=128
+17	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=129|end_char=133
+18	jarring	jarring	ADJ	JJ	Degree=Pos	17	_	_	start_char=134|end_char=141|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=141|end_char=142
+
+# text = the nazi/skunk jokes held up pretty well
+# sent_id = 32867
+1	the	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=143|end_char=146
+2	nazi	nazi	PROPN	NNP	Number=Sing	1	_	_	start_char=147|end_char=151|SpaceAfter=No
+3	/	/	SYM	,	_	2	_	_	start_char=151|end_char=152|SpaceAfter=No
+4	skunk	skunk	NOUN	NN	Number=Sing	3	_	_	start_char=152|end_char=157
+5	jokes	joke	NOUN	NNS	Number=Plur	4	_	_	start_char=158|end_char=163
+6	held	hold	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=164|end_char=168
+7	up	up	ADP	RP	_	6	_	_	start_char=169|end_char=171
+8	pretty	pretty	ADV	RB	_	7	_	_	start_char=172|end_char=178
+9	well	well	ADV	RB	Degree=Pos	8	_	_	start_char=179|end_char=183|SpaceAfter=No
+

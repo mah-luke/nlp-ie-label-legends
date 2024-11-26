@@ -1,0 +1,44 @@
+# text = Everything she said is true.
+# sent_id = 111327
+1	Everything	everything	PRON	NN	Number=Sing|PronType=Tot	0	_	_	start_char=0|end_char=10
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=11|end_char=14
+3	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=15|end_char=19
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=20|end_char=22
+5	true	true	ADJ	JJ	Degree=Pos	4	_	_	start_char=23|end_char=27|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=27|end_char=28
+
+# text = The irony is that she'll be shouted down for not being critical enough of men, and for not publicly excoriating herself enough over her "white skin privilege"
+# sent_id = 111328
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=29|end_char=32
+2	irony	irony	NOUN	NN	Number=Sing	1	_	_	start_char=33|end_char=38
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=39|end_char=41
+4	that	that	SCONJ	IN	_	3	_	_	start_char=42|end_char=46
+5-6	she'll	_	_	_	_	_	_	_	start_char=47|end_char=53
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=47|end_char=50
+6	'll	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=50|end_char=53
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=54|end_char=56
+8	shouted	shout	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=57|end_char=64
+9	down	down	ADP	RP	_	8	_	_	start_char=65|end_char=69
+10	for	for	SCONJ	IN	_	9	_	_	start_char=70|end_char=73
+11	not	not	PART	RB	_	10	_	_	start_char=74|end_char=77
+12	being	be	AUX	VBG	VerbForm=Ger	11	_	_	start_char=78|end_char=83
+13	critical	critical	ADJ	JJ	Degree=Pos	12	_	_	start_char=84|end_char=92
+14	enough	enough	ADV	RB	_	13	_	_	start_char=93|end_char=99
+15	of	of	ADP	IN	_	14	_	_	start_char=100|end_char=102
+16	men	man	NOUN	NNS	Number=Plur	15	_	_	start_char=103|end_char=106|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=106|end_char=107
+18	and	and	CCONJ	CC	_	17	_	_	start_char=108|end_char=111
+19	for	for	SCONJ	IN	_	18	_	_	start_char=112|end_char=115
+20	not	not	PART	RB	_	19	_	_	start_char=116|end_char=119
+21	publicly	publicly	ADV	RB	_	20	_	_	start_char=120|end_char=128
+22	excoriating	excoriate	VERB	VBG	VerbForm=Ger	21	_	_	start_char=129|end_char=140
+23	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	22	_	_	start_char=141|end_char=148
+24	enough	enough	ADV	RB	_	23	_	_	start_char=149|end_char=155
+25	over	over	ADP	IN	_	24	_	_	start_char=156|end_char=160
+26	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	25	_	_	start_char=161|end_char=164
+27	"	"	PUNCT	``	_	26	_	_	start_char=165|end_char=166|SpaceAfter=No
+28	white	white	ADJ	JJ	Degree=Pos	27	_	_	start_char=166|end_char=171
+29	skin	skin	NOUN	NN	Number=Sing	28	_	_	start_char=172|end_char=176
+30	privilege	privilege	NOUN	NN	Number=Sing	29	_	_	start_char=177|end_char=186|SpaceAfter=No
+31	"	"	PUNCT	''	_	30	_	_	start_char=186|end_char=187|SpaceAfter=No
+

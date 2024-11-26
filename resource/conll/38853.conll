@@ -1,0 +1,56 @@
+# text = She killed her son!
+# sent_id = 83052
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=10
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=11|end_char=14
+4	son	son	NOUN	NN	Number=Sing	3	_	_	start_char=15|end_char=18|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=18|end_char=19
+
+# text = At 72 can you really blame him for wanting someone else to take care of her?
+# sent_id = 83053
+1	At	at	ADP	IN	_	0	_	_	start_char=20|end_char=22
+2	72	72	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=23|end_char=25
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=26|end_char=29
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=30|end_char=33
+5	really	really	ADV	RB	_	4	_	_	start_char=34|end_char=40
+6	blame	blame	VERB	VB	VerbForm=Inf	5	_	_	start_char=41|end_char=46
+7	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=47|end_char=50
+8	for	for	SCONJ	IN	_	7	_	_	start_char=51|end_char=54
+9	wanting	want	VERB	VBG	VerbForm=Ger	8	_	_	start_char=55|end_char=62
+10	someone	someone	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=63|end_char=70
+11	else	else	ADJ	JJ	Degree=Pos	10	_	_	start_char=71|end_char=75
+12	to	to	PART	TO	_	11	_	_	start_char=76|end_char=78
+13	take	take	VERB	VB	VerbForm=Inf	12	_	_	start_char=79|end_char=83
+14	care	care	NOUN	NN	Number=Sing	13	_	_	start_char=84|end_char=88
+15	of	of	ADP	IN	_	14	_	_	start_char=89|end_char=91
+16	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=92|end_char=95|SpaceAfter=No
+17	?	?	PUNCT	.	_	16	_	_	start_char=95|end_char=96
+
+# text = It's this kind of hate-filled psychopathic attitude women have towards men that makes me wonder how we survived this long!
+# sent_id = 83054
+1-2	It's	_	_	_	_	_	_	_	start_char=97|end_char=101
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=97|end_char=99
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=99|end_char=101
+3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=102|end_char=106
+4	kind	kind	NOUN	NN	Number=Sing	3	_	_	start_char=107|end_char=111
+5	of	of	ADP	IN	_	4	_	_	start_char=112|end_char=114
+6	hate	hate	NOUN	NN	Number=Sing	5	_	_	start_char=115|end_char=119|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	_	_	start_char=119|end_char=120|SpaceAfter=No
+8	filled	fill	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=120|end_char=126
+9	psychopathic	psychopathic	ADJ	JJ	Degree=Pos	8	_	_	start_char=127|end_char=139
+10	attitude	attitude	NOUN	NN	Number=Sing	9	_	_	start_char=140|end_char=148
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=149|end_char=154
+12	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=155|end_char=159
+13	towards	towards	ADP	IN	_	12	_	_	start_char=160|end_char=167
+14	men	man	NOUN	NNS	Number=Plur	13	_	_	start_char=168|end_char=171
+15	that	that	PRON	WDT	PronType=Rel	14	_	_	start_char=172|end_char=176
+16	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=177|end_char=182
+17	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=183|end_char=185
+18	wonder	wonder	VERB	VB	VerbForm=Inf	17	_	_	start_char=186|end_char=192
+19	how	how	ADV	WRB	PronType=Int	18	_	_	start_char=193|end_char=196
+20	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	19	_	_	start_char=197|end_char=199
+21	survived	survive	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	20	_	_	start_char=200|end_char=208
+22	this	this	DET	DT	Number=Sing|PronType=Dem	21	_	_	start_char=209|end_char=213
+23	long	long	ADV	RB	Degree=Pos	22	_	_	start_char=214|end_char=218|SpaceAfter=No
+24	!	!	PUNCT	.	_	23	_	_	start_char=218|end_char=219|SpaceAfter=No
+

@@ -1,0 +1,41 @@
+# text = I'm not defending this woman in any way.
+# sent_id = 116085
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	not	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	defending	defend	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=8|end_char=17
+5	this	this	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=18|end_char=22
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=28
+7	in	in	ADP	IN	_	6	_	_	start_char=29|end_char=31
+8	any	any	DET	DT	_	7	_	_	start_char=32|end_char=35
+9	way	way	NOUN	NN	Number=Sing	8	_	_	start_char=36|end_char=39|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=39|end_char=40
+
+# text = But why would her boyfriend force her to report to the police.
+# sent_id = 116086
+1	But	but	CCONJ	CC	_	0	_	_	start_char=41|end_char=44
+2	why	why	ADV	WRB	PronType=Int	1	_	_	start_char=45|end_char=48
+3	would	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=49|end_char=54
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=55|end_char=58
+5	boyfriend	boyfriend	NOUN	NN	Number=Sing	4	_	_	start_char=59|end_char=68
+6	force	force	VERB	VB	VerbForm=Inf	5	_	_	start_char=69|end_char=74
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=75|end_char=78
+8	to	to	PART	TO	_	7	_	_	start_char=79|end_char=81
+9	report	report	VERB	VB	VerbForm=Inf	8	_	_	start_char=82|end_char=88
+10	to	to	ADP	IN	_	9	_	_	start_char=89|end_char=91
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=92|end_char=95
+12	police	police	NOUN	NN	Number=Sing	11	_	_	start_char=96|end_char=102|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=102|end_char=103
+
+# text = That should be a person's choice
+# sent_id = 116087
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=104|end_char=108
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=109|end_char=115
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=116|end_char=118
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=119|end_char=120
+5-6	person's	_	_	_	_	_	_	_	start_char=121|end_char=129
+5	person	person	NOUN	NN	Number=Sing	4	_	_	start_char=121|end_char=127
+6	's	's	PART	POS	_	5	_	_	start_char=127|end_char=129
+7	choice	choice	NOUN	NN	Number=Sing	6	_	_	start_char=130|end_char=136|SpaceAfter=No
+

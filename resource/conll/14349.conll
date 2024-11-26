@@ -1,0 +1,19 @@
+# text = What a fucking cunt.
+# sent_id = 30618
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	fucking	fuck	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=14
+4	cunt	cunt	NOUN	NN	Number=Sing	3	_	_	start_char=15|end_char=19|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=19|end_char=20
+
+# text = Acting like she care about her husband.
+# sent_id = 30619
+1	Acting	Acting	VERB	VBG	VerbForm=Ger	0	_	_	start_char=21|end_char=27
+2	like	like	SCONJ	IN	_	1	_	_	start_char=28|end_char=32
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=33|end_char=36
+4	care	care	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=37|end_char=41
+5	about	about	ADP	IN	_	4	_	_	start_char=42|end_char=47
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=48|end_char=51
+7	husband	husband	NOUN	NN	Number=Sing	6	_	_	start_char=52|end_char=59|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=59|end_char=60|SpaceAfter=No
+

@@ -1,0 +1,49 @@
+# text = Please don't call me names...It would be as security, not WAR!
+# sent_id = 123675
+1	Please	please	INTJ	UH	_	0	_	_	start_char=0|end_char=6
+2-3	don't	_	_	_	_	_	_	_	start_char=7|end_char=12
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=7|end_char=9
+3	n't	not	PART	RB	_	2	_	_	start_char=9|end_char=12
+4	call	call	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=13|end_char=17
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=18|end_char=20
+6	names	name	NOUN	NNS	Number=Plur	5	_	_	start_char=21|end_char=26|SpaceAfter=No
+7	...	...	PUNCT	,	_	6	_	_	start_char=26|end_char=29|SpaceAfter=No
+8	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=29|end_char=31
+9	would	would	AUX	MD	VerbForm=Fin	8	_	_	start_char=32|end_char=37
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=38|end_char=40
+11	as	as	ADP	IN	_	10	_	_	start_char=41|end_char=43
+12	security	security	NOUN	NN	Number=Sing	11	_	_	start_char=44|end_char=52|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=52|end_char=53
+14	not	not	PART	RB	_	13	_	_	start_char=54|end_char=57
+15	WAR	war	NOUN	NN	Number=Sing	14	_	_	start_char=58|end_char=61|SpaceAfter=No
+16	!	!	PUNCT	.	_	15	_	_	start_char=61|end_char=62
+
+# text = No different than the Marines already at the WH...Keep it up, this nice girl will chew you up & spit you out...
+# sent_id = 123676
+1	No	no	DET	DT	_	0	_	_	start_char=63|end_char=65
+2	different	different	ADJ	JJ	Degree=Pos	1	_	_	start_char=66|end_char=75
+3	than	than	ADP	IN	_	2	_	_	start_char=76|end_char=80
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=81|end_char=84
+5	Marines	Marine	PROPN	NNPS	Number=Plur	4	_	_	start_char=85|end_char=92
+6	already	already	ADV	RB	_	5	_	_	start_char=93|end_char=100
+7	at	at	ADP	IN	_	6	_	_	start_char=101|end_char=103
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=104|end_char=107
+9	WH	wh	NOUN	NN	Number=Sing	8	_	_	start_char=108|end_char=110|SpaceAfter=No
+10	...	...	PUNCT	,	_	9	_	_	start_char=110|end_char=113|SpaceAfter=No
+11	Keep	keep	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	10	_	_	start_char=113|end_char=117
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=118|end_char=120
+13	up	up	ADP	RP	_	12	_	_	start_char=121|end_char=123|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=123|end_char=124
+15	this	this	DET	DT	Number=Sing|PronType=Dem	14	_	_	start_char=125|end_char=129
+16	nice	nice	ADJ	JJ	Degree=Pos	15	_	_	start_char=130|end_char=134
+17	girl	girl	NOUN	NN	Number=Sing	16	_	_	start_char=135|end_char=139
+18	will	will	AUX	MD	VerbForm=Fin	17	_	_	start_char=140|end_char=144
+19	chew	chew	VERB	VB	VerbForm=Inf	18	_	_	start_char=145|end_char=149
+20	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	19	_	_	start_char=150|end_char=153
+21	up	up	ADP	RP	_	20	_	_	start_char=154|end_char=156
+22	&	&	CCONJ	CC	_	21	_	_	start_char=157|end_char=158
+23	spit	spit	VERB	VB	VerbForm=Inf	22	_	_	start_char=159|end_char=163
+24	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	23	_	_	start_char=164|end_char=167
+25	out	out	ADP	RP	_	24	_	_	start_char=168|end_char=171|SpaceAfter=No
+26	...	...	PUNCT	.	_	25	_	_	start_char=171|end_char=174|SpaceAfter=No
+

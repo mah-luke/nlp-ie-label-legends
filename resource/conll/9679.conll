@@ -1,0 +1,44 @@
+# text = [USER] "What women think" no longer autocompletes.
+# sent_id = 20442
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+4	"	"	PUNCT	``	_	3	_	_	start_char=7|end_char=8|SpaceAfter=No
+5	What	what	DET	WDT	PronType=Int	4	_	_	start_char=8|end_char=12
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=13|end_char=18
+7	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=19|end_char=24|SpaceAfter=No
+8	"	"	PUNCT	``	_	7	_	_	start_char=24|end_char=25
+9	no	no	ADV	RB	_	8	_	_	start_char=26|end_char=28
+10	longer	long	ADV	RBR	Degree=Cmp	9	_	_	start_char=29|end_char=35
+11	autocompletes	autocomplete	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=36|end_char=49|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=49|end_char=50
+
+# text = "What men think" only autocompletes to "what men think about women".
+# sent_id = 20443
+1	"	"	PUNCT	``	_	0	_	_	start_char=51|end_char=52|SpaceAfter=No
+2	What	what	DET	WDT	PronType=Int	1	_	_	start_char=52|end_char=56
+3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=57|end_char=60
+4	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=61|end_char=66|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=66|end_char=67
+6	only	only	ADV	RB	_	5	_	_	start_char=68|end_char=72
+7	autocompletes	autocomplete	NOUN	NNS	Number=Plur	6	_	_	start_char=73|end_char=86
+8	to	to	ADP	IN	_	7	_	_	start_char=87|end_char=89
+9	"	"	PUNCT	``	_	8	_	_	start_char=90|end_char=91|SpaceAfter=No
+10	what	what	PRON	WP	PronType=Rel	9	_	_	start_char=91|end_char=95
+11	men	man	NOUN	NNS	Number=Plur	10	_	_	start_char=96|end_char=99
+12	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=100|end_char=105
+13	about	about	ADP	IN	_	12	_	_	start_char=106|end_char=111
+14	women	woman	NOUN	NNS	Number=Plur	13	_	_	start_char=112|end_char=117|SpaceAfter=No
+15	"	"	PUNCT	''	_	14	_	_	start_char=117|end_char=118|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=118|end_char=119
+
+# text = Google confirmed blue pill cucks again.
+# sent_id = 20444
+1	Google	Google	PROPN	NNP	Number=Sing	0	_	_	start_char=120|end_char=126
+2	confirmed	confirm	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=127|end_char=136
+3	blue	blue	ADJ	JJ	Degree=Pos	2	_	_	start_char=137|end_char=141
+4	pill	pill	NOUN	NN	Number=Sing	3	_	_	start_char=142|end_char=146
+5	cucks	cuck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=147|end_char=152
+6	again	again	ADV	RB	_	5	_	_	start_char=153|end_char=158|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=158|end_char=159|SpaceAfter=No
+

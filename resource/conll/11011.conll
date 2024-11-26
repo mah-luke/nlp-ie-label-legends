@@ -1,0 +1,63 @@
+# text = Russian Intelligence intercepted and leaked a 'value report' that 23 Beds were being prepared at a Federal Detention Center in Philadelphia for 'high profile Inmates' over the next month.
+# sent_id = 23302
+1	Russian	Russian	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=7
+2	Intelligence	Intelligence	PROPN	NNP	Number=Sing	1	_	_	start_char=8|end_char=20
+3	intercepted	intercept	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=21|end_char=32
+4	and	and	CCONJ	CC	_	3	_	_	start_char=33|end_char=36
+5	leaked	leak	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=37|end_char=43
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=44|end_char=45
+7	'	'	PUNCT	``	_	6	_	_	start_char=46|end_char=47|SpaceAfter=No
+8	value	value	NOUN	NN	Number=Sing	7	_	_	start_char=47|end_char=52
+9	report	report	NOUN	NN	Number=Sing	8	_	_	start_char=53|end_char=59|SpaceAfter=No
+10	'	'	PUNCT	''	_	9	_	_	start_char=59|end_char=60
+11	that	that	SCONJ	IN	_	10	_	_	start_char=61|end_char=65
+12	23	23	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=66|end_char=68
+13	Beds	bed	NOUN	NNS	Number=Plur	12	_	_	start_char=69|end_char=73
+14	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=74|end_char=78
+15	being	be	AUX	VBG	VerbForm=Ger	14	_	_	start_char=79|end_char=84
+16	prepared	prepare	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	_	_	start_char=85|end_char=93
+17	at	at	ADP	IN	_	16	_	_	start_char=94|end_char=96
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=97|end_char=98
+19	Federal	Federal	ADJ	NNP	Degree=Pos	18	_	_	start_char=99|end_char=106
+20	Detention	Detention	PROPN	NNP	Number=Sing	19	_	_	start_char=107|end_char=116
+21	Center	Center	PROPN	NNP	Number=Sing	20	_	_	start_char=117|end_char=123
+22	in	in	ADP	IN	_	21	_	_	start_char=124|end_char=126
+23	Philadelphia	Philadelphia	PROPN	NNP	Number=Sing	22	_	_	start_char=127|end_char=139
+24	for	for	ADP	IN	_	23	_	_	start_char=140|end_char=143
+25	'	'	PUNCT	``	_	24	_	_	start_char=144|end_char=145|SpaceAfter=No
+26	high	high	ADJ	JJ	Degree=Pos	25	_	_	start_char=145|end_char=149
+27	profile	profile	NOUN	NN	Number=Sing	26	_	_	start_char=150|end_char=157
+28	Inmates	inmate	NOUN	NNS	Number=Plur	27	_	_	start_char=158|end_char=165|SpaceAfter=No
+29	'	'	PUNCT	''	_	28	_	_	_
+30	over	over	ADP	IN	_	29	_	_	start_char=167|end_char=171
+31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	start_char=172|end_char=175
+32	next	next	ADJ	JJ	Degree=Pos	31	_	_	start_char=176|end_char=180
+33	month	month	NOUN	NN	Number=Sing	32	_	_	start_char=181|end_char=186|SpaceAfter=No
+34	.	.	PUNCT	.	_	33	_	_	start_char=186|end_char=187
+
+# text = [USER]
+# sent_id = 23303
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=188|end_char=189|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=189|end_char=193|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=193|end_char=194
+
+# text = Many take this to mean Hillary is one of them.
+# sent_id = 23304
+1	Many	many	ADJ	JJ	Degree=Pos	0	_	_	start_char=195|end_char=199
+2	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=200|end_char=204
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=205|end_char=209
+4	to	to	PART	TO	_	3	_	_	start_char=210|end_char=212
+5	mean	mean	VERB	VB	VerbForm=Inf	4	_	_	start_char=213|end_char=217
+6	Hillary	Hillary	PROPN	NNP	Number=Sing	5	_	_	start_char=218|end_char=225
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=226|end_char=228
+8	one	one	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=229|end_char=232
+9	of	of	ADP	IN	_	8	_	_	start_char=233|end_char=235
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=236|end_char=240|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=240|end_char=241
+
+# text = [URL]
+# sent_id = 23305
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=242|end_char=243|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=243|end_char=246|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=246|end_char=247|SpaceAfter=No
+

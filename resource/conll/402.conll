@@ -1,0 +1,21 @@
+# text = She’s nuts she needs to be locked up preferably
+# sent_id = 852
+1-2	She’s	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	nuts	nut	NOUN	NNS	Number=Plur	2	_	_	start_char=6|end_char=10
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=15|end_char=20
+6	to	to	PART	TO	_	5	_	_	start_char=21|end_char=23
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=24|end_char=26
+8	locked	lock	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=27|end_char=33
+9	up	up	ADP	RP	_	8	_	_	start_char=34|end_char=36
+10	preferably	preferably	ADV	RB	_	9	_	_	start_char=37|end_char=47
+
+# text = In a padded cell
+# sent_id = 853
+1	In	in	ADP	IN	_	0	_	_	start_char=48|end_char=50
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=51|end_char=52
+3	padded	pad	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=53|end_char=59
+4	cell	cell	NOUN	NN	Number=Sing	3	_	_	start_char=60|end_char=64|SpaceAfter=No
+

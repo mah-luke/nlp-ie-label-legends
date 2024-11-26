@@ -1,0 +1,64 @@
+# text = [URL] [URL]
+# sent_id = 124495
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=6|end_char=7|SpaceAfter=No
+5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=7|end_char=10|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=10|end_char=11
+
+# text = I actually like the style of the bra popping out of the top of the dress.
+# sent_id = 124496
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=12|end_char=13
+2	actually	actually	ADV	RB	_	1	_	_	start_char=14|end_char=22
+3	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=23|end_char=27
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=28|end_char=31
+5	style	style	NOUN	NN	Number=Sing	4	_	_	start_char=32|end_char=37
+6	of	of	ADP	IN	_	5	_	_	start_char=38|end_char=40
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=41|end_char=44
+8	bra	bra	NOUN	NN	Number=Sing	7	_	_	start_char=45|end_char=48
+9	popping	pop	VERB	VBG	VerbForm=Ger	8	_	_	start_char=49|end_char=56
+10	out	out	ADP	IN	_	9	_	_	start_char=57|end_char=60
+11	of	of	ADP	IN	_	10	_	_	start_char=61|end_char=63
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=64|end_char=67
+13	top	top	NOUN	NN	Number=Sing	12	_	_	start_char=68|end_char=71
+14	of	of	ADP	IN	_	13	_	_	start_char=72|end_char=74
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=75|end_char=78
+16	dress	dress	NOUN	NN	Number=Sing	15	_	_	start_char=79|end_char=84|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=84|end_char=85
+
+# text = It looks like it was constructed that way and accentuates her curves.
+# sent_id = 124497
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=86|end_char=88
+2	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=89|end_char=94
+3	like	like	SCONJ	IN	_	2	_	_	start_char=95|end_char=99
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=100|end_char=102
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=103|end_char=106
+6	constructed	construct	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=107|end_char=118
+7	that	that	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=119|end_char=123
+8	way	way	NOUN	NN	Number=Sing	7	_	_	start_char=124|end_char=127
+9	and	and	CCONJ	CC	_	8	_	_	start_char=128|end_char=131
+10	accentuates	accentuate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=132|end_char=143
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=144|end_char=147
+12	curves	curve	NOUN	NNS	Number=Plur	11	_	_	start_char=148|end_char=154|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=154|end_char=155
+
+# text = This dress is so vibrant and sexy--great for dancing!✨✨✨ #Beauty #GabMusic
+# sent_id = 124498
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=156|end_char=160
+2	dress	dress	NOUN	NN	Number=Sing	1	_	_	start_char=161|end_char=166
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=167|end_char=169
+4	so	so	ADV	RB	_	3	_	_	start_char=170|end_char=172
+5	vibrant	vibrant	ADJ	JJ	Degree=Pos	4	_	_	start_char=173|end_char=180
+6	and	and	CCONJ	CC	_	5	_	_	start_char=181|end_char=184
+7	sexy	sexy	ADJ	JJ	Degree=Pos	6	_	_	start_char=185|end_char=189|SpaceAfter=No
+8	--	--	PUNCT	,	_	7	_	_	start_char=189|end_char=191|SpaceAfter=No
+9	great	great	ADJ	JJ	Degree=Pos	8	_	_	start_char=191|end_char=196
+10	for	for	ADP	IN	_	9	_	_	start_char=197|end_char=200
+11	dancing	dancing	NOUN	NN	Number=Sing	10	_	_	start_char=201|end_char=208|SpaceAfter=No
+12	!✨✨✨	!✨✨✨	PUNCT	,	_	11	_	_	start_char=208|end_char=212
+13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=213|end_char=214|SpaceAfter=No
+14	Beauty	beauty	NOUN	NN	Number=Sing	13	_	_	start_char=214|end_char=220
+15	#	#	SYM	NN	Number=Sing	14	_	_	start_char=221|end_char=222|SpaceAfter=No
+16	GabMusic	GabMusic	PROPN	NNP	Number=Sing	15	_	_	start_char=222|end_char=230|SpaceAfter=No
+

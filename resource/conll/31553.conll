@@ -1,0 +1,24 @@
+# text = "Hurting and scared" and "strong women" don't jibe.
+# sent_id = 67630
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Hurting	hurt	VERB	VBG	VerbForm=Ger	1	_	_	start_char=1|end_char=8
+3	and	and	CCONJ	CC	_	2	_	_	start_char=9|end_char=12
+4	scared	scared	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=19|SpaceAfter=No
+5	"	"	PUNCT	''	_	4	_	_	start_char=19|end_char=20
+6	and	and	CCONJ	CC	_	5	_	_	start_char=21|end_char=24
+7	"	"	PUNCT	``	_	6	_	_	start_char=25|end_char=26|SpaceAfter=No
+8	strong	strong	ADJ	JJ	Degree=Pos	7	_	_	start_char=26|end_char=32
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=33|end_char=38|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=38|end_char=39
+11-12	don't	_	_	_	_	_	_	_	start_char=40|end_char=45
+11	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=40|end_char=42
+12	n't	not	PART	RB	_	11	_	_	start_char=42|end_char=45
+13	jibe	jibe	VERB	VB	VerbForm=Inf	12	_	_	start_char=46|end_char=50|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=50|end_char=51
+
+# text = [URL]
+# sent_id = 67631
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=52|end_char=53|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=53|end_char=56|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=56|end_char=57|SpaceAfter=No
+

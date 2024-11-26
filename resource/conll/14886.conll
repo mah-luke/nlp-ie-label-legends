@@ -1,0 +1,20 @@
+# text = ...but, she's STILL the future, right?
+# sent_id = 31782
+1	...	...	PUNCT	,	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	but	but	CCONJ	CC	_	1	_	_	start_char=3|end_char=6|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=6|end_char=7
+4-5	she's	_	_	_	_	_	_	_	start_char=8|end_char=13
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=8|end_char=11
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=11|end_char=13
+6	STILL	still	ADV	RB	_	5	_	_	start_char=14|end_char=19
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=20|end_char=23
+8	future	future	NOUN	NN	Number=Sing	7	_	_	start_char=24|end_char=30|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=30|end_char=31
+10	right	right	ADJ	JJ	Degree=Pos	9	_	_	start_char=32|end_char=37|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=37|end_char=38
+
+# text = Right??
+# sent_id = 31783
+1	Right	right	ADJ	JJ	Degree=Pos	0	_	_	start_char=39|end_char=44|SpaceAfter=No
+2	??	??	PUNCT	.	_	1	_	_	start_char=44|end_char=46|SpaceAfter=No
+

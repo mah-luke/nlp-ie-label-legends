@@ -1,0 +1,16 @@
+# text = fuck ten other women.
+# sent_id = 33774
+1	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	ten	ten	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=5|end_char=8
+3	other	other	ADJ	JJ	Degree=Pos	2	_	_	start_char=9|end_char=14
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=15|end_char=20|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=20|end_char=21
+
+# text = It's an expression
+# sent_id = 33775
+1-2	It's	_	_	_	_	_	_	_	start_char=22|end_char=26
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=22|end_char=24
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=24|end_char=26
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=27|end_char=29
+4	expression	expression	NOUN	NN	Number=Sing	3	_	_	start_char=30|end_char=40|SpaceAfter=No
+

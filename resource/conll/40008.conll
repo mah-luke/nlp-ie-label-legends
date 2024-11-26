@@ -1,0 +1,29 @@
+# text = Hillary Clinton says #FakeNews is dangerous?
+# sent_id = 85509
+1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
+2	Clinton	Clinton	PROPN	NNP	Number=Sing	1	_	_	start_char=8|end_char=15
+3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=16|end_char=20
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=21|end_char=22|SpaceAfter=No
+5	FakeNews	FakeNews	PROPN	NNP	Number=Sing	4	_	_	start_char=22|end_char=30
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=31|end_char=33
+7	dangerous	dangerous	ADJ	JJ	Degree=Pos	6	_	_	start_char=34|end_char=43|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=43|end_char=44
+
+# text = The lying idiot can't stop lying!
+# sent_id = 85510
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=45|end_char=48
+2	lying	lying	NOUN	NN	Number=Sing	1	_	_	start_char=49|end_char=54
+3	idiot	idiot	NOUN	NN	Number=Sing	2	_	_	start_char=55|end_char=60
+4-5	can't	_	_	_	_	_	_	_	start_char=61|end_char=66
+4	ca	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=61|end_char=63
+5	n't	not	PART	RB	_	4	_	_	start_char=63|end_char=66
+6	stop	stop	VERB	VB	VerbForm=Inf	5	_	_	start_char=67|end_char=71
+7	lying	lie	VERB	VBG	VerbForm=Ger	6	_	_	start_char=72|end_char=77|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=77|end_char=78
+
+# text = [URL]
+# sent_id = 85511
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=79|end_char=80|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=80|end_char=83|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=83|end_char=84|SpaceAfter=No
+

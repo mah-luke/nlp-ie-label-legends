@@ -1,0 +1,35 @@
+# text = My sister in law sat on my glasses and broke them.
+# sent_id = 90586
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	sister	sister	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=9
+3	in	in	ADP	IN	_	2	_	_	start_char=10|end_char=12
+4	law	law	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=16
+5	sat	sit	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=17|end_char=20
+6	on	on	ADP	IN	_	5	_	_	start_char=21|end_char=23
+7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=24|end_char=26
+8	glasses	glasses	NOUN	NNS	Number=Plur	7	_	_	start_char=27|end_char=34
+9	and	and	CCONJ	CC	_	8	_	_	start_char=35|end_char=38
+10	broke	break	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=39|end_char=44
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=45|end_char=49|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=49|end_char=50
+
+# text = I suppose it's my fault really, I should have taken them off first.
+# sent_id = 90587
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=51|end_char=52
+2	suppose	suppose	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=53|end_char=60
+3-4	it's	_	_	_	_	_	_	_	start_char=61|end_char=65
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=61|end_char=63
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=63|end_char=65
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=66|end_char=68
+6	fault	fault	NOUN	NN	Number=Sing	5	_	_	start_char=69|end_char=74
+7	really	really	ADV	RB	_	6	_	_	start_char=75|end_char=81|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=81|end_char=82
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=83|end_char=84
+10	should	should	AUX	MD	VerbForm=Fin	9	_	_	start_char=85|end_char=91
+11	have	have	AUX	VB	VerbForm=Inf	10	_	_	start_char=92|end_char=96
+12	taken	take	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=97|end_char=102
+13	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=103|end_char=107
+14	off	off	ADP	RP	_	13	_	_	start_char=108|end_char=111
+15	first	first	ADV	RB	NumType=Ord	14	_	_	start_char=112|end_char=117|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=117|end_char=118|SpaceAfter=No
+

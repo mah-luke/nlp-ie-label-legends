@@ -1,0 +1,35 @@
+# text = How to get over her?
+# sent_id = 71907
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	to	to	PART	TO	_	1	_	_	start_char=4|end_char=6
+3	get	get	VERB	VB	VerbForm=Inf	2	_	_	start_char=7|end_char=10
+4	over	over	ADP	IN	_	3	_	_	start_char=11|end_char=15
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=16|end_char=19|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = Easy, you meet someone new.
+# sent_id = 71908
+1	Easy	easy	ADJ	JJ	Degree=Pos	0	_	_	start_char=21|end_char=25|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=25|end_char=26
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=27|end_char=30
+4	meet	meet	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=31|end_char=35
+5	someone	someone	PRON	NN	Number=Sing|PronType=Ind	4	_	_	start_char=36|end_char=43
+6	new	new	ADJ	JJ	Degree=Pos	5	_	_	start_char=44|end_char=47|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=47|end_char=48
+
+# text = And read the sidebar so you dont keep getting oneitis.
+# sent_id = 71909
+1	And	and	CCONJ	CC	_	0	_	_	start_char=49|end_char=52
+2	read	read	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=53|end_char=57
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=58|end_char=61
+4	sidebar	sidebar	NOUN	NN	Number=Sing	3	_	_	start_char=62|end_char=69
+5	so	so	ADV	RB	_	4	_	_	start_char=70|end_char=72
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=73|end_char=76
+7-8	dont	_	_	_	_	_	_	_	start_char=77|end_char=81
+7	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=77|end_char=79
+8	nt	not	PART	RB	_	7	_	_	start_char=79|end_char=81
+9	keep	keep	VERB	VB	VerbForm=Inf	8	_	_	start_char=82|end_char=86
+10	getting	get	VERB	VBG	VerbForm=Ger	9	_	_	start_char=87|end_char=94
+11	oneitis	oneitis	NOUN	NNS	Number=Plur	10	_	_	start_char=95|end_char=102|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=102|end_char=103|SpaceAfter=No
+

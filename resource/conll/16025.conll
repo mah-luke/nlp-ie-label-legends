@@ -1,0 +1,29 @@
+# text = Just make it before hand and put it in the fridge.
+# sent_id = 34273
+1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2	make	make	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=12
+4	before	before	ADP	IN	_	3	_	_	start_char=13|end_char=19
+5	hand	hand	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=24
+6	and	and	CCONJ	CC	_	5	_	_	start_char=25|end_char=28
+7	put	put	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=29|end_char=32
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=33|end_char=35
+9	in	in	ADP	IN	_	8	_	_	start_char=36|end_char=38
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=39|end_char=42
+11	fridge	fridge	NOUN	NN	Number=Sing	10	_	_	start_char=43|end_char=49|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=49|end_char=50
+
+# text = Then drink it when you are home alone with her.
+# sent_id = 34274
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=51|end_char=55
+2	drink	drink	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=56|end_char=61
+3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=62|end_char=64
+4	when	when	ADV	WRB	PronType=Int	3	_	_	start_char=65|end_char=69
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=70|end_char=73
+6	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=74|end_char=77
+7	home	home	ADV	RB	_	6	_	_	start_char=78|end_char=82
+8	alone	alone	ADV	RB	_	7	_	_	start_char=83|end_char=88
+9	with	with	ADP	IN	_	8	_	_	start_char=89|end_char=93
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=94|end_char=97|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=97|end_char=98|SpaceAfter=No
+

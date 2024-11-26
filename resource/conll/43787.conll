@@ -1,0 +1,25 @@
+# text = No, they are only partly responsible!
+# sent_id = 93595
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=4|end_char=8
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=9|end_char=12
+5	only	only	ADV	RB	_	4	_	_	start_char=13|end_char=17
+6	partly	partly	ADV	RB	_	5	_	_	start_char=18|end_char=24
+7	responsible	responsible	ADJ	JJ	Degree=Pos	6	_	_	start_char=25|end_char=36|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=36|end_char=37
+
+# text = It is the MudSlimes who cannot be controlled!
+# sent_id = 93596
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=38|end_char=40
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=41|end_char=43
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=44|end_char=47
+4	MudSlimes	MudSlimes	PROPN	NNPS	Number=Plur	3	_	_	start_char=48|end_char=57
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=58|end_char=61
+6-7	cannot	_	_	_	_	_	_	_	start_char=62|end_char=68
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=62|end_char=65
+7	not	not	PART	RB	_	6	_	_	start_char=65|end_char=68
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=69|end_char=71
+9	controlled	control	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=72|end_char=82|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=82|end_char=83|SpaceAfter=No
+

@@ -1,0 +1,29 @@
+# text = Regardless of who's in the wrong, she opened with physical violence.
+# sent_id = 13275
+1	Regardless	regardless	ADV	RB	_	0	_	_	start_char=0|end_char=10
+2	of	of	ADP	IN	_	1	_	_	start_char=11|end_char=13
+3-4	who's	_	_	_	_	_	_	_	start_char=14|end_char=19
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=14|end_char=17
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=17|end_char=19
+5	in	in	ADP	IN	_	4	_	_	start_char=20|end_char=22
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=23|end_char=26
+7	wrong	wrong	ADJ	JJ	Degree=Pos	6	_	_	start_char=27|end_char=32|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=32|end_char=33
+9	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=34|end_char=37
+10	opened	open	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=38|end_char=44
+11	with	with	ADP	IN	_	10	_	_	start_char=45|end_char=49
+12	physical	physical	ADJ	JJ	Degree=Pos	11	_	_	start_char=50|end_char=58
+13	violence	violence	NOUN	NN	Number=Sing	12	_	_	start_char=59|end_char=67|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=67|end_char=68
+
+# text = Hit, and expect to be hit.
+# sent_id = 13276
+1	Hit	hit	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=69|end_char=72|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=72|end_char=73
+3	and	and	CCONJ	CC	_	2	_	_	start_char=74|end_char=77
+4	expect	expect	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=78|end_char=84
+5	to	to	PART	TO	_	4	_	_	start_char=85|end_char=87
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=88|end_char=90
+7	hit	hit	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=91|end_char=94|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=94|end_char=95|SpaceAfter=No
+

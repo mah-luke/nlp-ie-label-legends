@@ -1,0 +1,34 @@
+# text = She’s either an attention whore or she had a better option come along.
+# sent_id = 109695
+1-2	She’s	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	either	either	CCONJ	CC	_	2	_	_	start_char=6|end_char=12
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=13|end_char=15
+5	attention	attention	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=25
+6	whore	whore	NOUN	NN	Number=Sing	5	_	_	start_char=26|end_char=31
+7	or	or	CCONJ	CC	_	6	_	_	start_char=32|end_char=34
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=35|end_char=38
+9	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=39|end_char=42
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=43|end_char=44
+11	better	good	ADJ	JJR	Degree=Cmp	10	_	_	start_char=45|end_char=51
+12	option	option	NOUN	NN	Number=Sing	11	_	_	start_char=52|end_char=58
+13	come	come	VERB	VB	VerbForm=Inf	12	_	_	start_char=59|end_char=63
+14	along	along	ADV	RB	_	13	_	_	start_char=64|end_char=69|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=69|end_char=70
+
+# text = Don’t sweat it, there’s always more.
+# sent_id = 109696
+1-2	Don’t	_	_	_	_	_	_	_	start_char=71|end_char=76
+1	Do	do	AUX	VB	VerbForm=Fin	0	_	_	start_char=71|end_char=73
+2	n’t	not	PART	RB	_	1	_	_	start_char=73|end_char=76
+3	sweat	sweat	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=77|end_char=82
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=83|end_char=85|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=85|end_char=86
+6-7	there’s	_	_	_	_	_	_	_	start_char=87|end_char=94
+6	there	there	PRON	EX	_	5	_	_	start_char=87|end_char=92
+7	’s	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=92|end_char=94
+8	always	always	ADV	RB	_	7	_	_	start_char=95|end_char=101
+9	more	more	ADJ	JJR	Degree=Cmp	8	_	_	start_char=102|end_char=106|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=106|end_char=107|SpaceAfter=No
+

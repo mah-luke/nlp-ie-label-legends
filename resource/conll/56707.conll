@@ -1,0 +1,16 @@
+# text = He'll fuck her too.
+# sent_id = 121211
+1-2	He'll	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	fuck	fuck	VERB	VB	VerbForm=Inf	2	_	_	start_char=6|end_char=10
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	too	too	ADV	RB	_	4	_	_	start_char=15|end_char=18|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=18|end_char=19
+
+# text = Chads fuck anything
+# sent_id = 121212
+1	Chads	chad	NOUN	NNS	Number=Plur	0	_	_	start_char=20|end_char=25
+2	fuck	fuck	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=26|end_char=30
+3	anything	anything	PRON	NN	Number=Sing|PronType=Ind	2	_	_	start_char=31|end_char=39|SpaceAfter=No
+

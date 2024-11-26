@@ -1,0 +1,63 @@
+# text = [URL]
+# sent_id = 107867
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+
+# text = This woman got 45 months in #jail in the UK for death threats to PM Theresa May and others.
+# sent_id = 107868
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=6|end_char=10
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=16
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=17|end_char=20
+4	45	45	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=21|end_char=23
+5	months	month	NOUN	NNS	Number=Plur	4	_	_	start_char=24|end_char=30
+6	in	in	ADP	IN	_	5	_	_	start_char=31|end_char=33
+7	#jail	#jail	PROPN	NNP	Number=Sing	6	_	_	start_char=34|end_char=39
+8	in	in	ADP	IN	_	7	_	_	start_char=40|end_char=42
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=43|end_char=46
+10	UK	UK	PROPN	NNP	Number=Sing	9	_	_	start_char=47|end_char=49
+11	for	for	ADP	IN	_	10	_	_	start_char=50|end_char=53
+12	death	death	NOUN	NN	Number=Sing	11	_	_	start_char=54|end_char=59
+13	threats	threat	NOUN	NNS	Number=Plur	12	_	_	start_char=60|end_char=67
+14	to	to	ADP	IN	_	13	_	_	start_char=68|end_char=70
+15	PM	p.m.	NOUN	NN	Number=Sing	14	_	_	start_char=71|end_char=73
+16	Theresa	Theresa	PROPN	NNP	Number=Sing	15	_	_	start_char=74|end_char=81
+17	May	May	PROPN	NNP	Number=Sing	16	_	_	start_char=82|end_char=85
+18	and	and	CCONJ	CC	_	17	_	_	start_char=86|end_char=89
+19	others	other	NOUN	NNS	Number=Plur	18	_	_	start_char=90|end_char=96|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=96|end_char=97
+
+# text = So what should Kathy #Griffin get for what she did with the Donald #Trump head?
+# sent_id = 107869
+1	So	so	ADV	RB	_	0	_	_	start_char=98|end_char=100
+2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=101|end_char=105
+3	should	should	AUX	MD	VerbForm=Fin	2	_	_	start_char=106|end_char=112
+4	Kathy	Kathy	PROPN	NNP	Number=Sing	3	_	_	start_char=113|end_char=118
+5	#	#	SYM	SYM	Number=Sing	4	_	_	start_char=119|end_char=120|SpaceAfter=No
+6	Griffin	Griffin	PROPN	NNP	Number=Sing	5	_	_	start_char=120|end_char=127
+7	get	get	VERB	VB	VerbForm=Inf	6	_	_	start_char=128|end_char=131
+8	for	for	ADP	IN	_	7	_	_	start_char=132|end_char=135
+9	what	what	PRON	WP	PronType=Rel	8	_	_	start_char=136|end_char=140
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=141|end_char=144
+11	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=145|end_char=148
+12	with	with	ADP	IN	_	11	_	_	start_char=149|end_char=153
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=154|end_char=157
+14	Donald	Donald	PROPN	NNP	Number=Sing	13	_	_	start_char=158|end_char=164
+15	#	#	SYM	NN	Number=Sing	14	_	_	start_char=165|end_char=166|SpaceAfter=No
+16	Trump	Trump	PROPN	NNP	Number=Sing	15	_	_	start_char=166|end_char=171
+17	head	head	NOUN	NN	Number=Sing	16	_	_	start_char=172|end_char=176|SpaceAfter=No
+18	?	?	PUNCT	.	_	17	_	_	start_char=176|end_char=177
+
+# text = A very vile woman.
+# sent_id = 107870
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=178|end_char=179
+2	very	very	ADV	RB	_	1	_	_	start_char=180|end_char=184
+3	vile	vile	ADJ	JJ	Degree=Pos	2	_	_	start_char=185|end_char=189
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=190|end_char=195|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=195|end_char=196
+
+# text = #TheresaMay
+# sent_id = 107871
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=197|end_char=198|SpaceAfter=No
+2	TheresaMay	TheresaMay	PROPN	NNP	Number=Sing	1	_	_	start_char=198|end_char=208|SpaceAfter=No
+

@@ -1,0 +1,69 @@
+# text = "Baby's in the cradle, Brother's on the town.
+# sent_id = 18198
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2-3	Baby's	_	_	_	_	_	_	_	start_char=1|end_char=7
+2	Baby	baby	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5
+3	's	's	PART	POS	_	2	_	_	start_char=5|end_char=7
+4	in	in	ADP	IN	_	3	_	_	start_char=8|end_char=10
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=11|end_char=14
+6	cradle	cradle	NOUN	NN	Number=Sing	5	_	_	start_char=15|end_char=21|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=21|end_char=22
+8-9	Brother's	_	_	_	_	_	_	_	start_char=23|end_char=32
+8	Brother	brother	NOUN	NN	Number=Sing	7	_	_	start_char=23|end_char=30
+9	's	's	PART	POS	_	8	_	_	start_char=30|end_char=32
+10	on	on	ADP	IN	_	9	_	_	start_char=33|end_char=35
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=36|end_char=39
+12	town	town	NOUN	NN	Number=Sing	11	_	_	start_char=40|end_char=44|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=44|end_char=45
+
+# text = Sister's in the parlor, trying on a gown.
+# sent_id = 18199
+1-2	Sister's	_	_	_	_	_	_	_	start_char=46|end_char=54
+1	Sister	Sister	PROPN	NNP	Number=Sing	0	_	_	start_char=46|end_char=52
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=52|end_char=54
+3	in	in	ADP	IN	_	2	_	_	start_char=55|end_char=57
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=58|end_char=61
+5	parlor	parlor	NOUN	NN	Number=Sing	4	_	_	start_char=62|end_char=68|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=68|end_char=69
+7	trying	try	VERB	VBG	VerbForm=Ger	6	_	_	start_char=70|end_char=76
+8	on	on	ADP	IN	_	7	_	_	start_char=77|end_char=79
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=80|end_char=81
+10	gown	gown	NOUN	NN	Number=Sing	9	_	_	start_char=82|end_char=86|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=86|end_char=87
+
+# text = Mama's in the kitchen, messin' all around.
+# sent_id = 18200
+1-2	Mama's	_	_	_	_	_	_	_	start_char=88|end_char=94
+1	Mama	mama	NOUN	NN	Number=Sing	0	_	_	start_char=88|end_char=92
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=92|end_char=94
+3	in	in	ADP	IN	_	2	_	_	start_char=95|end_char=97
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=98|end_char=101
+5	kitchen	kitchen	NOUN	NN	Number=Sing	4	_	_	start_char=102|end_char=109|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=109|end_char=110
+7	messin	messin	NOUN	NN	Number=Sing	6	_	_	start_char=111|end_char=117|SpaceAfter=No
+8	'	'	PUNCT	''	_	7	_	_	start_char=117|end_char=118
+9	all	all	ADV	RB	_	8	_	_	start_char=119|end_char=122
+10	around	around	ADV	RB	_	9	_	_	start_char=123|end_char=129|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=129|end_char=130
+
+# text = Papa's on the housetop and won't come down." 😂 [URL]
+# sent_id = 18201
+1-2	Papa's	_	_	_	_	_	_	_	start_char=131|end_char=137
+1	Papa	Papa	PROPN	NNP	Number=Sing	0	_	_	start_char=131|end_char=135
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=135|end_char=137
+3	on	on	ADP	IN	_	2	_	_	start_char=138|end_char=140
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=141|end_char=144
+5	housetop	housetop	NOUN	NN	Number=Sing	4	_	_	start_char=145|end_char=153
+6	and	and	CCONJ	CC	_	5	_	_	start_char=154|end_char=157
+7-8	won't	_	_	_	_	_	_	_	start_char=158|end_char=163
+7	wo	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=158|end_char=160
+8	n't	not	PART	RB	_	7	_	_	start_char=160|end_char=163
+9	come	come	VERB	VB	VerbForm=Inf	8	_	_	start_char=164|end_char=168
+10	down	down	ADV	RB	_	9	_	_	start_char=169|end_char=173|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=173|end_char=174|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=174|end_char=175
+13	😂	😂	PUNCT	``	_	12	_	_	start_char=176|end_char=177
+14	[	[	PUNCT	-LRB-	_	13	_	_	start_char=178|end_char=179|SpaceAfter=No
+15	URL	URL	PROPN	NNP	Number=Sing	14	_	_	start_char=179|end_char=182|SpaceAfter=No
+16	]	]	PUNCT	-RRB-	_	15	_	_	start_char=182|end_char=183|SpaceAfter=No
+

@@ -1,0 +1,60 @@
+# text = It's really sad actually, I've heard about his girl.
+# sent_id = 57090
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	really	really	ADV	RB	_	2	_	_	start_char=5|end_char=11
+4	sad	sad	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=15
+5	actually	actually	ADV	RB	_	4	_	_	start_char=16|end_char=24|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=24|end_char=25
+7-8	I've	_	_	_	_	_	_	_	start_char=26|end_char=30
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=26|end_char=27
+8	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=27|end_char=30
+9	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=31|end_char=36
+10	about	about	ADP	IN	_	9	_	_	start_char=37|end_char=42
+11	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=43|end_char=46
+12	girl	girl	NOUN	NN	Number=Sing	11	_	_	start_char=47|end_char=51|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=51|end_char=52
+
+# text = Poor guy.
+# sent_id = 57091
+1	Poor	poor	ADJ	JJ	Degree=Pos	0	_	_	start_char=53|end_char=57
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=58|end_char=61|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=61|end_char=62
+
+# text = Shame Patrice isn't around to keep Bill in check.
+# sent_id = 57092
+1	Shame	shame	NOUN	NN	Number=Sing	0	_	_	start_char=63|end_char=68
+2	Patrice	Patrice	PROPN	NNP	Number=Sing	1	_	_	start_char=69|end_char=76
+3-4	isn't	_	_	_	_	_	_	_	start_char=77|end_char=82
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=77|end_char=79
+4	n't	not	PART	RB	_	3	_	_	start_char=79|end_char=82
+5	around	around	ADV	RB	_	4	_	_	start_char=83|end_char=89
+6	to	to	PART	TO	_	5	_	_	start_char=90|end_char=92
+7	keep	keep	VERB	VB	VerbForm=Inf	6	_	_	start_char=93|end_char=97
+8	Bill	Bill	PROPN	NNP	Number=Sing	7	_	_	start_char=98|end_char=102
+9	in	in	ADP	IN	_	8	_	_	start_char=103|end_char=105
+10	check	check	NOUN	NN	Number=Sing	9	_	_	start_char=106|end_char=111|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=111|end_char=112
+
+# text = Fuck i'm sad Patrice passed away, he was too funny and he was real.
+# sent_id = 57093
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=113|end_char=117
+2-3	i'm	_	_	_	_	_	_	_	start_char=118|end_char=121
+2	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=118|end_char=119
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=119|end_char=121
+4	sad	sad	ADJ	JJ	Degree=Pos	3	_	_	start_char=122|end_char=125
+5	Patrice	Patrice	PROPN	NNP	Number=Sing	4	_	_	start_char=126|end_char=133
+6	passed	pass	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=134|end_char=140
+7	away	away	ADV	RB	_	6	_	_	start_char=141|end_char=145|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=145|end_char=146
+9	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=147|end_char=149
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=150|end_char=153
+11	too	too	ADV	RB	_	10	_	_	start_char=154|end_char=157
+12	funny	funny	ADJ	JJ	Degree=Pos	11	_	_	start_char=158|end_char=163
+13	and	and	CCONJ	CC	_	12	_	_	start_char=164|end_char=167
+14	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=168|end_char=170
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=171|end_char=174
+16	real	real	ADJ	JJ	Degree=Pos	15	_	_	start_char=175|end_char=179|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=179|end_char=180|SpaceAfter=No
+

@@ -1,0 +1,26 @@
+# text = "She" is a woman?
+# sent_id = 88839
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	"	"	PUNCT	''	_	2	_	_	start_char=4|end_char=5
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=6|end_char=8
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=9|end_char=10
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=11|end_char=16|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=16|end_char=17
+
+# text = Could have fooled me.
+# sent_id = 88840
+1	Could	could	AUX	MD	VerbForm=Fin	0	_	_	start_char=18|end_char=23
+2	have	have	AUX	VB	VerbForm=Inf	1	_	_	start_char=24|end_char=28
+3	fooled	fool	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=29|end_char=35
+4	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=36|end_char=38|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=38|end_char=39
+
+# text = Anyway obviously a moron!
+# sent_id = 88841
+1	Anyway	anyway	INTJ	UH	_	0	_	_	start_char=40|end_char=46
+2	obviously	obviously	ADV	RB	_	1	_	_	start_char=47|end_char=56
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=57|end_char=58
+4	moron	moron	NOUN	NN	Number=Sing	3	_	_	start_char=59|end_char=64|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=64|end_char=65|SpaceAfter=No
+

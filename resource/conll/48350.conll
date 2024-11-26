@@ -1,0 +1,38 @@
+# text = What the fuck.
+# sent_id = 103370
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=5|end_char=8
+3	fuck	fuck	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=13|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=13|end_char=14
+
+# text = Host it on an actual image hoster instead of this fucking shit.
+# sent_id = 103371
+1	Host	host	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=15|end_char=19
+2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=20|end_char=22
+3	on	on	ADP	IN	_	2	_	_	start_char=23|end_char=25
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=26|end_char=28
+5	actual	actual	ADJ	JJ	Degree=Pos	4	_	_	start_char=29|end_char=35
+6	image	image	NOUN	NN	Number=Sing	5	_	_	start_char=36|end_char=41
+7	hoster	hoster	NOUN	NN	Number=Sing	6	_	_	start_char=42|end_char=48
+8	instead	instead	ADV	RB	_	7	_	_	start_char=49|end_char=56
+9	of	of	ADP	IN	_	8	_	_	start_char=57|end_char=59
+10	this	this	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=60|end_char=64
+11	fucking	fuck	ADJ	JJ	Degree=Pos	10	_	_	start_char=65|end_char=72
+12	shit	shit	NOUN	NN	Number=Sing	11	_	_	start_char=73|end_char=77|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=77|end_char=78
+
+# text = Ffs god dammit.
+# sent_id = 103372
+1	Ffs	ffs	INTJ	UH	_	0	_	_	start_char=79|end_char=82
+2	god	god	NOUN	NN	Number=Sing	1	_	_	start_char=83|end_char=86
+3	dammit	dammit	NOUN	NN	Number=Sing	2	_	_	start_char=87|end_char=93|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=93|end_char=94
+
+# text = I hate my life.
+# sent_id = 103373
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=95|end_char=96
+2	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=97|end_char=101
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=102|end_char=104
+4	life	life	NOUN	NN	Number=Sing	3	_	_	start_char=105|end_char=109|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=109|end_char=110|SpaceAfter=No
+

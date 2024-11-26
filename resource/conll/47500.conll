@@ -1,0 +1,81 @@
+# text = Silly.
+# sent_id = 101488
+1	Silly	silly	INTJ	UH	_	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=5|end_char=6
+
+# text = And Ignorant of History, too.
+# sent_id = 101489
+1	And	and	CCONJ	CC	_	0	_	_	start_char=7|end_char=10
+2	Ignorant	Ignorant	PROPN	NNP	Number=Sing	1	_	_	start_char=11|end_char=19
+3	of	of	ADP	IN	_	2	_	_	start_char=20|end_char=22
+4	History	History	PROPN	NNP	Number=Sing	3	_	_	start_char=23|end_char=30|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=30|end_char=31
+6	too	too	ADV	RB	_	5	_	_	start_char=32|end_char=35|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=35|end_char=36
+
+# text = [URL]
+# sent_id = 101490
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=37|end_char=38|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=38|end_char=41|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=41|end_char=42
+
+# text = These are the most true-to-the original scriptures Jews on the planet.
+# sent_id = 101491
+1	These	this	PRON	DT	Number=Plur|PronType=Dem	0	_	_	start_char=43|end_char=48
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=49|end_char=52
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=53|end_char=56
+4	most	most	ADV	RBS	Degree=Sup	3	_	_	start_char=57|end_char=61
+5	true	true	ADJ	JJ	Degree=Pos	4	_	_	start_char=62|end_char=66|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=66|end_char=67|SpaceAfter=No
+7	to	to	ADP	IN	_	6	_	_	start_char=67|end_char=69|SpaceAfter=No
+8	-	-	PUNCT	HYPH	_	7	_	_	start_char=69|end_char=70|SpaceAfter=No
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=70|end_char=73
+10	original	original	ADJ	JJ	Degree=Pos	9	_	_	start_char=74|end_char=82
+11	scriptures	scripture	NOUN	NNS	Number=Plur	10	_	_	start_char=83|end_char=93
+12	Jews	Jew	PROPN	NNPS	Number=Plur	11	_	_	start_char=94|end_char=98
+13	on	on	ADP	IN	_	12	_	_	start_char=99|end_char=101
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=102|end_char=105
+15	planet	planet	NOUN	NN	Number=Sing	14	_	_	start_char=106|end_char=112|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=112|end_char=113
+
+# text = For example: They do allow Chicken in cream sauce.
+# sent_id = 101492
+1	For	for	ADP	IN	_	0	_	_	start_char=114|end_char=117
+2	example	example	NOUN	NN	Number=Sing	1	_	_	start_char=118|end_char=125|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=125|end_char=126
+4	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=127|end_char=131
+5	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=132|end_char=134
+6	allow	allow	VERB	VB	VerbForm=Inf	5	_	_	start_char=135|end_char=140
+7	Chicken	chicken	NOUN	NN	Number=Sing	6	_	_	start_char=141|end_char=148
+8	in	in	ADP	IN	_	7	_	_	start_char=149|end_char=151
+9	cream	cream	NOUN	NN	Number=Sing	8	_	_	start_char=152|end_char=157
+10	sauce	sauce	NOUN	NN	Number=Sing	9	_	_	start_char=158|end_char=163|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=163|end_char=164
+
+# text = Chickens don't suckle.
+# sent_id = 101493
+1	Chickens	chicken	NOUN	NNS	Number=Plur	0	_	_	start_char=165|end_char=173
+2-3	don't	_	_	_	_	_	_	_	start_char=174|end_char=179
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=174|end_char=176
+3	n't	not	PART	RB	_	2	_	_	start_char=176|end_char=179
+4	suckle	suckle	VERB	VB	VerbForm=Inf	3	_	_	start_char=180|end_char=186|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=186|end_char=187
+
+# text = So it could never be it's "mother's milk."
+# sent_id = 101494
+1	So	so	ADV	RB	_	0	_	_	start_char=188|end_char=190
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=191|end_char=193
+3	could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=194|end_char=199
+4	never	never	ADV	RB	_	3	_	_	start_char=200|end_char=205
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=206|end_char=208
+6-7	it's	_	_	_	_	_	_	_	start_char=209|end_char=213
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=209|end_char=211
+7	's	's	PART	POS	_	6	_	_	start_char=211|end_char=213
+8	"	"	PUNCT	``	_	7	_	_	start_char=214|end_char=215|SpaceAfter=No
+9-10	mother's	_	_	_	_	_	_	_	start_char=215|end_char=223
+9	mother	mother	NOUN	NN	Number=Sing	8	_	_	start_char=215|end_char=221
+10	's	's	PART	POS	_	9	_	_	start_char=221|end_char=223
+11	milk	milk	NOUN	NN	Number=Sing	10	_	_	start_char=224|end_char=228|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=228|end_char=229|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=229|end_char=230|SpaceAfter=No
+

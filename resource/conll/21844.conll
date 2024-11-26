@@ -1,0 +1,63 @@
+# text = Not sure it does discourage them.
+# sent_id = 46915
+1	Not	not	PART	RB	_	0	_	_	start_char=0|end_char=3
+2	sure	sure	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=8
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=11
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=12|end_char=16
+5	discourage	discourage	VERB	VB	VerbForm=Inf	4	_	_	start_char=17|end_char=27
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=28|end_char=32|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=32|end_char=33
+
+# text = Look at Ann Counter.
+# sent_id = 46916
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=34|end_char=38
+2	at	at	ADP	IN	_	1	_	_	start_char=39|end_char=41
+3	Ann	Ann	PROPN	NNP	Number=Sing	2	_	_	start_char=42|end_char=45
+4	Counter	Counter	PROPN	NNP	Number=Sing	3	_	_	start_char=46|end_char=53|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=53|end_char=54
+
+# text = Their hate is the wind beneath her wings, but they can't help it.
+# sent_id = 46917
+1	Their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=55|end_char=60
+2	hate	hate	NOUN	NN	Number=Sing	1	_	_	start_char=61|end_char=65
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=66|end_char=68
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=69|end_char=72
+5	wind	wind	NOUN	NN	Number=Sing	4	_	_	start_char=73|end_char=77
+6	beneath	beneath	ADP	IN	_	5	_	_	start_char=78|end_char=85
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=86|end_char=89
+8	wings	wing	NOUN	NNS	Number=Plur	7	_	_	start_char=90|end_char=95|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=95|end_char=96
+10	but	but	CCONJ	CC	_	9	_	_	start_char=97|end_char=100
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=101|end_char=105
+12-13	can't	_	_	_	_	_	_	_	start_char=106|end_char=111
+12	ca	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=106|end_char=108
+13	n't	not	PART	RB	_	12	_	_	start_char=108|end_char=111
+14	help	help	VERB	VB	VerbForm=Inf	13	_	_	start_char=112|end_char=116
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=117|end_char=119|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=119|end_char=120
+
+# text = But yes, you need money so people get paid to write, instead of fired from their job at Chipotle.
+# sent_id = 46918
+1	But	but	CCONJ	CC	_	0	_	_	start_char=121|end_char=124
+2	yes	yes	INTJ	UH	_	1	_	_	start_char=125|end_char=128|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=128|end_char=129
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=130|end_char=133
+5	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=134|end_char=138
+6	money	money	NOUN	NN	Number=Sing	5	_	_	start_char=139|end_char=144
+7	so	so	SCONJ	IN	_	6	_	_	start_char=145|end_char=147
+8	people	person	NOUN	NNS	Number=Plur	7	_	_	start_char=148|end_char=154
+9	get	get	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=155|end_char=158
+10	paid	pay	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=159|end_char=163
+11	to	to	PART	TO	_	10	_	_	start_char=164|end_char=166
+12	write	write	VERB	VB	VerbForm=Inf	11	_	_	start_char=167|end_char=172|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=172|end_char=173
+14	instead	instead	ADV	RB	_	13	_	_	start_char=174|end_char=181
+15	of	of	ADP	IN	_	14	_	_	start_char=182|end_char=184
+16	fired	fire	VERB	VBN	Tense=Past|VerbForm=Part	15	_	_	start_char=185|end_char=190
+17	from	from	ADP	IN	_	16	_	_	start_char=191|end_char=195
+18	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=196|end_char=201
+19	job	job	NOUN	NN	Number=Sing	18	_	_	start_char=202|end_char=205
+20	at	at	ADP	IN	_	19	_	_	start_char=206|end_char=208
+21	Chipotle	Chipotle	PROPN	NNP	Number=Sing	20	_	_	start_char=209|end_char=217|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=217|end_char=218|SpaceAfter=No
+

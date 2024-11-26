@@ -1,0 +1,33 @@
+# text = He could have scored but waved off
+# sent_id = 62121
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=3|end_char=8
+3	have	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=9|end_char=13
+4	scored	score	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=14|end_char=20
+5	but	but	CCONJ	CC	_	4	_	_	start_char=21|end_char=24
+6	waved	wave	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=25|end_char=30
+7	off	off	ADP	RP	_	6	_	_	start_char=31|end_char=34
+
+# text = He didn’t wave her off, HE BOUGHT HER DINNER.
+# sent_id = 62122
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=35|end_char=37
+2-3	didn’t	_	_	_	_	_	_	_	start_char=38|end_char=44
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=38|end_char=41
+3	n’t	not	PART	RB	_	2	_	_	start_char=41|end_char=44
+4	wave	wave	VERB	VB	VerbForm=Inf	3	_	_	start_char=45|end_char=49
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=50|end_char=53
+6	off	off	ADP	RP	_	5	_	_	start_char=54|end_char=57|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=57|end_char=58
+8	HE	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=59|end_char=61
+9	BOUGHT	bought	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=62|end_char=68
+10	HER	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=69|end_char=72
+11	DINNER	dinner	NOUN	NN	Number=Sing	10	_	_	start_char=73|end_char=79|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=79|end_char=80
+
+# text = Get a clue.
+# sent_id = 62123
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=81|end_char=84
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=85|end_char=86
+3	clue	clue	NOUN	NN	Number=Sing	2	_	_	start_char=87|end_char=91|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=91|end_char=92|SpaceAfter=No
+

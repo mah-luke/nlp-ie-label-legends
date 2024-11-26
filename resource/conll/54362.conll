@@ -1,0 +1,25 @@
+# text = Look, something we don't agree with.
+# sent_id = 116218
+1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	something	something	PRON	NN	Number=Sing|PronType=Ind	2	_	_	start_char=6|end_char=15
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=16|end_char=18
+5-6	don't	_	_	_	_	_	_	_	start_char=19|end_char=24
+5	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=19|end_char=21
+6	n't	not	PART	RB	_	5	_	_	start_char=21|end_char=24
+7	agree	agree	VERB	VB	VerbForm=Inf	6	_	_	start_char=25|end_char=30
+8	with	with	ADP	IN	_	7	_	_	start_char=31|end_char=35|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = Let's beat it into the ground!
+# sent_id = 116219
+1-2	Let's	_	_	_	_	_	_	_	start_char=37|end_char=42
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=37|end_char=40
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=40|end_char=42
+3	beat	beat	VERB	VB	VerbForm=Inf	2	_	_	start_char=43|end_char=47
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=48|end_char=50
+5	into	into	ADP	IN	_	4	_	_	start_char=51|end_char=55
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=56|end_char=59
+7	ground	ground	NOUN	NN	Number=Sing	6	_	_	start_char=60|end_char=66|SpaceAfter=No
+8	!	!	PUNCT	.	_	7	_	_	start_char=66|end_char=67|SpaceAfter=No
+

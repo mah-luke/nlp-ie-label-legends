@@ -1,0 +1,54 @@
+# text = That’s interesting, I suppose they do account for that, providing it’s okay with the woman.
+# sent_id = 30267
+1-2	That’s	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	interesting	interesting	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=18|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=18|end_char=19
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=20|end_char=21
+6	suppose	suppose	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=22|end_char=29
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=30|end_char=34
+8	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=35|end_char=37
+9	account	account	VERB	VB	VerbForm=Inf	8	_	_	start_char=38|end_char=45
+10	for	for	ADP	IN	_	9	_	_	start_char=46|end_char=49
+11	that	that	PRON	DT	Number=Sing|PronType=Dem	10	_	_	start_char=50|end_char=54|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=54|end_char=55
+13	providing	provide	VERB	VBG	VerbForm=Ger	12	_	_	start_char=56|end_char=65
+14-15	it’s	_	_	_	_	_	_	_	start_char=66|end_char=70
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=66|end_char=68
+15	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=68|end_char=70
+16	okay	okay	ADJ	JJ	Degree=Pos	15	_	_	start_char=71|end_char=75
+17	with	with	ADP	IN	_	16	_	_	start_char=76|end_char=80
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=81|end_char=84
+19	woman	woman	NOUN	NN	Number=Sing	18	_	_	start_char=85|end_char=90|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=90|end_char=91
+
+# text = More often than not, though, the woman’s lawyers will convince her otherwise and then the cheating is thrown out the window.
+# sent_id = 30268
+1	More	more	ADV	RBR	Degree=Cmp	0	_	_	start_char=92|end_char=96
+2	often	often	ADV	RB	Degree=Pos	1	_	_	start_char=97|end_char=102
+3	than	than	ADP	IN	_	2	_	_	start_char=103|end_char=107
+4	not	not	PART	RB	_	3	_	_	start_char=108|end_char=111|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=111|end_char=112
+6	though	though	ADV	RB	_	5	_	_	start_char=113|end_char=119|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=119|end_char=120
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=121|end_char=124
+9-10	woman’s	_	_	_	_	_	_	_	start_char=125|end_char=132
+9	woman	woman	NOUN	NN	Number=Sing	8	_	_	start_char=125|end_char=130
+10	’s	's	PART	POS	_	9	_	_	start_char=130|end_char=132
+11	lawyers	lawyer	NOUN	NNS	Number=Plur	10	_	_	start_char=133|end_char=140
+12	will	will	AUX	MD	VerbForm=Fin	11	_	_	start_char=141|end_char=145
+13	convince	convince	VERB	VB	VerbForm=Inf	12	_	_	start_char=146|end_char=154
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=155|end_char=158
+15	otherwise	otherwise	ADV	RB	_	14	_	_	start_char=159|end_char=168
+16	and	and	CCONJ	CC	_	15	_	_	start_char=169|end_char=172
+17	then	then	ADV	RB	PronType=Dem	16	_	_	start_char=173|end_char=177
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=178|end_char=181
+19	cheating	cheating	NOUN	NN	Number=Sing	18	_	_	start_char=182|end_char=190
+20	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=191|end_char=193
+21	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	_	_	start_char=194|end_char=200
+22	out	out	ADP	RP	_	21	_	_	start_char=201|end_char=204
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=205|end_char=208
+24	window	window	NOUN	NN	Number=Sing	23	_	_	start_char=209|end_char=215|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=215|end_char=216|SpaceAfter=No
+

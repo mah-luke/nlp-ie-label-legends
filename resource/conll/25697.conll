@@ -1,0 +1,35 @@
+# text = I'm sorry that this happening :(
+# sent_id = 55096
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	sorry	sorry	ADJ	JJ	Degree=Pos	2	_	_	start_char=4|end_char=9
+4	that	that	SCONJ	IN	_	3	_	_	start_char=10|end_char=14
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=15|end_char=19
+6	happening	happen	VERB	VBG	VerbForm=Ger	5	_	_	start_char=20|end_char=29
+7	:(	:(	SYM	NFP	_	6	_	_	start_char=30|end_char=32
+
+# text = This happens a lot to females that post here and racist white trolls love to harass them until they leave.
+# sent_id = 55097
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=33|end_char=37
+2	happens	happen	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=38|end_char=45
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=46|end_char=47
+4	lot	lot	NOUN	NN	Number=Sing	3	_	_	start_char=48|end_char=51
+5	to	to	ADP	IN	_	4	_	_	start_char=52|end_char=54
+6	females	female	NOUN	NNS	Number=Plur	5	_	_	start_char=55|end_char=62
+7	that	that	PRON	WDT	PronType=Rel	6	_	_	start_char=63|end_char=67
+8	post	post	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=68|end_char=72
+9	here	here	ADV	RB	PronType=Dem	8	_	_	start_char=73|end_char=77
+10	and	and	CCONJ	CC	_	9	_	_	start_char=78|end_char=81
+11	racist	racist	ADJ	JJ	Degree=Pos	10	_	_	start_char=82|end_char=88
+12	white	white	ADJ	JJ	Degree=Pos	11	_	_	start_char=89|end_char=94
+13	trolls	troll	NOUN	NNS	Number=Plur	12	_	_	start_char=95|end_char=101
+14	love	love	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=102|end_char=106
+15	to	to	PART	TO	_	14	_	_	start_char=107|end_char=109
+16	harass	harass	VERB	VB	VerbForm=Inf	15	_	_	start_char=110|end_char=116
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=117|end_char=121
+18	until	until	SCONJ	IN	_	17	_	_	start_char=122|end_char=127
+19	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	18	_	_	start_char=128|end_char=132
+20	leave	leave	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=133|end_char=138|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=138|end_char=139|SpaceAfter=No
+

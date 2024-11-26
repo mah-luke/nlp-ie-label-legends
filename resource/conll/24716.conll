@@ -1,0 +1,50 @@
+# text = I have a friend with a terrible stutter.
+# sent_id = 52965
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=8
+4	friend	friend	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=15
+5	with	with	ADP	IN	_	4	_	_	start_char=16|end_char=20
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=21|end_char=22
+7	terrible	terrible	ADJ	JJ	Degree=Pos	6	_	_	start_char=23|end_char=31
+8	stutter	stutter	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=39|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=39|end_char=40
+
+# text = He's got a hot and intelligent girlfriend, I'm actually quite jealous at him!
+# sent_id = 52966
+1-2	He's	_	_	_	_	_	_	_	start_char=41|end_char=45
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=41|end_char=43
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=43|end_char=45
+3	got	get	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=46|end_char=49
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=50|end_char=51
+5	hot	hot	ADJ	JJ	Degree=Pos	4	_	_	start_char=52|end_char=55
+6	and	and	CCONJ	CC	_	5	_	_	start_char=56|end_char=59
+7	intelligent	intelligent	ADJ	JJ	Degree=Pos	6	_	_	start_char=60|end_char=71
+8	girlfriend	girlfriend	NOUN	NN	Number=Sing	7	_	_	start_char=72|end_char=82|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=82|end_char=83
+10-11	I'm	_	_	_	_	_	_	_	start_char=84|end_char=87
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=84|end_char=85
+11	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=85|end_char=87
+12	actually	actually	ADV	RB	_	11	_	_	start_char=88|end_char=96
+13	quite	quite	ADV	RB	_	12	_	_	start_char=97|end_char=102
+14	jealous	jealous	ADJ	JJ	Degree=Pos	13	_	_	start_char=103|end_char=110
+15	at	at	ADP	IN	_	14	_	_	start_char=111|end_char=113
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=114|end_char=117|SpaceAfter=No
+17	!	!	PUNCT	.	_	16	_	_	start_char=117|end_char=118
+
+# text = Just don't pay any attention to your stutter at all!
+# sent_id = 52967
+1	Just	just	ADV	RB	_	0	_	_	start_char=119|end_char=123
+2-3	don't	_	_	_	_	_	_	_	start_char=124|end_char=129
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=124|end_char=126
+3	n't	not	PART	RB	_	2	_	_	start_char=126|end_char=129
+4	pay	pay	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=130|end_char=133
+5	any	any	DET	DT	_	4	_	_	start_char=134|end_char=137
+6	attention	attention	NOUN	NN	Number=Sing	5	_	_	start_char=138|end_char=147
+7	to	to	ADP	IN	_	6	_	_	start_char=148|end_char=150
+8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	_	_	start_char=151|end_char=155
+9	stutter	stutter	NOUN	NN	Number=Sing	8	_	_	start_char=156|end_char=163
+10	at	at	ADP	IN	_	9	_	_	start_char=164|end_char=166
+11	all	all	DET	DT	_	10	_	_	start_char=167|end_char=170|SpaceAfter=No
+12	!	!	PUNCT	.	_	11	_	_	start_char=170|end_char=171|SpaceAfter=No
+

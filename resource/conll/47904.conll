@@ -1,0 +1,54 @@
+# text = Why ‘noodle’ though?
+# sent_id = 102405
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	‘	'	PUNCT	``	_	1	_	_	start_char=4|end_char=5|SpaceAfter=No
+3-4	noodle’	_	_	_	_	_	_	_	start_char=5|end_char=12
+3	noodle	noodle	NOUN	NN	Number=Sing	2	_	_	start_char=5|end_char=11
+4	’	'	PUNCT	''	_	3	_	_	start_char=11|end_char=12
+5	though	though	ADV	RB	_	4	_	_	start_char=13|end_char=19|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = I’m probably overthinking it but I can’t figure out why noodle=
+# sent_id = 102406
+1-2	I’m	_	_	_	_	_	_	_	start_char=21|end_char=24
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=21|end_char=22
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=24
+3	probably	probably	ADV	RB	_	2	_	_	start_char=25|end_char=33
+4	overthinking	overthink	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=34|end_char=46
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=47|end_char=49
+6	but	but	CCONJ	CC	_	5	_	_	start_char=50|end_char=53
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=54|end_char=55
+8-9	can’t	_	_	_	_	_	_	_	start_char=56|end_char=61
+8	ca	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=56|end_char=58
+9	n’t	not	PART	RB	_	8	_	_	start_char=58|end_char=61
+10	figure	figure	VERB	VB	VerbForm=Inf	9	_	_	start_char=62|end_char=68
+11	out	out	ADP	RP	_	10	_	_	start_char=69|end_char=72
+12	why	why	ADV	WRB	PronType=Int	11	_	_	start_char=73|end_char=76
+13	noodle	noodle	NOUN	NN	Number=Sing	12	_	_	start_char=77|end_char=83|SpaceAfter=No
+14	=	=	SYM	SYM	_	13	_	_	start_char=83|end_char=84|SpaceAfter=No
+
+# text = Asian women.....
+# sent_id = 102407
+1	Asian	Asian	ADJ	JJ	Degree=Pos	0	_	_	start_char=84|end_char=89
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=90|end_char=95|SpaceAfter=No
+3	.....	.....	PUNCT	.	_	2	_	_	start_char=95|end_char=100
+
+# text = Idk why I’m trying to find any logic in their shitty incel slang 🙃
+# sent_id = 102408
+1	Idk	idk	INTJ	UH	_	0	_	_	start_char=101|end_char=104
+2	why	why	ADV	WRB	PronType=Rel	1	_	_	start_char=105|end_char=108
+3-4	I’m	_	_	_	_	_	_	_	start_char=109|end_char=112
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=109|end_char=110
+4	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=110|end_char=112
+5	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=113|end_char=119
+6	to	to	PART	TO	_	5	_	_	start_char=120|end_char=122
+7	find	find	VERB	VB	VerbForm=Inf	6	_	_	start_char=123|end_char=127
+8	any	any	DET	DT	_	7	_	_	start_char=128|end_char=131
+9	logic	logic	NOUN	NN	Number=Sing	8	_	_	start_char=132|end_char=137
+10	in	in	ADP	IN	_	9	_	_	start_char=138|end_char=140
+11	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=141|end_char=146
+12	shitty	shitty	ADJ	JJ	Degree=Pos	11	_	_	start_char=147|end_char=153
+13	incel	incel	NOUN	NN	Number=Sing	12	_	_	start_char=154|end_char=159
+14	slang	slang	NOUN	NN	Number=Sing	13	_	_	start_char=160|end_char=165
+15	🙃	🙃	PUNCT	.	_	14	_	_	start_char=166|end_char=167|SpaceAfter=No
+

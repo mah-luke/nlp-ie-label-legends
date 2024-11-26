@@ -1,0 +1,60 @@
+# text = Why not right?
+# sent_id = 48777
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	not	not	PART	RB	_	1	_	_	start_char=4|end_char=7
+3	right	right	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=13|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=13|end_char=14
+
+# text = We already are putting lives at risk in the military, the fire department, and police.
+# sent_id = 48778
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=15|end_char=17
+2	already	already	ADV	RB	_	1	_	_	start_char=18|end_char=25
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=26|end_char=29
+4	putting	put	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=30|end_char=37
+5	lives	life	NOUN	NNS	Number=Plur	4	_	_	start_char=38|end_char=43
+6	at	at	ADP	IN	_	5	_	_	start_char=44|end_char=46
+7	risk	risk	NOUN	NN	Number=Sing	6	_	_	start_char=47|end_char=51
+8	in	in	ADP	IN	_	7	_	_	start_char=52|end_char=54
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=55|end_char=58
+10	military	military	NOUN	NN	Number=Sing	9	_	_	start_char=59|end_char=67|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=67|end_char=68
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=69|end_char=72
+13	fire	fire	NOUN	NN	Number=Sing	12	_	_	start_char=73|end_char=77
+14	department	department	NOUN	NN	Number=Sing	13	_	_	start_char=78|end_char=88|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=88|end_char=89
+16	and	and	CCONJ	CC	_	15	_	_	start_char=90|end_char=93
+17	police	police	NOUN	NNS	Number=Sing	16	_	_	start_char=94|end_char=100|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=100|end_char=101
+
+# text = Why not put everything at risk for women's feelings?
+# sent_id = 48779
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=102|end_char=105
+2	not	not	PART	RB	_	1	_	_	start_char=106|end_char=109
+3	put	put	VERB	VB	VerbForm=Inf	2	_	_	start_char=110|end_char=113
+4	everything	everything	PRON	NN	Number=Sing|PronType=Tot	3	_	_	start_char=114|end_char=124
+5	at	at	ADP	IN	_	4	_	_	start_char=125|end_char=127
+6	risk	risk	NOUN	NN	Number=Sing	5	_	_	start_char=128|end_char=132
+7	for	for	ADP	IN	_	6	_	_	start_char=133|end_char=136
+8-9	women's	_	_	_	_	_	_	_	start_char=137|end_char=144
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=137|end_char=142
+9	's	's	PART	POS	_	8	_	_	start_char=142|end_char=144
+10	feelings	feeling	NOUN	NNS	Number=Plur	9	_	_	start_char=145|end_char=153|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=153|end_char=154
+
+# text = Who cares if people die or jobs cannot be done properly.
+# sent_id = 48780
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=155|end_char=158
+2	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=159|end_char=164
+3	if	if	SCONJ	IN	_	2	_	_	start_char=165|end_char=167
+4	people	person	NOUN	NNS	Number=Plur	3	_	_	start_char=168|end_char=174
+5	die	die	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=175|end_char=178
+6	or	or	CCONJ	CC	_	5	_	_	start_char=179|end_char=181
+7	jobs	job	NOUN	NNS	Number=Plur	6	_	_	start_char=182|end_char=186
+8-9	cannot	_	_	_	_	_	_	_	start_char=187|end_char=193
+8	can	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=187|end_char=190
+9	not	not	PART	RB	_	8	_	_	start_char=190|end_char=193
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=194|end_char=196
+11	done	do	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=197|end_char=201
+12	properly	properly	ADV	RB	_	11	_	_	start_char=202|end_char=210|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=210|end_char=211|SpaceAfter=No
+

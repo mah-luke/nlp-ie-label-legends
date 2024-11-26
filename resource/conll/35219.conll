@@ -1,0 +1,23 @@
+# text = Kings and queens?
+# sent_id = 75355
+1	Kings	king	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=5
+2	and	and	CCONJ	CC	_	1	_	_	start_char=6|end_char=9
+3	queens	queen	NOUN	NNS	Number=Plur	2	_	_	start_char=10|end_char=16|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=16|end_char=17
+
+# text = Remember, Vonkie took $110 million from the Saudis this year!
+# sent_id = 75356
+1	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=18|end_char=26|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=26|end_char=27
+3	Vonkie	Vonkie	PROPN	NNP	Number=Sing	2	_	_	start_char=28|end_char=34
+4	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=35|end_char=39
+5	$	$	SYM	$	_	4	_	_	start_char=40|end_char=41|SpaceAfter=No
+6	110	110	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=41|end_char=44
+7	million	million	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=45|end_char=52
+8	from	from	ADP	IN	_	7	_	_	start_char=53|end_char=57
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=58|end_char=61
+10	Saudis	Saudi	PROPN	NNPS	Number=Plur	9	_	_	start_char=62|end_char=68
+11	this	this	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=69|end_char=73
+12	year	year	NOUN	NN	Number=Sing	11	_	_	start_char=74|end_char=78|SpaceAfter=No
+13	!	!	PUNCT	.	_	12	_	_	start_char=78|end_char=79|SpaceAfter=No
+

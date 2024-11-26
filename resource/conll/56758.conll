@@ -1,0 +1,38 @@
+# text = What kind of book that she picked up?
+# sent_id = 121309
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	kind	kind	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9
+3	of	of	ADP	IN	_	2	_	_	start_char=10|end_char=12
+4	book	book	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=17
+5	that	that	PRON	WDT	PronType=Rel	4	_	_	start_char=18|end_char=22
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=23|end_char=26
+7	picked	pick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=27|end_char=33
+8	up	up	ADP	RP	_	7	_	_	start_char=34|end_char=36|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=36|end_char=37
+
+# text = college textbook for gender studies?
+# sent_id = 121310
+1	college	college	NOUN	NN	Number=Sing	0	_	_	start_char=38|end_char=45
+2	textbook	textbook	NOUN	NN	Number=Sing	1	_	_	start_char=46|end_char=54
+3	for	for	ADP	IN	_	2	_	_	start_char=55|end_char=58
+4	gender	gender	NOUN	NN	Number=Sing	3	_	_	start_char=59|end_char=65
+5	studies	study	NOUN	NNS	Number=Plur	4	_	_	start_char=66|end_char=73|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=73|end_char=74
+
+# text = That book makes her dumb and stupid.
+# sent_id = 121311
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=75|end_char=79
+2	book	book	NOUN	NN	Number=Sing	1	_	_	start_char=80|end_char=84
+3	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=85|end_char=90
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=91|end_char=94
+5	dumb	dumb	ADJ	JJ	Degree=Pos	4	_	_	start_char=95|end_char=99
+6	and	and	CCONJ	CC	_	5	_	_	start_char=100|end_char=103
+7	stupid	stupid	ADJ	JJ	Degree=Pos	6	_	_	start_char=104|end_char=110|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=110|end_char=111
+
+# text = The anti-knowledge...
+# sent_id = 121312
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=112|end_char=115
+2	anti-knowledge	anti-knowledge	NOUN	NN	Number=Sing	1	_	_	start_char=116|end_char=130|SpaceAfter=No
+3	...	...	PUNCT	.	_	2	_	_	start_char=130|end_char=133|SpaceAfter=No
+

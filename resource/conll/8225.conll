@@ -1,0 +1,35 @@
+# text = Yep, Mattress Girl Kamala is the youngest so she's the most dangerous.
+# sent_id = 17242
+1	Yep	yep	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	Mattress	Mattress	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=13
+4	Girl	Girl	PROPN	NNP	Number=Sing	3	_	_	start_char=14|end_char=18
+5	Kamala	Kamala	PROPN	NNP	Number=Sing	4	_	_	start_char=19|end_char=25
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=26|end_char=28
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=29|end_char=32
+8	youngest	young	ADJ	JJS	Degree=Sup	7	_	_	start_char=33|end_char=41
+9	so	so	ADV	RB	_	8	_	_	start_char=42|end_char=44
+10-11	she's	_	_	_	_	_	_	_	start_char=45|end_char=50
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=45|end_char=48
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=48|end_char=50
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=51|end_char=54
+13	most	most	ADV	RBS	Degree=Sup	12	_	_	start_char=55|end_char=59
+14	dangerous	dangerous	ADJ	JJ	Degree=Pos	13	_	_	start_char=60|end_char=69|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=69|end_char=70
+
+# text = She'll be around a long time in that shit state.
+# sent_id = 17243
+1-2	She'll	_	_	_	_	_	_	_	start_char=71|end_char=77
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=71|end_char=74
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=74|end_char=77
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=78|end_char=80
+4	around	around	ADV	RB	_	3	_	_	start_char=81|end_char=87
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=88|end_char=89
+6	long	long	ADJ	JJ	Degree=Pos	5	_	_	start_char=90|end_char=94
+7	time	time	NOUN	NN	Number=Sing	6	_	_	start_char=95|end_char=99
+8	in	in	ADP	IN	_	7	_	_	start_char=100|end_char=102
+9	that	that	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=103|end_char=107
+10	shit	shit	NOUN	NN	Number=Sing	9	_	_	start_char=108|end_char=112
+11	state	state	NOUN	NN	Number=Sing	10	_	_	start_char=113|end_char=118|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=118|end_char=119|SpaceAfter=No
+

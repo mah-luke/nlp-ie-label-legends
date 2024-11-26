@@ -1,0 +1,29 @@
+# text = Wow, no wonder ya'll got banished to GAB.
+# sent_id = 47478
+1	Wow	wow	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	no	no	INTJ	UH	Polarity=Neg	2	_	_	start_char=5|end_char=7
+4	wonder	wonder	NOUN	NN	Number=Sing	3	_	_	start_char=8|end_char=14
+5-6	ya'll	_	_	_	_	_	_	_	start_char=15|end_char=20
+5	ya	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	_	_	start_char=15|end_char=17
+6	'll	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=17|end_char=20
+7	got	get	AUX	VB	VerbForm=Inf	6	_	_	start_char=21|end_char=24
+8	banished	banish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=25|end_char=33
+9	to	to	ADP	IN	_	8	_	_	start_char=34|end_char=36
+10	GAB	GAB	PROPN	NNP	Number=Sing	9	_	_	start_char=37|end_char=40|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=40|end_char=41
+
+# text = Shit, all I did was call someone a motherfucker.
+# sent_id = 47479
+1	Shit	shit	INTJ	UH	_	0	_	_	start_char=42|end_char=46|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=46|end_char=47
+3	all	all	DET	DT	_	2	_	_	start_char=48|end_char=51
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=52|end_char=53
+5	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=54|end_char=57
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=58|end_char=61
+7	call	call	VERB	VB	VerbForm=Inf	6	_	_	start_char=62|end_char=66
+8	someone	someone	PRON	NN	Number=Sing|PronType=Ind	7	_	_	start_char=67|end_char=74
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=75|end_char=76
+10	motherfucker	motherfucker	NOUN	NN	Number=Sing	9	_	_	start_char=77|end_char=89|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=89|end_char=90|SpaceAfter=No
+

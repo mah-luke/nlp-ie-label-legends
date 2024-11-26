@@ -1,0 +1,71 @@
+# text = Yes, its possible.
+# sent_id = 120737
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3-4	its	_	_	_	_	_	_	_	start_char=5|end_char=8
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=5|end_char=7
+4	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=7|end_char=8
+5	possible	possible	ADJ	JJ	Degree=Pos	4	_	_	start_char=9|end_char=17|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=17|end_char=18
+
+# text = I think you should talk to her about it and see if she’s on board.
+# sent_id = 120738
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=19|end_char=20
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=21|end_char=26
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=27|end_char=30
+4	should	should	AUX	MD	VerbForm=Fin	3	_	_	start_char=31|end_char=37
+5	talk	talk	VERB	VB	VerbForm=Inf	4	_	_	start_char=38|end_char=42
+6	to	to	ADP	IN	_	5	_	_	start_char=43|end_char=45
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=46|end_char=49
+8	about	about	ADP	IN	_	7	_	_	start_char=50|end_char=55
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=56|end_char=58
+10	and	and	CCONJ	CC	_	9	_	_	start_char=59|end_char=62
+11	see	see	VERB	VB	VerbForm=Inf	10	_	_	start_char=63|end_char=66
+12	if	if	SCONJ	IN	_	11	_	_	start_char=67|end_char=69
+13-14	she’s	_	_	_	_	_	_	_	start_char=70|end_char=75
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=70|end_char=73
+14	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=73|end_char=75
+15	on	on	ADP	IN	_	14	_	_	start_char=76|end_char=78
+16	board	board	NOUN	NN	Number=Sing	15	_	_	start_char=79|end_char=84|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=84|end_char=85
+
+# text = These days everyone is on a state of “we sort of date” that only confuses and hurts.
+# sent_id = 120739
+1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=86|end_char=91
+2	days	day	NOUN	NNS	Number=Plur	1	_	_	start_char=92|end_char=96
+3	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	2	_	_	start_char=97|end_char=105
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=106|end_char=108
+5	on	on	ADP	IN	_	4	_	_	start_char=109|end_char=111
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=112|end_char=113
+7	state	state	NOUN	NN	Number=Sing	6	_	_	start_char=114|end_char=119
+8	of	of	ADP	IN	_	7	_	_	start_char=120|end_char=122
+9	“	''	PUNCT	``	_	8	_	_	start_char=123|end_char=124|SpaceAfter=No
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	_	_	start_char=124|end_char=126
+11	sort	sort	NOUN	NN	Number=Sing	10	_	_	start_char=127|end_char=131
+12	of	of	ADP	IN	_	11	_	_	start_char=132|end_char=134
+13	date	date	NOUN	NN	Number=Sing	12	_	_	start_char=135|end_char=139|SpaceAfter=No
+14	”	''	PUNCT	''	_	13	_	_	start_char=139|end_char=140
+15	that	that	PRON	WDT	Number=Sing|PronType=Rel	14	_	_	start_char=141|end_char=145
+16	only	only	ADV	RB	_	15	_	_	start_char=146|end_char=150
+17	confuses	confuse	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=151|end_char=159
+18	and	and	CCONJ	CC	_	17	_	_	start_char=160|end_char=163
+19	hurts	hurt	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=164|end_char=169|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=169|end_char=170
+
+# text = Being clear about things can be the best gift to you and her.
+# sent_id = 120740
+1	Being	be	AUX	VBG	VerbForm=Ger	0	_	_	start_char=171|end_char=176
+2	clear	clear	ADJ	JJ	Degree=Pos	1	_	_	start_char=177|end_char=182
+3	about	about	ADP	IN	_	2	_	_	start_char=183|end_char=188
+4	things	thing	NOUN	NNS	Number=Plur	3	_	_	start_char=189|end_char=195
+5	can	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=196|end_char=199
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=200|end_char=202
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=203|end_char=206
+8	best	good	ADJ	JJS	Degree=Sup	7	_	_	start_char=207|end_char=211
+9	gift	gift	NOUN	NN	Number=Sing	8	_	_	start_char=212|end_char=216
+10	to	to	ADP	IN	_	9	_	_	start_char=217|end_char=219
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=220|end_char=223
+12	and	and	CCONJ	CC	_	11	_	_	start_char=224|end_char=227
+13	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=228|end_char=231|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=231|end_char=232|SpaceAfter=No
+

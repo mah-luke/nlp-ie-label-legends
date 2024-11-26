@@ -1,0 +1,28 @@
+# text = ‘Goodfellas’ mob boss actor says he’ll kill Harvey Weinstein for threatening his daughter.
+# sent_id = 97973
+1	‘	'	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Goodfellas’	Goodfellas’	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=12
+3	mob	mob	NOUN	NN	Number=Sing	2	_	_	start_char=13|end_char=16
+4	boss	boss	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=21
+5	actor	actor	NOUN	NN	Number=Sing	4	_	_	start_char=22|end_char=27
+6	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=28|end_char=32
+7-8	he’ll	_	_	_	_	_	_	_	start_char=33|end_char=38
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=33|end_char=35
+8	’ll	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=35|end_char=38
+9	kill	kill	VERB	VB	VerbForm=Inf	8	_	_	start_char=39|end_char=43
+10	Harvey	Harvey	PROPN	NNP	Number=Sing	9	_	_	start_char=44|end_char=50
+11	Weinstein	Weinstein	PROPN	NNP	Number=Sing	10	_	_	start_char=51|end_char=60
+12	for	for	SCONJ	IN	_	11	_	_	start_char=61|end_char=64
+13	threatening	threaten	VERB	VBG	VerbForm=Ger	12	_	_	start_char=65|end_char=76
+14	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=77|end_char=80
+15	daughter	daughter	NOUN	NN	Number=Sing	14	_	_	start_char=81|end_char=89|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=89|end_char=90
+
+# text = WATCH: [URL]
+# sent_id = 97974
+1	WATCH	watch	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=91|end_char=96|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=96|end_char=97
+3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=98|end_char=99|SpaceAfter=No
+4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=99|end_char=102|SpaceAfter=No
+5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=102|end_char=103|SpaceAfter=No
+

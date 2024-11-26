@@ -1,0 +1,38 @@
+# text = I'm all in for President Zuck, just as corrupt witch Hillary was my choice in the 2016 election.
+# sent_id = 23651
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	all	all	ADV	RB	_	2	_	_	start_char=4|end_char=7
+4	in	in	ADP	IN	_	3	_	_	start_char=8|end_char=10
+5	for	for	ADP	IN	_	4	_	_	start_char=11|end_char=14
+6	President	President	PROPN	NNP	Number=Sing	5	_	_	start_char=15|end_char=24
+7	Zuck	Zuck	PROPN	NNP	Number=Sing	6	_	_	start_char=25|end_char=29|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=29|end_char=30
+9	just	just	ADV	RB	_	8	_	_	start_char=31|end_char=35
+10	as	as	ADP	IN	_	9	_	_	start_char=36|end_char=38
+11	corrupt	corrupt	ADJ	JJ	Degree=Pos	10	_	_	start_char=39|end_char=46
+12	witch	witch	NOUN	NN	Number=Sing	11	_	_	start_char=47|end_char=52
+13	Hillary	Hillary	PROPN	NNP	Number=Sing	12	_	_	start_char=53|end_char=60
+14	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=61|end_char=64
+15	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	14	_	_	start_char=65|end_char=67
+16	choice	choice	NOUN	NN	Number=Sing	15	_	_	start_char=68|end_char=74
+17	in	in	ADP	IN	_	16	_	_	start_char=75|end_char=77
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=78|end_char=81
+19	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	18	_	_	start_char=82|end_char=86
+20	election	election	NOUN	NN	Number=Sing	19	_	_	start_char=87|end_char=95|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=95|end_char=96
+
+# text = I have my reasons, all of them nefarious.
+# sent_id = 23652
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=97|end_char=98
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=99|end_char=103
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=104|end_char=106
+4	reasons	reason	NOUN	NNS	Number=Plur	3	_	_	start_char=107|end_char=114|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=114|end_char=115
+6	all	all	DET	DT	_	5	_	_	start_char=116|end_char=119
+7	of	of	ADP	IN	_	6	_	_	start_char=120|end_char=122
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=123|end_char=127
+9	nefarious	nefarious	ADJ	JJ	Degree=Pos	8	_	_	start_char=128|end_char=137|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=137|end_char=138|SpaceAfter=No
+

@@ -1,0 +1,69 @@
+# text = Your argument is valid, i agree.
+# sent_id = 22962
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=4
+2	argument	argument	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=13
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=14|end_char=16
+4	valid	valid	ADJ	JJ	Degree=Pos	3	_	_	start_char=17|end_char=22|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=22|end_char=23
+6	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=24|end_char=25
+7	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=26|end_char=31|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=31|end_char=32
+
+# text = Man shouldn't do that.
+# sent_id = 22963
+1	Man	man	NOUN	NN	Number=Sing	0	_	_	start_char=33|end_char=36
+2-3	shouldn't	_	_	_	_	_	_	_	start_char=37|end_char=46
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=37|end_char=43
+3	n't	not	PART	RB	_	2	_	_	start_char=43|end_char=46
+4	do	do	VERB	VB	VerbForm=Inf	3	_	_	start_char=47|end_char=49
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=50|end_char=54|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=54|end_char=55
+
+# text = But i'm not a man yet.
+# sent_id = 22964
+1	But	but	CCONJ	CC	_	0	_	_	start_char=56|end_char=59
+2-3	i'm	_	_	_	_	_	_	_	start_char=60|end_char=63
+2	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=60|end_char=61
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=61|end_char=63
+4	not	not	PART	RB	_	3	_	_	start_char=64|end_char=67
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=68|end_char=69
+6	man	man	NOUN	NN	Number=Sing	5	_	_	start_char=70|end_char=73
+7	yet	yet	ADV	RB	_	6	_	_	start_char=74|end_char=77|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=77|end_char=78
+
+# text = I'm 22, getting my Bachelor's, working 2 jobs.
+# sent_id = 22965
+1-2	I'm	_	_	_	_	_	_	_	start_char=79|end_char=82
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=79|end_char=80
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=80|end_char=82
+3	22	22	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=83|end_char=85|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=85|end_char=86
+5	getting	get	VERB	VBG	VerbForm=Ger	4	_	_	start_char=87|end_char=94
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=95|end_char=97
+7-8	Bachelor's	_	_	_	_	_	_	_	start_char=98|end_char=108|SpaceAfter=No
+7	Bachelor	bachelor	PROPN	NNP	Number=Sing	6	_	_	start_char=98|end_char=106
+8	's	's	PART	POS	_	7	_	_	start_char=106|end_char=108
+9	,	,	PUNCT	,	_	8	_	_	start_char=108|end_char=109
+10	working	work	VERB	VBG	VerbForm=Ger	9	_	_	start_char=110|end_char=117
+11	2	2	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=118|end_char=119
+12	jobs	job	NOUN	NNS	Number=Plur	11	_	_	start_char=120|end_char=124|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=124|end_char=125
+
+# text = Right now i don't really care about the girl having a boyfriend.
+# sent_id = 22966
+1	Right	right	ADV	RB	_	0	_	_	start_char=126|end_char=131
+2	now	now	ADV	RB	_	1	_	_	start_char=132|end_char=135
+3	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=136|end_char=137
+4-5	don't	_	_	_	_	_	_	_	start_char=138|end_char=143
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=138|end_char=140
+5	n't	not	PART	RB	_	4	_	_	start_char=140|end_char=143
+6	really	really	ADV	RB	_	5	_	_	start_char=144|end_char=150
+7	care	care	VERB	VB	VerbForm=Inf	6	_	_	start_char=151|end_char=155
+8	about	about	ADP	IN	_	7	_	_	start_char=156|end_char=161
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=162|end_char=165
+10	girl	girl	NOUN	NN	Number=Sing	9	_	_	start_char=166|end_char=170
+11	having	have	VERB	VBG	VerbForm=Ger	10	_	_	start_char=171|end_char=177
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=178|end_char=179
+13	boyfriend	boyfriend	NOUN	NN	Number=Sing	12	_	_	start_char=180|end_char=189|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=189|end_char=190|SpaceAfter=No
+

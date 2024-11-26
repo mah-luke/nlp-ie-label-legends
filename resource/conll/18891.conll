@@ -1,0 +1,35 @@
+# text = He seems like a really nice dude.
+# sent_id = 40500
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=8
+3	like	like	ADP	IN	_	2	_	_	start_char=9|end_char=13
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=14|end_char=15
+5	really	really	ADV	RB	Degree=Pos	4	_	_	start_char=16|end_char=22
+6	nice	nice	ADJ	JJ	Degree=Pos	5	_	_	start_char=23|end_char=27
+7	dude	dude	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=32|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=32|end_char=33
+
+# text = I hope his current wife doesn't decide to cheat and devorce rape him because she's bored.
+# sent_id = 40501
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=34|end_char=35
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=40
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=41|end_char=44
+4	current	current	ADJ	JJ	Degree=Pos	3	_	_	start_char=45|end_char=52
+5	wife	wife	NOUN	NN	Number=Sing	4	_	_	start_char=53|end_char=57
+6-7	doesn't	_	_	_	_	_	_	_	start_char=58|end_char=65
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=58|end_char=62
+7	n't	not	PART	RB	_	6	_	_	start_char=62|end_char=65
+8	decide	decide	VERB	VB	VerbForm=Inf	7	_	_	start_char=66|end_char=72
+9	to	to	PART	TO	_	8	_	_	start_char=73|end_char=75
+10	cheat	cheat	VERB	VB	VerbForm=Inf	9	_	_	start_char=76|end_char=81
+11	and	and	CCONJ	CC	_	10	_	_	start_char=82|end_char=85
+12	devorce	devorce	VERB	VB	VerbForm=Inf	11	_	_	start_char=86|end_char=93
+13	rape	rape	VERB	VB	VerbForm=Inf	12	_	_	start_char=94|end_char=98
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=99|end_char=102
+15	because	because	SCONJ	IN	_	14	_	_	start_char=103|end_char=110
+16-17	she's	_	_	_	_	_	_	_	start_char=111|end_char=116
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=111|end_char=114
+17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=114|end_char=116
+18	bored	bored	ADJ	JJ	Degree=Pos	17	_	_	start_char=117|end_char=122|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=122|end_char=123|SpaceAfter=No
+

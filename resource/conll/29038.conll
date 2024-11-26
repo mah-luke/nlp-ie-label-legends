@@ -1,0 +1,32 @@
+# text = I'm so sick of women hitting the wall.
+# sent_id = 62289
+1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	so	so	ADV	RB	_	2	_	_	start_char=4|end_char=6
+4	sick	sick	ADJ	JJ	Degree=Pos	3	_	_	start_char=7|end_char=11
+5	of	of	ADP	IN	_	4	_	_	start_char=12|end_char=14
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=15|end_char=20
+7	hitting	hit	VERB	VBG	VerbForm=Ger	6	_	_	start_char=21|end_char=28
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=29|end_char=32
+9	wall	wall	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=37|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=37|end_char=38
+
+# text = I'm getting a sex doll.
+# sent_id = 62290
+1-2	I'm	_	_	_	_	_	_	_	start_char=39|end_char=42
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=39|end_char=40
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=40|end_char=42
+3	getting	get	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=43|end_char=50
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=51|end_char=52
+5	sex	sex	NOUN	NN	Number=Sing	4	_	_	start_char=53|end_char=56
+6	doll	doll	NOUN	NN	Number=Sing	5	_	_	start_char=57|end_char=61|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=61|end_char=62
+
+# text = They never do.
+# sent_id = 62291
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=63|end_char=67
+2	never	never	ADV	RB	_	1	_	_	start_char=68|end_char=73
+3	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=74|end_char=76|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=76|end_char=77|SpaceAfter=No
+

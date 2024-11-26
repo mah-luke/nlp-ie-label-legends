@@ -1,0 +1,59 @@
+# text = Tell her you want to take her out on a date So if i understand correctly..
+# sent_id = 82206
+1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=5|end_char=8
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=17
+5	to	to	PART	TO	_	4	_	_	start_char=18|end_char=20
+6	take	take	VERB	VB	VerbForm=Inf	5	_	_	start_char=21|end_char=25
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=26|end_char=29
+8	out	out	ADP	RP	_	7	_	_	start_char=30|end_char=33
+9	on	on	ADP	IN	_	8	_	_	start_char=34|end_char=36
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=37|end_char=38
+11	date	date	NOUN	NN	Number=Sing	10	_	_	start_char=39|end_char=43
+12	So	so	ADV	RB	_	11	_	_	start_char=44|end_char=46
+13	if	if	SCONJ	IN	_	12	_	_	start_char=47|end_char=49
+14	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=50|end_char=51
+15	understand	understand	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	_	_	start_char=52|end_char=62
+16	correctly	correctly	ADV	RB	_	15	_	_	start_char=63|end_char=72|SpaceAfter=No
+17	..	..	PUNCT	.	_	16	_	_	start_char=72|end_char=74
+
+# text = The word 'date' has a non-platonic, romantic connotation Which is why it is vital to explicitly mention this word in the conversation if you're interested in a girl, right ?
+# sent_id = 82207
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=75|end_char=78
+2	word	word	NOUN	NN	Number=Sing	1	_	_	start_char=79|end_char=83
+3	'	'	PUNCT	``	_	2	_	_	start_char=84|end_char=85|SpaceAfter=No
+4	date	date	NOUN	NN	Number=Sing	3	_	_	start_char=85|end_char=89|SpaceAfter=No
+5	'	'	PUNCT	''	_	4	_	_	start_char=89|end_char=90
+6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=91|end_char=94
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=95|end_char=96
+8	non-platonic	non-platonic	ADJ	JJ	Degree=Pos	7	_	_	start_char=97|end_char=109|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=109|end_char=110
+10	romantic	romantic	ADJ	JJ	Degree=Pos	9	_	_	start_char=111|end_char=119
+11	connotation	connotation	NOUN	NN	Number=Sing	10	_	_	start_char=120|end_char=131
+12	Which	which	PRON	WDT	PronType=Rel	11	_	_	start_char=132|end_char=137
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=138|end_char=140
+14	why	why	ADV	WRB	PronType=Rel	13	_	_	start_char=141|end_char=144
+15	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=145|end_char=147
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=148|end_char=150
+17	vital	vital	ADJ	JJ	Degree=Pos	16	_	_	start_char=151|end_char=156
+18	to	to	PART	TO	_	17	_	_	start_char=157|end_char=159
+19	explicitly	explicitly	ADV	RB	_	18	_	_	start_char=160|end_char=170
+20	mention	mention	VERB	VB	VerbForm=Inf	19	_	_	start_char=171|end_char=178
+21	this	this	DET	DT	Number=Sing|PronType=Dem	20	_	_	start_char=179|end_char=183
+22	word	word	NOUN	NN	Number=Sing	21	_	_	start_char=184|end_char=188
+23	in	in	ADP	IN	_	22	_	_	start_char=189|end_char=191
+24	the	the	DET	DT	Definite=Def|PronType=Art	23	_	_	start_char=192|end_char=195
+25	conversation	conversation	NOUN	NN	Number=Sing	24	_	_	start_char=196|end_char=208
+26	if	if	SCONJ	IN	_	25	_	_	start_char=209|end_char=211
+27-28	you're	_	_	_	_	_	_	_	start_char=212|end_char=218
+27	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	26	_	_	start_char=212|end_char=215
+28	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	27	_	_	start_char=215|end_char=218
+29	interested	interested	ADJ	JJ	Degree=Pos	28	_	_	start_char=219|end_char=229
+30	in	in	ADP	IN	_	29	_	_	start_char=230|end_char=232
+31	a	a	DET	DT	Definite=Ind|PronType=Art	30	_	_	start_char=233|end_char=234
+32	girl	girl	NOUN	NN	Number=Sing	31	_	_	start_char=235|end_char=239|SpaceAfter=No
+33	,	,	PUNCT	,	_	32	_	_	start_char=239|end_char=240
+34	right	right	ADV	RB	_	33	_	_	start_char=241|end_char=246
+35	?	?	PUNCT	.	_	34	_	_	start_char=247|end_char=248|SpaceAfter=No
+

@@ -1,0 +1,27 @@
+# text = At this point, her relection prospects are gone.
+# sent_id = 42556
+1	At	at	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=3|end_char=7
+3	point	point	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=13|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=13|end_char=14
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=15|end_char=18
+6	relection	relection	NOUN	NN	Number=Sing	5	_	_	start_char=19|end_char=28
+7	prospects	prospect	NOUN	NNS	Number=Plur	6	_	_	start_char=29|end_char=38
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=39|end_char=42
+9	gone	gone	ADJ	JJ	Degree=Pos	8	_	_	start_char=43|end_char=47|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=47|end_char=48
+
+# text = She is trailing by 12 points in the latest poll.
+# sent_id = 42557
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=49|end_char=52
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=53|end_char=55
+3	trailing	trail	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=56|end_char=64
+4	by	by	ADP	IN	_	3	_	_	start_char=65|end_char=67
+5	12	12	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=68|end_char=70
+6	points	point	NOUN	NNS	Number=Plur	5	_	_	start_char=71|end_char=77
+7	in	in	ADP	IN	_	6	_	_	start_char=78|end_char=80
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=81|end_char=84
+9	latest	late	ADJ	JJS	Degree=Sup	8	_	_	start_char=85|end_char=91
+10	poll	poll	NOUN	NN	Number=Sing	9	_	_	start_char=92|end_char=96|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=96|end_char=97|SpaceAfter=No
+

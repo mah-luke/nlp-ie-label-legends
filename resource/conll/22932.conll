@@ -1,0 +1,26 @@
+# text = yes, all 101 of them.
+# sent_id = 49224
+1	yes	yes	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	all	all	DET	DT	_	2	_	_	start_char=5|end_char=8
+4	101	101	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=9|end_char=12
+5	of	of	ADP	IN	_	4	_	_	start_char=13|end_char=15
+6	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=16|end_char=20|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=20|end_char=21
+
+# text = you're quite the prom queen, aren't you?
+# sent_id = 49225
+1-2	you're	_	_	_	_	_	_	_	start_char=22|end_char=28
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=22|end_char=25
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=28
+3	quite	quite	DET	PDT	_	2	_	_	start_char=29|end_char=34
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=35|end_char=38
+5	prom	prom	NOUN	NN	Number=Sing	4	_	_	start_char=39|end_char=43
+6	queen	queen	NOUN	NN	Number=Sing	5	_	_	start_char=44|end_char=49|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=49|end_char=50
+8-9	aren't	_	_	_	_	_	_	_	start_char=51|end_char=57
+8	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=51|end_char=54
+9	n't	not	PART	RB	_	8	_	_	start_char=54|end_char=57
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=58|end_char=61|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=61|end_char=62|SpaceAfter=No
+

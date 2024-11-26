@@ -1,0 +1,55 @@
+# text = Well, there's a possibility she didn't know.
+# sent_id = 47784
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3-4	there's	_	_	_	_	_	_	_	start_char=6|end_char=13
+3	there	there	PRON	EX	_	2	_	_	start_char=6|end_char=11
+4	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=14|end_char=15
+6	possibility	possibility	NOUN	NN	Number=Sing	5	_	_	start_char=16|end_char=27
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=28|end_char=31
+8-9	didn't	_	_	_	_	_	_	_	start_char=32|end_char=38
+8	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=32|end_char=35
+9	n't	not	PART	RB	_	8	_	_	start_char=35|end_char=38
+10	know	know	VERB	VB	VerbForm=Inf	9	_	_	start_char=39|end_char=43|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=43|end_char=44
+
+# text = But, two wrongs don't make a right even if she did.
+# sent_id = 47785
+1	But	but	CCONJ	CC	_	0	_	_	start_char=45|end_char=48|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=48|end_char=49
+3	two	two	NUM	CD	NumForm=Word|NumType=Card	2	_	_	start_char=50|end_char=53
+4	wrongs	wrong	NOUN	NNS	Number=Plur	3	_	_	start_char=54|end_char=60
+5-6	don't	_	_	_	_	_	_	_	start_char=61|end_char=66
+5	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=61|end_char=63
+6	n't	not	PART	RB	_	5	_	_	start_char=63|end_char=66
+7	make	make	VERB	VB	VerbForm=Inf	6	_	_	start_char=67|end_char=71
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=72|end_char=73
+9	right	right	NOUN	NN	Number=Sing	8	_	_	start_char=74|end_char=79
+10	even	even	ADV	RB	_	9	_	_	start_char=80|end_char=84
+11	if	if	SCONJ	IN	_	10	_	_	start_char=85|end_char=87
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=88|end_char=91
+13	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=92|end_char=95|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=95|end_char=96
+
+# text = Being petty and knowingly spreading an STI because you hold a grudge against one person is despicable.
+# sent_id = 47786
+1	Being	be	AUX	VBG	VerbForm=Ger	0	_	_	start_char=97|end_char=102
+2	petty	petty	ADJ	JJ	Degree=Pos	1	_	_	start_char=103|end_char=108
+3	and	and	CCONJ	CC	_	2	_	_	start_char=109|end_char=112
+4	knowingly	knowingly	ADV	RB	_	3	_	_	start_char=113|end_char=122
+5	spreading	spread	VERB	VBG	VerbForm=Ger	4	_	_	start_char=123|end_char=132
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=133|end_char=135
+7	STI	STI	NOUN	NN	Number=Sing	6	_	_	start_char=136|end_char=139
+8	because	because	SCONJ	IN	_	7	_	_	start_char=140|end_char=147
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=148|end_char=151
+10	hold	hold	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=152|end_char=156
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=157|end_char=158
+12	grudge	grudge	NOUN	NN	Number=Sing	11	_	_	start_char=159|end_char=165
+13	against	against	ADP	IN	_	12	_	_	start_char=166|end_char=173
+14	one	one	NUM	CD	NumForm=Word|NumType=Card	13	_	_	start_char=174|end_char=177
+15	person	person	NOUN	NN	Number=Sing	14	_	_	start_char=178|end_char=184
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=185|end_char=187
+17	despicable	despicable	ADJ	JJ	Degree=Pos	16	_	_	start_char=188|end_char=198|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=198|end_char=199|SpaceAfter=No
+

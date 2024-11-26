@@ -1,0 +1,23 @@
+# text = A nigger loving White Woman on the Supreme Court .
+# sent_id = 77224
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
+2	nigger	nigger	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=8
+3	loving	loving	ADJ	JJ	Degree=Pos	2	_	_	start_char=9|end_char=15
+4	White	White	ADJ	NNP	Degree=Pos	3	_	_	start_char=16|end_char=21
+5	Woman	Woman	PROPN	NNP	Number=Sing	4	_	_	start_char=22|end_char=27
+6	on	on	ADP	IN	_	5	_	_	start_char=28|end_char=30
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=31|end_char=34
+8	Supreme	Supreme	ADJ	NNP	Degree=Pos	7	_	_	start_char=35|end_char=42
+9	Court	Court	PROPN	NNP	Number=Sing	8	_	_	start_char=43|end_char=48
+10	.	.	PUNCT	.	_	9	_	_	start_char=49|end_char=50
+
+# text = Exactly what I voted for 😳😡🤬🤯
+# sent_id = 77225
+1	Exactly	exactly	ADV	RB	_	0	_	_	start_char=51|end_char=58
+2	what	what	PRON	WP	PronType=Rel	1	_	_	start_char=59|end_char=63
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=64|end_char=65
+4	voted	vote	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	3	_	_	start_char=66|end_char=71
+5	for	for	ADP	IN	_	4	_	_	start_char=72|end_char=75
+6	😳😡🤬	😳😡🤬	PUNCT	``	_	5	_	_	start_char=76|end_char=79|SpaceAfter=No
+7	🤯	🤯	PUNCT	.	_	6	_	_	start_char=79|end_char=80|SpaceAfter=No
+

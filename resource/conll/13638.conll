@@ -1,0 +1,36 @@
+# text = WTF?
+# sent_id = 29043
+1	WTF	WTF	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = Why does she need a half a million dollar salary plus expenses?
+# sent_id = 29044
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=5|end_char=8
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=13
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=14|end_char=17
+4	need	need	VERB	VB	VerbForm=Inf	3	_	_	start_char=18|end_char=22
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=23|end_char=24
+6	half	half	DET	PDT	NumForm=Word|NumType=Frac|PronType=Neg	5	_	_	start_char=25|end_char=29
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=30|end_char=31
+8	million	million	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=32|end_char=39
+9	dollar	dollar	NOUN	NN	Number=Sing	8	_	_	start_char=40|end_char=46
+10	salary	salary	NOUN	NN	Number=Sing	9	_	_	start_char=47|end_char=53
+11	plus	plus	CCONJ	CC	_	10	_	_	start_char=54|end_char=58
+12	expenses	expense	NOUN	NNS	Number=Plur	11	_	_	start_char=59|end_char=67|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=67|end_char=68
+
+# text = What a waist of money, just the FBI & DOJ!
+# sent_id = 29045
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=69|end_char=73
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=74|end_char=75
+3	waist	waist	NOUN	NN	Number=Sing	2	_	_	start_char=76|end_char=81
+4	of	of	ADP	IN	_	3	_	_	start_char=82|end_char=84
+5	money	money	NOUN	NN	Number=Sing	4	_	_	start_char=85|end_char=90|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=90|end_char=91
+7	just	just	ADV	RB	_	6	_	_	start_char=92|end_char=96
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=97|end_char=100
+9	FBI	FBI	PROPN	NNP	Number=Sing	8	_	_	start_char=101|end_char=104
+10	&	&	CCONJ	CC	_	9	_	_	start_char=105|end_char=106
+11	DOJ	DOJ	PROPN	NNP	Number=Sing	10	_	_	start_char=107|end_char=110|SpaceAfter=No
+12	!	!	PUNCT	.	_	11	_	_	start_char=110|end_char=111|SpaceAfter=No
+

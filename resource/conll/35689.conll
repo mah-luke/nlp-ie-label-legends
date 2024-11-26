@@ -1,0 +1,26 @@
+# text = I thought Starbucks said they had no such employee.
+# sent_id = 76400
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=9
+3	Starbucks	Starbucks	PROPN	NNP	Number=Sing	2	_	_	start_char=10|end_char=19
+4	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=20|end_char=24
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=25|end_char=29
+6	had	have	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=30|end_char=33
+7	no	no	DET	DT	_	6	_	_	start_char=34|end_char=36
+8	such	such	ADJ	JJ	Degree=Pos	7	_	_	start_char=37|end_char=41
+9	employee	employee	NOUN	NN	Number=Sing	8	_	_	start_char=42|end_char=50|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=50|end_char=51
+
+# text = Was she ever found to actually work for them?
+# sent_id = 76401
+1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=52|end_char=55
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=56|end_char=59
+3	ever	ever	ADV	RB	_	2	_	_	start_char=60|end_char=64
+4	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=65|end_char=70
+5	to	to	PART	TO	_	4	_	_	start_char=71|end_char=73
+6	actually	actually	ADV	RB	_	5	_	_	start_char=74|end_char=82
+7	work	work	VERB	VB	VerbForm=Inf	6	_	_	start_char=83|end_char=87
+8	for	for	ADP	IN	_	7	_	_	start_char=88|end_char=91
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=92|end_char=96|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=96|end_char=97|SpaceAfter=No
+

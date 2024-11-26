@@ -1,0 +1,54 @@
+# text = #NFL (National Felon League): Jets star threatened to sexually assault the wife of the cop who was arresting him.
+# sent_id = 103899
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	NFL	NFL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4
+3	(	(	PUNCT	-LRB-	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
+4	National	National	ADJ	NNP	Degree=Pos	3	_	_	start_char=6|end_char=14
+5	Felon	Felon	PROPN	NNP	Number=Sing	4	_	_	start_char=15|end_char=20
+6	League	League	PROPN	NNP	Number=Sing	5	_	_	start_char=21|end_char=27|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=27|end_char=28|SpaceAfter=No
+8	:	:	PUNCT	:	_	7	_	_	start_char=28|end_char=29
+9	Jets	Jet	PROPN	NNP	Number=Sing	8	_	_	start_char=30|end_char=34
+10	star	star	NOUN	NN	Number=Sing	9	_	_	start_char=35|end_char=39
+11	threatened	threaten	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=40|end_char=50
+12	to	to	PART	TO	_	11	_	_	start_char=51|end_char=53
+13	sexually	sexually	ADV	RB	_	12	_	_	start_char=54|end_char=62
+14	assault	assault	VERB	VB	VerbForm=Inf	13	_	_	start_char=63|end_char=70
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=71|end_char=74
+16	wife	wife	NOUN	NN	Number=Sing	15	_	_	start_char=75|end_char=79
+17	of	of	ADP	IN	_	16	_	_	start_char=80|end_char=82
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=83|end_char=86
+19	cop	cop	NOUN	NN	Number=Sing	18	_	_	start_char=87|end_char=90
+20	who	who	PRON	WP	PronType=Rel	19	_	_	start_char=91|end_char=94
+21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	_	_	start_char=95|end_char=98
+22	arresting	arrest	VERB	VBG	Tense=Pres|VerbForm=Part	21	_	_	start_char=99|end_char=108
+23	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=109|end_char=112|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=112|end_char=113
+
+# text = He told the officer he was going to "fuck her and not in the eye."
+# sent_id = 103900
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=114|end_char=116
+2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=117|end_char=121
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=122|end_char=125
+4	officer	officer	NOUN	NN	Number=Sing	3	_	_	start_char=126|end_char=133
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=134|end_char=136
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=137|end_char=140
+7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=141|end_char=146
+8	to	to	PART	TO	_	7	_	_	start_char=147|end_char=149
+9	"	"	PUNCT	``	_	8	_	_	start_char=150|end_char=151|SpaceAfter=No
+10	fuck	fuck	VERB	VB	VerbForm=Inf	9	_	_	start_char=151|end_char=155
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=156|end_char=159
+12	and	and	CCONJ	CC	_	11	_	_	start_char=160|end_char=163
+13	not	not	PART	RB	_	12	_	_	start_char=164|end_char=167
+14	in	in	ADP	IN	_	13	_	_	start_char=168|end_char=170
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=171|end_char=174
+16	eye	eye	NOUN	NN	Number=Sing	15	_	_	start_char=175|end_char=178|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=178|end_char=179|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=179|end_char=180
+
+# text = [URL]
+# sent_id = 103901
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=181|end_char=182|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=182|end_char=185|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=185|end_char=186|SpaceAfter=No
+

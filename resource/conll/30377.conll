@@ -1,0 +1,30 @@
+# text = I concede Lucy wasn't as buff as my memory thinks she was.
+# sent_id = 65089
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	concede	concede	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=9
+3	Lucy	Lucy	PROPN	NNP	Number=Sing	2	_	_	start_char=10|end_char=14
+4-5	wasn't	_	_	_	_	_	_	_	start_char=15|end_char=21
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=15|end_char=18
+5	n't	not	PART	RB	_	4	_	_	start_char=18|end_char=21
+6	as	as	ADV	RB	_	5	_	_	start_char=22|end_char=24
+7	buff	buff	ADJ	JJ	Degree=Pos	6	_	_	start_char=25|end_char=29
+8	as	as	SCONJ	IN	_	7	_	_	start_char=30|end_char=32
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=33|end_char=35
+10	memory	memory	NOUN	NN	Number=Sing	9	_	_	start_char=36|end_char=42
+11	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=43|end_char=49
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=50|end_char=53
+13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=54|end_char=57|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=57|end_char=58
+
+# text = Maybe the stunt doubles for the action shots?
+# sent_id = 65090
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=59|end_char=64
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=65|end_char=68
+3	stunt	stunt	NOUN	NN	Number=Sing	2	_	_	start_char=69|end_char=74
+4	doubles	double	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=75|end_char=82
+5	for	for	ADP	IN	_	4	_	_	start_char=83|end_char=86
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=87|end_char=90
+7	action	action	NOUN	NN	Number=Sing	6	_	_	start_char=91|end_char=97
+8	shots	shot	NOUN	NNS	Number=Plur	7	_	_	start_char=98|end_char=103|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=103|end_char=104|SpaceAfter=No
+

@@ -1,0 +1,44 @@
+# text = Poor granny.
+# sent_id = 84859
+1	Poor	poor	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	granny	granny	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=11|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=11|end_char=12
+
+# text = She's been a seat on the carousel for sixty-some years and she's not even eligible for a pension 'cause she's registered as an Honorary Chad.
+# sent_id = 84860
+1-2	She's	_	_	_	_	_	_	_	start_char=13|end_char=18
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=13|end_char=16
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=16|end_char=18
+3	been	be	AUX	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=19|end_char=23
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=24|end_char=25
+5	seat	seat	NOUN	NN	Number=Sing	4	_	_	start_char=26|end_char=30
+6	on	on	ADP	IN	_	5	_	_	start_char=31|end_char=33
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=34|end_char=37
+8	carousel	carousel	NOUN	NN	Number=Sing	7	_	_	start_char=38|end_char=46
+9	for	for	ADP	IN	_	8	_	_	start_char=47|end_char=50
+10	sixty	sixty	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=51|end_char=56|SpaceAfter=No
+11	-	-	PUNCT	HYPH	_	10	_	_	start_char=56|end_char=57|SpaceAfter=No
+12	some	some	DET	DT	_	11	_	_	start_char=57|end_char=61
+13	years	year	NOUN	NNS	Number=Plur	12	_	_	start_char=62|end_char=67
+14	and	and	CCONJ	CC	_	13	_	_	start_char=68|end_char=71
+15-16	she's	_	_	_	_	_	_	_	start_char=72|end_char=77
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=72|end_char=75
+16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=75|end_char=77
+17	not	not	PART	RB	_	16	_	_	start_char=78|end_char=81
+18	even	even	ADV	RB	_	17	_	_	start_char=82|end_char=86
+19	eligible	eligible	ADJ	JJ	Degree=Pos	18	_	_	start_char=87|end_char=95
+20	for	for	ADP	IN	_	19	_	_	start_char=96|end_char=99
+21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=100|end_char=101
+22	pension	pension	NOUN	NN	Number=Sing	21	_	_	start_char=102|end_char=109
+23	'	'	PUNCT	''	_	22	_	_	start_char=110|end_char=111|SpaceAfter=No
+24	cause	cause	SCONJ	IN	_	23	_	_	start_char=111|end_char=116
+25-26	she's	_	_	_	_	_	_	_	start_char=117|end_char=122
+25	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	_	_	start_char=117|end_char=120
+26	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	start_char=120|end_char=122
+27	registered	register	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	26	_	_	start_char=123|end_char=133
+28	as	as	ADP	IN	_	27	_	_	start_char=134|end_char=136
+29	an	a	DET	DT	Definite=Ind|PronType=Art	28	_	_	start_char=137|end_char=139
+30	Honorary	honorary	ADJ	JJ	Degree=Pos	29	_	_	start_char=140|end_char=148
+31	Chad	Chad	PROPN	NNP	Number=Sing	30	_	_	start_char=149|end_char=153|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	start_char=153|end_char=154|SpaceAfter=No
+

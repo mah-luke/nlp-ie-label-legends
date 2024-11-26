@@ -1,0 +1,36 @@
+# text = Sean Spicier‏
+# sent_id = 85765
+1	Sean	Sean	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	Spicier	Spicier	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=12|SpaceAfter=No
+3	‏	‏	PUNCT	.	_	2	_	_	start_char=12|end_char=13
+
+# text = Not really worried.
+# sent_id = 85766
+1	Not	not	PART	RB	_	0	_	_	start_char=14|end_char=17
+2	really	really	ADV	RB	_	1	_	_	start_char=18|end_char=24
+3	worried	worried	ADJ	JJ	Degree=Pos	2	_	_	start_char=25|end_char=32|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=32|end_char=33
+
+# text = I don't think she'd suicide me.
+# sent_id = 85767
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=34|end_char=35
+2-3	don't	_	_	_	_	_	_	_	start_char=36|end_char=41
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=38
+3	n't	not	PART	RB	_	2	_	_	start_char=38|end_char=41
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=42|end_char=47
+5-6	she'd	_	_	_	_	_	_	_	start_char=48|end_char=53
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=48|end_char=51
+6	'd	would	AUX	MD	VerbForm=Fin	5	_	_	start_char=51|end_char=53
+7	suicide	suicide	VERB	VB	VerbForm=Inf	6	_	_	start_char=54|end_char=61
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=62|end_char=64|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=64|end_char=65
+
+# text = Let's call it vigilant
+# sent_id = 85768
+1-2	Let's	_	_	_	_	_	_	_	start_char=66|end_char=71
+1	Let	let	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=66|end_char=69
+2	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=69|end_char=71
+3	call	call	VERB	VB	VerbForm=Inf	2	_	_	start_char=72|end_char=76
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=77|end_char=79
+5	vigilant	vigilant	ADJ	JJ	Degree=Pos	4	_	_	start_char=80|end_char=88|SpaceAfter=No
+

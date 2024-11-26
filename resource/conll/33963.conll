@@ -1,0 +1,61 @@
+# text = First, Jews can be white.
+# sent_id = 72645
+1	First	first	ADV	RB	NumType=Ord	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3	Jews	Jew	PROPN	NNPS	Number=Plur	2	_	_	start_char=7|end_char=11
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=12|end_char=15
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=16|end_char=18
+6	white	white	ADJ	JJ	Degree=Pos	5	_	_	start_char=19|end_char=24|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=24|end_char=25
+
+# text = Practicing a religion does not alter your race.
+# sent_id = 72646
+1	Practicing	practice	VERB	VBG	VerbForm=Ger	0	_	_	start_char=26|end_char=36
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=37|end_char=38
+3	religion	religion	NOUN	NN	Number=Sing	2	_	_	start_char=39|end_char=47
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=48|end_char=52
+5	not	not	PART	RB	_	4	_	_	start_char=53|end_char=56
+6	alter	alter	VERB	VB	VerbForm=Inf	5	_	_	start_char=57|end_char=62
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=63|end_char=67
+8	race	race	NOUN	NN	Number=Sing	7	_	_	start_char=68|end_char=72|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=72|end_char=73
+
+# text = Second, she is Italian Catholic.
+# sent_id = 72647
+1	Second	second	ADV	RB	NumType=Ord	0	_	_	start_char=74|end_char=80|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=80|end_char=81
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=82|end_char=85
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=86|end_char=88
+5	Italian	Italian	ADJ	JJ	Degree=Pos	4	_	_	start_char=89|end_char=96
+6	Catholic	Catholic	PROPN	NNP	Number=Sing	5	_	_	start_char=97|end_char=105|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=105|end_char=106
+
+# text = I will repeat: Behar was born Josephine Occhiuto in Williamsburg, Brooklyn, New York, to a Roman Catholic family of Italian descent.
+# sent_id = 72648
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=107|end_char=108
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=109|end_char=113
+3	repeat	repeat	VERB	VB	VerbForm=Inf	2	_	_	start_char=114|end_char=120|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=120|end_char=121
+5	Behar	Behar	PROPN	NNP	Number=Sing	4	_	_	start_char=122|end_char=127
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=128|end_char=131
+7	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=132|end_char=136
+8	Josephine	Josephine	PROPN	NNP	Number=Sing	7	_	_	start_char=137|end_char=146
+9	Occhiuto	Occhiuto	PROPN	NNP	Number=Sing	8	_	_	start_char=147|end_char=155
+10	in	in	ADP	IN	_	9	_	_	start_char=156|end_char=158
+11	Williamsburg	Williamsburg	PROPN	NNP	Number=Sing	10	_	_	start_char=159|end_char=171|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=171|end_char=172
+13	Brooklyn	Brooklyn	PROPN	NNP	Number=Sing	12	_	_	start_char=173|end_char=181|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=181|end_char=182
+15	New	New	ADJ	NNP	Degree=Pos	14	_	_	start_char=183|end_char=186
+16	York	York	PROPN	NNP	Number=Sing	15	_	_	start_char=187|end_char=191|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=191|end_char=192
+18	to	to	ADP	IN	_	17	_	_	start_char=193|end_char=195
+19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=196|end_char=197
+20	Roman	Roman	ADJ	JJ	Degree=Pos	19	_	_	start_char=198|end_char=203
+21	Catholic	Catholic	ADJ	JJ	Degree=Pos	20	_	_	start_char=204|end_char=212
+22	family	family	NOUN	NN	Number=Sing	21	_	_	start_char=213|end_char=219
+23	of	of	ADP	IN	_	22	_	_	start_char=220|end_char=222
+24	Italian	Italian	ADJ	JJ	Degree=Pos	23	_	_	start_char=223|end_char=230
+25	descent	descent	NOUN	NN	Number=Sing	24	_	_	start_char=231|end_char=238|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=238|end_char=239|SpaceAfter=No
+

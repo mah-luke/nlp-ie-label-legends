@@ -1,0 +1,54 @@
+# text = HEY MORON!
+# sent_id = 120095
+1	HEY	hey	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	MORON	moron	INTJ	UH	_	1	_	_	start_char=4|end_char=9|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=9|end_char=10
+
+# text = FUCKING MORON!
+# sent_id = 120096
+1	FUCKING	fucking	ADV	RB	_	0	_	_	start_char=11|end_char=18
+2	MORON	moron	NOUN	NN	Number=Sing	1	_	_	start_char=19|end_char=24|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=24|end_char=25
+
+# text = Men go to such stores in order to get supplies to GET WORK DONE.
+# sent_id = 120097
+1	Men	man	NOUN	NNS	Number=Plur	0	_	_	start_char=26|end_char=29
+2	go	go	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=30|end_char=32
+3	to	to	ADP	IN	_	2	_	_	start_char=33|end_char=35
+4	such	such	ADJ	JJ	Degree=Pos	3	_	_	start_char=36|end_char=40
+5	stores	store	NOUN	NNS	Number=Plur	4	_	_	start_char=41|end_char=47
+6	in	in	ADP	IN	_	5	_	_	start_char=48|end_char=50
+7	order	order	NOUN	NN	Number=Sing	6	_	_	start_char=51|end_char=56
+8	to	to	PART	TO	_	7	_	_	start_char=57|end_char=59
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=60|end_char=63
+10	supplies	supplies	NOUN	NNS	Number=Plur	9	_	_	start_char=64|end_char=72
+11	to	to	PART	TO	_	10	_	_	start_char=73|end_char=75
+12	GET	get	VERB	VB	VerbForm=Inf	11	_	_	start_char=76|end_char=79
+13	WORK	work	NOUN	NN	Number=Sing	12	_	_	start_char=80|end_char=84
+14	DONE	do	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=85|end_char=89|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=89|end_char=90
+
+# text = Why bother telling women this, they don't have a working theory of mind and can only project.
+# sent_id = 120098
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=91|end_char=94
+2	bother	bother	VERB	VBP	Mood=Ind|VerbForm=Fin	1	_	_	start_char=95|end_char=101
+3	telling	tell	VERB	VBG	VerbForm=Ger	2	_	_	start_char=102|end_char=109
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=110|end_char=115
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=116|end_char=120|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=120|end_char=121
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=122|end_char=126
+8-9	don't	_	_	_	_	_	_	_	start_char=127|end_char=132
+8	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=127|end_char=129
+9	n't	not	PART	RB	_	8	_	_	start_char=129|end_char=132
+10	have	have	VERB	VB	VerbForm=Inf	9	_	_	start_char=133|end_char=137
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=138|end_char=139
+12	working	work	VERB	VBG	VerbForm=Ger	11	_	_	start_char=140|end_char=147
+13	theory	theory	NOUN	NN	Number=Sing	12	_	_	start_char=148|end_char=154
+14	of	of	ADP	IN	_	13	_	_	start_char=155|end_char=157
+15	mind	mind	NOUN	NN	Number=Sing	14	_	_	start_char=158|end_char=162
+16	and	and	CCONJ	CC	_	15	_	_	start_char=163|end_char=166
+17	can	can	AUX	MD	VerbForm=Fin	16	_	_	start_char=167|end_char=170
+18	only	only	ADV	RB	_	17	_	_	start_char=171|end_char=175
+19	project	project	VERB	VB	VerbForm=Inf	18	_	_	start_char=176|end_char=183|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=183|end_char=184|SpaceAfter=No
+

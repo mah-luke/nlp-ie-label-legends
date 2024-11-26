@@ -1,0 +1,20 @@
+# text = Who cares what she wants?
+# sent_id = 25810
+1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=3
+2	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=9
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=10|end_char=14
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=15|end_char=18
+5	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=19|end_char=24|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=24|end_char=25
+
+# text = Just fuck her and dodge questions later.
+# sent_id = 25811
+1	Just	just	ADV	RB	_	0	_	_	start_char=26|end_char=30
+2	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=31|end_char=35
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=36|end_char=39
+4	and	and	CCONJ	CC	_	3	_	_	start_char=40|end_char=43
+5	dodge	dodge	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=44|end_char=49
+6	questions	question	NOUN	NNS	Number=Plur	5	_	_	start_char=50|end_char=59
+7	later	late	ADV	RBR	Degree=Cmp	6	_	_	start_char=60|end_char=65|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=65|end_char=66|SpaceAfter=No
+

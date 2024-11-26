@@ -1,0 +1,18 @@
+# text = What a fucking retard.
+# sent_id = 58230
+1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	fucking	fuck	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=14
+4	retard	retard	NOUN	NN	Number=Sing	3	_	_	start_char=15|end_char=21|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=21|end_char=22
+
+# text = He badgered her into killing him.
+# sent_id = 58231
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=23|end_char=25
+2	badgered	badger	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=26|end_char=34
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=35|end_char=38
+4	into	into	SCONJ	IN	_	3	_	_	start_char=39|end_char=43
+5	killing	kill	VERB	VBG	VerbForm=Ger	4	_	_	start_char=44|end_char=51
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=52|end_char=55|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=55|end_char=56|SpaceAfter=No
+

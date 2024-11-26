@@ -1,0 +1,28 @@
+# text = Solid RP truth.
+# sent_id = 110550
+1	Solid	solid	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=5
+2	RP	rp	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=8
+3	truth	truth	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
+
+# text = I like you.
+# sent_id = 110551
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=16|end_char=17
+2	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=18|end_char=22
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=23|end_char=26|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=26|end_char=27
+
+# text = Hell, you can come over and fuck my sister.
+# sent_id = 110552
+1	Hell	Hell	INTJ	UH	_	0	_	_	start_char=28|end_char=32|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=32|end_char=33
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=34|end_char=37
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=38|end_char=41
+5	come	come	VERB	VB	VerbForm=Inf	4	_	_	start_char=42|end_char=46
+6	over	over	ADV	RB	_	5	_	_	start_char=47|end_char=51
+7	and	and	CCONJ	CC	_	6	_	_	start_char=52|end_char=55
+8	fuck	fuck	VERB	VB	VerbForm=Inf	7	_	_	start_char=56|end_char=60
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=61|end_char=63
+10	sister	sister	NOUN	NN	Number=Sing	9	_	_	start_char=64|end_char=70|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=70|end_char=71|SpaceAfter=No
+

@@ -1,0 +1,68 @@
+# text = That's unbelievable.
+# sent_id = 1673
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	unbelievable	unbelievable	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=19|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=19|end_char=20
+
+# text = Even in marxist Canada we have to show voter ID.
+# sent_id = 1674
+1	Even	even	ADV	RB	_	0	_	_	start_char=21|end_char=25
+2	in	in	ADP	IN	_	1	_	_	start_char=26|end_char=28
+3	marxist	marxist	ADJ	JJ	Degree=Pos	2	_	_	start_char=29|end_char=36
+4	Canada	Canada	PROPN	NNP	Number=Sing	3	_	_	start_char=37|end_char=43
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=44|end_char=46
+6	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=47|end_char=51
+7	to	to	PART	TO	_	6	_	_	start_char=52|end_char=54
+8	show	show	VERB	VB	VerbForm=Inf	7	_	_	start_char=55|end_char=59
+9	voter	voter	NOUN	NN	Number=Sing	8	_	_	start_char=60|end_char=65
+10	ID	id	NOUN	NN	Number=Sing	9	_	_	start_char=66|end_char=68|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=68|end_char=69
+
+# text = At least in Sask, I wonder about Toronto.
+# sent_id = 1675
+1	At	at	ADP	IN	ExtPos=ADV	0	_	_	start_char=70|end_char=72
+2	least	least	ADJ	JJS	Degree=Sup	1	_	_	start_char=73|end_char=78
+3	in	in	ADP	IN	_	2	_	_	start_char=79|end_char=81
+4	Sask	Sask	PROPN	NNP	Number=Sing	3	_	_	start_char=82|end_char=86|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=86|end_char=87
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=88|end_char=89
+7	wonder	wonder	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=90|end_char=96
+8	about	about	ADP	IN	_	7	_	_	start_char=97|end_char=102
+9	Toronto	Toronto	PROPN	NNP	Number=Sing	8	_	_	start_char=103|end_char=110|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=110|end_char=111
+
+# text = Mind you, we haven't had anyone to vote for for decades.
+# sent_id = 1676
+1	Mind	mind	VERB	VB	VerbForm=Inf	0	_	_	start_char=112|end_char=116
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	start_char=117|end_char=120|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=120|end_char=121
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=122|end_char=124
+5-6	haven't	_	_	_	_	_	_	_	start_char=125|end_char=132
+5	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=125|end_char=129
+6	n't	not	PART	RB	_	5	_	_	start_char=129|end_char=132
+7	had	have	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=133|end_char=136
+8	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	7	_	_	start_char=137|end_char=143
+9	to	to	PART	TO	_	8	_	_	start_char=144|end_char=146
+10	vote	vote	VERB	VB	VerbForm=Inf	9	_	_	start_char=147|end_char=151
+11	for	for	ADP	IN	_	10	_	_	start_char=152|end_char=155
+12	for	for	ADP	IN	_	11	_	_	start_char=156|end_char=159
+13	decades	decade	NOUN	NNS	Number=Plur	12	_	_	start_char=160|end_char=167|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=167|end_char=168
+
+# text = Even Harper's wife was part of the crown sisterhood.
+# sent_id = 1677
+1	Even	even	ADV	RB	_	0	_	_	start_char=169|end_char=173
+2-3	Harper's	_	_	_	_	_	_	_	start_char=174|end_char=182
+2	Harper	Harper	PROPN	NNP	Number=Sing	1	_	_	start_char=174|end_char=180
+3	's	's	PART	POS	_	2	_	_	start_char=180|end_char=182
+4	wife	wife	NOUN	NN	Number=Sing	3	_	_	start_char=183|end_char=187
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=188|end_char=191
+6	part	part	NOUN	NN	Number=Sing	5	_	_	start_char=192|end_char=196
+7	of	of	ADP	IN	_	6	_	_	start_char=197|end_char=199
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=200|end_char=203
+9	crown	crown	NOUN	NN	Number=Sing	8	_	_	start_char=204|end_char=209
+10	sisterhood	sisterhood	NOUN	NN	Number=Sing	9	_	_	start_char=210|end_char=220|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=220|end_char=221|SpaceAfter=No
+

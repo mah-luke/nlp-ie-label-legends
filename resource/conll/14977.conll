@@ -1,0 +1,44 @@
+# text = Dude.
+# sent_id = 31979
+1	Dude	dude	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = Single motherhood is NOT good for a child.
+# sent_id = 31980
+1	Single	single	ADJ	JJ	Degree=Pos	0	_	_	start_char=6|end_char=12
+2	motherhood	motherhood	NOUN	NN	Number=Sing	1	_	_	start_char=13|end_char=23
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=24|end_char=26
+4	NOT	not	PART	RB	_	3	_	_	start_char=27|end_char=30
+5	good	good	ADJ	JJ	Degree=Pos	4	_	_	start_char=31|end_char=35
+6	for	for	ADP	IN	_	5	_	_	start_char=36|end_char=39
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=40|end_char=41
+8	child	child	NOUN	NN	Number=Sing	7	_	_	start_char=42|end_char=47|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=47|end_char=48
+
+# text = Would *you* want to have no father?
+# sent_id = 31981
+1	Would	would	AUX	MD	VerbForm=Fin	0	_	_	start_char=49|end_char=54
+2	*	*	PUNCT	NFP	_	1	_	_	start_char=55|end_char=56|SpaceAfter=No
+3	you*	you*	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	_	_	start_char=56|end_char=60
+4	want	want	VERB	VB	VerbForm=Inf	3	_	_	start_char=61|end_char=65
+5	to	to	PART	TO	_	4	_	_	start_char=66|end_char=68
+6	have	have	VERB	VB	VerbForm=Inf	5	_	_	start_char=69|end_char=73
+7	no	no	DET	DT	_	6	_	_	start_char=74|end_char=76
+8	father	father	NOUN	NN	Number=Sing	7	_	_	start_char=77|end_char=83|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=83|end_char=84
+
+# text = No?
+# sent_id = 31982
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=85|end_char=87|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=87|end_char=88
+
+# text = Then YES you're being delusional
+# sent_id = 31983
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=89|end_char=93
+2	YES	yes	INTJ	UH	_	1	_	_	start_char=94|end_char=97
+3-4	you're	_	_	_	_	_	_	_	start_char=98|end_char=104
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=98|end_char=101
+4	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=101|end_char=104
+5	being	be	AUX	VBG	VerbForm=Ger	4	_	_	start_char=105|end_char=110
+6	delusional	delusional	ADJ	JJ	Degree=Pos	5	_	_	start_char=111|end_char=121|SpaceAfter=No
+

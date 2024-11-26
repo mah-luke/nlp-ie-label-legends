@@ -1,0 +1,15 @@
+# text = That’s a cow if i’ve ever seen one
+# sent_id = 59722
+1-2	That’s	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=8
+4	cow	cow	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=12
+5	if	if	SCONJ	IN	_	4	_	_	start_char=13|end_char=15
+6-7	i’ve	_	_	_	_	_	_	_	start_char=16|end_char=20
+6	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=16|end_char=17
+7	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=17|end_char=20
+8	ever	ever	ADV	RB	_	7	_	_	start_char=21|end_char=25
+9	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=26|end_char=30
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=31|end_char=34|SpaceAfter=No
+

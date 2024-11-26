@@ -1,0 +1,65 @@
+# text = Do not say "alleged sex" you call it "child rape" like they do when ever it's a male teacher and female student.
+# sent_id = 106491
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	not	not	PART	RB	_	1	_	_	start_char=3|end_char=6
+3	say	say	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=7|end_char=10
+4	"	"	PUNCT	``	_	3	_	_	start_char=11|end_char=12|SpaceAfter=No
+5	alleged	allege	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=12|end_char=19
+6	sex	sex	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=23|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=23|end_char=24
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=25|end_char=28
+9	call	call	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=29|end_char=33
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=34|end_char=36
+11	"	"	PUNCT	``	_	10	_	_	start_char=37|end_char=38|SpaceAfter=No
+12	child	child	NOUN	NN	Number=Sing	11	_	_	start_char=38|end_char=43
+13	rape	rape	NOUN	NN	Number=Sing	12	_	_	start_char=44|end_char=48|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=48|end_char=49
+15	like	like	SCONJ	IN	_	14	_	_	start_char=50|end_char=54
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	_	_	start_char=55|end_char=59
+17	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=60|end_char=62
+18	when	when	ADV	WRB	PronType=Int	17	_	_	start_char=63|end_char=67
+19	ever	ever	ADV	RB	_	18	_	_	start_char=68|end_char=72
+20-21	it's	_	_	_	_	_	_	_	start_char=73|end_char=77
+20	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=73|end_char=75
+21	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=75|end_char=77
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	start_char=78|end_char=79
+23	male	male	ADJ	JJ	Degree=Pos	22	_	_	start_char=80|end_char=84
+24	teacher	teacher	NOUN	NN	Number=Sing	23	_	_	start_char=85|end_char=92
+25	and	and	CCONJ	CC	_	24	_	_	start_char=93|end_char=96
+26	female	female	ADJ	JJ	Degree=Pos	25	_	_	start_char=97|end_char=103
+27	student	student	NOUN	NN	Number=Sing	26	_	_	start_char=104|end_char=111|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=111|end_char=112
+
+# text = It's not a tryst, relationship, love, sex, or any other less impacting name.
+# sent_id = 106492
+1-2	It's	_	_	_	_	_	_	_	start_char=113|end_char=117
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=113|end_char=115
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=115|end_char=117
+3	not	not	PART	RB	_	2	_	_	start_char=118|end_char=121
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=122|end_char=123
+5	tryst	tryst	NOUN	NN	Number=Sing	4	_	_	start_char=124|end_char=129|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=129|end_char=130
+7	relationship	relationship	NOUN	NN	Number=Sing	6	_	_	start_char=131|end_char=143|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=143|end_char=144
+9	love	love	NOUN	NN	Number=Sing	8	_	_	start_char=145|end_char=149|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=149|end_char=150
+11	sex	sex	NOUN	NN	Number=Sing	10	_	_	start_char=151|end_char=154|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=154|end_char=155
+13	or	or	CCONJ	CC	_	12	_	_	start_char=156|end_char=158
+14	any	any	DET	DT	_	13	_	_	start_char=159|end_char=162
+15	other	other	ADJ	JJ	Degree=Pos	14	_	_	start_char=163|end_char=168
+16	less	less	ADV	RBR	Degree=Cmp	15	_	_	start_char=169|end_char=173
+17	impacting	impact	VERB	VBG	VerbForm=Ger	16	_	_	start_char=174|end_char=183
+18	name	name	NOUN	NN	Number=Sing	17	_	_	start_char=184|end_char=188|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=188|end_char=189
+
+# text = It's still child rape.
+# sent_id = 106493
+1-2	It's	_	_	_	_	_	_	_	start_char=190|end_char=194
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=190|end_char=192
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=192|end_char=194
+3	still	still	ADV	RB	_	2	_	_	start_char=195|end_char=200
+4	child	child	NOUN	NN	Number=Sing	3	_	_	start_char=201|end_char=206
+5	rape	rape	NOUN	NN	Number=Sing	4	_	_	start_char=207|end_char=211|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=211|end_char=212|SpaceAfter=No
+

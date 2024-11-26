@@ -1,0 +1,32 @@
+# text = OMG ... a Jew did it.
+# sent_id = 60840
+1	OMG	omg	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2	...	...	PUNCT	,	_	1	_	_	start_char=4|end_char=7
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=8|end_char=9
+4	Jew	Jew	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=13
+5	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=14|end_char=17
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=18|end_char=20|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=20|end_char=21
+
+# text = Here's his Orthodox Hasidic Stripper wives.
+# sent_id = 60841
+1-2	Here's	_	_	_	_	_	_	_	start_char=22|end_char=28
+1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=22|end_char=26
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=26|end_char=28
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=29|end_char=32
+4	Orthodox	Orthodox	ADJ	JJ	Degree=Pos	3	_	_	start_char=33|end_char=41
+5	Hasidic	Hasidic	ADJ	JJ	Degree=Pos	4	_	_	start_char=42|end_char=49
+6	Stripper	stripper	NOUN	NN	Number=Sing	5	_	_	start_char=50|end_char=58
+7	wives	wife	NOUN	NNS	Number=Plur	6	_	_	start_char=59|end_char=64|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=64|end_char=65
+
+# text = And, his goofy looking kids.
+# sent_id = 60842
+1	And	and	CCONJ	CC	_	0	_	_	start_char=66|end_char=69|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=69|end_char=70
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=71|end_char=74
+4	goofy	goofy	ADJ	JJ	Degree=Pos	3	_	_	start_char=75|end_char=80
+5	looking	look	VERB	VBG	VerbForm=Ger	4	_	_	start_char=81|end_char=88
+6	kids	kid	NOUN	NNS	Number=Plur	5	_	_	start_char=89|end_char=93|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=93|end_char=94|SpaceAfter=No
+

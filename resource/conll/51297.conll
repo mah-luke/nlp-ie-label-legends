@@ -1,0 +1,63 @@
+# text = See, you're allowed to disagree.
+# sent_id = 109635
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3-4	you're	_	_	_	_	_	_	_	start_char=5|end_char=11
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=5|end_char=8
+4	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=11
+5	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=12|end_char=19
+6	to	to	PART	TO	_	5	_	_	start_char=20|end_char=22
+7	disagree	disagree	VERB	VB	VerbForm=Inf	6	_	_	start_char=23|end_char=31|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=31|end_char=32
+
+# text = Plenty of people do.
+# sent_id = 109636
+1	Plenty	plenty	NOUN	NN	Number=Sing	0	_	_	start_char=33|end_char=39
+2	of	of	ADP	IN	_	1	_	_	start_char=40|end_char=42
+3	people	person	NOUN	NNS	Number=Plur	2	_	_	start_char=43|end_char=49
+4	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=50|end_char=52|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=52|end_char=53
+
+# text = It's the ones that think it's ok to attack the character of a shooting victim by publicly lying about her and trying to make her look worse than the actual shooter that I disagree with.
+# sent_id = 109637
+1-2	It's	_	_	_	_	_	_	_	start_char=54|end_char=58
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=54|end_char=56
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=56|end_char=58
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=59|end_char=62
+4	ones	one	NOUN	NNS	Number=Plur	3	_	_	start_char=63|end_char=67
+5	that	that	PRON	WDT	PronType=Rel	4	_	_	start_char=68|end_char=72
+6	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=73|end_char=78
+7-8	it's	_	_	_	_	_	_	_	start_char=79|end_char=83
+7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=79|end_char=81
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=81|end_char=83
+9	ok	ok	ADJ	JJ	Degree=Pos	8	_	_	start_char=84|end_char=86
+10	to	to	PART	TO	_	9	_	_	start_char=87|end_char=89
+11	attack	attack	VERB	VB	VerbForm=Inf	10	_	_	start_char=90|end_char=96
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=97|end_char=100
+13	character	character	NOUN	NN	Number=Sing	12	_	_	start_char=101|end_char=110
+14	of	of	ADP	IN	_	13	_	_	start_char=111|end_char=113
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=114|end_char=115
+16	shooting	shooting	NOUN	NN	Number=Sing	15	_	_	start_char=116|end_char=124
+17	victim	victim	NOUN	NN	Number=Sing	16	_	_	start_char=125|end_char=131
+18	by	by	SCONJ	IN	_	17	_	_	start_char=132|end_char=134
+19	publicly	publicly	ADV	RB	_	18	_	_	start_char=135|end_char=143
+20	lying	lie	VERB	VBG	VerbForm=Ger	19	_	_	start_char=144|end_char=149
+21	about	about	ADP	IN	_	20	_	_	start_char=150|end_char=155
+22	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=156|end_char=159
+23	and	and	CCONJ	CC	_	22	_	_	start_char=160|end_char=163
+24	trying	try	VERB	VBG	VerbForm=Ger	23	_	_	start_char=164|end_char=170
+25	to	to	PART	TO	_	24	_	_	start_char=171|end_char=173
+26	make	make	VERB	VB	VerbForm=Inf	25	_	_	start_char=174|end_char=178
+27	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	26	_	_	start_char=179|end_char=182
+28	look	look	VERB	VB	VerbForm=Inf	27	_	_	start_char=183|end_char=187
+29	worse	bad	ADJ	JJR	Degree=Cmp	28	_	_	start_char=188|end_char=193
+30	than	than	ADP	IN	_	29	_	_	start_char=194|end_char=198
+31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	start_char=199|end_char=202
+32	actual	actual	ADJ	JJ	Degree=Pos	31	_	_	start_char=203|end_char=209
+33	shooter	shooter	NOUN	NN	Number=Sing	32	_	_	start_char=210|end_char=217
+34	that	that	PRON	WDT	PronType=Rel	33	_	_	start_char=218|end_char=222
+35	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	34	_	_	start_char=223|end_char=224
+36	disagree	disagree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	35	_	_	start_char=225|end_char=233
+37	with	with	ADP	IN	_	36	_	_	start_char=234|end_char=238|SpaceAfter=No
+38	.	.	PUNCT	.	_	37	_	_	start_char=238|end_char=239|SpaceAfter=No
+

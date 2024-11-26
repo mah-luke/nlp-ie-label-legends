@@ -1,0 +1,38 @@
+# text = "I hate you.
+# sent_id = 59991
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
+3	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=3|end_char=7
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=8|end_char=11|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=11|end_char=12
+
+# text = Thankfully, there are thousands of gorgeous Japanese, Chinese and Korean girls in ~~Sydney~~ Asia, so I will be okay."
+# sent_id = 59992
+1	Thankfully	thankfully	ADV	RB	_	0	_	_	start_char=13|end_char=23|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=23|end_char=24
+3	there	there	PRON	EX	_	2	_	_	start_char=25|end_char=30
+4	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=31|end_char=34
+5	thousands	thousand	NOUN	NNS	Number=Plur	4	_	_	start_char=35|end_char=44
+6	of	of	ADP	IN	_	5	_	_	start_char=45|end_char=47
+7	gorgeous	gorgeous	ADJ	JJ	Degree=Pos	6	_	_	start_char=48|end_char=56
+8	Japanese	Japanese	ADJ	JJ	Degree=Pos	7	_	_	start_char=57|end_char=65|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=65|end_char=66
+10	Chinese	Chinese	ADJ	JJ	Degree=Pos	9	_	_	start_char=67|end_char=74
+11	and	and	CCONJ	CC	_	10	_	_	start_char=75|end_char=78
+12	Korean	Korean	ADJ	JJ	Degree=Pos	11	_	_	start_char=79|end_char=85
+13	girls	girl	NOUN	NNS	Number=Plur	12	_	_	start_char=86|end_char=91
+14	in	in	ADP	IN	_	13	_	_	start_char=92|end_char=94
+15	~~	~~	SYM	SYM	_	14	_	_	start_char=95|end_char=97|SpaceAfter=No
+16	Sydney	Sydney	PROPN	NNP	Number=Sing	15	_	_	start_char=97|end_char=103|SpaceAfter=No
+17	~	~	SYM	SYM	_	16	_	_	start_char=103|end_char=104|SpaceAfter=No
+18	~	~	SYM	SYM	_	17	_	_	start_char=104|end_char=105
+19	Asia	Asia	PROPN	NNP	Number=Sing	18	_	_	start_char=106|end_char=110|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=110|end_char=111
+21	so	so	ADV	RB	_	20	_	_	start_char=112|end_char=114
+22	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	21	_	_	start_char=115|end_char=116
+23	will	will	AUX	MD	VerbForm=Fin	22	_	_	start_char=117|end_char=121
+24	be	be	AUX	VB	VerbForm=Inf	23	_	_	start_char=122|end_char=124
+25	okay	okay	ADJ	JJ	Degree=Pos	24	_	_	start_char=125|end_char=129|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=129|end_char=130|SpaceAfter=No
+27	"	"	PUNCT	''	_	26	_	_	start_char=130|end_char=131|SpaceAfter=No
+

@@ -1,0 +1,58 @@
+# text = But but but but but!!!
+# sent_id = 56714
+1	But	but	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	but	but	CCONJ	CC	_	1	_	_	start_char=4|end_char=7
+3	but	but	CCONJ	CC	_	2	_	_	start_char=8|end_char=11
+4	but	but	CCONJ	CC	_	3	_	_	start_char=12|end_char=15
+5	but	but	CCONJ	CC	_	4	_	_	start_char=16|end_char=19|SpaceAfter=No
+6	!!!	!!!	PUNCT	.	_	5	_	_	start_char=19|end_char=22
+
+# text = That's racist sir!!!
+# sent_id = 56715
+1-2	That's	_	_	_	_	_	_	_	start_char=23|end_char=29
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=23|end_char=27
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
+3	racist	racist	ADJ	JJ	Degree=Pos	2	_	_	start_char=30|end_char=36
+4	sir	sir	NOUN	NN	Number=Sing	3	_	_	start_char=37|end_char=40|SpaceAfter=No
+5	!!!	!!!	PUNCT	.	_	4	_	_	start_char=40|end_char=43
+
+# text = I know we have 320 million people in the United States, don't you want another 600 million!!!!!!!
+# sent_id = 56716
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=44|end_char=45
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=46|end_char=50
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=51|end_char=53
+4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=54|end_char=58
+5	320	320	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=59|end_char=62
+6	million	million	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=63|end_char=70
+7	people	person	NOUN	NNS	Number=Plur	6	_	_	start_char=71|end_char=77
+8	in	in	ADP	IN	_	7	_	_	start_char=78|end_char=80
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=81|end_char=84
+10	United	United	ADJ	NNP	Degree=Pos	9	_	_	start_char=85|end_char=91
+11	States	State	PROPN	NNPS	Number=Plur	10	_	_	start_char=92|end_char=98|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=98|end_char=99
+13-14	don't	_	_	_	_	_	_	_	start_char=100|end_char=105
+13	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=100|end_char=102
+14	n't	not	PART	RB	_	13	_	_	start_char=102|end_char=105
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	_	_	start_char=106|end_char=109
+16	want	want	VERB	VB	VerbForm=Inf	15	_	_	start_char=110|end_char=114
+17	another	another	DET	DT	_	16	_	_	start_char=115|end_char=122
+18	600	600	NUM	CD	NumForm=Digit|NumType=Card	17	_	_	start_char=123|end_char=126
+19	million	million	NUM	CD	NumForm=Word|NumType=Card	18	_	_	start_char=127|end_char=134|SpaceAfter=No
+20	!!!!!!!	!!!!!!!	PUNCT	.	_	19	_	_	start_char=134|end_char=141
+
+# text = Don't you want to be like fucking China and Indian!!!!
+# sent_id = 56717
+1-2	Don't	_	_	_	_	_	_	_	start_char=142|end_char=147
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=142|end_char=144
+2	n't	not	PART	RB	_	1	_	_	start_char=144|end_char=147
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=148|end_char=151
+4	want	want	VERB	VB	VerbForm=Inf	3	_	_	start_char=152|end_char=156
+5	to	to	PART	TO	_	4	_	_	start_char=157|end_char=159
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=160|end_char=162
+7	like	like	ADP	IN	_	6	_	_	start_char=163|end_char=167
+8	fucking	fuck	VERB	VBG	VerbForm=Ger	7	_	_	start_char=168|end_char=175
+9	China	China	PROPN	NNP	Number=Sing	8	_	_	start_char=176|end_char=181
+10	and	and	CCONJ	CC	_	9	_	_	start_char=182|end_char=185
+11	Indian	Indian	PROPN	NNP	Number=Sing	10	_	_	start_char=186|end_char=192|SpaceAfter=No
+12	!!!!	!!!!	PUNCT	.	_	11	_	_	start_char=192|end_char=196|SpaceAfter=No
+

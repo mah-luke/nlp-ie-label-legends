@@ -1,0 +1,39 @@
+# text = Congratulations, you found *one* example.
+# sent_id = 5729
+1	Congratulations	congratulation	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=15|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=15|end_char=16
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=17|end_char=20
+4	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	_	_	start_char=21|end_char=26
+5	*	*	PUNCT	NFP	_	4	_	_	start_char=27|end_char=28|SpaceAfter=No
+6	one*	one*	DET	DT	_	5	_	_	start_char=28|end_char=32
+7	example	example	NOUN	NN	Number=Sing	6	_	_	start_char=33|end_char=40|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=40|end_char=41
+
+# text = Guess that means I’m *totally* wrong and everything else she tweets can just be fully written off then.... ...dumbass
+# sent_id = 5730
+1	Guess	guess	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=42|end_char=47
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=48|end_char=52
+3	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=53|end_char=58
+4-5	I’m	_	_	_	_	_	_	_	start_char=59|end_char=62
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=59|end_char=60
+5	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=60|end_char=62
+6	*	*	PUNCT	NFP	_	5	_	_	start_char=63|end_char=64|SpaceAfter=No
+7	totally	totally	ADV	RB	_	6	_	_	start_char=64|end_char=71|SpaceAfter=No
+8	*	*	PUNCT	NFP	_	7	_	_	start_char=71|end_char=72
+9	wrong	wrong	ADJ	JJ	Degree=Pos	8	_	_	start_char=73|end_char=78
+10	and	and	CCONJ	CC	_	9	_	_	start_char=79|end_char=82
+11	everything	everything	PRON	NN	Number=Sing|PronType=Tot	10	_	_	start_char=83|end_char=93
+12	else	else	ADJ	JJ	Degree=Pos	11	_	_	start_char=94|end_char=98
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=99|end_char=102
+14	tweets	tweet	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=103|end_char=109
+15	can	can	AUX	MD	VerbForm=Fin	14	_	_	start_char=110|end_char=113
+16	just	just	ADV	RB	_	15	_	_	start_char=114|end_char=118
+17	be	be	AUX	VB	VerbForm=Inf	16	_	_	start_char=119|end_char=121
+18	fully	fully	ADV	RB	_	17	_	_	start_char=122|end_char=127
+19	written	write	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	18	_	_	start_char=128|end_char=135
+20	off	off	ADP	RP	_	19	_	_	start_char=136|end_char=139
+21	then	then	ADV	RB	PronType=Dem	20	_	_	start_char=140|end_char=144|SpaceAfter=No
+22	....	....	PUNCT	,	_	21	_	_	start_char=144|end_char=148
+23	...	...	PUNCT	,	_	22	_	_	start_char=149|end_char=152|SpaceAfter=No
+24	dumbass	dumbass	NOUN	NN	Number=Sing	23	_	_	start_char=152|end_char=159|SpaceAfter=No
+

@@ -1,0 +1,65 @@
+# text = Crying is good for the soul.
+# sent_id = 100244
+1	Crying	crying	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=6
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7|end_char=9
+3	good	good	ADJ	JJ	Degree=Pos	2	_	_	start_char=10|end_char=14
+4	for	for	ADP	IN	_	3	_	_	start_char=15|end_char=18
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=19|end_char=22
+6	soul	soul	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=27|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=27|end_char=28
+
+# text = Good job mate.
+# sent_id = 100245
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=29|end_char=33
+2	job	job	NOUN	NN	Number=Sing	1	_	_	start_char=34|end_char=37
+3	mate	mate	NOUN	NN	Number=Sing	2	_	_	start_char=38|end_char=42|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=42|end_char=43
+
+# text = But approaching 6 to 8 is not really high.
+# sent_id = 100246
+1	But	but	CCONJ	CC	_	0	_	_	start_char=44|end_char=47
+2	approaching	approach	VERB	VBG	VerbForm=Ger	1	_	_	start_char=48|end_char=59
+3	6	6	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=60|end_char=61
+4	to	to	ADP	IN	_	3	_	_	start_char=62|end_char=64
+5	8	8	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=65|end_char=66
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=67|end_char=69
+7	not	not	PART	RB	_	6	_	_	start_char=70|end_char=73
+8	really	really	ADV	RB	_	7	_	_	start_char=74|end_char=80
+9	high	high	ADJ	JJ	Degree=Pos	8	_	_	start_char=81|end_char=85|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=85|end_char=86
+
+# text = That being Said, if I meet a girl that likes me then I stop approaching for the day.
+# sent_id = 100247
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=87|end_char=91
+2	being	be	AUX	VBG	VerbForm=Ger	1	_	_	start_char=92|end_char=97
+3	Said	Said	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=98|end_char=102|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=102|end_char=103
+5	if	if	SCONJ	IN	_	4	_	_	start_char=104|end_char=106
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=107|end_char=108
+7	meet	meet	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=109|end_char=113
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=114|end_char=115
+9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=116|end_char=120
+10	that	that	PRON	WDT	PronType=Rel	9	_	_	start_char=121|end_char=125
+11	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=126|end_char=131
+12	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=132|end_char=134
+13	then	then	ADV	RB	PronType=Dem	12	_	_	start_char=135|end_char=139
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=140|end_char=141
+15	stop	stop	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	_	_	start_char=142|end_char=146
+16	approaching	approach	VERB	VBG	VerbForm=Ger	15	_	_	start_char=147|end_char=158
+17	for	for	ADP	IN	_	16	_	_	start_char=159|end_char=162
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=163|end_char=166
+19	day	day	NOUN	NN	Number=Sing	18	_	_	start_char=167|end_char=170|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=170|end_char=171
+
+# text = That could happen in any number of approaches.
+# sent_id = 100248
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=172|end_char=176
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=177|end_char=182
+3	happen	happen	VERB	VB	VerbForm=Inf	2	_	_	start_char=183|end_char=189
+4	in	in	ADP	IN	_	3	_	_	start_char=190|end_char=192
+5	any	any	DET	DT	_	4	_	_	start_char=193|end_char=196
+6	number	number	NOUN	NN	Number=Sing	5	_	_	start_char=197|end_char=203
+7	of	of	ADP	IN	_	6	_	_	start_char=204|end_char=206
+8	approaches	approach	NOUN	NNS	Number=Plur	7	_	_	start_char=207|end_char=217|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=217|end_char=218|SpaceAfter=No
+

@@ -1,0 +1,32 @@
+# text = Dude, I'm not arguing with you.
+# sent_id = 8085
+1	Dude	dude	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3-4	I'm	_	_	_	_	_	_	_	start_char=6|end_char=9
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=7|end_char=9
+5	not	not	PART	RB	_	4	_	_	start_char=10|end_char=13
+6	arguing	argue	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=14|end_char=21
+7	with	with	ADP	IN	_	6	_	_	start_char=22|end_char=26
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	_	_	start_char=27|end_char=30|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=30|end_char=31
+
+# text = I'm explaining why traditionally women aren't held responsible for their actions.
+# sent_id = 8086
+1-2	I'm	_	_	_	_	_	_	_	start_char=32|end_char=35
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=32|end_char=33
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=33|end_char=35
+3	explaining	explain	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=36|end_char=46
+4	why	why	ADV	WRB	PronType=Int	3	_	_	start_char=47|end_char=50
+5	traditionally	traditionally	ADV	RB	_	4	_	_	start_char=51|end_char=64
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=65|end_char=70
+7-8	aren't	_	_	_	_	_	_	_	start_char=71|end_char=77
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=71|end_char=74
+8	n't	not	PART	RB	_	7	_	_	start_char=74|end_char=77
+9	held	hold	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=78|end_char=82
+10	responsible	responsible	ADJ	JJ	Degree=Pos	9	_	_	start_char=83|end_char=94
+11	for	for	ADP	IN	_	10	_	_	start_char=95|end_char=98
+12	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=99|end_char=104
+13	actions	action	NOUN	NNS	Number=Plur	12	_	_	start_char=105|end_char=112|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=112|end_char=113|SpaceAfter=No
+

@@ -1,0 +1,54 @@
+# text = B-bu-but- mY pEePeE SAAAADDDDD!!!!
+# sent_id = 6480
+1	B-	b-	INTJ	UH	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	bu-but-	bu-but-	INTJ	UH	_	1	_	_	start_char=2|end_char=9
+3	mY	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=10|end_char=12
+4	pEePeE	peepee	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=19
+5	SAAAADDDDD	SAAAADDDDD	PROPN	NNP	Number=Sing	4	_	_	start_char=20|end_char=30|SpaceAfter=No
+6	!!!!	!!!!	PUNCT	.	_	5	_	_	start_char=30|end_char=34
+
+# text = Why she make my peepee SAD!?!?!?
+# sent_id = 6481
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=35|end_char=38
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=39|end_char=42
+3	make	make	VERB	VB	VerbForm=Inf	2	_	_	start_char=43|end_char=47
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=48|end_char=50
+5	peepee	peepee	NOUN	NN	Number=Sing	4	_	_	start_char=51|end_char=57
+6	SAD	sad	ADJ	JJ	Degree=Pos	5	_	_	start_char=58|end_char=61|SpaceAfter=No
+7	!?!?!?	!?!?!?	PUNCT	.	_	6	_	_	start_char=61|end_char=67
+
+# text = FAT UGLY STUPID DUMDUM!
+# sent_id = 6482
+1	FAT	fat	ADJ	JJ	Degree=Pos	0	_	_	start_char=68|end_char=71
+2	UGLY	ugly	ADJ	JJ	Degree=Pos	1	_	_	start_char=72|end_char=76
+3	STUPID	stupid	ADJ	JJ	Degree=Pos	2	_	_	start_char=77|end_char=83
+4	DUMDUM	dumdum	NOUN	NN	Number=Sing	3	_	_	start_char=84|end_char=90|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=90|end_char=91
+
+# text = /s Seriously, they're like entitled five-year-olds being told "no" for the first time.
+# sent_id = 6483
+1	/	/	SYM	SYM	_	0	_	_	start_char=92|end_char=93|SpaceAfter=No
+2	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=93|end_char=94
+3	Seriously	seriously	ADV	RB	_	2	_	_	start_char=95|end_char=104|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=104|end_char=105
+5-6	they're	_	_	_	_	_	_	_	start_char=106|end_char=113
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=106|end_char=110
+6	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=110|end_char=113
+7	like	like	INTJ	UH	_	6	_	_	start_char=114|end_char=118
+8	entitled	entitle	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=119|end_char=127
+9	five	five	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=128|end_char=132|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	_	_	start_char=132|end_char=133|SpaceAfter=No
+11	year	year	NOUN	NN	Number=Sing	10	_	_	start_char=133|end_char=137|SpaceAfter=No
+12	-	-	PUNCT	HYPH	_	11	_	_	start_char=137|end_char=138|SpaceAfter=No
+13	olds	old	NOUN	NNS	Number=Plur	12	_	_	start_char=138|end_char=142
+14	being	be	AUX	VBG	VerbForm=Ger	13	_	_	start_char=143|end_char=148
+15	told	tell	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	14	_	_	start_char=149|end_char=153
+16	"	"	PUNCT	``	_	15	_	_	start_char=154|end_char=155|SpaceAfter=No
+17	no	no	INTJ	UH	Polarity=Neg	16	_	_	start_char=155|end_char=157|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=157|end_char=158
+19	for	for	ADP	IN	_	18	_	_	start_char=159|end_char=162
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=163|end_char=166
+21	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	20	_	_	start_char=167|end_char=172
+22	time	time	NOUN	NN	Number=Sing	21	_	_	start_char=173|end_char=177|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=177|end_char=178|SpaceAfter=No
+

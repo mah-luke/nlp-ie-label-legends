@@ -1,0 +1,72 @@
+# text = Damn, man.
+# sent_id = 112734
+1	Damn	damn	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	man	man	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=9|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=9|end_char=10
+
+# text = I agree with your original message, but damn...why so aggressive?
+# sent_id = 112735
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=11|end_char=12
+2	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=13|end_char=18
+3	with	with	ADP	IN	_	2	_	_	start_char=19|end_char=23
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=24|end_char=28
+5	original	original	ADJ	JJ	Degree=Pos	4	_	_	start_char=29|end_char=37
+6	message	message	NOUN	NN	Number=Sing	5	_	_	start_char=38|end_char=45|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=45|end_char=46
+8	but	but	CCONJ	CC	_	7	_	_	start_char=47|end_char=50
+9	damn	damn	INTJ	UH	_	8	_	_	start_char=51|end_char=55|SpaceAfter=No
+10	...	...	PUNCT	,	_	9	_	_	start_char=55|end_char=58|SpaceAfter=No
+11	why	why	ADV	WRB	PronType=Int	10	_	_	start_char=58|end_char=61
+12	so	so	ADV	RB	_	11	_	_	start_char=62|end_char=64
+13	aggressive	aggressive	ADJ	JJ	Degree=Pos	12	_	_	start_char=65|end_char=75|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=75|end_char=76
+
+# text = I've heard that moderates will kill this movement (which I'm inclined to agree with as well), but it seems that a "you're either with us or against us" is also a bad idea.
+# sent_id = 112736
+1-2	I've	_	_	_	_	_	_	_	start_char=77|end_char=81
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=77|end_char=78
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=78|end_char=81
+3	heard	hear	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=82|end_char=87
+4	that	that	SCONJ	IN	_	3	_	_	start_char=88|end_char=92
+5	moderates	moderate	NOUN	NNS	Number=Plur	4	_	_	start_char=93|end_char=102
+6	will	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=103|end_char=107
+7	kill	kill	VERB	VB	VerbForm=Inf	6	_	_	start_char=108|end_char=112
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=113|end_char=117
+9	movement	movement	NOUN	NN	Number=Sing	8	_	_	start_char=118|end_char=126
+10	(	(	PUNCT	-LRB-	_	9	_	_	start_char=127|end_char=128|SpaceAfter=No
+11	which	which	PRON	WDT	PronType=Rel	10	_	_	start_char=128|end_char=133
+12-13	I'm	_	_	_	_	_	_	_	start_char=134|end_char=137
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=134|end_char=135
+13	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=135|end_char=137
+14	inclined	inclined	ADJ	JJ	Degree=Pos	13	_	_	start_char=138|end_char=146
+15	to	to	PART	TO	_	14	_	_	start_char=147|end_char=149
+16	agree	agree	VERB	VB	VerbForm=Inf	15	_	_	start_char=150|end_char=155
+17	with	with	ADP	IN	_	16	_	_	start_char=156|end_char=160
+18	as	as	ADV	RB	_	17	_	_	start_char=161|end_char=163
+19	well	well	ADV	RB	Degree=Pos	18	_	_	start_char=164|end_char=168|SpaceAfter=No
+20	)	)	PUNCT	-RRB-	_	19	_	_	start_char=168|end_char=169|SpaceAfter=No
+21	,	,	PUNCT	,	_	20	_	_	start_char=169|end_char=170
+22	but	but	CCONJ	CC	_	21	_	_	start_char=171|end_char=174
+23	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=175|end_char=177
+24	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=178|end_char=183
+25	that	that	SCONJ	IN	_	24	_	_	start_char=184|end_char=188
+26	a	a	DET	DT	Definite=Ind|PronType=Art	25	_	_	start_char=189|end_char=190
+27	"	"	PUNCT	``	_	26	_	_	start_char=191|end_char=192|SpaceAfter=No
+28-29	you're	_	_	_	_	_	_	_	start_char=192|end_char=198
+28	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	27	_	_	start_char=192|end_char=195
+29	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	28	_	_	start_char=195|end_char=198
+30	either	either	CCONJ	CC	_	29	_	_	start_char=199|end_char=205
+31	with	with	ADP	IN	_	30	_	_	start_char=206|end_char=210
+32	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	31	_	_	start_char=211|end_char=213
+33	or	or	CCONJ	CC	_	32	_	_	start_char=214|end_char=216
+34	against	against	ADP	IN	_	33	_	_	start_char=217|end_char=224
+35	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	34	_	_	start_char=225|end_char=227|SpaceAfter=No
+36	"	"	PUNCT	''	_	35	_	_	start_char=227|end_char=228
+37	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	_	_	start_char=229|end_char=231
+38	also	also	ADV	RB	_	37	_	_	start_char=232|end_char=236
+39	a	a	DET	DT	Definite=Ind|PronType=Art	38	_	_	start_char=237|end_char=238
+40	bad	bad	ADJ	JJ	Degree=Pos	39	_	_	start_char=239|end_char=242
+41	idea	idea	NOUN	NN	Number=Sing	40	_	_	start_char=243|end_char=247|SpaceAfter=No
+42	.	.	PUNCT	.	_	41	_	_	start_char=247|end_char=248|SpaceAfter=No
+

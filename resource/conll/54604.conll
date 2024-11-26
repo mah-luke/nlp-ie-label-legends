@@ -1,0 +1,46 @@
+# text = THIS.
+# sent_id = 116702
+1	THIS	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
+
+# text = Don't be small minded fools.
+# sent_id = 116703
+1-2	Don't	_	_	_	_	_	_	_	start_char=6|end_char=11
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=6|end_char=8
+2	n't	not	PART	RB	_	1	_	_	start_char=8|end_char=11
+3	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=12|end_char=14
+4	small	small	ADJ	JJ	Degree=Pos	3	_	_	start_char=15|end_char=20
+5	minded	minded	ADJ	JJ	Degree=Pos	4	_	_	start_char=21|end_char=27
+6	fools	fool	NOUN	NNS	Number=Plur	5	_	_	start_char=28|end_char=33|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=33|end_char=34
+
+# text = Don't burn books and don't tear down statues.
+# sent_id = 116704
+1-2	Don't	_	_	_	_	_	_	_	start_char=35|end_char=40
+1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=35|end_char=37
+2	n't	not	PART	RB	_	1	_	_	start_char=37|end_char=40
+3	burn	burn	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=41|end_char=45
+4	books	book	NOUN	NNS	Number=Plur	3	_	_	start_char=46|end_char=51
+5	and	and	CCONJ	CC	_	4	_	_	start_char=52|end_char=55
+6-7	don't	_	_	_	_	_	_	_	start_char=56|end_char=61
+6	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=56|end_char=58
+7	n't	not	PART	RB	_	6	_	_	start_char=58|end_char=61
+8	tear	tear	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=62|end_char=66
+9	down	down	ADP	RP	_	8	_	_	start_char=67|end_char=71
+10	statues	statue	NOUN	NNS	Number=Plur	9	_	_	start_char=72|end_char=79|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=79|end_char=80
+
+# text = It erases our history.
+# sent_id = 116705
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=81|end_char=83
+2	erases	erase	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=84|end_char=90
+3	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=91|end_char=94
+4	history	history	NOUN	NN	Number=Sing	3	_	_	start_char=95|end_char=102|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=102|end_char=103
+
+# text = [URL]
+# sent_id = 116706
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=104|end_char=105|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=105|end_char=108|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=108|end_char=109|SpaceAfter=No
+

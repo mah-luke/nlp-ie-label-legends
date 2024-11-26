@@ -1,0 +1,46 @@
+# text = [USER]
+# sent_id = 64692
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = I have friend who is trying to get the web site for gab.
+# sent_id = 64693
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
+2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=13
+3	friend	friend	NOUN	NN	Number=Sing	2	_	_	start_char=14|end_char=20
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=21|end_char=24
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=25|end_char=27
+6	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=28|end_char=34
+7	to	to	PART	TO	_	6	_	_	start_char=35|end_char=37
+8	get	get	VERB	VB	VerbForm=Inf	7	_	_	start_char=38|end_char=41
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=42|end_char=45
+10	web	web	NOUN	NN	Number=Sing	9	_	_	start_char=46|end_char=49
+11	site	site	NOUN	NN	Number=Sing	10	_	_	start_char=50|end_char=54
+12	for	for	ADP	IN	_	11	_	_	start_char=55|end_char=58
+13	gab	gab	NOUN	NN	Number=Sing	12	_	_	start_char=59|end_char=62|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=62|end_char=63
+
+# text = Her handle is [USER].
+# sent_id = 64694
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=64|end_char=67
+2	handle	handle	NOUN	NN	Number=Sing	1	_	_	start_char=68|end_char=74
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=75|end_char=77
+4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=78|end_char=79|SpaceAfter=No
+5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=79|end_char=83|SpaceAfter=No
+6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=83|end_char=84|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=84|end_char=85
+
+# text = Can you help her for me and thank you !!
+# sent_id = 64695
+1	Can	can	AUX	MD	VerbForm=Fin	0	_	_	start_char=86|end_char=89
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=90|end_char=93
+3	help	help	VERB	VB	VerbForm=Inf	2	_	_	start_char=94|end_char=98
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=99|end_char=102
+5	for	for	ADP	IN	_	4	_	_	start_char=103|end_char=106
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=107|end_char=109
+7	and	and	CCONJ	CC	_	6	_	_	start_char=110|end_char=113
+8	thank	thank	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=114|end_char=119
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=120|end_char=123
+10	!!	!!	PUNCT	.	_	9	_	_	start_char=124|end_char=126|SpaceAfter=No
+

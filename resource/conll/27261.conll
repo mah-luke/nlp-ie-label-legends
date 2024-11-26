@@ -1,0 +1,43 @@
+# text = This works in reverse as well.
+# sent_id = 58527
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	works	work	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=10
+3	in	in	ADP	IN	_	2	_	_	start_char=11|end_char=13
+4	reverse	reverse	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=21
+5	as	as	ADV	RB	_	4	_	_	start_char=22|end_char=24
+6	well	well	ADV	RB	Degree=Pos	5	_	_	start_char=25|end_char=29|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=29|end_char=30
+
+# text = Guys that can't play oogle chicks that can and if she is up for teaching them, game on.
+# sent_id = 58528
+1	Guys	guy	NOUN	NNS	Number=Plur	0	_	_	start_char=31|end_char=35
+2	that	that	PRON	WDT	PronType=Rel	1	_	_	start_char=36|end_char=40
+3-4	can't	_	_	_	_	_	_	_	start_char=41|end_char=46
+3	ca	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=41|end_char=43
+4	n't	not	PART	RB	_	3	_	_	start_char=43|end_char=46
+5	play	play	VERB	VB	VerbForm=Inf	4	_	_	start_char=47|end_char=51
+6	oogle	oogle	NOUN	NN	Number=Sing	5	_	_	start_char=52|end_char=57
+7	chicks	chick	NOUN	NNS	Number=Plur	6	_	_	start_char=58|end_char=64
+8	that	that	PRON	WDT	PronType=Rel	7	_	_	start_char=65|end_char=69
+9	can	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=70|end_char=73
+10	and	and	CCONJ	CC	_	9	_	_	start_char=74|end_char=77
+11	if	if	SCONJ	IN	_	10	_	_	start_char=78|end_char=80
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=81|end_char=84
+13	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=85|end_char=87
+14	up	up	ADV	RB	_	13	_	_	start_char=88|end_char=90
+15	for	for	SCONJ	IN	_	14	_	_	start_char=91|end_char=94
+16	teaching	teach	VERB	VBG	VerbForm=Ger	15	_	_	start_char=95|end_char=103
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=104|end_char=108|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=108|end_char=109
+19	game	game	NOUN	NN	Number=Sing	18	_	_	start_char=110|end_char=114
+20	on	on	ADP	IN	_	19	_	_	start_char=115|end_char=117|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=117|end_char=118
+
+# text = Source: Chick guitar player
+# sent_id = 58529
+1	Source	source	NOUN	NN	Number=Sing	0	_	_	start_char=119|end_char=125|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=125|end_char=126
+3	Chick	chick	NOUN	NN	Number=Sing	2	_	_	start_char=127|end_char=132
+4	guitar	guitar	NOUN	NN	Number=Sing	3	_	_	start_char=133|end_char=139
+5	player	player	NOUN	NN	Number=Sing	4	_	_	start_char=140|end_char=146|SpaceAfter=No
+

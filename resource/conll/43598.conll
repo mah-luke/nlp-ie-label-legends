@@ -1,0 +1,35 @@
+# text = She can have sex with him without *wanting* to have sex with him.
+# sent_id = 93208
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	can	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=12
+4	sex	sex	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=16
+5	with	with	ADP	IN	_	4	_	_	start_char=17|end_char=21
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=22|end_char=25
+7	without	without	SCONJ	IN	_	6	_	_	start_char=26|end_char=33
+8	*	*	PUNCT	NFP	_	7	_	_	start_char=34|end_char=35|SpaceAfter=No
+9	wanting	want	VERB	VBG	VerbForm=Ger	8	_	_	start_char=35|end_char=42|SpaceAfter=No
+10	*	*	PUNCT	NFP	_	9	_	_	start_char=42|end_char=43
+11	to	to	PART	TO	_	10	_	_	start_char=44|end_char=46
+12	have	have	VERB	VB	VerbForm=Inf	11	_	_	start_char=47|end_char=51
+13	sex	sex	NOUN	NN	Number=Sing	12	_	_	start_char=52|end_char=55
+14	with	with	ADP	IN	_	13	_	_	start_char=56|end_char=60
+15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=61|end_char=64|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=64|end_char=65
+
+# text = No one is arguing women don't sleep with rich guys.
+# sent_id = 93209
+1	No	no	DET	DT	_	0	_	_	start_char=66|end_char=68
+2	one	one	PRON	NN	Number=Sing|PronType=Neg	1	_	_	start_char=69|end_char=72
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=73|end_char=75
+4	arguing	argue	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=76|end_char=83
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=84|end_char=89
+6-7	don't	_	_	_	_	_	_	_	start_char=90|end_char=95
+6	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=90|end_char=92
+7	n't	not	PART	RB	_	6	_	_	start_char=92|end_char=95
+8	sleep	sleep	VERB	VB	VerbForm=Inf	7	_	_	start_char=96|end_char=101
+9	with	with	ADP	IN	_	8	_	_	start_char=102|end_char=106
+10	rich	rich	ADJ	JJ	Degree=Pos	9	_	_	start_char=107|end_char=111
+11	guys	guy	NOUN	NNS	Number=Plur	10	_	_	start_char=112|end_char=116|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=116|end_char=117|SpaceAfter=No
+

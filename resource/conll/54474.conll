@@ -1,0 +1,49 @@
+# text = She's attention whoring.
+# sent_id = 116424
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	attention	attention	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=15
+4	whoring	whoring	NOUN	NN	Number=Sing	3	_	_	start_char=16|end_char=23|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=23|end_char=24
+
+# text = She got what she wanted and now she's sending you on your way.
+# sent_id = 116425
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=25|end_char=28
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=29|end_char=32
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=33|end_char=37
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=38|end_char=41
+5	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=42|end_char=48
+6	and	and	CCONJ	CC	_	5	_	_	start_char=49|end_char=52
+7	now	now	ADV	RB	_	6	_	_	start_char=53|end_char=56
+8-9	she's	_	_	_	_	_	_	_	start_char=57|end_char=62
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=57|end_char=60
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=60|end_char=62
+10	sending	send	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=63|end_char=70
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=71|end_char=74
+12	on	on	ADP	IN	_	11	_	_	start_char=75|end_char=77
+13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=78|end_char=82
+14	way	way	NOUN	NN	Number=Sing	13	_	_	start_char=83|end_char=86|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=86|end_char=87
+
+# text = Just forget about her: she wouldn't have ever come out to meet you anyway.
+# sent_id = 116426
+1	Just	just	ADV	RB	_	0	_	_	start_char=88|end_char=92
+2	forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=93|end_char=99
+3	about	about	ADP	IN	_	2	_	_	start_char=100|end_char=105
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=106|end_char=109|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=109|end_char=110
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=111|end_char=114
+7-8	wouldn't	_	_	_	_	_	_	_	start_char=115|end_char=123
+7	would	would	AUX	MD	VerbForm=Fin	6	_	_	start_char=115|end_char=120
+8	n't	not	PART	RB	_	7	_	_	start_char=120|end_char=123
+9	have	have	AUX	VB	VerbForm=Inf	8	_	_	start_char=124|end_char=128
+10	ever	ever	ADV	RB	_	9	_	_	start_char=129|end_char=133
+11	come	come	VERB	VB	VerbForm=Inf	10	_	_	start_char=134|end_char=138
+12	out	out	ADV	RB	_	11	_	_	start_char=139|end_char=142
+13	to	to	PART	TO	_	12	_	_	start_char=143|end_char=145
+14	meet	meet	VERB	VB	VerbForm=Inf	13	_	_	start_char=146|end_char=150
+15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	_	_	start_char=151|end_char=154
+16	anyway	anyway	ADV	RB	_	15	_	_	start_char=155|end_char=161|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=161|end_char=162|SpaceAfter=No
+

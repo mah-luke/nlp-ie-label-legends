@@ -1,0 +1,31 @@
+# text = If she's paying all the bills he's a deadbeat leech.
+# sent_id = 116303
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2-3	she's	_	_	_	_	_	_	_	start_char=3|end_char=8
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=6|end_char=8
+4	paying	pay	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=9|end_char=15
+5	all	all	DET	PDT	_	4	_	_	start_char=16|end_char=19
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=20|end_char=23
+7	bills	bill	NOUN	NNS	Number=Plur	6	_	_	start_char=24|end_char=29
+8-9	he's	_	_	_	_	_	_	_	start_char=30|end_char=34
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=30|end_char=32
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=32|end_char=34
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=35|end_char=36
+11	deadbeat	deadbeat	NOUN	NN	Number=Sing	10	_	_	start_char=37|end_char=45
+12	leech	leech	NOUN	NN	Number=Sing	11	_	_	start_char=46|end_char=51|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=51|end_char=52
+
+# text = I don't like leeches regardless of gender.
+# sent_id = 116304
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=53|end_char=54
+2-3	don't	_	_	_	_	_	_	_	start_char=55|end_char=60
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=55|end_char=57
+3	n't	not	PART	RB	_	2	_	_	start_char=57|end_char=60
+4	like	like	VERB	VB	VerbForm=Inf	3	_	_	start_char=61|end_char=65
+5	leeches	leech	NOUN	NNS	Number=Plur	4	_	_	start_char=66|end_char=73
+6	regardless	regardless	ADV	RB	_	5	_	_	start_char=74|end_char=84
+7	of	of	ADP	IN	_	6	_	_	start_char=85|end_char=87
+8	gender	gender	NOUN	NN	Number=Sing	7	_	_	start_char=88|end_char=94|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=94|end_char=95|SpaceAfter=No
+

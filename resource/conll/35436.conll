@@ -1,0 +1,54 @@
+# text = bro i’ve gotten any female i wanted for all 25 years of my life.
+# sent_id = 75837
+1	bro	bro	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2-3	i’ve	_	_	_	_	_	_	_	start_char=4|end_char=8
+2	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=4|end_char=5
+3	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=5|end_char=8
+4	gotten	get	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=9|end_char=15
+5	any	any	DET	DT	_	4	_	_	start_char=16|end_char=19
+6	female	female	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=26
+7	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=27|end_char=28
+8	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	_	_	start_char=29|end_char=35
+9	for	for	ADP	IN	_	8	_	_	start_char=36|end_char=39
+10	all	all	DET	PDT	_	9	_	_	start_char=40|end_char=43
+11	25	25	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=44|end_char=46
+12	years	year	NOUN	NNS	Number=Plur	11	_	_	start_char=47|end_char=52
+13	of	of	ADP	IN	_	12	_	_	start_char=53|end_char=55
+14	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	_	_	start_char=56|end_char=58
+15	life	life	NOUN	NN	Number=Sing	14	_	_	start_char=59|end_char=63|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=63|end_char=64
+
+# text = why do you think i’m not posting the same shit you are?
+# sent_id = 75838
+1	why	why	ADV	WRB	PronType=Int	0	_	_	start_char=65|end_char=68
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=69|end_char=71
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=72|end_char=75
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=76|end_char=81
+5-6	i’m	_	_	_	_	_	_	_	start_char=82|end_char=85
+5	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=82|end_char=83
+6	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=83|end_char=85
+7	not	not	PART	RB	_	6	_	_	start_char=86|end_char=89
+8	posting	post	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=90|end_char=97
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=98|end_char=101
+10	same	same	ADJ	JJ	Degree=Pos	9	_	_	start_char=102|end_char=106
+11	shit	shit	NOUN	NN	Number=Sing	10	_	_	start_char=107|end_char=111
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=112|end_char=115
+13	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=116|end_char=119|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=119|end_char=120
+
+# text = if you know you don’t need to, shits easy tbh
+# sent_id = 75839
+1	if	if	SCONJ	IN	_	0	_	_	start_char=121|end_char=123
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=124|end_char=127
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=128|end_char=132
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=133|end_char=136
+5-6	don’t	_	_	_	_	_	_	_	start_char=137|end_char=142
+5	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=137|end_char=139
+6	n’t	not	PART	RB	_	5	_	_	start_char=139|end_char=142
+7	need	need	VERB	VB	VerbForm=Inf	6	_	_	start_char=143|end_char=147
+8	to	to	PART	TO	_	7	_	_	start_char=148|end_char=150|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=150|end_char=151
+10	shits	shit	NOUN	NNS	Number=Plur	9	_	_	start_char=152|end_char=157
+11	easy	easy	ADJ	JJ	Degree=Pos	10	_	_	start_char=158|end_char=162
+12	tbh	tbh	NOUN	NN	Number=Sing	11	_	_	start_char=163|end_char=166|SpaceAfter=No
+

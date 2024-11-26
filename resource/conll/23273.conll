@@ -1,0 +1,40 @@
+# text = And this girl who is virtue signalling SO HARD she's pretending to have multiple transgender friends who serve in the military.
+# sent_id = 49968
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=4|end_char=8
+3	girl	girl	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=13
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=14|end_char=17
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=18|end_char=20
+6	virtue	virtue	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=27
+7	signalling	signal	VERB	VBG	Tense=Pres|VerbForm=Ger	6	_	_	start_char=28|end_char=38
+8	SO	so	ADV	RB	_	7	_	_	start_char=39|end_char=41
+9	HARD	hard	ADJ	JJ	Degree=Pos	8	_	_	start_char=42|end_char=46
+10-11	she's	_	_	_	_	_	_	_	start_char=47|end_char=52
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=47|end_char=50
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=50|end_char=52
+12	pretending	pretend	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=53|end_char=63
+13	to	to	PART	TO	_	12	_	_	start_char=64|end_char=66
+14	have	have	VERB	VB	VerbForm=Inf	13	_	_	start_char=67|end_char=71
+15	multiple	multiple	ADJ	JJ	Degree=Pos	14	_	_	start_char=72|end_char=80
+16	transgender	transgender	ADJ	JJ	Degree=Pos	15	_	_	start_char=81|end_char=92
+17	friends	friend	NOUN	NNS	Number=Plur	16	_	_	start_char=93|end_char=100
+18	who	who	PRON	WP	PronType=Rel	17	_	_	start_char=101|end_char=104
+19	serve	serve	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=105|end_char=110
+20	in	in	ADP	IN	_	19	_	_	start_char=111|end_char=113
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=114|end_char=117
+22	military	military	NOUN	NN	Number=Sing	21	_	_	start_char=118|end_char=126|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=126|end_char=127
+
+# text = I call bullshit.
+# sent_id = 49969
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=128|end_char=129
+2	call	call	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=130|end_char=134
+3	bullshit	bullshit	NOUN	NN	Number=Sing	2	_	_	start_char=135|end_char=143|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=143|end_char=144
+
+# text = [URL]
+# sent_id = 49970
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=145|end_char=146|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=146|end_char=149|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=149|end_char=150|SpaceAfter=No
+

@@ -1,0 +1,48 @@
+# text = "Ugh, stop assuming all women are meant to be nurterers!"
+# sent_id = 102849
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Ugh	ugh	INTJ	UH	_	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=4|end_char=5
+4	stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=6|end_char=10
+5	assuming	assume	VERB	VBG	VerbForm=Ger	4	_	_	start_char=11|end_char=19
+6	all	all	DET	DT	_	5	_	_	start_char=20|end_char=23
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=24|end_char=29
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=30|end_char=33
+9	meant	mean	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=34|end_char=39
+10	to	to	PART	TO	_	9	_	_	start_char=40|end_char=42
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=43|end_char=45
+12	nurterers	nurterer	NOUN	NNS	Number=Plur	11	_	_	start_char=46|end_char=55|SpaceAfter=No
+13	!	!	PUNCT	.	_	12	_	_	start_char=55|end_char=56|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=56|end_char=57
+
+# text = "Ugh, why did you call a bomb a mother?
+# sent_id = 102850
+1	"	"	PUNCT	``	_	0	_	_	start_char=58|end_char=59|SpaceAfter=No
+2	Ugh	ugh	INTJ	UH	_	1	_	_	start_char=59|end_char=62|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=62|end_char=63
+4	why	why	ADV	WRB	PronType=Int	3	_	_	start_char=64|end_char=67
+5	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	4	_	_	start_char=68|end_char=71
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=72|end_char=75
+7	call	call	VERB	VB	VerbForm=Inf	6	_	_	start_char=76|end_char=80
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=81|end_char=82
+9	bomb	bomb	NOUN	NN	Number=Sing	8	_	_	start_char=83|end_char=87
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=88|end_char=89
+11	mother	mother	NOUN	NN	Number=Sing	10	_	_	start_char=90|end_char=96|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=96|end_char=97
+
+# text = Don't you know mothers are naturally kind and nurturing?"
+# sent_id = 102851
+1-2	Don't	_	_	_	_	_	_	_	start_char=98|end_char=103
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=98|end_char=100
+2	n't	not	PART	RB	_	1	_	_	start_char=100|end_char=103
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=104|end_char=107
+4	know	know	VERB	VB	VerbForm=Inf	3	_	_	start_char=108|end_char=112
+5	mothers	mother	NOUN	NNS	Number=Plur	4	_	_	start_char=113|end_char=120
+6	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=121|end_char=124
+7	naturally	naturally	ADV	RB	_	6	_	_	start_char=125|end_char=134
+8	kind	kind	ADJ	JJ	Degree=Pos	7	_	_	start_char=135|end_char=139
+9	and	and	CCONJ	CC	_	8	_	_	start_char=140|end_char=143
+10	nurturing	nurture	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=144|end_char=153|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=153|end_char=154|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=154|end_char=155|SpaceAfter=No
+

@@ -1,0 +1,45 @@
+# text = Wow.
+# sent_id = 91240
+1	Wow	wow	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+
+# text = How could that many Hapa guys be all gay?
+# sent_id = 91241
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=5|end_char=8
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=9|end_char=14
+3	that	that	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=15|end_char=19
+4	many	many	ADJ	JJ	Degree=Pos	3	_	_	start_char=20|end_char=24
+5	Hapa	Hapa	ADJ	JJ	Degree=Pos	4	_	_	start_char=25|end_char=29
+6	guys	guy	NOUN	NNS	Number=Plur	5	_	_	start_char=30|end_char=34
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=35|end_char=37
+8	all	all	ADV	RB	_	7	_	_	start_char=38|end_char=41
+9	gay	gay	ADJ	JJ	Degree=Pos	8	_	_	start_char=42|end_char=45|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=45|end_char=46
+
+# text = Not even one of them ever had a girlfriend before?
+# sent_id = 91242
+1	Not	not	PART	RB	_	0	_	_	start_char=47|end_char=50
+2	even	even	ADV	RB	_	1	_	_	start_char=51|end_char=55
+3	one	one	NUM	CD	NumForm=Word|NumType=Card	2	_	_	start_char=56|end_char=59
+4	of	of	ADP	IN	_	3	_	_	start_char=60|end_char=62
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=63|end_char=67
+6	ever	ever	ADV	RB	_	5	_	_	start_char=68|end_char=72
+7	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=73|end_char=76
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=77|end_char=78
+9	girlfriend	girlfriend	NOUN	NN	Number=Sing	8	_	_	start_char=79|end_char=89
+10	before	before	ADV	RB	_	9	_	_	start_char=90|end_char=96|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=96|end_char=97
+
+# text = I never realized there were that many gay Hapas.
+# sent_id = 91243
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=98|end_char=99
+2	never	never	ADV	RB	_	1	_	_	start_char=100|end_char=105
+3	realized	realize	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=106|end_char=114
+4	there	there	PRON	EX	_	3	_	_	start_char=115|end_char=120
+5	were	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=121|end_char=125
+6	that	that	SCONJ	IN	_	5	_	_	start_char=126|end_char=130
+7	many	many	ADJ	JJ	Degree=Pos	6	_	_	start_char=131|end_char=135
+8	gay	gay	ADJ	JJ	Degree=Pos	7	_	_	start_char=136|end_char=139
+9	Hapas	Hapas	PROPN	NNP	Number=Sing	8	_	_	start_char=140|end_char=145|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=145|end_char=146|SpaceAfter=No
+

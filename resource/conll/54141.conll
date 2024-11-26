@@ -1,0 +1,70 @@
+# text = At least the guy was right for calling her a female.
+# sent_id = 115722
+1	At	at	ADP	IN	ExtPos=ADV	0	_	_	start_char=0|end_char=2
+2	least	least	ADJ	JJS	Degree=Sup	1	_	_	start_char=3|end_char=8
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=9|end_char=12
+4	guy	guy	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=16
+5	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=17|end_char=20
+6	right	right	ADJ	JJ	Degree=Pos	5	_	_	start_char=21|end_char=26
+7	for	for	SCONJ	IN	_	6	_	_	start_char=27|end_char=30
+8	calling	call	VERB	VBG	VerbForm=Ger	7	_	_	start_char=31|end_char=38
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=39|end_char=42
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=43|end_char=44
+11	female	female	NOUN	NN	Number=Sing	10	_	_	start_char=45|end_char=51|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=51|end_char=52
+
+# text = A woman doesn't hit a guy.
+# sent_id = 115723
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=53|end_char=54
+2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=55|end_char=60
+3-4	doesn't	_	_	_	_	_	_	_	start_char=61|end_char=68
+3	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=61|end_char=65
+4	n't	not	PART	RB	_	3	_	_	start_char=65|end_char=68
+5	hit	hit	VERB	VB	VerbForm=Inf	4	_	_	start_char=69|end_char=72
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=73|end_char=74
+7	guy	guy	NOUN	NN	Number=Sing	6	_	_	start_char=75|end_char=78|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=78|end_char=79
+
+# text = Ever.
+# sent_id = 115724
+1	Ever	ever	ADV	RB	_	0	_	_	start_char=80|end_char=84|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=84|end_char=85
+
+# text = AND she got what she asked for, just not all of it, she's still standing.
+# sent_id = 115725
+1	AND	and	CCONJ	CC	_	0	_	_	start_char=86|end_char=89
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=90|end_char=93
+3	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=94|end_char=97
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=98|end_char=102
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=103|end_char=106
+6	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=107|end_char=112
+7	for	for	ADP	IN	_	6	_	_	start_char=113|end_char=116|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=116|end_char=117
+9	just	just	ADV	RB	_	8	_	_	start_char=118|end_char=122
+10	not	not	PART	RB	_	9	_	_	start_char=123|end_char=126
+11	all	all	DET	DT	_	10	_	_	start_char=127|end_char=130
+12	of	of	ADP	IN	_	11	_	_	start_char=131|end_char=133
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=134|end_char=136|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=136|end_char=137
+15-16	she's	_	_	_	_	_	_	_	start_char=138|end_char=143
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=138|end_char=141
+16	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=141|end_char=143
+17	still	still	ADV	RB	_	16	_	_	start_char=144|end_char=149
+18	standing	stand	VERB	VBG	Tense=Pres|VerbForm=Part	17	_	_	start_char=150|end_char=158|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=158|end_char=159
+
+# text = Now, let the down voting begin, please. ]=)
+# sent_id = 115726
+1	Now	now	ADV	RB	_	0	_	_	start_char=160|end_char=163|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=163|end_char=164
+3	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=165|end_char=168
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=169|end_char=172
+5	down	down	NOUN	NN	Number=Sing	4	_	_	start_char=173|end_char=177
+6	voting	voting	NOUN	NN	Number=Sing	5	_	_	start_char=178|end_char=184
+7	begin	begin	VERB	VB	VerbForm=Inf	6	_	_	start_char=185|end_char=190|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=190|end_char=191
+9	please	please	INTJ	UH	_	8	_	_	start_char=192|end_char=198|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=198|end_char=199
+11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=200|end_char=201|SpaceAfter=No
+12	=)	=)	SYM	NFP	_	11	_	_	start_char=201|end_char=203|SpaceAfter=No
+

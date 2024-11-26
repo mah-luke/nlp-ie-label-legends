@@ -1,0 +1,61 @@
+# text = I don’t feel you should beat retards to death for being retarded.
+# sent_id = 105482
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	don’t	_	_	_	_	_	_	_	start_char=2|end_char=7
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	n’t	not	PART	RB	_	2	_	_	start_char=4|end_char=7
+4	feel	feel	VERB	VB	VerbForm=Inf	3	_	_	start_char=8|end_char=12
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=13|end_char=16
+6	should	should	AUX	MD	VerbForm=Fin	5	_	_	start_char=17|end_char=23
+7	beat	beat	VERB	VB	VerbForm=Inf	6	_	_	start_char=24|end_char=28
+8	retards	retard	NOUN	NNS	Number=Plur	7	_	_	start_char=29|end_char=36
+9	to	to	ADP	IN	_	8	_	_	start_char=37|end_char=39
+10	death	death	NOUN	NN	Number=Sing	9	_	_	start_char=40|end_char=45
+11	for	for	SCONJ	IN	_	10	_	_	start_char=46|end_char=49
+12	being	be	AUX	VBG	VerbForm=Ger	11	_	_	start_char=50|end_char=55
+13	retarded	retarded	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	12	_	_	start_char=56|end_char=64|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=64|end_char=65
+
+# text = If someone loses consciousness from trauma, there is a significant chance of death.
+# sent_id = 105483
+1	If	if	SCONJ	IN	_	0	_	_	start_char=66|end_char=68
+2	someone	someone	PRON	NN	Number=Sing|PronType=Ind	1	_	_	start_char=69|end_char=76
+3	loses	lose	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=77|end_char=82
+4	consciousness	consciousness	NOUN	NN	Number=Sing	3	_	_	start_char=83|end_char=96
+5	from	from	ADP	IN	_	4	_	_	start_char=97|end_char=101
+6	trauma	trauma	NOUN	NN	Number=Sing	5	_	_	start_char=102|end_char=108|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=108|end_char=109
+8	there	there	PRON	EX	_	7	_	_	start_char=110|end_char=115
+9	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=116|end_char=118
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=119|end_char=120
+11	significant	significant	ADJ	JJ	Degree=Pos	10	_	_	start_char=121|end_char=132
+12	chance	chance	NOUN	NN	Number=Sing	11	_	_	start_char=133|end_char=139
+13	of	of	ADP	IN	_	12	_	_	start_char=140|end_char=142
+14	death	death	NOUN	NN	Number=Sing	13	_	_	start_char=143|end_char=148|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=148|end_char=149
+
+# text = Beating white knights is good.
+# sent_id = 105484
+1	Beating	beat	VERB	VBG	VerbForm=Ger	0	_	_	start_char=150|end_char=157
+2	white	white	ADJ	JJ	Degree=Pos	1	_	_	start_char=158|end_char=163
+3	knights	Knight	NOUN	NNS	Number=Plur	2	_	_	start_char=164|end_char=171
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=172|end_char=174
+5	good	good	ADJ	JJ	Degree=Pos	4	_	_	start_char=175|end_char=179|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=179|end_char=180
+
+# text = She should have been expelled, shamed, and her father censured.
+# sent_id = 105485
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=181|end_char=184
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=185|end_char=191
+3	have	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=192|end_char=196
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=197|end_char=201
+5	expelled	expel	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=202|end_char=210|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=210|end_char=211
+7	shamed	shame	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=212|end_char=218|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=218|end_char=219
+9	and	and	CCONJ	CC	_	8	_	_	start_char=220|end_char=223
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=224|end_char=227
+11	father	father	NOUN	NN	Number=Sing	10	_	_	start_char=228|end_char=234
+12	censured	censure	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=235|end_char=243|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=243|end_char=244|SpaceAfter=No
+

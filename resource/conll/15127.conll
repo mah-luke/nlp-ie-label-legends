@@ -1,0 +1,43 @@
+# text = I call bullshit.
+# sent_id = 32289
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	call	call	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	bullshit	bullshit	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=15|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=15|end_char=16
+
+# text = All that Harry Potter ranking in the women's list and **NONE** of the damn Twilight series, nor the the 50 Shades movies????
+# sent_id = 32290
+1	All	all	DET	PDT	_	0	_	_	start_char=17|end_char=20
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=21|end_char=25
+3	Harry	Harry	PROPN	NNP	Number=Sing	2	_	_	start_char=26|end_char=31
+4	Potter	Potter	PROPN	NNP	Number=Sing	3	_	_	start_char=32|end_char=38
+5	ranking	rank	NOUN	NN	Number=Sing	4	_	_	start_char=39|end_char=46
+6	in	in	ADP	IN	_	5	_	_	start_char=47|end_char=49
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=50|end_char=53
+8-9	women's	_	_	_	_	_	_	_	start_char=54|end_char=61
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=54|end_char=59
+9	's	's	PART	POS	_	8	_	_	start_char=59|end_char=61
+10	list	list	NOUN	NN	Number=Sing	9	_	_	start_char=62|end_char=66
+11	and	and	CCONJ	CC	_	10	_	_	start_char=67|end_char=70
+12	**	**	PUNCT	NFP	_	11	_	_	start_char=71|end_char=73|SpaceAfter=No
+13	NONE	none	NOUN	NN	Number=Sing	12	_	_	start_char=73|end_char=77|SpaceAfter=No
+14	**	**	PUNCT	NFP	_	13	_	_	start_char=77|end_char=79
+15	of	of	ADP	IN	_	14	_	_	start_char=80|end_char=82
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=83|end_char=86
+17	damn	damn	ADJ	JJ	Degree=Pos	16	_	_	start_char=87|end_char=91
+18	Twilight	Twilight	PROPN	NNP	Number=Sing	17	_	_	start_char=92|end_char=100
+19	series	series	NOUN	NN	Number=Sing	18	_	_	start_char=101|end_char=107|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=107|end_char=108
+21	nor	nor	CCONJ	CC	_	20	_	_	start_char=109|end_char=112
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=113|end_char=116
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=117|end_char=120
+24	50	50	NUM	CD	NumForm=Digit|NumType=Card	23	_	_	start_char=121|end_char=123
+25	Shades	shade	NOUN	NNS	Number=Plur	24	_	_	start_char=124|end_char=130
+26	movies	movie	NOUN	NNS	Number=Plur	25	_	_	start_char=131|end_char=137|SpaceAfter=No
+27	????	????	PUNCT	.	_	26	_	_	start_char=137|end_char=141
+
+# text = Nope.
+# sent_id = 32291
+1	Nope	nope	INTJ	UH	_	0	_	_	start_char=142|end_char=146|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=146|end_char=147|SpaceAfter=No
+

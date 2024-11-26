@@ -1,0 +1,70 @@
+# text = Steve, I have to disagree.
+# sent_id = 80681
+1	Steve	Steve	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=7|end_char=8
+4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=9|end_char=13
+5	to	to	PART	TO	_	4	_	_	start_char=14|end_char=16
+6	disagree	disagree	VERB	VB	VerbForm=Inf	5	_	_	start_char=17|end_char=25|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=25|end_char=26
+
+# text = I think both her and her sexual assault spouse each have a gun right next to their beds.
+# sent_id = 80682
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=27|end_char=28
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=29|end_char=34
+3	both	both	CCONJ	CC	_	2	_	_	start_char=35|end_char=39
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=40|end_char=43
+5	and	and	CCONJ	CC	_	4	_	_	start_char=44|end_char=47
+6	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=48|end_char=51
+7	sexual	sexual	ADJ	JJ	Degree=Pos	6	_	_	start_char=52|end_char=58
+8	assault	assault	NOUN	NN	Number=Sing	7	_	_	start_char=59|end_char=66
+9	spouse	spouse	NOUN	NN	Number=Sing	8	_	_	start_char=67|end_char=73
+10	each	each	DET	DT	_	9	_	_	start_char=74|end_char=78
+11	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=79|end_char=83
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=84|end_char=85
+13	gun	gun	NOUN	NN	Number=Sing	12	_	_	start_char=86|end_char=89
+14	right	right	ADV	RB	_	13	_	_	start_char=90|end_char=95
+15	next	next	ADV	RB	_	14	_	_	start_char=96|end_char=100
+16	to	to	ADP	IN	_	15	_	_	start_char=101|end_char=103
+17	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=104|end_char=109
+18	beds	bed	NOUN	NNS	Number=Plur	17	_	_	start_char=110|end_char=114|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=114|end_char=115
+
+# text = When they know the end is near, they will simply be the cowards they've always been and take the easy way out.
+# sent_id = 80683
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=116|end_char=120
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=121|end_char=125
+3	know	know	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=126|end_char=130
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=131|end_char=134
+5	end	end	NOUN	NN	Number=Sing	4	_	_	start_char=135|end_char=138
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=139|end_char=141
+7	near	near	ADV	RB	_	6	_	_	start_char=142|end_char=146|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=146|end_char=147
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=148|end_char=152
+10	will	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=153|end_char=157
+11	simply	simply	ADV	RB	_	10	_	_	start_char=158|end_char=164
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	start_char=165|end_char=167
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=168|end_char=171
+14	cowards	coward	NOUN	NNS	Number=Plur	13	_	_	start_char=172|end_char=179
+15-16	they've	_	_	_	_	_	_	_	start_char=180|end_char=187
+15	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	14	_	_	start_char=180|end_char=184
+16	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=184|end_char=187
+17	always	always	ADV	RB	_	16	_	_	start_char=188|end_char=194
+18	been	be	AUX	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=195|end_char=199
+19	and	and	CCONJ	CC	_	18	_	_	start_char=200|end_char=203
+20	take	take	VERB	VB	VerbForm=Inf	19	_	_	start_char=204|end_char=208
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=209|end_char=212
+22	easy	easy	ADJ	JJ	Degree=Pos	21	_	_	start_char=213|end_char=217
+23	way	way	NOUN	NN	Number=Sing	22	_	_	start_char=218|end_char=221
+24	out	out	ADP	RP	_	23	_	_	start_char=222|end_char=225|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=225|end_char=226
+
+# text = May they rot in hell.
+# sent_id = 80684
+1	May	may	AUX	MD	VerbForm=Fin	0	_	_	start_char=227|end_char=230
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=231|end_char=235
+3	rot	rot	VERB	VB	VerbForm=Inf	2	_	_	start_char=236|end_char=239
+4	in	in	ADP	IN	_	3	_	_	start_char=240|end_char=242
+5	hell	hell	NOUN	NN	Number=Sing	4	_	_	start_char=243|end_char=247|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=247|end_char=248|SpaceAfter=No
+

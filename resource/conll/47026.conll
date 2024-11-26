@@ -1,0 +1,61 @@
+# text = You need to talk to your own lawyer.
+# sent_id = 100537
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	to	to	PART	TO	_	2	_	_	start_char=9|end_char=11
+4	talk	talk	VERB	VB	VerbForm=Inf	3	_	_	start_char=12|end_char=16
+5	to	to	ADP	IN	_	4	_	_	start_char=17|end_char=19
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=20|end_char=24
+7	own	own	ADJ	JJ	Degree=Pos	6	_	_	start_char=25|end_char=28
+8	lawyer	lawyer	NOUN	NN	Number=Sing	7	_	_	start_char=29|end_char=35|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = Debt and property from before the marriage should remain with original owner.
+# sent_id = 100538
+1	Debt	debt	NOUN	NN	Number=Sing	0	_	_	start_char=37|end_char=41
+2	and	and	CCONJ	CC	_	1	_	_	start_char=42|end_char=45
+3	property	property	NOUN	NN	Number=Sing	2	_	_	start_char=46|end_char=54
+4	from	from	ADP	IN	_	3	_	_	start_char=55|end_char=59
+5	before	before	SCONJ	IN	_	4	_	_	start_char=60|end_char=66
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=67|end_char=70
+7	marriage	marriage	NOUN	NN	Number=Sing	6	_	_	start_char=71|end_char=79
+8	should	should	AUX	MD	VerbForm=Fin	7	_	_	start_char=80|end_char=86
+9	remain	remain	VERB	VB	VerbForm=Inf	8	_	_	start_char=87|end_char=93
+10	with	with	ADP	IN	_	9	_	_	start_char=94|end_char=98
+11	original	original	ADJ	JJ	Degree=Pos	10	_	_	start_char=99|end_char=107
+12	owner	owner	NOUN	NN	Number=Sing	11	_	_	start_char=108|end_char=113|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=113|end_char=114
+
+# text = Any assets or debt acquired after marriage is split 50/50.
+# sent_id = 100539
+1	Any	any	DET	DT	_	0	_	_	start_char=115|end_char=118
+2	assets	asset	NOUN	NNS	Number=Plur	1	_	_	start_char=119|end_char=125
+3	or	or	CCONJ	CC	_	2	_	_	start_char=126|end_char=128
+4	debt	debt	NOUN	NN	Number=Sing	3	_	_	start_char=129|end_char=133
+5	acquired	acquire	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=134|end_char=142
+6	after	after	SCONJ	IN	_	5	_	_	start_char=143|end_char=148
+7	marriage	marriage	NOUN	NN	Number=Sing	6	_	_	start_char=149|end_char=157
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=158|end_char=160
+9	split	split	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=161|end_char=166
+10	50	50	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=167|end_char=169|SpaceAfter=No
+11	/	/	SYM	SYM	_	10	_	_	start_char=169|end_char=170|SpaceAfter=No
+12	50	50	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=170|end_char=172|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=172|end_char=173
+
+# text = That includes things she will try to say are hers, like jewelry.
+# sent_id = 100540
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=174|end_char=178
+2	includes	include	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=179|end_char=187
+3	things	thing	NOUN	NNS	Number=Plur	2	_	_	start_char=188|end_char=194
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=195|end_char=198
+5	will	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=199|end_char=203
+6	try	try	VERB	VB	VerbForm=Inf	5	_	_	start_char=204|end_char=207
+7	to	to	PART	TO	_	6	_	_	start_char=208|end_char=210
+8	say	say	VERB	VB	VerbForm=Inf	7	_	_	start_char=211|end_char=214
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=215|end_char=218
+10	hers	hers	PRON	PRP	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=219|end_char=223|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=223|end_char=224
+12	like	like	ADP	IN	_	11	_	_	start_char=225|end_char=229
+13	jewelry	jewelry	NOUN	NN	Number=Sing	12	_	_	start_char=230|end_char=237|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=237|end_char=238|SpaceAfter=No
+

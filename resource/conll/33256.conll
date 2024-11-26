@@ -1,0 +1,32 @@
+# text = If she's dead and she knows it then it's best to hurt them before they kill her.
+# sent_id = 71201
+1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
+2-3	she's	_	_	_	_	_	_	_	start_char=3|end_char=8
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=6
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=6|end_char=8
+4	dead	dead	ADJ	JJ	Degree=Pos	3	_	_	start_char=9|end_char=13
+5	and	and	CCONJ	CC	_	4	_	_	start_char=14|end_char=17
+6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=18|end_char=21
+7	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=22|end_char=27
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=28|end_char=30
+9	then	then	ADV	RB	PronType=Dem	8	_	_	start_char=31|end_char=35
+10-11	it's	_	_	_	_	_	_	_	start_char=36|end_char=40
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=36|end_char=38
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=38|end_char=40
+12	best	good	ADJ	JJS	Degree=Sup	11	_	_	start_char=41|end_char=45
+13	to	to	PART	TO	_	12	_	_	start_char=46|end_char=48
+14	hurt	hurt	VERB	VB	VerbForm=Inf	13	_	_	start_char=49|end_char=53
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	_	_	start_char=54|end_char=58
+16	before	before	SCONJ	IN	_	15	_	_	start_char=59|end_char=65
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=66|end_char=70
+18	kill	kill	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=71|end_char=75
+19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=76|end_char=79|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=79|end_char=80
+
+# text = Go down swinging.
+# sent_id = 71202
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=81|end_char=83
+2	down	down	ADP	RP	_	1	_	_	start_char=84|end_char=88
+3	swinging	swing	VERB	VBG	VerbForm=Ger	2	_	_	start_char=89|end_char=97|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=97|end_char=98|SpaceAfter=No
+

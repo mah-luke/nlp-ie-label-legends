@@ -1,0 +1,44 @@
+# text = Of course I never hated women.
+# sent_id = 83944
+1	Of	of	ADV	IN	_	0	_	_	start_char=0|end_char=2
+2	course	course	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=9
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=10|end_char=11
+4	never	never	ADV	RB	_	3	_	_	start_char=12|end_char=17
+5	hated	hate	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=18|end_char=23
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=24|end_char=29|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=29|end_char=30
+
+# text = I only hated myself.
+# sent_id = 83945
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=31|end_char=32
+2	only	only	ADV	RB	_	1	_	_	start_char=33|end_char=37
+3	hated	hate	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=38|end_char=43
+4	myself	myself	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	3	_	_	start_char=44|end_char=50|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=50|end_char=51
+
+# text = I still do.
+# sent_id = 83946
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=52|end_char=53
+2	still	still	ADV	RB	_	1	_	_	start_char=54|end_char=59
+3	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=60|end_char=62|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=62|end_char=63
+
+# text = I don't hate the rest of the world for being simple and relatable.
+# sent_id = 83947
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=64|end_char=65
+2-3	don't	_	_	_	_	_	_	_	start_char=66|end_char=71
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=66|end_char=68
+3	n't	not	PART	RB	_	2	_	_	start_char=68|end_char=71
+4	hate	hate	VERB	VB	VerbForm=Inf	3	_	_	start_char=72|end_char=76
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=77|end_char=80
+6	rest	rest	NOUN	NN	Number=Sing	5	_	_	start_char=81|end_char=85
+7	of	of	ADP	IN	_	6	_	_	start_char=86|end_char=88
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=89|end_char=92
+9	world	world	NOUN	NN	Number=Sing	8	_	_	start_char=93|end_char=98
+10	for	for	SCONJ	IN	_	9	_	_	start_char=99|end_char=102
+11	being	be	AUX	VBG	VerbForm=Ger	10	_	_	start_char=103|end_char=108
+12	simple	simple	ADJ	JJ	Degree=Pos	11	_	_	start_char=109|end_char=115
+13	and	and	CCONJ	CC	_	12	_	_	start_char=116|end_char=119
+14	relatable	relatable	ADJ	JJ	Degree=Pos	13	_	_	start_char=120|end_char=129|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=129|end_char=130|SpaceAfter=No
+

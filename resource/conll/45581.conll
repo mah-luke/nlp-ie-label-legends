@@ -1,0 +1,48 @@
+# text = so your saying all white people are racist?
+# sent_id = 97310
+1	so	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=3|end_char=7
+3	saying	say	VERB	VBG	VerbForm=Ger	2	_	_	start_char=8|end_char=14
+4	all	all	DET	DT	_	3	_	_	start_char=15|end_char=18
+5	white	white	ADJ	JJ	Degree=Pos	4	_	_	start_char=19|end_char=24
+6	people	person	NOUN	NNS	Number=Plur	5	_	_	start_char=25|end_char=31
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=32|end_char=35
+8	racist	racist	ADJ	JJ	Degree=Pos	7	_	_	start_char=36|end_char=42|SpaceAfter=No
+9	?	?	PUNCT	.	_	8	_	_	start_char=42|end_char=43
+
+# text = isn't that racist?
+# sent_id = 97311
+1-2	isn't	_	_	_	_	_	_	_	start_char=44|end_char=49
+1	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=44|end_char=46
+2	n't	not	PART	RB	_	1	_	_	start_char=46|end_char=49
+3	that	that	ADV	RB	_	2	_	_	start_char=50|end_char=54
+4	racist	racist	ADJ	JJ	Degree=Pos	3	_	_	start_char=55|end_char=61|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=61|end_char=62
+
+# text = and why did you avoide the real question.
+# sent_id = 97312
+1	and	and	CCONJ	CC	_	0	_	_	start_char=63|end_char=66
+2	why	why	ADV	WRB	PronType=Int	1	_	_	start_char=67|end_char=70
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	_	_	start_char=71|end_char=74
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=75|end_char=78
+5	avoide	avoide	VERB	VB	VerbForm=Inf	4	_	_	start_char=79|end_char=85
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=86|end_char=89
+7	real	real	ADJ	JJ	Degree=Pos	6	_	_	start_char=90|end_char=94
+8	question	question	NOUN	NN	Number=Sing	7	_	_	start_char=95|end_char=103|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=103|end_char=104
+
+# text = Was Muhammad a pedophile for fucking his 9 year old wife?
+# sent_id = 97313
+1	Was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=105|end_char=108
+2	Muhammad	Muhammad	PROPN	NNP	Number=Sing	1	_	_	start_char=109|end_char=117
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=118|end_char=119
+4	pedophile	pedophile	NOUN	NN	Number=Sing	3	_	_	start_char=120|end_char=129
+5	for	for	SCONJ	IN	_	4	_	_	start_char=130|end_char=133
+6	fucking	fuck	VERB	VBG	VerbForm=Ger	5	_	_	start_char=134|end_char=141
+7	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=142|end_char=145
+8	9	9	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=146|end_char=147
+9	year	year	NOUN	NN	Number=Sing	8	_	_	start_char=148|end_char=152
+10	old	old	ADJ	JJ	Degree=Pos	9	_	_	start_char=153|end_char=156
+11	wife	wife	NOUN	NN	Number=Sing	10	_	_	start_char=157|end_char=161|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=161|end_char=162|SpaceAfter=No
+

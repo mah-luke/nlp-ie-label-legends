@@ -1,0 +1,63 @@
+# text = Well, I mean, it's true.
+# sent_id = 189
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
+4	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=12|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=12|end_char=13
+6-7	it's	_	_	_	_	_	_	_	start_char=14|end_char=18
+6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=14|end_char=16
+7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=16|end_char=18
+8	true	true	ADJ	JJ	Degree=Pos	7	_	_	start_char=19|end_char=23|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=23|end_char=24
+
+# text = Women being treated as if they are equally valuable as men is hugely triggering to men with fragile egos.
+# sent_id = 190
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=25|end_char=30
+2	being	be	AUX	VBG	VerbForm=Ger	1	_	_	start_char=31|end_char=36
+3	treated	treat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=37|end_char=44
+4	as	as	SCONJ	IN	_	3	_	_	start_char=45|end_char=47
+5	if	if	SCONJ	IN	_	4	_	_	start_char=48|end_char=50
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=51|end_char=55
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=56|end_char=59
+8	equally	equally	ADV	RB	_	7	_	_	start_char=60|end_char=67
+9	valuable	valuable	ADJ	JJ	Degree=Pos	8	_	_	start_char=68|end_char=76
+10	as	as	SCONJ	IN	_	9	_	_	start_char=77|end_char=79
+11	men	man	NOUN	NNS	Number=Plur	10	_	_	start_char=80|end_char=83
+12	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=84|end_char=86
+13	hugely	hugely	ADV	RB	_	12	_	_	start_char=87|end_char=93
+14	triggering	trigger	VERB	VBG	Tense=Pres|VerbForm=Part	13	_	_	start_char=94|end_char=104
+15	to	to	ADP	IN	_	14	_	_	start_char=105|end_char=107
+16	men	man	NOUN	NNS	Number=Plur	15	_	_	start_char=108|end_char=111
+17	with	with	ADP	IN	_	16	_	_	start_char=112|end_char=116
+18	fragile	fragile	ADJ	JJ	Degree=Pos	17	_	_	start_char=117|end_char=124
+19	egos	ego	NOUN	NNS	Number=Plur	18	_	_	start_char=125|end_char=129|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=129|end_char=130
+
+# text = Dude's only mistake is thinking that the fragile egos of butthurt manchildren should be women's problem to deal with.
+# sent_id = 191
+1-2	Dude's	_	_	_	_	_	_	_	start_char=131|end_char=137
+1	Dude	dude	PROPN	NNP	Number=Sing	0	_	_	start_char=131|end_char=135
+2	's	's	PART	POS	_	1	_	_	start_char=135|end_char=137
+3	only	only	ADJ	JJ	Degree=Pos	2	_	_	start_char=138|end_char=142
+4	mistake	mistake	NOUN	NN	Number=Sing	3	_	_	start_char=143|end_char=150
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=151|end_char=153
+6	thinking	think	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=154|end_char=162
+7	that	that	SCONJ	IN	_	6	_	_	start_char=163|end_char=167
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=168|end_char=171
+9	fragile	fragile	ADJ	JJ	Degree=Pos	8	_	_	start_char=172|end_char=179
+10	egos	ego	NOUN	NNS	Number=Plur	9	_	_	start_char=180|end_char=184
+11	of	of	ADP	IN	_	10	_	_	start_char=185|end_char=187
+12	butthurt	butthurt	ADJ	JJ	Degree=Pos	11	_	_	start_char=188|end_char=196
+13	manchildren	manchild	NOUN	NNS	Number=Plur	12	_	_	start_char=197|end_char=208
+14	should	should	AUX	MD	VerbForm=Fin	13	_	_	start_char=209|end_char=215
+15	be	be	AUX	VB	VerbForm=Inf	14	_	_	start_char=216|end_char=218
+16-17	women's	_	_	_	_	_	_	_	start_char=219|end_char=226
+16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=219|end_char=224
+17	's	's	PART	POS	_	16	_	_	start_char=224|end_char=226
+18	problem	problem	NOUN	NN	Number=Sing	17	_	_	start_char=227|end_char=234
+19	to	to	PART	TO	_	18	_	_	start_char=235|end_char=237
+20	deal	deal	VERB	VB	VerbForm=Inf	19	_	_	start_char=238|end_char=242
+21	with	with	ADP	IN	_	20	_	_	start_char=243|end_char=247|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=247|end_char=248|SpaceAfter=No
+

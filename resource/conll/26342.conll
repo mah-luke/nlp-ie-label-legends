@@ -1,0 +1,33 @@
+# text = It's no big secret, except that it's completely wrong.
+# sent_id = 56575
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	no	no	DET	DT	_	2	_	_	start_char=5|end_char=7
+4	big	big	ADJ	JJ	Degree=Pos	3	_	_	start_char=8|end_char=11
+5	secret	secret	NOUN	NN	Number=Sing	4	_	_	start_char=12|end_char=18|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=18|end_char=19
+7	except	except	SCONJ	IN	_	6	_	_	start_char=20|end_char=26
+8	that	that	SCONJ	IN	_	7	_	_	start_char=27|end_char=31
+9-10	it's	_	_	_	_	_	_	_	start_char=32|end_char=36
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=32|end_char=34
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=34|end_char=36
+11	completely	completely	ADV	RB	_	10	_	_	start_char=37|end_char=47
+12	wrong	wrong	ADJ	JJ	Degree=Pos	11	_	_	start_char=48|end_char=53|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=53|end_char=54
+
+# text = Millions of women are attracted to just as many different types.
+# sent_id = 56576
+1	Millions	million	NOUN	NNS	Number=Plur	0	_	_	start_char=55|end_char=63
+2	of	of	ADP	IN	_	1	_	_	start_char=64|end_char=66
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=67|end_char=72
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=73|end_char=76
+5	attracted	attract	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=77|end_char=86
+6	to	to	ADP	IN	_	5	_	_	start_char=87|end_char=89
+7	just	just	ADV	RB	_	6	_	_	start_char=90|end_char=94
+8	as	as	ADV	RB	_	7	_	_	start_char=95|end_char=97
+9	many	many	ADJ	JJ	Degree=Pos	8	_	_	start_char=98|end_char=102
+10	different	different	ADJ	JJ	Degree=Pos	9	_	_	start_char=103|end_char=112
+11	types	type	NOUN	NNS	Number=Plur	10	_	_	start_char=113|end_char=118|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=118|end_char=119|SpaceAfter=No
+

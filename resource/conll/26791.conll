@@ -1,0 +1,49 @@
+# text = well..well..well.. what do we have here.
+# sent_id = 57589
+1	well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	..well	..well	INTJ	UH	_	1	_	_	start_char=4|end_char=10|SpaceAfter=No
+3	..	..	PUNCT	,	_	2	_	_	start_char=10|end_char=12|SpaceAfter=No
+4	well	well	INTJ	UH	_	3	_	_	start_char=12|end_char=16|SpaceAfter=No
+5	..	..	PUNCT	,	_	4	_	_	start_char=16|end_char=18
+6	what	what	PRON	WP	PronType=Int	5	_	_	start_char=19|end_char=23
+7	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=24|end_char=26
+8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	_	_	start_char=27|end_char=29
+9	have	have	VERB	VB	VerbForm=Inf	8	_	_	start_char=30|end_char=34
+10	here	here	ADV	RB	PronType=Dem	9	_	_	start_char=35|end_char=39|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=39|end_char=40
+
+# text = The dumbest motherfucker to ever serve in congress just revealed state secrets live at her press conference.
+# sent_id = 57590
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=41|end_char=44
+2	dumbest	dumb	ADJ	JJS	Degree=Sup	1	_	_	start_char=45|end_char=52
+3	motherfucker	motherfucker	NOUN	NN	Number=Sing	2	_	_	start_char=53|end_char=65
+4	to	to	PART	TO	_	3	_	_	start_char=66|end_char=68
+5	ever	ever	ADV	RB	_	4	_	_	start_char=69|end_char=73
+6	serve	serve	VERB	VB	VerbForm=Inf	5	_	_	start_char=74|end_char=79
+7	in	in	ADP	IN	_	6	_	_	start_char=80|end_char=82
+8	congress	Congress	PROPN	NNP	Number=Sing	7	_	_	start_char=83|end_char=91
+9	just	just	ADV	RB	_	8	_	_	start_char=92|end_char=96
+10	revealed	reveal	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=97|end_char=105
+11	state	state	NOUN	NN	Number=Sing	10	_	_	start_char=106|end_char=111
+12	secrets	secret	NOUN	NNS	Number=Plur	11	_	_	start_char=112|end_char=119
+13	live	live	ADV	RB	_	12	_	_	start_char=120|end_char=124
+14	at	at	ADP	IN	_	13	_	_	start_char=125|end_char=127
+15	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	14	_	_	start_char=128|end_char=131
+16	press	press	NOUN	NN	Number=Sing	15	_	_	start_char=132|end_char=137
+17	conference	conference	NOUN	NN	Number=Sing	16	_	_	start_char=138|end_char=148|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=148|end_char=149
+
+# text = Hang this fucking traitor.
+# sent_id = 57591
+1	Hang	hang	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=150|end_char=154
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=155|end_char=159
+3	fucking	fuck	ADJ	JJ	Degree=Pos	2	_	_	start_char=160|end_char=167
+4	traitor	traitor	NOUN	NN	Number=Sing	3	_	_	start_char=168|end_char=175|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=175|end_char=176
+
+# text = [URL]
+# sent_id = 57592
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=177|end_char=178|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=178|end_char=181|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=181|end_char=182|SpaceAfter=No
+

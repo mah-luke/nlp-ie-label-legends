@@ -1,0 +1,67 @@
+# text = Ugh, what a misogynist!
+# sent_id = 63508
+1	Ugh	ugh	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	what	what	PRON	WP	PronType=Int	2	_	_	start_char=5|end_char=9
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=10|end_char=11
+5	misogynist	misogynist	NOUN	NN	Number=Sing	4	_	_	start_char=12|end_char=22|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = Stop trying to force women in the kitchen.
+# sent_id = 63509
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=24|end_char=28
+2	trying	try	VERB	VBG	VerbForm=Ger	1	_	_	start_char=29|end_char=35
+3	to	to	PART	TO	_	2	_	_	start_char=36|end_char=38
+4	force	force	VERB	VB	VerbForm=Inf	3	_	_	start_char=39|end_char=44
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=45|end_char=50
+6	in	in	ADP	IN	_	5	_	_	start_char=51|end_char=53
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=54|end_char=57
+8	kitchen	kitchen	NOUN	NN	Number=Sing	7	_	_	start_char=58|end_char=65|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=65|end_char=66
+
+# text = You probably think women shouldn't be allowed to vote, too!
+# sent_id = 63510
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=67|end_char=70
+2	probably	probably	ADV	RB	_	1	_	_	start_char=71|end_char=79
+3	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=80|end_char=85
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=86|end_char=91
+5-6	shouldn't	_	_	_	_	_	_	_	start_char=92|end_char=101
+5	should	should	AUX	MD	VerbForm=Fin	4	_	_	start_char=92|end_char=98
+6	n't	not	PART	RB	_	5	_	_	start_char=98|end_char=101
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=102|end_char=104
+8	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=105|end_char=112
+9	to	to	PART	TO	_	8	_	_	start_char=113|end_char=115
+10	vote	vote	VERB	VB	VerbForm=Inf	9	_	_	start_char=116|end_char=120|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=120|end_char=121
+12	too	too	ADV	RB	_	11	_	_	start_char=122|end_char=125|SpaceAfter=No
+13	!	!	PUNCT	.	_	12	_	_	start_char=125|end_char=126
+
+# text = This is why you're an incel.
+# sent_id = 63511
+1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=127|end_char=131
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=132|end_char=134
+3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=135|end_char=138
+4-5	you're	_	_	_	_	_	_	_	start_char=139|end_char=145
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=139|end_char=142
+5	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=142|end_char=145
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=146|end_char=148
+7	incel	incel	NOUN	NN	Number=Sing	6	_	_	start_char=149|end_char=154|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=154|end_char=155
+
+# text = /s (unfortunately this is necessary in the age of incel demonization)
+# sent_id = 63512
+1	/	/	SYM	SYM	_	0	_	_	start_char=156|end_char=157|SpaceAfter=No
+2	s	's	PART	POS	Typo=Yes	1	_	_	start_char=157|end_char=158
+3	(	(	PUNCT	-LRB-	_	2	_	_	start_char=159|end_char=160|SpaceAfter=No
+4	unfortunately	unfortunately	ADV	RB	_	3	_	_	start_char=160|end_char=173
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=174|end_char=178
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=179|end_char=181
+7	necessary	necessary	ADJ	JJ	Degree=Pos	6	_	_	start_char=182|end_char=191
+8	in	in	ADP	IN	_	7	_	_	start_char=192|end_char=194
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=195|end_char=198
+10	age	age	NOUN	NN	Number=Sing	9	_	_	start_char=199|end_char=202
+11	of	of	ADP	IN	_	10	_	_	start_char=203|end_char=205
+12	incel	incel	ADJ	JJ	Degree=Pos	11	_	_	start_char=206|end_char=211
+13	demonization	demonization	NOUN	NN	Number=Sing	12	_	_	start_char=212|end_char=224|SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	13	_	_	start_char=224|end_char=225|SpaceAfter=No
+

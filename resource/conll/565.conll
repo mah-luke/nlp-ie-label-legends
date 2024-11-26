@@ -1,0 +1,28 @@
+# text = $80? holy shit I'm looking in the wrong place but the cheapest ones are like 3x that around here lol
+# sent_id = 1207
+1	$	$	SYM	$	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	80	80	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=1|end_char=3|SpaceAfter=No
+3	?	?	PUNCT	:	_	2	_	_	start_char=3|end_char=4
+4	holy	holy	ADJ	JJ	Degree=Pos	3	_	_	start_char=5|end_char=9
+5	shit	shit	NOUN	NN	Number=Sing	4	_	_	start_char=10|end_char=14
+6-7	I'm	_	_	_	_	_	_	_	start_char=15|end_char=18
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=15|end_char=16
+7	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=16|end_char=18
+8	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=19|end_char=26
+9	in	in	ADP	IN	_	8	_	_	start_char=27|end_char=29
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=30|end_char=33
+11	wrong	wrong	ADJ	JJ	Degree=Pos	10	_	_	start_char=34|end_char=39
+12	place	place	NOUN	NN	Number=Sing	11	_	_	start_char=40|end_char=45
+13	but	but	CCONJ	CC	_	12	_	_	start_char=46|end_char=49
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=50|end_char=53
+15	cheapest	cheap	ADJ	JJS	Degree=Sup	14	_	_	start_char=54|end_char=62
+16	ones	one	NOUN	NNS	Number=Plur	15	_	_	start_char=63|end_char=67
+17	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=68|end_char=71
+18	like	like	ADP	IN	_	17	_	_	start_char=72|end_char=76
+19	3	3	NUM	CD	NumForm=Digit|NumType=Card	18	_	_	start_char=77|end_char=78|SpaceAfter=No
+20	x	x	SYM	SYM	_	19	_	_	start_char=78|end_char=79
+21	that	that	PRON	DT	Number=Sing|PronType=Dem	20	_	_	start_char=80|end_char=84
+22	around	around	ADV	RB	_	21	_	_	start_char=85|end_char=91
+23	here	here	ADV	RB	PronType=Dem	22	_	_	start_char=92|end_char=96
+24	lol	lol	INTJ	UH	_	23	_	_	start_char=97|end_char=100|SpaceAfter=No
+

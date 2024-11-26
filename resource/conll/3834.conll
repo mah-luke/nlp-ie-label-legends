@@ -1,0 +1,26 @@
+# text = That's surprising.
+# sent_id = 8124
+1-2	That's	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	surprising	surprising	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=17|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=17|end_char=18
+
+# text = How did it even come up with the girl you weren't fucking?
+# sent_id = 8125
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=19|end_char=22
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=23|end_char=26
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=27|end_char=29
+4	even	even	ADV	RB	_	3	_	_	start_char=30|end_char=34
+5	come	come	VERB	VB	VerbForm=Inf	4	_	_	start_char=35|end_char=39
+6	up	up	ADP	RP	_	5	_	_	start_char=40|end_char=42
+7	with	with	ADP	IN	_	6	_	_	start_char=43|end_char=47
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=48|end_char=51
+9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=52|end_char=56
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=57|end_char=60
+11-12	weren't	_	_	_	_	_	_	_	start_char=61|end_char=68
+11	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	10	_	_	start_char=61|end_char=65
+12	n't	not	PART	RB	_	11	_	_	start_char=65|end_char=68
+13	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	12	_	_	start_char=69|end_char=76|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=76|end_char=77|SpaceAfter=No
+

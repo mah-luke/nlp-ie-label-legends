@@ -1,0 +1,49 @@
+# text = Lol I’m half Mexican half hapa and all my korean members are married to Mexicans.
+# sent_id = 80286
+1	Lol	lol	INTJ	UH	_	0	_	_	start_char=0|end_char=3
+2-3	I’m	_	_	_	_	_	_	_	start_char=4|end_char=7
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=4|end_char=5
+3	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=5|end_char=7
+4	half	half	DET	PDT	NumType=Frac|PronType=Neg	3	_	_	start_char=8|end_char=12
+5	Mexican	Mexican	ADJ	JJ	Degree=Pos	4	_	_	start_char=13|end_char=20
+6	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	5	_	_	start_char=21|end_char=25
+7	hapa	hapa	ADJ	JJ	Degree=Pos	6	_	_	start_char=26|end_char=30
+8	and	and	CCONJ	CC	_	7	_	_	start_char=31|end_char=34
+9	all	all	DET	PDT	_	8	_	_	start_char=35|end_char=38
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=39|end_char=41
+11	korean	korean	ADJ	JJ	Degree=Pos	10	_	_	start_char=42|end_char=48
+12	members	member	NOUN	NNS	Number=Plur	11	_	_	start_char=49|end_char=56
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=57|end_char=60
+14	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=61|end_char=68
+15	to	to	ADP	IN	_	14	_	_	start_char=69|end_char=71
+16	Mexicans	Mexican	PROPN	NNPS	Number=Plur	15	_	_	start_char=72|end_char=80|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=80|end_char=81
+
+# text = Both my aunts and my uncles.
+# sent_id = 80287
+1	Both	both	CCONJ	CC	_	0	_	_	start_char=82|end_char=86
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=87|end_char=89
+3	aunts	aunt	NOUN	NNS	Number=Plur	2	_	_	start_char=90|end_char=95
+4	and	and	CCONJ	CC	_	3	_	_	start_char=96|end_char=99
+5	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	4	_	_	start_char=100|end_char=102
+6	uncles	uncle	NOUN	NNS	Number=Plur	5	_	_	start_char=103|end_char=109|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=109|end_char=110
+
+# text = I live in Texas in a area with few Asians so most seem to intermarry
+# sent_id = 80288
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=111|end_char=112
+2	live	live	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=113|end_char=117
+3	in	in	ADP	IN	_	2	_	_	start_char=118|end_char=120
+4	Texas	Texas	PROPN	NNP	Number=Sing	3	_	_	start_char=121|end_char=126
+5	in	in	ADP	IN	_	4	_	_	start_char=127|end_char=129
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=130|end_char=131
+7	area	area	NOUN	NN	Number=Sing	6	_	_	start_char=132|end_char=136
+8	with	with	ADP	IN	_	7	_	_	start_char=137|end_char=141
+9	few	few	ADJ	JJ	Degree=Pos	8	_	_	start_char=142|end_char=145
+10	Asians	Asian	PROPN	NNPS	Number=Plur	9	_	_	start_char=146|end_char=152
+11	so	so	ADV	RB	_	10	_	_	start_char=153|end_char=155
+12	most	most	ADV	RBS	Degree=Sup	11	_	_	start_char=156|end_char=160
+13	seem	seem	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=161|end_char=165
+14	to	to	PART	TO	_	13	_	_	start_char=166|end_char=168
+15	intermarry	intermarry	VERB	VB	VerbForm=Inf	14	_	_	start_char=169|end_char=179|SpaceAfter=No
+

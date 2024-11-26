@@ -1,0 +1,33 @@
+# text = Well of course she did!
+# sent_id = 79917
+1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2	of	of	ADV	IN	_	1	_	_	start_char=5|end_char=7
+3	course	course	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=14
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=15|end_char=18
+5	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=19|end_char=22|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = She's a true redneck Georgia Deplorable and a credit to grandmas everywhere.
+# sent_id = 79918
+1-2	She's	_	_	_	_	_	_	_	start_char=24|end_char=29
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=24|end_char=27
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=30|end_char=31
+4	true	true	ADJ	JJ	Degree=Pos	3	_	_	start_char=32|end_char=36
+5	redneck	redneck	NOUN	NN	Number=Sing	4	_	_	start_char=37|end_char=44
+6	Georgia	Georgia	PROPN	NNP	Number=Sing	5	_	_	start_char=45|end_char=52
+7	Deplorable	Deplorable	ADJ	JJ	Degree=Pos	6	_	_	start_char=53|end_char=63
+8	and	and	CCONJ	CC	_	7	_	_	start_char=64|end_char=67
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=68|end_char=69
+10	credit	credit	NOUN	NN	Number=Sing	9	_	_	start_char=70|end_char=76
+11	to	to	ADP	IN	_	10	_	_	start_char=77|end_char=79
+12	grandmas	grandma	NOUN	NNS	Number=Plur	11	_	_	start_char=80|end_char=88
+13	everywhere	everywhere	ADV	RB	_	12	_	_	start_char=89|end_char=99|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=99|end_char=100
+
+# text = [USER]
+# sent_id = 79919
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=101|end_char=102|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=102|end_char=106|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=106|end_char=107|SpaceAfter=No
+

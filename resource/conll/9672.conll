@@ -1,0 +1,27 @@
+# text = Is the dog going to be prosecuted for committing a hate crime?
+# sent_id = 20430
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=3|end_char=6
+3	dog	dog	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=10
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=11|end_char=16
+5	to	to	PART	TO	_	4	_	_	start_char=17|end_char=19
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=20|end_char=22
+7	prosecuted	prosecute	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=23|end_char=33
+8	for	for	SCONJ	IN	_	7	_	_	start_char=34|end_char=37
+9	committing	commit	VERB	VBG	VerbForm=Ger	8	_	_	start_char=38|end_char=48
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=49|end_char=50
+11	hate	hate	NOUN	NN	Number=Sing	10	_	_	start_char=51|end_char=55
+12	crime	crime	NOUN	NN	Number=Sing	11	_	_	start_char=56|end_char=61|SpaceAfter=No
+13	?	?	PUNCT	.	_	12	_	_	start_char=61|end_char=62
+
+# text = Also, do migrants taste like chicken?
+# sent_id = 20431
+1	Also	also	ADV	RB	_	0	_	_	start_char=63|end_char=67|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=67|end_char=68
+3	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=69|end_char=71
+4	migrants	migrant	NOUN	NNS	Number=Plur	3	_	_	start_char=72|end_char=80
+5	taste	taste	VERB	VB	VerbForm=Inf	4	_	_	start_char=81|end_char=86
+6	like	like	ADP	IN	_	5	_	_	start_char=87|end_char=91
+7	chicken	chicken	NOUN	NN	Number=Sing	6	_	_	start_char=92|end_char=99|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=99|end_char=100|SpaceAfter=No
+

@@ -1,0 +1,20 @@
+# text = “How do you beat him?
+# sent_id = 24292
+1	“	''	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	How	how	ADV	WRB	PronType=Int	1	_	_	start_char=1|end_char=4
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=5|end_char=7
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=8|end_char=11
+5	beat	beat	VERB	VB	VerbForm=Inf	4	_	_	start_char=12|end_char=16
+6	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=17|end_char=20|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=20|end_char=21
+
+# text = He literally has an electri-dick.”
+# sent_id = 24293
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=22|end_char=24
+2	literally	literally	ADV	RB	_	1	_	_	start_char=25|end_char=34
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=35|end_char=38
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=39|end_char=41
+5	electri-dick	electri-dick	NOUN	NN	Number=Sing	4	_	_	start_char=42|end_char=54|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=54|end_char=55|SpaceAfter=No
+7	”	''	PUNCT	''	_	6	_	_	start_char=55|end_char=56|SpaceAfter=No
+

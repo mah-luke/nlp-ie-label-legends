@@ -1,0 +1,33 @@
+# text = 4th date, you should be fucking her.
+# sent_id = 89979
+1	4th	4th	ADJ	JJ	Degree=Pos|NumType=Ord	0	_	_	start_char=0|end_char=3
+2	date	date	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=8|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=8|end_char=9
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=10|end_char=13
+5	should	should	AUX	MD	VerbForm=Fin	4	_	_	start_char=14|end_char=20
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=21|end_char=23
+7	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=24|end_char=31
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=32|end_char=35|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=35|end_char=36
+
+# text = She won't even let you kiss her.
+# sent_id = 89980
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=37|end_char=40
+2-3	won't	_	_	_	_	_	_	_	start_char=41|end_char=46
+2	wo	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=41|end_char=43
+3	n't	not	PART	RB	_	2	_	_	start_char=43|end_char=46
+4	even	even	ADV	RB	_	3	_	_	start_char=47|end_char=51
+5	let	let	VERB	VB	VerbForm=Inf	4	_	_	start_char=52|end_char=55
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=56|end_char=59
+7	kiss	kiss	VERB	VB	VerbForm=Inf	6	_	_	start_char=60|end_char=64
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=65|end_char=68|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=68|end_char=69
+
+# text = Forget all about her.
+# sent_id = 89981
+1	Forget	forget	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=70|end_char=76
+2	all	all	DET	DT	_	1	_	_	start_char=77|end_char=80
+3	about	about	ADP	IN	_	2	_	_	start_char=81|end_char=86
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=87|end_char=90|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=90|end_char=91|SpaceAfter=No
+

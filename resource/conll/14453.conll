@@ -1,0 +1,37 @@
+# text = Reminds me of that movie, Totally Baked.
+# sent_id = 30825
+1	Reminds	remind	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=7
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=8|end_char=10
+3	of	of	ADP	IN	_	2	_	_	start_char=11|end_char=13
+4	that	that	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=14|end_char=18
+5	movie	movie	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=24|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=24|end_char=25
+7	Totally	totally	ADV	RB	_	6	_	_	start_char=26|end_char=33
+8	Baked	bake	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=34|end_char=39|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=39|end_char=40
+
+# text = "I'll suck your dick for a dimebag!"
+# sent_id = 30826
+1	"	"	PUNCT	``	_	0	_	_	start_char=41|end_char=42|SpaceAfter=No
+2-3	I'll	_	_	_	_	_	_	_	start_char=42|end_char=46
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=42|end_char=43
+3	'll	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=43|end_char=46
+4	suck	suck	VERB	VB	VerbForm=Inf	3	_	_	start_char=47|end_char=51
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=52|end_char=56
+6	dick	dick	NOUN	NN	Number=Sing	5	_	_	start_char=57|end_char=61
+7	for	for	ADP	IN	_	6	_	_	start_char=62|end_char=65
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=66|end_char=67
+9	dimebag	dimebag	NOUN	NN	Number=Sing	8	_	_	start_char=68|end_char=75|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=75|end_char=76|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=76|end_char=77
+
+# text = Maybe she just likes sucking dick.
+# sent_id = 30827
+1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=78|end_char=83
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=84|end_char=87
+3	just	just	ADV	RB	_	2	_	_	start_char=88|end_char=92
+4	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=93|end_char=98
+5	sucking	suck	VERB	VBG	VerbForm=Ger	4	_	_	start_char=99|end_char=106
+6	dick	dick	NOUN	NN	Number=Sing	5	_	_	start_char=107|end_char=111|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=111|end_char=112|SpaceAfter=No
+

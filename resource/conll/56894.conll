@@ -1,0 +1,18 @@
+# text = Stupid bitch..
+# sent_id = 121612
+1	Stupid	Stupid	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=6
+2	bitch	bitch	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=12|SpaceAfter=No
+3	..	..	PUNCT	.	_	2	_	_	start_char=12|end_char=14
+
+# text = I would’ve slapped tf out of her
+# sent_id = 121613
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=15|end_char=16
+2-3	would’ve	_	_	_	_	_	_	_	start_char=17|end_char=25
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=17|end_char=22
+3	’ve	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=22|end_char=25
+4	slapped	slap	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=26|end_char=33
+5	tf	to	ADV	RB	_	4	_	_	start_char=34|end_char=36
+6	out	out	ADP	IN	_	5	_	_	start_char=37|end_char=40
+7	of	of	ADP	IN	_	6	_	_	start_char=41|end_char=43
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=44|end_char=47|SpaceAfter=No
+

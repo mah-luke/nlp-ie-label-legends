@@ -1,0 +1,53 @@
+# text = I hate girls like this.
+# sent_id = 99007
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	girls	girl	NOUN	NNS	Number=Plur	2	_	_	start_char=7|end_char=12
+4	like	like	ADP	IN	_	3	_	_	start_char=13|end_char=17
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=18|end_char=22|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=22|end_char=23
+
+# text = Like a girl could be perfect 10, but once you realize she knows it, and only wants to exploit people and doesn't care about genuine interaction, she automatically becomes the ugliest girl in the world.
+# sent_id = 99008
+1	Like	like	ADP	IN	_	0	_	_	start_char=24|end_char=28
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=29|end_char=30
+3	girl	girl	NOUN	NN	Number=Sing	2	_	_	start_char=31|end_char=35
+4	could	could	AUX	MD	VerbForm=Fin	3	_	_	start_char=36|end_char=41
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=42|end_char=44
+6	perfect	perfect	ADJ	JJ	Degree=Pos	5	_	_	start_char=45|end_char=52
+7	10	10	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=53|end_char=55|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=55|end_char=56
+9	but	but	CCONJ	CC	_	8	_	_	start_char=57|end_char=60
+10	once	once	SCONJ	IN	_	9	_	_	start_char=61|end_char=65
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=66|end_char=69
+12	realize	realize	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=70|end_char=77
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=78|end_char=81
+14	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=82|end_char=87
+15	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=88|end_char=90|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=90|end_char=91
+17	and	and	CCONJ	CC	_	16	_	_	start_char=92|end_char=95
+18	only	only	ADV	RB	_	17	_	_	start_char=96|end_char=100
+19	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=101|end_char=106
+20	to	to	PART	TO	_	19	_	_	start_char=107|end_char=109
+21	exploit	exploit	VERB	VB	VerbForm=Inf	20	_	_	start_char=110|end_char=117
+22	people	person	NOUN	NNS	Number=Plur	21	_	_	start_char=118|end_char=124
+23	and	and	CCONJ	CC	_	22	_	_	start_char=125|end_char=128
+24-25	doesn't	_	_	_	_	_	_	_	start_char=129|end_char=136
+24	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=129|end_char=133
+25	n't	not	PART	RB	_	24	_	_	start_char=133|end_char=136
+26	care	care	VERB	VB	VerbForm=Inf	25	_	_	start_char=137|end_char=141
+27	about	about	ADP	IN	_	26	_	_	start_char=142|end_char=147
+28	genuine	genuine	ADJ	JJ	Degree=Pos	27	_	_	start_char=148|end_char=155
+29	interaction	interaction	NOUN	NN	Number=Sing	28	_	_	start_char=156|end_char=167|SpaceAfter=No
+30	,	,	PUNCT	,	_	29	_	_	start_char=167|end_char=168
+31	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	_	_	start_char=169|end_char=172
+32	automatically	automatically	ADV	RB	_	31	_	_	start_char=173|end_char=186
+33	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	_	_	start_char=187|end_char=194
+34	the	the	DET	DT	Definite=Def|PronType=Art	33	_	_	start_char=195|end_char=198
+35	ugliest	ugly	ADJ	JJS	Degree=Sup	34	_	_	start_char=199|end_char=206
+36	girl	girl	NOUN	NN	Number=Sing	35	_	_	start_char=207|end_char=211
+37	in	in	ADP	IN	_	36	_	_	start_char=212|end_char=214
+38	the	the	DET	DT	Definite=Def|PronType=Art	37	_	_	start_char=215|end_char=218
+39	world	world	NOUN	NN	Number=Sing	38	_	_	start_char=219|end_char=224|SpaceAfter=No
+40	.	.	PUNCT	.	_	39	_	_	start_char=224|end_char=225|SpaceAfter=No
+

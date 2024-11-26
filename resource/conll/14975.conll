@@ -1,0 +1,67 @@
+# text = "You've just confirmed my opinion.
+# sent_id = 31970
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2-3	You've	_	_	_	_	_	_	_	start_char=1|end_char=7
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=1|end_char=4
+3	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=4|end_char=7
+4	just	just	ADV	RB	_	3	_	_	start_char=8|end_char=12
+5	confirmed	confirm	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=13|end_char=22
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=23|end_char=25
+7	opinion	opinion	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=33|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=33|end_char=34
+
+# text = You ARE a fucking idiot."
+# sent_id = 31971
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=35|end_char=38
+2	ARE	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=39|end_char=42
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=43|end_char=44
+4	fucking	fuck	ADJ	JJ	Degree=Pos	3	_	_	start_char=45|end_char=52
+5	idiot	idiot	NOUN	NN	Number=Sing	4	_	_	start_char=53|end_char=58|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=58|end_char=59|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=59|end_char=60
+
+# text = Well, at least until after the wedding/honeymoon...
+# sent_id = 31972
+1	Well	well	INTJ	UH	_	0	_	_	start_char=61|end_char=65|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=65|end_char=66
+3	at	at	ADP	IN	ExtPos=ADV	2	_	_	start_char=67|end_char=69
+4	least	least	ADJ	JJS	Degree=Sup	3	_	_	start_char=70|end_char=75
+5	until	until	ADP	IN	_	4	_	_	start_char=76|end_char=81
+6	after	after	ADP	IN	_	5	_	_	start_char=82|end_char=87
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=88|end_char=91
+8	wedding	wedding	NOUN	NN	Number=Sing	7	_	_	start_char=92|end_char=99|SpaceAfter=No
+9	/	/	SYM	,	_	8	_	_	start_char=99|end_char=100|SpaceAfter=No
+10	honeymoon	honeymoon	NOUN	NN	Number=Sing	9	_	_	start_char=100|end_char=109|SpaceAfter=No
+11	...	...	PUNCT	.	_	10	_	_	start_char=109|end_char=112
+
+# text = After that they will just be idiots (i.e. no more fucking... well maybe once a month if she "feels" like it). ;-)
+# sent_id = 31973
+1	After	after	ADP	IN	_	0	_	_	start_char=113|end_char=118
+2	that	that	SCONJ	IN	_	1	_	_	start_char=119|end_char=123
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=124|end_char=128
+4	will	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=129|end_char=133
+5	just	just	ADV	RB	_	4	_	_	start_char=134|end_char=138
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=139|end_char=141
+7	idiots	idiot	NOUN	NNS	Number=Plur	6	_	_	start_char=142|end_char=148
+8	(	(	PUNCT	-LRB-	_	7	_	_	start_char=149|end_char=150|SpaceAfter=No
+9	i.e.	i.e.	ADV	FW	Abbr=Yes	8	_	_	start_char=150|end_char=154
+10	no	no	ADV	RB	_	9	_	_	start_char=155|end_char=157
+11	more	more	ADV	RBR	Degree=Cmp	10	_	_	start_char=158|end_char=162
+12	fucking	fucking	ADV	RB	_	11	_	_	start_char=163|end_char=170|SpaceAfter=No
+13	...	...	PUNCT	,	_	12	_	_	start_char=170|end_char=173
+14	well	well	INTJ	UH	_	13	_	_	start_char=174|end_char=178
+15	maybe	maybe	ADV	RB	_	14	_	_	start_char=179|end_char=184
+16	once	once	ADV	RB	NumType=Mult	15	_	_	start_char=185|end_char=189
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=190|end_char=191
+18	month	month	NOUN	NN	Number=Sing	17	_	_	start_char=192|end_char=197
+19	if	if	SCONJ	IN	_	18	_	_	start_char=198|end_char=200
+20	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=201|end_char=204
+21	"	"	PUNCT	``	_	20	_	_	start_char=205|end_char=206|SpaceAfter=No
+22	feels	feel	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=206|end_char=211|SpaceAfter=No
+23	"	"	PUNCT	''	_	22	_	_	start_char=211|end_char=212
+24	like	like	ADP	IN	_	23	_	_	start_char=213|end_char=217
+25	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	_	_	start_char=218|end_char=220|SpaceAfter=No
+26	)	)	PUNCT	-RRB-	_	25	_	_	start_char=220|end_char=221|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=221|end_char=222
+28	;-)	;-)	SYM	NFP	_	27	_	_	start_char=223|end_char=226|SpaceAfter=No
+

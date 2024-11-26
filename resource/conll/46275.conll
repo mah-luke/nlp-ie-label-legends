@@ -1,0 +1,48 @@
+# text = multiple women married to one dude how's that different from "wife"?
+# sent_id = 98808
+1	multiple	multiple	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=8
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=9|end_char=14
+3	married	marry	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=15|end_char=22
+4	to	to	ADP	IN	_	3	_	_	start_char=23|end_char=25
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=26|end_char=29
+6	dude	dude	NOUN	NN	Number=Sing	5	_	_	start_char=30|end_char=34
+7-8	how's	_	_	_	_	_	_	_	start_char=35|end_char=40
+7	how	how	ADV	WRB	PronType=Int	6	_	_	start_char=35|end_char=38
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=38|end_char=40
+9	that	that	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=41|end_char=45
+10	different	different	ADJ	JJ	Degree=Pos	9	_	_	start_char=46|end_char=55
+11	from	from	ADP	IN	_	10	_	_	start_char=56|end_char=60
+12	"	"	PUNCT	``	_	11	_	_	start_char=61|end_char=62|SpaceAfter=No
+13	wife	wife	NOUN	NN	Number=Sing	12	_	_	start_char=62|end_char=66|SpaceAfter=No
+14	"	"	PUNCT	''	_	13	_	_	start_char=66|end_char=67|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=67|end_char=68
+
+# text = And, yeah if she had 20 dicks in her, she's a lost cause.
+# sent_id = 98809
+1	And	and	CCONJ	CC	_	0	_	_	start_char=69|end_char=72|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=72|end_char=73
+3	yeah	yeah	INTJ	UH	_	2	_	_	start_char=74|end_char=78
+4	if	if	SCONJ	IN	_	3	_	_	start_char=79|end_char=81
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=82|end_char=85
+6	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=86|end_char=89
+7	20	20	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=90|end_char=92
+8	dicks	dick	NOUN	NNS	Number=Plur	7	_	_	start_char=93|end_char=98
+9	in	in	ADP	IN	_	8	_	_	start_char=99|end_char=101
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=102|end_char=105|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=105|end_char=106
+12-13	she's	_	_	_	_	_	_	_	start_char=107|end_char=112
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=107|end_char=110
+13	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=110|end_char=112
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=113|end_char=114
+15	lost	lose	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=115|end_char=119
+16	cause	cause	NOUN	NN	Number=Sing	15	_	_	start_char=120|end_char=125|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=125|end_char=126
+
+# text = Virgin is a must.
+# sent_id = 98810
+1	Virgin	Virgin	PROPN	NNP	Number=Sing	0	_	_	start_char=127|end_char=133
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=134|end_char=136
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=137|end_char=138
+4	must	must	NOUN	NN	Number=Sing	3	_	_	start_char=139|end_char=143|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=143|end_char=144|SpaceAfter=No
+

@@ -1,0 +1,48 @@
+# text = My mother is a nurse.
+# sent_id = 56334
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	mother	mother	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=9
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=13|end_char=14
+5	nurse	nurse	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=20|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=20|end_char=21
+
+# text = She's never had any trouble making a living.
+# sent_id = 56335
+1-2	She's	_	_	_	_	_	_	_	start_char=22|end_char=27
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=22|end_char=25
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=27
+3	never	never	ADV	RB	_	2	_	_	start_char=28|end_char=33
+4	had	have	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=34|end_char=37
+5	any	any	DET	DT	_	4	_	_	start_char=38|end_char=41
+6	trouble	trouble	NOUN	NN	Number=Sing	5	_	_	start_char=42|end_char=49
+7	making	make	VERB	VBG	VerbForm=Ger	6	_	_	start_char=50|end_char=56
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=57|end_char=58
+9	living	living	NOUN	NN	Number=Sing	8	_	_	start_char=59|end_char=65|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=65|end_char=66
+
+# text = The only thing she didn't like about it, was the bitchy gossipy women she had to work with.
+# sent_id = 56336
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=67|end_char=70
+2	only	only	ADJ	JJ	Degree=Pos	1	_	_	start_char=71|end_char=75
+3	thing	thing	NOUN	NN	Number=Sing	2	_	_	start_char=76|end_char=81
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=82|end_char=85
+5-6	didn't	_	_	_	_	_	_	_	start_char=86|end_char=92
+5	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=86|end_char=89
+6	n't	not	PART	RB	_	5	_	_	start_char=89|end_char=92
+7	like	like	VERB	VB	VerbForm=Inf	6	_	_	start_char=93|end_char=97
+8	about	about	ADP	IN	_	7	_	_	start_char=98|end_char=103
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=104|end_char=106|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=106|end_char=107
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=108|end_char=111
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=112|end_char=115
+13	bitchy	bitchy	ADJ	JJ	Degree=Pos	12	_	_	start_char=116|end_char=122
+14	gossipy	gossipy	ADJ	JJ	Degree=Pos	13	_	_	start_char=123|end_char=130
+15	women	woman	NOUN	NNS	Number=Plur	14	_	_	start_char=131|end_char=136
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=137|end_char=140
+17	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	16	_	_	start_char=141|end_char=144
+18	to	to	PART	TO	_	17	_	_	start_char=145|end_char=147
+19	work	work	VERB	VB	VerbForm=Inf	18	_	_	start_char=148|end_char=152
+20	with	with	ADP	IN	_	19	_	_	start_char=153|end_char=157|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=157|end_char=158|SpaceAfter=No
+

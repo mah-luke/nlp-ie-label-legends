@@ -1,0 +1,34 @@
+# text = Yep, the BBC announcer is trying to suppress her telling the truth.
+# sent_id = 31551
+1	Yep	yep	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=5|end_char=8
+4	BBC	BBC	PROPN	NNP	Number=Sing	3	_	_	start_char=9|end_char=12
+5	announcer	announcer	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=22
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=23|end_char=25
+7	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=26|end_char=32
+8	to	to	PART	TO	_	7	_	_	start_char=33|end_char=35
+9	suppress	suppress	VERB	VB	VerbForm=Inf	8	_	_	start_char=36|end_char=44
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=45|end_char=48
+11	telling	tell	VERB	VBG	VerbForm=Ger	10	_	_	start_char=49|end_char=56
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=57|end_char=60
+13	truth	truth	NOUN	NN	Number=Sing	12	_	_	start_char=61|end_char=66|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=66|end_char=67
+
+# text = Looks like BBC is a bunch of truth twisting liars just like CNN.
+# sent_id = 31552
+1	Looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=68|end_char=73
+2	like	like	ADP	IN	_	1	_	_	start_char=74|end_char=78
+3	BBC	BBC	PROPN	NNP	Number=Sing	2	_	_	start_char=79|end_char=82
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=83|end_char=85
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=86|end_char=87
+6	bunch	bunch	NOUN	NN	Number=Sing	5	_	_	start_char=88|end_char=93
+7	of	of	ADP	IN	_	6	_	_	start_char=94|end_char=96
+8	truth	truth	NOUN	NN	Number=Sing	7	_	_	start_char=97|end_char=102
+9	twisting	twist	VERB	VBG	VerbForm=Ger	8	_	_	start_char=103|end_char=111
+10	liars	liar	NOUN	NNS	Number=Plur	9	_	_	start_char=112|end_char=117
+11	just	just	ADV	RB	_	10	_	_	start_char=118|end_char=122
+12	like	like	ADP	IN	_	11	_	_	start_char=123|end_char=127
+13	CNN	CNN	PROPN	NNP	Number=Sing	12	_	_	start_char=128|end_char=131|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=131|end_char=132|SpaceAfter=No
+

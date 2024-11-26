@@ -1,0 +1,74 @@
+# text = Not all Jews are leftists.
+# sent_id = 4086
+1	Not	not	PART	RB	_	0	_	_	start_char=0|end_char=3
+2	all	all	DET	DT	_	1	_	_	start_char=4|end_char=7
+3	Jews	Jew	PROPN	NNPS	Number=Plur	2	_	_	start_char=8|end_char=12
+4	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=16
+5	leftists	leftist	NOUN	NNS	Number=Plur	4	_	_	start_char=17|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=25|end_char=26
+
+# text = I know all about the Frankfurt School.
+# sent_id = 4087
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=27|end_char=28
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=29|end_char=33
+3	all	all	DET	DT	_	2	_	_	start_char=34|end_char=37
+4	about	about	ADP	IN	_	3	_	_	start_char=38|end_char=43
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=44|end_char=47
+6	Frankfurt	Frankfurt	PROPN	NNP	Number=Sing	5	_	_	start_char=48|end_char=57
+7	School	School	PROPN	NNP	Number=Sing	6	_	_	start_char=58|end_char=64|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=64|end_char=65
+
+# text = I wasn't born yesterday.
+# sent_id = 4088
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=66|end_char=67
+2-3	wasn't	_	_	_	_	_	_	_	start_char=68|end_char=74
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=68|end_char=71
+3	n't	not	PART	RB	_	2	_	_	start_char=71|end_char=74
+4	born	bear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=75|end_char=79
+5	yesterday	yesterday	NOUN	NN	Number=Sing	4	_	_	start_char=80|end_char=89|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=89|end_char=90
+
+# text = I live in an area where there are few Jews, most of them married to Christians.
+# sent_id = 4089
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=91|end_char=92
+2	live	live	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=93|end_char=97
+3	in	in	ADP	IN	_	2	_	_	start_char=98|end_char=100
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=101|end_char=103
+5	area	area	NOUN	NN	Number=Sing	4	_	_	start_char=104|end_char=108
+6	where	where	ADV	WRB	PronType=Rel	5	_	_	start_char=109|end_char=114
+7	there	there	PRON	EX	_	6	_	_	start_char=115|end_char=120
+8	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=121|end_char=124
+9	few	few	ADJ	JJ	Degree=Pos	8	_	_	start_char=125|end_char=128
+10	Jews	Jew	PROPN	NNPS	Number=Plur	9	_	_	start_char=129|end_char=133|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=133|end_char=134
+12	most	most	ADJ	JJS	Degree=Sup	11	_	_	start_char=135|end_char=139
+13	of	of	ADP	IN	_	12	_	_	start_char=140|end_char=142
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=143|end_char=147
+15	married	marry	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=148|end_char=155
+16	to	to	ADP	IN	_	15	_	_	start_char=156|end_char=158
+17	Christians	Christian	PROPN	NNPS	Number=Plur	16	_	_	start_char=159|end_char=169|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=169|end_char=170
+
+# text = The Jewish man I know well voted for Trump.
+# sent_id = 4090
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=171|end_char=174
+2	Jewish	Jewish	ADJ	JJ	Degree=Pos	1	_	_	start_char=175|end_char=181
+3	man	man	NOUN	NN	Number=Sing	2	_	_	start_char=182|end_char=185
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=186|end_char=187
+5	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=188|end_char=192
+6	well	well	ADV	RB	Degree=Pos	5	_	_	start_char=193|end_char=197
+7	voted	vote	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=198|end_char=203
+8	for	for	ADP	IN	_	7	_	_	start_char=204|end_char=207
+9	Trump	Trump	PROPN	NNP	Number=Sing	8	_	_	start_char=208|end_char=213|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=213|end_char=214
+
+# text = Probably his Catholic wife did too.
+# sent_id = 4091
+1	Probably	probably	ADV	RB	_	0	_	_	start_char=215|end_char=223
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=224|end_char=227
+3	Catholic	Catholic	ADJ	JJ	Degree=Pos	2	_	_	start_char=228|end_char=236
+4	wife	wife	NOUN	NN	Number=Sing	3	_	_	start_char=237|end_char=241
+5	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=242|end_char=245
+6	too	too	ADV	RB	_	5	_	_	start_char=246|end_char=249|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=249|end_char=250|SpaceAfter=No
+

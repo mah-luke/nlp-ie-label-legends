@@ -1,0 +1,36 @@
+# text = As an Eagle Scout, I'm less than pleased with all of this.
+# sent_id = 25356
+1	As	as	ADP	IN	_	0	_	_	start_char=0|end_char=2
+2	an	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=3|end_char=5
+3	Eagle	Eagle	PROPN	NNP	Number=Sing	2	_	_	start_char=6|end_char=11
+4	Scout	Scout	PROPN	NNP	Number=Sing	3	_	_	start_char=12|end_char=17|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=17|end_char=18
+6-7	I'm	_	_	_	_	_	_	_	start_char=19|end_char=22
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=19|end_char=20
+7	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=20|end_char=22
+8	less	less	ADJ	JJR	Degree=Cmp	7	_	_	start_char=23|end_char=27
+9	than	than	ADP	IN	_	8	_	_	start_char=28|end_char=32
+10	pleased	pleased	ADJ	JJ	Degree=Pos	9	_	_	start_char=33|end_char=40
+11	with	with	ADP	IN	_	10	_	_	start_char=41|end_char=45
+12	all	all	DET	DT	_	11	_	_	start_char=46|end_char=49
+13	of	of	ADP	IN	_	12	_	_	start_char=50|end_char=52
+14	this	this	PRON	DT	Number=Sing|PronType=Dem	13	_	_	start_char=53|end_char=57|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=57|end_char=58
+
+# text = If women wanted to destroy the BSA, they've done it.
+# sent_id = 25357
+1	If	if	SCONJ	IN	_	0	_	_	start_char=59|end_char=61
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=62|end_char=67
+3	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=68|end_char=74
+4	to	to	PART	TO	_	3	_	_	start_char=75|end_char=77
+5	destroy	destroy	VERB	VB	VerbForm=Inf	4	_	_	start_char=78|end_char=85
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=86|end_char=89
+7	BSA	BSA	PROPN	NNP	Number=Sing	6	_	_	start_char=90|end_char=93|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=93|end_char=94
+9-10	they've	_	_	_	_	_	_	_	start_char=95|end_char=102
+9	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=95|end_char=99
+10	've	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=99|end_char=102
+11	done	do	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=103|end_char=107
+12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=108|end_char=110|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=110|end_char=111|SpaceAfter=No
+

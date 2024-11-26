@@ -1,0 +1,63 @@
+# text = I t’s a woman who’s self worth will be grossly over inflated.
+# sent_id = 15511
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	t’s	_	_	_	_	_	_	_	start_char=2|end_char=5
+2	t	t	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=3
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=3|end_char=5
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=6|end_char=7
+5	woman	woman	NOUN	NN	Number=Sing	4	_	_	start_char=8|end_char=13
+6-7	who’s	_	_	_	_	_	_	_	start_char=14|end_char=19
+6	who	who	PRON	WP	PronType=Rel	5	_	_	start_char=14|end_char=17
+7	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=17|end_char=19
+8	self	self	NOUN	NN	Number=Sing	7	_	_	start_char=20|end_char=24
+9	worth	worth	NOUN	NN	Number=Sing	8	_	_	start_char=25|end_char=30
+10	will	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=31|end_char=35
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=36|end_char=38
+12	grossly	grossly	ADV	RB	_	11	_	_	start_char=39|end_char=46
+13	over	over	ADV	RB	_	12	_	_	start_char=47|end_char=51
+14	inflated	inflate	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=52|end_char=60|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=60|end_char=61
+
+# text = . > harmless?
+# sent_id = 15512
+1	.	.	PUNCT	.	_	0	_	_	start_char=62|end_char=63
+2	>	>	PUNCT	-RRB-	_	1	_	_	start_char=64|end_char=65
+3	harmless	harmless	ADJ	JJ	Degree=Pos	2	_	_	start_char=66|end_char=74|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=74|end_char=75
+
+# text = So no, it’s far from harmless.
+# sent_id = 15513
+1	So	so	INTJ	UH	_	0	_	_	start_char=76|end_char=78
+2	no	no	INTJ	UH	Polarity=Neg	1	_	_	start_char=79|end_char=81|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=81|end_char=82
+4-5	it’s	_	_	_	_	_	_	_	start_char=83|end_char=87
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=83|end_char=85
+5	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=85|end_char=87
+6	far	far	ADV	RB	Degree=Pos	5	_	_	start_char=88|end_char=91
+7	from	from	ADP	IN	_	6	_	_	start_char=92|end_char=96
+8	harmless	harmless	ADJ	JJ	Degree=Pos	7	_	_	start_char=97|end_char=105|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=105|end_char=106
+
+# text = Social media in general and dating apps in particular have ruined the male/female dynamic in the West.
+# sent_id = 15514
+1	Social	Social	ADJ	JJ	Degree=Pos	0	_	_	start_char=107|end_char=113
+2	media	media	NOUN	NN	Number=Sing	1	_	_	start_char=114|end_char=119
+3	in	in	ADP	IN	_	2	_	_	start_char=120|end_char=122
+4	general	general	ADJ	JJ	Degree=Pos	3	_	_	start_char=123|end_char=130
+5	and	and	CCONJ	CC	_	4	_	_	start_char=131|end_char=134
+6	dating	dating	NOUN	NN	Number=Sing	5	_	_	start_char=135|end_char=141
+7	apps	app	NOUN	NNS	Number=Plur	6	_	_	start_char=142|end_char=146
+8	in	in	ADP	IN	_	7	_	_	start_char=147|end_char=149
+9	particular	particular	ADJ	JJ	Degree=Pos	8	_	_	start_char=150|end_char=160
+10	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=161|end_char=165
+11	ruined	ruin	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=166|end_char=172
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=173|end_char=176
+13	male	male	ADJ	JJ	Degree=Pos	12	_	_	start_char=177|end_char=181|SpaceAfter=No
+14	/	/	SYM	SYM	_	13	_	_	start_char=181|end_char=182|SpaceAfter=No
+15	female	female	ADJ	JJ	Degree=Pos	14	_	_	start_char=182|end_char=188
+16	dynamic	dynamic	NOUN	NN	Number=Sing	15	_	_	start_char=189|end_char=196
+17	in	in	ADP	IN	_	16	_	_	start_char=197|end_char=199
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=200|end_char=203
+19	West	West	PROPN	NNP	Number=Sing	18	_	_	start_char=204|end_char=208|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=208|end_char=209|SpaceAfter=No
+

@@ -1,0 +1,56 @@
+# text = Her life will not be the same after this.
+# sent_id = 11193
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	life	life	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=8
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=9|end_char=13
+4	not	not	PART	RB	_	3	_	_	start_char=14|end_char=17
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=18|end_char=20
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=21|end_char=24
+7	same	same	ADJ	JJ	Degree=Pos	6	_	_	start_char=25|end_char=29
+8	after	after	ADP	IN	_	7	_	_	start_char=30|end_char=35
+9	this	this	PRON	DT	Number=Sing|PronType=Dem	8	_	_	start_char=36|end_char=40|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=40|end_char=41
+
+# text = Will it be negative?
+# sent_id = 11194
+1	Will	will	AUX	MD	VerbForm=Fin	0	_	_	start_char=42|end_char=46
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=47|end_char=49
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=50|end_char=52
+4	negative	negative	ADJ	JJ	Degree=Pos	3	_	_	start_char=53|end_char=61|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=61|end_char=62
+
+# text = I guess that depends on how this plays out.
+# sent_id = 11195
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=63|end_char=64
+2	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=65|end_char=70
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=71|end_char=75
+4	depends	depend	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=76|end_char=83
+5	on	on	SCONJ	IN	_	4	_	_	start_char=84|end_char=86
+6	how	how	ADV	WRB	PronType=Int	5	_	_	start_char=87|end_char=90
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=91|end_char=95
+8	plays	play	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=96|end_char=101
+9	out	out	ADP	RP	_	8	_	_	start_char=102|end_char=105|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=105|end_char=106
+
+# text = My gut says that she will be thrown away like a used Kleenex after this is all over!
+# sent_id = 11196
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=107|end_char=109
+2	gut	gut	NOUN	NN	Number=Sing	1	_	_	start_char=110|end_char=113
+3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=114|end_char=118
+4	that	that	SCONJ	IN	_	3	_	_	start_char=119|end_char=123
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=124|end_char=127
+6	will	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=128|end_char=132
+7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=133|end_char=135
+8	thrown	throw	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=136|end_char=142
+9	away	away	ADV	RB	_	8	_	_	start_char=143|end_char=147
+10	like	like	ADP	IN	_	9	_	_	start_char=148|end_char=152
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=153|end_char=154
+12	used	use	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=155|end_char=159
+13	Kleenex	Kleenex	PROPN	NNP	Number=Sing	12	_	_	start_char=160|end_char=167
+14	after	after	SCONJ	IN	_	13	_	_	start_char=168|end_char=173
+15	this	this	PRON	DT	Number=Sing|PronType=Dem	14	_	_	start_char=174|end_char=178
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=179|end_char=181
+17	all	all	ADV	RB	_	16	_	_	start_char=182|end_char=185
+18	over	over	ADV	RB	_	17	_	_	start_char=186|end_char=190|SpaceAfter=No
+19	!	!	PUNCT	.	_	18	_	_	start_char=190|end_char=191|SpaceAfter=No
+

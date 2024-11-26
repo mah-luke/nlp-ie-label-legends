@@ -1,0 +1,27 @@
+# text = you're not going to pick up girls at the movies.
+# sent_id = 94742
+1-2	you're	_	_	_	_	_	_	_	start_char=0|end_char=6
+1	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
+3	not	not	PART	RB	_	2	_	_	start_char=7|end_char=10
+4	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=11|end_char=16
+5	to	to	PART	TO	_	4	_	_	start_char=17|end_char=19
+6	pick	pick	VERB	VB	VerbForm=Inf	5	_	_	start_char=20|end_char=24
+7	up	up	ADP	RP	_	6	_	_	start_char=25|end_char=27
+8	girls	girl	NOUN	NNS	Number=Plur	7	_	_	start_char=28|end_char=33
+9	at	at	ADP	IN	_	8	_	_	start_char=34|end_char=36
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=37|end_char=40
+11	movies	movie	NOUN	NNS	Number=Plur	10	_	_	start_char=41|end_char=47|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=47|end_char=48
+
+# text = just watch the movie and go out afterwards
+# sent_id = 94743
+1	just	just	ADV	RB	_	0	_	_	start_char=49|end_char=53
+2	watch	watch	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=54|end_char=59
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=60|end_char=63
+4	movie	movie	NOUN	NN	Number=Sing	3	_	_	start_char=64|end_char=69
+5	and	and	CCONJ	CC	_	4	_	_	start_char=70|end_char=73
+6	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=74|end_char=76
+7	out	out	ADV	RB	_	6	_	_	start_char=77|end_char=80
+8	afterwards	afterwards	ADV	RB	_	7	_	_	start_char=81|end_char=91|SpaceAfter=No
+

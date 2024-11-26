@@ -1,0 +1,11 @@
+# text = Just dont tell your mother.
+# sent_id = 27475
+1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
+2-3	dont	_	_	_	_	_	_	_	start_char=5|end_char=9
+2	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	nt	not	PART	RB	_	2	_	_	start_char=7|end_char=9
+4	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=10|end_char=14
+5	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=15|end_char=19
+6	mother	mother	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=26|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=26|end_char=27|SpaceAfter=No
+

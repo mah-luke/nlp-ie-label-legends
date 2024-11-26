@@ -1,0 +1,43 @@
+# text = No, you don't.
+# sent_id = 75312
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=4|end_char=7
+4-5	don't	_	_	_	_	_	_	_	start_char=8|end_char=13|SpaceAfter=No
+4	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=10
+5	n't	not	PART	RB	_	4	_	_	start_char=10|end_char=13
+6	.	.	PUNCT	.	_	5	_	_	start_char=13|end_char=14
+
+# text = We will crush you, we will stamp you out.
+# sent_id = 75313
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=15|end_char=17
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=18|end_char=22
+3	crush	crush	VERB	VB	VerbForm=Inf	2	_	_	start_char=23|end_char=28
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=29|end_char=32|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=32|end_char=33
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=34|end_char=36
+7	will	will	AUX	MD	VerbForm=Fin	6	_	_	start_char=37|end_char=41
+8	stamp	stamp	VERB	VB	VerbForm=Inf	7	_	_	start_char=42|end_char=47
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=48|end_char=51
+10	out	out	ADP	RP	_	9	_	_	start_char=52|end_char=55|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=55|end_char=56
+
+# text = You won't be remembered in 100 years as anything other than an abomination.
+# sent_id = 75314
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=57|end_char=60
+2-3	won't	_	_	_	_	_	_	_	start_char=61|end_char=66
+2	wo	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=61|end_char=63
+3	n't	not	PART	RB	_	2	_	_	start_char=63|end_char=66
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=67|end_char=69
+5	remembered	remember	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=70|end_char=80
+6	in	in	ADP	IN	_	5	_	_	start_char=81|end_char=83
+7	100	100	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=84|end_char=87
+8	years	year	NOUN	NNS	Number=Plur	7	_	_	start_char=88|end_char=93
+9	as	as	ADP	IN	_	8	_	_	start_char=94|end_char=96
+10	anything	anything	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=97|end_char=105
+11	other	other	ADJ	JJ	Degree=Pos	10	_	_	start_char=106|end_char=111
+12	than	than	ADP	IN	_	11	_	_	start_char=112|end_char=116
+13	an	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=117|end_char=119
+14	abomination	abomination	NOUN	NN	Number=Sing	13	_	_	start_char=120|end_char=131|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=131|end_char=132|SpaceAfter=No
+

@@ -1,0 +1,24 @@
+# text = Never seen much sexual dancing at raves.
+# sent_id = 123605
+1	Never	never	ADV	RB	_	0	_	_	start_char=0|end_char=5
+2	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=6|end_char=10
+3	much	much	ADJ	JJ	Degree=Pos	2	_	_	start_char=11|end_char=15
+4	sexual	sexual	ADJ	JJ	Degree=Pos	3	_	_	start_char=16|end_char=22
+5	dancing	dancing	NOUN	NN	Number=Sing	4	_	_	start_char=23|end_char=30
+6	at	at	ADP	IN	_	5	_	_	start_char=31|end_char=33
+7	raves	rave	NOUN	NNS	Number=Plur	6	_	_	start_char=34|end_char=39|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=39|end_char=40
+
+# text = It seems like it'd be out of place
+# sent_id = 123606
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=41|end_char=43
+2	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=44|end_char=49
+3	like	like	SCONJ	IN	_	2	_	_	start_char=50|end_char=54
+4-5	it'd	_	_	_	_	_	_	_	start_char=55|end_char=59
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=55|end_char=57
+5	'd	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=57|end_char=59
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=60|end_char=62
+7	out	out	ADP	IN	_	6	_	_	start_char=63|end_char=66
+8	of	of	ADP	IN	_	7	_	_	start_char=67|end_char=69
+9	place	place	NOUN	NN	Number=Sing	8	_	_	start_char=70|end_char=75|SpaceAfter=No
+

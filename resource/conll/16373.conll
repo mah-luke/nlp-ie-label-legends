@@ -1,0 +1,52 @@
+# text = [URL]
+# sent_id = 35096
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
+
+# text = Yeah but she's a typical white girl.
+# sent_id = 35097
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=6|end_char=10
+2	but	but	CCONJ	CC	_	1	_	_	start_char=11|end_char=14
+3-4	she's	_	_	_	_	_	_	_	start_char=15|end_char=20
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=15|end_char=18
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=18|end_char=20
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=21|end_char=22
+6	typical	typical	ADJ	JJ	Degree=Pos	5	_	_	start_char=23|end_char=30
+7	white	white	ADJ	JJ	Degree=Pos	6	_	_	start_char=31|end_char=36
+8	girl	girl	NOUN	NN	Number=Sing	7	_	_	start_char=37|end_char=41|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=41|end_char=42
+
+# text = Thin brows, no lashes, thin lips, but also with bad skin.
+# sent_id = 35098
+1	Thin	Thin	ADJ	JJ	Degree=Pos	0	_	_	start_char=43|end_char=47
+2	brows	brow	NOUN	NNS	Number=Plur	1	_	_	start_char=48|end_char=53|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=53|end_char=54
+4	no	no	DET	DT	_	3	_	_	start_char=55|end_char=57
+5	lashes	lash	NOUN	NNS	Number=Plur	4	_	_	start_char=58|end_char=64|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=64|end_char=65
+7	thin	thin	ADJ	JJ	Degree=Pos	6	_	_	start_char=66|end_char=70
+8	lips	lip	NOUN	NNS	Number=Plur	7	_	_	start_char=71|end_char=75|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=75|end_char=76
+10	but	but	CCONJ	CC	_	9	_	_	start_char=77|end_char=80
+11	also	also	ADV	RB	_	10	_	_	start_char=81|end_char=85
+12	with	with	ADP	IN	_	11	_	_	start_char=86|end_char=90
+13	bad	bad	ADJ	JJ	Degree=Pos	12	_	_	start_char=91|end_char=94
+14	skin	skin	NOUN	NN	Number=Sing	13	_	_	start_char=95|end_char=99|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=99|end_char=100
+
+# text = All of my white friends look pretty... tired without makeup.
+# sent_id = 35099
+1	All	all	DET	DT	_	0	_	_	start_char=101|end_char=104
+2	of	of	ADP	IN	_	1	_	_	start_char=105|end_char=107
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=108|end_char=110
+4	white	white	ADJ	JJ	Degree=Pos	3	_	_	start_char=111|end_char=116
+5	friends	friend	NOUN	NNS	Number=Plur	4	_	_	start_char=117|end_char=124
+6	look	look	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=125|end_char=129
+7	pretty	pretty	ADV	RB	_	6	_	_	start_char=130|end_char=136|SpaceAfter=No
+8	...	...	PUNCT	,	_	7	_	_	start_char=136|end_char=139
+9	tired	tired	ADJ	JJ	Degree=Pos	8	_	_	start_char=140|end_char=145
+10	without	without	ADP	IN	_	9	_	_	start_char=146|end_char=153
+11	makeup	makeup	NOUN	NN	Number=Sing	10	_	_	start_char=154|end_char=160|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=160|end_char=161|SpaceAfter=No
+

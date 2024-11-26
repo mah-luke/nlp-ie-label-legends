@@ -1,0 +1,70 @@
+# text = Once a pretty Jewish girl Worked at a place I used to drink.
+# sent_id = 79749
+1	Once	once	ADV	RB	NumType=Mult	0	_	_	start_char=0|end_char=4
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
+3	pretty	pretty	ADV	RB	_	2	_	_	start_char=7|end_char=13
+4	Jewish	Jewish	ADJ	JJ	Degree=Pos	3	_	_	start_char=14|end_char=20
+5	girl	girl	NOUN	NN	Number=Sing	4	_	_	start_char=21|end_char=25
+6	Worked	work	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=26|end_char=32
+7	at	at	ADP	IN	_	6	_	_	start_char=33|end_char=35
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=36|end_char=37
+9	place	place	NOUN	NN	Number=Sing	8	_	_	start_char=38|end_char=43
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=44|end_char=45
+11	used	use	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	_	_	start_char=46|end_char=50
+12	to	to	PART	TO	_	11	_	_	start_char=51|end_char=53
+13	drink	drink	VERB	VB	VerbForm=Inf	12	_	_	start_char=54|end_char=59|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=59|end_char=60
+
+# text = Prettier than Ann Frank, I think.
+# sent_id = 79750
+1	Prettier	prettier	ADJ	JJR	Degree=Cmp	0	_	_	start_char=61|end_char=69
+2	than	than	ADP	IN	_	1	_	_	start_char=70|end_char=74
+3	Ann	Ann	PROPN	NNP	Number=Sing	2	_	_	start_char=75|end_char=78
+4	Frank	Frank	PROPN	NNP	Number=Sing	3	_	_	start_char=79|end_char=84|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=84|end_char=85
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=86|end_char=87
+7	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=88|end_char=93|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=93|end_char=94
+
+# text = Mama raised me a Christian world.
+# sent_id = 79751
+1	Mama	Mama	PROPN	NNP	Number=Sing	0	_	_	start_char=95|end_char=99
+2	raised	raise	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=100|end_char=106
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=107|end_char=109
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=110|end_char=111
+5	Christian	Christian	ADJ	JJ	Degree=Pos	4	_	_	start_char=112|end_char=121
+6	world	world	NOUN	NN	Number=Sing	5	_	_	start_char=122|end_char=127|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=127|end_char=128
+
+# text = Bar girl didn't give two toots, but I cared about my Christian Roots (((J U D A I S M)))
+# sent_id = 79752
+1	Bar	bar	NOUN	NN	Number=Sing	0	_	_	start_char=129|end_char=132
+2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=133|end_char=137
+3-4	didn't	_	_	_	_	_	_	_	start_char=138|end_char=144
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=138|end_char=141
+4	n't	not	PART	RB	_	3	_	_	start_char=141|end_char=144
+5	give	give	VERB	VB	VerbForm=Inf	4	_	_	start_char=145|end_char=149
+6	two	two	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=150|end_char=153
+7	toots	toot	NOUN	NNS	Number=Plur	6	_	_	start_char=154|end_char=159|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=159|end_char=160
+9	but	but	CCONJ	CC	_	8	_	_	start_char=161|end_char=164
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=165|end_char=166
+11	cared	care	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	_	_	start_char=167|end_char=172
+12	about	about	ADP	IN	_	11	_	_	start_char=173|end_char=178
+13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	_	_	start_char=179|end_char=181
+14	Christian	Christian	ADJ	NNP	Degree=Pos	13	_	_	start_char=182|end_char=191
+15	Roots	Roots	PROPN	NNPS	Number=Plur	14	_	_	start_char=192|end_char=197
+16	(	(	PUNCT	-LRB-	_	15	_	_	start_char=198|end_char=199|SpaceAfter=No
+17	(	(	PUNCT	-LRB-	_	16	_	_	start_char=199|end_char=200|SpaceAfter=No
+18	(	(	PUNCT	-LRB-	_	17	_	_	start_char=200|end_char=201|SpaceAfter=No
+19	J	J	PROPN	NNP	Number=Sing	18	_	_	start_char=201|end_char=202
+20	U	U	PROPN	NNP	Number=Sing	19	_	_	start_char=203|end_char=204
+21	D	D	PROPN	NNP	Number=Sing	20	_	_	start_char=205|end_char=206
+22	A	A	NOUN	NN	Number=Sing	21	_	_	start_char=207|end_char=208
+23	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	_	_	start_char=209|end_char=210
+24	S	S	NOUN	NN	Number=Sing	23	_	_	start_char=211|end_char=212
+25	M	million	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	24	_	_	start_char=213|end_char=214|SpaceAfter=No
+26	)	)	PUNCT	-RRB-	_	25	_	_	start_char=214|end_char=215|SpaceAfter=No
+27	)	)	PUNCT	-RRB-	_	26	_	_	start_char=215|end_char=216|SpaceAfter=No
+28	)	)	PUNCT	-RRB-	_	27	_	_	start_char=216|end_char=217|SpaceAfter=No
+

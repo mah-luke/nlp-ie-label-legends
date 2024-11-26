@@ -1,0 +1,30 @@
+# text = why is she wearing a bag on her head?
+# sent_id = 124047
+1	why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=7|end_char=10
+4	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=11|end_char=18
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=19|end_char=20
+6	bag	bag	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=24
+7	on	on	ADP	IN	_	6	_	_	start_char=25|end_char=27
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=28|end_char=31
+9	head	head	NOUN	NN	Number=Sing	8	_	_	start_char=32|end_char=36|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=36|end_char=37
+
+# text = is she a Rubberbandits fan as well?
+# sent_id = 124048
+1	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=38|end_char=40
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=41|end_char=44
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=45|end_char=46
+4	Rubberbandits	Rubberbandit	PROPN	NNP	Number=Sing	3	_	_	start_char=47|end_char=60
+5	fan	fan	NOUN	NN	Number=Sing	4	_	_	start_char=61|end_char=64
+6	as	as	ADV	RB	_	5	_	_	start_char=65|end_char=67
+7	well	well	ADV	RB	Degree=Pos	6	_	_	start_char=68|end_char=72|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=72|end_char=73
+
+# text = [URL]
+# sent_id = 124049
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=74|end_char=75|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=75|end_char=78|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=78|end_char=79|SpaceAfter=No
+

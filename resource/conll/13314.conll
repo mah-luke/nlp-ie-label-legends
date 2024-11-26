@@ -1,0 +1,52 @@
+# text = Nope, nothing happened.
+# sent_id = 28290
+1	Nope	nope	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	2	_	_	start_char=6|end_char=13
+4	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=14|end_char=22|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=22|end_char=23
+
+# text = She never filed a police report... she just "confided" in the right people and the rumor mill did the rest.
+# sent_id = 28291
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=24|end_char=27
+2	never	never	ADV	RB	_	1	_	_	start_char=28|end_char=33
+3	filed	file	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=34|end_char=39
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=40|end_char=41
+5	police	police	NOUN	NN	Number=Sing	4	_	_	start_char=42|end_char=48
+6	report	report	NOUN	NN	Number=Sing	5	_	_	start_char=49|end_char=55|SpaceAfter=No
+7	...	...	PUNCT	,	_	6	_	_	start_char=55|end_char=58
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=59|end_char=62
+9	just	just	ADV	RB	_	8	_	_	start_char=63|end_char=67
+10	"	"	PUNCT	``	_	9	_	_	start_char=68|end_char=69|SpaceAfter=No
+11	confided	confide	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=69|end_char=77|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=77|end_char=78
+13	in	in	ADP	IN	_	12	_	_	start_char=79|end_char=81
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=82|end_char=85
+15	right	right	ADJ	JJ	Degree=Pos	14	_	_	start_char=86|end_char=91
+16	people	person	NOUN	NNS	Number=Plur	15	_	_	start_char=92|end_char=98
+17	and	and	CCONJ	CC	_	16	_	_	start_char=99|end_char=102
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=103|end_char=106
+19	rumor	rumor	NOUN	NN	Number=Sing	18	_	_	start_char=107|end_char=112
+20	mill	mill	NOUN	NN	Number=Sing	19	_	_	start_char=113|end_char=117
+21	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	_	_	start_char=118|end_char=121
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=122|end_char=125
+23	rest	rest	NOUN	NN	Number=Sing	22	_	_	start_char=126|end_char=130|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=130|end_char=131
+
+# text = A lot of politics in the military, and even rumors destroy people.
+# sent_id = 28292
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=132|end_char=133
+2	lot	lot	NOUN	NN	Number=Sing	1	_	_	start_char=134|end_char=137
+3	of	of	ADP	IN	_	2	_	_	start_char=138|end_char=140
+4	politics	politics	NOUN	NNS	Number=Plur	3	_	_	start_char=141|end_char=149
+5	in	in	ADP	IN	_	4	_	_	start_char=150|end_char=152
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=153|end_char=156
+7	military	military	NOUN	NN	Number=Sing	6	_	_	start_char=157|end_char=165|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=165|end_char=166
+9	and	and	CCONJ	CC	_	8	_	_	start_char=167|end_char=170
+10	even	even	ADV	RB	_	9	_	_	start_char=171|end_char=175
+11	rumors	rumor	NOUN	NNS	Number=Plur	10	_	_	start_char=176|end_char=182
+12	destroy	destroy	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=183|end_char=190
+13	people	person	NOUN	NNS	Number=Plur	12	_	_	start_char=191|end_char=197|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=197|end_char=198|SpaceAfter=No
+

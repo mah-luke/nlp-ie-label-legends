@@ -1,0 +1,30 @@
+# text = That bitch didn't hear us the first time she opened her mouth.
+# sent_id = 90417
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
+2	bitch	bitch	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10
+3-4	didn't	_	_	_	_	_	_	_	start_char=11|end_char=17
+3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=11|end_char=14
+4	n't	not	PART	RB	_	3	_	_	start_char=14|end_char=17
+5	hear	hear	VERB	VB	VerbForm=Inf	4	_	_	start_char=18|end_char=22
+6	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=23|end_char=25
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=26|end_char=29
+8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	_	_	start_char=30|end_char=35
+9	time	time	NOUN	NN	Number=Sing	8	_	_	start_char=36|end_char=40
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=41|end_char=44
+11	opened	open	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=45|end_char=51
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=52|end_char=55
+13	mouth	mouth	NOUN	NN	Number=Sing	12	_	_	start_char=56|end_char=61|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=61|end_char=62
+
+# text = Better late than never ESPN...I guess.
+# sent_id = 90418
+1	Better	good	ADV	RBR	Degree=Cmp	0	_	_	start_char=63|end_char=69
+2	late	late	ADV	RB	Degree=Pos	1	_	_	start_char=70|end_char=74
+3	than	than	ADP	IN	_	2	_	_	start_char=75|end_char=79
+4	never	never	ADV	RB	_	3	_	_	start_char=80|end_char=85
+5	ESPN	ESPN	PROPN	NNP	Number=Sing	4	_	_	start_char=86|end_char=90|SpaceAfter=No
+6	...	...	PUNCT	,	_	5	_	_	start_char=90|end_char=93|SpaceAfter=No
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=93|end_char=94
+8	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=95|end_char=100|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=100|end_char=101|SpaceAfter=No
+

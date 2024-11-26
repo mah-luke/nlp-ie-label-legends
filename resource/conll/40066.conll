@@ -1,0 +1,22 @@
+# text = women's vaginas and **scrotums**
+# sent_id = 85616
+1-2	women's	_	_	_	_	_	_	_	start_char=0|end_char=7
+1	women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=5
+2	's	's	PART	POS	_	1	_	_	start_char=5|end_char=7
+3	vaginas	vagina	NOUN	NNS	Number=Plur	2	_	_	start_char=8|end_char=15
+4	and	and	CCONJ	CC	_	3	_	_	start_char=16|end_char=19
+5	**	**	PUNCT	NFP	_	4	_	_	start_char=20|end_char=22|SpaceAfter=No
+6	scrotums	scrotum	NOUN	NNS	Number=Plur	5	_	_	start_char=22|end_char=30|SpaceAfter=No
+7	**	**	PUNCT	NFP	_	6	_	_	start_char=30|end_char=32
+
+# text = Um ... are you sure about that?
+# sent_id = 85617
+1	Um	um	INTJ	UH	_	0	_	_	start_char=33|end_char=35
+2	...	...	PUNCT	,	_	1	_	_	start_char=36|end_char=39
+3	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=40|end_char=43
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=44|end_char=47
+5	sure	sure	ADJ	JJ	Degree=Pos	4	_	_	start_char=48|end_char=52
+6	about	about	ADP	IN	_	5	_	_	start_char=53|end_char=58
+7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=59|end_char=63|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=63|end_char=64|SpaceAfter=No
+

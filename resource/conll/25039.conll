@@ -1,0 +1,69 @@
+# text = Naaa not tryna be mean but i say let it go, three times is plenty!
+# sent_id = 53668
+1	Naaa	Naaa	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	not	not	PART	RB	_	1	_	_	start_char=5|end_char=8
+3	tryna	tryna	PART	TO	_	2	_	_	start_char=9|end_char=14
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=15|end_char=17
+5	mean	mean	ADJ	JJ	Degree=Pos	4	_	_	start_char=18|end_char=22
+6	but	but	CCONJ	CC	_	5	_	_	start_char=23|end_char=26
+7	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=27|end_char=28
+8	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	_	_	start_char=29|end_char=32
+9	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=33|end_char=36
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=37|end_char=39
+11	go	go	VERB	VB	VerbForm=Inf	10	_	_	start_char=40|end_char=42|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=42|end_char=43
+13	three	three	NUM	CD	NumForm=Word|NumType=Card	12	_	_	start_char=44|end_char=49
+14	times	time	NOUN	NNS	Number=Plur	13	_	_	start_char=50|end_char=55
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=56|end_char=58
+16	plenty	plenty	NOUN	NN	Number=Sing	15	_	_	start_char=59|end_char=65|SpaceAfter=No
+17	!	!	PUNCT	.	_	16	_	_	start_char=65|end_char=66
+
+# text = I only ask 2 times.
+# sent_id = 53669
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=67|end_char=68
+2	only	only	ADV	RB	_	1	_	_	start_char=69|end_char=73
+3	ask	ask	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=74|end_char=77
+4	2	2	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=78|end_char=79
+5	times	time	NOUN	NNS	Number=Plur	4	_	_	start_char=80|end_char=85|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=85|end_char=86
+
+# text = If she’s interested she’ll ask to hang out or spend time alone as well.
+# sent_id = 53670
+1	If	if	SCONJ	IN	_	0	_	_	start_char=87|end_char=89
+2-3	she’s	_	_	_	_	_	_	_	start_char=90|end_char=95
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=90|end_char=93
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=93|end_char=95
+4	interested	interested	ADJ	JJ	Degree=Pos	3	_	_	start_char=96|end_char=106
+5-6	she’ll	_	_	_	_	_	_	_	start_char=107|end_char=113
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=107|end_char=110
+6	’ll	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=110|end_char=113
+7	ask	ask	VERB	VB	VerbForm=Inf	6	_	_	start_char=114|end_char=117
+8	to	to	PART	TO	_	7	_	_	start_char=118|end_char=120
+9	hang	hang	VERB	VB	VerbForm=Inf	8	_	_	start_char=121|end_char=125
+10	out	out	ADP	RP	_	9	_	_	start_char=126|end_char=129
+11	or	or	CCONJ	CC	_	10	_	_	start_char=130|end_char=132
+12	spend	spend	VERB	VB	VerbForm=Inf	11	_	_	start_char=133|end_char=138
+13	time	time	NOUN	NN	Number=Sing	12	_	_	start_char=139|end_char=143
+14	alone	alone	ADV	RB	_	13	_	_	start_char=144|end_char=149
+15	as	as	ADV	RB	_	14	_	_	start_char=150|end_char=152
+16	well	well	ADV	RB	Degree=Pos	15	_	_	start_char=153|end_char=157|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=157|end_char=158
+
+# text = But thats just me, you can shoot your shot all day!
+# sent_id = 53671
+1	But	but	CCONJ	CC	_	0	_	_	start_char=159|end_char=162
+2-3	thats	_	_	_	_	_	_	_	start_char=163|end_char=168
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=163|end_char=167
+3	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=167|end_char=168
+4	just	just	ADV	RB	_	3	_	_	start_char=169|end_char=173
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=174|end_char=176|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=176|end_char=177
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=178|end_char=181
+8	can	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=182|end_char=185
+9	shoot	shoot	VERB	VB	VerbForm=Inf	8	_	_	start_char=186|end_char=191
+10	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	9	_	_	start_char=192|end_char=196
+11	shot	shot	NOUN	NN	Number=Sing	10	_	_	start_char=197|end_char=201
+12	all	all	DET	DT	_	11	_	_	start_char=202|end_char=205
+13	day	day	NOUN	NN	Number=Sing	12	_	_	start_char=206|end_char=209|SpaceAfter=No
+14	!	!	PUNCT	.	_	13	_	_	start_char=209|end_char=210|SpaceAfter=No
+

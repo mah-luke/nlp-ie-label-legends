@@ -1,0 +1,20 @@
+# text = She's either a lesbian (most likely) or she prefers her meat dark.
+# sent_id = 26797
+1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	either	either	CCONJ	CC	_	2	_	_	start_char=6|end_char=12
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=13|end_char=14
+5	lesbian	lesbian	NOUN	NN	Number=Sing	4	_	_	start_char=15|end_char=22
+6	(	(	PUNCT	-LRB-	_	5	_	_	start_char=23|end_char=24|SpaceAfter=No
+7	most	most	ADV	RBS	Degree=Sup	6	_	_	start_char=24|end_char=28
+8	likely	likely	ADJ	JJ	Degree=Pos	7	_	_	start_char=29|end_char=35|SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	8	_	_	start_char=35|end_char=36
+10	or	or	CCONJ	CC	_	9	_	_	start_char=37|end_char=39
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=40|end_char=43
+12	prefers	prefer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=44|end_char=51
+13	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=52|end_char=55
+14	meat	meat	NOUN	NN	Number=Sing	13	_	_	start_char=56|end_char=60
+15	dark	dark	ADJ	JJ	Degree=Pos	14	_	_	start_char=61|end_char=65|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=65|end_char=66|SpaceAfter=No
+

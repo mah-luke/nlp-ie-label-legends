@@ -1,0 +1,55 @@
+# text = [USER]
+# sent_id = 18411
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+
+# text = Ow, my brain hurts just reading that and wondering how it would impact Hillary.
+# sent_id = 18412
+1	Ow	ow	INTJ	UH	_	0	_	_	start_char=7|end_char=9|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=9|end_char=10
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=11|end_char=13
+4	brain	brain	NOUN	NN	Number=Sing	3	_	_	start_char=14|end_char=19
+5	hurts	hurt	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=20|end_char=25
+6	just	just	ADV	RB	_	5	_	_	start_char=26|end_char=30
+7	reading	read	VERB	VBG	VerbForm=Ger	6	_	_	start_char=31|end_char=38
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=39|end_char=43
+9	and	and	CCONJ	CC	_	8	_	_	start_char=44|end_char=47
+10	wondering	wonder	VERB	VBG	VerbForm=Ger	9	_	_	start_char=48|end_char=57
+11	how	how	ADV	WRB	PronType=Int	10	_	_	start_char=58|end_char=61
+12	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=62|end_char=64
+13	would	would	AUX	MD	VerbForm=Fin	12	_	_	start_char=65|end_char=70
+14	impact	impact	VERB	VB	VerbForm=Inf	13	_	_	start_char=71|end_char=77
+15	Hillary	Hillary	PROPN	NNP	Number=Sing	14	_	_	start_char=78|end_char=85|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=85|end_char=86
+
+# text = With her criminal acts, lies and abuse of witnesses you have to admit she must have pair of big brass ones under that pants suit.
+# sent_id = 18413
+1	With	with	ADP	IN	_	0	_	_	start_char=87|end_char=91
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=92|end_char=95
+3	criminal	criminal	ADJ	JJ	Degree=Pos	2	_	_	start_char=96|end_char=104
+4	acts	act	NOUN	NNS	Number=Plur	3	_	_	start_char=105|end_char=109|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=109|end_char=110
+6	lies	lie	NOUN	NNS	Number=Plur	5	_	_	start_char=111|end_char=115
+7	and	and	CCONJ	CC	_	6	_	_	start_char=116|end_char=119
+8	abuse	abuse	NOUN	NN	Number=Sing	7	_	_	start_char=120|end_char=125
+9	of	of	ADP	IN	_	8	_	_	start_char=126|end_char=128
+10	witnesses	witness	NOUN	NNS	Number=Plur	9	_	_	start_char=129|end_char=138
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=139|end_char=142
+12	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	11	_	_	start_char=143|end_char=147
+13	to	to	PART	TO	_	12	_	_	start_char=148|end_char=150
+14	admit	admit	VERB	VB	VerbForm=Inf	13	_	_	start_char=151|end_char=156
+15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=157|end_char=160
+16	must	must	AUX	MD	VerbForm=Fin	15	_	_	start_char=161|end_char=165
+17	have	have	VERB	VB	VerbForm=Inf	16	_	_	start_char=166|end_char=170
+18	pair	pair	NOUN	NN	Number=Sing	17	_	_	start_char=171|end_char=175
+19	of	of	ADP	IN	_	18	_	_	start_char=176|end_char=178
+20	big	big	ADJ	JJ	Degree=Pos	19	_	_	start_char=179|end_char=182
+21	brass	brass	NOUN	NN	Number=Sing	20	_	_	start_char=183|end_char=188
+22	ones	one	NOUN	NNS	Number=Plur	21	_	_	start_char=189|end_char=193
+23	under	under	ADP	IN	_	22	_	_	start_char=194|end_char=199
+24	that	that	DET	DT	Number=Sing|PronType=Dem	23	_	_	start_char=200|end_char=204
+25	pants	pant	NOUN	NNS	Number=Plur	24	_	_	start_char=205|end_char=210
+26	suit	suit	NOUN	NN	Number=Sing	25	_	_	start_char=211|end_char=215|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=215|end_char=216|SpaceAfter=No
+

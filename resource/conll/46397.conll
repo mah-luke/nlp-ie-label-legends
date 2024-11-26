@@ -1,0 +1,36 @@
+# text = Nikki
+# sent_id = 99081
+1	Nikki	Nikki	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+
+# text = Haley needs to be tried for treason.
+# sent_id = 99082
+1	Haley	Haley	PROPN	NNP	Number=Sing	0	_	_	start_char=6|end_char=11
+2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=12|end_char=17
+3	to	to	PART	TO	_	2	_	_	start_char=18|end_char=20
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=21|end_char=23
+5	tried	try	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=24|end_char=29
+6	for	for	ADP	IN	_	5	_	_	start_char=30|end_char=33
+7	treason	treason	NOUN	NN	Number=Sing	6	_	_	start_char=34|end_char=41|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=41|end_char=42
+
+# text = The sooner we see her swinging from a rope, the better off the planet will be.
+# sent_id = 99083
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=43|end_char=46
+2	sooner	soon	ADV	RBR	Degree=Cmp	1	_	_	start_char=47|end_char=53
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=54|end_char=56
+4	see	see	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=57|end_char=60
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=61|end_char=64
+6	swinging	swing	VERB	VBG	VerbForm=Ger	5	_	_	start_char=65|end_char=73
+7	from	from	ADP	IN	_	6	_	_	start_char=74|end_char=78
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=79|end_char=80
+9	rope	rope	NOUN	NN	Number=Sing	8	_	_	start_char=81|end_char=85|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=85|end_char=86
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=87|end_char=90
+12	better	good	ADJ	JJR	Degree=Cmp	11	_	_	start_char=91|end_char=97
+13	off	off	ADP	IN	_	12	_	_	start_char=98|end_char=101
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=102|end_char=105
+15	planet	planet	NOUN	NN	Number=Sing	14	_	_	start_char=106|end_char=112
+16	will	will	AUX	MD	VerbForm=Fin	15	_	_	start_char=113|end_char=117
+17	be	be	AUX	VB	VerbForm=Inf	16	_	_	start_char=118|end_char=120|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=120|end_char=121|SpaceAfter=No
+

@@ -1,0 +1,32 @@
+# text = pay me for PERFORMANCE, not ATTENDANCE.
+# sent_id = 124628
+1	pay	pay	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=4|end_char=6
+3	for	for	ADP	IN	_	2	_	_	start_char=7|end_char=10
+4	PERFORMANCE	performance	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=22|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=22|end_char=23
+6	not	not	PART	RB	_	5	_	_	start_char=24|end_char=27
+7	ATTENDANCE	attendance	NOUN	NNS	Number=Plur	6	_	_	start_char=28|end_char=38|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=38|end_char=39
+
+# text = Women take 43% more sick days than men, 44% of female doctors work part time
+# sent_id = 124629
+1	Women	woman	NOUN	NNS	Number=Plur	0	_	_	start_char=40|end_char=45
+2	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=46|end_char=50
+3	43	43	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=51|end_char=53|SpaceAfter=No
+4	%	%	SYM	NN	Number=Sing	3	_	_	start_char=53|end_char=54
+5	more	more	ADV	RBR	Degree=Cmp	4	_	_	start_char=55|end_char=59
+6	sick	sick	ADJ	JJ	Degree=Pos	5	_	_	start_char=60|end_char=64
+7	days	day	NOUN	NNS	Number=Plur	6	_	_	start_char=65|end_char=69
+8	than	than	ADP	IN	_	7	_	_	start_char=70|end_char=74
+9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=75|end_char=78|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=78|end_char=79
+11	44	44	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=80|end_char=82|SpaceAfter=No
+12	%	%	SYM	NN	Number=Sing	11	_	_	start_char=82|end_char=83
+13	of	of	ADP	IN	_	12	_	_	start_char=84|end_char=86
+14	female	female	ADJ	JJ	Degree=Pos	13	_	_	start_char=87|end_char=93
+15	doctors	doctor	NOUN	NNS	Number=Plur	14	_	_	start_char=94|end_char=101
+16	work	work	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=102|end_char=106
+17	part	part	NOUN	NN	Number=Sing	16	_	_	start_char=107|end_char=111
+18	time	time	NOUN	NN	Number=Sing	17	_	_	start_char=112|end_char=116|SpaceAfter=No
+

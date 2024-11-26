@@ -1,0 +1,58 @@
+# text = And as If
+# sent_id = 122875
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	as	as	ADP	IN	_	1	_	_	start_char=4|end_char=6
+3	If	if	SCONJ	IN	_	2	_	_	start_char=7|end_char=9
+
+# text = That guy would turn her down if he had a chance to root her.
+# sent_id = 122876
+1	That	that	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=10|end_char=14
+2	guy	guy	NOUN	NN	Number=Sing	1	_	_	start_char=15|end_char=18
+3	would	would	AUX	MD	VerbForm=Fin	2	_	_	start_char=19|end_char=24
+4	turn	turn	VERB	VB	VerbForm=Inf	3	_	_	start_char=25|end_char=29
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=30|end_char=33
+6	down	down	ADP	RP	_	5	_	_	start_char=34|end_char=38
+7	if	if	SCONJ	IN	_	6	_	_	start_char=39|end_char=41
+8	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=42|end_char=44
+9	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=45|end_char=48
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=49|end_char=50
+11	chance	chance	NOUN	NN	Number=Sing	10	_	_	start_char=51|end_char=57
+12	to	to	PART	TO	_	11	_	_	start_char=58|end_char=60
+13	root	root	VERB	VB	VerbForm=Inf	12	_	_	start_char=61|end_char=65
+14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=66|end_char=69|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=69|end_char=70
+
+# text = It’s so pathetic.
+# sent_id = 122877
+1-2	It’s	_	_	_	_	_	_	_	start_char=71|end_char=75
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=71|end_char=73
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=73|end_char=75
+3	so	so	ADV	RB	_	2	_	_	start_char=76|end_char=78
+4	pathetic	pathetic	ADJ	JJ	Degree=Pos	3	_	_	start_char=79|end_char=87|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=87|end_char=88
+
+# text = They hate her so much so they secretly have to act like they aren’t attracted to the attractive woman.
+# sent_id = 122878
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=89|end_char=93
+2	hate	hate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=94|end_char=98
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=99|end_char=102
+4	so	so	ADV	RB	_	3	_	_	start_char=103|end_char=105
+5	much	much	ADV	RB	_	4	_	_	start_char=106|end_char=110
+6	so	so	SCONJ	IN	_	5	_	_	start_char=111|end_char=113
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=114|end_char=118
+8	secretly	secretly	ADV	RB	_	7	_	_	start_char=119|end_char=127
+9	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=128|end_char=132
+10	to	to	PART	TO	_	9	_	_	start_char=133|end_char=135
+11	act	act	VERB	VB	VerbForm=Inf	10	_	_	start_char=136|end_char=139
+12	like	like	SCONJ	IN	_	11	_	_	start_char=140|end_char=144
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=145|end_char=149
+14-15	aren’t	_	_	_	_	_	_	_	start_char=150|end_char=156
+14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=150|end_char=153
+15	n’t	not	PART	RB	_	14	_	_	start_char=153|end_char=156
+16	attracted	attract	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	15	_	_	start_char=157|end_char=166
+17	to	to	ADP	IN	_	16	_	_	start_char=167|end_char=169
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=170|end_char=173
+19	attractive	attractive	ADJ	JJ	Degree=Pos	18	_	_	start_char=174|end_char=184
+20	woman	woman	NOUN	NN	Number=Sing	19	_	_	start_char=185|end_char=190|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=190|end_char=191|SpaceAfter=No
+

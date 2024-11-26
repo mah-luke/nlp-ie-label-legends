@@ -1,0 +1,55 @@
+# text = Alex Jones is #AIPAC.
+# sent_id = 34119
+1	Alex	Alex	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	Jones	Jones	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=10
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13
+4	#AIPAC	#aipac	PROPN	NNP	Number=Sing	3	_	_	start_char=14|end_char=20|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=20|end_char=21
+
+# text = I exposed that in the same video put on my channel about [USER]'s admitted pedo friend [USER] twitter.com/darkmagekf who published details on the internet about her daughter loving dyke sex first b4 I even met her.
+# sent_id = 34120
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=22|end_char=23
+2	exposed	expose	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=24|end_char=31
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=32|end_char=36
+4	in	in	ADP	IN	_	3	_	_	start_char=37|end_char=39
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=40|end_char=43
+6	same	same	ADJ	JJ	Degree=Pos	5	_	_	start_char=44|end_char=48
+7	video	video	NOUN	NN	Number=Sing	6	_	_	start_char=49|end_char=54
+8	put	put	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=55|end_char=58
+9	on	on	ADP	IN	_	8	_	_	start_char=59|end_char=61
+10	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	9	_	_	start_char=62|end_char=64
+11	channel	channel	NOUN	NN	Number=Sing	10	_	_	start_char=65|end_char=72
+12	about	about	ADP	IN	_	11	_	_	start_char=73|end_char=78
+13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=79|end_char=80|SpaceAfter=No
+14-15	USER]'s	_	_	_	_	_	_	_	start_char=80|end_char=87
+14	USER]	USER]	PROPN	NNP	Number=Sing	13	_	_	start_char=80|end_char=85
+15	's	's	PART	POS	_	14	_	_	start_char=85|end_char=87
+16	admitted	admit	VERB	VBN	Tense=Past|VerbForm=Part	15	_	_	start_char=88|end_char=96
+17	pedo	pedo	NOUN	NN	Number=Sing	16	_	_	start_char=97|end_char=101
+18	friend	friend	NOUN	NN	Number=Sing	17	_	_	start_char=102|end_char=108
+19	[	[	PUNCT	-LRB-	_	18	_	_	start_char=109|end_char=110|SpaceAfter=No
+20	USER	user	NOUN	NN	Number=Sing	19	_	_	start_char=110|end_char=114|SpaceAfter=No
+21	]	]	PUNCT	-RRB-	_	20	_	_	start_char=114|end_char=115
+22	twitter.com	twitter.com	PROPN	NNP	Number=Sing	21	_	_	start_char=116|end_char=127|SpaceAfter=No
+23	/	/	SYM	,	_	22	_	_	start_char=127|end_char=128|SpaceAfter=No
+24	darkmagekf	darkmagekf	PROPN	NNP	Number=Sing	23	_	_	start_char=128|end_char=138
+25	who	who	PRON	WP	PronType=Rel	24	_	_	start_char=139|end_char=142
+26	published	publish	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	25	_	_	start_char=143|end_char=152
+27	details	detail	NOUN	NNS	Number=Plur	26	_	_	start_char=153|end_char=160
+28	on	on	ADP	IN	_	27	_	_	start_char=161|end_char=163
+29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	start_char=164|end_char=167
+30	internet	internet	NOUN	NN	Number=Sing	29	_	_	start_char=168|end_char=176
+31	about	about	ADP	IN	_	30	_	_	start_char=177|end_char=182
+32	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	31	_	_	start_char=183|end_char=186
+33	daughter	daughter	NOUN	NN	Number=Sing	32	_	_	start_char=187|end_char=195
+34	loving	love	VERB	VBG	VerbForm=Ger	33	_	_	start_char=196|end_char=202
+35	dyke	dyke	NOUN	NN	Number=Sing	34	_	_	start_char=203|end_char=207
+36	sex	sex	NOUN	NN	Number=Sing	35	_	_	start_char=208|end_char=211
+37	first	first	ADV	RB	NumType=Ord	36	_	_	start_char=212|end_char=217
+38	b4	b4	NOUN	NN	Number=Sing	37	_	_	start_char=218|end_char=220
+39	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	38	_	_	start_char=221|end_char=222
+40	even	even	ADV	RB	_	39	_	_	start_char=223|end_char=227
+41	met	meet	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	40	_	_	start_char=228|end_char=231
+42	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	41	_	_	start_char=232|end_char=235|SpaceAfter=No
+43	.	.	PUNCT	.	_	42	_	_	start_char=235|end_char=236|SpaceAfter=No
+

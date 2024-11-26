@@ -1,0 +1,51 @@
+# text = Wife was up with the crying baby for six hours last night...
+# sent_id = 88359
+1	Wife	wife	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	up	up	ADV	RB	_	2	_	_	start_char=9|end_char=11
+4	with	with	ADP	IN	_	3	_	_	start_char=12|end_char=16
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=17|end_char=20
+6	crying	cry	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=27
+7	baby	baby	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=32
+8	for	for	ADP	IN	_	7	_	_	start_char=33|end_char=36
+9	six	six	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=37|end_char=40
+10	hours	hour	NOUN	NNS	Number=Plur	9	_	_	start_char=41|end_char=46
+11	last	last	ADJ	JJ	Degree=Pos	10	_	_	start_char=47|end_char=51
+12	night	night	NOUN	NN	Number=Sing	11	_	_	start_char=52|end_char=57|SpaceAfter=No
+13	...	...	PUNCT	.	_	12	_	_	start_char=57|end_char=60
+
+# text = I hold her for ten minutes before getting ready for work and she falls fast asleep.
+# sent_id = 88360
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=61|end_char=62
+2	hold	hold	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=67
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=68|end_char=71
+4	for	for	ADP	IN	_	3	_	_	start_char=72|end_char=75
+5	ten	ten	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=76|end_char=79
+6	minutes	minute	NOUN	NNS	Number=Plur	5	_	_	start_char=80|end_char=87
+7	before	before	SCONJ	IN	_	6	_	_	start_char=88|end_char=94
+8	getting	get	VERB	VBG	VerbForm=Ger	7	_	_	start_char=95|end_char=102
+9	ready	ready	ADJ	JJ	Degree=Pos	8	_	_	start_char=103|end_char=108
+10	for	for	ADP	IN	_	9	_	_	start_char=109|end_char=112
+11	work	work	NOUN	NN	Number=Sing	10	_	_	start_char=113|end_char=117
+12	and	and	CCONJ	CC	_	11	_	_	start_char=118|end_char=121
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=122|end_char=125
+14	falls	fall	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=126|end_char=131
+15	fast	fast	ADV	RB	Degree=Pos	14	_	_	start_char=132|end_char=136
+16	asleep	asleep	ADV	RB	_	15	_	_	start_char=137|end_char=143|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=143|end_char=144
+
+# text = Winning the gender war never gets tired, does it gentlemen?
+# sent_id = 88361
+1	Winning	win	VERB	VBG	VerbForm=Ger	0	_	_	start_char=145|end_char=152
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=153|end_char=156
+3	gender	gender	NOUN	NN	Number=Sing	2	_	_	start_char=157|end_char=163
+4	war	war	NOUN	NN	Number=Sing	3	_	_	start_char=164|end_char=167
+5	never	never	ADV	RB	_	4	_	_	start_char=168|end_char=173
+6	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=174|end_char=178
+7	tired	tired	ADJ	JJ	Degree=Pos	6	_	_	start_char=179|end_char=184|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=184|end_char=185
+9	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=186|end_char=190
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=191|end_char=193
+11	gentlemen	gentleman	NOUN	NNS	Number=Plur	10	_	_	start_char=194|end_char=203|SpaceAfter=No
+12	?	?	PUNCT	.	_	11	_	_	start_char=203|end_char=204|SpaceAfter=No
+

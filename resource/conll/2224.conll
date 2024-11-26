@@ -1,0 +1,28 @@
+# text = I want them to burn.
+# sent_id = 4709
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=7|end_char=11
+4	to	to	PART	TO	_	3	_	_	start_char=12|end_char=14
+5	burn	burn	VERB	VB	VerbForm=Inf	4	_	_	start_char=15|end_char=19|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = I want their assholes to burn with the heat of 1000 ghost peppers for eternity.
+# sent_id = 4710
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=21|end_char=22
+2	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=23|end_char=27
+3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=28|end_char=33
+4	assholes	asshole	NOUN	NNS	Number=Plur	3	_	_	start_char=34|end_char=42
+5	to	to	PART	TO	_	4	_	_	start_char=43|end_char=45
+6	burn	burn	VERB	VB	VerbForm=Inf	5	_	_	start_char=46|end_char=50
+7	with	with	ADP	IN	_	6	_	_	start_char=51|end_char=55
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=56|end_char=59
+9	heat	heat	NOUN	NN	Number=Sing	8	_	_	start_char=60|end_char=64
+10	of	of	ADP	IN	_	9	_	_	start_char=65|end_char=67
+11	1000	1000	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=68|end_char=72
+12	ghost	ghost	NOUN	NN	Number=Sing	11	_	_	start_char=73|end_char=78
+13	peppers	pepper	NOUN	NNS	Number=Plur	12	_	_	start_char=79|end_char=86
+14	for	for	ADP	IN	_	13	_	_	start_char=87|end_char=90
+15	eternity	eternity	NOUN	NN	Number=Sing	14	_	_	start_char=91|end_char=99|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=99|end_char=100|SpaceAfter=No
+

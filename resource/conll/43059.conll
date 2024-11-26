@@ -1,0 +1,49 @@
+# text = Hope Hicks wrote to me and said she is tired of living in D.C. so far away from me.
+# sent_id = 92031
+1	Hope	Hope	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
+2	Hicks	Hicks	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=10
+3	wrote	write	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=11|end_char=16
+4	to	to	ADP	IN	_	3	_	_	start_char=17|end_char=19
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=20|end_char=22
+6	and	and	CCONJ	CC	_	5	_	_	start_char=23|end_char=26
+7	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=27|end_char=31
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=32|end_char=35
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=36|end_char=38
+10	tired	tired	ADJ	JJ	Degree=Pos	9	_	_	start_char=39|end_char=44
+11	of	of	SCONJ	IN	_	10	_	_	start_char=45|end_char=47
+12	living	live	VERB	VBG	VerbForm=Ger	11	_	_	start_char=48|end_char=54
+13	in	in	ADP	IN	_	12	_	_	start_char=55|end_char=57
+14	D.C.	D.C.	PROPN	NNP	Number=Sing	13	_	_	start_char=58|end_char=62
+15	so	so	ADV	RB	_	14	_	_	start_char=63|end_char=65
+16	far	far	ADV	RB	Degree=Pos	15	_	_	start_char=66|end_char=69
+17	away	away	ADV	RB	_	16	_	_	start_char=70|end_char=74
+18	from	from	ADP	IN	_	17	_	_	start_char=75|end_char=79
+19	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	18	_	_	start_char=80|end_char=82|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=82|end_char=83
+
+# text = She said she just can't make this long distance thing work any longer and so she is coming home. :)
+# sent_id = 92032
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=84|end_char=87
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=88|end_char=92
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=93|end_char=96
+4	just	just	ADV	RB	_	3	_	_	start_char=97|end_char=101
+5-6	can't	_	_	_	_	_	_	_	start_char=102|end_char=107
+5	ca	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=102|end_char=104
+6	n't	not	PART	RB	_	5	_	_	start_char=104|end_char=107
+7	make	make	VERB	VB	VerbForm=Inf	6	_	_	start_char=108|end_char=112
+8	this	this	DET	DT	Number=Sing|PronType=Dem	7	_	_	start_char=113|end_char=117
+9	long	long	ADJ	JJ	Degree=Pos	8	_	_	start_char=118|end_char=122
+10	distance	distance	NOUN	NN	Number=Sing	9	_	_	start_char=123|end_char=131
+11	thing	thing	NOUN	NN	Number=Sing	10	_	_	start_char=132|end_char=137
+12	work	work	NOUN	NN	Number=Sing	11	_	_	start_char=138|end_char=142
+13	any	any	ADV	RB	_	12	_	_	start_char=143|end_char=146
+14	longer	long	ADV	RBR	Degree=Cmp	13	_	_	start_char=147|end_char=153
+15	and	and	CCONJ	CC	_	14	_	_	start_char=154|end_char=157
+16	so	so	ADV	RB	_	15	_	_	start_char=158|end_char=160
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=161|end_char=164
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=165|end_char=167
+19	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	18	_	_	start_char=168|end_char=174
+20	home	home	ADV	RB	_	19	_	_	start_char=175|end_char=179|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=179|end_char=180
+22	:)	:)	SYM	NFP	_	21	_	_	start_char=181|end_char=183|SpaceAfter=No
+

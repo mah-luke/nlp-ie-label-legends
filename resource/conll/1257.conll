@@ -1,0 +1,29 @@
+# text = True for most species, but not all.
+# sent_id = 2658
+1	True	true	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
+2	for	for	ADP	IN	_	1	_	_	start_char=5|end_char=8
+3	most	most	ADJ	JJS	Degree=Sup	2	_	_	start_char=9|end_char=13
+4	species	species	NOUN	NNS	Number=Plur	3	_	_	start_char=14|end_char=21|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=21|end_char=22
+6	but	but	CCONJ	CC	_	5	_	_	start_char=23|end_char=26
+7	not	not	PART	RB	_	6	_	_	start_char=27|end_char=30
+8	all	all	DET	DT	_	7	_	_	start_char=31|end_char=34|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=34|end_char=35
+
+# text = Hyena females rule the clan, and males are at the very bottom.
+# sent_id = 2659
+1	Hyena	Hyena	PROPN	NNP	Number=Sing	0	_	_	start_char=36|end_char=41
+2	females	female	NOUN	NNS	Number=Plur	1	_	_	start_char=42|end_char=49
+3	rule	rule	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=50|end_char=54
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=55|end_char=58
+5	clan	clan	NOUN	NN	Number=Sing	4	_	_	start_char=59|end_char=63|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=63|end_char=64
+7	and	and	CCONJ	CC	_	6	_	_	start_char=65|end_char=68
+8	males	male	NOUN	NNS	Number=Plur	7	_	_	start_char=69|end_char=74
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=75|end_char=78
+10	at	at	ADP	IN	_	9	_	_	start_char=79|end_char=81
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=82|end_char=85
+12	very	very	ADJ	JJ	Degree=Pos	11	_	_	start_char=86|end_char=90
+13	bottom	bottom	NOUN	NN	Number=Sing	12	_	_	start_char=91|end_char=97|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=97|end_char=98|SpaceAfter=No
+

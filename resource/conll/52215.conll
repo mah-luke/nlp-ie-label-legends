@@ -1,0 +1,67 @@
+# text = She is an ignorant piece of schiff.
+# sent_id = 111654
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=7|end_char=9
+4	ignorant	ignorant	ADJ	JJ	Degree=Pos	3	_	_	start_char=10|end_char=18
+5	piece	piece	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=24
+6	of	of	ADP	IN	_	5	_	_	start_char=25|end_char=27
+7	schiff	schiff	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=34|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=34|end_char=35
+
+# text = Her day will come.
+# sent_id = 111655
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=36|end_char=39
+2	day	day	NOUN	NN	Number=Sing	1	_	_	start_char=40|end_char=43
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=44|end_char=48
+4	come	come	VERB	VB	VerbForm=Inf	3	_	_	start_char=49|end_char=53|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=53|end_char=54
+
+# text = Why anyone follows her is a mystery.
+# sent_id = 111656
+1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=55|end_char=58
+2	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	1	_	_	start_char=59|end_char=65
+3	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=66|end_char=73
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=74|end_char=77
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=78|end_char=80
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=81|end_char=82
+7	mystery	mystery	NOUN	NN	Number=Sing	6	_	_	start_char=83|end_char=90|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=90|end_char=91
+
+# text = She talks schiff but that's all it is.
+# sent_id = 111657
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=92|end_char=95
+2	talks	talk	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=96|end_char=101
+3	schiff	schiff	PROPN	NNP	Number=Sing	2	_	_	start_char=102|end_char=108
+4	but	but	CCONJ	CC	_	3	_	_	start_char=109|end_char=112
+5-6	that's	_	_	_	_	_	_	_	start_char=113|end_char=119
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=113|end_char=117
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=117|end_char=119
+7	all	all	DET	DT	_	6	_	_	start_char=120|end_char=123
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=124|end_char=126
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=127|end_char=129|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=129|end_char=130
+
+# text = She just looks like an asshole, act's like a dumb bitch.
+# sent_id = 111658
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=131|end_char=134
+2	just	just	ADV	RB	_	1	_	_	start_char=135|end_char=139
+3	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=140|end_char=145
+4	like	like	ADP	IN	_	3	_	_	start_char=146|end_char=150
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=151|end_char=153
+6	asshole	asshole	NOUN	NN	Number=Sing	5	_	_	start_char=154|end_char=161|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=161|end_char=162
+8-9	act's	_	_	_	_	_	_	_	start_char=163|end_char=168
+8	act	act	NOUN	NN	Number=Sing	7	_	_	start_char=163|end_char=166
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=166|end_char=168
+10	like	like	INTJ	UH	_	9	_	_	start_char=169|end_char=173
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=174|end_char=175
+12	dumb	dumb	ADJ	JJ	Degree=Pos	11	_	_	start_char=176|end_char=180
+13	bitch	bitch	NOUN	NN	Number=Sing	12	_	_	start_char=181|end_char=186|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=186|end_char=187
+
+# text = Just saying
+# sent_id = 111659
+1	Just	just	ADV	RB	_	0	_	_	start_char=188|end_char=192
+2	saying	say	VERB	VBG	VerbForm=Ger	1	_	_	start_char=193|end_char=199|SpaceAfter=No
+

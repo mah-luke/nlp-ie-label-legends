@@ -1,0 +1,54 @@
+# text = Alexa Chung
+# sent_id = 76453
+1	Alexa	Alexa	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
+2	Chung	Chung	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=11
+
+# text = Her father is 3/4
+# sent_id = 76454
+1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=12|end_char=15
+2	father	father	NOUN	NN	Number=Sing	1	_	_	start_char=16|end_char=22
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=23|end_char=25
+4	3/4	3/4	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=26|end_char=29
+
+# text = Chinese if that makes a difference.
+# sent_id = 76455
+1	Chinese	Chinese	ADJ	JJ	Degree=Pos	0	_	_	start_char=30|end_char=37
+2	if	if	SCONJ	IN	_	1	_	_	start_char=38|end_char=40
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=41|end_char=45
+4	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=46|end_char=51
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=52|end_char=53
+6	difference	difference	NOUN	NN	Number=Sing	5	_	_	start_char=54|end_char=64|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=64|end_char=65
+
+# text = I'm pretty good at spotting mixes, so she does appear a little different but definitely not appearing like half or even 3/8s asian.
+# sent_id = 76456
+1-2	I'm	_	_	_	_	_	_	_	start_char=66|end_char=69
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=66|end_char=67
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=67|end_char=69
+3	pretty	pretty	ADV	RB	_	2	_	_	start_char=70|end_char=76
+4	good	good	ADJ	JJ	Degree=Pos	3	_	_	start_char=77|end_char=81
+5	at	at	SCONJ	IN	_	4	_	_	start_char=82|end_char=84
+6	spotting	spot	VERB	VBG	VerbForm=Ger	5	_	_	start_char=85|end_char=93
+7	mixes	mix	NOUN	NNS	Number=Plur	6	_	_	start_char=94|end_char=99|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=99|end_char=100
+9	so	so	ADV	RB	_	8	_	_	start_char=101|end_char=103
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=104|end_char=107
+11	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=108|end_char=112
+12	appear	appear	VERB	VB	VerbForm=Inf	11	_	_	start_char=113|end_char=119
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=120|end_char=121
+14	little	little	ADJ	JJ	Degree=Pos	13	_	_	start_char=122|end_char=128
+15	different	different	ADJ	JJ	Degree=Pos	14	_	_	start_char=129|end_char=138
+16	but	but	CCONJ	CC	_	15	_	_	start_char=139|end_char=142
+17	definitely	definitely	ADV	RB	_	16	_	_	start_char=143|end_char=153
+18	not	not	PART	RB	_	17	_	_	start_char=154|end_char=157
+19	appearing	appear	VERB	VBG	VerbForm=Ger	18	_	_	start_char=158|end_char=167
+20	like	like	ADP	IN	_	19	_	_	start_char=168|end_char=172
+21	half	half	NOUN	NN	NumForm=Word|NumType=Frac|Number=Sing	20	_	_	start_char=173|end_char=177
+22	or	or	CCONJ	CC	_	21	_	_	start_char=178|end_char=180
+23	even	even	ADV	RB	_	22	_	_	start_char=181|end_char=185
+24	3	3	NUM	CD	NumForm=Digit|NumType=Card	23	_	_	start_char=186|end_char=187|SpaceAfter=No
+25	/	/	PUNCT	HYPH	_	24	_	_	start_char=187|end_char=188|SpaceAfter=No
+26	8s	8s	NUM	CD	NumForm=Digit|NumType=Card	25	_	_	start_char=188|end_char=190
+27	asian	Asian	ADJ	JJ	Degree=Pos	26	_	_	start_char=191|end_char=196|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=196|end_char=197|SpaceAfter=No
+

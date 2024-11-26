@@ -1,0 +1,63 @@
+# text = Oh no... man that’s a tough one.
+# sent_id = 116445
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=0|end_char=2
+2	no	no	INTJ	UH	_	1	_	_	start_char=3|end_char=5|SpaceAfter=No
+3	...	...	PUNCT	,	_	2	_	_	start_char=5|end_char=8
+4	man	man	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=12
+5-6	that’s	_	_	_	_	_	_	_	start_char=13|end_char=19
+5	that	that	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=13|end_char=17
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=17|end_char=19
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=20|end_char=21
+8	tough	tough	ADJ	JJ	Degree=Pos	7	_	_	start_char=22|end_char=27
+9	one	one	NOUN	NN	Number=Sing	8	_	_	start_char=28|end_char=31|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=31|end_char=32
+
+# text = If you just want kids maybe get a surrogate and raise your child/children on your own.
+# sent_id = 116446
+1	If	if	SCONJ	IN	_	0	_	_	start_char=33|end_char=35
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=36|end_char=39
+3	just	just	ADV	RB	_	2	_	_	start_char=40|end_char=44
+4	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=45|end_char=49
+5	kids	kid	NOUN	NNS	Number=Plur	4	_	_	start_char=50|end_char=54
+6	maybe	maybe	ADV	RB	_	5	_	_	start_char=55|end_char=60
+7	get	get	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=61|end_char=64
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=65|end_char=66
+9	surrogate	surrogate	NOUN	NN	Number=Sing	8	_	_	start_char=67|end_char=76
+10	and	and	CCONJ	CC	_	9	_	_	start_char=77|end_char=80
+11	raise	raise	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=81|end_char=86
+12	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	11	_	_	start_char=87|end_char=91
+13	child	child	NOUN	NN	Number=Sing	12	_	_	start_char=92|end_char=97|SpaceAfter=No
+14	/	/	SYM	,	_	13	_	_	start_char=97|end_char=98|SpaceAfter=No
+15	children	child	NOUN	NNS	Number=Plur	14	_	_	start_char=98|end_char=106
+16	on	on	ADP	IN	_	15	_	_	start_char=107|end_char=109
+17	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	16	_	_	start_char=110|end_char=114
+18	own	own	ADJ	JJ	Degree=Pos	17	_	_	start_char=115|end_char=118|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=118|end_char=119
+
+# text = Whatever you do, don’t knock up some psycho bitch so they can de ball you and drain your bank account.
+# sent_id = 116447
+1	Whatever	whatever	PRON	WP	PronType=Rel	0	_	_	start_char=120|end_char=128
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=129|end_char=132
+3	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=133|end_char=135|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=135|end_char=136
+5-6	don’t	_	_	_	_	_	_	_	start_char=137|end_char=142
+5	do	do	AUX	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=137|end_char=139
+6	n’t	not	PART	RB	_	5	_	_	start_char=139|end_char=142
+7	knock	knock	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=143|end_char=148
+8	up	up	ADP	RP	_	7	_	_	start_char=149|end_char=151
+9	some	some	DET	DT	_	8	_	_	start_char=152|end_char=156
+10	psycho	psycho	NOUN	NN	Number=Sing	9	_	_	start_char=157|end_char=163
+11	bitch	bitch	NOUN	NN	Number=Sing	10	_	_	start_char=164|end_char=169
+12	so	so	SCONJ	IN	_	11	_	_	start_char=170|end_char=172
+13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=173|end_char=177
+14	can	can	AUX	MD	VerbForm=Fin	13	_	_	start_char=178|end_char=181
+15	de	de	VERB	VB	VerbForm=Inf	14	_	_	start_char=182|end_char=184
+16	ball	ball	VERB	VB	VerbForm=Inf	15	_	_	start_char=185|end_char=189
+17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	_	_	start_char=190|end_char=193
+18	and	and	CCONJ	CC	_	17	_	_	start_char=194|end_char=197
+19	drain	drain	VERB	VB	VerbForm=Inf	18	_	_	start_char=198|end_char=203
+20	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	19	_	_	start_char=204|end_char=208
+21	bank	bank	NOUN	NN	Number=Sing	20	_	_	start_char=209|end_char=213
+22	account	account	NOUN	NN	Number=Sing	21	_	_	start_char=214|end_char=221|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=221|end_char=222|SpaceAfter=No
+

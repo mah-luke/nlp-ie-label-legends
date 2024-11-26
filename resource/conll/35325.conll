@@ -1,0 +1,38 @@
+# text = I dont need to read it, or have her explain her symptoms....Borderline Personality Disorder!
+# sent_id = 75579
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2-3	dont	_	_	_	_	_	_	_	start_char=2|end_char=6
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	nt	not	PART	RB	_	2	_	_	start_char=4|end_char=6
+4	need	need	VERB	VB	VerbForm=Inf	3	_	_	start_char=7|end_char=11
+5	to	to	PART	TO	_	4	_	_	start_char=12|end_char=14
+6	read	read	VERB	VB	VerbForm=Inf	5	_	_	start_char=15|end_char=19
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=20|end_char=22|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=22|end_char=23
+9	or	or	CCONJ	CC	_	8	_	_	start_char=24|end_char=26
+10	have	have	VERB	VB	VerbForm=Inf	9	_	_	start_char=27|end_char=31
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=32|end_char=35
+12	explain	explain	VERB	VB	VerbForm=Inf	11	_	_	start_char=36|end_char=43
+13	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=44|end_char=47
+14	symptoms	symptom	NOUN	NNS	Number=Plur	13	_	_	start_char=48|end_char=56|SpaceAfter=No
+15	....	....	PUNCT	,	_	14	_	_	start_char=56|end_char=60|SpaceAfter=No
+16	Borderline	Borderline	ADJ	JJ	Degree=Pos	15	_	_	start_char=60|end_char=70
+17	Personality	personality	NOUN	NN	Number=Sing	16	_	_	start_char=71|end_char=82
+18	Disorder	disorder	NOUN	NN	Number=Sing	17	_	_	start_char=83|end_char=91|SpaceAfter=No
+19	!	!	PUNCT	.	_	18	_	_	start_char=91|end_char=92
+
+# text = She's a weirdo!
+# sent_id = 75580
+1-2	She's	_	_	_	_	_	_	_	start_char=93|end_char=98
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=93|end_char=96
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=96|end_char=98
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=99|end_char=100
+4	weirdo	weirdo	NOUN	NN	Number=Sing	3	_	_	start_char=101|end_char=107|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=107|end_char=108
+
+# text = [URL]
+# sent_id = 75581
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=109|end_char=110|SpaceAfter=No
+2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=110|end_char=113|SpaceAfter=No
+3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=113|end_char=114|SpaceAfter=No
+

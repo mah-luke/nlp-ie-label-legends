@@ -1,0 +1,52 @@
+# text = "Jones should be allowed to post on Youtube no matter how fucking disgusting he is or how much everyone on the planet hates him."
+# sent_id = 44817
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2	Jones	Jones	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=6
+3	should	should	AUX	MD	VerbForm=Fin	2	_	_	start_char=7|end_char=13
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=16
+5	allowed	allow	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=17|end_char=24
+6	to	to	PART	TO	_	5	_	_	start_char=25|end_char=27
+7	post	post	VERB	VB	VerbForm=Inf	6	_	_	start_char=28|end_char=32
+8	on	on	ADP	IN	_	7	_	_	start_char=33|end_char=35
+9	Youtube	Youtube	PROPN	NNP	Number=Sing	8	_	_	start_char=36|end_char=43
+10	no	no	DET	DT	_	9	_	_	start_char=44|end_char=46
+11	matter	matter	NOUN	NN	Number=Sing	10	_	_	start_char=47|end_char=53
+12	how	how	ADV	WRB	PronType=Int	11	_	_	start_char=54|end_char=57
+13	fucking	fucking	ADV	RB	_	12	_	_	start_char=58|end_char=65
+14	disgusting	disgusting	ADJ	JJ	Degree=Pos	13	_	_	start_char=66|end_char=76
+15	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=77|end_char=79
+16	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=80|end_char=82
+17	or	or	CCONJ	CC	_	16	_	_	start_char=83|end_char=85
+18	how	how	ADV	WRB	PronType=Int	17	_	_	start_char=86|end_char=89
+19	much	much	ADJ	JJ	Degree=Pos	18	_	_	start_char=90|end_char=94
+20	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	19	_	_	start_char=95|end_char=103
+21	on	on	ADP	IN	_	20	_	_	start_char=104|end_char=106
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=107|end_char=110
+23	planet	planet	NOUN	NN	Number=Sing	22	_	_	start_char=111|end_char=117
+24	hates	hate	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=118|end_char=123
+25	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	24	_	_	start_char=124|end_char=127|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=127|end_char=128|SpaceAfter=No
+27	"	"	PUNCT	''	_	26	_	_	start_char=128|end_char=129
+
+# text = David Aaronovitch "Hey, everyone, Its the Chinese."
+# sent_id = 44818
+1	David	David	PROPN	NNP	Number=Sing	0	_	_	start_char=130|end_char=135
+2	Aaronovitch	Aaronovitch	PROPN	NNP	Number=Sing	1	_	_	start_char=136|end_char=147
+3	"	"	PUNCT	``	_	2	_	_	start_char=148|end_char=149|SpaceAfter=No
+4	Hey	hey	INTJ	UH	_	3	_	_	start_char=149|end_char=152|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=152|end_char=153
+6	everyone	everyone	PRON	NN	Number=Sing|PronType=Tot	5	_	_	start_char=154|end_char=162|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=162|end_char=163
+8-9	Its	_	_	_	_	_	_	_	start_char=164|end_char=167
+8	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=164|end_char=166
+9	s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=166|end_char=167
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=168|end_char=171
+11	Chinese	Chinese	PROPN	NNP	Number=Sing	10	_	_	start_char=172|end_char=179|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=179|end_char=180|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=180|end_char=181
+
+# text = Alex Jones
+# sent_id = 44819
+1	Alex	Alex	PROPN	NNP	Number=Sing	0	_	_	start_char=182|end_char=186
+2	Jones	Jones	PROPN	NNP	Number=Sing	1	_	_	start_char=187|end_char=192|SpaceAfter=No
+

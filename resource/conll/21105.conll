@@ -1,0 +1,34 @@
+# text = "I'm gonna get so much pussy when women see how much I respect them.
+# sent_id = 45330
+1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
+2-3	I'm	_	_	_	_	_	_	_	start_char=1|end_char=4
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=2|end_char=4
+4-5	gonna	_	_	_	_	_	_	_	start_char=5|end_char=10
+4	gon	go	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=5|end_char=8
+5	na	to	PART	TO	_	4	_	_	start_char=8|end_char=10
+6	get	get	VERB	VB	VerbForm=Inf	5	_	_	start_char=11|end_char=14
+7	so	so	ADV	RB	_	6	_	_	start_char=15|end_char=17
+8	much	much	ADV	RB	Degree=Pos	7	_	_	start_char=18|end_char=22
+9	pussy	pussy	NOUN	NN	Number=Sing	8	_	_	start_char=23|end_char=28
+10	when	when	ADV	WRB	PronType=Int	9	_	_	start_char=29|end_char=33
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=34|end_char=39
+12	see	see	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=40|end_char=43
+13	how	how	ADV	WRB	PronType=Int	12	_	_	start_char=44|end_char=47
+14	much	much	ADJ	JJ	Degree=Pos	13	_	_	start_char=48|end_char=52
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=53|end_char=54
+16	respect	respect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	start_char=55|end_char=62
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=63|end_char=67|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=67|end_char=68
+
+# text = I am such a nice guy!"
+# sent_id = 45331
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=69|end_char=70
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=71|end_char=73
+3	such	such	DET	PDT	_	2	_	_	start_char=74|end_char=78
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=79|end_char=80
+5	nice	nice	ADJ	JJ	Degree=Pos	4	_	_	start_char=81|end_char=85
+6	guy	guy	NOUN	NN	Number=Sing	5	_	_	start_char=86|end_char=89|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=89|end_char=90|SpaceAfter=No
+8	"	"	PUNCT	''	_	7	_	_	start_char=90|end_char=91|SpaceAfter=No
+

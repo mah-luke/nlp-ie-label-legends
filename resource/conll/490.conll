@@ -1,0 +1,37 @@
+# text = I saw this and I wondered wtf was happening.
+# sent_id = 1026
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=6|end_char=10
+4	and	and	CCONJ	CC	_	3	_	_	start_char=11|end_char=14
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=15|end_char=16
+6	wondered	wonder	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=17|end_char=25
+7	wtf	wtf	PRON	PRP	Number=Sing|PronType=Prs	6	_	_	start_char=26|end_char=29
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=30|end_char=33
+9	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=34|end_char=43|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=43|end_char=44
+
+# text = He was not making sense and just haranguing her.
+# sent_id = 1027
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=45|end_char=47
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=48|end_char=51
+3	not	not	PART	RB	_	2	_	_	start_char=52|end_char=55
+4	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=56|end_char=62
+5	sense	sense	NOUN	NN	Number=Sing	4	_	_	start_char=63|end_char=68
+6	and	and	CCONJ	CC	_	5	_	_	start_char=69|end_char=72
+7	just	just	ADV	RB	_	6	_	_	start_char=73|end_char=77
+8	haranguing	harangue	VERB	VBG	VerbForm=Ger	7	_	_	start_char=78|end_char=88
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=89|end_char=92|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=92|end_char=93
+
+# text = She parried his thrusts easily, though.
+# sent_id = 1028
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=94|end_char=97
+2	parried	parry	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=98|end_char=105
+3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=106|end_char=109
+4	thrusts	thrust	NOUN	NNS	Number=Plur	3	_	_	start_char=110|end_char=117
+5	easily	easily	ADV	RB	_	4	_	_	start_char=118|end_char=124|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=124|end_char=125
+7	though	though	ADV	RB	_	6	_	_	start_char=126|end_char=132|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=132|end_char=133|SpaceAfter=No
+

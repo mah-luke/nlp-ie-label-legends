@@ -1,0 +1,31 @@
+# text = democrats are the party of stupid these days.
+# sent_id = 70021
+1	democrats	Democrat	PROPN	NNPS	Number=Plur	0	_	_	start_char=0|end_char=9
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=13
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=14|end_char=17
+4	party	party	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=23
+5	of	of	ADP	IN	_	4	_	_	start_char=24|end_char=26
+6	stupid	stupid	ADJ	JJ	Degree=Pos	5	_	_	start_char=27|end_char=33
+7	these	this	DET	DT	Number=Plur|PronType=Dem	6	_	_	start_char=34|end_char=39
+8	days	day	NOUN	NNS	Number=Plur	7	_	_	start_char=40|end_char=44|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=44|end_char=45
+
+# text = "An intelligent hell would be better than a stupid paradise." ~v. Hugo.
+# sent_id = 70022
+1	"	"	PUNCT	``	_	0	_	_	start_char=46|end_char=47|SpaceAfter=No
+2	An	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=47|end_char=49
+3	intelligent	intelligent	ADJ	JJ	Degree=Pos	2	_	_	start_char=50|end_char=61
+4	hell	hell	NOUN	NN	Number=Sing	3	_	_	start_char=62|end_char=66
+5	would	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=67|end_char=72
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=73|end_char=75
+7	better	good	ADJ	JJR	Degree=Cmp	6	_	_	start_char=76|end_char=82
+8	than	than	ADP	IN	_	7	_	_	start_char=83|end_char=87
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=88|end_char=89
+10	stupid	stupid	ADJ	JJ	Degree=Pos	9	_	_	start_char=90|end_char=96
+11	paradise	paradise	NOUN	NN	Number=Sing	10	_	_	start_char=97|end_char=105|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=105|end_char=106|SpaceAfter=No
+13	"	"	PUNCT	''	_	12	_	_	start_char=106|end_char=107
+14	~v.	~v.	PUNCT	:	_	13	_	_	start_char=108|end_char=111
+15	Hugo	Hugo	PROPN	NNP	Number=Sing	14	_	_	start_char=112|end_char=116|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=116|end_char=117|SpaceAfter=No
+

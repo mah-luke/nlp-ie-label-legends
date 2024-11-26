@@ -1,0 +1,60 @@
+# text = I've thought about the ropes, but I choose the asshole life.
+# sent_id = 2244
+1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
+3	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=12
+4	about	about	ADP	IN	_	3	_	_	start_char=13|end_char=18
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=19|end_char=22
+6	ropes	rope	NOUN	NNS	Number=Plur	5	_	_	start_char=23|end_char=28|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=28|end_char=29
+8	but	but	CCONJ	CC	_	7	_	_	start_char=30|end_char=33
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=34|end_char=35
+10	choose	choose	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=36|end_char=42
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=43|end_char=46
+12	asshole	asshole	NOUN	NN	Number=Sing	11	_	_	start_char=47|end_char=54
+13	life	life	NOUN	NN	Number=Sing	12	_	_	start_char=55|end_char=59|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=59|end_char=60
+
+# text = I'm much happier now.
+# sent_id = 2245
+1-2	I'm	_	_	_	_	_	_	_	start_char=61|end_char=64
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=61|end_char=62
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=62|end_char=64
+3	much	much	ADV	RB	_	2	_	_	start_char=65|end_char=69
+4	happier	happy	ADJ	JJR	Degree=Cmp	3	_	_	start_char=70|end_char=77
+5	now	now	ADV	RB	_	4	_	_	start_char=78|end_char=81|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=81|end_char=82
+
+# text = I choose to be nice to those that deserve it, and it's eye opening to see that most ppl do not deserve my best behaviors.
+# sent_id = 2246
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=83|end_char=84
+2	choose	choose	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=85|end_char=91
+3	to	to	PART	TO	_	2	_	_	start_char=92|end_char=94
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=95|end_char=97
+5	nice	nice	ADJ	JJ	Degree=Pos	4	_	_	start_char=98|end_char=102
+6	to	to	ADP	IN	_	5	_	_	start_char=103|end_char=105
+7	those	that	PRON	DT	Number=Plur|PronType=Dem	6	_	_	start_char=106|end_char=111
+8	that	that	PRON	WDT	PronType=Rel	7	_	_	start_char=112|end_char=116
+9	deserve	deserve	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=117|end_char=124
+10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=125|end_char=127|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=127|end_char=128
+12	and	and	CCONJ	CC	_	11	_	_	start_char=129|end_char=132
+13-14	it's	_	_	_	_	_	_	_	start_char=133|end_char=137
+13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=133|end_char=135
+14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=135|end_char=137
+15	eye	eye	NOUN	NN	Number=Sing	14	_	_	start_char=138|end_char=141
+16	opening	opening	NOUN	NN	Number=Sing	15	_	_	start_char=142|end_char=149
+17	to	to	PART	TO	_	16	_	_	start_char=150|end_char=152
+18	see	see	VERB	VB	VerbForm=Inf	17	_	_	start_char=153|end_char=156
+19	that	that	SCONJ	IN	_	18	_	_	start_char=157|end_char=161
+20	most	most	ADJ	JJS	Degree=Sup	19	_	_	start_char=162|end_char=166
+21	ppl	people	NOUN	NNS	Number=Plur	20	_	_	start_char=167|end_char=170
+22	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=171|end_char=173
+23	not	not	PART	RB	_	22	_	_	start_char=174|end_char=177
+24	deserve	deserve	VERB	VB	VerbForm=Inf	23	_	_	start_char=178|end_char=185
+25	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	24	_	_	start_char=186|end_char=188
+26	best	good	ADJ	JJS	Degree=Sup	25	_	_	start_char=189|end_char=193
+27	behaviors	behavior	NOUN	NNS	Number=Plur	26	_	_	start_char=194|end_char=203|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=203|end_char=204|SpaceAfter=No
+

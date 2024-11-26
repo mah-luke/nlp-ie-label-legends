@@ -1,0 +1,37 @@
+# text = ***Sanity at last!!!!
+# sent_id = 51870
+1	***	***	PUNCT	NFP	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
+2	Sanity	sanity	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=9
+3	at	at	ADP	IN	_	2	_	_	start_char=10|end_char=12
+4	last	last	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=17|SpaceAfter=No
+5	!!!!	!!!!	PUNCT	.	_	4	_	_	start_char=17|end_char=21
+
+# text = A Michigan appeals court has officially ruled that biological men belong in men’s, and not women’s, locker rooms, [URL]
+# sent_id = 51871
+1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=22|end_char=23
+2	Michigan	Michigan	PROPN	NNP	Number=Sing	1	_	_	start_char=24|end_char=32
+3	appeals	appeal	NOUN	NN	Number=Sing	2	_	_	start_char=33|end_char=40
+4	court	court	NOUN	NN	Number=Sing	3	_	_	start_char=41|end_char=46
+5	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=47|end_char=50
+6	officially	officially	ADV	RB	_	5	_	_	start_char=51|end_char=61
+7	ruled	rule	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=62|end_char=67
+8	that	that	SCONJ	IN	_	7	_	_	start_char=68|end_char=72
+9	biological	biological	ADJ	JJ	Degree=Pos	8	_	_	start_char=73|end_char=83
+10	men	man	NOUN	NNS	Number=Plur	9	_	_	start_char=84|end_char=87
+11	belong	belong	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=88|end_char=94
+12	in	in	ADP	IN	_	11	_	_	start_char=95|end_char=97
+13	men’s	men’	NOUN	NNS	Number=Plur	12	_	_	start_char=98|end_char=103|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=103|end_char=104
+15	and	and	CCONJ	CC	_	14	_	_	start_char=105|end_char=108
+16	not	not	PART	RB	_	15	_	_	start_char=109|end_char=112
+17-18	women’s	_	_	_	_	_	_	_	start_char=113|end_char=120|SpaceAfter=No
+17	women	woman	NOUN	NNS	Number=Plur	16	_	_	start_char=113|end_char=118
+18	’s	's	PART	POS	_	17	_	_	start_char=118|end_char=120
+19	,	,	PUNCT	,	_	18	_	_	start_char=120|end_char=121
+20	locker	locker	NOUN	NN	Number=Sing	19	_	_	start_char=122|end_char=128
+21	rooms	room	NOUN	NNS	Number=Plur	20	_	_	start_char=129|end_char=134|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=134|end_char=135
+23	[	[	PUNCT	-LRB-	_	22	_	_	start_char=136|end_char=137|SpaceAfter=No
+24	URL	URL	PROPN	NNP	Number=Sing	23	_	_	start_char=137|end_char=140|SpaceAfter=No
+25	]	]	PUNCT	-RRB-	_	24	_	_	start_char=140|end_char=141|SpaceAfter=No
+

@@ -1,0 +1,42 @@
+# text = First the wife, then Senator now the son.
+# sent_id = 103236
+1	First	first	ADV	RB	NumType=Ord	0	_	_	start_char=0|end_char=5
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=6|end_char=9
+3	wife	wife	NOUN	NN	Number=Sing	2	_	_	start_char=10|end_char=14|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=14|end_char=15
+5	then	then	ADV	RB	PronType=Dem	4	_	_	start_char=16|end_char=20
+6	Senator	Senator	PROPN	NNP	Number=Sing	5	_	_	start_char=21|end_char=28
+7	now	now	ADV	RB	_	6	_	_	start_char=29|end_char=32
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=33|end_char=36
+9	son	son	NOUN	NN	Number=Sing	8	_	_	start_char=37|end_char=40|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=40|end_char=41
+
+# text = See a pattern here?
+# sent_id = 103237
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=42|end_char=45
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=46|end_char=47
+3	pattern	pattern	NOUN	NN	Number=Sing	2	_	_	start_char=48|end_char=55
+4	here	here	ADV	RB	PronType=Dem	3	_	_	start_char=56|end_char=60|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=60|end_char=61
+
+# text = John Conyers' Son Arrested in February, Accused of Stabbing Girlfriend in Domestic [URL]
+# sent_id = 103238
+1	John	John	PROPN	NNP	Number=Sing	0	_	_	start_char=62|end_char=66
+2-3	Conyers'	_	_	_	_	_	_	_	start_char=67|end_char=75
+2	Conyers	Conyer	PROPN	NNP	Number=Sing	1	_	_	start_char=67|end_char=74
+3	'	's	PART	POS	_	2	_	_	start_char=74|end_char=75
+4	Son	son	NOUN	NN	Number=Sing	3	_	_	start_char=76|end_char=79
+5	Arrested	arrest	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=80|end_char=88
+6	in	in	ADP	IN	_	5	_	_	start_char=89|end_char=91
+7	February	February	PROPN	NNP	Number=Sing	6	_	_	start_char=92|end_char=100|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=100|end_char=101
+9	Accused	accuse	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=102|end_char=109
+10	of	of	ADP	IN	_	9	_	_	start_char=110|end_char=112
+11	Stabbing	Stabbing	PROPN	NNP	Number=Sing	10	_	_	start_char=113|end_char=121
+12	Girlfriend	Girlfriend	PROPN	NNP	Number=Sing	11	_	_	start_char=122|end_char=132
+13	in	in	ADP	IN	_	12	_	_	start_char=133|end_char=135
+14	Domestic	domestic	ADJ	JJ	Degree=Pos	13	_	_	start_char=136|end_char=144
+15	[	[	PUNCT	-LRB-	_	14	_	_	start_char=145|end_char=146|SpaceAfter=No
+16	URL	URL	PROPN	NNP	Number=Sing	15	_	_	start_char=146|end_char=149|SpaceAfter=No
+17	]	]	PUNCT	-RRB-	_	16	_	_	start_char=149|end_char=150|SpaceAfter=No
+

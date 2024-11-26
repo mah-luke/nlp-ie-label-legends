@@ -1,0 +1,47 @@
+# text = I’m pretty sure it’s Pink and circumcised.
+# sent_id = 19306
+1-2	I’m	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	pretty	pretty	ADV	RB	_	2	_	_	start_char=4|end_char=10
+4	sure	sure	ADJ	JJ	Degree=Pos	3	_	_	start_char=11|end_char=15
+5-6	it’s	_	_	_	_	_	_	_	start_char=16|end_char=20
+5	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=16|end_char=18
+6	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=18|end_char=20
+7	Pink	Pink	ADJ	JJ	Degree=Pos	6	_	_	start_char=21|end_char=25
+8	and	and	CCONJ	CC	_	7	_	_	start_char=26|end_char=29
+9	circumcised	circumcise	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=30|end_char=41|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=41|end_char=42
+
+# text = Fake Indian female account nice touch.
+# sent_id = 19307
+1	Fake	Fake	ADJ	JJ	Degree=Pos	0	_	_	start_char=43|end_char=47
+2	Indian	Indian	ADJ	JJ	Degree=Pos	1	_	_	start_char=48|end_char=54
+3	female	female	ADJ	JJ	Degree=Pos	2	_	_	start_char=55|end_char=61
+4	account	account	NOUN	NN	Number=Sing	3	_	_	start_char=62|end_char=69
+5	nice	nice	ADJ	JJ	Degree=Pos	4	_	_	start_char=70|end_char=74
+6	touch	touch	NOUN	NN	Number=Sing	5	_	_	start_char=75|end_char=80|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=80|end_char=81
+
+# text = It’s real simple pen, paper and your shit skin.
+# sent_id = 19308
+1-2	It’s	_	_	_	_	_	_	_	start_char=82|end_char=86
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=82|end_char=84
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=84|end_char=86
+3	real	real	ADJ	JJ	Degree=Pos	2	_	_	start_char=87|end_char=91
+4	simple	simple	ADJ	JJ	Degree=Pos	3	_	_	start_char=92|end_char=98
+5	pen	pen	NOUN	NN	Number=Sing	4	_	_	start_char=99|end_char=102|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=102|end_char=103
+7	paper	paper	NOUN	NN	Number=Sing	6	_	_	start_char=104|end_char=109
+8	and	and	CCONJ	CC	_	7	_	_	start_char=110|end_char=113
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=114|end_char=118
+10	shit	shit	NOUN	NN	Number=Sing	9	_	_	start_char=119|end_char=123
+11	skin	skin	NOUN	NN	Number=Sing	10	_	_	start_char=124|end_char=128|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=128|end_char=129
+
+# text = Fucking troll.
+# sent_id = 19309
+1	Fucking	fucking	ADJ	JJ	Degree=Pos	0	_	_	start_char=130|end_char=137
+2	troll	troll	NOUN	NN	Number=Sing	1	_	_	start_char=138|end_char=143|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=143|end_char=144|SpaceAfter=No
+

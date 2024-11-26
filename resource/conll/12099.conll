@@ -1,0 +1,63 @@
+# text = Whoopi Goldberg is on very thin ice, talking about any one's 15 minutes of fame.
+# sent_id = 25638
+1	Whoopi	Whoopi	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
+2	Goldberg	Goldberg	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=15
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=16|end_char=18
+4	on	on	ADP	IN	_	3	_	_	start_char=19|end_char=21
+5	very	very	ADV	RB	_	4	_	_	start_char=22|end_char=26
+6	thin	thin	ADJ	JJ	Degree=Pos	5	_	_	start_char=27|end_char=31
+7	ice	ice	NOUN	NN	Number=Sing	6	_	_	start_char=32|end_char=35|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=35|end_char=36
+9	talking	talk	VERB	VBG	VerbForm=Ger	8	_	_	start_char=37|end_char=44
+10	about	about	ADP	IN	_	9	_	_	start_char=45|end_char=50
+11	any	any	DET	DT	_	10	_	_	start_char=51|end_char=54
+12-13	one's	_	_	_	_	_	_	_	start_char=55|end_char=60
+12	one	one	NOUN	NN	Number=Sing	11	_	_	start_char=55|end_char=58
+13	's	's	PART	POS	_	12	_	_	start_char=58|end_char=60
+14	15	15	NUM	CD	NumForm=Digit|NumType=Card	13	_	_	start_char=61|end_char=63
+15	minutes	minute	NOUN	NNS	Number=Plur	14	_	_	start_char=64|end_char=71
+16	of	of	ADP	IN	_	15	_	_	start_char=72|end_char=74
+17	fame	fame	NOUN	NN	Number=Sing	16	_	_	start_char=75|end_char=79|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=79|end_char=80
+
+# text = If she weren't Spielberg's token pet, she couldn't get a night shift job at a truck stop waiting tables.
+# sent_id = 25639
+1	If	if	SCONJ	IN	_	0	_	_	start_char=81|end_char=83
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=84|end_char=87
+3-4	weren't	_	_	_	_	_	_	_	start_char=88|end_char=95
+3	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=88|end_char=92
+4	n't	not	PART	RB	_	3	_	_	start_char=92|end_char=95
+5-6	Spielberg's	_	_	_	_	_	_	_	start_char=96|end_char=107
+5	Spielberg	Spielberg	PROPN	NNP	Number=Sing	4	_	_	start_char=96|end_char=105
+6	's	's	PART	POS	_	5	_	_	start_char=105|end_char=107
+7	token	token	NOUN	NN	Number=Sing	6	_	_	start_char=108|end_char=113
+8	pet	pet	NOUN	NN	Number=Sing	7	_	_	start_char=114|end_char=117|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=117|end_char=118
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=119|end_char=122
+11-12	couldn't	_	_	_	_	_	_	_	start_char=123|end_char=131
+11	could	could	AUX	MD	VerbForm=Fin	10	_	_	start_char=123|end_char=128
+12	n't	not	PART	RB	_	11	_	_	start_char=128|end_char=131
+13	get	get	VERB	VB	VerbForm=Inf	12	_	_	start_char=132|end_char=135
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=136|end_char=137
+15	night	night	NOUN	NN	Number=Sing	14	_	_	start_char=138|end_char=143
+16	shift	shift	NOUN	NN	Number=Sing	15	_	_	start_char=144|end_char=149
+17	job	job	NOUN	NN	Number=Sing	16	_	_	start_char=150|end_char=153
+18	at	at	ADP	IN	_	17	_	_	start_char=154|end_char=156
+19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=157|end_char=158
+20	truck	truck	NOUN	NN	Number=Sing	19	_	_	start_char=159|end_char=164
+21	stop	stop	NOUN	NN	Number=Sing	20	_	_	start_char=165|end_char=169
+22	waiting	wait	VERB	VBG	VerbForm=Ger	21	_	_	start_char=170|end_char=177
+23	tables	table	NOUN	NNS	Number=Plur	22	_	_	start_char=178|end_char=184|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=184|end_char=185
+
+# text = Although that face could stop a bus.
+# sent_id = 25640
+1	Although	although	SCONJ	IN	_	0	_	_	start_char=186|end_char=194
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=195|end_char=199
+3	face	face	NOUN	NN	Number=Sing	2	_	_	start_char=200|end_char=204
+4	could	could	AUX	MD	VerbForm=Fin	3	_	_	start_char=205|end_char=210
+5	stop	stop	VERB	VB	VerbForm=Inf	4	_	_	start_char=211|end_char=215
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=216|end_char=217
+7	bus	bus	NOUN	NN	Number=Sing	6	_	_	start_char=218|end_char=221|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=221|end_char=222|SpaceAfter=No
+

@@ -1,0 +1,43 @@
+# text = Ive spent time in Sydney.
+# sent_id = 102630
+1-2	Ive	_	_	_	_	_	_	_	start_char=0|end_char=3
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
+3	spent	spend	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=4|end_char=9
+4	time	time	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=14
+5	in	in	ADP	IN	_	4	_	_	start_char=15|end_char=17
+6	Sydney	Sydney	PROPN	NNP	Number=Sing	5	_	_	start_char=18|end_char=24|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=24|end_char=25
+
+# text = They have legal prostitution there so the women have to be slightly less cunty to compete with the professionals.
+# sent_id = 102631
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=26|end_char=30
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=35
+3	legal	legal	ADJ	JJ	Degree=Pos	2	_	_	start_char=36|end_char=41
+4	prostitution	prostitution	NOUN	NN	Number=Sing	3	_	_	start_char=42|end_char=54
+5	there	there	ADV	RB	PronType=Dem	4	_	_	start_char=55|end_char=60
+6	so	so	SCONJ	IN	_	5	_	_	start_char=61|end_char=63
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=64|end_char=67
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=68|end_char=73
+9	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=74|end_char=78
+10	to	to	PART	TO	_	9	_	_	start_char=79|end_char=81
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=82|end_char=84
+12	slightly	slightly	ADV	RB	_	11	_	_	start_char=85|end_char=93
+13	less	less	ADJ	JJR	Degree=Cmp	12	_	_	start_char=94|end_char=98
+14	cunty	cunty	NOUN	NN	Number=Sing	13	_	_	start_char=99|end_char=104
+15	to	to	PART	TO	_	14	_	_	start_char=105|end_char=107
+16	compete	compete	VERB	VB	VerbForm=Inf	15	_	_	start_char=108|end_char=115
+17	with	with	ADP	IN	_	16	_	_	start_char=116|end_char=120
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=121|end_char=124
+19	professionals	professional	NOUN	NNS	Number=Plur	18	_	_	start_char=125|end_char=138|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=138|end_char=139
+
+# text = Its better than the west.
+# sent_id = 102632
+1	Its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=140|end_char=143
+2	better	good	ADJ	JJR	Degree=Cmp	1	_	_	start_char=144|end_char=150
+3	than	than	ADP	IN	_	2	_	_	start_char=151|end_char=155
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=156|end_char=159
+5	west	west	NOUN	NN	Number=Sing	4	_	_	start_char=160|end_char=164|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=164|end_char=165|SpaceAfter=No
+

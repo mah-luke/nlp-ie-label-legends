@@ -1,0 +1,24 @@
+# text = No... you missed it.
+# sent_id = 7152
+1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
+2	...	...	PUNCT	,	_	1	_	_	start_char=2|end_char=5
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=6|end_char=9
+4	missed	miss	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	3	_	_	start_char=10|end_char=16
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=17|end_char=19|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=19|end_char=20
+
+# text = She didn't die... no poison in her cup.
+# sent_id = 7153
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=21|end_char=24
+2-3	didn't	_	_	_	_	_	_	_	start_char=25|end_char=31
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=25|end_char=28
+3	n't	not	PART	RB	_	2	_	_	start_char=28|end_char=31
+4	die	die	VERB	VB	VerbForm=Inf	3	_	_	start_char=32|end_char=35|SpaceAfter=No
+5	...	...	PUNCT	,	_	4	_	_	start_char=35|end_char=38
+6	no	no	DET	DT	_	5	_	_	start_char=39|end_char=41
+7	poison	poison	NOUN	NN	Number=Sing	6	_	_	start_char=42|end_char=48
+8	in	in	ADP	IN	_	7	_	_	start_char=49|end_char=51
+9	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=52|end_char=55
+10	cup	cup	NOUN	NN	Number=Sing	9	_	_	start_char=56|end_char=59|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=59|end_char=60|SpaceAfter=No
+

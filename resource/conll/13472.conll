@@ -1,0 +1,57 @@
+# text = What now?
+# sent_id = 28665
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
+2	now	now	ADV	RB	_	1	_	_	start_char=5|end_char=8|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=8|end_char=9
+
+# text = Now, you call the shots.
+# sent_id = 28666
+1	Now	now	ADV	RB	_	0	_	_	start_char=10|end_char=13|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=13|end_char=14
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=15|end_char=18
+4	call	call	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=19|end_char=23
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=24|end_char=27
+6	shots	shot	NOUN	NNS	Number=Plur	5	_	_	start_char=28|end_char=33|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=33|end_char=34
+
+# text = Want something, pursue it.
+# sent_id = 28667
+1	Want	want	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=35|end_char=39
+2	something	something	PRON	NN	Number=Sing|PronType=Ind	1	_	_	start_char=40|end_char=49|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=49|end_char=50
+4	pursue	pursue	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=51|end_char=57
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=58|end_char=60|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=60|end_char=61
+
+# text = Don't want nothing, ghost her.
+# sent_id = 28668
+1-2	Don't	_	_	_	_	_	_	_	start_char=62|end_char=67
+1	Do	do	AUX	VBP	Mood=Ind|VerbForm=Fin	0	_	_	start_char=62|end_char=64
+2	n't	not	PART	RB	_	1	_	_	start_char=64|end_char=67
+3	want	want	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=68|end_char=72
+4	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	3	_	_	start_char=73|end_char=80|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=80|end_char=81
+6	ghost	ghost	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=82|end_char=87
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=88|end_char=91|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=91|end_char=92
+
+# text = Don't care?
+# sent_id = 28669
+1-2	Don't	_	_	_	_	_	_	_	start_char=93|end_char=98
+1	Do	do	AUX	VB	VerbForm=Fin	0	_	_	start_char=93|end_char=95
+2	n't	not	PART	RB	_	1	_	_	start_char=95|end_char=98
+3	care	care	VERB	VB	Mood=Imp|VerbForm=Inf	2	_	_	start_char=99|end_char=103|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=103|end_char=104
+
+# text = You don't really have to anymore.
+# sent_id = 28670
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=105|end_char=108
+2-3	don't	_	_	_	_	_	_	_	start_char=109|end_char=114
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=109|end_char=111
+3	n't	not	PART	RB	_	2	_	_	start_char=111|end_char=114
+4	really	really	ADV	RB	_	3	_	_	start_char=115|end_char=121
+5	have	have	VERB	VB	VerbForm=Inf	4	_	_	start_char=122|end_char=126
+6	to	to	PART	TO	_	5	_	_	start_char=127|end_char=129
+7	anymore	anymore	ADV	RB	_	6	_	_	start_char=130|end_char=137|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=137|end_char=138|SpaceAfter=No
+

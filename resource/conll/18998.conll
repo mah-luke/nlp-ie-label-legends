@@ -1,0 +1,21 @@
+# text = she's no idiot.
+# sent_id = 40747
+1-2	she's	_	_	_	_	_	_	_	start_char=0|end_char=5
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	no	no	DET	DT	_	2	_	_	start_char=6|end_char=8
+4	idiot	idiot	NOUN	NN	Number=Sing	3	_	_	start_char=9|end_char=14|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=14|end_char=15
+
+# text = She's totally bought and payed for.
+# sent_id = 40748
+1-2	She's	_	_	_	_	_	_	_	start_char=16|end_char=21
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=16|end_char=19
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=19|end_char=21
+3	totally	totally	ADV	RB	_	2	_	_	start_char=22|end_char=29
+4	bought	buy	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=30|end_char=36
+5	and	and	CCONJ	CC	_	4	_	_	start_char=37|end_char=40
+6	payed	pay	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=41|end_char=46
+7	for	for	ADP	IN	_	6	_	_	start_char=47|end_char=50|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=50|end_char=51|SpaceAfter=No
+

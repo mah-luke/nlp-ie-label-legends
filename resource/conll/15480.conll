@@ -1,0 +1,29 @@
+# text = Yeah it’s why they all think negging works.
+# sent_id = 33090
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
+2-3	it’s	_	_	_	_	_	_	_	start_char=5|end_char=9
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=5|end_char=7
+3	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=7|end_char=9
+4	why	why	ADV	WRB	PronType=Rel	3	_	_	start_char=10|end_char=13
+5	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=14|end_char=18
+6	all	all	DET	DT	_	5	_	_	start_char=19|end_char=22
+7	think	think	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=23|end_char=28
+8	negging	negging	NOUN	NN	Number=Sing	7	_	_	start_char=29|end_char=36
+9	works	work	NOUN	NNS	Number=Plur	8	_	_	start_char=37|end_char=42|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=42|end_char=43
+
+# text = “You’re still talking to me, I wiiiiinnnnnnnn”
+# sent_id = 33091
+1	“	''	PUNCT	``	_	0	_	_	start_char=44|end_char=45|SpaceAfter=No
+2-3	You’re	_	_	_	_	_	_	_	start_char=45|end_char=51
+2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=45|end_char=48
+3	’re	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=48|end_char=51
+4	still	still	ADV	RB	_	3	_	_	start_char=52|end_char=57
+5	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=58|end_char=65
+6	to	to	ADP	IN	_	5	_	_	start_char=66|end_char=68
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=69|end_char=71|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=71|end_char=72
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=73|end_char=74
+10	wiiiiinnnnnnnn	wiiiiinnnnnnnn	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=75|end_char=89|SpaceAfter=No
+11	”	''	PUNCT	''	_	10	_	_	start_char=89|end_char=90|SpaceAfter=No
+

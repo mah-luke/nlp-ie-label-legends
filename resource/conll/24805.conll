@@ -1,0 +1,23 @@
+# text = And if she's wearing bell bottoms...
+# sent_id = 53144
+1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
+2	if	if	SCONJ	IN	_	1	_	_	start_char=4|end_char=6
+3-4	she's	_	_	_	_	_	_	_	start_char=7|end_char=12
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=7|end_char=10
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=10|end_char=12
+5	wearing	wear	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=13|end_char=20
+6	bell	bell	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=25
+7	bottoms	bottom	NOUN	NNS	Number=Plur	6	_	_	start_char=26|end_char=33|SpaceAfter=No
+8	...	...	PUNCT	.	_	7	_	_	start_char=33|end_char=36
+
+# text = That means she's *FULLY LOADED*...lol
+# sent_id = 53145
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=37|end_char=41
+2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=42|end_char=47
+3-4	she's	_	_	_	_	_	_	_	start_char=48|end_char=53
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=48|end_char=51
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=51|end_char=53
+5	*	*	PUNCT	NFP	_	4	_	_	start_char=54|end_char=55|SpaceAfter=No
+6	FULLY	fully	ADV	RB	_	5	_	_	start_char=55|end_char=60
+7	LOADED*...lol	loaded*...lol	INTJ	UH	_	6	_	_	start_char=61|end_char=74|SpaceAfter=No
+

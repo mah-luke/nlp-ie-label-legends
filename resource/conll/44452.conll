@@ -1,0 +1,54 @@
+# text = Befriend her friends.
+# sent_id = 94917
+1	Befriend	befry	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=8
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=9|end_char=12
+3	friends	friend	NOUN	NNS	Number=Plur	2	_	_	start_char=13|end_char=20|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=20|end_char=21
+
+# text = If they aren't as shy as her then they'll be more open to talking to you.
+# sent_id = 94918
+1	If	if	SCONJ	IN	_	0	_	_	start_char=22|end_char=24
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=25|end_char=29
+3-4	aren't	_	_	_	_	_	_	_	start_char=30|end_char=36
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=30|end_char=33
+4	n't	not	PART	RB	_	3	_	_	start_char=33|end_char=36
+5	as	as	ADV	RB	_	4	_	_	start_char=37|end_char=39
+6	shy	shy	ADJ	JJ	Degree=Pos	5	_	_	start_char=40|end_char=43
+7	as	as	ADP	IN	_	6	_	_	start_char=44|end_char=46
+8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=47|end_char=50
+9	then	then	ADV	RB	PronType=Dem	8	_	_	start_char=51|end_char=55
+10-11	they'll	_	_	_	_	_	_	_	start_char=56|end_char=63
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=56|end_char=60
+11	'll	will	AUX	MD	VerbForm=Fin	10	_	_	start_char=60|end_char=63
+12	be	be	AUX	VB	VerbForm=Inf	11	_	_	start_char=64|end_char=66
+13	more	more	ADV	RBR	Degree=Cmp	12	_	_	start_char=67|end_char=71
+14	open	open	ADJ	JJ	Degree=Pos	13	_	_	start_char=72|end_char=76
+15	to	to	SCONJ	IN	_	14	_	_	start_char=77|end_char=79
+16	talking	talk	VERB	VBG	VerbForm=Ger	15	_	_	start_char=80|end_char=87
+17	to	to	ADP	IN	_	16	_	_	start_char=88|end_char=90
+18	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	17	_	_	start_char=91|end_char=94|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=94|end_char=95
+
+# text = Its also a smaller jump going from mutual friend to talking to her rather than starting as a stranger.
+# sent_id = 94919
+1	Its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=96|end_char=99
+2	also	also	ADV	RB	_	1	_	_	start_char=100|end_char=104
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=105|end_char=106
+4	smaller	small	ADJ	JJR	Degree=Cmp	3	_	_	start_char=107|end_char=114
+5	jump	jump	NOUN	NN	Number=Sing	4	_	_	start_char=115|end_char=119
+6	going	go	VERB	VBG	VerbForm=Ger	5	_	_	start_char=120|end_char=125
+7	from	from	ADP	IN	_	6	_	_	start_char=126|end_char=130
+8	mutual	mutual	ADJ	JJ	Degree=Pos	7	_	_	start_char=131|end_char=137
+9	friend	friend	NOUN	NN	Number=Sing	8	_	_	start_char=138|end_char=144
+10	to	to	SCONJ	IN	_	9	_	_	start_char=145|end_char=147
+11	talking	talk	VERB	VBG	VerbForm=Ger	10	_	_	start_char=148|end_char=155
+12	to	to	ADP	IN	_	11	_	_	start_char=156|end_char=158
+13	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=159|end_char=162
+14	rather	rather	ADV	RB	_	13	_	_	start_char=163|end_char=169
+15	than	than	SCONJ	IN	_	14	_	_	start_char=170|end_char=174
+16	starting	start	VERB	VBG	VerbForm=Ger	15	_	_	start_char=175|end_char=183
+17	as	as	ADP	IN	_	16	_	_	start_char=184|end_char=186
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=187|end_char=188
+19	stranger	stranger	NOUN	NN	Number=Sing	18	_	_	start_char=189|end_char=197|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=197|end_char=198|SpaceAfter=No
+

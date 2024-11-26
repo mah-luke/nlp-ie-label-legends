@@ -1,0 +1,37 @@
+# text = It's TRUE.
+# sent_id = 45045
+1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	TRUE	true	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=9|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=9|end_char=10
+
+# text = Never let a woman rule over you.
+# sent_id = 45046
+1	Never	never	ADV	RB	_	0	_	_	start_char=11|end_char=16
+2	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=17|end_char=20
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=21|end_char=22
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=23|end_char=28
+5	rule	rule	VERB	VB	VerbForm=Inf	4	_	_	start_char=29|end_char=33
+6	over	over	ADP	IN	_	5	_	_	start_char=34|end_char=38
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=39|end_char=42|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=42|end_char=43
+
+# text = I despise religion but love the Lord but sometimes religion does have good ideas.
+# sent_id = 45047
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=44|end_char=45
+2	despise	despise	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=46|end_char=53
+3	religion	religion	NOUN	NN	Number=Sing	2	_	_	start_char=54|end_char=62
+4	but	but	CCONJ	CC	_	3	_	_	start_char=63|end_char=66
+5	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=67|end_char=71
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=72|end_char=75
+7	Lord	Lord	PROPN	NNP	Number=Sing	6	_	_	start_char=76|end_char=80
+8	but	but	CCONJ	CC	_	7	_	_	start_char=81|end_char=84
+9	sometimes	sometimes	ADV	RB	_	8	_	_	start_char=85|end_char=94
+10	religion	religion	NOUN	NN	Number=Sing	9	_	_	start_char=95|end_char=103
+11	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=104|end_char=108
+12	have	have	VERB	VB	VerbForm=Inf	11	_	_	start_char=109|end_char=113
+13	good	good	ADJ	JJ	Degree=Pos	12	_	_	start_char=114|end_char=118
+14	ideas	idea	NOUN	NNS	Number=Plur	13	_	_	start_char=119|end_char=124|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=124|end_char=125|SpaceAfter=No
+

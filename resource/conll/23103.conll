@@ -1,0 +1,47 @@
+# text = You should sing casually.
+# sent_id = 49599
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=10
+3	sing	sing	VERB	VB	VerbForm=Inf	2	_	_	start_char=11|end_char=15
+4	casually	casually	ADV	RB	_	3	_	_	start_char=16|end_char=24|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=24|end_char=25
+
+# text = Very good cope my fren.
+# sent_id = 49600
+1	Very	very	ADV	RB	_	0	_	_	start_char=26|end_char=30
+2	good	good	ADJ	JJ	Degree=Pos	1	_	_	start_char=31|end_char=35
+3	cope	cope	VERB	VB	VerbForm=Fin	2	_	_	start_char=36|end_char=40
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=41|end_char=43
+5	fren	fren	NOUN	NN	Number=Sing	4	_	_	start_char=44|end_char=48|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=48|end_char=49
+
+# text = Plus if you get better, you'll learn to actually love the only part of yourself that isn't ugly (your voice)
+# sent_id = 49601
+1	Plus	plus	CCONJ	CC	_	0	_	_	start_char=50|end_char=54
+2	if	if	SCONJ	IN	_	1	_	_	start_char=55|end_char=57
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=58|end_char=61
+4	get	get	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=62|end_char=65
+5	better	good	ADJ	JJR	Degree=Cmp	4	_	_	start_char=66|end_char=72|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=72|end_char=73
+7-8	you'll	_	_	_	_	_	_	_	start_char=74|end_char=80
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=74|end_char=77
+8	'll	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=77|end_char=80
+9	learn	learn	VERB	VB	VerbForm=Inf	8	_	_	start_char=81|end_char=86
+10	to	to	PART	TO	_	9	_	_	start_char=87|end_char=89
+11	actually	actually	ADV	RB	_	10	_	_	start_char=90|end_char=98
+12	love	love	VERB	VB	VerbForm=Inf	11	_	_	start_char=99|end_char=103
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=104|end_char=107
+14	only	only	ADJ	JJ	Degree=Pos	13	_	_	start_char=108|end_char=112
+15	part	part	NOUN	NN	Number=Sing	14	_	_	start_char=113|end_char=117
+16	of	of	ADP	IN	_	15	_	_	start_char=118|end_char=120
+17	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	16	_	_	start_char=121|end_char=129
+18	that	that	PRON	WDT	PronType=Rel	17	_	_	start_char=130|end_char=134
+19-20	isn't	_	_	_	_	_	_	_	start_char=135|end_char=140
+19	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=135|end_char=137
+20	n't	not	PART	RB	_	19	_	_	start_char=137|end_char=140
+21	ugly	ugly	ADJ	JJ	Degree=Pos	20	_	_	start_char=141|end_char=145
+22	(	(	PUNCT	-LRB-	_	21	_	_	start_char=146|end_char=147|SpaceAfter=No
+23	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	22	_	_	start_char=147|end_char=151
+24	voice	voice	NOUN	NN	Number=Sing	23	_	_	start_char=152|end_char=157|SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	24	_	_	start_char=157|end_char=158|SpaceAfter=No
+

@@ -1,0 +1,49 @@
+# text = I suppose I'm just bitter about the options we currently have.
+# sent_id = 93744
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
+2	suppose	suppose	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=9
+3-4	I'm	_	_	_	_	_	_	_	start_char=10|end_char=13
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=10|end_char=11
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	just	just	ADV	RB	_	4	_	_	start_char=14|end_char=18
+6	bitter	bitter	ADJ	JJ	Degree=Pos	5	_	_	start_char=19|end_char=25
+7	about	about	ADP	IN	_	6	_	_	start_char=26|end_char=31
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=32|end_char=35
+9	options	option	NOUN	NNS	Number=Plur	8	_	_	start_char=36|end_char=43
+10	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	9	_	_	start_char=44|end_char=46
+11	currently	currently	ADV	RB	_	10	_	_	start_char=47|end_char=56
+12	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=57|end_char=61|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=61|end_char=62
+
+# text = Oh, agreed.
+# sent_id = 93745
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=63|end_char=65|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=65|end_char=66
+3	agreed	agree	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=67|end_char=73|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=73|end_char=74
+
+# text = I wish big pharma were working on this instead of female viagra, but *cui bono* and all that.
+# sent_id = 93746
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=75|end_char=76
+2	wish	wish	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=77|end_char=81
+3	big	big	ADJ	JJ	Degree=Pos	2	_	_	start_char=82|end_char=85
+4	pharma	pharma	NOUN	NN	Number=Sing	3	_	_	start_char=86|end_char=92
+5	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=93|end_char=97
+6	working	work	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=98|end_char=105
+7	on	on	ADP	IN	_	6	_	_	start_char=106|end_char=108
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=109|end_char=113
+9	instead	instead	ADV	RB	_	8	_	_	start_char=114|end_char=121
+10	of	of	ADP	IN	_	9	_	_	start_char=122|end_char=124
+11	female	female	ADJ	JJ	Degree=Pos	10	_	_	start_char=125|end_char=131
+12	viagra	viagra	NOUN	NN	Number=Sing	11	_	_	start_char=132|end_char=138|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=138|end_char=139
+14	but	but	CCONJ	CC	_	13	_	_	start_char=140|end_char=143
+15	*	*	PUNCT	NFP	_	14	_	_	start_char=144|end_char=145|SpaceAfter=No
+16	cui	cui	PROPN	NNP	Number=Sing	15	_	_	start_char=145|end_char=148
+17	bono	bono	NOUN	NN	Number=Sing	16	_	_	start_char=149|end_char=153|SpaceAfter=No
+18	*	*	PUNCT	NFP	_	17	_	_	start_char=153|end_char=154
+19	and	and	CCONJ	CC	_	18	_	_	start_char=155|end_char=158
+20	all	all	DET	PDT	_	19	_	_	start_char=159|end_char=162
+21	that	that	PRON	DT	Number=Sing|PronType=Dem	20	_	_	start_char=163|end_char=167|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=167|end_char=168|SpaceAfter=No
+

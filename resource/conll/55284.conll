@@ -1,0 +1,61 @@
+# text = Dude look, she asked YOU if you were free the coming weekend.
+# sent_id = 118110
+1	Dude	dude	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
+2	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=9|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=11|end_char=14
+5	asked	ask	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=15|end_char=20
+6	YOU	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=21|end_char=24
+7	if	if	SCONJ	IN	_	6	_	_	start_char=25|end_char=27
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=28|end_char=31
+9	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	8	_	_	start_char=32|end_char=36
+10	free	free	ADJ	JJ	Degree=Pos	9	_	_	start_char=37|end_char=41
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=42|end_char=45
+12	coming	come	VERB	VBG	VerbForm=Ger	11	_	_	start_char=46|end_char=52
+13	weekend	weekend	NOUN	NN	Number=Sing	12	_	_	start_char=53|end_char=60|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=60|end_char=61
+
+# text = You responded with "yes, let's get together".
+# sent_id = 118111
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=62|end_char=65
+2	responded	respond	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=66|end_char=75
+3	with	with	ADP	IN	_	2	_	_	start_char=76|end_char=80
+4	"	"	PUNCT	``	_	3	_	_	start_char=81|end_char=82|SpaceAfter=No
+5	yes	yes	INTJ	UH	_	4	_	_	start_char=82|end_char=85|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=85|end_char=86
+7-8	let's	_	_	_	_	_	_	_	start_char=87|end_char=92
+7	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	6	_	_	start_char=87|end_char=90
+8	's	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	_	_	start_char=90|end_char=92
+9	get	get	VERB	VB	VerbForm=Inf	8	_	_	start_char=93|end_char=96
+10	together	together	ADV	RB	_	9	_	_	start_char=97|end_char=105|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=105|end_char=106|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=106|end_char=107
+
+# text = You didn't provide her any concrete details.
+# sent_id = 118112
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=108|end_char=111
+2-3	didn't	_	_	_	_	_	_	_	start_char=112|end_char=118
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=112|end_char=115
+3	n't	not	PART	RB	_	2	_	_	start_char=115|end_char=118
+4	provide	provide	VERB	VB	VerbForm=Inf	3	_	_	start_char=119|end_char=126
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=127|end_char=130
+6	any	any	DET	DT	_	5	_	_	start_char=131|end_char=134
+7	concrete	concrete	ADJ	JJ	Degree=Pos	6	_	_	start_char=135|end_char=143
+8	details	detail	NOUN	NNS	Number=Plur	7	_	_	start_char=144|end_char=151|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=151|end_char=152
+
+# text = She was probably waiting for you to make plans with her....
+# sent_id = 118113
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=153|end_char=156
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=157|end_char=160
+3	probably	probably	ADV	RB	_	2	_	_	start_char=161|end_char=169
+4	waiting	wait	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=170|end_char=177
+5	for	for	SCONJ	IN	_	4	_	_	start_char=178|end_char=181
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=182|end_char=185
+7	to	to	PART	TO	_	6	_	_	start_char=186|end_char=188
+8	make	make	VERB	VB	VerbForm=Inf	7	_	_	start_char=189|end_char=193
+9	plans	plan	NOUN	NNS	Number=Plur	8	_	_	start_char=194|end_char=199
+10	with	with	ADP	IN	_	9	_	_	start_char=200|end_char=204
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=205|end_char=208|SpaceAfter=No
+12	....	....	PUNCT	.	_	11	_	_	start_char=208|end_char=212|SpaceAfter=No
+
