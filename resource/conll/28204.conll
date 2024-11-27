@@ -1,55 +1,49 @@
-# text = [USER]
-# sent_id = 60534
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = The Swedes evolved into such a civilized people, that they're TOO civilized - they have no capacity to deal with these animals.
-# sent_id = 60535
-1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=7|end_char=10
-2	Swedes	Swedes	PROPN	NNPS	Number=Plur	1	_	_	start_char=11|end_char=17
-3	evolved	evolve	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=18|end_char=25
-4	into	into	ADP	IN	_	3	_	_	start_char=26|end_char=30
-5	such	such	DET	PDT	_	4	_	_	start_char=31|end_char=35
-6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=36|end_char=37
-7	civilized	civilized	ADJ	JJ	Degree=Pos	6	_	_	start_char=38|end_char=47
-8	people	person	NOUN	NNS	Number=Plur	7	_	_	start_char=48|end_char=54|SpaceAfter=No
-9	,	,	PUNCT	,	_	8	_	_	start_char=54|end_char=55
-10	that	that	SCONJ	IN	_	9	_	_	start_char=56|end_char=60
-11-12	they're	_	_	_	_	_	_	_	start_char=61|end_char=68
-11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=61|end_char=65
-12	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=65|end_char=68
-13	TOO	too	ADV	RB	_	12	_	_	start_char=69|end_char=72
-14	civilized	civilized	ADJ	JJ	Degree=Pos	13	_	_	start_char=73|end_char=82
-15	-	-	PUNCT	,	_	14	_	_	start_char=83|end_char=84
-16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	_	_	start_char=85|end_char=89
-17	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=90|end_char=94
-18	no	no	DET	DT	_	17	_	_	start_char=95|end_char=97
-19	capacity	capacity	NOUN	NN	Number=Sing	18	_	_	start_char=98|end_char=106
-20	to	to	PART	TO	_	19	_	_	start_char=107|end_char=109
-21	deal	deal	VERB	VB	VerbForm=Inf	20	_	_	start_char=110|end_char=114
-22	with	with	ADP	IN	_	21	_	_	start_char=115|end_char=119
-23	these	this	DET	DT	Number=Plur|PronType=Dem	22	_	_	start_char=120|end_char=125
-24	animals	animal	NOUN	NNS	Number=Plur	23	_	_	start_char=126|end_char=133|SpaceAfter=No
-25	.	.	PUNCT	.	_	24	_	_	start_char=133|end_char=134
+# sent_id = 58565
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	Swedes	Swedes	PROPN	NNPS	Number=Plur	1	_	_	start_char=5|end_char=11
+3	evolved	evolve	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=12|end_char=19
+4	into	into	ADP	IN	_	3	_	_	start_char=20|end_char=24
+5	such	such	DET	PDT	_	4	_	_	start_char=25|end_char=29
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=30|end_char=31
+7	civilized	civilized	ADJ	JJ	Degree=Pos	6	_	_	start_char=32|end_char=41
+8	people	person	NOUN	NNS	Number=Plur	7	_	_	start_char=42|end_char=48|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=48|end_char=49
+10	that	that	SCONJ	IN	_	9	_	_	start_char=50|end_char=54
+11-12	they're	_	_	_	_	_	_	_	start_char=55|end_char=62
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=55|end_char=59
+12	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=59|end_char=62
+13	TOO	too	ADV	RB	_	12	_	_	start_char=63|end_char=66
+14	civilized	civilized	ADJ	JJ	Degree=Pos	13	_	_	start_char=67|end_char=76
+15	-	-	PUNCT	,	_	14	_	_	start_char=77|end_char=78
+16	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	15	_	_	start_char=79|end_char=83
+17	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=84|end_char=88
+18	no	no	DET	DT	_	17	_	_	start_char=89|end_char=91
+19	capacity	capacity	NOUN	NN	Number=Sing	18	_	_	start_char=92|end_char=100
+20	to	to	PART	TO	_	19	_	_	start_char=101|end_char=103
+21	deal	deal	VERB	VB	VerbForm=Inf	20	_	_	start_char=104|end_char=108
+22	with	with	ADP	IN	_	21	_	_	start_char=109|end_char=113
+23	these	this	DET	DT	Number=Plur|PronType=Dem	22	_	_	start_char=114|end_char=119
+24	animals	animal	NOUN	NNS	Number=Plur	23	_	_	start_char=120|end_char=127|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=127|end_char=128
 
 # text = I keep hoping that there are some Vikings still living outside the cities that will mobilize soon
-# sent_id = 60536
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=135|end_char=136
-2	keep	keep	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=137|end_char=141
-3	hoping	hope	VERB	VBG	VerbForm=Ger	2	_	_	start_char=142|end_char=148
-4	that	that	SCONJ	IN	_	3	_	_	start_char=149|end_char=153
-5	there	there	PRON	EX	_	4	_	_	start_char=154|end_char=159
-6	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=160|end_char=163
-7	some	some	DET	DT	_	6	_	_	start_char=164|end_char=168
-8	Vikings	Viking	PROPN	NNPS	Number=Plur	7	_	_	start_char=169|end_char=176
-9	still	still	ADV	RB	_	8	_	_	start_char=177|end_char=182
-10	living	live	VERB	VBG	VerbForm=Ger	9	_	_	start_char=183|end_char=189
-11	outside	outside	ADP	IN	_	10	_	_	start_char=190|end_char=197
-12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=198|end_char=201
-13	cities	city	NOUN	NNS	Number=Plur	12	_	_	start_char=202|end_char=208
-14	that	that	PRON	WDT	PronType=Rel	13	_	_	start_char=209|end_char=213
-15	will	will	AUX	MD	VerbForm=Fin	14	_	_	start_char=214|end_char=218
-16	mobilize	mobilize	VERB	VB	VerbForm=Inf	15	_	_	start_char=219|end_char=227
-17	soon	soon	ADV	RB	Degree=Pos	16	_	_	start_char=228|end_char=232|SpaceAfter=No
+# sent_id = 58566
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=129|end_char=130
+2	keep	keep	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=131|end_char=135
+3	hoping	hope	VERB	VBG	VerbForm=Ger	2	_	_	start_char=136|end_char=142
+4	that	that	SCONJ	IN	_	3	_	_	start_char=143|end_char=147
+5	there	there	PRON	EX	_	4	_	_	start_char=148|end_char=153
+6	are	be	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=154|end_char=157
+7	some	some	DET	DT	_	6	_	_	start_char=158|end_char=162
+8	Vikings	Viking	PROPN	NNPS	Number=Plur	7	_	_	start_char=163|end_char=170
+9	still	still	ADV	RB	_	8	_	_	start_char=171|end_char=176
+10	living	live	VERB	VBG	VerbForm=Ger	9	_	_	start_char=177|end_char=183
+11	outside	outside	ADP	IN	_	10	_	_	start_char=184|end_char=191
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=192|end_char=195
+13	cities	city	NOUN	NNS	Number=Plur	12	_	_	start_char=196|end_char=202
+14	that	that	PRON	WDT	PronType=Rel	13	_	_	start_char=203|end_char=207
+15	will	will	AUX	MD	VerbForm=Fin	14	_	_	start_char=208|end_char=212
+16	mobilize	mobilize	VERB	VB	VerbForm=Inf	15	_	_	start_char=213|end_char=221
+17	soon	soon	ADV	RB	Degree=Pos	16	_	_	start_char=222|end_char=226|SpaceAfter=No
 

@@ -1,10 +1,10 @@
 # text = Mexican Store
-# sent_id = 93097
+# sent_id = 90067
 1	Mexican	Mexican	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=7
 2	Store	store	NOUN	NN	Number=Sing	1	_	_	start_char=8|end_char=13
 
 # text = In Jacksonville had a black male come steal a donation jar for the family of Heydi Rivas-Villanueva, 7, who was shot and killed recently.
-# sent_id = 93098
+# sent_id = 90068
 1	In	in	ADP	IN	_	0	_	_	start_char=14|end_char=16
 2	Jacksonville	Jacksonville	PROPN	NNP	Number=Sing	1	_	_	start_char=17|end_char=29
 3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=30|end_char=33
@@ -36,7 +36,7 @@
 29	.	.	PUNCT	.	_	28	_	_	start_char=150|end_char=151
 
 # text = At least $500 was in it.
-# sent_id = 93099
+# sent_id = 90069
 1	At	at	ADP	IN	ExtPos=ADV	0	_	_	start_char=152|end_char=154
 2	least	least	ADJ	JJS	Degree=Sup	1	_	_	start_char=155|end_char=160
 3	$	$	SYM	$	_	2	_	_	start_char=161|end_char=162|SpaceAfter=No
@@ -46,8 +46,8 @@
 7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=173|end_char=175|SpaceAfter=No
 8	.	.	PUNCT	.	_	7	_	_	start_char=175|end_char=176
 
-# text = 2nd time now, find him Twitter - JSO [URL]
-# sent_id = 93100
+# text = 2nd time now, find him Twitter - JSO
+# sent_id = 90070
 1	2nd	2nd	ADJ	JJ	Degree=Pos|NumType=Ord	0	_	_	start_char=177|end_char=180
 2	time	time	NOUN	NN	Number=Sing	1	_	_	start_char=181|end_char=185
 3	now	now	ADV	RB	_	2	_	_	start_char=186|end_char=189|SpaceAfter=No
@@ -57,7 +57,4 @@
 7	Twitter	Twitter	PROPN	NNP	Number=Sing	6	_	_	start_char=200|end_char=207
 8	-	-	PUNCT	HYPH	_	7	_	_	start_char=208|end_char=209
 9	JSO	JSO	PROPN	NNP	Number=Sing	8	_	_	start_char=210|end_char=213
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=214|end_char=215|SpaceAfter=No
-11	URL	URL	PROPN	NNP	Number=Sing	10	_	_	start_char=215|end_char=218|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=218|end_char=219|SpaceAfter=No
 

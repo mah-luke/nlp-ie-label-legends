@@ -1,49 +1,46 @@
-# text = [USER] that may be but she's a disgusting example of one that has attacked others, fucked over and even indirectly took the lives of those who got in her way.
-# sent_id = 23497
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=7|end_char=11
-5	may	may	AUX	MD	VerbForm=Fin	4	_	_	start_char=12|end_char=15
-6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=16|end_char=18
-7	but	but	CCONJ	CC	_	6	_	_	start_char=19|end_char=22
-8-9	she's	_	_	_	_	_	_	_	start_char=23|end_char=28
-8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=23|end_char=26
-9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=26|end_char=28
-10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=29|end_char=30
-11	disgusting	disgusting	ADJ	JJ	Degree=Pos	10	_	_	start_char=31|end_char=41
-12	example	example	NOUN	NN	Number=Sing	11	_	_	start_char=42|end_char=49
-13	of	of	ADP	IN	_	12	_	_	start_char=50|end_char=52
-14	one	one	NUM	CD	NumForm=Word|NumType=Card	13	_	_	start_char=53|end_char=56
-15	that	that	PRON	WDT	PronType=Rel	14	_	_	start_char=57|end_char=61
-16	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=62|end_char=65
-17	attacked	attack	VERB	VBN	Tense=Past|VerbForm=Part	16	_	_	start_char=66|end_char=74
-18	others	other	NOUN	NNS	Number=Plur	17	_	_	start_char=75|end_char=81|SpaceAfter=No
-19	,	,	PUNCT	,	_	18	_	_	start_char=81|end_char=82
-20	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part	19	_	_	start_char=83|end_char=89
-21	over	over	ADV	RB	_	20	_	_	start_char=90|end_char=94
-22	and	and	CCONJ	CC	_	21	_	_	start_char=95|end_char=98
-23	even	even	ADV	RB	_	22	_	_	start_char=99|end_char=103
-24	indirectly	indirectly	ADV	RB	_	23	_	_	start_char=104|end_char=114
-25	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	_	_	start_char=115|end_char=119
-26	the	the	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=120|end_char=123
-27	lives	life	NOUN	NNS	Number=Plur	26	_	_	start_char=124|end_char=129
-28	of	of	ADP	IN	_	27	_	_	start_char=130|end_char=132
-29	those	that	PRON	DT	Number=Plur|PronType=Dem	28	_	_	start_char=133|end_char=138
-30	who	who	PRON	WP	PronType=Rel	29	_	_	start_char=139|end_char=142
-31	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	30	_	_	start_char=143|end_char=146
-32	in	in	ADP	IN	_	31	_	_	start_char=147|end_char=149
-33	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	32	_	_	start_char=150|end_char=153
-34	way	way	NOUN	NN	Number=Sing	33	_	_	start_char=154|end_char=157|SpaceAfter=No
-35	.	.	PUNCT	.	_	34	_	_	start_char=157|end_char=158
+# text = that may be but she's a disgusting example of one that has attacked others, fucked over and even indirectly took the lives of those who got in her way.
+# sent_id = 22729
+1	that	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	may	may	AUX	MD	VerbForm=Fin	1	_	_	start_char=6|end_char=9
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=10|end_char=12
+4	but	but	CCONJ	CC	_	3	_	_	start_char=13|end_char=16
+5-6	she's	_	_	_	_	_	_	_	start_char=17|end_char=22
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=17|end_char=20
+6	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=20|end_char=22
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=23|end_char=24
+8	disgusting	disgusting	ADJ	JJ	Degree=Pos	7	_	_	start_char=25|end_char=35
+9	example	example	NOUN	NN	Number=Sing	8	_	_	start_char=36|end_char=43
+10	of	of	ADP	IN	_	9	_	_	start_char=44|end_char=46
+11	one	one	NUM	CD	NumForm=Word|NumType=Card	10	_	_	start_char=47|end_char=50
+12	that	that	PRON	WDT	PronType=Rel	11	_	_	start_char=51|end_char=55
+13	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=56|end_char=59
+14	attacked	attack	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=60|end_char=68
+15	others	other	NOUN	NNS	Number=Plur	14	_	_	start_char=69|end_char=75|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=75|end_char=76
+17	fucked	fuck	VERB	VBN	Tense=Past|VerbForm=Part	16	_	_	start_char=77|end_char=83
+18	over	over	ADV	RB	_	17	_	_	start_char=84|end_char=88
+19	and	and	CCONJ	CC	_	18	_	_	start_char=89|end_char=92
+20	even	even	ADV	RB	_	19	_	_	start_char=93|end_char=97
+21	indirectly	indirectly	ADV	RB	_	20	_	_	start_char=98|end_char=108
+22	took	take	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	_	_	start_char=109|end_char=113
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=114|end_char=117
+24	lives	life	NOUN	NNS	Number=Plur	23	_	_	start_char=118|end_char=123
+25	of	of	ADP	IN	_	24	_	_	start_char=124|end_char=126
+26	those	that	PRON	DT	Number=Plur|PronType=Dem	25	_	_	start_char=127|end_char=132
+27	who	who	PRON	WP	PronType=Rel	26	_	_	start_char=133|end_char=136
+28	got	get	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	27	_	_	start_char=137|end_char=140
+29	in	in	ADP	IN	_	28	_	_	start_char=141|end_char=143
+30	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	29	_	_	start_char=144|end_char=147
+31	way	way	NOUN	NN	Number=Sing	30	_	_	start_char=148|end_char=151|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	start_char=151|end_char=152
 
 # text = I wish exactly zero pity on her
-# sent_id = 23498
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=159|end_char=160
-2	wish	wish	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=161|end_char=165
-3	exactly	exactly	ADV	RB	_	2	_	_	start_char=166|end_char=173
-4	zero	zero	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=174|end_char=178
-5	pity	pity	NOUN	NN	Number=Sing	4	_	_	start_char=179|end_char=183
-6	on	on	ADP	IN	_	5	_	_	start_char=184|end_char=186
-7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=187|end_char=190|SpaceAfter=No
+# sent_id = 22730
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=153|end_char=154
+2	wish	wish	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=155|end_char=159
+3	exactly	exactly	ADV	RB	_	2	_	_	start_char=160|end_char=167
+4	zero	zero	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=168|end_char=172
+5	pity	pity	NOUN	NN	Number=Sing	4	_	_	start_char=173|end_char=177
+6	on	on	ADP	IN	_	5	_	_	start_char=178|end_char=180
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=181|end_char=184|SpaceAfter=No
 

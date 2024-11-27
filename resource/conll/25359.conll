@@ -1,5 +1,5 @@
-# text = A woman has been accused of stealing $13K from an inmate's bank account [URL] [URL]
-# sent_id = 54339
+# text = A woman has been accused of stealing $13K from an inmate's bank account
+# sent_id = 52581
 1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
 2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=7
 3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=11
@@ -16,11 +16,5 @@
 13	inmate	inmate	NOUN	NN	Number=Sing	12	_	_	start_char=50|end_char=56
 14	's	's	PART	POS	_	13	_	_	start_char=56|end_char=58
 15	bank	bank	NOUN	NN	Number=Sing	14	_	_	start_char=59|end_char=63
-16	account	account	NOUN	NN	Number=Sing	15	_	_	start_char=64|end_char=71
-17	[	[	PUNCT	-LRB-	_	16	_	_	start_char=72|end_char=73|SpaceAfter=No
-18	URL	URL	PROPN	NNP	Number=Sing	17	_	_	start_char=73|end_char=76|SpaceAfter=No
-19	]	]	PUNCT	-RRB-	_	18	_	_	start_char=76|end_char=77
-20	[	[	PUNCT	-LRB-	_	19	_	_	start_char=78|end_char=79|SpaceAfter=No
-21	URL	URL	PROPN	NNP	Number=Sing	20	_	_	start_char=79|end_char=82|SpaceAfter=No
-22	]	]	PUNCT	-RRB-	_	21	_	_	start_char=82|end_char=83|SpaceAfter=No
+16	account	account	NOUN	NN	Number=Sing	15	_	_	start_char=64|end_char=71|SpacesAfter=\s\s
 

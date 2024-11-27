@@ -1,5 +1,5 @@
 # text = Dallas police officer arrested after killing man inside apartment she wrongly thought was her own home.
-# sent_id = 90262
+# sent_id = 87329
 1	Dallas	Dallas	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
 2	police	police	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=13
 3	officer	officer	NOUN	NN	Number=Sing	2	_	_	start_char=14|end_char=21
@@ -16,14 +16,5 @@
 14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=90|end_char=93
 15	own	own	ADJ	JJ	Degree=Pos	14	_	_	start_char=94|end_char=97
 16	home	home	NOUN	NN	Number=Sing	15	_	_	start_char=98|end_char=102|SpaceAfter=No
-17	.	.	PUNCT	.	_	16	_	_	start_char=102|end_char=103
-
-# text = [URL] [URL]
-# sent_id = 90263
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=104|end_char=105|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=105|end_char=108|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=108|end_char=109
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=110|end_char=111|SpaceAfter=No
-5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=111|end_char=114|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=114|end_char=115|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=102|end_char=103|SpacesAfter=\s\s
 

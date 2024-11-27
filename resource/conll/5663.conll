@@ -1,12 +1,12 @@
 # text = A female Santa...
-# sent_id = 11868
+# sent_id = 11484
 1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
 2	female	female	ADJ	JJ	Degree=Pos	1	_	_	start_char=2|end_char=8
 3	Santa	Santa	PROPN	NNP	Number=Sing	2	_	_	start_char=9|end_char=14|SpaceAfter=No
 4	...	...	PUNCT	.	_	3	_	_	start_char=14|end_char=17
 
 # text = Well my dad did once tell me a woman can be anything she wants to be.
-# sent_id = 11869
+# sent_id = 11485
 1	Well	well	INTJ	UH	_	0	_	_	start_char=18|end_char=22
 2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=23|end_char=25
 3	dad	dad	NOUN	NN	Number=Sing	2	_	_	start_char=26|end_char=29
@@ -25,15 +25,12 @@
 16	be	be	AUX	VB	VerbForm=Inf	15	_	_	start_char=84|end_char=86|SpaceAfter=No
 17	.	.	PUNCT	.	_	16	_	_	start_char=86|end_char=87
 
-# text = #femalesanta #GabFam #SpeakFreely [URL]
-# sent_id = 11870
+# text = #femalesanta #GabFam #SpeakFreely
+# sent_id = 11486
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=88|end_char=89|SpaceAfter=No
 2	femalesanta	femalesanta	X	GW	_	1	_	_	start_char=89|end_char=100
-3	#	#	X	NN	_	2	_	_	start_char=101|end_char=102|SpaceAfter=No
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=101|end_char=102|SpaceAfter=No
 4	GabFam	gabfam	X	GW	_	3	_	_	start_char=102|end_char=108
 5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=109|end_char=110|SpaceAfter=No
 6	SpeakFreely	SpeakFreely	X	NN	_	5	_	_	start_char=110|end_char=121
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=122|end_char=123|SpaceAfter=No
-8	URL	URL	NOUN	NN	Number=Sing	7	_	_	start_char=123|end_char=126|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=126|end_char=127|SpaceAfter=No
 

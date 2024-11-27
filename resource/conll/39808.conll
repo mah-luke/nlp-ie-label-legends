@@ -1,5 +1,5 @@
 # text = #WWE #Smackdown That slap from Meryse to Renee Young felt damned painful.
-# sent_id = 85121
+# sent_id = 82355
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	WWE	wwe	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=4
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=5|end_char=6|SpaceAfter=No
@@ -17,21 +17,21 @@
 15	.	.	PUNCT	.	_	14	_	_	start_char=72|end_char=73
 
 # text = Give her credit.
-# sent_id = 85122
+# sent_id = 82356
 1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=74|end_char=78
 2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=79|end_char=82
 3	credit	credit	NOUN	NN	Number=Sing	2	_	_	start_char=83|end_char=89|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	_	_	start_char=89|end_char=90
 
 # text = I hate Meryse.
-# sent_id = 85123
+# sent_id = 82357
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=91|end_char=92
 2	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=93|end_char=97
 3	Meryse	Meryse	PROPN	NNP	Number=Sing	2	_	_	start_char=98|end_char=104|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	_	_	start_char=104|end_char=105
 
 # text = She's doing her job well.
-# sent_id = 85124
+# sent_id = 82358
 1-2	She's	_	_	_	_	_	_	_	start_char=106|end_char=111
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=106|end_char=109
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=109|end_char=111
@@ -39,13 +39,10 @@
 4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=118|end_char=121
 5	job	job	NOUN	NN	Number=Sing	4	_	_	start_char=122|end_char=125
 6	well	well	ADV	RB	Degree=Pos	5	_	_	start_char=126|end_char=130|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=130|end_char=131
+7	.	.	PUNCT	.	_	6	_	_	start_char=130|end_char=131|SpacesAfter=\s\s
 
-# text = [URL] #GabFam
-# sent_id = 85125
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=132|end_char=133|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=133|end_char=136|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=136|end_char=137
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=138|end_char=139|SpaceAfter=No
-5	GabFam	GabFam	PROPN	NNP	Number=Sing	4	_	_	start_char=139|end_char=145|SpaceAfter=No
+# text = #GabFam
+# sent_id = 82359
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=133|end_char=134|SpaceAfter=No
+2	GabFam	gabfam	NOUN	NN	Number=Sing	1	_	_	start_char=134|end_char=140|SpaceAfter=No
 

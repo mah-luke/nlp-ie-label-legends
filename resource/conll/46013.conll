@@ -1,10 +1,10 @@
 # text = RT windh1
-# sent_id = 98298
+# sent_id = 95076
 1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
 2	windh1	windh1	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=9
 
 # text = Why is she even relevant?
-# sent_id = 98299
+# sent_id = 95077
 1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=10|end_char=13
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=14|end_char=16
 3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=17|end_char=20
@@ -12,8 +12,8 @@
 5	relevant	relevant	ADJ	JJ	Degree=Pos	4	_	_	start_char=26|end_char=34|SpaceAfter=No
 6	?	?	PUNCT	.	_	5	_	_	start_char=34|end_char=35
 
-# text = The only time she should ever be mentioned is if she goes to prison... other than that... [URL]
-# sent_id = 98300
+# text = The only time she should ever be mentioned is if she goes to prison... other than that...
+# sent_id = 95078
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=36|end_char=39
 2	only	only	ADJ	JJ	Degree=Pos	1	_	_	start_char=40|end_char=44
 3	time	time	NOUN	NN	Number=Sing	2	_	_	start_char=45|end_char=49
@@ -32,8 +32,5 @@
 16	other	other	ADJ	JJ	Degree=Pos	15	_	_	start_char=107|end_char=112
 17	than	than	ADP	IN	_	16	_	_	start_char=113|end_char=117
 18	that	that	PRON	DT	Number=Sing|PronType=Dem	17	_	_	start_char=118|end_char=122|SpaceAfter=No
-19	...	...	PUNCT	,	_	18	_	_	start_char=122|end_char=125
-20	[	[	PUNCT	-LRB-	_	19	_	_	start_char=126|end_char=127|SpaceAfter=No
-21	URL	URL	PROPN	NNP	Number=Sing	20	_	_	start_char=127|end_char=130|SpaceAfter=No
-22	]	]	PUNCT	-RRB-	_	21	_	_	start_char=130|end_char=131|SpaceAfter=No
+19	...	...	PUNCT	.	_	18	_	_	start_char=122|end_char=125
 

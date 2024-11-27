@@ -1,5 +1,5 @@
 # text = What a complete and utter disgrace and slap in the face to all the dead heros from centuries of wars, including WW1 & WW2.
-# sent_id = 103155
+# sent_id = 99786
 1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
 2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
 3	complete	complete	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=15
@@ -25,13 +25,10 @@
 23	WW1	WW1	PROPN	NNP	Number=Sing	22	_	_	start_char=112|end_char=115
 24	&	&	CCONJ	CC	_	23	_	_	start_char=116|end_char=117
 25	WW2	WW2	PROPN	NNP	Number=Sing	24	_	_	start_char=118|end_char=121|SpaceAfter=No
-26	.	.	PUNCT	.	_	25	_	_	start_char=121|end_char=122
+26	.	.	PUNCT	.	_	25	_	_	start_char=121|end_char=122|SpacesAfter=\s\s
 
-# text = [URL] #BritFam
-# sent_id = 103156
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=123|end_char=124|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=124|end_char=127|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=127|end_char=128
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=129|end_char=130|SpaceAfter=No
-5	BritFam	BritFam	PROPN	NNP	Number=Sing	4	_	_	start_char=130|end_char=137|SpaceAfter=No
+# text = #BritFam
+# sent_id = 99787
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=124|end_char=125|SpaceAfter=No
+2	BritFam	BritFam	PROPN	NNP	Number=Sing	1	_	_	start_char=125|end_char=132|SpaceAfter=No
 

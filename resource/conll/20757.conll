@@ -1,60 +1,54 @@
-# text = [USER]
-# sent_id = 44589
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = He was from Pakistan, a country not at war.
-# sent_id = 44590
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=9
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=10|end_char=13
-3	from	from	ADP	IN	_	2	_	_	start_char=14|end_char=18
-4	Pakistan	Pakistan	PROPN	NNP	Number=Sing	3	_	_	start_char=19|end_char=27|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	_	_	start_char=27|end_char=28
-6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=29|end_char=30
-7	country	country	NOUN	NN	Number=Sing	6	_	_	start_char=31|end_char=38
-8	not	not	PART	RB	_	7	_	_	start_char=39|end_char=42
-9	at	at	ADP	IN	_	8	_	_	start_char=43|end_char=45
-10	war	war	NOUN	NN	Number=Sing	9	_	_	start_char=46|end_char=49|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=49|end_char=50
+# sent_id = 43104
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	from	from	ADP	IN	_	2	_	_	start_char=8|end_char=12
+4	Pakistan	Pakistan	PROPN	NNP	Number=Sing	3	_	_	start_char=13|end_char=21|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=21|end_char=22
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=23|end_char=24
+7	country	country	NOUN	NN	Number=Sing	6	_	_	start_char=25|end_char=32
+8	not	not	PART	RB	_	7	_	_	start_char=33|end_char=36
+9	at	at	ADP	IN	_	8	_	_	start_char=37|end_char=39
+10	war	war	NOUN	NN	Number=Sing	9	_	_	start_char=40|end_char=43|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=43|end_char=44
 
 # text = So he can't be a refugee.
-# sent_id = 44591
-1	So	so	ADV	RB	_	0	_	_	start_char=51|end_char=53
-2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=54|end_char=56
-3-4	can't	_	_	_	_	_	_	_	start_char=57|end_char=62
-3	ca	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=57|end_char=59
-4	n't	not	PART	RB	_	3	_	_	start_char=59|end_char=62
-5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=63|end_char=65
-6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=66|end_char=67
-7	refugee	refugee	NOUN	NN	Number=Sing	6	_	_	start_char=68|end_char=75|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=75|end_char=76
+# sent_id = 43105
+1	So	so	ADV	RB	_	0	_	_	start_char=45|end_char=47
+2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=48|end_char=50
+3-4	can't	_	_	_	_	_	_	_	start_char=51|end_char=56
+3	ca	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=51|end_char=53
+4	n't	not	PART	RB	_	3	_	_	start_char=53|end_char=56
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=57|end_char=59
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=60|end_char=61
+7	refugee	refugee	NOUN	NN	Number=Sing	6	_	_	start_char=62|end_char=69|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=69|end_char=70
 
 # text = He's an invader, or at best, someone who wanted to rape white women and face no legal punishment for it.
-# sent_id = 44592
-1-2	He's	_	_	_	_	_	_	_	start_char=77|end_char=81
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=77|end_char=79
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=79|end_char=81
-3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=82|end_char=84
-4	invader	invader	NOUN	NN	Number=Sing	3	_	_	start_char=85|end_char=92|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	_	_	start_char=92|end_char=93
-6	or	or	CCONJ	CC	_	5	_	_	start_char=94|end_char=96
-7	at	at	ADP	IN	_	6	_	_	start_char=97|end_char=99
-8	best	good	ADJ	JJS	Degree=Sup	7	_	_	start_char=100|end_char=104|SpaceAfter=No
-9	,	,	PUNCT	,	_	8	_	_	start_char=104|end_char=105
-10	someone	someone	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=106|end_char=113
-11	who	who	PRON	WP	PronType=Rel	10	_	_	start_char=114|end_char=117
-12	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=118|end_char=124
-13	to	to	PART	TO	_	12	_	_	start_char=125|end_char=127
-14	rape	rape	VERB	VB	VerbForm=Inf	13	_	_	start_char=128|end_char=132
-15	white	white	ADJ	JJ	Degree=Pos	14	_	_	start_char=133|end_char=138
-16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=139|end_char=144
-17	and	and	CCONJ	CC	_	16	_	_	start_char=145|end_char=148
-18	face	face	VERB	VB	VerbForm=Inf	17	_	_	start_char=149|end_char=153
-19	no	no	DET	DT	_	18	_	_	start_char=154|end_char=156
-20	legal	legal	ADJ	JJ	Degree=Pos	19	_	_	start_char=157|end_char=162
-21	punishment	punishment	NOUN	NN	Number=Sing	20	_	_	start_char=163|end_char=173
-22	for	for	ADP	IN	_	21	_	_	start_char=174|end_char=177
-23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=178|end_char=180|SpaceAfter=No
-24	.	.	PUNCT	.	_	23	_	_	start_char=180|end_char=181|SpaceAfter=No
+# sent_id = 43106
+1-2	He's	_	_	_	_	_	_	_	start_char=71|end_char=75
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=71|end_char=73
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=73|end_char=75
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=76|end_char=78
+4	invader	invader	NOUN	NN	Number=Sing	3	_	_	start_char=79|end_char=86|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=86|end_char=87
+6	or	or	CCONJ	CC	_	5	_	_	start_char=88|end_char=90
+7	at	at	ADP	IN	_	6	_	_	start_char=91|end_char=93
+8	best	good	ADJ	JJS	Degree=Sup	7	_	_	start_char=94|end_char=98|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=98|end_char=99
+10	someone	someone	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=100|end_char=107
+11	who	who	PRON	WP	PronType=Rel	10	_	_	start_char=108|end_char=111
+12	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=112|end_char=118
+13	to	to	PART	TO	_	12	_	_	start_char=119|end_char=121
+14	rape	rape	VERB	VB	VerbForm=Inf	13	_	_	start_char=122|end_char=126
+15	white	white	ADJ	JJ	Degree=Pos	14	_	_	start_char=127|end_char=132
+16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=133|end_char=138
+17	and	and	CCONJ	CC	_	16	_	_	start_char=139|end_char=142
+18	face	face	VERB	VB	VerbForm=Inf	17	_	_	start_char=143|end_char=147
+19	no	no	DET	DT	_	18	_	_	start_char=148|end_char=150
+20	legal	legal	ADJ	JJ	Degree=Pos	19	_	_	start_char=151|end_char=156
+21	punishment	punishment	NOUN	NN	Number=Sing	20	_	_	start_char=157|end_char=167
+22	for	for	ADP	IN	_	21	_	_	start_char=168|end_char=171
+23	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=172|end_char=174|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=174|end_char=175|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = Nigcop pulling over women for dates.
-# sent_id = 101381
+# sent_id = 98051
 1	Nigcop	Nigcop	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
 2	pulling	pull	VERB	VBG	VerbForm=Ger	1	_	_	start_char=7|end_char=14
 3	over	over	ADP	RP	_	2	_	_	start_char=15|end_char=19
@@ -8,8 +8,8 @@
 6	dates	date	NOUN	NNS	Number=Plur	5	_	_	start_char=30|end_char=35|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	_	_	start_char=35|end_char=36
 
-# text = He knows were the white women be at [URL] [USER] [USER]‍ [USER]‍ [USER]‍ [USER]
-# sent_id = 101382
+# text = He knows were the white women be at ‍ ‍ ‍
+# sent_id = 98052
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=37|end_char=39
 2	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=40|end_char=45
 3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=46|end_char=50
@@ -17,26 +17,8 @@
 5	white	white	ADJ	JJ	Degree=Pos	4	_	_	start_char=55|end_char=60
 6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=61|end_char=66
 7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=67|end_char=69
-8	at	at	ADP	IN	_	7	_	_	start_char=70|end_char=72
-9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=73|end_char=74|SpaceAfter=No
-10	URL	URL	PROPN	NNP	Number=Sing	9	_	_	start_char=74|end_char=77|SpaceAfter=No
-11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=77|end_char=78
-12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=79|end_char=80|SpaceAfter=No
-13	USER	user	NOUN	NN	Number=Sing	12	_	_	start_char=80|end_char=84|SpaceAfter=No
-14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=84|end_char=85
-15	[	[	PUNCT	-LRB-	_	14	_	_	start_char=86|end_char=87|SpaceAfter=No
-16	USER	user	NOUN	NN	Number=Sing	15	_	_	start_char=87|end_char=91|SpaceAfter=No
-17	]	]	PUNCT	-RRB-	_	16	_	_	start_char=91|end_char=92|SpaceAfter=No
-18	‍	‍	PUNCT	.	_	17	_	_	start_char=92|end_char=93
-19	[	[	PUNCT	-LRB-	_	18	_	_	start_char=94|end_char=95|SpaceAfter=No
-20	USER	user	NOUN	NN	Number=Sing	19	_	_	start_char=95|end_char=99|SpaceAfter=No
-21	]	]	PUNCT	-RRB-	_	20	_	_	start_char=99|end_char=100|SpaceAfter=No
-22	‍	‍	PUNCT	.	_	21	_	_	start_char=100|end_char=101
-23	[	[	PUNCT	-LRB-	_	22	_	_	start_char=102|end_char=103|SpaceAfter=No
-24	USER	user	NOUN	NN	Number=Sing	23	_	_	start_char=103|end_char=107|SpaceAfter=No
-25	]	]	PUNCT	-RRB-	_	24	_	_	start_char=107|end_char=108|SpaceAfter=No
-26	‍	‍	PUNCT	.	_	25	_	_	start_char=108|end_char=109
-27	[	[	PUNCT	-LRB-	_	26	_	_	start_char=110|end_char=111|SpaceAfter=No
-28	USER	user	NOUN	NN	Number=Sing	27	_	_	start_char=111|end_char=115|SpaceAfter=No
-29	]	]	PUNCT	-RRB-	_	28	_	_	start_char=115|end_char=116|SpaceAfter=No
+8	at	at	ADP	IN	_	7	_	_	start_char=70|end_char=72|SpacesAfter=\s\s\s
+9	‍	‍	PUNCT	``	_	8	_	_	start_char=75|end_char=76
+10	‍	‍	PUNCT	:	_	9	_	_	start_char=77|end_char=78
+11	‍	‍	PUNCT	.	_	10	_	_	start_char=79|end_char=80
 

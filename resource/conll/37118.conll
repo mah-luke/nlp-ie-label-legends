@@ -1,5 +1,5 @@
 # text = "Expert Jim Diamond told FOX 13 that illegal immigrant criminals are essentially “invisible” if they are freed or escape custody after a crime has been committed."
-# sent_id = 79351
+# sent_id = 76788
 1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	Expert	expert	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=7
 3	Jim	Jim	PROPN	NNP	Number=Sing	2	_	_	start_char=8|end_char=11
@@ -32,19 +32,19 @@
 30	.	.	PUNCT	.	_	29	_	_	start_char=161|end_char=162|SpaceAfter=No
 31	"	"	PUNCT	''	_	30	_	_	start_char=162|end_char=163
 
-# text = OR GIVEN BAIL! [URL] #MAGA #GabFam #Trump
-# sent_id = 79352
+# text = OR GIVEN BAIL!
+# sent_id = 76789
 1	OR	or	CCONJ	CC	_	0	_	_	start_char=164|end_char=166
 2	GIVEN	give	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=167|end_char=172
 3	BAIL	bail	NOUN	NN	Number=Sing	2	_	_	start_char=173|end_char=177|SpaceAfter=No
-4	!	!	PUNCT	.	_	3	_	_	start_char=177|end_char=178
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=179|end_char=180|SpaceAfter=No
-6	URL	URL	PROPN	NNP	Number=Sing	5	_	_	start_char=180|end_char=183|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=183|end_char=184
-8	#	#	SYM	NN	Number=Sing	7	_	_	start_char=185|end_char=186|SpaceAfter=No
-9	MAGA	maga	NOUN	NN	Number=Sing	8	_	_	start_char=186|end_char=190
-10	#	#	SYM	NN	Number=Sing	9	_	_	start_char=191|end_char=192|SpaceAfter=No
-11	GabFam	gabfam	NOUN	NN	Number=Sing	10	_	_	start_char=192|end_char=198
-12	#	#	SYM	NN	Number=Sing	11	_	_	start_char=199|end_char=200|SpaceAfter=No
-13	Trump	Trump	PROPN	NNP	Number=Sing	12	_	_	start_char=200|end_char=205|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=177|end_char=178|SpacesAfter=\s\s
+
+# text = #MAGA #GabFam #Trump
+# sent_id = 76790
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=180|end_char=181|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=181|end_char=185
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=186|end_char=187|SpaceAfter=No
+4	GabFam	gabfam	NOUN	NN	Number=Sing	3	_	_	start_char=187|end_char=193
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=194|end_char=195|SpaceAfter=No
+6	Trump	Trump	NOUN	NN	Number=Sing	5	_	_	start_char=195|end_char=200|SpaceAfter=No
 

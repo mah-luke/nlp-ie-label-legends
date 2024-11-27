@@ -1,28 +1,22 @@
-# text = [USER]
-# sent_id = 80346
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = An Armenian on the Young Turks?
-# sent_id = 80347
-1	An	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=7|end_char=9
-2	Armenian	Armenian	ADJ	JJ	Degree=Pos	1	_	_	start_char=10|end_char=18
-3	on	on	ADP	IN	_	2	_	_	start_char=19|end_char=21
-4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=22|end_char=25
-5	Young	Young	ADJ	NNP	Degree=Pos	4	_	_	start_char=26|end_char=31
-6	Turks	Turk	PROPN	NNPS	Number=Plur	5	_	_	start_char=32|end_char=37|SpaceAfter=No
-7	?	?	PUNCT	.	_	6	_	_	start_char=37|end_char=38
+# sent_id = 77746
+1	An	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	Armenian	Armenian	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=12
+3	on	on	ADP	IN	_	2	_	_	start_char=13|end_char=15
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=16|end_char=19
+5	Young	Young	ADJ	NNP	Degree=Pos	4	_	_	start_char=20|end_char=25
+6	Turks	Turk	PROPN	NNPS	Number=Plur	5	_	_	start_char=26|end_char=31|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=31|end_char=32
 
 # text = How come she isn't dead yet?
-# sent_id = 80348
-1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=39|end_char=42
-2	come	come	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=43|end_char=47
-3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=48|end_char=51
-4-5	isn't	_	_	_	_	_	_	_	start_char=52|end_char=57
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=52|end_char=54
-5	n't	not	PART	RB	_	4	_	_	start_char=54|end_char=57
-6	dead	dead	ADJ	JJ	Degree=Pos	5	_	_	start_char=58|end_char=62
-7	yet	yet	ADV	RB	_	6	_	_	start_char=63|end_char=66|SpaceAfter=No
-8	?	?	PUNCT	.	_	7	_	_	start_char=66|end_char=67|SpaceAfter=No
+# sent_id = 77747
+1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=33|end_char=36
+2	come	come	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=37|end_char=41
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=42|end_char=45
+4-5	isn't	_	_	_	_	_	_	_	start_char=46|end_char=51
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=46|end_char=48
+5	n't	not	PART	RB	_	4	_	_	start_char=48|end_char=51
+6	dead	dead	ADJ	JJ	Degree=Pos	5	_	_	start_char=52|end_char=56
+7	yet	yet	ADV	RB	_	6	_	_	start_char=57|end_char=60|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=60|end_char=61|SpaceAfter=No
 

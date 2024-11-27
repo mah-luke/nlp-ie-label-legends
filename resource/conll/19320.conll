@@ -1,33 +1,30 @@
-# text = [USER] I always liked Mary Tyler Moore.
-# sent_id = 41460
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=7|end_char=8
-5	always	always	ADV	RB	_	4	_	_	start_char=9|end_char=15
-6	liked	like	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=16|end_char=21
-7	Mary	Mary	PROPN	NNP	Number=Sing	6	_	_	start_char=22|end_char=26
-8	Tyler	Tyler	PROPN	NNP	Number=Sing	7	_	_	start_char=27|end_char=32
-9	Moore	Moore	PROPN	NNP	Number=Sing	8	_	_	start_char=33|end_char=38|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=38|end_char=39
+# text = I always liked Mary Tyler Moore.
+# sent_id = 40071
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=2|SpacesBefore=\s
+2	always	always	ADV	RB	_	1	_	_	start_char=3|end_char=9
+3	liked	like	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=10|end_char=15
+4	Mary	Mary	PROPN	NNP	Number=Sing	3	_	_	start_char=16|end_char=20
+5	Tyler	Tyler	PROPN	NNP	Number=Sing	4	_	_	start_char=21|end_char=26
+6	Moore	Moore	PROPN	NNP	Number=Sing	5	_	_	start_char=27|end_char=32|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=32|end_char=33
 
 # text = I can't believe she was 80.
-# sent_id = 41461
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=40|end_char=41
-2-3	can't	_	_	_	_	_	_	_	start_char=42|end_char=47
-2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=42|end_char=44
-3	n't	not	PART	RB	_	2	_	_	start_char=44|end_char=47
-4	believe	believe	VERB	VB	VerbForm=Inf	3	_	_	start_char=48|end_char=55
-5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=56|end_char=59
-6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=60|end_char=63
-7	80	80	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=64|end_char=66|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=66|end_char=67
+# sent_id = 40072
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=34|end_char=35
+2-3	can't	_	_	_	_	_	_	_	start_char=36|end_char=41
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=36|end_char=38
+3	n't	not	PART	RB	_	2	_	_	start_char=38|end_char=41
+4	believe	believe	VERB	VB	VerbForm=Inf	3	_	_	start_char=42|end_char=49
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=50|end_char=53
+6	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=54|end_char=57
+7	80	80	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=58|end_char=60|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=60|end_char=61
 
 # text = Amazing how time flies.
-# sent_id = 41462
-1	Amazing	amazing	ADJ	JJ	Degree=Pos	0	_	_	start_char=68|end_char=75
-2	how	how	ADV	WRB	PronType=Int	1	_	_	start_char=76|end_char=79
-3	time	time	NOUN	NN	Number=Sing	2	_	_	start_char=80|end_char=84
-4	flies	fly	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=85|end_char=90|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=90|end_char=91|SpaceAfter=No
+# sent_id = 40073
+1	Amazing	amazing	ADJ	JJ	Degree=Pos	0	_	_	start_char=62|end_char=69
+2	how	how	ADV	WRB	PronType=Int	1	_	_	start_char=70|end_char=73
+3	time	time	NOUN	NN	Number=Sing	2	_	_	start_char=74|end_char=78
+4	flies	fly	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=79|end_char=84|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=84|end_char=85|SpaceAfter=No
 

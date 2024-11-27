@@ -1,9 +1,9 @@
-# text = Drug traffickers 'BEHEAD special needs girl, 13, in Alabama cemetery because she witnessed them stab her grandma to death over her links to El Chapo's Sinaloa Cartel' [URL]
-# sent_id = 99379
+# text = Drug traffickers 'BEHEAD special needs girl, 13, in Alabama cemetery because she witnessed them stab her grandma to death over her links to El Chapo's Sinaloa Cartel'
+# sent_id = 96112
 1	Drug	drug	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
 2	traffickers	trafficker	NOUN	NNS	Number=Plur	1	_	_	start_char=5|end_char=16
 3	'	's	PART	POS	_	2	_	_	start_char=17|end_char=18|SpaceAfter=No
-4	BEHEAD	behead	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=24
+4	BEHEAD	behead	VERB	VB	VerbForm=Inf	3	_	_	start_char=18|end_char=24
 5	special	special	ADJ	JJ	Degree=Pos	4	_	_	start_char=25|end_char=32
 6	needs	need	NOUN	NNS	Number=Plur	5	_	_	start_char=33|end_char=38
 7	girl	girl	NOUN	NN	Number=Sing	6	_	_	start_char=39|end_char=43|SpaceAfter=No
@@ -33,7 +33,4 @@
 30	Sinaloa	Sinaloa	PROPN	NNP	Number=Sing	29	_	_	start_char=151|end_char=158
 31	Cartel	Cartel	PROPN	NNP	Number=Sing	30	_	_	start_char=159|end_char=165|SpaceAfter=No
 32	'	'	PUNCT	''	_	31	_	_	start_char=165|end_char=166
-33	[	[	PUNCT	-LRB-	_	32	_	_	start_char=167|end_char=168|SpaceAfter=No
-34	URL	URL	PROPN	NNP	Number=Sing	33	_	_	start_char=168|end_char=171|SpaceAfter=No
-35	]	]	PUNCT	-RRB-	_	34	_	_	start_char=171|end_char=172|SpaceAfter=No
 

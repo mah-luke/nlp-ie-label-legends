@@ -1,5 +1,5 @@
 # text = Hot Black Dude Found Reparations For Slavery At Restaurant And Took Them White Racists Accuse Him Of “Stealing”
-# sent_id = 7623
+# sent_id = 7383
 1	Hot	hot	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=3
 2	Black	Black	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=9
 3	Dude	dude	NOUN	NN	Number=Sing	2	_	_	start_char=10|end_char=14
@@ -22,16 +22,16 @@
 20	”	''	PUNCT	''	_	19	_	_	start_char=110|end_char=111
 
 # text = Fuck these wypipo.
-# sent_id = 7624
+# sent_id = 7384
 1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=112|end_char=116
 2	these	this	DET	DT	Number=Plur|PronType=Dem	1	_	_	start_char=117|end_char=122
 3	wypipo	wypipo	NOUN	NN	Number=Sing	2	_	_	start_char=123|end_char=129|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	_	_	start_char=129|end_char=130
 
-# text = Dey juz jelly of his big dick and can’t get women [USER] [URL]
-# sent_id = 7625
+# text = Dey juz jelly of his big dick and can’t get women
+# sent_id = 7385
 1	Dey	Dey	PROPN	NNP	Number=Sing	0	_	_	start_char=131|end_char=134
-2	juz	juz	X	FW	_	1	_	_	start_char=135|end_char=138
+2	juz	Muz	PROPN	NNP	Number=Sing	1	_	_	start_char=135|end_char=138
 3	jelly	jelly	NOUN	NN	Number=Sing	2	_	_	start_char=139|end_char=144
 4	of	of	ADP	IN	_	3	_	_	start_char=145|end_char=147
 5	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=148|end_char=151
@@ -42,11 +42,5 @@
 9	ca	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=165|end_char=167
 10	n’t	not	PART	RB	_	9	_	_	start_char=167|end_char=170
 11	get	get	VERB	VB	VerbForm=Inf	10	_	_	start_char=171|end_char=174
-12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=175|end_char=180
-13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=181|end_char=182|SpaceAfter=No
-14	USER	user	NOUN	NN	Number=Sing	13	_	_	start_char=182|end_char=186|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=186|end_char=187
-16	[	[	PUNCT	-LRB-	_	15	_	_	start_char=188|end_char=189|SpaceAfter=No
-17	URL	URL	PROPN	NNP	Number=Sing	16	_	_	start_char=189|end_char=192|SpaceAfter=No
-18	]	]	PUNCT	-RRB-	_	17	_	_	start_char=192|end_char=193|SpaceAfter=No
+12	women	woman	NOUN	NNS	Number=Plur	11	_	_	start_char=175|end_char=180|SpacesAfter=\s\s
 

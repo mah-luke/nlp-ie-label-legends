@@ -1,28 +1,25 @@
-# text = [URL] SWEDEN: 'Asylum seekers' rob and assault woman.
-# sent_id = 9159
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-4	SWEDEN	SWEDEN	PROPN	NNP	Number=Sing	3	_	_	start_char=6|end_char=12|SpaceAfter=No
-5	:	:	PUNCT	:	_	4	_	_	start_char=12|end_char=13
-6	'	'	PUNCT	``	_	5	_	_	start_char=14|end_char=15|SpaceAfter=No
-7	Asylum	asylum	NOUN	NN	Number=Sing	6	_	_	start_char=15|end_char=21
-8-9	seekers'	_	_	_	_	_	_	_	start_char=22|end_char=30
-8	seekers	seeker	NOUN	NNS	Number=Plur	7	_	_	start_char=22|end_char=29
-9	'	's	PART	POS	_	8	_	_	start_char=29|end_char=30
-10	rob	rob	NOUN	NN	Number=Sing	9	_	_	start_char=31|end_char=34
-11	and	and	CCONJ	CC	_	10	_	_	start_char=35|end_char=38
-12	assault	assault	NOUN	NN	Number=Sing	11	_	_	start_char=39|end_char=46
-13	woman	woman	NOUN	NN	Number=Sing	12	_	_	start_char=47|end_char=52|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=52|end_char=53
+# text = SWEDEN: 'Asylum seekers' rob and assault woman.
+# sent_id = 8844
+1	SWEDEN	SWEDEN	PROPN	NNP	Number=Sing	0	_	_	start_char=1|end_char=7|SpaceAfter=No|SpacesBefore=\s
+2	:	:	PUNCT	:	_	1	_	_	start_char=7|end_char=8
+3	'	'	PUNCT	``	_	2	_	_	start_char=9|end_char=10|SpaceAfter=No
+4	Asylum	asylum	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=16
+5-6	seekers'	_	_	_	_	_	_	_	start_char=17|end_char=25
+5	seekers	seeker	NOUN	NNS	Number=Plur	4	_	_	start_char=17|end_char=24
+6	'	's	PART	POS	_	5	_	_	start_char=24|end_char=25
+7	rob	rob	NOUN	NN	Number=Sing	6	_	_	start_char=26|end_char=29
+8	and	and	CCONJ	CC	_	7	_	_	start_char=30|end_char=33
+9	assault	assault	NOUN	NN	Number=Sing	8	_	_	start_char=34|end_char=41
+10	woman	woman	NOUN	NN	Number=Sing	9	_	_	start_char=42|end_char=47|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=47|end_char=48
 
 # text = 97, in her own home!
-# sent_id = 9160
-1	97	97	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=54|end_char=56|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=56|end_char=57
-3	in	in	ADP	IN	_	2	_	_	start_char=58|end_char=60
-4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=61|end_char=64
-5	own	own	ADJ	JJ	Degree=Pos	4	_	_	start_char=65|end_char=68
-6	home	home	NOUN	NN	Number=Sing	5	_	_	start_char=69|end_char=73|SpaceAfter=No
-7	!	!	PUNCT	.	_	6	_	_	start_char=73|end_char=74|SpaceAfter=No
+# sent_id = 8845
+1	97	97	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=49|end_char=51|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=51|end_char=52
+3	in	in	ADP	IN	_	2	_	_	start_char=53|end_char=55
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=56|end_char=59
+5	own	own	ADJ	JJ	Degree=Pos	4	_	_	start_char=60|end_char=63
+6	home	home	NOUN	NN	Number=Sing	5	_	_	start_char=64|end_char=68|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=68|end_char=69|SpaceAfter=No
 

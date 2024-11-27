@@ -1,10 +1,10 @@
 # text = RT SrFezza
-# sent_id = 63686
+# sent_id = 61637
 1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
 2	SrFezza	SrFezza	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=10
 
-# text = When she’s hauled off to jail she will claim she’s a victim of her political views ... kinda like the race card for white people ... [URL]
-# sent_id = 63687
+# text = When she’s hauled off to jail she will claim she’s a victim of her political views ... kinda like the race card for white people ...
+# sent_id = 61638
 1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=11|end_char=15
 2-3	she’s	_	_	_	_	_	_	_	start_char=16|end_char=21
 2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=16|end_char=19
@@ -34,8 +34,5 @@
 25	for	for	ADP	IN	_	24	_	_	start_char=123|end_char=126
 26	white	white	ADJ	JJ	Degree=Pos	25	_	_	start_char=127|end_char=132
 27	people	person	NOUN	NNS	Number=Plur	26	_	_	start_char=133|end_char=139
-28	...	...	PUNCT	,	_	27	_	_	start_char=140|end_char=143
-29	[	[	PUNCT	-LRB-	_	28	_	_	start_char=144|end_char=145|SpaceAfter=No
-30	URL	URL	PROPN	NNP	Number=Sing	29	_	_	start_char=145|end_char=148|SpaceAfter=No
-31	]	]	PUNCT	-RRB-	_	30	_	_	start_char=148|end_char=149|SpaceAfter=No
+28	...	...	PUNCT	.	_	27	_	_	start_char=140|end_char=143
 

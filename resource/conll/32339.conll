@@ -1,5 +1,5 @@
 # text = Self-inflicted wound #BuildTheWall #DeportThemAll
-# sent_id = 69303
+# sent_id = 67053
 1	Self	self	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4|SpaceAfter=No
 2	-	-	PUNCT	HYPH	_	1	_	_	start_char=4|end_char=5|SpaceAfter=No
 3	inflicted	inflict	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=5|end_char=14
@@ -10,7 +10,7 @@
 8	DeportThemAll	DeportThemAll	PROPN	NNP	Number=Sing	7	_	_	start_char=36|end_char=49
 
 # text = When interviewed by police, the woman says she has been raped by him 3 times in total, saying He doesn’t understand when I shake my head.
-# sent_id = 69304
+# sent_id = 67054
 1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=50|end_char=54
 2	interviewed	interview	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=55|end_char=66
 3	by	by	ADP	IN	_	2	_	_	start_char=67|end_char=69
@@ -41,16 +41,13 @@
 27	shake	shake	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	26	_	_	start_char=173|end_char=178
 28	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	27	_	_	start_char=179|end_char=181
 29	head	head	NOUN	NN	Number=Sing	28	_	_	start_char=182|end_char=186|SpaceAfter=No
-30	.	.	PUNCT	.	_	29	_	_	start_char=186|end_char=187
+30	.	.	PUNCT	.	_	29	_	_	start_char=186|end_char=187|SpacesAfter=\s\s
 
-# text = [URL] #VoteRed no #OpenBorders
-# sent_id = 69305
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=188|end_char=189|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=189|end_char=192|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=192|end_char=193
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=194|end_char=195|SpaceAfter=No
-5	VoteRed	votered	NOUN	NN	Number=Sing	4	_	_	start_char=195|end_char=202
-6	no	no	DET	DT	PronType=Art	5	_	_	start_char=203|end_char=205
-7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=206|end_char=207|SpaceAfter=No
-8	OpenBorders	OpenBorder	NOUN	NNS	Number=Plur	7	_	_	start_char=207|end_char=218|SpaceAfter=No
+# text = #VoteRed no #OpenBorders
+# sent_id = 67055
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=189|end_char=190|SpaceAfter=No
+2	VoteRed	votered	NOUN	NN	Number=Sing	1	_	_	start_char=190|end_char=197
+3	no	no	DET	DT	PronType=Art	2	_	_	start_char=198|end_char=200
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=201|end_char=202|SpaceAfter=No
+5	OpenBorders	OpenBorder	NOUN	NNS	Number=Plur	4	_	_	start_char=202|end_char=213|SpaceAfter=No
 

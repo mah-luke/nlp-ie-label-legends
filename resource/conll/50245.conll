@@ -1,5 +1,5 @@
 # text = All alone on the beach?
-# sent_id = 107369
+# sent_id = 103849
 1	All	all	DET	DT	_	0	_	_	start_char=0|end_char=3
 2	alone	alone	ADV	RB	_	1	_	_	start_char=4|end_char=9
 3	on	on	ADP	IN	_	2	_	_	start_char=10|end_char=12
@@ -8,7 +8,7 @@
 6	?	?	PUNCT	.	_	5	_	_	start_char=22|end_char=23
 
 # text = Well, maybe not.
-# sent_id = 107370
+# sent_id = 103850
 1	Well	well	INTJ	UH	_	0	_	_	start_char=24|end_char=28|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	start_char=28|end_char=29
 3	maybe	maybe	ADV	RB	_	2	_	_	start_char=30|end_char=35
@@ -16,7 +16,7 @@
 5	.	.	PUNCT	.	_	4	_	_	start_char=39|end_char=40
 
 # text = Oregon girls do it better.
-# sent_id = 107371
+# sent_id = 103851
 1	Oregon	Oregon	PROPN	NNP	Number=Sing	0	_	_	start_char=41|end_char=47
 2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=48|end_char=53
 3	do	do	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=54|end_char=56
@@ -25,7 +25,7 @@
 6	.	.	PUNCT	.	_	5	_	_	start_char=66|end_char=67
 
 # text = This one's me.
-# sent_id = 107372
+# sent_id = 103852
 1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=68|end_char=72
 2-3	one's	_	_	_	_	_	_	_	start_char=73|end_char=78
 2	one	one	NOUN	NN	Number=Sing	1	_	_	start_char=73|end_char=76
@@ -34,7 +34,7 @@
 5	.	.	PUNCT	.	_	4	_	_	start_char=81|end_char=82
 
 # text = #OregonGirls #ThatOregonLife #BeachBody #GabFam Can I have the photography icon in my posting box now Please?
-# sent_id = 107373
+# sent_id = 103853
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=83|end_char=84|SpaceAfter=No
 2	OregonGirls	oregongirls	NOUN	NN	Number=Sing	1	_	_	start_char=84|end_char=95
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=96|end_char=97|SpaceAfter=No
@@ -55,30 +55,24 @@
 18	box	box	NOUN	NN	Number=Sing	17	_	_	start_char=177|end_char=180
 19	now	now	ADV	RB	_	18	_	_	start_char=181|end_char=184
 20	Please	please	INTJ	UH	_	19	_	_	start_char=185|end_char=191|SpaceAfter=No
-21	?	?	PUNCT	.	_	20	_	_	start_char=191|end_char=192
-
-# text = [USER]
-# sent_id = 107374
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=193|end_char=194|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=194|end_char=198|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=198|end_char=199
+21	?	?	PUNCT	.	_	20	_	_	start_char=191|end_char=192|SpacesAfter=\s\s
 
 # text = For now, it's all going in art.
-# sent_id = 107375
-1	For	for	ADP	IN	_	0	_	_	start_char=200|end_char=203
-2	now	now	ADV	RB	_	1	_	_	start_char=204|end_char=207|SpaceAfter=No
-3	,	,	PUNCT	,	_	2	_	_	start_char=207|end_char=208
-4-5	it's	_	_	_	_	_	_	_	start_char=209|end_char=213
-4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=209|end_char=211
-5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=211|end_char=213
-6	all	all	ADV	RB	_	5	_	_	start_char=214|end_char=217
-7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=218|end_char=223
-8	in	in	ADP	IN	_	7	_	_	start_char=224|end_char=226
-9	art	art	NOUN	NN	Number=Sing	8	_	_	start_char=227|end_char=230|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=230|end_char=231
+# sent_id = 103854
+1	For	for	ADP	IN	_	0	_	_	start_char=194|end_char=197
+2	now	now	ADV	RB	_	1	_	_	start_char=198|end_char=201|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=201|end_char=202
+4-5	it's	_	_	_	_	_	_	_	start_char=203|end_char=207
+4	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=203|end_char=205
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=205|end_char=207
+6	all	all	ADV	RB	_	5	_	_	start_char=208|end_char=211
+7	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	6	_	_	start_char=212|end_char=217
+8	in	in	ADP	IN	_	7	_	_	start_char=218|end_char=220
+9	art	art	NOUN	NN	Number=Sing	8	_	_	start_char=221|end_char=224|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=224|end_char=225
 
 # text = fuckit.
-# sent_id = 107376
-1	fuckit	fuckit	NOUN	NN	Number=Sing	0	_	_	start_char=232|end_char=238|SpaceAfter=No
-2	.	.	PUNCT	.	_	1	_	_	start_char=238|end_char=239|SpaceAfter=No
+# sent_id = 103855
+1	fuckit	fuckit	NOUN	NN	Number=Sing	0	_	_	start_char=226|end_char=232|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=232|end_char=233|SpaceAfter=No
 

@@ -1,55 +1,52 @@
-# text = Bill Mitchell [USER] McConnell dumped $30 million in AL trying to beat Moore and never found one of these 4 who now accuse him?
-# sent_id = 6258
+# text = Bill Mitchell McConnell dumped $30 million in AL trying to beat Moore and never found one of these 4 who now accuse him?
+# sent_id = 6075
 1	Bill	Bill	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
-2	Mitchell	Mitchell	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=13
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=14|end_char=15|SpaceAfter=No
-4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=15|end_char=19|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=19|end_char=20
-6	McConnell	McConnell	PROPN	NNP	Number=Sing	5	_	_	start_char=21|end_char=30
-7	dumped	dump	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=31|end_char=37
-8	$	$	SYM	$	_	7	_	_	start_char=38|end_char=39|SpaceAfter=No
-9	30	30	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=39|end_char=41
-10	million	million	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=42|end_char=49
-11	in	in	ADP	IN	_	10	_	_	start_char=50|end_char=52
-12	AL	AL	PROPN	NNP	Number=Sing	11	_	_	start_char=53|end_char=55
-13	trying	try	VERB	VBG	VerbForm=Ger	12	_	_	start_char=56|end_char=62
-14	to	to	PART	TO	_	13	_	_	start_char=63|end_char=65
-15	beat	beat	VERB	VB	VerbForm=Inf	14	_	_	start_char=66|end_char=70
-16	Moore	Moore	PROPN	NNP	Number=Sing	15	_	_	start_char=71|end_char=76
-17	and	and	CCONJ	CC	_	16	_	_	start_char=77|end_char=80
-18	never	never	ADV	RB	_	17	_	_	start_char=81|end_char=86
-19	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	_	_	start_char=87|end_char=92
-20	one	one	NUM	CD	NumForm=Word|NumType=Card	19	_	_	start_char=93|end_char=96
-21	of	of	ADP	IN	_	20	_	_	start_char=97|end_char=99
-22	these	this	DET	DT	Number=Plur|PronType=Dem	21	_	_	start_char=100|end_char=105
-23	4	4	NUM	CD	NumForm=Digit|NumType=Card	22	_	_	start_char=106|end_char=107
-24	who	who	PRON	WP	PronType=Rel	23	_	_	start_char=108|end_char=111
-25	now	now	ADV	RB	_	24	_	_	start_char=112|end_char=115
-26	accuse	accuse	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	start_char=116|end_char=122
-27	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	26	_	_	start_char=123|end_char=126|SpaceAfter=No
-28	?	?	PUNCT	.	_	27	_	_	start_char=126|end_char=127
+2	Mitchell	Mitchell	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=13|SpacesAfter=\s\s
+3	McConnell	McConnell	PROPN	NNP	Number=Sing	2	_	_	start_char=15|end_char=24
+4	dumped	dump	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=25|end_char=31
+5	$	$	SYM	$	_	4	_	_	start_char=32|end_char=33|SpaceAfter=No
+6	30	30	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=33|end_char=35
+7	million	million	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=36|end_char=43
+8	in	in	ADP	IN	_	7	_	_	start_char=44|end_char=46
+9	AL	AL	PROPN	NNP	Number=Sing	8	_	_	start_char=47|end_char=49
+10	trying	try	VERB	VBG	VerbForm=Ger	9	_	_	start_char=50|end_char=56
+11	to	to	PART	TO	_	10	_	_	start_char=57|end_char=59
+12	beat	beat	VERB	VB	VerbForm=Inf	11	_	_	start_char=60|end_char=64
+13	Moore	Moore	PROPN	NNP	Number=Sing	12	_	_	start_char=65|end_char=70
+14	and	and	CCONJ	CC	_	13	_	_	start_char=71|end_char=74
+15	never	never	ADV	RB	_	14	_	_	start_char=75|end_char=80
+16	found	find	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=81|end_char=86
+17	one	one	NUM	CD	NumForm=Word|NumType=Card	16	_	_	start_char=87|end_char=90
+18	of	of	ADP	IN	_	17	_	_	start_char=91|end_char=93
+19	these	this	DET	DT	Number=Plur|PronType=Dem	18	_	_	start_char=94|end_char=99
+20	4	4	NUM	CD	NumForm=Digit|NumType=Card	19	_	_	start_char=100|end_char=101
+21	who	who	PRON	WP	PronType=Rel	20	_	_	start_char=102|end_char=105
+22	now	now	ADV	RB	_	21	_	_	start_char=106|end_char=109
+23	accuse	accuse	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=110|end_char=116
+24	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=117|end_char=120|SpaceAfter=No
+25	?	?	PUNCT	.	_	24	_	_	start_char=120|end_char=121
 
 # text = Um, yeah right.
-# sent_id = 6259
-1	Um	um	INTJ	UH	_	0	_	_	start_char=128|end_char=130|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=130|end_char=131
-3	yeah	yeah	INTJ	UH	_	2	_	_	start_char=132|end_char=136
-4	right	right	INTJ	UH	_	3	_	_	start_char=137|end_char=142|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=142|end_char=143
+# sent_id = 6076
+1	Um	um	INTJ	UH	_	0	_	_	start_char=122|end_char=124|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=124|end_char=125
+3	yeah	yeah	INTJ	UH	_	2	_	_	start_char=126|end_char=130
+4	right	right	INTJ	UH	_	3	_	_	start_char=131|end_char=136|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=136|end_char=137
 
 # text = Trying to distract from mess they are making with the tax bill???
-# sent_id = 6260
-1	Trying	try	VERB	VBG	VerbForm=Ger	0	_	_	start_char=144|end_char=150
-2	to	to	PART	TO	_	1	_	_	start_char=151|end_char=153
-3	distract	distract	VERB	VB	VerbForm=Inf	2	_	_	start_char=154|end_char=162
-4	from	from	ADP	IN	_	3	_	_	start_char=163|end_char=167
-5	mess	mess	NOUN	NN	Number=Sing	4	_	_	start_char=168|end_char=172
-6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=173|end_char=177
-7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=178|end_char=181
-8	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=182|end_char=188
-9	with	with	ADP	IN	_	8	_	_	start_char=189|end_char=193
-10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=194|end_char=197
-11	tax	tax	NOUN	NN	Number=Sing	10	_	_	start_char=198|end_char=201
-12	bill	bill	NOUN	NN	Number=Sing	11	_	_	start_char=202|end_char=206|SpaceAfter=No
-13	???	???	PUNCT	.	_	12	_	_	start_char=206|end_char=209|SpaceAfter=No
+# sent_id = 6077
+1	Trying	try	VERB	VBG	VerbForm=Ger	0	_	_	start_char=138|end_char=144
+2	to	to	PART	TO	_	1	_	_	start_char=145|end_char=147
+3	distract	distract	VERB	VB	VerbForm=Inf	2	_	_	start_char=148|end_char=156
+4	from	from	ADP	IN	_	3	_	_	start_char=157|end_char=161
+5	mess	mess	NOUN	NN	Number=Sing	4	_	_	start_char=162|end_char=166
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=167|end_char=171
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=172|end_char=175
+8	making	make	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=176|end_char=182
+9	with	with	ADP	IN	_	8	_	_	start_char=183|end_char=187
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=188|end_char=191
+11	tax	tax	NOUN	NN	Number=Sing	10	_	_	start_char=192|end_char=195
+12	bill	bill	NOUN	NN	Number=Sing	11	_	_	start_char=196|end_char=200|SpaceAfter=No
+13	???	???	PUNCT	.	_	12	_	_	start_char=200|end_char=203|SpaceAfter=No
 

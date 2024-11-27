@@ -1,5 +1,5 @@
 # text = This video of a lovely Mestizo woman will turn you into a Hispanic-loving egalitarian!
-# sent_id = 13951
+# sent_id = 13504
 1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
 2	video	video	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=10
 3	of	of	ADP	IN	_	2	_	_	start_char=11|end_char=13
@@ -18,18 +18,15 @@
 16	egalitarian	egalitarian	NOUN	NN	Number=Sing	15	_	_	start_char=74|end_char=85|SpaceAfter=No
 17	!	!	PUNCT	.	_	16	_	_	start_char=85|end_char=86
 
-# text = Feast your awesome male gaze UPON TRUE BEAUTY: [URL]
-# sent_id = 13952
-1	Feast	feast	VERB	VB	VerbForm=Inf	0	_	_	start_char=87|end_char=92
+# text = Feast your awesome male gaze UPON TRUE BEAUTY:
+# sent_id = 13505
+1	Feast	feast	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=87|end_char=92
 2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=93|end_char=97
 3	awesome	awesome	ADJ	JJ	Degree=Pos	2	_	_	start_char=98|end_char=105
-4	male	male	ADJ	JJ	Degree=Pos	3	_	_	start_char=106|end_char=110
+4	male	male	NOUN	NN	Number=Sing	3	_	_	start_char=106|end_char=110
 5	gaze	gaze	NOUN	NN	Number=Sing	4	_	_	start_char=111|end_char=115
 6	UPON	upon	ADP	IN	_	5	_	_	start_char=116|end_char=120
 7	TRUE	true	ADJ	JJ	Degree=Pos	6	_	_	start_char=121|end_char=125
 8	BEAUTY	beauty	NOUN	NN	Number=Sing	7	_	_	start_char=126|end_char=132|SpaceAfter=No
 9	:	:	PUNCT	:	_	8	_	_	start_char=132|end_char=133
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=134|end_char=135|SpaceAfter=No
-11	URL	URL	PROPN	NNP	Number=Sing	10	_	_	start_char=135|end_char=138|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=138|end_char=139|SpaceAfter=No
 

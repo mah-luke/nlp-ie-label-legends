@@ -1,45 +1,39 @@
-# text = [USER]
-# sent_id = 80387
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = We will make her life and her supporter's lives a living hell...
-# sent_id = 80388
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=9
-2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=10|end_char=14
-3	make	make	VERB	VB	VerbForm=Inf	2	_	_	start_char=15|end_char=19
-4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=20|end_char=23
-5	life	life	NOUN	NN	Number=Sing	4	_	_	start_char=24|end_char=28
-6	and	and	CCONJ	CC	_	5	_	_	start_char=29|end_char=32
-7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=33|end_char=36
-8-9	supporter's	_	_	_	_	_	_	_	start_char=37|end_char=48
-8	supporter	supporter	NOUN	NN	Number=Sing	7	_	_	start_char=37|end_char=46
-9	's	's	PART	POS	_	8	_	_	start_char=46|end_char=48
-10	lives	life	NOUN	NNS	Number=Plur	9	_	_	start_char=49|end_char=54
-11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=55|end_char=56
-12	living	living	NOUN	NN	Number=Sing	11	_	_	start_char=57|end_char=63
-13	hell	hell	NOUN	NN	Number=Sing	12	_	_	start_char=64|end_char=68|SpaceAfter=No
-14	...	...	PUNCT	.	_	13	_	_	start_char=68|end_char=71
+# sent_id = 77784
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	make	make	VERB	VB	VerbForm=Inf	2	_	_	start_char=9|end_char=13
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=14|end_char=17
+5	life	life	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=22
+6	and	and	CCONJ	CC	_	5	_	_	start_char=23|end_char=26
+7	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=27|end_char=30
+8-9	supporter's	_	_	_	_	_	_	_	start_char=31|end_char=42
+8	supporter	supporter	NOUN	NN	Number=Sing	7	_	_	start_char=31|end_char=40
+9	's	's	PART	POS	_	8	_	_	start_char=40|end_char=42
+10	lives	life	NOUN	NNS	Number=Plur	9	_	_	start_char=43|end_char=48
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=49|end_char=50
+12	living	living	NOUN	NN	Number=Sing	11	_	_	start_char=51|end_char=57
+13	hell	hell	NOUN	NN	Number=Sing	12	_	_	start_char=58|end_char=62|SpaceAfter=No
+14	...	...	PUNCT	.	_	13	_	_	start_char=62|end_char=65
 
 # text = Aww, who am I kidding?
-# sent_id = 80389
-1	Aww	aww	INTJ	UH	_	0	_	_	start_char=72|end_char=75|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=75|end_char=76
-3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=77|end_char=80
-4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=81|end_char=83
-5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=84|end_char=85
-6	kidding	kid	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=86|end_char=93|SpaceAfter=No
-7	?	?	PUNCT	.	_	6	_	_	start_char=93|end_char=94
+# sent_id = 77785
+1	Aww	aww	INTJ	UH	_	0	_	_	start_char=66|end_char=69|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=69|end_char=70
+3	who	who	PRON	WP	PronType=Rel	2	_	_	start_char=71|end_char=74
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=75|end_char=77
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=78|end_char=79
+6	kidding	kid	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=80|end_char=87|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=87|end_char=88
 
 # text = We'll do it either way.
-# sent_id = 80390
-1-2	We'll	_	_	_	_	_	_	_	start_char=95|end_char=100
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=95|end_char=97
-2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=97|end_char=100
-3	do	do	VERB	VB	VerbForm=Inf	2	_	_	start_char=101|end_char=103
-4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=104|end_char=106
-5	either	either	DET	DT	_	4	_	_	start_char=107|end_char=113
-6	way	way	NOUN	NN	Number=Sing	5	_	_	start_char=114|end_char=117|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=117|end_char=118|SpaceAfter=No
+# sent_id = 77786
+1-2	We'll	_	_	_	_	_	_	_	start_char=89|end_char=94
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=89|end_char=91
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=91|end_char=94
+3	do	do	VERB	VB	VerbForm=Inf	2	_	_	start_char=95|end_char=97
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=98|end_char=100
+5	either	either	DET	DT	_	4	_	_	start_char=101|end_char=107
+6	way	way	NOUN	NN	Number=Sing	5	_	_	start_char=108|end_char=111|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=111|end_char=112|SpaceAfter=No
 

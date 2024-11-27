@@ -1,5 +1,5 @@
 # text = 2 Bangladeshis spike a drink force a woman to drink it then rape her.
-# sent_id = 94778
+# sent_id = 91668
 1	2	2	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=1
 2	Bangladeshis	Bangladeshi	PROPN	NNPS	Number=Plur	1	_	_	start_char=2|end_char=14
 3	spike	spike	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=15|end_char=20
@@ -17,12 +17,12 @@
 15	.	.	PUNCT	.	_	14	_	_	start_char=68|end_char=69
 
 # text = Jailed.
-# sent_id = 94779
+# sent_id = 91669
 1	Jailed	jail	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=70|end_char=76|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	_	_	start_char=76|end_char=77
 
 # text = This was 20 minutes walk from my home.
-# sent_id = 94780
+# sent_id = 91670
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=78|end_char=82
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=83|end_char=86
 3	20	20	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=87|end_char=89
@@ -32,10 +32,4 @@
 7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=108|end_char=110
 8	home	home	NOUN	NN	Number=Sing	7	_	_	start_char=111|end_char=115|SpaceAfter=No
 9	.	.	PUNCT	.	_	8	_	_	start_char=115|end_char=116
-
-# text = [URL]
-# sent_id = 94781
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=117|end_char=118|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=118|end_char=121|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=121|end_char=122|SpaceAfter=No
 

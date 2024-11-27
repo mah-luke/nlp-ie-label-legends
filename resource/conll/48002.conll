@@ -1,5 +1,5 @@
-# text = When has it ever become legal to shoot someone because they’re stealing your car?' [URL] #2a #2ndAmendment #CCW #ArmedDefense #SelfDefense
-# sent_id = 102626
+# text = When has it ever become legal to shoot someone because they’re stealing your car?'
+# sent_id = 99271
 1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=4
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=8
 3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=11
@@ -17,18 +17,18 @@
 14	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	13	_	_	start_char=72|end_char=76
 15	car	car	NOUN	NN	Number=Sing	14	_	_	start_char=77|end_char=80|SpaceAfter=No
 16	?	?	PUNCT	.	_	15	_	_	start_char=80|end_char=81|SpaceAfter=No
-17	'	'	PUNCT	''	_	16	_	_	start_char=81|end_char=82
-18	[	[	PUNCT	-LRB-	_	17	_	_	start_char=83|end_char=84|SpaceAfter=No
-19	URL	URL	PROPN	NNP	Number=Sing	18	_	_	start_char=84|end_char=87|SpaceAfter=No
-20	]	]	PUNCT	-RRB-	_	19	_	_	start_char=87|end_char=88
-21	#	#	SYM	NN	Number=Sing	20	_	_	start_char=89|end_char=90|SpaceAfter=No
-22	2a	2a	NUM	CD	NumForm=Digit|NumType=Card	21	_	_	start_char=90|end_char=92
-23	#	#	SYM	NN	Number=Sing	22	_	_	start_char=93|end_char=94|SpaceAfter=No
-24	2ndAmendment	2ndamendment	NOUN	NN	Number=Sing	23	_	_	start_char=94|end_char=106
-25	#	#	SYM	NN	Number=Sing	24	_	_	start_char=107|end_char=108|SpaceAfter=No
-26	CCW	CCW	NOUN	NN	Number=Sing	25	_	_	start_char=108|end_char=111
-27	#	#	SYM	NN	Number=Sing	26	_	_	start_char=112|end_char=113|SpaceAfter=No
-28	ArmedDefense	armeddefense	NOUN	NN	Number=Sing	27	_	_	start_char=113|end_char=125
-29	#	#	SYM	NN	Number=Sing	28	_	_	start_char=126|end_char=127|SpaceAfter=No
-30	SelfDefense	selfdefense	NOUN	NN	Number=Sing	29	_	_	start_char=127|end_char=138|SpaceAfter=No
+17	'	'	PUNCT	''	_	16	_	_	start_char=81|end_char=82|SpacesAfter=\s\s
+
+# text = #2a #2ndAmendment #CCW #ArmedDefense #SelfDefense
+# sent_id = 99272
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=84|end_char=85|SpaceAfter=No
+2	2a	2a	X	GW	_	1	_	_	start_char=85|end_char=87
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=88|end_char=89|SpaceAfter=No
+4	2ndAmendment	2ndamendment	X	GW	_	3	_	_	start_char=89|end_char=101
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=102|end_char=103|SpaceAfter=No
+6	CCW	CCW	NOUN	GW	Number=Sing	5	_	_	start_char=103|end_char=106
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=107|end_char=108|SpaceAfter=No
+8	ArmedDefense	armeddefense	X	GW	_	7	_	_	start_char=108|end_char=120
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=121|end_char=122|SpaceAfter=No
+10	SelfDefense	selfdefense	NOUN	NN	Number=Sing	9	_	_	start_char=122|end_char=133|SpaceAfter=No
 

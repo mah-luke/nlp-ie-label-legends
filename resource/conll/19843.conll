@@ -1,5 +1,5 @@
 # text = I suspect an ugly woman is the prosecuter.
-# sent_id = 42610
+# sent_id = 41181
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
 2	suspect	suspect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=9
 3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=10|end_char=12
@@ -11,7 +11,7 @@
 9	.	.	PUNCT	.	_	8	_	_	start_char=41|end_char=42
 
 # text = Ugly parent turned her in.
-# sent_id = 42611
+# sent_id = 41182
 1	Ugly	Ugly	ADJ	JJ	Degree=Pos	0	_	_	start_char=43|end_char=47
 2	parent	parent	NOUN	NN	Number=Sing	1	_	_	start_char=48|end_char=54
 3	turned	turn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=55|end_char=61
@@ -20,7 +20,7 @@
 6	.	.	PUNCT	.	_	5	_	_	start_char=68|end_char=69
 
 # text = Ugly women are criminalizing being hot.
-# sent_id = 42612
+# sent_id = 41183
 1	Ugly	Ugly	ADJ	JJ	Degree=Pos	0	_	_	start_char=70|end_char=74
 2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=75|end_char=80
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=81|end_char=84
@@ -28,10 +28,4 @@
 5	being	be	AUX	VBG	VerbForm=Ger	4	_	_	start_char=99|end_char=104
 6	hot	hot	ADJ	JJ	Degree=Pos	5	_	_	start_char=105|end_char=108|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	_	_	start_char=108|end_char=109
-
-# text = [URL]
-# sent_id = 42613
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=110|end_char=111|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=111|end_char=114|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=114|end_char=115|SpaceAfter=No
 

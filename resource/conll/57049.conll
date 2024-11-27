@@ -1,34 +1,31 @@
-# text = [USER] 🙏 Thoughts and prayers always.
-# sent_id = 121920
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	🙏	🙏	PUNCT	:	_	3	_	_	start_char=7|end_char=8
-5	Thoughts	thought	NOUN	NNS	Number=Plur	4	_	_	start_char=9|end_char=17
-6	and	and	CCONJ	CC	_	5	_	_	start_char=18|end_char=21
-7	prayers	prayer	NOUN	NNS	Number=Plur	6	_	_	start_char=22|end_char=29
-8	always	always	ADV	RB	_	7	_	_	start_char=30|end_char=36|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=36|end_char=37
+# text = 🙏 Thoughts and prayers always.
+# sent_id = 117996
+1	🙏	🙏	PUNCT	``	_	0	_	_	start_char=1|end_char=2|SpacesBefore=\s
+2	Thoughts	thought	NOUN	NNS	Number=Plur	1	_	_	start_char=3|end_char=11
+3	and	and	CCONJ	CC	_	2	_	_	start_char=12|end_char=15
+4	prayers	prayer	NOUN	NNS	Number=Plur	3	_	_	start_char=16|end_char=23
+5	always	always	ADV	RB	_	4	_	_	start_char=24|end_char=30|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=30|end_char=31
 
 # text = #GabFam is here for you!
-# sent_id = 121921
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=38|end_char=39|SpaceAfter=No
-2	GabFam	gabfam	NOUN	NN	Number=Sing	1	_	_	start_char=39|end_char=45
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=46|end_char=48
-4	here	here	ADV	RB	PronType=Dem	3	_	_	start_char=49|end_char=53
-5	for	for	ADP	IN	_	4	_	_	start_char=54|end_char=57
-6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=58|end_char=61|SpaceAfter=No
-7	!	!	PUNCT	.	_	6	_	_	start_char=61|end_char=62
+# sent_id = 117997
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=32|end_char=33|SpaceAfter=No
+2	GabFam	gabfam	NOUN	NN	Number=Sing	1	_	_	start_char=33|end_char=39
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=40|end_char=42
+4	here	here	ADV	RB	PronType=Dem	3	_	_	start_char=43|end_char=47
+5	for	for	ADP	IN	_	4	_	_	start_char=48|end_char=51
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=52|end_char=55|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=55|end_char=56
 
 # text = I hope she kicks cancer's ass.
-# sent_id = 121922
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=63|end_char=64
-2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=65|end_char=69
-3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=70|end_char=73
-4	kicks	kick	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=74|end_char=79
-5-6	cancer's	_	_	_	_	_	_	_	start_char=80|end_char=88
-5	cancer	cancer	NOUN	NN	Number=Sing	4	_	_	start_char=80|end_char=86
-6	's	's	PART	POS	_	5	_	_	start_char=86|end_char=88
-7	ass	ass	NOUN	NN	Number=Sing	6	_	_	start_char=89|end_char=92|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=92|end_char=93|SpaceAfter=No
+# sent_id = 117998
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=57|end_char=58
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=59|end_char=63
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=64|end_char=67
+4	kicks	kick	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=68|end_char=73
+5-6	cancer's	_	_	_	_	_	_	_	start_char=74|end_char=82
+5	cancer	cancer	NOUN	NN	Number=Sing	4	_	_	start_char=74|end_char=80
+6	's	's	PART	POS	_	5	_	_	start_char=80|end_char=82
+7	ass	ass	NOUN	NN	Number=Sing	6	_	_	start_char=83|end_char=86|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=86|end_char=87|SpaceAfter=No
 

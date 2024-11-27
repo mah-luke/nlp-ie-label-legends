@@ -1,5 +1,5 @@
 # text = Some "wanna-be", but is actually a "never-was" ?
-# sent_id = 93918
+# sent_id = 90849
 1	Some	some	DET	DT	_	0	_	_	start_char=0|end_char=4
 2	"	"	PUNCT	``	_	1	_	_	start_char=5|end_char=6|SpaceAfter=No
 3	wanna	wanna	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=11|SpaceAfter=No
@@ -18,24 +18,21 @@
 16	"	"	PUNCT	''	_	15	_	_	start_char=45|end_char=46
 17	?	?	PUNCT	.	_	16	_	_	start_char=47|end_char=48
 
-# text = I actually [USER] it's a Goat F*cker that thinks they are intelligent, Steve
-# sent_id = 93919
+# text = I actually it's a Goat F*cker that thinks they are intelligent, Steve
+# sent_id = 90850
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=49|end_char=50
-2	actually	actually	ADV	RB	_	1	_	_	start_char=51|end_char=59
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=60|end_char=61|SpaceAfter=No
-4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=61|end_char=65|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=65|end_char=66
-6-7	it's	_	_	_	_	_	_	_	start_char=67|end_char=71
-6	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=67|end_char=69
-7	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=69|end_char=71
-8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=72|end_char=73
-9	Goat	Goat	PROPN	NNP	Number=Sing	8	_	_	start_char=74|end_char=78
-10	F*cker	F*cker	PROPN	NNP	Number=Sing	9	_	_	start_char=79|end_char=85
-11	that	that	PRON	WDT	PronType=Rel	10	_	_	start_char=86|end_char=90
-12	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=91|end_char=97
-13	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	12	_	_	start_char=98|end_char=102
-14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=103|end_char=106
-15	intelligent	intelligent	ADJ	JJ	Degree=Pos	14	_	_	start_char=107|end_char=118|SpaceAfter=No
-16	,	,	PUNCT	,	_	15	_	_	start_char=118|end_char=119
-17	Steve	Steve	PROPN	NNP	Number=Sing	16	_	_	start_char=120|end_char=125|SpaceAfter=No
+2	actually	actually	ADV	RB	_	1	_	_	start_char=51|end_char=59|SpacesAfter=\s\s
+3-4	it's	_	_	_	_	_	_	_	start_char=61|end_char=65
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=61|end_char=63
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=63|end_char=65
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=66|end_char=67
+6	Goat	Goat	PROPN	NNP	Number=Sing	5	_	_	start_char=68|end_char=72
+7	F*cker	F*cker	PROPN	NNP	Number=Sing	6	_	_	start_char=73|end_char=79
+8	that	that	PRON	WDT	PronType=Rel	7	_	_	start_char=80|end_char=84
+9	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=85|end_char=91
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=92|end_char=96
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=97|end_char=100
+12	intelligent	intelligent	ADJ	JJ	Degree=Pos	11	_	_	start_char=101|end_char=112|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=112|end_char=113
+14	Steve	Steve	PROPN	NNP	Number=Sing	13	_	_	start_char=114|end_char=119|SpaceAfter=No
 

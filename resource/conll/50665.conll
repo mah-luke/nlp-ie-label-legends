@@ -1,13 +1,13 @@
 # text = first Illegals, NOW..........
-# sent_id = 108299
+# sent_id = 104753
 1	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	0	_	_	start_char=0|end_char=5
 2	Illegals	illegal	NOUN	NNS	Number=Plur	1	_	_	start_char=6|end_char=14|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	_	_	start_char=14|end_char=15
 4	NOW	now	ADV	RB	_	3	_	_	start_char=16|end_char=19|SpaceAfter=No
 5	..........	..........	PUNCT	.	_	4	_	_	start_char=19|end_char=29
 
-# text = Nancy Pelosi says politicians could learn from drag queens, Trump 'lip syncs' his policies [URL] via [USER]
-# sent_id = 108300
+# text = Nancy Pelosi says politicians could learn from drag queens, Trump 'lip syncs' his policies via
+# sent_id = 104754
 1	Nancy	Nancy	PROPN	NNP	Number=Sing	0	_	_	start_char=30|end_char=35
 2	Pelosi	Pelosi	PROPN	NNP	Number=Sing	1	_	_	start_char=36|end_char=42
 3	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=43|end_char=47
@@ -24,12 +24,6 @@
 14	syncs	sync	NOUN	NNS	Number=Plur	13	_	_	start_char=101|end_char=106|SpaceAfter=No
 15	'	'	PUNCT	''	_	14	_	_	start_char=106|end_char=107
 16	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=108|end_char=111
-17	policies	policy	NOUN	NNS	Number=Plur	16	_	_	start_char=112|end_char=120
-18	[	[	PUNCT	-LRB-	_	17	_	_	start_char=121|end_char=122|SpaceAfter=No
-19	URL	URL	PROPN	NNP	Number=Sing	18	_	_	start_char=122|end_char=125|SpaceAfter=No
-20	]	]	PUNCT	-RRB-	_	19	_	_	start_char=125|end_char=126
-21	via	via	ADP	IN	_	20	_	_	start_char=127|end_char=130
-22	[	[	PUNCT	-LRB-	_	21	_	_	start_char=131|end_char=132|SpaceAfter=No
-23	USER	user	NOUN	NN	Number=Sing	22	_	_	start_char=132|end_char=136|SpaceAfter=No
-24	]	]	PUNCT	-RRB-	_	23	_	_	start_char=136|end_char=137|SpaceAfter=No
+17	policies	policy	NOUN	NNS	Number=Plur	16	_	_	start_char=112|end_char=120|SpacesAfter=\s\s
+18	via	via	ADP	IN	_	17	_	_	start_char=122|end_char=125
 

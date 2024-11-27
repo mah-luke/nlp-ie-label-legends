@@ -1,23 +1,17 @@
-# text = I wonder if [USER] has told [USER] that he's voting for her yet.
-# sent_id = 2606
+# text = I wonder if has told that he's voting for her yet.
+# sent_id = 2540
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
 2	wonder	wonder	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=8
-3	if	if	SCONJ	IN	_	2	_	_	start_char=9|end_char=11
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=12|end_char=13|SpaceAfter=No
-5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=17|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=17|end_char=18
-7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=19|end_char=22
-8	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=23|end_char=27
-9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=28|end_char=29|SpaceAfter=No
-10	USER	user	NOUN	NN	Number=Sing	9	_	_	start_char=29|end_char=33|SpaceAfter=No
-11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=33|end_char=34
-12	that	that	SCONJ	IN	_	11	_	_	start_char=35|end_char=39
-13-14	he's	_	_	_	_	_	_	_	start_char=40|end_char=44
-13	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=40|end_char=42
-14	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=42|end_char=44
-15	voting	voting	VERB	VBG	Tense=Pres|VerbForm=Part	14	_	_	start_char=45|end_char=51
-16	for	for	ADP	IN	_	15	_	_	start_char=52|end_char=55
-17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=56|end_char=59
-18	yet	yet	ADV	RB	_	17	_	_	start_char=60|end_char=63|SpaceAfter=No
-19	.	.	PUNCT	.	_	18	_	_	start_char=63|end_char=64|SpaceAfter=No
+3	if	if	SCONJ	IN	_	2	_	_	start_char=9|end_char=11|SpacesAfter=\s\s
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=16
+5	told	tell	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=17|end_char=21|SpacesAfter=\s\s
+6	that	that	SCONJ	IN	_	5	_	_	start_char=23|end_char=27
+7-8	he's	_	_	_	_	_	_	_	start_char=28|end_char=32
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=28|end_char=30
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=30|end_char=32
+9	voting	voting	VERB	VBG	Tense=Pres|VerbForm=Part	8	_	_	start_char=33|end_char=39
+10	for	for	ADP	IN	_	9	_	_	start_char=40|end_char=43
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=44|end_char=47
+12	yet	yet	ADV	RB	_	11	_	_	start_char=48|end_char=51|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=51|end_char=52|SpaceAfter=No
 

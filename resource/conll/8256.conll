@@ -1,5 +1,5 @@
 # text = What the fuck are you gonna do about that?
-# sent_id = 17301
+# sent_id = 16752
 1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=0|end_char=4
 2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=5|end_char=8
 3	fuck	fuck	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=13
@@ -11,99 +11,90 @@
 8	do	do	VERB	VB	VerbForm=Inf	7	_	_	start_char=28|end_char=30
 9	about	about	ADP	IN	_	8	_	_	start_char=31|end_char=36
 10	that	that	PRON	DT	Number=Sing|PronType=Dem	9	_	_	start_char=37|end_char=41|SpaceAfter=No
-11	?	?	PUNCT	.	_	10	_	_	start_char=41|end_char=42
+11	?	?	PUNCT	.	_	10	_	_	start_char=41|end_char=42|SpacesAfter=\s\s
 
-# text = [USER] Caruso and family and her few friends Burn my toast?
-# sent_id = 17302
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=43|end_char=44|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=44|end_char=48|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=48|end_char=49
-4	Caruso	Caruso	PROPN	NNP	Number=Sing	3	_	_	start_char=50|end_char=56
-5	and	and	CCONJ	CC	_	4	_	_	start_char=57|end_char=60
-6	family	family	NOUN	NN	Number=Sing	5	_	_	start_char=61|end_char=67
-7	and	and	CCONJ	CC	_	6	_	_	start_char=68|end_char=71
-8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=72|end_char=75
-9	few	few	ADJ	JJ	Degree=Pos	8	_	_	start_char=76|end_char=79
-10	friends	friend	NOUN	NNS	Number=Plur	9	_	_	start_char=80|end_char=87
-11	Burn	burn	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=88|end_char=92
-12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	_	_	start_char=93|end_char=95
-13	toast	toast	NOUN	NN	Number=Sing	12	_	_	start_char=96|end_char=101|SpaceAfter=No
-14	?	?	PUNCT	.	_	13	_	_	start_char=101|end_char=102
+# text = Caruso and family and her few friends Burn my toast?
+# sent_id = 16753
+1	Caruso	Caruso	PROPN	NNP	Number=Sing	0	_	_	start_char=44|end_char=50
+2	and	and	CCONJ	CC	_	1	_	_	start_char=51|end_char=54
+3	family	family	NOUN	NN	Number=Sing	2	_	_	start_char=55|end_char=61
+4	and	and	CCONJ	CC	_	3	_	_	start_char=62|end_char=65
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=66|end_char=69
+6	few	few	ADJ	JJ	Degree=Pos	5	_	_	start_char=70|end_char=73
+7	friends	friend	NOUN	NNS	Number=Plur	6	_	_	start_char=74|end_char=81
+8	Burn	burn	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=82|end_char=86
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=87|end_char=89
+10	toast	toast	NOUN	NN	Number=Sing	9	_	_	start_char=90|end_char=95|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=95|end_char=96
 
 # text = (popular tweet) HA!
-# sent_id = 17303
-1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=103|end_char=104|SpaceAfter=No
-2	popular	popular	ADJ	JJ	Degree=Pos	1	_	_	start_char=104|end_char=111
-3	tweet	tweet	NOUN	NN	Number=Sing	2	_	_	start_char=112|end_char=117|SpaceAfter=No
-4	)	)	PUNCT	-RRB-	_	3	_	_	start_char=117|end_char=118
-5	HA	ha	INTJ	UH	_	4	_	_	start_char=119|end_char=121|SpaceAfter=No
-6	!	!	PUNCT	.	_	5	_	_	start_char=121|end_char=122
+# sent_id = 16754
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=97|end_char=98|SpaceAfter=No
+2	popular	popular	ADJ	JJ	Degree=Pos	1	_	_	start_char=98|end_char=105
+3	tweet	tweet	NOUN	NN	Number=Sing	2	_	_	start_char=106|end_char=111|SpaceAfter=No
+4	)	)	PUNCT	-RRB-	_	3	_	_	start_char=111|end_char=112
+5	HA	ha	INTJ	UH	_	4	_	_	start_char=113|end_char=115|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=115|end_char=116
 
 # text = HA!
-# sent_id = 17304
-1	HA	ha	INTJ	UH	_	0	_	_	start_char=123|end_char=125|SpaceAfter=No
-2	!	!	PUNCT	.	_	1	_	_	start_char=125|end_char=126
+# sent_id = 16755
+1	HA	ha	INTJ	UH	_	0	_	_	start_char=117|end_char=119|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=119|end_char=120
 
 # text = HA!
-# sent_id = 17305
-1	HA	ha	INTJ	UH	_	0	_	_	start_char=127|end_char=129|SpaceAfter=No
-2	!	!	PUNCT	.	_	1	_	_	start_char=129|end_char=130
+# sent_id = 16756
+1	HA	ha	INTJ	UH	_	0	_	_	start_char=121|end_char=123|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=123|end_char=124
 
 # text = HA!
-# sent_id = 17306
-1	HA	ha	INTJ	UH	_	0	_	_	start_char=131|end_char=133|SpaceAfter=No
-2	!	!	PUNCT	.	_	1	_	_	start_char=133|end_char=134
+# sent_id = 16757
+1	HA	ha	INTJ	UH	_	0	_	_	start_char=125|end_char=127|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=127|end_char=128
 
 # text = HA!
-# sent_id = 17307
-1	HA	ha	INTJ	UH	_	0	_	_	start_char=135|end_char=137|SpaceAfter=No
-2	!	!	PUNCT	.	_	1	_	_	start_char=137|end_char=138
+# sent_id = 16758
+1	HA	ha	INTJ	UH	_	0	_	_	start_char=129|end_char=131|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=131|end_char=132
 
 # text = HA!
-# sent_id = 17308
-1	HA	ha	INTJ	UH	_	0	_	_	start_char=139|end_char=141|SpaceAfter=No
-2	!	!	PUNCT	.	_	1	_	_	start_char=141|end_char=142
+# sent_id = 16759
+1	HA	ha	INTJ	UH	_	0	_	_	start_char=133|end_char=135|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=135|end_char=136
 
 # text = HA!
-# sent_id = 17309
-1	HA	ha	INTJ	UH	_	0	_	_	start_char=143|end_char=145|SpaceAfter=No
-2	!	!	PUNCT	.	_	1	_	_	start_char=145|end_char=146
+# sent_id = 16760
+1	HA	ha	INTJ	UH	_	0	_	_	start_char=137|end_char=139|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=139|end_char=140
 
 # text = HA!
-# sent_id = 17310
-1	HA	ha	INTJ	UH	_	0	_	_	start_char=147|end_char=149|SpaceAfter=No
-2	!	!	PUNCT	.	_	1	_	_	start_char=149|end_char=150
+# sent_id = 16761
+1	HA	ha	INTJ	UH	_	0	_	_	start_char=141|end_char=143|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=143|end_char=144
 
 # text = HA!
-# sent_id = 17311
-1	HA	ha	INTJ	UH	_	0	_	_	start_char=151|end_char=153|SpaceAfter=No
-2	!	!	PUNCT	.	_	1	_	_	start_char=153|end_char=154
+# sent_id = 16762
+1	HA	ha	INTJ	UH	_	0	_	_	start_char=145|end_char=147|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=147|end_char=148
 
 # text = Fuck all of you motherfuckers!
-# sent_id = 17312
-1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=155|end_char=159
-2	all	all	DET	DT	_	1	_	_	start_char=160|end_char=163
-3	of	of	ADP	IN	_	2	_	_	start_char=164|end_char=166
-4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=167|end_char=170
-5	motherfuckers	motherfucker	NOUN	NNS	Number=Plur	4	_	_	start_char=171|end_char=184|SpaceAfter=No
-6	!	!	PUNCT	.	_	5	_	_	start_char=184|end_char=185
+# sent_id = 16763
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=149|end_char=153
+2	all	all	DET	DT	_	1	_	_	start_char=154|end_char=157
+3	of	of	ADP	IN	_	2	_	_	start_char=158|end_char=160
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=161|end_char=164
+5	motherfuckers	motherfucker	NOUN	NNS	Number=Plur	4	_	_	start_char=165|end_char=178|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=178|end_char=179
 
 # text = FUCKING DIE EACH AND EVERY SINGLE ONE OF YOU!
-# sent_id = 17313
-1	FUCKING	fucking	ADV	RB	_	0	_	_	start_char=186|end_char=193
-2	DIE	die	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=194|end_char=197
-3	EACH	each	DET	DT	_	2	_	_	start_char=198|end_char=202
-4	AND	and	CCONJ	CC	_	3	_	_	start_char=203|end_char=206
-5	EVERY	every	DET	DT	_	4	_	_	start_char=207|end_char=212
-6	SINGLE	single	ADJ	JJ	Degree=Pos	5	_	_	start_char=213|end_char=219
-7	ONE	one	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=220|end_char=223
-8	OF	of	ADP	IN	_	7	_	_	start_char=224|end_char=226
-9	YOU	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=227|end_char=230|SpaceAfter=No
-10	!	!	PUNCT	.	_	9	_	_	start_char=230|end_char=231
-
-# text = [URL]
-# sent_id = 17314
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=232|end_char=233|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=233|end_char=236|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=236|end_char=237|SpaceAfter=No
+# sent_id = 16764
+1	FUCKING	fucking	ADV	RB	_	0	_	_	start_char=180|end_char=187
+2	DIE	die	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=188|end_char=191
+3	EACH	each	DET	DT	_	2	_	_	start_char=192|end_char=196
+4	AND	and	CCONJ	CC	_	3	_	_	start_char=197|end_char=200
+5	EVERY	every	DET	DT	_	4	_	_	start_char=201|end_char=206
+6	SINGLE	single	ADJ	JJ	Degree=Pos	5	_	_	start_char=207|end_char=213
+7	ONE	one	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=214|end_char=217
+8	OF	of	ADP	IN	_	7	_	_	start_char=218|end_char=220
+9	YOU	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=221|end_char=224|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=224|end_char=225
 

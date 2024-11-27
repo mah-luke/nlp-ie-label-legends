@@ -1,49 +1,43 @@
-# text = [URL]
-# sent_id = 83177
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-
 # text = Here’s the source retard.
-# sent_id = 83178
-1-2	Here’s	_	_	_	_	_	_	_	start_char=6|end_char=12
-1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=6|end_char=10
-2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=12
-3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=13|end_char=16
-4	source	source	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=23
-5	retard	retard	NOUN	NN	Number=Sing	4	_	_	start_char=24|end_char=30|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=30|end_char=31
+# sent_id = 80475
+1-2	Here’s	_	_	_	_	_	_	_	start_char=1|end_char=7|SpacesBefore=\s
+1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=1|end_char=5
+2	’s	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=8|end_char=11
+4	source	source	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=18
+5	retard	retard	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=25|end_char=26
 
 # text = French girls wanted to sleep with the SS.
-# sent_id = 83179
-1	French	French	ADJ	JJ	Degree=Pos	0	_	_	start_char=32|end_char=38
-2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=39|end_char=44
-3	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=45|end_char=51
-4	to	to	PART	TO	_	3	_	_	start_char=52|end_char=54
-5	sleep	sleep	VERB	VB	VerbForm=Inf	4	_	_	start_char=55|end_char=60
-6	with	with	ADP	IN	_	5	_	_	start_char=61|end_char=65
-7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=66|end_char=69
-8	SS	ss	NOUN	NN	Number=Sing	7	_	_	start_char=70|end_char=72|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=72|end_char=73
+# sent_id = 80476
+1	French	French	ADJ	JJ	Degree=Pos	0	_	_	start_char=27|end_char=33
+2	girls	girl	NOUN	NNS	Number=Plur	1	_	_	start_char=34|end_char=39
+3	wanted	want	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=40|end_char=46
+4	to	to	PART	TO	_	3	_	_	start_char=47|end_char=49
+5	sleep	sleep	VERB	VB	VerbForm=Inf	4	_	_	start_char=50|end_char=55
+6	with	with	ADP	IN	_	5	_	_	start_char=56|end_char=60
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=61|end_char=64
+8	SS	ss	NOUN	NN	Number=Sing	7	_	_	start_char=65|end_char=67|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=67|end_char=68
 
 # text = SS men were tall, blonde, blue eyed, etc. ofc any girl would sleep with them
-# sent_id = 83180
-1	SS	SS	PROPN	NNP	Number=Sing	0	_	_	start_char=74|end_char=76
-2	men	man	NOUN	NNS	Number=Plur	1	_	_	start_char=77|end_char=80
-3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=81|end_char=85
-4	tall	tall	ADJ	JJ	Degree=Pos	3	_	_	start_char=86|end_char=90|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	_	_	start_char=90|end_char=91
-6	blonde	blonde	ADJ	JJ	Degree=Pos	5	_	_	start_char=92|end_char=98|SpaceAfter=No
-7	,	,	PUNCT	,	_	6	_	_	start_char=98|end_char=99
-8	blue	blue	ADJ	JJ	Degree=Pos	7	_	_	start_char=100|end_char=104
-9	eyed	eye	ADJ	JJ	Degree=Pos	8	_	_	start_char=105|end_char=109|SpaceAfter=No
-10	,	,	PUNCT	,	_	9	_	_	start_char=109|end_char=110
-11	etc.	etc.	NOUN	FW	Abbr=Yes|Number=Plur	10	_	_	start_char=111|end_char=115
-12	ofc	ofc	ADV	RB	_	11	_	_	start_char=116|end_char=119
-13	any	any	DET	DT	_	12	_	_	start_char=120|end_char=123
-14	girl	girl	NOUN	NN	Number=Sing	13	_	_	start_char=124|end_char=128
-15	would	would	AUX	MD	VerbForm=Fin	14	_	_	start_char=129|end_char=134
-16	sleep	sleep	VERB	VB	VerbForm=Inf	15	_	_	start_char=135|end_char=140
-17	with	with	ADP	IN	_	16	_	_	start_char=141|end_char=145
-18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	_	_	start_char=146|end_char=150|SpaceAfter=No
+# sent_id = 80477
+1	SS	SS	PROPN	NNP	Number=Sing	0	_	_	start_char=69|end_char=71
+2	men	man	NOUN	NNS	Number=Plur	1	_	_	start_char=72|end_char=75
+3	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=76|end_char=80
+4	tall	tall	ADJ	JJ	Degree=Pos	3	_	_	start_char=81|end_char=85|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=85|end_char=86
+6	blonde	blonde	ADJ	JJ	Degree=Pos	5	_	_	start_char=87|end_char=93|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=93|end_char=94
+8	blue	blue	ADJ	JJ	Degree=Pos	7	_	_	start_char=95|end_char=99
+9	eyed	eye	ADJ	JJ	Degree=Pos	8	_	_	start_char=100|end_char=104|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=104|end_char=105
+11	etc.	etc.	NOUN	FW	Abbr=Yes|Number=Plur	10	_	_	start_char=106|end_char=110
+12	ofc	ofc	ADV	RB	_	11	_	_	start_char=111|end_char=114
+13	any	any	DET	DT	_	12	_	_	start_char=115|end_char=118
+14	girl	girl	NOUN	NN	Number=Sing	13	_	_	start_char=119|end_char=123
+15	would	would	AUX	MD	VerbForm=Fin	14	_	_	start_char=124|end_char=129
+16	sleep	sleep	VERB	VB	VerbForm=Inf	15	_	_	start_char=130|end_char=135
+17	with	with	ADP	IN	_	16	_	_	start_char=136|end_char=140
+18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	_	_	start_char=141|end_char=145|SpaceAfter=No
 

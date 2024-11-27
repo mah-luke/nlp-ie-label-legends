@@ -1,20 +1,17 @@
-# text = [URL] McCAIN ALIVE?
-# sent_id = 120843
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-4	McCAIN	McCAIN	PROPN	NNP	Number=Sing	3	_	_	start_char=6|end_char=12
-5	ALIVE	alive	ADJ	JJ	Degree=Pos	4	_	_	start_char=13|end_char=18|SpaceAfter=No
-6	?	?	PUNCT	.	_	5	_	_	start_char=18|end_char=19
+# text = McCAIN ALIVE?
+# sent_id = 116955
+1	McCAIN	McCAIN	PROPN	NNP	Number=Sing	0	_	_	start_char=1|end_char=7|SpacesBefore=\s
+2	ALIVE	alive	ADJ	JJ	Degree=Pos	1	_	_	start_char=8|end_char=13|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=13|end_char=14
 
 # text = INDICTMENTS COMING?
-# sent_id = 120844
-1	INDICTMENTS	indictment	NOUN	NNS	Number=Plur	0	_	_	start_char=20|end_char=31
-2	COMING	coming	VERB	VBG	VerbForm=Ger	1	_	_	start_char=32|end_char=38|SpaceAfter=No
-3	?	?	PUNCT	.	_	2	_	_	start_char=38|end_char=39
+# sent_id = 116956
+1	INDICTMENTS	indictment	NOUN	NNS	Number=Plur	0	_	_	start_char=15|end_char=26
+2	COMING	coming	VERB	VBG	VerbForm=Ger	1	_	_	start_char=27|end_char=33|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=33|end_char=34
 
 # text = POLITICO PURGE
-# sent_id = 120845
-1	POLITICO	Politico	PROPN	NNP	Number=Sing	0	_	_	start_char=40|end_char=48
-2	PURGE	purge	NOUN	NN	Number=Sing	1	_	_	start_char=49|end_char=54|SpaceAfter=No
+# sent_id = 116957
+1	POLITICO	Politico	PROPN	NNP	Number=Sing	0	_	_	start_char=35|end_char=43
+2	PURGE	purge	NOUN	NN	Number=Sing	1	_	_	start_char=44|end_char=49|SpaceAfter=No
 

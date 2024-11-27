@@ -1,43 +1,37 @@
-# text = [USER]
-# sent_id = 124930
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Yea, my bad, the caption says Albright but my brain saw Ruth Bader Ginsburg in the photo...these ancient liberal hags are starting to all look alike to me..."
-# sent_id = 124931
-1	Yea	yea	INTJ	UH	_	0	_	_	start_char=7|end_char=10|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=10|end_char=11
-3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=12|end_char=14
-4	bad	bad	ADJ	JJ	Degree=Pos	3	_	_	start_char=15|end_char=18|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	_	_	start_char=18|end_char=19
-6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=20|end_char=23
-7	caption	caption	NOUN	NN	Number=Sing	6	_	_	start_char=24|end_char=31
-8	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=32|end_char=36
-9	Albright	Albright	PROPN	NNP	Number=Sing	8	_	_	start_char=37|end_char=45
-10	but	but	CCONJ	CC	_	9	_	_	start_char=46|end_char=49
-11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=50|end_char=52
-12	brain	brain	NOUN	NN	Number=Sing	11	_	_	start_char=53|end_char=58
-13	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=59|end_char=62
-14	Ruth	Ruth	PROPN	NNP	Number=Sing	13	_	_	start_char=63|end_char=67
-15	Bader	Bader	PROPN	NNP	Number=Sing	14	_	_	start_char=68|end_char=73
-16	Ginsburg	Ginsburg	PROPN	NNP	Number=Sing	15	_	_	start_char=74|end_char=82
-17	in	in	ADP	IN	_	16	_	_	start_char=83|end_char=85
-18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=86|end_char=89
-19	photo	photo	NOUN	NN	Number=Sing	18	_	_	start_char=90|end_char=95|SpaceAfter=No
-20	...	...	PUNCT	,	_	19	_	_	start_char=95|end_char=98|SpaceAfter=No
-21	these	this	DET	DT	Number=Plur|PronType=Dem	20	_	_	start_char=98|end_char=103
-22	ancient	ancient	ADJ	JJ	Degree=Pos	21	_	_	start_char=104|end_char=111
-23	liberal	liberal	ADJ	JJ	Degree=Pos	22	_	_	start_char=112|end_char=119
-24	hags	hag	NOUN	NNS	Number=Plur	23	_	_	start_char=120|end_char=124
-25	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	_	_	start_char=125|end_char=128
-26	starting	start	VERB	VBG	Tense=Pres|VerbForm=Part	25	_	_	start_char=129|end_char=137
-27	to	to	PART	TO	_	26	_	_	start_char=138|end_char=140
-28	all	all	DET	DT	PronType=Tot	27	_	_	start_char=141|end_char=144
-29	look	look	VERB	VB	VerbForm=Inf	28	_	_	start_char=145|end_char=149
-30	alike	alike	ADJ	JJ	Degree=Pos	29	_	_	start_char=150|end_char=155
-31	to	to	ADP	IN	_	30	_	_	start_char=156|end_char=158
-32	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	31	_	_	start_char=159|end_char=161|SpaceAfter=No
-33	...	...	PUNCT	.	_	32	_	_	start_char=161|end_char=164|SpaceAfter=No
-34	"	"	PUNCT	''	_	33	_	_	start_char=164|end_char=165|SpaceAfter=No
+# sent_id = 120917
+1	Yea	yea	INTJ	UH	_	0	_	_	start_char=1|end_char=4|SpaceAfter=No|SpacesBefore=\s
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=6|end_char=8
+4	bad	bad	ADJ	JJ	Degree=Pos	3	_	_	start_char=9|end_char=12|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=12|end_char=13
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=14|end_char=17
+7	caption	caption	NOUN	NN	Number=Sing	6	_	_	start_char=18|end_char=25
+8	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=26|end_char=30
+9	Albright	Albright	PROPN	NNP	Number=Sing	8	_	_	start_char=31|end_char=39
+10	but	but	CCONJ	CC	_	9	_	_	start_char=40|end_char=43
+11	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	10	_	_	start_char=44|end_char=46
+12	brain	brain	NOUN	NN	Number=Sing	11	_	_	start_char=47|end_char=52
+13	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=53|end_char=56
+14	Ruth	Ruth	PROPN	NNP	Number=Sing	13	_	_	start_char=57|end_char=61
+15	Bader	Bader	PROPN	NNP	Number=Sing	14	_	_	start_char=62|end_char=67
+16	Ginsburg	Ginsburg	PROPN	NNP	Number=Sing	15	_	_	start_char=68|end_char=76
+17	in	in	ADP	IN	_	16	_	_	start_char=77|end_char=79
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=80|end_char=83
+19	photo	photo	NOUN	NN	Number=Sing	18	_	_	start_char=84|end_char=89|SpaceAfter=No
+20	...	...	PUNCT	,	_	19	_	_	start_char=89|end_char=92|SpaceAfter=No
+21	these	this	DET	DT	Number=Plur|PronType=Dem	20	_	_	start_char=92|end_char=97
+22	ancient	ancient	ADJ	JJ	Degree=Pos	21	_	_	start_char=98|end_char=105
+23	liberal	liberal	ADJ	JJ	Degree=Pos	22	_	_	start_char=106|end_char=113
+24	hags	hag	NOUN	NNS	Number=Plur	23	_	_	start_char=114|end_char=118
+25	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	24	_	_	start_char=119|end_char=122
+26	starting	start	VERB	VBG	Tense=Pres|VerbForm=Part	25	_	_	start_char=123|end_char=131
+27	to	to	PART	TO	_	26	_	_	start_char=132|end_char=134
+28	all	all	DET	DT	PronType=Tot	27	_	_	start_char=135|end_char=138
+29	look	look	VERB	VB	VerbForm=Inf	28	_	_	start_char=139|end_char=143
+30	alike	alike	ADJ	JJ	Degree=Pos	29	_	_	start_char=144|end_char=149
+31	to	to	ADP	IN	_	30	_	_	start_char=150|end_char=152
+32	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	31	_	_	start_char=153|end_char=155|SpaceAfter=No
+33	...	...	PUNCT	.	_	32	_	_	start_char=155|end_char=158|SpaceAfter=No
+34	"	"	PUNCT	''	_	33	_	_	start_char=158|end_char=159|SpaceAfter=No
 

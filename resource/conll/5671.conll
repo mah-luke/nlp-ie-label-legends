@@ -1,5 +1,5 @@
 # text = Woman claims she was racially profiled when she tried to use her neighborhood pool.
-# sent_id = 11885
+# sent_id = 11500
 1	Woman	woman	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5
 2	claims	claim	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=12
 3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=13|end_char=16
@@ -14,14 +14,5 @@
 12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=61|end_char=64
 13	neighborhood	neighborhood	NOUN	NN	Number=Sing	12	_	_	start_char=65|end_char=77
 14	pool	pool	NOUN	NN	Number=Sing	13	_	_	start_char=78|end_char=82|SpaceAfter=No
-15	.	.	PUNCT	.	_	14	_	_	start_char=82|end_char=83
-
-# text = [URL] [URL]
-# sent_id = 11886
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=84|end_char=85|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=85|end_char=88|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=88|end_char=89
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=90|end_char=91|SpaceAfter=No
-5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=91|end_char=94|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=94|end_char=95|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=82|end_char=83|SpacesAfter=\s\s
 

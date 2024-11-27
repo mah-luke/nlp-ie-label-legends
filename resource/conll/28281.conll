@@ -1,5 +1,5 @@
 # text = Ban Sasse is an idiot saying the constitution values all men as individuals of endless potential.
-# sent_id = 60693
+# sent_id = 58722
 1	Ban	Ban	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3
 2	Sasse	Sasse	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=9
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
@@ -19,7 +19,7 @@
 17	.	.	PUNCT	.	_	16	_	_	start_char=96|end_char=97
 
 # text = He must of glossed over the parts where it says white men.
-# sent_id = 60694
+# sent_id = 58723
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=98|end_char=100
 2	must	must	AUX	MD	VerbForm=Fin	1	_	_	start_char=101|end_char=105
 3	of	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=106|end_char=108
@@ -35,7 +35,7 @@
 13	.	.	PUNCT	.	_	12	_	_	start_char=155|end_char=156
 
 # text = Fucking #RCF - Racially Cucked Faggot.
-# sent_id = 60695
+# sent_id = 58724
 1	Fucking	fucking	ADV	RB	_	0	_	_	start_char=157|end_char=164
 2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=165|end_char=166|SpaceAfter=No
 3	RCF	RCF	NOUN	NN	Number=Sing	2	_	_	start_char=166|end_char=169
@@ -43,15 +43,12 @@
 5	Racially	racially	ADV	RB	_	4	_	_	start_char=172|end_char=180
 6	Cucked	Cucked	ADJ	JJ	Degree=Pos	5	_	_	start_char=181|end_char=187
 7	Faggot	faggot	NOUN	NN	Number=Sing	6	_	_	start_char=188|end_char=194|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=194|end_char=195
+8	.	.	PUNCT	.	_	7	_	_	start_char=194|end_char=195|SpacesAfter=\s\s
 
-# text = [USER] look at this.
-# sent_id = 60696
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=196|end_char=197|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=197|end_char=201|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=201|end_char=202
-4	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=203|end_char=207
-5	at	at	ADP	IN	_	4	_	_	start_char=208|end_char=210
-6	this	this	PRON	DT	Number=Sing|PronType=Dem	5	_	_	start_char=211|end_char=215|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=215|end_char=216|SpaceAfter=No
+# text = look at this.
+# sent_id = 58725
+1	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=197|end_char=201
+2	at	at	ADP	IN	_	1	_	_	start_char=202|end_char=204
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=205|end_char=209|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=209|end_char=210|SpaceAfter=No
 

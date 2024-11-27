@@ -1,43 +1,40 @@
-# text = [URL] AG Lynch condemns disturbing rise of anti-Muslim hate crimes.
-# sent_id = 90666
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-4	AG	AG	PROPN	NNP	Number=Sing	3	_	_	start_char=6|end_char=8
-5	Lynch	Lynch	PROPN	NNP	Number=Sing	4	_	_	start_char=9|end_char=14
-6	condemns	condemn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=15|end_char=23
-7	disturbing	disturbing	ADJ	JJ	Degree=Pos	6	_	_	start_char=24|end_char=34
-8	rise	rise	NOUN	NN	Number=Sing	7	_	_	start_char=35|end_char=39
-9	of	of	ADP	IN	_	8	_	_	start_char=40|end_char=42
-10	anti-Muslim	anti-Muslim	ADJ	JJ	Degree=Pos	9	_	_	start_char=43|end_char=54
-11	hate	hate	NOUN	NN	Number=Sing	10	_	_	start_char=55|end_char=59
-12	crimes	crime	NOUN	NNS	Number=Plur	11	_	_	start_char=60|end_char=66|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=66|end_char=67
+# text = AG Lynch condemns disturbing rise of anti-Muslim hate crimes.
+# sent_id = 87717
+1	AG	AG	PROPN	NNP	Number=Sing	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	Lynch	Lynch	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=9
+3	condemns	condemn	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=18
+4	disturbing	disturbing	ADJ	JJ	Degree=Pos	3	_	_	start_char=19|end_char=29
+5	rise	rise	NOUN	NN	Number=Sing	4	_	_	start_char=30|end_char=34
+6	of	of	ADP	IN	_	5	_	_	start_char=35|end_char=37
+7	anti-Muslim	anti-Muslim	ADJ	JJ	Degree=Pos	6	_	_	start_char=38|end_char=49
+8	hate	hate	NOUN	NN	Number=Sing	7	_	_	start_char=50|end_char=54
+9	crimes	crime	NOUN	NNS	Number=Plur	8	_	_	start_char=55|end_char=61|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=61|end_char=62
 
 # text = #MAGA #Gab #AltRight #PresidentTrump #GabFam #DrainTheSwamp #Trump #SpeakFreely #News #PizzaGate #FakeNews Repost.
-# sent_id = 90667
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=68|end_char=69|SpaceAfter=No
-2	MAGA	maga	NOUN	GW	Number=Sing	1	_	_	start_char=69|end_char=73
-3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=74|end_char=75|SpaceAfter=No
-4	Gab	gab	X	GW	_	3	_	_	start_char=75|end_char=78
-5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=79|end_char=80|SpaceAfter=No
-6	AltRight	altright	NOUN	NN	Number=Sing	5	_	_	start_char=80|end_char=88
-7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=89|end_char=90|SpaceAfter=No
-8	PresidentTrump	presidenttrump	NOUN	NN	Number=Sing	7	_	_	start_char=90|end_char=104
-9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=105|end_char=106|SpaceAfter=No
-10	GabFam	gabfam	NOUN	NN	Number=Sing	9	_	_	start_char=106|end_char=112
-11	#	#	SYM	NN	Number=Sing	10	_	_	start_char=113|end_char=114|SpaceAfter=No
-12	DrainTheSwamp	draintheswamp	NOUN	NN	Number=Sing	11	_	_	start_char=114|end_char=127
-13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=128|end_char=129|SpaceAfter=No
-14	Trump	Trump	NOUN	NN	Number=Sing	13	_	_	start_char=129|end_char=134
-15	#	#	SYM	NN	Number=Sing	14	_	_	start_char=135|end_char=136|SpaceAfter=No
-16	SpeakFreely	SpeakFreely	NOUN	NN	Number=Sing	15	_	_	start_char=136|end_char=147
-17	#	#	SYM	NN	Number=Sing	16	_	_	start_char=148|end_char=149|SpaceAfter=No
-18	News	news	NOUN	NN	Number=Sing	17	_	_	start_char=149|end_char=153
-19	#	#	SYM	NN	Number=Sing	18	_	_	start_char=154|end_char=155|SpaceAfter=No
-20	PizzaGate	pizzagate	NOUN	NN	Number=Sing	19	_	_	start_char=155|end_char=164
-21	#	#	SYM	NN	Number=Sing	20	_	_	start_char=165|end_char=166|SpaceAfter=No
-22	FakeNews	fakenew	NOUN	NN	Number=Sing	21	_	_	start_char=166|end_char=174
-23	Repost	repost	NOUN	NN	Number=Sing	22	_	_	start_char=175|end_char=181|SpaceAfter=No
-24	.	.	PUNCT	.	_	23	_	_	start_char=181|end_char=182|SpaceAfter=No
+# sent_id = 87718
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=63|end_char=64|SpaceAfter=No
+2	MAGA	maga	NOUN	GW	Number=Sing	1	_	_	start_char=64|end_char=68
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=69|end_char=70|SpaceAfter=No
+4	Gab	gab	X	GW	_	3	_	_	start_char=70|end_char=73
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=74|end_char=75|SpaceAfter=No
+6	AltRight	altright	NOUN	NN	Number=Sing	5	_	_	start_char=75|end_char=83
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=84|end_char=85|SpaceAfter=No
+8	PresidentTrump	presidenttrump	NOUN	NN	Number=Sing	7	_	_	start_char=85|end_char=99
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=100|end_char=101|SpaceAfter=No
+10	GabFam	gabfam	NOUN	NN	Number=Sing	9	_	_	start_char=101|end_char=107
+11	#	#	SYM	NN	Number=Sing	10	_	_	start_char=108|end_char=109|SpaceAfter=No
+12	DrainTheSwamp	draintheswamp	NOUN	NN	Number=Sing	11	_	_	start_char=109|end_char=122
+13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=123|end_char=124|SpaceAfter=No
+14	Trump	Trump	NOUN	NN	Number=Sing	13	_	_	start_char=124|end_char=129
+15	#	#	SYM	NN	Number=Sing	14	_	_	start_char=130|end_char=131|SpaceAfter=No
+16	SpeakFreely	SpeakFreely	NOUN	NN	Number=Sing	15	_	_	start_char=131|end_char=142
+17	#	#	SYM	NN	Number=Sing	16	_	_	start_char=143|end_char=144|SpaceAfter=No
+18	News	news	NOUN	NN	Number=Sing	17	_	_	start_char=144|end_char=148
+19	#	#	SYM	NN	Number=Sing	18	_	_	start_char=149|end_char=150|SpaceAfter=No
+20	PizzaGate	pizzagate	NOUN	NN	Number=Sing	19	_	_	start_char=150|end_char=159
+21	#	#	SYM	NN	Number=Sing	20	_	_	start_char=160|end_char=161|SpaceAfter=No
+22	FakeNews	fakenew	NOUN	NN	Number=Sing	21	_	_	start_char=161|end_char=169
+23	Repost	repost	NOUN	NN	Number=Sing	22	_	_	start_char=170|end_char=176|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=176|end_char=177|SpaceAfter=No
 

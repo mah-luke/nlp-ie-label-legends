@@ -1,31 +1,19 @@
-# text = [USER]
-# sent_id = 102940
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Dear wife beater.
-# sent_id = 102941
-1	Dear	dear	ADJ	JJ	Degree=Pos	0	_	_	start_char=7|end_char=11
-2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=12|end_char=16
-3	beater	beater	NOUN	NN	Number=Sing	2	_	_	start_char=17|end_char=23|SpaceAfter=No
-4	.	.	PUNCT	.	_	3	_	_	start_char=23|end_char=24
+# sent_id = 99581
+1	Dear	dear	ADJ	JJ	Degree=Pos	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	wife	wife	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=10
+3	beater	beater	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=17|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=17|end_char=18
 
 # text = Stop talking about sexual assault, ya moron.
-# sent_id = 102942
-1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=25|end_char=29
-2	talking	talk	VERB	VBG	VerbForm=Ger	1	_	_	start_char=30|end_char=37
-3	about	about	ADP	IN	_	2	_	_	start_char=38|end_char=43
-4	sexual	sexual	ADJ	JJ	Degree=Pos	3	_	_	start_char=44|end_char=50
-5	assault	assault	NOUN	NN	Number=Sing	4	_	_	start_char=51|end_char=58|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=58|end_char=59
-7	ya	ya	INTJ	UH	_	6	_	_	start_char=60|end_char=62
-8	moron	moron	NOUN	NN	Number=Sing	7	_	_	start_char=63|end_char=68|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=68|end_char=69
-
-# text = [URL]
-# sent_id = 102943
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=70|end_char=71|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=71|end_char=74|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=74|end_char=75|SpaceAfter=No
+# sent_id = 99582
+1	Stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=19|end_char=23
+2	talking	talk	VERB	VBG	VerbForm=Ger	1	_	_	start_char=24|end_char=31
+3	about	about	ADP	IN	_	2	_	_	start_char=32|end_char=37
+4	sexual	sexual	ADJ	JJ	Degree=Pos	3	_	_	start_char=38|end_char=44
+5	assault	assault	NOUN	NN	Number=Sing	4	_	_	start_char=45|end_char=52|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=52|end_char=53
+7	ya	ya	INTJ	UH	_	6	_	_	start_char=54|end_char=56
+8	moron	moron	NOUN	NN	Number=Sing	7	_	_	start_char=57|end_char=62|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=62|end_char=63
 

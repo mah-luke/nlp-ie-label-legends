@@ -1,33 +1,30 @@
-# text = [USER] they'll keep her going.
-# sent_id = 86039
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4-5	they'll	_	_	_	_	_	_	_	start_char=7|end_char=14
-4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=7|end_char=11
-5	'll	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=11|end_char=14
-6	keep	keep	VERB	VB	VerbForm=Inf	5	_	_	start_char=15|end_char=19
-7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=20|end_char=23
-8	going	go	VERB	VBG	VerbForm=Ger	7	_	_	start_char=24|end_char=29|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=29|end_char=30
+# text = they'll keep her going.
+# sent_id = 83255
+1-2	they'll	_	_	_	_	_	_	_	start_char=1|end_char=8|SpacesBefore=\s
+1	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=1|end_char=5
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	keep	keep	VERB	VB	VerbForm=Inf	2	_	_	start_char=9|end_char=13
+4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=14|end_char=17
+5	going	go	VERB	VBG	VerbForm=Ger	4	_	_	start_char=18|end_char=23|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=23|end_char=24
 
 # text = Even if they have to steer her by remote control, like in "spocks brain"
-# sent_id = 86040
-1	Even	even	ADV	RB	_	0	_	_	start_char=31|end_char=35
-2	if	if	SCONJ	IN	_	1	_	_	start_char=36|end_char=38
-3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=39|end_char=43
-4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=44|end_char=48
-5	to	to	PART	TO	_	4	_	_	start_char=49|end_char=51
-6	steer	steer	VERB	VB	VerbForm=Inf	5	_	_	start_char=52|end_char=57
-7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=58|end_char=61
-8	by	by	ADP	IN	_	7	_	_	start_char=62|end_char=64
-9	remote	remote	ADJ	JJ	Degree=Pos	8	_	_	start_char=65|end_char=71
-10	control	control	NOUN	NN	Number=Sing	9	_	_	start_char=72|end_char=79|SpaceAfter=No
-11	,	,	PUNCT	,	_	10	_	_	start_char=79|end_char=80
-12	like	like	INTJ	UH	_	11	_	_	start_char=81|end_char=85
-13	in	in	ADP	IN	_	12	_	_	start_char=86|end_char=88
-14	"	"	PUNCT	``	_	13	_	_	start_char=89|end_char=90|SpaceAfter=No
-15	spocks	spock	NOUN	NNS	Number=Plur	14	_	_	start_char=90|end_char=96
-16	brain	brain	NOUN	NN	Number=Sing	15	_	_	start_char=97|end_char=102|SpaceAfter=No
-17	"	"	PUNCT	''	_	16	_	_	start_char=102|end_char=103|SpaceAfter=No
+# sent_id = 83256
+1	Even	even	ADV	RB	_	0	_	_	start_char=25|end_char=29
+2	if	if	SCONJ	IN	_	1	_	_	start_char=30|end_char=32
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=33|end_char=37
+4	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=38|end_char=42
+5	to	to	PART	TO	_	4	_	_	start_char=43|end_char=45
+6	steer	steer	VERB	VB	VerbForm=Inf	5	_	_	start_char=46|end_char=51
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=52|end_char=55
+8	by	by	ADP	IN	_	7	_	_	start_char=56|end_char=58
+9	remote	remote	ADJ	JJ	Degree=Pos	8	_	_	start_char=59|end_char=65
+10	control	control	NOUN	NN	Number=Sing	9	_	_	start_char=66|end_char=73|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=73|end_char=74
+12	like	like	INTJ	UH	_	11	_	_	start_char=75|end_char=79
+13	in	in	ADP	IN	_	12	_	_	start_char=80|end_char=82
+14	"	"	PUNCT	``	_	13	_	_	start_char=83|end_char=84|SpaceAfter=No
+15	spocks	spock	NOUN	NNS	Number=Plur	14	_	_	start_char=84|end_char=90
+16	brain	brain	NOUN	NN	Number=Sing	15	_	_	start_char=91|end_char=96|SpaceAfter=No
+17	"	"	PUNCT	''	_	16	_	_	start_char=96|end_char=97|SpaceAfter=No
 

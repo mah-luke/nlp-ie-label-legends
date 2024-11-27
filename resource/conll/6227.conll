@@ -1,5 +1,5 @@
-# text = Easter Sunday Slaughter in Pakistan is rooted in Deep-Seated Racism against Punjabi Christians by th Muslim majority [URL]
-# sent_id = 12991
+# text = Easter Sunday Slaughter in Pakistan is rooted in Deep-Seated Racism against Punjabi Christians by th Muslim majority
+# sent_id = 12574
 1	Easter	Easter	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
 2	Sunday	Sunday	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=13
 3	Slaughter	Slaughter	PROPN	NNP	Number=Sing	2	_	_	start_char=14|end_char=23
@@ -16,32 +16,29 @@
 14	Punjabi	Punjabi	ADJ	JJ	Degree=Pos	13	_	_	start_char=76|end_char=83
 15	Christians	Christian	PROPN	NNPS	Number=Plur	14	_	_	start_char=84|end_char=94
 16	by	by	ADP	IN	_	15	_	_	start_char=95|end_char=97
-17	th	that	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=98|end_char=100
+17	th	that	DET	DT	PronType=Art	16	_	_	start_char=98|end_char=100
 18	Muslim	Muslim	ADJ	JJ	Degree=Pos	17	_	_	start_char=101|end_char=107
-19	majority	majority	NOUN	NN	Number=Sing	18	_	_	start_char=108|end_char=116
-20	[	[	PUNCT	-LRB-	_	19	_	_	start_char=117|end_char=118|SpaceAfter=No
-21	URL	URL	PROPN	NNP	Number=Sing	20	_	_	start_char=118|end_char=121|SpaceAfter=No
-22	]	]	PUNCT	-RRB-	_	21	_	_	start_char=121|end_char=122
+19	majority	majority	NOUN	NN	Number=Sing	18	_	_	start_char=108|end_char=116|SpacesAfter=\s\s
 
 # text = Th horrific racism & discrimination Punjabi Christians face within Pakistan’s Muslim communities, frm secular to orthodox
-# sent_id = 12992
-1	Th	th	DET	DT	PronType=Art	0	_	_	start_char=123|end_char=125
-2	horrific	horrific	ADJ	JJ	Degree=Pos	1	_	_	start_char=126|end_char=134
-3	racism	racism	NOUN	NN	Number=Sing	2	_	_	start_char=135|end_char=141
-4	&	&	CCONJ	CC	_	3	_	_	start_char=142|end_char=143
-5	discrimination	discrimination	NOUN	NN	Number=Sing	4	_	_	start_char=144|end_char=158
-6	Punjabi	Punjabi	ADJ	JJ	Degree=Pos	5	_	_	start_char=159|end_char=166
-7	Christians	Christian	PROPN	NNPS	Number=Plur	6	_	_	start_char=167|end_char=177
-8	face	face	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=178|end_char=182
-9	within	within	ADP	IN	_	8	_	_	start_char=183|end_char=189
-10-11	Pakistan’s	_	_	_	_	_	_	_	start_char=190|end_char=200
-10	Pakistan	Pakistan	PROPN	NNP	Number=Sing	9	_	_	start_char=190|end_char=198
-11	’s	's	PART	POS	_	10	_	_	start_char=198|end_char=200
-12	Muslim	Muslim	ADJ	JJ	Degree=Pos	11	_	_	start_char=201|end_char=207
-13	communities	community	NOUN	NNS	Number=Plur	12	_	_	start_char=208|end_char=219|SpaceAfter=No
-14	,	,	PUNCT	,	_	13	_	_	start_char=219|end_char=220
-15	frm	frm	NOUN	NN	Number=Sing	14	_	_	start_char=221|end_char=224
-16	secular	secular	ADJ	JJ	Degree=Pos	15	_	_	start_char=225|end_char=232
-17	to	to	ADP	IN	_	16	_	_	start_char=233|end_char=235
-18	orthodox	orthodox	NOUN	NN	Number=Sing	17	_	_	start_char=236|end_char=244|SpaceAfter=No
+# sent_id = 12575
+1	Th	th	DET	DT	PronType=Art	0	_	_	start_char=118|end_char=120
+2	horrific	horrific	ADJ	JJ	Degree=Pos	1	_	_	start_char=121|end_char=129
+3	racism	racism	NOUN	NN	Number=Sing	2	_	_	start_char=130|end_char=136
+4	&	&	CCONJ	CC	_	3	_	_	start_char=137|end_char=138
+5	discrimination	discrimination	NOUN	NN	Number=Sing	4	_	_	start_char=139|end_char=153
+6	Punjabi	Punjabi	ADJ	JJ	Degree=Pos	5	_	_	start_char=154|end_char=161
+7	Christians	Christian	PROPN	NNPS	Number=Plur	6	_	_	start_char=162|end_char=172
+8	face	face	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=173|end_char=177
+9	within	within	ADP	IN	_	8	_	_	start_char=178|end_char=184
+10-11	Pakistan’s	_	_	_	_	_	_	_	start_char=185|end_char=195
+10	Pakistan	Pakistan	PROPN	NNP	Number=Sing	9	_	_	start_char=185|end_char=193
+11	’s	's	PART	POS	_	10	_	_	start_char=193|end_char=195
+12	Muslim	Muslim	ADJ	JJ	Degree=Pos	11	_	_	start_char=196|end_char=202
+13	communities	community	NOUN	NNS	Number=Plur	12	_	_	start_char=203|end_char=214|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=214|end_char=215
+15	frm	frm	NOUN	NN	Number=Sing	14	_	_	start_char=216|end_char=219
+16	secular	secular	ADJ	JJ	Degree=Pos	15	_	_	start_char=220|end_char=227
+17	to	to	ADP	IN	_	16	_	_	start_char=228|end_char=230
+18	orthodox	orthodox	NOUN	NN	Number=Sing	17	_	_	start_char=231|end_char=239|SpaceAfter=No
 

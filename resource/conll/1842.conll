@@ -1,5 +1,5 @@
 # text = 700 law enforcement officers were present from 42 agencies.
-# sent_id = 3876
+# sent_id = 3765
 1	700	700	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=3
 2	law	law	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=7
 3	enforcement	enforcement	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=19
@@ -12,13 +12,13 @@
 10	.	.	PUNCT	.	_	9	_	_	start_char=58|end_char=59
 
 # text = Sounds reasonable.
-# sent_id = 3877
+# sent_id = 3766
 1	Sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=60|end_char=66
 2	reasonable	reasonable	ADJ	JJ	Degree=Pos	1	_	_	start_char=67|end_char=77|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	_	_	start_char=77|end_char=78
 
 # text = Jeff was critical of skinny jeans, but nothing is funnier than watching my brother try to put on his wife's skinny jeans.
-# sent_id = 3878
+# sent_id = 3767
 1	Jeff	Jeff	PROPN	NNP	Number=Sing	0	_	_	start_char=79|end_char=83
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=84|end_char=87
 3	critical	critical	ADJ	JJ	Degree=Pos	2	_	_	start_char=88|end_char=96
@@ -45,10 +45,4 @@
 23	skinny	skinny	ADJ	JJ	Degree=Pos	22	_	_	start_char=187|end_char=193
 24	jeans	jeans	NOUN	NNS	Number=Plur	23	_	_	start_char=194|end_char=199|SpaceAfter=No
 25	.	.	PUNCT	.	_	24	_	_	start_char=199|end_char=200
-
-# text = [URL]
-# sent_id = 3879
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=201|end_char=202|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=202|end_char=205|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=205|end_char=206|SpaceAfter=No
 

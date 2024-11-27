@@ -1,36 +1,33 @@
-# text = Hmm no [USER] stream yet.
-# sent_id = 113355
+# text = Hmm no stream yet.
+# sent_id = 109644
 1	Hmm	hmm	INTJ	UH	_	0	_	_	start_char=0|end_char=3
-2	no	no	DET	DT	_	1	_	_	start_char=4|end_char=6
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=7|end_char=8|SpaceAfter=No
-4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=8|end_char=12|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=12|end_char=13
-6	stream	stream	NOUN	NN	Number=Sing	5	_	_	start_char=14|end_char=20
-7	yet	yet	ADV	RB	_	6	_	_	start_char=21|end_char=24|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=24|end_char=25
+2	no	no	DET	DT	_	1	_	_	start_char=4|end_char=6|SpacesAfter=\s\s
+3	stream	stream	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=14
+4	yet	yet	ADV	RB	_	3	_	_	start_char=15|end_char=18|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
 
 # text = Wonder if she's zonked after the 12 hour stream yesterday.
-# sent_id = 113356
-1	Wonder	wonder	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=26|end_char=32
-2	if	if	SCONJ	IN	_	1	_	_	start_char=33|end_char=35
-3-4	she's	_	_	_	_	_	_	_	start_char=36|end_char=41
-3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=36|end_char=39
-4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=39|end_char=41
-5	zonked	zonk	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=42|end_char=48
-6	after	after	ADP	IN	_	5	_	_	start_char=49|end_char=54
-7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=55|end_char=58
-8	12	12	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=59|end_char=61
-9	hour	hour	NOUN	NN	Number=Sing	8	_	_	start_char=62|end_char=66
-10	stream	stream	NOUN	NN	Number=Sing	9	_	_	start_char=67|end_char=73
-11	yesterday	yesterday	NOUN	NN	Number=Sing	10	_	_	start_char=74|end_char=83|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=83|end_char=84
+# sent_id = 109645
+1	Wonder	wonder	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=20|end_char=26
+2	if	if	SCONJ	IN	_	1	_	_	start_char=27|end_char=29
+3-4	she's	_	_	_	_	_	_	_	start_char=30|end_char=35
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=30|end_char=33
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=33|end_char=35
+5	zonked	zonk	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=36|end_char=42
+6	after	after	ADP	IN	_	5	_	_	start_char=43|end_char=48
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=49|end_char=52
+8	12	12	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=53|end_char=55
+9	hour	hour	NOUN	NN	Number=Sing	8	_	_	start_char=56|end_char=60
+10	stream	stream	NOUN	NN	Number=Sing	9	_	_	start_char=61|end_char=67
+11	yesterday	yesterday	NOUN	NN	Number=Sing	10	_	_	start_char=68|end_char=77|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=77|end_char=78
 
 # text = I needs my vicarious energy!!!
-# sent_id = 113357
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=85|end_char=86
-2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=87|end_char=92
-3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=93|end_char=95
-4	vicarious	vicarious	ADJ	JJ	Degree=Pos	3	_	_	start_char=96|end_char=105
-5	energy	energy	NOUN	NN	Number=Sing	4	_	_	start_char=106|end_char=112|SpaceAfter=No
-6	!!!	!!!	PUNCT	.	_	5	_	_	start_char=112|end_char=115|SpaceAfter=No
+# sent_id = 109646
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=79|end_char=80
+2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=81|end_char=86
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=87|end_char=89
+4	vicarious	vicarious	ADJ	JJ	Degree=Pos	3	_	_	start_char=90|end_char=99
+5	energy	energy	NOUN	NN	Number=Sing	4	_	_	start_char=100|end_char=106|SpaceAfter=No
+6	!!!	!!!	PUNCT	.	_	5	_	_	start_char=106|end_char=109|SpaceAfter=No
 

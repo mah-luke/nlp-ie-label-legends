@@ -1,67 +1,43 @@
-# text = OR..........[USER]
-# sent_id = 60120
+# text = OR..........
+# sent_id = 58158
 1	OR	or	CCONJ	CC	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
-2	..........	..........	PUNCT	.	_	1	_	_	start_char=2|end_char=12|SpaceAfter=No
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=12|end_char=13|SpaceAfter=No
-4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=17|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=17|end_char=18
+2	..........	..........	PUNCT	.	_	1	_	_	start_char=2|end_char=12
 
-# text = WE COULD MAKE IT A TRIPLE THREAT MATCH WITH [USER] BLISS VS [USER] VS [USER] McMAHON.
-# sent_id = 60121
-1	WE	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=19|end_char=21
-2	COULD	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=22|end_char=27
-3	MAKE	make	VERB	VB	VerbForm=Inf	2	_	_	start_char=28|end_char=32
-4	IT	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=33|end_char=35
-5	A	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=36|end_char=37
-6	TRIPLE	triple	ADJ	JJ	Degree=Pos	5	_	_	start_char=38|end_char=44
-7	THREAT	threat	NOUN	NN	Number=Sing	6	_	_	start_char=45|end_char=51
-8	MATCH	match	NOUN	NN	Number=Sing	7	_	_	start_char=52|end_char=57
-9	WITH	with	ADP	IN	_	8	_	_	start_char=58|end_char=62
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=63|end_char=64|SpaceAfter=No
-11	USER	user	NOUN	NN	Number=Sing	10	_	_	start_char=64|end_char=68|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=68|end_char=69
-13	BLISS	BLISS	PROPN	NNP	Number=Sing	12	_	_	start_char=70|end_char=75
-14	VS	versus	NOUN	NN	Number=Sing	13	_	_	start_char=76|end_char=78
-15	[	[	PUNCT	-LRB-	_	14	_	_	start_char=79|end_char=80|SpaceAfter=No
-16	USER	user	NOUN	NN	Number=Sing	15	_	_	start_char=80|end_char=84|SpaceAfter=No
-17	]	]	PUNCT	-RRB-	_	16	_	_	start_char=84|end_char=85
-18	VS	versus	NOUN	NN	Number=Sing	17	_	_	start_char=86|end_char=88
-19	[	[	PUNCT	-LRB-	_	18	_	_	start_char=89|end_char=90|SpaceAfter=No
-20	USER	user	NOUN	NN	Number=Sing	19	_	_	start_char=90|end_char=94|SpaceAfter=No
-21	]	]	PUNCT	-RRB-	_	20	_	_	start_char=94|end_char=95
-22	McMAHON	McMAHON	PROPN	NNP	Number=Sing	21	_	_	start_char=96|end_char=103|SpaceAfter=No
-23	.	.	PUNCT	.	_	22	_	_	start_char=103|end_char=104
+# text = WE COULD MAKE IT A TRIPLE THREAT MATCH WITH BLISS VS VS McMAHON.
+# sent_id = 58159
+1	WE	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=13|end_char=15
+2	COULD	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=16|end_char=21
+3	MAKE	make	VERB	VB	VerbForm=Inf	2	_	_	start_char=22|end_char=26
+4	IT	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=27|end_char=29
+5	A	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=30|end_char=31
+6	TRIPLE	triple	ADJ	JJ	Degree=Pos	5	_	_	start_char=32|end_char=38
+7	THREAT	threat	NOUN	NN	Number=Sing	6	_	_	start_char=39|end_char=45
+8	MATCH	match	NOUN	NN	Number=Sing	7	_	_	start_char=46|end_char=51
+9	WITH	with	ADP	IN	_	8	_	_	start_char=52|end_char=56|SpacesAfter=\s\s
+10	BLISS	BLISS	PROPN	NNP	Number=Sing	9	_	_	start_char=58|end_char=63
+11	VS	versus	ADP	IN	_	10	_	_	start_char=64|end_char=66|SpacesAfter=\s\s
+12	VS	versus	ADP	IN	_	11	_	_	start_char=68|end_char=70|SpacesAfter=\s\s
+13	McMAHON	McMAHON	PROPN	NNP	Number=Sing	12	_	_	start_char=72|end_char=79|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=79|end_char=80
 
-# text = BUT AS MUCH AS WE'D LIKE TO SEE [USER] VS [USER] AT [USER], I THINK THE [USER] UNIVERSE IS CRAAAAAAVVVVVVINNNNNGGGGG!!!
-# sent_id = 60122
-1	BUT	but	CCONJ	CC	_	0	_	_	start_char=105|end_char=108
-2	AS	as	ADV	RB	_	1	_	_	start_char=109|end_char=111
-3	MUCH	much	ADV	RB	_	2	_	_	start_char=112|end_char=116
-4	AS	as	ADP	IN	_	3	_	_	start_char=117|end_char=119
-5	WE'D	we'd	NOUN	NN	Number=Sing	4	_	_	start_char=120|end_char=124
-6	LIKE	like	ADJ	JJ	Degree=Pos	5	_	_	start_char=125|end_char=129
-7	TO	to	PART	TO	_	6	_	_	start_char=130|end_char=132
-8	SEE	see	VERB	VB	VerbForm=Inf	7	_	_	start_char=133|end_char=136
-9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=137|end_char=138|SpaceAfter=No
-10	USER	user	NOUN	NN	Number=Sing	9	_	_	start_char=138|end_char=142|SpaceAfter=No
-11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=142|end_char=143
-12	VS	versus	NOUN	NN	Number=Sing	11	_	_	start_char=144|end_char=146
-13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=147|end_char=148|SpaceAfter=No
-14	USER	user	NOUN	NN	Number=Sing	13	_	_	start_char=148|end_char=152|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=152|end_char=153
-16	AT	at	ADP	IN	_	15	_	_	start_char=154|end_char=156
-17	[	[	PUNCT	-LRB-	_	16	_	_	start_char=157|end_char=158|SpaceAfter=No
-18	USER	user	NOUN	NN	Number=Sing	17	_	_	start_char=158|end_char=162|SpaceAfter=No
-19	]	]	PUNCT	-RRB-	_	18	_	_	start_char=162|end_char=163|SpaceAfter=No
-20	,	,	PUNCT	,	_	19	_	_	start_char=163|end_char=164
-21	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	_	_	start_char=165|end_char=166
-22	THINK	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	_	_	start_char=167|end_char=172
-23	THE	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=173|end_char=176
-24	[	[	PUNCT	-LRB-	_	23	_	_	start_char=177|end_char=178|SpaceAfter=No
-25	USER	user	NOUN	NN	Number=Sing	24	_	_	start_char=178|end_char=182|SpaceAfter=No
-26	]	]	PUNCT	-RRB-	_	25	_	_	start_char=182|end_char=183
-27	UNIVERSE	universe	NOUN	NN	Number=Sing	26	_	_	start_char=184|end_char=192
-28	IS	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	_	_	start_char=193|end_char=195
-29	CRAAAAAAVVVVVVINNNNNGGGGG	craaaaaavvvvvvinnnnnggggg	NOUN	NN	Number=Sing	28	_	_	start_char=196|end_char=221|SpaceAfter=No
-30	!!!	!!!	PUNCT	.	_	29	_	_	start_char=221|end_char=224|SpaceAfter=No
+# text = BUT AS MUCH AS WE'D LIKE TO SEE VS AT , I THINK THE UNIVERSE IS CRAAAAAAVVVVVVINNNNNGGGGG!!!
+# sent_id = 58160
+1	BUT	but	CCONJ	CC	_	0	_	_	start_char=81|end_char=84
+2	AS	as	ADV	RB	_	1	_	_	start_char=85|end_char=87
+3	MUCH	much	ADV	RB	_	2	_	_	start_char=88|end_char=92
+4	AS	as	ADP	IN	_	3	_	_	start_char=93|end_char=95
+5	WE'D	we'd	NOUN	NN	Number=Sing	4	_	_	start_char=96|end_char=100
+6	LIKE	like	ADJ	JJ	Degree=Pos	5	_	_	start_char=101|end_char=105
+7	TO	to	PART	TO	_	6	_	_	start_char=106|end_char=108
+8	SEE	see	VERB	VB	VerbForm=Inf	7	_	_	start_char=109|end_char=112|SpacesAfter=\s\s
+9	VS	versus	ADP	IN	_	8	_	_	start_char=114|end_char=116|SpacesAfter=\s\s
+10	AT	at	ADP	IN	_	9	_	_	start_char=118|end_char=120
+11	,	,	PUNCT	,	_	10	_	_	start_char=121|end_char=122
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=123|end_char=124
+13	THINK	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=125|end_char=130
+14	THE	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=131|end_char=134|SpacesAfter=\s\s
+15	UNIVERSE	universe	NOUN	NN	Number=Sing	14	_	_	start_char=136|end_char=144
+16	IS	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=145|end_char=147
+17	CRAAAAAAVVVVVVINNNNNGGGGG	craaaaaavvvvvvinnnnnggggg	NOUN	NN	Number=Sing	16	_	_	start_char=148|end_char=173|SpaceAfter=No
+18	!!!	!!!	PUNCT	.	_	17	_	_	start_char=173|end_char=176|SpaceAfter=No
 

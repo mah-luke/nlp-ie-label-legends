@@ -1,5 +1,5 @@
 # text = Have a friend resurrecting his music through a new band "Confused By Zebras" .
-# sent_id = 3813
+# sent_id = 3702
 1	Have	have	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
 2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
 3	friend	friend	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=13
@@ -18,7 +18,7 @@
 16	.	.	PUNCT	.	_	15	_	_	start_char=77|end_char=78
 
 # text = Check out his work, here is a girl I would love to find.
-# sent_id = 3814
+# sent_id = 3703
 1	Check	check	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=79|end_char=84
 2	out	out	ADP	RP	_	1	_	_	start_char=85|end_char=88
 3	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=89|end_char=92
@@ -35,17 +35,14 @@
 14	find	find	VERB	VB	VerbForm=Inf	13	_	_	start_char=130|end_char=134|SpaceAfter=No
 15	.	.	PUNCT	.	_	14	_	_	start_char=134|end_char=135
 
-# text = She cant say No [URL] #GabFam
-# sent_id = 3815
+# text = She cant say No #GabFam
+# sent_id = 3704
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=136|end_char=139
 2-3	cant	_	_	_	_	_	_	_	start_char=140|end_char=144
 2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=140|end_char=142
 3	nt	not	PART	RB	_	2	_	_	start_char=142|end_char=144
 4	say	say	VERB	VB	VerbForm=Inf	3	_	_	start_char=145|end_char=148
-5	No	no	INTJ	UH	_	4	_	_	start_char=149|end_char=151
-6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=152|end_char=153|SpaceAfter=No
-7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=153|end_char=156|SpaceAfter=No
-8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=156|end_char=157
-9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=158|end_char=159|SpaceAfter=No
-10	GabFam	GabFam	PROPN	NNP	Number=Sing	9	_	_	start_char=159|end_char=165|SpaceAfter=No
+5	No	no	INTJ	UH	_	4	_	_	start_char=149|end_char=151|SpacesAfter=\s\s
+6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=153|end_char=154|SpaceAfter=No
+7	GabFam	gabfam	NOUN	NN	Number=Sing	6	_	_	start_char=154|end_char=160|SpaceAfter=No
 

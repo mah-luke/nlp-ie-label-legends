@@ -1,5 +1,5 @@
 # text = She joined the Democratic Socialists of America a few days ago.
-# sent_id = 84099
+# sent_id = 81375
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
 2	joined	join	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=10
 3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=11|end_char=14
@@ -14,7 +14,7 @@
 12	.	.	PUNCT	.	_	11	_	_	start_char=62|end_char=63
 
 # text = Will the Secret Service pay her a visit?
-# sent_id = 84100
+# sent_id = 81376
 1	Will	will	AUX	MD	VerbForm=Fin	0	_	_	start_char=64|end_char=68
 2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=69|end_char=72
 3	Secret	Secret	ADJ	NNP	Degree=Pos	2	_	_	start_char=73|end_char=79
@@ -23,17 +23,14 @@
 6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=92|end_char=95
 7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=96|end_char=97
 8	visit	visit	NOUN	NN	Number=Sing	7	_	_	start_char=98|end_char=103|SpaceAfter=No
-9	?	?	PUNCT	.	_	8	_	_	start_char=103|end_char=104
+9	?	?	PUNCT	.	_	8	_	_	start_char=103|end_char=104|SpacesAfter=\s\s
 
-# text = [URL] #MAGA #Trump #News
-# sent_id = 84101
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=105|end_char=106|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=106|end_char=109|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=109|end_char=110
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=111|end_char=112|SpaceAfter=No
-5	MAGA	maga	NOUN	NN	Number=Sing	4	_	_	start_char=112|end_char=116
-6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=117|end_char=118|SpaceAfter=No
-7	Trump	Trump	PROPN	NNP	Number=Sing	6	_	_	start_char=118|end_char=123
-8	#	#	SYM	NN	Number=Sing	7	_	_	start_char=124|end_char=125|SpaceAfter=No
-9	News	news	NOUN	NN	Number=Sing	8	_	_	start_char=125|end_char=129|SpaceAfter=No
+# text = #MAGA #Trump #News
+# sent_id = 81377
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=106|end_char=107|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=107|end_char=111
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=112|end_char=113|SpaceAfter=No
+4	Trump	Trump	PROPN	NNP	Number=Sing	3	_	_	start_char=113|end_char=118
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=119|end_char=120|SpaceAfter=No
+6	News	news	NOUN	NN	Number=Sing	5	_	_	start_char=120|end_char=124|SpaceAfter=No
 

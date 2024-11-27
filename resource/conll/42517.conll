@@ -1,5 +1,5 @@
 # text = What is strange is that the media wonders why are people calling her a traitor.
-# sent_id = 90882
+# sent_id = 87920
 1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=4
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
 3	strange	strange	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=15
@@ -17,10 +17,10 @@
 15	traitor	traitor	NOUN	NN	Number=Sing	14	_	_	start_char=71|end_char=78|SpaceAfter=No
 16	.	.	PUNCT	.	_	15	_	_	start_char=78|end_char=79
 
-# text = "Nearly 900,000 refugees entered Germany in 2015 and roughly a third of that number last year.
-# sent_id = 90883
+# text = "Nearly 900,000 refugees entered Germany in 2015 and roughly a third of that number last year. "
+# sent_id = 87921
 1	"	"	PUNCT	``	_	0	_	_	start_char=80|end_char=81|SpaceAfter=No
-2	Nearly	nearly	ADV	RB	Degree=Pos	1	_	_	start_char=81|end_char=87
+2	Nearly	nearly	ADV	RB	_	1	_	_	start_char=81|end_char=87
 3	900,000	900000	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=88|end_char=95
 4	refugees	refugee	NOUN	NNS	Number=Plur	3	_	_	start_char=96|end_char=104
 5	entered	enter	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=105|end_char=112
@@ -37,11 +37,5 @@
 16	last	last	ADJ	JJ	Degree=Pos	15	_	_	start_char=164|end_char=168
 17	year	year	NOUN	NN	Number=Sing	16	_	_	start_char=169|end_char=173|SpaceAfter=No
 18	.	.	PUNCT	.	_	17	_	_	start_char=173|end_char=174
-
-# text = " [URL]
-# sent_id = 90884
-1	"	"	PUNCT	``	_	0	_	_	start_char=175|end_char=176
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=177|end_char=178|SpaceAfter=No
-3	URL	URL	PROPN	NNP	Number=Sing	2	_	_	start_char=178|end_char=181|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=181|end_char=182|SpaceAfter=No
+19	"	"	PUNCT	''	_	18	_	_	start_char=175|end_char=176
 

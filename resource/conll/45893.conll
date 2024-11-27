@@ -1,5 +1,5 @@
 # text = The witless bitch tweeted a one-sentence apology.
-# sent_id = 98010
+# sent_id = 94804
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
 2	witless	witless	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=11
 3	bitch	bitch	NOUN	NN	Number=Sing	2	_	_	start_char=12|end_char=17
@@ -12,7 +12,7 @@
 10	.	.	PUNCT	.	_	9	_	_	start_char=48|end_char=49
 
 # text = She didn't even have the grace to address it to the person she maligned, Barron Trump.
-# sent_id = 98011
+# sent_id = 94805
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=50|end_char=53
 2-3	didn't	_	_	_	_	_	_	_	start_char=54|end_char=60
 2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=54|end_char=57
@@ -33,10 +33,4 @@
 17	Barron	Barron	PROPN	NNP	Number=Sing	16	_	_	start_char=123|end_char=129
 18	Trump	Trump	PROPN	NNP	Number=Sing	17	_	_	start_char=130|end_char=135|SpaceAfter=No
 19	.	.	PUNCT	.	_	18	_	_	start_char=135|end_char=136
-
-# text = [USER]
-# sent_id = 98012
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=137|end_char=138|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=138|end_char=142|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=142|end_char=143|SpaceAfter=No
 

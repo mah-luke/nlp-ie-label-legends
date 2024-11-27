@@ -1,10 +1,10 @@
 # text = Exactly.
-# sent_id = 118989
+# sent_id = 115146
 1	Exactly	exactly	ADV	RB	_	0	_	_	start_char=0|end_char=7|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	_	_	start_char=7|end_char=8
 
-# text = That is why all of that "[sex is bad]([URL] mumbo jumbo when I was in school never deterred me from chasing after girls out in the hallway right after that same class was over.
-# sent_id = 118990
+# text = That is why all of that "[sex is bad]( mumbo jumbo when I was in school never deterred me from chasing after girls out in the hallway right after that same class was over.
+# sent_id = 115147
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=9|end_char=13
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=14|end_char=16
 3	why	why	ADV	WRB	PronType=Rel	2	_	_	start_char=17|end_char=20
@@ -17,34 +17,31 @@
 10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=39|end_char=41
 11	bad	bad	ADJ	JJ	Degree=Pos	10	_	_	start_char=42|end_char=45|SpaceAfter=No
 12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=45|end_char=46|SpaceAfter=No
-13	(	(	PUNCT	-LRB-	_	12	_	_	start_char=46|end_char=47|SpaceAfter=No
-14	[	[	PUNCT	-LRB-	_	13	_	_	start_char=47|end_char=48|SpaceAfter=No
-15	URL	URL	PROPN	NNP	Number=Sing	14	_	_	start_char=48|end_char=51|SpaceAfter=No
-16	]	]	PUNCT	-RRB-	_	15	_	_	start_char=51|end_char=52
-17	mumbo	mumbo	NOUN	NN	Number=Sing	16	_	_	start_char=53|end_char=58
-18	jumbo	jumbo	NOUN	NN	Number=Sing	17	_	_	start_char=59|end_char=64
-19	when	when	ADV	WRB	PronType=Int	18	_	_	start_char=65|end_char=69
-20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	_	_	start_char=70|end_char=71
-21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	_	_	start_char=72|end_char=75
-22	in	in	ADP	IN	_	21	_	_	start_char=76|end_char=78
-23	school	school	NOUN	NN	Number=Sing	22	_	_	start_char=79|end_char=85
-24	never	never	ADV	RB	_	23	_	_	start_char=86|end_char=91
-25	deterred	deter	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	_	_	start_char=92|end_char=100
-26	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	25	_	_	start_char=101|end_char=103
-27	from	from	SCONJ	IN	_	26	_	_	start_char=104|end_char=108
-28	chasing	chase	VERB	VBG	VerbForm=Ger	27	_	_	start_char=109|end_char=116
-29	after	after	ADP	IN	_	28	_	_	start_char=117|end_char=122
-30	girls	girl	NOUN	NNS	Number=Plur	29	_	_	start_char=123|end_char=128
-31	out	out	ADV	RB	_	30	_	_	start_char=129|end_char=132
-32	in	in	ADP	IN	_	31	_	_	start_char=133|end_char=135
-33	the	the	DET	DT	Definite=Def|PronType=Art	32	_	_	start_char=136|end_char=139
-34	hallway	hallway	NOUN	NN	Number=Sing	33	_	_	start_char=140|end_char=147
-35	right	right	ADV	RB	_	34	_	_	start_char=148|end_char=153
-36	after	after	SCONJ	IN	_	35	_	_	start_char=154|end_char=159
-37	that	that	DET	DT	Number=Sing|PronType=Dem	36	_	_	start_char=160|end_char=164
-38	same	same	ADJ	JJ	Degree=Pos	37	_	_	start_char=165|end_char=169
-39	class	class	NOUN	NN	Number=Sing	38	_	_	start_char=170|end_char=175
-40	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	39	_	_	start_char=176|end_char=179
-41	over	over	ADV	RB	_	40	_	_	start_char=180|end_char=184|SpaceAfter=No
-42	.	.	PUNCT	.	_	41	_	_	start_char=184|end_char=185|SpaceAfter=No
+13	(	(	PUNCT	-LRB-	_	12	_	_	start_char=46|end_char=47
+14	mumbo	mumbo	NOUN	NN	Number=Sing	13	_	_	start_char=48|end_char=53
+15	jumbo	jumbo	NOUN	NN	Number=Sing	14	_	_	start_char=54|end_char=59
+16	when	when	ADV	WRB	PronType=Int	15	_	_	start_char=60|end_char=64
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=65|end_char=66
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=67|end_char=70
+19	in	in	ADP	IN	_	18	_	_	start_char=71|end_char=73
+20	school	school	NOUN	NN	Number=Sing	19	_	_	start_char=74|end_char=80
+21	never	never	ADV	RB	_	20	_	_	start_char=81|end_char=86
+22	deterred	deter	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	21	_	_	start_char=87|end_char=95
+23	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	22	_	_	start_char=96|end_char=98
+24	from	from	SCONJ	IN	_	23	_	_	start_char=99|end_char=103
+25	chasing	chase	VERB	VBG	VerbForm=Ger	24	_	_	start_char=104|end_char=111
+26	after	after	ADP	IN	_	25	_	_	start_char=112|end_char=117
+27	girls	girl	NOUN	NNS	Number=Plur	26	_	_	start_char=118|end_char=123
+28	out	out	ADV	RB	_	27	_	_	start_char=124|end_char=127
+29	in	in	ADP	IN	_	28	_	_	start_char=128|end_char=130
+30	the	the	DET	DT	Definite=Def|PronType=Art	29	_	_	start_char=131|end_char=134
+31	hallway	hallway	NOUN	NN	Number=Sing	30	_	_	start_char=135|end_char=142
+32	right	right	ADV	RB	_	31	_	_	start_char=143|end_char=148
+33	after	after	ADP	IN	_	32	_	_	start_char=149|end_char=154
+34	that	that	DET	DT	Number=Sing|PronType=Dem	33	_	_	start_char=155|end_char=159
+35	same	same	ADJ	JJ	Degree=Pos	34	_	_	start_char=160|end_char=164
+36	class	class	NOUN	NN	Number=Sing	35	_	_	start_char=165|end_char=170
+37	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	36	_	_	start_char=171|end_char=174
+38	over	over	ADV	RB	_	37	_	_	start_char=175|end_char=179|SpaceAfter=No
+39	.	.	PUNCT	.	_	38	_	_	start_char=179|end_char=180|SpaceAfter=No
 

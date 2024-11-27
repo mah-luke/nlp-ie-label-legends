@@ -1,5 +1,5 @@
 # text = The day before the launch sequence, Vladimir Yazdovsky took her home to play with his kids.
-# sent_id = 19224
+# sent_id = 18594
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
 2	day	day	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=7
 3	before	before	ADP	IN	_	2	_	_	start_char=8|end_char=14
@@ -20,7 +20,7 @@
 18	.	.	PUNCT	.	_	17	_	_	start_char=90|end_char=91
 
 # text = “I wanted to do something nice for her,” he explained.
-# sent_id = 19225
+# sent_id = 18595
 1	“	''	PUNCT	``	_	0	_	_	start_char=92|end_char=93|SpaceAfter=No
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=93|end_char=94
 3	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=95|end_char=101
@@ -37,7 +37,7 @@
 14	.	.	PUNCT	.	_	13	_	_	start_char=145|end_char=146
 
 # text = “She had so little time left to live.”
-# sent_id = 19226
+# sent_id = 18596
 1	“	''	PUNCT	``	_	0	_	_	start_char=147|end_char=148|SpaceAfter=No
 2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=148|end_char=151
 3	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=152|end_char=155
@@ -50,19 +50,16 @@
 10	.	.	PUNCT	.	_	9	_	_	start_char=183|end_char=184|SpaceAfter=No
 11	”	''	PUNCT	''	_	10	_	_	start_char=184|end_char=185
 
-# text = #ThisDayInHistory #Laika #Doomed #SpaceDog #Russia [URL]
-# sent_id = 19227
+# text = #ThisDayInHistory #Laika #Doomed #SpaceDog #Russia
+# sent_id = 18597
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=186|end_char=187|SpaceAfter=No
-2	ThisDayInHistory	thisdayinhistory	X	GW	_	1	_	_	start_char=187|end_char=203
+2	ThisDayInHistory	thisdayinhistory	NOUN	NN	Number=Sing	1	_	_	start_char=187|end_char=203
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=204|end_char=205|SpaceAfter=No
-4	Laika	Laika	X	GW	_	3	_	_	start_char=205|end_char=210
+4	Laika	Laika	PROPN	NNP	Number=Sing	3	_	_	start_char=205|end_char=210
 5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=211|end_char=212|SpaceAfter=No
-6	Doomed	doomed	X	FW	_	5	_	_	start_char=212|end_char=218
+6	Doomed	Doom	VERB	VBN	Tense=Past|VerbForm=Fin	5	_	_	start_char=212|end_char=218
 7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=219|end_char=220|SpaceAfter=No
-8	SpaceDog	spacedog	X	FW	_	7	_	_	start_char=220|end_char=228
+8	SpaceDog	spacedog	NOUN	NN	Number=Sing	7	_	_	start_char=220|end_char=228
 9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=229|end_char=230|SpaceAfter=No
 10	Russia	Russia	PROPN	NNP	Number=Sing	9	_	_	start_char=230|end_char=236
-11	[	[	PUNCT	-LRB-	_	10	_	_	start_char=237|end_char=238|SpaceAfter=No
-12	URL	URL	NOUN	NN	Number=Sing	11	_	_	start_char=238|end_char=241|SpaceAfter=No
-13	]	]	PUNCT	-RRB-	_	12	_	_	start_char=241|end_char=242|SpaceAfter=No
 

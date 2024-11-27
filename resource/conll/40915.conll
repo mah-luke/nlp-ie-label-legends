@@ -1,59 +1,52 @@
-# text = [URL] old lady of 92 isnt getting put in nursing home against her will.
-# sent_id = 87535
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-4	old	old	ADJ	JJ	Degree=Pos	3	_	_	start_char=6|end_char=9
-5	lady	lady	NOUN	NN	Number=Sing	4	_	_	start_char=10|end_char=14
-6	of	of	ADP	IN	_	5	_	_	start_char=15|end_char=17
-7	92	92	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=18|end_char=20
-8-9	isnt	_	_	_	_	_	_	_	start_char=21|end_char=25
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=21|end_char=23
-9	nt	not	PART	RB	_	8	_	_	start_char=23|end_char=25
-10	getting	get	AUX	VBG	VerbForm=Ger	9	_	_	start_char=26|end_char=33
-11	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=34|end_char=37
-12	in	in	ADP	IN	_	11	_	_	start_char=38|end_char=40
-13	nursing	nursing	NOUN	NN	Number=Sing	12	_	_	start_char=41|end_char=48
-14	home	home	ADV	RB	_	13	_	_	start_char=49|end_char=53
-15	against	against	ADP	IN	_	14	_	_	start_char=54|end_char=61
-16	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=62|end_char=65
-17	will	will	NOUN	NN	Number=Sing	16	_	_	start_char=66|end_char=70|SpaceAfter=No
-18	.	.	PUNCT	.	_	17	_	_	start_char=70|end_char=71
+# text = old lady of 92 isnt getting put in nursing home against her will.
+# sent_id = 84664
+1	old	old	ADJ	JJ	Degree=Pos	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	lady	lady	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9
+3	of	of	ADP	IN	_	2	_	_	start_char=10|end_char=12
+4	92	92	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=13|end_char=15
+5-6	isnt	_	_	_	_	_	_	_	start_char=16|end_char=20
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=16|end_char=18
+6	nt	not	PART	RB	_	5	_	_	start_char=18|end_char=20
+7	getting	get	AUX	VBG	VerbForm=Ger	6	_	_	start_char=21|end_char=28
+8	put	put	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	7	_	_	start_char=29|end_char=32
+9	in	in	ADP	IN	_	8	_	_	start_char=33|end_char=35
+10	nursing	nursing	NOUN	NN	Number=Sing	9	_	_	start_char=36|end_char=43
+11	home	home	ADV	RB	_	10	_	_	start_char=44|end_char=48
+12	against	against	ADP	IN	_	11	_	_	start_char=49|end_char=56
+13	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=57|end_char=60
+14	will	will	NOUN	NN	Number=Sing	13	_	_	start_char=61|end_char=65|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=65|end_char=66
 
 # text = if you knew how bad some nursing homes can be.
-# sent_id = 87536
-1	if	if	SCONJ	IN	_	0	_	_	start_char=72|end_char=74
-2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=75|end_char=78
-3	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	_	_	start_char=79|end_char=83
-4	how	how	ADV	WRB	PronType=Int	3	_	_	start_char=84|end_char=87
-5	bad	bad	ADJ	JJ	Degree=Pos	4	_	_	start_char=88|end_char=91
-6	some	some	DET	DT	_	5	_	_	start_char=92|end_char=96
-7	nursing	nursing	NOUN	NN	Number=Sing	6	_	_	start_char=97|end_char=104
-8	homes	home	NOUN	NNS	Number=Plur	7	_	_	start_char=105|end_char=110
-9	can	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=111|end_char=114
-10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=115|end_char=117|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=117|end_char=118
+# sent_id = 84665
+1	if	if	SCONJ	IN	_	0	_	_	start_char=67|end_char=69
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=70|end_char=73
+3	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	2	_	_	start_char=74|end_char=78
+4	how	how	ADV	WRB	PronType=Int	3	_	_	start_char=79|end_char=82
+5	bad	bad	ADJ	JJ	Degree=Pos	4	_	_	start_char=83|end_char=86
+6	some	some	DET	DT	_	5	_	_	start_char=87|end_char=91
+7	nursing	nursing	NOUN	NN	Number=Sing	6	_	_	start_char=92|end_char=99
+8	homes	home	NOUN	NNS	Number=Plur	7	_	_	start_char=100|end_char=105
+9	can	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=106|end_char=109
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=110|end_char=112|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=112|end_char=113
 
 # text = parents give you 18 yrs..cant you give them 5?!
-# sent_id = 87537
-1	parents	parent	NOUN	NNS	Number=Plur	0	_	_	start_char=119|end_char=126
-2	give	give	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=127|end_char=131
-3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=132|end_char=135
-4	18	18	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=136|end_char=138
-5	yrs	year	NOUN	NNS	Number=Plur	4	_	_	start_char=139|end_char=142|SpaceAfter=No
-6	..	..	PUNCT	,	_	5	_	_	start_char=142|end_char=144|SpaceAfter=No
-7	cant	cant	AUX	MD	VerbForm=Fin	6	_	_	start_char=144|end_char=148
-8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=149|end_char=152
-9	give	give	VERB	VB	VerbForm=Inf	8	_	_	start_char=153|end_char=157
-10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=158|end_char=162
-11	5	5	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=163|end_char=164|SpaceAfter=No
-12	?!	?!	PUNCT	.	_	11	_	_	start_char=164|end_char=166
+# sent_id = 84666
+1	parents	parent	NOUN	NNS	Number=Plur	0	_	_	start_char=114|end_char=121
+2	give	give	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=122|end_char=126
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=127|end_char=130
+4	18	18	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=131|end_char=133
+5	yrs	year	NOUN	NNS	Number=Plur	4	_	_	start_char=134|end_char=137|SpaceAfter=No
+6	..	..	PUNCT	,	_	5	_	_	start_char=137|end_char=139|SpaceAfter=No
+7	cant	cant	AUX	MD	VerbForm=Fin	6	_	_	start_char=139|end_char=143
+8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=144|end_char=147
+9	give	give	VERB	VB	VerbForm=Inf	8	_	_	start_char=148|end_char=152
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=153|end_char=157
+11	5	5	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=158|end_char=159|SpaceAfter=No
+12	?!	?!	PUNCT	.	_	11	_	_	start_char=159|end_char=161
 
-# text = wtf.. [URL]
-# sent_id = 87538
-1	wtf	wtf	INTJ	UH	_	0	_	_	start_char=167|end_char=170|SpaceAfter=No
-2	..	..	PUNCT	.	_	1	_	_	start_char=170|end_char=172
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=173|end_char=174|SpaceAfter=No
-4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=174|end_char=177|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=177|end_char=178|SpaceAfter=No
+# text = wtf..
+# sent_id = 84667
+1	wtf..	wtf..	PUNCT	NFP	_	0	_	_	start_char=162|end_char=167
 

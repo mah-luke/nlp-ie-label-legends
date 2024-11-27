@@ -1,5 +1,5 @@
-# text = Eight-year-old boy is 'beaten to death with a hammer by his mom's ex as he tries to stop him sexually assaulting his younger sister' [URL] DEATH PENALTY.
-# sent_id = 123933
+# text = Eight-year-old boy is 'beaten to death with a hammer by his mom's ex as he tries to stop him sexually assaulting his younger sister'
+# sent_id = 119955
 1	Eight	eight	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=0|end_char=5|SpaceAfter=No
 2	-	-	PUNCT	HYPH	_	1	_	_	start_char=5|end_char=6|SpaceAfter=No
 3	year	year	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=10|SpaceAfter=No
@@ -31,11 +31,11 @@
 28	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	27	_	_	start_char=113|end_char=116
 29	younger	young	ADJ	JJR	Degree=Cmp	28	_	_	start_char=117|end_char=124
 30	sister	sister	NOUN	NN	Number=Sing	29	_	_	start_char=125|end_char=131|SpaceAfter=No
-31	'	'	PUNCT	``	_	30	_	_	start_char=131|end_char=132
-32	[	[	PUNCT	-LRB-	_	31	_	_	start_char=133|end_char=134|SpaceAfter=No
-33	URL	URL	NOUN	NN	Number=Sing	32	_	_	start_char=134|end_char=137|SpaceAfter=No
-34	]	]	PUNCT	-RRB-	_	33	_	_	start_char=137|end_char=138
-35	DEATH	death	NOUN	NN	Number=Sing	34	_	_	start_char=139|end_char=144
-36	PENALTY	penalty	NOUN	NN	Number=Sing	35	_	_	start_char=145|end_char=152|SpaceAfter=No
-37	.	.	PUNCT	.	_	36	_	_	start_char=152|end_char=153|SpaceAfter=No
+31	'	'	PUNCT	''	_	30	_	_	start_char=131|end_char=132|SpacesAfter=\s\s
+
+# text = DEATH PENALTY.
+# sent_id = 119956
+1	DEATH	death	NOUN	NN	Number=Sing	0	_	_	start_char=134|end_char=139
+2	PENALTY	penalty	NOUN	NN	Number=Sing	1	_	_	start_char=140|end_char=147|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=147|end_char=148|SpaceAfter=No
 

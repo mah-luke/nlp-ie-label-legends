@@ -1,63 +1,60 @@
-# text = [USER] Following you...again...because I NEVER unfollowed you!
-# sent_id = 121626
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	Following	follow	VERB	VBG	VerbForm=Ger	3	_	_	start_char=7|end_char=16
-5	you...again	you...again	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	4	_	_	start_char=17|end_char=28|SpaceAfter=No
-6	...	...	PUNCT	,	_	5	_	_	start_char=28|end_char=31|SpaceAfter=No
-7	because	because	SCONJ	IN	_	6	_	_	start_char=31|end_char=38
-8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=39|end_char=40
-9	NEVER	never	ADV	RB	_	8	_	_	start_char=41|end_char=46
-10	unfollowed	unfollow	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	_	_	start_char=47|end_char=57
-11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=58|end_char=61|SpaceAfter=No
-12	!	!	PUNCT	.	_	11	_	_	start_char=61|end_char=62
+# text = Following you...again...because I NEVER unfollowed you!
+# sent_id = 117711
+1	Following	follow	VERB	VBG	VerbForm=Ger	0	_	_	start_char=1|end_char=10|SpacesBefore=\s
+2	you...again	you...again	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	1	_	_	start_char=11|end_char=22|SpaceAfter=No
+3	...	...	PUNCT	,	_	2	_	_	start_char=22|end_char=25|SpaceAfter=No
+4	because	because	SCONJ	IN	_	3	_	_	start_char=25|end_char=32
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=33|end_char=34
+6	NEVER	never	ADV	RB	_	5	_	_	start_char=35|end_char=40
+7	unfollowed	unfollow	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	_	_	start_char=41|end_char=51
+8	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	7	_	_	start_char=52|end_char=55|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=55|end_char=56
 
 # text = EVER!!!!!!!!!!
-# sent_id = 121627
-1	EVER	ever	ADV	RB	_	0	_	_	start_char=63|end_char=67|SpaceAfter=No
-2	!!!!!!!!!!	!!!!!!!!!!	PUNCT	.	_	1	_	_	start_char=67|end_char=77
+# sent_id = 117712
+1	EVER	ever	ADV	RB	_	0	_	_	start_char=57|end_char=61|SpaceAfter=No
+2	!!!!!!!!!!	!!!!!!!!!!	PUNCT	.	_	1	_	_	start_char=61|end_char=71
 
 # text = (Keely is on a fucking warpath tonight.
-# sent_id = 121628
-1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=78|end_char=79|SpaceAfter=No
-2	Keely	Keely	PROPN	NNP	Number=Sing	1	_	_	start_char=79|end_char=84
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=85|end_char=87
-4	on	on	ADP	IN	_	3	_	_	start_char=88|end_char=90
-5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=91|end_char=92
-6	fucking	fuck	ADJ	JJ	Degree=Pos	5	_	_	start_char=93|end_char=100
-7	warpath	warpath	NOUN	NN	Number=Sing	6	_	_	start_char=101|end_char=108
-8	tonight	tonight	NOUN	NN	Number=Sing	7	_	_	start_char=109|end_char=116|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=116|end_char=117
+# sent_id = 117713
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=72|end_char=73|SpaceAfter=No
+2	Keely	Keely	PROPN	NNP	Number=Sing	1	_	_	start_char=73|end_char=78
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=79|end_char=81
+4	on	on	ADP	IN	_	3	_	_	start_char=82|end_char=84
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=85|end_char=86
+6	fucking	fuck	ADJ	JJ	Degree=Pos	5	_	_	start_char=87|end_char=94
+7	warpath	warpath	NOUN	NN	Number=Sing	6	_	_	start_char=95|end_char=102
+8	tonight	tonight	NOUN	NN	Number=Sing	7	_	_	start_char=103|end_char=110|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=110|end_char=111
 
 # text = My score is zero.
-# sent_id = 121629
-1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=118|end_char=120
-2	score	score	NOUN	NN	Number=Sing	1	_	_	start_char=121|end_char=126
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=127|end_char=129
-4	zero	zero	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=130|end_char=134|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=134|end_char=135
+# sent_id = 117714
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=112|end_char=114
+2	score	score	NOUN	NN	Number=Sing	1	_	_	start_char=115|end_char=120
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=121|end_char=123
+4	zero	zero	NUM	CD	NumForm=Word|NumType=Card	3	_	_	start_char=124|end_char=128|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=128|end_char=129
 
 # text = I'm burning this whole mother fucker down.
-# sent_id = 121630
-1-2	I'm	_	_	_	_	_	_	_	start_char=136|end_char=139
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=136|end_char=137
-2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=137|end_char=139
-3	burning	burn	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=140|end_char=147
-4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=148|end_char=152
-5	whole	whole	ADJ	JJ	Degree=Pos	4	_	_	start_char=153|end_char=158
-6	mother	mother	NOUN	NN	Number=Sing	5	_	_	start_char=159|end_char=165
-7	fucker	fucker	NOUN	NN	Number=Sing	6	_	_	start_char=166|end_char=172
-8	down	down	ADV	RB	_	7	_	_	start_char=173|end_char=177|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=177|end_char=178
+# sent_id = 117715
+1-2	I'm	_	_	_	_	_	_	_	start_char=130|end_char=133
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=130|end_char=131
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=131|end_char=133
+3	burning	burn	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=134|end_char=141
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=142|end_char=146
+5	whole	whole	ADJ	JJ	Degree=Pos	4	_	_	start_char=147|end_char=152
+6	mother	mother	NOUN	NN	Number=Sing	5	_	_	start_char=153|end_char=159
+7	fucker	fucker	NOUN	NN	Number=Sing	6	_	_	start_char=160|end_char=166
+8	down	down	ADV	RB	_	7	_	_	start_char=167|end_char=171|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=171|end_char=172
 
 # text = Get out while you can.)
-# sent_id = 121631
-1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=179|end_char=182
-2	out	out	ADP	RP	_	1	_	_	start_char=183|end_char=186
-3	while	while	SCONJ	IN	_	2	_	_	start_char=187|end_char=192
-4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=193|end_char=196
-5	can	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=197|end_char=200|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=200|end_char=201|SpaceAfter=No
-7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=201|end_char=202|SpaceAfter=No
+# sent_id = 117716
+1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=173|end_char=176
+2	out	out	ADP	RP	_	1	_	_	start_char=177|end_char=180
+3	while	while	SCONJ	IN	_	2	_	_	start_char=181|end_char=186
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=187|end_char=190
+5	can	can	AUX	MD	VerbForm=Fin	4	_	_	start_char=191|end_char=194|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=194|end_char=195|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=195|end_char=196|SpaceAfter=No
 

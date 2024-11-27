@@ -1,13 +1,13 @@
 # text = I rest my case.
-# sent_id = 20156
+# sent_id = 19502
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
 2	rest	rest	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
 3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=7|end_char=9
 4	case	case	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=14|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	_	_	start_char=14|end_char=15
 
-# text = Clyde, I’ll give you half a can of peaches if you sit on her long enough to fix that damn foot... /cc [USER]‍
-# sent_id = 20157
+# text = Clyde, I’ll give you half a can of peaches if you sit on her long enough to fix that damn foot... /cc ‍
+# sent_id = 19503
 1	Clyde	Clyde	PROPN	NNP	Number=Sing	0	_	_	start_char=16|end_char=21|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	start_char=21|end_char=22
 3-4	I’ll	_	_	_	_	_	_	_	start_char=23|end_char=27
@@ -35,8 +35,5 @@
 24	...	...	PUNCT	,	_	23	_	_	start_char=110|end_char=113
 25	/	/	SYM	,	_	24	_	_	start_char=114|end_char=115|SpaceAfter=No
 26	cc	cc	NOUN	NN	Number=Sing	25	_	_	start_char=115|end_char=117
-27	[	[	PUNCT	-LRB-	_	26	_	_	start_char=118|end_char=119|SpaceAfter=No
-28	USER	user	NOUN	NN	Number=Sing	27	_	_	start_char=119|end_char=123|SpaceAfter=No
-29	]	]	PUNCT	-RRB-	_	28	_	_	start_char=123|end_char=124|SpaceAfter=No
-30	‍	‍	PUNCT	.	_	29	_	_	start_char=124|end_char=125|SpaceAfter=No
+27	‍	‍	PUNCT	.	_	26	_	_	start_char=118|end_char=119|SpaceAfter=No
 

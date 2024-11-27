@@ -1,5 +1,5 @@
 # text = "Baby's in the cradle, Brother's on the town.
-# sent_id = 18206
+# sent_id = 17624
 1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2-3	Baby's	_	_	_	_	_	_	_	start_char=1|end_char=7
 2	Baby	baby	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5
@@ -17,7 +17,7 @@
 13	.	.	PUNCT	.	_	12	_	_	start_char=44|end_char=45
 
 # text = Sister's in the parlor, trying on a gown.
-# sent_id = 18207
+# sent_id = 17625
 1-2	Sister's	_	_	_	_	_	_	_	start_char=46|end_char=54
 1	Sister	Sister	PROPN	NNP	Number=Sing	0	_	_	start_char=46|end_char=52
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=52|end_char=54
@@ -32,7 +32,7 @@
 11	.	.	PUNCT	.	_	10	_	_	start_char=86|end_char=87
 
 # text = Mama's in the kitchen, messin' all around.
-# sent_id = 18208
+# sent_id = 17626
 1-2	Mama's	_	_	_	_	_	_	_	start_char=88|end_char=94
 1	Mama	mama	NOUN	NN	Number=Sing	0	_	_	start_char=88|end_char=92
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=92|end_char=94
@@ -46,8 +46,8 @@
 10	around	around	ADV	RB	_	9	_	_	start_char=123|end_char=129|SpaceAfter=No
 11	.	.	PUNCT	.	_	10	_	_	start_char=129|end_char=130
 
-# text = Papa's on the housetop and won't come down." 😂 [URL]
-# sent_id = 18209
+# text = Papa's on the housetop and won't come down." 😂
+# sent_id = 17627
 1-2	Papa's	_	_	_	_	_	_	_	start_char=131|end_char=137
 1	Papa	Papa	PROPN	NNP	Number=Sing	0	_	_	start_char=131|end_char=135
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=135|end_char=137
@@ -62,8 +62,5 @@
 10	down	down	ADV	RB	_	9	_	_	start_char=169|end_char=173|SpaceAfter=No
 11	.	.	PUNCT	.	_	10	_	_	start_char=173|end_char=174|SpaceAfter=No
 12	"	"	PUNCT	''	_	11	_	_	start_char=174|end_char=175
-13	😂	😂	PUNCT	``	_	12	_	_	start_char=176|end_char=177
-14	[	[	PUNCT	-LRB-	_	13	_	_	start_char=178|end_char=179|SpaceAfter=No
-15	URL	URL	PROPN	NNP	Number=Sing	14	_	_	start_char=179|end_char=182|SpaceAfter=No
-16	]	]	PUNCT	-RRB-	_	15	_	_	start_char=182|end_char=183|SpaceAfter=No
+13	😂	😂	PUNCT	.	_	12	_	_	start_char=176|end_char=177
 

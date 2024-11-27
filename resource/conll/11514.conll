@@ -1,5 +1,5 @@
 # text = nonononono - my sister is going to be one of those.
-# sent_id = 24375
+# sent_id = 23577
 1	nonononono	nonononono	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=10
 2	-	-	PUNCT	,	_	1	_	_	start_char=11|end_char=12
 3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=13|end_char=15
@@ -11,46 +11,43 @@
 9	one	one	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=38|end_char=41
 10	of	of	ADP	IN	_	9	_	_	start_char=42|end_char=44
 11	those	that	PRON	DT	Number=Plur|PronType=Dem	10	_	_	start_char=45|end_char=50|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=50|end_char=51
+12	.	.	PUNCT	.	_	11	_	_	start_char=50|end_char=51|SpacesAfter=\s\s
 
-# text = [USER] should NOT be that!!
-# sent_id = 24376
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=52|end_char=53|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=53|end_char=57|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=57|end_char=58
-4	should	should	AUX	MD	VerbForm=Fin	3	_	_	start_char=59|end_char=65
-5	NOT	not	PART	RB	_	4	_	_	start_char=66|end_char=69
-6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=70|end_char=72
-7	that	that	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=73|end_char=77|SpaceAfter=No
-8	!!	!!	PUNCT	.	_	7	_	_	start_char=77|end_char=79
+# text = should NOT be that!!
+# sent_id = 23578
+1	should	should	AUX	MD	VerbForm=Fin	0	_	_	start_char=53|end_char=59
+2	NOT	not	PART	RB	_	1	_	_	start_char=60|end_char=63
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=64|end_char=66
+4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=67|end_char=71|SpaceAfter=No
+5	!!	!!	PUNCT	.	_	4	_	_	start_char=71|end_char=73
 
 # text = Jesus Christ like Catholic wives have like 7-9 kids!!
-# sent_id = 24377
-1	Jesus	Jesus	PROPN	NNP	Number=Sing	0	_	_	start_char=80|end_char=85
-2	Christ	Christ	PROPN	NNP	Number=Sing	1	_	_	start_char=86|end_char=92
-3	like	like	ADP	IN	_	2	_	_	start_char=93|end_char=97
-4	Catholic	Catholic	ADJ	JJ	Degree=Pos	3	_	_	start_char=98|end_char=106
-5	wives	wife	NOUN	NNS	Number=Plur	4	_	_	start_char=107|end_char=112
-6	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=113|end_char=117
-7	like	like	INTJ	UH	_	6	_	_	start_char=118|end_char=122
-8	7	7	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=123|end_char=124|SpaceAfter=No
-9	-	-	SYM	SYM	_	8	_	_	start_char=124|end_char=125|SpaceAfter=No
-10	9	9	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=125|end_char=126
-11	kids	kid	NOUN	NNS	Number=Plur	10	_	_	start_char=127|end_char=131|SpaceAfter=No
-12	!!	!!	PUNCT	.	_	11	_	_	start_char=131|end_char=133
+# sent_id = 23579
+1	Jesus	Jesus	PROPN	NNP	Number=Sing	0	_	_	start_char=74|end_char=79
+2	Christ	Christ	PROPN	NNP	Number=Sing	1	_	_	start_char=80|end_char=86
+3	like	like	ADP	IN	_	2	_	_	start_char=87|end_char=91
+4	Catholic	Catholic	ADJ	JJ	Degree=Pos	3	_	_	start_char=92|end_char=100
+5	wives	wife	NOUN	NNS	Number=Plur	4	_	_	start_char=101|end_char=106
+6	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=107|end_char=111
+7	like	like	INTJ	UH	_	6	_	_	start_char=112|end_char=116
+8	7	7	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=117|end_char=118|SpaceAfter=No
+9	-	-	SYM	SYM	_	8	_	_	start_char=118|end_char=119|SpaceAfter=No
+10	9	9	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=119|end_char=120
+11	kids	kid	NOUN	NNS	Number=Plur	10	_	_	start_char=121|end_char=125|SpaceAfter=No
+12	!!	!!	PUNCT	.	_	11	_	_	start_char=125|end_char=127
 
 # text = Plus on top of that you should be a Kekistani woman Sarah
-# sent_id = 24378
-1	Plus	plus	CCONJ	CC	_	0	_	_	start_char=134|end_char=138
-2	on	on	ADP	IN	_	1	_	_	start_char=139|end_char=141
-3	top	top	NOUN	NN	Number=Sing	2	_	_	start_char=142|end_char=145
-4	of	of	ADP	IN	_	3	_	_	start_char=146|end_char=148
-5	that	that	SCONJ	IN	_	4	_	_	start_char=149|end_char=153
-6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=154|end_char=157
-7	should	should	AUX	MD	VerbForm=Fin	6	_	_	start_char=158|end_char=164
-8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=165|end_char=167
-9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=168|end_char=169
-10	Kekistani	Kekistani	PROPN	NNP	Number=Sing	9	_	_	start_char=170|end_char=179
-11	woman	woman	NOUN	NN	Number=Sing	10	_	_	start_char=180|end_char=185
-12	Sarah	Sarah	PROPN	NNP	Number=Sing	11	_	_	start_char=186|end_char=191|SpaceAfter=No
+# sent_id = 23580
+1	Plus	plus	CCONJ	CC	_	0	_	_	start_char=128|end_char=132
+2	on	on	ADP	IN	_	1	_	_	start_char=133|end_char=135
+3	top	top	NOUN	NN	Number=Sing	2	_	_	start_char=136|end_char=139
+4	of	of	ADP	IN	_	3	_	_	start_char=140|end_char=142
+5	that	that	SCONJ	IN	_	4	_	_	start_char=143|end_char=147
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=148|end_char=151
+7	should	should	AUX	MD	VerbForm=Fin	6	_	_	start_char=152|end_char=158
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=159|end_char=161
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=162|end_char=163
+10	Kekistani	Kekistani	PROPN	NNP	Number=Sing	9	_	_	start_char=164|end_char=173
+11	woman	woman	NOUN	NN	Number=Sing	10	_	_	start_char=174|end_char=179
+12	Sarah	Sarah	PROPN	NNP	Number=Sing	11	_	_	start_char=180|end_char=185|SpaceAfter=No
 

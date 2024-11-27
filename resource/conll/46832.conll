@@ -1,47 +1,41 @@
-# text = [USER]
-# sent_id = 100058
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Of course he doesn't know what America First means.
-# sent_id = 100059
-1	Of	of	ADV	IN	_	0	_	_	start_char=7|end_char=9
-2	course	course	NOUN	NN	Number=Sing	1	_	_	start_char=10|end_char=16
-3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=17|end_char=19
-4-5	doesn't	_	_	_	_	_	_	_	start_char=20|end_char=27
-4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=20|end_char=24
-5	n't	not	PART	RB	_	4	_	_	start_char=24|end_char=27
-6	know	know	VERB	VB	VerbForm=Inf	5	_	_	start_char=28|end_char=32
-7	what	what	PRON	WP	PronType=Rel	6	_	_	start_char=33|end_char=37
-8	America	America	PROPN	NNP	Number=Sing	7	_	_	start_char=38|end_char=45
-9	First	first	ADJ	JJ	Degree=Pos|NumType=Ord	8	_	_	start_char=46|end_char=51
-10	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=52|end_char=57|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=57|end_char=58
+# sent_id = 96771
+1	Of	of	ADV	IN	_	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	course	course	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=10
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=11|end_char=13
+4-5	doesn't	_	_	_	_	_	_	_	start_char=14|end_char=21
+4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=18
+5	n't	not	PART	RB	_	4	_	_	start_char=18|end_char=21
+6	know	know	VERB	VB	VerbForm=Inf	5	_	_	start_char=22|end_char=26
+7	what	what	PRON	WP	PronType=Rel	6	_	_	start_char=27|end_char=31
+8	America	America	PROPN	NNP	Number=Sing	7	_	_	start_char=32|end_char=39
+9	First	first	ADJ	JJ	Degree=Pos|NumType=Ord	8	_	_	start_char=40|end_char=45
+10	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=46|end_char=51|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=51|end_char=52
 
 # text = He's a self promoting jackass of a career politician.
-# sent_id = 100060
-1-2	He's	_	_	_	_	_	_	_	start_char=59|end_char=63
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=59|end_char=61
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=61|end_char=63
-3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=64|end_char=65
-4	self	self	NOUN	NN	Number=Sing	3	_	_	start_char=66|end_char=70
-5	promoting	promote	VERB	VBG	VerbForm=Ger	4	_	_	start_char=71|end_char=80
-6	jackass	jackass	NOUN	NN	Number=Sing	5	_	_	start_char=81|end_char=88
-7	of	of	ADP	IN	_	6	_	_	start_char=89|end_char=91
-8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=92|end_char=93
-9	career	career	NOUN	NN	Number=Sing	8	_	_	start_char=94|end_char=100
-10	politician	politician	NOUN	NN	Number=Sing	9	_	_	start_char=101|end_char=111|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=111|end_char=112
+# sent_id = 96772
+1-2	He's	_	_	_	_	_	_	_	start_char=53|end_char=57
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=53|end_char=55
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=55|end_char=57
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=58|end_char=59
+4	self	self	NOUN	NN	Number=Sing	3	_	_	start_char=60|end_char=64
+5	promoting	promote	VERB	VBG	VerbForm=Ger	4	_	_	start_char=65|end_char=74
+6	jackass	jackass	NOUN	NN	Number=Sing	5	_	_	start_char=75|end_char=82
+7	of	of	ADP	IN	_	6	_	_	start_char=83|end_char=85
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=86|end_char=87
+9	career	career	NOUN	NN	Number=Sing	8	_	_	start_char=88|end_char=94
+10	politician	politician	NOUN	NN	Number=Sing	9	_	_	start_char=95|end_char=105|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=105|end_char=106
 
 # text = Graham First, he understands that slogan.
-# sent_id = 100061
-1	Graham	Graham	PROPN	NNP	Number=Sing	0	_	_	start_char=113|end_char=119
-2	First	First	PROPN	NNP	Number=Sing	1	_	_	start_char=120|end_char=125|SpaceAfter=No
-3	,	,	PUNCT	,	_	2	_	_	start_char=125|end_char=126
-4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=127|end_char=129
-5	understands	understand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=130|end_char=141
-6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=142|end_char=146
-7	slogan	slogan	NOUN	NN	Number=Sing	6	_	_	start_char=147|end_char=153|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=153|end_char=154|SpaceAfter=No
+# sent_id = 96773
+1	Graham	Graham	PROPN	NNP	Number=Sing	0	_	_	start_char=107|end_char=113
+2	First	First	PROPN	NNP	Number=Sing	1	_	_	start_char=114|end_char=119|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=119|end_char=120
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=121|end_char=123
+5	understands	understand	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=124|end_char=135
+6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=136|end_char=140
+7	slogan	slogan	NOUN	NN	Number=Sing	6	_	_	start_char=141|end_char=147|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=147|end_char=148|SpaceAfter=No
 

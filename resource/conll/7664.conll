@@ -1,5 +1,5 @@
 # text = Here's the address of your "private pool party" location and the Zillow info on it too.
-# sent_id = 16061
+# sent_id = 15555
 1-2	Here's	_	_	_	_	_	_	_	start_char=0|end_char=6
 1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=0|end_char=4
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
@@ -23,7 +23,7 @@
 20	.	.	PUNCT	.	_	19	_	_	start_char=86|end_char=87
 
 # text = 1233 SW 46 Ave Pompano Beach Florida 33069 Royal Poinciana Condos.
-# sent_id = 16062
+# sent_id = 15556
 1	1233	1233	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=88|end_char=92
 2	SW	SW	PROPN	NNP	Number=Sing	1	_	_	start_char=93|end_char=95
 3	46	46	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=96|end_char=98
@@ -38,7 +38,7 @@
 12	.	.	PUNCT	.	_	11	_	_	start_char=153|end_char=154
 
 # text = Can't be a trespasser if she's a resident!
-# sent_id = 16063
+# sent_id = 15557
 1-2	Can't	_	_	_	_	_	_	_	start_char=155|end_char=160
 1	Ca	can	AUX	MD	VerbForm=Fin	0	_	_	start_char=155|end_char=157
 2	n't	not	PART	RB	_	1	_	_	start_char=157|end_char=160
@@ -52,10 +52,4 @@
 9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=186|end_char=187
 10	resident	resident	NOUN	NN	Number=Sing	9	_	_	start_char=188|end_char=196|SpaceAfter=No
 11	!	!	PUNCT	.	_	10	_	_	start_char=196|end_char=197
-
-# text = [URL]
-# sent_id = 16064
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=198|end_char=199|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=199|end_char=202|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=202|end_char=203|SpaceAfter=No
 

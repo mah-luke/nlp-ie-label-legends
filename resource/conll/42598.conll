@@ -1,5 +1,5 @@
 # text = Who in the world signs their name 'Dave Smith - White guy'??
-# sent_id = 91036
+# sent_id = 88066
 1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=3
 2	in	in	ADP	IN	_	1	_	_	start_char=4|end_char=6
 3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7|end_char=10
@@ -17,7 +17,7 @@
 15	??	??	PUNCT	.	_	14	_	_	start_char=58|end_char=60
 
 # text = But that's what we have here with Picohontas.
-# sent_id = 91037
+# sent_id = 88067
 1	But	but	CCONJ	CC	_	0	_	_	start_char=61|end_char=64
 2-3	that's	_	_	_	_	_	_	_	start_char=65|end_char=71
 2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=65|end_char=69
@@ -31,11 +31,11 @@
 10	.	.	PUNCT	.	_	9	_	_	start_char=105|end_char=106
 
 # text = .
-# sent_id = 91038
+# sent_id = 88068
 1	.	.	PUNCT	.	_	0	_	_	start_char=107|end_char=108
 
-# text = 5. Warren submitted multiple recipes for the Indian cookbook “Pow Wow Chow” and signed her name, “Elizabeth Warren - Cherokee” [URL]
-# sent_id = 91039
+# text = 5. Warren submitted multiple recipes for the Indian cookbook “Pow Wow Chow” and signed her name, “Elizabeth Warren - Cherokee”
+# sent_id = 88069
 1	5	5	NUM	LS	_	0	_	_	start_char=109|end_char=110|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	_	_	start_char=110|end_char=111
 3	Warren	Warren	PROPN	NNP	Number=Sing	2	_	_	start_char=112|end_char=118
@@ -62,7 +62,4 @@
 24	-	-	PUNCT	HYPH	_	23	_	_	start_char=224|end_char=225
 25	Cherokee	Cherokee	PROPN	NNP	Number=Sing	24	_	_	start_char=226|end_char=234|SpaceAfter=No
 26	”	''	PUNCT	''	_	25	_	_	start_char=234|end_char=235
-27	[	[	PUNCT	-LRB-	_	26	_	_	start_char=236|end_char=237|SpaceAfter=No
-28	URL	URL	PROPN	NNP	Number=Sing	27	_	_	start_char=237|end_char=240|SpaceAfter=No
-29	]	]	PUNCT	-RRB-	_	28	_	_	start_char=240|end_char=241|SpaceAfter=No
 

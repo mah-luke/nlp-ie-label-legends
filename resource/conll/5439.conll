@@ -1,5 +1,5 @@
 # text = LIZ ThesePeopleRSick on Twitter: "Yes, Oprah is going to jail too.
-# sent_id = 11418
+# sent_id = 11040
 1	LIZ	LIZ	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3
 2	ThesePeopleRSick	ThesePeopleRSick	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=20
 3	on	on	ADP	IN	_	2	_	_	start_char=21|end_char=23
@@ -17,7 +17,7 @@
 15	.	.	PUNCT	.	_	14	_	_	start_char=65|end_char=66
 
 # text = She is very high up.
-# sent_id = 11419
+# sent_id = 11041
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=67|end_char=70
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=71|end_char=73
 3	very	very	ADV	RB	_	2	_	_	start_char=74|end_char=78
@@ -26,7 +26,7 @@
 6	.	.	PUNCT	.	_	5	_	_	start_char=86|end_char=87
 
 # text = This makes me so sad BC I truly loved Oprah & foolishly believed she is a good person.
-# sent_id = 11420
+# sent_id = 11042
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=88|end_char=92
 2	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=93|end_char=98
 3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=99|end_char=101
@@ -47,12 +47,9 @@
 18	person	person	NOUN	NN	Number=Sing	17	_	_	start_char=167|end_char=173|SpaceAfter=No
 19	.	.	PUNCT	.	_	18	_	_	start_char=173|end_char=174
 
-# text = #QAnon" [URL]
-# sent_id = 11421
+# text = #QAnon"
+# sent_id = 11043
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=175|end_char=176|SpaceAfter=No
-2	QAnon	QAnon	PROPN	NNP	Number=Sing	1	_	_	start_char=176|end_char=181|SpaceAfter=No
+2	QAnon	qanon	NOUN	NN	Number=Sing	1	_	_	start_char=176|end_char=181|SpaceAfter=No
 3	"	"	PUNCT	''	_	2	_	_	start_char=181|end_char=182
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=183|end_char=184|SpaceAfter=No
-5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=184|end_char=187|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=187|end_char=188|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = Why is raping old White woman an exclusively Black Thing?
-# sent_id = 10365
+# sent_id = 10011
 1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
 3	raping	rape	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=7|end_char=13
@@ -13,7 +13,7 @@
 11	?	?	PUNCT	.	_	10	_	_	start_char=56|end_char=57
 
 # text = Ever hear about White men raping Black women...especially old Black women???
-# sent_id = 10366
+# sent_id = 10012
 1	Ever	ever	ADV	RB	_	0	_	_	start_char=58|end_char=62
 2	hear	hear	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=63|end_char=67
 3	about	about	ADP	IN	_	2	_	_	start_char=68|end_char=73
@@ -27,24 +27,21 @@
 11	old	old	ADJ	JJ	Degree=Pos	10	_	_	start_char=116|end_char=119
 12	Black	Black	ADJ	JJ	Degree=Pos	11	_	_	start_char=120|end_char=125
 13	women	woman	NOUN	NNS	Number=Plur	12	_	_	start_char=126|end_char=131|SpaceAfter=No
-14	???	???	PUNCT	.	_	13	_	_	start_char=131|end_char=134
+14	???	???	PUNCT	.	_	13	_	_	start_char=131|end_char=134|SpacesAfter=\s\s
 
-# text = [URL] Colin Flaherty tells us about Black on White violence...support him....
-# sent_id = 10367
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=135|end_char=136|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=136|end_char=139|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=139|end_char=140
-4	Colin	Colin	PROPN	NNP	Number=Sing	3	_	_	start_char=141|end_char=146
-5	Flaherty	Flaherty	PROPN	NNP	Number=Sing	4	_	_	start_char=147|end_char=155
-6	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=156|end_char=161
-7	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	6	_	_	start_char=162|end_char=164
-8	about	about	ADP	IN	_	7	_	_	start_char=165|end_char=170
-9	Black	Black	PROPN	NNP	Number=Sing	8	_	_	start_char=171|end_char=176
-10	on	on	ADP	IN	_	9	_	_	start_char=177|end_char=179
-11	White	White	ADJ	JJ	Degree=Pos	10	_	_	start_char=180|end_char=185
-12	violence	violence	NOUN	NN	Number=Sing	11	_	_	start_char=186|end_char=194|SpaceAfter=No
-13	...	...	PUNCT	,	_	12	_	_	start_char=194|end_char=197|SpaceAfter=No
-14	support	support	VERB	VB	Mood=Imp|VerbForm=Fin	13	_	_	start_char=197|end_char=204
-15	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=205|end_char=208|SpaceAfter=No
-16	....	....	PUNCT	.	_	15	_	_	start_char=208|end_char=212|SpaceAfter=No
+# text = Colin Flaherty tells us about Black on White violence...support him....
+# sent_id = 10013
+1	Colin	Colin	PROPN	NNP	Number=Sing	0	_	_	start_char=136|end_char=141
+2	Flaherty	Flaherty	PROPN	NNP	Number=Sing	1	_	_	start_char=142|end_char=150
+3	tells	tell	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=151|end_char=156
+4	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=157|end_char=159
+5	about	about	ADP	IN	_	4	_	_	start_char=160|end_char=165
+6	Black	Black	PROPN	NNP	Number=Sing	5	_	_	start_char=166|end_char=171
+7	on	on	ADP	IN	_	6	_	_	start_char=172|end_char=174
+8	White	White	ADJ	JJ	Degree=Pos	7	_	_	start_char=175|end_char=180
+9	violence	violence	NOUN	NN	Number=Sing	8	_	_	start_char=181|end_char=189|SpaceAfter=No
+10	...	...	PUNCT	,	_	9	_	_	start_char=189|end_char=192|SpaceAfter=No
+11	support	support	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=192|end_char=199
+12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=200|end_char=203|SpaceAfter=No
+13	....	....	PUNCT	.	_	12	_	_	start_char=203|end_char=207|SpaceAfter=No
 

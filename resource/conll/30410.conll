@@ -1,68 +1,65 @@
-# text = [USER] ... adulation for Hitler, Germans (incl. unknown dad), hatred of Jews, coloreds, holocaust denial.
-# sent_id = 65169
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	...	...	PUNCT	,	_	3	_	_	start_char=7|end_char=10
-5	adulation	adulation	NOUN	NN	Number=Sing	4	_	_	start_char=11|end_char=20
-6	for	for	ADP	IN	_	5	_	_	start_char=21|end_char=24
-7	Hitler	Hitler	PROPN	NNP	Number=Sing	6	_	_	start_char=25|end_char=31|SpaceAfter=No
-8	,	,	PUNCT	,	_	7	_	_	start_char=31|end_char=32
-9	Germans	German	PROPN	NNPS	Number=Plur	8	_	_	start_char=33|end_char=40
-10	(	(	PUNCT	-LRB-	_	9	_	_	start_char=41|end_char=42|SpaceAfter=No
-11	incl.	incl.	ADV	FW	_	10	_	_	start_char=42|end_char=47
-12	unknown	unknown	ADJ	JJ	Degree=Pos	11	_	_	start_char=48|end_char=55
-13	dad	dad	NOUN	NN	Number=Sing	12	_	_	start_char=56|end_char=59|SpaceAfter=No
-14	)	)	PUNCT	-RRB-	_	13	_	_	start_char=59|end_char=60|SpaceAfter=No
-15	,	,	PUNCT	,	_	14	_	_	start_char=60|end_char=61
-16	hatred	hatred	NOUN	NN	Number=Sing	15	_	_	start_char=62|end_char=68
-17	of	of	ADP	IN	_	16	_	_	start_char=69|end_char=71
-18	Jews	Jew	PROPN	NNPS	Number=Plur	17	_	_	start_char=72|end_char=76|SpaceAfter=No
-19	,	,	PUNCT	,	_	18	_	_	start_char=76|end_char=77
-20	coloreds	colored	NOUN	NNS	Number=Plur	19	_	_	start_char=78|end_char=86|SpaceAfter=No
-21	,	,	PUNCT	,	_	20	_	_	start_char=86|end_char=87
-22	holocaust	holocaust	NOUN	NN	Number=Sing	21	_	_	start_char=88|end_char=97
-23	denial	denial	NOUN	NN	Number=Sing	22	_	_	start_char=98|end_char=104|SpaceAfter=No
-24	.	.	PUNCT	.	_	23	_	_	start_char=104|end_char=105
+# text = ... adulation for Hitler, Germans (incl. unknown dad), hatred of Jews, coloreds, holocaust denial.
+# sent_id = 63084
+1	...	...	PUNCT	,	_	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	adulation	adulation	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=14
+3	for	for	ADP	IN	_	2	_	_	start_char=15|end_char=18
+4	Hitler	Hitler	PROPN	NNP	Number=Sing	3	_	_	start_char=19|end_char=25|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=25|end_char=26
+6	Germans	German	PROPN	NNPS	Number=Plur	5	_	_	start_char=27|end_char=34
+7	(	(	PUNCT	-LRB-	_	6	_	_	start_char=35|end_char=36|SpaceAfter=No
+8	incl.	incl.	ADV	FW	_	7	_	_	start_char=36|end_char=41
+9	unknown	unknown	ADJ	JJ	Degree=Pos	8	_	_	start_char=42|end_char=49
+10	dad	dad	NOUN	NN	Number=Sing	9	_	_	start_char=50|end_char=53|SpaceAfter=No
+11	)	)	PUNCT	-RRB-	_	10	_	_	start_char=53|end_char=54|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=54|end_char=55
+13	hatred	hatred	NOUN	NN	Number=Sing	12	_	_	start_char=56|end_char=62
+14	of	of	ADP	IN	_	13	_	_	start_char=63|end_char=65
+15	Jews	Jew	PROPN	NNPS	Number=Plur	14	_	_	start_char=66|end_char=70|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=70|end_char=71
+17	coloreds	colored	NOUN	NNS	Number=Plur	16	_	_	start_char=72|end_char=80|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=80|end_char=81
+19	holocaust	holocaust	NOUN	NN	Number=Sing	18	_	_	start_char=82|end_char=91
+20	denial	denial	NOUN	NN	Number=Sing	19	_	_	start_char=92|end_char=98|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=98|end_char=99
 
 # text = Probably lives alone (or w/ ailing wife) in small town, doesn't want his neighbors to know what he does on Internet.
-# sent_id = 65170
-1	Probably	probably	ADV	RB	_	0	_	_	start_char=106|end_char=114
-2	lives	live	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=115|end_char=120
-3	alone	alone	ADV	RB	_	2	_	_	start_char=121|end_char=126
-4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=127|end_char=128|SpaceAfter=No
-5	or	or	CCONJ	CC	_	4	_	_	start_char=128|end_char=130
-6	w/	with	SYM	SYM	_	5	_	_	start_char=131|end_char=133
-7	ailing	ail	VERB	VBG	VerbForm=Ger	6	_	_	start_char=134|end_char=140
-8	wife	wife	NOUN	NN	Number=Sing	7	_	_	start_char=141|end_char=145|SpaceAfter=No
-9	)	)	PUNCT	-RRB-	_	8	_	_	start_char=145|end_char=146
-10	in	in	ADP	IN	_	9	_	_	start_char=147|end_char=149
-11	small	small	ADJ	JJ	Degree=Pos	10	_	_	start_char=150|end_char=155
-12	town	town	NOUN	NN	Number=Sing	11	_	_	start_char=156|end_char=160|SpaceAfter=No
-13	,	,	PUNCT	,	_	12	_	_	start_char=160|end_char=161
-14-15	doesn't	_	_	_	_	_	_	_	start_char=162|end_char=169
-14	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=162|end_char=166
-15	n't	not	PART	RB	_	14	_	_	start_char=166|end_char=169
-16	want	want	VERB	VB	VerbForm=Inf	15	_	_	start_char=170|end_char=174
-17	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=175|end_char=178
-18	neighbors	neighbor	NOUN	NNS	Number=Plur	17	_	_	start_char=179|end_char=188
-19	to	to	PART	TO	_	18	_	_	start_char=189|end_char=191
-20	know	know	VERB	VB	VerbForm=Inf	19	_	_	start_char=192|end_char=196
-21	what	what	PRON	WP	PronType=Rel	20	_	_	start_char=197|end_char=201
-22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=202|end_char=204
-23	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=205|end_char=209
-24	on	on	ADP	IN	_	23	_	_	start_char=210|end_char=212
-25	Internet	Internet	PROPN	NNP	Number=Sing	24	_	_	start_char=213|end_char=221|SpaceAfter=No
-26	.	.	PUNCT	.	_	25	_	_	start_char=221|end_char=222
+# sent_id = 63085
+1	Probably	probably	ADV	RB	_	0	_	_	start_char=100|end_char=108
+2	lives	live	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=109|end_char=114
+3	alone	alone	ADV	RB	_	2	_	_	start_char=115|end_char=120
+4	(	(	PUNCT	-LRB-	_	3	_	_	start_char=121|end_char=122|SpaceAfter=No
+5	or	or	CCONJ	CC	_	4	_	_	start_char=122|end_char=124
+6	w/	with	SYM	SYM	_	5	_	_	start_char=125|end_char=127
+7	ailing	ail	VERB	VBG	VerbForm=Ger	6	_	_	start_char=128|end_char=134
+8	wife	wife	NOUN	NN	Number=Sing	7	_	_	start_char=135|end_char=139|SpaceAfter=No
+9	)	)	PUNCT	-RRB-	_	8	_	_	start_char=139|end_char=140
+10	in	in	ADP	IN	_	9	_	_	start_char=141|end_char=143
+11	small	small	ADJ	JJ	Degree=Pos	10	_	_	start_char=144|end_char=149
+12	town	town	NOUN	NN	Number=Sing	11	_	_	start_char=150|end_char=154|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=154|end_char=155
+14-15	doesn't	_	_	_	_	_	_	_	start_char=156|end_char=163
+14	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=156|end_char=160
+15	n't	not	PART	RB	_	14	_	_	start_char=160|end_char=163
+16	want	want	VERB	VB	VerbForm=Inf	15	_	_	start_char=164|end_char=168
+17	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=169|end_char=172
+18	neighbors	neighbor	NOUN	NNS	Number=Plur	17	_	_	start_char=173|end_char=182
+19	to	to	PART	TO	_	18	_	_	start_char=183|end_char=185
+20	know	know	VERB	VB	VerbForm=Inf	19	_	_	start_char=186|end_char=190
+21	what	what	PRON	WP	PronType=Rel	20	_	_	start_char=191|end_char=195
+22	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=196|end_char=198
+23	does	do	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=199|end_char=203
+24	on	on	ADP	IN	_	23	_	_	start_char=204|end_char=206
+25	Internet	Internet	PROPN	NNP	Number=Sing	24	_	_	start_char=207|end_char=215|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=215|end_char=216
 
 # text = Sucks to be him. (3/3)
-# sent_id = 65171
-1	Sucks	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=223|end_char=228
-2	to	to	PART	TO	_	1	_	_	start_char=229|end_char=231
-3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=232|end_char=234
-4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=235|end_char=238|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=238|end_char=239
-6	(	(	PUNCT	-LRB-	_	5	_	_	start_char=240|end_char=241|SpaceAfter=No
-7	3/3	3/3	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=241|end_char=244|SpaceAfter=No
-8	)	)	PUNCT	-RRB-	_	7	_	_	start_char=244|end_char=245|SpaceAfter=No
+# sent_id = 63086
+1	Sucks	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=217|end_char=222
+2	to	to	PART	TO	_	1	_	_	start_char=223|end_char=225
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=226|end_char=228
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=229|end_char=232|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=232|end_char=233
+6	(	(	PUNCT	-LRB-	_	5	_	_	start_char=234|end_char=235|SpaceAfter=No
+7	3/3	3/3	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=235|end_char=238|SpaceAfter=No
+8	)	)	PUNCT	-RRB-	_	7	_	_	start_char=238|end_char=239|SpaceAfter=No
 

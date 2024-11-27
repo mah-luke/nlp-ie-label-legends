@@ -1,61 +1,55 @@
-# text = [USER]
-# sent_id = 121687
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = True, Chicago has more murders than any U.S. city.
-# sent_id = 121688
-1	True	true	ADJ	JJ	Degree=Pos	0	_	_	start_char=7|end_char=11|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=11|end_char=12
-3	Chicago	Chicago	PROPN	NNP	Number=Sing	2	_	_	start_char=13|end_char=20
-4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=21|end_char=24
-5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=25|end_char=29
-6	murders	murder	NOUN	NNS	Number=Plur	5	_	_	start_char=30|end_char=37
-7	than	than	ADP	IN	_	6	_	_	start_char=38|end_char=42
-8	any	any	DET	DT	_	7	_	_	start_char=43|end_char=46
-9	U.S.	U.S.	PROPN	NNP	Number=Sing	8	_	_	start_char=47|end_char=51
-10	city	city	NOUN	NN	Number=Sing	9	_	_	start_char=52|end_char=56|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=56|end_char=57
+# sent_id = 117771
+1	True	true	ADJ	JJ	Degree=Pos	0	_	_	start_char=1|end_char=5|SpaceAfter=No|SpacesBefore=\s
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3	Chicago	Chicago	PROPN	NNP	Number=Sing	2	_	_	start_char=7|end_char=14
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=18
+5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=19|end_char=23
+6	murders	murder	NOUN	NNS	Number=Plur	5	_	_	start_char=24|end_char=31
+7	than	than	ADP	IN	_	6	_	_	start_char=32|end_char=36
+8	any	any	DET	DT	_	7	_	_	start_char=37|end_char=40
+9	U.S.	U.S.	PROPN	NNP	Number=Sing	8	_	_	start_char=41|end_char=45
+10	city	city	NOUN	NN	Number=Sing	9	_	_	start_char=46|end_char=50|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=50|end_char=51
 
 # text = But as to the murder rate per 100,000, Chicago isn't even in the top twenty.
-# sent_id = 121689
-1	But	but	CCONJ	CC	_	0	_	_	start_char=58|end_char=61
-2	as	as	ADP	IN	_	1	_	_	start_char=62|end_char=64
-3	to	to	ADP	IN	_	2	_	_	start_char=65|end_char=67
-4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=68|end_char=71
-5	murder	murder	NOUN	NN	Number=Sing	4	_	_	start_char=72|end_char=78
-6	rate	rate	NOUN	NN	Number=Sing	5	_	_	start_char=79|end_char=83
-7	per	per	ADP	IN	_	6	_	_	start_char=84|end_char=87
-8	100,000	100000	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=88|end_char=95|SpaceAfter=No
-9	,	,	PUNCT	,	_	8	_	_	start_char=95|end_char=96
-10	Chicago	Chicago	PROPN	NNP	Number=Sing	9	_	_	start_char=97|end_char=104
-11-12	isn't	_	_	_	_	_	_	_	start_char=105|end_char=110
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=105|end_char=107
-12	n't	not	PART	RB	_	11	_	_	start_char=107|end_char=110
-13	even	even	ADV	RB	_	12	_	_	start_char=111|end_char=115
-14	in	in	ADP	IN	_	13	_	_	start_char=116|end_char=118
-15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=119|end_char=122
-16	top	top	ADJ	JJ	Degree=Pos	15	_	_	start_char=123|end_char=126
-17	twenty	twenty	NUM	CD	NumForm=Word|NumType=Card	16	_	_	start_char=127|end_char=133|SpaceAfter=No
-18	.	.	PUNCT	.	_	17	_	_	start_char=133|end_char=134
+# sent_id = 117772
+1	But	but	CCONJ	CC	_	0	_	_	start_char=52|end_char=55
+2	as	as	ADP	IN	_	1	_	_	start_char=56|end_char=58
+3	to	to	ADP	IN	_	2	_	_	start_char=59|end_char=61
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=62|end_char=65
+5	murder	murder	NOUN	NN	Number=Sing	4	_	_	start_char=66|end_char=72
+6	rate	rate	NOUN	NN	Number=Sing	5	_	_	start_char=73|end_char=77
+7	per	per	ADP	IN	_	6	_	_	start_char=78|end_char=81
+8	100,000	100000	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=82|end_char=89|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=89|end_char=90
+10	Chicago	Chicago	PROPN	NNP	Number=Sing	9	_	_	start_char=91|end_char=98
+11-12	isn't	_	_	_	_	_	_	_	start_char=99|end_char=104
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=99|end_char=101
+12	n't	not	PART	RB	_	11	_	_	start_char=101|end_char=104
+13	even	even	ADV	RB	_	12	_	_	start_char=105|end_char=109
+14	in	in	ADP	IN	_	13	_	_	start_char=110|end_char=112
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=113|end_char=116
+16	top	top	ADJ	JJ	Degree=Pos	15	_	_	start_char=117|end_char=120
+17	twenty	twenty	NUM	CD	NumForm=Word|NumType=Card	16	_	_	start_char=121|end_char=127|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=127|end_char=128
 
 # text = St. Louis is number one--with nearly three times the murder rate of Chicago.
-# sent_id = 121690
-1	St.	St.	PROPN	NNP	Number=Sing	0	_	_	start_char=135|end_char=138
-2	Louis	Louis	PROPN	NNP	Number=Sing	1	_	_	start_char=139|end_char=144
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=145|end_char=147
-4	number	number	NOUN	NN	Number=Sing	3	_	_	start_char=148|end_char=154
-5	one	one	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=155|end_char=158|SpaceAfter=No
-6	--	--	PUNCT	,	_	5	_	_	start_char=158|end_char=160|SpaceAfter=No
-7	with	with	ADP	IN	_	6	_	_	start_char=160|end_char=164
-8	nearly	nearly	ADV	RB	_	7	_	_	start_char=165|end_char=171
-9	three	three	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=172|end_char=177
-10	times	time	NOUN	NNS	Number=Plur	9	_	_	start_char=178|end_char=183
-11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=184|end_char=187
-12	murder	murder	NOUN	NN	Number=Sing	11	_	_	start_char=188|end_char=194
-13	rate	rate	NOUN	NN	Number=Sing	12	_	_	start_char=195|end_char=199
-14	of	of	ADP	IN	_	13	_	_	start_char=200|end_char=202
-15	Chicago	Chicago	PROPN	NNP	Number=Sing	14	_	_	start_char=203|end_char=210|SpaceAfter=No
-16	.	.	PUNCT	.	_	15	_	_	start_char=210|end_char=211|SpaceAfter=No
+# sent_id = 117773
+1	St.	St.	PROPN	NNP	Number=Sing	0	_	_	start_char=129|end_char=132
+2	Louis	Louis	PROPN	NNP	Number=Sing	1	_	_	start_char=133|end_char=138
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=139|end_char=141
+4	number	number	NOUN	NN	Number=Sing	3	_	_	start_char=142|end_char=148
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=149|end_char=152|SpaceAfter=No
+6	--	--	PUNCT	,	_	5	_	_	start_char=152|end_char=154|SpaceAfter=No
+7	with	with	ADP	IN	_	6	_	_	start_char=154|end_char=158
+8	nearly	nearly	ADV	RB	_	7	_	_	start_char=159|end_char=165
+9	three	three	NUM	CD	NumForm=Word|NumType=Card	8	_	_	start_char=166|end_char=171
+10	times	time	NOUN	NNS	Number=Plur	9	_	_	start_char=172|end_char=177
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=178|end_char=181
+12	murder	murder	NOUN	NN	Number=Sing	11	_	_	start_char=182|end_char=188
+13	rate	rate	NOUN	NN	Number=Sing	12	_	_	start_char=189|end_char=193
+14	of	of	ADP	IN	_	13	_	_	start_char=194|end_char=196
+15	Chicago	Chicago	PROPN	NNP	Number=Sing	14	_	_	start_char=197|end_char=204|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=204|end_char=205|SpaceAfter=No
 

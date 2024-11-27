@@ -1,5 +1,5 @@
 # text = Fake Pope Francis defended a pedophile and attacked child abuse victims when he was Archbishop of Buenos Aires.
-# sent_id = 77526
+# sent_id = 75027
 1	Fake	Fake	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4
 2	Pope	Pope	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=9
 3	Francis	Francis	PROPN	NNP	Number=Sing	2	_	_	start_char=10|end_char=17
@@ -18,14 +18,11 @@
 16	of	of	ADP	IN	_	15	_	_	start_char=95|end_char=97
 17	Buenos	Buenos	PROPN	NNP	Number=Sing	16	_	_	start_char=98|end_char=104
 18	Aires	Aires	PROPN	NNP	Number=Sing	17	_	_	start_char=105|end_char=110|SpaceAfter=No
-19	.	.	PUNCT	.	_	18	_	_	start_char=110|end_char=111
+19	.	.	PUNCT	.	_	18	_	_	start_char=110|end_char=111|SpacesAfter=\s\s
 
-# text = [URL] Resign scumbag.
-# sent_id = 77527
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=112|end_char=113|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=113|end_char=116|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=116|end_char=117
-4	Resign	resign	NOUN	NN	Number=Sing	3	_	_	start_char=118|end_char=124
-5	scumbag	scumbag	NOUN	NN	Number=Sing	4	_	_	start_char=125|end_char=132|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=132|end_char=133|SpaceAfter=No
+# text = Resign scumbag.
+# sent_id = 75028
+1	Resign	resign	VERB	VB	Mood=Imp|VerbForm=Inf	0	_	_	start_char=113|end_char=119
+2	scumbag	scumbag	NOUN	NN	Number=Sing	1	_	_	start_char=120|end_char=127|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=127|end_char=128|SpaceAfter=No
 

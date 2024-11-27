@@ -1,31 +1,25 @@
-# text = [USER]
-# sent_id = 41566
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = You got me!
-# sent_id = 41567
-1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=7|end_char=10
-2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=11|end_char=14
-3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=15|end_char=17|SpaceAfter=No
-4	!	!	PUNCT	.	_	3	_	_	start_char=17|end_char=18
+# sent_id = 40173
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=9|end_char=11|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=11|end_char=12
 
 # text = I'm really Soros's God-daughter.
-# sent_id = 41568
-1-2	I'm	_	_	_	_	_	_	_	start_char=19|end_char=22
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=19|end_char=20
-2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=20|end_char=22
-3	really	really	ADV	RB	_	2	_	_	start_char=23|end_char=29
-4-5	Soros's	_	_	_	_	_	_	_	start_char=30|end_char=37
-4	Soros	Soros	PROPN	NNP	Number=Sing	3	_	_	start_char=30|end_char=35
-5	's	's	PART	POS	_	4	_	_	start_char=35|end_char=37
-6	God-daughter	god-daughter	NOUN	NN	Number=Sing	5	_	_	start_char=38|end_char=50|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=50|end_char=51
+# sent_id = 40174
+1-2	I'm	_	_	_	_	_	_	_	start_char=13|end_char=16
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=13|end_char=14
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=14|end_char=16
+3	really	really	ADV	RB	_	2	_	_	start_char=17|end_char=23
+4-5	Soros's	_	_	_	_	_	_	_	start_char=24|end_char=31
+4	Soros	Soros	PROPN	NNP	Number=Sing	3	_	_	start_char=24|end_char=29
+5	's	's	PART	POS	_	4	_	_	start_char=29|end_char=31
+6	God-daughter	god-daughter	NOUN	NN	Number=Sing	5	_	_	start_char=32|end_char=44|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=44|end_char=45
 
 # text = 😈 #BLMForCash
-# sent_id = 41569
-1	😈	😈	PUNCT	``	_	0	_	_	start_char=52|end_char=53
-2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=54|end_char=55|SpaceAfter=No
-3	BLMForCash	BLMForCash	PROPN	NNP	Number=Sing	2	_	_	start_char=55|end_char=65|SpaceAfter=No
+# sent_id = 40175
+1	😈	😈	PUNCT	``	_	0	_	_	start_char=46|end_char=47
+2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=48|end_char=49|SpaceAfter=No
+3	BLMForCash	BLMForCash	PROPN	NNP	Number=Sing	2	_	_	start_char=49|end_char=59|SpaceAfter=No
 

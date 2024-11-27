@@ -1,28 +1,25 @@
-# text = [USER] that's what my mom did to me I mean.
-# sent_id = 49267
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4-5	that's	_	_	_	_	_	_	_	start_char=7|end_char=13
-4	that	that	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=7|end_char=11
-5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=11|end_char=13
-6	what	what	PRON	WP	PronType=Rel	5	_	_	start_char=14|end_char=18
-7	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	6	_	_	start_char=19|end_char=21
-8	mom	mom	NOUN	NN	Number=Sing	7	_	_	start_char=22|end_char=25
-9	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=26|end_char=29
-10	to	to	ADP	IN	_	9	_	_	start_char=30|end_char=32
-11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=33|end_char=35
-12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=36|end_char=37
-13	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	_	_	start_char=38|end_char=42|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=42|end_char=43
+# text = that's what my mom did to me I mean.
+# sent_id = 47668
+1-2	that's	_	_	_	_	_	_	_	start_char=1|end_char=7|SpacesBefore=\s
+1	that	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=1|end_char=5
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=8|end_char=12
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=13|end_char=15
+5	mom	mom	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=19
+6	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=20|end_char=23
+7	to	to	ADP	IN	_	6	_	_	start_char=24|end_char=26
+8	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=27|end_char=29
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=30|end_char=31
+10	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=32|end_char=36|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=36|end_char=37
 
 # text = Like what he did to you.
-# sent_id = 49268
-1	Like	like	ADP	IN	_	0	_	_	start_char=44|end_char=48
-2	what	what	PRON	WP	PronType=Rel	1	_	_	start_char=49|end_char=53
-3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=54|end_char=56
-4	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=57|end_char=60
-5	to	to	ADP	IN	_	4	_	_	start_char=61|end_char=63
-6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=64|end_char=67|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=67|end_char=68|SpaceAfter=No
+# sent_id = 47669
+1	Like	like	ADP	IN	_	0	_	_	start_char=38|end_char=42
+2	what	what	PRON	WP	PronType=Rel	1	_	_	start_char=43|end_char=47
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=48|end_char=50
+4	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=51|end_char=54
+5	to	to	ADP	IN	_	4	_	_	start_char=55|end_char=57
+6	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=58|end_char=61|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=61|end_char=62|SpaceAfter=No
 

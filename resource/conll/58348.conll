@@ -1,5 +1,5 @@
 # text = This girl got wrecked, can't remember anything (at all) and 'assumes' she was raped?
-# sent_id = 124596
+# sent_id = 120600
 1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
 2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=9
 3	got	get	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=10|end_char=13
@@ -24,7 +24,7 @@
 21	?	?	PUNCT	.	_	20	_	_	start_char=83|end_char=84
 
 # text = CPS supposition at it's finest.
-# sent_id = 124597
+# sent_id = 120601
 1	CPS	CPS	PROPN	NNP	Number=Sing	0	_	_	start_char=85|end_char=88
 2	supposition	supposition	NOUN	NN	Number=Sing	1	_	_	start_char=89|end_char=100
 3	at	at	ADP	IN	_	2	_	_	start_char=101|end_char=103
@@ -32,16 +32,13 @@
 4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=104|end_char=106
 5	's	's	PART	POS	_	4	_	_	start_char=106|end_char=108
 6	finest	fine	ADJ	JJS	Degree=Sup	5	_	_	start_char=109|end_char=115|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=115|end_char=116
+7	.	.	PUNCT	.	_	6	_	_	start_char=115|end_char=116|SpacesAfter=\s\s
 
-# text = [URL] #chedevans #uk #courts #justice
-# sent_id = 124598
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=117|end_char=118|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=118|end_char=121|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=121|end_char=122
-4	#chedevans	#chedevan	NOUN	NN	Number=Sing	3	_	_	start_char=123|end_char=133
-5	#uk	#uk	PROPN	NNP	Number=Sing	4	_	_	start_char=134|end_char=137
-6	#courts	#court	NOUN	NNS	Number=Plur	5	_	_	start_char=138|end_char=145
-7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=146|end_char=147|SpaceAfter=No
-8	justice	justice	NOUN	NN	Number=Sing	7	_	_	start_char=147|end_char=154|SpaceAfter=No
+# text = #chedevans #uk #courts #justice
+# sent_id = 120602
+1	#chedevans	#chedevan	NOUN	NN	Number=Sing	0	_	_	start_char=118|end_char=128
+2	#uk	#uk	PROPN	NNP	Number=Sing	1	_	_	start_char=129|end_char=132
+3	#courts	#court	NOUN	NN	Number=Plur	2	_	_	start_char=133|end_char=140
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=141|end_char=142|SpaceAfter=No
+5	justice	justice	NOUN	NN	Number=Sing	4	_	_	start_char=142|end_char=149|SpaceAfter=No
 

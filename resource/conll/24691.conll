@@ -1,9 +1,9 @@
 # text = Sara
-# sent_id = 52913
+# sent_id = 51212
 1	Sara	Sara	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
 
-# text = Jeong isn't just anti-white, she's a rape victim doxxer [URL] [URL]
-# sent_id = 52914
+# text = Jeong isn't just anti-white, she's a rape victim doxxer
+# sent_id = 51213
 1	Jeong	Jeong	PROPN	NNP	Number=Sing	0	_	_	start_char=5|end_char=10
 2-3	isn't	_	_	_	_	_	_	_	start_char=11|end_char=16
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=11|end_char=13
@@ -17,11 +17,5 @@
 9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=40|end_char=41
 10	rape	rape	ADJ	JJ	Degree=Pos	9	_	_	start_char=42|end_char=46
 11	victim	victim	NOUN	NN	Number=Sing	10	_	_	start_char=47|end_char=53
-12	doxxer	doxxer	NOUN	NN	Number=Sing	11	_	_	start_char=54|end_char=60
-13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=61|end_char=62|SpaceAfter=No
-14	URL	URL	PROPN	NNP	Number=Sing	13	_	_	start_char=62|end_char=65|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=65|end_char=66
-16	[	[	PUNCT	-LRB-	_	15	_	_	start_char=67|end_char=68|SpaceAfter=No
-17	URL	URL	PROPN	NNP	Number=Sing	16	_	_	start_char=68|end_char=71|SpaceAfter=No
-18	]	]	PUNCT	-RRB-	_	17	_	_	start_char=71|end_char=72|SpaceAfter=No
+12	doxxer	doxxer	NOUN	NN	Number=Sing	11	_	_	start_char=54|end_char=60|SpacesAfter=\s\s
 

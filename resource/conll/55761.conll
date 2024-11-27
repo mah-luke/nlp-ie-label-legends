@@ -1,5 +1,5 @@
 # text = TRUMP HITS MESSAGE OF DEMOCRATS AS “ANGRY MOB” AT KENTUCKY RALLY
-# sent_id = 119139
+# sent_id = 115290
 1	TRUMP	TRUMP	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
 2	HITS	HITS	PROPN	NNPS	Number=Plur	1	_	_	start_char=6|end_char=10
 3	MESSAGE	message	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=18
@@ -15,7 +15,7 @@
 13	RALLY	Rally	PROPN	NNP	Number=Sing	12	_	_	start_char=59|end_char=64
 
 # text = “You can vote for Democrat mob rule or you an vote for a Republican party that stands proudly for law and order, fairness, freedom and justice.”
-# sent_id = 119140
+# sent_id = 115291
 1	“	''	PUNCT	``	_	0	_	_	start_char=65|end_char=66|SpaceAfter=No
 2	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=66|end_char=69
 3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=70|end_char=73
@@ -48,8 +48,8 @@
 30	.	.	PUNCT	.	_	29	_	_	start_char=207|end_char=208|SpaceAfter=No
 31	”	''	PUNCT	''	_	30	_	_	start_char=208|end_char=209
 
-# text = CBS News - OCTOBER 14, 2018 [URL]
-# sent_id = 119141
+# text = CBS News - OCTOBER 14, 2018
+# sent_id = 115292
 1	CBS	CBS	PROPN	NNP	Number=Sing	0	_	_	start_char=210|end_char=213
 2	News	News	PROPN	NNP	Number=Sing	1	_	_	start_char=214|end_char=218
 3	-	-	PUNCT	,	_	2	_	_	start_char=219|end_char=220
@@ -57,7 +57,4 @@
 5	14	14	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=229|end_char=231|SpaceAfter=No
 6	,	,	PUNCT	,	_	5	_	_	start_char=231|end_char=232
 7	2018	2018	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=233|end_char=237
-8	[	[	PUNCT	-LRB-	_	7	_	_	start_char=238|end_char=239|SpaceAfter=No
-9	URL	URL	PROPN	NNP	Number=Sing	8	_	_	start_char=239|end_char=242|SpaceAfter=No
-10	]	]	PUNCT	-RRB-	_	9	_	_	start_char=242|end_char=243|SpaceAfter=No
 

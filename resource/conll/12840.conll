@@ -1,5 +1,5 @@
 # text = Why #Trump won from a Sanders supporter.
-# sent_id = 27231
+# sent_id = 26352
 1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
 2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=4|end_char=5|SpaceAfter=No
 3	Trump	Trump	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=10
@@ -9,10 +9,4 @@
 7	Sanders	Sanders	PROPN	NNP	Number=Sing	6	_	_	start_char=22|end_char=29
 8	supporter	supporter	NOUN	NN	Number=Sing	7	_	_	start_char=30|end_char=39|SpaceAfter=No
 9	.	.	PUNCT	.	_	8	_	_	start_char=39|end_char=40
-
-# text = [URL]
-# sent_id = 27232
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=41|end_char=42|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=42|end_char=45|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=45|end_char=46|SpaceAfter=No
 

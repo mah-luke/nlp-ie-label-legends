@@ -1,32 +1,26 @@
-# text = [USER]
-# sent_id = 36243
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Revenge my eye...
-# sent_id = 36244
-1	Revenge	revenge	VERB	VB	Mood=Imp|VerbForm=Inf	0	_	_	start_char=7|end_char=14
-2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=15|end_char=17
-3	eye	eye	NOUN	NN	Number=Sing	2	_	_	start_char=18|end_char=21|SpaceAfter=No
-4	...	...	PUNCT	.	_	3	_	_	start_char=21|end_char=24
+# sent_id = 35056
+1	Revenge	revenge	VERB	VB	Mood=Imp|VerbForm=Inf	0	_	_	start_char=1|end_char=8|SpacesBefore=\s
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=9|end_char=11
+3	eye	eye	NOUN	NN	Number=Sing	2	_	_	start_char=12|end_char=15|SpaceAfter=No
+4	...	...	PUNCT	.	_	3	_	_	start_char=15|end_char=18
 
 # text = Next will be I hope they don't prosecute her because they are sexist..
-# sent_id = 36245
-1	Next	next	ADV	RB	_	0	_	_	start_char=25|end_char=29
-2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=30|end_char=34
-3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=35|end_char=37
-4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=38|end_char=39
-5	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=40|end_char=44
-6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=45|end_char=49
-7-8	don't	_	_	_	_	_	_	_	start_char=50|end_char=55
-7	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=50|end_char=52
-8	n't	not	PART	RB	_	7	_	_	start_char=52|end_char=55
-9	prosecute	prosecute	VERB	VB	VerbForm=Inf	8	_	_	start_char=56|end_char=65
-10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=66|end_char=69
-11	because	because	SCONJ	IN	_	10	_	_	start_char=70|end_char=77
-12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	_	_	start_char=78|end_char=82
-13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=83|end_char=86
-14	sexist	sexist	ADJ	JJ	Degree=Pos	13	_	_	start_char=87|end_char=93|SpaceAfter=No
-15	..	..	PUNCT	.	_	14	_	_	start_char=93|end_char=95|SpaceAfter=No
+# sent_id = 35057
+1	Next	next	ADV	RB	_	0	_	_	start_char=19|end_char=23
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=24|end_char=28
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=29|end_char=31
+4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=32|end_char=33
+5	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=34|end_char=38
+6	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	_	_	start_char=39|end_char=43
+7-8	don't	_	_	_	_	_	_	_	start_char=44|end_char=49
+7	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=44|end_char=46
+8	n't	not	PART	RB	_	7	_	_	start_char=46|end_char=49
+9	prosecute	prosecute	VERB	VB	VerbForm=Inf	8	_	_	start_char=50|end_char=59
+10	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=60|end_char=63
+11	because	because	SCONJ	IN	_	10	_	_	start_char=64|end_char=71
+12	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	11	_	_	start_char=72|end_char=76
+13	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=77|end_char=80
+14	sexist	sexist	ADJ	JJ	Degree=Pos	13	_	_	start_char=81|end_char=87|SpaceAfter=No
+15	..	..	PUNCT	.	_	14	_	_	start_char=87|end_char=89|SpaceAfter=No
 

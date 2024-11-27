@@ -1,31 +1,23 @@
-# text = ‏[USER] 1h Jihadi parents kiss daughter bye B4 girl launches bomb attack.
-# sent_id = 55335
-1	‏[	‏[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=6|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=6|end_char=7
-4	1h	1h	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=8|end_char=10
-5	Jihadi	Jihadi	PROPN	NNP	Number=Sing	4	_	_	start_char=11|end_char=17
-6	parents	parent	NOUN	NNS	Number=Plur	5	_	_	start_char=18|end_char=25
-7	kiss	kiss	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=26|end_char=30
-8	daughter	daughter	NOUN	NN	Number=Sing	7	_	_	start_char=31|end_char=39
-9	bye	bye	NOUN	NN	Number=Sing	8	_	_	start_char=40|end_char=43
-10	B4	B4	PROPN	NNP	Number=Sing	9	_	_	start_char=44|end_char=46
-11	girl	girl	NOUN	NN	Number=Sing	10	_	_	start_char=47|end_char=51
-12	launches	launch	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=52|end_char=60
-13	bomb	bomb	NOUN	NN	Number=Sing	12	_	_	start_char=61|end_char=65
-14	attack	attack	NOUN	NN	Number=Sing	13	_	_	start_char=66|end_char=72|SpaceAfter=No
-15	.	.	PUNCT	.	_	14	_	_	start_char=72|end_char=73
+# text = ‏ 1h Jihadi parents kiss daughter bye B4 girl launches bomb attack.
+# sent_id = 53533
+1	‏	‏	PUNCT	NFP	_	0	_	_	start_char=0|end_char=1
+2	1h	1h	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=2|end_char=4
+3	Jihadi	Jihadi	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=11
+4	parents	parent	NOUN	NNS	Number=Plur	3	_	_	start_char=12|end_char=19
+5	kiss	kiss	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=24
+6	daughter	daughter	NOUN	NN	Number=Sing	5	_	_	start_char=25|end_char=33
+7	bye	bye	NOUN	NN	Number=Sing	6	_	_	start_char=34|end_char=37
+8	B4	B4	PROPN	NNP	Number=Sing	7	_	_	start_char=38|end_char=40
+9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=41|end_char=45
+10	launches	launch	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=46|end_char=54
+11	bomb	bomb	NOUN	NN	Number=Sing	10	_	_	start_char=55|end_char=59
+12	attack	attack	NOUN	NN	Number=Sing	11	_	_	start_char=60|end_char=66|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=66|end_char=67
 
-# text = Great parenting!
-# sent_id = 55336
-1	Great	great	ADJ	JJ	Degree=Pos	0	_	_	start_char=74|end_char=79
-2	parenting	parenting	NOUN	NN	Number=Sing	1	_	_	start_char=80|end_char=89|SpaceAfter=No
-3	!	!	PUNCT	.	_	2	_	_	start_char=89|end_char=90
-
-# text = [URL] …
-# sent_id = 55337
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=91|end_char=92|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=92|end_char=95|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=95|end_char=96
-4	…	…	PUNCT	:	_	3	_	_	start_char=97|end_char=98|SpaceAfter=No
+# text = Great parenting! …
+# sent_id = 53534
+1	Great	great	ADJ	JJ	Degree=Pos	0	_	_	start_char=68|end_char=73
+2	parenting	parenting	NOUN	NN	Number=Sing	1	_	_	start_char=74|end_char=83|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=83|end_char=84|SpacesAfter=\s\s
+4	…	…	PUNCT	:	_	3	_	_	start_char=86|end_char=87|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = "two men sexually harassed a 32-year-old woman from Dortmund.
-# sent_id = 115888
+# sent_id = 112105
 1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	two	two	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=1|end_char=4
 3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=5|end_char=8
@@ -16,8 +16,8 @@
 14	Dortmund	Dortmund	PROPN	NNP	Number=Sing	13	_	_	start_char=52|end_char=60|SpaceAfter=No
 15	.	.	PUNCT	.	_	14	_	_	start_char=60|end_char=61
 
-# text = The officers rushed to the victims directly to help and could arrest one of the suspects, an 18-year-old Guinean national.",. [URL]
-# sent_id = 115889
+# text = The officers rushed to the victims directly to help and could arrest one of the suspects, an 18-year-old Guinean national.",.
+# sent_id = 112106
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=62|end_char=65
 2	officers	officer	NOUN	NNS	Number=Plur	1	_	_	start_char=66|end_char=74
 3	rushed	rush	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=75|end_char=81
@@ -47,7 +47,4 @@
 27	"	"	PUNCT	''	_	26	_	_	start_char=184|end_char=185|SpaceAfter=No
 28	,	,	PUNCT	,	_	27	_	_	start_char=185|end_char=186|SpaceAfter=No
 29	.	.	PUNCT	.	_	28	_	_	start_char=186|end_char=187
-30	[	[	PUNCT	-LRB-	_	29	_	_	start_char=188|end_char=189|SpaceAfter=No
-31	URL	URL	PROPN	NNP	Number=Sing	30	_	_	start_char=189|end_char=192|SpaceAfter=No
-32	]	]	PUNCT	-RRB-	_	31	_	_	start_char=192|end_char=193|SpaceAfter=No
 

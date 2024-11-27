@@ -1,27 +1,24 @@
-# text = [USER] second female prime minister as well.
-# sent_id = 102879
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	3	_	_	start_char=7|end_char=13
-5	female	female	ADJ	JJ	Degree=Pos	4	_	_	start_char=14|end_char=20
-6	prime	prime	ADJ	JJ	Degree=Pos	5	_	_	start_char=21|end_char=26
-7	minister	minister	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=35
-8	as	as	ADV	RB	_	7	_	_	start_char=36|end_char=38
-9	well	well	ADV	RB	Degree=Pos	8	_	_	start_char=39|end_char=43|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=43|end_char=44
+# text = second female prime minister as well.
+# sent_id = 99522
+1	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	0	_	_	start_char=1|end_char=7|SpacesBefore=\s
+2	female	female	ADJ	JJ	Degree=Pos	1	_	_	start_char=8|end_char=14
+3	prime	prime	ADJ	JJ	Degree=Pos	2	_	_	start_char=15|end_char=20
+4	minister	minister	NOUN	NN	Number=Sing	3	_	_	start_char=21|end_char=29
+5	as	as	ADV	RB	_	4	_	_	start_char=30|end_char=32
+6	well	well	ADV	RB	Degree=Pos	5	_	_	start_char=33|end_char=37|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=37|end_char=38
 
 # text = And from the Tory side too, labour did feck all
-# sent_id = 102880
-1	And	and	CCONJ	CC	_	0	_	_	start_char=45|end_char=48
-2	from	from	ADP	IN	_	1	_	_	start_char=49|end_char=53
-3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=54|end_char=57
-4	Tory	Tory	PROPN	NNP	Number=Sing	3	_	_	start_char=58|end_char=62
-5	side	side	NOUN	NN	Number=Sing	4	_	_	start_char=63|end_char=67
-6	too	too	ADV	RB	_	5	_	_	start_char=68|end_char=71|SpaceAfter=No
-7	,	,	PUNCT	,	_	6	_	_	start_char=71|end_char=72
-8	labour	labour	NOUN	NN	Number=Sing	7	_	_	start_char=73|end_char=79
-9	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=80|end_char=83
-10	feck	feck	VERB	VB	VerbForm=Inf	9	_	_	start_char=84|end_char=88
-11	all	all	DET	DT	_	10	_	_	start_char=89|end_char=92|SpaceAfter=No
+# sent_id = 99523
+1	And	and	CCONJ	CC	_	0	_	_	start_char=39|end_char=42
+2	from	from	ADP	IN	_	1	_	_	start_char=43|end_char=47
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=48|end_char=51
+4	Tory	Tory	PROPN	NNP	Number=Sing	3	_	_	start_char=52|end_char=56
+5	side	side	NOUN	NN	Number=Sing	4	_	_	start_char=57|end_char=61
+6	too	too	ADV	RB	_	5	_	_	start_char=62|end_char=65|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=65|end_char=66
+8	labour	labour	NOUN	NN	Number=Sing	7	_	_	start_char=67|end_char=73
+9	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=74|end_char=77
+10	feck	feck	VERB	VB	VerbForm=Inf	9	_	_	start_char=78|end_char=82
+11	all	all	DET	DT	_	10	_	_	start_char=83|end_char=86|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = A police officer called the station on his radio "I have an interesting case here.
-# sent_id = 13254
+# sent_id = 12819
 1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
 2	police	police	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=8
 3	officer	officer	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=16
@@ -19,7 +19,7 @@
 17	.	.	PUNCT	.	_	16	_	_	start_char=81|end_char=82
 
 # text = An old lady shot her husband for stepping on the floor she just mopped" "Have you arrested the woman" "Not yet.
-# sent_id = 13255
+# sent_id = 12820
 1	An	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=83|end_char=85
 2	old	old	ADJ	JJ	Degree=Pos	1	_	_	start_char=86|end_char=89
 3	lady	lady	NOUN	NN	Number=Sing	2	_	_	start_char=90|end_char=94
@@ -47,16 +47,13 @@
 25	yet	yet	ADV	RB	_	24	_	_	start_char=190|end_char=193|SpaceAfter=No
 26	.	.	PUNCT	.	_	25	_	_	start_char=193|end_char=194
 
-# text = The floor's still wet" [URL]
-# sent_id = 13256
+# text = The floor's still wet"
+# sent_id = 12821
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=195|end_char=198
 2-3	floor's	_	_	_	_	_	_	_	start_char=199|end_char=206
 2	floor	floor	NOUN	NN	Number=Sing	1	_	_	start_char=199|end_char=204
 3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=204|end_char=206
 4	still	still	ADV	RB	_	3	_	_	start_char=207|end_char=212
 5	wet	wet	ADJ	JJ	Degree=Pos	4	_	_	start_char=213|end_char=216|SpaceAfter=No
-6	"	"	PUNCT	``	_	5	_	_	start_char=216|end_char=217
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=218|end_char=219|SpaceAfter=No
-8	URL	URL	PROPN	NNP	Number=Sing	7	_	_	start_char=219|end_char=222|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=222|end_char=223|SpaceAfter=No
+6	"	"	PUNCT	''	_	5	_	_	start_char=216|end_char=217
 

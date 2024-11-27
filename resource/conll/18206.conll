@@ -1,28 +1,19 @@
-# text = [USER] SHITHOLE ENGLAND : Black man jailed for 17 years for killing English woman with acid .
-# sent_id = 39079
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	SHITHOLE	shithole	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=15
-5	ENGLAND	ENGLAND	PROPN	NNP	Number=Sing	4	_	_	start_char=16|end_char=23
-6	:	:	PUNCT	:	_	5	_	_	start_char=24|end_char=25
-7	Black	Black	ADJ	JJ	Degree=Pos	6	_	_	start_char=26|end_char=31
-8	man	man	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=35
-9	jailed	jail	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=36|end_char=42
-10	for	for	ADP	IN	_	9	_	_	start_char=43|end_char=46
-11	17	17	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=47|end_char=49
-12	years	year	NOUN	NNS	Number=Plur	11	_	_	start_char=50|end_char=55
-13	for	for	SCONJ	IN	_	12	_	_	start_char=56|end_char=59
-14	killing	kill	VERB	VBG	VerbForm=Ger	13	_	_	start_char=60|end_char=67
-15	English	English	ADJ	JJ	Degree=Pos	14	_	_	start_char=68|end_char=75
-16	woman	woman	NOUN	NN	Number=Sing	15	_	_	start_char=76|end_char=81
-17	with	with	ADP	IN	_	16	_	_	start_char=82|end_char=86
-18	acid	acid	NOUN	NN	Number=Sing	17	_	_	start_char=87|end_char=91
-19	.	.	PUNCT	.	_	18	_	_	start_char=92|end_char=93
-
-# text = [URL]
-# sent_id = 39080
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=94|end_char=95|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=95|end_char=98|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=98|end_char=99|SpaceAfter=No
+# text = SHITHOLE ENGLAND : Black man jailed for 17 years for killing English woman with acid .
+# sent_id = 37769
+1	SHITHOLE	shithole	NOUN	NN	Number=Sing	0	_	_	start_char=1|end_char=9|SpacesBefore=\s
+2	ENGLAND	ENGLAND	PROPN	NNP	Number=Sing	1	_	_	start_char=10|end_char=17
+3	:	:	PUNCT	:	_	2	_	_	start_char=18|end_char=19
+4	Black	Black	ADJ	JJ	Degree=Pos	3	_	_	start_char=20|end_char=25
+5	man	man	NOUN	NN	Number=Sing	4	_	_	start_char=26|end_char=29
+6	jailed	jail	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=30|end_char=36
+7	for	for	ADP	IN	_	6	_	_	start_char=37|end_char=40
+8	17	17	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=41|end_char=43
+9	years	year	NOUN	NNS	Number=Plur	8	_	_	start_char=44|end_char=49
+10	for	for	SCONJ	IN	_	9	_	_	start_char=50|end_char=53
+11	killing	kill	VERB	VBG	VerbForm=Ger	10	_	_	start_char=54|end_char=61
+12	English	English	ADJ	JJ	Degree=Pos	11	_	_	start_char=62|end_char=69
+13	woman	woman	NOUN	NN	Number=Sing	12	_	_	start_char=70|end_char=75
+14	with	with	ADP	IN	_	13	_	_	start_char=76|end_char=80
+15	acid	acid	NOUN	NN	Number=Sing	14	_	_	start_char=81|end_char=85
+16	.	.	PUNCT	.	_	15	_	_	start_char=86|end_char=87
 

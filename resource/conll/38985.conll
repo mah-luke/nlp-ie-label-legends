@@ -1,5 +1,5 @@
 # text = It's legal for all blacks to rape and murder white girls in Durham, NC and Charlottesville, VA.
-# sent_id = 83340
+# sent_id = 80637
 1-2	It's	_	_	_	_	_	_	_	start_char=0|end_char=4
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=2
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
@@ -24,7 +24,7 @@
 21	.	.	PUNCT	.	_	20	_	_	start_char=94|end_char=95
 
 # text = Durham DA Roger Echols and Charlottesville Judge Robert Downer will make sure they all get off.
-# sent_id = 83341
+# sent_id = 80638
 1	Durham	Durham	PROPN	NNP	Number=Sing	0	_	_	start_char=96|end_char=102
 2	DA	da	PROPN	NNP	Number=Sing	1	_	_	start_char=103|end_char=105
 3	Roger	Roger	PROPN	NNP	Number=Sing	2	_	_	start_char=106|end_char=111
@@ -43,14 +43,8 @@
 16	off	off	ADP	RP	_	15	_	_	start_char=187|end_char=190|SpaceAfter=No
 17	.	.	PUNCT	.	_	16	_	_	start_char=190|end_char=191
 
-# text = [USER]‍ [USER]‍
-# sent_id = 83342
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=192|end_char=193|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=193|end_char=197|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=197|end_char=198|SpaceAfter=No
-4	‍	‍	PUNCT	:	_	3	_	_	start_char=198|end_char=199
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=200|end_char=201|SpaceAfter=No
-6	USER	user	NOUN	NN	Number=Sing	5	_	_	start_char=201|end_char=205|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=205|end_char=206|SpaceAfter=No
-8	‍	‍	PUNCT	.	_	7	_	_	start_char=206|end_char=207|SpaceAfter=No
+# text = ‍ ‍
+# sent_id = 80639
+1	‍	‍	PUNCT	NFP	_	0	_	_	start_char=192|end_char=193
+2	‍	‍	PUNCT	.	_	1	_	_	start_char=194|end_char=195|SpaceAfter=No
 

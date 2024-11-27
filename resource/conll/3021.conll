@@ -1,5 +1,5 @@
 # text = #Sweet, #Cute, #Kids, #GabFam, #Video, #Awww, Watch this 4-year-old girl pouring her heart out in this timeless Sinatra classic!
-# sent_id = 6378
+# sent_id = 6186
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	Sweet	Sweet	ADJ	JJ	Degree=Pos	1	_	_	start_char=1|end_char=6|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	_	_	start_char=6|end_char=7
@@ -38,16 +38,10 @@
 36	!	!	PUNCT	.	_	35	_	_	start_char=127|end_char=128
 
 # text = She is so cute!
-# sent_id = 6379
+# sent_id = 6187
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=129|end_char=132
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=133|end_char=135
 3	so	so	ADV	RB	_	2	_	_	start_char=136|end_char=138
 4	cute	cute	ADJ	JJ	Degree=Pos	3	_	_	start_char=139|end_char=143|SpaceAfter=No
 5	!	!	PUNCT	.	_	4	_	_	start_char=143|end_char=144
-
-# text = [URL]
-# sent_id = 6380
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=145|end_char=146|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=146|end_char=149|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=149|end_char=150|SpaceAfter=No
 

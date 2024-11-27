@@ -1,5 +1,5 @@
 # text = A couple of cheap cables make my Geek Out DAC much more convenient to use.
-# sent_id = 38382
+# sent_id = 37086
 1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
 2	couple	couple	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=8
 3	of	of	ADP	IN	_	2	_	_	start_char=9|end_char=11
@@ -17,34 +17,25 @@
 15	use	use	VERB	VB	VerbForm=Inf	14	_	_	start_char=70|end_char=73|SpaceAfter=No
 16	.	.	PUNCT	.	_	15	_	_	start_char=73|end_char=74
 
-# text = USB male to female: [URL] 3.5mm male to 1/4” female: [URL] Geek Out DAC: [URL]
-# sent_id = 38383
+# text = USB male to female: 3.5mm male to 1/4” female: Geek Out DAC:
+# sent_id = 37087
 1	USB	USB	NOUN	NN	Number=Sing	0	_	_	start_char=75|end_char=78
 2	male	male	NOUN	NN	Number=Sing	1	_	_	start_char=79|end_char=83
 3	to	to	ADP	IN	_	2	_	_	start_char=84|end_char=86
-4	female	female	NOUN	NN	Number=Sing	3	_	_	start_char=87|end_char=93|SpaceAfter=No
-5	:	:	PUNCT	:	_	4	_	_	start_char=93|end_char=94
-6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=95|end_char=96|SpaceAfter=No
-7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=96|end_char=99|SpaceAfter=No
-8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=99|end_char=100
-9	3.5	3.5	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=101|end_char=104|SpaceAfter=No
-10	mm	mm	NOUN	NNS	Number=Sing	9	_	_	start_char=104|end_char=106
-11	male	male	NOUN	NN	Number=Sing	10	_	_	start_char=107|end_char=111
-12	to	to	ADP	IN	_	11	_	_	start_char=112|end_char=114
-13	1	1	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=115|end_char=116|SpaceAfter=No
-14	/	/	SYM	SYM	_	13	_	_	start_char=116|end_char=117|SpaceAfter=No
-15	4	4	NUM	CD	NumForm=Digit|NumType=Card	14	_	_	start_char=117|end_char=118|SpaceAfter=No
-16	”	''	PUNCT	''	_	15	_	_	start_char=118|end_char=119
-17	female	female	NOUN	NN	Number=Sing	16	_	_	start_char=120|end_char=126|SpaceAfter=No
-18	:	:	PUNCT	:	_	17	_	_	start_char=126|end_char=127
-19	[	[	PUNCT	-LRB-	_	18	_	_	start_char=128|end_char=129|SpaceAfter=No
-20	URL	URL	PROPN	NNP	Number=Sing	19	_	_	start_char=129|end_char=132|SpaceAfter=No
-21	]	]	PUNCT	-RRB-	_	20	_	_	start_char=132|end_char=133
-22	Geek	geek	NOUN	NN	Number=Sing	21	_	_	start_char=134|end_char=138
-23	Out	out	ADP	IN	_	22	_	_	start_char=139|end_char=142
-24	DAC	dac	NOUN	NN	Number=Sing	23	_	_	start_char=143|end_char=146|SpaceAfter=No
-25	:	:	PUNCT	:	_	24	_	_	start_char=146|end_char=147
-26	[	[	PUNCT	-LRB-	_	25	_	_	start_char=148|end_char=149|SpaceAfter=No
-27	URL	URL	PROPN	NNP	Number=Sing	26	_	_	start_char=149|end_char=152|SpaceAfter=No
-28	]	]	PUNCT	-RRB-	_	27	_	_	start_char=152|end_char=153|SpaceAfter=No
+4	female	female	ADJ	JJ	Degree=Pos	3	_	_	start_char=87|end_char=93|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=93|end_char=94|SpacesAfter=\s\s
+6	3.5	3.5	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=96|end_char=99|SpaceAfter=No
+7	mm	mm	NOUN	NNS	Number=Plur	6	_	_	start_char=99|end_char=101
+8	male	male	NOUN	NN	Number=Sing	7	_	_	start_char=102|end_char=106
+9	to	to	ADP	IN	_	8	_	_	start_char=107|end_char=109
+10	1	1	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=110|end_char=111|SpaceAfter=No
+11	/	/	SYM	SYM	_	10	_	_	start_char=111|end_char=112|SpaceAfter=No
+12	4	4	NUM	CD	NumForm=Digit|NumType=Card	11	_	_	start_char=112|end_char=113|SpaceAfter=No
+13	”	''	PUNCT	''	_	12	_	_	start_char=113|end_char=114
+14	female	female	NOUN	NN	Number=Sing	13	_	_	start_char=115|end_char=121|SpaceAfter=No
+15	:	:	PUNCT	:	_	14	_	_	start_char=121|end_char=122|SpacesAfter=\s\s
+16	Geek	geek	NOUN	NN	Number=Sing	15	_	_	start_char=124|end_char=128
+17	Out	out	ADP	IN	_	16	_	_	start_char=129|end_char=132
+18	DAC	dac	NOUN	NN	Number=Sing	17	_	_	start_char=133|end_char=136|SpaceAfter=No
+19	:	:	PUNCT	:	_	18	_	_	start_char=136|end_char=137
 

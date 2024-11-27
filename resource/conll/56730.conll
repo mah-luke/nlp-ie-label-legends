@@ -1,28 +1,22 @@
-# text = [USER]
-# sent_id = 121245
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Merkel started out doing fairly well.
-# sent_id = 121246
-1	Merkel	Merkel	PROPN	NNP	Number=Sing	0	_	_	start_char=7|end_char=13
-2	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=14|end_char=21
-3	out	out	ADP	RP	_	2	_	_	start_char=22|end_char=25
-4	doing	do	VERB	VBG	VerbForm=Ger	3	_	_	start_char=26|end_char=31
-5	fairly	fairly	ADV	RB	_	4	_	_	start_char=32|end_char=38
-6	well	well	ADV	RB	Degree=Pos	5	_	_	start_char=39|end_char=43|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=43|end_char=44
+# sent_id = 117345
+1	Merkel	Merkel	PROPN	NNP	Number=Sing	0	_	_	start_char=1|end_char=7|SpacesBefore=\s
+2	started	start	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=8|end_char=15
+3	out	out	ADP	RP	_	2	_	_	start_char=16|end_char=19
+4	doing	do	VERB	VBG	VerbForm=Ger	3	_	_	start_char=20|end_char=25
+5	fairly	fairly	ADV	RB	_	4	_	_	start_char=26|end_char=32
+6	well	well	ADV	RB	Degree=Pos	5	_	_	start_char=33|end_char=37|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=37|end_char=38
 
 # text = Then, it seems she just went nuts.
-# sent_id = 121247
-1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=45|end_char=49|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=49|end_char=50
-3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=51|end_char=53
-4	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=54|end_char=59
-5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=60|end_char=63
-6	just	just	ADV	RB	_	5	_	_	start_char=64|end_char=68
-7	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=69|end_char=73
-8	nuts	nut	NOUN	NNS	Number=Plur	7	_	_	start_char=74|end_char=78|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=78|end_char=79|SpaceAfter=No
+# sent_id = 117346
+1	Then	then	ADV	RB	PronType=Dem	0	_	_	start_char=39|end_char=43|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=43|end_char=44
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=45|end_char=47
+4	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=48|end_char=53
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=54|end_char=57
+6	just	just	ADV	RB	_	5	_	_	start_char=58|end_char=62
+7	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=63|end_char=67
+8	nuts	nut	NOUN	NNS	Number=Plur	7	_	_	start_char=68|end_char=72|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=72|end_char=73|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = No, she just deleted the post.
-# sent_id = 105332
+# sent_id = 101885
 1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	start_char=2|end_char=3
 3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=4|end_char=7
@@ -9,8 +9,8 @@
 7	post	post	NOUN	NN	Number=Sing	6	_	_	start_char=25|end_char=29|SpaceAfter=No
 8	.	.	PUNCT	.	_	7	_	_	start_char=29|end_char=30
 
-# text = If you delete a post, you can still get to it from a direct link, but it shows the author as [deleted].
-# sent_id = 105333
+# text = If you delete a post, you can still get to it from a direct link, but it shows the author as .
+# sent_id = 101886
 1	If	if	SCONJ	IN	_	0	_	_	start_char=31|end_char=33
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=34|end_char=37
 3	delete	delete	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=38|end_char=44
@@ -34,8 +34,5 @@
 21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=110|end_char=113
 22	author	author	NOUN	NN	Number=Sing	21	_	_	start_char=114|end_char=120
 23	as	as	ADP	IN	_	22	_	_	start_char=121|end_char=123
-24	[	[	PUNCT	-LRB-	_	23	_	_	start_char=124|end_char=125|SpaceAfter=No
-25	deleted	delete	VERB	VBN	Tense=Past|VerbForm=Part	24	_	_	start_char=125|end_char=132|SpaceAfter=No
-26	]	]	PUNCT	-RRB-	_	25	_	_	start_char=132|end_char=133|SpaceAfter=No
-27	.	.	PUNCT	.	_	26	_	_	start_char=133|end_char=134|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=124|end_char=125|SpaceAfter=No
 

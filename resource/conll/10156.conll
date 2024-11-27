@@ -1,72 +1,39 @@
-# text = Tonight, watch [USER] share 5 things she thinks feminists should stop saying (somewhat conservative of her, yes?) & subscribe/ comment/ share/ love/ hate.
-# sent_id = 21438
+# text = Tonight, watch share 5 things she thinks feminists should stop saying (somewhat conservative of her, yes?) & subscribe/ comment/ share/ love/ hate.
+# sent_id = 20753
 1	Tonight	tonight	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=7|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	start_char=7|end_char=8
-3	watch	watch	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=9|end_char=14
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=15|end_char=16|SpaceAfter=No
-5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=20|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=20|end_char=21
-7	share	share	VERB	VB	VerbForm=Inf	6	_	_	start_char=22|end_char=27
-8	5	5	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=28|end_char=29
-9	things	thing	NOUN	NNS	Number=Plur	8	_	_	start_char=30|end_char=36
-10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=37|end_char=40
-11	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=41|end_char=47
-12	feminists	feminist	NOUN	NNS	Number=Plur	11	_	_	start_char=48|end_char=57
-13	should	should	AUX	MD	VerbForm=Fin	12	_	_	start_char=58|end_char=64
-14	stop	stop	VERB	VB	VerbForm=Inf	13	_	_	start_char=65|end_char=69
-15	saying	say	VERB	VBG	VerbForm=Ger	14	_	_	start_char=70|end_char=76
-16	(	(	PUNCT	-LRB-	_	15	_	_	start_char=77|end_char=78|SpaceAfter=No
-17	somewhat	somewhat	ADV	RB	_	16	_	_	start_char=78|end_char=86
-18	conservative	conservative	ADJ	JJ	Degree=Pos	17	_	_	start_char=87|end_char=99
-19	of	of	ADP	IN	_	18	_	_	start_char=100|end_char=102
-20	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	19	_	_	start_char=103|end_char=106|SpaceAfter=No
-21	,	,	PUNCT	,	_	20	_	_	start_char=106|end_char=107
-22	yes	yes	INTJ	UH	_	21	_	_	start_char=108|end_char=111|SpaceAfter=No
-23	?	?	PUNCT	.	_	22	_	_	start_char=111|end_char=112|SpaceAfter=No
-24	)	)	PUNCT	-RRB-	_	23	_	_	start_char=112|end_char=113
-25	&	&	CCONJ	CC	_	24	_	_	start_char=114|end_char=115
-26	subscribe	subscribe	VERB	VB	Mood=Imp|VerbForm=Fin	25	_	_	start_char=116|end_char=125|SpaceAfter=No
-27	/	/	SYM	,	_	26	_	_	start_char=125|end_char=126
-28	comment	comment	NOUN	NN	Number=Sing	27	_	_	start_char=127|end_char=134|SpaceAfter=No
-29	/	/	SYM	,	_	28	_	_	start_char=134|end_char=135
-30	share	share	NOUN	NN	Number=Sing	29	_	_	start_char=136|end_char=141|SpaceAfter=No
-31	/	/	SYM	,	_	30	_	_	start_char=141|end_char=142
-32	love/	love/	NOUN	NN	Number=Sing	31	_	_	start_char=143|end_char=148
-33	hate	hate	NOUN	NN	Number=Sing	32	_	_	start_char=149|end_char=153|SpaceAfter=No
-34	.	.	PUNCT	.	_	33	_	_	start_char=153|end_char=154
+3	watch	watch	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=9|end_char=14|SpacesAfter=\s\s
+4	share	share	VERB	VB	VerbForm=Inf	3	_	_	start_char=16|end_char=21
+5	5	5	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=22|end_char=23
+6	things	thing	NOUN	NNS	Number=Plur	5	_	_	start_char=24|end_char=30
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=31|end_char=34
+8	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=35|end_char=41
+9	feminists	feminist	NOUN	NNS	Number=Plur	8	_	_	start_char=42|end_char=51
+10	should	should	AUX	MD	VerbForm=Fin	9	_	_	start_char=52|end_char=58
+11	stop	stop	VERB	VB	VerbForm=Inf	10	_	_	start_char=59|end_char=63
+12	saying	say	VERB	VBG	VerbForm=Ger	11	_	_	start_char=64|end_char=70
+13	(	(	PUNCT	-LRB-	_	12	_	_	start_char=71|end_char=72|SpaceAfter=No
+14	somewhat	somewhat	ADV	RB	_	13	_	_	start_char=72|end_char=80
+15	conservative	conservative	ADJ	JJ	Degree=Pos	14	_	_	start_char=81|end_char=93
+16	of	of	ADP	IN	_	15	_	_	start_char=94|end_char=96
+17	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=97|end_char=100|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=100|end_char=101
+19	yes	yes	INTJ	UH	_	18	_	_	start_char=102|end_char=105|SpaceAfter=No
+20	?	?	PUNCT	.	_	19	_	_	start_char=105|end_char=106|SpaceAfter=No
+21	)	)	PUNCT	-RRB-	_	20	_	_	start_char=106|end_char=107
+22	&	&	CCONJ	CC	_	21	_	_	start_char=108|end_char=109
+23	subscribe	subscribe	VERB	VB	Mood=Imp|VerbForm=Fin	22	_	_	start_char=110|end_char=119|SpaceAfter=No
+24	/	/	SYM	,	_	23	_	_	start_char=119|end_char=120
+25	comment	comment	NOUN	NN	Number=Sing	24	_	_	start_char=121|end_char=128|SpaceAfter=No
+26	/	/	SYM	,	_	25	_	_	start_char=128|end_char=129
+27	share	share	NOUN	NN	Number=Sing	26	_	_	start_char=130|end_char=135|SpaceAfter=No
+28	/	/	SYM	,	_	27	_	_	start_char=135|end_char=136
+29	love/	love/	NOUN	NN	Number=Sing	28	_	_	start_char=137|end_char=142
+30	hate	hate	NOUN	NN	Number=Sing	29	_	_	start_char=143|end_char=147|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	start_char=147|end_char=148
 
 # text = Thanks!
-# sent_id = 21439
-1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=155|end_char=161|SpaceAfter=No
-2	!	!	PUNCT	.	_	1	_	_	start_char=161|end_char=162
-
-# text = [USER] [USER] [USER] [USER] [USER] [USER] [USER] [USER] [URL]
-# sent_id = 21440
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=163|end_char=164|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=164|end_char=168|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=168|end_char=169
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=170|end_char=171|SpaceAfter=No
-5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=171|end_char=175|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=175|end_char=176
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=177|end_char=178|SpaceAfter=No
-8	USER	user	NOUN	NN	Number=Sing	7	_	_	start_char=178|end_char=182|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=182|end_char=183
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=184|end_char=185|SpaceAfter=No
-11	USER	user	NOUN	NN	Number=Sing	10	_	_	start_char=185|end_char=189|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=189|end_char=190
-13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=191|end_char=192|SpaceAfter=No
-14	USER	user	NOUN	NN	Number=Sing	13	_	_	start_char=192|end_char=196|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=196|end_char=197
-16	[	[	PUNCT	-LRB-	_	15	_	_	start_char=198|end_char=199|SpaceAfter=No
-17	USER	user	NOUN	NN	Number=Sing	16	_	_	start_char=199|end_char=203|SpaceAfter=No
-18	]	]	PUNCT	-RRB-	_	17	_	_	start_char=203|end_char=204
-19	[	[	PUNCT	-LRB-	_	18	_	_	start_char=205|end_char=206|SpaceAfter=No
-20	USER	user	NOUN	NN	Number=Sing	19	_	_	start_char=206|end_char=210|SpaceAfter=No
-21	]	]	PUNCT	-RRB-	_	20	_	_	start_char=210|end_char=211
-22	[	[	PUNCT	-LRB-	_	21	_	_	start_char=212|end_char=213|SpaceAfter=No
-23	USER	user	NOUN	NN	Number=Sing	22	_	_	start_char=213|end_char=217|SpaceAfter=No
-24	]	]	PUNCT	-RRB-	_	23	_	_	start_char=217|end_char=218
-25	[	[	PUNCT	-LRB-	_	24	_	_	start_char=219|end_char=220|SpaceAfter=No
-26	URL	URL	PROPN	NNP	Number=Sing	25	_	_	start_char=220|end_char=223|SpaceAfter=No
-27	]	]	PUNCT	-RRB-	_	26	_	_	start_char=223|end_char=224|SpaceAfter=No
+# sent_id = 20754
+1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=149|end_char=155|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=155|end_char=156|SpacesAfter=\s\s\s\s\s\s\s\s\s
 

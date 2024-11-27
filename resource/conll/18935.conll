@@ -1,5 +1,5 @@
 # text = Thanks, #Obama for springing this parasite.
-# sent_id = 40599
+# sent_id = 39237
 1	Thanks	thanks	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=6|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	start_char=6|end_char=7
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=8|end_char=9|SpaceAfter=No
@@ -11,7 +11,7 @@
 9	.	.	PUNCT	.	_	8	_	_	start_char=42|end_char=43
 
 # text = How much did releasing this scumbag cost us?
-# sent_id = 40600
+# sent_id = 39238
 1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=44|end_char=47
 2	much	much	ADJ	JJ	Degree=Pos	1	_	_	start_char=48|end_char=52
 3	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=53|end_char=56
@@ -22,13 +22,10 @@
 8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	_	_	start_char=85|end_char=87|SpaceAfter=No
 9	?	?	PUNCT	.	_	8	_	_	start_char=87|end_char=88
 
-# text = #Trump #MAGA [URL]
-# sent_id = 40601
+# text = #Trump #MAGA
+# sent_id = 39239
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=89|end_char=90|SpaceAfter=No
 2	Trump	Trump	PROPN	NNP	Number=Sing	1	_	_	start_char=90|end_char=95
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=96|end_char=97|SpaceAfter=No
 4	MAGA	maga	NOUN	NN	Number=Sing	3	_	_	start_char=97|end_char=101
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=102|end_char=103|SpaceAfter=No
-6	URL	URL	NOUN	NN	Number=Sing	5	_	_	start_char=103|end_char=106|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=106|end_char=107|SpaceAfter=No
 

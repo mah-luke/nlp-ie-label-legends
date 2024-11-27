@@ -1,5 +1,5 @@
-# text = When the crowd at President Trump’s Friday night campaign rally broke into chants of “lock her up!” [URL] VIDEO
-# sent_id = 110457
+# text = When the crowd at President Trump’s Friday night campaign rally broke into chants of “lock her up!”
+# sent_id = 106857
 1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=4
 2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=5|end_char=8
 3	crowd	crowd	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=14
@@ -21,9 +21,9 @@
 18	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=91|end_char=94
 19	up	up	ADP	RP	_	18	_	_	start_char=95|end_char=97|SpaceAfter=No
 20	!	!	PUNCT	.	_	19	_	_	start_char=97|end_char=98|SpaceAfter=No
-21	”	''	PUNCT	''	_	20	_	_	start_char=98|end_char=99
-22	[	[	PUNCT	-LRB-	_	21	_	_	start_char=100|end_char=101|SpaceAfter=No
-23	URL	URL	PROPN	NNP	Number=Sing	22	_	_	start_char=101|end_char=104|SpaceAfter=No
-24	]	]	PUNCT	-RRB-	_	23	_	_	start_char=104|end_char=105
-25	VIDEO	video	NOUN	NN	Number=Sing	24	_	_	start_char=106|end_char=111|SpaceAfter=No
+21	”	''	PUNCT	''	_	20	_	_	start_char=98|end_char=99|SpacesAfter=\s\s
+
+# text = VIDEO
+# sent_id = 106858
+1	VIDEO	video	NOUN	NN	Number=Sing	0	_	_	start_char=101|end_char=106|SpaceAfter=No
 

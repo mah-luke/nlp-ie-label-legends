@@ -1,5 +1,5 @@
 # text = Ivanka should have the Doctor of Common Sense as one of her bodyguards.
-# sent_id = 1015
+# sent_id = 979
 1	Ivanka	Ivanka	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
 2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=7|end_char=13
 3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=14|end_char=18
@@ -13,13 +13,10 @@
 11	of	of	ADP	IN	_	10	_	_	start_char=53|end_char=55
 12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=56|end_char=59
 13	bodyguards	bodyguard	NOUN	NNS	Number=Plur	12	_	_	start_char=60|end_char=70|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=70|end_char=71
+14	.	.	PUNCT	.	_	13	_	_	start_char=70|end_char=71|SpacesAfter=\s\s
 
-# text = [URL] MAGA#Trump
-# sent_id = 1016
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=72|end_char=73|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=73|end_char=76|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=76|end_char=77
-4	MAGA	maga	NOUN	NN	Number=Sing	3	_	_	start_char=78|end_char=82|SpaceAfter=No
-5	#Trump	#Trump	PROPN	NNP	Number=Sing	4	_	_	start_char=82|end_char=88|SpaceAfter=No
+# text = MAGA#Trump
+# sent_id = 980
+1	MAGA	MAGA	PROPN	NNP	Number=Sing	0	_	_	start_char=73|end_char=77|SpaceAfter=No
+2	#Trump	#Trump	PROPN	NNP	Number=Sing	1	_	_	start_char=77|end_char=83|SpaceAfter=No
 

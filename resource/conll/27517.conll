@@ -1,5 +1,5 @@
-# text = Lauren Southern billed $68k for police "security"... [URL]
-# sent_id = 59058
+# text = Lauren Southern billed $68k for police "security"...
+# sent_id = 57123
 1	Lauren	Lauren	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
 2	Southern	Southern	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=15
 3	billed	bill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=16|end_char=22
@@ -11,38 +11,35 @@
 9	"	"	PUNCT	``	_	8	_	_	start_char=39|end_char=40|SpaceAfter=No
 10	security	security	NOUN	NN	Number=Sing	9	_	_	start_char=40|end_char=48|SpaceAfter=No
 11	"	"	PUNCT	''	_	10	_	_	start_char=48|end_char=49|SpaceAfter=No
-12	...	...	PUNCT	,	_	11	_	_	start_char=49|end_char=52
-13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=53|end_char=54|SpaceAfter=No
-14	URL	URL	PROPN	NNP	Number=Sing	13	_	_	start_char=54|end_char=57|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=57|end_char=58
+12	...	...	PUNCT	.	_	11	_	_	start_char=49|end_char=52|SpacesAfter=\s\s
 
 # text = Weird article, watch the video, "Stunt backfires as no one knows who she is"!
-# sent_id = 59059
-1	Weird	weird	ADJ	JJ	Degree=Pos	0	_	_	start_char=59|end_char=64
-2	article	article	NOUN	NN	Number=Sing	1	_	_	start_char=65|end_char=72|SpaceAfter=No
-3	,	,	PUNCT	,	_	2	_	_	start_char=72|end_char=73
-4	watch	watch	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=74|end_char=79
-5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=80|end_char=83
-6	video	video	NOUN	NN	Number=Sing	5	_	_	start_char=84|end_char=89|SpaceAfter=No
-7	,	,	PUNCT	,	_	6	_	_	start_char=89|end_char=90
-8	"	"	PUNCT	``	_	7	_	_	start_char=91|end_char=92|SpaceAfter=No
-9	Stunt	Stunt	PROPN	NNP	Number=Sing	8	_	_	start_char=92|end_char=97
-10	backfires	backfire	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=98|end_char=107
-11	as	as	SCONJ	IN	_	10	_	_	start_char=108|end_char=110
-12	no	no	DET	DT	_	11	_	_	start_char=111|end_char=113
-13	one	one	PRON	NN	Number=Sing|PronType=Neg	12	_	_	start_char=114|end_char=117
-14	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=118|end_char=123
-15	who	who	PRON	WP	PronType=Rel	14	_	_	start_char=124|end_char=127
-16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=128|end_char=131
-17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=132|end_char=134|SpaceAfter=No
-18	"	"	PUNCT	''	_	17	_	_	start_char=134|end_char=135|SpaceAfter=No
-19	!	!	PUNCT	.	_	18	_	_	start_char=135|end_char=136
+# sent_id = 57124
+1	Weird	weird	ADJ	JJ	Degree=Pos	0	_	_	start_char=54|end_char=59
+2	article	article	NOUN	NN	Number=Sing	1	_	_	start_char=60|end_char=67|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=67|end_char=68
+4	watch	watch	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=69|end_char=74
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=75|end_char=78
+6	video	video	NOUN	NN	Number=Sing	5	_	_	start_char=79|end_char=84|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=84|end_char=85
+8	"	"	PUNCT	``	_	7	_	_	start_char=86|end_char=87|SpaceAfter=No
+9	Stunt	Stunt	PROPN	NNP	Number=Sing	8	_	_	start_char=87|end_char=92
+10	backfires	backfire	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=93|end_char=102
+11	as	as	SCONJ	IN	_	10	_	_	start_char=103|end_char=105
+12	no	no	DET	DT	_	11	_	_	start_char=106|end_char=108
+13	one	one	PRON	NN	Number=Sing|PronType=Neg	12	_	_	start_char=109|end_char=112
+14	knows	know	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=113|end_char=118
+15	who	who	PRON	WP	PronType=Rel	14	_	_	start_char=119|end_char=122
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=123|end_char=126
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=127|end_char=129|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=129|end_char=130|SpaceAfter=No
+19	!	!	PUNCT	.	_	18	_	_	start_char=130|end_char=131
 
 # text = That was the point..??
-# sent_id = 59060
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=137|end_char=141
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=142|end_char=145
-3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=146|end_char=149
-4	point	point	NOUN	NN	Number=Sing	3	_	_	start_char=150|end_char=155|SpaceAfter=No
-5	..??	..??	PUNCT	.	_	4	_	_	start_char=155|end_char=159|SpaceAfter=No
+# sent_id = 57125
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=132|end_char=136
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=137|end_char=140
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=141|end_char=144
+4	point	point	NOUN	NN	Number=Sing	3	_	_	start_char=145|end_char=150|SpaceAfter=No
+5	..??	..??	PUNCT	.	_	4	_	_	start_char=150|end_char=154|SpaceAfter=No
 

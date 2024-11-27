@@ -1,5 +1,5 @@
 # text = This asshole assaulted her!
-# sent_id = 14950
+# sent_id = 14480
 1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
 2	asshole	asshole	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=12
 3	assaulted	assault	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=13|end_char=22
@@ -7,7 +7,7 @@
 5	!	!	PUNCT	.	_	4	_	_	start_char=26|end_char=27
 
 # text = He belongs in jail!
-# sent_id = 14951
+# sent_id = 14481
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=28|end_char=30
 2	belongs	belong	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=38
 3	in	in	ADP	IN	_	2	_	_	start_char=39|end_char=41
@@ -15,7 +15,7 @@
 5	!	!	PUNCT	.	_	4	_	_	start_char=46|end_char=47
 
 # text = Help push this video to go viral!
-# sent_id = 14952
+# sent_id = 14482
 1	Help	help	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=48|end_char=52
 2	push	push	VERB	VB	VerbForm=Inf	1	_	_	start_char=53|end_char=57
 3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=58|end_char=62
@@ -26,7 +26,7 @@
 8	!	!	PUNCT	.	_	7	_	_	start_char=80|end_char=81
 
 # text = He must be prosecuted, stop letting violent liberals get away with crimes!!
-# sent_id = 14953
+# sent_id = 14483
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=82|end_char=84
 2	must	must	AUX	MD	VerbForm=Fin	1	_	_	start_char=85|end_char=89
 3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=90|end_char=92
@@ -41,10 +41,4 @@
 12	with	with	ADP	IN	_	11	_	_	start_char=144|end_char=148
 13	crimes	crime	NOUN	NNS	Number=Plur	12	_	_	start_char=149|end_char=155|SpaceAfter=No
 14	!!	!!	PUNCT	.	_	13	_	_	start_char=155|end_char=157
-
-# text = [URL]
-# sent_id = 14954
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=158|end_char=159|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=159|end_char=162|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=162|end_char=163|SpaceAfter=No
 

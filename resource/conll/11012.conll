@@ -1,5 +1,5 @@
 # text = Russian Intelligence intercepted and leaked a 'value report' that 23 Beds were being prepared at a Federal Detention Center in Philadelphia for 'high profile Inmates' over the next month.
-# sent_id = 23306
+# sent_id = 22549
 1	Russian	Russian	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=7
 2	Intelligence	Intelligence	PROPN	NNP	Number=Sing	1	_	_	start_char=8|end_char=20
 3	intercepted	intercept	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=21|end_char=32
@@ -33,31 +33,19 @@
 31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	start_char=172|end_char=175
 32	next	next	ADJ	JJ	Degree=Pos	31	_	_	start_char=176|end_char=180
 33	month	month	NOUN	NN	Number=Sing	32	_	_	start_char=181|end_char=186|SpaceAfter=No
-34	.	.	PUNCT	.	_	33	_	_	start_char=186|end_char=187
-
-# text = [USER]
-# sent_id = 23307
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=188|end_char=189|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=189|end_char=193|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=193|end_char=194
+34	.	.	PUNCT	.	_	33	_	_	start_char=186|end_char=187|SpacesAfter=\s\s
 
 # text = Many take this to mean Hillary is one of them.
-# sent_id = 23308
-1	Many	many	ADJ	JJ	Degree=Pos	0	_	_	start_char=195|end_char=199
-2	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=200|end_char=204
-3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=205|end_char=209
-4	to	to	PART	TO	_	3	_	_	start_char=210|end_char=212
-5	mean	mean	VERB	VB	VerbForm=Inf	4	_	_	start_char=213|end_char=217
-6	Hillary	Hillary	PROPN	NNP	Number=Sing	5	_	_	start_char=218|end_char=225
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=226|end_char=228
-8	one	one	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=229|end_char=232
-9	of	of	ADP	IN	_	8	_	_	start_char=233|end_char=235
-10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=236|end_char=240|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=240|end_char=241
-
-# text = [URL]
-# sent_id = 23309
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=242|end_char=243|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=243|end_char=246|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=246|end_char=247|SpaceAfter=No
+# sent_id = 22550
+1	Many	many	ADJ	JJ	Degree=Pos	0	_	_	start_char=189|end_char=193
+2	take	take	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=194|end_char=198
+3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=199|end_char=203
+4	to	to	PART	TO	_	3	_	_	start_char=204|end_char=206
+5	mean	mean	VERB	VB	VerbForm=Inf	4	_	_	start_char=207|end_char=211
+6	Hillary	Hillary	PROPN	NNP	Number=Sing	5	_	_	start_char=212|end_char=219
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=220|end_char=222
+8	one	one	NUM	CD	NumForm=Word|NumType=Card	7	_	_	start_char=223|end_char=226
+9	of	of	ADP	IN	_	8	_	_	start_char=227|end_char=229
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=230|end_char=234|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=234|end_char=235
 

@@ -1,5 +1,5 @@
-# text = A mother and daughter fighting back against an armed robbery.
-# sent_id = 84783
+# text = A mother and daughter fighting back against an armed robbery. #2A
+# sent_id = 82029
 1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
 2	mother	mother	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=8
 3	and	and	CCONJ	CC	_	2	_	_	start_char=9|end_char=12
@@ -11,12 +11,6 @@
 9	armed	armed	ADJ	JJ	Degree=Pos	8	_	_	start_char=47|end_char=52
 10	robbery	robbery	NOUN	NN	Number=Sing	9	_	_	start_char=53|end_char=60|SpaceAfter=No
 11	.	.	PUNCT	.	_	10	_	_	start_char=60|end_char=61
-
-# text = #2A [URL]
-# sent_id = 84784
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=62|end_char=63|SpaceAfter=No
-2	2A	2a	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=63|end_char=65
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=66|end_char=67|SpaceAfter=No
-4	URL	URL	NOUN	NN	Number=Sing	3	_	_	start_char=67|end_char=70|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=70|end_char=71|SpaceAfter=No
+12	#	#	SYM	NN	Number=Sing	11	_	_	start_char=62|end_char=63|SpaceAfter=No
+13	2A	2a	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=63|end_char=65
 

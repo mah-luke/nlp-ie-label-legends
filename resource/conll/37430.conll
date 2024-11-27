@@ -1,22 +1,19 @@
-# text = [URL] I love her!
-# sent_id = 80011
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=6|end_char=7
-5	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=8|end_char=12
-6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=13|end_char=16|SpaceAfter=No
-7	!	!	PUNCT	.	_	6	_	_	start_char=16|end_char=17
+# text = I love her!
+# sent_id = 77428
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=2|SpacesBefore=\s
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=7
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=8|end_char=11|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=11|end_char=12
 
 # text = She is another Kick Ass and take names!
-# sent_id = 80012
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=18|end_char=21
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=24
-3	another	another	DET	DT	_	2	_	_	start_char=25|end_char=32
-4	Kick	kick	NOUN	NN	Number=Sing	3	_	_	start_char=33|end_char=37
-5	Ass	ass	NOUN	NN	Number=Sing	4	_	_	start_char=38|end_char=41
-6	and	and	CCONJ	CC	_	5	_	_	start_char=42|end_char=45
-7	take	take	VERB	VB	VerbForm=Inf	6	_	_	start_char=46|end_char=50
-8	names	name	NOUN	NNS	Number=Plur	7	_	_	start_char=51|end_char=56|SpaceAfter=No
-9	!	!	PUNCT	.	_	8	_	_	start_char=56|end_char=57|SpaceAfter=No
+# sent_id = 77429
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=13|end_char=16
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=17|end_char=19
+3	another	another	DET	DT	_	2	_	_	start_char=20|end_char=27
+4	Kick	kick	NOUN	NN	Number=Sing	3	_	_	start_char=28|end_char=32
+5	Ass	ass	NOUN	NN	Number=Sing	4	_	_	start_char=33|end_char=36
+6	and	and	CCONJ	CC	_	5	_	_	start_char=37|end_char=40
+7	take	take	VERB	VB	VerbForm=Inf	6	_	_	start_char=41|end_char=45
+8	names	name	NOUN	NNS	Number=Plur	7	_	_	start_char=46|end_char=51|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=51|end_char=52|SpaceAfter=No
 

@@ -1,37 +1,31 @@
-# text = [USER]
-# sent_id = 76947
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Shit, that's bad.
-# sent_id = 76948
-1	Shit	shit	INTJ	UH	_	0	_	_	start_char=7|end_char=11|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=11|end_char=12
-3-4	that's	_	_	_	_	_	_	_	start_char=13|end_char=19
-3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=13|end_char=17
-4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=17|end_char=19
-5	bad	bad	ADJ	JJ	Degree=Pos	4	_	_	start_char=20|end_char=23|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=23|end_char=24
+# sent_id = 74484
+1	Shit	shit	INTJ	UH	_	0	_	_	start_char=1|end_char=5|SpaceAfter=No|SpacesBefore=\s
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3-4	that's	_	_	_	_	_	_	_	start_char=7|end_char=13
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=7|end_char=11
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	bad	bad	ADJ	JJ	Degree=Pos	4	_	_	start_char=14|end_char=17|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=17|end_char=18
 
 # text = If she's licensed to have the raccoon though, it'll hopefully be ok.
-# sent_id = 76949
-1	If	if	SCONJ	IN	_	0	_	_	start_char=25|end_char=27
-2-3	she's	_	_	_	_	_	_	_	start_char=28|end_char=33
-2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=28|end_char=31
-3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=31|end_char=33
-4	licensed	license	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=34|end_char=42
-5	to	to	PART	TO	_	4	_	_	start_char=43|end_char=45
-6	have	have	VERB	VB	VerbForm=Inf	5	_	_	start_char=46|end_char=50
-7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=51|end_char=54
-8	raccoon	raccoon	NOUN	NN	Number=Sing	7	_	_	start_char=55|end_char=62
-9	though	though	ADV	RB	_	8	_	_	start_char=63|end_char=69|SpaceAfter=No
-10	,	,	PUNCT	,	_	9	_	_	start_char=69|end_char=70
-11-12	it'll	_	_	_	_	_	_	_	start_char=71|end_char=76
-11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=71|end_char=73
-12	'll	will	AUX	MD	VerbForm=Fin	11	_	_	start_char=73|end_char=76
-13	hopefully	hopefully	ADV	RB	_	12	_	_	start_char=77|end_char=86
-14	be	be	AUX	VB	VerbForm=Inf	13	_	_	start_char=87|end_char=89
-15	ok	ok	ADJ	JJ	Degree=Pos	14	_	_	start_char=90|end_char=92|SpaceAfter=No
-16	.	.	PUNCT	.	_	15	_	_	start_char=92|end_char=93|SpaceAfter=No
+# sent_id = 74485
+1	If	if	SCONJ	IN	_	0	_	_	start_char=19|end_char=21
+2-3	she's	_	_	_	_	_	_	_	start_char=22|end_char=27
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=22|end_char=25
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=25|end_char=27
+4	licensed	license	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=28|end_char=36
+5	to	to	PART	TO	_	4	_	_	start_char=37|end_char=39
+6	have	have	VERB	VB	VerbForm=Inf	5	_	_	start_char=40|end_char=44
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=45|end_char=48
+8	raccoon	raccoon	NOUN	NN	Number=Sing	7	_	_	start_char=49|end_char=56
+9	though	though	ADV	RB	_	8	_	_	start_char=57|end_char=63|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=63|end_char=64
+11-12	it'll	_	_	_	_	_	_	_	start_char=65|end_char=70
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=65|end_char=67
+12	'll	will	AUX	MD	VerbForm=Fin	11	_	_	start_char=67|end_char=70
+13	hopefully	hopefully	ADV	RB	_	12	_	_	start_char=71|end_char=80
+14	be	be	AUX	VB	VerbForm=Inf	13	_	_	start_char=81|end_char=83
+15	ok	ok	ADJ	JJ	Degree=Pos	14	_	_	start_char=84|end_char=86|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=86|end_char=87|SpaceAfter=No
 

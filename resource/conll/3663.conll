@@ -1,5 +1,5 @@
 # text = Well, I see the state to which politics have descended.
-# sent_id = 7722
+# sent_id = 7482
 1	Well	well	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=7
@@ -14,7 +14,7 @@
 12	.	.	PUNCT	.	_	11	_	_	start_char=54|end_char=55
 
 # text = Nancy Pelosi, as usual, continues to make an ass of herself every time she opens her mouth.
-# sent_id = 7723
+# sent_id = 7483
 1	Nancy	Nancy	PROPN	NNP	Number=Sing	0	_	_	start_char=56|end_char=61
 2	Pelosi	Pelosi	PROPN	NNP	Number=Sing	1	_	_	start_char=62|end_char=68|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	_	_	start_char=68|end_char=69
@@ -36,15 +36,12 @@
 19	mouth	mouth	NOUN	NN	Number=Sing	18	_	_	start_char=141|end_char=146|SpaceAfter=No
 20	.	.	PUNCT	.	_	19	_	_	start_char=146|end_char=147
 
-# text = #SpeakFreely #GabFam #MAGA [URL]
-# sent_id = 7724
+# text = #SpeakFreely #GabFam #MAGA
+# sent_id = 7484
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=148|end_char=149|SpaceAfter=No
 2	SpeakFreely	SpeakFreely	NOUN	GW	Number=Sing	1	_	_	start_char=149|end_char=160
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=161|end_char=162|SpaceAfter=No
-4	GabFam	gabfam	X	GW	_	3	_	_	start_char=162|end_char=168
+4	GabFam	gabfam	NOUN	NN	Number=Sing	3	_	_	start_char=162|end_char=168
 5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=169|end_char=170|SpaceAfter=No
 6	MAGA	maga	NOUN	NN	Number=Sing	5	_	_	start_char=170|end_char=174
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=175|end_char=176|SpaceAfter=No
-8	URL	URL	NOUN	NN	Number=Sing	7	_	_	start_char=176|end_char=179|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=179|end_char=180|SpaceAfter=No
 

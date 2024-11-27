@@ -1,5 +1,5 @@
-# text = Atlantic Mag: Low Unemployment Raises Wages in Iowa [URL]
-# sent_id = 79884
+# text = Atlantic Mag: Low Unemployment Raises Wages in Iowa Atlantic article fails to mention the importance of Trump’s “Hire American” policies that block companies from importing replacement workers via illegal or legal programs.
+# sent_id = 77318
 1	Atlantic	Atlantic	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=8
 2	Mag	mag	NOUN	NN	Number=Sing	1	_	_	start_char=9|end_char=12|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	_	_	start_char=12|end_char=13
@@ -8,46 +8,40 @@
 6	Raises	raise	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=31|end_char=37
 7	Wages	wage	NOUN	NNS	Number=Plur	6	_	_	start_char=38|end_char=43
 8	in	in	ADP	IN	_	7	_	_	start_char=44|end_char=46
-9	Iowa	Iowa	PROPN	NNP	Number=Sing	8	_	_	start_char=47|end_char=51
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=52|end_char=53|SpaceAfter=No
-11	URL	URL	PROPN	NNP	Number=Sing	10	_	_	start_char=53|end_char=56|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=56|end_char=57
-
-# text = Atlantic article fails to mention the importance of Trump’s “Hire American” policies that block companies from importing replacement workers via illegal or legal programs.
-# sent_id = 79885
-1	Atlantic	Atlantic	ADJ	JJ	Degree=Pos	0	_	_	start_char=58|end_char=66
-2	article	article	NOUN	NN	Number=Sing	1	_	_	start_char=67|end_char=74
-3	fails	fail	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=75|end_char=80
-4	to	to	PART	TO	_	3	_	_	start_char=81|end_char=83
-5	mention	mention	VERB	VB	VerbForm=Inf	4	_	_	start_char=84|end_char=91
-6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=92|end_char=95
-7	importance	importance	NOUN	NN	Number=Sing	6	_	_	start_char=96|end_char=106
-8	of	of	ADP	IN	_	7	_	_	start_char=107|end_char=109
-9-10	Trump’s	_	_	_	_	_	_	_	start_char=110|end_char=117
-9	Trump	Trump	PROPN	NNP	Number=Sing	8	_	_	start_char=110|end_char=115
-10	’s	's	PART	POS	_	9	_	_	start_char=115|end_char=117
-11	“	''	PUNCT	``	_	10	_	_	start_char=118|end_char=119|SpaceAfter=No
-12	Hire	hire	VERB	VB	VerbForm=Inf	11	_	_	start_char=119|end_char=123
-13	American	American	ADJ	JJ	Degree=Pos	12	_	_	start_char=124|end_char=132|SpaceAfter=No
-14	”	''	PUNCT	''	_	13	_	_	start_char=132|end_char=133
-15	policies	policy	NOUN	NNS	Number=Plur	14	_	_	start_char=134|end_char=142
-16	that	that	PRON	WDT	PronType=Rel	15	_	_	start_char=143|end_char=147
-17	block	block	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=148|end_char=153
-18	companies	company	NOUN	NNS	Number=Plur	17	_	_	start_char=154|end_char=163
-19	from	from	SCONJ	IN	_	18	_	_	start_char=164|end_char=168
-20	importing	import	VERB	VBG	VerbForm=Ger	19	_	_	start_char=169|end_char=178
-21	replacement	replacement	NOUN	NN	Number=Sing	20	_	_	start_char=179|end_char=190
-22	workers	worker	NOUN	NNS	Number=Plur	21	_	_	start_char=191|end_char=198
-23	via	via	ADP	IN	_	22	_	_	start_char=199|end_char=202
-24	illegal	illegal	ADJ	JJ	Degree=Pos	23	_	_	start_char=203|end_char=210
-25	or	or	CCONJ	CC	_	24	_	_	start_char=211|end_char=213
-26	legal	legal	ADJ	JJ	Degree=Pos	25	_	_	start_char=214|end_char=219
-27	programs	program	NOUN	NNS	Number=Plur	26	_	_	start_char=220|end_char=228|SpaceAfter=No
-28	.	.	PUNCT	.	_	27	_	_	start_char=228|end_char=229
+9	Iowa	Iowa	PROPN	NNP	Number=Sing	8	_	_	start_char=47|end_char=51|SpacesAfter=\s\s
+10	Atlantic	Atlantic	ADJ	JJ	Degree=Pos	9	_	_	start_char=53|end_char=61
+11	article	article	NOUN	NN	Number=Sing	10	_	_	start_char=62|end_char=69
+12	fails	fail	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=70|end_char=75
+13	to	to	PART	TO	_	12	_	_	start_char=76|end_char=78
+14	mention	mention	VERB	VB	VerbForm=Inf	13	_	_	start_char=79|end_char=86
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=87|end_char=90
+16	importance	importance	NOUN	NN	Number=Sing	15	_	_	start_char=91|end_char=101
+17	of	of	ADP	IN	_	16	_	_	start_char=102|end_char=104
+18-19	Trump’s	_	_	_	_	_	_	_	start_char=105|end_char=112
+18	Trump	Trump	PROPN	NNP	Number=Sing	17	_	_	start_char=105|end_char=110
+19	’s	's	PART	POS	_	18	_	_	start_char=110|end_char=112
+20	“	''	PUNCT	``	_	19	_	_	start_char=113|end_char=114|SpaceAfter=No
+21	Hire	hire	VERB	VB	VerbForm=Inf	20	_	_	start_char=114|end_char=118
+22	American	American	ADJ	JJ	Degree=Pos	21	_	_	start_char=119|end_char=127|SpaceAfter=No
+23	”	''	PUNCT	''	_	22	_	_	start_char=127|end_char=128
+24	policies	policy	NOUN	NNS	Number=Plur	23	_	_	start_char=129|end_char=137
+25	that	that	PRON	WDT	PronType=Rel	24	_	_	start_char=138|end_char=142
+26	block	block	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	start_char=143|end_char=148
+27	companies	company	NOUN	NNS	Number=Plur	26	_	_	start_char=149|end_char=158
+28	from	from	SCONJ	IN	_	27	_	_	start_char=159|end_char=163
+29	importing	import	VERB	VBG	VerbForm=Ger	28	_	_	start_char=164|end_char=173
+30	replacement	replacement	NOUN	NN	Number=Sing	29	_	_	start_char=174|end_char=185
+31	workers	worker	NOUN	NNS	Number=Plur	30	_	_	start_char=186|end_char=193
+32	via	via	ADP	IN	_	31	_	_	start_char=194|end_char=197
+33	illegal	illegal	ADJ	JJ	Degree=Pos	32	_	_	start_char=198|end_char=205
+34	or	or	CCONJ	CC	_	33	_	_	start_char=206|end_char=208
+35	legal	legal	ADJ	JJ	Degree=Pos	34	_	_	start_char=209|end_char=214
+36	programs	program	NOUN	NNS	Number=Plur	35	_	_	start_char=215|end_char=223|SpaceAfter=No
+37	.	.	PUNCT	.	_	36	_	_	start_char=223|end_char=224
 
 # text = #MAGA #walkaway
-# sent_id = 79886
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=230|end_char=231|SpaceAfter=No
-2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=231|end_char=235
-3	#walkaway	#walkaway	X	FW	_	2	_	_	start_char=236|end_char=245|SpaceAfter=No
+# sent_id = 77319
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=225|end_char=226|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=226|end_char=230
+3	#walkaway	#walkaway	X	FW	_	2	_	_	start_char=231|end_char=240|SpaceAfter=No
 

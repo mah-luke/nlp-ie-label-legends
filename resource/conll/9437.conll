@@ -1,5 +1,5 @@
 # text = Hillary and Bill back on the road but has she eaten too much Spirit Cooking?
-# sent_id = 19933
+# sent_id = 19285
 1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
 2	and	and	CCONJ	CC	_	1	_	_	start_char=8|end_char=11
 3	Bill	Bill	PROPN	NNP	Number=Sing	2	_	_	start_char=12|end_char=16
@@ -17,19 +17,16 @@
 15	Cooking	cook	NOUN	NN	Number=Sing	14	_	_	start_char=68|end_char=75|SpaceAfter=No
 16	?	?	PUNCT	.	_	15	_	_	start_char=75|end_char=76
 
-# text = "Sick Hillary Suffers ‘Uncontrollable’ Coughing Fit " [URL]
-# sent_id = 19934
+# text = "Sick Hillary Suffers ‘Uncontrollable’ Coughing Fit "
+# sent_id = 19286
 1	"	"	PUNCT	``	_	0	_	_	start_char=77|end_char=78|SpaceAfter=No
 2	Sick	sick	ADJ	NNP	Degree=Pos	1	_	_	start_char=78|end_char=82
 3	Hillary	Hillary	PROPN	NNP	Number=Sing	2	_	_	start_char=83|end_char=90
-4	Suffers	Suffers	PROPN	NNPS	Number=Plur	3	_	_	start_char=91|end_char=98
+4	Suffers	suffer	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=91|end_char=98
 5	‘	'	PUNCT	``	_	4	_	_	start_char=99|end_char=100|SpaceAfter=No
 6	Uncontrollable	uncontrollable	ADJ	JJ	Degree=Pos	5	_	_	start_char=100|end_char=114|SpaceAfter=No
 7	’	's	PART	POS	_	6	_	_	start_char=114|end_char=115
-8	Coughing	Coughing	PROPN	NNP	Number=Sing	7	_	_	start_char=116|end_char=124
+8	Coughing	coughing	NOUN	NN	Number=Sing	7	_	_	start_char=116|end_char=124
 9	Fit	Fit	PROPN	NNP	Number=Sing	8	_	_	start_char=125|end_char=128
 10	"	"	PUNCT	''	_	9	_	_	start_char=129|end_char=130
-11	[	[	PUNCT	-LRB-	_	10	_	_	start_char=131|end_char=132|SpaceAfter=No
-12	URL	URL	PROPN	NNP	Number=Sing	11	_	_	start_char=132|end_char=135|SpaceAfter=No
-13	]	]	PUNCT	-RRB-	_	12	_	_	start_char=135|end_char=136|SpaceAfter=No
 

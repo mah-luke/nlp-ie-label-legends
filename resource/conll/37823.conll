@@ -1,81 +1,78 @@
-# text = [USER] I've tried twice.
-# sent_id = 80854
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4-5	I've	_	_	_	_	_	_	_	start_char=7|end_char=11
-4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=7|end_char=8
-5	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=8|end_char=11
-6	tried	try	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=12|end_char=17
-7	twice	twice	ADV	RB	NumType=Mult	6	_	_	start_char=18|end_char=23|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=23|end_char=24
+# text = I've tried twice.
+# sent_id = 78241
+1-2	I've	_	_	_	_	_	_	_	start_char=1|end_char=5|SpacesBefore=\s
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=2
+2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=5
+3	tried	try	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=6|end_char=11
+4	twice	twice	ADV	RB	NumType=Mult	3	_	_	start_char=12|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
 
 # text = She wont let me, even though it's her fault.
-# sent_id = 80855
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=25|end_char=28
-2-3	wont	_	_	_	_	_	_	_	start_char=29|end_char=33
-2	wo	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=29|end_char=31
-3	nt	not	PART	RB	_	2	_	_	start_char=31|end_char=33
-4	let	let	VERB	VB	VerbForm=Inf	3	_	_	start_char=34|end_char=37
-5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=38|end_char=40|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=40|end_char=41
-7	even	even	ADV	RB	_	6	_	_	start_char=42|end_char=46
-8	though	though	SCONJ	IN	_	7	_	_	start_char=47|end_char=53
-9-10	it's	_	_	_	_	_	_	_	start_char=54|end_char=58
-9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=54|end_char=56
-10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=56|end_char=58
-11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=59|end_char=62
-12	fault	fault	NOUN	NN	Number=Sing	11	_	_	start_char=63|end_char=68|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=68|end_char=69
+# sent_id = 78242
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=19|end_char=22
+2-3	wont	_	_	_	_	_	_	_	start_char=23|end_char=27
+2	wo	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=23|end_char=25
+3	nt	not	PART	RB	_	2	_	_	start_char=25|end_char=27
+4	let	let	VERB	VB	VerbForm=Inf	3	_	_	start_char=28|end_char=31
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=32|end_char=34|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=34|end_char=35
+7	even	even	ADV	RB	_	6	_	_	start_char=36|end_char=40
+8	though	though	SCONJ	IN	_	7	_	_	start_char=41|end_char=47
+9-10	it's	_	_	_	_	_	_	_	start_char=48|end_char=52
+9	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=48|end_char=50
+10	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=50|end_char=52
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=53|end_char=56
+12	fault	fault	NOUN	NN	Number=Sing	11	_	_	start_char=57|end_char=62|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=62|end_char=63
 
 # text = "Conservative female stuck in liberal la la land.
-# sent_id = 80856
-1	"	"	PUNCT	``	_	0	_	_	start_char=70|end_char=71|SpaceAfter=No
-2	Conservative	Conservative	ADJ	JJ	Degree=Pos	1	_	_	start_char=71|end_char=83
-3	female	female	NOUN	NN	Number=Sing	2	_	_	start_char=84|end_char=90
-4	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=91|end_char=96
-5	in	in	ADP	IN	_	4	_	_	start_char=97|end_char=99
-6	liberal	liberal	ADJ	JJ	Degree=Pos	5	_	_	start_char=100|end_char=107
-7	la	la	PROPN	NNP	Number=Sing	6	_	_	start_char=108|end_char=110
-8	la	la	PROPN	NNP	Number=Sing	7	_	_	start_char=111|end_char=113
-9	land	land	NOUN	NN	Number=Sing	8	_	_	start_char=114|end_char=118|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=118|end_char=119
+# sent_id = 78243
+1	"	"	PUNCT	``	_	0	_	_	start_char=64|end_char=65|SpaceAfter=No
+2	Conservative	Conservative	ADJ	JJ	Degree=Pos	1	_	_	start_char=65|end_char=77
+3	female	female	NOUN	NN	Number=Sing	2	_	_	start_char=78|end_char=84
+4	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=85|end_char=90
+5	in	in	ADP	IN	_	4	_	_	start_char=91|end_char=93
+6	liberal	liberal	ADJ	JJ	Degree=Pos	5	_	_	start_char=94|end_char=101
+7	la	la	PROPN	NNP	Number=Sing	6	_	_	start_char=102|end_char=104
+8	la	la	PROPN	NNP	Number=Sing	7	_	_	start_char=105|end_char=107
+9	land	land	NOUN	NN	Number=Sing	8	_	_	start_char=108|end_char=112|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=112|end_char=113
 
 # text = Someone save me" I'm new to politics, I'm convinced we picked the right side.
-# sent_id = 80857
-1	Someone	someone	PRON	NN	Number=Sing|PronType=Ind	0	_	_	start_char=120|end_char=127
-2	save	save	VERB	VB	VerbForm=Inf	1	_	_	start_char=128|end_char=132
-3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=133|end_char=135|SpaceAfter=No
-4	"	"	PUNCT	``	_	3	_	_	start_char=135|end_char=136
-5-6	I'm	_	_	_	_	_	_	_	start_char=137|end_char=140
-5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=137|end_char=138
-6	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=138|end_char=140
-7	new	new	ADJ	JJ	Degree=Pos	6	_	_	start_char=141|end_char=144
-8	to	to	ADP	IN	_	7	_	_	start_char=145|end_char=147
-9	politics	politics	NOUN	NNS	Number=Plur	8	_	_	start_char=148|end_char=156|SpaceAfter=No
-10	,	,	PUNCT	,	_	9	_	_	start_char=156|end_char=157
-11-12	I'm	_	_	_	_	_	_	_	start_char=158|end_char=161
-11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=158|end_char=159
-12	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=159|end_char=161
-13	convinced	convinced	ADJ	JJ	Degree=Pos	12	_	_	start_char=162|end_char=171
-14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	_	_	start_char=172|end_char=174
-15	picked	pick	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	14	_	_	start_char=175|end_char=181
-16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=182|end_char=185
-17	right	right	ADJ	JJ	Degree=Pos	16	_	_	start_char=186|end_char=191
-18	side	side	NOUN	NN	Number=Sing	17	_	_	start_char=192|end_char=196|SpaceAfter=No
-19	.	.	PUNCT	.	_	18	_	_	start_char=196|end_char=197
+# sent_id = 78244
+1	Someone	someone	PRON	NN	Number=Sing|PronType=Ind	0	_	_	start_char=114|end_char=121
+2	save	save	VERB	VB	VerbForm=Inf	1	_	_	start_char=122|end_char=126
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=127|end_char=129|SpaceAfter=No
+4	"	"	PUNCT	``	_	3	_	_	start_char=129|end_char=130
+5-6	I'm	_	_	_	_	_	_	_	start_char=131|end_char=134
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=131|end_char=132
+6	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=132|end_char=134
+7	new	new	ADJ	JJ	Degree=Pos	6	_	_	start_char=135|end_char=138
+8	to	to	ADP	IN	_	7	_	_	start_char=139|end_char=141
+9	politics	politics	NOUN	NNS	Number=Plur	8	_	_	start_char=142|end_char=150|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=150|end_char=151
+11-12	I'm	_	_	_	_	_	_	_	start_char=152|end_char=155
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=152|end_char=153
+12	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=153|end_char=155
+13	convinced	convinced	ADJ	JJ	Degree=Pos	12	_	_	start_char=156|end_char=165
+14	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	13	_	_	start_char=166|end_char=168
+15	picked	pick	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	14	_	_	start_char=169|end_char=175
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=176|end_char=179
+17	right	right	ADJ	JJ	Degree=Pos	16	_	_	start_char=180|end_char=185
+18	side	side	NOUN	NN	Number=Sing	17	_	_	start_char=186|end_char=190|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=190|end_char=191
 
 # text = I'm doing all I can stuck in Commiefornia!
-# sent_id = 80858
-1-2	I'm	_	_	_	_	_	_	_	start_char=198|end_char=201
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=198|end_char=199
-2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=199|end_char=201
-3	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=202|end_char=207
-4	all	all	DET	DT	_	3	_	_	start_char=208|end_char=211
-5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=212|end_char=213
-6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=214|end_char=217
-7	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=218|end_char=223
-8	in	in	ADP	IN	_	7	_	_	start_char=224|end_char=226
-9	Commiefornia	Commiefornia	PROPN	NNP	Number=Sing	8	_	_	start_char=227|end_char=239|SpaceAfter=No
-10	!	!	PUNCT	.	_	9	_	_	start_char=239|end_char=240|SpaceAfter=No
+# sent_id = 78245
+1-2	I'm	_	_	_	_	_	_	_	start_char=192|end_char=195
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=192|end_char=193
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=193|end_char=195
+3	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=196|end_char=201
+4	all	all	DET	DT	_	3	_	_	start_char=202|end_char=205
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=206|end_char=207
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=208|end_char=211
+7	stuck	stick	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=212|end_char=217
+8	in	in	ADP	IN	_	7	_	_	start_char=218|end_char=220
+9	Commiefornia	Commiefornia	PROPN	NNP	Number=Sing	8	_	_	start_char=221|end_char=233|SpaceAfter=No
+10	!	!	PUNCT	.	_	9	_	_	start_char=233|end_char=234|SpaceAfter=No
 

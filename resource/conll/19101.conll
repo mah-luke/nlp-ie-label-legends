@@ -1,27 +1,21 @@
-# text = [USER]
-# sent_id = 41004
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Yes, she's got big boobs, but I've never seen them sweat.
-# sent_id = 41005
-1	Yes	yes	INTJ	UH	_	0	_	_	start_char=7|end_char=10|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=10|end_char=11
-3-4	she's	_	_	_	_	_	_	_	start_char=12|end_char=17
-3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=12|end_char=15
-4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=15|end_char=17
-5	got	get	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=18|end_char=21
-6	big	big	ADJ	JJ	Degree=Pos	5	_	_	start_char=22|end_char=25
-7	boobs	boob	NOUN	NNS	Number=Plur	6	_	_	start_char=26|end_char=31|SpaceAfter=No
-8	,	,	PUNCT	,	_	7	_	_	start_char=31|end_char=32
-9	but	but	CCONJ	CC	_	8	_	_	start_char=33|end_char=36
-10-11	I've	_	_	_	_	_	_	_	start_char=37|end_char=41
-10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=37|end_char=38
-11	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=38|end_char=41
-12	never	never	ADV	RB	_	11	_	_	start_char=42|end_char=47
-13	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=48|end_char=52
-14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=53|end_char=57
-15	sweat	sweat	VERB	VB	VerbForm=Inf	14	_	_	start_char=58|end_char=63|SpaceAfter=No
-16	.	.	PUNCT	.	_	15	_	_	start_char=63|end_char=64|SpaceAfter=No
+# sent_id = 39624
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=1|end_char=4|SpaceAfter=No|SpacesBefore=\s
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3-4	she's	_	_	_	_	_	_	_	start_char=6|end_char=11
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=6|end_char=9
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=9|end_char=11
+5	got	get	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=12|end_char=15
+6	big	big	ADJ	JJ	Degree=Pos	5	_	_	start_char=16|end_char=19
+7	boobs	boob	NOUN	NNS	Number=Plur	6	_	_	start_char=20|end_char=25|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=25|end_char=26
+9	but	but	CCONJ	CC	_	8	_	_	start_char=27|end_char=30
+10-11	I've	_	_	_	_	_	_	_	start_char=31|end_char=35
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=31|end_char=32
+11	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=32|end_char=35
+12	never	never	ADV	RB	_	11	_	_	start_char=36|end_char=41
+13	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=42|end_char=46
+14	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=47|end_char=51
+15	sweat	sweat	VERB	VB	VerbForm=Inf	14	_	_	start_char=52|end_char=57|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=57|end_char=58|SpaceAfter=No
 

@@ -1,31 +1,28 @@
-# text = [USER] #HillaryHatesAmericans
-# sent_id = 67284
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=7|end_char=8|SpaceAfter=No
-5	HillaryHatesAmericans	HillaryHate	NOUN	NNS	Number=Plur	4	_	_	start_char=8|end_char=29
+# text = #HillaryHatesAmericans
+# sent_id = 65127
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=1|end_char=2|SpaceAfter=No|SpacesBefore=\s
+2	HillaryHatesAmericans	HillaryHate	NOUN	NN	Number=Plur	1	_	_	start_char=2|end_char=23
 
 # text = And she calls US deplorable?
-# sent_id = 67285
-1	And	and	CCONJ	CC	_	0	_	_	start_char=30|end_char=33
-2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=34|end_char=37
-3	calls	call	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=38|end_char=43
-4	US	US	PROPN	NNP	Number=Sing	3	_	_	start_char=44|end_char=46
-5	deplorable	deplorable	ADJ	JJ	Degree=Pos	4	_	_	start_char=47|end_char=57|SpaceAfter=No
-6	?	?	PUNCT	.	_	5	_	_	start_char=57|end_char=58
+# sent_id = 65128
+1	And	and	CCONJ	CC	_	0	_	_	start_char=24|end_char=27
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=28|end_char=31
+3	calls	call	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=32|end_char=37
+4	US	US	PROPN	NNP	Number=Sing	3	_	_	start_char=38|end_char=40
+5	deplorable	deplorable	ADJ	JJ	Degree=Pos	4	_	_	start_char=41|end_char=51|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=51|end_char=52
 
 # text = Please.
-# sent_id = 67286
-1	Please	please	INTJ	UH	_	0	_	_	start_char=59|end_char=65|SpaceAfter=No
-2	.	.	PUNCT	.	_	1	_	_	start_char=65|end_char=66
+# sent_id = 65129
+1	Please	please	INTJ	UH	_	0	_	_	start_char=53|end_char=59|SpaceAfter=No
+2	.	.	PUNCT	.	_	1	_	_	start_char=59|end_char=60
 
 # text = Hillary is a disgusting hag.
-# sent_id = 67287
-1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=67|end_char=74
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=75|end_char=77
-3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=78|end_char=79
-4	disgusting	disgusting	ADJ	JJ	Degree=Pos	3	_	_	start_char=80|end_char=90
-5	hag	hag	NOUN	NN	Number=Sing	4	_	_	start_char=91|end_char=94|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=94|end_char=95|SpaceAfter=No
+# sent_id = 65130
+1	Hillary	Hillary	PROPN	NNP	Number=Sing	0	_	_	start_char=61|end_char=68
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=69|end_char=71
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=72|end_char=73
+4	disgusting	disgusting	ADJ	JJ	Degree=Pos	3	_	_	start_char=74|end_char=84
+5	hag	hag	NOUN	NN	Number=Sing	4	_	_	start_char=85|end_char=88|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=88|end_char=89|SpaceAfter=No
 

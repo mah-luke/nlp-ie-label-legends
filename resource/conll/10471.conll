@@ -1,54 +1,48 @@
-# text = [USER] #Breitbart comments poetry:
-# sent_id = 22080
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=7|end_char=8|SpaceAfter=No
-5	Breitbart	Breitbart	PROPN	NNP	Number=Sing	4	_	_	start_char=8|end_char=17
-6	comments	comment	NOUN	NNS	Number=Plur	5	_	_	start_char=18|end_char=26
-7	poetry	poetry	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=33|SpaceAfter=No
-8	:	:	PUNCT	:	_	7	_	_	start_char=33|end_char=34
-
-# text = There was an Italian putana she'd do whatever you wanna the agreement was oral though highly immoral yet more honest than Madonna.
-# sent_id = 22081
-1	There	there	PRON	EX	_	0	_	_	start_char=35|end_char=40
-2	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=41|end_char=44
-3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=45|end_char=47
-4	Italian	Italian	ADJ	JJ	Degree=Pos	3	_	_	start_char=48|end_char=55
-5	putana	putana	NOUN	NN	Number=Sing	4	_	_	start_char=56|end_char=62
-6-7	she'd	_	_	_	_	_	_	_	start_char=63|end_char=68
-6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=63|end_char=66
-7	'd	would	AUX	MD	VerbForm=Fin	6	_	_	start_char=66|end_char=68
-8	do	do	VERB	VB	VerbForm=Inf	7	_	_	start_char=69|end_char=71
-9	whatever	whatever	PRON	WP	PronType=Rel	8	_	_	start_char=72|end_char=80
-10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=81|end_char=84
-11-12	wanna	_	_	_	_	_	_	_	start_char=85|end_char=90
-11	wan	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=85|end_char=88
-12	na	to	PART	TO	_	11	_	_	start_char=88|end_char=90
-13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=91|end_char=94
-14	agreement	agreement	NOUN	NN	Number=Sing	13	_	_	start_char=95|end_char=104
-15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=105|end_char=108
-16	oral	oral	ADJ	JJ	Degree=Pos	15	_	_	start_char=109|end_char=113
-17	though	though	ADV	RB	_	16	_	_	start_char=114|end_char=120
-18	highly	highly	ADV	RB	_	17	_	_	start_char=121|end_char=127
-19	immoral	immoral	ADJ	JJ	Degree=Pos	18	_	_	start_char=128|end_char=135
-20	yet	yet	CCONJ	CC	_	19	_	_	start_char=136|end_char=139
-21	more	more	ADV	RBR	Degree=Cmp	20	_	_	start_char=140|end_char=144
-22	honest	honest	ADJ	JJ	Degree=Pos	21	_	_	start_char=145|end_char=151
-23	than	than	ADP	IN	_	22	_	_	start_char=152|end_char=156
-24	Madonna	Madonna	PROPN	NNP	Number=Sing	23	_	_	start_char=157|end_char=164|SpaceAfter=No
-25	.	.	PUNCT	.	_	24	_	_	start_char=164|end_char=165
+# text = #Breitbart comments poetry: There was an Italian putana she'd do whatever you wanna the agreement was oral though highly immoral yet more honest than Madonna.
+# sent_id = 21377
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=1|end_char=2|SpaceAfter=No|SpacesBefore=\s
+2	Breitbart	Breitbart	PROPN	NNP	Number=Sing	1	_	_	start_char=2|end_char=11
+3	comments	comment	NOUN	NNS	Number=Plur	2	_	_	start_char=12|end_char=20
+4	poetry	poetry	NOUN	NN	Number=Sing	3	_	_	start_char=21|end_char=27|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=27|end_char=28
+6	There	there	PRON	EX	_	5	_	_	start_char=29|end_char=34
+7	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=35|end_char=38
+8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=39|end_char=41
+9	Italian	Italian	ADJ	JJ	Degree=Pos	8	_	_	start_char=42|end_char=49
+10	putana	putana	NOUN	NN	Number=Sing	9	_	_	start_char=50|end_char=56
+11-12	she'd	_	_	_	_	_	_	_	start_char=57|end_char=62
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=57|end_char=60
+12	'd	would	AUX	MD	VerbForm=Fin	11	_	_	start_char=60|end_char=62
+13	do	do	VERB	VB	VerbForm=Inf	12	_	_	start_char=63|end_char=65
+14	whatever	whatever	PRON	WP	PronType=Rel	13	_	_	start_char=66|end_char=74
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	_	_	start_char=75|end_char=78
+16-17	wanna	_	_	_	_	_	_	_	start_char=79|end_char=84
+16	wan	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	_	_	start_char=79|end_char=82
+17	na	to	PART	TO	_	16	_	_	start_char=82|end_char=84
+18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=85|end_char=88
+19	agreement	agreement	NOUN	NN	Number=Sing	18	_	_	start_char=89|end_char=98
+20	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	19	_	_	start_char=99|end_char=102
+21	oral	oral	ADJ	JJ	Degree=Pos	20	_	_	start_char=103|end_char=107
+22	though	though	ADV	RB	_	21	_	_	start_char=108|end_char=114
+23	highly	highly	ADV	RB	_	22	_	_	start_char=115|end_char=121
+24	immoral	immoral	ADJ	JJ	Degree=Pos	23	_	_	start_char=122|end_char=129
+25	yet	yet	CCONJ	CC	_	24	_	_	start_char=130|end_char=133
+26	more	more	ADV	RBR	Degree=Cmp	25	_	_	start_char=134|end_char=138
+27	honest	honest	ADJ	JJ	Degree=Pos	26	_	_	start_char=139|end_char=145
+28	than	than	ADP	IN	_	27	_	_	start_char=146|end_char=150
+29	Madonna	Madonna	PROPN	NNP	Number=Sing	28	_	_	start_char=151|end_char=158|SpaceAfter=No
+30	.	.	PUNCT	.	_	29	_	_	start_char=158|end_char=159
 
 # text = #MAGA #GabFab #Italy #Referendum #OralContract
-# sent_id = 22082
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=166|end_char=167|SpaceAfter=No
-2	MAGA	maga	NOUN	GW	Number=Sing	1	_	_	start_char=167|end_char=171
-3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=172|end_char=173|SpaceAfter=No
-4	GabFab	gabfab	X	GW	_	3	_	_	start_char=173|end_char=179
-5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=180|end_char=181|SpaceAfter=No
-6	Italy	Italy	X	GW	_	5	_	_	start_char=181|end_char=186
-7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=187|end_char=188|SpaceAfter=No
-8	Referendum	referendum	NOUN	GW	Number=Sing	7	_	_	start_char=188|end_char=198
-9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=199|end_char=200|SpaceAfter=No
-10	OralContract	oralcontract	X	NN	_	9	_	_	start_char=200|end_char=212|SpaceAfter=No
+# sent_id = 21378
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=160|end_char=161|SpaceAfter=No
+2	MAGA	maga	NOUN	GW	Number=Sing	1	_	_	start_char=161|end_char=165
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=166|end_char=167|SpaceAfter=No
+4	GabFab	gabfab	X	GW	_	3	_	_	start_char=167|end_char=173
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=174|end_char=175|SpaceAfter=No
+6	Italy	Italy	X	GW	_	5	_	_	start_char=175|end_char=180
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=181|end_char=182|SpaceAfter=No
+8	Referendum	referendum	NOUN	GW	Number=Sing	7	_	_	start_char=182|end_char=192
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=193|end_char=194|SpaceAfter=No
+10	OralContract	oralcontract	X	NN	_	9	_	_	start_char=194|end_char=206|SpaceAfter=No
 

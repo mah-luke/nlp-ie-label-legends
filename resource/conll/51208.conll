@@ -1,13 +1,13 @@
 # text = OMG what the hell!
-# sent_id = 109454
+# sent_id = 105866
 1	OMG	omg	INTJ	UH	_	0	_	_	start_char=0|end_char=3
 2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=4|end_char=8
 3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=9|end_char=12
 4	hell	hell	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=17|SpaceAfter=No
 5	!	!	PUNCT	.	_	4	_	_	start_char=17|end_char=18
 
-# text = I have a friend who lives in Germany and she says that their way of life is dead! :( [USER]
-# sent_id = 109455
+# text = I have a friend who lives in Germany and she says that their way of life is dead! :(
+# sent_id = 105867
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=19|end_char=20
 2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=21|end_char=25
 3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=26|end_char=27
@@ -28,7 +28,4 @@
 18	dead	dead	ADJ	JJ	Degree=Pos	17	_	_	start_char=95|end_char=99|SpaceAfter=No
 19	!	!	PUNCT	.	_	18	_	_	start_char=99|end_char=100
 20	:(	:(	SYM	NFP	_	19	_	_	start_char=101|end_char=103
-21	[	[	PUNCT	-LRB-	_	20	_	_	start_char=104|end_char=105|SpaceAfter=No
-22	USER	user	NOUN	NN	Number=Sing	21	_	_	start_char=105|end_char=109|SpaceAfter=No
-23	]	]	PUNCT	-RRB-	_	22	_	_	start_char=109|end_char=110|SpaceAfter=No
 

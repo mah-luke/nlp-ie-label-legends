@@ -1,39 +1,36 @@
-# text = [URL] Brittany Pettibone is the young girl who was kicked out of the UK for trying to conduct this very interview.
-# sent_id = 51026
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-4	Brittany	Brittany	PROPN	NNP	Number=Sing	3	_	_	start_char=6|end_char=14
-5	Pettibone	Pettibone	PROPN	NNP	Number=Sing	4	_	_	start_char=15|end_char=24
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=25|end_char=27
-7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=28|end_char=31
-8	young	young	ADJ	JJ	Degree=Pos	7	_	_	start_char=32|end_char=37
-9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=38|end_char=42
-10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=43|end_char=46
-11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=47|end_char=50
-12	kicked	kick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=51|end_char=57
-13	out	out	ADP	IN	_	12	_	_	start_char=58|end_char=61
-14	of	of	ADP	IN	_	13	_	_	start_char=62|end_char=64
-15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=65|end_char=68
-16	UK	UK	PROPN	NNP	Number=Sing	15	_	_	start_char=69|end_char=71
-17	for	for	SCONJ	IN	_	16	_	_	start_char=72|end_char=75
-18	trying	try	VERB	VBG	VerbForm=Ger	17	_	_	start_char=76|end_char=82
-19	to	to	PART	TO	_	18	_	_	start_char=83|end_char=85
-20	conduct	conduct	VERB	VB	VerbForm=Inf	19	_	_	start_char=86|end_char=93
-21	this	this	DET	DT	Number=Sing|PronType=Dem	20	_	_	start_char=94|end_char=98
-22	very	very	ADJ	JJ	Degree=Pos	21	_	_	start_char=99|end_char=103
-23	interview	interview	NOUN	NN	Number=Sing	22	_	_	start_char=104|end_char=113|SpaceAfter=No
-24	.	.	PUNCT	.	_	23	_	_	start_char=113|end_char=114
+# text = Brittany Pettibone is the young girl who was kicked out of the UK for trying to conduct this very interview.
+# sent_id = 49376
+1	Brittany	Brittany	PROPN	NNP	Number=Sing	0	_	_	start_char=1|end_char=9|SpacesBefore=\s
+2	Pettibone	Pettibone	PROPN	NNP	Number=Sing	1	_	_	start_char=10|end_char=19
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=20|end_char=22
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=23|end_char=26
+5	young	young	ADJ	JJ	Degree=Pos	4	_	_	start_char=27|end_char=32
+6	girl	girl	NOUN	NN	Number=Sing	5	_	_	start_char=33|end_char=37
+7	who	who	PRON	WP	PronType=Rel	6	_	_	start_char=38|end_char=41
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=42|end_char=45
+9	kicked	kick	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=46|end_char=52
+10	out	out	ADP	IN	_	9	_	_	start_char=53|end_char=56
+11	of	of	ADP	IN	_	10	_	_	start_char=57|end_char=59
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=60|end_char=63
+13	UK	UK	PROPN	NNP	Number=Sing	12	_	_	start_char=64|end_char=66
+14	for	for	SCONJ	IN	_	13	_	_	start_char=67|end_char=70
+15	trying	try	VERB	VBG	VerbForm=Ger	14	_	_	start_char=71|end_char=77
+16	to	to	PART	TO	_	15	_	_	start_char=78|end_char=80
+17	conduct	conduct	VERB	VB	VerbForm=Inf	16	_	_	start_char=81|end_char=88
+18	this	this	DET	DT	Number=Sing|PronType=Dem	17	_	_	start_char=89|end_char=93
+19	very	very	ADJ	JJ	Degree=Pos	18	_	_	start_char=94|end_char=98
+20	interview	interview	NOUN	NN	Number=Sing	19	_	_	start_char=99|end_char=108|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=108|end_char=109
 
 # text = Tommy Robinson flew to Vienna to conduct it.
-# sent_id = 51027
-1	Tommy	Tommy	PROPN	NNP	Number=Sing	0	_	_	start_char=115|end_char=120
-2	Robinson	Robinson	PROPN	NNP	Number=Sing	1	_	_	start_char=121|end_char=129
-3	flew	fly	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=130|end_char=134
-4	to	to	ADP	IN	_	3	_	_	start_char=135|end_char=137
-5	Vienna	Vienna	PROPN	NNP	Number=Sing	4	_	_	start_char=138|end_char=144
-6	to	to	PART	TO	_	5	_	_	start_char=145|end_char=147
-7	conduct	conduct	VERB	VB	VerbForm=Inf	6	_	_	start_char=148|end_char=155
-8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=156|end_char=158|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=158|end_char=159|SpaceAfter=No
+# sent_id = 49377
+1	Tommy	Tommy	PROPN	NNP	Number=Sing	0	_	_	start_char=110|end_char=115
+2	Robinson	Robinson	PROPN	NNP	Number=Sing	1	_	_	start_char=116|end_char=124
+3	flew	fly	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=125|end_char=129
+4	to	to	ADP	IN	_	3	_	_	start_char=130|end_char=132
+5	Vienna	Vienna	PROPN	NNP	Number=Sing	4	_	_	start_char=133|end_char=139
+6	to	to	PART	TO	_	5	_	_	start_char=140|end_char=142
+7	conduct	conduct	VERB	VB	VerbForm=Inf	6	_	_	start_char=143|end_char=150
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=151|end_char=153|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=153|end_char=154|SpaceAfter=No
 

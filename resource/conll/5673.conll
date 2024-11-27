@@ -1,50 +1,44 @@
-# text = [USER]
-# sent_id = 11889
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Unfortunately I already have all the checkboxes unchecked.
-# sent_id = 11890
-1	Unfortunately	unfortunately	ADV	RB	_	0	_	_	start_char=7|end_char=20
-2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=21|end_char=22
-3	already	already	ADV	RB	_	2	_	_	start_char=23|end_char=30
-4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=31|end_char=35
-5	all	all	DET	PDT	_	4	_	_	start_char=36|end_char=39
-6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=40|end_char=43
-7	checkboxes	checkbox	NOUN	NNS	Number=Plur	6	_	_	start_char=44|end_char=54
-8	unchecked	unchecked	ADJ	JJ	Degree=Pos	7	_	_	start_char=55|end_char=64|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=64|end_char=65
+# sent_id = 11502
+1	Unfortunately	unfortunately	ADV	RB	_	0	_	_	start_char=1|end_char=14|SpacesBefore=\s
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=15|end_char=16
+3	already	already	ADV	RB	_	2	_	_	start_char=17|end_char=24
+4	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=25|end_char=29
+5	all	all	DET	PDT	_	4	_	_	start_char=30|end_char=33
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=34|end_char=37
+7	checkboxes	checkbox	NOUN	NNS	Number=Plur	6	_	_	start_char=38|end_char=48
+8	unchecked	unchecked	ADJ	JJ	Degree=Pos	7	_	_	start_char=49|end_char=58|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=58|end_char=59
 
 # text = I did that shortly after I joined and have tried checking, saving, then unchecking again and saving multiple times but the follower emails only keep coming.
-# sent_id = 11891
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=66|end_char=67
-2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=68|end_char=71
-3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=72|end_char=76
-4	shortly	shortly	ADV	RB	_	3	_	_	start_char=77|end_char=84
-5	after	after	SCONJ	IN	_	4	_	_	start_char=85|end_char=90
-6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=91|end_char=92
-7	joined	join	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	_	_	start_char=93|end_char=99
-8	and	and	CCONJ	CC	_	7	_	_	start_char=100|end_char=103
-9	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=104|end_char=108
-10	tried	try	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=109|end_char=114
-11	checking	check	VERB	VBG	VerbForm=Ger	10	_	_	start_char=115|end_char=123|SpaceAfter=No
-12	,	,	PUNCT	,	_	11	_	_	start_char=123|end_char=124
-13	saving	save	VERB	VBG	VerbForm=Ger	12	_	_	start_char=125|end_char=131|SpaceAfter=No
-14	,	,	PUNCT	,	_	13	_	_	start_char=131|end_char=132
-15	then	then	ADV	RB	PronType=Dem	14	_	_	start_char=133|end_char=137
-16	unchecking	uncheck	VERB	VBG	VerbForm=Ger	15	_	_	start_char=138|end_char=148
-17	again	again	ADV	RB	_	16	_	_	start_char=149|end_char=154
-18	and	and	CCONJ	CC	_	17	_	_	start_char=155|end_char=158
-19	saving	save	VERB	VBG	VerbForm=Ger	18	_	_	start_char=159|end_char=165
-20	multiple	multiple	ADJ	JJ	Degree=Pos	19	_	_	start_char=166|end_char=174
-21	times	time	NOUN	NNS	Number=Plur	20	_	_	start_char=175|end_char=180
-22	but	but	CCONJ	CC	_	21	_	_	start_char=181|end_char=184
-23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=185|end_char=188
-24	follower	follower	NOUN	NN	Number=Sing	23	_	_	start_char=189|end_char=197
-25	emails	email	NOUN	NNS	Number=Plur	24	_	_	start_char=198|end_char=204
-26	only	only	ADV	RB	_	25	_	_	start_char=205|end_char=209
-27	keep	keep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	_	_	start_char=210|end_char=214
-28	coming	come	VERB	VBG	VerbForm=Ger	27	_	_	start_char=215|end_char=221|SpaceAfter=No
-29	.	.	PUNCT	.	_	28	_	_	start_char=221|end_char=222|SpaceAfter=No
+# sent_id = 11503
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=60|end_char=61
+2	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=62|end_char=65
+3	that	that	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=66|end_char=70
+4	shortly	shortly	ADV	RB	_	3	_	_	start_char=71|end_char=78
+5	after	after	SCONJ	IN	_	4	_	_	start_char=79|end_char=84
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=85|end_char=86
+7	joined	join	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	6	_	_	start_char=87|end_char=93
+8	and	and	CCONJ	CC	_	7	_	_	start_char=94|end_char=97
+9	have	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=98|end_char=102
+10	tried	try	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=103|end_char=108
+11	checking	check	VERB	VBG	VerbForm=Ger	10	_	_	start_char=109|end_char=117|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=117|end_char=118
+13	saving	save	VERB	VBG	VerbForm=Ger	12	_	_	start_char=119|end_char=125|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=125|end_char=126
+15	then	then	ADV	RB	PronType=Dem	14	_	_	start_char=127|end_char=131
+16	unchecking	uncheck	VERB	VBG	VerbForm=Ger	15	_	_	start_char=132|end_char=142
+17	again	again	ADV	RB	_	16	_	_	start_char=143|end_char=148
+18	and	and	CCONJ	CC	_	17	_	_	start_char=149|end_char=152
+19	saving	save	VERB	VBG	VerbForm=Ger	18	_	_	start_char=153|end_char=159
+20	multiple	multiple	ADJ	JJ	Degree=Pos	19	_	_	start_char=160|end_char=168
+21	times	time	NOUN	NNS	Number=Plur	20	_	_	start_char=169|end_char=174
+22	but	but	CCONJ	CC	_	21	_	_	start_char=175|end_char=178
+23	the	the	DET	DT	Definite=Def|PronType=Art	22	_	_	start_char=179|end_char=182
+24	follower	follower	NOUN	NN	Number=Sing	23	_	_	start_char=183|end_char=191
+25	emails	email	NOUN	NNS	Number=Plur	24	_	_	start_char=192|end_char=198
+26	only	only	ADV	RB	_	25	_	_	start_char=199|end_char=203
+27	keep	keep	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	26	_	_	start_char=204|end_char=208
+28	coming	come	VERB	VBG	VerbForm=Ger	27	_	_	start_char=209|end_char=215|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=215|end_char=216|SpaceAfter=No
 

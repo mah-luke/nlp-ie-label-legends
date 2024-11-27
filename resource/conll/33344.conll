@@ -1,65 +1,59 @@
-# text = [USER]
-# sent_id = 71375
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = She'll cancel out soon enough.
-# sent_id = 71376
-1-2	She'll	_	_	_	_	_	_	_	start_char=7|end_char=13
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=10
-2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=10|end_char=13
-3	cancel	cancel	VERB	VB	VerbForm=Inf	2	_	_	start_char=14|end_char=20
-4	out	out	ADP	RP	_	3	_	_	start_char=21|end_char=24
-5	soon	soon	ADV	RB	Degree=Pos	4	_	_	start_char=25|end_char=29
-6	enough	enough	ADV	RB	_	5	_	_	start_char=30|end_char=36|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=36|end_char=37
+# sent_id = 69066
+1-2	She'll	_	_	_	_	_	_	_	start_char=1|end_char=7|SpacesBefore=\s
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=1|end_char=4
+2	'll	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	cancel	cancel	VERB	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=14
+4	out	out	ADP	RP	_	3	_	_	start_char=15|end_char=18
+5	soon	soon	ADV	RB	Degree=Pos	4	_	_	start_char=19|end_char=23
+6	enough	enough	ADV	RB	_	5	_	_	start_char=24|end_char=30|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=30|end_char=31
 
 # text = I never wanted to even watch.
-# sent_id = 71377
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=38|end_char=39
-2	never	never	ADV	RB	_	1	_	_	start_char=40|end_char=45
-3	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=46|end_char=52
-4	to	to	PART	TO	_	3	_	_	start_char=53|end_char=55
-5	even	even	ADV	RB	_	4	_	_	start_char=56|end_char=60
-6	watch	watch	VERB	VB	VerbForm=Inf	5	_	_	start_char=61|end_char=66|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=66|end_char=67
+# sent_id = 69067
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=32|end_char=33
+2	never	never	ADV	RB	_	1	_	_	start_char=34|end_char=39
+3	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=40|end_char=46
+4	to	to	PART	TO	_	3	_	_	start_char=47|end_char=49
+5	even	even	ADV	RB	_	4	_	_	start_char=50|end_char=54
+6	watch	watch	VERB	VB	VerbForm=Inf	5	_	_	start_char=55|end_char=60|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=60|end_char=61
 
 # text = Forgot her name too.
-# sent_id = 71378
-1	Forgot	forget	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=68|end_char=74
-2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=75|end_char=78
-3	name	name	NOUN	NN	Number=Sing	2	_	_	start_char=79|end_char=83
-4	too	too	ADV	RB	_	3	_	_	start_char=84|end_char=87|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=87|end_char=88
+# sent_id = 69068
+1	Forgot	forget	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=62|end_char=68
+2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=69|end_char=72
+3	name	name	NOUN	NN	Number=Sing	2	_	_	start_char=73|end_char=77
+4	too	too	ADV	RB	_	3	_	_	start_char=78|end_char=81|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=81|end_char=82
 
 # text = Had to Google it!
-# sent_id = 71379
-1	Had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=89|end_char=92
-2	to	to	PART	TO	_	1	_	_	start_char=93|end_char=95
-3	Google	Google	PROPN	NNP	Number=Sing	2	_	_	start_char=96|end_char=102
-4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=103|end_char=105|SpaceAfter=No
-5	!	!	PUNCT	.	_	4	_	_	start_char=105|end_char=106
+# sent_id = 69069
+1	Had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=83|end_char=86
+2	to	to	PART	TO	_	1	_	_	start_char=87|end_char=89
+3	Google	Google	PROPN	NNP	Number=Sing	2	_	_	start_char=90|end_char=96
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=97|end_char=99|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=99|end_char=100
 
 # text = Evidently there's a porn queen by the same name.
-# sent_id = 71380
-1	Evidently	evidently	ADV	RB	_	0	_	_	start_char=107|end_char=116
-2-3	there's	_	_	_	_	_	_	_	start_char=117|end_char=124
-2	there	there	PRON	EX	_	1	_	_	start_char=117|end_char=122
-3	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=122|end_char=124
-4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=125|end_char=126
-5	porn	porn	NOUN	NN	Number=Sing	4	_	_	start_char=127|end_char=131
-6	queen	queen	NOUN	NN	Number=Sing	5	_	_	start_char=132|end_char=137
-7	by	by	ADP	IN	_	6	_	_	start_char=138|end_char=140
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=141|end_char=144
-9	same	same	ADJ	JJ	Degree=Pos	8	_	_	start_char=145|end_char=149
-10	name	name	NOUN	NN	Number=Sing	9	_	_	start_char=150|end_char=154|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=154|end_char=155
+# sent_id = 69070
+1	Evidently	evidently	ADV	RB	_	0	_	_	start_char=101|end_char=110
+2-3	there's	_	_	_	_	_	_	_	start_char=111|end_char=118
+2	there	there	PRON	EX	_	1	_	_	start_char=111|end_char=116
+3	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=116|end_char=118
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=119|end_char=120
+5	porn	porn	NOUN	NN	Number=Sing	4	_	_	start_char=121|end_char=125
+6	queen	queen	NOUN	NN	Number=Sing	5	_	_	start_char=126|end_char=131
+7	by	by	ADP	IN	_	6	_	_	start_char=132|end_char=134
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=135|end_char=138
+9	same	same	ADJ	JJ	Degree=Pos	8	_	_	start_char=139|end_char=143
+10	name	name	NOUN	NN	Number=Sing	9	_	_	start_char=144|end_char=148|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=148|end_char=149
 
 # text = Likely more hits...
-# sent_id = 71381
-1	Likely	likely	ADV	RB	_	0	_	_	start_char=156|end_char=162
-2	more	more	ADJ	JJR	Degree=Cmp	1	_	_	start_char=163|end_char=167
-3	hits	hit	NOUN	NNS	Number=Plur	2	_	_	start_char=168|end_char=172|SpaceAfter=No
-4	...	...	PUNCT	.	_	3	_	_	start_char=172|end_char=175|SpaceAfter=No
+# sent_id = 69071
+1	Likely	likely	ADV	RB	_	0	_	_	start_char=150|end_char=156
+2	more	more	ADJ	JJR	Degree=Cmp	1	_	_	start_char=157|end_char=161
+3	hits	hit	NOUN	NNS	Number=Plur	2	_	_	start_char=162|end_char=166|SpaceAfter=No
+4	...	...	PUNCT	.	_	3	_	_	start_char=166|end_char=169|SpaceAfter=No
 

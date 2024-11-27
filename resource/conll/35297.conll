@@ -1,43 +1,37 @@
-# text = [URL]
-# sent_id = 75515
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-
 # text = This kind caring person has 7 children 2 which are adopted.
-# sent_id = 75516
-1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=6|end_char=10
-2	kind	kind	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=15
-3	caring	caring	NOUN	NN	Number=Sing	2	_	_	start_char=16|end_char=22
-4	person	person	NOUN	NN	Number=Sing	3	_	_	start_char=23|end_char=29
-5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=30|end_char=33
-6	7	7	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=34|end_char=35
-7	children	child	NOUN	NNS	Number=Plur	6	_	_	start_char=36|end_char=44
-8	2	2	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=45|end_char=46
-9	which	which	PRON	WDT	PronType=Rel	8	_	_	start_char=47|end_char=52
-10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=53|end_char=56
-11	adopted	adopt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=57|end_char=64|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=64|end_char=65
+# sent_id = 73092
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	kind	kind	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=10
+3	caring	caring	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=17
+4	person	person	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=24
+5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=25|end_char=28
+6	7	7	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=29|end_char=30
+7	children	child	NOUN	NNS	Number=Plur	6	_	_	start_char=31|end_char=39
+8	2	2	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=40|end_char=41
+9	which	which	PRON	WDT	PronType=Rel	8	_	_	start_char=42|end_char=47
+10	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=48|end_char=51
+11	adopted	adopt	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	10	_	_	start_char=52|end_char=59|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=59|end_char=60
 
 # text = Liberals will have a sick slandering false lie about any of Trumps mommies.
-# sent_id = 75517
-1	Liberals	Liberals	PROPN	NNPS	Number=Plur	0	_	_	start_char=66|end_char=74
-2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=75|end_char=79
-3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=80|end_char=84
-4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=85|end_char=86
-5	sick	sick	ADJ	JJ	Degree=Pos	4	_	_	start_char=87|end_char=91
-6	slandering	slandering	NOUN	NN	Number=Sing	5	_	_	start_char=92|end_char=102
-7	false	false	ADJ	JJ	Degree=Pos	6	_	_	start_char=103|end_char=108
-8	lie	lie	NOUN	NN	Number=Sing	7	_	_	start_char=109|end_char=112
-9	about	about	ADP	IN	_	8	_	_	start_char=113|end_char=118
-10	any	any	DET	DT	_	9	_	_	start_char=119|end_char=122
-11	of	of	ADP	IN	_	10	_	_	start_char=123|end_char=125
-12	Trumps	Trumps	PROPN	NNPS	Number=Plur	11	_	_	start_char=126|end_char=132
-13	mommies	mommy	NOUN	NNS	Number=Plur	12	_	_	start_char=133|end_char=140|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=140|end_char=141
+# sent_id = 73093
+1	Liberals	Liberals	PROPN	NNPS	Number=Plur	0	_	_	start_char=61|end_char=69
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=70|end_char=74
+3	have	have	VERB	VB	VerbForm=Inf	2	_	_	start_char=75|end_char=79
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=80|end_char=81
+5	sick	sick	ADJ	JJ	Degree=Pos	4	_	_	start_char=82|end_char=86
+6	slandering	slandering	NOUN	NN	Number=Sing	5	_	_	start_char=87|end_char=97
+7	false	false	ADJ	JJ	Degree=Pos	6	_	_	start_char=98|end_char=103
+8	lie	lie	NOUN	NN	Number=Sing	7	_	_	start_char=104|end_char=107
+9	about	about	ADP	IN	_	8	_	_	start_char=108|end_char=113
+10	any	any	DET	DT	_	9	_	_	start_char=114|end_char=117
+11	of	of	ADP	IN	_	10	_	_	start_char=118|end_char=120
+12	Trumps	Trumps	PROPN	NNPS	Number=Plur	11	_	_	start_char=121|end_char=127
+13	mommies	mommy	NOUN	NNS	Number=Plur	12	_	_	start_char=128|end_char=135|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=135|end_char=136
 
 # text = Diane fuckstain
-# sent_id = 75518
-1	Diane	Diane	PROPN	NNP	Number=Sing	0	_	_	start_char=142|end_char=147
-2	fuckstain	fuckstain	PROPN	NNP	Number=Sing	1	_	_	start_char=148|end_char=157|SpaceAfter=No
+# sent_id = 73094
+1	Diane	Diane	PROPN	NNP	Number=Sing	0	_	_	start_char=137|end_char=142
+2	fuckstain	fuckstain	PROPN	NNP	Number=Sing	1	_	_	start_char=143|end_char=152|SpaceAfter=No
 

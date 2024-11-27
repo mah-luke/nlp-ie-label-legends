@@ -1,61 +1,58 @@
-# text = [USER] I just watched the video.
-# sent_id = 52080
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=7|end_char=8
-5	just	just	ADV	RB	_	4	_	_	start_char=9|end_char=13
-6	watched	watch	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	5	_	_	start_char=14|end_char=21
-7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=22|end_char=25
-8	video	video	NOUN	NN	Number=Sing	7	_	_	start_char=26|end_char=31|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=31|end_char=32
+# text = I just watched the video.
+# sent_id = 50412
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=2|SpacesBefore=\s
+2	just	just	ADV	RB	_	1	_	_	start_char=3|end_char=7
+3	watched	watch	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=8|end_char=15
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=16|end_char=19
+5	video	video	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=25|end_char=26
 
 # text = I can't believe the people are smiling their approval of this shit.
-# sent_id = 52081
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=33|end_char=34
-2-3	can't	_	_	_	_	_	_	_	start_char=35|end_char=40
-2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=35|end_char=37
-3	n't	not	PART	RB	_	2	_	_	start_char=37|end_char=40
-4	believe	believe	VERB	VB	VerbForm=Inf	3	_	_	start_char=41|end_char=48
-5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=49|end_char=52
-6	people	person	NOUN	NNS	Number=Plur	5	_	_	start_char=53|end_char=59
-7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=60|end_char=63
-8	smiling	smile	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=64|end_char=71
-9	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=72|end_char=77
-10	approval	approval	NOUN	NN	Number=Sing	9	_	_	start_char=78|end_char=86
-11	of	of	ADP	IN	_	10	_	_	start_char=87|end_char=89
-12	this	this	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=90|end_char=94
-13	shit	shit	NOUN	NN	Number=Sing	12	_	_	start_char=95|end_char=99|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=99|end_char=100
+# sent_id = 50413
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=27|end_char=28
+2-3	can't	_	_	_	_	_	_	_	start_char=29|end_char=34
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=29|end_char=31
+3	n't	not	PART	RB	_	2	_	_	start_char=31|end_char=34
+4	believe	believe	VERB	VB	VerbForm=Inf	3	_	_	start_char=35|end_char=42
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=43|end_char=46
+6	people	person	NOUN	NNS	Number=Plur	5	_	_	start_char=47|end_char=53
+7	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=54|end_char=57
+8	smiling	smile	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=58|end_char=65
+9	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=66|end_char=71
+10	approval	approval	NOUN	NN	Number=Sing	9	_	_	start_char=72|end_char=80
+11	of	of	ADP	IN	_	10	_	_	start_char=81|end_char=83
+12	this	this	DET	DT	Number=Sing|PronType=Dem	11	_	_	start_char=84|end_char=88
+13	shit	shit	NOUN	NN	Number=Sing	12	_	_	start_char=89|end_char=93|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=93|end_char=94
 
 # text = Hell, the woman even sounds like she's singing some Muslim chant.
-# sent_id = 52082
-1	Hell	Hell	PROPN	NNP	Number=Sing	0	_	_	start_char=101|end_char=105|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=105|end_char=106
-3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=107|end_char=110
-4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=111|end_char=116
-5	even	even	ADV	RB	_	4	_	_	start_char=117|end_char=121
-6	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=122|end_char=128
-7	like	like	SCONJ	IN	_	6	_	_	start_char=129|end_char=133
-8-9	she's	_	_	_	_	_	_	_	start_char=134|end_char=139
-8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=134|end_char=137
-9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=137|end_char=139
-10	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=140|end_char=147
-11	some	some	DET	DT	_	10	_	_	start_char=148|end_char=152
-12	Muslim	Muslim	ADJ	JJ	Degree=Pos	11	_	_	start_char=153|end_char=159
-13	chant	chant	NOUN	NN	Number=Sing	12	_	_	start_char=160|end_char=165|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=165|end_char=166
+# sent_id = 50414
+1	Hell	Hell	PROPN	NNP	Number=Sing	0	_	_	start_char=95|end_char=99|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=99|end_char=100
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=101|end_char=104
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=105|end_char=110
+5	even	even	ADV	RB	_	4	_	_	start_char=111|end_char=115
+6	sounds	sound	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=116|end_char=122
+7	like	like	SCONJ	IN	_	6	_	_	start_char=123|end_char=127
+8-9	she's	_	_	_	_	_	_	_	start_char=128|end_char=133
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=128|end_char=131
+9	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=131|end_char=133
+10	singing	sing	VERB	VBG	Tense=Pres|VerbForm=Part	9	_	_	start_char=134|end_char=141
+11	some	some	DET	DT	_	10	_	_	start_char=142|end_char=146
+12	Muslim	Muslim	ADJ	JJ	Degree=Pos	11	_	_	start_char=147|end_char=153
+13	chant	chant	NOUN	NN	Number=Sing	12	_	_	start_char=154|end_char=159|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=159|end_char=160
 
 # text = And then there was the man at the end....
-# sent_id = 52083
-1	And	and	CCONJ	CC	_	0	_	_	start_char=167|end_char=170
-2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=171|end_char=175
-3	there	there	PRON	EX	_	2	_	_	start_char=176|end_char=181
-4	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=182|end_char=185
-5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=186|end_char=189
-6	man	man	NOUN	NN	Number=Sing	5	_	_	start_char=190|end_char=193
-7	at	at	ADP	IN	_	6	_	_	start_char=194|end_char=196
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=197|end_char=200
-9	end	end	NOUN	NN	Number=Sing	8	_	_	start_char=201|end_char=204|SpaceAfter=No
-10	....	....	PUNCT	.	_	9	_	_	start_char=204|end_char=208|SpaceAfter=No
+# sent_id = 50415
+1	And	and	CCONJ	CC	_	0	_	_	start_char=161|end_char=164
+2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=165|end_char=169
+3	there	there	PRON	EX	_	2	_	_	start_char=170|end_char=175
+4	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=176|end_char=179
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=180|end_char=183
+6	man	man	NOUN	NN	Number=Sing	5	_	_	start_char=184|end_char=187
+7	at	at	ADP	IN	_	6	_	_	start_char=188|end_char=190
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=191|end_char=194
+9	end	end	NOUN	NN	Number=Sing	8	_	_	start_char=195|end_char=198|SpaceAfter=No
+10	....	....	PUNCT	.	_	9	_	_	start_char=198|end_char=202|SpaceAfter=No
 

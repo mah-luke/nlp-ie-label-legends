@@ -1,5 +1,5 @@
 # text = I've never seen one single photo of Angela Merkel where she looks normal.
-# sent_id = 27156
+# sent_id = 26285
 1-2	I've	_	_	_	_	_	_	_	start_char=0|end_char=4
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
 2	've	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
@@ -18,7 +18,7 @@
 15	.	.	PUNCT	.	_	14	_	_	start_char=72|end_char=73
 
 # text = Those eyes are empty tunnels leading straight to hell.
-# sent_id = 27157
+# sent_id = 26286
 1	Those	that	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=74|end_char=79
 2	eyes	eye	NOUN	NNS	Number=Plur	1	_	_	start_char=80|end_char=84
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=85|end_char=88
@@ -28,14 +28,5 @@
 7	straight	straight	ADV	RB	_	6	_	_	start_char=111|end_char=119
 8	to	to	ADP	IN	_	7	_	_	start_char=120|end_char=122
 9	hell	hell	NOUN	NN	Number=Sing	8	_	_	start_char=123|end_char=127|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=127|end_char=128
-
-# text = [USER] [URL]
-# sent_id = 27158
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=129|end_char=130|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=130|end_char=134|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=134|end_char=135
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=136|end_char=137|SpaceAfter=No
-5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=137|end_char=140|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=140|end_char=141|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=127|end_char=128|SpacesAfter=\s\s
 

@@ -1,43 +1,43 @@
-# text = [USER] LMAO Doesn't your boycott of American women mean your supposed to cut social relations w/said group?
-# sent_id = 74422
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	LMAO	lmao	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=11
-5-6	Doesn't	_	_	_	_	_	_	_	start_char=12|end_char=19
-5	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=12|end_char=16
-6	n't	not	PART	RB	_	5	_	_	start_char=16|end_char=19
-7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=20|end_char=24
-8	boycott	boycott	NOUN	NN	Number=Sing	7	_	_	start_char=25|end_char=32
-9	of	of	ADP	IN	_	8	_	_	start_char=33|end_char=35
-10	American	American	ADJ	JJ	Degree=Pos	9	_	_	start_char=36|end_char=44
-11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=45|end_char=50
-12	mean	mean	VERB	VB	VerbForm=Inf	11	_	_	start_char=51|end_char=55
-13	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	12	_	_	start_char=56|end_char=60
-14	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=61|end_char=69
-15	to	to	PART	TO	_	14	_	_	start_char=70|end_char=72
-16	cut	cut	VERB	VB	VerbForm=Inf	15	_	_	start_char=73|end_char=76
-17	social	social	ADJ	JJ	Degree=Pos	16	_	_	start_char=77|end_char=83
-18	relations	relation	NOUN	NNS	Number=Plur	17	_	_	start_char=84|end_char=93
-19	w	with	ADP	IN	_	18	_	_	start_char=94|end_char=95|SpaceAfter=No
-20	/	/	SYM	,	_	19	_	_	start_char=95|end_char=96|SpaceAfter=No
-21	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	20	_	_	start_char=96|end_char=100
-22	group	group	NOUN	NN	Number=Sing	21	_	_	start_char=101|end_char=106|SpaceAfter=No
-23	?	?	PUNCT	.	_	22	_	_	start_char=106|end_char=107
+# text = LMAO
+# sent_id = 72021
+1	LMAO	lmao	INTJ	UH	_	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+
+# text = Doesn't your boycott of American women mean your supposed to cut social relations w/said group?
+# sent_id = 72022
+1-2	Doesn't	_	_	_	_	_	_	_	start_char=6|end_char=13
+1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=6|end_char=10
+2	n't	not	PART	RB	_	1	_	_	start_char=10|end_char=13
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=14|end_char=18
+4	boycott	boycott	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=26
+5	of	of	ADP	IN	_	4	_	_	start_char=27|end_char=29
+6	American	American	ADJ	JJ	Degree=Pos	5	_	_	start_char=30|end_char=38
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=39|end_char=44
+8	mean	mean	VERB	VB	VerbForm=Inf	7	_	_	start_char=45|end_char=49
+9	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	8	_	_	start_char=50|end_char=54
+10	supposed	suppose	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=55|end_char=63
+11	to	to	PART	TO	_	10	_	_	start_char=64|end_char=66
+12	cut	cut	VERB	VB	VerbForm=Inf	11	_	_	start_char=67|end_char=70
+13	social	social	ADJ	JJ	Degree=Pos	12	_	_	start_char=71|end_char=77
+14	relations	relation	NOUN	NNS	Number=Plur	13	_	_	start_char=78|end_char=87
+15	w	with	ADP	IN	_	14	_	_	start_char=88|end_char=89|SpaceAfter=No
+16	/	/	SYM	,	_	15	_	_	start_char=89|end_char=90|SpaceAfter=No
+17	said	say	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	16	_	_	start_char=90|end_char=94
+18	group	group	NOUN	NN	Number=Sing	17	_	_	start_char=95|end_char=100|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=100|end_char=101
 
 # text = I respect ypur right not to talk to me.....now fuck off
-# sent_id = 74423
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=108|end_char=109
-2	respect	respect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=110|end_char=117
-3	ypur	ypur	NOUN	NN	Number=Sing	2	_	_	start_char=118|end_char=122
-4	right	right	ADV	RB	_	3	_	_	start_char=123|end_char=128
-5	not	not	PART	RB	_	4	_	_	start_char=129|end_char=132
-6	to	to	PART	TO	_	5	_	_	start_char=133|end_char=135
-7	talk	talk	VERB	VB	VerbForm=Inf	6	_	_	start_char=136|end_char=140
-8	to	to	ADP	IN	_	7	_	_	start_char=141|end_char=143
-9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=144|end_char=146|SpaceAfter=No
-10	.....	.....	PUNCT	,	_	9	_	_	start_char=146|end_char=151|SpaceAfter=No
-11	now	now	ADV	RB	_	10	_	_	start_char=151|end_char=154
-12	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	11	_	_	start_char=155|end_char=159
-13	off	off	ADP	RP	_	12	_	_	start_char=160|end_char=163|SpaceAfter=No
+# sent_id = 72023
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=102|end_char=103
+2	respect	respect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=104|end_char=111
+3	ypur	ypur	NOUN	NN	Number=Sing	2	_	_	start_char=112|end_char=116
+4	right	right	ADV	RB	_	3	_	_	start_char=117|end_char=122
+5	not	not	PART	RB	_	4	_	_	start_char=123|end_char=126
+6	to	to	PART	TO	_	5	_	_	start_char=127|end_char=129
+7	talk	talk	VERB	VB	VerbForm=Inf	6	_	_	start_char=130|end_char=134
+8	to	to	ADP	IN	_	7	_	_	start_char=135|end_char=137
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=138|end_char=140|SpaceAfter=No
+10	.....	.....	PUNCT	,	_	9	_	_	start_char=140|end_char=145|SpaceAfter=No
+11	now	now	ADV	RB	_	10	_	_	start_char=145|end_char=148
+12	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	11	_	_	start_char=149|end_char=153
+13	off	off	ADP	RP	_	12	_	_	start_char=154|end_char=157|SpaceAfter=No
 

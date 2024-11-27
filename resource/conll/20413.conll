@@ -1,5 +1,5 @@
 # text = A beautiful pro-life girl's face is used for abortionist propaganda.
-# sent_id = 43800
+# sent_id = 42342
 1	A	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=1
 2	beautiful	beautiful	ADJ	JJ	Degree=Pos	1	_	_	start_char=2|end_char=11
 3	pro-life	pro-life	ADJ	JJ	Degree=Pos	2	_	_	start_char=12|end_char=20
@@ -15,22 +15,19 @@
 12	.	.	PUNCT	.	_	11	_	_	start_char=67|end_char=68
 
 # text = This needs to stop.
-# sent_id = 43801
+# sent_id = 42343
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=69|end_char=73
 2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=74|end_char=79
 3	to	to	PART	TO	_	2	_	_	start_char=80|end_char=82
 4	stop	stop	VERB	VB	VerbForm=Inf	3	_	_	start_char=83|end_char=87|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	_	_	start_char=87|end_char=88
 
-# text = #prolife #killabortionnotchildren #abortion #unbornlivesmatter [URL]
-# sent_id = 43802
+# text = #prolife #killabortionnotchildren #abortion #unbornlivesmatter
+# sent_id = 42344
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=89|end_char=90|SpaceAfter=No
-2	prolife	prolife	NOUN	NN	Number=Sing	1	_	_	start_char=90|end_char=97
+2	prolife	prolife	NOUN	GW	Number=Sing	1	_	_	start_char=90|end_char=97
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=98|end_char=99|SpaceAfter=No
-4	killabortionnotchildren	killabortionnotchildren	X	FW	_	3	_	_	start_char=99|end_char=122
+4	killabortionnotchildren	killabortionnotchildren	X	GW	_	3	_	_	start_char=99|end_char=122
 5	#abortion	#abortion	X	GW	_	4	_	_	start_char=123|end_char=132
 6	#unbornlivesmatter	#unbornlivesmatter	X	NN	_	5	_	_	start_char=133|end_char=151
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=152|end_char=153|SpaceAfter=No
-8	URL	URL	NOUN	NN	Number=Sing	7	_	_	start_char=153|end_char=156|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=156|end_char=157|SpaceAfter=No
 

@@ -1,38 +1,29 @@
-# text = [USER]
-# sent_id = 127797
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Will take some time kindly.
-# sent_id = 127798
-1	Will	will	AUX	MD	VerbForm=Fin	0	_	_	start_char=7|end_char=11
-2	take	take	VERB	VB	VerbForm=Inf	1	_	_	start_char=12|end_char=16
-3	some	some	DET	DT	_	2	_	_	start_char=17|end_char=21
-4	time	time	NOUN	NN	Number=Sing	3	_	_	start_char=22|end_char=26
-5	kindly	kindly	ADV	RB	_	4	_	_	start_char=27|end_char=33|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=33|end_char=34
+# sent_id = 123669
+1	Will	will	AUX	MD	VerbForm=Fin	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	take	take	VERB	VB	VerbForm=Inf	1	_	_	start_char=6|end_char=10
+3	some	some	DET	DT	_	2	_	_	start_char=11|end_char=15
+4	time	time	NOUN	NN	Number=Sing	3	_	_	start_char=16|end_char=20
+5	kindly	kindly	ADV	RB	_	4	_	_	start_char=21|end_char=27|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=27|end_char=28
 
 # text = We have many features to be added before we exit beta.
-# sent_id = 127799
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=35|end_char=37
-2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=38|end_char=42
-3	many	many	ADJ	JJ	Degree=Pos	2	_	_	start_char=43|end_char=47
-4	features	feature	NOUN	NNS	Number=Plur	3	_	_	start_char=48|end_char=56
-5	to	to	PART	TO	_	4	_	_	start_char=57|end_char=59
-6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=60|end_char=62
-7	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=63|end_char=68
-8	before	before	SCONJ	IN	_	7	_	_	start_char=69|end_char=75
-9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	_	_	start_char=76|end_char=78
-10	exit	exit	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=79|end_char=83
-11	beta	beta	NOUN	NN	Number=Sing	10	_	_	start_char=84|end_char=88|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=88|end_char=89
+# sent_id = 123670
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=29|end_char=31
+2	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=36
+3	many	many	ADJ	JJ	Degree=Pos	2	_	_	start_char=37|end_char=41
+4	features	feature	NOUN	NNS	Number=Plur	3	_	_	start_char=42|end_char=50
+5	to	to	PART	TO	_	4	_	_	start_char=51|end_char=53
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=54|end_char=56
+7	added	add	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	6	_	_	start_char=57|end_char=62
+8	before	before	SCONJ	IN	_	7	_	_	start_char=63|end_char=69
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	_	_	start_char=70|end_char=72
+10	exit	exit	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=73|end_char=77
+11	beta	beta	NOUN	NN	Number=Sing	10	_	_	start_char=78|end_char=82|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=82|end_char=83
 
-# text = #IndiaGab [URL]
-# sent_id = 127800
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=90|end_char=91|SpaceAfter=No
-2	IndiaGab	indiagab	NOUN	NN	Number=Sing	1	_	_	start_char=91|end_char=99
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=100|end_char=101|SpaceAfter=No
-4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=101|end_char=104|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=104|end_char=105|SpaceAfter=No
+# text = #IndiaGab
+# sent_id = 123671
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=84|end_char=85|SpaceAfter=No
+2	IndiaGab	IndiaGab	PROPN	NNP	Number=Sing	1	_	_	start_char=85|end_char=93
 

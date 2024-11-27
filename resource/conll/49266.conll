@@ -1,24 +1,21 @@
-# text = [USER] fuck the muslims!!
-# sent_id = 105354
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	fuck	fuck	VERB	VB	Mood=Ind|VerbForm=Fin	3	_	_	start_char=7|end_char=11
-5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=12|end_char=15
-6	muslims	muslim	PROPN	NNPS	Number=Plur	5	_	_	start_char=16|end_char=23|SpaceAfter=No
-7	!!	!!	PUNCT	.	_	6	_	_	start_char=23|end_char=25
+# text = fuck the muslims!!
+# sent_id = 101907
+1	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=6|end_char=9
+3	muslims	muslim	PROPN	NNPS	Number=Plur	2	_	_	start_char=10|end_char=17|SpaceAfter=No
+4	!!	!!	PUNCT	.	_	3	_	_	start_char=17|end_char=19
 
 # text = Ship them off to syria so trump can bomb them!!!
-# sent_id = 105355
-1	Ship	ship	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=26|end_char=30
-2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=31|end_char=35
-3	off	off	ADP	RP	_	2	_	_	start_char=36|end_char=39
-4	to	to	ADP	IN	_	3	_	_	start_char=40|end_char=42
-5	syria	syria	PROPN	NNP	Number=Sing	4	_	_	start_char=43|end_char=48
-6	so	so	ADV	RB	_	5	_	_	start_char=49|end_char=51
-7	trump	trump	NOUN	NN	Number=Sing	6	_	_	start_char=52|end_char=57
-8	can	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=58|end_char=61
-9	bomb	bomb	VERB	VB	VerbForm=Inf	8	_	_	start_char=62|end_char=66
-10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=67|end_char=71|SpaceAfter=No
-11	!!!	!!!	PUNCT	.	_	10	_	_	start_char=71|end_char=74|SpaceAfter=No
+# sent_id = 101908
+1	Ship	ship	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=20|end_char=24
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=25|end_char=29
+3	off	off	ADP	RP	_	2	_	_	start_char=30|end_char=33
+4	to	to	ADP	IN	_	3	_	_	start_char=34|end_char=36
+5	syria	syria	PROPN	NNP	Number=Sing	4	_	_	start_char=37|end_char=42
+6	so	so	ADV	RB	_	5	_	_	start_char=43|end_char=45
+7	trump	trump	NOUN	NN	Number=Sing	6	_	_	start_char=46|end_char=51
+8	can	can	AUX	MD	VerbForm=Fin	7	_	_	start_char=52|end_char=55
+9	bomb	bomb	VERB	VB	VerbForm=Inf	8	_	_	start_char=56|end_char=60
+10	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=61|end_char=65|SpaceAfter=No
+11	!!!	!!!	PUNCT	.	_	10	_	_	start_char=65|end_char=68|SpaceAfter=No
 

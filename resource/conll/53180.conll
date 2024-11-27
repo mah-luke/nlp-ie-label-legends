@@ -1,5 +1,5 @@
 # text = Rhode Island Democrats in an uproar after the party endorsed a Trump-voting male candidate over a sitting female lawmaker known for championing liberal causes, in a district and a state that voted for Hillary Clinton.
-# sent_id = 113677
+# sent_id = 109958
 1	Rhode	Rhode	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
 2	Island	Island	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=12
 3	Democrats	Democrat	PROPN	NNPS	Number=Plur	2	_	_	start_char=13|end_char=22
@@ -37,14 +37,5 @@
 35	for	for	ADP	IN	_	34	_	_	start_char=197|end_char=200
 36	Hillary	Hillary	PROPN	NNP	Number=Sing	35	_	_	start_char=201|end_char=208
 37	Clinton	Clinton	PROPN	NNP	Number=Sing	36	_	_	start_char=209|end_char=216|SpaceAfter=No
-38	.	.	PUNCT	.	_	37	_	_	start_char=216|end_char=217
-
-# text = [URL] [URL]
-# sent_id = 113678
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=218|end_char=219|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=219|end_char=222|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=222|end_char=223
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=224|end_char=225|SpaceAfter=No
-5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=225|end_char=228|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=228|end_char=229|SpaceAfter=No
+38	.	.	PUNCT	.	_	37	_	_	start_char=216|end_char=217|SpacesAfter=\s\s
 

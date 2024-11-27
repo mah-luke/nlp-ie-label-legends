@@ -1,38 +1,32 @@
-# text = [USER]
-# sent_id = 104594
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = I wouldn't consider that great, but if one of them made it to paris and killed 240 non muslims they'd be fucking thrilled.
-# sent_id = 104595
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
-2-3	wouldn't	_	_	_	_	_	_	_	start_char=9|end_char=17
-2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=9|end_char=14
-3	n't	not	PART	RB	_	2	_	_	start_char=14|end_char=17
-4	consider	consider	VERB	VB	VerbForm=Inf	3	_	_	start_char=18|end_char=26
-5	that	that	ADV	RB	_	4	_	_	start_char=27|end_char=31
-6	great	great	ADJ	JJ	Degree=Pos	5	_	_	start_char=32|end_char=37|SpaceAfter=No
-7	,	,	PUNCT	,	_	6	_	_	start_char=37|end_char=38
-8	but	but	CCONJ	CC	_	7	_	_	start_char=39|end_char=42
-9	if	if	SCONJ	IN	_	8	_	_	start_char=43|end_char=45
-10	one	one	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=46|end_char=49
-11	of	of	ADP	IN	_	10	_	_	start_char=50|end_char=52
-12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	_	_	start_char=53|end_char=57
-13	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=58|end_char=62
-14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=63|end_char=65
-15	to	to	ADP	IN	_	14	_	_	start_char=66|end_char=68
-16	paris	paris	PROPN	NNP	Number=Sing	15	_	_	start_char=69|end_char=74
-17	and	and	CCONJ	CC	_	16	_	_	start_char=75|end_char=78
-18	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=79|end_char=85
-19	240	240	NUM	CD	NumForm=Digit|NumType=Card	18	_	_	start_char=86|end_char=89
-20	non	non	ADV	RB	_	19	_	_	start_char=90|end_char=93
-21	muslims	muslim	PROPN	NNPS	Number=Plur	20	_	_	start_char=94|end_char=101
-22-23	they'd	_	_	_	_	_	_	_	start_char=102|end_char=108
-22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	_	_	start_char=102|end_char=106
-23	'd	would	AUX	MD	VerbForm=Fin	22	_	_	start_char=106|end_char=108
-24	be	be	AUX	VB	VerbForm=Inf	23	_	_	start_char=109|end_char=111
-25	fucking	fucking	ADV	RB	_	24	_	_	start_char=112|end_char=119
-26	thrilled	thrill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	_	_	start_char=120|end_char=128|SpaceAfter=No
-27	.	.	PUNCT	.	_	26	_	_	start_char=128|end_char=129|SpaceAfter=No
+# sent_id = 101176
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=2|SpacesBefore=\s
+2-3	wouldn't	_	_	_	_	_	_	_	start_char=3|end_char=11
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=3|end_char=8
+3	n't	not	PART	RB	_	2	_	_	start_char=8|end_char=11
+4	consider	consider	VERB	VB	VerbForm=Inf	3	_	_	start_char=12|end_char=20
+5	that	that	ADV	RB	_	4	_	_	start_char=21|end_char=25
+6	great	great	ADJ	JJ	Degree=Pos	5	_	_	start_char=26|end_char=31|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=31|end_char=32
+8	but	but	CCONJ	CC	_	7	_	_	start_char=33|end_char=36
+9	if	if	SCONJ	IN	_	8	_	_	start_char=37|end_char=39
+10	one	one	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=40|end_char=43
+11	of	of	ADP	IN	_	10	_	_	start_char=44|end_char=46
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	_	_	start_char=47|end_char=51
+13	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=52|end_char=56
+14	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=57|end_char=59
+15	to	to	ADP	IN	_	14	_	_	start_char=60|end_char=62
+16	paris	paris	PROPN	NNP	Number=Sing	15	_	_	start_char=63|end_char=68
+17	and	and	CCONJ	CC	_	16	_	_	start_char=69|end_char=72
+18	killed	kill	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=73|end_char=79
+19	240	240	NUM	CD	NumForm=Digit|NumType=Card	18	_	_	start_char=80|end_char=83
+20	non	non	ADV	RB	_	19	_	_	start_char=84|end_char=87
+21	muslims	muslim	PROPN	NNPS	Number=Plur	20	_	_	start_char=88|end_char=95
+22-23	they'd	_	_	_	_	_	_	_	start_char=96|end_char=102
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	_	_	start_char=96|end_char=100
+23	'd	would	AUX	MD	VerbForm=Fin	22	_	_	start_char=100|end_char=102
+24	be	be	AUX	VB	VerbForm=Inf	23	_	_	start_char=103|end_char=105
+25	fucking	fucking	ADV	RB	_	24	_	_	start_char=106|end_char=113
+26	thrilled	thrill	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	_	_	start_char=114|end_char=122|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=122|end_char=123|SpaceAfter=No
 

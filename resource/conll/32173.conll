@@ -1,12 +1,9 @@
-# text = [USER] ...or bring your sister.
-# sent_id = 68980
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	...	...	PUNCT	,	_	3	_	_	start_char=7|end_char=10|SpaceAfter=No
-5	or	or	CCONJ	CC	_	4	_	_	start_char=10|end_char=12
-6	bring	bring	VERB	VB	Mood=Imp|VerbForm=Fin	5	_	_	start_char=13|end_char=18
-7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=19|end_char=23
-8	sister	sister	NOUN	NN	Number=Sing	7	_	_	start_char=24|end_char=30|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=30|end_char=31|SpaceAfter=No
+# text = ...or bring your sister.
+# sent_id = 66757
+1	...	...	PUNCT	,	_	0	_	_	start_char=1|end_char=4|SpaceAfter=No|SpacesBefore=\s
+2	or	or	CCONJ	CC	_	1	_	_	start_char=4|end_char=6
+3	bring	bring	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=7|end_char=12
+4	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	3	_	_	start_char=13|end_char=17
+5	sister	sister	NOUN	NN	Number=Sing	4	_	_	start_char=18|end_char=24|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=24|end_char=25|SpaceAfter=No
 

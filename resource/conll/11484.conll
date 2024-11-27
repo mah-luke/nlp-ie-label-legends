@@ -1,5 +1,5 @@
 # text = Back to Tracey now?!
-# sent_id = 24297
+# sent_id = 23499
 1	Back	back	ADV	RB	_	0	_	_	start_char=0|end_char=4
 2	to	to	ADP	IN	_	1	_	_	start_char=5|end_char=7
 3	Tracey	Tracey	PROPN	NNP	Number=Sing	2	_	_	start_char=8|end_char=14
@@ -7,7 +7,7 @@
 5	?!	?!	PUNCT	.	_	4	_	_	start_char=18|end_char=20
 
 # text = But what happened to Danielle?
-# sent_id = 24298
+# sent_id = 23500
 1	But	but	CCONJ	CC	_	0	_	_	start_char=21|end_char=24
 2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=25|end_char=29
 3	happened	happen	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=30|end_char=38
@@ -15,8 +15,8 @@
 5	Danielle	Danielle	PROPN	NNP	Number=Sing	4	_	_	start_char=42|end_char=50|SpaceAfter=No
 6	?	?	PUNCT	.	_	5	_	_	start_char=50|end_char=51
 
-# text = Oh wait, is her theory now that you and [USER] are Tracey and I’m Danielle?
-# sent_id = 24299
+# text = Oh wait, is her theory now that you and are Tracey and I’m Danielle?
+# sent_id = 23501
 1	Oh	oh	INTJ	UH	_	0	_	_	start_char=52|end_char=54
 2	wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=55|end_char=59|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	_	_	start_char=59|end_char=60
@@ -25,25 +25,22 @@
 6	theory	theory	NOUN	NN	Number=Sing	5	_	_	start_char=68|end_char=74
 7	now	now	ADV	RB	_	6	_	_	start_char=75|end_char=78
 8	that	that	SCONJ	IN	_	7	_	_	start_char=79|end_char=83
-9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=84|end_char=87
-10	and	and	CCONJ	CC	_	9	_	_	start_char=88|end_char=91
-11	[	[	PUNCT	-LRB-	_	10	_	_	start_char=92|end_char=93|SpaceAfter=No
-12	USER	user	NOUN	NN	Number=Sing	11	_	_	start_char=93|end_char=97|SpaceAfter=No
-13	]	]	PUNCT	-RRB-	_	12	_	_	start_char=97|end_char=98
-14	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=99|end_char=102
-15	Tracey	Tracey	PROPN	NNP	Number=Sing	14	_	_	start_char=103|end_char=109
-16	and	and	CCONJ	CC	_	15	_	_	start_char=110|end_char=113
-17-18	I’m	_	_	_	_	_	_	_	start_char=114|end_char=117
-17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=114|end_char=115
-18	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=115|end_char=117
-19	Danielle	Danielle	PROPN	NNP	Number=Sing	18	_	_	start_char=118|end_char=126|SpaceAfter=No
-20	?	?	PUNCT	.	_	19	_	_	start_char=126|end_char=127
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=84|end_char=87
+10	and	and	CCONJ	CC	_	9	_	_	start_char=88|end_char=91|SpacesAfter=\s\s
+11	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=93|end_char=96
+12	Tracey	Tracey	PROPN	NNP	Number=Sing	11	_	_	start_char=97|end_char=103
+13	and	and	CCONJ	CC	_	12	_	_	start_char=104|end_char=107
+14-15	I’m	_	_	_	_	_	_	_	start_char=108|end_char=111
+14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=108|end_char=109
+15	’m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	_	_	start_char=109|end_char=111
+16	Danielle	Danielle	PROPN	NNP	Number=Sing	15	_	_	start_char=112|end_char=120|SpaceAfter=No
+17	?	?	PUNCT	.	_	16	_	_	start_char=120|end_char=121
 
 # text = 😂😂 #WeAreAllTracey #WeAreAllDanielle
-# sent_id = 24300
-1	😂😂	😂😂	INTJ	UH	_	0	_	_	start_char=128|end_char=130
-2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=131|end_char=132|SpaceAfter=No
-3	WeAreAllTracey	wearealltracey	NOUN	NN	Number=Sing	2	_	_	start_char=132|end_char=146
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=147|end_char=148|SpaceAfter=No
-5	WeAreAllDanielle	WeAreAllDanielle	PROPN	NNP	Number=Sing	4	_	_	start_char=148|end_char=164|SpaceAfter=No
+# sent_id = 23502
+1	😂😂	😂😂	INTJ	UH	_	0	_	_	start_char=122|end_char=124
+2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=125|end_char=126|SpaceAfter=No
+3	WeAreAllTracey	wearealltracey	NOUN	NN	Number=Sing	2	_	_	start_char=126|end_char=140
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=141|end_char=142|SpaceAfter=No
+5	WeAreAllDanielle	WeAreAllDanielle	PROPN	NNP	Number=Sing	4	_	_	start_char=142|end_char=158|SpaceAfter=No
 

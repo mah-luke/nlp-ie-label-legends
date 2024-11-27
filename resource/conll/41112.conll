@@ -1,5 +1,5 @@
-# text = If Akilah gets so much as a penny our of [USER] I'll cut her fucking throat.
-# sent_id = 87981
+# text = If Akilah gets so much as a penny our of I'll cut her fucking throat.
+# sent_id = 85101
 1	If	if	SCONJ	IN	_	0	_	_	start_char=0|end_char=2
 2	Akilah	Akilah	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=9
 3	gets	get	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=14
@@ -9,16 +9,13 @@
 7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=26|end_char=27
 8	penny	penny	NOUN	NN	Number=Sing	7	_	_	start_char=28|end_char=33
 9	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=34|end_char=37
-10	of	of	ADP	IN	_	9	_	_	start_char=38|end_char=40
-11	[	[	PUNCT	-LRB-	_	10	_	_	start_char=41|end_char=42|SpaceAfter=No
-12	USER	user	NOUN	NN	Number=Sing	11	_	_	start_char=42|end_char=46|SpaceAfter=No
-13	]	]	PUNCT	-RRB-	_	12	_	_	start_char=46|end_char=47
-14-15	I'll	_	_	_	_	_	_	_	start_char=48|end_char=52
-14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=48|end_char=49
-15	'll	will	AUX	MD	VerbForm=Fin	14	_	_	start_char=49|end_char=52
-16	cut	cut	VERB	VB	VerbForm=Inf	15	_	_	start_char=53|end_char=56
-17	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=57|end_char=60
-18	fucking	fuck	ADJ	JJ	Degree=Pos	17	_	_	start_char=61|end_char=68
-19	throat	throat	NOUN	NN	Number=Sing	18	_	_	start_char=69|end_char=75|SpaceAfter=No
-20	.	.	PUNCT	.	_	19	_	_	start_char=75|end_char=76|SpaceAfter=No
+10	of	of	ADP	IN	_	9	_	_	start_char=38|end_char=40|SpacesAfter=\s\s
+11-12	I'll	_	_	_	_	_	_	_	start_char=42|end_char=46
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=42|end_char=43
+12	'll	will	AUX	MD	VerbForm=Fin	11	_	_	start_char=43|end_char=46
+13	cut	cut	VERB	VB	VerbForm=Inf	12	_	_	start_char=47|end_char=50
+14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=51|end_char=54
+15	fucking	fuck	ADJ	JJ	Degree=Pos	14	_	_	start_char=55|end_char=62
+16	throat	throat	NOUN	NN	Number=Sing	15	_	_	start_char=63|end_char=69|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=69|end_char=70|SpaceAfter=No
 

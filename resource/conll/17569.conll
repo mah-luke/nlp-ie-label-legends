@@ -1,5 +1,5 @@
 # text = 11-year-old Sofia Sanchez captured hearts when rapper Drake visited her in the hospital as she waited for a heart transplant.
-# sent_id = 37730
+# sent_id = 36470
 1	11	11	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=2|SpaceAfter=No
 2	-	-	PUNCT	:	_	1	_	_	start_char=2|end_char=3|SpaceAfter=No
 3	year	year	NOUN	NN	Number=Sing	2	_	_	start_char=3|end_char=7|SpaceAfter=No
@@ -26,13 +26,7 @@
 24	transplant	transplant	NOUN	NN	Number=Sing	23	_	_	start_char=114|end_char=124|SpaceAfter=No
 25	.	.	PUNCT	.	_	24	_	_	start_char=124|end_char=125
 
-# text = via [USER] [URL]
-# sent_id = 37731
-1	via	via	ADP	IN	_	0	_	_	start_char=126|end_char=129
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=130|end_char=131|SpaceAfter=No
-3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=131|end_char=135|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=135|end_char=136
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=137|end_char=138|SpaceAfter=No
-6	URL	URL	PROPN	NNP	Number=Sing	5	_	_	start_char=138|end_char=141|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=141|end_char=142|SpaceAfter=No
+# text = via
+# sent_id = 36471
+1	via	via	ADV	RB	_	0	_	_	start_char=126|end_char=129|SpacesAfter=\s\s
 

@@ -1,5 +1,5 @@
 # text = Wormwood, used for digestion and stomach ailments also has anti-cancer properties.
-# sent_id = 67105
+# sent_id = 64957
 1	Wormwood	Wormwood	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=8|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	start_char=8|end_char=9
 3	used	use	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=10|end_char=14
@@ -14,8 +14,8 @@
 12	properties	property	NOUN	NNS	Number=Plur	11	_	_	start_char=71|end_char=81|SpaceAfter=No
 13	.	.	PUNCT	.	_	12	_	_	start_char=81|end_char=82
 
-# text = When paired with Iron it can kill breast cancer cells: [URL] #newstarget #Artemesinin #breastcancer #Iron #wormwood #NaturalNews
-# sent_id = 67106
+# text = When paired with Iron it can kill breast cancer cells: #newstarget #Artemesinin #breastcancer #Iron #wormwood #NaturalNews
+# sent_id = 64958
 1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=83|end_char=87
 2	paired	pair	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=88|end_char=94
 3	with	with	ADP	IN	_	2	_	_	start_char=95|end_char=99
@@ -26,18 +26,15 @@
 8	breast	breast	NOUN	NN	Number=Sing	7	_	_	start_char=117|end_char=123
 9	cancer	cancer	NOUN	NN	Number=Sing	8	_	_	start_char=124|end_char=130
 10	cells	cell	NOUN	NNS	Number=Plur	9	_	_	start_char=131|end_char=136|SpaceAfter=No
-11	:	:	PUNCT	:	_	10	_	_	start_char=136|end_char=137
-12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=138|end_char=139|SpaceAfter=No
-13	URL	URL	PROPN	NNP	Number=Sing	12	_	_	start_char=139|end_char=142|SpaceAfter=No
-14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=142|end_char=143
-15	#newstarget	#newstarget	NOUN	NN	Number=Sing	14	_	_	start_char=144|end_char=155
-16	#	#	SYM	NN	Number=Sing	15	_	_	start_char=156|end_char=157|SpaceAfter=No
-17	Artemesinin	Artemesinin	PROPN	NNP	Number=Sing	16	_	_	start_char=157|end_char=168
-18	#	#	SYM	NN	Number=Sing	17	_	_	start_char=169|end_char=170|SpaceAfter=No
-19	breastcancer	breastcancer	NOUN	NN	Number=Sing	18	_	_	start_char=170|end_char=182
-20	#	#	SYM	NN	Number=Sing	19	_	_	start_char=183|end_char=184|SpaceAfter=No
-21	Iron	iron	NOUN	NN	Number=Sing	20	_	_	start_char=184|end_char=188
-22	#wormwood	Twormwood	PROPN	NNP	Number=Sing	21	_	_	start_char=189|end_char=198
-23	#	#	SYM	NN	Number=Sing	22	_	_	start_char=199|end_char=200|SpaceAfter=No
-24	NaturalNews	naturalnews	NOUN	NN	Number=Sing	23	_	_	start_char=200|end_char=211|SpaceAfter=No
+11	:	:	PUNCT	:	_	10	_	_	start_char=136|end_char=137|SpacesAfter=\s\s
+12	#newstarget	#newstarget	NOUN	NN	Number=Sing	11	_	_	start_char=139|end_char=150
+13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=151|end_char=152|SpaceAfter=No
+14	Artemesinin	Artemesinin	PROPN	NNP	Number=Sing	13	_	_	start_char=152|end_char=163
+15	#	#	SYM	NN	Number=Sing	14	_	_	start_char=164|end_char=165|SpaceAfter=No
+16	breastcancer	breastcancer	NOUN	NN	Number=Sing	15	_	_	start_char=165|end_char=177
+17	#	#	SYM	NN	Number=Sing	16	_	_	start_char=178|end_char=179|SpaceAfter=No
+18	Iron	iron	NOUN	NN	Number=Sing	17	_	_	start_char=179|end_char=183
+19	#wormwood	#wormwood	NOUN	NN	Number=Sing	18	_	_	start_char=184|end_char=193
+20	#	#	SYM	NN	Number=Sing	19	_	_	start_char=194|end_char=195|SpaceAfter=No
+21	NaturalNews	naturalnews	NOUN	NN	Number=Sing	20	_	_	start_char=195|end_char=206|SpaceAfter=No
 

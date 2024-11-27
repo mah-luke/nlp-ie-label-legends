@@ -1,30 +1,24 @@
-# text = [USER]
-# sent_id = 19240
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Oh, my stupid 19 year old son (who is a liberal) thinks Bruce Jenner is a woman.
-# sent_id = 19241
-1	Oh	oh	INTJ	UH	_	0	_	_	start_char=7|end_char=9|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=9|end_char=10
-3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=11|end_char=13
-4	stupid	stupid	ADJ	JJ	Degree=Pos	3	_	_	start_char=14|end_char=20
-5	19	19	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=21|end_char=23
-6	year	year	NOUN	NN	Number=Sing	5	_	_	start_char=24|end_char=28
-7	old	old	ADJ	JJ	Degree=Pos	6	_	_	start_char=29|end_char=32
-8	son	son	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=36
-9	(	(	PUNCT	-LRB-	_	8	_	_	start_char=37|end_char=38|SpaceAfter=No
-10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=38|end_char=41
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=42|end_char=44
-12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=45|end_char=46
-13	liberal	liberal	NOUN	NN	Number=Sing	12	_	_	start_char=47|end_char=54|SpaceAfter=No
-14	)	)	PUNCT	-RRB-	_	13	_	_	start_char=54|end_char=55
-15	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=56|end_char=62
-16	Bruce	Bruce	PROPN	NNP	Number=Sing	15	_	_	start_char=63|end_char=68
-17	Jenner	Jenner	PROPN	NNP	Number=Sing	16	_	_	start_char=69|end_char=75
-18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=76|end_char=78
-19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=79|end_char=80
-20	woman	woman	NOUN	NN	Number=Sing	19	_	_	start_char=81|end_char=86|SpaceAfter=No
-21	.	.	PUNCT	.	_	20	_	_	start_char=86|end_char=87|SpaceAfter=No
+# sent_id = 18608
+1	Oh	oh	INTJ	UH	_	0	_	_	start_char=1|end_char=3|SpaceAfter=No|SpacesBefore=\s
+2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=5|end_char=7
+4	stupid	stupid	ADJ	JJ	Degree=Pos	3	_	_	start_char=8|end_char=14
+5	19	19	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=15|end_char=17
+6	year	year	NOUN	NN	Number=Sing	5	_	_	start_char=18|end_char=22
+7	old	old	ADJ	JJ	Degree=Pos	6	_	_	start_char=23|end_char=26
+8	son	son	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=30
+9	(	(	PUNCT	-LRB-	_	8	_	_	start_char=31|end_char=32|SpaceAfter=No
+10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=32|end_char=35
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=36|end_char=38
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=39|end_char=40
+13	liberal	liberal	NOUN	NN	Number=Sing	12	_	_	start_char=41|end_char=48|SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	13	_	_	start_char=48|end_char=49
+15	thinks	think	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=50|end_char=56
+16	Bruce	Bruce	PROPN	NNP	Number=Sing	15	_	_	start_char=57|end_char=62
+17	Jenner	Jenner	PROPN	NNP	Number=Sing	16	_	_	start_char=63|end_char=69
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=70|end_char=72
+19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=73|end_char=74
+20	woman	woman	NOUN	NN	Number=Sing	19	_	_	start_char=75|end_char=80|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=80|end_char=81|SpaceAfter=No
 

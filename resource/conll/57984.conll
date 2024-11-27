@@ -1,5 +1,5 @@
 # text = I'm probably close to twice Lily Allen's age and I've never been assaulted by any male.
-# sent_id = 123846
+# sent_id = 119871
 1-2	I'm	_	_	_	_	_	_	_	start_char=0|end_char=3
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
 2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=3
@@ -25,7 +25,7 @@
 20	.	.	PUNCT	.	_	19	_	_	start_char=86|end_char=87
 
 # text = Hmmm... Behaviorial changes may be in order...
-# sent_id = 123847
+# sent_id = 119872
 1	Hmmm	hmm	INTJ	UH	Style=Expr	0	_	_	start_char=88|end_char=92|SpaceAfter=No
 2	...	...	PUNCT	,	_	1	_	_	start_char=92|end_char=95
 3	Behaviorial	Behaviorial	ADJ	JJ	Degree=Pos	2	_	_	start_char=96|end_char=107
@@ -37,18 +37,15 @@
 9	...	...	PUNCT	.	_	8	_	_	start_char=131|end_char=134
 
 # text = For her I mean.
-# sent_id = 123848
+# sent_id = 119873
 1	For	for	ADP	IN	_	0	_	_	start_char=135|end_char=138
 2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=139|end_char=142
 3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=143|end_char=144
 4	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=145|end_char=149|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=149|end_char=150
+5	.	.	PUNCT	.	_	4	_	_	start_char=149|end_char=150|SpacesAfter=\s\s
 
-# text = [URL] #FakeNews
-# sent_id = 123849
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=151|end_char=152|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=152|end_char=155|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=155|end_char=156
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=157|end_char=158|SpaceAfter=No
-5	FakeNews	fakenew	NOUN	NNS	Number=Plur	4	_	_	start_char=158|end_char=166|SpaceAfter=No
+# text = #FakeNews
+# sent_id = 119874
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=152|end_char=153|SpaceAfter=No
+2	FakeNews	fakenew	NOUN	NN	Number=Sing	1	_	_	start_char=153|end_char=161|SpaceAfter=No
 

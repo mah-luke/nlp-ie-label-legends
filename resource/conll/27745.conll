@@ -1,11 +1,11 @@
 # text = Jesus no.
-# sent_id = 59620
+# sent_id = 57667
 1	Jesus	Jesus	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
 2	no	no	INTJ	UH	_	1	_	_	start_char=6|end_char=8|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	_	_	start_char=8|end_char=9
 
-# text = The military are probably the worst of the lot - afterall, where did the [mass rapes]([URL] originate?
-# sent_id = 59621
+# text = The military are probably the worst of the lot - afterall, where did the [mass rapes]( originate?
+# sent_id = 57668
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=10|end_char=13
 2	military	military	NOUN	NN	Number=Sing	1	_	_	start_char=14|end_char=22
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=23|end_char=26
@@ -25,41 +25,38 @@
 17	mass	mass	ADJ	JJ	Degree=Pos	16	_	_	start_char=84|end_char=88
 18	rapes	rape	NOUN	NNS	Number=Plur	17	_	_	start_char=89|end_char=94|SpaceAfter=No
 19	]	]	PUNCT	-RRB-	_	18	_	_	start_char=94|end_char=95|SpaceAfter=No
-20	(	(	PUNCT	-LRB-	_	19	_	_	start_char=95|end_char=96|SpaceAfter=No
-21	[	[	PUNCT	-LRB-	_	20	_	_	start_char=96|end_char=97|SpaceAfter=No
-22	URL	URL	NOUN	NN	Number=Sing	21	_	_	start_char=97|end_char=100|SpaceAfter=No
-23	]	]	PUNCT	-RRB-	_	22	_	_	start_char=100|end_char=101
-24	originate	originate	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=102|end_char=111|SpaceAfter=No
-25	?	?	PUNCT	.	_	24	_	_	start_char=111|end_char=112
+20	(	(	PUNCT	-LRB-	_	19	_	_	start_char=95|end_char=96
+21	originate	originate	VERB	VB	Mood=Imp|VerbForm=Fin	20	_	_	start_char=97|end_char=106|SpaceAfter=No
+22	?	?	PUNCT	.	_	21	_	_	start_char=106|end_char=107
 
 # text = Likewise, where did all those terms like LBFM and the start of the mass sex tourism start?
-# sent_id = 59622
-1	Likewise	likewise	ADV	RB	_	0	_	_	start_char=113|end_char=121|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=121|end_char=122
-3	where	where	ADV	WRB	PronType=Int	2	_	_	start_char=123|end_char=128
-4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=129|end_char=132
-5	all	all	DET	PDT	_	4	_	_	start_char=133|end_char=136
-6	those	that	DET	DT	Number=Plur|PronType=Dem	5	_	_	start_char=137|end_char=142
-7	terms	term	NOUN	NNS	Number=Plur	6	_	_	start_char=143|end_char=148
-8	like	like	ADP	IN	_	7	_	_	start_char=149|end_char=153
-9	LBFM	LBFM	PROPN	NNP	Number=Sing	8	_	_	start_char=154|end_char=158
-10	and	and	CCONJ	CC	_	9	_	_	start_char=159|end_char=162
-11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=163|end_char=166
-12	start	start	NOUN	NN	Number=Sing	11	_	_	start_char=167|end_char=172
-13	of	of	ADP	IN	_	12	_	_	start_char=173|end_char=175
-14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=176|end_char=179
-15	mass	mass	ADJ	JJ	Degree=Pos	14	_	_	start_char=180|end_char=184
-16	sex	sex	NOUN	NN	Number=Sing	15	_	_	start_char=185|end_char=188
-17	tourism	tourism	NOUN	NN	Number=Sing	16	_	_	start_char=189|end_char=196
-18	start	start	NOUN	NN	Number=Sing	17	_	_	start_char=197|end_char=202|SpaceAfter=No
-19	?	?	PUNCT	.	_	18	_	_	start_char=202|end_char=203
+# sent_id = 57669
+1	Likewise	likewise	ADV	RB	_	0	_	_	start_char=108|end_char=116|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=116|end_char=117
+3	where	where	ADV	WRB	PronType=Int	2	_	_	start_char=118|end_char=123
+4	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=124|end_char=127
+5	all	all	DET	PDT	_	4	_	_	start_char=128|end_char=131
+6	those	that	DET	DT	Number=Plur|PronType=Dem	5	_	_	start_char=132|end_char=137
+7	terms	term	NOUN	NNS	Number=Plur	6	_	_	start_char=138|end_char=143
+8	like	like	ADP	IN	_	7	_	_	start_char=144|end_char=148
+9	LBFM	LBFM	PROPN	NNP	Number=Sing	8	_	_	start_char=149|end_char=153
+10	and	and	CCONJ	CC	_	9	_	_	start_char=154|end_char=157
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=158|end_char=161
+12	start	start	NOUN	NN	Number=Sing	11	_	_	start_char=162|end_char=167
+13	of	of	ADP	IN	_	12	_	_	start_char=168|end_char=170
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=171|end_char=174
+15	mass	mass	ADJ	JJ	Degree=Pos	14	_	_	start_char=175|end_char=179
+16	sex	sex	NOUN	NN	Number=Sing	15	_	_	start_char=180|end_char=183
+17	tourism	tourism	NOUN	NN	Number=Sing	16	_	_	start_char=184|end_char=191
+18	start	start	NOUN	NN	Number=Sing	17	_	_	start_char=192|end_char=197|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=197|end_char=198
 
 # text = Yeah, the US military...
-# sent_id = 59623
-1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=204|end_char=208|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=208|end_char=209
-3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=210|end_char=213
-4	US	US	PROPN	NNP	Number=Sing	3	_	_	start_char=214|end_char=216
-5	military	military	NOUN	NN	Number=Sing	4	_	_	start_char=217|end_char=225|SpaceAfter=No
-6	...	...	PUNCT	.	_	5	_	_	start_char=225|end_char=228|SpaceAfter=No
+# sent_id = 57670
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=199|end_char=203|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=203|end_char=204
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=205|end_char=208
+4	US	US	PROPN	NNP	Number=Sing	3	_	_	start_char=209|end_char=211
+5	military	military	NOUN	NN	Number=Sing	4	_	_	start_char=212|end_char=220|SpaceAfter=No
+6	...	...	PUNCT	.	_	5	_	_	start_char=220|end_char=223|SpaceAfter=No
 

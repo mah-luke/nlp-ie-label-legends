@@ -1,38 +1,35 @@
-# text = [URL] Good!
-# sent_id = 26319
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-4	Good	good	ADJ	JJ	Degree=Pos	3	_	_	start_char=6|end_char=10|SpaceAfter=No
-5	!	!	PUNCT	.	_	4	_	_	start_char=10|end_char=11
+# text = Good!
+# sent_id = 25476
+1	Good	good	ADJ	JJ	Degree=Pos	0	_	_	start_char=1|end_char=5|SpaceAfter=No|SpacesBefore=\s
+2	!	!	PUNCT	.	_	1	_	_	start_char=5|end_char=6
 
 # text = Fuck that wetback.
-# sent_id = 26320
-1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=12|end_char=16
-2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=17|end_char=21
-3	wetback	wetback	NOUN	NN	Number=Sing	2	_	_	start_char=22|end_char=29|SpaceAfter=No
-4	.	.	PUNCT	.	_	3	_	_	start_char=29|end_char=30
+# sent_id = 25477
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=7|end_char=11
+2	that	that	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=12|end_char=16
+3	wetback	wetback	NOUN	NN	Number=Sing	2	_	_	start_char=17|end_char=24|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=24|end_char=25
 
 # text = Too bad the ICE Agent didn't shove his fist up her cunt and rip out her womb.
-# sent_id = 26321
-1	Too	too	ADV	RB	_	0	_	_	start_char=31|end_char=34
-2	bad	bad	ADJ	JJ	Degree=Pos	1	_	_	start_char=35|end_char=38
-3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=39|end_char=42
-4	ICE	ICE	PROPN	NNP	Number=Sing	3	_	_	start_char=43|end_char=46
-5	Agent	Agent	PROPN	NNP	Number=Sing	4	_	_	start_char=47|end_char=52
-6-7	didn't	_	_	_	_	_	_	_	start_char=53|end_char=59
-6	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=53|end_char=56
-7	n't	not	PART	RB	_	6	_	_	start_char=56|end_char=59
-8	shove	shove	VERB	VB	VerbForm=Inf	7	_	_	start_char=60|end_char=65
-9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=66|end_char=69
-10	fist	fist	NOUN	NN	Number=Sing	9	_	_	start_char=70|end_char=74
-11	up	up	ADP	IN	_	10	_	_	start_char=75|end_char=77
-12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=78|end_char=81
-13	cunt	cunt	NOUN	NN	Number=Sing	12	_	_	start_char=82|end_char=86
-14	and	and	CCONJ	CC	_	13	_	_	start_char=87|end_char=90
-15	rip	rip	VERB	VB	VerbForm=Inf	14	_	_	start_char=91|end_char=94
-16	out	out	ADP	RP	_	15	_	_	start_char=95|end_char=98
-17	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=99|end_char=102
-18	womb	womb	NOUN	NN	Number=Sing	17	_	_	start_char=103|end_char=107|SpaceAfter=No
-19	.	.	PUNCT	.	_	18	_	_	start_char=107|end_char=108|SpaceAfter=No
+# sent_id = 25478
+1	Too	too	ADV	RB	_	0	_	_	start_char=26|end_char=29
+2	bad	bad	ADJ	JJ	Degree=Pos	1	_	_	start_char=30|end_char=33
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=34|end_char=37
+4	ICE	ICE	PROPN	NNP	Number=Sing	3	_	_	start_char=38|end_char=41
+5	Agent	Agent	PROPN	NNP	Number=Sing	4	_	_	start_char=42|end_char=47
+6-7	didn't	_	_	_	_	_	_	_	start_char=48|end_char=54
+6	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=48|end_char=51
+7	n't	not	PART	RB	_	6	_	_	start_char=51|end_char=54
+8	shove	shove	VERB	VB	VerbForm=Inf	7	_	_	start_char=55|end_char=60
+9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=61|end_char=64
+10	fist	fist	NOUN	NN	Number=Sing	9	_	_	start_char=65|end_char=69
+11	up	up	ADP	IN	_	10	_	_	start_char=70|end_char=72
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=73|end_char=76
+13	cunt	cunt	NOUN	NN	Number=Sing	12	_	_	start_char=77|end_char=81
+14	and	and	CCONJ	CC	_	13	_	_	start_char=82|end_char=85
+15	rip	rip	VERB	VB	VerbForm=Inf	14	_	_	start_char=86|end_char=89
+16	out	out	ADP	RP	_	15	_	_	start_char=90|end_char=93
+17	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	16	_	_	start_char=94|end_char=97
+18	womb	womb	NOUN	NN	Number=Sing	17	_	_	start_char=98|end_char=102|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=102|end_char=103|SpaceAfter=No
 

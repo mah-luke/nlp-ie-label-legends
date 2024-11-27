@@ -1,5 +1,5 @@
 # text = I despise the woman who wrote this article bashing Ivanka Trump.
-# sent_id = 127482
+# sent_id = 123369
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
 2	despise	despise	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=9
 3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=10|end_char=13
@@ -14,7 +14,7 @@
 12	.	.	PUNCT	.	_	11	_	_	start_char=63|end_char=64
 
 # text = Please read this and send her a message via Twitter telling her how you hate it too.
-# sent_id = 127483
+# sent_id = 123370
 1	Please	please	INTJ	UH	_	0	_	_	start_char=65|end_char=71
 2	read	read	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=72|end_char=76
 3	this	this	PRON	DT	Number=Sing|PronType=Dem	2	_	_	start_char=77|end_char=81
@@ -32,17 +32,11 @@
 15	hate	hate	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	_	_	start_char=137|end_char=141
 16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=142|end_char=144
 17	too	too	ADV	RB	_	16	_	_	start_char=145|end_char=148|SpaceAfter=No
-18	.	.	PUNCT	.	_	17	_	_	start_char=148|end_char=149
+18	.	.	PUNCT	.	_	17	_	_	start_char=148|end_char=149|SpacesAfter=\s\s
 
-# text = [URL] Amanda Carpenter [URL] 😨😈😠
-# sent_id = 127484
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=150|end_char=151|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=151|end_char=154|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=154|end_char=155
-4	Amanda	Amanda	PROPN	NNP	Number=Sing	3	_	_	start_char=156|end_char=162
-5	Carpenter	Carpenter	PROPN	NNP	Number=Sing	4	_	_	start_char=163|end_char=172
-6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=173|end_char=174|SpaceAfter=No
-7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=174|end_char=177|SpaceAfter=No
-8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=177|end_char=178
-9	😨😈😠	😨😈😠	PUNCT	.	_	8	_	_	start_char=179|end_char=182|SpaceAfter=No
+# text = Amanda Carpenter 😨😈😠
+# sent_id = 123371
+1	Amanda	Amanda	PROPN	NNP	Number=Sing	0	_	_	start_char=151|end_char=157
+2	Carpenter	Carpenter	PROPN	NNP	Number=Sing	1	_	_	start_char=158|end_char=167|SpacesAfter=\s\s
+3	😨😈😠	😨😈😠	PROPN	NNP	Number=Sing	2	_	_	start_char=169|end_char=172|SpaceAfter=No
 

@@ -1,48 +1,42 @@
-# text = [URL]
-# sent_id = 38253
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-
 # text = Fake rape accuser Lena Dunham plans to connect with women in middle America.
-# sent_id = 38254
-1	Fake	Fake	ADJ	JJ	Degree=Pos	0	_	_	start_char=6|end_char=10
-2	rape	rape	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=15
-3	accuser	accuser	NOUN	NN	Number=Sing	2	_	_	start_char=16|end_char=23
-4	Lena	Lena	PROPN	NNP	Number=Sing	3	_	_	start_char=24|end_char=28
-5	Dunham	Dunham	PROPN	NNP	Number=Sing	4	_	_	start_char=29|end_char=35
-6	plans	plan	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=36|end_char=41
-7	to	to	PART	TO	_	6	_	_	start_char=42|end_char=44
-8	connect	connect	VERB	VB	VerbForm=Inf	7	_	_	start_char=45|end_char=52
-9	with	with	ADP	IN	_	8	_	_	start_char=53|end_char=57
-10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=58|end_char=63
-11	in	in	ADP	IN	_	10	_	_	start_char=64|end_char=66
-12	middle	middle	ADJ	JJ	Degree=Pos	11	_	_	start_char=67|end_char=73
-13	America	America	PROPN	NNP	Number=Sing	12	_	_	start_char=74|end_char=81|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=81|end_char=82
+# sent_id = 36968
+1	Fake	Fake	ADJ	JJ	Degree=Pos	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	rape	rape	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=10
+3	accuser	accuser	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=18
+4	Lena	Lena	PROPN	NNP	Number=Sing	3	_	_	start_char=19|end_char=23
+5	Dunham	Dunham	PROPN	NNP	Number=Sing	4	_	_	start_char=24|end_char=30
+6	plans	plan	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=31|end_char=36
+7	to	to	PART	TO	_	6	_	_	start_char=37|end_char=39
+8	connect	connect	VERB	VB	VerbForm=Inf	7	_	_	start_char=40|end_char=47
+9	with	with	ADP	IN	_	8	_	_	start_char=48|end_char=52
+10	women	woman	NOUN	NNS	Number=Plur	9	_	_	start_char=53|end_char=58
+11	in	in	ADP	IN	_	10	_	_	start_char=59|end_char=61
+12	middle	middle	ADJ	JJ	Degree=Pos	11	_	_	start_char=62|end_char=68
+13	America	America	PROPN	NNP	Number=Sing	12	_	_	start_char=69|end_char=76|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=76|end_char=77
 
 # text = #MAGA #Gab #AltRight #PresidentTrump #GabFam #DrainTheSwamp #Trump #SpeakFreely #News #PizzaGate #FakeNews
-# sent_id = 38255
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=83|end_char=84|SpaceAfter=No
-2	MAGA	maga	NOUN	GW	Number=Sing	1	_	_	start_char=84|end_char=88
-3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=89|end_char=90|SpaceAfter=No
-4	Gab	gab	X	GW	_	3	_	_	start_char=90|end_char=93
-5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=94|end_char=95|SpaceAfter=No
-6	AltRight	altright	X	GW	_	5	_	_	start_char=95|end_char=103
-7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=104|end_char=105|SpaceAfter=No
-8	PresidentTrump	presidenttrump	NOUN	NN	Number=Sing	7	_	_	start_char=105|end_char=119
-9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=120|end_char=121|SpaceAfter=No
-10	GabFam	gabfam	NOUN	NN	Number=Sing	9	_	_	start_char=121|end_char=127
-11	#	#	SYM	NN	Number=Sing	10	_	_	start_char=128|end_char=129|SpaceAfter=No
-12	DrainTheSwamp	draintheswamp	NOUN	NN	Number=Sing	11	_	_	start_char=129|end_char=142
-13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=143|end_char=144|SpaceAfter=No
-14	Trump	Trump	NOUN	NN	Number=Sing	13	_	_	start_char=144|end_char=149
-15	#	#	SYM	NN	Number=Sing	14	_	_	start_char=150|end_char=151|SpaceAfter=No
-16	SpeakFreely	SpeakFreely	NOUN	NN	Number=Sing	15	_	_	start_char=151|end_char=162
-17	#	#	SYM	NN	Number=Sing	16	_	_	start_char=163|end_char=164|SpaceAfter=No
-18	News	news	NOUN	NN	Number=Sing	17	_	_	start_char=164|end_char=168
-19	#	#	SYM	NN	Number=Sing	18	_	_	start_char=169|end_char=170|SpaceAfter=No
-20	PizzaGate	pizzagate	NOUN	NN	Number=Sing	19	_	_	start_char=170|end_char=179
-21	#	#	SYM	NN	Number=Sing	20	_	_	start_char=180|end_char=181|SpaceAfter=No
-22	FakeNews	fakenew	NOUN	NN	Number=Sing	21	_	_	start_char=181|end_char=189|SpaceAfter=No
+# sent_id = 36969
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=78|end_char=79|SpaceAfter=No
+2	MAGA	maga	NOUN	GW	Number=Sing	1	_	_	start_char=79|end_char=83
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=84|end_char=85|SpaceAfter=No
+4	Gab	gab	X	GW	_	3	_	_	start_char=85|end_char=88
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=89|end_char=90|SpaceAfter=No
+6	AltRight	altright	X	GW	_	5	_	_	start_char=90|end_char=98
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=99|end_char=100|SpaceAfter=No
+8	PresidentTrump	presidenttrump	NOUN	NN	Number=Sing	7	_	_	start_char=100|end_char=114
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=115|end_char=116|SpaceAfter=No
+10	GabFam	gabfam	NOUN	NN	Number=Sing	9	_	_	start_char=116|end_char=122
+11	#	#	SYM	NN	Number=Sing	10	_	_	start_char=123|end_char=124|SpaceAfter=No
+12	DrainTheSwamp	draintheswamp	NOUN	NN	Number=Sing	11	_	_	start_char=124|end_char=137
+13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=138|end_char=139|SpaceAfter=No
+14	Trump	Trump	NOUN	NN	Number=Sing	13	_	_	start_char=139|end_char=144
+15	#	#	SYM	NN	Number=Sing	14	_	_	start_char=145|end_char=146|SpaceAfter=No
+16	SpeakFreely	SpeakFreely	NOUN	NN	Number=Sing	15	_	_	start_char=146|end_char=157
+17	#	#	SYM	NN	Number=Sing	16	_	_	start_char=158|end_char=159|SpaceAfter=No
+18	News	news	NOUN	NN	Number=Sing	17	_	_	start_char=159|end_char=163
+19	#	#	SYM	NN	Number=Sing	18	_	_	start_char=164|end_char=165|SpaceAfter=No
+20	PizzaGate	pizzagate	NOUN	NN	Number=Sing	19	_	_	start_char=165|end_char=174
+21	#	#	SYM	NN	Number=Sing	20	_	_	start_char=175|end_char=176|SpaceAfter=No
+22	FakeNews	fakenew	NOUN	NN	Number=Sing	21	_	_	start_char=176|end_char=184|SpaceAfter=No
 

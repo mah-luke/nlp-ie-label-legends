@@ -1,55 +1,49 @@
-# text = [USER]
-# sent_id = 76035
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Current holster is a Hidden Hybrid Holster brand holster and I like it a lot.
-# sent_id = 76036
-1	Current	current	ADJ	JJ	Degree=Pos	0	_	_	start_char=7|end_char=14
-2	holster	holster	NOUN	NN	Number=Sing	1	_	_	start_char=15|end_char=22
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=23|end_char=25
-4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=26|end_char=27
-5	Hidden	Hidden	ADJ	JJ	Degree=Pos	4	_	_	start_char=28|end_char=34
-6	Hybrid	hybrid	PROPN	NNP	Number=Sing	5	_	_	start_char=35|end_char=41
-7	Holster	Holster	PROPN	NNP	Number=Sing	6	_	_	start_char=42|end_char=49
-8	brand	brand	NOUN	NN	Number=Sing	7	_	_	start_char=50|end_char=55
-9	holster	holster	NOUN	NN	Number=Sing	8	_	_	start_char=56|end_char=63
-10	and	and	CCONJ	CC	_	9	_	_	start_char=64|end_char=67
-11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=68|end_char=69
-12	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=70|end_char=74
-13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=75|end_char=77
-14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=78|end_char=79
-15	lot	lot	NOUN	NN	Number=Sing	14	_	_	start_char=80|end_char=83|SpaceAfter=No
-16	.	.	PUNCT	.	_	15	_	_	start_char=83|end_char=84
+# sent_id = 73591
+1	Current	current	ADJ	JJ	Degree=Pos	0	_	_	start_char=1|end_char=8|SpacesBefore=\s
+2	holster	holster	NOUN	NN	Number=Sing	1	_	_	start_char=9|end_char=16
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=17|end_char=19
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=20|end_char=21
+5	Hidden	Hidden	ADJ	JJ	Degree=Pos	4	_	_	start_char=22|end_char=28
+6	Hybrid	hybrid	PROPN	NNP	Number=Sing	5	_	_	start_char=29|end_char=35
+7	Holster	Holster	PROPN	NNP	Number=Sing	6	_	_	start_char=36|end_char=43
+8	brand	brand	NOUN	NN	Number=Sing	7	_	_	start_char=44|end_char=49
+9	holster	holster	NOUN	NN	Number=Sing	8	_	_	start_char=50|end_char=57
+10	and	and	CCONJ	CC	_	9	_	_	start_char=58|end_char=61
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=62|end_char=63
+12	like	like	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=64|end_char=68
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=69|end_char=71
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=72|end_char=73
+15	lot	lot	NOUN	NN	Number=Sing	14	_	_	start_char=74|end_char=77|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=77|end_char=78
 
 # text = Kydex and Leather and the clips can be removed so it can be worn as an OWB... Stable as a bastard and Great weight distribution....
-# sent_id = 76037
-1	Kydex	Kydex	PROPN	NNP	Number=Sing	0	_	_	start_char=85|end_char=90
-2	and	and	CCONJ	CC	_	1	_	_	start_char=91|end_char=94
-3	Leather	Leather	PROPN	NNP	Number=Sing	2	_	_	start_char=95|end_char=102
-4	and	and	CCONJ	CC	_	3	_	_	start_char=103|end_char=106
-5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=107|end_char=110
-6	clips	clip	NOUN	NNS	Number=Plur	5	_	_	start_char=111|end_char=116
-7	can	can	AUX	MD	VerbForm=Fin	6	_	_	start_char=117|end_char=120
-8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=121|end_char=123
-9	removed	remove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=124|end_char=131
-10	so	so	ADV	RB	_	9	_	_	start_char=132|end_char=134
-11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=135|end_char=137
-12	can	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=138|end_char=141
-13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=142|end_char=144
-14	worn	wear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=145|end_char=149
-15	as	as	ADP	IN	_	14	_	_	start_char=150|end_char=152
-16	an	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=153|end_char=155
-17	OWB	owb	NOUN	NN	Number=Sing	16	_	_	start_char=156|end_char=159|SpaceAfter=No
-18	...	...	PUNCT	,	_	17	_	_	start_char=159|end_char=162
-19	Stable	Stable	ADJ	JJ	Degree=Pos	18	_	_	start_char=163|end_char=169
-20	as	as	ADP	IN	_	19	_	_	start_char=170|end_char=172
-21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=173|end_char=174
-22	bastard	bastard	NOUN	NN	Number=Sing	21	_	_	start_char=175|end_char=182
-23	and	and	CCONJ	CC	_	22	_	_	start_char=183|end_char=186
-24	Great	great	ADJ	JJ	Degree=Pos	23	_	_	start_char=187|end_char=192
-25	weight	weight	NOUN	NN	Number=Sing	24	_	_	start_char=193|end_char=199
-26	distribution	distribution	NOUN	NN	Number=Sing	25	_	_	start_char=200|end_char=212|SpaceAfter=No
-27	....	....	PUNCT	.	_	26	_	_	start_char=212|end_char=216|SpaceAfter=No
+# sent_id = 73592
+1	Kydex	Kydex	PROPN	NNP	Number=Sing	0	_	_	start_char=79|end_char=84
+2	and	and	CCONJ	CC	_	1	_	_	start_char=85|end_char=88
+3	Leather	Leather	PROPN	NNP	Number=Sing	2	_	_	start_char=89|end_char=96
+4	and	and	CCONJ	CC	_	3	_	_	start_char=97|end_char=100
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=101|end_char=104
+6	clips	clip	NOUN	NNS	Number=Plur	5	_	_	start_char=105|end_char=110
+7	can	can	AUX	MD	VerbForm=Fin	6	_	_	start_char=111|end_char=114
+8	be	be	AUX	VB	VerbForm=Inf	7	_	_	start_char=115|end_char=117
+9	removed	remove	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=118|end_char=125
+10	so	so	ADV	RB	_	9	_	_	start_char=126|end_char=128
+11	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=129|end_char=131
+12	can	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=132|end_char=135
+13	be	be	AUX	VB	VerbForm=Inf	12	_	_	start_char=136|end_char=138
+14	worn	wear	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=139|end_char=143
+15	as	as	ADP	IN	_	14	_	_	start_char=144|end_char=146
+16	an	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=147|end_char=149
+17	OWB	owb	NOUN	NN	Number=Sing	16	_	_	start_char=150|end_char=153|SpaceAfter=No
+18	...	...	PUNCT	,	_	17	_	_	start_char=153|end_char=156
+19	Stable	Stable	ADJ	JJ	Degree=Pos	18	_	_	start_char=157|end_char=163
+20	as	as	ADP	IN	_	19	_	_	start_char=164|end_char=166
+21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=167|end_char=168
+22	bastard	bastard	NOUN	NN	Number=Sing	21	_	_	start_char=169|end_char=176
+23	and	and	CCONJ	CC	_	22	_	_	start_char=177|end_char=180
+24	Great	great	ADJ	JJ	Degree=Pos	23	_	_	start_char=181|end_char=186
+25	weight	weight	NOUN	NN	Number=Sing	24	_	_	start_char=187|end_char=193
+26	distribution	distribution	NOUN	NN	Number=Sing	25	_	_	start_char=194|end_char=206|SpaceAfter=No
+27	....	....	PUNCT	.	_	26	_	_	start_char=206|end_char=210|SpaceAfter=No
 

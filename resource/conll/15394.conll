@@ -1,49 +1,43 @@
-# text = [USER]
-# sent_id = 32893
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = No problem.
-# sent_id = 32894
-1	No	no	DET	DT	_	0	_	_	start_char=7|end_char=9
-2	problem	problem	NOUN	NN	Number=Sing	1	_	_	start_char=10|end_char=17|SpaceAfter=No
-3	.	.	PUNCT	.	_	2	_	_	start_char=17|end_char=18
+# sent_id = 31824
+1	No	no	DET	DT	_	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	problem	problem	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=11|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=11|end_char=12
 
 # text = I will just meditate on mind bleach 🙈.
-# sent_id = 32895
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=19|end_char=20
-2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=21|end_char=25
-3	just	just	ADV	RB	_	2	_	_	start_char=26|end_char=30
-4	meditate	meditate	VERB	VB	VerbForm=Inf	3	_	_	start_char=31|end_char=39
-5	on	on	ADP	IN	_	4	_	_	start_char=40|end_char=42
-6	mind	mind	NOUN	NN	Number=Sing	5	_	_	start_char=43|end_char=47
-7	bleach	bleach	NOUN	NN	Number=Sing	6	_	_	start_char=48|end_char=54
-8	🙈.	🙈.	PUNCT	.	_	7	_	_	start_char=55|end_char=57
+# sent_id = 31825
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=13|end_char=14
+2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=15|end_char=19
+3	just	just	ADV	RB	_	2	_	_	start_char=20|end_char=24
+4	meditate	meditate	VERB	VB	VerbForm=Inf	3	_	_	start_char=25|end_char=33
+5	on	on	ADP	IN	_	4	_	_	start_char=34|end_char=36
+6	mind	mind	NOUN	NN	Number=Sing	5	_	_	start_char=37|end_char=41
+7	bleach	bleach	NOUN	NN	Number=Sing	6	_	_	start_char=42|end_char=48
+8	🙈.	🙈.	PUNCT	.	_	7	_	_	start_char=49|end_char=51
 
 # text = Just the idea of the woman in a pantsuit is enough to give me the willies but naked with Carlos Danger 🙈🙉🙊 😊
-# sent_id = 32896
-1	Just	just	ADV	RB	_	0	_	_	start_char=58|end_char=62
-2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=63|end_char=66
-3	idea	idea	NOUN	NN	Number=Sing	2	_	_	start_char=67|end_char=71
-4	of	of	ADP	IN	_	3	_	_	start_char=72|end_char=74
-5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=75|end_char=78
-6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=79|end_char=84
-7	in	in	ADP	IN	_	6	_	_	start_char=85|end_char=87
-8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=88|end_char=89
-9	pantsuit	pantsuit	NOUN	NN	Number=Sing	8	_	_	start_char=90|end_char=98
-10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=99|end_char=101
-11	enough	enough	ADJ	JJ	Degree=Pos	10	_	_	start_char=102|end_char=108
-12	to	to	PART	TO	_	11	_	_	start_char=109|end_char=111
-13	give	give	VERB	VB	VerbForm=Inf	12	_	_	start_char=112|end_char=116
-14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=117|end_char=119
-15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=120|end_char=123
-16	willies	willy	NOUN	NNS	Number=Plur	15	_	_	start_char=124|end_char=131
-17	but	but	CCONJ	CC	_	16	_	_	start_char=132|end_char=135
-18	naked	naked	ADJ	JJ	Degree=Pos	17	_	_	start_char=136|end_char=141
-19	with	with	ADP	IN	_	18	_	_	start_char=142|end_char=146
-20	Carlos	Carlos	PROPN	NNP	Number=Sing	19	_	_	start_char=147|end_char=153
-21	Danger	Danger	PROPN	NNP	Number=Sing	20	_	_	start_char=154|end_char=160
-22	🙈🙉🙊	🙈🙉🙊	PUNCT	.	_	21	_	_	start_char=161|end_char=164
-23	😊	😊	PUNCT	.	_	22	_	_	start_char=165|end_char=166|SpaceAfter=No
+# sent_id = 31826
+1	Just	just	ADV	RB	_	0	_	_	start_char=52|end_char=56
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=57|end_char=60
+3	idea	idea	NOUN	NN	Number=Sing	2	_	_	start_char=61|end_char=65
+4	of	of	ADP	IN	_	3	_	_	start_char=66|end_char=68
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=69|end_char=72
+6	woman	woman	NOUN	NN	Number=Sing	5	_	_	start_char=73|end_char=78
+7	in	in	ADP	IN	_	6	_	_	start_char=79|end_char=81
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=82|end_char=83
+9	pantsuit	pantsuit	NOUN	NN	Number=Sing	8	_	_	start_char=84|end_char=92
+10	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=93|end_char=95
+11	enough	enough	ADJ	JJ	Degree=Pos	10	_	_	start_char=96|end_char=102
+12	to	to	PART	TO	_	11	_	_	start_char=103|end_char=105
+13	give	give	VERB	VB	VerbForm=Inf	12	_	_	start_char=106|end_char=110
+14	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=111|end_char=113
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=114|end_char=117
+16	willies	willy	NOUN	NNS	Number=Plur	15	_	_	start_char=118|end_char=125
+17	but	but	CCONJ	CC	_	16	_	_	start_char=126|end_char=129
+18	naked	naked	ADJ	JJ	Degree=Pos	17	_	_	start_char=130|end_char=135
+19	with	with	ADP	IN	_	18	_	_	start_char=136|end_char=140
+20	Carlos	Carlos	PROPN	NNP	Number=Sing	19	_	_	start_char=141|end_char=147
+21	Danger	Danger	PROPN	NNP	Number=Sing	20	_	_	start_char=148|end_char=154
+22	🙈🙉🙊	🙈🙉🙊	PUNCT	.	_	21	_	_	start_char=155|end_char=158
+23	😊	😊	PUNCT	.	_	22	_	_	start_char=159|end_char=160|SpaceAfter=No
 

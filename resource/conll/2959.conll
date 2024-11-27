@@ -1,5 +1,5 @@
 # text = Bar owners can't handle competition.
-# sent_id = 6270
+# sent_id = 6086
 1	Bar	bar	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3
 2	owners	owner	NOUN	NNS	Number=Plur	1	_	_	start_char=4|end_char=10
 3-4	can't	_	_	_	_	_	_	_	start_char=11|end_char=16
@@ -10,17 +10,11 @@
 7	.	.	PUNCT	.	_	6	_	_	start_char=35|end_char=36
 
 # text = Look at this whiney bullshit.
-# sent_id = 6271
+# sent_id = 6087
 1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=37|end_char=41
 2	at	at	ADP	IN	_	1	_	_	start_char=42|end_char=44
 3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=45|end_char=49
 4	whiney	whiney	ADJ	JJ	Degree=Pos	3	_	_	start_char=50|end_char=56
 5	bullshit	bullshit	NOUN	NN	Number=Sing	4	_	_	start_char=57|end_char=65|SpaceAfter=No
 6	.	.	PUNCT	.	_	5	_	_	start_char=65|end_char=66
-
-# text = [URL]
-# sent_id = 6272
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=67|end_char=68|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=68|end_char=71|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=71|end_char=72|SpaceAfter=No
 

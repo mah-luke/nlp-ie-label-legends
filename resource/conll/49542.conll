@@ -1,5 +1,5 @@
 # text = How many more years does this guy have to live?
-# sent_id = 105912
+# sent_id = 102441
 1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
 2	many	many	ADJ	JJ	Degree=Pos	1	_	_	start_char=4|end_char=8
 3	more	more	ADJ	JJR	Degree=Cmp	2	_	_	start_char=9|end_char=13
@@ -13,14 +13,14 @@
 11	?	?	PUNCT	.	_	10	_	_	start_char=46|end_char=47
 
 # text = 50? 60?
-# sent_id = 105913
+# sent_id = 102442
 1	50	50	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=48|end_char=50|SpaceAfter=No
 2	?	?	PUNCT	.	_	1	_	_	start_char=50|end_char=51
 3	60	60	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=52|end_char=54|SpaceAfter=No
 4	?	?	PUNCT	.	_	3	_	_	start_char=54|end_char=55
 
 # text = If he's lucky...
-# sent_id = 105914
+# sent_id = 102443
 1	If	if	SCONJ	IN	_	0	_	_	start_char=56|end_char=58
 2-3	he's	_	_	_	_	_	_	_	start_char=59|end_char=63
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=59|end_char=61
@@ -29,14 +29,14 @@
 5	...	...	PUNCT	.	_	4	_	_	start_char=69|end_char=72
 
 # text = Nothing is guaranteed.
-# sent_id = 105915
+# sent_id = 102444
 1	Nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=73|end_char=80
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=81|end_char=83
 3	guaranteed	guarantee	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=84|end_char=94|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	_	_	start_char=94|end_char=95
 
 # text = He could die in a car crash in 6 months.
-# sent_id = 105916
+# sent_id = 102445
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=96|end_char=98
 2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=99|end_char=104
 3	die	die	VERB	VB	VerbForm=Inf	2	_	_	start_char=105|end_char=108
@@ -50,7 +50,7 @@
 11	.	.	PUNCT	.	_	10	_	_	start_char=135|end_char=136
 
 # text = Does he really want to spend *6 months* orbiting some girl?
-# sent_id = 105917
+# sent_id = 102446
 1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=137|end_char=141
 2	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=142|end_char=144
 3	really	really	ADV	RB	_	2	_	_	start_char=145|end_char=151

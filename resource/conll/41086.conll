@@ -1,42 +1,39 @@
-# text = [USER] this is not normal!
-# sent_id = 87929
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=7|end_char=11
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=12|end_char=14
-6	not	not	PART	RB	_	5	_	_	start_char=15|end_char=18
-7	normal	normal	ADJ	JJ	Degree=Pos	6	_	_	start_char=19|end_char=25|SpaceAfter=No
-8	!	!	PUNCT	.	_	7	_	_	start_char=25|end_char=26
+# text = this is not normal!
+# sent_id = 85052
+1	this	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=8
+3	not	not	PART	RB	_	2	_	_	start_char=9|end_char=12
+4	normal	normal	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=19|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=19|end_char=20
 
 # text = Any mom that saw those pics on the wall in there would run out with her hand over her baby's eyes and never look back.
-# sent_id = 87930
-1	Any	any	DET	DT	_	0	_	_	start_char=27|end_char=30
-2	mom	mom	NOUN	NN	Number=Sing	1	_	_	start_char=31|end_char=34
-3	that	that	PRON	WDT	PronType=Rel	2	_	_	start_char=35|end_char=39
-4	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=40|end_char=43
-5	those	that	DET	DT	Number=Plur|PronType=Dem	4	_	_	start_char=44|end_char=49
-6	pics	pic	NOUN	NNS	Number=Plur	5	_	_	start_char=50|end_char=54
-7	on	on	ADP	IN	_	6	_	_	start_char=55|end_char=57
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=58|end_char=61
-9	wall	wall	NOUN	NN	Number=Sing	8	_	_	start_char=62|end_char=66
-10	in	in	ADP	IN	_	9	_	_	start_char=67|end_char=69
-11	there	there	ADV	RB	PronType=Dem	10	_	_	start_char=70|end_char=75
-12	would	would	AUX	MD	VerbForm=Fin	11	_	_	start_char=76|end_char=81
-13	run	run	VERB	VB	VerbForm=Inf	12	_	_	start_char=82|end_char=85
-14	out	out	ADP	RP	_	13	_	_	start_char=86|end_char=89
-15	with	with	ADP	IN	_	14	_	_	start_char=90|end_char=94
-16	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=95|end_char=98
-17	hand	hand	NOUN	NN	Number=Sing	16	_	_	start_char=99|end_char=103
-18	over	over	ADP	IN	_	17	_	_	start_char=104|end_char=108
-19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=109|end_char=112
-20-21	baby's	_	_	_	_	_	_	_	start_char=113|end_char=119
-20	baby	baby	NOUN	NN	Number=Sing	19	_	_	start_char=113|end_char=117
-21	's	's	PART	POS	_	20	_	_	start_char=117|end_char=119
-22	eyes	eye	NOUN	NNS	Number=Plur	21	_	_	start_char=120|end_char=124
-23	and	and	CCONJ	CC	_	22	_	_	start_char=125|end_char=128
-24	never	never	ADV	RB	_	23	_	_	start_char=129|end_char=134
-25	look	look	VERB	VB	VerbForm=Inf	24	_	_	start_char=135|end_char=139
-26	back	back	ADV	RB	_	25	_	_	start_char=140|end_char=144|SpaceAfter=No
-27	.	.	PUNCT	.	_	26	_	_	start_char=144|end_char=145|SpaceAfter=No
+# sent_id = 85053
+1	Any	any	DET	DT	_	0	_	_	start_char=21|end_char=24
+2	mom	mom	NOUN	NN	Number=Sing	1	_	_	start_char=25|end_char=28
+3	that	that	PRON	WDT	PronType=Rel	2	_	_	start_char=29|end_char=33
+4	saw	see	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=34|end_char=37
+5	those	that	DET	DT	Number=Plur|PronType=Dem	4	_	_	start_char=38|end_char=43
+6	pics	pic	NOUN	NNS	Number=Plur	5	_	_	start_char=44|end_char=48
+7	on	on	ADP	IN	_	6	_	_	start_char=49|end_char=51
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=52|end_char=55
+9	wall	wall	NOUN	NN	Number=Sing	8	_	_	start_char=56|end_char=60
+10	in	in	ADP	IN	_	9	_	_	start_char=61|end_char=63
+11	there	there	ADV	RB	PronType=Dem	10	_	_	start_char=64|end_char=69
+12	would	would	AUX	MD	VerbForm=Fin	11	_	_	start_char=70|end_char=75
+13	run	run	VERB	VB	VerbForm=Inf	12	_	_	start_char=76|end_char=79
+14	out	out	ADP	RP	_	13	_	_	start_char=80|end_char=83
+15	with	with	ADP	IN	_	14	_	_	start_char=84|end_char=88
+16	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=89|end_char=92
+17	hand	hand	NOUN	NN	Number=Sing	16	_	_	start_char=93|end_char=97
+18	over	over	ADP	IN	_	17	_	_	start_char=98|end_char=102
+19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=103|end_char=106
+20-21	baby's	_	_	_	_	_	_	_	start_char=107|end_char=113
+20	baby	baby	NOUN	NN	Number=Sing	19	_	_	start_char=107|end_char=111
+21	's	's	PART	POS	_	20	_	_	start_char=111|end_char=113
+22	eyes	eye	NOUN	NNS	Number=Plur	21	_	_	start_char=114|end_char=118
+23	and	and	CCONJ	CC	_	22	_	_	start_char=119|end_char=122
+24	never	never	ADV	RB	_	23	_	_	start_char=123|end_char=128
+25	look	look	VERB	VB	VerbForm=Inf	24	_	_	start_char=129|end_char=133
+26	back	back	ADV	RB	_	25	_	_	start_char=134|end_char=138|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=138|end_char=139|SpaceAfter=No
 

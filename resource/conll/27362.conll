@@ -1,67 +1,61 @@
-# text = [USER]
-# sent_id = 58734
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = So gifted it is easy, really.
-# sent_id = 58735
-1	So	so	ADV	RB	_	0	_	_	start_char=7|end_char=9
-2	gifted	gift	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=10|end_char=16
-3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=17|end_char=19
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=20|end_char=22
-5	easy	easy	ADJ	JJ	Degree=Pos	4	_	_	start_char=23|end_char=27|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=27|end_char=28
-7	really	really	ADV	RB	_	6	_	_	start_char=29|end_char=35|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=35|end_char=36
+# sent_id = 56803
+1	So	so	ADV	RB	_	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	gifted	gift	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=4|end_char=10
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=11|end_char=13
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=16
+5	easy	easy	ADJ	JJ	Degree=Pos	4	_	_	start_char=17|end_char=21|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=21|end_char=22
+7	really	really	ADV	RB	_	6	_	_	start_char=23|end_char=29|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=29|end_char=30
 
 # text = One imagines oneself as an angry adolescent with that outraged and embryonic sense of justice--with authorization to hurt every father figure (thus the Oedipal use of the curse: "You (my) Mother F***ker!").
-# sent_id = 58736
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=37|end_char=40
-2	imagines	imagine	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=41|end_char=49
-3	oneself	oneself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=50|end_char=57
-4	as	as	ADP	IN	_	3	_	_	start_char=58|end_char=60
-5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=61|end_char=63
-6	angry	angry	ADJ	JJ	Degree=Pos	5	_	_	start_char=64|end_char=69
-7	adolescent	adolescent	NOUN	NN	Number=Sing	6	_	_	start_char=70|end_char=80
-8	with	with	ADP	IN	_	7	_	_	start_char=81|end_char=85
-9	that	that	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=86|end_char=90
-10	outraged	outrage	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=91|end_char=99
-11	and	and	CCONJ	CC	_	10	_	_	start_char=100|end_char=103
-12	embryonic	embryonic	ADJ	JJ	Degree=Pos	11	_	_	start_char=104|end_char=113
-13	sense	sense	NOUN	NN	Number=Sing	12	_	_	start_char=114|end_char=119
-14	of	of	ADP	IN	_	13	_	_	start_char=120|end_char=122
-15	justice	justice	NOUN	NN	Number=Sing	14	_	_	start_char=123|end_char=130|SpaceAfter=No
-16	--	--	PUNCT	,	_	15	_	_	start_char=130|end_char=132|SpaceAfter=No
-17	with	with	ADP	IN	_	16	_	_	start_char=132|end_char=136
-18	authorization	authorization	NOUN	NN	Number=Sing	17	_	_	start_char=137|end_char=150
-19	to	to	PART	TO	_	18	_	_	start_char=151|end_char=153
-20	hurt	hurt	VERB	VB	VerbForm=Inf	19	_	_	start_char=154|end_char=158
-21	every	every	DET	DT	_	20	_	_	start_char=159|end_char=164
-22	father	father	NOUN	NN	Number=Sing	21	_	_	start_char=165|end_char=171
-23	figure	figure	NOUN	NN	Number=Sing	22	_	_	start_char=172|end_char=178
-24	(	(	PUNCT	-LRB-	_	23	_	_	start_char=179|end_char=180|SpaceAfter=No
-25	thus	thus	ADV	RB	_	24	_	_	start_char=180|end_char=184
-26	the	the	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=185|end_char=188
-27	Oedipal	oedipal	ADJ	JJ	Degree=Pos	26	_	_	start_char=189|end_char=196
-28	use	use	NOUN	NN	Number=Sing	27	_	_	start_char=197|end_char=200
-29	of	of	ADP	IN	_	28	_	_	start_char=201|end_char=203
-30	the	the	DET	DT	Definite=Def|PronType=Art	29	_	_	start_char=204|end_char=207
-31	curse	curse	NOUN	NN	Number=Sing	30	_	_	start_char=208|end_char=213|SpaceAfter=No
-32	:	:	PUNCT	:	_	31	_	_	start_char=213|end_char=214
-33	"	"	PUNCT	``	_	32	_	_	start_char=215|end_char=216|SpaceAfter=No
-34	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	33	_	_	start_char=216|end_char=219
-35	(	(	PUNCT	-LRB-	_	34	_	_	start_char=220|end_char=221|SpaceAfter=No
-36	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	35	_	_	start_char=221|end_char=223|SpaceAfter=No
-37	)	)	PUNCT	-RRB-	_	36	_	_	start_char=223|end_char=224
-38	Mother	mother	PROPN	NNP	Number=Sing	37	_	_	start_char=225|end_char=231
-39	F	F	PROPN	NNP	Number=Sing	38	_	_	start_char=232|end_char=233|SpaceAfter=No
-40	*	*	PUNCT	NFP	_	39	_	_	start_char=233|end_char=234|SpaceAfter=No
-41	*	*	PUNCT	NFP	_	40	_	_	start_char=234|end_char=235|SpaceAfter=No
-42	*	*	PUNCT	NFP	_	41	_	_	start_char=235|end_char=236|SpaceAfter=No
-43	ker	ker	INTJ	UH	_	42	_	_	start_char=236|end_char=239|SpaceAfter=No
-44	!	!	PUNCT	.	_	43	_	_	start_char=239|end_char=240|SpaceAfter=No
-45	"	"	PUNCT	''	_	44	_	_	start_char=240|end_char=241|SpaceAfter=No
-46	)	)	PUNCT	-RRB-	_	45	_	_	start_char=241|end_char=242|SpaceAfter=No
-47	.	.	PUNCT	.	_	46	_	_	start_char=242|end_char=243|SpaceAfter=No
+# sent_id = 56804
+1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=31|end_char=34
+2	imagines	imagine	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=35|end_char=43
+3	oneself	oneself	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=44|end_char=51
+4	as	as	ADP	IN	_	3	_	_	start_char=52|end_char=54
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=55|end_char=57
+6	angry	angry	ADJ	JJ	Degree=Pos	5	_	_	start_char=58|end_char=63
+7	adolescent	adolescent	NOUN	NN	Number=Sing	6	_	_	start_char=64|end_char=74
+8	with	with	ADP	IN	_	7	_	_	start_char=75|end_char=79
+9	that	that	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=80|end_char=84
+10	outraged	outrage	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=85|end_char=93
+11	and	and	CCONJ	CC	_	10	_	_	start_char=94|end_char=97
+12	embryonic	embryonic	ADJ	JJ	Degree=Pos	11	_	_	start_char=98|end_char=107
+13	sense	sense	NOUN	NN	Number=Sing	12	_	_	start_char=108|end_char=113
+14	of	of	ADP	IN	_	13	_	_	start_char=114|end_char=116
+15	justice	justice	NOUN	NN	Number=Sing	14	_	_	start_char=117|end_char=124|SpaceAfter=No
+16	--	--	PUNCT	,	_	15	_	_	start_char=124|end_char=126|SpaceAfter=No
+17	with	with	ADP	IN	_	16	_	_	start_char=126|end_char=130
+18	authorization	authorization	NOUN	NN	Number=Sing	17	_	_	start_char=131|end_char=144
+19	to	to	PART	TO	_	18	_	_	start_char=145|end_char=147
+20	hurt	hurt	VERB	VB	VerbForm=Inf	19	_	_	start_char=148|end_char=152
+21	every	every	DET	DT	_	20	_	_	start_char=153|end_char=158
+22	father	father	NOUN	NN	Number=Sing	21	_	_	start_char=159|end_char=165
+23	figure	figure	NOUN	NN	Number=Sing	22	_	_	start_char=166|end_char=172
+24	(	(	PUNCT	-LRB-	_	23	_	_	start_char=173|end_char=174|SpaceAfter=No
+25	thus	thus	ADV	RB	_	24	_	_	start_char=174|end_char=178
+26	the	the	DET	DT	Definite=Def|PronType=Art	25	_	_	start_char=179|end_char=182
+27	Oedipal	oedipal	ADJ	JJ	Degree=Pos	26	_	_	start_char=183|end_char=190
+28	use	use	NOUN	NN	Number=Sing	27	_	_	start_char=191|end_char=194
+29	of	of	ADP	IN	_	28	_	_	start_char=195|end_char=197
+30	the	the	DET	DT	Definite=Def|PronType=Art	29	_	_	start_char=198|end_char=201
+31	curse	curse	NOUN	NN	Number=Sing	30	_	_	start_char=202|end_char=207|SpaceAfter=No
+32	:	:	PUNCT	:	_	31	_	_	start_char=207|end_char=208
+33	"	"	PUNCT	``	_	32	_	_	start_char=209|end_char=210|SpaceAfter=No
+34	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	33	_	_	start_char=210|end_char=213
+35	(	(	PUNCT	-LRB-	_	34	_	_	start_char=214|end_char=215|SpaceAfter=No
+36	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	35	_	_	start_char=215|end_char=217|SpaceAfter=No
+37	)	)	PUNCT	-RRB-	_	36	_	_	start_char=217|end_char=218
+38	Mother	mother	PROPN	NNP	Number=Sing	37	_	_	start_char=219|end_char=225
+39	F	F	PROPN	NNP	Number=Sing	38	_	_	start_char=226|end_char=227|SpaceAfter=No
+40	*	*	PUNCT	NFP	_	39	_	_	start_char=227|end_char=228|SpaceAfter=No
+41	*	*	PUNCT	NFP	_	40	_	_	start_char=228|end_char=229|SpaceAfter=No
+42	*	*	PUNCT	NFP	_	41	_	_	start_char=229|end_char=230|SpaceAfter=No
+43	ker	ker	INTJ	UH	_	42	_	_	start_char=230|end_char=233|SpaceAfter=No
+44	!	!	PUNCT	.	_	43	_	_	start_char=233|end_char=234|SpaceAfter=No
+45	"	"	PUNCT	''	_	44	_	_	start_char=234|end_char=235|SpaceAfter=No
+46	)	)	PUNCT	-RRB-	_	45	_	_	start_char=235|end_char=236|SpaceAfter=No
+47	.	.	PUNCT	.	_	46	_	_	start_char=236|end_char=237|SpaceAfter=No
 

@@ -1,34 +1,31 @@
-# text = [USER] I slept 9 hrs without disturbance.
-# sent_id = 88457
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=7|end_char=8
-5	slept	sleep	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	4	_	_	start_char=9|end_char=14
-6	9	9	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=15|end_char=16
-7	hrs	hour	NOUN	NNS	Number=Plur	6	_	_	start_char=17|end_char=20
-8	without	without	ADP	IN	_	7	_	_	start_char=21|end_char=28
-9	disturbance	disturbance	NOUN	NN	Number=Sing	8	_	_	start_char=29|end_char=40|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=40|end_char=41
+# text = I slept 9 hrs without disturbance.
+# sent_id = 85562
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=2|SpacesBefore=\s
+2	slept	sleep	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=3|end_char=8
+3	9	9	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=9|end_char=10
+4	hrs	hour	NOUN	NNS	Number=Plur	3	_	_	start_char=11|end_char=14
+5	without	without	ADP	IN	_	4	_	_	start_char=15|end_char=22
+6	disturbance	disturbance	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=34|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=34|end_char=35
 
 # text = Fuck that bitch Lupus.
-# sent_id = 88458
-1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=42|end_char=46
-2	that	that	PRON	WDT	PronType=Rel	1	_	_	start_char=47|end_char=51
-3	bitch	bitch	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=52|end_char=57
-4	Lupus	Lupus	PROPN	NNP	Number=Sing	3	_	_	start_char=58|end_char=63|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=63|end_char=64
+# sent_id = 85563
+1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=36|end_char=40
+2	that	that	PRON	WDT	PronType=Rel	1	_	_	start_char=41|end_char=45
+3	bitch	bitch	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=46|end_char=51
+4	Lupus	Lupus	PROPN	NNP	Number=Sing	3	_	_	start_char=52|end_char=57|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=57|end_char=58
 
 # text = I locked her out!
-# sent_id = 88459
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=65|end_char=66
-2	locked	lock	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=67|end_char=73
-3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=74|end_char=77
-4	out	out	ADP	RP	_	3	_	_	start_char=78|end_char=81|SpaceAfter=No
-5	!	!	PUNCT	.	_	4	_	_	start_char=81|end_char=82
+# sent_id = 85564
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=59|end_char=60
+2	locked	lock	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=61|end_char=67
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=68|end_char=71
+4	out	out	ADP	RP	_	3	_	_	start_char=72|end_char=75|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=75|end_char=76
 
 # text = #PainWarriors
-# sent_id = 88460
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=83|end_char=84|SpaceAfter=No
-2	PainWarriors	paincarrior	NOUN	NN	Number=Sing	1	_	_	start_char=84|end_char=96|SpaceAfter=No
+# sent_id = 85565
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=77|end_char=78|SpaceAfter=No
+2	PainWarriors	paincarrior	NOUN	NN	Number=Sing	1	_	_	start_char=78|end_char=90|SpaceAfter=No
 

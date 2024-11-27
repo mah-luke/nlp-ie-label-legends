@@ -1,18 +1,15 @@
-# text = [USER] - Hey faggot, we can do this all day long.
-# sent_id = 45765
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	-	-	PUNCT	HYPH	_	3	_	_	start_char=7|end_char=8
-5	Hey	hey	INTJ	UH	_	4	_	_	start_char=9|end_char=12
-6	faggot	faggot	NOUN	NN	Number=Sing	5	_	_	start_char=13|end_char=19|SpaceAfter=No
-7	,	,	PUNCT	,	_	6	_	_	start_char=19|end_char=20
-8	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	7	_	_	start_char=21|end_char=23
-9	can	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=24|end_char=27
-10	do	do	VERB	VB	VerbForm=Inf	9	_	_	start_char=28|end_char=30
-11	this	this	PRON	DT	Number=Sing|PronType=Dem	10	_	_	start_char=31|end_char=35
-12	all	all	DET	DT	_	11	_	_	start_char=36|end_char=39
-13	day	day	NOUN	NN	Number=Sing	12	_	_	start_char=40|end_char=43
-14	long	long	ADV	RB	Degree=Pos	13	_	_	start_char=44|end_char=48|SpaceAfter=No
-15	.	.	PUNCT	.	_	14	_	_	start_char=48|end_char=49|SpaceAfter=No
+# text = - Hey faggot, we can do this all day long.
+# sent_id = 44232
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=1|end_char=2|SpacesBefore=\s
+2	Hey	hey	INTJ	UH	_	1	_	_	start_char=3|end_char=6
+3	faggot	faggot	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=13|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=13|end_char=14
+5	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=15|end_char=17
+6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=18|end_char=21
+7	do	do	VERB	VB	VerbForm=Inf	6	_	_	start_char=22|end_char=24
+8	this	this	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=25|end_char=29
+9	all	all	DET	DT	_	8	_	_	start_char=30|end_char=33
+10	day	day	NOUN	NN	Number=Sing	9	_	_	start_char=34|end_char=37
+11	long	long	ADV	RB	Degree=Pos	10	_	_	start_char=38|end_char=42|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=42|end_char=43|SpaceAfter=No
 

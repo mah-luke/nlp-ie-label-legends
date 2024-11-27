@@ -1,55 +1,49 @@
-# text = [USER]
-# sent_id = 115526
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Tell you what.
-# sent_id = 115527
-1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=7|end_char=11
-2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	start_char=12|end_char=15
-3	what	what	PRON	WP	PronType=Int	2	_	_	start_char=16|end_char=20|SpaceAfter=No
-4	.	.	PUNCT	.	_	3	_	_	start_char=20|end_char=21
+# sent_id = 111756
+1	Tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	1	_	_	start_char=6|end_char=9
+3	what	what	PRON	WP	PronType=Int	2	_	_	start_char=10|end_char=14|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
 
 # text = Give me the details for your page, if it's not private, I'll make an account and see what you do?
-# sent_id = 115528
-1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=22|end_char=26
-2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=27|end_char=29
-3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=30|end_char=33
-4	details	detail	NOUN	NNS	Number=Plur	3	_	_	start_char=34|end_char=41
-5	for	for	ADP	IN	_	4	_	_	start_char=42|end_char=45
-6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=46|end_char=50
-7	page	page	NOUN	NN	Number=Sing	6	_	_	start_char=51|end_char=55|SpaceAfter=No
-8	,	,	PUNCT	,	_	7	_	_	start_char=55|end_char=56
-9	if	if	SCONJ	IN	_	8	_	_	start_char=57|end_char=59
-10-11	it's	_	_	_	_	_	_	_	start_char=60|end_char=64
-10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=60|end_char=62
-11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=62|end_char=64
-12	not	not	PART	RB	_	11	_	_	start_char=65|end_char=68
-13	private	private	ADJ	JJ	Degree=Pos	12	_	_	start_char=69|end_char=76|SpaceAfter=No
-14	,	,	PUNCT	,	_	13	_	_	start_char=76|end_char=77
-15-16	I'll	_	_	_	_	_	_	_	start_char=78|end_char=82
-15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=78|end_char=79
-16	'll	will	AUX	MD	VerbForm=Fin	15	_	_	start_char=79|end_char=82
-17	make	make	VERB	VB	VerbForm=Inf	16	_	_	start_char=83|end_char=87
-18	an	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=88|end_char=90
-19	account	account	NOUN	NN	Number=Sing	18	_	_	start_char=91|end_char=98
-20	and	and	CCONJ	CC	_	19	_	_	start_char=99|end_char=102
-21	see	see	VERB	VB	VerbForm=Inf	20	_	_	start_char=103|end_char=106
-22	what	what	PRON	WP	PronType=Rel	21	_	_	start_char=107|end_char=111
-23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	_	_	start_char=112|end_char=115
-24	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	_	_	start_char=116|end_char=118|SpaceAfter=No
-25	?	?	PUNCT	.	_	24	_	_	start_char=118|end_char=119
+# sent_id = 111757
+1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=16|end_char=20
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=21|end_char=23
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=24|end_char=27
+4	details	detail	NOUN	NNS	Number=Plur	3	_	_	start_char=28|end_char=35
+5	for	for	ADP	IN	_	4	_	_	start_char=36|end_char=39
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=40|end_char=44
+7	page	page	NOUN	NN	Number=Sing	6	_	_	start_char=45|end_char=49|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=49|end_char=50
+9	if	if	SCONJ	IN	_	8	_	_	start_char=51|end_char=53
+10-11	it's	_	_	_	_	_	_	_	start_char=54|end_char=58
+10	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=54|end_char=56
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=56|end_char=58
+12	not	not	PART	RB	_	11	_	_	start_char=59|end_char=62
+13	private	private	ADJ	JJ	Degree=Pos	12	_	_	start_char=63|end_char=70|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=70|end_char=71
+15-16	I'll	_	_	_	_	_	_	_	start_char=72|end_char=76
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=72|end_char=73
+16	'll	will	AUX	MD	VerbForm=Fin	15	_	_	start_char=73|end_char=76
+17	make	make	VERB	VB	VerbForm=Inf	16	_	_	start_char=77|end_char=81
+18	an	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=82|end_char=84
+19	account	account	NOUN	NN	Number=Sing	18	_	_	start_char=85|end_char=92
+20	and	and	CCONJ	CC	_	19	_	_	start_char=93|end_char=96
+21	see	see	VERB	VB	VerbForm=Inf	20	_	_	start_char=97|end_char=100
+22	what	what	PRON	WP	PronType=Rel	21	_	_	start_char=101|end_char=105
+23	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	22	_	_	start_char=106|end_char=109
+24	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	_	_	start_char=110|end_char=112|SpaceAfter=No
+25	?	?	PUNCT	.	_	24	_	_	start_char=112|end_char=113
 
 # text = I'm an idiot until I see it
-# sent_id = 115529
-1-2	I'm	_	_	_	_	_	_	_	start_char=120|end_char=123
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=120|end_char=121
-2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=121|end_char=123
-3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=124|end_char=126
-4	idiot	idiot	NOUN	NN	Number=Sing	3	_	_	start_char=127|end_char=132
-5	until	until	SCONJ	IN	_	4	_	_	start_char=133|end_char=138
-6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=139|end_char=140
-7	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=141|end_char=144
-8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=145|end_char=147|SpaceAfter=No
+# sent_id = 111758
+1-2	I'm	_	_	_	_	_	_	_	start_char=114|end_char=117
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=114|end_char=115
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=115|end_char=117
+3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=118|end_char=120
+4	idiot	idiot	NOUN	NN	Number=Sing	3	_	_	start_char=121|end_char=126
+5	until	until	SCONJ	IN	_	4	_	_	start_char=127|end_char=132
+6	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=133|end_char=134
+7	see	see	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=135|end_char=138
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=139|end_char=141|SpaceAfter=No
 

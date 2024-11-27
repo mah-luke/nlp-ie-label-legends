@@ -1,48 +1,45 @@
-# text = [This one?]([URL]
-# sent_id = 125356
+# text = [This one?](
+# sent_id = 121333
 1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	This	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=1|end_char=5
 3	one	one	NOUN	NN	Number=Sing	2	_	_	start_char=6|end_char=9|SpaceAfter=No
 4	?	?	PUNCT	.	_	3	_	_	start_char=9|end_char=10|SpaceAfter=No
 5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=10|end_char=11|SpaceAfter=No
-6	(	(	PUNCT	-LRB-	_	5	_	_	start_char=11|end_char=12|SpaceAfter=No
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=12|end_char=13|SpaceAfter=No
-8	URL	URL	PROPN	NNP	Number=Sing	7	_	_	start_char=13|end_char=16|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=16|end_char=17
+6	(	(	PUNCT	-LRB-	_	5	_	_	start_char=11|end_char=12
 
 # text = She is representing herself in a disingenuous way.
-# sent_id = 125357
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=18|end_char=21
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=22|end_char=24
-3	representing	represent	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=25|end_char=37
-4	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	_	_	start_char=38|end_char=45
-5	in	in	ADP	IN	_	4	_	_	start_char=46|end_char=48
-6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=49|end_char=50
-7	disingenuous	disingenuous	ADJ	JJ	Degree=Pos	6	_	_	start_char=51|end_char=63
-8	way	way	NOUN	NN	Number=Sing	7	_	_	start_char=64|end_char=67|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=67|end_char=68
+# sent_id = 121334
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=13|end_char=16
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=17|end_char=19
+3	representing	represent	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=20|end_char=32
+4	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	3	_	_	start_char=33|end_char=40
+5	in	in	ADP	IN	_	4	_	_	start_char=41|end_char=43
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=44|end_char=45
+7	disingenuous	disingenuous	ADJ	JJ	Degree=Pos	6	_	_	start_char=46|end_char=58
+8	way	way	NOUN	NN	Number=Sing	7	_	_	start_char=59|end_char=62|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=62|end_char=63
 
 # text = She's a pawn of the conservative right.
-# sent_id = 125358
-1-2	She's	_	_	_	_	_	_	_	start_char=69|end_char=74
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=69|end_char=72
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=72|end_char=74
-3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=75|end_char=76
-4	pawn	pawn	NOUN	NN	Number=Sing	3	_	_	start_char=77|end_char=81
-5	of	of	ADP	IN	_	4	_	_	start_char=82|end_char=84
-6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=85|end_char=88
-7	conservative	conservative	ADJ	JJ	Degree=Pos	6	_	_	start_char=89|end_char=101
-8	right	right	NOUN	NN	Number=Sing	7	_	_	start_char=102|end_char=107|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=107|end_char=108
+# sent_id = 121335
+1-2	She's	_	_	_	_	_	_	_	start_char=64|end_char=69
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=64|end_char=67
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=67|end_char=69
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=70|end_char=71
+4	pawn	pawn	NOUN	NN	Number=Sing	3	_	_	start_char=72|end_char=76
+5	of	of	ADP	IN	_	4	_	_	start_char=77|end_char=79
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=80|end_char=83
+7	conservative	conservative	ADJ	JJ	Degree=Pos	6	_	_	start_char=84|end_char=96
+8	right	right	NOUN	NN	Number=Sing	7	_	_	start_char=97|end_char=102|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=102|end_char=103
 
 # text = If voters fall for this, well....
-# sent_id = 125359
-1	If	if	SCONJ	IN	_	0	_	_	start_char=109|end_char=111
-2	voters	voter	NOUN	NNS	Number=Plur	1	_	_	start_char=112|end_char=118
-3	fall	fall	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=119|end_char=123
-4	for	for	ADP	IN	_	3	_	_	start_char=124|end_char=127
-5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=128|end_char=132|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=132|end_char=133
-7	well	well	INTJ	UH	_	6	_	_	start_char=134|end_char=138|SpaceAfter=No
-8	....	....	PUNCT	.	_	7	_	_	start_char=138|end_char=142|SpaceAfter=No
+# sent_id = 121336
+1	If	if	SCONJ	IN	_	0	_	_	start_char=104|end_char=106
+2	voters	voter	NOUN	NNS	Number=Plur	1	_	_	start_char=107|end_char=113
+3	fall	fall	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=114|end_char=118
+4	for	for	ADP	IN	_	3	_	_	start_char=119|end_char=122
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=123|end_char=127|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=127|end_char=128
+7	well	well	INTJ	UH	_	6	_	_	start_char=129|end_char=133|SpaceAfter=No
+8	....	....	PUNCT	.	_	7	_	_	start_char=133|end_char=137|SpaceAfter=No
 

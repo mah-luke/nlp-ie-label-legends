@@ -1,15 +1,9 @@
-# text = [USER] is a female one of these [URL]
-# sent_id = 4441
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=7|end_char=9
-5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=10|end_char=11
-6	female	female	ADJ	JJ	Degree=Pos	5	_	_	start_char=12|end_char=18
-7	one	one	NOUN	NN	Number=Sing	6	_	_	start_char=19|end_char=22
-8	of	of	ADP	IN	_	7	_	_	start_char=23|end_char=25
-9	these	this	PRON	DT	Number=Plur|PronType=Dem	8	_	_	start_char=26|end_char=31
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=32|end_char=33|SpaceAfter=No
-11	URL	URL	PROPN	NNP	Number=Sing	10	_	_	start_char=33|end_char=36|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=36|end_char=37|SpaceAfter=No
+# text = is a female one of these
+# sent_id = 4303
+1	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=4|end_char=5
+3	female	female	ADJ	JJ	Degree=Pos	2	_	_	start_char=6|end_char=12
+4	one	one	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=16
+5	of	of	ADP	IN	_	4	_	_	start_char=17|end_char=19
+6	these	this	PRON	DT	Number=Plur|PronType=Dem	5	_	_	start_char=20|end_char=25
 

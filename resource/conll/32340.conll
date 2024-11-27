@@ -1,70 +1,64 @@
-# text = [USER]
-# sent_id = 69306
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = We do hope and pray that they're not as far gone as their behavior suggests.
-# sent_id = 69307
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=9
-2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=12
-3	hope	hope	VERB	VB	VerbForm=Inf	2	_	_	start_char=13|end_char=17
-4	and	and	CCONJ	CC	_	3	_	_	start_char=18|end_char=21
-5	pray	pray	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=22|end_char=26
-6	that	that	SCONJ	IN	_	5	_	_	start_char=27|end_char=31
-7-8	they're	_	_	_	_	_	_	_	start_char=32|end_char=39
-7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=32|end_char=36
-8	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=36|end_char=39
-9	not	not	PART	RB	_	8	_	_	start_char=40|end_char=43
-10	as	as	ADV	RB	_	9	_	_	start_char=44|end_char=46
-11	far	far	ADV	RB	Degree=Pos	10	_	_	start_char=47|end_char=50
-12	gone	gone	ADJ	JJ	Degree=Pos	11	_	_	start_char=51|end_char=55
-13	as	as	SCONJ	IN	_	12	_	_	start_char=56|end_char=58
-14	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=59|end_char=64
-15	behavior	behavior	NOUN	NN	Number=Sing	14	_	_	start_char=65|end_char=73
-16	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=74|end_char=82|SpaceAfter=No
-17	.	.	PUNCT	.	_	16	_	_	start_char=82|end_char=83
+# sent_id = 67056
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	hope	hope	VERB	VB	VerbForm=Inf	2	_	_	start_char=7|end_char=11
+4	and	and	CCONJ	CC	_	3	_	_	start_char=12|end_char=15
+5	pray	pray	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=16|end_char=20
+6	that	that	SCONJ	IN	_	5	_	_	start_char=21|end_char=25
+7-8	they're	_	_	_	_	_	_	_	start_char=26|end_char=33
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=26|end_char=30
+8	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=30|end_char=33
+9	not	not	PART	RB	_	8	_	_	start_char=34|end_char=37
+10	as	as	ADV	RB	_	9	_	_	start_char=38|end_char=40
+11	far	far	ADV	RB	Degree=Pos	10	_	_	start_char=41|end_char=44
+12	gone	gone	ADJ	JJ	Degree=Pos	11	_	_	start_char=45|end_char=49
+13	as	as	SCONJ	IN	_	12	_	_	start_char=50|end_char=52
+14	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=53|end_char=58
+15	behavior	behavior	NOUN	NN	Number=Sing	14	_	_	start_char=59|end_char=67
+16	suggests	suggest	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=68|end_char=76|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=76|end_char=77
 
 # text = After all, we do not think of others as irredeemable...
-# sent_id = 69308
-1	After	after	ADP	IN	_	0	_	_	start_char=84|end_char=89
-2	all	all	DET	DT	_	1	_	_	start_char=90|end_char=93|SpaceAfter=No
-3	,	,	PUNCT	,	_	2	_	_	start_char=93|end_char=94
-4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=95|end_char=97
-5	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=98|end_char=100
-6	not	not	PART	RB	_	5	_	_	start_char=101|end_char=104
-7	think	think	VERB	VB	VerbForm=Inf	6	_	_	start_char=105|end_char=110
-8	of	of	ADP	IN	_	7	_	_	start_char=111|end_char=113
-9	others	other	NOUN	NNS	Number=Plur	8	_	_	start_char=114|end_char=120
-10	as	as	ADP	IN	_	9	_	_	start_char=121|end_char=123
-11	irredeemable	irredeemable	ADJ	JJ	Degree=Pos	10	_	_	start_char=124|end_char=136|SpaceAfter=No
-12	...	...	PUNCT	.	_	11	_	_	start_char=136|end_char=139
+# sent_id = 67057
+1	After	after	ADP	IN	_	0	_	_	start_char=78|end_char=83
+2	all	all	DET	DT	_	1	_	_	start_char=84|end_char=87|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=87|end_char=88
+4	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	_	_	start_char=89|end_char=91
+5	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=92|end_char=94
+6	not	not	PART	RB	_	5	_	_	start_char=95|end_char=98
+7	think	think	VERB	VB	VerbForm=Inf	6	_	_	start_char=99|end_char=104
+8	of	of	ADP	IN	_	7	_	_	start_char=105|end_char=107
+9	others	other	NOUN	NNS	Number=Plur	8	_	_	start_char=108|end_char=114
+10	as	as	ADP	IN	_	9	_	_	start_char=115|end_char=117
+11	irredeemable	irredeemable	ADJ	JJ	Degree=Pos	10	_	_	start_char=118|end_char=130|SpaceAfter=No
+12	...	...	PUNCT	.	_	11	_	_	start_char=130|end_char=133
 
 # text = So that they actually love their own servitude, when they ought not to...
-# sent_id = 69309
-1	So	so	ADV	RB	_	0	_	_	start_char=140|end_char=142
-2	that	that	SCONJ	IN	_	1	_	_	start_char=143|end_char=147
-3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=148|end_char=152
-4	actually	actually	ADV	RB	_	3	_	_	start_char=153|end_char=161
-5	love	love	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=162|end_char=166
-6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=167|end_char=172
-7	own	own	ADJ	JJ	Degree=Pos	6	_	_	start_char=173|end_char=176
-8	servitude	servitude	NOUN	NN	Number=Sing	7	_	_	start_char=177|end_char=186|SpaceAfter=No
-9	,	,	PUNCT	,	_	8	_	_	start_char=186|end_char=187
-10	when	when	ADV	WRB	PronType=Int	9	_	_	start_char=188|end_char=192
-11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=193|end_char=197
-12	ought	ought	AUX	MD	VerbForm=Fin	11	_	_	start_char=198|end_char=203
-13	not	not	PART	RB	_	12	_	_	start_char=204|end_char=207
-14	to	to	PART	TO	_	13	_	_	start_char=208|end_char=210|SpaceAfter=No
-15	...	...	PUNCT	.	_	14	_	_	start_char=210|end_char=213
+# sent_id = 67058
+1	So	so	ADV	RB	_	0	_	_	start_char=134|end_char=136
+2	that	that	SCONJ	IN	_	1	_	_	start_char=137|end_char=141
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=142|end_char=146
+4	actually	actually	ADV	RB	_	3	_	_	start_char=147|end_char=155
+5	love	love	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=156|end_char=160
+6	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=161|end_char=166
+7	own	own	ADJ	JJ	Degree=Pos	6	_	_	start_char=167|end_char=170
+8	servitude	servitude	NOUN	NN	Number=Sing	7	_	_	start_char=171|end_char=180|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=180|end_char=181
+10	when	when	ADV	WRB	PronType=Int	9	_	_	start_char=182|end_char=186
+11	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=187|end_char=191
+12	ought	ought	AUX	MD	VerbForm=Fin	11	_	_	start_char=192|end_char=197
+13	not	not	PART	RB	_	12	_	_	start_char=198|end_char=201
+14	to	to	PART	TO	_	13	_	_	start_char=202|end_char=204|SpaceAfter=No
+15	...	...	PUNCT	.	_	14	_	_	start_char=204|end_char=207
 
 # text = (Not sure who said it)
-# sent_id = 69310
-1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=214|end_char=215|SpaceAfter=No
-2	Not	not	PART	RB	_	1	_	_	start_char=215|end_char=218
-3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=219|end_char=223
-4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=224|end_char=227
-5	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=228|end_char=232
-6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=233|end_char=235|SpaceAfter=No
-7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=235|end_char=236|SpaceAfter=No
+# sent_id = 67059
+1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=208|end_char=209|SpaceAfter=No
+2	Not	not	PART	RB	_	1	_	_	start_char=209|end_char=212
+3	sure	sure	ADJ	JJ	Degree=Pos	2	_	_	start_char=213|end_char=217
+4	who	who	PRON	WP	PronType=Rel	3	_	_	start_char=218|end_char=221
+5	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=222|end_char=226
+6	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=227|end_char=229|SpaceAfter=No
+7	)	)	PUNCT	-RRB-	_	6	_	_	start_char=229|end_char=230|SpaceAfter=No
 

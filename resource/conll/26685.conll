@@ -1,10 +1,10 @@
-# text = Missouri Governor Eric Greitens arrested for taking nearly-nude photo of his married lover and blackmailing her [URL]
-# sent_id = 57363
+# text = Missouri Governor Eric Greitens arrested for taking nearly-nude photo of his married lover and blackmailing her
+# sent_id = 55482
 1	Missouri	Missouri	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=8
 2	Governor	Governor	PROPN	NNP	Number=Sing	1	_	_	start_char=9|end_char=17
 3	Eric	Eric	PROPN	NNP	Number=Sing	2	_	_	start_char=18|end_char=22
 4	Greitens	Greitens	PROPN	NNP	Number=Sing	3	_	_	start_char=23|end_char=31
-5	arrested	arrest	VERB	VBD	Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin	4	_	_	start_char=32|end_char=40
+5	arrested	arrest	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin	4	_	_	start_char=32|end_char=40
 6	for	for	SCONJ	IN	_	5	_	_	start_char=41|end_char=44
 7	taking	take	VERB	VBG	VerbForm=Ger	6	_	_	start_char=45|end_char=51
 8	nearly	nearly	ADV	RB	_	7	_	_	start_char=52|end_char=58|SpaceAfter=No
@@ -18,7 +18,4 @@
 16	and	and	CCONJ	CC	_	15	_	_	start_char=91|end_char=94
 17	blackmailing	blackmail	VERB	VBG	VerbForm=Ger	16	_	_	start_char=95|end_char=107
 18	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=108|end_char=111
-19	[	[	PUNCT	-LRB-	_	18	_	_	start_char=112|end_char=113|SpaceAfter=No
-20	URL	URL	PROPN	NNP	Number=Sing	19	_	_	start_char=113|end_char=116|SpaceAfter=No
-21	]	]	PUNCT	-RRB-	_	20	_	_	start_char=116|end_char=117|SpaceAfter=No
 

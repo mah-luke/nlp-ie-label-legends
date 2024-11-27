@@ -1,5 +1,5 @@
 # text = “I just wanted to see how it felt to shoot grandma.”
-# sent_id = 21770
+# sent_id = 21074
 1	“	''	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
 3	just	just	ADV	RB	_	2	_	_	start_char=3|end_char=7
@@ -15,8 +15,8 @@
 13	.	.	PUNCT	.	_	12	_	_	start_char=50|end_char=51|SpaceAfter=No
 14	”	''	PUNCT	''	_	13	_	_	start_char=51|end_char=52
 
-# text = -Edmund Kemper, December 18, 1948 [URL]
-# sent_id = 21771
+# text = -Edmund Kemper, December 18, 1948
+# sent_id = 21075
 1	-	-	PUNCT	NFP	_	0	_	_	start_char=53|end_char=54|SpaceAfter=No
 2	Edmund	Edmund	PROPN	NNP	Number=Sing	1	_	_	start_char=54|end_char=60
 3	Kemper	Kemper	PROPN	NNP	Number=Sing	2	_	_	start_char=61|end_char=67|SpaceAfter=No
@@ -25,7 +25,4 @@
 6	18	18	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=78|end_char=80|SpaceAfter=No
 7	,	,	PUNCT	,	_	6	_	_	start_char=80|end_char=81
 8	1948	1948	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=82|end_char=86
-9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=87|end_char=88|SpaceAfter=No
-10	URL	URL	PROPN	NNP	Number=Sing	9	_	_	start_char=88|end_char=91|SpaceAfter=No
-11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=91|end_char=92|SpaceAfter=No
 

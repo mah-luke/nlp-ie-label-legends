@@ -1,5 +1,5 @@
 # text = "Oh fuck off with that libertarian bullshit.
-# sent_id = 80092
+# sent_id = 77502
 1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	Oh	oh	INTJ	UH	_	1	_	_	start_char=1|end_char=3
 3	fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=4|end_char=8
@@ -11,7 +11,7 @@
 9	.	.	PUNCT	.	_	8	_	_	start_char=43|end_char=44
 
 # text = Taxes are the price of civilisation.
-# sent_id = 80093
+# sent_id = 77503
 1	Taxes	taxe	NOUN	NNS	Number=Plur	0	_	_	start_char=45|end_char=50
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=51|end_char=54
 3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=55|end_char=58
@@ -21,7 +21,7 @@
 7	.	.	PUNCT	.	_	6	_	_	start_char=80|end_char=81
 
 # text = If you think everything can be run “user pays” you are a moron."
-# sent_id = 80094
+# sent_id = 77504
 1	If	if	SCONJ	IN	_	0	_	_	start_char=82|end_char=84
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=85|end_char=88
 3	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=89|end_char=94
@@ -39,10 +39,4 @@
 15	moron	moron	NOUN	NN	Number=Sing	14	_	_	start_char=139|end_char=144|SpaceAfter=No
 16	.	.	PUNCT	.	_	15	_	_	start_char=144|end_char=145|SpaceAfter=No
 17	"	"	PUNCT	''	_	16	_	_	start_char=145|end_char=146
-
-# text = [URL]
-# sent_id = 80095
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=147|end_char=148|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=148|end_char=151|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=151|end_char=152|SpaceAfter=No
 

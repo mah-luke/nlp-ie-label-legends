@@ -1,51 +1,48 @@
-# text = RT [USER]: Women online: "Hey guys why don't you just shut the fuck up and sit this century out?"
-# sent_id = 70842
+# text = RT : Women online: "Hey guys why don't you just shut the fuck up and sit this century out?"
+# sent_id = 68550
 1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
-3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=8|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=8|end_char=9|SpaceAfter=No
-5	:	:	PUNCT	:	_	4	_	_	start_char=9|end_char=10
-6	Women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=11|end_char=16
-7	online	online	ADV	RB	_	6	_	_	start_char=17|end_char=23|SpaceAfter=No
-8	:	:	PUNCT	:	_	7	_	_	start_char=23|end_char=24
-9	"	"	PUNCT	``	_	8	_	_	start_char=25|end_char=26|SpaceAfter=No
-10	Hey	hey	INTJ	UH	_	9	_	_	start_char=26|end_char=29
-11	guys	guy	NOUN	NNS	Number=Plur	10	_	_	start_char=30|end_char=34
-12	why	why	ADV	WRB	PronType=Int	11	_	_	start_char=35|end_char=38
-13-14	don't	_	_	_	_	_	_	_	start_char=39|end_char=44
-13	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	_	_	start_char=39|end_char=41
-14	n't	not	PART	RB	_	13	_	_	start_char=41|end_char=44
-15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	_	_	start_char=45|end_char=48
-16	just	just	ADV	RB	_	15	_	_	start_char=49|end_char=53
-17	shut	shut	VERB	VB	VerbForm=Inf	16	_	_	start_char=54|end_char=58
-18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=59|end_char=62
-19	fuck	fuck	NOUN	NN	Number=Sing	18	_	_	start_char=63|end_char=67
-20	up	up	ADP	RP	_	19	_	_	start_char=68|end_char=70
-21	and	and	CCONJ	CC	_	20	_	_	start_char=71|end_char=74
-22	sit	sit	VERB	VB	VerbForm=Inf	21	_	_	start_char=75|end_char=78
-23	this	this	DET	DT	Number=Sing|PronType=Dem	22	_	_	start_char=79|end_char=83
-24	century	century	NOUN	NN	Number=Sing	23	_	_	start_char=84|end_char=91
-25	out	out	ADP	RP	_	24	_	_	start_char=92|end_char=95|SpaceAfter=No
-26	?	?	PUNCT	.	_	25	_	_	start_char=95|end_char=96|SpaceAfter=No
-27	"	"	PUNCT	''	_	26	_	_	start_char=96|end_char=97
+2	:	:	PUNCT	:	_	1	_	_	start_char=3|end_char=4
+3	Women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=5|end_char=10
+4	online	online	ADV	RB	_	3	_	_	start_char=11|end_char=17|SpaceAfter=No
+5	:	:	PUNCT	:	_	4	_	_	start_char=17|end_char=18
+6	"	"	PUNCT	``	_	5	_	_	start_char=19|end_char=20|SpaceAfter=No
+7	Hey	hey	INTJ	UH	_	6	_	_	start_char=20|end_char=23
+8	guys	guy	NOUN	NNS	Number=Plur	7	_	_	start_char=24|end_char=28
+9	why	why	ADV	WRB	PronType=Int	8	_	_	start_char=29|end_char=32
+10-11	don't	_	_	_	_	_	_	_	start_char=33|end_char=38
+10	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	_	_	start_char=33|end_char=35
+11	n't	not	PART	RB	_	10	_	_	start_char=35|end_char=38
+12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=39|end_char=42
+13	just	just	ADV	RB	_	12	_	_	start_char=43|end_char=47
+14	shut	shut	VERB	VB	VerbForm=Inf	13	_	_	start_char=48|end_char=52
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=53|end_char=56
+16	fuck	fuck	NOUN	NN	Number=Sing	15	_	_	start_char=57|end_char=61
+17	up	up	ADP	RP	_	16	_	_	start_char=62|end_char=64
+18	and	and	CCONJ	CC	_	17	_	_	start_char=65|end_char=68
+19	sit	sit	VERB	VB	VerbForm=Inf	18	_	_	start_char=69|end_char=72
+20	this	this	DET	DT	Number=Sing|PronType=Dem	19	_	_	start_char=73|end_char=77
+21	century	century	NOUN	NN	Number=Sing	20	_	_	start_char=78|end_char=85
+22	out	out	ADP	RP	_	21	_	_	start_char=86|end_char=89|SpaceAfter=No
+23	?	?	PUNCT	.	_	22	_	_	start_char=89|end_char=90|SpaceAfter=No
+24	"	"	PUNCT	''	_	23	_	_	start_char=90|end_char=91
 
 # text = Also women online: "Hey guys why aren't you engaging with us?"
-# sent_id = 70843
-1	Also	also	ADV	RB	_	0	_	_	start_char=98|end_char=102
-2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=103|end_char=108
-3	online	online	ADV	RB	_	2	_	_	start_char=109|end_char=115|SpaceAfter=No
-4	:	:	PUNCT	:	_	3	_	_	start_char=115|end_char=116
-5	"	"	PUNCT	``	_	4	_	_	start_char=117|end_char=118|SpaceAfter=No
-6	Hey	hey	INTJ	UH	_	5	_	_	start_char=118|end_char=121
-7	guys	guy	NOUN	NNS	Number=Plur	6	_	_	start_char=122|end_char=126
-8	why	why	ADV	WRB	PronType=Int	7	_	_	start_char=127|end_char=130
-9-10	aren't	_	_	_	_	_	_	_	start_char=131|end_char=137
-9	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=131|end_char=134
-10	n't	not	PART	RB	_	9	_	_	start_char=134|end_char=137
-11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=138|end_char=141
-12	engaging	engage	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=142|end_char=150
-13	with	with	ADP	IN	_	12	_	_	start_char=151|end_char=155
-14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	_	_	start_char=156|end_char=158|SpaceAfter=No
-15	?	?	PUNCT	.	_	14	_	_	start_char=158|end_char=159|SpaceAfter=No
-16	"	"	PUNCT	''	_	15	_	_	start_char=159|end_char=160|SpaceAfter=No
+# sent_id = 68551
+1	Also	also	ADV	RB	_	0	_	_	start_char=92|end_char=96
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=97|end_char=102
+3	online	online	ADV	RB	_	2	_	_	start_char=103|end_char=109|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=109|end_char=110
+5	"	"	PUNCT	``	_	4	_	_	start_char=111|end_char=112|SpaceAfter=No
+6	Hey	hey	INTJ	UH	_	5	_	_	start_char=112|end_char=115
+7	guys	guy	NOUN	NNS	Number=Plur	6	_	_	start_char=116|end_char=120
+8	why	why	ADV	WRB	PronType=Int	7	_	_	start_char=121|end_char=124
+9-10	aren't	_	_	_	_	_	_	_	start_char=125|end_char=131
+9	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=125|end_char=128
+10	n't	not	PART	RB	_	9	_	_	start_char=128|end_char=131
+11	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	10	_	_	start_char=132|end_char=135
+12	engaging	engage	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=136|end_char=144
+13	with	with	ADP	IN	_	12	_	_	start_char=145|end_char=149
+14	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	13	_	_	start_char=150|end_char=152|SpaceAfter=No
+15	?	?	PUNCT	.	_	14	_	_	start_char=152|end_char=153|SpaceAfter=No
+16	"	"	PUNCT	''	_	15	_	_	start_char=153|end_char=154|SpaceAfter=No
 

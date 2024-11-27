@@ -1,56 +1,53 @@
-# text = [USER] can't believe it!
-# sent_id = 78342
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4-5	can't	_	_	_	_	_	_	_	start_char=7|end_char=12
-4	ca	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=7|end_char=9
-5	n't	not	PART	RB	_	4	_	_	start_char=9|end_char=12
-6	believe	believe	VERB	VB	VerbForm=Inf	5	_	_	start_char=13|end_char=20
-7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=21|end_char=23|SpaceAfter=No
-8	!	!	PUNCT	.	_	7	_	_	start_char=23|end_char=24
+# text = can't believe it!
+# sent_id = 75816
+1-2	can't	_	_	_	_	_	_	_	start_char=1|end_char=6|SpacesBefore=\s
+1	ca	can	AUX	MD	VerbForm=Fin	0	_	_	start_char=1|end_char=3
+2	n't	not	PART	RB	_	1	_	_	start_char=3|end_char=6
+3	believe	believe	VERB	VB	VerbForm=Inf	2	_	_	start_char=7|end_char=14
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=15|end_char=17|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=17|end_char=18
 
 # text = but then again is this coming from a female?
-# sent_id = 78343
-1	but	but	CCONJ	CC	_	0	_	_	start_char=25|end_char=28
-2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=29|end_char=33
-3	again	again	ADV	RB	_	2	_	_	start_char=34|end_char=39
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=40|end_char=42
-5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=43|end_char=47
-6	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=48|end_char=54
-7	from	from	ADP	IN	_	6	_	_	start_char=55|end_char=59
-8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=60|end_char=61
-9	female	female	NOUN	NN	Number=Sing	8	_	_	start_char=62|end_char=68|SpaceAfter=No
-10	?	?	PUNCT	.	_	9	_	_	start_char=68|end_char=69
+# sent_id = 75817
+1	but	but	CCONJ	CC	_	0	_	_	start_char=19|end_char=22
+2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=23|end_char=27
+3	again	again	ADV	RB	_	2	_	_	start_char=28|end_char=33
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=34|end_char=36
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=37|end_char=41
+6	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=42|end_char=48
+7	from	from	ADP	IN	_	6	_	_	start_char=49|end_char=53
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=54|end_char=55
+9	female	female	NOUN	NN	Number=Sing	8	_	_	start_char=56|end_char=62|SpaceAfter=No
+10	?	?	PUNCT	.	_	9	_	_	start_char=62|end_char=63
 
 # text = yea that's believable I don't understand how they can even have fat cops I mean seriously what Roling donut they going to catch.
-# sent_id = 78344
-1	yea	yea	INTJ	UH	_	0	_	_	start_char=70|end_char=73
-2-3	that's	_	_	_	_	_	_	_	start_char=74|end_char=80
-2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=74|end_char=78
-3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=78|end_char=80
-4	believable	believable	ADJ	JJ	Degree=Pos	3	_	_	start_char=81|end_char=91
-5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=92|end_char=93
-6-7	don't	_	_	_	_	_	_	_	start_char=94|end_char=99
-6	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=94|end_char=96
-7	n't	not	PART	RB	_	6	_	_	start_char=96|end_char=99
-8	understand	understand	VERB	VB	VerbForm=Inf	7	_	_	start_char=100|end_char=110
-9	how	how	ADV	WRB	PronType=Int	8	_	_	start_char=111|end_char=114
-10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=115|end_char=119
-11	can	can	AUX	MD	VerbForm=Fin	10	_	_	start_char=120|end_char=123
-12	even	even	ADV	RB	_	11	_	_	start_char=124|end_char=128
-13	have	have	VERB	VB	VerbForm=Inf	12	_	_	start_char=129|end_char=133
-14	fat	fat	ADJ	JJ	Degree=Pos	13	_	_	start_char=134|end_char=137
-15	cops	cop	NOUN	NNS	Number=Plur	14	_	_	start_char=138|end_char=142
-16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=143|end_char=144
-17	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	_	_	start_char=145|end_char=149
-18	seriously	seriously	ADV	RB	_	17	_	_	start_char=150|end_char=159
-19	what	what	PRON	WP	PronType=Rel	18	_	_	start_char=160|end_char=164
-20	Roling	Roling	PROPN	NNP	Number=Sing	19	_	_	start_char=165|end_char=171
-21	donut	donut	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=172|end_char=177
-22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	_	_	start_char=178|end_char=182
-23	going	go	VERB	VBG	Tense=Pres|VerbForm=Ger	22	_	_	start_char=183|end_char=188
-24	to	to	PART	TO	_	23	_	_	start_char=189|end_char=191
-25	catch	catch	VERB	VB	VerbForm=Inf	24	_	_	start_char=192|end_char=197|SpaceAfter=No
-26	.	.	PUNCT	.	_	25	_	_	start_char=197|end_char=198|SpaceAfter=No
+# sent_id = 75818
+1	yea	yea	INTJ	UH	_	0	_	_	start_char=64|end_char=67
+2-3	that's	_	_	_	_	_	_	_	start_char=68|end_char=74
+2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=68|end_char=72
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=72|end_char=74
+4	believable	believable	ADJ	JJ	Degree=Pos	3	_	_	start_char=75|end_char=85
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=86|end_char=87
+6-7	don't	_	_	_	_	_	_	_	start_char=88|end_char=93
+6	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=88|end_char=90
+7	n't	not	PART	RB	_	6	_	_	start_char=90|end_char=93
+8	understand	understand	VERB	VB	VerbForm=Inf	7	_	_	start_char=94|end_char=104
+9	how	how	ADV	WRB	PronType=Int	8	_	_	start_char=105|end_char=108
+10	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	9	_	_	start_char=109|end_char=113
+11	can	can	AUX	MD	VerbForm=Fin	10	_	_	start_char=114|end_char=117
+12	even	even	ADV	RB	_	11	_	_	start_char=118|end_char=122
+13	have	have	VERB	VB	VerbForm=Inf	12	_	_	start_char=123|end_char=127
+14	fat	fat	ADJ	JJ	Degree=Pos	13	_	_	start_char=128|end_char=131
+15	cops	cop	NOUN	NNS	Number=Plur	14	_	_	start_char=132|end_char=136
+16	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	_	_	start_char=137|end_char=138
+17	mean	mean	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	16	_	_	start_char=139|end_char=143
+18	seriously	seriously	ADV	RB	_	17	_	_	start_char=144|end_char=153
+19	what	what	PRON	WP	PronType=Rel	18	_	_	start_char=154|end_char=158
+20	Roling	Roling	PROPN	NNP	Number=Sing	19	_	_	start_char=159|end_char=165
+21	donut	donut	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	_	_	start_char=166|end_char=171
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	_	_	start_char=172|end_char=176
+23	going	go	VERB	VBG	Tense=Pres|VerbForm=Ger	22	_	_	start_char=177|end_char=182
+24	to	to	PART	TO	_	23	_	_	start_char=183|end_char=185
+25	catch	catch	VERB	VB	VerbForm=Inf	24	_	_	start_char=186|end_char=191|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=191|end_char=192|SpaceAfter=No
 

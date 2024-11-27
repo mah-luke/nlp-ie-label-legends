@@ -1,10 +1,10 @@
 # text = Pfft.
-# sent_id = 100822
+# sent_id = 97506
 1	Pfft	pfft	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	_	_	start_char=4|end_char=5
 
 # text = You know nothing about me.
-# sent_id = 100823
+# sent_id = 97507
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=6|end_char=9
 2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=14
 3	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	2	_	_	start_char=15|end_char=22
@@ -13,7 +13,7 @@
 6	.	.	PUNCT	.	_	5	_	_	start_char=31|end_char=32
 
 # text = That you're still ignoring facts and extrapolating shit only makes you seem more of a fuckwit.
-# sent_id = 100824
+# sent_id = 97508
 1	That	that	SCONJ	IN	_	0	_	_	start_char=33|end_char=37
 2-3	you're	_	_	_	_	_	_	_	start_char=38|end_char=44
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=38|end_char=41
@@ -33,10 +33,4 @@
 16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=117|end_char=118
 17	fuckwit	fuckwit	NOUN	NN	Number=Sing	16	_	_	start_char=119|end_char=126|SpaceAfter=No
 18	.	.	PUNCT	.	_	17	_	_	start_char=126|end_char=127
-
-# text = [USER]
-# sent_id = 100825
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=128|end_char=129|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=129|end_char=133|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=133|end_char=134|SpaceAfter=No
 

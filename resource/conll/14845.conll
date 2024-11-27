@@ -1,5 +1,5 @@
 # text = Here is my open letter to her.
-# sent_id = 31686
+# sent_id = 30651
 1	Here	here	ADV	RB	PronType=Dem	0	_	_	start_char=0|end_char=4
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
 3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=8|end_char=10
@@ -10,18 +10,16 @@
 8	.	.	PUNCT	.	_	7	_	_	start_char=29|end_char=30
 
 # text = Fuck off.
-# sent_id = 31687
+# sent_id = 30652
 1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=31|end_char=35
 2	off	off	ADP	RP	_	1	_	_	start_char=36|end_char=39|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	_	_	start_char=39|end_char=40
 
-# text = The End. [URL] #Manchester
-# sent_id = 31688
+# text = The End. #Manchester
+# sent_id = 30653
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=41|end_char=44
-2	End.	End.	PROPN	NNP	Number=Sing	1	_	_	start_char=45|end_char=49
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=50|end_char=51|SpaceAfter=No
-4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=51|end_char=54|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=54|end_char=55
-6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=56|end_char=57|SpaceAfter=No
-7	Manchester	Manchester	PROPN	NNP	Number=Sing	6	_	_	start_char=57|end_char=67|SpaceAfter=No
+2	End	end	NOUN	NN	Number=Sing	1	_	_	start_char=45|end_char=48|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=48|end_char=49|SpacesAfter=\s\s
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=51|end_char=52|SpaceAfter=No
+5	Manchester	Manchester	PROPN	NNP	Number=Sing	4	_	_	start_char=52|end_char=62|SpaceAfter=No
 

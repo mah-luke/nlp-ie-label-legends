@@ -1,17 +1,14 @@
 # text = Teach teachers not to rape.
-# sent_id = 117228
+# sent_id = 113418
 1	Teach	teach	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=5
 2	teachers	teacher	NOUN	NNS	Number=Plur	1	_	_	start_char=6|end_char=14
 3	not	not	PART	RB	_	2	_	_	start_char=15|end_char=18
 4	to	to	PART	TO	_	3	_	_	start_char=19|end_char=21
 5	rape	rape	VERB	VB	VerbForm=Inf	4	_	_	start_char=22|end_char=26|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=26|end_char=27
+6	.	.	PUNCT	.	_	5	_	_	start_char=26|end_char=27|SpacesAfter=\s\s
 
-# text = [URL] #Rape
-# sent_id = 117229
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=28|end_char=29|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=29|end_char=32|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=32|end_char=33
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=34|end_char=35|SpaceAfter=No
-5	Rape	rape	NOUN	NN	Number=Sing	4	_	_	start_char=35|end_char=39|SpaceAfter=No
+# text = #Rape
+# sent_id = 113419
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=29|end_char=30|SpaceAfter=No
+2	Rape	rape	NOUN	NN	Number=Sing	1	_	_	start_char=30|end_char=34|SpaceAfter=No
 

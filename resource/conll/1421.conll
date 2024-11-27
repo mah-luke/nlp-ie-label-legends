@@ -1,5 +1,5 @@
-# text = .. Apparently it's not the only case, and in this one, it's hard to know which dog it was because she said her other dog's licked it... [URL]
-# sent_id = 2972
+# text = .. Apparently it's not the only case, and in this one, it's hard to know which dog it was because she said her other dog's licked it...
+# sent_id = 2897
 1	..	..	PUNCT	,	_	0	_	_	start_char=0|end_char=2
 2	Apparently	apparently	ADV	RB	_	1	_	_	start_char=3|end_char=13
 3-4	it's	_	_	_	_	_	_	_	start_char=14|end_char=18
@@ -33,10 +33,7 @@
 29-30	dog's	_	_	_	_	_	_	_	start_char=117|end_char=122
 29	dog	dog	NOUN	NN	Number=Sing	28	_	_	start_char=117|end_char=120
 30	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	_	_	start_char=120|end_char=122
-31	licked	lick	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	_	_	start_char=123|end_char=129
+31	licked	lick	VERB	VBN	Tense=Past|VerbForm=Part	30	_	_	start_char=123|end_char=129
 32	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	31	_	_	start_char=130|end_char=132|SpaceAfter=No
-33	...	...	PUNCT	,	_	32	_	_	start_char=132|end_char=135
-34	[	[	PUNCT	-LRB-	_	33	_	_	start_char=136|end_char=137|SpaceAfter=No
-35	URL	URL	PROPN	NNP	Number=Sing	34	_	_	start_char=137|end_char=140|SpaceAfter=No
-36	]	]	PUNCT	-RRB-	_	35	_	_	start_char=140|end_char=141|SpaceAfter=No
+33	...	...	PUNCT	.	_	32	_	_	start_char=132|end_char=135
 

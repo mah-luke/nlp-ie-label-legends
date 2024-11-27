@@ -1,5 +1,5 @@
 # text = I believe Bush Sr. signed it into law.
-# sent_id = 121366
+# sent_id = 117457
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
 2	believe	believe	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=9
 3	Bush	Bush	PROPN	NNP	Number=Sing	2	_	_	start_char=10|end_char=14
@@ -11,7 +11,7 @@
 9	.	.	PUNCT	.	_	8	_	_	start_char=37|end_char=38
 
 # text = Shit program from the beginning.
-# sent_id = 121367
+# sent_id = 117458
 1	Shit	shit	NOUN	NN	Number=Sing	0	_	_	start_char=39|end_char=43
 2	program	program	NOUN	NN	Number=Sing	1	_	_	start_char=44|end_char=51
 3	from	from	ADP	IN	_	2	_	_	start_char=52|end_char=56
@@ -20,7 +20,7 @@
 6	.	.	PUNCT	.	_	5	_	_	start_char=70|end_char=71
 
 # text = 50,000 lottery tickets, BUT the lottery winner and his/her family ALL get green cards ... 50,000 my ass.
-# sent_id = 121368
+# sent_id = 117459
 1	50,000	50000	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=72|end_char=78
 2	lottery	lottery	NOUN	NN	Number=Sing	1	_	_	start_char=79|end_char=86
 3	tickets	ticket	NOUN	NNS	Number=Plur	2	_	_	start_char=87|end_char=94|SpaceAfter=No
@@ -44,13 +44,10 @@
 21	ass	ass	NOUN	NN	Number=Sing	20	_	_	start_char=172|end_char=175|SpaceAfter=No
 22	.	.	PUNCT	.	_	21	_	_	start_char=175|end_char=176
 
-# text = Check this out: [URL]
-# sent_id = 121369
+# text = Check this out:
+# sent_id = 117460
 1	Check	check	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=177|end_char=182
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=183|end_char=187
 3	out	out	ADP	RP	_	2	_	_	start_char=188|end_char=191|SpaceAfter=No
 4	:	:	PUNCT	:	_	3	_	_	start_char=191|end_char=192
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=193|end_char=194|SpaceAfter=No
-6	URL	URL	PROPN	NNP	Number=Sing	5	_	_	start_char=194|end_char=197|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=197|end_char=198|SpaceAfter=No
 

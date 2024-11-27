@@ -1,5 +1,5 @@
 # text = The freakin' citadel has accepted a muslim woman who wants to force them to let her wear her hijab.
-# sent_id = 110720
+# sent_id = 107108
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
 2	freakin'	freakin'	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=12
 3	citadel	citadel	NOUN	NN	Number=Sing	2	_	_	start_char=13|end_char=20
@@ -19,13 +19,11 @@
 17	wear	wear	VERB	VB	VerbForm=Inf	16	_	_	start_char=84|end_char=88
 18	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	17	_	_	start_char=89|end_char=92
 19	hijab	hijab	NOUN	NN	Number=Sing	18	_	_	start_char=93|end_char=98|SpaceAfter=No
-20	.	.	PUNCT	.	_	19	_	_	start_char=98|end_char=99
+20	.	.	PUNCT	.	_	19	_	_	start_char=98|end_char=99|SpacesAfter=\s\s
 
-# text = [URL] #MAGA#BanIslam
-# sent_id = 110721
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=100|end_char=101|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=101|end_char=104|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=104|end_char=105
-4	#MAGA	#MAGA	PROPN	NNP	Number=Sing	3	_	_	start_char=106|end_char=111|SpaceAfter=No
-5	#BanIslam	#BanIslam	PROPN	NNP	Number=Sing	4	_	_	start_char=111|end_char=120|SpaceAfter=No
+# text = #MAGA#BanIslam
+# sent_id = 107109
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=101|end_char=102|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=102|end_char=106|SpaceAfter=No
+3	#BanIslam	#banislam	X	ADD	_	2	_	_	start_char=106|end_char=115|SpaceAfter=No
 

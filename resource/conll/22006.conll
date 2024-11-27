@@ -1,12 +1,12 @@
 # text = Blah Blah Blah...
-# sent_id = 47276
+# sent_id = 45715
 1	Blah	blah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
 2	Blah	blah	INTJ	UH	_	1	_	_	start_char=5|end_char=9
 3	Blah	blah	INTJ	UH	_	2	_	_	start_char=10|end_char=14|SpaceAfter=No
 4	...	...	PUNCT	.	_	3	_	_	start_char=14|end_char=17
 
 # text = The media fawned over the old , dryed up hag, who can't even stand up without falling over.
-# sent_id = 47277
+# sent_id = 45716
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=18|end_char=21
 2	media	media	NOUN	NN	Number=Sing	1	_	_	start_char=22|end_char=27
 3	fawned	fawn	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=28|end_char=34
@@ -31,7 +31,7 @@
 21	.	.	PUNCT	.	_	20	_	_	start_char=108|end_char=109
 
 # text = NO CHANCE Trump can win....
-# sent_id = 47278
+# sent_id = 45717
 1	NO	no	DET	DT	_	0	_	_	start_char=110|end_char=112
 2	CHANCE	chance	NOUN	NN	Number=Sing	1	_	_	start_char=113|end_char=119
 3	Trump	Trump	PROPN	NNP	Number=Sing	2	_	_	start_char=120|end_char=125
@@ -40,7 +40,7 @@
 6	....	....	PUNCT	.	_	5	_	_	start_char=133|end_char=137
 
 # text = Don't buy the BETO BS.
-# sent_id = 47279
+# sent_id = 45718
 1-2	Don't	_	_	_	_	_	_	_	start_char=138|end_char=143
 1	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=138|end_char=140
 2	n't	not	PART	RB	_	1	_	_	start_char=140|end_char=143
@@ -49,10 +49,4 @@
 5	BETO	BETO	PROPN	NNP	Number=Sing	4	_	_	start_char=152|end_char=156
 6	BS	bs	NOUN	NN	Number=Sing	5	_	_	start_char=157|end_char=159|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	_	_	start_char=159|end_char=160
-
-# text = [URL]
-# sent_id = 47280
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=161|end_char=162|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=162|end_char=165|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=165|end_char=166|SpaceAfter=No
 

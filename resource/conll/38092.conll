@@ -1,9 +1,9 @@
 # text = Yeah
-# sent_id = 81456
+# sent_id = 78825
 1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
 
 # text = Im sure people bashing Ghostbusters 2016 had nothing to do with the fact that it was a terrible movie.
-# sent_id = 81457
+# sent_id = 78826
 1-2	Im	_	_	_	_	_	_	_	start_char=5|end_char=7
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=5|end_char=6
 2	m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=7
@@ -27,8 +27,8 @@
 20	movie	movie	NOUN	NN	Number=Sing	19	_	_	start_char=101|end_char=106|SpaceAfter=No
 21	.	.	PUNCT	.	_	20	_	_	start_char=106|end_char=107
 
-# text = Also funny how Wonder Woman was well received by both male and female audiences #hmmm [URL]
-# sent_id = 81458
+# text = Also funny how Wonder Woman was well received by both male and female audiences #hmmm
+# sent_id = 78827
 1	Also	also	ADV	RB	_	0	_	_	start_char=108|end_char=112
 2	funny	funny	ADJ	JJ	Degree=Pos	1	_	_	start_char=113|end_char=118
 3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=119|end_char=122
@@ -43,8 +43,5 @@
 12	and	and	CCONJ	CC	_	11	_	_	start_char=167|end_char=170
 13	female	female	ADJ	JJ	Degree=Pos	12	_	_	start_char=171|end_char=177
 14	audiences	audience	NOUN	NNS	Number=Plur	13	_	_	start_char=178|end_char=187
-15	#hmmm	#hmmm	PROPN	NNP	Number=Sing	14	_	_	start_char=188|end_char=193
-16	[	[	PUNCT	-LRB-	_	15	_	_	start_char=194|end_char=195|SpaceAfter=No
-17	URL	URL	PROPN	NNP	Number=Sing	16	_	_	start_char=195|end_char=198|SpaceAfter=No
-18	]	]	PUNCT	-RRB-	_	17	_	_	start_char=198|end_char=199|SpaceAfter=No
+15	#hmmm	#hm	INTJ	UH	_	14	_	_	start_char=188|end_char=193
 

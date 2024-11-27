@@ -1,5 +1,5 @@
 # text = I don't get this.
-# sent_id = 115089
+# sent_id = 111345
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
 2-3	don't	_	_	_	_	_	_	_	start_char=2|end_char=7
 2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
@@ -9,7 +9,7 @@
 6	.	.	PUNCT	.	_	5	_	_	start_char=16|end_char=17
 
 # text = Performing oral sex on a women is low risk for the guy.
-# sent_id = 115090
+# sent_id = 111346
 1	Performing	perform	VERB	VBG	VerbForm=Ger	0	_	_	start_char=18|end_char=28
 2	oral	oral	ADJ	JJ	Degree=Pos	1	_	_	start_char=29|end_char=33
 3	sex	sex	NOUN	NN	Number=Sing	2	_	_	start_char=34|end_char=37
@@ -22,51 +22,45 @@
 10	for	for	ADP	IN	_	9	_	_	start_char=61|end_char=64
 11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=65|end_char=68
 12	guy	guy	NOUN	NN	Number=Sing	11	_	_	start_char=69|end_char=72|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=72|end_char=73
-
-# text = [URL]
-# sent_id = 115091
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=74|end_char=75|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=75|end_char=78|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=78|end_char=79
+13	.	.	PUNCT	.	_	12	_	_	start_char=72|end_char=73|SpacesAfter=\s\s
 
 # text = It's actually probably the safest sexual act a man can perform on a women.
-# sent_id = 115092
-1-2	It's	_	_	_	_	_	_	_	start_char=80|end_char=84
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=80|end_char=82
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=82|end_char=84
-3	actually	actually	ADV	RB	_	2	_	_	start_char=85|end_char=93
-4	probably	probably	ADV	RB	_	3	_	_	start_char=94|end_char=102
-5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=103|end_char=106
-6	safest	safe	ADJ	JJS	Degree=Sup	5	_	_	start_char=107|end_char=113
-7	sexual	sexual	ADJ	JJ	Degree=Pos	6	_	_	start_char=114|end_char=120
-8	act	act	NOUN	NN	Number=Sing	7	_	_	start_char=121|end_char=124
-9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=125|end_char=126
-10	man	man	NOUN	NN	Number=Sing	9	_	_	start_char=127|end_char=130
-11	can	can	AUX	MD	VerbForm=Fin	10	_	_	start_char=131|end_char=134
-12	perform	perform	VERB	VB	VerbForm=Inf	11	_	_	start_char=135|end_char=142
-13	on	on	ADP	IN	_	12	_	_	start_char=143|end_char=145
-14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=146|end_char=147
-15	women	woman	NOUN	NNS	Number=Plur	14	_	_	start_char=148|end_char=153|SpaceAfter=No
-16	.	.	PUNCT	.	_	15	_	_	start_char=153|end_char=154
+# sent_id = 111347
+1-2	It's	_	_	_	_	_	_	_	start_char=75|end_char=79
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=75|end_char=77
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=77|end_char=79
+3	actually	actually	ADV	RB	_	2	_	_	start_char=80|end_char=88
+4	probably	probably	ADV	RB	_	3	_	_	start_char=89|end_char=97
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=98|end_char=101
+6	safest	safe	ADJ	JJS	Degree=Sup	5	_	_	start_char=102|end_char=108
+7	sexual	sexual	ADJ	JJ	Degree=Pos	6	_	_	start_char=109|end_char=115
+8	act	act	NOUN	NN	Number=Sing	7	_	_	start_char=116|end_char=119
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=120|end_char=121
+10	man	man	NOUN	NN	Number=Sing	9	_	_	start_char=122|end_char=125
+11	can	can	AUX	MD	VerbForm=Fin	10	_	_	start_char=126|end_char=129
+12	perform	perform	VERB	VB	VerbForm=Inf	11	_	_	start_char=130|end_char=137
+13	on	on	ADP	IN	_	12	_	_	start_char=138|end_char=140
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=141|end_char=142
+15	women	woman	NOUN	NNS	Number=Plur	14	_	_	start_char=143|end_char=148|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=148|end_char=149
 
 # text = If anything, go down on her more and be careful when shoving your dick in.
-# sent_id = 115093
-1	If	if	SCONJ	IN	_	0	_	_	start_char=155|end_char=157
-2	anything	anything	PRON	NN	Number=Sing|PronType=Ind	1	_	_	start_char=158|end_char=166|SpaceAfter=No
-3	,	,	PUNCT	,	_	2	_	_	start_char=166|end_char=167
-4	go	go	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	3	_	_	start_char=168|end_char=170
-5	down	down	ADV	RB	_	4	_	_	start_char=171|end_char=175
-6	on	on	ADP	IN	_	5	_	_	start_char=176|end_char=178
-7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=179|end_char=182
-8	more	more	ADV	RBR	Degree=Cmp	7	_	_	start_char=183|end_char=187
-9	and	and	CCONJ	CC	_	8	_	_	start_char=188|end_char=191
-10	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=192|end_char=194
-11	careful	careful	ADJ	JJ	Degree=Pos	10	_	_	start_char=195|end_char=202
-12	when	when	ADV	WRB	PronType=Int	11	_	_	start_char=203|end_char=207
-13	shoving	shove	VERB	VBG	VerbForm=Ger	12	_	_	start_char=208|end_char=215
-14	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	13	_	_	start_char=216|end_char=220
-15	dick	dick	NOUN	NN	Number=Sing	14	_	_	start_char=221|end_char=225
-16	in	in	ADV	RB	_	15	_	_	start_char=226|end_char=228|SpaceAfter=No
-17	.	.	PUNCT	.	_	16	_	_	start_char=228|end_char=229|SpaceAfter=No
+# sent_id = 111348
+1	If	if	SCONJ	IN	_	0	_	_	start_char=150|end_char=152
+2	anything	anything	PRON	NN	Number=Sing|PronType=Ind	1	_	_	start_char=153|end_char=161|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=161|end_char=162
+4	go	go	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	3	_	_	start_char=163|end_char=165
+5	down	down	ADV	RB	_	4	_	_	start_char=166|end_char=170
+6	on	on	ADP	IN	_	5	_	_	start_char=171|end_char=173
+7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=174|end_char=177
+8	more	more	ADV	RBR	Degree=Cmp	7	_	_	start_char=178|end_char=182
+9	and	and	CCONJ	CC	_	8	_	_	start_char=183|end_char=186
+10	be	be	AUX	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=187|end_char=189
+11	careful	careful	ADJ	JJ	Degree=Pos	10	_	_	start_char=190|end_char=197
+12	when	when	ADV	WRB	PronType=Int	11	_	_	start_char=198|end_char=202
+13	shoving	shove	VERB	VBG	VerbForm=Ger	12	_	_	start_char=203|end_char=210
+14	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	13	_	_	start_char=211|end_char=215
+15	dick	dick	NOUN	NN	Number=Sing	14	_	_	start_char=216|end_char=220
+16	in	in	ADV	RB	_	15	_	_	start_char=221|end_char=223|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=223|end_char=224|SpaceAfter=No
 

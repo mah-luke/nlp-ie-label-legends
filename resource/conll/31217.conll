@@ -1,5 +1,5 @@
 # text = Woman lives as a man for 18 months.
-# sent_id = 66912
+# sent_id = 64777
 1	Woman	woman	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5
 2	lives	live	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=11
 3	as	as	ADP	IN	_	2	_	_	start_char=12|end_char=14
@@ -11,7 +11,7 @@
 9	.	.	PUNCT	.	_	8	_	_	start_char=34|end_char=35
 
 # text = Concludes "men are suffering," "don't have it better," and that being a woman is "a privilege" I'm sure G00gle will remove the video now!
-# sent_id = 66913
+# sent_id = 64778
 1	Concludes	conclude	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=36|end_char=45
 2	"	"	PUNCT	``	_	1	_	_	start_char=46|end_char=47|SpaceAfter=No
 3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=47|end_char=50
@@ -49,10 +49,4 @@
 33	video	video	NOUN	NN	Number=Sing	32	_	_	start_char=163|end_char=168
 34	now	now	ADV	RB	_	33	_	_	start_char=169|end_char=172|SpaceAfter=No
 35	!	!	PUNCT	.	_	34	_	_	start_char=172|end_char=173
-
-# text = [URL]
-# sent_id = 66914
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=174|end_char=175|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=175|end_char=178|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=178|end_char=179|SpaceAfter=No
 

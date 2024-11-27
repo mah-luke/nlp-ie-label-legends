@@ -1,7 +1,7 @@
-# text = Man charged over death of female pedestrian struck by a car at Wolli Creek yesterday [URL] #DrunkDriver #PissHead #Killer
-# sent_id = 45274
+# text = Man charged over death of female pedestrian struck by a car at Wolli Creek yesterday #DrunkDriver #PissHead #Killer
+# sent_id = 43750
 1	Man	man	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3
-2	charged	charge	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=11
+2	charged	charge	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=4|end_char=11
 3	over	over	ADP	IN	_	2	_	_	start_char=12|end_char=16
 4	death	death	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=22
 5	of	of	ADP	IN	_	4	_	_	start_char=23|end_char=25
@@ -14,14 +14,11 @@
 12	at	at	ADP	IN	_	11	_	_	start_char=60|end_char=62
 13	Wolli	Wolli	PROPN	NNP	Number=Sing	12	_	_	start_char=63|end_char=68
 14	Creek	Creek	PROPN	NNP	Number=Sing	13	_	_	start_char=69|end_char=74
-15	yesterday	yesterday	NOUN	NN	Number=Sing	14	_	_	start_char=75|end_char=84
-16	[	[	PUNCT	-LRB-	_	15	_	_	start_char=85|end_char=86|SpaceAfter=No
-17	URL	URL	PROPN	NNP	Number=Sing	16	_	_	start_char=86|end_char=89|SpaceAfter=No
-18	]	]	PUNCT	-RRB-	_	17	_	_	start_char=89|end_char=90
-19	#	#	SYM	NN	Number=Sing	18	_	_	start_char=91|end_char=92|SpaceAfter=No
-20	DrunkDriver	DrunkDriver	PROPN	NNP	Number=Sing	19	_	_	start_char=92|end_char=103
-21	#	#	SYM	NN	Number=Sing	20	_	_	start_char=104|end_char=105|SpaceAfter=No
-22	PissHead	PissHead	PROPN	NNP	Number=Sing	21	_	_	start_char=105|end_char=113
-23	#	#	SYM	NN	Number=Sing	22	_	_	start_char=114|end_char=115|SpaceAfter=No
-24	Killer	Killer	PROPN	NNP	Number=Sing	23	_	_	start_char=115|end_char=121|SpaceAfter=No
+15	yesterday	yesterday	NOUN	NN	Number=Sing	14	_	_	start_char=75|end_char=84|SpacesAfter=\s\s
+16	#	#	SYM	NN	Number=Sing	15	_	_	start_char=86|end_char=87|SpaceAfter=No
+17	DrunkDriver	DrunkDriver	PROPN	NNP	Number=Sing	16	_	_	start_char=87|end_char=98
+18	#	#	SYM	NN	Number=Sing	17	_	_	start_char=99|end_char=100|SpaceAfter=No
+19	PissHead	PissHead	PROPN	NNP	Number=Sing	18	_	_	start_char=100|end_char=108
+20	#	#	SYM	NN	Number=Sing	19	_	_	start_char=109|end_char=110|SpaceAfter=No
+21	Killer	Killer	PROPN	NNP	Number=Sing	20	_	_	start_char=110|end_char=116|SpaceAfter=No
 

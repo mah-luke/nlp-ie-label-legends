@@ -1,5 +1,5 @@
 # text = Peter Peacock's sperm donation was meant to be anonymous.
-# sent_id = 107670
+# sent_id = 104138
 1	Peter	Peter	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
 2-3	Peacock's	_	_	_	_	_	_	_	start_char=6|end_char=15
 2	Peacock	Peacock	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=13
@@ -14,7 +14,7 @@
 11	.	.	PUNCT	.	_	10	_	_	start_char=56|end_char=57
 
 # text = Decades later, an Australian law erased his anonymity and brought him a daughter.
-# sent_id = 107671
+# sent_id = 104139
 1	Decades	decade	NOUN	NNS	Number=Plur	0	_	_	start_char=58|end_char=65
 2	later	late	ADV	RBR	Degree=Cmp	1	_	_	start_char=66|end_char=71|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	_	_	start_char=71|end_char=72
@@ -29,17 +29,5 @@
 12	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=124|end_char=127
 13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=128|end_char=129
 14	daughter	daughter	NOUN	NN	Number=Sing	13	_	_	start_char=130|end_char=138|SpaceAfter=No
-15	.	.	PUNCT	.	_	14	_	_	start_char=138|end_char=139
-
-# text = [URL] [URL] [URL]
-# sent_id = 107672
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=140|end_char=141|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=141|end_char=144|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=144|end_char=145
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=146|end_char=147|SpaceAfter=No
-5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=147|end_char=150|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=150|end_char=151
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=152|end_char=153|SpaceAfter=No
-8	URL	URL	PROPN	NNP	Number=Sing	7	_	_	start_char=153|end_char=156|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=156|end_char=157|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=138|end_char=139|SpacesAfter=\s\s\s
 

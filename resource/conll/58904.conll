@@ -1,5 +1,5 @@
 # text = And then there's this...
-# sent_id = 125763
+# sent_id = 121717
 1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
 2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=4|end_char=8
 3-4	there's	_	_	_	_	_	_	_	start_char=9|end_char=16
@@ -9,7 +9,7 @@
 6	...	...	PUNCT	.	_	5	_	_	start_char=21|end_char=24
 
 # text = How she made six figure salaries from the govt to "help the little guy" -- what an unethical farce.
-# sent_id = 125764
+# sent_id = 121718
 1	How	how	ADV	WRB	PronType=Int	0	_	_	start_char=25|end_char=28
 2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=29|end_char=32
 3	made	make	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=33|end_char=37
@@ -32,10 +32,4 @@
 20	unethical	unethical	ADJ	JJ	Degree=Pos	19	_	_	start_char=108|end_char=117
 21	farce	farce	NOUN	NN	Number=Sing	20	_	_	start_char=118|end_char=123|SpaceAfter=No
 22	.	.	PUNCT	.	_	21	_	_	start_char=123|end_char=124
-
-# text = [URL]
-# sent_id = 125765
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=125|end_char=126|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=126|end_char=129|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=129|end_char=130|SpaceAfter=No
 

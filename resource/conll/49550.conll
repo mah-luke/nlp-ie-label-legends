@@ -1,32 +1,26 @@
-# text = [USER]
-# sent_id = 105940
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = This dirty lying rotten scumbag wants Comey to resign..I would like him to stay long enough to testify for himself...
-# sent_id = 105941
-1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=7|end_char=11
-2	dirty	dirty	ADJ	JJ	Degree=Pos	1	_	_	start_char=12|end_char=17
-3	lying	lying	NOUN	NN	Number=Sing	2	_	_	start_char=18|end_char=23
-4	rotten	rotten	ADJ	JJ	Degree=Pos	3	_	_	start_char=24|end_char=30
-5	scumbag	scumbag	NOUN	NN	Number=Sing	4	_	_	start_char=31|end_char=38
-6	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=39|end_char=44
-7	Comey	Comey	PROPN	NNP	Number=Sing	6	_	_	start_char=45|end_char=50
-8	to	to	PART	TO	_	7	_	_	start_char=51|end_char=53
-9	resign	resign	VERB	VB	VerbForm=Inf	8	_	_	start_char=54|end_char=60|SpaceAfter=No
-10	..	..	PUNCT	,	_	9	_	_	start_char=60|end_char=62|SpaceAfter=No
-11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=62|end_char=63
-12	would	would	AUX	MD	VerbForm=Fin	11	_	_	start_char=64|end_char=69
-13	like	like	VERB	VB	VerbForm=Inf	12	_	_	start_char=70|end_char=74
-14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=75|end_char=78
-15	to	to	PART	TO	_	14	_	_	start_char=79|end_char=81
-16	stay	stay	VERB	VB	VerbForm=Inf	15	_	_	start_char=82|end_char=86
-17	long	long	ADV	RB	Degree=Pos	16	_	_	start_char=87|end_char=91
-18	enough	enough	ADV	RB	_	17	_	_	start_char=92|end_char=98
-19	to	to	PART	TO	_	18	_	_	start_char=99|end_char=101
-20	testify	testify	VERB	VB	VerbForm=Inf	19	_	_	start_char=102|end_char=109
-21	for	for	ADP	IN	_	20	_	_	start_char=110|end_char=113
-22	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	21	_	_	start_char=114|end_char=121|SpaceAfter=No
-23	...	...	PUNCT	.	_	22	_	_	start_char=121|end_char=124|SpaceAfter=No
+# sent_id = 102467
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	dirty	dirty	ADJ	JJ	Degree=Pos	1	_	_	start_char=6|end_char=11
+3	lying	lying	NOUN	NN	Number=Sing	2	_	_	start_char=12|end_char=17
+4	rotten	rotten	ADJ	JJ	Degree=Pos	3	_	_	start_char=18|end_char=24
+5	scumbag	scumbag	NOUN	NN	Number=Sing	4	_	_	start_char=25|end_char=32
+6	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=33|end_char=38
+7	Comey	Comey	PROPN	NNP	Number=Sing	6	_	_	start_char=39|end_char=44
+8	to	to	PART	TO	_	7	_	_	start_char=45|end_char=47
+9	resign	resign	VERB	VB	VerbForm=Inf	8	_	_	start_char=48|end_char=54|SpaceAfter=No
+10	..	..	PUNCT	,	_	9	_	_	start_char=54|end_char=56|SpaceAfter=No
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=56|end_char=57
+12	would	would	AUX	MD	VerbForm=Fin	11	_	_	start_char=58|end_char=63
+13	like	like	VERB	VB	VerbForm=Inf	12	_	_	start_char=64|end_char=68
+14	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=69|end_char=72
+15	to	to	PART	TO	_	14	_	_	start_char=73|end_char=75
+16	stay	stay	VERB	VB	VerbForm=Inf	15	_	_	start_char=76|end_char=80
+17	long	long	ADV	RB	Degree=Pos	16	_	_	start_char=81|end_char=85
+18	enough	enough	ADV	RB	_	17	_	_	start_char=86|end_char=92
+19	to	to	PART	TO	_	18	_	_	start_char=93|end_char=95
+20	testify	testify	VERB	VB	VerbForm=Inf	19	_	_	start_char=96|end_char=103
+21	for	for	ADP	IN	_	20	_	_	start_char=104|end_char=107
+22	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	21	_	_	start_char=108|end_char=115|SpaceAfter=No
+23	...	...	PUNCT	.	_	22	_	_	start_char=115|end_char=118|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = I have no idea what you're talking about or how this relates to #Pizzagate.
-# sent_id = 32007
+# sent_id = 30957
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
 2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
 3	no	no	DET	DT	_	2	_	_	start_char=7|end_char=9
@@ -19,50 +19,47 @@
 16	Pizzagate	Pizzagate	PROPN	NNP	Number=Sing	15	_	_	start_char=65|end_char=74|SpaceAfter=No
 17	.	.	PUNCT	.	_	16	_	_	start_char=74|end_char=75
 
-# text = RT [USER]
-# sent_id = 32008
-1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=76|end_char=78
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=79|end_char=80|SpaceAfter=No
-3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=80|end_char=84|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=84|end_char=85
+# text = RT
+# sent_id = 30958
+1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=76|end_char=78|SpacesAfter=\s\s
 
 # text = And the investigation resulted in nothing.
-# sent_id = 32009
-1	And	and	CCONJ	CC	_	0	_	_	start_char=86|end_char=89
-2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=90|end_char=93
-3	investigation	investigation	NOUN	NN	Number=Sing	2	_	_	start_char=94|end_char=107
-4	resulted	result	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=108|end_char=116
-5	in	in	ADP	IN	_	4	_	_	start_char=117|end_char=119
-6	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	5	_	_	start_char=120|end_char=127|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=127|end_char=128
+# sent_id = 30959
+1	And	and	CCONJ	CC	_	0	_	_	start_char=80|end_char=83
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=84|end_char=87
+3	investigation	investigation	NOUN	NN	Number=Sing	2	_	_	start_char=88|end_char=101
+4	resulted	result	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=102|end_char=110
+5	in	in	ADP	IN	_	4	_	_	start_char=111|end_char=113
+6	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	5	_	_	start_char=114|end_char=121|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=121|end_char=122
 
 # text = That must be because she did nothing wrong.
-# sent_id = 32010
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=129|end_char=133
-2	must	must	AUX	MD	VerbForm=Fin	1	_	_	start_char=134|end_char=138
-3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=139|end_char=141
-4	because	because	SCONJ	IN	_	3	_	_	start_char=142|end_char=149
-5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=150|end_char=153
-6	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=154|end_char=157
-7	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	6	_	_	start_char=158|end_char=165
-8	wrong	wrong	ADJ	JJ	Degree=Pos	7	_	_	start_char=166|end_char=171|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=171|end_char=172
+# sent_id = 30960
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=123|end_char=127
+2	must	must	AUX	MD	VerbForm=Fin	1	_	_	start_char=128|end_char=132
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=133|end_char=135
+4	because	because	SCONJ	IN	_	3	_	_	start_char=136|end_char=143
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=144|end_char=147
+6	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=148|end_char=151
+7	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	6	_	_	start_char=152|end_char=159
+8	wrong	wrong	ADJ	JJ	Degree=Pos	7	_	_	start_char=160|end_char=165|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=165|end_char=166
 
 # text = Right?
-# sent_id = 32011
-1	Right	right	ADJ	JJ	Degree=Pos	0	_	_	start_char=173|end_char=178|SpaceAfter=No
-2	?	?	PUNCT	.	_	1	_	_	start_char=178|end_char=179
+# sent_id = 30961
+1	Right	right	ADJ	JJ	Degree=Pos	0	_	_	start_char=167|end_char=172|SpaceAfter=No
+2	?	?	PUNCT	.	_	1	_	_	start_char=172|end_char=173
 
 # text = Comey would *never* lie to the public.
-# sent_id = 32012
-1	Comey	Comey	PROPN	NNP	Number=Sing	0	_	_	start_char=180|end_char=185
-2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=186|end_char=191
-3	*	*	PUNCT	NFP	_	2	_	_	start_char=192|end_char=193|SpaceAfter=No
-4	never	never	ADV	RB	_	3	_	_	start_char=193|end_char=198|SpaceAfter=No
-5	*	*	PUNCT	NFP	_	4	_	_	start_char=198|end_char=199
-6	lie	lie	VERB	VB	VerbForm=Inf	5	_	_	start_char=200|end_char=203
-7	to	to	ADP	IN	_	6	_	_	start_char=204|end_char=206
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=207|end_char=210
-9	public	public	NOUN	NN	Number=Sing	8	_	_	start_char=211|end_char=217|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=217|end_char=218|SpaceAfter=No
+# sent_id = 30962
+1	Comey	Comey	PROPN	NNP	Number=Sing	0	_	_	start_char=174|end_char=179
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=180|end_char=185
+3	*	*	PUNCT	NFP	_	2	_	_	start_char=186|end_char=187|SpaceAfter=No
+4	never	never	ADV	RB	_	3	_	_	start_char=187|end_char=192|SpaceAfter=No
+5	*	*	PUNCT	NFP	_	4	_	_	start_char=192|end_char=193
+6	lie	lie	VERB	VB	VerbForm=Inf	5	_	_	start_char=194|end_char=197
+7	to	to	ADP	IN	_	6	_	_	start_char=198|end_char=200
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=201|end_char=204
+9	public	public	NOUN	NN	Number=Sing	8	_	_	start_char=205|end_char=211|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=211|end_char=212|SpaceAfter=No
 

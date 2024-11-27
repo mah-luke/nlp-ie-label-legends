@@ -1,61 +1,55 @@
-# text = [USER]
-# sent_id = 87180
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Dunno, seems like the real deal, but he's got a huge mess to clean up.
-# sent_id = 87181
-1	Dunno	Dunno	PROPN	NNP	Number=Sing	0	_	_	start_char=7|end_char=12|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=12|end_char=13
-3	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=14|end_char=19
-4	like	like	ADP	IN	_	3	_	_	start_char=20|end_char=24
-5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=25|end_char=28
-6	real	real	ADJ	JJ	Degree=Pos	5	_	_	start_char=29|end_char=33
-7	deal	deal	NOUN	NN	Number=Sing	6	_	_	start_char=34|end_char=38|SpaceAfter=No
-8	,	,	PUNCT	,	_	7	_	_	start_char=38|end_char=39
-9	but	but	CCONJ	CC	_	8	_	_	start_char=40|end_char=43
-10-11	he's	_	_	_	_	_	_	_	start_char=44|end_char=48
-10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=44|end_char=46
-11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=46|end_char=48
-12	got	get	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=49|end_char=52
-13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=53|end_char=54
-14	huge	huge	ADJ	JJ	Degree=Pos	13	_	_	start_char=55|end_char=59
-15	mess	mess	NOUN	NN	Number=Sing	14	_	_	start_char=60|end_char=64
-16	to	to	PART	TO	_	15	_	_	start_char=65|end_char=67
-17	clean	clean	VERB	VB	VerbForm=Inf	16	_	_	start_char=68|end_char=73
-18	up	up	ADP	RP	_	17	_	_	start_char=74|end_char=76|SpaceAfter=No
-19	.	.	PUNCT	.	_	18	_	_	start_char=76|end_char=77
+# sent_id = 84327
+1	Dunno	Dunno	PROPN	NNP	Number=Sing	0	_	_	start_char=1|end_char=6|SpaceAfter=No|SpacesBefore=\s
+2	,	,	PUNCT	,	_	1	_	_	start_char=6|end_char=7
+3	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=8|end_char=13
+4	like	like	ADP	IN	_	3	_	_	start_char=14|end_char=18
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=19|end_char=22
+6	real	real	ADJ	JJ	Degree=Pos	5	_	_	start_char=23|end_char=27
+7	deal	deal	NOUN	NN	Number=Sing	6	_	_	start_char=28|end_char=32|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=32|end_char=33
+9	but	but	CCONJ	CC	_	8	_	_	start_char=34|end_char=37
+10-11	he's	_	_	_	_	_	_	_	start_char=38|end_char=42
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=38|end_char=40
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=40|end_char=42
+12	got	get	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=43|end_char=46
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=47|end_char=48
+14	huge	huge	ADJ	JJ	Degree=Pos	13	_	_	start_char=49|end_char=53
+15	mess	mess	NOUN	NN	Number=Sing	14	_	_	start_char=54|end_char=58
+16	to	to	PART	TO	_	15	_	_	start_char=59|end_char=61
+17	clean	clean	VERB	VB	VerbForm=Inf	16	_	_	start_char=62|end_char=67
+18	up	up	ADP	RP	_	17	_	_	start_char=68|end_char=70|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=70|end_char=71
 
 # text = Eight years of subversives working tirelessly to destroy the military and the country, means he's got to take the fight externally as well as internally.
-# sent_id = 87182
-1	Eight	eight	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=78|end_char=83
-2	years	year	NOUN	NNS	Number=Plur	1	_	_	start_char=84|end_char=89
-3	of	of	ADP	IN	_	2	_	_	start_char=90|end_char=92
-4	subversives	subversive	NOUN	NNS	Number=Plur	3	_	_	start_char=93|end_char=104
-5	working	work	VERB	VBG	VerbForm=Ger	4	_	_	start_char=105|end_char=112
-6	tirelessly	tirelessly	ADV	RB	_	5	_	_	start_char=113|end_char=123
-7	to	to	PART	TO	_	6	_	_	start_char=124|end_char=126
-8	destroy	destroy	VERB	VB	VerbForm=Inf	7	_	_	start_char=127|end_char=134
-9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=135|end_char=138
-10	military	military	NOUN	NN	Number=Sing	9	_	_	start_char=139|end_char=147
-11	and	and	CCONJ	CC	_	10	_	_	start_char=148|end_char=151
-12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=152|end_char=155
-13	country	country	NOUN	NN	Number=Sing	12	_	_	start_char=156|end_char=163|SpaceAfter=No
-14	,	,	PUNCT	,	_	13	_	_	start_char=163|end_char=164
-15	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=165|end_char=170
-16-17	he's	_	_	_	_	_	_	_	start_char=171|end_char=175
-16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=171|end_char=173
-17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=173|end_char=175
-18	got	get	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=176|end_char=179
-19	to	to	PART	TO	_	18	_	_	start_char=180|end_char=182
-20	take	take	VERB	VB	VerbForm=Inf	19	_	_	start_char=183|end_char=187
-21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=188|end_char=191
-22	fight	fight	NOUN	NN	Number=Sing	21	_	_	start_char=192|end_char=197
-23	externally	externally	ADV	RB	_	22	_	_	start_char=198|end_char=208
-24	as	as	ADV	RB	_	23	_	_	start_char=209|end_char=211
-25	well	well	ADV	RB	Degree=Pos	24	_	_	start_char=212|end_char=216
-26	as	as	ADP	IN	_	25	_	_	start_char=217|end_char=219
-27	internally	internally	ADV	RB	_	26	_	_	start_char=220|end_char=230|SpaceAfter=No
-28	.	.	PUNCT	.	_	27	_	_	start_char=230|end_char=231|SpaceAfter=No
+# sent_id = 84328
+1	Eight	eight	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=72|end_char=77
+2	years	year	NOUN	NNS	Number=Plur	1	_	_	start_char=78|end_char=83
+3	of	of	ADP	IN	_	2	_	_	start_char=84|end_char=86
+4	subversives	subversive	NOUN	NNS	Number=Plur	3	_	_	start_char=87|end_char=98
+5	working	work	VERB	VBG	VerbForm=Ger	4	_	_	start_char=99|end_char=106
+6	tirelessly	tirelessly	ADV	RB	_	5	_	_	start_char=107|end_char=117
+7	to	to	PART	TO	_	6	_	_	start_char=118|end_char=120
+8	destroy	destroy	VERB	VB	VerbForm=Inf	7	_	_	start_char=121|end_char=128
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=129|end_char=132
+10	military	military	NOUN	NN	Number=Sing	9	_	_	start_char=133|end_char=141
+11	and	and	CCONJ	CC	_	10	_	_	start_char=142|end_char=145
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=146|end_char=149
+13	country	country	NOUN	NN	Number=Sing	12	_	_	start_char=150|end_char=157|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=157|end_char=158
+15	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=159|end_char=164
+16-17	he's	_	_	_	_	_	_	_	start_char=165|end_char=169
+16	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=165|end_char=167
+17	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=167|end_char=169
+18	got	get	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=170|end_char=173
+19	to	to	PART	TO	_	18	_	_	start_char=174|end_char=176
+20	take	take	VERB	VB	VerbForm=Inf	19	_	_	start_char=177|end_char=181
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=182|end_char=185
+22	fight	fight	NOUN	NN	Number=Sing	21	_	_	start_char=186|end_char=191
+23	externally	externally	ADV	RB	_	22	_	_	start_char=192|end_char=202
+24	as	as	ADV	RB	_	23	_	_	start_char=203|end_char=205
+25	well	well	ADV	RB	Degree=Pos	24	_	_	start_char=206|end_char=210
+26	as	as	ADP	IN	_	25	_	_	start_char=211|end_char=213
+27	internally	internally	ADV	RB	_	26	_	_	start_char=214|end_char=224|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=224|end_char=225|SpaceAfter=No
 

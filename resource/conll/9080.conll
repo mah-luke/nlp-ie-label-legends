@@ -1,56 +1,41 @@
-# text = .[USER] gives practical advice for women looking to succeed: “Now more than ever, I think women need to have their voice and own it."
-# sent_id = 19158
-1	.	.	PUNCT	.	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=1|end_char=2|SpaceAfter=No
-3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=2|end_char=6|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=6|end_char=7
-5	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=8|end_char=13
-6	practical	practical	ADJ	JJ	Degree=Pos	5	_	_	start_char=14|end_char=23
-7	advice	advice	NOUN	NN	Number=Sing	6	_	_	start_char=24|end_char=30
-8	for	for	ADP	IN	_	7	_	_	start_char=31|end_char=34
-9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=35|end_char=40
-10	looking	look	VERB	VBG	VerbForm=Ger	9	_	_	start_char=41|end_char=48
-11	to	to	PART	TO	_	10	_	_	start_char=49|end_char=51
-12	succeed	succeed	VERB	VB	VerbForm=Inf	11	_	_	start_char=52|end_char=59|SpaceAfter=No
-13	:	:	PUNCT	:	_	12	_	_	start_char=59|end_char=60
-14	“	''	PUNCT	``	_	13	_	_	start_char=61|end_char=62|SpaceAfter=No
-15	Now	now	ADV	RB	_	14	_	_	start_char=62|end_char=65
-16	more	more	ADJ	JJR	Degree=Cmp	15	_	_	start_char=66|end_char=70
-17	than	than	ADP	IN	_	16	_	_	start_char=71|end_char=75
-18	ever	ever	ADV	RB	_	17	_	_	start_char=76|end_char=80|SpaceAfter=No
-19	,	,	PUNCT	,	_	18	_	_	start_char=80|end_char=81
-20	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	19	_	_	start_char=82|end_char=83
-21	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	_	_	start_char=84|end_char=89
-22	women	woman	NOUN	NNS	Number=Plur	21	_	_	start_char=90|end_char=95
-23	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=96|end_char=100
-24	to	to	PART	TO	_	23	_	_	start_char=101|end_char=103
-25	have	have	VERB	VB	VerbForm=Inf	24	_	_	start_char=104|end_char=108
-26	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	25	_	_	start_char=109|end_char=114
-27	voice	voice	NOUN	NN	Number=Sing	26	_	_	start_char=115|end_char=120
-28	and	and	CCONJ	CC	_	27	_	_	start_char=121|end_char=124
-29	own	own	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	_	_	start_char=125|end_char=128
-30	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	29	_	_	start_char=129|end_char=131|SpaceAfter=No
-31	.	.	PUNCT	.	_	30	_	_	start_char=131|end_char=132|SpaceAfter=No
-32	"	"	PUNCT	''	_	31	_	_	start_char=132|end_char=133
+# text = . gives practical advice for women looking to succeed: “Now more than ever, I think women need to have their voice and own it."
+# sent_id = 18529
+1	.	.	PUNCT	.	_	0	_	_	start_char=0|end_char=1
+2	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=7
+3	practical	practical	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=17
+4	advice	advice	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=24
+5	for	for	ADP	IN	_	4	_	_	start_char=25|end_char=28
+6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=29|end_char=34
+7	looking	look	VERB	VBG	VerbForm=Ger	6	_	_	start_char=35|end_char=42
+8	to	to	PART	TO	_	7	_	_	start_char=43|end_char=45
+9	succeed	succeed	VERB	VB	VerbForm=Inf	8	_	_	start_char=46|end_char=53|SpaceAfter=No
+10	:	:	PUNCT	:	_	9	_	_	start_char=53|end_char=54
+11	“	''	PUNCT	``	_	10	_	_	start_char=55|end_char=56|SpaceAfter=No
+12	Now	now	ADV	RB	_	11	_	_	start_char=56|end_char=59
+13	more	more	ADJ	JJR	Degree=Cmp	12	_	_	start_char=60|end_char=64
+14	than	than	ADP	IN	_	13	_	_	start_char=65|end_char=69
+15	ever	ever	ADV	RB	_	14	_	_	start_char=70|end_char=74|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=74|end_char=75
+17	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	16	_	_	start_char=76|end_char=77
+18	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	_	_	start_char=78|end_char=83
+19	women	woman	NOUN	NNS	Number=Plur	18	_	_	start_char=84|end_char=89
+20	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	19	_	_	start_char=90|end_char=94
+21	to	to	PART	TO	_	20	_	_	start_char=95|end_char=97
+22	have	have	VERB	VB	VerbForm=Inf	21	_	_	start_char=98|end_char=102
+23	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	22	_	_	start_char=103|end_char=108
+24	voice	voice	NOUN	NN	Number=Sing	23	_	_	start_char=109|end_char=114
+25	and	and	CCONJ	CC	_	24	_	_	start_char=115|end_char=118
+26	own	own	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	25	_	_	start_char=119|end_char=122
+27	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	_	_	start_char=123|end_char=125|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=125|end_char=126|SpaceAfter=No
+29	"	"	PUNCT	''	_	28	_	_	start_char=126|end_char=127|SpacesAfter=\s\s
 
-# text = [URL]
-# sent_id = 19159
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=134|end_char=135|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=135|end_char=138|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=138|end_char=139
-
-# text = More about books seen on [USER] -> [URL]
-# sent_id = 19160
-1	More	more	ADV	RBR	Degree=Cmp	0	_	_	start_char=140|end_char=144
-2	about	about	ADP	IN	_	1	_	_	start_char=145|end_char=150
-3	books	book	NOUN	NNS	Number=Plur	2	_	_	start_char=151|end_char=156
-4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=157|end_char=161
-5	on	on	ADP	IN	_	4	_	_	start_char=162|end_char=164
-6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=165|end_char=166|SpaceAfter=No
-7	USER	user	NOUN	NN	Number=Sing	6	_	_	start_char=166|end_char=170|SpaceAfter=No
-8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=170|end_char=171
-9	->	->	SYM	NFP	_	8	_	_	start_char=172|end_char=174
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=175|end_char=176|SpaceAfter=No
-11	URL	URL	PROPN	NNP	Number=Sing	10	_	_	start_char=176|end_char=179|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=179|end_char=180|SpaceAfter=No
+# text = More about books seen on ->
+# sent_id = 18530
+1	More	more	ADV	RBR	Degree=Cmp	0	_	_	start_char=129|end_char=133
+2	about	about	ADP	IN	_	1	_	_	start_char=134|end_char=139
+3	books	book	NOUN	NNS	Number=Plur	2	_	_	start_char=140|end_char=145
+4	seen	see	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=146|end_char=150
+5	on	on	ADP	IN	_	4	_	_	start_char=151|end_char=153|SpacesAfter=\s\s
+6	->	->	SYM	NFP	_	5	_	_	start_char=155|end_char=157
 

@@ -1,23 +1,20 @@
-# text = [USER] But Ms. Pie.
-# sent_id = 19513
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	But	but	CCONJ	CC	_	3	_	_	start_char=7|end_char=10
-5	Ms.	Ms.	PROPN	NNP	Number=Sing	4	_	_	start_char=11|end_char=14
-6	Pie	Pie	PROPN	NNP	Number=Sing	5	_	_	start_char=15|end_char=18|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=18|end_char=19
+# text = But Ms. Pie.
+# sent_id = 18874
+1	But	but	CCONJ	CC	_	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	Ms.	Ms.	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=8
+3	Pie	Pie	PROPN	NNP	Number=Sing	2	_	_	start_char=9|end_char=12|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=12|end_char=13
 
 # text = You're the only girl for me. :(
-# sent_id = 19514
-1-2	You're	_	_	_	_	_	_	_	start_char=20|end_char=26
-1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=20|end_char=23
-2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=23|end_char=26
-3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=27|end_char=30
-4	only	only	ADJ	JJ	Degree=Pos	3	_	_	start_char=31|end_char=35
-5	girl	girl	NOUN	NN	Number=Sing	4	_	_	start_char=36|end_char=40
-6	for	for	ADP	IN	_	5	_	_	start_char=41|end_char=44
-7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=45|end_char=47|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=47|end_char=48
-9	:(	:(	SYM	NFP	_	8	_	_	start_char=49|end_char=51|SpaceAfter=No
+# sent_id = 18875
+1-2	You're	_	_	_	_	_	_	_	start_char=14|end_char=20
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=14|end_char=17
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=17|end_char=20
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=21|end_char=24
+4	only	only	ADJ	JJ	Degree=Pos	3	_	_	start_char=25|end_char=29
+5	girl	girl	NOUN	NN	Number=Sing	4	_	_	start_char=30|end_char=34
+6	for	for	ADP	IN	_	5	_	_	start_char=35|end_char=38
+7	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=39|end_char=41|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=41|end_char=42
+9	:(	:(	SYM	NFP	_	8	_	_	start_char=43|end_char=45|SpaceAfter=No
 

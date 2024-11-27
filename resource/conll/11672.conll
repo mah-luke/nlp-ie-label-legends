@@ -1,64 +1,58 @@
-# text = [USER]
-# sent_id = 24710
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = I think it is eerily like "JuSuisCharlie".
-# sent_id = 24711
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
-2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=14
-3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=15|end_char=17
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=18|end_char=20
-5	eerily	eerily	ADV	RB	_	4	_	_	start_char=21|end_char=27
-6	like	like	ADP	IN	_	5	_	_	start_char=28|end_char=32
-7	"	"	PUNCT	``	_	6	_	_	start_char=33|end_char=34|SpaceAfter=No
-8	JuSuisCharlie	JuSuisCharlie	PROPN	NNP	Number=Sing	7	_	_	start_char=34|end_char=47|SpaceAfter=No
-9	"	"	PUNCT	''	_	8	_	_	start_char=47|end_char=48|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=48|end_char=49
+# sent_id = 23907
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=2|SpacesBefore=\s
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=8
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=11
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=12|end_char=14
+5	eerily	eerily	ADV	RB	_	4	_	_	start_char=15|end_char=21
+6	like	like	ADP	IN	_	5	_	_	start_char=22|end_char=26
+7	"	"	PUNCT	``	_	6	_	_	start_char=27|end_char=28|SpaceAfter=No
+8	JuSuisCharlie	JuSuisCharlie	PROPN	NNP	Number=Sing	7	_	_	start_char=28|end_char=41|SpaceAfter=No
+9	"	"	PUNCT	''	_	8	_	_	start_char=41|end_char=42|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=42|end_char=43
 
 # text = Many thousands will march if the MSM gives them "permission" Why do this many not come out about the child murdering paedo rings?
-# sent_id = 24712
-1	Many	many	ADJ	JJ	Degree=Pos	0	_	_	start_char=50|end_char=54
-2	thousands	thousand	NOUN	NNS	Number=Plur	1	_	_	start_char=55|end_char=64
-3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=65|end_char=69
-4	march	march	VERB	VB	VerbForm=Inf	3	_	_	start_char=70|end_char=75
-5	if	if	SCONJ	IN	_	4	_	_	start_char=76|end_char=78
-6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=79|end_char=82
-7	MSM	MSM	PROPN	NNP	Number=Sing	6	_	_	start_char=83|end_char=86
-8	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=87|end_char=92
-9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=93|end_char=97
-10	"	"	PUNCT	``	_	9	_	_	start_char=98|end_char=99|SpaceAfter=No
-11	permission	permission	NOUN	NN	Number=Sing	10	_	_	start_char=99|end_char=109|SpaceAfter=No
-12	"	"	PUNCT	''	_	11	_	_	start_char=109|end_char=110
-13	Why	why	ADV	WRB	PronType=Int	12	_	_	start_char=111|end_char=114
-14	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=115|end_char=117
-15	this	this	PRON	DT	Number=Sing|PronType=Dem	14	_	_	start_char=118|end_char=122
-16	many	many	ADJ	JJ	Degree=Pos	15	_	_	start_char=123|end_char=127
-17	not	not	PART	RB	_	16	_	_	start_char=128|end_char=131
-18	come	come	VERB	VB	VerbForm=Inf	17	_	_	start_char=132|end_char=136
-19	out	out	ADP	RP	_	18	_	_	start_char=137|end_char=140
-20	about	about	ADP	IN	_	19	_	_	start_char=141|end_char=146
-21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=147|end_char=150
-22	child	child	NOUN	NN	Number=Sing	21	_	_	start_char=151|end_char=156
-23	murdering	murdering	VERB	VBG	VerbForm=Ger	22	_	_	start_char=157|end_char=166
-24	paedo	paedo	NOUN	NN	Number=Sing	23	_	_	start_char=167|end_char=172
-25	rings	ring	NOUN	NNS	Number=Plur	24	_	_	start_char=173|end_char=178|SpaceAfter=No
-26	?	?	PUNCT	.	_	25	_	_	start_char=178|end_char=179
+# sent_id = 23908
+1	Many	many	ADJ	JJ	Degree=Pos	0	_	_	start_char=44|end_char=48
+2	thousands	thousand	NOUN	NNS	Number=Plur	1	_	_	start_char=49|end_char=58
+3	will	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=59|end_char=63
+4	march	march	VERB	VB	VerbForm=Inf	3	_	_	start_char=64|end_char=69
+5	if	if	SCONJ	IN	_	4	_	_	start_char=70|end_char=72
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=73|end_char=76
+7	MSM	MSM	PROPN	NNP	Number=Sing	6	_	_	start_char=77|end_char=80
+8	gives	give	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=81|end_char=86
+9	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	8	_	_	start_char=87|end_char=91
+10	"	"	PUNCT	``	_	9	_	_	start_char=92|end_char=93|SpaceAfter=No
+11	permission	permission	NOUN	NN	Number=Sing	10	_	_	start_char=93|end_char=103|SpaceAfter=No
+12	"	"	PUNCT	''	_	11	_	_	start_char=103|end_char=104
+13	Why	why	ADV	WRB	PronType=Int	12	_	_	start_char=105|end_char=108
+14	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=109|end_char=111
+15	this	this	PRON	DT	Number=Sing|PronType=Dem	14	_	_	start_char=112|end_char=116
+16	many	many	ADJ	JJ	Degree=Pos	15	_	_	start_char=117|end_char=121
+17	not	not	PART	RB	_	16	_	_	start_char=122|end_char=125
+18	come	come	VERB	VB	VerbForm=Inf	17	_	_	start_char=126|end_char=130
+19	out	out	ADP	RP	_	18	_	_	start_char=131|end_char=134
+20	about	about	ADP	IN	_	19	_	_	start_char=135|end_char=140
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=141|end_char=144
+22	child	child	NOUN	NN	Number=Sing	21	_	_	start_char=145|end_char=150
+23	murdering	murdering	VERB	VBG	VerbForm=Ger	22	_	_	start_char=151|end_char=160
+24	paedo	paedo	NOUN	NN	Number=Sing	23	_	_	start_char=161|end_char=166
+25	rings	ring	NOUN	NNS	Number=Plur	24	_	_	start_char=167|end_char=172|SpaceAfter=No
+26	?	?	PUNCT	.	_	25	_	_	start_char=172|end_char=173
 
 # text = I would have thought women and MOTHERS would want to protest that!
-# sent_id = 24713
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=180|end_char=181
-2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=182|end_char=187
-3	have	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=188|end_char=192
-4	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=193|end_char=200
-5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=201|end_char=206
-6	and	and	CCONJ	CC	_	5	_	_	start_char=207|end_char=210
-7	MOTHERS	mother	NOUN	NNS	Number=Plur	6	_	_	start_char=211|end_char=218
-8	would	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=219|end_char=224
-9	want	want	VERB	VB	VerbForm=Inf	8	_	_	start_char=225|end_char=229
-10	to	to	PART	TO	_	9	_	_	start_char=230|end_char=232
-11	protest	protest	VERB	VB	VerbForm=Inf	10	_	_	start_char=233|end_char=240
-12	that	that	PRON	DT	Number=Sing|PronType=Dem	11	_	_	start_char=241|end_char=245|SpaceAfter=No
-13	!	!	PUNCT	.	_	12	_	_	start_char=245|end_char=246|SpaceAfter=No
+# sent_id = 23909
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=174|end_char=175
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=176|end_char=181
+3	have	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=182|end_char=186
+4	thought	think	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=187|end_char=194
+5	women	woman	NOUN	NNS	Number=Plur	4	_	_	start_char=195|end_char=200
+6	and	and	CCONJ	CC	_	5	_	_	start_char=201|end_char=204
+7	MOTHERS	mother	NOUN	NNS	Number=Plur	6	_	_	start_char=205|end_char=212
+8	would	would	AUX	MD	VerbForm=Fin	7	_	_	start_char=213|end_char=218
+9	want	want	VERB	VB	VerbForm=Inf	8	_	_	start_char=219|end_char=223
+10	to	to	PART	TO	_	9	_	_	start_char=224|end_char=226
+11	protest	protest	VERB	VB	VerbForm=Inf	10	_	_	start_char=227|end_char=234
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	11	_	_	start_char=235|end_char=239|SpaceAfter=No
+13	!	!	PUNCT	.	_	12	_	_	start_char=239|end_char=240|SpaceAfter=No
 

@@ -1,20 +1,17 @@
 # text = ATTENTION WALMART SHOPPERS!!
-# sent_id = 35892
+# sent_id = 34716
 1	ATTENTION	attention	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=9
 2	WALMART	Walmart	PROPN	NNP	Number=Sing	1	_	_	start_char=10|end_char=17
 3	SHOPPERS	shopper	NOUN	NNS	Number=Plur	2	_	_	start_char=18|end_char=26|SpaceAfter=No
 4	!!	!!	PUNCT	.	_	3	_	_	start_char=26|end_char=28
 
-# text = Geeeze tooke'em long enough [URL]
-# sent_id = 35893
+# text = Geeeze tooke'em long enough
+# sent_id = 34717
 1	Geeeze	Geeeze	PROPN	NNP	Number=Sing	0	_	_	start_char=29|end_char=35
 2-4	tooke'em	_	_	_	_	_	_	_	start_char=36|end_char=44
-2	tooke	took	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=36|end_char=41
-3	'e	'e	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=41|end_char=43
+2	tooke	took	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=36|end_char=41
+3	'e	'e	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=41|end_char=43
 4	m	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=43|end_char=44
 5	long	long	ADJ	JJ	Degree=Pos	4	_	_	start_char=45|end_char=49
 6	enough	enough	ADV	RB	_	5	_	_	start_char=50|end_char=56
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=57|end_char=58|SpaceAfter=No
-8	URL	URL	PROPN	NNP	Number=Sing	7	_	_	start_char=58|end_char=61|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=61|end_char=62|SpaceAfter=No
 

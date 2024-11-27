@@ -1,10 +1,10 @@
-# text = #Italy: #Muslim #migrant gropes American student’s girlfriend, then #stabs the student twice: [URL]
-# sent_id = 11054
+# text = #Italy: #Muslim #migrant gropes American student’s girlfriend, then #stabs the student twice:
+# sent_id = 10673
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	Italy	Italy	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=6|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	_	_	start_char=6|end_char=7
 4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=8|end_char=9|SpaceAfter=No
-5	Muslim	Muslim	ADJ	NNP	Degree=Pos	4	_	_	start_char=9|end_char=15
+5	Muslim	Muslim	ADJ	JJ	Degree=Pos	4	_	_	start_char=9|end_char=15
 6	#migrant	#migrant	PROPN	NNP	Number=Sing	5	_	_	start_char=16|end_char=24
 7	gropes	grope	NOUN	NNS	Number=Plur	6	_	_	start_char=25|end_char=31
 8	American	American	ADJ	JJ	Degree=Pos	7	_	_	start_char=32|end_char=40
@@ -20,7 +20,4 @@
 17	student	student	NOUN	NN	Number=Sing	16	_	_	start_char=79|end_char=86
 18	twice	twice	ADV	RB	NumType=Mult	17	_	_	start_char=87|end_char=92|SpaceAfter=No
 19	:	:	PUNCT	:	_	18	_	_	start_char=92|end_char=93
-20	[	[	PUNCT	-LRB-	_	19	_	_	start_char=94|end_char=95|SpaceAfter=No
-21	URL	URL	PROPN	NNP	Number=Sing	20	_	_	start_char=95|end_char=98|SpaceAfter=No
-22	]	]	PUNCT	-RRB-	_	21	_	_	start_char=98|end_char=99|SpaceAfter=No
 

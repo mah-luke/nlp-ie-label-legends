@@ -1,5 +1,5 @@
 # text = At what adorable size do baby girls develop their eggs for life, inside OWN ovaries, while still in womb?
-# sent_id = 108981
+# sent_id = 105411
 1	At	at	ADP	IN	_	0	_	_	start_char=0|end_char=2
 2	what	what	DET	WDT	PronType=Int	1	_	_	start_char=3|end_char=7
 3	adorable	adorable	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=16
@@ -24,19 +24,17 @@
 22	?	?	PUNCT	.	_	21	_	_	start_char=104|end_char=105
 
 # text = Babies still aborted at that size?
-# sent_id = 108982
+# sent_id = 105412
 1	Babies	Baby	NOUN	NNS	Number=Plur	0	_	_	start_char=106|end_char=112
 2	still	still	ADV	RB	_	1	_	_	start_char=113|end_char=118
 3	aborted	abort	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=119|end_char=126
 4	at	at	ADP	IN	_	3	_	_	start_char=127|end_char=129
 5	that	that	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=130|end_char=134
 6	size	size	NOUN	NN	Number=Sing	5	_	_	start_char=135|end_char=139|SpaceAfter=No
-7	?	?	PUNCT	.	_	6	_	_	start_char=139|end_char=140
+7	?	?	PUNCT	.	_	6	_	_	start_char=139|end_char=140|SpacesAfter=\s\s
 
-# text = [URL] #MAGA
-# sent_id = 108983
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=141|end_char=142|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=142|end_char=145|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=145|end_char=146
-4	#MAGA	#maga	NOUN	NN	Number=Sing	3	_	_	start_char=147|end_char=152|SpaceAfter=No
+# text = #MAGA
+# sent_id = 105413
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=142|end_char=143|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=143|end_char=147|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = "A Mexican man accused of raping a 13-year-old girl on a Greyhound bus that traveled through Kansas had been deported 10 times and voluntarily removed from the U.S. another nine times since 2003."
-# sent_id = 49082
+# sent_id = 47494
 1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	A	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=1|end_char=2
 3	Mexican	Mexican	ADJ	JJ	Degree=Pos	2	_	_	start_char=3|end_char=10
@@ -40,10 +40,4 @@
 38	2003	2003	NUM	CD	NumForm=Digit|NumType=Card	37	_	_	start_char=190|end_char=194|SpaceAfter=No
 39	.	.	PUNCT	.	_	38	_	_	start_char=194|end_char=195|SpaceAfter=No
 40	"	"	PUNCT	''	_	39	_	_	start_char=195|end_char=196
-
-# text = [URL]
-# sent_id = 49083
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=197|end_char=198|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=198|end_char=201|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=201|end_char=202|SpaceAfter=No
 

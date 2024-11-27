@@ -1,17 +1,14 @@
-# text = [USER] "I can smell her dying from here." :)
-# sent_id = 58381
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	"	"	PUNCT	``	_	3	_	_	start_char=7|end_char=8|SpaceAfter=No
-5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=8|end_char=9
-6	can	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=10|end_char=13
-7	smell	smell	VERB	VB	VerbForm=Inf	6	_	_	start_char=14|end_char=19
-8	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=20|end_char=23
-9	dying	die	VERB	VBG	VerbForm=Ger	8	_	_	start_char=24|end_char=29
-10	from	from	ADP	IN	_	9	_	_	start_char=30|end_char=34
-11	here	here	ADV	RB	PronType=Dem	10	_	_	start_char=35|end_char=39|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=39|end_char=40|SpaceAfter=No
-13	"	"	PUNCT	''	_	12	_	_	start_char=40|end_char=41
-14	:)	:)	SYM	NFP	_	13	_	_	start_char=42|end_char=44|SpaceAfter=No
+# text = "I can smell her dying from here." :)
+# sent_id = 56461
+1	"	"	PUNCT	``	_	0	_	_	start_char=1|end_char=2|SpaceAfter=No|SpacesBefore=\s
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=2|end_char=3
+3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=4|end_char=7
+4	smell	smell	VERB	VB	VerbForm=Inf	3	_	_	start_char=8|end_char=13
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=14|end_char=17
+6	dying	die	VERB	VBG	VerbForm=Ger	5	_	_	start_char=18|end_char=23
+7	from	from	ADP	IN	_	6	_	_	start_char=24|end_char=28
+8	here	here	ADV	RB	PronType=Dem	7	_	_	start_char=29|end_char=33|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=33|end_char=34|SpaceAfter=No
+10	"	"	PUNCT	''	_	9	_	_	start_char=34|end_char=35
+11	:)	:)	SYM	NFP	_	10	_	_	start_char=36|end_char=38|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = NEW: California Rep. Dana Rohrabacher met with alleged Russian agent Maria Butina in 2015, her emails reveal, fueling more questions about his longstanding Kremlin connections.
-# sent_id = 117312
+# sent_id = 113502
 1	NEW	new	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=3|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	_	_	start_char=3|end_char=4
 3	California	California	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=15
@@ -28,14 +28,5 @@
 26	longstanding	longstanding	ADJ	JJ	Degree=Pos	25	_	_	start_char=143|end_char=155
 27	Kremlin	Kremlin	ADJ	JJ	Degree=Pos	26	_	_	start_char=156|end_char=163
 28	connections	connection	NOUN	NNS	Number=Plur	27	_	_	start_char=164|end_char=175|SpaceAfter=No
-29	.	.	PUNCT	.	_	28	_	_	start_char=175|end_char=176
-
-# text = [URL] [URL]
-# sent_id = 117313
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=177|end_char=178|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=178|end_char=181|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=181|end_char=182
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=183|end_char=184|SpaceAfter=No
-5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=184|end_char=187|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=187|end_char=188|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=175|end_char=176|SpacesAfter=\s\s
 

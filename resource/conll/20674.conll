@@ -1,11 +1,8 @@
-# text = TRUMP READY TO STRIKE N.KOREA [URL]
-# sent_id = 44392
+# text = TRUMP READY TO STRIKE N.KOREA
+# sent_id = 42913
 1	TRUMP	TRUMP	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
 2	READY	ready	ADJ	JJ	Degree=Pos	1	_	_	start_char=6|end_char=11
-3	TO	to	ADP	IN	_	2	_	_	start_char=12|end_char=14
-4	STRIKE	strike	NOUN	NN	Number=Sing	3	_	_	start_char=15|end_char=21
-5	N.KOREA	N.KOREA	PROPN	NNP	Number=Sing	4	_	_	start_char=22|end_char=29
-6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=30|end_char=31|SpaceAfter=No
-7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=31|end_char=34|SpaceAfter=No
-8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=34|end_char=35|SpaceAfter=No
+3	TO	to	PART	TO	_	2	_	_	start_char=12|end_char=14
+4	STRIKE	strike	VERB	VB	VerbForm=Inf	3	_	_	start_char=15|end_char=21
+5	N.KOREA	n.korea	NOUN	NN	Number=Sing	4	_	_	start_char=22|end_char=29
 

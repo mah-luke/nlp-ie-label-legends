@@ -1,27 +1,24 @@
-# text = [USER] i am retard thouht you were tlk about the hollyday here still whit the yesterday thing in my head:-)
-# sent_id = 62300
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	_	_	start_char=7|end_char=8
-5	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	_	_	start_char=9|end_char=11
-6	retard	retard	ADJ	JJ	Degree=Pos	5	_	_	start_char=12|end_char=18
-7	thouht	thouht	NOUN	NN	Number=Sing	6	_	_	start_char=19|end_char=25
-8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=26|end_char=29
-9	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	8	_	_	start_char=30|end_char=34
-10	tlk	tlk	ADJ	JJ	Degree=Pos	9	_	_	start_char=35|end_char=38
-11	about	about	ADP	IN	_	10	_	_	start_char=39|end_char=44
-12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=45|end_char=48
-13	hollyday	hollyday	NOUN	NN	Number=Sing	12	_	_	start_char=49|end_char=57
-14	here	here	ADV	RB	PronType=Dem	13	_	_	start_char=58|end_char=62
-15	still	still	ADV	RB	_	14	_	_	start_char=63|end_char=68
-16	whit	whit	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	_	_	start_char=69|end_char=73
-17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=74|end_char=77
-18	yesterday	yesterday	NOUN	NN	Number=Sing	17	_	_	start_char=78|end_char=87
-19	thing	thing	NOUN	NN	Number=Sing	18	_	_	start_char=88|end_char=93
-20	in	in	ADP	IN	_	19	_	_	start_char=94|end_char=96
-21	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	20	_	_	start_char=97|end_char=99
-22	head	head	NOUN	NN	Number=Sing	21	_	_	start_char=100|end_char=104|SpaceAfter=No
-23	:	:	PUNCT	:	_	22	_	_	start_char=104|end_char=105|SpaceAfter=No
-24	-)	-)	SYM	NFP	_	23	_	_	start_char=105|end_char=107|SpaceAfter=No
+# text = i am retard thouht you were tlk about the hollyday here still whit the yesterday thing in my head:-)
+# sent_id = 60299
+1	i	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=2|SpacesBefore=\s
+2	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
+3	retard	retard	ADJ	JJ	Degree=Pos	2	_	_	start_char=6|end_char=12
+4	thouht	thouht	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=19
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=20|end_char=23
+6	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	5	_	_	start_char=24|end_char=28
+7	tlk	tlk	ADJ	JJ	Degree=Pos	6	_	_	start_char=29|end_char=32
+8	about	about	ADP	IN	_	7	_	_	start_char=33|end_char=38
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=39|end_char=42
+10	hollyday	hollyday	NOUN	NN	Number=Sing	9	_	_	start_char=43|end_char=51
+11	here	here	ADV	RB	PronType=Dem	10	_	_	start_char=52|end_char=56
+12	still	still	ADV	RB	_	11	_	_	start_char=57|end_char=62
+13	whit	whit	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=63|end_char=67
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=68|end_char=71
+15	yesterday	yesterday	NOUN	NN	Number=Sing	14	_	_	start_char=72|end_char=81
+16	thing	thing	NOUN	NN	Number=Sing	15	_	_	start_char=82|end_char=87
+17	in	in	ADP	IN	_	16	_	_	start_char=88|end_char=90
+18	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	_	_	start_char=91|end_char=93
+19	head	head	NOUN	NN	Number=Sing	18	_	_	start_char=94|end_char=98|SpaceAfter=No
+20	:	:	PUNCT	:	_	19	_	_	start_char=98|end_char=99|SpaceAfter=No
+21	-)	-)	SYM	NFP	_	20	_	_	start_char=99|end_char=101|SpaceAfter=No
 

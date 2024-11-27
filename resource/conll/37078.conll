@@ -1,5 +1,5 @@
 # text = "So to show “solidarity,” CNN’s Alisyn Camerota says American women should all wear the hijab to show “solidarity” with Muslim Americans."
-# sent_id = 79289
+# sent_id = 76727
 1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	So	so	ADV	RB	_	1	_	_	start_char=1|end_char=3
 3	to	to	PART	TO	_	2	_	_	start_char=4|end_char=6
@@ -30,13 +30,10 @@
 27	Muslim	Muslim	ADJ	JJ	Degree=Pos	26	_	_	start_char=120|end_char=126
 28	Americans	American	PROPN	NNPS	Number=Plur	27	_	_	start_char=127|end_char=136|SpaceAfter=No
 29	.	.	PUNCT	.	_	28	_	_	start_char=136|end_char=137|SpaceAfter=No
-30	"	"	PUNCT	''	_	29	_	_	start_char=137|end_char=138
+30	"	"	PUNCT	''	_	29	_	_	start_char=137|end_char=138|SpacesAfter=\s\s
 
-# text = [URL] #WhatAChucklehead
-# sent_id = 79290
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=139|end_char=140|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=140|end_char=143|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=143|end_char=144
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=145|end_char=146|SpaceAfter=No
-5	WhatAChucklehead	WhatAChucklehead	PROPN	NNP	Number=Sing	4	_	_	start_char=146|end_char=162|SpaceAfter=No
+# text = #WhatAChucklehead
+# sent_id = 76728
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=140|end_char=141|SpaceAfter=No
+2	WhatAChucklehead	WhatAChucklehead	PROPN	NNP	Number=Sing	1	_	_	start_char=141|end_char=157|SpaceAfter=No
 

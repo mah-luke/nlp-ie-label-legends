@@ -1,5 +1,5 @@
 # text = The Clinton's memories are long and they ALWAYS get payback.
-# sent_id = 12543
+# sent_id = 12144
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
 2-3	Clinton's	_	_	_	_	_	_	_	start_char=4|end_char=13
 2	Clinton	Clinton	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=11
@@ -15,7 +15,7 @@
 12	.	.	PUNCT	.	_	11	_	_	start_char=59|end_char=60
 
 # text = If Hillary wins, they will use EVERYTHING in their power to destroy Trump.
-# sent_id = 12544
+# sent_id = 12145
 1	If	if	SCONJ	IN	_	0	_	_	start_char=61|end_char=63
 2	Hillary	Hillary	PROPN	NNP	Number=Sing	1	_	_	start_char=64|end_char=71
 3	wins	win	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=72|end_char=76|SpaceAfter=No
@@ -31,10 +31,4 @@
 13	destroy	destroy	VERB	VB	VerbForm=Inf	12	_	_	start_char=121|end_char=128
 14	Trump	Trump	PROPN	NNP	Number=Sing	13	_	_	start_char=129|end_char=134|SpaceAfter=No
 15	.	.	PUNCT	.	_	14	_	_	start_char=134|end_char=135
-
-# text = [URL]
-# sent_id = 12545
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=136|end_char=137|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=137|end_char=140|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=140|end_char=141|SpaceAfter=No
 

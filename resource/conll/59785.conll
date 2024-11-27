@@ -1,5 +1,5 @@
 # text = Indian court rules that a lesbian couple can cohabitate after landmark decision to decriminalize homosexuality.
-# sent_id = 127574
+# sent_id = 123458
 1	Indian	Indian	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=6
 2	court	court	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=12
 3	rules	rule	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=13|end_char=18
@@ -15,15 +15,9 @@
 13	to	to	PART	TO	_	12	_	_	start_char=80|end_char=82
 14	decriminalize	decriminalize	VERB	VB	VerbForm=Inf	13	_	_	start_char=83|end_char=96
 15	homosexuality	homosexuality	NOUN	NN	Number=Sing	14	_	_	start_char=97|end_char=110|SpaceAfter=No
-16	.	.	PUNCT	.	_	15	_	_	start_char=110|end_char=111
+16	.	.	PUNCT	.	_	15	_	_	start_char=110|end_char=111|SpacesAfter=\s\s
 
-# text = [URL] - [USER]
-# sent_id = 127575
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=112|end_char=113|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=113|end_char=116|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=116|end_char=117
-4	-	-	PUNCT	,	_	3	_	_	start_char=118|end_char=119
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=120|end_char=121|SpaceAfter=No
-6	USER	user	NOUN	NN	Number=Sing	5	_	_	start_char=121|end_char=125|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=125|end_char=126|SpaceAfter=No
+# text = -
+# sent_id = 123459
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=113|end_char=114
 

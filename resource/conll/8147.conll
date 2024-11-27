@@ -1,5 +1,5 @@
 # text = Of course, it's one fat reason.
-# sent_id = 17085
+# sent_id = 16542
 1	Of	of	ADV	IN	_	0	_	_	start_char=0|end_char=2
 2	course	course	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=9|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	_	_	start_char=9|end_char=10
@@ -11,8 +11,8 @@
 8	reason	reason	NOUN	NN	Number=Sing	7	_	_	start_char=24|end_char=30|SpaceAfter=No
 9	.	.	PUNCT	.	_	8	_	_	start_char=30|end_char=31
 
-# text = Men with ugly faces have to deal with it, women can go from [ugly to hot]([URL] by using makeup.
-# sent_id = 17086
+# text = Men with ugly faces have to deal with it, women can go from [ugly to hot]( by using makeup.
+# sent_id = 16543
 1	Men	man	NOUN	NNS	Number=Plur	0	_	_	start_char=32|end_char=35
 2	with	with	ADP	IN	_	1	_	_	start_char=36|end_char=40
 3	ugly	ugly	ADJ	JJ	Degree=Pos	2	_	_	start_char=41|end_char=45
@@ -32,29 +32,26 @@
 17	to	to	ADP	IN	_	16	_	_	start_char=98|end_char=100
 18	hot	hot	ADJ	JJ	Degree=Pos	17	_	_	start_char=101|end_char=104|SpaceAfter=No
 19	]	]	PUNCT	-RRB-	_	18	_	_	start_char=104|end_char=105|SpaceAfter=No
-20	(	(	PUNCT	-LRB-	_	19	_	_	start_char=105|end_char=106|SpaceAfter=No
-21	[	[	PUNCT	-LRB-	_	20	_	_	start_char=106|end_char=107|SpaceAfter=No
-22	URL	URL	PROPN	NNP	Number=Sing	21	_	_	start_char=107|end_char=110|SpaceAfter=No
-23	]	]	PUNCT	-RRB-	_	22	_	_	start_char=110|end_char=111
-24	by	by	SCONJ	IN	_	23	_	_	start_char=112|end_char=114
-25	using	use	VERB	VBG	VerbForm=Ger	24	_	_	start_char=115|end_char=120
-26	makeup	makeup	NOUN	NN	Number=Sing	25	_	_	start_char=121|end_char=127|SpaceAfter=No
-27	.	.	PUNCT	.	_	26	_	_	start_char=127|end_char=128
+20	(	(	PUNCT	-LRB-	_	19	_	_	start_char=105|end_char=106
+21	by	by	SCONJ	IN	_	20	_	_	start_char=107|end_char=109
+22	using	use	VERB	VBG	VerbForm=Ger	21	_	_	start_char=110|end_char=115
+23	makeup	makeup	NOUN	NN	Number=Sing	22	_	_	start_char=116|end_char=122|SpaceAfter=No
+24	.	.	PUNCT	.	_	23	_	_	start_char=122|end_char=123
 
 # text = And it's so widely accepted, it becomes their default face.
-# sent_id = 17087
-1	And	and	CCONJ	CC	_	0	_	_	start_char=129|end_char=132
-2-3	it's	_	_	_	_	_	_	_	start_char=133|end_char=137
-2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=133|end_char=135
-3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=135|end_char=137
-4	so	so	ADV	RB	_	3	_	_	start_char=138|end_char=140
-5	widely	widely	ADV	RB	Degree=Pos	4	_	_	start_char=141|end_char=147
-6	accepted	accept	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=148|end_char=156|SpaceAfter=No
-7	,	,	PUNCT	,	_	6	_	_	start_char=156|end_char=157
-8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=158|end_char=160
-9	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=161|end_char=168
-10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=169|end_char=174
-11	default	default	NOUN	NN	Number=Sing	10	_	_	start_char=175|end_char=182
-12	face	face	NOUN	NN	Number=Sing	11	_	_	start_char=183|end_char=187|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=187|end_char=188|SpaceAfter=No
+# sent_id = 16544
+1	And	and	CCONJ	CC	_	0	_	_	start_char=124|end_char=127
+2-3	it's	_	_	_	_	_	_	_	start_char=128|end_char=132
+2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=128|end_char=130
+3	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=130|end_char=132
+4	so	so	ADV	RB	_	3	_	_	start_char=133|end_char=135
+5	widely	widely	ADV	RB	Degree=Pos	4	_	_	start_char=136|end_char=142
+6	accepted	accept	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=143|end_char=151|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=151|end_char=152
+8	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=153|end_char=155
+9	becomes	become	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=156|end_char=163
+10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=164|end_char=169
+11	default	default	NOUN	NN	Number=Sing	10	_	_	start_char=170|end_char=177
+12	face	face	NOUN	NN	Number=Sing	11	_	_	start_char=178|end_char=182|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=182|end_char=183|SpaceAfter=No
 

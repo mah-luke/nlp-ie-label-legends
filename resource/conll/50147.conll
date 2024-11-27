@@ -1,5 +1,5 @@
 # text = The population of Santa Fe at the 2010 census was 12,222.
-# sent_id = 107172
+# sent_id = 103660
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
 2	population	population	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=14
 3	of	of	ADP	IN	_	2	_	_	start_char=15|end_char=17
@@ -11,40 +11,34 @@
 9	census	census	NOUN	NN	Number=Sing	8	_	_	start_char=39|end_char=45
 10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=46|end_char=49
 11	12,222	12222	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=50|end_char=56|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=56|end_char=57
-
-# text = [URL]
-# sent_id = 107173
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=58|end_char=59|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=59|end_char=62|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=62|end_char=63
+12	.	.	PUNCT	.	_	11	_	_	start_char=56|end_char=57|SpacesAfter=\s\s
 
 # text = Looking at all the crisis actors at CNN, one might get the idea the population is primarily Jewish and Jewish Negro (Jewgro).
-# sent_id = 107174
-1	Looking	look	VERB	VBG	VerbForm=Ger	0	_	_	start_char=64|end_char=71
-2	at	at	ADP	IN	_	1	_	_	start_char=72|end_char=74
-3	all	all	DET	PDT	_	2	_	_	start_char=75|end_char=78
-4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=79|end_char=82
-5	crisis	crisis	NOUN	NN	Number=Sing	4	_	_	start_char=83|end_char=89
-6	actors	actor	NOUN	NNS	Number=Plur	5	_	_	start_char=90|end_char=96
-7	at	at	ADP	IN	_	6	_	_	start_char=97|end_char=99
-8	CNN	CNN	PROPN	NNP	Number=Sing	7	_	_	start_char=100|end_char=103|SpaceAfter=No
-9	,	,	PUNCT	,	_	8	_	_	start_char=103|end_char=104
-10	one	one	PRON	PRP	Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=105|end_char=108
-11	might	might	AUX	MD	VerbForm=Fin	10	_	_	start_char=109|end_char=114
-12	get	get	VERB	VB	VerbForm=Inf	11	_	_	start_char=115|end_char=118
-13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=119|end_char=122
-14	idea	idea	NOUN	NN	Number=Sing	13	_	_	start_char=123|end_char=127
-15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=128|end_char=131
-16	population	population	NOUN	NN	Number=Sing	15	_	_	start_char=132|end_char=142
-17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=143|end_char=145
-18	primarily	primarily	ADV	RB	_	17	_	_	start_char=146|end_char=155
-19	Jewish	Jewish	ADJ	JJ	Degree=Pos	18	_	_	start_char=156|end_char=162
-20	and	and	CCONJ	CC	_	19	_	_	start_char=163|end_char=166
-21	Jewish	Jewish	ADJ	JJ	Degree=Pos	20	_	_	start_char=167|end_char=173
-22	Negro	Negro	PROPN	NNP	Number=Sing	21	_	_	start_char=174|end_char=179
-23	(	(	PUNCT	-LRB-	_	22	_	_	start_char=180|end_char=181|SpaceAfter=No
-24	Jewgro	Jewgro	PROPN	NNP	Number=Sing	23	_	_	start_char=181|end_char=187|SpaceAfter=No
-25	)	)	PUNCT	-RRB-	_	24	_	_	start_char=187|end_char=188|SpaceAfter=No
-26	.	.	PUNCT	.	_	25	_	_	start_char=188|end_char=189|SpaceAfter=No
+# sent_id = 103661
+1	Looking	look	VERB	VBG	VerbForm=Ger	0	_	_	start_char=59|end_char=66
+2	at	at	ADP	IN	_	1	_	_	start_char=67|end_char=69
+3	all	all	DET	PDT	_	2	_	_	start_char=70|end_char=73
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=74|end_char=77
+5	crisis	crisis	NOUN	NN	Number=Sing	4	_	_	start_char=78|end_char=84
+6	actors	actor	NOUN	NNS	Number=Plur	5	_	_	start_char=85|end_char=91
+7	at	at	ADP	IN	_	6	_	_	start_char=92|end_char=94
+8	CNN	CNN	PROPN	NNP	Number=Sing	7	_	_	start_char=95|end_char=98|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=98|end_char=99
+10	one	one	PRON	PRP	Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=100|end_char=103
+11	might	might	AUX	MD	VerbForm=Fin	10	_	_	start_char=104|end_char=109
+12	get	get	VERB	VB	VerbForm=Inf	11	_	_	start_char=110|end_char=113
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=114|end_char=117
+14	idea	idea	NOUN	NN	Number=Sing	13	_	_	start_char=118|end_char=122
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=123|end_char=126
+16	population	population	NOUN	NN	Number=Sing	15	_	_	start_char=127|end_char=137
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=138|end_char=140
+18	primarily	primarily	ADV	RB	_	17	_	_	start_char=141|end_char=150
+19	Jewish	Jewish	ADJ	JJ	Degree=Pos	18	_	_	start_char=151|end_char=157
+20	and	and	CCONJ	CC	_	19	_	_	start_char=158|end_char=161
+21	Jewish	Jewish	ADJ	JJ	Degree=Pos	20	_	_	start_char=162|end_char=168
+22	Negro	Negro	PROPN	NNP	Number=Sing	21	_	_	start_char=169|end_char=174
+23	(	(	PUNCT	-LRB-	_	22	_	_	start_char=175|end_char=176|SpaceAfter=No
+24	Jewgro	Jewgro	PROPN	NNP	Number=Sing	23	_	_	start_char=176|end_char=182|SpaceAfter=No
+25	)	)	PUNCT	-RRB-	_	24	_	_	start_char=182|end_char=183|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=183|end_char=184|SpaceAfter=No
 

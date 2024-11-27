@@ -1,61 +1,49 @@
-# text = [USER]
-# sent_id = 63147
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = The History of the Jews and the Mob Myron Sugerman, the "Last Jewish Gangster," describes the Jewish mafia's role in fighting anti-Semitism in the 1930's and the crucial role the Jewish mob played in arming the infant Jewish State.
-# sent_id = 63148
-1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=7|end_char=10
-2	History	History	PROPN	NNP	Number=Sing	1	_	_	start_char=11|end_char=18
-3	of	of	ADP	IN	_	2	_	_	start_char=19|end_char=21
-4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=22|end_char=25
-5	Jews	Jew	PROPN	NNPS	Number=Plur	4	_	_	start_char=26|end_char=30
-6	and	and	CCONJ	CC	_	5	_	_	start_char=31|end_char=34
-7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=35|end_char=38
-8	Mob	Mob	PROPN	NNP	Number=Sing	7	_	_	start_char=39|end_char=42
-9	Myron	Myron	PROPN	NNP	Number=Sing	8	_	_	start_char=43|end_char=48
-10	Sugerman	Sugerman	PROPN	NNP	Number=Sing	9	_	_	start_char=49|end_char=57|SpaceAfter=No
-11	,	,	PUNCT	,	_	10	_	_	start_char=57|end_char=58
-12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=59|end_char=62
-13	"	"	PUNCT	``	_	12	_	_	start_char=63|end_char=64|SpaceAfter=No
-14	Last	last	ADJ	NNP	Degree=Pos	13	_	_	start_char=64|end_char=68
-15	Jewish	Jewish	ADJ	NNP	Degree=Pos	14	_	_	start_char=69|end_char=75
-16	Gangster	Gangster	PROPN	NNP	Number=Sing	15	_	_	start_char=76|end_char=84|SpaceAfter=No
-17	,	,	PUNCT	,	_	16	_	_	start_char=84|end_char=85|SpaceAfter=No
-18	"	"	PUNCT	''	_	17	_	_	start_char=85|end_char=86
-19	describes	describe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=87|end_char=96
-20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=97|end_char=100
-21	Jewish	Jewish	ADJ	JJ	Degree=Pos	20	_	_	start_char=101|end_char=107
-22-23	mafia's	_	_	_	_	_	_	_	start_char=108|end_char=115
-22	mafia	mafia	NOUN	NN	Number=Sing	21	_	_	start_char=108|end_char=113
-23	's	's	PART	POS	_	22	_	_	start_char=113|end_char=115
-24	role	role	NOUN	NN	Number=Sing	23	_	_	start_char=116|end_char=120
-25	in	in	SCONJ	IN	_	24	_	_	start_char=121|end_char=123
-26	fighting	fight	VERB	VBG	VerbForm=Ger	25	_	_	start_char=124|end_char=132
-27	anti-Semitism	anti-Semitism	NOUN	NN	Number=Sing	26	_	_	start_char=133|end_char=146
-28	in	in	ADP	IN	_	27	_	_	start_char=147|end_char=149
-29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	start_char=150|end_char=153
-30	1930's	1930's	NOUN	NNS	Number=Plur	29	_	_	start_char=154|end_char=160
-31	and	and	CCONJ	CC	_	30	_	_	start_char=161|end_char=164
-32	the	the	DET	DT	Definite=Def|PronType=Art	31	_	_	start_char=165|end_char=168
-33	crucial	crucial	ADJ	JJ	Degree=Pos	32	_	_	start_char=169|end_char=176
-34	role	role	NOUN	NN	Number=Sing	33	_	_	start_char=177|end_char=181
-35	the	the	DET	DT	Definite=Def|PronType=Art	34	_	_	start_char=182|end_char=185
-36	Jewish	Jewish	ADJ	JJ	Degree=Pos	35	_	_	start_char=186|end_char=192
-37	mob	mob	NOUN	NN	Number=Sing	36	_	_	start_char=193|end_char=196
-38	played	play	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	_	_	start_char=197|end_char=203
-39	in	in	SCONJ	IN	_	38	_	_	start_char=204|end_char=206
-40	arming	arm	VERB	VBG	VerbForm=Ger	39	_	_	start_char=207|end_char=213
-41	the	the	DET	DT	Definite=Def|PronType=Art	40	_	_	start_char=214|end_char=217
-42	infant	infant	NOUN	NN	Number=Sing	41	_	_	start_char=218|end_char=224
-43	Jewish	Jewish	ADJ	NNP	Degree=Pos	42	_	_	start_char=225|end_char=231
-44	State	State	PROPN	NNP	Number=Sing	43	_	_	start_char=232|end_char=237|SpaceAfter=No
-45	.	.	PUNCT	.	_	44	_	_	start_char=237|end_char=238
-
-# text = [URL]
-# sent_id = 63149
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=239|end_char=240|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=240|end_char=243|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=243|end_char=244|SpaceAfter=No
+# sent_id = 61118
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	History	History	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=12
+3	of	of	ADP	IN	_	2	_	_	start_char=13|end_char=15
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=16|end_char=19
+5	Jews	Jew	PROPN	NNPS	Number=Plur	4	_	_	start_char=20|end_char=24
+6	and	and	CCONJ	CC	_	5	_	_	start_char=25|end_char=28
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=29|end_char=32
+8	Mob	Mob	PROPN	NNP	Number=Sing	7	_	_	start_char=33|end_char=36
+9	Myron	Myron	PROPN	NNP	Number=Sing	8	_	_	start_char=37|end_char=42
+10	Sugerman	Sugerman	PROPN	NNP	Number=Sing	9	_	_	start_char=43|end_char=51|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=51|end_char=52
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=53|end_char=56
+13	"	"	PUNCT	``	_	12	_	_	start_char=57|end_char=58|SpaceAfter=No
+14	Last	last	ADJ	NNP	Degree=Pos	13	_	_	start_char=58|end_char=62
+15	Jewish	Jewish	ADJ	NNP	Degree=Pos	14	_	_	start_char=63|end_char=69
+16	Gangster	Gangster	PROPN	NNP	Number=Sing	15	_	_	start_char=70|end_char=78|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=78|end_char=79|SpaceAfter=No
+18	"	"	PUNCT	''	_	17	_	_	start_char=79|end_char=80
+19	describes	describe	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=81|end_char=90
+20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=91|end_char=94
+21	Jewish	Jewish	ADJ	JJ	Degree=Pos	20	_	_	start_char=95|end_char=101
+22-23	mafia's	_	_	_	_	_	_	_	start_char=102|end_char=109
+22	mafia	mafia	NOUN	NN	Number=Sing	21	_	_	start_char=102|end_char=107
+23	's	's	PART	POS	_	22	_	_	start_char=107|end_char=109
+24	role	role	NOUN	NN	Number=Sing	23	_	_	start_char=110|end_char=114
+25	in	in	SCONJ	IN	_	24	_	_	start_char=115|end_char=117
+26	fighting	fight	VERB	VBG	VerbForm=Ger	25	_	_	start_char=118|end_char=126
+27	anti-Semitism	anti-Semitism	NOUN	NN	Number=Sing	26	_	_	start_char=127|end_char=140
+28	in	in	ADP	IN	_	27	_	_	start_char=141|end_char=143
+29	the	the	DET	DT	Definite=Def|PronType=Art	28	_	_	start_char=144|end_char=147
+30	1930's	1930's	NOUN	NNS	Number=Plur	29	_	_	start_char=148|end_char=154
+31	and	and	CCONJ	CC	_	30	_	_	start_char=155|end_char=158
+32	the	the	DET	DT	Definite=Def|PronType=Art	31	_	_	start_char=159|end_char=162
+33	crucial	crucial	ADJ	JJ	Degree=Pos	32	_	_	start_char=163|end_char=170
+34	role	role	NOUN	NN	Number=Sing	33	_	_	start_char=171|end_char=175
+35	the	the	DET	DT	Definite=Def|PronType=Art	34	_	_	start_char=176|end_char=179
+36	Jewish	Jewish	ADJ	JJ	Degree=Pos	35	_	_	start_char=180|end_char=186
+37	mob	mob	NOUN	NN	Number=Sing	36	_	_	start_char=187|end_char=190
+38	played	play	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	37	_	_	start_char=191|end_char=197
+39	in	in	SCONJ	IN	_	38	_	_	start_char=198|end_char=200
+40	arming	arm	VERB	VBG	VerbForm=Ger	39	_	_	start_char=201|end_char=207
+41	the	the	DET	DT	Definite=Def|PronType=Art	40	_	_	start_char=208|end_char=211
+42	infant	infant	NOUN	NN	Number=Sing	41	_	_	start_char=212|end_char=218
+43	Jewish	Jewish	ADJ	NNP	Degree=Pos	42	_	_	start_char=219|end_char=225
+44	State	State	PROPN	NNP	Number=Sing	43	_	_	start_char=226|end_char=231|SpaceAfter=No
+45	.	.	PUNCT	.	_	44	_	_	start_char=231|end_char=232
 

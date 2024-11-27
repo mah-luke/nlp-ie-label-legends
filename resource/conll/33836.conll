@@ -1,34 +1,28 @@
-# text = [USER]
-# sent_id = 72375
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Where are my Mai Tai's lady.
-# sent_id = 72376
-1	Where	where	ADV	WRB	PronType=Int	0	_	_	start_char=7|end_char=12
-2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=13|end_char=16
-3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=17|end_char=19
-4	Mai	Mai	PROPN	NNP	Number=Sing	3	_	_	start_char=20|end_char=23
-5-6	Tai's	_	_	_	_	_	_	_	start_char=24|end_char=29
-5	Tai	Tai	PROPN	NNP	Number=Sing	4	_	_	start_char=24|end_char=27
-6	's	's	PART	POS	_	5	_	_	start_char=27|end_char=29
-7	lady	lady	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=34|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=34|end_char=35
+# sent_id = 70042
+1	Where	where	ADV	WRB	PronType=Int	0	_	_	start_char=1|end_char=6|SpacesBefore=\s
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7|end_char=10
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=11|end_char=13
+4	Mai	Mai	PROPN	NNP	Number=Sing	3	_	_	start_char=14|end_char=17
+5-6	Tai's	_	_	_	_	_	_	_	start_char=18|end_char=23
+5	Tai	Tai	PROPN	NNP	Number=Sing	4	_	_	start_char=18|end_char=21
+6	's	's	PART	POS	_	5	_	_	start_char=21|end_char=23
+7	lady	lady	NOUN	NN	Number=Sing	6	_	_	start_char=24|end_char=28|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=28|end_char=29
 
 # text = It's time for me to mess up timelines today......LOL
-# sent_id = 72377
-1-2	It's	_	_	_	_	_	_	_	start_char=36|end_char=40
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=36|end_char=38
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=38|end_char=40
-3	time	time	NOUN	NN	Number=Sing	2	_	_	start_char=41|end_char=45
-4	for	for	SCONJ	IN	_	3	_	_	start_char=46|end_char=49
-5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=50|end_char=52
-6	to	to	PART	TO	_	5	_	_	start_char=53|end_char=55
-7	mess	mess	VERB	VB	VerbForm=Inf	6	_	_	start_char=56|end_char=60
-8	up	up	ADP	RP	_	7	_	_	start_char=61|end_char=63
-9	timelines	timeline	NOUN	NNS	Number=Plur	8	_	_	start_char=64|end_char=73
-10	today	today	NOUN	NN	Number=Sing	9	_	_	start_char=74|end_char=79|SpaceAfter=No
-11	......	......	PUNCT	,	_	10	_	_	start_char=79|end_char=85|SpaceAfter=No
-12	LOL	lol	INTJ	UH	_	11	_	_	start_char=85|end_char=88|SpaceAfter=No
+# sent_id = 70043
+1-2	It's	_	_	_	_	_	_	_	start_char=30|end_char=34
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=30|end_char=32
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=34
+3	time	time	NOUN	NN	Number=Sing	2	_	_	start_char=35|end_char=39
+4	for	for	SCONJ	IN	_	3	_	_	start_char=40|end_char=43
+5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=44|end_char=46
+6	to	to	PART	TO	_	5	_	_	start_char=47|end_char=49
+7	mess	mess	VERB	VB	VerbForm=Inf	6	_	_	start_char=50|end_char=54
+8	up	up	ADP	RP	_	7	_	_	start_char=55|end_char=57
+9	timelines	timeline	NOUN	NNS	Number=Plur	8	_	_	start_char=58|end_char=67
+10	today	today	NOUN	NN	Number=Sing	9	_	_	start_char=68|end_char=73|SpaceAfter=No
+11	......	......	PUNCT	,	_	10	_	_	start_char=73|end_char=79|SpaceAfter=No
+12	LOL	lol	INTJ	UH	_	11	_	_	start_char=79|end_char=82|SpaceAfter=No
 

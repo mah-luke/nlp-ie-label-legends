@@ -1,5 +1,5 @@
 # text = "African pride" , bitch.
-# sent_id = 111792
+# sent_id = 108135
 1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	African	African	ADJ	JJ	Degree=Pos	1	_	_	start_char=1|end_char=8
 3	pride	pride	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=14|SpaceAfter=No
@@ -9,7 +9,7 @@
 7	.	.	PUNCT	.	_	6	_	_	start_char=23|end_char=24
 
 # text = Still someone help this woman to heal, repent and come back sane.
-# sent_id = 111793
+# sent_id = 108136
 1	Still	still	ADV	RB	_	0	_	_	start_char=25|end_char=30
 2	someone	someone	PRON	NN	Number=Sing|PronType=Ind	1	_	_	start_char=31|end_char=38
 3	help	help	VERB	VB	VerbForm=Inf	2	_	_	start_char=39|end_char=43
@@ -25,17 +25,8 @@
 13	sane	sane	ADJ	JJ	Degree=Pos	12	_	_	start_char=85|end_char=89|SpaceAfter=No
 14	.	.	PUNCT	.	_	13	_	_	start_char=89|end_char=90
 
-# text = [USER]‍ [USER]‍ [URL]
-# sent_id = 111794
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=91|end_char=92|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=92|end_char=96|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=96|end_char=97|SpaceAfter=No
-4	‍	‍	PUNCT	:	_	3	_	_	start_char=97|end_char=98
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=99|end_char=100|SpaceAfter=No
-6	USER	user	NOUN	NN	Number=Sing	5	_	_	start_char=100|end_char=104|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=104|end_char=105|SpaceAfter=No
-8	‍	‍	PUNCT	.	_	7	_	_	start_char=105|end_char=106
-9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=107|end_char=108|SpaceAfter=No
-10	URL	URL	PROPN	NNP	Number=Sing	9	_	_	start_char=108|end_char=111|SpaceAfter=No
-11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=111|end_char=112|SpaceAfter=No
+# text = ‍ ‍
+# sent_id = 108137
+1	‍	‍	PUNCT	NFP	_	0	_	_	start_char=91|end_char=92
+2	‍	‍	PUNCT	.	_	1	_	_	start_char=93|end_char=94
 

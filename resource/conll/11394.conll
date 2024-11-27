@@ -1,26 +1,23 @@
-# text = [USER] she's like 15 pounds overweight at max.
-# sent_id = 24129
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4-5	she's	_	_	_	_	_	_	_	start_char=7|end_char=12
-4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=7|end_char=10
-5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=10|end_char=12
-6	like	like	INTJ	UH	_	5	_	_	start_char=13|end_char=17
-7	15	15	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=18|end_char=20
-8	pounds	pound	NOUN	NNS	Number=Plur	7	_	_	start_char=21|end_char=27
-9	overweight	overweight	ADJ	JJ	Degree=Pos	8	_	_	start_char=28|end_char=38
-10	at	at	ADP	IN	_	9	_	_	start_char=39|end_char=41
-11	max	max	NOUN	NN	Number=Sing	10	_	_	start_char=42|end_char=45|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=45|end_char=46
+# text = she's like 15 pounds overweight at max.
+# sent_id = 23337
+1-2	she's	_	_	_	_	_	_	_	start_char=1|end_char=6|SpacesBefore=\s
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=1|end_char=4
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	like	like	INTJ	UH	_	2	_	_	start_char=7|end_char=11
+4	15	15	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=12|end_char=14
+5	pounds	pound	NOUN	NNS	Number=Plur	4	_	_	start_char=15|end_char=21
+6	overweight	overweight	ADJ	JJ	Degree=Pos	5	_	_	start_char=22|end_char=32
+7	at	at	ADP	IN	_	6	_	_	start_char=33|end_char=35
+8	max	max	NOUN	NN	Number=Sing	7	_	_	start_char=36|end_char=39|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=39|end_char=40
 
 # text = She's still an idiot tho
-# sent_id = 24130
-1-2	She's	_	_	_	_	_	_	_	start_char=47|end_char=52
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=47|end_char=50
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=50|end_char=52
-3	still	still	ADV	RB	_	2	_	_	start_char=53|end_char=58
-4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=59|end_char=61
-5	idiot	idiot	NOUN	NN	Number=Sing	4	_	_	start_char=62|end_char=67
-6	tho	though	NOUN	NN	Number=Sing	5	_	_	start_char=68|end_char=71|SpaceAfter=No
+# sent_id = 23338
+1-2	She's	_	_	_	_	_	_	_	start_char=41|end_char=46
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=41|end_char=44
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=44|end_char=46
+3	still	still	ADV	RB	_	2	_	_	start_char=47|end_char=52
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=53|end_char=55
+5	idiot	idiot	NOUN	NN	Number=Sing	4	_	_	start_char=56|end_char=61
+6	tho	though	NOUN	NN	Number=Sing	5	_	_	start_char=62|end_char=65|SpaceAfter=No
 

@@ -1,44 +1,38 @@
-# text = [USER]
-# sent_id = 122214
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = People who are still mad about the election at this time like that dude are almost terminal in their rage fueled hate for our President and anyone who supports him and the MAGA agenda.
-# sent_id = 122215
-1	People	person	NOUN	NNS	Number=Plur	0	_	_	start_char=7|end_char=13
-2	who	who	PRON	WP	PronType=Rel	1	_	_	start_char=14|end_char=17
-3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=18|end_char=21
-4	still	still	ADV	RB	_	3	_	_	start_char=22|end_char=27
-5	mad	mad	ADJ	JJ	Degree=Pos	4	_	_	start_char=28|end_char=31
-6	about	about	ADP	IN	_	5	_	_	start_char=32|end_char=37
-7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=38|end_char=41
-8	election	election	NOUN	NN	Number=Sing	7	_	_	start_char=42|end_char=50
-9	at	at	ADP	IN	_	8	_	_	start_char=51|end_char=53
-10	this	this	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=54|end_char=58
-11	time	time	NOUN	NN	Number=Sing	10	_	_	start_char=59|end_char=63
-12	like	like	ADP	IN	_	11	_	_	start_char=64|end_char=68
-13	that	that	DET	DT	Number=Sing|PronType=Dem	12	_	_	start_char=69|end_char=73
-14	dude	dude	NOUN	NN	Number=Sing	13	_	_	start_char=74|end_char=78
-15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=79|end_char=82
-16	almost	almost	ADV	RB	_	15	_	_	start_char=83|end_char=89
-17	terminal	terminal	ADJ	JJ	Degree=Pos	16	_	_	start_char=90|end_char=98
-18	in	in	ADP	IN	_	17	_	_	start_char=99|end_char=101
-19	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=102|end_char=107
-20	rage	rage	NOUN	NN	Number=Sing	19	_	_	start_char=108|end_char=112
-21	fueled	fuel	VERB	VBN	Tense=Past|VerbForm=Part	20	_	_	start_char=113|end_char=119
-22	hate	hate	NOUN	NN	Number=Sing	21	_	_	start_char=120|end_char=124
-23	for	for	ADP	IN	_	22	_	_	start_char=125|end_char=128
-24	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	_	_	start_char=129|end_char=132
-25	President	President	PROPN	NNP	Number=Sing	24	_	_	start_char=133|end_char=142
-26	and	and	CCONJ	CC	_	25	_	_	start_char=143|end_char=146
-27	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	26	_	_	start_char=147|end_char=153
-28	who	who	PRON	WP	PronType=Rel	27	_	_	start_char=154|end_char=157
-29	supports	support	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	_	_	start_char=158|end_char=166
-30	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	_	_	start_char=167|end_char=170
-31	and	and	CCONJ	CC	_	30	_	_	start_char=171|end_char=174
-32	the	the	DET	DT	Definite=Def|PronType=Art	31	_	_	start_char=175|end_char=178
-33	MAGA	maga	NOUN	NN	Number=Sing	32	_	_	start_char=179|end_char=183
-34	agenda	agenda	NOUN	NN	Number=Sing	33	_	_	start_char=184|end_char=190|SpaceAfter=No
-35	.	.	PUNCT	.	_	34	_	_	start_char=190|end_char=191|SpaceAfter=No
+# sent_id = 118287
+1	People	person	NOUN	NNS	Number=Plur	0	_	_	start_char=1|end_char=7|SpacesBefore=\s
+2	who	who	PRON	WP	PronType=Rel	1	_	_	start_char=8|end_char=11
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=15
+4	still	still	ADV	RB	_	3	_	_	start_char=16|end_char=21
+5	mad	mad	ADJ	JJ	Degree=Pos	4	_	_	start_char=22|end_char=25
+6	about	about	ADP	IN	_	5	_	_	start_char=26|end_char=31
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=32|end_char=35
+8	election	election	NOUN	NN	Number=Sing	7	_	_	start_char=36|end_char=44
+9	at	at	ADP	IN	_	8	_	_	start_char=45|end_char=47
+10	this	this	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=48|end_char=52
+11	time	time	NOUN	NN	Number=Sing	10	_	_	start_char=53|end_char=57
+12	like	like	ADP	IN	_	11	_	_	start_char=58|end_char=62
+13	that	that	DET	DT	Number=Sing|PronType=Dem	12	_	_	start_char=63|end_char=67
+14	dude	dude	NOUN	NN	Number=Sing	13	_	_	start_char=68|end_char=72
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=73|end_char=76
+16	almost	almost	ADV	RB	_	15	_	_	start_char=77|end_char=83
+17	terminal	terminal	ADJ	JJ	Degree=Pos	16	_	_	start_char=84|end_char=92
+18	in	in	ADP	IN	_	17	_	_	start_char=93|end_char=95
+19	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=96|end_char=101
+20	rage	rage	NOUN	NN	Number=Sing	19	_	_	start_char=102|end_char=106
+21	fueled	fuel	VERB	VBN	Tense=Past|VerbForm=Part	20	_	_	start_char=107|end_char=113
+22	hate	hate	NOUN	NN	Number=Sing	21	_	_	start_char=114|end_char=118
+23	for	for	ADP	IN	_	22	_	_	start_char=119|end_char=122
+24	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	23	_	_	start_char=123|end_char=126
+25	President	President	PROPN	NNP	Number=Sing	24	_	_	start_char=127|end_char=136
+26	and	and	CCONJ	CC	_	25	_	_	start_char=137|end_char=140
+27	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	26	_	_	start_char=141|end_char=147
+28	who	who	PRON	WP	PronType=Rel	27	_	_	start_char=148|end_char=151
+29	supports	support	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	_	_	start_char=152|end_char=160
+30	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	29	_	_	start_char=161|end_char=164
+31	and	and	CCONJ	CC	_	30	_	_	start_char=165|end_char=168
+32	the	the	DET	DT	Definite=Def|PronType=Art	31	_	_	start_char=169|end_char=172
+33	MAGA	maga	NOUN	NN	Number=Sing	32	_	_	start_char=173|end_char=177
+34	agenda	agenda	NOUN	NN	Number=Sing	33	_	_	start_char=178|end_char=184|SpaceAfter=No
+35	.	.	PUNCT	.	_	34	_	_	start_char=184|end_char=185|SpaceAfter=No
 

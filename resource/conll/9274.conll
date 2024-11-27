@@ -1,5 +1,5 @@
-# text = 5 doctors destroy the CNN debate dealing with the repealing of Obamacare: [URL] Medicare was the reason for the ACA garnering many of its recipients & they didn't need healthcare.
-# sent_id = 19588
+# text = 5 doctors destroy the CNN debate dealing with the repealing of Obamacare: Medicare was the reason for the ACA garnering many of its recipients & they didn't need healthcare.
+# sent_id = 18946
 1	5	5	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=1
 2	doctors	doctor	NOUN	NNS	Number=Plur	1	_	_	start_char=2|end_char=9
 3	destroy	destroy	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=17
@@ -12,28 +12,25 @@
 10	repealing	repealing	NOUN	NN	Number=Sing	9	_	_	start_char=50|end_char=59
 11	of	of	ADP	IN	_	10	_	_	start_char=60|end_char=62
 12	Obamacare	Obamacare	PROPN	NNP	Number=Sing	11	_	_	start_char=63|end_char=72|SpaceAfter=No
-13	:	:	PUNCT	:	_	12	_	_	start_char=72|end_char=73
-14	[	[	PUNCT	-LRB-	_	13	_	_	start_char=74|end_char=75|SpaceAfter=No
-15	URL	URL	PROPN	NNP	Number=Sing	14	_	_	start_char=75|end_char=78|SpaceAfter=No
-16	]	]	PUNCT	-RRB-	_	15	_	_	start_char=78|end_char=79
-17	Medicare	Medicare	PROPN	NNP	Number=Sing	16	_	_	start_char=80|end_char=88
-18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=89|end_char=92
-19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=93|end_char=96
-20	reason	reason	NOUN	NN	Number=Sing	19	_	_	start_char=97|end_char=103
-21	for	for	ADP	IN	_	20	_	_	start_char=104|end_char=107
-22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=108|end_char=111
-23	ACA	ACA	PROPN	NNP	Number=Sing	22	_	_	start_char=112|end_char=115
-24	garnering	garner	VERB	VBG	VerbForm=Ger	23	_	_	start_char=116|end_char=125
-25	many	many	ADJ	JJ	Degree=Pos	24	_	_	start_char=126|end_char=130
-26	of	of	ADP	IN	_	25	_	_	start_char=131|end_char=133
-27	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	_	_	start_char=134|end_char=137
-28	recipients	recipient	NOUN	NNS	Number=Plur	27	_	_	start_char=138|end_char=148
-29	&	&	CCONJ	CC	_	28	_	_	start_char=149|end_char=150
-30	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	29	_	_	start_char=151|end_char=155
-31-32	didn't	_	_	_	_	_	_	_	start_char=156|end_char=162
-31	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	30	_	_	start_char=156|end_char=159
-32	n't	not	PART	RB	_	31	_	_	start_char=159|end_char=162
-33	need	need	VERB	VB	VerbForm=Inf	32	_	_	start_char=163|end_char=167
-34	healthcare	healthcare	NOUN	NN	Number=Sing	33	_	_	start_char=168|end_char=178|SpaceAfter=No
-35	.	.	PUNCT	.	_	34	_	_	start_char=178|end_char=179|SpaceAfter=No
+13	:	:	PUNCT	:	_	12	_	_	start_char=72|end_char=73|SpacesAfter=\s\s
+14	Medicare	Medicare	PROPN	NNP	Number=Sing	13	_	_	start_char=75|end_char=83
+15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=84|end_char=87
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=88|end_char=91
+17	reason	reason	NOUN	NN	Number=Sing	16	_	_	start_char=92|end_char=98
+18	for	for	ADP	IN	_	17	_	_	start_char=99|end_char=102
+19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=103|end_char=106
+20	ACA	ACA	PROPN	NNP	Number=Sing	19	_	_	start_char=107|end_char=110
+21	garnering	garner	VERB	VBG	VerbForm=Ger	20	_	_	start_char=111|end_char=120
+22	many	many	ADJ	JJ	Degree=Pos	21	_	_	start_char=121|end_char=125
+23	of	of	ADP	IN	_	22	_	_	start_char=126|end_char=128
+24	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	_	_	start_char=129|end_char=132
+25	recipients	recipient	NOUN	NNS	Number=Plur	24	_	_	start_char=133|end_char=143
+26	&	&	CCONJ	CC	_	25	_	_	start_char=144|end_char=145
+27	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	26	_	_	start_char=146|end_char=150
+28-29	didn't	_	_	_	_	_	_	_	start_char=151|end_char=157
+28	did	do	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	27	_	_	start_char=151|end_char=154
+29	n't	not	PART	RB	_	28	_	_	start_char=154|end_char=157
+30	need	need	VERB	VB	VerbForm=Inf	29	_	_	start_char=158|end_char=162
+31	healthcare	healthcare	NOUN	NN	Number=Sing	30	_	_	start_char=163|end_char=173|SpaceAfter=No
+32	.	.	PUNCT	.	_	31	_	_	start_char=173|end_char=174|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = Attraction starts with you!
-# sent_id = 65019
+# sent_id = 62943
 1	Attraction	attraction	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=10
 2	starts	start	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=11|end_char=17
 3	with	with	ADP	IN	_	2	_	_	start_char=18|end_char=22
@@ -7,7 +7,7 @@
 5	!	!	PUNCT	.	_	4	_	_	start_char=26|end_char=27
 
 # text = You have to want to bang yourself before she'll bang you!
-# sent_id = 65020
+# sent_id = 62944
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=28|end_char=31
 2	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=36
 3	to	to	PART	TO	_	2	_	_	start_char=37|end_char=39
@@ -21,15 +21,11 @@
 10	'll	will	AUX	MD	VerbForm=Fin	9	_	_	start_char=72|end_char=75
 11	bang	bang	VERB	VB	VerbForm=Inf	10	_	_	start_char=76|end_char=80
 12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	_	_	start_char=81|end_char=84|SpaceAfter=No
-13	!	!	PUNCT	.	_	12	_	_	start_char=84|end_char=85
+13	!	!	PUNCT	.	_	12	_	_	start_char=84|end_char=85|SpacesAfter=\s\s
 
-# text = [URL] #dating #manosphere #redpill
-# sent_id = 65021
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=86|end_char=87|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=87|end_char=90|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=90|end_char=91
-4	#dating	#dating	NOUN	NN	Number=Sing	3	_	_	start_char=92|end_char=99
-5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=100|end_char=101|SpaceAfter=No
-6	manosphere	manosphere	NOUN	NN	Number=Sing	5	_	_	start_char=101|end_char=111
-7	#redpill	#redpill	PROPN	NNP	Number=Sing	6	_	_	start_char=112|end_char=120|SpaceAfter=No
+# text = #dating #manosphere #redpill
+# sent_id = 62945
+1	#dating	#dating	NOUN	NN	Number=Sing	0	_	_	start_char=87|end_char=94
+2	#manosphere	#manosphere	PROPN	NNP	Number=Sing	1	_	_	start_char=95|end_char=106
+3	#redpill	#redpill	X	ADD	_	2	_	_	start_char=107|end_char=115|SpaceAfter=No
 

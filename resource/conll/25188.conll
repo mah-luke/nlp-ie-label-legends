@@ -1,5 +1,5 @@
 # text = Jemma Beale, 25, was sentenced in London, England on Aug. 24 to 10 years in prison.
-# sent_id = 54006
+# sent_id = 52269
 1	Jemma	Jemma	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
 2	Beale	Beale	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=11|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	_	_	start_char=11|end_char=12
@@ -22,7 +22,7 @@
 20	.	.	PUNCT	.	_	19	_	_	start_char=82|end_char=83
 
 # text = She was convicted in July of charges related to falsely accusing 15 men of sexual assault and rape in four incidents from 2010 to 2013.
-# sent_id = 54007
+# sent_id = 52270
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=84|end_char=87
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=88|end_char=91
 3	convicted	convict	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=92|end_char=101
@@ -48,20 +48,11 @@
 23	2010	2010	NUM	CD	NumForm=Digit|NumType=Card	22	_	_	start_char=206|end_char=210
 24	to	to	ADP	IN	_	23	_	_	start_char=211|end_char=213
 25	2013	2013	NUM	CD	NumForm=Digit|NumType=Card	24	_	_	start_char=214|end_char=218|SpaceAfter=No
-26	.	.	PUNCT	.	_	25	_	_	start_char=218|end_char=219
+26	.	.	PUNCT	.	_	25	_	_	start_char=218|end_char=219|SpacesAfter=\s\s
 
-# text = [URL]
-# sent_id = 54008
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=220|end_char=221|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=221|end_char=224|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=224|end_char=225
-
-# text = See also, [URL]
-# sent_id = 54009
-1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=226|end_char=229
-2	also	also	ADV	RB	_	1	_	_	start_char=230|end_char=234|SpaceAfter=No
-3	,	,	PUNCT	,	_	2	_	_	start_char=234|end_char=235
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=236|end_char=237|SpaceAfter=No
-5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=237|end_char=240|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=240|end_char=241|SpaceAfter=No
+# text = See also,
+# sent_id = 52271
+1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=221|end_char=224
+2	also	also	ADV	RB	_	1	_	_	start_char=225|end_char=229|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=229|end_char=230
 

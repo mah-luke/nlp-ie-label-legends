@@ -1,5 +1,5 @@
 # text = Vice TV on a hate-hunting mission?
-# sent_id = 5671
+# sent_id = 5497
 1	Vice	vice	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=4
 2	TV	TV	NOUN	NN	Number=Sing	1	_	_	start_char=5|end_char=7
 3	on	on	ADP	IN	_	2	_	_	start_char=8|end_char=10
@@ -10,17 +10,14 @@
 8	mission	mission	NOUN	NN	Number=Sing	7	_	_	start_char=26|end_char=33|SpaceAfter=No
 9	?	?	PUNCT	.	_	8	_	_	start_char=33|end_char=34
 
-# text = #News #Immigration #Refugees #Illegalimmigration [URL]
-# sent_id = 5672
+# text = #News #Immigration #Refugees #Illegalimmigration
+# sent_id = 5498
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=35|end_char=36|SpaceAfter=No
-2	News	news	NOUN	NN	Number=Sing	1	_	_	start_char=36|end_char=40
+2	News	news	NOUN	GW	Number=Sing	1	_	_	start_char=36|end_char=40
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=41|end_char=42|SpaceAfter=No
-4	Immigration	immigration	NOUN	NN	Number=Sing	3	_	_	start_char=42|end_char=53
+4	Immigration	immigration	NOUN	GW	Number=Sing	3	_	_	start_char=42|end_char=53
 5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=54|end_char=55|SpaceAfter=No
 6	Refugees	refugee	NOUN	NNS	Number=Plur	5	_	_	start_char=55|end_char=63
 7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=64|end_char=65|SpaceAfter=No
 8	Illegalimmigration	illegalimmigration	NOUN	NN	Number=Sing	7	_	_	start_char=65|end_char=83
-9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=84|end_char=85|SpaceAfter=No
-10	URL	URL	NOUN	NN	Number=Sing	9	_	_	start_char=85|end_char=88|SpaceAfter=No
-11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=88|end_char=89|SpaceAfter=No
 

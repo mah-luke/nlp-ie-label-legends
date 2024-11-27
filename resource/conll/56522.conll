@@ -1,5 +1,5 @@
-# text = Six women accuse massage therapist of sex abuse [URL] [URL]
-# sent_id = 120827
+# text = Six women accuse massage therapist of sex abuse
+# sent_id = 116939
 1	Six	six	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=0|end_char=3
 2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=4|end_char=9
 3	accuse	accuse	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=16
@@ -7,11 +7,5 @@
 5	therapist	therapist	NOUN	NN	Number=Sing	4	_	_	start_char=25|end_char=34
 6	of	of	ADP	IN	_	5	_	_	start_char=35|end_char=37
 7	sex	sex	NOUN	NN	Number=Sing	6	_	_	start_char=38|end_char=41
-8	abuse	abuse	NOUN	NN	Number=Sing	7	_	_	start_char=42|end_char=47
-9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=48|end_char=49|SpaceAfter=No
-10	URL	URL	PROPN	NNP	Number=Sing	9	_	_	start_char=49|end_char=52|SpaceAfter=No
-11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=52|end_char=53
-12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=54|end_char=55|SpaceAfter=No
-13	URL	URL	PROPN	NNP	Number=Sing	12	_	_	start_char=55|end_char=58|SpaceAfter=No
-14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=58|end_char=59|SpaceAfter=No
+8	abuse	abuse	NOUN	NN	Number=Sing	7	_	_	start_char=42|end_char=47|SpacesAfter=\s\s
 

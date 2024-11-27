@@ -1,5 +1,5 @@
 # text = That means federal laws requiring states to give gay marriage licenses, let abortion providers operate, ®ulations allowing boys in girls' bathrooms &locker rooms can also be ignored.
-# sent_id = 47112
+# sent_id = 45561
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
 2	means	mean	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=10
 3	federal	federal	ADJ	JJ	Degree=Pos	2	_	_	start_char=11|end_char=18
@@ -31,18 +31,16 @@
 28	also	also	ADV	RB	_	27	_	_	start_char=166|end_char=170
 29	be	be	AUX	VB	VerbForm=Inf	28	_	_	start_char=171|end_char=173
 30	ignored	ignore	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	29	_	_	start_char=174|end_char=181|SpaceAfter=No
-31	.	.	PUNCT	.	_	30	_	_	start_char=181|end_char=182
+31	.	.	PUNCT	.	_	30	_	_	start_char=181|end_char=182|SpacesAfter=\s\s
 
-# text = [URL] #TCOG #MAGA #GOP #Conservatives #Christians
-# sent_id = 47113
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=183|end_char=184|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=184|end_char=187|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=187|end_char=188
-4	#TCOG	#TCOG	PROPN	NNP	Number=Sing	3	_	_	start_char=189|end_char=194
-5	#MAGA	#MAGA	PROPN	NNP	Number=Sing	4	_	_	start_char=195|end_char=200
-6	#GOP	#gop	NOUN	NN	Number=Sing	5	_	_	start_char=201|end_char=205
-7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=206|end_char=207|SpaceAfter=No
-8	Conservatives	Conservatives	PROPN	NNPS	Number=Plur	7	_	_	start_char=207|end_char=220
-9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=221|end_char=222|SpaceAfter=No
-10	Christians	Christian	PROPN	NNPS	Number=Plur	9	_	_	start_char=222|end_char=232|SpaceAfter=No
+# text = #TCOG #MAGA #GOP #Conservatives #Christians
+# sent_id = 45562
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=184|end_char=185|SpaceAfter=No
+2	TCOG	tcog	NOUN	NN	Number=Sing	1	_	_	start_char=185|end_char=189
+3	#MAGA	#maga	NOUN	NN	Number=Sing	2	_	_	start_char=190|end_char=195
+4	#GOP	#gop	NOUN	NN	Number=Sing	3	_	_	start_char=196|end_char=200
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=201|end_char=202|SpaceAfter=No
+6	Conservatives	conservative	NOUN	NNS	Number=Plur	5	_	_	start_char=202|end_char=215
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=216|end_char=217|SpaceAfter=No
+8	Christians	Christian	PROPN	NNPS	Number=Plur	7	_	_	start_char=217|end_char=227|SpaceAfter=No
 

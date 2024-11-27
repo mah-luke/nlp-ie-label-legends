@@ -1,5 +1,5 @@
 # text = Google and Bing can eat a box of dicks.
-# sent_id = 29846
+# sent_id = 28886
 1	Google	Google	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
 2	and	and	CCONJ	CC	_	1	_	_	start_char=7|end_char=10
 3	Bing	Bing	PROPN	NNP	Number=Sing	2	_	_	start_char=11|end_char=15
@@ -12,7 +12,7 @@
 10	.	.	PUNCT	.	_	9	_	_	start_char=38|end_char=39
 
 # text = Deny traffic to services that take aggressive measures in silencing opposition.
-# sent_id = 29847
+# sent_id = 28887
 1	Deny	deny	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=40|end_char=44
 2	traffic	traffic	NOUN	NN	Number=Sing	1	_	_	start_char=45|end_char=52
 3	to	to	ADP	IN	_	2	_	_	start_char=53|end_char=55
@@ -24,25 +24,22 @@
 9	in	in	SCONJ	IN	_	8	_	_	start_char=95|end_char=97
 10	silencing	silence	VERB	VBG	VerbForm=Ger	9	_	_	start_char=98|end_char=107
 11	opposition	opposition	NOUN	NN	Number=Sing	10	_	_	start_char=108|end_char=118|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=118|end_char=119
+12	.	.	PUNCT	.	_	11	_	_	start_char=118|end_char=119|SpacesAfter=\s\s
 
-# text = [URL] seems to do everything I need it to.
-# sent_id = 29848
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=120|end_char=121|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=121|end_char=124|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=124|end_char=125
-4	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=126|end_char=131
-5	to	to	PART	TO	_	4	_	_	start_char=132|end_char=134
-6	do	do	VERB	VB	VerbForm=Inf	5	_	_	start_char=135|end_char=137
-7	everything	everything	PRON	NN	Number=Sing|PronType=Tot	6	_	_	start_char=138|end_char=148
-8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=149|end_char=150
-9	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=151|end_char=155
-10	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=156|end_char=158
-11	to	to	PART	TO	_	10	_	_	start_char=159|end_char=161|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=161|end_char=162
+# text = seems to do everything I need it to.
+# sent_id = 28888
+1	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=121|end_char=126
+2	to	to	PART	TO	_	1	_	_	start_char=127|end_char=129
+3	do	do	VERB	VB	VerbForm=Inf	2	_	_	start_char=130|end_char=132
+4	everything	everything	PRON	NN	Number=Sing|PronType=Tot	3	_	_	start_char=133|end_char=143
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=144|end_char=145
+6	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=146|end_char=150
+7	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=151|end_char=153
+8	to	to	PART	TO	_	7	_	_	start_char=154|end_char=156|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=156|end_char=157
 
 # text = #SpeakFreely
-# sent_id = 29849
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=163|end_char=164|SpaceAfter=No
-2	SpeakFreely	SpeakFreely	NOUN	NN	Number=Sing	1	_	_	start_char=164|end_char=175|SpaceAfter=No
+# sent_id = 28889
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=158|end_char=159|SpaceAfter=No
+2	SpeakFreely	SpeakFreely	NOUN	NN	Number=Sing	1	_	_	start_char=159|end_char=170|SpaceAfter=No
 

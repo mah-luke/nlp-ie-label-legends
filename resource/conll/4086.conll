@@ -1,5 +1,5 @@
 # text = Not going to happen.
-# sent_id = 8583
+# sent_id = 8316
 1	Not	not	PART	RB	_	0	_	_	start_char=0|end_char=3
 2	going	go	VERB	VBG	VerbForm=Ger	1	_	_	start_char=4|end_char=9
 3	to	to	PART	TO	_	2	_	_	start_char=10|end_char=12
@@ -7,14 +7,14 @@
 5	.	.	PUNCT	.	_	4	_	_	start_char=19|end_char=20
 
 # text = She is finished.
-# sent_id = 8584
+# sent_id = 8317
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=21|end_char=24
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=25|end_char=27
 3	finished	finish	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=28|end_char=36|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	_	_	start_char=36|end_char=37
 
 # text = She better get ready for the trial.
-# sent_id = 8585
+# sent_id = 8318
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=38|end_char=41
 2	better	well	ADV	RBR	Degree=Cmp	1	_	_	start_char=42|end_char=48
 3	get	get	VERB	VB	VerbForm=Inf	2	_	_	start_char=49|end_char=52
@@ -25,7 +25,7 @@
 8	.	.	PUNCT	.	_	7	_	_	start_char=72|end_char=73
 
 # text = Orange is the new color for many of her friends as well.
-# sent_id = 8586
+# sent_id = 8319
 1	Orange	Orange	PROPN	NNP	Number=Sing	0	_	_	start_char=74|end_char=80
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=81|end_char=83
 3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=84|end_char=87
@@ -39,10 +39,4 @@
 11	as	as	ADV	RB	_	10	_	_	start_char=122|end_char=124
 12	well	well	ADV	RB	Degree=Pos	11	_	_	start_char=125|end_char=129|SpaceAfter=No
 13	.	.	PUNCT	.	_	12	_	_	start_char=129|end_char=130|SpaceAfter=No
-
-# text = [USER]
-# sent_id = 8587
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=130|end_char=131|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=131|end_char=135|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=135|end_char=136|SpaceAfter=No
 

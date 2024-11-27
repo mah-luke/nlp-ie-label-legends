@@ -1,5 +1,5 @@
 # text = Get the US OUT of the UN, and get the #UN OUT of NY "We are paying an organization that spends our money trying to attack the only Jewish State on the planet".
-# sent_id = 86566
+# sent_id = 83749
 1	Get	get	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=3
 2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=4|end_char=7
 3	US	US	PROPN	NNP	Number=Sing	2	_	_	start_char=8|end_char=10
@@ -36,19 +36,16 @@
 34	the	the	DET	DT	Definite=Def|PronType=Art	33	_	_	start_char=147|end_char=150
 35	planet	planet	NOUN	NN	Number=Sing	34	_	_	start_char=151|end_char=157|SpaceAfter=No
 36	"	"	PUNCT	''	_	35	_	_	start_char=157|end_char=158|SpaceAfter=No
-37	.	.	PUNCT	.	_	36	_	_	start_char=158|end_char=159
+37	.	.	PUNCT	.	_	36	_	_	start_char=158|end_char=159|SpacesAfter=\s\s
 
-# text = [URL] #SupportIsrael #StopGlobalism #MAGA #GabFam
-# sent_id = 86567
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=160|end_char=161|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=161|end_char=164|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=164|end_char=165
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=166|end_char=167|SpaceAfter=No
-5	SupportIsrael	supportisrael	NOUN	NN	Number=Sing	4	_	_	start_char=167|end_char=180
-6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=181|end_char=182|SpaceAfter=No
-7	StopGlobalism	stopglobalism	NOUN	NN	Number=Sing	6	_	_	start_char=182|end_char=195
-8	#	#	SYM	NN	Number=Sing	7	_	_	start_char=196|end_char=197|SpaceAfter=No
-9	MAGA	maga	NOUN	NN	Number=Sing	8	_	_	start_char=197|end_char=201
-10	#	#	SYM	NN	Number=Sing	9	_	_	start_char=202|end_char=203|SpaceAfter=No
-11	GabFam	gabfam	NOUN	NN	Number=Sing	10	_	_	start_char=203|end_char=209|SpaceAfter=No
+# text = #SupportIsrael #StopGlobalism #MAGA #GabFam
+# sent_id = 83750
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=161|end_char=162|SpaceAfter=No
+2	SupportIsrael	supportisrael	NOUN	GW	Number=Sing	1	_	_	start_char=162|end_char=175
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=176|end_char=177|SpaceAfter=No
+4	StopGlobalism	stopglobalism	NOUN	NN	Number=Sing	3	_	_	start_char=177|end_char=190
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=191|end_char=192|SpaceAfter=No
+6	MAGA	maga	NOUN	NN	Number=Sing	5	_	_	start_char=192|end_char=196
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=197|end_char=198|SpaceAfter=No
+8	GabFam	gabfam	NOUN	NN	Number=Sing	7	_	_	start_char=198|end_char=204|SpaceAfter=No
 

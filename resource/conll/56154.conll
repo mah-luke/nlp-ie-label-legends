@@ -1,5 +1,5 @@
 # text = McCain telling SECDEF what's up.
-# sent_id = 120063
+# sent_id = 116184
 1	McCain	McCain	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
 2	telling	tell	VERB	VBG	VerbForm=Ger	1	_	_	start_char=7|end_char=14
 3	SECDEF	SECDEF	PROPN	NNP	Number=Sing	2	_	_	start_char=15|end_char=21
@@ -10,7 +10,7 @@
 7	.	.	PUNCT	.	_	6	_	_	start_char=31|end_char=32
 
 # text = New sheriff in town boys and girls.
-# sent_id = 120064
+# sent_id = 116185
 1	New	New	ADJ	JJ	Degree=Pos	0	_	_	start_char=33|end_char=36
 2	sheriff	sheriff	NOUN	NN	Number=Sing	1	_	_	start_char=37|end_char=44
 3	in	in	ADP	IN	_	2	_	_	start_char=45|end_char=47
@@ -21,7 +21,7 @@
 8	.	.	PUNCT	.	_	7	_	_	start_char=67|end_char=68
 
 # text = Time to stop making pointless changes to uniforms and ratings and get back to winning the fight.
-# sent_id = 120065
+# sent_id = 116186
 1	Time	time	NOUN	NN	Number=Sing	0	_	_	start_char=69|end_char=73
 2	to	to	PART	TO	_	1	_	_	start_char=74|end_char=76
 3	stop	stop	VERB	VB	VerbForm=Inf	2	_	_	start_char=77|end_char=81
@@ -41,19 +41,16 @@
 17	fight	fight	NOUN	NN	Number=Sing	16	_	_	start_char=159|end_char=164|SpaceAfter=No
 18	.	.	PUNCT	.	_	17	_	_	start_char=164|end_char=165
 
-# text = #MAGA #GabFam #Trump #MadDogMattis #DrainTheSwamp [URL]
-# sent_id = 120066
+# text = #MAGA #GabFam #Trump #MadDogMattis #DrainTheSwamp
+# sent_id = 116187
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=166|end_char=167|SpaceAfter=No
-2	MAGA	maga	X	GW	_	1	_	_	start_char=167|end_char=171
+2	MAGA	maga	NOUN	GW	Number=Sing	1	_	_	start_char=167|end_char=171
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=172|end_char=173|SpaceAfter=No
 4	GabFam	gabfam	X	GW	_	3	_	_	start_char=173|end_char=179
 5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=180|end_char=181|SpaceAfter=No
 6	Trump	Trump	X	GW	_	5	_	_	start_char=181|end_char=186
-7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=187|end_char=188|SpaceAfter=No
+7	#	#	X	NN	_	6	_	_	start_char=187|end_char=188|SpaceAfter=No
 8	MadDogMattis	maddogmattis	X	GW	_	7	_	_	start_char=188|end_char=200
 9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=201|end_char=202|SpaceAfter=No
 10	DrainTheSwamp	DrainTheSwamp	X	NN	_	9	_	_	start_char=202|end_char=215
-11	[	[	PUNCT	-LRB-	_	10	_	_	start_char=216|end_char=217|SpaceAfter=No
-12	URL	URL	NOUN	NN	Number=Sing	11	_	_	start_char=217|end_char=220|SpaceAfter=No
-13	]	]	PUNCT	-RRB-	_	12	_	_	start_char=220|end_char=221|SpaceAfter=No
 

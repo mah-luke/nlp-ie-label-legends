@@ -1,21 +1,15 @@
-# text = #justiceforthe1400 [USER]
-# sent_id = 47417
+# text = #justiceforthe1400
+# sent_id = 45854
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	justiceforth	justiceforth	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=13|SpaceAfter=No
-3	e1400	e1400	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=13|end_char=18
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=19|end_char=20|SpaceAfter=No
-5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=24|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=24|end_char=25
+3	e1400	e1400	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=13|end_char=18|SpacesAfter=\s\s
 
-# text = You may like this girl: [URL]
-# sent_id = 47418
-1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=26|end_char=29
-2	may	may	AUX	MD	VerbForm=Fin	1	_	_	start_char=30|end_char=33
-3	like	like	VERB	VB	VerbForm=Inf	2	_	_	start_char=34|end_char=38
-4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=39|end_char=43
-5	girl	girl	NOUN	NN	Number=Sing	4	_	_	start_char=44|end_char=48|SpaceAfter=No
-6	:	:	PUNCT	:	_	5	_	_	start_char=48|end_char=49
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=50|end_char=51|SpaceAfter=No
-8	URL	URL	PROPN	NNP	Number=Sing	7	_	_	start_char=51|end_char=54|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=54|end_char=55|SpaceAfter=No
+# text = You may like this girl:
+# sent_id = 45855
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=20|end_char=23
+2	may	may	AUX	MD	VerbForm=Fin	1	_	_	start_char=24|end_char=27
+3	like	like	VERB	VB	VerbForm=Inf	2	_	_	start_char=28|end_char=32
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=33|end_char=37
+5	girl	girl	NOUN	NN	Number=Sing	4	_	_	start_char=38|end_char=42|SpaceAfter=No
+6	:	:	PUNCT	:	_	5	_	_	start_char=42|end_char=43
 

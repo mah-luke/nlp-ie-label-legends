@@ -1,5 +1,5 @@
 # text = Some of humanity's best works of art are studies of the female nude.
-# sent_id = 86461
+# sent_id = 83649
 1	Some	some	DET	DT	_	0	_	_	start_char=0|end_char=4
 2	of	of	ADP	IN	_	1	_	_	start_char=5|end_char=7
 3-4	humanity's	_	_	_	_	_	_	_	start_char=8|end_char=18
@@ -18,7 +18,7 @@
 15	.	.	PUNCT	.	_	14	_	_	start_char=67|end_char=68
 
 # text = Now that's a #BadThing.
-# sent_id = 86462
+# sent_id = 83650
 1	Now	now	ADV	RB	_	0	_	_	start_char=69|end_char=72
 2-3	that's	_	_	_	_	_	_	_	start_char=73|end_char=79
 2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=73|end_char=77
@@ -29,17 +29,10 @@
 7	.	.	PUNCT	.	_	6	_	_	start_char=91|end_char=92
 
 # text = The #NewPuritans march on.
-# sent_id = 86463
+# sent_id = 83651
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=93|end_char=96
-2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=97|end_char=98|SpaceAfter=No
-3	NewPuritans	NewPuritans	PROPN	NNP	Number=Sing	2	_	_	start_char=98|end_char=109
-4	march	march	PROPN	NNP	Number=Sing	3	_	_	start_char=110|end_char=115
-5	on	on	ADV	RB	_	4	_	_	start_char=116|end_char=118|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=118|end_char=119
-
-# text = [URL]
-# sent_id = 86464
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=120|end_char=121|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=121|end_char=124|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=124|end_char=125|SpaceAfter=No
+2	#NewPuritans	#NewPuritans	PROPN	NNPS	Number=Plur	1	_	_	start_char=97|end_char=109
+3	march	march	PROPN	NNP	Number=Sing	2	_	_	start_char=110|end_char=115
+4	on	on	ADV	RB	_	3	_	_	start_char=116|end_char=118|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=118|end_char=119
 

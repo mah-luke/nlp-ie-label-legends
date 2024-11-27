@@ -1,5 +1,5 @@
-# text = SICK: CBS Brings on Bill Clinton’s Daughter to Discuss Kavanaugh Abuse Claims [URL]
-# sent_id = 43434
+# text = SICK: CBS Brings on Bill Clinton’s Daughter to Discuss Kavanaugh Abuse Claims
+# sent_id = 41985
 1	SICK	sick	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=4|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	_	_	start_char=4|end_char=5
 3	CBS	CBS	PROPN	NNP	Number=Sing	2	_	_	start_char=6|end_char=9
@@ -14,36 +14,33 @@
 11	Discuss	discuss	VERB	VB	VerbForm=Inf	10	_	_	start_char=47|end_char=54
 12	Kavanaugh	Kavanaugh	PROPN	NNP	Number=Sing	11	_	_	start_char=55|end_char=64
 13	Abuse	abuse	PROPN	NNP	Number=Sing	12	_	_	start_char=65|end_char=70
-14	Claims	Claim	PROPN	NNPS	Number=Plur	13	_	_	start_char=71|end_char=77
-15	[	[	PUNCT	-LRB-	_	14	_	_	start_char=78|end_char=79|SpaceAfter=No
-16	URL	URL	PROPN	NNP	Number=Sing	15	_	_	start_char=79|end_char=82|SpaceAfter=No
-17	]	]	PUNCT	-RRB-	_	16	_	_	start_char=82|end_char=83
+14	Claims	Claim	PROPN	NNPS	Number=Plur	13	_	_	start_char=71|end_char=77|SpacesAfter=\s\s
 
 # text = She's dumb as a rock.
-# sent_id = 43435
-1-2	She's	_	_	_	_	_	_	_	start_char=84|end_char=89
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=84|end_char=87
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=87|end_char=89
-3	dumb	dumb	ADJ	JJ	Degree=Pos	2	_	_	start_char=90|end_char=94
-4	as	as	ADP	IN	_	3	_	_	start_char=95|end_char=97
-5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=98|end_char=99
-6	rock	rock	NOUN	NN	Number=Sing	5	_	_	start_char=100|end_char=104|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=104|end_char=105
+# sent_id = 41986
+1-2	She's	_	_	_	_	_	_	_	start_char=79|end_char=84
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=79|end_char=82
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=82|end_char=84
+3	dumb	dumb	ADJ	JJ	Degree=Pos	2	_	_	start_char=85|end_char=89
+4	as	as	ADP	IN	_	3	_	_	start_char=90|end_char=92
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=93|end_char=94
+6	rock	rock	NOUN	NN	Number=Sing	5	_	_	start_char=95|end_char=99|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=99|end_char=100
 
 # text = She should ask her father about all the women he's raped.
-# sent_id = 43436
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=106|end_char=109
-2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=110|end_char=116
-3	ask	ask	VERB	VB	VerbForm=Inf	2	_	_	start_char=117|end_char=120
-4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=121|end_char=124
-5	father	father	NOUN	NN	Number=Sing	4	_	_	start_char=125|end_char=131
-6	about	about	ADP	IN	_	5	_	_	start_char=132|end_char=137
-7	all	all	DET	PDT	_	6	_	_	start_char=138|end_char=141
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=142|end_char=145
-9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=146|end_char=151
-10-11	he's	_	_	_	_	_	_	_	start_char=152|end_char=156
-10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=152|end_char=154
-11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=154|end_char=156
-12	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=157|end_char=162|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=162|end_char=163|SpaceAfter=No
+# sent_id = 41987
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=101|end_char=104
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=105|end_char=111
+3	ask	ask	VERB	VB	VerbForm=Inf	2	_	_	start_char=112|end_char=115
+4	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=116|end_char=119
+5	father	father	NOUN	NN	Number=Sing	4	_	_	start_char=120|end_char=126
+6	about	about	ADP	IN	_	5	_	_	start_char=127|end_char=132
+7	all	all	DET	PDT	_	6	_	_	start_char=133|end_char=136
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=137|end_char=140
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=141|end_char=146
+10-11	he's	_	_	_	_	_	_	_	start_char=147|end_char=151
+10	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=147|end_char=149
+11	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=149|end_char=151
+12	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=152|end_char=157|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=157|end_char=158|SpaceAfter=No
 

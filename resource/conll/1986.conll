@@ -1,34 +1,31 @@
-# text = [USER] people need to listen to Noreen Gosch she has SO much info since the police and FBI refused to help her and she perused all these leads herself
-# sent_id = 4206
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	people	person	NOUN	NNS	Number=Plur	3	_	_	start_char=7|end_char=13
-5	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=14|end_char=18
-6	to	to	PART	TO	_	5	_	_	start_char=19|end_char=21
-7	listen	listen	VERB	VB	VerbForm=Inf	6	_	_	start_char=22|end_char=28
-8	to	to	ADP	IN	_	7	_	_	start_char=29|end_char=31
-9	Noreen	Noreen	PROPN	NNP	Number=Sing	8	_	_	start_char=32|end_char=38
-10	Gosch	Gosch	PROPN	NNP	Number=Sing	9	_	_	start_char=39|end_char=44
-11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=45|end_char=48
-12	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=49|end_char=52
-13	SO	so	ADV	RB	_	12	_	_	start_char=53|end_char=55
-14	much	much	ADJ	JJ	Degree=Pos	13	_	_	start_char=56|end_char=60
-15	info	info	NOUN	NN	Number=Sing	14	_	_	start_char=61|end_char=65
-16	since	since	SCONJ	IN	_	15	_	_	start_char=66|end_char=71
-17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=72|end_char=75
-18	police	police	NOUN	NNS	Number=Plur	17	_	_	start_char=76|end_char=82
-19	and	and	CCONJ	CC	_	18	_	_	start_char=83|end_char=86
-20	FBI	FBI	PROPN	NNP	Number=Sing	19	_	_	start_char=87|end_char=90
-21	refused	refuse	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	_	_	start_char=91|end_char=98
-22	to	to	PART	TO	_	21	_	_	start_char=99|end_char=101
-23	help	help	VERB	VB	VerbForm=Inf	22	_	_	start_char=102|end_char=106
-24	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=107|end_char=110
-25	and	and	CCONJ	CC	_	24	_	_	start_char=111|end_char=114
-26	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	25	_	_	start_char=115|end_char=118
-27	perused	peruse	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	26	_	_	start_char=119|end_char=126
-28	all	all	DET	PDT	_	27	_	_	start_char=127|end_char=130
-29	these	this	PRON	DT	Number=Plur|PronType=Dem	28	_	_	start_char=131|end_char=136
-30	leads	lead	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	_	_	start_char=137|end_char=142
-31	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	30	_	_	start_char=143|end_char=150|SpaceAfter=No
+# text = people need to listen to Noreen Gosch she has SO much info since the police and FBI refused to help her and she perused all these leads herself
+# sent_id = 4080
+1	people	person	NOUN	NNS	Number=Plur	0	_	_	start_char=1|end_char=7|SpacesBefore=\s
+2	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=12
+3	to	to	PART	TO	_	2	_	_	start_char=13|end_char=15
+4	listen	listen	VERB	VB	VerbForm=Inf	3	_	_	start_char=16|end_char=22
+5	to	to	ADP	IN	_	4	_	_	start_char=23|end_char=25
+6	Noreen	Noreen	PROPN	NNP	Number=Sing	5	_	_	start_char=26|end_char=32
+7	Gosch	Gosch	PROPN	NNP	Number=Sing	6	_	_	start_char=33|end_char=38
+8	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=39|end_char=42
+9	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=43|end_char=46
+10	SO	so	ADV	RB	_	9	_	_	start_char=47|end_char=49
+11	much	much	ADJ	JJ	Degree=Pos	10	_	_	start_char=50|end_char=54
+12	info	info	NOUN	NN	Number=Sing	11	_	_	start_char=55|end_char=59
+13	since	since	SCONJ	IN	_	12	_	_	start_char=60|end_char=65
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=66|end_char=69
+15	police	police	NOUN	NNS	Number=Plur	14	_	_	start_char=70|end_char=76
+16	and	and	CCONJ	CC	_	15	_	_	start_char=77|end_char=80
+17	FBI	FBI	PROPN	NNP	Number=Sing	16	_	_	start_char=81|end_char=84
+18	refused	refuse	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=85|end_char=92
+19	to	to	PART	TO	_	18	_	_	start_char=93|end_char=95
+20	help	help	VERB	VB	VerbForm=Inf	19	_	_	start_char=96|end_char=100
+21	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	20	_	_	start_char=101|end_char=104
+22	and	and	CCONJ	CC	_	21	_	_	start_char=105|end_char=108
+23	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	22	_	_	start_char=109|end_char=112
+24	perused	peruse	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	_	_	start_char=113|end_char=120
+25	all	all	DET	PDT	_	24	_	_	start_char=121|end_char=124
+26	these	this	PRON	DT	Number=Plur|PronType=Dem	25	_	_	start_char=125|end_char=130
+27	leads	lead	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	26	_	_	start_char=131|end_char=136
+28	herself	herself	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	27	_	_	start_char=137|end_char=144|SpaceAfter=No
 

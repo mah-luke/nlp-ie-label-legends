@@ -1,34 +1,28 @@
-# text = RT [USER]: "Sexually violent predator" Bill Cosby given three to 10-year jail term for drugging and molesting a woman in 2004 [URL]
-# sent_id = 123810
+# text = RT : "Sexually violent predator" Bill Cosby given three to 10-year jail term for drugging and molesting a woman in 2004
+# sent_id = 119835
 1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
-3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=8|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=8|end_char=9|SpaceAfter=No
-5	:	:	PUNCT	:	_	4	_	_	start_char=9|end_char=10
-6	"	"	PUNCT	``	_	5	_	_	start_char=11|end_char=12|SpaceAfter=No
-7	Sexually	sexually	ADV	RB	_	6	_	_	start_char=12|end_char=20
-8	violent	violent	ADJ	JJ	Degree=Pos	7	_	_	start_char=21|end_char=28
-9	predator	predator	NOUN	NN	Number=Sing	8	_	_	start_char=29|end_char=37|SpaceAfter=No
-10	"	"	PUNCT	''	_	9	_	_	start_char=37|end_char=38
-11	Bill	Bill	PROPN	NNP	Number=Sing	10	_	_	start_char=39|end_char=43
-12	Cosby	Cosby	PROPN	NNP	Number=Sing	11	_	_	start_char=44|end_char=49
-13	given	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=50|end_char=55
-14	three	three	NUM	CD	NumForm=Word|NumType=Card	13	_	_	start_char=56|end_char=61
-15	to	to	ADP	IN	_	14	_	_	start_char=62|end_char=64
-16	10	10	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=65|end_char=67|SpaceAfter=No
-17	-	-	PUNCT	HYPH	_	16	_	_	start_char=67|end_char=68|SpaceAfter=No
-18	year	year	NOUN	NN	Number=Sing	17	_	_	start_char=68|end_char=72
-19	jail	jail	NOUN	NN	Number=Sing	18	_	_	start_char=73|end_char=77
-20	term	term	NOUN	NN	Number=Sing	19	_	_	start_char=78|end_char=82
-21	for	for	SCONJ	IN	_	20	_	_	start_char=83|end_char=86
-22	drugging	drugging	NOUN	NN	Number=Sing	21	_	_	start_char=87|end_char=95
-23	and	and	CCONJ	CC	_	22	_	_	start_char=96|end_char=99
-24	molesting	molest	VERB	VBG	VerbForm=Ger	23	_	_	start_char=100|end_char=109
-25	a	a	DET	DT	Definite=Ind|PronType=Art	24	_	_	start_char=110|end_char=111
-26	woman	woman	NOUN	NN	Number=Sing	25	_	_	start_char=112|end_char=117
-27	in	in	ADP	IN	_	26	_	_	start_char=118|end_char=120
-28	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	27	_	_	start_char=121|end_char=125
-29	[	[	PUNCT	-LRB-	_	28	_	_	start_char=126|end_char=127|SpaceAfter=No
-30	URL	URL	PROPN	NNP	Number=Sing	29	_	_	start_char=127|end_char=130|SpaceAfter=No
-31	]	]	PUNCT	-RRB-	_	30	_	_	start_char=130|end_char=131|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=3|end_char=4
+3	"	"	PUNCT	``	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
+4	Sexually	sexually	ADV	RB	_	3	_	_	start_char=6|end_char=14
+5	violent	violent	ADJ	JJ	Degree=Pos	4	_	_	start_char=15|end_char=22
+6	predator	predator	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=31|SpaceAfter=No
+7	"	"	PUNCT	''	_	6	_	_	start_char=31|end_char=32
+8	Bill	Bill	PROPN	NNP	Number=Sing	7	_	_	start_char=33|end_char=37
+9	Cosby	Cosby	PROPN	NNP	Number=Sing	8	_	_	start_char=38|end_char=43
+10	given	give	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	9	_	_	start_char=44|end_char=49
+11	three	three	NUM	CD	NumForm=Word|NumType=Card	10	_	_	start_char=50|end_char=55
+12	to	to	ADP	IN	_	11	_	_	start_char=56|end_char=58
+13	10	10	NUM	CD	NumForm=Digit|NumType=Card	12	_	_	start_char=59|end_char=61|SpaceAfter=No
+14	-	-	PUNCT	HYPH	_	13	_	_	start_char=61|end_char=62|SpaceAfter=No
+15	year	year	NOUN	NN	Number=Sing	14	_	_	start_char=62|end_char=66
+16	jail	jail	NOUN	NN	Number=Sing	15	_	_	start_char=67|end_char=71
+17	term	term	NOUN	NN	Number=Sing	16	_	_	start_char=72|end_char=76
+18	for	for	SCONJ	IN	_	17	_	_	start_char=77|end_char=80
+19	drugging	drugging	NOUN	NN	Number=Sing	18	_	_	start_char=81|end_char=89
+20	and	and	CCONJ	CC	_	19	_	_	start_char=90|end_char=93
+21	molesting	molest	VERB	VBG	VerbForm=Ger	20	_	_	start_char=94|end_char=103
+22	a	a	DET	DT	Definite=Ind|PronType=Art	21	_	_	start_char=104|end_char=105
+23	woman	woman	NOUN	NN	Number=Sing	22	_	_	start_char=106|end_char=111
+24	in	in	ADP	IN	_	23	_	_	start_char=112|end_char=114
+25	2004	2004	NUM	CD	NumForm=Digit|NumType=Card	24	_	_	start_char=115|end_char=119
 

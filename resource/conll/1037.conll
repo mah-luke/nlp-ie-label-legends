@@ -1,5 +1,5 @@
 # text = Read this wonderful, short biography of Grape-kun, the Humboldt penguin that fell in love with an anime girl.
-# sent_id = 2221
+# sent_id = 2161
 1	Read	read	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
 2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=5|end_char=9
 3	wonderful	wonderful	ADJ	JJ	Degree=Pos	2	_	_	start_char=10|end_char=19|SpaceAfter=No
@@ -24,13 +24,7 @@
 22	girl	girl	NOUN	NN	Number=Sing	21	_	_	start_char=104|end_char=108|SpaceAfter=No
 23	.	.	PUNCT	.	_	22	_	_	start_char=108|end_char=109
 
-# text = By [USER] [URL]
-# sent_id = 2222
-1	By	by	ADP	IN	_	0	_	_	start_char=110|end_char=112
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=113|end_char=114|SpaceAfter=No
-3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=114|end_char=118|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=118|end_char=119
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=120|end_char=121|SpaceAfter=No
-6	URL	URL	PROPN	NNP	Number=Sing	5	_	_	start_char=121|end_char=124|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=124|end_char=125|SpaceAfter=No
+# text = By
+# sent_id = 2162
+1	By	by	ADP	IN	_	0	_	_	start_char=110|end_char=112|SpacesAfter=\s\s
 

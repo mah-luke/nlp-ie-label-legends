@@ -1,44 +1,32 @@
-# text = [USER]
-# sent_id = 86155
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Listen up and listen good.
-# sent_id = 86156
-1	Listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=7|end_char=13
-2	up	up	ADP	RP	_	1	_	_	start_char=14|end_char=16
-3	and	and	CCONJ	CC	_	2	_	_	start_char=17|end_char=20
-4	listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=21|end_char=27
-5	good	good	ADJ	JJ	Degree=Pos	4	_	_	start_char=28|end_char=32|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=32|end_char=33
+# sent_id = 83363
+1	Listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=1|end_char=7|SpacesBefore=\s
+2	up	up	ADP	RP	_	1	_	_	start_char=8|end_char=10
+3	and	and	CCONJ	CC	_	2	_	_	start_char=11|end_char=14
+4	listen	listen	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=15|end_char=21
+5	good	good	ADJ	JJ	Degree=Pos	4	_	_	start_char=22|end_char=26|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=26|end_char=27
 
 # text = White women have nothing whatsoever to do with the feminist movement, yet they are constantly blamed and bashed.
-# sent_id = 86157
-1	White	White	ADJ	JJ	Degree=Pos	0	_	_	start_char=34|end_char=39
-2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=40|end_char=45
-3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=46|end_char=50
-4	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	3	_	_	start_char=51|end_char=58
-5	whatsoever	whatsoever	ADJ	JJ	Degree=Pos	4	_	_	start_char=59|end_char=69
-6	to	to	PART	TO	_	5	_	_	start_char=70|end_char=72
-7	do	do	VERB	VB	VerbForm=Inf	6	_	_	start_char=73|end_char=75
-8	with	with	ADP	IN	_	7	_	_	start_char=76|end_char=80
-9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=81|end_char=84
-10	feminist	feminist	ADJ	JJ	Degree=Pos	9	_	_	start_char=85|end_char=93
-11	movement	movement	NOUN	NN	Number=Sing	10	_	_	start_char=94|end_char=102|SpaceAfter=No
-12	,	,	PUNCT	,	_	11	_	_	start_char=102|end_char=103
-13	yet	yet	CCONJ	CC	_	12	_	_	start_char=104|end_char=107
-14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=108|end_char=112
-15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=113|end_char=116
-16	constantly	constantly	ADV	RB	_	15	_	_	start_char=117|end_char=127
-17	blamed	blame	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=128|end_char=134
-18	and	and	CCONJ	CC	_	17	_	_	start_char=135|end_char=138
-19	bashed	bash	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=139|end_char=145|SpaceAfter=No
-20	.	.	PUNCT	.	_	19	_	_	start_char=145|end_char=146
-
-# text = [URL]
-# sent_id = 86158
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=147|end_char=148|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=148|end_char=151|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=151|end_char=152|SpaceAfter=No
+# sent_id = 83364
+1	White	White	ADJ	JJ	Degree=Pos	0	_	_	start_char=28|end_char=33
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=34|end_char=39
+3	have	have	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=40|end_char=44
+4	nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	3	_	_	start_char=45|end_char=52
+5	whatsoever	whatsoever	ADJ	JJ	Degree=Pos	4	_	_	start_char=53|end_char=63
+6	to	to	PART	TO	_	5	_	_	start_char=64|end_char=66
+7	do	do	VERB	VB	VerbForm=Inf	6	_	_	start_char=67|end_char=69
+8	with	with	ADP	IN	_	7	_	_	start_char=70|end_char=74
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=75|end_char=78
+10	feminist	feminist	ADJ	JJ	Degree=Pos	9	_	_	start_char=79|end_char=87
+11	movement	movement	NOUN	NN	Number=Sing	10	_	_	start_char=88|end_char=96|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=96|end_char=97
+13	yet	yet	CCONJ	CC	_	12	_	_	start_char=98|end_char=101
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=102|end_char=106
+15	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=107|end_char=110
+16	constantly	constantly	ADV	RB	_	15	_	_	start_char=111|end_char=121
+17	blamed	blame	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=122|end_char=128
+18	and	and	CCONJ	CC	_	17	_	_	start_char=129|end_char=132
+19	bashed	bash	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=133|end_char=139|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=139|end_char=140
 

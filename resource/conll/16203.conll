@@ -1,37 +1,31 @@
-# text = [USER]
-# sent_id = 34653
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = That's the Pelosi diagnosis.
-# sent_id = 34654
-1-2	That's	_	_	_	_	_	_	_	start_char=7|end_char=13
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=7|end_char=11
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=11|end_char=13
-3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=14|end_char=17
-4	Pelosi	Pelosi	PROPN	NNP	Number=Sing	3	_	_	start_char=18|end_char=24
-5	diagnosis	diagnosis	NOUN	NN	Number=Sing	4	_	_	start_char=25|end_char=34|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=34|end_char=35
+# sent_id = 33534
+1-2	That's	_	_	_	_	_	_	_	start_char=1|end_char=7|SpacesBefore=\s
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=1|end_char=5
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=8|end_char=11
+4	Pelosi	Pelosi	PROPN	NNP	Number=Sing	3	_	_	start_char=12|end_char=18
+5	diagnosis	diagnosis	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=28|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=28|end_char=29
 
 # text = Or Alzheimers.
-# sent_id = 34655
-1	Or	or	CCONJ	CC	_	0	_	_	start_char=36|end_char=38
-2	Alzheimers	Alzheimer	NOUN	NNS	Number=Plur	1	_	_	start_char=39|end_char=49|SpaceAfter=No
-3	.	.	PUNCT	.	_	2	_	_	start_char=49|end_char=50
+# sent_id = 33535
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=30|end_char=32
+2	Alzheimers	Alzheimer	NOUN	NNS	Number=Plur	1	_	_	start_char=33|end_char=43|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=43|end_char=44
 
 # text = I can't wait for the day that bitch croaks.
-# sent_id = 34656
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=51|end_char=52
-2-3	can't	_	_	_	_	_	_	_	start_char=53|end_char=58
-2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=53|end_char=55
-3	n't	not	PART	RB	_	2	_	_	start_char=55|end_char=58
-4	wait	wait	VERB	VB	VerbForm=Inf	3	_	_	start_char=59|end_char=63
-5	for	for	ADP	IN	_	4	_	_	start_char=64|end_char=67
-6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=68|end_char=71
-7	day	day	NOUN	NN	Number=Sing	6	_	_	start_char=72|end_char=75
-8	that	that	SCONJ	IN	_	7	_	_	start_char=76|end_char=80
-9	bitch	bitch	NOUN	NN	Number=Sing	8	_	_	start_char=81|end_char=86
-10	croaks	croak	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=87|end_char=93|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=93|end_char=94|SpaceAfter=No
+# sent_id = 33536
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=45|end_char=46
+2-3	can't	_	_	_	_	_	_	_	start_char=47|end_char=52
+2	ca	can	AUX	MD	VerbForm=Fin	1	_	_	start_char=47|end_char=49
+3	n't	not	PART	RB	_	2	_	_	start_char=49|end_char=52
+4	wait	wait	VERB	VB	VerbForm=Inf	3	_	_	start_char=53|end_char=57
+5	for	for	ADP	IN	_	4	_	_	start_char=58|end_char=61
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=62|end_char=65
+7	day	day	NOUN	NN	Number=Sing	6	_	_	start_char=66|end_char=69
+8	that	that	SCONJ	IN	_	7	_	_	start_char=70|end_char=74
+9	bitch	bitch	NOUN	NN	Number=Sing	8	_	_	start_char=75|end_char=80
+10	croaks	croak	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=81|end_char=87|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=87|end_char=88|SpaceAfter=No
 

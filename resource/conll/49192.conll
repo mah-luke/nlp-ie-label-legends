@@ -1,5 +1,5 @@
 # text = Read this while you still can [...] the read pill Freudian slip?
-# sent_id = 105213
+# sent_id = 101775
 1	Read	read	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
 2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=5|end_char=9
 3	while	while	SCONJ	IN	_	2	_	_	start_char=10|end_char=15
@@ -15,27 +15,21 @@
 13	slip	slip	VERB	VB	VerbForm=Inf	12	_	_	start_char=59|end_char=63|SpaceAfter=No
 14	?	?	PUNCT	.	_	13	_	_	start_char=63|end_char=64
 
-# text = > [URL] Nah.
-# sent_id = 105214
-1	>	>	PUNCT	NFP	_	0	_	_	start_char=65|end_char=66
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=67|end_char=68|SpaceAfter=No
-3	URL	URL	NOUN	NN	Number=Sing	2	_	_	start_char=68|end_char=71|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=71|end_char=72
-5	Nah	nah	INTJ	UH	_	4	_	_	start_char=73|end_char=76|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=76|end_char=77
+# text = > Nah.
+# sent_id = 101776
+1	>	>	PUNCT	NFP	_	0	_	_	start_char=65|end_char=66|SpacesAfter=\s\s
+2	Nah	nah	INTJ	UH	_	1	_	_	start_char=68|end_char=71|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=71|end_char=72
 
-# text = Read [Confessions of a reformed incel]([URL]
-# sent_id = 105215
-1	Read	read	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=78|end_char=82
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=83|end_char=84|SpaceAfter=No
-3	Confessions	Confession	NOUN	NNS	Number=Plur	2	_	_	start_char=84|end_char=95
-4	of	of	ADP	IN	_	3	_	_	start_char=96|end_char=98
-5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=99|end_char=100
-6	reformed	reform	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=101|end_char=109
-7	incel	incel	NOUN	NN	Number=Sing	6	_	_	start_char=110|end_char=115|SpaceAfter=No
-8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=115|end_char=116|SpaceAfter=No
-9	(	(	PUNCT	-LRB-	_	8	_	_	start_char=116|end_char=117|SpaceAfter=No
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=117|end_char=118|SpaceAfter=No
-11	URL	URL	PROPN	NNP	Number=Sing	10	_	_	start_char=118|end_char=121|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=121|end_char=122|SpaceAfter=No
+# text = Read [Confessions of a reformed incel](
+# sent_id = 101777
+1	Read	read	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=73|end_char=77
+2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=78|end_char=79|SpaceAfter=No
+3	Confessions	Confession	NOUN	NNS	Number=Plur	2	_	_	start_char=79|end_char=90
+4	of	of	ADP	IN	_	3	_	_	start_char=91|end_char=93
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=94|end_char=95
+6	reformed	reform	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=96|end_char=104
+7	incel	incel	NOUN	NN	Number=Sing	6	_	_	start_char=105|end_char=110|SpaceAfter=No
+8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=110|end_char=111|SpaceAfter=No
+9	(	(	PUNCT	-LRB-	_	8	_	_	start_char=111|end_char=112|SpaceAfter=No
 

@@ -1,38 +1,32 @@
-# text = [USER]
-# sent_id = 11604
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = When I heard about this -- I honestly thought she was bitching out the IT guy for #Hillary ... all that double and triple withdrawing of donations...
-# sent_id = 11605
-1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=7|end_char=11
-2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=12|end_char=13
-3	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=14|end_char=19
-4	about	about	ADP	IN	_	3	_	_	start_char=20|end_char=25
-5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=26|end_char=30
-6	--	--	PUNCT	,	_	5	_	_	start_char=31|end_char=33
-7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=34|end_char=35
-8	honestly	honestly	ADV	RB	_	7	_	_	start_char=36|end_char=44
-9	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	_	_	start_char=45|end_char=52
-10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=53|end_char=56
-11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=57|end_char=60
-12	bitching	bitch	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=61|end_char=69
-13	out	out	ADP	RP	_	12	_	_	start_char=70|end_char=73
-14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=74|end_char=77
-15	IT	IT	NOUN	NN	Number=Sing	14	_	_	start_char=78|end_char=80
-16	guy	guy	NOUN	NN	Number=Sing	15	_	_	start_char=81|end_char=84
-17	for	for	ADP	IN	_	16	_	_	start_char=85|end_char=88
-18	#	#	SYM	NN	Number=Sing	17	_	_	start_char=89|end_char=90|SpaceAfter=No
-19	Hillary	Hillary	PROPN	NNP	Number=Sing	18	_	_	start_char=90|end_char=97
-20	...	...	PUNCT	,	_	19	_	_	start_char=98|end_char=101
-21	all	all	DET	PDT	_	20	_	_	start_char=102|end_char=105
-22	that	that	DET	DT	Number=Sing|PronType=Dem	21	_	_	start_char=106|end_char=110
-23	double	double	ADJ	JJ	Degree=Pos	22	_	_	start_char=111|end_char=117
-24	and	and	CCONJ	CC	_	23	_	_	start_char=118|end_char=121
-25	triple	triple	ADJ	JJ	Degree=Pos	24	_	_	start_char=122|end_char=128
-26	withdrawing	withdraw	NOUN	NN	Number=Sing	25	_	_	start_char=129|end_char=140
-27	of	of	ADP	IN	_	26	_	_	start_char=141|end_char=143
-28	donations	donation	NOUN	NNS	Number=Plur	27	_	_	start_char=144|end_char=153|SpaceAfter=No
-29	...	...	PUNCT	.	_	28	_	_	start_char=153|end_char=156|SpaceAfter=No
+# sent_id = 11226
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=6|end_char=7
+3	heard	hear	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=8|end_char=13
+4	about	about	ADP	IN	_	3	_	_	start_char=14|end_char=19
+5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=20|end_char=24
+6	--	--	PUNCT	,	_	5	_	_	start_char=25|end_char=27
+7	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	_	_	start_char=28|end_char=29
+8	honestly	honestly	ADV	RB	_	7	_	_	start_char=30|end_char=38
+9	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	8	_	_	start_char=39|end_char=46
+10	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	9	_	_	start_char=47|end_char=50
+11	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=51|end_char=54
+12	bitching	bitch	VERB	VBG	Tense=Pres|VerbForm=Part	11	_	_	start_char=55|end_char=63
+13	out	out	ADP	RP	_	12	_	_	start_char=64|end_char=67
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=68|end_char=71
+15	IT	IT	NOUN	NN	Number=Sing	14	_	_	start_char=72|end_char=74
+16	guy	guy	NOUN	NN	Number=Sing	15	_	_	start_char=75|end_char=78
+17	for	for	ADP	IN	_	16	_	_	start_char=79|end_char=82
+18	#	#	SYM	NN	Number=Sing	17	_	_	start_char=83|end_char=84|SpaceAfter=No
+19	Hillary	Hillary	PROPN	NNP	Number=Sing	18	_	_	start_char=84|end_char=91
+20	...	...	PUNCT	,	_	19	_	_	start_char=92|end_char=95
+21	all	all	DET	PDT	_	20	_	_	start_char=96|end_char=99
+22	that	that	DET	DT	Number=Sing|PronType=Dem	21	_	_	start_char=100|end_char=104
+23	double	double	ADJ	JJ	Degree=Pos	22	_	_	start_char=105|end_char=111
+24	and	and	CCONJ	CC	_	23	_	_	start_char=112|end_char=115
+25	triple	triple	ADJ	JJ	Degree=Pos	24	_	_	start_char=116|end_char=122
+26	withdrawing	withdraw	NOUN	NN	Number=Sing	25	_	_	start_char=123|end_char=134
+27	of	of	ADP	IN	_	26	_	_	start_char=135|end_char=137
+28	donations	donation	NOUN	NNS	Number=Plur	27	_	_	start_char=138|end_char=147|SpaceAfter=No
+29	...	...	PUNCT	.	_	28	_	_	start_char=147|end_char=150|SpaceAfter=No
 

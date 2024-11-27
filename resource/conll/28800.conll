@@ -1,17 +1,14 @@
-# text = Go to [USER] she has kindly put a tutorial in her profile
-# sent_id = 61761
+# text = Go to she has kindly put a tutorial in her profile
+# sent_id = 59769
 1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=2
-2	to	to	ADP	IN	_	1	_	_	start_char=3|end_char=5
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=6|end_char=7|SpaceAfter=No
-4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=11|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=11|end_char=12
-6	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=13|end_char=16
-7	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=17|end_char=20
-8	kindly	kindly	ADV	RB	_	7	_	_	start_char=21|end_char=27
-9	put	put	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=28|end_char=31
-10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=32|end_char=33
-11	tutorial	tutorial	NOUN	NN	Number=Sing	10	_	_	start_char=34|end_char=42
-12	in	in	ADP	IN	_	11	_	_	start_char=43|end_char=45
-13	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=46|end_char=49
-14	profile	profile	NOUN	NN	Number=Sing	13	_	_	start_char=50|end_char=57|SpaceAfter=No
+2	to	to	ADP	IN	_	1	_	_	start_char=3|end_char=5|SpacesAfter=\s\s
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=7|end_char=10
+4	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=14
+5	kindly	kindly	ADV	RB	_	4	_	_	start_char=15|end_char=21
+6	put	put	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=22|end_char=25
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=26|end_char=27
+8	tutorial	tutorial	NOUN	NN	Number=Sing	7	_	_	start_char=28|end_char=36
+9	in	in	ADP	IN	_	8	_	_	start_char=37|end_char=39
+10	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=40|end_char=43
+11	profile	profile	NOUN	NN	Number=Sing	10	_	_	start_char=44|end_char=51|SpaceAfter=No
 

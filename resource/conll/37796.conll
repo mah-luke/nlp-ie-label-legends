@@ -1,5 +1,5 @@
 # text = "I told my girl she's the 4th most important thing in my life...
-# sent_id = 80772
+# sent_id = 78159
 1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=1|end_char=2
 3	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=3|end_char=7
@@ -19,7 +19,7 @@
 16	...	...	PUNCT	.	_	15	_	_	start_char=61|end_char=64
 
 # text = It was me, my career, my mother, then her... and I love my fish too, so you better watch your step!"
-# sent_id = 80773
+# sent_id = 78160
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=65|end_char=67
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=68|end_char=71
 3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=72|end_char=74|SpaceAfter=No
@@ -49,11 +49,8 @@
 27	!	!	PUNCT	.	_	26	_	_	start_char=163|end_char=164|SpaceAfter=No
 28	"	"	PUNCT	''	_	27	_	_	start_char=164|end_char=165
 
-# text = Patrice O'Neal [URL]
-# sent_id = 80774
+# text = Patrice O'Neal
+# sent_id = 78161
 1	Patrice	Patrice	PROPN	NNP	Number=Sing	0	_	_	start_char=166|end_char=173
 2	O'Neal	O'Neal	PROPN	NNP	Number=Sing	1	_	_	start_char=174|end_char=180
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=181|end_char=182|SpaceAfter=No
-4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=182|end_char=185|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=185|end_char=186|SpaceAfter=No
 

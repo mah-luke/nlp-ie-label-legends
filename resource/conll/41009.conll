@@ -1,10 +1,10 @@
 # text = Teens?
-# sent_id = 87779
+# sent_id = 84903
 1	Teens	teen	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=5|SpaceAfter=No
 2	?	?	PUNCT	.	_	1	_	_	start_char=5|end_char=6
 
 # text = Don't you mean "dreamers"?
-# sent_id = 87780
+# sent_id = 84904
 1-2	Don't	_	_	_	_	_	_	_	start_char=7|end_char=12
 1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=7|end_char=9
 2	n't	not	PART	RB	_	1	_	_	start_char=9|end_char=12
@@ -16,7 +16,7 @@
 8	?	?	PUNCT	.	_	7	_	_	start_char=32|end_char=33
 
 # text = Their "dream" is to rape our daughters.
-# sent_id = 87781
+# sent_id = 84905
 1	Their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=34|end_char=39
 2	"	"	PUNCT	``	_	1	_	_	start_char=40|end_char=41|SpaceAfter=No
 3	dream	dream	NOUN	NN	Number=Sing	2	_	_	start_char=41|end_char=46|SpaceAfter=No
@@ -27,10 +27,4 @@
 8	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	7	_	_	start_char=59|end_char=62
 9	daughters	daughter	NOUN	NNS	Number=Plur	8	_	_	start_char=63|end_char=72|SpaceAfter=No
 10	.	.	PUNCT	.	_	9	_	_	start_char=72|end_char=73
-
-# text = [URL]
-# sent_id = 87782
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=74|end_char=75|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=75|end_char=78|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=78|end_char=79|SpaceAfter=No
 

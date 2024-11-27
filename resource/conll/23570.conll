@@ -1,57 +1,54 @@
-# text = [USER], We'll see how good this is.
-# sent_id = 50580
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
-4	,	,	PUNCT	,	_	3	_	_	start_char=6|end_char=7
-5-6	We'll	_	_	_	_	_	_	_	start_char=8|end_char=13
-5	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	_	_	start_char=8|end_char=10
-6	'll	will	AUX	MD	VerbForm=Fin	5	_	_	start_char=10|end_char=13
-7	see	see	VERB	VB	VerbForm=Inf	6	_	_	start_char=14|end_char=17
-8	how	how	ADV	WRB	PronType=Int	7	_	_	start_char=18|end_char=21
-9	good	good	ADJ	JJ	Degree=Pos	8	_	_	start_char=22|end_char=26
-10	this	this	PRON	DT	Number=Sing|PronType=Dem	9	_	_	start_char=27|end_char=31
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=32|end_char=34|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=34|end_char=35
+# text = , We'll see how good this is.
+# sent_id = 48936
+1	,	,	PUNCT	,	_	0	_	_	start_char=0|end_char=1
+2-3	We'll	_	_	_	_	_	_	_	start_char=2|end_char=7
+2	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=2|end_char=4
+3	'll	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=4|end_char=7
+4	see	see	VERB	VB	VerbForm=Inf	3	_	_	start_char=8|end_char=11
+5	how	how	ADV	WRB	PronType=Int	4	_	_	start_char=12|end_char=15
+6	good	good	ADJ	JJ	Degree=Pos	5	_	_	start_char=16|end_char=20
+7	this	this	PRON	DT	Number=Sing|PronType=Dem	6	_	_	start_char=21|end_char=25
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=26|end_char=28|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=28|end_char=29
 
 # text = I hear she's going over to CNN and I'm sure she doesn't want to upset her new bosses.
-# sent_id = 50581
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=36|end_char=37
-2	hear	hear	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=38|end_char=42
-3-4	she's	_	_	_	_	_	_	_	start_char=43|end_char=48
-3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=43|end_char=46
-4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=46|end_char=48
-5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=49|end_char=54
-6	over	over	ADV	RB	_	5	_	_	start_char=55|end_char=59
-7	to	to	ADP	IN	_	6	_	_	start_char=60|end_char=62
-8	CNN	CNN	PROPN	NNP	Number=Sing	7	_	_	start_char=63|end_char=66
-9	and	and	CCONJ	CC	_	8	_	_	start_char=67|end_char=70
-10-11	I'm	_	_	_	_	_	_	_	start_char=71|end_char=74
-10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=71|end_char=72
-11	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=72|end_char=74
-12	sure	sure	ADJ	JJ	Degree=Pos	11	_	_	start_char=75|end_char=79
-13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=80|end_char=83
-14-15	doesn't	_	_	_	_	_	_	_	start_char=84|end_char=91
-14	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=84|end_char=88
-15	n't	not	PART	RB	_	14	_	_	start_char=88|end_char=91
-16	want	want	VERB	VB	VerbForm=Inf	15	_	_	start_char=92|end_char=96
-17	to	to	PART	TO	_	16	_	_	start_char=97|end_char=99
-18	upset	upset	VERB	VB	VerbForm=Inf	17	_	_	start_char=100|end_char=105
-19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=106|end_char=109
-20	new	new	ADJ	JJ	Degree=Pos	19	_	_	start_char=110|end_char=113
-21	bosses	boss	NOUN	NNS	Number=Plur	20	_	_	start_char=114|end_char=120|SpaceAfter=No
-22	.	.	PUNCT	.	_	21	_	_	start_char=120|end_char=121
+# sent_id = 48937
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=30|end_char=31
+2	hear	hear	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=32|end_char=36
+3-4	she's	_	_	_	_	_	_	_	start_char=37|end_char=42
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=37|end_char=40
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=40|end_char=42
+5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=43|end_char=48
+6	over	over	ADV	RB	_	5	_	_	start_char=49|end_char=53
+7	to	to	ADP	IN	_	6	_	_	start_char=54|end_char=56
+8	CNN	CNN	PROPN	NNP	Number=Sing	7	_	_	start_char=57|end_char=60
+9	and	and	CCONJ	CC	_	8	_	_	start_char=61|end_char=64
+10-11	I'm	_	_	_	_	_	_	_	start_char=65|end_char=68
+10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=65|end_char=66
+11	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	_	_	start_char=66|end_char=68
+12	sure	sure	ADJ	JJ	Degree=Pos	11	_	_	start_char=69|end_char=73
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=74|end_char=77
+14-15	doesn't	_	_	_	_	_	_	_	start_char=78|end_char=85
+14	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=78|end_char=82
+15	n't	not	PART	RB	_	14	_	_	start_char=82|end_char=85
+16	want	want	VERB	VB	VerbForm=Inf	15	_	_	start_char=86|end_char=90
+17	to	to	PART	TO	_	16	_	_	start_char=91|end_char=93
+18	upset	upset	VERB	VB	VerbForm=Inf	17	_	_	start_char=94|end_char=99
+19	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=100|end_char=103
+20	new	new	ADJ	JJ	Degree=Pos	19	_	_	start_char=104|end_char=107
+21	bosses	boss	NOUN	NNS	Number=Plur	20	_	_	start_char=108|end_char=114|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=114|end_char=115
 
 # text = Fingers crossed she makes the a**hole sweat.
-# sent_id = 50582
-1	Fingers	finger	NOUN	NNS	Number=Plur	0	_	_	start_char=122|end_char=129
-2	crossed	cross	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin	1	_	_	start_char=130|end_char=137
-3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=138|end_char=141
-4	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=142|end_char=147
-5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=148|end_char=151
-6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=152|end_char=153|SpaceAfter=No
-7	**	**	PUNCT	NFP	_	6	_	_	start_char=153|end_char=155|SpaceAfter=No
-8	hole	hole	NOUN	NN	Number=Sing	7	_	_	start_char=155|end_char=159
-9	sweat	sweat	NOUN	NN	Number=Sing	8	_	_	start_char=160|end_char=165|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=165|end_char=166|SpaceAfter=No
+# sent_id = 48938
+1	Fingers	finger	NOUN	NNS	Number=Plur	0	_	_	start_char=116|end_char=123
+2	crossed	cross	VERB	VBN	Mood=Ind|Tense=Past|VerbForm=Fin	1	_	_	start_char=124|end_char=131
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=132|end_char=135
+4	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=136|end_char=141
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=142|end_char=145
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=146|end_char=147|SpaceAfter=No
+7	**	**	PUNCT	NFP	_	6	_	_	start_char=147|end_char=149|SpaceAfter=No
+8	hole	hole	NOUN	NN	Number=Sing	7	_	_	start_char=149|end_char=153
+9	sweat	sweat	NOUN	NN	Number=Sing	8	_	_	start_char=154|end_char=159|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=159|end_char=160|SpaceAfter=No
 

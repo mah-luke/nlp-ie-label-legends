@@ -1,5 +1,5 @@
 # text = Trump's America where police take no shit from the feral left.
-# sent_id = 31647
+# sent_id = 30615
 1-2	Trump's	_	_	_	_	_	_	_	start_char=0|end_char=7
 1	Trump	Trump	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
 2	's	's	PART	POS	_	1	_	_	start_char=5|end_char=7
@@ -15,8 +15,8 @@
 12	left	left	NOUN	NN	Number=Sing	11	_	_	start_char=57|end_char=61|SpaceAfter=No
 13	.	.	PUNCT	.	_	12	_	_	start_char=61|end_char=62
 
-# text = As always, fuck Barack and his racist, bitch wife.
-# sent_id = 31648
+# text = As always, fuck Barack and his racist, bitch wife. 😂
+# sent_id = 30616
 1	As	as	ADP	IN	_	0	_	_	start_char=63|end_char=65
 2	always	always	ADV	RB	_	1	_	_	start_char=66|end_char=72|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	_	_	start_char=72|end_char=73
@@ -29,11 +29,5 @@
 10	bitch	bitch	NOUN	NN	Number=Sing	9	_	_	start_char=102|end_char=107
 11	wife	wife	NOUN	NN	Number=Sing	10	_	_	start_char=108|end_char=112|SpaceAfter=No
 12	.	.	PUNCT	.	_	11	_	_	start_char=112|end_char=113
-
-# text = 😂 [URL]
-# sent_id = 31649
-1	😂	😂	PUNCT	``	_	0	_	_	start_char=114|end_char=115
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=116|end_char=117|SpaceAfter=No
-3	URL	URL	PROPN	NNP	Number=Sing	2	_	_	start_char=117|end_char=120|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=120|end_char=121|SpaceAfter=No
+13	😂	😂	PUNCT	NFP	_	12	_	_	start_char=114|end_char=115
 

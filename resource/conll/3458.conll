@@ -1,5 +1,5 @@
 # text = Woman who gave police officer a black eye & injured two others in drink and drug-fuelled rampage says she is now down to only two bottles of wine a night & cocaine at the weekend, so AVOIDS PRISON!
-# sent_id = 7300
+# sent_id = 7066
 1	Woman	woman	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5
 2	who	who	PRON	WP	PronType=Rel	1	_	_	start_char=6|end_char=9
 3	gave	give	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=10|end_char=14
@@ -39,18 +39,15 @@
 37	so	so	ADV	RB	_	36	_	_	start_char=180|end_char=182
 38	AVOIDS	avoid	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	37	_	_	start_char=183|end_char=189
 39	PRISON	prison	ADJ	JJ	Degree=Pos	38	_	_	start_char=190|end_char=196|SpaceAfter=No
-40	!	!	PUNCT	.	_	39	_	_	start_char=196|end_char=197
+40	!	!	PUNCT	.	_	39	_	_	start_char=196|end_char=197|SpacesAfter=\s\s
 
-# text = [URL] #BritishJustice lol - #MEH!
-# sent_id = 7301
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=198|end_char=199|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=199|end_char=202|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=202|end_char=203
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=204|end_char=205|SpaceAfter=No
-5	BritishJustice	britishjustice	NOUN	NN	Number=Sing	4	_	_	start_char=205|end_char=219
-6	lol	lol	INTJ	UH	_	5	_	_	start_char=220|end_char=223
-7	-	-	PUNCT	HYPH	_	6	_	_	start_char=224|end_char=225
-8	#	#	SYM	NN	Number=Sing	7	_	_	start_char=226|end_char=227|SpaceAfter=No
-9	MEH	meh	INTJ	UH	_	8	_	_	start_char=227|end_char=230|SpaceAfter=No
-10	!	!	PUNCT	.	_	9	_	_	start_char=230|end_char=231|SpaceAfter=No
+# text = #BritishJustice lol - #MEH!
+# sent_id = 7067
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=199|end_char=200|SpaceAfter=No
+2	BritishJustice	britishjustice	NOUN	NN	Number=Sing	1	_	_	start_char=200|end_char=214
+3	lol	lol	INTJ	UH	_	2	_	_	start_char=215|end_char=218
+4	-	-	PUNCT	,	_	3	_	_	start_char=219|end_char=220
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=221|end_char=222|SpaceAfter=No
+6	MEH	meh	INTJ	UH	_	5	_	_	start_char=222|end_char=225|SpaceAfter=No
+7	!	!	PUNCT	.	_	6	_	_	start_char=225|end_char=226|SpaceAfter=No
 

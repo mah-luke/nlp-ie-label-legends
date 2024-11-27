@@ -1,5 +1,5 @@
-# text = Muslim monster Ashfaq Khan, 60, who targeted lesbians ‘raped one as she was vomiting’: [URL] via [USER]
-# sent_id = 123387
+# text = Muslim monster Ashfaq Khan, 60, who targeted lesbians ‘raped one as she was vomiting’: via
+# sent_id = 119418
 1	Muslim	Muslim	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=6
 2	monster	monster	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=14
 3	Ashfaq	Ashfaq	PROPN	NNP	Number=Sing	2	_	_	start_char=15|end_char=21
@@ -11,19 +11,13 @@
 9	targeted	target	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=36|end_char=44
 10	lesbians	lesbian	NOUN	NNS	Number=Plur	9	_	_	start_char=45|end_char=53
 11	‘	'	PUNCT	``	_	10	_	_	start_char=54|end_char=55|SpaceAfter=No
-12	raped	rape	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=55|end_char=60
+12	raped	rape	VERB	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=55|end_char=60
 13	one	one	NUM	CD	NumForm=Word|NumType=Card	12	_	_	start_char=61|end_char=64
 14	as	as	SCONJ	IN	_	13	_	_	start_char=65|end_char=67
 15	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	14	_	_	start_char=68|end_char=71
 16	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=72|end_char=75
 17	vomiting	vomit	VERB	VBG	Tense=Pres|VerbForm=Part	16	_	_	start_char=76|end_char=84|SpaceAfter=No
-18	’	'	PUNCT	''	_	17	_	_	start_char=84|end_char=85|SpaceAfter=No
-19	:	:	PUNCT	:	_	18	_	_	start_char=85|end_char=86
-20	[	[	PUNCT	-LRB-	_	19	_	_	start_char=87|end_char=88|SpaceAfter=No
-21	URL	URL	PROPN	NNP	Number=Sing	20	_	_	start_char=88|end_char=91|SpaceAfter=No
-22	]	]	PUNCT	-RRB-	_	21	_	_	start_char=91|end_char=92
-23	via	via	ADP	IN	_	22	_	_	start_char=93|end_char=96
-24	[	[	PUNCT	-LRB-	_	23	_	_	start_char=97|end_char=98|SpaceAfter=No
-25	USER	user	NOUN	NN	Number=Sing	24	_	_	start_char=98|end_char=102|SpaceAfter=No
-26	]	]	PUNCT	-RRB-	_	25	_	_	start_char=102|end_char=103|SpaceAfter=No
+18	’	's	PART	POS	_	17	_	_	start_char=84|end_char=85|SpaceAfter=No
+19	:	:	PUNCT	:	_	18	_	_	start_char=85|end_char=86|SpacesAfter=\s\s
+20	via	via	ADV	RB	_	19	_	_	start_char=88|end_char=91
 

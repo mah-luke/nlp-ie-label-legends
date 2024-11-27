@@ -1,5 +1,5 @@
 # text = [that’s right!
-# sent_id = 103650
+# sent_id = 100269
 1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2-3	that’s	_	_	_	_	_	_	_	start_char=1|end_char=7
 2	that	that	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=1|end_char=5
@@ -7,8 +7,8 @@
 4	right	right	ADJ	JJ	Degree=Pos	3	_	_	start_char=8|end_char=13|SpaceAfter=No
 5	!	!	PUNCT	.	_	4	_	_	start_char=13|end_char=14
 
-# text = a girl wants to play football!]
-# sent_id = 103651
+# text = a girl wants to play football!](
+# sent_id = 100270
 1	a	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=15|end_char=16
 2	girl	girl	NOUN	NN	Number=Sing	1	_	_	start_char=17|end_char=21
 3	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=22|end_char=27
@@ -17,11 +17,5 @@
 6	football	football	NOUN	NN	Number=Sing	5	_	_	start_char=36|end_char=44|SpaceAfter=No
 7	!	!	PUNCT	.	_	6	_	_	start_char=44|end_char=45|SpaceAfter=No
 8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=45|end_char=46|SpaceAfter=No
-
-# text = ([URL]
-# sent_id = 103652
-1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=46|end_char=47|SpaceAfter=No
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=47|end_char=48|SpaceAfter=No
-3	URL	URL	PROPN	NNP	Number=Sing	2	_	_	start_char=48|end_char=51|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=51|end_char=52|SpaceAfter=No
+9	(	(	PUNCT	-LRB-	_	8	_	_	start_char=46|end_char=47|SpaceAfter=No
 

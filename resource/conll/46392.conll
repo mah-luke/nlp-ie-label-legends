@@ -1,38 +1,35 @@
-# text = [URL] Police Failed 2 Act 1,000 Girls Beaten, Pimped, Raped, KILLED
-# sent_id = 99069
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-4	Police	police	NOUN	NNS	Number=Plur	3	_	_	start_char=6|end_char=12
-5	Failed	fail	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=13|end_char=19
-6	2	2	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=20|end_char=21
-7	Act	act	NOUN	NN	Number=Sing	6	_	_	start_char=22|end_char=25
-8	1,000	1000	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=26|end_char=31
-9	Girls	Girls	NOUN	NNS	Number=Plur	8	_	_	start_char=32|end_char=37
-10	Beaten	beat	VERB	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=38|end_char=44|SpaceAfter=No
-11	,	,	PUNCT	,	_	10	_	_	start_char=44|end_char=45
-12	Pimped	pimp	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=46|end_char=52|SpaceAfter=No
-13	,	,	PUNCT	,	_	12	_	_	start_char=52|end_char=53
-14	Raped	rape	VERB	VBN	Tense=Past|VerbForm=Part	13	_	_	start_char=54|end_char=59|SpaceAfter=No
-15	,	,	PUNCT	,	_	14	_	_	start_char=59|end_char=60
-16	KILLED	killed	VERB	VBN	Tense=Past|VerbForm=Part	15	_	_	start_char=61|end_char=67
+# text = Police Failed 2 Act 1,000 Girls Beaten, Pimped, Raped, KILLED
+# sent_id = 95817
+1	Police	police	NOUN	NNS	Number=Plur	0	_	_	start_char=1|end_char=7|SpacesBefore=\s
+2	Failed	fail	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=8|end_char=14
+3	2	2	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=15|end_char=16
+4	Act	act	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=20
+5	1,000	1000	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=21|end_char=26
+6	Girls	Girls	NOUN	NNS	Number=Plur	5	_	_	start_char=27|end_char=32
+7	Beaten	beat	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=33|end_char=39|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=39|end_char=40
+9	Pimped	Pimped	ADJ	JJ	Degree=Pos	8	_	_	start_char=41|end_char=47|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=47|end_char=48
+11	Raped	rape	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=49|end_char=54|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=54|end_char=55
+13	KILLED	killed	VERB	VBN	Tense=Past|VerbForm=Part	12	_	_	start_char=56|end_char=62
 
 # text = Over 40 Years Britain’s Worst Grooming Scandal SERVE PROTECT DERELICT IN DUTIES, COMPLICIT
-# sent_id = 99070
-1	Over	over	ADV	RB	_	0	_	_	start_char=68|end_char=72
-2	40	40	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=73|end_char=75
-3	Years	year	NOUN	NNS	Number=Plur	2	_	_	start_char=76|end_char=81
-4-5	Britain’s	_	_	_	_	_	_	_	start_char=82|end_char=91
-4	Britain	Britain	PROPN	NNP	Number=Sing	3	_	_	start_char=82|end_char=89
-5	’s	's	PART	POS	_	4	_	_	start_char=89|end_char=91
-6	Worst	bad	ADJ	JJS	Degree=Sup	5	_	_	start_char=92|end_char=97
-7	Grooming	grooming	NOUN	NN	Number=Sing	6	_	_	start_char=98|end_char=106
-8	Scandal	scandal	NOUN	NN	Number=Sing	7	_	_	start_char=107|end_char=114
-9	SERVE	serve	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=115|end_char=120
-10	PROTECT	protect	VERB	VB	VerbForm=Inf	9	_	_	start_char=121|end_char=128
-11	DERELICT	derelict	ADJ	JJ	Degree=Pos	10	_	_	start_char=129|end_char=137
-12	IN	in	ADP	IN	_	11	_	_	start_char=138|end_char=140
-13	DUTIES	dutie	NOUN	NNS	Number=Plur	12	_	_	start_char=141|end_char=147|SpaceAfter=No
-14	,	,	PUNCT	,	_	13	_	_	start_char=147|end_char=148
-15	COMPLICIT	complicit	ADJ	JJ	Degree=Pos	14	_	_	start_char=149|end_char=158|SpaceAfter=No
+# sent_id = 95818
+1	Over	over	ADV	RB	_	0	_	_	start_char=63|end_char=67
+2	40	40	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=68|end_char=70
+3	Years	year	NOUN	NNS	Number=Plur	2	_	_	start_char=71|end_char=76
+4-5	Britain’s	_	_	_	_	_	_	_	start_char=77|end_char=86
+4	Britain	Britain	PROPN	NNP	Number=Sing	3	_	_	start_char=77|end_char=84
+5	’s	's	PART	POS	_	4	_	_	start_char=84|end_char=86
+6	Worst	bad	ADJ	JJS	Degree=Sup	5	_	_	start_char=87|end_char=92
+7	Grooming	grooming	NOUN	NN	Number=Sing	6	_	_	start_char=93|end_char=101
+8	Scandal	scandal	NOUN	NN	Number=Sing	7	_	_	start_char=102|end_char=109
+9	SERVE	serve	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=110|end_char=115
+10	PROTECT	protect	VERB	VB	VerbForm=Inf	9	_	_	start_char=116|end_char=123
+11	DERELICT	derelict	ADJ	JJ	Degree=Pos	10	_	_	start_char=124|end_char=132
+12	IN	in	ADP	IN	_	11	_	_	start_char=133|end_char=135
+13	DUTIES	dutie	NOUN	NNS	Number=Plur	12	_	_	start_char=136|end_char=142|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=142|end_char=143
+15	COMPLICIT	complicit	ADJ	JJ	Degree=Pos	14	_	_	start_char=144|end_char=153|SpaceAfter=No
 

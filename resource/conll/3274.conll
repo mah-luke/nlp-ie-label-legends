@@ -1,62 +1,56 @@
-# text = [URL]
-# sent_id = 6905
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-
 # text = Did you see this.
-# sent_id = 6906
-1	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	_	_	start_char=6|end_char=9
-2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=10|end_char=13
-3	see	see	VERB	VB	VerbForm=Inf	2	_	_	start_char=14|end_char=17
-4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=18|end_char=22|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=22|end_char=23
+# sent_id = 6676
+1	Did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=5|end_char=8
+3	see	see	VERB	VB	VerbForm=Inf	2	_	_	start_char=9|end_char=12
+4	this	this	PRON	DT	Number=Sing|PronType=Dem	3	_	_	start_char=13|end_char=17|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=17|end_char=18
 
 # text = Trudeau's trying to pass law banning all speech against muslims, a hate crime.
-# sent_id = 6907
-1-2	Trudeau's	_	_	_	_	_	_	_	start_char=24|end_char=33
-1	Trudeau	Trudeau	PROPN	NNP	Number=Sing	0	_	_	start_char=24|end_char=31
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=31|end_char=33
-3	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=34|end_char=40
-4	to	to	PART	TO	_	3	_	_	start_char=41|end_char=43
-5	pass	pass	VERB	VB	VerbForm=Inf	4	_	_	start_char=44|end_char=48
-6	law	law	NOUN	NN	Number=Sing	5	_	_	start_char=49|end_char=52
-7	banning	ban	VERB	VBG	VerbForm=Ger	6	_	_	start_char=53|end_char=60
-8	all	all	DET	DT	_	7	_	_	start_char=61|end_char=64
-9	speech	speech	NOUN	NN	Number=Sing	8	_	_	start_char=65|end_char=71
-10	against	against	ADP	IN	_	9	_	_	start_char=72|end_char=79
-11	muslims	muslim	PROPN	NNPS	Number=Plur	10	_	_	start_char=80|end_char=87|SpaceAfter=No
-12	,	,	PUNCT	,	_	11	_	_	start_char=87|end_char=88
-13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=89|end_char=90
-14	hate	hate	NOUN	NN	Number=Sing	13	_	_	start_char=91|end_char=95
-15	crime	crime	NOUN	NN	Number=Sing	14	_	_	start_char=96|end_char=101|SpaceAfter=No
-16	.	.	PUNCT	.	_	15	_	_	start_char=101|end_char=102
+# sent_id = 6677
+1-2	Trudeau's	_	_	_	_	_	_	_	start_char=19|end_char=28
+1	Trudeau	Trudeau	PROPN	NNP	Number=Sing	0	_	_	start_char=19|end_char=26
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=26|end_char=28
+3	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=29|end_char=35
+4	to	to	PART	TO	_	3	_	_	start_char=36|end_char=38
+5	pass	pass	VERB	VB	VerbForm=Inf	4	_	_	start_char=39|end_char=43
+6	law	law	NOUN	NN	Number=Sing	5	_	_	start_char=44|end_char=47
+7	banning	ban	VERB	VBG	VerbForm=Ger	6	_	_	start_char=48|end_char=55
+8	all	all	DET	DT	_	7	_	_	start_char=56|end_char=59
+9	speech	speech	NOUN	NN	Number=Sing	8	_	_	start_char=60|end_char=66
+10	against	against	ADP	IN	_	9	_	_	start_char=67|end_char=74
+11	muslims	muslim	PROPN	NNPS	Number=Plur	10	_	_	start_char=75|end_char=82|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=82|end_char=83
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=84|end_char=85
+14	hate	hate	NOUN	NN	Number=Sing	13	_	_	start_char=86|end_char=90
+15	crime	crime	NOUN	NN	Number=Sing	14	_	_	start_char=91|end_char=96|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=96|end_char=97
 
 # text = And then we get the mosque shooting.
-# sent_id = 6908
-1	And	and	CCONJ	CC	_	0	_	_	start_char=103|end_char=106
-2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=107|end_char=111
-3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=112|end_char=114
-4	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=115|end_char=118
-5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=119|end_char=122
-6	mosque	mosque	NOUN	NN	Number=Sing	5	_	_	start_char=123|end_char=129
-7	shooting	shooting	NOUN	NN	Number=Sing	6	_	_	start_char=130|end_char=138|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=138|end_char=139
+# sent_id = 6678
+1	And	and	CCONJ	CC	_	0	_	_	start_char=98|end_char=101
+2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=102|end_char=106
+3	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	_	_	start_char=107|end_char=109
+4	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=110|end_char=113
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=114|end_char=117
+6	mosque	mosque	NOUN	NN	Number=Sing	5	_	_	start_char=118|end_char=124
+7	shooting	shooting	NOUN	NN	Number=Sing	6	_	_	start_char=125|end_char=133|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=133|end_char=134
 
 # text = I definitely think its connected... #InCanada #CanFam #GabFam # SpeakFreely
-# sent_id = 6909
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=140|end_char=141
-2	definitely	definitely	ADV	RB	_	1	_	_	start_char=142|end_char=152
-3	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=153|end_char=158
-4	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=159|end_char=162
-5	connected	connect	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=163|end_char=172|SpaceAfter=No
-6	...	...	PUNCT	,	_	5	_	_	start_char=172|end_char=175
-7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=176|end_char=177|SpaceAfter=No
-8	InCanada	InCanada	PROPN	NNP	Number=Sing	7	_	_	start_char=177|end_char=185
-9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=186|end_char=187|SpaceAfter=No
-10	CanFam	canfam	NOUN	NN	Number=Sing	9	_	_	start_char=187|end_char=193
-11	#	#	SYM	NN	Number=Sing	10	_	_	start_char=194|end_char=195|SpaceAfter=No
-12	GabFam	gabfam	NOUN	NN	Number=Sing	11	_	_	start_char=195|end_char=201
-13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=202|end_char=203
-14	SpeakFreely	SpeakFreely	NOUN	NN	Number=Sing	13	_	_	start_char=204|end_char=215|SpaceAfter=No
+# sent_id = 6679
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=135|end_char=136
+2	definitely	definitely	ADV	RB	_	1	_	_	start_char=137|end_char=147
+3	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=148|end_char=153
+4	its	its	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	3	_	_	start_char=154|end_char=157
+5	connected	connect	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=158|end_char=167|SpaceAfter=No
+6	...	...	PUNCT	,	_	5	_	_	start_char=167|end_char=170
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=171|end_char=172|SpaceAfter=No
+8	InCanada	InCanada	PROPN	NNP	Number=Sing	7	_	_	start_char=172|end_char=180
+9	#	#	SYM	NN	Number=Sing	8	_	_	start_char=181|end_char=182|SpaceAfter=No
+10	CanFam	canfam	NOUN	NN	Number=Sing	9	_	_	start_char=182|end_char=188
+11	#	#	SYM	NN	Number=Sing	10	_	_	start_char=189|end_char=190|SpaceAfter=No
+12	GabFam	gabfam	NOUN	NN	Number=Sing	11	_	_	start_char=190|end_char=196
+13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=197|end_char=198
+14	SpeakFreely	SpeakFreely	NOUN	NN	Number=Sing	13	_	_	start_char=199|end_char=210|SpaceAfter=No
 

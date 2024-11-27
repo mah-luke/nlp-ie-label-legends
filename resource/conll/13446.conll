@@ -1,28 +1,25 @@
-# text = [USER]‍ is a child rapist.
-# sent_id = 28602
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
-4	‍	‍	PUNCT	:	_	3	_	_	start_char=6|end_char=7
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=8|end_char=10
-6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=11|end_char=12
-7	child	child	NOUN	NN	Number=Sing	6	_	_	start_char=13|end_char=18
-8	rapist	rapist	NOUN	NN	Number=Sing	7	_	_	start_char=19|end_char=25|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=25|end_char=26
+# text = ‍ is a child rapist.
+# sent_id = 27681
+1	‍	‍	PUNCT	``	_	0	_	_	start_char=0|end_char=1
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=4
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=5|end_char=6
+4	child	child	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=12
+5	rapist	rapist	NOUN	NN	Number=Sing	4	_	_	start_char=13|end_char=19|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=19|end_char=20
 
 # text = He bragged about spitroasting a fifteen year old girl with his bodyguard.
-# sent_id = 28603
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=27|end_char=29
-2	bragged	brag	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=30|end_char=37
-3	about	about	SCONJ	IN	_	2	_	_	start_char=38|end_char=43
-4	spitroasting	spitroast	VERB	VBG	VerbForm=Ger	3	_	_	start_char=44|end_char=56
-5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=57|end_char=58
-6	fifteen	fifteen	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=59|end_char=66
-7	year	year	NOUN	NN	Number=Sing	6	_	_	start_char=67|end_char=71
-8	old	old	ADJ	JJ	Degree=Pos	7	_	_	start_char=72|end_char=75
-9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=76|end_char=80
-10	with	with	ADP	IN	_	9	_	_	start_char=81|end_char=85
-11	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=86|end_char=89
-12	bodyguard	bodyguard	NOUN	NN	Number=Sing	11	_	_	start_char=90|end_char=99|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=99|end_char=100|SpaceAfter=No
+# sent_id = 27682
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=21|end_char=23
+2	bragged	brag	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=24|end_char=31
+3	about	about	SCONJ	IN	_	2	_	_	start_char=32|end_char=37
+4	spitroasting	spitroast	VERB	VBG	VerbForm=Ger	3	_	_	start_char=38|end_char=50
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=51|end_char=52
+6	fifteen	fifteen	NUM	CD	NumForm=Word|NumType=Card	5	_	_	start_char=53|end_char=60
+7	year	year	NOUN	NN	Number=Sing	6	_	_	start_char=61|end_char=65
+8	old	old	ADJ	JJ	Degree=Pos	7	_	_	start_char=66|end_char=69
+9	girl	girl	NOUN	NN	Number=Sing	8	_	_	start_char=70|end_char=74
+10	with	with	ADP	IN	_	9	_	_	start_char=75|end_char=79
+11	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=80|end_char=83
+12	bodyguard	bodyguard	NOUN	NN	Number=Sing	11	_	_	start_char=84|end_char=93|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=93|end_char=94|SpaceAfter=No
 

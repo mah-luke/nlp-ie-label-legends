@@ -1,5 +1,5 @@
 # text = The Wall - "Open For Business" No more DELAYS-
-# sent_id = 54915
+# sent_id = 53133
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
 2	Wall	Wall	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=8
 3	-	-	PUNCT	HYPH	_	2	_	_	start_char=9|end_char=10
@@ -14,7 +14,7 @@
 12	-	-	PUNCT	,	_	11	_	_	start_char=45|end_char=46
 
 # text = The CBP can start rewarding contracts IMMEDIATELY Still waiting for the LIBS who said they'll cut off their DICKS if we built a wall - whatca' waiting for?
-# sent_id = 54916
+# sent_id = 53134
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=47|end_char=50
 2	CBP	CBP	PROPN	NNP	Number=Sing	1	_	_	start_char=51|end_char=54
 3	can	can	AUX	MD	VerbForm=Fin	2	_	_	start_char=55|end_char=58
@@ -46,12 +46,10 @@
 28	'	'	PUNCT	``	_	27	_	_	_
 29	waiting	wait	VERB	VBG	VerbForm=Ger	28	_	_	start_char=190|end_char=197
 30	for	for	ADP	IN	_	29	_	_	start_char=198|end_char=201|SpaceAfter=No
-31	?	?	PUNCT	.	_	30	_	_	start_char=201|end_char=202
+31	?	?	PUNCT	.	_	30	_	_	start_char=201|end_char=202|SpacesAfter=\s\s
 
-# text = [URL] #MAGA
-# sent_id = 54917
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=203|end_char=204|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=204|end_char=207|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=207|end_char=208
-4	#MAGA	#maga	NOUN	NN	Number=Sing	3	_	_	start_char=209|end_char=214|SpaceAfter=No
+# text = #MAGA
+# sent_id = 53135
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=204|end_char=205|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=205|end_char=209|SpaceAfter=No
 

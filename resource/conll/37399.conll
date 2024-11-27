@@ -1,39 +1,33 @@
-# text = [USER]
-# sent_id = 79939
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Same.
-# sent_id = 79940
-1	Same	same	ADJ	JJ	Degree=Pos	0	_	_	start_char=7|end_char=11|SpaceAfter=No
-2	.	.	PUNCT	.	_	1	_	_	start_char=11|end_char=12
+# sent_id = 77361
+1	Same	same	ADJ	JJ	Degree=Pos	0	_	_	start_char=1|end_char=5|SpaceAfter=No|SpacesBefore=\s
+2	.	.	PUNCT	.	_	1	_	_	start_char=5|end_char=6
 
 # text = We live in a world where many women would feel better about themselves if you called them a hoe.
-# sent_id = 79941
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=13|end_char=15
-2	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=16|end_char=20
-3	in	in	ADP	IN	_	2	_	_	start_char=21|end_char=23
-4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=24|end_char=25
-5	world	world	NOUN	NN	Number=Sing	4	_	_	start_char=26|end_char=31
-6	where	where	ADV	WRB	PronType=Rel	5	_	_	start_char=32|end_char=37
-7	many	many	ADJ	JJ	Degree=Pos	6	_	_	start_char=38|end_char=42
-8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=43|end_char=48
-9	would	would	AUX	MD	VerbForm=Fin	8	_	_	start_char=49|end_char=54
-10	feel	feel	VERB	VB	VerbForm=Inf	9	_	_	start_char=55|end_char=59
-11	better	good	ADJ	JJR	Degree=Cmp	10	_	_	start_char=60|end_char=66
-12	about	about	ADP	IN	_	11	_	_	start_char=67|end_char=72
-13	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	12	_	_	start_char=73|end_char=83
-14	if	if	SCONJ	IN	_	13	_	_	start_char=84|end_char=86
-15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	_	_	start_char=87|end_char=90
-16	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	15	_	_	start_char=91|end_char=97
-17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=98|end_char=102
-18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=103|end_char=104
-19	hoe	hoe	NOUN	NN	Number=Sing	18	_	_	start_char=105|end_char=108|SpaceAfter=No
-20	.	.	PUNCT	.	_	19	_	_	start_char=108|end_char=109
+# sent_id = 77362
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=9
+2	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=14
+3	in	in	ADP	IN	_	2	_	_	start_char=15|end_char=17
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=18|end_char=19
+5	world	world	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=25
+6	where	where	ADV	WRB	PronType=Rel	5	_	_	start_char=26|end_char=31
+7	many	many	ADJ	JJ	Degree=Pos	6	_	_	start_char=32|end_char=36
+8	women	woman	NOUN	NNS	Number=Plur	7	_	_	start_char=37|end_char=42
+9	would	would	AUX	MD	VerbForm=Fin	8	_	_	start_char=43|end_char=48
+10	feel	feel	VERB	VB	VerbForm=Inf	9	_	_	start_char=49|end_char=53
+11	better	good	ADJ	JJR	Degree=Cmp	10	_	_	start_char=54|end_char=60
+12	about	about	ADP	IN	_	11	_	_	start_char=61|end_char=66
+13	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	12	_	_	start_char=67|end_char=77
+14	if	if	SCONJ	IN	_	13	_	_	start_char=78|end_char=80
+15	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	14	_	_	start_char=81|end_char=84
+16	called	call	VERB	VBD	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin	15	_	_	start_char=85|end_char=91
+17	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=92|end_char=96
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=97|end_char=98
+19	hoe	hoe	NOUN	NN	Number=Sing	18	_	_	start_char=99|end_char=102|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=102|end_char=103
 
 # text = #ThanksFeminism
-# sent_id = 79942
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=110|end_char=111|SpaceAfter=No
-2	ThanksFeminism	thanksfeminism	NOUN	NN	Number=Sing	1	_	_	start_char=111|end_char=125|SpaceAfter=No
+# sent_id = 77363
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=104|end_char=105|SpaceAfter=No
+2	ThanksFeminism	thanksfeminism	NOUN	NN	Number=Sing	1	_	_	start_char=105|end_char=119|SpaceAfter=No
 

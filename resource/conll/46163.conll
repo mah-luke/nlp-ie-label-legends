@@ -1,33 +1,27 @@
-# text = [USER]
-# sent_id = 98611
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = It looks like she could be on the verge of an aneurysm or an orgasm or a blotch... or all three at once
-# sent_id = 98612
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=9
-2	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=15
-3	like	like	SCONJ	IN	_	2	_	_	start_char=16|end_char=20
-4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=21|end_char=24
-5	could	could	AUX	MD	VerbForm=Fin	4	_	_	start_char=25|end_char=30
-6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=31|end_char=33
-7	on	on	ADP	IN	_	6	_	_	start_char=34|end_char=36
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=37|end_char=40
-9	verge	verge	NOUN	NN	Number=Sing	8	_	_	start_char=41|end_char=46
-10	of	of	ADP	IN	_	9	_	_	start_char=47|end_char=49
-11	an	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=50|end_char=52
-12	aneurysm	aneurysm	NOUN	NN	Number=Sing	11	_	_	start_char=53|end_char=61
-13	or	or	CCONJ	CC	_	12	_	_	start_char=62|end_char=64
-14	an	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=65|end_char=67
-15	orgasm	orgasm	NOUN	NN	Number=Sing	14	_	_	start_char=68|end_char=74
-16	or	or	CCONJ	CC	_	15	_	_	start_char=75|end_char=77
-17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=78|end_char=79
-18	blotch	blotch	NOUN	NN	Number=Sing	17	_	_	start_char=80|end_char=86|SpaceAfter=No
-19	...	...	PUNCT	,	_	18	_	_	start_char=86|end_char=89
-20	or	or	CCONJ	CC	_	19	_	_	start_char=90|end_char=92
-21	all	all	DET	DT	_	20	_	_	start_char=93|end_char=96
-22	three	three	NUM	CD	NumForm=Word|NumType=Card	21	_	_	start_char=97|end_char=102
-23	at	at	ADP	IN	_	22	_	_	start_char=103|end_char=105
-24	once	once	ADV	RB	NumType=Mult	23	_	_	start_char=106|end_char=110|SpaceAfter=No
+# sent_id = 95375
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=9
+3	like	like	SCONJ	IN	_	2	_	_	start_char=10|end_char=14
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=15|end_char=18
+5	could	could	AUX	MD	VerbForm=Fin	4	_	_	start_char=19|end_char=24
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=25|end_char=27
+7	on	on	ADP	IN	_	6	_	_	start_char=28|end_char=30
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=31|end_char=34
+9	verge	verge	NOUN	NN	Number=Sing	8	_	_	start_char=35|end_char=40
+10	of	of	ADP	IN	_	9	_	_	start_char=41|end_char=43
+11	an	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=44|end_char=46
+12	aneurysm	aneurysm	NOUN	NN	Number=Sing	11	_	_	start_char=47|end_char=55
+13	or	or	CCONJ	CC	_	12	_	_	start_char=56|end_char=58
+14	an	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=59|end_char=61
+15	orgasm	orgasm	NOUN	NN	Number=Sing	14	_	_	start_char=62|end_char=68
+16	or	or	CCONJ	CC	_	15	_	_	start_char=69|end_char=71
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=72|end_char=73
+18	blotch	blotch	NOUN	NN	Number=Sing	17	_	_	start_char=74|end_char=80|SpaceAfter=No
+19	...	...	PUNCT	,	_	18	_	_	start_char=80|end_char=83
+20	or	or	CCONJ	CC	_	19	_	_	start_char=84|end_char=86
+21	all	all	DET	DT	_	20	_	_	start_char=87|end_char=90
+22	three	three	NUM	CD	NumForm=Word|NumType=Card	21	_	_	start_char=91|end_char=96
+23	at	at	ADP	IN	_	22	_	_	start_char=97|end_char=99
+24	once	once	ADV	RB	NumType=Mult	23	_	_	start_char=100|end_char=104|SpaceAfter=No
 

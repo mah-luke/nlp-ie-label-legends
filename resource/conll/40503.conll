@@ -1,46 +1,43 @@
-# text = [USER] excuse me!
-# sent_id = 86634
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	excuse	excuse	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=7|end_char=13
-5	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=14|end_char=16|SpaceAfter=No
-6	!	!	PUNCT	.	_	5	_	_	start_char=16|end_char=17
+# text = excuse me!
+# sent_id = 83811
+1	excuse	excuse	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=1|end_char=7|SpacesBefore=\s
+2	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=8|end_char=10|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=10|end_char=11
 
 # text = I was here pretending to be dumb first b4 u were.
-# sent_id = 86635
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=18|end_char=19
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=20|end_char=23
-3	here	here	ADV	RB	PronType=Dem	2	_	_	start_char=24|end_char=28
-4	pretending	pretend	VERB	VBG	VerbForm=Ger	3	_	_	start_char=29|end_char=39
-5	to	to	PART	TO	_	4	_	_	start_char=40|end_char=42
-6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=43|end_char=45
-7	dumb	dumb	ADJ	JJ	Degree=Pos	6	_	_	start_char=46|end_char=50
-8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	_	_	start_char=51|end_char=56
-9	b4	b4	INTJ	UH	_	8	_	_	start_char=57|end_char=59
-10	u	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	_	_	start_char=60|end_char=61
-11	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=62|end_char=66|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=66|end_char=67
+# sent_id = 83812
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=12|end_char=13
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=14|end_char=17
+3	here	here	ADV	RB	PronType=Dem	2	_	_	start_char=18|end_char=22
+4	pretending	pretend	VERB	VBG	VerbForm=Ger	3	_	_	start_char=23|end_char=33
+5	to	to	PART	TO	_	4	_	_	start_char=34|end_char=36
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=37|end_char=39
+7	dumb	dumb	ADJ	JJ	Degree=Pos	6	_	_	start_char=40|end_char=44
+8	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	7	_	_	start_char=45|end_char=50
+9	b4	b4	INTJ	UH	_	8	_	_	start_char=51|end_char=53
+10	u	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	_	_	start_char=54|end_char=55
+11	were	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	10	_	_	start_char=56|end_char=60|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=60|end_char=61
 
 # text = I'm older than you and am a female so go and get another pitch this is mine
-# sent_id = 86636
-1-2	I'm	_	_	_	_	_	_	_	start_char=68|end_char=71
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=68|end_char=69
-2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=69|end_char=71
-3	older	old	ADJ	JJR	Degree=Cmp	2	_	_	start_char=72|end_char=77
-4	than	than	ADP	IN	_	3	_	_	start_char=78|end_char=82
-5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=83|end_char=86
-6	and	and	CCONJ	CC	_	5	_	_	start_char=87|end_char=90
-7	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=91|end_char=93
-8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=94|end_char=95
-9	female	female	NOUN	NN	Number=Sing	8	_	_	start_char=96|end_char=102
-10	so	so	ADV	RB	_	9	_	_	start_char=103|end_char=105
-11	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=106|end_char=108
-12	and	and	CCONJ	CC	_	11	_	_	start_char=109|end_char=112
-13	get	get	VERB	VB	VerbForm=Fin	12	_	_	start_char=113|end_char=116
-14	another	another	DET	DT	_	13	_	_	start_char=117|end_char=124
-15	pitch	pitch	NOUN	NN	Number=Sing	14	_	_	start_char=125|end_char=130
-16	this	this	PRON	DT	Number=Sing|PronType=Dem	15	_	_	start_char=131|end_char=135
-17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=136|end_char=138
-18	mine	mine	PRON	PRP	Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	_	_	start_char=139|end_char=143|SpaceAfter=No
+# sent_id = 83813
+1-2	I'm	_	_	_	_	_	_	_	start_char=62|end_char=65
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=62|end_char=63
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=65
+3	older	old	ADJ	JJR	Degree=Cmp	2	_	_	start_char=66|end_char=71
+4	than	than	ADP	IN	_	3	_	_	start_char=72|end_char=76
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=77|end_char=80
+6	and	and	CCONJ	CC	_	5	_	_	start_char=81|end_char=84
+7	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=85|end_char=87
+8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=88|end_char=89
+9	female	female	NOUN	NN	Number=Sing	8	_	_	start_char=90|end_char=96
+10	so	so	ADV	RB	_	9	_	_	start_char=97|end_char=99
+11	go	go	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=100|end_char=102
+12	and	and	CCONJ	CC	_	11	_	_	start_char=103|end_char=106
+13	get	get	VERB	VB	VerbForm=Fin	12	_	_	start_char=107|end_char=110
+14	another	another	DET	DT	_	13	_	_	start_char=111|end_char=118
+15	pitch	pitch	NOUN	NN	Number=Sing	14	_	_	start_char=119|end_char=124
+16	this	this	PRON	DT	Number=Sing|PronType=Dem	15	_	_	start_char=125|end_char=129
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=130|end_char=132
+18	mine	mine	PRON	PRP	Gender=Neut|Number=Sing|Person=1|Poss=Yes|PronType=Prs	17	_	_	start_char=133|end_char=137|SpaceAfter=No
 

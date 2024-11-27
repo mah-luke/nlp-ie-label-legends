@@ -1,10 +1,10 @@
 # text = RT mamadidi32
-# sent_id = 49509
+# sent_id = 47898
 1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
 2	mamadidi32	mamadidi32	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=13
 
-# text = I told my mom that was her karma for talking sh!t [URL]
-# sent_id = 49510
+# text = I told my mom that was her karma for talking sh!t
+# sent_id = 47899
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=14|end_char=15
 2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=16|end_char=20
 3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=21|end_char=23
@@ -15,8 +15,5 @@
 8	karma	karma	NOUN	NN	Number=Sing	7	_	_	start_char=41|end_char=46
 9	for	for	SCONJ	IN	_	8	_	_	start_char=47|end_char=50
 10	talking	talk	VERB	VBG	VerbForm=Ger	9	_	_	start_char=51|end_char=58
-11	sh!t	sh!t	NOUN	NN	Number=Sing	10	_	_	start_char=59|end_char=63
-12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=64|end_char=65|SpaceAfter=No
-13	URL	URL	PROPN	NNP	Number=Sing	12	_	_	start_char=65|end_char=68|SpaceAfter=No
-14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=68|end_char=69|SpaceAfter=No
+11	sh!t	sh!t	ADV	RB	_	10	_	_	start_char=59|end_char=63
 

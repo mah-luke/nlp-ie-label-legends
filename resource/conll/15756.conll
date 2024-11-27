@@ -1,5 +1,5 @@
 # text = At the end of this morning ITV
-# sent_id = 33705
+# sent_id = 32607
 1	At	at	ADP	IN	_	0	_	_	start_char=0|end_char=2
 2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=3|end_char=6
 3	end	end	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=10
@@ -9,7 +9,7 @@
 7	ITV	ITV	PROPN	NNP	Number=Sing	6	_	_	start_char=27|end_char=30
 
 # text = News there was a fashion spot.
-# sent_id = 33706
+# sent_id = 32608
 1	News	news	NOUN	NN	Number=Sing	0	_	_	start_char=31|end_char=35
 2	there	there	PRON	EX	_	1	_	_	start_char=36|end_char=41
 3	was	be	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=42|end_char=45
@@ -19,7 +19,7 @@
 7	.	.	PUNCT	.	_	6	_	_	start_char=60|end_char=61
 
 # text = "MODESTY FASHION for women will be big this autumn (fall)"
-# sent_id = 33707
+# sent_id = 32609
 1	"	"	PUNCT	``	_	0	_	_	start_char=62|end_char=63|SpaceAfter=No
 2	MODESTY	modesty	NOUN	NN	Number=Sing	1	_	_	start_char=63|end_char=70
 3	FASHION	fashion	NOUN	NN	Number=Sing	2	_	_	start_char=71|end_char=78
@@ -36,7 +36,7 @@
 14	"	"	PUNCT	''	_	13	_	_	start_char=119|end_char=120
 
 # text = This is all about appeasing muslim MEN!!
-# sent_id = 33708
+# sent_id = 32610
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=121|end_char=125
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=126|end_char=128
 3	all	all	ADV	RB	_	2	_	_	start_char=129|end_char=132
@@ -44,21 +44,15 @@
 5	appeasing	appease	VERB	VBG	VerbForm=Ger	4	_	_	start_char=139|end_char=148
 6	muslim	muslim	ADJ	JJ	Degree=Pos	5	_	_	start_char=149|end_char=155
 7	MEN	MEN	PROPN	NNP	Number=Sing	6	_	_	start_char=156|end_char=159|SpaceAfter=No
-8	!!	!!	PUNCT	.	_	7	_	_	start_char=159|end_char=161
-
-# text = [URL]
-# sent_id = 33709
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=162|end_char=163|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=163|end_char=166|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=166|end_char=167
+8	!!	!!	PUNCT	.	_	7	_	_	start_char=159|end_char=161|SpacesAfter=\s\s
 
 # text = What the HELL is going on!??
-# sent_id = 33710
-1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=168|end_char=172
-2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=173|end_char=176
-3	HELL	hell	NOUN	NN	Number=Sing	2	_	_	start_char=177|end_char=181
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=182|end_char=184
-5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=185|end_char=190
-6	on	on	ADP	RP	_	5	_	_	start_char=191|end_char=193|SpaceAfter=No
-7	!??	!??	PUNCT	.	_	6	_	_	start_char=193|end_char=196|SpaceAfter=No
+# sent_id = 32611
+1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=163|end_char=167
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=168|end_char=171
+3	HELL	hell	NOUN	NN	Number=Sing	2	_	_	start_char=172|end_char=176
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=177|end_char=179
+5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=180|end_char=185
+6	on	on	ADP	RP	_	5	_	_	start_char=186|end_char=188|SpaceAfter=No
+7	!??	!??	PUNCT	.	_	6	_	_	start_char=188|end_char=191|SpaceAfter=No
 

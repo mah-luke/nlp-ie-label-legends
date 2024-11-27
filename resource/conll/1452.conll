@@ -1,34 +1,28 @@
-# text = [USER]
-# sent_id = 3024
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = What's your phone number.
-# sent_id = 3025
-1-2	What's	_	_	_	_	_	_	_	start_char=7|end_char=13
-1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=7|end_char=11
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=11|end_char=13
-3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=14|end_char=18
-4	phone	phone	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=24
-5	number	number	NOUN	NN	Number=Sing	4	_	_	start_char=25|end_char=31|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=31|end_char=32
+# sent_id = 2949
+1-2	What's	_	_	_	_	_	_	_	start_char=1|end_char=7|SpacesBefore=\s
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=1|end_char=5
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=7
+3	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	2	_	_	start_char=8|end_char=12
+4	phone	phone	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=18
+5	number	number	NOUN	NN	Number=Sing	4	_	_	start_char=19|end_char=25|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=25|end_char=26
 
 # text = I'm calling you.
-# sent_id = 3026
-1-2	I'm	_	_	_	_	_	_	_	start_char=33|end_char=36
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=33|end_char=34
-2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=34|end_char=36
-3	calling	call	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=37|end_char=44
-4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=45|end_char=48|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=48|end_char=49
+# sent_id = 2950
+1-2	I'm	_	_	_	_	_	_	_	start_char=27|end_char=30
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=27|end_char=28
+2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=28|end_char=30
+3	calling	call	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=31|end_char=38
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=39|end_char=42|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=42|end_char=43
 
 # text = Put her on the phone.
-# sent_id = 3027
-1	Put	put	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=50|end_char=53
-2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=54|end_char=57
-3	on	on	ADP	IN	_	2	_	_	start_char=58|end_char=60
-4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=61|end_char=64
-5	phone	phone	NOUN	NN	Number=Sing	4	_	_	start_char=65|end_char=70|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=70|end_char=71|SpaceAfter=No
+# sent_id = 2951
+1	Put	put	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=44|end_char=47
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=48|end_char=51
+3	on	on	ADP	IN	_	2	_	_	start_char=52|end_char=54
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=55|end_char=58
+5	phone	phone	NOUN	NN	Number=Sing	4	_	_	start_char=59|end_char=64|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=64|end_char=65|SpaceAfter=No
 

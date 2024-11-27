@@ -1,67 +1,61 @@
-# text = [USER]
-# sent_id = 75972
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Like throwing away a replica pistol after the runner-up for the Libertarian nomination presented it to him?
-# sent_id = 75973
-1	Like	like	SCONJ	IN	_	0	_	_	start_char=7|end_char=11
-2	throwing	throw	VERB	VBG	VerbForm=Ger	1	_	_	start_char=12|end_char=20
-3	away	away	ADV	RB	_	2	_	_	start_char=21|end_char=25
-4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=26|end_char=27
-5	replica	replica	NOUN	NN	Number=Sing	4	_	_	start_char=28|end_char=35
-6	pistol	pistol	NOUN	NN	Number=Sing	5	_	_	start_char=36|end_char=42
-7	after	after	ADP	IN	_	6	_	_	start_char=43|end_char=48
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=49|end_char=52
-9	runner	runner	NOUN	NN	Number=Sing	8	_	_	start_char=53|end_char=59|SpaceAfter=No
-10	-	-	PUNCT	HYPH	_	9	_	_	start_char=59|end_char=60|SpaceAfter=No
-11	up	up	NOUN	NN	Number=Sing	10	_	_	start_char=60|end_char=62
-12	for	for	ADP	IN	_	11	_	_	start_char=63|end_char=66
-13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=67|end_char=70
-14	Libertarian	Libertarian	ADJ	JJ	Degree=Pos	13	_	_	start_char=71|end_char=82
-15	nomination	nomination	NOUN	NN	Number=Sing	14	_	_	start_char=83|end_char=93
-16	presented	present	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=94|end_char=103
-17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=104|end_char=106
-18	to	to	ADP	IN	_	17	_	_	start_char=107|end_char=109
-19	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=110|end_char=113|SpaceAfter=No
-20	?	?	PUNCT	.	_	19	_	_	start_char=113|end_char=114
+# sent_id = 73533
+1	Like	like	SCONJ	IN	_	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	throwing	throw	VERB	VBG	VerbForm=Ger	1	_	_	start_char=6|end_char=14
+3	away	away	ADV	RB	_	2	_	_	start_char=15|end_char=19
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=20|end_char=21
+5	replica	replica	NOUN	NN	Number=Sing	4	_	_	start_char=22|end_char=29
+6	pistol	pistol	NOUN	NN	Number=Sing	5	_	_	start_char=30|end_char=36
+7	after	after	ADP	IN	_	6	_	_	start_char=37|end_char=42
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=43|end_char=46
+9	runner	runner	NOUN	NN	Number=Sing	8	_	_	start_char=47|end_char=53|SpaceAfter=No
+10	-	-	PUNCT	HYPH	_	9	_	_	start_char=53|end_char=54|SpaceAfter=No
+11	up	up	NOUN	NN	Number=Sing	10	_	_	start_char=54|end_char=56
+12	for	for	ADP	IN	_	11	_	_	start_char=57|end_char=60
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=61|end_char=64
+14	Libertarian	Libertarian	ADJ	JJ	Degree=Pos	13	_	_	start_char=65|end_char=76
+15	nomination	nomination	NOUN	NN	Number=Sing	14	_	_	start_char=77|end_char=87
+16	presented	present	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=88|end_char=97
+17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=98|end_char=100
+18	to	to	ADP	IN	_	17	_	_	start_char=101|end_char=103
+19	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=104|end_char=107|SpaceAfter=No
+20	?	?	PUNCT	.	_	19	_	_	start_char=107|end_char=108
 
 # text = At the fucking convention?
-# sent_id = 75974
-1	At	at	ADP	IN	_	0	_	_	start_char=115|end_char=117
-2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=118|end_char=121
-3	fucking	fuck	NOUN	NN	Number=Sing	2	_	_	start_char=122|end_char=129
-4	convention	convention	NOUN	NN	Number=Sing	3	_	_	start_char=130|end_char=140|SpaceAfter=No
-5	?	?	PUNCT	.	_	4	_	_	start_char=140|end_char=141
+# sent_id = 73534
+1	At	at	ADP	IN	_	0	_	_	start_char=109|end_char=111
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=112|end_char=115
+3	fucking	fuck	NOUN	NN	Number=Sing	2	_	_	start_char=116|end_char=123
+4	convention	convention	NOUN	NN	Number=Sing	3	_	_	start_char=124|end_char=134|SpaceAfter=No
+5	?	?	PUNCT	.	_	4	_	_	start_char=134|end_char=135
 
 # text = And then sent an aid to buy it back when the story leaked?
-# sent_id = 75975
-1	And	and	CCONJ	CC	_	0	_	_	start_char=142|end_char=145
-2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=146|end_char=150
-3	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=151|end_char=155
-4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=156|end_char=158
-5	aid	aid	NOUN	NN	Number=Sing	4	_	_	start_char=159|end_char=162
-6	to	to	PART	TO	_	5	_	_	start_char=163|end_char=165
-7	buy	buy	VERB	VB	VerbForm=Inf	6	_	_	start_char=166|end_char=169
-8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=170|end_char=172
-9	back	back	ADV	RB	_	8	_	_	start_char=173|end_char=177
-10	when	when	ADV	WRB	PronType=Int	9	_	_	start_char=178|end_char=182
-11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=183|end_char=186
-12	story	story	NOUN	NN	Number=Sing	11	_	_	start_char=187|end_char=192
-13	leaked	leak	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=193|end_char=199|SpaceAfter=No
-14	?	?	PUNCT	.	_	13	_	_	start_char=199|end_char=200
+# sent_id = 73535
+1	And	and	CCONJ	CC	_	0	_	_	start_char=136|end_char=139
+2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=140|end_char=144
+3	sent	send	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	2	_	_	start_char=145|end_char=149
+4	an	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=150|end_char=152
+5	aid	aid	NOUN	NN	Number=Sing	4	_	_	start_char=153|end_char=156
+6	to	to	PART	TO	_	5	_	_	start_char=157|end_char=159
+7	buy	buy	VERB	VB	VerbForm=Inf	6	_	_	start_char=160|end_char=163
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=164|end_char=166
+9	back	back	ADV	RB	_	8	_	_	start_char=167|end_char=171
+10	when	when	ADV	WRB	PronType=Int	9	_	_	start_char=172|end_char=176
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=177|end_char=180
+12	story	story	NOUN	NN	Number=Sing	11	_	_	start_char=181|end_char=186
+13	leaked	leak	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=187|end_char=193|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=193|end_char=194
 
 # text = He's a cuck, not a libertarian.
-# sent_id = 75976
-1-2	He's	_	_	_	_	_	_	_	start_char=201|end_char=205
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=201|end_char=203
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=203|end_char=205
-3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=206|end_char=207
-4	cuck	cuck	NOUN	NN	Number=Sing	3	_	_	start_char=208|end_char=212|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	_	_	start_char=212|end_char=213
-6	not	not	PART	RB	_	5	_	_	start_char=214|end_char=217
-7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=218|end_char=219
-8	libertarian	libertarian	NOUN	NN	Number=Sing	7	_	_	start_char=220|end_char=231|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=231|end_char=232|SpaceAfter=No
+# sent_id = 73536
+1-2	He's	_	_	_	_	_	_	_	start_char=195|end_char=199
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=195|end_char=197
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=197|end_char=199
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=200|end_char=201
+4	cuck	cuck	NOUN	NN	Number=Sing	3	_	_	start_char=202|end_char=206|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=206|end_char=207
+6	not	not	PART	RB	_	5	_	_	start_char=208|end_char=211
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=212|end_char=213
+8	libertarian	libertarian	NOUN	NN	Number=Sing	7	_	_	start_char=214|end_char=225|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=225|end_char=226|SpaceAfter=No
 

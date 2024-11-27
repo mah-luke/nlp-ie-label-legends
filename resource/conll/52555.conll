@@ -1,5 +1,5 @@
 # text = French mayor Robert Ménard has been fined by the government for hate speech after mentioning that French children were being “replaced” in schools in his town.
-# sent_id = 112349
+# sent_id = 108671
 1	French	French	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=6
 2	mayor	mayor	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=12
 3	Robert	Robert	PROPN	NNP	Number=Sing	2	_	_	start_char=13|end_char=19
@@ -28,15 +28,12 @@
 26	in	in	ADP	IN	_	25	_	_	start_char=147|end_char=149
 27	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	26	_	_	start_char=150|end_char=153
 28	town	town	NOUN	NN	Number=Sing	27	_	_	start_char=154|end_char=158|SpaceAfter=No
-29	.	.	PUNCT	.	_	28	_	_	start_char=158|end_char=159
+29	.	.	PUNCT	.	_	28	_	_	start_char=158|end_char=159|SpacesAfter=\s\s
 
-# text = [URL] #LePen #France
-# sent_id = 112350
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=160|end_char=161|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=161|end_char=164|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=164|end_char=165
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=166|end_char=167|SpaceAfter=No
-5	LePen	LePen	PROPN	NNP	Number=Sing	4	_	_	start_char=167|end_char=172
-6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=173|end_char=174|SpaceAfter=No
-7	France	France	PROPN	NNP	Number=Sing	6	_	_	start_char=174|end_char=180|SpaceAfter=No
+# text = #LePen #France
+# sent_id = 108672
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=161|end_char=162|SpaceAfter=No
+2	LePen	LePen	PROPN	NNP	Number=Sing	1	_	_	start_char=162|end_char=167
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=168|end_char=169|SpaceAfter=No
+4	France	France	PROPN	NNP	Number=Sing	3	_	_	start_char=169|end_char=175|SpaceAfter=No
 

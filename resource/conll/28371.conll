@@ -1,5 +1,5 @@
 # text = #FakeNews is upset that they aren't coming down hard enough on Trump.
-# sent_id = 60894
+# sent_id = 58920
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	FakeNews	fakenew	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=9
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=10|end_char=12
@@ -18,7 +18,7 @@
 15	.	.	PUNCT	.	_	14	_	_	start_char=68|end_char=69
 
 # text = Maybe if they took time out from sexually harassing women they might be able to spend more time slandering Trump.
-# sent_id = 60895
+# sent_id = 58921
 1	Maybe	maybe	ADV	RB	_	0	_	_	start_char=70|end_char=75
 2	if	if	SCONJ	IN	_	1	_	_	start_char=76|end_char=78
 3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=79|end_char=83
@@ -39,15 +39,12 @@
 18	time	time	NOUN	NN	Number=Sing	17	_	_	start_char=161|end_char=165
 19	slandering	slander	VERB	VBG	VerbForm=Ger	18	_	_	start_char=166|end_char=176
 20	Trump	Trump	PROPN	NNP	Number=Sing	19	_	_	start_char=177|end_char=182|SpaceAfter=No
-21	.	.	PUNCT	.	_	20	_	_	start_char=182|end_char=183
+21	.	.	PUNCT	.	_	20	_	_	start_char=182|end_char=183|SpacesAfter=\s\s
 
-# text = [URL] #MAGA #LiberalLogic
-# sent_id = 60896
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=184|end_char=185|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=185|end_char=188|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=188|end_char=189
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=190|end_char=191|SpaceAfter=No
-5	MAGA	maga	NOUN	NN	Number=Sing	4	_	_	start_char=191|end_char=195
-6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=196|end_char=197|SpaceAfter=No
-7	LiberalLogic	LiberalLogic	PROPN	NNP	Number=Sing	6	_	_	start_char=197|end_char=209|SpaceAfter=No
+# text = #MAGA #LiberalLogic
+# sent_id = 58922
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=185|end_char=186|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=186|end_char=190
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=191|end_char=192|SpaceAfter=No
+4	LiberalLogic	LiberalLogic	NOUN	NN	Number=Sing	3	_	_	start_char=192|end_char=204|SpaceAfter=No
 

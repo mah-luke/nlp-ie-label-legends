@@ -1,13 +1,13 @@
 # text = Yeah it was real.
-# sent_id = 94648
+# sent_id = 91552
 1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=5|end_char=7
 3	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=8|end_char=11
 4	real	real	ADJ	JJ	Degree=Pos	3	_	_	start_char=12|end_char=16|SpaceAfter=No
 5	.	.	PUNCT	.	_	4	_	_	start_char=16|end_char=17
 
-# text = She needed to leave her perfectly fine twatter, to speak to [USER] because she got him suspended from twitter. :) [URL]
-# sent_id = 94649
+# text = She needed to leave her perfectly fine twatter, to speak to because she got him suspended from twitter. :)
+# sent_id = 91553
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=18|end_char=21
 2	needed	need	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=22|end_char=28
 3	to	to	PART	TO	_	2	_	_	start_char=29|end_char=31
@@ -19,20 +19,14 @@
 9	,	,	PUNCT	,	_	8	_	_	start_char=64|end_char=65
 10	to	to	PART	TO	_	9	_	_	start_char=66|end_char=68
 11	speak	speak	VERB	VB	VerbForm=Inf	10	_	_	start_char=69|end_char=74
-12	to	to	ADP	IN	_	11	_	_	start_char=75|end_char=77
-13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=78|end_char=79|SpaceAfter=No
-14	USER	user	NOUN	NN	Number=Sing	13	_	_	start_char=79|end_char=83|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=83|end_char=84
-16	because	because	SCONJ	IN	_	15	_	_	start_char=85|end_char=92
-17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=93|end_char=96
-18	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=97|end_char=100
-19	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=101|end_char=104
-20	suspended	suspend	VERB	VBN	Tense=Past|VerbForm=Part	19	_	_	start_char=105|end_char=114
-21	from	from	ADP	IN	_	20	_	_	start_char=115|end_char=119
-22	twitter	twitter	NOUN	NN	Number=Sing	21	_	_	start_char=120|end_char=127|SpaceAfter=No
-23	.	.	PUNCT	.	_	22	_	_	start_char=127|end_char=128
-24	:)	:)	SYM	NFP	_	23	_	_	start_char=129|end_char=131
-25	[	[	PUNCT	-LRB-	_	24	_	_	start_char=132|end_char=133|SpaceAfter=No
-26	URL	URL	PROPN	NNP	Number=Sing	25	_	_	start_char=133|end_char=136|SpaceAfter=No
-27	]	]	PUNCT	-RRB-	_	26	_	_	start_char=136|end_char=137|SpaceAfter=No
+12	to	to	ADP	IN	_	11	_	_	start_char=75|end_char=77|SpacesAfter=\s\s
+13	because	because	SCONJ	IN	_	12	_	_	start_char=79|end_char=86
+14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=87|end_char=90
+15	got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=91|end_char=94
+16	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=95|end_char=98
+17	suspended	suspend	VERB	VBN	Tense=Past|VerbForm=Part	16	_	_	start_char=99|end_char=108
+18	from	from	ADP	IN	_	17	_	_	start_char=109|end_char=113
+19	twitter	twitter	NOUN	NN	Number=Sing	18	_	_	start_char=114|end_char=121|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=121|end_char=122
+21	:)	:)	SYM	NFP	_	20	_	_	start_char=123|end_char=125
 

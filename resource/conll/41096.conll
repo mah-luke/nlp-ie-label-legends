@@ -1,5 +1,5 @@
 # text = woman went to india to treat her depression.
-# sent_id = 87945
+# sent_id = 85066
 1	woman	woman	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=5
 2	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=6|end_char=10
 3	to	to	ADP	IN	_	2	_	_	start_char=11|end_char=13
@@ -11,7 +11,7 @@
 9	.	.	PUNCT	.	_	8	_	_	start_char=43|end_char=44
 
 # text = She was drugged, raped, beheaded and hung upside down in a forest.
-# sent_id = 87946
+# sent_id = 85067
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=45|end_char=48
 2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=49|end_char=52
 3	drugged	drug	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=53|end_char=60|SpaceAfter=No
@@ -27,10 +27,4 @@
 13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=102|end_char=103
 14	forest	forest	NOUN	NN	Number=Sing	13	_	_	start_char=104|end_char=110|SpaceAfter=No
 15	.	.	PUNCT	.	_	14	_	_	start_char=110|end_char=111
-
-# text = [URL]
-# sent_id = 87947
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=112|end_char=113|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=113|end_char=116|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=116|end_char=117|SpaceAfter=No
 

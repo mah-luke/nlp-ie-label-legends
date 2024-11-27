@@ -1,56 +1,47 @@
-# text = RT [USER]: .[USER]: "She bravely restored common sense, decency to the U.S. Senate today and led by example, and she had to stand up to a very angry, left-wing mob."
-# sent_id = 32447
+# text = RT : .: "She bravely restored common sense, decency to the U.S. Senate today and led by example, and she had to stand up to a very angry, left-wing mob."
+# sent_id = 31388
 1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
-3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=8|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=8|end_char=9|SpaceAfter=No
-5	:	:	PUNCT	:	_	4	_	_	start_char=9|end_char=10
-6	.	.	PUNCT	.	_	5	_	_	start_char=11|end_char=12|SpaceAfter=No
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=12|end_char=13|SpaceAfter=No
-8	USER	user	NOUN	NN	Number=Sing	7	_	_	start_char=13|end_char=17|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=17|end_char=18|SpaceAfter=No
-10	:	:	PUNCT	:	_	9	_	_	start_char=18|end_char=19
-11	"	"	PUNCT	``	_	10	_	_	start_char=20|end_char=21|SpaceAfter=No
-12	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=21|end_char=24
-13	bravely	bravely	ADV	RB	_	12	_	_	start_char=25|end_char=32
-14	restored	restore	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	_	_	start_char=33|end_char=41
-15	common	common	ADJ	JJ	Degree=Pos	14	_	_	start_char=42|end_char=48
-16	sense	sense	NOUN	NN	Number=Sing	15	_	_	start_char=49|end_char=54|SpaceAfter=No
-17	,	,	PUNCT	,	_	16	_	_	start_char=54|end_char=55
-18	decency	decency	NOUN	NN	Number=Sing	17	_	_	start_char=56|end_char=63
-19	to	to	ADP	IN	_	18	_	_	start_char=64|end_char=66
-20	the	the	DET	DT	Definite=Def|PronType=Art	19	_	_	start_char=67|end_char=70
-21	U.S.	U.S.	PROPN	NNP	Number=Sing	20	_	_	start_char=71|end_char=75
-22	Senate	Senate	PROPN	NNP	Number=Sing	21	_	_	start_char=76|end_char=82
-23	today	today	NOUN	NN	Number=Sing	22	_	_	start_char=83|end_char=88
-24	and	and	CCONJ	CC	_	23	_	_	start_char=89|end_char=92
-25	led	lead	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	_	_	start_char=93|end_char=96
-26	by	by	ADP	IN	_	25	_	_	start_char=97|end_char=99
-27	example	example	NOUN	NN	Number=Sing	26	_	_	start_char=100|end_char=107|SpaceAfter=No
-28	,	,	PUNCT	,	_	27	_	_	start_char=107|end_char=108
-29	and	and	CCONJ	CC	_	28	_	_	start_char=109|end_char=112
-30	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	29	_	_	start_char=113|end_char=116
-31	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	_	_	start_char=117|end_char=120
-32	to	to	PART	TO	_	31	_	_	start_char=121|end_char=123
-33	stand	stand	VERB	VB	VerbForm=Inf	32	_	_	start_char=124|end_char=129
-34	up	up	ADP	RP	_	33	_	_	start_char=130|end_char=132
-35	to	to	ADP	IN	_	34	_	_	start_char=133|end_char=135
-36	a	a	DET	DT	Definite=Ind|PronType=Art	35	_	_	start_char=136|end_char=137
-37	very	very	ADV	RB	_	36	_	_	start_char=138|end_char=142
-38	angry	angry	ADJ	JJ	Degree=Pos	37	_	_	start_char=143|end_char=148|SpaceAfter=No
-39	,	,	PUNCT	,	_	38	_	_	start_char=148|end_char=149
-40	left	left	ADJ	JJ	Degree=Pos	39	_	_	start_char=150|end_char=154|SpaceAfter=No
-41	-	-	PUNCT	HYPH	_	40	_	_	start_char=154|end_char=155|SpaceAfter=No
-42	wing	wing	NOUN	NN	Number=Sing	41	_	_	start_char=155|end_char=159
-43	mob	mob	NOUN	NN	Number=Sing	42	_	_	start_char=160|end_char=163|SpaceAfter=No
-44	.	.	PUNCT	.	_	43	_	_	start_char=163|end_char=164|SpaceAfter=No
-45	"	"	PUNCT	''	_	44	_	_	start_char=164|end_char=165
+2	:	:	PUNCT	:	_	1	_	_	start_char=3|end_char=4
+3	.	.	PUNCT	.	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=6|end_char=7
+5	"	"	PUNCT	``	_	4	_	_	start_char=8|end_char=9|SpaceAfter=No
+6	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=9|end_char=12
+7	bravely	bravely	ADV	RB	_	6	_	_	start_char=13|end_char=20
+8	restored	restore	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=21|end_char=29
+9	common	common	ADJ	JJ	Degree=Pos	8	_	_	start_char=30|end_char=36
+10	sense	sense	NOUN	NN	Number=Sing	9	_	_	start_char=37|end_char=42|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=42|end_char=43
+12	decency	decency	NOUN	NN	Number=Sing	11	_	_	start_char=44|end_char=51
+13	to	to	ADP	IN	_	12	_	_	start_char=52|end_char=54
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=55|end_char=58
+15	U.S.	U.S.	PROPN	NNP	Number=Sing	14	_	_	start_char=59|end_char=63
+16	Senate	Senate	PROPN	NNP	Number=Sing	15	_	_	start_char=64|end_char=70
+17	today	today	NOUN	NN	Number=Sing	16	_	_	start_char=71|end_char=76
+18	and	and	CCONJ	CC	_	17	_	_	start_char=77|end_char=80
+19	led	lead	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	_	_	start_char=81|end_char=84
+20	by	by	ADP	IN	_	19	_	_	start_char=85|end_char=87
+21	example	example	NOUN	NN	Number=Sing	20	_	_	start_char=88|end_char=95|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=95|end_char=96
+23	and	and	CCONJ	CC	_	22	_	_	start_char=97|end_char=100
+24	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=101|end_char=104
+25	had	have	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	24	_	_	start_char=105|end_char=108
+26	to	to	PART	TO	_	25	_	_	start_char=109|end_char=111
+27	stand	stand	VERB	VB	VerbForm=Inf	26	_	_	start_char=112|end_char=117
+28	up	up	ADP	RP	_	27	_	_	start_char=118|end_char=120
+29	to	to	ADP	IN	_	28	_	_	start_char=121|end_char=123
+30	a	a	DET	DT	Definite=Ind|PronType=Art	29	_	_	start_char=124|end_char=125
+31	very	very	ADV	RB	_	30	_	_	start_char=126|end_char=130
+32	angry	angry	ADJ	JJ	Degree=Pos	31	_	_	start_char=131|end_char=136|SpaceAfter=No
+33	,	,	PUNCT	,	_	32	_	_	start_char=136|end_char=137
+34	left	left	ADJ	JJ	Degree=Pos	33	_	_	start_char=138|end_char=142|SpaceAfter=No
+35	-	-	PUNCT	HYPH	_	34	_	_	start_char=142|end_char=143|SpaceAfter=No
+36	wing	wing	NOUN	NN	Number=Sing	35	_	_	start_char=143|end_char=147
+37	mob	mob	NOUN	NN	Number=Sing	36	_	_	start_char=148|end_char=151|SpaceAfter=No
+38	.	.	PUNCT	.	_	37	_	_	start_char=151|end_char=152|SpaceAfter=No
+39	"	"	PUNCT	''	_	38	_	_	start_char=152|end_char=153
 
-# text = #Hannity [URL]
-# sent_id = 32448
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=166|end_char=167|SpaceAfter=No
-2	Hannity	Hannity	PROPN	NNP	Number=Sing	1	_	_	start_char=167|end_char=174
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=175|end_char=176|SpaceAfter=No
-4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=176|end_char=179|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=179|end_char=180|SpaceAfter=No
+# text = #Hannity
+# sent_id = 31389
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=154|end_char=155|SpaceAfter=No
+2	Hannity	Hannity	PROPN	NNP	Number=Sing	1	_	_	start_char=155|end_char=162
 

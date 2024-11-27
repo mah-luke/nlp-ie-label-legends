@@ -1,5 +1,5 @@
 # text = "Show me a “successful woman,” and I’ll show you a dick that’s been sucked."
-# sent_id = 9694
+# sent_id = 9368
 1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	Show	show	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=1|end_char=5
 3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=6|end_char=8
@@ -25,28 +25,16 @@
 21	.	.	PUNCT	.	_	20	_	_	start_char=74|end_char=75|SpaceAfter=No
 22	"	"	PUNCT	''	_	21	_	_	start_char=75|end_char=76
 
-# text = Andrew Anglin[USER]
-# sent_id = 9695
+# text = Andrew Anglin One of Andrew's better articles!
+# sent_id = 9369
 1	Andrew	Andrew	PROPN	NNP	Number=Sing	0	_	_	start_char=77|end_char=83
-2	Anglin	Anglin	PROPN	NNP	Number=Sing	1	_	_	start_char=84|end_char=90|SpaceAfter=No
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=90|end_char=91|SpaceAfter=No
-4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=91|end_char=95|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=95|end_char=96
-
-# text = One of Andrew's better articles!
-# sent_id = 9696
-1	One	one	NUM	CD	NumForm=Word|NumType=Card	0	_	_	start_char=97|end_char=100
-2	of	of	ADP	IN	_	1	_	_	start_char=101|end_char=103
-3-4	Andrew's	_	_	_	_	_	_	_	start_char=104|end_char=112
-3	Andrew	Andrew	PROPN	NNP	Number=Sing	2	_	_	start_char=104|end_char=110
-4	's	's	PART	POS	_	3	_	_	start_char=110|end_char=112
-5	better	good	ADJ	JJR	Degree=Cmp	4	_	_	start_char=113|end_char=119
-6	articles	article	NOUN	NNS	Number=Plur	5	_	_	start_char=120|end_char=128|SpaceAfter=No
-7	!	!	PUNCT	.	_	6	_	_	start_char=128|end_char=129
-
-# text = [URL]
-# sent_id = 9697
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=130|end_char=131|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=131|end_char=134|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=134|end_char=135|SpaceAfter=No
+2	Anglin	Anglin	PROPN	NNP	Number=Sing	1	_	_	start_char=84|end_char=90
+3	One	one	NUM	CD	NumForm=Word|NumType=Card	2	_	_	start_char=91|end_char=94
+4	of	of	ADP	IN	_	3	_	_	start_char=95|end_char=97
+5-6	Andrew's	_	_	_	_	_	_	_	start_char=98|end_char=106
+5	Andrew	Andrew	PROPN	NNP	Number=Sing	4	_	_	start_char=98|end_char=104
+6	's	's	PART	POS	_	5	_	_	start_char=104|end_char=106
+7	better	good	ADJ	JJR	Degree=Cmp	6	_	_	start_char=107|end_char=113
+8	articles	article	NOUN	NNS	Number=Plur	7	_	_	start_char=114|end_char=122|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=122|end_char=123
 

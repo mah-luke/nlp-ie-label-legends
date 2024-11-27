@@ -1,5 +1,5 @@
 # text = Stormy Daniels' legal team plans to release a composite sketch of the man the porn star says threatened her in 2011 when she was trying to sell her story about her alleged affair with Donald Trump, her lawyer said Monday.
-# sent_id = 104873
+# sent_id = 101441
 1	Stormy	Stormy	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6
 2-3	Daniels'	_	_	_	_	_	_	_	start_char=7|end_char=15
 2	Daniels	Daniels	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=14
@@ -45,14 +45,11 @@
 42	Monday	Monday	PROPN	NNP	Number=Sing	41	_	_	start_char=214|end_char=220|SpaceAfter=No
 43	.	.	PUNCT	.	_	42	_	_	start_char=220|end_char=221
 
-# text = #cnn #foxnews #cbs [URL]
-# sent_id = 104874
+# text = #cnn #foxnews #cbs
+# sent_id = 101442
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=222|end_char=223|SpaceAfter=No
-2	cnn	cnn	NOUN	NN	Number=Sing	1	_	_	start_char=223|end_char=226
+2	cnn	cnn	NOUN	GW	Number=Sing	1	_	_	start_char=223|end_char=226
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=227|end_char=228|SpaceAfter=No
 4	foxnews	foxnew	NOUN	NN	Number=Sing	3	_	_	start_char=228|end_char=235
 5	#cbs	#cb	X	NN	_	4	_	_	start_char=236|end_char=240
-6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=241|end_char=242|SpaceAfter=No
-7	URL	URL	NOUN	NN	Number=Sing	6	_	_	start_char=242|end_char=245|SpaceAfter=No
-8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=245|end_char=246|SpaceAfter=No
 

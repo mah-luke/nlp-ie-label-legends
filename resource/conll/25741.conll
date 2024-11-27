@@ -1,5 +1,5 @@
 # text = This Deutschistani womyn think it's OK to show her (ugh) blonde hair?
-# sent_id = 55179
+# sent_id = 53385
 1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=0|end_char=4
 2	Deutschistani	Deutschistani	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=18
 3	womyn	womyn	NOUN	NN	Number=Sing	2	_	_	start_char=19|end_char=24
@@ -19,17 +19,11 @@
 16	?	?	PUNCT	.	_	15	_	_	start_char=68|end_char=69
 
 # text = SICK!!
-# sent_id = 55180
+# sent_id = 53386
 1	SICK	sick	ADJ	JJ	Degree=Pos	0	_	_	start_char=70|end_char=74|SpaceAfter=No
-2	!!	!!	PUNCT	.	_	1	_	_	start_char=74|end_char=76
+2	!!	!!	PUNCT	.	_	1	_	_	start_char=74|end_char=76|SpacesAfter=\s\s
 
-# text = [URL] H/t [USER]
-# sent_id = 55181
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=77|end_char=78|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=78|end_char=81|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=81|end_char=82
-4	H/t	h/t	NOUN	NN	Number=Sing	3	_	_	start_char=83|end_char=86
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=87|end_char=88|SpaceAfter=No
-6	USER	user	NOUN	NN	Number=Sing	5	_	_	start_char=88|end_char=92|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=92|end_char=93|SpaceAfter=No
+# text = H/t
+# sent_id = 53387
+1	H/t	h/t	NOUN	NN	Number=Sing	0	_	_	start_char=78|end_char=81
 

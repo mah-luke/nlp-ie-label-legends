@@ -1,5 +1,5 @@
 # text = NEW: Lawyer for Calif. professor says that her client believes Kavanaugh actions were "attempted rape," and she's willing to testify publicly about it; Kavanaugh has denounced the allegation against him.
-# sent_id = 6621
+# sent_id = 6414
 1	NEW	new	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=3|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	_	_	start_char=3|end_char=4
 3	Lawyer	Lawyer	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=11
@@ -38,14 +38,5 @@
 35	allegation	allegation	NOUN	NN	Number=Sing	34	_	_	start_char=180|end_char=190
 36	against	against	ADP	IN	_	35	_	_	start_char=191|end_char=198
 37	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	36	_	_	start_char=199|end_char=202|SpaceAfter=No
-38	.	.	PUNCT	.	_	37	_	_	start_char=202|end_char=203
-
-# text = [URL] [URL]
-# sent_id = 6622
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=204|end_char=205|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=205|end_char=208|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=208|end_char=209
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=210|end_char=211|SpaceAfter=No
-5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=211|end_char=214|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=214|end_char=215|SpaceAfter=No
+38	.	.	PUNCT	.	_	37	_	_	start_char=202|end_char=203|SpacesAfter=\s\s
 

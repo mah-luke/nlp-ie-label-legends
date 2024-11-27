@@ -1,31 +1,25 @@
-# text = [USER]
-# sent_id = 5394
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = We beat them for now, but they'll soon be back.
-# sent_id = 5395
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=9
-2	beat	beat	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=14
-3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=15|end_char=19
-4	for	for	ADP	IN	_	3	_	_	start_char=20|end_char=23
-5	now	now	ADV	RB	_	4	_	_	start_char=24|end_char=27|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=27|end_char=28
-7	but	but	CCONJ	CC	_	6	_	_	start_char=29|end_char=32
-8-9	they'll	_	_	_	_	_	_	_	start_char=33|end_char=40
-8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=33|end_char=37
-9	'll	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=37|end_char=40
-10	soon	soon	ADV	RB	Degree=Pos	9	_	_	start_char=41|end_char=45
-11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=46|end_char=48
-12	back	back	ADV	RB	_	11	_	_	start_char=49|end_char=53|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=53|end_char=54
+# sent_id = 5228
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	beat	beat	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=8
+3	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=13
+4	for	for	ADP	IN	_	3	_	_	start_char=14|end_char=17
+5	now	now	ADV	RB	_	4	_	_	start_char=18|end_char=21|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=21|end_char=22
+7	but	but	CCONJ	CC	_	6	_	_	start_char=23|end_char=26
+8-9	they'll	_	_	_	_	_	_	_	start_char=27|end_char=34
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=27|end_char=31
+9	'll	will	AUX	MD	VerbForm=Fin	8	_	_	start_char=31|end_char=34
+10	soon	soon	ADV	RB	Degree=Pos	9	_	_	start_char=35|end_char=39
+11	be	be	AUX	VB	VerbForm=Inf	10	_	_	start_char=40|end_char=42
+12	back	back	ADV	RB	_	11	_	_	start_char=43|end_char=47|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=47|end_char=48
 
 # text = And in greater numbers.
-# sent_id = 5396
-1	And	and	CCONJ	CC	_	0	_	_	start_char=55|end_char=58
-2	in	in	ADP	IN	_	1	_	_	start_char=59|end_char=61
-3	greater	great	ADJ	JJR	Degree=Cmp	2	_	_	start_char=62|end_char=69
-4	numbers	number	NOUN	NNS	Number=Plur	3	_	_	start_char=70|end_char=77|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=77|end_char=78|SpaceAfter=No
+# sent_id = 5229
+1	And	and	CCONJ	CC	_	0	_	_	start_char=49|end_char=52
+2	in	in	ADP	IN	_	1	_	_	start_char=53|end_char=55
+3	greater	great	ADJ	JJR	Degree=Cmp	2	_	_	start_char=56|end_char=63
+4	numbers	number	NOUN	NNS	Number=Plur	3	_	_	start_char=64|end_char=71|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=71|end_char=72|SpaceAfter=No
 

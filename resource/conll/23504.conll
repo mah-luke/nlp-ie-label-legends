@@ -1,56 +1,53 @@
-# text = [USER] UH-RAH!
-# sent_id = 50447
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	UH	uh	INTJ	UH	_	3	_	_	start_char=7|end_char=9|SpaceAfter=No
-5	-	-	PUNCT	HYPH	_	4	_	_	start_char=9|end_char=10|SpaceAfter=No
-6	RAH	rah	NOUN	NN	Number=Sing	5	_	_	start_char=10|end_char=13|SpaceAfter=No
-7	!	!	PUNCT	.	_	6	_	_	start_char=13|end_char=14
+# text = UH-RAH!
+# sent_id = 48806
+1	UH	uh	INTJ	UH	_	0	_	_	start_char=1|end_char=3|SpaceAfter=No|SpacesBefore=\s
+2	-	-	PUNCT	HYPH	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
+3	RAH	rah	INTJ	UH	_	2	_	_	start_char=4|end_char=7|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=7|end_char=8
 
 # text = General Mad Dog.
-# sent_id = 50448
-1	General	General	PROPN	NNP	Number=Sing	0	_	_	start_char=15|end_char=22
-2	Mad	mad	ADJ	NNP	Degree=Pos	1	_	_	start_char=23|end_char=26
-3	Dog	dog	PROPN	NNP	Number=Sing	2	_	_	start_char=27|end_char=30|SpaceAfter=No
-4	.	.	PUNCT	.	_	3	_	_	start_char=30|end_char=31
+# sent_id = 48807
+1	General	General	PROPN	NNP	Number=Sing	0	_	_	start_char=9|end_char=16
+2	Mad	mad	ADJ	NNP	Degree=Pos	1	_	_	start_char=17|end_char=20
+3	Dog	dog	PROPN	NNP	Number=Sing	2	_	_	start_char=21|end_char=24|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=24|end_char=25
 
 # text = Also wink at the girlfriend of the protester, and hold her attention, so she remembers what you look like when decides she wants some all-American beef.
-# sent_id = 50449
-1	Also	also	ADV	RB	_	0	_	_	start_char=32|end_char=36
-2	wink	wink	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=37|end_char=41
-3	at	at	ADP	IN	_	2	_	_	start_char=42|end_char=44
-4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=45|end_char=48
-5	girlfriend	girlfriend	NOUN	NN	Number=Sing	4	_	_	start_char=49|end_char=59
-6	of	of	ADP	IN	_	5	_	_	start_char=60|end_char=62
-7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=63|end_char=66
-8	protester	protester	NOUN	NN	Number=Sing	7	_	_	start_char=67|end_char=76|SpaceAfter=No
-9	,	,	PUNCT	,	_	8	_	_	start_char=76|end_char=77
-10	and	and	CCONJ	CC	_	9	_	_	start_char=78|end_char=81
-11	hold	hold	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=82|end_char=86
-12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=87|end_char=90
-13	attention	attention	NOUN	NN	Number=Sing	12	_	_	start_char=91|end_char=100|SpaceAfter=No
-14	,	,	PUNCT	,	_	13	_	_	start_char=100|end_char=101
-15	so	so	ADV	RB	_	14	_	_	start_char=102|end_char=104
-16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=105|end_char=108
-17	remembers	remember	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=109|end_char=118
-18	what	what	PRON	WP	PronType=Rel	17	_	_	start_char=119|end_char=123
-19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	_	_	start_char=124|end_char=127
-20	look	look	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	_	_	start_char=128|end_char=132
-21	like	like	ADP	IN	_	20	_	_	start_char=133|end_char=137
-22	when	when	ADV	WRB	PronType=Int	21	_	_	start_char=138|end_char=142
-23	decides	decide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=143|end_char=150
-24	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=151|end_char=154
-25	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	_	_	start_char=155|end_char=160
-26	some	some	DET	DT	_	25	_	_	start_char=161|end_char=165
-27	all	all	DET	DT	_	26	_	_	start_char=166|end_char=169|SpaceAfter=No
-28	-	-	PUNCT	HYPH	_	27	_	_	start_char=169|end_char=170|SpaceAfter=No
-29	American	American	ADJ	JJ	Degree=Pos	28	_	_	start_char=170|end_char=178
-30	beef	beef	NOUN	NN	Number=Sing	29	_	_	start_char=179|end_char=183|SpaceAfter=No
-31	.	.	PUNCT	.	_	30	_	_	start_char=183|end_char=184
+# sent_id = 48808
+1	Also	also	ADV	RB	_	0	_	_	start_char=26|end_char=30
+2	wink	wink	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=31|end_char=35
+3	at	at	ADP	IN	_	2	_	_	start_char=36|end_char=38
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=39|end_char=42
+5	girlfriend	girlfriend	NOUN	NN	Number=Sing	4	_	_	start_char=43|end_char=53
+6	of	of	ADP	IN	_	5	_	_	start_char=54|end_char=56
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=57|end_char=60
+8	protester	protester	NOUN	NN	Number=Sing	7	_	_	start_char=61|end_char=70|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=70|end_char=71
+10	and	and	CCONJ	CC	_	9	_	_	start_char=72|end_char=75
+11	hold	hold	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=76|end_char=80
+12	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	_	_	start_char=81|end_char=84
+13	attention	attention	NOUN	NN	Number=Sing	12	_	_	start_char=85|end_char=94|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=94|end_char=95
+15	so	so	ADV	RB	_	14	_	_	start_char=96|end_char=98
+16	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=99|end_char=102
+17	remembers	remember	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=103|end_char=112
+18	what	what	PRON	WP	PronType=Rel	17	_	_	start_char=113|end_char=117
+19	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	18	_	_	start_char=118|end_char=121
+20	look	look	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	19	_	_	start_char=122|end_char=126
+21	like	like	ADP	IN	_	20	_	_	start_char=127|end_char=131
+22	when	when	ADV	WRB	PronType=Int	21	_	_	start_char=132|end_char=136
+23	decides	decide	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=137|end_char=144
+24	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=145|end_char=148
+25	wants	want	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	_	_	start_char=149|end_char=154
+26	some	some	DET	DT	_	25	_	_	start_char=155|end_char=159
+27	all	all	DET	DT	_	26	_	_	start_char=160|end_char=163|SpaceAfter=No
+28	-	-	PUNCT	HYPH	_	27	_	_	start_char=163|end_char=164|SpaceAfter=No
+29	American	American	ADJ	JJ	Degree=Pos	28	_	_	start_char=164|end_char=172
+30	beef	beef	NOUN	NN	Number=Sing	29	_	_	start_char=173|end_char=177|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	start_char=177|end_char=178
 
 # text = Grade A
-# sent_id = 50450
-1	Grade	grade	NOUN	NN	Number=Sing	0	_	_	start_char=185|end_char=190
-2	A	A	NOUN	NN	Number=Sing	1	_	_	start_char=191|end_char=192|SpaceAfter=No
+# sent_id = 48809
+1	Grade	grade	NOUN	NN	Number=Sing	0	_	_	start_char=179|end_char=184
+2	A	A	NOUN	NN	Number=Sing	1	_	_	start_char=185|end_char=186|SpaceAfter=No
 

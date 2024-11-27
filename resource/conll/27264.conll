@@ -1,38 +1,35 @@
-# text = [URL] Human Rights Violations by the Mexican Military.
-# sent_id = 58536
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-4	Human	human	ADJ	NNP	Degree=Pos	3	_	_	start_char=6|end_char=11
-5	Rights	Right	PROPN	NNPS	Number=Plur	4	_	_	start_char=12|end_char=18
-6	Violations	Violation	PROPN	NNPS	Number=Plur	5	_	_	start_char=19|end_char=29
-7	by	by	ADP	IN	_	6	_	_	start_char=30|end_char=32
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=33|end_char=36
-9	Mexican	Mexican	ADJ	NNP	Degree=Pos	8	_	_	start_char=37|end_char=44
-10	Military	Military	PROPN	NNP	Number=Sing	9	_	_	start_char=45|end_char=53|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=53|end_char=54
+# text = Human Rights Violations by the Mexican Military.
+# sent_id = 56610
+1	Human	human	ADJ	NNP	Degree=Pos	0	_	_	start_char=1|end_char=6|SpacesBefore=\s
+2	Rights	Right	PROPN	NNPS	Number=Plur	1	_	_	start_char=7|end_char=13
+3	Violations	violation	NOUN	NNS	Number=Plur	2	_	_	start_char=14|end_char=24
+4	by	by	ADP	IN	_	3	_	_	start_char=25|end_char=27
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=28|end_char=31
+6	Mexican	Mexican	ADJ	NNP	Degree=Pos	5	_	_	start_char=32|end_char=39
+7	Military	Military	PROPN	NNP	Number=Sing	6	_	_	start_char=40|end_char=48|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=48|end_char=49
 
 # text = And people bitch that the USofA dropped out of the UN Human Rights Commission.
-# sent_id = 58537
-1	And	and	CCONJ	CC	_	0	_	_	start_char=55|end_char=58
-2	people	person	NOUN	NNS	Number=Plur	1	_	_	start_char=59|end_char=65
-3	bitch	bitch	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=66|end_char=71
-4	that	that	SCONJ	IN	_	3	_	_	start_char=72|end_char=76
-5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=77|end_char=80
-6	USofA	USofA	PROPN	NNP	Number=Sing	5	_	_	start_char=81|end_char=86
-7	dropped	drop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=87|end_char=94
-8	out	out	ADP	IN	_	7	_	_	start_char=95|end_char=98
-9	of	of	ADP	IN	_	8	_	_	start_char=99|end_char=101
-10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=102|end_char=105
-11	UN	UN	PROPN	NNP	Number=Sing	10	_	_	start_char=106|end_char=108
-12	Human	human	ADJ	NNP	Degree=Pos	11	_	_	start_char=109|end_char=114
-13	Rights	Right	PROPN	NNPS	Number=Plur	12	_	_	start_char=115|end_char=121
-14	Commission	Commission	PROPN	NNP	Number=Sing	13	_	_	start_char=122|end_char=132|SpaceAfter=No
-15	.	.	PUNCT	.	_	14	_	_	start_char=132|end_char=133
+# sent_id = 56611
+1	And	and	CCONJ	CC	_	0	_	_	start_char=50|end_char=53
+2	people	person	NOUN	NNS	Number=Plur	1	_	_	start_char=54|end_char=60
+3	bitch	bitch	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=61|end_char=66
+4	that	that	SCONJ	IN	_	3	_	_	start_char=67|end_char=71
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=72|end_char=75
+6	USofA	USofA	PROPN	NNP	Number=Sing	5	_	_	start_char=76|end_char=81
+7	dropped	drop	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=82|end_char=89
+8	out	out	ADP	IN	_	7	_	_	start_char=90|end_char=93
+9	of	of	ADP	IN	_	8	_	_	start_char=94|end_char=96
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=97|end_char=100
+11	UN	UN	PROPN	NNP	Number=Sing	10	_	_	start_char=101|end_char=103
+12	Human	human	ADJ	NNP	Degree=Pos	11	_	_	start_char=104|end_char=109
+13	Rights	Right	PROPN	NNPS	Number=Plur	12	_	_	start_char=110|end_char=116
+14	Commission	Commission	PROPN	NNP	Number=Sing	13	_	_	start_char=117|end_char=127|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=127|end_char=128
 
 # text = Go figure.
-# sent_id = 58538
-1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=134|end_char=136
-2	figure	figure	NOUN	NN	Number=Sing	1	_	_	start_char=137|end_char=143|SpaceAfter=No
-3	.	.	PUNCT	.	_	2	_	_	start_char=143|end_char=144|SpaceAfter=No
+# sent_id = 56612
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=129|end_char=131
+2	figure	figure	NOUN	NN	Number=Sing	1	_	_	start_char=132|end_char=138|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=138|end_char=139|SpaceAfter=No
 

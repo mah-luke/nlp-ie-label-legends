@@ -1,54 +1,48 @@
-# text = [USER]
-# sent_id = 110556
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Blow back is, unfortunately, a bitch.
-# sent_id = 110557
-1	Blow	blow	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=7|end_char=11
-2	back	back	ADV	RB	_	1	_	_	start_char=12|end_char=16
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=17|end_char=19|SpaceAfter=No
-4	,	,	PUNCT	,	_	3	_	_	start_char=19|end_char=20
-5	unfortunately	unfortunately	ADV	RB	_	4	_	_	start_char=21|end_char=34|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=34|end_char=35
-7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=36|end_char=37
-8	bitch	bitch	NOUN	NN	Number=Sing	7	_	_	start_char=38|end_char=43|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=43|end_char=44
+# sent_id = 106953
+1	Blow	blow	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	back	back	ADV	RB	_	1	_	_	start_char=6|end_char=10
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=11|end_char=13|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=13|end_char=14
+5	unfortunately	unfortunately	ADV	RB	_	4	_	_	start_char=15|end_char=28|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=28|end_char=29
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=30|end_char=31
+8	bitch	bitch	NOUN	NN	Number=Sing	7	_	_	start_char=32|end_char=37|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=37|end_char=38
 
 # text = In a lot of ways, modern western women betrayed men with their feminazi bull shit.
-# sent_id = 110558
-1	In	in	ADP	IN	_	0	_	_	start_char=45|end_char=47
-2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=48|end_char=49
-3	lot	lot	NOUN	NN	Number=Sing	2	_	_	start_char=50|end_char=53
-4	of	of	ADP	IN	_	3	_	_	start_char=54|end_char=56
-5	ways	way	NOUN	NNS	Number=Plur	4	_	_	start_char=57|end_char=61|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=61|end_char=62
-7	modern	modern	ADJ	JJ	Degree=Pos	6	_	_	start_char=63|end_char=69
-8	western	western	ADJ	JJ	Degree=Pos	7	_	_	start_char=70|end_char=77
-9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=78|end_char=83
-10	betrayed	betray	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=84|end_char=92
-11	men	man	NOUN	NNS	Number=Plur	10	_	_	start_char=93|end_char=96
-12	with	with	ADP	IN	_	11	_	_	start_char=97|end_char=101
-13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=102|end_char=107
-14	feminazi	feminazi	NOUN	NN	Number=Sing	13	_	_	start_char=108|end_char=116
-15	bull	bull	NOUN	NN	Number=Sing	14	_	_	start_char=117|end_char=121
-16	shit	shit	NOUN	NN	Number=Sing	15	_	_	start_char=122|end_char=126|SpaceAfter=No
-17	.	.	PUNCT	.	_	16	_	_	start_char=126|end_char=127
+# sent_id = 106954
+1	In	in	ADP	IN	_	0	_	_	start_char=39|end_char=41
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=42|end_char=43
+3	lot	lot	NOUN	NN	Number=Sing	2	_	_	start_char=44|end_char=47
+4	of	of	ADP	IN	_	3	_	_	start_char=48|end_char=50
+5	ways	way	NOUN	NNS	Number=Plur	4	_	_	start_char=51|end_char=55|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=55|end_char=56
+7	modern	modern	ADJ	JJ	Degree=Pos	6	_	_	start_char=57|end_char=63
+8	western	western	ADJ	JJ	Degree=Pos	7	_	_	start_char=64|end_char=71
+9	women	woman	NOUN	NNS	Number=Plur	8	_	_	start_char=72|end_char=77
+10	betrayed	betray	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=78|end_char=86
+11	men	man	NOUN	NNS	Number=Plur	10	_	_	start_char=87|end_char=90
+12	with	with	ADP	IN	_	11	_	_	start_char=91|end_char=95
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=96|end_char=101
+14	feminazi	feminazi	NOUN	NN	Number=Sing	13	_	_	start_char=102|end_char=110
+15	bull	bull	NOUN	NN	Number=Sing	14	_	_	start_char=111|end_char=115
+16	shit	shit	NOUN	NN	Number=Sing	15	_	_	start_char=116|end_char=120|SpaceAfter=No
+17	.	.	PUNCT	.	_	16	_	_	start_char=120|end_char=121
 
 # text = Now they get the hairy ugly fat Arab fuckers to answer to.
-# sent_id = 110559
-1	Now	now	ADV	RB	_	0	_	_	start_char=128|end_char=131
-2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=132|end_char=136
-3	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=137|end_char=140
-4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=141|end_char=144
-5	hairy	hairy	ADJ	JJ	Degree=Pos	4	_	_	start_char=145|end_char=150
-6	ugly	ugly	ADJ	JJ	Degree=Pos	5	_	_	start_char=151|end_char=155
-7	fat	fat	ADJ	JJ	Degree=Pos	6	_	_	start_char=156|end_char=159
-8	Arab	Arab	ADJ	JJ	Degree=Pos	7	_	_	start_char=160|end_char=164
-9	fuckers	fucker	NOUN	NNS	Number=Plur	8	_	_	start_char=165|end_char=172
-10	to	to	PART	TO	_	9	_	_	start_char=173|end_char=175
-11	answer	answer	VERB	VB	VerbForm=Inf	10	_	_	start_char=176|end_char=182
-12	to	to	ADP	IN	_	11	_	_	start_char=183|end_char=185|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=185|end_char=186|SpaceAfter=No
+# sent_id = 106955
+1	Now	now	ADV	RB	_	0	_	_	start_char=122|end_char=125
+2	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=126|end_char=130
+3	get	get	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=131|end_char=134
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=135|end_char=138
+5	hairy	hairy	ADJ	JJ	Degree=Pos	4	_	_	start_char=139|end_char=144
+6	ugly	ugly	ADJ	JJ	Degree=Pos	5	_	_	start_char=145|end_char=149
+7	fat	fat	ADJ	JJ	Degree=Pos	6	_	_	start_char=150|end_char=153
+8	Arab	Arab	ADJ	JJ	Degree=Pos	7	_	_	start_char=154|end_char=158
+9	fuckers	fucker	NOUN	NNS	Number=Plur	8	_	_	start_char=159|end_char=166
+10	to	to	PART	TO	_	9	_	_	start_char=167|end_char=169
+11	answer	answer	VERB	VB	VerbForm=Inf	10	_	_	start_char=170|end_char=176
+12	to	to	ADP	IN	_	11	_	_	start_char=177|end_char=179|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=179|end_char=180|SpaceAfter=No
 

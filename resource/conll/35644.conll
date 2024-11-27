@@ -1,62 +1,56 @@
-# text = [USER]
-# sent_id = 76286
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Merckle has long outlived her usefulness.
-# sent_id = 76287
-1	Merckle	Merckle	PROPN	NNP	Number=Sing	0	_	_	start_char=7|end_char=14
-2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=15|end_char=18
-3	long	long	ADV	RB	Degree=Pos	2	_	_	start_char=19|end_char=23
-4	outlived	outlive	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=24|end_char=32
-5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=33|end_char=36
-6	usefulness	usefulness	NOUN	NN	Number=Sing	5	_	_	start_char=37|end_char=47|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=47|end_char=48
+# sent_id = 73834
+1	Merckle	Merckle	PROPN	NNP	Number=Sing	0	_	_	start_char=1|end_char=8|SpacesBefore=\s
+2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=12
+3	long	long	ADV	RB	Degree=Pos	2	_	_	start_char=13|end_char=17
+4	outlived	outlive	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=18|end_char=26
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=27|end_char=30
+6	usefulness	usefulness	NOUN	NN	Number=Sing	5	_	_	start_char=31|end_char=41|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=41|end_char=42
 
 # text = She is living in a fantasy land of PC retardedness which Muslims do not see or recognize.
-# sent_id = 76288
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=49|end_char=52
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=53|end_char=55
-3	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=56|end_char=62
-4	in	in	ADP	IN	_	3	_	_	start_char=63|end_char=65
-5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=66|end_char=67
-6	fantasy	fantasy	NOUN	NN	Number=Sing	5	_	_	start_char=68|end_char=75
-7	land	land	NOUN	NN	Number=Sing	6	_	_	start_char=76|end_char=80
-8	of	of	ADP	IN	_	7	_	_	start_char=81|end_char=83
-9	PC	PC	NOUN	NN	Number=Sing	8	_	_	start_char=84|end_char=86
-10	retardedness	retardedness	NOUN	NN	Number=Sing	9	_	_	start_char=87|end_char=99
-11	which	which	PRON	WDT	PronType=Rel	10	_	_	start_char=100|end_char=105
-12	Muslims	Muslim	PROPN	NNPS	Number=Plur	11	_	_	start_char=106|end_char=113
-13	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=114|end_char=116
-14	not	not	PART	RB	_	13	_	_	start_char=117|end_char=120
-15	see	see	VERB	VB	VerbForm=Inf	14	_	_	start_char=121|end_char=124
-16	or	or	CCONJ	CC	_	15	_	_	start_char=125|end_char=127
-17	recognize	recognize	VERB	VB	VerbForm=Inf	16	_	_	start_char=128|end_char=137|SpaceAfter=No
-18	.	.	PUNCT	.	_	17	_	_	start_char=137|end_char=138
+# sent_id = 73835
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=43|end_char=46
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=47|end_char=49
+3	living	live	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=50|end_char=56
+4	in	in	ADP	IN	_	3	_	_	start_char=57|end_char=59
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=60|end_char=61
+6	fantasy	fantasy	NOUN	NN	Number=Sing	5	_	_	start_char=62|end_char=69
+7	land	land	NOUN	NN	Number=Sing	6	_	_	start_char=70|end_char=74
+8	of	of	ADP	IN	_	7	_	_	start_char=75|end_char=77
+9	PC	PC	NOUN	NN	Number=Sing	8	_	_	start_char=78|end_char=80
+10	retardedness	retardedness	NOUN	NN	Number=Sing	9	_	_	start_char=81|end_char=93
+11	which	which	PRON	WDT	PronType=Rel	10	_	_	start_char=94|end_char=99
+12	Muslims	Muslim	PROPN	NNPS	Number=Plur	11	_	_	start_char=100|end_char=107
+13	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=108|end_char=110
+14	not	not	PART	RB	_	13	_	_	start_char=111|end_char=114
+15	see	see	VERB	VB	VerbForm=Inf	14	_	_	start_char=115|end_char=118
+16	or	or	CCONJ	CC	_	15	_	_	start_char=119|end_char=121
+17	recognize	recognize	VERB	VB	VerbForm=Inf	16	_	_	start_char=122|end_char=131|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=131|end_char=132
 
 # text = There is no reciprocity of civility in their mind.
-# sent_id = 76289
-1	There	there	PRON	EX	_	0	_	_	start_char=139|end_char=144
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=145|end_char=147
-3	no	no	DET	DT	_	2	_	_	start_char=148|end_char=150
-4	reciprocity	reciprocity	NOUN	NN	Number=Sing	3	_	_	start_char=151|end_char=162
-5	of	of	ADP	IN	_	4	_	_	start_char=163|end_char=165
-6	civility	civility	NOUN	NN	Number=Sing	5	_	_	start_char=166|end_char=174
-7	in	in	ADP	IN	_	6	_	_	start_char=175|end_char=177
-8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=178|end_char=183
-9	mind	mind	NOUN	NN	Number=Sing	8	_	_	start_char=184|end_char=188|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=188|end_char=189
+# sent_id = 73836
+1	There	there	PRON	EX	_	0	_	_	start_char=133|end_char=138
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=139|end_char=141
+3	no	no	DET	DT	_	2	_	_	start_char=142|end_char=144
+4	reciprocity	reciprocity	NOUN	NN	Number=Sing	3	_	_	start_char=145|end_char=156
+5	of	of	ADP	IN	_	4	_	_	start_char=157|end_char=159
+6	civility	civility	NOUN	NN	Number=Sing	5	_	_	start_char=160|end_char=168
+7	in	in	ADP	IN	_	6	_	_	start_char=169|end_char=171
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=172|end_char=177
+9	mind	mind	NOUN	NN	Number=Sing	8	_	_	start_char=178|end_char=182|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=182|end_char=183
 
 # text = It's their way or the die-way.
-# sent_id = 76290
-1-2	It's	_	_	_	_	_	_	_	start_char=190|end_char=194
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=190|end_char=192
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=192|end_char=194
-3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=195|end_char=200
-4	way	way	NOUN	NN	Number=Sing	3	_	_	start_char=201|end_char=204
-5	or	or	CCONJ	CC	_	4	_	_	start_char=205|end_char=207
-6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=208|end_char=211
-7	die-way	die-way	NOUN	NN	Number=Sing	6	_	_	start_char=212|end_char=219|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=219|end_char=220|SpaceAfter=No
+# sent_id = 73837
+1-2	It's	_	_	_	_	_	_	_	start_char=184|end_char=188
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=184|end_char=186
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=186|end_char=188
+3	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=189|end_char=194
+4	way	way	NOUN	NN	Number=Sing	3	_	_	start_char=195|end_char=198
+5	or	or	CCONJ	CC	_	4	_	_	start_char=199|end_char=201
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=202|end_char=205
+7	die-way	die-way	NOUN	NN	Number=Sing	6	_	_	start_char=206|end_char=213|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=213|end_char=214|SpaceAfter=No
 

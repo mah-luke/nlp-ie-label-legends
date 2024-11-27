@@ -1,18 +1,9 @@
-# text = [URL] LOCK this mother fucker DOWN!
-# sent_id = 88124
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-4	LOCK	lock	VERB	VB	Mood=Ind|VerbForm=Fin	3	_	_	start_char=6|end_char=10
-5	this	this	DET	DT	Number=Sing|PronType=Dem	4	_	_	start_char=11|end_char=15
-6	mother	mother	NOUN	NN	Number=Sing	5	_	_	start_char=16|end_char=22
-7	fucker	fucker	NOUN	NN	Number=Sing	6	_	_	start_char=23|end_char=29
-8	DOWN	down	ADV	RB	_	7	_	_	start_char=30|end_char=34|SpaceAfter=No
-9	!	!	PUNCT	.	_	8	_	_	start_char=34|end_char=35
-
-# text = [USER]
-# sent_id = 88125
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=36|end_char=37|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=37|end_char=41|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=41|end_char=42|SpaceAfter=No
+# text = LOCK this mother fucker DOWN!
+# sent_id = 85243
+1	LOCK	lock	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=6|end_char=10
+3	mother	mother	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=17
+4	fucker	fucker	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=24
+5	DOWN	down	ADV	RB	_	4	_	_	start_char=25|end_char=29|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=29|end_char=30
 

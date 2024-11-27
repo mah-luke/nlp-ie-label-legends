@@ -1,64 +1,61 @@
-# text = [USER] Spot on.
-# sent_id = 20274
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	Spot	spot	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=11
-5	on	on	ADV	RB	_	4	_	_	start_char=12|end_char=14|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=14|end_char=15
+# text = Spot on.
+# sent_id = 19617
+1	Spot	Spot	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	on	on	ADP	RP	_	1	_	_	start_char=6|end_char=8|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=8|end_char=9
 
 # text = What does Peter Thiel say?
-# sent_id = 20275
-1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=16|end_char=20
-2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=21|end_char=25
-3	Peter	Peter	PROPN	NNP	Number=Sing	2	_	_	start_char=26|end_char=31
-4	Thiel	Thiel	PROPN	NNP	Number=Sing	3	_	_	start_char=32|end_char=37
-5	say	say	VERB	VB	VerbForm=Inf	4	_	_	start_char=38|end_char=41|SpaceAfter=No
-6	?	?	PUNCT	.	_	5	_	_	start_char=41|end_char=42
+# sent_id = 19618
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=10|end_char=14
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=15|end_char=19
+3	Peter	Peter	PROPN	NNP	Number=Sing	2	_	_	start_char=20|end_char=25
+4	Thiel	Thiel	PROPN	NNP	Number=Sing	3	_	_	start_char=26|end_char=31
+5	say	say	VERB	VB	VerbForm=Inf	4	_	_	start_char=32|end_char=35|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=35|end_char=36
 
 # text = Unless you have conventional opinions, keep them to yourself because most other people can't handle them, something like that.
-# sent_id = 20276
-1	Unless	unless	SCONJ	IN	_	0	_	_	start_char=43|end_char=49
-2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=50|end_char=53
-3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=54|end_char=58
-4	conventional	conventional	ADJ	JJ	Degree=Pos	3	_	_	start_char=59|end_char=71
-5	opinions	opinion	NOUN	NNS	Number=Plur	4	_	_	start_char=72|end_char=80|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=80|end_char=81
-7	keep	keep	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	6	_	_	start_char=82|end_char=86
-8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=87|end_char=91
-9	to	to	ADP	IN	_	8	_	_	start_char=92|end_char=94
-10	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	9	_	_	start_char=95|end_char=103
-11	because	because	SCONJ	IN	_	10	_	_	start_char=104|end_char=111
-12	most	most	ADJ	JJS	Degree=Sup	11	_	_	start_char=112|end_char=116
-13	other	other	ADJ	JJ	Degree=Pos	12	_	_	start_char=117|end_char=122
-14	people	person	NOUN	NNS	Number=Plur	13	_	_	start_char=123|end_char=129
-15-16	can't	_	_	_	_	_	_	_	start_char=130|end_char=135
-15	ca	can	AUX	MD	VerbForm=Fin	14	_	_	start_char=130|end_char=132
-16	n't	not	PART	RB	_	15	_	_	start_char=132|end_char=135
-17	handle	handle	VERB	VB	VerbForm=Inf	16	_	_	start_char=136|end_char=142
-18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	_	_	start_char=143|end_char=147|SpaceAfter=No
-19	,	,	PUNCT	,	_	18	_	_	start_char=147|end_char=148
-20	something	something	PRON	NN	Number=Sing|PronType=Ind	19	_	_	start_char=149|end_char=158
-21	like	like	ADP	IN	_	20	_	_	start_char=159|end_char=163
-22	that	that	PRON	DT	Number=Sing|PronType=Dem	21	_	_	start_char=164|end_char=168|SpaceAfter=No
-23	.	.	PUNCT	.	_	22	_	_	start_char=168|end_char=169
+# sent_id = 19619
+1	Unless	unless	SCONJ	IN	_	0	_	_	start_char=37|end_char=43
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=44|end_char=47
+3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=48|end_char=52
+4	conventional	conventional	ADJ	JJ	Degree=Pos	3	_	_	start_char=53|end_char=65
+5	opinions	opinion	NOUN	NNS	Number=Plur	4	_	_	start_char=66|end_char=74|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=74|end_char=75
+7	keep	keep	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	6	_	_	start_char=76|end_char=80
+8	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=81|end_char=85
+9	to	to	ADP	IN	_	8	_	_	start_char=86|end_char=88
+10	yourself	yourself	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs|Reflex=Yes	9	_	_	start_char=89|end_char=97
+11	because	because	SCONJ	IN	_	10	_	_	start_char=98|end_char=105
+12	most	most	ADJ	JJS	Degree=Sup	11	_	_	start_char=106|end_char=110
+13	other	other	ADJ	JJ	Degree=Pos	12	_	_	start_char=111|end_char=116
+14	people	person	NOUN	NNS	Number=Plur	13	_	_	start_char=117|end_char=123
+15-16	can't	_	_	_	_	_	_	_	start_char=124|end_char=129
+15	ca	can	AUX	MD	VerbForm=Fin	14	_	_	start_char=124|end_char=126
+16	n't	not	PART	RB	_	15	_	_	start_char=126|end_char=129
+17	handle	handle	VERB	VB	VerbForm=Inf	16	_	_	start_char=130|end_char=136
+18	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	17	_	_	start_char=137|end_char=141|SpaceAfter=No
+19	,	,	PUNCT	,	_	18	_	_	start_char=141|end_char=142
+20	something	something	PRON	NN	Number=Sing|PronType=Ind	19	_	_	start_char=143|end_char=152
+21	like	like	ADP	IN	_	20	_	_	start_char=153|end_char=157
+22	that	that	PRON	DT	Number=Sing|PronType=Dem	21	_	_	start_char=158|end_char=162|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=162|end_char=163
 
 # text = That's Lena Dunham.
-# sent_id = 20277
-1-2	That's	_	_	_	_	_	_	_	start_char=170|end_char=176
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=170|end_char=174
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=174|end_char=176
-3	Lena	Lena	PROPN	NNP	Number=Sing	2	_	_	start_char=177|end_char=181
-4	Dunham	Dunham	PROPN	NNP	Number=Sing	3	_	_	start_char=182|end_char=188|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=188|end_char=189
+# sent_id = 19620
+1-2	That's	_	_	_	_	_	_	_	start_char=164|end_char=170
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=164|end_char=168
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=168|end_char=170
+3	Lena	Lena	PROPN	NNP	Number=Sing	2	_	_	start_char=171|end_char=175
+4	Dunham	Dunham	PROPN	NNP	Number=Sing	3	_	_	start_char=176|end_char=182|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=182|end_char=183
 
 # text = Also, she raped her sister.
-# sent_id = 20278
-1	Also	also	ADV	RB	_	0	_	_	start_char=190|end_char=194|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=194|end_char=195
-3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=196|end_char=199
-4	raped	rape	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=200|end_char=205
-5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=206|end_char=209
-6	sister	sister	NOUN	NN	Number=Sing	5	_	_	start_char=210|end_char=216|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=216|end_char=217|SpaceAfter=No
+# sent_id = 19621
+1	Also	also	ADV	RB	_	0	_	_	start_char=184|end_char=188|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=188|end_char=189
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=190|end_char=193
+4	raped	rape	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=194|end_char=199
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=200|end_char=203
+6	sister	sister	NOUN	NN	Number=Sing	5	_	_	start_char=204|end_char=210|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=210|end_char=211|SpaceAfter=No
 

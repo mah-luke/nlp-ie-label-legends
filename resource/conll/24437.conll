@@ -1,42 +1,39 @@
-# text = [URL] Sorry Caitlyn, but you make one ugly looking woman.
-# sent_id = 52398
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-4	Sorry	sorry	ADJ	JJ	Degree=Pos	3	_	_	start_char=6|end_char=11
-5	Caitlyn	Caitlyn	PROPN	NNP	Number=Sing	4	_	_	start_char=12|end_char=19|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=19|end_char=20
-7	but	but	CCONJ	CC	_	6	_	_	start_char=21|end_char=24
-8	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	7	_	_	start_char=25|end_char=28
-9	make	make	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=29|end_char=33
-10	one	one	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=34|end_char=37
-11	ugly	ugly	ADJ	JJ	Degree=Pos	10	_	_	start_char=38|end_char=42
-12	looking	look	VERB	VBG	VerbForm=Ger	11	_	_	start_char=43|end_char=50
-13	woman	woman	NOUN	NN	Number=Sing	12	_	_	start_char=51|end_char=56|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=56|end_char=57
+# text = Sorry Caitlyn, but you make one ugly looking woman.
+# sent_id = 50712
+1	Sorry	sorry	ADJ	JJ	Degree=Pos	0	_	_	start_char=1|end_char=6|SpacesBefore=\s
+2	Caitlyn	Caitlyn	PROPN	NNP	Number=Sing	1	_	_	start_char=7|end_char=14|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=14|end_char=15
+4	but	but	CCONJ	CC	_	3	_	_	start_char=16|end_char=19
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=20|end_char=23
+6	make	make	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=24|end_char=28
+7	one	one	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=29|end_char=32
+8	ugly	ugly	ADJ	JJ	Degree=Pos	7	_	_	start_char=33|end_char=37
+9	looking	look	VERB	VBG	VerbForm=Ger	8	_	_	start_char=38|end_char=45
+10	woman	woman	NOUN	NN	Number=Sing	9	_	_	start_char=46|end_char=51|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=51|end_char=52
 
 # text = And nobody cares what you think about Trump.
-# sent_id = 52399
-1	And	and	CCONJ	CC	_	0	_	_	start_char=58|end_char=61
-2	nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	1	_	_	start_char=62|end_char=68
-3	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=69|end_char=74
-4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=75|end_char=79
-5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=80|end_char=83
-6	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=84|end_char=89
-7	about	about	ADP	IN	_	6	_	_	start_char=90|end_char=95
-8	Trump	Trump	PROPN	NNP	Number=Sing	7	_	_	start_char=96|end_char=101|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=101|end_char=102|SpaceAfter=No
+# sent_id = 50713
+1	And	and	CCONJ	CC	_	0	_	_	start_char=53|end_char=56
+2	nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	1	_	_	start_char=57|end_char=63
+3	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=64|end_char=69
+4	what	what	PRON	WP	PronType=Rel	3	_	_	start_char=70|end_char=74
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=75|end_char=78
+6	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=79|end_char=84
+7	about	about	ADP	IN	_	6	_	_	start_char=85|end_char=90
+8	Trump	Trump	PROPN	NNP	Number=Sing	7	_	_	start_char=91|end_char=96|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=96|end_char=97|SpaceAfter=No
 
 # text = He is the President, and you are not.
-# sent_id = 52400
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=102|end_char=104
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=105|end_char=107
-3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=108|end_char=111
-4	President	President	PROPN	NNP	Number=Sing	3	_	_	start_char=112|end_char=121|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	_	_	start_char=121|end_char=122
-6	and	and	CCONJ	CC	_	5	_	_	start_char=123|end_char=126
-7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=127|end_char=130
-8	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=131|end_char=134
-9	not	not	PART	RB	_	8	_	_	start_char=135|end_char=138|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=138|end_char=139|SpaceAfter=No
+# sent_id = 50714
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=97|end_char=99
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=100|end_char=102
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=103|end_char=106
+4	President	President	PROPN	NNP	Number=Sing	3	_	_	start_char=107|end_char=116|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=116|end_char=117
+6	and	and	CCONJ	CC	_	5	_	_	start_char=118|end_char=121
+7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=122|end_char=125
+8	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=126|end_char=129
+9	not	not	PART	RB	_	8	_	_	start_char=130|end_char=133|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=133|end_char=134|SpaceAfter=No
 

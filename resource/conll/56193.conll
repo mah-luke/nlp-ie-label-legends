@@ -1,36 +1,24 @@
-# text = RT [USER]:
-# sent_id = 120153
+# text = RT : This woman really doesn’t want to testify under oath.
+# sent_id = 116274
 1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
-3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=8|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=8|end_char=9|SpaceAfter=No
-5	:	:	PUNCT	:	_	4	_	_	start_char=9|end_char=10
-
-# text = This woman really doesn’t want to testify under oath.
-# sent_id = 120154
-1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=11|end_char=15
-2	woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=16|end_char=21
-3	really	really	ADV	RB	_	2	_	_	start_char=22|end_char=28
-4-5	doesn’t	_	_	_	_	_	_	_	start_char=29|end_char=36
-4	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=29|end_char=33
-5	n’t	not	PART	RB	_	4	_	_	start_char=33|end_char=36
-6	want	want	VERB	VB	VerbForm=Inf	5	_	_	start_char=37|end_char=41
-7	to	to	PART	TO	_	6	_	_	start_char=42|end_char=44
-8	testify	testify	VERB	VB	VerbForm=Inf	7	_	_	start_char=45|end_char=52
-9	under	under	ADP	IN	_	8	_	_	start_char=53|end_char=58
-10	oath	oath	NOUN	NN	Number=Sing	9	_	_	start_char=59|end_char=63|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=63|end_char=64
+2	:	:	PUNCT	:	_	1	_	_	start_char=3|end_char=4
+3	This	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=5|end_char=9
+4	woman	woman	NOUN	NN	Number=Sing	3	_	_	start_char=10|end_char=15
+5	really	really	ADV	RB	_	4	_	_	start_char=16|end_char=22
+6-7	doesn’t	_	_	_	_	_	_	_	start_char=23|end_char=30
+6	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=23|end_char=27
+7	n’t	not	PART	RB	_	6	_	_	start_char=27|end_char=30
+8	want	want	VERB	VB	VerbForm=Inf	7	_	_	start_char=31|end_char=35
+9	to	to	PART	TO	_	8	_	_	start_char=36|end_char=38
+10	testify	testify	VERB	VB	VerbForm=Inf	9	_	_	start_char=39|end_char=46
+11	under	under	ADP	IN	_	10	_	_	start_char=47|end_char=52
+12	oath	oath	NOUN	NN	Number=Sing	11	_	_	start_char=53|end_char=57|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=57|end_char=58
 
 # text = I wonder why.
-# sent_id = 120155
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=65|end_char=66
-2	wonder	wonder	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=67|end_char=73
-3	why	why	ADV	WRB	PronType=Int	2	_	_	start_char=74|end_char=77|SpaceAfter=No
-4	.	.	PUNCT	.	_	3	_	_	start_char=77|end_char=78
-
-# text = [URL]
-# sent_id = 120156
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=79|end_char=80|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=80|end_char=83|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=83|end_char=84|SpaceAfter=No
+# sent_id = 116275
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=59|end_char=60
+2	wonder	wonder	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=61|end_char=67
+3	why	why	ADV	WRB	PronType=Int	2	_	_	start_char=68|end_char=71|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=71|end_char=72
 

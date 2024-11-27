@@ -1,5 +1,5 @@
 # text = Do you feel like the guidelines here are too lax ROCK?
-# sent_id = 113119
+# sent_id = 109417
 1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=0|end_char=2
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=3|end_char=6
 3	feel	feel	VERB	VB	VerbForm=Inf	2	_	_	start_char=7|end_char=11
@@ -13,50 +13,44 @@
 11	ROCK	rock	NOUN	NN	Number=Sing	10	_	_	start_char=49|end_char=53|SpaceAfter=No
 12	?	?	PUNCT	.	_	11	_	_	start_char=53|end_char=54
 
-# text = I think if [USER] was threaten with bodily harm, as she says, [USER] would step in, no?
-# sent_id = 113120
+# text = I think if was threaten with bodily harm, as she says, would step in, no?
+# sent_id = 109418
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=55|end_char=56
 2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=57|end_char=62
-3	if	if	SCONJ	IN	_	2	_	_	start_char=63|end_char=65
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=66|end_char=67|SpaceAfter=No
-5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=67|end_char=71|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=71|end_char=72
-7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=73|end_char=76
-8	threaten	threaten	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=77|end_char=85
-9	with	with	ADP	IN	_	8	_	_	start_char=86|end_char=90
-10	bodily	bodily	NOUN	NN	Number=Sing	9	_	_	start_char=91|end_char=97
-11	harm	harm	NOUN	NN	Number=Sing	10	_	_	start_char=98|end_char=102|SpaceAfter=No
-12	,	,	PUNCT	,	_	11	_	_	start_char=102|end_char=103
-13	as	as	SCONJ	IN	_	12	_	_	start_char=104|end_char=106
-14	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=107|end_char=110
-15	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=111|end_char=115|SpaceAfter=No
-16	,	,	PUNCT	,	_	15	_	_	start_char=115|end_char=116
-17	[	[	PUNCT	-LRB-	_	16	_	_	start_char=117|end_char=118|SpaceAfter=No
-18	USER	user	NOUN	NN	Number=Sing	17	_	_	start_char=118|end_char=122|SpaceAfter=No
-19	]	]	PUNCT	-RRB-	_	18	_	_	start_char=122|end_char=123
-20	would	would	AUX	MD	VerbForm=Fin	19	_	_	start_char=124|end_char=129
-21	step	step	VERB	VB	VerbForm=Inf	20	_	_	start_char=130|end_char=134
-22	in	in	ADP	RP	_	21	_	_	start_char=135|end_char=137|SpaceAfter=No
-23	,	,	PUNCT	,	_	22	_	_	start_char=137|end_char=138
-24	no	no	INTJ	UH	Polarity=Neg	23	_	_	start_char=139|end_char=141|SpaceAfter=No
-25	?	?	PUNCT	.	_	24	_	_	start_char=141|end_char=142
+3	if	if	SCONJ	IN	_	2	_	_	start_char=63|end_char=65|SpacesAfter=\s\s
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=67|end_char=70
+5	threaten	threaten	VERB	VB	Tense=Past|VerbForm=Part	4	_	_	start_char=71|end_char=79
+6	with	with	ADP	IN	_	5	_	_	start_char=80|end_char=84
+7	bodily	bodily	NOUN	NN	Number=Sing	6	_	_	start_char=85|end_char=91
+8	harm	harm	NOUN	NN	Number=Sing	7	_	_	start_char=92|end_char=96|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=96|end_char=97
+10	as	as	SCONJ	IN	_	9	_	_	start_char=98|end_char=100
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=101|end_char=104
+12	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=105|end_char=109|SpaceAfter=No
+13	,	,	PUNCT	,	_	12	_	_	start_char=109|end_char=110|SpacesAfter=\s\s
+14	would	would	AUX	MD	VerbForm=Fin	13	_	_	start_char=112|end_char=117
+15	step	step	VERB	VB	VerbForm=Inf	14	_	_	start_char=118|end_char=122
+16	in	in	ADP	RP	_	15	_	_	start_char=123|end_char=125|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=125|end_char=126
+18	no	no	INTJ	UH	Polarity=Neg	17	_	_	start_char=127|end_char=129|SpaceAfter=No
+19	?	?	PUNCT	.	_	18	_	_	start_char=129|end_char=130
 
 # text = I agree with you tho we want freedom not anarchy.
-# sent_id = 113121
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=143|end_char=144
-2	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=145|end_char=150
-3	with	with	ADP	IN	_	2	_	_	start_char=151|end_char=155
-4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=156|end_char=159
-5	tho	though	ADV	RB	_	4	_	_	start_char=160|end_char=163
-6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=164|end_char=166
-7	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=167|end_char=171
-8	freedom	freedom	NOUN	NN	Number=Sing	7	_	_	start_char=172|end_char=179
-9	not	not	PART	RB	_	8	_	_	start_char=180|end_char=183
-10	anarchy	anarchy	NOUN	NN	Number=Sing	9	_	_	start_char=184|end_char=191|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=191|end_char=192
+# sent_id = 109419
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=131|end_char=132
+2	agree	agree	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=133|end_char=138
+3	with	with	ADP	IN	_	2	_	_	start_char=139|end_char=143
+4	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	3	_	_	start_char=144|end_char=147
+5	tho	though	ADV	RB	_	4	_	_	start_char=148|end_char=151
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=152|end_char=154
+7	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=155|end_char=159
+8	freedom	freedom	NOUN	NN	Number=Sing	7	_	_	start_char=160|end_char=167
+9	not	not	PART	RB	_	8	_	_	start_char=168|end_char=171
+10	anarchy	anarchy	NOUN	NN	Number=Sing	9	_	_	start_char=172|end_char=179|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=179|end_char=180
 
 # text = #finelines
-# sent_id = 113122
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=193|end_char=194|SpaceAfter=No
-2	finelines	fineline	NOUN	NNS	Number=Plur	1	_	_	start_char=194|end_char=203|SpaceAfter=No
+# sent_id = 109420
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=181|end_char=182|SpaceAfter=No
+2	finelines	fineline	NOUN	NNS	Number=Plur	1	_	_	start_char=182|end_char=191|SpaceAfter=No
 

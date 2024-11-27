@@ -1,5 +1,5 @@
 # text = Y'know the one thing I like about NYC girls is that they'll give a homeless guy a place to stay... for the night.
-# sent_id = 6798
+# sent_id = 6577
 1	Y'know	y'know	INTJ	UH	_	0	_	_	start_char=0|end_char=6
 2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=7|end_char=10
 3	one	one	NUM	CD	NumForm=Word|NumType=Card	2	_	_	start_char=11|end_char=14
@@ -29,7 +29,7 @@
 26	.	.	PUNCT	.	_	25	_	_	start_char=112|end_char=113
 
 # text = They're not dumb like West coast girls who get bed bugs and abuse because they make that loser their boyfriend.
-# sent_id = 6799
+# sent_id = 6578
 1-2	They're	_	_	_	_	_	_	_	start_char=114|end_char=121
 1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=114|end_char=118
 2	're	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=118|end_char=121
@@ -53,10 +53,4 @@
 20	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	_	_	start_char=209|end_char=214
 21	boyfriend	boyfriend	NOUN	NN	Number=Sing	20	_	_	start_char=215|end_char=224|SpaceAfter=No
 22	.	.	PUNCT	.	_	21	_	_	start_char=224|end_char=225
-
-# text = [URL]
-# sent_id = 6800
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=226|end_char=227|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=227|end_char=230|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=230|end_char=231|SpaceAfter=No
 

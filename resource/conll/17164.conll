@@ -1,65 +1,53 @@
-# text = [USER] Maddox is LYING!
-# sent_id = 36899
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	Maddox	Maddox	PROPN	NNP	Number=Sing	3	_	_	start_char=7|end_char=13
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=14|end_char=16
-6	LYING	lying	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=17|end_char=22|SpaceAfter=No
-7	!	!	PUNCT	.	_	6	_	_	start_char=22|end_char=23
+# text = Maddox is LYING!
+# sent_id = 35671
+1	Maddox	Maddox	PROPN	NNP	Number=Sing	0	_	_	start_char=1|end_char=7|SpacesBefore=\s
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=10
+3	LYING	lying	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=11|end_char=16|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=16|end_char=17
 
 # text = She was called on on this tweet by a Bernie supporter and someone who follows Maddow on twitter !
-# sent_id = 36900
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=24|end_char=27
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=28|end_char=31
-3	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=32|end_char=38
-4	on	on	ADP	RP	_	3	_	_	start_char=39|end_char=41
-5	on	on	ADP	IN	_	4	_	_	start_char=42|end_char=44
-6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=45|end_char=49
-7	tweet	tweet	NOUN	NN	Number=Sing	6	_	_	start_char=50|end_char=55
-8	by	by	ADP	IN	_	7	_	_	start_char=56|end_char=58
-9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=59|end_char=60
-10	Bernie	Bernie	PROPN	NNP	Number=Sing	9	_	_	start_char=61|end_char=67
-11	supporter	supporter	NOUN	NN	Number=Sing	10	_	_	start_char=68|end_char=77
-12	and	and	CCONJ	CC	_	11	_	_	start_char=78|end_char=81
-13	someone	someone	PRON	NN	Number=Sing|PronType=Ind	12	_	_	start_char=82|end_char=89
-14	who	who	PRON	WP	PronType=Rel	13	_	_	start_char=90|end_char=93
-15	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=94|end_char=101
-16	Maddow	Maddow	PROPN	NNP	Number=Sing	15	_	_	start_char=102|end_char=108
-17	on	on	ADP	IN	_	16	_	_	start_char=109|end_char=111
-18	twitter	twitter	NOUN	NN	Number=Sing	17	_	_	start_char=112|end_char=119
-19	!	!	PUNCT	.	_	18	_	_	start_char=120|end_char=121
+# sent_id = 35672
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=18|end_char=21
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=22|end_char=25
+3	called	call	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=26|end_char=32
+4	on	on	ADP	RP	_	3	_	_	start_char=33|end_char=35
+5	on	on	ADP	IN	_	4	_	_	start_char=36|end_char=38
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=39|end_char=43
+7	tweet	tweet	NOUN	NN	Number=Sing	6	_	_	start_char=44|end_char=49
+8	by	by	ADP	IN	_	7	_	_	start_char=50|end_char=52
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=53|end_char=54
+10	Bernie	Bernie	PROPN	NNP	Number=Sing	9	_	_	start_char=55|end_char=61
+11	supporter	supporter	NOUN	NN	Number=Sing	10	_	_	start_char=62|end_char=71
+12	and	and	CCONJ	CC	_	11	_	_	start_char=72|end_char=75
+13	someone	someone	PRON	NN	Number=Sing|PronType=Ind	12	_	_	start_char=76|end_char=83
+14	who	who	PRON	WP	PronType=Rel	13	_	_	start_char=84|end_char=87
+15	follows	follow	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=88|end_char=95
+16	Maddow	Maddow	PROPN	NNP	Number=Sing	15	_	_	start_char=96|end_char=102
+17	on	on	ADP	IN	_	16	_	_	start_char=103|end_char=105
+18	twitter	twitter	NOUN	NN	Number=Sing	17	_	_	start_char=106|end_char=113
+19	!	!	PUNCT	.	_	18	_	_	start_char=114|end_char=115
 
 # text = That's how the follower knew Maddox posted it.
-# sent_id = 36901
-1-2	That's	_	_	_	_	_	_	_	start_char=122|end_char=128
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=122|end_char=126
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=126|end_char=128
-3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=129|end_char=132
-4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=133|end_char=136
-5	follower	follower	NOUN	NN	Number=Sing	4	_	_	start_char=137|end_char=145
-6	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=146|end_char=150
-7	Maddox	Maddox	PROPN	NNP	Number=Sing	6	_	_	start_char=151|end_char=157
-8	posted	post	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=158|end_char=164
-9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=165|end_char=167|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=167|end_char=168
+# sent_id = 35673
+1-2	That's	_	_	_	_	_	_	_	start_char=116|end_char=122
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=116|end_char=120
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=120|end_char=122
+3	how	how	ADV	WRB	PronType=Int	2	_	_	start_char=123|end_char=126
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=127|end_char=130
+5	follower	follower	NOUN	NN	Number=Sing	4	_	_	start_char=131|end_char=139
+6	knew	know	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=140|end_char=144
+7	Maddox	Maddox	PROPN	NNP	Number=Sing	6	_	_	start_char=145|end_char=151
+8	posted	post	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=152|end_char=158
+9	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=159|end_char=161|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=161|end_char=162
 
 # text = It came up on her feed.
-# sent_id = 36902
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=169|end_char=171
-2	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=172|end_char=176
-3	up	up	ADP	RP	_	2	_	_	start_char=177|end_char=179
-4	on	on	ADP	IN	_	3	_	_	start_char=180|end_char=182
-5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=183|end_char=186
-6	feed	feed	NOUN	NN	Number=Sing	5	_	_	start_char=187|end_char=191|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=191|end_char=192
-
-# text = [URL] [URL]
-# sent_id = 36903
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=193|end_char=194|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=194|end_char=197|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=197|end_char=198
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=199|end_char=200|SpaceAfter=No
-5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=200|end_char=203|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=203|end_char=204|SpaceAfter=No
+# sent_id = 35674
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=163|end_char=165
+2	came	come	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=166|end_char=170
+3	up	up	ADP	RP	_	2	_	_	start_char=171|end_char=173
+4	on	on	ADP	IN	_	3	_	_	start_char=174|end_char=176
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=177|end_char=180
+6	feed	feed	NOUN	NN	Number=Sing	5	_	_	start_char=181|end_char=185|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=185|end_char=186|SpacesAfter=\s\s
 

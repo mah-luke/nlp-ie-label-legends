@@ -1,63 +1,54 @@
-# text = RT [USER]: 101-year-old Marcia Morrison was lively, kind and generous, a neighbor says.
-# sent_id = 51861
+# text = RT : 101-year-old Marcia Morrison was lively, kind and generous, a neighbor says.
+# sent_id = 50200
 1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
-3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=4|end_char=8|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=8|end_char=9|SpaceAfter=No
-5	:	:	PUNCT	:	_	4	_	_	start_char=9|end_char=10
-6	101	101	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=11|end_char=14|SpaceAfter=No
-7	-	-	PUNCT	HYPH	_	6	_	_	start_char=14|end_char=15|SpaceAfter=No
-8	year	year	NOUN	NN	Number=Sing	7	_	_	start_char=15|end_char=19|SpaceAfter=No
-9	-	-	PUNCT	HYPH	_	8	_	_	start_char=19|end_char=20|SpaceAfter=No
-10	old	old	ADJ	JJ	Degree=Pos	9	_	_	start_char=20|end_char=23
-11	Marcia	Marcia	PROPN	NNP	Number=Sing	10	_	_	start_char=24|end_char=30
-12	Morrison	Morrison	PROPN	NNP	Number=Sing	11	_	_	start_char=31|end_char=39
-13	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=40|end_char=43
-14	lively	lively	ADJ	JJ	Degree=Pos	13	_	_	start_char=44|end_char=50|SpaceAfter=No
-15	,	,	PUNCT	,	_	14	_	_	start_char=50|end_char=51
-16	kind	kind	ADJ	JJ	Degree=Pos	15	_	_	start_char=52|end_char=56
-17	and	and	CCONJ	CC	_	16	_	_	start_char=57|end_char=60
-18	generous	generous	ADJ	JJ	Degree=Pos	17	_	_	start_char=61|end_char=69|SpaceAfter=No
-19	,	,	PUNCT	,	_	18	_	_	start_char=69|end_char=70
-20	a	a	DET	DT	Definite=Ind|PronType=Art	19	_	_	start_char=71|end_char=72
-21	neighbor	neighbor	NOUN	NN	Number=Sing	20	_	_	start_char=73|end_char=81
-22	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	_	_	start_char=82|end_char=86|SpaceAfter=No
-23	.	.	PUNCT	.	_	22	_	_	start_char=86|end_char=87
+2	:	:	PUNCT	:	_	1	_	_	start_char=3|end_char=4
+3	101	101	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=5|end_char=8|SpaceAfter=No
+4	-	-	PUNCT	HYPH	_	3	_	_	start_char=8|end_char=9|SpaceAfter=No
+5	year	year	NOUN	NN	Number=Sing	4	_	_	start_char=9|end_char=13|SpaceAfter=No
+6	-	-	PUNCT	HYPH	_	5	_	_	start_char=13|end_char=14|SpaceAfter=No
+7	old	old	ADJ	JJ	Degree=Pos	6	_	_	start_char=14|end_char=17
+8	Marcia	Marcia	PROPN	NNP	Number=Sing	7	_	_	start_char=18|end_char=24
+9	Morrison	Morrison	PROPN	NNP	Number=Sing	8	_	_	start_char=25|end_char=33
+10	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	_	_	start_char=34|end_char=37
+11	lively	lively	ADJ	JJ	Degree=Pos	10	_	_	start_char=38|end_char=44|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=44|end_char=45
+13	kind	kind	ADJ	JJ	Degree=Pos	12	_	_	start_char=46|end_char=50
+14	and	and	CCONJ	CC	_	13	_	_	start_char=51|end_char=54
+15	generous	generous	ADJ	JJ	Degree=Pos	14	_	_	start_char=55|end_char=63|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=63|end_char=64
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=65|end_char=66
+18	neighbor	neighbor	NOUN	NN	Number=Sing	17	_	_	start_char=67|end_char=75
+19	says	say	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=76|end_char=80|SpaceAfter=No
+20	.	.	PUNCT	.	_	19	_	_	start_char=80|end_char=81
 
 # text = She was found stabbed to death this week, and her upstairs neighbor, a 54-year-old man, has been charged with murder.
-# sent_id = 51862
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=88|end_char=91
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=92|end_char=95
-3	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=96|end_char=101
-4	stabbed	stab	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=102|end_char=109
-5	to	to	ADP	IN	_	4	_	_	start_char=110|end_char=112
-6	death	death	NOUN	NN	Number=Sing	5	_	_	start_char=113|end_char=118
-7	this	this	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=119|end_char=123
-8	week	week	NOUN	NN	Number=Sing	7	_	_	start_char=124|end_char=128|SpaceAfter=No
-9	,	,	PUNCT	,	_	8	_	_	start_char=128|end_char=129
-10	and	and	CCONJ	CC	_	9	_	_	start_char=130|end_char=133
-11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=134|end_char=137
-12	upstairs	upstairs	ADJ	JJ	Degree=Pos	11	_	_	start_char=138|end_char=146
-13	neighbor	neighbor	NOUN	NN	Number=Sing	12	_	_	start_char=147|end_char=155|SpaceAfter=No
-14	,	,	PUNCT	,	_	13	_	_	start_char=155|end_char=156
-15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=157|end_char=158
-16	54	54	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=159|end_char=161|SpaceAfter=No
-17	-	-	PUNCT	HYPH	_	16	_	_	start_char=161|end_char=162|SpaceAfter=No
-18	year	year	NOUN	NN	Number=Sing	17	_	_	start_char=162|end_char=166|SpaceAfter=No
-19	-	-	PUNCT	HYPH	_	18	_	_	start_char=166|end_char=167|SpaceAfter=No
-20	old	old	ADJ	JJ	Degree=Pos	19	_	_	start_char=167|end_char=170
-21	man	man	NOUN	NN	Number=Sing	20	_	_	start_char=171|end_char=174|SpaceAfter=No
-22	,	,	PUNCT	,	_	21	_	_	start_char=174|end_char=175
-23	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=176|end_char=179
-24	been	be	AUX	VBN	Tense=Past|VerbForm=Part	23	_	_	start_char=180|end_char=184
-25	charged	charge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	_	_	start_char=185|end_char=192
-26	with	with	ADP	IN	_	25	_	_	start_char=193|end_char=197
-27	murder	murder	NOUN	NN	Number=Sing	26	_	_	start_char=198|end_char=204|SpaceAfter=No
-28	.	.	PUNCT	.	_	27	_	_	start_char=204|end_char=205
-
-# text = [URL]
-# sent_id = 51863
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=206|end_char=207|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=207|end_char=210|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=210|end_char=211|SpaceAfter=No
+# sent_id = 50201
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=82|end_char=85
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=86|end_char=89
+3	found	find	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	_	_	start_char=90|end_char=95
+4	stabbed	stab	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	3	_	_	start_char=96|end_char=103
+5	to	to	ADP	IN	_	4	_	_	start_char=104|end_char=106
+6	death	death	NOUN	NN	Number=Sing	5	_	_	start_char=107|end_char=112
+7	this	this	DET	DT	Number=Sing|PronType=Dem	6	_	_	start_char=113|end_char=117
+8	week	week	NOUN	NN	Number=Sing	7	_	_	start_char=118|end_char=122|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=122|end_char=123
+10	and	and	CCONJ	CC	_	9	_	_	start_char=124|end_char=127
+11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=128|end_char=131
+12	upstairs	upstairs	ADJ	JJ	Degree=Pos	11	_	_	start_char=132|end_char=140
+13	neighbor	neighbor	NOUN	NN	Number=Sing	12	_	_	start_char=141|end_char=149|SpaceAfter=No
+14	,	,	PUNCT	,	_	13	_	_	start_char=149|end_char=150
+15	a	a	DET	DT	Definite=Ind|PronType=Art	14	_	_	start_char=151|end_char=152
+16	54	54	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=153|end_char=155|SpaceAfter=No
+17	-	-	PUNCT	HYPH	_	16	_	_	start_char=155|end_char=156|SpaceAfter=No
+18	year	year	NOUN	NN	Number=Sing	17	_	_	start_char=156|end_char=160|SpaceAfter=No
+19	-	-	PUNCT	HYPH	_	18	_	_	start_char=160|end_char=161|SpaceAfter=No
+20	old	old	ADJ	JJ	Degree=Pos	19	_	_	start_char=161|end_char=164
+21	man	man	NOUN	NN	Number=Sing	20	_	_	start_char=165|end_char=168|SpaceAfter=No
+22	,	,	PUNCT	,	_	21	_	_	start_char=168|end_char=169
+23	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	_	_	start_char=170|end_char=173
+24	been	be	AUX	VBN	Tense=Past|VerbForm=Part	23	_	_	start_char=174|end_char=178
+25	charged	charge	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	24	_	_	start_char=179|end_char=186
+26	with	with	ADP	IN	_	25	_	_	start_char=187|end_char=191
+27	murder	murder	NOUN	NN	Number=Sing	26	_	_	start_char=192|end_char=198|SpaceAfter=No
+28	.	.	PUNCT	.	_	27	_	_	start_char=198|end_char=199
 

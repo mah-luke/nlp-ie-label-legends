@@ -1,10 +1,10 @@
 # text = Merkel.
-# sent_id = 19656
+# sent_id = 19014
 1	Merkel	Merkel	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=6|SpaceAfter=No
 2	.	.	PUNCT	.	_	1	_	_	start_char=6|end_char=7
 
 # text = We are all too astoopid to figure out her bullshit.
-# sent_id = 19657
+# sent_id = 19015
 1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=8|end_char=10
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=11|end_char=14
 3	all	all	ADV	RB	_	2	_	_	start_char=15|end_char=18
@@ -18,13 +18,13 @@
 11	.	.	PUNCT	.	_	10	_	_	start_char=58|end_char=59
 
 # text = UH OH!
-# sent_id = 19658
+# sent_id = 19016
 1	UH	uh	INTJ	UH	_	0	_	_	start_char=60|end_char=62
 2	OH	oh	INTJ	UH	_	1	_	_	start_char=63|end_char=65|SpaceAfter=No
 3	!	!	PUNCT	.	_	2	_	_	start_char=65|end_char=66
 
 # text = I guess the Polizei will be coming to lock me up next, or do they just monitor Facebook for "Islamaphobia"?
-# sent_id = 19659
+# sent_id = 19017
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=67|end_char=68
 2	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=69|end_char=74
 3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=75|end_char=78
@@ -50,15 +50,12 @@
 23	"	"	PUNCT	''	_	22	_	_	start_char=172|end_char=173|SpaceAfter=No
 24	?	?	PUNCT	.	_	23	_	_	start_char=173|end_char=174
 
-# text = #MAGA #Trump #MEGA [URL]
-# sent_id = 19660
+# text = #MAGA #Trump #MEGA
+# sent_id = 19018
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=175|end_char=176|SpaceAfter=No
 2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=176|end_char=180
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=181|end_char=182|SpaceAfter=No
-4	Trump	Trump	PROPN	NNP	Number=Sing	3	_	_	start_char=182|end_char=187
+4	Trump	Trump	NOUN	NN	Number=Sing	3	_	_	start_char=182|end_char=187
 5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=188|end_char=189|SpaceAfter=No
 6	MEGA	mega	NOUN	NN	Number=Sing	5	_	_	start_char=189|end_char=193
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=194|end_char=195|SpaceAfter=No
-8	URL	URL	NOUN	NN	Number=Sing	7	_	_	start_char=195|end_char=198|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=198|end_char=199|SpaceAfter=No
 

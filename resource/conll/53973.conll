@@ -1,13 +1,10 @@
-# text = Michael watching [USER]‍ burn in hell.
-# sent_id = 115371
+# text = Michael watching ‍ burn in hell.
+# sent_id = 111606
 1	Michael	Michael	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
 2	watching	watch	VERB	VBG	VerbForm=Ger	1	_	_	start_char=8|end_char=16
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=17|end_char=18|SpaceAfter=No
-4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=22|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=22|end_char=23|SpaceAfter=No
-6	‍	‍	PUNCT	:	_	5	_	_	start_char=23|end_char=24
-7	burn	burn	VERB	VB	VerbForm=Fin	6	_	_	start_char=25|end_char=29
-8	in	in	ADP	IN	_	7	_	_	start_char=30|end_char=32
-9	hell	hell	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=37|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=37|end_char=38|SpaceAfter=No
+3	‍	‍	PUNCT	``	_	2	_	_	start_char=17|end_char=18
+4	burn	burn	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=23
+5	in	in	ADP	IN	_	4	_	_	start_char=24|end_char=26
+6	hell	hell	NOUN	NN	Number=Sing	5	_	_	start_char=27|end_char=31|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=31|end_char=32|SpaceAfter=No
 

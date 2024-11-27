@@ -1,37 +1,34 @@
-# text = [USER] is going to spend the rest of her life being a vocal sore loser.
-# sent_id = 40416
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=7|end_char=9
-5	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=10|end_char=15
-6	to	to	PART	TO	_	5	_	_	start_char=16|end_char=18
-7	spend	spend	VERB	VB	VerbForm=Inf	6	_	_	start_char=19|end_char=24
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=25|end_char=28
-9	rest	rest	NOUN	NN	Number=Sing	8	_	_	start_char=29|end_char=33
-10	of	of	ADP	IN	_	9	_	_	start_char=34|end_char=36
-11	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	_	_	start_char=37|end_char=40
-12	life	life	NOUN	NN	Number=Sing	11	_	_	start_char=41|end_char=45
-13	being	be	AUX	VBG	VerbForm=Ger	12	_	_	start_char=46|end_char=51
-14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=52|end_char=53
-15	vocal	vocal	ADJ	JJ	Degree=Pos	14	_	_	start_char=54|end_char=59
-16	sore	sore	ADJ	JJ	Degree=Pos	15	_	_	start_char=60|end_char=64
-17	loser	loser	NOUN	NN	Number=Sing	16	_	_	start_char=65|end_char=70|SpaceAfter=No
-18	.	.	PUNCT	.	_	17	_	_	start_char=70|end_char=71
+# text = is going to spend the rest of her life being a vocal sore loser.
+# sent_id = 39063
+1	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	1	_	_	start_char=4|end_char=9
+3	to	to	PART	TO	_	2	_	_	start_char=10|end_char=12
+4	spend	spend	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=18
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=19|end_char=22
+6	rest	rest	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=27
+7	of	of	ADP	IN	_	6	_	_	start_char=28|end_char=30
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=31|end_char=34
+9	life	life	NOUN	NN	Number=Sing	8	_	_	start_char=35|end_char=39
+10	being	be	AUX	VBG	VerbForm=Ger	9	_	_	start_char=40|end_char=45
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=46|end_char=47
+12	vocal	vocal	ADJ	JJ	Degree=Pos	11	_	_	start_char=48|end_char=53
+13	sore	sore	ADJ	JJ	Degree=Pos	12	_	_	start_char=54|end_char=58
+14	loser	loser	NOUN	NN	Number=Sing	13	_	_	start_char=59|end_char=64|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=64|end_char=65
 
 # text = Very toxic to the democrats, so I say let her whine.
-# sent_id = 40417
-1	Very	very	ADV	RB	_	0	_	_	start_char=72|end_char=76
-2	toxic	toxic	ADJ	JJ	Degree=Pos	1	_	_	start_char=77|end_char=82
-3	to	to	ADP	IN	_	2	_	_	start_char=83|end_char=85
-4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=86|end_char=89
-5	democrats	Democrat	PROPN	NNPS	Number=Plur	4	_	_	start_char=90|end_char=99|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=99|end_char=100
-7	so	so	ADV	RB	_	6	_	_	start_char=101|end_char=103
-8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=104|end_char=105
-9	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=106|end_char=109
-10	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=110|end_char=113
-11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=114|end_char=117
-12	whine	whine	VERB	VB	VerbForm=Inf	11	_	_	start_char=118|end_char=123|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=123|end_char=124|SpaceAfter=No
+# sent_id = 39064
+1	Very	very	ADV	RB	_	0	_	_	start_char=66|end_char=70
+2	toxic	toxic	ADJ	JJ	Degree=Pos	1	_	_	start_char=71|end_char=76
+3	to	to	ADP	IN	_	2	_	_	start_char=77|end_char=79
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=80|end_char=83
+5	democrats	Democrat	PROPN	NNPS	Number=Plur	4	_	_	start_char=84|end_char=93|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=93|end_char=94
+7	so	so	ADV	RB	_	6	_	_	start_char=95|end_char=97
+8	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	_	_	start_char=98|end_char=99
+9	say	say	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	_	_	start_char=100|end_char=103
+10	let	let	VERB	VB	Mood=Imp|VerbForm=Fin	9	_	_	start_char=104|end_char=107
+11	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=108|end_char=111
+12	whine	whine	VERB	VB	VerbForm=Inf	11	_	_	start_char=112|end_char=117|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=117|end_char=118|SpaceAfter=No
 

@@ -1,20 +1,17 @@
-# text = [USER] seriously fucker?
-# sent_id = 78679
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	seriously	seriously	ADV	RB	_	3	_	_	start_char=7|end_char=16
-5	fucker	fucker	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=23|SpaceAfter=No
-6	?	?	PUNCT	.	_	5	_	_	start_char=23|end_char=24
+# text = seriously fucker?
+# sent_id = 76135
+1	seriously	seriously	ADV	RB	_	0	_	_	start_char=1|end_char=10|SpacesBefore=\s
+2	fucker	fucker	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=17|SpaceAfter=No
+3	?	?	PUNCT	.	_	2	_	_	start_char=17|end_char=18
 
 # text = Now I'm looking up Orcan...
-# sent_id = 78680
-1	Now	now	ADV	RB	_	0	_	_	start_char=25|end_char=28
-2-3	I'm	_	_	_	_	_	_	_	start_char=29|end_char=32
-2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=29|end_char=30
-3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=30|end_char=32
-4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=33|end_char=40
-5	up	up	ADP	RP	_	4	_	_	start_char=41|end_char=43
-6	Orcan	Orcan	PROPN	NNP	Number=Sing	5	_	_	start_char=44|end_char=49|SpaceAfter=No
-7	...	...	PUNCT	.	_	6	_	_	start_char=49|end_char=52|SpaceAfter=No
+# sent_id = 76136
+1	Now	now	ADV	RB	_	0	_	_	start_char=19|end_char=22
+2-3	I'm	_	_	_	_	_	_	_	start_char=23|end_char=26
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=23|end_char=24
+3	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=24|end_char=26
+4	looking	look	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=27|end_char=34
+5	up	up	ADP	RP	_	4	_	_	start_char=35|end_char=37
+6	Orcan	Orcan	PROPN	NNP	Number=Sing	5	_	_	start_char=38|end_char=43|SpaceAfter=No
+7	...	...	PUNCT	.	_	6	_	_	start_char=43|end_char=46|SpaceAfter=No
 

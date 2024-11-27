@@ -1,31 +1,25 @@
-# text = [USER]
-# sent_id = 4790
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = I think beta males support Islam because that would be the only way they could tell a woman what to do.
-# sent_id = 4791
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
-2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=14
-3	beta	beta	NOUN	NN	Number=Sing	2	_	_	start_char=15|end_char=19
-4	males	male	NOUN	NNS	Number=Plur	3	_	_	start_char=20|end_char=25
-5	support	support	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=26|end_char=33
-6	Islam	Islam	PROPN	NNP	Number=Sing	5	_	_	start_char=34|end_char=39
-7	because	because	SCONJ	IN	_	6	_	_	start_char=40|end_char=47
-8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=48|end_char=52
-9	would	would	AUX	MD	VerbForm=Fin	8	_	_	start_char=53|end_char=58
-10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=59|end_char=61
-11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=62|end_char=65
-12	only	only	ADJ	JJ	Degree=Pos	11	_	_	start_char=66|end_char=70
-13	way	way	NOUN	NN	Number=Sing	12	_	_	start_char=71|end_char=74
-14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=75|end_char=79
-15	could	could	AUX	MD	VerbForm=Fin	14	_	_	start_char=80|end_char=85
-16	tell	tell	VERB	VB	VerbForm=Inf	15	_	_	start_char=86|end_char=90
-17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=91|end_char=92
-18	woman	woman	NOUN	NN	Number=Sing	17	_	_	start_char=93|end_char=98
-19	what	what	PRON	WP	PronType=Int	18	_	_	start_char=99|end_char=103
-20	to	to	PART	TO	_	19	_	_	start_char=104|end_char=106
-21	do	do	VERB	VB	VerbForm=Inf	20	_	_	start_char=107|end_char=109|SpaceAfter=No
-22	.	.	PUNCT	.	_	21	_	_	start_char=109|end_char=110|SpaceAfter=No
+# sent_id = 4639
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=2|SpacesBefore=\s
+2	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=8
+3	beta	beta	NOUN	NN	Number=Sing	2	_	_	start_char=9|end_char=13
+4	males	male	NOUN	NNS	Number=Plur	3	_	_	start_char=14|end_char=19
+5	support	support	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=20|end_char=27
+6	Islam	Islam	PROPN	NNP	Number=Sing	5	_	_	start_char=28|end_char=33
+7	because	because	SCONJ	IN	_	6	_	_	start_char=34|end_char=41
+8	that	that	PRON	DT	Number=Sing|PronType=Dem	7	_	_	start_char=42|end_char=46
+9	would	would	AUX	MD	VerbForm=Fin	8	_	_	start_char=47|end_char=52
+10	be	be	AUX	VB	VerbForm=Inf	9	_	_	start_char=53|end_char=55
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=56|end_char=59
+12	only	only	ADJ	JJ	Degree=Pos	11	_	_	start_char=60|end_char=64
+13	way	way	NOUN	NN	Number=Sing	12	_	_	start_char=65|end_char=68
+14	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	_	_	start_char=69|end_char=73
+15	could	could	AUX	MD	VerbForm=Fin	14	_	_	start_char=74|end_char=79
+16	tell	tell	VERB	VB	VerbForm=Inf	15	_	_	start_char=80|end_char=84
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=85|end_char=86
+18	woman	woman	NOUN	NN	Number=Sing	17	_	_	start_char=87|end_char=92
+19	what	what	PRON	WP	PronType=Int	18	_	_	start_char=93|end_char=97
+20	to	to	PART	TO	_	19	_	_	start_char=98|end_char=100
+21	do	do	VERB	VB	VerbForm=Inf	20	_	_	start_char=101|end_char=103|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=103|end_char=104|SpaceAfter=No
 

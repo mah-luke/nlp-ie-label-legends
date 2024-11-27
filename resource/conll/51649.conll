@@ -1,61 +1,58 @@
-# text = 1. I have to agree with [USER].
-# sent_id = 110395
+# text = 1. I have to agree with .
+# sent_id = 106795
 1	1.	1.	X	LS	_	0	_	_	start_char=0|end_char=2
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=3|end_char=4
 3	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=5|end_char=9
 4	to	to	PART	TO	_	3	_	_	start_char=10|end_char=12
 5	agree	agree	VERB	VB	VerbForm=Inf	4	_	_	start_char=13|end_char=18
 6	with	with	ADP	IN	_	5	_	_	start_char=19|end_char=23
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=24|end_char=25|SpaceAfter=No
-8	USER	user	NOUN	NN	Number=Sing	7	_	_	start_char=25|end_char=29|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=29|end_char=30|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=30|end_char=31
+7	.	.	PUNCT	.	_	6	_	_	start_char=24|end_char=25
 
 # text = Politicians don't build the wall so employers can hire illegals.
-# sent_id = 110396
-1	Politicians	politician	NOUN	NNS	Number=Plur	0	_	_	start_char=32|end_char=43
-2-3	don't	_	_	_	_	_	_	_	start_char=44|end_char=49
-2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=44|end_char=46
-3	n't	not	PART	RB	_	2	_	_	start_char=46|end_char=49
-4	build	build	VERB	VB	VerbForm=Inf	3	_	_	start_char=50|end_char=55
-5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=56|end_char=59
-6	wall	wall	NOUN	NN	Number=Sing	5	_	_	start_char=60|end_char=64
-7	so	so	SCONJ	IN	_	6	_	_	start_char=65|end_char=67
-8	employers	employer	NOUN	NNS	Number=Plur	7	_	_	start_char=68|end_char=77
-9	can	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=78|end_char=81
-10	hire	hire	VERB	VB	VerbForm=Inf	9	_	_	start_char=82|end_char=86
-11	illegals	illegal	NOUN	NNS	Number=Plur	10	_	_	start_char=87|end_char=95|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=95|end_char=96
+# sent_id = 106796
+1	Politicians	politician	NOUN	NNS	Number=Plur	0	_	_	start_char=26|end_char=37
+2-3	don't	_	_	_	_	_	_	_	start_char=38|end_char=43
+2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=38|end_char=40
+3	n't	not	PART	RB	_	2	_	_	start_char=40|end_char=43
+4	build	build	VERB	VB	VerbForm=Inf	3	_	_	start_char=44|end_char=49
+5	the	the	DET	DT	Definite=Def|PronType=Art	4	_	_	start_char=50|end_char=53
+6	wall	wall	NOUN	NN	Number=Sing	5	_	_	start_char=54|end_char=58
+7	so	so	SCONJ	IN	_	6	_	_	start_char=59|end_char=61
+8	employers	employer	NOUN	NNS	Number=Plur	7	_	_	start_char=62|end_char=71
+9	can	can	AUX	MD	VerbForm=Fin	8	_	_	start_char=72|end_char=75
+10	hire	hire	VERB	VB	VerbForm=Inf	9	_	_	start_char=76|end_char=80
+11	illegals	illegal	NOUN	NNS	Number=Plur	10	_	_	start_char=81|end_char=89|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=89|end_char=90
 
 # text = But their job is to make Americans better off.
-# sent_id = 110397
-1	But	but	CCONJ	CC	_	0	_	_	start_char=97|end_char=100
-2	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=101|end_char=106
-3	job	job	NOUN	NN	Number=Sing	2	_	_	start_char=107|end_char=110
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=111|end_char=113
-5	to	to	PART	TO	_	4	_	_	start_char=114|end_char=116
-6	make	make	VERB	VB	VerbForm=Inf	5	_	_	start_char=117|end_char=121
-7	Americans	American	PROPN	NNPS	Number=Plur	6	_	_	start_char=122|end_char=131
-8	better	good	ADJ	JJR	Degree=Cmp	7	_	_	start_char=132|end_char=138
-9	off	off	ADP	RP	_	8	_	_	start_char=139|end_char=142|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=142|end_char=143
+# sent_id = 106797
+1	But	but	CCONJ	CC	_	0	_	_	start_char=91|end_char=94
+2	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=95|end_char=100
+3	job	job	NOUN	NN	Number=Sing	2	_	_	start_char=101|end_char=104
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=105|end_char=107
+5	to	to	PART	TO	_	4	_	_	start_char=108|end_char=110
+6	make	make	VERB	VB	VerbForm=Inf	5	_	_	start_char=111|end_char=115
+7	Americans	American	PROPN	NNPS	Number=Plur	6	_	_	start_char=116|end_char=125
+8	better	good	ADJ	JJR	Degree=Cmp	7	_	_	start_char=126|end_char=132
+9	off	off	ADP	RP	_	8	_	_	start_char=133|end_char=136|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=136|end_char=137
 
 # text = Rather than build up Americans, they build up foreigners, because employers prefer them.
-# sent_id = 110398
-1	Rather	rather	ADV	RB	_	0	_	_	start_char=144|end_char=150
-2	than	than	ADP	IN	_	1	_	_	start_char=151|end_char=155
-3	build	build	VERB	VB	VerbForm=Inf	2	_	_	start_char=156|end_char=161
-4	up	up	ADP	RP	_	3	_	_	start_char=162|end_char=164
-5	Americans	American	PROPN	NNPS	Number=Plur	4	_	_	start_char=165|end_char=174|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=174|end_char=175
-7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=176|end_char=180
-8	build	build	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=181|end_char=186
-9	up	up	ADP	RP	_	8	_	_	start_char=187|end_char=189
-10	foreigners	foreigner	NOUN	NNS	Number=Plur	9	_	_	start_char=190|end_char=200|SpaceAfter=No
-11	,	,	PUNCT	,	_	10	_	_	start_char=200|end_char=201
-12	because	because	SCONJ	IN	_	11	_	_	start_char=202|end_char=209
-13	employers	employer	NOUN	NNS	Number=Plur	12	_	_	start_char=210|end_char=219
-14	prefer	prefer	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=220|end_char=226
-15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	_	_	start_char=227|end_char=231|SpaceAfter=No
-16	.	.	PUNCT	.	_	15	_	_	start_char=231|end_char=232|SpaceAfter=No
+# sent_id = 106798
+1	Rather	rather	ADV	RB	_	0	_	_	start_char=138|end_char=144
+2	than	than	ADP	IN	_	1	_	_	start_char=145|end_char=149
+3	build	build	VERB	VB	VerbForm=Inf	2	_	_	start_char=150|end_char=155
+4	up	up	ADP	RP	_	3	_	_	start_char=156|end_char=158
+5	Americans	American	PROPN	NNPS	Number=Plur	4	_	_	start_char=159|end_char=168|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=168|end_char=169
+7	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	_	_	start_char=170|end_char=174
+8	build	build	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=175|end_char=180
+9	up	up	ADP	RP	_	8	_	_	start_char=181|end_char=183
+10	foreigners	foreigner	NOUN	NNS	Number=Plur	9	_	_	start_char=184|end_char=194|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=194|end_char=195
+12	because	because	SCONJ	IN	_	11	_	_	start_char=196|end_char=203
+13	employers	employer	NOUN	NNS	Number=Plur	12	_	_	start_char=204|end_char=213
+14	prefer	prefer	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=214|end_char=220
+15	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	14	_	_	start_char=221|end_char=225|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=225|end_char=226|SpaceAfter=No
 

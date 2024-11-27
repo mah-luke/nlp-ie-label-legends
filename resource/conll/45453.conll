@@ -1,5 +1,5 @@
 # text = “Durham officer Mohammed Perwaze, 45, denies four counts of rape and 14 other charges relating to the girl.
-# sent_id = 97056
+# sent_id = 93888
 1	“	''	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	Durham	Durham	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=7
 3	officer	officer	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=15
@@ -23,8 +23,8 @@
 21	girl	girl	NOUN	NN	Number=Sing	20	_	_	start_char=102|end_char=106|SpaceAfter=No
 22	.	.	PUNCT	.	_	21	_	_	start_char=106|end_char=107
 
-# text = He also denies cruelty towards two boys.” 🤮[URL]
-# sent_id = 97057
+# text = He also denies cruelty towards two boys.” 🤮
+# sent_id = 93889
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=108|end_char=110
 2	also	also	ADV	RB	_	1	_	_	start_char=111|end_char=115
 3	denies	deny	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=116|end_char=122
@@ -34,7 +34,5 @@
 7	boys	boy	NOUN	NNS	Number=Plur	6	_	_	start_char=143|end_char=147|SpaceAfter=No
 8	.	.	PUNCT	.	_	7	_	_	start_char=147|end_char=148|SpaceAfter=No
 9	”	''	PUNCT	''	_	8	_	_	start_char=148|end_char=149
-10	🤮[	🤮[	PUNCT	-LRB-	_	9	_	_	start_char=150|end_char=152|SpaceAfter=No
-11	URL	URL	PROPN	NNP	Number=Sing	10	_	_	start_char=152|end_char=155|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=155|end_char=156|SpaceAfter=No
+10	🤮	🤮	PUNCT	''	_	9	_	_	start_char=150|end_char=151|SpaceAfter=No
 

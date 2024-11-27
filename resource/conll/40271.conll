@@ -1,5 +1,5 @@
 # text = "A man invests himself completely in a woman because he hasn’t made anything of himself.
-# sent_id = 86085
+# sent_id = 83296
 1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	A	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=1|end_char=2
 3	man	man	NOUN	NN	Number=Sing	2	_	_	start_char=3|end_char=6
@@ -20,8 +20,8 @@
 17	himself	himself	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	16	_	_	start_char=80|end_char=87|SpaceAfter=No
 18	.	.	PUNCT	.	_	17	_	_	start_char=87|end_char=88
 
-# text = It is an abdication of his manhood."
-# sent_id = 86086
+# text = It is an abdication of his manhood." -
+# sent_id = 83297
 1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=89|end_char=91
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=92|end_char=94
 3	an	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=95|end_char=97
@@ -31,14 +31,5 @@
 7	manhood	manhood	NOUN	NN	Number=Sing	6	_	_	start_char=116|end_char=123|SpaceAfter=No
 8	.	.	PUNCT	.	_	7	_	_	start_char=123|end_char=124|SpaceAfter=No
 9	"	"	PUNCT	''	_	8	_	_	start_char=124|end_char=125
-
-# text = - [USER] [URL]
-# sent_id = 86087
-1	-	-	PUNCT	NFP	_	0	_	_	start_char=126|end_char=127
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=128|end_char=129|SpaceAfter=No
-3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=129|end_char=133|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=133|end_char=134
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=135|end_char=136|SpaceAfter=No
-6	URL	URL	NOUN	NN	Number=Sing	5	_	_	start_char=136|end_char=139|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=139|end_char=140|SpaceAfter=No
+10	-	-	PUNCT	.	_	9	_	_	start_char=126|end_char=127|SpacesAfter=\s\s
 

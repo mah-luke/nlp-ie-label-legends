@@ -1,5 +1,5 @@
 # text = Why is the headline not "Black woman stupid enough to leave unattended vehicle running in NYC" ?
-# sent_id = 86970
+# sent_id = 84129
 1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
 3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=7|end_char=10
@@ -20,31 +20,28 @@
 18	"	"	PUNCT	''	_	17	_	_	start_char=93|end_char=94
 19	?	?	PUNCT	.	_	18	_	_	start_char=95|end_char=96
 
-# text = #HBD #AffirmativeAction [URL] B4 commenting, If you=(EMT from Whitopia) I am aware fluids can get cold.
-# sent_id = 86971
+# text = #HBD #AffirmativeAction B4 commenting, If you=(EMT from Whitopia) I am aware fluids can get cold.
+# sent_id = 84130
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=97|end_char=98|SpaceAfter=No
 2	HBD	hbd	NOUN	NN	Number=Sing	1	_	_	start_char=98|end_char=101
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=102|end_char=103|SpaceAfter=No
-4	AffirmativeAction	affirmativeaction	NOUN	NN	Number=Sing	3	_	_	start_char=103|end_char=120
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=121|end_char=122|SpaceAfter=No
-6	URL	URL	PROPN	NNP	Number=Sing	5	_	_	start_char=122|end_char=125|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=125|end_char=126
-8	B4	B4	NOUN	NN	Number=Sing	7	_	_	start_char=127|end_char=129
-9	commenting	comment	VERB	VBG	VerbForm=Ger	8	_	_	start_char=130|end_char=140|SpaceAfter=No
-10	,	,	PUNCT	,	_	9	_	_	start_char=140|end_char=141
-11	If	if	SCONJ	IN	_	10	_	_	start_char=142|end_char=144
-12	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	11	_	_	start_char=145|end_char=148|SpaceAfter=No
-13	=(	=(	SYM	SYM	_	12	_	_	start_char=148|end_char=150|SpaceAfter=No
-14	EMT	emt	NOUN	NN	Number=Sing	13	_	_	start_char=150|end_char=153
-15	from	from	ADP	IN	_	14	_	_	start_char=154|end_char=158
-16	Whitopia	Whitopia	PROPN	NNP	Number=Sing	15	_	_	start_char=159|end_char=167|SpaceAfter=No
-17	)	)	PUNCT	-RRB-	_	16	_	_	start_char=167|end_char=168
-18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	_	_	start_char=169|end_char=170
-19	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	_	_	start_char=171|end_char=173
-20	aware	aware	ADJ	JJ	Degree=Pos	19	_	_	start_char=174|end_char=179
-21	fluids	fluid	NOUN	NNS	Number=Plur	20	_	_	start_char=180|end_char=186
-22	can	can	AUX	MD	VerbForm=Fin	21	_	_	start_char=187|end_char=190
-23	get	get	VERB	VB	VerbForm=Inf	22	_	_	start_char=191|end_char=194
-24	cold	cold	ADJ	JJ	Degree=Pos	23	_	_	start_char=195|end_char=199|SpaceAfter=No
-25	.	.	PUNCT	.	_	24	_	_	start_char=199|end_char=200|SpaceAfter=No
+4	AffirmativeAction	affirmativeaction	NOUN	NN	Number=Sing	3	_	_	start_char=103|end_char=120|SpacesAfter=\s\s
+5	B4	B4	X	NN	_	4	_	_	start_char=122|end_char=124
+6	commenting	comment	VERB	VBG	VerbForm=Ger	5	_	_	start_char=125|end_char=135|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=135|end_char=136
+8	If	if	SCONJ	IN	_	7	_	_	start_char=137|end_char=139
+9	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	8	_	_	start_char=140|end_char=143|SpaceAfter=No
+10	=(	=(	SYM	SYM	_	9	_	_	start_char=143|end_char=145|SpaceAfter=No
+11	EMT	emt	NOUN	NN	Number=Sing	10	_	_	start_char=145|end_char=148
+12	from	from	ADP	IN	_	11	_	_	start_char=149|end_char=153
+13	Whitopia	Whitopia	PROPN	NNP	Number=Sing	12	_	_	start_char=154|end_char=162|SpaceAfter=No
+14	)	)	PUNCT	-RRB-	_	13	_	_	start_char=162|end_char=163
+15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=164|end_char=165
+16	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	_	_	start_char=166|end_char=168
+17	aware	aware	ADJ	JJ	Degree=Pos	16	_	_	start_char=169|end_char=174
+18	fluids	fluid	NOUN	NNS	Number=Plur	17	_	_	start_char=175|end_char=181
+19	can	can	AUX	MD	VerbForm=Fin	18	_	_	start_char=182|end_char=185
+20	get	get	VERB	VB	VerbForm=Inf	19	_	_	start_char=186|end_char=189
+21	cold	cold	ADJ	JJ	Degree=Pos	20	_	_	start_char=190|end_char=194|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=194|end_char=195|SpaceAfter=No
 

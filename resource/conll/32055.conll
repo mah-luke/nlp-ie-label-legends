@@ -1,5 +1,5 @@
-# text = 24 Huddersfield men and 2 women charged after girls as young as 11 were raped and sexually abused - all Muslim [URL]
-# sent_id = 68715
+# text = 24 Huddersfield men and 2 women charged after girls as young as 11 were raped and sexually abused - all Muslim
+# sent_id = 66498
 1	24	24	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=2
 2	Huddersfield	Huddersfield	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=15
 3	men	man	NOUN	NNS	Number=Plur	2	_	_	start_char=16|end_char=19
@@ -7,7 +7,7 @@
 5	2	2	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=24|end_char=25
 6	women	woman	NOUN	NNS	Number=Plur	5	_	_	start_char=26|end_char=31
 7	charged	charge	VERB	VBN	Tense=Past|VerbForm=Part	6	_	_	start_char=32|end_char=39
-8	after	after	ADP	IN	_	7	_	_	start_char=40|end_char=45
+8	after	after	SCONJ	IN	_	7	_	_	start_char=40|end_char=45
 9	girls	girl	NOUN	NNS	Number=Plur	8	_	_	start_char=46|end_char=51
 10	as	as	ADV	RB	_	9	_	_	start_char=52|end_char=54
 11	young	young	ADJ	JJ	Degree=Pos	10	_	_	start_char=55|end_char=60
@@ -20,8 +20,5 @@
 18	abused	abuse	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=91|end_char=97
 19	-	-	PUNCT	HYPH	_	18	_	_	start_char=98|end_char=99
 20	all	all	DET	DT	_	19	_	_	start_char=100|end_char=103
-21	Muslim	Muslim	PROPN	NNP	Number=Sing	20	_	_	start_char=104|end_char=110
-22	[	[	PUNCT	-LRB-	_	21	_	_	start_char=111|end_char=112|SpaceAfter=No
-23	URL	URL	PROPN	NNP	Number=Sing	22	_	_	start_char=112|end_char=115|SpaceAfter=No
-24	]	]	PUNCT	-RRB-	_	23	_	_	start_char=115|end_char=116|SpaceAfter=No
+21	Muslim	Muslim	ADJ	JJ	Degree=Pos	20	_	_	start_char=104|end_char=110
 

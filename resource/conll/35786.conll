@@ -1,5 +1,5 @@
 # text = An attack on *one* woman is an attack on *all* women.
-# sent_id = 76611
+# sent_id = 74155
 1	An	a	DET	DT	Definite=Ind|PronType=Art	0	_	_	start_char=0|end_char=2
 2	attack	attack	NOUN	NN	Number=Sing	1	_	_	start_char=3|end_char=9
 3	on	on	ADP	IN	_	2	_	_	start_char=10|end_char=12
@@ -17,8 +17,8 @@
 15	women	woman	NOUN	NNS	Number=Plur	14	_	_	start_char=47|end_char=52|SpaceAfter=No
 16	.	.	PUNCT	.	_	15	_	_	start_char=52|end_char=53
 
-# text = [Also, attacks on men are actually attacks on women.]
-# sent_id = 76612
+# text = [Also, attacks on men are actually attacks on women.](
+# sent_id = 74156
 1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=54|end_char=55|SpaceAfter=No
 2	Also	also	ADV	RB	_	1	_	_	start_char=55|end_char=59|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	_	_	start_char=59|end_char=60
@@ -32,11 +32,5 @@
 11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=100|end_char=105|SpaceAfter=No
 12	.	.	PUNCT	.	_	11	_	_	start_char=105|end_char=106|SpaceAfter=No
 13	]	]	PUNCT	-RRB-	_	12	_	_	start_char=106|end_char=107|SpaceAfter=No
-
-# text = ([URL]
-# sent_id = 76613
-1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=107|end_char=108|SpaceAfter=No
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=108|end_char=109|SpaceAfter=No
-3	URL	URL	PROPN	NNP	Number=Sing	2	_	_	start_char=109|end_char=112|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=112|end_char=113|SpaceAfter=No
+14	(	(	PUNCT	-LRB-	_	13	_	_	start_char=107|end_char=108|SpaceAfter=No
 

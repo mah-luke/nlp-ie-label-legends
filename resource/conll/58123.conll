@@ -1,44 +1,41 @@
-# text = SV whores [URL] might be an interesting read.
-# sent_id = 124136
+# text = SV whores might be an interesting read.
+# sent_id = 120152
 1	SV	SV	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
-2	whores	whore	NOUN	NNS	Number=Plur	1	_	_	start_char=3|end_char=9
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=10|end_char=11|SpaceAfter=No
-4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=11|end_char=14|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=14|end_char=15
-6	might	might	AUX	MD	VerbForm=Fin	5	_	_	start_char=16|end_char=21
-7	be	be	AUX	VB	VerbForm=Inf	6	_	_	start_char=22|end_char=24
-8	an	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=25|end_char=27
-9	interesting	interesting	ADJ	JJ	Degree=Pos	8	_	_	start_char=28|end_char=39
-10	read	read	NOUN	NN	Number=Sing	9	_	_	start_char=40|end_char=44|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=44|end_char=45
+2	whores	whore	NOUN	NNS	Number=Plur	1	_	_	start_char=3|end_char=9|SpacesAfter=\s\s
+3	might	might	AUX	MD	VerbForm=Fin	2	_	_	start_char=11|end_char=16
+4	be	be	AUX	VB	VerbForm=Inf	3	_	_	start_char=17|end_char=19
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=20|end_char=22
+6	interesting	interesting	ADJ	JJ	Degree=Pos	5	_	_	start_char=23|end_char=34
+7	read	read	NOUN	NN	Number=Sing	6	_	_	start_char=35|end_char=39|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=39|end_char=40
 
 # text = Buy her $3k of jewelry, do the business, give her receipt, she returns it less a small restocking fee etc etc.
-# sent_id = 124137
-1	Buy	buy	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=46|end_char=49
-2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=50|end_char=53
-3	$	$	SYM	$	_	2	_	_	start_char=54|end_char=55|SpaceAfter=No
-4	3	3	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=55|end_char=56|SpaceAfter=No
-5	k	thousand	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	4	_	_	start_char=56|end_char=57
-6	of	of	ADP	IN	_	5	_	_	start_char=58|end_char=60
-7	jewelry	jewelry	NOUN	NN	Number=Sing	6	_	_	start_char=61|end_char=68|SpaceAfter=No
-8	,	,	PUNCT	,	_	7	_	_	start_char=68|end_char=69
-9	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=70|end_char=72
-10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=73|end_char=76
-11	business	business	NOUN	NN	Number=Sing	10	_	_	start_char=77|end_char=85|SpaceAfter=No
-12	,	,	PUNCT	,	_	11	_	_	start_char=85|end_char=86
-13	give	give	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=87|end_char=91
-14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=92|end_char=95
-15	receipt	receipt	NOUN	NN	Number=Sing	14	_	_	start_char=96|end_char=103|SpaceAfter=No
-16	,	,	PUNCT	,	_	15	_	_	start_char=103|end_char=104
-17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=105|end_char=108
-18	returns	return	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=109|end_char=116
-19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=117|end_char=119
-20	less	less	ADV	RBR	Degree=Cmp	19	_	_	start_char=120|end_char=124
-21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=125|end_char=126
-22	small	small	ADJ	JJ	Degree=Pos	21	_	_	start_char=127|end_char=132
-23	restocking	restocking	NOUN	NN	Number=Sing	22	_	_	start_char=133|end_char=143
-24	fee	fee	NOUN	NN	Number=Sing	23	_	_	start_char=144|end_char=147
-25	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	24	_	_	start_char=148|end_char=151
-26	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	25	_	_	start_char=152|end_char=155|SpaceAfter=No
-27	.	.	PUNCT	.	_	26	_	_	start_char=155|end_char=156|SpaceAfter=No
+# sent_id = 120153
+1	Buy	buy	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=41|end_char=44
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=45|end_char=48
+3	$	$	SYM	$	_	2	_	_	start_char=49|end_char=50|SpaceAfter=No
+4	3	3	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=50|end_char=51|SpaceAfter=No
+5	k	thousand	NUM	CD	Abbr=Yes|NumForm=Word|NumType=Card	4	_	_	start_char=51|end_char=52
+6	of	of	ADP	IN	_	5	_	_	start_char=53|end_char=55
+7	jewelry	jewelry	NOUN	NN	Number=Sing	6	_	_	start_char=56|end_char=63|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=63|end_char=64
+9	do	do	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=65|end_char=67
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=68|end_char=71
+11	business	business	NOUN	NN	Number=Sing	10	_	_	start_char=72|end_char=80|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=80|end_char=81
+13	give	give	VERB	VB	Mood=Imp|VerbForm=Fin	12	_	_	start_char=82|end_char=86
+14	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	13	_	_	start_char=87|end_char=90
+15	receipt	receipt	NOUN	NN	Number=Sing	14	_	_	start_char=91|end_char=98|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=98|end_char=99
+17	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=100|end_char=103
+18	returns	return	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=104|end_char=111
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=112|end_char=114
+20	less	less	ADV	RBR	Degree=Cmp	19	_	_	start_char=115|end_char=119
+21	a	a	DET	DT	Definite=Ind|PronType=Art	20	_	_	start_char=120|end_char=121
+22	small	small	ADJ	JJ	Degree=Pos	21	_	_	start_char=122|end_char=127
+23	restocking	restocking	NOUN	NN	Number=Sing	22	_	_	start_char=128|end_char=138
+24	fee	fee	NOUN	NN	Number=Sing	23	_	_	start_char=139|end_char=142
+25	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	24	_	_	start_char=143|end_char=146
+26	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	25	_	_	start_char=147|end_char=150|SpaceAfter=No
+27	.	.	PUNCT	.	_	26	_	_	start_char=150|end_char=151|SpaceAfter=No
 

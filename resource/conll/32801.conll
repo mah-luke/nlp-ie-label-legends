@@ -1,48 +1,45 @@
-# text = F#MeghanMcCain I Could Careless What You Think!
-# sent_id = 70276
+# text = F#MeghanMcCain I Could Careless What You
+# sent_id = 67998
 1	F#MeghanMcCain	F#MeghanMcCain	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=14
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=15|end_char=16
 3	Could	could	AUX	MD	VerbForm=Fin	2	_	_	start_char=17|end_char=22
 4	Careless	careless	ADJ	JJ	Degree=Pos	3	_	_	start_char=23|end_char=31
-5	What	what	PRON	WP	PronType=Rel	4	_	_	start_char=32|end_char=36
-6	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=37|end_char=40
-7	Think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=41|end_char=46|SpaceAfter=No
-8	!	!	PUNCT	.	_	7	_	_	start_char=46|end_char=47
+5	What	what	DET	WDT	PronType=Int	4	_	_	start_char=32|end_char=36
+6	You	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	5	_	_	start_char=37|end_char=40
 
-# text = [URL] #GaborZolna's take Meghan is another of the#Democrats Cancerous Rat #SarahPalin not invited [URL] Palin is one of them wearing #PhoenixBird female Freemasonry pin
-# sent_id = 70277
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=48|end_char=49|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=49|end_char=52|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=52|end_char=53
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=54|end_char=55|SpaceAfter=No
-5-6	GaborZolna's	_	_	_	_	_	_	_	start_char=55|end_char=67
-5	GaborZolna	GaborZolna	PROPN	NNP	Number=Sing	4	_	_	start_char=55|end_char=65
-6	's	's	PART	POS	_	5	_	_	start_char=65|end_char=67
-7	take	take	NOUN	NN	Number=Sing	6	_	_	start_char=68|end_char=72
-8	Meghan	Meghan	PROPN	NNP	Number=Sing	7	_	_	start_char=73|end_char=79
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=80|end_char=82
-10	another	another	DET	DT	_	9	_	_	start_char=83|end_char=90
-11	of	of	ADP	IN	_	10	_	_	start_char=91|end_char=93
-12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=94|end_char=97|SpaceAfter=No
-13	#Democrats	#Democrat	PROPN	NNP	Number=Sing	12	_	_	start_char=97|end_char=107
-14	Cancerous	cancerous	ADJ	NNP	Degree=Pos	13	_	_	start_char=108|end_char=117
-15	Rat	Rat	PROPN	NNP	Number=Sing	14	_	_	start_char=118|end_char=121
-16	#	#	SYM	NN	Number=Sing	15	_	_	start_char=122|end_char=123|SpaceAfter=No
-17	SarahPalin	SarahPalin	PROPN	NNP	Number=Sing	16	_	_	start_char=123|end_char=133
-18	not	not	PART	RB	_	17	_	_	start_char=134|end_char=137
-19	invited	invite	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=138|end_char=145
-20	[	[	PUNCT	-LRB-	_	19	_	_	start_char=146|end_char=147|SpaceAfter=No
-21	URL	URL	PROPN	NNP	Number=Sing	20	_	_	start_char=147|end_char=150|SpaceAfter=No
-22	]	]	PUNCT	-RRB-	_	21	_	_	start_char=150|end_char=151
-23	Palin	Palin	PROPN	NNP	Number=Sing	22	_	_	start_char=152|end_char=157
-24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=158|end_char=160
-25	one	one	NUM	CD	NumForm=Word|NumType=Card	24	_	_	start_char=161|end_char=164
-26	of	of	ADP	IN	_	25	_	_	start_char=165|end_char=167
-27	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	26	_	_	start_char=168|end_char=172
-28	wearing	wear	VERB	VBG	VerbForm=Ger	27	_	_	start_char=173|end_char=180
-29	#	#	SYM	NN	Number=Sing	28	_	_	start_char=181|end_char=182|SpaceAfter=No
-30	PhoenixBird	PhoenixBird	PROPN	NNP	Number=Sing	29	_	_	start_char=182|end_char=193
-31	female	female	ADJ	JJ	Degree=Pos	30	_	_	start_char=194|end_char=200
-32	Freemasonry	Freemasonry	PROPN	NNP	Number=Sing	31	_	_	start_char=201|end_char=212
-33	pin	pin	NOUN	NN	Number=Sing	32	_	_	start_char=213|end_char=216|SpaceAfter=No
+# text = Think!
+# sent_id = 67999
+1	Think	think	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=41|end_char=46|SpaceAfter=No
+2	!	!	PUNCT	.	_	1	_	_	start_char=46|end_char=47|SpacesAfter=\s\s
+
+# text = #GaborZolna's take Meghan is another of the#Democrats Cancerous Rat #SarahPalin not invited Palin is one of them wearing #PhoenixBird female Freemasonry pin
+# sent_id = 68000
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=49|end_char=50|SpaceAfter=No
+2-3	GaborZolna's	_	_	_	_	_	_	_	start_char=50|end_char=62
+2	GaborZolna	GaborZolna	PROPN	NNP	Number=Sing	1	_	_	start_char=50|end_char=60
+3	's	's	PART	POS	_	2	_	_	start_char=60|end_char=62
+4	take	take	NOUN	NN	Number=Sing	3	_	_	start_char=63|end_char=67
+5	Meghan	Meghan	PROPN	NNP	Number=Sing	4	_	_	start_char=68|end_char=74
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=75|end_char=77
+7	another	another	DET	DT	_	6	_	_	start_char=78|end_char=85
+8	of	of	ADP	IN	_	7	_	_	start_char=86|end_char=88
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=89|end_char=92|SpaceAfter=No
+10	#Democrats	#Democrat	PROPN	NNP	Number=Sing	9	_	_	start_char=92|end_char=102
+11	Cancerous	cancerous	ADJ	NNP	Degree=Pos	10	_	_	start_char=103|end_char=112
+12	Rat	Rat	PROPN	NNP	Number=Sing	11	_	_	start_char=113|end_char=116
+13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=117|end_char=118|SpaceAfter=No
+14	SarahPalin	SarahPalin	PROPN	NNP	Number=Sing	13	_	_	start_char=118|end_char=128
+15	not	not	PART	RB	_	14	_	_	start_char=129|end_char=132
+16	invited	invite	VERB	VBN	Tense=Past|VerbForm=Part	15	_	_	start_char=133|end_char=140|SpacesAfter=\s\s
+17	Palin	Palin	PROPN	NNP	Number=Sing	16	_	_	start_char=142|end_char=147
+18	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	_	_	start_char=148|end_char=150
+19	one	one	NUM	CD	NumForm=Word|NumType=Card	18	_	_	start_char=151|end_char=154
+20	of	of	ADP	IN	_	19	_	_	start_char=155|end_char=157
+21	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	20	_	_	start_char=158|end_char=162
+22	wearing	wear	VERB	VBG	VerbForm=Ger	21	_	_	start_char=163|end_char=170
+23	#	#	SYM	NN	Number=Sing	22	_	_	start_char=171|end_char=172|SpaceAfter=No
+24	PhoenixBird	PhoenixBird	PROPN	NNP	Number=Sing	23	_	_	start_char=172|end_char=183
+25	female	female	ADJ	JJ	Degree=Pos	24	_	_	start_char=184|end_char=190
+26	Freemasonry	Freemasonry	PROPN	NNP	Number=Sing	25	_	_	start_char=191|end_char=202
+27	pin	pin	NOUN	NN	Number=Sing	26	_	_	start_char=203|end_char=206|SpaceAfter=No
 

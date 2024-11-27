@@ -1,54 +1,45 @@
-# text = [USER] [USER]
-# sent_id = 94583
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=7|end_char=8|SpaceAfter=No
-5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=8|end_char=12|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=12|end_char=13
-
 # text = This cunt is still relevant?
-# sent_id = 94584
-1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=14|end_char=18
-2	cunt	cunt	NOUN	NN	Number=Sing	1	_	_	start_char=19|end_char=23
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=24|end_char=26
-4	still	still	ADV	RB	_	3	_	_	start_char=27|end_char=32
-5	relevant	relevant	ADJ	JJ	Degree=Pos	4	_	_	start_char=33|end_char=41|SpaceAfter=No
-6	?	?	PUNCT	.	_	5	_	_	start_char=41|end_char=42
+# sent_id = 91491
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=2|end_char=6|SpacesBefore=\s\s
+2	cunt	cunt	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=11
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=12|end_char=14
+4	still	still	ADV	RB	_	3	_	_	start_char=15|end_char=20
+5	relevant	relevant	ADJ	JJ	Degree=Pos	4	_	_	start_char=21|end_char=29|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=29|end_char=30
 
 # text = You'd think she'd be too busy sucking dick for great book reviews to be on Twitter.
-# sent_id = 94585
-1-2	You'd	_	_	_	_	_	_	_	start_char=43|end_char=48
-1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=43|end_char=46
-2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=46|end_char=48
-3	think	think	VERB	VB	VerbForm=Inf	2	_	_	start_char=49|end_char=54
-4-5	she'd	_	_	_	_	_	_	_	start_char=55|end_char=60
-4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=55|end_char=58
-5	'd	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=58|end_char=60
-6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=61|end_char=63
-7	too	too	ADV	RB	_	6	_	_	start_char=64|end_char=67
-8	busy	busy	ADJ	JJ	Degree=Pos	7	_	_	start_char=68|end_char=72
-9	sucking	suck	VERB	VBG	VerbForm=Ger	8	_	_	start_char=73|end_char=80
-10	dick	dick	NOUN	NN	Number=Sing	9	_	_	start_char=81|end_char=85
-11	for	for	ADP	IN	_	10	_	_	start_char=86|end_char=89
-12	great	great	ADJ	JJ	Degree=Pos	11	_	_	start_char=90|end_char=95
-13	book	book	NOUN	NN	Number=Sing	12	_	_	start_char=96|end_char=100
-14	reviews	review	NOUN	NNS	Number=Plur	13	_	_	start_char=101|end_char=108
-15	to	to	PART	TO	_	14	_	_	start_char=109|end_char=111
-16	be	be	AUX	VB	VerbForm=Inf	15	_	_	start_char=112|end_char=114
-17	on	on	ADP	IN	_	16	_	_	start_char=115|end_char=117
-18	Twitter	Twitter	PROPN	NNP	Number=Sing	17	_	_	start_char=118|end_char=125|SpaceAfter=No
-19	.	.	PUNCT	.	_	18	_	_	start_char=125|end_char=126
+# sent_id = 91492
+1-2	You'd	_	_	_	_	_	_	_	start_char=31|end_char=36
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=31|end_char=34
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=34|end_char=36
+3	think	think	VERB	VB	VerbForm=Inf	2	_	_	start_char=37|end_char=42
+4-5	she'd	_	_	_	_	_	_	_	start_char=43|end_char=48
+4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=43|end_char=46
+5	'd	would	AUX	MD	VerbForm=Fin	4	_	_	start_char=46|end_char=48
+6	be	be	AUX	VB	VerbForm=Inf	5	_	_	start_char=49|end_char=51
+7	too	too	ADV	RB	_	6	_	_	start_char=52|end_char=55
+8	busy	busy	ADJ	JJ	Degree=Pos	7	_	_	start_char=56|end_char=60
+9	sucking	suck	VERB	VBG	VerbForm=Ger	8	_	_	start_char=61|end_char=68
+10	dick	dick	NOUN	NN	Number=Sing	9	_	_	start_char=69|end_char=73
+11	for	for	ADP	IN	_	10	_	_	start_char=74|end_char=77
+12	great	great	ADJ	JJ	Degree=Pos	11	_	_	start_char=78|end_char=83
+13	book	book	NOUN	NN	Number=Sing	12	_	_	start_char=84|end_char=88
+14	reviews	review	NOUN	NNS	Number=Plur	13	_	_	start_char=89|end_char=96
+15	to	to	PART	TO	_	14	_	_	start_char=97|end_char=99
+16	be	be	AUX	VB	VerbForm=Inf	15	_	_	start_char=100|end_char=102
+17	on	on	ADP	IN	_	16	_	_	start_char=103|end_char=105
+18	Twitter	Twitter	PROPN	NNP	Number=Sing	17	_	_	start_char=106|end_char=113|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=113|end_char=114
 
 # text = That was the tweet that done did it guys
-# sent_id = 94586
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=127|end_char=131
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=132|end_char=135
-3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=136|end_char=139
-4	tweet	tweet	NOUN	NN	Number=Sing	3	_	_	start_char=140|end_char=145
-5	that	that	PRON	WDT	PronType=Rel	4	_	_	start_char=146|end_char=150
-6	done	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=151|end_char=155
-7	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=156|end_char=159
-8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=160|end_char=162
-9	guys	guy	NOUN	NNS	Number=Plur	8	_	_	start_char=163|end_char=167|SpaceAfter=No
+# sent_id = 91493
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=115|end_char=119
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=120|end_char=123
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=124|end_char=127
+4	tweet	tweet	NOUN	NN	Number=Sing	3	_	_	start_char=128|end_char=133
+5	that	that	PRON	WDT	PronType=Rel	4	_	_	start_char=134|end_char=138
+6	done	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	_	_	start_char=139|end_char=143
+7	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=144|end_char=147
+8	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	7	_	_	start_char=148|end_char=150
+9	guys	guy	NOUN	NNS	Number=Plur	8	_	_	start_char=151|end_char=155|SpaceAfter=No
 

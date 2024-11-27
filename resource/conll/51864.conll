@@ -1,5 +1,5 @@
 # text = I’ve never seen so much celebration over the right to kill a baby.
-# sent_id = 110892
+# sent_id = 107268
 1-2	I’ve	_	_	_	_	_	_	_	start_char=0|end_char=4
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
 2	’ve	have	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=1|end_char=4
@@ -18,14 +18,14 @@
 15	.	.	PUNCT	.	_	14	_	_	start_char=65|end_char=66
 
 # text = This is sick.
-# sent_id = 110893
+# sent_id = 107269
 1	This	this	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=67|end_char=71
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=72|end_char=74
 3	sick	sick	ADJ	JJ	Degree=Pos	2	_	_	start_char=75|end_char=79|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	_	_	start_char=79|end_char=80
 
 # text = Why are these witches allowed to roam free?
-# sent_id = 110894
+# sent_id = 107270
 1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=81|end_char=84
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=85|end_char=88
 3	these	this	DET	DT	Number=Plur|PronType=Dem	2	_	_	start_char=89|end_char=94
@@ -37,7 +37,7 @@
 9	?	?	PUNCT	.	_	8	_	_	start_char=123|end_char=124
 
 # text = Sad day for the world.
-# sent_id = 110895
+# sent_id = 107271
 1	Sad	Sad	ADJ	JJ	Degree=Pos	0	_	_	start_char=125|end_char=128
 2	day	day	NOUN	NN	Number=Sing	1	_	_	start_char=129|end_char=132
 3	for	for	ADP	IN	_	2	_	_	start_char=133|end_char=136
@@ -46,7 +46,7 @@
 6	.	.	PUNCT	.	_	5	_	_	start_char=146|end_char=147
 
 # text = "Thou shalt not suffer a witch to live."
-# sent_id = 110896
+# sent_id = 107272
 1	"	"	PUNCT	``	_	0	_	_	start_char=148|end_char=149|SpaceAfter=No
 2	Thou	thou	PRON	PRP	PronType=Prs	1	_	_	start_char=149|end_char=153
 3	shalt	shalt	AUX	MD	VerbForm=Fin	2	_	_	start_char=154|end_char=159
@@ -59,14 +59,11 @@
 10	.	.	PUNCT	.	_	9	_	_	start_char=186|end_char=187|SpaceAfter=No
 11	"	"	PUNCT	''	_	10	_	_	start_char=187|end_char=188
 
-# text = -- Doggeronomy 43:11 #Heurs [URL]
-# sent_id = 110897
+# text = -- Doggeronomy 43:11 #Heurs
+# sent_id = 107273
 1	--	--	PUNCT	NFP	_	0	_	_	start_char=189|end_char=191
 2	Doggeronomy	Doggeronomy	PROPN	NNP	Number=Sing	1	_	_	start_char=192|end_char=203
 3	43:11	43:11	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=204|end_char=209
 4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=210|end_char=211|SpaceAfter=No
 5	Heurs	heur	NOUN	NNS	Number=Plur	4	_	_	start_char=211|end_char=216
-6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=217|end_char=218|SpaceAfter=No
-7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=218|end_char=221|SpaceAfter=No
-8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=221|end_char=222|SpaceAfter=No
 

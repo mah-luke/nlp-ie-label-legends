@@ -1,65 +1,62 @@
-# text = [URL] - "Feminists" embrace Sharia Law.
-# sent_id = 96427
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-4	-	-	PUNCT	,	_	3	_	_	start_char=6|end_char=7
-5	"	"	PUNCT	``	_	4	_	_	start_char=8|end_char=9|SpaceAfter=No
-6	Feminists	Feminist	PROPN	NNPS	Number=Plur	5	_	_	start_char=9|end_char=18|SpaceAfter=No
-7	"	"	PUNCT	''	_	6	_	_	start_char=18|end_char=19
-8	embrace	embrace	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=20|end_char=27
-9	Sharia	Sharia	PROPN	NNP	Number=Sing	8	_	_	start_char=28|end_char=34
-10	Law	Law	PROPN	NNP	Number=Sing	9	_	_	start_char=35|end_char=38|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=38|end_char=39
+# text = - "Feminists" embrace Sharia Law.
+# sent_id = 93286
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=1|end_char=2|SpacesBefore=\s
+2	"	"	PUNCT	``	_	1	_	_	start_char=3|end_char=4|SpaceAfter=No
+3	Feminists	feminist	NOUN	NNS	Number=Plur	2	_	_	start_char=4|end_char=13|SpaceAfter=No
+4	"	"	PUNCT	''	_	3	_	_	start_char=13|end_char=14
+5	embrace	embrace	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=15|end_char=22
+6	Sharia	Sharia	PROPN	NNP	Number=Sing	5	_	_	start_char=23|end_char=29
+7	Law	Law	PROPN	NNP	Number=Sing	6	_	_	start_char=30|end_char=33|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=33|end_char=34
 
 # text = Alex Jones breaks it down.
-# sent_id = 96428
-1	Alex	Alex	PROPN	NNP	Number=Sing	0	_	_	start_char=40|end_char=44
-2	Jones	Jones	PROPN	NNP	Number=Sing	1	_	_	start_char=45|end_char=50
-3	breaks	break	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=51|end_char=57
-4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=58|end_char=60
-5	down	down	ADP	RP	_	4	_	_	start_char=61|end_char=65|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=65|end_char=66
+# sent_id = 93287
+1	Alex	Alex	PROPN	NNP	Number=Sing	0	_	_	start_char=35|end_char=39
+2	Jones	Jones	PROPN	NNP	Number=Sing	1	_	_	start_char=40|end_char=45
+3	breaks	break	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=46|end_char=52
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=53|end_char=55
+5	down	down	ADP	RP	_	4	_	_	start_char=56|end_char=60|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=60|end_char=61
 
 # text = It's so sad to see girls that I go to high school with embrace Islam, call it peaceful and call themselves feminists...
-# sent_id = 96429
-1-2	It's	_	_	_	_	_	_	_	start_char=67|end_char=71
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=67|end_char=69
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=69|end_char=71
-3	so	so	ADV	RB	_	2	_	_	start_char=72|end_char=74
-4	sad	sad	ADJ	JJ	Degree=Pos	3	_	_	start_char=75|end_char=78
-5	to	to	PART	TO	_	4	_	_	start_char=79|end_char=81
-6	see	see	VERB	VB	VerbForm=Inf	5	_	_	start_char=82|end_char=85
-7	girls	girl	NOUN	NNS	Number=Plur	6	_	_	start_char=86|end_char=91
-8	that	that	PRON	WDT	PronType=Rel	7	_	_	start_char=92|end_char=96
-9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=97|end_char=98
-10	go	go	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=99|end_char=101
-11	to	to	ADP	IN	_	10	_	_	start_char=102|end_char=104
-12	high	high	ADJ	JJ	Degree=Pos	11	_	_	start_char=105|end_char=109
-13	school	school	NOUN	NN	Number=Sing	12	_	_	start_char=110|end_char=116
-14	with	with	ADP	IN	_	13	_	_	start_char=117|end_char=121
-15	embrace	embrace	VERB	VB	VerbForm=Inf	14	_	_	start_char=122|end_char=129
-16	Islam	Islam	PROPN	NNP	Number=Sing	15	_	_	start_char=130|end_char=135|SpaceAfter=No
-17	,	,	PUNCT	,	_	16	_	_	start_char=135|end_char=136
-18	call	call	VERB	VB	VerbForm=Fin	17	_	_	start_char=137|end_char=141
-19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=142|end_char=144
-20	peaceful	peaceful	ADJ	JJ	Degree=Pos	19	_	_	start_char=145|end_char=153
-21	and	and	CCONJ	CC	_	20	_	_	start_char=154|end_char=157
-22	call	call	VERB	VB	Mood=Ind|VerbForm=Fin	21	_	_	start_char=158|end_char=162
-23	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	22	_	_	start_char=163|end_char=173
-24	feminists	feminist	NOUN	NNS	Number=Plur	23	_	_	start_char=174|end_char=183|SpaceAfter=No
-25	...	...	PUNCT	.	_	24	_	_	start_char=183|end_char=186
+# sent_id = 93288
+1-2	It's	_	_	_	_	_	_	_	start_char=62|end_char=66
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=62|end_char=64
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=64|end_char=66
+3	so	so	ADV	RB	_	2	_	_	start_char=67|end_char=69
+4	sad	sad	ADJ	JJ	Degree=Pos	3	_	_	start_char=70|end_char=73
+5	to	to	PART	TO	_	4	_	_	start_char=74|end_char=76
+6	see	see	VERB	VB	VerbForm=Inf	5	_	_	start_char=77|end_char=80
+7	girls	girl	NOUN	NNS	Number=Plur	6	_	_	start_char=81|end_char=86
+8	that	that	PRON	WDT	PronType=Rel	7	_	_	start_char=87|end_char=91
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=92|end_char=93
+10	go	go	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=94|end_char=96
+11	to	to	ADP	IN	_	10	_	_	start_char=97|end_char=99
+12	high	high	ADJ	JJ	Degree=Pos	11	_	_	start_char=100|end_char=104
+13	school	school	NOUN	NN	Number=Sing	12	_	_	start_char=105|end_char=111
+14	with	with	ADP	IN	_	13	_	_	start_char=112|end_char=116
+15	embrace	embrace	VERB	VB	VerbForm=Inf	14	_	_	start_char=117|end_char=124
+16	Islam	Islam	PROPN	NNP	Number=Sing	15	_	_	start_char=125|end_char=130|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=130|end_char=131
+18	call	call	VERB	VB	VerbForm=Fin	17	_	_	start_char=132|end_char=136
+19	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=137|end_char=139
+20	peaceful	peaceful	ADJ	JJ	Degree=Pos	19	_	_	start_char=140|end_char=148
+21	and	and	CCONJ	CC	_	20	_	_	start_char=149|end_char=152
+22	call	call	VERB	VB	Mood=Ind|VerbForm=Fin	21	_	_	start_char=153|end_char=157
+23	themselves	themselves	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	22	_	_	start_char=158|end_char=168
+24	feminists	feminist	NOUN	NNS	Number=Plur	23	_	_	start_char=169|end_char=178|SpaceAfter=No
+25	...	...	PUNCT	.	_	24	_	_	start_char=178|end_char=181
 
 # text = We truly live in an ass-backwards world.
-# sent_id = 96430
-1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=187|end_char=189
-2	truly	truly	ADV	RB	_	1	_	_	start_char=190|end_char=195
-3	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=196|end_char=200
-4	in	in	ADP	IN	_	3	_	_	start_char=201|end_char=203
-5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=204|end_char=206
-6	ass	ass	NOUN	NN	Number=Sing	5	_	_	start_char=207|end_char=210|SpaceAfter=No
-7	-	-	PUNCT	HYPH	_	6	_	_	start_char=210|end_char=211|SpaceAfter=No
-8	backwards	backwards	ADJ	JJ	Degree=Pos	7	_	_	start_char=211|end_char=220
-9	world	world	NOUN	NN	Number=Sing	8	_	_	start_char=221|end_char=226|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=226|end_char=227|SpaceAfter=No
+# sent_id = 93289
+1	We	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	0	_	_	start_char=182|end_char=184
+2	truly	truly	ADV	RB	_	1	_	_	start_char=185|end_char=190
+3	live	live	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=191|end_char=195
+4	in	in	ADP	IN	_	3	_	_	start_char=196|end_char=198
+5	an	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=199|end_char=201
+6	ass	ass	NOUN	NN	Number=Sing	5	_	_	start_char=202|end_char=205|SpaceAfter=No
+7	-	-	PUNCT	HYPH	_	6	_	_	start_char=205|end_char=206|SpaceAfter=No
+8	backwards	backwards	ADJ	JJ	Degree=Pos	7	_	_	start_char=206|end_char=215
+9	world	world	NOUN	NN	Number=Sing	8	_	_	start_char=216|end_char=221|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=221|end_char=222|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = Why do people go to the Middle East?
-# sent_id = 1711
+# sent_id = 1657
 1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=0|end_char=3
 2	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
 3	people	person	NOUN	NNS	Number=Plur	2	_	_	start_char=7|end_char=13
@@ -10,10 +10,7 @@
 8	East	East	PROPN	NNP	Number=Sing	7	_	_	start_char=31|end_char=35|SpaceAfter=No
 9	?	?	PUNCT	.	_	8	_	_	start_char=35|end_char=36
 
-# text = Morons [URL]
-# sent_id = 1712
-1	Morons	Moron	PROPN	NNPS	Number=Plur	0	_	_	start_char=37|end_char=43
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=44|end_char=45|SpaceAfter=No
-3	URL	URL	PROPN	NNP	Number=Sing	2	_	_	start_char=45|end_char=48|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=48|end_char=49|SpaceAfter=No
+# text = Morons
+# sent_id = 1658
+1	Morons	moron	NOUN	NNS	Number=Plur	0	_	_	start_char=37|end_char=43
 

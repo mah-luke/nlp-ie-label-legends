@@ -1,5 +1,5 @@
-# text = The #Regressives believe if they continue to label #Trump a failure people will believe it: [URL]
-# sent_id = 82395
+# text = The #Regressives believe if they continue to label #Trump a failure people will believe it:
+# sent_id = 79728
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
 2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=4|end_char=5|SpaceAfter=No
 3	Regressives	regressive	NOUN	NNS	Number=Plur	2	_	_	start_char=5|end_char=16
@@ -17,37 +17,34 @@
 15	will	will	AUX	MD	VerbForm=Fin	14	_	_	start_char=75|end_char=79
 16	believe	believe	VERB	VB	VerbForm=Inf	15	_	_	start_char=80|end_char=87
 17	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=88|end_char=90|SpaceAfter=No
-18	:	:	PUNCT	:	_	17	_	_	start_char=90|end_char=91
-19	[	[	PUNCT	-LRB-	_	18	_	_	start_char=92|end_char=93|SpaceAfter=No
-20	URL	URL	PROPN	NNP	Number=Sing	19	_	_	start_char=93|end_char=96|SpaceAfter=No
-21	]	]	PUNCT	-RRB-	_	20	_	_	start_char=96|end_char=97
+18	:	:	PUNCT	:	_	17	_	_	start_char=90|end_char=91|SpacesAfter=\s\s
 
 # text = The man has done more for America in the last 2 months than the last 3 presidents combined.
-# sent_id = 82396
-1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=98|end_char=101
-2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=102|end_char=105
-3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=106|end_char=109
-4	done	do	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=110|end_char=114
-5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=115|end_char=119
-6	for	for	ADP	IN	_	5	_	_	start_char=120|end_char=123
-7	America	America	PROPN	NNP	Number=Sing	6	_	_	start_char=124|end_char=131
-8	in	in	ADP	IN	_	7	_	_	start_char=132|end_char=134
-9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=135|end_char=138
-10	last	last	ADJ	JJ	Degree=Pos	9	_	_	start_char=139|end_char=143
-11	2	2	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=144|end_char=145
-12	months	month	NOUN	NNS	Number=Plur	11	_	_	start_char=146|end_char=152
-13	than	than	ADP	IN	_	12	_	_	start_char=153|end_char=157
-14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=158|end_char=161
-15	last	last	ADJ	JJ	Degree=Pos	14	_	_	start_char=162|end_char=166
-16	3	3	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=167|end_char=168
-17	presidents	president	NOUN	NNS	Number=Plur	16	_	_	start_char=169|end_char=179
-18	combined	combine	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=180|end_char=188|SpaceAfter=No
-19	.	.	PUNCT	.	_	18	_	_	start_char=188|end_char=189
+# sent_id = 79729
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=93|end_char=96
+2	man	man	NOUN	NN	Number=Sing	1	_	_	start_char=97|end_char=100
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=101|end_char=104
+4	done	do	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=105|end_char=109
+5	more	more	ADJ	JJR	Degree=Cmp	4	_	_	start_char=110|end_char=114
+6	for	for	ADP	IN	_	5	_	_	start_char=115|end_char=118
+7	America	America	PROPN	NNP	Number=Sing	6	_	_	start_char=119|end_char=126
+8	in	in	ADP	IN	_	7	_	_	start_char=127|end_char=129
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=130|end_char=133
+10	last	last	ADJ	JJ	Degree=Pos	9	_	_	start_char=134|end_char=138
+11	2	2	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=139|end_char=140
+12	months	month	NOUN	NNS	Number=Plur	11	_	_	start_char=141|end_char=147
+13	than	than	ADP	IN	_	12	_	_	start_char=148|end_char=152
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=153|end_char=156
+15	last	last	ADJ	JJ	Degree=Pos	14	_	_	start_char=157|end_char=161
+16	3	3	NUM	CD	NumForm=Digit|NumType=Card	15	_	_	start_char=162|end_char=163
+17	presidents	president	NOUN	NNS	Number=Plur	16	_	_	start_char=164|end_char=174
+18	combined	combine	VERB	VBN	Tense=Past|VerbForm=Part	17	_	_	start_char=175|end_char=183|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=183|end_char=184
 
 # text = #MAGA #News
-# sent_id = 82397
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=190|end_char=191|SpaceAfter=No
-2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=191|end_char=195
-3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=196|end_char=197|SpaceAfter=No
-4	News	news	NOUN	NN	Number=Sing	3	_	_	start_char=197|end_char=201|SpaceAfter=No
+# sent_id = 79730
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=185|end_char=186|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=186|end_char=190
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=191|end_char=192|SpaceAfter=No
+4	News	news	NOUN	NN	Number=Sing	3	_	_	start_char=192|end_char=196|SpaceAfter=No
 

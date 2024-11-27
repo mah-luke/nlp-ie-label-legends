@@ -1,40 +1,34 @@
-# text = [URL]
-# sent_id = 73269
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-
 # text = You know when men will round up the Muslims & toss them the fuck out?
-# sent_id = 73270
-1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=6|end_char=9
-2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=14
-3	when	when	ADV	WRB	PronType=Int	2	_	_	start_char=15|end_char=19
-4	men	man	NOUN	NNS	Number=Plur	3	_	_	start_char=20|end_char=23
-5	will	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=24|end_char=28
-6	round	round	VERB	VB	VerbForm=Inf	5	_	_	start_char=29|end_char=34
-7	up	up	ADP	RP	_	6	_	_	start_char=35|end_char=37
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=38|end_char=41
-9	Muslims	Muslim	PROPN	NNPS	Number=Plur	8	_	_	start_char=42|end_char=49
-10	&	&	CCONJ	CC	_	9	_	_	start_char=50|end_char=51
-11	toss	toss	VERB	VB	VerbForm=Inf	10	_	_	start_char=52|end_char=56
-12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	_	_	start_char=57|end_char=61
-13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=62|end_char=65
-14	fuck	fuck	NOUN	NN	Number=Sing	13	_	_	start_char=66|end_char=70
-15	out	out	ADP	RP	_	14	_	_	start_char=71|end_char=74|SpaceAfter=No
-16	?	?	PUNCT	.	_	15	_	_	start_char=74|end_char=75
+# sent_id = 70898
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	when	when	ADV	WRB	PronType=Int	2	_	_	start_char=10|end_char=14
+4	men	man	NOUN	NNS	Number=Plur	3	_	_	start_char=15|end_char=18
+5	will	will	AUX	MD	VerbForm=Fin	4	_	_	start_char=19|end_char=23
+6	round	round	VERB	VB	VerbForm=Inf	5	_	_	start_char=24|end_char=29
+7	up	up	ADP	RP	_	6	_	_	start_char=30|end_char=32
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=33|end_char=36
+9	Muslims	Muslim	PROPN	NNPS	Number=Plur	8	_	_	start_char=37|end_char=44
+10	&	&	CCONJ	CC	_	9	_	_	start_char=45|end_char=46
+11	toss	toss	VERB	VB	VerbForm=Inf	10	_	_	start_char=47|end_char=51
+12	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	11	_	_	start_char=52|end_char=56
+13	the	the	DET	DT	Definite=Def|PronType=Art	12	_	_	start_char=57|end_char=60
+14	fuck	fuck	NOUN	NN	Number=Sing	13	_	_	start_char=61|end_char=65
+15	out	out	ADP	RP	_	14	_	_	start_char=66|end_char=69|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=69|end_char=70
 
 # text = When the women get pissed & tell us to handle it .
-# sent_id = 73271
-1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=76|end_char=80
-2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=81|end_char=84
-3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=85|end_char=90
-4	get	get	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=91|end_char=94
-5	pissed	piss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=95|end_char=101
-6	&	&	CCONJ	CC	_	5	_	_	start_char=102|end_char=103
-7	tell	tell	VERB	VB	Mood=Ind|Person=3|VerbForm=Fin	6	_	_	start_char=104|end_char=108
-8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	_	_	start_char=109|end_char=111
-9	to	to	PART	TO	_	8	_	_	start_char=112|end_char=114
-10	handle	handle	VERB	VB	VerbForm=Inf	9	_	_	start_char=115|end_char=121
-11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=122|end_char=124
-12	.	.	PUNCT	.	_	11	_	_	start_char=125|end_char=126|SpaceAfter=No
+# sent_id = 70899
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=71|end_char=75
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=76|end_char=79
+3	women	woman	NOUN	NNS	Number=Plur	2	_	_	start_char=80|end_char=85
+4	get	get	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=86|end_char=89
+5	pissed	piss	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=90|end_char=96
+6	&	&	CCONJ	CC	_	5	_	_	start_char=97|end_char=98
+7	tell	tell	VERB	VB	Mood=Ind|Person=3|VerbForm=Fin	6	_	_	start_char=99|end_char=103
+8	us	we	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	7	_	_	start_char=104|end_char=106
+9	to	to	PART	TO	_	8	_	_	start_char=107|end_char=109
+10	handle	handle	VERB	VB	VerbForm=Inf	9	_	_	start_char=110|end_char=116
+11	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=117|end_char=119
+12	.	.	PUNCT	.	_	11	_	_	start_char=120|end_char=121|SpaceAfter=No
 

@@ -1,41 +1,35 @@
 # text = Hey, Kikess.
-# sent_id = 34702
+# sent_id = 33575
 1	Hey	hey	INTJ	UH	_	0	_	_	start_char=0|end_char=3|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	start_char=3|end_char=4
 3	Kikess	Kikess	PROPN	NNP	Number=Sing	2	_	_	start_char=5|end_char=11|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	_	_	start_char=11|end_char=12
 
 # text = Does it say Arabaction or Jewishaction?
-# sent_id = 34703
+# sent_id = 33576
 1	Does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=13|end_char=17
 2	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=18|end_char=20
 3	say	say	VERB	VB	VerbForm=Inf	2	_	_	start_char=21|end_char=24
 4	Arabaction	Arabaction	PROPN	NNP	Number=Sing	3	_	_	start_char=25|end_char=35
 5	or	or	CCONJ	CC	_	4	_	_	start_char=36|end_char=38
 6	Jewishaction	Jewishaction	PROPN	NNP	Number=Sing	5	_	_	start_char=39|end_char=51|SpaceAfter=No
-7	?	?	PUNCT	.	_	6	_	_	start_char=51|end_char=52
-
-# text = [URL]
-# sent_id = 34704
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=53|end_char=54|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=54|end_char=57|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=57|end_char=58
+7	?	?	PUNCT	.	_	6	_	_	start_char=51|end_char=52|SpacesAfter=\s\s
 
 # text = The goyim know.
-# sent_id = 34705
-1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=59|end_char=62
-2	goyim	goyim	NOUN	NN	Number=Sing	1	_	_	start_char=63|end_char=68
-3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=69|end_char=73|SpaceAfter=No
-4	.	.	PUNCT	.	_	3	_	_	start_char=73|end_char=74
+# sent_id = 33577
+1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=54|end_char=57
+2	goyim	goyim	NOUN	NN	Number=Sing	1	_	_	start_char=58|end_char=63
+3	know	know	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=64|end_char=68|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=68|end_char=69
 
 # text = There's no hiding it anymore.
-# sent_id = 34706
-1-2	There's	_	_	_	_	_	_	_	start_char=75|end_char=82
-1	There	there	PRON	EX	_	0	_	_	start_char=75|end_char=80
-2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=80|end_char=82
-3	no	no	DET	DT	_	2	_	_	start_char=83|end_char=85
-4	hiding	hide	VERB	VBG	VerbForm=Ger	3	_	_	start_char=86|end_char=92
-5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=93|end_char=95
-6	anymore	anymore	ADV	RB	_	5	_	_	start_char=96|end_char=103|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=103|end_char=104|SpaceAfter=No
+# sent_id = 33578
+1-2	There's	_	_	_	_	_	_	_	start_char=70|end_char=77
+1	There	there	PRON	EX	_	0	_	_	start_char=70|end_char=75
+2	's	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=75|end_char=77
+3	no	no	DET	DT	_	2	_	_	start_char=78|end_char=80
+4	hiding	hide	VERB	VBG	VerbForm=Ger	3	_	_	start_char=81|end_char=87
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=88|end_char=90
+6	anymore	anymore	ADV	RB	_	5	_	_	start_char=91|end_char=98|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=98|end_char=99|SpaceAfter=No
 

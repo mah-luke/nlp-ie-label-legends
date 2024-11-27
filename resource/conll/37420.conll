@@ -1,5 +1,5 @@
 # text = 51% of trans males reported at least one [suicide] attempt, the highest percentage of any gender identity group.
-# sent_id = 79984
+# sent_id = 77403
 1	51	51	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=2|SpaceAfter=No
 2	%	%	SYM	NN	Number=Sing	1	_	_	start_char=2|end_char=3
 3	of	of	ADP	IN	_	2	_	_	start_char=4|end_char=6
@@ -25,7 +25,7 @@
 23	.	.	PUNCT	.	_	22	_	_	start_char=111|end_char=112
 
 # text = The second highest was among nonbinary teens, nearly 42%.
-# sent_id = 79985
+# sent_id = 77404
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=113|end_char=116
 2	second	second	ADJ	JJ	Degree=Pos|NumType=Ord	1	_	_	start_char=117|end_char=123
 3	highest	high	ADJ	JJS	Degree=Sup	2	_	_	start_char=124|end_char=131
@@ -40,7 +40,7 @@
 12	.	.	PUNCT	.	_	11	_	_	start_char=169|end_char=170
 
 # text = Among trans females, about 30% reported a suicide attempt.
-# sent_id = 79986
+# sent_id = 77405
 1	Among	among	ADP	IN	_	0	_	_	start_char=171|end_char=176
 2	trans	trans	ADJ	JJ	Degree=Pos	1	_	_	start_char=177|end_char=182
 3	females	female	NOUN	NNS	Number=Plur	2	_	_	start_char=183|end_char=190|SpaceAfter=No
@@ -53,10 +53,4 @@
 10	suicide	suicide	NOUN	NN	Number=Sing	9	_	_	start_char=213|end_char=220
 11	attempt	attempt	NOUN	NN	Number=Sing	10	_	_	start_char=221|end_char=228|SpaceAfter=No
 12	.	.	PUNCT	.	_	11	_	_	start_char=228|end_char=229
-
-# text = [URL]
-# sent_id = 79987
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=230|end_char=231|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=231|end_char=234|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=234|end_char=235|SpaceAfter=No
 

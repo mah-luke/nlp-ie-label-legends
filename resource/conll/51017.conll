@@ -1,12 +1,12 @@
-# text = Pakistani immigrant, 27, sexually abuses girl, 6, and gets suspended sentence [URL]
-# sent_id = 109040
+# text = Pakistani immigrant, 27, sexually abuses girl, 6, and gets suspended sentence
+# sent_id = 105467
 1	Pakistani	Pakistani	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=9
 2	immigrant	immigrant	NOUN	NN	Number=Sing	1	_	_	start_char=10|end_char=19|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	_	_	start_char=19|end_char=20
 4	27	27	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=21|end_char=23|SpaceAfter=No
 5	,	,	PUNCT	,	_	4	_	_	start_char=23|end_char=24
 6	sexually	sexually	ADV	RB	_	5	_	_	start_char=25|end_char=33
-7	abuses	abuse	NOUN	NNS	Number=Plur	6	_	_	start_char=34|end_char=40
+7	abuses	abuse	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=34|end_char=40
 8	girl	girl	NOUN	NN	Number=Sing	7	_	_	start_char=41|end_char=45|SpaceAfter=No
 9	,	,	PUNCT	,	_	8	_	_	start_char=45|end_char=46
 10	6	6	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=47|end_char=48|SpaceAfter=No
@@ -15,7 +15,4 @@
 13	gets	get	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=54|end_char=58
 14	suspended	suspend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	13	_	_	start_char=59|end_char=68
 15	sentence	sentence	NOUN	NN	Number=Sing	14	_	_	start_char=69|end_char=77
-16	[	[	PUNCT	-LRB-	_	15	_	_	start_char=78|end_char=79|SpaceAfter=No
-17	URL	URL	PROPN	NNP	Number=Sing	16	_	_	start_char=79|end_char=82|SpaceAfter=No
-18	]	]	PUNCT	-RRB-	_	17	_	_	start_char=82|end_char=83|SpaceAfter=No
 

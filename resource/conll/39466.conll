@@ -1,5 +1,5 @@
 # text = Kathy Griffin is a toilet mouthed, sour faced, aged b!tch!
-# sent_id = 84391
+# sent_id = 81658
 1	Kathy	Kathy	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
 2	Griffin	Griffin	PROPN	NNP	Number=Sing	1	_	_	start_char=6|end_char=13
 3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=14|end_char=16
@@ -12,47 +12,44 @@
 10	,	,	PUNCT	,	_	9	_	_	start_char=45|end_char=46
 11	aged	aged	ADJ	JJ	Degree=Pos	10	_	_	start_char=47|end_char=51
 12	b!tch	b!tch	NOUN	NN	Number=Sing	11	_	_	start_char=52|end_char=57|SpaceAfter=No
-13	!	!	PUNCT	.	_	12	_	_	start_char=57|end_char=58
+13	!	!	PUNCT	.	_	12	_	_	start_char=57|end_char=58|SpacesAfter=\s\s
 
-# text = [URL] libtards like her could not give a flying pig about McCain's death!
-# sent_id = 84392
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=59|end_char=60|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=60|end_char=63|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=63|end_char=64
-4	libtards	libtard	NOUN	NNS	Number=Plur	3	_	_	start_char=65|end_char=73
-5	like	like	ADP	IN	_	4	_	_	start_char=74|end_char=78
-6	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	_	_	start_char=79|end_char=82
-7	could	could	AUX	MD	VerbForm=Fin	6	_	_	start_char=83|end_char=88
-8	not	not	PART	RB	_	7	_	_	start_char=89|end_char=92
-9	give	give	VERB	VB	VerbForm=Inf	8	_	_	start_char=93|end_char=97
-10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=98|end_char=99
-11	flying	fly	NOUN	NN	Number=Sing	10	_	_	start_char=100|end_char=106
-12	pig	pig	NOUN	NN	Number=Sing	11	_	_	start_char=107|end_char=110
-13	about	about	ADP	IN	_	12	_	_	start_char=111|end_char=116
-14-15	McCain's	_	_	_	_	_	_	_	start_char=117|end_char=125
-14	McCain	McCain	PROPN	NNP	Number=Sing	13	_	_	start_char=117|end_char=123
-15	's	's	PART	POS	_	14	_	_	start_char=123|end_char=125
-16	death	death	NOUN	NN	Number=Sing	15	_	_	start_char=126|end_char=131|SpaceAfter=No
-17	!	!	PUNCT	.	_	16	_	_	start_char=131|end_char=132
+# text = libtards like her could not give a flying pig about McCain's death!
+# sent_id = 81659
+1	libtards	libtard	NOUN	NNS	Number=Plur	0	_	_	start_char=60|end_char=68
+2	like	like	ADP	IN	_	1	_	_	start_char=69|end_char=73
+3	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=74|end_char=77
+4	could	could	AUX	MD	VerbForm=Fin	3	_	_	start_char=78|end_char=83
+5	not	not	PART	RB	_	4	_	_	start_char=84|end_char=87
+6	give	give	VERB	VB	VerbForm=Inf	5	_	_	start_char=88|end_char=92
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=93|end_char=94
+8	flying	fly	NOUN	NN	Number=Sing	7	_	_	start_char=95|end_char=101
+9	pig	pig	NOUN	NN	Number=Sing	8	_	_	start_char=102|end_char=105
+10	about	about	ADP	IN	_	9	_	_	start_char=106|end_char=111
+11-12	McCain's	_	_	_	_	_	_	_	start_char=112|end_char=120
+11	McCain	McCain	PROPN	NNP	Number=Sing	10	_	_	start_char=112|end_char=118
+12	's	's	PART	POS	_	11	_	_	start_char=118|end_char=120
+13	death	death	NOUN	NN	Number=Sing	12	_	_	start_char=121|end_char=126|SpaceAfter=No
+14	!	!	PUNCT	.	_	13	_	_	start_char=126|end_char=127
 
 # text = They just twist everything, for their deeply hatefull agenda!
-# sent_id = 84393
-1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=133|end_char=137
-2	just	just	ADV	RB	_	1	_	_	start_char=138|end_char=142
-3	twist	twist	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=143|end_char=148
-4	everything	everything	PRON	NN	Number=Sing|PronType=Tot	3	_	_	start_char=149|end_char=159|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	_	_	start_char=159|end_char=160
-6	for	for	ADP	IN	_	5	_	_	start_char=161|end_char=164
-7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=165|end_char=170
-8	deeply	deeply	ADV	RB	_	7	_	_	start_char=171|end_char=177
-9	hatefull	hatefull	ADJ	JJ	Degree=Pos	8	_	_	start_char=178|end_char=186
-10	agenda	agenda	NOUN	NN	Number=Sing	9	_	_	start_char=187|end_char=193|SpaceAfter=No
-11	!	!	PUNCT	.	_	10	_	_	start_char=193|end_char=194
+# sent_id = 81660
+1	They	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	0	_	_	start_char=128|end_char=132
+2	just	just	ADV	RB	_	1	_	_	start_char=133|end_char=137
+3	twist	twist	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=138|end_char=143
+4	everything	everything	PRON	NN	Number=Sing|PronType=Tot	3	_	_	start_char=144|end_char=154|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=154|end_char=155
+6	for	for	ADP	IN	_	5	_	_	start_char=156|end_char=159
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=160|end_char=165
+8	deeply	deeply	ADV	RB	_	7	_	_	start_char=166|end_char=172
+9	hatefull	hatefull	ADJ	JJ	Degree=Pos	8	_	_	start_char=173|end_char=181
+10	agenda	agenda	NOUN	NN	Number=Sing	9	_	_	start_char=182|end_char=188|SpaceAfter=No
+11	!	!	PUNCT	.	_	10	_	_	start_char=188|end_char=189
 
 # text = #MAGA #GabFam
-# sent_id = 84394
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=195|end_char=196|SpaceAfter=No
-2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=196|end_char=200
-3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=201|end_char=202|SpaceAfter=No
-4	GabFam	gabfam	NOUN	NN	Number=Sing	3	_	_	start_char=202|end_char=208|SpaceAfter=No
+# sent_id = 81661
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=190|end_char=191|SpaceAfter=No
+2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=191|end_char=195
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=196|end_char=197|SpaceAfter=No
+4	GabFam	gabfam	NOUN	NN	Number=Sing	3	_	_	start_char=197|end_char=203|SpaceAfter=No
 

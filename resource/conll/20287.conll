@@ -1,5 +1,5 @@
 # text = #rihanna wears dead animals and I get banned from twatter because I let her know.
-# sent_id = 43553
+# sent_id = 42098
 1	#rihanna	Vrihanna	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=8
 2	wears	wear	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=9|end_char=14
 3	dead	dead	ADJ	JJ	Degree=Pos	2	_	_	start_char=15|end_char=19
@@ -15,13 +15,10 @@
 13	let	let	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	_	_	start_char=68|end_char=71
 14	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	_	_	start_char=72|end_char=75
 15	know	know	VERB	VB	VerbForm=Inf	14	_	_	start_char=76|end_char=80|SpaceAfter=No
-16	.	.	PUNCT	.	_	15	_	_	start_char=80|end_char=81
+16	.	.	PUNCT	.	_	15	_	_	start_char=80|end_char=81|SpacesAfter=\s\s
 
-# text = [URL] #FuckOffTwitter
-# sent_id = 43554
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=82|end_char=83|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=83|end_char=86|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=86|end_char=87
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=88|end_char=89|SpaceAfter=No
-5	FuckOffTwitter	FuckOffTwitter	PROPN	NNP	Number=Sing	4	_	_	start_char=89|end_char=103|SpaceAfter=No
+# text = #FuckOffTwitter
+# sent_id = 42099
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=83|end_char=84|SpaceAfter=No
+2	FuckOffTwitter	fuckofftwitter	NOUN	NN	Number=Sing	1	_	_	start_char=84|end_char=98|SpaceAfter=No
 

@@ -1,53 +1,47 @@
-# text = Folks [USER] is what having a small cock looks like Poor little [USER].
-# sent_id = 54248
-1	Folks	folk	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=5
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=6|end_char=7|SpaceAfter=No
-3	USER	user	NOUN	NN	Number=Sing	2	_	_	start_char=7|end_char=11|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=11|end_char=12
-5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=13|end_char=15
-6	what	what	PRON	WP	PronType=Rel	5	_	_	start_char=16|end_char=20
-7	having	have	VERB	VBG	VerbForm=Ger	6	_	_	start_char=21|end_char=27
-8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=28|end_char=29
-9	small	small	ADJ	JJ	Degree=Pos	8	_	_	start_char=30|end_char=35
-10	cock	cock	NOUN	NN	Number=Sing	9	_	_	start_char=36|end_char=40
-11	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=41|end_char=46
-12	like	like	ADP	IN	_	11	_	_	start_char=47|end_char=51
-13	Poor	poor	ADJ	JJ	Degree=Pos	12	_	_	start_char=52|end_char=56
-14	little	little	ADJ	JJ	Degree=Pos	13	_	_	start_char=57|end_char=63
-15	[	[	PUNCT	-LRB-	_	14	_	_	start_char=64|end_char=65|SpaceAfter=No
-16	USER	user	NOUN	NN	Number=Sing	15	_	_	start_char=65|end_char=69|SpaceAfter=No
-17	]	]	PUNCT	-RRB-	_	16	_	_	start_char=69|end_char=70|SpaceAfter=No
-18	.	.	PUNCT	.	_	17	_	_	start_char=70|end_char=71
+# text = Folks is what having a small cock looks like Poor little .
+# sent_id = 52493
+1	Folks	folk	NOUN	NNS	Number=Plur	0	_	_	start_char=0|end_char=5|SpacesAfter=\s\s
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7|end_char=9
+3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=10|end_char=14
+4	having	have	VERB	VBG	VerbForm=Ger	3	_	_	start_char=15|end_char=21
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=22|end_char=23
+6	small	small	ADJ	JJ	Degree=Pos	5	_	_	start_char=24|end_char=29
+7	cock	cock	NOUN	NN	Number=Sing	6	_	_	start_char=30|end_char=34
+8	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=35|end_char=40
+9	like	like	ADP	IN	_	8	_	_	start_char=41|end_char=45
+10	Poor	poor	ADJ	JJ	Degree=Pos	9	_	_	start_char=46|end_char=50
+11	little	little	ADJ	JJ	Degree=Pos	10	_	_	start_char=51|end_char=57
+12	.	.	PUNCT	.	_	11	_	_	start_char=58|end_char=59
 
 # text = Nobody likes him, he has a small pencil dick, he has problems meeting women, and he can't get his testosterone patch dosage correct!
-# sent_id = 54249
-1	Nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=72|end_char=78
-2	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=79|end_char=84
-3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=85|end_char=88|SpaceAfter=No
-4	,	,	PUNCT	,	_	3	_	_	start_char=88|end_char=89
-5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=90|end_char=92
-6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=93|end_char=96
-7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=97|end_char=98
-8	small	small	ADJ	JJ	Degree=Pos	7	_	_	start_char=99|end_char=104
-9	pencil	pencil	NOUN	NN	Number=Sing	8	_	_	start_char=105|end_char=111
-10	dick	dick	NOUN	NN	Number=Sing	9	_	_	start_char=112|end_char=116|SpaceAfter=No
-11	,	,	PUNCT	,	_	10	_	_	start_char=116|end_char=117
-12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=118|end_char=120
-13	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=121|end_char=124
-14	problems	problem	NOUN	NNS	Number=Plur	13	_	_	start_char=125|end_char=133
-15	meeting	meet	VERB	VBG	VerbForm=Ger	14	_	_	start_char=134|end_char=141
-16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=142|end_char=147|SpaceAfter=No
-17	,	,	PUNCT	,	_	16	_	_	start_char=147|end_char=148
-18	and	and	CCONJ	CC	_	17	_	_	start_char=149|end_char=152
-19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=153|end_char=155
-20-21	can't	_	_	_	_	_	_	_	start_char=156|end_char=161
-20	ca	can	AUX	MD	VerbForm=Fin	19	_	_	start_char=156|end_char=158
-21	n't	not	PART	RB	_	20	_	_	start_char=158|end_char=161
-22	get	get	VERB	VB	VerbForm=Inf	21	_	_	start_char=162|end_char=165
-23	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	_	_	start_char=166|end_char=169
-24	testosterone	testosterone	NOUN	NN	Number=Sing	23	_	_	start_char=170|end_char=182
-25	patch	patch	NOUN	NN	Number=Sing	24	_	_	start_char=183|end_char=188
-26	dosage	dosage	NOUN	NN	Number=Sing	25	_	_	start_char=189|end_char=195
-27	correct	correct	ADJ	JJ	Degree=Pos	26	_	_	start_char=196|end_char=203|SpaceAfter=No
-28	!	!	PUNCT	.	_	27	_	_	start_char=203|end_char=204|SpaceAfter=No
+# sent_id = 52494
+1	Nobody	nobody	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=60|end_char=66
+2	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=67|end_char=72
+3	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=73|end_char=76|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=76|end_char=77
+5	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=78|end_char=80
+6	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=81|end_char=84
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=85|end_char=86
+8	small	small	ADJ	JJ	Degree=Pos	7	_	_	start_char=87|end_char=92
+9	pencil	pencil	NOUN	NN	Number=Sing	8	_	_	start_char=93|end_char=99
+10	dick	dick	NOUN	NN	Number=Sing	9	_	_	start_char=100|end_char=104|SpaceAfter=No
+11	,	,	PUNCT	,	_	10	_	_	start_char=104|end_char=105
+12	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=106|end_char=108
+13	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=109|end_char=112
+14	problems	problem	NOUN	NNS	Number=Plur	13	_	_	start_char=113|end_char=121
+15	meeting	meet	VERB	VBG	VerbForm=Ger	14	_	_	start_char=122|end_char=129
+16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=130|end_char=135|SpaceAfter=No
+17	,	,	PUNCT	,	_	16	_	_	start_char=135|end_char=136
+18	and	and	CCONJ	CC	_	17	_	_	start_char=137|end_char=140
+19	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=141|end_char=143
+20-21	can't	_	_	_	_	_	_	_	start_char=144|end_char=149
+20	ca	can	AUX	MD	VerbForm=Fin	19	_	_	start_char=144|end_char=146
+21	n't	not	PART	RB	_	20	_	_	start_char=146|end_char=149
+22	get	get	VERB	VB	VerbForm=Inf	21	_	_	start_char=150|end_char=153
+23	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	22	_	_	start_char=154|end_char=157
+24	testosterone	testosterone	NOUN	NN	Number=Sing	23	_	_	start_char=158|end_char=170
+25	patch	patch	NOUN	NN	Number=Sing	24	_	_	start_char=171|end_char=176
+26	dosage	dosage	NOUN	NN	Number=Sing	25	_	_	start_char=177|end_char=183
+27	correct	correct	ADJ	JJ	Degree=Pos	26	_	_	start_char=184|end_char=191|SpaceAfter=No
+28	!	!	PUNCT	.	_	27	_	_	start_char=191|end_char=192|SpaceAfter=No
 

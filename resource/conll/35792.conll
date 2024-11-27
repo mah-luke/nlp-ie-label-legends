@@ -1,66 +1,60 @@
-# text = [USER]
-# sent_id = 76633
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Do you know Christopher Cantwell?
-# sent_id = 76634
-1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=7|end_char=9
-2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=10|end_char=13
-3	know	know	VERB	VB	VerbForm=Inf	2	_	_	start_char=14|end_char=18
-4	Christopher	Christopher	PROPN	NNP	Number=Sing	3	_	_	start_char=19|end_char=30
-5	Cantwell	Cantwell	PROPN	NNP	Number=Sing	4	_	_	start_char=31|end_char=39|SpaceAfter=No
-6	?	?	PUNCT	.	_	5	_	_	start_char=39|end_char=40
+# sent_id = 74174
+1	Do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=4|end_char=7
+3	know	know	VERB	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=12
+4	Christopher	Christopher	PROPN	NNP	Number=Sing	3	_	_	start_char=13|end_char=24
+5	Cantwell	Cantwell	PROPN	NNP	Number=Sing	4	_	_	start_char=25|end_char=33|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=33|end_char=34
 
 # text = Your sister is not too far off the mark.
-# sent_id = 76635
-1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=41|end_char=45
-2	sister	sister	NOUN	NN	Number=Sing	1	_	_	start_char=46|end_char=52
-3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=53|end_char=55
-4	not	not	PART	RB	_	3	_	_	start_char=56|end_char=59
-5	too	too	ADV	RB	_	4	_	_	start_char=60|end_char=63
-6	far	far	ADV	RB	Degree=Pos	5	_	_	start_char=64|end_char=67
-7	off	off	ADP	IN	_	6	_	_	start_char=68|end_char=71
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=72|end_char=75
-9	mark	mark	NOUN	NN	Number=Sing	8	_	_	start_char=76|end_char=80|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=80|end_char=81
+# sent_id = 74175
+1	Your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	0	_	_	start_char=35|end_char=39
+2	sister	sister	NOUN	NN	Number=Sing	1	_	_	start_char=40|end_char=46
+3	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=47|end_char=49
+4	not	not	PART	RB	_	3	_	_	start_char=50|end_char=53
+5	too	too	ADV	RB	_	4	_	_	start_char=54|end_char=57
+6	far	far	ADV	RB	Degree=Pos	5	_	_	start_char=58|end_char=61
+7	off	off	ADP	IN	_	6	_	_	start_char=62|end_char=65
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=66|end_char=69
+9	mark	mark	NOUN	NN	Number=Sing	8	_	_	start_char=70|end_char=74|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=74|end_char=75
 
 # text = Libertarians also outnumber Nazis 8 to 1 in Holocaust denial (source: Joel Hayward's masters thesis) so you should perhaps review some of your concepts.
-# sent_id = 76636
-1	Libertarians	Libertarians	PROPN	NNPS	Number=Plur	0	_	_	start_char=82|end_char=94
-2	also	also	ADV	RB	_	1	_	_	start_char=95|end_char=99
-3	outnumber	outnumber	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=100|end_char=109
-4	Nazis	Nazi	PROPN	NNPS	Number=Plur	3	_	_	start_char=110|end_char=115
-5	8	8	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=116|end_char=117
-6	to	to	ADP	IN	_	5	_	_	start_char=118|end_char=120
-7	1	1	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=121|end_char=122
-8	in	in	ADP	IN	_	7	_	_	start_char=123|end_char=125
-9	Holocaust	Holocaust	PROPN	NNP	Number=Sing	8	_	_	start_char=126|end_char=135
-10	denial	denial	NOUN	NN	Number=Sing	9	_	_	start_char=136|end_char=142
-11	(	(	PUNCT	-LRB-	_	10	_	_	start_char=143|end_char=144|SpaceAfter=No
-12	source	source	NOUN	NN	Number=Sing	11	_	_	start_char=144|end_char=150|SpaceAfter=No
-13	:	:	PUNCT	:	_	12	_	_	start_char=150|end_char=151
-14	Joel	Joel	PROPN	NNP	Number=Sing	13	_	_	start_char=152|end_char=156
-15-16	Hayward's	_	_	_	_	_	_	_	start_char=157|end_char=166
-15	Hayward	Hayward	PROPN	NNP	Number=Sing	14	_	_	start_char=157|end_char=164
-16	's	's	PART	POS	_	15	_	_	start_char=164|end_char=166
-17	masters	master	NOUN	NNS	Number=Plur	16	_	_	start_char=167|end_char=174
-18	thesis	thesis	NOUN	NN	Number=Sing	17	_	_	start_char=175|end_char=181|SpaceAfter=No
-19	)	)	PUNCT	-RRB-	_	18	_	_	start_char=181|end_char=182
-20	so	so	ADV	RB	_	19	_	_	start_char=183|end_char=185
-21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	_	_	start_char=186|end_char=189
-22	should	should	AUX	MD	VerbForm=Fin	21	_	_	start_char=190|end_char=196
-23	perhaps	perhaps	ADV	RB	_	22	_	_	start_char=197|end_char=204
-24	review	review	VERB	VB	VerbForm=Inf	23	_	_	start_char=205|end_char=211
-25	some	some	DET	DT	_	24	_	_	start_char=212|end_char=216
-26	of	of	ADP	IN	_	25	_	_	start_char=217|end_char=219
-27	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	26	_	_	start_char=220|end_char=224
-28	concepts	concept	NOUN	NNS	Number=Plur	27	_	_	start_char=225|end_char=233|SpaceAfter=No
-29	.	.	PUNCT	.	_	28	_	_	start_char=233|end_char=234
+# sent_id = 74176
+1	Libertarians	Libertarians	PROPN	NNPS	Number=Plur	0	_	_	start_char=76|end_char=88
+2	also	also	ADV	RB	_	1	_	_	start_char=89|end_char=93
+3	outnumber	outnumber	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=94|end_char=103
+4	Nazis	Nazi	PROPN	NNPS	Number=Plur	3	_	_	start_char=104|end_char=109
+5	8	8	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=110|end_char=111
+6	to	to	ADP	IN	_	5	_	_	start_char=112|end_char=114
+7	1	1	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=115|end_char=116
+8	in	in	ADP	IN	_	7	_	_	start_char=117|end_char=119
+9	Holocaust	Holocaust	PROPN	NNP	Number=Sing	8	_	_	start_char=120|end_char=129
+10	denial	denial	NOUN	NN	Number=Sing	9	_	_	start_char=130|end_char=136
+11	(	(	PUNCT	-LRB-	_	10	_	_	start_char=137|end_char=138|SpaceAfter=No
+12	source	source	NOUN	NN	Number=Sing	11	_	_	start_char=138|end_char=144|SpaceAfter=No
+13	:	:	PUNCT	:	_	12	_	_	start_char=144|end_char=145
+14	Joel	Joel	PROPN	NNP	Number=Sing	13	_	_	start_char=146|end_char=150
+15-16	Hayward's	_	_	_	_	_	_	_	start_char=151|end_char=160
+15	Hayward	Hayward	PROPN	NNP	Number=Sing	14	_	_	start_char=151|end_char=158
+16	's	's	PART	POS	_	15	_	_	start_char=158|end_char=160
+17	masters	master	NOUN	NNS	Number=Plur	16	_	_	start_char=161|end_char=168
+18	thesis	thesis	NOUN	NN	Number=Sing	17	_	_	start_char=169|end_char=175|SpaceAfter=No
+19	)	)	PUNCT	-RRB-	_	18	_	_	start_char=175|end_char=176
+20	so	so	ADV	RB	_	19	_	_	start_char=177|end_char=179
+21	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	20	_	_	start_char=180|end_char=183
+22	should	should	AUX	MD	VerbForm=Fin	21	_	_	start_char=184|end_char=190
+23	perhaps	perhaps	ADV	RB	_	22	_	_	start_char=191|end_char=198
+24	review	review	VERB	VB	VerbForm=Inf	23	_	_	start_char=199|end_char=205
+25	some	some	DET	DT	_	24	_	_	start_char=206|end_char=210
+26	of	of	ADP	IN	_	25	_	_	start_char=211|end_char=213
+27	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	26	_	_	start_char=214|end_char=218
+28	concepts	concept	NOUN	NNS	Number=Plur	27	_	_	start_char=219|end_char=227|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=227|end_char=228
 
 # text = #AltRight
-# sent_id = 76637
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=235|end_char=236|SpaceAfter=No
-2	AltRight	altright	NOUN	NN	Number=Sing	1	_	_	start_char=236|end_char=244|SpaceAfter=No
+# sent_id = 74177
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=229|end_char=230|SpaceAfter=No
+2	AltRight	altright	NOUN	NN	Number=Sing	1	_	_	start_char=230|end_char=238|SpaceAfter=No
 

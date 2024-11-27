@@ -1,5 +1,5 @@
 # text = And almost 80% of the often labeled "tolerant" swedes disapprove of the EU refugee policies.
-# sent_id = 19904
+# sent_id = 19256
 1	And	and	CCONJ	CC	_	0	_	_	start_char=0|end_char=3
 2	almost	almost	ADV	RB	_	1	_	_	start_char=4|end_char=10
 3	80	80	NUM	CD	NumForm=Digit|NumType=Card	2	_	_	start_char=11|end_char=13|SpaceAfter=No
@@ -18,13 +18,10 @@
 16	EU	EU	PROPN	NNP	Number=Sing	15	_	_	start_char=72|end_char=74
 17	refugee	refugee	NOUN	NN	Number=Sing	16	_	_	start_char=75|end_char=82
 18	policies	policy	NOUN	NNS	Number=Plur	17	_	_	start_char=83|end_char=91|SpaceAfter=No
-19	.	.	PUNCT	.	_	18	_	_	start_char=91|end_char=92
+19	.	.	PUNCT	.	_	18	_	_	start_char=91|end_char=92|SpacesAfter=\s\s
 
-# text = [URL] page 10
-# sent_id = 19905
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=93|end_char=94|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=94|end_char=97|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=97|end_char=98
-4	page	page	NOUN	NN	Number=Sing	3	_	_	start_char=99|end_char=103
-5	10	10	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=104|end_char=106|SpaceAfter=No
+# text = page 10
+# sent_id = 19257
+1	page	page	NOUN	NN	Number=Sing	0	_	_	start_char=94|end_char=98
+2	10	10	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=99|end_char=101|SpaceAfter=No
 

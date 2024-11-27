@@ -1,5 +1,5 @@
 # text = #1 PIC: This is a text from #Roseanne to her son.
-# sent_id = 13974
+# sent_id = 13527
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	1	1	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=1|end_char=2
 3	PIC	pic	NOUN	NN	Number=Sing	2	_	_	start_char=3|end_char=6|SpaceAfter=No
@@ -17,7 +17,7 @@
 15	.	.	PUNCT	.	_	14	_	_	start_char=48|end_char=49
 
 # text = She literally thought Valerie Jarrett was white!
-# sent_id = 13975
+# sent_id = 13528
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=50|end_char=53
 2	literally	literally	ADV	RB	_	1	_	_	start_char=54|end_char=63
 3	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=64|end_char=71
@@ -28,7 +28,7 @@
 8	!	!	PUNCT	.	_	7	_	_	start_char=97|end_char=98
 
 # text = #2 PIC: Tweet from a major pharma company (they make Ambien) piling on #Roseanne #3: #Drudge slams them.
-# sent_id = 13976
+# sent_id = 13529
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=99|end_char=100|SpaceAfter=No
 2	2	2	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=100|end_char=101
 3	PIC	pic	NOUN	NN	Number=Sing	2	_	_	start_char=102|end_char=105|SpaceAfter=No
@@ -57,8 +57,8 @@
 26	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	25	_	_	start_char=198|end_char=202|SpaceAfter=No
 27	.	.	PUNCT	.	_	26	_	_	start_char=202|end_char=203
 
-# text = #4: #ThomasWictor #Thread [URL]
-# sent_id = 13977
+# text = #4: #ThomasWictor #Thread
+# sent_id = 13530
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=204|end_char=205|SpaceAfter=No
 2	4	4	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=205|end_char=206|SpaceAfter=No
 3	:	:	PUNCT	:	_	2	_	_	start_char=206|end_char=207
@@ -66,7 +66,4 @@
 5	ThomasWictor	thomaswictor	NOUN	NN	Number=Sing	4	_	_	start_char=209|end_char=221
 6	#	#	SYM	NN	Number=Sing	5	_	_	start_char=222|end_char=223|SpaceAfter=No
 7	Thread	thread	NOUN	NN	Number=Sing	6	_	_	start_char=223|end_char=229
-8	[	[	PUNCT	-LRB-	_	7	_	_	start_char=230|end_char=231|SpaceAfter=No
-9	URL	URL	NOUN	NN	Number=Sing	8	_	_	start_char=231|end_char=234|SpaceAfter=No
-10	]	]	PUNCT	-RRB-	_	9	_	_	start_char=234|end_char=235|SpaceAfter=No
 

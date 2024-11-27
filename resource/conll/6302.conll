@@ -1,65 +1,59 @@
-# text = [USER]
-# sent_id = 13177
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = It isn't about #fraud.
-# sent_id = 13178
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=9
-2-3	isn't	_	_	_	_	_	_	_	start_char=10|end_char=15
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=12
-3	n't	not	PART	RB	_	2	_	_	start_char=12|end_char=15
-4	about	about	ADP	IN	_	3	_	_	start_char=16|end_char=21
-5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=22|end_char=23|SpaceAfter=No
-6	fraud	fraud	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=28|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=28|end_char=29
+# sent_id = 12752
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2-3	isn't	_	_	_	_	_	_	_	start_char=4|end_char=9
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=6
+3	n't	not	PART	RB	_	2	_	_	start_char=6|end_char=9
+4	about	about	ADP	IN	_	3	_	_	start_char=10|end_char=15
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=16|end_char=17|SpaceAfter=No
+6	fraud	fraud	NOUN	NN	Number=Sing	5	_	_	start_char=17|end_char=22|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=22|end_char=23
 
 # text = It is about delay, trying to monkey-wrench the electoral college.
-# sent_id = 13179
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=30|end_char=32
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=33|end_char=35
-3	about	about	ADP	IN	_	2	_	_	start_char=36|end_char=41
-4	delay	delay	NOUN	NN	Number=Sing	3	_	_	start_char=42|end_char=47|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	_	_	start_char=47|end_char=48
-6	trying	try	VERB	VBG	VerbForm=Ger	5	_	_	start_char=49|end_char=55
-7	to	to	PART	TO	_	6	_	_	start_char=56|end_char=58
-8	monkey	monkey	VERB	VB	VerbForm=Inf	7	_	_	start_char=59|end_char=65|SpaceAfter=No
-9	-	-	PUNCT	HYPH	_	8	_	_	start_char=65|end_char=66|SpaceAfter=No
-10	wrench	wrench	VERB	VB	VerbForm=Inf	9	_	_	start_char=66|end_char=72
-11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=73|end_char=76
-12	electoral	electoral	ADJ	JJ	Degree=Pos	11	_	_	start_char=77|end_char=86
-13	college	college	NOUN	NN	Number=Sing	12	_	_	start_char=87|end_char=94|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=94|end_char=95
+# sent_id = 12753
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=24|end_char=26
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
+3	about	about	ADP	IN	_	2	_	_	start_char=30|end_char=35
+4	delay	delay	NOUN	NN	Number=Sing	3	_	_	start_char=36|end_char=41|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=41|end_char=42
+6	trying	try	VERB	VBG	VerbForm=Ger	5	_	_	start_char=43|end_char=49
+7	to	to	PART	TO	_	6	_	_	start_char=50|end_char=52
+8	monkey	monkey	VERB	VB	VerbForm=Inf	7	_	_	start_char=53|end_char=59|SpaceAfter=No
+9	-	-	PUNCT	HYPH	_	8	_	_	start_char=59|end_char=60|SpaceAfter=No
+10	wrench	wrench	VERB	VB	VerbForm=Inf	9	_	_	start_char=60|end_char=66
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=67|end_char=70
+12	electoral	electoral	ADJ	JJ	Degree=Pos	11	_	_	start_char=71|end_char=80
+13	college	college	NOUN	NN	Number=Sing	12	_	_	start_char=81|end_char=88|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=88|end_char=89
 
 # text = And getting #JillStein a payday, which is why she doesn't want to be required to cough up cash.
-# sent_id = 13180
-1	And	and	CCONJ	CC	_	0	_	_	start_char=96|end_char=99
-2	getting	get	VERB	VBG	VerbForm=Ger	1	_	_	start_char=100|end_char=107
-3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=108|end_char=109|SpaceAfter=No
-4	JillStein	JillStein	PROPN	NNP	Number=Sing	3	_	_	start_char=109|end_char=118
-5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=119|end_char=120
-6	payday	payday	NOUN	NN	Number=Sing	5	_	_	start_char=121|end_char=127|SpaceAfter=No
-7	,	,	PUNCT	,	_	6	_	_	start_char=127|end_char=128
-8	which	which	PRON	WDT	PronType=Rel	7	_	_	start_char=129|end_char=134
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=135|end_char=137
-10	why	why	ADV	WRB	PronType=Rel	9	_	_	start_char=138|end_char=141
-11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=142|end_char=145
-12-13	doesn't	_	_	_	_	_	_	_	start_char=146|end_char=153
-12	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=146|end_char=150
-13	n't	not	PART	RB	_	12	_	_	start_char=150|end_char=153
-14	want	want	VERB	VB	VerbForm=Inf	13	_	_	start_char=154|end_char=158
-15	to	to	PART	TO	_	14	_	_	start_char=159|end_char=161
-16	be	be	AUX	VB	VerbForm=Inf	15	_	_	start_char=162|end_char=164
-17	required	require	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=165|end_char=173
-18	to	to	PART	TO	_	17	_	_	start_char=174|end_char=176
-19	cough	cough	VERB	VB	VerbForm=Inf	18	_	_	start_char=177|end_char=182
-20	up	up	ADP	RP	_	19	_	_	start_char=183|end_char=185
-21	cash	cash	NOUN	NN	Number=Sing	20	_	_	start_char=186|end_char=190|SpaceAfter=No
-22	.	.	PUNCT	.	_	21	_	_	start_char=190|end_char=191
+# sent_id = 12754
+1	And	and	CCONJ	CC	_	0	_	_	start_char=90|end_char=93
+2	getting	get	VERB	VBG	VerbForm=Ger	1	_	_	start_char=94|end_char=101
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=102|end_char=103|SpaceAfter=No
+4	JillStein	JillStein	PROPN	NNP	Number=Sing	3	_	_	start_char=103|end_char=112
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=113|end_char=114
+6	payday	payday	NOUN	NN	Number=Sing	5	_	_	start_char=115|end_char=121|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=121|end_char=122
+8	which	which	PRON	WDT	PronType=Rel	7	_	_	start_char=123|end_char=128
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=129|end_char=131
+10	why	why	ADV	WRB	PronType=Rel	9	_	_	start_char=132|end_char=135
+11	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=136|end_char=139
+12-13	doesn't	_	_	_	_	_	_	_	start_char=140|end_char=147
+12	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=140|end_char=144
+13	n't	not	PART	RB	_	12	_	_	start_char=144|end_char=147
+14	want	want	VERB	VB	VerbForm=Inf	13	_	_	start_char=148|end_char=152
+15	to	to	PART	TO	_	14	_	_	start_char=153|end_char=155
+16	be	be	AUX	VB	VerbForm=Inf	15	_	_	start_char=156|end_char=158
+17	required	require	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	16	_	_	start_char=159|end_char=167
+18	to	to	PART	TO	_	17	_	_	start_char=168|end_char=170
+19	cough	cough	VERB	VB	VerbForm=Inf	18	_	_	start_char=171|end_char=176
+20	up	up	ADP	RP	_	19	_	_	start_char=177|end_char=179
+21	cash	cash	NOUN	NN	Number=Sing	20	_	_	start_char=180|end_char=184|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=184|end_char=185
 
 # text = #Recount2016
-# sent_id = 13181
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=192|end_char=193|SpaceAfter=No
-2	Recount2016	recount2016	NOUN	NN	Number=Sing	1	_	_	start_char=193|end_char=204|SpaceAfter=No
+# sent_id = 12755
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=186|end_char=187|SpaceAfter=No
+2	Recount2016	recount2016	NOUN	NN	Number=Sing	1	_	_	start_char=187|end_char=198|SpaceAfter=No
 

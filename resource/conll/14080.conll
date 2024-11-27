@@ -1,31 +1,20 @@
-# text = [USER] #MAGA#Trump#FuckIslam
-# sent_id = 30003
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	#MAGA#Trump#FuckIslam	#MAGA#Trump#FuckIslam	PROPN	NNP	Number=Sing	3	_	_	start_char=7|end_char=28
+# text = #MAGA#Trump#FuckIslam
+# sent_id = 29042
+1	#MAGA#Trump#FuckIslam	#maga#trump#fuckislam	X	ADD	_	0	_	_	start_char=1|end_char=22|SpacesBefore=\s
 
 # text = Name your female pot-belly pig Muhammad, their fucking heads will explode.
-# sent_id = 30004
-1	Name	name	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=29|end_char=33
-2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=34|end_char=38
-3	female	female	ADJ	JJ	Degree=Pos	2	_	_	start_char=39|end_char=45
-4	pot	pot	NOUN	NN	Number=Sing	3	_	_	start_char=46|end_char=49|SpaceAfter=No
-5	-	-	PUNCT	HYPH	_	4	_	_	start_char=49|end_char=50|SpaceAfter=No
-6	belly	belly	NOUN	NN	Number=Sing	5	_	_	start_char=50|end_char=55
-7	pig	pig	NOUN	NN	Number=Sing	6	_	_	start_char=56|end_char=59
-8	Muhammad	Muhammad	PROPN	NNP	Number=Sing	7	_	_	start_char=60|end_char=68|SpaceAfter=No
-9	,	,	PUNCT	,	_	8	_	_	start_char=68|end_char=69
-10	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	_	_	start_char=70|end_char=75
-11	fucking	fuck	ADJ	JJ	Degree=Pos	10	_	_	start_char=76|end_char=83
-12	heads	head	NOUN	NNS	Number=Plur	11	_	_	start_char=84|end_char=89
-13	will	will	AUX	MD	VerbForm=Fin	12	_	_	start_char=90|end_char=94
-14	explode	explode	VERB	VB	VerbForm=Inf	13	_	_	start_char=95|end_char=102|SpaceAfter=No
-15	.	.	PUNCT	.	_	14	_	_	start_char=102|end_char=103
-
-# text = [URL]
-# sent_id = 30005
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=104|end_char=105|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=105|end_char=108|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=108|end_char=109|SpaceAfter=No
+# sent_id = 29043
+1	Name	name	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=23|end_char=27
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=28|end_char=32
+3	female	female	ADJ	JJ	Degree=Pos	2	_	_	start_char=33|end_char=39
+4	pot-belly	pot-belly	NOUN	NN	Number=Sing	3	_	_	start_char=40|end_char=49
+5	pig	pig	NOUN	NN	Number=Sing	4	_	_	start_char=50|end_char=53
+6	Muhammad	Muhammad	PROPN	NNP	Number=Sing	5	_	_	start_char=54|end_char=62|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=62|end_char=63
+8	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=64|end_char=69
+9	fucking	fuck	ADJ	JJ	Degree=Pos	8	_	_	start_char=70|end_char=77
+10	heads	head	NOUN	NNS	Number=Plur	9	_	_	start_char=78|end_char=83
+11	will	will	AUX	MD	VerbForm=Fin	10	_	_	start_char=84|end_char=88
+12	explode	explode	VERB	VB	VerbForm=Inf	11	_	_	start_char=89|end_char=96|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=96|end_char=97
 

@@ -1,5 +1,5 @@
 # text = She showed interest, that makes your job much easier already.
-# sent_id = 116694
+# sent_id = 112893
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
 2	showed	show	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=4|end_char=10
 3	interest	interest	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=19|SpaceAfter=No
@@ -13,8 +13,8 @@
 11	already	already	ADV	RB	_	10	_	_	start_char=53|end_char=60|SpaceAfter=No
 12	.	.	PUNCT	.	_	11	_	_	start_char=60|end_char=61
 
-# text = Next, you go and seduce her, start by saying you're not easy or something. [e]
-# sent_id = 116695
+# text = Next, you go and seduce her, start by saying you're not easy or something.
+# sent_id = 112894
 1	Next	next	ADV	RB	_	0	_	_	start_char=62|end_char=66|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	start_char=66|end_char=67
 3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=68|end_char=71
@@ -23,7 +23,7 @@
 6	seduce	seduce	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	_	_	start_char=79|end_char=85
 7	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=86|end_char=89|SpaceAfter=No
 8	,	,	PUNCT	,	_	7	_	_	start_char=89|end_char=90
-9	start	start	VERB	VBP	Mood=Ind|Person=2|Tense=Pres|VerbForm=Fin	8	_	_	start_char=91|end_char=96
+9	start	start	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	8	_	_	start_char=91|end_char=96
 10	by	by	SCONJ	IN	_	9	_	_	start_char=97|end_char=99
 11	saying	say	VERB	VBG	VerbForm=Ger	10	_	_	start_char=100|end_char=106
 12-13	you're	_	_	_	_	_	_	_	start_char=107|end_char=113
@@ -33,21 +33,18 @@
 15	easy	easy	ADJ	JJ	Degree=Pos	14	_	_	start_char=118|end_char=122
 16	or	or	CCONJ	CC	_	15	_	_	start_char=123|end_char=125
 17	something	something	PRON	NN	Number=Sing|PronType=Ind	16	_	_	start_char=126|end_char=135|SpaceAfter=No
-18	.	.	PUNCT	.	_	17	_	_	start_char=135|end_char=136
-19	[	[	PUNCT	-LRB-	_	18	_	_	start_char=137|end_char=138|SpaceAfter=No
-20	e	e	PROPN	NNP	Number=Sing	19	_	_	start_char=138|end_char=139|SpaceAfter=No
-21	]	]	PUNCT	-RRB-	_	20	_	_	start_char=139|end_char=140
+18	.	.	PUNCT	.	_	17	_	_	start_char=135|end_char=136|SpacesAfter=\s\s
 
 # text = Remember to smile, apparently is does fucking wonders.
-# sent_id = 116696
-1	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=141|end_char=149
-2	to	to	PART	TO	_	1	_	_	start_char=150|end_char=152
-3	smile	smile	VERB	VB	VerbForm=Inf	2	_	_	start_char=153|end_char=158|SpaceAfter=No
-4	,	,	PUNCT	,	_	3	_	_	start_char=158|end_char=159
-5	apparently	apparently	ADV	RB	_	4	_	_	start_char=160|end_char=170
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=171|end_char=173
-7	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=174|end_char=178
-8	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=179|end_char=186
-9	wonders	wonder	NOUN	NNS	Number=Plur	8	_	_	start_char=187|end_char=194|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=194|end_char=195|SpaceAfter=No
+# sent_id = 112895
+1	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=138|end_char=146
+2	to	to	PART	TO	_	1	_	_	start_char=147|end_char=149
+3	smile	smile	VERB	VB	VerbForm=Inf	2	_	_	start_char=150|end_char=155|SpaceAfter=No
+4	,	,	PUNCT	,	_	3	_	_	start_char=155|end_char=156
+5	apparently	apparently	ADV	RB	_	4	_	_	start_char=157|end_char=167
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=168|end_char=170
+7	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=171|end_char=175
+8	fucking	fuck	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=176|end_char=183
+9	wonders	wonder	NOUN	NNS	Number=Plur	8	_	_	start_char=184|end_char=191|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=191|end_char=192|SpaceAfter=No
 

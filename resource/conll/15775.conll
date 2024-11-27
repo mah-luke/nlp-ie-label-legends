@@ -1,35 +1,29 @@
-# text = Game of Thrones threatens to SUE an autistic schoolgirl, 13 [URL]
-# sent_id = 33747
+# text = Game of Thrones threatens to SUE an autistic schoolgirl, 13 For "winter is coming"?!
+# sent_id = 32645
 1	Game	Game	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
 2	of	of	ADP	IN	_	1	_	_	start_char=5|end_char=7
 3	Thrones	Throne	PROPN	NNPS	Number=Plur	2	_	_	start_char=8|end_char=15
 4	threatens	threaten	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=16|end_char=25
-5	to	to	ADP	IN	_	4	_	_	start_char=26|end_char=28
+5	to	to	PART	TO	_	4	_	_	start_char=26|end_char=28
 6	SUE	SUE	PROPN	NNP	Number=Sing	5	_	_	start_char=29|end_char=32
 7	an	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=33|end_char=35
 8	autistic	autistic	ADJ	JJ	Degree=Pos	7	_	_	start_char=36|end_char=44
 9	schoolgirl	schoolgirl	NOUN	NN	Number=Sing	8	_	_	start_char=45|end_char=55|SpaceAfter=No
 10	,	,	PUNCT	,	_	9	_	_	start_char=55|end_char=56
-11	13	13	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=57|end_char=59
-12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=60|end_char=61|SpaceAfter=No
-13	URL	URL	PROPN	NNP	Number=Sing	12	_	_	start_char=61|end_char=64|SpaceAfter=No
-14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=64|end_char=65
-
-# text = For "winter is coming"?!
-# sent_id = 33748
-1	For	for	ADP	IN	_	0	_	_	start_char=66|end_char=69
-2	"	"	PUNCT	``	_	1	_	_	start_char=70|end_char=71|SpaceAfter=No
-3	winter	winter	NOUN	NN	Number=Sing	2	_	_	start_char=71|end_char=77
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=78|end_char=80
-5	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=81|end_char=87|SpaceAfter=No
-6	"	"	PUNCT	''	_	5	_	_	start_char=87|end_char=88|SpaceAfter=No
-7	?!	?!	PUNCT	.	_	6	_	_	start_char=88|end_char=90
+11	13	13	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=57|end_char=59|SpacesAfter=\s\s
+12	For	for	ADP	IN	_	11	_	_	start_char=61|end_char=64
+13	"	"	PUNCT	``	_	12	_	_	start_char=65|end_char=66|SpaceAfter=No
+14	winter	winter	NOUN	NN	Number=Sing	13	_	_	start_char=66|end_char=72
+15	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=73|end_char=75
+16	coming	come	VERB	VBG	Tense=Pres|VerbForm=Part	15	_	_	start_char=76|end_char=82|SpaceAfter=No
+17	"	"	PUNCT	''	_	16	_	_	start_char=82|end_char=83|SpaceAfter=No
+18	?!	?!	PUNCT	.	_	17	_	_	start_char=83|end_char=85
 
 # text = HBO sucks big time!
-# sent_id = 33749
-1	HBO	HBO	PROPN	NNP	Number=Sing	0	_	_	start_char=91|end_char=94
-2	sucks	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=95|end_char=100
-3	big	big	ADJ	JJ	Degree=Pos	2	_	_	start_char=101|end_char=104
-4	time	time	NOUN	NN	Number=Sing	3	_	_	start_char=105|end_char=109|SpaceAfter=No
-5	!	!	PUNCT	.	_	4	_	_	start_char=109|end_char=110|SpaceAfter=No
+# sent_id = 32646
+1	HBO	HBO	PROPN	NNP	Number=Sing	0	_	_	start_char=86|end_char=89
+2	sucks	suck	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=90|end_char=95
+3	big	big	ADJ	JJ	Degree=Pos	2	_	_	start_char=96|end_char=99
+4	time	time	NOUN	NN	Number=Sing	3	_	_	start_char=100|end_char=104|SpaceAfter=No
+5	!	!	PUNCT	.	_	4	_	_	start_char=104|end_char=105|SpaceAfter=No
 

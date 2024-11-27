@@ -1,5 +1,5 @@
 # text = "Journalists" to the rescue!
-# sent_id = 49590
+# sent_id = 47978
 1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	Journalists	journalist	NOUN	NNS	Number=Plur	1	_	_	start_char=1|end_char=12|SpaceAfter=No
 3	"	"	PUNCT	''	_	2	_	_	start_char=12|end_char=13
@@ -8,8 +8,8 @@
 6	rescue	rescue	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=27|SpaceAfter=No
 7	!	!	PUNCT	.	_	6	_	_	start_char=27|end_char=28
 
-# text = [The internet exploded in August of last year with #Gamergate, an online harassment campaign against female game developers, including Sarkeesian, Zoe Quinn and Brianna Wu.]
-# sent_id = 49591
+# text = [The internet exploded in August of last year with #Gamergate, an online harassment campaign against female game developers, including Sarkeesian, Zoe Quinn and Brianna Wu.](
+# sent_id = 47979
 1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=29|end_char=30|SpaceAfter=No
 2	The	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=30|end_char=33
 3	internet	internet	NOUN	NN	Number=Sing	2	_	_	start_char=34|end_char=42
@@ -42,11 +42,5 @@
 30	Wu	Wu	PROPN	NNP	Number=Sing	29	_	_	start_char=198|end_char=200|SpaceAfter=No
 31	.	.	PUNCT	.	_	30	_	_	start_char=200|end_char=201|SpaceAfter=No
 32	]	]	PUNCT	-RRB-	_	31	_	_	start_char=201|end_char=202|SpaceAfter=No
-
-# text = ([URL]
-# sent_id = 49592
-1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=202|end_char=203|SpaceAfter=No
-2	[	[	PUNCT	-LRB-	_	1	_	_	start_char=203|end_char=204|SpaceAfter=No
-3	URL	URL	PROPN	NNP	Number=Sing	2	_	_	start_char=204|end_char=207|SpaceAfter=No
-4	]	]	PUNCT	-RRB-	_	3	_	_	start_char=207|end_char=208|SpaceAfter=No
+33	(	(	PUNCT	-LRB-	_	32	_	_	start_char=202|end_char=203|SpaceAfter=No
 

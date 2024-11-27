@@ -1,5 +1,5 @@
-# text = TRUMP JUST DROPPED A BOMB ON THE NFL WITH ONE GENIUS MOVE THAT WILL SHAME EVERY ‘KNEELER’ [URL]
-# sent_id = 125248
+# text = TRUMP JUST DROPPED A BOMB ON THE NFL WITH ONE GENIUS MOVE THAT WILL SHAME EVERY ‘KNEELER’
+# sent_id = 121225
 1	TRUMP	TRUMP	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
 2	JUST	just	ADV	RB	_	1	_	_	start_char=6|end_char=10
 3	DROPPED	drope	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=11|end_char=18
@@ -7,7 +7,7 @@
 5	BOMB	bomb	NOUN	NN	Number=Sing	4	_	_	start_char=21|end_char=25
 6	ON	on	ADP	IN	_	5	_	_	start_char=26|end_char=28
 7	THE	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=29|end_char=32
-8	NFL	NFL	PROPN	NNP	Number=Sing	7	_	_	start_char=33|end_char=36
+8	NFL	NFL	NOUN	NN	Number=Sing	7	_	_	start_char=33|end_char=36
 9	WITH	with	ADP	IN	_	8	_	_	start_char=37|end_char=41
 10	ONE	one	NUM	CD	NumForm=Word|NumType=Card	9	_	_	start_char=42|end_char=45
 11	GENIUS	genius	NOUN	NN	Number=Sing	10	_	_	start_char=46|end_char=52
@@ -17,9 +17,6 @@
 15	SHAME	shame	VERB	VB	VerbForm=Inf	14	_	_	start_char=68|end_char=73
 16	EVERY	every	DET	DT	_	15	_	_	start_char=74|end_char=79
 17	‘	'	PUNCT	``	_	16	_	_	start_char=80|end_char=81|SpaceAfter=No
-18	KNEELER	KNEELER	PROPN	NNP	Number=Sing	17	_	_	start_char=81|end_char=88|SpaceAfter=No
+18	KNEELER	kneeler	NOUN	NN	Number=Sing	17	_	_	start_char=81|end_char=88|SpaceAfter=No
 19	’	'	PUNCT	''	_	18	_	_	start_char=88|end_char=89
-20	[	[	PUNCT	-LRB-	_	19	_	_	start_char=90|end_char=91|SpaceAfter=No
-21	URL	URL	PROPN	NNP	Number=Sing	20	_	_	start_char=91|end_char=94|SpaceAfter=No
-22	]	]	PUNCT	-RRB-	_	21	_	_	start_char=94|end_char=95|SpaceAfter=No
 

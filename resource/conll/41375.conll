@@ -1,5 +1,5 @@
 # text = #FakeStory BuzzFeed Ghost-Edits Entire Story After Falling For Fake News
-# sent_id = 88539
+# sent_id = 85642
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	FakeStory	FakeStory	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=10
 3	BuzzFeed	buzzfeed	NOUN	NN	Number=Sing	2	_	_	start_char=11|end_char=19
@@ -15,7 +15,7 @@
 13	News	news	NOUN	NN	Number=Sing	12	_	_	start_char=68|end_char=72
 
 # text = Man's mom died 5 days earlier!
-# sent_id = 88540
+# sent_id = 85643
 1-2	Man's	_	_	_	_	_	_	_	start_char=73|end_char=78
 1	Man	Man	PROPN	NNP	Number=Sing	0	_	_	start_char=73|end_char=76
 2	's	's	PART	POS	_	1	_	_	start_char=76|end_char=78
@@ -25,10 +25,4 @@
 6	days	day	NOUN	NNS	Number=Plur	5	_	_	start_char=90|end_char=94
 7	earlier	early	ADV	RBR	Degree=Cmp	6	_	_	start_char=95|end_char=102|SpaceAfter=No
 8	!	!	PUNCT	.	_	7	_	_	start_char=102|end_char=103
-
-# text = [URL]
-# sent_id = 88541
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=104|end_char=105|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=105|end_char=108|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=108|end_char=109|SpaceAfter=No
 

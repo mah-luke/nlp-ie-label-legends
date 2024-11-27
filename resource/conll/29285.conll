@@ -1,12 +1,12 @@
 # text = She looks dead.
-# sent_id = 62811
+# sent_id = 60796
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
 2	looks	look	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=9
 3	dead	dead	ADJ	JJ	Degree=Pos	2	_	_	start_char=10|end_char=14|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
 
 # text = Who's holding her up?
-# sent_id = 62812
+# sent_id = 60797
 1-2	Who's	_	_	_	_	_	_	_	start_char=16|end_char=21
 1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=16|end_char=19
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=19|end_char=21
@@ -14,10 +14,4 @@
 4	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=30|end_char=33
 5	up	up	ADP	RP	_	4	_	_	start_char=34|end_char=36|SpaceAfter=No
 6	?	?	PUNCT	.	_	5	_	_	start_char=36|end_char=37
-
-# text = [URL]
-# sent_id = 62813
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=38|end_char=39|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=39|end_char=42|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=42|end_char=43|SpaceAfter=No
 

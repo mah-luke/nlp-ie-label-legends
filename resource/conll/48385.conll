@@ -1,72 +1,63 @@
-# text = [USER]
-# sent_id = 103450
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Agreed, I am not religious either but my eyes are open now thanks to this brave lady and all the others like her, plus the shit that is happening everywhere.
-# sent_id = 103451
-1	Agreed	agree	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=7|end_char=13|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=13|end_char=14
-3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=15|end_char=16
-4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=17|end_char=19
-5	not	not	PART	RB	_	4	_	_	start_char=20|end_char=23
-6	religious	religious	ADJ	JJ	Degree=Pos	5	_	_	start_char=24|end_char=33
-7	either	either	CCONJ	CC	_	6	_	_	start_char=34|end_char=40
-8	but	but	CCONJ	CC	_	7	_	_	start_char=41|end_char=44
-9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=45|end_char=47
-10	eyes	eye	NOUN	NNS	Number=Plur	9	_	_	start_char=48|end_char=52
-11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=53|end_char=56
-12	open	open	ADJ	JJ	Degree=Pos	11	_	_	start_char=57|end_char=61
-13	now	now	ADV	RB	_	12	_	_	start_char=62|end_char=65
-14	thanks	thanks	NOUN	NNS	Number=Plur	13	_	_	start_char=66|end_char=72
-15	to	to	ADP	IN	_	14	_	_	start_char=73|end_char=75
-16	this	this	DET	DT	Number=Sing|PronType=Dem	15	_	_	start_char=76|end_char=80
-17	brave	brave	ADJ	JJ	Degree=Pos	16	_	_	start_char=81|end_char=86
-18	lady	lady	NOUN	NN	Number=Sing	17	_	_	start_char=87|end_char=91
-19	and	and	CCONJ	CC	_	18	_	_	start_char=92|end_char=95
-20	all	all	DET	PDT	_	19	_	_	start_char=96|end_char=99
-21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=100|end_char=103
-22	others	other	NOUN	NNS	Number=Plur	21	_	_	start_char=104|end_char=110
-23	like	like	ADP	IN	_	22	_	_	start_char=111|end_char=115
-24	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=116|end_char=119|SpaceAfter=No
-25	,	,	PUNCT	,	_	24	_	_	start_char=119|end_char=120
-26	plus	plus	CCONJ	CC	_	25	_	_	start_char=121|end_char=125
-27	the	the	DET	DT	Definite=Def|PronType=Art	26	_	_	start_char=126|end_char=129
-28	shit	shit	NOUN	NN	Number=Sing	27	_	_	start_char=130|end_char=134
-29	that	that	PRON	WDT	PronType=Rel	28	_	_	start_char=135|end_char=139
-30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	_	_	start_char=140|end_char=142
-31	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	30	_	_	start_char=143|end_char=152
-32	everywhere	everywhere	ADV	RB	_	31	_	_	start_char=153|end_char=163|SpaceAfter=No
-33	.	.	PUNCT	.	_	32	_	_	start_char=163|end_char=164
+# sent_id = 100074
+1	Agreed	agree	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=1|end_char=7|SpaceAfter=No|SpacesBefore=\s
+2	,	,	PUNCT	,	_	1	_	_	start_char=7|end_char=8
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=9|end_char=10
+4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=11|end_char=13
+5	not	not	PART	RB	_	4	_	_	start_char=14|end_char=17
+6	religious	religious	ADJ	JJ	Degree=Pos	5	_	_	start_char=18|end_char=27
+7	either	either	CCONJ	CC	_	6	_	_	start_char=28|end_char=34
+8	but	but	CCONJ	CC	_	7	_	_	start_char=35|end_char=38
+9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=39|end_char=41
+10	eyes	eye	NOUN	NNS	Number=Plur	9	_	_	start_char=42|end_char=46
+11	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=47|end_char=50
+12	open	open	ADJ	JJ	Degree=Pos	11	_	_	start_char=51|end_char=55
+13	now	now	ADV	RB	_	12	_	_	start_char=56|end_char=59
+14	thanks	thanks	NOUN	NNS	Number=Plur	13	_	_	start_char=60|end_char=66
+15	to	to	ADP	IN	_	14	_	_	start_char=67|end_char=69
+16	this	this	DET	DT	Number=Sing|PronType=Dem	15	_	_	start_char=70|end_char=74
+17	brave	brave	ADJ	JJ	Degree=Pos	16	_	_	start_char=75|end_char=80
+18	lady	lady	NOUN	NN	Number=Sing	17	_	_	start_char=81|end_char=85
+19	and	and	CCONJ	CC	_	18	_	_	start_char=86|end_char=89
+20	all	all	DET	PDT	_	19	_	_	start_char=90|end_char=93
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=94|end_char=97
+22	others	other	NOUN	NNS	Number=Plur	21	_	_	start_char=98|end_char=104
+23	like	like	ADP	IN	_	22	_	_	start_char=105|end_char=109
+24	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	23	_	_	start_char=110|end_char=113|SpaceAfter=No
+25	,	,	PUNCT	,	_	24	_	_	start_char=113|end_char=114
+26	plus	plus	CCONJ	CC	_	25	_	_	start_char=115|end_char=119
+27	the	the	DET	DT	Definite=Def|PronType=Art	26	_	_	start_char=120|end_char=123
+28	shit	shit	NOUN	NN	Number=Sing	27	_	_	start_char=124|end_char=128
+29	that	that	PRON	WDT	PronType=Rel	28	_	_	start_char=129|end_char=133
+30	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	_	_	start_char=134|end_char=136
+31	happening	happen	VERB	VBG	Tense=Pres|VerbForm=Part	30	_	_	start_char=137|end_char=146
+32	everywhere	everywhere	ADV	RB	_	31	_	_	start_char=147|end_char=157|SpaceAfter=No
+33	.	.	PUNCT	.	_	32	_	_	start_char=157|end_char=158
 
 # text = I don't need a religion to keep me on the good path and cause no harm.
-# sent_id = 103452
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=165|end_char=166
-2-3	don't	_	_	_	_	_	_	_	start_char=167|end_char=172
-2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=167|end_char=169
-3	n't	not	PART	RB	_	2	_	_	start_char=169|end_char=172
-4	need	need	VERB	VB	VerbForm=Inf	3	_	_	start_char=173|end_char=177
-5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=178|end_char=179
-6	religion	religion	NOUN	NN	Number=Sing	5	_	_	start_char=180|end_char=188
-7	to	to	PART	TO	_	6	_	_	start_char=189|end_char=191
-8	keep	keep	VERB	VB	VerbForm=Inf	7	_	_	start_char=192|end_char=196
-9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=197|end_char=199
-10	on	on	ADP	IN	_	9	_	_	start_char=200|end_char=202
-11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=203|end_char=206
-12	good	good	ADJ	JJ	Degree=Pos	11	_	_	start_char=207|end_char=211
-13	path	path	NOUN	NN	Number=Sing	12	_	_	start_char=212|end_char=216
-14	and	and	CCONJ	CC	_	13	_	_	start_char=217|end_char=220
-15	cause	cause	VERB	VB	VerbForm=Inf	14	_	_	start_char=221|end_char=226
-16	no	no	DET	DT	_	15	_	_	start_char=227|end_char=229
-17	harm	harm	NOUN	NN	Number=Sing	16	_	_	start_char=230|end_char=234|SpaceAfter=No
-18	.	.	PUNCT	.	_	17	_	_	start_char=234|end_char=235
+# sent_id = 100075
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=159|end_char=160
+2-3	don't	_	_	_	_	_	_	_	start_char=161|end_char=166
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=161|end_char=163
+3	n't	not	PART	RB	_	2	_	_	start_char=163|end_char=166
+4	need	need	VERB	VB	VerbForm=Inf	3	_	_	start_char=167|end_char=171
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=172|end_char=173
+6	religion	religion	NOUN	NN	Number=Sing	5	_	_	start_char=174|end_char=182
+7	to	to	PART	TO	_	6	_	_	start_char=183|end_char=185
+8	keep	keep	VERB	VB	VerbForm=Inf	7	_	_	start_char=186|end_char=190
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=191|end_char=193
+10	on	on	ADP	IN	_	9	_	_	start_char=194|end_char=196
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=197|end_char=200
+12	good	good	ADJ	JJ	Degree=Pos	11	_	_	start_char=201|end_char=205
+13	path	path	NOUN	NN	Number=Sing	12	_	_	start_char=206|end_char=210
+14	and	and	CCONJ	CC	_	13	_	_	start_char=211|end_char=214
+15	cause	cause	VERB	VB	VerbForm=Inf	14	_	_	start_char=215|end_char=220
+16	no	no	DET	DT	_	15	_	_	start_char=221|end_char=223
+17	harm	harm	NOUN	NN	Number=Sing	16	_	_	start_char=224|end_char=228|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=228|end_char=229
 
-# text = #WokeAF [URL]
-# sent_id = 103453
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=236|end_char=237|SpaceAfter=No
-2	WokeAF	WokeAF	PROPN	NNP	Number=Sing	1	_	_	start_char=237|end_char=243
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=244|end_char=245|SpaceAfter=No
-4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=245|end_char=248|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=248|end_char=249|SpaceAfter=No
+# text = #WokeAF
+# sent_id = 100076
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=230|end_char=231|SpaceAfter=No
+2	WokeAF	wokeaf	NOUN	NN	Number=Sing	1	_	_	start_char=231|end_char=237
 

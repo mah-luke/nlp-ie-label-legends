@@ -1,55 +1,52 @@
-# text = [USER] WTF?
-# sent_id = 93144
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	WTF	WTF	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=10|SpaceAfter=No
-5	?	?	PUNCT	.	_	4	_	_	start_char=10|end_char=11
+# text = WTF?
+# sent_id = 90111
+1	WTF	WTF	PROPN	NNP	Number=Sing	0	_	_	start_char=1|end_char=4|SpaceAfter=No|SpacesBefore=\s
+2	?	?	PUNCT	.	_	1	_	_	start_char=4|end_char=5
 
 # text = I hope they told them how women are treated forced to marry their rapists/ or jailed and lashed for adultery when they have been married and raped.
-# sent_id = 93145
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=12|end_char=13
-2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=14|end_char=18
-3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=19|end_char=23
-4	told	tell	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=24|end_char=28
-5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=29|end_char=33
-6	how	how	ADV	WRB	PronType=Int	5	_	_	start_char=34|end_char=37
-7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=38|end_char=43
-8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=44|end_char=47
-9	treated	treat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=48|end_char=55
-10	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=56|end_char=62
-11	to	to	PART	TO	_	10	_	_	start_char=63|end_char=65
-12	marry	marry	VERB	VB	VerbForm=Inf	11	_	_	start_char=66|end_char=71
-13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=72|end_char=77
-14	rapists	rapist	NOUN	NNS	Number=Plur	13	_	_	start_char=78|end_char=85|SpaceAfter=No
-15	/	/	SYM	,	_	14	_	_	start_char=85|end_char=86
-16	or	or	CCONJ	CC	_	15	_	_	start_char=87|end_char=89
-17	jailed	jail	VERB	VBN	Tense=Past|VerbForm=Part	16	_	_	start_char=90|end_char=96
-18	and	and	CCONJ	CC	_	17	_	_	start_char=97|end_char=100
-19	lashed	lash	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=101|end_char=107
-20	for	for	ADP	IN	_	19	_	_	start_char=108|end_char=111
-21	adultery	adultery	NOUN	NN	Number=Sing	20	_	_	start_char=112|end_char=120
-22	when	when	ADV	WRB	PronType=Int	21	_	_	start_char=121|end_char=125
-23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	_	_	start_char=126|end_char=130
-24	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=131|end_char=135
-25	been	be	AUX	VBN	Tense=Past|VerbForm=Part	24	_	_	start_char=136|end_char=140
-26	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	_	_	start_char=141|end_char=148
-27	and	and	CCONJ	CC	_	26	_	_	start_char=149|end_char=152
-28	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part	27	_	_	start_char=153|end_char=158|SpaceAfter=No
-29	.	.	PUNCT	.	_	28	_	_	start_char=158|end_char=159
+# sent_id = 90112
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=6|end_char=7
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=12
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=13|end_char=17
+4	told	tell	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=18|end_char=22
+5	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	4	_	_	start_char=23|end_char=27
+6	how	how	ADV	WRB	PronType=Int	5	_	_	start_char=28|end_char=31
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=32|end_char=37
+8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=38|end_char=41
+9	treated	treat	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=42|end_char=49
+10	forced	force	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	_	_	start_char=50|end_char=56
+11	to	to	PART	TO	_	10	_	_	start_char=57|end_char=59
+12	marry	marry	VERB	VB	VerbForm=Inf	11	_	_	start_char=60|end_char=65
+13	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	12	_	_	start_char=66|end_char=71
+14	rapists	rapist	NOUN	NNS	Number=Plur	13	_	_	start_char=72|end_char=79|SpaceAfter=No
+15	/	/	SYM	,	_	14	_	_	start_char=79|end_char=80
+16	or	or	CCONJ	CC	_	15	_	_	start_char=81|end_char=83
+17	jailed	jail	VERB	VBN	Tense=Past|VerbForm=Part	16	_	_	start_char=84|end_char=90
+18	and	and	CCONJ	CC	_	17	_	_	start_char=91|end_char=94
+19	lashed	lash	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=95|end_char=101
+20	for	for	ADP	IN	_	19	_	_	start_char=102|end_char=105
+21	adultery	adultery	NOUN	NN	Number=Sing	20	_	_	start_char=106|end_char=114
+22	when	when	ADV	WRB	PronType=Int	21	_	_	start_char=115|end_char=119
+23	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	22	_	_	start_char=120|end_char=124
+24	have	have	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=125|end_char=129
+25	been	be	AUX	VBN	Tense=Past|VerbForm=Part	24	_	_	start_char=130|end_char=134
+26	married	marry	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	25	_	_	start_char=135|end_char=142
+27	and	and	CCONJ	CC	_	26	_	_	start_char=143|end_char=146
+28	raped	rape	VERB	VBN	Tense=Past|VerbForm=Part	27	_	_	start_char=147|end_char=152|SpaceAfter=No
+29	.	.	PUNCT	.	_	28	_	_	start_char=152|end_char=153
 
 # text = Gays beaten or killed.
-# sent_id = 93146
-1	Gays	Gay	PROPN	NNPS	Number=Plur	0	_	_	start_char=160|end_char=164
-2	beaten	beat	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=165|end_char=171
-3	or	or	CCONJ	CC	_	2	_	_	start_char=172|end_char=174
-4	killed	kill	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=175|end_char=181|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=181|end_char=182
+# sent_id = 90113
+1	Gays	Gay	PROPN	NNPS	Number=Plur	0	_	_	start_char=154|end_char=158
+2	beaten	beat	VERB	VBN	Tense=Past|VerbForm=Part	1	_	_	start_char=159|end_char=165
+3	or	or	CCONJ	CC	_	2	_	_	start_char=166|end_char=168
+4	killed	kill	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=169|end_char=175|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=175|end_char=176
 
 # text = Yeah totally awesome!!
-# sent_id = 93147
-1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=183|end_char=187
-2	totally	totally	ADV	RB	_	1	_	_	start_char=188|end_char=195
-3	awesome	awesome	ADJ	JJ	Degree=Pos	2	_	_	start_char=196|end_char=203|SpaceAfter=No
-4	!!	!!	PUNCT	.	_	3	_	_	start_char=203|end_char=205|SpaceAfter=No
+# sent_id = 90114
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=177|end_char=181
+2	totally	totally	ADV	RB	_	1	_	_	start_char=182|end_char=189
+3	awesome	awesome	ADJ	JJ	Degree=Pos	2	_	_	start_char=190|end_char=197|SpaceAfter=No
+4	!!	!!	PUNCT	.	_	3	_	_	start_char=197|end_char=199|SpaceAfter=No
 

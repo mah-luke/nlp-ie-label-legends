@@ -1,40 +1,37 @@
-# text = [USER]: Yes.
-# sent_id = 46074
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
-4	:	:	PUNCT	:	_	3	_	_	start_char=6|end_char=7
-5	Yes	yes	INTJ	UH	_	4	_	_	start_char=8|end_char=11|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=11|end_char=12
+# text = : Yes.
+# sent_id = 44538
+1	:	:	PUNCT	:	_	0	_	_	start_char=0|end_char=1
+2	Yes	yes	INTJ	UH	_	1	_	_	start_char=2|end_char=5|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=5|end_char=6
 
 # text = That was her testimony.
-# sent_id = 46075
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=13|end_char=17
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=18|end_char=21
-3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=22|end_char=25
-4	testimony	testimony	NOUN	NN	Number=Sing	3	_	_	start_char=26|end_char=35|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=35|end_char=36
+# sent_id = 44539
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=7|end_char=11
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=12|end_char=15
+3	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	2	_	_	start_char=16|end_char=19
+4	testimony	testimony	NOUN	NN	Number=Sing	3	_	_	start_char=20|end_char=29|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=29|end_char=30
 
 # text = I suspect it was somehow intended to elicit sympathy.
-# sent_id = 46076
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=37|end_char=38
-2	suspect	suspect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=39|end_char=46
-3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=47|end_char=49
-4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=50|end_char=53
-5	somehow	somehow	ADV	RB	_	4	_	_	start_char=54|end_char=61
-6	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=62|end_char=70
-7	to	to	PART	TO	_	6	_	_	start_char=71|end_char=73
-8	elicit	elicit	VERB	VB	VerbForm=Inf	7	_	_	start_char=74|end_char=80
-9	sympathy	sympathy	NOUN	NN	Number=Sing	8	_	_	start_char=81|end_char=89|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=89|end_char=90
+# sent_id = 44540
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=31|end_char=32
+2	suspect	suspect	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=33|end_char=40
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=41|end_char=43
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=44|end_char=47
+5	somehow	somehow	ADV	RB	_	4	_	_	start_char=48|end_char=55
+6	intended	intend	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	5	_	_	start_char=56|end_char=64
+7	to	to	PART	TO	_	6	_	_	start_char=65|end_char=67
+8	elicit	elicit	VERB	VB	VerbForm=Inf	7	_	_	start_char=68|end_char=74
+9	sympathy	sympathy	NOUN	NN	Number=Sing	8	_	_	start_char=75|end_char=83|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=83|end_char=84
 
 # text = Instead, she just seems bizarre.
-# sent_id = 46077
-1	Instead	instead	ADV	RB	_	0	_	_	start_char=91|end_char=98|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=98|end_char=99
-3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=100|end_char=103
-4	just	just	ADV	RB	_	3	_	_	start_char=104|end_char=108
-5	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=109|end_char=114
-6	bizarre	bizarre	ADJ	JJ	Degree=Pos	5	_	_	start_char=115|end_char=122|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=122|end_char=123|SpaceAfter=No
+# sent_id = 44541
+1	Instead	instead	ADV	RB	_	0	_	_	start_char=85|end_char=92|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=92|end_char=93
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=94|end_char=97
+4	just	just	ADV	RB	_	3	_	_	start_char=98|end_char=102
+5	seems	seem	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=103|end_char=108
+6	bizarre	bizarre	ADJ	JJ	Degree=Pos	5	_	_	start_char=109|end_char=116|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=116|end_char=117|SpaceAfter=No
 

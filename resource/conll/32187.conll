@@ -1,5 +1,5 @@
-# text = Judicial Watch President: "There is enough evidence now to arrest Hillary Clinton" [URL]
-# sent_id = 69003
+# text = Judicial Watch President: "There is enough evidence now to arrest Hillary Clinton" Why isn't she in jail?
+# sent_id = 66777
 1	Judicial	judicial	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=8
 2	Watch	watch	PROPN	NNP	Number=Sing	1	_	_	start_char=9|end_char=14
 3	President	President	PROPN	NNP	Number=Sing	2	_	_	start_char=15|end_char=24|SpaceAfter=No
@@ -14,27 +14,21 @@
 12	arrest	arrest	VERB	VB	VerbForm=Inf	11	_	_	start_char=59|end_char=65
 13	Hillary	Hillary	PROPN	NNP	Number=Sing	12	_	_	start_char=66|end_char=73
 14	Clinton	Clinton	PROPN	NNP	Number=Sing	13	_	_	start_char=74|end_char=81|SpaceAfter=No
-15	"	"	PUNCT	''	_	14	_	_	start_char=81|end_char=82
-16	[	[	PUNCT	-LRB-	_	15	_	_	start_char=83|end_char=84|SpaceAfter=No
-17	URL	URL	PROPN	NNP	Number=Sing	16	_	_	start_char=84|end_char=87|SpaceAfter=No
-18	]	]	PUNCT	-RRB-	_	17	_	_	start_char=87|end_char=88
-
-# text = Why isn't she in jail?
-# sent_id = 69004
-1	Why	why	ADV	WRB	PronType=Int	0	_	_	start_char=89|end_char=92
-2-3	isn't	_	_	_	_	_	_	_	start_char=93|end_char=98
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=93|end_char=95
-3	n't	not	PART	RB	_	2	_	_	start_char=95|end_char=98
-4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=99|end_char=102
-5	in	in	ADP	IN	_	4	_	_	start_char=103|end_char=105
-6	jail	jail	NOUN	NN	Number=Sing	5	_	_	start_char=106|end_char=110|SpaceAfter=No
-7	?	?	PUNCT	.	_	6	_	_	start_char=110|end_char=111
+15	"	"	PUNCT	''	_	14	_	_	start_char=81|end_char=82|SpacesAfter=\s\s
+16	Why	why	ADV	WRB	PronType=Int	15	_	_	start_char=84|end_char=87
+17-18	isn't	_	_	_	_	_	_	_	start_char=88|end_char=93
+17	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	_	_	start_char=88|end_char=90
+18	n't	not	PART	RB	_	17	_	_	start_char=90|end_char=93
+19	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=94|end_char=97
+20	in	in	ADP	IN	_	19	_	_	start_char=98|end_char=100
+21	jail	jail	NOUN	NN	Number=Sing	20	_	_	start_char=101|end_char=105|SpaceAfter=No
+22	?	?	PUNCT	.	_	21	_	_	start_char=105|end_char=106
 
 # text = Jeff Sessions, worthless AG
-# sent_id = 69005
-1	Jeff	Jeff	PROPN	NNP	Number=Sing	0	_	_	start_char=112|end_char=116
-2	Sessions	Session	PROPN	NNP	Number=Sing	1	_	_	start_char=117|end_char=125|SpaceAfter=No
-3	,	,	PUNCT	,	_	2	_	_	start_char=125|end_char=126
-4	worthless	worthless	ADJ	JJ	Degree=Pos	3	_	_	start_char=127|end_char=136
-5	AG	AG	PROPN	NNP	Number=Sing	4	_	_	start_char=137|end_char=139|SpaceAfter=No
+# sent_id = 66778
+1	Jeff	Jeff	PROPN	NNP	Number=Sing	0	_	_	start_char=107|end_char=111
+2	Sessions	Session	PROPN	NNP	Number=Sing	1	_	_	start_char=112|end_char=120|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=120|end_char=121
+4	worthless	worthless	ADJ	JJ	Degree=Pos	3	_	_	start_char=122|end_char=131
+5	AG	AG	PROPN	NNP	Number=Sing	4	_	_	start_char=132|end_char=134|SpaceAfter=No
 

@@ -1,75 +1,66 @@
-# text = [USER]
-# sent_id = 44910
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
-# text = Hi.
-# sent_id = 44911
-1	Hi	hi	INTJ	UH	_	0	_	_	start_char=7|end_char=9|SpaceAfter=No
-2	.	.	PUNCT	.	_	1	_	_	start_char=9|end_char=10
-
-# text = I'm writing a roundup post about the French runoff.
-# sent_id = 44912
-1-2	I'm	_	_	_	_	_	_	_	start_char=11|end_char=14
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=11|end_char=12
-2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=12|end_char=14
-3	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=15|end_char=22
-4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=23|end_char=24
-5	roundup	roundup	NOUN	NN	Number=Sing	4	_	_	start_char=25|end_char=32
-6	post	post	NOUN	NN	Number=Sing	5	_	_	start_char=33|end_char=37
-7	about	about	ADP	IN	_	6	_	_	start_char=38|end_char=43
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=44|end_char=47
-9	French	French	ADJ	JJ	Degree=Pos	8	_	_	start_char=48|end_char=54
-10	runoff	runoff	NOUN	NN	Number=Sing	9	_	_	start_char=55|end_char=61|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=61|end_char=62
+# text = Hi. I'm writing a roundup post about the French runoff.
+# sent_id = 43410
+1	Hi	hi	INTJ	UH	_	0	_	_	start_char=1|end_char=3|SpaceAfter=No|SpacesBefore=\s
+2	.	.	PUNCT	.	_	1	_	_	start_char=3|end_char=4
+3-4	I'm	_	_	_	_	_	_	_	start_char=5|end_char=8
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=5|end_char=6
+4	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=6|end_char=8
+5	writing	write	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=9|end_char=16
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=17|end_char=18
+7	roundup	roundup	NOUN	NN	Number=Sing	6	_	_	start_char=19|end_char=26
+8	post	post	NOUN	NN	Number=Sing	7	_	_	start_char=27|end_char=31
+9	about	about	ADP	IN	_	8	_	_	start_char=32|end_char=37
+10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=38|end_char=41
+11	French	French	ADJ	JJ	Degree=Pos	10	_	_	start_char=42|end_char=48
+12	runoff	runoff	NOUN	NN	Number=Sing	11	_	_	start_char=49|end_char=55|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=55|end_char=56
 
 # text = Would you like to contribute a brief quote weighing in on Le Pen's campaign?
-# sent_id = 44913
-1	Would	would	AUX	MD	VerbForm=Fin	0	_	_	start_char=63|end_char=68
-2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=69|end_char=72
-3	like	like	VERB	VB	VerbForm=Inf	2	_	_	start_char=73|end_char=77
-4	to	to	PART	TO	_	3	_	_	start_char=78|end_char=80
-5	contribute	contribute	VERB	VB	VerbForm=Inf	4	_	_	start_char=81|end_char=91
-6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=92|end_char=93
-7	brief	brief	ADJ	JJ	Degree=Pos	6	_	_	start_char=94|end_char=99
-8	quote	quote	NOUN	NN	Number=Sing	7	_	_	start_char=100|end_char=105
-9	weighing	weigh	VERB	VBG	VerbForm=Ger	8	_	_	start_char=106|end_char=114
-10	in	in	ADP	RP	_	9	_	_	start_char=115|end_char=117
-11	on	on	ADP	IN	_	10	_	_	start_char=118|end_char=120
-12	Le	Le	PROPN	NNP	Number=Sing	11	_	_	start_char=121|end_char=123
-13-14	Pen's	_	_	_	_	_	_	_	start_char=124|end_char=129
-13	Pen	Pen	PROPN	NNP	Number=Sing	12	_	_	start_char=124|end_char=127
-14	's	's	PART	POS	_	13	_	_	start_char=127|end_char=129
-15	campaign	campaign	NOUN	NN	Number=Sing	14	_	_	start_char=130|end_char=138|SpaceAfter=No
-16	?	?	PUNCT	.	_	15	_	_	start_char=138|end_char=139
+# sent_id = 43411
+1	Would	would	AUX	MD	VerbForm=Fin	0	_	_	start_char=57|end_char=62
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=63|end_char=66
+3	like	like	VERB	VB	VerbForm=Inf	2	_	_	start_char=67|end_char=71
+4	to	to	PART	TO	_	3	_	_	start_char=72|end_char=74
+5	contribute	contribute	VERB	VB	VerbForm=Inf	4	_	_	start_char=75|end_char=85
+6	a	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=86|end_char=87
+7	brief	brief	ADJ	JJ	Degree=Pos	6	_	_	start_char=88|end_char=93
+8	quote	quote	NOUN	NN	Number=Sing	7	_	_	start_char=94|end_char=99
+9	weighing	weigh	VERB	VBG	VerbForm=Ger	8	_	_	start_char=100|end_char=108
+10	in	in	ADP	RP	_	9	_	_	start_char=109|end_char=111
+11	on	on	ADP	IN	_	10	_	_	start_char=112|end_char=114
+12	Le	Le	PROPN	NNP	Number=Sing	11	_	_	start_char=115|end_char=117
+13-14	Pen's	_	_	_	_	_	_	_	start_char=118|end_char=123
+13	Pen	Pen	PROPN	NNP	Number=Sing	12	_	_	start_char=118|end_char=121
+14	's	's	PART	POS	_	13	_	_	start_char=121|end_char=123
+15	campaign	campaign	NOUN	NN	Number=Sing	14	_	_	start_char=124|end_char=132|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=132|end_char=133
 
 # text = I'd like to get your input on what you think she needs to do in the last stretch of the race to win.
-# sent_id = 44914
-1-2	I'd	_	_	_	_	_	_	_	start_char=140|end_char=143
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=140|end_char=141
-2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=141|end_char=143
-3	like	like	VERB	VB	VerbForm=Inf	2	_	_	start_char=144|end_char=148
-4	to	to	PART	TO	_	3	_	_	start_char=149|end_char=151
-5	get	get	VERB	VB	VerbForm=Inf	4	_	_	start_char=152|end_char=155
-6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=156|end_char=160
-7	input	input	NOUN	NN	Number=Sing	6	_	_	start_char=161|end_char=166
-8	on	on	ADP	IN	_	7	_	_	start_char=167|end_char=169
-9	what	what	PRON	WP	PronType=Rel	8	_	_	start_char=170|end_char=174
-10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=175|end_char=178
-11	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=179|end_char=184
-12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=185|end_char=188
-13	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=189|end_char=194
-14	to	to	PART	TO	_	13	_	_	start_char=195|end_char=197
-15	do	do	VERB	VB	VerbForm=Inf	14	_	_	start_char=198|end_char=200
-16	in	in	ADP	IN	_	15	_	_	start_char=201|end_char=203
-17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=204|end_char=207
-18	last	last	ADJ	JJ	Degree=Pos	17	_	_	start_char=208|end_char=212
-19	stretch	stretch	NOUN	NN	Number=Sing	18	_	_	start_char=213|end_char=220
-20	of	of	ADP	IN	_	19	_	_	start_char=221|end_char=223
-21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=224|end_char=227
-22	race	race	NOUN	NN	Number=Sing	21	_	_	start_char=228|end_char=232
-23	to	to	PART	TO	_	22	_	_	start_char=233|end_char=235
-24	win	win	VERB	VB	VerbForm=Inf	23	_	_	start_char=236|end_char=239|SpaceAfter=No
-25	.	.	PUNCT	.	_	24	_	_	start_char=239|end_char=240|SpaceAfter=No
+# sent_id = 43412
+1-2	I'd	_	_	_	_	_	_	_	start_char=134|end_char=137
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=134|end_char=135
+2	'd	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=135|end_char=137
+3	like	like	VERB	VB	VerbForm=Inf	2	_	_	start_char=138|end_char=142
+4	to	to	PART	TO	_	3	_	_	start_char=143|end_char=145
+5	get	get	VERB	VB	VerbForm=Inf	4	_	_	start_char=146|end_char=149
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=150|end_char=154
+7	input	input	NOUN	NN	Number=Sing	6	_	_	start_char=155|end_char=160
+8	on	on	ADP	IN	_	7	_	_	start_char=161|end_char=163
+9	what	what	PRON	WP	PronType=Rel	8	_	_	start_char=164|end_char=168
+10	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	9	_	_	start_char=169|end_char=172
+11	think	think	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	10	_	_	start_char=173|end_char=178
+12	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=179|end_char=182
+13	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=183|end_char=188
+14	to	to	PART	TO	_	13	_	_	start_char=189|end_char=191
+15	do	do	VERB	VB	VerbForm=Inf	14	_	_	start_char=192|end_char=194
+16	in	in	ADP	IN	_	15	_	_	start_char=195|end_char=197
+17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=198|end_char=201
+18	last	last	ADJ	JJ	Degree=Pos	17	_	_	start_char=202|end_char=206
+19	stretch	stretch	NOUN	NN	Number=Sing	18	_	_	start_char=207|end_char=214
+20	of	of	ADP	IN	_	19	_	_	start_char=215|end_char=217
+21	the	the	DET	DT	Definite=Def|PronType=Art	20	_	_	start_char=218|end_char=221
+22	race	race	NOUN	NN	Number=Sing	21	_	_	start_char=222|end_char=226
+23	to	to	PART	TO	_	22	_	_	start_char=227|end_char=229
+24	win	win	VERB	VB	VerbForm=Inf	23	_	_	start_char=230|end_char=233|SpaceAfter=No
+25	.	.	PUNCT	.	_	24	_	_	start_char=233|end_char=234|SpaceAfter=No
 

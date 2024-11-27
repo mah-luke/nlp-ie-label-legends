@@ -1,5 +1,5 @@
-# text = I missed that thread, it was a graveyard of [deleted] when I arrived.
-# sent_id = 7939
+# text = I missed that thread, it was a graveyard of when I arrived.
+# sent_id = 7699
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
 2	missed	miss	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=2|end_char=8
 3	that	that	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=9|end_char=13
@@ -9,50 +9,47 @@
 7	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=25|end_char=28
 8	a	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=29|end_char=30
 9	graveyard	graveyard	NOUN	NN	Number=Sing	8	_	_	start_char=31|end_char=40
-10	of	of	ADP	IN	_	9	_	_	start_char=41|end_char=43
-11	[	[	PUNCT	-LRB-	_	10	_	_	start_char=44|end_char=45|SpaceAfter=No
-12	deleted	delete	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=45|end_char=52|SpaceAfter=No
-13	]	]	PUNCT	-RRB-	_	12	_	_	start_char=52|end_char=53
-14	when	when	ADV	WRB	PronType=Int	13	_	_	start_char=54|end_char=58
-15	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	_	_	start_char=59|end_char=60
-16	arrived	arrive	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	15	_	_	start_char=61|end_char=68|SpaceAfter=No
-17	.	.	PUNCT	.	_	16	_	_	start_char=68|end_char=69
+10	of	of	ADP	IN	_	9	_	_	start_char=41|end_char=43|SpacesAfter=\s\s
+11	when	when	ADV	WRB	PronType=Int	10	_	_	start_char=45|end_char=49
+12	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	_	_	start_char=50|end_char=51
+13	arrived	arrive	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	_	_	start_char=52|end_char=59|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=59|end_char=60
 
 # text = I could see there had been females getting their roastbeef flaps in a twist by the responses to deleted top-level posts but I wanted to see them getting toasty first-hand.
-# sent_id = 7940
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=70|end_char=71
-2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=72|end_char=77
-3	see	see	VERB	VB	VerbForm=Inf	2	_	_	start_char=78|end_char=81
-4	there	there	PRON	EX	_	3	_	_	start_char=82|end_char=87
-5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=88|end_char=91
-6	been	be	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=92|end_char=96
-7	females	female	NOUN	NNS	Number=Plur	6	_	_	start_char=97|end_char=104
-8	getting	get	VERB	VBG	VerbForm=Ger	7	_	_	start_char=105|end_char=112
-9	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=113|end_char=118
-10	roastbeef	roastbeef	NOUN	NN	Number=Sing	9	_	_	start_char=119|end_char=128
-11	flaps	flap	NOUN	NNS	Number=Plur	10	_	_	start_char=129|end_char=134
-12	in	in	ADP	IN	_	11	_	_	start_char=135|end_char=137
-13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=138|end_char=139
-14	twist	twist	NOUN	NN	Number=Sing	13	_	_	start_char=140|end_char=145
-15	by	by	ADP	IN	_	14	_	_	start_char=146|end_char=148
-16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=149|end_char=152
-17	responses	response	NOUN	NNS	Number=Plur	16	_	_	start_char=153|end_char=162
-18	to	to	ADP	IN	_	17	_	_	start_char=163|end_char=165
-19	deleted	delete	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=166|end_char=173
-20	top	top	NOUN	NN	Number=Sing	19	_	_	start_char=174|end_char=177|SpaceAfter=No
-21	-	-	PUNCT	HYPH	_	20	_	_	start_char=177|end_char=178|SpaceAfter=No
-22	level	level	NOUN	NN	Number=Sing	21	_	_	start_char=178|end_char=183
-23	posts	post	NOUN	NNS	Number=Plur	22	_	_	start_char=184|end_char=189
-24	but	but	CCONJ	CC	_	23	_	_	start_char=190|end_char=193
-25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	_	_	start_char=194|end_char=195
-26	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	25	_	_	start_char=196|end_char=202
-27	to	to	PART	TO	_	26	_	_	start_char=203|end_char=205
-28	see	see	VERB	VB	VerbForm=Inf	27	_	_	start_char=206|end_char=209
-29	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	28	_	_	start_char=210|end_char=214
-30	getting	get	VERB	VBG	VerbForm=Ger	29	_	_	start_char=215|end_char=222
-31	toasty	toasty	ADJ	JJ	Degree=Pos	30	_	_	start_char=223|end_char=229
-32	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	31	_	_	start_char=230|end_char=235|SpaceAfter=No
-33	-	-	PUNCT	HYPH	_	32	_	_	start_char=235|end_char=236|SpaceAfter=No
-34	hand	hand	NOUN	NN	Number=Sing	33	_	_	start_char=236|end_char=240|SpaceAfter=No
-35	.	.	PUNCT	.	_	34	_	_	start_char=240|end_char=241|SpaceAfter=No
+# sent_id = 7700
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=61|end_char=62
+2	could	could	AUX	MD	VerbForm=Fin	1	_	_	start_char=63|end_char=68
+3	see	see	VERB	VB	VerbForm=Inf	2	_	_	start_char=69|end_char=72
+4	there	there	PRON	EX	_	3	_	_	start_char=73|end_char=78
+5	had	have	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=79|end_char=82
+6	been	be	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=83|end_char=87
+7	females	female	NOUN	NNS	Number=Plur	6	_	_	start_char=88|end_char=95
+8	getting	get	VERB	VBG	VerbForm=Ger	7	_	_	start_char=96|end_char=103
+9	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=104|end_char=109
+10	roastbeef	roastbeef	NOUN	NN	Number=Sing	9	_	_	start_char=110|end_char=119
+11	flaps	flap	NOUN	NNS	Number=Plur	10	_	_	start_char=120|end_char=125
+12	in	in	ADP	IN	_	11	_	_	start_char=126|end_char=128
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=129|end_char=130
+14	twist	twist	NOUN	NN	Number=Sing	13	_	_	start_char=131|end_char=136
+15	by	by	ADP	IN	_	14	_	_	start_char=137|end_char=139
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=140|end_char=143
+17	responses	response	NOUN	NNS	Number=Plur	16	_	_	start_char=144|end_char=153
+18	to	to	ADP	IN	_	17	_	_	start_char=154|end_char=156
+19	deleted	delete	VERB	VBN	Tense=Past|VerbForm=Part	18	_	_	start_char=157|end_char=164
+20	top	top	NOUN	NN	Number=Sing	19	_	_	start_char=165|end_char=168|SpaceAfter=No
+21	-	-	PUNCT	HYPH	_	20	_	_	start_char=168|end_char=169|SpaceAfter=No
+22	level	level	NOUN	NN	Number=Sing	21	_	_	start_char=169|end_char=174
+23	posts	post	NOUN	NNS	Number=Plur	22	_	_	start_char=175|end_char=180
+24	but	but	CCONJ	CC	_	23	_	_	start_char=181|end_char=184
+25	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	24	_	_	start_char=185|end_char=186
+26	wanted	want	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	25	_	_	start_char=187|end_char=193
+27	to	to	PART	TO	_	26	_	_	start_char=194|end_char=196
+28	see	see	VERB	VB	VerbForm=Inf	27	_	_	start_char=197|end_char=200
+29	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	28	_	_	start_char=201|end_char=205
+30	getting	get	VERB	VBG	VerbForm=Ger	29	_	_	start_char=206|end_char=213
+31	toasty	toasty	ADJ	JJ	Degree=Pos	30	_	_	start_char=214|end_char=220
+32	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	31	_	_	start_char=221|end_char=226|SpaceAfter=No
+33	-	-	PUNCT	HYPH	_	32	_	_	start_char=226|end_char=227|SpaceAfter=No
+34	hand	hand	NOUN	NN	Number=Sing	33	_	_	start_char=227|end_char=231|SpaceAfter=No
+35	.	.	PUNCT	.	_	34	_	_	start_char=231|end_char=232|SpaceAfter=No
 

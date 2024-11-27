@@ -1,28 +1,25 @@
-# text = [USER] why does anyone listen to this tired ol' woman.
-# sent_id = 5218
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	why	why	ADV	WRB	PronType=Int	3	_	_	start_char=7|end_char=10
-5	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=11|end_char=15
-6	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	5	_	_	start_char=16|end_char=22
-7	listen	listen	VERB	VB	VerbForm=Inf	6	_	_	start_char=23|end_char=29
-8	to	to	ADP	IN	_	7	_	_	start_char=30|end_char=32
-9	this	this	DET	DT	Number=Sing|PronType=Dem	8	_	_	start_char=33|end_char=37
-10	tired	tired	ADJ	JJ	Degree=Pos	9	_	_	start_char=38|end_char=43
-11	ol	ol	NOUN	NN	Number=Sing	10	_	_	start_char=44|end_char=46|SpaceAfter=No
-12	'	'	PUNCT	''	_	11	_	_	start_char=46|end_char=47
-13	woman	woman	NOUN	NN	Number=Sing	12	_	_	start_char=48|end_char=53|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=53|end_char=54
+# text = why does anyone listen to this tired ol' woman.
+# sent_id = 5056
+1	why	why	ADV	WRB	PronType=Int	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	does	do	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	2	_	_	start_char=10|end_char=16
+4	listen	listen	VERB	VB	VerbForm=Inf	3	_	_	start_char=17|end_char=23
+5	to	to	ADP	IN	_	4	_	_	start_char=24|end_char=26
+6	this	this	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=27|end_char=31
+7	tired	tired	ADJ	JJ	Degree=Pos	6	_	_	start_char=32|end_char=37
+8	ol	ol	NOUN	NN	Number=Sing	7	_	_	start_char=38|end_char=40|SpaceAfter=No
+9	'	'	PUNCT	''	_	8	_	_	start_char=40|end_char=41
+10	woman	woman	NOUN	NN	Number=Sing	9	_	_	start_char=42|end_char=47|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=47|end_char=48
 
 # text = "She" is not relevant any more
-# sent_id = 5219
-1	"	"	PUNCT	``	_	0	_	_	start_char=55|end_char=56|SpaceAfter=No
-2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=56|end_char=59|SpaceAfter=No
-3	"	"	PUNCT	''	_	2	_	_	start_char=59|end_char=60
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=61|end_char=63
-5	not	not	PART	RB	_	4	_	_	start_char=64|end_char=67
-6	relevant	relevant	ADJ	JJ	Degree=Pos	5	_	_	start_char=68|end_char=76
-7	any	any	DET	DT	_	6	_	_	start_char=77|end_char=80
-8	more	more	ADJ	JJR	Degree=Cmp	7	_	_	start_char=81|end_char=85|SpaceAfter=No
+# sent_id = 5057
+1	"	"	PUNCT	``	_	0	_	_	start_char=49|end_char=50|SpaceAfter=No
+2	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=50|end_char=53|SpaceAfter=No
+3	"	"	PUNCT	''	_	2	_	_	start_char=53|end_char=54
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=55|end_char=57
+5	not	not	PART	RB	_	4	_	_	start_char=58|end_char=61
+6	relevant	relevant	ADJ	JJ	Degree=Pos	5	_	_	start_char=62|end_char=70
+7	any	any	DET	DT	_	6	_	_	start_char=71|end_char=74
+8	more	more	ADJ	JJR	Degree=Cmp	7	_	_	start_char=75|end_char=79|SpaceAfter=No
 

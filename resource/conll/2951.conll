@@ -1,5 +1,5 @@
-# text = Guy has be groping Ohio women since the '80s: [URL]
-# sent_id = 6253
+# text = Guy has be groping Ohio women since the '80s:
+# sent_id = 6070
 1	Guy	guy	NOUN	NN	Number=Sing	0	_	_	start_char=0|end_char=3
 2	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
 3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=8|end_char=10
@@ -10,18 +10,15 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=36|end_char=39
 9	'	'	PUNCT	``	_	8	_	_	start_char=40|end_char=41|SpaceAfter=No
 10	80s	80s	NOUN	NNS	Number=Plur	9	_	_	start_char=41|end_char=44|SpaceAfter=No
-11	:	:	PUNCT	:	_	10	_	_	start_char=44|end_char=45
-12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=46|end_char=47|SpaceAfter=No
-13	URL	URL	PROPN	NNP	Number=Sing	12	_	_	start_char=47|end_char=50|SpaceAfter=No
-14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=50|end_char=51
+11	:	:	PUNCT	:	_	10	_	_	start_char=44|end_char=45|SpacesAfter=\s\s
 
 # text = He really NEEDS a new hobby.
-# sent_id = 6254
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=52|end_char=54
-2	really	really	ADV	RB	_	1	_	_	start_char=55|end_char=61
-3	NEEDS	needs	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=62|end_char=67
-4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=68|end_char=69
-5	new	new	ADJ	JJ	Degree=Pos	4	_	_	start_char=70|end_char=73
-6	hobby	hobby	NOUN	NN	Number=Sing	5	_	_	start_char=74|end_char=79|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=79|end_char=80|SpaceAfter=No
+# sent_id = 6071
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=47|end_char=49
+2	really	really	ADV	RB	_	1	_	_	start_char=50|end_char=56
+3	NEEDS	needs	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=57|end_char=62
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=63|end_char=64
+5	new	new	ADJ	JJ	Degree=Pos	4	_	_	start_char=65|end_char=68
+6	hobby	hobby	NOUN	NN	Number=Sing	5	_	_	start_char=69|end_char=74|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=74|end_char=75|SpaceAfter=No
 

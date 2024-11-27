@@ -1,5 +1,5 @@
 # text = #CroakSquad Remember to repost to help as much as we can!
-# sent_id = 65215
+# sent_id = 63127
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	CroakSquad	croaksquad	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=11
 3	Remember	remember	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=12|end_char=20
@@ -14,8 +14,8 @@
 12	can	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=53|end_char=56|SpaceAfter=No
 13	!	!	PUNCT	.	_	12	_	_	start_char=56|end_char=57
 
-# text = Our next #NewGabber is: ken burns · [USER] #FollowAttack Welcome to the #GabFam!
-# sent_id = 65216
+# text = Our next #NewGabber is: ken burns · #FollowAttack Welcome to the #GabFam!
+# sent_id = 63128
 1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=58|end_char=61
 2	next	next	ADJ	JJ	Degree=Pos	1	_	_	start_char=62|end_char=66
 3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=67|end_char=68|SpaceAfter=No
@@ -24,49 +24,43 @@
 6	:	:	PUNCT	:	_	5	_	_	start_char=80|end_char=81
 7	ken	ken	PROPN	NNP	Number=Sing	6	_	_	start_char=82|end_char=85
 8	burns	burn	NOUN	NNS	Number=Plur	7	_	_	start_char=86|end_char=91
-9	·	·	PUNCT	,	_	8	_	_	start_char=92|end_char=93
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=94|end_char=95|SpaceAfter=No
-11	USER	user	NOUN	NN	Number=Sing	10	_	_	start_char=95|end_char=99|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=99|end_char=100
-13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=101|end_char=102|SpaceAfter=No
-14	FollowAttack	FollowAttack	PROPN	NNP	Number=Sing	13	_	_	start_char=102|end_char=114
-15	Welcome	welcome	INTJ	UH	_	14	_	_	start_char=115|end_char=122
-16	to	to	ADP	IN	_	15	_	_	start_char=123|end_char=125
-17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=126|end_char=129
-18	#	#	SYM	NN	Number=Sing	17	_	_	start_char=130|end_char=131|SpaceAfter=No
-19	GabFam	gabfam	NOUN	NN	Number=Sing	18	_	_	start_char=131|end_char=137|SpaceAfter=No
-20	!	!	PUNCT	.	_	19	_	_	start_char=137|end_char=138
+9	·	·	PUNCT	,	_	8	_	_	start_char=92|end_char=93|SpacesAfter=\s\s
+10	#	#	SYM	NN	Number=Sing	9	_	_	start_char=95|end_char=96|SpaceAfter=No
+11	FollowAttack	FollowAttack	PROPN	NNP	Number=Sing	10	_	_	start_char=96|end_char=108
+12	Welcome	welcome	INTJ	UH	_	11	_	_	start_char=109|end_char=116
+13	to	to	ADP	IN	_	12	_	_	start_char=117|end_char=119
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=120|end_char=123
+15	#	#	SYM	NN	Number=Sing	14	_	_	start_char=124|end_char=125|SpaceAfter=No
+16	GabFam	gabfam	NOUN	NN	Number=Sing	15	_	_	start_char=125|end_char=131|SpaceAfter=No
+17	!	!	PUNCT	.	_	16	_	_	start_char=131|end_char=132
 
-# text = Check out [USER] if you haven't!
-# sent_id = 65217
-1	Check	check	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=139|end_char=144
-2	out	out	ADP	RP	_	1	_	_	start_char=145|end_char=148
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=149|end_char=150|SpaceAfter=No
-4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=150|end_char=154|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=154|end_char=155
-6	if	if	SCONJ	IN	_	5	_	_	start_char=156|end_char=158
-7	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	6	_	_	start_char=159|end_char=162
-8-9	haven't	_	_	_	_	_	_	_	start_char=163|end_char=170|SpaceAfter=No
-8	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	7	_	_	start_char=163|end_char=167
-9	n't	not	PART	RB	_	8	_	_	start_char=167|end_char=170
-10	!	!	PUNCT	.	_	9	_	_	start_char=170|end_char=171
+# text = Check out if you haven't!
+# sent_id = 63129
+1	Check	check	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=133|end_char=138
+2	out	out	ADP	RP	_	1	_	_	start_char=139|end_char=142|SpacesAfter=\s\s
+3	if	if	SCONJ	IN	_	2	_	_	start_char=144|end_char=146
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=147|end_char=150
+5-6	haven't	_	_	_	_	_	_	_	start_char=151|end_char=158|SpaceAfter=No
+5	have	have	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=151|end_char=155
+6	n't	not	PART	RB	_	5	_	_	start_char=155|end_char=158
+7	!	!	PUNCT	.	_	6	_	_	start_char=158|end_char=159
 
 # text = Please review all users for suitability in your life - I'm not your mom
-# sent_id = 65218
-1	Please	please	INTJ	UH	_	0	_	_	start_char=172|end_char=178
-2	review	review	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=179|end_char=185
-3	all	all	DET	DT	_	2	_	_	start_char=186|end_char=189
-4	users	user	NOUN	NNS	Number=Plur	3	_	_	start_char=190|end_char=195
-5	for	for	ADP	IN	_	4	_	_	start_char=196|end_char=199
-6	suitability	suitability	NOUN	NN	Number=Sing	5	_	_	start_char=200|end_char=211
-7	in	in	ADP	IN	_	6	_	_	start_char=212|end_char=214
-8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	_	_	start_char=215|end_char=219
-9	life	life	NOUN	NN	Number=Sing	8	_	_	start_char=220|end_char=224
-10	-	-	PUNCT	,	_	9	_	_	start_char=225|end_char=226
-11-12	I'm	_	_	_	_	_	_	_	start_char=227|end_char=230
-11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=227|end_char=228
-12	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=228|end_char=230
-13	not	not	PART	RB	_	12	_	_	start_char=231|end_char=234
-14	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	13	_	_	start_char=235|end_char=239
-15	mom	mom	NOUN	NN	Number=Sing	14	_	_	start_char=240|end_char=243|SpaceAfter=No
+# sent_id = 63130
+1	Please	please	INTJ	UH	_	0	_	_	start_char=160|end_char=166
+2	review	review	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=167|end_char=173
+3	all	all	DET	DT	_	2	_	_	start_char=174|end_char=177
+4	users	user	NOUN	NNS	Number=Plur	3	_	_	start_char=178|end_char=183
+5	for	for	ADP	IN	_	4	_	_	start_char=184|end_char=187
+6	suitability	suitability	NOUN	NN	Number=Sing	5	_	_	start_char=188|end_char=199
+7	in	in	ADP	IN	_	6	_	_	start_char=200|end_char=202
+8	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	7	_	_	start_char=203|end_char=207
+9	life	life	NOUN	NN	Number=Sing	8	_	_	start_char=208|end_char=212
+10	-	-	PUNCT	,	_	9	_	_	start_char=213|end_char=214
+11-12	I'm	_	_	_	_	_	_	_	start_char=215|end_char=218
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=215|end_char=216
+12	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	_	_	start_char=216|end_char=218
+13	not	not	PART	RB	_	12	_	_	start_char=219|end_char=222
+14	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	13	_	_	start_char=223|end_char=227
+15	mom	mom	NOUN	NN	Number=Sing	14	_	_	start_char=228|end_char=231|SpaceAfter=No
 

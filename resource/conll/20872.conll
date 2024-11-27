@@ -1,5 +1,5 @@
-# text = Indonesia: Muslims attack 200 Christians at church, harass priest for reading Bible [URL] #StopIslam
-# sent_id = 44827
+# text = Indonesia: Muslims attack 200 Christians at church, harass priest for reading Bible #StopIslam
+# sent_id = 43330
 1	Indonesia	Indonesia	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=9|SpaceAfter=No
 2	:	:	PUNCT	:	_	1	_	_	start_char=9|end_char=10
 3	Muslims	Muslim	PROPN	NNPS	Number=Plur	2	_	_	start_char=11|end_char=18
@@ -9,14 +9,11 @@
 7	at	at	ADP	IN	_	6	_	_	start_char=41|end_char=43
 8	church	church	NOUN	NN	Number=Sing	7	_	_	start_char=44|end_char=50|SpaceAfter=No
 9	,	,	PUNCT	,	_	8	_	_	start_char=50|end_char=51
-10	harass	harass	NOUN	NN	Number=Sing	9	_	_	start_char=52|end_char=58
+10	harass	harass	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=52|end_char=58
 11	priest	priest	NOUN	NN	Number=Sing	10	_	_	start_char=59|end_char=65
 12	for	for	SCONJ	IN	_	11	_	_	start_char=66|end_char=69
 13	reading	read	VERB	VBG	VerbForm=Ger	12	_	_	start_char=70|end_char=77
-14	Bible	Bible	PROPN	NNP	Number=Sing	13	_	_	start_char=78|end_char=83
-15	[	[	PUNCT	-LRB-	_	14	_	_	start_char=84|end_char=85|SpaceAfter=No
-16	URL	URL	PROPN	NNP	Number=Sing	15	_	_	start_char=85|end_char=88|SpaceAfter=No
-17	]	]	PUNCT	-RRB-	_	16	_	_	start_char=88|end_char=89
-18	#	#	SYM	NN	Number=Sing	17	_	_	start_char=90|end_char=91|SpaceAfter=No
-19	StopIslam	StopIslam	PROPN	NNP	Number=Sing	18	_	_	start_char=91|end_char=100|SpaceAfter=No
+14	Bible	Bible	PROPN	NNP	Number=Sing	13	_	_	start_char=78|end_char=83|SpacesAfter=\s\s
+15	#	#	SYM	NN	Number=Sing	14	_	_	start_char=85|end_char=86|SpaceAfter=No
+16	StopIslam	StopIslam	PROPN	NNP	Number=Sing	15	_	_	start_char=86|end_char=95|SpaceAfter=No
 

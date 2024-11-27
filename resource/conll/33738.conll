@@ -1,21 +1,12 @@
-# text = [USER]
-# sent_id = 72186
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
-# text = When a bigot is exposed, she lies: [URL]
-# sent_id = 72187
-1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=7|end_char=11
-2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=12|end_char=13
-3	bigot	bigot	NOUN	NN	Number=Sing	2	_	_	start_char=14|end_char=19
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=20|end_char=22
-5	exposed	expose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=23|end_char=30|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=30|end_char=31
-7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=32|end_char=35
-8	lies	lie	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=36|end_char=40|SpaceAfter=No
-9	:	:	PUNCT	:	_	8	_	_	start_char=40|end_char=41
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=42|end_char=43|SpaceAfter=No
-11	URL	URL	PROPN	NNP	Number=Sing	10	_	_	start_char=43|end_char=46|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=46|end_char=47|SpaceAfter=No
+# text = When a bigot is exposed, she lies:
+# sent_id = 69864
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=6|end_char=7
+3	bigot	bigot	NOUN	NN	Number=Sing	2	_	_	start_char=8|end_char=13
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=16
+5	exposed	expose	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=17|end_char=24|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=24|end_char=25
+7	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=26|end_char=29
+8	lies	lie	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=30|end_char=34|SpaceAfter=No
+9	:	:	PUNCT	:	_	8	_	_	start_char=34|end_char=35
 

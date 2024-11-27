@@ -1,85 +1,22 @@
-# text = [USER] WOO FUCK YEAH #GabWedding! 💒
-# sent_id = 117654
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	WOO	woo	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=10
-5	FUCK	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	4	_	_	start_char=11|end_char=15
-6	YEAH	yeah	INTJ	UH	_	5	_	_	start_char=16|end_char=20
-7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=21|end_char=22|SpaceAfter=No
-8	GabWedding	GabWedding	PROPN	NNP	Number=Sing	7	_	_	start_char=22|end_char=32|SpaceAfter=No
-9	!	!	PUNCT	.	_	8	_	_	start_char=32|end_char=33
-10	💒	💒	PUNCT	''	_	9	_	_	start_char=34|end_char=35
+# text = WOO FUCK YEAH #GabWedding! 💒
+# sent_id = 113834
+1	WOO	woo	INTJ	UH	_	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	FUCK	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	YEAH	yeah	INTJ	UH	_	2	_	_	start_char=10|end_char=14
+4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=15|end_char=16|SpaceAfter=No
+5	GabWedding	GabWedding	PROPN	NNP	Number=Sing	4	_	_	start_char=16|end_char=26|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=26|end_char=27
+7	💒	💒	PUNCT	''	_	6	_	_	start_char=28|end_char=29
 
 # text = Can we make it #TheDeplorables theme prease?!
-# sent_id = 117655
-1	Can	can	AUX	MD	VerbForm=Fin	0	_	_	start_char=36|end_char=39
-2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=40|end_char=42
-3	make	make	VERB	VB	VerbForm=Inf	2	_	_	start_char=43|end_char=47
-4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=48|end_char=50
-5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=51|end_char=52|SpaceAfter=No
-6	TheDeplorables	theDeplorable	NOUN	NNS	Number=Plur	5	_	_	start_char=52|end_char=66
-7	theme	theme	NOUN	NN	Number=Sing	6	_	_	start_char=67|end_char=72
-8	prease	prease	NOUN	NN	Number=Sing	7	_	_	start_char=73|end_char=79|SpaceAfter=No
-9	?!	?!	PUNCT	.	_	8	_	_	start_char=79|end_char=81
-
-# text = [USER] [USER] [USER] [USER] [USER] [USER] [USER] [USER] [USER] [USER] [USER] [USER] [USER] [USER] [USER] [USER] [USER] [USER] [URL]
-# sent_id = 117656
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=82|end_char=83|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=83|end_char=87|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=87|end_char=88
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=89|end_char=90|SpaceAfter=No
-5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=90|end_char=94|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=94|end_char=95
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=96|end_char=97|SpaceAfter=No
-8	USER	user	NOUN	NN	Number=Sing	7	_	_	start_char=97|end_char=101|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=101|end_char=102
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=103|end_char=104|SpaceAfter=No
-11	USER	user	NOUN	NN	Number=Sing	10	_	_	start_char=104|end_char=108|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=108|end_char=109
-13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=110|end_char=111|SpaceAfter=No
-14	USER	user	NOUN	NN	Number=Sing	13	_	_	start_char=111|end_char=115|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=115|end_char=116
-16	[	[	PUNCT	-LRB-	_	15	_	_	start_char=117|end_char=118|SpaceAfter=No
-17	USER	user	NOUN	NN	Number=Sing	16	_	_	start_char=118|end_char=122|SpaceAfter=No
-18	]	]	PUNCT	-RRB-	_	17	_	_	start_char=122|end_char=123
-19	[	[	PUNCT	-LRB-	_	18	_	_	start_char=124|end_char=125|SpaceAfter=No
-20	USER	user	NOUN	NN	Number=Sing	19	_	_	start_char=125|end_char=129|SpaceAfter=No
-21	]	]	PUNCT	-RRB-	_	20	_	_	start_char=129|end_char=130
-22	[	[	PUNCT	-LRB-	_	21	_	_	start_char=131|end_char=132|SpaceAfter=No
-23	USER	user	NOUN	NN	Number=Sing	22	_	_	start_char=132|end_char=136|SpaceAfter=No
-24	]	]	PUNCT	-RRB-	_	23	_	_	start_char=136|end_char=137
-25	[	[	PUNCT	-LRB-	_	24	_	_	start_char=138|end_char=139|SpaceAfter=No
-26	USER	user	NOUN	NN	Number=Sing	25	_	_	start_char=139|end_char=143|SpaceAfter=No
-27	]	]	PUNCT	-RRB-	_	26	_	_	start_char=143|end_char=144
-28	[	[	PUNCT	-LRB-	_	27	_	_	start_char=145|end_char=146|SpaceAfter=No
-29	USER	user	NOUN	NN	Number=Sing	28	_	_	start_char=146|end_char=150|SpaceAfter=No
-30	]	]	PUNCT	-RRB-	_	29	_	_	start_char=150|end_char=151
-31	[	[	PUNCT	-LRB-	_	30	_	_	start_char=152|end_char=153|SpaceAfter=No
-32	USER	user	NOUN	NN	Number=Sing	31	_	_	start_char=153|end_char=157|SpaceAfter=No
-33	]	]	PUNCT	-RRB-	_	32	_	_	start_char=157|end_char=158
-34	[	[	PUNCT	-LRB-	_	33	_	_	start_char=159|end_char=160|SpaceAfter=No
-35	USER	user	NOUN	NN	Number=Sing	34	_	_	start_char=160|end_char=164|SpaceAfter=No
-36	]	]	PUNCT	-RRB-	_	35	_	_	start_char=164|end_char=165
-37	[	[	PUNCT	-LRB-	_	36	_	_	start_char=166|end_char=167|SpaceAfter=No
-38	USER	user	NOUN	NN	Number=Sing	37	_	_	start_char=167|end_char=171|SpaceAfter=No
-39	]	]	PUNCT	-RRB-	_	38	_	_	start_char=171|end_char=172
-40	[	[	PUNCT	-LRB-	_	39	_	_	start_char=173|end_char=174|SpaceAfter=No
-41	USER	user	NOUN	NN	Number=Sing	40	_	_	start_char=174|end_char=178|SpaceAfter=No
-42	]	]	PUNCT	-RRB-	_	41	_	_	start_char=178|end_char=179
-43	[	[	PUNCT	-LRB-	_	42	_	_	start_char=180|end_char=181|SpaceAfter=No
-44	USER	user	NOUN	NN	Number=Sing	43	_	_	start_char=181|end_char=185|SpaceAfter=No
-45	]	]	PUNCT	-RRB-	_	44	_	_	start_char=185|end_char=186
-46	[	[	PUNCT	-LRB-	_	45	_	_	start_char=187|end_char=188|SpaceAfter=No
-47	USER	user	NOUN	NN	Number=Sing	46	_	_	start_char=188|end_char=192|SpaceAfter=No
-48	]	]	PUNCT	-RRB-	_	47	_	_	start_char=192|end_char=193
-49	[	[	PUNCT	-LRB-	_	48	_	_	start_char=194|end_char=195|SpaceAfter=No
-50	USER	user	NOUN	NN	Number=Sing	49	_	_	start_char=195|end_char=199|SpaceAfter=No
-51	]	]	PUNCT	-RRB-	_	50	_	_	start_char=199|end_char=200
-52	[	[	PUNCT	-LRB-	_	51	_	_	start_char=201|end_char=202|SpaceAfter=No
-53	USER	user	NOUN	NN	Number=Sing	52	_	_	start_char=202|end_char=206|SpaceAfter=No
-54	]	]	PUNCT	-RRB-	_	53	_	_	start_char=206|end_char=207
-55	[	[	PUNCT	-LRB-	_	54	_	_	start_char=208|end_char=209|SpaceAfter=No
-56	URL	URL	NOUN	NN	Number=Sing	55	_	_	start_char=209|end_char=212|SpaceAfter=No
-57	]	]	PUNCT	-RRB-	_	56	_	_	start_char=212|end_char=213|SpaceAfter=No
+# sent_id = 113835
+1	Can	can	AUX	MD	VerbForm=Fin	0	_	_	start_char=30|end_char=33
+2	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	1	_	_	start_char=34|end_char=36
+3	make	make	VERB	VB	VerbForm=Inf	2	_	_	start_char=37|end_char=41
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=42|end_char=44
+5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=45|end_char=46|SpaceAfter=No
+6	TheDeplorables	theDeplorable	NOUN	NNS	Number=Plur	5	_	_	start_char=46|end_char=60
+7	theme	theme	NOUN	NN	Number=Sing	6	_	_	start_char=61|end_char=66
+8	prease	prease	NOUN	NN	Number=Sing	7	_	_	start_char=67|end_char=73|SpaceAfter=No
+9	?!	?!	PUNCT	.	_	8	_	_	start_char=73|end_char=75|SpacesAfter=\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s\s
 

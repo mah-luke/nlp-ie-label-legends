@@ -1,33 +1,30 @@
 # text = LMAO!
-# sent_id = 4193
+# sent_id = 4067
 1	LMAO	lmao	INTJ	UH	_	0	_	_	start_char=0|end_char=4|SpaceAfter=No
 2	!	!	PUNCT	.	_	1	_	_	start_char=4|end_char=5
 
-# text = I'm quietly hoping [USER] posts to you, just so I can watch you stomp a mudhole in her! 😂
-# sent_id = 4194
+# text = I'm quietly hoping posts to you, just so I can watch you stomp a mudhole in her! 😂
+# sent_id = 4068
 1-2	I'm	_	_	_	_	_	_	_	start_char=6|end_char=9
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=6|end_char=7
 2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=7|end_char=9
 3	quietly	quietly	ADV	RB	_	2	_	_	start_char=10|end_char=17
-4	hoping	hope	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=18|end_char=24
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=25|end_char=26|SpaceAfter=No
-6	USER	user	NOUN	NN	Number=Sing	5	_	_	start_char=26|end_char=30|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=30|end_char=31
-8	posts	post	NOUN	NNS	Number=Plur	7	_	_	start_char=32|end_char=37
-9	to	to	ADP	IN	_	8	_	_	start_char=38|end_char=40
-10	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	9	_	_	start_char=41|end_char=44|SpaceAfter=No
-11	,	,	PUNCT	,	_	10	_	_	start_char=44|end_char=45
-12	just	just	ADV	RB	_	11	_	_	start_char=46|end_char=50
-13	so	so	ADV	RB	_	12	_	_	start_char=51|end_char=53
-14	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	_	_	start_char=54|end_char=55
-15	can	can	AUX	MD	VerbForm=Fin	14	_	_	start_char=56|end_char=59
-16	watch	watch	VERB	VB	VerbForm=Inf	15	_	_	start_char=60|end_char=65
-17	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	16	_	_	start_char=66|end_char=69
-18	stomp	stomp	VERB	VB	VerbForm=Inf	17	_	_	start_char=70|end_char=75
-19	a	a	DET	DT	Definite=Ind|PronType=Art	18	_	_	start_char=76|end_char=77
-20	mudhole	mudhole	NOUN	NN	Number=Sing	19	_	_	start_char=78|end_char=85
-21	in	in	ADP	IN	_	20	_	_	start_char=86|end_char=88
-22	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=89|end_char=92|SpaceAfter=No
-23	!	!	PUNCT	.	_	22	_	_	start_char=92|end_char=93
-24	😂	😂	PUNCT	''	_	23	_	_	start_char=94|end_char=95|SpaceAfter=No
+4	hoping	hope	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=18|end_char=24|SpacesAfter=\s\s
+5	posts	post	NOUN	NNS	Number=Plur	4	_	_	start_char=26|end_char=31
+6	to	to	ADP	IN	_	5	_	_	start_char=32|end_char=34
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=35|end_char=38|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=38|end_char=39
+9	just	just	ADV	RB	_	8	_	_	start_char=40|end_char=44
+10	so	so	ADV	RB	_	9	_	_	start_char=45|end_char=47
+11	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=48|end_char=49
+12	can	can	AUX	MD	VerbForm=Fin	11	_	_	start_char=50|end_char=53
+13	watch	watch	VERB	VB	VerbForm=Inf	12	_	_	start_char=54|end_char=59
+14	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	13	_	_	start_char=60|end_char=63
+15	stomp	stomp	VERB	VB	VerbForm=Inf	14	_	_	start_char=64|end_char=69
+16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=70|end_char=71
+17	mudhole	mudhole	NOUN	NN	Number=Sing	16	_	_	start_char=72|end_char=79
+18	in	in	ADP	IN	_	17	_	_	start_char=80|end_char=82
+19	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	18	_	_	start_char=83|end_char=86|SpaceAfter=No
+20	!	!	PUNCT	.	_	19	_	_	start_char=86|end_char=87
+21	😂	😂	PUNCT	NFP	_	20	_	_	start_char=88|end_char=89|SpaceAfter=No
 

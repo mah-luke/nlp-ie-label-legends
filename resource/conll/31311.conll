@@ -1,35 +1,29 @@
-# text = [USER]
-# sent_id = 67131
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = “Peace and safety,” destruction will come on them suddenly as labor pains on a pregnant woman, and they will not escape.
-# sent_id = 67132
-1	“	''	PUNCT	``	_	0	_	_	start_char=7|end_char=8|SpaceAfter=No
-2	Peace	peace	NOUN	NN	Number=Sing	1	_	_	start_char=8|end_char=13
-3	and	and	CCONJ	CC	_	2	_	_	start_char=14|end_char=17
-4	safety	safety	NOUN	NN	Number=Sing	3	_	_	start_char=18|end_char=24|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	_	_	start_char=24|end_char=25|SpaceAfter=No
-6	”	''	PUNCT	''	_	5	_	_	start_char=25|end_char=26
-7	destruction	destruction	NOUN	NN	Number=Sing	6	_	_	start_char=27|end_char=38
-8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=39|end_char=43
-9	come	come	VERB	VB	VerbForm=Inf	8	_	_	start_char=44|end_char=48
-10	on	on	ADP	IN	_	9	_	_	start_char=49|end_char=51
-11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=52|end_char=56
-12	suddenly	suddenly	ADV	RB	Degree=Pos	11	_	_	start_char=57|end_char=65
-13	as	as	ADP	IN	_	12	_	_	start_char=66|end_char=68
-14	labor	labor	NOUN	NN	Number=Sing	13	_	_	start_char=69|end_char=74
-15	pains	pain	NOUN	NNS	Number=Plur	14	_	_	start_char=75|end_char=80
-16	on	on	ADP	IN	_	15	_	_	start_char=81|end_char=83
-17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=84|end_char=85
-18	pregnant	pregnant	ADJ	JJ	Degree=Pos	17	_	_	start_char=86|end_char=94
-19	woman	woman	NOUN	NN	Number=Sing	18	_	_	start_char=95|end_char=100|SpaceAfter=No
-20	,	,	PUNCT	,	_	19	_	_	start_char=100|end_char=101
-21	and	and	CCONJ	CC	_	20	_	_	start_char=102|end_char=105
-22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	_	_	start_char=106|end_char=110
-23	will	will	AUX	MD	VerbForm=Fin	22	_	_	start_char=111|end_char=115
-24	not	not	PART	RB	_	23	_	_	start_char=116|end_char=119
-25	escape	escape	VERB	VB	VerbForm=Inf	24	_	_	start_char=120|end_char=126|SpaceAfter=No
-26	.	.	PUNCT	.	_	25	_	_	start_char=126|end_char=127|SpaceAfter=No
+# sent_id = 64983
+1	“	''	PUNCT	``	_	0	_	_	start_char=1|end_char=2|SpaceAfter=No|SpacesBefore=\s
+2	Peace	peace	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=7
+3	and	and	CCONJ	CC	_	2	_	_	start_char=8|end_char=11
+4	safety	safety	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=18|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=18|end_char=19|SpaceAfter=No
+6	”	''	PUNCT	''	_	5	_	_	start_char=19|end_char=20
+7	destruction	destruction	NOUN	NN	Number=Sing	6	_	_	start_char=21|end_char=32
+8	will	will	AUX	MD	VerbForm=Fin	7	_	_	start_char=33|end_char=37
+9	come	come	VERB	VB	VerbForm=Inf	8	_	_	start_char=38|end_char=42
+10	on	on	ADP	IN	_	9	_	_	start_char=43|end_char=45
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=46|end_char=50
+12	suddenly	suddenly	ADV	RB	Degree=Pos	11	_	_	start_char=51|end_char=59
+13	as	as	ADP	IN	_	12	_	_	start_char=60|end_char=62
+14	labor	labor	NOUN	NN	Number=Sing	13	_	_	start_char=63|end_char=68
+15	pains	pain	NOUN	NNS	Number=Plur	14	_	_	start_char=69|end_char=74
+16	on	on	ADP	IN	_	15	_	_	start_char=75|end_char=77
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=78|end_char=79
+18	pregnant	pregnant	ADJ	JJ	Degree=Pos	17	_	_	start_char=80|end_char=88
+19	woman	woman	NOUN	NN	Number=Sing	18	_	_	start_char=89|end_char=94|SpaceAfter=No
+20	,	,	PUNCT	,	_	19	_	_	start_char=94|end_char=95
+21	and	and	CCONJ	CC	_	20	_	_	start_char=96|end_char=99
+22	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	21	_	_	start_char=100|end_char=104
+23	will	will	AUX	MD	VerbForm=Fin	22	_	_	start_char=105|end_char=109
+24	not	not	PART	RB	_	23	_	_	start_char=110|end_char=113
+25	escape	escape	VERB	VB	VerbForm=Inf	24	_	_	start_char=114|end_char=120|SpaceAfter=No
+26	.	.	PUNCT	.	_	25	_	_	start_char=120|end_char=121|SpaceAfter=No
 

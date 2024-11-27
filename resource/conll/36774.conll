@@ -1,12 +1,12 @@
 # text = Fuck Kathy Griffen!
-# sent_id = 78612
+# sent_id = 76071
 1	Fuck	fuck	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
 2	Kathy	Kathy	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=10
 3	Griffen	Griffen	PROPN	NNP	Number=Sing	2	_	_	start_char=11|end_char=18|SpaceAfter=No
 4	!	!	PUNCT	.	_	3	_	_	start_char=18|end_char=19
 
 # text = Oh, wait..she'd like that.
-# sent_id = 78613
+# sent_id = 76072
 1	Oh	oh	INTJ	UH	_	0	_	_	start_char=20|end_char=22|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	start_char=22|end_char=23
 3	wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	2	_	_	start_char=24|end_char=28|SpaceAfter=No
@@ -19,7 +19,7 @@
 9	.	.	PUNCT	.	_	8	_	_	start_char=45|end_char=46
 
 # text = Plus, who in the heck could we get to do it?
-# sent_id = 78614
+# sent_id = 76073
 1	Plus	plus	CCONJ	CC	_	0	_	_	start_char=47|end_char=51|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	start_char=51|end_char=52
 3	who	who	PRON	WP	PronType=Int	2	_	_	start_char=53|end_char=56
@@ -33,10 +33,4 @@
 11	do	do	VERB	VB	VerbForm=Inf	10	_	_	start_char=85|end_char=87
 12	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=88|end_char=90|SpaceAfter=No
 13	?	?	PUNCT	.	_	12	_	_	start_char=90|end_char=91
-
-# text = [URL]
-# sent_id = 78615
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=92|end_char=93|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=93|end_char=96|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=96|end_char=97|SpaceAfter=No
 

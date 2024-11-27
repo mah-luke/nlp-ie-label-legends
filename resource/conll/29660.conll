@@ -1,11 +1,11 @@
 # text = Female incel.
-# sent_id = 63584
+# sent_id = 61536
 1	Female	Female	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=6
 2	incel	incel	NOUN	NN	Number=Sing	1	_	_	start_char=7|end_char=12|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	_	_	start_char=12|end_char=13
 
 # text = Made up being raped to make herself feel better so she wouldn't look like a complete sexless loser.
-# sent_id = 63585
+# sent_id = 61537
 1	Made	make	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=14|end_char=18
 2	up	up	ADP	RP	_	1	_	_	start_char=19|end_char=21
 3	being	be	AUX	VBG	VerbForm=Ger	2	_	_	start_char=22|end_char=27
@@ -28,25 +28,19 @@
 19	loser	loser	NOUN	NN	Number=Sing	18	_	_	start_char=107|end_char=112|SpaceAfter=No
 20	.	.	PUNCT	.	_	19	_	_	start_char=112|end_char=113
 
-# text = Michigan Woman Who Lied About College Rape Sentenced to Jail [URL]
-# sent_id = 63586
+# text = Michigan Woman Who Lied About College Rape Sentenced to Jail #MAGA #PNN
+# sent_id = 61538
 1	Michigan	Michigan	PROPN	NNP	Number=Sing	0	_	_	start_char=114|end_char=122
-2	Woman	Woman	PROPN	NNP	Number=Sing	1	_	_	start_char=123|end_char=128
-3	Who	who	PRON	WP	PronType=Rel	2	_	_	start_char=129|end_char=132
+2	Woman	woman	NOUN	NN	Number=Sing	1	_	_	start_char=123|end_char=128
+3	Who	who	PRON	WP	PronType=Int	2	_	_	start_char=129|end_char=132
 4	Lied	lie	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=133|end_char=137
 5	About	about	ADP	IN	_	4	_	_	start_char=138|end_char=143
-6	College	College	PROPN	NNP	Number=Sing	5	_	_	start_char=144|end_char=151
-7	Rape	Rape	PROPN	NNP	Number=Sing	6	_	_	start_char=152|end_char=156
+6	College	college	NOUN	NN	Number=Sing	5	_	_	start_char=144|end_char=151
+7	Rape	rape	NOUN	NN	Number=Sing	6	_	_	start_char=152|end_char=156
 8	Sentenced	Sentence	VERB	VBN	Tense=Past|VerbForm=Part	7	_	_	start_char=157|end_char=166
-9	to	to	ADP	IN	_	8	_	_	start_char=167|end_char=169
-10	Jail	jail	NOUN	NN	Number=Sing	9	_	_	start_char=170|end_char=174
-11	[	[	PUNCT	-LRB-	_	10	_	_	start_char=175|end_char=176|SpaceAfter=No
-12	URL	URL	PROPN	NNP	Number=Sing	11	_	_	start_char=176|end_char=179|SpaceAfter=No
-13	]	]	PUNCT	-RRB-	_	12	_	_	start_char=179|end_char=180
-
-# text = #MAGA #PNN
-# sent_id = 63587
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=181|end_char=182|SpaceAfter=No
-2	MAGA	maga	NOUN	NN	Number=Sing	1	_	_	start_char=182|end_char=186
-3	#PNN	#pnn	NOUN	NN	Number=Sing	2	_	_	start_char=187|end_char=191|SpaceAfter=No
+9	to	to	PART	TO	_	8	_	_	start_char=167|end_char=169
+10	Jail	jail	VERB	VB	VerbForm=Inf	9	_	_	start_char=170|end_char=174|SpacesAfter=\s\s
+11	#	#	SYM	NN	Number=Sing	10	_	_	start_char=176|end_char=177|SpaceAfter=No
+12	MAGA	maga	NOUN	NN	Number=Sing	11	_	_	start_char=177|end_char=181
+13	#PNN	#pnn	NOUN	NN	Number=Sing	12	_	_	start_char=182|end_char=186|SpaceAfter=No
 

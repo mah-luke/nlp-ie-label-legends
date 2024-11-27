@@ -1,31 +1,28 @@
-# text = [USER] Holy Shit.
-# sent_id = 19569
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	Holy	Holy	ADJ	JJ	Degree=Pos	3	_	_	start_char=7|end_char=11
-5	Shit	shit	NOUN	NN	Number=Sing	4	_	_	start_char=12|end_char=16|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=16|end_char=17
+# text = Holy Shit.
+# sent_id = 18927
+1	Holy	Holy	ADJ	JJ	Degree=Pos	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	Shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=6|end_char=10|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=10|end_char=11
 
 # text = Is she Mark Knopfler's protege, or his instructor?
-# sent_id = 19570
-1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=18|end_char=20
-2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=21|end_char=24
-3	Mark	Mark	PROPN	NNP	Number=Sing	2	_	_	start_char=25|end_char=29
-4-5	Knopfler's	_	_	_	_	_	_	_	start_char=30|end_char=40
-4	Knopfler	Knopfler	PROPN	NNP	Number=Sing	3	_	_	start_char=30|end_char=38
-5	's	's	PART	POS	_	4	_	_	start_char=38|end_char=40
-6	protege	protege	NOUN	NN	Number=Sing	5	_	_	start_char=41|end_char=48|SpaceAfter=No
-7	,	,	PUNCT	,	_	6	_	_	start_char=48|end_char=49
-8	or	or	CCONJ	CC	_	7	_	_	start_char=50|end_char=52
-9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=53|end_char=56
-10	instructor	instructor	NOUN	NN	Number=Sing	9	_	_	start_char=57|end_char=67|SpaceAfter=No
-11	?	?	PUNCT	.	_	10	_	_	start_char=67|end_char=68
+# sent_id = 18928
+1	Is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=12|end_char=14
+2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=15|end_char=18
+3	Mark	Mark	PROPN	NNP	Number=Sing	2	_	_	start_char=19|end_char=23
+4-5	Knopfler's	_	_	_	_	_	_	_	start_char=24|end_char=34
+4	Knopfler	Knopfler	PROPN	NNP	Number=Sing	3	_	_	start_char=24|end_char=32
+5	's	's	PART	POS	_	4	_	_	start_char=32|end_char=34
+6	protege	protege	NOUN	NN	Number=Sing	5	_	_	start_char=35|end_char=42|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=42|end_char=43
+8	or	or	CCONJ	CC	_	7	_	_	start_char=44|end_char=46
+9	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	_	_	start_char=47|end_char=50
+10	instructor	instructor	NOUN	NN	Number=Sing	9	_	_	start_char=51|end_char=61|SpaceAfter=No
+11	?	?	PUNCT	.	_	10	_	_	start_char=61|end_char=62
 
 # text = She is incredible!
-# sent_id = 19571
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=69|end_char=72
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=73|end_char=75
-3	incredible	incredible	ADJ	JJ	Degree=Pos	2	_	_	start_char=76|end_char=86|SpaceAfter=No
-4	!	!	PUNCT	.	_	3	_	_	start_char=86|end_char=87|SpaceAfter=No
+# sent_id = 18929
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=63|end_char=66
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=67|end_char=69
+3	incredible	incredible	ADJ	JJ	Degree=Pos	2	_	_	start_char=70|end_char=80|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=80|end_char=81|SpaceAfter=No
 

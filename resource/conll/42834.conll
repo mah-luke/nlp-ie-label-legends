@@ -1,5 +1,5 @@
 # text = American Cat'ia : Remember when #Obama gave $10,000 to a bus driver that saved a woman from committing suicide on a bridge?
-# sent_id = 91530
+# sent_id = 88548
 1	American	American	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=8
 2	Cat'ia	Cat'ia	PROPN	NNP	Number=Sing	1	_	_	start_char=9|end_char=15
 3	:	:	PUNCT	:	_	2	_	_	start_char=16|end_char=17
@@ -26,22 +26,19 @@
 24	bridge	bridge	NOUN	NN	Number=Sing	23	_	_	start_char=116|end_char=122|SpaceAfter=No
 25	?	?	PUNCT	.	_	24	_	_	start_char=122|end_char=123
 
-# text = Of course u don't, it was [USER] GratefulHe'sMyPresident
-# sent_id = 91531
+# text = Of course u don't, it was GratefulHe'sMyPresident
+# sent_id = 88549
 1	Of	of	ADV	IN	_	0	_	_	start_char=124|end_char=126
 2	course	course	NOUN	NN	Number=Sing	1	_	_	start_char=127|end_char=133
 3	u	you	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	_	_	start_char=134|end_char=135
 4-5	don't	_	_	_	_	_	_	_	start_char=136|end_char=141|SpaceAfter=No
-4	do	do	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=136|end_char=138
+4	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=136|end_char=138
 5	n't	not	PART	RB	_	4	_	_	start_char=138|end_char=141
 6	,	,	PUNCT	,	_	5	_	_	start_char=141|end_char=142
 7	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=143|end_char=145
-8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=146|end_char=149
-9	[	[	PUNCT	-LRB-	_	8	_	_	start_char=150|end_char=151|SpaceAfter=No
-10	USER	user	NOUN	NN	Number=Sing	9	_	_	start_char=151|end_char=155|SpaceAfter=No
-11	]	]	PUNCT	-RRB-	_	10	_	_	start_char=155|end_char=156
-12-13	GratefulHe's	_	_	_	_	_	_	_	start_char=157|end_char=169|SpaceAfter=No
-12	GratefulHe	GratefulHe	PROPN	NNP	Number=Sing	11	_	_	start_char=157|end_char=167
-13	's	's	PART	POS	_	12	_	_	start_char=167|end_char=169
-14	MyPresident	MyPresident	PROPN	NNP	Number=Sing	13	_	_	start_char=169|end_char=180|SpaceAfter=No
+8	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	_	_	start_char=146|end_char=149|SpacesAfter=\s\s
+9-10	GratefulHe's	_	_	_	_	_	_	_	start_char=151|end_char=163|SpaceAfter=No
+9	GratefulHe	GratefulHe	PROPN	NNP	Number=Sing	8	_	_	start_char=151|end_char=161
+10	's	's	PART	POS	_	9	_	_	start_char=161|end_char=163
+11	MyPresident	MyPresident	PROPN	NNP	Number=Sing	10	_	_	start_char=163|end_char=174|SpaceAfter=No
 

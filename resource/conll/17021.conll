@@ -1,5 +1,5 @@
 # text = "Don't yell mommy.
-# sent_id = 36594
+# sent_id = 35383
 1	"	"	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2-3	Don't	_	_	_	_	_	_	_	start_char=1|end_char=6
 2	Do	do	AUX	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=1|end_char=3
@@ -9,7 +9,7 @@
 6	.	.	PUNCT	.	_	5	_	_	start_char=17|end_char=18
 
 # text = Yelling is why daddy left."
-# sent_id = 36595
+# sent_id = 35384
 1	Yelling	yell	VERB	VBG	VerbForm=Ger	0	_	_	start_char=19|end_char=26
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
 3	why	why	ADV	WRB	PronType=Int	2	_	_	start_char=30|end_char=33
@@ -17,10 +17,4 @@
 5	left	leave	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=40|end_char=44|SpaceAfter=No
 6	.	.	PUNCT	.	_	5	_	_	start_char=44|end_char=45|SpaceAfter=No
 7	"	"	PUNCT	''	_	6	_	_	start_char=45|end_char=46
-
-# text = [URL]
-# sent_id = 36596
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=47|end_char=48|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=48|end_char=51|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=51|end_char=52|SpaceAfter=No
 

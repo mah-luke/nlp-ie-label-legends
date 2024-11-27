@@ -1,5 +1,5 @@
 # text = Who are the three women who were found in Paddock’s room?
-# sent_id = 110309
+# sent_id = 106712
 1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=3
 2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
 3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=8|end_char=11
@@ -13,13 +13,10 @@
 10	Paddock	Paddock	PROPN	NNP	Number=Sing	9	_	_	start_char=42|end_char=49
 11	’s	's	PART	POS	_	10	_	_	start_char=49|end_char=51
 12	room	room	NOUN	NN	Number=Sing	11	_	_	start_char=52|end_char=56|SpaceAfter=No
-13	?	?	PUNCT	.	_	12	_	_	start_char=56|end_char=57
+13	?	?	PUNCT	.	_	12	_	_	start_char=56|end_char=57|SpacesAfter=\s\s
 
-# text = [URL] #LasVegasShooting
-# sent_id = 110310
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=58|end_char=59|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=59|end_char=62|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=62|end_char=63
-4	#	#	SYM	NN	Number=Sing	3	_	_	start_char=64|end_char=65|SpaceAfter=No
-5	LasVegasShooting	LasVegasShooting	PROPN	NNP	Number=Sing	4	_	_	start_char=65|end_char=81|SpaceAfter=No
+# text = #LasVegasShooting
+# sent_id = 106713
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=59|end_char=60|SpaceAfter=No
+2	LasVegasShooting	lasvegasshooting	NOUN	NN	Number=Sing	1	_	_	start_char=60|end_char=76|SpaceAfter=No
 

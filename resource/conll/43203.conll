@@ -1,5 +1,5 @@
 # text = Who cares that Bill Murray is a wife-beater?
-# sent_id = 92319
+# sent_id = 89325
 1	Who	who	PRON	WP	PronType=Int	0	_	_	start_char=0|end_char=3
 2	cares	care	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=9
 3	that	that	SCONJ	IN	_	2	_	_	start_char=10|end_char=14
@@ -13,12 +13,12 @@
 11	?	?	PUNCT	.	_	10	_	_	start_char=43|end_char=44
 
 # text = OMG>
-# sent_id = 92320
+# sent_id = 89326
 1	OMG	omg	INTJ	UH	_	0	_	_	start_char=45|end_char=48|SpaceAfter=No
 2	>	>	PUNCT	-RRB-	_	1	_	_	start_char=48|end_char=49
 
 # text = DID YOU HEAR ABOUT #ScottBaio ?
-# sent_id = 92321
+# sent_id = 89327
 1	DID	did	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=50|end_char=53
 2	YOU	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=54|end_char=57
 3	HEAR	hear	VERB	VB	Mood=Ind|VerbForm=Fin	2	_	_	start_char=58|end_char=62
@@ -28,17 +28,11 @@
 7	?	?	PUNCT	.	_	6	_	_	start_char=80|end_char=81
 
 # text = These pedofags are fucking EVERYWHERE!
-# sent_id = 92322
+# sent_id = 89328
 1	These	this	DET	DT	Number=Plur|PronType=Dem	0	_	_	start_char=82|end_char=87
 2	pedofags	pedofag	NOUN	NNS	Number=Plur	1	_	_	start_char=88|end_char=96
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=97|end_char=100
 4	fucking	fucking	ADV	RB	_	3	_	_	start_char=101|end_char=108
 5	EVERYWHERE	everywhere	ADV	RB	_	4	_	_	start_char=109|end_char=119|SpaceAfter=No
 6	!	!	PUNCT	.	_	5	_	_	start_char=119|end_char=120
-
-# text = [URL]
-# sent_id = 92323
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=121|end_char=122|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=122|end_char=125|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=125|end_char=126|SpaceAfter=No
 

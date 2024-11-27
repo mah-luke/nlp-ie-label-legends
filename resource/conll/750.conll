@@ -1,58 +1,52 @@
-# text = [USER]
-# sent_id = 1584
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Nothing ever comes before personal interest, for anybody.
-# sent_id = 1585
-1	Nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=7|end_char=14
-2	ever	ever	ADV	RB	_	1	_	_	start_char=15|end_char=19
-3	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=20|end_char=25
-4	before	before	ADP	IN	_	3	_	_	start_char=26|end_char=32
-5	personal	personal	ADJ	JJ	Degree=Pos	4	_	_	start_char=33|end_char=41
-6	interest	interest	NOUN	NN	Number=Sing	5	_	_	start_char=42|end_char=50|SpaceAfter=No
-7	,	,	PUNCT	,	_	6	_	_	start_char=50|end_char=51
-8	for	for	ADP	IN	_	7	_	_	start_char=52|end_char=55
-9	anybody	anybody	PRON	NN	Number=Sing|PronType=Ind	8	_	_	start_char=56|end_char=63|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=63|end_char=64
+# sent_id = 1533
+1	Nothing	nothing	PRON	NN	Number=Sing|PronType=Neg	0	_	_	start_char=1|end_char=8|SpacesBefore=\s
+2	ever	ever	ADV	RB	_	1	_	_	start_char=9|end_char=13
+3	comes	come	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=14|end_char=19
+4	before	before	ADP	IN	_	3	_	_	start_char=20|end_char=26
+5	personal	personal	ADJ	JJ	Degree=Pos	4	_	_	start_char=27|end_char=35
+6	interest	interest	NOUN	NN	Number=Sing	5	_	_	start_char=36|end_char=44|SpaceAfter=No
+7	,	,	PUNCT	,	_	6	_	_	start_char=44|end_char=45
+8	for	for	ADP	IN	_	7	_	_	start_char=46|end_char=49
+9	anybody	anybody	PRON	NN	Number=Sing|PronType=Ind	8	_	_	start_char=50|end_char=57|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=57|end_char=58
 
 # text = My daughter's well-being is my personal interest.
-# sent_id = 1586
-1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=65|end_char=67
-2-3	daughter's	_	_	_	_	_	_	_	start_char=68|end_char=78
-2	daughter	daughter	NOUN	NN	Number=Sing	1	_	_	start_char=68|end_char=76
-3	's	's	PART	POS	_	2	_	_	start_char=76|end_char=78
-4	well	well	ADV	RB	Degree=Pos	3	_	_	start_char=79|end_char=83|SpaceAfter=No
-5	-	-	PUNCT	HYPH	_	4	_	_	start_char=83|end_char=84|SpaceAfter=No
-6	being	be	AUX	VBG	VerbForm=Ger	5	_	_	start_char=84|end_char=89
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=90|end_char=92
-8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	_	_	start_char=93|end_char=95
-9	personal	personal	ADJ	JJ	Degree=Pos	8	_	_	start_char=96|end_char=104
-10	interest	interest	NOUN	NN	Number=Sing	9	_	_	start_char=105|end_char=113|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=113|end_char=114
+# sent_id = 1534
+1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=59|end_char=61
+2-3	daughter's	_	_	_	_	_	_	_	start_char=62|end_char=72
+2	daughter	daughter	NOUN	NN	Number=Sing	1	_	_	start_char=62|end_char=70
+3	's	's	PART	POS	_	2	_	_	start_char=70|end_char=72
+4	well	well	ADV	RB	Degree=Pos	3	_	_	start_char=73|end_char=77|SpaceAfter=No
+5	-	-	PUNCT	HYPH	_	4	_	_	start_char=77|end_char=78|SpaceAfter=No
+6	being	be	AUX	VBG	VerbForm=Ger	5	_	_	start_char=78|end_char=83
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=84|end_char=86
+8	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	7	_	_	start_char=87|end_char=89
+9	personal	personal	ADJ	JJ	Degree=Pos	8	_	_	start_char=90|end_char=98
+10	interest	interest	NOUN	NN	Number=Sing	9	_	_	start_char=99|end_char=107|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=107|end_char=108
 
 # text = Threaten her, and I keel you.
-# sent_id = 1587
-1	Threaten	threaten	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=115|end_char=123
-2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=124|end_char=127|SpaceAfter=No
-3	,	,	PUNCT	,	_	2	_	_	start_char=127|end_char=128
-4	and	and	CCONJ	CC	_	3	_	_	start_char=129|end_char=132
-5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=133|end_char=134
-6	keel	keel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=135|end_char=139
-7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=140|end_char=143|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=143|end_char=144
+# sent_id = 1535
+1	Threaten	threaten	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=109|end_char=117
+2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=118|end_char=121|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=121|end_char=122
+4	and	and	CCONJ	CC	_	3	_	_	start_char=123|end_char=126
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=127|end_char=128
+6	keel	keel	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	_	_	start_char=129|end_char=133
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=134|end_char=137|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=137|end_char=138
 
 # text = For some, the state is their personal interest.
-# sent_id = 1588
-1	For	for	ADP	IN	_	0	_	_	start_char=145|end_char=148
-2	some	some	DET	DT	_	1	_	_	start_char=149|end_char=153|SpaceAfter=No
-3	,	,	PUNCT	,	_	2	_	_	start_char=153|end_char=154
-4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=155|end_char=158
-5	state	state	NOUN	NN	Number=Sing	4	_	_	start_char=159|end_char=164
-6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=165|end_char=167
-7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=168|end_char=173
-8	personal	personal	ADJ	JJ	Degree=Pos	7	_	_	start_char=174|end_char=182
-9	interest	interest	NOUN	NN	Number=Sing	8	_	_	start_char=183|end_char=191|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=191|end_char=192|SpaceAfter=No
+# sent_id = 1536
+1	For	for	ADP	IN	_	0	_	_	start_char=139|end_char=142
+2	some	some	DET	DT	_	1	_	_	start_char=143|end_char=147|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=147|end_char=148
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=149|end_char=152
+5	state	state	NOUN	NN	Number=Sing	4	_	_	start_char=153|end_char=158
+6	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=159|end_char=161
+7	their	their	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	6	_	_	start_char=162|end_char=167
+8	personal	personal	ADJ	JJ	Degree=Pos	7	_	_	start_char=168|end_char=176
+9	interest	interest	NOUN	NN	Number=Sing	8	_	_	start_char=177|end_char=185|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=185|end_char=186|SpaceAfter=No
 

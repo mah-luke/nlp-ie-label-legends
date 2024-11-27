@@ -1,5 +1,5 @@
 # text = 'All white women are good for one thing': Chilling outburst of member of 18-strong Muslim pedophile gang.
-# sent_id = 103962
+# sent_id = 100560
 1	'	'	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	All	all	DET	DT	_	1	_	_	start_char=1|end_char=4
 3	white	white	ADJ	JJ	Degree=Pos	2	_	_	start_char=5|end_char=10
@@ -22,20 +22,17 @@
 20	Muslim	Muslim	ADJ	JJ	Degree=Pos	19	_	_	start_char=83|end_char=89
 21	pedophile	pedophile	NOUN	NN	Number=Sing	20	_	_	start_char=90|end_char=99
 22	gang	gang	NOUN	NN	Number=Sing	21	_	_	start_char=100|end_char=104|SpaceAfter=No
-23	.	.	PUNCT	.	_	22	_	_	start_char=104|end_char=105
+23	.	.	PUNCT	.	_	22	_	_	start_char=104|end_char=105|SpacesAfter=\s\s
 
-# text = [URL] ...culturally enriched.
-# sent_id = 103963
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=106|end_char=107|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=107|end_char=110|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=110|end_char=111
-4	...	...	PUNCT	,	_	3	_	_	start_char=112|end_char=115|SpaceAfter=No
-5	culturally	culturally	ADV	RB	_	4	_	_	start_char=115|end_char=125
-6	enriched	enrich	VERB	VBN	Tense=Past|VerbForm=Part	5	_	_	start_char=126|end_char=134|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=134|end_char=135
+# text = ...culturally enriched.
+# sent_id = 100561
+1	...	...	PUNCT	,	_	0	_	_	start_char=107|end_char=110|SpaceAfter=No
+2	culturally	culturally	ADV	RB	_	1	_	_	start_char=110|end_char=120
+3	enriched	enrich	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=121|end_char=129|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=129|end_char=130
 
 # text = #progress
-# sent_id = 103964
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=136|end_char=137|SpaceAfter=No
-2	progress	progress	NOUN	NN	Number=Sing	1	_	_	start_char=137|end_char=145|SpaceAfter=No
+# sent_id = 100562
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=131|end_char=132|SpaceAfter=No
+2	progress	progress	NOUN	NN	Number=Sing	1	_	_	start_char=132|end_char=140|SpaceAfter=No
 

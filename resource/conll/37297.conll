@@ -1,34 +1,31 @@
-# text = Misplaced trust [USER] - women lie like anyone else, as recently proved by Christine Ford!
-# sent_id = 79733
+# text = Misplaced trust - women lie like anyone else, as recently proved by Christine Ford!
+# sent_id = 77168
 1	Misplaced	misplaced	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=9
-2	trust	trust	NOUN	NN	Number=Sing	1	_	_	start_char=10|end_char=15
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=16|end_char=17|SpaceAfter=No
-4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=17|end_char=21|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=21|end_char=22
-6	-	-	PUNCT	HYPH	_	5	_	_	start_char=23|end_char=24
-7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=25|end_char=30
-8	lie	lie	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=31|end_char=34
-9	like	like	ADP	IN	_	8	_	_	start_char=35|end_char=39
-10	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	9	_	_	start_char=40|end_char=46
-11	else	else	ADJ	JJ	Degree=Pos	10	_	_	start_char=47|end_char=51|SpaceAfter=No
-12	,	,	PUNCT	,	_	11	_	_	start_char=51|end_char=52
-13	as	as	SCONJ	IN	_	12	_	_	start_char=53|end_char=55
-14	recently	recently	ADV	RB	_	13	_	_	start_char=56|end_char=64
-15	proved	prove	VERB	VBN	Tense=Past|VerbForm=Part	14	_	_	start_char=65|end_char=71
-16	by	by	ADP	IN	_	15	_	_	start_char=72|end_char=74
-17	Christine	Christine	PROPN	NNP	Number=Sing	16	_	_	start_char=75|end_char=84
-18	Ford	Ford	PROPN	NNP	Number=Sing	17	_	_	start_char=85|end_char=89|SpaceAfter=No
-19	!	!	PUNCT	.	_	18	_	_	start_char=89|end_char=90
+2	trust	trust	NOUN	NN	Number=Sing	1	_	_	start_char=10|end_char=15|SpacesAfter=\s\s
+3	-	-	PUNCT	HYPH	_	2	_	_	start_char=17|end_char=18
+4	women	woman	NOUN	NNS	Number=Plur	3	_	_	start_char=19|end_char=24
+5	lie	lie	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=25|end_char=28
+6	like	like	ADP	IN	_	5	_	_	start_char=29|end_char=33
+7	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	6	_	_	start_char=34|end_char=40
+8	else	else	ADJ	JJ	Degree=Pos	7	_	_	start_char=41|end_char=45|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=45|end_char=46
+10	as	as	SCONJ	IN	_	9	_	_	start_char=47|end_char=49
+11	recently	recently	ADV	RB	_	10	_	_	start_char=50|end_char=58
+12	proved	prove	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=59|end_char=65
+13	by	by	ADP	IN	_	12	_	_	start_char=66|end_char=68
+14	Christine	Christine	PROPN	NNP	Number=Sing	13	_	_	start_char=69|end_char=78
+15	Ford	Ford	PROPN	NNP	Number=Sing	14	_	_	start_char=79|end_char=83|SpaceAfter=No
+16	!	!	PUNCT	.	_	15	_	_	start_char=83|end_char=84
 
 # text = Theresa may has been lying for two years.
-# sent_id = 79734
-1	Theresa	Theresa	PROPN	NNP	Number=Sing	0	_	_	start_char=91|end_char=98
-2	may	may	AUX	MD	VerbForm=Fin	1	_	_	start_char=99|end_char=102
-3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=103|end_char=106
-4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=107|end_char=111
-5	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=112|end_char=117
-6	for	for	ADP	IN	_	5	_	_	start_char=118|end_char=121
-7	two	two	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=122|end_char=125
-8	years	year	NOUN	NNS	Number=Plur	7	_	_	start_char=126|end_char=131|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=131|end_char=132|SpaceAfter=No
+# sent_id = 77169
+1	Theresa	Theresa	PROPN	NNP	Number=Sing	0	_	_	start_char=85|end_char=92
+2	may	may	AUX	MD	VerbForm=Fin	1	_	_	start_char=93|end_char=96
+3	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=97|end_char=100
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=101|end_char=105
+5	lying	lie	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=106|end_char=111
+6	for	for	ADP	IN	_	5	_	_	start_char=112|end_char=115
+7	two	two	NUM	CD	NumForm=Word|NumType=Card	6	_	_	start_char=116|end_char=119
+8	years	year	NOUN	NNS	Number=Plur	7	_	_	start_char=120|end_char=125|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=125|end_char=126|SpaceAfter=No
 

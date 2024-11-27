@@ -1,33 +1,27 @@
-# text = [USER]
-# sent_id = 68299
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = No shit she has AIDS.
-# sent_id = 68300
-1	No	no	DET	DT	_	0	_	_	start_char=7|end_char=9
-2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=10|end_char=14
-3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=15|end_char=18
-4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=19|end_char=22
-5	AIDS	aids	NOUN	NN	Number=Sing	4	_	_	start_char=23|end_char=27|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=27|end_char=28
+# sent_id = 66099
+1	No	no	DET	DT	_	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	shit	shit	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=8
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=9|end_char=12
+4	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=13|end_char=16
+5	AIDS	aids	NOUN	NN	Number=Sing	4	_	_	start_char=17|end_char=21|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=21|end_char=22
 
 # text = What do you think Tim Kaine is?
-# sent_id = 68301
-1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=29|end_char=33
-2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=34|end_char=36
-3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=37|end_char=40
-4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=41|end_char=46
-5	Tim	Tim	PROPN	NNP	Number=Sing	4	_	_	start_char=47|end_char=50
-6	Kaine	Kaine	PROPN	NNP	Number=Sing	5	_	_	start_char=51|end_char=56
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=57|end_char=59|SpaceAfter=No
-8	?	?	PUNCT	.	_	7	_	_	start_char=59|end_char=60
+# sent_id = 66100
+1	What	what	PRON	WP	PronType=Int	0	_	_	start_char=23|end_char=27
+2	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=28|end_char=30
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=31|end_char=34
+4	think	think	VERB	VB	VerbForm=Inf	3	_	_	start_char=35|end_char=40
+5	Tim	Tim	PROPN	NNP	Number=Sing	4	_	_	start_char=41|end_char=44
+6	Kaine	Kaine	PROPN	NNP	Number=Sing	5	_	_	start_char=45|end_char=50
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=51|end_char=53|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=53|end_char=54
 
 # text = #OhCarl #MicDrop
-# sent_id = 68302
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=61|end_char=62|SpaceAfter=No
-2	OhCarl	ohcarl	X	GW	_	1	_	_	start_char=62|end_char=68
-3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=69|end_char=70|SpaceAfter=No
-4	MicDrop	micdrop	NOUN	NN	Number=Sing	3	_	_	start_char=70|end_char=77|SpaceAfter=No
+# sent_id = 66101
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=55|end_char=56|SpaceAfter=No
+2	OhCarl	ohcarl	X	GW	_	1	_	_	start_char=56|end_char=62
+3	#	#	SYM	NN	Number=Sing	2	_	_	start_char=63|end_char=64|SpaceAfter=No
+4	MicDrop	micdrop	NOUN	NN	Number=Sing	3	_	_	start_char=64|end_char=71|SpaceAfter=No
 

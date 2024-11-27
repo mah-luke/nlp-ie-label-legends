@@ -1,66 +1,60 @@
-# text = [URL]
-# sent_id = 22986
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-
 # text = Go izlum!
-# sent_id = 22987
-1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=6|end_char=8
-2	izlum	izlum	NOUN	NN	Number=Sing	1	_	_	start_char=9|end_char=14|SpaceAfter=No
-3	!	!	PUNCT	.	_	2	_	_	start_char=14|end_char=15
+# sent_id = 22241
+1	Go	go	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	izlum	izlum	NOUN	NN	Number=Sing	1	_	_	start_char=4|end_char=9|SpaceAfter=No
+3	!	!	PUNCT	.	_	2	_	_	start_char=9|end_char=10
 
 # text = You freaks rock!
-# sent_id = 22988
-1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=16|end_char=19
-2	freaks	freak	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=20|end_char=26
-3	rock	rock	NOUN	NN	Number=Sing	2	_	_	start_char=27|end_char=31|SpaceAfter=No
-4	!	!	PUNCT	.	_	3	_	_	start_char=31|end_char=32
+# sent_id = 22242
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=11|end_char=14
+2	freaks	freak	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=15|end_char=21
+3	rock	rock	NOUN	NN	Number=Sing	2	_	_	start_char=22|end_char=26|SpaceAfter=No
+4	!	!	PUNCT	.	_	3	_	_	start_char=26|end_char=27
 
 # text = Killing your old ladies with your manly prowess!
-# sent_id = 22989
-1	Killing	kill	VERB	VBG	VerbForm=Ger	0	_	_	start_char=33|end_char=40
-2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=41|end_char=45
-3	old	old	ADJ	JJ	Degree=Pos	2	_	_	start_char=46|end_char=49
-4	ladies	lady	NOUN	NNS	Number=Plur	3	_	_	start_char=50|end_char=56
-5	with	with	ADP	IN	_	4	_	_	start_char=57|end_char=61
-6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=62|end_char=66
-7	manly	manly	ADJ	JJ	Degree=Pos	6	_	_	start_char=67|end_char=72
-8	prowess	prowess	NOUN	NN	Number=Sing	7	_	_	start_char=73|end_char=80|SpaceAfter=No
-9	!	!	PUNCT	.	_	8	_	_	start_char=80|end_char=81
+# sent_id = 22243
+1	Killing	kill	VERB	VBG	VerbForm=Ger	0	_	_	start_char=28|end_char=35
+2	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	1	_	_	start_char=36|end_char=40
+3	old	old	ADJ	JJ	Degree=Pos	2	_	_	start_char=41|end_char=44
+4	ladies	lady	NOUN	NNS	Number=Plur	3	_	_	start_char=45|end_char=51
+5	with	with	ADP	IN	_	4	_	_	start_char=52|end_char=56
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=57|end_char=61
+7	manly	manly	ADJ	JJ	Degree=Pos	6	_	_	start_char=62|end_char=67
+8	prowess	prowess	NOUN	NN	Number=Sing	7	_	_	start_char=68|end_char=75|SpaceAfter=No
+9	!	!	PUNCT	.	_	8	_	_	start_char=75|end_char=76
 
 # text = moohaHAMutt would be proud, except he's worm crap for a thousand years plus.
-# sent_id = 22990
-1	moohaHAMutt	moohaHAMutt	PROPN	NNP	Number=Sing	0	_	_	start_char=82|end_char=93
-2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=94|end_char=99
-3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=100|end_char=102
-4	proud	proud	ADJ	JJ	Degree=Pos	3	_	_	start_char=103|end_char=108|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	_	_	start_char=108|end_char=109
-6	except	except	SCONJ	IN	_	5	_	_	start_char=110|end_char=116
-7-8	he's	_	_	_	_	_	_	_	start_char=117|end_char=121
-7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=117|end_char=119
-8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=119|end_char=121
-9	worm	worm	NOUN	NN	Number=Sing	8	_	_	start_char=122|end_char=126
-10	crap	crap	NOUN	NN	Number=Sing	9	_	_	start_char=127|end_char=131
-11	for	for	ADP	IN	_	10	_	_	start_char=132|end_char=135
-12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=136|end_char=137
-13	thousand	thousand	NUM	CD	NumForm=Word|NumType=Card	12	_	_	start_char=138|end_char=146
-14	years	year	NOUN	NNS	Number=Plur	13	_	_	start_char=147|end_char=152
-15	plus	plus	CCONJ	CC	_	14	_	_	start_char=153|end_char=157|SpaceAfter=No
-16	.	.	PUNCT	.	_	15	_	_	start_char=157|end_char=158
+# sent_id = 22244
+1	moohaHAMutt	moohaHAMutt	PROPN	NNP	Number=Sing	0	_	_	start_char=77|end_char=88
+2	would	would	AUX	MD	VerbForm=Fin	1	_	_	start_char=89|end_char=94
+3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=95|end_char=97
+4	proud	proud	ADJ	JJ	Degree=Pos	3	_	_	start_char=98|end_char=103|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=103|end_char=104
+6	except	except	SCONJ	IN	_	5	_	_	start_char=105|end_char=111
+7-8	he's	_	_	_	_	_	_	_	start_char=112|end_char=116
+7	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	_	_	start_char=112|end_char=114
+8	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=114|end_char=116
+9	worm	worm	NOUN	NN	Number=Sing	8	_	_	start_char=117|end_char=121
+10	crap	crap	NOUN	NN	Number=Sing	9	_	_	start_char=122|end_char=126
+11	for	for	ADP	IN	_	10	_	_	start_char=127|end_char=130
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=131|end_char=132
+13	thousand	thousand	NUM	CD	NumForm=Word|NumType=Card	12	_	_	start_char=133|end_char=141
+14	years	year	NOUN	NNS	Number=Plur	13	_	_	start_char=142|end_char=147
+15	plus	plus	CCONJ	CC	_	14	_	_	start_char=148|end_char=152|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=152|end_char=153
 
 # text = There is a special place in HELL for you and yours.
-# sent_id = 22991
-1	There	there	PRON	EX	_	0	_	_	start_char=159|end_char=164
-2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=165|end_char=167
-3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=168|end_char=169
-4	special	special	ADJ	JJ	Degree=Pos	3	_	_	start_char=170|end_char=177
-5	place	place	NOUN	NN	Number=Sing	4	_	_	start_char=178|end_char=183
-6	in	in	ADP	IN	_	5	_	_	start_char=184|end_char=186
-7	HELL	HELL	PROPN	NNP	Number=Sing	6	_	_	start_char=187|end_char=191
-8	for	for	ADP	IN	_	7	_	_	start_char=192|end_char=195
-9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=196|end_char=199
-10	and	and	CCONJ	CC	_	9	_	_	start_char=200|end_char=203
-11	yours	yours	PRON	PRP	Gender=Neut|Number=Sing|Person=2|Poss=Yes|PronType=Prs	10	_	_	start_char=204|end_char=209|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=209|end_char=210|SpaceAfter=No
+# sent_id = 22245
+1	There	there	PRON	EX	_	0	_	_	start_char=154|end_char=159
+2	is	be	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=160|end_char=162
+3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=163|end_char=164
+4	special	special	ADJ	JJ	Degree=Pos	3	_	_	start_char=165|end_char=172
+5	place	place	NOUN	NN	Number=Sing	4	_	_	start_char=173|end_char=178
+6	in	in	ADP	IN	_	5	_	_	start_char=179|end_char=181
+7	HELL	HELL	PROPN	NNP	Number=Sing	6	_	_	start_char=182|end_char=186
+8	for	for	ADP	IN	_	7	_	_	start_char=187|end_char=190
+9	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	8	_	_	start_char=191|end_char=194
+10	and	and	CCONJ	CC	_	9	_	_	start_char=195|end_char=198
+11	yours	yours	PRON	PRP	Gender=Neut|Number=Sing|Person=2|Poss=Yes|PronType=Prs	10	_	_	start_char=199|end_char=204|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=204|end_char=205|SpaceAfter=No
 

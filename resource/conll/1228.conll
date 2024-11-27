@@ -1,26 +1,21 @@
-# text = [[URL]
-# sent_id = 2600
-1	[[	[[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=2|SpaceAfter=No
-2	URL	URL	NOUN	NN	Number=Sing	1	_	_	start_char=2|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
-# text = According to this study, young men are less likely to get treatment than young women.
-# sent_id = 2601
-1	According	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	0	_	_	start_char=7|end_char=16
-2	to	to	ADP	IN	_	1	_	_	start_char=17|end_char=19
-3	this	this	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=20|end_char=24
-4	study	study	NOUN	NN	Number=Sing	3	_	_	start_char=25|end_char=30|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	_	_	start_char=30|end_char=31
-6	young	young	ADJ	JJ	Degree=Pos	5	_	_	start_char=32|end_char=37
-7	men	man	NOUN	NNS	Number=Plur	6	_	_	start_char=38|end_char=41
-8	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=42|end_char=45
-9	less	less	ADV	RBR	Degree=Cmp	8	_	_	start_char=46|end_char=50
-10	likely	likely	ADJ	JJ	Degree=Pos	9	_	_	start_char=51|end_char=57
-11	to	to	PART	TO	_	10	_	_	start_char=58|end_char=60
-12	get	get	VERB	VB	VerbForm=Inf	11	_	_	start_char=61|end_char=64
-13	treatment	treatment	NOUN	NN	Number=Sing	12	_	_	start_char=65|end_char=74
-14	than	than	ADP	IN	_	13	_	_	start_char=75|end_char=79
-15	young	young	ADJ	JJ	Degree=Pos	14	_	_	start_char=80|end_char=85
-16	women	woman	NOUN	NNS	Number=Plur	15	_	_	start_char=86|end_char=91|SpaceAfter=No
-17	.	.	PUNCT	.	_	16	_	_	start_char=91|end_char=92|SpaceAfter=No
+# text = [ According to this study, young men are less likely to get treatment than young women.
+# sent_id = 2536
+1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1
+2	According	accord	VERB	VBG	ExtPos=ADP|VerbForm=Ger	1	_	_	start_char=2|end_char=11
+3	to	to	ADP	IN	_	2	_	_	start_char=12|end_char=14
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=15|end_char=19
+5	study	study	NOUN	NN	Number=Sing	4	_	_	start_char=20|end_char=25|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=25|end_char=26
+7	young	young	ADJ	JJ	Degree=Pos	6	_	_	start_char=27|end_char=32
+8	men	man	NOUN	NNS	Number=Plur	7	_	_	start_char=33|end_char=36
+9	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=37|end_char=40
+10	less	less	ADV	RBR	Degree=Cmp	9	_	_	start_char=41|end_char=45
+11	likely	likely	ADJ	JJ	Degree=Pos	10	_	_	start_char=46|end_char=52
+12	to	to	PART	TO	_	11	_	_	start_char=53|end_char=55
+13	get	get	VERB	VB	VerbForm=Inf	12	_	_	start_char=56|end_char=59
+14	treatment	treatment	NOUN	NN	Number=Sing	13	_	_	start_char=60|end_char=69
+15	than	than	ADP	IN	_	14	_	_	start_char=70|end_char=74
+16	young	young	ADJ	JJ	Degree=Pos	15	_	_	start_char=75|end_char=80
+17	women	woman	NOUN	NNS	Number=Plur	16	_	_	start_char=81|end_char=86|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=86|end_char=87|SpaceAfter=No
 

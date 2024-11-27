@@ -1,46 +1,40 @@
-# text = [USER]
-# sent_id = 1239
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Feel free to look around that site.
-# sent_id = 1240
-1	Feel	feel	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=7|end_char=11
-2	free	free	ADJ	JJ	Degree=Pos	1	_	_	start_char=12|end_char=16
-3	to	to	PART	TO	_	2	_	_	start_char=17|end_char=19
-4	look	look	VERB	VB	VerbForm=Inf	3	_	_	start_char=20|end_char=24
-5	around	around	ADP	IN	_	4	_	_	start_char=25|end_char=31
-6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=32|end_char=36
-7	site	site	NOUN	NN	Number=Sing	6	_	_	start_char=37|end_char=41|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=41|end_char=42
+# sent_id = 1195
+1	Feel	feel	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	free	free	ADJ	JJ	Degree=Pos	1	_	_	start_char=6|end_char=10
+3	to	to	PART	TO	_	2	_	_	start_char=11|end_char=13
+4	look	look	VERB	VB	VerbForm=Inf	3	_	_	start_char=14|end_char=18
+5	around	around	ADP	IN	_	4	_	_	start_char=19|end_char=25
+6	that	that	DET	DT	Number=Sing|PronType=Dem	5	_	_	start_char=26|end_char=30
+7	site	site	NOUN	NN	Number=Sing	6	_	_	start_char=31|end_char=35|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=35|end_char=36
 
 # text = You're welcome to shoot an email to me from the contact page there as well if I'm not on platform. :-)
-# sent_id = 1241
-1-2	You're	_	_	_	_	_	_	_	start_char=43|end_char=49
-1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=43|end_char=46
-2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=46|end_char=49
-3	welcome	welcome	ADJ	JJ	Degree=Pos	2	_	_	start_char=50|end_char=57
-4	to	to	PART	TO	_	3	_	_	start_char=58|end_char=60
-5	shoot	shoot	VERB	VB	VerbForm=Inf	4	_	_	start_char=61|end_char=66
-6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=67|end_char=69
-7	email	email	NOUN	NN	Number=Sing	6	_	_	start_char=70|end_char=75
-8	to	to	ADP	IN	_	7	_	_	start_char=76|end_char=78
-9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=79|end_char=81
-10	from	from	ADP	IN	_	9	_	_	start_char=82|end_char=86
-11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=87|end_char=90
-12	contact	contact	NOUN	NN	Number=Sing	11	_	_	start_char=91|end_char=98
-13	page	page	NOUN	NN	Number=Sing	12	_	_	start_char=99|end_char=103
-14	there	there	ADV	RB	PronType=Dem	13	_	_	start_char=104|end_char=109
-15	as	as	ADV	RB	_	14	_	_	start_char=110|end_char=112
-16	well	well	ADV	RB	Degree=Pos	15	_	_	start_char=113|end_char=117
-17	if	if	SCONJ	IN	_	16	_	_	start_char=118|end_char=120
-18-19	I'm	_	_	_	_	_	_	_	start_char=121|end_char=124
-18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	_	_	start_char=121|end_char=122
-19	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	_	_	start_char=122|end_char=124
-20	not	not	PART	RB	_	19	_	_	start_char=125|end_char=128
-21	on	on	ADP	IN	_	20	_	_	start_char=129|end_char=131
-22	platform	platform	NOUN	NN	Number=Sing	21	_	_	start_char=132|end_char=140|SpaceAfter=No
-23	.	.	PUNCT	.	_	22	_	_	start_char=140|end_char=141
-24	:-)	:-)	SYM	NFP	_	23	_	_	start_char=142|end_char=145|SpaceAfter=No
+# sent_id = 1196
+1-2	You're	_	_	_	_	_	_	_	start_char=37|end_char=43
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=37|end_char=40
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=40|end_char=43
+3	welcome	welcome	ADJ	JJ	Degree=Pos	2	_	_	start_char=44|end_char=51
+4	to	to	PART	TO	_	3	_	_	start_char=52|end_char=54
+5	shoot	shoot	VERB	VB	VerbForm=Inf	4	_	_	start_char=55|end_char=60
+6	an	a	DET	DT	Definite=Ind|PronType=Art	5	_	_	start_char=61|end_char=63
+7	email	email	NOUN	NN	Number=Sing	6	_	_	start_char=64|end_char=69
+8	to	to	ADP	IN	_	7	_	_	start_char=70|end_char=72
+9	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=73|end_char=75
+10	from	from	ADP	IN	_	9	_	_	start_char=76|end_char=80
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=81|end_char=84
+12	contact	contact	NOUN	NN	Number=Sing	11	_	_	start_char=85|end_char=92
+13	page	page	NOUN	NN	Number=Sing	12	_	_	start_char=93|end_char=97
+14	there	there	ADV	RB	PronType=Dem	13	_	_	start_char=98|end_char=103
+15	as	as	ADV	RB	_	14	_	_	start_char=104|end_char=106
+16	well	well	ADV	RB	Degree=Pos	15	_	_	start_char=107|end_char=111
+17	if	if	SCONJ	IN	_	16	_	_	start_char=112|end_char=114
+18-19	I'm	_	_	_	_	_	_	_	start_char=115|end_char=118
+18	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	17	_	_	start_char=115|end_char=116
+19	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	18	_	_	start_char=116|end_char=118
+20	not	not	PART	RB	_	19	_	_	start_char=119|end_char=122
+21	on	on	ADP	IN	_	20	_	_	start_char=123|end_char=125
+22	platform	platform	NOUN	NN	Number=Sing	21	_	_	start_char=126|end_char=134|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=134|end_char=135
+24	:-)	:-)	SYM	NFP	_	23	_	_	start_char=136|end_char=139|SpaceAfter=No
 

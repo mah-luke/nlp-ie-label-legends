@@ -1,5 +1,5 @@
 # text = 'Five teenage girls falsely accused a male classmate of sexual assault.
-# sent_id = 31407
+# sent_id = 30387
 1	'	'	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	Five	five	NUM	CD	NumForm=Word|NumType=Card	1	_	_	start_char=1|end_char=5
 3	teenage	teenage	ADJ	JJ	Degree=Pos	2	_	_	start_char=6|end_char=13
@@ -15,7 +15,7 @@
 13	.	.	PUNCT	.	_	12	_	_	start_char=70|end_char=71
 
 # text = Even after they admitted they lied, they weren’t punished by the school or charged with false reporting.'
-# sent_id = 31408
+# sent_id = 30388
 1	Even	even	ADV	RB	_	0	_	_	start_char=72|end_char=76
 2	after	after	SCONJ	IN	_	1	_	_	start_char=77|end_char=82
 3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=83|end_char=87
@@ -39,8 +39,8 @@
 20	.	.	PUNCT	.	_	19	_	_	start_char=175|end_char=176|SpaceAfter=No
 21	'	'	PUNCT	''	_	20	_	_	start_char=176|end_char=177
 
-# text = (Includes what the male student went through) [URL]
-# sent_id = 31409
+# text = (Includes what the male student went through)
+# sent_id = 30389
 1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=178|end_char=179|SpaceAfter=No
 2	Includes	include	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=179|end_char=187
 3	what	what	PRON	WP	PronType=Rel	2	_	_	start_char=188|end_char=192
@@ -50,7 +50,4 @@
 7	went	go	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	_	_	start_char=210|end_char=214
 8	through	through	ADP	IN	_	7	_	_	start_char=215|end_char=222|SpaceAfter=No
 9	)	)	PUNCT	-RRB-	_	8	_	_	start_char=222|end_char=223
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=224|end_char=225|SpaceAfter=No
-11	URL	URL	PROPN	NNP	Number=Sing	10	_	_	start_char=225|end_char=228|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=228|end_char=229|SpaceAfter=No
 

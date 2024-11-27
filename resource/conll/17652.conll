@@ -1,11 +1,11 @@
 # text = NolteNC Retweeted POLITICO
-# sent_id = 37932
+# sent_id = 36663
 1	NolteNC	NolteNC	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
 2	Retweeted	retweet	VERB	VBN	Tense=Past|VerbForm=Fin	1	_	_	start_char=8|end_char=17
 3	POLITICO	Politico	PROPN	NNP	Number=Sing	2	_	_	start_char=18|end_char=26
 
 # text = She's a goofy loon who called a veteran and Gold Star dad a racist.
-# sent_id = 37933
+# sent_id = 36664
 1-2	She's	_	_	_	_	_	_	_	start_char=27|end_char=32
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=27|end_char=30
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=30|end_char=32
@@ -25,7 +25,7 @@
 16	.	.	PUNCT	.	_	15	_	_	start_char=93|end_char=94
 
 # text = Caputo needs to get out of the bubble more.
-# sent_id = 37934
+# sent_id = 36665
 1	Caputo	Caputo	PROPN	NNP	Number=Sing	0	_	_	start_char=95|end_char=101
 2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=102|end_char=107
 3	to	to	PART	TO	_	2	_	_	start_char=108|end_char=110
@@ -37,8 +37,8 @@
 9	more	more	ADV	RBR	Degree=Cmp	8	_	_	start_char=133|end_char=137|SpaceAfter=No
 10	.	.	PUNCT	.	_	9	_	_	start_char=137|end_char=138
 
-# text = POLITICO‏ "Trump is messing with the wrong woman" [URL] via MarcACaputo
-# sent_id = 37935
+# text = POLITICO‏ "Trump is messing with the wrong woman" via MarcACaputo
+# sent_id = 36666
 1	POLITICO	Politico	PROPN	NNP	Number=Sing	0	_	_	start_char=139|end_char=147|SpaceAfter=No
 2	‏	‏	PUNCT	,	_	1	_	_	start_char=147|end_char=148
 3	"	"	PUNCT	``	_	2	_	_	start_char=149|end_char=150|SpaceAfter=No
@@ -49,10 +49,7 @@
 8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=172|end_char=175
 9	wrong	wrong	ADJ	JJ	Degree=Pos	8	_	_	start_char=176|end_char=181
 10	woman	woman	NOUN	NN	Number=Sing	9	_	_	start_char=182|end_char=187|SpaceAfter=No
-11	"	"	PUNCT	''	_	10	_	_	start_char=187|end_char=188
-12	[	[	PUNCT	-LRB-	_	11	_	_	start_char=189|end_char=190|SpaceAfter=No
-13	URL	URL	PROPN	NNP	Number=Sing	12	_	_	start_char=190|end_char=193|SpaceAfter=No
-14	]	]	PUNCT	-RRB-	_	13	_	_	start_char=193|end_char=194
-15	via	via	ADP	IN	_	14	_	_	start_char=195|end_char=198
-16	MarcACaputo	MarcACaputo	PROPN	NNP	Number=Sing	15	_	_	start_char=199|end_char=210|SpaceAfter=No
+11	"	"	PUNCT	''	_	10	_	_	start_char=187|end_char=188|SpacesAfter=\s\s
+12	via	via	ADP	IN	_	11	_	_	start_char=190|end_char=193
+13	MarcACaputo	MarcACaputo	PROPN	NNP	Number=Sing	12	_	_	start_char=194|end_char=205|SpaceAfter=No
 

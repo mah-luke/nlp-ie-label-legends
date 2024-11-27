@@ -1,57 +1,51 @@
-# text = [USER]
-# sent_id = 117447
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Yes, it's one part of the U.N. NWO New Age pkg involving ancient sacred feminine / Mother Earth Gaia worship, etc, to destroy all of mankind.
-# sent_id = 117448
-1	Yes	yes	INTJ	UH	_	0	_	_	start_char=7|end_char=10|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=10|end_char=11
-3-4	it's	_	_	_	_	_	_	_	start_char=12|end_char=16
-3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=12|end_char=14
-4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=14|end_char=16
-5	one	one	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=17|end_char=20
-6	part	part	NOUN	NN	Number=Sing	5	_	_	start_char=21|end_char=25
-7	of	of	ADP	IN	_	6	_	_	start_char=26|end_char=28
-8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=29|end_char=32
-9	U.N.	U.N.	PROPN	NNP	Number=Sing	8	_	_	start_char=33|end_char=37
-10	NWO	NWO	PROPN	NNP	Number=Sing	9	_	_	start_char=38|end_char=41
-11	New	New	ADJ	NNP	Degree=Pos	10	_	_	start_char=42|end_char=45
-12	Age	Age	PROPN	NNP	Number=Sing	11	_	_	start_char=46|end_char=49
-13	pkg	pkg	NOUN	NN	Number=Sing	12	_	_	start_char=50|end_char=53
-14	involving	involve	VERB	VBG	VerbForm=Ger	13	_	_	start_char=54|end_char=63
-15	ancient	ancient	ADJ	JJ	Degree=Pos	14	_	_	start_char=64|end_char=71
-16	sacred	sacred	ADJ	JJ	Degree=Pos	15	_	_	start_char=72|end_char=78
-17	feminine	feminine	ADJ	JJ	Degree=Pos	16	_	_	start_char=79|end_char=87
-18	/	/	SYM	,	_	17	_	_	start_char=88|end_char=89
-19	Mother	mother	PROPN	NNP	Number=Sing	18	_	_	start_char=90|end_char=96
-20	Earth	Earth	PROPN	NNP	Number=Sing	19	_	_	start_char=97|end_char=102
-21	Gaia	Gaia	PROPN	NNP	Number=Sing	20	_	_	start_char=103|end_char=107
-22	worship	worship	NOUN	NN	Number=Sing	21	_	_	start_char=108|end_char=115|SpaceAfter=No
-23	,	,	PUNCT	,	_	22	_	_	start_char=115|end_char=116
-24	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	23	_	_	start_char=117|end_char=120|SpaceAfter=No
-25	,	,	PUNCT	,	_	24	_	_	start_char=120|end_char=121
-26	to	to	PART	TO	_	25	_	_	start_char=122|end_char=124
-27	destroy	destroy	VERB	VB	VerbForm=Inf	26	_	_	start_char=125|end_char=132
-28	all	all	DET	DT	_	27	_	_	start_char=133|end_char=136
-29	of	of	ADP	IN	_	28	_	_	start_char=137|end_char=139
-30	mankind	mankind	NOUN	NN	Number=Sing	29	_	_	start_char=140|end_char=147|SpaceAfter=No
-31	.	.	PUNCT	.	_	30	_	_	start_char=147|end_char=148
+# sent_id = 113633
+1	Yes	yes	INTJ	UH	_	0	_	_	start_char=1|end_char=4|SpaceAfter=No|SpacesBefore=\s
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3-4	it's	_	_	_	_	_	_	_	start_char=6|end_char=10
+3	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=6|end_char=8
+4	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=8|end_char=10
+5	one	one	NUM	CD	NumForm=Word|NumType=Card	4	_	_	start_char=11|end_char=14
+6	part	part	NOUN	NN	Number=Sing	5	_	_	start_char=15|end_char=19
+7	of	of	ADP	IN	_	6	_	_	start_char=20|end_char=22
+8	the	the	DET	DT	Definite=Def|PronType=Art	7	_	_	start_char=23|end_char=26
+9	U.N.	U.N.	PROPN	NNP	Number=Sing	8	_	_	start_char=27|end_char=31
+10	NWO	NWO	PROPN	NNP	Number=Sing	9	_	_	start_char=32|end_char=35
+11	New	New	ADJ	NNP	Degree=Pos	10	_	_	start_char=36|end_char=39
+12	Age	Age	PROPN	NNP	Number=Sing	11	_	_	start_char=40|end_char=43
+13	pkg	pkg	NOUN	NN	Number=Sing	12	_	_	start_char=44|end_char=47
+14	involving	involve	VERB	VBG	VerbForm=Ger	13	_	_	start_char=48|end_char=57
+15	ancient	ancient	ADJ	JJ	Degree=Pos	14	_	_	start_char=58|end_char=65
+16	sacred	sacred	ADJ	JJ	Degree=Pos	15	_	_	start_char=66|end_char=72
+17	feminine	feminine	ADJ	JJ	Degree=Pos	16	_	_	start_char=73|end_char=81
+18	/	/	SYM	,	_	17	_	_	start_char=82|end_char=83
+19	Mother	mother	PROPN	NNP	Number=Sing	18	_	_	start_char=84|end_char=90
+20	Earth	Earth	PROPN	NNP	Number=Sing	19	_	_	start_char=91|end_char=96
+21	Gaia	Gaia	PROPN	NNP	Number=Sing	20	_	_	start_char=97|end_char=101
+22	worship	worship	NOUN	NN	Number=Sing	21	_	_	start_char=102|end_char=109|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	start_char=109|end_char=110
+24	etc	etc.	NOUN	FW	Abbr=Yes|Number=Plur	23	_	_	start_char=111|end_char=114|SpaceAfter=No
+25	,	,	PUNCT	,	_	24	_	_	start_char=114|end_char=115
+26	to	to	PART	TO	_	25	_	_	start_char=116|end_char=118
+27	destroy	destroy	VERB	VB	VerbForm=Inf	26	_	_	start_char=119|end_char=126
+28	all	all	DET	DT	_	27	_	_	start_char=127|end_char=130
+29	of	of	ADP	IN	_	28	_	_	start_char=131|end_char=133
+30	mankind	mankind	NOUN	NN	Number=Sing	29	_	_	start_char=134|end_char=141|SpaceAfter=No
+31	.	.	PUNCT	.	_	30	_	_	start_char=141|end_char=142
 
 # text = Our enemy has many far reaching tentacles & has been very busy.
-# sent_id = 117449
-1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=149|end_char=152
-2	enemy	enemy	NOUN	NN	Number=Sing	1	_	_	start_char=153|end_char=158
-3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=159|end_char=162
-4	many	many	ADJ	JJ	Degree=Pos	3	_	_	start_char=163|end_char=167
-5	far	far	ADV	RB	Degree=Pos	4	_	_	start_char=168|end_char=171
-6	reaching	reach	VERB	VBG	VerbForm=Ger	5	_	_	start_char=172|end_char=180
-7	tentacles	tentacle	NOUN	NNS	Number=Plur	6	_	_	start_char=181|end_char=190
-8	&	&	CCONJ	CC	_	7	_	_	start_char=191|end_char=192
-9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=193|end_char=196
-10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=197|end_char=201
-11	very	very	ADV	RB	_	10	_	_	start_char=202|end_char=206
-12	busy	busy	ADJ	JJ	Degree=Pos	11	_	_	start_char=207|end_char=211|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=211|end_char=212|SpaceAfter=No
+# sent_id = 113634
+1	Our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=143|end_char=146
+2	enemy	enemy	NOUN	NN	Number=Sing	1	_	_	start_char=147|end_char=152
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=153|end_char=156
+4	many	many	ADJ	JJ	Degree=Pos	3	_	_	start_char=157|end_char=161
+5	far	far	ADV	RB	Degree=Pos	4	_	_	start_char=162|end_char=165
+6	reaching	reach	VERB	VBG	VerbForm=Ger	5	_	_	start_char=166|end_char=174
+7	tentacles	tentacle	NOUN	NNS	Number=Plur	6	_	_	start_char=175|end_char=184
+8	&	&	CCONJ	CC	_	7	_	_	start_char=185|end_char=186
+9	has	have	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=187|end_char=190
+10	been	be	AUX	VBN	Tense=Past|VerbForm=Part	9	_	_	start_char=191|end_char=195
+11	very	very	ADV	RB	_	10	_	_	start_char=196|end_char=200
+12	busy	busy	ADJ	JJ	Degree=Pos	11	_	_	start_char=201|end_char=205|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=205|end_char=206|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = Trump is Bibi's bitch-boi!
-# sent_id = 115591
+# sent_id = 111814
 1	Trump	Trump	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=5
 2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=6|end_char=8
 3-4	Bibi's	_	_	_	_	_	_	_	start_char=9|end_char=15
@@ -10,8 +10,8 @@
 7	boi	boi	NOUN	NN	Number=Sing	6	_	_	start_char=22|end_char=25|SpaceAfter=No
 8	!	!	PUNCT	.	_	7	_	_	start_char=25|end_char=26
 
-# text = White Helmets Plotting False Flag Chemical Attack in Southern Syria – Sources [URL] #syria #bibisbitch
-# sent_id = 115592
+# text = White Helmets Plotting False Flag Chemical Attack in Southern Syria – Sources #syria #bibisbitch
+# sent_id = 111815
 1	White	White	ADJ	NNP	Degree=Pos	0	_	_	start_char=27|end_char=32
 2	Helmets	Helmet	PROPN	NNPS	Number=Plur	1	_	_	start_char=33|end_char=40
 3	Plotting	Plotting	PROPN	NNP	Number=Sing	2	_	_	start_char=41|end_char=49
@@ -23,12 +23,9 @@
 9	Southern	Southern	ADJ	NNP	Degree=Pos	8	_	_	start_char=80|end_char=88
 10	Syria	Syria	PROPN	NNP	Number=Sing	9	_	_	start_char=89|end_char=94
 11	–	-	PUNCT	:	_	10	_	_	start_char=95|end_char=96
-12	Sources	Source	PROPN	NNPS	Number=Plur	11	_	_	start_char=97|end_char=104
-13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=105|end_char=106|SpaceAfter=No
-14	URL	URL	PROPN	NNP	Number=Sing	13	_	_	start_char=106|end_char=109|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=109|end_char=110
-16	#	#	SYM	NN	Number=Sing	15	_	_	start_char=111|end_char=112|SpaceAfter=No
-17	syria	syria	PROPN	NNP	Number=Sing	16	_	_	start_char=112|end_char=117
-18	#	#	SYM	NN	Number=Sing	17	_	_	start_char=118|end_char=119|SpaceAfter=No
-19	bibisbitch	bibisbitch	PROPN	NNP	Number=Sing	18	_	_	start_char=119|end_char=129|SpaceAfter=No
+12	Sources	source	NOUN	NNS	Number=Plur	11	_	_	start_char=97|end_char=104|SpacesAfter=\s\s
+13	#	#	SYM	NN	Number=Sing	12	_	_	start_char=106|end_char=107|SpaceAfter=No
+14	syria	syria	PROPN	NNP	Number=Sing	13	_	_	start_char=107|end_char=112
+15	#	#	SYM	NN	Number=Sing	14	_	_	start_char=113|end_char=114|SpaceAfter=No
+16	bibisbitch	bibisbitch	PROPN	NNP	Number=Sing	15	_	_	start_char=114|end_char=124|SpaceAfter=No
 

@@ -1,60 +1,54 @@
-# text = [USER]‍
-# sent_id = 12724
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
-4	‍	‍	PUNCT	.	_	3	_	_	start_char=6|end_char=7
-
-# text = Hey what happen, ur white skin hurt u in the sun or what?
-# sent_id = 12725
-1	Hey	hey	INTJ	UH	_	0	_	_	start_char=8|end_char=11
-2	what	what	PRON	WP	PronType=Int	1	_	_	start_char=12|end_char=16
-3	happen	happen	VERB	VB	VerbForm=Fin	2	_	_	start_char=17|end_char=23|SpaceAfter=No
-4	,	,	PUNCT	,	_	3	_	_	start_char=23|end_char=24
-5	ur	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	4	_	_	start_char=25|end_char=27
-6	white	white	ADJ	JJ	Degree=Pos	5	_	_	start_char=28|end_char=33
-7	skin	skin	NOUN	NN	Number=Sing	6	_	_	start_char=34|end_char=38
-8	hurt	hurt	VERB	VB	Mood=Ind|Person=3|VerbForm=Fin	7	_	_	start_char=39|end_char=43
-9	u	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	8	_	_	start_char=44|end_char=45
-10	in	in	ADP	IN	_	9	_	_	start_char=46|end_char=48
-11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=49|end_char=52
-12	sun	sun	NOUN	NN	Number=Sing	11	_	_	start_char=53|end_char=56
-13	or	or	CCONJ	CC	_	12	_	_	start_char=57|end_char=59
-14	what	what	PRON	WP	PronType=Int	13	_	_	start_char=60|end_char=64|SpaceAfter=No
-15	?	?	PUNCT	.	_	14	_	_	start_char=64|end_char=65
+# text = ‍ Hey what happen, ur white skin hurt u in the sun or what?
+# sent_id = 12315
+1	‍	‍	PUNCT	``	_	0	_	_	start_char=0|end_char=1
+2	Hey	hey	INTJ	UH	_	1	_	_	start_char=2|end_char=5
+3	what	what	PRON	WP	PronType=Int	2	_	_	start_char=6|end_char=10
+4	happen	happen	VERB	VB	Mood=Imp|VerbForm=Fin	3	_	_	start_char=11|end_char=17|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=17|end_char=18
+6	ur	your	PRON	PRP$	Case=Gen|Number=Sing|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=19|end_char=21
+7	white	white	ADJ	JJ	Degree=Pos	6	_	_	start_char=22|end_char=27
+8	skin	skin	NOUN	NN	Number=Sing	7	_	_	start_char=28|end_char=32
+9	hurt	hurt	VERB	VB	Mood=Ind|Person=3|VerbForm=Fin	8	_	_	start_char=33|end_char=37
+10	u	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	9	_	_	start_char=38|end_char=39
+11	in	in	ADP	IN	_	10	_	_	start_char=40|end_char=42
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=43|end_char=46
+13	sun	sun	NOUN	NN	Number=Sing	12	_	_	start_char=47|end_char=50
+14	or	or	CCONJ	CC	_	13	_	_	start_char=51|end_char=53
+15	what	what	PRON	WP	PronType=Int	14	_	_	start_char=54|end_char=58|SpaceAfter=No
+16	?	?	PUNCT	.	_	15	_	_	start_char=58|end_char=59
 
 # text = did u rea about how ur rape god fucked a 12 year old girl.
-# sent_id = 12726
-1	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=66|end_char=69
-2	u	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	1	_	_	start_char=70|end_char=71
-3	rea	rea	NOUN	NN	Number=Sing	2	_	_	start_char=72|end_char=75
-4	about	about	SCONJ	IN	_	3	_	_	start_char=76|end_char=81
-5	how	how	ADV	WRB	PronType=Int	4	_	_	start_char=82|end_char=85
-6	ur	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=86|end_char=88
-7	rape	rape	NOUN	NN	Number=Sing	6	_	_	start_char=89|end_char=93
-8	god	god	NOUN	NN	Number=Sing	7	_	_	start_char=94|end_char=97
-9	fucked	fuck	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=98|end_char=104
-10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=105|end_char=106
-11	12	12	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=107|end_char=109
-12	year	year	NOUN	NN	Number=Sing	11	_	_	start_char=110|end_char=114
-13	old	old	ADJ	JJ	Degree=Pos	12	_	_	start_char=115|end_char=118
-14	girl	girl	NOUN	NN	Number=Sing	13	_	_	start_char=119|end_char=123|SpaceAfter=No
-15	.	.	PUNCT	.	_	14	_	_	start_char=123|end_char=124
+# sent_id = 12316
+1	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	_	_	start_char=60|end_char=63
+2	u	you	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	1	_	_	start_char=64|end_char=65
+3	rea	rea	NOUN	NN	Number=Sing	2	_	_	start_char=66|end_char=69
+4	about	about	SCONJ	IN	_	3	_	_	start_char=70|end_char=75
+5	how	how	ADV	WRB	PronType=Int	4	_	_	start_char=76|end_char=79
+6	ur	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=80|end_char=82
+7	rape	rape	NOUN	NN	Number=Sing	6	_	_	start_char=83|end_char=87
+8	god	god	NOUN	NN	Number=Sing	7	_	_	start_char=88|end_char=91
+9	fucked	fuck	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	_	_	start_char=92|end_char=98
+10	a	a	DET	DT	Definite=Ind|PronType=Art	9	_	_	start_char=99|end_char=100
+11	12	12	NUM	CD	NumForm=Digit|NumType=Card	10	_	_	start_char=101|end_char=103
+12	year	year	NOUN	NN	Number=Sing	11	_	_	start_char=104|end_char=108
+13	old	old	ADJ	JJ	Degree=Pos	12	_	_	start_char=109|end_char=112
+14	girl	girl	NOUN	NN	Number=Sing	13	_	_	start_char=113|end_char=117|SpaceAfter=No
+15	.	.	PUNCT	.	_	14	_	_	start_char=117|end_char=118
 
 # text = Shame on that book u read and force other nation to read it.
-# sent_id = 12727
-1	Shame	shame	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=125|end_char=130
-2	on	on	ADP	IN	_	1	_	_	start_char=131|end_char=133
-3	that	that	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=134|end_char=138
-4	book	book	NOUN	NN	Number=Sing	3	_	_	start_char=139|end_char=143
-5	u	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=144|end_char=145
-6	read	read	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	5	_	_	start_char=146|end_char=150
-7	and	and	CCONJ	CC	_	6	_	_	start_char=151|end_char=154
-8	force	force	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=155|end_char=160
-9	other	other	ADJ	JJ	Degree=Pos	8	_	_	start_char=161|end_char=166
-10	nation	nation	NOUN	NN	Number=Sing	9	_	_	start_char=167|end_char=173
-11	to	to	PART	TO	_	10	_	_	start_char=174|end_char=176
-12	read	read	VERB	VB	VerbForm=Inf	11	_	_	start_char=177|end_char=181
-13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=182|end_char=184|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=184|end_char=185|SpaceAfter=No
+# sent_id = 12317
+1	Shame	shame	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=119|end_char=124
+2	on	on	ADP	IN	_	1	_	_	start_char=125|end_char=127
+3	that	that	DET	DT	Number=Sing|PronType=Dem	2	_	_	start_char=128|end_char=132
+4	book	book	NOUN	NN	Number=Sing	3	_	_	start_char=133|end_char=137
+5	u	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=138|end_char=139
+6	read	read	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	5	_	_	start_char=140|end_char=144
+7	and	and	CCONJ	CC	_	6	_	_	start_char=145|end_char=148
+8	force	force	VERB	VB	Mood=Imp|VerbForm=Fin	7	_	_	start_char=149|end_char=154
+9	other	other	ADJ	JJ	Degree=Pos	8	_	_	start_char=155|end_char=160
+10	nation	nation	NOUN	NN	Number=Sing	9	_	_	start_char=161|end_char=167
+11	to	to	PART	TO	_	10	_	_	start_char=168|end_char=170
+12	read	read	VERB	VB	VerbForm=Inf	11	_	_	start_char=171|end_char=175
+13	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=176|end_char=178|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=178|end_char=179|SpaceAfter=No
 

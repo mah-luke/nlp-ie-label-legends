@@ -1,5 +1,5 @@
 # text = She's still around.
-# sent_id = 126075
+# sent_id = 122009
 1-2	She's	_	_	_	_	_	_	_	start_char=0|end_char=5
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=0|end_char=3
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=5
@@ -8,7 +8,7 @@
 5	.	.	PUNCT	.	_	4	_	_	start_char=18|end_char=19
 
 # text = Released her latest album in 2008.
-# sent_id = 126076
+# sent_id = 122010
 1	Released	release	VERB	VBN	Tense=Past|VerbForm=Part	0	_	_	start_char=20|end_char=28
 2	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=29|end_char=32
 3	latest	late	ADJ	JJS	Degree=Sup	2	_	_	start_char=33|end_char=39
@@ -16,10 +16,4 @@
 5	in	in	ADP	IN	_	4	_	_	start_char=46|end_char=48
 6	2008	2008	NUM	CD	NumForm=Digit|NumType=Card	5	_	_	start_char=49|end_char=53|SpaceAfter=No
 7	.	.	PUNCT	.	_	6	_	_	start_char=53|end_char=54
-
-# text = [URL]
-# sent_id = 126077
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=55|end_char=56|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=56|end_char=59|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=59|end_char=60|SpaceAfter=No
 

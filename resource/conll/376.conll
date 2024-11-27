@@ -1,62 +1,53 @@
-# text = [USER]
-# sent_id = 793
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
-# text = I followed you because [USER] is my #GabFam, which makes you my #GabFam.
-# sent_id = 794
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=7|end_char=8
-2	followed	follow	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=9|end_char=17
-3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=18|end_char=21
-4	because	because	SCONJ	IN	_	3	_	_	start_char=22|end_char=29
-5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=30|end_char=31|SpaceAfter=No
-6	USER	user	NOUN	NN	Number=Sing	5	_	_	start_char=31|end_char=35|SpaceAfter=No
-7	]	]	PUNCT	-RRB-	_	6	_	_	start_char=35|end_char=36
-8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=37|end_char=39
-9	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	_	_	start_char=40|end_char=42
-10	#	#	SYM	NN	Number=Sing	9	_	_	start_char=43|end_char=44|SpaceAfter=No
-11	GabFam	GabFam	PROPN	NNP	Number=Sing	10	_	_	start_char=44|end_char=50|SpaceAfter=No
-12	,	,	PUNCT	,	_	11	_	_	start_char=50|end_char=51
-13	which	which	PRON	WDT	PronType=Rel	12	_	_	start_char=52|end_char=57
-14	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=58|end_char=63
-15	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	14	_	_	start_char=64|end_char=67
-16	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	15	_	_	start_char=68|end_char=70
-17	#	#	SYM	NN	Number=Sing	16	_	_	start_char=71|end_char=72|SpaceAfter=No
-18	GabFam	GabFam	PROPN	NNP	Number=Sing	17	_	_	start_char=72|end_char=78|SpaceAfter=No
-19	.	.	PUNCT	.	_	18	_	_	start_char=78|end_char=79
+# text = I followed you because is my #GabFam, which makes you my #GabFam.
+# sent_id = 765
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=1|end_char=2|SpacesBefore=\s
+2	followed	follow	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=3|end_char=11
+3	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	2	_	_	start_char=12|end_char=15
+4	because	because	SCONJ	IN	_	3	_	_	start_char=16|end_char=23|SpacesAfter=\s\s
+5	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=25|end_char=27
+6	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	_	_	start_char=28|end_char=30
+7	#	#	SYM	NN	Number=Sing	6	_	_	start_char=31|end_char=32|SpaceAfter=No
+8	GabFam	GabFam	PROPN	NNP	Number=Sing	7	_	_	start_char=32|end_char=38|SpaceAfter=No
+9	,	,	PUNCT	,	_	8	_	_	start_char=38|end_char=39
+10	which	which	PRON	WDT	PronType=Rel	9	_	_	start_char=40|end_char=45
+11	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=46|end_char=51
+12	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	11	_	_	start_char=52|end_char=55
+13	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	12	_	_	start_char=56|end_char=58
+14	#	#	SYM	NN	Number=Sing	13	_	_	start_char=59|end_char=60|SpaceAfter=No
+15	GabFam	GabFam	PROPN	NNP	Number=Sing	14	_	_	start_char=60|end_char=66|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=66|end_char=67
 
 # text = She up votes my lame posts which makes her alright in my book.
-# sent_id = 795
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=80|end_char=83
-2	up	up	ADP	RP	_	1	_	_	start_char=84|end_char=86
-3	votes	vote	NOUN	NNS	Number=Plur	2	_	_	start_char=87|end_char=92
-4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=93|end_char=95
-5	lame	lame	ADJ	JJ	Degree=Pos	4	_	_	start_char=96|end_char=100
-6	posts	post	NOUN	NNS	Number=Plur	5	_	_	start_char=101|end_char=106
-7	which	which	PRON	WDT	PronType=Rel	6	_	_	start_char=107|end_char=112
-8	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=113|end_char=118
-9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=119|end_char=122
-10	alright	alright	ADJ	JJ	Degree=Pos	9	_	_	start_char=123|end_char=130
-11	in	in	ADP	IN	_	10	_	_	start_char=131|end_char=133
-12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	_	_	start_char=134|end_char=136
-13	book	book	NOUN	NN	Number=Sing	12	_	_	start_char=137|end_char=141|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=141|end_char=142
+# sent_id = 766
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=68|end_char=71
+2	up	up	ADP	RP	_	1	_	_	start_char=72|end_char=74
+3	votes	vote	NOUN	NNS	Number=Plur	2	_	_	start_char=75|end_char=80
+4	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=81|end_char=83
+5	lame	lame	ADJ	JJ	Degree=Pos	4	_	_	start_char=84|end_char=88
+6	posts	post	NOUN	NNS	Number=Plur	5	_	_	start_char=89|end_char=94
+7	which	which	PRON	WDT	PronType=Rel	6	_	_	start_char=95|end_char=100
+8	makes	make	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=101|end_char=106
+9	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	8	_	_	start_char=107|end_char=110
+10	alright	alright	ADJ	JJ	Degree=Pos	9	_	_	start_char=111|end_char=118
+11	in	in	ADP	IN	_	10	_	_	start_char=119|end_char=121
+12	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	11	_	_	start_char=122|end_char=124
+13	book	book	NOUN	NN	Number=Sing	12	_	_	start_char=125|end_char=129|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=129|end_char=130
 
 # text = I hope I can count on you to have equally bad taste. 😜
-# sent_id = 796
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=143|end_char=144
-2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=145|end_char=149
-3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=150|end_char=151
-4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=152|end_char=155
-5	count	count	VERB	VB	VerbForm=Inf	4	_	_	start_char=156|end_char=161
-6	on	on	ADP	IN	_	5	_	_	start_char=162|end_char=164
-7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=165|end_char=168
-8	to	to	PART	TO	_	7	_	_	start_char=169|end_char=171
-9	have	have	VERB	VB	VerbForm=Inf	8	_	_	start_char=172|end_char=176
-10	equally	equally	ADV	RB	_	9	_	_	start_char=177|end_char=184
-11	bad	bad	ADJ	JJ	Degree=Pos	10	_	_	start_char=185|end_char=188
-12	taste	taste	NOUN	NN	Number=Sing	11	_	_	start_char=189|end_char=194|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=194|end_char=195
-14	😜	😜	PUNCT	''	_	13	_	_	start_char=196|end_char=197|SpaceAfter=No
+# sent_id = 767
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=131|end_char=132
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=133|end_char=137
+3	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=138|end_char=139
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=140|end_char=143
+5	count	count	VERB	VB	VerbForm=Inf	4	_	_	start_char=144|end_char=149
+6	on	on	ADP	IN	_	5	_	_	start_char=150|end_char=152
+7	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	6	_	_	start_char=153|end_char=156
+8	to	to	PART	TO	_	7	_	_	start_char=157|end_char=159
+9	have	have	VERB	VB	VerbForm=Inf	8	_	_	start_char=160|end_char=164
+10	equally	equally	ADV	RB	_	9	_	_	start_char=165|end_char=172
+11	bad	bad	ADJ	JJ	Degree=Pos	10	_	_	start_char=173|end_char=176
+12	taste	taste	NOUN	NN	Number=Sing	11	_	_	start_char=177|end_char=182|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=182|end_char=183
+14	😜	😜	PUNCT	''	_	13	_	_	start_char=184|end_char=185|SpaceAfter=No
 

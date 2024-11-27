@@ -1,61 +1,52 @@
-# text = [USER]
-# sent_id = 65991
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = When did Twatter Jack yank your account?
-# sent_id = 65992
-1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=7|end_char=11
-2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=12|end_char=15
-3	Twatter	Twatter	PROPN	NNP	Number=Sing	2	_	_	start_char=16|end_char=23
-4	Jack	Jack	PROPN	NNP	Number=Sing	3	_	_	start_char=24|end_char=28
-5	yank	yank	VERB	VB	VerbForm=Inf	4	_	_	start_char=29|end_char=33
-6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=34|end_char=38
-7	account	account	NOUN	NN	Number=Sing	6	_	_	start_char=39|end_char=46|SpaceAfter=No
-8	?	?	PUNCT	.	_	7	_	_	start_char=46|end_char=47
+# sent_id = 63867
+1	When	when	ADV	WRB	PronType=Int	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=6|end_char=9
+3	Twatter	Twatter	PROPN	NNP	Number=Sing	2	_	_	start_char=10|end_char=17
+4	Jack	Jack	PROPN	NNP	Number=Sing	3	_	_	start_char=18|end_char=22
+5	yank	yank	VERB	VB	VerbForm=Inf	4	_	_	start_char=23|end_char=27
+6	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	5	_	_	start_char=28|end_char=32
+7	account	account	NOUN	NN	Number=Sing	6	_	_	start_char=33|end_char=40|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=40|end_char=41
 
 # text = That is such BS...
-# sent_id = 65993
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=48|end_char=52
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=53|end_char=55
-3	such	such	ADJ	JJ	Degree=Pos	2	_	_	start_char=56|end_char=60
-4	BS	bs	NOUN	NN	Number=Sing	3	_	_	start_char=61|end_char=63|SpaceAfter=No
-5	...	...	PUNCT	.	_	4	_	_	start_char=63|end_char=66
+# sent_id = 63868
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=42|end_char=46
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=47|end_char=49
+3	such	such	ADJ	JJ	Degree=Pos	2	_	_	start_char=50|end_char=54
+4	BS	bs	NOUN	NN	Number=Sing	3	_	_	start_char=55|end_char=57|SpaceAfter=No
+5	...	...	PUNCT	.	_	4	_	_	start_char=57|end_char=60
 
-# text = I hope you'll be back soon, we need you and [USER] in the fight.
-# sent_id = 65994
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=67|end_char=68
-2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=69|end_char=73
-3-4	you'll	_	_	_	_	_	_	_	start_char=74|end_char=80
-3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=74|end_char=77
-4	'll	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=77|end_char=80
-5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=81|end_char=83
-6	back	back	ADV	RB	_	5	_	_	start_char=84|end_char=88
-7	soon	soon	ADV	RB	Degree=Pos	6	_	_	start_char=89|end_char=93|SpaceAfter=No
-8	,	,	PUNCT	,	_	7	_	_	start_char=93|end_char=94
-9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	_	_	start_char=95|end_char=97
-10	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=98|end_char=102
-11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=103|end_char=106
-12	and	and	CCONJ	CC	_	11	_	_	start_char=107|end_char=110
-13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=111|end_char=112|SpaceAfter=No
-14	USER	user	NOUN	NN	Number=Sing	13	_	_	start_char=112|end_char=116|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=116|end_char=117
-16	in	in	ADP	IN	_	15	_	_	start_char=118|end_char=120
-17	the	the	DET	DT	Definite=Def|PronType=Art	16	_	_	start_char=121|end_char=124
-18	fight	fight	NOUN	NN	Number=Sing	17	_	_	start_char=125|end_char=130|SpaceAfter=No
-19	.	.	PUNCT	.	_	18	_	_	start_char=130|end_char=131
+# text = I hope you'll be back soon, we need you and in the fight.
+# sent_id = 63869
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=61|end_char=62
+2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=63|end_char=67
+3-4	you'll	_	_	_	_	_	_	_	start_char=68|end_char=74
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=68|end_char=71
+4	'll	will	AUX	MD	VerbForm=Fin	3	_	_	start_char=71|end_char=74
+5	be	be	AUX	VB	VerbForm=Inf	4	_	_	start_char=75|end_char=77
+6	back	back	ADV	RB	_	5	_	_	start_char=78|end_char=82
+7	soon	soon	ADV	RB	Degree=Pos	6	_	_	start_char=83|end_char=87|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=87|end_char=88
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	_	_	start_char=89|end_char=91
+10	need	need	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	_	_	start_char=92|end_char=96
+11	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	10	_	_	start_char=97|end_char=100
+12	and	and	CCONJ	CC	_	11	_	_	start_char=101|end_char=104|SpacesAfter=\s\s
+13	in	in	ADP	IN	_	12	_	_	start_char=106|end_char=108
+14	the	the	DET	DT	Definite=Def|PronType=Art	13	_	_	start_char=109|end_char=112
+15	fight	fight	NOUN	NN	Number=Sing	14	_	_	start_char=113|end_char=118|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=118|end_char=119
 
 # text = You guys are the strong conservative women they fear.
-# sent_id = 65995
-1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=132|end_char=135
-2	guys	guy	NOUN	NNS	Number=Plur	1	_	_	start_char=136|end_char=140
-3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=141|end_char=144
-4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=145|end_char=148
-5	strong	strong	ADJ	JJ	Degree=Pos	4	_	_	start_char=149|end_char=155
-6	conservative	conservative	ADJ	JJ	Degree=Pos	5	_	_	start_char=156|end_char=168
-7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=169|end_char=174
-8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=175|end_char=179
-9	fear	fear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=180|end_char=184|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=184|end_char=185|SpaceAfter=No
+# sent_id = 63870
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=120|end_char=123
+2	guys	guy	NOUN	NNS	Number=Plur	1	_	_	start_char=124|end_char=128
+3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=129|end_char=132
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=133|end_char=136
+5	strong	strong	ADJ	JJ	Degree=Pos	4	_	_	start_char=137|end_char=143
+6	conservative	conservative	ADJ	JJ	Degree=Pos	5	_	_	start_char=144|end_char=156
+7	women	woman	NOUN	NNS	Number=Plur	6	_	_	start_char=157|end_char=162
+8	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	_	_	start_char=163|end_char=167
+9	fear	fear	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=168|end_char=172|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=172|end_char=173|SpaceAfter=No
 

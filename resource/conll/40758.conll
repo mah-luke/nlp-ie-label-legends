@@ -1,49 +1,43 @@
-# text = Australian Shepherd Q & A 🐾❓ Major Itchy Skin [URL]
-# sent_id = 87219
-1	Australian	Australian	ADJ	NNP	Degree=Pos	0	_	_	start_char=0|end_char=10
-2	Shepherd	Shepherd	PROPN	NNP	Number=Sing	1	_	_	start_char=11|end_char=19
+# text = Australian Shepherd Q & A 🐾❓ Major Itchy Skin Please take a moment to Like, Comment, and Share because it really helps to get the word out to fellow Aussie Lovers. :)
+# sent_id = 84363
+1	Australian	Australian	ADJ	JJ	Degree=Pos	0	_	_	start_char=0|end_char=10
+2	Shepherd	shepherd	NOUN	NN	Number=Sing	1	_	_	start_char=11|end_char=19
 3	Q	Q	PROPN	NNP	Number=Sing	2	_	_	start_char=20|end_char=21
 4	&	&	CCONJ	CC	_	3	_	_	start_char=22|end_char=23
 5	A	A	PROPN	NNP	Number=Sing	4	_	_	start_char=24|end_char=25
 6	🐾❓	🐾❓	PUNCT	:	_	5	_	_	start_char=26|end_char=28
-7	Major	Major	ADJ	NNP	Degree=Pos	6	_	_	start_char=29|end_char=34
-8	Itchy	Itchy	PROPN	NNP	Number=Sing	7	_	_	start_char=35|end_char=40
-9	Skin	skin	PROPN	NNP	Number=Sing	8	_	_	start_char=41|end_char=45
-10	[	[	PUNCT	-LRB-	_	9	_	_	start_char=46|end_char=47|SpaceAfter=No
-11	URL	URL	PROPN	NNP	Number=Sing	10	_	_	start_char=47|end_char=50|SpaceAfter=No
-12	]	]	PUNCT	-RRB-	_	11	_	_	start_char=50|end_char=51
-
-# text = Please take a moment to Like, Comment, and Share because it really helps to get the word out to fellow Aussie Lovers. :)
-# sent_id = 87220
-1	Please	please	INTJ	UH	_	0	_	_	start_char=52|end_char=58
-2	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=59|end_char=63
-3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=64|end_char=65
-4	moment	moment	NOUN	NN	Number=Sing	3	_	_	start_char=66|end_char=72
-5	to	to	PART	TO	_	4	_	_	start_char=73|end_char=75
-6	Like	like	VERB	VB	VerbForm=Inf	5	_	_	start_char=76|end_char=80|SpaceAfter=No
-7	,	,	PUNCT	,	_	6	_	_	start_char=80|end_char=81
-8	Comment	comment	VERB	VB	VerbForm=Inf	7	_	_	start_char=82|end_char=89|SpaceAfter=No
-9	,	,	PUNCT	,	_	8	_	_	start_char=89|end_char=90
-10	and	and	CCONJ	CC	_	9	_	_	start_char=91|end_char=94
-11	Share	share	VERB	VB	VerbForm=Inf	10	_	_	start_char=95|end_char=100
-12	because	because	SCONJ	IN	_	11	_	_	start_char=101|end_char=108
-13	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=109|end_char=111
-14	really	really	ADV	RB	_	13	_	_	start_char=112|end_char=118
-15	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	_	_	start_char=119|end_char=124
-16	to	to	PART	TO	_	15	_	_	start_char=125|end_char=127
-17	get	get	VERB	VB	VerbForm=Inf	16	_	_	start_char=128|end_char=131
-18	the	the	DET	DT	Definite=Def|PronType=Art	17	_	_	start_char=132|end_char=135
-19	word	word	NOUN	NN	Number=Sing	18	_	_	start_char=136|end_char=140
-20	out	out	ADP	RP	_	19	_	_	start_char=141|end_char=144
-21	to	to	ADP	IN	_	20	_	_	start_char=145|end_char=147
-22	fellow	fellow	ADJ	JJ	Degree=Pos	21	_	_	start_char=148|end_char=154
-23	Aussie	Aussie	PROPN	NNP	Number=Sing	22	_	_	start_char=155|end_char=161
-24	Lovers	Lovers	PROPN	NNPS	Number=Plur	23	_	_	start_char=162|end_char=168|SpaceAfter=No
-25	.	.	PUNCT	.	_	24	_	_	start_char=168|end_char=169
-26	:)	:)	SYM	NFP	_	25	_	_	start_char=170|end_char=172
+7	Major	Major	ADJ	JJ	Degree=Pos	6	_	_	start_char=29|end_char=34
+8	Itchy	itchy	NOUN	NN	Number=Sing	7	_	_	start_char=35|end_char=40
+9	Skin	skin	NOUN	NN	Number=Sing	8	_	_	start_char=41|end_char=45|SpacesAfter=\s\s
+10	Please	please	INTJ	UH	_	9	_	_	start_char=47|end_char=53
+11	take	take	VERB	VB	Mood=Imp|VerbForm=Fin	10	_	_	start_char=54|end_char=58
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=59|end_char=60
+13	moment	moment	NOUN	NN	Number=Sing	12	_	_	start_char=61|end_char=67
+14	to	to	PART	TO	_	13	_	_	start_char=68|end_char=70
+15	Like	like	VERB	VB	VerbForm=Inf	14	_	_	start_char=71|end_char=75|SpaceAfter=No
+16	,	,	PUNCT	,	_	15	_	_	start_char=75|end_char=76
+17	Comment	comment	VERB	VB	VerbForm=Inf	16	_	_	start_char=77|end_char=84|SpaceAfter=No
+18	,	,	PUNCT	,	_	17	_	_	start_char=84|end_char=85
+19	and	and	CCONJ	CC	_	18	_	_	start_char=86|end_char=89
+20	Share	share	VERB	VB	VerbForm=Inf	19	_	_	start_char=90|end_char=95
+21	because	because	SCONJ	IN	_	20	_	_	start_char=96|end_char=103
+22	it	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	_	_	start_char=104|end_char=106
+23	really	really	ADV	RB	_	22	_	_	start_char=107|end_char=113
+24	helps	help	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=114|end_char=119
+25	to	to	PART	TO	_	24	_	_	start_char=120|end_char=122
+26	get	get	VERB	VB	VerbForm=Inf	25	_	_	start_char=123|end_char=126
+27	the	the	DET	DT	Definite=Def|PronType=Art	26	_	_	start_char=127|end_char=130
+28	word	word	NOUN	NN	Number=Sing	27	_	_	start_char=131|end_char=135
+29	out	out	ADP	RP	_	28	_	_	start_char=136|end_char=139
+30	to	to	ADP	IN	_	29	_	_	start_char=140|end_char=142
+31	fellow	fellow	ADJ	JJ	Degree=Pos	30	_	_	start_char=143|end_char=149
+32	Aussie	Aussie	PROPN	NNP	Number=Sing	31	_	_	start_char=150|end_char=156
+33	Lovers	Lovers	PROPN	NNPS	Number=Plur	32	_	_	start_char=157|end_char=163|SpaceAfter=No
+34	.	.	PUNCT	.	_	33	_	_	start_char=163|end_char=164
+35	:)	:)	SYM	NFP	_	34	_	_	start_char=165|end_char=167
 
 # text = #australianshepherd #dogs
-# sent_id = 87221
-1	#australianshepherd	#australianshepherd	X	GW	_	0	_	_	start_char=173|end_char=192
-2	#dogs	#dog	X	ADD	_	1	_	_	start_char=193|end_char=198|SpaceAfter=No
+# sent_id = 84364
+1	#australianshepherd	#australianshepherd	X	GW	_	0	_	_	start_char=168|end_char=187
+2	#dogs	#dog	X	ADD	_	1	_	_	start_char=188|end_char=193|SpaceAfter=No
 

@@ -1,27 +1,24 @@
-# text = [USER] am I correct in thinking the Clemson players get to go to pound town on the Bama players girlfriends now?
-# sent_id = 71181
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	_	_	start_char=7|end_char=9
-5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=10|end_char=11
-6	correct	correct	ADJ	JJ	Degree=Pos	5	_	_	start_char=12|end_char=19
-7	in	in	SCONJ	IN	_	6	_	_	start_char=20|end_char=22
-8	thinking	think	VERB	VBG	VerbForm=Ger	7	_	_	start_char=23|end_char=31
-9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=32|end_char=35
-10	Clemson	Clemson	PROPN	NNP	Number=Sing	9	_	_	start_char=36|end_char=43
-11	players	player	NOUN	NNS	Number=Plur	10	_	_	start_char=44|end_char=51
-12	get	get	VERB	VB	VerbForm=Inf	11	_	_	start_char=52|end_char=55
-13	to	to	PART	TO	_	12	_	_	start_char=56|end_char=58
-14	go	go	VERB	VB	VerbForm=Inf	13	_	_	start_char=59|end_char=61
-15	to	to	ADP	IN	_	14	_	_	start_char=62|end_char=64
-16	pound	pound	NOUN	NN	Number=Sing	15	_	_	start_char=65|end_char=70
-17	town	town	NOUN	NN	Number=Sing	16	_	_	start_char=71|end_char=75
-18	on	on	ADP	IN	_	17	_	_	start_char=76|end_char=78
-19	the	the	DET	DT	Definite=Def|PronType=Art	18	_	_	start_char=79|end_char=82
-20	Bama	Bama	PROPN	NNP	Number=Sing	19	_	_	start_char=83|end_char=87
-21	players	player	NOUN	NNS	Number=Plur	20	_	_	start_char=88|end_char=95
-22	girlfriends	girlfriend	NOUN	NNS	Number=Plur	21	_	_	start_char=96|end_char=107
-23	now	now	ADV	RB	_	22	_	_	start_char=108|end_char=111|SpaceAfter=No
-24	?	?	PUNCT	.	_	23	_	_	start_char=111|end_char=112|SpaceAfter=No
+# text = am I correct in thinking the Clemson players get to go to pound town on the Bama players girlfriends now?
+# sent_id = 68883
+1	am	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=4|end_char=5
+3	correct	correct	ADJ	JJ	Degree=Pos	2	_	_	start_char=6|end_char=13
+4	in	in	SCONJ	IN	_	3	_	_	start_char=14|end_char=16
+5	thinking	think	VERB	VBG	VerbForm=Ger	4	_	_	start_char=17|end_char=25
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=26|end_char=29
+7	Clemson	Clemson	PROPN	NNP	Number=Sing	6	_	_	start_char=30|end_char=37
+8	players	player	NOUN	NNS	Number=Plur	7	_	_	start_char=38|end_char=45
+9	get	get	VERB	VB	Person=3|VerbForm=Inf	8	_	_	start_char=46|end_char=49
+10	to	to	PART	TO	_	9	_	_	start_char=50|end_char=52
+11	go	go	VERB	VB	VerbForm=Inf	10	_	_	start_char=53|end_char=55
+12	to	to	ADP	IN	_	11	_	_	start_char=56|end_char=58
+13	pound	pound	NOUN	NN	Number=Sing	12	_	_	start_char=59|end_char=64
+14	town	town	NOUN	NN	Number=Sing	13	_	_	start_char=65|end_char=69
+15	on	on	ADP	IN	_	14	_	_	start_char=70|end_char=72
+16	the	the	DET	DT	Definite=Def|PronType=Art	15	_	_	start_char=73|end_char=76
+17	Bama	Bama	PROPN	NNP	Number=Sing	16	_	_	start_char=77|end_char=81
+18	players	player	NOUN	NNS	Number=Plur	17	_	_	start_char=82|end_char=89
+19	girlfriends	girlfriend	NOUN	NNS	Number=Plur	18	_	_	start_char=90|end_char=101
+20	now	now	ADV	RB	_	19	_	_	start_char=102|end_char=105|SpaceAfter=No
+21	?	?	PUNCT	.	_	20	_	_	start_char=105|end_char=106|SpaceAfter=No
 

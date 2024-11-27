@@ -1,5 +1,5 @@
 # text = So why don't you crush him politically and drive him out of office.
-# sent_id = 47199
+# sent_id = 45645
 1	So	so	ADV	RB	_	0	_	_	start_char=0|end_char=2
 2	why	why	ADV	WRB	PronType=Int	1	_	_	start_char=3|end_char=6
 3-4	don't	_	_	_	_	_	_	_	start_char=7|end_char=12
@@ -18,7 +18,7 @@
 15	.	.	PUNCT	.	_	14	_	_	start_char=66|end_char=67
 
 # text = That's what politicians do.
-# sent_id = 47200
+# sent_id = 45646
 1-2	That's	_	_	_	_	_	_	_	start_char=68|end_char=74
 1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=68|end_char=72
 2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=72|end_char=74
@@ -28,7 +28,7 @@
 6	.	.	PUNCT	.	_	5	_	_	start_char=94|end_char=95
 
 # text = Clearly this woman isn't up to playing the big game.
-# sent_id = 47201
+# sent_id = 45647
 1	Clearly	clearly	ADV	RB	_	0	_	_	start_char=96|end_char=103
 2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=104|end_char=108
 3	woman	woman	NOUN	NN	Number=Sing	2	_	_	start_char=109|end_char=114
@@ -43,8 +43,8 @@
 11	game	game	NOUN	NN	Number=Sing	10	_	_	start_char=143|end_char=147|SpaceAfter=No
 12	.	.	PUNCT	.	_	11	_	_	start_char=147|end_char=148
 
-# text = (I wish we din't have governments, but..) [URL]
-# sent_id = 47202
+# text = (I wish we din't have governments, but..)
+# sent_id = 45648
 1	(	(	PUNCT	-LRB-	_	0	_	_	start_char=149|end_char=150|SpaceAfter=No
 2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=150|end_char=151
 3	wish	wish	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	_	_	start_char=152|end_char=156
@@ -58,7 +58,4 @@
 10	but	but	CCONJ	CC	_	9	_	_	start_char=184|end_char=187|SpaceAfter=No
 11	..	..	PUNCT	.	_	10	_	_	start_char=187|end_char=189|SpaceAfter=No
 12	)	)	PUNCT	-RRB-	_	11	_	_	start_char=189|end_char=190
-13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=191|end_char=192|SpaceAfter=No
-14	URL	URL	PROPN	NNP	Number=Sing	13	_	_	start_char=192|end_char=195|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=195|end_char=196|SpaceAfter=No
 

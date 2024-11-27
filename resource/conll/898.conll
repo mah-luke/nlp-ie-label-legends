@@ -1,5 +1,5 @@
-# text = Clinton slips twice during trip to India - five months after she broke her toe in a London hotel [URL]
-# sent_id = 1877
+# text = Clinton slips twice during trip to India - five months after she broke her toe in a London hotel
+# sent_id = 1820
 1	Clinton	Clinton	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=7
 2	slips	slip	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=8|end_char=13
 3	twice	twice	ADV	RB	NumType=Mult	2	_	_	start_char=14|end_char=19
@@ -18,22 +18,19 @@
 16	in	in	ADP	IN	_	15	_	_	start_char=79|end_char=81
 17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=82|end_char=83
 18	London	London	PROPN	NNP	Number=Sing	17	_	_	start_char=84|end_char=90
-19	hotel	hotel	NOUN	NN	Number=Sing	18	_	_	start_char=91|end_char=96
-20	[	[	PUNCT	-LRB-	_	19	_	_	start_char=97|end_char=98|SpaceAfter=No
-21	URL	URL	PROPN	NNP	Number=Sing	20	_	_	start_char=98|end_char=101|SpaceAfter=No
-22	]	]	PUNCT	-RRB-	_	21	_	_	start_char=101|end_char=102
+19	hotel	hotel	NOUN	NN	Number=Sing	18	_	_	start_char=91|end_char=96|SpacesAfter=\s\s
 
 # text = She is there promoting her book explaining her 2016 presidential loss
-# sent_id = 1878
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=103|end_char=106
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=107|end_char=109
-3	there	there	ADV	RB	PronType=Dem	2	_	_	start_char=110|end_char=115
-4	promoting	promote	VERB	VBG	VerbForm=Ger	3	_	_	start_char=116|end_char=125
-5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=126|end_char=129
-6	book	book	NOUN	NN	Number=Sing	5	_	_	start_char=130|end_char=134
-7	explaining	explain	VERB	VBG	VerbForm=Ger	6	_	_	start_char=135|end_char=145
-8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=146|end_char=149
-9	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=150|end_char=154
-10	presidential	presidential	ADJ	JJ	Degree=Pos	9	_	_	start_char=155|end_char=167
-11	loss	loss	NOUN	NN	Number=Sing	10	_	_	start_char=168|end_char=172|SpaceAfter=No
+# sent_id = 1821
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=98|end_char=101
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=102|end_char=104
+3	there	there	ADV	RB	PronType=Dem	2	_	_	start_char=105|end_char=110
+4	promoting	promote	VERB	VBG	VerbForm=Ger	3	_	_	start_char=111|end_char=120
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=121|end_char=124
+6	book	book	NOUN	NN	Number=Sing	5	_	_	start_char=125|end_char=129
+7	explaining	explain	VERB	VBG	VerbForm=Ger	6	_	_	start_char=130|end_char=140
+8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=141|end_char=144
+9	2016	2016	NUM	CD	NumForm=Digit|NumType=Card	8	_	_	start_char=145|end_char=149
+10	presidential	presidential	ADJ	JJ	Degree=Pos	9	_	_	start_char=150|end_char=162
+11	loss	loss	NOUN	NN	Number=Sing	10	_	_	start_char=163|end_char=167|SpaceAfter=No
 

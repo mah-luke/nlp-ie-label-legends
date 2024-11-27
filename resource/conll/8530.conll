@@ -1,51 +1,42 @@
-# text = [USER]
-# sent_id = 17936
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Hope you're doing well!
-# sent_id = 17937
-1	Hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	start_char=7|end_char=11
-2-3	you're	_	_	_	_	_	_	_	start_char=12|end_char=18
-2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=12|end_char=15
-3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=15|end_char=18
-4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=19|end_char=24
-5	well	well	ADV	RB	Degree=Pos	4	_	_	start_char=25|end_char=29|SpaceAfter=No
-6	!	!	PUNCT	.	_	5	_	_	start_char=29|end_char=30
+# sent_id = 17365
+1	Hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	_	_	start_char=1|end_char=5|SpacesBefore=\s
+2-3	you're	_	_	_	_	_	_	_	start_char=6|end_char=12
+2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=6|end_char=9
+3	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=9|end_char=12
+4	doing	do	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=13|end_char=18
+5	well	well	ADV	RB	Degree=Pos	4	_	_	start_char=19|end_char=23|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=23|end_char=24
 
 # text = Got my first block today!
-# sent_id = 17938
-1	Got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=31|end_char=34
-2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=35|end_char=37
-3	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	2	_	_	start_char=38|end_char=43
-4	block	block	NOUN	NN	Number=Sing	3	_	_	start_char=44|end_char=49
-5	today	today	NOUN	NN	Number=Sing	4	_	_	start_char=50|end_char=55|SpaceAfter=No
-6	!	!	PUNCT	.	_	5	_	_	start_char=55|end_char=56
+# sent_id = 17366
+1	Got	get	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=25|end_char=28
+2	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	1	_	_	start_char=29|end_char=31
+3	first	first	ADJ	JJ	Degree=Pos|NumType=Ord	2	_	_	start_char=32|end_char=37
+4	block	block	NOUN	NN	Number=Sing	3	_	_	start_char=38|end_char=43
+5	today	today	NOUN	NN	Number=Sing	4	_	_	start_char=44|end_char=49|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=49|end_char=50|SpacesAfter=\s\s
 
-# text = [USER] on #Twitter couldn't handle the truth.
-# sent_id = 17939
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=57|end_char=58|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=58|end_char=62|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=62|end_char=63
-4	on	on	ADP	IN	_	3	_	_	start_char=64|end_char=66
-5	#	#	SYM	NN	Number=Sing	4	_	_	start_char=67|end_char=68|SpaceAfter=No
-6	Twitter	Twitter	PROPN	NNP	Number=Sing	5	_	_	start_char=68|end_char=75
-7-8	couldn't	_	_	_	_	_	_	_	start_char=76|end_char=84
-7	could	could	AUX	MD	VerbForm=Fin	6	_	_	start_char=76|end_char=81
-8	n't	not	PART	RB	_	7	_	_	start_char=81|end_char=84
-9	handle	handle	VERB	VB	VerbForm=Inf	8	_	_	start_char=85|end_char=91
-10	the	the	DET	DT	Definite=Def|PronType=Art	9	_	_	start_char=92|end_char=95
-11	truth	truth	NOUN	NN	Number=Sing	10	_	_	start_char=96|end_char=101|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=101|end_char=102
+# text = on #Twitter couldn't handle the truth.
+# sent_id = 17367
+1	on	on	ADP	IN	_	0	_	_	start_char=52|end_char=54
+2	#	#	SYM	NN	Number=Sing	1	_	_	start_char=55|end_char=56|SpaceAfter=No
+3	Twitter	Twitter	PROPN	NNP	Number=Sing	2	_	_	start_char=56|end_char=63
+4-5	couldn't	_	_	_	_	_	_	_	start_char=64|end_char=72
+4	could	could	AUX	MD	VerbForm=Fin	3	_	_	start_char=64|end_char=69
+5	n't	not	PART	RB	_	4	_	_	start_char=69|end_char=72
+6	handle	handle	VERB	VB	VerbForm=Inf	5	_	_	start_char=73|end_char=79
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=80|end_char=83
+8	truth	truth	NOUN	NN	Number=Sing	7	_	_	start_char=84|end_char=89|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=89|end_char=90
 
 # text = I tried to make you proud.
-# sent_id = 17940
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=103|end_char=104
-2	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=105|end_char=110
-3	to	to	PART	TO	_	2	_	_	start_char=111|end_char=113
-4	make	make	VERB	VB	VerbForm=Inf	3	_	_	start_char=114|end_char=118
-5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=119|end_char=122
-6	proud	proud	ADJ	JJ	Degree=Pos	5	_	_	start_char=123|end_char=128|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=128|end_char=129|SpaceAfter=No
+# sent_id = 17368
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=91|end_char=92
+2	tried	try	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=93|end_char=98
+3	to	to	PART	TO	_	2	_	_	start_char=99|end_char=101
+4	make	make	VERB	VB	VerbForm=Inf	3	_	_	start_char=102|end_char=106
+5	you	you	PRON	PRP	Case=Acc|Person=2|PronType=Prs	4	_	_	start_char=107|end_char=110
+6	proud	proud	ADJ	JJ	Degree=Pos	5	_	_	start_char=111|end_char=116|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=116|end_char=117|SpaceAfter=No
 

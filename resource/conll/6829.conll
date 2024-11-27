@@ -1,46 +1,43 @@
-# text = andieiam ‏[USER] andieiam Retweeted Gab.AI/JohnWinters Trayvon Martin's father was a gangbanger who cheated on all his wives.
-# sent_id = 14238
+# text = andieiam ‏ andieiam Retweeted Gab.AI/JohnWinters Trayvon Martin's father was a gangbanger who cheated on all his wives.
+# sent_id = 13782
 1	andieiam	Andieiam	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=8
-2	‏	‏	PUNCT	:	_	1	_	_	start_char=9|end_char=10|SpaceAfter=No
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=10|end_char=11|SpaceAfter=No
-4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=11|end_char=15|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=15|end_char=16
-6	andieiam	Andieiam	PROPN	NNP	Number=Sing	5	_	_	start_char=17|end_char=25
-7	Retweeted	retweet	VERB	VBN	Tense=Past|VerbForm=Fin	6	_	_	start_char=26|end_char=35
-8	Gab.AI	Gab.AI	PROPN	NNP	Number=Sing	7	_	_	start_char=36|end_char=42|SpaceAfter=No
-9	/	/	SYM	,	_	8	_	_	start_char=42|end_char=43|SpaceAfter=No
-10	JohnWinters	JohnWinters	PROPN	NNP	Number=Sing	9	_	_	start_char=43|end_char=54
-11	Trayvon	Trayvon	PROPN	NNP	Number=Sing	10	_	_	start_char=55|end_char=62
-12-13	Martin's	_	_	_	_	_	_	_	start_char=63|end_char=71
-12	Martin	Martin	PROPN	NNP	Number=Sing	11	_	_	start_char=63|end_char=69
-13	's	's	PART	POS	_	12	_	_	start_char=69|end_char=71
-14	father	father	NOUN	NN	Number=Sing	13	_	_	start_char=72|end_char=78
-15	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=79|end_char=82
-16	a	a	DET	DT	Definite=Ind|PronType=Art	15	_	_	start_char=83|end_char=84
-17	gangbanger	gangbanger	NOUN	NN	Number=Sing	16	_	_	start_char=85|end_char=95
-18	who	who	PRON	WP	PronType=Rel	17	_	_	start_char=96|end_char=99
-19	cheated	cheat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	_	_	start_char=100|end_char=107
-20	on	on	ADP	IN	_	19	_	_	start_char=108|end_char=110
-21	all	all	DET	PDT	_	20	_	_	start_char=111|end_char=114
-22	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	_	_	start_char=115|end_char=118
-23	wives	wife	NOUN	NNS	Number=Plur	22	_	_	start_char=119|end_char=124|SpaceAfter=No
-24	.	.	PUNCT	.	_	23	_	_	start_char=124|end_char=125
+2	‏	‏	PUNCT	HYPH	_	1	_	_	start_char=9|end_char=10
+3	andieiam	Andieiam	PROPN	NNP	Number=Sing	2	_	_	start_char=11|end_char=19
+4	Retweeted	retweet	VERB	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=20|end_char=29
+5	Gab.AI	Gab.AI	PROPN	NNP	Number=Sing	4	_	_	start_char=30|end_char=36|SpaceAfter=No
+6	/	/	SYM	,	_	5	_	_	start_char=36|end_char=37|SpaceAfter=No
+7	JohnWinters	JohnWinters	PROPN	NNP	Number=Sing	6	_	_	start_char=37|end_char=48
+8	Trayvon	Trayvon	PROPN	NNP	Number=Sing	7	_	_	start_char=49|end_char=56
+9-10	Martin's	_	_	_	_	_	_	_	start_char=57|end_char=65
+9	Martin	Martin	PROPN	NNP	Number=Sing	8	_	_	start_char=57|end_char=63
+10	's	's	PART	POS	_	9	_	_	start_char=63|end_char=65
+11	father	father	NOUN	NN	Number=Sing	10	_	_	start_char=66|end_char=72
+12	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=73|end_char=76
+13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=77|end_char=78
+14	gangbanger	gangbanger	NOUN	NN	Number=Sing	13	_	_	start_char=79|end_char=89
+15	who	who	PRON	WP	PronType=Rel	14	_	_	start_char=90|end_char=93
+16	cheated	cheat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=94|end_char=101
+17	on	on	ADP	IN	_	16	_	_	start_char=102|end_char=104
+18	all	all	DET	PDT	_	17	_	_	start_char=105|end_char=108
+19	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=109|end_char=112
+20	wives	wife	NOUN	NNS	Number=Plur	19	_	_	start_char=113|end_char=118|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=118|end_char=119
 
 # text = His mother treated him poorly.
-# sent_id = 14239
-1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=126|end_char=129
-2	mother	mother	NOUN	NN	Number=Sing	1	_	_	start_char=130|end_char=136
-3	treated	treat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=137|end_char=144
-4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=145|end_char=148
-5	poorly	poorly	ADV	RB	_	4	_	_	start_char=149|end_char=155|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=155|end_char=156
+# sent_id = 13783
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=120|end_char=123
+2	mother	mother	NOUN	NN	Number=Sing	1	_	_	start_char=124|end_char=130
+3	treated	treat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	_	_	start_char=131|end_char=138
+4	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=139|end_char=142
+5	poorly	poorly	ADV	RB	_	4	_	_	start_char=143|end_char=149|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=149|end_char=150
 
 # text = She did not raise him.
-# sent_id = 14240
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=157|end_char=160
-2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=161|end_char=164
-3	not	not	PART	RB	_	2	_	_	start_char=165|end_char=168
-4	raise	raise	VERB	VB	VerbForm=Inf	3	_	_	start_char=169|end_char=174
-5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=175|end_char=178|SpaceAfter=No
-6	.	.	PUNCT	.	_	5	_	_	start_char=178|end_char=179|SpaceAfter=No
+# sent_id = 13784
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=151|end_char=154
+2	did	do	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=155|end_char=158
+3	not	not	PART	RB	_	2	_	_	start_char=159|end_char=162
+4	raise	raise	VERB	VB	VerbForm=Inf	3	_	_	start_char=163|end_char=168
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=169|end_char=172|SpaceAfter=No
+6	.	.	PUNCT	.	_	5	_	_	start_char=172|end_char=173|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = #NFL (National Felon League): Jets star threatened to sexually assault the wife of the cop who was arresting him.
-# sent_id = 103899
+# sent_id = 100502
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	NFL	NFL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4
 3	(	(	PUNCT	-LRB-	_	2	_	_	start_char=5|end_char=6|SpaceAfter=No
@@ -26,7 +26,7 @@
 24	.	.	PUNCT	.	_	23	_	_	start_char=112|end_char=113
 
 # text = He told the officer he was going to "fuck her and not in the eye."
-# sent_id = 103900
+# sent_id = 100503
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=114|end_char=116
 2	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=117|end_char=121
 3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=122|end_char=125
@@ -45,10 +45,4 @@
 16	eye	eye	NOUN	NN	Number=Sing	15	_	_	start_char=175|end_char=178|SpaceAfter=No
 17	.	.	PUNCT	.	_	16	_	_	start_char=178|end_char=179|SpaceAfter=No
 18	"	"	PUNCT	''	_	17	_	_	start_char=179|end_char=180
-
-# text = [URL]
-# sent_id = 103901
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=181|end_char=182|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=182|end_char=185|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=185|end_char=186|SpaceAfter=No
 

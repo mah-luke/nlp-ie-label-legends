@@ -1,5 +1,5 @@
 # text = No she's not lmao.
-# sent_id = 107385
+# sent_id = 103863
 1	No	no	INTJ	UH	Polarity=Neg	0	_	_	start_char=0|end_char=2
 2-3	she's	_	_	_	_	_	_	_	start_char=3|end_char=8
 2	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=3|end_char=6
@@ -9,7 +9,7 @@
 6	.	.	PUNCT	.	_	5	_	_	start_char=17|end_char=18
 
 # text = IRL ratings are sugarcoated.
-# sent_id = 107386
+# sent_id = 103864
 1	IRL	IRL	PROPN	NNP	Number=Sing	0	_	_	start_char=19|end_char=22
 2	ratings	rating	NOUN	NNS	Number=Plur	1	_	_	start_char=23|end_char=30
 3	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=31|end_char=34
@@ -17,7 +17,7 @@
 5	.	.	PUNCT	.	_	4	_	_	start_char=46|end_char=47
 
 # text = She might be a 5 or a 6 IRL, but her more accurate PSL (puahate-sluthate-lookism) rating is 4.
-# sent_id = 107387
+# sent_id = 103865
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=48|end_char=51
 2	might	might	AUX	MD	VerbForm=Fin	1	_	_	start_char=52|end_char=57
 3	be	be	AUX	VB	VerbForm=Inf	2	_	_	start_char=58|end_char=60
@@ -43,24 +43,18 @@
 23	rating	rating	NOUN	NN	Number=Sing	22	_	_	start_char=130|end_char=136
 24	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=137|end_char=139
 25	4	4	NUM	CD	NumForm=Digit|NumType=Card	24	_	_	start_char=140|end_char=141|SpaceAfter=No
-26	.	.	PUNCT	.	_	25	_	_	start_char=141|end_char=142
-
-# text = [URL]
-# sent_id = 107388
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=143|end_char=144|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=144|end_char=147|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=147|end_char=148
+26	.	.	PUNCT	.	_	25	_	_	start_char=141|end_char=142|SpacesAfter=\s\s
 
 # text = Large nose, asymmetric jawline and a strong chin.
-# sent_id = 107389
-1	Large	large	ADJ	JJ	Degree=Pos	0	_	_	start_char=149|end_char=154
-2	nose	nose	NOUN	NN	Number=Sing	1	_	_	start_char=155|end_char=159|SpaceAfter=No
-3	,	,	PUNCT	,	_	2	_	_	start_char=159|end_char=160
-4	asymmetric	asymmetric	ADJ	JJ	Degree=Pos	3	_	_	start_char=161|end_char=171
-5	jawline	jawline	NOUN	NN	Number=Sing	4	_	_	start_char=172|end_char=179
-6	and	and	CCONJ	CC	_	5	_	_	start_char=180|end_char=183
-7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=184|end_char=185
-8	strong	strong	ADJ	JJ	Degree=Pos	7	_	_	start_char=186|end_char=192
-9	chin	chin	NOUN	NN	Number=Sing	8	_	_	start_char=193|end_char=197|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=197|end_char=198|SpaceAfter=No
+# sent_id = 103866
+1	Large	large	ADJ	JJ	Degree=Pos	0	_	_	start_char=144|end_char=149
+2	nose	nose	NOUN	NN	Number=Sing	1	_	_	start_char=150|end_char=154|SpaceAfter=No
+3	,	,	PUNCT	,	_	2	_	_	start_char=154|end_char=155
+4	asymmetric	asymmetric	ADJ	JJ	Degree=Pos	3	_	_	start_char=156|end_char=166
+5	jawline	jawline	NOUN	NN	Number=Sing	4	_	_	start_char=167|end_char=174
+6	and	and	CCONJ	CC	_	5	_	_	start_char=175|end_char=178
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=179|end_char=180
+8	strong	strong	ADJ	JJ	Degree=Pos	7	_	_	start_char=181|end_char=187
+9	chin	chin	NOUN	NN	Number=Sing	8	_	_	start_char=188|end_char=192|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=192|end_char=193|SpaceAfter=No
 

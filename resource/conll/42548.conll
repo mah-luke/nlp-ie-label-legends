@@ -1,49 +1,46 @@
-# text = I love [USER] .
-# sent_id = 90953
+# text = I love .
+# sent_id = 87986
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=0|end_char=1
-2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=7|end_char=8|SpaceAfter=No
-4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=8|end_char=12|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=12|end_char=13
-6	.	.	PUNCT	.	_	5	_	_	start_char=14|end_char=15
+2	love	love	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=2|end_char=6|SpacesAfter=\s\s
+3	.	.	PUNCT	.	_	2	_	_	start_char=8|end_char=9
 
 # text = She's like a happy, smart little shitlord who is mostly polite.
-# sent_id = 90954
-1-2	She's	_	_	_	_	_	_	_	start_char=16|end_char=21
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=16|end_char=19
-2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=19|end_char=21
-3	like	like	ADP	IN	_	2	_	_	start_char=22|end_char=26
-4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=27|end_char=28
-5	happy	happy	ADJ	JJ	Degree=Pos	4	_	_	start_char=29|end_char=34|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=34|end_char=35
-7	smart	smart	ADJ	JJ	Degree=Pos	6	_	_	start_char=36|end_char=41
-8	little	little	ADJ	JJ	Degree=Pos	7	_	_	start_char=42|end_char=48
-9	shitlord	shitlord	NOUN	NN	Number=Sing	8	_	_	start_char=49|end_char=57
-10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=58|end_char=61
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=62|end_char=64
-12	mostly	mostly	ADV	RB	_	11	_	_	start_char=65|end_char=71
-13	polite	polite	ADJ	JJ	Degree=Pos	12	_	_	start_char=72|end_char=78|SpaceAfter=No
-14	.	.	PUNCT	.	_	13	_	_	start_char=78|end_char=79
+# sent_id = 87987
+1-2	She's	_	_	_	_	_	_	_	start_char=10|end_char=15
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=10|end_char=13
+2	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=13|end_char=15
+3	like	like	ADP	IN	_	2	_	_	start_char=16|end_char=20
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=21|end_char=22
+5	happy	happy	ADJ	JJ	Degree=Pos	4	_	_	start_char=23|end_char=28|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=28|end_char=29
+7	smart	smart	ADJ	JJ	Degree=Pos	6	_	_	start_char=30|end_char=35
+8	little	little	ADJ	JJ	Degree=Pos	7	_	_	start_char=36|end_char=42
+9	shitlord	shitlord	NOUN	NN	Number=Sing	8	_	_	start_char=43|end_char=51
+10	who	who	PRON	WP	PronType=Rel	9	_	_	start_char=52|end_char=55
+11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=56|end_char=58
+12	mostly	mostly	ADV	RB	_	11	_	_	start_char=59|end_char=65
+13	polite	polite	ADJ	JJ	Degree=Pos	12	_	_	start_char=66|end_char=72|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=72|end_char=73
 
 # text = Nice combination.
-# sent_id = 90955
-1	Nice	nice	ADJ	JJ	Degree=Pos	0	_	_	start_char=80|end_char=84
-2	combination	combination	NOUN	NN	Number=Sing	1	_	_	start_char=85|end_char=96|SpaceAfter=No
-3	.	.	PUNCT	.	_	2	_	_	start_char=96|end_char=97
+# sent_id = 87988
+1	Nice	nice	ADJ	JJ	Degree=Pos	0	_	_	start_char=74|end_char=78
+2	combination	combination	NOUN	NN	Number=Sing	1	_	_	start_char=79|end_char=90|SpaceAfter=No
+3	.	.	PUNCT	.	_	2	_	_	start_char=90|end_char=91
 
 # text = So I'll cut her some slack on the pickle thing.
-# sent_id = 90956
-1	So	so	ADV	RB	_	0	_	_	start_char=98|end_char=100
-2-3	I'll	_	_	_	_	_	_	_	start_char=101|end_char=105
-2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=101|end_char=102
-3	'll	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=102|end_char=105
-4	cut	cut	VERB	VB	VerbForm=Inf	3	_	_	start_char=106|end_char=109
-5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=110|end_char=113
-6	some	some	DET	DT	_	5	_	_	start_char=114|end_char=118
-7	slack	slack	NOUN	NN	Number=Sing	6	_	_	start_char=119|end_char=124
-8	on	on	ADP	IN	_	7	_	_	start_char=125|end_char=127
-9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=128|end_char=131
-10	pickle	pickle	NOUN	NN	Number=Sing	9	_	_	start_char=132|end_char=138
-11	thing	thing	NOUN	NN	Number=Sing	10	_	_	start_char=139|end_char=144|SpaceAfter=No
-12	.	.	PUNCT	.	_	11	_	_	start_char=144|end_char=145|SpaceAfter=No
+# sent_id = 87989
+1	So	so	ADV	RB	_	0	_	_	start_char=92|end_char=94
+2-3	I'll	_	_	_	_	_	_	_	start_char=95|end_char=99
+2	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	1	_	_	start_char=95|end_char=96
+3	'll	will	AUX	MD	VerbForm=Fin	2	_	_	start_char=96|end_char=99
+4	cut	cut	VERB	VB	VerbForm=Inf	3	_	_	start_char=100|end_char=103
+5	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=104|end_char=107
+6	some	some	DET	DT	_	5	_	_	start_char=108|end_char=112
+7	slack	slack	NOUN	NN	Number=Sing	6	_	_	start_char=113|end_char=118
+8	on	on	ADP	IN	_	7	_	_	start_char=119|end_char=121
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=122|end_char=125
+10	pickle	pickle	NOUN	NN	Number=Sing	9	_	_	start_char=126|end_char=132
+11	thing	thing	NOUN	NN	Number=Sing	10	_	_	start_char=133|end_char=138|SpaceAfter=No
+12	.	.	PUNCT	.	_	11	_	_	start_char=138|end_char=139|SpaceAfter=No
 

@@ -1,33 +1,24 @@
-# text = The DC's [USER] lists her top 4 most underreported stories of the week.
-# sent_id = 42427
+# text = The DC's lists her top 4 most underreported stories of the week.
+# sent_id = 41008
 1	The	the	DET	DT	Definite=Def|PronType=Art	0	_	_	start_char=0|end_char=3
-2-3	DC's	_	_	_	_	_	_	_	start_char=4|end_char=8
+2-3	DC's	_	_	_	_	_	_	_	start_char=4|end_char=8|SpacesAfter=\s\s
 2	DC	DC	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=6
 3	's	's	PART	POS	_	2	_	_	start_char=6|end_char=8
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=9|end_char=10|SpaceAfter=No
-5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=10|end_char=14|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=14|end_char=15
-7	lists	list	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=16|end_char=21
-8	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	_	_	start_char=22|end_char=25
-9	top	top	ADJ	JJ	Degree=Pos	8	_	_	start_char=26|end_char=29
-10	4	4	NUM	CD	NumForm=Digit|NumType=Card	9	_	_	start_char=30|end_char=31
-11	most	most	ADV	RBS	Degree=Sup	10	_	_	start_char=32|end_char=36
-12	underreported	underreport	VERB	VBN	Tense=Past|VerbForm=Part	11	_	_	start_char=37|end_char=50
-13	stories	story	NOUN	NNS	Number=Plur	12	_	_	start_char=51|end_char=58
-14	of	of	ADP	IN	_	13	_	_	start_char=59|end_char=61
-15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=62|end_char=65
-16	week	week	NOUN	NN	Number=Sing	15	_	_	start_char=66|end_char=70|SpaceAfter=No
-17	.	.	PUNCT	.	_	16	_	_	start_char=70|end_char=71
+4	lists	list	NOUN	NNS	Number=Plur	3	_	_	start_char=10|end_char=15
+5	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	_	_	start_char=16|end_char=19
+6	top	top	ADJ	JJ	Degree=Pos	5	_	_	start_char=20|end_char=23
+7	4	4	NUM	CD	NumForm=Digit|NumType=Card	6	_	_	start_char=24|end_char=25
+8	most	most	ADV	RBS	Degree=Sup	7	_	_	start_char=26|end_char=30
+9	underreported	underreport	VERB	VBN	Tense=Past|VerbForm=Part	8	_	_	start_char=31|end_char=44
+10	stories	story	NOUN	NNS	Number=Plur	9	_	_	start_char=45|end_char=52
+11	of	of	ADP	IN	_	10	_	_	start_char=53|end_char=55
+12	the	the	DET	DT	Definite=Def|PronType=Art	11	_	_	start_char=56|end_char=59
+13	week	week	NOUN	NN	Number=Sing	12	_	_	start_char=60|end_char=64|SpaceAfter=No
+14	.	.	PUNCT	.	_	13	_	_	start_char=64|end_char=65
 
-# text = Watch here: [URL] [URL]
-# sent_id = 42428
-1	Watch	watch	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=72|end_char=77
-2	here	here	ADV	RB	PronType=Dem	1	_	_	start_char=78|end_char=82|SpaceAfter=No
-3	:	:	PUNCT	:	_	2	_	_	start_char=82|end_char=83
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=84|end_char=85|SpaceAfter=No
-5	URL	URL	PROPN	NNP	Number=Sing	4	_	_	start_char=85|end_char=88|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=88|end_char=89
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=90|end_char=91|SpaceAfter=No
-8	URL	URL	PROPN	NNP	Number=Sing	7	_	_	start_char=91|end_char=94|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=94|end_char=95|SpaceAfter=No
+# text = Watch here:
+# sent_id = 41009
+1	Watch	watch	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=66|end_char=71
+2	here	here	ADV	RB	PronType=Dem	1	_	_	start_char=72|end_char=76|SpaceAfter=No
+3	:	:	PUNCT	:	_	2	_	_	start_char=76|end_char=77|SpacesAfter=\s\s
 

@@ -1,32 +1,26 @@
-# text = [USER] ΒIRMINGHAM THIRD WORLD: A group of nonwhite thugs brutally beat and robbed a white man unconscious.
-# sent_id = 81070
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	ΒIRMINGHAM	βirmingham	NOUN	NN	Number=Sing	3	_	_	start_char=7|end_char=17
-5	THIRD	third	ADJ	JJ	Degree=Pos|NumType=Ord	4	_	_	start_char=18|end_char=23
-6	WORLD	world	NOUN	NN	Number=Sing	5	_	_	start_char=24|end_char=29|SpaceAfter=No
-7	:	:	PUNCT	:	_	6	_	_	start_char=29|end_char=30
-8	A	a	DET	DT	Definite=Ind|PronType=Art	7	_	_	start_char=31|end_char=32
-9	group	group	NOUN	NN	Number=Sing	8	_	_	start_char=33|end_char=38
-10	of	of	ADP	IN	_	9	_	_	start_char=39|end_char=41
-11	nonwhite	nonwhite	ADJ	JJ	Degree=Pos	10	_	_	start_char=42|end_char=50
-12	thugs	thug	NOUN	NNS	Number=Plur	11	_	_	start_char=51|end_char=56
-13	brutally	brutally	ADV	RB	_	12	_	_	start_char=57|end_char=65
-14	beat	beat	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	_	_	start_char=66|end_char=70
-15	and	and	CCONJ	CC	_	14	_	_	start_char=71|end_char=74
-16	robbed	rob	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	15	_	_	start_char=75|end_char=81
-17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=82|end_char=83
-18	white	white	ADJ	JJ	Degree=Pos	17	_	_	start_char=84|end_char=89
-19	man	man	NOUN	NN	Number=Sing	18	_	_	start_char=90|end_char=93
-20	unconscious	unconscious	ADJ	JJ	Degree=Pos	19	_	_	start_char=94|end_char=105|SpaceAfter=No
-21	.	.	PUNCT	.	_	20	_	_	start_char=105|end_char=106
+# text = ΒIRMINGHAM THIRD WORLD: A group of nonwhite thugs brutally beat and robbed a white man unconscious.
+# sent_id = 78445
+1	ΒIRMINGHAM	βirmingham	NOUN	NN	Number=Sing	0	_	_	start_char=1|end_char=11|SpacesBefore=\s
+2	THIRD	third	ADJ	JJ	Degree=Pos|NumType=Ord	1	_	_	start_char=12|end_char=17
+3	WORLD	world	NOUN	NN	Number=Sing	2	_	_	start_char=18|end_char=23|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=23|end_char=24
+5	A	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=25|end_char=26
+6	group	group	NOUN	NN	Number=Sing	5	_	_	start_char=27|end_char=32
+7	of	of	ADP	IN	_	6	_	_	start_char=33|end_char=35
+8	nonwhite	nonwhite	ADJ	JJ	Degree=Pos	7	_	_	start_char=36|end_char=44
+9	thugs	thug	NOUN	NNS	Number=Plur	8	_	_	start_char=45|end_char=50
+10	brutally	brutally	ADV	RB	_	9	_	_	start_char=51|end_char=59
+11	beat	beat	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=60|end_char=64
+12	and	and	CCONJ	CC	_	11	_	_	start_char=65|end_char=68
+13	robbed	rob	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	12	_	_	start_char=69|end_char=75
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=76|end_char=77
+15	white	white	ADJ	JJ	Degree=Pos	14	_	_	start_char=78|end_char=83
+16	man	man	NOUN	NN	Number=Sing	15	_	_	start_char=84|end_char=87
+17	unconscious	unconscious	ADJ	JJ	Degree=Pos	16	_	_	start_char=88|end_char=99|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=99|end_char=100
 
-# text = #ThisIsEngland [URL]
-# sent_id = 81071
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=107|end_char=108|SpaceAfter=No
-2	ThisIsEngland	ThisIsEngland	PROPN	NNP	Number=Sing	1	_	_	start_char=108|end_char=121
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=122|end_char=123|SpaceAfter=No
-4	URL	URL	PROPN	NNP	Number=Sing	3	_	_	start_char=123|end_char=126|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=126|end_char=127|SpaceAfter=No
+# text = #ThisIsEngland
+# sent_id = 78446
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=101|end_char=102|SpaceAfter=No
+2	ThisIsEngland	thisisengland	NOUN	NN	Number=Sing	1	_	_	start_char=102|end_char=115
 

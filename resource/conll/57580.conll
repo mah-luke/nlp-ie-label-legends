@@ -1,58 +1,55 @@
-# text = Sara Peritas · [USER] · 04:25PM oh, so what BB said on my post in gabstapo was ok?
-# sent_id = 123040
+# text = Sara Peritas · · 04:25PM oh, so what BB said on my post in gabstapo was ok?
+# sent_id = 119080
 1	Sara	Sara	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=4
 2	Peritas	Peritas	PROPN	NNP	Number=Sing	1	_	_	start_char=5|end_char=12
-3	·	·	PUNCT	:	_	2	_	_	start_char=13|end_char=14
-4	[	[	PUNCT	-LRB-	_	3	_	_	start_char=15|end_char=16|SpaceAfter=No
-5	USER	user	NOUN	NN	Number=Sing	4	_	_	start_char=16|end_char=20|SpaceAfter=No
-6	]	]	PUNCT	-RRB-	_	5	_	_	start_char=20|end_char=21
-7	·	·	PUNCT	:	_	6	_	_	start_char=22|end_char=23
-8	04:25	04:25	NUM	CD	NumForm=Digit|NumType=Card	7	_	_	start_char=24|end_char=29|SpaceAfter=No
-9	PM	p.m.	NOUN	NN	Number=Sing	8	_	_	start_char=29|end_char=31
-10	oh	oh	INTJ	UH	_	9	_	_	start_char=32|end_char=34|SpaceAfter=No
-11	,	,	PUNCT	,	_	10	_	_	start_char=34|end_char=35
-12	so	so	ADV	RB	_	11	_	_	start_char=36|end_char=38
-13	what	what	PRON	WP	PronType=Rel	12	_	_	start_char=39|end_char=43
-14	BB	BB	PROPN	NNP	Number=Sing	13	_	_	start_char=44|end_char=46
-15	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	14	_	_	start_char=47|end_char=51
-16	on	on	ADP	IN	_	15	_	_	start_char=52|end_char=54
-17	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	16	_	_	start_char=55|end_char=57
-18	post	post	NOUN	NN	Number=Sing	17	_	_	start_char=58|end_char=62
-19	in	in	ADP	IN	_	18	_	_	start_char=63|end_char=65
-20	gabstapo	gabstapo	NOUN	NN	Number=Sing	19	_	_	start_char=66|end_char=74
-21	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	20	_	_	start_char=75|end_char=78
-22	ok	ok	ADJ	JJ	Degree=Pos	21	_	_	start_char=79|end_char=81|SpaceAfter=No
-23	?	?	PUNCT	.	_	22	_	_	start_char=81|end_char=82
+3	·	·	PUNCT	:	_	2	_	_	start_char=13|end_char=14|SpacesAfter=\s\s
+4	·	·	PUNCT	,	_	3	_	_	start_char=16|end_char=17
+5	04:25	04:25	NUM	CD	NumForm=Digit|NumType=Card	4	_	_	start_char=18|end_char=23|SpaceAfter=No
+6	PM	p.m.	NOUN	NN	Number=Sing	5	_	_	start_char=23|end_char=25
+7	oh	oh	INTJ	UH	_	6	_	_	start_char=26|end_char=28|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=28|end_char=29
+9	so	so	ADV	RB	_	8	_	_	start_char=30|end_char=32
+10	what	what	PRON	WP	PronType=Rel	9	_	_	start_char=33|end_char=37
+11	BB	BB	PROPN	NNP	Number=Sing	10	_	_	start_char=38|end_char=40
+12	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	_	_	start_char=41|end_char=45
+13	on	on	ADP	IN	_	12	_	_	start_char=46|end_char=48
+14	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	13	_	_	start_char=49|end_char=51
+15	post	post	NOUN	NN	Number=Sing	14	_	_	start_char=52|end_char=56
+16	in	in	ADP	IN	_	15	_	_	start_char=57|end_char=59
+17	gabstapo	gabstapo	NOUN	NN	Number=Sing	16	_	_	start_char=60|end_char=68
+18	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=69|end_char=72
+19	ok	ok	ADJ	JJ	Degree=Pos	18	_	_	start_char=73|end_char=75|SpaceAfter=No
+20	?	?	PUNCT	.	_	19	_	_	start_char=75|end_char=76
 
 # text = - then he/she?
-# sent_id = 123041
-1	-	-	PUNCT	NFP	_	0	_	_	start_char=83|end_char=84
-2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=85|end_char=89
-3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=90|end_char=92|SpaceAfter=No
-4	/	/	SYM	SYM	_	3	_	_	start_char=92|end_char=93|SpaceAfter=No
-5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=93|end_char=96|SpaceAfter=No
-6	?	?	PUNCT	.	_	5	_	_	start_char=96|end_char=97
+# sent_id = 119081
+1	-	-	PUNCT	NFP	_	0	_	_	start_char=77|end_char=78
+2	then	then	ADV	RB	PronType=Dem	1	_	_	start_char=79|end_char=83
+3	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=84|end_char=86|SpaceAfter=No
+4	/	/	SYM	SYM	_	3	_	_	start_char=86|end_char=87|SpaceAfter=No
+5	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=87|end_char=90|SpaceAfter=No
+6	?	?	PUNCT	.	_	5	_	_	start_char=90|end_char=91
 
 # text = deleted his comment : "we don't punch right.
-# sent_id = 123042
-1	deleted	delete	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=98|end_char=105
-2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=106|end_char=109
-3	comment	comment	NOUN	NN	Number=Sing	2	_	_	start_char=110|end_char=117
-4	:	:	PUNCT	:	_	3	_	_	start_char=118|end_char=119
-5	"	"	PUNCT	``	_	4	_	_	start_char=120|end_char=121|SpaceAfter=No
-6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=121|end_char=123
-7-8	don't	_	_	_	_	_	_	_	start_char=124|end_char=129
-7	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=124|end_char=126
-8	n't	not	PART	RB	_	7	_	_	start_char=126|end_char=129
-9	punch	punch	VERB	VB	VerbForm=Inf	8	_	_	start_char=130|end_char=135
-10	right	right	ADV	RB	_	9	_	_	start_char=136|end_char=141|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=141|end_char=142
+# sent_id = 119082
+1	deleted	delete	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	_	_	start_char=92|end_char=99
+2	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	1	_	_	start_char=100|end_char=103
+3	comment	comment	NOUN	NN	Number=Sing	2	_	_	start_char=104|end_char=111
+4	:	:	PUNCT	:	_	3	_	_	start_char=112|end_char=113
+5	"	"	PUNCT	``	_	4	_	_	start_char=114|end_char=115|SpaceAfter=No
+6	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	_	_	start_char=115|end_char=117
+7-8	don't	_	_	_	_	_	_	_	start_char=118|end_char=123
+7	do	do	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	_	_	start_char=118|end_char=120
+8	n't	not	PART	RB	_	7	_	_	start_char=120|end_char=123
+9	punch	punch	VERB	VB	VerbForm=Inf	8	_	_	start_char=124|end_char=129
+10	right	right	ADV	RB	_	9	_	_	start_char=130|end_char=135|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=135|end_char=136
 
 # text = ignore this post" .
-# sent_id = 123043
-1	ignore	ignore	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=143|end_char=149
-2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=150|end_char=154
-3	post	post	NOUN	NN	Number=Sing	2	_	_	start_char=155|end_char=159|SpaceAfter=No
-4	"	"	PUNCT	''	_	3	_	_	start_char=159|end_char=160
-5	.	.	PUNCT	.	_	4	_	_	start_char=161|end_char=162|SpaceAfter=No
+# sent_id = 119083
+1	ignore	ignore	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=137|end_char=143
+2	this	this	DET	DT	Number=Sing|PronType=Dem	1	_	_	start_char=144|end_char=148
+3	post	post	NOUN	NN	Number=Sing	2	_	_	start_char=149|end_char=153|SpaceAfter=No
+4	"	"	PUNCT	''	_	3	_	_	start_char=153|end_char=154
+5	.	.	PUNCT	.	_	4	_	_	start_char=155|end_char=156|SpaceAfter=No
 

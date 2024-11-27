@@ -1,53 +1,47 @@
-# text = [USER]
-# sent_id = 39243
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = She should of been used as a human shield against him, she'd change her mind pretty quick then !
-# sent_id = 39244
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=10
-2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=11|end_char=17
-3	of	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=18|end_char=20
-4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=21|end_char=25
-5	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=26|end_char=30
-6	as	as	ADP	IN	_	5	_	_	start_char=31|end_char=33
-7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=34|end_char=35
-8	human	human	ADJ	JJ	Degree=Pos	7	_	_	start_char=36|end_char=41
-9	shield	shield	NOUN	NN	Number=Sing	8	_	_	start_char=42|end_char=48
-10	against	against	ADP	IN	_	9	_	_	start_char=49|end_char=56
-11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=57|end_char=60|SpaceAfter=No
-12	,	,	PUNCT	,	_	11	_	_	start_char=60|end_char=61
-13-14	she'd	_	_	_	_	_	_	_	start_char=62|end_char=67
-13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=62|end_char=65
-14	'd	would	AUX	MD	VerbForm=Fin	13	_	_	start_char=65|end_char=67
-15	change	change	VERB	VB	VerbForm=Inf	14	_	_	start_char=68|end_char=74
-16	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=75|end_char=78
-17	mind	mind	NOUN	NN	Number=Sing	16	_	_	start_char=79|end_char=83
-18	pretty	pretty	ADV	RB	_	17	_	_	start_char=84|end_char=90
-19	quick	quick	ADV	RB	Degree=Pos	18	_	_	start_char=91|end_char=96
-20	then	then	ADV	RB	PronType=Dem	19	_	_	start_char=97|end_char=101
-21	!	!	PUNCT	.	_	20	_	_	start_char=102|end_char=103
+# sent_id = 37927
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	should	should	AUX	MD	VerbForm=Fin	1	_	_	start_char=5|end_char=11
+3	of	have	AUX	VB	VerbForm=Inf	2	_	_	start_char=12|end_char=14
+4	been	be	AUX	VBN	Tense=Past|VerbForm=Part	3	_	_	start_char=15|end_char=19
+5	used	use	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	_	_	start_char=20|end_char=24
+6	as	as	ADP	IN	_	5	_	_	start_char=25|end_char=27
+7	a	a	DET	DT	Definite=Ind|PronType=Art	6	_	_	start_char=28|end_char=29
+8	human	human	ADJ	JJ	Degree=Pos	7	_	_	start_char=30|end_char=35
+9	shield	shield	NOUN	NN	Number=Sing	8	_	_	start_char=36|end_char=42
+10	against	against	ADP	IN	_	9	_	_	start_char=43|end_char=50
+11	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	10	_	_	start_char=51|end_char=54|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=54|end_char=55
+13-14	she'd	_	_	_	_	_	_	_	start_char=56|end_char=61
+13	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	_	_	start_char=56|end_char=59
+14	'd	would	AUX	MD	VerbForm=Fin	13	_	_	start_char=59|end_char=61
+15	change	change	VERB	VB	VerbForm=Inf	14	_	_	start_char=62|end_char=68
+16	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	_	_	start_char=69|end_char=72
+17	mind	mind	NOUN	NN	Number=Sing	16	_	_	start_char=73|end_char=77
+18	pretty	pretty	ADV	RB	_	17	_	_	start_char=78|end_char=84
+19	quick	quick	ADV	RB	Degree=Pos	18	_	_	start_char=85|end_char=90
+20	then	then	ADV	RB	PronType=Dem	19	_	_	start_char=91|end_char=95
+21	!	!	PUNCT	.	_	20	_	_	start_char=96|end_char=97
 
 # text = Out with love and in with hate, nope out with misguided bullshit and in with a machete.
-# sent_id = 39245
-1	Out	Out	ADV	RB	_	0	_	_	start_char=104|end_char=107
-2	with	with	ADP	IN	_	1	_	_	start_char=108|end_char=112
-3	love	love	NOUN	NN	Number=Sing	2	_	_	start_char=113|end_char=117
-4	and	and	CCONJ	CC	_	3	_	_	start_char=118|end_char=121
-5	in	in	ADV	RB	_	4	_	_	start_char=122|end_char=124
-6	with	with	ADP	IN	_	5	_	_	start_char=125|end_char=129
-7	hate	hate	NOUN	NN	Number=Sing	6	_	_	start_char=130|end_char=134|SpaceAfter=No
-8	,	,	PUNCT	,	_	7	_	_	start_char=134|end_char=135
-9	nope	nope	INTJ	UH	_	8	_	_	start_char=136|end_char=140
-10	out	out	ADV	RB	_	9	_	_	start_char=141|end_char=144
-11	with	with	ADP	IN	_	10	_	_	start_char=145|end_char=149
-12	misguided	misguided	ADJ	JJ	Degree=Pos	11	_	_	start_char=150|end_char=159
-13	bullshit	bullshit	NOUN	NN	Number=Sing	12	_	_	start_char=160|end_char=168
-14	and	and	CCONJ	CC	_	13	_	_	start_char=169|end_char=172
-15	in	in	ADV	RB	_	14	_	_	start_char=173|end_char=175
-16	with	with	ADP	IN	_	15	_	_	start_char=176|end_char=180
-17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=181|end_char=182
-18	machete	machete	NOUN	NN	Number=Sing	17	_	_	start_char=183|end_char=190|SpaceAfter=No
-19	.	.	PUNCT	.	_	18	_	_	start_char=190|end_char=191|SpaceAfter=No
+# sent_id = 37928
+1	Out	Out	ADV	RB	_	0	_	_	start_char=98|end_char=101
+2	with	with	ADP	IN	_	1	_	_	start_char=102|end_char=106
+3	love	love	NOUN	NN	Number=Sing	2	_	_	start_char=107|end_char=111
+4	and	and	CCONJ	CC	_	3	_	_	start_char=112|end_char=115
+5	in	in	ADV	RB	_	4	_	_	start_char=116|end_char=118
+6	with	with	ADP	IN	_	5	_	_	start_char=119|end_char=123
+7	hate	hate	NOUN	NN	Number=Sing	6	_	_	start_char=124|end_char=128|SpaceAfter=No
+8	,	,	PUNCT	,	_	7	_	_	start_char=128|end_char=129
+9	nope	nope	INTJ	UH	_	8	_	_	start_char=130|end_char=134
+10	out	out	ADV	RB	_	9	_	_	start_char=135|end_char=138
+11	with	with	ADP	IN	_	10	_	_	start_char=139|end_char=143
+12	misguided	misguided	ADJ	JJ	Degree=Pos	11	_	_	start_char=144|end_char=153
+13	bullshit	bullshit	NOUN	NN	Number=Sing	12	_	_	start_char=154|end_char=162
+14	and	and	CCONJ	CC	_	13	_	_	start_char=163|end_char=166
+15	in	in	ADV	RB	_	14	_	_	start_char=167|end_char=169
+16	with	with	ADP	IN	_	15	_	_	start_char=170|end_char=174
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=175|end_char=176
+18	machete	machete	NOUN	NN	Number=Sing	17	_	_	start_char=177|end_char=184|SpaceAfter=No
+19	.	.	PUNCT	.	_	18	_	_	start_char=184|end_char=185|SpaceAfter=No
 

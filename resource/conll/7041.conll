@@ -1,44 +1,41 @@
-# text = [USER] EXACTLY RIGHT --
-# sent_id = 14727
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	EXACTLY	exactly	ADV	RB	_	3	_	_	start_char=7|end_char=14
-5	RIGHT	right	ADV	RB	_	4	_	_	start_char=15|end_char=20
-6	--	--	PUNCT	:	_	5	_	_	start_char=21|end_char=23
+# text = EXACTLY RIGHT --
+# sent_id = 14268
+1	EXACTLY	exactly	ADV	RB	_	0	_	_	start_char=1|end_char=8|SpacesBefore=\s
+2	RIGHT	right	ADV	RB	_	1	_	_	start_char=9|end_char=14
+3	--	--	PUNCT	:	_	2	_	_	start_char=15|end_char=17
 
 # text = It is ALL about CONTROL!
-# sent_id = 14728
-1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=24|end_char=26
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=27|end_char=29
-3	ALL	all	DET	DT	_	2	_	_	start_char=30|end_char=33
-4	about	about	ADP	IN	_	3	_	_	start_char=34|end_char=39
-5	CONTROL	control	NOUN	NN	Number=Sing	4	_	_	start_char=40|end_char=47|SpaceAfter=No
-6	!	!	PUNCT	.	_	5	_	_	start_char=47|end_char=48
+# sent_id = 14269
+1	It	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=18|end_char=20
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=21|end_char=23
+3	ALL	all	DET	DT	_	2	_	_	start_char=24|end_char=27
+4	about	about	ADP	IN	_	3	_	_	start_char=28|end_char=33
+5	CONTROL	control	NOUN	NN	Number=Sing	4	_	_	start_char=34|end_char=41|SpaceAfter=No
+6	!	!	PUNCT	.	_	5	_	_	start_char=41|end_char=42
 
 # text = NOTE: IT is a SPECIAL KIND OF EVIL to maintain an erection while abusing someone else (male or female).
-# sent_id = 14729
-1	NOTE	note	NOUN	NN	Number=Sing	0	_	_	start_char=49|end_char=53|SpaceAfter=No
-2	:	:	PUNCT	:	_	1	_	_	start_char=53|end_char=54
-3	IT	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=55|end_char=57
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=58|end_char=60
-5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=61|end_char=62
-6	SPECIAL	special	ADJ	JJ	Degree=Pos	5	_	_	start_char=63|end_char=70
-7	KIND	kind	NOUN	NN	Number=Sing	6	_	_	start_char=71|end_char=75
-8	OF	of	ADP	IN	_	7	_	_	start_char=76|end_char=78
-9	EVIL	evil	NOUN	NN	Number=Sing	8	_	_	start_char=79|end_char=83
-10	to	to	PART	TO	_	9	_	_	start_char=84|end_char=86
-11	maintain	maintain	VERB	VB	VerbForm=Inf	10	_	_	start_char=87|end_char=95
-12	an	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=96|end_char=98
-13	erection	erection	NOUN	NN	Number=Sing	12	_	_	start_char=99|end_char=107
-14	while	while	SCONJ	IN	_	13	_	_	start_char=108|end_char=113
-15	abusing	abuse	VERB	VBG	VerbForm=Ger	14	_	_	start_char=114|end_char=121
-16	someone	someone	PRON	NN	Number=Sing|PronType=Ind	15	_	_	start_char=122|end_char=129
-17	else	else	ADJ	JJ	Degree=Pos	16	_	_	start_char=130|end_char=134
-18	(	(	PUNCT	-LRB-	_	17	_	_	start_char=135|end_char=136|SpaceAfter=No
-19	male	male	ADJ	JJ	Degree=Pos	18	_	_	start_char=136|end_char=140
-20	or	or	CCONJ	CC	_	19	_	_	start_char=141|end_char=143
-21	female	female	ADJ	JJ	Degree=Pos	20	_	_	start_char=144|end_char=150|SpaceAfter=No
-22	)	)	PUNCT	-RRB-	_	21	_	_	start_char=150|end_char=151|SpaceAfter=No
-23	.	.	PUNCT	.	_	22	_	_	start_char=151|end_char=152|SpaceAfter=No
+# sent_id = 14270
+1	NOTE	note	NOUN	NN	Number=Sing	0	_	_	start_char=43|end_char=47|SpaceAfter=No
+2	:	:	PUNCT	:	_	1	_	_	start_char=47|end_char=48
+3	IT	it	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=49|end_char=51
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=52|end_char=54
+5	a	a	DET	DT	Definite=Ind|PronType=Art	4	_	_	start_char=55|end_char=56
+6	SPECIAL	special	ADJ	JJ	Degree=Pos	5	_	_	start_char=57|end_char=64
+7	KIND	kind	NOUN	NN	Number=Sing	6	_	_	start_char=65|end_char=69
+8	OF	of	ADP	IN	_	7	_	_	start_char=70|end_char=72
+9	EVIL	evil	NOUN	NN	Number=Sing	8	_	_	start_char=73|end_char=77
+10	to	to	PART	TO	_	9	_	_	start_char=78|end_char=80
+11	maintain	maintain	VERB	VB	VerbForm=Inf	10	_	_	start_char=81|end_char=89
+12	an	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=90|end_char=92
+13	erection	erection	NOUN	NN	Number=Sing	12	_	_	start_char=93|end_char=101
+14	while	while	SCONJ	IN	_	13	_	_	start_char=102|end_char=107
+15	abusing	abuse	VERB	VBG	VerbForm=Ger	14	_	_	start_char=108|end_char=115
+16	someone	someone	PRON	NN	Number=Sing|PronType=Ind	15	_	_	start_char=116|end_char=123
+17	else	else	ADJ	JJ	Degree=Pos	16	_	_	start_char=124|end_char=128
+18	(	(	PUNCT	-LRB-	_	17	_	_	start_char=129|end_char=130|SpaceAfter=No
+19	male	male	ADJ	JJ	Degree=Pos	18	_	_	start_char=130|end_char=134
+20	or	or	CCONJ	CC	_	19	_	_	start_char=135|end_char=137
+21	female	female	ADJ	JJ	Degree=Pos	20	_	_	start_char=138|end_char=144|SpaceAfter=No
+22	)	)	PUNCT	-RRB-	_	21	_	_	start_char=144|end_char=145|SpaceAfter=No
+23	.	.	PUNCT	.	_	22	_	_	start_char=145|end_char=146|SpaceAfter=No
 

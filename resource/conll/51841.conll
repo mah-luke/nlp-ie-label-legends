@@ -1,58 +1,52 @@
-# text = [URL]
-# sent_id = 110840
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-
 # text = Nigger women drag this stat up the most.
-# sent_id = 110841
-1	Nigger	nigger	NOUN	NN	Number=Sing	0	_	_	start_char=6|end_char=12
-2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=13|end_char=18
-3	drag	drag	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=19|end_char=23
-4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=24|end_char=28
-5	stat	stat	NOUN	NN	Number=Sing	4	_	_	start_char=29|end_char=33
-6	up	up	ADP	RP	_	5	_	_	start_char=34|end_char=36
-7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=37|end_char=40
-8	most	most	ADJ	JJS	Degree=Sup	7	_	_	start_char=41|end_char=45|SpaceAfter=No
-9	.	.	PUNCT	.	_	8	_	_	start_char=45|end_char=46
+# sent_id = 107218
+1	Nigger	nigger	NOUN	NN	Number=Sing	0	_	_	start_char=1|end_char=7|SpacesBefore=\s
+2	women	woman	NOUN	NNS	Number=Plur	1	_	_	start_char=8|end_char=13
+3	drag	drag	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=14|end_char=18
+4	this	this	DET	DT	Number=Sing|PronType=Dem	3	_	_	start_char=19|end_char=23
+5	stat	stat	NOUN	NN	Number=Sing	4	_	_	start_char=24|end_char=28
+6	up	up	ADP	RP	_	5	_	_	start_char=29|end_char=31
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=32|end_char=35
+8	most	most	ADJ	JJS	Degree=Sup	7	_	_	start_char=36|end_char=40|SpaceAfter=No
+9	.	.	PUNCT	.	_	8	_	_	start_char=40|end_char=41
 
 # text = Average IQ of 83, so ugly black men avoid them, spitting out niglets like they were on sale.
-# sent_id = 110842
-1	Average	average	ADJ	JJ	Degree=Pos	0	_	_	start_char=47|end_char=54
-2	IQ	IQ	NOUN	NN	Number=Sing	1	_	_	start_char=55|end_char=57
-3	of	of	ADP	IN	_	2	_	_	start_char=58|end_char=60
-4	83	83	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=61|end_char=63|SpaceAfter=No
-5	,	,	PUNCT	,	_	4	_	_	start_char=63|end_char=64
-6	so	so	ADV	RB	_	5	_	_	start_char=65|end_char=67
-7	ugly	ugly	ADJ	JJ	Degree=Pos	6	_	_	start_char=68|end_char=72
-8	black	black	ADJ	JJ	Degree=Pos	7	_	_	start_char=73|end_char=78
-9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=79|end_char=82
-10	avoid	avoid	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=83|end_char=88
-11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=89|end_char=93|SpaceAfter=No
-12	,	,	PUNCT	,	_	11	_	_	start_char=93|end_char=94
-13	spitting	spitting	VERB	VBG	VerbForm=Ger	12	_	_	start_char=95|end_char=103
-14	out	out	ADP	RP	_	13	_	_	start_char=104|end_char=107
-15	niglets	niglet	NOUN	NNS	Number=Plur	14	_	_	start_char=108|end_char=115
-16	like	like	SCONJ	IN	_	15	_	_	start_char=116|end_char=120
-17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=121|end_char=125
-18	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=126|end_char=130
-19	on	on	ADP	IN	_	18	_	_	start_char=131|end_char=133
-20	sale	sale	NOUN	NN	Number=Sing	19	_	_	start_char=134|end_char=138|SpaceAfter=No
-21	.	.	PUNCT	.	_	20	_	_	start_char=138|end_char=139
+# sent_id = 107219
+1	Average	average	ADJ	JJ	Degree=Pos	0	_	_	start_char=42|end_char=49
+2	IQ	IQ	NOUN	NN	Number=Sing	1	_	_	start_char=50|end_char=52
+3	of	of	ADP	IN	_	2	_	_	start_char=53|end_char=55
+4	83	83	NUM	CD	NumForm=Digit|NumType=Card	3	_	_	start_char=56|end_char=58|SpaceAfter=No
+5	,	,	PUNCT	,	_	4	_	_	start_char=58|end_char=59
+6	so	so	ADV	RB	_	5	_	_	start_char=60|end_char=62
+7	ugly	ugly	ADJ	JJ	Degree=Pos	6	_	_	start_char=63|end_char=67
+8	black	black	ADJ	JJ	Degree=Pos	7	_	_	start_char=68|end_char=73
+9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=74|end_char=77
+10	avoid	avoid	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	_	_	start_char=78|end_char=83
+11	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	10	_	_	start_char=84|end_char=88|SpaceAfter=No
+12	,	,	PUNCT	,	_	11	_	_	start_char=88|end_char=89
+13	spitting	spitting	VERB	VBG	VerbForm=Ger	12	_	_	start_char=90|end_char=98
+14	out	out	ADP	RP	_	13	_	_	start_char=99|end_char=102
+15	niglets	niglet	NOUN	NNS	Number=Plur	14	_	_	start_char=103|end_char=110
+16	like	like	SCONJ	IN	_	15	_	_	start_char=111|end_char=115
+17	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	16	_	_	start_char=116|end_char=120
+18	were	be	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=121|end_char=125
+19	on	on	ADP	IN	_	18	_	_	start_char=126|end_char=128
+20	sale	sale	NOUN	NN	Number=Sing	19	_	_	start_char=129|end_char=133|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=133|end_char=134
 
 # text = Put them all down.
-# sent_id = 110843
-1	Put	put	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=140|end_char=143
-2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=144|end_char=148
-3	all	all	DET	DT	_	2	_	_	start_char=149|end_char=152
-4	down	down	ADV	RB	_	3	_	_	start_char=153|end_char=157|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=157|end_char=158
+# sent_id = 107220
+1	Put	put	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=135|end_char=138
+2	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	1	_	_	start_char=139|end_char=143
+3	all	all	DET	DT	_	2	_	_	start_char=144|end_char=147
+4	down	down	ADV	RB	_	3	_	_	start_char=148|end_char=152|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=152|end_char=153
 
 # text = Fat, stupid nation.
-# sent_id = 110844
-1	Fat	fat	ADJ	JJ	Degree=Pos	0	_	_	start_char=159|end_char=162|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=162|end_char=163
-3	stupid	stupid	ADJ	JJ	Degree=Pos	2	_	_	start_char=164|end_char=170
-4	nation	nation	NOUN	NN	Number=Sing	3	_	_	start_char=171|end_char=177|SpaceAfter=No
-5	.	.	PUNCT	.	_	4	_	_	start_char=177|end_char=178|SpaceAfter=No
+# sent_id = 107221
+1	Fat	fat	ADJ	JJ	Degree=Pos	0	_	_	start_char=154|end_char=157|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=157|end_char=158
+3	stupid	stupid	ADJ	JJ	Degree=Pos	2	_	_	start_char=159|end_char=165
+4	nation	nation	NOUN	NN	Number=Sing	3	_	_	start_char=166|end_char=172|SpaceAfter=No
+5	.	.	PUNCT	.	_	4	_	_	start_char=172|end_char=173|SpaceAfter=No
 

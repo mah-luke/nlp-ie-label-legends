@@ -1,5 +1,5 @@
-# text = Just imagine, your 6'2 and look like this; [[URL]
-# sent_id = 6921
+# text = Just imagine, your 6'2 and look like this; [ Yet, you still need to muster up the courage to tell a girl your interested in her?
+# sent_id = 6688
 1	Just	just	ADV	RB	_	0	_	_	start_char=0|end_char=4
 2	imagine	imagine	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=5|end_char=12|SpaceAfter=No
 3	,	,	PUNCT	,	_	2	_	_	start_char=12|end_char=13
@@ -11,46 +11,41 @@
 9	look	look	VERB	VB	Mood=Imp|VerbForm=Fin	8	_	_	start_char=27|end_char=31
 10	like	like	ADP	IN	_	9	_	_	start_char=32|end_char=36
 11	this	this	PRON	DT	Number=Sing|PronType=Dem	10	_	_	start_char=37|end_char=41|SpaceAfter=No
-12	;	;	PUNCT	:	_	11	_	_	start_char=41|end_char=42
-13	[[	[[	PUNCT	-LRB-	_	12	_	_	start_char=43|end_char=45|SpaceAfter=No
-14	URL	URL	PROPN	NNP	Number=Sing	13	_	_	start_char=45|end_char=48|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=48|end_char=49
-
-# text = Yet, you still need to muster up the courage to tell a girl your interested in her?
-# sent_id = 6922
-1	Yet	yet	CCONJ	CC	_	0	_	_	start_char=50|end_char=53|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=53|end_char=54
-3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=55|end_char=58
-4	still	still	ADV	RB	_	3	_	_	start_char=59|end_char=64
-5	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	_	_	start_char=65|end_char=69
-6	to	to	PART	TO	_	5	_	_	start_char=70|end_char=72
-7	muster	muster	VERB	VB	VerbForm=Inf	6	_	_	start_char=73|end_char=79
-8	up	up	ADP	RP	_	7	_	_	start_char=80|end_char=82
-9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=83|end_char=86
-10	courage	courage	NOUN	NN	Number=Sing	9	_	_	start_char=87|end_char=94
-11	to	to	PART	TO	_	10	_	_	start_char=95|end_char=97
-12	tell	tell	VERB	VB	VerbForm=Inf	11	_	_	start_char=98|end_char=102
-13	a	a	DET	DT	Definite=Ind|PronType=Art	12	_	_	start_char=103|end_char=104
-14	girl	girl	NOUN	NN	Number=Sing	13	_	_	start_char=105|end_char=109
-15	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	14	_	_	start_char=110|end_char=114
-16	interested	interested	ADJ	JJ	Degree=Pos	15	_	_	start_char=115|end_char=125
-17	in	in	ADP	IN	_	16	_	_	start_char=126|end_char=128
-18	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	17	_	_	start_char=129|end_char=132|SpaceAfter=No
-19	?	?	PUNCT	.	_	18	_	_	start_char=132|end_char=133
+12	;	;	PUNCT	,	_	11	_	_	start_char=41|end_char=42
+13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=43|end_char=44
+14	Yet	yet	CCONJ	CC	_	13	_	_	start_char=45|end_char=48|SpaceAfter=No
+15	,	,	PUNCT	,	_	14	_	_	start_char=48|end_char=49
+16	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	15	_	_	start_char=50|end_char=53
+17	still	still	ADV	RB	_	16	_	_	start_char=54|end_char=59
+18	need	need	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	17	_	_	start_char=60|end_char=64
+19	to	to	PART	TO	_	18	_	_	start_char=65|end_char=67
+20	muster	muster	VERB	VB	VerbForm=Inf	19	_	_	start_char=68|end_char=74
+21	up	up	ADP	RP	_	20	_	_	start_char=75|end_char=77
+22	the	the	DET	DT	Definite=Def|PronType=Art	21	_	_	start_char=78|end_char=81
+23	courage	courage	NOUN	NN	Number=Sing	22	_	_	start_char=82|end_char=89
+24	to	to	PART	TO	_	23	_	_	start_char=90|end_char=92
+25	tell	tell	VERB	VB	VerbForm=Inf	24	_	_	start_char=93|end_char=97
+26	a	a	DET	DT	Definite=Ind|PronType=Art	25	_	_	start_char=98|end_char=99
+27	girl	girl	NOUN	NN	Number=Sing	26	_	_	start_char=100|end_char=104
+28	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	27	_	_	start_char=105|end_char=109
+29	interested	interested	ADJ	JJ	Degree=Pos	28	_	_	start_char=110|end_char=120
+30	in	in	ADP	IN	_	29	_	_	start_char=121|end_char=123
+31	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	30	_	_	start_char=124|end_char=127|SpaceAfter=No
+32	?	?	PUNCT	.	_	31	_	_	start_char=127|end_char=128
 
 # text = What the in the actual mentally deficient fuk is this guy living.
-# sent_id = 6923
-1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=134|end_char=138
-2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=139|end_char=142
-3	in	in	ADP	IN	_	2	_	_	start_char=143|end_char=145
-4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=146|end_char=149
-5	actual	actual	ADJ	JJ	Degree=Pos	4	_	_	start_char=150|end_char=156
-6	mentally	mentally	ADV	RB	_	5	_	_	start_char=157|end_char=165
-7	deficient	deficient	ADJ	JJ	Degree=Pos	6	_	_	start_char=166|end_char=175
-8	fuk	fuk	NOUN	NN	Number=Sing	7	_	_	start_char=176|end_char=179
-9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=180|end_char=182
-10	this	this	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=183|end_char=187
-11	guy	guy	NOUN	NN	Number=Sing	10	_	_	start_char=188|end_char=191
-12	living	live	VERB	VBG	VerbForm=Ger	11	_	_	start_char=192|end_char=198|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=198|end_char=199|SpaceAfter=No
+# sent_id = 6689
+1	What	what	PRON	WP	PronType=Rel	0	_	_	start_char=129|end_char=133
+2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=134|end_char=137
+3	in	in	ADP	IN	_	2	_	_	start_char=138|end_char=140
+4	the	the	DET	DT	Definite=Def|PronType=Art	3	_	_	start_char=141|end_char=144
+5	actual	actual	ADJ	JJ	Degree=Pos	4	_	_	start_char=145|end_char=151
+6	mentally	mentally	ADV	RB	_	5	_	_	start_char=152|end_char=160
+7	deficient	deficient	ADJ	JJ	Degree=Pos	6	_	_	start_char=161|end_char=170
+8	fuk	fuk	NOUN	NN	Number=Sing	7	_	_	start_char=171|end_char=174
+9	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	_	_	start_char=175|end_char=177
+10	this	this	DET	DT	Number=Sing|PronType=Dem	9	_	_	start_char=178|end_char=182
+11	guy	guy	NOUN	NN	Number=Sing	10	_	_	start_char=183|end_char=186
+12	living	live	VERB	VBG	VerbForm=Ger	11	_	_	start_char=187|end_char=193|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=193|end_char=194|SpaceAfter=No
 

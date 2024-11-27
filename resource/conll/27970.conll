@@ -1,6 +1,6 @@
-# text = 4 "Dentists" Arrested for raping a woman at the Wynn Hotel (Dentists: Ali Badkoobehi, Saman Edalat, Sina Edalat & Poria Edalat) #Diversity [URL]
-# sent_id = 60064
-1	4	4	X	LS	_	0	_	_	start_char=0|end_char=1
+# text = 4 "Dentists" Arrested for raping a woman at the Wynn Hotel (Dentists: Ali Badkoobehi, Saman Edalat, Sina Edalat & Poria Edalat) #Diversity
+# sent_id = 58105
+1	4	4	NUM	CD	NumForm=Digit|NumType=Card	0	_	_	start_char=0|end_char=1
 2	"	"	PUNCT	``	_	1	_	_	start_char=2|end_char=3|SpaceAfter=No
 3	Dentists	dentist	NOUN	NNS	Number=Plur	2	_	_	start_char=3|end_char=11|SpaceAfter=No
 4	"	"	PUNCT	''	_	3	_	_	start_char=11|end_char=12
@@ -29,8 +29,5 @@
 27	Edalat	Edalat	PROPN	NNP	Number=Sing	26	_	_	start_char=120|end_char=126|SpaceAfter=No
 28	)	)	PUNCT	-RRB-	_	27	_	_	start_char=126|end_char=127
 29	#	#	SYM	NN	Number=Sing	28	_	_	start_char=128|end_char=129|SpaceAfter=No
-30	Diversity	Diversity	PROPN	NNP	Number=Sing	29	_	_	start_char=129|end_char=138
-31	[	[	PUNCT	-LRB-	_	30	_	_	start_char=139|end_char=140|SpaceAfter=No
-32	URL	URL	PROPN	NNP	Number=Sing	31	_	_	start_char=140|end_char=143|SpaceAfter=No
-33	]	]	PUNCT	-RRB-	_	32	_	_	start_char=143|end_char=144|SpaceAfter=No
+30	Diversity	diversity	NOUN	NN	Number=Sing	29	_	_	start_char=129|end_char=138
 

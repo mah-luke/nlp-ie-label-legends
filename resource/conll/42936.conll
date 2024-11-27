@@ -1,32 +1,29 @@
-# text = [USER] she has too many leftist friends and is deluded into a benevolent government.... or at least one that wont actively seek out destruction
-# sent_id = 91776
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=7|end_char=10
-5	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=11|end_char=14
-6	too	too	ADV	RB	_	5	_	_	start_char=15|end_char=18
-7	many	many	ADJ	JJ	Degree=Pos	6	_	_	start_char=19|end_char=23
-8	leftist	leftist	ADJ	JJ	Degree=Pos	7	_	_	start_char=24|end_char=31
-9	friends	friend	NOUN	NNS	Number=Plur	8	_	_	start_char=32|end_char=39
-10	and	and	CCONJ	CC	_	9	_	_	start_char=40|end_char=43
-11	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	_	_	start_char=44|end_char=46
-12	deluded	delude	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	11	_	_	start_char=47|end_char=54
-13	into	into	ADP	IN	_	12	_	_	start_char=55|end_char=59
-14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=60|end_char=61
-15	benevolent	benevolent	ADJ	JJ	Degree=Pos	14	_	_	start_char=62|end_char=72
-16	government	government	NOUN	NN	Number=Sing	15	_	_	start_char=73|end_char=83|SpaceAfter=No
-17	....	....	PUNCT	,	_	16	_	_	start_char=83|end_char=87
-18	or	or	CCONJ	CC	_	17	_	_	start_char=88|end_char=90
-19	at	at	ADP	IN	ExtPos=ADV	18	_	_	start_char=91|end_char=93
-20	least	least	ADJ	JJS	Degree=Sup	19	_	_	start_char=94|end_char=99
-21	one	one	NUM	CD	NumForm=Word|NumType=Card	20	_	_	start_char=100|end_char=103
-22	that	that	PRON	WDT	PronType=Rel	21	_	_	start_char=104|end_char=108
-23-24	wont	_	_	_	_	_	_	_	start_char=109|end_char=113
-23	wo	will	AUX	MD	VerbForm=Fin	22	_	_	start_char=109|end_char=111
-24	nt	not	PART	RB	_	23	_	_	start_char=111|end_char=113
-25	actively	actively	ADV	RB	_	24	_	_	start_char=114|end_char=122
-26	seek	seek	VERB	VB	VerbForm=Inf	25	_	_	start_char=123|end_char=127
-27	out	out	ADP	RP	_	26	_	_	start_char=128|end_char=131
-28	destruction	destruction	NOUN	NN	Number=Sing	27	_	_	start_char=132|end_char=143|SpaceAfter=No
+# text = she has too many leftist friends and is deluded into a benevolent government.... or at least one that wont actively seek out destruction
+# sent_id = 88791
+1	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=5|end_char=8
+3	too	too	ADV	RB	_	2	_	_	start_char=9|end_char=12
+4	many	many	ADJ	JJ	Degree=Pos	3	_	_	start_char=13|end_char=17
+5	leftist	leftist	ADJ	JJ	Degree=Pos	4	_	_	start_char=18|end_char=25
+6	friends	friend	NOUN	NNS	Number=Plur	5	_	_	start_char=26|end_char=33
+7	and	and	CCONJ	CC	_	6	_	_	start_char=34|end_char=37
+8	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	_	_	start_char=38|end_char=40
+9	deluded	delude	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	8	_	_	start_char=41|end_char=48
+10	into	into	ADP	IN	_	9	_	_	start_char=49|end_char=53
+11	a	a	DET	DT	Definite=Ind|PronType=Art	10	_	_	start_char=54|end_char=55
+12	benevolent	benevolent	ADJ	JJ	Degree=Pos	11	_	_	start_char=56|end_char=66
+13	government	government	NOUN	NN	Number=Sing	12	_	_	start_char=67|end_char=77|SpaceAfter=No
+14	....	....	PUNCT	,	_	13	_	_	start_char=77|end_char=81
+15	or	or	CCONJ	CC	_	14	_	_	start_char=82|end_char=84
+16	at	at	ADP	IN	ExtPos=ADV	15	_	_	start_char=85|end_char=87
+17	least	least	ADJ	JJS	Degree=Sup	16	_	_	start_char=88|end_char=93
+18	one	one	NUM	CD	NumForm=Word|NumType=Card	17	_	_	start_char=94|end_char=97
+19	that	that	PRON	WDT	PronType=Rel	18	_	_	start_char=98|end_char=102
+20-21	wont	_	_	_	_	_	_	_	start_char=103|end_char=107
+20	wo	will	AUX	MD	VerbForm=Fin	19	_	_	start_char=103|end_char=105
+21	nt	not	PART	RB	_	20	_	_	start_char=105|end_char=107
+22	actively	actively	ADV	RB	_	21	_	_	start_char=108|end_char=116
+23	seek	seek	VERB	VB	VerbForm=Inf	22	_	_	start_char=117|end_char=121
+24	out	out	ADP	RP	_	23	_	_	start_char=122|end_char=125
+25	destruction	destruction	NOUN	NN	Number=Sing	24	_	_	start_char=126|end_char=137|SpaceAfter=No
 

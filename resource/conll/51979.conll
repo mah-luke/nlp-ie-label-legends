@@ -1,10 +1,10 @@
-# text = ‘Sexist’ Coco Pops defeated by 10yo girl after she wrote to Kellogg’s about ‘mum’s’ slogan [URL]
-# sent_id = 111136
+# text = ‘Sexist’ Coco Pops defeated by 10yo girl after she wrote to Kellogg’s about ‘mum’s’ slogan
+# sent_id = 107497
 1	‘	'	PUNCT	``	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	Sexist’	Sexist’	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=8
 3	Coco	Coco	PROPN	NNP	Number=Sing	2	_	_	start_char=9|end_char=13
 4	Pops	Pops	PROPN	NNPS	Number=Plur	3	_	_	start_char=14|end_char=18
-5	defeated	defeat	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=19|end_char=27
+5	defeated	defeat	VERB	VBD	Mood=Ind|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=19|end_char=27
 6	by	by	ADP	IN	_	5	_	_	start_char=28|end_char=30
 7	10yo	10yo	PROPN	NNP	Number=Sing	6	_	_	start_char=31|end_char=35
 8	girl	girl	NOUN	NN	Number=Sing	7	_	_	start_char=36|end_char=40
@@ -22,7 +22,4 @@
 18	’s	's	PART	POS	_	17	_	_	start_char=80|end_char=82
 19	’	's	PART	POS	_	18	_	_	start_char=82|end_char=83
 20	slogan	slogan	NOUN	NN	Number=Sing	19	_	_	start_char=84|end_char=90
-21	[	[	PUNCT	-LRB-	_	20	_	_	start_char=91|end_char=92|SpaceAfter=No
-22	URL	URL	PROPN	NNP	Number=Sing	21	_	_	start_char=92|end_char=95|SpaceAfter=No
-23	]	]	PUNCT	-RRB-	_	22	_	_	start_char=95|end_char=96|SpaceAfter=No
 

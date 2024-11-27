@@ -1,33 +1,30 @@
-# text = after 26 minutes of exhausting sex with [USER] , we finally both came.
-# sent_id = 101470
+# text = after 26 minutes of exhausting sex with , we finally both came.
+# sent_id = 98140
 1	after	after	ADP	IN	_	0	_	_	start_char=0|end_char=5
 2	26	26	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=6|end_char=8
 3	minutes	minute	NOUN	NNS	Number=Plur	2	_	_	start_char=9|end_char=16
 4	of	of	ADP	IN	_	3	_	_	start_char=17|end_char=19
 5	exhausting	exhausting	VERB	VBG	VerbForm=Ger	4	_	_	start_char=20|end_char=30
 6	sex	sex	NOUN	NN	Number=Sing	5	_	_	start_char=31|end_char=34
-7	with	with	ADP	IN	_	6	_	_	start_char=35|end_char=39
-8	[	[	PUNCT	-LRB-	_	7	_	_	start_char=40|end_char=41|SpaceAfter=No
-9	USER	user	NOUN	NN	Number=Sing	8	_	_	start_char=41|end_char=45|SpaceAfter=No
-10	]	]	PUNCT	-RRB-	_	9	_	_	start_char=45|end_char=46
-11	,	,	PUNCT	,	_	10	_	_	start_char=47|end_char=48
-12	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	11	_	_	start_char=49|end_char=51
-13	finally	finally	ADV	RB	_	12	_	_	start_char=52|end_char=59
-14	both	both	DET	DT	_	13	_	_	start_char=60|end_char=64
-15	came	come	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	14	_	_	start_char=65|end_char=69|SpaceAfter=No
-16	.	.	PUNCT	.	_	15	_	_	start_char=69|end_char=70
+7	with	with	ADP	IN	_	6	_	_	start_char=35|end_char=39|SpacesAfter=\s\s
+8	,	,	PUNCT	,	_	7	_	_	start_char=41|end_char=42
+9	we	we	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	_	_	start_char=43|end_char=45
+10	finally	finally	ADV	RB	_	9	_	_	start_char=46|end_char=53
+11	both	both	DET	DT	_	10	_	_	start_char=54|end_char=58
+12	came	come	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	11	_	_	start_char=59|end_char=63|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=63|end_char=64
 
 # text = I guess she couldn't think of anyone either.
-# sent_id = 101471
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=71|end_char=72
-2	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=73|end_char=78
-3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=79|end_char=82
-4-5	couldn't	_	_	_	_	_	_	_	start_char=83|end_char=91
-4	could	could	AUX	MD	VerbForm=Fin	3	_	_	start_char=83|end_char=88
-5	n't	not	PART	RB	_	4	_	_	start_char=88|end_char=91
-6	think	think	VERB	VB	VerbForm=Inf	5	_	_	start_char=92|end_char=97
-7	of	of	ADP	IN	_	6	_	_	start_char=98|end_char=100
-8	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	7	_	_	start_char=101|end_char=107
-9	either	either	ADV	RB	_	8	_	_	start_char=108|end_char=114|SpaceAfter=No
-10	.	.	PUNCT	.	_	9	_	_	start_char=114|end_char=115|SpaceAfter=No
+# sent_id = 98141
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=65|end_char=66
+2	guess	guess	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=67|end_char=72
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=73|end_char=76
+4-5	couldn't	_	_	_	_	_	_	_	start_char=77|end_char=85
+4	could	could	AUX	MD	VerbForm=Fin	3	_	_	start_char=77|end_char=82
+5	n't	not	PART	RB	_	4	_	_	start_char=82|end_char=85
+6	think	think	VERB	VB	VerbForm=Inf	5	_	_	start_char=86|end_char=91
+7	of	of	ADP	IN	_	6	_	_	start_char=92|end_char=94
+8	anyone	anyone	PRON	NN	Number=Sing|PronType=Ind	7	_	_	start_char=95|end_char=101
+9	either	either	ADV	RB	_	8	_	_	start_char=102|end_char=108|SpaceAfter=No
+10	.	.	PUNCT	.	_	9	_	_	start_char=108|end_char=109|SpaceAfter=No
 

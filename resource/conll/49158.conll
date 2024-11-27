@@ -1,34 +1,28 @@
-# text = [USER]
-# sent_id = 105135
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
+# text = Yeah, but MY based sphere is well armed, trained and likes to kick ass and chew bubblegum.....
+# sent_id = 101697
+1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=1|end_char=5|SpaceAfter=No|SpacesBefore=\s
+2	,	,	PUNCT	,	_	1	_	_	start_char=5|end_char=6
+3	but	but	CCONJ	CC	_	2	_	_	start_char=7|end_char=10
+4	MY	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=11|end_char=13
+5	based	base	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=14|end_char=19
+6	sphere	sphere	NOUN	NN	Number=Sing	5	_	_	start_char=20|end_char=26
+7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=27|end_char=29
+8	well	well	ADV	RB	Degree=Pos	7	_	_	start_char=30|end_char=34
+9	armed	armed	ADJ	JJ	Degree=Pos	8	_	_	start_char=35|end_char=40|SpaceAfter=No
+10	,	,	PUNCT	,	_	9	_	_	start_char=40|end_char=41
+11	trained	train	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=42|end_char=49
+12	and	and	CCONJ	CC	_	11	_	_	start_char=50|end_char=53
+13	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=54|end_char=59
+14	to	to	PART	TO	_	13	_	_	start_char=60|end_char=62
+15	kick	kick	VERB	VB	VerbForm=Inf	14	_	_	start_char=63|end_char=67
+16	ass	ass	NOUN	NN	Number=Sing	15	_	_	start_char=68|end_char=71
+17	and	and	CCONJ	CC	_	16	_	_	start_char=72|end_char=75
+18	chew	chew	VERB	VB	VerbForm=Inf	17	_	_	start_char=76|end_char=80
+19	bubblegum	bubblegum	NOUN	NN	Number=Sing	18	_	_	start_char=81|end_char=90|SpaceAfter=No
+20	.....	.....	PUNCT	.	_	19	_	_	start_char=90|end_char=95|SpacesAfter=\s\s
 
-# text = Yeah, but MY based sphere is well armed, trained and likes to kick ass and chew bubblegum..... [URL] #BananaForScale
-# sent_id = 105136
-1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=7|end_char=11|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=11|end_char=12
-3	but	but	CCONJ	CC	_	2	_	_	start_char=13|end_char=16
-4	MY	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	3	_	_	start_char=17|end_char=19
-5	based	base	VERB	VBN	Tense=Past|VerbForm=Part	4	_	_	start_char=20|end_char=25
-6	sphere	sphere	NOUN	NN	Number=Sing	5	_	_	start_char=26|end_char=32
-7	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	_	_	start_char=33|end_char=35
-8	well	well	ADV	RB	Degree=Pos	7	_	_	start_char=36|end_char=40
-9	armed	armed	ADJ	JJ	Degree=Pos	8	_	_	start_char=41|end_char=46|SpaceAfter=No
-10	,	,	PUNCT	,	_	9	_	_	start_char=46|end_char=47
-11	trained	train	VERB	VBN	Tense=Past|VerbForm=Part	10	_	_	start_char=48|end_char=55
-12	and	and	CCONJ	CC	_	11	_	_	start_char=56|end_char=59
-13	likes	like	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	_	_	start_char=60|end_char=65
-14	to	to	PART	TO	_	13	_	_	start_char=66|end_char=68
-15	kick	kick	VERB	VB	VerbForm=Inf	14	_	_	start_char=69|end_char=73
-16	ass	ass	NOUN	NN	Number=Sing	15	_	_	start_char=74|end_char=77
-17	and	and	CCONJ	CC	_	16	_	_	start_char=78|end_char=81
-18	chew	chew	VERB	VB	VerbForm=Inf	17	_	_	start_char=82|end_char=86
-19	bubblegum	bubblegum	NOUN	NN	Number=Sing	18	_	_	start_char=87|end_char=96|SpaceAfter=No
-20	.....	.....	PUNCT	,	_	19	_	_	start_char=96|end_char=101
-21	[	[	PUNCT	-LRB-	_	20	_	_	start_char=102|end_char=103|SpaceAfter=No
-22	URL	URL	PROPN	NNP	Number=Sing	21	_	_	start_char=103|end_char=106|SpaceAfter=No
-23	]	]	PUNCT	-RRB-	_	22	_	_	start_char=106|end_char=107
-24	#	#	SYM	NN	Number=Sing	23	_	_	start_char=108|end_char=109|SpaceAfter=No
-25	BananaForScale	BananaForScale	PROPN	NNP	Number=Sing	24	_	_	start_char=109|end_char=123|SpaceAfter=No
+# text = #BananaForScale
+# sent_id = 101698
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=97|end_char=98|SpaceAfter=No
+2	BananaForScale	bananaforscale	X	ADD	_	1	_	_	start_char=98|end_char=112|SpaceAfter=No
 

@@ -1,60 +1,54 @@
-# text = [URL]
-# sent_id = 106313
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-
 # text = Naw, you can cherry pick your own bullshit world view but you can't control what others say or see.
-# sent_id = 106314
-1	Naw	naw	INTJ	UH	_	0	_	_	start_char=6|end_char=9|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=9|end_char=10
-3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=11|end_char=14
-4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=15|end_char=18
-5	cherry	cherry	VERB	VB	VerbForm=Inf	4	_	_	start_char=19|end_char=25
-6	pick	pick	VERB	VB	VerbForm=Inf	5	_	_	start_char=26|end_char=30
-7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=31|end_char=35
-8	own	own	ADJ	JJ	Degree=Pos	7	_	_	start_char=36|end_char=39
-9	bullshit	bullshit	NOUN	NN	Number=Sing	8	_	_	start_char=40|end_char=48
-10	world	world	NOUN	NN	Number=Sing	9	_	_	start_char=49|end_char=54
-11	view	view	NOUN	NN	Number=Sing	10	_	_	start_char=55|end_char=59
-12	but	but	CCONJ	CC	_	11	_	_	start_char=60|end_char=63
-13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=64|end_char=67
-14-15	can't	_	_	_	_	_	_	_	start_char=68|end_char=73
-14	ca	can	AUX	MD	VerbForm=Fin	13	_	_	start_char=68|end_char=70
-15	n't	not	PART	RB	_	14	_	_	start_char=70|end_char=73
-16	control	control	VERB	VB	VerbForm=Inf	15	_	_	start_char=74|end_char=81
-17	what	what	PRON	WP	PronType=Rel	16	_	_	start_char=82|end_char=86
-18	others	other	NOUN	NNS	Number=Plur	17	_	_	start_char=87|end_char=93
-19	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=94|end_char=97
-20	or	or	CCONJ	CC	_	19	_	_	start_char=98|end_char=100
-21	see	see	VERB	VB	VerbForm=Inf	20	_	_	start_char=101|end_char=104|SpaceAfter=No
-22	.	.	PUNCT	.	_	21	_	_	start_char=104|end_char=105
+# sent_id = 102822
+1	Naw	naw	INTJ	UH	_	0	_	_	start_char=1|end_char=4|SpaceAfter=No|SpacesBefore=\s
+2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
+3	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	2	_	_	start_char=6|end_char=9
+4	can	can	AUX	MD	VerbForm=Fin	3	_	_	start_char=10|end_char=13
+5	cherry	cherry	VERB	VB	VerbForm=Inf	4	_	_	start_char=14|end_char=20
+6	pick	pick	VERB	VB	VerbForm=Inf	5	_	_	start_char=21|end_char=25
+7	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	6	_	_	start_char=26|end_char=30
+8	own	own	ADJ	JJ	Degree=Pos	7	_	_	start_char=31|end_char=34
+9	bullshit	bullshit	NOUN	NN	Number=Sing	8	_	_	start_char=35|end_char=43
+10	world	world	NOUN	NN	Number=Sing	9	_	_	start_char=44|end_char=49
+11	view	view	NOUN	NN	Number=Sing	10	_	_	start_char=50|end_char=54
+12	but	but	CCONJ	CC	_	11	_	_	start_char=55|end_char=58
+13	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	12	_	_	start_char=59|end_char=62
+14-15	can't	_	_	_	_	_	_	_	start_char=63|end_char=68
+14	ca	can	AUX	MD	VerbForm=Fin	13	_	_	start_char=63|end_char=65
+15	n't	not	PART	RB	_	14	_	_	start_char=65|end_char=68
+16	control	control	VERB	VB	VerbForm=Inf	15	_	_	start_char=69|end_char=76
+17	what	what	PRON	WP	PronType=Rel	16	_	_	start_char=77|end_char=81
+18	others	other	NOUN	NNS	Number=Plur	17	_	_	start_char=82|end_char=88
+19	say	say	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	_	_	start_char=89|end_char=92
+20	or	or	CCONJ	CC	_	19	_	_	start_char=93|end_char=95
+21	see	see	VERB	VB	VerbForm=Inf	20	_	_	start_char=96|end_char=99|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=99|end_char=100
 
 # text = And what conspiracy are you talking about?
-# sent_id = 106315
-1	And	and	CCONJ	CC	_	0	_	_	start_char=106|end_char=109
-2	what	what	DET	WDT	PronType=Int	1	_	_	start_char=110|end_char=114
-3	conspiracy	conspiracy	NOUN	NN	Number=Sing	2	_	_	start_char=115|end_char=125
-4	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=126|end_char=129
-5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=130|end_char=133
-6	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=134|end_char=141
-7	about	about	ADP	IN	_	6	_	_	start_char=142|end_char=147|SpaceAfter=No
-8	?	?	PUNCT	.	_	7	_	_	start_char=147|end_char=148
+# sent_id = 102823
+1	And	and	CCONJ	CC	_	0	_	_	start_char=101|end_char=104
+2	what	what	DET	WDT	PronType=Int	1	_	_	start_char=105|end_char=109
+3	conspiracy	conspiracy	NOUN	NN	Number=Sing	2	_	_	start_char=110|end_char=120
+4	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	_	_	start_char=121|end_char=124
+5	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	_	_	start_char=125|end_char=128
+6	talking	talk	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=129|end_char=136
+7	about	about	ADP	IN	_	6	_	_	start_char=137|end_char=142|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=142|end_char=143
 
 # text = And why do you think you are trying to call me a cuck?
-# sent_id = 106316
-1	And	and	CCONJ	CC	_	0	_	_	start_char=149|end_char=152
-2	why	why	ADV	WRB	PronType=Int	1	_	_	start_char=153|end_char=156
-3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=157|end_char=159
-4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=160|end_char=163
-5	think	think	VERB	VB	VerbForm=Inf	4	_	_	start_char=164|end_char=169
-6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=170|end_char=173
-7	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=174|end_char=177
-8	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=178|end_char=184
-9	to	to	PART	TO	_	8	_	_	start_char=185|end_char=187
-10	call	call	VERB	VB	VerbForm=Inf	9	_	_	start_char=188|end_char=192
-11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=193|end_char=195
-12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=196|end_char=197
-13	cuck	cuck	NOUN	NN	Number=Sing	12	_	_	start_char=198|end_char=202|SpaceAfter=No
-14	?	?	PUNCT	.	_	13	_	_	start_char=202|end_char=203|SpaceAfter=No
+# sent_id = 102824
+1	And	and	CCONJ	CC	_	0	_	_	start_char=144|end_char=147
+2	why	why	ADV	WRB	PronType=Int	1	_	_	start_char=148|end_char=151
+3	do	do	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	_	_	start_char=152|end_char=154
+4	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	3	_	_	start_char=155|end_char=158
+5	think	think	VERB	VB	VerbForm=Inf	4	_	_	start_char=159|end_char=164
+6	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	_	_	start_char=165|end_char=168
+7	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	_	_	start_char=169|end_char=172
+8	trying	try	VERB	VBG	Tense=Pres|VerbForm=Part	7	_	_	start_char=173|end_char=179
+9	to	to	PART	TO	_	8	_	_	start_char=180|end_char=182
+10	call	call	VERB	VB	VerbForm=Inf	9	_	_	start_char=183|end_char=187
+11	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	_	_	start_char=188|end_char=190
+12	a	a	DET	DT	Definite=Ind|PronType=Art	11	_	_	start_char=191|end_char=192
+13	cuck	cuck	NOUN	NN	Number=Sing	12	_	_	start_char=193|end_char=197|SpaceAfter=No
+14	?	?	PUNCT	.	_	13	_	_	start_char=197|end_char=198|SpaceAfter=No
 

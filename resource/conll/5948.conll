@@ -1,5 +1,5 @@
 # text = You're as big as an asshole as he is if you keep going on about it, grow the fuck up or even better, get off the internet if you can't handle it.
-# sent_id = 12414
+# sent_id = 12016
 1-2	You're	_	_	_	_	_	_	_	start_char=0|end_char=6
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=0|end_char=3
 2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=3|end_char=6
@@ -40,8 +40,8 @@
 36	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	35	_	_	start_char=142|end_char=144|SpaceAfter=No
 37	.	.	PUNCT	.	_	36	_	_	start_char=144|end_char=145
 
-# text = You are replicating #Twatter & #Faceplant & #Reddit behavior here on [USER]
-# sent_id = 12415
+# text = You are replicating #Twatter & #Faceplant & #Reddit behavior here on Give it a rest
+# sent_id = 12017
 1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=146|end_char=149
 2	are	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=150|end_char=153
 3	replicating	replicate	VERB	VBG	Tense=Pres|VerbForm=Part	2	_	_	start_char=154|end_char=165
@@ -55,15 +55,9 @@
 11	Reddit	Reddit	NOUN	NN	Number=Sing	10	_	_	start_char=191|end_char=197
 12	behavior	behavior	NOUN	NN	Number=Sing	11	_	_	start_char=198|end_char=206
 13	here	here	ADV	RB	PronType=Dem	12	_	_	start_char=207|end_char=211
-14	on	on	ADP	IN	_	13	_	_	start_char=212|end_char=214
-15	[	[	PUNCT	-LRB-	_	14	_	_	start_char=215|end_char=216|SpaceAfter=No
-16	USER	user	NOUN	NN	Number=Sing	15	_	_	start_char=216|end_char=220|SpaceAfter=No
-17	]	]	PUNCT	-RRB-	_	16	_	_	start_char=220|end_char=221
-
-# text = Give it a rest
-# sent_id = 12416
-1	Give	give	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=222|end_char=226
-2	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=227|end_char=229
-3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=230|end_char=231
-4	rest	rest	NOUN	NN	Number=Sing	3	_	_	start_char=232|end_char=236|SpaceAfter=No
+14	on	on	ADP	IN	_	13	_	_	start_char=212|end_char=214|SpacesAfter=\s\s
+15	Give	give	VERB	VB	VerbForm=Inf	14	_	_	start_char=216|end_char=220
+16	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	15	_	_	start_char=221|end_char=223
+17	a	a	DET	DT	Definite=Ind|PronType=Art	16	_	_	start_char=224|end_char=225
+18	rest	rest	NOUN	NN	Number=Sing	17	_	_	start_char=226|end_char=230|SpaceAfter=No
 

@@ -1,5 +1,5 @@
 # text = What a fantastic mother, wife and friend!
-# sent_id = 80954
+# sent_id = 78336
 1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=0|end_char=4
 2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=5|end_char=6
 3	fantastic	fantastic	ADJ	JJ	Degree=Pos	2	_	_	start_char=7|end_char=16
@@ -11,7 +11,7 @@
 9	!	!	PUNCT	.	_	8	_	_	start_char=40|end_char=41
 
 # text = I'm sure she will live on in the lives of the children she saved.
-# sent_id = 80955
+# sent_id = 78337
 1-2	I'm	_	_	_	_	_	_	_	start_char=42|end_char=45
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=42|end_char=43
 2	'm	be	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=43|end_char=45
@@ -31,15 +31,9 @@
 16	.	.	PUNCT	.	_	15	_	_	start_char=106|end_char=107
 
 # text = What a legacy.
-# sent_id = 80956
+# sent_id = 78338
 1	What	what	DET	WDT	PronType=Int	0	_	_	start_char=108|end_char=112
 2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=113|end_char=114
 3	legacy	legacy	NOUN	NN	Number=Sing	2	_	_	start_char=115|end_char=121|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	_	_	start_char=121|end_char=122
-
-# text = [USER]
-# sent_id = 80957
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=123|end_char=124|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=124|end_char=128|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=128|end_char=129|SpaceAfter=No
 

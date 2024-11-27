@@ -1,69 +1,63 @@
-# text = [USER]
-# sent_id = 53622
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = Zuckerberg is such a freaking moron.
-# sent_id = 53623
-1	Zuckerberg	Zuckerberg	PROPN	NNP	Number=Sing	0	_	_	start_char=7|end_char=17
-2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=18|end_char=20
-3	such	such	DET	PDT	_	2	_	_	start_char=21|end_char=25
-4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=26|end_char=27
-5	freaking	freak	VERB	VBG	VerbForm=Ger	4	_	_	start_char=28|end_char=36
-6	moron	moron	NOUN	NN	Number=Sing	5	_	_	start_char=37|end_char=42|SpaceAfter=No
-7	.	.	PUNCT	.	_	6	_	_	start_char=42|end_char=43
+# sent_id = 51896
+1	Zuckerberg	Zuckerberg	PROPN	NNP	Number=Sing	0	_	_	start_char=1|end_char=11|SpacesBefore=\s
+2	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=12|end_char=14
+3	such	such	DET	PDT	_	2	_	_	start_char=15|end_char=19
+4	a	a	DET	DT	Definite=Ind|PronType=Art	3	_	_	start_char=20|end_char=21
+5	freaking	freak	VERB	VBG	VerbForm=Ger	4	_	_	start_char=22|end_char=30
+6	moron	moron	NOUN	NN	Number=Sing	5	_	_	start_char=31|end_char=36|SpaceAfter=No
+7	.	.	PUNCT	.	_	6	_	_	start_char=36|end_char=37
 
 # text = I was just watching him on TV.
-# sent_id = 53624
-1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=44|end_char=45
-2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=46|end_char=49
-3	just	just	ADV	RB	_	2	_	_	start_char=50|end_char=54
-4	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=55|end_char=63
-5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=64|end_char=67
-6	on	on	ADP	IN	_	5	_	_	start_char=68|end_char=70
-7	TV	TV	NOUN	NN	Number=Sing	6	_	_	start_char=71|end_char=73|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=73|end_char=74
+# sent_id = 51897
+1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=38|end_char=39
+2	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=40|end_char=43
+3	just	just	ADV	RB	_	2	_	_	start_char=44|end_char=48
+4	watching	watch	VERB	VBG	Tense=Pres|VerbForm=Part	3	_	_	start_char=49|end_char=57
+5	him	he	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=58|end_char=61
+6	on	on	ADP	IN	_	5	_	_	start_char=62|end_char=64
+7	TV	TV	NOUN	NN	Number=Sing	6	_	_	start_char=65|end_char=67|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=67|end_char=68
 
 # text = His new mission is to bring the whole world together.
-# sent_id = 53625
-1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=75|end_char=78
-2	new	new	ADJ	JJ	Degree=Pos	1	_	_	start_char=79|end_char=82
-3	mission	mission	NOUN	NN	Number=Sing	2	_	_	start_char=83|end_char=90
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=91|end_char=93
-5	to	to	PART	TO	_	4	_	_	start_char=94|end_char=96
-6	bring	bring	VERB	VB	VerbForm=Inf	5	_	_	start_char=97|end_char=102
-7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=103|end_char=106
-8	whole	whole	ADJ	JJ	Degree=Pos	7	_	_	start_char=107|end_char=112
-9	world	world	NOUN	NN	Number=Sing	8	_	_	start_char=113|end_char=118
-10	together	together	ADV	RB	_	9	_	_	start_char=119|end_char=127|SpaceAfter=No
-11	.	.	PUNCT	.	_	10	_	_	start_char=127|end_char=128
+# sent_id = 51898
+1	His	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=69|end_char=72
+2	new	new	ADJ	JJ	Degree=Pos	1	_	_	start_char=73|end_char=76
+3	mission	mission	NOUN	NN	Number=Sing	2	_	_	start_char=77|end_char=84
+4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=85|end_char=87
+5	to	to	PART	TO	_	4	_	_	start_char=88|end_char=90
+6	bring	bring	VERB	VB	VerbForm=Inf	5	_	_	start_char=91|end_char=96
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=97|end_char=100
+8	whole	whole	ADJ	JJ	Degree=Pos	7	_	_	start_char=101|end_char=106
+9	world	world	NOUN	NN	Number=Sing	8	_	_	start_char=107|end_char=112
+10	together	together	ADV	RB	_	9	_	_	start_char=113|end_char=121|SpaceAfter=No
+11	.	.	PUNCT	.	_	10	_	_	start_char=121|end_char=122
 
 # text = Hey, maybe he's the Antichrist.
-# sent_id = 53626
-1	Hey	hey	INTJ	UH	_	0	_	_	start_char=129|end_char=132|SpaceAfter=No
-2	,	,	PUNCT	,	_	1	_	_	start_char=132|end_char=133
-3	maybe	maybe	ADV	RB	_	2	_	_	start_char=134|end_char=139
-4-5	he's	_	_	_	_	_	_	_	start_char=140|end_char=144
-4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=140|end_char=142
-5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=142|end_char=144
-6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=145|end_char=148
-7	Antichrist	Antichrist	PROPN	NNP	Number=Sing	6	_	_	start_char=149|end_char=159|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=159|end_char=160
+# sent_id = 51899
+1	Hey	hey	INTJ	UH	_	0	_	_	start_char=123|end_char=126|SpaceAfter=No
+2	,	,	PUNCT	,	_	1	_	_	start_char=126|end_char=127
+3	maybe	maybe	ADV	RB	_	2	_	_	start_char=128|end_char=133
+4-5	he's	_	_	_	_	_	_	_	start_char=134|end_char=138
+4	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=134|end_char=136
+5	's	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=136|end_char=138
+6	the	the	DET	DT	Definite=Def|PronType=Art	5	_	_	start_char=139|end_char=142
+7	Antichrist	Antichrist	PROPN	NNP	Number=Sing	6	_	_	start_char=143|end_char=153|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=153|end_char=154
 
 # text = Speaking all the smooth words and leading people to follow the devil.
-# sent_id = 53627
-1	Speaking	speak	VERB	VBG	VerbForm=Ger	0	_	_	start_char=161|end_char=169
-2	all	all	DET	PDT	_	1	_	_	start_char=170|end_char=173
-3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=174|end_char=177
-4	smooth	smooth	ADJ	JJ	Degree=Pos	3	_	_	start_char=178|end_char=184
-5	words	word	NOUN	NNS	Number=Plur	4	_	_	start_char=185|end_char=190
-6	and	and	CCONJ	CC	_	5	_	_	start_char=191|end_char=194
-7	leading	lead	VERB	VBG	VerbForm=Ger	6	_	_	start_char=195|end_char=202
-8	people	person	NOUN	NNS	Number=Plur	7	_	_	start_char=203|end_char=209
-9	to	to	PART	TO	_	8	_	_	start_char=210|end_char=212
-10	follow	follow	VERB	VB	VerbForm=Inf	9	_	_	start_char=213|end_char=219
-11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=220|end_char=223
-12	devil	devil	NOUN	NN	Number=Sing	11	_	_	start_char=224|end_char=229|SpaceAfter=No
-13	.	.	PUNCT	.	_	12	_	_	start_char=229|end_char=230|SpaceAfter=No
+# sent_id = 51900
+1	Speaking	speak	VERB	VBG	VerbForm=Ger	0	_	_	start_char=155|end_char=163
+2	all	all	DET	PDT	_	1	_	_	start_char=164|end_char=167
+3	the	the	DET	DT	Definite=Def|PronType=Art	2	_	_	start_char=168|end_char=171
+4	smooth	smooth	ADJ	JJ	Degree=Pos	3	_	_	start_char=172|end_char=178
+5	words	word	NOUN	NNS	Number=Plur	4	_	_	start_char=179|end_char=184
+6	and	and	CCONJ	CC	_	5	_	_	start_char=185|end_char=188
+7	leading	lead	VERB	VBG	VerbForm=Ger	6	_	_	start_char=189|end_char=196
+8	people	person	NOUN	NNS	Number=Plur	7	_	_	start_char=197|end_char=203
+9	to	to	PART	TO	_	8	_	_	start_char=204|end_char=206
+10	follow	follow	VERB	VB	VerbForm=Inf	9	_	_	start_char=207|end_char=213
+11	the	the	DET	DT	Definite=Def|PronType=Art	10	_	_	start_char=214|end_char=217
+12	devil	devil	NOUN	NN	Number=Sing	11	_	_	start_char=218|end_char=223|SpaceAfter=No
+13	.	.	PUNCT	.	_	12	_	_	start_char=223|end_char=224|SpaceAfter=No
 

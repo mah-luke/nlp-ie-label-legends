@@ -1,10 +1,10 @@
 # text = Wait !!!
-# sent_id = 113029
+# sent_id = 109329
 1	Wait	wait	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4
 2	!!!	!!!	PUNCT	.	_	1	_	_	start_char=5|end_char=8
 
 # text = I thought a white female wearing cheongsam was "cultural appropriation."
-# sent_id = 113030
+# sent_id = 109330
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=9|end_char=10
 2	thought	think	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	1	_	_	start_char=11|end_char=18
 3	a	a	DET	DT	Definite=Ind|PronType=Art	2	_	_	start_char=19|end_char=20
@@ -20,7 +20,7 @@
 13	"	"	PUNCT	''	_	12	_	_	start_char=80|end_char=81
 
 # text = Surely you're not telling me Hillary Clinton gets away with stuff mere plebeians are castigated for doing?
-# sent_id = 113031
+# sent_id = 109331
 1	Surely	surely	ADV	RB	_	0	_	_	start_char=82|end_char=88
 2-3	you're	_	_	_	_	_	_	_	start_char=89|end_char=95
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=89|end_char=92
@@ -41,10 +41,4 @@
 17	for	for	SCONJ	IN	_	16	_	_	start_char=178|end_char=181
 18	doing	do	VERB	VBG	VerbForm=Ger	17	_	_	start_char=182|end_char=187|SpaceAfter=No
 19	?	?	PUNCT	.	_	18	_	_	start_char=187|end_char=188
-
-# text = [URL]
-# sent_id = 113032
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=189|end_char=190|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=190|end_char=193|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=193|end_char=194|SpaceAfter=No
 

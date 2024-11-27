@@ -1,5 +1,5 @@
 # text = First the wife, then Senator now the son.
-# sent_id = 103233
+# sent_id = 99861
 1	First	first	ADV	RB	NumType=Ord	0	_	_	start_char=0|end_char=5
 2	the	the	DET	DT	Definite=Def|PronType=Art	1	_	_	start_char=6|end_char=9
 3	wife	wife	NOUN	NN	Number=Sing	2	_	_	start_char=10|end_char=14|SpaceAfter=No
@@ -12,15 +12,15 @@
 10	.	.	PUNCT	.	_	9	_	_	start_char=40|end_char=41
 
 # text = See a pattern here?
-# sent_id = 103234
+# sent_id = 99862
 1	See	see	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=42|end_char=45
 2	a	a	DET	DT	Definite=Ind|PronType=Art	1	_	_	start_char=46|end_char=47
 3	pattern	pattern	NOUN	NN	Number=Sing	2	_	_	start_char=48|end_char=55
 4	here	here	ADV	RB	PronType=Dem	3	_	_	start_char=56|end_char=60|SpaceAfter=No
 5	?	?	PUNCT	.	_	4	_	_	start_char=60|end_char=61
 
-# text = John Conyers' Son Arrested in February, Accused of Stabbing Girlfriend in Domestic [URL]
-# sent_id = 103235
+# text = John Conyers' Son Arrested in February, Accused of Stabbing Girlfriend in Domestic
+# sent_id = 99863
 1	John	John	PROPN	NNP	Number=Sing	0	_	_	start_char=62|end_char=66
 2-3	Conyers'	_	_	_	_	_	_	_	start_char=67|end_char=75
 2	Conyers	Conyer	PROPN	NNP	Number=Sing	1	_	_	start_char=67|end_char=74
@@ -36,7 +36,4 @@
 12	Girlfriend	Girlfriend	PROPN	NNP	Number=Sing	11	_	_	start_char=122|end_char=132
 13	in	in	ADP	IN	_	12	_	_	start_char=133|end_char=135
 14	Domestic	domestic	ADJ	JJ	Degree=Pos	13	_	_	start_char=136|end_char=144
-15	[	[	PUNCT	-LRB-	_	14	_	_	start_char=145|end_char=146|SpaceAfter=No
-16	URL	URL	PROPN	NNP	Number=Sing	15	_	_	start_char=146|end_char=149|SpaceAfter=No
-17	]	]	PUNCT	-RRB-	_	16	_	_	start_char=149|end_char=150|SpaceAfter=No
 

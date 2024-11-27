@@ -1,12 +1,12 @@
 # text = Joe Pedo Biden.
-# sent_id = 83688
+# sent_id = 80979
 1	Joe	Joe	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=3
 2	Pedo	Pedo	PROPN	NNP	Number=Sing	1	_	_	start_char=4|end_char=8
 3	Biden	Biden	PROPN	NNP	Number=Sing	2	_	_	start_char=9|end_char=14|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	_	_	start_char=14|end_char=15
 
-# text = He plans to give candy to every little girl in America; if they'll just sit on his lap... [URL]
-# sent_id = 83689
+# text = He plans to give candy to every little girl in America; if they'll just sit on his lap...
+# sent_id = 80980
 1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=16|end_char=18
 2	plans	plan	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=19|end_char=24
 3	to	to	PART	TO	_	2	_	_	start_char=25|end_char=27
@@ -28,8 +28,5 @@
 18	on	on	ADP	IN	_	17	_	_	start_char=92|end_char=94
 19	his	his	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	18	_	_	start_char=95|end_char=98
 20	lap	lap	NOUN	NN	Number=Sing	19	_	_	start_char=99|end_char=102|SpaceAfter=No
-21	...	...	PUNCT	,	_	20	_	_	start_char=102|end_char=105
-22	[	[	PUNCT	-LRB-	_	21	_	_	start_char=106|end_char=107|SpaceAfter=No
-23	URL	URL	PROPN	NNP	Number=Sing	22	_	_	start_char=107|end_char=110|SpaceAfter=No
-24	]	]	PUNCT	-RRB-	_	23	_	_	start_char=110|end_char=111|SpaceAfter=No
+21	...	...	PUNCT	.	_	20	_	_	start_char=102|end_char=105
 

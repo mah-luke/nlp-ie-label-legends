@@ -1,5 +1,5 @@
-# text = My 8 year old could not stop crying when I told her [USER] would send secret service over to burn all her clothes, murder our cat and smear turds in the hair of all her barbies.
-# sent_id = 17692
+# text = My 8 year old could not stop crying when I told her would send secret service over to burn all her clothes, murder our cat and smear turds in the hair of all her barbies.
+# sent_id = 17128
 1	My	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	0	_	_	start_char=0|end_char=2
 2	8	8	NUM	CD	NumForm=Digit|NumType=Card	1	_	_	start_char=3|end_char=4
 3	year	year	NOUN	NN	Number=Sing	2	_	_	start_char=5|end_char=9
@@ -11,42 +11,39 @@
 9	when	when	ADV	WRB	PronType=Int	8	_	_	start_char=36|end_char=40
 10	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	_	_	start_char=41|end_char=42
 11	told	tell	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	_	_	start_char=43|end_char=47
-12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=48|end_char=51
-13	[	[	PUNCT	-LRB-	_	12	_	_	start_char=52|end_char=53|SpaceAfter=No
-14	USER	user	NOUN	NN	Number=Sing	13	_	_	start_char=53|end_char=57|SpaceAfter=No
-15	]	]	PUNCT	-RRB-	_	14	_	_	start_char=57|end_char=58
-16	would	would	AUX	MD	VerbForm=Fin	15	_	_	start_char=59|end_char=64
-17	send	send	VERB	VB	VerbForm=Inf	16	_	_	start_char=65|end_char=69
-18	secret	secret	ADJ	JJ	Degree=Pos	17	_	_	start_char=70|end_char=76
-19	service	service	NOUN	NN	Number=Sing	18	_	_	start_char=77|end_char=84
-20	over	over	ADV	RB	_	19	_	_	start_char=85|end_char=89
-21	to	to	PART	TO	_	20	_	_	start_char=90|end_char=92
-22	burn	burn	VERB	VB	VerbForm=Inf	21	_	_	start_char=93|end_char=97
-23	all	all	DET	PDT	_	22	_	_	start_char=98|end_char=101
-24	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	_	_	start_char=102|end_char=105
-25	clothes	clothes	NOUN	NNS	Number=Plur	24	_	_	start_char=106|end_char=113|SpaceAfter=No
-26	,	,	PUNCT	,	_	25	_	_	start_char=113|end_char=114
-27	murder	murder	VERB	VB	VerbForm=Inf	26	_	_	start_char=115|end_char=121
-28	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	27	_	_	start_char=122|end_char=125
-29	cat	cat	NOUN	NN	Number=Sing	28	_	_	start_char=126|end_char=129
-30	and	and	CCONJ	CC	_	29	_	_	start_char=130|end_char=133
-31	smear	smear	NOUN	NN	Number=Sing	30	_	_	start_char=134|end_char=139
-32	turds	turd	NOUN	NNS	Number=Plur	31	_	_	start_char=140|end_char=145
-33	in	in	ADP	IN	_	32	_	_	start_char=146|end_char=148
-34	the	the	DET	DT	Definite=Def|PronType=Art	33	_	_	start_char=149|end_char=152
-35	hair	hair	NOUN	NN	Number=Sing	34	_	_	start_char=153|end_char=157
-36	of	of	ADP	IN	_	35	_	_	start_char=158|end_char=160
-37	all	all	DET	PDT	_	36	_	_	start_char=161|end_char=164
-38	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	37	_	_	start_char=165|end_char=168
-39	barbies	barby	NOUN	NNS	Number=Plur	38	_	_	start_char=169|end_char=176|SpaceAfter=No
-40	.	.	PUNCT	.	_	39	_	_	start_char=176|end_char=177
+12	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	11	_	_	start_char=48|end_char=51|SpacesAfter=\s\s
+13	would	would	AUX	MD	VerbForm=Fin	12	_	_	start_char=53|end_char=58
+14	send	send	VERB	VB	VerbForm=Inf	13	_	_	start_char=59|end_char=63
+15	secret	secret	ADJ	JJ	Degree=Pos	14	_	_	start_char=64|end_char=70
+16	service	service	NOUN	NN	Number=Sing	15	_	_	start_char=71|end_char=78
+17	over	over	ADV	RB	_	16	_	_	start_char=79|end_char=83
+18	to	to	PART	TO	_	17	_	_	start_char=84|end_char=86
+19	burn	burn	VERB	VB	VerbForm=Inf	18	_	_	start_char=87|end_char=91
+20	all	all	DET	PDT	_	19	_	_	start_char=92|end_char=95
+21	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	20	_	_	start_char=96|end_char=99
+22	clothes	clothes	NOUN	NNS	Number=Plur	21	_	_	start_char=100|end_char=107|SpaceAfter=No
+23	,	,	PUNCT	,	_	22	_	_	start_char=107|end_char=108
+24	murder	murder	VERB	VB	VerbForm=Inf	23	_	_	start_char=109|end_char=115
+25	our	our	PRON	PRP$	Case=Gen|Number=Plur|Person=1|Poss=Yes|PronType=Prs	24	_	_	start_char=116|end_char=119
+26	cat	cat	NOUN	NN	Number=Sing	25	_	_	start_char=120|end_char=123
+27	and	and	CCONJ	CC	_	26	_	_	start_char=124|end_char=127
+28	smear	smear	NOUN	NN	Number=Sing	27	_	_	start_char=128|end_char=133
+29	turds	turd	NOUN	NNS	Number=Plur	28	_	_	start_char=134|end_char=139
+30	in	in	ADP	IN	_	29	_	_	start_char=140|end_char=142
+31	the	the	DET	DT	Definite=Def|PronType=Art	30	_	_	start_char=143|end_char=146
+32	hair	hair	NOUN	NN	Number=Sing	31	_	_	start_char=147|end_char=151
+33	of	of	ADP	IN	_	32	_	_	start_char=152|end_char=154
+34	all	all	DET	PDT	_	33	_	_	start_char=155|end_char=158
+35	her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	34	_	_	start_char=159|end_char=162
+36	barbies	barby	NOUN	NNS	Number=Plur	35	_	_	start_char=163|end_char=170|SpaceAfter=No
+37	.	.	PUNCT	.	_	36	_	_	start_char=170|end_char=171
 
 # text = This MADNESS has to STOP!!
-# sent_id = 17693
-1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=178|end_char=182
-2	MADNESS	madness	NOUN	NN	Number=Sing	1	_	_	start_char=183|end_char=190
-3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=191|end_char=194
-4	to	to	PART	TO	_	3	_	_	start_char=195|end_char=197
-5	STOP	stop	VERB	VB	VerbForm=Inf	4	_	_	start_char=198|end_char=202|SpaceAfter=No
-6	!!	!!	PUNCT	.	_	5	_	_	start_char=202|end_char=204|SpaceAfter=No
+# sent_id = 17129
+1	This	this	DET	DT	Number=Sing|PronType=Dem	0	_	_	start_char=172|end_char=176
+2	MADNESS	madness	NOUN	NN	Number=Sing	1	_	_	start_char=177|end_char=184
+3	has	have	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=185|end_char=188
+4	to	to	PART	TO	_	3	_	_	start_char=189|end_char=191
+5	STOP	stop	VERB	VB	VerbForm=Inf	4	_	_	start_char=192|end_char=196|SpaceAfter=No
+6	!!	!!	PUNCT	.	_	5	_	_	start_char=196|end_char=198|SpaceAfter=No
 

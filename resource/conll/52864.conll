@@ -1,50 +1,44 @@
-# text = [USER]
-# sent_id = 112976
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = You're right.
-# sent_id = 112977
-1-2	You're	_	_	_	_	_	_	_	start_char=7|end_char=13
-1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=7|end_char=10
-2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=13
-3	right	right	ADJ	JJ	Degree=Pos	2	_	_	start_char=14|end_char=19|SpaceAfter=No
-4	.	.	PUNCT	.	_	3	_	_	start_char=19|end_char=20
+# sent_id = 109279
+1-2	You're	_	_	_	_	_	_	_	start_char=1|end_char=7|SpacesBefore=\s
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=1|end_char=4
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	right	right	ADJ	JJ	Degree=Pos	2	_	_	start_char=8|end_char=13|SpaceAfter=No
+4	.	.	PUNCT	.	_	3	_	_	start_char=13|end_char=14
 
 # text = In other news: I can't believe I just said that to a woman.
-# sent_id = 112978
-1	In	in	ADP	IN	_	0	_	_	start_char=21|end_char=23
-2	other	other	ADJ	JJ	Degree=Pos	1	_	_	start_char=24|end_char=29
-3	news	news	NOUN	NN	Number=Sing	2	_	_	start_char=30|end_char=34|SpaceAfter=No
-4	:	:	PUNCT	:	_	3	_	_	start_char=34|end_char=35
-5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=36|end_char=37
-6-7	can't	_	_	_	_	_	_	_	start_char=38|end_char=43
-6	ca	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=38|end_char=40
-7	n't	not	PART	RB	_	6	_	_	start_char=40|end_char=43
-8	believe	believe	VERB	VB	VerbForm=Inf	7	_	_	start_char=44|end_char=51
-9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=52|end_char=53
-10	just	just	ADV	RB	_	9	_	_	start_char=54|end_char=58
-11	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	_	_	start_char=59|end_char=63
-12	that	that	PRON	DT	Number=Sing|PronType=Dem	11	_	_	start_char=64|end_char=68
-13	to	to	ADP	IN	_	12	_	_	start_char=69|end_char=71
-14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=72|end_char=73
-15	woman	woman	NOUN	NN	Number=Sing	14	_	_	start_char=74|end_char=79|SpaceAfter=No
-16	.	.	PUNCT	.	_	15	_	_	start_char=79|end_char=80
+# sent_id = 109280
+1	In	in	ADP	IN	_	0	_	_	start_char=15|end_char=17
+2	other	other	ADJ	JJ	Degree=Pos	1	_	_	start_char=18|end_char=23
+3	news	news	NOUN	NN	Number=Sing	2	_	_	start_char=24|end_char=28|SpaceAfter=No
+4	:	:	PUNCT	:	_	3	_	_	start_char=28|end_char=29
+5	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	_	_	start_char=30|end_char=31
+6-7	can't	_	_	_	_	_	_	_	start_char=32|end_char=37
+6	ca	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=32|end_char=34
+7	n't	not	PART	RB	_	6	_	_	start_char=34|end_char=37
+8	believe	believe	VERB	VB	VerbForm=Inf	7	_	_	start_char=38|end_char=45
+9	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	_	_	start_char=46|end_char=47
+10	just	just	ADV	RB	_	9	_	_	start_char=48|end_char=52
+11	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	10	_	_	start_char=53|end_char=57
+12	that	that	PRON	DT	Number=Sing|PronType=Dem	11	_	_	start_char=58|end_char=62
+13	to	to	ADP	IN	_	12	_	_	start_char=63|end_char=65
+14	a	a	DET	DT	Definite=Ind|PronType=Art	13	_	_	start_char=66|end_char=67
+15	woman	woman	NOUN	NN	Number=Sing	14	_	_	start_char=68|end_char=73|SpaceAfter=No
+16	.	.	PUNCT	.	_	15	_	_	start_char=73|end_char=74
 
 # text = There goes my Single Man Club membership.
-# sent_id = 112979
-1	There	there	PRON	EX	_	0	_	_	start_char=81|end_char=86
-2	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=87|end_char=91
-3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=92|end_char=94
-4	Single	single	ADJ	NNP	Degree=Pos	3	_	_	start_char=95|end_char=101
-5	Man	Man	PROPN	NNP	Number=Sing	4	_	_	start_char=102|end_char=105
-6	Club	Club	PROPN	NNP	Number=Sing	5	_	_	start_char=106|end_char=110
-7	membership	membership	NOUN	NN	Number=Sing	6	_	_	start_char=111|end_char=121|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=121|end_char=122
+# sent_id = 109281
+1	There	there	PRON	EX	_	0	_	_	start_char=75|end_char=80
+2	goes	go	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=81|end_char=85
+3	my	my	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	_	_	start_char=86|end_char=88
+4	Single	single	ADJ	NNP	Degree=Pos	3	_	_	start_char=89|end_char=95
+5	Man	Man	PROPN	NNP	Number=Sing	4	_	_	start_char=96|end_char=99
+6	Club	Club	PROPN	NNP	Number=Sing	5	_	_	start_char=100|end_char=104
+7	membership	membership	NOUN	NN	Number=Sing	6	_	_	start_char=105|end_char=115|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=115|end_char=116
 
 # text = #dagnabbit
-# sent_id = 112980
-1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=123|end_char=124|SpaceAfter=No
-2	dagnabbit	dagnabbit	NOUN	NN	Number=Sing	1	_	_	start_char=124|end_char=133|SpaceAfter=No
+# sent_id = 109282
+1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=117|end_char=118|SpaceAfter=No
+2	dagnabbit	dagnabbit	NOUN	NN	Number=Sing	1	_	_	start_char=118|end_char=127|SpaceAfter=No
 

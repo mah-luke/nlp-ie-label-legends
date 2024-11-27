@@ -1,18 +1,18 @@
 # text = Ghost her.
-# sent_id = 108109
+# sent_id = 104560
 1	Ghost	Ghost	VERB	VB	Mood=Imp|VerbForm=Inf	0	_	_	start_char=0|end_char=5
 2	her	her	PRON	PRP	Case=Acc|Gender=Fem|Number=Sing|Person=3|PronType=Prs	1	_	_	start_char=6|end_char=9|SpaceAfter=No
 3	.	.	PUNCT	.	_	2	_	_	start_char=9|end_char=10
 
 # text = She deserves it.
-# sent_id = 108110
+# sent_id = 104561
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=11|end_char=14
 2	deserves	deserve	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=15|end_char=23
 3	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=24|end_char=26|SpaceAfter=No
 4	.	.	PUNCT	.	_	3	_	_	start_char=26|end_char=27
 
 # text = She will blame you anyways.
-# sent_id = 108111
+# sent_id = 104562
 1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=28|end_char=31
 2	will	will	AUX	MD	VerbForm=Fin	1	_	_	start_char=32|end_char=36
 3	blame	blame	VERB	VB	VerbForm=Inf	2	_	_	start_char=37|end_char=42
@@ -20,14 +20,11 @@
 5	anyways	anyways	ADV	RB	_	4	_	_	start_char=47|end_char=54|SpaceAfter=No
 6	.	.	PUNCT	.	_	5	_	_	start_char=54|end_char=55
 
-# text = Just Do It! [[URL]
-# sent_id = 108112
+# text = Just Do It! [
+# sent_id = 104563
 1	Just	just	ADV	RB	_	0	_	_	start_char=56|end_char=60
 2	Do	do	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=61|end_char=63
 3	It	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=64|end_char=66|SpaceAfter=No
 4	!	!	PUNCT	.	_	3	_	_	start_char=66|end_char=67
 5	[	[	PUNCT	-LRB-	_	4	_	_	start_char=68|end_char=69|SpaceAfter=No
-6	[	[	PUNCT	-LRB-	_	5	_	_	start_char=69|end_char=70|SpaceAfter=No
-7	URL	URL	PROPN	NNP	Number=Sing	6	_	_	start_char=70|end_char=73|SpaceAfter=No
-8	]	]	PUNCT	-RRB-	_	7	_	_	start_char=73|end_char=74|SpaceAfter=No
 

@@ -1,29 +1,17 @@
-# text = RT Twitter [USER] RT [USER]: Muslims want to double the number of mosques in France [URL] [URL]
-# sent_id = 14585
+# text = RT Twitter RT : Muslims want to double the number of mosques in France
+# sent_id = 14126
 1	RT	RT	PROPN	NNP	Number=Sing	0	_	_	start_char=0|end_char=2
-2	Twitter	Twitter	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=10
-3	[	[	PUNCT	-LRB-	_	2	_	_	start_char=11|end_char=12|SpaceAfter=No
-4	USER	user	NOUN	NN	Number=Sing	3	_	_	start_char=12|end_char=16|SpaceAfter=No
-5	]	]	PUNCT	-RRB-	_	4	_	_	start_char=16|end_char=17
-6	RT	RT	PROPN	NNP	Number=Sing	5	_	_	start_char=18|end_char=20
-7	[	[	PUNCT	-LRB-	_	6	_	_	start_char=21|end_char=22|SpaceAfter=No
-8	USER	user	NOUN	NN	Number=Sing	7	_	_	start_char=22|end_char=26|SpaceAfter=No
-9	]	]	PUNCT	-RRB-	_	8	_	_	start_char=26|end_char=27|SpaceAfter=No
-10	:	:	PUNCT	:	_	9	_	_	start_char=27|end_char=28
-11	Muslims	Muslim	PROPN	NNPS	Number=Plur	10	_	_	start_char=29|end_char=36
-12	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	_	_	start_char=37|end_char=41
-13	to	to	PART	TO	_	12	_	_	start_char=42|end_char=44
-14	double	double	VERB	VB	VerbForm=Inf	13	_	_	start_char=45|end_char=51
-15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=52|end_char=55
-16	number	number	NOUN	NN	Number=Sing	15	_	_	start_char=56|end_char=62
-17	of	of	ADP	IN	_	16	_	_	start_char=63|end_char=65
-18	mosques	mosque	NOUN	NNS	Number=Plur	17	_	_	start_char=66|end_char=73
-19	in	in	ADP	IN	_	18	_	_	start_char=74|end_char=76
-20	France	France	PROPN	NNP	Number=Sing	19	_	_	start_char=77|end_char=83
-21	[	[	PUNCT	-LRB-	_	20	_	_	start_char=84|end_char=85|SpaceAfter=No
-22	URL	URL	PROPN	NNP	Number=Sing	21	_	_	start_char=85|end_char=88|SpaceAfter=No
-23	]	]	PUNCT	-RRB-	_	22	_	_	start_char=88|end_char=89
-24	[	[	PUNCT	-LRB-	_	23	_	_	start_char=90|end_char=91|SpaceAfter=No
-25	URL	URL	PROPN	NNP	Number=Sing	24	_	_	start_char=91|end_char=94|SpaceAfter=No
-26	]	]	PUNCT	-RRB-	_	25	_	_	start_char=94|end_char=95|SpaceAfter=No
+2	Twitter	Twitter	PROPN	NNP	Number=Sing	1	_	_	start_char=3|end_char=10|SpacesAfter=\s\s
+3	RT	RT	PROPN	NNP	Number=Sing	2	_	_	start_char=12|end_char=14
+4	:	:	PUNCT	:	_	3	_	_	start_char=15|end_char=16
+5	Muslims	Muslim	PROPN	NNPS	Number=Plur	4	_	_	start_char=17|end_char=24
+6	want	want	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	_	_	start_char=25|end_char=29
+7	to	to	PART	TO	_	6	_	_	start_char=30|end_char=32
+8	double	double	VERB	VB	VerbForm=Inf	7	_	_	start_char=33|end_char=39
+9	the	the	DET	DT	Definite=Def|PronType=Art	8	_	_	start_char=40|end_char=43
+10	number	number	NOUN	NN	Number=Sing	9	_	_	start_char=44|end_char=50
+11	of	of	ADP	IN	_	10	_	_	start_char=51|end_char=53
+12	mosques	mosque	NOUN	NNS	Number=Plur	11	_	_	start_char=54|end_char=61
+13	in	in	ADP	IN	_	12	_	_	start_char=62|end_char=64
+14	France	France	PROPN	NNP	Number=Sing	13	_	_	start_char=65|end_char=71|SpacesAfter=\s\s
 

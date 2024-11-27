@@ -1,32 +1,26 @@
-# text = [USER]
-# sent_id = 88338
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = He needs to return it to the working men and women of NYC to offset what he did to them as mayor .
-# sent_id = 88339
-1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=7|end_char=9
-2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=15
-3	to	to	PART	TO	_	2	_	_	start_char=16|end_char=18
-4	return	return	VERB	VB	VerbForm=Inf	3	_	_	start_char=19|end_char=25
-5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=26|end_char=28
-6	to	to	ADP	IN	_	5	_	_	start_char=29|end_char=31
-7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=32|end_char=35
-8	working	working	NOUN	NN	Number=Sing	7	_	_	start_char=36|end_char=43
-9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=44|end_char=47
-10	and	and	CCONJ	CC	_	9	_	_	start_char=48|end_char=51
-11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=52|end_char=57
-12	of	of	ADP	IN	_	11	_	_	start_char=58|end_char=60
-13	NYC	NYC	PROPN	NNP	Number=Sing	12	_	_	start_char=61|end_char=64
-14	to	to	PART	TO	_	13	_	_	start_char=65|end_char=67
-15	offset	offset	VERB	VB	VerbForm=Inf	14	_	_	start_char=68|end_char=74
-16	what	what	PRON	WP	PronType=Rel	15	_	_	start_char=75|end_char=79
-17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=80|end_char=82
-18	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=83|end_char=86
-19	to	to	ADP	IN	_	18	_	_	start_char=87|end_char=89
-20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	_	_	start_char=90|end_char=94
-21	as	as	ADP	IN	_	20	_	_	start_char=95|end_char=97
-22	mayor	mayor	NOUN	NN	Number=Sing	21	_	_	start_char=98|end_char=103
-23	.	.	PUNCT	.	_	22	_	_	start_char=104|end_char=105|SpaceAfter=No
+# sent_id = 85449
+1	He	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	needs	need	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=9
+3	to	to	PART	TO	_	2	_	_	start_char=10|end_char=12
+4	return	return	VERB	VB	VerbForm=Inf	3	_	_	start_char=13|end_char=19
+5	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	_	_	start_char=20|end_char=22
+6	to	to	ADP	IN	_	5	_	_	start_char=23|end_char=25
+7	the	the	DET	DT	Definite=Def|PronType=Art	6	_	_	start_char=26|end_char=29
+8	working	working	NOUN	NN	Number=Sing	7	_	_	start_char=30|end_char=37
+9	men	man	NOUN	NNS	Number=Plur	8	_	_	start_char=38|end_char=41
+10	and	and	CCONJ	CC	_	9	_	_	start_char=42|end_char=45
+11	women	woman	NOUN	NNS	Number=Plur	10	_	_	start_char=46|end_char=51
+12	of	of	ADP	IN	_	11	_	_	start_char=52|end_char=54
+13	NYC	NYC	PROPN	NNP	Number=Sing	12	_	_	start_char=55|end_char=58
+14	to	to	PART	TO	_	13	_	_	start_char=59|end_char=61
+15	offset	offset	VERB	VB	VerbForm=Inf	14	_	_	start_char=62|end_char=68
+16	what	what	PRON	WP	PronType=Rel	15	_	_	start_char=69|end_char=73
+17	he	he	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	_	_	start_char=74|end_char=76
+18	did	do	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	_	_	start_char=77|end_char=80
+19	to	to	ADP	IN	_	18	_	_	start_char=81|end_char=83
+20	them	they	PRON	PRP	Case=Acc|Number=Plur|Person=3|PronType=Prs	19	_	_	start_char=84|end_char=88
+21	as	as	ADP	IN	_	20	_	_	start_char=89|end_char=91
+22	mayor	mayor	NOUN	NN	Number=Sing	21	_	_	start_char=92|end_char=97
+23	.	.	PUNCT	.	_	22	_	_	start_char=98|end_char=99|SpaceAfter=No
 

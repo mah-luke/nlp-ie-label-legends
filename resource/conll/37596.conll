@@ -1,41 +1,38 @@
-# text = [USER] is this real?
-# sent_id = 80358
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-4	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	_	_	start_char=7|end_char=9
-5	this	this	PRON	DT	Number=Sing|PronType=Dem	4	_	_	start_char=10|end_char=14
-6	real	real	ADJ	JJ	Degree=Pos	5	_	_	start_char=15|end_char=19|SpaceAfter=No
-7	?	?	PUNCT	.	_	6	_	_	start_char=19|end_char=20
+# text = is this real?
+# sent_id = 77757
+1	is	be	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	_	_	start_char=1|end_char=3|SpacesBefore=\s
+2	this	this	PRON	DT	Number=Sing|PronType=Dem	1	_	_	start_char=4|end_char=8
+3	real	real	ADJ	JJ	Degree=Pos	2	_	_	start_char=9|end_char=13|SpaceAfter=No
+4	?	?	PUNCT	.	_	3	_	_	start_char=13|end_char=14
 
 # text = Or are they just teasing me?
-# sent_id = 80359
-1	Or	or	CCONJ	CC	_	0	_	_	start_char=21|end_char=23
-2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=24|end_char=27
-3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=28|end_char=32
-4	just	just	ADV	RB	_	3	_	_	start_char=33|end_char=37
-5	teasing	tease	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=38|end_char=45
-6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=46|end_char=48|SpaceAfter=No
-7	?	?	PUNCT	.	_	6	_	_	start_char=48|end_char=49
+# sent_id = 77758
+1	Or	or	CCONJ	CC	_	0	_	_	start_char=15|end_char=17
+2	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	1	_	_	start_char=18|end_char=21
+3	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	_	_	start_char=22|end_char=26
+4	just	just	ADV	RB	_	3	_	_	start_char=27|end_char=31
+5	teasing	tease	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=32|end_char=39
+6	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	5	_	_	start_char=40|end_char=42|SpaceAfter=No
+7	?	?	PUNCT	.	_	6	_	_	start_char=42|end_char=43
 
 # text = Please tell me they are going to do something about this old hag threatening the White House.
-# sent_id = 80360
-1	Please	please	INTJ	UH	_	0	_	_	start_char=50|end_char=56
-2	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=57|end_char=61
-3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=62|end_char=64
-4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=65|end_char=69
-5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=70|end_char=73
-6	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=74|end_char=79
-7	to	to	PART	TO	_	6	_	_	start_char=80|end_char=82
-8	do	do	VERB	VB	VerbForm=Inf	7	_	_	start_char=83|end_char=85
-9	something	something	PRON	NN	Number=Sing|PronType=Ind	8	_	_	start_char=86|end_char=95
-10	about	about	ADP	IN	_	9	_	_	start_char=96|end_char=101
-11	this	this	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=102|end_char=106
-12	old	old	ADJ	JJ	Degree=Pos	11	_	_	start_char=107|end_char=110
-13	hag	hag	NOUN	NN	Number=Sing	12	_	_	start_char=111|end_char=114
-14	threatening	threaten	VERB	VBG	VerbForm=Ger	13	_	_	start_char=115|end_char=126
-15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=127|end_char=130
-16	White	White	ADJ	NNP	Degree=Pos	15	_	_	start_char=131|end_char=136
-17	House	House	PROPN	NNP	Number=Sing	16	_	_	start_char=137|end_char=142|SpaceAfter=No
-18	.	.	PUNCT	.	_	17	_	_	start_char=142|end_char=143|SpaceAfter=No
+# sent_id = 77759
+1	Please	please	INTJ	UH	_	0	_	_	start_char=44|end_char=50
+2	tell	tell	VERB	VB	Mood=Imp|VerbForm=Fin	1	_	_	start_char=51|end_char=55
+3	me	I	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	2	_	_	start_char=56|end_char=58
+4	they	they	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	_	_	start_char=59|end_char=63
+5	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	_	_	start_char=64|end_char=67
+6	going	go	VERB	VBG	Tense=Pres|VerbForm=Part	5	_	_	start_char=68|end_char=73
+7	to	to	PART	TO	_	6	_	_	start_char=74|end_char=76
+8	do	do	VERB	VB	VerbForm=Inf	7	_	_	start_char=77|end_char=79
+9	something	something	PRON	NN	Number=Sing|PronType=Ind	8	_	_	start_char=80|end_char=89
+10	about	about	ADP	IN	_	9	_	_	start_char=90|end_char=95
+11	this	this	DET	DT	Number=Sing|PronType=Dem	10	_	_	start_char=96|end_char=100
+12	old	old	ADJ	JJ	Degree=Pos	11	_	_	start_char=101|end_char=104
+13	hag	hag	NOUN	NN	Number=Sing	12	_	_	start_char=105|end_char=108
+14	threatening	threaten	VERB	VBG	VerbForm=Ger	13	_	_	start_char=109|end_char=120
+15	the	the	DET	DT	Definite=Def|PronType=Art	14	_	_	start_char=121|end_char=124
+16	White	White	ADJ	NNP	Degree=Pos	15	_	_	start_char=125|end_char=130
+17	House	House	PROPN	NNP	Number=Sing	16	_	_	start_char=131|end_char=136|SpaceAfter=No
+18	.	.	PUNCT	.	_	17	_	_	start_char=136|end_char=137|SpaceAfter=No
 

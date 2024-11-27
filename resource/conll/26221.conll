@@ -1,5 +1,5 @@
 # text = Look, I'm not jazzed about it either but jeeze louise, let's put on our big people panties already!
-# sent_id = 56315
+# sent_id = 54482
 1	Look	look	VERB	VB	Mood=Imp|VerbForm=Fin	0	_	_	start_char=0|end_char=4|SpaceAfter=No
 2	,	,	PUNCT	,	_	1	_	_	start_char=4|end_char=5
 3-4	I'm	_	_	_	_	_	_	_	start_char=6|end_char=9
@@ -26,8 +26,8 @@
 22	already	already	ADV	RB	_	21	_	_	start_char=91|end_char=98|SpaceAfter=No
 23	!	!	PUNCT	.	_	22	_	_	start_char=98|end_char=99
 
-# text = If you don't like the assholes trend, start your own & stop acting like [USER] & [USER] are your mommies.
-# sent_id = 56316
+# text = If you don't like the assholes trend, start your own & stop acting like & are your mommies.
+# sent_id = 54483
 1	If	if	SCONJ	IN	_	0	_	_	start_char=100|end_char=102
 2	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	1	_	_	start_char=103|end_char=106
 3-4	don't	_	_	_	_	_	_	_	start_char=107|end_char=112
@@ -44,16 +44,10 @@
 13	&	&	CCONJ	CC	_	12	_	_	start_char=153|end_char=154
 14	stop	stop	VERB	VB	Mood=Imp|VerbForm=Fin	13	_	_	start_char=155|end_char=159
 15	acting	act	VERB	VBG	VerbForm=Ger	14	_	_	start_char=160|end_char=166
-16	like	like	ADP	IN	_	15	_	_	start_char=167|end_char=171
-17	[	[	PUNCT	-LRB-	_	16	_	_	start_char=172|end_char=173|SpaceAfter=No
-18	USER	user	NOUN	NN	Number=Sing	17	_	_	start_char=173|end_char=177|SpaceAfter=No
-19	]	]	PUNCT	-RRB-	_	18	_	_	start_char=177|end_char=178
-20	&	&	CCONJ	CC	_	19	_	_	start_char=179|end_char=180
-21	[	[	PUNCT	-LRB-	_	20	_	_	start_char=181|end_char=182|SpaceAfter=No
-22	USER	user	NOUN	NN	Number=Sing	21	_	_	start_char=182|end_char=186|SpaceAfter=No
-23	]	]	PUNCT	-RRB-	_	22	_	_	start_char=186|end_char=187
-24	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	23	_	_	start_char=188|end_char=191
-25	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	24	_	_	start_char=192|end_char=196
-26	mommies	mommy	NOUN	NNS	Number=Plur	25	_	_	start_char=197|end_char=204|SpaceAfter=No
-27	.	.	PUNCT	.	_	26	_	_	start_char=204|end_char=205|SpaceAfter=No
+16	like	like	INTJ	UH	_	15	_	_	start_char=167|end_char=171|SpacesAfter=\s\s
+17	&	&	CCONJ	CC	_	16	_	_	start_char=173|end_char=174|SpacesAfter=\s\s
+18	are	be	AUX	VBP	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	17	_	_	start_char=176|end_char=179
+19	your	your	PRON	PRP$	Case=Gen|Person=2|Poss=Yes|PronType=Prs	18	_	_	start_char=180|end_char=184
+20	mommies	mommy	NOUN	NNS	Number=Plur	19	_	_	start_char=185|end_char=192|SpaceAfter=No
+21	.	.	PUNCT	.	_	20	_	_	start_char=192|end_char=193|SpaceAfter=No
 

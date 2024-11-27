@@ -1,5 +1,5 @@
 # text = Yeah some high ranking cunt periodically deletes perfectly well sourced entries.
-# sent_id = 82842
+# sent_id = 80160
 1	Yeah	yeah	INTJ	UH	_	0	_	_	start_char=0|end_char=4
 2	some	some	DET	DT	_	1	_	_	start_char=5|end_char=9
 3	high	high	ADJ	JJ	Degree=Pos	2	_	_	start_char=10|end_char=14
@@ -14,7 +14,7 @@
 12	.	.	PUNCT	.	_	11	_	_	start_char=79|end_char=80
 
 # text = Her ~~sandbox~~ user page was recently vandalized and I tell you, internet crime is outta control these days.
-# sent_id = 82843
+# sent_id = 80161
 1	Her	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	0	_	_	start_char=81|end_char=84
 2	~~	~~	PUNCT	NFP	_	1	_	_	start_char=85|end_char=87|SpaceAfter=No
 3	sandbox	sandbox	NOUN	NN	Number=Sing	2	_	_	start_char=87|end_char=94|SpaceAfter=No
@@ -39,7 +39,7 @@
 22	.	.	PUNCT	.	_	21	_	_	start_char=189|end_char=190
 
 # text = I hope she is able to recover.
-# sent_id = 82844
+# sent_id = 80162
 1	I	I	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	_	_	start_char=191|end_char=192
 2	hope	hope	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	_	_	start_char=193|end_char=197
 3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=198|end_char=201
@@ -48,10 +48,4 @@
 6	to	to	PART	TO	_	5	_	_	start_char=210|end_char=212
 7	recover	recover	VERB	VB	VerbForm=Inf	6	_	_	start_char=213|end_char=220|SpaceAfter=No
 8	.	.	PUNCT	.	_	7	_	_	start_char=220|end_char=221
-
-# text = [URL]
-# sent_id = 82845
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=222|end_char=223|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=223|end_char=226|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=226|end_char=227|SpaceAfter=No
 

@@ -1,17 +1,11 @@
-# text = [URL]
-# sent_id = 100739
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	URL	URL	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=4|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=4|end_char=5
-
 # text = She said she was voting for demonrats.
-# sent_id = 100740
-1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=6|end_char=9
-2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=10|end_char=14
-3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=15|end_char=18
-4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=19|end_char=22
-5	voting	voting	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=23|end_char=29
-6	for	for	ADP	IN	_	5	_	_	start_char=30|end_char=33
-7	demonrats	demonrat	NOUN	NNS	Number=Plur	6	_	_	start_char=34|end_char=43|SpaceAfter=No
-8	.	.	PUNCT	.	_	7	_	_	start_char=43|end_char=44|SpaceAfter=No
+# sent_id = 97429
+1	She	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=1|end_char=4|SpacesBefore=\s
+2	said	say	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=5|end_char=9
+3	she	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	2	_	_	start_char=10|end_char=13
+4	was	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	_	_	start_char=14|end_char=17
+5	voting	voting	VERB	VBG	Tense=Pres|VerbForm=Part	4	_	_	start_char=18|end_char=24
+6	for	for	ADP	IN	_	5	_	_	start_char=25|end_char=28
+7	demonrats	demonrat	NOUN	NNS	Number=Plur	6	_	_	start_char=29|end_char=38|SpaceAfter=No
+8	.	.	PUNCT	.	_	7	_	_	start_char=38|end_char=39|SpaceAfter=No
 

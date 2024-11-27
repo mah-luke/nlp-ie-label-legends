@@ -1,44 +1,38 @@
-# text = [USER]
-# sent_id = 21936
-1	[	[	PUNCT	-LRB-	_	0	_	_	start_char=0|end_char=1|SpaceAfter=No
-2	USER	user	NOUN	NN	Number=Sing	1	_	_	start_char=1|end_char=5|SpaceAfter=No
-3	]	]	PUNCT	-RRB-	_	2	_	_	start_char=5|end_char=6
-
 # text = You're some loser who can't get a hot American girlfriend so you want to import a cheap foreign hooker.
-# sent_id = 21937
-1-2	You're	_	_	_	_	_	_	_	start_char=7|end_char=13
-1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=7|end_char=10
-2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=10|end_char=13
-3	some	some	DET	DT	_	2	_	_	start_char=14|end_char=18
-4	loser	loser	NOUN	NN	Number=Sing	3	_	_	start_char=19|end_char=24
-5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=25|end_char=28
-6-7	can't	_	_	_	_	_	_	_	start_char=29|end_char=34
-6	ca	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=29|end_char=31
-7	n't	not	PART	RB	_	6	_	_	start_char=31|end_char=34
-8	get	get	VERB	VB	VerbForm=Inf	7	_	_	start_char=35|end_char=38
-9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=39|end_char=40
-10	hot	hot	ADJ	JJ	Degree=Pos	9	_	_	start_char=41|end_char=44
-11	American	American	ADJ	JJ	Degree=Pos	10	_	_	start_char=45|end_char=53
-12	girlfriend	girlfriend	NOUN	NN	Number=Sing	11	_	_	start_char=54|end_char=64
-13	so	so	ADV	RB	_	12	_	_	start_char=65|end_char=67
-14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	_	_	start_char=68|end_char=71
-15	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	_	_	start_char=72|end_char=76
-16	to	to	PART	TO	_	15	_	_	start_char=77|end_char=79
-17	import	import	VERB	VB	VerbForm=Inf	16	_	_	start_char=80|end_char=86
-18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=87|end_char=88
-19	cheap	cheap	ADJ	JJ	Degree=Pos	18	_	_	start_char=89|end_char=94
-20	foreign	foreign	ADJ	JJ	Degree=Pos	19	_	_	start_char=95|end_char=102
-21	hooker	hooker	NOUN	NN	Number=Sing	20	_	_	start_char=103|end_char=109|SpaceAfter=No
-22	.	.	PUNCT	.	_	21	_	_	start_char=109|end_char=110
+# sent_id = 21237
+1-2	You're	_	_	_	_	_	_	_	start_char=1|end_char=7|SpacesBefore=\s
+1	You	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	0	_	_	start_char=1|end_char=4
+2	're	be	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	_	_	start_char=4|end_char=7
+3	some	some	DET	DT	_	2	_	_	start_char=8|end_char=12
+4	loser	loser	NOUN	NN	Number=Sing	3	_	_	start_char=13|end_char=18
+5	who	who	PRON	WP	PronType=Rel	4	_	_	start_char=19|end_char=22
+6-7	can't	_	_	_	_	_	_	_	start_char=23|end_char=28
+6	ca	can	AUX	MD	VerbForm=Fin	5	_	_	start_char=23|end_char=25
+7	n't	not	PART	RB	_	6	_	_	start_char=25|end_char=28
+8	get	get	VERB	VB	VerbForm=Inf	7	_	_	start_char=29|end_char=32
+9	a	a	DET	DT	Definite=Ind|PronType=Art	8	_	_	start_char=33|end_char=34
+10	hot	hot	ADJ	JJ	Degree=Pos	9	_	_	start_char=35|end_char=38
+11	American	American	ADJ	JJ	Degree=Pos	10	_	_	start_char=39|end_char=47
+12	girlfriend	girlfriend	NOUN	NN	Number=Sing	11	_	_	start_char=48|end_char=58
+13	so	so	ADV	RB	_	12	_	_	start_char=59|end_char=61
+14	you	you	PRON	PRP	Case=Nom|Person=2|PronType=Prs	13	_	_	start_char=62|end_char=65
+15	want	want	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	14	_	_	start_char=66|end_char=70
+16	to	to	PART	TO	_	15	_	_	start_char=71|end_char=73
+17	import	import	VERB	VB	VerbForm=Inf	16	_	_	start_char=74|end_char=80
+18	a	a	DET	DT	Definite=Ind|PronType=Art	17	_	_	start_char=81|end_char=82
+19	cheap	cheap	ADJ	JJ	Degree=Pos	18	_	_	start_char=83|end_char=88
+20	foreign	foreign	ADJ	JJ	Degree=Pos	19	_	_	start_char=89|end_char=96
+21	hooker	hooker	NOUN	NN	Number=Sing	20	_	_	start_char=97|end_char=103|SpaceAfter=No
+22	.	.	PUNCT	.	_	21	_	_	start_char=103|end_char=104
 
 # text = That about sums it up, right?
-# sent_id = 21938
-1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=111|end_char=115
-2	about	about	ADP	IN	_	1	_	_	start_char=116|end_char=121
-3	sums	sum	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=122|end_char=126
-4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=127|end_char=129
-5	up	up	ADP	RP	_	4	_	_	start_char=130|end_char=132|SpaceAfter=No
-6	,	,	PUNCT	,	_	5	_	_	start_char=132|end_char=133
-7	right	right	ADJ	JJ	Degree=Pos	6	_	_	start_char=134|end_char=139|SpaceAfter=No
-8	?	?	PUNCT	.	_	7	_	_	start_char=139|end_char=140|SpaceAfter=No
+# sent_id = 21238
+1	That	that	PRON	DT	Number=Sing|PronType=Dem	0	_	_	start_char=105|end_char=109
+2	about	about	ADP	IN	_	1	_	_	start_char=110|end_char=115
+3	sums	sum	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	_	_	start_char=116|end_char=120
+4	it	it	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	_	_	start_char=121|end_char=123
+5	up	up	ADP	RP	_	4	_	_	start_char=124|end_char=126|SpaceAfter=No
+6	,	,	PUNCT	,	_	5	_	_	start_char=126|end_char=127
+7	right	right	ADJ	JJ	Degree=Pos	6	_	_	start_char=128|end_char=133|SpaceAfter=No
+8	?	?	PUNCT	.	_	7	_	_	start_char=133|end_char=134|SpaceAfter=No
 

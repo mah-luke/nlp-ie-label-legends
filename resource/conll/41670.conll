@@ -1,5 +1,5 @@
 # text = #Kavanaugh #SCOTUS Sharyn Bovat posted a video claiming she told her mother and Senator Diane Feinstein that she was sexually assaulted at Dianne Feinstein's 47th Birthday Party.
-# sent_id = 89148
+# sent_id = 86235
 1	#	#	SYM	NN	Number=Sing	0	_	_	start_char=0|end_char=1|SpaceAfter=No
 2	Kavanaugh	Kavanaugh	PROPN	NNP	Number=Sing	1	_	_	start_char=1|end_char=10
 3	#SCOTUS	#SCOTUS	PROPN	NNP	Number=Sing	2	_	_	start_char=11|end_char=18
@@ -32,8 +32,8 @@
 29	Party	Party	PROPN	NNP	Number=Sing	28	_	_	start_char=172|end_char=177|SpaceAfter=No
 30	.	.	PUNCT	.	_	29	_	_	start_char=177|end_char=178
 
-# text = SHE WAS TOLD IT WAS HER FAULT [URL]
-# sent_id = 89149
+# text = SHE WAS TOLD IT WAS HER FAULT
+# sent_id = 86236
 1	SHE	she	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	0	_	_	start_char=179|end_char=182
 2	WAS	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	1	_	_	start_char=183|end_char=186
 3	TOLD	told	VERB	VBN	Tense=Past|VerbForm=Part	2	_	_	start_char=187|end_char=191
@@ -41,7 +41,4 @@
 5	WAS	be	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	_	_	start_char=195|end_char=198
 6	HER	her	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	_	_	start_char=199|end_char=202
 7	FAULT	fault	NOUN	NN	Number=Sing	6	_	_	start_char=203|end_char=208
-8	[	[	PUNCT	-LRB-	_	7	_	_	start_char=209|end_char=210|SpaceAfter=No
-9	URL	URL	NOUN	NN	Number=Sing	8	_	_	start_char=210|end_char=213|SpaceAfter=No
-10	]	]	PUNCT	-RRB-	_	9	_	_	start_char=213|end_char=214|SpaceAfter=No
 
