@@ -154,15 +154,16 @@ def load_conllu():
 
 def create_conllu():
     LOG.info("starting CONLLU creation")
-    df = load_data()
-    series = list(df.select(col("text")).collect().to_series())
+    df = load_data(tokens=False)
+    series_text = list(df.select(col("text")).collect().to_series())
+    series_id = list(df.select(col("id")).collect().to_series())
     nlp = Pipeline("en", processors="tokenize,mwt,lemma,pos", logging_level="warning")
-    documents_in = [Document([], text=d) for d in series]
+    documents_in = [Document([], text=d) for d in series_text]
     LOG.info("Stanza Documents created")
     docs = nlp(documents_in)
     LOG.info("Stanza Pipeline finished")
 
     CONLL_DIR.mkdir(parents=True, exist_ok=True)
-    for i, doc in enumerate(docs):
+    for i, doc in zip(series_id, docs):
         CoNLL.write_doc2conll(doc, str(CONLL_DIR / f"{i}.conll"))
     LOG.info("CONLL documents written to disk")
