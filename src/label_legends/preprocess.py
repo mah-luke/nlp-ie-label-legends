@@ -1,10 +1,21 @@
 from functools import lru_cache
 import math
 import numpy as np
-from polars import DataFrame, Int64, LazyFrame, List, Series, String, col, scan_csv
+from polars import (
+    Boolean,
+    DataFrame,
+    Int64,
+    LazyFrame,
+    List,
+    Series,
+    String,
+    col,
+    scan_csv,
+)
 import logging
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from stanza import Pipeline, Document
+import sklearn.pipeline
 from stanza.utils.conll import CoNLL
 
 from label_legends.util import COLUMNS, RESOURCE, SEED, CONLL_DIR
@@ -29,13 +40,19 @@ class ConlluTokenizer:
                 yield token
 
 
+def token_lists(df):
+    if type(df) is LazyFrame:
+        df = df.collect()
+    return df.select("tokens").to_series().to_list()
+
+
 def add_tokens(df: LazyFrame):
     return df.join(load_conllu(), on="id", how="inner")
 
 
 @lru_cache(1)
 def load_data(tokens: bool = True):
-    df = scan_csv(RESOURCE / "edos_labelled_clean.csv").rename({"": "id"}).head(100)
+    df = scan_csv(RESOURCE / "edos_labelled_clean.csv").rename({"": "id"})
     if tokens:
         df = add_tokens(df)
     return df
@@ -67,7 +84,7 @@ def transform(df: DataFrame):
         strip_stopwords(
             df.with_columns(
                 col("label_sexist")
-                .replace({"not sexist": 0, "sexist": 1})
+                .replace({"not sexist": 0, "sexist": 1}, return_dtype=Int64)
                 .alias("label")
             )
         )
@@ -82,9 +99,9 @@ def load_vectorizer():
         tokenizer=ConlluTokenizer(),
         stop_words="english",
     )
-    vectorizer.fit(load_train().select("tokens").collect().to_series().to_list())
-    vectorizer.vocabulary_["[UNK]"] = MAX_FEATURES
-    vectorizer.vocabulary_["[PAD]"] = MAX_FEATURES + 1
+    vectorizer.fit(token_lists(load_train().collect()))
+    vectorizer.vocabulary_["[UNK]"] = len(vectorizer.vocabulary_)
+    vectorizer.vocabulary_["[PAD]"] = len(vectorizer.vocabulary_)
     return vectorizer
 
 
@@ -104,7 +121,9 @@ def reverse_vocabulary():
 
 
 def strip_stopwords(df: DataFrame):
-    return df.with_columns(col("tokens").map_elements(analyzer(), return_dtype=List(String)))
+    return df.with_columns(
+        col("tokens").map_elements(analyzer(), return_dtype=List(String))
+    )
 
 
 def tokens_to_ids(tokens, remove_miss=False):
@@ -130,7 +149,31 @@ def ids_to_tokens(ids, remove_miss=True):
 
 
 def vectorize_tokens(df: DataFrame):
-    return df.with_columns(col("tokens").map_elements(tokens_to_ids, return_dtype=List(Int64)).alias("token_ids"))
+    return df.with_columns(
+        col("tokens")
+        .map_elements(tokens_to_ids, return_dtype=List(Int64))
+        .alias("token_ids")
+    )
+
+
+@lru_cache(1)
+def tfidf_pipeline():
+    pipeline = sklearn.pipeline.Pipeline(
+        [
+            (
+                "count",
+                CountVectorizer(
+                    vocabulary=vocabulary(),  # reuse already created vocab
+                    stop_words="english",
+                    max_features=MAX_FEATURES,
+                    lowercase=False,
+                    tokenizer=ConlluTokenizer(),
+                ),
+            ),
+            ("tfidf", TfidfTransformer()),
+        ]
+    )
+    return pipeline
 
 
 @lru_cache(1)
@@ -138,7 +181,7 @@ def load_conllu():
     files = (RESOURCE / "conll").glob("*.conll")
 
     docs = []
-    for file in list(sorted(files))[:100]:
+    for file in list(sorted(files)):
         docs.append(
             [
                 int(file.name.removesuffix(".conll")),
@@ -167,9 +210,3 @@ def create_conllu():
     for i, doc in zip(series_id, docs):
         CoNLL.write_doc2conll(doc, str(CONLL_DIR / f"{i}.conll"))
     LOG.info("CONLL documents written to disk")
-
-
-def test_s():
-    t = load_vectorizer().transform([["want"], ["want"], ["want", "want", "want"]]).toarray().nonzero()
-    t
-
