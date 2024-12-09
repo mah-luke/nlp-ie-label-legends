@@ -3,7 +3,7 @@ import math
 import numpy as np
 from polars import DataFrame, Int64, LazyFrame, List, Series, String, col, scan_csv
 import logging
-from sklearn.feature_extraction.text import CountVectorizer, TfidfVectorizer
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from stanza import Pipeline, Document
 from stanza.utils.conll import CoNLL
 
@@ -35,7 +35,7 @@ def add_tokens(df: LazyFrame):
 
 @lru_cache(1)
 def load_data(tokens: bool = True):
-    df = scan_csv(RESOURCE / "edos_labelled_clean.csv").rename({"": "id"})
+    df = scan_csv(RESOURCE / "edos_labelled_clean.csv").rename({"": "id"}).head(100)
     if tokens:
         df = add_tokens(df)
     return df
@@ -138,7 +138,7 @@ def load_conllu():
     files = (RESOURCE / "conll").glob("*.conll")
 
     docs = []
-    for file in sorted(files):
+    for file in list(sorted(files))[:100]:
         docs.append(
             [
                 int(file.name.removesuffix(".conll")),
@@ -167,3 +167,9 @@ def create_conllu():
     for i, doc in zip(series_id, docs):
         CoNLL.write_doc2conll(doc, str(CONLL_DIR / f"{i}.conll"))
     LOG.info("CONLL documents written to disk")
+
+
+def test_s():
+    t = load_vectorizer().transform([["want"], ["want"], ["want", "want", "want"]]).toarray().nonzero()
+    t
+
