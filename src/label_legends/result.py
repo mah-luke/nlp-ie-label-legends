@@ -1,10 +1,17 @@
 from dataclasses import asdict, dataclass
+from functools import lru_cache
+import json
+import mlflow
+from mlflow.client import MlflowClient
+from polars import DataFrame
 
 from sklearn.metrics import (
     accuracy_score,
     confusion_matrix,
     precision_recall_fscore_support,
 )
+
+from label_legends.util import RESOURCE
 
 
 @dataclass
@@ -48,3 +55,42 @@ def calculate_scores(y_true, y_pred):
         fp=confusion_mat[0, 1],
         fn=confusion_mat[1, 0],
     )
+
+
+@lru_cache(1)
+def client():
+    return MlflowClient()
+
+
+@lru_cache(1)
+def get_experiment(name: str = "label-legends"):
+    experiment = mlflow.get_experiment_by_name(name)
+    if not experiment:
+        experiment = mlflow.get_experiment(mlflow.create_experiment(name))
+    return experiment
+
+
+def download_predictions(model: str):
+    mlflow.artifacts.download_artifacts(
+        f"models:/{model}/latest/predictions.json",
+        dst_path=str(RESOURCE / "mlflow" / model),
+    )
+
+
+def load_predictions(model: str):
+    with open(RESOURCE / "mlflow" / model / "predictions.json", "r") as file:
+        file_content = json.load(file)
+
+    return DataFrame(file_content["data"], orient="row", schema=file_content["columns"])
+
+
+def get_latest_run(model: str):
+    return (
+        list(client().search_registered_models(f"name='{model}'"))[0]
+        .latest_versions[0]
+        .run_id
+    )
+
+
+# mlflow.xgboost.save_model(clf, RESOURCE / "mlflow" / "xgboost", model_format='json')
+# mlflow.artifacts.list_artifacts("models:/xgboost/latest")
