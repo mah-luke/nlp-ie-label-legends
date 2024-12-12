@@ -1,6 +1,4 @@
 from dataclasses import asdict, dataclass
-import numpy as np
-from pydantic import BaseModel
 
 from sklearn.metrics import (
     accuracy_score,
