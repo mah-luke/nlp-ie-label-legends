@@ -70,9 +70,13 @@ def get_experiment(name: str = "label-legends"):
     return experiment
 
 
-def download_predictions(model: str):
+def get_current(model: str):
+    return client().get_model_version_by_alias(model, "current")
+
+
+def download_predictions(model: str, alias: str = "current"):
     mlflow.artifacts.download_artifacts(
-        f"models:/{model}/latest/predictions.json",
+        f"models:/{model}@{alias}/predictions.json",
         dst_path=str(RESOURCE / "mlflow" / model),
     )
 
@@ -82,14 +86,6 @@ def load_predictions(model: str):
         file_content = json.load(file)
 
     return DataFrame(file_content["data"], orient="row", schema=file_content["columns"])
-
-
-def get_latest_run(model: str):
-    return (
-        list(client().search_registered_models(f"name='{model}'"))[0]
-        .latest_versions[0]
-        .run_id
-    )
 
 
 # mlflow.xgboost.save_model(clf, RESOURCE / "mlflow" / "xgboost", model_format='json')
