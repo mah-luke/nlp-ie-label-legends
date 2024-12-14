@@ -71,10 +71,6 @@ We saved the metrics for the quantitative comparison and analysis in an mlflow e
 For the error analysis and the qualitative analysis we saved the ID of every misclassified sample in a .json file. Finding from this can be seen below under **error analysis**.
 From every notebook we saved the reults in two places.
 We saved the metrics for the quantitative comparison and analysis in a .yml(?) format. This is a good approach because then we can call or see the results from all baselines in one place.
-For the error analysis and the qualitative analysis we saved the ID of every misclassified sample in a .json file.
-From every notebook we saved the reults in two places.
-We saved the metrics for the quantitative comparison and analysis in a .yml(?) format. This is a good approach because then we can call or see the results from all baselines in one place.
-For the error analysis and the qualitative analysis we saved the ID of every misclassified sample in a .json file.
 
 ### Error analysis
 text
