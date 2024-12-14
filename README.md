@@ -40,7 +40,7 @@ This baseline will of course be the one that performs the worst. If we only look
 The baseline is implemented in the *notebooks/mostFrequent.ipynb* file.
 
 ### Regex baseline
-For the seconf baseline we chose a regex based one. The purpose of this was to see how well we can predict the labels using a common bad_word dataset. If a text had a word that could be found in the bad_word dataset, it would be labelled "sexist", if not, the label would be "not sexist".
+For the second baseline we chose a regex based one. The purpose of this was to see how well we can predict the labels using a common bad_word dataset. If a text had a word that could be found in the bad_word dataset, it would be labelled "sexist", if not, the label would be "not sexist".
 With this we achieved better scores on average but worse accuracy (0.59). But most misclassifications were "sexist" instead on "not sexist" which is better than the other way around.
 The baseline is implemented in the *notebooks/regex.ipynb* file.
 
@@ -53,7 +53,7 @@ text
 The baseline is implemented in the *notebooks/distilbert.ipynb* file.
 
 ### DeBERTa-v3-base
-text
+We also wanted to implement some transformer-based deep learning models since they were also used in the paper we were basing our project on. As a baseline we are using also the DeBERTa-v3-base. In the current state of the project we are predicting with no additional parameters trying to accurately indicate if a text is sexist or not. Here we are not using the preprocessed tokens rather applying the standard tokenizer for this model the DebertaV2Tokenizer. The training is performed over three epochs with a learning rate of 2*10on the -5 with batch sizes of 8 and weight decay regularization to prevent overfitting. Evaluation is done at the end of each epoch and the best model is loaded based on the evaluation loss.
 The baseline is implemented in the *notebooks/debert.ipynb* file.
 
 ### Saving the results
@@ -65,8 +65,8 @@ We saved the metrics for the quantitative comparison and analysis in an mlflow e
 | Recall  | 0.0000  | 0.6087  | 0.3884  | ??  | 0.6738  |
 | F-Score  | 0.0000  | 0.4375  | 0.5150  | ??  | 0.6978  |
 | Accuracy  | 0.7404  | 0.5937  | 0.8101  | ??  | 0.8485  |
-| Train time  | 0.00 s  | 3.72 s  | ??  | 15516.91 s  | ??  |
-| Test time  | 0.00 s  | 6.84 s  | ??  | 411.54 s  | ??  |
+| Train time  | 0.00 s  | 3.72 s  | ??  | 15516.91 s  | 4893.40 s  |
+| Test time  | 0.00 s  | 6.84 s  | ??  | 411.54 s  | 132.74 s  |
 
 For the error analysis and the qualitative analysis we saved the ID of every misclassified sample in a .json file. Finding from this can be seen below under **error analysis**.
 
