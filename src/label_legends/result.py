@@ -2,6 +2,7 @@ from dataclasses import asdict, dataclass
 from functools import lru_cache
 import json
 import mlflow
+import numpy as np
 from mlflow.client import MlflowClient
 from polars import DataFrame
 
@@ -36,6 +37,9 @@ fn: {self.fn}\t tp: {self.tp}"""
 
     def asdict(self):
         return asdict(self)
+
+    def confusion_matrix(self):
+        return np.array([[self.tn, self.fp],[self.fn, self.tp]])
 
 
 def calculate_scores(y_true, y_pred):
@@ -77,6 +81,12 @@ def get_current(model: str):
 def download_predictions(model: str, alias: str = "current"):
     mlflow.artifacts.download_artifacts(
         f"models:/{model}@{alias}/predictions.json",
+        dst_path=str(RESOURCE / "mlflow" / model),
+    )
+
+def download_conf_mat(model: str, alias: str = "current"):
+    mlflow.artifacts.download_artifacts(
+        f"models:/{model}@{alias}/confusion_matrix.png",
         dst_path=str(RESOURCE / "mlflow" / model),
     )
 
