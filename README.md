@@ -103,7 +103,20 @@ For the following qualitatve analysis we saved the instances from the last categ
 We found that words pointing to the female sex appear 3 times among the top 20 tokens, making us think that the models have a hard time detecting sarcasm or stereotypes.
 
 We saved the texts from this category and looked at the sentences trying to get more insights from them:
-INSIGHTS HERE
+-  There are some words in the text which are left out currently from our tokenization for instance her/he/she which if solved could lead us to better classification. Instance "I cope with it like I'm imagining punching her in the face." Tokenization: ['cope' 'like' 'imagine' 'punch' 'face' '.']
+-  Our models are poor when facing text which are stereotypical or sarcastic, for example "I just bought a smart car. It doesn't turn on when the wife is in the driving seat.",  "Well, Trump sure isn't your mother's golf playing President. Zowie.", "STEM ain't hard, wamans can do it too!" or another "But I thought women could instantly detect sexism, creepiness and bad personalities. Oh wait, I meant attractiveness"
+-  Our models are also struggling whenever the text contains some kind of slang for example changing women with "wamans", "whamens"
+-  There are also some texts which are referring to the LGBTQ community which we are completely missing: "I’m like seeing 2 girls right now, thinking of maybe adding another 1 or 2. No I’m not trolling, it’s doable, I need to make sure “they” are not needy haha"
+-  One other insight would be that as labeling these texts aren't as objective as they should be, we are misclassifying sentences like "The next person to play James Bond will be female. Watch it happen." which for some people are sexist but not for everyone. Meaning we need a big enough sample of labels for all text that we can eliminate errors like this which are most likely not misclassification errors rather personal preference one.
 
 ### Potential improvemets
-text
+As we are only approaching Milestone 2 we are discovering a lot of ways to improve our project:
+-  Fine tuning our models with hyperparameters
+-  Figuring out ways to try to recognize sarcasm, stereotypical sentences
+-  Tokenize some necessary words which were left out like "she", "her"
+-  Extend our error analysis to account for weights of words (where possible)
+-  Try to collect new labeled sentences with which we can have a different perspective on how our models are performing
+-  Introduction of new models if advised
+-  Try to tokenize emojis or somehow gain insights from them
+-  Restrict our data so a text only appears once with one label based on the majority votes (now we have 1 text appear 3 times as 3 different people labeled each)
+-  Trying out other tokenization methods
