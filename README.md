@@ -59,9 +59,7 @@ The baseline is implemented in the \_notebooks/regex.ipynb* file.
 
 ### XGBoost baseline
 
-As traditional ML baseline we chose XGBoost, a tree-based model which is often used as a baseline. It was also used in the paper we are reproducing, which allows us to compare the results we achieved to those from the paper.
-
-The paper reports a fscore of 49.3% which is slightly lower than the score we achieved of 51.5% and hence we achieved slightly better results than expected based on the paper.
+As traditional ML baseline we chose XGBoost, a tree-based model which is often used as a baseline. It was also used in the paper we are reproducing, which allows us to compare the results we achieved to those from the paper. The paper reports a fscore of 49.3% which is slightly lower than the score we achieved of 51.5%.
 
 After doing the error analysis we also added hyperparameter optimization of the model by using SMAC-3, which yielded slightly better results of a fscore of 55.7% compared to 51.5% for the default configuration. We did the optimization over 1300 models, which took 30 minutes. It also shows the limitations of this traditional approach of machine learning for our NLP task: Using only tf-idf as features seems to contain too little information to allow the model to create a well enough distinction of whether a text is sexist.
 XGBoost was very performant, requiring substantially less time for both training and prediction on the test set. It could be used e.g. in an environment where it is substantial to get predictions within milliseconds or when only limited computational power is available.
@@ -96,7 +94,7 @@ We saved the metrics for the quantitative comparison and analysis in an mlflow e
 | F-Score | 0.0000 | 0.4375 | 0.5150 | 0.6303 | 0.6978 | 0.5570 | 0.6656|
 | Accuracy | 0.7404 | 0.5937 | 0.8101 | 0.8300 | 0.8485 | 0.8133 | 0.8317 |
 | Train time | 0.00 s | 3.72 s | 2.88 s | 1538.93 s | 4893.40 s | 1800 s | 10902 s |
-| Test time | 0.00 s | 6.84 s | 0.13 s | 52.21 s | 132.74 s | 2.88 s| 42.84 s |
+| Test time | 0.00 s | 6.84 s | 0.13 s | 52.21 s | 132.74 s | 0.13 s| 42.84 s |
 
 For the error analysis and the qualitative analysis we saved the ID of every misclassified sample in a .json file. Finding from this can be seen below under **error analysis**.
 
