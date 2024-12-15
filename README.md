@@ -65,14 +65,6 @@ After doing the error analysis we also added hyperparameter optimization of the 
 XGBoost was very performant, requiring substantially less time for both training and prediction on the test set. It could be used e.g. in an environment where it is substantial to get predictions within milliseconds or when only limited computational power is available.
 
 The baseline is implemented in the [_notebooks/xgBoost.ipynb_](./notebooks/xgBoost.ipynb) file.
-
-As traditional ML baseline we chose XGBoost, a tree-based model which is often used as a baseline. It was also used in the paper we are reproducing, which allows us to compare the results we achieved to those from the paper.
-
-After doing the error analysis we also added hyperparameter optimization of the model by using SMAC-3, which yielded slightly better results of an fscore of 55.7% compared to 51.5% for the default configuration. It also shows the limitations of this traditional approach of machine learning for our NLP task: Using only tf-idf as features seem to contain too little information to allow the model to create a well enough distinction of whether a text is sexist.
-XGBoost was very performant, requiring substantially less time for both training and prediction on the test set. It could be used e.g. in an environment where it is substantial to get predictions within milliseconds or when only limited computational power is available.
-
-
-The baseline is implemented in the _notebooks/xgBoost.ipynb_ file.
 ### DistillBERT baseline
 
 text
