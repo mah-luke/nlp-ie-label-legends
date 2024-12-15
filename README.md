@@ -49,13 +49,13 @@ Every baseline model has its own notebook in order to maintain a structure and f
 
 Most Frequent is our basic baseline. This calculates the most frequent class from the target column and labels everything that class as prediction.
 This baseline will of course be the one that performs the worst. If we only look at the accuracy, we think it is a quite good model (0.74), but every other metric is 0 which tells us that that is not the case.
-The baseline is implemented in the _notebooks/mostFrequent.ipynb_ file.
+The baseline is implemented in the [_notebooks/mostFrequent.ipynb_](./notebooks/mostFrequent.ipynb) file.
 
 ### Regex baseline
 
 For the second baseline we chose a regex based one. The purpose of this was to see how well we can predict the labels using a common _badword_ dataset. If a text had a word that could be found in the bad*word dataset, it would be labelled "sexist", if not, the label would be "not sexist".
 With this we achieved better scores on average but worse accuracy (0.59). But most misclassifications were "sexist" instead on "not sexist" which is better than the other way around.
-The baseline is implemented in the \_notebooks/regex.ipynb* file.
+The baseline is implemented in the [_notebooks/regex.ipynb_](./notebooks/regex.ipynb) file.
 
 ### XGBoost baseline
 
@@ -67,14 +67,14 @@ XGBoost was very performant, requiring substantially less time for both training
 The baseline is implemented in the [_notebooks/xgBoost.ipynb_](./notebooks/xgBoost.ipynb) file.
 
 ### DistilBERT baseline
-To keep in line with the aforementioned paper, we decided to include distilBert as one of the transformer-based DL models. The choice for distilBert was also due to the decision to implement the DeBERTa-v3-base version of BERT. This is because DistilBERT is a lightweight version of the BERT family of pre-trained models, and so it can help us infere whether the higher complexity is really required for our objectives. The model was trained for three epochs, with a learning rate of 2*10e-5 and an initial batch size of 8 (later increased to 100 when running with CUDA). As usual with BERT models, the tokenizer used is the DistilBERT-specific tokenizer. The best model was chosen at the end of each epoch, and the final choice was based on the evaluation loss. The obtained result for the F-score is 63%, which makes the model pretty middle-of-the-pack between all the baselines implemented. It is important to note though, that the recall is much lower than the precision, meaning that this model leads to a higher number of false negatives, which in our case would mean more sexist comments go unnoticed. 
+To keep in line with the aforementioned paper, we decided to include distilBert as one of the transformer-based DL models. The choice for distilBert was also due to the decision to implement the DeBERTa-v3-base version of BERT. This is because DistilBERT is a lightweight version of the BERT family of pre-trained models, and so it can help us infere whether the higher complexity is really required for our objectives. The model was trained for three epochs (later increased to 50 when running with CUDA), with a learning rate of 2*10e-5 and an initial batch size of 8 (later increased to 100 when running with CUDA). As usual with BERT models, the tokenizer used is the DistilBERT-specific tokenizer. The best model was chosen at the end of each epoch, and the final choice was based on the evaluation loss. The obtained result for the F-score is 63%, which makes the model pretty middle-of-the-pack between all the baselines implemented. It is important to note though, that the recall is much lower than the precision, meaning that this model leads to a higher number of false negatives, which in our case would mean more sexist comments go unnoticed. 
 
-The baseline is implemented in the _notebooks/distilbert.ipynb_ file.
+The baseline is implemented in the  [_notebooks/distilbert.ipynb_](./notebooks/distilbert.ipynb) file.
 
 ### DeBERTa-v3-base
 
 We also wanted to implement some transformer-based deep learning models since they were also used in the paper we were basing our project on. As a baseline we are using also the DeBERTa-v3-base. In the current state of the project we are predicting with no additional parameters trying to accurately indicate if a text is sexist or not. Here we are not using the preprocessed tokens rather applying the standard tokenizer for this model the DebertaV2Tokenizer. The training is performed over three epochs with a learning rate of 2*10on the -5 with batch sizes of 8 and weight decay regularization to prevent overfitting. Evaluation is done at the end of each epoch and the best model is loaded based on the evaluation loss.
-The baseline is implemented in the *notebooks/debert.ipynb\* file.
+The baseline is implemented in the [_notebooks/debert.ipynb_](./notebooks/debert.ipynb) file.
 
 ### Saving the results
 
