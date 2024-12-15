@@ -86,9 +86,24 @@ We saved the metrics for the quantitative comparison and analysis in an mlflow e
 | Test time | 0.00 s | 6.84 s | 0.13 s | 52.21 s | 132.74 s |
 
 For the error analysis and the qualitative analysis we saved the ID of every misclassified sample in a .json file. Finding from this can be seen below under **error analysis**.
-From every notebook we saved the reults in two places.
-We saved the metrics for the quantitative comparison and analysis in a .yml(?) format. This is a good approach because then we can call or see the results from all baselines in one place.
 
 ### Error analysis
+The error analysis has the main goal of allowing us to do a thoughrough qualitative analysis. We are trying to find the main challanges that make the predictive models make mistakes. Our analysis can be found in the *notebooks/error_analysis.ipynb* file.
 
+We first loaded the test and the training dataset separately. Then loaded all the model predictions from the .json files and merged them to the test dataset on the id. This way we got a big dataset where the texts, their tokens, true labels and all the predictions are together.
+
+We then assigned an error level to every row. This error level represents the number of models that got wrong the prediction for each row. We have 5 baselines, so error level 5 is the worst (meaning all the models got the prediction wrong) and error level 0 is the best.
+
+We also calculated how many texts are in the following error levels:
+-  there are **474** with the error level 5,
+-  **4659** times predicted every model the right label (error level 0) and
+-  in error levels 4 and 5 there are **1269** instances.
+
+For the following qualitatve analysis we saved the instances from the last category (error levels 4 and 5) into a dataset and interpreted the texts in that. We chose this category because we think this way we can see what sentences/words made it hard for the models to predict right.
+We found that words pointing to the female sex appear 3 times among the top 20 tokens, making us think that the models have a hard time detecting sarcasm or stereotypes.
+
+We saved the texts from this category and looked at the sentences trying to get more insights from them:
+INSIGHTS HERE
+
+### Potential improvemets
 text
