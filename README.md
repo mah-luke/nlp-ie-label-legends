@@ -67,7 +67,7 @@ XGBoost was very performant, requiring substantially less time for both training
 The baseline is implemented in the [_notebooks/xgBoost.ipynb_](./notebooks/xgBoost.ipynb) file.
 
 ### DistilBERT baseline
-To keep in line with the aforementioned paper, we decided to include distilBert as one of the transformer-based DL models. The choice for distilBert was also due to the decision to implement the DeBERTa-v3-base version of BERT. This is because DistilBERT is a lightweight version of the BERT family of pre-trained models, and so it can help us infere whether the higher complexity is really required for our objectives. The model was trained for three epochs (later increased to 50 when running with CUDA), with a learning rate of 2*10e-5 and an initial batch size of 8 (later increased to 100 when running with CUDA). As usual with BERT models, the tokenizer used is the DistilBERT-specific tokenizer. The best model was chosen at the end of each epoch, and the final choice was based on the evaluation loss. The obtained result for the F-score is 63%, which makes the model pretty middle-of-the-pack between all the baselines implemented. It is important to note though, that the recall is much lower than the precision, meaning that this model leads to a higher number of false negatives, which in our case would mean more sexist comments go unnoticed. 
+To keep in line with the aforementioned paper, we decided to include distilBert as one of the transformer-based DL models. The choice for distilBert was also due to the decision to implement the DeBERTa-v3-base version of BERT. This is because DistilBERT is a lightweight version of the BERT family of pre-trained models, and so it can help us infere whether the higher complexity is really required for our objectives. The model was trained for three epochs (later increased to 50 when running with CUDA), with a learning rate of 2*10e-5 and an initial batch size of 8 (later increased to 100 when running with CUDA). As usual with BERT models, the tokenizer used is the DistilBERT-specific tokenizer. The best model was chosen at the end of each epoch, and the final choice was based on the evaluation loss. The obtained result for the F-score is 63%, which makes the model pretty middle-of-the-pack between all the baselines implemented. It is important to note though, that the recall is much lower than the precision, meaning that this model leads to a higher number of false negatives, which in our case would mean more sexist comments go unnoticed.
 
 The baseline is implemented in the  [_notebooks/distilbert.ipynb_](./notebooks/distilbert.ipynb) file.
 
@@ -113,7 +113,7 @@ We saved the texts from this category and looked at the sentences trying to get 
 -  There are also some texts which are referring to the LGBTQ community which we are completely missing: "I’m like seeing 2 girls right now, thinking of maybe adding another 1 or 2. No I’m not trolling, it’s doable, I need to make sure “they” are not needy haha"
 -  One other insight would be that as labeling these texts aren't as objective as they should be, we are misclassifying sentences like "The next person to play James Bond will be female. Watch it happen." which for some people are sexist but not for everyone. Meaning we need a big enough sample of labels for all text that we can eliminate errors like this which are most likely not misclassification errors rather personal preference one.
 
-### Potential improvemets
+### Potential improvements
 As we are only approaching Milestone 2 we are discovering a lot of ways to improve our project:
 -  Fine tuning our models with hyperparameters
 -  Figuring out ways to try to recognize sarcasm, stereotypical sentences
@@ -124,3 +124,10 @@ As we are only approaching Milestone 2 we are discovering a lot of ways to impro
 -  Try to tokenize emojis or somehow gain insights from them
 -  Restrict our data so a text only appears once with one label based on the majority votes (now we have 1 text appear 3 times as 3 different people labeled each)
 -  Trying out other tokenization methods
+
+## Milestone 3
+
+### Todo
+- [ ] Use Majority votes for labels
+- [ ] Negative chronotation of female specific sentence
+- [ ] Bad word present on female specific sentence
