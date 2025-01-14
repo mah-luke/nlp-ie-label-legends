@@ -78,6 +78,29 @@ def holdout():
     val, tra = shuffled.head(val_size), shuffled.tail(-val_size)
     return val, tra
 
+#Please delete if not good
+import polars as pl
+def majority():
+    df_help1 = load_data().collect()
+    df_help2 = transform(df_help1)
+
+    df_help2 = df_help2.with_columns(df_help2.select("rewire_id"))
+
+    df_help2 = df_help2.with_columns(
+        pl.col("rewire_id").str.extract(r"(\d+)$", 1).cast(pl.Int64).alias("rewire_id_number")
+    )
+
+    df = df_help2.group_by("rewire_id_number").agg([
+        pl.col("label").sum().alias("label_sum"),
+        pl.col("text").first().alias("text"),
+        pl.col("tokens").first().alias("tokens"),
+        pl.col("token_ids").first().alias("token_ids")
+    ])
+
+    df = df.with_columns(
+        pl.when(pl.col("label_sum") >= 2).then(1).otherwise(0).alias("label")
+    )
+    return df
 
 def transform(df: DataFrame):
     return vectorize_tokens(
