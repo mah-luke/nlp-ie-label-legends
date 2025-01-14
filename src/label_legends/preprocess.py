@@ -12,6 +12,7 @@ from polars import (
     col,
     scan_csv,
 )
+import polars as pl
 import logging
 from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
 from stanza import Pipeline, Document
@@ -79,12 +80,11 @@ def holdout():
     return val, tra
 
 #Please delete if not good
-import polars as pl
 def majority():
     df_help1 = load_data().collect()
     df_help2 = transform(df_help1)
 
-    df_help2 = df_help2.with_columns(df_help2.select("rewire_id"))
+    df_help2 = df_help2.with_columns(df_help1.select("rewire_id"))
 
     df_help2 = df_help2.with_columns(
         pl.col("rewire_id").str.extract(r"(\d+)$", 1).cast(pl.Int64).alias("rewire_id_number")
