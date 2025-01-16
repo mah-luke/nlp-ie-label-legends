@@ -80,14 +80,14 @@ The baseline is implemented in the [_notebooks/debert.ipynb_](./notebooks/debert
 
 From every notebook we saved the results in two places.
 We saved the metrics for the quantitative comparison and analysis in an mlflow experiment. This is a good approach because then we can call or see the results from all baselines in one place.
-| Metrics | Most Frequent Baseline | Regex Baseline | XGBoost Baseline | DistilBERT Baseline | DeBERTa-v3-base baseline | XGBoost hyperopt. (GPU) | DistilBERT 50 epochs (GPU) | DeBERTa trained on Majority |
-|:-------------:| -------------:| -------------:| -------------:| -------------:|------------:|------:|----:|----:|
-| Precision | 0.0000 | 0.3414 | 0.7639 | 0.7237 | 0.7235 | 0.7254 | 0.6872 | 0.7483 |
-| Recall | 0.0000 | 0.6087 | 0.3884 | 0.5583 | 0.6738 | 0.4520| 0.6453 | 0.5859 |
-| F-Score | 0.0000 | 0.4375 | 0.5150 | 0.6303 | 0.6978 | 0.5570 | 0.6656| 0.6572 |
-| Accuracy | 0.7404 | 0.5937 | 0.8101 | 0.8300 | 0.8485 | 0.8133 | 0.8317 | 0.8413 |
-| Train time | 0.00 s | 3.72 s | 2.88 s | 1538.93 s | 4893.40 s | 1800 s | 10902 s | 1997.27 s |
-| Test time | 0.00 s | 6.84 s | 0.13 s | 52.21 s | 132.74 s | 0.13 s| 42.84 s | 126.34 s |
+| Metrics | Most Frequent Baseline | Regex Baseline | XGBoost Baseline | DistilBERT Baseline | DeBERTa-v3-base baseline | XGBoost hyperopt. (GPU) | DistilBERT 50 epochs (GPU) | 
+|:-------------:| -------------:| -------------:| -------------:| -------------:|------------:|------:|----:|
+| Precision | 0.0000 | 0.3414 | 0.7639 | 0.7237 | 0.7235 | 0.7254 | 0.6872 |
+| Recall | 0.0000 | 0.6087 | 0.3884 | 0.5583 | 0.6738 | 0.4520| 0.6453 |
+| F-Score | 0.0000 | 0.4375 | 0.5150 | 0.6303 | 0.6978 | 0.5570 | 0.6656|
+| Accuracy | 0.7404 | 0.5937 | 0.8101 | 0.8300 | 0.8485 | 0.8133 | 0.8317 |
+| Train time | 0.00 s | 3.72 s | 2.88 s | 1538.93 s | 4893.40 s | 1800 s | 10902 s |
+| Test time | 0.00 s | 6.84 s | 0.13 s | 52.21 s | 132.74 s | 0.13 s| 42.84 s |
 
 For the error analysis and the qualitative analysis we saved the ID of every misclassified sample in a .json file. Finding from this can be seen below under **error analysis**.
 
