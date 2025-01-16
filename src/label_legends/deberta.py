@@ -16,10 +16,10 @@ from label_legends.result import calculate_scores
 TRAINING_ARGS = TrainingArguments(
     output_dir="./results",
     learning_rate=2e-5,
-    per_device_train_batch_size=16, #16 batch size
+    per_device_train_batch_size=16,
     per_device_eval_batch_size=16,
     warmup_steps=250,
-    num_train_epochs=5, # FIXME: change back to 5
+    num_train_epochs=5,
     adam_epsilon=1e-6,
     weight_decay=0.01,
     logging_dir="./logs",
