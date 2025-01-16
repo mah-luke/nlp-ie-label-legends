@@ -79,13 +79,21 @@ def holdout():
     val, tra = shuffled.head(val_size), shuffled.tail(-val_size)
     return val, tra
 
+@lru_cache(1)
+def holdout_majority():
+    train = load_train().collect()
+    shuffled = majority(train).sample(fraction=1, shuffle=True, seed=SEED)
+    val_size = math.ceil(len(shuffled) * 0.3)
+    val, tra = shuffled.head(val_size), shuffled.tail(-val_size)
+    return val, tra
+
 #Please delete if not good
-def majority():
+def majority(df_help2: pl.LazyFrame):
     df_help1 = load_data().collect()
-    df_help2 = transform(df_help1)
+    df_help2 = transform(df_help2)
 
-    df_help2 = df_help2.with_columns(df_help1.select("rewire_id"))
-
+    df_help2 = df_help2.join(df_help1.select(["id","rewire_id"]), on ="id", how="left")
+    print(df_help2.head())
     df_help2 = df_help2.with_columns(
         pl.col("rewire_id").str.extract(r"(\d+)$", 1).cast(pl.Int64).alias("rewire_id_number")
     )

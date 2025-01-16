@@ -10,7 +10,7 @@ from transformers import (
     TrainingArguments,
 )
 
-from label_legends.preprocess import holdout, transform
+from label_legends.preprocess import holdout_majority
 from label_legends.result import calculate_scores
 
 TRAINING_ARGS = TrainingArguments(
@@ -71,7 +71,7 @@ def load_dataset(texts: list[str], labels: list[str]):
 def load_deberta():
     model = AutoModelForSequenceClassification.from_pretrained(MODEL_NAME, num_labels=2)
 
-    val, tra = map(transform, holdout())
+    val, tra = holdout_majority()
     train_dataset = load_dataset(tra["text"].to_list(), tra["label"].to_list())
     val_dataset = load_dataset(val["text"].to_list(), val["label"].to_list())
 
