@@ -157,14 +157,16 @@ For our final idea as we mentioned we wanted to focus on a couple of key things 
 - Bad word check using an external database
   - detects if a bad word appears in the text
 
-**Insert flow here**
+![Ensemble Flow](./media/ensemble_flow.png)
 
 ### Process of implementation
 
 **Majority votes function**
+
 Our first action was to implement a way to group each text and edit the label of them based on the majority vote of the annotators. For this we have created a function called holdout_majority  in the preprocessing.py so it is organized with our other functions focusing on data manipulation. The idea was to groupby the texts by rewire id where label is equal or more than 2 (each sexist label accounts for value 1) edit label to sexist. After this we got 20k distinct rows and used this as a base for DeBERTa.
 
 **Deberta with and without Majority vote**
+
 To simplify loading the DeBERTa models from this point on we decided to create two new python files called deberta.py and deberta_majority.py which helped us simplify and globalize this part of the process. In both loading files we are using  the same hyperparameters but in the one we are loading the majority votes we are using holdout_majority function instead of the original holdout. To test these and to compare if there is any improvement if we are using the data based on majority votes we have put them to test in the debert_01_16 and  debert_majority_01_16 notebooks. Our result was the following:
 
 | Model | Precision | Recall | F1 Score | Accuracy | TN | FP | FN | TP |
@@ -176,6 +178,7 @@ To simplify loading the DeBERTa models from this point on we decided to create t
 As we can see on the table right above with the majority vote based system we got very similar results as our base model did. Our precision improved so if we wanted to step into the direction of focusing on avoiding false positives this would have been a great direction. However since our main goal was to eliminate the false negative cases (find the true sexist content) we needed to improve our recall which didn’t happen with the DeBERTa Majority model so this is where we decided to abandon this route and continue working with the base dataset.
 
 **Ensemble**
+
 The base of the ensemble implementation is our DeBERTa baseline. We fine-tune it over 5 epochs on the train dataset as we did when we used it for the baselines.
 As we are focusing to improve the recall, our ensemble models target negative predictions of DeBERTa. We predict with all models (DeBERTA, Female, Negative and Bad Word) the labels of the test set and then calculate the decisions for the ensemble based on the combination of decisions of the separate models.
 
