@@ -183,6 +183,7 @@ If DeBERTa predicts positive, the ensemble model does not modify the prediction,
 
 By employing this unanimous vote, we reduce the amount of false positives our model would produce if only one additional model was added, while improving the recall considerably compared to the DeBERTa baseline.
 
+![Results Ensemble Test](./media/result_ensemble.svg)
 
 ### Results of independent dataset
 We wanted to see how well our ensemble model could predict the labels on independent data. For this we decided to collect the social media comments from several platforms and label them ourselves. We then predicted the labels of these comments using our ensemble model (and also tested with the baseline model) and calculated the performance scores. Our results can be seen in the table below.
@@ -196,8 +197,7 @@ We wanted to see how well our ensemble model could predict the labels on indepen
 
 We can see that the scores on this test set are lower than on the test part of our original dataset. This was expected because the independent dataset contains very different kinds of sentences. But what we can tell is that our ensemble mode worked a smudge better on this unseen data thus could generalize a little better than our best baseline model. We are satisfied with this result and the outcome of our project.
 
-![Results Ensemble](media/results_ensemble_own.svg)
-<img src="./media/result_ensemble_own.svg>
+![Results Ensemble](./media/result_ensemble_own.svg)
 
 
 
