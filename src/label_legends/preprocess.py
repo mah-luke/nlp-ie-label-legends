@@ -69,6 +69,30 @@ def load_test():
     return load_data().filter(col("split") == "test")
 
 
+def load_own():
+    df = (
+        scan_csv(RESOURCE / "own_test_set.csv")
+        .rename({"label": "label_sexist"})
+        .collect()
+    )
+    texts: list[str] = list(df.select(col("text")).to_series())
+    nlp = Pipeline("en", processors="tokenize,mwt,lemma,pos", logging_level="warning")
+    documents_in = [Document([], text=d) for d in texts]
+    docs: list[Document] = nlp(documents_in)
+
+    lemmas = []
+    for doc in docs:
+        lemmas_sample = []
+        for word in doc.iter_words():
+            from stanza.models.common.doc import Word
+
+            assert isinstance(word, Word)
+            lemmas_sample.append(word.lemma)
+        lemmas.append(lemmas_sample)
+    tokens = Series("tokens", lemmas)
+    return df.with_columns(tokens=tokens)
+
+
 dataframes = {"train": load_train}
 
 
@@ -79,6 +103,7 @@ def holdout():
     val, tra = shuffled.head(val_size), shuffled.tail(-val_size)
     return val, tra
 
+
 @lru_cache(1)
 def holdout_majority():
     train = load_train().collect()
@@ -87,28 +112,35 @@ def holdout_majority():
     val, tra = shuffled.head(val_size), shuffled.tail(-val_size)
     return val, tra
 
-#Please delete if not good
+
+# Please delete if not good
 def majority(df_help2: pl.LazyFrame):
     df_help1 = load_data().collect()
     df_help2 = transform(df_help2)
 
-    df_help2 = df_help2.join(df_help1.select(["id","rewire_id"]), on ="id", how="left")
+    df_help2 = df_help2.join(df_help1.select(["id", "rewire_id"]), on="id", how="left")
     print(df_help2.head())
     df_help2 = df_help2.with_columns(
-        pl.col("rewire_id").str.extract(r"(\d+)$", 1).cast(pl.Int64).alias("rewire_id_number")
+        pl.col("rewire_id")
+        .str.extract(r"(\d+)$", 1)
+        .cast(pl.Int64)
+        .alias("rewire_id_number")
     )
 
-    df = df_help2.group_by("rewire_id_number").agg([
-        pl.col("label").sum().alias("label_sum"),
-        pl.col("text").first().alias("text"),
-        pl.col("tokens").first().alias("tokens"),
-        pl.col("token_ids").first().alias("token_ids")
-    ])
+    df = df_help2.group_by("rewire_id_number").agg(
+        [
+            pl.col("label").sum().alias("label_sum"),
+            pl.col("text").first().alias("text"),
+            pl.col("tokens").first().alias("tokens"),
+            pl.col("token_ids").first().alias("token_ids"),
+        ]
+    )
 
     df = df.with_columns(
         pl.when(pl.col("label_sum") >= 2).then(1).otherwise(0).alias("label")
     )
     return df
+
 
 def transform(df: DataFrame):
     return vectorize_tokens(
