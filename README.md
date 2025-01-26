@@ -125,9 +125,72 @@ As we are only approaching Milestone 2 we are discovering a lot of ways to impro
 -  Restrict our data so a text only appears once with one label based on the majority votes (now we have 1 text appear 3 times as 3 different people labeled each)
 -  Trying out other tokenization methods
 
-## Milestone 3
+## Final Milestone
 
 ### Todo
 - [ ] Use Majority votes for labels
-- [ ] Negative chronotation of female specific sentence
+- [ ] Negative annotation of female specific sentence
 - [ ] Bad word present on female specific sentence
+
+### Brainstorming session
+Given the results observed in Milestone 2, we came up with ideas to improve the performance of our model. These ideas focus on both preprocessing steps, and postprocessing steps.
+
+As far as the former is concerned, we thought about utilising the labeler ID as part of our analysis by giving a score to each annotator determined by how often their choice was part of the majority choice. Alternatively, we thought about decreasing the size of the dataset by only keeping one instance of each text (rather than 3) based on the majority label. Other ideas included. We also thought that we could adjust the tokenisation to include specific words such as instances of both he and she (and other gender-specific pronouns), slang words and slurs, and denial words (e.g. don’t). We quickly decided against it because given that the model we chose for our project is a pretrained BERT model, it comes with its own tokenisation, and it is best not to adjust that. Additionally, we thought that we could take texts that seemed particularly hard for the model to predict and include them in the train set, but that would be a very biased way of increasing performance on the test set (without necessarily improving performance on unseen data). Lastly, we thought about coming up with additional sentences to add to the train set, but we decided against it because we are not experts in the field and annotating them ourselves would possibly increase bias, and also because producing (and labelling) enough sentences to affect the model’s outcome would be very time consuming.
+
+On the other hand, for postprocessing steps, we thought of additional layers that could be added to our classification task after the initial model. Our goal is to identify sexist content, which (in a very simplistic way) could be summarised as text that concerns women and is negative, discriminatory or insulting. Our thought-process was then as follows: identify whether a text is referencing women, and identify whether a text is negative, discriminatory or insulting. To do that we came up with the idea of checking the texts for female-specific words, predicting whether a text has negative connotation, and whether a text contains any swear words or slurs. With these 3 checks in place, we would attempt to find all texts that satisfy our simplistic definition of sexist content. 
+
+We decided against the preprocessing step idea of assigning scores to the labellers, since we are missing important information from the original annotation process. For example, not every annotator contributed equally, with some labelling a much higher number of texts than others. On the other hand though, we decided to implement the other preprocessing step, since conflicting labels for the same text might be detrimental to the training of the model.
+
+Another idea was to create an additional independent dataset by looking for social media comments and testing the final solution on this data. This would provide insight on how our model fares with unseen data from potentially different sources than the original dataset. This we used as a verification in the end.
+
+### Final Idea
+For our final idea as we mentioned we wanted to focus on a couple of key things in terms of our approach. We agreed that our approach should offer flexible improvement not just a case specific one, it should be scalable and focus on improving the recall score. For this we took our error analysis and our ideas from the brainstorming session and tried to figure out the best solution to our challenges. 
+	Since every text is labelled 3 times the the dataset that means one text can have different labels, we added a preprocessing step: in the training dataset we relabelled every text based on how the majority labelled it - with this every text appeared only once in the training set. Our idea was that if the model gets more specific directions from the training data it might predict better. We tried our best baseline with this new training set and its performance on the test set got worse. Thus we decided to exclude this preprocessing part from our final solution and continue to work with the full dataset. 
+	As for the postprocessing steps, we decided to implement all of these from our ideas, but only on the instances predicted as not sexist by the model. We chose this because ideally our model should be doing the heavy lifting, and these rules are in place to avoid letting too much sexist content slip through the tracks. 
+	Our final solution is an ensemble model that is based on the best baseline model, the DeBERTa-v3-base. Our ensemble model has the following parts:
+- DeBERTa-v3-base 
+  - the model makes a first prediction and the continues its way through the next parts if the prediction is non-sexist
+- Rule-based system
+  - it detects if a female specific word appears in the text
+- Sentiment analysis
+  - it detects if the text has negative connotation
+- Bad word check using an external database
+  - detects if a bad word appears in the text
+
+**Insert flow here**
+
+### Process of implementation
+
+**Majority votes function**
+Our first action was to implement a way to group each text and edit the label of them based on the majority vote of the annotators. For this we have created a function called holdout_majority  in the preprocessing.py so it is organized with our other functions focusing on data manipulation. The idea was to groupby the texts by rewire id where label is equal or more than 2 (each sexist label accounts for value 1) edit label to sexist. After this we got 20k distinct rows and used this as a base for DeBERTa.
+
+**Deberta with and without Majority vote**
+To simplify loading the DeBERTa models from this point on we decided to create two new python files called deberta.py and deberta_majority.py which helped us simplify and globalize this part of the process. In both loading files we are using  the same hyperparameters but in the one we are loading the majority votes we are using holdout_majority function instead of the original holdout. To test these and to compare if there is any improvement if we are using the data based on majority votes we have put them to test in the debert_01_16 and  debert_majority_01_16 notebooks. Our result was the following: 
+
+| Model | Precision | Recall | F1 Score | Accuracy | TN | FP | FN | TP | 
+|:-------------:| -------------:| -------------:| -------------:| -------------:|------------:|------:|----:|----:|
+| DeBERTa Base | 0.7213 | 0.6530 | 0.6854 | 0.8444 | 8099 | 786 | 1081 | 2034 |
+| DeBERTa Majority | 0.7483 | 0.5859 | 0.6572 | 0.8413 | 8271 | 614 | 1290 | 1825 |
+
+
+As we can see on the table right above with the majority vote based system we got very similar results as our base model did. Our precision improved so if we wanted to step into the direction of focusing on avoiding false positives this would have been a great direction. However since our main goal was to eliminate the false negative cases (find the true sexist content) we needed to improve our recall which didn’t happen with the DeBERTa Majority model so this is where we decided to abandon this route and continue working with the base dataset.
+
+**Ensemble**
+tbd
+
+### Results of independent dataset
+We wanted to see how well our ensemble model could predict the labels on independent data. For this we decided to collect the social media comments from several platforms and label them ourselves. We then predicted the labels of these comments using our ensemble model (and also tested with the baseline model) and calculated the performance scores. Our results can be seen in the table below.
+
+| Metrics | Ensemble on own set (n=60) | DeBERTa-v3-base on own set (n=60) | 
+|:-------------:| -------------:| -------------:| 
+| Precision | 0.8888 | 0.8750 |
+| Recall | 0.2857 | 0.2500 | 
+| F-Score| 0.4324 | 0.3889 |
+| Accuracy | 0.6500 | 0.6333 | 
+
+We can see that the scores on this test set are lower than on the test part of our original dataset. This was expected because the independent dataset contains very different kinds of sentences. But what we can tell is that our ensemble mode worked a smudge better on this unseen data thus could generalize a little better than our best baseline model. We are satisfied with this result and the outcome of our project.
+
+![Results Ensemble](media/results_ensemble_own.svg)
+
+
+
