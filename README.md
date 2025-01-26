@@ -202,5 +202,6 @@ We can see that the scores on this test set are lower than on the test part of o
 
 ![Results Ensemble](./media/result_ensemble_own.svg)
 
+The female specific model performed highly accurately because the dataset we assembled was relatively small and the contents of it contained many phrases associated with females.
 
 
